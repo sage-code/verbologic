@@ -1,0 +1,30 @@
+# Verbologic Project Rules & Constraints
+
+## 1. Terminal Execution & Process Safety (CRITICAL)
+* **NO PIPING TO TAIL OR HEAD:** Never pipe or redirect stdout/stderr to `tail`, `head`, `less`, `more`, or `grep` (e.g., NEVER run `npm run generate 2>&1 | tail -30`). Piping buffers output, hides interactive prompts, and freezes Cline execution.
+* **ENFORCE NON-INTERACTIVE MODE:** Prepend non-interactive environment flags to all node, build, or package management commands:
+  `NUXT_TELEMETRY_DISABLED=1 CI=true npm run <script>`
+* **DIRECT RUNS:** Run commands directly so streams close cleanly when finished.
+
+## 2. Tech Stack & Styling Standards
+* **Framework:** Nuxt 3 (SSG mode via `nuxi generate`), Vue 3 Composition API (`<script setup lang="ts">`).
+* **Styling:** Use **Tailwind CSS** utility classes inline inside Vue templates. Do not install Bootstrap or write custom global CSS stylesheets.
+* **State & DB:** Pinia for client-side state management; Supabase JS SDK for authentication and PostgreSQL data calls.
+
+## 3. $O(N)$ Architecture & Data Schema
+* **Content Decoupling:** Keep canonical entity records in `public/data/entities/` and translation dictionaries in `public/data/locales/[lang].json`.
+* **Zero Binary Files in Git:** Never commit `.mp3`, `.mp4`, or high-res `.webp` files to Git. Reference all media assets using the external Cloudflare R2 CDN URL structure:
+  `https://media.verbologic.com/[type]/[filename]`
+* **Vue Islands & Component Isolation:** Write self-contained, interactive Vue components (e.g., `<ExpressionSearch />`, `<QuizEngine />`) inside `src/components/`.
+
+## 4. Code Generation Rules
+* Use strict TypeScript. Avoid `any` types.
+* Follow Vue 3 `<script setup lang="ts">` patterns exclusively.
+* When editing files, generate full production-ready code without omitting implementation logic or leaving `// TODO` placeholders.
+## Logging & Temp Directory Rules (Windows OS)
+* **Temp Folder Usage:** Use `./temp/` for all temporary execution logs, intermediate outputs, and script dumps. Never use `/tmp/` or system root paths.
+* **Windows Compatibility:** Operating system is Windows. Never emit POSIX/Linux syntax (`:;`, `2>&1`, `cat`, `echo EXIT=$?`).
+* **Clean Logging Syntax:** Write script outputs directly using cross-platform paths:
+  `node scripts/<script_name>.js > ./temp/<output>.log`
+  
+* **Direct Execution:** Never pipe output to `tail`, `head`, or pagers. Allow processes to finish naturally.

@@ -1,0 +1,80 @@
+/* ------------------------------------------------------------------
+ * Verbologic layout — responsive shell rules.
+ * Mobile-first: content is full-width with small gutters; it grows
+ * fluidly up to a 1400px cap where centered gutters reappear.
+ * Nav pills collapse to round icon buttons; orientation rules keep
+ * awkward aspect ratios usable.
+ * ------------------------------------------------------------------ */
+
+/* Main content container — fluid width capped at 1400px */
+.app-container {
+  width: 100%;
+  max-width: 1400px;
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+
+@media (min-width: 641px) {
+  .app-container {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .app-container {
+    /* At/above desktop the container pins at 1400px and gutters stay. */
+    padding-inline: 32px;
+  }
+}
+
+/* Header — logo row on the left, controls right; stacks in portrait */
+.app-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+@media (orientation: portrait) and (max-width: 640px) {
+  .app-header-inner {
+    flex-wrap: wrap;
+  }
+}
+
+/* Toolbar: pill buttons on ≥sm, round icon-only buttons on <sm */
+.nav-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  border-radius: 9999px;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .nav-pill {
+    width: 2.75rem;
+    height: 2.75rem;
+    justify-content: center;
+    padding: 0;
+  }
+  .nav-item-label {
+    display: none;
+  }
+}
+
+/* Landscape phone/small-tablet (short viewport): compact vertical rhythm */
+@media (orientation: landscape) and (max-height: 540px) {
+  .app-header-inner {
+    padding-block: 6px;
+  }
+  .app-main {
+    padding-block: 12px;
+  }
+}
+
+/* Prevent horizontal overflow on any viewport */
+html,
+body {
+  overflow-x: hidden;
+}

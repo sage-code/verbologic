@@ -1,0 +1,45 @@
+// AppNav — toolbar of pill buttons (round icon-only buttons on mobile).
+<script setup lang="ts">
+import type { Component } from 'vue'
+import {
+  HomeIcon,
+  BookOpenIcon,
+  LanguageIcon,
+  AcademicCapIcon,
+  InformationCircleIcon
+} from '@heroicons/vue/24/outline'
+
+const { menu, menuLabel } = useNavigation()
+const route = useRoute()
+
+const ICONS: Record<string, Component> = {
+  home: HomeIcon,
+  'book-open': BookOpenIcon,
+  language: LanguageIcon,
+  'academic-cap': AcademicCapIcon,
+  'information-circle': InformationCircleIcon
+}
+
+function isActive(target: string): boolean {
+  return target === '/' ? route.path === '/' : route.path.startsWith(target)
+}
+</script>
+
+<template>
+  <nav class="flex flex-wrap items-center gap-2" aria-label="Main navigation">
+    <NuxtLink
+      v-for="item in menu"
+      :key="item.id"
+      :to="item.route"
+      class="nav-pill text-sm font-medium transition"
+      :class="
+        isActive(item.route)
+          ? 'bg-accent text-on-accent shadow-sm'
+          : 'bg-soft text-muted hover:bg-surface hover:text-accent'
+      "
+    >
+      <component :is="ICONS[item.icon]" class="h-5 w-5 shrink-0" aria-hidden="true" />
+      <span class="nav-item-label">{{ menuLabel(item.id) }}</span>
+    </NuxtLink>
+  </nav>
+</template>

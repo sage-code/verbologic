@@ -1,0 +1,54 @@
+/* ------------------------------------------------------------------
+ * Verbologic themes — two modes defined as CSS custom properties.
+ * Components consume the semantic tokens below; Tailwind maps them to
+ * utilities (bg-surface, text-content, border-edge, bg-accent…) via
+ * theme.extend.colors in tailwind.config.ts.
+ * The active mode is set by <html data-theme="light|dark">.
+ * ------------------------------------------------------------------ */
+
+:root {
+  color-scheme: light;
+  --color-body: #f8fafc;          /* page background (slate-50) */
+  --color-surface: #ffffff;       /* cards / header / footer */
+  --color-surface-soft: #f1f5f9;  /* toolbar pill resting state */
+  --color-content: #0f172a;       /* primary text (slate-900) */
+  --color-muted: #64748b;         /* secondary text (slate-500) */
+  --color-faint: #94a3b8;         /* tertiary text (slate-400) */
+  --color-edge: #e2e8f0;          /* borders (slate-200) */
+  --color-edge-strong: #cbd5e1;   /* input borders (slate-300) */
+  --color-accent: #3b6ee0;        /* brand accent (brand-600) */
+  --color-accent-strong: #2f5bc4; /* pressed accent (brand-700) */
+  --color-accent-soft: #eef4ff;   /* tinted accent wash (brand-50) */
+  --color-on-accent: #ffffff;     /* text/icon on accent backgrounds */
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+  --color-body: #0b1120;
+  --color-surface: #131c31;
+  --color-surface-soft: #1d2942;
+  --color-content: #e2e8f0;
+  --color-muted: #94a3b8;
+  --color-faint: #64748b;
+  --color-edge: #22304a;
+  --color-edge-strong: #33445f;
+  --color-accent: #6d9bff;
+  --color-accent-strong: #8ab0ff;
+  --color-accent-soft: rgba(59, 110, 224, 0.22);
+  --color-on-accent: #0b1120;
+}
+
+/* Gentle cross-fade when switching modes */
+html,
+body,
+header,
+main,
+footer,
+input,
+button,
+a {
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}

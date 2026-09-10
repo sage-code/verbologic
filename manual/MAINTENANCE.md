@@ -1,0 +1,229 @@
+# Verbologic — Maintenance Manual
+
+What a maintainer must know to keep `verbologic.com` healthy: where the content
+lives, where the navigation is defined, where the layout comes from, and how to
+edit everything **by hand** when no agent is involved.
+
+---
+
+## 1. The big picture
+
+```
+┌───────────────────────────  Git repo (slim)  ───────────────────────────┐
+│  src/data/navigation.json   ← MENU, languages, social (builder data)    │
+│  public/data/entities/*.json      ← CONTENT (generated, then curated)   │
+│  public/data/locales/*.json       ← UI strings (generic chrome)         │
+│  src/layouts/default.vue    ← LAYOUT shell (header+nav+footer)          │
+│  src/components/*.vue       ← Header/Footer/LanguageSwitcher/AppNav     │
+│  src/assets/css/layout.css  ← responsive @media rules                   │
+│  src/pages/**               ← routes (/, /ro, /en, /lessons, /about)    │
+│  scripts/*.mjs              ← maintenance/build/media tooling           │
+│  run                        ← one command to rule them all              │
+└─────────────────────────────────────────────────────────────────────────┘
+      │ anywhere run <command>
+      ▼
+  npm run dev / generate  →  .output/public  →  Cloudflare Pages / R2
+```
+
+Generated/derived things that you must **never** edit or commit: `.nuxt/`,
+`.output/`, `dist/`, `node_modules/`, `media/` (binary staging), `archive/`
+(legacy source only), `temp/` (scripts scratch).
+
+---
+
+## 2. Navigation menu — where it is & how to maintain it
+
+**Authoritative file: `src/data/navigation.json`** — imported at build time,
+so the menu is baked into the pre-rendered HTML (no runtime fetch).
+
+| What you maintain | Where | Notes |
+| --- | --- | --- |
+| Menu items + routes + icons | `navigation.json → menu[]` | `id`, `icon` (Heroicon key), `route`, `order` |
+| Labels in every language | `navigation.json → menuLabels` | one entry per language per item; EN is fallback |
+| Interface languages list | `navigation.json → languages[]` | `code` (shown), `label`, `flag` (ISO country code), `locale` |
+| Social footer links | `navigation.json → social[]` | `id`, `label`, `url`, `icon` (brand slug) |
+| Menu rendering | `src/components/AppNav.vue` | pill buttons; round icon-only on ≤640px |
+| Language dropdown | `src/components/LanguageSwitcher.vue` | flag image + code; hidden until opened |
+| Flag graphics | `src/components/LanguageFlag.vue` | SVG flags from `flag-icons` (`flag` = ISO code) |
+| Social logos | `src/components/SocialIcon.vue` | brand SVGs from `simple-icons` (`icon` = brand slug) |
+| Social row | `src/components/AppFooter.vue` | centered, brand-color logos + labels |
+
+### How to add a menu item (manual, ~4 steps)
+1. Create the page route, e.g. `src/pages/contact/index.vue`.
+2. Add it to `menu[]` in `navigation.json` (correct `order`).
+3. Add `"contact": "Contact"` (and translations) under **every** `menuLabels.<lang>`.
+4. Pick an icon from `@heroicons/vue/24/outline` and add it to the `ICONS` map
+   in `AppNav.vue` (the JSON value must match that key).
+
+### How to change a label
+Edit `menuLabels.<lang>.<id>` in `navigation.json`. Rebuild. Done — no component
+change needed.
+
+### How to add a new interface language
+1. `navigation.json → languages[]`: add `{ "code", "label", "flag", "locale" }` — **plus** register
+   the flag SVG import in `src/components/LanguageFlag.vue` (flag-icons ships hundreds of ISO codes).
+2. `navigation.json → menuLabels`: add a `<locale>` block covering every item id.
+3. Optional UI chrome: create `public/data/locales/<locale>.json`; until then the app falls back
+   to English chrome automatically.
+4. `scripts/validate-data.mjs → KNOWN_FLAGS`: include the new ISO code so `run validate` catches it.
+
+### How to change a footer brand logo
+`navigation.json → social[].icon` must match a slug registered in `src/components/SocialIcon.vue`
+(from `simple-icons`). Editing labels/URLs is pure JSON; changing the logo itself means wiring a new
+`simple-icons` import.
+---
+
+## 3. Content — where the source of truth lives
+
+### 3.1 Static entities (the O(N) core)
+| File | What | Count |
+| --- | --- | --- |
+| `public/data/entities/ro_vocabulary.json` | themed vocabulary | 150 |
+| `public/data/entities/ro_questions.json` | Q&A drills | 135 |
+| `public/data/entities/ro_imperative.json` | imperative phrases | 75 |
+| `public/data/entities/ro_sentences.json` | sentence corpus | 30 |
+| `public/data/entities/ro_greetings.json` | greeting formulas | 15 |
+| `public/data/entities/ro_alphabet.json` | letters + digraphs (contrastive) | 53 |
+| `public/data/entities/en_alphabet.json` | EN alphabet + patterns (IPA) | 74 |
+
+**Schema per entity** (language-neutral, zero UI strings):
+
+```jsonc
+{
+  "id": "word_salut",            // unique; "<type>_<slug>"
+  "type": "word",                // word | sentence | question | imperative | letter
+  "lang": "ro",                  // ro | en (target language)
+  "term": "salut",               // term in the target language
+  "ipa": null,                   // IPA only on alphabet entities for now
+  "translations": { "en": "hello", "es": "hola", "it": "ciao", "fr": "salut" },
+  "context": null,               // usage note (greetings / patterns)
+  "audio": "https://media.verbologic.com/audio/ro/word_salut.mp3" // null = TTS queue
+}
+```
+
+**IMPORTANT — how these files are born.** They are **generated** from the legacy
+HTML archive by `scripts/extract-legacy.mjs` (parses the `data-audio` tables).
+Do **not** edit them as part of a release; instead:
+
+```bash
+node scripts/extract-legacy.mjs   # regenerates all 7 files + locales/chrome
+run validate                       # checks ids/audio/labels integrity
+run build                          # differential: only rebuilds if hashes changed
+```
+
+### 3.2 Locales (generic UI chrome)
+`public/data/locales/en.json` and `ro.json` contain `ui` strings (play/search
+labels) and, in `ro.json`, `contrastive.*` notes shown under alphabet rows.
+Files for other languages (`de`, `ru`, …) are optional; absent files fall back
+to English chrome.
+
+### 3.3 Media / audio
+Audio is **not** in Git. The local staging area is `media/audio/<lang>/<id>.mp3`
+(git-ignored), synced to R2 at `https://media.verbologic.com/` **differentially**
+by `scripts/media-sync.mjs`. A `media/audio-manifest.json` stores per-key
+hashes so only changed/new files are uploaded.
+
+```bash
+run media stage      # copy legacy archive mp3s into media/audio staging layout
+run media manifest   # recompute media/audio-manifest.json (differential baseline)
+run media verify     # report missing files / TTS queue / orphans
+run media upload     # requires R2 credentials; uploads only changed keys
+```
+
+`audio: null` in an entity = queued for TTS regeneration (alphabet + greetings,
+68 items). Once generated, drop the file into staging and `run media upload`.
+
+### 3.4 Lessons (future)
+`content/<lang>/*.md` via `@nuxt/content` — arrives in Phase 3. Nothing to
+maintain yet.
+
+---
+
+## 4. Layout — where it is & how to maintain it manually
+
+| Concern | File | Manual edit |
+| --- | --- | --- |
+| App shell order | `src/layouts/default.vue` | header → container(nav+page) → footer; `flex` column, min-h-screen |
+| Header bar | `src/components/AppHeader.vue` | logo SVG, wordmark, `<LanguageSwitcher/>` |
+| Toolbar | `src/components/AppNav.vue` | pill markup, active-state classes |
+| Language dropdown | `src/components/LanguageSwitcher.vue` | dropdown trigger + option list |
+| Footer | `src/components/AppFooter.vue` | social row + copyright |
+| **Responsive rules** | `src/assets/css/layout.css` | `.app-container` (1400px cap), `.nav-pill` (rounded below 640px), portrait/landscape `@media` |
+| Palette / theme | `tailwind.config.ts` | `theme.extend.colors.brand` + content globs |
+| Base + utility styles | `src/assets/css/tailwind.css` | Tailwind directives only |
+
+### Key responsive rules (in `layout.css`)
+- `.app-container` — `max-width: 1400px; margin-inline: auto`; gutters 16px on
+  mobile → 24px ≥641px → 32px ≥1440px.
+- `.nav-pill` — pill by default; `@media (max-width: 640px)` forces a 2.75rem
+  circle and hides `.nav-item-label` (icon-only).
+- `@media (orientation: landscape) and (max-height: 540px)` — compacts header/nav
+  vertical rhythm for short screens.
+- `@media (orientation: portrait) and (max-width: 640px)` — allows the header to
+  wrap (logo row, controls row).
+
+### How to change the look (typical tasks)
+- **Center content tighter/looser:** edit `.app-container` `max-width` (default 1400px).
+- **Colors:** `tailwind.config.ts` → `brand` palette; components use `brand-600/700`.
+- **Reorder toolbar:** change `order` in `navigation.json` — no CSS involved.
+- **Sticky header:** it's already `sticky top-0` in `AppHeader.vue`.
+
+---
+
+## 5. Build & deploy commands (the `run` tool)
+
+| Command | What it does |
+| --- | --- |
+| `run help` | show every command |
+| `run dev` | Nuxt dev server, http://localhost:3000 |
+| `run build` | **differential build** — only regenerates when source/content hashes changed |
+| `run build --force` | ignore the hash gate and rebuild |
+| `run validate` | entity/nav/locale integrity checks |
+| `run media …` | stage / manifest / verify / upload audio |
+| `run clean` | remove build junk, keep `.nuxt` (fast next build) |
+| `run clean-deep` | remove build junk + `.nuxt` cache |
+| `run tsc` | vue-tsc typecheck |
+| `run commit "<msg>"` | `git add -A` + commit |
+| `run push` | push branch (triggers Cloudflare Pages deploy) |
+| `run release "<msg>"` | build → validate → media manifest → commit → push (deploys) |
+| `run deploy-pages` | `wrangler pages deploy .output/public` (differential upload; needs `CLOUDFLARE_API_TOKEN`) |
+
+### Why the build is differential
+`scripts/fingerprint.mjs` hashes `src/**`, `public/data/**`, configs and the
+package manifests into `temp/build.fingerprint`. `run build` reuses the existing
+`.output/public` whenever the hash is unchanged, so quick "build again" cycles
+skip regeneration. Any source/content change short-circuits that and regenerates.
+`--force` bypasses the gate.
+
+### Deployment paths (pick one)
+1. **Automatic (recommended):** push to the GitHub `main` branch; Cloudflare
+   Pages auto-deploys. `run release` does exactly this.
+2. **Direct Pages upload (differential):** `run deploy-pages` — Wrangler hashes
+   and uploads only the changed files from `.output/public`.
+3. **Media:** `run media upload` (R2) — manifest-gated, uploads only new/changed
+   audio keys.
+
+### One-time prerequisites
+- Install deps: `run install`.
+- Git remote set (`git remote -v`), branch `main`.
+- Cloudflare Pages project linked to the repo (build command `npm run generate`,
+  output directory `.output/public`) **or** `CLOUDFLARE_API_TOKEN` for
+  `deploy-pages`.
+- R2 env vars for `media upload`: `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`,
+  `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`.
+
+---
+
+## 6. Recipe drawer (common manual jobs)
+
+- *"I fixed a word in the archive HTML"* → `node scripts/extract-legacy.mjs` → `run validate` → `run build`
+- *"I want a 6th toolbar item"* → §2 steps in `navigation.json` + page + `AppNav.ICONS`
+- *"The menu reads better in French"* → edit `menuLabels.fr` in `navigation.json`
+- *"New pronunciation file arrived from TTS"* → copy to `media/audio/<lang>/` → `run media manifest` → `run media upload`
+- *"Mobile layout looks off in landscape"* → `layout.css` `@media (orientation: landscape)` block
+- *"Rebuild everything from scratch"* → `run clean-deep` → `run build --force`
+
+
+2. `navigation.json → menuLabels`: add a `<locale>` block covering every item id.
+3. Optional UI chrome: create `public/data/locales/<locale>.json`; until then the
+   app falls back to English chrome automatically.

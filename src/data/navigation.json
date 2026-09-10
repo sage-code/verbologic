@@ -1,0 +1,37 @@
+{
+  "languages": [
+    { "code": "EN", "label": "English", "flag": "us", "locale": "en" },
+    { "code": "RO", "label": "Română", "flag": "ro", "locale": "ro" },
+    { "code": "DE", "label": "Deutsch", "flag": "de", "locale": "de" },
+    { "code": "RU", "label": "Русский", "flag": "ru", "locale": "ru" },
+    { "code": "IT", "label": "Italiano", "flag": "it", "locale": "it" },
+    { "code": "SP", "label": "Español", "flag": "es", "locale": "es" },
+    { "code": "FR", "label": "Français", "flag": "fr", "locale": "fr" },
+    { "code": "HU", "label": "Magyar", "flag": "hu", "locale": "hu" },
+    { "code": "PT", "label": "Português", "flag": "pt", "locale": "pt" }
+  ],
+  "menu": [
+    { "id": "home", "icon": "home", "route": "/", "order": 0 },
+    { "id": "romanian", "icon": "book-open", "route": "/ro", "order": 1 },
+    { "id": "english", "icon": "language", "route": "/en", "order": 2 },
+    { "id": "lessons", "icon": "academic-cap", "route": "/lessons", "order": 3 },
+    { "id": "about", "icon": "information-circle", "route": "/about", "order": 4 }
+  ],
+  "menuLabels": {
+    "en": { "home": "Home", "romanian": "Romanian", "english": "English", "lessons": "Lessons", "about": "About" },
+    "ro": { "home": "Acasă", "romanian": "Română", "english": "Engleză", "lessons": "Lecții", "about": "Despre" },
+    "de": { "home": "Startseite", "romanian": "Rumänisch", "english": "Englisch", "lessons": "Lektionen", "about": "Über uns" },
+    "ru": { "home": "Главная", "romanian": "Румынский", "english": "Английский", "lessons": "Уроки", "about": "О нас" },
+    "it": { "home": "Home", "romanian": "Rumeno", "english": "Inglese", "lessons": "Lezioni", "about": "Chi siamo" },
+    "es": { "home": "Inicio", "romanian": "Rumano", "english": "Inglés", "lessons": "Lecciones", "about": "Acerca de" },
+    "fr": { "home": "Accueil", "romanian": "Roumain", "english": "Anglais", "lessons": "Leçons", "about": "À propos" },
+    "hu": { "home": "Kezdőlap", "romanian": "Román", "english": "Angol", "lessons": "Leckék", "about": "Rólunk" },
+    "pt": { "home": "Início", "romanian": "Romeno", "english": "Inglês", "lessons": "Lições", "about": "Sobre" }
+  },
+  "social": [
+    { "id": "bluesky", "label": "Bluesky", "url": "https://bsky.app/profile/verbologic.com", "icon": "bluesky" },
+    { "id": "discord", "label": "Discord", "url": "https://discord.gg/verbologic", "icon": "discord" },
+    { "id": "youtube", "label": "YouTube", "url": "https://youtube.com/@verbologic", "icon": "youtube" },
+    { "id": "reddit", "label": "Reddit", "url": "https://reddit.com/r/verbologic", "icon": "reddit" }
+  ]
+}

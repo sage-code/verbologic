@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------
+ * Typography system (loaded from Google Fonts — see nuxt.config.ts head)
+ *
+ *   Space Grotesk 700        → --font-header   (h1–h6, titles)
+ *   Plus Jakarta Sans 600    → --font-ui       (buttons, selects, inputs, dropdowns)
+ *   Inter 400/500            → --font-body     (body copy, paragraphs, lists)
+ *
+ * Unicode subsetting: the css2 endpoint ships per-subset @font-face
+ * blocks with `unicode-range`, so the browser only downloads what it
+ * uses — Cyrillic (Russian UI) and Latin Extended (Hungarian ő/ű)
+ * included on demand. `display=swap` is set on the stylesheet URL.
+ * ------------------------------------------------------------------ */
+:root {
+  /* 'Inter' as a glyph fallback after Space Grotesk / Plus Jakarta Sans:
+     neither ships the basic Cyrillic block (U+0400-045F), while Inter does —
+     Russian headings/buttons therefore render consistently instead of
+     silently falling back to the system font. Latin is unaffected. */
+  --font-header: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-ui: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    font-weight: 400;
+  }
+
+  /* Headers — Space Grotesk 700 */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-header);
+    font-weight: 700;
+  }
+
+  /* UI controls — Plus Jakarta Sans 600 with tight tracking */
+  button,
+  select,
+  input,
+  textarea,
+  .dropdown {
+    font-family: var(--font-ui);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+}
+

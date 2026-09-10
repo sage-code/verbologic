@@ -1,0 +1,110 @@
+#!/usr/bin/env bash
+# ────────────────────────────────────────────────────────────────────────────
+#  Verbologic maintenance runner.
+#  One entry point for build / clean / commit / push / release / media tooling.
+#  Usage: run <command> [args]      (or: ./run <command>)
+# ────────────────────────────────────────────────────────────────────────────
+set -o pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$ROOT"
+
+GREEN=$'\033[0;32m'; YELLOW=$'\033[1;33m'; RED=$'\033[0;31m'; NC=$'\033[0m'
+say()  { printf "${GREEN}[run]${NC} %s\n" "$*"; }
+warn() { printf "${YELLOW}[run]${NC} %s\n" "$*"; }
+fail() { printf "${RED}[run]${NC} %s\n" "$*" >&2; exit 1; }
+
+usage() {
+cat <<'EOF'
+Verbologic maintenance runner
+─────────────────────────────
+  run help                          Show this help
+  run dev                           Start Nuxt dev server (http://localhost:3000)
+  run install                       Install dependencies
+  run build [--force]               Differential build (skips rebuild when nothing changed)
+  run validate                      Entity/nav/locale integrity checks
+  run media [stage|manifest|verify] Audio staging & differential manifest
+  run clean                         Remove build junk (keeps .nuxt cache)
+  run clean-deep                    Remove build junk AND the .nuxt cache
+  run tsc                           Type-check (vue-tsc)
+  run status                        Git status + build-fingerprint state
+  run commit "<message>"            Stage + commit all changes
+  run push                          Push current branch (triggers Pages deploy)
+  run release "<message>"           build → validate → media manifest → commit → push
+  run deploy-pages                  Wrangler Pages differential upload
+EOF
+}
+
+differential_build() {
+  if node scripts/fingerprint.mjs --check; then
+    say "No source/content changes — reusing existing static build (.output/public)."
+    say "Use 'run build --force' to regenerate anyway."
+    return 0
+  fi
+  say "Changes detected — regenerating the static site (differential)."
+  npx nuxi prepare
+  npm run generate || fail "build failed"
+  node scripts/fingerprint.mjs --save
+  say "Build finished → .output/public"
+}
+
+case "${1:-help}" in
+  help|-h|--help) usage ;;
+  dev)            npm run dev ;;
+  install)        npm install ;;
+  tsc)            npx nuxi prepare && npx vue-tsc --noEmit ;;
+  status)
+    git status --short
+    node scripts/fingerprint.mjs --check || true
+    ;;
+  build)
+    if [[ "${2:-}" == "--force" ]]; then
+      say "Forced full build."
+      npx nuxi prepare
+      npm run generate
+      node scripts/fingerprint.mjs --save
+    else
+      differential_build
+    fi
+    ;;
+  validate)  node scripts/validate-data.mjs ;;
+  media)     shift; node scripts/media-sync.mjs "${1:-manifest}" ;;
+  clean)
+    warn "Removing dist/, temp/, node_modules/.cache, .output/"
+    rm -rf dist temp .output node_modules/.cache
+    say "Cleaned — .nuxt kept for fast next build."
+    ;;
+  clean-deep)
+    warn "Removing build artifacts AND the .nuxt cache."
+    rm -rf dist temp .output .nuxt node_modules/.cache
+    npm run postinstall
+    say "Deep cleaned. Regenerate with 'run build --force'."
+    ;;
+  commit)
+    msg="${2:?usage: run commit \"<message>\"}"
+    git add -A
+    git commit -m "$msg" || fail "commit failed"
+    say "Committed: $msg"
+    ;;
+  push)
+    branch="$(git branch --show-current)"
+    git push origin "$branch" || fail "push failed"
+    say "Pushed $branch — Cloudflare Pages is (re)deploying."
+    ;;
+  release)
+    differential_build
+    node scripts/validate-data.mjs || warn "validation reported issues"
+    node scripts/media-sync.mjs manifest || warn "media manifest failed/skipped"
+    msg="${2:-release $(date +%Y-%m-%d %H:%M)}"
+    git add -A
+    git commit -m "$msg" || warn "nothing to commit"
+    git push origin "$(git branch --show-current)" || fail "push failed"
+    say "Released ✓ — website deployed by Cloudflare Pages."
+    ;;
+
+  deploy-pages)
+    [[ -n "${CLOUDFLARE_API_TOKEN:-}" ]] || \
+      fail "CLOUDFLARE_API_TOKEN is not set — create one at https://dash.cloudflare.com/profile/api-tokens"
+    npx wrangler pages deploy .output/public --project-name=verbologic
+    ;;
+  *) warn "Unknown command: ${1:-}"; usage ;;
+esac

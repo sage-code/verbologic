@@ -1,0 +1,88 @@
+// ExpressionSearch — instant client-side vocabulary/phrase browser with audio.
+<script setup lang="ts">
+import type { Lang, VerbologicEntity } from '~/types/entities'
+import { useSearchStore } from '~/stores/searchStore'
+
+const props = defineProps<{ lang: Lang }>()
+const store = useSearchStore()
+const { t } = useLocale()
+const loading = ref(true)
+
+onMounted(async () => {
+  await store.init(props.lang)
+  loading.value = false
+})
+
+const inputClass =
+  'w-full rounded-lg border border-edge-strong bg-surface px-4 py-2 text-sm text-content placeholder:text-faint shadow-sm focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/30'
+
+/** Primary gloss for the active track: en for the Romanian track, ro for the English track. */
+function gloss(e: VerbologicEntity): string {
+  if (props.lang === 'ro') {
+    return e.translations.en || e.translations.es || e.translations.it || e.translations.fr || ''
+  }
+  return e.translations.ro || ''
+}
+
+function note(e: VerbologicEntity): string | null {
+  if (props.lang !== 'ro') return null
+  return t(`contrastive.${e.id}`)
+}
+
+function typeLabel(type: VerbologicEntity['type']): string {
+  return {
+    word: 'Word',
+    sentence: 'Sentence',
+    question: 'Q&A',
+    imperative: 'Imperative',
+    letter: 'Letter',
+    greeting: 'Greeting'
+  }[type]
+}
+</script>
+
+<template>
+  <div class="space-y-4">
+    <!-- Loading shell -->
+    <div v-if="loading" class="rounded-lg border border-edge bg-surface p-6 text-sm text-muted">
+      {{ t('ui.search_placeholder') }}…
+    </div>
+
+    <template v-else>
+      <input
+        v-model="store.query"
+        :class="inputClass"
+        type="search"
+        :placeholder="t('ui.search_placeholder') || 'Search…'"
+      />
+
+      <p class="text-xs text-muted">
+        {{ store.results.length }} results
+        <span v-if="store.query"> for “{{ store.query }}”</span>
+      </p>
+
+      <ul class="divide-y divide-edge overflow-hidden rounded-lg border border-edge bg-surface shadow-sm">
+        <li v-for="e in store.results" :key="e.id" class="flex items-start gap-3 px-4 py-3">
+          <MediaViewer :src="e.audio" :label="e.term" />
+
+          <div class="min-w-0 flex-1">
+            <div class="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+              <span class="font-medium text-content">{{ e.term }}</span>
+              <span v-if="e.ipa" class="rounded bg-soft px-1.5 py-0.5 text-xs text-muted">{{ e.ipa }}</span>
+              <span v-if="e.example" class="text-sm text-accent">{{ e.example }}</span>
+              <span class="text-xs uppercase tracking-wide text-faint">{{ typeLabel(e.type) }}</span>
+              <span v-if="e.category" class="text-xs text-faint">{{ e.category.title }}</span>
+            </div>
+            <p v-if="gloss(e)" class="mt-0.5 text-sm text-muted">{{ gloss(e) }}</p>
+            <p v-if="e.context" class="mt-0.5 text-xs text-faint">{{ e.context }}</p>
+            <ContrastiveNote :note="note(e)" />
+          </div>
+        </li>
+
+        <li v-if="store.results.length === 0" class="px-4 py-6 text-sm text-muted">
+          {{ t('ui.no_results') || 'No matches found.' }}
+        </li>
+      </ul>
+    </template>
+  </div>
+</template>

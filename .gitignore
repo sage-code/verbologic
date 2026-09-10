@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Node / Nuxt 3 (Verbologic) ---
+node_modules/
+.nuxt/
+.output/
+.data/
+dist/
+*.log
+
+# Legacy raw content — binary audio + previous roadmap sites, regenerable; never pushed.
+/archive/
+
+# Local scratch — command logs, inspection scripts.
+/temp/
+
+# Human-gatekeeping: audio/media staging stays local, synced to R2 via CI/CD.
+/temp/
+/media/
+coverage/
+.nyc_output/
+.env.*
+!.env.example
+

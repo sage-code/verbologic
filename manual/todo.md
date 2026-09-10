@@ -1,0 +1,120 @@
+# Verbologic — Build To-Do List
+
+**Status:** [ ] todo · [~] in progress · [x] done
+**Stack:** Nuxt 3 (SSG) · Pinia · Fuse.js · Supabase (later) · Cloudflare R2 (later)
+
+## 🤔 Decisions needed
+- [x] Styling — **Tailwind CSS** via `@nuxtjs/tailwindcss` (utility-first, inline classes in all components)
+- [ ] Milestone scope — minimal / FE+data / full stack (Supabase+R2)
+- [ ] Content module — `@nuxt/content` for MD lessons (default: yes)
+
+## Phase 0 — Prep
+- [x] Confirm Node ≥ 18 (have v24.18.0 ✅) and npm (have 11.16.0 ✅)
+- [x] Package manager: npm (only one installed; optionally pnpm/yarn via corepack)
+
+## Phase 1 — Nuxt 3 scaffold
+- [x] Create `package.json`
+- [x] Create `nuxt.config.ts` (SSR + SSG via `nuxt generate`, `srcDir: 'src/'`)
+- [x] Create `tsconfig.json`, `src/app.vue`, `src/pages/index.vue`
+- [x] Update `.gitignore` (`node_modules`, `.nuxt`, `.output`, `.data`, `media/`)
+- [x] `npm install` deps (nuxt, @pinia/nuxt, pinia, fuse.js, typescript, vue-tsc)
+- [x] Validate with a production `nuxt generate` build
+
+## Phase 1.5 — Tailwind CSS styling
+- [x] Install `@nuxtjs/tailwindcss` (tailwindcss 3.4.19)
+- [x] `tailwind.config.ts` with `src/` content globs + `brand` palette
+- [x] `src/assets/css/tailwind.css` entry wired via `nuxt.config.ts` `css`
+- [x] Convert all Vue components to inline utility classes
+- [x] Verify compiled output (brand-600 → rgb(47 91 196) ✅)
+
+## Phase 2 — Decoupled data layer (the $O(N)$ core)
+- [x] `public/data/entities/` — 7 files / 532 entities generated from legacy HTML (via `scripts/extract-legacy.mjs`)
+- [x] `public/data/locales/en.json` + `ro.json` (UI chrome + 53 contrastive notes)
+- [x] `src/stores/searchStore.ts` — Fuse.js index over entity JSON
+- [x] `src/composables/useEntities.ts` (+ `useLocale.ts`, `src/types/entities.ts`)
+- [x] `src/components/ExpressionSearch.vue`
+- [x] `src/components/MediaViewer.vue` (R2 URL audio player, graceful on missing)
+- [x] `src/components/ContrastiveNote.vue`
+- [x] `src/pages/ro/index.vue` + `src/pages/en/index.vue` (real track pages, UI-lang toggle)
+- [x] Fix: `dir.public` absolute-path pin (root `public/` now reaches build output)
+- [x] Typecheck (`vue-tsc`) + production `npm run generate` both pass
+- [x] Dependency hygiene: TypeScript pinned to 5.x (vue-tsc), `@types/node` added
+
+## Workspace DX — VS Code live local preview
+- [x] `.vscode/settings.json` — Live Server root pinned to `.output/public`, Tailwind/Vue formatting
+- [x] `.vscode/tasks.json` — tasks: Nuxt dev (default build), Generate, Generate+Liver preview, Serve static
+- [x] `.vscode/launch.json` — F5 node debug launcher for `npm run dev`
+- [x] `.vscode/extensions.json` — recommended: Volar, NuxtR, Tailwind, Live Server
+- [x] `package.json` `preview` → `python -m http.server 4173 --directory .output/public`
+## Layout & Navigation (mobile-first shell)
+- [x] `src/layouts/default.vue` — header / nav toolbar / page / footer shell
+- [x] `src/assets/css/layout.css` — explicit `@media` rules: 1400px container cap + fluid shrink, portrait stacking, landscape compaction, pill→round nav on mobile
+- [x] `src/data/navigation.json` — 9 interface languages (flags+short codes), 5 menu items (Home first) with routes+icons, full labels for all 9 languages, social footer
+- [x] `src/components/AppHeader.vue` (SVG logo) · `LanguageSwitcher.vue` (dropdown) · `AppNav.vue` (pills→round) · `AppFooter.vue` (centered social)
+- [x] `useLocale` extended to 9 locales w/ EN fallback; `useNavigation` build-inlines the nav data
+- [x] `@heroicons/vue@2.2.0` installed; menu icons mapped by JSON key
+- [x] Placeholder `/lessons` + `/about` routes
+- [x] Verified: 12 routes prerendered, 5 menu labels + US flag + social links in static HTML, CSS rules inlined
+
+## Maintenance toolkit (manual + `run` launcher)
+- [x] `manual/MAINTENANCE.md` — nav content/layout locations, manual-edit recipes, deploy paths
+- [x] `run` launcher: `help dev install build(–force) validate media clean clean-deep tsc status commit push release deploy-pages`
+- [x] `scripts/fingerprint.mjs` — differential build gate (content hash → skip rebuild when unchanged)
+- [x] `scripts/validate-data.mjs` — entity types/ids/audio URLs, 9-language label coverage; FAILED→exit 1
+- [x] `scripts/media-sync.mjs` — stage 464 mp3s from archive, sha1 manifest (462 unique keys), verify, upload stub (R2 env vars)
+- [x] Differential build verified: change → rebuild; unchanged → skip; `--force` bypass
+- [x] Fixed during test pass: `greeting` entity type (was missing from enums), archive path `romanian`≠`ro`, clean staging layout, `nuxi prepare` before typecheck/build
+
+## Layout fix — header restructure + light/dark themes
+- [x] Header = logo (left) → **AppNav between logo and flags** → theme toggle + language dropdown (right)
+- [x] `src/components/ThemeToggle.vue` — sun/moon selector, persists to localStorage (`verbologic-theme`), toggles `<html data-theme>`
+- [x] `src/plugins/theme.client.ts` — applies persisted theme before paint
+- [x] `src/assets/css/themes.css` — **CSS variables for the two modes**: `:root` (light) + `[data-theme=dark]` (dark); `color-scheme` + cross-fade transitions
+- [x] `tailwind.config.ts` — semantic tokens (`bg-body`, `bg-surface`, `text-content`, `text-muted`, `border-edge`, `bg-accent`, `text-on-accent`, …) mapped to the CSS vars
+- [x] All components + pages migrated from slate/brand classes to semantic tokens
+- [x] Flags remain emoji unicode (🇺🇸 🇷🇴 🇩🇪 …) in the dropdown
+- [x] Verified in built HTML: theme vars + dark block in CSS, DOM order logo→nav→toggle→flags, toggle aria-label, emoji flags
+
+## Flags & social logos — real SVG graphics (Windows-safe)
+- [x] Root cause: Windows has no flag-emoji font → emoji flags render as letter pairs; replaced with real SVG flags
+- [x] `flag-icons` installed; `src/components/LanguageFlag.vue` imports the 9 SVGs (us/ro/de/ru/it/es/fr/hu/pt) → crisp `<img>` (rounded, lazy), registered under `src/types/svg.d.ts`
+- [x] `navigation.json` `languages[].flag` now stores ISO country codes; `LanguageSwitcher` triggers + options render LanguageFlag
+- [x] `simple-icons` installed; `src/components/SocialIcon.vue` renders inline `<svg><path>` brand logos (Bluesky #1185FE, Discord #5865F2, YouTube #FF0000, Reddit #FF4500)
+- [x] `navigation.json` `social[].icon` now stores brand slugs; `AppFooter` uses SocialIcon
+- [x] `validate-data` enforces known flag codes + known brand slugs (new KNOWN_FLAGS / KNOWN_BRANDS)
+- [x] `manual/MAINTENANCE.md` updated (flag/social asset model + how to add language/brand)
+- [x] Verified in built output: flag = inline SVG data-URI (flag-icons-us path), 4 brand logos present with brand colors, zero emoji leftovers; `run tsc` + `run build` + `run validate` all green
+
+## UI polish — footer colors, flag dropdown, toggle diameter
+- [x] Footer icons now uniform: `SocialIcon` fills `currentColor` (all brands share `text-muted`, accent on hover)
+- [x] Language trigger: border removed entirely, flag rendered at max size (`md` h-7 w-9) with minimal padding (`px-1.5 py-0.5`)
+- [x] ThemeToggle diameter now **exactly matches** menu buttons: `h-11 w-11` (44px = `.nav-pill` round size on mobile)
+- [x] Verified in built HTML: no brand hex fills, `currentColor` present, `h-11 w-11` toggle, borderless trigger + large flag
+
+## Typography system — Space Grotesk / Plus Jakarta Sans / Inter
+- [x] Google Fonts via `nuxt.config.ts` head links (preconnect ×2 + css2 stylesheet, `display=swap`); unicode-range subsets verified live: latin/latin-ext (HU ő/ű) + cyrillic/cyrillic-ext (RU) WOFF2
+- [x] Root tokens in `tailwind.css`: `--font-header` / `--font-ui` / `--font-body` + `@layer base` rules (body, h1–h6, button/select/input/textarea/.dropdown)
+- [x] `tailwind.config.ts` fontFamily tokens: `sans/body/ui/header` → vars
+- [x] Senior findings: Space Grotesk & Plus Jakarta Sans lack basic Cyrillic → Inter glyph-fallback added to both stacks; no legacy font imports/font-family to clean up (audited)
+- [x] Verified compiled output: vars, base rules, letter-spacing −.01em all present; `run tsc` + `run build` green
+
+## Phase 3 — Content & interactivity
+- [ ] `content/ro/*.md` lessons via `@nuxt/content`
+- [ ] `src/components/QuizEngine.vue`
+- [ ] `src/stores/userStore.ts` (localStorage-first)
+
+## Phase 4 — Media pipeline (needs credentials)
+- [ ] `wrangler.toml` + `.github/workflows/deploy-media.yml`
+- [ ] `media/` staging dir (git-ignored) → R2 `media.verbologic.com`
+- [ ] ⚠️ Requires: R2 account id + access keys + bucket domain
+
+## Phase 5 — Supabase (needs credentials)
+- [ ] `.env` with Supabase URL + anon key
+- [ ] `src/lib/supabaseClient.ts`
+- [ ] Run RLS SQL (profiles + quiz_results) from `manual/architecture.md`
+
+## 📦 What I need from you
+1. Styling decision (Bootstrap / Tailwind / custom)
+2. (Later) Content module confirm (_yes_ default) 
+3. (Later) Supabase URL + anon key
+4. (Later) Cloudflare R2 credentials

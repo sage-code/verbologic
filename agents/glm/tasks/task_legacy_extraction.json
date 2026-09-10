@@ -1,0 +1,208 @@
+{
+  "task_id": "legacy_extraction_01",
+  "source_dir": "./archive",
+  "target_media_dir": "./media/audio",
+  "media_base_url": "https://media.verbologic.com/",
+  "entity_schema": {
+    "$comment": "Every generated entity file is a flat JSON array of objects with EXACTLY this shape. Zero translated UI text inside entity files.",
+    "id": "string  — derived: '<prefix>_<slug>' where slug = basename of legacy data-audio attr (diacritics already stripped)",
+    "type": "'word' | 'sentence' | 'question' | 'imperative' | 'letter'",
+    "lang": "'ro' | 'en' — the TARGET language being taught",
+    "term": "string — native-target text (Romanian for ro entities, English for en entities)",
+    "ipa": "string|null — ONLY available in archive/english/alphabet.html; null elsewhere",
+    "translations": {
+      "en": "string|null — English gloss (omit key when null)",
+      "es": "string|null — bonus pivot columns from vocabulary.html; keep but never render in v1",
+      "it": "string|null",
+      "fr": "string|null"
+    },
+    "context": "string|null — usage context column (greetings.html only)",
+    "audio": "string|null — R2 URL: 'https://media.verbologic.com/audio/<lang>/<id>.mp3'; null when queued for TTS"
+  },
+  "actions": [
+    {
+      "action_type": "parse_html_to_json",
+      "source_file": "archive/romanian/vocabulary.html",
+      "output_entity_file": "public/data/entities/ro_vocabulary.json",
+      "extract_fields": ["term", "ipa", "target_word", "contrastive_note_ro"],
+      "row_selector": "table tr",
+      "column_map": {
+        "1": "term",
+        "2": "data-audio attr -> entity_id slug",
+        "3": "translations.en",
+        "4": "translations.es",
+        "5": "translations.it",
+        "6": "translations.fr"
+      },
+      "section_headings": "h2/h3 with id attr -> store on entity as 'category' (e.g. 'greetings-courtesy', 'home-objects')",
+      "entity_prefix": "word",
+      "skip_rows": "header rows (th), section-divider rows"
+    },
+    {
+      "action_type": "parse_html_to_json",
+      "source_file": "archive/romanian/sentences.html",
+      "output_entity_file": "public/data/entities/ro_sentences.json",
+      "row_selector": "table tr",
+      "column_map": { "1": "term", "2": "data-audio attr", "3": "translations.en" },
+      "entity_prefix": "sentence"
+    },
+    {
+      "action_type": "parse_html_to_json",
+      "source_file": "archive/romanian/imperative.html",
+      "output_entity_file": "public/data/entities/ro_imperative.json",
+      "row_selector": "table tr",
+      "column_map": { "1": "row index (discard)", "2": "term", "3": "data-audio attr", "4": "translations.en" },
+      "entity_prefix": "imperative"
+    },
+    {
+      "action_type": "parse_html_to_json",
+      "source_file": "archive/romanian/questions.html",
+      "output_entity_file": "public/data/entities/ro_questions.json",
+      "row_selector": "table tr",
+      "column_map": {
+        "1": "row index (discard)",
+        "2": "term (question)",
+        "3": "data-audio attr (question audio)",
+        "4": "answer_yes",
+        "5": "data-audio attr (answer_yes audio -> id + '_a1')",
+        "6": "answer_no",
+        "7": "data-audio attr (answer_no audio -> id + '_a2')"
+      },
+      "$comment": "One row yields up to 3 entity records: question_<slug>, question_<slug>_a1, question_<slug>_a2 — audio maps 1:1, hence 135 files for 60 rows.",
+      "entity_prefix": "question"
+    },
+    {
+      "action_type": "parse_html_to_json",
+      "source_file": "archive/romanian/greetings.html",
+      "output_entity_file": "public/data/entities/ro_greetings.json",
+      "row_selector": "table tr",
+      "column_map": { "1": "term (formula)", "2": "context" },
+      "entity_prefix": "greeting",
+      "audio": "NONE — all entities get audio:null and are added to tts_queue"
+    },
+    {
+      "action_type": "parse_html_to_json",
+      "source_file": "archive/romanian/alphabet.html",
+      "output_entity_file": "public/data/entities/ro_alphabet.json",
+      "row_selector": "table tr",
+      "column_map": {
+        "1": "term (letter caps+lowercase)",
+        "2": "ipa",
+        "3": "contrastive_note_ro (English approximation -> ALSO mirror to locales/ro.json)"
+      },
+      "entity_prefix": "letter",
+      "audio": "NONE — all entities get audio:null and are added to tts_queue"
+    },
+    {
+      "action_type": "parse_html_to_json",
+      "source_file": "archive/english/alphabet.html",
+      "output_entity_file": "public/data/entities/en_alphabet.json",
+      "row_selector": "table tr",
+      "column_map": {
+        "1": "term (English letter, 'Literă' col)",
+        "2": "ipa (rich legacy IPA — preserve verbatim)",
+        "3": "target_word ('Exemplu' col: apple, book, city…)",
+        "4": "data-audio attr",
+        "5": "contrastive_note_ro ('Română' col + surrounding prose: 'like the ts in cats…')"
+      },
+      "entity_prefix": "letter",
+      "$comment": "L1=ro track. Contrastive prose goes to locales/ro.json under contrastive.letter_en_<slug>.note"
+    },
+    {
+      "action_type": "extract_locales",
+      "source_files": [
+        "archive/romanian/index.html",
+        "archive/romanian/vocabulary.html",
+        "archive/romanian/questions.html",
+        "archive/romanian/imperative.html",
+        "archive/romanian/sentences.html",
+        "archive/romanian/greetings.html",
+        "archive/romanian/alphabet.html",
+        "archive/english/index.html",
+        "archive/english/alphabet.html"
+      ],
+      "outputs": {
+        "public/data/locales/en.json": "Generic UI chrome in English: play button labels, table headers ('Romanian', 'English Translation'), section titles, progress labels. NO contrastive content.",
+        "public/data/locales/ro.json": "1) Same generic chrome translated to Romanian. 2) Native-relative contrastive notes keyed 'contrastive.<entity_id>.note' sourced from romanian/alphabet.html 'English Approximation' column and english/alphabet.html 'Română' column + prose. 3) English-track pedagogy text ('Descoperă English', lesson descriptions)."
+      },
+      "$comment": "Contrastive notes are L1-relative explanations (Romanian explaining English sounds, or English analogies for Romanian sounds) — they are locale data, never entity data."
+    },
+    {
+      "action_type": "map_media_batch",
+      "$comment": "Copy (never move, never git-commit) each legacy MP3 to ./media/audio preserving the R2 key layout. Derive entity_id = <prefix>_<slug>. Set entity.audio = 'https://media.verbologic.com/' + r2_target_path.",
+      "mappings": [
+        {
+          "source_glob": "archive/romanian/audio/vocabulary/*.mp3",
+          "r2_target_pattern": "audio/ro/word_<slug>.mp3",
+          "entity_prefix": "word",
+          "lang_code": "ro",
+          "expected_count": 150
+        },
+        {
+          "source_glob": "archive/romanian/audio/questions/*.mp3",
+          "r2_target_pattern": "audio/ro/question_<slug>.mp3",
+          "entity_prefix": "question",
+          "lang_code": "ro",
+          "expected_count": 135
+        },
+        {
+          "source_glob": "archive/romanian/audio/imperative/*.mp3",
+          "r2_target_pattern": "audio/ro/imperative_<slug>.mp3",
+          "entity_prefix": "imperative",
+          "lang_code": "ro",
+          "expected_count": 75
+        },
+        {
+          "source_glob": "archive/romanian/audio/sentences/*.mp3",
+          "r2_target_pattern": "audio/ro/sentence_<slug>.mp3",
+          "entity_prefix": "sentence",
+          "lang_code": "ro",
+          "expected_count": 30
+        },
+        {
+          "source_glob": "archive/english/audio/alphabet/*.mp3",
+          "r2_target_pattern": "audio/en/letter_<slug>.mp3",
+          "entity_prefix": "letter",
+          "lang_code": "en",
+          "expected_count": 73
+        }
+      ]
+    },
+    {
+      "action_type": "map_media",
+      "source_audio": "archive/romanian/audio/vocabulary/ce-mai-faci.mp3",
+      "r2_target_path": null,
+      "entity_id": null,
+      "disposition": "QUARANTINE_AND_DELETE",
+      "$comment": "0-byte corrupt file, referenced by zero HTML pages. Do not copy to media staging."
+    },
+    {
+      "action_type": "queue_tts_regeneration",
+      "outputs": ["media/tts_queue.json"],
+      "items": [
+        { "count": 18, "source": "archive/romanian/greetings.html rows", "r2_target_pattern": "audio/ro/greeting_<slug>.mp3", "reason": "no legacy audio exists" },
+        { "count": 58, "source": "archive/romanian/alphabet.html rows", "r2_target_pattern": "audio/ro/letter_<slug>.mp3", "reason": "no legacy audio exists" }
+      ],
+      "$comment": "Entities keep audio:null until the TTS batch is produced and uploaded to R2."
+    },
+    {
+      "action_type": "generate_lesson_skeletons",
+      "source_file": "archive/romanian/index.html",
+      "output_dir": "content/ro/",
+      "roadmap": [
+        { "level": 1, "title": "Fundamentals", "labs": ["alphabet-and-pronunciation", "greetings-and-common-formulas", "everyday-vocabulary"] },
+        { "level": 2, "title": "Grammar", "labs": ["nouns-and-articles"] },
+        { "level": 3, "title": "Stories", "labs": ["guided-daily-dialog"] }
+      ],
+      "frontmatter_fields": ["title", "level", "entities: [entity_id,...]", "media_base: https://media.verbologic.com/"]
+    }
+  ],
+  "validation_rules": [
+    "Every entity 'audio' URL must be https://media.verbologic.com/audio/<lang>/<id>.mp3 and the file must exist under ./media/audio with that key, OR be listed in media/tts_queue.json with audio:null",
+    "Entity files contain zero UI strings (no 'Play', no button labels) — those live only in locales/*.json",
+    "ro_vocabulary.json must contain ~160 entities across 12 'category' values",
+    "en_alphabet.json must contain 82 entities, every one with non-null 'ipa'",
+    "Total copied MP3s under ./media/audio must equal 463",
+    "No file under ./media/ may be git-tracked; add './media/' to .gitignore"
+  ]
+}

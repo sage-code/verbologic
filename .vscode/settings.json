@@ -1,0 +1,17 @@
+{
+  // VS Code workspace settings for Verbologic (Nuxt 3 SSG).
+  // Live Server serves the generated static site from .output/public.
+  "liveServer.settings.root": "/.output/public",
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+
+  // Tailwind class detection in .vue files.
+  "tailwindCSS.experimental.classRegex": ["class=\\\"([^\\\"]*)\\\""],
+  "files.associations": { "*.css": "tailwindcss" },
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "Vue.volar",
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[vue]": { "editor.defaultFormatter": "Vue.volar" }
+}
