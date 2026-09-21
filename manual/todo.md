@@ -130,6 +130,17 @@
 - [ ] Login UI (magic link) → `userStore.signInWithEmail`
 - [ ] AI Mentor credit spend → append to `credit_ledger` (negative deltas need a server-side policy/edge function)
 
+## Phase 1 — Account form (/account) + auth wiring
+- [x] Migration `account_profiles_avatars` applied via MCP + mirrored into `supabase/schema.sql` (idempotent): `profiles.display_name`/`avatar_url`, `avatars` storage bucket (public read, 2 MB, images, owner-only folder writes), `handle_new_user` seeds display_name
+- [x] `userStore`: passwordless auth API — `registerWithEmail` / `signInWithEmail` (e-mail OTP + magic link, `shouldCreateUser` distinguishes them), `verifyEmailOtp`, `updateDisplayName`, `updateEmail`/`verifyEmailChange`, `updatePhone`/`verifyPhoneOtp` (SMS), `uploadAvatar` (canvas downscale ≤512px, storage `avatars/{uid}/avatar.jpg` upsert, cache-busted public URL), `removeAvatar`, `fetchProfile`, `isAuthConfigured`
+- [x] Fixed pre-existing bug: `hydrate()` registered a duplicate `onAuthStateChange` listener on every page mount (module-level guard now)
+- [x] New `src/pages/account/index.vue` (`?next=` resume, `?verified=1` banner) + `src/components/AccountForm.vue` (register/sign-in tabs when signed out; profile edit when signed in; shared OTP panel; resend cooldown; `aria-live` status; graceful `auth_not_configured` / `sms_not_configured` states)
+- [x] `UserAvatar.vue` → `NuxtLink to="/account"` (toolbar icon opens the same form)
+- [x] ~37 `account.*` i18n keys in en.json + ro.json (other locales fall back to English)
+- [x] Docs: `MAINTENANCE.md` §3.6; dashboard prerequisites listed (Confirm email + `{{ .Token }}` template, SMS provider, Workers env vars)
+- [ ] You (dashboard): enable "Confirm email" + redirect allowlist `/account`; add `{{ .Token }}` to the e-mail template; enable an SMS provider for phone verification
+- [ ] You (Workers Builds): set `NUXT_PUBLIC_SUPABASE_URL` / `NUXT_PUBLIC_SUPABASE_ANON_KEY` for production
+
 ## Process — push throttle (1 push / 2h)
 - [x] `run push`/`run release` throttled to one push per 2h (Workers Builds deploy rate): throttled pushes keep commits local, print the wait time and exit 2 (not a failure); `run push --force` bypasses once
 - [x] State: `temp/last_push` epoch stamp written after each successful push; fallback to the `origin/main` commit date so `run clean` doesn't reset the window

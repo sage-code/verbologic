@@ -171,6 +171,32 @@ tier-aware:
 CTA labels live in `public/data/locales/*.json` under `pricing.cta_*`;
 `pricing.pay` remains the fallback for paid tiers.
 
+### 3.6 Account & auth (Phase 1)
+- Route: `src/pages/account/index.vue` → `<AccountForm />` (prerendered shell,
+  client-side auth). Query params: `?next=/pricing` resumes an interrupted
+  flow; `?verified=1` is the e-mail-confirmation redirect target.
+- `src/components/AccountForm.vue` — three modes in one island: **Create
+  account** / **Sign in** tabs when signed out; **Profile edit** when signed
+  in (display name, avatar upload/remove, e-mail change, phone with SMS
+  verification, sign out). All copy under `account.*` in the locale files.
+- Model: **passwordless**. Register/sign-in = `signInWithOtp({ email })`
+  (magic link + 6-digit code); phone = SMS OTP (`updateUser({ phone })` +
+  `verifyOtp({ type: 'phone_change' })`); e-mail change verified the same way
+  (`type: 'email_change'`). Verification state is read from the **session**
+  (`email_confirmed_at` / `phone_confirmed_at`) — `auth.users` is the source
+  of truth; `profiles` stores only `display_name` + `avatar_url`.
+- Avatar storage: `avatars` bucket (public read, 2 MB, png/jpeg/webp);
+  owner-only writes via RLS folder guard `avatars/{auth.uid()}/…`. Uploads
+  are downscaled client-side (≤512px JPEG); the URL is mirrored into auth
+  metadata so the header updates.
+- The header avatar (`UserAvatar.vue`) links to `/account` — the same form.
+- **Dashboard prerequisites** (not code): "Confirm email" ON + redirect
+  allowlist containing `/account`; for code-entry e-mails the template must
+  include `{{ .Token }}`; phone verification needs an SMS provider
+  (Twilio/MessageBird — paid) enabled; production needs
+  `NUXT_PUBLIC_SUPABASE_URL` / `NUXT_PUBLIC_SUPABASE_ANON_KEY` in Workers
+  Builds, otherwise `/account` shows the "not configured" notice.
+
 ---
 
 ## 4. Layout — where it is & how to maintain it manually

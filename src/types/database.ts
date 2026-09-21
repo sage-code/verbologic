@@ -113,6 +113,8 @@ export type Database = {
       profiles: {
         Row: {
           active_domains: string[] | null
+          avatar_url: string | null
+          display_name: string | null
           id: string
           instruction_lang: string
           target_lang: string
@@ -121,6 +123,8 @@ export type Database = {
         }
         Insert: {
           active_domains?: string[] | null
+          avatar_url?: string | null
+          display_name?: string | null
           id: string
           instruction_lang?: string
           target_lang?: string
@@ -129,6 +133,8 @@ export type Database = {
         }
         Update: {
           active_domains?: string[] | null
+          avatar_url?: string | null
+          display_name?: string | null
           id?: string
           instruction_lang?: string
           target_lang?: string

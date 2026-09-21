@@ -200,3 +200,57 @@ create policy "Users can insert own quiz results" on public.quiz_results
 
 -- Enforce the caller's identity when reading the view (base-table RLS applies).
 alter view public.enrollments_overview set (security_invoker = true);
+
+-- ── 10. Account fields (Phase 1 — /account form) ────────────────────────────
+-- display_name + avatar_url live here; e-mail/phone + their verification
+-- state stay authoritative in auth.users (read from the session, no mirrors
+-- that can drift).
+alter table public.profiles
+  add column if not exists display_name text,
+  add column if not exists avatar_url   text;
+
+-- ── 11. Avatars storage (Phase 1) ───────────────────────────────────────────
+-- Bucket: public read (the header <img> needs no signed URLs), owner-only
+-- writes confined to avatars/{auth.uid()}/…, 2 MB, image types only.
+insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
+values ('avatars', 'avatars', true, 2097152, array['image/png','image/jpeg','image/webp'])
+on conflict (id) do update
+  set public            = excluded.public,
+      file_size_limit   = excluded.file_size_limit,
+      allowed_mime_types = excluded.allowed_mime_types;
+
+drop policy if exists "Avatars are publicly readable" on storage.objects;
+create policy "Avatars are publicly readable"
+  on storage.objects for select using (bucket_id = 'avatars');
+
+drop policy if exists "Users can upload own avatar" on storage.objects;
+create policy "Users can upload own avatar"
+  on storage.objects for insert to authenticated
+  with check (bucket_id = 'avatars' and (storage.foldername(name))[1] = auth.uid()::text);
+
+drop policy if exists "Users can update own avatar" on storage.objects;
+create policy "Users can update own avatar"
+  on storage.objects for update to authenticated
+  using (bucket_id = 'avatars' and (storage.foldername(name))[1] = auth.uid()::text);
+
+drop policy if exists "Users can delete own avatar" on storage.objects;
+create policy "Users can delete own avatar"
+  on storage.objects for delete to authenticated
+  using (bucket_id = 'avatars' and (storage.foldername(name))[1] = auth.uid()::text);
+
+-- ── 12. handle_new_user seeds the display name (OAuth / signup metadata) ────
+create or replace function public.handle_new_user()
+returns trigger
+language plpgsql
+security definer
+set search_path = ''
+as $$
+begin
+  insert into public.profiles (id, display_name)
+  values (new.id, nullif(new.raw_user_meta_data ->> 'full_name', ''));
+  return new;
+end;
+$$;
+
+revoke execute on function public.handle_new_user() from anon, authenticated;
+revoke execute on function public.handle_new_user() from public;
