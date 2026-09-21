@@ -4,7 +4,7 @@
 import type { PriceTier } from '~/composables/usePrices'
 
 const { tiers, symbol, priceFor } = usePrices()
-const { languages } = useNavigation()
+const { languages, languageName } = useNavigation()
 const copy = useCopy()
 const { lang, setLocale, isLoaded } = useLocale()
 
@@ -31,7 +31,7 @@ function priceAt(locale: string): number {
 }
 
 function formatPrice(amount: number): string {
-  return isCredits.value ? `${amount} credits` : `${symbol.value}${amount}`
+  return isCredits.value ? `${amount} ${copy('pricing.credits', 'credits')}` : `${symbol.value}${amount}`
 }
 
 const total = computed(() => [...selected.value].reduce((sum, locale) => sum + priceAt(locale), 0))
@@ -94,7 +94,7 @@ function payNow() {
           <p class="text-sm text-muted">
             {{
               hasSelection
-                ? `${selected.size} ${copy('pricing.selected_total', 'selected · total')} ${formatPrice(total)}`
+                ? `${selected.size} ${copy('pricing.selected', 'selected')} · ${copy('pricing.total', 'Total:')} ${formatPrice(total)}`
                 : copy('pricing.continue', 'Select one or more languages to continue.')
             }}
           </p>
@@ -109,8 +109,8 @@ function payNow() {
               @change="toggle(l.locale, ($event.target as HTMLInputElement).checked)"
             >
             <label :for="`lang-${l.locale}`" class="flex flex-1 cursor-pointer items-center gap-3">
-              <LanguageFlag :code="l.flag" :label="l.label" size="md" />
-              <span class="font-medium text-content">{{ l.label }}</span>
+              <LanguageFlag :code="l.flag" :label="languageName(l.locale)" size="md" />
+              <span class="font-medium text-content">{{ languageName(l.locale) }}</span>
               <span class="text-xs text-faint">{{ l.code }}</span>
             </label>
             <span class="font-semibold text-accent">{{ formatPrice(priceAt(l.locale)) }}</span>

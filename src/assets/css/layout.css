@@ -2,8 +2,8 @@
  * Verbologic layout — responsive shell rules.
  * Mobile-first: content is full-width with small gutters; it grows
  * fluidly up to a 1400px cap where centered gutters reappear.
- * Nav pills collapse to round icon buttons; orientation rules keep
- * awkward aspect ratios usable.
+ * Toolbar: segmented full-width bar below 768px (icon + truncating label),
+ * intrinsic pills above; wrapping keeps awkward aspect ratios usable.
  * ------------------------------------------------------------------ */
 
 /* Main content container — fluid width capped at 1400px */
@@ -27,21 +27,20 @@
   }
 }
 
-/* Header — logo row on the left, controls right; stacks in portrait */
+/* Header — row 1: brand left + controls right; row 2 (<md): full-width
+ * toolbar. Wrapping is the natural overflow behaviour at any aspect ratio,
+ * so no portrait-specific media query is needed. */
 .app-header-inner {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 10px 12px;
 }
 
-@media (orientation: portrait) and (max-width: 640px) {
-  .app-header-inner {
-    flex-wrap: wrap;
-  }
-}
-
-/* Toolbar: pill buttons on ≥sm, round icon-only buttons on <sm */
+/* Toolbar: intrinsic-width pills on ≥md; below md the toolbar lives on its
+ * own full-width header row and the pills become equal-width segments
+ * (icon + localized label, truncating when translations run long). */
 .nav-pill {
   display: inline-flex;
   align-items: center;
@@ -51,13 +50,26 @@
   white-space: nowrap;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 767px) {
   .nav-pill {
-    width: 2.75rem;
+    flex: 1 1 0;
+    min-width: 0;
     height: 2.75rem;
     justify-content: center;
-    padding: 0;
+    padding: 0 10px;
   }
+  .nav-item-label {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.8125rem;
+  }
+}
+
+/* Ultra-narrow screens: labels would not fit even truncated — icon-only
+ * (the pill still carries title/aria-label from AppNav). */
+@media (max-width: 359px) {
   .nav-item-label {
     display: none;
   }

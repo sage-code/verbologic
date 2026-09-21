@@ -1,27 +1,41 @@
 // Library — read-only panels for the languages the user has ordered/subscribed
 // to, with per-language progress (credits consumed/left, words learned).
-// Data arrives via libraryStore (localStorage now, Supabase in Phase 5);
-// until then the page renders its localized empty state.
+// Data source: libraryStore — the enrollments_overview view when signed in to
+// Supabase, localStorage otherwise; until then the localized empty state shows.
 <script setup lang="ts">
 import type { Enrollment } from '~/stores/libraryStore'
 import { useLibraryStore } from '~/stores/libraryStore'
 import { trackFor } from '~/data/tracks'
 
 const copy = useCopy()
-const { t } = useLocale()
 const { lang, setLocale, isLoaded } = useLocale()
-const { languages } = useNavigation()
+const { languages, languageName } = useNavigation()
 const store = useLibraryStore()
+const supabase = useSupabase()
+const userStore = useUserStore()
 
 // Preload UI chrome + local data on the client (mirrors the other pages).
 onMounted(() => {
   store.hydrate()
   if (!isLoaded()) void setLocale(lang.value)
+  void loadFromSupabase()
 })
 
-/** Language display name in the active interface language (code as fallback). */
-function languageName(locale: string): string {
-  return t(`languages.${locale}`) ?? locale.toUpperCase()
+/** Signed-in refresh: the enrollments_overview view is authoritative. */
+async function loadFromSupabase() {
+  if (!supabase) return
+  const { data } = await supabase.auth.getSession()
+  if (!data.session) return
+  const { data: rows, error } = await supabase
+    .from('enrollments_overview')
+    .select('*')
+    .eq('user_id', data.session.user.id)
+    .order('updated_at', { ascending: false })
+  if (error) {
+    console.warn('[library] overview load failed', error.message)
+    return
+  }
+  if (rows) store.setFromOverview(rows)
 }
 
 /** ISO country flag for a locale, falling back to the locale code itself. */

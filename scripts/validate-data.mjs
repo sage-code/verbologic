@@ -78,6 +78,31 @@ try {
   ERRORS.push('missing base locale files (en.json / ro.json)')
 }
 
+/* ── language names (localized display-name matrix) ───────────────────── */
+try {
+  const matrix = readJson('src/data/language-names.json')
+  const localeCodes = nav.languages.map((l) => l.locale)
+  const expected = [...localeCodes].sort()
+  const uiLocales = Object.keys(matrix).sort()
+  if (JSON.stringify(uiLocales) !== JSON.stringify(expected)) {
+    ERRORS.push(`language-names.json: UI locales [${uiLocales.join(', ')}] != navigation.json locales [${expected.join(', ')}]`)
+  }
+  for (const [ui, block] of Object.entries(matrix)) {
+    for (const target of localeCodes) {
+      const name = block[target]
+      if (typeof name !== 'string' || !name.trim()) {
+        ERRORS.push(`language-names.json: missing name for '${target}' in UI locale '${ui}'`)
+      }
+    }
+    for (const extra of Object.keys(block)) {
+      if (!localeCodes.includes(extra)) WARNINGS.push(`language-names.json: unknown target code '${extra}' in UI locale '${ui}'`)
+    }
+  }
+  console.log(`language-names: ${uiLocales.length} UI locales × ${localeCodes.length} languages`)
+} catch (e) {
+  ERRORS.push(`language-names.json (src/data/) missing or unparseable: ${e.message}`)
+}
+
 /* ── prices ───────────────────────────────────────────────────────────── */
 try {
   const prices = readJson('public/data/prices.json')

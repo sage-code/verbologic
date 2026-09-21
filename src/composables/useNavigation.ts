@@ -39,7 +39,8 @@ export interface NavigationData {
 const nav = navigation as NavigationData
 
 export function useNavigation() {
-  const { lang } = useLocale()
+  const { lang, t } = useLocale()
+  const { nameFor } = useLanguageNames()
 
   const menu = computed(() => [...nav.menu].sort((a, b) => a.order - b.order))
 
@@ -49,10 +50,21 @@ export function useNavigation() {
     return labels[id] ?? nav.menuLabels.en[id] ?? id
   }
 
+  /**
+   * Language display name in the language currently set on the toolbar.
+   * Fallback chain: language-names.json matrix → locale-dict `languages.<code>`
+   * key → native endonym from navigation.json → uppercase locale code.
+   */
+  function languageName(locale: string): string {
+    const entry = nav.languages.find((l) => l.locale === locale)
+    return nameFor(locale) ?? t(`languages.${locale}`) ?? entry?.label ?? locale.toUpperCase()
+  }
+
   return {
     languages: nav.languages,
     menu,
     menuLabel,
+    languageName,
     social: nav.social
   }
 }

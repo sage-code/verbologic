@@ -3,16 +3,11 @@
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 import type { LocaleCode } from '~/composables/useLocale'
 
-const { languages } = useNavigation()
+const { languages, languageName } = useNavigation()
 const { lang, setLocale, t } = useLocale()
 const open = ref(false)
 
 const current = computed(() => languages.find((l) => l.locale === lang.value) ?? languages[0])
-
-/** Language display name in the active interface language; native name as fallback. */
-function name(l: { locale: string; label: string }): string {
-  return t(`languages.${l.locale}`) ?? l.label
-}
 
 async function select(locale: string) {
   open.value = false
@@ -38,7 +33,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
       :aria-label="t('ui.change_language') ?? 'Change language'"
       @click="open = !open"
     >
-      <LanguageFlag :code="current.flag" :label="current.label" size="md" />
+      <LanguageFlag :code="current.flag" :label="languageName(current.locale)" size="md" />
       <span class="font-semibold tracking-wide">{{ current.code }}</span>
       <ChevronDownIcon class="h-4 w-4" />
     </button>
@@ -57,9 +52,9 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
           :aria-selected="l.locale === lang"
           @click="select(l.locale)"
         >
-          <LanguageFlag :code="l.flag" :label="name(l)" size="md" />
+          <LanguageFlag :code="l.flag" :label="languageName(l.locale)" size="md" />
           <span class="font-semibold tracking-wide text-faint">{{ l.code }}</span>
-          <span class="ml-1 truncate">{{ name(l) }}</span>
+          <span class="ml-1 truncate">{{ languageName(l.locale) }}</span>
         </button>
       </li>
     </ul>

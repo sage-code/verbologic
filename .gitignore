@@ -277,3 +277,10 @@ desktop.ini
 *.iml
 .fleet/
 
+# --- Machine-local agent/MCP tooling (may hold project refs; not source) ---
+.mcp.json
+.vscode/mcp.json
+
+# --- Windows artifact: `> nul` redirects create this junk file ---
+nul
+

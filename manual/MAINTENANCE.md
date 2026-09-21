@@ -11,6 +11,7 @@ edit everything **by hand** when no agent is involved.
 ```
 ┌───────────────────────────  Git repo (slim)  ───────────────────────────┐
 │  src/data/navigation.json   ← MENU, languages, social (builder data)    │
+│  src/data/language-names.json ← localized language names (builder data) │
 │  public/data/entities/*.json      ← CONTENT (generated, then curated)   │
 │  public/data/locales/*.json       ← UI strings (generic chrome)         │
 │  src/layouts/default.vue    ← LAYOUT shell (header+nav+footer)          │
@@ -41,7 +42,8 @@ so the menu is baked into the pre-rendered HTML (no runtime fetch).
 | --- | --- | --- |
 | Menu items + routes + icons | `navigation.json → menu[]` | `id`, `icon` (Heroicon key), `route`, `order` |
 | Labels in every language | `navigation.json → menuLabels` | one entry per language per item; EN is fallback |
-| Interface languages list | `navigation.json → languages[]` | `code` (shown), `label`, `flag` (ISO country code), `locale` |
+| Interface languages list | `navigation.json → languages[]` | `code` (shown), `label` (native endonym — fallback only), `flag` (ISO country code), `locale` |
+| Localized language names | `src/data/language-names.json` + `useLanguageNames` / `useNavigation.languageName` | one build-inlined matrix: UI locale → target locale → name (9 × 9); imported like `navigation.json` — no runtime fetch |
 | Social footer links | `navigation.json → social[]` | `id`, `label`, `url`, `icon` (brand slug) |
 | Menu rendering | `src/components/AppNav.vue` | pill buttons; round icon-only on ≤640px |
 | Language dropdown | `src/components/LanguageSwitcher.vue` | flag image + code; hidden until opened |
@@ -64,9 +66,15 @@ change needed.
 1. `navigation.json → languages[]`: add `{ "code", "label", "flag", "locale" }` — **plus** register
    the flag SVG import in `src/components/LanguageFlag.vue` (flag-icons ships hundreds of ISO codes).
 2. `navigation.json → menuLabels`: add a `<locale>` block covering every item id.
-3. Optional UI chrome: create `public/data/locales/<locale>.json`; until then the app falls back
-   to English chrome automatically.
-4. `scripts/validate-data.mjs → KNOWN_FLAGS`: include the new ISO code so `run validate` catches it.
+3. `src/data/language-names.json`: add a `<locale>` block naming all 9 target languages in the
+   new UI language, **and** add the new language's name to every existing block (9 × 9 matrix —
+   `run validate` enforces completeness). The matrix is build-inlined, so a rebuild (`run build`)
+   is required after editing it.
+4. Optional UI chrome: create `public/data/locales/<locale>.json`; until then the app falls back
+   to English chrome automatically. Language display names do **not** depend on locale files —
+   they come from the language-names matrix (`useNavigation.languageName`: matrix → `languages.<code>`
+   dict key → native endonym → uppercase code).
+5. `scripts/validate-data.mjs → KNOWN_FLAGS`: include the new ISO code so `run validate` catches it.
 
 ### How to change a footer brand logo
 `navigation.json → social[].icon` must match a slug registered in `src/components/SocialIcon.vue`
@@ -118,6 +126,15 @@ labels) and, in `ro.json`, `contrastive.*` notes shown under alphabet rows.
 Files for other languages (`de`, `ru`, …) are optional; absent files fall back
 to English chrome.
 
+**Localized language names are separate**: `src/data/language-names.json`
+(build-inlined like `navigation.json` — no runtime fetch) holds a 9 × 9 matrix
+(UI locale → target locale → name) so the pricing checklist, Library panels,
+language dropdown and roadmap UI toggles render every language in the language
+selected on the toolbar — even for the 7 locales without full chrome files yet.
+Consumed via `useLanguageNames()` + `useNavigation().languageName()`
+(fallback: matrix → `languages.<code>` dict key → native endonym → uppercase
+code). `run validate` enforces matrix completeness.
+
 ### 3.3 Media / audio
 Audio is **not** in Git. The local staging area is `media/audio/<lang>/<id>.mp3`
 (git-ignored), synced to R2 at `https://media.verbologic.com/` **differentially**
@@ -156,12 +173,15 @@ maintain yet.
 ### Key responsive rules (in `layout.css`)
 - `.app-container` — `max-width: 1400px; margin-inline: auto`; gutters 16px on
   mobile → 24px ≥641px → 32px ≥1440px.
-- `.nav-pill` — pill by default; `@media (max-width: 640px)` forces a 2.75rem
-  circle and hides `.nav-item-label` (icon-only).
+- `.app-header-inner` — `flex-wrap: wrap; row-gap: 10px`. Row 1 = brand (left) +
+  controls (right); below 768px the `<AppNav>` toolbar wraps onto a dedicated
+  full-width second row instead of squeezing between them.
+- `.nav-pill` — intrinsic-width pill by default; `@media (max-width: 767px)`
+  turns the toolbar into a full-width segmented bar: equal-width buttons,
+  icon + localized label that truncates (`text-overflow: ellipsis`). Below
+  360px labels hide entirely (icon-only; `title`/`aria-current` remain).
 - `@media (orientation: landscape) and (max-height: 540px)` — compacts header/nav
   vertical rhythm for short screens.
-- `@media (orientation: portrait) and (max-width: 640px)` — allows the header to
-  wrap (logo row, controls row).
 
 ### How to change the look (typical tasks)
 - **Center content tighter/looser:** edit `.app-container` `max-width` (default 1400px).
@@ -251,6 +271,46 @@ redirect *from* also needs a proxied DNS record (`A` → `192.0.2.0` or
 - *"Rebuild everything from scratch"* → `run clean-deep` → `run build --force`
 
 
-2. `navigation.json → menuLabels`: add a `<locale>` block covering every item id.
-3. Optional UI chrome: create `public/data/locales/<locale>.json`; until then the
-   app falls back to English chrome automatically.
+---
+
+## 7. Supabase — auth, enrollments & progress
+
+**Client:** `src/plugins/supabase.client.ts` (browser-only) via the
+`useSupabase()` composable. This is a pure-SSG site — no server runtime — so
+only `createBrowserClient` is active; `@supabase/ssr`'s server helpers have no
+runtime here. Every consumer **no-ops to localStorage** when credentials are
+absent, so `nuxt generate` stays green without a `.env`.
+
+**Config:** `.env` (gitignored) / `.env.example` (committed template):
+
+```
+NUXT_PUBLIC_SUPABASE_URL=https://<ref>.supabase.co
+NUXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_…
+```
+
+Nuxt reads `NUXT_PUBLIC_*` (never `NEXT_PUBLIC_*`). Values are **baked at
+build time** → also set them in Cloudflare Workers Builds. The publishable key
+(`sb_publishable_…`, replaces the legacy `anon` JWT) is browser-safe; RLS is
+the security boundary. Never ship the `sb_secret_…` key.
+
+**Schema:** `supabase/schema.sql` — run once in the Dashboard → SQL editor.
+Idempotent; safe to re-run.
+
+| Table | Purpose |
+| --- | --- |
+| `profiles` | preferences + XP; auto-created by the `on_auth_user_created` trigger |
+| `enrollments` | one row per user+language (`tier_id`, `status`, `credits_total`), `UNIQUE(user_id, locale)` |
+| `learned_items` | source of truth for **Words learned**; `UNIQUE(user_id, entity_id)` makes writes idempotent |
+| `credit_ledger` | append-only credit movements (+ top-up / − spend); consumed & left **derive** from `SUM(delta)` — reserved for the AI Mentor |
+| `quiz_results` | attempt history (Phase 3 QuizEngine) |
+
+View **`enrollments_overview`** aggregates `words_learned` /
+`credits_consumed` / `credits_left` — the one query the Library reads.
+
+**Consumers:** `userStore` (auth session: `getSession` + `onAuthStateChange`),
+`useProgress()` (`learned_items` writes + localStorage fallback; the
+"mark as learned" toggle in `ExpressionSearch.vue`), `libraryStore` →
+`setFromOverview()` (Library panels).
+
+**Regenerate DB types:** `npx supabase gen types typescript --project-id <ref>
+--schema public > src/types/database.ts`.

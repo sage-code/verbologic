@@ -1,5 +1,6 @@
-// AppHeader — logo left, navigation toolbar center (between logo and the
-// controls), theme toggle + language switcher right.
+// AppHeader — row 1: logo left, controls (theme toggle, avatar, language
+// switcher) right. Below md the toolbar (AppNav) wraps onto its own
+// full-width second row instead of being squeezed between them.
 <script setup lang="ts">
 import earthLogoWhite from '~/assets/img/earth-logo-white.png'
 import earthLogoBlack from '~/assets/img/earth-logo-black.png'
@@ -29,15 +30,20 @@ const logoSrc = computed(() => (theme.value === 'dark' ? earthLogoWhite : earthL
         <span class="hidden text-xl font-extrabold tracking-tight text-accent min-[420px]:inline">Verbologic</span>
       </NuxtLink>
 
-      <!-- Toolbar between logo and flags — pill buttons on desktop,
-           round icon-only buttons on mobile (see layout.css). -->
-      <AppNav class="order-0 min-w-0 flex-1 justify-center px-1 sm:px-2" />
-
-      <div class="flex shrink-0 items-center gap-2">
+      <!-- Row 1 — brand left, controls right (ml-auto keeps them apart at
+           every width; space-between on the container does the rest). -->
+      <div class="ml-auto flex shrink-0 items-center gap-1.5 sm:gap-2">
         <ThemeToggle />
         <UserAvatar />
         <LanguageSwitcher />
       </div>
+
+      <!-- Row 2 on <md: the toolbar gets a dedicated full-width row below the
+           brand/controls row. ≥md: back to the centered middle column of the
+           single-row header (intrinsic pill widths, labels visible). -->
+      <AppNav
+        class="order-last w-full md:order-none md:w-auto md:min-w-0 md:flex-1 md:justify-center md:px-2"
+      />
     </div>
   </header>
 </template>

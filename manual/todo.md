@@ -98,6 +98,14 @@
 - [x] Senior findings: Space Grotesk & Plus Jakarta Sans lack basic Cyrillic → Inter glyph-fallback added to both stacks; no legacy font imports/font-family to clean up (audited)
 - [x] Verified compiled output: vars, base rules, letter-spacing −.01em all present; `run tsc` + `run build` green
 
+## UI polish — mobile toolbar second row
+- [x] AppHeader: row 1 = brand (left) + controls `ml-auto` (theme toggle, avatar, language); below `md` (768px) `<AppNav>` wraps onto a dedicated full-width second row — no more squeezing between wordmark and theme switch
+- [x] `layout.css`: `.app-header-inner` now `flex-wrap: wrap; row-gap: 10px` (portrait-only wrap media query removed); `.nav-pill` <768px = full-width segmented bar (equal widths, icon + truncating label), <360px icon-only fallback
+- [x] `AppNav`: pills carry `title` + `aria-current="page"` so the segmented bar stays self-describing
+- [x] ≥768px desktop layout unchanged (single row, centered intrinsic pills)
+- [x] Docs updated (`manual/MAINTENANCE.md` §4); verified via `nuxt generate` + `vue-tsc` + `temp/verify_header.mjs`
+
+## Phase 3 — Content & interactivity
 ## Phase 3 — Content & interactivity
 - [ ] `content/ro/*.md` lessons via `@nuxt/content`
 - [ ] `src/components/QuizEngine.vue`
@@ -108,10 +116,28 @@
 - [ ] `media/` staging dir (git-ignored) → R2 `media.verbologic.com`
 - [ ] ⚠️ Requires: R2 account id + access keys + bucket domain
 
-## Phase 5 — Supabase (needs credentials)
-- [ ] `.env` with Supabase URL + anon key
-- [ ] `src/lib/supabaseClient.ts`
-- [ ] Run RLS SQL (profiles + quiz_results) from `manual/architecture.md`
+## Phase 5 — Supabase (credentials in `.env`)
+- [x] `npm install @supabase/supabase-js @supabase/ssr` (browser client only — pure SSG, no server runtime)
+- [x] `.env` / `.env.example` — `NUXT_PUBLIC_SUPABASE_URL` + `NUXT_PUBLIC_SUPABASE_ANON_KEY` (publishable key; Nuxt ignores `NEXT_PUBLIC_*`)
+- [x] `nuxt.config.ts` `runtimeConfig.public` — empty defaults keep builds green without credentials
+- [x] `src/plugins/supabase.client.ts` + `useSupabase()` (null-safe, localStorage fallback)
+- [x] `supabase/schema.sql` — profiles · enrollments · learned_items · credit_ledger · quiz_results + RLS + triggers + `enrollments_overview` view
+- [x] `userStore` — real auth session (`getSession` + `onAuthStateChange`), `signInWithEmail` for the future login UI
+- [x] `useProgress()` — `learned_items` writes + fallback; "mark as learned" toggle in `ExpressionSearch.vue`
+- [x] `libraryStore.setFromOverview` — Library panels read the view when signed in
+- [ ] Run `supabase/schema.sql` in the Dashboard → SQL editor
+- [ ] Set `NUXT_PUBLIC_*` in Cloudflare Workers Builds (values bake at build time)
+- [ ] Login UI (magic link) → `userStore.signInWithEmail`
+- [ ] AI Mentor credit spend → append to `credit_ledger` (negative deltas need a server-side policy/edge function)
+
+## i18n — localized language names (language-names matrix)
+- [x] New `src/data/language-names.json`: 9 × 9 matrix (UI locale → target locale → name), **build-inlined** like `navigation.json` — no runtime fetch, so it cannot 404 and the list updates synchronously on toolbar-language change (root cause of the stale live list was the undeployed runtime file 404ing silently)
+- [x] New `useLanguageNames()` composable (usePrices pattern: client `$fetch`, `useState` cache) + `useNavigation().languageName()` with fallback chain matrix → `languages.<code>` dict key → native endonym → code
+- [x] Wired into all five call sites: `pricing/index.vue` (was raw `l.label` — the bug), `LanguageSwitcher` (dropdown + trigger), `library/index.vue`, `en/index.vue`, `ro/index.vue` (dropped hardcoded 'English'|'Română')
+- [x] Pricing page: `pricing.credits` key replaces hardcoded `"credits"`; `selected_total` fragment split into `pricing.selected` + `pricing.total` (word order now localizable)
+- [x] `validate-data.mjs`: errors on missing/incomplete matrix (any UI locale or target name missing), warns on unknown codes
+- [x] Docs updated (`MAINTENANCE.md` §1 + §2 + §3.2 + add-language recipe); verified via `nuxt generate` + `vue-tsc` + `validate-data` + `temp/verify_language_names.mjs`
+- [x] Deploy: scoped commit + `run push` → Workers Builds (the live bundle previously predated the fix entirely)
 
 ## 📦 What I need from you
 1. Styling decision (Bootstrap / Tailwind / custom)

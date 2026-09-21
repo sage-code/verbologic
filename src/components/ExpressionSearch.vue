@@ -1,15 +1,19 @@
-// ExpressionSearch — instant client-side vocabulary/phrase browser with audio.
+// ExpressionSearch — instant client-side vocabulary/phrase browser with audio
+// and per-row "mark as learned" progress (persisted via useProgress).
 <script setup lang="ts">
 import type { Lang, VerbologicEntity } from '~/types/entities'
 import { useSearchStore } from '~/stores/searchStore'
+import { CheckIcon } from '@heroicons/vue/20/solid'
 
 const props = defineProps<{ lang: Lang }>()
 const store = useSearchStore()
 const { t } = useLocale()
+const progress = useProgress(() => props.lang)
 const loading = ref(true)
 
 onMounted(async () => {
   await store.init(props.lang)
+  await progress.refresh()
   loading.value = false
 })
 
@@ -40,6 +44,18 @@ function typeLabel(type: VerbologicEntity['type']): string {
       greeting: 'Greeting'
     }[type]
   )
+}
+
+function isLearned(e: VerbologicEntity): boolean {
+  return progress.isLearned(e.id)
+}
+
+function toggleLearned(e: VerbologicEntity): void {
+  void progress.toggleLearned(e.id)
+}
+
+function learnedLabel(e: VerbologicEntity): string {
+  return isLearned(e) ? (t('ui.learned') ?? 'Learned') : (t('ui.mark_learned') ?? 'Learn')
 }
 </script>
 
@@ -79,6 +95,25 @@ function typeLabel(type: VerbologicEntity['type']): string {
             <p v-if="e.context" class="mt-0.5 text-xs text-faint">{{ e.context }}</p>
             <ContrastiveNote :note="note(e)" />
           </div>
+
+          <!-- Learned toggle — idempotent write (learned_items UNIQUE(user_id, entity_id)) -->
+          <button
+            type="button"
+            class="shrink-0 self-start rounded-full border px-2.5 py-1 text-xs font-medium transition"
+            :class="
+              isLearned(e)
+                ? 'border-accent bg-accent-soft text-accent'
+                : 'border-edge text-muted hover:border-accent hover:text-accent'
+            "
+            :aria-pressed="isLearned(e)"
+            :title="learnedLabel(e)"
+            @click="toggleLearned(e)"
+          >
+            <span class="flex items-center gap-1">
+              <CheckIcon class="h-3.5 w-3.5" aria-hidden="true" />
+              <span class="hidden sm:inline">{{ learnedLabel(e) }}</span>
+            </span>
+          </button>
         </li>
 
         <li v-if="store.results.length === 0" class="px-4 py-6 text-sm text-muted">

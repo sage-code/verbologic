@@ -1,16 +1,23 @@
 /**
  * libraryStore — the user's language enrollments (orders/subscriptions) and
  * per-language progress. localStorage-first (same pattern as userStore);
- * Phase 5 will hydrate this from Supabase (profiles + orders tables) instead.
+ * when Supabase is configured and the user is signed in, hydrate from the
+ * enrollments_overview view instead (setFromOverview).
  *
  * The Library page is a READ-ONLY consumer: nothing in the UI mutates state —
  * enroll()/topUp()/markLearned() exist as the documented write seam for the
  * flows that land later (pricing checkout, QuizEngine/SRS activity).
  */
 import { defineStore } from 'pinia'
+import {
+  asStatus,
+  asTier,
+  type EnrollmentsOverviewRow,
+  type EnrollmentStatus,
+  type EnrollmentTier
+} from '~/types/database'
 
-export type EnrollmentTier = 'prospect' | 'starter' | 'prepaid_credit'
-export type EnrollmentStatus = 'active' | 'trial'
+export type { EnrollmentStatus, EnrollmentTier }
 
 export interface Enrollment {
   /** Target-language locale code ('ro', 'en', …). */
@@ -54,6 +61,20 @@ export const useLibraryStore = defineStore('library', () => {
     if (import.meta.client) {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(enrollments.value))
     }
+  }
+
+  /** Replace state from the Supabase enrollments_overview view (snake_case → camel). */
+  function setFromOverview(rows: EnrollmentsOverviewRow[]) {
+    enrollments.value = rows.map((r) => ({
+      locale: r.locale,
+      tierId: asTier(r.tier_id),
+      status: asStatus(r.status),
+      creditsTotal: r.credits_total,
+      creditsConsumed: r.credits_consumed,
+      wordsLearned: r.words_learned,
+      startedAt: r.started_at,
+      updatedAt: r.updated_at
+    }))
   }
 
   /**
@@ -105,6 +126,7 @@ export const useLibraryStore = defineStore('library', () => {
     creditsLeft,
     activeFor,
     hydrate,
+    setFromOverview,
     enroll,
     topUp,
     markLearned

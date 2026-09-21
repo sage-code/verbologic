@@ -1,7 +1,8 @@
 // English Roadmap — alphabet & pronunciation patterns with legacy IPA for Romanian speakers.
 <script setup lang="ts">
 const copy = useCopy()
-const { t, lang: uiLang, setLocale, isLoaded } = useLocale()
+const { lang: uiLang, setLocale, isLoaded } = useLocale()
+const { languageName } = useNavigation()
 
 onMounted(() => {
   if (!isLoaded()) void setLocale(uiLang.value)
@@ -19,7 +20,7 @@ const toggleUi = () => void setLocale(uiLang.value === 'en' ? 'ro' : 'en')
         class="rounded-full border border-edge px-3 py-1 text-xs font-medium text-muted hover:border-accent hover:text-accent"
         @click="toggleUi"
       >
-        {{ copy('roadmap.ui_label', 'UI:') }} {{ t(`languages.${uiLang}`) ?? (uiLang === 'en' ? 'English' : 'Română') }}
+        {{ copy('roadmap.ui_label', 'UI:') }} {{ languageName(uiLang) }}
       </button>
     </div>
 

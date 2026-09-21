@@ -21,6 +21,17 @@ export default defineNuxtConfig({
     public: fileURLToPath(new URL('./public', import.meta.url))
   },
 
+  // Supabase — public values baked into the static bundle at build time.
+  // Set via NUXT_PUBLIC_SUPABASE_URL / NUXT_PUBLIC_SUPABASE_ANON_KEY (.env,
+  // Cloudflare Workers Builds). Empty defaults keep `nuxt generate` green
+  // without credentials; supabase.client.ts then no-ops gracefully.
+  runtimeConfig: {
+    public: {
+      supabaseUrl: '',
+      supabaseAnonKey: ''
+    }
+  },
+
   app: {
     head: {
       htmlAttrs: { lang: 'en' },

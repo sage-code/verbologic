@@ -34,6 +34,8 @@ function isActive(target: string): boolean {
           ? 'bg-accent text-on-accent shadow-sm'
           : 'bg-soft text-muted hover:bg-surface hover:text-accent'
       "
+      :title="menuLabel(item.id)"
+      :aria-current="isActive(item.route) ? 'page' : undefined"
     >
       <component :is="ICONS[item.icon]" class="h-5 w-5 shrink-0" aria-hidden="true" />
       <span class="nav-item-label">{{ menuLabel(item.id) }}</span>
