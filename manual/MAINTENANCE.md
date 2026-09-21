@@ -179,23 +179,42 @@ CTA labels live in `public/data/locales/*.json` under `pricing.cta_*`;
   account** / **Sign in** tabs when signed out; **Profile edit** when signed
   in (display name, avatar upload/remove, e-mail change, phone with SMS
   verification, sign out). All copy under `account.*` in the locale files.
-- Model: **passwordless**. Register/sign-in = `signInWithOtp({ email })`
-  (magic link + 6-digit code); phone = SMS OTP (`updateUser({ phone })` +
-  `verifyOtp({ type: 'phone_change' })`); e-mail change verified the same way
-  (`type: 'email_change'`). Verification state is read from the **session**
+- Model: **passwordless, code-based (Route A)**. Register/sign-in =
+  `signInWithOtp({ email })` → the user **pastes the 6-digit code** from the
+  e-mail (`verifyOtp({ type: 'email' })`). The magic **link** is deliberately
+  not offered: `@supabase/ssr`'s browser client hardcodes `flowType: 'pkce'`
+  (createBrowserClient.js), and a PKCE link silently signs nobody in when the
+  code verifier is absent — different browser/device, different host, or the
+  Site-URL fallback (there is no server callback route in a pure-SSG app).
+  E-mail change = `updateUser({ email })` + `verifyOtp({ type:
+  'email_change' })`; phone = SMS OTP once a provider is enabled
+  (`type: 'phone_change'`). Verification state is read from the **session**
   (`email_confirmed_at` / `phone_confirmed_at`) — `auth.users` is the source
   of truth; `profiles` stores only `display_name` + `avatar_url`.
+- **Paste-the-code UX**: input normalises pasted text (`123 456` / `123-456` /
+  `123456` → 6 digits, shown as two groups of three), a format gate blocks
+  malformed submissions, a **Cancel** button closes the panel, resend
+  cooldown is **60 s** (GoTrue allows 1 OTP request / 60 s per user), and
+  failed verifications are counted by `src/lib/otpAttempts.ts` — **5
+  attempts then lock** per e-mail. That limiter is **UX deterrence only**
+  (GoTrue's token can't be attempt-limited by us server-side; Supabase still
+  enforces its own limits/expiry). A custom 9-digit code service with a
+  server-enforced counter is the Route B upgrade path.
 - Avatar storage: `avatars` bucket (public read, 2 MB, png/jpeg/webp);
   owner-only writes via RLS folder guard `avatars/{auth.uid()}/…`. Uploads
   are downscaled client-side (≤512px JPEG); the URL is mirrored into auth
   metadata so the header updates.
 - The header avatar (`UserAvatar.vue`) links to `/account` — the same form.
-- **Dashboard prerequisites** (not code): "Confirm email" ON + redirect
-  allowlist containing `/account`; for code-entry e-mails the template must
-  include `{{ .Token }}`; phone verification needs an SMS provider
+- **Dashboard prerequisites** (not code): the *Magic Link* / *Confirm signup*
+  templates must include `{{ .Token }}` — that is what puts the 6-digit code
+  in the e-mail (default templates ship only the link); "Confirm email" ON +
+  redirect allowlist containing `/account` (only relevant if a link is
+  clicked anyway); phone verification needs an SMS provider
   (Twilio/MessageBird — paid) enabled; production needs
   `NUXT_PUBLIC_SUPABASE_URL` / `NUXT_PUBLIC_SUPABASE_ANON_KEY` in Workers
-  Builds, otherwise `/account` shows the "not configured" notice.
+  Builds, otherwise `/account` shows the "not configured" notice. The
+  built-in mailer is dev-grade (a few mails/hour, team addresses) — configure
+  custom SMTP before real signups.
 
 ---
 

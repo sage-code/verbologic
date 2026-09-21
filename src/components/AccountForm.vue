@@ -1,9 +1,21 @@
 // AccountForm — one self-contained form, three modes: create account /
-// sign in (passwordless e-mail OTP + magic link) and profile edit (display
-// name, avatar upload, e-mail change, phone number with SMS verification).
+// sign in (passwordless: paste the 6-digit code e-mailed by Supabase) and
+// profile edit (display name, avatar upload, e-mail change, phone number
+// with SMS verification once the provider is enabled).
 // Verification state is read from the session; errors map to i18n keys with
-// the raw Supabase message as the fallback.
+// the raw Supabase message as the fallback. Attempt limiting is UX-level
+// deterrence only (see src/lib/otpAttempts.ts).
 <script setup lang="ts">
+import {
+  MAX_ATTEMPTS,
+  clearOtpAttempts,
+  formatOtp,
+  isWellFormedOtp,
+  normalizeOtp,
+  otpState,
+  registerOtpFailure
+} from '~/lib/otpAttempts'
+
 const route = useRoute()
 const copy = useCopy()
 const store = useUserStore()
@@ -29,7 +41,8 @@ const status = ref<{ kind: 'info' | 'error' | 'success'; text: string } | null>(
 const avatarPreview = ref('')
 const fileInput = ref<HTMLInputElement | null>(null)
 const resendAt = ref(0)
-const RESEND_COOLDOWN_MS = 30_000
+// GoTrue rate-limits OTP requests to once per 60 s per user — stay above it.
+const RESEND_COOLDOWN_MS = 60_000
 
 // 1s ticker only while mounted — drives the resend cooldown label.
 const now = ref(Date.now())
@@ -39,6 +52,17 @@ onMounted(() => {
 })
 onBeforeUnmount(() => clearInterval(ticker))
 const resendIn = computed(() => Math.max(0, Math.ceil((resendAt.value - now.value) / 1000)))
+
+// ── Attempt limiting (UX deterrence — see src/lib/otpAttempts.ts) ───────────
+const attempts = ref<{ attemptsLeft: number; locked: boolean }>({ attemptsLeft: MAX_ATTEMPTS, locked: false })
+const otpDigits = computed(() => normalizeOtp(codeInput.value))
+const otpReady = computed(() => otpDigits.value.length === 6 && !attempts.value.locked)
+
+/** Live-updating attempts label for the current e-mail. */
+function attemptsText(): string {
+  const left = attempts.value.attemptsLeft
+  return copy('account.attempts_left', 'Attempts left: {n} of 5.').replace('{n}', String(left))
+}
 
 function setStatus(kind: 'info' | 'error' | 'success', text: string) {
   status.value = { kind, text }
@@ -61,6 +85,7 @@ function fail(res: { ok: false; error: string } | { ok: true }): boolean {
   setStatus('error', copy(errKey(res.error), res.error))
   return true
 }
+
 // ── Registration / sign-in ──────────────────────────────────────────────────
 async function sendCode() {
   const mail = email.value.trim()
@@ -70,19 +95,50 @@ async function sendCode() {
     tab.value === 'register' ? await store.registerWithEmail(mail) : await store.signInWithEmail(mail)
   busy.value = false
   if (fail(res)) return
+  // A fresh code resets the (client-side) attempt counter.
+  clearOtpAttempts(mail)
+  attempts.value = { attemptsLeft: MAX_ATTEMPTS, locked: false }
   pending.value = 'email'
   codeInput.value = ''
   resendAt.value = Date.now() + RESEND_COOLDOWN_MS
-  setStatus('info', copy('account.confirmation_sent', 'Check your inbox — we sent you a confirmation link and code.'))
+  setStatus('info', copy('account.code_sent_6', 'We e-mailed you a 6-digit code — paste it below.'))
+}
+
+/** Close the code panel and go back to the e-mail step (fixes a stuck panel). */
+function cancelOtp() {
+  pending.value = 'none'
+  codeInput.value = ''
+  status.value = null
+  attempts.value = { attemptsLeft: MAX_ATTEMPTS, locked: false }
 }
 
 async function verifyEmailCode() {
   const mail = email.value.trim()
-  if (!mail || codeInput.value.length < 6 || busy.value) return
+  if (!mail || busy.value) return
+  // Format gate: a mistyped code fails here without burning an attempt.
+  if (!isWellFormedOtp(codeInput.value)) {
+    setStatus('error', copy('account.code_invalid_format', 'Enter all 6 digits.'))
+    return
+  }
+  if (attempts.value.locked) {
+    setStatus('error', copy('account.locked', 'Too many attempts. Request a new code.'))
+    return
+  }
   busy.value = true
-  const res = await store.verifyEmailOtp(mail, codeInput.value.trim())
+  const res = await store.verifyEmailOtp(mail, otpDigits.value)
   busy.value = false
-  if (fail(res)) return
+  if (fail(res)) {
+    // Register the failure client-side (UX deterrence; GoTrue enforces its own).
+    attempts.value = registerOtpFailure(mail)
+    setStatus(
+      'error',
+      attempts.value.locked
+        ? copy('account.locked', 'Too many attempts. Request a new code.')
+        : `${copy('account.invalid_code', 'The code is invalid or expired.')} ${attemptsText()}`
+    )
+    return
+  }
+  clearOtpAttempts(mail)
   await afterAuth()
 }
 
@@ -96,13 +152,56 @@ async function afterAuth() {
 // ── Profile editing (signed in) ─────────────────────────────────────────────
 onMounted(async () => {
   await store.hydrate()
-  if (store.isLoggedIn) nameInput.value = store.user?.name ?? ''
-  // Magic-link return: Supabase consumes the session from the URL hash
-  // automatically; surface the confirmed state from ?verified=1.
-  if (route.query.verified) {
+  if (store.isLoggedIn) {
+    nameInput.value = store.user?.name ?? ''
+    // E-mail link return: Supabase consumes the session from the URL
+    // automatically — greet only when a session actually materialised.
+    if (route.query.verified) {
+      setStatus('success', copy('account.email_confirmed_banner', 'E-mail confirmed — welcome!'))
+    }
+    return
+  }
+
+  // Signed out, but the URL smells like an auth callback (PKCE code,
+  // implicit tokens, or an expired/denied link). Wait briefly for the
+  // session; if it never arrives, point the user at the code path instead
+  // of pretending the link worked.
+  const hasCallback = 'code' in route.query || 'verified' in route.query || isAuthHash(route.hash)
+  if (!hasCallback) return
+
+  setStatus('info', copy('account.signing_in', 'Signing you in…'))
+  const sessionArrived = await waitForSession(4000)
+  if (sessionArrived) {
+    nameInput.value = store.user?.name ?? ''
     setStatus('success', copy('account.email_confirmed_banner', 'E-mail confirmed — welcome!'))
+    if (nextUrl.value) await navigateTo(nextUrl.value)
+  } else {
+    setStatus('error', copy('account.link_failed', 'That link couldn’t complete sign-in — paste the code from the e-mail instead.'))
   }
 })
+
+/** Does the URL fragment carry Supabase implicit-flow tokens or an error? */
+function isAuthHash(hash: string): boolean {
+  const params = new URLSearchParams(hash.startsWith('#') ? hash.slice(1) : hash)
+  return params.has('access_token') || params.has('error') || params.has('error_description')
+}
+
+/** Resolve once a session shows up (GoTrue consumes URL callbacks async). */
+function waitForSession(timeoutMs: number): Promise<boolean> {
+  if (store.isLoggedIn) return Promise.resolve(true)
+  const started = Date.now()
+  return new Promise((resolve) => {
+    const id = setInterval(() => {
+      if (store.isLoggedIn) {
+        clearInterval(id)
+        resolve(true)
+      } else if (Date.now() - started > timeoutMs) {
+        clearInterval(id)
+        resolve(false)
+      }
+    }, 250)
+  })
+}
 
 async function saveName() {
   if (busy.value) return
@@ -252,23 +351,30 @@ async function doSignOut() {
           {{ copy('account.send_code', 'Send code') }}
         </button>
 
-        <!-- Shared OTP entry for register / sign-in -->
+        <!-- Code entry: the e-mail contains a 6-digit code — paste it (the
+             link path is unreliable in a static SPA, so it's not offered). -->
         <div v-if="pending === 'email'" class="space-y-3 rounded-xl bg-soft p-4">
-          <p class="text-sm text-muted">{{ copy('account.or_use_link', 'or click the link we e-mailed you') }}</p>
+          <label for="account-code" class="block text-sm font-medium text-muted">
+            {{ copy('account.code_label', 'Confirmation code') }}
+          </label>
           <input
-            v-model="codeInput"
+            id="account-code"
+            :value="formatOtp(codeInput)"
             type="text"
             inputmode="numeric"
             autocomplete="one-time-code"
-            maxlength="6"
-            :placeholder="copy('account.code_placeholder', '6-digit code')"
-            class="w-40 rounded-xl border border-edge bg-body px-3 py-2 font-code text-lg tracking-widest text-content outline-none focus:border-accent"
+            maxlength="7"
+            :placeholder="copy('account.code_placeholder', '123 456')"
+            :disabled="attempts.locked"
+            class="w-40 rounded-xl border border-edge bg-body px-3 py-2 font-code text-lg tracking-widest text-content outline-none focus:border-accent disabled:opacity-40"
+            @input="codeInput = normalizeOtp(($event.target as HTMLInputElement).value)"
           >
+          <p class="text-xs text-faint">{{ copy('account.codes_expire', 'Codes expire after about an hour.') }}</p>
           <div class="flex flex-wrap gap-2">
             <button
               type="button"
               class="rounded-full bg-accent px-4 py-2 text-sm font-semibold text-on-accent transition hover:bg-accent-strong disabled:opacity-40"
-              :disabled="busy || codeInput.length < 6"
+              :disabled="busy || !otpReady"
               @click="verifyEmailCode"
             >
               {{ copy('account.verify', 'Verify') }}
@@ -281,7 +387,20 @@ async function doSignOut() {
             >
               {{ copy('account.resend_code', 'Resend code') }}<span v-if="resendIn > 0"> ({{ resendIn }}s)</span>
             </button>
+            <button
+              type="button"
+              class="rounded-full px-4 py-2 text-sm font-medium text-muted transition hover:text-accent"
+              @click="cancelOtp"
+            >
+              {{ copy('account.cancel', 'Cancel') }}
+            </button>
           </div>
+          <p v-if="attempts.locked" class="text-xs text-content">
+            {{ copy('account.locked', 'Too many attempts. Request a new code.') }}
+          </p>
+          <p v-else-if="attempts.attemptsLeft < MAX_ATTEMPTS" class="text-xs text-faint">
+            {{ attemptsText() }}
+          </p>
         </div>
       </div>
     </div>

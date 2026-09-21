@@ -2,5 +2,22 @@
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
     "resolveJsonModule": true
-  }
+  },
+  // NOTE: a child "exclude" REPLACES the one generated in .nuxt/tsconfig.json
+  // (which excludes dist/.output/node_modules …), so this list must repeat it
+  // — otherwise built artifacts re-enter the type program and break $fetch.
+  "exclude": [
+    "temp",
+    "dist",
+    ".data",
+    "node_modules",
+    "node_modules/nuxt/node_modules",
+    "node_modules/@pinia/nuxt/node_modules",
+    "node_modules/@nuxtjs/tailwindcss/node_modules",
+    "node_modules/@nuxt/devtools/node_modules",
+    "node_modules/runtime/server",
+    "node_modules/dist/runtime/server",
+    ".output"
+  ]
 }
+

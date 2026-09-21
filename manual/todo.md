@@ -141,6 +141,14 @@
 - [ ] You (dashboard): enable "Confirm email" + redirect allowlist `/account`; add `{{ .Token }}` to the e-mail template; enable an SMS provider for phone verification
 - [ ] You (Workers Builds): set `NUXT_PUBLIC_SUPABASE_URL` / `NUXT_PUBLIC_SUPABASE_ANON_KEY` for production
 
+## Fix — code-based sign-in (Route A: paste the 6-digit code)
+- [x] Root cause of "link signs nobody in" proven from `@supabase/ssr` source: browser client hardcodes `flowType: 'pkce'` (not overridable); a PKCE link without the code verifier (other browser/device/host, Site-URL fallback) is **silently ignored** by GoTrue (`_isPKCECallback` false → session detection skipped)
+- [x] The UI now leads with the **paste-the-code** flow (works regardless of flow type): 6-digit input normalises pastes (`123 456` / `123-456` / `123456`), shows as two groups of three, format gate before submit, **Cancel** button closes the panel (was impossible to dismiss)
+- [x] Attempt limiting: new `src/lib/otpAttempts.ts` — 5 failed verifies → locked per e-mail (15 min decay window), "attempts left: N of 5" shown, cleared when a new code arrives; **UX deterrence only** (server-side enforcement needs the Route B custom-code service); resend cooldown raised to 60 s to respect GoTrue's 1-OTP/60 s limit
+- [x] Honest callback handling: URLs smelling of an auth callback (`?code`, `#access_token`, `?verified=1`, `?error`) show "Signing you in…" and wait ≤4 s for a session; failure/expiry shows a recovery notice pointing at the code path — the welcome banner no longer lies when no session exists
+- [x] i18n: `code_sent_6`, `code_invalid_format`, `attempts_left` (`{n}`), `locked`, `cancel`, `codes_expire`, `signing_in`, `link_failed` added (EN/RO); `or_use_link` removed
+- [x] Docs: `MAINTENANCE.md` §3.6 (Route A model + PKCE caveat + dashboard steps); dashboard todo: add `{{ .Token }}` to *Magic Link* / *Confirm signup* templates (that's why the mail had no code)
+
 ## Process — push throttle (1 push / 2h)
 - [x] `run push`/`run release` throttled to one push per 2h (Workers Builds deploy rate): throttled pushes keep commits local, print the wait time and exit 2 (not a failure); `run push --force` bypasses once
 - [x] State: `temp/last_push` epoch stamp written after each successful push; fallback to the `origin/main` commit date so `run clean` doesn't reset the window
