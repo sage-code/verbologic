@@ -266,6 +266,23 @@ export const useUserStore = defineStore('user', () => {
     return { ok: true }
   }
 
+  /** Create an account with e-mail + password (temporary mode: "Confirm
+   *  e-mail" is OFF, so Supabase returns a session immediately). */
+  async function signUpWithPassword(email: string, password: string): Promise<AuthResult> {
+    if (!supabase) return { ok: false, error: 'not_configured' }
+    const { error } = await supabase.auth.signUp({ email, password })
+    if (error) return { ok: false, error: error.message }
+    return { ok: true }
+  }
+
+  /** Sign in with e-mail + password (temporary mode). */
+  async function signInWithPassword(email: string, password: string): Promise<AuthResult> {
+    if (!supabase) return { ok: false, error: 'not_configured' }
+    const { error } = await supabase.auth.signInWithPassword({ email, password })
+    if (error) return { ok: false, error: error.message }
+    return { ok: true }
+  }
+
   /** Remove the avatar: delete the storage object + clear profile/metadata. */
   async function removeAvatar(): Promise<AuthResult> {
     if (!supabase || !user.value?.id) return { ok: false, error: 'not_configured' }
@@ -301,6 +318,8 @@ export const useUserStore = defineStore('user', () => {
     hydrate,
     fetchProfile,
     signIn,
+    signUpWithPassword,
+    signInWithPassword,
     registerWithEmail,
     signInWithEmail,
     verifyEmailOtp,

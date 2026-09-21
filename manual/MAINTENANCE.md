@@ -191,20 +191,37 @@ CTA labels live in `public/data/locales/*.json` under `pricing.cta_*`;
   (`type: 'phone_change'`). Verification state is read from the **session**
   (`email_confirmed_at` / `phone_confirmed_at`) — `auth.users` is the source
   of truth; `profiles` stores only `display_name` + `avatar_url`.
-- **Paste-the-code UX**: input normalises pasted text (`123 456` / `123-456` /
-  `123456` → 6 digits, shown as two groups of three), a format gate blocks
-  malformed submissions, a **Cancel** button closes the panel, resend
-  cooldown is **60 s** (GoTrue allows 1 OTP request / 60 s per user), and
-  failed verifications are counted by `src/lib/otpAttempts.ts` — **5
-  attempts then lock** per e-mail. That limiter is **UX deterrence only**
-  (GoTrue's token can't be attempt-limited by us server-side; Supabase still
-  enforces its own limits/expiry). A custom 9-digit code service with a
-  server-enforced counter is the Route B upgrade path.
+- **Temporary mode (e-mail verification postponed)**: hosted projects can't
+  customize auth e-mail templates until **custom SMTP** is configured, so
+  registration/sign-in currently use **e-mail + password** with **"Confirm
+  email" OFF** (Dashboard → Auth → Providers → Email) — `signUp` then returns
+  a session immediately. Gated by `EMAIL_CODE_ENABLED = false` in
+  `src/config/auth.ts` (the whole paste-the-code flow stays in the code —
+  flip the flag + add `{{ .Token }}` to the templates to restore it).
+  ⚠️ In this mode there is **no e-mail verification and no password reset**
+  (reset also needs e-mail delivery) — development-grade; e-mail/phone
+  *change* flows are hidden behind the same flag. E-mail/phone + verified
+  flags still come from the **session** (`auth.users` is the source of
+  truth; `profiles` stores only `display_name` + `avatar_url`).
+- **Paste-the-code UX** (restored by the flag): input normalises pasted text
+  (`123 456` / `123-456` / `123456` → 6 digits, shown as two groups of
+  three), a format gate blocks malformed submissions, a **Cancel** button
+  closes the panel, resend cooldown is **60 s** (GoTrue allows 1 OTP request
+  / 60 s per user), and failed verifications are counted by
+  `src/lib/otpAttempts.ts` — **5 attempts then lock** per e-mail. That
+  limiter is **UX deterrence only** (GoTrue's token can't be attempt-limited
+  by us server-side; Supabase still enforces its own limits/expiry). A
+  custom 9-digit code service with a server-enforced counter is the Route B
+  upgrade path.
 - Avatar storage: `avatars` bucket (public read, 2 MB, png/jpeg/webp);
   owner-only writes via RLS folder guard `avatars/{auth.uid()}/…`. Uploads
   are downscaled client-side (≤512px JPEG); the URL is mirrored into auth
   metadata so the header updates.
-- The header avatar (`UserAvatar.vue`) links to `/account` — the same form.
+- The header avatar (`UserAvatar.vue`) links to `/account` — the same form,
+  now rendered as a **dialog** (`AppDialog.vue`: teleported backdrop, title +
+  round ✕ top-right, Escape/backdrop close, scroll lock, focus trap); the
+  ✕ closes to `?next` or `/`. Signed out, the bottom bar shows **Register**
+  and **Sign in** side by side (primary submits, secondary switches mode).
 - **Dashboard prerequisites** (not code): the *Magic Link* / *Confirm signup*
   templates must include `{{ .Token }}` — that is what puts the 6-digit code
   in the e-mail (default templates ship only the link); "Confirm email" ON +

@@ -141,6 +141,16 @@
 - [ ] You (dashboard): enable "Confirm email" + redirect allowlist `/account`; add `{{ .Token }}` to the e-mail template; enable an SMS provider for phone verification
 - [ ] You (Workers Builds): set `NUXT_PUBLIC_SUPABASE_URL` / `NUXT_PUBLIC_SUPABASE_ANON_KEY` for production
 
+## Fix — account dialog + temporary password auth (e-mail verification postponed)
+- [x] Free tier can't customize auth e-mail templates (gated behind custom SMTP) → registration/sign-in switched to **e-mail + password** with "Confirm email" OFF (dashboard toggle) — `signUp` returns a session immediately
+- [x] `userStore.signUpWithPassword` / `signInWithPassword` added; the whole paste-the-code flow kept but hidden behind `EMAIL_CODE_ENABLED = false` (`src/config/auth.ts`) — flip + `{{ .Token }}` to restore; e-mail-change section gated by the same flag
+- [x] Caveat documented in form + docs: temporary mode has no e-mail verification and no password reset (dev-grade)
+- [x] New `AppDialog.vue`: teleported modal, title left + round ✕ top-right next to it, Escape/backdrop close, body scroll lock, focus trap + `role="dialog"`/`aria-modal`/`aria-labelledby`
+- [x] `/account` renders the form inside the dialog; ✕/backdrop/Escape close to `?next` or `/`
+- [x] Top tabs removed: **bottom bar with Register / Sign in side by side** (primary submits the active mode, secondary switches), password show/hide toggle + min-8 rule
+- [x] i18n: `close`, `password_label/placeholder/show/hide/min`, `verification_postponed`, `email_change_unavailable` (EN/RO)
+- [x] Verified via `nuxt generate` + `vue-tsc` + `validate-data` + `temp/verify_password_dialog.mjs`
+
 ## Fix — code-based sign-in (Route A: paste the 6-digit code)
 - [x] Root cause of "link signs nobody in" proven from `@supabase/ssr` source: browser client hardcodes `flowType: 'pkce'` (not overridable); a PKCE link without the code verifier (other browser/device/host, Site-URL fallback) is **silently ignored** by GoTrue (`_isPKCECallback` false → session detection skipped)
 - [x] The UI now leads with the **paste-the-code** flow (works regardless of flow type): 6-digit input normalises pastes (`123 456` / `123-456` / `123456`), shows as two groups of three, format gate before submit, **Cancel** button closes the panel (was impossible to dismiss)
