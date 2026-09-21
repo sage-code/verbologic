@@ -1,0 +1,30 @@
+{
+  "currency": "USD",
+  "symbol": "$",
+  "tiers": [
+    {
+      "id": "prospect",
+      "name": "Prospect",
+      "tagline": "Free trial",
+      "description": "Try any language free — no card required.",
+      "price": 0
+    },
+    {
+      "id": "starter",
+      "name": "Starter",
+      "tagline": "One-time · per language",
+      "description": "Buy a language once and keep it forever.",
+      "price": 49,
+      "perLanguage": { "hu": 35, "ru": 39, "es": 45, "it": 45, "pt": 45, "fr": 49, "en": 49, "de": 49, "ro": 59 }
+    },
+    {
+      "id": "prepaid_credit",
+      "name": "Prepaid Credit",
+      "tagline": "Top-up credits",
+      "description": "Load credit and spend as you go.",
+      "unit": "credits",
+      "price": 50,
+      "perLanguage": { "hu": 35, "ru": 40, "es": 50, "it": 50, "pt": 50, "fr": 55, "en": 55, "de": 55, "ro": 60 }
+    }
+  ]
+}

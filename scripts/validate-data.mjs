@@ -78,6 +78,33 @@ try {
   ERRORS.push('missing base locale files (en.json / ro.json)')
 }
 
+/* ── prices ───────────────────────────────────────────────────────────── */
+try {
+  const prices = readJson('public/data/prices.json')
+  const knownLocales = new Set(nav.languages.map((l) => l.locale))
+  if (!Array.isArray(prices.tiers) || prices.tiers.length === 0) {
+    ERRORS.push('prices.json: missing/empty tiers array')
+  }
+  const seenTier = new Set()
+  for (const tier of prices.tiers ?? []) {
+    if (!tier.id || !tier.name) ERRORS.push(`prices.json tier missing id/name: ${JSON.stringify(tier)}`)
+    if (seenTier.has(tier.id)) ERRORS.push(`prices.json duplicate tier id: ${tier.id}`)
+    seenTier.add(tier.id)
+    if (typeof tier.price !== 'number' || tier.price < 0) {
+      ERRORS.push(`prices.json tier '${tier.id}' has invalid price`)
+    }
+    for (const [locale, price] of Object.entries(tier.perLanguage ?? {})) {
+      if (!knownLocales.has(locale)) ERRORS.push(`prices.json tier '${tier.id}': unknown language '${locale}'`)
+      if (typeof price !== 'number' || price < 0) {
+        ERRORS.push(`prices.json tier '${tier.id}': bad price for '${locale}'`)
+      }
+    }
+  }
+  console.log(`prices: ${prices.tiers?.length ?? 0} tiers · currency ${prices.currency ?? '?'}`)
+} catch (e) {
+  ERRORS.push(`prices.json missing or unparseable: ${e.message}`)
+}
+
 /* ── report ───────────────────────────────────────────────────────────── */
 console.log(`entities: ${entities.length} (audio: ${withAudio}, TTS queue: ${ttsQueue})`)
 console.log(`languages: ${langCount} · menu items: ${menuIds.length}`)

@@ -6,6 +6,105 @@
     "search_placeholder": "Search words, phrases, questions…",
     "no_results": "No matches found.",
     "back": "Back",
-    "listen": "Listen"
+    "listen": "Listen",
+    "home": "Home",
+    "main_navigation": "Main navigation",
+    "account": "Account",
+    "change_language": "Change language",
+    "switch_dark": "Switch to dark mode",
+    "switch_light": "Switch to light mode",
+    "dark_mode": "Dark mode",
+    "light_mode": "Light mode",
+    "audio_coming_soon": "Audio coming soon",
+    "results": "results",
+    "for": "for",
+    "type_word": "Word",
+    "type_sentence": "Sentence",
+    "type_question": "Q&A",
+    "type_imperative": "Imperative",
+    "type_letter": "Letter",
+    "type_greeting": "Greeting"
+  },
+  "languages": {
+    "en": "English",
+    "ro": "Romanian",
+    "de": "German",
+    "ru": "Russian",
+    "it": "Italian",
+    "es": "Spanish",
+    "fr": "French",
+    "hu": "Hungarian",
+    "pt": "Portuguese"
+  },
+  "home": {
+    "eyebrow": "AI-powered language learning",
+    "hero_title": "Master Vocabulary in Context",
+    "hero_subtitle": "Accelerate retention with interactive AI Mentors and visual anchors.",
+    "cta_start": "Get Started Free",
+    "cta_method": "How It Works"
+  },
+  "method": {
+    "title": "Method",
+    "intro": "Contextual acquisition and adaptive spaced repetition — the full method write-up is on its way. Until then, browse the Romanian and English roadmaps, already fully searchable.",
+    "features_title": "System features",
+    "features_subtitle": "Built for acquisition that sticks.",
+    "feature_ai_title": "AI Context Engines",
+    "feature_ai_desc": "Every expression is learned in context, never in isolation.",
+    "feature_srs_title": "Spaced Repetition",
+    "feature_srs_desc": "Adaptive review scheduling locks vocabulary into long-term memory.",
+    "feature_analytics_title": "Precision Analytics",
+    "feature_analytics_desc": "Progress tracked letter by letter, word by word."
+  },
+  "about": {
+    "title": "About Verbologic",
+    "p1": "Verbologic is a decoupled, O(N)-scaling language-learning platform: static entity data, edge-delivered audio, instant client-side search, and an agentic dual-LLM build workflow.",
+    "p2": "532 Romanian & English entities recovered from the legacy roadmaps are already live in the searchable tracks."
+  },
+  "lessons": {
+    "title": "Lessons",
+    "intro": "Structured lessons land in Phase 3. Until then, browse the Romanian and English roadmaps — already fully searchable."
+  },
+  "library": {
+    "title": "Library",
+    "intro": "Your languages and your progress in each — one panel per language.",
+    "empty": "You have not ordered or subscribed to any language yet.",
+    "empty_cta": "Browse languages",
+    "credits_consumed": "Credits consumed",
+    "credits_left": "Credits left",
+    "words_learned": "Words learned",
+    "words_of": "of",
+    "continue": "Continue learning",
+    "coming_soon": "Track coming soon",
+    "tier_prospect": "Free trial",
+    "tier_starter": "Starter",
+    "tier_prepaid_credit": "Prepaid credit"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "tagline": "Pick a tier, choose your languages, pay once.",
+    "empty": "Pricing is being updated — please check back shortly.",
+    "select": "Select a language",
+    "selected_total": "selected · total",
+    "continue": "Select one or more languages to continue.",
+    "total": "Total:",
+    "none": "Nothing selected yet.",
+    "pay": "Pay Now",
+    "reset": "Reset",
+    "tier_prospect_name": "Prospect",
+    "tier_prospect_tagline": "Free trial",
+    "tier_prospect_description": "Try any language free — no card required.",
+    "tier_starter_name": "Starter",
+    "tier_starter_tagline": "One-time · per language",
+    "tier_starter_description": "Buy a language once and keep it forever.",
+    "tier_prepaid_credit_name": "Prepaid Credit",
+    "tier_prepaid_credit_tagline": "Top-up credits",
+    "tier_prepaid_credit_description": "Load credit and spend as you go."
+  },
+  "roadmap": {
+    "ui_label": "UI:",
+    "en_title": "English Roadmap",
+    "en_intro": "74 letters, sound-spelling patterns and silent-letter clusters — each with IPA and a Romanian gloss.",
+    "ro_title": "Romanian Roadmap",
+    "ro_intro": "532 searchable entities across vocabulary, phrases, Q&A drills, greetings and the alphabet — with 464 pronunciation clips served from media.verbologic.com."
   }
 }

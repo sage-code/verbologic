@@ -2,6 +2,8 @@
 <script setup lang="ts">
 import { MoonIcon, SunIcon } from '@heroicons/vue/24/outline'
 
+const { t } = useLocale()
+
 type Theme = 'light' | 'dark'
 const theme = useState<Theme>('app-theme', () => 'light')
 
@@ -22,8 +24,8 @@ function toggle() {
   <button
     type="button"
     class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-surface text-muted transition hover:text-accent"
-    :aria-label="theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'"
-    :title="theme === 'light' ? 'Dark mode' : 'Light mode'"
+    :aria-label="theme === 'light' ? (t('ui.switch_dark') ?? 'Switch to dark mode') : (t('ui.switch_light') ?? 'Switch to light mode')"
+    :title="theme === 'light' ? (t('ui.dark_mode') ?? 'Dark mode') : (t('ui.light_mode') ?? 'Light mode')"
     @click="toggle"
   >
     <MoonIcon v-if="theme === 'light'" class="h-5 w-5" aria-hidden="true" />

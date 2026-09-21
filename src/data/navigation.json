@@ -11,22 +11,20 @@
     { "code": "PT", "label": "Português", "flag": "pt", "locale": "pt" }
   ],
   "menu": [
-    { "id": "home", "icon": "home", "route": "/", "order": 0 },
-    { "id": "romanian", "icon": "book-open", "route": "/ro", "order": 1 },
-    { "id": "english", "icon": "language", "route": "/en", "order": 2 },
-    { "id": "lessons", "icon": "academic-cap", "route": "/lessons", "order": 3 },
-    { "id": "about", "icon": "information-circle", "route": "/about", "order": 4 }
+    { "id": "method", "icon": "academic-cap", "route": "/method", "order": 0 },
+    { "id": "pricing", "icon": "banknotes", "route": "/pricing", "order": 1 },
+    { "id": "library", "icon": "building-library", "route": "/library", "order": 2 }
   ],
   "menuLabels": {
-    "en": { "home": "Home", "romanian": "Romanian", "english": "English", "lessons": "Lessons", "about": "About" },
-    "ro": { "home": "Acasă", "romanian": "Română", "english": "Engleză", "lessons": "Lecții", "about": "Despre" },
-    "de": { "home": "Startseite", "romanian": "Rumänisch", "english": "Englisch", "lessons": "Lektionen", "about": "Über uns" },
-    "ru": { "home": "Главная", "romanian": "Румынский", "english": "Английский", "lessons": "Уроки", "about": "О нас" },
-    "it": { "home": "Home", "romanian": "Rumeno", "english": "Inglese", "lessons": "Lezioni", "about": "Chi siamo" },
-    "es": { "home": "Inicio", "romanian": "Rumano", "english": "Inglés", "lessons": "Lecciones", "about": "Acerca de" },
-    "fr": { "home": "Accueil", "romanian": "Roumain", "english": "Anglais", "lessons": "Leçons", "about": "À propos" },
-    "hu": { "home": "Kezdőlap", "romanian": "Román", "english": "Angol", "lessons": "Leckék", "about": "Rólunk" },
-    "pt": { "home": "Início", "romanian": "Romeno", "english": "Inglês", "lessons": "Lições", "about": "Sobre" }
+    "en": { "method": "Method", "pricing": "Pricing", "library": "Library" },
+    "ro": { "method": "Metodă", "pricing": "Prețuri", "library": "Bibliotecă" },
+    "de": { "method": "Methode", "pricing": "Preise", "library": "Bibliothek" },
+    "ru": { "method": "Метод", "pricing": "Тарифы", "library": "Библиотека" },
+    "it": { "method": "Metodo", "pricing": "Prezzi", "library": "Libreria" },
+    "es": { "method": "Método", "pricing": "Precios", "library": "Biblioteca" },
+    "fr": { "method": "Méthode", "pricing": "Tarifs", "library": "Bibliothèque" },
+    "hu": { "method": "Módszer", "pricing": "Árak", "library": "Könyvtár" },
+    "pt": { "method": "Método", "pricing": "Preços", "library": "Biblioteca" }
   },
   "social": [
     { "id": "bluesky", "label": "Bluesky", "url": "https://bsky.app/profile/verbologic.com", "icon": "bluesky" },

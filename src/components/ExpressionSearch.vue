@@ -30,14 +30,16 @@ function note(e: VerbologicEntity): string | null {
 }
 
 function typeLabel(type: VerbologicEntity['type']): string {
-  return {
-    word: 'Word',
-    sentence: 'Sentence',
-    question: 'Q&A',
-    imperative: 'Imperative',
-    letter: 'Letter',
-    greeting: 'Greeting'
-  }[type]
+  return (
+    t(`ui.type_${type}`) ?? {
+      word: 'Word',
+      sentence: 'Sentence',
+      question: 'Q&A',
+      imperative: 'Imperative',
+      letter: 'Letter',
+      greeting: 'Greeting'
+    }[type]
+  )
 }
 </script>
 
@@ -57,8 +59,8 @@ function typeLabel(type: VerbologicEntity['type']): string {
       />
 
       <p class="text-xs text-muted">
-        {{ store.results.length }} results
-        <span v-if="store.query"> for “{{ store.query }}”</span>
+        {{ store.results.length }} {{ t('ui.results') ?? 'results' }}
+        <span v-if="store.query"> {{ t('ui.for') ?? 'for' }} “{{ store.query }}”</span>
       </p>
 
       <ul class="divide-y divide-edge overflow-hidden rounded-lg border border-edge bg-surface shadow-sm">

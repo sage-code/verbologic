@@ -2,22 +2,19 @@
 <script setup lang="ts">
 import type { Component } from 'vue'
 import {
-  HomeIcon,
-  BookOpenIcon,
-  LanguageIcon,
   AcademicCapIcon,
-  InformationCircleIcon
+  BanknotesIcon,
+  BuildingLibraryIcon
 } from '@heroicons/vue/24/outline'
 
 const { menu, menuLabel } = useNavigation()
+const { t } = useLocale()
 const route = useRoute()
 
 const ICONS: Record<string, Component> = {
-  home: HomeIcon,
-  'book-open': BookOpenIcon,
-  language: LanguageIcon,
   'academic-cap': AcademicCapIcon,
-  'information-circle': InformationCircleIcon
+  banknotes: BanknotesIcon,
+  'building-library': BuildingLibraryIcon
 }
 
 function isActive(target: string): boolean {
@@ -26,7 +23,7 @@ function isActive(target: string): boolean {
 </script>
 
 <template>
-  <nav class="flex flex-wrap items-center gap-2" aria-label="Main navigation">
+  <nav class="flex flex-wrap items-center gap-2" :aria-label="t('ui.main_navigation') ?? 'Main navigation'">
     <NuxtLink
       v-for="item in menu"
       :key="item.id"

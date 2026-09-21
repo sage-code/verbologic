@@ -70,13 +70,13 @@ case "${1:-help}" in
   validate)  node scripts/validate-data.mjs ;;
   media)     shift; node scripts/media-sync.mjs "${1:-manifest}" ;;
   clean)
-    warn "Removing dist/, temp/, node_modules/.cache, .output/"
-    rm -rf dist temp .output node_modules/.cache
+    warn "Removing temp/, node_modules/.cache, .output/"
+    rm -rf temp .output node_modules/.cache
     say "Cleaned — .nuxt kept for fast next build."
     ;;
   clean-deep)
     warn "Removing build artifacts AND the .nuxt cache."
-    rm -rf dist temp .output .nuxt node_modules/.cache
+    rm -rf temp .output .nuxt node_modules/.cache
     npm run postinstall
     say "Deep cleaned. Regenerate with 'run build --force'."
     ;;
@@ -111,7 +111,9 @@ case "${1:-help}" in
     ;;
   deploy-dry)
     differential_build
-    npx wrangler deploy --dry-run --outdir dist
+    # Dry-run bundle goes to the gitignored temp/ scratch — never into the
+    # deployable .output/public (a past `--outdir dist` symlinked there).
+    npx wrangler deploy --dry-run --outdir temp/wrangler-dry
     say "Dry run OK — wrangler.toml is valid, nothing uploaded."
     ;;
   *) warn "Unknown command: ${1:-}"; usage ;;

@@ -20,7 +20,15 @@ const { social } = useNavigation()
           <span class="hover-label hidden sm:inline">{{ s.label }}</span>
         </a>
       </div>
-      <p class="mt-6 text-center text-xs text-faint">© 2026 Verbologic</p>
+      <p class="mt-6 text-center text-xs text-faint">
+        © 2026
+        <a
+          href="https://sagecode.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="transition hover:text-accent"
+        >Sage-Code Laboratory</a>
+      </p>
     </div>
   </footer>
 </template>

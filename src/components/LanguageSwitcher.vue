@@ -1,13 +1,18 @@
-// LanguageSwitcher — dropdown listing the 9 interface languages (flag emoji + short code).
+// LanguageSwitcher — dropdown listing the 9 interface languages (flag + constant code + localized name).
 <script setup lang="ts">
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 import type { LocaleCode } from '~/composables/useLocale'
 
 const { languages } = useNavigation()
-const { lang, setLocale } = useLocale()
+const { lang, setLocale, t } = useLocale()
 const open = ref(false)
 
 const current = computed(() => languages.find((l) => l.locale === lang.value) ?? languages[0])
+
+/** Language display name in the active interface language; native name as fallback. */
+function name(l: { locale: string; label: string }): string {
+  return t(`languages.${l.locale}`) ?? l.label
+}
 
 async function select(locale: string) {
   open.value = false
@@ -30,6 +35,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
       class="inline-flex items-center gap-1.5 rounded-full bg-surface px-1.5 py-0.5 text-sm font-medium text-content transition hover:bg-soft"
       aria-haspopup="listbox"
       :aria-expanded="open"
+      :aria-label="t('ui.change_language') ?? 'Change language'"
       @click="open = !open"
     >
       <LanguageFlag :code="current.flag" :label="current.label" size="md" />
@@ -51,9 +57,9 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
           :aria-selected="l.locale === lang"
           @click="select(l.locale)"
         >
-          <LanguageFlag :code="l.flag" :label="l.label" size="md" />
+          <LanguageFlag :code="l.flag" :label="name(l)" size="md" />
           <span class="font-semibold tracking-wide text-faint">{{ l.code }}</span>
-          <span class="ml-1 truncate">{{ l.label }}</span>
+          <span class="ml-1 truncate">{{ name(l) }}</span>
         </button>
       </li>
     </ul>
