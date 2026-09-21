@@ -28,9 +28,10 @@ Verbologic maintenance runner
   run tsc                           Type-check (vue-tsc)
   run status                        Git status + build-fingerprint state
   run commit "<message>"            Stage + commit all changes
-  run push                          Push current branch (triggers Pages deploy)
+  run push                          Push current branch (triggers Workers Builds deploy)
   run release "<message>"           build → validate → media manifest → commit → push
-  run deploy-pages                  Wrangler Pages differential upload
+  run deploy                        Wrangler deploy (Workers Static Assets, differential)
+  run deploy-dry                    Validate wrangler.toml without uploading
 EOF
 }
 
@@ -88,7 +89,7 @@ case "${1:-help}" in
   push)
     branch="$(git branch --show-current)"
     git push origin "$branch" || fail "push failed"
-    say "Pushed $branch — Cloudflare Pages is (re)deploying."
+    say "Pushed $branch — Cloudflare Workers Builds is (re)deploying."
     ;;
   release)
     differential_build
@@ -98,13 +99,20 @@ case "${1:-help}" in
     git add -A
     git commit -m "$msg" || warn "nothing to commit"
     git push origin "$(git branch --show-current)" || fail "push failed"
-    say "Released ✓ — website deployed by Cloudflare Pages."
+    say "Released ✓ — website deployed by Cloudflare Workers Builds."
     ;;
 
-  deploy-pages)
+  deploy)
     [[ -n "${CLOUDFLARE_API_TOKEN:-}" ]] || \
       fail "CLOUDFLARE_API_TOKEN is not set — create one at https://dash.cloudflare.com/profile/api-tokens"
-    npx wrangler pages deploy .output/public --project-name=verbologic
+    differential_build
+    npx wrangler deploy
+    say "Deployed ✓ — verbologic.com + www.verbologic.com (Workers Static Assets)."
+    ;;
+  deploy-dry)
+    differential_build
+    npx wrangler deploy --dry-run --outdir dist
+    say "Dry run OK — wrangler.toml is valid, nothing uploaded."
     ;;
   *) warn "Unknown command: ${1:-}"; usage ;;
 esac

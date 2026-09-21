@@ -7,7 +7,8 @@
                          │                              │
                          ▼                              ▼
     ┌──────────────────────────┐             ┌──────────────────────────┐
-    │  Cloudflare Pages (SSG)  │             │   Cloudflare R2 Bucket   │
+    │  Cloudflare Workers      │             │   Cloudflare R2 Bucket   │
+    │  Static Assets (SSG)     │             │  media.verbologic.com    │
     │  - Nuxt 3 / Vue 3 App    │             │  media.verbologic.com    │
     │  - Static HTML / WebP    │             │  - Short WebM/MP4 Videos │
     │  - Static JSON Indices   │             │  - Pronunciation MP3s    │
@@ -35,7 +36,7 @@
 | **Search Engine** | **Orama** or **Fuse.js** | Client-side memory index loaded over static JSON bundles; search <5ms without server calls. |
 | **Media Hosting** | **Cloudflare R2** | Zero-egress object storage for MP3, MP4, and WebP media behind custom domain edge rules. |
 | **User Data & Auth** | **Supabase** | Holds user profiles, active learning tracks, quiz scores, SRS intervals, and unlocked prizes. |
-| **Deployment** | **Cloudflare Pages** | Automated git builds, edge caching, global asset distribution. |
+| **Deployment** | **Cloudflare Workers Static Assets** | Automated git builds, edge caching, global asset distribution. |
 
 ---
 
@@ -71,7 +72,7 @@ verbologic/
 │   └── lib/
 │       ├── supabaseClient.ts     # Supabase init & helper methods
 │       └── searchEngine.ts       # Orama/Fuse index builder
-├── wrangler.toml              # Cloudflare configuration
+├── wrangler.toml              # Workers Static Assets + custom domain routes
 └── nuxt.config.ts / vite.config.ts
 
 ```

@@ -7,7 +7,7 @@ An enterprise-grade, high-performance platform for foreign language learning. Bu
 ## 🏗️ Core Architecture Overview
 
 * **Frontend Framework:** Nuxt 3 / Vue 3 (SSG + Interactive Hydration)
-* **Hosting & CDN:** Cloudflare Pages
+* **Hosting & CDN:** Cloudflare Workers Static Assets (`verbologic.com`, `www.verbologic.com`)
 * **Media & Assets:** Cloudflare R2 (`media.verbologic.com`) via S3 API
 * **Search Engine:** Orama / Fuse.js (Client-side JSON index parsing)
 * **Database & Auth:** Supabase PostgreSQL (RLS, User Preferences, Gamification State)
@@ -37,5 +37,5 @@ verbologic/
 │   ├── components/           # Vue interactive components (ExpressionSearch, QuizEngine)
 │   ├── stores/               # Pinia stores (syncing local state to Supabase)
 │   └── lib/                  # Search client and Supabase clients
-├── wrangler.toml             # Cloudflare Pages / R2 binding configurations
+├── wrangler.toml             # Workers Static Assets + custom domain routes
 └── README.md

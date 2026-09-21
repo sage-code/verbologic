@@ -16,7 +16,13 @@ import { fileURLToPath } from 'node:url'
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const STATE_FILE = join(ROOT, 'temp', 'build.fingerprint')
 const TOP_DIRS = ['src', 'public/data']
-const TOP_FILES = ['nuxt.config.ts', 'tailwind.config.ts', 'tsconfig.json', 'package.json']
+const TOP_FILES = [
+  'nuxt.config.ts',
+  'tailwind.config.ts',
+  'tsconfig.json',
+  'package.json',
+  'wrangler.toml'
+]
 
 /** Recursively list all files under a directory (sorted, deterministic). */
 function walk(dir) {

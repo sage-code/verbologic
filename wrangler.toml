@@ -1,0 +1,42 @@
+# Verbologic — Cloudflare Workers Static Assets configuration.
+#
+# This file is the source of truth for the Worker's name, assets directory and
+# custom domains. Cloudflare Workers Builds reads it on every push to `main`.
+#
+# Custom domains are declared here rather than in the dashboard so the binding is
+# reproducible from source control. `custom_domain = true` makes Cloudflare create
+# the DNS records and issue the certificates on deploy.
+#
+# Deploy:  run deploy        (wrangler deploy)
+# Preview: run deploy-dry    (wrangler deploy --dry-run)
+#
+# The site is a pure static bundle produced by `nuxt generate` → .output/public.
+# There is no Worker script: `main` is omitted, making this an assets-only Worker.
+#
+# IMPORTANT: `name` must match the existing Worker in the Cloudflare dashboard.
+# If it differs, `wrangler deploy` creates a *second* Worker and the custom
+# domains below will conflict with the ones already attached.
+
+name = "verbologic"
+compatibility_date = "2026-09-09"
+
+# Do not expose a *.workers.dev hostname — the site is served only on the
+# custom domains below.
+workers_dev = false
+
+[assets]
+directory = "./.output/public"
+# Nuxt emits /ro/index.html, /en/index.html, … — the default auto-trailing-slash
+# handling resolves those correctly. A missing path serves the 404 page.
+not_found_handling = "404-page"
+
+# Custom Domains: Cloudflare creates the DNS records and issues the certificates.
+# Both apex and www are attached; add a redirect rule so one canonical host wins
+# (see manual/MAINTENANCE.md §5).
+[[routes]]
+pattern = "verbologic.com"
+custom_domain = true
+
+[[routes]]
+pattern = "www.verbologic.com"
+custom_domain = true

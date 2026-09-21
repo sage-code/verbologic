@@ -18,11 +18,12 @@ edit everything **by hand** when no agent is involved.
 │  src/assets/css/layout.css  ← responsive @media rules                   │
 │  src/pages/**               ← routes (/, /ro, /en, /lessons, /about)    │
 │  scripts/*.mjs              ← maintenance/build/media tooling           │
+│  wrangler.toml              ← Workers Static Assets + custom domains    │
 │  run                        ← one command to rule them all              │
 └─────────────────────────────────────────────────────────────────────────┘
       │ anywhere run <command>
       ▼
-  npm run dev / generate  →  .output/public  →  Cloudflare Pages / R2
+  npm run dev / generate  →  .output/public  →  Cloudflare Workers / R2
 ```
 
 Generated/derived things that you must **never** edit or commit: `.nuxt/`,
@@ -184,31 +185,57 @@ maintain yet.
 | `run clean-deep` | remove build junk + `.nuxt` cache |
 | `run tsc` | vue-tsc typecheck |
 | `run commit "<msg>"` | `git add -A` + commit |
-| `run push` | push branch (triggers Cloudflare Pages deploy) |
+| `run push` | push branch (triggers Cloudflare Workers Builds deploy) |
 | `run release "<msg>"` | build → validate → media manifest → commit → push (deploys) |
-| `run deploy-pages` | `wrangler pages deploy .output/public` (differential upload; needs `CLOUDFLARE_API_TOKEN`) |
+| `run deploy` | `wrangler deploy` (Workers Static Assets, differential; needs `CLOUDFLARE_API_TOKEN`) |
+| `run deploy-dry` | validate `wrangler.toml` without uploading |
 
 ### Why the build is differential
-`scripts/fingerprint.mjs` hashes `src/**`, `public/data/**`, configs and the
-package manifests into `temp/build.fingerprint`. `run build` reuses the existing
+`scripts/fingerprint.mjs` hashes `src/**`, `public/data/**`, the build configs
+(`nuxt.config.ts`, `tailwind.config.ts`, `tsconfig.json`, `package.json`) and
+`wrangler.toml` into `temp/build.fingerprint`. `run build` reuses the existing
 `.output/public` whenever the hash is unchanged, so quick "build again" cycles
 skip regeneration. Any source/content change short-circuits that and regenerates.
 `--force` bypasses the gate.
 
 ### Deployment paths (pick one)
 1. **Automatic (recommended):** push to the GitHub `main` branch; Cloudflare
-   Pages auto-deploys. `run release` does exactly this.
-2. **Direct Pages upload (differential):** `run deploy-pages` — Wrangler hashes
-   and uploads only the changed files from `.output/public`.
+   Workers Builds auto-deploys. `run release` does exactly this.
+2. **Direct upload (differential):** `run deploy` — Wrangler hashes and uploads
+   only the changed files from `.output/public`.
 3. **Media:** `run media upload` (R2) — manifest-gated, uploads only new/changed
    audio keys.
+
+### Custom domains (declarative)
+`wrangler.toml` attaches both hostnames via `[[routes]]` with
+`custom_domain = true`. Cloudflare creates the DNS records and issues the
+certificates on deploy — no dashboard step required.
+
+```toml
+[[routes]]
+pattern = "verbologic.com"
+custom_domain = true
+
+[[routes]]
+pattern = "www.verbologic.com"
+custom_domain = true
+```
+
+Custom Domains match on **exact hostname**, so apex and `www` are separate
+entries. Add a redirect rule so one canonical host wins; the hostname you
+redirect *from* also needs a proxied DNS record (`A` → `192.0.2.0` or
+`AAAA` → `100::`).
+
+> **Note:** this project runs on **Workers Static Assets**, not Cloudflare Pages.
+> Pages does not support `routes`/`route` in its Wrangler config, which is why
+> the domains are declared here instead of in the dashboard.
 
 ### One-time prerequisites
 - Install deps: `run install`.
 - Git remote set (`git remote -v`), branch `main`.
-- Cloudflare Pages project linked to the repo (build command `npm run generate`,
+- Cloudflare Workers project linked to the repo (build command `npm run generate`,
   output directory `.output/public`) **or** `CLOUDFLARE_API_TOKEN` for
-  `deploy-pages`.
+  `run deploy`.
 - R2 env vars for `media upload`: `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`,
   `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`.
 
