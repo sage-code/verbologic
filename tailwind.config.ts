@@ -42,7 +42,8 @@ export default <Partial<Config>>{
         sans: 'var(--font-body)',
         body: 'var(--font-body)',
         ui: 'var(--font-ui)',
-        header: 'var(--font-header)'
+        header: 'var(--font-header)',
+        code: 'var(--font-code)'
       }
     }
   },

@@ -19,6 +19,9 @@
      neither ships the basic Cyrillic block (U+0400-045F), while Inter does —
      Russian headings/buttons therefore render consistently instead of
      silently falling back to the system font. Latin is unaffected. */
+  /* UI code (language codes, snippets) — system monospace, no webfont. */
+  --font-code: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+
   --font-header: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-ui: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;

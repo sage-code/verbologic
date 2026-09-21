@@ -1,15 +1,22 @@
 // Pricing — three tiers (Prospect · Starter · Prepaid Credit) over a
 // multi-select language checklist. Per-language prices: public/data/prices.json.
+// Free tier (price 0) never charges: it enrolls a prospect/trial per selected
+// language and opens the Library. Paid tiers keep the checkout stub.
 <script setup lang="ts">
 import type { PriceTier } from '~/composables/usePrices'
+import { asTier } from '~/types/database'
 
 const { tiers, symbol, priceFor } = usePrices()
 const { languages, languageName } = useNavigation()
 const copy = useCopy()
 const { lang, setLocale, isLoaded } = useLocale()
+const store = useLibraryStore()
 
-// Preload UI chrome on the client (mirrors the other pages).
+// Preload UI chrome + local enrollments on the client (mirrors the other pages).
+// Hydrating FIRST matters: enroll() → persist() rewrites the whole localStorage
+// array, so enrolling on an un-hydrated store would wipe saved enrollments.
 onMounted(() => {
+  store.hydrate()
   if (!isLoaded()) void setLocale(lang.value)
 })
 
@@ -24,6 +31,7 @@ const selected = ref<Set<string>>(new Set())
 
 const hasSelection = computed(() => selected.value.size > 0)
 const isCredits = computed(() => selectedTier.value?.unit === 'credits')
+const isFree = computed(() => selectedTier.value?.price === 0)
 
 /** Per-language price for the active tier (0 while pricing is loading). */
 function priceAt(locale: string): number {
@@ -31,8 +39,16 @@ function priceAt(locale: string): number {
 }
 
 function formatPrice(amount: number): string {
+  if (isFree.value) return copy('pricing.free', 'Free')
   return isCredits.value ? `${amount} ${copy('pricing.credits', 'credits')}` : `${symbol.value}${amount}`
 }
+
+/** CTA label follows the tier: free = navigation, paid = purchase. */
+const ctaLabel = computed(() => {
+  if (isFree.value) return copy('pricing.cta_free', 'Open Library')
+  if (isCredits.value) return copy('pricing.cta_topup', copy('pricing.pay', 'Pay Now'))
+  return copy('pricing.cta_buy', copy('pricing.pay', 'Pay Now'))
+})
 
 const total = computed(() => [...selected.value].reduce((sum, locale) => sum + priceAt(locale), 0))
 
@@ -47,10 +63,32 @@ function reset() {
   selected.value = new Set()
 }
 
-function payNow() {
+async function ctaAction() {
+  const tier = selectedTier.value
+  if (!tier) return
+
+  // Free plan: no payment — record a prospect/trial enrollment per selected
+  // language (skipping ones already owned) and open the Library.
+  if (isFree.value) {
+    for (const locale of selected.value) {
+      if (!store.activeFor(locale)) {
+        store.enroll({
+          locale,
+          tierId: asTier(tier.id),
+          status: 'trial',
+          creditsTotal: 0,
+          creditsConsumed: 0,
+          wordsLearned: 0
+        })
+      }
+    }
+    await navigateTo('/library')
+    return
+  }
+
   // Payment-gateway stub — wired when billing lands (Supabase phase).
   console.info('[pricing] checkout', {
-    tier: selectedTier.value?.id,
+    tier: tier.id,
     languages: [...selected.value],
     total: total.value
   })
@@ -126,9 +164,9 @@ function payNow() {
               class="rounded-full px-5 py-2.5 font-semibold transition disabled:cursor-not-allowed disabled:opacity-40"
               :class="hasSelection ? 'bg-accent text-on-accent hover:bg-accent-strong' : 'bg-soft text-faint'"
               :disabled="!hasSelection"
-              @click="payNow"
+              @click="ctaAction"
             >
-              {{ copy('pricing.pay', 'Pay Now') }}
+              {{ ctaLabel }}
             </button>
             <button
               type="button"

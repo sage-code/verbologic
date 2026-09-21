@@ -155,6 +155,22 @@ run media upload     # requires R2 credentials; uploads only changed keys
 `content/<lang>/*.md` via `@nuxt/content` — arrives in Phase 3. Nothing to
 maintain yet.
 
+### 3.5 Pricing (tiers + CTA behavior)
+`public/data/prices.json` is the single source of truth: `tiers[]` with `id`,
+`name`, optional `tagline`/`description`, `price`, optional `unit: 'credits'`
+and `perLanguage` overrides. The CTA in `src/pages/pricing/index.vue` is
+tier-aware:
+- **Free tier** (`price === 0`): label `pricing.cta_free` ("Open Library") —
+  no payment. It enrolls each selected language as `prospect`/`trial` via the
+  `libraryStore.enroll()` write seam (localStorage, deduped by
+  `activeFor()`, hydrated first on mount) and routes to `/library`.
+- **One-time tier**: label `pricing.cta_buy` ("Buy now") — checkout stub.
+- **Credits tier** (`unit: 'credits'`): label `pricing.cta_topup` ("Buy
+  credits") — checkout stub; amounts render via `pricing.credits`.
+- Zero prices render as `pricing.free` ("Free"), never `$0`.
+CTA labels live in `public/data/locales/*.json` under `pricing.cta_*`;
+`pricing.pay` remains the fallback for paid tiers.
+
 ---
 
 ## 4. Layout — where it is & how to maintain it manually

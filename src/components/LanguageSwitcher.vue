@@ -34,7 +34,7 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
       @click="open = !open"
     >
       <LanguageFlag :code="current.flag" :label="languageName(current.locale)" size="md" />
-      <span class="font-semibold tracking-wide">{{ current.code }}</span>
+      <span class="w-8 shrink-0 text-center font-code text-xs font-semibold tracking-wider">{{ current.code }}</span>
       <ChevronDownIcon class="h-4 w-4" />
     </button>
 
@@ -53,8 +53,8 @@ onBeforeUnmount(() => document.removeEventListener('click', onDocClick))
           @click="select(l.locale)"
         >
           <LanguageFlag :code="l.flag" :label="languageName(l.locale)" size="md" />
-          <span class="font-semibold tracking-wide text-faint">{{ l.code }}</span>
-          <span class="ml-1 truncate">{{ languageName(l.locale) }}</span>
+          <span class="w-8 shrink-0 font-code text-xs font-semibold tracking-wider text-faint">{{ l.code }}</span>
+          <span class="min-w-0 flex-1 truncate">{{ languageName(l.locale) }}</span>
         </button>
       </li>
     </ul>

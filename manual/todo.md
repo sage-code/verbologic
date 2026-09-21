@@ -130,6 +130,14 @@
 - [ ] Login UI (magic link) → `userStore.signInWithEmail`
 - [ ] AI Mentor credit spend → append to `credit_ledger` (negative deltas need a server-side policy/edge function)
 
+## UI polish — dropdown code column + tier-aware pricing CTA
+- [x] `LanguageSwitcher`: language code gets a fixed 32px monospace column (`w-8 shrink-0 font-code text-xs`) so labels align in one column and truncate (`min-w-0 flex-1 truncate`); trigger code fixed-width too (no horizontal jitter when switching codes)
+- [x] New `--font-code` typography token (system mono stack — no 4th webfont) in `tailwind.css` + `fontFamily.code` in `tailwind.config.ts`
+- [x] Pricing CTA is tier-aware: free (`price === 0`) → `pricing.cta_free` "Open Library" — enrolls `prospect`/`trial` per selected language (deduped via `activeFor`) and routes to `/library`; one-time → `pricing.cta_buy` "Buy now"; credits → `pricing.cta_topup` "Buy credits" (`pricing.pay` stays as fallback)
+- [x] Free-plan safety: pricing page `store.hydrate()` before any `enroll()` — `persist()` rewrites the whole localStorage array, so enrolling un-hydrated would wipe saved enrollments
+- [x] Zero prices render as `pricing.free` ("Free"/"Gratuit") instead of `$0`
+- [x] Docs: `MAINTENANCE.md` §3.5 (pricing tiers + CTA behavior); verified via `nuxt generate` + `vue-tsc` + `validate-data` + `temp/verify_cta_and_codes.mjs`
+
 ## i18n — localized language names (language-names matrix)
 - [x] New `src/data/language-names.json`: 9 × 9 matrix (UI locale → target locale → name), **build-inlined** like `navigation.json` — no runtime fetch, so it cannot 404 and the list updates synchronously on toolbar-language change (root cause of the stale live list was the undeployed runtime file 404ing silently)
 - [x] New `useLanguageNames()` composable (usePrices pattern: client `$fetch`, `useState` cache) + `useNavigation().languageName()` with fallback chain matrix → `languages.<code>` dict key → native endonym → code
