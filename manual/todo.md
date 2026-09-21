@@ -130,6 +130,13 @@
 - [ ] Login UI (magic link) → `userStore.signInWithEmail`
 - [ ] AI Mentor credit spend → append to `credit_ledger` (negative deltas need a server-side policy/edge function)
 
+## Process — push throttle (1 push / 2h)
+- [x] `run push`/`run release` throttled to one push per 2h (Workers Builds deploy rate): throttled pushes keep commits local, print the wait time and exit 2 (not a failure); `run push --force` bypasses once
+- [x] State: `temp/last_push` epoch stamp written after each successful push; fallback to the `origin/main` commit date so `run clean` doesn't reset the window
+- [x] No-op pushes ("nothing to push") short-circuit before the throttle and never restamp the window
+- [x] `run status` prints last-push age; docs in `MAINTENANCE.md` §5
+- [x] Tested live: empty commit + `run push` → throttled, `[ahead N]`, no remote impact; guard verified
+
 ## UI polish — dropdown code column + tier-aware pricing CTA
 - [x] `LanguageSwitcher`: language code gets a fixed 32px monospace column (`w-8 shrink-0 font-code text-xs`) so labels align in one column and truncate (`min-w-0 flex-1 truncate`); trigger code fixed-width too (no horizontal jitter when switching codes)
 - [x] New `--font-code` typography token (system mono stack — no 4th webfont) in `tailwind.css` + `fontFamily.code` in `tailwind.config.ts`

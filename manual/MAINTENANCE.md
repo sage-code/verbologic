@@ -220,9 +220,9 @@ CTA labels live in `public/data/locales/*.json` under `pricing.cta_*`;
 | `run clean` | remove build junk, keep `.nuxt` (fast next build) |
 | `run clean-deep` | remove build junk + `.nuxt` cache |
 | `run tsc` | vue-tsc typecheck |
-| `run commit "<msg>"` | `git add -A` + commit |
-| `run push` | push branch (triggers Cloudflare Workers Builds deploy) |
-| `run release "<msg>"` | build → validate → media manifest → commit → push (deploys) |
+| `run commit "<msg>"` | `git add -A` + commit (always allowed) |
+| `run push [--force]` | push branch (triggers Cloudflare Workers Builds deploy) — **throttled: max 1 push / 2h**; a throttled push keeps commits local, exits 2 with a wait notice; `--force` bypasses once |
+| `run release "<msg>"` | build → validate → media manifest → commit → push (push throttled: on throttle the release is committed locally and reports when to `run push`) |
 | `run deploy` | `wrangler deploy` (Workers Static Assets, differential; needs `CLOUDFLARE_API_TOKEN`) |
 | `run deploy-dry` | validate `wrangler.toml` without uploading |
 
@@ -233,6 +233,19 @@ CTA labels live in `public/data/locales/*.json` under `pricing.cta_*`;
 `.output/public` whenever the hash is unchanged, so quick "build again" cycles
 skip regeneration. Any source/content change short-circuits that and regenerates.
 `--force` bypasses the gate.
+
+### Push throttle (2h)
+Pushes trigger a Cloudflare Workers Builds deploy, so `run` enforces **at most
+one push per 2h**. State: `temp/last_push` (epoch seconds, written after every
+successful push; `run clean` wiping `temp/` falls back to the `origin/main`
+commit date, which tracks the last push closely). Behavior:
+- `run push` with unpushed commits inside the window → **no push**; commits
+  stay local; exit code 2 with a "push in ~N min" notice.
+- `run push --force` → bypasses the window once (for hotfixes).
+- `run release` → always commits; on throttle it reports "committed but push
+  throttled" — the queued commits go out with the next successful push.
+- `run status` prints the last-push age. `run deploy` (manual wrangler) is
+  intentionally not throttled.
 
 ### Deployment paths (pick one)
 1. **Automatic (recommended):** push to the GitHub `main` branch; Cloudflare
