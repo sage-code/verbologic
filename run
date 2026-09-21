@@ -28,11 +28,53 @@ Verbologic maintenance runner
   run tsc                           Type-check (vue-tsc)
   run status                        Git status + build-fingerprint state
   run commit "<message>"            Stage + commit all changes
-  run push                          Push current branch (triggers Workers Builds deploy)
-  run release "<message>"           build → validate → media manifest → commit → push
+  run push [--force]                Push current branch (throttled: max 1 push / 2h; --force bypasses)
+  run release "<message>"           build → validate → media manifest → commit → push (throttled)
   run deploy                        Wrangler deploy (Workers Static Assets, differential)
   run deploy-dry                    Validate wrangler.toml without uploading
 EOF
+}
+
+# ── Push throttle: at most one push per 2h (one Workers Builds deploy/window).
+# Commits always happen; a throttled push just keeps them local until the
+# window opens. The marker lives in gitignored temp/ (same pattern as the
+# build fingerprint); 'run clean' wiping it falls back to the origin/main
+# commit date, which tracks the last push closely enough for the fallback.
+PUSH_WINDOW=7200 # seconds (2h)
+PUSH_STAMP="temp/last_push"
+
+last_push_epoch() {
+  if [[ -f "$PUSH_STAMP" ]]; then cat "$PUSH_STAMP"
+  elif git rev-parse --verify -q origin/main >/dev/null 2>&1; then git log -1 --format=%ct origin/main
+  else echo 0; fi
+}
+
+# do_push ["--force"] — push the current branch, honoring the throttle.
+# Exit codes: 0 = pushed (or nothing to push), 2 = throttled (commit kept local).
+do_push() {
+  local branch force="${1:-}"
+  branch="$(git branch --show-current)"
+
+  # Nothing unpushed? (remote branch exists and we're not ahead of it)
+  if git rev-parse --verify -q "origin/$branch" >/dev/null 2>&1 && \
+     (( $(git rev-list --count "origin/$branch..$branch") == 0 )); then
+    say "Nothing to push — '$branch' already matches origin."
+    return 0
+  fi
+
+  local now last delta
+  now="$(date +%s)"
+  last="$(last_push_epoch)"
+  delta=$(( now - last ))
+  if [[ "$force" != "--force" ]] && (( delta < PUSH_WINDOW )); then
+    warn "Last push $(( delta / 60 )) min ago — throttle: 1 push / 2h. Commit kept local."
+    warn "Push in ~$(( (PUSH_WINDOW - delta + 59) / 60 )) min: run push   (bypass once: run push --force)"
+    return 2
+  fi
+
+  git push origin "$branch" || fail "push failed"
+  date +%s > "$PUSH_STAMP"
+  say "Pushed $branch — Cloudflare Workers Builds is (re)deploying. Next push allowed in 2h."
 }
 
 differential_build() {
@@ -56,6 +98,7 @@ case "${1:-help}" in
   status)
     git status --short
     node scripts/fingerprint.mjs --check || true
+    echo "last push: $(( ( $(date +%s) - $(last_push_epoch) ) / 60 )) min ago (throttle window: 2h)"
     ;;
   build)
     if [[ "${2:-}" == "--force" ]]; then
@@ -87,9 +130,7 @@ case "${1:-help}" in
     say "Committed: $msg"
     ;;
   push)
-    branch="$(git branch --show-current)"
-    git push origin "$branch" || fail "push failed"
-    say "Pushed $branch — Cloudflare Workers Builds is (re)deploying."
+    do_push "${2:-}"
     ;;
   release)
     differential_build
@@ -98,8 +139,12 @@ case "${1:-help}" in
     msg="${2:-release $(date +%Y-%m-%d %H:%M)}"
     git add -A
     git commit -m "$msg" || warn "nothing to commit"
-    git push origin "$(git branch --show-current)" || fail "push failed"
-    say "Released ✓ — website deployed by Cloudflare Workers Builds."
+    do_push
+    if (( $? == 2 )); then
+      warn "Release committed but push throttled — run 'run push' when the 2h window opens."
+    else
+      say "Released ✓ — website deployed by Cloudflare Workers Builds."
+    fi
     ;;
 
   deploy)
