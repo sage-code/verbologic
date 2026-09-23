@@ -6,7 +6,7 @@
 <script setup lang="ts">
 import type { Component } from 'vue'
 import { ChatBubbleLeftRightIcon, PencilSquareIcon, PuzzlePieceIcon } from '@heroicons/vue/24/outline'
-import { galleryName } from '~/composables/useGallery'
+import { mediaName } from '~/composables/useMedia'
 import type { Sidebar } from '~/types/sidebars'
 
 const copy = useCopy()
@@ -28,7 +28,7 @@ const ICONS: Record<string, Component> = {
 /** The practice modes come from the sidebars — no hardcoding. */
 const MODES = practice()
 
-const titleOf = (sidebar: Sidebar) => galleryName(sidebar.names, lang.value, sidebar.id)
+const titleOf = (sidebar: Sidebar) => mediaName(sidebar.names, lang.value, sidebar.id)
 const descriptionOf = (sidebar: Sidebar) =>
   sidebar.descriptions ? sidebar.descriptions[lang.value] || sidebar.descriptions.en || '' : ''
 </script>

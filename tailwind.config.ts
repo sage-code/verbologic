@@ -7,7 +7,8 @@ export default <Partial<Config>>{
     './src/layouts/**/*.vue',
     './src/pages/**/*.vue',
     './src/composables/**/*.{js,ts}',
-    './src/stores/**/*.{js,ts}'
+    './src/stores/**/*.{js,ts}',
+    './src/lib/**/*.{js,ts}'
   ],
   theme: {
     extend: {

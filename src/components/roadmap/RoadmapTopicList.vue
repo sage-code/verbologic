@@ -2,15 +2,15 @@
 // chapters): localized title, code chip, learned/total badge + progress bar.
 <script setup lang="ts">
 import { useRoadmapStore, PROGRESS_KEY } from '~/stores/roadmapStore'
-import { galleryName } from '~/composables/useGallery'
-import type { GalleryNames } from '~/types/gallery'
+import { mediaName } from '~/composables/useMedia'
+import type { MediaNames } from '~/types/media'
 
 const store = useRoadmapStore()
 const progress = inject(PROGRESS_KEY)
 const { lang: uiLang } = useLocale()
 const copy = useCopy()
 
-const title = (names: GalleryNames, fallback: string) => galleryName(names, uiLang.value, fallback)
+const title = (names: MediaNames, fallback: string) => mediaName(names, uiLang.value, fallback)
 const learnedOf = (code: string) => (progress ? store.learnedCount(code, progress.learned.value) : 0)
 const pct = (done: number, total: number) => (total ? Math.round((done / total) * 100) : 0)
 </script>

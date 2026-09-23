@@ -22,9 +22,14 @@ Verbologic maintenance runner
   run install                       Install dependencies
   run build [--force]               Differential build (skips rebuild when nothing changed)
   run validate                      Entity/nav/locale integrity checks
-  run media [stage|manifest|verify|upload|prune] Audio staging & differential manifest
-  run gallery [index]               Build public/data/gallery payloads (sidebars + manifests + config)
+  run media stage                      Archive mp3s → media per-topic layout
+  run media index [dry]                Build public/data/media payloads (sidebars + manifests + config)
+  run media manifest [--dry-run]       Reconcile item manifests with files on disk (the baseline)
+  run media verify [--remote]          Missing / orphan / dirty / pending report (+ R2 diff)
+  run media upload [--apply]           Differential R2 sync (Cloudflare API; default reports, --apply transfers)
+  run media prune [--apply]            R2 objects no manifest references (default reports, --apply deletes)
   run scaffold <lang> <TOPIC> <seed.json>  Seed a blank dictionary topic with pending manifests
+  run lecture <new|status|translate|review>  Lecture content tooling (content/lectures)
   run clean                         Remove build junk (keeps .nuxt cache)
   run clean-deep                    Remove build junk AND the .nuxt cache
   run tsc                           Type-check (vue-tsc)
@@ -80,10 +85,10 @@ do_push() {
 }
 
 differential_build() {
-  # Refresh the gallery runtime payloads first (idempotent, cheap) so any
-  # gallery/ content change is reflected before the fingerprint check —
-  # public/data/gallery/** is part of the fingerprint inputs.
-  node scripts/gallery-index.mjs || warn "gallery index failed/skipped"
+  # Refresh the media runtime payloads first (idempotent, cheap) so any
+  # media/ content change is reflected before the fingerprint check —
+  # public/data/media/** is part of the fingerprint inputs.
+  node scripts/media-index.mjs || warn "media index failed/skipped"
   if node scripts/fingerprint.mjs --check; then
     say "No source/content changes — reusing existing static build (.output/public)."
     say "Use 'run build --force' to regenerate anyway."
@@ -117,9 +122,18 @@ case "${1:-help}" in
     fi
     ;;
   validate)  node scripts/validate-data.mjs ;;
-  media)     shift; node scripts/media-sync.mjs "${1:-manifest}" ;;
-  gallery)   shift; node scripts/gallery-index.mjs "${1:-}" ;;
-  scaffold)  shift; node scripts/gallery-scaffold-topic.mjs "$@" ;;
+  media)
+    shift
+    # `run media index` builds the runtime payloads; every other argument is a
+    # media-sync subcommand (stage | manifest | verify | upload | prune).
+    if [[ "${1:-}" == "index" ]]; then
+      shift
+      node scripts/media-index.mjs "${1:-}"
+    else
+      node scripts/media-sync.mjs "${1:-manifest}"
+    fi ;;
+  scaffold)  shift; node scripts/media-scaffold-topic.mjs "$@" ;;
+  lecture)   shift; node scripts/lecture.mjs "$@" ;;
   clean)
     warn "Removing temp/, node_modules/.cache, .output/"
     rm -rf temp .output node_modules/.cache

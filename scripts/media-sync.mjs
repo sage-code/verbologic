@@ -1,37 +1,55 @@
 #!/usr/bin/env node
 /**
- * media-sync.mjs — differential audio/media pipeline (maintenance).
+ * media-sync.mjs — differential media pipeline (maintenance).
  *
- * The staging root is the gallery repository itself: media files live in
- * gallery/audio/<lang>/<TOPIC>/ (gitignored binaries) next to their sibling
+ * The staging root is the media repository itself: media files live in
+ * media/audio/<lang>/<TOPIC>/ (gitignored binaries) next to their sibling
  * <ID>.json manifests (the Git index), so the local layout mirrors the R2
  * object keys exactly:
  *
- *   gallery/audio/ro/C1T11/greeting_salut.mp3  →  audio/ro/C1T11/greeting_salut.mp3
+ *   media/audio/ro/C1T11/greeting_salut.mp3  →  audio/ro/C1T11/greeting_salut.mp3
  *
- *   node scripts/media-sync.mjs stage      archive mp3s → gallery per-topic layout (via archive-topics)
- *   node scripts/media-sync.mjs manifest   recompute gallery/audio-manifest.json (sha1 baseline)
- *   node scripts/media-sync.mjs verify     report missing keys, pending (TTS) queue and orphans
- *   node scripts/media-sync.mjs upload     differential report of changed/new keys (needs env vars)
- *   node scripts/media-sync.mjs prune      list the retired flat keys (audio/<lang>/<ID>.mp3) to delete from R2
+ * The differential baseline lives IN the item manifests: a published
+ * manifest's sha1/bytes describe the exact bytes that SHOULD be on R2. When
+ * Cloudflare credentials are present, the commands also diff against the
+ * bucket itself (remote truth) — so drift (e.g. the initial upload never
+ * having happened) is detected, not assumed away.
  *
- * The manifest is the differential baseline: only files absent or with a
- * different hash are (re)uploaded by the R2 sync.
+ *   node scripts/media-sync.mjs stage              archive mp3s → media per-topic layout
+ *   node scripts/media-sync.mjs manifest           reconcile item manifests with the files on disk
+ *   node scripts/media-sync.mjs verify [--remote]  missing / orphan / dirty / pending report
+ *   node scripts/media-sync.mjs upload [--apply]   differential R2 sync (default: report; --apply transfers)
+ *   node scripts/media-sync.mjs prune [--apply]    R2 objects no manifest references (default: report)
+ *
+ * R2 access uses the Cloudflare REST API (no wrangler spawns; uploads run
+ * with bounded concurrency) — three env vars:
+ *   CLOUDFLARE_ACCOUNT_ID   the account id
+ *   CLOUDFLARE_API_TOKEN    a token with "Workers R2 Storage: Edit"
+ *   R2_BUCKET               the media bucket name
  */
 import { createHash } from 'node:crypto'
 import {
-  copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync
+  copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync
 } from 'node:fs'
-import { join, relative } from 'node:path'
+import { basename, join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
-const GALLERY = join(ROOT, 'gallery')
-const AUDIO_DIR = join(GALLERY, 'audio')
-const MANIFEST_FILE = join(GALLERY, 'audio-manifest.json')
+const MEDIA = join(ROOT, 'media')
+const AUDIO_DIR = join(MEDIA, 'audio')
 // The legacy flat staging (media/audio/<lang>/<ID>.mp3) — retired; `stage`
 // reads from it while it still exists, otherwise straight from the archive.
 const LEGACY_MEDIA = join(ROOT, 'media', 'audio')
+
+const CF_API = 'https://api.cloudflare.com/client/v4'
+const PUT_CONCURRENCY = 8
+
+const MIME_BY_EXT = {
+  mp3: 'audio/mpeg',
+  mp4: 'video/mp4',
+  webp: 'image/webp'
+}
+const MEDIA_EXT = new Set(Object.keys(MIME_BY_EXT))
 
 function sha1(file) {
   return createHash('sha1').update(readFileSync(file)).digest('hex')
@@ -48,16 +66,16 @@ function walk(dir) {
   return out
 }
 
-/** R2 object key for a gallery file ("gallery/audio/ro/C1T11/x.mp3" → "audio/ro/C1T11/x.mp3"). */
+/** R2 object key for a media file ("media/audio/ro/C1T11/x.mp3" → "audio/ro/C1T11/x.mp3"). */
 function toKey(file) {
-  return relative(GALLERY, file).replaceAll('\\', '/')
+  return relative(MEDIA, file).replaceAll('\\', '/')
 }
 
-/** All staged mp3s with their keys, indexed by "<lang>/<base>". */
+/** All staged media files with their keys, indexed by "<lang>/<base>". */
 function stagedIndex() {
   const out = new Map()
   for (const f of walk(AUDIO_DIR)) {
-    if (!f.endsWith('.mp3')) continue
+    if (!MEDIA_EXT.has(f.split('.').pop())) continue
     const relPath = relative(AUDIO_DIR, f).replaceAll('\\', '/') // "<lang>/<TOPIC>/<base>"
     const [lang, , base] = relPath.split('/')
     out.set(`${lang}/${base}`, { file: f, key: toKey(f) })
@@ -65,129 +83,368 @@ function stagedIndex() {
   return out
 }
 
-/** Every gallery manifest. */
-function manifestIndex() {
-  const out = []
+/** Every item manifest under media/audio, with its owning lang/topic. */
+function* itemManifests() {
   for (const f of walk(AUDIO_DIR)) {
-    if (!f.endsWith('.json') || f === MANIFEST_FILE) continue
-    out.push({ path: f, manifest: JSON.parse(readFileSync(f, 'utf-8')) })
+    if (!f.endsWith('.json')) continue
+    const manifest = JSON.parse(readFileSync(f, 'utf-8'))
+    if (!manifest.id) continue
+    const relDir = relative(AUDIO_DIR, join(f, '..')).replaceAll('\\', '/') // "<lang>/<TOPIC>"
+    const [lang, topic] = relDir.split('/')
+    yield { path: f, manifest, dir: join(f, '..'), lang, topic }
+  }
+}
+
+/** The item's media file on disk: the manifest's file, or <id>.mp3 for pending items. */
+function diskPath(item) {
+  const base = item.manifest.file ?? `${item.manifest.id}.mp3`
+  const p = join(item.dir, base)
+  return existsSync(p) ? p : null
+}
+
+/** Published manifest keys — the set of keys that SHOULD exist on R2. */
+function expectedKeys() {
+  const out = new Set()
+  for (const { manifest } of itemManifests()) {
+    if (manifest.status === 'published' && manifest.key) out.add(manifest.key)
   }
   return out
 }
 
-/** Stage one archive-derived item's mp3 into the gallery per-topic layout. */
-async function cmdStage() {
-  const { attributeAll } = await import('./archive-topics.mjs')
-  const attribution = attributeAll()
-  let copied = 0
-  let missing = 0
-  for (const [, at] of attribution) {
-    const { entity } = at
-    if (!entity.audio) continue // pending — no media yet
-    const base = entity.audio.split('/').pop()
-    const dest = join(AUDIO_DIR, entity.lang, at.topic, base)
-    if (existsSync(dest)) continue // idempotent
-    // Prefer the legacy flat staging (identical bytes), else the archive original.
-    const staged = join(LEGACY_MEDIA, entity.lang, base)
-    let src = null
-    if (existsSync(staged)) src = staged
-    else {
-      const slug = entity.id.slice(entity.id.indexOf('_') + 1).replace(/-\d+$/, '')
-      for (const dir of ['vocabulary', 'questions', 'imperative', 'sentences']) {
-        const p = join(ROOT, 'archive', { ro: 'romanian', en: 'english' }[entity.lang] ?? entity.lang, 'audio', dir, `${slug}.mp3`)
-        if (existsSync(p)) { src = p; break }
-      }
-    }
-    if (!src) { missing++; continue }
-    mkdirSync(join(dest, '..'), { recursive: true })
-    copyFileSync(src, dest)
-    copied++
-  }
-  console.log(`stage: copied ${copied} new file(s) · missing sources ${missing}`)
-  if (missing) process.exitCode = 1
-}
+/* ── Cloudflare R2 REST (api.cloudflare.com) ───────────────────────────── */
 
-function cmdManifest() {
-  const files = walk(AUDIO_DIR).filter((f) => f.endsWith('.mp3'))
-  const manifest = {}
-  for (const f of files) manifest[toKey(f)] = sha1(f)
-  writeFileSync(MANIFEST_FILE, JSON.stringify(manifest, null, 2) + '\n')
-  console.log(`manifest: ${Object.keys(manifest).length} keys → ${relative(ROOT, MANIFEST_FILE)}`)
-}
-
-function cmdVerify() {
-  const staged = stagedIndex()
-  const manifests = manifestIndex()
-  let published = 0
-  let pending = 0
-  const missingList = []
-  for (const { manifest } of manifests) {
-    if (manifest.status === 'pending') { pending++; continue }
-    if (staged.has(`${manifest.lang}/${manifest.file}`)) published++
-    else missingList.push(`${manifest.lang}/${manifest.file} (${manifest.id})`)
-  }
-  // Orphans: staged mp3s no published manifest references.
-  const referenced = new Set(
-    manifests.filter((m) => m.manifest.status !== 'pending').map((m) => `${m.manifest.lang}/${m.manifest.file}`)
-  )
-  const orphans = [...staged.keys()].filter((k) => !referenced.has(k))
-
-  console.log(`verify: manifests ${manifests.length} (published ${published}, pending ${pending}) · staged files ${staged.size}`)
-  if (missingList.length) {
-    console.log('missing staged files:')
-    for (const m of missingList) console.log(`  - ${m}`)
-  }
-  if (orphans.length) console.warn(`orphan staged files (no manifest reference): ${orphans.length}`)
-  if (missingList.length) process.exitCode = 1
-}
-
-function cmdUpload() {
-  const names = ['R2_ACCOUNT_ID', 'R2_ACCESS_KEY_ID', 'R2_SECRET_ACCESS_KEY', 'R2_BUCKET']
+/** Credentials from the environment; null (unless required) when incomplete. */
+function r2Env(required = false) {
+  const names = ['CLOUDFLARE_ACCOUNT_ID', 'CLOUDFLARE_API_TOKEN', 'R2_BUCKET']
   const missing = names.filter((k) => !process.env[k])
   if (missing.length) {
-    console.error(`upload requires: ${missing.join(', ')}`)
-    console.error('Run: export R2_ACCOUNT_ID=… R2_ACCESS_KEY_ID=… R2_SECRET_ACCESS_KEY=… R2_BUCKET=…')
-    process.exit(1)
+    if (required) {
+      console.error(`R2 access requires env vars: ${missing.join(', ')}`)
+      process.exit(1)
+    }
+    return null
   }
-  const manifest = existsSync(MANIFEST_FILE) ? JSON.parse(readFileSync(MANIFEST_FILE, 'utf-8')) : {}
-  let pendingKeys = 0
-  for (const f of walk(AUDIO_DIR)) {
-    if (!f.endsWith('.mp3')) continue
-    const key = toKey(f)
-    if (manifest[key] === sha1(f)) continue
-    pendingKeys++
-    console.log(`upload ${key}`)
+  return {
+    account: process.env.CLOUDFLARE_ACCOUNT_ID,
+    token: process.env.CLOUDFLARE_API_TOKEN,
+    bucket: process.env.R2_BUCKET
   }
-  if (pendingKeys) console.log(`\nDifferential ready: ${pendingKeys} changed/new keys.`)
-  else console.log('Nothing to upload — manifest is up to date.')
 }
 
-/** List the retired flat keys (audio/<lang>/<ID>.mp3) still on R2 — deletion candidates.
- *  Sources: the legacy baseline (media/audio-manifest.json) plus any baseline key
- *  no longer present in the per-topic tree. */
-function cmdPrune() {
-  const current = new Set(walk(AUDIO_DIR).filter((f) => f.endsWith('.mp3')).map(toKey))
-  const retired = new Set()
-  const legacyBaseline = join(ROOT, 'media', 'audio-manifest.json')
-  if (existsSync(legacyBaseline)) {
-    for (const k of Object.keys(JSON.parse(readFileSync(legacyBaseline, 'utf-8')))) {
-      if (!current.has(k)) retired.add(k)
+/** All bucket objects (key → size) — paginated List Objects. */
+async function r2List(env) {
+  const keys = new Map()
+  let cursor = null
+  for (;;) {
+    const url = `${CF_API}/accounts/${env.account}/r2/buckets/${env.bucket}/objects?per_page=1000${cursor ? `&cursor=${encodeURIComponent(cursor)}` : ''}`
+    const res = await fetch(url, { headers: { Authorization: `Bearer ${env.token}` } })
+    const json = await res.json().catch(() => null)
+    if (!res.ok || !json?.success) {
+      throw new Error(json?.errors?.map((e) => `${e.code} ${e.message}`).join('; ') || `HTTP ${res.status}`)
     }
+    for (const o of json.result ?? []) keys.set(o.key, o.size ?? 0)
+    cursor = json.result_info?.is_truncated ? json.result_info.cursor : null
+    if (!cursor) break
   }
-  if (existsSync(MANIFEST_FILE)) {
-    for (const k of Object.keys(JSON.parse(readFileSync(MANIFEST_FILE, 'utf-8')))) {
-      if (!current.has(k)) retired.add(k)
-    }
-  }
-  console.log(`prune: ${retired.size} retired key(s) safe to delete from R2:`)
-  for (const k of retired) console.log(`  - ${k}`)
-  if (!retired.size) console.log('(nothing to prune)')
+  return keys
 }
 
-const mode = process.argv[2] ?? 'manifest'
+/** PUT one object (raw octet-stream body; key slashes stay literal). */
+async function r2Put(env, key, filePath, mime) {
+  const body = readFileSync(filePath)
+  const url = `${CF_API}/accounts/${env.account}/r2/buckets/${env.bucket}/objects/${key}`
+  const res = await fetch(url, {
+    method: 'PUT',
+    headers: {
+      Authorization: `Bearer ${env.token}`,
+      'Content-Type': mime,
+      'Content-Length': String(body.length)
+    },
+    body
+  })
+  const json = await res.json().catch(() => null)
+  if (!res.ok || json?.success === false) {
+    throw new Error(json?.errors?.map((e) => e.message).join('; ') || `HTTP ${res.status}`)
+  }
+}
+
+/** DELETE one object. */
+async function r2Delete(env, key) {
+  const url = `${CF_API}/accounts/${env.account}/r2/buckets/${env.bucket}/objects/${key}`
+  const res = await fetch(url, { method: 'DELETE', headers: { Authorization: `Bearer ${env.token}` } })
+  const json = await res.json().catch(() => null)
+  if (!res.ok || json?.success === false) {
+    throw new Error(json?.errors?.map((e) => e.message).join('; ') || `HTTP ${res.status}`)
+  }
+}
+
+/** Run tasks with bounded concurrency (completion order is irrelevant). */
+async function pool(tasks, size = PUT_CONCURRENCY) {
+  const queue = [...tasks]
+  await Promise.all(
+    Array.from({ length: Math.min(size, queue.length) }, async () => {
+      for (;;) {
+        const next = queue.shift()
+        if (!next) return
+        await next()
+      }
+    })
+  )
+}
+
+/** Stage one archive-derived item's mp3 into the media per-topic layout. */
+function cmdStage() {
+  import('./archive-topics.mjs').then(async ({ attributeAll }) => {
+    const attribution = attributeAll()
+    let copied = 0
+    let missing = 0
+    for (const [, at] of attribution) {
+      const { entity } = at
+      if (!entity.audio) continue // pending — no media yet
+      const base = entity.audio.split('/').pop()
+      const dest = join(AUDIO_DIR, entity.lang, at.topic, base)
+      if (existsSync(dest)) continue // idempotent
+      // Prefer the legacy flat staging (identical bytes), else the archive original.
+      const staged = join(LEGACY_MEDIA, entity.lang, base)
+      let src = null
+      if (existsSync(staged)) src = staged
+      else {
+        const slug = entity.id.slice(entity.id.indexOf('_') + 1).replace(/-\d+$/, '')
+        for (const dir of ['vocabulary', 'questions', 'imperative', 'sentences']) {
+          const p = join(ROOT, 'archive', { ro: 'romanian', en: 'english' }[entity.lang] ?? entity.lang, 'audio', dir, `${slug}.mp3`)
+          if (existsSync(p)) { src = p; break }
+        }
+      }
+      if (!src) { missing++; continue }
+      mkdirSync(join(dest, '..'), { recursive: true })
+      copyFileSync(src, dest)
+      copied++
+    }
+    console.log(`stage: copied ${copied} new file(s) · missing sources ${missing}`)
+    if (missing) process.exitCode = 1
+  })
+}
+
+/**
+ * Reconcile the item manifests with the files on disk — this WRITES the
+ * differential baseline (each manifest's own sha1/bytes). Promotes pending
+ * items whose <id>.mp3 has landed; refreshes the facts of published ones
+ * (e.g. after a re-render). Never downgrades a published item whose file is
+ * merely missing locally — that is `verify`'s job to report.
+ */
+function cmdManifest() {
+  const dry = process.argv.includes('--dry-run')
+  let reconciled = 0
+  let promoted = 0
+  let stale = 0
+  let pending = 0
+  for (const item of itemManifests()) {
+    const { manifest } = item
+    const disk = diskPath(item)
+    if (!disk) {
+      if (manifest.status === 'published') {
+        stale++
+        console.warn(`stale: ${manifest.key} (${manifest.id}) — no file on disk`)
+      } else pending++
+      continue
+    }
+    const wasPending = manifest.status !== 'published'
+    const key = toKey(disk)
+    const bytes = statSync(disk).size
+    const hash = sha1(disk)
+    const mime = MIME_BY_EXT[disk.split('.').pop()] ?? 'application/octet-stream'
+    const changed =
+      wasPending || manifest.key !== key || manifest.bytes !== bytes ||
+      manifest.sha1 !== hash || manifest.mime !== mime
+    if (!changed) continue
+    if (!dry) {
+      manifest.file = basename(disk)
+      manifest.key = key
+      manifest.mime = mime
+      manifest.bytes = bytes
+      manifest.sha1 = hash
+      manifest.status = 'published'
+      writeFileSync(item.path, JSON.stringify(manifest, null, 2) + '\n')
+    }
+    if (wasPending) promoted++
+    else reconciled++
+  }
+  console.log(`manifest: reconciled ${reconciled} · promoted ${promoted} · stale ${stale} · pending ${pending}${dry ? ' (dry run — nothing written)' : ''}`)
+}
+
+/**
+ * Report: missing staged files (published manifest, no file), orphans (staged
+ * file no manifest references), dirty items (file edited after upload — the
+ * next `upload --apply` re-sends them) and the pending (TTS) queue. With
+ * --remote the manifest keys are also diffed against the bucket itself:
+ * missing-on-R2 (published key the bucket lacks) and orphans-on-R2.
+ */
+async function cmdVerify() {
+  const env = r2Env(process.argv.includes('--remote'))
+  const remote = env ? await r2List(env) : null
+
+  let published = 0
+  let pending = 0
+  let dirty = 0
+  const missing = []
+  const dirtyList = []
+  const referenced = new Set()
+  for (const item of itemManifests()) {
+    const { manifest } = item
+    const disk = diskPath(item)
+    if (manifest.status !== 'published') {
+      pending++
+      if (disk) console.log(`ready: ${manifest.id} — file on disk, 'media manifest' will promote it`)
+      continue
+    }
+    published++
+    referenced.add(manifest.key)
+    if (!disk) { missing.push(`${manifest.key} (${manifest.id})`); continue }
+    if (manifest.sha1 !== sha1(disk)) { dirty++; dirtyList.push(`${manifest.key} (${manifest.id})`) }
+  }
+  const staged = stagedIndex()
+  const orphans = [...staged.values()].map((v) => v.key).filter((k) => !referenced.has(k))
+  console.log(`verify: manifests ${published + pending} (published ${published}, pending ${pending}) · staged files ${staged.size}`)
+  for (const m of missing) console.error(`  missing: ${m}`)
+  for (const d of dirtyList) console.warn(`  dirty (edited, needs upload): ${d}`)
+  if (orphans.length) {
+    console.warn(`orphan staged files (no manifest reference): ${orphans.length}`)
+    for (const o of orphans.slice(0, 10)) console.warn(`  - ${o}`)
+  }
+  if (remote) {
+    const missingOnR2 = [...referenced].filter((k) => !remote.has(k))
+    const orphansOnR2 = [...remote.keys()].filter((k) => !referenced.has(k))
+    console.log(`verify: R2 '${env.bucket}' has ${remote.size} object(s) — missing on R2: ${missingOnR2.length} · orphans on R2: ${orphansOnR2.length}`)
+    for (const k of missingOnR2.slice(0, 10)) console.error(`  not on R2: ${k}`)
+    for (const k of orphansOnR2.slice(0, 10)) console.warn(`  R2-only: ${k}`)
+    if (missingOnR2.length) process.exitCode = 1
+  }
+  if (missing.length) process.exitCode = 1
+}
+
+/**
+ * Differential R2 sync. Delta = a manifest whose file on disk has a different
+ * sha1 than the manifest records, a pending item whose <id>.mp3 has landed,
+ * or (with credentials) a published key the bucket does not have. Default:
+ * print the delta only. --apply: upload via the R2 REST API, then write the
+ * new sha1/bytes/status back into the item manifest.
+ */
+async function cmdUpload() {
+  const apply = process.argv.includes('--apply')
+  const env = r2Env(apply)
+  const remote = env ? await r2List(env) : null
+  if (!env) {
+    console.warn('note: set CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN / R2_BUCKET to also diff against the bucket (remote truth)')
+  }
+
+  const delta = new Map() // key → { file, bytes, hash, mime, items: [item…] }
+  for (const item of itemManifests()) {
+    const { manifest } = item
+    const disk = diskPath(item)
+    if (!disk) {
+      if (manifest.status === 'published') {
+        if (remote && !remote.has(manifest.key)) {
+          console.error(`broken (published, but no file locally and not on R2): ${manifest.key} (${manifest.id})`)
+          process.exitCode = 1
+        } else {
+          console.warn(`skip (file missing on disk): ${manifest.key}`)
+        }
+      }
+      continue
+    }
+    const key = toKey(disk)
+    const bytes = statSync(disk).size
+    const hash = sha1(disk)
+    const onR2 = remote ? remote.has(key) : true
+    if (manifest.status === 'published' && manifest.sha1 === hash && manifest.bytes === bytes && onR2) continue
+    if (!delta.has(key)) {
+      delta.set(key, {
+        file: disk, bytes, hash,
+        mime: MIME_BY_EXT[disk.split('.').pop()] ?? 'application/octet-stream',
+        items: []
+      })
+    }
+    delta.get(key).items.push(item)
+  }
+
+  if (!delta.size) {
+    console.log('Nothing to upload — every manifest matches its file on disk' + (remote ? ' and the bucket.' : '.'))
+    return
+  }
+  console.log(`upload: ${delta.size} changed/new key(s)${apply ? '' : ' (dry run — re-run with --apply to transfer)'}`)
+  for (const [key] of delta) console.log(`  upload ${key}`)
+  if (!apply) return
+
+  let ok = 0
+  let failed = 0
+  await pool([...delta.entries()].map(([key, d]) => async () => {
+    try {
+      await r2Put(env, key, d.file, d.mime)
+      for (const item of d.items) {
+        const { manifest } = item
+        manifest.status = 'published'
+        manifest.file = basename(d.file)
+        manifest.key = key
+        manifest.mime = d.mime
+        manifest.bytes = d.bytes
+        manifest.sha1 = d.hash
+        writeFileSync(item.path, JSON.stringify(manifest, null, 2) + '\n')
+      }
+      ok++
+      console.log(`  ✓ ${key}`)
+    } catch (e) {
+      failed++
+      console.error(`  ✗ ${key}: ${e.message}`)
+    }
+  }))
+  console.log(`upload: ${ok} uploaded, ${failed} failed${failed ? ' — failed keys stay in the delta; fix and re-run' : ''}`)
+  if (failed) process.exitCode = 1
+}
+
+/**
+ * R2 objects no manifest references — deletion candidates. Remote truth via
+ * the List Objects API; the retired legacy flat keys (if any) show up here
+ * too, so no separate baseline file is needed.
+ */
+async function cmdPrune() {
+  const apply = process.argv.includes('--apply')
+  const env = r2Env(true)
+  const remote = await r2List(env)
+  const referenced = expectedKeys()
+  const orphans = [...remote.keys()].filter((k) => !referenced.has(k))
+  if (!orphans.length) {
+    console.log(`prune: (nothing to prune — all ${remote.size} R2 object(s) are manifest-referenced)`)
+    return
+  }
+  console.log(`prune: ${orphans.length} R2 object(s) no manifest references:`)
+  for (const k of orphans) console.log(`  - ${k}`)
+  if (!apply) {
+    console.log('(dry run — re-run with --apply to delete from R2)')
+    return
+  }
+  let ok = 0
+  let failed = 0
+  await pool(orphans.map((key) => async () => {
+    try {
+      await r2Delete(env, key)
+      ok++
+      console.log(`  ✓ deleted ${key}`)
+    } catch (e) {
+      failed++
+      console.error(`  ✗ ${key}: ${e.message}`)
+    }
+  }))
+  console.log(`prune: ${ok} deleted, ${failed} failed`)
+  if (failed) process.exitCode = 1
+}
+
+const mode = process.argv[2] ?? 'verify'
 const handlers = { stage: cmdStage, manifest: cmdManifest, verify: cmdVerify, upload: cmdUpload, prune: cmdPrune }
 if (!handlers[mode]) {
   console.error(`unknown media command: ${mode} (stage | manifest | verify | upload | prune)`)
   process.exit(2)
 }
-handlers[mode]()
+Promise.resolve(handlers[mode]()).catch((e) => {
+  console.error(e?.message ?? e)
+  process.exit(1)
+})

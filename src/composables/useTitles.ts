@@ -1,24 +1,24 @@
 /**
  * useTitles — chapter/topic title audio lookup (shared module state).
- * Titles live at gallery/audio/<lang>/<CODE>/<CODE>.mp3 next to a <CODE>.json
- * manifest (kind: 'chapter-title' | 'topic-title'); the gallery indexer will
- * emit public/data/gallery/library/dictionary/titles.json (GalleryTitles).
+ * Titles live at media/audio/<lang>/<CODE>/<CODE>.mp3 next to a <CODE>.json
+ * manifest (kind: 'chapter-title' | 'topic-title'); the media indexer will
+ * emit public/data/media/library/dictionary/titles.json (MediaTitles).
  * Until that payload exists the fetch fails and every lookup returns null, so
  * title rows render the standard disabled "Audio coming soon" play button —
  * dropping the payload in is enough to light the buttons up, no code change.
  */
-import type { GalleryMedia, GalleryTitles } from '~/types/gallery'
+import type { MediaMedia, MediaTitles } from '~/types/media'
 
-const EMPTY: GalleryTitles = { schema: 0, generated: '', chapters: {}, topics: {} }
+const EMPTY: MediaTitles = { schema: 0, generated: '', chapters: {}, topics: {} }
 
 // Module-level singleton — one fetch shared by every consumer.
-const titles = ref<GalleryTitles>({ ...EMPTY })
+const titles = ref<MediaTitles>({ ...EMPTY })
 let requested = false
 
 function request() {
   if (requested) return
   requested = true
-  $fetch<GalleryTitles>('/data/gallery/library/dictionary/titles.json')
+  $fetch<MediaTitles>('/data/media/library/dictionary/titles.json')
     .then((data) => {
       titles.value = data
     })
@@ -32,7 +32,7 @@ export function useTitles() {
   request()
 
   /** Media for one chapter/topic code in the target language (null = none yet). */
-  function media(code: string, lang: string): GalleryMedia | null {
+  function media(code: string, lang: string): MediaMedia | null {
     return titles.value.chapters[code]?.[lang] ?? titles.value.topics[code]?.[lang] ?? null
   }
 

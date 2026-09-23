@@ -1,8 +1,8 @@
 // Learn track page — /learn/:locale/:track over the three per-language tracks
-// (Dictionary · Lectures · Stories). Dictionary renders the shared RoadmapShell
-// template when the language has live content (ro/en); every other combination
-// shows the localized coming-soon card. All 27 language × track combinations
-// are prerendered (see nuxt.config.ts nitro.prerender.routes).
+// (Dictionary · Lectures · Stories). A live track renders the shared
+// RoadmapShell frame; every other combination shows the localized coming-soon
+// card. All 27 language × track combinations are prerendered (see
+// nuxt.config.ts nitro.prerender.routes).
 <script setup lang="ts">
 // NOTE: `computed` is imported explicitly (not the Nuxt auto-import) — on this
 // dynamic-route page the auto-imported binding resolves to `any`, which breaks
@@ -61,18 +61,20 @@ const live = computed(() => isTrackLive(locale.value, trackId.value))
         {{ languageName(locale) }} — {{ title }}
       </h1>
       <component :is="meta.icon" class="h-6 w-6 text-accent" aria-hidden="true" />
-      <!-- Meter slot: DictionaryLayout teleports its two progress meters here —
+      <!-- Meter slot: RoadmapShell teleports the two progress meters here —
            right half of the free space, right-aligned with the table edge -->
       <div class="hidden flex-1 justify-end sm:flex">
         <div id="track-meters" class="flex w-1/2 items-end gap-4" />
       </div>
     </header>
 
-    <!-- Live track: the shared roadmap template (chapter sidebar → topics → words) -->
+    <!-- Live track: the shared roadmap frame (chapter rail → topics → the
+         open topic's pane — the TOPIC's layout picks it: table · article ·
+         gallery). -->
     <section v-if="live" class="mt-3">
       <!-- :key forces a remount when the locale param changes — RoadmapShell
-           loads its store data in onMounted only. :track selects the per-track
-           layout (Dictionary has its own; Lectures/Stories use the fallback). -->
+           loads its store data in onMounted only. :track selects the sidebar
+           section; the open topic's `layout` field selects the pane. -->
       <RoadmapShell :key="locale" :lang="locale" :track="trackId" />
     </section>
 

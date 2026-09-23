@@ -1,8 +1,8 @@
 /**
  * useSidebars — build-inlined access to the sidebar structure layer
  * (src/data/sidebars/**). Sidebars carry sections → topics → item ids and
- * localized section names — never item text (that lives in the gallery
- * per-file manifests, resolved at build time by scripts/gallery-index.mjs).
+ * localized section names — never item text (that lives in the media
+ * per-file manifests, resolved at build time by scripts/media-index.mjs).
  *
  * Inlining (the navigation.json pattern) means zero runtime fetches for the
  * structure and no first-paint flash.
@@ -16,7 +16,7 @@ import mentors from '~/data/sidebars/practice/mentors/sidebar.json'
 import exercises from '~/data/sidebars/practice/exercises/sidebar.json'
 import games from '~/data/sidebars/practice/games/sidebar.json'
 
-const SIDEBARS: Sidebar[] = [dictionary, lectures, stories, mentors, exercises, games]
+const SIDEBARS = [dictionary, lectures, stories, mentors, exercises, games] as Sidebar[]
 
 export function useSidebars() {
   /** The sidebar for a section id (e.g. 'library/dictionary') — throws if unknown. */

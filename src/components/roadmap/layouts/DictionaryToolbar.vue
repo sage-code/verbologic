@@ -1,12 +1,16 @@
-// DictionaryToolbar — the dictionary layout's control row, identical in every
-// table mode: letter search (1–2 letters prefix-filter the rows), Fibonacci
-// rows-per-page select (3·5·8·13·21·34·55·89), prev/next pagination that walks
-// into the next/previous topic when the page run is exhausted, one simple
-// play/stop button (same size and shape in both states; ▶ plays the page,
-// ■ stops any run) and a persistent Repeat on/off toggle that stays set across
-// Stop. Outside words mode the controls always act on words: typing or Next
-// first opens the current chapter's first topic's word table.
+// DictionaryToolbar — the table layout's control row (TopicTable), identical
+// in every table mode: search (commits only on Enter / the filter button —
+// never while typing; the filter toggles dictionary-wide translation search, off = the
+// term-prefix letter scanner on the open topic), Fibonacci rows-per-page
+// select (3·5·8·13·21·34·55·89), prev/next pagination that walks into the
+// next/previous topic when the page run is exhausted (page-only while search
+// results are shown), one simple play/stop button (same size and shape in both
+// states; ▶ plays the page, ■ stops any run) and a persistent Repeat on/off
+// toggle that stays set across Stop. Outside words mode the term filter always
+// acts on words: committing it first opens the current chapter's first topic's
+// word table.
 <script setup lang="ts">
+import { FunnelIcon } from '@heroicons/vue/20/solid'
 import { useRoadmapStore } from '~/stores/roadmapStore'
 import { useAudioQueue, type QueueItem } from '~/composables/useAudioQueue'
 
@@ -36,23 +40,41 @@ const repeatOn = computed(() => props.queue.loop.value)
 /** Title audio is not wired yet — outside 'words' mode there is nothing to play. */
 const playable = computed(() => props.items.length > 0)
 
+/** Translation-search mode (the filter button) — dictionary-wide gloss search. */
+const translationMode = computed(() => store.searchInTranslation)
+
+/** Placeholder/aria tracks the mode: the term's first letters, or the translation. */
+const searchPlaceholder = computed(() =>
+  translationMode.value
+    ? copy('dictionary.translation_filter', 'Search the translation…')
+    : copy('dictionary.letter_filter', 'Type the first letters…')
+)
+
 /** Labels: plain pagination, or the topic walk at the page edges. */
 const nextLabel = computed(() =>
-  store.page < store.pageCount
+  store.searchActive || store.page < store.pageCount
     ? copy('dictionary.next', 'Next')
     : copy('dictionary.next_topic', 'Next topic')
 )
 const prevLabel = computed(() =>
-  store.page > 1
+  store.searchActive || store.page > 1
     ? copy('dictionary.prev', 'Previous')
     : copy('dictionary.prev_topic', 'Previous topic')
 )
 /** Next stays live outside words mode — it opens the current chapter's first topic. */
 const canNext = computed(() =>
-  !store.topicCode ? store.allTopics.length > 0 : store.page < store.pageCount || store.hasNextTopic
+  store.searchActive
+    ? store.page < store.pageCount
+    : !store.topicCode
+      ? store.allTopics.length > 0
+      : store.page < store.pageCount || store.hasNextTopic
 )
 const canPrev = computed(() =>
-  !store.topicCode ? store.allTopics.length > 0 : store.page > 1 || store.hasPrevTopic
+  store.searchActive
+    ? store.page > 1
+    : !store.topicCode
+      ? store.allTopics.length > 0
+      : store.page > 1 || store.hasPrevTopic
 )
 
 function togglePlay() {
@@ -69,18 +91,40 @@ function toggleLoop() {
   props.queue.setLoop(!props.queue.loop.value)
 }
 
-/** Search always acts on the word table — outside words mode it first opens
- *  the current chapter's first topic (keeping the query just typed). */
-async function onSearchInput(e: Event) {
-  const value = (e.target as HTMLInputElement).value
-  await store.ensureWords()
-  store.setLetterQuery(value)
+/**
+ * The search draft — committed to the store only on Enter / the filter button.
+ * Synced from the store so a topic change resetting the filter clears the field.
+ */
+const draft = ref(store.dictionaryQuery)
+watch(
+  () => store.dictionaryQuery,
+  (query: string) => {
+    draft.value = query
+  }
+)
+
+/** Commit: translation mode loads the dictionary-wide index first; the term
+ *  filter still scopes to an open topic (opens the first one if needed). */
+async function commit() {
+  if (translationMode.value) await store.ensureSearchIndex()
+  else await store.ensureWords()
+  store.setDictionaryQuery(draft.value)
+}
+
+/** The filter button toggles translation-search mode AND applies the draft. */
+function toggleFilter() {
+  store.setSearchMode(!translationMode.value)
+  void commit()
 }
 
 /** Next page — or the next topic once the last page is exhausted. Always
  *  enters the word table first: closes the chapter TOC and expands the
  *  chapter in the sidebar, so navigation never depends on the sidebar. */
 async function goNext() {
+  if (store.searchActive) {
+    if (store.page < store.pageCount) store.setPage(store.page + 1)
+    return
+  }
   if (!(await store.ensureWords())) return
   if (store.page < store.pageCount) store.setPage(store.page + 1)
   else await store.nextTopic()
@@ -89,6 +133,10 @@ async function goNext() {
 /** Previous page — or the previous topic's last page when on page 1. Always
  *  enters the word table first (same as Next). */
 async function goPrev() {
+  if (store.searchActive) {
+    if (store.page > 1) store.setPage(store.page - 1)
+    return
+  }
   if (!(await store.ensureWords())) return
   if (store.page > 1) store.setPage(store.page - 1)
   else await store.prevTopicLastPage()
@@ -97,15 +145,34 @@ async function goPrev() {
 
 <template>
   <div class="flex flex-wrap items-center gap-2 rounded-lg border border-edge bg-surface p-2 shadow-sm">
-    <!-- Letter search: 1–2 letters filter the rows by first (± second) letter -->
+    <!-- Search: the draft commits only on Enter / the filter button (no live
+         filtering). @search also covers the native clear (✕) of type=search -->
     <input
-      :value="store.letterQuery"
+      v-model="draft"
       type="search"
       class="min-w-0 flex-1 rounded-lg border border-edge-strong bg-surface px-3 py-2 text-sm text-content placeholder:text-faint focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/30"
-      :placeholder="copy('dictionary.letter_filter', 'Type the first letters…')"
-      :aria-label="copy('dictionary.letter_filter', 'Type the first letters…')"
-      @input="onSearchInput"
+      :placeholder="searchPlaceholder"
+      :aria-label="searchPlaceholder"
+      @keydown.enter.prevent="commit"
+      @search="commit"
     />
+
+    <!-- Filter: toggles translation-search mode (highlighted while active) and
+         applies the draft — searching the translation column dictionary-wide -->
+    <button
+      type="button"
+      class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border transition"
+      :class="
+        translationMode
+          ? 'border-accent bg-accent-soft text-accent'
+          : 'border-edge text-muted hover:border-accent hover:text-accent'
+      "
+      :aria-pressed="translationMode"
+      :title="copy('dictionary.filter_translation', 'Search translations')"
+      @click="toggleFilter"
+    >
+      <FunnelIcon class="h-4 w-4" aria-hidden="true" />
+    </button>
 
     <!-- Rows per page (Fibonacci sizes): "#Items/Page:" on desktop, "#" on mobile -->
     <label for="dict-per-page" class="hidden shrink-0 text-xs text-muted sm:inline">#Items/Page:</label>

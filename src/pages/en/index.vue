@@ -21,7 +21,7 @@ const toggleUi = () => void setLocale(uiLang.value === 'en' ? 'ro' : 'en')
           {{ copy('roadmap.en_intro', 'Browse the English curriculum chapter by chapter — words and expressions with pronunciation audio.') }}
         </p>
       </div>
-      <!-- Meter slot: DictionaryLayout teleports its two progress meters here -->
+      <!-- Meter slot: RoadmapShell teleports the two progress meters here -->
       <div class="hidden flex-1 justify-end sm:flex">
         <div id="track-meters" class="flex w-1/2 items-end gap-4" />
       </div>

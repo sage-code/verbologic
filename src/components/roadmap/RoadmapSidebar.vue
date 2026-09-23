@@ -5,8 +5,9 @@
 <script setup lang="ts">
 import { ChevronRightIcon } from '@heroicons/vue/20/solid'
 import { useRoadmapStore, PROGRESS_KEY } from '~/stores/roadmapStore'
-import { galleryName } from '~/composables/useGallery'
-import type { GalleryNames } from '~/types/gallery'
+import { mediaName } from '~/composables/useMedia'
+import type { MediaNames } from '~/types/media'
+import type { SidebarTopic } from '~/types/sidebars'
 
 withDefaults(defineProps<{ collapsed?: boolean }>(), { collapsed: false })
 
@@ -15,8 +16,8 @@ const progress = inject(PROGRESS_KEY)
 const { lang: uiLang } = useLocale()
 const copy = useCopy()
 
-const chapterTitle = (names: GalleryNames, fallback: string) => galleryName(names, uiLang.value, fallback)
-const topicTitle = (names: GalleryNames, fallback: string) => galleryName(names, uiLang.value, fallback)
+const chapterTitle = (names: MediaNames, fallback: string) => mediaName(names, uiLang.value, fallback)
+const topicTitle = (names: MediaNames, fallback: string) => mediaName(names, uiLang.value, fallback)
 const learnedOf = (code: string) => (progress ? store.learnedCount(code, progress.learned.value) : 0)
 
 // Follow navigation: keep the active chapter/topic visible in the sidebar —
@@ -38,7 +39,8 @@ watch(
 <template>
   <nav class="rounded-lg border border-edge bg-surface p-2 shadow-sm" :aria-label="copy('roadmap.chapters', 'Chapters')">
     <ul class="space-y-0.5">
-      <li v-for="c in store.chapters" :key="c.code">
+      <!-- Populated chapters only — empty scaffolding stays out of the way -->
+      <li v-for="c in store.visibleChapters" :key="c.code">
         <button
           :id="`side-chapter-${c.code}`"
           type="button"
@@ -56,7 +58,7 @@ watch(
         </button>
 
         <ul v-if="!collapsed && store.chapterCode === c.code" class="ml-4 border-l border-edge pl-2">
-          <li v-for="tp in c.topics" :key="tp.code">
+          <li v-for="tp in c.topics.filter((t: SidebarTopic) => store.topicCount(t.code) > 0)" :key="tp.code">
             <button
               :id="`side-topic-${tp.code}`"
               type="button"

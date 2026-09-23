@@ -26,7 +26,8 @@
     "type_greeting": "Greeting",
     "mark_learned": "Mark as learned",
     "learned": "Learned",
-    "close": "Close"
+    "close": "Close",
+    "video_coming_soon": "Video coming soon"
   },
   "languages": {
     "en": "English",
@@ -211,6 +212,10 @@
   },
   "dictionary": {
     "letter_filter": "Type the first letters…",
+    "translation_filter": "Search the translation…",
+    "filter_translation": "Search translations",
+    "search_results": "Search results",
+    "open_topic": "Open topic",
     "per_page": "Rows per page",
     "page": "Page",
     "prev": "Previous",
@@ -227,5 +232,22 @@
     "open_chapter": "Open chapter",
     "next_topic": "Next topic",
     "prev_topic": "Previous topic"
+  },
+  "lecture": {
+    "label": "Lecture",
+    "draft": "Draft — review pending",
+    "reviewed": "Reviewed",
+    "not_translated": "Not translated yet — showing English",
+    "translation_stale": "Translation out of date",
+    "with_video": "Video",
+    "practice": "Practise these"
+  },
+  "article": {
+    "label": "Article",
+    "coming_soon": "No articles in this topic yet — content is being prepared."
+  },
+  "gallery": {
+    "label": "Gallery",
+    "coming_soon": "No images in this topic yet — content is being prepared."
   }
 }

@@ -144,32 +144,74 @@ Consumed via `useLanguageNames()` + `useNavigation().languageName()`
 code). `run validate` enforces matrix completeness.
 
 ### 3.3 Media / audio
-Audio is **not** in Git. The staging root is the **gallery repository** itself —
-`gallery/audio/<lang>/<TOPIC>/<ID>.mp3` (git-ignored binaries) next to their
+Audio is **not** in Git. The staging root is the **media repository** itself —
+`media/audio/<lang>/<TOPIC>/<ID>.mp3` (git-ignored binaries) next to their
 sibling `<ID>.json` manifests (the committed Git index) — so the local layout
-mirrors the R2 object keys exactly (`audio/<lang>/<TOPIC>/<ID>.mp3`). The sync
-is **differential** via `scripts/media-sync.mjs`:
-`gallery/audio-manifest.json` stores per-key hashes so only changed/new files
-are uploaded.
+mirrors the R2 object keys exactly (`audio/<lang>/<TOPIC>/<ID>.mp3`).
+
+The **differential baseline lives in the item manifests**: a published
+manifest's `sha1`/`bytes` are the exact bytes that should be on R2. There is
+no aggregate ledger — the old `media/audio-manifest.json` was removed (one
+hot file duplicating the manifests' own `sha1`; it did not scale to 10k+
+files). The sync is **differential** via `scripts/media-sync.mjs`, which with
+credentials also diffs against the bucket itself (remote truth):
 
 ```bash
-run media stage      # archive mp3s → gallery per-topic layout (via archive-topics attribution)
-run media manifest   # recompute gallery/audio-manifest.json (differential baseline)
-run media verify     # report missing files / pending queue / orphans
-run media upload     # requires R2 credentials; uploads only changed keys
-run media prune      # list retired keys (e.g. the old flat audio/<lang>/<ID>.mp3 layout) to delete from R2
+run media stage                # archive mp3s → media per-topic layout (via archive-topics attribution)
+run media manifest [--dry-run] # reconcile manifests with the files on disk — promote pending, refresh sha1/bytes
+run media verify [--remote]    # missing / orphans / dirty (edited, not re-uploaded) / pending (+ R2 diff)
+run media upload [--apply]     # differential R2 sync — default reports the delta; --apply transfers
+run media prune [--apply]      # R2 objects no manifest references — default reports; --apply deletes
 ```
 
-`audio: null` in an entity = queued for TTS regeneration (alphabet + greetings,
-68 items). In the gallery these are **pending manifests** (`status: "pending"`,
-`key/file/bytes/sha1: null`) — the dictionary renders them as a disabled
-"audio coming soon" button. Once the file is generated: drop it into the
-topic folder, fill the key/file/bytes/sha1 in the manifest, `run media manifest`,
-`run media upload`.
+R2 access uses the **Cloudflare REST API** (`api.cloudflare.com`) — list, PUT
+and DELETE objects directly; no S3 credentials and no wrangler spawns. Three
+env vars: `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN` (a token with
+"Workers R2 Storage: Edit") and `R2_BUCKET` (the media bucket name). Without
+them the local checks still run, but the delta is local-hash only. After every
+successful PUT the script writes the new `sha1`/`bytes`/`status` back into the
+item manifest — the committed baseline always means *"these exact bytes are
+on R2"*, so there is no separate ledger step and no ordering trap.
 
-### 3.4 Lessons (future)
-`content/<lang>/*.md` via `@nuxt/content` — arrives in Phase 3. Nothing to
-maintain yet.
+`audio: null` in an entity = queued for TTS regeneration (alphabet + greetings,
+68 items). In the media these are **pending manifests** (`status: "pending"`,
+`key/file/bytes/sha1: null`) — the dictionary renders them as a disabled
+"audio coming soon" button. Once the file is generated: drop `<ID>.mp3` into
+the topic folder → `run media manifest` (promotes it to published) →
+`run media upload --apply`.
+
+### 3.4 Lectures & stories (Nuxt Content — live)
+
+The authoring layer is **Nuxt Content v3** (`@nuxt/content`, collection schemas in
+`content.config.ts`). One Markdown document per *explanation locale*:
+
+```
+content/lectures/<trackLang>/<TOPIC>/<ID>/en.md     ← the canonical original (edit freely)
+content/lectures/<trackLang>/<TOPIC>/<ID>/<locale>.md ← translations (status + sourceSha)
+```
+
+- **Two axes**: `trackLang` = which roadmap the lecture belongs to (may diverge
+  freely per language — different video, different prose); `locale` = the
+  language the explanation is written in. Lectures are English-canonical;
+  stories (Phase 4) are target-language-canonical (the story IS the material).
+- **Review tooling** (`run lecture …`, `scripts/lecture.mjs`): `new` scaffolds
+  doc + pending video manifest + sidebar item; `status` prints the review queue
+  (draft / stale / reviewed per doc); `translate <id> --lang <l>` scaffolds a
+  translation carrying `sourceSha` (sha1 of the canonical doc) — the moment the
+  original changes, the translation flags **stale** (exit code 1, UI badge);
+  `review` marks it reviewed. The script never generates body text.
+- **Runtime**: `scripts/media-index.mjs` joins each doc's **front matter** into
+  the topic payloads (localized titles → `names`, per-locale review state →
+  `content` meta, `related` ids → embedded rows). The prose itself renders on
+  the lecture's **prerendered route**
+  `/learn/<trackLang>/lectures/<TOPIC>/<ID>/<locale>` — `nuxt.config.ts`
+  enumerates those routes from the content tree, so content queries run at
+  build time and **no client-side content database is shipped** (verified: no
+  `_content` dump in `.output/public`). MDC components: `::callout`, `::term`.
+- The embedded video is a normal media item (`media/video/<lang>/<TOPIC>/<ID>.mp4`
+  + sibling manifest, `kind: 'lecture'`, `content` pointer) — pending until the
+  mp4 lands, then `run media upload --apply`.
+- `content/**` is a **fingerprint input** (editing a lecture rebuilds).
 
 ### 3.5 Pricing (tiers + CTA behavior) — removed from the menu, page retained
 > **Status:** Pricing is no longer linked in the menu (`navigation.json`).
@@ -355,6 +397,7 @@ automatically (the menu link is crawled from every page's header).
 | `run build --force` | ignore the hash gate and rebuild |
 | `run validate` | entity/nav/locale integrity checks |
 | `run media …` | stage / manifest / verify / upload audio |
+| `run lecture <new\|status\|translate\|review>` | lecture content tooling (content/lectures — see §3.4) |
 | `run clean` | remove build junk, keep `.nuxt` (fast next build) |
 | `run clean-deep` | remove build junk + `.nuxt` cache |
 | `run tsc` | vue-tsc typecheck |
@@ -365,11 +408,12 @@ automatically (the menu link is crawled from every page's header).
 | `run deploy-dry` | validate `wrangler.toml` without uploading |
 
 ### Why the build is differential
-`scripts/fingerprint.mjs` hashes `src/**`, `public/data/**`, the build configs
-(`nuxt.config.ts`, `tailwind.config.ts`, `tsconfig.json`, `package.json`) and
-`wrangler.toml` into `temp/build.fingerprint`. `run build` reuses the existing
-`.output/public` whenever the hash is unchanged, so quick "build again" cycles
-skip regeneration. Any source/content change short-circuits that and regenerates.
+`scripts/fingerprint.mjs` hashes `src/**`, `content/**` (the lecture/story
+authoring layer), `public/data/**`, the build configs (`nuxt.config.ts`,
+`tailwind.config.ts`, `tsconfig.json`, `package.json`) and `wrangler.toml` into
+`temp/build.fingerprint`. `run build` reuses the existing `.output/public`
+whenever the hash is unchanged, so quick "build again" cycles skip
+regeneration. Any source/content change short-circuits that and regenerates.
 `--force` bypasses the gate.
 
 ### Push throttle (2h)
@@ -390,8 +434,10 @@ commit date, which tracks the last push closely). Behavior:
    Workers Builds auto-deploys. `run release` does exactly this.
 2. **Direct upload (differential):** `run deploy` — Wrangler hashes and uploads
    only the changed files from `.output/public`.
-3. **Media:** `run media upload` (R2) — manifest-gated, uploads only new/changed
-   audio keys.
+3. **Media:** `run media upload --apply` (R2) — the delta is each item whose
+   file hash no longer matches its manifest **or whose key is missing from
+   the bucket**; only those keys transfer (`run media upload` reports the
+   delta without transferring; `run media verify --remote` audits the bucket).
 
 ### Custom domains (declarative)
 `wrangler.toml` attaches both hostnames via `[[routes]]` with
@@ -423,8 +469,10 @@ redirect *from* also needs a proxied DNS record (`A` → `192.0.2.0` or
 - Cloudflare Workers project linked to the repo (build command `npm run generate`,
   output directory `.output/public`) **or** `CLOUDFLARE_API_TOKEN` for
   `run deploy`.
-- R2 env vars for `media upload`: `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`,
-  `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`.
+- R2 env vars for `media verify --remote` / `media upload --apply` /
+  `media prune --apply`: `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`
+  (a token with "Workers R2 Storage: Edit" — the same token `run deploy`
+  uses) and `R2_BUCKET` (the media bucket name).
 
 ---
 
@@ -433,11 +481,11 @@ redirect *from* also needs a proxied DNS record (`A` → `192.0.2.0` or
 - *"I fixed a word in the archive HTML"* → `node scripts/extract-legacy.mjs` → `run validate` → `run build`
 - *"I want a 6th toolbar item"* → §2 steps in `navigation.json` + page + `AppNav.ICONS`
 - *"The menu reads better in French"* → edit `menuLabels.fr` in `navigation.json`
-- *"New pronunciation file arrived from TTS"* → copy to `gallery/audio/<lang>/<TOPIC>/` → fill `key/file/bytes/sha1` in the pending manifest → `run media manifest` → `run media upload`
+- *"New pronunciation file arrived from TTS"* → copy to `media/audio/<lang>/<TOPIC>/<ID>.mp3` → `run media manifest` (promotes the pending manifest) → `run media upload --apply`
 - *"Mobile layout looks off in landscape"* → `layout.css` `@media (orientation: landscape)` block
 - *"Rebuild everything from scratch"* → `run clean-deep` → `run build --force`
-- *"New gallery content arrived"* → drop the media file in `gallery/<section path>/<lang>/<TOPIC>/` + write its sibling `<ID>.json` manifest (term/names/ipa/key/mime/sha1) → add the item id to the section's sidebar → `run gallery index` → `run build` (the index also runs automatically before every build)
-- *"A blank topic has its content now"* → `run scaffold <lang> <TOPIC> <seed.json>` creates the pending manifests + sidebar items → drop the mp3s → fill the manifests → `run media manifest` → `run media upload`
+- *"New media content arrived"* → drop the media file in `media/<section path>/<lang>/<TOPIC>/` + write its sibling `<ID>.json` manifest (term/names/ipa/key/mime/sha1) → add the item id to the section's sidebar → `run media index` → `run build` (the index also runs automatically before every build)
+- *"A blank topic has its content now"* → `run scaffold <lang> <TOPIC> <seed.json>` creates the pending manifests + sidebar items → drop the mp3s → `run media manifest` → `run media upload --apply`
 
 
 ---
@@ -490,27 +538,33 @@ View **`enrollments_overview`** aggregates `words_learned` /
 ## 8. Roadmap template (/ro, /en — RoadmapShell)
 
 `src/pages/ro/index.vue` and `src/pages/en/index.vue` are thin wrappers around
-`src/components/roadmap/RoadmapShell.vue` — the chapter/topic roadmap template:
-sidebar (chapters → topics) + topic list + word table with per-row play and a
-sequential "play filtered" queue (memorization pause between items).
+`src/components/roadmap/RoadmapShell.vue` — the shared roadmap frame: chapter
+rail (sidebar) + topic list, and the open topic's pane picked by the TOPIC's
+**layout** — `table` (word rows with per-row play and a sequential "play
+filtered" queue), `article` (content doc cards → prerendered pages) or
+`gallery` (image cards). **Any layout kind can appear in any track**
+(Dictionary · Lectures · Stories) — the track never picks the pane.
 
 | Concern | File |
 | --- | --- |
-| Template shell | `src/components/roadmap/RoadmapShell.vue` — store init, `?chapter=&topic=` deep links, one `useProgress` instance provided to the tree (`PROGRESS_KEY`); renders a **per-track layout** from the `LAYOUTS` registry (`track` prop, default `'dictionary'`; `/learn/:locale/:track` passes it, /ro · /en keep the default) |
-| Track layouts | `roadmap/layouts/DictionaryLayout.vue` (Dictionary: sidebar topic filter + paginated file table — File ID · name · translation · per-row play (blinks) · learned toggle; letter search, rows-per-page, prev/next, global "play page" (▶ → ■ while running), loop toggle (blinks while looping); row click stops autoplay; the list scrolls 5 rows per jump when the playhead nears the bottom, jumps to the top on loop wrap) · `roadmap/layouts/TopicsLayout.vue` (the original topic-list/word-table composition — Lectures/Stories fallback until their own layouts) |
-| Selection / filter / search state | `src/stores/roadmapStore.ts` (Fuse topic search, word filter, learned counts via `progress-index.json`) |
-| Runtime data | `public/data/gallery/**` — built by `scripts/gallery-index.mjs` (`run gallery index`; runs automatically at the start of every `run build`; `gallery/**` is a fingerprint input) |
-| Structure (sidebars) | `src/data/sidebars/**/sidebar.json` + `src/composables/useSidebars.ts` — sections → topics → **item ids** + localized names; build-inlined (navigation.json pattern), never fetched |
-| Location config | `src/data/gallery.config.json` — R2 `root` + one path per sidebar section; media URL = `root + path + file` |
-| Repository | `gallery/` — media files under `audio/<lang>/<TOPIC>/`, each with its own sibling `<ID>.json` manifest (item text: term/names/ipa/kind + file facts: file/key/mime/bytes/sha1/status; `pending` = media not yet produced — renders "audio coming soon") |
-| Types + loaders | `src/types/gallery.ts` (runtime records) · `src/types/sidebars.ts` · `src/composables/useGallery.ts` · sequential player `src/composables/useAudioQueue.ts` |
-| Topic attribution | `scripts/archive-topics.mjs` + `topic-map.json` — parses the archive pages (page#section → topic), attributes all 532 entities, rewrites the sidebar with `--apply-sidebar`; `scripts/gallery-manifests.mjs` re-folders media + writes the manifests; `scripts/gallery-scaffold-topic.mjs` (`run scaffold`) seeds the blank topics |
+| Frame | `src/components/roadmap/RoadmapShell.vue` — store init, `?chapter=&topic=` deep links, one `useProgress` instance provided to the tree (`PROGRESS_KEY`), the credit/chapter meters (`#track-meters` teleport), the Chapters TOC toggle; the open topic's pane = `TOPIC_LAYOUTS[store.topicLayout]` (`track` prop only selects the sidebar section, default `'dictionary'`) |
+| Topic layouts | `roadmap/layouts/TopicTable.vue` (table topics: toolbar + paginated file table — File ID · name · translation · per-row play (blinks) · learned toggle; prefix/translation search, rows-per-page, prev/next, global "play page" (▶ → ■ while running), loop toggle; row click stops autoplay; the list scrolls to the playhead) · `roadmap/layouts/TopicArticle.vue` (article topics: the topic's content docs as cards → prerendered article pages; strictly prose — no practice rows) · `roadmap/layouts/TopicGallery.vue` (gallery topics: image cards — image · term · gloss · learned toggle) · `roadmap/ChaptersTable.vue` (the chapters TOC table, shared by every track) |
+| Layout invariants | ONE topic = ONE layout, declared as `layout` on the sidebar topic (`src/types/sidebars.ts` `TopicLayout`); enforced by `scripts/validate-data.mjs`: `table` → non-image records only, never a doc · `article` → content docs only (a video manifest for its own embedded video is allowed) · `gallery` → image manifests only. Mixed topics are split (e.g. lectures C1T01 = the 104 letter rows, C1T01A = the alphabet article) |
+| Chapter rail | `roadmap/RoadmapSidePane.vue` + `src/lib/roadmapRail.ts` — **one** height rule for every track: self-sized panel (`self-start` cancels the grid stretch), sticky under the header (`lg:sticky lg:top-14` — the same token as the sticky table heads), viewport-capped (`lg:max-h-[calc(100dvh-5rem)]`) with the chapter list scrolling inside (`lg:overflow-y-auto lg:overscroll-contain`); page content always keeps the browser scroll |
+| Selection / filter / search state | `src/stores/roadmapStore.ts` — **track-aware** (`SECTION_BY_TRACK`, `init(lang, track, …)`; sidebar/counts/payload caches reset per track+lang), `topicLayout` (the open topic's pane kind), Fuse topic search, word filter, empty scaffolding hidden (`populatedTopics` / `visibleChapters`), learned counts via `progress-index.json` |
+| Runtime data | `public/data/media/**` — built by `scripts/media-index.mjs` (`run media index`; runs automatically at the start of every `run build`; `media/**` is a fingerprint input). Content-only article ids (no manifest) get a synthesized record (`kind: 'article'`) so the topic never counts zero |
+| Structure (sidebars) | `src/data/sidebars/**/sidebar.json` + `src/composables/useSidebars.ts` — sections → topics → **item ids** + localized names + per-topic `layout`; build-inlined (navigation.json pattern), never fetched |
+| Location config | `src/data/media.config.json` — R2 `root` + one path per sidebar section; media URL = `root + path + file` |
+| Repository | `media/` — media files under `<type>/<lang>/<TOPIC>/`, each with its own sibling `<ID>.json` manifest (item text: term/names/ipa/kind + file facts: file/key/mime/bytes/sha1/status; `pending` = media not yet produced — renders "coming soon") |
+| Types + loaders | `src/types/media.ts` (runtime records) · `src/types/sidebars.ts` · `src/composables/useMedia.ts` · sequential player `src/composables/useAudioQueue.ts` |
+| Topic attribution | `scripts/archive-topics.mjs` + `topic-map.json` + **`pins.json`** — parses the archive pages (page#section → topic), attributes all entities; restructured ids (dictionary → lectures) are **pinned** in `src/data/sidebars/library/dictionary/pins.json` and the pins win, so re-running `--apply-sidebar` never undoes a restructure; `scripts/media-manifests.mjs` re-folders media + writes the manifests; `scripts/media-scaffold-topic.mjs` (`run scaffold`) seeds the blank topics; `scripts/lecture.mjs` (`run lecture`) scaffolds/reviews article content |
 | Legacy bridge (fallback) | sidebar item ids without a manifest resolve from `public/data/entities/*.json` (also the global-search source) — every dictionary item has a manifest now, so the dictionary is fully manifest-backed |
-| Components | `roadmap/RoadmapSidebar.vue` · `RoadmapTopicSearch.vue` · `RoadmapTopicList.vue` · `RoadmapWordTable.vue` · `RoadmapPlayerBar.vue` · `roadmap/layouts/DictionaryToolbar.vue` |
-| Dictionary playback state | `roadmapStore` `letterQuery` / `page` / `pageSize` + `dictionaryRows` (diacritic-folded prefix filter on the term) / `pageCount` / `pagedRows` + `setLetterQuery` / `setPageSize` / `setPage` (page resets on topic open/close and filter changes); `useAudioQueue` gained `loop` / `mode` (`'idle' \| 'single' \| 'page'`) / `playOne()` / `setLoop()` / `onCycle` — single runs skip the memorization gap; loop laps fire `onCycle` (the layout jumps the list back to the top) |
+| Components | `roadmap/RoadmapSidebar.vue` · `RoadmapTopicSearch.vue` · `RoadmapTopicList.vue` · `roadmap/ChaptersTable.vue` · `roadmap/layouts/DictionaryToolbar.vue` |
+| Article pages | `src/pages/learn/[locale]/[track]/[topic]/[id]/[doc].vue` — track-agnostic, prerendered per explanation-locale doc (content/track/trackLang/TOPIC/ID/locale.md — angle brackets in a top-level .vue comment would break the SFC parser); the collection is `articles` (content.config.ts, one collection for every track); canonical doc: `en` for lectures, the track language for the other tracks (`EN_CANONICAL` in media-index.mjs) |
+| Dictionary playback state | `roadmapStore` `dictionaryQuery` (committed on Enter / the toolbar's filter button — never while typing) / `page` / `pageSize` + `dictionaryRows` (filter off: diacritic-folded prefix on the term in the open topic; filter on: substring on the rendered gloss, dictionary-wide via `searchInTranslation` + lazy `ensureSearchIndex` over `<section>/search.json`, one fetch) / `searchActive` / `pageCount` / `pagedRows` + `setDictionaryQuery` / `setSearchMode` / `setPageSize` / `setPage` (page resets on topic open/close and filter changes; the mode persists like Repeat); pure match helpers in `src/lib/dictionarySearch.ts` (`fold` / `glossName` / `matchesDictionaryQuery` — the gloss the search matches is exactly the gloss the table renders); `useAudioQueue` gained `loop` / `mode` (`'idle' \| 'single' \| 'page'`) / `playOne()` / `setLoop()` / `onCycle` — single runs skip the memorization gap; loop laps fire `onCycle` (the layout jumps the list back to the top) |
 
 ### Add a language to the roadmap
-1. Translations: the sidebar `names` blocks already cover all 96 topics × 9 locales
+1. Translations: the sidebar `names` blocks already cover all 144 topics × 9 locales
    (`src/data/sidebars/library/dictionary/sidebar.json`).
 2. Create `src/pages/<lang>/index.vue` — copy `en/index.vue`, switch
    `RoadmapShell lang="…"` and the `roadmap.<lang>_title` / `_intro` copy keys.

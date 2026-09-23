@@ -137,13 +137,13 @@ try {
   ERRORS.push(`prices.json missing or unparseable: ${e.message}`)
 }
 
-/* ── gallery: sidebars ↔ config ↔ manifests ↔ legacy bridge ─────────────── */
+/* ── media: sidebars ↔ config ↔ manifests ↔ legacy bridge ─────────────── */
 try {
-  const config = readJson('src/data/gallery.config.json')
+  const config = readJson('src/data/media.config.json')
   const SECTION_PATHS = new Set(Object.values(config.sections ?? {}))
   const localeCodesAll = nav.languages.map((l) => l.locale)
 
-  // ROOT-relative, forward-slash (mirrors gallery-index.mjs' rel()).
+  // ROOT-relative, forward-slash (mirrors media-index.mjs' rel()).
   const rel = (p) => p.slice(ROOT.length).replaceAll('\\', '/').replace(/^\//, '')
 
   const walkFiles = (dir, ext) =>
@@ -154,26 +154,26 @@ try {
         })
       : []
 
-  // Manifests (gallery/**.json), keyed by id.
+  // Manifests (media/**.json), keyed by id.
   const manifestIds = new Set()
-  for (const file of walkFiles('gallery', '.json')) {
-    const relPath = rel(file).replace(/^gallery\//, '')
+  for (const file of walkFiles('media', '.json')) {
+    const relPath = rel(file).replace(/^media\//, '')
     const manifest = readJson(file)
     if (!manifest.id) continue // non-manifest JSON (none expected)
     manifestIds.add(manifest.id)
     if (!manifest.lang || !localeCodesAll.includes(manifest.lang)) {
-      ERRORS.push(`gallery manifest ${relPath}: bad lang '${manifest.lang}'`)
+      ERRORS.push(`media manifest ${relPath}: bad lang '${manifest.lang}'`)
     }
     if (!manifest.term || !manifest.names?.[manifest.lang]) {
-      ERRORS.push(`gallery manifest ${relPath}: missing term/names[${manifest.lang}]`)
+      ERRORS.push(`media manifest ${relPath}: missing term/names[${manifest.lang}]`)
     }
     const key = manifest.key ?? manifest.file
     if (!key) {
       // Pending manifests (status 'pending') legitimately have no key yet —
       // the media file has not been produced/uploaded (TTS queue).
-      if (manifest.status !== 'pending') ERRORS.push(`gallery manifest ${relPath}: missing key/file`)
+      if (manifest.status !== 'pending') ERRORS.push(`media manifest ${relPath}: missing key/file`)
     } else if (!SECTION_PATHS.has(key.split('/')[0] + '/')) {
-      ERRORS.push(`gallery manifest ${relPath}: key '${key}' outside every configured section path`)
+      ERRORS.push(`media manifest ${relPath}: key '${key}' outside every configured section path`)
     }
   }
 
@@ -208,9 +208,156 @@ try {
   for (const sectionId of Object.keys(config.sections ?? {})) {
     if (!seenSections.has(sectionId)) ERRORS.push(`config.sections has no sidebar for '${sectionId}'`)
   }
-  console.log(`gallery: ${sidebarFiles.length} sidebars · ${itemCount} items · ${manifestIds.size} manifests · config root ${config.root}`)
+  console.log(`media: ${sidebarFiles.length} sidebars · ${itemCount} items · ${manifestIds.size} manifests · config root ${config.root}`)
 } catch (e) {
-  ERRORS.push(`gallery model missing or unparseable: ${e.message}`)
+  ERRORS.push(`media model missing or unparseable: ${e.message}`)
+}
+
+/* ── content: lectures/stories front matter ↔ sidebars ↔ manifests ─────── */
+try {
+  const { default: grayMatter } = await import('gray-matter')
+  const LOCALES = ['en', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
+  const CANONICAL_BY_TRACK = { lectures: 'en' } // stories: the track language
+  const contentDir = join(ROOT, 'content')
+
+  const walkContent = (dir, parts) =>
+    existsSync(dir)
+      ? readdirSync(dir, { withFileTypes: true }).flatMap((e) => {
+          const next = [...parts, e.name]
+          return e.isDirectory() ? walkContent(join(dir, e.name), next) : e.name.endsWith('.md') ? [next] : []
+        })
+      : []
+
+  // Manifest ids (media/**.json) — content media (the video) must resolve here.
+  const mediaManifestIds = new Set()
+  const walkManifestFiles = (dir) =>
+    existsSync(dir)
+      ? readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
+          e.isDirectory() ? walkManifestFiles(join(dir, e.name)) : e.name.endsWith('.json') ? [join(dir, e.name)] : []
+        )
+      : []
+  for (const file of walkManifestFiles(join(ROOT, 'media'))) {
+    const manifest = JSON.parse(readFileSync(file, 'utf-8'))
+    if (manifest.id) mediaManifestIds.add(manifest.id)
+  }
+
+  const pins = existsSync(join(ROOT, 'src/data/sidebars/library/dictionary/pins.json'))
+    ? readJson('src/data/sidebars/library/dictionary/pins.json')
+    : {}
+  const sidebarBySection = {}
+  for (const file of walkManifestFiles(join(ROOT, 'src/data/sidebars')).filter((f) => f.endsWith('sidebar.json'))) {
+    const doc = JSON.parse(readFileSync(file, 'utf-8'))
+    sidebarBySection[doc.id] = doc
+  }
+
+  const docsByLecture = new Map() // id → { track, trackLang, topic, docs: Map<locale, data> }
+  const contentFiles = walkContent(contentDir, [])
+  for (const parts of contentFiles) {
+    const relPath = `content/${parts.join('/')}`
+    // <lectures|stories>/<trackLang>/<TOPIC>/<id>/<locale>.md
+    if (parts.length !== 5) {
+      ERRORS.push(`content ${relPath}: must live at <track>/<trackLang>/<TOPIC>/<id>/<locale>.md`)
+      continue
+    }
+    const [track, trackLang, topic, id, docName] = parts
+    const locale = docName.replace(/\.md$/, '')
+    const { data } = grayMatter(readFileSync(join(contentDir, ...parts), 'utf8'))
+    if (!LOCALES.includes(locale)) ERRORS.push(`content ${relPath}: bad doc locale '${locale}'`)
+    if (!data.title) ERRORS.push(`content ${relPath}: missing title`)
+    for (const [field, expected] of [
+      ['track', track],
+      ['trackLang', trackLang],
+      ['topic', topic],
+      ['article', id],
+      ['locale', locale]
+    ]) {
+      if (data[field] !== expected) ERRORS.push(`content ${relPath}: front-matter ${field} '${data[field]}' != path '${expected}'`)
+    }
+    if (data.status && !['draft', 'reviewed'].includes(data.status)) {
+      ERRORS.push(`content ${relPath}: bad status '${data.status}'`)
+    }
+    const group = docsByLecture.get(id) ?? { track, trackLang, topic, docs: new Map() }
+    group.docs.set(locale, data)
+    docsByLecture.set(id, group)
+  }
+
+  for (const [id, group] of docsByLecture) {
+    const canonicalLocale = CANONICAL_BY_TRACK[group.track] ?? group.trackLang
+    if (!group.docs.has(canonicalLocale)) {
+      ERRORS.push(`content '${id}': no canonical '${canonicalLocale}' document`)
+    }
+    // The content docs must be reachable: the id is a sidebar item of its topic.
+    const section = `library/${group.track}`
+    const sidebar = sidebarBySection[section]
+    const topicEntry = sidebar?.sections.flatMap((s) => s.topics).find((t) => t.code === group.topic)
+    if (!topicEntry) ERRORS.push(`content '${id}': topic '${group.topic}' missing in ${section}`)
+    else if (!topicEntry.items.includes(id)) ERRORS.push(`content '${id}': not an item of ${section} · ${group.topic}`)
+    // Manifests for content media (the video) are validated by the media pass (manifestIds).
+  }
+
+  // ── topic layouts — ONE topic, ONE layout kind (the pane is picked by the
+  // topic's `layout` field, never by the track). Per-kind item invariants:
+  //   table   → non-image records only, never a content doc
+  //   article → content docs only (prose-only is fine), never a media manifest
+  //   gallery → image manifests only
+  const TOPIC_LAYOUTS = ['table', 'article', 'gallery']
+  const mimeById = new Map() // manifest id → mime
+  for (const file of walkManifestFiles(join(ROOT, 'media'))) {
+    const manifest = JSON.parse(readFileSync(file, 'utf-8'))
+    if (manifest.id && manifest.mime) mimeById.set(manifest.id, manifest.mime)
+  }
+  const entityIdSet = new Set()
+  for (const file of walkManifestFiles(join(ROOT, 'public/data/entities'))) {
+    const list = JSON.parse(readFileSync(file, 'utf-8'))
+    if (Array.isArray(list)) for (const entity of list) if (entity.id) entityIdSet.add(entity.id)
+  }
+  let layoutCount = 0
+  const layoutTotals = {}
+  for (const sidebar of Object.values(sidebarBySection)) {
+    for (const section of sidebar.sections ?? []) {
+      for (const topic of section.topics ?? []) {
+        const layout = topic.layout
+        if (!TOPIC_LAYOUTS.includes(layout)) {
+          ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: bad/missing layout '${layout}' (expected one of ${TOPIC_LAYOUTS.join(', ')})`)
+          continue
+        }
+        layoutCount++
+        layoutTotals[layout] = (layoutTotals[layout] ?? 0) + 1
+        for (const id of topic.items ?? []) {
+          const isDoc = docsByLecture.has(id)
+          if (layout === 'article') {
+            if (!isDoc) ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: article topic holds non-doc item '${id}'`)
+            else if (mediaManifestIds.has(id) && !(mimeById.get(id) ?? '').startsWith('video/')) {
+              ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: article item '${id}' has a non-video manifest — articles are prose-only (a video manifest is allowed)`)
+            }
+          } else if (isDoc) {
+            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: ${layout} topic holds content doc '${id}' — move it to an article topic`)
+          } else if (layout === 'gallery' && !(mimeById.get(id) ?? '').startsWith('image/')) {
+            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: gallery item '${id}' has no image manifest`)
+          } else if (layout === 'table' && (mimeById.get(id) ?? '').startsWith('image/')) {
+            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: table topic holds image item '${id}' — make it a gallery topic`)
+          } else if (layout === 'table' && !entityIdSet.has(id) && !mediaManifestIds.has(id)) {
+            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: table item '${id}' has no manifest and no legacy entity`)
+          }
+        }
+      }
+    }
+  }
+  console.log(`layouts: ${layoutCount} topics — ${Object.entries(layoutTotals).map(([k, v]) => `${k} ${v}`).join(' · ')}`)
+
+  // Pins: every pinned id must live in its pinned sidebar topic, and resolve to a manifest.
+  for (const [id, pin] of Object.entries(pins)) {
+    const sidebar = sidebarBySection[pin.section]
+    const topicEntry = sidebar?.sections.flatMap((s) => s.topics).find((t) => t.code === pin.topic)
+    if (!topicEntry) ERRORS.push(`pin '${id}': topic '${pin.topic}' missing in ${pin.section}`)
+    else if (!topicEntry.items.includes(id)) ERRORS.push(`pin '${id}': not an item of ${pin.section} · ${pin.topic}`)
+    if (!mediaManifestIds.has(id)) ERRORS.push(`pin '${id}': no manifest`)
+  }
+  console.log(
+    `content: ${contentFiles.length} doc(s) in ${docsByLecture.size} lecture(s) · ${Object.keys(pins).length} pinned id(s)`
+  )
+} catch (e) {
+  ERRORS.push(`content model missing or unparseable: ${e.message}`)
 }
 
 /* ── report ───────────────────────────────────────────────────────────── */
