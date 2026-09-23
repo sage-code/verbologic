@@ -1,0 +1,134 @@
+{
+  "generated": "2026-09-22T19:09:02.172Z",
+  "map": {
+    "ro": {
+      "vocabulary": {
+        "greetings-courtesy": "C1T11",
+        "identity-people": "C2T03",
+        "time-expressions": "C3T09",
+        "home-objects": "C3T02",
+        "kitchen-food-basics": "C3T04",
+        "daily-routines": "C3T08",
+        "transport-directions": "C5T03",
+        "shopping-money": "C6T02",
+        "health-emergencies": "C4T04",
+        "school-vocabulary": "C7T01",
+        "office-vocabulary": "C7T03",
+        "communication-technology": "C7T08",
+        "travel-essentials": "C5T07",
+        "weather-nature": "C3T11",
+        "emotions-social": "C2T12"
+      },
+      "questions": {
+        "names-and-identity": "C2T03",
+        "family-and-people": "C2T02",
+        "feelings-and-courtesy": "C2T12",
+        "home-objects": "C3T02",
+        "food-and-drink": "C3T04",
+        "daily-routine": "C3T08",
+        "school-life": "C7T01",
+        "office-life": "C7T03",
+        "technology-and-messages": "C7T08",
+        "directions-and-places": "C5T01",
+        "transport-and-tickets": "C5T03",
+        "shopping-and-money": "C6T02",
+        "health-and-help": "C4T04",
+        "emergencies": "C4T05",
+        "weather-and-nature": "C3T11"
+      },
+      "imperative": {
+        "greetings-and-formulas": "C1T12",
+        "identity-and-social": "C8T02",
+        "messages-and-devices": "C7T06",
+        "doors-windows-and-room": "C3T01",
+        "water-bread-and-meals": "C3T05",
+        "daily-routine-commands": "C3T12",
+        "classroom-basics": "C7T02",
+        "office-actions": "C7T03",
+        "digital-tasks": "C7T08",
+        "direction-commands": "C5T01",
+        "transport-steps": "C5T03",
+        "shopping-commands": "C6T08",
+        "health-actions": "C4T04",
+        "emergency-actions": "C4T05",
+        "weather-and-outdoors": "C3T11"
+      },
+      "sentences": {
+        "identity-and-people": "C2T03",
+        "greetings-and-feelings": "C2T12",
+        "home-objects-and-places": "C3T02",
+        "daily-actions-and-meals": "C3T08",
+        "transport-and-shopping": "C5T03",
+        "school-and-office": "C7T03"
+      },
+      "alphabet": {
+        "*": "C1T01",
+        "digraphs": "C1T03",
+        "diphthongs": "C1T02"
+      },
+      "greetings": {
+        "*": "C1T11"
+      }
+    },
+    "en": {
+      "alphabet": {
+        "*": "C1T01"
+      }
+    }
+  },
+  "planned": {
+    "C2T01": [
+      "romanian/data/pronouns.json"
+    ],
+    "C2T02": [
+      "romanian/data/nouns.json",
+      "english/data/nouns.json"
+    ],
+    "C2T07": [
+      "romanian/data/adjectives.json"
+    ],
+    "C2T10": [
+      "romanian/data/family-friends.json"
+    ],
+    "C3T01": [
+      "english/data/vocab.json"
+    ],
+    "C5T01": [
+      "romanian/data/prepositions.json"
+    ],
+    "C5T11": [
+      "romanian/data/travel-city.json",
+      "romanian/data/culture-customs.json"
+    ],
+    "C7T04": [
+      "romanian/data/work-study.json"
+    ],
+    "C7T05": [
+      "english/data/meetings.json"
+    ],
+    "C7T10": [
+      "english/data/docs.json"
+    ],
+    "C6T12": [
+      "english/data/issues.json"
+    ],
+    "C8T07": [
+      "english/data/sentences.json"
+    ],
+    "C8T08": [
+      "english/data/tenses.json"
+    ],
+    "C8T09": [
+      "english/data/phrases.json"
+    ],
+    "C8T01": [
+      "english/data/questions.json"
+    ],
+    "C7T08": [
+      "english/data/technical.json"
+    ],
+    "C1T11": [
+      "romanian/data/daily-dialog.json"
+    ]
+  }
+}

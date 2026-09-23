@@ -25,7 +25,8 @@
     "type_letter": "Literă",
     "type_greeting": "Salut",
     "mark_learned": "Marchează ca învățat",
-    "learned": "Învățat"
+    "learned": "Învățat",
+    "close": "Închide"
   },
   "languages": {
     "en": "Engleză",
@@ -120,19 +121,41 @@
     "intro": "Lecțiile structurate apar în Faza 3. Până atunci, explorează traseele de română și engleză — deja complet căutabile."
   },
   "library": {
-    "title": "Bibliotecă",
-    "intro": "Limbile tale și progresul în fiecare — câte un panou per limbă.",
-    "empty": "Nu ai comandat sau abonat încă la nicio limbă.",
-    "empty_cta": "Explorează limbile",
+    "title": "Biblioteca ta",
+    "subtitle": "Gestionează limbile și urmărește progresul.",
+    "empty_intro": "Adaugă una sau mai multe limbi și începe să înveți.",
+    "add_language": "Adaugă o limbă",
+    "select_title": "Alege o limbă",
+    "select_hint": "Alege o singură limbă pentru biblioteca ta.",
+    "add": "Adaugă",
+    "all_added": "Toate limbile sunt deja în biblioteca ta.",
+    "hide": "Ascunde",
+    "hide_hint": "Ascunde din bibliotecă — progresul este păstrat",
+    "hidden_hint": "Limbile ascunse își păstrează progresul — le poți readăuga oricând.",
+    "progress_kept": "Progres păstrat",
     "credits_consumed": "Credite consumate",
     "credits_left": "Credite rămase",
     "words_learned": "Cuvinte învățate",
     "words_of": "din",
-    "continue": "Continuă învățarea",
-    "coming_soon": "Traseu în curând",
     "tier_prospect": "Probă gratuită",
     "tier_starter": "Starter",
-    "tier_prepaid_credit": "Credit preplătit"
+    "tier_prepaid_credit": "Credit preplătit",
+    "settings_title": "Setări credit",
+    "settings_hint": "Săgeți: ±1 $ · Page Up/Down: ±10 $",
+    "settings_total": "Credit total disponibil",
+    "settings_allocated": "Credit alocat limbii",
+    "settings_step": "Pas",
+    "settings_minus": "Mută în disponibil",
+    "settings_plus": "Mută în alocare",
+    "settings_apply": "Aplică",
+    "settings_cancel": "Anulează"
+  },
+  "track": {
+    "dictionary_title": "Dicționar",
+    "lectures_title": "Cursuri",
+    "stories_title": "Povești",
+    "coming_soon_title": "Acest traseu vine în curând",
+    "coming_soon_body": "Pregătim acest traseu. Revino curând — progresul tău este în siguranță."
   },
   "pricing": {
     "title": "Prețuri",
@@ -160,12 +183,50 @@
     "tier_prepaid_credit_tagline": "Credit de completare",
     "tier_prepaid_credit_description": "Încarcă credit și cheltuiește după nevoie."
   },
+  "practice": {
+    "title": "Exersare",
+    "intro": "Vorbește cu un mentor AI, fă exerciții, joacă-te.",
+    "coming_soon": "În curând"
+  },
   "roadmap": {
     "ui_label": "UI:",
     "en_title": "Traseu de engleză",
     "en_intro": "74 de litere, modele sunat-scriere și grupuri de litere mute — fiecare cu IPA și o glossă în română.",
     "ro_title": "Traseu de română",
-    "ro_intro": "532 de entități căutabile: vocabular, propoziții, întrebări și răspunsuri, formule de salut și alfabetul — cu 464 de clipuri de pronunție de pe media.verbologic.com."
+    "ro_intro": "532 de entități căutabile: vocabular, propoziții, întrebări și răspunsuri, formule de salut și alfabetul — cu 464 de clipuri de pronunție de pe media.verbologic.com.",
+    "chapters": "Capitole",
+    "chapter": "Capitol",
+    "topics": "Teme",
+    "topic": "Temă",
+    "search_topics": "Caută teme…",
+    "filter_words": "Filtrează cuvintele…",
+    "play_filtered": "Redă filtrate",
+    "stop": "Stop",
+    "pause_gap": "Pauză",
+    "learned_of": "învățate",
+    "words": "cuvinte",
+    "no_words": "Încă niciun cuvânt în această temă — conținutul e în pregătire.",
+    "select_topic": "Alege o temă",
+    "back_to_topics": "Toate temele"
+  },
+  "dictionary": {
+    "letter_filter": "Scrie primele litere…",
+    "per_page": "Rânduri pe pagină",
+    "page": "Pagina",
+    "prev": "Anterior",
+    "next": "Următor",
+    "play": "Redă",
+    "loop": "Repetă",
+    "col_id": "ID fișier",
+    "col_audio": "Audio",
+    "play_single": "Redă",
+    "check_all": "Marchează tot ca învățat",
+    "reset_page": "Resetează progresul paginii",
+    "chapter_progress": "Progres capitol",
+    "close_chapter": "Închide capitolul",
+    "open_chapter": "Deschide capitolul",
+    "next_topic": "Tema următoare",
+    "prev_topic": "Tema anterioară"
   },
   "contrastive": {
     "letter_a": "Like the a in father ; open and clear, not clipped.",

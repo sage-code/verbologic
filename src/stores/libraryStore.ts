@@ -4,9 +4,11 @@
  * when Supabase is configured and the user is signed in, hydrate from the
  * enrollments_overview view instead (setFromOverview).
  *
- * The Library page is a READ-ONLY consumer: nothing in the UI mutates state —
- * enroll()/topUp()/markLearned() exist as the documented write seam for the
- * flows that land later (pricing checkout, QuizEngine/SRS activity).
+ * Library pages are mostly READ-ONLY consumers: nothing mutates the enrollment
+ * records — enroll()/topUp()/markLearned() exist as the documented write seam
+ * for the flows that land later (pricing checkout, QuizEngine/SRS activity).
+ * The one exception is the per-language credit allocation (settings dialog),
+ * which is a local preference on its own key — never an enrollment mutation.
  */
 import { defineStore } from 'pinia'
 import {
@@ -36,16 +38,65 @@ export interface Enrollment {
 }
 
 const STORAGE_KEY = 'verbologic-library'
+/**
+ * Hide preference — a separate local key, deliberately NOT a field on the
+ * enrollment. Hiding is a *view* preference: the enrollment record (tier,
+ * credits, words, timestamps) is never mutated or deleted, and learned-item
+ * progress is never touched, so re-adding a language brings back the previous
+ * progress. A separate key also survives the signed-in setFromOverview()
+ * refresh (which replaces the enrollment list from the server view) —
+ * localStorage 'verbologic-library-hidden' = { [locale]: hiddenAt ISO }.
+ */
+const HIDDEN_KEY = 'verbologic-library-hidden'
+/**
+ * Credit allocation per language — a separate local key, again deliberately
+ * NOT a field on the enrollment (the enrollments_overview view has no such
+ * column). Same pattern as the hide preference: `verbologic-library-allocations`
+ * = { [locale]: allocatedCredits }. The allocation carves a slice of the
+ * language's remaining balance (`creditsLeft`) into an earmarked budget; the
+ * unallocated remainder is the "total credit available". Managed only through
+ * the per-language settings dialog (Apply commits, Cancel discards).
+ */
+const ALLOCATIONS_KEY = 'verbologic-library-allocations'
 
 export const useLibraryStore = defineStore('library', () => {
   const enrollments = ref<Enrollment[]>([])
+  const hidden = ref<Record<string, string>>({})
+  const allocations = ref<Record<string, number>>({})
 
-  const isEmpty = computed(() => enrollments.value.length === 0)
+  const isEmpty = computed(() => visible.value.length === 0)
 
   /** Most-recently-updated first — the Library panel order. */
   const sorted = computed(() =>
     [...enrollments.value].sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))
   )
+
+  /** Enrollments shown in the Library: sorted, minus the hidden languages. */
+  const visible = computed(() => sorted.value.filter((e: Enrollment) => !isHidden(e.locale)))
+
+  /** How many languages are currently hidden (drives the empty-state hint). */
+  const hiddenCount = computed(() => Object.keys(hidden.value).length)
+
+  /** True when the language is hidden from the Library (progress kept). */
+  function isHidden(locale: string): boolean {
+    return Boolean(hidden.value[locale])
+  }
+
+  /** Credits earmarked for one language (0 when never allocated). */
+  function allocationFor(locale: string): number {
+    return Math.max(0, allocations.value[locale] ?? 0)
+  }
+
+  /** Commit a new credit allocation for one language (settings dialog Apply). */
+  function setAllocation(locale: string, credits: number) {
+    const e = activeFor(locale)
+    if (!e) return
+    // Never allocate more than the language's remaining balance, never negative.
+    allocations.value[locale] = Math.max(0, Math.min(credits, creditsLeft(e)))
+    if (import.meta.client) {
+      localStorage.setItem(ALLOCATIONS_KEY, JSON.stringify(allocations.value))
+    }
+  }
 
   /** Remaining credit balance for one enrollment (never negative). */
   function creditsLeft(e: Enrollment): number {
@@ -60,6 +111,12 @@ export const useLibraryStore = defineStore('library', () => {
   function persist() {
     if (import.meta.client) {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(enrollments.value))
+    }
+  }
+
+  function persistHidden() {
+    if (import.meta.client) {
+      localStorage.setItem(HIDDEN_KEY, JSON.stringify(hidden.value))
     }
   }
 
@@ -90,6 +147,20 @@ export const useLibraryStore = defineStore('library', () => {
       // Corrupt payload — start empty.
       enrollments.value = []
     }
+    try {
+      const rawHidden = localStorage.getItem(HIDDEN_KEY)
+      hidden.value = rawHidden ? (JSON.parse(rawHidden) as Record<string, string>) : {}
+    } catch {
+      // Corrupt payload — nothing hidden.
+      hidden.value = {}
+    }
+    try {
+      const rawAlloc = localStorage.getItem(ALLOCATIONS_KEY)
+      allocations.value = rawAlloc ? (JSON.parse(rawAlloc) as Record<string, number>) : {}
+    } catch {
+      // Corrupt payload — nothing allocated.
+      allocations.value = {}
+    }
   }
 
   // --- Write seam (Supabase Phase 5; unused by the read-only Library UI) ---
@@ -119,16 +190,42 @@ export const useLibraryStore = defineStore('library', () => {
     persist()
   }
 
+  /**
+   * Hide a language from the Library. Purely a view preference: the enrollment
+   * record and learned-item progress are left untouched, so restoring brings
+   * back the previous progress. Reversible via restore() (Add Language dialog).
+   */
+  function hide(locale: string) {
+    if (!activeFor(locale) || hidden.value[locale]) return
+    hidden.value[locale] = new Date().toISOString()
+    persistHidden()
+  }
+
+  /** Un-hide a previously hidden language (no enrollment is created). */
+  function restore(locale: string) {
+    if (!hidden.value[locale]) return
+    delete hidden.value[locale]
+    persistHidden()
+  }
+
   return {
     enrollments,
+    hidden,
     isEmpty,
     sorted,
+    visible,
+    hiddenCount,
+    isHidden,
+    allocationFor,
     creditsLeft,
     activeFor,
     hydrate,
     setFromOverview,
     enroll,
     topUp,
-    markLearned
+    markLearned,
+    hide,
+    restore,
+    setAllocation
   }
 })

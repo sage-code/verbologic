@@ -284,3 +284,9 @@ desktop.ini
 # --- Windows artifact: `> nul` redirects create this junk file ---
 nul
 
+
+# --- Gallery — direct R2 content staging (binaries stay local; sibling JSONs are the Git index) ---
+/gallery/**
+!/gallery/**/
+!/gallery/**/*.md
+!/gallery/**/*.json

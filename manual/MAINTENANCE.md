@@ -51,6 +51,13 @@ so the menu is baked into the pre-rendered HTML (no runtime fetch).
 | Social logos | `src/components/SocialIcon.vue` | brand SVGs from `simple-icons` (`icon` = brand slug) |
 | Social row | `src/components/AppFooter.vue` | centered, brand-color logos + labels |
 
+**Current menu: `method` → `/method`, `library` → `/library`, `practice` →
+`/practice` (placeholder: AI Mentor · Exercises · Games, all coming soon).**
+Pricing was removed from the menu; its page is retained at
+`src/pages/pricing/index.vue` only for the `?next=/pricing` resume flow until
+the subscription model moves into the user profile dialog. New languages are
+added from the Library's **Add Language** dialog (see §3.7).
+
 ### How to add a menu item (manual, ~4 steps)
 1. Create the page route, e.g. `src/pages/contact/index.vue`.
 2. Add it to `menu[]` in `navigation.json` (correct `order`).
@@ -128,7 +135,8 @@ to English chrome.
 
 **Localized language names are separate**: `src/data/language-names.json`
 (build-inlined like `navigation.json` — no runtime fetch) holds a 9 × 9 matrix
-(UI locale → target locale → name) so the pricing checklist, Library panels,
+(UI locale → target locale → name) so the Library's Add Language dialog and
+language panels,
 language dropdown and roadmap UI toggles render every language in the language
 selected on the toolbar — even for the 7 locales without full chrome files yet.
 Consumed via `useLanguageNames()` + `useNavigation().languageName()`
@@ -136,26 +144,40 @@ Consumed via `useLanguageNames()` + `useNavigation().languageName()`
 code). `run validate` enforces matrix completeness.
 
 ### 3.3 Media / audio
-Audio is **not** in Git. The local staging area is `media/audio/<lang>/<id>.mp3`
-(git-ignored), synced to R2 at `https://media.verbologic.com/` **differentially**
-by `scripts/media-sync.mjs`. A `media/audio-manifest.json` stores per-key
-hashes so only changed/new files are uploaded.
+Audio is **not** in Git. The staging root is the **gallery repository** itself —
+`gallery/audio/<lang>/<TOPIC>/<ID>.mp3` (git-ignored binaries) next to their
+sibling `<ID>.json` manifests (the committed Git index) — so the local layout
+mirrors the R2 object keys exactly (`audio/<lang>/<TOPIC>/<ID>.mp3`). The sync
+is **differential** via `scripts/media-sync.mjs`:
+`gallery/audio-manifest.json` stores per-key hashes so only changed/new files
+are uploaded.
 
 ```bash
-run media stage      # copy legacy archive mp3s into media/audio staging layout
-run media manifest   # recompute media/audio-manifest.json (differential baseline)
-run media verify     # report missing files / TTS queue / orphans
+run media stage      # archive mp3s → gallery per-topic layout (via archive-topics attribution)
+run media manifest   # recompute gallery/audio-manifest.json (differential baseline)
+run media verify     # report missing files / pending queue / orphans
 run media upload     # requires R2 credentials; uploads only changed keys
+run media prune      # list retired keys (e.g. the old flat audio/<lang>/<ID>.mp3 layout) to delete from R2
 ```
 
 `audio: null` in an entity = queued for TTS regeneration (alphabet + greetings,
-68 items). Once generated, drop the file into staging and `run media upload`.
+68 items). In the gallery these are **pending manifests** (`status: "pending"`,
+`key/file/bytes/sha1: null`) — the dictionary renders them as a disabled
+"audio coming soon" button. Once the file is generated: drop it into the
+topic folder, fill the key/file/bytes/sha1 in the manifest, `run media manifest`,
+`run media upload`.
 
 ### 3.4 Lessons (future)
 `content/<lang>/*.md` via `@nuxt/content` — arrives in Phase 3. Nothing to
 maintain yet.
 
-### 3.5 Pricing (tiers + CTA behavior)
+### 3.5 Pricing (tiers + CTA behavior) — removed from the menu, page retained
+> **Status:** Pricing is no longer linked in the menu (`navigation.json`).
+> The page and `prices.json` stay as the per-language pricing reference until
+> the new subscription model (user profile dialog) replaces them. The free-tier
+> enroll flow moved to the Library's Add Language dialog (§3.7), which calls
+> the same `libraryStore.enroll()` write seam.
+
 `public/data/prices.json` is the single source of truth: `tiers[]` with `id`,
 `name`, optional `tagline`/`description`, `price`, optional `unit: 'credits'`
 and `perLanguage` overrides. The CTA in `src/pages/pricing/index.vue` is
@@ -232,6 +254,60 @@ CTA labels live in `public/data/locales/*.json` under `pricing.cta_*`;
   Builds, otherwise `/account` shows the "not configured" notice. The
   built-in mailer is dev-grade (a few mails/hour, team addresses) — configure
   custom SMTP before real signups.
+
+---
+
+### 3.7 Library ("Your Library") + track pages
+
+**Page: `src/pages/library/index.vue`** — title *Your Library*, subtitle
+*"Manage your languages and view your progress."* One panel per owned language
+(tier badge, credits, words learned + progress bar) ending in three track
+buttons: **Dictionary · Lectures · Stories**.
+
+| Concern | File | Notes |
+| --- | --- | --- |
+| Add Language dialog | `src/components/AddLanguageDialog.vue` | wraps `AppDialog` (round ✕ top-right, Escape/backdrop close, focus trap); `role="radiogroup"` single-select over `languages.filter(l => !store.visible.some(e => e.locale === l.locale))` — hidden languages reappear; confirm → `libraryStore.enroll()` (`prospect`/`trial`, deduped) or `libraryStore.restore()` for hidden ones |
+| Hide (per panel) | round ✕ in the panel header (`XMarkIcon`) | **View-only preference** stored in `localStorage 'verbologic-library-hidden'` (`{ [locale]: hiddenAt }`) via `libraryStore.hide()` / `restore()` — the enrollment record (tier, credits, words, timestamps) and learned-item progress are never mutated or deleted, so re-adding a language brings back the previous progress; `store.visible` drives the panel list and `isEmpty` |
+| Add Language placement | header vs empty state | Header button is **discreet** (`bg-body` — page-background fill: dark on dark theme, almost white on light — `border-edge text-muted text-sm`, hover → accent) and **only rendered when the library has content** (`v-if="!store.isEmpty"`). With no visible languages, the empty-state card's **accent primary** button is the sole entry point. |
+| Track model | `src/data/tracks.ts` | `TRACK_IDS = ['dictionary','lectures','stories']`; per-language `tracks: Record<TrackId, route \| null>` — `null` renders the coming-soon button; helpers `trackFor` / `trackRoute` / `isTrackLive` |
+| Track pages | `src/pages/learn/[locale]/[track].vue` | validates params (unknown → 404); live Dictionary renders `<RoadmapShell>` (`:key="locale"` forces a remount on param change); everything else shows the localized coming-soon card |
+| Prerender | `nuxt.config.ts → nitro.prerender.routes` | all 9 × 3 = 27 `/learn/:locale/:track` URLs derived from `navigation.json` (the host serves `404-page`, so every navigable route must exist as a file); adding a language to `navigation.json` adds its three track URLs automatically |
+| Copy | `public/data/locales/*.json` | `library.*` (title/intro/add_language/select_*/add/all_added) + `track.*` (per-track titles + coming-soon); `ui.close` labels the dialog's ✕ |
+
+Currently live: Dictionary for `ro` (532 entities) and `en` (74). Lectures and
+Stories come online by filling `tracks` in `src/data/tracks.ts` and adding the
+content — the pages and prerender routes already exist.
+
+**Hide vs. delete:** the panel's ✕ only *hides* a language (device-local
+preference key). When the enrollment write path lands with the new
+subscription model (user profile dialog), consider promoting this preference
+to a `hidden_at timestamptz` column on `public.enrollments` (+ the
+`enrollments_overview` view + regenerated `src/types/database.ts`) so it
+syncs across devices — the store API (`hide`/`restore`/`visible`/`isHidden`)
+would not change.
+
+---
+
+### 3.8 Practice (placeholder — AI Mentor · Exercises · Games)
+
+**Page: `src/pages/practice/index.vue`** — toolbar item `practice`
+(`microphone` icon, route `/practice`, order 2). A static placeholder: title,
+one-line intro and three non-interactive preview cards (AI Mentor speaking ·
+Exercises · Games), each badged coming soon. No store, no data, no
+interactions yet.
+
+When the modes land, they fill this page (or grow into sub-routes):
+- **AI Mentor** — conversational speaking practice; credit spend appends to
+  `credit_ledger` (`reason = 'ai_mentor'`).
+- **Exercises** — drills over learned entities; results fit `quiz_results`
+  (+ the planned `src/components/QuizEngine.vue`).
+- **Games** — word/grammar play; no backing storage yet.
+
+Copy lives under the `practice.*` block in `public/data/locales/en.json` +
+`ro.json` (other UI locales fall back to EN chrome). `validate-data` errors
+on unknown `menu[].icon` slugs (`KNOWN_MENU_ICONS`) — add the slug there and
+the component in `AppNav.ICONS` together. `/practice` is prerendered
+automatically (the menu link is crawled from every page's header).
 
 ---
 
@@ -357,9 +433,11 @@ redirect *from* also needs a proxied DNS record (`A` → `192.0.2.0` or
 - *"I fixed a word in the archive HTML"* → `node scripts/extract-legacy.mjs` → `run validate` → `run build`
 - *"I want a 6th toolbar item"* → §2 steps in `navigation.json` + page + `AppNav.ICONS`
 - *"The menu reads better in French"* → edit `menuLabels.fr` in `navigation.json`
-- *"New pronunciation file arrived from TTS"* → copy to `media/audio/<lang>/` → `run media manifest` → `run media upload`
+- *"New pronunciation file arrived from TTS"* → copy to `gallery/audio/<lang>/<TOPIC>/` → fill `key/file/bytes/sha1` in the pending manifest → `run media manifest` → `run media upload`
 - *"Mobile layout looks off in landscape"* → `layout.css` `@media (orientation: landscape)` block
 - *"Rebuild everything from scratch"* → `run clean-deep` → `run build --force`
+- *"New gallery content arrived"* → drop the media file in `gallery/<section path>/<lang>/<TOPIC>/` + write its sibling `<ID>.json` manifest (term/names/ipa/key/mime/sha1) → add the item id to the section's sidebar → `run gallery index` → `run build` (the index also runs automatically before every build)
+- *"A blank topic has its content now"* → `run scaffold <lang> <TOPIC> <seed.json>` creates the pending manifests + sidebar items → drop the mp3s → fill the manifests → `run media manifest` → `run media upload`
 
 
 ---
@@ -405,3 +483,39 @@ View **`enrollments_overview`** aggregates `words_learned` /
 
 **Regenerate DB types:** `npx supabase gen types typescript --project-id <ref>
 --schema public > src/types/database.ts`.
+
+
+---
+
+## 8. Roadmap template (/ro, /en — RoadmapShell)
+
+`src/pages/ro/index.vue` and `src/pages/en/index.vue` are thin wrappers around
+`src/components/roadmap/RoadmapShell.vue` — the chapter/topic roadmap template:
+sidebar (chapters → topics) + topic list + word table with per-row play and a
+sequential "play filtered" queue (memorization pause between items).
+
+| Concern | File |
+| --- | --- |
+| Template shell | `src/components/roadmap/RoadmapShell.vue` — store init, `?chapter=&topic=` deep links, one `useProgress` instance provided to the tree (`PROGRESS_KEY`); renders a **per-track layout** from the `LAYOUTS` registry (`track` prop, default `'dictionary'`; `/learn/:locale/:track` passes it, /ro · /en keep the default) |
+| Track layouts | `roadmap/layouts/DictionaryLayout.vue` (Dictionary: sidebar topic filter + paginated file table — File ID · name · translation · per-row play (blinks) · learned toggle; letter search, rows-per-page, prev/next, global "play page" (▶ → ■ while running), loop toggle (blinks while looping); row click stops autoplay; the list scrolls 5 rows per jump when the playhead nears the bottom, jumps to the top on loop wrap) · `roadmap/layouts/TopicsLayout.vue` (the original topic-list/word-table composition — Lectures/Stories fallback until their own layouts) |
+| Selection / filter / search state | `src/stores/roadmapStore.ts` (Fuse topic search, word filter, learned counts via `progress-index.json`) |
+| Runtime data | `public/data/gallery/**` — built by `scripts/gallery-index.mjs` (`run gallery index`; runs automatically at the start of every `run build`; `gallery/**` is a fingerprint input) |
+| Structure (sidebars) | `src/data/sidebars/**/sidebar.json` + `src/composables/useSidebars.ts` — sections → topics → **item ids** + localized names; build-inlined (navigation.json pattern), never fetched |
+| Location config | `src/data/gallery.config.json` — R2 `root` + one path per sidebar section; media URL = `root + path + file` |
+| Repository | `gallery/` — media files under `audio/<lang>/<TOPIC>/`, each with its own sibling `<ID>.json` manifest (item text: term/names/ipa/kind + file facts: file/key/mime/bytes/sha1/status; `pending` = media not yet produced — renders "audio coming soon") |
+| Types + loaders | `src/types/gallery.ts` (runtime records) · `src/types/sidebars.ts` · `src/composables/useGallery.ts` · sequential player `src/composables/useAudioQueue.ts` |
+| Topic attribution | `scripts/archive-topics.mjs` + `topic-map.json` — parses the archive pages (page#section → topic), attributes all 532 entities, rewrites the sidebar with `--apply-sidebar`; `scripts/gallery-manifests.mjs` re-folders media + writes the manifests; `scripts/gallery-scaffold-topic.mjs` (`run scaffold`) seeds the blank topics |
+| Legacy bridge (fallback) | sidebar item ids without a manifest resolve from `public/data/entities/*.json` (also the global-search source) — every dictionary item has a manifest now, so the dictionary is fully manifest-backed |
+| Components | `roadmap/RoadmapSidebar.vue` · `RoadmapTopicSearch.vue` · `RoadmapTopicList.vue` · `RoadmapWordTable.vue` · `RoadmapPlayerBar.vue` · `roadmap/layouts/DictionaryToolbar.vue` |
+| Dictionary playback state | `roadmapStore` `letterQuery` / `page` / `pageSize` + `dictionaryRows` (diacritic-folded prefix filter on the term) / `pageCount` / `pagedRows` + `setLetterQuery` / `setPageSize` / `setPage` (page resets on topic open/close and filter changes); `useAudioQueue` gained `loop` / `mode` (`'idle' \| 'single' \| 'page'`) / `playOne()` / `setLoop()` / `onCycle` — single runs skip the memorization gap; loop laps fire `onCycle` (the layout jumps the list back to the top) |
+
+### Add a language to the roadmap
+1. Translations: the sidebar `names` blocks already cover all 96 topics × 9 locales
+   (`src/data/sidebars/library/dictionary/sidebar.json`).
+2. Create `src/pages/<lang>/index.vue` — copy `en/index.vue`, switch
+   `RoadmapShell lang="…"` and the `roadmap.<lang>_title` / `_intro` copy keys.
+3. Flip the language in `src/data/tracks.ts` (`tracks.dictionary: '/learn/<lang>/dictionary'`).
+4. UI chrome: `public/data/locales/<lang>.json` is optional — missing files
+   fall back to English (per-key via `useCopy`).
+5. Progress: `learned_items` is locale-scoped (`UNIQUE(user_id, locale, entity_id)`,
+   schema.sql §13) — no per-language id namespacing needed.

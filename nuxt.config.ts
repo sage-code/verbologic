@@ -1,4 +1,5 @@
 import { fileURLToPath } from 'node:url'
+import navigation from './src/data/navigation.json'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -9,7 +10,15 @@ export default defineNuxtConfig({
   ssr: true,
   nitro: {
     prerender: {
-      routes: ['/']
+      // Library track pages (/learn/:locale/:track) are dynamic routes the
+      // link crawler cannot discover, so they are listed explicitly — one
+      // entry per language × track. The static host (wrangler.toml) serves
+      // "404-page" for missing paths, so every navigable route must exist
+      // as a prerendered file. Adding a language to navigation.json adds
+      // its three track URLs automatically.
+      routes: navigation.languages.flatMap((l) =>
+        ['dictionary', 'lectures', 'stories'].map((t) => `/learn/${l.locale}/${t}`)
+      )
     }
   },
 

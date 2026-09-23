@@ -15,7 +15,7 @@ import { fileURLToPath } from 'node:url'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const STATE_FILE = join(ROOT, 'temp', 'build.fingerprint')
-const TOP_DIRS = ['src', 'public/data']
+const TOP_DIRS = ['src', 'public/data', 'gallery']
 const TOP_FILES = [
   'nuxt.config.ts',
   'tailwind.config.ts',

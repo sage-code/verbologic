@@ -188,3 +188,95 @@
 2. (Later) Content module confirm (_yes_ default) 
 3. (Later) Supabase URL + anon key
 4. (Later) Cloudflare R2 credentials
+
+## Library redesign — "Your Library" + Add Language dialog + 3 tracks
+- [x] Menu: `pricing` removed from `navigation.json` `menu[]` + all 9 `menuLabels`; `AppNav` drops `BanknotesIcon`; `/pricing` page retained for the `?next=/pricing` resume flow (subscription model moves to the user profile dialog later)
+- [x] Home hero CTA retargeted `/pricing` → `/library`
+- [x] `src/data/tracks.ts`: `TRACK_IDS = ['dictionary','lectures','stories']`, per-language `tracks: Record<TrackId, route|null>` + `trackRoute()` / `isTrackLive()`; dictionary live for `ro` (`/learn/ro/dictionary`) and `en` (`/learn/en/dictionary`)
+- [x] New `src/pages/learn/[locale]/[track].vue`: param validation (unknown → 404), Dictionary renders `<RoadmapShell :lang :key="locale">`, otherwise localized coming-soon card; explicit `import { computed } from 'vue'` (auto-import binding resolves to `any` on dynamic-route pages → TS7053)
+- [x] `nuxt.config.ts`: 27 `/learn/:locale/:track` routes derived from `navigation.json` in `nitro.prerender.routes` (host serves `404-page`, so navigable routes must exist as files)
+- [x] New `src/components/AddLanguageDialog.vue`: AppDialog shell (round ✕ top-right, Escape/backdrop close, focus trap); `role="radiogroup"` single-select over languages not already owned (`!store.activeFor(l.locale)`); confirm → `store.enroll()` prospect/trial (deduped), closes
+- [x] `src/pages/library/index.vue`: title "Your Library", short intro "Add one or more languages and start learning.", `+ Add Language` pill (header + empty state), per-language panel keeps stats/progress, single CTA replaced by 3 track buttons (live → `/learn/...`, else disabled coming-soon)
+- [x] Locales (en/ro): `library.title` "Your Library"/"Biblioteca ta", new `add_language` `select_title` `select_hint` `add` `all_added`, `track.*` block, `ui.close`; removed dead `library.empty` / `empty_cta` / `continue` / `coming_soon`
+- [x] `RoadmapShell.vue`: tuple type annotation on the query-sync watch (pre-existing TS7031 under strict)
+- [x] Docs: `MAINTENANCE.md` §2 (menu = method + library), §3.5 pricing status banner, new §3.7 (Library + tracks)
+- [x] Verified: `vue-tsc` green · `validate-data` OK (menu items: 2) · `nuxt generate` prerenders /library + 27 track pages · `temp/verify_library_tracks.mjs` all PASS
+
+## Library — hide language (round ✕) with progress kept
+- [x] Tier badge replaced by a round ✕ button (`XMarkIcon`, `h-9 w-9 rounded-full`) top-right of each panel; localized `aria-label` ("Hide Romanian") + tooltip "progress is kept"
+- [x] `libraryStore`: hide is a VIEW preference in a separate localStorage key (`verbologic-library-hidden` = `{ [locale]: hiddenAt }`) — enrollment record (tier/credits/words/timestamps) and `useProgress`/`learned_items` are never mutated or deleted; new `hidden`/`isHidden`/`visible`/`hiddenCount`/`hide()`/`restore()`; `isEmpty` now means "nothing visible"; `hydrate()` loads the hidden key (corrupt-payload guard); existing payloads need no migration
+- [x] Panel list iterates `store.visible`; empty state shows a `hidden_hint` line only when `hiddenCount > 0`
+- [x] Add Language dialog: `available` = languages not currently visible (hidden ones reappear, flagged "Progress kept"); confirm() → `store.restore(locale)` when a (hidden) enrollment exists — no duplicate `enroll()` — so the language returns with its previous progress
+- [x] Locales (en/ro): `library.hide`, `hide_hint`, `hidden_hint`, `progress_kept`
+- [x] No Supabase change (device-local preference by decision); documented the future `hidden_at` column promotion in `MAINTENANCE.md` §3.7
+- [x] Verified: `vue-tsc` green · `validate-data` OK · `nuxt generate` · `temp/verify_library_hide.mjs` (27 checks) + `temp/verify_library_tracks.mjs` (38 checks) all PASS
+
+## Library — discreet header Add Language button
+- [x] Header button restyled: `bg-accent text-on-accent` primary → discreet page-background fill (`bg-body` — dark on dark theme, almost white on light), `border-edge text-muted text-sm font-medium`, `h-4` icon, hover → accent; shadow dropped
+- [x] Header button rendered only when the library has content (`v-if="!store.isEmpty"`) — the empty-state card's big accent button is the sole entry point then (no duplicate CTA)
+- [x] Empty-state accent button unchanged
+- [x] Verified: `vue-tsc` green · `validate-data` OK · `nuxt generate` (74 routes) · `temp/verify_library_tracks.mjs` 41/41 + `temp/verify_library_hide.mjs` 27/27 PASS
+
+## Toolbar — Practice item + placeholder page
+- [x] `navigation.json`: menu gains `{ id: practice, icon: microphone, route: /practice, order: 2 }` + `practice` label in all 9 `menuLabels` (en Practice · ro Exersare · de Übung · ru Практика · it Pratica · es Práctica · fr Pratique · hu Gyakorlás · pt Prática)
+- [x] `AppNav.vue`: `microphone: MicrophoneIcon` added to `ICONS`
+- [x] New `src/pages/practice/index.vue`: placeholder (title + one-line intro + three non-interactive coming-soon preview cards: AI Mentor `ChatBubbleLeftRightIcon` · Exercises `PencilSquareIcon` · Games `PuzzlePieceIcon`); no store/data imports; `copy()` fallbacks are full EN strings (never raw keys)
+- [x] Locales (en/ro): new `practice.*` block (title/intro/mentor_*/exercises_*/games_*/coming_soon); other 7 UI locales fall back to EN chrome
+- [x] `validate-data.mjs` hardening: `KNOWN_MENU_ICONS` check errors on unknown `menu[].icon` slugs
+- [x] Docs: `MAINTENANCE.md` §2 current-menu line + new §3.8 (Practice placeholder + future hooks: credit_ledger 'ai_mentor', quiz_results/QuizEngine)
+- [x] Verified: `vue-tsc` green · `validate-data` OK (menu items: 3) · `nuxt generate` (76 routes incl. /practice) · `temp/verify_practice.mjs` 21/21 + tracks 41/41 + hide 27/27 PASS
+
+## Library — header subtitle (translation-friendly)
+- [x] Top line under "Your Library" now `library.subtitle` = "Manage your languages and view your progress." (RO: "Gestionează limbile și urmărește progresul.") — the old top line duplicated the empty-state text
+- [x] Empty-state action prompt re-keyed `library.intro` → `library.empty_intro` (kept text: "Add one or more languages and start learning.") so the two roles cannot drift back together
+- [x] Verify scripts retargeted: tracks (header subtitle / empty intro / old key gone) + hide (prerender asserts both literals)
+- [x] Verified: `vue-tsc` green · `validate-data` OK · `nuxt generate` · all three suites PASS
+
+## Gallery refactor — track-based content (dictionary · lectures · stories)
+- [x] Mapping fixed 1:1 with the app tracks: dictionary=audio (mp3) · lectures=video (mp4) · stories=images (webp); R2 keys stay media-typed (the 464 live MP3 URLs are untouched)
+- [x] One JSON per track at the gallery root (`dictionary.json` / `lectures.json` / `stories.json`, records grouped by topic code) — starts `{}`, legacy bridge keeps feeding the 532 dictionary records
+- [x] `gallery/names.json`: the 104 one-key locale fragments folded into a single `{ code: {9-locale names} }` file
+- [x] Deleted: 288 placeholder sample collections (all were `status:"sample"` `W0000` rows — zero real content lost), `gallery/locales/`, `curriculum.json types[]`
+- [x] Unified record schema: `{ id, track, kind, lang, term, names, ipa, media: {url,mime,bytes,sha1}, topic, tags }` (two inconsistent shapes unified; sample status gone)
+- [x] `gallery-index.mjs`: reads the 3 track files + names.json, emits per-topic payloads only for topics with content (`dictionary/lectures/stories/<CODE>.json`), counts per track, stale cleanup removes the old audio/image/video payload dirs
+- [x] Runtime: `GalleryType` → `GalleryTrack`; `GalleryRecord` gains `track`/`media`, `type` → `kind`; `useGallery.fetchTopic(track)`; `roadmapStore` fetches `'dictionary'`; roadmap components read `counts.dictionary`; word-table badge shows `kind`
+- [x] `validate-data.mjs`: gallery section rewritten (names completeness, topic codes, lang allowlist, track↔media URL prefix match)
+- [x] `scaffold-gallery.py` simplified (3 track files + names.json + binary placeholders); `gallery/readme.md` rewritten to a 1-page doc
+- [x] Docs: MAINTENANCE §6 recipe + §8 roadmap table; `run` help text
+- [x] Verified: index dry-run → build (532 dictionary records, 0 unmapped) · `validate-data` OK · `vue-tsc` green · `nuxt generate` 76 routes · `temp/verify_gallery_tracks.mjs` all PASS · practice/tracks/hide suites PASS
+
+## Content model refactor — sidebars in src, gallery as bare repository
+- [x] Layer 1 (structure): `src/data/sidebars/library/{dictionary,lectures,stories}/sidebar.json` + `practice/{mentors,exercises,games}/sidebar.json` — sections → topics → item IDs only, localized names/descriptions in the sidebar; build-inlined via new `useSidebars()` (navigation.json pattern)
+- [x] Layer 2 (repository): gallery keeps only media files, each with its own sibling `<ID>.json` manifest (item text term/names/ipa + file facts key/mime/bytes/sha1) — deleted `curriculum.json`, `names.json`, `legacy-topic-map.json` and the 3 track collection files (structure absorbed into the sidebars)
+- [x] Layer 3 (location): `src/data/gallery.config.json` — R2 root + section→path mapping; media URL = root + path + file (the one hand-maintained file to re-point the CDN)
+- [x] `gallery-index.mjs` rewritten: joins sidebars + config + manifests; transitional legacy bridge (item ids without a manifest resolve from `public/data/entities/`); emits `index.json` (counts[section][topic][lang] + progress) + lazy per-topic payloads under `library/dictionary/`
+- [x] Runtime: `useGallery.fetchIndex()` + `fetchTopic(section, topic)` (curriculum fetch retired); `roadmapStore` renders the inlined dictionary sidebar, per-language counts via `topicCount()`; word-table badge `r.kind`, player `r.media.url`
+- [x] Practice page cards now data-driven from the practice sidebars (hardcoded MODES removed; `practice.*` card keys removed from locales — text lives in the sidebars)
+- [x] `validate-data.mjs` gallery block: sidebar/config/manifest/legacy-bridge integrity (every item resolves, manifest key within a configured section path, names.en everywhere)
+- [x] Docs: `gallery/readme.md` rewritten (3 layers, manifest schema, commands); MAINTENANCE §6/§8; `run` help
+- [x] Verified: index build 532 records/0 unmapped · `validate-data` OK (6 sidebars, 532 items) · `vue-tsc` green · `nuxt generate` 76 routes · `temp/verify_gallery_model.mjs` 32/32 · practice 21/21 · tracks 43/43 · hide 28/28
+
+## Dictionary layout — per-track layouts + paginated file table with play/loop
+- [x] Per-track layout registry: `RoadmapShell` is now a thin shell (store init, `?chapter=&topic=` sync, `PROGRESS_KEY` provide) rendering `LAYOUTS[track]` — new optional `track?: TrackId` prop (default `'dictionary'`); `/learn/:locale/:track` passes `:track="trackId"`, /ro · /en unaffected
+- [x] New `roadmap/layouts/TopicsLayout.vue`: the original sidebar + topic list / word-table composition, kept as the Lectures/Stories fallback until their own layouts land
+- [x] New `roadmap/layouts/DictionaryLayout.vue`: sidebar filters the open topic's words/expressions; right pane = topic banner (code + name) + `DictionaryToolbar` + scrollable table — columns File ID (`font-code`) · name in the learning language (+ IPA/kind) · translation (UI locale → en) · per-row play button (blinks `animate-pulse` while its file plays; disabled "audio coming soon" when `media.url` null) · icon-only learned toggle (Library progress source kept)
+- [x] Row click (outside buttons) stops the autoplay; the row play button (`@click.stop`) plays ONE file via the new `useAudioQueue.playOne()` — no memorization gap after a single run
+- [x] `roadmap/layouts/DictionaryToolbar.vue`: letter search (prefix filter, 1–2 letters typical, diacritic-folded), rows-per-page select (10/25/50/100, default 25), ◀ Previous / Page x / y / Next ▶, global "Play page" button — ▶ rounded → ■ square while the page queue runs — and the loop toggle (⟳, blinks while a looping run is live)
+- [x] Autoplay scroll engine: the active row is highlighted and followed; when the playhead nears the container bottom the list scrolls up exactly 5 rows per jump (`scrollBy` on the measured row height); loop wrap fires the queue's `onCycle` → the list jumps back to the top; a natural end just stops
+- [x] `roadmapStore`: `letterQuery` / `page` / `pageSize` + `dictionaryRows` / `pageCount` / `pagedRows` + `setLetterQuery` / `setPageSize` / `setPage` (clamped); page + filter reset on topic open/close; layout stops the run on topic/page/filter changes; `wordQuery` / Fuse topic search untouched (other tracks keep working)
+- [x] `useAudioQueue`: `loop` ref + `mode` ref (`'idle' | 'single' | 'page'`) + `setLoop()` + `onCycle` option; loop persists across runs unless stated; existing `play/toggle/stop` signatures unchanged (word-table player bar unaffected)
+- [x] Locales (en/ro): new `dictionary.*` block (`letter_filter` `per_page` `page` `prev` `next` `play_page` `loop` `col_id` `col_name` `col_translation` `col_audio` `play_single`); reuses `roadmap.stop` `ui.results` `ui.audio_coming_soon` `ui.learned` `ui.mark_learned` `roadmap.back_to_topics` `roadmap.no_words`
+- [x] Docs: `MAINTENANCE.md` §8 (shell + track layouts + dictionary playback state rows)
+- [x] Verified: `vue-tsc` green · locale JSON parse · `nuxt generate` 76 routes · `temp/verify_dictionary_layout.mjs` all PASS
+
+## Dictionary standard — per-topic gallery repository (ro + en)
+- [x] Media moved: `media/audio/<lang>/<ID>.mp3` (462 flat) → `gallery/audio/<lang>/<TOPIC>/<ID>.mp3` (per-topic folders; R2 keys mirror the path); `media/` keeps only `audio-manifest.json` as the prune source
+- [x] `scripts/archive-topics.mjs` (+ committed `topic-map.json`): parses the archive pages (one `<h3>` per table, linear attribution), curated page#section → topic MAP + term overrides (greetings/courtesy split, da/nu → C8T01) + ro alphabet id-pattern rules (digraphs → C1T03, diphthongs/triphthongs → C1T02); `--apply-sidebar` rewrites the sidebar item lists (archive order, ids unchanged) — 20 → 30 populated topics, 532/532 attributed, 0 orphans
+- [x] `scripts/gallery-manifests.mjs`: one sibling manifest per item — `{ id, lang, kind, term, names(+names[lang]), ipa, file, key: audio/<lang>/<TOPIC>/<file>, mime, bytes (real), sha1 (real), status: published, tags: [page#section], context?, example? }`; 464 published + 68 pending (greetings + ro letters); shared-key pairs (`letter_cat`, `word_coleg`) = 2 manifests, 1 file; ids never renamed (R2 filenames + `learned_items.entity_id`)
+- [x] Blanks prepared: pending manifests render as the disabled "audio coming soon" row (`gallery-index` emits `media.url: null` for a null key); `scripts/gallery-scaffold-topic.mjs` + `run scaffold <lang> <TOPIC> <seed.json>` seeds blank topics (pending manifests + sidebar items); `topic-map.json` records the planned archive source per blank topic
+- [x] `scripts/media-sync.mjs` rewritten gallery-driven: `stage | manifest (gallery/audio-manifest.json baseline) | verify | upload | prune` (prune lists the 462 retired flat keys)
+- [x] Enablers: `validate-data.mjs` — pending manifests skip the key check; the sidebars walk filters to `sidebar.json` (so `topic-map.json` is not mistaken for a sidebar); fixed a latent `rel is not defined` crash in the gallery block
+- [x] Runtime: all 532 dictionary records `source: 'gallery'` with per-topic URLs; `GalleryRecord` + the dictionary row surface the optional `context`/`example` fields
+- [x] R2 gate: the 462 new keys (`audio/<lang>/<TOPIC>/…`) must be uploaded (`run media upload` / R2 sync) BEFORE the next deploy; the old flat keys stay as orphans until `run media prune`
+- [x] Docs: `gallery/readme.md` (per-topic layout, manifest schema, pending status, shared keys), `MAINTENANCE.md` §3.3 + §8
+- [x] Verified: `validate-data` OK (532 manifests) · `run media verify` clean (464 published / 68 pending / 462 staged / 0 orphans) · `gallery-index` OK (532 records / 96 topics) · `vue-tsc` green · `nuxt generate` · `temp/verify_dictionary_standard.mjs` 27/27 PASS

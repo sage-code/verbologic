@@ -1,4 +1,5 @@
-// Homepage — hero only; language selection lives on /pricing, system features on /method.
+// Homepage — hero only; language selection lives in the Library (Add Language
+// dialog), system features on /method.
 <script setup lang="ts">
 import { SparklesIcon } from '@heroicons/vue/24/outline'
 
@@ -29,7 +30,7 @@ onMounted(() => {
       </p>
       <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
         <NuxtLink
-          to="/pricing"
+          to="/library"
           class="rounded-full border border-edge bg-surface px-6 py-3 font-semibold text-content transition hover:border-accent hover:bg-accent hover:text-on-accent hover:shadow-sm"
         >
           {{ copy('home.cta_start', 'Get Started Free') }}

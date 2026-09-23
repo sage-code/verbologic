@@ -34,13 +34,15 @@ create table if not exists public.enrollments (
 );
 
 -- ── 3. learned_items — source of truth for "Words learned" (idempotent) ────
+-- Locale-scoped: gallery concept ids (e.g. W0001) can exist in several target
+-- languages, so the same word must be learnable per language independently.
 create table if not exists public.learned_items (
   id         bigint generated always as identity primary key,
   user_id    uuid not null references auth.users (id) on delete cascade,
   locale     text not null,
-  entity_id  text not null,               -- public/data/entities id, e.g. word_salut
+  entity_id  text not null,               -- entity/gallery record id, e.g. word_salut
   created_at timestamptz not null default now(),
-  unique (user_id, entity_id)
+  unique (user_id, locale, entity_id)
 );
 
 -- ── 4. credit_ledger — append-only credit movements (AI Mentor spend, later).
@@ -254,3 +256,45 @@ $$;
 
 revoke execute on function public.handle_new_user() from anon, authenticated;
 revoke execute on function public.handle_new_user() from public;
+
+-- ── 13. Locale-scoped learning progress (roadmap / gallery ids) ─────────────
+-- Gallery concept ids (e.g. W0001 in audio/ro and audio/en) must be learnable
+-- per target language independently, so uniqueness moves from
+-- (user_id, entity_id) to (user_id, locale, entity_id). The locale column was
+-- already populated on every row, so no back-fill is needed. Idempotent.
+alter table public.learned_items
+  drop constraint if exists learned_items_user_id_entity_id_key;
+alter table public.learned_items
+  drop constraint if exists learned_items_user_locale_entity_key;
+alter table public.learned_items
+  add constraint learned_items_user_locale_entity_key unique (user_id, locale, entity_id);
+
+-- ── 14. listen_counts — full-listen counter per entity (auto-completion) ────
+--    The app marks learned_items when the count crosses a multiple of 5.
+--    The client upserts the running count (single-device truth, mirroring the
+--    localStorage fallback used for signed-out visitors). Idempotent.
+create table if not exists public.listen_counts (
+  id         bigint generated always as identity primary key,
+  user_id    uuid not null references auth.users (id) on delete cascade,
+  locale     text not null,
+  entity_id  text not null,               -- entity/gallery record id, e.g. word_salut
+  count      integer not null default 0 check (count >= 0),
+  updated_at timestamptz not null default now(),
+  unique (user_id, locale, entity_id)
+);
+
+alter table public.listen_counts enable row level security;
+drop policy if exists "Users can view own listen counts" on public.listen_counts;
+create policy "Users can view own listen counts"
+  on public.listen_counts for select using (auth.uid() = user_id);
+drop policy if exists "Users can insert own listen counts" on public.listen_counts;
+create policy "Users can insert own listen counts"
+  on public.listen_counts for insert to authenticated with check (auth.uid() = user_id);
+drop policy if exists "Users can update own listen counts" on public.listen_counts;
+create policy "Users can update own listen counts"
+  on public.listen_counts for update to authenticated using (auth.uid() = user_id);
+
+drop trigger if exists listen_counts_touch on public.listen_counts;
+create trigger listen_counts_touch
+  before update on public.listen_counts
+  for each row execute function public.touch_updated_at();

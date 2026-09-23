@@ -110,6 +110,33 @@ export type Database = {
         }
         Relationships: []
       }
+      listen_counts: {
+        Row: {
+          count: number
+          entity_id: string
+          id: number
+          locale: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          count?: number
+          entity_id: string
+          id?: never
+          locale: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          count?: number
+          entity_id?: string
+          id?: never
+          locale?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           active_domains: string[] | null

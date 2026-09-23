@@ -22,7 +22,9 @@ Verbologic maintenance runner
   run install                       Install dependencies
   run build [--force]               Differential build (skips rebuild when nothing changed)
   run validate                      Entity/nav/locale integrity checks
-  run media [stage|manifest|verify] Audio staging & differential manifest
+  run media [stage|manifest|verify|upload|prune] Audio staging & differential manifest
+  run gallery [index]               Build public/data/gallery payloads (sidebars + manifests + config)
+  run scaffold <lang> <TOPIC> <seed.json>  Seed a blank dictionary topic with pending manifests
   run clean                         Remove build junk (keeps .nuxt cache)
   run clean-deep                    Remove build junk AND the .nuxt cache
   run tsc                           Type-check (vue-tsc)
@@ -78,6 +80,10 @@ do_push() {
 }
 
 differential_build() {
+  # Refresh the gallery runtime payloads first (idempotent, cheap) so any
+  # gallery/ content change is reflected before the fingerprint check —
+  # public/data/gallery/** is part of the fingerprint inputs.
+  node scripts/gallery-index.mjs || warn "gallery index failed/skipped"
   if node scripts/fingerprint.mjs --check; then
     say "No source/content changes — reusing existing static build (.output/public)."
     say "Use 'run build --force' to regenerate anyway."
@@ -112,6 +118,8 @@ case "${1:-help}" in
     ;;
   validate)  node scripts/validate-data.mjs ;;
   media)     shift; node scripts/media-sync.mjs "${1:-manifest}" ;;
+  gallery)   shift; node scripts/gallery-index.mjs "${1:-}" ;;
+  scaffold)  shift; node scripts/gallery-scaffold-topic.mjs "$@" ;;
   clean)
     warn "Removing temp/, node_modules/.cache, .output/"
     rm -rf temp .output node_modules/.cache

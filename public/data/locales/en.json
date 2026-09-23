@@ -25,7 +25,8 @@
     "type_letter": "Letter",
     "type_greeting": "Greeting",
     "mark_learned": "Mark as learned",
-    "learned": "Learned"
+    "learned": "Learned",
+    "close": "Close"
   },
   "languages": {
     "en": "English",
@@ -120,19 +121,41 @@
     "intro": "Structured lessons land in Phase 3. Until then, browse the Romanian and English roadmaps — already fully searchable."
   },
   "library": {
-    "title": "Library",
-    "intro": "Your languages and your progress in each — one panel per language.",
-    "empty": "You have not ordered or subscribed to any language yet.",
-    "empty_cta": "Browse languages",
+    "title": "Your Library",
+    "subtitle": "Manage your languages and view your progress.",
+    "empty_intro": "Add one or more languages and start learning.",
+    "add_language": "Add Language",
+    "select_title": "Select language",
+    "select_hint": "Pick one language to add to your library.",
+    "add": "Add",
+    "all_added": "All languages are already in your library.",
+    "hide": "Hide",
+    "hide_hint": "Hide from your library — progress is kept",
+    "hidden_hint": "Hidden languages keep their progress — add them back any time.",
+    "progress_kept": "Progress kept",
     "credits_consumed": "Credits consumed",
     "credits_left": "Credits left",
     "words_learned": "Words learned",
     "words_of": "of",
-    "continue": "Continue learning",
-    "coming_soon": "Track coming soon",
     "tier_prospect": "Free trial",
     "tier_starter": "Starter",
-    "tier_prepaid_credit": "Prepaid credit"
+    "tier_prepaid_credit": "Prepaid credit",
+    "settings_title": "Credit settings",
+    "settings_hint": "Arrows: ±$1 · Page Up/Down: ±$10",
+    "settings_total": "Total credit available",
+    "settings_allocated": "Credit allocated to",
+    "settings_step": "Step",
+    "settings_minus": "Move to available",
+    "settings_plus": "Move to allocation",
+    "settings_apply": "Apply",
+    "settings_cancel": "Cancel"
+  },
+  "track": {
+    "dictionary_title": "Dictionary",
+    "lectures_title": "Lectures",
+    "stories_title": "Stories",
+    "coming_soon_title": "This track is coming soon",
+    "coming_soon_body": "We are preparing this track. Check back soon — your progress is safe."
   },
   "pricing": {
     "title": "Pricing",
@@ -160,11 +183,49 @@
     "tier_prepaid_credit_tagline": "Top-up credits",
     "tier_prepaid_credit_description": "Load credit and spend as you go."
   },
+  "practice": {
+    "title": "Practice",
+    "intro": "Speak with an AI mentor, do exercises, play games.",
+    "coming_soon": "Coming soon"
+  },
   "roadmap": {
     "ui_label": "UI:",
     "en_title": "English Roadmap",
     "en_intro": "74 letters, sound-spelling patterns and silent-letter clusters — each with IPA and a Romanian gloss.",
     "ro_title": "Romanian Roadmap",
-    "ro_intro": "532 searchable entities across vocabulary, phrases, Q&A drills, greetings and the alphabet — with 464 pronunciation clips served from media.verbologic.com."
+    "ro_intro": "532 searchable entities across vocabulary, phrases, Q&A drills, greetings and the alphabet — with 464 pronunciation clips served from media.verbologic.com.",
+    "chapters": "Chapters",
+    "chapter": "Chapter",
+    "topics": "Topics",
+    "topic": "Topic",
+    "search_topics": "Search topics…",
+    "filter_words": "Filter words…",
+    "play_filtered": "Play filtered",
+    "stop": "Stop",
+    "pause_gap": "Pause",
+    "learned_of": "learned",
+    "words": "words",
+    "no_words": "No words in this topic yet — content is being prepared.",
+    "select_topic": "Select a topic",
+    "back_to_topics": "All topics"
+  },
+  "dictionary": {
+    "letter_filter": "Type the first letters…",
+    "per_page": "Rows per page",
+    "page": "Page",
+    "prev": "Previous",
+    "next": "Next",
+    "play": "Play",
+    "loop": "Repeat",
+    "col_id": "File ID",
+    "col_audio": "Audio",
+    "play_single": "Play",
+    "check_all": "Mark all as learned",
+    "reset_page": "Reset page progress",
+    "chapter_progress": "Chapter progress",
+    "close_chapter": "Close chapter",
+    "open_chapter": "Open chapter",
+    "next_topic": "Next topic",
+    "prev_topic": "Previous topic"
   }
 }

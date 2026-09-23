@@ -3,8 +3,8 @@
 import type { Component } from 'vue'
 import {
   AcademicCapIcon,
-  BanknotesIcon,
-  BuildingLibraryIcon
+  BuildingLibraryIcon,
+  MicrophoneIcon
 } from '@heroicons/vue/24/outline'
 
 const { menu, menuLabel } = useNavigation()
@@ -13,8 +13,8 @@ const route = useRoute()
 
 const ICONS: Record<string, Component> = {
   'academic-cap': AcademicCapIcon,
-  banknotes: BanknotesIcon,
-  'building-library': BuildingLibraryIcon
+  'building-library': BuildingLibraryIcon,
+  microphone: MicrophoneIcon
 }
 
 function isActive(target: string): boolean {

@@ -7,7 +7,7 @@
  *   - flags present on all 9 interface languages
  * Exits non-zero on any failure (used by `run release` / `run validate`).
  */
-import { readFileSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import { join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -56,11 +56,18 @@ const menuIds = nav.menu.map((m) => m.id)
 
 const KNOWN_FLAGS = ['us', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
 const KNOWN_BRANDS = ['bluesky', 'discord', 'youtube', 'reddit']
+/** Menu icon slugs — each must map to a component in AppNav.vue `ICONS`. */
+const KNOWN_MENU_ICONS = ['academic-cap', 'building-library', 'microphone']
 
 if (langCount !== 9) ERRORS.push(`expected 9 languages, got ${langCount}`)
 for (const l of nav.languages) {
   if (!l.flag || !l.code || !l.locale) ERRORS.push(`language entry incomplete: ${JSON.stringify(l)}`)
   if (!KNOWN_FLAGS.includes(l.flag)) ERRORS.push(`language '${l.code}' has unknown flag code '${l.flag}' (expected one of ${KNOWN_FLAGS.join(', ')})`)
+}
+for (const m of nav.menu) {
+  if (!KNOWN_MENU_ICONS.includes(m.icon)) {
+    ERRORS.push(`menu '${m.id}' has unknown icon slug '${m.icon}' (expected one of ${KNOWN_MENU_ICONS.join(', ')})`)
+  }
 }
 for (const s of nav.social) {
   if (!KNOWN_BRANDS.includes(s.icon)) ERRORS.push(`social '${s.id}' has unknown brand icon '${s.icon}' (expected one of ${KNOWN_BRANDS.join(', ')})`)
@@ -128,6 +135,82 @@ try {
   console.log(`prices: ${prices.tiers?.length ?? 0} tiers · currency ${prices.currency ?? '?'}`)
 } catch (e) {
   ERRORS.push(`prices.json missing or unparseable: ${e.message}`)
+}
+
+/* ── gallery: sidebars ↔ config ↔ manifests ↔ legacy bridge ─────────────── */
+try {
+  const config = readJson('src/data/gallery.config.json')
+  const SECTION_PATHS = new Set(Object.values(config.sections ?? {}))
+  const localeCodesAll = nav.languages.map((l) => l.locale)
+
+  // ROOT-relative, forward-slash (mirrors gallery-index.mjs' rel()).
+  const rel = (p) => p.slice(ROOT.length).replaceAll('\\', '/').replace(/^\//, '')
+
+  const walkFiles = (dir, ext) =>
+    existsSync(dir)
+      ? readdirSync(dir, { withFileTypes: true }).flatMap((e) => {
+          const p = join(dir, e.name)
+          return e.isDirectory() ? walkFiles(p, ext) : e.name.endsWith(ext) ? [p] : []
+        })
+      : []
+
+  // Manifests (gallery/**.json), keyed by id.
+  const manifestIds = new Set()
+  for (const file of walkFiles('gallery', '.json')) {
+    const relPath = rel(file).replace(/^gallery\//, '')
+    const manifest = readJson(file)
+    if (!manifest.id) continue // non-manifest JSON (none expected)
+    manifestIds.add(manifest.id)
+    if (!manifest.lang || !localeCodesAll.includes(manifest.lang)) {
+      ERRORS.push(`gallery manifest ${relPath}: bad lang '${manifest.lang}'`)
+    }
+    if (!manifest.term || !manifest.names?.[manifest.lang]) {
+      ERRORS.push(`gallery manifest ${relPath}: missing term/names[${manifest.lang}]`)
+    }
+    const key = manifest.key ?? manifest.file
+    if (!key) {
+      // Pending manifests (status 'pending') legitimately have no key yet —
+      // the media file has not been produced/uploaded (TTS queue).
+      if (manifest.status !== 'pending') ERRORS.push(`gallery manifest ${relPath}: missing key/file`)
+    } else if (!SECTION_PATHS.has(key.split('/')[0] + '/')) {
+      ERRORS.push(`gallery manifest ${relPath}: key '${key}' outside every configured section path`)
+    }
+  }
+
+  // Sidebars: structure + item resolution (manifest or legacy entity).
+  const entities = new Set()
+  for (const file of walkFiles('public/data/entities', '.json')) {
+    for (const entity of readJson(file)) entities.add(entity.id)
+  }
+
+  const sidebarFiles = walkFiles('src/data/sidebars', '.json').filter((f) => f.endsWith('sidebar.json'))
+  const seenSections = new Set()
+  let itemCount = 0
+  for (const file of sidebarFiles) {
+    const sidebar = readJson(file)
+    if (seenSections.has(sidebar.id)) ERRORS.push(`duplicate sidebar id: ${sidebar.id}`)
+    seenSections.add(sidebar.id)
+    if (!config.sections?.[sidebar.id]) ERRORS.push(`config.sections missing '${sidebar.id}'`)
+    if (!sidebar.names?.en?.trim()) ERRORS.push(`sidebar ${sidebar.id}: missing names.en`)
+    for (const section of sidebar.sections ?? []) {
+      if (!section.names?.en?.trim()) ERRORS.push(`sidebar ${sidebar.id} · ${section.code}: missing names.en`)
+      for (const topic of section.topics ?? []) {
+        if (!topic.names?.en?.trim()) ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: missing names.en`)
+        for (const id of topic.items ?? []) {
+          itemCount++
+          if (!manifestIds.has(id) && !entities.has(id)) {
+            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: item '${id}' has no manifest and no legacy entity`)
+          }
+        }
+      }
+    }
+  }
+  for (const sectionId of Object.keys(config.sections ?? {})) {
+    if (!seenSections.has(sectionId)) ERRORS.push(`config.sections has no sidebar for '${sectionId}'`)
+  }
+  console.log(`gallery: ${sidebarFiles.length} sidebars · ${itemCount} items · ${manifestIds.size} manifests · config root ${config.root}`)
+} catch (e) {
+  ERRORS.push(`gallery model missing or unparseable: ${e.message}`)
 }
 
 /* ── report ───────────────────────────────────────────────────────────── */
