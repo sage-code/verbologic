@@ -1,20 +1,21 @@
-// AppHeader — row 1: logo left, controls (theme toggle, avatar, language
-// switcher) right. Below md the toolbar (AppNav) wraps onto its own
-// full-width second row instead of being squeezed between them.
+// AppHeader — single row at every width: logo left (smaller wordmark on
+// mobile), round icon-only nav pills next to it, user avatar right (theme
+// and interface language live in the account dialog).
 <script setup lang="ts">
 import earthLogoWhite from '~/assets/img/earth-logo-white.png'
 import earthLogoBlack from '~/assets/img/earth-logo-black.png'
 
 const { t } = useLocale()
 
-// Same useState key as <ThemeToggle />, so the mark swaps with the theme:
+// Same useState key as the account-dialog theme preference, so the mark
+// swaps with the theme:
 // white on the dark header surface, black on the light one.
 const theme = useState<'light' | 'dark'>('app-theme', () => 'light')
 const logoSrc = computed(() => (theme.value === 'dark' ? earthLogoWhite : earthLogoBlack))
 </script>
 
 <template>
-  <header class="sticky top-0 z-40 border-b border-edge bg-surface backdrop-blur">
+  <header class="sticky top-0 z-40 border-b border-edge bg-chrome backdrop-blur">
     <div class="app-container app-header-inner py-3">
       <NuxtLink to="/" class="flex shrink-0 items-center gap-2" :aria-label="`Verbologic — ${t('ui.home') ?? 'Home'}`">
         <!-- Monochrome transparent mark — white on dark theme, black on light. -->
@@ -27,23 +28,16 @@ const logoSrc = computed(() => (theme.value === 'dark' ? earthLogoWhite : earthL
           decoding="async"
           fetchpriority="high"
         >
-        <span class="hidden text-xl font-extrabold tracking-tight text-accent min-[420px]:inline">Verbologic</span>
+        <span class="text-accent app-header-wordmark">Verbologic</span>
       </NuxtLink>
 
-      <!-- Row 1 — brand left, controls right (ml-auto keeps them apart at
-           every width; space-between on the container does the rest). -->
-      <div class="ml-auto flex shrink-0 items-center gap-1.5 sm:gap-2">
-        <ThemeToggle />
-        <UserAvatar />
-        <LanguageSwitcher />
-      </div>
+      <!-- Round icon-only pills on mobile, icon+label from md up — always
+           inline on the single header row, after the wordmark. -->
+      <AppNav class="app-header-nav" />
 
-      <!-- Row 2 on <md: the toolbar gets a dedicated full-width row below the
-           brand/controls row. ≥md: back to the centered middle column of the
-           single-row header (intrinsic pill widths, labels visible). -->
-      <AppNav
-        class="order-last w-full md:order-none md:w-auto md:min-w-0 md:flex-1 md:justify-center md:px-2"
-      />
+      <div class="ml-auto flex shrink-0 items-center gap-1.5 sm:gap-2">
+        <UserAvatar />
+      </div>
     </div>
   </header>
 </template>

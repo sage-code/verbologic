@@ -196,10 +196,13 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     allTopics.value.filter((t: TopicRow) => topicCount(t.code) > 0)
   )
 
-  /** Chapters with at least one populated topic (the sidebar/TOC hide the rest). */
-  const visibleChapters = computed<SidebarSection[]>(() =>
+  /** Chapters with at least one populated topic (the default chapter pick). */
+  const populatedChapters = computed<SidebarSection[]>(() =>
     chapters.value.filter((c: SidebarSection) => c.topics.some((t: SidebarTopic) => topicCount(t.code) > 0))
   )
+
+  /** Every chapter of the track — empty ones render disabled, never hidden. */
+  const visibleChapters = computed<SidebarSection[]>(() => chapters.value)
 
   const topicIndex = computed(
     () =>
@@ -210,14 +213,12 @@ export const useRoadmapStore = defineStore('roadmap', () => {
       })
   )
 
-  /** Populated topics of the selected chapter, or fuzzy hits across all chapters. */
+  /** Topics of the selected chapter, or fuzzy hits across all chapters — empty
+   *  ones render disabled (content pending), never hidden. */
   const visibleTopics = computed<TopicRow[]>(() => {
     const query = topicQuery.value.trim()
-    if (!query) return populatedTopics.value.filter((t: TopicRow) => t.chapterCode === chapterCode.value)
-    return topicIndex.value
-      .search(query)
-      .map((hit: FuseResult<TopicRow>) => hit.item)
-      .filter((t: TopicRow) => topicCount(t.code) > 0)
+    if (!query) return allTopics.value.filter((t: TopicRow) => t.chapterCode === chapterCode.value)
+    return topicIndex.value.search(query).map((hit: FuseResult<TopicRow>) => hit.item)
   })
 
   /** Word rows of the open topic, filtered by the search box (term/gloss/tags). */
@@ -348,7 +349,7 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     } else if (chapterFromQuery && chapterExists(chapterFromQuery)) {
       selectChapter(chapterFromQuery)
     } else if (!chapterCode.value || !chapterExists(chapterCode.value)) {
-      chapterCode.value = visibleChapters.value[0]?.code ?? null
+      chapterCode.value = populatedChapters.value[0]?.code ?? visibleChapters.value[0]?.code ?? null
     }
   }
 

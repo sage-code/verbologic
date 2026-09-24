@@ -16,11 +16,14 @@ import {
   registerOtpFailure
 } from '~/lib/otpAttempts'
 import { EMAIL_CODE_ENABLED } from '~/config/auth'
+import type { LocaleCode } from '~/composables/useLocale'
+import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/vue/24/outline'
 import { EyeIcon, EyeSlashIcon } from '@heroicons/vue/20/solid'
 
 const route = useRoute()
 const copy = useCopy()
 const store = useUserStore()
+const { languages, languageName } = useNavigation()
 
 // ── Flow context ────────────────────────────────────────────────────────────
 // Resume target (?next=/pricing) — same-origin paths only (no open redirects).
@@ -60,6 +63,70 @@ const resendIn = computed(() => Math.max(0, Math.ceil((resendAt.value - now.valu
 // "Confirm email" must be OFF in the dashboard so signUp returns a session.
 const password = ref('')
 const showPassword = ref(false)
+
+// ── Two-page profile wizard (signed in) ─────────────────────────────────────
+// Page 1: avatar, name, native language, theme. Page 2: e-mail, phone,
+// password. Footer: Next on page 1; Save / Cancel + Previous (right) on 2.
+const page = ref<0 | 1>(0)
+const newPassword = ref('')
+const showNewPassword = ref(false)
+
+// Theme preference — same useState key as the header logo, persisted like
+// the old ThemeToggle (localStorage + dataset.theme on <html>).
+const theme = useState<'light' | 'dark'>('app-theme', () => 'light')
+function setTheme(next: 'light' | 'dark') {
+  theme.value = next
+  if (import.meta.client) {
+    document.documentElement.dataset.theme = next
+    localStorage.setItem('verbologic-theme', next)
+  }
+}
+
+// Native language preference — persisted locally and applied as the
+// interface locale too (this dialog replaced the header language switcher).
+const NATIVE_KEY = 'verbologic-native-language'
+const nativeLang = ref('')
+const { lang, setLocale } = useLocale()
+onMounted(() => {
+  nativeLang.value = localStorage.getItem(NATIVE_KEY) ?? lang.value
+})
+function setNativeLang(locale: string) {
+  nativeLang.value = locale
+  localStorage.setItem(NATIVE_KEY, locale)
+  void setLocale(locale as LocaleCode)
+}
+
+/** Save (page 2): commit name + optional new password, then close. */
+async function saveProfile() {
+  if (busy.value) return
+  busy.value = true
+  if (nameInput.value.trim() !== (store.user?.name ?? '')) {
+    const res = await store.updateDisplayName(nameInput.value.trim())
+    if (res.ok !== true) {
+      busy.value = false
+      fail(res)
+      return
+    }
+  }
+  if (newPassword.value.length >= 8) {
+    const res = await store.updatePassword(newPassword.value)
+    busy.value = false
+    if (fail(res)) return
+    newPassword.value = ''
+  } else {
+    busy.value = false
+  }
+  await closeDialog()
+}
+
+/** Cancel (page 2): discard drafts and close. */
+function cancelEdits() {
+  newPassword.value = ''
+  newEmail.value = ''
+  newPhone.value = ''
+  status.value = null
+  void closeDialog()
+}
 
 /** Dialog title follows the mode: Account (auth) / Profile (signed in). */
 const dialogTitle = computed(() =>
@@ -330,6 +397,7 @@ async function removeAvatar() {
 async function doSignOut() {
   await store.signOut()
   pending.value = 'none'
+  page.value = 0
   nameInput.value = ''
   status.value = null
 }
@@ -447,7 +515,12 @@ async function doSignOut() {
 
     <!-- ── Signed in: profile editing ─────────────────────────────────────── -->
     <div v-else class="space-y-6">
-      <h2 class="text-lg font-bold text-content">{{ copy('account.profile_title', 'Profile') }}</h2>
+      <h2 class="text-lg font-bold text-content">
+        {{ copy(page === 0 ? 'account.page_one_title' : 'account.page_two_title', page === 0 ? 'Profile & preferences' : 'Contact & security') }}
+      </h2>
+
+      <!-- ── Page 1: identity + preferences ───────────────────────────────── -->
+      <template v-if="page === 0">
 
       <!-- Avatar -->
       <div class="flex flex-wrap items-center gap-4">
@@ -507,6 +580,54 @@ async function doSignOut() {
           {{ copy('account.save', 'Save') }}
         </button>
       </div>
+
+      <!-- Native language (learning personalization) -->
+      <div class="border-t border-edge pt-4">
+        <label for="account-native" class="block text-sm font-medium text-muted">
+          {{ copy('account.settings_native_language', 'Native language') }}
+        </label>
+        <select
+          id="account-native"
+          :value="nativeLang"
+          class="mt-1 w-full rounded-xl border border-edge bg-body px-3 py-2 text-content outline-none focus:border-accent"
+          @change="setNativeLang(($event.target as HTMLSelectElement).value)"
+        >
+          <option value="" disabled>—</option>
+          <option v-for="l in languages" :key="l.locale" :value="l.locale">
+            {{ languageName(l.locale) }}
+          </option>
+        </select>
+      </div>
+
+      <!-- Theme preference (replaces the old header theme toggle) -->
+      <div class="border-t border-edge pt-4">
+        <p class="text-sm font-medium text-muted">{{ copy('account.settings_theme', 'Theme preference') }}</p>
+        <div class="mt-2 flex gap-2">
+          <button
+            v-for="option in (['light', 'dark'] as const)"
+            :key="option"
+            type="button"
+            class="rounded-full px-5 py-2 text-sm font-medium transition"
+            :class="theme === option ? 'bg-accent text-on-accent shadow-sm' : 'border border-edge text-muted hover:border-accent hover:text-accent'"
+            :aria-pressed="theme === option"
+            @click="setTheme(option)"
+          >
+            {{ copy(option === 'light' ? 'account.settings_theme_light' : 'account.settings_theme_dark', option === 'light' ? 'Light' : 'Dark') }}
+          </button>
+        </div>
+      </div>
+
+      <button
+        type="button"
+        class="rounded-full border border-edge px-5 py-2 text-sm font-medium text-muted transition hover:border-accent hover:text-accent"
+        @click="doSignOut"
+      >
+        {{ copy('account.sign_out', 'Sign out') }}
+      </button>
+      </template>
+
+      <!-- ── Page 2: contact + security ───────────────────────────────────── -->
+      <template v-else>
 
       <!-- E-mail (verified badge + change flow) -->
       <div class="space-y-2 border-t border-edge pt-4">
@@ -611,13 +732,33 @@ async function doSignOut() {
         </div>
       </div>
 
-      <button
-        type="button"
-        class="rounded-full border border-edge px-5 py-2 text-sm font-medium text-muted transition hover:border-accent hover:text-accent"
-        @click="doSignOut"
-      >
-        {{ copy('account.sign_out', 'Sign out') }}
-      </button>
+      <!-- Password change (page-2 Save commits it) -->
+      <div class="space-y-2 border-t border-edge pt-4">
+        <label for="account-new-password" class="block text-sm font-medium text-muted">
+          {{ copy('account.new_password_label', 'New password') }}
+        </label>
+        <div class="relative">
+          <input
+            id="account-new-password"
+            v-model="newPassword"
+            :type="showNewPassword ? 'text' : 'password'"
+            autocomplete="new-password"
+            :placeholder="copy('account.password_placeholder', '••••••••')"
+            class="w-full rounded-xl border border-edge bg-body px-3 py-2 pr-10 text-content outline-none focus:border-accent"
+          >
+          <button
+            type="button"
+            class="absolute right-2 top-1/2 -translate-y-1/2 rounded-full p-1 text-muted transition hover:text-accent"
+            :aria-label="copy(showNewPassword ? 'account.password_hide' : 'account.password_show', showNewPassword ? 'Hide password' : 'Show password')"
+            @click="showNewPassword = !showNewPassword"
+          >
+            <EyeSlashIcon v-if="showNewPassword" class="h-5 w-5" aria-hidden="true" />
+            <EyeIcon v-else class="h-5 w-5" aria-hidden="true" />
+          </button>
+        </div>
+        <p class="text-xs text-faint">{{ copy('account.password_change_hint', 'Leave empty to keep your current password.') }}</p>
+      </div>
+      </template>
     </div>
 
     <!-- Status / error line (announced to screen readers) -->
@@ -652,6 +793,45 @@ async function doSignOut() {
       >
         {{ copy(tab === 'register' ? 'account.tab_signin' : 'account.tab_register', tab === 'register' ? 'Sign in' : 'Create account') }}
       </button>
+    </template>
+
+    <!-- Bottom bar (signed in): Next on page 1; Save + Cancel with Previous
+         pushed to the right on page 2. -->
+    <template v-else #footer>
+      <button
+        v-if="page === 0"
+        type="button"
+        class="flex flex-1 items-center justify-center gap-2 rounded-full bg-accent px-4 py-2.5 text-sm font-semibold text-on-accent transition hover:bg-accent-strong"
+        @click="page = 1"
+      >
+        {{ copy('account.next', 'Next') }}
+        <ArrowRightIcon class="h-4 w-4" aria-hidden="true" />
+      </button>
+      <template v-else>
+        <button
+          type="button"
+          class="flex-1 rounded-full bg-accent px-4 py-2.5 text-sm font-semibold text-on-accent transition hover:bg-accent-strong disabled:cursor-not-allowed disabled:opacity-40"
+          :disabled="busy || (newPassword.length > 0 && newPassword.length < 8)"
+          @click="saveProfile"
+        >
+          {{ copy('account.save', 'Save') }}
+        </button>
+        <button
+          type="button"
+          class="flex-1 rounded-full border border-edge px-4 py-2.5 text-sm font-medium text-content transition hover:border-accent hover:text-accent"
+          @click="cancelEdits"
+        >
+          {{ copy('account.cancel', 'Cancel') }}
+        </button>
+        <button
+          type="button"
+          class="ml-auto flex items-center gap-2 rounded-full border border-edge px-4 py-2.5 text-sm font-medium text-muted transition hover:border-accent hover:text-accent"
+          @click="page = 0"
+        >
+          <ArrowLeftIcon class="h-4 w-4" aria-hidden="true" />
+          {{ copy('account.previous', 'Previous') }}
+        </button>
+      </template>
     </template>
   </AppDialog>
 </template>

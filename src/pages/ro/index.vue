@@ -14,7 +14,7 @@ const toggleUi = () => void setLocale(uiLang.value === 'en' ? 'ro' : 'en')
 </script>
 
 <template>
-  <main class="mx-auto max-w-6xl px-6 py-4">
+  <main class="flex min-w-0 flex-1 flex-col">
     <header class="flex items-center justify-between gap-3">
       <div class="min-w-0">
         <h1 class="text-2xl font-bold text-content">{{ copy('roadmap.ro_title', 'Romanian Roadmap') }}</h1>
@@ -35,7 +35,7 @@ const toggleUi = () => void setLocale(uiLang.value === 'en' ? 'ro' : 'en')
       </button>
     </header>
 
-    <section class="mt-3">
+    <section class="mt-3 flex flex-1 flex-col">
       <RoadmapShell lang="ro" />
     </section>
   </main>

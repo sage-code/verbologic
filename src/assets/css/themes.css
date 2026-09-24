@@ -8,17 +8,18 @@
 
 :root {
   color-scheme: light;
-  --color-body: #f8fafc;          /* page background (slate-50) */
-  --color-surface: #ffffff;       /* cards / header / footer */
-  --color-surface-soft: #f1f5f9;  /* toolbar pill resting state */
-  --color-content: #0f172a;       /* primary text (slate-900) */
-  --color-muted: #64748b;         /* secondary text (slate-500) */
-  --color-faint: #94a3b8;         /* tertiary text (slate-400) */
-  --color-edge: #e2e8f0;          /* borders (slate-200) */
-  --color-edge-strong: #cbd5e1;   /* input borders (slate-300) */
+  --color-body: #e9edf3;          /* page background — soft gray, not white */
+  --color-surface: #fbfcfe;       /* cards — near-white, lifted off the body */
+  --color-chrome: #dfe6f3;        /* header / footer — pastel blue-gray band */
+  --color-surface-soft: #e9edf4;  /* toolbar pill resting state */
+  --color-content: #1c2433;       /* primary text */
+  --color-muted: #5d6b82;         /* secondary text */
+  --color-faint: #93a0b4;         /* tertiary text */
+  --color-edge: #d7dee9;          /* borders */
+  --color-edge-strong: #c0cad9;   /* input borders */
   --color-accent: #3b6ee0;        /* brand accent (brand-600) */
   --color-accent-strong: #2f5bc4; /* pressed accent (brand-700) */
-  --color-accent-soft: #eef4ff;   /* tinted accent wash (brand-50) */
+  --color-accent-soft: #e6eeff;   /* tinted accent wash */
   --color-on-accent: #ffffff;     /* text/icon on accent backgrounds */
 }
 
@@ -26,6 +27,7 @@
   color-scheme: dark;
   --color-body: #0b1120;
   --color-surface: #131c31;
+  --color-chrome: #101a2e;
   --color-surface-soft: #1d2942;
   --color-content: #e2e8f0;
   --color-muted: #94a3b8;

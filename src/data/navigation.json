@@ -12,24 +12,25 @@
   ],
   "menu": [
     { "id": "method", "icon": "academic-cap", "route": "/method", "order": 0 },
-    { "id": "library", "icon": "building-library", "route": "/library", "order": 1 },
-    { "id": "practice", "icon": "microphone", "route": "/practice", "order": 2 }
+    { "id": "profile", "icon": "user", "route": "/profile", "order": 1 },
+    { "id": "library", "icon": "building-library", "route": "/library", "order": 2 },
+    { "id": "practice", "icon": "microphone", "route": "/practice", "order": 3 }
   ],
   "menuLabels": {
-    "en": { "method": "Method", "library": "Library", "practice": "Practice" },
-    "ro": { "method": "Metodă", "library": "Bibliotecă", "practice": "Exersare" },
-    "de": { "method": "Methode", "library": "Bibliothek", "practice": "Übung" },
-    "ru": { "method": "Метод", "library": "Библиотека", "practice": "Практика" },
-    "it": { "method": "Metodo", "library": "Libreria", "practice": "Pratica" },
-    "es": { "method": "Método", "library": "Biblioteca", "practice": "Práctica" },
-    "fr": { "method": "Méthode", "library": "Bibliothèque", "practice": "Pratique" },
-    "hu": { "method": "Módszer", "library": "Könyvtár", "practice": "Gyakorlás" },
-    "pt": { "method": "Método", "library": "Biblioteca", "practice": "Prática" }
+    "en": { "method": "Method", "profile": "Profile", "library": "Library", "practice": "Practice" },
+    "ro": { "method": "Metodă", "profile": "Profil", "library": "Bibliotecă", "practice": "Exersare" },
+    "de": { "method": "Methode", "profile": "Profil", "library": "Bibliothek", "practice": "Übung" },
+    "ru": { "method": "Метод", "profile": "Профиль", "library": "Библиотека", "practice": "Практика" },
+    "it": { "method": "Metodo", "profile": "Profilo", "library": "Libreria", "practice": "Pratica" },
+    "es": { "method": "Método", "profile": "Perfil", "library": "Biblioteca", "practice": "Práctica" },
+    "fr": { "method": "Méthode", "profile": "Profil", "library": "Bibliothèque", "practice": "Pratique" },
+    "hu": { "method": "Módszer", "profile": "Profil", "library": "Könyvtár", "practice": "Gyakorlás" },
+    "pt": { "method": "Método", "profile": "Perfil", "library": "Biblioteca", "practice": "Prática" }
   },
   "social": [
-    { "id": "bluesky", "label": "Bluesky", "url": "https://bsky.app/profile/verbologic.com", "icon": "bluesky" },
-    { "id": "discord", "label": "Discord", "url": "https://discord.gg/verbologic", "icon": "discord" },
-    { "id": "youtube", "label": "YouTube", "url": "https://youtube.com/@verbologic", "icon": "youtube" },
-    { "id": "reddit", "label": "Reddit", "url": "https://reddit.com/r/verbologic", "icon": "reddit" }
+    { "id": "bluesky", "label": "Bluesky", "url": "https://bsky.app/profile/elucian.bsky.social", "icon": "bluesky" },
+    { "id": "discord", "label": "Discord", "url": "https://discord.gg/wqaZzgvgDg", "icon": "discord" },
+    { "id": "youtube", "label": "YouTube", "url": "https://youtube.com/@sage-code", "icon": "youtube" },
+    { "id": "reddit", "label": "Reddit", "url": "https://www.reddit.com/r/SelfStudyLanguages/", "icon": "reddit" }
   ]
 }

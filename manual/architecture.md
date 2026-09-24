@@ -40,75 +40,148 @@
 
 ---
 
+### Layout Standard — Responsive App Frame (content pages)
+
+Every content page (Dictionary · Lectures · Stories — the RoadmapShell tracks)
+follows ONE layout standard; **practice pages are excluded** (their layout is
+designed later). All rules live in `src/assets/css/layout.css`; the shell is
+`src/app.vue` (`.app-backdrop`) → `src/layouts/default.vue` (`.app-frame`:
+header → `.app-main` → footer).
+
+- **Frozen header and footer** — `AppHeader` is `sticky top-0`, `AppFooter` is
+  `sticky bottom-0` (one compact row). The frame is at least one viewport
+  tall, so the footer is always at the bottom of the screen; the page content
+  scrolls between them (window scroll — sticky table heads and
+  `scrollIntoView` keep working; `scroll-padding` keeps targets clear of the
+  bars).
+- **Page fills the frame** — `.app-main` is a flex column whose child grows;
+  the content pages and the RoadmapShell grid are `flex-1`, so a page is never
+  shorter than the space between header and footer.
+- **Device / orientation matrix** (gutters are `--gutter-x` / `--gutter-y`,
+  shared by header, page and footer):
+
+  | Screen | Media query | Frame |
+  | --- | --- | --- |
+  | Mobile portrait | default (< 768px) | full width, no margins, 12px gutters |
+  | Mobile landscape | `landscape and max-height: 540px` | full width, compact vertical rhythm |
+  | Tablet portrait | `min-width: 768px and portrait` | full width, no margins, 16px gutters |
+  | Tablet / laptop landscape | `min-width: 768px and landscape` | full width, 24px gutters |
+  | Desktop portrait (27" target) | `min-width: 1200px and portrait` | full width, no margins, 24px gutters |
+  | Desktop landscape (large) | `landscape and min-width: 1600px and min-height: 1000px` | **portrait-ratio frame** (`--frame-ratio: 3/4` of the screen height), centered; the side margins stay unused top to bottom; header and footer live **inside** the frame |
+
+  Portrait never has outer margins — the frame runs edge to edge.
+- **The sidebar (chapter rail) is exactly as tall as the page content** —
+  `RoadmapSidePane.vue` + `src/lib/roadmapRail.ts` own the ONE height rule:
+  the grid stretches the rail cell to the content column; the rail panel is
+  absolutely positioned inside it (`lg:absolute lg:inset-0`), so the chapter
+  list never drives the row height. Never shorter than the content; a list
+  longer than the content scrolls inside the rail with its own scrollbar.
+  Below `lg` the rail stacks above the content at its natural height.
+- **Chapter fold** — clicking a chapter selects and expands it; double-clicking
+  the selected chapter folds/unfolds its topics (`RoadmapSidebar.vue`).
+
+---
+
 ### Project Repository Structure
 
 ```
 verbologic/
-├── .github/workflows/
-│   └── deploy-media.yml       # Syncs local /media folder to R2 via Wrangler
-├── content/                   # MD/MDX files for structured lessons & comics
-│   ├── es/
-│   │   ├── travel-basics.md
-│   │   └── restaurant-ordering.md
-│   └── ro/
-├── public/
-│   └── data/                  # Decoupled Static JSON Files (O(N))
-│       ├── expressions_en.json
-│       ├── expressions_es.json
-│       ├── quizzes_es.json
-│       └── locales/           # Translation dictionaries
-│           ├── en.json
-│           ├── es.json
-│           └── ro.json
+├── content/                   # MD docs — lectures & stories (Nuxt Content)
+│   └── lectures/<trackLang>/<TOPIC>/<ID>/<locale>.md   # EN canonical for lectures
+├── media/                     # the media REPOSITORY (mp3/mp4/webp stay out of Git)
+│   └── audio/<lang>/<TOPIC>/<ID>.mp3 + sibling <ID>.json manifest
+│       (manifest = term/names/ipa + file facts; status 'pending' = no file yet)
+├── public/data/               # decoupled static data (O(N))
+│   ├── entities/              # legacy entities (transitional bridge)
+│   ├── media/                 # GENERATED runtime payloads (scripts/media-index.mjs)
+│   │   ├── index.json         # counts + progress ids per section/topic/lang
+│   │   └── <section>/<TOPIC>.json + <section>/search.json
+│   └── locales/               # UI translation dictionaries (en.json, ro.json)
 ├── src/
-│   ├── components/
-│   │   ├── ExpressionSearch.vue  # Instant client filter & audio player
-│   │   ├── QuizEngine.vue        # State machine for quizzes & milestones
-│   │   ├── MediaViewer.vue       # R2 video/image/audio unified player
-│   │   └── ContrastiveNote.vue   # L1-specific phonetics/grammar popup
-│   ├── stores/
-│   │   ├── userStore.ts          # Pinia store syncing LocalStorage <-> Supabase
-│   │   └── searchStore.ts        # In-memory search index cache
-│   └── lib/
-│       ├── supabaseClient.ts     # Supabase init & helper methods
-│       └── searchEngine.ts       # Orama/Fuse index builder
-├── wrangler.toml              # Workers Static Assets + custom domain routes
-└── nuxt.config.ts / vite.config.ts
+│   ├── components/roadmap/    # RoadmapShell + topic layouts (TopicTable/Article/Gallery)
+│   ├── composables/           # useSidebars · useProgress · useAudioQueue · useMedia
+│   ├── data/
+│   │   ├── sidebars/**/       # STRUCTURE layer: sections → topics → item ids + layout
+│   │   ├── media.config.json  # R2 root + section → repository path
+│   │   └── navigation.json · language-names.json
+│   ├── pages/                 # /learn/<locale>/<track> (+ prerendered lecture routes)
+│   ├── stores/                # roadmapStore · userStore (Pinia)
+│   └── types/                 # media.ts · sidebars.ts
+├── scripts/                   # validate-data · media-index · media-sync · archive-topics · missing-content …
+├── run                        # maintenance runner: build · validate · missing · media · release …
+├── supabase/                  # schema.sql (RLS profiles/progress)
+└── nuxt.config.ts
+```
+
+---
+
+### Content Lifecycle — Structure-First Design (Publishing with Unresolved References)
+
+The project is built **structure-first**: the design layer is authored before the
+content it references, and the website is published while part of that content
+does not exist yet. **Unresolved references are expected, by design — they are
+"planned items", not bugs — and no build step, script or CI job may fail because
+of them.** This is what makes it possible to plan the missing content and fill
+it in incrementally.
+
+**The three layers**
+
+| Layer | Where | Who writes it |
+| --- | --- | --- |
+| Structure | `src/data/sidebars/**/sidebar.json` (+ per-topic `layout`, `topic-map.json.planned`) | hand-authored, build-inlined |
+| Repository | `media/<sectionPath>/<lang>/<TOPIC>/<ID>.mp3` + sibling `<ID>.json` manifest | content work (on the go) |
+| Payloads | `public/data/media/**` (index · per-topic · search) | generated by `scripts/media-index.mjs` before every build |
+
+**How an unresolved reference manifests in the published site**
+
+| Situation | What the user sees |
+| --- | --- |
+| Sidebar id with no manifest / entity / doc yet | no row — the topic counts only what exists |
+| Pending manifest (`status: "pending"`, no file) | a **visible, disabled row** — "Audio coming soon" (`media.url: null`) |
+| Empty topic / chapter (no records) | hidden from the sidebar & TOC (`populatedTopics` / `visibleChapters`), but deep links still resolve |
+| Legacy-bridge row whose mp3 is not on R2 | the **only real broken link** (play → 404); `run media verify --remote` reports it — upload to fix |
+
+**The on-the-go loop (fill missing content whenever you like)**
 
 ```
+run missing                                  # what is missing, per topic (temp/missing-content.md)
+# author a seed: [{ "term": "carte", "names": { "en": "book" } }, …]
+run scaffold ro C9T01 temp/seed-c9t01.json   # pending manifests + sidebar items → visible "coming soon" rows
+# drop the mp3s into media/audio/ro/C9T01/
+run media manifest                           # promotes pending → published (key/sha1/bytes)
+run media upload --apply                     # R2 sync
+run build                                    # rows go live
+```
+
+**Validation contract** (`scripts/validate-data.mjs`, `scripts/media-index.mjs`)
+
+- **Hard errors** (real corruption — must fail): duplicate ids, bad entity
+  `type`/`lang`, malformed audio URLs, unknown `layout` value, manifest missing
+  term/`names[lang]` or a `key` outside every configured section path,
+  `config.sections` ↔ sidebar mismatches, nav/locale/prices/language-names
+  inconsistencies, and content that EXISTS but is of the wrong kind for its
+  topic's layout (`table` holding a doc or an image, `article` holding a
+  non-video manifest, `gallery` holding a non-image manifest).
+- **Never an error** (planned content): a referenced id with no manifest/entity/doc;
+  a content doc whose sidebar topic/items have not landed; a pinned id without a
+  manifest. These are inventoried by `run missing` and reported as an
+  informational count (`planned: …` / `missing content: …`).
+
+---
 
 ---
 
 ### Media Pipeline (Cloudflare R2)
 
-Do **not** commit media files into Git. Keep media in a dedicated local working directory and sync it to R2 during CI/CD.
+Media files (mp3/mp4/webp) stay out of Git; the JSON manifests under `media/`
+ARE committed. Sync to R2 with the differential uploader — `run media upload
+--apply` (Cloudflare API; `run media verify --remote` reports missing/orphan
+objects before you push).
 
 ```
-Local Asset:  /media/audio/es/correr.mp3
-R2 Bucket:    verbologic-media/audio/es/correr.mp3
-Public URL:   https://media.verbologic.com/audio/es/correr.mp3
-
-```
-
-#### R2 Sync Deployment Command (`.github/workflows/deploy-media.yml`)
-
-```yaml
-name: Sync Media to R2
-on:
-  push:
-    paths:
-      - 'media/**'
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Publish to Cloudflare R2
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          command: r2 object sync ./media r2://verbologic-media --delete
-
+Local repo:   media/audio/ro/C3T02/word_carte.mp3 + word_carte.json (manifest: key/bytes/sha1)
+R2 Bucket:    verbologic-media/audio/ro/C3T02/word_carte.mp3
+Public URL:   https://media.verbologic.com/audio/ro/C3T02/word_carte.mp3
 ```
 
 ---

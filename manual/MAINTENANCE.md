@@ -180,6 +180,17 @@ on R2"*, so there is no separate ledger step and no ordering trap.
 the topic folder → `run media manifest` (promotes it to published) →
 `run media upload --apply`.
 
+**Structure-first policy.** The sidebars (the design layer) may reference ids
+whose content does not exist yet — those are **planned items, expected by
+design, and the site is published with them**. No script may fail on them:
+`run validate` and `run media index` report them as an informational count, and
+`run missing` writes the full backlog (empty topics, planned ids per topic, the
+`topic-map.json.planned` archive source, pins/docs gaps) to
+`temp/missing-content.md`. Fill content on the go: author a seed →
+`run scaffold <lang> <TOPIC> <seed.json>` → drop the mp3s → `run media
+manifest` → `run media upload --apply` → `run build`. See
+**architecture.md → "Content Lifecycle — Structure-First Design"**.
+
 ### 3.4 Lectures & stories (Nuxt Content — live)
 
 The authoring layer is **Nuxt Content v3** (`@nuxt/content`, collection schemas in
@@ -357,18 +368,27 @@ automatically (the menu link is crawled from every page's header).
 
 | Concern | File | Manual edit |
 | --- | --- | --- |
-| App shell order | `src/layouts/default.vue` | header → container(nav+page) → footer; `flex` column, min-h-screen |
-| Header bar | `src/components/AppHeader.vue` | logo SVG, wordmark, `<LanguageSwitcher/>` |
+| App shell order | `src/app.vue` + `src/layouts/default.vue` | `.app-backdrop` → `.app-frame` (header → `.app-main` → footer; flex column, ≥ 100dvh) |
+| Header bar | `src/components/AppHeader.vue` | logo SVG, wordmark, `<LanguageSwitcher/>`; frozen `sticky top-0` |
 | Toolbar | `src/components/AppNav.vue` | pill markup, active-state classes |
 | Language dropdown | `src/components/LanguageSwitcher.vue` | dropdown trigger + option list |
-| Footer | `src/components/AppFooter.vue` | social row + copyright |
-| **Responsive rules** | `src/assets/css/layout.css` | `.app-container` (1400px cap), `.nav-pill` (rounded below 640px), portrait/landscape `@media` |
+| Footer | `src/components/AppFooter.vue` | one compact row: social links + copyright; frozen `sticky bottom-0` |
+| **Responsive rules** | `src/assets/css/layout.css` | `.app-frame` per device/orientation, `--gutter-x/-y`, `--frame-ratio`, `.nav-pill` (segmented below 768px) |
 | Palette / theme | `tailwind.config.ts` | `theme.extend.colors.brand` + content globs |
 | Base + utility styles | `src/assets/css/tailwind.css` | Tailwind directives only |
 
 ### Key responsive rules (in `layout.css`)
-- `.app-container` — `max-width: 1400px; margin-inline: auto`; gutters 16px on
-  mobile → 24px ≥641px → 32px ≥1440px.
+- **App frame standard (content pages)** — see architecture.md "Layout
+  Standard — Responsive App Frame" for the full device/orientation matrix.
+  In short: portrait (mobile, tablet, desktop/27") = full width, no outer
+  margins; tablet/laptop landscape = full width; large desktop landscape
+  (≥1600×1000) = a centered **portrait-ratio** frame (`--frame-ratio`, 3/4 of
+  the screen height) with the side margins unused top to bottom and the
+  header/footer inside the frame. Header and footer are frozen (sticky); the
+  page scrolls between them. Practice pages are excluded (designed later).
+- `.app-main` — the page area: flex column, its child grows (`flex: 1`), so
+  content pages always fill the space between header and footer.
+- `.app-container` — header/footer inner row; `padding-inline: var(--gutter-x)`.
 - `.app-header-inner` — `flex-wrap: wrap; row-gap: 10px`. Row 1 = brand (left) +
   controls (right); below 768px the `<AppNav>` toolbar wraps onto a dedicated
   full-width second row instead of squeezing between them.
@@ -376,14 +396,20 @@ automatically (the menu link is crawled from every page's header).
   turns the toolbar into a full-width segmented bar: equal-width buttons,
   icon + localized label that truncates (`text-overflow: ellipsis`). Below
   360px labels hide entirely (icon-only; `title`/`aria-current` remain).
-- `@media (orientation: landscape) and (max-height: 540px)` — compacts header/nav
-  vertical rhythm for short screens.
+- `@media (orientation: landscape) and (max-height: 540px)` — compacts header,
+  footer and page vertical rhythm for short screens (mobile landscape).
 
 ### How to change the look (typical tasks)
-- **Center content tighter/looser:** edit `.app-container` `max-width` (default 1400px).
+- **Gutters wider/tighter:** edit `--gutter-x` / `--gutter-y` in the matching
+  device block of `layout.css`.
+- **Landscape frame wider/narrower:** edit `--frame-ratio` (default `3 / 4`);
+  the breakpoint where the frame kicks in is the
+  `landscape and (min-width: 1600px) and (min-height: 1000px)` block.
 - **Colors:** `tailwind.config.ts` → `brand` palette; components use `brand-600/700`.
 - **Reorder toolbar:** change `order` in `navigation.json` — no CSS involved.
-- **Sticky header:** it's already `sticky top-0` in `AppHeader.vue`.
+- **Sticky header/footer:** `sticky top-0` in `AppHeader.vue`, `sticky bottom-0`
+  in `AppFooter.vue`; `scroll-padding-top/bottom` in `layout.css` must match
+  their heights.
 
 ---
 
@@ -395,7 +421,8 @@ automatically (the menu link is crawled from every page's header).
 | `run dev` | Nuxt dev server, http://localhost:3000 |
 | `run build` | **differential build** — only regenerates when source/content hashes changed |
 | `run build --force` | ignore the hash gate and rebuild |
-| `run validate` | entity/nav/locale integrity checks |
+| `run validate` | entity/nav/locale integrity checks — missing content is **never** an error (see §3.3 / architecture.md) |
+| `run missing` | missing-content inventory → `temp/missing-content.md`: empty topics, planned ids, planned sources, pins/docs gaps |
 | `run media …` | stage / manifest / verify / upload audio |
 | `run lecture <new\|status\|translate\|review>` | lecture content tooling (content/lectures — see §3.4) |
 | `run clean` | remove build junk, keep `.nuxt` (fast next build) |
@@ -548,11 +575,11 @@ filtered" queue), `article` (content doc cards → prerendered pages) or
 | Concern | File |
 | --- | --- |
 | Frame | `src/components/roadmap/RoadmapShell.vue` — store init, `?chapter=&topic=` deep links, one `useProgress` instance provided to the tree (`PROGRESS_KEY`), the credit/chapter meters (`#track-meters` teleport), the Chapters TOC toggle; the open topic's pane = `TOPIC_LAYOUTS[store.topicLayout]` (`track` prop only selects the sidebar section, default `'dictionary'`) |
-| Topic layouts | `roadmap/layouts/TopicTable.vue` (table topics: toolbar + paginated file table — File ID · name · translation · per-row play (blinks) · learned toggle; prefix/translation search, rows-per-page, prev/next, global "play page" (▶ → ■ while running), loop toggle; row click stops autoplay; the list scrolls to the playhead) · `roadmap/layouts/TopicArticle.vue` (article topics: the topic's content docs as cards → prerendered article pages; strictly prose — no practice rows) · `roadmap/layouts/TopicGallery.vue` (gallery topics: image cards — image · term · gloss · learned toggle) · `roadmap/ChaptersTable.vue` (the chapters TOC table, shared by every track) |
-| Layout invariants | ONE topic = ONE layout, declared as `layout` on the sidebar topic (`src/types/sidebars.ts` `TopicLayout`); enforced by `scripts/validate-data.mjs`: `table` → non-image records only, never a doc · `article` → content docs only (a video manifest for its own embedded video is allowed) · `gallery` → image manifests only. Mixed topics are split (e.g. lectures C1T01 = the 104 letter rows, C1T01A = the alphabet article) |
-| Chapter rail | `roadmap/RoadmapSidePane.vue` + `src/lib/roadmapRail.ts` — **one** height rule for every track: self-sized panel (`self-start` cancels the grid stretch), sticky under the header (`lg:sticky lg:top-14` — the same token as the sticky table heads), viewport-capped (`lg:max-h-[calc(100dvh-5rem)]`) with the chapter list scrolling inside (`lg:overflow-y-auto lg:overscroll-contain`); page content always keeps the browser scroll |
-| Selection / filter / search state | `src/stores/roadmapStore.ts` — **track-aware** (`SECTION_BY_TRACK`, `init(lang, track, …)`; sidebar/counts/payload caches reset per track+lang), `topicLayout` (the open topic's pane kind), Fuse topic search, word filter, empty scaffolding hidden (`populatedTopics` / `visibleChapters`), learned counts via `progress-index.json` |
-| Runtime data | `public/data/media/**` — built by `scripts/media-index.mjs` (`run media index`; runs automatically at the start of every `run build`; `media/**` is a fingerprint input). Content-only article ids (no manifest) get a synthesized record (`kind: 'article'`) so the topic never counts zero |
+| Topic layouts | `roadmap/layouts/TopicTable.vue` (table topics: toolbar + paginated file table — name (File ID remains a hidden sr-only field) · translation · per-row play (blinks) · learned toggle; prefix/translation search, rows-per-page, prev/next, global "play page" (▶ → ■ while running), loop toggle; row click stops autoplay; the list scrolls to the playhead) · `roadmap/layouts/TopicArticle.vue` (article topics: the topic's content docs as cards → prerendered article pages; strictly prose — no practice rows) · `roadmap/layouts/TopicGallery.vue` (gallery topics: image cards — image · term · gloss · learned toggle) · `roadmap/ChaptersTable.vue` (the chapters TOC table, shared by every track) |
+| Layout invariants | ONE topic = ONE layout, declared as `layout` on the sidebar topic (`src/types/sidebars.ts` `TopicLayout`); enforced by `scripts/validate-data.mjs` — but only for content that EXISTS (wrong-kind items fail; missing/planned content is inventoried by `run missing`, never fatal): `table` → non-image records only, never a doc · `article` → content docs only (a video manifest for its own embedded video is allowed) · `gallery` → image manifests only. Mixed topics are split (e.g. lectures C1T01 = the 104 letter rows, C1T01A = the alphabet article) |
+| Chapter rail | `roadmap/RoadmapSidePane.vue` + `src/lib/roadmapRail.ts` — **one** height rule for every track: the rail is EXACTLY as tall as the page content — the RoadmapShell grid (`flex-1`, fills the page area) stretches the rail cell to the content column; the rail panel is absolutely positioned inside it (`lg:absolute lg:inset-0`) so the chapter list never drives the row height; a list longer than the content scrolls inside the rail with its own scrollbar (`lg:overflow-y-auto lg:overscroll-contain`); the page content keeps the browser scroll. Double-clicking the selected chapter folds/unfolds its topics (`RoadmapSidebar.vue`) |
+| Selection / filter / search state | `src/stores/roadmapStore.ts` — **track-aware** (`SECTION_BY_TRACK`, `init(lang, track, …)`; sidebar/counts/payload caches reset per track+lang), `topicLayout` (the open topic's pane kind), Fuse topic search, word filter, empty scaffolding rendered **disabled** (`populatedTopics` / `populatedChapters` drive walking + the default chapter; `visibleChapters` / `visibleTopics` show everything — contentless chapters/topics are disabled with a "coming soon" title), learned counts via `progress-index.json` |
+| Runtime data | `public/data/media/**` — built by `scripts/media-index.mjs` (`run media index`; runs automatically at the start of every `run build`; `media/**` is a fingerprint input). Content-only article ids (no manifest) get a synthesized record (`kind: 'article'`) so the topic never counts zero; a sidebar id with NO content at all is a planned item — no record, reported, never fatal |
 | Structure (sidebars) | `src/data/sidebars/**/sidebar.json` + `src/composables/useSidebars.ts` — sections → topics → **item ids** + localized names + per-topic `layout`; build-inlined (navigation.json pattern), never fetched |
 | Location config | `src/data/media.config.json` — R2 `root` + one path per sidebar section; media URL = `root + path + file` |
 | Repository | `media/` — media files under `<type>/<lang>/<TOPIC>/`, each with its own sibling `<ID>.json` manifest (item text: term/names/ipa/kind + file facts: file/key/mime/bytes/sha1/status; `pending` = media not yet produced — renders "coming soon") |

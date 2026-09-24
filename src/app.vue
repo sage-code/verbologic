@@ -1,6 +1,8 @@
-// Root Vue entry — mounts the page router with a global loading bar.
+// Root Vue entry — mounts the page router with a global loading bar. The
+// backdrop is only visible as the unused margins beside the portrait-ratio
+// frame on large landscape screens (layout.css).
 <template>
-  <div class="min-h-screen bg-body text-content antialiased">
+  <div class="app-backdrop text-content antialiased">
     <NuxtLoadingIndicator color="#3b6ee0" />
     <NuxtLayout>
       <NuxtPage />

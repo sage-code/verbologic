@@ -43,6 +43,8 @@ interface TitleRow {
   name: string
   translation: string
   progress: string
+  /** No topic has content in the active language — row renders disabled. */
+  disabled: boolean
   open: () => void
 }
 
@@ -53,6 +55,7 @@ const titleRows = computed<TitleRow[]>(() =>
     name: targetName(c.names, c.code),
     translation: uiName(c.names, c.code),
     progress: `${chapterLearned(c)}/${chapterTotal(c)}`,
+    disabled: chapterTotal(c) === 0,
     open: () => store.selectChapter(c.code)
   }))
 )
@@ -128,8 +131,10 @@ async function toggleScopeLearned() {
           <tr
             v-for="row in titleRows"
             :key="row.key"
-            class="cursor-pointer border-t border-edge transition-colors hover:bg-soft"
-            @click="row.open()"
+            class="border-t border-edge transition-colors"
+            :class="row.disabled ? 'cursor-not-allowed opacity-40' : 'cursor-pointer hover:bg-soft'"
+            :title="row.disabled ? copy('practice.coming_soon', 'Coming soon') : undefined"
+            @click="!row.disabled && row.open()"
           >
             <td class="whitespace-nowrap px-3 py-2 font-code text-xs text-faint">{{ row.code }}</td>
             <td class="px-3 py-2 font-medium text-content">{{ row.name }}</td>

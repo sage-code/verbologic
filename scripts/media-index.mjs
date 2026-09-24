@@ -16,6 +16,11 @@
  * media.verbologic.com/audio/<lang>/<id>.mp3). As TTS / media-native content
  * lands, manifests appear and the bridge stops applying to them.
  *
+ * Structure-first policy (manual/architecture.md): the sidebars — the design
+ * layer — MAY reference ids whose content has not been created yet. Such a
+ * PLANNED id produces no record (the topic counts only what exists) and is
+ * reported, never fatal. The full inventory: `run missing`.
+ *
  *   node scripts/media-index.mjs              build (idempotent)
  *   node scripts/media-index.mjs --dry-run    print the plan, write nothing
  *
@@ -147,6 +152,7 @@ function legacyRecord(entity, section, topic) {
 }
 
 const errors = []
+let planned = 0 // ids referenced by a sidebar whose content does not exist yet
 const recordsBySectionTopic = new Map() // `${section}\n${topic}` -> records[]
 
 for (const sidebar of sidebars) {
@@ -171,7 +177,8 @@ for (const sidebar of sidebars) {
           records.push(legacyRecord(entity, sidebar.id, topic.code))
           continue
         }
-        errors.push(`${sidebar.id} · ${topic.code}: item '${id}' has no manifest and no legacy entity`)
+        // PLANNED item — content not created yet; no record, never fatal.
+        planned++
       }
       if (records.length > 0) recordsBySectionTopic.set(`${sidebar.id}\n${topic.code}`, records)
     }
@@ -238,10 +245,9 @@ function applyContentMeta(record, group, recordsById) {
   }
   record.related = canonical.related.map((id) => {
     const row = recordsById.get(id)
-    if (!row) {
-      errors.push(`content: '${record.id}' related id '${id}' resolves to no record`)
-      return null
-    }
+    // A related id whose record does not exist yet is a planned item — drop
+    // the embed, never fail (structure-first policy).
+    if (!row) return null
     return toRow(row)
   }).filter(Boolean)
 }
@@ -313,10 +319,9 @@ for (const records of recordsBySectionTopic.values()) {
 function contentRecord(contentId, group) {
   const sidebar = sidebars.find((s) => s.id === group.section)
   const topicEntry = sidebar?.sections.flatMap((s) => s.topics).find((t) => t.code === group.topic)
-  if (!topicEntry) {
-    errors.push(`content: '${contentId}' topic '${group.topic}' missing in ${group.section}`)
-    return null
-  }
+  // The sidebar topic may not exist yet (structure authored ahead of the
+  // sidebar entry) — skip the record silently rather than failing the build.
+  if (!topicEntry) return null
   const names = {}
   for (const [locale, doc] of group.docs) {
     if (doc.title) names[locale] = doc.title
@@ -470,6 +475,10 @@ const perSection = sidebars.map((s) => {
 console.log(`media-index: ${dryRun ? 'DRY RUN — ' : ''}${written.size} files -> ${rel(OUT)}`)
 for (const line of perSection) console.log(line)
 for (const line of searchStats) console.log(line)
+if (planned)
+  console.log(
+    `planned (no content yet): ${planned} item id(s) — structure-first policy, never fatal ('run missing' lists them)`
+  )
 if (errors.length) {
   for (const e of errors) console.error(`ERROR: ${e}`)
   console.error(`media-index FAILED (${errors.length} errors)`)

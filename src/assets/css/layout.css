@@ -1,46 +1,174 @@
 /* ------------------------------------------------------------------
  * Verbologic layout — responsive shell rules.
- * Mobile-first: content is full-width with small gutters; it grows
- * fluidly up to a 1400px cap where centered gutters reappear.
- * Toolbar: segmented full-width bar below 768px (icon + truncating label),
- * intrinsic pills above; wrapping keeps awkward aspect ratios usable.
+ *
+ * THE FRAME (.app-frame, src/layouts/default.vue): one column holding
+ * header → page → footer, at least one viewport tall. The header is frozen
+ * at the top (sticky), the footer is frozen at the bottom of the screen
+ * (sticky), the page content scrolls between them (window scroll — sticky
+ * table heads and scrollIntoView keep working).
+ *
+ * Device / orientation matrix (media queries below):
+ *   mobile portrait     ≤767px portrait      full width, no margins, 12px gutters
+ *   mobile landscape    height ≤540px        full width, compact rhythm
+ *   tablet portrait     768–1199px portrait  full width, no margins, 16px gutters
+ *   tablet/laptop land. landscape, not huge  full width, 24px gutters
+ *   desktop portrait    ≥1200px portrait     full width, no margins, 24px gutters
+ *                       (the portrait 27" design target)
+ *   desktop landscape   landscape ≥1600×1000 PORTRAIT-RATIO frame centered;
+ *                       the side margins stay unused from top to bottom and
+ *                       the header/footer live INSIDE the frame
+ *
+ * Portrait never has outer margins — the frame is edge to edge.
  * ------------------------------------------------------------------ */
 
-/* Main content container — fluid width capped at 1400px */
+:root {
+  /* Inline gutter inside the frame (header, page, footer share it). */
+  --gutter-x: 12px;
+  /* Vertical breathing space of the page area. */
+  --gutter-y: 16px;
+  /* Frame aspect ratio (width / height) on large landscape screens. */
+  --frame-ratio: 3 / 4;
+}
+
+/* Outside the frame — only visible as the unused landscape margins. */
+.app-backdrop {
+  min-height: 100dvh;
+  background: var(--color-body);
+}
+
+.app-frame {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100dvh;
+  margin-inline: auto;
+  background: var(--color-body);
+}
+
+/* The page area between the frozen header and footer. Its direct child
+ * (the page root) grows to fill it, so content pages are never shorter
+ * than the screen. */
+.app-main {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-width: 0;
+  padding: var(--gutter-y) var(--gutter-x);
+}
+
+.app-main > * {
+  flex: 1 1 auto;
+}
+
+/* Header/footer inner rows — same gutters as the page. */
 .app-container {
   width: 100%;
-  max-width: 1400px;
-  margin-inline: auto;
-  padding-inline: 16px;
+  padding-inline: var(--gutter-x);
 }
 
-@media (min-width: 641px) {
-  .app-container {
-    padding-inline: 24px;
+/* Sticky header/footer must not hide the target of scrollIntoView / anchors. */
+html {
+  scroll-padding-top: 7.5rem; /* header wraps to 2 rows below md */
+  scroll-padding-bottom: 3.5rem;
+}
+
+@media (min-width: 768px) {
+  html {
+    scroll-padding-top: 4rem;
   }
 }
 
-@media (min-width: 1440px) {
-  .app-container {
-    /* At/above desktop the container pins at 1400px and gutters stay. */
-    padding-inline: 32px;
+/* --- Tablet portrait ------------------------------------------------ */
+@media (min-width: 768px) and (orientation: portrait) {
+  :root {
+    --gutter-x: 16px;
   }
 }
 
-/* Header — row 1: brand left + controls right; row 2 (<md): full-width
- * toolbar. Wrapping is the natural overflow behaviour at any aspect ratio,
- * so no portrait-specific media query is needed. */
+/* --- Desktop portrait (portrait 27" design target) ------------------ */
+@media (min-width: 1200px) and (orientation: portrait) {
+  :root {
+    --gutter-x: 24px;
+    --gutter-y: 20px;
+  }
+}
+
+/* --- Tablet / laptop landscape -------------------------------------- */
+@media (min-width: 768px) and (orientation: landscape) {
+  :root {
+    --gutter-x: 24px;
+    --gutter-y: 20px;
+  }
+}
+
+/* --- Desktop landscape, large screen: keep a portrait aspect ratio ---
+ * The frame is as tall as the screen and only var(--frame-ratio) of that
+ * wide, centered; header, page and footer all live inside it. The side
+ * margins stay unused from top to bottom. */
+@media (orientation: landscape) and (min-width: 1600px) and (min-height: 1000px) {
+  .app-backdrop {
+    background: var(--color-surface-soft);
+  }
+  .app-frame {
+    width: min(100%, calc(100dvh * var(--frame-ratio)));
+    border-inline: 1px solid var(--color-edge);
+    box-shadow: 0 0 24px rgb(15 23 42 / 0.06);
+  }
+}
+
+/* --- Mobile landscape (short viewport): compact vertical rhythm ------ */
+@media (orientation: landscape) and (max-height: 540px) {
+  :root {
+    --gutter-y: 8px;
+  }
+  .app-header-inner {
+    padding-block: 6px;
+  }
+  .app-footer-inner {
+    padding-block: 4px;
+  }
+}
+
+/* Header — one row at every width: brand left, nav pills next to it,
+ * avatar right. */
 .app-header-inner {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  gap: 10px 12px;
+  gap: 8px 12px;
 }
 
-/* Toolbar: intrinsic-width pills on ≥md; below md the toolbar lives on its
- * own full-width header row and the pills become equal-width segments
- * (icon + localized label, truncating when translations run long). */
+/* Wordmark — slightly smaller on mobile so the round pills fit beside it. */
+.app-header-wordmark {
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .app-header-wordmark {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+/* ≥md: the toolbar centers on the true screen axis — absolutely positioned,
+ * so the differing widths of the logo (left) and avatar (right) can't shift
+ * the pills off-center. Below md it sits inline after the wordmark. */
+@media (min-width: 768px) {
+  .app-header-inner {
+    position: relative;
+  }
+  .app-header-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Toolbar: intrinsic-width pills (icon + label) on ≥md; below md the pills
+ * are round icon-only circles inline on the header row (the label stays
+ * accessible via title/aria-label). */
 .nav-pill {
   display: inline-flex;
   align-items: center;
@@ -52,36 +180,13 @@
 
 @media (max-width: 767px) {
   .nav-pill {
-    flex: 1 1 0;
-    min-width: 0;
     height: 2.75rem;
+    width: 2.75rem;
     justify-content: center;
-    padding: 0 10px;
+    padding: 0;
   }
-  .nav-item-label {
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 0.8125rem;
-  }
-}
-
-/* Ultra-narrow screens: labels would not fit even truncated — icon-only
- * (the pill still carries title/aria-label from AppNav). */
-@media (max-width: 359px) {
   .nav-item-label {
     display: none;
-  }
-}
-
-/* Landscape phone/small-tablet (short viewport): compact vertical rhythm */
-@media (orientation: landscape) and (max-height: 540px) {
-  .app-header-inner {
-    padding-block: 6px;
-  }
-  .app-main {
-    padding-block: 12px;
   }
 }
 

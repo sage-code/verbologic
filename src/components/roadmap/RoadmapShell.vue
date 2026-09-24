@@ -127,11 +127,13 @@ const chapterPct = computed(() => {
     {{ failed ? t('ui.no_results') || 'Not available yet.' : '…' }}
   </div>
 
-  <div v-else class="grid gap-5 lg:grid-cols-[280px_minmax(0,1fr)]">
-    <!-- Left: the chapter rail (RoadmapSidePane owns the height rule: self-sized,
-         capped, its own scrollbar — never the content pane's height). The TOPICS
-         label row matches the banner height, so the rail top lines up with the
-         toolbar/search bar. -->
+  <!-- The content frame: flex-1 fills the page area between the frozen header
+       and footer (so it is never shorter than the screen); the grid's stretch
+       makes the rail exactly as tall as the content column. -->
+  <div v-else class="grid flex-1 gap-5 lg:grid-cols-[280px_minmax(0,1fr)]">
+    <!-- Left: the chapter rail (RoadmapSidePane owns the height rule: same
+         height as the content, own scrollbar). The TOPICS label row matches the
+         banner height, so the rail top lines up with the toolbar/search bar. -->
     <RoadmapSidePane>
       <template #label>
         <div class="flex h-10 items-center justify-between gap-1">
@@ -149,8 +151,8 @@ const chapterPct = computed(() => {
           >
             {{
               store.showChapters
-                ? copy('dictionary.open_chapter', 'Open chapter')
-                : copy('dictionary.close_chapter', 'Close chapter')
+                ? copy('dictionary.open_chapter', 'Open chapters')
+                : copy('dictionary.close_chapter', 'Close chapters')
             }}
           </button>
         </div>

@@ -5,6 +5,14 @@
  *   - every menu route resolves to a page file (manual best-effort)
  *   - menu labels complete for every supported language
  *   - flags present on all 9 interface languages
+ *
+ * Structure-first policy (manual/architecture.md): the sidebars — the design
+ * layer — MAY reference ids whose content has not been created yet. A missing
+ * manifest/entity/doc for a referenced id is a PLANNED item: it is inventoried
+ * and reported, NEVER fatal (`run missing` prints the full list). Only
+ * corruption/inconsistency fails the run: duplicate ids, bad types/langs/URLs,
+ * unknown layouts, or existing content of the wrong kind for its topic.
+ *
  * Exits non-zero on any failure (used by `run release` / `run validate`).
  */
 import { existsSync, readdirSync, readFileSync } from 'node:fs'
@@ -14,6 +22,8 @@ import { fileURLToPath } from 'node:url'
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const ERRORS = []
 const WARNINGS = []
+/** Referenced ids with no manifest/entity/doc yet — planned items, never fatal. */
+const plannedIds = []
 
 const readJson = (rel) => JSON.parse(readFileSync(join(ROOT, rel), 'utf-8'))
 
@@ -57,7 +67,7 @@ const menuIds = nav.menu.map((m) => m.id)
 const KNOWN_FLAGS = ['us', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
 const KNOWN_BRANDS = ['bluesky', 'discord', 'youtube', 'reddit']
 /** Menu icon slugs — each must map to a component in AppNav.vue `ICONS`. */
-const KNOWN_MENU_ICONS = ['academic-cap', 'building-library', 'microphone']
+const KNOWN_MENU_ICONS = ['academic-cap', 'building-library', 'microphone', 'user']
 
 if (langCount !== 9) ERRORS.push(`expected 9 languages, got ${langCount}`)
 for (const l of nav.languages) {
@@ -198,9 +208,9 @@ try {
         if (!topic.names?.en?.trim()) ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: missing names.en`)
         for (const id of topic.items ?? []) {
           itemCount++
-          if (!manifestIds.has(id) && !entities.has(id)) {
-            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: item '${id}' has no manifest and no legacy entity`)
-          }
+          // Structure-first: an id resolving to nothing yet is a PLANNED item
+          // (reported below, never fatal — see the header policy note).
+          if (!manifestIds.has(id) && !entities.has(id)) plannedIds.push(`${sidebar.id} · ${topic.code}: ${id}`)
         }
       }
     }
@@ -286,12 +296,9 @@ try {
     if (!group.docs.has(canonicalLocale)) {
       ERRORS.push(`content '${id}': no canonical '${canonicalLocale}' document`)
     }
-    // The content docs must be reachable: the id is a sidebar item of its topic.
-    const section = `library/${group.track}`
-    const sidebar = sidebarBySection[section]
-    const topicEntry = sidebar?.sections.flatMap((s) => s.topics).find((t) => t.code === group.topic)
-    if (!topicEntry) ERRORS.push(`content '${id}': topic '${group.topic}' missing in ${section}`)
-    else if (!topicEntry.items.includes(id)) ERRORS.push(`content '${id}': not an item of ${section} · ${group.topic}`)
+    // Reachability (the id being a sidebar item of its topic) is NOT checked:
+    // structure-first policy — a doc whose sidebar topic/items have not landed
+    // yet is a planned item, inventoried by `run missing`, never fatal.
     // Manifests for content media (the video) are validated by the media pass (manifestIds).
   }
 
@@ -306,11 +313,6 @@ try {
     const manifest = JSON.parse(readFileSync(file, 'utf-8'))
     if (manifest.id && manifest.mime) mimeById.set(manifest.id, manifest.mime)
   }
-  const entityIdSet = new Set()
-  for (const file of walkManifestFiles(join(ROOT, 'public/data/entities'))) {
-    const list = JSON.parse(readFileSync(file, 'utf-8'))
-    if (Array.isArray(list)) for (const entity of list) if (entity.id) entityIdSet.add(entity.id)
-  }
   let layoutCount = 0
   const layoutTotals = {}
   for (const sidebar of Object.values(sidebarBySection)) {
@@ -323,21 +325,22 @@ try {
         }
         layoutCount++
         layoutTotals[layout] = (layoutTotals[layout] ?? 0) + 1
+        // Item-level invariants fire ONLY when the content EXISTS but is of
+        // the wrong kind for the topic's layout. An item with no manifest /
+        // entity / doc at all is a PLANNED item (structure-first policy) —
+        // inventoried by `run missing`, never fatal.
         for (const id of topic.items ?? []) {
           const isDoc = docsByLecture.has(id)
           if (layout === 'article') {
-            if (!isDoc) ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: article topic holds non-doc item '${id}'`)
-            else if (mediaManifestIds.has(id) && !(mimeById.get(id) ?? '').startsWith('video/')) {
+            if (mediaManifestIds.has(id) && !(mimeById.get(id) ?? '').startsWith('video/')) {
               ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: article item '${id}' has a non-video manifest — articles are prose-only (a video manifest is allowed)`)
             }
           } else if (isDoc) {
             ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: ${layout} topic holds content doc '${id}' — move it to an article topic`)
-          } else if (layout === 'gallery' && !(mimeById.get(id) ?? '').startsWith('image/')) {
-            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: gallery item '${id}' has no image manifest`)
+          } else if (layout === 'gallery' && mediaManifestIds.has(id) && !(mimeById.get(id) ?? '').startsWith('image/')) {
+            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: gallery item '${id}' has a non-image manifest`)
           } else if (layout === 'table' && (mimeById.get(id) ?? '').startsWith('image/')) {
             ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: table topic holds image item '${id}' — make it a gallery topic`)
-          } else if (layout === 'table' && !entityIdSet.has(id) && !mediaManifestIds.has(id)) {
-            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: table item '${id}' has no manifest and no legacy entity`)
           }
         }
       }
@@ -351,7 +354,7 @@ try {
     const topicEntry = sidebar?.sections.flatMap((s) => s.topics).find((t) => t.code === pin.topic)
     if (!topicEntry) ERRORS.push(`pin '${id}': topic '${pin.topic}' missing in ${pin.section}`)
     else if (!topicEntry.items.includes(id)) ERRORS.push(`pin '${id}': not an item of ${pin.section} · ${pin.topic}`)
-    if (!mediaManifestIds.has(id)) ERRORS.push(`pin '${id}': no manifest`)
+    // The manifest itself may not exist yet (planned content) — never an error.
   }
   console.log(
     `content: ${contentFiles.length} doc(s) in ${docsByLecture.size} lecture(s) · ${Object.keys(pins).length} pinned id(s)`
@@ -363,6 +366,13 @@ try {
 /* ── report ───────────────────────────────────────────────────────────── */
 console.log(`entities: ${entities.length} (audio: ${withAudio}, TTS queue: ${ttsQueue})`)
 console.log(`languages: ${langCount} · menu items: ${menuIds.length}`)
+if (plannedIds.length) {
+  console.log(
+    `missing content: ${plannedIds.length} planned id(s) — inventoried, never fatal ('run missing' for the full list)`
+  )
+  for (const p of plannedIds.slice(0, 10)) console.log(`  planned: ${p}`)
+  if (plannedIds.length > 10) console.log(`  … and ${plannedIds.length - 10} more`)
+}
 for (const w of WARNINGS) console.warn(`warn: ${w}`)
 if (ERRORS.length) {
   for (const e of ERRORS) console.error(`ERROR: ${e}`)

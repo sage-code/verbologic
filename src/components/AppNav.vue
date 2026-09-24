@@ -4,7 +4,8 @@ import type { Component } from 'vue'
 import {
   AcademicCapIcon,
   BuildingLibraryIcon,
-  MicrophoneIcon
+  MicrophoneIcon,
+  UserIcon
 } from '@heroicons/vue/24/outline'
 
 const { menu, menuLabel } = useNavigation()
@@ -14,7 +15,8 @@ const route = useRoute()
 const ICONS: Record<string, Component> = {
   'academic-cap': AcademicCapIcon,
   'building-library': BuildingLibraryIcon,
-  microphone: MicrophoneIcon
+  microphone: MicrophoneIcon,
+  user: UserIcon
 }
 
 function isActive(target: string): boolean {
@@ -32,7 +34,7 @@ function isActive(target: string): boolean {
       :class="
         isActive(item.route)
           ? 'bg-accent text-on-accent shadow-sm'
-          : 'bg-soft text-muted hover:bg-surface hover:text-accent'
+          : 'bg-surface text-muted shadow-sm hover:text-accent'
       "
       :title="menuLabel(item.id)"
       :aria-current="isActive(item.route) ? 'page' : undefined"

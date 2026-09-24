@@ -13,6 +13,9 @@ const copy = useCopy()
 const title = (names: MediaNames, fallback: string) => mediaName(names, uiLang.value, fallback)
 const learnedOf = (code: string) => (progress ? store.learnedCount(code, progress.learned.value) : 0)
 const pct = (done: number, total: number) => (total ? Math.round((done / total) * 100) : 0)
+
+/** A topic without content in the active language renders disabled. */
+const topicEmpty = (code: string) => store.topicCount(code) === 0
 </script>
 
 <template>
@@ -27,7 +30,9 @@ const pct = (done: number, total: number) => (total ? Math.round((done / total) 
     <li v-for="tp in store.visibleTopics" :key="tp.code">
       <button
         type="button"
-        class="flex w-full items-center gap-3 px-4 py-3 text-left transition hover:bg-soft"
+        class="flex w-full items-center gap-3 px-4 py-3 text-left transition hover:bg-soft disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent"
+        :disabled="topicEmpty(tp.code)"
+        :title="topicEmpty(tp.code) ? copy('practice.coming_soon', 'Coming soon') : undefined"
         @click="store.openTopic(tp.code)"
       >
         <span class="min-w-0 flex-1">

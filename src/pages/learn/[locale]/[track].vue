@@ -54,7 +54,7 @@ const live = computed(() => isTrackLive(locale.value, trackId.value))
 </script>
 
 <template>
-  <main class="mx-auto max-w-6xl px-6 py-4">
+  <main class="flex min-w-0 flex-1 flex-col">
     <header class="flex flex-wrap items-center gap-3">
       <LanguageFlag :code="flagFor(locale)" :label="languageName(locale)" size="md" />
       <h1 class="text-2xl font-bold text-content">
@@ -71,7 +71,7 @@ const live = computed(() => isTrackLive(locale.value, trackId.value))
     <!-- Live track: the shared roadmap frame (chapter rail → topics → the
          open topic's pane — the TOPIC's layout picks it: table · article ·
          gallery). -->
-    <section v-if="live" class="mt-3">
+    <section v-if="live" class="mt-3 flex flex-1 flex-col">
       <!-- :key forces a remount when the locale param changes — RoadmapShell
            loads its store data in onMounted only. :track selects the sidebar
            section; the open topic's `layout` field selects the pane. -->

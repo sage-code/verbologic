@@ -22,6 +22,7 @@ Verbologic maintenance runner
   run install                       Install dependencies
   run build [--force]               Differential build (skips rebuild when nothing changed)
   run validate                      Entity/nav/locale integrity checks
+  run missing                       Missing-content inventory (planned items → temp/missing-content.md)
   run media stage                      Archive mp3s → media per-topic layout
   run media index [dry]                Build public/data/media payloads (sidebars + manifests + config)
   run media manifest [--dry-run]       Reconcile item manifests with files on disk (the baseline)
@@ -122,6 +123,7 @@ case "${1:-help}" in
     fi
     ;;
   validate)  node scripts/validate-data.mjs ;;
+  missing)   node scripts/missing-content.mjs ;;
   media)
     shift
     # `run media index` builds the runtime payloads; every other argument is a

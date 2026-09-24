@@ -1,12 +1,11 @@
-// Default layout — responsive app shell: header (with nav), page, footer.
+// Default layout — the app frame: frozen header, page, frozen footer.
+// The frame's width per device/orientation lives in layout.css (.app-frame).
 <template>
-  <div class="flex min-h-screen flex-col bg-body text-content antialiased">
+  <div class="app-frame text-content antialiased">
     <AppHeader />
 
-    <div class="app-container w-full flex-1 py-5">
-      <main class="app-main mt-2">
-        <slot />
-      </main>
+    <div class="app-main">
+      <slot />
     </div>
 
     <AppFooter />

@@ -27,9 +27,18 @@ const addOpen = ref(false)
 // mounts fresh each open, so the draft allocation always starts current).
 const settingsLocale = ref<string | null>(null)
 
+// Locale whose add-credits dialog is open (null = closed; fresh mount each
+// open resets the pack selection).
+const topUpLocale = ref<string | null>(null)
+
 /** The enrollment for the open settings dialog, if still visible. */
 const settingsEnrollment = computed(
   () => (settingsLocale.value ? (store.activeFor(settingsLocale.value) ?? null) : null)
+)
+
+/** The enrollment for the open add-credits dialog, if still visible. */
+const topUpEnrollment = computed(
+  () => (topUpLocale.value ? (store.activeFor(topUpLocale.value) ?? null) : null)
 )
 
 // Preload UI chrome + local data on the client (mirrors the other pages).
@@ -42,7 +51,9 @@ onMounted(() => {
   void loadFromSupabase()
 })
 
-/** Signed-in refresh: the enrollments_overview view is authoritative. */
+/** Signed-in refresh: the enrollments_overview view is authoritative. An
+ *  empty server account adopts the anonymous user's local languages — they
+ *  are kept locally and saved to the DB (syncAll). */
 async function loadFromSupabase() {
   if (!supabase) return
   const { data } = await supabase.auth.getSession()
@@ -54,6 +65,10 @@ async function loadFromSupabase() {
     .order('updated_at', { ascending: false })
   if (error) {
     console.warn('[library] overview load failed', error.message)
+    return
+  }
+  if (rows && rows.length === 0 && store.enrollments.length > 0) {
+    await store.syncAll()
     return
   }
   if (rows) store.setFromOverview(rows)
@@ -79,7 +94,10 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
 </script>
 
 <template>
-  <main class="mx-auto max-w-3xl">
+  <!-- Full width (page gutters only) with a single language — the lone panel
+       stretches like two side-by-side ones would; capped once a second
+       language appears (the grid below then pairs them up). -->
+  <main class="mx-auto w-full" :class="store.visible.length > 1 ? 'max-w-6xl' : 'max-w-full'">
     <!-- Title row: heading left, discreet Add Language action right
          (hidden while the library is empty — the big accent button in the
          empty-state card is the entry point then). bg-body blends with the
@@ -114,12 +132,14 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
       </button>
     </div>
 
-    <!-- One panel per visible language, stacked -->
-    <ul v-else class="mt-8 space-y-4">
+    <!-- One panel per visible language: two side-by-side on laptop, stacked
+         on smaller screens. items-start keeps short panels from stretching. -->
+    <ul v-else class="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:items-start">
       <li
         v-for="e in store.visible"
         :key="e.locale"
         class="rounded-2xl border border-edge bg-surface p-6"
+        :class="store.visible.length === 1 ? 'lg:col-span-2' : ''"
       >
         <!-- Language identity + hide button (top-right; hides, never forgets) -->
         <div class="flex flex-wrap items-center gap-3">
@@ -136,6 +156,16 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
             @click="settingsLocale = e.locale"
           >
             <Cog6ToothIcon class="h-5 w-5" aria-hidden="true" />
+          </button>
+          <!-- +: add credits for this language (right before the ✕) -->
+          <button
+            type="button"
+            class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-edge text-muted transition hover:border-accent hover:text-accent"
+            :aria-label="`${copy('library.credits_title', 'Add credits')} — ${languageName(e.locale)}`"
+            :title="copy('library.credits_title', 'Add credits')"
+            @click="topUpLocale = e.locale"
+          >
+            <PlusIcon class="h-5 w-5" aria-hidden="true" />
           </button>
           <button
             type="button"
@@ -164,10 +194,16 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
           </div>
         </div>
 
-        <!-- Words-learned progress bar (only when the track has content) -->
-        <div v-if="trackFor(e.locale).words > 0" class="mt-4">
+        <!-- Words-learned progress bar — shown for every language; the "of N"
+             total is dropped (0% bar only) while the dictionary is not ready. -->
+        <div class="mt-4">
           <div class="flex items-center justify-between text-xs text-muted">
-            <span>{{ e.wordsLearned }} {{ copy('library.words_of', 'of') }} {{ trackFor(e.locale).words }}</span>
+            <span>
+              {{ e.wordsLearned }}
+              <template v-if="trackFor(e.locale).words > 0">
+                {{ copy('library.words_of', 'of') }} {{ trackFor(e.locale).words }}
+              </template>
+            </span>
             <span>{{ progress(e) }}%</span>
           </div>
           <div class="mt-1 h-2 overflow-hidden rounded-full bg-soft">
@@ -208,6 +244,13 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
       v-if="settingsEnrollment"
       :enrollment="settingsEnrollment"
       @close="settingsLocale = null"
+    />
+
+    <!-- Per-language add-credits (+ button on the panel) -->
+    <AddCreditsDialog
+      v-if="topUpEnrollment"
+      :enrollment="topUpEnrollment"
+      @close="topUpLocale = null"
     />
   </main>
 </template>

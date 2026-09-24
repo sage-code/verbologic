@@ -5,7 +5,8 @@
 // selection. One table, three data sources: the open topic's rows, or the
 // dictionary-wide search results (the toolbar's filter mode), which take
 // precedence regardless of the topic underneath.
-// Columns: File ID · name in the learning language · translation · per-row
+// Columns: name in the learning language (the File ID stays in the DOM as a
+// hidden sr-only field) · translation · per-row
 // play button (blinks while its file plays, squares ■ while it loops under
 // Repeat) · learned toggle. The header's check-all scope is the visible page.
 <script setup lang="ts">
@@ -175,12 +176,11 @@ watch(
       }}
     </p>
 
-    <!-- The paginated word table: File ID · name · translation · play · learned -->
+    <!-- The paginated word table: name · translation · play · learned -->
     <div v-else class="overflow-clip rounded-lg border border-edge bg-surface shadow-sm">
       <table class="w-full border-collapse text-sm">
         <thead class="sticky z-10 bg-soft text-left text-xs uppercase tracking-wide text-faint" :class="THEAD_STICKY_TOP">
           <tr>
-            <th class="px-3 py-2 font-medium">{{ copy('dictionary.col_id', 'File ID') }}</th>
             <th class="px-3 py-2 font-medium">{{ nameHeader }}</th>
             <th class="hidden px-3 py-2 font-medium sm:table-cell">
               {{ glossHeader }}
@@ -221,8 +221,13 @@ watch(
             :class="activeId === r.entity_id ? 'bg-accent-soft' : 'hover:bg-soft'"
             @click="stopAutoplay"
           >
-            <td class="whitespace-nowrap px-3 py-2 font-code text-xs text-faint">
-              {{ r.id }}
+            <td class="px-3 py-2">
+              <!-- File ID: kept in the DOM as a hidden (screen-reader-only)
+                   field — no visible column anymore -->
+              <span class="sr-only">{{ r.id }}</span>
+              <span class="font-medium text-content">{{ r.term }}</span>
+              <span v-if="r.ipa" class="ml-1.5 rounded bg-soft px-1.5 py-0.5 text-xs text-muted">{{ r.ipa }}</span>
+              <span v-if="r.context" class="mt-0.5 block text-xs text-faint" :title="r.context">{{ r.context }}</span>
               <!-- Search results come from every topic: the chip names the
                    row's topic and jumps straight into its word table -->
               <button
@@ -234,11 +239,6 @@ watch(
               >
                 {{ r.topic }}
               </button>
-            </td>
-            <td class="px-3 py-2">
-              <span class="font-medium text-content">{{ r.term }}</span>
-              <span v-if="r.ipa" class="ml-1.5 rounded bg-soft px-1.5 py-0.5 text-xs text-muted">{{ r.ipa }}</span>
-              <span v-if="r.context" class="mt-0.5 block text-xs text-faint" :title="r.context">{{ r.context }}</span>
             </td>
             <td class="hidden px-3 py-2 text-muted sm:table-cell">{{ gloss(r) }}</td>
             <td class="px-3 py-2 text-center">

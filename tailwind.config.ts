@@ -18,6 +18,7 @@ export default <Partial<Config>>{
         body: 'var(--color-body)',
         surface: 'var(--color-surface)',
         soft: 'var(--color-surface-soft)',
+        chrome: 'var(--color-chrome)',
         content: 'var(--color-content)',
         muted: 'var(--color-muted)',
         faint: 'var(--color-faint)',

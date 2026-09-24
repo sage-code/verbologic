@@ -60,6 +60,10 @@ const HIDDEN_KEY = 'verbologic-library-hidden'
 const ALLOCATIONS_KEY = 'verbologic-library-allocations'
 
 export const useLibraryStore = defineStore('library', () => {
+  // Supabase client (null without credentials) — enrollments persist to the
+  // enrollments table when signed in; localStorage stays the fast path.
+  const supabase = useSupabase()
+
   const enrollments = ref<Enrollment[]>([])
   const hidden = ref<Record<string, string>>({})
   const allocations = ref<Record<string, number>>({})
@@ -163,13 +167,42 @@ export const useLibraryStore = defineStore('library', () => {
     }
   }
 
-  // --- Write seam (Supabase Phase 5; unused by the read-only Library UI) ---
+  // --- Write seam (Supabase Phase 5) ---
+
+  /** Upsert one enrollment to the enrollments table (signed in only,
+   *  fire-and-forget — localStorage is always written first). */
+  async function syncToDb(e: Enrollment): Promise<void> {
+    if (!supabase || !import.meta.client) return
+    const { data } = await supabase.auth.getSession()
+    const userId = data.session?.user?.id
+    if (!userId) return
+    const { error } = await supabase.from('enrollments').upsert(
+      {
+        user_id: userId,
+        locale: e.locale,
+        tier_id: e.tierId,
+        status: e.status,
+        credits_total: e.creditsTotal,
+        started_at: e.startedAt,
+        updated_at: e.updatedAt
+      },
+      { onConflict: 'user_id,locale' }
+    )
+    if (error) console.warn('[library] enrollment sync failed', error.message)
+  }
+
+  /** Sync every local enrollment to the DB (anonymous → signed-in adoption). */
+  async function syncAll(): Promise<void> {
+    for (const e of enrollments.value) await syncToDb(e)
+  }
 
   /** Record a new order/subscription from the pricing checkout. */
   function enroll(input: Omit<Enrollment, 'startedAt' | 'updatedAt'>) {
     const now = new Date().toISOString()
-    enrollments.value.push({ ...input, startedAt: now, updatedAt: now })
+    const e = { ...input, startedAt: now, updatedAt: now }
+    enrollments.value.push(e)
     persist()
+    void syncToDb(e)
   }
 
   /** Add credits to an existing enrollment (top-up purchase). */
@@ -179,6 +212,7 @@ export const useLibraryStore = defineStore('library', () => {
     e.creditsTotal += credits
     e.updatedAt = new Date().toISOString()
     persist()
+    void syncToDb(e)
   }
 
   /** Bump the learned-word counter after learning activity (quiz/SRS). */
@@ -223,6 +257,7 @@ export const useLibraryStore = defineStore('library', () => {
     setFromOverview,
     enroll,
     topUp,
+    syncAll,
     markLearned,
     hide,
     restore,

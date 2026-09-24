@@ -313,3 +313,11 @@
 - [x] Validator: `validate-data.mjs` enforces the per-kind invariants (table → non-image records, never a doc; article → docs only, video manifest allowed; gallery → image manifests only) — mixed topics fail the build
 - [x] Locales: `article.*` / `gallery.*` keys (en + ro)
 - [x] Verified: `temp/verify_topic_layouts.mjs` 25/25 PASS · `validate-data` OK (337 layouts: 336 table · 1 article) · `media-index` OK (405 + 128 records) · `vue-tsc` clean · `nuxt generate` 81 routes (the C1T01A article prerendered per locale)
+
+## Structure-first policy — the site ships with planned content (2026-09-23)
+- [x] Policy (architecture.md → "Content Lifecycle — Structure-First Design"): the sidebars are the DESIGN layer and MAY reference ids whose content does not exist yet — planned items are expected, the site is published with them, and NO script/build/CI step may fail because of them
+- [x] `validate-data.mjs` + `media-index.mjs`: a referenced id with no manifest/entity/doc is an inventory entry, never an error — only corruption fails (duplicate ids, bad type/lang/URL, unknown layout, config↔sidebar mismatches, existing content of the wrong kind for its layout); both print the informational `planned: …` / `missing content: …` count
+- [x] `run missing` (`scripts/missing-content.mjs` → `temp/missing-content.md`): the fill-on-the-go backlog — per sidebar/chapter/topic resolved-vs-planned counts, every planned id, empty topics (dictionary 117 · lectures 93 · stories 96) with their `topic-map.json.planned` source, pinned ids without manifests, docs missing their canonical locale
+- [x] Planned rows are VISIBLE on purpose: pending manifests (`run scaffold`) render as disabled "Audio coming soon" rows; empty topics/chapters stay out of the nav but deep-link; the only true 404 is an unuploaded mp3 on a legacy-bridge row (`run media verify --remote` finds it)
+- [x] Workflow: layout work continues first on the populated example topics; content is filled on the go — `run missing` → author a seed → `run scaffold <lang> <TOPIC> <seed.json>` → drop the mp3s → `run media manifest` → `run media upload --apply` → `run build`
+- [x] Verified: `validate-data` OK · `media-index --dry-run` OK · phantom-id probe (planted a dangling id, all three scripts stayed green and reported it, then reverted) — nothing fails on missing content
