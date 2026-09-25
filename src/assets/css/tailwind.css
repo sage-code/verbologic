@@ -44,6 +44,25 @@
     font-weight: 700;
   }
 
+  /* Article prose (Markdown rendered by ContentRenderer) — the reset strips
+     heading sizes, list markers and table borders, so restore them here. */
+  .lecture-prose { @apply leading-relaxed; }
+  .lecture-prose h2 { @apply mt-10 border-b border-edge pb-2 text-2xl text-content; }
+  .lecture-prose h3 { @apply mt-6 text-lg text-content; }
+  .lecture-prose p { @apply my-3; }
+  .lecture-prose ul { @apply my-3 list-disc space-y-1 pl-6; }
+  .lecture-prose ol { @apply my-3 list-decimal space-y-1 pl-6; }
+  .lecture-prose a { @apply text-accent underline; }
+  .lecture-prose strong { @apply font-semibold text-content; }
+  .lecture-prose code { @apply rounded bg-soft px-1 py-0.5 text-[0.9em]; font-family: var(--font-code); }
+  .lecture-prose pre { @apply my-4 overflow-x-auto rounded-lg border border-edge bg-soft p-4 text-sm leading-6; }
+  .lecture-prose pre code { @apply bg-transparent p-0; }
+  .lecture-prose blockquote { @apply my-4 border-l-4 border-accent pl-4 text-muted; }
+  .lecture-prose table { @apply my-4 block w-full overflow-x-auto border-collapse text-sm md:table; }
+  .lecture-prose th { @apply border border-edge bg-soft px-3 py-2 text-left font-semibold text-content; }
+  .lecture-prose td { @apply border border-edge px-3 py-2 align-top; }
+  .lecture-prose tbody tr:nth-child(even) { @apply bg-surface; }
+
   /* UI controls — Plus Jakarta Sans 600 with tight tracking */
   button,
   select,

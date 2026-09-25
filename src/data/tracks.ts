@@ -6,7 +6,7 @@
  * track without a live route resolves `null` and the panel shows the
  * "coming soon" state for that track.
  *
- * Live routes are served by src/pages/learn/[locale]/[track].vue
+ * Live routes are served by src/pages/learn/[locale]/[track]/index.vue
  * (Dictionary renders the shared RoadmapShell). All 9 languages × 3 tracks
  * are pre-rendered from src/data/navigation.json in nuxt.config.ts.
  *
@@ -33,7 +33,7 @@ export const TRACKS: Record<string, TrackMeta> = {
   },
   en: {
     // EN's dictionary WAS the alphabet — the letters moved to the introductory
-    // lectures (library/lectures C1T01), so EN's live track is Lectures until
+    // lectures (library/lectures L1T02), so EN's live track is Lectures until
     // an EN expression corpus is authored through the same pipeline.
     words: 74,
     tracks: { dictionary: null, lectures: '/learn/en/lectures', stories: null }

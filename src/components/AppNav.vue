@@ -4,7 +4,7 @@ import type { Component } from 'vue'
 import {
   AcademicCapIcon,
   BuildingLibraryIcon,
-  MicrophoneIcon,
+  SpeakerWaveIcon,
   UserIcon
 } from '@heroicons/vue/24/outline'
 
@@ -15,7 +15,7 @@ const route = useRoute()
 const ICONS: Record<string, Component> = {
   'academic-cap': AcademicCapIcon,
   'building-library': BuildingLibraryIcon,
-  microphone: MicrophoneIcon,
+  'speaker-wave': SpeakerWaveIcon,
   user: UserIcon
 }
 

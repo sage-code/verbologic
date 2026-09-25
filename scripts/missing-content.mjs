@@ -10,7 +10,6 @@
  *   - per sidebar → chapter → topic: resolved vs planned item counts
  *   - every referenced id with no manifest, no legacy entity and no content doc
  *   - empty topics (no items at all) and their `topic-map.json.planned` source
- *   - pinned ids without a manifest
  *   - content docs missing their canonical locale
  *
  *   node scripts/missing-content.mjs            report → temp/missing-content.md
@@ -30,7 +29,6 @@ const CONTENT = join(ROOT, 'content')
 const SIDEBARS = join(ROOT, 'src', 'data', 'sidebars')
 const CONFIG = join(ROOT, 'src', 'data', 'media.config.json')
 const TOPIC_MAP = join(ROOT, 'src', 'data', 'sidebars', 'library', 'dictionary', 'topic-map.json')
-const PINS = join(ROOT, 'src', 'data', 'sidebars', 'library', 'dictionary', 'pins.json')
 const OUT = join(ROOT, 'temp', 'missing-content.md')
 
 /** Canonical locale per track (mirrors validate-data / media-index). */
@@ -82,9 +80,6 @@ for (const file of walk(CONTENT, '.md')) {
 
 /** The dictionary's planned-topic registry (archive source per blank topic). */
 const plannedSources = existsSync(TOPIC_MAP) ? readJson(TOPIC_MAP).planned ?? {} : {}
-
-/** Pinned ids (restructured items that must live in another section's sidebar). */
-const pins = existsSync(PINS) ? readJson(PINS) : {}
 
 const isResolved = (id) => manifestIds.has(id) || entityIds.has(id) || docsByLecture.has(id)
 
@@ -160,16 +155,6 @@ for (const { section, chapter, topic, ids } of plannedByTopic) {
   push('')
 }
 
-/* ── pins without a manifest ─────────────────────────────────────────────── */
-
-const pinsWithoutManifest = Object.entries(pins)
-  .filter(([id]) => !manifestIds.has(id))
-  .map(([id, pin]) => `- \`${id}\` → ${pin.section} · ${pin.topic}`)
-push(`## Pinned ids without a manifest — ${pinsWithoutManifest.length}`, '')
-if (pinsWithoutManifest.length === 0) push('_None._', '')
-for (const p of pinsWithoutManifest) push(p)
-push('')
-
 /* ── content docs missing their canonical locale ─────────────────────────── */
 
 const missingCanonical = []
@@ -198,7 +183,6 @@ const report = [
   `- sidebars: ${sidebars.length} · referenced item ids: ${totals.ids}`,
   `- planned ids (no manifest / entity / doc): **${totals.planned}**`,
   `- empty topics (no items): **${totals.empty}**`,
-  `- pinned ids without a manifest: ${pinsWithoutManifest.length}`,
   `- content docs missing their canonical locale: ${missingCanonical.length}`,
   '',
   ...lines

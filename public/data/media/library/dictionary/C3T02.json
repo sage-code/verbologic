@@ -1,358 +1,32 @@
 [
   {
-    "id": "question_ai-apartament",
+    "id": "word_casa",
     "section": "library/dictionary",
-    "kind": "question",
+    "kind": "word",
     "lang": "ro",
     "source": "media",
-    "term": "Ai apartament?",
+    "term": "casă",
     "names": {
-      "ro": "Ai apartament?"
+      "en": "house",
+      "es": "casa",
+      "it": "casa",
+      "fr": "maison",
+      "ro": "casă"
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/question_ai-apartament.mp3",
+      "url": "https://media.verbologic.com/audio/ro/C3T02/word_casa.mp3",
       "mime": "audio/mpeg",
-      "bytes": 11808,
-      "sha1": "dc60e0e3e4439611b697176c43b14e177901687f"
+      "bytes": 10656,
+      "sha1": "01ae3a2ce30b17a14854fb20a6a8379912d2915d"
     },
     "tags": [
-      "questions#home-objects"
+      "vocabulary#home-objects"
     ],
     "context": null,
     "example": null,
     "topic": "C3T02",
-    "entity_id": "question_ai-apartament"
-  },
-  {
-    "id": "question_cheia-este-pe-masa",
-    "section": "library/dictionary",
-    "kind": "question",
-    "lang": "ro",
-    "source": "media",
-    "term": "Cheia este pe masă?",
-    "names": {
-      "ro": "Cheia este pe masă?"
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/question_cheia-este-pe-masa.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 13536,
-      "sha1": "0b90f8e1b97d60e6545f97f12dc0e8386d730dce"
-    },
-    "tags": [
-      "questions#home-objects"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "question_cheia-este-pe-masa"
-  },
-  {
-    "id": "question_da-am-apartament",
-    "section": "library/dictionary",
-    "kind": "question",
-    "lang": "ro",
-    "source": "media",
-    "term": "Da, am apartament.",
-    "names": {
-      "ro": "Da, am apartament."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/question_da-am-apartament.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 15264,
-      "sha1": "6a2e5abc3625cb3d738795f4b34686845b61385d"
-    },
-    "tags": [
-      "questions#home-objects"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "question_da-am-apartament"
-  },
-  {
-    "id": "question_da-cheia-este-pe-masa",
-    "section": "library/dictionary",
-    "kind": "question",
-    "lang": "ro",
-    "source": "media",
-    "term": "Da, cheia este pe masă.",
-    "names": {
-      "ro": "Da, cheia este pe masă."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/question_da-cheia-este-pe-masa.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 16560,
-      "sha1": "36ff5064e440b8c1e5ced0a279cab08f987f9cef"
-    },
-    "tags": [
-      "questions#home-objects"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "question_da-cheia-este-pe-masa"
-  },
-  {
-    "id": "question_da-patul-este-in-camera",
-    "section": "library/dictionary",
-    "kind": "question",
-    "lang": "ro",
-    "source": "media",
-    "term": "Da, patul este în cameră.",
-    "names": {
-      "ro": "Da, patul este în cameră."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/question_da-patul-este-in-camera.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 17136,
-      "sha1": "48a99799e193a56d6a100522287bb527f6f8dc3a"
-    },
-    "tags": [
-      "questions#home-objects"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "question_da-patul-este-in-camera"
-  },
-  {
-    "id": "question_nu-am-casa",
-    "section": "library/dictionary",
-    "kind": "question",
-    "lang": "ro",
-    "source": "media",
-    "term": "Nu, am casă.",
-    "names": {
-      "ro": "Nu, am casă."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/question_nu-am-casa.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 13248,
-      "sha1": "981bc8d15da181a891b092e93faf76c316c43175"
-    },
-    "tags": [
-      "questions#home-objects"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "question_nu-am-casa"
-  },
-  {
-    "id": "question_nu-cheia-este-in-baie",
-    "section": "library/dictionary",
-    "kind": "question",
-    "lang": "ro",
-    "source": "media",
-    "term": "Nu, cheia este în baie.",
-    "names": {
-      "ro": "Nu, cheia este în baie."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/question_nu-cheia-este-in-baie.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 16128,
-      "sha1": "b2c0cfed953fa1faa63431055c488ff7fb55aa8d"
-    },
-    "tags": [
-      "questions#home-objects"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "question_nu-cheia-este-in-baie"
-  },
-  {
-    "id": "question_nu-patul-este-langa-usa",
-    "section": "library/dictionary",
-    "kind": "question",
-    "lang": "ro",
-    "source": "media",
-    "term": "Nu, patul este lângă ușă.",
-    "names": {
-      "ro": "Nu, patul este lângă ușă."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/question_nu-patul-este-langa-usa.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 17568,
-      "sha1": "0b4aca1d070d86fe62c61c7c36e7112b4781ebde"
-    },
-    "tags": [
-      "questions#home-objects"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "question_nu-patul-este-langa-usa"
-  },
-  {
-    "id": "question_patul-este-in-camera",
-    "section": "library/dictionary",
-    "kind": "question",
-    "lang": "ro",
-    "source": "media",
-    "term": "Patul este în cameră?",
-    "names": {
-      "ro": "Patul este în cameră?"
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/question_patul-este-in-camera.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 14112,
-      "sha1": "b440211b0bb65010b622f9a27e0070597e374a6c"
-    },
-    "tags": [
-      "questions#home-objects"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "question_patul-este-in-camera"
-  },
-  {
-    "id": "sentence_apartamentul-are-o-fereastra",
-    "section": "library/dictionary",
-    "kind": "sentence",
-    "lang": "ro",
-    "source": "media",
-    "term": "Apartamentul are o fereastră.",
-    "names": {
-      "en": "The apartment has a window.",
-      "ro": "Apartamentul are o fereastră."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/sentence_apartamentul-are-o-fereastra.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 16416,
-      "sha1": "079845959f7e8a3df26e7add4ef06d9b9bf0e468"
-    },
-    "tags": [
-      "sentences#home-objects-and-places"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "sentence_apartamentul-are-o-fereastra"
-  },
-  {
-    "id": "sentence_casa-are-o-usa",
-    "section": "library/dictionary",
-    "kind": "sentence",
-    "lang": "ro",
-    "source": "media",
-    "term": "Casa are o ușă.",
-    "names": {
-      "en": "The house has a door.",
-      "ro": "Casa are o ușă."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/sentence_casa-are-o-usa.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 11520,
-      "sha1": "2417b32294a9dbdcfed27252b75c660770d1a248"
-    },
-    "tags": [
-      "sentences#home-objects-and-places"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "sentence_casa-are-o-usa"
-  },
-  {
-    "id": "sentence_cheia-este-pe-masa",
-    "section": "library/dictionary",
-    "kind": "sentence",
-    "lang": "ro",
-    "source": "media",
-    "term": "Cheia este pe masă.",
-    "names": {
-      "en": "The key is on the table.",
-      "ro": "Cheia este pe masă."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/sentence_cheia-este-pe-masa.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 13536,
-      "sha1": "0b90f8e1b97d60e6545f97f12dc0e8386d730dce"
-    },
-    "tags": [
-      "sentences#home-objects-and-places"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "sentence_cheia-este-pe-masa"
-  },
-  {
-    "id": "sentence_patul-este-in-camera",
-    "section": "library/dictionary",
-    "kind": "sentence",
-    "lang": "ro",
-    "source": "media",
-    "term": "Patul este în cameră.",
-    "names": {
-      "en": "The bed is in the room.",
-      "ro": "Patul este în cameră."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/sentence_patul-este-in-camera.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 14112,
-      "sha1": "b440211b0bb65010b622f9a27e0070597e374a6c"
-    },
-    "tags": [
-      "sentences#home-objects-and-places"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "sentence_patul-este-in-camera"
-  },
-  {
-    "id": "sentence_scaunul-este-langa-masa",
-    "section": "library/dictionary",
-    "kind": "sentence",
-    "lang": "ro",
-    "source": "media",
-    "term": "Scaunul este lângă masă.",
-    "names": {
-      "en": "The chair is next to the table.",
-      "ro": "Scaunul este lângă masă."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/sentence_scaunul-este-langa-masa.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 16272,
-      "sha1": "ff5cfde15a5d88faf5fd02f55ca90f013914b4b1"
-    },
-    "tags": [
-      "sentences#home-objects-and-places"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "sentence_scaunul-este-langa-masa"
+    "entity_id": "word_casa"
   },
   {
     "id": "word_apartament",
@@ -384,25 +58,25 @@
     "entity_id": "word_apartament"
   },
   {
-    "id": "word_baie",
+    "id": "word_usa",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
     "source": "media",
-    "term": "baie",
+    "term": "ușă",
     "names": {
-      "en": "bathroom",
-      "es": "baño",
-      "it": "bagno",
-      "fr": "salle de bain",
-      "ro": "baie"
+      "en": "door",
+      "es": "puerta",
+      "it": "porta",
+      "fr": "porte",
+      "ro": "ușă"
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/word_baie.mp3",
+      "url": "https://media.verbologic.com/audio/ro/C3T02/word_usa.mp3",
       "mime": "audio/mpeg",
       "bytes": 10656,
-      "sha1": "a38e8509ad831be0468060f770157016a5494a76"
+      "sha1": "a9b9e2cbc95befc4543422507ba138e0d357276c"
     },
     "tags": [
       "vocabulary#home-objects"
@@ -410,94 +84,7 @@
     "context": null,
     "example": null,
     "topic": "C3T02",
-    "entity_id": "word_baie"
-  },
-  {
-    "id": "word_casa",
-    "section": "library/dictionary",
-    "kind": "word",
-    "lang": "ro",
-    "source": "media",
-    "term": "casă",
-    "names": {
-      "en": "house",
-      "es": "casa",
-      "it": "casa",
-      "fr": "maison",
-      "ro": "casă"
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/word_casa.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "01ae3a2ce30b17a14854fb20a6a8379912d2915d"
-    },
-    "tags": [
-      "vocabulary#home-objects"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "word_casa"
-  },
-  {
-    "id": "word_cheie",
-    "section": "library/dictionary",
-    "kind": "word",
-    "lang": "ro",
-    "source": "media",
-    "term": "cheie",
-    "names": {
-      "en": "key",
-      "es": "llave",
-      "it": "chiave",
-      "fr": "clé",
-      "ro": "cheie"
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/word_cheie.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "4adf61a0982887763c2754cd338061c8318e72ef"
-    },
-    "tags": [
-      "vocabulary#home-objects"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "word_cheie"
-  },
-  {
-    "id": "word_dulap",
-    "section": "library/dictionary",
-    "kind": "word",
-    "lang": "ro",
-    "source": "media",
-    "term": "dulap",
-    "names": {
-      "en": "wardrobe",
-      "es": "armario",
-      "it": "armadio",
-      "fr": "armoire",
-      "ro": "dulap"
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/word_dulap.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "8f242c2b3f5c68c4fc2b8d1b8d7e1d9cb8886d2a"
-    },
-    "tags": [
-      "vocabulary#home-objects"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "word_dulap"
+    "entity_id": "word_usa"
   },
   {
     "id": "word_fereastra",
@@ -558,35 +145,6 @@
     "entity_id": "word_masa"
   },
   {
-    "id": "word_pat",
-    "section": "library/dictionary",
-    "kind": "word",
-    "lang": "ro",
-    "source": "media",
-    "term": "pat",
-    "names": {
-      "en": "bed",
-      "es": "cama",
-      "it": "letto",
-      "fr": "lit",
-      "ro": "pat"
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/word_pat.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "c2edb71b961acfe76c84c7b5f9dabe71b99b088d"
-    },
-    "tags": [
-      "vocabulary#home-objects"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C3T02",
-    "entity_id": "word_pat"
-  },
-  {
     "id": "word_scaun",
     "section": "library/dictionary",
     "kind": "word",
@@ -616,25 +174,25 @@
     "entity_id": "word_scaun"
   },
   {
-    "id": "word_usa",
+    "id": "word_pat",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
     "source": "media",
-    "term": "ușă",
+    "term": "pat",
     "names": {
-      "en": "door",
-      "es": "puerta",
-      "it": "porta",
-      "fr": "porte",
-      "ro": "ușă"
+      "en": "bed",
+      "es": "cama",
+      "it": "letto",
+      "fr": "lit",
+      "ro": "pat"
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/word_usa.mp3",
+      "url": "https://media.verbologic.com/audio/ro/C3T02/word_pat.mp3",
       "mime": "audio/mpeg",
       "bytes": 10656,
-      "sha1": "a9b9e2cbc95befc4543422507ba138e0d357276c"
+      "sha1": "c2edb71b961acfe76c84c7b5f9dabe71b99b088d"
     },
     "tags": [
       "vocabulary#home-objects"
@@ -642,6 +200,93 @@
     "context": null,
     "example": null,
     "topic": "C3T02",
-    "entity_id": "word_usa"
+    "entity_id": "word_pat"
+  },
+  {
+    "id": "word_dulap",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ro",
+    "source": "media",
+    "term": "dulap",
+    "names": {
+      "en": "wardrobe",
+      "es": "armario",
+      "it": "armadio",
+      "fr": "armoire",
+      "ro": "dulap"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/C3T02/word_dulap.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 10656,
+      "sha1": "8f242c2b3f5c68c4fc2b8d1b8d7e1d9cb8886d2a"
+    },
+    "tags": [
+      "vocabulary#home-objects"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C3T02",
+    "entity_id": "word_dulap"
+  },
+  {
+    "id": "word_baie",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ro",
+    "source": "media",
+    "term": "baie",
+    "names": {
+      "en": "bathroom",
+      "es": "baño",
+      "it": "bagno",
+      "fr": "salle de bain",
+      "ro": "baie"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/C3T02/word_baie.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 10656,
+      "sha1": "a38e8509ad831be0468060f770157016a5494a76"
+    },
+    "tags": [
+      "vocabulary#home-objects"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C3T02",
+    "entity_id": "word_baie"
+  },
+  {
+    "id": "word_cheie",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ro",
+    "source": "media",
+    "term": "cheie",
+    "names": {
+      "en": "key",
+      "es": "llave",
+      "it": "chiave",
+      "fr": "clé",
+      "ro": "cheie"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/C3T02/word_cheie.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 10656,
+      "sha1": "4adf61a0982887763c2754cd338061c8318e72ef"
+    },
+    "tags": [
+      "vocabulary#home-objects"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C3T02",
+    "entity_id": "word_cheie"
   }
 ]

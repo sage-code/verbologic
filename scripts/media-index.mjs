@@ -395,9 +395,11 @@ function emit(relPath, payload) {
 
 const byId = (a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)
 
+// Topic files keep the sidebar's item order — it is the teaching order
+// (e.g. a question row is followed by its answers).
 for (const [key, records] of recordsBySectionTopic) {
   const [section, topic] = key.split('\n')
-  emit(`${section}/${topic}.json`, [...records].sort(byId))
+  emit(`${section}/${topic}.json`, records)
 }
 
 /* ── section search index ─────────────────────────────────────────────────

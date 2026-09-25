@@ -1,18 +1,17 @@
-// AddCreditsDialog — per-language top-up (the + button on a Library panel).
-// Shows the current balance, offers selectable credit packs, and buys the
-// picked one via libraryStore.topUp (dummy purchase until payment lands —
-// the store also upserts the enrollment to Supabase when signed in).
-// Mounted with v-if — a fresh mount resets the pack selection.
+// AddCreditsDialog — buy credits into the user-level POOL (the coin button
+// next to Add Language in the Library header). One balance for every
+// language: the pool is then split per language with the gear button
+// (LanguageCreditSettings), which can also take credits back into the pool.
+// Packs are selectable radio rows; Buy adds to the pool via
+// libraryStore.addCredits (dummy purchase until payment lands) and shows the
+// new balance inline. Mounted with v-if — a fresh mount resets the pick.
 <script setup lang="ts">
-import { CreditCardIcon } from '@heroicons/vue/20/solid'
-import type { Enrollment } from '~/stores/libraryStore'
+import { BanknotesIcon } from '@heroicons/vue/20/solid'
 import { useLibraryStore } from '~/stores/libraryStore'
 
-const props = defineProps<{ enrollment: Enrollment }>()
 const emit = defineEmits<{ close: [] }>()
 
 const copy = useCopy()
-const { languageName } = useNavigation()
 const store = useLibraryStore()
 
 /** Selectable packs — radio-style rows, one picked at a time. */
@@ -26,7 +25,7 @@ const picked = ref(PACKS[0].credits)
 const bought = ref(false)
 
 function buy() {
-  store.topUp(props.enrollment.locale, picked.value)
+  store.addCredits(picked.value)
   bought.value = true
 }
 </script>
@@ -37,14 +36,20 @@ function buy() {
     :close-label="copy('ui.close', 'Close')"
     @close="emit('close')"
   >
-    <!-- Language + current balance -->
-    <div class="flex items-center justify-between gap-3 rounded-xl bg-soft p-4">
-      <p class="font-semibold text-content">{{ languageName(enrollment.locale) }}</p>
-      <p class="text-sm text-muted">
-        {{ copy('library.credits_left', 'Credits left') }}:
-        <span class="font-bold text-accent">{{ store.creditsLeft(enrollment) }}</span>
-      </p>
+    <!-- Current pool: total bought vs. still unallocated -->
+    <div class="flex flex-wrap items-center justify-between gap-3 rounded-xl bg-soft p-4">
+      <div>
+        <p class="text-xs text-muted">{{ copy('library.pool_total', 'Credits in pool') }}</p>
+        <p class="mt-0.5 text-2xl font-extrabold text-content">{{ store.creditPool }}</p>
+      </div>
+      <div class="text-right">
+        <p class="text-xs text-muted">{{ copy('library.settings_total', 'Total credit available') }}</p>
+        <p class="mt-0.5 text-2xl font-extrabold text-accent">{{ store.poolAvailable }}</p>
+      </div>
     </div>
+    <p class="mt-2 text-xs text-faint">
+      {{ copy('library.pool_hint', 'One balance for all languages — allocate per language with the gear button on each panel.') }}
+    </p>
 
     <!-- Packs: pick one, buy it -->
     <div
@@ -77,9 +82,9 @@ function buy() {
       role="status"
       aria-live="polite"
     >
-      {{ copy('library.topup_done', 'Added {n} credits to {lang}.').replace('{n}', String(picked)).replace('{lang}', languageName(enrollment.locale)) }}
-      {{ copy('library.credits_left', 'Credits left') }}:
-      {{ store.creditsLeft(enrollment) }}
+      {{ copy('library.topup_done', 'Added {n} credits to your pool.').replace('{n}', String(picked)) }}
+      {{ copy('library.settings_total', 'Total credit available') }}:
+      {{ store.poolAvailable }}
     </p>
 
     <template #footer>
@@ -89,7 +94,7 @@ function buy() {
         class="flex flex-1 items-center justify-center gap-2 rounded-full bg-accent px-5 py-2.5 font-semibold text-on-accent transition hover:bg-accent-strong"
         @click="buy"
       >
-        <CreditCardIcon class="h-5 w-5 shrink-0" aria-hidden="true" />
+        <BanknotesIcon class="h-5 w-5 shrink-0" aria-hidden="true" />
         {{ copy('library.buy', 'Buy') }}
       </button>
       <button

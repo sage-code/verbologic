@@ -16,7 +16,7 @@ import type { TrackId } from '~/data/tracks'
 import type { MediaRecord, MediaRow } from '~/types/media'
 import type { MediaIndex, SidebarSection, SidebarTopic, TopicLayout } from '~/types/sidebars'
 import { useMedia } from '~/composables/useMedia'
-import { fold, matchesDictionaryQuery } from '~/lib/dictionarySearch'
+import { matchesDictionaryQuery } from '~/lib/dictionarySearch'
 
 const LOCALES = ['en', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
 
@@ -98,9 +98,11 @@ export const useRoadmapStore = defineStore('roadmap', () => {
   const pageSize = ref(13)
 
   /**
-   * Translation-search mode (the toolbar's filter button): ON = dictionary-wide
-   * substring match on the rendered translation; OFF = term prefix on the open
-   * topic. The mode persists across topics (like Repeat); the query resets.
+   * Translation-search mode (the toolbar's filter button): ON = substring
+   * match on the rendered translation; OFF = term prefix (the first letters).
+   * Both run DICTIONARY-WIDE over the search index — the dictionary is
+   * single words now, so a first-letters scan across every topic makes
+   * sense. The mode persists across topics (like Repeat); the query resets.
    */
   const searchInTranslation = ref(false)
   /** Dictionary-wide search rows (the lazy search.json payload, lang-filtered). */
@@ -111,26 +113,40 @@ export const useRoadmapStore = defineStore('roadmap', () => {
   /** The UI language (the translation column) — reactive to the top-bar switcher. */
   const { lang: uiLang } = useLocale()
 
+  /** The search SCOPE — a learning dictionary: the words searched are the
+   *  ones in focus. A topic is open → that topic; else a chapter is selected
+   *  → that chapter's topics; else (all chapters closed) → every chapter. */
+  const searchTopicCodes = computed<Set<string> | null>(() => {
+    if (topicCode.value) return new Set([topicCode.value])
+    const c = chapters.value.find((sec: SidebarSection) => sec.code === chapterCode.value)
+    return c ? new Set(c.topics.map((t: SidebarTopic) => t.code)) : null
+  })
+
   /**
-   * Dictionary-wide translation hits: the search.json rows (filtered by the
-   * track language) whose rendered gloss contains the committed query.
+   * Scope-filtered hits: the search.json rows (filtered by the track
+   * language) matching the committed query — translation substring in filter
+   * mode, term prefix otherwise — narrowed to the topic/chapter in focus,
+   * or every chapter when nothing is selected. Chapters and topics are
+   * never filtered: a committed query always shows WORDS.
    */
   const searchResults = computed<MediaRow[]>(() => {
     if (!searchIndexReady.value) return []
-    return searchIndex.value.filter((r: MediaRow) =>
-      matchesDictionaryQuery(r, dictionaryQuery.value, true, uiLang.value)
+    const scope = searchTopicCodes.value
+    const inTopic = topicCode.value
+    return searchIndex.value.filter(
+      (r: MediaRow) =>
+        (!scope || (inTopic ? r.topic === topicCode.value : scope.has(r.topic))) &&
+        matchesDictionaryQuery(r, dictionaryQuery.value, searchInTranslation.value, uiLang.value)
     )
   })
 
-  /** Search active: the filter is ON and a non-empty query is committed. */
-  const searchActive = computed(() => searchInTranslation.value && dictionaryQuery.value.trim() !== '')
+  /** Search active: a non-empty query is committed (any mode). */
+  const searchActive = computed(() => dictionaryQuery.value.trim() !== '')
 
-  /** Dictionary rows: the search hits (filter on), or the open topic's rows. */
+  /** Dictionary rows: the search hits (query committed), or the open topic's rows. */
   const dictionaryRows = computed<MediaRow[]>(() => {
     if (searchActive.value) return searchResults.value
-    const query = dictionaryQuery.value
-    if (!fold(query)) return records.value
-    return records.value.filter((r: MediaRecord) => matchesDictionaryQuery(r, query, false, uiLang.value))
+    return records.value
   })
 
   const pageCount = computed(() => Math.max(1, Math.ceil(dictionaryRows.value.length / pageSize.value)))
@@ -143,7 +159,7 @@ export const useRoadmapStore = defineStore('roadmap', () => {
   function setDictionaryQuery(query: string) {
     dictionaryQuery.value = query
     page.value = 1
-    if (searchInTranslation.value && query.trim()) void ensureSearchIndex()
+    if (query.trim()) void ensureSearchIndex()
   }
 
   /** Toggle the translation-search mode (the toolbar's filter button). */

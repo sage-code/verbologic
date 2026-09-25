@@ -15,6 +15,8 @@ import TopicTable from './layouts/TopicTable.vue'
 import TopicArticle from './layouts/TopicArticle.vue'
 import TopicGallery from './layouts/TopicGallery.vue'
 import ChaptersTable from './ChaptersTable.vue'
+import WordSearchBar from './WordSearchBar.vue'
+import { mediaName } from '~/composables/useMedia'
 
 const props = withDefaults(defineProps<{ lang: string; track?: TrackId }>(), { track: 'dictionary' })
 
@@ -120,6 +122,26 @@ const chapterPct = computed(() => {
   const p = chapterProgress.value
   return p.total > 0 ? Math.round((p.done / p.total) * 100) : 0
 })
+
+/**
+ * The title above the persistent search bar — the thing in focus: the open
+ * topic ('<code>: <title>'), else the selected chapter, else every chapter.
+ * A committed word search names itself and counts its hits.
+ */
+const frameTitle = computed(() => {
+  if (store.searchActive) {
+    return `${copy('dictionary.search_results', 'Search results')} — ${store.searchResults.length}`
+  }
+  if (store.topic) {
+    const code = store.topicCode ?? ''
+    const name = mediaName(store.topic.names, uiLang.value, code)
+    return code ? `${code}: ${name}` : name
+  }
+  if (store.chapter) {
+    return mediaName(store.chapter.names, uiLang.value, store.chapter.code)
+  }
+  return copy('roadmap.all_chapters', 'All chapters')
+})
 </script>
 
 <template>
@@ -183,8 +205,21 @@ const chapterPct = computed(() => {
         </div>
       </Teleport>
 
+      <!-- The persistent top bar: the focus title above the word search —
+           visible in EVERY state below (topic table · chapter TOC · topic
+           list). Committing a query always filters WORDS, scoped to the
+           topic/chapter in focus (or every chapter when nothing is). -->
+      <h2 class="flex h-10 items-center truncate text-lg font-semibold text-content">
+        {{ frameTitle }}
+      </h2>
+      <WordSearchBar />
+
+      <!-- Committed word search with no topic open: the results table takes
+           the pane (chapters/topics lists are never word-filtered) -->
+      <TopicTable v-if="store.searchActive && !store.topicCode" />
+
       <!-- Open topic: the pane is the topic's LAYOUT (table · article · gallery) -->
-      <component :is="TOPIC_LAYOUTS[store.topicLayout]" v-if="store.topicCode && store.topic" />
+      <component :is="TOPIC_LAYOUTS[store.topicLayout]" v-else-if="store.topicCode && store.topic" />
 
       <!-- Chapters TOC mode: the chapter table (toggled from the rail) -->
       <ChaptersTable v-else-if="store.showChapters" />

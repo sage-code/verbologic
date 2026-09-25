@@ -6,14 +6,16 @@
 // dictionary-wide search results (the toolbar's filter mode), which take
 // precedence regardless of the topic underneath.
 // Columns: name in the learning language (the File ID stays in the DOM as a
-// hidden sr-only field) · translation · per-row
-// play button (blinks while its file plays, squares ■ while it loops under
-// Repeat) · learned toggle. The header's check-all scope is the visible page.
+// hidden sr-only field) · IPA (Dictionary only — words are short, so the
+// narrower columns still fit; the Lectures' expressions never show IPA) ·
+// translation · per-row play button (blinks while its file plays, squares ■
+// while it loops under Repeat) · learned toggle. The header's check-all scope
+// is the visible page. Lectures rows get a fixed two-line height — long
+// expressions wrap, short ones sit centered in an equal-height row.
 <script setup lang="ts">
 import { ArrowPathIcon, CheckIcon } from '@heroicons/vue/20/solid'
 import { useRoadmapStore, PROGRESS_KEY } from '~/stores/roadmapStore'
 import { useAudioQueue, type QueueItem } from '~/composables/useAudioQueue'
-import { mediaName } from '~/composables/useMedia'
 import { glossName } from '~/lib/dictionarySearch'
 import { THEAD_STICKY_TOP } from '~/lib/roadmapRail'
 import type { MediaNames, MediaRow } from '~/types/media'
@@ -34,10 +36,6 @@ const activeId = computed(() => (queue.isPlaying.value ? queue.currentId.value :
 /** The row's file is playing in a loop (Repeat was on when it started). */
 const rowLooping = (r: MediaRow) => queue.loop.value && activeId.value === r.entity_id
 
-const topicTitle = computed(() =>
-  store.topic ? mediaName(store.topic.names, uiLang.value, store.topic.code) : ''
-)
-
 /** Queue items for the current page — ids are the progress entity_ids. */
 const queueItems = computed<QueueItem[]>(() =>
   rows.value.map((r: MediaRow) => ({ id: r.entity_id, url: r.media.url }))
@@ -51,6 +49,10 @@ const gloss = (r: MediaRow): string => glossName(r.names, r.lang, uiLang.value)
  *  the target language (the gloss falls back to names.en in that case). */
 const nameHeader = computed(() => languageName(store.lang))
 const glossHeader = computed(() => languageName(uiLang.value !== store.lang ? uiLang.value : 'en'))
+
+/** Dictionary track: words only — an IPA column fits beside the name. The
+ *  Lectures' expressions never show IPA. */
+const isDictionary = computed(() => store.track === 'dictionary')
 
 const isLearned = (r: MediaRow) => (progress ? progress.isLearned(r.entity_id) : false)
 const toggleLearned = (r: MediaRow) => void progress?.toggleLearned(r.entity_id)
@@ -117,17 +119,6 @@ watch(activeId, (id: string | null) => {
   void nextTick(() => followActive(id))
 })
 
-/** Banner: '<code>: <title>' — search results say so and count themselves. */
-const banner = computed(() => {
-  if (store.searchActive) {
-    return {
-      code: '',
-      title: `${copy('dictionary.search_results', 'Search results')} — ${store.dictionaryRows.length}`
-    }
-  }
-  return { code: store.topicCode ?? '', title: topicTitle.value }
-})
-
 // Structural changes invalidate the run — stop the autoplay. The viewport
 // stays where it is on page changes (no forced jump to the top).
 watch(
@@ -143,19 +134,8 @@ watch(
 </script>
 <template>
   <div class="space-y-1.5">
-    <!-- Banner: '<topic code>: <title>' with the page pill on the same line -->
-    <header class="flex h-10 items-center justify-between gap-1.5">
-      <h2 class="truncate text-lg font-semibold text-content">
-        <span v-if="banner.code" class="font-code text-sm text-faint">{{ banner.code }}:</span>
-        {{ banner.title }}
-      </h2>
-      <span
-        class="inline-flex h-7 w-24 shrink-0 items-center justify-center rounded-full border border-edge bg-surface text-xs tabular-nums text-muted"
-      >
-        {{ copy('dictionary.page', 'Page') }}: {{ store.page }}/{{ store.pageCount }}
-      </span>
-    </header>
-
+    <!-- The frame title + word search bar live in RoadmapShell (always
+         visible); this pane starts at the table toolbar. -->
     <DictionaryToolbar :queue="queue" :items="queueItems" :on-cycle="onCycle" :on-item-ended="onItemEnded" />
 
     <div
@@ -182,6 +162,9 @@ watch(
         <thead class="sticky z-10 bg-soft text-left text-xs uppercase tracking-wide text-faint" :class="THEAD_STICKY_TOP">
           <tr>
             <th class="px-3 py-2 font-medium">{{ nameHeader }}</th>
+            <th v-if="isDictionary" class="px-3 py-2 font-medium">
+              {{ copy('dictionary.col_ipa', 'IPA') }}
+            </th>
             <th class="hidden px-3 py-2 font-medium sm:table-cell">
               {{ glossHeader }}
             </th>
@@ -218,7 +201,7 @@ watch(
             :id="`dict-row-${r.entity_id}`"
             :key="r.entity_id"
             class="scroll-mt-24 border-t border-edge transition-colors"
-            :class="activeId === r.entity_id ? 'bg-accent-soft' : 'hover:bg-soft'"
+            :class="[activeId === r.entity_id ? 'bg-accent-soft' : 'hover:bg-soft', isDictionary ? '' : 'expr-row']"
             @click="stopAutoplay"
           >
             <td class="px-3 py-2">
@@ -226,7 +209,6 @@ watch(
                    field — no visible column anymore -->
               <span class="sr-only">{{ r.id }}</span>
               <span class="font-medium text-content">{{ r.term }}</span>
-              <span v-if="r.ipa" class="ml-1.5 rounded bg-soft px-1.5 py-0.5 text-xs text-muted">{{ r.ipa }}</span>
               <span v-if="r.context" class="mt-0.5 block text-xs text-faint" :title="r.context">{{ r.context }}</span>
               <!-- Search results come from every topic: the chip names the
                    row's topic and jumps straight into its word table -->
@@ -239,6 +221,11 @@ watch(
               >
                 {{ r.topic }}
               </button>
+            </td>
+            <!-- IPA column (Dictionary only) — muted mono, blank until the
+                 transcription is authored on the entity -->
+            <td v-if="isDictionary" class="whitespace-nowrap px-3 py-2 font-code text-xs text-muted">
+              {{ r.ipa ?? '' }}
             </td>
             <td class="hidden px-3 py-2 text-muted sm:table-cell">{{ gloss(r) }}</td>
             <td class="px-3 py-2 text-center">
@@ -279,3 +266,13 @@ watch(
     </div>
   </div>
 </template>
+
+<style scoped>
+/* Expression rows (Lectures and any non-dictionary table): fixed two-line
+ * height so long wrapped expressions and short ones render equal-height —
+ * the text is vertically centered in both. */
+.expr-row td {
+  height: 3.4rem;
+  vertical-align: middle;
+}
+</style>

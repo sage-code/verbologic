@@ -34,6 +34,8 @@ const phonePending = ref(false)
 /** The number the awaited SMS code was sent to. */
 const phoneTarget = ref('')
 const newPassword = ref('')
+/** Confirmation copy of the new password — Save requires an exact match. */
+const confirmPassword = ref('')
 const showPassword = ref(false)
 const busy = ref(false)
 const status = ref<{ kind: 'info' | 'error' | 'success'; text: string } | null>(null)
@@ -376,6 +378,7 @@ function toggleEdit(field: 'name' | 'email' | 'phone' | 'password') {
   } else {
     editPassword.value = !editPassword.value
     newPassword.value = ''
+    confirmPassword.value = ''
     showPassword.value = false
   }
 }
@@ -391,6 +394,8 @@ const phoneDirty = computed(
   () => editPhone.value && cleanPhone(phoneInput.value) !== cleanPhone(currentPhone.value) && cleanPhone(phoneInput.value) !== ''
 )
 const passwordDirty = computed(() => editPassword.value && newPassword.value.length > 0)
+/** Both password fields typed and identical — required before saving. */
+const passwordsMatch = computed(() => newPassword.value === confirmPassword.value)
 
 /** E-mail is unverified: never confirmed, or a change awaits its link. */
 const emailUnverified = computed(() => Boolean(store.user && (!store.user.emailVerified || store.user.pendingEmail)))
@@ -555,6 +560,10 @@ async function securitySubmit() {
     setSecurity('error', copy('account.password_min', 'At least 8 characters.'))
     return
   }
+  if (passwordDirty.value && !passwordsMatch.value) {
+    setSecurity('error', copy('profile.password_mismatch', 'The two passwords do not match.'))
+    return
+  }
   busy.value = true
   if (passwordDirty.value) {
     const res = await store.updatePassword(newPassword.value)
@@ -564,6 +573,7 @@ async function securitySubmit() {
     }
     editPassword.value = false
     newPassword.value = ''
+    confirmPassword.value = ''
     showPassword.value = false
     setSecurity('success', copy('account.saved', 'Saved.'))
   }
@@ -1017,6 +1027,15 @@ async function securitySubmit() {
               {{ copy('account.name_label', 'Full name') }}
             </label>
             <div class="mt-1 flex items-center gap-2">
+              <input
+                id="profile-name"
+                v-model="nameInput"
+                type="text"
+                autocomplete="name"
+                :readonly="!editName"
+                class="profile-field"
+                @keydown.enter="identitySubmit"
+              >
               <button
                 type="button"
                 class="pen-btn"
@@ -1029,15 +1048,6 @@ async function securitySubmit() {
                 <XMarkIcon v-if="editName" class="h-4 w-4" aria-hidden="true" />
                 <PencilIcon v-else class="h-4 w-4" aria-hidden="true" />
               </button>
-              <input
-                id="profile-name"
-                v-model="nameInput"
-                type="text"
-                autocomplete="name"
-                :readonly="!editName"
-                class="profile-field"
-                @keydown.enter="identitySubmit"
-              >
             </div>
           </div>
 
@@ -1057,6 +1067,15 @@ async function securitySubmit() {
               </span>
             </div>
             <div class="mt-1 flex items-center gap-2">
+              <input
+                id="profile-email"
+                v-model="emailInput"
+                type="email"
+                autocomplete="email"
+                :readonly="!editEmail"
+                class="profile-field"
+                @keydown.enter="identitySubmit"
+              >
               <button
                 type="button"
                 class="pen-btn"
@@ -1069,15 +1088,6 @@ async function securitySubmit() {
                 <XMarkIcon v-if="editEmail" class="h-4 w-4" aria-hidden="true" />
                 <PencilIcon v-else class="h-4 w-4" aria-hidden="true" />
               </button>
-              <input
-                id="profile-email"
-                v-model="emailInput"
-                type="email"
-                autocomplete="email"
-                :readonly="!editEmail"
-                class="profile-field"
-                @keydown.enter="identitySubmit"
-              >
             </div>
             <p v-if="store.user?.pendingEmail" class="mt-1 text-xs text-muted">
               {{ copy('profile.email_pending', 'Waiting for confirmation: {email}').replace('{email}', store.user.pendingEmail) }}
@@ -1134,6 +1144,17 @@ async function securitySubmit() {
               </span>
             </div>
             <div class="mt-1 flex items-center gap-2">
+              <input
+                id="profile-phone"
+                v-model="phoneInput"
+                type="tel"
+                inputmode="tel"
+                autocomplete="tel"
+                :readonly="!editPhone"
+                :placeholder="copy('account.phone_placeholder', '+40 7xx xxx xxx')"
+                class="profile-field"
+                @keydown.enter="securitySubmit"
+              >
               <button
                 type="button"
                 class="pen-btn"
@@ -1146,17 +1167,6 @@ async function securitySubmit() {
                 <XMarkIcon v-if="editPhone" class="h-4 w-4" aria-hidden="true" />
                 <PencilIcon v-else class="h-4 w-4" aria-hidden="true" />
               </button>
-              <input
-                id="profile-phone"
-                v-model="phoneInput"
-                type="tel"
-                inputmode="tel"
-                autocomplete="tel"
-                :readonly="!editPhone"
-                :placeholder="copy('account.phone_placeholder', '+40 7xx xxx xxx')"
-                class="profile-field"
-                @keydown.enter="securitySubmit"
-              >
             </div>
             <!-- SMS code: opens after a code is sent; footer button confirms -->
             <div v-if="phonePending" class="mt-2 rounded-xl bg-soft p-4">
@@ -1187,24 +1197,13 @@ async function securitySubmit() {
             </div>
           </div>
 
-          <!-- Password: pen to edit; full-width field with eye toggle -->
+          <!-- Password: pen to edit (right of the field); typing it twice is
+               required — Save rejects a mismatch. -->
           <div class="border-t border-edge pt-4">
             <label for="profile-password" class="block text-sm font-medium text-muted">
               {{ copy('account.password_label', 'Password') }}
             </label>
             <div class="mt-1 flex items-center gap-2">
-              <button
-                type="button"
-                class="pen-btn"
-                :class="{ 'is-active': editPassword }"
-                :aria-label="copy(editPassword ? 'profile.edit_cancel' : 'profile.edit', editPassword ? 'Cancel editing' : 'Edit')"
-                :title="copy(editPassword ? 'profile.edit_cancel' : 'profile.edit', editPassword ? 'Cancel editing' : 'Edit')"
-                :aria-pressed="editPassword"
-                @click="toggleEdit('password')"
-              >
-                <XMarkIcon v-if="editPassword" class="h-4 w-4" aria-hidden="true" />
-                <PencilIcon v-else class="h-4 w-4" aria-hidden="true" />
-              </button>
               <div class="relative min-w-0 flex-1">
                 <input
                   id="profile-password"
@@ -1227,8 +1226,43 @@ async function securitySubmit() {
                   <EyeIcon v-else class="h-5 w-5" aria-hidden="true" />
                 </button>
               </div>
+              <button
+                type="button"
+                class="pen-btn"
+                :class="{ 'is-active': editPassword }"
+                :aria-label="copy(editPassword ? 'profile.edit_cancel' : 'profile.edit', editPassword ? 'Cancel editing' : 'Edit')"
+                :title="copy(editPassword ? 'profile.edit_cancel' : 'profile.edit', editPassword ? 'Cancel editing' : 'Edit')"
+                :aria-pressed="editPassword"
+                @click="toggleEdit('password')"
+              >
+                <XMarkIcon v-if="editPassword" class="h-4 w-4" aria-hidden="true" />
+                <PencilIcon v-else class="h-4 w-4" aria-hidden="true" />
+              </button>
             </div>
-            <p v-if="editPassword" class="mt-1 text-xs text-faint">{{ copy('account.password_min', 'At least 8 characters.') }}</p>
+
+            <!-- Confirmation: same password again, shown while editing -->
+            <div v-if="editPassword" class="mt-3">
+              <label for="profile-password-confirm" class="block text-sm font-medium text-muted">
+                {{ copy('profile.password_confirm', 'Confirm password') }}
+              </label>
+              <input
+                id="profile-password-confirm"
+                v-model="confirmPassword"
+                :type="showPassword ? 'text' : 'password'"
+                autocomplete="new-password"
+                :placeholder="copy('account.password_placeholder', '••••••••')"
+                class="profile-field mt-1"
+                @keydown.enter="securitySubmit"
+              >
+              <p
+                v-if="confirmPassword && !passwordsMatch"
+                class="mt-1 text-xs font-medium text-accent"
+                role="alert"
+              >
+                {{ copy('profile.password_mismatch', 'The two passwords do not match.') }}
+              </p>
+              <p v-else class="mt-1 text-xs text-faint">{{ copy('account.password_min', 'At least 8 characters.') }}</p>
+            </div>
           </div>
         </div>
 

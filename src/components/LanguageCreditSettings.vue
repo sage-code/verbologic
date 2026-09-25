@@ -1,11 +1,12 @@
 // LanguageCreditSettings — per-language credit settings modal over AppDialog
 // (round ✕ top-right, Escape / backdrop close, focus trap come from the shell).
-// Shows the language's TOTAL CREDIT AVAILABLE (remaining balance minus the
-// allocated slice) and the CREDIT ALLOCATED to that language (a draft value,
-// labeled with the language name known at dialog start). Inside the allocated
-// card sits a stepper: [−] [step] [+]. The step field starts at 10$ and can be
-// switched to 1, 5, 10 or 20. [−] moves credits from the allocation back to
-// the available total; [+] moves credits from the available total into the
+// Credits live in the user-level POOL (one balance for all languages). This
+// dialog moves credits between the pool and this language's allocation: it
+// shows the pool's TOTAL CREDIT AVAILABLE (unallocated slice, tracked live)
+// and the CREDIT ALLOCATED to the language (a draft value). Inside the
+// allocated card sits a stepper: [−] [step] [+]. The step field starts at 10$
+// and can be switched to 1, 5, 10 or 20. [−] takes credits from the
+// allocation back into the pool; [+] moves unallocated pool credits into the
 // allocation. The keyboard fine-tunes too: ↑/↓ = ±$1, PageUp/PageDown = ±$10.
 // Apply commits the draft via libraryStore.setAllocation(); Cancel (or ✕ /
 // Escape / backdrop) discards — nothing moves until Apply.
@@ -34,14 +35,15 @@ const STEP_OPTIONS = [1, 5, 10, 20] as const
 /** Chosen transfer step (starts at $10). */
 const step = ref<number>(10)
 
-/** Ceiling for the allocation: the language's whole remaining balance. */
-const maxAlloc = computed(() => store.creditsLeft(props.enrollment))
+/** Ceiling for the allocation: the current allocation plus everything still
+ *  unallocated in the pool (the pool is the only source). */
+const maxAlloc = computed(() => store.allocationFor(props.enrollment.locale) + store.poolAvailable)
 
 /** Draft allocation — nothing is committed until Apply. */
 const allocated = ref(Math.min(store.allocationFor(props.enrollment.locale), maxAlloc.value))
 
-/** Total credit available (unallocated slice of the balance), tracked live. */
-const totalAvailable = computed(() => maxAlloc.value - allocated.value)
+/** Total credit available (the pool's unallocated slice), tracked live. */
+const totalAvailable = computed(() => store.poolAvailable + (store.allocationFor(props.enrollment.locale) - allocated.value))
 
 function clamp(v: number): number {
   return Math.max(0, Math.min(v, maxAlloc.value))

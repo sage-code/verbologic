@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-09-24T13:25:31.419Z",
+  "generated": "2026-09-24T23:50:42.167Z",
   "counts": {
     "library/dictionary": {
       "C1T01": {},
@@ -14,17 +14,15 @@
       "C1T09": {},
       "C1T10": {},
       "C1T11": {
-        "ro": 19
+        "ro": 4
       },
       "C1T12": {
-        "ro": 9
+        "ro": 4
       },
       "C2T01": {},
-      "C2T02": {
-        "ro": 9
-      },
+      "C2T02": {},
       "C2T03": {
-        "ro": 25
+        "ro": 11
       },
       "C2T04": {},
       "C2T05": {},
@@ -35,45 +33,37 @@
       "C2T10": {},
       "C2T11": {},
       "C2T12": {
-        "ro": 24
+        "ro": 9
       },
-      "C3T01": {
-        "ro": 5
-      },
+      "C3T01": {},
       "C3T02": {
-        "ro": 24
+        "ro": 10
       },
       "C3T03": {},
       "C3T04": {
-        "ro": 19
+        "ro": 10
       },
-      "C3T05": {
-        "ro": 5
-      },
+      "C3T05": {},
       "C3T06": {},
       "C3T07": {},
       "C3T08": {
-        "ro": 24
+        "ro": 10
       },
       "C3T09": {
         "ro": 10
       },
       "C3T10": {},
       "C3T11": {
-        "ro": 24
+        "ro": 10
       },
-      "C3T12": {
-        "ro": 5
-      },
+      "C3T12": {},
       "C4T01": {},
       "C4T02": {},
       "C4T03": {},
       "C4T04": {
-        "ro": 24
+        "ro": 10
       },
-      "C4T05": {
-        "ro": 14
-      },
+      "C4T05": {},
       "C4T06": {},
       "C4T07": {},
       "C4T08": {},
@@ -81,12 +71,10 @@
       "C4T10": {},
       "C4T11": {},
       "C4T12": {},
-      "C5T01": {
-        "ro": 14
-      },
+      "C5T01": {},
       "C5T02": {},
       "C5T03": {
-        "ro": 29
+        "ro": 10
       },
       "C5T04": {},
       "C5T05": {},
@@ -101,37 +89,31 @@
       "C5T12": {},
       "C6T01": {},
       "C6T02": {
-        "ro": 19
+        "ro": 10
       },
       "C6T03": {},
       "C6T04": {},
       "C6T05": {},
       "C6T06": {},
       "C6T07": {},
-      "C6T08": {
-        "ro": 5
-      },
+      "C6T08": {},
       "C6T09": {},
       "C6T10": {},
       "C6T11": {},
       "C6T12": {},
       "C7T01": {
-        "ro": 19
+        "ro": 10
       },
-      "C7T02": {
-        "ro": 5
-      },
+      "C7T02": {},
       "C7T03": {
-        "ro": 28
+        "ro": 9
       },
       "C7T04": {},
       "C7T05": {},
-      "C7T06": {
-        "ro": 5
-      },
+      "C7T06": {},
       "C7T07": {},
       "C7T08": {
-        "ro": 24
+        "ro": 10
       },
       "C7T09": {},
       "C7T10": {},
@@ -140,9 +122,7 @@
       "C8T01": {
         "ro": 2
       },
-      "C8T02": {
-        "ro": 5
-      },
+      "C8T02": {},
       "C8T03": {},
       "C8T04": {},
       "C8T05": {},
@@ -203,112 +183,165 @@
       "C12T12": {}
     },
     "library/lectures": {
-      "C1T01": {
+      "L1T01": {
+        "ro": 1
+      },
+      "L1T02": {
         "en": 74,
         "ro": 30
       },
-      "C1T01A": {
+      "L1T03": {
         "ro": 1
       },
-      "C1T02": {
+      "L1T04": {
         "ro": 19
       },
-      "C1T03": {
+      "L1T05": {
+        "ro": 1
+      },
+      "L1T06": {
         "ro": 4
       },
-      "C1T04": {},
-      "C1T05": {},
-      "C1T06": {},
-      "C1T07": {},
-      "C1T08": {},
-      "C1T09": {},
-      "C1T10": {},
-      "C1T11": {},
-      "C1T12": {},
-      "C2T01": {},
-      "C2T02": {},
-      "C2T03": {},
-      "C2T04": {},
-      "C2T05": {},
-      "C2T06": {},
-      "C2T07": {},
-      "C2T08": {},
-      "C2T09": {},
-      "C2T10": {},
-      "C2T11": {},
-      "C2T12": {},
-      "C3T01": {},
-      "C3T02": {},
-      "C3T03": {},
-      "C3T04": {},
-      "C3T05": {},
-      "C3T06": {},
-      "C3T07": {},
-      "C3T08": {},
-      "C3T09": {},
-      "C3T10": {},
-      "C3T11": {},
-      "C3T12": {},
-      "C4T01": {},
-      "C4T02": {},
-      "C4T03": {},
-      "C4T04": {},
-      "C4T05": {},
-      "C4T06": {},
-      "C4T07": {},
-      "C4T08": {},
-      "C4T09": {},
-      "C4T10": {},
-      "C4T11": {},
-      "C4T12": {},
-      "C5T01": {},
-      "C5T02": {},
-      "C5T03": {},
-      "C5T04": {},
-      "C5T05": {},
-      "C5T06": {},
-      "C5T07": {},
-      "C5T08": {},
-      "C5T09": {},
-      "C5T10": {},
-      "C5T11": {},
-      "C5T12": {},
-      "C6T01": {},
-      "C6T02": {},
-      "C6T03": {},
-      "C6T04": {},
-      "C6T05": {},
-      "C6T06": {},
-      "C6T07": {},
-      "C6T08": {},
-      "C6T09": {},
-      "C6T10": {},
-      "C6T11": {},
-      "C6T12": {},
-      "C7T01": {},
-      "C7T02": {},
-      "C7T03": {},
-      "C7T04": {},
-      "C7T05": {},
-      "C7T06": {},
-      "C7T07": {},
-      "C7T08": {},
-      "C7T09": {},
-      "C7T10": {},
-      "C7T11": {},
-      "C7T12": {},
-      "C8T01": {},
-      "C8T02": {},
-      "C8T03": {},
-      "C8T04": {},
-      "C8T05": {},
-      "C8T06": {},
-      "C8T07": {},
-      "C8T08": {},
-      "C8T09": {},
-      "C8T10": {},
-      "C8T11": {},
-      "C8T12": {}
+      "L1T07": {},
+      "L2T01": {
+        "ro": 1
+      },
+      "L2T02": {
+        "ro": 5
+      },
+      "L2T03": {
+        "ro": 5
+      },
+      "L2T04": {
+        "ro": 5
+      },
+      "L2T05": {
+        "ro": 5
+      },
+      "L2T06": {
+        "ro": 5
+      },
+      "L2T07": {
+        "ro": 5
+      },
+      "L3T01": {
+        "ro": 1
+      },
+      "L3T02": {
+        "ro": 9
+      },
+      "L3T03": {
+        "ro": 9
+      },
+      "L3T04": {
+        "ro": 9
+      },
+      "L3T05": {
+        "ro": 9
+      },
+      "L3T06": {
+        "ro": 9
+      },
+      "L3T07": {
+        "ro": 9
+      },
+      "L3T08": {
+        "ro": 9
+      },
+      "L3T09": {
+        "ro": 9
+      },
+      "L3T10": {
+        "ro": 9
+      },
+      "L3T11": {
+        "ro": 9
+      },
+      "L3T12": {
+        "ro": 9
+      },
+      "L3T13": {
+        "ro": 9
+      },
+      "L3T14": {
+        "ro": 9
+      },
+      "L3T15": {
+        "ro": 9
+      },
+      "L3T16": {
+        "ro": 9
+      },
+      "L4T01": {
+        "ro": 1
+      },
+      "L4T02": {
+        "ro": 5
+      },
+      "L4T03": {
+        "ro": 5
+      },
+      "L4T04": {
+        "ro": 5
+      },
+      "L4T05": {
+        "ro": 5
+      },
+      "L4T06": {
+        "ro": 5
+      },
+      "L4T07": {
+        "ro": 5
+      },
+      "L4T08": {
+        "ro": 5
+      },
+      "L4T09": {
+        "ro": 5
+      },
+      "L4T10": {
+        "ro": 5
+      },
+      "L4T11": {
+        "ro": 5
+      },
+      "L4T12": {
+        "ro": 5
+      },
+      "L4T13": {
+        "ro": 5
+      },
+      "L4T14": {
+        "ro": 5
+      },
+      "L4T15": {
+        "ro": 5
+      },
+      "L4T16": {
+        "ro": 5
+      },
+      "L5T01": {},
+      "L5T02": {},
+      "L5T03": {},
+      "L5T04": {},
+      "L5T05": {},
+      "L5T06": {},
+      "L5T07": {},
+      "L6T01": {
+        "ro": 1
+      },
+      "L6T02": {
+        "ro": 16
+      },
+      "L6T03": {},
+      "L6T04": {},
+      "L7T01": {},
+      "L7T02": {},
+      "L7T03": {},
+      "L7T04": {},
+      "L7T05": {},
+      "L7T06": {},
+      "L7T07": {}
     },
     "library/stories": {
       "C1T01": {},
@@ -426,21 +459,6 @@
       "C1T10": {},
       "C1T11": {
         "ro": [
-          "greeting_salut",
-          "greeting_buna",
-          "greeting_ceao",
-          "greeting_buna-dimineata",
-          "greeting_buna-ziua",
-          "greeting_buna-seara",
-          "greeting_noapte-buna",
-          "greeting_pe-curand",
-          "greeting_la-revedere",
-          "greeting_sa-fii-sanatos",
-          "greeting_noroc-bun",
-          "greeting_sa-auzim-de-bine",
-          "greeting_sa-ne-vedem-sanatosi",
-          "greeting_noapte-buna-2",
-          "greeting_adio-si-noroc",
           "word_salut",
           "word_buna-ziua",
           "word_buna-seara",
@@ -452,28 +470,11 @@
           "word_te-rog",
           "word_multumesc",
           "word_cu-placere",
-          "word_scuze",
-          "imperative_spune-salut",
-          "imperative_spune-buna-ziua",
-          "imperative_spune-te-rog",
-          "imperative_spune-multumesc",
-          "imperative_spune-la-revedere"
+          "word_scuze"
         ]
       },
       "C2T01": {},
-      "C2T02": {
-        "ro": [
-          "question_ai-familie-mare",
-          "question_da-am-familie-mare",
-          "question_nu-am-familie-mica",
-          "question_copilul-este-acasa",
-          "question_da-copilul-este-acasa",
-          "question_nu-copilul-este-la-scoala",
-          "question_vecinul-este-acolo",
-          "question_da-vecinul-este-acolo",
-          "question_nu-vecinul-este-la-birou"
-        ]
-      },
+      "C2T02": {},
       "C2T03": {
         "ro": [
           "word_nume",
@@ -486,21 +487,7 @@
           "word_familie",
           "word_vecin",
           "word_coleg",
-          "word_coleg-2",
-          "sentence_eu-sunt-student",
-          "sentence_el-este-profesor",
-          "sentence_ea-este-femeie",
-          "sentence_el-este-prietenul-meu",
-          "sentence_familia-mea-are-un-copil",
-          "question_care-este-numele-tau",
-          "question_numele-meu-este-andrei",
-          "question_eu-sunt-maria",
-          "question_esti-student",
-          "question_da-sunt-student",
-          "question_nu-sunt-profesor",
-          "question_el-este-prietenul-tau",
-          "question_da-el-este-prietenul-meu",
-          "question_nu-el-este-colegul-meu"
+          "word_coleg-2"
         ]
       },
       "C2T04": {},
@@ -521,33 +508,10 @@
           "word_mi-e-foame",
           "word_mi-e-sete",
           "word_a-face",
-          "word_bine",
-          "word_imi-pare-bine",
-          "sentence_eu-spun-salut",
-          "sentence_eu-spun-multumesc",
-          "sentence_eu-sunt-fericit-azi",
-          "sentence_el-este-trist-azi",
-          "sentence_ea-este-linistita-acum",
-          "question_esti-fericit-azi",
-          "question_da-sunt-fericit-azi",
-          "question_nu-sunt-obosit-azi",
-          "question_spui-multumesc",
-          "question_da-spun-multumesc",
-          "question_nu-spun-scuze",
-          "question_ea-este-linistita-acum",
-          "question_da-ea-este-linistita-acum",
-          "question_nu-ea-este-suparata-acum"
+          "word_bine"
         ]
       },
-      "C3T01": {
-        "ro": [
-          "imperative_deschide-usa",
-          "imperative_inchide-fereastra",
-          "imperative_pune-cheia-pe-masa",
-          "imperative_adu-scaunul",
-          "imperative_aranjeaza-patul"
-        ]
-      },
+      "C3T01": {},
       "C3T02": {
         "ro": [
           "word_casa",
@@ -559,21 +523,7 @@
           "word_pat",
           "word_dulap",
           "word_baie",
-          "word_cheie",
-          "sentence_casa-are-o-usa",
-          "sentence_apartamentul-are-o-fereastra",
-          "sentence_cheia-este-pe-masa",
-          "sentence_scaunul-este-langa-masa",
-          "sentence_patul-este-in-camera",
-          "question_cheia-este-pe-masa",
-          "question_da-cheia-este-pe-masa",
-          "question_nu-cheia-este-in-baie",
-          "question_patul-este-in-camera",
-          "question_da-patul-este-in-camera",
-          "question_nu-patul-este-langa-usa",
-          "question_ai-apartament",
-          "question_da-am-apartament",
-          "question_nu-am-casa"
+          "word_cheie"
         ]
       },
       "C3T03": {},
@@ -588,27 +538,10 @@
           "word_fruct",
           "word_leguma",
           "word_zahar",
-          "word_sare",
-          "question_bei-apa-acum",
-          "question_da-beau-apa-acum",
-          "question_nu-beau-lapte-acum",
-          "question_mananci-paine-dimineata",
-          "question_da-mananc-paine-dimineata",
-          "question_nu-mananc-oua-dimineata",
-          "question_cumperi-peste-azi",
-          "question_da-cumpar-peste-azi",
-          "question_nu-cumpar-fructe-azi"
+          "word_sare"
         ]
       },
-      "C3T05": {
-        "ro": [
-          "imperative_bea-apa",
-          "imperative_mananca-paine",
-          "imperative_bea-lapte",
-          "imperative_mananca-oul",
-          "imperative_cumpara-peste"
-        ]
-      },
+      "C3T05": {},
       "C3T06": {},
       "C3T07": {},
       "C3T08": {
@@ -622,21 +555,7 @@
           "word_a-veni",
           "word_a-citi",
           "word_a-scrie",
-          "word_a-dormi",
-          "sentence_eu-ma-trezesc-dimineata",
-          "sentence_eu-beau-apa",
-          "sentence_eu-mananc-paine",
-          "sentence_eu-citesc-seara",
-          "sentence_eu-dorm-noaptea",
-          "question_te-trezesti-dimineata-devreme",
-          "question_da-ma-trezesc-dimineata-devreme",
-          "question_nu-ma-trezesc-tarziu",
-          "question_citesti-seara",
-          "question_da-citesc-seara",
-          "question_nu-scriu-seara",
-          "question_dormi-noaptea-bine",
-          "question_da-dorm-noaptea-bine",
-          "question_nu-dorm-putin-noaptea"
+          "word_a-dormi"
         ]
       },
       "C3T09": {
@@ -665,32 +584,10 @@
           "word_rau",
           "word_mare",
           "word_padure",
-          "word_floare",
-          "question_vezi-soarele",
-          "question_da-vad-soarele",
-          "question_nu-vad-norii",
-          "question_este-ploaie-azi",
-          "question_da-este-ploaie-azi",
-          "question_nu-este-vant-azi",
-          "question_mergi-la-mare",
-          "question_da-merg-la-mare",
-          "question_nu-merg-la-munte",
-          "imperative_priveste-soarele",
-          "imperative_asculta-vantul",
-          "imperative_priveste-norul",
-          "imperative_urmeaza-raul",
-          "imperative_cauta-padurea"
+          "word_floare"
         ]
       },
-      "C3T12": {
-        "ro": [
-          "imperative_trezeste-te-dimineata",
-          "imperative_lucreaza-azi",
-          "imperative_invata-acum",
-          "imperative_citeste-seara",
-          "imperative_dormi-noaptea"
-        ]
-      },
+      "C3T12": {},
       "C4T01": {},
       "C4T02": {},
       "C4T03": {},
@@ -705,41 +602,10 @@
           "word_ajutor",
           "word_urgenta",
           "word_politie",
-          "word_ambulanta",
-          "question_ai-durere",
-          "question_da-am-durere",
-          "question_nu-am-febra",
-          "question_doctorul-este-aici",
-          "question_da-doctorul-este-aici",
-          "question_nu-doctorul-este-la-spital",
-          "question_ai-nevoie-de-ajutor",
-          "question_da-am-nevoie-de-ajutor",
-          "question_nu-am-nevoie-de-apa",
-          "imperative_suna-doctorul",
-          "imperative_mergi-la-spital",
-          "imperative_cauta-farmacia",
-          "imperative_ia-medicamentul",
-          "imperative_bea-apa-acum"
+          "word_ambulanta"
         ]
       },
-      "C4T05": {
-        "ro": [
-          "question_este-urgenta",
-          "question_da-este-urgenta",
-          "question_nu-este-alarma-falsa",
-          "question_vine-ambulanta",
-          "question_da-ambulanta-vine",
-          "question_nu-politia-vine",
-          "question_politia-este-aproape",
-          "question_da-politia-este-aproape",
-          "question_nu-politia-este-departe",
-          "imperative_cere-ajutor",
-          "imperative_suna-la-politie",
-          "imperative_cheama-ambulanta",
-          "imperative_ramai-calm",
-          "imperative_mergi-la-spital-acum"
-        ]
-      },
+      "C4T05": {},
       "C4T06": {},
       "C4T07": {},
       "C4T08": {},
@@ -747,24 +613,7 @@
       "C4T10": {},
       "C4T11": {},
       "C4T12": {},
-      "C5T01": {
-        "ro": [
-          "question_magazinul-este-la-dreapta",
-          "question_da-magazinul-este-la-dreapta",
-          "question_nu-magazinul-este-la-stanga",
-          "question_statia-este-pe-aceasta-strada",
-          "question_da-statia-este-pe-aceasta-strada",
-          "question_nu-statia-este-pe-alt-drum",
-          "question_ai-harta",
-          "question_da-am-harta",
-          "question_nu-am-telefon",
-          "imperative_mergi-la-dreapta",
-          "imperative_mergi-la-stanga",
-          "imperative_urmeaza-strada",
-          "imperative_cauta-coltul",
-          "imperative_verifica-harta"
-        ]
-      },
+      "C5T01": {},
       "C5T02": {},
       "C5T03": {
         "ro": [
@@ -777,26 +626,7 @@
           "word_tren",
           "word_statie",
           "word_bilet",
-          "word_harta",
-          "sentence_autobuzul-vine-la-statie",
-          "sentence_trenul-vine-acum",
-          "sentence_eu-merg-la-magazin",
-          "sentence_eu-am-bani-si-card",
-          "sentence_bonul-este-pe-masa",
-          "question_vine-autobuzul-acum",
-          "question_da-autobuzul-vine-acum",
-          "question_nu-trenul-vine-acum",
-          "question_ai-bilet",
-          "question_da-am-bilet",
-          "question_nu-cumpar-bilet-acum",
-          "question_trenul-merge-la-oras",
-          "question_da-trenul-merge-la-oras",
-          "question_nu-trenul-merge-la-aeroport",
-          "imperative_ia-autobuzul",
-          "imperative_asteapta-trenul",
-          "imperative_cumpara-biletul",
-          "imperative_mergi-la-statie",
-          "imperative_mergi-la-aeroport"
+          "word_harta"
         ]
       },
       "C5T04": {},
@@ -833,16 +663,7 @@
           "word_reducere",
           "word_marime",
           "word_culoare",
-          "word_bon",
-          "question_ai-bani",
-          "question_da-am-bani",
-          "question_nu-am-card",
-          "question_pretul-este-mare",
-          "question_da-pretul-este-mare",
-          "question_nu-pretul-este-mic",
-          "question_primesti-bon",
-          "question_da-primesc-bon",
-          "question_nu-primesc-mesaj"
+          "word_bon"
         ]
       },
       "C6T03": {},
@@ -850,15 +671,7 @@
       "C6T05": {},
       "C6T06": {},
       "C6T07": {},
-      "C6T08": {
-        "ro": [
-          "imperative_intra-in-magazin",
-          "imperative_cauta-piata",
-          "imperative_verifica-pretul",
-          "imperative_plateste-cu-cardul",
-          "imperative_pastreaza-bonul"
-        ]
-      },
+      "C6T08": {},
       "C6T09": {},
       "C6T10": {},
       "C6T11": {},
@@ -874,27 +687,10 @@
           "word_examen",
           "word_nota",
           "word_caiet",
-          "word_creion",
-          "question_studentul-citeste-lectia",
-          "question_da-studentul-citeste-lectia",
-          "question_nu-studentul-scrie-lectia",
-          "question_ai-examen-azi",
-          "question_da-am-examen-azi",
-          "question_nu-am-tema-azi",
-          "question_profesorul-este-la-universitate",
-          "question_da-profesorul-este-la-universitate",
-          "question_nu-profesorul-este-la-scoala"
+          "word_creion"
         ]
       },
-      "C7T02": {
-        "ro": [
-          "imperative_citeste-lectia",
-          "imperative_scrie-tema",
-          "imperative_deschide-caietul",
-          "imperative_asculta-profesorul",
-          "imperative_pregateste-examenul"
-        ]
-      },
+      "C7T02": {},
       "C7T03": {
         "ro": [
           "word_birou",
@@ -905,39 +701,12 @@
           "word_salariu",
           "word_program",
           "word_pauza",
-          "word_raport",
-          "sentence_studentul-citeste-lectia",
-          "sentence_profesorul-scrie-un-raport",
-          "sentence_colegul-are-un-proiect",
-          "sentence_clientul-are-un-contract",
-          "sentence_sedinta-este-azi",
-          "question_ai-proiect-nou",
-          "question_da-am-proiect-nou",
-          "question_nu-am-raport-nou",
-          "question_clientul-are-contract",
-          "question_da-clientul-are-contract",
-          "question_nu-clientul-are-intrebare",
-          "question_sedinta-este-azi",
-          "question_da-sedinta-este-azi",
-          "question_nu-sedinta-este-maine",
-          "imperative_deschide-proiectul",
-          "imperative_citeste-raportul",
-          "imperative_suna-clientul",
-          "imperative_pregateste-contractul",
-          "imperative_respecta-programul"
+          "word_raport"
         ]
       },
       "C7T04": {},
       "C7T05": {},
-      "C7T06": {
-        "ro": [
-          "imperative_deschide-telefonul",
-          "imperative_citeste-mesajul",
-          "imperative_scrie-emailul",
-          "imperative_trimite-apelul-video",
-          "imperative_salveaza-fisierul"
-        ]
-      },
+      "C7T06": {},
       "C7T07": {},
       "C7T08": {
         "ro": [
@@ -950,21 +719,7 @@
           "word_aplicatie",
           "word_apel",
           "word_video",
-          "word_fisier",
-          "question_ai-telefon",
-          "question_da-am-telefon",
-          "question_nu-am-calculator",
-          "question_trimiti-mesaj-acum",
-          "question_da-trimit-mesaj-acum",
-          "question_nu-trimit-email-acum",
-          "question_parola-este-aici",
-          "question_da-parola-este-aici",
-          "question_nu-parola-este-in-fisier",
-          "imperative_porneste-calculatorul",
-          "imperative_deschide-aplicatia",
-          "imperative_verifica-emailul",
-          "imperative_trimite-mesajul",
-          "imperative_inchide-fisierul"
+          "word_fisier"
         ]
       },
       "C7T09": {},
@@ -977,15 +732,7 @@
           "word_nu"
         ]
       },
-      "C8T02": {
-        "ro": [
-          "imperative_spune-numele",
-          "imperative_scrie-prenumele",
-          "imperative_suna-prietenul",
-          "imperative_ajuta-copilul",
-          "imperative_saluta-vecinul"
-        ]
-      },
+      "C8T02": {},
       "C8T03": {},
       "C8T04": {},
       "C8T05": {},
@@ -1046,7 +793,12 @@
       "C12T12": {}
     },
     "library/lectures": {
-      "C1T01": {
+      "L1T01": {
+        "ro": [
+          "lecture_alphabet"
+        ]
+      },
+      "L1T02": {
         "en": [
           "letter_a-2",
           "letter_b-2",
@@ -1156,12 +908,12 @@
           "letter_z"
         ]
       },
-      "C1T01A": {
+      "L1T03": {
         "ro": [
-          "lecture_alphabet"
+          "lecture_vowel-groups"
         ]
       },
-      "C1T02": {
+      "L1T04": {
         "ro": [
           "letter_ea",
           "letter_oa",
@@ -1184,7 +936,12 @@
           "letter_ioa"
         ]
       },
-      "C1T03": {
+      "L1T05": {
+        "ro": [
+          "lecture_consonant-groups"
+        ]
+      },
+      "L1T06": {
         "ro": [
           "letter_ce-ci",
           "letter_ge-gi",
@@ -1192,99 +949,447 @@
           "letter_ghe-ghi"
         ]
       },
-      "C1T04": {},
-      "C1T05": {},
-      "C1T06": {},
-      "C1T07": {},
-      "C1T08": {},
-      "C1T09": {},
-      "C1T10": {},
-      "C1T11": {},
-      "C1T12": {},
-      "C2T01": {},
-      "C2T02": {},
-      "C2T03": {},
-      "C2T04": {},
-      "C2T05": {},
-      "C2T06": {},
-      "C2T07": {},
-      "C2T08": {},
-      "C2T09": {},
-      "C2T10": {},
-      "C2T11": {},
-      "C2T12": {},
-      "C3T01": {},
-      "C3T02": {},
-      "C3T03": {},
-      "C3T04": {},
-      "C3T05": {},
-      "C3T06": {},
-      "C3T07": {},
-      "C3T08": {},
-      "C3T09": {},
-      "C3T10": {},
-      "C3T11": {},
-      "C3T12": {},
-      "C4T01": {},
-      "C4T02": {},
-      "C4T03": {},
-      "C4T04": {},
-      "C4T05": {},
-      "C4T06": {},
-      "C4T07": {},
-      "C4T08": {},
-      "C4T09": {},
-      "C4T10": {},
-      "C4T11": {},
-      "C4T12": {},
-      "C5T01": {},
-      "C5T02": {},
-      "C5T03": {},
-      "C5T04": {},
-      "C5T05": {},
-      "C5T06": {},
-      "C5T07": {},
-      "C5T08": {},
-      "C5T09": {},
-      "C5T10": {},
-      "C5T11": {},
-      "C5T12": {},
-      "C6T01": {},
-      "C6T02": {},
-      "C6T03": {},
-      "C6T04": {},
-      "C6T05": {},
-      "C6T06": {},
-      "C6T07": {},
-      "C6T08": {},
-      "C6T09": {},
-      "C6T10": {},
-      "C6T11": {},
-      "C6T12": {},
-      "C7T01": {},
-      "C7T02": {},
-      "C7T03": {},
-      "C7T04": {},
-      "C7T05": {},
-      "C7T06": {},
-      "C7T07": {},
-      "C7T08": {},
-      "C7T09": {},
-      "C7T10": {},
-      "C7T11": {},
-      "C7T12": {},
-      "C8T01": {},
-      "C8T02": {},
-      "C8T03": {},
-      "C8T04": {},
-      "C8T05": {},
-      "C8T06": {},
-      "C8T07": {},
-      "C8T08": {},
-      "C8T09": {},
-      "C8T10": {},
-      "C8T11": {},
-      "C8T12": {}
+      "L1T07": {},
+      "L2T01": {
+        "ro": [
+          "lecture_sentence"
+        ]
+      },
+      "L2T02": {
+        "ro": [
+          "sentence_eu-sunt-student",
+          "sentence_el-este-profesor",
+          "sentence_ea-este-femeie",
+          "sentence_el-este-prietenul-meu",
+          "sentence_familia-mea-are-un-copil"
+        ]
+      },
+      "L2T03": {
+        "ro": [
+          "sentence_eu-spun-salut",
+          "sentence_eu-spun-multumesc",
+          "sentence_eu-sunt-fericit-azi",
+          "sentence_el-este-trist-azi",
+          "sentence_ea-este-linistita-acum"
+        ]
+      },
+      "L2T04": {
+        "ro": [
+          "sentence_casa-are-o-usa",
+          "sentence_apartamentul-are-o-fereastra",
+          "sentence_cheia-este-pe-masa",
+          "sentence_scaunul-este-langa-masa",
+          "sentence_patul-este-in-camera"
+        ]
+      },
+      "L2T05": {
+        "ro": [
+          "sentence_eu-ma-trezesc-dimineata",
+          "sentence_eu-beau-apa",
+          "sentence_eu-mananc-paine",
+          "sentence_eu-citesc-seara",
+          "sentence_eu-dorm-noaptea"
+        ]
+      },
+      "L2T06": {
+        "ro": [
+          "sentence_autobuzul-vine-la-statie",
+          "sentence_trenul-vine-acum",
+          "sentence_eu-merg-la-magazin",
+          "sentence_eu-am-bani-si-card",
+          "sentence_bonul-este-pe-masa"
+        ]
+      },
+      "L2T07": {
+        "ro": [
+          "sentence_studentul-citeste-lectia",
+          "sentence_profesorul-scrie-un-raport",
+          "sentence_colegul-are-un-proiect",
+          "sentence_clientul-are-un-contract",
+          "sentence_sedinta-este-azi"
+        ]
+      },
+      "L3T01": {
+        "ro": [
+          "lecture_questions"
+        ]
+      },
+      "L3T02": {
+        "ro": [
+          "question_care-este-numele-tau",
+          "question_numele-meu-este-andrei",
+          "question_eu-sunt-maria",
+          "question_esti-student",
+          "question_da-sunt-student",
+          "question_nu-sunt-profesor",
+          "question_el-este-prietenul-tau",
+          "question_da-el-este-prietenul-meu",
+          "question_nu-el-este-colegul-meu"
+        ]
+      },
+      "L3T03": {
+        "ro": [
+          "question_ai-familie-mare",
+          "question_da-am-familie-mare",
+          "question_nu-am-familie-mica",
+          "question_copilul-este-acasa",
+          "question_da-copilul-este-acasa",
+          "question_nu-copilul-este-la-scoala",
+          "question_vecinul-este-acolo",
+          "question_da-vecinul-este-acolo",
+          "question_nu-vecinul-este-la-birou"
+        ]
+      },
+      "L3T04": {
+        "ro": [
+          "question_esti-fericit-azi",
+          "question_da-sunt-fericit-azi",
+          "question_nu-sunt-obosit-azi",
+          "question_spui-multumesc",
+          "question_da-spun-multumesc",
+          "question_nu-spun-scuze",
+          "question_ea-este-linistita-acum",
+          "question_da-ea-este-linistita-acum",
+          "question_nu-ea-este-suparata-acum"
+        ]
+      },
+      "L3T05": {
+        "ro": [
+          "question_cheia-este-pe-masa",
+          "question_da-cheia-este-pe-masa",
+          "question_nu-cheia-este-in-baie",
+          "question_patul-este-in-camera",
+          "question_da-patul-este-in-camera",
+          "question_nu-patul-este-langa-usa",
+          "question_ai-apartament",
+          "question_da-am-apartament",
+          "question_nu-am-casa"
+        ]
+      },
+      "L3T06": {
+        "ro": [
+          "question_bei-apa-acum",
+          "question_da-beau-apa-acum",
+          "question_nu-beau-lapte-acum",
+          "question_mananci-paine-dimineata",
+          "question_da-mananc-paine-dimineata",
+          "question_nu-mananc-oua-dimineata",
+          "question_cumperi-peste-azi",
+          "question_da-cumpar-peste-azi",
+          "question_nu-cumpar-fructe-azi"
+        ]
+      },
+      "L3T07": {
+        "ro": [
+          "question_te-trezesti-dimineata-devreme",
+          "question_da-ma-trezesc-dimineata-devreme",
+          "question_nu-ma-trezesc-tarziu",
+          "question_citesti-seara",
+          "question_da-citesc-seara",
+          "question_nu-scriu-seara",
+          "question_dormi-noaptea-bine",
+          "question_da-dorm-noaptea-bine",
+          "question_nu-dorm-putin-noaptea"
+        ]
+      },
+      "L3T08": {
+        "ro": [
+          "question_studentul-citeste-lectia",
+          "question_da-studentul-citeste-lectia",
+          "question_nu-studentul-scrie-lectia",
+          "question_ai-examen-azi",
+          "question_da-am-examen-azi",
+          "question_nu-am-tema-azi",
+          "question_profesorul-este-la-universitate",
+          "question_da-profesorul-este-la-universitate",
+          "question_nu-profesorul-este-la-scoala"
+        ]
+      },
+      "L3T09": {
+        "ro": [
+          "question_ai-proiect-nou",
+          "question_da-am-proiect-nou",
+          "question_nu-am-raport-nou",
+          "question_clientul-are-contract",
+          "question_da-clientul-are-contract",
+          "question_nu-clientul-are-intrebare",
+          "question_sedinta-este-azi",
+          "question_da-sedinta-este-azi",
+          "question_nu-sedinta-este-maine"
+        ]
+      },
+      "L3T10": {
+        "ro": [
+          "question_ai-telefon",
+          "question_da-am-telefon",
+          "question_nu-am-calculator",
+          "question_trimiti-mesaj-acum",
+          "question_da-trimit-mesaj-acum",
+          "question_nu-trimit-email-acum",
+          "question_parola-este-aici",
+          "question_da-parola-este-aici",
+          "question_nu-parola-este-in-fisier"
+        ]
+      },
+      "L3T11": {
+        "ro": [
+          "question_magazinul-este-la-dreapta",
+          "question_da-magazinul-este-la-dreapta",
+          "question_nu-magazinul-este-la-stanga",
+          "question_statia-este-pe-aceasta-strada",
+          "question_da-statia-este-pe-aceasta-strada",
+          "question_nu-statia-este-pe-alt-drum",
+          "question_ai-harta",
+          "question_da-am-harta",
+          "question_nu-am-telefon"
+        ]
+      },
+      "L3T12": {
+        "ro": [
+          "question_vine-autobuzul-acum",
+          "question_da-autobuzul-vine-acum",
+          "question_nu-trenul-vine-acum",
+          "question_ai-bilet",
+          "question_da-am-bilet",
+          "question_nu-cumpar-bilet-acum",
+          "question_trenul-merge-la-oras",
+          "question_da-trenul-merge-la-oras",
+          "question_nu-trenul-merge-la-aeroport"
+        ]
+      },
+      "L3T13": {
+        "ro": [
+          "question_ai-bani",
+          "question_da-am-bani",
+          "question_nu-am-card",
+          "question_pretul-este-mare",
+          "question_da-pretul-este-mare",
+          "question_nu-pretul-este-mic",
+          "question_primesti-bon",
+          "question_da-primesc-bon",
+          "question_nu-primesc-mesaj"
+        ]
+      },
+      "L3T14": {
+        "ro": [
+          "question_ai-durere",
+          "question_da-am-durere",
+          "question_nu-am-febra",
+          "question_doctorul-este-aici",
+          "question_da-doctorul-este-aici",
+          "question_nu-doctorul-este-la-spital",
+          "question_ai-nevoie-de-ajutor",
+          "question_da-am-nevoie-de-ajutor",
+          "question_nu-am-nevoie-de-apa"
+        ]
+      },
+      "L3T15": {
+        "ro": [
+          "question_este-urgenta",
+          "question_da-este-urgenta",
+          "question_nu-este-alarma-falsa",
+          "question_vine-ambulanta",
+          "question_da-ambulanta-vine",
+          "question_nu-politia-vine",
+          "question_politia-este-aproape",
+          "question_da-politia-este-aproape",
+          "question_nu-politia-este-departe"
+        ]
+      },
+      "L3T16": {
+        "ro": [
+          "question_vezi-soarele",
+          "question_da-vad-soarele",
+          "question_nu-vad-norii",
+          "question_este-ploaie-azi",
+          "question_da-este-ploaie-azi",
+          "question_nu-este-vant-azi",
+          "question_mergi-la-mare",
+          "question_da-merg-la-mare",
+          "question_nu-merg-la-munte"
+        ]
+      },
+      "L4T01": {
+        "ro": [
+          "lecture_imperative"
+        ]
+      },
+      "L4T02": {
+        "ro": [
+          "imperative_spune-salut",
+          "imperative_spune-buna-ziua",
+          "imperative_spune-te-rog",
+          "imperative_spune-multumesc",
+          "imperative_spune-la-revedere"
+        ]
+      },
+      "L4T03": {
+        "ro": [
+          "imperative_spune-numele",
+          "imperative_scrie-prenumele",
+          "imperative_suna-prietenul",
+          "imperative_ajuta-copilul",
+          "imperative_saluta-vecinul"
+        ]
+      },
+      "L4T04": {
+        "ro": [
+          "imperative_deschide-telefonul",
+          "imperative_citeste-mesajul",
+          "imperative_scrie-emailul",
+          "imperative_trimite-apelul-video",
+          "imperative_salveaza-fisierul"
+        ]
+      },
+      "L4T05": {
+        "ro": [
+          "imperative_deschide-usa",
+          "imperative_inchide-fereastra",
+          "imperative_pune-cheia-pe-masa",
+          "imperative_adu-scaunul",
+          "imperative_aranjeaza-patul"
+        ]
+      },
+      "L4T06": {
+        "ro": [
+          "imperative_bea-apa",
+          "imperative_mananca-paine",
+          "imperative_bea-lapte",
+          "imperative_mananca-oul",
+          "imperative_cumpara-peste"
+        ]
+      },
+      "L4T07": {
+        "ro": [
+          "imperative_trezeste-te-dimineata",
+          "imperative_lucreaza-azi",
+          "imperative_invata-acum",
+          "imperative_citeste-seara",
+          "imperative_dormi-noaptea"
+        ]
+      },
+      "L4T08": {
+        "ro": [
+          "imperative_citeste-lectia",
+          "imperative_scrie-tema",
+          "imperative_deschide-caietul",
+          "imperative_asculta-profesorul",
+          "imperative_pregateste-examenul"
+        ]
+      },
+      "L4T09": {
+        "ro": [
+          "imperative_deschide-proiectul",
+          "imperative_citeste-raportul",
+          "imperative_suna-clientul",
+          "imperative_pregateste-contractul",
+          "imperative_respecta-programul"
+        ]
+      },
+      "L4T10": {
+        "ro": [
+          "imperative_porneste-calculatorul",
+          "imperative_deschide-aplicatia",
+          "imperative_verifica-emailul",
+          "imperative_trimite-mesajul",
+          "imperative_inchide-fisierul"
+        ]
+      },
+      "L4T11": {
+        "ro": [
+          "imperative_mergi-la-dreapta",
+          "imperative_mergi-la-stanga",
+          "imperative_urmeaza-strada",
+          "imperative_cauta-coltul",
+          "imperative_verifica-harta"
+        ]
+      },
+      "L4T12": {
+        "ro": [
+          "imperative_ia-autobuzul",
+          "imperative_asteapta-trenul",
+          "imperative_cumpara-biletul",
+          "imperative_mergi-la-statie",
+          "imperative_mergi-la-aeroport"
+        ]
+      },
+      "L4T13": {
+        "ro": [
+          "imperative_intra-in-magazin",
+          "imperative_cauta-piata",
+          "imperative_verifica-pretul",
+          "imperative_plateste-cu-cardul",
+          "imperative_pastreaza-bonul"
+        ]
+      },
+      "L4T14": {
+        "ro": [
+          "imperative_suna-doctorul",
+          "imperative_mergi-la-spital",
+          "imperative_cauta-farmacia",
+          "imperative_ia-medicamentul",
+          "imperative_bea-apa-acum"
+        ]
+      },
+      "L4T15": {
+        "ro": [
+          "imperative_cere-ajutor",
+          "imperative_suna-la-politie",
+          "imperative_cheama-ambulanta",
+          "imperative_ramai-calm",
+          "imperative_mergi-la-spital-acum"
+        ]
+      },
+      "L4T16": {
+        "ro": [
+          "imperative_priveste-soarele",
+          "imperative_asculta-vantul",
+          "imperative_priveste-norul",
+          "imperative_urmeaza-raul",
+          "imperative_cauta-padurea"
+        ]
+      },
+      "L5T01": {},
+      "L5T02": {},
+      "L5T03": {},
+      "L5T04": {},
+      "L5T05": {},
+      "L5T06": {},
+      "L5T07": {},
+      "L6T01": {
+        "ro": [
+          "lecture_greetings"
+        ]
+      },
+      "L6T02": {
+        "ro": [
+          "greeting_salut",
+          "greeting_buna",
+          "greeting_ceao",
+          "greeting_buna-dimineata",
+          "greeting_buna-ziua",
+          "greeting_buna-seara",
+          "greeting_noapte-buna",
+          "greeting_pe-curand",
+          "greeting_la-revedere",
+          "greeting_sa-fii-sanatos",
+          "greeting_noroc-bun",
+          "greeting_sa-auzim-de-bine",
+          "greeting_sa-ne-vedem-sanatosi",
+          "greeting_noapte-buna-2",
+          "greeting_adio-si-noroc",
+          "word_imi-pare-bine"
+        ]
+      },
+      "L6T03": {},
+      "L6T04": {},
+      "L7T01": {},
+      "L7T02": {},
+      "L7T03": {},
+      "L7T04": {},
+      "L7T05": {},
+      "L7T06": {},
+      "L7T07": {}
     },
     "library/stories": {
       "C1T01": {},
@@ -1389,21 +1494,6 @@
     "practice/mentors": {}
   },
   "progress": {
-    "greeting_salut": "C1T11",
-    "greeting_buna": "C1T11",
-    "greeting_ceao": "C1T11",
-    "greeting_buna-dimineata": "C1T11",
-    "greeting_buna-ziua": "C1T11",
-    "greeting_buna-seara": "C1T11",
-    "greeting_noapte-buna": "C1T11",
-    "greeting_pe-curand": "C1T11",
-    "greeting_la-revedere": "C1T11",
-    "greeting_sa-fii-sanatos": "C1T11",
-    "greeting_noroc-bun": "C1T11",
-    "greeting_sa-auzim-de-bine": "C1T11",
-    "greeting_sa-ne-vedem-sanatosi": "C1T11",
-    "greeting_noapte-buna-2": "C1T11",
-    "greeting_adio-si-noroc": "C1T11",
     "word_salut": "C1T11",
     "word_buna-ziua": "C1T11",
     "word_buna-seara": "C1T11",
@@ -1412,20 +1502,6 @@
     "word_multumesc": "C1T12",
     "word_cu-placere": "C1T12",
     "word_scuze": "C1T12",
-    "imperative_spune-salut": "C1T12",
-    "imperative_spune-buna-ziua": "C1T12",
-    "imperative_spune-te-rog": "C1T12",
-    "imperative_spune-multumesc": "C1T12",
-    "imperative_spune-la-revedere": "C1T12",
-    "question_ai-familie-mare": "C2T02",
-    "question_da-am-familie-mare": "C2T02",
-    "question_nu-am-familie-mica": "C2T02",
-    "question_copilul-este-acasa": "C2T02",
-    "question_da-copilul-este-acasa": "C2T02",
-    "question_nu-copilul-este-la-scoala": "C2T02",
-    "question_vecinul-este-acolo": "C2T02",
-    "question_da-vecinul-este-acolo": "C2T02",
-    "question_nu-vecinul-este-la-birou": "C2T02",
     "word_nume": "C2T03",
     "word_prenume": "C2T03",
     "word_om": "C2T03",
@@ -1437,20 +1513,6 @@
     "word_vecin": "C2T03",
     "word_coleg": "C2T03",
     "word_coleg-2": "C2T03",
-    "sentence_eu-sunt-student": "C2T03",
-    "sentence_el-este-profesor": "C2T03",
-    "sentence_ea-este-femeie": "C2T03",
-    "sentence_el-este-prietenul-meu": "C2T03",
-    "sentence_familia-mea-are-un-copil": "C2T03",
-    "question_care-este-numele-tau": "C2T03",
-    "question_numele-meu-este-andrei": "C2T03",
-    "question_eu-sunt-maria": "C2T03",
-    "question_esti-student": "C2T03",
-    "question_da-sunt-student": "C2T03",
-    "question_nu-sunt-profesor": "C2T03",
-    "question_el-este-prietenul-tau": "C2T03",
-    "question_da-el-este-prietenul-meu": "C2T03",
-    "question_nu-el-este-colegul-meu": "C2T03",
     "word_fericit": "C2T12",
     "word_trist": "C2T12",
     "word_obosit": "C2T12",
@@ -1460,26 +1522,6 @@
     "word_mi-e-sete": "C2T12",
     "word_a-face": "C2T12",
     "word_bine": "C2T12",
-    "word_imi-pare-bine": "C2T12",
-    "sentence_eu-spun-salut": "C2T12",
-    "sentence_eu-spun-multumesc": "C2T12",
-    "sentence_eu-sunt-fericit-azi": "C2T12",
-    "sentence_el-este-trist-azi": "C2T12",
-    "sentence_ea-este-linistita-acum": "C2T12",
-    "question_esti-fericit-azi": "C2T12",
-    "question_da-sunt-fericit-azi": "C2T12",
-    "question_nu-sunt-obosit-azi": "C2T12",
-    "question_spui-multumesc": "C2T12",
-    "question_da-spun-multumesc": "C2T12",
-    "question_nu-spun-scuze": "C2T12",
-    "question_ea-este-linistita-acum": "C2T12",
-    "question_da-ea-este-linistita-acum": "C2T12",
-    "question_nu-ea-este-suparata-acum": "C2T12",
-    "imperative_deschide-usa": "C3T01",
-    "imperative_inchide-fereastra": "C3T01",
-    "imperative_pune-cheia-pe-masa": "C3T01",
-    "imperative_adu-scaunul": "C3T01",
-    "imperative_aranjeaza-patul": "C3T01",
     "word_casa": "C3T02",
     "word_apartament": "C3T02",
     "word_usa": "C3T02",
@@ -1490,20 +1532,6 @@
     "word_dulap": "C3T02",
     "word_baie": "C3T02",
     "word_cheie": "C3T02",
-    "sentence_casa-are-o-usa": "C3T02",
-    "sentence_apartamentul-are-o-fereastra": "C3T02",
-    "sentence_cheia-este-pe-masa": "C3T02",
-    "sentence_scaunul-este-langa-masa": "C3T02",
-    "sentence_patul-este-in-camera": "C3T02",
-    "question_cheia-este-pe-masa": "C3T02",
-    "question_da-cheia-este-pe-masa": "C3T02",
-    "question_nu-cheia-este-in-baie": "C3T02",
-    "question_patul-este-in-camera": "C3T02",
-    "question_da-patul-este-in-camera": "C3T02",
-    "question_nu-patul-este-langa-usa": "C3T02",
-    "question_ai-apartament": "C3T02",
-    "question_da-am-apartament": "C3T02",
-    "question_nu-am-casa": "C3T02",
     "word_apa": "C3T04",
     "word_paine": "C3T04",
     "word_lapte": "C3T04",
@@ -1514,20 +1542,6 @@
     "word_leguma": "C3T04",
     "word_zahar": "C3T04",
     "word_sare": "C3T04",
-    "question_bei-apa-acum": "C3T04",
-    "question_da-beau-apa-acum": "C3T04",
-    "question_nu-beau-lapte-acum": "C3T04",
-    "question_mananci-paine-dimineata": "C3T04",
-    "question_da-mananc-paine-dimineata": "C3T04",
-    "question_nu-mananc-oua-dimineata": "C3T04",
-    "question_cumperi-peste-azi": "C3T04",
-    "question_da-cumpar-peste-azi": "C3T04",
-    "question_nu-cumpar-fructe-azi": "C3T04",
-    "imperative_bea-apa": "C3T05",
-    "imperative_mananca-paine": "C3T05",
-    "imperative_bea-lapte": "C3T05",
-    "imperative_mananca-oul": "C3T05",
-    "imperative_cumpara-peste": "C3T05",
     "word_a-se-trezi": "C3T08",
     "word_a-manca": "C3T08",
     "word_a-bea": "C3T08",
@@ -1538,20 +1552,6 @@
     "word_a-citi": "C3T08",
     "word_a-scrie": "C3T08",
     "word_a-dormi": "C3T08",
-    "sentence_eu-ma-trezesc-dimineata": "C3T08",
-    "sentence_eu-beau-apa": "C3T08",
-    "sentence_eu-mananc-paine": "C3T08",
-    "sentence_eu-citesc-seara": "C3T08",
-    "sentence_eu-dorm-noaptea": "C3T08",
-    "question_te-trezesti-dimineata-devreme": "C3T08",
-    "question_da-ma-trezesc-dimineata-devreme": "C3T08",
-    "question_nu-ma-trezesc-tarziu": "C3T08",
-    "question_citesti-seara": "C3T08",
-    "question_da-citesc-seara": "C3T08",
-    "question_nu-scriu-seara": "C3T08",
-    "question_dormi-noaptea-bine": "C3T08",
-    "question_da-dorm-noaptea-bine": "C3T08",
-    "question_nu-dorm-putin-noaptea": "C3T08",
     "word_azi": "C3T09",
     "word_maine": "C3T09",
     "word_ieri": "C3T09",
@@ -1572,25 +1572,6 @@
     "word_mare": "C3T11",
     "word_padure": "C3T11",
     "word_floare": "C3T11",
-    "question_vezi-soarele": "C3T11",
-    "question_da-vad-soarele": "C3T11",
-    "question_nu-vad-norii": "C3T11",
-    "question_este-ploaie-azi": "C3T11",
-    "question_da-este-ploaie-azi": "C3T11",
-    "question_nu-este-vant-azi": "C3T11",
-    "question_mergi-la-mare": "C3T11",
-    "question_da-merg-la-mare": "C3T11",
-    "question_nu-merg-la-munte": "C3T11",
-    "imperative_priveste-soarele": "C3T11",
-    "imperative_asculta-vantul": "C3T11",
-    "imperative_priveste-norul": "C3T11",
-    "imperative_urmeaza-raul": "C3T11",
-    "imperative_cauta-padurea": "C3T11",
-    "imperative_trezeste-te-dimineata": "C3T12",
-    "imperative_lucreaza-azi": "C3T12",
-    "imperative_invata-acum": "C3T12",
-    "imperative_citeste-seara": "C3T12",
-    "imperative_dormi-noaptea": "C3T12",
     "word_doctor": "C4T04",
     "word_spital": "C4T04",
     "word_farmacie": "C4T04",
@@ -1601,48 +1582,6 @@
     "word_urgenta": "C4T04",
     "word_politie": "C4T04",
     "word_ambulanta": "C4T04",
-    "question_ai-durere": "C4T04",
-    "question_da-am-durere": "C4T04",
-    "question_nu-am-febra": "C4T04",
-    "question_doctorul-este-aici": "C4T04",
-    "question_da-doctorul-este-aici": "C4T04",
-    "question_nu-doctorul-este-la-spital": "C4T04",
-    "question_ai-nevoie-de-ajutor": "C4T04",
-    "question_da-am-nevoie-de-ajutor": "C4T04",
-    "question_nu-am-nevoie-de-apa": "C4T04",
-    "imperative_suna-doctorul": "C4T04",
-    "imperative_mergi-la-spital": "C4T04",
-    "imperative_cauta-farmacia": "C4T04",
-    "imperative_ia-medicamentul": "C4T04",
-    "imperative_bea-apa-acum": "C4T04",
-    "question_este-urgenta": "C4T05",
-    "question_da-este-urgenta": "C4T05",
-    "question_nu-este-alarma-falsa": "C4T05",
-    "question_vine-ambulanta": "C4T05",
-    "question_da-ambulanta-vine": "C4T05",
-    "question_nu-politia-vine": "C4T05",
-    "question_politia-este-aproape": "C4T05",
-    "question_da-politia-este-aproape": "C4T05",
-    "question_nu-politia-este-departe": "C4T05",
-    "imperative_cere-ajutor": "C4T05",
-    "imperative_suna-la-politie": "C4T05",
-    "imperative_cheama-ambulanta": "C4T05",
-    "imperative_ramai-calm": "C4T05",
-    "imperative_mergi-la-spital-acum": "C4T05",
-    "question_magazinul-este-la-dreapta": "C5T01",
-    "question_da-magazinul-este-la-dreapta": "C5T01",
-    "question_nu-magazinul-este-la-stanga": "C5T01",
-    "question_statia-este-pe-aceasta-strada": "C5T01",
-    "question_da-statia-este-pe-aceasta-strada": "C5T01",
-    "question_nu-statia-este-pe-alt-drum": "C5T01",
-    "question_ai-harta": "C5T01",
-    "question_da-am-harta": "C5T01",
-    "question_nu-am-telefon": "C5T01",
-    "imperative_mergi-la-dreapta": "C5T01",
-    "imperative_mergi-la-stanga": "C5T01",
-    "imperative_urmeaza-strada": "C5T01",
-    "imperative_cauta-coltul": "C5T01",
-    "imperative_verifica-harta": "C5T01",
     "word_strada": "C5T03",
     "word_drum": "C5T03",
     "word_colt": "C5T03",
@@ -1653,25 +1592,6 @@
     "word_statie": "C5T03",
     "word_bilet": "C5T03",
     "word_harta": "C5T03",
-    "sentence_autobuzul-vine-la-statie": "C5T03",
-    "sentence_trenul-vine-acum": "C5T03",
-    "sentence_eu-merg-la-magazin": "C5T03",
-    "sentence_eu-am-bani-si-card": "C5T03",
-    "sentence_bonul-este-pe-masa": "C5T03",
-    "question_vine-autobuzul-acum": "C5T03",
-    "question_da-autobuzul-vine-acum": "C5T03",
-    "question_nu-trenul-vine-acum": "C5T03",
-    "question_ai-bilet": "C5T03",
-    "question_da-am-bilet": "C5T03",
-    "question_nu-cumpar-bilet-acum": "C5T03",
-    "question_trenul-merge-la-oras": "C5T03",
-    "question_da-trenul-merge-la-oras": "C5T03",
-    "question_nu-trenul-merge-la-aeroport": "C5T03",
-    "imperative_ia-autobuzul": "C5T03",
-    "imperative_asteapta-trenul": "C5T03",
-    "imperative_cumpara-biletul": "C5T03",
-    "imperative_mergi-la-statie": "C5T03",
-    "imperative_mergi-la-aeroport": "C5T03",
     "word_aeroport": "C5T07",
     "word_pasaport": "C5T07",
     "word_hotel": "C5T07",
@@ -1692,20 +1612,6 @@
     "word_marime": "C6T02",
     "word_culoare": "C6T02",
     "word_bon": "C6T02",
-    "question_ai-bani": "C6T02",
-    "question_da-am-bani": "C6T02",
-    "question_nu-am-card": "C6T02",
-    "question_pretul-este-mare": "C6T02",
-    "question_da-pretul-este-mare": "C6T02",
-    "question_nu-pretul-este-mic": "C6T02",
-    "question_primesti-bon": "C6T02",
-    "question_da-primesc-bon": "C6T02",
-    "question_nu-primesc-mesaj": "C6T02",
-    "imperative_intra-in-magazin": "C6T08",
-    "imperative_cauta-piata": "C6T08",
-    "imperative_verifica-pretul": "C6T08",
-    "imperative_plateste-cu-cardul": "C6T08",
-    "imperative_pastreaza-bonul": "C6T08",
     "word_scoala": "C7T01",
     "word_universitate": "C7T01",
     "word_profesor": "C7T01",
@@ -1716,20 +1622,6 @@
     "word_nota": "C7T01",
     "word_caiet": "C7T01",
     "word_creion": "C7T01",
-    "question_studentul-citeste-lectia": "C7T01",
-    "question_da-studentul-citeste-lectia": "C7T01",
-    "question_nu-studentul-scrie-lectia": "C7T01",
-    "question_ai-examen-azi": "C7T01",
-    "question_da-am-examen-azi": "C7T01",
-    "question_nu-am-tema-azi": "C7T01",
-    "question_profesorul-este-la-universitate": "C7T01",
-    "question_da-profesorul-este-la-universitate": "C7T01",
-    "question_nu-profesorul-este-la-scoala": "C7T01",
-    "imperative_citeste-lectia": "C7T02",
-    "imperative_scrie-tema": "C7T02",
-    "imperative_deschide-caietul": "C7T02",
-    "imperative_asculta-profesorul": "C7T02",
-    "imperative_pregateste-examenul": "C7T02",
     "word_birou": "C7T03",
     "word_sedinta": "C7T03",
     "word_proiect": "C7T03",
@@ -1739,30 +1631,6 @@
     "word_program": "C7T03",
     "word_pauza": "C7T03",
     "word_raport": "C7T03",
-    "sentence_studentul-citeste-lectia": "C7T03",
-    "sentence_profesorul-scrie-un-raport": "C7T03",
-    "sentence_colegul-are-un-proiect": "C7T03",
-    "sentence_clientul-are-un-contract": "C7T03",
-    "sentence_sedinta-este-azi": "C7T03",
-    "question_ai-proiect-nou": "C7T03",
-    "question_da-am-proiect-nou": "C7T03",
-    "question_nu-am-raport-nou": "C7T03",
-    "question_clientul-are-contract": "C7T03",
-    "question_da-clientul-are-contract": "C7T03",
-    "question_nu-clientul-are-intrebare": "C7T03",
-    "question_sedinta-este-azi": "C7T03",
-    "question_da-sedinta-este-azi": "C7T03",
-    "question_nu-sedinta-este-maine": "C7T03",
-    "imperative_deschide-proiectul": "C7T03",
-    "imperative_citeste-raportul": "C7T03",
-    "imperative_suna-clientul": "C7T03",
-    "imperative_pregateste-contractul": "C7T03",
-    "imperative_respecta-programul": "C7T03",
-    "imperative_deschide-telefonul": "C7T06",
-    "imperative_citeste-mesajul": "C7T06",
-    "imperative_scrie-emailul": "C7T06",
-    "imperative_trimite-apelul-video": "C7T06",
-    "imperative_salveaza-fisierul": "C7T06",
     "word_telefon": "C7T08",
     "word_mesaj": "C7T08",
     "word_email": "C7T08",
@@ -1773,154 +1641,397 @@
     "word_apel": "C7T08",
     "word_video": "C7T08",
     "word_fisier": "C7T08",
-    "question_ai-telefon": "C7T08",
-    "question_da-am-telefon": "C7T08",
-    "question_nu-am-calculator": "C7T08",
-    "question_trimiti-mesaj-acum": "C7T08",
-    "question_da-trimit-mesaj-acum": "C7T08",
-    "question_nu-trimit-email-acum": "C7T08",
-    "question_parola-este-aici": "C7T08",
-    "question_da-parola-este-aici": "C7T08",
-    "question_nu-parola-este-in-fisier": "C7T08",
-    "imperative_porneste-calculatorul": "C7T08",
-    "imperative_deschide-aplicatia": "C7T08",
-    "imperative_verifica-emailul": "C7T08",
-    "imperative_trimite-mesajul": "C7T08",
-    "imperative_inchide-fisierul": "C7T08",
     "word_da": "C8T01",
     "word_nu": "C8T01",
-    "imperative_spune-numele": "C8T02",
-    "imperative_scrie-prenumele": "C8T02",
-    "imperative_suna-prietenul": "C8T02",
-    "imperative_ajuta-copilul": "C8T02",
-    "imperative_saluta-vecinul": "C8T02",
-    "letter_a-2": "C1T01",
-    "letter_b-2": "C1T01",
-    "letter_c-2": "C1T01",
-    "letter_d-2": "C1T01",
-    "letter_e-2": "C1T01",
-    "letter_f-2": "C1T01",
-    "letter_g-2": "C1T01",
-    "letter_h-2": "C1T01",
-    "letter_i-2": "C1T01",
-    "letter_j-2": "C1T01",
-    "letter_k-2": "C1T01",
-    "letter_l-2": "C1T01",
-    "letter_m-2": "C1T01",
-    "letter_n-2": "C1T01",
-    "letter_o-2": "C1T01",
-    "letter_p-2": "C1T01",
-    "letter_q": "C1T01",
-    "letter_r-2": "C1T01",
-    "letter_s-2": "C1T01",
-    "letter_t-2": "C1T01",
-    "letter_u-2": "C1T01",
-    "letter_v-2": "C1T01",
-    "letter_w-2": "C1T01",
-    "letter_x-2": "C1T01",
-    "letter_y-2": "C1T01",
-    "letter_z-2": "C1T01",
-    "letter_cat": "C1T01",
-    "letter_name": "C1T01",
-    "letter_father": "C1T01",
-    "letter_about": "C1T01",
-    "letter_cat-2": "C1T01",
-    "letter_city": "C1T01",
-    "letter_ocean": "C1T01",
-    "letter_go": "C1T01",
-    "letter_giant": "C1T01",
-    "letter_gym": "C1T01",
-    "letter_sun": "C1T01",
-    "letter_rose": "C1T01",
-    "letter_sure": "C1T01",
-    "letter_vision": "C1T01",
-    "letter_top": "C1T01",
-    "letter_station": "C1T01",
-    "letter_nature": "C1T01",
-    "letter_listen": "C1T01",
-    "letter_box": "C1T01",
-    "letter_exam": "C1T01",
-    "letter_luxury": "C1T01",
-    "letter_yes": "C1T01",
-    "letter_myth": "C1T01",
-    "letter_fly": "C1T01",
-    "letter_knife": "C1T01",
-    "letter_know": "C1T01",
-    "letter_write": "C1T01",
-    "letter_gnome": "C1T01",
-    "letter_lamb": "C1T01",
-    "letter_walk": "C1T01",
-    "letter_half": "C1T01",
-    "letter_castle": "C1T01",
-    "letter_night": "C1T01",
-    "letter_debt": "C1T01",
-    "letter_island": "C1T01",
-    "letter_think": "C1T01",
-    "letter_this": "C1T01",
-    "letter_ship": "C1T01",
-    "letter_chair": "C1T01",
-    "letter_chorus": "C1T01",
-    "letter_machine": "C1T01",
-    "letter_phone": "C1T01",
-    "letter_sing": "C1T01",
-    "letter_nation": "C1T01",
-    "letter_eight": "C1T01",
-    "letter_through": "C1T01",
-    "letter_though": "C1T01",
-    "letter_thought": "C1T01",
-    "letter_a": "C1T01",
-    "letter_a_breve": "C1T01",
-    "letter_a_circumflex": "C1T01",
-    "letter_b": "C1T01",
-    "letter_c": "C1T01",
-    "letter_d": "C1T01",
-    "letter_e": "C1T01",
-    "letter_f": "C1T01",
-    "letter_g": "C1T01",
-    "letter_h": "C1T01",
-    "letter_i": "C1T01",
-    "letter_i_circumflex": "C1T01",
-    "letter_j": "C1T01",
-    "letter_k": "C1T01",
-    "letter_l": "C1T01",
-    "letter_m": "C1T01",
-    "letter_n": "C1T01",
-    "letter_o": "C1T01",
-    "letter_p": "C1T01",
-    "letter_r": "C1T01",
-    "letter_s": "C1T01",
-    "letter_s_cedilla": "C1T01",
-    "letter_t": "C1T01",
-    "letter_t_cedilla": "C1T01",
-    "letter_u": "C1T01",
-    "letter_v": "C1T01",
-    "letter_w": "C1T01",
-    "letter_x": "C1T01",
-    "letter_y": "C1T01",
-    "letter_z": "C1T01",
-    "lecture_alphabet": "C1T01A",
-    "letter_ea": "C1T02",
-    "letter_oa": "C1T02",
-    "letter_ia": "C1T02",
-    "letter_ie": "C1T02",
-    "letter_io": "C1T02",
-    "letter_iu": "C1T02",
-    "letter_ua": "C1T02",
-    "letter_ue": "C1T02",
-    "letter_ai": "C1T02",
-    "letter_ei": "C1T02",
-    "letter_oi": "C1T02",
-    "letter_ui": "C1T02",
-    "letter_au": "C1T02",
-    "letter_eu": "C1T02",
-    "letter_eai": "C1T02",
-    "letter_iai": "C1T02",
-    "letter_eau": "C1T02",
-    "letter_iau": "C1T02",
-    "letter_ioa": "C1T02",
-    "letter_ce-ci": "C1T03",
-    "letter_ge-gi": "C1T03",
-    "letter_che-chi": "C1T03",
-    "letter_ghe-ghi": "C1T03"
+    "letter_a-2": "L1T02",
+    "letter_b-2": "L1T02",
+    "letter_c-2": "L1T02",
+    "letter_d-2": "L1T02",
+    "letter_e-2": "L1T02",
+    "letter_f-2": "L1T02",
+    "letter_g-2": "L1T02",
+    "letter_h-2": "L1T02",
+    "letter_i-2": "L1T02",
+    "letter_j-2": "L1T02",
+    "letter_k-2": "L1T02",
+    "letter_l-2": "L1T02",
+    "letter_m-2": "L1T02",
+    "letter_n-2": "L1T02",
+    "letter_o-2": "L1T02",
+    "letter_p-2": "L1T02",
+    "letter_q": "L1T02",
+    "letter_r-2": "L1T02",
+    "letter_s-2": "L1T02",
+    "letter_t-2": "L1T02",
+    "letter_u-2": "L1T02",
+    "letter_v-2": "L1T02",
+    "letter_w-2": "L1T02",
+    "letter_x-2": "L1T02",
+    "letter_y-2": "L1T02",
+    "letter_z-2": "L1T02",
+    "letter_cat": "L1T02",
+    "letter_name": "L1T02",
+    "letter_father": "L1T02",
+    "letter_about": "L1T02",
+    "letter_cat-2": "L1T02",
+    "letter_city": "L1T02",
+    "letter_ocean": "L1T02",
+    "letter_go": "L1T02",
+    "letter_giant": "L1T02",
+    "letter_gym": "L1T02",
+    "letter_sun": "L1T02",
+    "letter_rose": "L1T02",
+    "letter_sure": "L1T02",
+    "letter_vision": "L1T02",
+    "letter_top": "L1T02",
+    "letter_station": "L1T02",
+    "letter_nature": "L1T02",
+    "letter_listen": "L1T02",
+    "letter_box": "L1T02",
+    "letter_exam": "L1T02",
+    "letter_luxury": "L1T02",
+    "letter_yes": "L1T02",
+    "letter_myth": "L1T02",
+    "letter_fly": "L1T02",
+    "letter_knife": "L1T02",
+    "letter_know": "L1T02",
+    "letter_write": "L1T02",
+    "letter_gnome": "L1T02",
+    "letter_lamb": "L1T02",
+    "letter_walk": "L1T02",
+    "letter_half": "L1T02",
+    "letter_castle": "L1T02",
+    "letter_night": "L1T02",
+    "letter_debt": "L1T02",
+    "letter_island": "L1T02",
+    "letter_think": "L1T02",
+    "letter_this": "L1T02",
+    "letter_ship": "L1T02",
+    "letter_chair": "L1T02",
+    "letter_chorus": "L1T02",
+    "letter_machine": "L1T02",
+    "letter_phone": "L1T02",
+    "letter_sing": "L1T02",
+    "letter_nation": "L1T02",
+    "letter_eight": "L1T02",
+    "letter_through": "L1T02",
+    "letter_though": "L1T02",
+    "letter_thought": "L1T02",
+    "letter_a": "L1T02",
+    "letter_a_breve": "L1T02",
+    "letter_a_circumflex": "L1T02",
+    "letter_b": "L1T02",
+    "letter_c": "L1T02",
+    "letter_d": "L1T02",
+    "letter_e": "L1T02",
+    "letter_f": "L1T02",
+    "letter_g": "L1T02",
+    "letter_h": "L1T02",
+    "letter_i": "L1T02",
+    "letter_i_circumflex": "L1T02",
+    "letter_j": "L1T02",
+    "letter_k": "L1T02",
+    "letter_l": "L1T02",
+    "letter_m": "L1T02",
+    "letter_n": "L1T02",
+    "letter_o": "L1T02",
+    "letter_p": "L1T02",
+    "letter_r": "L1T02",
+    "letter_s": "L1T02",
+    "letter_s_cedilla": "L1T02",
+    "letter_t": "L1T02",
+    "letter_t_cedilla": "L1T02",
+    "letter_u": "L1T02",
+    "letter_v": "L1T02",
+    "letter_w": "L1T02",
+    "letter_x": "L1T02",
+    "letter_y": "L1T02",
+    "letter_z": "L1T02",
+    "letter_ea": "L1T04",
+    "letter_oa": "L1T04",
+    "letter_ia": "L1T04",
+    "letter_ie": "L1T04",
+    "letter_io": "L1T04",
+    "letter_iu": "L1T04",
+    "letter_ua": "L1T04",
+    "letter_ue": "L1T04",
+    "letter_ai": "L1T04",
+    "letter_ei": "L1T04",
+    "letter_oi": "L1T04",
+    "letter_ui": "L1T04",
+    "letter_au": "L1T04",
+    "letter_eu": "L1T04",
+    "letter_eai": "L1T04",
+    "letter_iai": "L1T04",
+    "letter_eau": "L1T04",
+    "letter_iau": "L1T04",
+    "letter_ioa": "L1T04",
+    "letter_ce-ci": "L1T06",
+    "letter_ge-gi": "L1T06",
+    "letter_che-chi": "L1T06",
+    "letter_ghe-ghi": "L1T06",
+    "sentence_eu-sunt-student": "L2T02",
+    "sentence_el-este-profesor": "L2T02",
+    "sentence_ea-este-femeie": "L2T02",
+    "sentence_el-este-prietenul-meu": "L2T02",
+    "sentence_familia-mea-are-un-copil": "L2T02",
+    "sentence_eu-spun-salut": "L2T03",
+    "sentence_eu-spun-multumesc": "L2T03",
+    "sentence_eu-sunt-fericit-azi": "L2T03",
+    "sentence_el-este-trist-azi": "L2T03",
+    "sentence_ea-este-linistita-acum": "L2T03",
+    "sentence_casa-are-o-usa": "L2T04",
+    "sentence_apartamentul-are-o-fereastra": "L2T04",
+    "sentence_cheia-este-pe-masa": "L2T04",
+    "sentence_scaunul-este-langa-masa": "L2T04",
+    "sentence_patul-este-in-camera": "L2T04",
+    "sentence_eu-ma-trezesc-dimineata": "L2T05",
+    "sentence_eu-beau-apa": "L2T05",
+    "sentence_eu-mananc-paine": "L2T05",
+    "sentence_eu-citesc-seara": "L2T05",
+    "sentence_eu-dorm-noaptea": "L2T05",
+    "sentence_autobuzul-vine-la-statie": "L2T06",
+    "sentence_trenul-vine-acum": "L2T06",
+    "sentence_eu-merg-la-magazin": "L2T06",
+    "sentence_eu-am-bani-si-card": "L2T06",
+    "sentence_bonul-este-pe-masa": "L2T06",
+    "sentence_studentul-citeste-lectia": "L2T07",
+    "sentence_profesorul-scrie-un-raport": "L2T07",
+    "sentence_colegul-are-un-proiect": "L2T07",
+    "sentence_clientul-are-un-contract": "L2T07",
+    "sentence_sedinta-este-azi": "L2T07",
+    "question_care-este-numele-tau": "L3T02",
+    "question_numele-meu-este-andrei": "L3T02",
+    "question_eu-sunt-maria": "L3T02",
+    "question_esti-student": "L3T02",
+    "question_da-sunt-student": "L3T02",
+    "question_nu-sunt-profesor": "L3T02",
+    "question_el-este-prietenul-tau": "L3T02",
+    "question_da-el-este-prietenul-meu": "L3T02",
+    "question_nu-el-este-colegul-meu": "L3T02",
+    "question_ai-familie-mare": "L3T03",
+    "question_da-am-familie-mare": "L3T03",
+    "question_nu-am-familie-mica": "L3T03",
+    "question_copilul-este-acasa": "L3T03",
+    "question_da-copilul-este-acasa": "L3T03",
+    "question_nu-copilul-este-la-scoala": "L3T03",
+    "question_vecinul-este-acolo": "L3T03",
+    "question_da-vecinul-este-acolo": "L3T03",
+    "question_nu-vecinul-este-la-birou": "L3T03",
+    "question_esti-fericit-azi": "L3T04",
+    "question_da-sunt-fericit-azi": "L3T04",
+    "question_nu-sunt-obosit-azi": "L3T04",
+    "question_spui-multumesc": "L3T04",
+    "question_da-spun-multumesc": "L3T04",
+    "question_nu-spun-scuze": "L3T04",
+    "question_ea-este-linistita-acum": "L3T04",
+    "question_da-ea-este-linistita-acum": "L3T04",
+    "question_nu-ea-este-suparata-acum": "L3T04",
+    "question_cheia-este-pe-masa": "L3T05",
+    "question_da-cheia-este-pe-masa": "L3T05",
+    "question_nu-cheia-este-in-baie": "L3T05",
+    "question_patul-este-in-camera": "L3T05",
+    "question_da-patul-este-in-camera": "L3T05",
+    "question_nu-patul-este-langa-usa": "L3T05",
+    "question_ai-apartament": "L3T05",
+    "question_da-am-apartament": "L3T05",
+    "question_nu-am-casa": "L3T05",
+    "question_bei-apa-acum": "L3T06",
+    "question_da-beau-apa-acum": "L3T06",
+    "question_nu-beau-lapte-acum": "L3T06",
+    "question_mananci-paine-dimineata": "L3T06",
+    "question_da-mananc-paine-dimineata": "L3T06",
+    "question_nu-mananc-oua-dimineata": "L3T06",
+    "question_cumperi-peste-azi": "L3T06",
+    "question_da-cumpar-peste-azi": "L3T06",
+    "question_nu-cumpar-fructe-azi": "L3T06",
+    "question_te-trezesti-dimineata-devreme": "L3T07",
+    "question_da-ma-trezesc-dimineata-devreme": "L3T07",
+    "question_nu-ma-trezesc-tarziu": "L3T07",
+    "question_citesti-seara": "L3T07",
+    "question_da-citesc-seara": "L3T07",
+    "question_nu-scriu-seara": "L3T07",
+    "question_dormi-noaptea-bine": "L3T07",
+    "question_da-dorm-noaptea-bine": "L3T07",
+    "question_nu-dorm-putin-noaptea": "L3T07",
+    "question_studentul-citeste-lectia": "L3T08",
+    "question_da-studentul-citeste-lectia": "L3T08",
+    "question_nu-studentul-scrie-lectia": "L3T08",
+    "question_ai-examen-azi": "L3T08",
+    "question_da-am-examen-azi": "L3T08",
+    "question_nu-am-tema-azi": "L3T08",
+    "question_profesorul-este-la-universitate": "L3T08",
+    "question_da-profesorul-este-la-universitate": "L3T08",
+    "question_nu-profesorul-este-la-scoala": "L3T08",
+    "question_ai-proiect-nou": "L3T09",
+    "question_da-am-proiect-nou": "L3T09",
+    "question_nu-am-raport-nou": "L3T09",
+    "question_clientul-are-contract": "L3T09",
+    "question_da-clientul-are-contract": "L3T09",
+    "question_nu-clientul-are-intrebare": "L3T09",
+    "question_sedinta-este-azi": "L3T09",
+    "question_da-sedinta-este-azi": "L3T09",
+    "question_nu-sedinta-este-maine": "L3T09",
+    "question_ai-telefon": "L3T10",
+    "question_da-am-telefon": "L3T10",
+    "question_nu-am-calculator": "L3T10",
+    "question_trimiti-mesaj-acum": "L3T10",
+    "question_da-trimit-mesaj-acum": "L3T10",
+    "question_nu-trimit-email-acum": "L3T10",
+    "question_parola-este-aici": "L3T10",
+    "question_da-parola-este-aici": "L3T10",
+    "question_nu-parola-este-in-fisier": "L3T10",
+    "question_magazinul-este-la-dreapta": "L3T11",
+    "question_da-magazinul-este-la-dreapta": "L3T11",
+    "question_nu-magazinul-este-la-stanga": "L3T11",
+    "question_statia-este-pe-aceasta-strada": "L3T11",
+    "question_da-statia-este-pe-aceasta-strada": "L3T11",
+    "question_nu-statia-este-pe-alt-drum": "L3T11",
+    "question_ai-harta": "L3T11",
+    "question_da-am-harta": "L3T11",
+    "question_nu-am-telefon": "L3T11",
+    "question_vine-autobuzul-acum": "L3T12",
+    "question_da-autobuzul-vine-acum": "L3T12",
+    "question_nu-trenul-vine-acum": "L3T12",
+    "question_ai-bilet": "L3T12",
+    "question_da-am-bilet": "L3T12",
+    "question_nu-cumpar-bilet-acum": "L3T12",
+    "question_trenul-merge-la-oras": "L3T12",
+    "question_da-trenul-merge-la-oras": "L3T12",
+    "question_nu-trenul-merge-la-aeroport": "L3T12",
+    "question_ai-bani": "L3T13",
+    "question_da-am-bani": "L3T13",
+    "question_nu-am-card": "L3T13",
+    "question_pretul-este-mare": "L3T13",
+    "question_da-pretul-este-mare": "L3T13",
+    "question_nu-pretul-este-mic": "L3T13",
+    "question_primesti-bon": "L3T13",
+    "question_da-primesc-bon": "L3T13",
+    "question_nu-primesc-mesaj": "L3T13",
+    "question_ai-durere": "L3T14",
+    "question_da-am-durere": "L3T14",
+    "question_nu-am-febra": "L3T14",
+    "question_doctorul-este-aici": "L3T14",
+    "question_da-doctorul-este-aici": "L3T14",
+    "question_nu-doctorul-este-la-spital": "L3T14",
+    "question_ai-nevoie-de-ajutor": "L3T14",
+    "question_da-am-nevoie-de-ajutor": "L3T14",
+    "question_nu-am-nevoie-de-apa": "L3T14",
+    "question_este-urgenta": "L3T15",
+    "question_da-este-urgenta": "L3T15",
+    "question_nu-este-alarma-falsa": "L3T15",
+    "question_vine-ambulanta": "L3T15",
+    "question_da-ambulanta-vine": "L3T15",
+    "question_nu-politia-vine": "L3T15",
+    "question_politia-este-aproape": "L3T15",
+    "question_da-politia-este-aproape": "L3T15",
+    "question_nu-politia-este-departe": "L3T15",
+    "question_vezi-soarele": "L3T16",
+    "question_da-vad-soarele": "L3T16",
+    "question_nu-vad-norii": "L3T16",
+    "question_este-ploaie-azi": "L3T16",
+    "question_da-este-ploaie-azi": "L3T16",
+    "question_nu-este-vant-azi": "L3T16",
+    "question_mergi-la-mare": "L3T16",
+    "question_da-merg-la-mare": "L3T16",
+    "question_nu-merg-la-munte": "L3T16",
+    "imperative_spune-salut": "L4T02",
+    "imperative_spune-buna-ziua": "L4T02",
+    "imperative_spune-te-rog": "L4T02",
+    "imperative_spune-multumesc": "L4T02",
+    "imperative_spune-la-revedere": "L4T02",
+    "imperative_spune-numele": "L4T03",
+    "imperative_scrie-prenumele": "L4T03",
+    "imperative_suna-prietenul": "L4T03",
+    "imperative_ajuta-copilul": "L4T03",
+    "imperative_saluta-vecinul": "L4T03",
+    "imperative_deschide-telefonul": "L4T04",
+    "imperative_citeste-mesajul": "L4T04",
+    "imperative_scrie-emailul": "L4T04",
+    "imperative_trimite-apelul-video": "L4T04",
+    "imperative_salveaza-fisierul": "L4T04",
+    "imperative_deschide-usa": "L4T05",
+    "imperative_inchide-fereastra": "L4T05",
+    "imperative_pune-cheia-pe-masa": "L4T05",
+    "imperative_adu-scaunul": "L4T05",
+    "imperative_aranjeaza-patul": "L4T05",
+    "imperative_bea-apa": "L4T06",
+    "imperative_mananca-paine": "L4T06",
+    "imperative_bea-lapte": "L4T06",
+    "imperative_mananca-oul": "L4T06",
+    "imperative_cumpara-peste": "L4T06",
+    "imperative_trezeste-te-dimineata": "L4T07",
+    "imperative_lucreaza-azi": "L4T07",
+    "imperative_invata-acum": "L4T07",
+    "imperative_citeste-seara": "L4T07",
+    "imperative_dormi-noaptea": "L4T07",
+    "imperative_citeste-lectia": "L4T08",
+    "imperative_scrie-tema": "L4T08",
+    "imperative_deschide-caietul": "L4T08",
+    "imperative_asculta-profesorul": "L4T08",
+    "imperative_pregateste-examenul": "L4T08",
+    "imperative_deschide-proiectul": "L4T09",
+    "imperative_citeste-raportul": "L4T09",
+    "imperative_suna-clientul": "L4T09",
+    "imperative_pregateste-contractul": "L4T09",
+    "imperative_respecta-programul": "L4T09",
+    "imperative_porneste-calculatorul": "L4T10",
+    "imperative_deschide-aplicatia": "L4T10",
+    "imperative_verifica-emailul": "L4T10",
+    "imperative_trimite-mesajul": "L4T10",
+    "imperative_inchide-fisierul": "L4T10",
+    "imperative_mergi-la-dreapta": "L4T11",
+    "imperative_mergi-la-stanga": "L4T11",
+    "imperative_urmeaza-strada": "L4T11",
+    "imperative_cauta-coltul": "L4T11",
+    "imperative_verifica-harta": "L4T11",
+    "imperative_ia-autobuzul": "L4T12",
+    "imperative_asteapta-trenul": "L4T12",
+    "imperative_cumpara-biletul": "L4T12",
+    "imperative_mergi-la-statie": "L4T12",
+    "imperative_mergi-la-aeroport": "L4T12",
+    "imperative_intra-in-magazin": "L4T13",
+    "imperative_cauta-piata": "L4T13",
+    "imperative_verifica-pretul": "L4T13",
+    "imperative_plateste-cu-cardul": "L4T13",
+    "imperative_pastreaza-bonul": "L4T13",
+    "imperative_suna-doctorul": "L4T14",
+    "imperative_mergi-la-spital": "L4T14",
+    "imperative_cauta-farmacia": "L4T14",
+    "imperative_ia-medicamentul": "L4T14",
+    "imperative_bea-apa-acum": "L4T14",
+    "imperative_cere-ajutor": "L4T15",
+    "imperative_suna-la-politie": "L4T15",
+    "imperative_cheama-ambulanta": "L4T15",
+    "imperative_ramai-calm": "L4T15",
+    "imperative_mergi-la-spital-acum": "L4T15",
+    "imperative_priveste-soarele": "L4T16",
+    "imperative_asculta-vantul": "L4T16",
+    "imperative_priveste-norul": "L4T16",
+    "imperative_urmeaza-raul": "L4T16",
+    "imperative_cauta-padurea": "L4T16",
+    "greeting_salut": "L6T02",
+    "greeting_buna": "L6T02",
+    "greeting_ceao": "L6T02",
+    "greeting_buna-dimineata": "L6T02",
+    "greeting_buna-ziua": "L6T02",
+    "greeting_buna-seara": "L6T02",
+    "greeting_noapte-buna": "L6T02",
+    "greeting_pe-curand": "L6T02",
+    "greeting_la-revedere": "L6T02",
+    "greeting_sa-fii-sanatos": "L6T02",
+    "greeting_noroc-bun": "L6T02",
+    "greeting_sa-auzim-de-bine": "L6T02",
+    "greeting_sa-ne-vedem-sanatosi": "L6T02",
+    "greeting_noapte-buna-2": "L6T02",
+    "greeting_adio-si-noroc": "L6T02",
+    "word_imi-pare-bine": "L6T02",
+    "lecture_alphabet": "L1T01",
+    "lecture_vowel-groups": "L1T03",
+    "lecture_consonant-groups": "L1T05",
+    "lecture_sentence": "L2T01",
+    "lecture_questions": "L3T01",
+    "lecture_imperative": "L4T01",
+    "lecture_greetings": "L6T01"
   }
 }

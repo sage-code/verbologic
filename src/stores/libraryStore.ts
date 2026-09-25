@@ -5,10 +5,13 @@
  * enrollments_overview view instead (setFromOverview).
  *
  * Library pages are mostly READ-ONLY consumers: nothing mutates the enrollment
- * records — enroll()/topUp()/markLearned() exist as the documented write seam
- * for the flows that land later (pricing checkout, QuizEngine/SRS activity).
- * The one exception is the per-language credit allocation (settings dialog),
- * which is a local preference on its own key — never an enrollment mutation.
+ * records — enroll()/markLearned() exist as the documented write seam for the
+ * flows that land later (pricing checkout, QuizEngine/SRS activity). Credits
+ * live in a user-level POOL (one balance for all languages): purchases add to
+ * the pool (addCredits), the per-language gear dialog moves credits between
+ * the pool and each language's allocation, and learning spends from the
+ * allocation. Both the pool and the allocations are local preferences on
+ * their own keys — never enrollment mutations.
  */
 import { defineStore } from 'pinia'
 import {
@@ -52,12 +55,20 @@ const HIDDEN_KEY = 'verbologic-library-hidden'
  * Credit allocation per language — a separate local key, again deliberately
  * NOT a field on the enrollment (the enrollments_overview view has no such
  * column). Same pattern as the hide preference: `verbologic-library-allocations`
- * = { [locale]: allocatedCredits }. The allocation carves a slice of the
- * language's remaining balance (`creditsLeft`) into an earmarked budget; the
- * unallocated remainder is the "total credit available". Managed only through
- * the per-language settings dialog (Apply commits, Cancel discards).
+ * = { [locale]: allocatedCredits }. Allocations carve slices of the POOL
+ * (see POOL_KEY) into per-language budgets; the unallocated remainder of the
+ * pool is the "credit available". Managed only through the per-language
+ * settings dialog (Apply commits, Cancel discards).
  */
 const ALLOCATIONS_KEY = 'verbologic-library-allocations'
+/**
+ * User-level credit pool — the credits bought with the Add-credits button
+ * (one balance for every language). Allocations carve slices of this pool
+ * per language via the gear dialog; the unallocated remainder is the
+ * "credit available". A local key like the allocations: per-computer until
+ * a server-side balance lands.
+ */
+const POOL_KEY = 'verbologic-credit-pool'
 
 export const useLibraryStore = defineStore('library', () => {
   // Supabase client (null without credentials) — enrollments persist to the
@@ -67,6 +78,8 @@ export const useLibraryStore = defineStore('library', () => {
   const enrollments = ref<Enrollment[]>([])
   const hidden = ref<Record<string, string>>({})
   const allocations = ref<Record<string, number>>({})
+  /** User-level credit pool (bought credits, before per-language allocation). */
+  const creditPool = ref(0)
 
   const isEmpty = computed(() => visible.value.length === 0)
 
@@ -91,12 +104,30 @@ export const useLibraryStore = defineStore('library', () => {
     return Math.max(0, allocations.value[locale] ?? 0)
   }
 
+  /** Sum of every language's allocation. */
+  const allocatedTotal = computed(() =>
+    (Object.values(allocations.value) as number[]).reduce((sum: number, n: number) => sum + Math.max(0, n), 0)
+  )
+
+  /** The unallocated slice of the pool — what the gear dialog can still hand
+   *  out (and what "take credits back" returns to). */
+  const poolAvailable = computed(() => Math.max(0, creditPool.value - allocatedTotal.value))
+
+  /** Buy credits into the pool (the Add-credits dialog). */
+  function addCredits(credits: number) {
+    creditPool.value += Math.max(0, credits)
+    if (import.meta.client) localStorage.setItem(POOL_KEY, JSON.stringify(creditPool.value))
+  }
+
   /** Commit a new credit allocation for one language (settings dialog Apply). */
   function setAllocation(locale: string, credits: number) {
     const e = activeFor(locale)
     if (!e) return
-    // Never allocate more than the language's remaining balance, never negative.
-    allocations.value[locale] = Math.max(0, Math.min(credits, creditsLeft(e)))
+    // The ceiling is the language's current allocation plus whatever is
+    // still unallocated in the pool — moving credits between languages goes
+    // through the pool, so nothing is ever created out of thin air.
+    const ceiling = allocationFor(locale) + poolAvailable.value
+    allocations.value[locale] = Math.max(0, Math.min(credits, ceiling))
     if (import.meta.client) {
       localStorage.setItem(ALLOCATIONS_KEY, JSON.stringify(allocations.value))
     }
@@ -165,6 +196,13 @@ export const useLibraryStore = defineStore('library', () => {
       // Corrupt payload — nothing allocated.
       allocations.value = {}
     }
+    try {
+      const rawPool = localStorage.getItem(POOL_KEY)
+      creditPool.value = rawPool ? (JSON.parse(rawPool) as number) : 0
+    } catch {
+      // Corrupt payload — empty pool.
+      creditPool.value = 0
+    }
   }
 
   // --- Write seam (Supabase Phase 5) ---
@@ -205,16 +243,6 @@ export const useLibraryStore = defineStore('library', () => {
     void syncToDb(e)
   }
 
-  /** Add credits to an existing enrollment (top-up purchase). */
-  function topUp(locale: string, credits: number) {
-    const e = activeFor(locale)
-    if (!e) return
-    e.creditsTotal += credits
-    e.updatedAt = new Date().toISOString()
-    persist()
-    void syncToDb(e)
-  }
-
   /** Bump the learned-word counter after learning activity (quiz/SRS). */
   function markLearned(locale: string, count = 1) {
     const e = activeFor(locale)
@@ -245,6 +273,9 @@ export const useLibraryStore = defineStore('library', () => {
   return {
     enrollments,
     hidden,
+    creditPool,
+    allocatedTotal,
+    poolAvailable,
     isEmpty,
     sorted,
     visible,
@@ -256,7 +287,7 @@ export const useLibraryStore = defineStore('library', () => {
     hydrate,
     setFromOverview,
     enroll,
-    topUp,
+    addCredits,
     syncAll,
     markLearned,
     hide,

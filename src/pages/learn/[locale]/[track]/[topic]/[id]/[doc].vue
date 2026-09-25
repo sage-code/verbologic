@@ -95,7 +95,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <main class="mx-auto max-w-3xl px-6 py-6">
+  <main class="app-container py-6">
     <nav class="flex items-center gap-2 text-sm text-muted">
       <a :href="`/learn/${trackLang}/${track}`" class="inline-flex items-center gap-1.5 transition hover:text-accent">
         <ArrowLeftIcon class="h-4 w-4" aria-hidden="true" />

@@ -11,11 +11,11 @@
  *   2. resolves every legacy entity id (public/data/entities) to one sidebar
  *      topic code via the curated MAP (page#section → topic) plus term-level
  *      overrides (greetings/courtesy words) and id-pattern rules (alphabet),
- *   3. emits the committed topic map (topic-map.json) and a coverage report;
- *      with --apply-sidebar it also rewrites the sidebar's topic item lists.
+ *   3. emits the committed topic map (topic-map.json) and a coverage report.
+ *
+ * It never writes sidebars: the dictionary and lectures sidebars are hand-curated.
  *
  *   node scripts/archive-topics.mjs                       # topic map + report
- *   node scripts/archive-topics.mjs --apply-sidebar       # + rewrite sidebar items
  *
  * Exported for scripts/media-manifests.mjs: attributeAll() → Map<id, {topic, page, section, order}>.
  */
@@ -26,8 +26,6 @@ import { fileURLToPath, pathToFileURL } from 'node:url'
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const ENTITIES = join(ROOT, 'public', 'data', 'entities')
 const SIDEBAR_FILE = join(ROOT, 'src', 'data', 'sidebars', 'library', 'dictionary', 'sidebar.json')
-const PINS_FILE = join(ROOT, 'src', 'data', 'sidebars', 'library', 'dictionary', 'pins.json')
-const SIDEBARS = join(ROOT, 'src', 'data', 'sidebars', 'library')
 const MAP_FILE = join(ROOT, 'src', 'data', 'sidebars', 'library', 'dictionary', 'topic-map.json')
 
 const LANG_DIR = { ro: 'romanian', en: 'english' }
@@ -43,9 +41,6 @@ const PAGE_BY_PREFIX = {
   greeting: 'greetings',
   letter: 'alphabet'
 }
-
-/** Page read order inside topics that mix pages: words → sentences → questions → imperatives. */
-const PAGE_ORDER = ['alphabet', 'vocabulary', 'sentences', 'questions', 'imperative']
 
 /** Curated mapping: archive page → section id → sidebar topic code. */
 const BUILTIN_MAP = {
@@ -201,24 +196,8 @@ export function loadMap() {
   }
 }
 
-/**
- * The restructure pins (restructure-dictionary.mjs): id → { section, topic }.
- * Pinned ids are OWNED by their pinned sidebar section — the legacy archive
- * attribution is overridden, so re-running this pipeline can never undo a
- * dictionary restructure.
- */
-function loadPins() {
-  try {
-    return readJson(PINS_FILE)
-  } catch {
-    return {}
-  }
-}
-
 /** The sidebar topic code for one entity, or null when unattributable. */
 export function attribute(entity) {
-  const pin = loadPins()[entity.id]
-  if (pin) return { topic: pin.topic, page: 'pin', section: `pin:${pin.section}` }
 
   const underscore = entity.id.indexOf('_')
   const page = PAGE_BY_PREFIX[entity.id.slice(0, underscore)]
@@ -269,8 +248,6 @@ export function attributeAll() {
 
 /* ── CLI ───────────────────────────────────────────────────────────────── */
 
-const applySidebar = process.argv.includes('--apply-sidebar')
-
 function main() {
   const sidebar = readJson(SIDEBAR_FILE)
   const knownTopics = new Set(sidebar.sections.flatMap((c) => c.topics.map((t) => t.code)))
@@ -310,55 +287,6 @@ function main() {
   if (unattributed.length) {
     console.error(`ERROR: unattributed entities: ${unattributed.join(', ')}`)
     process.exit(1)
-  }
-
-  if (applySidebar) {
-    // Pinned ids live in their pinned section's sidebar (e.g. lectures) — the
-    // legacy pipeline owns only the dictionary sidebar's item lists, and it
-    // must never wipe another section's content docs.
-    const pins = loadPins()
-    const docs = { 'library/dictionary': { sidebar, file: SIDEBAR_FILE } }
-    for (const [id, pin] of Object.entries(pins)) {
-      if (!docs[pin.section]) {
-        const file = join(SIDEBARS, pin.section.replace('library/', ''), 'sidebar.json')
-        docs[pin.section] = { sidebar: readJson(file), file }
-      }
-    }
-
-    // Clear only the dictionary's item lists (its own structure layer).
-    for (const chapter of docs['library/dictionary'].sidebar.sections) {
-      for (const topic of chapter.topics) topic.items = []
-    }
-
-    // Stage every attributed id under its (pinned) section + topic.
-    const bySectionTopic = new Map() // `${section}\n${topic}` → [{id, page, order}]
-    for (const [id, at] of attribution) {
-      const section = pins[id]?.section ?? 'library/dictionary'
-      const key = `${section}\n${at.topic}`
-      if (!bySectionTopic.has(key)) bySectionTopic.set(key, [])
-      bySectionTopic.get(key).push({ id, page: at.page, order: at.order })
-    }
-    const byOrder = (a, b) => PAGE_ORDER.indexOf(a.page) - PAGE_ORDER.indexOf(b.page) || a.order - b.order
-    for (const [key, items] of bySectionTopic) {
-      const [section, topic] = key.split('\n')
-      const entry = docs[section]
-      const topicEntry = entry.sidebar.sections.flatMap((c) => c.topics).find((t) => t.code === topic)
-      if (!topicEntry) {
-        console.error(`ERROR: section '${section}' has no topic '${topic}'`)
-        continue
-      }
-      // Content docs (lectures/stories) keep their place at the top of the topic.
-      const contentDocs = topicEntry.items.filter((id) => id.startsWith('lecture_') || id.startsWith('story_'))
-      topicEntry.items = [...contentDocs, ...items.sort(byOrder).map((x) => x.id)]
-    }
-
-    const written = new Set()
-    for (const { sidebar: doc, file } of Object.values(docs)) {
-      if (written.has(file)) continue
-      written.add(file)
-      writeFileSync(file, JSON.stringify(doc, null, 2) + '\n')
-      console.log(`sidebar rewritten → ${file.replace(ROOT, '')}`)
-    }
   }
 }
 const PLANNED_SOURCES = {

@@ -8,7 +8,7 @@
 <script setup lang="ts">
 import type { Component } from 'vue'
 import { XMarkIcon } from '@heroicons/vue/20/solid'
-import { AcademicCapIcon, BookmarkIcon, BookOpenIcon, Cog6ToothIcon, PlusIcon } from '@heroicons/vue/24/outline'
+import { AcademicCapIcon, BanknotesIcon, BookmarkIcon, BookOpenIcon, Cog6ToothIcon, MicrophoneIcon } from '@heroicons/vue/24/outline'
 import type { Enrollment } from '~/stores/libraryStore'
 import { useLibraryStore } from '~/stores/libraryStore'
 import { TRACK_IDS, isTrackLive, trackFor, type TrackId } from '~/data/tracks'
@@ -23,22 +23,16 @@ const userStore = useUserStore()
 // Add Language dialog visibility (the dialog mounts fresh each open).
 const addOpen = ref(false)
 
+// Add-credits (pool purchase) dialog visibility — fresh mount resets the pick.
+const creditsOpen = ref(false)
+
 // Locale whose credit-settings dialog is open (null = closed; the dialog
 // mounts fresh each open, so the draft allocation always starts current).
 const settingsLocale = ref<string | null>(null)
 
-// Locale whose add-credits dialog is open (null = closed; fresh mount each
-// open resets the pack selection).
-const topUpLocale = ref<string | null>(null)
-
 /** The enrollment for the open settings dialog, if still visible. */
 const settingsEnrollment = computed(
   () => (settingsLocale.value ? (store.activeFor(settingsLocale.value) ?? null) : null)
-)
-
-/** The enrollment for the open add-credits dialog, if still visible. */
-const topUpEnrollment = computed(
-  () => (topUpLocale.value ? (store.activeFor(topUpLocale.value) ?? null) : null)
 )
 
 // Preload UI chrome + local data on the client (mirrors the other pages).
@@ -98,21 +92,31 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
        stretches like two side-by-side ones would; capped once a second
        language appears (the grid below then pairs them up). -->
   <main class="mx-auto w-full" :class="store.visible.length > 1 ? 'max-w-6xl' : 'max-w-full'">
-    <!-- Title row: heading left, discreet Add Language action right
-         (hidden while the library is empty — the big accent button in the
-         empty-state card is the entry point then). bg-body blends with the
-         page background: dark on dark theme, almost white on light. -->
+    <!-- Title row: heading left, Add Language (voice icon) + Add credits
+         (coin/bill icon) right. Add Language hides while the library is
+         empty — the big accent button in the empty-state card is the entry
+         point then; Add credits stays (the pool can be filled first). -->
     <div class="flex flex-wrap items-center justify-between gap-3">
       <h1 class="text-3xl font-bold text-content">{{ copy('library.title', 'Your Library') }}</h1>
-      <button
-        v-if="!store.isEmpty"
-        type="button"
-        class="inline-flex items-center gap-2 rounded-full border border-edge bg-body px-4 py-2 text-sm font-medium text-muted transition hover:border-accent hover:text-accent"
-        @click="addOpen = true"
-      >
-        <PlusIcon class="h-4 w-4" aria-hidden="true" />
-        {{ copy('library.add_language', 'Add Language') }}
-      </button>
+      <div class="flex items-center gap-2">
+        <button
+          type="button"
+          class="inline-flex items-center gap-2 rounded-full border border-edge bg-body px-4 py-2 text-sm font-medium text-muted transition hover:border-accent hover:text-accent"
+          @click="creditsOpen = true"
+        >
+          <BanknotesIcon class="h-4 w-4" aria-hidden="true" />
+          {{ copy('library.credits_title', 'Add credits') }}
+        </button>
+        <button
+          v-if="!store.isEmpty"
+          type="button"
+          class="inline-flex items-center gap-2 rounded-full border border-edge bg-body px-4 py-2 text-sm font-medium text-muted transition hover:border-accent hover:text-accent"
+          @click="addOpen = true"
+        >
+          <MicrophoneIcon class="h-4 w-4" aria-hidden="true" />
+          {{ copy('library.add_language', 'Add Language') }}
+        </button>
+      </div>
     </div>
     <p class="mt-2 text-muted">{{ copy('library.subtitle', 'Manage your languages and view your progress.') }}</p>
 
@@ -127,7 +131,7 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
         class="mt-4 inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 font-semibold text-on-accent shadow-sm transition hover:bg-accent-strong"
         @click="addOpen = true"
       >
-        <PlusIcon class="h-5 w-5" aria-hidden="true" />
+        <MicrophoneIcon class="h-5 w-5" aria-hidden="true" />
         {{ copy('library.add_language', 'Add Language') }}
       </button>
     </div>
@@ -157,16 +161,6 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
           >
             <Cog6ToothIcon class="h-5 w-5" aria-hidden="true" />
           </button>
-          <!-- +: add credits for this language (right before the ✕) -->
-          <button
-            type="button"
-            class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-edge text-muted transition hover:border-accent hover:text-accent"
-            :aria-label="`${copy('library.credits_title', 'Add credits')} — ${languageName(e.locale)}`"
-            :title="copy('library.credits_title', 'Add credits')"
-            @click="topUpLocale = e.locale"
-          >
-            <PlusIcon class="h-5 w-5" aria-hidden="true" />
-          </button>
           <button
             type="button"
             class="ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-edge text-muted transition hover:border-accent hover:text-accent"
@@ -178,15 +172,15 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
           </button>
         </div>
 
-        <!-- Progress stats -->
+        <!-- Progress stats: allocated credits come from the shared pool -->
         <div class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
           <div class="rounded-xl bg-soft p-4">
             <p class="text-2xl font-extrabold text-content">{{ e.creditsConsumed }}</p>
             <p class="text-xs text-muted">{{ copy('library.credits_consumed', 'Credits consumed') }}</p>
           </div>
           <div class="rounded-xl bg-soft p-4">
-            <p class="text-2xl font-extrabold text-accent">{{ store.creditsLeft(e) }}</p>
-            <p class="text-xs text-muted">{{ copy('library.credits_left', 'Credits left') }}</p>
+            <p class="text-2xl font-extrabold text-accent">{{ store.allocationFor(e.locale) }}</p>
+            <p class="text-xs text-muted">{{ copy('library.credits_allocated', 'Credits allocated') }}</p>
           </div>
           <div class="rounded-xl bg-soft p-4">
             <p class="text-2xl font-extrabold text-content">{{ e.wordsLearned }}</p>
@@ -239,18 +233,14 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
     <!-- Single-select "Select language" dialog (round ✕ top-right via AppDialog) -->
     <AddLanguageDialog v-if="addOpen" @close="addOpen = false" />
 
+    <!-- Pool purchase dialog (Add credits in the title row) -->
+    <AddCreditsDialog v-if="creditsOpen" @close="creditsOpen = false" />
+
     <!-- Per-language credit settings (gear button; Apply commits, Cancel/✕ discards) -->
     <LanguageCreditSettings
       v-if="settingsEnrollment"
       :enrollment="settingsEnrollment"
       @close="settingsLocale = null"
-    />
-
-    <!-- Per-language add-credits (+ button on the panel) -->
-    <AddCreditsDialog
-      v-if="topUpEnrollment"
-      :enrollment="topUpEnrollment"
-      @close="topUpLocale = null"
     />
   </main>
 </template>

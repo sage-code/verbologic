@@ -16,7 +16,7 @@ const logoSrc = computed(() => (theme.value === 'dark' ? earthLogoWhite : earthL
 
 <template>
   <header class="sticky top-0 z-40 border-b border-edge bg-chrome backdrop-blur">
-    <div class="app-container app-header-inner py-3">
+    <div class="app-container app-header-inner py-1.5">
       <NuxtLink to="/" class="flex shrink-0 items-center gap-2" :aria-label="`Verbologic — ${t('ui.home') ?? 'Home'}`">
         <!-- Monochrome transparent mark — white on dark theme, black on light. -->
         <img

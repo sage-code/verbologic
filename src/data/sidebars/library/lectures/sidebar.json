@@ -6,31 +6,28 @@
   },
   "sections": [
     {
-      "code": "C1",
+      "code": "L1",
       "names": {
-        "en": "Foundations & Sounds",
-        "ro": "Fundații și sunete",
-        "de": "Grundlagen & Laute",
-        "ru": "Основы и звуки",
-        "it": "Fondamenti e suoni",
-        "es": "Fundamentos y sonidos",
-        "fr": "Bases et sons",
-        "hu": "Alapok és hangok",
-        "pt": "Fundamentos e sons"
+        "en": "Sounds & Writing",
+        "ro": "Sunete și scriere"
       },
       "topics": [
         {
-          "code": "C1T01",
+          "code": "L1T01",
+          "names": {
+            "en": "The Romanian alphabet",
+            "ro": "Alfabetul românesc"
+          },
+          "items": [
+            "lecture_alphabet"
+          ],
+          "layout": "article"
+        },
+        {
+          "code": "L1T02",
           "names": {
             "en": "Alphabet & letters",
-            "ro": "Alfabet și litere",
-            "de": "Alphabet & Buchstaben",
-            "ru": "Алфавит и буквы",
-            "it": "Alfabeto e lettere",
-            "es": "Alfabeto y letras",
-            "fr": "Alphabet et lettres",
-            "hu": "Ábécé és betűk",
-            "pt": "Alfabeto e letras"
+            "ro": "Alfabet și litere"
           },
           "items": [
             "letter_a-2",
@@ -141,28 +138,21 @@
           "layout": "table"
         },
         {
-          "code": "C1T01A",
+          "code": "L1T03",
           "names": {
-            "en": "The Romanian alphabet",
-            "ro": "Alfabetul românesc"
+            "en": "Vowels, diphthongs & triphthongs",
+            "ro": "Vocale, diftongi și triftongi"
           },
           "items": [
-            "lecture_alphabet"
+            "lecture_vowel-groups"
           ],
           "layout": "article"
         },
         {
-          "code": "C1T02",
+          "code": "L1T04",
           "names": {
-            "en": "Vowels & vowel sounds",
-            "ro": "Vocale și sunete vocale",
-            "de": "Vokale & Vokallaute",
-            "ru": "Гласные и гласные звуки",
-            "it": "Vocali e suoni vocalici",
-            "es": "Vocales y sonidos vocálicos",
-            "fr": "Voyelles et sons vocaliques",
-            "hu": "Magánhangzók és hangjaik",
-            "pt": "Vogais e sons vocálicos"
+            "en": "Vowel groups",
+            "ro": "Grupuri vocalice"
           },
           "items": [
             "letter_ea",
@@ -188,17 +178,21 @@
           "layout": "table"
         },
         {
-          "code": "C1T03",
+          "code": "L1T05",
           "names": {
-            "en": "Consonants & clusters",
-            "ro": "Consoane și grupuri de consoane",
-            "de": "Konsonanten & Konsonantenverbindungen",
-            "ru": "Согласные и сочетания согласных",
-            "it": "Consonanti e gruppi consonantici",
-            "es": "Consonantes y grupos consonánticos",
-            "fr": "Consonnes et groupes de consonnes",
-            "hu": "Mássalhangzók és kapcsolatok",
-            "pt": "Consoantes e grupos consonânticos"
+            "en": "Digraphs & trigraphs",
+            "ro": "Digrafe și trigrafe"
+          },
+          "items": [
+            "lecture_consonant-groups"
+          ],
+          "layout": "article"
+        },
+        {
+          "code": "L1T06",
+          "names": {
+            "en": "Consonant groups",
+            "ro": "Grupuri consonantice"
           },
           "items": [
             "letter_ce-ci",
@@ -209,1604 +203,915 @@
           "layout": "table"
         },
         {
-          "code": "C1T04",
+          "code": "L1T07",
           "names": {
-            "en": "Diacritics & special characters",
-            "ro": "Diacritice și caractere speciale",
-            "de": "Diakritika & Sonderzeichen",
-            "ru": "Диакритические знаки и специальные символы",
-            "it": "Diacritici e caratteri speciali",
-            "es": "Diacríticos y caracteres especiales",
-            "fr": "Diacritiques et caractères spéciaux",
-            "hu": "Ékezetek és speciális karakterek",
-            "pt": "Diacríticos e caracteres especiais"
+            "en": "Diacritics, syllables & stress",
+            "ro": "Diacritice, silabe și accent"
           },
-          "items": [],
+          "items": [
+            "lecture_stress"
+          ],
+          "layout": "article"
+        }
+      ]
+    },
+    {
+      "code": "L2",
+      "names": {
+        "en": "Statements",
+        "ro": "Propoziții enunțiative"
+      },
+      "topics": [
+        {
+          "code": "L2T01",
+          "names": {
+            "en": "What is a sentence?",
+            "ro": "Ce este o propoziție?"
+          },
+          "items": [
+            "lecture_sentence"
+          ],
+          "layout": "article"
+        },
+        {
+          "code": "L2T02",
+          "names": {
+            "en": "Identity and People",
+            "ro": "Identitate și persoane"
+          },
+          "items": [
+            "sentence_eu-sunt-student",
+            "sentence_el-este-profesor",
+            "sentence_ea-este-femeie",
+            "sentence_el-este-prietenul-meu",
+            "sentence_familia-mea-are-un-copil"
+          ],
           "layout": "table"
         },
         {
-          "code": "C1T05",
+          "code": "L2T03",
           "names": {
-            "en": "Syllables & stress",
-            "ro": "Silabe și accent",
-            "de": "Silben & Betonung",
-            "ru": "Слоги и ударение",
-            "it": "Sillabe e accento",
-            "es": "Sílabas y acento",
-            "fr": "Syllabes et accent",
-            "hu": "Szótagok és hangsúly",
-            "pt": "Sílabas e acento"
+            "en": "Greetings and Feelings",
+            "ro": "Saluturi și sentimente"
           },
-          "items": [],
+          "items": [
+            "sentence_eu-spun-salut",
+            "sentence_eu-spun-multumesc",
+            "sentence_eu-sunt-fericit-azi",
+            "sentence_el-este-trist-azi",
+            "sentence_ea-este-linistita-acum"
+          ],
           "layout": "table"
         },
         {
-          "code": "C1T06",
+          "code": "L2T04",
           "names": {
-            "en": "Numbers 0-20",
-            "ro": "Numerele 0-20",
-            "de": "Zahlen 0-20",
-            "ru": "Числа 0–20",
-            "it": "Numeri 0-20",
-            "es": "Números del 0 al 20",
-            "fr": "Nombres de 0 à 20",
-            "hu": "Számok 0–20",
-            "pt": "Números de 0 a 20"
+            "en": "Home Objects and Places",
+            "ro": "Obiecte și locuri din casă"
           },
-          "items": [],
+          "items": [
+            "sentence_casa-are-o-usa",
+            "sentence_apartamentul-are-o-fereastra",
+            "sentence_cheia-este-pe-masa",
+            "sentence_scaunul-este-langa-masa",
+            "sentence_patul-este-in-camera"
+          ],
           "layout": "table"
         },
         {
-          "code": "C1T07",
+          "code": "L2T05",
           "names": {
-            "en": "Numbers 20-100 & ordinals",
-            "ro": "Numerele 20-100 și numeralele ordinale",
-            "de": "Zahlen 20-100 & Ordnungszahlen",
-            "ru": "Числа 20–100 и порядковые числительные",
-            "it": "Numeri 20-100 e numeri ordinali",
-            "es": "Números del 20 al 100 y ordinales",
-            "fr": "Nombres de 20 à 100 et ordinaux",
-            "hu": "Számok 20–100 és sorszámok",
-            "pt": "Números de 20 a 100 e ordinais"
+            "en": "Daily Actions and Meals",
+            "ro": "Acțiuni zilnice și mese"
           },
-          "items": [],
+          "items": [
+            "sentence_eu-ma-trezesc-dimineata",
+            "sentence_eu-beau-apa",
+            "sentence_eu-mananc-paine",
+            "sentence_eu-citesc-seara",
+            "sentence_eu-dorm-noaptea"
+          ],
           "layout": "table"
         },
         {
-          "code": "C1T08",
+          "code": "L2T06",
           "names": {
-            "en": "Punctuation & symbols",
-            "ro": "Punctuație și simboluri",
-            "de": "Interpunktion & Symbole",
-            "ru": "Пунктуация и символы",
-            "it": "Punteggiatura e simboli",
-            "es": "Puntuación y símbolos",
-            "fr": "Ponctuation et symboles",
-            "hu": "Írásjelek és szimbólumok",
-            "pt": "Pontuação e símbolos"
+            "en": "Transport and Shopping",
+            "ro": "Transport și cumpărături"
           },
-          "items": [],
+          "items": [
+            "sentence_autobuzul-vine-la-statie",
+            "sentence_trenul-vine-acum",
+            "sentence_eu-merg-la-magazin",
+            "sentence_eu-am-bani-si-card",
+            "sentence_bonul-este-pe-masa"
+          ],
           "layout": "table"
         },
         {
-          "code": "C1T09",
+          "code": "L2T07",
           "names": {
-            "en": "Reading & spelling rules",
-            "ro": "Reguli de citire și ortografie",
-            "de": "Lese- & Rechtschreibregeln",
-            "ru": "Правила чтения и орфографии",
-            "it": "Regole di lettura e ortografia",
-            "es": "Reglas de lectura y ortografía",
-            "fr": "Règles de lecture et d'orthographe",
-            "hu": "Olvasási és helyesírási szabályok",
-            "pt": "Regras de leitura e ortografia"
+            "en": "School and Office",
+            "ro": "Școală și birou"
           },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C1T10",
-          "names": {
-            "en": "Writing & keyboard layout",
-            "ro": "Scriere și aranjament de tastatură",
-            "de": "Schreiben & Tastaturlayout",
-            "ru": "Письмо и раскладка клавиатуры",
-            "it": "Scrittura e disposizione della tastiera",
-            "es": "Escritura y distribución del teclado",
-            "fr": "Écriture et disposition du clavier",
-            "hu": "Írás és billentyűzetkiosztás",
-            "pt": "Escrita e disposição do teclado"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C1T11",
-          "names": {
-            "en": "Greetings & farewells",
-            "ro": "Saluturi și rămas-bun",
-            "de": "Begrüßungen & Abschiede",
-            "ru": "Приветствия и прощания",
-            "it": "Saluti e congedi",
-            "es": "Saludos y despedidas",
-            "fr": "Salutations et adieux",
-            "hu": "Köszönés és elköszönés",
-            "pt": "Saudações e despedidas"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C1T12",
-          "names": {
-            "en": "Courtesy formulas",
-            "ro": "Formule de curtoazie",
-            "de": "Höflichkeitsformeln",
-            "ru": "Формулы вежливости",
-            "it": "Formole di cortesia",
-            "es": "Fórmulas de cortesía",
-            "fr": "Formules de politesse",
-            "hu": "Udvariassági kifejezések",
-            "pt": "Fórmulas de cortesia"
-          },
-          "items": [],
+          "items": [
+            "sentence_studentul-citeste-lectia",
+            "sentence_profesorul-scrie-un-raport",
+            "sentence_colegul-are-un-proiect",
+            "sentence_clientul-are-un-contract",
+            "sentence_sedinta-este-azi"
+          ],
           "layout": "table"
         }
       ]
     },
     {
-      "code": "C2",
+      "code": "L3",
       "names": {
-        "en": "People & Identity",
-        "ro": "Oameni și identitate",
-        "de": "Menschen & Identität",
-        "ru": "Люди и идентичность",
-        "it": "Persone e identità",
-        "es": "Personas e identidad",
-        "fr": "Personnes et identité",
-        "hu": "Emberek és identitás",
-        "pt": "Pessoas e identidade"
+        "en": "Questions & Answers",
+        "ro": "Întrebări și răspunsuri"
       },
       "topics": [
         {
-          "code": "C2T01",
+          "code": "L3T01",
+          "names": {
+            "en": "Asking and answering",
+            "ro": "Cum întrebăm și cum răspundem"
+          },
+          "items": [
+            "lecture_questions"
+          ],
+          "layout": "article"
+        },
+        {
+          "code": "L3T02",
+          "names": {
+            "en": "Names and Identity",
+            "ro": "Nume și identitate"
+          },
+          "items": [
+            "question_care-este-numele-tau",
+            "question_numele-meu-este-andrei",
+            "question_eu-sunt-maria",
+            "question_esti-student",
+            "question_da-sunt-student",
+            "question_nu-sunt-profesor",
+            "question_el-este-prietenul-tau",
+            "question_da-el-este-prietenul-meu",
+            "question_nu-el-este-colegul-meu"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T03",
+          "names": {
+            "en": "Family and People",
+            "ro": "Familie și persoane"
+          },
+          "items": [
+            "question_ai-familie-mare",
+            "question_da-am-familie-mare",
+            "question_nu-am-familie-mica",
+            "question_copilul-este-acasa",
+            "question_da-copilul-este-acasa",
+            "question_nu-copilul-este-la-scoala",
+            "question_vecinul-este-acolo",
+            "question_da-vecinul-este-acolo",
+            "question_nu-vecinul-este-la-birou"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T04",
+          "names": {
+            "en": "Feelings and Courtesy",
+            "ro": "Sentimente și politețe"
+          },
+          "items": [
+            "question_esti-fericit-azi",
+            "question_da-sunt-fericit-azi",
+            "question_nu-sunt-obosit-azi",
+            "question_spui-multumesc",
+            "question_da-spun-multumesc",
+            "question_nu-spun-scuze",
+            "question_ea-este-linistita-acum",
+            "question_da-ea-este-linistita-acum",
+            "question_nu-ea-este-suparata-acum"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T05",
+          "names": {
+            "en": "Home Objects",
+            "ro": "Obiecte din casă"
+          },
+          "items": [
+            "question_cheia-este-pe-masa",
+            "question_da-cheia-este-pe-masa",
+            "question_nu-cheia-este-in-baie",
+            "question_patul-este-in-camera",
+            "question_da-patul-este-in-camera",
+            "question_nu-patul-este-langa-usa",
+            "question_ai-apartament",
+            "question_da-am-apartament",
+            "question_nu-am-casa"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T06",
+          "names": {
+            "en": "Food and Drink",
+            "ro": "Mâncare și băutură"
+          },
+          "items": [
+            "question_bei-apa-acum",
+            "question_da-beau-apa-acum",
+            "question_nu-beau-lapte-acum",
+            "question_mananci-paine-dimineata",
+            "question_da-mananc-paine-dimineata",
+            "question_nu-mananc-oua-dimineata",
+            "question_cumperi-peste-azi",
+            "question_da-cumpar-peste-azi",
+            "question_nu-cumpar-fructe-azi"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T07",
+          "names": {
+            "en": "Daily Routine",
+            "ro": "Rutina zilnică"
+          },
+          "items": [
+            "question_te-trezesti-dimineata-devreme",
+            "question_da-ma-trezesc-dimineata-devreme",
+            "question_nu-ma-trezesc-tarziu",
+            "question_citesti-seara",
+            "question_da-citesc-seara",
+            "question_nu-scriu-seara",
+            "question_dormi-noaptea-bine",
+            "question_da-dorm-noaptea-bine",
+            "question_nu-dorm-putin-noaptea"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T08",
+          "names": {
+            "en": "School Life",
+            "ro": "Viața la școală"
+          },
+          "items": [
+            "question_studentul-citeste-lectia",
+            "question_da-studentul-citeste-lectia",
+            "question_nu-studentul-scrie-lectia",
+            "question_ai-examen-azi",
+            "question_da-am-examen-azi",
+            "question_nu-am-tema-azi",
+            "question_profesorul-este-la-universitate",
+            "question_da-profesorul-este-la-universitate",
+            "question_nu-profesorul-este-la-scoala"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T09",
+          "names": {
+            "en": "Office Life",
+            "ro": "Viața la birou"
+          },
+          "items": [
+            "question_ai-proiect-nou",
+            "question_da-am-proiect-nou",
+            "question_nu-am-raport-nou",
+            "question_clientul-are-contract",
+            "question_da-clientul-are-contract",
+            "question_nu-clientul-are-intrebare",
+            "question_sedinta-este-azi",
+            "question_da-sedinta-este-azi",
+            "question_nu-sedinta-este-maine"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T10",
+          "names": {
+            "en": "Technology and Messages",
+            "ro": "Tehnologie și mesaje"
+          },
+          "items": [
+            "question_ai-telefon",
+            "question_da-am-telefon",
+            "question_nu-am-calculator",
+            "question_trimiti-mesaj-acum",
+            "question_da-trimit-mesaj-acum",
+            "question_nu-trimit-email-acum",
+            "question_parola-este-aici",
+            "question_da-parola-este-aici",
+            "question_nu-parola-este-in-fisier"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T11",
+          "names": {
+            "en": "Directions and Places",
+            "ro": "Direcții și locuri"
+          },
+          "items": [
+            "question_magazinul-este-la-dreapta",
+            "question_da-magazinul-este-la-dreapta",
+            "question_nu-magazinul-este-la-stanga",
+            "question_statia-este-pe-aceasta-strada",
+            "question_da-statia-este-pe-aceasta-strada",
+            "question_nu-statia-este-pe-alt-drum",
+            "question_ai-harta",
+            "question_da-am-harta",
+            "question_nu-am-telefon"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T12",
+          "names": {
+            "en": "Transport and Tickets",
+            "ro": "Transport și bilete"
+          },
+          "items": [
+            "question_vine-autobuzul-acum",
+            "question_da-autobuzul-vine-acum",
+            "question_nu-trenul-vine-acum",
+            "question_ai-bilet",
+            "question_da-am-bilet",
+            "question_nu-cumpar-bilet-acum",
+            "question_trenul-merge-la-oras",
+            "question_da-trenul-merge-la-oras",
+            "question_nu-trenul-merge-la-aeroport"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T13",
+          "names": {
+            "en": "Shopping and Money",
+            "ro": "Cumpărături și bani"
+          },
+          "items": [
+            "question_ai-bani",
+            "question_da-am-bani",
+            "question_nu-am-card",
+            "question_pretul-este-mare",
+            "question_da-pretul-este-mare",
+            "question_nu-pretul-este-mic",
+            "question_primesti-bon",
+            "question_da-primesc-bon",
+            "question_nu-primesc-mesaj"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T14",
+          "names": {
+            "en": "Health and Help",
+            "ro": "Sănătate și ajutor"
+          },
+          "items": [
+            "question_ai-durere",
+            "question_da-am-durere",
+            "question_nu-am-febra",
+            "question_doctorul-este-aici",
+            "question_da-doctorul-este-aici",
+            "question_nu-doctorul-este-la-spital",
+            "question_ai-nevoie-de-ajutor",
+            "question_da-am-nevoie-de-ajutor",
+            "question_nu-am-nevoie-de-apa"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T15",
+          "names": {
+            "en": "Emergencies",
+            "ro": "Urgențe"
+          },
+          "items": [
+            "question_este-urgenta",
+            "question_da-este-urgenta",
+            "question_nu-este-alarma-falsa",
+            "question_vine-ambulanta",
+            "question_da-ambulanta-vine",
+            "question_nu-politia-vine",
+            "question_politia-este-aproape",
+            "question_da-politia-este-aproape",
+            "question_nu-politia-este-departe"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L3T16",
+          "names": {
+            "en": "Weather and Nature",
+            "ro": "Vreme și natură"
+          },
+          "items": [
+            "question_vezi-soarele",
+            "question_da-vad-soarele",
+            "question_nu-vad-norii",
+            "question_este-ploaie-azi",
+            "question_da-este-ploaie-azi",
+            "question_nu-este-vant-azi",
+            "question_mergi-la-mare",
+            "question_da-merg-la-mare",
+            "question_nu-merg-la-munte"
+          ],
+          "layout": "table"
+        }
+      ]
+    },
+    {
+      "code": "L4",
+      "names": {
+        "en": "Commands",
+        "ro": "Propoziții imperative"
+      },
+      "topics": [
+        {
+          "code": "L4T01",
+          "names": {
+            "en": "The imperative",
+            "ro": "Imperativul"
+          },
+          "items": [
+            "lecture_imperative"
+          ],
+          "layout": "article"
+        },
+        {
+          "code": "L4T02",
+          "names": {
+            "en": "Greetings and Formulas",
+            "ro": "Saluturi și formule"
+          },
+          "items": [
+            "imperative_spune-salut",
+            "imperative_spune-buna-ziua",
+            "imperative_spune-te-rog",
+            "imperative_spune-multumesc",
+            "imperative_spune-la-revedere"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T03",
+          "names": {
+            "en": "Identity and Social",
+            "ro": "Identitate și viață socială"
+          },
+          "items": [
+            "imperative_spune-numele",
+            "imperative_scrie-prenumele",
+            "imperative_suna-prietenul",
+            "imperative_ajuta-copilul",
+            "imperative_saluta-vecinul"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T04",
+          "names": {
+            "en": "Messages and Devices",
+            "ro": "Mesaje și dispozitive"
+          },
+          "items": [
+            "imperative_deschide-telefonul",
+            "imperative_citeste-mesajul",
+            "imperative_scrie-emailul",
+            "imperative_trimite-apelul-video",
+            "imperative_salveaza-fisierul"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T05",
+          "names": {
+            "en": "Doors, Windows, and Room",
+            "ro": "Uși, ferestre și cameră"
+          },
+          "items": [
+            "imperative_deschide-usa",
+            "imperative_inchide-fereastra",
+            "imperative_pune-cheia-pe-masa",
+            "imperative_adu-scaunul",
+            "imperative_aranjeaza-patul"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T06",
+          "names": {
+            "en": "Water, Bread, and Meals",
+            "ro": "Apă, pâine și mese"
+          },
+          "items": [
+            "imperative_bea-apa",
+            "imperative_mananca-paine",
+            "imperative_bea-lapte",
+            "imperative_mananca-oul",
+            "imperative_cumpara-peste"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T07",
+          "names": {
+            "en": "Daily Routine Commands",
+            "ro": "Comenzi pentru rutina zilnică"
+          },
+          "items": [
+            "imperative_trezeste-te-dimineata",
+            "imperative_lucreaza-azi",
+            "imperative_invata-acum",
+            "imperative_citeste-seara",
+            "imperative_dormi-noaptea"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T08",
+          "names": {
+            "en": "Classroom Basics",
+            "ro": "În clasă"
+          },
+          "items": [
+            "imperative_citeste-lectia",
+            "imperative_scrie-tema",
+            "imperative_deschide-caietul",
+            "imperative_asculta-profesorul",
+            "imperative_pregateste-examenul"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T09",
+          "names": {
+            "en": "Office Actions",
+            "ro": "Acțiuni la birou"
+          },
+          "items": [
+            "imperative_deschide-proiectul",
+            "imperative_citeste-raportul",
+            "imperative_suna-clientul",
+            "imperative_pregateste-contractul",
+            "imperative_respecta-programul"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T10",
+          "names": {
+            "en": "Digital Tasks",
+            "ro": "Sarcini digitale"
+          },
+          "items": [
+            "imperative_porneste-calculatorul",
+            "imperative_deschide-aplicatia",
+            "imperative_verifica-emailul",
+            "imperative_trimite-mesajul",
+            "imperative_inchide-fisierul"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T11",
+          "names": {
+            "en": "Direction Commands",
+            "ro": "Indicații de direcție"
+          },
+          "items": [
+            "imperative_mergi-la-dreapta",
+            "imperative_mergi-la-stanga",
+            "imperative_urmeaza-strada",
+            "imperative_cauta-coltul",
+            "imperative_verifica-harta"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T12",
+          "names": {
+            "en": "Transport Steps",
+            "ro": "Pași în transport"
+          },
+          "items": [
+            "imperative_ia-autobuzul",
+            "imperative_asteapta-trenul",
+            "imperative_cumpara-biletul",
+            "imperative_mergi-la-statie",
+            "imperative_mergi-la-aeroport"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T13",
+          "names": {
+            "en": "Shopping Commands",
+            "ro": "La cumpărături"
+          },
+          "items": [
+            "imperative_intra-in-magazin",
+            "imperative_cauta-piata",
+            "imperative_verifica-pretul",
+            "imperative_plateste-cu-cardul",
+            "imperative_pastreaza-bonul"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T14",
+          "names": {
+            "en": "Health Actions",
+            "ro": "Acțiuni pentru sănătate"
+          },
+          "items": [
+            "imperative_suna-doctorul",
+            "imperative_mergi-la-spital",
+            "imperative_cauta-farmacia",
+            "imperative_ia-medicamentul",
+            "imperative_bea-apa-acum"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T15",
+          "names": {
+            "en": "Emergency Actions",
+            "ro": "Acțiuni de urgență"
+          },
+          "items": [
+            "imperative_cere-ajutor",
+            "imperative_suna-la-politie",
+            "imperative_cheama-ambulanta",
+            "imperative_ramai-calm",
+            "imperative_mergi-la-spital-acum"
+          ],
+          "layout": "table"
+        },
+        {
+          "code": "L4T16",
+          "names": {
+            "en": "Weather and Outdoors",
+            "ro": "Vreme și aer liber"
+          },
+          "items": [
+            "imperative_priveste-soarele",
+            "imperative_asculta-vantul",
+            "imperative_priveste-norul",
+            "imperative_urmeaza-raul",
+            "imperative_cauta-padurea"
+          ],
+          "layout": "table"
+        }
+      ]
+    },
+    {
+      "code": "L5",
+      "names": {
+        "en": "Grammar Building Blocks",
+        "ro": "Elemente de gramatică"
+      },
+      "topics": [
+        {
+          "code": "L5T01",
           "names": {
             "en": "Personal pronouns",
-            "ro": "Pronume personale",
-            "de": "Personalpronomen",
-            "ru": "Личные местоимения",
-            "it": "Pronomi personali",
-            "es": "Pronombres personales",
-            "fr": "Pronoms personnels",
-            "hu": "Személyes névmások",
-            "pt": "Pronomes pessoais"
+            "ro": "Pronumele personale"
           },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_pronouns"
+          ],
+          "layout": "article"
         },
         {
-          "code": "C2T02",
+          "code": "L5T02",
           "names": {
-            "en": "Family members",
-            "ro": "Membrii familiei",
-            "de": "Familienmitglieder",
-            "ru": "Члены семьи",
-            "it": "Membri della famiglia",
-            "es": "Miembros de la familia",
-            "fr": "Membres de la famille",
-            "hu": "Családtagok",
-            "pt": "Membros da família"
+            "en": "To be & to have",
+            "ro": "A fi și a avea"
           },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_be-have"
+          ],
+          "layout": "article"
         },
         {
-          "code": "C2T03",
+          "code": "L5T03",
           "names": {
-            "en": "Names & introductions",
-            "ro": "Nume și prezentări",
-            "de": "Namen & Vorstellungen",
-            "ru": "Имена и представление",
-            "it": "Nomi e presentazioni",
-            "es": "Nombres y presentaciones",
-            "fr": "Noms et présentations",
-            "hu": "Nevek és bemutatkozás",
-            "pt": "Nomes e apresentações"
+            "en": "Verbs in the present tense",
+            "ro": "Verbe la prezent"
           },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_present-tense"
+          ],
+          "layout": "article"
         },
         {
-          "code": "C2T04",
+          "code": "L5T04",
           "names": {
-            "en": "Age & birthdays",
-            "ro": "Vârstă și zile de naștere",
-            "de": "Alter & Geburtstage",
-            "ru": "Возраст и дни рождения",
-            "it": "Età e compleanni",
-            "es": "Edad y cumpleaños",
-            "fr": "Âge et anniversaires",
-            "hu": "Életkor és születésnapok",
-            "pt": "Idade e aniversários"
+            "en": "Nouns, gender & articles",
+            "ro": "Substantive, gen și articole"
           },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_nouns"
+          ],
+          "layout": "article"
         },
         {
-          "code": "C2T05",
+          "code": "L5T05",
           "names": {
-            "en": "Countries & nationalities",
-            "ro": "Țări și naționalități",
-            "de": "Länder & Nationalitäten",
-            "ru": "Страны и национальности",
-            "it": "Paesi e nazionalità",
-            "es": "Países y nacionalidades",
-            "fr": "Pays et nationalités",
-            "hu": "Országok és nemzetiségek",
-            "pt": "Países e nacionalidades"
+            "en": "Adjectives & agreement",
+            "ro": "Adjective și acord"
           },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_adjectives"
+          ],
+          "layout": "article"
         },
         {
-          "code": "C2T06",
+          "code": "L5T06",
           "names": {
-            "en": "Languages & origins",
-            "ro": "Limbi și origini",
-            "de": "Sprachen & Herkunft",
-            "ru": "Языки и происхождение",
-            "it": "Lingue e origini",
-            "es": "Idiomas y orígenes",
-            "fr": "Langues et origines",
-            "hu": "Nyelvek és származás",
-            "pt": "Línguas e origens"
+            "en": "Prepositions",
+            "ro": "Prepoziții"
           },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_prepositions"
+          ],
+          "layout": "article"
         },
         {
-          "code": "C2T07",
+          "code": "L5T07",
           "names": {
-            "en": "Physical description",
-            "ro": "Descriere fizică",
-            "de": "Äußere Beschreibung",
-            "ru": "Внешность",
-            "it": "Descrizione fisica",
-            "es": "Descripción física",
-            "fr": "Description physique",
-            "hu": "Külső megjelenés",
-            "pt": "Descrição física"
+            "en": "Numbers",
+            "ro": "Numerale"
           },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C2T08",
-          "names": {
-            "en": "Character & personality",
-            "ro": "Caracter și personalitate",
-            "de": "Charakter & Persönlichkeit",
-            "ru": "Характер и личность",
-            "it": "Carattere e personalità",
-            "es": "Carácter y personalidad",
-            "fr": "Caractère et personnalité",
-            "hu": "Jellem és személyiség",
-            "pt": "Caráter e personalidade"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C2T09",
-          "names": {
-            "en": "Titles & forms of address",
-            "ro": "Titluri și forme de adresare",
-            "de": "Titel & Anredeformen",
-            "ru": "Титулы и формы обращения",
-            "it": "Titoli e forme di indirizzo",
-            "es": "Títulos y formas de tratamiento",
-            "fr": "Titres et formes d'adresse",
-            "hu": "Címek és megszólítások",
-            "pt": "Títulos e formas de tratamento"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C2T10",
-          "names": {
-            "en": "Relationships & status",
-            "ro": "Relații și statut",
-            "de": "Beziehungen & Status",
-            "ru": "Отношения и статус",
-            "it": "Relazioni e stato",
-            "es": "Relaciones y estado civil",
-            "fr": "Relations et statut",
-            "hu": "Kapcsolatok és állapot",
-            "pt": "Relacionamentos e estado"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C2T11",
-          "names": {
-            "en": "Occupations",
-            "ro": "Ocupații",
-            "de": "Berufe",
-            "ru": "Профессии",
-            "it": "Professioni",
-            "es": "Ocupaciones",
-            "fr": "Professions",
-            "hu": "Foglalkozások",
-            "pt": "Profissões"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C2T12",
-          "names": {
-            "en": "Feelings & moods",
-            "ro": "Sentimente și dispoziție",
-            "de": "Gefühle & Stimmungen",
-            "ru": "Чувства и настроение",
-            "it": "Sentimenti e umori",
-            "es": "Sentimientos y estados de ánimo",
-            "fr": "Sentiments et humeurs",
-            "hu": "Érzések és hangulatok",
-            "pt": "Sentimentos e humores"
-          },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_numbers"
+          ],
+          "layout": "article"
         }
       ]
     },
     {
-      "code": "C3",
+      "code": "L6",
       "names": {
-        "en": "Home & Daily Life",
-        "ro": "Acasă și viața de zi cu zi",
-        "de": "Zuhause & Alltag",
-        "ru": "Дом и повседневная жизнь",
-        "it": "Casa e vita quotidiana",
-        "es": "Hogar y vida diaria",
-        "fr": "Maison et vie quotidienne",
-        "hu": "Otthon és mindennapi élet",
-        "pt": "Casa e vida diária"
+        "en": "Dialogs",
+        "ro": "Dialoguri"
       },
       "topics": [
         {
-          "code": "C3T01",
+          "code": "L6T01",
           "names": {
-            "en": "House & rooms",
-            "ro": "Casa și încăperile",
-            "de": "Haus & Zimmer",
-            "ru": "Дом и комнаты",
-            "it": "Casa e stanze",
-            "es": "La casa y las habitaciones",
-            "fr": "Maison et pièces",
-            "hu": "Ház és szobák",
-            "pt": "Casa e divisões"
+            "en": "Greetings and common formulas",
+            "ro": "Saluturi și formule uzuale"
           },
-          "items": [],
+          "items": [
+            "lecture_greetings"
+          ],
+          "layout": "article"
+        },
+        {
+          "code": "L6T02",
+          "names": {
+            "en": "Greetings & farewells",
+            "ro": "Saluturi și rămas-bun"
+          },
+          "items": [
+            "greeting_salut",
+            "greeting_buna",
+            "greeting_ceao",
+            "greeting_buna-dimineata",
+            "greeting_buna-ziua",
+            "greeting_buna-seara",
+            "greeting_noapte-buna",
+            "greeting_pe-curand",
+            "greeting_la-revedere",
+            "greeting_sa-fii-sanatos",
+            "greeting_noroc-bun",
+            "greeting_sa-auzim-de-bine",
+            "greeting_sa-ne-vedem-sanatosi",
+            "greeting_noapte-buna-2",
+            "greeting_adio-si-noroc",
+            "word_imi-pare-bine"
+          ],
           "layout": "table"
         },
         {
-          "code": "C3T02",
+          "code": "L6T03",
           "names": {
-            "en": "Furniture & fittings",
-            "ro": "Mobilier și dotări",
-            "de": "Möbel & Einrichtung",
-            "ru": "Мебель и оснащение",
-            "it": "Mobili e arredi",
-            "es": "Muebles y equipamiento",
-            "fr": "Meubles et équipement",
-            "hu": "Bútor és berendezés",
-            "pt": "Móveis e equipamentos"
+            "en": "Introducing yourself",
+            "ro": "Cum te prezinți"
           },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_introductions"
+          ],
+          "layout": "article"
         },
         {
-          "code": "C3T03",
+          "code": "L6T04",
           "names": {
-            "en": "Kitchen & utensils",
-            "ro": "Bucătărie și ustensile",
-            "de": "Küche & Küchenutensilien",
-            "ru": "Кухня и утварь",
-            "it": "Cucina e utensili",
-            "es": "Cocina y utensilios",
-            "fr": "Cuisine et ustensiles",
-            "hu": "Konyha és konyhai eszközök",
-            "pt": "Cozinha e utensílios"
+            "en": "Everyday dialogs",
+            "ro": "Dialoguri de zi cu zi"
           },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C3T04",
-          "names": {
-            "en": "Food & ingredients",
-            "ro": "Mâncare și ingrediente",
-            "de": "Lebensmittel & Zutaten",
-            "ru": "Еда и ингредиенты",
-            "it": "Cibo e ingredienti",
-            "es": "Alimentos e ingredientes",
-            "fr": "Aliments et ingrédients",
-            "hu": "Ételek és hozzávalók",
-            "pt": "Alimentos e ingredientes"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C3T05",
-          "names": {
-            "en": "Drinks & meals",
-            "ro": "Băuturi și mese",
-            "de": "Getränke & Mahlzeiten",
-            "ru": "Напитки и приёмы пищи",
-            "it": "Bevande e pasti",
-            "es": "Bebidas y comidas",
-            "fr": "Boissons et repas",
-            "hu": "Italok és étkezések",
-            "pt": "Bebidas e refeições"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C3T06",
-          "names": {
-            "en": "Clothes & footwear",
-            "ro": "Îmbrăcăminte și încălțăminte",
-            "de": "Kleidung & Schuhe",
-            "ru": "Одежда и обувь",
-            "it": "Abbigliamento e calzature",
-            "es": "Ropa y calzado",
-            "fr": "Vêtements et chaussures",
-            "hu": "Ruhák és lábbelik",
-            "pt": "Roupa e calçado"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C3T07",
-          "names": {
-            "en": "Colours & materials",
-            "ro": "Culori și materiale",
-            "de": "Farben & Materialien",
-            "ru": "Цвета и материалы",
-            "it": "Colori e materiali",
-            "es": "Colores y materiales",
-            "fr": "Couleurs et matériaux",
-            "hu": "Színek és anyagok",
-            "pt": "Cores e materiais"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C3T08",
-          "names": {
-            "en": "Daily routine",
-            "ro": "Rutina zilnică",
-            "de": "Tagesablauf",
-            "ru": "Распорядок дня",
-            "it": "Routine quotidiana",
-            "es": "Rutina diaria",
-            "fr": "Routine quotidienne",
-            "hu": "Napi rutin",
-            "pt": "Rotina diária"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C3T09",
-          "names": {
-            "en": "Time & clock",
-            "ro": "Timp și ceas",
-            "de": "Zeit & Uhrzeit",
-            "ru": "Время и часы",
-            "it": "Tempo e orologio",
-            "es": "La hora y el reloj",
-            "fr": "L'heure et l'horloge",
-            "hu": "Idő és óra",
-            "pt": "Hora e relógio"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C3T10",
-          "names": {
-            "en": "Days, months & seasons",
-            "ro": "Zile, luni și anotimpuri",
-            "de": "Tage, Monate & Jahreszeiten",
-            "ru": "Дни, месяцы и времена года",
-            "it": "Giorni, mesi e stagioni",
-            "es": "Días, meses y estaciones",
-            "fr": "Jours, mois et saisons",
-            "hu": "Napok, hónapok és évszakok",
-            "pt": "Dias, meses e estações"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C3T11",
-          "names": {
-            "en": "Weather & climate",
-            "ro": "Vreme și climă",
-            "de": "Wetter & Klima",
-            "ru": "Погода и климат",
-            "it": "Meteo e clima",
-            "es": "El tiempo y el clima",
-            "fr": "Temps et climat",
-            "hu": "Időjárás és éghajlat",
-            "pt": "Tempo e clima"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C3T12",
-          "names": {
-            "en": "Household chores",
-            "ro": "Trebi casnice",
-            "de": "Hausarbeiten",
-            "ru": "Домашние дела",
-            "it": "Lavori domestici",
-            "es": "Tareas del hogar",
-            "fr": "Tâches ménagères",
-            "hu": "Háztartási teendők",
-            "pt": "Tarefas domésticas"
-          },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_daily-dialog"
+          ],
+          "layout": "article"
         }
       ]
     },
     {
-      "code": "C4",
+      "code": "L7",
       "names": {
-        "en": "Body, Health & Safety",
-        "ro": "Corp, sănătate și siguranță",
-        "de": "Körper, Gesundheit & Sicherheit",
-        "ru": "Тело, здоровье и безопасность",
-        "it": "Corpo, salute e sicurezza",
-        "es": "Cuerpo, salud y seguridad",
-        "fr": "Corps, santé et sécurité",
-        "hu": "Test, egészség és biztonság",
-        "pt": "Corpo, saúde e segurança"
+        "en": "Life & Domains",
+        "ro": "Viață și domenii"
       },
       "topics": [
         {
-          "code": "C4T01",
+          "code": "L7T01",
           "names": {
-            "en": "Body parts",
-            "ro": "Părți ale corpului",
-            "de": "Körperteile",
-            "ru": "Части тела",
-            "it": "Parti del corpo",
-            "es": "Partes del cuerpo",
-            "fr": "Parties du corps",
-            "hu": "Testrészek",
-            "pt": "Partes do corpo"
+            "en": "Family & friends",
+            "ro": "Familie și prieteni"
           },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_family-friends"
+          ],
+          "layout": "article"
         },
         {
-          "code": "C4T02",
+          "code": "L7T02",
           "names": {
-            "en": "Hygiene & care",
-            "ro": "Igienă și îngrijire",
-            "de": "Hygiene & Pflege",
-            "ru": "Гигиена и уход",
-            "it": "Igiene e cura",
-            "es": "Higiene y cuidado",
-            "fr": "Hygiène et soins",
-            "hu": "Higiénia és ápolás",
-            "pt": "Higiene e cuidados"
+            "en": "Home & daily life",
+            "ro": "Casă și viața de zi cu zi"
           },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_home"
+          ],
+          "layout": "article"
         },
         {
-          "code": "C4T03",
+          "code": "L7T03",
           "names": {
-            "en": "Symptoms & pain",
-            "ro": "Simptome și durere",
-            "de": "Symptome & Schmerzen",
-            "ru": "Симптомы и боль",
-            "it": "Sintomi e dolore",
-            "es": "Síntomas y dolor",
-            "fr": "Symptômes et douleur",
-            "hu": "Tünetek és fájdalom",
-            "pt": "Sintomas e dor"
+            "en": "City & travel",
+            "ro": "Oraș și călătorii"
           },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_travel-city"
+          ],
+          "layout": "article"
         },
         {
-          "code": "C4T04",
+          "code": "L7T04",
           "names": {
-            "en": "Doctor & pharmacy",
-            "ro": "Doctor și farmacie",
-            "de": "Arzt & Apotheke",
-            "ru": "Врач и аптека",
-            "it": "Medico e farmacia",
-            "es": "Médico y farmacia",
-            "fr": "Médecin et pharmacie",
-            "hu": "Orvos és patika",
-            "pt": "Médico e farmácia"
+            "en": "Shopping & services",
+            "ro": "Cumpărături și servicii"
           },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_shopping"
+          ],
+          "layout": "article"
         },
         {
-          "code": "C4T05",
+          "code": "L7T05",
           "names": {
-            "en": "Emergencies & help",
-            "ro": "Urgențe și ajutor",
-            "de": "Notfälle & Hilfe",
-            "ru": "Чрезвычайные ситуации и помощь",
-            "it": "Emergenze e aiuto",
-            "es": "Emergencias y ayuda",
-            "fr": "Urgences et aide",
-            "hu": "Vészhelyzetek és segítség",
-            "pt": "Emergências e socorro"
+            "en": "Health & safety",
+            "ro": "Sănătate și siguranță"
           },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_health"
+          ],
+          "layout": "article"
         },
         {
-          "code": "C4T06",
+          "code": "L7T06",
           "names": {
-            "en": "Safety & warnings",
-            "ro": "Siguranță și avertismente",
-            "de": "Sicherheit & Warnungen",
-            "ru": "Безопасность и предупреждения",
-            "it": "Sicurezza e avvertenze",
-            "es": "Seguridad y advertencias",
-            "fr": "Sécurité et avertissements",
-            "hu": "Biztonság és figyelmeztetések",
-            "pt": "Segurança e avisos"
+            "en": "Work & study",
+            "ro": "Muncă și studiu"
           },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_work-study"
+          ],
+          "layout": "article"
         },
         {
-          "code": "C4T07",
+          "code": "L7T07",
           "names": {
-            "en": "Sports & exercise",
-            "ro": "Sport și exerciții",
-            "de": "Sport & Bewegung",
-            "ru": "Спорт и упражнения",
-            "it": "Sport ed esercizio",
-            "es": "Deporte y ejercicio",
-            "fr": "Sport et exercice",
-            "hu": "Sport és testmozgás",
-            "pt": "Desporto e exercício"
+            "en": "Culture & customs",
+            "ro": "Cultură și obiceiuri"
           },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C4T08",
-          "names": {
-            "en": "Sleep & rest",
-            "ro": "Somn și odihnă",
-            "de": "Schlaf & Ruhe",
-            "ru": "Сон и отдых",
-            "it": "Sonno e riposo",
-            "es": "Sueño y descanso",
-            "fr": "Sommeil et repos",
-            "hu": "Alvás és pihenés",
-            "pt": "Sono e descanso"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C4T09",
-          "names": {
-            "en": "Allergies & restrictions",
-            "ro": "Alergii și restricții",
-            "de": "Allergien & Einschränkungen",
-            "ru": "Аллергии и ограничения",
-            "it": "Allergie e restrizioni",
-            "es": "Alergias y restricciones",
-            "fr": "Allergies et restrictions",
-            "hu": "Allergiák és korlátozások",
-            "pt": "Alergias e restrições"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C4T10",
-          "names": {
-            "en": "Insurance & documents",
-            "ro": "Asigurări și documente",
-            "de": "Versicherung & Dokumente",
-            "ru": "Страхование и документы",
-            "it": "Assicurazioni e documenti",
-            "es": "Seguros y documentos",
-            "fr": "Assurances et documents",
-            "hu": "Biztosítás és okmányok",
-            "pt": "Seguros e documentos"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C4T11",
-          "names": {
-            "en": "Police & authorities",
-            "ro": "Poliție și autorități",
-            "de": "Polizei & Behörden",
-            "ru": "Полиция и власти",
-            "it": "Polizia e autorità",
-            "es": "Policía y autoridades",
-            "fr": "Police et autorités",
-            "hu": "Rendőrség és hatóságok",
-            "pt": "Polícia e autoridades"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C4T12",
-          "names": {
-            "en": "Lost & found",
-            "ro": "Obiecte pierdute",
-            "de": "Verlorene & gefundene Gegenstände",
-            "ru": "Потерянные и найденные вещи",
-            "it": "Oggetti smarriti",
-            "es": "Objetos perdidos",
-            "fr": "Objets perdus",
-            "hu": "Elveszett tárgyak",
-            "pt": "Objetos perdidos"
-          },
-          "items": [],
-          "layout": "table"
-        }
-      ]
-    },
-    {
-      "code": "C5",
-      "names": {
-        "en": "Getting Around & Travel",
-        "ro": "Deplasare și călătorii",
-        "de": "Unterwegs & Reisen",
-        "ru": "Передвижение и путешествия",
-        "it": "Spostarsi e viaggiare",
-        "es": "Desplazarse y viajar",
-        "fr": "Se déplacer et voyager",
-        "hu": "Közlekedés és utazás",
-        "pt": "Deslocação e viagens"
-      },
-      "topics": [
-        {
-          "code": "C5T01",
-          "names": {
-            "en": "Directions & positions",
-            "ro": "Direcții și poziții",
-            "de": "Richtungen & Positionen",
-            "ru": "Направления и расположение",
-            "it": "Direzioni e posizioni",
-            "es": "Direcciones y posiciones",
-            "fr": "Directions et positions",
-            "hu": "Irányok és helymeghatározás",
-            "pt": "Direções e posições"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C5T02",
-          "names": {
-            "en": "Streets & landmarks",
-            "ro": "Străzi și repere",
-            "de": "Straßen & Orientierungspunkte",
-            "ru": "Улицы и ориентиры",
-            "it": "Strade e punti di riferimento",
-            "es": "Calles y lugares emblemáticos",
-            "fr": "Rues et repères",
-            "hu": "Utcák és tájékozódási pontok",
-            "pt": "Ruas e pontos de referência"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C5T03",
-          "names": {
-            "en": "Public transport",
-            "ro": "Transport în comun",
-            "de": "Öffentliche Verkehrsmittel",
-            "ru": "Общественный транспорт",
-            "it": "Trasporti pubblici",
-            "es": "Transporte público",
-            "fr": "Transports en commun",
-            "hu": "Tömegközlekedés",
-            "pt": "Transportes públicos"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C5T04",
-          "names": {
-            "en": "Tickets & timetables",
-            "ro": "Bilete și orare",
-            "de": "Fahrkarten & Fahrpläne",
-            "ru": "Билеты и расписания",
-            "it": "Biglietti e orari",
-            "es": "Billetes y horarios",
-            "fr": "Billets et horaires",
-            "hu": "Jegyek és menetrendek",
-            "pt": "Bilhetes e horários"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C5T05",
-          "names": {
-            "en": "Driving & vehicles",
-            "ro": "Condus și vehicule",
-            "de": "Fahren & Fahrzeuge",
-            "ru": "Вождение и транспортные средства",
-            "it": "Guida e veicoli",
-            "es": "Conducir y vehículos",
-            "fr": "Conduite et véhicules",
-            "hu": "Vezetés és járművek",
-            "pt": "Condução e veículos"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C5T06",
-          "names": {
-            "en": "Accommodation",
-            "ro": "Cazare",
-            "de": "Unterkunft",
-            "ru": "Проживание",
-            "it": "Pernottamento",
-            "es": "Alojamiento",
-            "fr": "Hébergement",
-            "hu": "Szállás",
-            "pt": "Alojamento"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C5T07",
-          "names": {
-            "en": "Airport & border",
-            "ro": "Aeroport și frontieră",
-            "de": "Flughafen & Grenze",
-            "ru": "Аэропорт и граница",
-            "it": "Aeroporto e frontiera",
-            "es": "Aeropuerto y frontera",
-            "fr": "Aéroport et frontière",
-            "hu": "Repülőtér és határ",
-            "pt": "Aeroporto e fronteira"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C5T08",
-          "names": {
-            "en": "Asking the way",
-            "ro": "A cere indicații",
-            "de": "Nach dem Weg fragen",
-            "ru": "Спросить дорогу",
-            "it": "Chiedere indicazioni",
-            "es": "Preguntar el camino",
-            "fr": "Demander son chemin",
-            "hu": "Útbaigazítás",
-            "pt": "Perguntar o caminho"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C5T09",
-          "names": {
-            "en": "Maps & navigation",
-            "ro": "Hărți și navigație",
-            "de": "Karten & Navigation",
-            "ru": "Карты и навигация",
-            "it": "Mappe e navigazione",
-            "es": "Mapas y navegación",
-            "fr": "Cartes et navigation",
-            "hu": "Térképek és navigáció",
-            "pt": "Mapas e navegação"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C5T10",
-          "names": {
-            "en": "Travel problems & delays",
-            "ro": "Probleme de călătorie și întârzieri",
-            "de": "Reiseprobleme & Verspätungen",
-            "ru": "Проблемы в поездке и задержки",
-            "it": "Problemi di viaggio e ritardi",
-            "es": "Problemas de viaje y retrasos",
-            "fr": "Problèmes de voyage et retards",
-            "hu": "Utazási problémák és késések",
-            "pt": "Problemas de viagem e atrasos"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C5T11",
-          "names": {
-            "en": "Sightseeing & culture",
-            "ro": "Turism și cultură",
-            "de": "Sehenswürdigkeiten & Kultur",
-            "ru": "Достопримечательности и культура",
-            "it": "Turismo e cultura",
-            "es": "Turismo y cultura",
-            "fr": "Tourisme et culture",
-            "hu": "Látnivalók és kultúra",
-            "pt": "Turismo e cultura"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C5T12",
-          "names": {
-            "en": "Packing & luggage",
-            "ro": "Împachetare și bagaje",
-            "de": "Packen & Gepäck",
-            "ru": "Сборы и багаж",
-            "it": "Fare le valigie e bagagli",
-            "es": "Hacer la maleta y equipaje",
-            "fr": "Faire ses valises et bagages",
-            "hu": "Csomagolás és poggyász",
-            "pt": "Bagagem e malas"
-          },
-          "items": [],
-          "layout": "table"
-        }
-      ]
-    },
-    {
-      "code": "C6",
-      "names": {
-        "en": "Shopping & Services",
-        "ro": "Cumpărături și servicii",
-        "de": "Einkaufen & Dienstleistungen",
-        "ru": "Покупки и услуги",
-        "it": "Acquisti e servizi",
-        "es": "Compras y servicios",
-        "fr": "Achats et services",
-        "hu": "Vásárlás és szolgáltatások",
-        "pt": "Compras e serviços"
-      },
-      "topics": [
-        {
-          "code": "C6T01",
-          "names": {
-            "en": "Shops & markets",
-            "ro": "Magazine și piețe",
-            "de": "Geschäfte & Märkte",
-            "ru": "Магазины и рынки",
-            "it": "Negozi e mercati",
-            "es": "Tiendas y mercados",
-            "fr": "Magasins et marchés",
-            "hu": "Boltok és piacok",
-            "pt": "Lojas e mercados"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C6T02",
-          "names": {
-            "en": "Money, prices & payment",
-            "ro": "Bani, prețuri și plată",
-            "de": "Geld, Preise & Zahlung",
-            "ru": "Деньги, цены и оплата",
-            "it": "Denaro, prezzi e pagamento",
-            "es": "Dinero, precios y pago",
-            "fr": "Argent, prix et paiement",
-            "hu": "Pénz, árak és fizetés",
-            "pt": "Dinheiro, preços e pagamento"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C6T03",
-          "names": {
-            "en": "Sizes & measurements",
-            "ro": "Mărimi și măsurători",
-            "de": "Größen & Maße",
-            "ru": "Размеры и измерения",
-            "it": "Taglie e misure",
-            "es": "Tallas y medidas",
-            "fr": "Tailles et mesures",
-            "hu": "Méretek és mértékegységek",
-            "pt": "Tamanhos e medidas"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C6T04",
-          "names": {
-            "en": "Bargaining & discounts",
-            "ro": "Târguire și reduceri",
-            "de": "Feilschen & Rabatte",
-            "ru": "Торг и скидки",
-            "it": "Trattativa e sconti",
-            "es": "Regateo y descuentos",
-            "fr": "Marchandage et remises",
-            "hu": "Alkudozás és kedvezmények",
-            "pt": "Negociação e descontos"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C6T05",
-          "names": {
-            "en": "Receipts & returns",
-            "ro": "Bonuri și retururi",
-            "de": "Kassenbons & Rückgaben",
-            "ru": "Чеки и возврат",
-            "it": "Ricevute e resi",
-            "es": "Recibos y devoluciones",
-            "fr": "Reçus et retours",
-            "hu": "Nyugták és visszaváltás",
-            "pt": "Recibos e devoluções"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C6T06",
-          "names": {
-            "en": "Bank & post office",
-            "ro": "Bancă și poștă",
-            "de": "Bank & Post",
-            "ru": "Банк и почта",
-            "it": "Banca e ufficio postale",
-            "es": "Banco y correos",
-            "fr": "Banque et poste",
-            "hu": "Bank és posta",
-            "pt": "Banco e correios"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C6T07",
-          "names": {
-            "en": "Restaurant & cafe",
-            "ro": "Restaurant și cafenea",
-            "de": "Restaurant & Café",
-            "ru": "Ресторан и кафе",
-            "it": "Ristorante e caffè",
-            "es": "Restaurante y cafetería",
-            "fr": "Restaurant et café",
-            "hu": "Étterem és kávézó",
-            "pt": "Restaurante e café"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C6T08",
-          "names": {
-            "en": "Ordering & paying",
-            "ro": "Comandă și plată",
-            "de": "Bestellen & Bezahlen",
-            "ru": "Заказ и оплата",
-            "it": "Ordinare e pagare",
-            "es": "Pedir y pagar",
-            "fr": "Commander et payer",
-            "hu": "Rendelés és fizetés",
-            "pt": "Pedir e pagar"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C6T09",
-          "names": {
-            "en": "Phone & internet services",
-            "ro": "Servicii telefonice și de internet",
-            "de": "Telefon- & Internetdienste",
-            "ru": "Телефонные и интернет-услуги",
-            "it": "Servizi telefonici e internet",
-            "es": "Servicios de teléfono e internet",
-            "fr": "Services téléphoniques et internet",
-            "hu": "Telefon- és internetszolgáltatások",
-            "pt": "Serviços de telefone e internet"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C6T10",
-          "names": {
-            "en": "Repairs & maintenance",
-            "ro": "Reparații și întreținere",
-            "de": "Reparaturen & Wartung",
-            "ru": "Ремонт и обслуживание",
-            "it": "Riparazioni e manutenzione",
-            "es": "Reparaciones y mantenimiento",
-            "fr": "Réparations et entretien",
-            "hu": "Javítás és karbantartás",
-            "pt": "Reparações e manutenção"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C6T11",
-          "names": {
-            "en": "Appointments & bookings",
-            "ro": "Programări și rezervări",
-            "de": "Termine & Buchungen",
-            "ru": "Запись и бронирование",
-            "it": "Appuntamenti e prenotazioni",
-            "es": "Citas y reservas",
-            "fr": "Rendez-vous et réservations",
-            "hu": "Időpontok és foglalások",
-            "pt": "Marcações e reservas"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C6T12",
-          "names": {
-            "en": "Complaints & service",
-            "ro": "Reclamații și servicii",
-            "de": "Beschwerden & Service",
-            "ru": "Жалобы и обслуживание",
-            "it": "Reclami e servizio",
-            "es": "Reclamaciones y servicio",
-            "fr": "Réclamations et service",
-            "hu": "Panaszok és kiszolgálás",
-            "pt": "Reclamações e atendimento"
-          },
-          "items": [],
-          "layout": "table"
-        }
-      ]
-    },
-    {
-      "code": "C7",
-      "names": {
-        "en": "Work, Study & Digital Life",
-        "ro": "Muncă, studiu și viață digitală",
-        "de": "Arbeit, Studium & digitales Leben",
-        "ru": "Работа, учёба и цифровая жизнь",
-        "it": "Lavoro, studio e vita digitale",
-        "es": "Trabajo, estudio y vida digital",
-        "fr": "Travail, études et vie numérique",
-        "hu": "Munka, tanulás és digitális élet",
-        "pt": "Trabalho, estudo e vida digital"
-      },
-      "topics": [
-        {
-          "code": "C7T01",
-          "names": {
-            "en": "School & university",
-            "ro": "Școală și universitate",
-            "de": "Schule & Universität",
-            "ru": "Школа и университет",
-            "it": "Scuola e università",
-            "es": "Escuela y universidad",
-            "fr": "École et université",
-            "hu": "Iskola és egyetem",
-            "pt": "Escola e universidade"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C7T02",
-          "names": {
-            "en": "Classroom language",
-            "ro": "Limbajul de la clasă",
-            "de": "Sprache im Klassenzimmer",
-            "ru": "Язык занятий",
-            "it": "Lingua di classe",
-            "es": "Lenguaje de aula",
-            "fr": "Langue de la classe",
-            "hu": "Órai nyelv",
-            "pt": "Linguagem de sala de aula"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C7T03",
-          "names": {
-            "en": "Office & workplace",
-            "ro": "Birou și loc de muncă",
-            "de": "Büro & Arbeitsplatz",
-            "ru": "Офис и рабочее место",
-            "it": "Ufficio e luogo di lavoro",
-            "es": "Oficina y lugar de trabajo",
-            "fr": "Bureau et lieu de travail",
-            "hu": "Iroda és munkahely",
-            "pt": "Escritório e local de trabalho"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C7T04",
-          "names": {
-            "en": "Jobs & applications",
-            "ro": "Locuri de muncă și candidaturi",
-            "de": "Jobs & Bewerbungen",
-            "ru": "Вакансии и заявки",
-            "it": "Lavoro e candidature",
-            "es": "Empleo y solicitudes",
-            "fr": "Emplois et candidatures",
-            "hu": "Állások és jelentkezések",
-            "pt": "Empregos e candidaturas"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C7T05",
-          "names": {
-            "en": "Meetings & schedules",
-            "ro": "Ședințe și agende",
-            "de": "Besprechungen & Zeitpläne",
-            "ru": "Совещания и расписания",
-            "it": "Riunioni e programmi",
-            "es": "Reuniones y horarios",
-            "fr": "Réunions et emplois du temps",
-            "hu": "Értekezletek és beosztás",
-            "pt": "Reuniões e horários"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C7T06",
-          "names": {
-            "en": "E-mail & messaging",
-            "ro": "E-mail și mesagerie",
-            "de": "E-Mail & Messaging",
-            "ru": "Электронная почта и обмен сообщениями",
-            "it": "E-mail e messaggistica",
-            "es": "Correo electrónico y mensajería",
-            "fr": "E-mail et messagerie",
-            "hu": "E-mail és üzenetküldés",
-            "pt": "E-mail e mensageria"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C7T07",
-          "names": {
-            "en": "Phone & video calls",
-            "ro": "Apeluri telefonice și video",
-            "de": "Telefon- & Videoanrufe",
-            "ru": "Телефонные и видеозвонки",
-            "it": "Chiamate telefoniche e videochiamate",
-            "es": "Llamadas telefónicas y videollamadas",
-            "fr": "Appels téléphoniques et vidéo",
-            "hu": "Telefon- és videohívások",
-            "pt": "Chamadas telefônicas e de vídeo"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C7T08",
-          "names": {
-            "en": "Computers & devices",
-            "ro": "Calculatoare și dispozitive",
-            "de": "Computer & Geräte",
-            "ru": "Компьютеры и устройства",
-            "it": "Computer e dispositivi",
-            "es": "Ordenadores y dispositivos",
-            "fr": "Ordinateurs et appareils",
-            "hu": "Számítógépek és eszközök",
-            "pt": "Computadores e dispositivos"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C7T09",
-          "names": {
-            "en": "Social media & networks",
-            "ro": "Rețele sociale și media",
-            "de": "Soziale Medien & Netzwerke",
-            "ru": "Социальные сети",
-            "it": "Social media e reti",
-            "es": "Redes sociales y redes",
-            "fr": "Réseaux sociaux et réseaux",
-            "hu": "Közösségi média és hálózatok",
-            "pt": "Redes sociais e redes"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C7T10",
-          "names": {
-            "en": "Documents & forms",
-            "ro": "Documente și formulare",
-            "de": "Dokumente & Formulare",
-            "ru": "Документы и формы",
-            "it": "Documenti e moduli",
-            "es": "Documentos y formularios",
-            "fr": "Documents et formulaires",
-            "hu": "Dokumentumok és űrlapok",
-            "pt": "Documentos e formulários"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C7T11",
-          "names": {
-            "en": "Deadlines & tasks",
-            "ro": "Termene și sarcini",
-            "de": "Fristen & Aufgaben",
-            "ru": "Сроки и задачи",
-            "it": "Scadenze e attività",
-            "es": "Plazos y tareas",
-            "fr": "Échéances et tâches",
-            "hu": "Határidők és feladatok",
-            "pt": "Prazos e tarefas"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C7T12",
-          "names": {
-            "en": "Salary, invoice & tax",
-            "ro": "Salariu, factură și impozit",
-            "de": "Gehalt, Rechnung & Steuern",
-            "ru": "Зарплата, счёт и налоги",
-            "it": "Stipendio, fattura e tasse",
-            "es": "Salario, factura e impuestos",
-            "fr": "Salaire, facture et impôts",
-            "hu": "Fizetés, számla és adó",
-            "pt": "Salário, fatura e impostos"
-          },
-          "items": [],
-          "layout": "table"
-        }
-      ]
-    },
-    {
-      "code": "C8",
-      "names": {
-        "en": "Expression & Interaction",
-        "ro": "Exprimare și interacțiune",
-        "de": "Ausdruck & Kommunikation",
-        "ru": "Выражение и взаимодействие",
-        "it": "Espressione e interazione",
-        "es": "Expresión e interacción",
-        "fr": "Expression et interaction",
-        "hu": "Kifejezés és interakció",
-        "pt": "Expressão e interação"
-      },
-      "topics": [
-        {
-          "code": "C8T01",
-          "names": {
-            "en": "Questions & answers",
-            "ro": "Întrebări și răspunsuri",
-            "de": "Fragen & Antworten",
-            "ru": "Вопросы и ответы",
-            "it": "Domande e risposte",
-            "es": "Preguntas y respuestas",
-            "fr": "Questions et réponses",
-            "hu": "Kérdések és válaszok",
-            "pt": "Perguntas e respostas"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C8T02",
-          "names": {
-            "en": "Requests & permission",
-            "ro": "Rugăminți și permisiune",
-            "de": "Bitten & Erlaubnis",
-            "ru": "Просьбы и разрешение",
-            "it": "Richieste e permessi",
-            "es": "Peticiones y permiso",
-            "fr": "Demandes et permission",
-            "hu": "Kérések és engedély",
-            "pt": "Pedidos e permissão"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C8T03",
-          "names": {
-            "en": "Suggestions & invitations",
-            "ro": "Sugestii și invitații",
-            "de": "Vorschläge & Einladungen",
-            "ru": "Предложения и приглашения",
-            "it": "Suggerimenti e inviti",
-            "es": "Sugerencias e invitaciones",
-            "fr": "Suggestions et invitations",
-            "hu": "Javaslatok és meghívások",
-            "pt": "Sugestões e convites"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C8T04",
-          "names": {
-            "en": "Agreement & disagreement",
-            "ro": "Acord și dezacord",
-            "de": "Übereinstimmung & Widerspruch",
-            "ru": "Согласие и несогласие",
-            "it": "Accordo e disaccordo",
-            "es": "Acuerdo y desacuerdo",
-            "fr": "Accord et désaccord",
-            "hu": "Egyetértés és egyet nem értés",
-            "pt": "Acordo e discordância"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C8T05",
-          "names": {
-            "en": "Opinions & preferences",
-            "ro": "Păreri și preferințe",
-            "de": "Meinungen & Präferenzen",
-            "ru": "Мнения и предпочтения",
-            "it": "Opinioni e preferenze",
-            "es": "Opiniones y preferencias",
-            "fr": "Opinions et préférences",
-            "hu": "Vélemények és preferenciák",
-            "pt": "Opiniões e preferências"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C8T06",
-          "names": {
-            "en": "Apologies & thanks",
-            "ro": "Scuze și mulțumiri",
-            "de": "Entschuldigungen & Dank",
-            "ru": "Извинения и благодарность",
-            "it": "Scuse e ringraziamenti",
-            "es": "Disculpas y agradecimientos",
-            "fr": "Excuses et remerciements",
-            "hu": "Bocsánatkérés és köszönet",
-            "pt": "Desculpas e agradecimentos"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C8T07",
-          "names": {
-            "en": "Describing & comparing",
-            "ro": "Descriere și comparație",
-            "de": "Beschreiben & Vergleichen",
-            "ru": "Описание и сравнение",
-            "it": "Descrivere e paragonare",
-            "es": "Describir y comparar",
-            "fr": "Décrire et comparer",
-            "hu": "Leírás és összehasonlítás",
-            "pt": "Descrever e comparar"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C8T08",
-          "names": {
-            "en": "Past, present & future markers",
-            "ro": "Marcatori de trecut, prezent și viitor",
-            "de": "Markierer für Vergangenheit, Gegenwart & Zukunft",
-            "ru": "Показатели прошедшего, настоящего и будущего",
-            "it": "Marcatori di passato, presente e futuro",
-            "es": "Marcadores de pasado, presente y futuro",
-            "fr": "Marqueurs du passé, du présent et du futur",
-            "hu": "Múlt, jelen és jövő jelei",
-            "pt": "Marcadores de passado, presente e futuro"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C8T09",
-          "names": {
-            "en": "Idioms & fixed expressions",
-            "ro": "Idiomuri și expresii fixe",
-            "de": "Idiome & feste Wendungen",
-            "ru": "Идиомы и устойчивые выражения",
-            "it": "Espressioni idiomatiche e frasi fatte",
-            "es": "Modismos y expresiones fijas",
-            "fr": "Expressions idiomatiques et figées",
-            "hu": "Idiomák és állandósult szókapcsolatok",
-            "pt": "Expressões idiomáticas e fixas"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C8T10",
-          "names": {
-            "en": "Register & politeness",
-            "ro": "Registru și politețe",
-            "de": "Register & Höflichkeit",
-            "ru": "Стили речи и вежливость",
-            "it": "Registro e cortesia",
-            "es": "Registro y cortesía",
-            "fr": "Registre et politesse",
-            "hu": "Nyelvi regiszter és udvariasság",
-            "pt": "Registo e cortesia"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C8T11",
-          "names": {
-            "en": "Storytelling & narration",
-            "ro": "Povestiri și narațiune",
-            "de": "Erzählen & Erzählungen",
-            "ru": "Рассказы и повествование",
-            "it": "Racconti e narrazione",
-            "es": "Narración de historias",
-            "fr": "Raconter des histoires et narration",
-            "hu": "Történetmesélés és elbeszélés",
-            "pt": "Contar histórias e narração"
-          },
-          "items": [],
-          "layout": "table"
-        },
-        {
-          "code": "C8T12",
-          "names": {
-            "en": "Small talk & openers",
-            "ro": "Conversație de ocazie și deschideri",
-            "de": "Smalltalk & Gesprächseinstiege",
-            "ru": "Светская беседа и начало разговора",
-            "it": "Conversazione leggera e inizi",
-            "es": "Charla casual e inicios",
-            "fr": "Small talk et amorces de conversation",
-            "hu": "Barátságos beszélgetés és beszélgetéskezdők",
-            "pt": "Conversa de circunstância e aberturas"
-          },
-          "items": [],
-          "layout": "table"
+          "items": [
+            "lecture_culture"
+          ],
+          "layout": "article"
         }
       ]
     }

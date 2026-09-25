@@ -78,7 +78,7 @@ manifest-less ids in other sections.
 
 ```bash
 .venv/Scripts/python.exe scripts/scaffold-media.py --dry-run  # preview the folder skeleton
-node scripts/archive-topics.mjs [--apply-sidebar]               # topic attribution + topic map (+ sidebar rewrite)
+node scripts/archive-topics.mjs                                 # topic attribution + topic map (report only)
 node scripts/media-manifests.mjs [--dry-run]                  # re-folder media + write the sibling manifests
 node scripts/media-index.mjs --dry-run                        # preview the build plan
 run media index                                               # build runtime payloads

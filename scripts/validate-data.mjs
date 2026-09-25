@@ -67,7 +67,7 @@ const menuIds = nav.menu.map((m) => m.id)
 const KNOWN_FLAGS = ['us', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
 const KNOWN_BRANDS = ['bluesky', 'discord', 'youtube', 'reddit']
 /** Menu icon slugs — each must map to a component in AppNav.vue `ICONS`. */
-const KNOWN_MENU_ICONS = ['academic-cap', 'building-library', 'microphone', 'user']
+const KNOWN_MENU_ICONS = ['academic-cap', 'building-library', 'speaker-wave', 'user']
 
 if (langCount !== 9) ERRORS.push(`expected 9 languages, got ${langCount}`)
 for (const l of nav.languages) {
@@ -251,9 +251,6 @@ try {
     if (manifest.id) mediaManifestIds.add(manifest.id)
   }
 
-  const pins = existsSync(join(ROOT, 'src/data/sidebars/library/dictionary/pins.json'))
-    ? readJson('src/data/sidebars/library/dictionary/pins.json')
-    : {}
   const sidebarBySection = {}
   for (const file of walkManifestFiles(join(ROOT, 'src/data/sidebars')).filter((f) => f.endsWith('sidebar.json'))) {
     const doc = JSON.parse(readFileSync(file, 'utf-8'))
@@ -348,17 +345,7 @@ try {
   }
   console.log(`layouts: ${layoutCount} topics — ${Object.entries(layoutTotals).map(([k, v]) => `${k} ${v}`).join(' · ')}`)
 
-  // Pins: every pinned id must live in its pinned sidebar topic, and resolve to a manifest.
-  for (const [id, pin] of Object.entries(pins)) {
-    const sidebar = sidebarBySection[pin.section]
-    const topicEntry = sidebar?.sections.flatMap((s) => s.topics).find((t) => t.code === pin.topic)
-    if (!topicEntry) ERRORS.push(`pin '${id}': topic '${pin.topic}' missing in ${pin.section}`)
-    else if (!topicEntry.items.includes(id)) ERRORS.push(`pin '${id}': not an item of ${pin.section} · ${pin.topic}`)
-    // The manifest itself may not exist yet (planned content) — never an error.
-  }
-  console.log(
-    `content: ${contentFiles.length} doc(s) in ${docsByLecture.size} lecture(s) · ${Object.keys(pins).length} pinned id(s)`
-  )
+  console.log(`content: ${contentFiles.length} doc(s) in ${docsByLecture.size} lecture(s)`)
 } catch (e) {
   ERRORS.push(`content model missing or unparseable: ${e.message}`)
 }

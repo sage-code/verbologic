@@ -163,8 +163,7 @@ run build                                    # rows go live
   topic's layout (`table` holding a doc or an image, `article` holding a
   non-video manifest, `gallery` holding a non-image manifest).
 - **Never an error** (planned content): a referenced id with no manifest/entity/doc;
-  a content doc whose sidebar topic/items have not landed; a pinned id without a
-  manifest. These are inventoried by `run missing` and reported as an
+  a content doc whose sidebar topic/items have not landed. These are inventoried by `run missing` and reported as an
   informational count (`planned: …` / `missing content: …`).
 
 ---

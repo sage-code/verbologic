@@ -1,12 +1,1437 @@
 {
   "schema": 1,
-  "generated": "2026-09-24T13:25:31.417Z",
+  "generated": "2026-09-24T23:50:42.164Z",
   "section": "library/lectures",
   "records": [
     {
+      "id": "greeting_adio-si-noroc",
+      "entity_id": "greeting_adio-si-noroc",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Adio și noroc",
+      "names": {
+        "ro": "Adio și noroc"
+      },
+      "ipa": null,
+      "context": "Very strong; may suggest a final goodbye. Use carefully.",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_buna",
+      "entity_id": "greeting_buna",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Bună",
+      "names": {
+        "ro": "Bună"
+      },
+      "ipa": null,
+      "context": "daily informal situations",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_buna-dimineata",
+      "entity_id": "greeting_buna-dimineata",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Bună dimineața",
+      "names": {
+        "ro": "Bună dimineața"
+      },
+      "ipa": null,
+      "context": "morning, formal or neutral",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_buna-seara",
+      "entity_id": "greeting_buna-seara",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Bună seara",
+      "names": {
+        "ro": "Bună seara"
+      },
+      "ipa": null,
+      "context": "evening, formal or neutral",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_buna-ziua",
+      "entity_id": "greeting_buna-ziua",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Bună ziua",
+      "names": {
+        "ro": "Bună ziua"
+      },
+      "ipa": null,
+      "context": "daytime, formal or neutral",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_ceao",
+      "entity_id": "greeting_ceao",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Ceao",
+      "names": {
+        "ro": "Ceao"
+      },
+      "ipa": null,
+      "context": "very close friends",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_la-revedere",
+      "entity_id": "greeting_la-revedere",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "La revedere",
+      "names": {
+        "ro": "La revedere"
+      },
+      "ipa": null,
+      "context": "Standard polite form, suitable for formal and neutral contexts.",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_noapte-buna",
+      "entity_id": "greeting_noapte-buna",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Noapte bună",
+      "names": {
+        "ro": "Noapte bună"
+      },
+      "ipa": null,
+      "context": "end of day, before sleep",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_noapte-buna-2",
+      "entity_id": "greeting_noapte-buna-2",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Noapte bună",
+      "names": {
+        "ro": "Noapte bună"
+      },
+      "ipa": null,
+      "context": "Used late in the evening or before sleep.",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_noroc-bun",
+      "entity_id": "greeting_noroc-bun",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Noroc bun",
+      "names": {
+        "ro": "Noroc bun"
+      },
+      "ipa": null,
+      "context": "Rare/regional formula; may sound archaic, mainly used in traditional tone.",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_pe-curand",
+      "entity_id": "greeting_pe-curand",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Pe curând",
+      "names": {
+        "ro": "Pe curând"
+      },
+      "ipa": null,
+      "context": "Warm formula used when you expect to meet again soon.",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_sa-auzim-de-bine",
+      "entity_id": "greeting_sa-auzim-de-bine",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Să auzim de bine",
+      "names": {
+        "ro": "Să auzim de bine"
+      },
+      "ipa": null,
+      "context": "Friendly closing with a positive future meaning.",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_sa-fii-sanatos",
+      "entity_id": "greeting_sa-fii-sanatos",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Să fii sănătos",
+      "names": {
+        "ro": "Să fii sănătos"
+      },
+      "ipa": null,
+      "context": "Personal wish, more intimate; conveys care and respect.",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_sa-ne-vedem-sanatosi",
+      "entity_id": "greeting_sa-ne-vedem-sanatosi",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Să ne vedem sănătoși",
+      "names": {
+        "ro": "Să ne vedem sănătoși"
+      },
+      "ipa": null,
+      "context": "Affectionate wish, suitable when separation may be longer.",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "greeting_salut",
+      "entity_id": "greeting_salut",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "Salut",
+      "names": {
+        "ro": "Salut"
+      },
+      "ipa": null,
+      "context": "friends, close colleagues",
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "imperative_adu-scaunul",
+      "entity_id": "imperative_adu-scaunul",
+      "topic": "L4T05",
+      "lang": "ro",
+      "term": "Adu scaunul.",
+      "names": {
+        "en": "Bring the chair.",
+        "ro": "Adu scaunul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T01/imperative_adu-scaunul.mp3"
+      }
+    },
+    {
+      "id": "imperative_ajuta-copilul",
+      "entity_id": "imperative_ajuta-copilul",
+      "topic": "L4T03",
+      "lang": "ro",
+      "term": "Ajută copilul.",
+      "names": {
+        "en": "Help the child.",
+        "ro": "Ajută copilul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C8T02/imperative_ajuta-copilul.mp3"
+      }
+    },
+    {
+      "id": "imperative_aranjeaza-patul",
+      "entity_id": "imperative_aranjeaza-patul",
+      "topic": "L4T05",
+      "lang": "ro",
+      "term": "Aranjează patul.",
+      "names": {
+        "en": "Arrange the bed.",
+        "ro": "Aranjează patul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T01/imperative_aranjeaza-patul.mp3"
+      }
+    },
+    {
+      "id": "imperative_asculta-profesorul",
+      "entity_id": "imperative_asculta-profesorul",
+      "topic": "L4T08",
+      "lang": "ro",
+      "term": "Ascultă profesorul.",
+      "names": {
+        "en": "Listen to the teacher.",
+        "ro": "Ascultă profesorul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T02/imperative_asculta-profesorul.mp3"
+      }
+    },
+    {
+      "id": "imperative_asculta-vantul",
+      "entity_id": "imperative_asculta-vantul",
+      "topic": "L4T16",
+      "lang": "ro",
+      "term": "Ascultă vântul.",
+      "names": {
+        "en": "Listen to the wind.",
+        "ro": "Ascultă vântul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/imperative_asculta-vantul.mp3"
+      }
+    },
+    {
+      "id": "imperative_asteapta-trenul",
+      "entity_id": "imperative_asteapta-trenul",
+      "topic": "L4T12",
+      "lang": "ro",
+      "term": "Așteaptă trenul.",
+      "names": {
+        "en": "Wait for the train.",
+        "ro": "Așteaptă trenul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/imperative_asteapta-trenul.mp3"
+      }
+    },
+    {
+      "id": "imperative_bea-apa",
+      "entity_id": "imperative_bea-apa",
+      "topic": "L4T06",
+      "lang": "ro",
+      "term": "Bea apă.",
+      "names": {
+        "en": "Drink water.",
+        "ro": "Bea apă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T05/imperative_bea-apa.mp3"
+      }
+    },
+    {
+      "id": "imperative_bea-apa-acum",
+      "entity_id": "imperative_bea-apa-acum",
+      "topic": "L4T14",
+      "lang": "ro",
+      "term": "Bea apă acum.",
+      "names": {
+        "en": "Drink water now.",
+        "ro": "Bea apă acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/imperative_bea-apa-acum.mp3"
+      }
+    },
+    {
+      "id": "imperative_bea-lapte",
+      "entity_id": "imperative_bea-lapte",
+      "topic": "L4T06",
+      "lang": "ro",
+      "term": "Bea lapte.",
+      "names": {
+        "en": "Drink milk.",
+        "ro": "Bea lapte."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T05/imperative_bea-lapte.mp3"
+      }
+    },
+    {
+      "id": "imperative_cauta-coltul",
+      "entity_id": "imperative_cauta-coltul",
+      "topic": "L4T11",
+      "lang": "ro",
+      "term": "Caută colțul.",
+      "names": {
+        "en": "Look for the corner.",
+        "ro": "Caută colțul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/imperative_cauta-coltul.mp3"
+      }
+    },
+    {
+      "id": "imperative_cauta-farmacia",
+      "entity_id": "imperative_cauta-farmacia",
+      "topic": "L4T14",
+      "lang": "ro",
+      "term": "Caută farmacia.",
+      "names": {
+        "en": "Look for the pharmacy.",
+        "ro": "Caută farmacia."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/imperative_cauta-farmacia.mp3"
+      }
+    },
+    {
+      "id": "imperative_cauta-padurea",
+      "entity_id": "imperative_cauta-padurea",
+      "topic": "L4T16",
+      "lang": "ro",
+      "term": "Caută pădurea.",
+      "names": {
+        "en": "Look for the forest.",
+        "ro": "Caută pădurea."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/imperative_cauta-padurea.mp3"
+      }
+    },
+    {
+      "id": "imperative_cauta-piata",
+      "entity_id": "imperative_cauta-piata",
+      "topic": "L4T13",
+      "lang": "ro",
+      "term": "Caută piața.",
+      "names": {
+        "en": "Look for the market.",
+        "ro": "Caută piața."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T08/imperative_cauta-piata.mp3"
+      }
+    },
+    {
+      "id": "imperative_cere-ajutor",
+      "entity_id": "imperative_cere-ajutor",
+      "topic": "L4T15",
+      "lang": "ro",
+      "term": "Cere ajutor.",
+      "names": {
+        "en": "Ask for help.",
+        "ro": "Cere ajutor."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/imperative_cere-ajutor.mp3"
+      }
+    },
+    {
+      "id": "imperative_cheama-ambulanta",
+      "entity_id": "imperative_cheama-ambulanta",
+      "topic": "L4T15",
+      "lang": "ro",
+      "term": "Cheamă ambulanța.",
+      "names": {
+        "en": "Call the ambulance.",
+        "ro": "Cheamă ambulanța."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/imperative_cheama-ambulanta.mp3"
+      }
+    },
+    {
+      "id": "imperative_citeste-lectia",
+      "entity_id": "imperative_citeste-lectia",
+      "topic": "L4T08",
+      "lang": "ro",
+      "term": "Citește lecția.",
+      "names": {
+        "en": "Read the lesson.",
+        "ro": "Citește lecția."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T02/imperative_citeste-lectia.mp3"
+      }
+    },
+    {
+      "id": "imperative_citeste-mesajul",
+      "entity_id": "imperative_citeste-mesajul",
+      "topic": "L4T04",
+      "lang": "ro",
+      "term": "Citește mesajul.",
+      "names": {
+        "en": "Read the message.",
+        "ro": "Citește mesajul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T06/imperative_citeste-mesajul.mp3"
+      }
+    },
+    {
+      "id": "imperative_citeste-raportul",
+      "entity_id": "imperative_citeste-raportul",
+      "topic": "L4T09",
+      "lang": "ro",
+      "term": "Citește raportul.",
+      "names": {
+        "en": "Read the report.",
+        "ro": "Citește raportul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/imperative_citeste-raportul.mp3"
+      }
+    },
+    {
+      "id": "imperative_citeste-seara",
+      "entity_id": "imperative_citeste-seara",
+      "topic": "L4T07",
+      "lang": "ro",
+      "term": "Citește seara.",
+      "names": {
+        "en": "Read in the evening.",
+        "ro": "Citește seara."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T12/imperative_citeste-seara.mp3"
+      }
+    },
+    {
+      "id": "imperative_cumpara-biletul",
+      "entity_id": "imperative_cumpara-biletul",
+      "topic": "L4T12",
+      "lang": "ro",
+      "term": "Cumpără biletul.",
+      "names": {
+        "en": "Buy the ticket.",
+        "ro": "Cumpără biletul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/imperative_cumpara-biletul.mp3"
+      }
+    },
+    {
+      "id": "imperative_cumpara-peste",
+      "entity_id": "imperative_cumpara-peste",
+      "topic": "L4T06",
+      "lang": "ro",
+      "term": "Cumpără pește.",
+      "names": {
+        "en": "Buy fish.",
+        "ro": "Cumpără pește."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T05/imperative_cumpara-peste.mp3"
+      }
+    },
+    {
+      "id": "imperative_deschide-aplicatia",
+      "entity_id": "imperative_deschide-aplicatia",
+      "topic": "L4T10",
+      "lang": "ro",
+      "term": "Deschide aplicația.",
+      "names": {
+        "en": "Open the app.",
+        "ro": "Deschide aplicația."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/imperative_deschide-aplicatia.mp3"
+      }
+    },
+    {
+      "id": "imperative_deschide-caietul",
+      "entity_id": "imperative_deschide-caietul",
+      "topic": "L4T08",
+      "lang": "ro",
+      "term": "Deschide caietul.",
+      "names": {
+        "en": "Open the notebook.",
+        "ro": "Deschide caietul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T02/imperative_deschide-caietul.mp3"
+      }
+    },
+    {
+      "id": "imperative_deschide-proiectul",
+      "entity_id": "imperative_deschide-proiectul",
+      "topic": "L4T09",
+      "lang": "ro",
+      "term": "Deschide proiectul.",
+      "names": {
+        "en": "Open the project.",
+        "ro": "Deschide proiectul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/imperative_deschide-proiectul.mp3"
+      }
+    },
+    {
+      "id": "imperative_deschide-telefonul",
+      "entity_id": "imperative_deschide-telefonul",
+      "topic": "L4T04",
+      "lang": "ro",
+      "term": "Deschide telefonul.",
+      "names": {
+        "en": "Open the phone.",
+        "ro": "Deschide telefonul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T06/imperative_deschide-telefonul.mp3"
+      }
+    },
+    {
+      "id": "imperative_deschide-usa",
+      "entity_id": "imperative_deschide-usa",
+      "topic": "L4T05",
+      "lang": "ro",
+      "term": "Deschide ușa.",
+      "names": {
+        "en": "Open the door.",
+        "ro": "Deschide ușa."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T01/imperative_deschide-usa.mp3"
+      }
+    },
+    {
+      "id": "imperative_dormi-noaptea",
+      "entity_id": "imperative_dormi-noaptea",
+      "topic": "L4T07",
+      "lang": "ro",
+      "term": "Dormi noaptea.",
+      "names": {
+        "en": "Sleep at night.",
+        "ro": "Dormi noaptea."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T12/imperative_dormi-noaptea.mp3"
+      }
+    },
+    {
+      "id": "imperative_ia-autobuzul",
+      "entity_id": "imperative_ia-autobuzul",
+      "topic": "L4T12",
+      "lang": "ro",
+      "term": "Ia autobuzul.",
+      "names": {
+        "en": "Take the bus.",
+        "ro": "Ia autobuzul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/imperative_ia-autobuzul.mp3"
+      }
+    },
+    {
+      "id": "imperative_ia-medicamentul",
+      "entity_id": "imperative_ia-medicamentul",
+      "topic": "L4T14",
+      "lang": "ro",
+      "term": "Ia medicamentul.",
+      "names": {
+        "en": "Take the medicine.",
+        "ro": "Ia medicamentul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/imperative_ia-medicamentul.mp3"
+      }
+    },
+    {
+      "id": "imperative_inchide-fereastra",
+      "entity_id": "imperative_inchide-fereastra",
+      "topic": "L4T05",
+      "lang": "ro",
+      "term": "Închide fereastra.",
+      "names": {
+        "en": "Close the window.",
+        "ro": "Închide fereastra."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T01/imperative_inchide-fereastra.mp3"
+      }
+    },
+    {
+      "id": "imperative_inchide-fisierul",
+      "entity_id": "imperative_inchide-fisierul",
+      "topic": "L4T10",
+      "lang": "ro",
+      "term": "Închide fișierul.",
+      "names": {
+        "en": "Close the file.",
+        "ro": "Închide fișierul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/imperative_inchide-fisierul.mp3"
+      }
+    },
+    {
+      "id": "imperative_intra-in-magazin",
+      "entity_id": "imperative_intra-in-magazin",
+      "topic": "L4T13",
+      "lang": "ro",
+      "term": "Intră în magazin.",
+      "names": {
+        "en": "Enter the store.",
+        "ro": "Intră în magazin."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T08/imperative_intra-in-magazin.mp3"
+      }
+    },
+    {
+      "id": "imperative_invata-acum",
+      "entity_id": "imperative_invata-acum",
+      "topic": "L4T07",
+      "lang": "ro",
+      "term": "Învață acum.",
+      "names": {
+        "en": "Study now.",
+        "ro": "Învață acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T12/imperative_invata-acum.mp3"
+      }
+    },
+    {
+      "id": "imperative_lucreaza-azi",
+      "entity_id": "imperative_lucreaza-azi",
+      "topic": "L4T07",
+      "lang": "ro",
+      "term": "Lucrează azi.",
+      "names": {
+        "en": "Work today.",
+        "ro": "Lucrează azi."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T12/imperative_lucreaza-azi.mp3"
+      }
+    },
+    {
+      "id": "imperative_mananca-oul",
+      "entity_id": "imperative_mananca-oul",
+      "topic": "L4T06",
+      "lang": "ro",
+      "term": "Mănâncă oul.",
+      "names": {
+        "en": "Eat the egg.",
+        "ro": "Mănâncă oul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T05/imperative_mananca-oul.mp3"
+      }
+    },
+    {
+      "id": "imperative_mananca-paine",
+      "entity_id": "imperative_mananca-paine",
+      "topic": "L4T06",
+      "lang": "ro",
+      "term": "Mănâncă pâine.",
+      "names": {
+        "en": "Eat bread.",
+        "ro": "Mănâncă pâine."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T05/imperative_mananca-paine.mp3"
+      }
+    },
+    {
+      "id": "imperative_mergi-la-aeroport",
+      "entity_id": "imperative_mergi-la-aeroport",
+      "topic": "L4T12",
+      "lang": "ro",
+      "term": "Mergi la aeroport.",
+      "names": {
+        "en": "Go to the airport.",
+        "ro": "Mergi la aeroport."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/imperative_mergi-la-aeroport.mp3"
+      }
+    },
+    {
+      "id": "imperative_mergi-la-dreapta",
+      "entity_id": "imperative_mergi-la-dreapta",
+      "topic": "L4T11",
+      "lang": "ro",
+      "term": "Mergi la dreapta.",
+      "names": {
+        "en": "Go right.",
+        "ro": "Mergi la dreapta."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/imperative_mergi-la-dreapta.mp3"
+      }
+    },
+    {
+      "id": "imperative_mergi-la-spital",
+      "entity_id": "imperative_mergi-la-spital",
+      "topic": "L4T14",
+      "lang": "ro",
+      "term": "Mergi la spital.",
+      "names": {
+        "en": "Go to the hospital.",
+        "ro": "Mergi la spital."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/imperative_mergi-la-spital.mp3"
+      }
+    },
+    {
+      "id": "imperative_mergi-la-spital-acum",
+      "entity_id": "imperative_mergi-la-spital-acum",
+      "topic": "L4T15",
+      "lang": "ro",
+      "term": "Mergi la spital acum.",
+      "names": {
+        "en": "Go to the hospital now.",
+        "ro": "Mergi la spital acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/imperative_mergi-la-spital-acum.mp3"
+      }
+    },
+    {
+      "id": "imperative_mergi-la-stanga",
+      "entity_id": "imperative_mergi-la-stanga",
+      "topic": "L4T11",
+      "lang": "ro",
+      "term": "Mergi la stânga.",
+      "names": {
+        "en": "Go left.",
+        "ro": "Mergi la stânga."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/imperative_mergi-la-stanga.mp3"
+      }
+    },
+    {
+      "id": "imperative_mergi-la-statie",
+      "entity_id": "imperative_mergi-la-statie",
+      "topic": "L4T12",
+      "lang": "ro",
+      "term": "Mergi la stație.",
+      "names": {
+        "en": "Go to the station.",
+        "ro": "Mergi la stație."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/imperative_mergi-la-statie.mp3"
+      }
+    },
+    {
+      "id": "imperative_pastreaza-bonul",
+      "entity_id": "imperative_pastreaza-bonul",
+      "topic": "L4T13",
+      "lang": "ro",
+      "term": "Păstrează bonul.",
+      "names": {
+        "en": "Keep the receipt.",
+        "ro": "Păstrează bonul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T08/imperative_pastreaza-bonul.mp3"
+      }
+    },
+    {
+      "id": "imperative_plateste-cu-cardul",
+      "entity_id": "imperative_plateste-cu-cardul",
+      "topic": "L4T13",
+      "lang": "ro",
+      "term": "Plătește cu cardul.",
+      "names": {
+        "en": "Pay with the card.",
+        "ro": "Plătește cu cardul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T08/imperative_plateste-cu-cardul.mp3"
+      }
+    },
+    {
+      "id": "imperative_porneste-calculatorul",
+      "entity_id": "imperative_porneste-calculatorul",
+      "topic": "L4T10",
+      "lang": "ro",
+      "term": "Pornește calculatorul.",
+      "names": {
+        "en": "Start the computer.",
+        "ro": "Pornește calculatorul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/imperative_porneste-calculatorul.mp3"
+      }
+    },
+    {
+      "id": "imperative_pregateste-contractul",
+      "entity_id": "imperative_pregateste-contractul",
+      "topic": "L4T09",
+      "lang": "ro",
+      "term": "Pregătește contractul.",
+      "names": {
+        "en": "Prepare the contract.",
+        "ro": "Pregătește contractul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/imperative_pregateste-contractul.mp3"
+      }
+    },
+    {
+      "id": "imperative_pregateste-examenul",
+      "entity_id": "imperative_pregateste-examenul",
+      "topic": "L4T08",
+      "lang": "ro",
+      "term": "Pregătește examenul.",
+      "names": {
+        "en": "Prepare the exam.",
+        "ro": "Pregătește examenul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T02/imperative_pregateste-examenul.mp3"
+      }
+    },
+    {
+      "id": "imperative_priveste-norul",
+      "entity_id": "imperative_priveste-norul",
+      "topic": "L4T16",
+      "lang": "ro",
+      "term": "Privește norul.",
+      "names": {
+        "en": "Look at the cloud.",
+        "ro": "Privește norul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/imperative_priveste-norul.mp3"
+      }
+    },
+    {
+      "id": "imperative_priveste-soarele",
+      "entity_id": "imperative_priveste-soarele",
+      "topic": "L4T16",
+      "lang": "ro",
+      "term": "Privește soarele.",
+      "names": {
+        "en": "Look at the sun.",
+        "ro": "Privește soarele."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/imperative_priveste-soarele.mp3"
+      }
+    },
+    {
+      "id": "imperative_pune-cheia-pe-masa",
+      "entity_id": "imperative_pune-cheia-pe-masa",
+      "topic": "L4T05",
+      "lang": "ro",
+      "term": "Pune cheia pe masă.",
+      "names": {
+        "en": "Put the key on the table.",
+        "ro": "Pune cheia pe masă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T01/imperative_pune-cheia-pe-masa.mp3"
+      }
+    },
+    {
+      "id": "imperative_ramai-calm",
+      "entity_id": "imperative_ramai-calm",
+      "topic": "L4T15",
+      "lang": "ro",
+      "term": "Rămâi calm.",
+      "names": {
+        "en": "Stay calm.",
+        "ro": "Rămâi calm."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/imperative_ramai-calm.mp3"
+      }
+    },
+    {
+      "id": "imperative_respecta-programul",
+      "entity_id": "imperative_respecta-programul",
+      "topic": "L4T09",
+      "lang": "ro",
+      "term": "Respectă programul.",
+      "names": {
+        "en": "Respect the schedule.",
+        "ro": "Respectă programul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/imperative_respecta-programul.mp3"
+      }
+    },
+    {
+      "id": "imperative_saluta-vecinul",
+      "entity_id": "imperative_saluta-vecinul",
+      "topic": "L4T03",
+      "lang": "ro",
+      "term": "Salută vecinul.",
+      "names": {
+        "en": "Greet the neighbor.",
+        "ro": "Salută vecinul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C8T02/imperative_saluta-vecinul.mp3"
+      }
+    },
+    {
+      "id": "imperative_salveaza-fisierul",
+      "entity_id": "imperative_salveaza-fisierul",
+      "topic": "L4T04",
+      "lang": "ro",
+      "term": "Salvează fișierul.",
+      "names": {
+        "en": "Save the file.",
+        "ro": "Salvează fișierul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T06/imperative_salveaza-fisierul.mp3"
+      }
+    },
+    {
+      "id": "imperative_scrie-emailul",
+      "entity_id": "imperative_scrie-emailul",
+      "topic": "L4T04",
+      "lang": "ro",
+      "term": "Scrie emailul.",
+      "names": {
+        "en": "Write the email.",
+        "ro": "Scrie emailul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T06/imperative_scrie-emailul.mp3"
+      }
+    },
+    {
+      "id": "imperative_scrie-prenumele",
+      "entity_id": "imperative_scrie-prenumele",
+      "topic": "L4T03",
+      "lang": "ro",
+      "term": "Scrie prenumele.",
+      "names": {
+        "en": "Write the first name.",
+        "ro": "Scrie prenumele."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C8T02/imperative_scrie-prenumele.mp3"
+      }
+    },
+    {
+      "id": "imperative_scrie-tema",
+      "entity_id": "imperative_scrie-tema",
+      "topic": "L4T08",
+      "lang": "ro",
+      "term": "Scrie tema.",
+      "names": {
+        "en": "Write the homework.",
+        "ro": "Scrie tema."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T02/imperative_scrie-tema.mp3"
+      }
+    },
+    {
+      "id": "imperative_spune-buna-ziua",
+      "entity_id": "imperative_spune-buna-ziua",
+      "topic": "L4T02",
+      "lang": "ro",
+      "term": "Spune bună ziua.",
+      "names": {
+        "en": "Say good day.",
+        "ro": "Spune bună ziua."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C1T12/imperative_spune-buna-ziua.mp3"
+      }
+    },
+    {
+      "id": "imperative_spune-la-revedere",
+      "entity_id": "imperative_spune-la-revedere",
+      "topic": "L4T02",
+      "lang": "ro",
+      "term": "Spune la revedere.",
+      "names": {
+        "en": "Say goodbye.",
+        "ro": "Spune la revedere."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C1T12/imperative_spune-la-revedere.mp3"
+      }
+    },
+    {
+      "id": "imperative_spune-multumesc",
+      "entity_id": "imperative_spune-multumesc",
+      "topic": "L4T02",
+      "lang": "ro",
+      "term": "Spune mulțumesc.",
+      "names": {
+        "en": "Say thank you.",
+        "ro": "Spune mulțumesc."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C1T12/imperative_spune-multumesc.mp3"
+      }
+    },
+    {
+      "id": "imperative_spune-numele",
+      "entity_id": "imperative_spune-numele",
+      "topic": "L4T03",
+      "lang": "ro",
+      "term": "Spune numele.",
+      "names": {
+        "en": "Say the name.",
+        "ro": "Spune numele."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C8T02/imperative_spune-numele.mp3"
+      }
+    },
+    {
+      "id": "imperative_spune-salut",
+      "entity_id": "imperative_spune-salut",
+      "topic": "L4T02",
+      "lang": "ro",
+      "term": "Spune salut.",
+      "names": {
+        "en": "Say hello.",
+        "ro": "Spune salut."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C1T12/imperative_spune-salut.mp3"
+      }
+    },
+    {
+      "id": "imperative_spune-te-rog",
+      "entity_id": "imperative_spune-te-rog",
+      "topic": "L4T02",
+      "lang": "ro",
+      "term": "Spune te rog.",
+      "names": {
+        "en": "Say please.",
+        "ro": "Spune te rog."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C1T12/imperative_spune-te-rog.mp3"
+      }
+    },
+    {
+      "id": "imperative_suna-clientul",
+      "entity_id": "imperative_suna-clientul",
+      "topic": "L4T09",
+      "lang": "ro",
+      "term": "Sună clientul.",
+      "names": {
+        "en": "Call the client.",
+        "ro": "Sună clientul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/imperative_suna-clientul.mp3"
+      }
+    },
+    {
+      "id": "imperative_suna-doctorul",
+      "entity_id": "imperative_suna-doctorul",
+      "topic": "L4T14",
+      "lang": "ro",
+      "term": "Sună doctorul.",
+      "names": {
+        "en": "Call the doctor.",
+        "ro": "Sună doctorul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/imperative_suna-doctorul.mp3"
+      }
+    },
+    {
+      "id": "imperative_suna-la-politie",
+      "entity_id": "imperative_suna-la-politie",
+      "topic": "L4T15",
+      "lang": "ro",
+      "term": "Sună la poliție.",
+      "names": {
+        "en": "Call the police.",
+        "ro": "Sună la poliție."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/imperative_suna-la-politie.mp3"
+      }
+    },
+    {
+      "id": "imperative_suna-prietenul",
+      "entity_id": "imperative_suna-prietenul",
+      "topic": "L4T03",
+      "lang": "ro",
+      "term": "Sună prietenul.",
+      "names": {
+        "en": "Call the friend.",
+        "ro": "Sună prietenul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C8T02/imperative_suna-prietenul.mp3"
+      }
+    },
+    {
+      "id": "imperative_trezeste-te-dimineata",
+      "entity_id": "imperative_trezeste-te-dimineata",
+      "topic": "L4T07",
+      "lang": "ro",
+      "term": "Trezește-te dimineața.",
+      "names": {
+        "en": "Wake up in the morning.",
+        "ro": "Trezește-te dimineața."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T12/imperative_trezeste-te-dimineata.mp3"
+      }
+    },
+    {
+      "id": "imperative_trimite-apelul-video",
+      "entity_id": "imperative_trimite-apelul-video",
+      "topic": "L4T04",
+      "lang": "ro",
+      "term": "Trimite apelul video.",
+      "names": {
+        "en": "Send the video call.",
+        "ro": "Trimite apelul video."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T06/imperative_trimite-apelul-video.mp3"
+      }
+    },
+    {
+      "id": "imperative_trimite-mesajul",
+      "entity_id": "imperative_trimite-mesajul",
+      "topic": "L4T10",
+      "lang": "ro",
+      "term": "Trimite mesajul.",
+      "names": {
+        "en": "Send the message.",
+        "ro": "Trimite mesajul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/imperative_trimite-mesajul.mp3"
+      }
+    },
+    {
+      "id": "imperative_urmeaza-raul",
+      "entity_id": "imperative_urmeaza-raul",
+      "topic": "L4T16",
+      "lang": "ro",
+      "term": "Urmează râul.",
+      "names": {
+        "en": "Follow the river.",
+        "ro": "Urmează râul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/imperative_urmeaza-raul.mp3"
+      }
+    },
+    {
+      "id": "imperative_urmeaza-strada",
+      "entity_id": "imperative_urmeaza-strada",
+      "topic": "L4T11",
+      "lang": "ro",
+      "term": "Urmează strada.",
+      "names": {
+        "en": "Follow the street.",
+        "ro": "Urmează strada."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/imperative_urmeaza-strada.mp3"
+      }
+    },
+    {
+      "id": "imperative_verifica-emailul",
+      "entity_id": "imperative_verifica-emailul",
+      "topic": "L4T10",
+      "lang": "ro",
+      "term": "Verifică emailul.",
+      "names": {
+        "en": "Check the email.",
+        "ro": "Verifică emailul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/imperative_verifica-emailul.mp3"
+      }
+    },
+    {
+      "id": "imperative_verifica-harta",
+      "entity_id": "imperative_verifica-harta",
+      "topic": "L4T11",
+      "lang": "ro",
+      "term": "Verifică harta.",
+      "names": {
+        "en": "Check the map.",
+        "ro": "Verifică harta."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/imperative_verifica-harta.mp3"
+      }
+    },
+    {
+      "id": "imperative_verifica-pretul",
+      "entity_id": "imperative_verifica-pretul",
+      "topic": "L4T13",
+      "lang": "ro",
+      "term": "Verifică prețul.",
+      "names": {
+        "en": "Check the price.",
+        "ro": "Verifică prețul."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T08/imperative_verifica-pretul.mp3"
+      }
+    },
+    {
       "id": "lecture_alphabet",
       "entity_id": "lecture_alphabet",
-      "topic": "C1T01A",
+      "topic": "L1T01",
       "lang": "ro",
       "term": "Alfabetul românesc — logica sunetelor",
       "names": {
@@ -20,9 +1445,99 @@
       }
     },
     {
+      "id": "lecture_consonant-groups",
+      "entity_id": "lecture_consonant-groups",
+      "topic": "L1T05",
+      "lang": "ro",
+      "term": "Digraphs & trigraphs",
+      "names": {
+        "en": "Digraphs & trigraphs"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "lecture_greetings",
+      "entity_id": "lecture_greetings",
+      "topic": "L6T01",
+      "lang": "ro",
+      "term": "Greetings and Common Formulas",
+      "names": {
+        "en": "Greetings and Common Formulas"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "lecture_imperative",
+      "entity_id": "lecture_imperative",
+      "topic": "L4T01",
+      "lang": "ro",
+      "term": "The imperative",
+      "names": {
+        "en": "The imperative"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "lecture_questions",
+      "entity_id": "lecture_questions",
+      "topic": "L3T01",
+      "lang": "ro",
+      "term": "Asking and answering",
+      "names": {
+        "en": "Asking and answering"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "lecture_sentence",
+      "entity_id": "lecture_sentence",
+      "topic": "L2T01",
+      "lang": "ro",
+      "term": "What is a sentence?",
+      "names": {
+        "en": "What is a sentence?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": null
+      }
+    },
+    {
+      "id": "lecture_vowel-groups",
+      "entity_id": "lecture_vowel-groups",
+      "topic": "L1T03",
+      "lang": "ro",
+      "term": "Vowels, diphthongs & triphthongs",
+      "names": {
+        "en": "Vowels, diphthongs & triphthongs"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": null
+      }
+    },
+    {
       "id": "letter_a",
       "entity_id": "letter_a",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "A",
       "names": {
@@ -37,7 +1552,7 @@
     {
       "id": "letter_a-2",
       "entity_id": "letter_a-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "A",
       "names": {
@@ -53,7 +1568,7 @@
     {
       "id": "letter_a_breve",
       "entity_id": "letter_a_breve",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "Ă",
       "names": {
@@ -68,7 +1583,7 @@
     {
       "id": "letter_a_circumflex",
       "entity_id": "letter_a_circumflex",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "Â",
       "names": {
@@ -83,7 +1598,7 @@
     {
       "id": "letter_about",
       "entity_id": "letter_about",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "A",
       "names": {
@@ -99,7 +1614,7 @@
     {
       "id": "letter_ai",
       "entity_id": "letter_ai",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "ai",
       "names": {
@@ -114,7 +1629,7 @@
     {
       "id": "letter_au",
       "entity_id": "letter_au",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "au",
       "names": {
@@ -129,7 +1644,7 @@
     {
       "id": "letter_b",
       "entity_id": "letter_b",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "B",
       "names": {
@@ -144,7 +1659,7 @@
     {
       "id": "letter_b-2",
       "entity_id": "letter_b-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "B",
       "names": {
@@ -160,7 +1675,7 @@
     {
       "id": "letter_box",
       "entity_id": "letter_box",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "X",
       "names": {
@@ -176,7 +1691,7 @@
     {
       "id": "letter_c",
       "entity_id": "letter_c",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "C",
       "names": {
@@ -191,7 +1706,7 @@
     {
       "id": "letter_c-2",
       "entity_id": "letter_c-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "C",
       "names": {
@@ -207,7 +1722,7 @@
     {
       "id": "letter_castle",
       "entity_id": "letter_castle",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "-stle",
       "names": {
@@ -223,7 +1738,7 @@
     {
       "id": "letter_cat",
       "entity_id": "letter_cat",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "A",
       "names": {
@@ -239,7 +1754,7 @@
     {
       "id": "letter_cat-2",
       "entity_id": "letter_cat-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "C",
       "names": {
@@ -255,7 +1770,7 @@
     {
       "id": "letter_ce-ci",
       "entity_id": "letter_ce-ci",
-      "topic": "C1T03",
+      "topic": "L1T06",
       "lang": "ro",
       "term": "Ce / Ci",
       "names": {
@@ -270,7 +1785,7 @@
     {
       "id": "letter_chair",
       "entity_id": "letter_chair",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "ch",
       "names": {
@@ -286,7 +1801,7 @@
     {
       "id": "letter_che-chi",
       "entity_id": "letter_che-chi",
-      "topic": "C1T03",
+      "topic": "L1T06",
       "lang": "ro",
       "term": "Che / Chi",
       "names": {
@@ -301,7 +1816,7 @@
     {
       "id": "letter_chorus",
       "entity_id": "letter_chorus",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "ch",
       "names": {
@@ -317,7 +1832,7 @@
     {
       "id": "letter_city",
       "entity_id": "letter_city",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "C",
       "names": {
@@ -333,7 +1848,7 @@
     {
       "id": "letter_d",
       "entity_id": "letter_d",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "D",
       "names": {
@@ -348,7 +1863,7 @@
     {
       "id": "letter_d-2",
       "entity_id": "letter_d-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "D",
       "names": {
@@ -364,7 +1879,7 @@
     {
       "id": "letter_debt",
       "entity_id": "letter_debt",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "-bt",
       "names": {
@@ -380,7 +1895,7 @@
     {
       "id": "letter_e",
       "entity_id": "letter_e",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "E",
       "names": {
@@ -395,7 +1910,7 @@
     {
       "id": "letter_e-2",
       "entity_id": "letter_e-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "E",
       "names": {
@@ -411,7 +1926,7 @@
     {
       "id": "letter_ea",
       "entity_id": "letter_ea",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "ea",
       "names": {
@@ -426,7 +1941,7 @@
     {
       "id": "letter_eai",
       "entity_id": "letter_eai",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "eai",
       "names": {
@@ -441,7 +1956,7 @@
     {
       "id": "letter_eau",
       "entity_id": "letter_eau",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "eau",
       "names": {
@@ -456,7 +1971,7 @@
     {
       "id": "letter_ei",
       "entity_id": "letter_ei",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "ei",
       "names": {
@@ -471,7 +1986,7 @@
     {
       "id": "letter_eight",
       "entity_id": "letter_eight",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "-eigh",
       "names": {
@@ -487,7 +2002,7 @@
     {
       "id": "letter_eu",
       "entity_id": "letter_eu",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "eu",
       "names": {
@@ -502,7 +2017,7 @@
     {
       "id": "letter_exam",
       "entity_id": "letter_exam",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "X",
       "names": {
@@ -518,7 +2033,7 @@
     {
       "id": "letter_f",
       "entity_id": "letter_f",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "F",
       "names": {
@@ -533,7 +2048,7 @@
     {
       "id": "letter_f-2",
       "entity_id": "letter_f-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "F",
       "names": {
@@ -549,7 +2064,7 @@
     {
       "id": "letter_father",
       "entity_id": "letter_father",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "A",
       "names": {
@@ -565,7 +2080,7 @@
     {
       "id": "letter_fly",
       "entity_id": "letter_fly",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "Y",
       "names": {
@@ -581,7 +2096,7 @@
     {
       "id": "letter_g",
       "entity_id": "letter_g",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "G",
       "names": {
@@ -596,7 +2111,7 @@
     {
       "id": "letter_g-2",
       "entity_id": "letter_g-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "G",
       "names": {
@@ -612,7 +2127,7 @@
     {
       "id": "letter_ge-gi",
       "entity_id": "letter_ge-gi",
-      "topic": "C1T03",
+      "topic": "L1T06",
       "lang": "ro",
       "term": "Ge / Gi",
       "names": {
@@ -627,7 +2142,7 @@
     {
       "id": "letter_ghe-ghi",
       "entity_id": "letter_ghe-ghi",
-      "topic": "C1T03",
+      "topic": "L1T06",
       "lang": "ro",
       "term": "Ghe / Ghi",
       "names": {
@@ -642,7 +2157,7 @@
     {
       "id": "letter_giant",
       "entity_id": "letter_giant",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "G",
       "names": {
@@ -658,7 +2173,7 @@
     {
       "id": "letter_gnome",
       "entity_id": "letter_gnome",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "gn-",
       "names": {
@@ -674,7 +2189,7 @@
     {
       "id": "letter_go",
       "entity_id": "letter_go",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "G",
       "names": {
@@ -690,7 +2205,7 @@
     {
       "id": "letter_gym",
       "entity_id": "letter_gym",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "G",
       "names": {
@@ -706,7 +2221,7 @@
     {
       "id": "letter_h",
       "entity_id": "letter_h",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "H",
       "names": {
@@ -721,7 +2236,7 @@
     {
       "id": "letter_h-2",
       "entity_id": "letter_h-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "H",
       "names": {
@@ -737,7 +2252,7 @@
     {
       "id": "letter_half",
       "entity_id": "letter_half",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "-lf",
       "names": {
@@ -753,7 +2268,7 @@
     {
       "id": "letter_i",
       "entity_id": "letter_i",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "I",
       "names": {
@@ -768,7 +2283,7 @@
     {
       "id": "letter_i-2",
       "entity_id": "letter_i-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "I",
       "names": {
@@ -784,7 +2299,7 @@
     {
       "id": "letter_i_circumflex",
       "entity_id": "letter_i_circumflex",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "Î",
       "names": {
@@ -799,7 +2314,7 @@
     {
       "id": "letter_ia",
       "entity_id": "letter_ia",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "ia",
       "names": {
@@ -814,7 +2329,7 @@
     {
       "id": "letter_iai",
       "entity_id": "letter_iai",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "iai",
       "names": {
@@ -829,7 +2344,7 @@
     {
       "id": "letter_iau",
       "entity_id": "letter_iau",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "iau",
       "names": {
@@ -844,7 +2359,7 @@
     {
       "id": "letter_ie",
       "entity_id": "letter_ie",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "ie",
       "names": {
@@ -859,7 +2374,7 @@
     {
       "id": "letter_io",
       "entity_id": "letter_io",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "io",
       "names": {
@@ -874,7 +2389,7 @@
     {
       "id": "letter_ioa",
       "entity_id": "letter_ioa",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "ioa",
       "names": {
@@ -889,7 +2404,7 @@
     {
       "id": "letter_island",
       "entity_id": "letter_island",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "-sland",
       "names": {
@@ -905,7 +2420,7 @@
     {
       "id": "letter_iu",
       "entity_id": "letter_iu",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "iu",
       "names": {
@@ -920,7 +2435,7 @@
     {
       "id": "letter_j",
       "entity_id": "letter_j",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "J",
       "names": {
@@ -935,7 +2450,7 @@
     {
       "id": "letter_j-2",
       "entity_id": "letter_j-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "J",
       "names": {
@@ -951,7 +2466,7 @@
     {
       "id": "letter_k",
       "entity_id": "letter_k",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "K",
       "names": {
@@ -966,7 +2481,7 @@
     {
       "id": "letter_k-2",
       "entity_id": "letter_k-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "K",
       "names": {
@@ -982,7 +2497,7 @@
     {
       "id": "letter_knife",
       "entity_id": "letter_knife",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "kn-",
       "names": {
@@ -998,7 +2513,7 @@
     {
       "id": "letter_know",
       "entity_id": "letter_know",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "kn-",
       "names": {
@@ -1014,7 +2529,7 @@
     {
       "id": "letter_l",
       "entity_id": "letter_l",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "L",
       "names": {
@@ -1029,7 +2544,7 @@
     {
       "id": "letter_l-2",
       "entity_id": "letter_l-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "L",
       "names": {
@@ -1045,7 +2560,7 @@
     {
       "id": "letter_lamb",
       "entity_id": "letter_lamb",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "-mb",
       "names": {
@@ -1061,7 +2576,7 @@
     {
       "id": "letter_listen",
       "entity_id": "letter_listen",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "T",
       "names": {
@@ -1077,7 +2592,7 @@
     {
       "id": "letter_luxury",
       "entity_id": "letter_luxury",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "X",
       "names": {
@@ -1093,7 +2608,7 @@
     {
       "id": "letter_m",
       "entity_id": "letter_m",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "M",
       "names": {
@@ -1108,7 +2623,7 @@
     {
       "id": "letter_m-2",
       "entity_id": "letter_m-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "M",
       "names": {
@@ -1124,7 +2639,7 @@
     {
       "id": "letter_machine",
       "entity_id": "letter_machine",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "ch",
       "names": {
@@ -1140,7 +2655,7 @@
     {
       "id": "letter_myth",
       "entity_id": "letter_myth",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "Y",
       "names": {
@@ -1156,7 +2671,7 @@
     {
       "id": "letter_n",
       "entity_id": "letter_n",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "N",
       "names": {
@@ -1171,7 +2686,7 @@
     {
       "id": "letter_n-2",
       "entity_id": "letter_n-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "N",
       "names": {
@@ -1187,7 +2702,7 @@
     {
       "id": "letter_name",
       "entity_id": "letter_name",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "A",
       "names": {
@@ -1203,7 +2718,7 @@
     {
       "id": "letter_nation",
       "entity_id": "letter_nation",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "-tion",
       "names": {
@@ -1219,7 +2734,7 @@
     {
       "id": "letter_nature",
       "entity_id": "letter_nature",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "T",
       "names": {
@@ -1235,7 +2750,7 @@
     {
       "id": "letter_night",
       "entity_id": "letter_night",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "-gh(t)",
       "names": {
@@ -1251,7 +2766,7 @@
     {
       "id": "letter_o",
       "entity_id": "letter_o",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "O",
       "names": {
@@ -1266,7 +2781,7 @@
     {
       "id": "letter_o-2",
       "entity_id": "letter_o-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "O",
       "names": {
@@ -1282,7 +2797,7 @@
     {
       "id": "letter_oa",
       "entity_id": "letter_oa",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "oa",
       "names": {
@@ -1297,7 +2812,7 @@
     {
       "id": "letter_ocean",
       "entity_id": "letter_ocean",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "C",
       "names": {
@@ -1313,7 +2828,7 @@
     {
       "id": "letter_oi",
       "entity_id": "letter_oi",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "oi",
       "names": {
@@ -1328,7 +2843,7 @@
     {
       "id": "letter_p",
       "entity_id": "letter_p",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "P",
       "names": {
@@ -1343,7 +2858,7 @@
     {
       "id": "letter_p-2",
       "entity_id": "letter_p-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "P",
       "names": {
@@ -1359,7 +2874,7 @@
     {
       "id": "letter_phone",
       "entity_id": "letter_phone",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "ph",
       "names": {
@@ -1375,7 +2890,7 @@
     {
       "id": "letter_q",
       "entity_id": "letter_q",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "Q",
       "names": {
@@ -1391,7 +2906,7 @@
     {
       "id": "letter_r",
       "entity_id": "letter_r",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "R",
       "names": {
@@ -1406,7 +2921,7 @@
     {
       "id": "letter_r-2",
       "entity_id": "letter_r-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "R",
       "names": {
@@ -1422,7 +2937,7 @@
     {
       "id": "letter_rose",
       "entity_id": "letter_rose",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "S",
       "names": {
@@ -1438,7 +2953,7 @@
     {
       "id": "letter_s",
       "entity_id": "letter_s",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "S",
       "names": {
@@ -1453,7 +2968,7 @@
     {
       "id": "letter_s-2",
       "entity_id": "letter_s-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "S",
       "names": {
@@ -1469,7 +2984,7 @@
     {
       "id": "letter_s_cedilla",
       "entity_id": "letter_s_cedilla",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "Ș",
       "names": {
@@ -1484,7 +2999,7 @@
     {
       "id": "letter_ship",
       "entity_id": "letter_ship",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "sh",
       "names": {
@@ -1500,7 +3015,7 @@
     {
       "id": "letter_sing",
       "entity_id": "letter_sing",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "ng",
       "names": {
@@ -1516,7 +3031,7 @@
     {
       "id": "letter_station",
       "entity_id": "letter_station",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "T",
       "names": {
@@ -1532,7 +3047,7 @@
     {
       "id": "letter_sun",
       "entity_id": "letter_sun",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "S",
       "names": {
@@ -1548,7 +3063,7 @@
     {
       "id": "letter_sure",
       "entity_id": "letter_sure",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "S",
       "names": {
@@ -1564,7 +3079,7 @@
     {
       "id": "letter_t",
       "entity_id": "letter_t",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "T",
       "names": {
@@ -1579,7 +3094,7 @@
     {
       "id": "letter_t-2",
       "entity_id": "letter_t-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "T",
       "names": {
@@ -1595,7 +3110,7 @@
     {
       "id": "letter_t_cedilla",
       "entity_id": "letter_t_cedilla",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "Ț",
       "names": {
@@ -1610,7 +3125,7 @@
     {
       "id": "letter_think",
       "entity_id": "letter_think",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "th",
       "names": {
@@ -1626,7 +3141,7 @@
     {
       "id": "letter_this",
       "entity_id": "letter_this",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "th",
       "names": {
@@ -1642,7 +3157,7 @@
     {
       "id": "letter_though",
       "entity_id": "letter_though",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "-ough",
       "names": {
@@ -1658,7 +3173,7 @@
     {
       "id": "letter_thought",
       "entity_id": "letter_thought",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "-ough",
       "names": {
@@ -1674,7 +3189,7 @@
     {
       "id": "letter_through",
       "entity_id": "letter_through",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "-ough",
       "names": {
@@ -1690,7 +3205,7 @@
     {
       "id": "letter_top",
       "entity_id": "letter_top",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "T",
       "names": {
@@ -1706,7 +3221,7 @@
     {
       "id": "letter_u",
       "entity_id": "letter_u",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "U",
       "names": {
@@ -1721,7 +3236,7 @@
     {
       "id": "letter_u-2",
       "entity_id": "letter_u-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "U",
       "names": {
@@ -1737,7 +3252,7 @@
     {
       "id": "letter_ua",
       "entity_id": "letter_ua",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "ua",
       "names": {
@@ -1752,7 +3267,7 @@
     {
       "id": "letter_ue",
       "entity_id": "letter_ue",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "ue",
       "names": {
@@ -1767,7 +3282,7 @@
     {
       "id": "letter_ui",
       "entity_id": "letter_ui",
-      "topic": "C1T02",
+      "topic": "L1T04",
       "lang": "ro",
       "term": "ui",
       "names": {
@@ -1782,7 +3297,7 @@
     {
       "id": "letter_v",
       "entity_id": "letter_v",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "V",
       "names": {
@@ -1797,7 +3312,7 @@
     {
       "id": "letter_v-2",
       "entity_id": "letter_v-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "V",
       "names": {
@@ -1813,7 +3328,7 @@
     {
       "id": "letter_vision",
       "entity_id": "letter_vision",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "S",
       "names": {
@@ -1829,7 +3344,7 @@
     {
       "id": "letter_w",
       "entity_id": "letter_w",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "W",
       "names": {
@@ -1844,7 +3359,7 @@
     {
       "id": "letter_w-2",
       "entity_id": "letter_w-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "W",
       "names": {
@@ -1860,7 +3375,7 @@
     {
       "id": "letter_walk",
       "entity_id": "letter_walk",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "-lk",
       "names": {
@@ -1876,7 +3391,7 @@
     {
       "id": "letter_write",
       "entity_id": "letter_write",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "wr-",
       "names": {
@@ -1892,7 +3407,7 @@
     {
       "id": "letter_x",
       "entity_id": "letter_x",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "X",
       "names": {
@@ -1907,7 +3422,7 @@
     {
       "id": "letter_x-2",
       "entity_id": "letter_x-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "X",
       "names": {
@@ -1923,7 +3438,7 @@
     {
       "id": "letter_y",
       "entity_id": "letter_y",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "Y",
       "names": {
@@ -1938,7 +3453,7 @@
     {
       "id": "letter_y-2",
       "entity_id": "letter_y-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "Y",
       "names": {
@@ -1954,7 +3469,7 @@
     {
       "id": "letter_yes",
       "entity_id": "letter_yes",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "Y",
       "names": {
@@ -1970,7 +3485,7 @@
     {
       "id": "letter_z",
       "entity_id": "letter_z",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "ro",
       "term": "Z",
       "names": {
@@ -1985,7 +3500,7 @@
     {
       "id": "letter_z-2",
       "entity_id": "letter_z-2",
-      "topic": "C1T01",
+      "topic": "L1T02",
       "lang": "en",
       "term": "Z",
       "names": {
@@ -1996,6 +3511,2530 @@
       "context": null,
       "media": {
         "url": "https://media.verbologic.com/audio/en/C1T01/letter_z.mp3"
+      }
+    },
+    {
+      "id": "question_ai-apartament",
+      "entity_id": "question_ai-apartament",
+      "topic": "L3T05",
+      "lang": "ro",
+      "term": "Ai apartament?",
+      "names": {
+        "ro": "Ai apartament?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/question_ai-apartament.mp3"
+      }
+    },
+    {
+      "id": "question_ai-bani",
+      "entity_id": "question_ai-bani",
+      "topic": "L3T13",
+      "lang": "ro",
+      "term": "Ai bani?",
+      "names": {
+        "ro": "Ai bani?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T02/question_ai-bani.mp3"
+      }
+    },
+    {
+      "id": "question_ai-bilet",
+      "entity_id": "question_ai-bilet",
+      "topic": "L3T12",
+      "lang": "ro",
+      "term": "Ai bilet?",
+      "names": {
+        "ro": "Ai bilet?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/question_ai-bilet.mp3"
+      }
+    },
+    {
+      "id": "question_ai-durere",
+      "entity_id": "question_ai-durere",
+      "topic": "L3T14",
+      "lang": "ro",
+      "term": "Ai durere?",
+      "names": {
+        "ro": "Ai durere?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/question_ai-durere.mp3"
+      }
+    },
+    {
+      "id": "question_ai-examen-azi",
+      "entity_id": "question_ai-examen-azi",
+      "topic": "L3T08",
+      "lang": "ro",
+      "term": "Ai examen azi?",
+      "names": {
+        "ro": "Ai examen azi?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T01/question_ai-examen-azi.mp3"
+      }
+    },
+    {
+      "id": "question_ai-familie-mare",
+      "entity_id": "question_ai-familie-mare",
+      "topic": "L3T03",
+      "lang": "ro",
+      "term": "Ai familie mare?",
+      "names": {
+        "ro": "Ai familie mare?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T02/question_ai-familie-mare.mp3"
+      }
+    },
+    {
+      "id": "question_ai-harta",
+      "entity_id": "question_ai-harta",
+      "topic": "L3T11",
+      "lang": "ro",
+      "term": "Ai hartă?",
+      "names": {
+        "ro": "Ai hartă?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/question_ai-harta.mp3"
+      }
+    },
+    {
+      "id": "question_ai-nevoie-de-ajutor",
+      "entity_id": "question_ai-nevoie-de-ajutor",
+      "topic": "L3T14",
+      "lang": "ro",
+      "term": "Ai nevoie de ajutor?",
+      "names": {
+        "ro": "Ai nevoie de ajutor?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/question_ai-nevoie-de-ajutor.mp3"
+      }
+    },
+    {
+      "id": "question_ai-proiect-nou",
+      "entity_id": "question_ai-proiect-nou",
+      "topic": "L3T09",
+      "lang": "ro",
+      "term": "Ai proiect nou?",
+      "names": {
+        "ro": "Ai proiect nou?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/question_ai-proiect-nou.mp3"
+      }
+    },
+    {
+      "id": "question_ai-telefon",
+      "entity_id": "question_ai-telefon",
+      "topic": "L3T10",
+      "lang": "ro",
+      "term": "Ai telefon?",
+      "names": {
+        "ro": "Ai telefon?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/question_ai-telefon.mp3"
+      }
+    },
+    {
+      "id": "question_bei-apa-acum",
+      "entity_id": "question_bei-apa-acum",
+      "topic": "L3T06",
+      "lang": "ro",
+      "term": "Bei apă acum?",
+      "names": {
+        "ro": "Bei apă acum?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T04/question_bei-apa-acum.mp3"
+      }
+    },
+    {
+      "id": "question_care-este-numele-tau",
+      "entity_id": "question_care-este-numele-tau",
+      "topic": "L3T02",
+      "lang": "ro",
+      "term": "Care este numele tău?",
+      "names": {
+        "ro": "Care este numele tău?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/question_care-este-numele-tau.mp3"
+      }
+    },
+    {
+      "id": "question_cheia-este-pe-masa",
+      "entity_id": "question_cheia-este-pe-masa",
+      "topic": "L3T05",
+      "lang": "ro",
+      "term": "Cheia este pe masă?",
+      "names": {
+        "ro": "Cheia este pe masă?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/question_cheia-este-pe-masa.mp3"
+      }
+    },
+    {
+      "id": "question_citesti-seara",
+      "entity_id": "question_citesti-seara",
+      "topic": "L3T07",
+      "lang": "ro",
+      "term": "Citești seara?",
+      "names": {
+        "ro": "Citești seara?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/question_citesti-seara.mp3"
+      }
+    },
+    {
+      "id": "question_clientul-are-contract",
+      "entity_id": "question_clientul-are-contract",
+      "topic": "L3T09",
+      "lang": "ro",
+      "term": "Clientul are contract?",
+      "names": {
+        "ro": "Clientul are contract?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/question_clientul-are-contract.mp3"
+      }
+    },
+    {
+      "id": "question_copilul-este-acasa",
+      "entity_id": "question_copilul-este-acasa",
+      "topic": "L3T03",
+      "lang": "ro",
+      "term": "Copilul este acasă?",
+      "names": {
+        "ro": "Copilul este acasă?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T02/question_copilul-este-acasa.mp3"
+      }
+    },
+    {
+      "id": "question_cumperi-peste-azi",
+      "entity_id": "question_cumperi-peste-azi",
+      "topic": "L3T06",
+      "lang": "ro",
+      "term": "Cumperi pește azi?",
+      "names": {
+        "ro": "Cumperi pește azi?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T04/question_cumperi-peste-azi.mp3"
+      }
+    },
+    {
+      "id": "question_da-am-apartament",
+      "entity_id": "question_da-am-apartament",
+      "topic": "L3T05",
+      "lang": "ro",
+      "term": "Da, am apartament.",
+      "names": {
+        "ro": "Da, am apartament."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/question_da-am-apartament.mp3"
+      }
+    },
+    {
+      "id": "question_da-am-bani",
+      "entity_id": "question_da-am-bani",
+      "topic": "L3T13",
+      "lang": "ro",
+      "term": "Da, am bani.",
+      "names": {
+        "ro": "Da, am bani."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T02/question_da-am-bani.mp3"
+      }
+    },
+    {
+      "id": "question_da-am-bilet",
+      "entity_id": "question_da-am-bilet",
+      "topic": "L3T12",
+      "lang": "ro",
+      "term": "Da, am bilet.",
+      "names": {
+        "ro": "Da, am bilet."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/question_da-am-bilet.mp3"
+      }
+    },
+    {
+      "id": "question_da-am-durere",
+      "entity_id": "question_da-am-durere",
+      "topic": "L3T14",
+      "lang": "ro",
+      "term": "Da, am durere.",
+      "names": {
+        "ro": "Da, am durere."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/question_da-am-durere.mp3"
+      }
+    },
+    {
+      "id": "question_da-am-examen-azi",
+      "entity_id": "question_da-am-examen-azi",
+      "topic": "L3T08",
+      "lang": "ro",
+      "term": "Da, am examen azi.",
+      "names": {
+        "ro": "Da, am examen azi."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T01/question_da-am-examen-azi.mp3"
+      }
+    },
+    {
+      "id": "question_da-am-familie-mare",
+      "entity_id": "question_da-am-familie-mare",
+      "topic": "L3T03",
+      "lang": "ro",
+      "term": "Da, am familie mare.",
+      "names": {
+        "ro": "Da, am familie mare."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T02/question_da-am-familie-mare.mp3"
+      }
+    },
+    {
+      "id": "question_da-am-harta",
+      "entity_id": "question_da-am-harta",
+      "topic": "L3T11",
+      "lang": "ro",
+      "term": "Da, am hartă.",
+      "names": {
+        "ro": "Da, am hartă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/question_da-am-harta.mp3"
+      }
+    },
+    {
+      "id": "question_da-am-nevoie-de-ajutor",
+      "entity_id": "question_da-am-nevoie-de-ajutor",
+      "topic": "L3T14",
+      "lang": "ro",
+      "term": "Da, am nevoie de ajutor.",
+      "names": {
+        "ro": "Da, am nevoie de ajutor."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/question_da-am-nevoie-de-ajutor.mp3"
+      }
+    },
+    {
+      "id": "question_da-am-proiect-nou",
+      "entity_id": "question_da-am-proiect-nou",
+      "topic": "L3T09",
+      "lang": "ro",
+      "term": "Da, am proiect nou.",
+      "names": {
+        "ro": "Da, am proiect nou."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/question_da-am-proiect-nou.mp3"
+      }
+    },
+    {
+      "id": "question_da-am-telefon",
+      "entity_id": "question_da-am-telefon",
+      "topic": "L3T10",
+      "lang": "ro",
+      "term": "Da, am telefon.",
+      "names": {
+        "ro": "Da, am telefon."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/question_da-am-telefon.mp3"
+      }
+    },
+    {
+      "id": "question_da-ambulanta-vine",
+      "entity_id": "question_da-ambulanta-vine",
+      "topic": "L3T15",
+      "lang": "ro",
+      "term": "Da, ambulanța vine.",
+      "names": {
+        "ro": "Da, ambulanța vine."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/question_da-ambulanta-vine.mp3"
+      }
+    },
+    {
+      "id": "question_da-autobuzul-vine-acum",
+      "entity_id": "question_da-autobuzul-vine-acum",
+      "topic": "L3T12",
+      "lang": "ro",
+      "term": "Da, autobuzul vine acum.",
+      "names": {
+        "ro": "Da, autobuzul vine acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/question_da-autobuzul-vine-acum.mp3"
+      }
+    },
+    {
+      "id": "question_da-beau-apa-acum",
+      "entity_id": "question_da-beau-apa-acum",
+      "topic": "L3T06",
+      "lang": "ro",
+      "term": "Da, beau apă acum.",
+      "names": {
+        "ro": "Da, beau apă acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T04/question_da-beau-apa-acum.mp3"
+      }
+    },
+    {
+      "id": "question_da-cheia-este-pe-masa",
+      "entity_id": "question_da-cheia-este-pe-masa",
+      "topic": "L3T05",
+      "lang": "ro",
+      "term": "Da, cheia este pe masă.",
+      "names": {
+        "ro": "Da, cheia este pe masă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/question_da-cheia-este-pe-masa.mp3"
+      }
+    },
+    {
+      "id": "question_da-citesc-seara",
+      "entity_id": "question_da-citesc-seara",
+      "topic": "L3T07",
+      "lang": "ro",
+      "term": "Da, citesc seara.",
+      "names": {
+        "ro": "Da, citesc seara."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/question_da-citesc-seara.mp3"
+      }
+    },
+    {
+      "id": "question_da-clientul-are-contract",
+      "entity_id": "question_da-clientul-are-contract",
+      "topic": "L3T09",
+      "lang": "ro",
+      "term": "Da, clientul are contract.",
+      "names": {
+        "ro": "Da, clientul are contract."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/question_da-clientul-are-contract.mp3"
+      }
+    },
+    {
+      "id": "question_da-copilul-este-acasa",
+      "entity_id": "question_da-copilul-este-acasa",
+      "topic": "L3T03",
+      "lang": "ro",
+      "term": "Da, copilul este acasă.",
+      "names": {
+        "ro": "Da, copilul este acasă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T02/question_da-copilul-este-acasa.mp3"
+      }
+    },
+    {
+      "id": "question_da-cumpar-peste-azi",
+      "entity_id": "question_da-cumpar-peste-azi",
+      "topic": "L3T06",
+      "lang": "ro",
+      "term": "Da, cumpăr pește azi.",
+      "names": {
+        "ro": "Da, cumpăr pește azi."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T04/question_da-cumpar-peste-azi.mp3"
+      }
+    },
+    {
+      "id": "question_da-doctorul-este-aici",
+      "entity_id": "question_da-doctorul-este-aici",
+      "topic": "L3T14",
+      "lang": "ro",
+      "term": "Da, doctorul este aici.",
+      "names": {
+        "ro": "Da, doctorul este aici."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/question_da-doctorul-este-aici.mp3"
+      }
+    },
+    {
+      "id": "question_da-dorm-noaptea-bine",
+      "entity_id": "question_da-dorm-noaptea-bine",
+      "topic": "L3T07",
+      "lang": "ro",
+      "term": "Da, dorm noaptea bine.",
+      "names": {
+        "ro": "Da, dorm noaptea bine."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/question_da-dorm-noaptea-bine.mp3"
+      }
+    },
+    {
+      "id": "question_da-ea-este-linistita-acum",
+      "entity_id": "question_da-ea-este-linistita-acum",
+      "topic": "L3T04",
+      "lang": "ro",
+      "term": "Da, ea este liniștită acum.",
+      "names": {
+        "ro": "Da, ea este liniștită acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/question_da-ea-este-linistita-acum.mp3"
+      }
+    },
+    {
+      "id": "question_da-el-este-prietenul-meu",
+      "entity_id": "question_da-el-este-prietenul-meu",
+      "topic": "L3T02",
+      "lang": "ro",
+      "term": "Da, el este prietenul meu.",
+      "names": {
+        "ro": "Da, el este prietenul meu."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/question_da-el-este-prietenul-meu.mp3"
+      }
+    },
+    {
+      "id": "question_da-este-ploaie-azi",
+      "entity_id": "question_da-este-ploaie-azi",
+      "topic": "L3T16",
+      "lang": "ro",
+      "term": "Da, este ploaie azi.",
+      "names": {
+        "ro": "Da, este ploaie azi."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/question_da-este-ploaie-azi.mp3"
+      }
+    },
+    {
+      "id": "question_da-este-urgenta",
+      "entity_id": "question_da-este-urgenta",
+      "topic": "L3T15",
+      "lang": "ro",
+      "term": "Da, este urgență.",
+      "names": {
+        "ro": "Da, este urgență."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/question_da-este-urgenta.mp3"
+      }
+    },
+    {
+      "id": "question_da-ma-trezesc-dimineata-devreme",
+      "entity_id": "question_da-ma-trezesc-dimineata-devreme",
+      "topic": "L3T07",
+      "lang": "ro",
+      "term": "Da, mă trezesc dimineața devreme.",
+      "names": {
+        "ro": "Da, mă trezesc dimineața devreme."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/question_da-ma-trezesc-dimineata-devreme.mp3"
+      }
+    },
+    {
+      "id": "question_da-magazinul-este-la-dreapta",
+      "entity_id": "question_da-magazinul-este-la-dreapta",
+      "topic": "L3T11",
+      "lang": "ro",
+      "term": "Da, magazinul este la dreapta.",
+      "names": {
+        "ro": "Da, magazinul este la dreapta."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/question_da-magazinul-este-la-dreapta.mp3"
+      }
+    },
+    {
+      "id": "question_da-mananc-paine-dimineata",
+      "entity_id": "question_da-mananc-paine-dimineata",
+      "topic": "L3T06",
+      "lang": "ro",
+      "term": "Da, mănânc pâine dimineața.",
+      "names": {
+        "ro": "Da, mănânc pâine dimineața."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T04/question_da-mananc-paine-dimineata.mp3"
+      }
+    },
+    {
+      "id": "question_da-merg-la-mare",
+      "entity_id": "question_da-merg-la-mare",
+      "topic": "L3T16",
+      "lang": "ro",
+      "term": "Da, merg la mare.",
+      "names": {
+        "ro": "Da, merg la mare."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/question_da-merg-la-mare.mp3"
+      }
+    },
+    {
+      "id": "question_da-parola-este-aici",
+      "entity_id": "question_da-parola-este-aici",
+      "topic": "L3T10",
+      "lang": "ro",
+      "term": "Da, parola este aici.",
+      "names": {
+        "ro": "Da, parola este aici."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/question_da-parola-este-aici.mp3"
+      }
+    },
+    {
+      "id": "question_da-patul-este-in-camera",
+      "entity_id": "question_da-patul-este-in-camera",
+      "topic": "L3T05",
+      "lang": "ro",
+      "term": "Da, patul este în cameră.",
+      "names": {
+        "ro": "Da, patul este în cameră."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/question_da-patul-este-in-camera.mp3"
+      }
+    },
+    {
+      "id": "question_da-politia-este-aproape",
+      "entity_id": "question_da-politia-este-aproape",
+      "topic": "L3T15",
+      "lang": "ro",
+      "term": "Da, poliția este aproape.",
+      "names": {
+        "ro": "Da, poliția este aproape."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/question_da-politia-este-aproape.mp3"
+      }
+    },
+    {
+      "id": "question_da-pretul-este-mare",
+      "entity_id": "question_da-pretul-este-mare",
+      "topic": "L3T13",
+      "lang": "ro",
+      "term": "Da, prețul este mare.",
+      "names": {
+        "ro": "Da, prețul este mare."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T02/question_da-pretul-este-mare.mp3"
+      }
+    },
+    {
+      "id": "question_da-primesc-bon",
+      "entity_id": "question_da-primesc-bon",
+      "topic": "L3T13",
+      "lang": "ro",
+      "term": "Da, primesc bon.",
+      "names": {
+        "ro": "Da, primesc bon."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T02/question_da-primesc-bon.mp3"
+      }
+    },
+    {
+      "id": "question_da-profesorul-este-la-universitate",
+      "entity_id": "question_da-profesorul-este-la-universitate",
+      "topic": "L3T08",
+      "lang": "ro",
+      "term": "Da, profesorul este la universitate.",
+      "names": {
+        "ro": "Da, profesorul este la universitate."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T01/question_da-profesorul-este-la-universitate.mp3"
+      }
+    },
+    {
+      "id": "question_da-sedinta-este-azi",
+      "entity_id": "question_da-sedinta-este-azi",
+      "topic": "L3T09",
+      "lang": "ro",
+      "term": "Da, ședința este azi.",
+      "names": {
+        "ro": "Da, ședința este azi."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/question_da-sedinta-este-azi.mp3"
+      }
+    },
+    {
+      "id": "question_da-spun-multumesc",
+      "entity_id": "question_da-spun-multumesc",
+      "topic": "L3T04",
+      "lang": "ro",
+      "term": "Da, spun mulțumesc.",
+      "names": {
+        "ro": "Da, spun mulțumesc."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/question_da-spun-multumesc.mp3"
+      }
+    },
+    {
+      "id": "question_da-statia-este-pe-aceasta-strada",
+      "entity_id": "question_da-statia-este-pe-aceasta-strada",
+      "topic": "L3T11",
+      "lang": "ro",
+      "term": "Da, stația este pe această stradă.",
+      "names": {
+        "ro": "Da, stația este pe această stradă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/question_da-statia-este-pe-aceasta-strada.mp3"
+      }
+    },
+    {
+      "id": "question_da-studentul-citeste-lectia",
+      "entity_id": "question_da-studentul-citeste-lectia",
+      "topic": "L3T08",
+      "lang": "ro",
+      "term": "Da, studentul citește lecția.",
+      "names": {
+        "ro": "Da, studentul citește lecția."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T01/question_da-studentul-citeste-lectia.mp3"
+      }
+    },
+    {
+      "id": "question_da-sunt-fericit-azi",
+      "entity_id": "question_da-sunt-fericit-azi",
+      "topic": "L3T04",
+      "lang": "ro",
+      "term": "Da, sunt fericit azi.",
+      "names": {
+        "ro": "Da, sunt fericit azi."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/question_da-sunt-fericit-azi.mp3"
+      }
+    },
+    {
+      "id": "question_da-sunt-student",
+      "entity_id": "question_da-sunt-student",
+      "topic": "L3T02",
+      "lang": "ro",
+      "term": "Da, sunt student.",
+      "names": {
+        "ro": "Da, sunt student."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/question_da-sunt-student.mp3"
+      }
+    },
+    {
+      "id": "question_da-trenul-merge-la-oras",
+      "entity_id": "question_da-trenul-merge-la-oras",
+      "topic": "L3T12",
+      "lang": "ro",
+      "term": "Da, trenul merge la oraș.",
+      "names": {
+        "ro": "Da, trenul merge la oraș."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/question_da-trenul-merge-la-oras.mp3"
+      }
+    },
+    {
+      "id": "question_da-trimit-mesaj-acum",
+      "entity_id": "question_da-trimit-mesaj-acum",
+      "topic": "L3T10",
+      "lang": "ro",
+      "term": "Da, trimit mesaj acum.",
+      "names": {
+        "ro": "Da, trimit mesaj acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/question_da-trimit-mesaj-acum.mp3"
+      }
+    },
+    {
+      "id": "question_da-vad-soarele",
+      "entity_id": "question_da-vad-soarele",
+      "topic": "L3T16",
+      "lang": "ro",
+      "term": "Da, văd soarele.",
+      "names": {
+        "ro": "Da, văd soarele."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/question_da-vad-soarele.mp3"
+      }
+    },
+    {
+      "id": "question_da-vecinul-este-acolo",
+      "entity_id": "question_da-vecinul-este-acolo",
+      "topic": "L3T03",
+      "lang": "ro",
+      "term": "Da, vecinul este acolo.",
+      "names": {
+        "ro": "Da, vecinul este acolo."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T02/question_da-vecinul-este-acolo.mp3"
+      }
+    },
+    {
+      "id": "question_doctorul-este-aici",
+      "entity_id": "question_doctorul-este-aici",
+      "topic": "L3T14",
+      "lang": "ro",
+      "term": "Doctorul este aici?",
+      "names": {
+        "ro": "Doctorul este aici?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/question_doctorul-este-aici.mp3"
+      }
+    },
+    {
+      "id": "question_dormi-noaptea-bine",
+      "entity_id": "question_dormi-noaptea-bine",
+      "topic": "L3T07",
+      "lang": "ro",
+      "term": "Dormi noaptea bine?",
+      "names": {
+        "ro": "Dormi noaptea bine?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/question_dormi-noaptea-bine.mp3"
+      }
+    },
+    {
+      "id": "question_ea-este-linistita-acum",
+      "entity_id": "question_ea-este-linistita-acum",
+      "topic": "L3T04",
+      "lang": "ro",
+      "term": "Ea este liniștită acum?",
+      "names": {
+        "ro": "Ea este liniștită acum?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/question_ea-este-linistita-acum.mp3"
+      }
+    },
+    {
+      "id": "question_el-este-prietenul-tau",
+      "entity_id": "question_el-este-prietenul-tau",
+      "topic": "L3T02",
+      "lang": "ro",
+      "term": "El este prietenul tău?",
+      "names": {
+        "ro": "El este prietenul tău?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/question_el-este-prietenul-tau.mp3"
+      }
+    },
+    {
+      "id": "question_este-ploaie-azi",
+      "entity_id": "question_este-ploaie-azi",
+      "topic": "L3T16",
+      "lang": "ro",
+      "term": "Este ploaie azi?",
+      "names": {
+        "ro": "Este ploaie azi?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/question_este-ploaie-azi.mp3"
+      }
+    },
+    {
+      "id": "question_este-urgenta",
+      "entity_id": "question_este-urgenta",
+      "topic": "L3T15",
+      "lang": "ro",
+      "term": "Este urgență?",
+      "names": {
+        "ro": "Este urgență?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/question_este-urgenta.mp3"
+      }
+    },
+    {
+      "id": "question_esti-fericit-azi",
+      "entity_id": "question_esti-fericit-azi",
+      "topic": "L3T04",
+      "lang": "ro",
+      "term": "Ești fericit azi?",
+      "names": {
+        "ro": "Ești fericit azi?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/question_esti-fericit-azi.mp3"
+      }
+    },
+    {
+      "id": "question_esti-student",
+      "entity_id": "question_esti-student",
+      "topic": "L3T02",
+      "lang": "ro",
+      "term": "Ești student?",
+      "names": {
+        "ro": "Ești student?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/question_esti-student.mp3"
+      }
+    },
+    {
+      "id": "question_eu-sunt-maria",
+      "entity_id": "question_eu-sunt-maria",
+      "topic": "L3T02",
+      "lang": "ro",
+      "term": "Eu sunt Maria.",
+      "names": {
+        "ro": "Eu sunt Maria."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/question_eu-sunt-maria.mp3"
+      }
+    },
+    {
+      "id": "question_magazinul-este-la-dreapta",
+      "entity_id": "question_magazinul-este-la-dreapta",
+      "topic": "L3T11",
+      "lang": "ro",
+      "term": "Magazinul este la dreapta?",
+      "names": {
+        "ro": "Magazinul este la dreapta?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/question_magazinul-este-la-dreapta.mp3"
+      }
+    },
+    {
+      "id": "question_mananci-paine-dimineata",
+      "entity_id": "question_mananci-paine-dimineata",
+      "topic": "L3T06",
+      "lang": "ro",
+      "term": "Mănânci pâine dimineața?",
+      "names": {
+        "ro": "Mănânci pâine dimineața?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T04/question_mananci-paine-dimineata.mp3"
+      }
+    },
+    {
+      "id": "question_mergi-la-mare",
+      "entity_id": "question_mergi-la-mare",
+      "topic": "L3T16",
+      "lang": "ro",
+      "term": "Mergi la mare?",
+      "names": {
+        "ro": "Mergi la mare?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/question_mergi-la-mare.mp3"
+      }
+    },
+    {
+      "id": "question_nu-am-calculator",
+      "entity_id": "question_nu-am-calculator",
+      "topic": "L3T10",
+      "lang": "ro",
+      "term": "Nu, am calculator.",
+      "names": {
+        "ro": "Nu, am calculator."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/question_nu-am-calculator.mp3"
+      }
+    },
+    {
+      "id": "question_nu-am-card",
+      "entity_id": "question_nu-am-card",
+      "topic": "L3T13",
+      "lang": "ro",
+      "term": "Nu, am card.",
+      "names": {
+        "ro": "Nu, am card."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T02/question_nu-am-card.mp3"
+      }
+    },
+    {
+      "id": "question_nu-am-casa",
+      "entity_id": "question_nu-am-casa",
+      "topic": "L3T05",
+      "lang": "ro",
+      "term": "Nu, am casă.",
+      "names": {
+        "ro": "Nu, am casă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/question_nu-am-casa.mp3"
+      }
+    },
+    {
+      "id": "question_nu-am-familie-mica",
+      "entity_id": "question_nu-am-familie-mica",
+      "topic": "L3T03",
+      "lang": "ro",
+      "term": "Nu, am familie mică.",
+      "names": {
+        "ro": "Nu, am familie mică."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T02/question_nu-am-familie-mica.mp3"
+      }
+    },
+    {
+      "id": "question_nu-am-febra",
+      "entity_id": "question_nu-am-febra",
+      "topic": "L3T14",
+      "lang": "ro",
+      "term": "Nu, am febră.",
+      "names": {
+        "ro": "Nu, am febră."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/question_nu-am-febra.mp3"
+      }
+    },
+    {
+      "id": "question_nu-am-nevoie-de-apa",
+      "entity_id": "question_nu-am-nevoie-de-apa",
+      "topic": "L3T14",
+      "lang": "ro",
+      "term": "Nu, am nevoie de apă.",
+      "names": {
+        "ro": "Nu, am nevoie de apă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/question_nu-am-nevoie-de-apa.mp3"
+      }
+    },
+    {
+      "id": "question_nu-am-raport-nou",
+      "entity_id": "question_nu-am-raport-nou",
+      "topic": "L3T09",
+      "lang": "ro",
+      "term": "Nu, am raport nou.",
+      "names": {
+        "ro": "Nu, am raport nou."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/question_nu-am-raport-nou.mp3"
+      }
+    },
+    {
+      "id": "question_nu-am-telefon",
+      "entity_id": "question_nu-am-telefon",
+      "topic": "L3T11",
+      "lang": "ro",
+      "term": "Nu, am telefon.",
+      "names": {
+        "ro": "Nu, am telefon."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/question_nu-am-telefon.mp3"
+      }
+    },
+    {
+      "id": "question_nu-am-tema-azi",
+      "entity_id": "question_nu-am-tema-azi",
+      "topic": "L3T08",
+      "lang": "ro",
+      "term": "Nu, am temă azi.",
+      "names": {
+        "ro": "Nu, am temă azi."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T01/question_nu-am-tema-azi.mp3"
+      }
+    },
+    {
+      "id": "question_nu-beau-lapte-acum",
+      "entity_id": "question_nu-beau-lapte-acum",
+      "topic": "L3T06",
+      "lang": "ro",
+      "term": "Nu, beau lapte acum.",
+      "names": {
+        "ro": "Nu, beau lapte acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T04/question_nu-beau-lapte-acum.mp3"
+      }
+    },
+    {
+      "id": "question_nu-cheia-este-in-baie",
+      "entity_id": "question_nu-cheia-este-in-baie",
+      "topic": "L3T05",
+      "lang": "ro",
+      "term": "Nu, cheia este în baie.",
+      "names": {
+        "ro": "Nu, cheia este în baie."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/question_nu-cheia-este-in-baie.mp3"
+      }
+    },
+    {
+      "id": "question_nu-clientul-are-intrebare",
+      "entity_id": "question_nu-clientul-are-intrebare",
+      "topic": "L3T09",
+      "lang": "ro",
+      "term": "Nu, clientul are întrebare.",
+      "names": {
+        "ro": "Nu, clientul are întrebare."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/question_nu-clientul-are-intrebare.mp3"
+      }
+    },
+    {
+      "id": "question_nu-copilul-este-la-scoala",
+      "entity_id": "question_nu-copilul-este-la-scoala",
+      "topic": "L3T03",
+      "lang": "ro",
+      "term": "Nu, copilul este la școală.",
+      "names": {
+        "ro": "Nu, copilul este la școală."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T02/question_nu-copilul-este-la-scoala.mp3"
+      }
+    },
+    {
+      "id": "question_nu-cumpar-bilet-acum",
+      "entity_id": "question_nu-cumpar-bilet-acum",
+      "topic": "L3T12",
+      "lang": "ro",
+      "term": "Nu, cumpăr bilet acum.",
+      "names": {
+        "ro": "Nu, cumpăr bilet acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/question_nu-cumpar-bilet-acum.mp3"
+      }
+    },
+    {
+      "id": "question_nu-cumpar-fructe-azi",
+      "entity_id": "question_nu-cumpar-fructe-azi",
+      "topic": "L3T06",
+      "lang": "ro",
+      "term": "Nu, cumpăr fructe azi.",
+      "names": {
+        "ro": "Nu, cumpăr fructe azi."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T04/question_nu-cumpar-fructe-azi.mp3"
+      }
+    },
+    {
+      "id": "question_nu-doctorul-este-la-spital",
+      "entity_id": "question_nu-doctorul-este-la-spital",
+      "topic": "L3T14",
+      "lang": "ro",
+      "term": "Nu, doctorul este la spital.",
+      "names": {
+        "ro": "Nu, doctorul este la spital."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T04/question_nu-doctorul-este-la-spital.mp3"
+      }
+    },
+    {
+      "id": "question_nu-dorm-putin-noaptea",
+      "entity_id": "question_nu-dorm-putin-noaptea",
+      "topic": "L3T07",
+      "lang": "ro",
+      "term": "Nu, dorm puțin noaptea.",
+      "names": {
+        "ro": "Nu, dorm puțin noaptea."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/question_nu-dorm-putin-noaptea.mp3"
+      }
+    },
+    {
+      "id": "question_nu-ea-este-suparata-acum",
+      "entity_id": "question_nu-ea-este-suparata-acum",
+      "topic": "L3T04",
+      "lang": "ro",
+      "term": "Nu, ea este supărată acum.",
+      "names": {
+        "ro": "Nu, ea este supărată acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/question_nu-ea-este-suparata-acum.mp3"
+      }
+    },
+    {
+      "id": "question_nu-el-este-colegul-meu",
+      "entity_id": "question_nu-el-este-colegul-meu",
+      "topic": "L3T02",
+      "lang": "ro",
+      "term": "Nu, el este colegul meu.",
+      "names": {
+        "ro": "Nu, el este colegul meu."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/question_nu-el-este-colegul-meu.mp3"
+      }
+    },
+    {
+      "id": "question_nu-este-alarma-falsa",
+      "entity_id": "question_nu-este-alarma-falsa",
+      "topic": "L3T15",
+      "lang": "ro",
+      "term": "Nu, este alarmă falsă.",
+      "names": {
+        "ro": "Nu, este alarmă falsă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/question_nu-este-alarma-falsa.mp3"
+      }
+    },
+    {
+      "id": "question_nu-este-vant-azi",
+      "entity_id": "question_nu-este-vant-azi",
+      "topic": "L3T16",
+      "lang": "ro",
+      "term": "Nu, este vânt azi.",
+      "names": {
+        "ro": "Nu, este vânt azi."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/question_nu-este-vant-azi.mp3"
+      }
+    },
+    {
+      "id": "question_nu-ma-trezesc-tarziu",
+      "entity_id": "question_nu-ma-trezesc-tarziu",
+      "topic": "L3T07",
+      "lang": "ro",
+      "term": "Nu, mă trezesc târziu.",
+      "names": {
+        "ro": "Nu, mă trezesc târziu."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/question_nu-ma-trezesc-tarziu.mp3"
+      }
+    },
+    {
+      "id": "question_nu-magazinul-este-la-stanga",
+      "entity_id": "question_nu-magazinul-este-la-stanga",
+      "topic": "L3T11",
+      "lang": "ro",
+      "term": "Nu, magazinul este la stânga.",
+      "names": {
+        "ro": "Nu, magazinul este la stânga."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/question_nu-magazinul-este-la-stanga.mp3"
+      }
+    },
+    {
+      "id": "question_nu-mananc-oua-dimineata",
+      "entity_id": "question_nu-mananc-oua-dimineata",
+      "topic": "L3T06",
+      "lang": "ro",
+      "term": "Nu, mănânc ouă dimineața.",
+      "names": {
+        "ro": "Nu, mănânc ouă dimineața."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T04/question_nu-mananc-oua-dimineata.mp3"
+      }
+    },
+    {
+      "id": "question_nu-merg-la-munte",
+      "entity_id": "question_nu-merg-la-munte",
+      "topic": "L3T16",
+      "lang": "ro",
+      "term": "Nu, merg la munte.",
+      "names": {
+        "ro": "Nu, merg la munte."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/question_nu-merg-la-munte.mp3"
+      }
+    },
+    {
+      "id": "question_nu-parola-este-in-fisier",
+      "entity_id": "question_nu-parola-este-in-fisier",
+      "topic": "L3T10",
+      "lang": "ro",
+      "term": "Nu, parola este în fișier.",
+      "names": {
+        "ro": "Nu, parola este în fișier."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/question_nu-parola-este-in-fisier.mp3"
+      }
+    },
+    {
+      "id": "question_nu-patul-este-langa-usa",
+      "entity_id": "question_nu-patul-este-langa-usa",
+      "topic": "L3T05",
+      "lang": "ro",
+      "term": "Nu, patul este lângă ușă.",
+      "names": {
+        "ro": "Nu, patul este lângă ușă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/question_nu-patul-este-langa-usa.mp3"
+      }
+    },
+    {
+      "id": "question_nu-politia-este-departe",
+      "entity_id": "question_nu-politia-este-departe",
+      "topic": "L3T15",
+      "lang": "ro",
+      "term": "Nu, poliția este departe.",
+      "names": {
+        "ro": "Nu, poliția este departe."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/question_nu-politia-este-departe.mp3"
+      }
+    },
+    {
+      "id": "question_nu-politia-vine",
+      "entity_id": "question_nu-politia-vine",
+      "topic": "L3T15",
+      "lang": "ro",
+      "term": "Nu, poliția vine.",
+      "names": {
+        "ro": "Nu, poliția vine."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/question_nu-politia-vine.mp3"
+      }
+    },
+    {
+      "id": "question_nu-pretul-este-mic",
+      "entity_id": "question_nu-pretul-este-mic",
+      "topic": "L3T13",
+      "lang": "ro",
+      "term": "Nu, prețul este mic.",
+      "names": {
+        "ro": "Nu, prețul este mic."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T02/question_nu-pretul-este-mic.mp3"
+      }
+    },
+    {
+      "id": "question_nu-primesc-mesaj",
+      "entity_id": "question_nu-primesc-mesaj",
+      "topic": "L3T13",
+      "lang": "ro",
+      "term": "Nu, primesc mesaj.",
+      "names": {
+        "ro": "Nu, primesc mesaj."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T02/question_nu-primesc-mesaj.mp3"
+      }
+    },
+    {
+      "id": "question_nu-profesorul-este-la-scoala",
+      "entity_id": "question_nu-profesorul-este-la-scoala",
+      "topic": "L3T08",
+      "lang": "ro",
+      "term": "Nu, profesorul este la școală.",
+      "names": {
+        "ro": "Nu, profesorul este la școală."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T01/question_nu-profesorul-este-la-scoala.mp3"
+      }
+    },
+    {
+      "id": "question_nu-scriu-seara",
+      "entity_id": "question_nu-scriu-seara",
+      "topic": "L3T07",
+      "lang": "ro",
+      "term": "Nu, scriu seara.",
+      "names": {
+        "ro": "Nu, scriu seara."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/question_nu-scriu-seara.mp3"
+      }
+    },
+    {
+      "id": "question_nu-sedinta-este-maine",
+      "entity_id": "question_nu-sedinta-este-maine",
+      "topic": "L3T09",
+      "lang": "ro",
+      "term": "Nu, ședința este mâine.",
+      "names": {
+        "ro": "Nu, ședința este mâine."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/question_nu-sedinta-este-maine.mp3"
+      }
+    },
+    {
+      "id": "question_nu-spun-scuze",
+      "entity_id": "question_nu-spun-scuze",
+      "topic": "L3T04",
+      "lang": "ro",
+      "term": "Nu, spun scuze.",
+      "names": {
+        "ro": "Nu, spun scuze."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/question_nu-spun-scuze.mp3"
+      }
+    },
+    {
+      "id": "question_nu-statia-este-pe-alt-drum",
+      "entity_id": "question_nu-statia-este-pe-alt-drum",
+      "topic": "L3T11",
+      "lang": "ro",
+      "term": "Nu, stația este pe alt drum.",
+      "names": {
+        "ro": "Nu, stația este pe alt drum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/question_nu-statia-este-pe-alt-drum.mp3"
+      }
+    },
+    {
+      "id": "question_nu-studentul-scrie-lectia",
+      "entity_id": "question_nu-studentul-scrie-lectia",
+      "topic": "L3T08",
+      "lang": "ro",
+      "term": "Nu, studentul scrie lecția.",
+      "names": {
+        "ro": "Nu, studentul scrie lecția."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T01/question_nu-studentul-scrie-lectia.mp3"
+      }
+    },
+    {
+      "id": "question_nu-sunt-obosit-azi",
+      "entity_id": "question_nu-sunt-obosit-azi",
+      "topic": "L3T04",
+      "lang": "ro",
+      "term": "Nu, sunt obosit azi.",
+      "names": {
+        "ro": "Nu, sunt obosit azi."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/question_nu-sunt-obosit-azi.mp3"
+      }
+    },
+    {
+      "id": "question_nu-sunt-profesor",
+      "entity_id": "question_nu-sunt-profesor",
+      "topic": "L3T02",
+      "lang": "ro",
+      "term": "Nu, sunt profesor.",
+      "names": {
+        "ro": "Nu, sunt profesor."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/question_nu-sunt-profesor.mp3"
+      }
+    },
+    {
+      "id": "question_nu-trenul-merge-la-aeroport",
+      "entity_id": "question_nu-trenul-merge-la-aeroport",
+      "topic": "L3T12",
+      "lang": "ro",
+      "term": "Nu, trenul merge la aeroport.",
+      "names": {
+        "ro": "Nu, trenul merge la aeroport."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/question_nu-trenul-merge-la-aeroport.mp3"
+      }
+    },
+    {
+      "id": "question_nu-trenul-vine-acum",
+      "entity_id": "question_nu-trenul-vine-acum",
+      "topic": "L3T12",
+      "lang": "ro",
+      "term": "Nu, trenul vine acum.",
+      "names": {
+        "ro": "Nu, trenul vine acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/question_nu-trenul-vine-acum.mp3"
+      }
+    },
+    {
+      "id": "question_nu-trimit-email-acum",
+      "entity_id": "question_nu-trimit-email-acum",
+      "topic": "L3T10",
+      "lang": "ro",
+      "term": "Nu, trimit email acum.",
+      "names": {
+        "ro": "Nu, trimit email acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/question_nu-trimit-email-acum.mp3"
+      }
+    },
+    {
+      "id": "question_nu-vad-norii",
+      "entity_id": "question_nu-vad-norii",
+      "topic": "L3T16",
+      "lang": "ro",
+      "term": "Nu, văd norii.",
+      "names": {
+        "ro": "Nu, văd norii."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/question_nu-vad-norii.mp3"
+      }
+    },
+    {
+      "id": "question_nu-vecinul-este-la-birou",
+      "entity_id": "question_nu-vecinul-este-la-birou",
+      "topic": "L3T03",
+      "lang": "ro",
+      "term": "Nu, vecinul este la birou.",
+      "names": {
+        "ro": "Nu, vecinul este la birou."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T02/question_nu-vecinul-este-la-birou.mp3"
+      }
+    },
+    {
+      "id": "question_numele-meu-este-andrei",
+      "entity_id": "question_numele-meu-este-andrei",
+      "topic": "L3T02",
+      "lang": "ro",
+      "term": "Numele meu este Andrei.",
+      "names": {
+        "ro": "Numele meu este Andrei."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/question_numele-meu-este-andrei.mp3"
+      }
+    },
+    {
+      "id": "question_parola-este-aici",
+      "entity_id": "question_parola-este-aici",
+      "topic": "L3T10",
+      "lang": "ro",
+      "term": "Parola este aici?",
+      "names": {
+        "ro": "Parola este aici?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/question_parola-este-aici.mp3"
+      }
+    },
+    {
+      "id": "question_patul-este-in-camera",
+      "entity_id": "question_patul-este-in-camera",
+      "topic": "L3T05",
+      "lang": "ro",
+      "term": "Patul este în cameră?",
+      "names": {
+        "ro": "Patul este în cameră?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/question_patul-este-in-camera.mp3"
+      }
+    },
+    {
+      "id": "question_politia-este-aproape",
+      "entity_id": "question_politia-este-aproape",
+      "topic": "L3T15",
+      "lang": "ro",
+      "term": "Poliția este aproape?",
+      "names": {
+        "ro": "Poliția este aproape?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/question_politia-este-aproape.mp3"
+      }
+    },
+    {
+      "id": "question_pretul-este-mare",
+      "entity_id": "question_pretul-este-mare",
+      "topic": "L3T13",
+      "lang": "ro",
+      "term": "Prețul este mare?",
+      "names": {
+        "ro": "Prețul este mare?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T02/question_pretul-este-mare.mp3"
+      }
+    },
+    {
+      "id": "question_primesti-bon",
+      "entity_id": "question_primesti-bon",
+      "topic": "L3T13",
+      "lang": "ro",
+      "term": "Primești bon?",
+      "names": {
+        "ro": "Primești bon?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C6T02/question_primesti-bon.mp3"
+      }
+    },
+    {
+      "id": "question_profesorul-este-la-universitate",
+      "entity_id": "question_profesorul-este-la-universitate",
+      "topic": "L3T08",
+      "lang": "ro",
+      "term": "Profesorul este la universitate?",
+      "names": {
+        "ro": "Profesorul este la universitate?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T01/question_profesorul-este-la-universitate.mp3"
+      }
+    },
+    {
+      "id": "question_sedinta-este-azi",
+      "entity_id": "question_sedinta-este-azi",
+      "topic": "L3T09",
+      "lang": "ro",
+      "term": "Ședința este azi?",
+      "names": {
+        "ro": "Ședința este azi?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/question_sedinta-este-azi.mp3"
+      }
+    },
+    {
+      "id": "question_spui-multumesc",
+      "entity_id": "question_spui-multumesc",
+      "topic": "L3T04",
+      "lang": "ro",
+      "term": "Spui mulțumesc?",
+      "names": {
+        "ro": "Spui mulțumesc?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/question_spui-multumesc.mp3"
+      }
+    },
+    {
+      "id": "question_statia-este-pe-aceasta-strada",
+      "entity_id": "question_statia-este-pe-aceasta-strada",
+      "topic": "L3T11",
+      "lang": "ro",
+      "term": "Stația este pe această stradă?",
+      "names": {
+        "ro": "Stația este pe această stradă?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T01/question_statia-este-pe-aceasta-strada.mp3"
+      }
+    },
+    {
+      "id": "question_studentul-citeste-lectia",
+      "entity_id": "question_studentul-citeste-lectia",
+      "topic": "L3T08",
+      "lang": "ro",
+      "term": "Studentul citește lecția?",
+      "names": {
+        "ro": "Studentul citește lecția?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T01/question_studentul-citeste-lectia.mp3"
+      }
+    },
+    {
+      "id": "question_te-trezesti-dimineata-devreme",
+      "entity_id": "question_te-trezesti-dimineata-devreme",
+      "topic": "L3T07",
+      "lang": "ro",
+      "term": "Te trezești dimineața devreme?",
+      "names": {
+        "ro": "Te trezești dimineața devreme?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/question_te-trezesti-dimineata-devreme.mp3"
+      }
+    },
+    {
+      "id": "question_trenul-merge-la-oras",
+      "entity_id": "question_trenul-merge-la-oras",
+      "topic": "L3T12",
+      "lang": "ro",
+      "term": "Trenul merge la oraș?",
+      "names": {
+        "ro": "Trenul merge la oraș?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/question_trenul-merge-la-oras.mp3"
+      }
+    },
+    {
+      "id": "question_trimiti-mesaj-acum",
+      "entity_id": "question_trimiti-mesaj-acum",
+      "topic": "L3T10",
+      "lang": "ro",
+      "term": "Trimiți mesaj acum?",
+      "names": {
+        "ro": "Trimiți mesaj acum?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T08/question_trimiti-mesaj-acum.mp3"
+      }
+    },
+    {
+      "id": "question_vecinul-este-acolo",
+      "entity_id": "question_vecinul-este-acolo",
+      "topic": "L3T03",
+      "lang": "ro",
+      "term": "Vecinul este acolo?",
+      "names": {
+        "ro": "Vecinul este acolo?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T02/question_vecinul-este-acolo.mp3"
+      }
+    },
+    {
+      "id": "question_vezi-soarele",
+      "entity_id": "question_vezi-soarele",
+      "topic": "L3T16",
+      "lang": "ro",
+      "term": "Vezi soarele?",
+      "names": {
+        "ro": "Vezi soarele?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T11/question_vezi-soarele.mp3"
+      }
+    },
+    {
+      "id": "question_vine-ambulanta",
+      "entity_id": "question_vine-ambulanta",
+      "topic": "L3T15",
+      "lang": "ro",
+      "term": "Vine ambulanța?",
+      "names": {
+        "ro": "Vine ambulanța?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C4T05/question_vine-ambulanta.mp3"
+      }
+    },
+    {
+      "id": "question_vine-autobuzul-acum",
+      "entity_id": "question_vine-autobuzul-acum",
+      "topic": "L3T12",
+      "lang": "ro",
+      "term": "Vine autobuzul acum?",
+      "names": {
+        "ro": "Vine autobuzul acum?"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/question_vine-autobuzul-acum.mp3"
+      }
+    },
+    {
+      "id": "sentence_apartamentul-are-o-fereastra",
+      "entity_id": "sentence_apartamentul-are-o-fereastra",
+      "topic": "L2T04",
+      "lang": "ro",
+      "term": "Apartamentul are o fereastră.",
+      "names": {
+        "en": "The apartment has a window.",
+        "ro": "Apartamentul are o fereastră."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/sentence_apartamentul-are-o-fereastra.mp3"
+      }
+    },
+    {
+      "id": "sentence_autobuzul-vine-la-statie",
+      "entity_id": "sentence_autobuzul-vine-la-statie",
+      "topic": "L2T06",
+      "lang": "ro",
+      "term": "Autobuzul vine la stație.",
+      "names": {
+        "en": "The bus comes to the station.",
+        "ro": "Autobuzul vine la stație."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/sentence_autobuzul-vine-la-statie.mp3"
+      }
+    },
+    {
+      "id": "sentence_bonul-este-pe-masa",
+      "entity_id": "sentence_bonul-este-pe-masa",
+      "topic": "L2T06",
+      "lang": "ro",
+      "term": "Bonul este pe masă.",
+      "names": {
+        "en": "The receipt is on the table.",
+        "ro": "Bonul este pe masă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/sentence_bonul-este-pe-masa.mp3"
+      }
+    },
+    {
+      "id": "sentence_casa-are-o-usa",
+      "entity_id": "sentence_casa-are-o-usa",
+      "topic": "L2T04",
+      "lang": "ro",
+      "term": "Casa are o ușă.",
+      "names": {
+        "en": "The house has a door.",
+        "ro": "Casa are o ușă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/sentence_casa-are-o-usa.mp3"
+      }
+    },
+    {
+      "id": "sentence_cheia-este-pe-masa",
+      "entity_id": "sentence_cheia-este-pe-masa",
+      "topic": "L2T04",
+      "lang": "ro",
+      "term": "Cheia este pe masă.",
+      "names": {
+        "en": "The key is on the table.",
+        "ro": "Cheia este pe masă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/sentence_cheia-este-pe-masa.mp3"
+      }
+    },
+    {
+      "id": "sentence_clientul-are-un-contract",
+      "entity_id": "sentence_clientul-are-un-contract",
+      "topic": "L2T07",
+      "lang": "ro",
+      "term": "Clientul are un contract.",
+      "names": {
+        "en": "The client has a contract.",
+        "ro": "Clientul are un contract."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/sentence_clientul-are-un-contract.mp3"
+      }
+    },
+    {
+      "id": "sentence_colegul-are-un-proiect",
+      "entity_id": "sentence_colegul-are-un-proiect",
+      "topic": "L2T07",
+      "lang": "ro",
+      "term": "Colegul are un proiect.",
+      "names": {
+        "en": "The colleague has a project.",
+        "ro": "Colegul are un proiect."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/sentence_colegul-are-un-proiect.mp3"
+      }
+    },
+    {
+      "id": "sentence_ea-este-femeie",
+      "entity_id": "sentence_ea-este-femeie",
+      "topic": "L2T02",
+      "lang": "ro",
+      "term": "Ea este femeie.",
+      "names": {
+        "en": "She is a woman.",
+        "ro": "Ea este femeie."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/sentence_ea-este-femeie.mp3"
+      }
+    },
+    {
+      "id": "sentence_ea-este-linistita-acum",
+      "entity_id": "sentence_ea-este-linistita-acum",
+      "topic": "L2T03",
+      "lang": "ro",
+      "term": "Ea este liniștită acum.",
+      "names": {
+        "en": "She is calm now.",
+        "ro": "Ea este liniștită acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/sentence_ea-este-linistita-acum.mp3"
+      }
+    },
+    {
+      "id": "sentence_el-este-prietenul-meu",
+      "entity_id": "sentence_el-este-prietenul-meu",
+      "topic": "L2T02",
+      "lang": "ro",
+      "term": "El este prietenul meu.",
+      "names": {
+        "en": "He is my friend.",
+        "ro": "El este prietenul meu."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/sentence_el-este-prietenul-meu.mp3"
+      }
+    },
+    {
+      "id": "sentence_el-este-profesor",
+      "entity_id": "sentence_el-este-profesor",
+      "topic": "L2T02",
+      "lang": "ro",
+      "term": "El este profesor.",
+      "names": {
+        "en": "He is a teacher.",
+        "ro": "El este profesor."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/sentence_el-este-profesor.mp3"
+      }
+    },
+    {
+      "id": "sentence_el-este-trist-azi",
+      "entity_id": "sentence_el-este-trist-azi",
+      "topic": "L2T03",
+      "lang": "ro",
+      "term": "El este trist azi.",
+      "names": {
+        "en": "He is sad today.",
+        "ro": "El este trist azi."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/sentence_el-este-trist-azi.mp3"
+      }
+    },
+    {
+      "id": "sentence_eu-am-bani-si-card",
+      "entity_id": "sentence_eu-am-bani-si-card",
+      "topic": "L2T06",
+      "lang": "ro",
+      "term": "Eu am bani și card.",
+      "names": {
+        "en": "I have money and a card.",
+        "ro": "Eu am bani și card."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/sentence_eu-am-bani-si-card.mp3"
+      }
+    },
+    {
+      "id": "sentence_eu-beau-apa",
+      "entity_id": "sentence_eu-beau-apa",
+      "topic": "L2T05",
+      "lang": "ro",
+      "term": "Eu beau apă.",
+      "names": {
+        "en": "I drink water.",
+        "ro": "Eu beau apă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/sentence_eu-beau-apa.mp3"
+      }
+    },
+    {
+      "id": "sentence_eu-citesc-seara",
+      "entity_id": "sentence_eu-citesc-seara",
+      "topic": "L2T05",
+      "lang": "ro",
+      "term": "Eu citesc seara.",
+      "names": {
+        "en": "I read in the evening.",
+        "ro": "Eu citesc seara."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/sentence_eu-citesc-seara.mp3"
+      }
+    },
+    {
+      "id": "sentence_eu-dorm-noaptea",
+      "entity_id": "sentence_eu-dorm-noaptea",
+      "topic": "L2T05",
+      "lang": "ro",
+      "term": "Eu dorm noaptea.",
+      "names": {
+        "en": "I sleep at night.",
+        "ro": "Eu dorm noaptea."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/sentence_eu-dorm-noaptea.mp3"
+      }
+    },
+    {
+      "id": "sentence_eu-ma-trezesc-dimineata",
+      "entity_id": "sentence_eu-ma-trezesc-dimineata",
+      "topic": "L2T05",
+      "lang": "ro",
+      "term": "Eu mă trezesc dimineața.",
+      "names": {
+        "en": "I wake up in the morning.",
+        "ro": "Eu mă trezesc dimineața."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/sentence_eu-ma-trezesc-dimineata.mp3"
+      }
+    },
+    {
+      "id": "sentence_eu-mananc-paine",
+      "entity_id": "sentence_eu-mananc-paine",
+      "topic": "L2T05",
+      "lang": "ro",
+      "term": "Eu mănânc pâine.",
+      "names": {
+        "en": "I eat bread.",
+        "ro": "Eu mănânc pâine."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T08/sentence_eu-mananc-paine.mp3"
+      }
+    },
+    {
+      "id": "sentence_eu-merg-la-magazin",
+      "entity_id": "sentence_eu-merg-la-magazin",
+      "topic": "L2T06",
+      "lang": "ro",
+      "term": "Eu merg la magazin.",
+      "names": {
+        "en": "I go to the store.",
+        "ro": "Eu merg la magazin."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/sentence_eu-merg-la-magazin.mp3"
+      }
+    },
+    {
+      "id": "sentence_eu-spun-multumesc",
+      "entity_id": "sentence_eu-spun-multumesc",
+      "topic": "L2T03",
+      "lang": "ro",
+      "term": "Eu spun mulțumesc.",
+      "names": {
+        "en": "I say thank you.",
+        "ro": "Eu spun mulțumesc."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/sentence_eu-spun-multumesc.mp3"
+      }
+    },
+    {
+      "id": "sentence_eu-spun-salut",
+      "entity_id": "sentence_eu-spun-salut",
+      "topic": "L2T03",
+      "lang": "ro",
+      "term": "Eu spun salut.",
+      "names": {
+        "en": "I say hello.",
+        "ro": "Eu spun salut."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/sentence_eu-spun-salut.mp3"
+      }
+    },
+    {
+      "id": "sentence_eu-sunt-fericit-azi",
+      "entity_id": "sentence_eu-sunt-fericit-azi",
+      "topic": "L2T03",
+      "lang": "ro",
+      "term": "Eu sunt fericit azi.",
+      "names": {
+        "en": "I am happy today.",
+        "ro": "Eu sunt fericit azi."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/sentence_eu-sunt-fericit-azi.mp3"
+      }
+    },
+    {
+      "id": "sentence_eu-sunt-student",
+      "entity_id": "sentence_eu-sunt-student",
+      "topic": "L2T02",
+      "lang": "ro",
+      "term": "Eu sunt student.",
+      "names": {
+        "en": "I am a student.",
+        "ro": "Eu sunt student."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/sentence_eu-sunt-student.mp3"
+      }
+    },
+    {
+      "id": "sentence_familia-mea-are-un-copil",
+      "entity_id": "sentence_familia-mea-are-un-copil",
+      "topic": "L2T02",
+      "lang": "ro",
+      "term": "Familia mea are un copil.",
+      "names": {
+        "en": "My family has a child.",
+        "ro": "Familia mea are un copil."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T03/sentence_familia-mea-are-un-copil.mp3"
+      }
+    },
+    {
+      "id": "sentence_patul-este-in-camera",
+      "entity_id": "sentence_patul-este-in-camera",
+      "topic": "L2T04",
+      "lang": "ro",
+      "term": "Patul este în cameră.",
+      "names": {
+        "en": "The bed is in the room.",
+        "ro": "Patul este în cameră."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/sentence_patul-este-in-camera.mp3"
+      }
+    },
+    {
+      "id": "sentence_profesorul-scrie-un-raport",
+      "entity_id": "sentence_profesorul-scrie-un-raport",
+      "topic": "L2T07",
+      "lang": "ro",
+      "term": "Profesorul scrie un raport.",
+      "names": {
+        "en": "The teacher writes a report.",
+        "ro": "Profesorul scrie un raport."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/sentence_profesorul-scrie-un-raport.mp3"
+      }
+    },
+    {
+      "id": "sentence_scaunul-este-langa-masa",
+      "entity_id": "sentence_scaunul-este-langa-masa",
+      "topic": "L2T04",
+      "lang": "ro",
+      "term": "Scaunul este lângă masă.",
+      "names": {
+        "en": "The chair is next to the table.",
+        "ro": "Scaunul este lângă masă."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C3T02/sentence_scaunul-este-langa-masa.mp3"
+      }
+    },
+    {
+      "id": "sentence_sedinta-este-azi",
+      "entity_id": "sentence_sedinta-este-azi",
+      "topic": "L2T07",
+      "lang": "ro",
+      "term": "Ședința este azi.",
+      "names": {
+        "en": "The meeting is today.",
+        "ro": "Ședința este azi."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/sentence_sedinta-este-azi.mp3"
+      }
+    },
+    {
+      "id": "sentence_studentul-citeste-lectia",
+      "entity_id": "sentence_studentul-citeste-lectia",
+      "topic": "L2T07",
+      "lang": "ro",
+      "term": "Studentul citește lecția.",
+      "names": {
+        "en": "The student reads the lesson.",
+        "ro": "Studentul citește lecția."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C7T03/sentence_studentul-citeste-lectia.mp3"
+      }
+    },
+    {
+      "id": "sentence_trenul-vine-acum",
+      "entity_id": "sentence_trenul-vine-acum",
+      "topic": "L2T06",
+      "lang": "ro",
+      "term": "Trenul vine acum.",
+      "names": {
+        "en": "The train comes now.",
+        "ro": "Trenul vine acum."
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C5T03/sentence_trenul-vine-acum.mp3"
+      }
+    },
+    {
+      "id": "word_imi-pare-bine",
+      "entity_id": "word_imi-pare-bine",
+      "topic": "L6T02",
+      "lang": "ro",
+      "term": "îmi pare bine",
+      "names": {
+        "en": "nice to meet you",
+        "es": "encantado",
+        "it": "piacere",
+        "fr": "enchanté",
+        "ro": "îmi pare bine"
+      },
+      "ipa": null,
+      "context": null,
+      "media": {
+        "url": "https://media.verbologic.com/audio/ro/C2T12/word_imi-pare-bine.mp3"
       }
     }
   ]

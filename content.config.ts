@@ -28,7 +28,8 @@ const TRACKS = ['dictionary', 'lectures', 'stories'] as const
 export default defineContentConfig({
   collections: {
     articles: defineCollection({
-      type: 'data',
+      // 'page' — a 'data' collection stores only the front matter and drops the Markdown body.
+      type: 'page',
       source: '**/*.md',
       schema: z.object({
         /** Which sidebar track the article topic lives in (the content folder leaf). */
