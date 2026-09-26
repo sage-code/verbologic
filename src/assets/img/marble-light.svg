@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 960" width="960" height="960">
+  <!-- Carrara-style marble tile for the light theme backdrop: a neutral
+       white-cream base with two faint gray veins running in one diagonal
+       direction only, gently warped for a natural (not mechanical) line.
+       Seamless (stitchTiles). -->
+  <defs>
+    <filter id="warp" x="-25%" y="-25%" width="150%" height="150%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.008 0.03" numOctaves="4" seed="24" stitchTiles="stitch" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="85" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <linearGradient id="veins" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"    stop-color="#f8f7f3"/>
+      <stop offset="29%"   stop-color="#f8f7f3"/>
+      <stop offset="30%"   stop-color="#c3bcae" stop-opacity="0.4"/>
+      <stop offset="31%"   stop-color="#f8f7f3"/>
+      <stop offset="66%"   stop-color="#f8f7f3"/>
+      <stop offset="67%"   stop-color="#aca497" stop-opacity="0.45"/>
+      <stop offset="68%"   stop-color="#f8f7f3"/>
+      <stop offset="100%"  stop-color="#f8f7f3"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="960" fill="#f8f7f3"/>
+  <rect width="960" height="960" fill="url(#veins)" filter="url(#warp)"/>
+</svg>

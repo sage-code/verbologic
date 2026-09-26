@@ -92,33 +92,32 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
        stretches like two side-by-side ones would; capped once a second
        language appears (the grid below then pairs them up). -->
   <main class="mx-auto w-full" :class="store.visible.length > 1 ? 'max-w-6xl' : 'max-w-full'">
-    <!-- Title row: heading left, Add Language (voice icon) + Add credits
-         (coin/bill icon) right. Add Language hides while the library is
-         empty — the big accent button in the empty-state card is the entry
-         point then; Add credits stays (the pool can be filled first). -->
-    <div class="flex flex-wrap items-center justify-between gap-3">
-      <h1 class="text-3xl font-bold text-content">{{ copy('library.title', 'Your Library') }}</h1>
-      <div class="flex items-center gap-2">
-        <button
-          type="button"
-          class="inline-flex items-center gap-2 rounded-full border border-edge bg-body px-4 py-2 text-sm font-medium text-muted transition hover:border-accent hover:text-accent"
-          @click="creditsOpen = true"
-        >
-          <BanknotesIcon class="h-4 w-4" aria-hidden="true" />
-          {{ copy('library.credits_title', 'Add credits') }}
-        </button>
-        <button
-          v-if="!store.isEmpty"
-          type="button"
-          class="inline-flex items-center gap-2 rounded-full border border-edge bg-body px-4 py-2 text-sm font-medium text-muted transition hover:border-accent hover:text-accent"
-          @click="addOpen = true"
-        >
-          <MicrophoneIcon class="h-4 w-4" aria-hidden="true" />
-          {{ copy('library.add_language', 'Add Language') }}
-        </button>
-      </div>
+    <h1 class="text-center text-3xl font-bold text-content">{{ copy('library.title', 'Your Library') }}</h1>
+    <p class="mt-2 text-center text-muted">{{ copy('library.subtitle', 'Manage your languages and view your progress.') }}</p>
+
+    <!-- Button bar: Add credits (coin/bill icon) + Add Language (voice icon).
+         Add Language hides while the library is empty — the big accent
+         button in the empty-state card is the entry point then; Add credits
+         stays (the pool can be filled first). -->
+    <div class="mt-4 flex flex-wrap items-center justify-center gap-2 rounded-2xl border border-edge bg-surface p-3">
+      <button
+        type="button"
+        class="inline-flex items-center gap-2 rounded-full border border-edge bg-body px-4 py-2 text-sm font-medium text-muted transition hover:border-accent hover:text-accent"
+        @click="creditsOpen = true"
+      >
+        <BanknotesIcon class="h-4 w-4" aria-hidden="true" />
+        {{ copy('library.credits_title', 'Add credits') }}
+      </button>
+      <button
+        v-if="!store.isEmpty"
+        type="button"
+        class="inline-flex items-center gap-2 rounded-full border border-edge bg-body px-4 py-2 text-sm font-medium text-muted transition hover:border-accent hover:text-accent"
+        @click="addOpen = true"
+      >
+        <MicrophoneIcon class="h-4 w-4" aria-hidden="true" />
+        {{ copy('library.add_language', 'Add Language') }}
+      </button>
     </div>
-    <p class="mt-2 text-muted">{{ copy('library.subtitle', 'Manage your languages and view your progress.') }}</p>
 
     <!-- Empty state: nothing visible — either nothing added, or everything hidden -->
     <div v-if="store.isEmpty" class="mt-8 rounded-2xl border border-edge bg-surface p-8 text-center">
@@ -172,19 +171,21 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
           </button>
         </div>
 
-        <!-- Progress stats: allocated credits come from the shared pool -->
-        <div class="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
-          <div class="rounded-xl bg-soft p-4">
-            <p class="text-2xl font-extrabold text-content">{{ e.creditsConsumed }}</p>
-            <p class="text-xs text-muted">{{ copy('library.credits_consumed', 'Credits consumed') }}</p>
+        <!-- Progress stats: three compact micro-panels side by side, even on
+             the smallest phones — small numbers/labels below sm, full size
+             from sm up. Allocated credits come from the shared pool. -->
+        <div class="mt-4 grid grid-cols-3 gap-2 sm:gap-3">
+          <div class="rounded-xl bg-soft p-2 text-center sm:p-4 sm:text-left">
+            <p class="text-base font-extrabold text-content sm:text-2xl">{{ e.creditsConsumed }}</p>
+            <p class="text-[10px] leading-tight text-muted sm:text-xs">{{ copy('library.credits_consumed', 'Credits consumed') }}</p>
           </div>
-          <div class="rounded-xl bg-soft p-4">
-            <p class="text-2xl font-extrabold text-accent">{{ store.allocationFor(e.locale) }}</p>
-            <p class="text-xs text-muted">{{ copy('library.credits_allocated', 'Credits allocated') }}</p>
+          <div class="rounded-xl bg-soft p-2 text-center sm:p-4 sm:text-left">
+            <p class="text-base font-extrabold text-accent sm:text-2xl">{{ store.allocationFor(e.locale) }}</p>
+            <p class="text-[10px] leading-tight text-muted sm:text-xs">{{ copy('library.credits_allocated', 'Credits allocated') }}</p>
           </div>
-          <div class="rounded-xl bg-soft p-4">
-            <p class="text-2xl font-extrabold text-content">{{ e.wordsLearned }}</p>
-            <p class="text-xs text-muted">{{ copy('library.words_learned', 'Words learned') }}</p>
+          <div class="rounded-xl bg-soft p-2 text-center sm:p-4 sm:text-left">
+            <p class="text-base font-extrabold text-content sm:text-2xl">{{ e.wordsLearned }}</p>
+            <p class="text-[10px] leading-tight text-muted sm:text-xs">{{ copy('library.words_learned', 'Words learned') }}</p>
           </div>
         </div>
 

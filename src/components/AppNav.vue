@@ -25,7 +25,7 @@ function isActive(target: string): boolean {
 </script>
 
 <template>
-  <nav class="flex flex-wrap items-center gap-2" :aria-label="t('ui.main_navigation') ?? 'Main navigation'">
+  <nav class="flex items-center gap-2" :aria-label="t('ui.main_navigation') ?? 'Main navigation'">
     <NuxtLink
       v-for="item in menu"
       :key="item.id"

@@ -97,14 +97,6 @@ export const useRoadmapStore = defineStore('roadmap', () => {
   /** Rows per page (toolbar select) — Fibonacci sizes, default 13. */
   const pageSize = ref(13)
 
-  /**
-   * Translation-search mode (the toolbar's filter button): ON = substring
-   * match on the rendered translation; OFF = term prefix (the first letters).
-   * Both run DICTIONARY-WIDE over the search index — the dictionary is
-   * single words now, so a first-letters scan across every topic makes
-   * sense. The mode persists across topics (like Repeat); the query resets.
-   */
-  const searchInTranslation = ref(false)
   /** Dictionary-wide search rows (the lazy search.json payload, lang-filtered). */
   const searchIndex = ref<MediaRow[]>([])
   const searchIndexReady = ref(false)
@@ -113,35 +105,25 @@ export const useRoadmapStore = defineStore('roadmap', () => {
   /** The UI language (the translation column) — reactive to the top-bar switcher. */
   const { lang: uiLang } = useLocale()
 
-  /** The search SCOPE — a learning dictionary: the words searched are the
-   *  ones in focus. A topic is open → that topic; else a chapter is selected
-   *  → that chapter's topics; else (all chapters closed) → every chapter. */
-  const searchTopicCodes = computed<Set<string> | null>(() => {
-    if (topicCode.value) return new Set([topicCode.value])
-    const c = chapters.value.find((sec: SidebarSection) => sec.code === chapterCode.value)
-    return c ? new Set(c.topics.map((t: SidebarTopic) => t.code)) : null
-  })
-
   /**
-   * Scope-filtered hits: the search.json rows (filtered by the track
-   * language) matching the committed query — translation substring in filter
-   * mode, term prefix otherwise — narrowed to the topic/chapter in focus,
-   * or every chapter when nothing is selected. Chapters and topics are
-   * never filtered: a committed query always shows WORDS.
+   * Search hits: the search.json rows (filtered by the track language)
+   * matching the committed query — ALWAYS across the whole track (every
+   * chapter/topic), regardless of which chapter or topic is currently open.
+   * Chapters and topics are never filtered: a committed query always shows
+   * WORDS.
    */
   const searchResults = computed<MediaRow[]>(() => {
     if (!searchIndexReady.value) return []
-    const scope = searchTopicCodes.value
-    const inTopic = topicCode.value
-    return searchIndex.value.filter(
-      (r: MediaRow) =>
-        (!scope || (inTopic ? r.topic === topicCode.value : scope.has(r.topic))) &&
-        matchesDictionaryQuery(r, dictionaryQuery.value, searchInTranslation.value, uiLang.value)
-    )
+    return searchIndex.value.filter((r: MediaRow) => matchesDictionaryQuery(r, dictionaryQuery.value, uiLang.value))
   })
 
-  /** Search active: a non-empty query is committed (any mode). */
+  /** Search active: a non-empty query is committed. */
   const searchActive = computed(() => dictionaryQuery.value.trim() !== '')
+
+  /** Bare topic-list state (RoadmapShell's default pane): no topic open, no
+   *  word search running, chapters TOC not shown. The one search box reads
+   *  this to decide whether it's filtering topics (live) or words (live). */
+  const topicListMode = computed(() => !topicCode.value && !searchActive.value && !showChapters.value)
 
   /** Dictionary rows: the search hits (query committed), or the open topic's rows. */
   const dictionaryRows = computed<MediaRow[]>(() => {
@@ -160,13 +142,6 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     dictionaryQuery.value = query
     page.value = 1
     if (query.trim()) void ensureSearchIndex()
-  }
-
-  /** Toggle the translation-search mode (the toolbar's filter button). */
-  function setSearchMode(on: boolean) {
-    searchInTranslation.value = on
-    page.value = 1
-    if (on) void ensureSearchIndex()
   }
 
   /** Load the section search payload once (no-op once loaded / loading). */
@@ -225,7 +200,8 @@ export const useRoadmapStore = defineStore('roadmap', () => {
       new Fuse(allTopics.value, {
         keys: ['code', ...LOCALES.map((l: string) => `names.${l}`)],
         threshold: 0.35,
-        ignoreLocation: true
+        ignoreLocation: true,
+        isCaseSensitive: false
       })
   )
 
@@ -349,7 +325,6 @@ export const useRoadmapStore = defineStore('roadmap', () => {
       records.value = []
       recordsByCode.value = {}
       dictionaryQuery.value = ''
-      searchInTranslation.value = false
       searchIndex.value = []
       searchIndexReady.value = false
       showChapters.value = false
@@ -434,8 +409,8 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     track,
     section,
     dictionaryQuery,
-    searchInTranslation,
     searchActive,
+    topicListMode,
     searchResults,
     loadingSearch,
     page,
@@ -454,7 +429,6 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     pageCount,
     pagedRows,
     setDictionaryQuery,
-    setSearchMode,
     ensureSearchIndex,
     setPageSize,
     setPage,

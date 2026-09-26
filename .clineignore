@@ -1,0 +1,32 @@
+# Cline ignore patterns — prevents reading large, non-essential files
+
+# Node modules and dependencies
+node_modules/
+package-lock.json
+
+# Build and output directories
+.output/
+.nuxt/
+dist/
+.wrangler/
+
+# Environment and local config
+.env
+.env.local
+.env.*.local
+
+# Archived and bulk media
+archive/
+media/
+
+# Python virtual environment
+.venv/
+venv/
+
+# Temporary logs and scripts (keep build.fingerprint, last_push, missing-content.md)
+temp/*.log
+temp/*.mjs
+temp/*.py
+
+# Version control
+.git/

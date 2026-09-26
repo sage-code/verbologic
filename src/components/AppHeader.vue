@@ -2,6 +2,7 @@
 // mobile), round icon-only nav pills next to it, user avatar right (theme
 // and interface language live in the account dialog).
 <script setup lang="ts">
+import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 import earthLogoWhite from '~/assets/img/earth-logo-white.png'
 import earthLogoBlack from '~/assets/img/earth-logo-black.png'
 
@@ -12,6 +13,16 @@ const { t } = useLocale()
 // white on the dark header surface, black on the light one.
 const theme = useState<'light' | 'dark'>('app-theme', () => 'light')
 const logoSrc = computed(() => (theme.value === 'dark' ? earthLogoWhite : earthLogoBlack))
+
+// Topic sidebar drawer toggle — a fixture of the header on mobile whenever
+// the current page has a roadmap sidebar (RoadmapShell sets `available`).
+const { open: sidebarOpen, available: sidebarAvailable } = useMobileSidebar()
+const sidebarToggleLabel = computed(() => {
+  if (!sidebarAvailable.value) return t('roadmap.no_topics') ?? 'No topics on this page'
+  return sidebarOpen.value
+    ? (t('roadmap.close_topics') ?? 'Close topics')
+    : (t('roadmap.open_topics') ?? 'Open topics')
+})
 </script>
 
 <template>
@@ -28,15 +39,35 @@ const logoSrc = computed(() => (theme.value === 'dark' ? earthLogoWhite : earthL
           decoding="async"
           fetchpriority="high"
         >
-        <span class="text-accent app-header-wordmark">Verbologic</span>
+        <span class="text-accent app-header-wordmark">
+          <span>Verbo</span><span class="app-header-wordmark-sep" aria-hidden="true">-</span><span>Logic</span>
+        </span>
       </NuxtLink>
 
-      <!-- Round icon-only pills on mobile, icon+label from md up — always
-           inline on the single header row, after the wordmark. -->
-      <AppNav class="app-header-nav" />
-
-      <div class="ml-auto flex shrink-0 items-center gap-1.5 sm:gap-2">
+      <div class="ml-auto flex shrink-0 items-center gap-1.5 sm:gap-3">
+        <!-- Round icon-only pills on mobile, icon+label from lg up — grouped
+             next to the avatar rather than centered on their own. -->
+        <AppNav class="app-header-nav" />
         <UserAvatar />
+        <!-- Topic sidebar hamburger — a permanent mobile/tablet fixture;
+             disabled (not hidden) on pages with no roadmap sidebar. -->
+        <button
+          type="button"
+          class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-edge text-content transition lg:hidden"
+          :class="
+            sidebarAvailable
+              ? 'hover:border-accent hover:text-accent'
+              : 'cursor-not-allowed opacity-40'
+          "
+          :disabled="!sidebarAvailable"
+          :aria-label="sidebarToggleLabel"
+          :title="sidebarToggleLabel"
+          :aria-expanded="sidebarAvailable ? sidebarOpen : undefined"
+          @click="sidebarAvailable && (sidebarOpen = !sidebarOpen)"
+        >
+          <XMarkIcon v-if="sidebarAvailable && sidebarOpen" class="h-5 w-5" aria-hidden="true" />
+          <Bars3Icon v-else class="h-5 w-5" aria-hidden="true" />
+        </button>
       </div>
     </div>
   </header>

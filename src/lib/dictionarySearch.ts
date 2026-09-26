@@ -1,13 +1,12 @@
 /**
- * dictionarySearch — pure helpers behind the Dictionary track's search box.
+ * dictionarySearch — pure helpers behind the roadmap's one search box
+ * (WordSearchBar), live as the user types:
  *
- * The toolbar commits the query only on Enter / the filter button (never while
- * typing); the store then matches rows through `matchesDictionaryQuery`:
- *
- * - term mode (filter off): diacritic-folded PREFIX on `term` — the classic
- *   letter scanner, scoped to the open topic (unchanged behavior);
- * - translation mode (filter on): diacritic-folded SUBSTRING on the row's
- *   rendered translation — searched across the WHOLE dictionary.
+ * - 1-2 folded characters: diacritic-folded PREFIX on `term` only — the
+ *   classic letter scanner (fast, cheap, matches on every keystroke);
+ * - 3+ characters ("looks like a word"): a SUBSTRING match against BOTH the
+ *   target-language `term` and the rendered translation/gloss — so typing a
+ *   word finds it whichever language you typed it in.
  *
  * `glossName` is the single source of truth for what the table's translation
  * column shows, so the text the user searches is always exactly the text they
@@ -37,20 +36,25 @@ export function glossName(names: MediaNames | undefined, targetLang: string, uiL
   return names[glossLang] || names.en || ''
 }
 
+/** Below this length we only prefix-scan the term — short strings are treated
+ *  as "the first letters", not yet a whole word worth of both-language search. */
+const WORD_LENGTH_THRESHOLD = 3
+
 /**
- * Does one row match the committed dictionary query?
- * - translation mode: substring match on the rendered gloss (missing glosses
- *   never match — there is nothing displayed to find);
- * - term mode: prefix match on the target-language term (1–2 letters typical).
+ * Does one row match the live search query?
+ * - 1-2 characters: prefix match on the target-language term;
+ * - 3+ characters: substring match on the term OR the translation/gloss —
+ *   both languages, so the query matches however the user typed the word.
  */
 export function matchesDictionaryQuery(
   row: Pick<MediaRow, 'term' | 'names' | 'lang'>,
   query: string,
-  inTranslation: boolean,
   uiLang: string
 ): boolean {
   const folded = fold(query)
   if (!folded) return true
-  if (inTranslation) return fold(glossName(row.names, row.lang, uiLang)).includes(folded)
-  return fold(row.term).startsWith(folded)
+  if (folded.length < WORD_LENGTH_THRESHOLD) return fold(row.term).startsWith(folded)
+  return (
+    fold(row.term).includes(folded) || fold(glossName(row.names, row.lang, uiLang)).includes(folded)
+  )
 }

@@ -588,27 +588,13 @@ async function securitySubmit() {
 
 <template>
   <main class="mx-auto max-w-3xl">
-    <!-- Title row — Log out / Log in right-aligned on the same line. -->
-    <div class="flex flex-wrap items-center justify-between gap-3">
-      <h1 class="text-3xl font-bold text-content">{{ copy('profile.title', 'Profile') }}</h1>
-      <button
-        type="button"
-        class="inline-flex items-center gap-2 rounded-full border border-edge bg-surface px-4 py-2 text-sm font-semibold text-content shadow-sm transition hover:border-accent hover:text-accent"
-        @click="store.isLoggedIn ? logOut() : openLogin()"
-      >
-        <ArrowRightStartOnRectangleIcon class="h-5 w-5 shrink-0" aria-hidden="true" />
-        {{ copy(store.isLoggedIn ? 'profile.log_out' : 'profile.log_in', store.isLoggedIn ? 'Log out' : 'Log in') }}
-      </button>
-    </div>
-    <p class="mt-2 text-muted">{{ copy('profile.subtitle', 'Your account, preferences and credits.') }}</p>
+    <h1 class="text-center text-3xl font-bold text-content">{{ copy('profile.title', 'Profile') }}</h1>
 
     <!-- Preferences — shared bar, identical signed in and signed out, always
-         directly under the title/subtitle: title on the left, theme toggle +
-         language flag dropdown right-aligned on the same row. Only what sits
-         below the bar changes with login state. -->
+         directly under the title: theme toggle + Log in/out on the left,
+         "Your Language:" + the language dropdown right-aligned on the same
+         row. Only what sits below the bar changes with login state. -->
     <div class="mt-6 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-edge bg-surface p-4">
-      <h2 class="text-lg font-bold text-content">{{ copy('profile.your_preferences', 'Your Preferences') }}</h2>
-
       <div class="flex items-center gap-2">
         <!-- Theme: sun on light, moon on dark — one tap toggles. -->
         <button
@@ -620,6 +606,20 @@ async function securitySubmit() {
           <MoonIcon v-if="theme === 'light'" class="h-5 w-5" aria-hidden="true" />
           <SunIcon v-else class="h-5 w-5" aria-hidden="true" />
         </button>
+
+        <!-- Log out / Log in — same bar as the other preference controls. -->
+        <button
+          type="button"
+          class="inline-flex items-center gap-2 rounded-full border border-edge bg-surface px-4 py-2 text-sm font-semibold text-content shadow-sm transition hover:border-accent hover:text-accent"
+          @click="store.isLoggedIn ? logOut() : openLogin()"
+        >
+          <ArrowRightStartOnRectangleIcon class="h-5 w-5 shrink-0" aria-hidden="true" />
+          {{ copy(store.isLoggedIn ? 'profile.log_out' : 'profile.log_in', store.isLoggedIn ? 'Log out' : 'Log in') }}
+        </button>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <span class="text-sm font-medium text-muted">{{ copy('profile.your_language', 'Your Language:') }}</span>
 
         <!-- Language: flag + code dropdown (same listbox as the old
              toolbar LanguageSwitcher). -->

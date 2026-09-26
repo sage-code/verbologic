@@ -122,7 +122,7 @@ watch(activeId, (id: string | null) => {
 // Structural changes invalidate the run — stop the autoplay. The viewport
 // stays where it is on page changes (no forced jump to the top).
 watch(
-  () => [store.page, store.pageSize, store.dictionaryQuery, store.searchInTranslation] as const,
+  () => [store.page, store.pageSize, store.dictionaryQuery] as const,
   () => {
     if (queue.isPlaying.value) queue.stop()
   }

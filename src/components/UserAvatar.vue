@@ -16,6 +16,13 @@ const open = ref(false)
 // the logged-out state, so hydration never mismatches.
 onMounted(() => store.hydrate())
 
+// Shown as the button's title/aria-label — "User: <Name>" when signed in,
+// "User: Anonymous" when not, instead of a generic "Account" label.
+const accountLabel = computed(() => {
+  const name = store.isLoggedIn ? store.user?.name : null
+  return `${t('ui.user_label') ?? 'User'}: ${name || (t('ui.anonymous') ?? 'Anonymous')}`
+})
+
 const initials = computed(() => {
   const name = store.user?.name ?? ''
   return (
@@ -34,8 +41,8 @@ const initials = computed(() => {
   <button
     type="button"
     class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full transition hover:ring-1 hover:ring-accent"
-    :aria-label="store.isLoggedIn ? (store.user?.name ?? (t('ui.account') ?? 'Account')) : (t('ui.account') ?? 'Account')"
-    :title="store.isLoggedIn ? (store.user?.name ?? (t('ui.account') ?? 'Account')) : (t('ui.account') ?? 'Account')"
+    :aria-label="accountLabel"
+    :title="accountLabel"
     @click="open = true"
   >
     <!-- Signed in with a remote avatar image -->

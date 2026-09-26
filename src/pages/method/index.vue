@@ -36,16 +36,16 @@ onMounted(() => {
 
 <template>
   <main class="mx-auto max-w-3xl">
-    <h1 class="text-3xl font-bold text-content">{{ copy('method.title', 'Method') }}</h1>
-    <p class="mt-2 text-muted">
+    <p class="mt-2 text-center text-muted">
       {{ copy('method.intro', 'Contextual acquisition and adaptive spaced repetition — the full method write-up is on its way. Until then, browse the Romanian and English roadmaps, already fully searchable.') }}
     </p>
 
-    <!-- System features -->
+    <!-- System features — no separate "Method" title; this centered heading
+         is the page title. -->
     <section class="py-10 sm:py-14">
-      <h2 class="text-center text-2xl font-bold text-content sm:text-3xl">
+      <h1 class="text-center text-2xl font-bold text-content sm:text-3xl">
         {{ copy('method.features_title', 'System features') }}
-      </h2>
+      </h1>
       <p class="mx-auto mt-2 max-w-xl text-center text-muted">
         {{ copy('method.features_subtitle', 'Built for acquisition that sticks.') }}
       </p>

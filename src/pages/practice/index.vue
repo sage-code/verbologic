@@ -25,20 +25,26 @@ const ICONS: Record<string, Component> = {
   'practice/games': PuzzlePieceIcon
 }
 
-/** The practice modes come from the sidebars — no hardcoding. */
+/** The practice modes come from the sidebars, shown in a fixed order under
+ * fixed labels: Mentors, Games, Quizzes. */
+const ORDER = ['practice/mentors', 'practice/games', 'practice/exercises']
+const TITLES: Record<string, string> = {
+  'practice/mentors': 'Mentors',
+  'practice/games': 'Games',
+  'practice/exercises': 'Quizzes'
+}
 const MODES = practice()
+  .slice()
+  .sort((a, b) => ORDER.indexOf(a.id) - ORDER.indexOf(b.id))
 
-const titleOf = (sidebar: Sidebar) => mediaName(sidebar.names, lang.value, sidebar.id)
+const titleOf = (sidebar: Sidebar) => TITLES[sidebar.id] ?? mediaName(sidebar.names, lang.value, sidebar.id)
 const descriptionOf = (sidebar: Sidebar) =>
   sidebar.descriptions ? sidebar.descriptions[lang.value] || sidebar.descriptions.en || '' : ''
 </script>
 
 <template>
   <main class="mx-auto max-w-4xl">
-    <h1 class="text-3xl font-bold text-content">{{ copy('practice.title', 'Practice') }}</h1>
-    <p class="mt-2 text-muted">
-      {{ copy('practice.intro', 'Speak with an AI mentor, do exercises, play games.') }}
-    </p>
+    <h1 class="text-center text-3xl font-bold text-content">{{ copy('practice.title', 'Practice') }}</h1>
 
     <!-- Planned modes — preview cards driven by the practice sidebars -->
     <ul class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">

@@ -137,38 +137,43 @@ html {
   gap: 8px 12px;
 }
 
-/* Wordmark — slightly smaller on mobile so the round pills fit beside it. */
+/* Wordmark — "Verbo" / "Logic", the two halves of the brand (words + logic).
+ * Stacked two rows below md so the round icon-only pills have room beside
+ * it; a single "Verbo - Logic" row from md up. Font size is fluid (clamp)
+ * rather than a hard breakpoint jump, so it scales with the viewport. */
 .app-header-wordmark {
-  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.05;
   font-weight: 800;
   letter-spacing: -0.01em;
+  font-size: clamp(0.68rem, 2.4vw, 1.25rem);
   white-space: nowrap;
+}
+
+.app-header-wordmark-sep {
+  display: none;
 }
 
 @media (min-width: 768px) {
   .app-header-wordmark {
-    font-size: 1.25rem;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 0.35em;
+    font-size: clamp(1rem, 1.1vw + 0.6rem, 1.25rem);
     line-height: 1.75rem;
   }
-}
-
-/* ≥md: the toolbar centers on the true screen axis — absolutely positioned,
- * so the differing widths of the logo (left) and avatar (right) can't shift
- * the pills off-center. Below md it sits inline after the wordmark. */
-@media (min-width: 768px) {
-  .app-header-inner {
-    position: relative;
-  }
-  .app-header-nav {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+  .app-header-wordmark-sep {
+    display: inline;
   }
 }
 
-/* Toolbar: intrinsic-width pills (icon + label) on ≥md; below md the pills
- * are round icon-only circles inline on the header row (the label stays
- * accessible via title/aria-label). */
+/* Toolbar: intrinsic-width pills (icon + label) only from lg up, where
+ * there's reliably room for the full row without wrapping. Below lg
+ * (mobile AND tablet/iPad widths) the pills are round icon-only circles
+ * inline on the header row — labels stay accessible via title/aria-label.
+ * This trades the label for icon-only rather than letting the toolbar wrap
+ * onto a second row. */
 .nav-pill {
   display: inline-flex;
   align-items: center;
@@ -178,7 +183,7 @@ html {
   white-space: nowrap;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .nav-pill {
     height: 2.75rem;
     width: 2.75rem;

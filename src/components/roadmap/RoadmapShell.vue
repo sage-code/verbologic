@@ -17,6 +17,7 @@ import TopicGallery from './layouts/TopicGallery.vue'
 import ChaptersTable from './ChaptersTable.vue'
 import WordSearchBar from './WordSearchBar.vue'
 import { mediaName } from '~/composables/useMedia'
+import { XMarkIcon } from '@heroicons/vue/24/outline'
 
 const props = withDefaults(defineProps<{ lang: string; track?: TrackId }>(), { track: 'dictionary' })
 
@@ -47,6 +48,31 @@ onMounted(async () => {
     failed.value = true
   }
 })
+
+// Mobile topic sidebar: hidden by default, opened from the header's
+// hamburger (see AppHeader.vue), and this is the only page type that has
+// one — so flag it available while mounted.
+const { open: mobileSidebarOpen, available: mobileSidebarAvailable } = useMobileSidebar()
+onMounted(() => {
+  mobileSidebarAvailable.value = true
+})
+onUnmounted(() => {
+  mobileSidebarAvailable.value = false
+  mobileSidebarOpen.value = false
+})
+
+// Selecting a topic (from the sidebar or the topic list) closes the mobile
+// drawer and scrolls the content pane into view below the sticky header —
+// the user lands on the topic instead of the (now-hidden) sidebar.
+const contentRef = ref<HTMLElement | null>(null)
+watch(
+  () => store.topicCode,
+  (topicCode: string | null) => {
+    if (!topicCode) return
+    mobileSidebarOpen.value = false
+    void nextTick(() => contentRef.value?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
+  }
+)
 
 // Keep the URL in sync with the selection (deep links + browser back).
 watch(
@@ -142,6 +168,15 @@ const frameTitle = computed(() => {
   }
   return copy('roadmap.all_chapters', 'All chapters')
 })
+
+/** The resolved pane is TopicTable (search results, or an open topic in the
+ *  table layout) — it has its own toolbar row, so the search box drops into
+ *  THAT row (bare, see WordSearchBar) instead of getting its own row here. */
+const paneIsTable = computed(
+  () =>
+    (store.searchActive && !store.topicCode) ||
+    (!!store.topicCode && !!store.topic && store.topicLayout === 'table')
+)
 </script>
 
 <template>
@@ -153,37 +188,67 @@ const frameTitle = computed(() => {
        and footer (so it is never shorter than the screen); the grid's stretch
        makes the rail exactly as tall as the content column. -->
   <div v-else class="grid flex-1 gap-5 lg:grid-cols-[280px_minmax(0,1fr)]">
+    <!-- Backdrop behind the mobile drawer — tap to close. Desktop-only lg:hidden
+         keeps it out of the way once the rail is back in the grid flow. -->
+    <div
+      v-if="mobileSidebarOpen"
+      class="fixed inset-0 z-40 bg-black/40 lg:hidden"
+      @click="mobileSidebarOpen = false"
+    />
+
     <!-- Left: the chapter rail (RoadmapSidePane owns the height rule: same
          height as the content, own scrollbar). The TOPICS label row matches the
-         banner height, so the rail top lines up with the toolbar/search bar. -->
-    <RoadmapSidePane>
+         banner height, so the rail top lines up with the toolbar/search bar.
+         Below lg it's hidden by default — a mobile drawer opened from the
+         header hamburger — and back to its normal in-grid place from lg up. -->
+    <RoadmapSidePane
+      class="z-50 lg:z-auto"
+      :class="
+        mobileSidebarOpen
+          ? 'fixed inset-y-0 left-0 w-[85%] max-w-sm overflow-y-auto bg-body p-4 shadow-xl lg:static lg:w-auto lg:max-w-none lg:overflow-visible lg:bg-transparent lg:p-0 lg:shadow-none'
+          : 'hidden lg:block'
+      "
+    >
       <template #label>
         <div class="flex h-10 items-center justify-between gap-1">
           <p class="text-xs uppercase tracking-wide text-faint">{{ copy('roadmap.topics', 'Topics') }}</p>
-          <button
-            type="button"
-            class="shrink-0 rounded-full border px-3 py-1.5 text-xs font-medium transition"
-            :class="
-              store.showChapters
-                ? 'border-accent bg-accent-soft text-accent'
-                : 'border-edge text-muted hover:border-accent hover:text-accent'
-            "
-            :aria-pressed="store.showChapters"
-            @click="store.toggleChapters()"
-          >
-            {{
-              store.showChapters
-                ? copy('dictionary.open_chapter', 'Open chapters')
-                : copy('dictionary.close_chapter', 'Close chapters')
-            }}
-          </button>
+          <div class="flex items-center gap-1.5">
+            <button
+              type="button"
+              class="shrink-0 rounded-full border px-3 py-1.5 text-xs font-medium transition"
+              :class="
+                store.showChapters
+                  ? 'border-accent bg-accent-soft text-accent'
+                  : 'border-edge text-muted hover:border-accent hover:text-accent'
+              "
+              :aria-pressed="store.showChapters"
+              @click="store.toggleChapters()"
+            >
+              {{
+                store.showChapters
+                  ? copy('dictionary.open_chapter', 'Open chapters')
+                  : copy('dictionary.close_chapter', 'Close chapters')
+              }}
+            </button>
+            <!-- Drawer-only close button — the header hamburger also closes it,
+                 this is the in-panel escape hatch. -->
+            <button
+              v-if="mobileSidebarOpen"
+              type="button"
+              class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge text-muted transition hover:border-accent hover:text-accent lg:hidden"
+              :aria-label="t('roadmap.close_topics') ?? 'Close topics'"
+              @click="mobileSidebarOpen = false"
+            >
+              <XMarkIcon class="h-4 w-4" aria-hidden="true" />
+            </button>
+          </div>
         </div>
       </template>
 
       <RoadmapSidebar :collapsed="store.showChapters" class="mt-1.5" />
     </RoadmapSidePane>
 
-    <div class="min-w-0 space-y-1.5">
+    <div ref="contentRef" class="min-w-0 space-y-1.5">
       <!-- The two meters: 50% of the free space right of the page title,
            right-aligned with the content edge, gap between them -->
       <Teleport v-if="metersMounted" to="#track-meters">
@@ -205,14 +270,17 @@ const frameTitle = computed(() => {
         </div>
       </Teleport>
 
-      <!-- The persistent top bar: the focus title above the word search —
-           visible in EVERY state below (topic table · chapter TOC · topic
-           list). Committing a query always filters WORDS, scoped to the
-           topic/chapter in focus (or every chapter when nothing is). -->
+      <!-- The persistent top bar: the focus title above the ONE search box —
+           visible in EVERY state (topic table · chapter TOC · topic list). It
+           filters topics in the bare topic-list state, or WORDS across the
+           whole track everywhere else — see WordSearchBar/topicListMode.
+           When the pane below is the table layout, the search box instead
+           renders INSIDE that pane's own toolbar row (bare) — see
+           DictionaryToolbar. -->
       <h2 class="flex h-10 items-center truncate text-lg font-semibold text-content">
         {{ frameTitle }}
       </h2>
-      <WordSearchBar />
+      <WordSearchBar v-if="!paneIsTable" />
 
       <!-- Committed word search with no topic open: the results table takes
            the pane (chapters/topics lists are never word-filtered) -->
@@ -224,9 +292,9 @@ const frameTitle = computed(() => {
       <!-- Chapters TOC mode: the chapter table (toggled from the rail) -->
       <ChaptersTable v-else-if="store.showChapters" />
 
-      <!-- No topic open: the topic list (populated topics only) -->
+      <!-- No topic open: the topic list (populated topics only). WordSearchBar
+           above already live-filters it by title — see topicListMode. -->
       <div v-else class="space-y-4">
-        <RoadmapTopicSearch />
         <RoadmapTopicList />
       </div>
     </div>

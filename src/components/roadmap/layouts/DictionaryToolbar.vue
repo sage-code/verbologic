@@ -33,8 +33,10 @@ const playing = computed(() => props.queue.isPlaying.value)
 /** Repeat is a plain on/off flag — it persists across Stop, so the button
  *  reflects the setting, never a transient blinking state. */
 const repeatOn = computed(() => props.queue.loop.value)
-/** Title audio is not wired yet — outside 'words' mode there is nothing to play. */
-const playable = computed(() => props.items.length > 0)
+/** Title audio is not wired yet — outside 'words' mode there is nothing to
+ *  play. While searching/filtering, a single hit isn't worth a play run —
+ *  play only lights up once there's more than one result. */
+const playable = computed(() => (store.searchActive ? props.items.length > 1 : props.items.length > 0))
 
 /** Labels: plain pagination, or the topic walk at the page edges. */
 const nextLabel = computed(() =>
@@ -105,34 +107,10 @@ async function goPrev() {
 
 <template>
   <div class="flex flex-wrap items-center gap-2 rounded-lg border border-edge bg-surface p-2 shadow-sm">
-    <!-- Search: the draft commits only on Enter / the filter button (no live
-         filtering). @search also covers the native clear (✕) of type=search -->
-    <input
-      v-model="draft"
-      type="search"
-      class="min-w-0 flex-1 rounded-lg border border-edge-strong bg-surface px-3 py-2 text-sm text-content placeholder:text-faint focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/30"
-      :placeholder="searchPlaceholder"
-      :aria-label="searchPlaceholder"
-      @keydown.enter.prevent="commit"
-      @search="commit"
-    />
-
-    <!-- Filter: toggles translation-search mode (highlighted while active) and
-         applies the draft — searching the translation column dictionary-wide -->
-    <button
-      type="button"
-      class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border transition"
-      :class="
-        translationMode
-          ? 'border-accent bg-accent-soft text-accent'
-          : 'border-edge text-muted hover:border-accent hover:text-accent'
-      "
-      :aria-pressed="translationMode"
-      :title="copy('dictionary.filter_translation', 'Search translations')"
-      @click="toggleFilter"
-    >
-      <FunnelIcon class="h-4 w-4" aria-hidden="true" />
-    </button>
+    <!-- The search box: first control, own row below lg (this bar wraps
+         beneath it), sharing the row and growing to push everything else
+         to the right from lg up — see WordSearchBar's `bare` mode. -->
+    <WordSearchBar bare />
 
     <!-- Rows per page (Fibonacci sizes): "#Items/Page:" on desktop, "#" on mobile -->
     <label for="dict-per-page" class="hidden shrink-0 text-xs text-muted sm:inline">#Items/Page:</label>
