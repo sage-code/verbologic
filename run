@@ -137,13 +137,19 @@ case "${1:-help}" in
   scaffold)  shift; node scripts/media-scaffold-topic.mjs "$@" ;;
   lecture)   shift; node scripts/lecture.mjs "$@" ;;
   clean)
-    warn "Removing temp/, node_modules/.cache, .output/"
-    rm -rf temp .output node_modules/.cache
+    warn "Removing temp/ (keeping build.fingerprint, last_push, missing-content.md), node_modules/.cache, .output/"
+    find temp -mindepth 1 \
+      ! -name build.fingerprint ! -name last_push ! -name missing-content.md \
+      -exec rm -rf {} + 2>/dev/null
+    rm -rf .output node_modules/.cache
     say "Cleaned — .nuxt kept for fast next build."
     ;;
   clean-deep)
-    warn "Removing build artifacts AND the .nuxt cache."
-    rm -rf temp .output .nuxt node_modules/.cache
+    warn "Removing build artifacts AND the .nuxt cache (keeping build.fingerprint, last_push, missing-content.md)."
+    find temp -mindepth 1 \
+      ! -name build.fingerprint ! -name last_push ! -name missing-content.md \
+      -exec rm -rf {} + 2>/dev/null
+    rm -rf .output .nuxt node_modules/.cache
     npm run postinstall
     say "Deep cleaned. Regenerate with 'run build --force'."
     ;;

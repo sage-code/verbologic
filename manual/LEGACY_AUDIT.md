@@ -1,7 +1,7 @@
 # Legacy Content Audit — `/archive`
 
-> **Author:** DeepSeek (Lead System Architect) · **Purpose:** Human-readable companion to
-> `agents/glm/tasks/task_legacy_extraction.json` (machine-readable extraction spec).
+> **Purpose:** Human-readable companion to `scripts/extract-legacy.mjs` (the extraction
+> implementation).
 > **Verdict:** The archive contains **highly reusable bilingual content** (≈470 vocabulary
 > items / utterances with audio, plus contrastive phonetics notes) locked inside Bootstrap
 > HTML pages. It is fully recoverable into the decoupled $O(N)$ Verbologic architecture.
@@ -89,7 +89,7 @@ All other files are 10–22 KB MP3s (single-utterance quality, acceptable for la
 
 ---
 
-## 4. Extraction rules (executed by GLM — see task JSON)
+## 4. Extraction rules (executed by `scripts/extract-legacy.mjs`)
 
 1. **Row → entity:** For each `<tr>` in a content table, extract cell text per the column
    map in the task spec. Derive `entity_id` = `<type-prefix>_<data-audio basename>`; derive
