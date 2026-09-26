@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.data/**)",
+      "Read(./LICENSE)",
+      "Read(./package-lock.json)",
+      "Read(./.output/**)",
+      "Read(./.nuxt/**)",
+      "Read(./archive/**)",
+      "Read(./media/**)",
+      "Read(./public/data/media/index.json)",
+      "Read(./public/data/media/library/**/search.json)",
+      "Read(./**/*.sqlite)",
+      "Read(./.agents/**/CHANGELOG.md)",
+      "Read(./agents/glm/**)"  
+    ]
+  }
+}

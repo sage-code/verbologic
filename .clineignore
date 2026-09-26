@@ -30,3 +30,12 @@ temp/*.py
 
 # Version control
 .git/
+
+# Large generated/binary data (read via ./run validate or scripts instead)
+.data/
+LICENSE
+*.sqlite
+public/data/media/index.json
+public/data/media/library/**/search.json
+.agents/**/CHANGELOG.md
+agents/glm/
