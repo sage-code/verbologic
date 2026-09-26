@@ -301,9 +301,11 @@ try {
 
   // ── topic layouts — ONE topic, ONE layout kind (the pane is picked by the
   // topic's `layout` field, never by the track). Per-kind item invariants:
-  //   table   → non-image records only, never a content doc
+  //   table   → non-image records only
   //   article → content docs only (prose-only is fine), never a media manifest
   //   gallery → image manifests only
+  // Any row in any layout may ALSO carry an article (content doc joined by id)
+  // — the table's read button opens it.
   const TOPIC_LAYOUTS = ['table', 'article', 'gallery']
   const mimeById = new Map() // manifest id → mime
   for (const file of walkManifestFiles(join(ROOT, 'media'))) {
@@ -327,13 +329,10 @@ try {
         // entity / doc at all is a PLANNED item (structure-first policy) —
         // inventoried by `run missing`, never fatal.
         for (const id of topic.items ?? []) {
-          const isDoc = docsByLecture.has(id)
           if (layout === 'article') {
             if (mediaManifestIds.has(id) && !(mimeById.get(id) ?? '').startsWith('video/')) {
               ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: article item '${id}' has a non-video manifest — articles are prose-only (a video manifest is allowed)`)
             }
-          } else if (isDoc) {
-            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: ${layout} topic holds content doc '${id}' — move it to an article topic`)
           } else if (layout === 'gallery' && mediaManifestIds.has(id) && !(mimeById.get(id) ?? '').startsWith('image/')) {
             ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: gallery item '${id}' has a non-image manifest`)
           } else if (layout === 'table' && (mimeById.get(id) ?? '').startsWith('image/')) {

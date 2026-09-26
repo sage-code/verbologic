@@ -127,12 +127,15 @@ case "${1:-help}" in
   media)
     shift
     # `run media index` builds the runtime payloads; every other argument is a
-    # media-sync subcommand (stage | manifest | verify | upload | prune).
+    # media-sync subcommand (stage | manifest | verify | upload | prune),
+    # forwarded along with any flags after it (--apply, --remote, --dry-run).
     if [[ "${1:-}" == "index" ]]; then
       shift
       node scripts/media-index.mjs "${1:-}"
     else
-      node scripts/media-sync.mjs "${1:-manifest}"
+      cmd="${1:-manifest}"
+      [[ $# -gt 0 ]] && shift
+      node scripts/media-sync.mjs "$cmd" "$@"
     fi ;;
   scaffold)  shift; node scripts/media-scaffold-topic.mjs "$@" ;;
   lecture)   shift; node scripts/lecture.mjs "$@" ;;

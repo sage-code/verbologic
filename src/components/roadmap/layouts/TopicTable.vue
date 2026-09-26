@@ -8,12 +8,13 @@
 // Columns: name in the learning language (the File ID stays in the DOM as a
 // hidden sr-only field) · IPA (Dictionary only — words are short, so the
 // narrower columns still fit; the Lectures' expressions never show IPA) ·
-// translation · per-row play button (blinks while its file plays, squares ■
+// read (a book button when the row carries an article — words, expressions
+// and stories alike; blank otherwise) · translation · per-row play button (blinks while its file plays, squares ■
 // while it loops under Repeat) · learned toggle. The header's check-all scope
 // is the visible page. Lectures rows get a fixed two-line height — long
 // expressions wrap, short ones sit centered in an equal-height row.
 <script setup lang="ts">
-import { ArrowPathIcon, CheckIcon } from '@heroicons/vue/20/solid'
+import { ArrowPathIcon, BookOpenIcon, CheckIcon } from '@heroicons/vue/20/solid'
 import { useRoadmapStore, PROGRESS_KEY } from '~/stores/roadmapStore'
 import { useAudioQueue, type QueueItem } from '~/composables/useAudioQueue'
 import { glossName } from '~/lib/dictionarySearch'
@@ -40,6 +41,15 @@ const rowLooping = (r: MediaRow) => queue.loop.value && activeId.value === r.ent
 const queueItems = computed<QueueItem[]>(() =>
   rows.value.map((r: MediaRow) => ({ id: r.entity_id, url: r.media.url }))
 )
+
+/** The article doc a row opens: the UI locale's doc, else the canonical one. */
+function docLocale(r: MediaRow): string {
+  const locales = r.content?.locales ?? {}
+  return locales[uiLang.value] ? uiLang.value : r.content?.canonical ?? 'en'
+}
+
+/** Prerendered article route of a row that carries an article (any track). */
+const articleHref = (r: MediaRow) => `/learn/${store.lang}/${store.track}/${r.topic}/${r.id}/${docLocale(r)}`
 
 /** Gloss in the user's language: UI locale first, then English canonical. */
 const gloss = (r: MediaRow): string => glossName(r.names, r.lang, uiLang.value)
@@ -87,11 +97,20 @@ async function toggleScopeLearned() {
   }
 }
 
-/** Row play button: one file only. Clicking the running row's button stops it. */
+/** Row play button: one file only. Clicking the active row's button pauses it
+ *  in place (position held) — clicking again resumes the same run, looped or
+ *  not — instead of stopping the queue outright. */
 function playRow(r: MediaRow) {
-  if (queue.isPlaying.value && queue.currentId.value === r.entity_id) queue.stop()
-  else queue.playOne({ id: r.entity_id, url: r.media.url }, { onItemEnded })
+  if (activeId.value === r.entity_id) {
+    if (queue.paused.value) queue.resume()
+    else queue.pause()
+  } else {
+    queue.playOne({ id: r.entity_id, url: r.media.url }, { onItemEnded })
+  }
 }
+
+/** The active row is held mid-run (paused, not stopped) — position kept. */
+const rowPaused = (r: MediaRow) => activeId.value === r.entity_id && queue.paused.value
 
 /** Any row click stops the autoplay (the buttons stop propagation). */
 function stopAutoplay() {
@@ -165,6 +184,8 @@ watch(
             <th v-if="isDictionary" class="px-3 py-2 font-medium">
               {{ copy('dictionary.col_ipa', 'IPA') }}
             </th>
+            <!-- Article column: header left blank, the book icon speaks for itself -->
+            <th class="w-10 px-1 py-2" :aria-label="copy('article.label', 'Article')" />
             <th class="hidden px-3 py-2 font-medium sm:table-cell">
               {{ glossHeader }}
             </th>
@@ -227,19 +248,65 @@ watch(
             <td v-if="isDictionary" class="whitespace-nowrap px-3 py-2 font-code text-xs text-muted">
               {{ r.ipa ?? '' }}
             </td>
+            <!-- Read: always shown. A row with an article (word, expression,
+                 story) opens it on its prerendered page; otherwise the same
+                 icon renders disabled, like the "Audio coming soon" play -->
+            <td class="w-10 px-1 py-2 text-center">
+              <NuxtLink
+                v-if="r.content"
+                :to="articleHref(r)"
+                class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-edge text-accent transition hover:border-accent"
+                :aria-label="`${copy('article.read', 'Read')} ${r.term}`"
+                :title="`${copy('article.read', 'Read')} ${r.term}`"
+                @click.stop
+              >
+                <BookOpenIcon class="h-4 w-4" aria-hidden="true" />
+              </NuxtLink>
+              <button
+                v-else
+                type="button"
+                class="relative inline-flex h-8 w-8 cursor-not-allowed items-center justify-center rounded-full border border-edge text-faint"
+                disabled
+                :aria-label="copy('article.coming_soon_row', 'No article yet')"
+                :title="copy('article.coming_soon_row', 'No article yet')"
+                @click.stop
+              >
+                <BookOpenIcon class="h-4 w-4" aria-hidden="true" />
+                <!-- Diagonal strike: "no article" reads at a glance in both themes -->
+                <span class="absolute h-0.5 w-6 rotate-45 rounded-full bg-muted" aria-hidden="true" />
+              </button>
+            </td>
             <td class="hidden px-3 py-2 text-muted sm:table-cell">{{ gloss(r) }}</td>
             <td class="px-3 py-2 text-center">
               <button
                 type="button"
-                class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-edge bg-surface text-sm text-accent transition hover:bg-accent hover:text-on-accent disabled:cursor-not-allowed disabled:opacity-40"
-                :class="{ 'animate-pulse': activeId === r.entity_id }"
+                class="inline-flex h-8 w-8 items-center justify-center rounded-full border text-sm transition disabled:cursor-not-allowed disabled:border-edge disabled:text-faint"
+                :class="
+                  rowPaused(r)
+                    ? 'row-blink-paused border-transparent text-white'
+                    : activeId === r.entity_id
+                      ? 'border-accent bg-accent-soft text-accent'
+                      : 'border-edge text-accent hover:border-accent'
+                "
                 :disabled="!r.media.url"
                 :aria-label="`${copy('dictionary.play_single', 'Play')} ${r.term}`"
-                :title="r.media.url ? `${copy('dictionary.play_single', 'Play')} ${r.term}` : copy('ui.audio_coming_soon', 'Audio coming soon')"
+                :title="
+                  !r.media.url
+                    ? copy('ui.audio_coming_soon', 'Audio coming soon')
+                    : rowPaused(r)
+                      ? copy('dictionary.resume', 'Resume')
+                      : activeId === r.entity_id
+                        ? copy('dictionary.pause', 'Pause')
+                        : `${copy('dictionary.play_single', 'Play')} ${r.term}`
+                "
                 @click.stop="playRow(r)"
               >
-                <!-- Square while the word loops under Repeat, pause bars while it plays once -->
-                <span class="leading-none">{{ rowLooping(r) ? '■' : activeId === r.entity_id ? '❚❚' : '▶' }}</span>
+                <!-- Bigger, centered square while the active row loops under
+                     Repeat; pause bars while it plays once; play glyph
+                     otherwise (also shown, in red, when held/paused) -->
+                <span class="flex h-full w-full items-center justify-center leading-none" :class="{ 'text-lg': activeId === r.entity_id }">
+                  {{ rowPaused(r) ? '▶' : rowLooping(r) ? '■' : activeId === r.entity_id ? '❚❚' : '▶' }}
+                </span>
               </button>
             </td>
             <td class="px-3 py-2 text-center">
@@ -274,5 +341,21 @@ watch(
 .expr-row td {
   height: 3.4rem;
   vertical-align: middle;
+}
+
+/* Held/paused row button: dark red, blinking — distinct from the plain
+ * accent "active" look so a paused loop reads as "waiting", not "playing". */
+.row-blink-paused {
+  animation: row-blink 1s step-start infinite;
+}
+@keyframes row-blink {
+  0%,
+  49% {
+    background-color: rgb(220 38 38); /* red-600 */
+  }
+  50%,
+  100% {
+    background-color: rgb(127 29 29); /* red-900 */
+  }
 }
 </style>

@@ -90,6 +90,9 @@ export interface MediaRow {
   ipa: string | null
   context: string | null
   media: { url: string | null }
+  /** Article docs — any row (word, expression, story…) may carry one; the
+   *  table shows a read button when present. */
+  content?: ContentMeta
 }
 
 /**

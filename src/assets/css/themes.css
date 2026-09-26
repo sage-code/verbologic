@@ -8,7 +8,7 @@
 
 :root {
   color-scheme: light;
-  --color-body: #e9edf3;          /* page background — soft gray, not white */
+  --color-body: #f6f0e1;          /* page background — solid cream */
   --color-surface: #fbfcfe;       /* cards — near-white, lifted off the body */
   --color-chrome: #dfe6f3;        /* header / footer — pastel blue-gray band */
   --color-surface-soft: #e9edf4;  /* toolbar pill resting state */
@@ -27,7 +27,7 @@
 
 [data-theme='dark'] {
   color-scheme: dark;
-  --color-body: #0b1120;
+  --color-body: #1e1812;          /* page background — solid dark brown */
   --color-surface: #131c31;
   --color-chrome: #101a2e;
   --color-surface-soft: #1d2942;
@@ -54,22 +54,6 @@ html:not([data-theme='dark']) button[class~='bg-body'],
 html:not([data-theme='dark']) a[class~='bg-body'] {
   background-color: var(--color-btn-bg);
   box-shadow: var(--color-btn-shadow);
-}
-
-/* Light-theme page background — a subtle Carrara-marble tile (cream base,
- * soft blue-gray veining) instead of a flat pale color, so the page reads
- * as a surface rather than blank white. Source SVG: src/assets/img/
- * marble-light.svg (embedded as a data URI so it needs no separate request
- * and no CSS url()-alias resolution). Fixed attachment keeps the veining
- * still while the page scrolls; the tile is seamless (stitchTiles). Dark
- * theme is untouched — .app-frame/.app-backdrop keep their flat var(--color-body). */
-html:not([data-theme='dark']) .app-frame,
-html:not([data-theme='dark']) .app-backdrop {
-  background-color: #f8f7f3;
-  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NjAgOTYwIiB3aWR0aD0iOTYwIiBoZWlnaHQ9Ijk2MCI+CiAgPCEtLSBDYXJyYXJhLXN0eWxlIG1hcmJsZSB0aWxlIGZvciB0aGUgbGlnaHQgdGhlbWUgYmFja2Ryb3A6IGEgbmV1dHJhbAogICAgICAgd2hpdGUtY3JlYW0gYmFzZSB3aXRoIHR3byBmYWludCBncmF5IHZlaW5zIHJ1bm5pbmcgaW4gb25lIGRpYWdvbmFsCiAgICAgICBkaXJlY3Rpb24gb25seSwgZ2VudGx5IHdhcnBlZCBmb3IgYSBuYXR1cmFsIChub3QgbWVjaGFuaWNhbCkgbGluZS4KICAgICAgIFNlYW1sZXNzIChzdGl0Y2hUaWxlcykuIC0tPgogIDxkZWZzPgogICAgPGZpbHRlciBpZD0id2FycCIgeD0iLTI1JSIgeT0iLTI1JSIgd2lkdGg9IjE1MCUiIGhlaWdodD0iMTUwJSI+CiAgICAgIDxmZVR1cmJ1bGVuY2UgdHlwZT0iZnJhY3RhbE5vaXNlIiBiYXNlRnJlcXVlbmN5PSIwLjAwOCAwLjAzIiBudW1PY3RhdmVzPSI0IiBzZWVkPSIyNCIgc3RpdGNoVGlsZXM9InN0aXRjaCIgcmVzdWx0PSJub2lzZSIvPgogICAgICA8ZmVEaXNwbGFjZW1lbnRNYXAgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0ibm9pc2UiIHNjYWxlPSI4NSIgeENoYW5uZWxTZWxlY3Rvcj0iUiIgeUNoYW5uZWxTZWxlY3Rvcj0iRyIvPgogICAgPC9maWx0ZXI+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InZlaW5zIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgICAgc3RvcC1jb2xvcj0iI2Y4ZjdmMyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjI5JSIgICBzdG9wLWNvbG9yPSIjZjhmN2YzIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMzAlIiAgIHN0b3AtY29sb3I9IiNjM2JjYWUiIHN0b3Atb3BhY2l0eT0iMC40Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMzElIiAgIHN0b3AtY29sb3I9IiNmOGY3ZjMiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI2NiUiICAgc3RvcC1jb2xvcj0iI2Y4ZjdmMyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjY3JSIgICBzdG9wLWNvbG9yPSIjYWNhNDk3IiBzdG9wLW9wYWNpdHk9IjAuNDUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI2OCUiICAgc3RvcC1jb2xvcj0iI2Y4ZjdmMyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiICBzdG9wLWNvbG9yPSIjZjhmN2YzIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iOTYwIiBoZWlnaHQ9Ijk2MCIgZmlsbD0iI2Y4ZjdmMyIvPgogIDxyZWN0IHdpZHRoPSI5NjAiIGhlaWdodD0iOTYwIiBmaWxsPSJ1cmwoI3ZlaW5zKSIgZmlsdGVyPSJ1cmwoI3dhcnApIi8+Cjwvc3ZnPgo=');
-  background-repeat: repeat;
-  background-size: 900px 900px;
-  background-attachment: fixed;
 }
 
 /* Gentle cross-fade when switching modes */

@@ -33,6 +33,7 @@
       "Bash(./run clean)"
     ],
     "deny": [
+      "PowerShell",
       "Read(./.data/**)",
       "Read(./LICENSE)",
       "Read(./package-lock.json)",

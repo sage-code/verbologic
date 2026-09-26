@@ -10,11 +10,20 @@
 import { computed, type Component } from 'vue'
 import { AcademicCapIcon, BookmarkIcon, BookOpenIcon } from '@heroicons/vue/24/outline'
 import { TRACK_IDS, isTrackLive, type TrackId } from '~/data/tracks'
+import { useRoadmapStore } from '~/stores/roadmapStore'
 
 const route = useRoute()
 const copy = useCopy()
 const { lang: uiLang, setLocale, isLoaded } = useLocale()
 const { languages, languageName } = useNavigation()
+const roadmap = useRoadmapStore()
+
+/** The flag next to the title jumps straight to the chapters overview —
+ *  closes whatever topic/search is open so ChaptersTable always shows. */
+function openChapters() {
+  roadmap.closeTopic()
+  roadmap.showChapters = true
+}
 
 // Preload UI chrome on the client (mirrors the other pages).
 onMounted(() => {
@@ -56,7 +65,16 @@ const live = computed(() => isTrackLive(locale.value, trackId.value))
 <template>
   <main class="flex min-w-0 flex-1 flex-col">
     <header class="flex flex-wrap items-center gap-3">
-      <LanguageFlag :code="flagFor(locale)" :label="languageName(locale)" size="md" />
+      <button
+        v-if="live"
+        type="button"
+        class="rounded-[3px] focus:outline-none focus:ring-2 focus:ring-accent/30"
+        :title="copy('roadmap.all_chapters', 'All chapters')"
+        @click="openChapters"
+      >
+        <LanguageFlag :code="flagFor(locale)" :label="languageName(locale)" size="md" />
+      </button>
+      <LanguageFlag v-else :code="flagFor(locale)" :label="languageName(locale)" size="md" />
       <h1 class="text-2xl font-bold text-content">
         {{ languageName(locale) }} — {{ title }}
       </h1>

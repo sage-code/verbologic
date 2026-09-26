@@ -12,7 +12,6 @@ import { useLibraryStore } from '~/stores/libraryStore'
 import type { TrackId } from '~/data/tracks'
 import type { TopicLayout } from '~/types/sidebars'
 import TopicTable from './layouts/TopicTable.vue'
-import TopicArticle from './layouts/TopicArticle.vue'
 import TopicGallery from './layouts/TopicGallery.vue'
 import ChaptersTable from './ChaptersTable.vue'
 import WordSearchBar from './WordSearchBar.vue'
@@ -24,7 +23,7 @@ const props = withDefaults(defineProps<{ lang: string; track?: TrackId }>(), { t
 /** Topic layout registry — the pane is the topic's, never the track's. */
 const TOPIC_LAYOUTS: Record<TopicLayout, Component> = {
   table: TopicTable,
-  article: TopicArticle,
+  article: TopicTable, // articles are ordinary rows with a read button
   gallery: TopicGallery
 }
 
@@ -164,19 +163,44 @@ const frameTitle = computed(() => {
     return code ? `${code}: ${name}` : name
   }
   if (store.chapter) {
-    return mediaName(store.chapter.names, uiLang.value, store.chapter.code)
+    const code = store.chapter.code
+    const name = mediaName(store.chapter.names, uiLang.value, code)
+    return `${code}: ${name}`
   }
   return copy('roadmap.all_chapters', 'All chapters')
 })
 
-/** The resolved pane is TopicTable (search results, or an open topic in the
- *  table layout) — it has its own toolbar row, so the search box drops into
- *  THAT row (bare, see WordSearchBar) instead of getting its own row here. */
+/** The resolved pane is TopicTable (search results, or an open topic in a
+ *  table or article layout) — it has its own toolbar row, so the search box
+ *  drops into THAT row (bare, see WordSearchBar) instead of getting its own row here. */
 const paneIsTable = computed(
   () =>
     (store.searchActive && !store.topicCode) ||
-    (!!store.topicCode && !!store.topic && store.topicLayout === 'table')
+    (!!store.topicCode && !!store.topic && TOPIC_LAYOUTS[store.topicLayout] === TopicTable)
 )
+
+/**
+ * The title row's single navigation button — one action, four labels
+ * depending on what's currently in focus:
+ * - a topic is open           → "Close Topic" (back to its topic list)
+ * - the chapters TOC is open  → "Open Chapter" (commit the picked chapter)
+ * - a topic is picked (not open, in the topic list) → "Open Topic"
+ * - otherwise (a chapter's topic list, nothing picked) → "Close Chapter"
+ *   (back to the chapters TOC)
+ */
+const navAction = computed(() => {
+  if (store.topicCode) {
+    return { label: copy('dictionary.close_topic', 'Close topic'), run: () => store.closeTopic() }
+  }
+  if (store.showChapters) {
+    return { label: copy('dictionary.open_chapter', 'Open chapter'), run: () => store.toggleChapters() }
+  }
+  if (store.pickedTopicCode) {
+    const code = store.pickedTopicCode
+    return { label: copy('dictionary.open_topic', 'Open topic'), run: () => store.openTopic(code) }
+  }
+  return { label: copy('dictionary.close_chapter', 'Close chapter'), run: () => store.toggleChapters() }
+})
 </script>
 
 <template>
@@ -212,36 +236,17 @@ const paneIsTable = computed(
       <template #label>
         <div class="flex h-10 items-center justify-between gap-1">
           <p class="text-xs uppercase tracking-wide text-faint">{{ copy('roadmap.topics', 'Topics') }}</p>
-          <div class="flex items-center gap-1.5">
-            <button
-              type="button"
-              class="shrink-0 rounded-full border px-3 py-1.5 text-xs font-medium transition"
-              :class="
-                store.showChapters
-                  ? 'border-accent bg-accent-soft text-accent'
-                  : 'border-edge text-muted hover:border-accent hover:text-accent'
-              "
-              :aria-pressed="store.showChapters"
-              @click="store.toggleChapters()"
-            >
-              {{
-                store.showChapters
-                  ? copy('dictionary.open_chapter', 'Open chapters')
-                  : copy('dictionary.close_chapter', 'Close chapters')
-              }}
-            </button>
-            <!-- Drawer-only close button — the header hamburger also closes it,
-                 this is the in-panel escape hatch. -->
-            <button
-              v-if="mobileSidebarOpen"
-              type="button"
-              class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge text-muted transition hover:border-accent hover:text-accent lg:hidden"
-              :aria-label="t('roadmap.close_topics') ?? 'Close topics'"
-              @click="mobileSidebarOpen = false"
-            >
-              <XMarkIcon class="h-4 w-4" aria-hidden="true" />
-            </button>
-          </div>
+          <!-- Drawer-only close button — the header hamburger also closes it,
+               this is the in-panel escape hatch. -->
+          <button
+            v-if="mobileSidebarOpen"
+            type="button"
+            class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge text-muted transition hover:border-accent hover:text-accent lg:hidden"
+            :aria-label="t('roadmap.close_topics') ?? 'Close topics'"
+            @click="mobileSidebarOpen = false"
+          >
+            <XMarkIcon class="h-4 w-4" aria-hidden="true" />
+          </button>
         </div>
       </template>
 
@@ -277,9 +282,28 @@ const paneIsTable = computed(
            When the pane below is the table layout, the search box instead
            renders INSIDE that pane's own toolbar row (bare) — see
            DictionaryToolbar. -->
-      <h2 class="flex h-10 items-center truncate text-lg font-semibold text-content">
-        {{ frameTitle }}
-      </h2>
+      <div class="flex h-10 items-center justify-between gap-2">
+        <h2 class="min-w-0 flex-1 truncate text-lg font-semibold text-content">
+          {{ frameTitle }}
+        </h2>
+        <!-- The one navigation button — on the title row (not the sidebar
+             label) so it stays visible on small screens, where the rail is a
+             hidden drawer. Its label/action follow whatever's in focus (see
+             navAction): closing an open topic or chapter, or opening
+             whichever chapter/topic was just picked. -->
+        <button
+          type="button"
+          class="shrink-0 rounded-full border px-3 py-1.5 text-xs font-medium transition"
+          :class="
+            store.showChapters
+              ? 'border-accent bg-accent-soft text-accent'
+              : 'border-edge text-muted hover:border-accent hover:text-accent'
+          "
+          @click="navAction.run()"
+        >
+          {{ navAction.label }}
+        </button>
+      </div>
       <WordSearchBar v-if="!paneIsTable" />
 
       <!-- Committed word search with no topic open: the results table takes

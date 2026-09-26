@@ -71,6 +71,9 @@ export const useRoadmapStore = defineStore('roadmap', () => {
 
   const chapterCode = ref<string | null>(null) // selected chapter
   const topicCode = ref<string | null>(null) // open topic (word table)
+  /** Topic highlighted in the topic list (a single click there) but not yet
+   *  open — the title bar's "Open Topic" button commits it (see pickTopic). */
+  const pickedTopicCode = ref<string | null>(null)
   const topicQuery = ref('') // topic search box
   const wordQuery = ref('') // word filter box
   const records = ref<MediaRecord[]>([]) // word rows of the open topic
@@ -344,12 +347,28 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     }
   }
 
-  function selectChapter(code: string) {
+  /** Pick a chapter in the TOC without leaving it — a single click there only
+   *  highlights the chapter (the title bar names it) and readies the "open
+   *  chapter" button; the TOC itself stays open until the user commits. */
+  function pickChapter(code: string) {
     chapterCode.value = code
     topicCode.value = null
+    pickedTopicCode.value = null
     records.value = []
-    dictionaryQuery.value = '' // filters reset with the selection
+    dictionaryQuery.value = ''
     page.value = 1
+  }
+
+  /** Highlight a topic in the topic list without opening it — a single click
+   *  there; the title bar's "Open Topic" button commits it. */
+  function pickTopic(code: string) {
+    pickedTopicCode.value = code
+  }
+
+  /** Select a chapter and leave the TOC — the rail's click, a double-click on
+   *  a TOC row, or a deep-link restore all commit straight to its topic list. */
+  function selectChapter(code: string) {
+    pickChapter(code)
     showChapters.value = false // a chapter pick closes the TOC
   }
 
@@ -363,6 +382,7 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     if (!row) return
     chapterCode.value = row.chapterCode
     topicCode.value = code
+    pickedTopicCode.value = null
     wordQuery.value = ''
     if (!opts?.keepFilter) dictionaryQuery.value = '' // dictionary layout filters reset per topic
     page.value = 1
@@ -382,6 +402,7 @@ export const useRoadmapStore = defineStore('roadmap', () => {
 
   function closeTopic() {
     topicCode.value = null
+    pickedTopicCode.value = null
     records.value = []
     dictionaryQuery.value = '' // dictionary filters reset when the topic closes
     page.value = 1
@@ -402,6 +423,7 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     ready,
     chapterCode,
     topicCode,
+    pickedTopicCode,
     topicQuery,
     wordQuery,
     records,
@@ -439,7 +461,9 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     chapterExists,
     topicExists,
     init,
+    pickChapter,
     selectChapter,
+    pickTopic,
     openTopic,
     closeTopic
   }

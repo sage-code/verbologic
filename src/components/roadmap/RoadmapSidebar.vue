@@ -1,11 +1,12 @@
 // RoadmapSidebar — chapter list; the selected chapter expands to its topics
-// (localized names + learned/total). Topics can be opened from here or from
-// the topic list on the right. Double-clicking the selected chapter folds /
+// (localized names only — no per-topic count, that clutters the rail).
+// Topics can be opened from here or from the topic list on the right.
+// Double-clicking the selected chapter folds /
 // unfolds its topic branch. `collapsed` (chapter TOC mode) hides every
 // expanded branch, leaving the plain chapter list.
 <script setup lang="ts">
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
-import { useRoadmapStore, PROGRESS_KEY } from '~/stores/roadmapStore'
+import { useRoadmapStore } from '~/stores/roadmapStore'
 import { mediaName } from '~/composables/useMedia'
 import type { MediaNames } from '~/types/media'
 import type { SidebarTopic } from '~/types/sidebars'
@@ -13,14 +14,11 @@ import type { SidebarTopic } from '~/types/sidebars'
 withDefaults(defineProps<{ collapsed?: boolean }>(), { collapsed: false })
 
 const store = useRoadmapStore()
-const progress = inject(PROGRESS_KEY)
 const { lang: uiLang } = useLocale()
 const copy = useCopy()
 
 const chapterTitle = (names: MediaNames, fallback: string) => mediaName(names, uiLang.value, fallback)
 const topicTitle = (names: MediaNames, fallback: string) => mediaName(names, uiLang.value, fallback)
-const learnedOf = (code: string) => (progress ? store.learnedCount(code, progress.learned.value) : 0)
-
 /** A chapter/topic without content in the active language renders disabled. */
 const chapterEmpty = (c: { topics: SidebarTopic[] }) => !c.topics.some((t) => store.topicCount(t.code) > 0)
 const topicEmpty = (code: string) => store.topicCount(code) === 0
@@ -93,9 +91,6 @@ watch(
               @click="store.openTopic(tp.code)"
             >
               <span class="min-w-0 flex-1 truncate">{{ topicTitle(tp.names, tp.code) }}</span>
-              <span class="shrink-0 rounded-full bg-soft px-1.5 py-0.5 text-[11px] tabular-nums text-muted">
-                {{ learnedOf(tp.code) }}/{{ store.topicCount(tp.code) }}
-              </span>
             </button>
           </li>
         </ul>

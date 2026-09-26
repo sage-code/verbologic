@@ -23,7 +23,7 @@ export interface SidebarTopic {
   /** Topic code, e.g. 'C1T01'. */
   code: string
   names: MediaNames
-  /** How the open topic renders its pane (TopicTable / TopicArticle / TopicGallery). */
+  /** How the open topic renders its pane (TopicTable for table + article, TopicGallery). */
   layout: TopicLayout
   /** Item ids (manifest ids, content doc ids, or legacy entity ids) in display order. */
   items: string[]

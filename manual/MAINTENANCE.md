@@ -164,11 +164,14 @@ run media upload [--apply]     # differential R2 sync — default reports the de
 run media prune [--apply]      # R2 objects no manifest references — default reports; --apply deletes
 ```
 
-R2 access uses the **Cloudflare REST API** (`api.cloudflare.com`) — list, PUT
-and DELETE objects directly; no S3 credentials and no wrangler spawns. Three
-env vars: `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN` (a token with
-"Workers R2 Storage: Edit") and `R2_BUCKET` (the media bucket name). Without
-them the local checks still run, but the delta is local-hash only. After every
+R2 access uses R2's **S3-compatible API**, hand-signed with AWS SigV4 (no SDK,
+no wrangler spawns) — the general Cloudflare API token `run deploy` uses does
+NOT work here (different API, `10000` auth error). Five env vars, from the
+bucket's own API token's S3 credentials (dash.cloudflare.com → R2 → the
+bucket → Manage API tokens): `CLOUDFLARE_ACCOUNT_ID`, `R2_BUCKET`,
+`R2_S3_ENDPOINT`, `R2_S3_ACCESS_KEY_ID`, `R2_S3_SECRET_ACCESS_KEY`. `.env` is
+loaded automatically. Without them the local checks still run, but the delta
+is local-hash only. After every
 successful PUT the script writes the new `sha1`/`bytes`/`status` back into the
 item manifest — the committed baseline always means *"these exact bytes are
 on R2"*, so there is no separate ledger step and no ordering trap.
@@ -496,10 +499,11 @@ redirect *from* also needs a proxied DNS record (`A` → `192.0.2.0` or
 - Cloudflare Workers project linked to the repo (build command `npm run generate`,
   output directory `.output/public`) **or** `CLOUDFLARE_API_TOKEN` for
   `run deploy`.
-- R2 env vars for `media verify --remote` / `media upload --apply` /
-  `media prune --apply`: `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`
-  (a token with "Workers R2 Storage: Edit" — the same token `run deploy`
-  uses) and `R2_BUCKET` (the media bucket name).
+- R2 S3 env vars for `media verify --remote` / `media upload --apply` /
+  `media prune --apply`: `CLOUDFLARE_ACCOUNT_ID`, `R2_BUCKET`,
+  `R2_S3_ENDPOINT`, `R2_S3_ACCESS_KEY_ID`, `R2_S3_SECRET_ACCESS_KEY` —
+  a bucket-scoped R2 API token's S3 credentials, NOT the general
+  `CLOUDFLARE_API_TOKEN` that `run deploy` uses.
 
 ---
 

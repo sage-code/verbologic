@@ -21,13 +21,21 @@
  *   node scripts/media-sync.mjs upload [--apply]   differential R2 sync (default: report; --apply transfers)
  *   node scripts/media-sync.mjs prune [--apply]    R2 objects no manifest references (default: report)
  *
- * R2 access uses the Cloudflare REST API (no wrangler spawns; uploads run
- * with bounded concurrency) — three env vars:
- *   CLOUDFLARE_ACCOUNT_ID   the account id
- *   CLOUDFLARE_API_TOKEN    a token with "Workers R2 Storage: Edit"
- *   R2_BUCKET               the media bucket name
+ * R2 access uses R2's S3-compatible API, hand-signed with AWS SigV4 (no SDK,
+ * no wrangler spawns; uploads run with bounded concurrency) — four env vars,
+ * from an R2 API token's "S3 credentials" (dash.cloudflare.com → R2 → your
+ * bucket → API → Manage API tokens — NOT a general Cloudflare API token,
+ * which authenticates against a different API and 10000s here):
+ *   CLOUDFLARE_ACCOUNT_ID    the account id
+ *   R2_BUCKET                the media bucket name
+ *   R2_S3_ENDPOINT           https://<account id>.r2.cloudflarestorage.com
+ *   R2_S3_ACCESS_KEY_ID      the token's Access Key ID
+ *   R2_S3_SECRET_ACCESS_KEY  the token's Secret Access Key
+ *
+ * .env is loaded automatically (Node's built-in loader) so these just need
+ * to be set there — no manual `export` before running this script.
  */
-import { createHash } from 'node:crypto'
+import { createHash, createHmac } from 'node:crypto'
 import {
   copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync
 } from 'node:fs'
@@ -35,13 +43,13 @@ import { basename, join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
+if (existsSync(join(ROOT, '.env'))) process.loadEnvFile(join(ROOT, '.env'))
 const MEDIA = join(ROOT, 'media')
 const AUDIO_DIR = join(MEDIA, 'audio')
 // The legacy flat staging (media/audio/<lang>/<ID>.mp3) — retired; `stage`
 // reads from it while it still exists, otherwise straight from the archive.
 const LEGACY_MEDIA = join(ROOT, 'media', 'audio')
 
-const CF_API = 'https://api.cloudflare.com/client/v4'
 const PUT_CONCURRENCY = 8
 
 const MIME_BY_EXT = {
@@ -111,11 +119,11 @@ function expectedKeys() {
   return out
 }
 
-/* ── Cloudflare R2 REST (api.cloudflare.com) ───────────────────────────── */
+/* ── Cloudflare R2 (S3-compatible API, hand-signed SigV4) ──────────────── */
 
 /** Credentials from the environment; null (unless required) when incomplete. */
 function r2Env(required = false) {
-  const names = ['CLOUDFLARE_ACCOUNT_ID', 'CLOUDFLARE_API_TOKEN', 'R2_BUCKET']
+  const names = ['CLOUDFLARE_ACCOUNT_ID', 'R2_BUCKET', 'R2_S3_ENDPOINT', 'R2_S3_ACCESS_KEY_ID', 'R2_S3_SECRET_ACCESS_KEY']
   const missing = names.filter((k) => !process.env[k])
   if (missing.length) {
     if (required) {
@@ -125,26 +133,80 @@ function r2Env(required = false) {
     return null
   }
   return {
-    account: process.env.CLOUDFLARE_ACCOUNT_ID,
-    token: process.env.CLOUDFLARE_API_TOKEN,
-    bucket: process.env.R2_BUCKET
+    bucket: process.env.R2_BUCKET,
+    endpoint: process.env.R2_S3_ENDPOINT.replace(/\/+$/, ''),
+    accessKeyId: process.env.R2_S3_ACCESS_KEY_ID,
+    secretAccessKey: process.env.R2_S3_SECRET_ACCESS_KEY
   }
 }
 
-/** All bucket objects (key → size) — paginated List Objects. */
+const R2_REGION = 'auto' // R2's S3 API ignores region but SigV4 still needs one
+
+const hash = (s) => createHash('sha256').update(s).digest('hex')
+const hmac = (key, s) => createHmac('sha256', key).update(s).digest()
+
+/** AWS SigV4 signature for one request — path-style (`<endpoint>/<bucket>/<key>`). */
+function sign(env, method, path, query, body) {
+  const host = new URL(env.endpoint).host
+  const now = new Date()
+  const amzDate = now.toISOString().replace(/[:-]|\.\d{3}/g, '') // 20240101T000000Z
+  const dateStamp = amzDate.slice(0, 8)
+  const payloadHash = hash(body ?? '')
+
+  const canonicalQuery = Object.entries(query ?? {})
+    .sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0))
+    .map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v)}`)
+    .join('&')
+  const headers = { host, 'x-amz-content-sha256': payloadHash, 'x-amz-date': amzDate }
+  const signedHeaderNames = Object.keys(headers).sort()
+  const canonicalHeaders = signedHeaderNames.map((k) => `${k}:${headers[k]}\n`).join('')
+  const signedHeaders = signedHeaderNames.join(';')
+  // Path segments are individually percent-encoded; slashes stay literal.
+  const canonicalUri = path.split('/').map(encodeURIComponent).join('/')
+  const canonicalRequest = [method, canonicalUri, canonicalQuery, canonicalHeaders, signedHeaders, payloadHash].join('\n')
+
+  const credentialScope = `${dateStamp}/${R2_REGION}/s3/aws4_request`
+  const stringToSign = ['AWS4-HMAC-SHA256', amzDate, credentialScope, hash(canonicalRequest)].join('\n')
+
+  const kDate = hmac(`AWS4${env.secretAccessKey}`, dateStamp)
+  const kRegion = hmac(kDate, R2_REGION)
+  const kService = hmac(kRegion, 's3')
+  const kSigning = hmac(kService, 'aws4_request')
+  const signature = hmac(kSigning, stringToSign).toString('hex')
+
+  const authorization =
+    `AWS4-HMAC-SHA256 Credential=${env.accessKeyId}/${credentialScope}, ` +
+    `SignedHeaders=${signedHeaders}, Signature=${signature}`
+
+  return { authorization, amzDate, payloadHash, url: `${env.endpoint}${canonicalUri}${canonicalQuery ? `?${canonicalQuery}` : ''}` }
+}
+
+/** Minimal XML text extraction — R2's ListObjectsV2 response has no attributes
+ *  or nested repeats we need to worry about beyond <Contents> blocks. */
+function xmlTag(block, tag) {
+  const m = new RegExp(`<${tag}>([\\s\\S]*?)</${tag}>`).exec(block)
+  return m ? m[1].replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>') : null
+}
+
+/** All bucket objects (key → size) — paginated ListObjectsV2. */
 async function r2List(env) {
   const keys = new Map()
-  let cursor = null
+  let continuationToken = null
   for (;;) {
-    const url = `${CF_API}/accounts/${env.account}/r2/buckets/${env.bucket}/objects?per_page=1000${cursor ? `&cursor=${encodeURIComponent(cursor)}` : ''}`
-    const res = await fetch(url, { headers: { Authorization: `Bearer ${env.token}` } })
-    const json = await res.json().catch(() => null)
-    if (!res.ok || !json?.success) {
-      throw new Error(json?.errors?.map((e) => `${e.code} ${e.message}`).join('; ') || `HTTP ${res.status}`)
+    const query = { 'list-type': '2', 'max-keys': '1000' }
+    if (continuationToken) query['continuation-token'] = continuationToken
+    const { authorization, amzDate, payloadHash, url } = sign(env, 'GET', `/${env.bucket}`, query, '')
+    const res = await fetch(url, {
+      headers: { Authorization: authorization, 'x-amz-date': amzDate, 'x-amz-content-sha256': payloadHash }
+    })
+    const text = await res.text()
+    if (!res.ok) throw new Error(xmlTag(text, 'Message') || `HTTP ${res.status}`)
+    for (const block of text.match(/<Contents>[\s\S]*?<\/Contents>/g) ?? []) {
+      const key = xmlTag(block, 'Key')
+      if (key) keys.set(key, Number(xmlTag(block, 'Size') ?? 0))
     }
-    for (const o of json.result ?? []) keys.set(o.key, o.size ?? 0)
-    cursor = json.result_info?.is_truncated ? json.result_info.cursor : null
-    if (!cursor) break
+    continuationToken = xmlTag(text, 'IsTruncated') === 'true' ? xmlTag(text, 'NextContinuationToken') : null
+    if (!continuationToken) break
   }
   return keys
 }
@@ -152,30 +214,29 @@ async function r2List(env) {
 /** PUT one object (raw octet-stream body; key slashes stay literal). */
 async function r2Put(env, key, filePath, mime) {
   const body = readFileSync(filePath)
-  const url = `${CF_API}/accounts/${env.account}/r2/buckets/${env.bucket}/objects/${key}`
+  const { authorization, amzDate, payloadHash, url } = sign(env, 'PUT', `/${env.bucket}/${key}`, {}, body)
   const res = await fetch(url, {
     method: 'PUT',
     headers: {
-      Authorization: `Bearer ${env.token}`,
+      Authorization: authorization,
+      'x-amz-date': amzDate,
+      'x-amz-content-sha256': payloadHash,
       'Content-Type': mime,
       'Content-Length': String(body.length)
     },
     body
   })
-  const json = await res.json().catch(() => null)
-  if (!res.ok || json?.success === false) {
-    throw new Error(json?.errors?.map((e) => e.message).join('; ') || `HTTP ${res.status}`)
-  }
+  if (!res.ok) throw new Error(xmlTag(await res.text(), 'Message') || `HTTP ${res.status}`)
 }
 
 /** DELETE one object. */
 async function r2Delete(env, key) {
-  const url = `${CF_API}/accounts/${env.account}/r2/buckets/${env.bucket}/objects/${key}`
-  const res = await fetch(url, { method: 'DELETE', headers: { Authorization: `Bearer ${env.token}` } })
-  const json = await res.json().catch(() => null)
-  if (!res.ok || json?.success === false) {
-    throw new Error(json?.errors?.map((e) => e.message).join('; ') || `HTTP ${res.status}`)
-  }
+  const { authorization, amzDate, payloadHash, url } = sign(env, 'DELETE', `/${env.bucket}/${key}`, {}, '')
+  const res = await fetch(url, {
+    method: 'DELETE',
+    headers: { Authorization: authorization, 'x-amz-date': amzDate, 'x-amz-content-sha256': payloadHash }
+  })
+  if (!res.ok && res.status !== 204) throw new Error(xmlTag(await res.text(), 'Message') || `HTTP ${res.status}`)
 }
 
 /** Run tasks with bounded concurrency (completion order is irrelevant). */
@@ -334,7 +395,7 @@ async function cmdUpload() {
   const env = r2Env(apply)
   const remote = env ? await r2List(env) : null
   if (!env) {
-    console.warn('note: set CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN / R2_BUCKET to also diff against the bucket (remote truth)')
+    console.warn('note: set the R2 S3 credentials in .env to also diff against the bucket (remote truth) — see this file\'s header comment')
   }
 
   const delta = new Map() // key → { file, bytes, hash, mime, items: [item…] }

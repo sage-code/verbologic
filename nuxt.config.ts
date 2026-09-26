@@ -49,6 +49,16 @@ export default defineNuxtConfig({
   ssr: true,
   nitro: {
     prerender: {
+      // The crawler discovers deep-link query variants like
+      // /learn/:locale/:track?topic=CODE (ArticleRail's "jump to topic"
+      // navigation). Nitro never writes routes containing "?" to disk
+      // (query strings don't map to static files), so crawling them only
+      // re-renders the same page under the track's shared SSR payload
+      // cache key — concurrent writes to that one cache file intermittently
+      // collide with EPERM on Windows. Skip them; the base track route
+      // (already listed below) is what actually gets prerendered, and the
+      // topic itself is selected client-side from the query on mount.
+      ignore: [/\?/],
       // Library track pages (/learn/:locale/:track) are dynamic routes the
       // link crawler cannot discover, so they are listed explicitly — one
       // entry per language × track. The static host (wrangler.toml) serves

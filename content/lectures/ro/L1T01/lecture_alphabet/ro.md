@@ -9,51 +9,27 @@ summary: >-
   Româna se scrie exact cum se citește — odată ce ai învățat cele 31 de litere,
   poți pronunța orice cuvânt.
 status: draft
-sourceSha: e8821cd7121be12b04d0d9964b65018e15600944
+sourceSha: 27afc918c7c7ad28cbbb788070d8f5f99df3f4d1
 order: 1
-minutes: 6
-related:
-  - letter_a
-  - letter_a_breve
-  - letter_a_circumflex
-  - letter_s_cedilla
-  - letter_t_cedilla
-  - letter_i_circumflex
+minutes: 3
 ---
 
 Româna face ce limba engleză nu a îndrăznit niciodată: **se scrie exact cum se vorbește.** Fiecare literă are un singur sunet, fiecare sunet are o singură literă. Nu există litere mute care să te prindă în capcană și nici capcane de tipul „though / through / tough". Citești cuvântul și l-ai și pronunțat — corect — din prima.
 
-Este cel mai util lucru de știut despre această limbă și îți schimbă modul de studiu: **învăți cele 31 de litere o singură dată, iar apoi întregul dicționar devine pronunțiabil pentru totdeauna.**
+Este cel mai util lucru de știut despre această limbă și îți schimbă modul de studiu: **înveți cele 31 de litere o singură dată, iar apoi întregul dicționar devine pronunțabil pentru totdeauna.**
 
-## Cele cinci litere pe care engleza nu le are
+Urmărește videoclipul de mai multe ori, oprește-l des și repetă cu voce tare fiecare grup de sunete.
 
-Cinci litere poartă tot ce face româna să pară străină. Nu sunt exotice — fiecare este o mică modificare fixă a unei litere pe care o știi deja:
-
-- **ă** — *ă*-ul din „măr" sau „casă", un sunet scurt, niciodată accentuat.
-- **â** și **î** — același sunet, două scrieri: un *i* rostit din gât. **î** stă la începutul cuvintelor; **â** în interiorul lor: *învăț*, *cât*.
-- **ș** — simplul *ș* din „școală", ca „sh" în engleză.
-- **ț** — *ț* din „țeapă", sunetul final din engleza „cats", dar la început de cuvânt: *țară*.
-
-::callout{type="tip"}
-Diacriticele nu sunt decorațiuni. *patru* (numărul 4) și *pătru* sunt cuvinte diferite; renunțarea la ă/â/î este cea mai rapidă cale de a fi greșit înțeles în scris.
+::youtube{id="PeLSO7uyutc" title="Alfabetul românesc"}
 ::
 
-## Două litere latine cu rol dublu
+## Citește în ordine
 
-Româna a păstrat alfabetul latin, dar refolosește două litere pentru sunete pe care engleza le ține separate:
+Fiecare literă, grup de sunete și regulă are propriul articol scurt — deschide-l cu butonul carte de lângă rând.
 
-- **c** se pronunță *ce/chi* înaintea lui e și i (*cel*), și dur *ca* în rest (*casa*).
-- **g** urmează aceeași logică: *girofar* începe cu sunetul *j*, *gust* cu un *g* dur.
-
-Regula e/i este singura regulă de scriere condițională din întreaga limbă — două litere, o singură linie de logică, și ai terminat.
-
-## De ce merită imediat
-
-Pentru că scrierea oglindește sunetul, dicționarul devine un antrenor de pronunție. Alege orice cuvânt — *bibliotecă*, *permis*, *sprânceană* — și îl poți spune deja. Comparativ cu engleza sau franceza, unde aceeași încredere ia ani de zile.
-
-## Exersează aceste sunete
-
-Literele de mai jos sunt cele cinci sunete noi. Redă fiecare înregistrare, repetă cu voce tare, apoi continuă cu pattern-urile vocalice din tema următoare.
-
-::term{addresses="letter_a,letter_a_breve,letter_a_circumflex,letter_s_cedilla,letter_t_cedilla,letter_i_circumflex"}
-::
+1. [Alfabet și litere](/learn/ro/lectures?topic=L1T02) — cele 31 de litere, câte un sunet fiecare.
+2. [Vocale, diftongi și triftongi](/learn/ro/lectures?topic=L1T03)
+3. [Grupuri vocalice](/learn/ro/lectures?topic=L1T04)
+4. [Digrafe și trigrafe](/learn/ro/lectures?topic=L1T05)
+5. [Grupuri consonantice](/learn/ro/lectures?topic=L1T06)
+6. [Diacritice, silabe și accent](/learn/ro/lectures?topic=L1T07)

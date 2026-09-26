@@ -1,8 +1,9 @@
 // ChaptersTable — the chapters TOC mode: one row per chapter (code · title ·
-// translation · title-audio · learned/total progress); a row picks the chapter.
-// Toggled from the frame's Chapters button (store.toggleChapters) and rendered
-// by RoadmapShell for EVERY track — chapter overview is roadmap chrome, not a
-// topic layout.
+// translation · title-audio · a Done button that marks/resets the whole
+// chapter). A row click picks the chapter (see pickChapter); a double-click
+// opens it straight to its topic list. Toggled from the frame's Chapters
+// button (store.toggleChapters) and rendered by RoadmapShell for EVERY
+// track — chapter overview is roadmap chrome, not a topic layout.
 <script setup lang="ts">
 import { ArrowPathIcon, CheckIcon } from '@heroicons/vue/20/solid'
 import { useRoadmapStore, PROGRESS_KEY, type TopicRow } from '~/stores/roadmapStore'
@@ -27,13 +28,34 @@ const learnedOf = (code: string) => (progress ? store.learnedCount(code, progres
 const nameHeader = computed(() => languageName(store.lang))
 const glossHeader = computed(() => languageName(uiLang.value !== store.lang ? uiLang.value : 'en'))
 
-/** Records across one chapter's topics (the row's progress badge). */
+/** Records across one chapter's topics (drives the row's Done button). */
 function chapterTotal(c: SidebarSection): number {
   return c.topics.reduce((n: number, tp: SidebarTopic) => n + store.topicCount(tp.code), 0)
 }
 function chapterLearned(c: SidebarSection): number {
   if (!progress) return 0
   return c.topics.reduce((n: number, tp: SidebarTopic) => n + store.learnedCount(tp.code, progress.learned.value), 0)
+}
+function chapterIds(c: SidebarSection): string[] {
+  return store.scopeIds(c.topics.map((tp: SidebarTopic) => tp.code))
+}
+
+/** Row Done button: marks the whole chapter learned, or resets it (and its
+ *  listen counts) when it's already fully learned — same semantics as the
+ *  header's check-all. */
+async function toggleChapterDone(c: SidebarSection) {
+  if (!progress) return
+  const ids = chapterIds(c)
+  if (ids.length === 0) return
+  if (chapterLearned(c) >= chapterTotal(c)) {
+    await progress.setLearnedMany(ids, false)
+    await progress.clearListens(ids)
+  } else {
+    await progress.setLearnedMany(
+      ids.filter((id: string) => !progress!.isLearned(id)),
+      true
+    )
+  }
 }
 
 /** One row of the chapters table. */
@@ -42,10 +64,17 @@ interface TitleRow {
   code: string
   name: string
   translation: string
-  progress: string
+  /** Every topic in the chapter is fully learned (drives the row's Done button). */
+  done: boolean
   /** No topic has content in the active language — row renders disabled. */
   disabled: boolean
+  /** Click: pick the chapter — highlights it and readies the title bar's
+   *  "open chapter" button, but stays in the TOC (see pickChapter). */
+  pick: () => void
+  /** Double-click: pick AND leave the TOC straight for its topic list. */
   open: () => void
+  /** Done button: mark/reset the whole chapter. */
+  toggleDone: () => Promise<void>
 }
 
 const titleRows = computed<TitleRow[]>(() =>
@@ -54,9 +83,11 @@ const titleRows = computed<TitleRow[]>(() =>
     code: c.code,
     name: targetName(c.names, c.code),
     translation: uiName(c.names, c.code),
-    progress: `${chapterLearned(c)}/${chapterTotal(c)}`,
+    done: chapterTotal(c) > 0 && chapterLearned(c) >= chapterTotal(c),
     disabled: chapterTotal(c) === 0,
-    open: () => store.selectChapter(c.code)
+    pick: () => store.pickChapter(c.code),
+    open: () => store.selectChapter(c.code),
+    toggleDone: () => toggleChapterDone(c)
   }))
 )
 
@@ -132,9 +163,17 @@ async function toggleScopeLearned() {
             v-for="row in titleRows"
             :key="row.key"
             class="border-t border-edge transition-colors"
-            :class="row.disabled ? 'cursor-not-allowed opacity-40' : 'cursor-pointer hover:bg-soft'"
-            :title="row.disabled ? copy('practice.coming_soon', 'Coming soon') : undefined"
-            @click="!row.disabled && row.open()"
+            :class="[
+              row.disabled ? 'cursor-not-allowed opacity-40' : 'cursor-pointer hover:bg-soft',
+              !row.disabled && store.chapterCode === row.code ? 'bg-accent-soft' : ''
+            ]"
+            :title="
+              row.disabled
+                ? copy('practice.coming_soon', 'Coming soon')
+                : copy('roadmap.double_click_open', 'Double-click to open')
+            "
+            @click="!row.disabled && row.pick()"
+            @dblclick="!row.disabled && row.open()"
           >
             <td class="whitespace-nowrap px-3 py-2 font-code text-xs text-faint">{{ row.code }}</td>
             <td class="px-3 py-2 font-medium text-content">{{ row.name }}</td>
@@ -151,7 +190,28 @@ async function toggleScopeLearned() {
                 <span class="leading-none">▶</span>
               </button>
             </td>
-            <td class="px-3 py-2 text-center text-xs tabular-nums text-muted">{{ row.progress }}</td>
+            <td class="px-3 py-2 text-center">
+              <button
+                type="button"
+                class="inline-flex h-8 w-8 items-center justify-center rounded-full border transition disabled:cursor-not-allowed disabled:opacity-40"
+                :class="
+                  row.done
+                    ? 'border-accent bg-accent-soft text-accent'
+                    : 'border-edge text-muted hover:border-accent hover:text-accent'
+                "
+                :disabled="row.disabled"
+                :aria-pressed="row.done"
+                :title="
+                  row.done
+                    ? copy('dictionary.reset_page', 'Reset chapter progress')
+                    : copy('dictionary.check_all', 'Mark chapter as learned')
+                "
+                @click.stop="row.toggleDone()"
+              >
+                <ArrowPathIcon v-if="row.done" class="h-4 w-4" aria-hidden="true" />
+                <CheckIcon v-else class="h-4 w-4" aria-hidden="true" />
+              </button>
+            </td>
           </tr>
         </tbody>
       </table>

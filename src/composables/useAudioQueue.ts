@@ -36,6 +36,7 @@ export interface QueueOptions {
 export function useAudioQueue() {
   const currentId = ref<string | null>(null)
   const isPlaying = ref(false)
+  const paused = ref(false)
   const loop = ref(false)
   const mode = ref<QueueMode>('idle')
 
@@ -61,7 +62,24 @@ export function useAudioQueue() {
     cursor = 0
     currentId.value = null
     isPlaying.value = false
+    paused.value = false
     mode.value = 'idle'
+  }
+
+  /** Hold the current item in place — the queue stays loaded, the cursor
+   *  doesn't move. Resume picks up the same file where it left off. */
+  function pause() {
+    if (mode.value === 'idle' || paused.value) return
+    clearTimer()
+    player?.pause()
+    paused.value = true
+  }
+
+  /** Resume a paused run from its held position (no restart, no re-queue). */
+  function resume() {
+    if (!paused.value) return
+    paused.value = false
+    void player?.play().catch(() => {})
   }
 
   /** Arm/disarm looping. Takes effect when the current run reaches its end. */
@@ -138,5 +156,5 @@ export function useAudioQueue() {
 
   onBeforeUnmount(stop)
 
-  return { currentId, isPlaying, loop, mode, play, playOne, stop, setLoop, toggle }
+  return { currentId, isPlaying, paused, loop, mode, play, playOne, stop, pause, resume, setLoop, toggle }
 }

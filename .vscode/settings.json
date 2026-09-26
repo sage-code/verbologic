@@ -13,5 +13,9 @@
   "editor.defaultFormatter": "Vue.volar",
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[vue]": { "editor.defaultFormatter": "Vue.volar" }
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "claudeCode.enableNewConversationShortcut": true,
+  "claudeCode.hideOnboarding": false
 }

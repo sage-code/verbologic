@@ -31,104 +31,13 @@
         },
         "ro": {
           "status": "draft",
-          "stale": true
+          "stale": false
         }
       },
       "summary": "Romanian is almost perfectly phonetic — once you trust the spelling, you can say every word you read.",
       "order": 1,
-      "minutes": 10
+      "minutes": 3
     },
-    "related": [
-      {
-        "id": "letter_a",
-        "entity_id": "letter_a",
-        "topic": "L1T02",
-        "lang": "ro",
-        "term": "A",
-        "names": {
-          "ro": "A"
-        },
-        "ipa": "/a/",
-        "context": null,
-        "media": {
-          "url": null
-        }
-      },
-      {
-        "id": "letter_a_breve",
-        "entity_id": "letter_a_breve",
-        "topic": "L1T02",
-        "lang": "ro",
-        "term": "Ă",
-        "names": {
-          "ro": "Ă"
-        },
-        "ipa": "/ə/",
-        "context": null,
-        "media": {
-          "url": null
-        }
-      },
-      {
-        "id": "letter_a_circumflex",
-        "entity_id": "letter_a_circumflex",
-        "topic": "L1T02",
-        "lang": "ro",
-        "term": "Â",
-        "names": {
-          "ro": "Â"
-        },
-        "ipa": "/ɨ/",
-        "context": null,
-        "media": {
-          "url": null
-        }
-      },
-      {
-        "id": "letter_s_cedilla",
-        "entity_id": "letter_s_cedilla",
-        "topic": "L1T02",
-        "lang": "ro",
-        "term": "Ș",
-        "names": {
-          "ro": "Ș"
-        },
-        "ipa": "/ʃ/",
-        "context": null,
-        "media": {
-          "url": null
-        }
-      },
-      {
-        "id": "letter_t_cedilla",
-        "entity_id": "letter_t_cedilla",
-        "topic": "L1T02",
-        "lang": "ro",
-        "term": "Ț",
-        "names": {
-          "ro": "Ț"
-        },
-        "ipa": "/ts/",
-        "context": null,
-        "media": {
-          "url": null
-        }
-      },
-      {
-        "id": "letter_i_circumflex",
-        "entity_id": "letter_i_circumflex",
-        "topic": "L1T02",
-        "lang": "ro",
-        "term": "Î",
-        "names": {
-          "ro": "Î"
-        },
-        "ipa": "/ɨ/",
-        "context": null,
-        "media": {
-          "url": null
-        }
-      }
-    ]
+    "related": []
   }
 ]
