@@ -40,3 +40,7 @@ custom_domain = true
 [[routes]]
 pattern = "www.verbologic.com"
 custom_domain = true
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "verbologic"
