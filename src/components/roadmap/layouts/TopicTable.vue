@@ -9,8 +9,8 @@
 // hidden sr-only field) · IPA (Dictionary only — words are short, so the
 // narrower columns still fit; the Lectures' expressions never show IPA) ·
 // read (a book button when the row carries an article — words, expressions
-// and stories alike; blank otherwise) · translation · per-row play button (blinks while its file plays, squares ■
-// while it loops under Repeat) · learned toggle. The header's check-all scope
+// and stories alike; blank otherwise) · translation · per-row play button (pause
+// bars while its file plays, looping or not) · learned toggle. The header's check-all scope
 // is the visible page. Lectures rows get a fixed two-line height — long
 // expressions wrap, short ones sit centered in an equal-height row.
 <script setup lang="ts">
@@ -33,9 +33,6 @@ const rows = computed<MediaRow[]>(() => store.pagedRows)
 
 /** The row the queue is currently on (page run or single file). */
 const activeId = computed(() => (queue.isPlaying.value ? queue.currentId.value : null))
-
-/** The row's file is playing in a loop (Repeat was on when it started). */
-const rowLooping = (r: MediaRow) => queue.loop.value && activeId.value === r.entity_id
 
 /** Queue items for the current page — ids are the progress entity_ids. */
 const queueItems = computed<QueueItem[]>(() =>
@@ -285,7 +282,7 @@ watch(
                   rowPaused(r)
                     ? 'row-blink-paused border-transparent text-white'
                     : activeId === r.entity_id
-                      ? 'border-accent bg-accent-soft text-accent'
+                      ? 'border-transparent bg-red-800 text-white'
                       : 'border-edge text-accent hover:border-accent'
                 "
                 :disabled="!r.media.url"
@@ -301,11 +298,10 @@ watch(
                 "
                 @click.stop="playRow(r)"
               >
-                <!-- Bigger, centered square while the active row loops under
-                     Repeat; pause bars while it plays once; play glyph
-                     otherwise (also shown, in red, when held/paused) -->
+                <!-- Pause bars while the row plays (looping or not) — held/paused
+                     rows and idle rows show the play glyph instead. -->
                 <span class="flex h-full w-full items-center justify-center leading-none" :class="{ 'text-lg': activeId === r.entity_id }">
-                  {{ rowPaused(r) ? '▶' : rowLooping(r) ? '■' : activeId === r.entity_id ? '❚❚' : '▶' }}
+                  {{ rowPaused(r) ? '▶' : activeId === r.entity_id ? '❚❚' : '▶' }}
                 </span>
               </button>
             </td>

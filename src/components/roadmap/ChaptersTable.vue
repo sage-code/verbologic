@@ -8,6 +8,8 @@
 import { ArrowPathIcon, CheckIcon } from '@heroicons/vue/20/solid'
 import { useRoadmapStore, PROGRESS_KEY, type TopicRow } from '~/stores/roadmapStore'
 import { mediaName } from '~/composables/useMedia'
+import { useTitles } from '~/composables/useTitles'
+import { useAudioQueue } from '~/composables/useAudioQueue'
 import { THEAD_STICKY_TOP } from '~/lib/roadmapRail'
 import type { MediaNames, MediaRow } from '~/types/media'
 import type { SidebarSection, SidebarTopic } from '~/types/sidebars'
@@ -17,6 +19,21 @@ const progress = inject(PROGRESS_KEY)
 const { lang: uiLang } = useLocale()
 const { languageName } = useNavigation()
 const copy = useCopy()
+const titles = useTitles()
+const titleQueue = useAudioQueue()
+
+/** Title audio URL for one chapter, in the learning language (null = none yet). */
+const titleUrl = (code: string) => titles.media(code, store.lang)?.url ?? null
+/** This row's title is the one currently playing (drives the play/stop glyph). */
+const isPlayingTitle = (code: string) => titleQueue.isPlaying.value && titleQueue.currentId.value === code
+function playTitle(code: string) {
+  if (isPlayingTitle(code)) {
+    titleQueue.stop()
+    return
+  }
+  const url = titleUrl(code)
+  if (url) titleQueue.playOne({ id: code, url })
+}
 
 /** Title in the learning language (the term) and in the UI language (the gloss). */
 const targetName = (names: MediaNames, fallback: string) => mediaName(names, store.lang, fallback)
@@ -182,12 +199,22 @@ async function toggleScopeLearned() {
               <!-- Title audio: lights up via useTitles once the titles payload lands -->
               <button
                 type="button"
-                class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-edge bg-surface text-sm text-accent disabled:cursor-not-allowed disabled:opacity-40"
-                disabled
-                :title="copy('ui.audio_coming_soon', 'Audio coming soon')"
-                @click.stop
+                class="inline-flex h-8 w-8 items-center justify-center rounded-full border text-sm transition disabled:cursor-not-allowed disabled:border-edge disabled:bg-surface disabled:text-faint disabled:opacity-40"
+                :class="isPlayingTitle(row.code) ? 'border-transparent bg-red-800 text-white' : 'border-edge bg-surface text-accent hover:border-accent'"
+                :disabled="!titleUrl(row.code)"
+                :title="
+                  !titleUrl(row.code)
+                    ? copy('ui.audio_coming_soon', 'Audio coming soon')
+                    : isPlayingTitle(row.code)
+                      ? copy('roadmap.stop', 'Stop')
+                      : copy('dictionary.play', 'Play')
+                "
+                @click.stop="playTitle(row.code)"
               >
-                <span class="leading-none">▶</span>
+                <span class="flex h-full w-full items-center justify-center leading-none">
+                  <span v-if="isPlayingTitle(row.code)" class="inline-block h-2.5 w-2.5 bg-current" aria-hidden="true" />
+                  <template v-else>▶</template>
+                </span>
               </button>
             </td>
             <td class="px-3 py-2 text-center">

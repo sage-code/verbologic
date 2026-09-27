@@ -90,6 +90,33 @@ for (const sectionPath of new Set(Object.values(config.sections))) {
   walkManifests(join(MEDIA, sectionPath), sectionPath)
 }
 
+/** A manifest's media descriptor (URL null while pending) — shared shape for
+ *  both topic records and title media (public/data/media/media.ts MediaMedia). */
+function mediaDescriptor(manifest) {
+  const key = manifest.key ?? manifest.file ?? null
+  return {
+    url: key ? `${config.root}${key}` : null,
+    mime: manifest.mime ?? MIME_BY_EXT[key?.split('.').pop()] ?? 'application/octet-stream',
+    bytes: manifest.bytes ?? 0,
+    sha1: manifest.sha1 ?? null
+  }
+}
+
+/** Chapter/topic title audio (src/composables/useTitles.ts): manifests with
+ *  kind 'chapter-title' | 'topic-title', id = the chapter/topic code itself
+ *  (media/audio/<lang>/<CODE>/<CODE>.json) — already swept into manifestsById
+ *  above, independent of any sidebar's items[] (titles are never referenced
+ *  there). Emitted as library/dictionary/titles.json, the one payload
+ *  useTitles fetches; absent codes just keep the "coming soon" button. */
+const titlesChapters = {} // code -> lang -> media
+const titlesTopics = {} // code -> lang -> media
+for (const [id, entries] of manifestsById) {
+  for (const { manifest } of entries) {
+    if (manifest.kind === 'chapter-title') (titlesChapters[id] ??= {})[manifest.lang] = mediaDescriptor(manifest)
+    else if (manifest.kind === 'topic-title') (titlesTopics[id] ??= {})[manifest.lang] = mediaDescriptor(manifest)
+  }
+}
+
 /** Legacy entities by id — the transitional bridge for ids without a manifest. */
 const entitiesById = new Map()
 for (const file of readdirSync(ENTITIES).filter((f) => f.endsWith('.json'))) {
@@ -427,6 +454,13 @@ for (const [section, records] of recordsBySection) {
   })
   searchStats.push(`  ${section}: ${records.length} searchable records`)
 }
+
+emit('library/dictionary/titles.json', {
+  schema: 1,
+  generated: new Date().toISOString(),
+  chapters: titlesChapters,
+  topics: titlesTopics
+})
 
 const progress = {}
 for (const records of recordsBySectionTopic.values()) {

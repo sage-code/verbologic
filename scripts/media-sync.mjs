@@ -103,9 +103,11 @@ function* itemManifests() {
   }
 }
 
-/** The item's media file on disk: the manifest's file, or <id>.mp3 for pending items. */
+/** The item's media file on disk: the manifest's file, or <manifest-filename>.mp3
+ *  for pending items (A002.json -> A002.mp3 — the manifest's own filename, not
+ *  its semantic `id`, which is a separate internal key). */
 function diskPath(item) {
-  const base = item.manifest.file ?? `${item.manifest.id}.mp3`
+  const base = item.manifest.file ?? `${basename(item.path, '.json')}.mp3`
   const p = join(item.dir, base)
   return existsSync(p) ? p : null
 }

@@ -13,13 +13,16 @@
  *  - ipa (optional) · kind via --kind (default 'word' → id prefix 'word')
  *
  * What it does:
- *  - writes media/audio/<lang>/<TOPIC>/<ID>.json with status 'pending'
- *    (key/file/bytes/sha1 null — renders as "audio coming soon" until filled)
+ *  - writes media/audio/<lang>/<TOPIC>/A0NN.json with status 'pending'
+ *    (key/file/bytes/sha1 null — renders as "audio coming soon" until filled).
+ *    A0NN is sequential per topic folder (continues from the highest existing
+ *    A-code there) — the manifest filename convention used across the whole
+ *    repo; the semantic id lives in the `id` field, not the filename.
  *  - ids are `<kind-prefix>_<slug(term)>`, deduped against the whole sidebar
  *  - inserts the ids into the sidebar topic's items (append, deduped)
  *  - never touches published manifests or existing items
  */
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -52,9 +55,20 @@ function fail(msg) {
   process.exit(1)
 }
 
+/** Next free A-code in a topic dir (A007.json, A008.json, … → 9), 1 if empty/missing. */
+function nextCode(dir) {
+  if (!existsSync(dir)) return 1
+  const nums = readdirSync(dir)
+    .map((f) => /^A(\d+)\.json$/.exec(f))
+    .filter(Boolean)
+    .map((m) => Number(m[1]))
+  return nums.length ? Math.max(...nums) + 1 : 1
+}
+
 function main() {
   const [lang, topic, seedFile] = process.argv.slice(2).filter((a) => !a.startsWith('--'))
-  const kindFlag = process.argv[process.argv.indexOf('--kind') + 1]
+  const kindIdx = process.argv.indexOf('--kind')
+  const kindFlag = kindIdx !== -1 ? process.argv[kindIdx + 1] : undefined
   if (!lang || !topic || !seedFile) fail('usage: media-scaffold-topic.mjs <lang> <TOPIC> <seed.json> [--kind word]')
   const kind = kindFlag ?? 'word'
   const prefix = PREFIX_BY_KIND[kind]
@@ -74,6 +88,8 @@ function main() {
   if (!topicEntry) fail(`unknown topic '${topic}'`)
 
   const dir = join(MEDIA_AUDIO, lang, topic)
+  mkdirSync(dir, { recursive: true })
+  let code = nextCode(dir)
   const created = []
   for (const row of seed) {
     if (!row.term) fail(`seed row without term: ${JSON.stringify(row)}`)
@@ -98,8 +114,8 @@ function main() {
       status: 'pending',
       tags: [`scaffold#${topic}`]
     }
-    mkdirSync(dir, { recursive: true })
-    writeFileSync(join(dir, `${id}.json`), JSON.stringify(manifest, null, 2) + '\n')
+    const fileName = `A${String(code++).padStart(3, '0')}.json`
+    writeFileSync(join(dir, fileName), JSON.stringify(manifest, null, 2) + '\n')
     topicEntry.items.push(id)
     created.push(id)
   }

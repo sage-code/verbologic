@@ -1,11 +1,15 @@
 // DictionaryToolbar — the table layout's control row (TopicTable): Fibonacci
 // rows-per-page select (3·5·8·13·21·34·55·89), prev/next pagination that
 // walks into the next/previous topic when the page run is exhausted
-// (page-only while search results are shown), the page pill, one simple
-// play/stop button (same size and shape in both states; ▶ plays the page, ■
-// stops any run) and a persistent Repeat on/off toggle that stays set across
-// Stop — all packed to the RIGHT. The word SEARCH box (WordSearchBar, bare)
-// is the row's first child and grows to fill the left side.
+// (page-only while search results are shown), the page pill, a Play/Stop
+// button (▶ plays the page once, dark red square while that plain run goes,
+// click again to stop) and a Repeat button that starts the page playing in a
+// loop immediately on click (no separate Play press), turns dark red with a
+// stop-square icon while it runs, and click again stops it outright. Repeat
+// alone owns the red "looping" state — pressing Play while Repeat is running
+// just drops the loop flag and lets the current pass keep playing, instead of
+// stopping it — all packed to the RIGHT. The word SEARCH box (WordSearchBar,
+// bare) is the row's first child and grows to fill the left side.
 <script setup lang="ts">
 import { useRoadmapStore } from '~/stores/roadmapStore'
 import { useAudioQueue, type QueueItem } from '~/composables/useAudioQueue'
@@ -31,9 +35,13 @@ const PAGE_SIZES = [3, 5, 8, 13, 21, 34, 55, 89]
 
 /** Any running queue (page run or looping single row) squares the button. */
 const playing = computed(() => props.queue.isPlaying.value)
-/** Repeat is a plain on/off flag — it persists across Stop, so the button
- *  reflects the setting, never a transient blinking state. */
-const repeatOn = computed(() => props.queue.loop.value)
+/** Repeat is a play-in-loop toggle, not a separate arm-then-press-Play step:
+ *  red exactly while a looped run is actually playing. */
+const repeatOn = computed(() => playing.value && props.queue.loop.value)
+/** Play's own red "playing" state — a *non-looped* run only. While Repeat is
+ *  running, Play stays in its idle look; Repeat alone owns the red/looping
+ *  state so the two buttons never both claim to be "the one playing". */
+const playActive = computed(() => playing.value && !props.queue.loop.value)
 /** Title audio is not wired yet — outside 'words' mode there is nothing to
  *  play. While searching/filtering, a single hit isn't worth a play run —
  *  play only lights up once there's more than one result. */
@@ -66,18 +74,39 @@ const canPrev = computed(() =>
       : store.page > 1 || store.hasPrevTopic
 )
 
+/** Click: plays/stops a plain (non-looped) run — or, while Repeat is going,
+ *  just drops the loop flag and lets the current pass keep playing instead
+ *  of stopping it outright (Repeat itself is the "stop the loop" button). */
 function togglePlay() {
+  if (repeatOn.value) {
+    props.queue.setLoop(false)
+    return
+  }
   if (!playable.value) return
   props.queue.toggle(props.items, {
     gapMs: GAP_MS,
-    loop: props.queue.loop.value,
+    loop: false,
     onCycle: props.onCycle,
     onItemEnded: props.onItemEnded
   })
 }
 
+/** Click: start playing the page immediately in a loop (no separate Play
+ *  press needed), or stop if a looped run is already going. */
 function toggleLoop() {
-  props.queue.setLoop(!props.queue.loop.value)
+  if (repeatOn.value) {
+    props.queue.setLoop(false)
+    props.queue.stop()
+    return
+  }
+  if (!playable.value) return
+  props.queue.setLoop(true)
+  props.queue.play(props.items, {
+    gapMs: GAP_MS,
+    loop: true,
+    onCycle: props.onCycle,
+    onItemEnded: props.onItemEnded
+  })
 }
 
 /** Next page — or the next topic once the last page is exhausted. Always
@@ -158,43 +187,54 @@ async function goPrev() {
           {{ copy('dictionary.page', 'Page') }}: {{ store.page }}/{{ store.pageCount }}
         </span>
 
-        <!-- Play / Stop: same outline look as the row play buttons and Repeat
-             (no fill, both themes) — accent icon when it can play, tinted like
-             Repeat-on while running, faint when there is nothing to play -->
-
+        <!-- Play / Stop: accent icon when it can play, dark red while a plain
+             (non-looped) run is going, faint when there is nothing to play.
+             Stays in this idle look while Repeat runs — Repeat owns the red
+             "looping" state — so clicking it just drops the loop and lets
+             the current pass keep playing. -->
         <button
           type="button"
           class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border text-sm transition disabled:cursor-not-allowed"
           :class="
             !playable
               ? 'border-edge text-faint'
-              : playing
+              : playActive
                 ? 'border-transparent bg-red-800 text-white'
                 : 'border-edge text-accent hover:border-accent'
           "
           :disabled="!playable"
-          :aria-pressed="playing"
-          :title="!playable ? copy('ui.audio_coming_soon', 'Audio coming soon') : playing ? copy('roadmap.stop', 'Stop') : copy('dictionary.play', 'Play')"
+          :aria-pressed="playActive"
+          :title="!playable ? copy('ui.audio_coming_soon', 'Audio coming soon') : playActive ? copy('roadmap.stop', 'Stop') : copy('dictionary.play', 'Play')"
           @click="togglePlay"
         >
-          <span class="leading-none">{{ playing ? '■' : '▶' }}</span>
+          <span class="flex h-full w-full items-center justify-center leading-none">
+            <span v-if="playActive" class="inline-block h-2.5 w-2.5 bg-current" aria-hidden="true" />
+            <template v-else>▶</template>
+          </span>
         </button>
 
-        <!-- Repeat: a persistent on/off toggle — set it before or after play;
-             it stays on across Stop and loops page runs and single rows alike -->
+        <!-- Repeat: starts the page playing in a loop immediately — dark red
+             while it runs, with its icon swapped for a stop square (clicking
+             it again stops the loop outright, unlike Play). -->
         <button
           type="button"
-          class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border text-sm transition"
+          class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border text-sm transition disabled:cursor-not-allowed"
           :class="
-            repeatOn
-              ? 'border-accent bg-accent-soft text-accent'
-              : 'border-edge text-muted hover:border-accent hover:text-accent'
+            !playable
+              ? 'border-edge text-faint'
+              : repeatOn
+                ? 'border-transparent bg-red-800 text-white'
+                : 'border-edge text-muted hover:border-accent hover:text-accent'
           "
+          :disabled="!playable"
           :aria-pressed="repeatOn"
-          :title="copy('dictionary.loop', 'Repeat')"
+          :title="!playable ? copy('ui.audio_coming_soon', 'Audio coming soon') : repeatOn ? copy('roadmap.stop', 'Stop') : copy('dictionary.loop', 'Repeat')"
           @click="toggleLoop"
         >
-          ⟳
+          <span class="flex h-full w-full items-center justify-center leading-none">
+            <span v-if="repeatOn" class="inline-block h-2.5 w-2.5 bg-current" aria-hidden="true" />
+            <template v-else>⟳</template>
+          </span>
         </button>
       </div>
     </div>
