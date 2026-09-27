@@ -91,6 +91,10 @@ watch(
               @click="store.openTopic(tp.code)"
             >
               <span class="min-w-0 flex-1 truncate">{{ topicTitle(tp.names, tp.code) }}</span>
+              <span
+                v-if="tp.level"
+                class="shrink-0 rounded border border-edge px-1 text-[10px] font-medium leading-4 opacity-70"
+              >{{ tp.level }}</span>
             </button>
           </li>
         </ul>

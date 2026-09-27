@@ -1,132 +1,114 @@
 [
   {
-    "id": "sentence_eu-spun-salut",
+    "id": "lecture_questions",
     "section": "library/lectures",
-    "kind": "sentence",
+    "kind": "article",
     "lang": "ro",
-    "source": "media",
-    "term": "Eu spun salut.",
+    "source": "content",
+    "term": "Asking and answering",
     "names": {
-      "en": "I say hello.",
-      "ro": "Eu spun salut."
+      "en": "Asking and answering"
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C2T12/A013.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 12672,
-      "sha1": "f88134f9acf8a557bc22b13f58792ac73322ffb4"
+      "url": null,
+      "mime": "",
+      "bytes": 0,
+      "sha1": null
     },
-    "tags": [
-      "sentences#greetings-and-feelings"
-    ],
+    "tags": [],
     "context": null,
     "example": null,
     "topic": "L2T03",
-    "entity_id": "sentence_eu-spun-salut"
-  },
-  {
-    "id": "sentence_eu-spun-multumesc",
-    "section": "library/lectures",
-    "kind": "sentence",
-    "lang": "ro",
-    "source": "media",
-    "term": "Eu spun mulțumesc.",
-    "names": {
-      "en": "I say thank you.",
-      "ro": "Eu spun mulțumesc."
+    "entity_id": "lecture_questions",
+    "content": {
+      "canonical": "en",
+      "locales": {
+        "en": {
+          "status": "draft",
+          "stale": false
+        }
+      },
+      "summary": "Turn a statement into a question, then answer it — every question in this chapter comes with a \"yes\" and a \"no\" answer.",
+      "order": 1,
+      "minutes": 5
     },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C2T12/A012.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 13824,
-      "sha1": "78984c90995eac7e6fbfa4fa46505521ce87eb0a"
-    },
-    "tags": [
-      "sentences#greetings-and-feelings"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "L2T03",
-    "entity_id": "sentence_eu-spun-multumesc"
-  },
-  {
-    "id": "sentence_eu-sunt-fericit-azi",
-    "section": "library/lectures",
-    "kind": "sentence",
-    "lang": "ro",
-    "source": "media",
-    "term": "Eu sunt fericit azi.",
-    "names": {
-      "en": "I am happy today.",
-      "ro": "Eu sunt fericit azi."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C2T12/A014.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 14400,
-      "sha1": "a83b49acd1108711f5b1be516f01bb73ad62d1de"
-    },
-    "tags": [
-      "sentences#greetings-and-feelings"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "L2T03",
-    "entity_id": "sentence_eu-sunt-fericit-azi"
-  },
-  {
-    "id": "sentence_el-este-trist-azi",
-    "section": "library/lectures",
-    "kind": "sentence",
-    "lang": "ro",
-    "source": "media",
-    "term": "El este trist azi.",
-    "names": {
-      "en": "He is sad today.",
-      "ro": "El este trist azi."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C2T12/A011.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 13680,
-      "sha1": "9db26ae5c3bdd4c96d38c2d1494c34a019a1c871"
-    },
-    "tags": [
-      "sentences#greetings-and-feelings"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "L2T03",
-    "entity_id": "sentence_el-este-trist-azi"
-  },
-  {
-    "id": "sentence_ea-este-linistita-acum",
-    "section": "library/lectures",
-    "kind": "sentence",
-    "lang": "ro",
-    "source": "media",
-    "term": "Ea este liniștită acum.",
-    "names": {
-      "en": "She is calm now.",
-      "ro": "Ea este liniștită acum."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C2T12/A010.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 14544,
-      "sha1": "cb7feb0efb8d75787f9317d96c250a680819e949"
-    },
-    "tags": [
-      "sentences#greetings-and-feelings"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "L2T03",
-    "entity_id": "sentence_ea-este-linistita-acum"
+    "related": [
+      {
+        "id": "question_esti-student",
+        "entity_id": "question_esti-student",
+        "topic": "L2T04",
+        "lang": "ro",
+        "term": "Ești student?",
+        "names": {
+          "ro": "Ești student?"
+        },
+        "ipa": null,
+        "context": null,
+        "media": {
+          "url": "https://media.verbologic.com/audio/ro/L2T04/A030.mp3"
+        }
+      },
+      {
+        "id": "question_da-sunt-student",
+        "entity_id": "question_da-sunt-student",
+        "topic": "L2T04",
+        "lang": "ro",
+        "term": "Da, sunt student.",
+        "names": {
+          "ro": "Da, sunt student."
+        },
+        "ipa": null,
+        "context": null,
+        "media": {
+          "url": "https://media.verbologic.com/audio/ro/L2T04/A016.mp3"
+        }
+      },
+      {
+        "id": "question_nu-sunt-profesor",
+        "entity_id": "question_nu-sunt-profesor",
+        "topic": "L2T04",
+        "lang": "ro",
+        "term": "Nu, sunt profesor.",
+        "names": {
+          "ro": "Nu, sunt profesor."
+        },
+        "ipa": null,
+        "context": null,
+        "media": {
+          "url": "https://media.verbologic.com/audio/ro/L2T04/A051.mp3"
+        }
+      },
+      {
+        "id": "question_care-este-numele-tau",
+        "entity_id": "question_care-este-numele-tau",
+        "topic": "L2T04",
+        "lang": "ro",
+        "term": "Care este numele tău?",
+        "names": {
+          "ro": "Care este numele tău?"
+        },
+        "ipa": null,
+        "context": null,
+        "media": {
+          "url": "https://media.verbologic.com/audio/ro/L2T04/A002.mp3"
+        }
+      },
+      {
+        "id": "question_numele-meu-este-andrei",
+        "entity_id": "question_numele-meu-este-andrei",
+        "topic": "L2T04",
+        "lang": "ro",
+        "term": "Numele meu este Andrei.",
+        "names": {
+          "ro": "Numele meu este Andrei."
+        },
+        "ipa": null,
+        "context": null,
+        "media": {
+          "url": "https://media.verbologic.com/audio/ro/L2T04/A058.mp3"
+        }
+      }
+    ]
   }
 ]

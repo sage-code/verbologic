@@ -1,132 +1,119 @@
 [
   {
-    "id": "sentence_autobuzul-vine-la-statie",
+    "id": "lecture_imperative",
     "section": "library/lectures",
-    "kind": "sentence",
+    "kind": "article",
     "lang": "ro",
-    "source": "media",
-    "term": "Autobuzul vine la stație.",
+    "source": "content",
+    "term": "The imperative",
     "names": {
-      "en": "The bus comes to the station.",
-      "ro": "Autobuzul vine la stație."
+      "en": "The imperative"
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T03/A015.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 16128,
-      "sha1": "21bed29dd91bc36051781d7ef41a8fd1c4e2f4ec"
+      "url": null,
+      "mime": "",
+      "bytes": 0,
+      "sha1": null
     },
-    "tags": [
-      "sentences#transport-and-shopping"
-    ],
+    "tags": [],
     "context": null,
     "example": null,
     "topic": "L2T06",
-    "entity_id": "sentence_autobuzul-vine-la-statie"
-  },
-  {
-    "id": "sentence_trenul-vine-acum",
-    "section": "library/lectures",
-    "kind": "sentence",
-    "lang": "ro",
-    "source": "media",
-    "term": "Trenul vine acum.",
-    "names": {
-      "en": "The train comes now.",
-      "ro": "Trenul vine acum."
+    "entity_id": "lecture_imperative",
+    "content": {
+      "canonical": "en",
+      "locales": {
+        "en": {
+          "status": "draft",
+          "stale": false
+        }
+      },
+      "summary": "Commands, instructions, requests and warnings — short, direct sentences you will hear every day.",
+      "order": 1,
+      "minutes": 4
     },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T03/A019.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 12384,
-      "sha1": "f1eff3fc7532766259a0ec7189a9f4a4e985ea6c"
-    },
-    "tags": [
-      "sentences#transport-and-shopping"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "L2T06",
-    "entity_id": "sentence_trenul-vine-acum"
-  },
-  {
-    "id": "sentence_eu-merg-la-magazin",
-    "section": "library/lectures",
-    "kind": "sentence",
-    "lang": "ro",
-    "source": "media",
-    "term": "Eu merg la magazin.",
-    "names": {
-      "en": "I go to the store.",
-      "ro": "Eu merg la magazin."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T03/A018.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 14112,
-      "sha1": "6d7e2eec8a88ee5d18dd5d7348ce068f53be09ce"
-    },
-    "tags": [
-      "sentences#transport-and-shopping"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "L2T06",
-    "entity_id": "sentence_eu-merg-la-magazin"
-  },
-  {
-    "id": "sentence_eu-am-bani-si-card",
-    "section": "library/lectures",
-    "kind": "sentence",
-    "lang": "ro",
-    "source": "media",
-    "term": "Eu am bani și card.",
-    "names": {
-      "en": "I have money and a card.",
-      "ro": "Eu am bani și card."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T03/A017.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 13392,
-      "sha1": "350e46f48c7a5563d525964b88781a4a5d859fdd"
-    },
-    "tags": [
-      "sentences#transport-and-shopping"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "L2T06",
-    "entity_id": "sentence_eu-am-bani-si-card"
-  },
-  {
-    "id": "sentence_bonul-este-pe-masa",
-    "section": "library/lectures",
-    "kind": "sentence",
-    "lang": "ro",
-    "source": "media",
-    "term": "Bonul este pe masă.",
-    "names": {
-      "en": "The receipt is on the table.",
-      "ro": "Bonul este pe masă."
-    },
-    "ipa": null,
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T03/A016.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 14400,
-      "sha1": "ab9445f2efb97a858491a6ad039cb93353207fe9"
-    },
-    "tags": [
-      "sentences#transport-and-shopping"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "L2T06",
-    "entity_id": "sentence_bonul-este-pe-masa"
+    "related": [
+      {
+        "id": "imperative_spune-salut",
+        "entity_id": "imperative_spune-salut",
+        "topic": "L2T07",
+        "lang": "ro",
+        "term": "Spune salut.",
+        "names": {
+          "en": "Say hello.",
+          "ro": "Spune salut."
+        },
+        "ipa": null,
+        "context": null,
+        "media": {
+          "url": "https://media.verbologic.com/audio/ro/L2T07/A046.mp3"
+        }
+      },
+      {
+        "id": "imperative_spune-buna-ziua",
+        "entity_id": "imperative_spune-buna-ziua",
+        "topic": "L2T07",
+        "lang": "ro",
+        "term": "Spune bună ziua.",
+        "names": {
+          "en": "Say good day.",
+          "ro": "Spune bună ziua."
+        },
+        "ipa": null,
+        "context": null,
+        "media": {
+          "url": "https://media.verbologic.com/audio/ro/L2T07/A001.mp3"
+        }
+      },
+      {
+        "id": "imperative_spune-te-rog",
+        "entity_id": "imperative_spune-te-rog",
+        "topic": "L2T07",
+        "lang": "ro",
+        "term": "Spune te rog.",
+        "names": {
+          "en": "Say please.",
+          "ro": "Spune te rog."
+        },
+        "ipa": null,
+        "context": null,
+        "media": {
+          "url": "https://media.verbologic.com/audio/ro/L2T07/A061.mp3"
+        }
+      },
+      {
+        "id": "imperative_spune-multumesc",
+        "entity_id": "imperative_spune-multumesc",
+        "topic": "L2T07",
+        "lang": "ro",
+        "term": "Spune mulțumesc.",
+        "names": {
+          "en": "Say thank you.",
+          "ro": "Spune mulțumesc."
+        },
+        "ipa": null,
+        "context": null,
+        "media": {
+          "url": "https://media.verbologic.com/audio/ro/L2T07/A031.mp3"
+        }
+      },
+      {
+        "id": "imperative_spune-la-revedere",
+        "entity_id": "imperative_spune-la-revedere",
+        "topic": "L2T07",
+        "lang": "ro",
+        "term": "Spune la revedere.",
+        "names": {
+          "en": "Say goodbye.",
+          "ro": "Spune la revedere."
+        },
+        "ipa": null,
+        "context": null,
+        "media": {
+          "url": "https://media.verbologic.com/audio/ro/L2T07/A016.mp3"
+        }
+      }
+    ]
   }
 ]

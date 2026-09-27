@@ -1,132 +1,406 @@
 [
   {
-    "id": "imperative_spune-salut",
+    "id": "greeting_salut",
     "section": "library/lectures",
-    "kind": "imperative",
+    "kind": "greeting",
     "lang": "ro",
     "source": "media",
-    "term": "Spune salut.",
+    "term": "Salut",
     "names": {
-      "en": "Say hello.",
-      "ro": "Spune salut."
+      "ro": "Salut"
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T12/A004.mp3",
+      "url": null,
       "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "8773c85aad630ab12a373e8d35142a35cacf1df5"
+      "bytes": 0,
+      "sha1": null
     },
     "tags": [
-      "imperative#greetings-and-formulas"
+      "greetings#override:greetings"
     ],
-    "context": null,
+    "context": "friends, close colleagues",
     "example": null,
     "topic": "L4T02",
-    "entity_id": "imperative_spune-salut"
+    "entity_id": "greeting_salut"
   },
   {
-    "id": "imperative_spune-buna-ziua",
+    "id": "greeting_buna",
     "section": "library/lectures",
-    "kind": "imperative",
+    "kind": "greeting",
     "lang": "ro",
     "source": "media",
-    "term": "Spune bună ziua.",
+    "term": "Bună",
     "names": {
-      "en": "Say good day.",
-      "ro": "Spune bună ziua."
+      "ro": "Bună"
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T12/A001.mp3",
+      "url": null,
       "mime": "audio/mpeg",
-      "bytes": 13392,
-      "sha1": "37c570d8c34b832fc4277d8e8c7f5bffb8d5bf0b"
+      "bytes": 0,
+      "sha1": null
     },
     "tags": [
-      "imperative#greetings-and-formulas"
+      "greetings#override:greetings"
     ],
-    "context": null,
+    "context": "daily informal situations",
     "example": null,
     "topic": "L4T02",
-    "entity_id": "imperative_spune-buna-ziua"
+    "entity_id": "greeting_buna"
   },
   {
-    "id": "imperative_spune-te-rog",
+    "id": "greeting_ceao",
     "section": "library/lectures",
-    "kind": "imperative",
+    "kind": "greeting",
     "lang": "ro",
     "source": "media",
-    "term": "Spune te rog.",
+    "term": "Ceao",
     "names": {
-      "en": "Say please.",
-      "ro": "Spune te rog."
+      "ro": "Ceao"
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T12/A005.mp3",
+      "url": null,
       "mime": "audio/mpeg",
-      "bytes": 11808,
-      "sha1": "cde397c9db0f07e4ad90428f9905b0ddbb21f087"
+      "bytes": 0,
+      "sha1": null
     },
     "tags": [
-      "imperative#greetings-and-formulas"
+      "greetings#override:greetings"
     ],
-    "context": null,
+    "context": "very close friends",
     "example": null,
     "topic": "L4T02",
-    "entity_id": "imperative_spune-te-rog"
+    "entity_id": "greeting_ceao"
   },
   {
-    "id": "imperative_spune-multumesc",
+    "id": "greeting_buna-dimineata",
     "section": "library/lectures",
-    "kind": "imperative",
+    "kind": "greeting",
     "lang": "ro",
     "source": "media",
-    "term": "Spune mulțumesc.",
+    "term": "Bună dimineața",
     "names": {
-      "en": "Say thank you.",
-      "ro": "Spune mulțumesc."
+      "ro": "Bună dimineața"
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T12/A003.mp3",
+      "url": null,
       "mime": "audio/mpeg",
-      "bytes": 13536,
-      "sha1": "06b60242efdb659838a76eed33cbac27f3d4e059"
+      "bytes": 0,
+      "sha1": null
     },
     "tags": [
-      "imperative#greetings-and-formulas"
+      "greetings#override:greetings"
     ],
-    "context": null,
+    "context": "morning, formal or neutral",
     "example": null,
     "topic": "L4T02",
-    "entity_id": "imperative_spune-multumesc"
+    "entity_id": "greeting_buna-dimineata"
   },
   {
-    "id": "imperative_spune-la-revedere",
+    "id": "greeting_buna-ziua",
     "section": "library/lectures",
-    "kind": "imperative",
+    "kind": "greeting",
     "lang": "ro",
     "source": "media",
-    "term": "Spune la revedere.",
+    "term": "Bună ziua",
     "names": {
-      "en": "Say goodbye.",
-      "ro": "Spune la revedere."
+      "ro": "Bună ziua"
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T12/A002.mp3",
+      "url": null,
       "mime": "audio/mpeg",
-      "bytes": 13392,
-      "sha1": "5741de2aa29afa369a356784d5b64f732b5929e8"
+      "bytes": 0,
+      "sha1": null
     },
     "tags": [
-      "imperative#greetings-and-formulas"
+      "greetings#override:greetings"
+    ],
+    "context": "daytime, formal or neutral",
+    "example": null,
+    "topic": "L4T02",
+    "entity_id": "greeting_buna-ziua"
+  },
+  {
+    "id": "greeting_buna-seara",
+    "section": "library/lectures",
+    "kind": "greeting",
+    "lang": "ro",
+    "source": "media",
+    "term": "Bună seara",
+    "names": {
+      "ro": "Bună seara"
+    },
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [
+      "greetings#override:greetings"
+    ],
+    "context": "evening, formal or neutral",
+    "example": null,
+    "topic": "L4T02",
+    "entity_id": "greeting_buna-seara"
+  },
+  {
+    "id": "greeting_noapte-buna",
+    "section": "library/lectures",
+    "kind": "greeting",
+    "lang": "ro",
+    "source": "media",
+    "term": "Noapte bună",
+    "names": {
+      "ro": "Noapte bună"
+    },
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [
+      "greetings#override:greetings"
+    ],
+    "context": "end of day, before sleep",
+    "example": null,
+    "topic": "L4T02",
+    "entity_id": "greeting_noapte-buna"
+  },
+  {
+    "id": "greeting_pe-curand",
+    "section": "library/lectures",
+    "kind": "greeting",
+    "lang": "ro",
+    "source": "media",
+    "term": "Pe curând",
+    "names": {
+      "ro": "Pe curând"
+    },
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [
+      "greetings#override:greetings"
+    ],
+    "context": "Warm formula used when you expect to meet again soon.",
+    "example": null,
+    "topic": "L4T02",
+    "entity_id": "greeting_pe-curand"
+  },
+  {
+    "id": "greeting_la-revedere",
+    "section": "library/lectures",
+    "kind": "greeting",
+    "lang": "ro",
+    "source": "media",
+    "term": "La revedere",
+    "names": {
+      "ro": "La revedere"
+    },
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [
+      "greetings#override:greetings"
+    ],
+    "context": "Standard polite form, suitable for formal and neutral contexts.",
+    "example": null,
+    "topic": "L4T02",
+    "entity_id": "greeting_la-revedere"
+  },
+  {
+    "id": "greeting_sa-fii-sanatos",
+    "section": "library/lectures",
+    "kind": "greeting",
+    "lang": "ro",
+    "source": "media",
+    "term": "Să fii sănătos",
+    "names": {
+      "ro": "Să fii sănătos"
+    },
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [
+      "greetings#override:greetings"
+    ],
+    "context": "Personal wish, more intimate; conveys care and respect.",
+    "example": null,
+    "topic": "L4T02",
+    "entity_id": "greeting_sa-fii-sanatos"
+  },
+  {
+    "id": "greeting_noroc-bun",
+    "section": "library/lectures",
+    "kind": "greeting",
+    "lang": "ro",
+    "source": "media",
+    "term": "Noroc bun",
+    "names": {
+      "ro": "Noroc bun"
+    },
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [
+      "greetings#override:greetings"
+    ],
+    "context": "Rare/regional formula; may sound archaic, mainly used in traditional tone.",
+    "example": null,
+    "topic": "L4T02",
+    "entity_id": "greeting_noroc-bun"
+  },
+  {
+    "id": "greeting_sa-auzim-de-bine",
+    "section": "library/lectures",
+    "kind": "greeting",
+    "lang": "ro",
+    "source": "media",
+    "term": "Să auzim de bine",
+    "names": {
+      "ro": "Să auzim de bine"
+    },
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [
+      "greetings#override:greetings"
+    ],
+    "context": "Friendly closing with a positive future meaning.",
+    "example": null,
+    "topic": "L4T02",
+    "entity_id": "greeting_sa-auzim-de-bine"
+  },
+  {
+    "id": "greeting_sa-ne-vedem-sanatosi",
+    "section": "library/lectures",
+    "kind": "greeting",
+    "lang": "ro",
+    "source": "media",
+    "term": "Să ne vedem sănătoși",
+    "names": {
+      "ro": "Să ne vedem sănătoși"
+    },
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [
+      "greetings#override:greetings"
+    ],
+    "context": "Affectionate wish, suitable when separation may be longer.",
+    "example": null,
+    "topic": "L4T02",
+    "entity_id": "greeting_sa-ne-vedem-sanatosi"
+  },
+  {
+    "id": "greeting_noapte-buna-2",
+    "section": "library/lectures",
+    "kind": "greeting",
+    "lang": "ro",
+    "source": "media",
+    "term": "Noapte bună",
+    "names": {
+      "ro": "Noapte bună"
+    },
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [
+      "greetings#override:greetings"
+    ],
+    "context": "Used late in the evening or before sleep.",
+    "example": null,
+    "topic": "L4T02",
+    "entity_id": "greeting_noapte-buna-2"
+  },
+  {
+    "id": "greeting_adio-si-noroc",
+    "section": "library/lectures",
+    "kind": "greeting",
+    "lang": "ro",
+    "source": "media",
+    "term": "Adio și noroc",
+    "names": {
+      "ro": "Adio și noroc"
+    },
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [
+      "greetings#override:greetings"
+    ],
+    "context": "Very strong; may suggest a final goodbye. Use carefully.",
+    "example": null,
+    "topic": "L4T02",
+    "entity_id": "greeting_adio-si-noroc"
+  },
+  {
+    "id": "word_imi-pare-bine",
+    "section": "library/lectures",
+    "kind": "word",
+    "lang": "ro",
+    "source": "media",
+    "term": "îmi pare bine",
+    "names": {
+      "en": "nice to meet you",
+      "es": "encantado",
+      "it": "piacere",
+      "fr": "enchanté",
+      "ro": "îmi pare bine"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L4T02/A001.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 10800,
+      "sha1": "9aa773fdc102479e0caa14481332dea9b46b0b73"
+    },
+    "tags": [
+      "vocabulary#emotions-social"
     ],
     "context": null,
     "example": null,
     "topic": "L4T02",
-    "entity_id": "imperative_spune-la-revedere"
+    "entity_id": "word_imi-pare-bine"
   }
 ]

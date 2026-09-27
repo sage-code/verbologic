@@ -18,10 +18,11 @@
             "en": "The Romanian alphabet",
             "ro": "Alfabetul românesc"
           },
+          "layout": "article",
+          "level": "A1",
           "items": [
             "lecture_alphabet"
-          ],
-          "layout": "article"
+          ]
         },
         {
           "code": "L1T02",
@@ -29,6 +30,8 @@
             "en": "Alphabet & letters",
             "ro": "Alfabet și litere"
           },
+          "layout": "table",
+          "level": "A1",
           "items": [
             "letter_a-2",
             "letter_b-2",
@@ -135,7 +138,11 @@
             "letter_y",
             "letter_z"
           ],
-          "layout": "table"
+          "lastIndex": {
+            "ro": {
+              "audio": 30
+            }
+          }
         },
         {
           "code": "L1T03",
@@ -143,10 +150,11 @@
             "en": "Vowels, diphthongs & triphthongs",
             "ro": "Vocale, diftongi și triftongi"
           },
+          "layout": "article",
+          "level": "A1",
           "items": [
             "lecture_vowel-groups"
-          ],
-          "layout": "article"
+          ]
         },
         {
           "code": "L1T04",
@@ -154,6 +162,8 @@
             "en": "Vowel groups",
             "ro": "Grupuri vocalice"
           },
+          "layout": "table",
+          "level": "A1",
           "items": [
             "letter_ea",
             "letter_oa",
@@ -175,7 +185,11 @@
             "letter_iau",
             "letter_ioa"
           ],
-          "layout": "table"
+          "lastIndex": {
+            "ro": {
+              "audio": 19
+            }
+          }
         },
         {
           "code": "L1T05",
@@ -183,10 +197,11 @@
             "en": "Digraphs & trigraphs",
             "ro": "Digrafe și trigrafe"
           },
+          "layout": "article",
+          "level": "A1",
           "items": [
             "lecture_consonant-groups"
-          ],
-          "layout": "article"
+          ]
         },
         {
           "code": "L1T06",
@@ -194,13 +209,19 @@
             "en": "Consonant groups",
             "ro": "Grupuri consonantice"
           },
+          "layout": "table",
+          "level": "A1",
           "items": [
             "letter_ce-ci",
             "letter_ge-gi",
             "letter_che-chi",
             "letter_ghe-ghi"
           ],
-          "layout": "table"
+          "lastIndex": {
+            "ro": {
+              "audio": 4
+            }
+          }
         },
         {
           "code": "L1T07",
@@ -208,18 +229,29 @@
             "en": "Diacritics, syllables & stress",
             "ro": "Diacritice, silabe și accent"
           },
+          "layout": "article",
+          "level": "A1",
           "items": [
             "lecture_stress"
-          ],
-          "layout": "article"
+          ]
+        },
+        {
+          "code": "L1T08",
+          "names": {
+            "en": "Spelling & punctuation",
+            "ro": "Ortografie și punctuație"
+          },
+          "layout": "article",
+          "level": "A2",
+          "items": []
         }
       ]
     },
     {
       "code": "L2",
       "names": {
-        "en": "Statements",
-        "ro": "Propoziții enunțiative"
+        "en": "Sentences",
+        "ro": "Propoziții"
       },
       "topics": [
         {
@@ -228,127 +260,78 @@
             "en": "What is a sentence?",
             "ro": "Ce este o propoziție?"
           },
+          "layout": "article",
+          "level": "A1",
           "items": [
             "lecture_sentence"
-          ],
-          "layout": "article"
+          ]
         },
         {
           "code": "L2T02",
           "names": {
-            "en": "Identity and People",
-            "ro": "Identitate și persoane"
+            "en": "Statements",
+            "ro": "Enunțuri"
           },
+          "layout": "table",
+          "level": "A1",
           "items": [
             "sentence_eu-sunt-student",
             "sentence_el-este-profesor",
             "sentence_ea-este-femeie",
             "sentence_el-este-prietenul-meu",
-            "sentence_familia-mea-are-un-copil"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L2T03",
-          "names": {
-            "en": "Greetings and Feelings",
-            "ro": "Saluturi și sentimente"
-          },
-          "items": [
+            "sentence_familia-mea-are-un-copil",
             "sentence_eu-spun-salut",
             "sentence_eu-spun-multumesc",
             "sentence_eu-sunt-fericit-azi",
             "sentence_el-este-trist-azi",
-            "sentence_ea-este-linistita-acum"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L2T04",
-          "names": {
-            "en": "Home Objects and Places",
-            "ro": "Obiecte și locuri din casă"
-          },
-          "items": [
+            "sentence_ea-este-linistita-acum",
             "sentence_casa-are-o-usa",
             "sentence_apartamentul-are-o-fereastra",
             "sentence_cheia-este-pe-masa",
             "sentence_scaunul-este-langa-masa",
-            "sentence_patul-este-in-camera"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L2T05",
-          "names": {
-            "en": "Daily Actions and Meals",
-            "ro": "Acțiuni zilnice și mese"
-          },
-          "items": [
+            "sentence_patul-este-in-camera",
             "sentence_eu-ma-trezesc-dimineata",
             "sentence_eu-beau-apa",
             "sentence_eu-mananc-paine",
             "sentence_eu-citesc-seara",
-            "sentence_eu-dorm-noaptea"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L2T06",
-          "names": {
-            "en": "Transport and Shopping",
-            "ro": "Transport și cumpărături"
-          },
-          "items": [
+            "sentence_eu-dorm-noaptea",
             "sentence_autobuzul-vine-la-statie",
             "sentence_trenul-vine-acum",
             "sentence_eu-merg-la-magazin",
             "sentence_eu-am-bani-si-card",
-            "sentence_bonul-este-pe-masa"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L2T07",
-          "names": {
-            "en": "School and Office",
-            "ro": "Școală și birou"
-          },
-          "items": [
+            "sentence_bonul-este-pe-masa",
             "sentence_studentul-citeste-lectia",
             "sentence_profesorul-scrie-un-raport",
             "sentence_colegul-are-un-proiect",
             "sentence_clientul-are-un-contract",
             "sentence_sedinta-este-azi"
           ],
-          "layout": "table"
-        }
-      ]
-    },
-    {
-      "code": "L3",
-      "names": {
-        "en": "Questions & Answers",
-        "ro": "Întrebări și răspunsuri"
-      },
-      "topics": [
+          "lastIndex": {
+            "ro": {
+              "audio": 30
+            }
+          }
+        },
         {
-          "code": "L3T01",
+          "code": "L2T03",
           "names": {
             "en": "Asking and answering",
             "ro": "Cum întrebăm și cum răspundem"
           },
+          "layout": "article",
+          "level": "A1",
           "items": [
             "lecture_questions"
-          ],
-          "layout": "article"
+          ]
         },
         {
-          "code": "L3T02",
+          "code": "L2T04",
           "names": {
-            "en": "Names and Identity",
-            "ro": "Nume și identitate"
+            "en": "Questions: people, home & daily life",
+            "ro": "Întrebări: oameni, casă și viața de zi cu zi"
           },
+          "layout": "table",
+          "level": "A1",
           "items": [
             "question_care-este-numele-tau",
             "question_numele-meu-este-andrei",
@@ -358,17 +341,7 @@
             "question_nu-sunt-profesor",
             "question_el-este-prietenul-tau",
             "question_da-el-este-prietenul-meu",
-            "question_nu-el-este-colegul-meu"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L3T03",
-          "names": {
-            "en": "Family and People",
-            "ro": "Familie și persoane"
-          },
-          "items": [
+            "question_nu-el-este-colegul-meu",
             "question_ai-familie-mare",
             "question_da-am-familie-mare",
             "question_nu-am-familie-mica",
@@ -377,17 +350,7 @@
             "question_nu-copilul-este-la-scoala",
             "question_vecinul-este-acolo",
             "question_da-vecinul-este-acolo",
-            "question_nu-vecinul-este-la-birou"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L3T04",
-          "names": {
-            "en": "Feelings and Courtesy",
-            "ro": "Sentimente și politețe"
-          },
-          "items": [
+            "question_nu-vecinul-este-la-birou",
             "question_esti-fericit-azi",
             "question_da-sunt-fericit-azi",
             "question_nu-sunt-obosit-azi",
@@ -396,17 +359,7 @@
             "question_nu-spun-scuze",
             "question_ea-este-linistita-acum",
             "question_da-ea-este-linistita-acum",
-            "question_nu-ea-este-suparata-acum"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L3T05",
-          "names": {
-            "en": "Home Objects",
-            "ro": "Obiecte din casă"
-          },
-          "items": [
+            "question_nu-ea-este-suparata-acum",
             "question_cheia-este-pe-masa",
             "question_da-cheia-este-pe-masa",
             "question_nu-cheia-este-in-baie",
@@ -415,17 +368,7 @@
             "question_nu-patul-este-langa-usa",
             "question_ai-apartament",
             "question_da-am-apartament",
-            "question_nu-am-casa"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L3T06",
-          "names": {
-            "en": "Food and Drink",
-            "ro": "Mâncare și băutură"
-          },
-          "items": [
+            "question_nu-am-casa",
             "question_bei-apa-acum",
             "question_da-beau-apa-acum",
             "question_nu-beau-lapte-acum",
@@ -434,17 +377,7 @@
             "question_nu-mananc-oua-dimineata",
             "question_cumperi-peste-azi",
             "question_da-cumpar-peste-azi",
-            "question_nu-cumpar-fructe-azi"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L3T07",
-          "names": {
-            "en": "Daily Routine",
-            "ro": "Rutina zilnică"
-          },
-          "items": [
+            "question_nu-cumpar-fructe-azi",
             "question_te-trezesti-dimineata-devreme",
             "question_da-ma-trezesc-dimineata-devreme",
             "question_nu-ma-trezesc-tarziu",
@@ -453,17 +386,7 @@
             "question_nu-scriu-seara",
             "question_dormi-noaptea-bine",
             "question_da-dorm-noaptea-bine",
-            "question_nu-dorm-putin-noaptea"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L3T08",
-          "names": {
-            "en": "School Life",
-            "ro": "Viața la școală"
-          },
-          "items": [
+            "question_nu-dorm-putin-noaptea",
             "question_studentul-citeste-lectia",
             "question_da-studentul-citeste-lectia",
             "question_nu-studentul-scrie-lectia",
@@ -474,14 +397,20 @@
             "question_da-profesorul-este-la-universitate",
             "question_nu-profesorul-este-la-scoala"
           ],
-          "layout": "table"
+          "lastIndex": {
+            "ro": {
+              "audio": 63
+            }
+          }
         },
         {
-          "code": "L3T09",
+          "code": "L2T05",
           "names": {
-            "en": "Office Life",
-            "ro": "Viața la birou"
+            "en": "Questions: work, town, travel & help",
+            "ro": "Întrebări: muncă, oraș, călătorii și ajutor"
           },
+          "layout": "table",
+          "level": "A2",
           "items": [
             "question_ai-proiect-nou",
             "question_da-am-proiect-nou",
@@ -491,17 +420,7 @@
             "question_nu-clientul-are-intrebare",
             "question_sedinta-este-azi",
             "question_da-sedinta-este-azi",
-            "question_nu-sedinta-este-maine"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L3T10",
-          "names": {
-            "en": "Technology and Messages",
-            "ro": "Tehnologie și mesaje"
-          },
-          "items": [
+            "question_nu-sedinta-este-maine",
             "question_ai-telefon",
             "question_da-am-telefon",
             "question_nu-am-calculator",
@@ -510,17 +429,7 @@
             "question_nu-trimit-email-acum",
             "question_parola-este-aici",
             "question_da-parola-este-aici",
-            "question_nu-parola-este-in-fisier"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L3T11",
-          "names": {
-            "en": "Directions and Places",
-            "ro": "Direcții și locuri"
-          },
-          "items": [
+            "question_nu-parola-este-in-fisier",
             "question_magazinul-este-la-dreapta",
             "question_da-magazinul-este-la-dreapta",
             "question_nu-magazinul-este-la-stanga",
@@ -529,17 +438,7 @@
             "question_nu-statia-este-pe-alt-drum",
             "question_ai-harta",
             "question_da-am-harta",
-            "question_nu-am-telefon"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L3T12",
-          "names": {
-            "en": "Transport and Tickets",
-            "ro": "Transport și bilete"
-          },
-          "items": [
+            "question_nu-am-telefon",
             "question_vine-autobuzul-acum",
             "question_da-autobuzul-vine-acum",
             "question_nu-trenul-vine-acum",
@@ -548,17 +447,7 @@
             "question_nu-cumpar-bilet-acum",
             "question_trenul-merge-la-oras",
             "question_da-trenul-merge-la-oras",
-            "question_nu-trenul-merge-la-aeroport"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L3T13",
-          "names": {
-            "en": "Shopping and Money",
-            "ro": "Cumpărături și bani"
-          },
-          "items": [
+            "question_nu-trenul-merge-la-aeroport",
             "question_ai-bani",
             "question_da-am-bani",
             "question_nu-am-card",
@@ -567,17 +456,7 @@
             "question_nu-pretul-este-mic",
             "question_primesti-bon",
             "question_da-primesc-bon",
-            "question_nu-primesc-mesaj"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L3T14",
-          "names": {
-            "en": "Health and Help",
-            "ro": "Sănătate și ajutor"
-          },
-          "items": [
+            "question_nu-primesc-mesaj",
             "question_ai-durere",
             "question_da-am-durere",
             "question_nu-am-febra",
@@ -586,17 +465,7 @@
             "question_nu-doctorul-este-la-spital",
             "question_ai-nevoie-de-ajutor",
             "question_da-am-nevoie-de-ajutor",
-            "question_nu-am-nevoie-de-apa"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L3T15",
-          "names": {
-            "en": "Emergencies",
-            "ro": "Urgențe"
-          },
-          "items": [
+            "question_nu-am-nevoie-de-apa",
             "question_este-urgenta",
             "question_da-este-urgenta",
             "question_nu-este-alarma-falsa",
@@ -605,17 +474,7 @@
             "question_nu-politia-vine",
             "question_politia-este-aproape",
             "question_da-politia-este-aproape",
-            "question_nu-politia-este-departe"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L3T16",
-          "names": {
-            "en": "Weather and Nature",
-            "ro": "Vreme și natură"
-          },
-          "items": [
+            "question_nu-politia-este-departe",
             "question_vezi-soarele",
             "question_da-vad-soarele",
             "question_nu-vad-norii",
@@ -626,365 +485,246 @@
             "question_da-merg-la-mare",
             "question_nu-merg-la-munte"
           ],
-          "layout": "table"
-        }
-      ]
-    },
-    {
-      "code": "L4",
-      "names": {
-        "en": "Commands",
-        "ro": "Propoziții imperative"
-      },
-      "topics": [
+          "lastIndex": {
+            "ro": {
+              "audio": 72
+            }
+          }
+        },
         {
-          "code": "L4T01",
+          "code": "L2T06",
           "names": {
             "en": "The imperative",
             "ro": "Imperativul"
           },
+          "layout": "article",
+          "level": "A1",
           "items": [
             "lecture_imperative"
-          ],
-          "layout": "article"
+          ]
         },
         {
-          "code": "L4T02",
+          "code": "L2T07",
           "names": {
-            "en": "Greetings and Formulas",
-            "ro": "Saluturi și formule"
+            "en": "Commands",
+            "ro": "Comenzi"
           },
+          "layout": "table",
+          "level": "A2",
           "items": [
             "imperative_spune-salut",
             "imperative_spune-buna-ziua",
             "imperative_spune-te-rog",
             "imperative_spune-multumesc",
-            "imperative_spune-la-revedere"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T03",
-          "names": {
-            "en": "Identity and Social",
-            "ro": "Identitate și viață socială"
-          },
-          "items": [
+            "imperative_spune-la-revedere",
             "imperative_spune-numele",
             "imperative_scrie-prenumele",
             "imperative_suna-prietenul",
             "imperative_ajuta-copilul",
-            "imperative_saluta-vecinul"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T04",
-          "names": {
-            "en": "Messages and Devices",
-            "ro": "Mesaje și dispozitive"
-          },
-          "items": [
+            "imperative_saluta-vecinul",
             "imperative_deschide-telefonul",
             "imperative_citeste-mesajul",
             "imperative_scrie-emailul",
             "imperative_trimite-apelul-video",
-            "imperative_salveaza-fisierul"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T05",
-          "names": {
-            "en": "Doors, Windows, and Room",
-            "ro": "Uși, ferestre și cameră"
-          },
-          "items": [
+            "imperative_salveaza-fisierul",
             "imperative_deschide-usa",
             "imperative_inchide-fereastra",
             "imperative_pune-cheia-pe-masa",
             "imperative_adu-scaunul",
-            "imperative_aranjeaza-patul"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T06",
-          "names": {
-            "en": "Water, Bread, and Meals",
-            "ro": "Apă, pâine și mese"
-          },
-          "items": [
+            "imperative_aranjeaza-patul",
             "imperative_bea-apa",
             "imperative_mananca-paine",
             "imperative_bea-lapte",
             "imperative_mananca-oul",
-            "imperative_cumpara-peste"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T07",
-          "names": {
-            "en": "Daily Routine Commands",
-            "ro": "Comenzi pentru rutina zilnică"
-          },
-          "items": [
+            "imperative_cumpara-peste",
             "imperative_trezeste-te-dimineata",
             "imperative_lucreaza-azi",
             "imperative_invata-acum",
             "imperative_citeste-seara",
-            "imperative_dormi-noaptea"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T08",
-          "names": {
-            "en": "Classroom Basics",
-            "ro": "În clasă"
-          },
-          "items": [
+            "imperative_dormi-noaptea",
             "imperative_citeste-lectia",
             "imperative_scrie-tema",
             "imperative_deschide-caietul",
             "imperative_asculta-profesorul",
-            "imperative_pregateste-examenul"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T09",
-          "names": {
-            "en": "Office Actions",
-            "ro": "Acțiuni la birou"
-          },
-          "items": [
+            "imperative_pregateste-examenul",
             "imperative_deschide-proiectul",
             "imperative_citeste-raportul",
             "imperative_suna-clientul",
             "imperative_pregateste-contractul",
-            "imperative_respecta-programul"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T10",
-          "names": {
-            "en": "Digital Tasks",
-            "ro": "Sarcini digitale"
-          },
-          "items": [
+            "imperative_respecta-programul",
             "imperative_porneste-calculatorul",
             "imperative_deschide-aplicatia",
             "imperative_verifica-emailul",
             "imperative_trimite-mesajul",
-            "imperative_inchide-fisierul"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T11",
-          "names": {
-            "en": "Direction Commands",
-            "ro": "Indicații de direcție"
-          },
-          "items": [
+            "imperative_inchide-fisierul",
             "imperative_mergi-la-dreapta",
             "imperative_mergi-la-stanga",
             "imperative_urmeaza-strada",
             "imperative_cauta-coltul",
-            "imperative_verifica-harta"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T12",
-          "names": {
-            "en": "Transport Steps",
-            "ro": "Pași în transport"
-          },
-          "items": [
+            "imperative_verifica-harta",
             "imperative_ia-autobuzul",
             "imperative_asteapta-trenul",
             "imperative_cumpara-biletul",
             "imperative_mergi-la-statie",
-            "imperative_mergi-la-aeroport"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T13",
-          "names": {
-            "en": "Shopping Commands",
-            "ro": "La cumpărături"
-          },
-          "items": [
+            "imperative_mergi-la-aeroport",
             "imperative_intra-in-magazin",
             "imperative_cauta-piata",
             "imperative_verifica-pretul",
             "imperative_plateste-cu-cardul",
-            "imperative_pastreaza-bonul"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T14",
-          "names": {
-            "en": "Health Actions",
-            "ro": "Acțiuni pentru sănătate"
-          },
-          "items": [
+            "imperative_pastreaza-bonul",
             "imperative_suna-doctorul",
             "imperative_mergi-la-spital",
             "imperative_cauta-farmacia",
             "imperative_ia-medicamentul",
-            "imperative_bea-apa-acum"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T15",
-          "names": {
-            "en": "Emergency Actions",
-            "ro": "Acțiuni de urgență"
-          },
-          "items": [
+            "imperative_bea-apa-acum",
             "imperative_cere-ajutor",
             "imperative_suna-la-politie",
             "imperative_cheama-ambulanta",
             "imperative_ramai-calm",
-            "imperative_mergi-la-spital-acum"
-          ],
-          "layout": "table"
-        },
-        {
-          "code": "L4T16",
-          "names": {
-            "en": "Weather and Outdoors",
-            "ro": "Vreme și aer liber"
-          },
-          "items": [
+            "imperative_mergi-la-spital-acum",
             "imperative_priveste-soarele",
             "imperative_asculta-vantul",
             "imperative_priveste-norul",
             "imperative_urmeaza-raul",
             "imperative_cauta-padurea"
           ],
-          "layout": "table"
+          "lastIndex": {
+            "ro": {
+              "audio": 75
+            }
+          }
         }
       ]
     },
     {
-      "code": "L5",
+      "code": "L3",
       "names": {
-        "en": "Grammar Building Blocks",
-        "ro": "Elemente de gramatică"
+        "en": "Grammar",
+        "ro": "Gramatică"
       },
       "topics": [
         {
-          "code": "L5T01",
+          "code": "L3T01",
           "names": {
             "en": "Personal pronouns",
             "ro": "Pronumele personale"
           },
+          "layout": "article",
+          "level": "A1",
           "items": [
             "lecture_pronouns"
-          ],
-          "layout": "article"
+          ]
         },
         {
-          "code": "L5T02",
+          "code": "L3T02",
           "names": {
             "en": "To be & to have",
             "ro": "A fi și a avea"
           },
+          "layout": "article",
+          "level": "A1",
           "items": [
             "lecture_be-have"
-          ],
-          "layout": "article"
+          ]
         },
         {
-          "code": "L5T03",
+          "code": "L3T03",
           "names": {
             "en": "Verbs in the present tense",
             "ro": "Verbe la prezent"
           },
+          "layout": "article",
+          "level": "A2",
           "items": [
             "lecture_present-tense"
-          ],
-          "layout": "article"
+          ]
         },
         {
-          "code": "L5T04",
+          "code": "L3T04",
           "names": {
             "en": "Nouns, gender & articles",
             "ro": "Substantive, gen și articole"
           },
+          "layout": "article",
+          "level": "A2",
           "items": [
             "lecture_nouns"
-          ],
-          "layout": "article"
+          ]
         },
         {
-          "code": "L5T05",
+          "code": "L3T05",
           "names": {
             "en": "Adjectives & agreement",
             "ro": "Adjective și acord"
           },
+          "layout": "article",
+          "level": "A2",
           "items": [
             "lecture_adjectives"
-          ],
-          "layout": "article"
+          ]
         },
         {
-          "code": "L5T06",
+          "code": "L3T06",
           "names": {
-            "en": "Prepositions",
-            "ro": "Prepoziții"
+            "en": "Prepositions & numbers",
+            "ro": "Prepoziții și numerale"
           },
+          "layout": "article",
+          "level": "A2",
           "items": [
-            "lecture_prepositions"
-          ],
-          "layout": "article"
-        },
-        {
-          "code": "L5T07",
-          "names": {
-            "en": "Numbers",
-            "ro": "Numerale"
-          },
-          "items": [
+            "lecture_prepositions",
             "lecture_numbers"
-          ],
-          "layout": "article"
+          ]
+        },
+        {
+          "code": "L3T07",
+          "names": {
+            "en": "Past, future & moods",
+            "ro": "Trecutul, viitorul și modurile"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L3T08",
+          "names": {
+            "en": "Clauses & complex sentences",
+            "ro": "Propoziții subordonate și fraze complexe"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
         }
       ]
     },
     {
-      "code": "L6",
+      "code": "L4",
       "names": {
-        "en": "Dialogs",
-        "ro": "Dialoguri"
+        "en": "Communication & Literature",
+        "ro": "Comunicare și literatură"
       },
       "topics": [
         {
-          "code": "L6T01",
+          "code": "L4T01",
           "names": {
             "en": "Greetings and common formulas",
             "ro": "Saluturi și formule uzuale"
           },
+          "layout": "article",
+          "level": "A1",
           "items": [
             "lecture_greetings"
-          ],
-          "layout": "article"
+          ]
         },
         {
-          "code": "L6T02",
+          "code": "L4T02",
           "names": {
             "en": "Greetings & farewells",
             "ro": "Saluturi și rămas-bun"
           },
+          "layout": "table",
+          "level": "A1",
           "items": [
             "greeting_salut",
             "greeting_buna",
@@ -1003,115 +743,742 @@
             "greeting_adio-si-noroc",
             "word_imi-pare-bine"
           ],
-          "layout": "table"
+          "lastIndex": {
+            "ro": {
+              "audio": 16
+            }
+          }
         },
         {
-          "code": "L6T03",
+          "code": "L4T03",
           "names": {
             "en": "Introducing yourself",
             "ro": "Cum te prezinți"
           },
+          "layout": "article",
+          "level": "A1",
           "items": [
             "lecture_introductions"
-          ],
-          "layout": "article"
+          ]
+        },
+        {
+          "code": "L4T04",
+          "names": {
+            "en": "Dialogs in daily life",
+            "ro": "Dialoguri din viața de zi cu zi"
+          },
+          "layout": "article",
+          "level": "A2",
+          "items": [
+            "lecture_daily-dialog",
+            "lecture_family-friends",
+            "lecture_home",
+            "lecture_travel-city",
+            "lecture_shopping",
+            "lecture_health",
+            "lecture_work-study",
+            "lecture_culture"
+          ]
+        },
+        {
+          "code": "L4T05",
+          "names": {
+            "en": "Stories & narration",
+            "ro": "Povești și narațiune"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L4T06",
+          "names": {
+            "en": "Poetry & figurative language",
+            "ro": "Poezie și limbaj figurat"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L4T07",
+          "names": {
+            "en": "Genres, analysis & themes",
+            "ro": "Genuri, analiză și teme"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L4T08",
+          "names": {
+            "en": "Essay, rhetoric & style",
+            "ro": "Eseu, retorică și stil"
+          },
+          "layout": "article",
+          "level": "C1",
+          "items": []
+        }
+      ]
+    },
+    {
+      "code": "L5",
+      "names": {
+        "en": "Mathematics",
+        "ro": "Matematică"
+      },
+      "topics": [
+        {
+          "code": "L5T01",
+          "names": {
+            "en": "Numbers & counting",
+            "ro": "Numere și numărare"
+          },
+          "layout": "article",
+          "level": "A1",
+          "items": []
+        },
+        {
+          "code": "L5T02",
+          "names": {
+            "en": "Arithmetic operations",
+            "ro": "Operații aritmetice"
+          },
+          "layout": "article",
+          "level": "A2",
+          "items": []
+        },
+        {
+          "code": "L5T03",
+          "names": {
+            "en": "Fractions, decimals & percentages",
+            "ro": "Fracții, zecimale și procente"
+          },
+          "layout": "article",
+          "level": "A2",
+          "items": []
+        },
+        {
+          "code": "L5T04",
+          "names": {
+            "en": "Geometry & measurement",
+            "ro": "Geometrie și măsurare"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L5T05",
+          "names": {
+            "en": "Algebra & equations",
+            "ro": "Algebră și ecuații"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L5T06",
+          "names": {
+            "en": "Functions & graphs",
+            "ro": "Funcții și grafice"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L5T07",
+          "names": {
+            "en": "Statistics & probability",
+            "ro": "Statistică și probabilitate"
+          },
+          "layout": "article",
+          "level": "C1",
+          "items": []
+        },
+        {
+          "code": "L5T08",
+          "names": {
+            "en": "Calculus & advanced topics",
+            "ro": "Analiză matematică și teme avansate"
+          },
+          "layout": "article",
+          "level": "C2",
+          "items": []
+        }
+      ]
+    },
+    {
+      "code": "L6",
+      "names": {
+        "en": "Physics",
+        "ro": "Fizică"
+      },
+      "topics": [
+        {
+          "code": "L6T01",
+          "names": {
+            "en": "Matter & motion",
+            "ro": "Materie și mișcare"
+          },
+          "layout": "article",
+          "level": "A2",
+          "items": []
+        },
+        {
+          "code": "L6T02",
+          "names": {
+            "en": "Forces & simple machines",
+            "ro": "Forțe și mașini simple"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L6T03",
+          "names": {
+            "en": "Energy, heat & light",
+            "ro": "Energie, căldură și lumină"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
         },
         {
           "code": "L6T04",
           "names": {
-            "en": "Everyday dialogs",
-            "ro": "Dialoguri de zi cu zi"
+            "en": "Electricity & magnetism",
+            "ro": "Electricitate și magnetism"
           },
-          "items": [
-            "lecture_daily-dialog"
-          ],
-          "layout": "article"
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L6T05",
+          "names": {
+            "en": "Waves, sound & optics",
+            "ro": "Unde, sunet și optică"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L6T06",
+          "names": {
+            "en": "Mechanics & laws of motion",
+            "ro": "Mecanică și legile mișcării"
+          },
+          "layout": "article",
+          "level": "C1",
+          "items": []
+        },
+        {
+          "code": "L6T07",
+          "names": {
+            "en": "Modern physics",
+            "ro": "Fizică modernă"
+          },
+          "layout": "article",
+          "level": "C2",
+          "items": []
         }
       ]
     },
     {
       "code": "L7",
       "names": {
-        "en": "Life & Domains",
-        "ro": "Viață și domenii"
+        "en": "Chemistry",
+        "ro": "Chimie"
       },
       "topics": [
         {
           "code": "L7T01",
           "names": {
-            "en": "Family & friends",
-            "ro": "Familie și prieteni"
+            "en": "Matter, elements & particles",
+            "ro": "Materie, elemente și particule"
           },
-          "items": [
-            "lecture_family-friends"
-          ],
-          "layout": "article"
+          "layout": "article",
+          "level": "B1",
+          "items": []
         },
         {
           "code": "L7T02",
           "names": {
-            "en": "Home & daily life",
-            "ro": "Casă și viața de zi cu zi"
+            "en": "The periodic table",
+            "ro": "Tabelul periodic"
           },
-          "items": [
-            "lecture_home"
-          ],
-          "layout": "article"
+          "layout": "article",
+          "level": "B1",
+          "items": []
         },
         {
           "code": "L7T03",
           "names": {
-            "en": "City & travel",
-            "ro": "Oraș și călătorii"
+            "en": "Substances & compounds",
+            "ro": "Substanțe și compuși"
           },
-          "items": [
-            "lecture_travel-city"
-          ],
-          "layout": "article"
+          "layout": "article",
+          "level": "B2",
+          "items": []
         },
         {
           "code": "L7T04",
           "names": {
-            "en": "Shopping & services",
-            "ro": "Cumpărături și servicii"
+            "en": "Reactions & basic laws",
+            "ro": "Reacții și legi de bază"
           },
-          "items": [
-            "lecture_shopping"
-          ],
-          "layout": "article"
+          "layout": "article",
+          "level": "B2",
+          "items": []
         },
         {
           "code": "L7T05",
           "names": {
-            "en": "Health & safety",
-            "ro": "Sănătate și siguranță"
+            "en": "Organic chemistry & life",
+            "ro": "Chimie organică și viață"
           },
-          "items": [
-            "lecture_health"
-          ],
-          "layout": "article"
+          "layout": "article",
+          "level": "C1",
+          "items": []
         },
         {
           "code": "L7T06",
           "names": {
-            "en": "Work & study",
-            "ro": "Muncă și studiu"
+            "en": "Industrial chemistry & petrochemistry",
+            "ro": "Chimie industrială și petrochimie"
           },
-          "items": [
-            "lecture_work-study"
-          ],
-          "layout": "article"
+          "layout": "article",
+          "level": "C2",
+          "items": []
+        }
+      ]
+    },
+    {
+      "code": "L8",
+      "names": {
+        "en": "Biology & Health",
+        "ro": "Biologie și sănătate"
+      },
+      "topics": [
+        {
+          "code": "L8T01",
+          "names": {
+            "en": "Living things & classification",
+            "ro": "Viețuitoare și clasificare"
+          },
+          "layout": "article",
+          "level": "A2",
+          "items": []
         },
         {
-          "code": "L7T07",
+          "code": "L8T02",
           "names": {
-            "en": "Culture & customs",
-            "ro": "Cultură și obiceiuri"
+            "en": "Plants",
+            "ro": "Plante"
           },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L8T03",
+          "names": {
+            "en": "The human body & health",
+            "ro": "Corpul uman și sănătatea"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L8T04",
+          "names": {
+            "en": "Cells & microorganisms",
+            "ro": "Celule și microorganisme"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L8T05",
+          "names": {
+            "en": "Ecosystems & life cycles",
+            "ro": "Ecosisteme și cicluri de viață"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L8T06",
+          "names": {
+            "en": "Genetics & evolution",
+            "ro": "Genetică și evoluție"
+          },
+          "layout": "article",
+          "level": "C1",
+          "items": []
+        },
+        {
+          "code": "L8T07",
+          "names": {
+            "en": "Advanced biology & biotechnology",
+            "ro": "Biologie avansată și biotehnologie"
+          },
+          "layout": "article",
+          "level": "C2",
+          "items": []
+        }
+      ]
+    },
+    {
+      "code": "L9",
+      "names": {
+        "en": "Geography & Space",
+        "ro": "Geografie și spațiu cosmic"
+      },
+      "topics": [
+        {
+          "code": "L9T01",
+          "names": {
+            "en": "Maps, directions & landforms",
+            "ro": "Hărți, direcții și forme de relief"
+          },
+          "layout": "article",
+          "level": "A2",
+          "items": []
+        },
+        {
+          "code": "L9T02",
+          "names": {
+            "en": "Weather & climate",
+            "ro": "Vreme și climă"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L9T03",
+          "names": {
+            "en": "Countries & continents",
+            "ro": "Țări și continente"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L9T04",
+          "names": {
+            "en": "Sun, Moon & the Solar System",
+            "ro": "Soarele, Luna și Sistemul Solar"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L9T05",
+          "names": {
+            "en": "Population & cities",
+            "ro": "Populație și orașe"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L9T06",
+          "names": {
+            "en": "Economic & political geography",
+            "ro": "Geografie economică și politică"
+          },
+          "layout": "article",
+          "level": "C1",
+          "items": []
+        },
+        {
+          "code": "L9T07",
+          "names": {
+            "en": "Stars, galaxies & exploration",
+            "ro": "Stele, galaxii și explorare"
+          },
+          "layout": "article",
+          "level": "C1",
+          "items": []
+        },
+        {
+          "code": "L9T08",
+          "names": {
+            "en": "Cosmology & global systems",
+            "ro": "Cosmologie și sisteme globale"
+          },
+          "layout": "article",
+          "level": "C2",
+          "items": []
+        }
+      ]
+    },
+    {
+      "code": "L10",
+      "names": {
+        "en": "History",
+        "ro": "Istorie"
+      },
+      "topics": [
+        {
+          "code": "L10T01",
+          "names": {
+            "en": "Time & timelines",
+            "ro": "Timp și cronologii"
+          },
+          "layout": "article",
+          "level": "A2",
+          "items": []
+        },
+        {
+          "code": "L10T02",
+          "names": {
+            "en": "Early civilizations",
+            "ro": "Civilizații timpurii"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L10T03",
+          "names": {
+            "en": "Antiquity",
+            "ro": "Antichitatea"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L10T04",
+          "names": {
+            "en": "The Middle Ages",
+            "ro": "Evul Mediu"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L10T05",
+          "names": {
+            "en": "Discoveries & early modern era",
+            "ro": "Descoperiri și epoca modernă timpurie"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L10T06",
+          "names": {
+            "en": "Revolutions & the modern era",
+            "ro": "Revoluții și epoca modernă"
+          },
+          "layout": "article",
+          "level": "C1",
+          "items": []
+        },
+        {
+          "code": "L10T07",
+          "names": {
+            "en": "The 20th century & today",
+            "ro": "Secolul XX și prezentul"
+          },
+          "layout": "article",
+          "level": "C2",
+          "items": []
+        }
+      ]
+    },
+    {
+      "code": "L11",
+      "names": {
+        "en": "Society & Ideas",
+        "ro": "Societate și idei"
+      },
+      "topics": [
+        {
+          "code": "L11T01",
+          "names": {
+            "en": "Self, family & community",
+            "ro": "Sine, familie și comunitate"
+          },
+          "layout": "article",
+          "level": "A2",
+          "items": []
+        },
+        {
+          "code": "L11T02",
+          "names": {
+            "en": "Categories, properties & relations",
+            "ro": "Categorii, proprietăți și relații"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L11T03",
+          "names": {
+            "en": "Society, culture & norms",
+            "ro": "Societate, cultură și norme"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": []
+        },
+        {
+          "code": "L11T04",
+          "names": {
+            "en": "Government, law & civics",
+            "ro": "Guvern, drept și educație civică"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L11T05",
+          "names": {
+            "en": "Economics & personal finance",
+            "ro": "Economie și finanțe personale"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L11T06",
+          "names": {
+            "en": "Logic & reasoning",
+            "ro": "Logică și raționament"
+          },
+          "layout": "article",
+          "level": "C1",
+          "items": []
+        },
+        {
+          "code": "L11T07",
+          "names": {
+            "en": "Ethics & global society",
+            "ro": "Etică și societate globală"
+          },
+          "layout": "article",
+          "level": "C1",
+          "items": []
+        },
+        {
+          "code": "L11T08",
+          "names": {
+            "en": "Philosophy",
+            "ro": "Filosofie"
+          },
+          "layout": "article",
+          "level": "C2",
+          "items": []
+        }
+      ]
+    },
+    {
+      "code": "L12",
+      "names": {
+        "en": "Arts & Technology",
+        "ro": "Arte și tehnologie"
+      },
+      "topics": [
+        {
+          "code": "L12T01",
+          "names": {
+            "en": "Computers & digital literacy",
+            "ro": "Calculatoare și alfabetizare digitală"
+          },
+          "layout": "article",
+          "level": "A2",
+          "items": []
+        },
+        {
+          "code": "L12T02",
+          "names": {
+            "en": "Music theory",
+            "ro": "Teoria muzicii"
+          },
+          "layout": "article",
+          "level": "B1",
           "items": [
-            "lecture_culture"
-          ],
-          "layout": "article"
+            "lecture_music_notes_rhythm",
+            "lecture_music_scales_harmony",
+            "lecture_music_instruments_forms"
+          ]
+        },
+        {
+          "code": "L12T03",
+          "names": {
+            "en": "Drawing & painting",
+            "ro": "Desen și pictură"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": [
+            "lecture_art_tools_shapes",
+            "lecture_art_color_composition",
+            "lecture_art_styles_techniques"
+          ]
+        },
+        {
+          "code": "L12T04",
+          "names": {
+            "en": "Art history & styles",
+            "ro": "Istoria artei și stiluri"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L12T05",
+          "names": {
+            "en": "Theatre & film",
+            "ro": "Teatru și film"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L12T06",
+          "names": {
+            "en": "Programming & algorithms",
+            "ro": "Programare și algoritmi"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": []
+        },
+        {
+          "code": "L12T07",
+          "names": {
+            "en": "Media & information literacy",
+            "ro": "Educație media și informațională"
+          },
+          "layout": "article",
+          "level": "C1",
+          "items": []
         }
       ]
     }

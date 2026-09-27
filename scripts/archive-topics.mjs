@@ -2,7 +2,7 @@
 /**
  * archive-topics.mjs — archive-driven topic attribution + the topic map.
  *
- * The dictionary sidebar (144 topics across 12 chapters) is the structure layer; the legacy archive
+ * The dictionary sidebar is the structure layer; the legacy archive
  * pages (gitignored /archive/) hold the raw content grouped in <h3> sections
  * (one <h3> per <table>, rows sequential). This module:
  *
@@ -26,6 +26,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url'
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const ENTITIES = join(ROOT, 'public', 'data', 'entities')
 const SIDEBAR_FILE = join(ROOT, 'src', 'data', 'sidebars', 'library', 'dictionary', 'sidebar.json')
+const LECTURES_SIDEBAR_FILE = join(ROOT, 'src', 'data', 'sidebars', 'library', 'lectures', 'sidebar.json')
 const MAP_FILE = join(ROOT, 'src', 'data', 'sidebars', 'library', 'dictionary', 'topic-map.json')
 
 const LANG_DIR = { ro: 'romanian', en: 'english' }
@@ -42,7 +43,16 @@ const PAGE_BY_PREFIX = {
   letter: 'alphabet'
 }
 
-/** Curated mapping: archive page → section id → sidebar topic code. */
+/**
+ * Curated mapping: archive page → section id → media FOLDER code.
+ *
+ * Frozen at the pre-v2 Dictionary codes (content plan v2, 2026-09-26): these
+ * codes are the physical folders media/audio/<lang>/<CODE>/ (now ro-archive)
+ * and are baked into every archived manifest's R2 `key`. The sidebars place
+ * rows by id, not by folder, so they no longer match these codes: see
+ * manual/curriculum.md "Re-home record". Re-pointing a code here makes the
+ * next `run media stage` copy files into a new folder under new keys.
+ */
 const BUILTIN_MAP = {
   ro: {
     vocabulary: {
@@ -249,8 +259,9 @@ export function attributeAll() {
 /* ── CLI ───────────────────────────────────────────────────────────────── */
 
 function main() {
-  const sidebar = readJson(SIDEBAR_FILE)
-  const knownTopics = new Set(sidebar.sections.flatMap((c) => c.topics.map((t) => t.code)))
+  const knownTopics = new Set(
+    [SIDEBAR_FILE, LECTURES_SIDEBAR_FILE].flatMap((f) => readJson(f).sections.flatMap((c) => c.topics.map((t) => t.code)))
+  )
 
   // Coverage: every entity must attribute; every mapped topic must exist.
   const attribution = attributeAll()
@@ -262,12 +273,10 @@ function main() {
       if (!attribution.has(entity.id)) unattributed.push(entity.id)
     }
   }
-  for (const lang of Object.keys(loadMap())) {
-    for (const [page, sections] of Object.entries(loadMap()[lang])) {
-      for (const topic of Object.values(sections)) {
-        if (!knownTopics.has(topic)) console.error(`ERROR: topic-map ${lang}/${page} → unknown topic '${topic}'`)
-      }
-    }
+  // BUILTIN_MAP codes are frozen media folders (see above), not sidebar codes;
+  // only the planned registry must point at live sidebar topics.
+  for (const topic of Object.keys(PLANNED_SOURCES)) {
+    if (!knownTopics.has(topic)) console.error(`ERROR: planned source → unknown topic '${topic}'`)
   }
 
   // Per-topic distribution report.
@@ -289,24 +298,25 @@ function main() {
     process.exit(1)
   }
 }
+/** Planned archive source per blank topic, keyed by CURRENT sidebar code (any track). */
 const PLANNED_SOURCES = {
-  'C2T01': ['romanian/data/pronouns.json'],
-  'C2T02': ['romanian/data/nouns.json', 'english/data/nouns.json'],
-  'C2T07': ['romanian/data/adjectives.json'],
-  'C2T10': ['romanian/data/family-friends.json'],
-  'C3T01': ['english/data/vocab.json'],
-  'C5T01': ['romanian/data/prepositions.json'],
-  'C5T11': ['romanian/data/travel-city.json', 'romanian/data/culture-customs.json'],
-  'C7T04': ['romanian/data/work-study.json'],
-  'C7T05': ['english/data/meetings.json'],
-  'C7T10': ['english/data/docs.json'],
-  'C6T12': ['english/data/issues.json'],
-  'C8T07': ['english/data/sentences.json'],
-  'C8T08': ['english/data/tenses.json'],
-  'C8T09': ['english/data/phrases.json'],
-  'C8T01': ['english/data/questions.json'],
-  'C7T08': ['english/data/technical.json'],
-  'C1T11': ['romanian/data/daily-dialog.json']
+  L3T01: ['romanian/data/pronouns.json'],
+  C1T07: ['romanian/data/nouns.json', 'english/data/nouns.json'],
+  C7T01: ['romanian/data/adjectives.json'],
+  C7T02: ['romanian/data/family-friends.json'],
+  C2T03: ['english/data/vocab.json'],
+  C4T05: ['romanian/data/prepositions.json'],
+  C7T05: ['romanian/data/travel-city.json', 'romanian/data/culture-customs.json'],
+  C9T02: ['romanian/data/work-study.json'],
+  C9T03: ['english/data/meetings.json'],
+  C9T07: ['english/data/docs.json'],
+  C5T05: ['english/data/issues.json'],
+  C11T05: ['english/data/sentences.json'],
+  L3T07: ['english/data/tenses.json'],
+  C12T01: ['english/data/phrases.json'],
+  C1T04: ['english/data/questions.json'],
+  C10T01: ['english/data/technical.json'],
+  L4T04: ['romanian/data/daily-dialog.json']
 }
 
 // CLI only — importing this module (media-manifests) must stay side-effect free.

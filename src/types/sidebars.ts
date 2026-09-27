@@ -19,12 +19,22 @@ import type { MediaNames } from './media'
 export const TOPIC_LAYOUTS = ['table', 'article', 'gallery'] as const
 export type TopicLayout = (typeof TOPIC_LAYOUTS)[number]
 
+/**
+ * Study level of a topic (CEFR). Mapped to school stages in manual/curriculum.md:
+ * A1/A2 primary · B1/B2 middle school · C1 high school · C2 upper high school /
+ * university. scripts/validate-data.mjs mirrors this list.
+ */
+export const CEFR_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const
+export type CefrLevel = (typeof CEFR_LEVELS)[number]
+
 export interface SidebarTopic {
   /** Topic code, e.g. 'C1T01'. */
   code: string
   names: MediaNames
   /** How the open topic renders its pane (TopicTable for table + article, TopicGallery). */
   layout: TopicLayout
+  /** Study level badge (library tracks); optional elsewhere. */
+  level?: CefrLevel
   /** Item ids (manifest ids, content doc ids, or legacy entity ids) in display order. */
   items: string[]
 }

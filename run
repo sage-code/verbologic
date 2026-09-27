@@ -181,10 +181,14 @@ case "${1:-help}" in
     ;;
 
   deploy)
+    # CLOUDFLARE_API_TOKEN lives in .env (gitignored) alongside the R2 S3 keys —
+    # load it so this guard (and wrangler itself) can see it without requiring
+    # it to be exported in the shell profile.
+    [[ -f .env ]] && set -a && source .env && set +a
     [[ -n "${CLOUDFLARE_API_TOKEN:-}" ]] || \
-      fail "CLOUDFLARE_API_TOKEN is not set — create one at https://dash.cloudflare.com/profile/api-tokens"
+      fail "CLOUDFLARE_API_TOKEN is not set in .env — create a Workers-scoped token at https://dash.cloudflare.com/profile/api-tokens (different from the R2 bucket token used by 'run media')"
     differential_build
-    npx wrangler deploy
+    npx wrangler deploy || fail "wrangler deploy failed — see output above."
     say "Deployed ✓ — verbologic.com + www.verbologic.com (Workers Static Assets)."
     ;;
   deploy-dry)

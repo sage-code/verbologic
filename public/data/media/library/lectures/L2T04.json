@@ -1,132 +1,1577 @@
 [
   {
-    "id": "sentence_casa-are-o-usa",
+    "id": "question_care-este-numele-tau",
     "section": "library/lectures",
-    "kind": "sentence",
+    "kind": "question",
     "lang": "ro",
     "source": "media",
-    "term": "Casa are o ușă.",
+    "term": "Care este numele tău?",
     "names": {
-      "en": "The house has a door.",
-      "ro": "Casa are o ușă."
+      "ro": "Care este numele tău?"
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/A011.mp3",
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A002.mp3",
       "mime": "audio/mpeg",
-      "bytes": 11520,
-      "sha1": "2417b32294a9dbdcfed27252b75c660770d1a248"
+      "bytes": 13680,
+      "sha1": "c7dfe2312d7ff4f83fbe7d4d6687176091312a15"
     },
     "tags": [
-      "sentences#home-objects-and-places"
+      "questions#names-and-identity"
     ],
     "context": null,
     "example": null,
     "topic": "L2T04",
-    "entity_id": "sentence_casa-are-o-usa"
+    "entity_id": "question_care-este-numele-tau"
   },
   {
-    "id": "sentence_apartamentul-are-o-fereastra",
+    "id": "question_numele-meu-este-andrei",
     "section": "library/lectures",
-    "kind": "sentence",
+    "kind": "question",
     "lang": "ro",
     "source": "media",
-    "term": "Apartamentul are o fereastră.",
+    "term": "Numele meu este Andrei.",
     "names": {
-      "en": "The apartment has a window.",
-      "ro": "Apartamentul are o fereastră."
+      "ro": "Numele meu este Andrei."
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/A010.mp3",
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A058.mp3",
       "mime": "audio/mpeg",
-      "bytes": 16416,
-      "sha1": "079845959f7e8a3df26e7add4ef06d9b9bf0e468"
+      "bytes": 14256,
+      "sha1": "831101dd23ffc2b2585a8d35af7093dfbd53950f"
     },
     "tags": [
-      "sentences#home-objects-and-places"
+      "questions#names-and-identity"
     ],
     "context": null,
     "example": null,
     "topic": "L2T04",
-    "entity_id": "sentence_apartamentul-are-o-fereastra"
+    "entity_id": "question_numele-meu-este-andrei"
   },
   {
-    "id": "sentence_cheia-este-pe-masa",
+    "id": "question_eu-sunt-maria",
     "section": "library/lectures",
-    "kind": "sentence",
+    "kind": "question",
     "lang": "ro",
     "source": "media",
-    "term": "Cheia este pe masă.",
+    "term": "Eu sunt Maria.",
     "names": {
-      "en": "The key is on the table.",
-      "ro": "Cheia este pe masă."
+      "ro": "Eu sunt Maria."
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/A012.mp3",
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A037.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 12096,
+      "sha1": "ac9a78a736db0b45311ed61495429bd5bbd2d951"
+    },
+    "tags": [
+      "questions#names-and-identity"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_eu-sunt-maria"
+  },
+  {
+    "id": "question_esti-student",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Ești student?",
+    "names": {
+      "ro": "Ești student?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A030.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11376,
+      "sha1": "9b9f9cc70190236079247ac8d78624f2af7d66fd"
+    },
+    "tags": [
+      "questions#names-and-identity"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_esti-student"
+  },
+  {
+    "id": "question_da-sunt-student",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, sunt student.",
+    "names": {
+      "ro": "Da, sunt student."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A016.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 14832,
+      "sha1": "bb3ab6566e70c073cd6891c82b8546d78baaa7e9"
+    },
+    "tags": [
+      "questions#names-and-identity"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-sunt-student"
+  },
+  {
+    "id": "question_nu-sunt-profesor",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, sunt profesor.",
+    "names": {
+      "ro": "Nu, sunt profesor."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A051.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 15408,
+      "sha1": "eb367a2867ef1ae4d74f39b0a8e42181bc7f408d"
+    },
+    "tags": [
+      "questions#names-and-identity"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-sunt-profesor"
+  },
+  {
+    "id": "question_el-este-prietenul-tau",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "El este prietenul tău?",
+    "names": {
+      "ro": "El este prietenul tău?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A023.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 15696,
+      "sha1": "b3c655d9e06e03c8645b434462b5b5b80e76cfe2"
+    },
+    "tags": [
+      "questions#names-and-identity"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_el-este-prietenul-tau"
+  },
+  {
+    "id": "question_da-el-este-prietenul-meu",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, el este prietenul meu.",
+    "names": {
+      "ro": "Da, el este prietenul meu."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A009.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 18288,
+      "sha1": "d4978edf37711d599b564367c3c5322c020fbf12"
+    },
+    "tags": [
+      "questions#names-and-identity"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-el-este-prietenul-meu"
+  },
+  {
+    "id": "question_nu-el-este-colegul-meu",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, el este colegul meu.",
+    "names": {
+      "ro": "Nu, el este colegul meu."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A044.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 17280,
+      "sha1": "ced6c9d3f47d44fa10ef3e5e10beaf6e538025ab"
+    },
+    "tags": [
+      "questions#names-and-identity"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-el-este-colegul-meu"
+  },
+  {
+    "id": "question_ai-familie-mare",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Ai familie mare?",
+    "names": {
+      "ro": "Ai familie mare?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A001.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 12672,
+      "sha1": "0e74dfdd50f7640be0a7d1ce5fa6e06b4b4217de"
+    },
+    "tags": [
+      "questions#family-and-people"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_ai-familie-mare"
+  },
+  {
+    "id": "question_da-am-familie-mare",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, am familie mare.",
+    "names": {
+      "ro": "Da, am familie mare."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A015.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 15984,
+      "sha1": "1c5b6cf3570e4a771c014f42b369c85388fe91f4"
+    },
+    "tags": [
+      "questions#family-and-people"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-am-familie-mare"
+  },
+  {
+    "id": "question_nu-am-familie-mica",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, am familie mică.",
+    "names": {
+      "ro": "Nu, am familie mică."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A036.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 16272,
+      "sha1": "15ec92f137d2a52da77f31a10bdad035f9cca873"
+    },
+    "tags": [
+      "questions#family-and-people"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-am-familie-mica"
+  },
+  {
+    "id": "question_copilul-este-acasa",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Copilul este acasă?",
+    "names": {
+      "ro": "Copilul este acasă?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A008.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 14400,
+      "sha1": "86b98672f795aace0586c099c23e1b73cf26fe3f"
+    },
+    "tags": [
+      "questions#family-and-people"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_copilul-este-acasa"
+  },
+  {
+    "id": "question_da-copilul-este-acasa",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, copilul este acasă.",
+    "names": {
+      "ro": "Da, copilul este acasă."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A022.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 17280,
+      "sha1": "59a876dd428cad3dc81494be011bb69f1d6ceebd"
+    },
+    "tags": [
+      "questions#family-and-people"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-copilul-este-acasa"
+  },
+  {
+    "id": "question_nu-copilul-este-la-scoala",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, copilul este la școală.",
+    "names": {
+      "ro": "Nu, copilul este la școală."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A043.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 18288,
+      "sha1": "35886ac74d7bd48c144e7f8c53108e227271b994"
+    },
+    "tags": [
+      "questions#family-and-people"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-copilul-este-la-scoala"
+  },
+  {
+    "id": "question_vecinul-este-acolo",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Vecinul este acolo?",
+    "names": {
+      "ro": "Vecinul este acolo?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A057.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 14688,
+      "sha1": "be8c4effb4f47e4ce8722269955809b09439dc1f"
+    },
+    "tags": [
+      "questions#family-and-people"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_vecinul-este-acolo"
+  },
+  {
+    "id": "question_da-vecinul-este-acolo",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, vecinul este acolo.",
+    "names": {
+      "ro": "Da, vecinul este acolo."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A029.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 17280,
+      "sha1": "07d9e9095252e4019fce3a7bd8802289b8fce163"
+    },
+    "tags": [
+      "questions#family-and-people"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-vecinul-este-acolo"
+  },
+  {
+    "id": "question_nu-vecinul-este-la-birou",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, vecinul este la birou.",
+    "names": {
+      "ro": "Nu, vecinul este la birou."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A050.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 18144,
+      "sha1": "f2d9ddd805acad2fa9653a43a49bdddfa9c1b8c3"
+    },
+    "tags": [
+      "questions#family-and-people"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-vecinul-este-la-birou"
+  },
+  {
+    "id": "question_esti-fericit-azi",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Ești fericit azi?",
+    "names": {
+      "ro": "Ești fericit azi?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A031.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 13248,
+      "sha1": "7ec329b20f19396b780a25ffb10de3610aebebc4"
+    },
+    "tags": [
+      "questions#feelings-and-courtesy"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_esti-fericit-azi"
+  },
+  {
+    "id": "question_da-sunt-fericit-azi",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, sunt fericit azi.",
+    "names": {
+      "ro": "Da, sunt fericit azi."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A017.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 16128,
+      "sha1": "e6533a0e9f4a224e635c8cc2adf7e3bd427214a6"
+    },
+    "tags": [
+      "questions#feelings-and-courtesy"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-sunt-fericit-azi"
+  },
+  {
+    "id": "question_nu-sunt-obosit-azi",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, sunt obosit azi.",
+    "names": {
+      "ro": "Nu, sunt obosit azi."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A052.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 16128,
+      "sha1": "36b126276ed5f37d83ae004c76a060adf63e7e2d"
+    },
+    "tags": [
+      "questions#feelings-and-courtesy"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-sunt-obosit-azi"
+  },
+  {
+    "id": "question_spui-multumesc",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Spui mulțumesc?",
+    "names": {
+      "ro": "Spui mulțumesc?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A059.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 13248,
+      "sha1": "aee45b52abc85d6f5b2a2661c5bfdf9e6e49a108"
+    },
+    "tags": [
+      "questions#feelings-and-courtesy"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_spui-multumesc"
+  },
+  {
+    "id": "question_da-spun-multumesc",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, spun mulțumesc.",
+    "names": {
+      "ro": "Da, spun mulțumesc."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A010.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 15840,
+      "sha1": "8ad20095d6bf244499841b72c8647ef9515a56d5"
+    },
+    "tags": [
+      "questions#feelings-and-courtesy"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-spun-multumesc"
+  },
+  {
+    "id": "question_nu-spun-scuze",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, spun scuze.",
+    "names": {
+      "ro": "Nu, spun scuze."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A045.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 14688,
+      "sha1": "bbd9072cee1666d31e5a113558b0effa6587e72c"
+    },
+    "tags": [
+      "questions#feelings-and-courtesy"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-spun-scuze"
+  },
+  {
+    "id": "question_ea-este-linistita-acum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Ea este liniștită acum?",
+    "names": {
+      "ro": "Ea este liniștită acum?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A024.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 14544,
+      "sha1": "cb7feb0efb8d75787f9317d96c250a680819e949"
+    },
+    "tags": [
+      "questions#feelings-and-courtesy"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_ea-este-linistita-acum"
+  },
+  {
+    "id": "question_da-ea-este-linistita-acum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, ea este liniștită acum.",
+    "names": {
+      "ro": "Da, ea este liniștită acum."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A003.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 18000,
+      "sha1": "afba34d0ee36076e72437c08725a15ad40100ac0"
+    },
+    "tags": [
+      "questions#feelings-and-courtesy"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-ea-este-linistita-acum"
+  },
+  {
+    "id": "question_nu-ea-este-suparata-acum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, ea este supărată acum.",
+    "names": {
+      "ro": "Nu, ea este supărată acum."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A038.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 18000,
+      "sha1": "eb598dc1197c59a91a131c75ec6044dc7e3b64c6"
+    },
+    "tags": [
+      "questions#feelings-and-courtesy"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-ea-este-suparata-acum"
+  },
+  {
+    "id": "question_cheia-este-pe-masa",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Cheia este pe masă?",
+    "names": {
+      "ro": "Cheia este pe masă?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A011.mp3",
       "mime": "audio/mpeg",
       "bytes": 13536,
       "sha1": "0b90f8e1b97d60e6545f97f12dc0e8386d730dce"
     },
     "tags": [
-      "sentences#home-objects-and-places"
+      "questions#home-objects"
     ],
     "context": null,
     "example": null,
     "topic": "L2T04",
-    "entity_id": "sentence_cheia-este-pe-masa"
+    "entity_id": "question_cheia-este-pe-masa"
   },
   {
-    "id": "sentence_scaunul-este-langa-masa",
+    "id": "question_da-cheia-este-pe-masa",
     "section": "library/lectures",
-    "kind": "sentence",
+    "kind": "question",
     "lang": "ro",
     "source": "media",
-    "term": "Scaunul este lângă masă.",
+    "term": "Da, cheia este pe masă.",
     "names": {
-      "en": "The chair is next to the table.",
-      "ro": "Scaunul este lângă masă."
+      "ro": "Da, cheia este pe masă."
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/A014.mp3",
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A025.mp3",
       "mime": "audio/mpeg",
-      "bytes": 16272,
-      "sha1": "ff5cfde15a5d88faf5fd02f55ca90f013914b4b1"
+      "bytes": 16560,
+      "sha1": "36ff5064e440b8c1e5ced0a279cab08f987f9cef"
     },
     "tags": [
-      "sentences#home-objects-and-places"
+      "questions#home-objects"
     ],
     "context": null,
     "example": null,
     "topic": "L2T04",
-    "entity_id": "sentence_scaunul-este-langa-masa"
+    "entity_id": "question_da-cheia-este-pe-masa"
   },
   {
-    "id": "sentence_patul-este-in-camera",
+    "id": "question_nu-cheia-este-in-baie",
     "section": "library/lectures",
-    "kind": "sentence",
+    "kind": "question",
     "lang": "ro",
     "source": "media",
-    "term": "Patul este în cameră.",
+    "term": "Nu, cheia este în baie.",
     "names": {
-      "en": "The bed is in the room.",
-      "ro": "Patul este în cameră."
+      "ro": "Nu, cheia este în baie."
     },
     "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C3T02/A013.mp3",
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A046.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 16128,
+      "sha1": "b2c0cfed953fa1faa63431055c488ff7fb55aa8d"
+    },
+    "tags": [
+      "questions#home-objects"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-cheia-este-in-baie"
+  },
+  {
+    "id": "question_patul-este-in-camera",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Patul este în cameră?",
+    "names": {
+      "ro": "Patul este în cameră?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A060.mp3",
       "mime": "audio/mpeg",
       "bytes": 14112,
       "sha1": "b440211b0bb65010b622f9a27e0070597e374a6c"
     },
     "tags": [
-      "sentences#home-objects-and-places"
+      "questions#home-objects"
     ],
     "context": null,
     "example": null,
     "topic": "L2T04",
-    "entity_id": "sentence_patul-este-in-camera"
+    "entity_id": "question_patul-este-in-camera"
+  },
+  {
+    "id": "question_da-patul-este-in-camera",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, patul este în cameră.",
+    "names": {
+      "ro": "Da, patul este în cameră."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A032.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 17136,
+      "sha1": "48a99799e193a56d6a100522287bb527f6f8dc3a"
+    },
+    "tags": [
+      "questions#home-objects"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-patul-este-in-camera"
+  },
+  {
+    "id": "question_nu-patul-este-langa-usa",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, patul este lângă ușă.",
+    "names": {
+      "ro": "Nu, patul este lângă ușă."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A053.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 17568,
+      "sha1": "0b4aca1d070d86fe62c61c7c36e7112b4781ebde"
+    },
+    "tags": [
+      "questions#home-objects"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-patul-este-langa-usa"
+  },
+  {
+    "id": "question_ai-apartament",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Ai apartament?",
+    "names": {
+      "ro": "Ai apartament?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A004.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11808,
+      "sha1": "dc60e0e3e4439611b697176c43b14e177901687f"
+    },
+    "tags": [
+      "questions#home-objects"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_ai-apartament"
+  },
+  {
+    "id": "question_da-am-apartament",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, am apartament.",
+    "names": {
+      "ro": "Da, am apartament."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A018.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 15264,
+      "sha1": "6a2e5abc3625cb3d738795f4b34686845b61385d"
+    },
+    "tags": [
+      "questions#home-objects"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-am-apartament"
+  },
+  {
+    "id": "question_nu-am-casa",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, am casă.",
+    "names": {
+      "ro": "Nu, am casă."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A039.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 13248,
+      "sha1": "981bc8d15da181a891b092e93faf76c316c43175"
+    },
+    "tags": [
+      "questions#home-objects"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-am-casa"
+  },
+  {
+    "id": "question_bei-apa-acum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Bei apă acum?",
+    "names": {
+      "ro": "Bei apă acum?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A005.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11520,
+      "sha1": "29fa5848c140217bfb40bd9d6063c0cb4dea3247"
+    },
+    "tags": [
+      "questions#food-and-drink"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_bei-apa-acum"
+  },
+  {
+    "id": "question_da-beau-apa-acum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, beau apă acum.",
+    "names": {
+      "ro": "Da, beau apă acum."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A019.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 14832,
+      "sha1": "24ccc04d498fb92c0d11dae9fdd1985438296088"
+    },
+    "tags": [
+      "questions#food-and-drink"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-beau-apa-acum"
+  },
+  {
+    "id": "question_nu-beau-lapte-acum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, beau lapte acum.",
+    "names": {
+      "ro": "Nu, beau lapte acum."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A047.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 15408,
+      "sha1": "d82ebd6447f5a7f628435a30433ef47b339463a6"
+    },
+    "tags": [
+      "questions#food-and-drink"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-beau-lapte-acum"
+  },
+  {
+    "id": "question_mananci-paine-dimineata",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Mănânci pâine dimineața?",
+    "names": {
+      "ro": "Mănânci pâine dimineața?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A040.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 15552,
+      "sha1": "3bc3f437e8f52b463e075ada0f3b1795ffbb2614"
+    },
+    "tags": [
+      "questions#food-and-drink"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_mananci-paine-dimineata"
+  },
+  {
+    "id": "question_da-mananc-paine-dimineata",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, mănânc pâine dimineața.",
+    "names": {
+      "ro": "Da, mănânc pâine dimineața."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A033.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 18288,
+      "sha1": "6c66a94b58e3ab1021032945a56f5d8b646b6fdd"
+    },
+    "tags": [
+      "questions#food-and-drink"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-mananc-paine-dimineata"
+  },
+  {
+    "id": "question_nu-mananc-oua-dimineata",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, mănânc ouă dimineața.",
+    "names": {
+      "ro": "Nu, mănânc ouă dimineața."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A061.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 17856,
+      "sha1": "943cd7e6f443a27bc5ac250ed0360495ddfb8baa"
+    },
+    "tags": [
+      "questions#food-and-drink"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-mananc-oua-dimineata"
+  },
+  {
+    "id": "question_cumperi-peste-azi",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Cumperi pește azi?",
+    "names": {
+      "ro": "Cumperi pește azi?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A012.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 13392,
+      "sha1": "f534bc0949171b89e31d98c2b9649d965c9c42a2"
+    },
+    "tags": [
+      "questions#food-and-drink"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_cumperi-peste-azi"
+  },
+  {
+    "id": "question_da-cumpar-peste-azi",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, cumpăr pește azi.",
+    "names": {
+      "ro": "Da, cumpăr pește azi."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A026.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 16128,
+      "sha1": "bce5005563adfdee72ee9230657f0f055d0450e3"
+    },
+    "tags": [
+      "questions#food-and-drink"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-cumpar-peste-azi"
+  },
+  {
+    "id": "question_nu-cumpar-fructe-azi",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, cumpăr fructe azi.",
+    "names": {
+      "ro": "Nu, cumpăr fructe azi."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A054.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 16128,
+      "sha1": "fba0ec4e2f280f205b0828789bd1f581fb39e606"
+    },
+    "tags": [
+      "questions#food-and-drink"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-cumpar-fructe-azi"
+  },
+  {
+    "id": "question_te-trezesti-dimineata-devreme",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Te trezești dimineața devreme?",
+    "names": {
+      "ro": "Te trezești dimineața devreme?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A062.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 17280,
+      "sha1": "20d27ff1b301da15beb0a4e46706dcf5dd470638"
+    },
+    "tags": [
+      "questions#daily-routine"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_te-trezesti-dimineata-devreme"
+  },
+  {
+    "id": "question_da-ma-trezesc-dimineata-devreme",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, mă trezesc dimineața devreme.",
+    "names": {
+      "ro": "Da, mă trezesc dimineața devreme."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A027.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 20016,
+      "sha1": "48381cbe4a96f10b20da58770f8603b1b88c4444"
+    },
+    "tags": [
+      "questions#daily-routine"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-ma-trezesc-dimineata-devreme"
+  },
+  {
+    "id": "question_nu-ma-trezesc-tarziu",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, mă trezesc târziu.",
+    "names": {
+      "ro": "Nu, mă trezesc târziu."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A048.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 15984,
+      "sha1": "3b2eb41f42edd9c87bf1b2206f07ce494584ec51"
+    },
+    "tags": [
+      "questions#daily-routine"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-ma-trezesc-tarziu"
+  },
+  {
+    "id": "question_citesti-seara",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Citești seara?",
+    "names": {
+      "ro": "Citești seara?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A006.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11808,
+      "sha1": "fa625670003eb401e146c6bc1b2c17f41ccdbe3f"
+    },
+    "tags": [
+      "questions#daily-routine"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_citesti-seara"
+  },
+  {
+    "id": "question_da-citesc-seara",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, citesc seara.",
+    "names": {
+      "ro": "Da, citesc seara."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A013.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 15408,
+      "sha1": "9343bbc06869804f7669ec9289420fa839db9b4d"
+    },
+    "tags": [
+      "questions#daily-routine"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-citesc-seara"
+  },
+  {
+    "id": "question_nu-scriu-seara",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, scriu seara.",
+    "names": {
+      "ro": "Nu, scriu seara."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A055.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 14544,
+      "sha1": "97cac66f79ef1c8ed253a60e47c914ec584ed378"
+    },
+    "tags": [
+      "questions#daily-routine"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-scriu-seara"
+  },
+  {
+    "id": "question_dormi-noaptea-bine",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Dormi noaptea bine?",
+    "names": {
+      "ro": "Dormi noaptea bine?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A034.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 12816,
+      "sha1": "6ec4aae4b291c34b6a3cca3af47c9fc857b8569c"
+    },
+    "tags": [
+      "questions#daily-routine"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_dormi-noaptea-bine"
+  },
+  {
+    "id": "question_da-dorm-noaptea-bine",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, dorm noaptea bine.",
+    "names": {
+      "ro": "Da, dorm noaptea bine."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A020.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 15696,
+      "sha1": "4db2aad8e2a933a5e4d27783167aac4115c00d15"
+    },
+    "tags": [
+      "questions#daily-routine"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-dorm-noaptea-bine"
+  },
+  {
+    "id": "question_nu-dorm-putin-noaptea",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, dorm puțin noaptea.",
+    "names": {
+      "ro": "Nu, dorm puțin noaptea."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A041.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 16416,
+      "sha1": "127baf8dc5f1c72f19c23b6b6e29f320bd29f8ea"
+    },
+    "tags": [
+      "questions#daily-routine"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-dorm-putin-noaptea"
+  },
+  {
+    "id": "question_studentul-citeste-lectia",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Studentul citește lecția?",
+    "names": {
+      "ro": "Studentul citește lecția?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A063.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 16704,
+      "sha1": "774ad4e0f3f05991d31800e22423b80764d47835"
+    },
+    "tags": [
+      "questions#school-life"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_studentul-citeste-lectia"
+  },
+  {
+    "id": "question_da-studentul-citeste-lectia",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, studentul citește lecția.",
+    "names": {
+      "ro": "Da, studentul citește lecția."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A028.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 18720,
+      "sha1": "d0d64bc082be06d6ca1c86cd73c4d8cc517e6cea"
+    },
+    "tags": [
+      "questions#school-life"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-studentul-citeste-lectia"
+  },
+  {
+    "id": "question_nu-studentul-scrie-lectia",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, studentul scrie lecția.",
+    "names": {
+      "ro": "Nu, studentul scrie lecția."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A049.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 18144,
+      "sha1": "933099375a5705d8cecb8a060fe1063e8a0a0917"
+    },
+    "tags": [
+      "questions#school-life"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-studentul-scrie-lectia"
+  },
+  {
+    "id": "question_ai-examen-azi",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Ai examen azi?",
+    "names": {
+      "ro": "Ai examen azi?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A007.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11952,
+      "sha1": "9b0279bd8a8c8304c2c1bc2c43544f80959b8cac"
+    },
+    "tags": [
+      "questions#school-life"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_ai-examen-azi"
+  },
+  {
+    "id": "question_da-am-examen-azi",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, am examen azi.",
+    "names": {
+      "ro": "Da, am examen azi."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A014.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 15408,
+      "sha1": "d60c7a09cb18475bbea3eccc0c892f9e8bfe1287"
+    },
+    "tags": [
+      "questions#school-life"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-am-examen-azi"
+  },
+  {
+    "id": "question_nu-am-tema-azi",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, am temă azi.",
+    "names": {
+      "ro": "Nu, am temă azi."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A035.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 13968,
+      "sha1": "4c4944720c4b089ad3bf126d3fcd75fb447faf02"
+    },
+    "tags": [
+      "questions#school-life"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-am-tema-azi"
+  },
+  {
+    "id": "question_profesorul-este-la-universitate",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Profesorul este la universitate?",
+    "names": {
+      "ro": "Profesorul este la universitate?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A056.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 18864,
+      "sha1": "fe4a0970aaf0f79988eb7827ed88b1baa70b2c5c"
+    },
+    "tags": [
+      "questions#school-life"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_profesorul-este-la-universitate"
+  },
+  {
+    "id": "question_da-profesorul-este-la-universitate",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Da, profesorul este la universitate.",
+    "names": {
+      "ro": "Da, profesorul este la universitate."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A021.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 21888,
+      "sha1": "38cf608e724590903f1e0778f3629ed76641d6f9"
+    },
+    "tags": [
+      "questions#school-life"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_da-profesorul-este-la-universitate"
+  },
+  {
+    "id": "question_nu-profesorul-este-la-scoala",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "media",
+    "term": "Nu, profesorul este la școală.",
+    "names": {
+      "ro": "Nu, profesorul este la școală."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/L2T04/A042.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 19296,
+      "sha1": "59f96a0dab4d2b12bcbf3abebf124a91420fef36"
+    },
+    "tags": [
+      "questions#school-life"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "L2T04",
+    "entity_id": "question_nu-profesorul-este-la-scoala"
   }
 ]

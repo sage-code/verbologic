@@ -24,6 +24,8 @@ const ERRORS = []
 const WARNINGS = []
 /** Referenced ids with no manifest/entity/doc yet — planned items, never fatal. */
 const plannedIds = []
+/** Topic study levels (mirrors CEFR_LEVELS in src/types/sidebars.ts). */
+const CEFR_LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
 
 const readJson = (rel) => JSON.parse(readFileSync(join(ROOT, rel), 'utf-8'))
 
@@ -206,6 +208,12 @@ try {
       if (!section.names?.en?.trim()) ERRORS.push(`sidebar ${sidebar.id} · ${section.code}: missing names.en`)
       for (const topic of section.topics ?? []) {
         if (!topic.names?.en?.trim()) ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: missing names.en`)
+        // Study level (mirrors CEFR_LEVELS in src/types/sidebars.ts).
+        if (topic.level !== undefined && !CEFR_LEVELS.includes(topic.level)) {
+          ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: bad level '${topic.level}' (expected one of ${CEFR_LEVELS.join(', ')})`)
+        } else if (topic.level === undefined && sidebar.id.startsWith('library/')) {
+          WARNINGS.push(`sidebar ${sidebar.id} · ${topic.code}: missing level`)
+        }
         for (const id of topic.items ?? []) {
           itemCount++
           // Structure-first: an id resolving to nothing yet is a PLANNED item

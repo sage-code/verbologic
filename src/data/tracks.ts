@@ -29,14 +29,11 @@ export interface TrackMeta {
 export const TRACKS: Record<string, TrackMeta> = {
   ro: {
     words: 405,
-    tracks: { dictionary: '/learn/ro/dictionary', lectures: '/learn/ro/lectures', stories: null }
+    tracks: { dictionary: '/learn/ro/dictionary', lectures: '/learn/ro/lectures', stories: '/learn/ro/stories' }
   },
   en: {
-    // EN's dictionary WAS the alphabet — the letters moved to the introductory
-    // lectures (library/lectures L1T02), so EN's live track is Lectures until
-    // an EN expression corpus is authored through the same pipeline.
     words: 74,
-    tracks: { dictionary: null, lectures: '/learn/en/lectures', stories: null }
+    tracks: { dictionary: '/learn/en/dictionary', lectures: '/learn/en/lectures', stories: '/learn/en/stories' }
   }
 }
 
