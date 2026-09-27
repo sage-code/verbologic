@@ -2,21 +2,42 @@
   "id": "library/dictionary",
   "names": {
     "en": "Dictionary",
-    "ro": "Dicționar"
+    "ro": "Dicționar",
+    "de": "Wörterbuch",
+    "ru": "Словарь",
+    "it": "Dizionario",
+    "es": "Diccionario",
+    "fr": "Dictionnaire",
+    "hu": "Szótár",
+    "pt": "Dicionário"
   },
   "sections": [
     {
       "code": "C1",
       "names": {
         "en": "First Words",
-        "ro": "Primele cuvinte"
+        "ro": "Primele cuvinte",
+        "de": "Erste Wörter",
+        "ru": "Первые слова",
+        "it": "Prime parole",
+        "es": "Primeras palabras",
+        "fr": "Premiers mots",
+        "hu": "Első szavak",
+        "pt": "Primeiras palavras"
       },
       "topics": [
         {
           "code": "C1T01",
           "names": {
             "en": "Greetings & farewells",
-            "ro": "Salutări și despărțiri"
+            "ro": "Salutări și despărțiri",
+            "de": "Begrüßungen und Verabschiedungen",
+            "ru": "Приветствия и прощания",
+            "it": "Saluti e congedi",
+            "es": "Saludos y despedidas",
+            "fr": "Salutations et adieux",
+            "hu": "Köszönések és búcsúzások",
+            "pt": "Cumprimentos e despedidas"
           },
           "layout": "table",
           "level": "A1",
@@ -39,7 +60,14 @@
           "code": "C1T02",
           "names": {
             "en": "Courtesy formulas",
-            "ro": "Formule de politețe"
+            "ro": "Formule de politețe",
+            "de": "Höflichkeitsformeln",
+            "ru": "Формулы вежливости",
+            "it": "Formule di cortesia",
+            "es": "Fórmulas de cortesía",
+            "fr": "Formules de politesse",
+            "hu": "Udvariassági formulák",
+            "pt": "Fórmulas de cortesia"
           },
           "layout": "table",
           "level": "A1",
@@ -59,7 +87,14 @@
           "code": "C1T03",
           "names": {
             "en": "Names & introductions",
-            "ro": "Nume și prezentări"
+            "ro": "Nume și prezentări",
+            "de": "Namen und Vorstellungen",
+            "ru": "Имена и знакомства",
+            "it": "Nomi e presentazioni",
+            "es": "Nombres y presentaciones",
+            "fr": "Noms et présentations",
+            "hu": "Nevek és bemutatkozás",
+            "pt": "Nomes e apresentações"
           },
           "layout": "table",
           "level": "A1",
@@ -86,7 +121,14 @@
           "code": "C1T04",
           "names": {
             "en": "Simple questions",
-            "ro": "Întrebări simple"
+            "ro": "Întrebări simple",
+            "de": "Einfache Fragen",
+            "ru": "Простые вопросы",
+            "it": "Domande semplici",
+            "es": "Preguntas simples",
+            "fr": "Questions simples",
+            "hu": "Egyszerű kérdések",
+            "pt": "Perguntas simples"
           },
           "layout": "table",
           "level": "A1",
@@ -104,7 +146,14 @@
           "code": "C1T05",
           "names": {
             "en": "Numbers 0–100",
-            "ro": "Numere 0–100"
+            "ro": "Numere 0–100",
+            "de": "Zahlen 0–100",
+            "ru": "Числа 0–100",
+            "it": "Numeri 0–100",
+            "es": "Números 0–100",
+            "fr": "Nombres 0–100",
+            "hu": "Számok 0–100",
+            "pt": "Números 0–100"
           },
           "layout": "table",
           "level": "A1",
@@ -135,7 +184,14 @@
           "code": "C1T06",
           "names": {
             "en": "Colors & shapes",
-            "ro": "Culori și forme"
+            "ro": "Culori și forme",
+            "de": "Farben und Formen",
+            "ru": "Цвета и формы",
+            "it": "Colori e forme",
+            "es": "Colores y formas",
+            "fr": "Couleurs et formes",
+            "hu": "Színek és formák",
+            "pt": "Cores e formas"
           },
           "layout": "table",
           "level": "A1",
@@ -156,7 +212,14 @@
           "code": "C1T07",
           "names": {
             "en": "Family members",
-            "ro": "Membrii familiei"
+            "ro": "Membrii familiei",
+            "de": "Familienmitglieder",
+            "ru": "Члены семьи",
+            "it": "Membri della famiglia",
+            "es": "Miembros de la familia",
+            "fr": "Membres de la famille",
+            "hu": "Családtagok",
+            "pt": "Membros da família"
           },
           "layout": "table",
           "level": "A1",
@@ -177,7 +240,14 @@
           "code": "C1T08",
           "names": {
             "en": "Classroom objects",
-            "ro": "Obiecte din clasă"
+            "ro": "Obiecte din clasă",
+            "de": "Gegenstände im Klassenzimmer",
+            "ru": "Школьные принадлежности",
+            "it": "Oggetti dell'aula",
+            "es": "Objetos del aula",
+            "fr": "Objets de la salle de classe",
+            "hu": "Tantermi tárgyak",
+            "pt": "Objetos da sala de aula"
           },
           "layout": "table",
           "level": "A1",
@@ -200,14 +270,28 @@
       "code": "C2",
       "names": {
         "en": "Me & My Home",
-        "ro": "Eu și casa mea"
+        "ro": "Eu și casa mea",
+        "de": "Ich und mein Zuhause",
+        "ru": "Я и мой дом",
+        "it": "Io e la mia casa",
+        "es": "Yo y mi casa",
+        "fr": "Moi et ma maison",
+        "hu": "Én és az otthonom",
+        "pt": "Eu e minha casa"
       },
       "topics": [
         {
           "code": "C2T01",
           "names": {
             "en": "Body parts",
-            "ro": "Părțile corpului"
+            "ro": "Părțile corpului",
+            "de": "Körperteile",
+            "ru": "Части тела",
+            "it": "Parti del corpo",
+            "es": "Partes del cuerpo",
+            "fr": "Parties du corps",
+            "hu": "Testrészek",
+            "pt": "Partes do corpo"
           },
           "layout": "table",
           "level": "A1",
@@ -228,7 +312,14 @@
           "code": "C2T02",
           "names": {
             "en": "Clothes & shoes",
-            "ro": "Haine și încălțăminte"
+            "ro": "Haine și încălțăminte",
+            "de": "Kleidung und Schuhe",
+            "ru": "Одежда и обувь",
+            "it": "Vestiti e scarpe",
+            "es": "Ropa y zapatos",
+            "fr": "Vêtements et chaussures",
+            "hu": "Ruhák és cipők",
+            "pt": "Roupas e sapatos"
           },
           "layout": "table",
           "level": "A1",
@@ -254,7 +345,14 @@
           "code": "C2T03",
           "names": {
             "en": "House & rooms",
-            "ro": "Casa și camerele"
+            "ro": "Casa și camerele",
+            "de": "Haus und Zimmer",
+            "ru": "Дом и комнаты",
+            "it": "La casa e le stanze",
+            "es": "La casa y las habitaciones",
+            "fr": "La maison et les pièces",
+            "hu": "A ház és a szobák",
+            "pt": "A casa e os cômodos"
           },
           "layout": "table",
           "level": "A1",
@@ -280,7 +378,14 @@
           "code": "C2T04",
           "names": {
             "en": "Furniture & household objects",
-            "ro": "Mobilier și obiecte casnice"
+            "ro": "Mobilier și obiecte casnice",
+            "de": "Möbel und Haushaltsgegenstände",
+            "ru": "Мебель и предметы быта",
+            "it": "Mobili e oggetti domestici",
+            "es": "Muebles y objetos del hogar",
+            "fr": "Meubles et objets domestiques",
+            "hu": "Bútorok és háztartási tárgyak",
+            "pt": "Móveis e objetos domésticos"
           },
           "layout": "table",
           "level": "A1",
@@ -306,7 +411,14 @@
           "code": "C2T05",
           "names": {
             "en": "Food & ingredients",
-            "ro": "Alimente și ingrediente"
+            "ro": "Alimente și ingrediente",
+            "de": "Essen und Zutaten",
+            "ru": "Еда и продукты",
+            "it": "Cibo e ingredienti",
+            "es": "Comida e ingredientes",
+            "fr": "Nourriture et ingrédients",
+            "hu": "Étel és hozzávalók",
+            "pt": "Comida e ingredientes"
           },
           "layout": "table",
           "level": "A1",
@@ -332,7 +444,14 @@
           "code": "C2T06",
           "names": {
             "en": "Animals & pets",
-            "ro": "Animale și animale de companie"
+            "ro": "Animale și animale de companie",
+            "de": "Tiere und Haustiere",
+            "ru": "Животные и домашние питомцы",
+            "it": "Animali e animali domestici",
+            "es": "Animales y mascotas",
+            "fr": "Animaux et animaux de compagnie",
+            "hu": "Állatok és háziállatok",
+            "pt": "Animais e animais de estimação"
           },
           "layout": "table",
           "level": "A1",
@@ -353,7 +472,14 @@
           "code": "C2T07",
           "names": {
             "en": "Toys & games",
-            "ro": "Jucării și jocuri"
+            "ro": "Jucării și jocuri",
+            "de": "Spielzeug und Spiele",
+            "ru": "Игрушки и игры",
+            "it": "Giocattoli e giochi",
+            "es": "Juguetes y juegos",
+            "fr": "Jouets et jeux",
+            "hu": "Játékok és játékszerek",
+            "pt": "Brinquedos e jogos"
           },
           "layout": "table",
           "level": "A1",
@@ -376,14 +502,28 @@
       "code": "C3",
       "names": {
         "en": "Daily Life",
-        "ro": "Viața de zi cu zi"
+        "ro": "Viața de zi cu zi",
+        "de": "Alltag",
+        "ru": "Повседневная жизнь",
+        "it": "Vita quotidiana",
+        "es": "Vida cotidiana",
+        "fr": "Vie quotidienne",
+        "hu": "Mindennapi élet",
+        "pt": "Vida cotidiana"
       },
       "topics": [
         {
           "code": "C3T01",
           "names": {
             "en": "Daily routine",
-            "ro": "Rutina zilnică"
+            "ro": "Rutina zilnică",
+            "de": "Tagesablauf",
+            "ru": "Распорядок дня",
+            "it": "Routine quotidiana",
+            "es": "Rutina diaria",
+            "fr": "Routine quotidienne",
+            "hu": "Napi rutin",
+            "pt": "Rotina diária"
           },
           "layout": "table",
           "level": "A2",
@@ -409,7 +549,14 @@
           "code": "C3T02",
           "names": {
             "en": "Time & the clock",
-            "ro": "Timpul și ceasul"
+            "ro": "Timpul și ceasul",
+            "de": "Zeit und Uhr",
+            "ru": "Время и часы",
+            "it": "Il tempo e l'orologio",
+            "es": "La hora y el reloj",
+            "fr": "L'heure et l'horloge",
+            "hu": "Az idő és az óra",
+            "pt": "A hora e o relógio"
           },
           "layout": "table",
           "level": "A2",
@@ -435,7 +582,14 @@
           "code": "C3T03",
           "names": {
             "en": "Days, months & seasons",
-            "ro": "Zile, luni și anotimpuri"
+            "ro": "Zile, luni și anotimpuri",
+            "de": "Tage, Monate und Jahreszeiten",
+            "ru": "Дни, месяцы и времена года",
+            "it": "Giorni, mesi e stagioni",
+            "es": "Días, meses y estaciones",
+            "fr": "Jours, mois et saisons",
+            "hu": "Napok, hónapok és évszakok",
+            "pt": "Dias, meses e estações"
           },
           "layout": "table",
           "level": "A2",
@@ -469,7 +623,14 @@
           "code": "C3T04",
           "names": {
             "en": "Weather",
-            "ro": "Vremea"
+            "ro": "Vremea",
+            "de": "Wetter",
+            "ru": "Погода",
+            "it": "Il tempo (meteo)",
+            "es": "El clima",
+            "fr": "La météo",
+            "hu": "Időjárás",
+            "pt": "O clima"
           },
           "layout": "table",
           "level": "A2",
@@ -495,7 +656,14 @@
           "code": "C3T05",
           "names": {
             "en": "Meals & drinks",
-            "ro": "Mese și băuturi"
+            "ro": "Mese și băuturi",
+            "de": "Mahlzeiten und Getränke",
+            "ru": "Еда и напитки",
+            "it": "Pasti e bevande",
+            "es": "Comidas y bebidas",
+            "fr": "Repas et boissons",
+            "hu": "Étkezések és italok",
+            "pt": "Refeições e bebidas"
           },
           "layout": "table",
           "level": "A2",
@@ -521,7 +689,14 @@
           "code": "C3T06",
           "names": {
             "en": "Household chores",
-            "ro": "Treburi casnice"
+            "ro": "Treburi casnice",
+            "de": "Hausarbeit",
+            "ru": "Домашние дела",
+            "it": "Faccende domestiche",
+            "es": "Tareas domésticas",
+            "fr": "Tâches ménagères",
+            "hu": "Házimunka",
+            "pt": "Tarefas domésticas"
           },
           "layout": "table",
           "level": "A2",
@@ -542,7 +717,14 @@
           "code": "C3T07",
           "names": {
             "en": "Feelings & moods",
-            "ro": "Sentimente și stări"
+            "ro": "Sentimente și stări",
+            "de": "Gefühle und Stimmungen",
+            "ru": "Чувства и настроения",
+            "it": "Sentimenti e stati d'animo",
+            "es": "Sentimientos y estados de ánimo",
+            "fr": "Sentiments et humeurs",
+            "hu": "Érzések és hangulatok",
+            "pt": "Sentimentos e estados de espírito"
           },
           "layout": "table",
           "level": "A2",
@@ -569,14 +751,28 @@
       "code": "C4",
       "names": {
         "en": "Around Town",
-        "ro": "Prin oraș"
+        "ro": "Prin oraș",
+        "de": "In der Stadt",
+        "ru": "По городу",
+        "it": "In città",
+        "es": "Por la ciudad",
+        "fr": "En ville",
+        "hu": "A városban",
+        "pt": "Pela cidade"
       },
       "topics": [
         {
           "code": "C4T01",
           "names": {
             "en": "Town places & buildings",
-            "ro": "Locuri și clădiri din oraș"
+            "ro": "Locuri și clădiri din oraș",
+            "de": "Orte und Gebäude in der Stadt",
+            "ru": "Городские места и здания",
+            "it": "Luoghi ed edifici della città",
+            "es": "Lugares y edificios de la ciudad",
+            "fr": "Lieux et bâtiments de la ville",
+            "hu": "Városi helyek és épületek",
+            "pt": "Lugares e edifícios da cidade"
           },
           "layout": "table",
           "level": "A2",
@@ -597,7 +793,14 @@
           "code": "C4T02",
           "names": {
             "en": "Shops & markets",
-            "ro": "Magazine și piețe"
+            "ro": "Magazine și piețe",
+            "de": "Geschäfte und Märkte",
+            "ru": "Магазины и рынки",
+            "it": "Negozi e mercati",
+            "es": "Tiendas y mercados",
+            "fr": "Magasins et marchés",
+            "hu": "Boltok és piacok",
+            "pt": "Lojas e mercados"
           },
           "layout": "table",
           "level": "A2",
@@ -618,7 +821,14 @@
           "code": "C4T03",
           "names": {
             "en": "Money & prices",
-            "ro": "Bani și prețuri"
+            "ro": "Bani și prețuri",
+            "de": "Geld und Preise",
+            "ru": "Деньги и цены",
+            "it": "Denaro e prezzi",
+            "es": "Dinero y precios",
+            "fr": "Argent et prix",
+            "hu": "Pénz és árak",
+            "pt": "Dinheiro e preços"
           },
           "layout": "table",
           "level": "A2",
@@ -644,7 +854,14 @@
           "code": "C4T04",
           "names": {
             "en": "Public transport",
-            "ro": "Transport public"
+            "ro": "Transport public",
+            "de": "Öffentliche Verkehrsmittel",
+            "ru": "Общественный транспорт",
+            "it": "Trasporto pubblico",
+            "es": "Transporte público",
+            "fr": "Transports en commun",
+            "hu": "Tömegközlekedés",
+            "pt": "Transporte público"
           },
           "layout": "table",
           "level": "A2",
@@ -670,7 +887,14 @@
           "code": "C4T05",
           "names": {
             "en": "Directions & positions",
-            "ro": "Direcții și poziții"
+            "ro": "Direcții și poziții",
+            "de": "Richtungen und Positionen",
+            "ru": "Направления и положения",
+            "it": "Direzioni e posizioni",
+            "es": "Direcciones y posiciones",
+            "fr": "Directions et positions",
+            "hu": "Irányok és helyzetek",
+            "pt": "Direções e posições"
           },
           "layout": "table",
           "level": "A2",
@@ -696,7 +920,14 @@
           "code": "C4T06",
           "names": {
             "en": "Jobs & occupations",
-            "ro": "Meserii și ocupații"
+            "ro": "Meserii și ocupații",
+            "de": "Berufe und Tätigkeiten",
+            "ru": "Профессии и занятия",
+            "it": "Lavori e occupazioni",
+            "es": "Trabajos y ocupaciones",
+            "fr": "Métiers et professions",
+            "hu": "Foglalkozások",
+            "pt": "Trabalhos e profissões"
           },
           "layout": "table",
           "level": "A2",
@@ -717,7 +948,14 @@
           "code": "C4T07",
           "names": {
             "en": "Doctor & pharmacy",
-            "ro": "Medic și farmacie"
+            "ro": "Medic și farmacie",
+            "de": "Arzt und Apotheke",
+            "ru": "Врач и аптека",
+            "it": "Medico e farmacia",
+            "es": "Médico y farmacia",
+            "fr": "Médecin et pharmacie",
+            "hu": "Orvos és gyógyszertár",
+            "pt": "Médico e farmácia"
           },
           "layout": "table",
           "level": "A2",
@@ -745,14 +983,28 @@
       "code": "C5",
       "names": {
         "en": "Travel & Services",
-        "ro": "Călătorii și servicii"
+        "ro": "Călătorii și servicii",
+        "de": "Reisen und Dienstleistungen",
+        "ru": "Путешествия и услуги",
+        "it": "Viaggi e servizi",
+        "es": "Viajes y servicios",
+        "fr": "Voyages et services",
+        "hu": "Utazás és szolgáltatások",
+        "pt": "Viagens e serviços"
       },
       "topics": [
         {
           "code": "C5T01",
           "names": {
             "en": "Airport & border",
-            "ro": "Aeroport și frontieră"
+            "ro": "Aeroport și frontieră",
+            "de": "Flughafen und Grenze",
+            "ru": "Аэропорт и граница",
+            "it": "Aeroporto e confine",
+            "es": "Aeropuerto y frontera",
+            "fr": "Aéroport et frontière",
+            "hu": "Repülőtér és határ",
+            "pt": "Aeroporto e fronteira"
           },
           "layout": "table",
           "level": "B1",
@@ -778,7 +1030,14 @@
           "code": "C5T02",
           "names": {
             "en": "Accommodation",
-            "ro": "Cazare"
+            "ro": "Cazare",
+            "de": "Unterkunft",
+            "ru": "Проживание",
+            "it": "Alloggio",
+            "es": "Alojamiento",
+            "fr": "Hébergement",
+            "hu": "Szállás",
+            "pt": "Alojamento"
           },
           "layout": "table",
           "level": "B1",
@@ -799,7 +1058,14 @@
           "code": "C5T03",
           "names": {
             "en": "Restaurant & café",
-            "ro": "Restaurant și cafenea"
+            "ro": "Restaurant și cafenea",
+            "de": "Restaurant und Café",
+            "ru": "Ресторан и кафе",
+            "it": "Ristorante e caffè",
+            "es": "Restaurante y café",
+            "fr": "Restaurant et café",
+            "hu": "Étterem és kávézó",
+            "pt": "Restaurante e café"
           },
           "layout": "table",
           "level": "B1",
@@ -825,7 +1091,14 @@
           "code": "C5T04",
           "names": {
             "en": "Bank & post office",
-            "ro": "Bancă și poștă"
+            "ro": "Bancă și poștă",
+            "de": "Bank und Post",
+            "ru": "Банк и почта",
+            "it": "Banca e ufficio postale",
+            "es": "Banco y correos",
+            "fr": "Banque et bureau de poste",
+            "hu": "Bank és posta",
+            "pt": "Banco e correios"
           },
           "layout": "table",
           "level": "B1",
@@ -846,7 +1119,14 @@
           "code": "C5T05",
           "names": {
             "en": "Phone & online services",
-            "ro": "Telefon și servicii online"
+            "ro": "Telefon și servicii online",
+            "de": "Telefon und Online-Dienste",
+            "ru": "Телефон и онлайн-услуги",
+            "it": "Telefono e servizi online",
+            "es": "Teléfono y servicios en línea",
+            "fr": "Téléphone et services en ligne",
+            "hu": "Telefon és online szolgáltatások",
+            "pt": "Telefone e serviços online"
           },
           "layout": "table",
           "level": "B1",
@@ -867,7 +1147,14 @@
           "code": "C5T06",
           "names": {
             "en": "Holidays & celebrations",
-            "ro": "Sărbători și celebrări"
+            "ro": "Sărbători și celebrări",
+            "de": "Feiertage und Feiern",
+            "ru": "Праздники и торжества",
+            "it": "Feste e celebrazioni",
+            "es": "Fiestas y celebraciones",
+            "fr": "Fêtes et célébrations",
+            "hu": "Ünnepek és ünnepségek",
+            "pt": "Feriados e celebrações"
           },
           "layout": "table",
           "level": "B1",
@@ -888,7 +1175,14 @@
           "code": "C5T07",
           "names": {
             "en": "Emergencies & safety",
-            "ro": "Urgențe și siguranță"
+            "ro": "Urgențe și siguranță",
+            "de": "Notfälle und Sicherheit",
+            "ru": "Чрезвычайные ситуации и безопасность",
+            "it": "Emergenze e sicurezza",
+            "es": "Emergencias y seguridad",
+            "fr": "Urgences et sécurité",
+            "hu": "Vészhelyzetek és biztonság",
+            "pt": "Emergências e segurança"
           },
           "layout": "table",
           "level": "B1",
@@ -916,14 +1210,28 @@
       "code": "C6",
       "names": {
         "en": "School Subjects",
-        "ro": "Materii școlare"
+        "ro": "Materii școlare",
+        "de": "Schulfächer",
+        "ru": "Школьные предметы",
+        "it": "Materie scolastiche",
+        "es": "Materias escolares",
+        "fr": "Matières scolaires",
+        "hu": "Iskolai tantárgyak",
+        "pt": "Matérias escolares"
       },
       "topics": [
         {
           "code": "C6T01",
           "names": {
             "en": "School & university",
-            "ro": "Școală și universitate"
+            "ro": "Școală și universitate",
+            "de": "Schule und Universität",
+            "ru": "Школа и университет",
+            "it": "Scuola e università",
+            "es": "Escuela y universidad",
+            "fr": "École et université",
+            "hu": "Iskola és egyetem",
+            "pt": "Escola e universidade"
           },
           "layout": "table",
           "level": "B1",
@@ -949,7 +1257,14 @@
           "code": "C6T02",
           "names": {
             "en": "Classroom language",
-            "ro": "Limbajul de la clasă"
+            "ro": "Limbajul de la clasă",
+            "de": "Unterrichtssprache",
+            "ru": "Язык классной комнаты",
+            "it": "Linguaggio dell'aula",
+            "es": "Lenguaje del aula",
+            "fr": "Langage de la salle de classe",
+            "hu": "Tantermi nyelvhasználat",
+            "pt": "Linguagem da sala de aula"
           },
           "layout": "table",
           "level": "B1",
@@ -975,7 +1290,14 @@
           "code": "C6T03",
           "names": {
             "en": "Maths & measurement",
-            "ro": "Matematică și măsurători"
+            "ro": "Matematică și măsurători",
+            "de": "Mathematik und Maßeinheiten",
+            "ru": "Математика и измерения",
+            "it": "Matematica e misure",
+            "es": "Matemáticas y medidas",
+            "fr": "Mathématiques et mesures",
+            "hu": "Matematika és mértékegységek",
+            "pt": "Matemática e medidas"
           },
           "layout": "table",
           "level": "B1",
@@ -996,7 +1318,14 @@
           "code": "C6T04",
           "names": {
             "en": "Science lab",
-            "ro": "Laboratorul de științe"
+            "ro": "Laboratorul de științe",
+            "de": "Wissenschaftslabor",
+            "ru": "Научная лаборатория",
+            "it": "Laboratorio scientifico",
+            "es": "Laboratorio de ciencias",
+            "fr": "Laboratoire de sciences",
+            "hu": "Természettudományos laboratórium",
+            "pt": "Laboratório de ciências"
           },
           "layout": "table",
           "level": "B1",
@@ -1017,7 +1346,14 @@
           "code": "C6T05",
           "names": {
             "en": "History & time periods",
-            "ro": "Istorie și epoci"
+            "ro": "Istorie și epoci",
+            "de": "Geschichte und Epochen",
+            "ru": "История и эпохи",
+            "it": "Storia ed epoche",
+            "es": "Historia y épocas",
+            "fr": "Histoire et époques",
+            "hu": "Történelem és korszakok",
+            "pt": "História e épocas"
           },
           "layout": "table",
           "level": "B1",
@@ -1038,7 +1374,14 @@
           "code": "C6T06",
           "names": {
             "en": "Arts & music",
-            "ro": "Arte și muzică"
+            "ro": "Arte și muzică",
+            "de": "Kunst und Musik",
+            "ru": "Искусство и музыка",
+            "it": "Arte e musica",
+            "es": "Arte y música",
+            "fr": "Arts et musique",
+            "hu": "Művészet és zene",
+            "pt": "Arte e música"
           },
           "layout": "table",
           "level": "B1",
@@ -1059,7 +1402,14 @@
           "code": "C6T07",
           "names": {
             "en": "Sports & PE",
-            "ro": "Sport și educație fizică"
+            "ro": "Sport și educație fizică",
+            "de": "Sport und Sportunterricht",
+            "ru": "Спорт и физкультура",
+            "it": "Sport ed educazione fisica",
+            "es": "Deportes y educación física",
+            "fr": "Sport et éducation physique",
+            "hu": "Sport és testnevelés",
+            "pt": "Esportes e educação física"
           },
           "layout": "table",
           "level": "B1",
@@ -1082,14 +1432,28 @@
       "code": "C7",
       "names": {
         "en": "People & Society",
-        "ro": "Oameni și societate"
+        "ro": "Oameni și societate",
+        "de": "Menschen und Gesellschaft",
+        "ru": "Люди и общество",
+        "it": "Persone e società",
+        "es": "Personas y sociedad",
+        "fr": "Personnes et société",
+        "hu": "Emberek és társadalom",
+        "pt": "Pessoas e sociedade"
       },
       "topics": [
         {
           "code": "C7T01",
           "names": {
             "en": "Character & personality",
-            "ro": "Caracter și personalitate"
+            "ro": "Caracter și personalitate",
+            "de": "Charakter und Persönlichkeit",
+            "ru": "Характер и личность",
+            "it": "Carattere e personalità",
+            "es": "Carácter y personalidad",
+            "fr": "Caractère et personnalité",
+            "hu": "Jellem és személyiség",
+            "pt": "Caráter e personalidade"
           },
           "layout": "table",
           "level": "B2",
@@ -1115,7 +1479,14 @@
           "code": "C7T02",
           "names": {
             "en": "Relationships",
-            "ro": "Relații"
+            "ro": "Relații",
+            "de": "Beziehungen",
+            "ru": "Отношения",
+            "it": "Relazioni",
+            "es": "Relaciones",
+            "fr": "Relations",
+            "hu": "Kapcsolatok",
+            "pt": "Relações"
           },
           "layout": "table",
           "level": "B2",
@@ -1141,7 +1512,14 @@
           "code": "C7T03",
           "names": {
             "en": "Health & well-being",
-            "ro": "Sănătate și stare de bine"
+            "ro": "Sănătate și stare de bine",
+            "de": "Gesundheit und Wohlbefinden",
+            "ru": "Здоровье и благополучие",
+            "it": "Salute e benessere",
+            "es": "Salud y bienestar",
+            "fr": "Santé et bien-être",
+            "hu": "Egészség és jólét",
+            "pt": "Saúde e bem-estar"
           },
           "layout": "table",
           "level": "B2",
@@ -1167,7 +1545,14 @@
           "code": "C7T04",
           "names": {
             "en": "Media & entertainment",
-            "ro": "Media și divertisment"
+            "ro": "Media și divertisment",
+            "de": "Medien und Unterhaltung",
+            "ru": "Медиа и развлечения",
+            "it": "Media e intrattenimento",
+            "es": "Medios y entretenimiento",
+            "fr": "Médias et divertissement",
+            "hu": "Média és szórakozás",
+            "pt": "Mídia e entretenimento"
           },
           "layout": "table",
           "level": "B2",
@@ -1188,7 +1573,14 @@
           "code": "C7T05",
           "names": {
             "en": "Culture & traditions",
-            "ro": "Cultură și tradiții"
+            "ro": "Cultură și tradiții",
+            "de": "Kultur und Traditionen",
+            "ru": "Культура и традиции",
+            "it": "Cultura e tradizioni",
+            "es": "Cultura y tradiciones",
+            "fr": "Culture et traditions",
+            "hu": "Kultúra és hagyományok",
+            "pt": "Cultura e tradições"
           },
           "layout": "table",
           "level": "B2",
@@ -1209,7 +1601,14 @@
           "code": "C7T06",
           "names": {
             "en": "Rights, law & citizenship",
-            "ro": "Drepturi, lege și cetățenie"
+            "ro": "Drepturi, lege și cetățenie",
+            "de": "Rechte, Gesetz und Staatsbürgerschaft",
+            "ru": "Права, закон и гражданство",
+            "it": "Diritti, legge e cittadinanza",
+            "es": "Derechos, ley y ciudadanía",
+            "fr": "Droits, loi et citoyenneté",
+            "hu": "Jogok, törvény és állampolgárság",
+            "pt": "Direitos, lei e cidadania"
           },
           "layout": "table",
           "level": "B2",
@@ -1237,14 +1636,28 @@
       "code": "C8",
       "names": {
         "en": "Nature & the Planet",
-        "ro": "Natura și planeta"
+        "ro": "Natura și planeta",
+        "de": "Natur und der Planet",
+        "ru": "Природа и планета",
+        "it": "Natura e il pianeta",
+        "es": "Naturaleza y el planeta",
+        "fr": "Nature et la planète",
+        "hu": "Természet és a bolygó",
+        "pt": "Natureza e o planeta"
       },
       "topics": [
         {
           "code": "C8T01",
           "names": {
             "en": "Landscapes & landforms",
-            "ro": "Peisaje și forme de relief"
+            "ro": "Peisaje și forme de relief",
+            "de": "Landschaften und Landformen",
+            "ru": "Ландшафты и формы рельефа",
+            "it": "Paesaggi e forme del rilievo",
+            "es": "Paisajes y formas del relieve",
+            "fr": "Paysages et formes de relief",
+            "hu": "Tájak és felszínformák",
+            "pt": "Paisagens e formas de relevo"
           },
           "layout": "table",
           "level": "B2",
@@ -1270,7 +1683,14 @@
           "code": "C8T02",
           "names": {
             "en": "Wild animals & plants",
-            "ro": "Animale sălbatice și plante"
+            "ro": "Animale sălbatice și plante",
+            "de": "Wildtiere und Pflanzen",
+            "ru": "Дикие животные и растения",
+            "it": "Animali e piante selvatiche",
+            "es": "Animales y plantas silvestres",
+            "fr": "Animaux et plantes sauvages",
+            "hu": "Vadállatok és növények",
+            "pt": "Animais e plantas selvagens"
           },
           "layout": "table",
           "level": "B2",
@@ -1296,7 +1716,14 @@
           "code": "C8T03",
           "names": {
             "en": "Climate & environment",
-            "ro": "Climă și mediu"
+            "ro": "Climă și mediu",
+            "de": "Klima und Umwelt",
+            "ru": "Климат и окружающая среда",
+            "it": "Clima e ambiente",
+            "es": "Clima y medio ambiente",
+            "fr": "Climat et environnement",
+            "hu": "Éghajlat és környezet",
+            "pt": "Clima e meio ambiente"
           },
           "layout": "table",
           "level": "B2",
@@ -1317,7 +1744,14 @@
           "code": "C8T04",
           "names": {
             "en": "Countries & nationalities",
-            "ro": "Țări și naționalități"
+            "ro": "Țări și naționalități",
+            "de": "Länder und Nationalitäten",
+            "ru": "Страны и национальности",
+            "it": "Paesi e nazionalità",
+            "es": "Países y nacionalidades",
+            "fr": "Pays et nationalités",
+            "hu": "Országok és nemzetiségek",
+            "pt": "Países e nacionalidades"
           },
           "layout": "table",
           "level": "B2",
@@ -1338,7 +1772,14 @@
           "code": "C8T05",
           "names": {
             "en": "Sky & space",
-            "ro": "Cerul și spațiul cosmic"
+            "ro": "Cerul și spațiul cosmic",
+            "de": "Himmel und Weltraum",
+            "ru": "Небо и космос",
+            "it": "Il cielo e lo spazio",
+            "es": "El cielo y el espacio",
+            "fr": "Le ciel et l'espace",
+            "hu": "Az ég és az űr",
+            "pt": "O céu e o espaço"
           },
           "layout": "table",
           "level": "B2",
@@ -1359,7 +1800,14 @@
           "code": "C8T06",
           "names": {
             "en": "Materials & substances",
-            "ro": "Materiale și substanțe"
+            "ro": "Materiale și substanțe",
+            "de": "Materialien und Substanzen",
+            "ru": "Материалы и вещества",
+            "it": "Materiali e sostanze",
+            "es": "Materiales y sustancias",
+            "fr": "Matériaux et substances",
+            "hu": "Anyagok és anyagfajták",
+            "pt": "Materiais e substâncias"
           },
           "layout": "table",
           "level": "B2",
@@ -1382,14 +1830,28 @@
       "code": "C9",
       "names": {
         "en": "Work & Economy",
-        "ro": "Muncă și economie"
+        "ro": "Muncă și economie",
+        "de": "Arbeit und Wirtschaft",
+        "ru": "Работа и экономика",
+        "it": "Lavoro ed economia",
+        "es": "Trabajo y economía",
+        "fr": "Travail et économie",
+        "hu": "Munka és gazdaság",
+        "pt": "Trabalho e economia"
       },
       "topics": [
         {
           "code": "C9T01",
           "names": {
             "en": "Office & workplace",
-            "ro": "Birou și loc de muncă"
+            "ro": "Birou și loc de muncă",
+            "de": "Büro und Arbeitsplatz",
+            "ru": "Офис и рабочее место",
+            "it": "Ufficio e luogo di lavoro",
+            "es": "Oficina y lugar de trabajo",
+            "fr": "Bureau et lieu de travail",
+            "hu": "Iroda és munkahely",
+            "pt": "Escritório e local de trabalho"
           },
           "layout": "table",
           "level": "C1",
@@ -1414,7 +1876,14 @@
           "code": "C9T02",
           "names": {
             "en": "Jobs & applications",
-            "ro": "Locuri de muncă și candidaturi"
+            "ro": "Locuri de muncă și candidaturi",
+            "de": "Stellen und Bewerbungen",
+            "ru": "Работа и заявки на трудоустройство",
+            "it": "Lavori e candidature",
+            "es": "Empleos y solicitudes",
+            "fr": "Emplois et candidatures",
+            "hu": "Állások és jelentkezések",
+            "pt": "Empregos e candidaturas"
           },
           "layout": "table",
           "level": "C1",
@@ -1435,7 +1904,14 @@
           "code": "C9T03",
           "names": {
             "en": "Meetings & e-mail",
-            "ro": "Ședințe și e-mail"
+            "ro": "Ședințe și e-mail",
+            "de": "Besprechungen und E-Mail",
+            "ru": "Встречи и электронная почта",
+            "it": "Riunioni ed e-mail",
+            "es": "Reuniones y correo electrónico",
+            "fr": "Réunions et e-mails",
+            "hu": "Megbeszélések és e-mail",
+            "pt": "Reuniões e e-mail"
           },
           "layout": "table",
           "level": "C1",
@@ -1456,7 +1932,14 @@
           "code": "C9T04",
           "names": {
             "en": "Business & trade",
-            "ro": "Afaceri și comerț"
+            "ro": "Afaceri și comerț",
+            "de": "Geschäft und Handel",
+            "ru": "Бизнес и торговля",
+            "it": "Affari e commercio",
+            "es": "Negocios y comercio",
+            "fr": "Affaires et commerce",
+            "hu": "Üzlet és kereskedelem",
+            "pt": "Negócios e comércio"
           },
           "layout": "table",
           "level": "C1",
@@ -1477,7 +1960,14 @@
           "code": "C9T05",
           "names": {
             "en": "Finance & banking",
-            "ro": "Finanțe și bănci"
+            "ro": "Finanțe și bănci",
+            "de": "Finanzen und Bankwesen",
+            "ru": "Финансы и банковское дело",
+            "it": "Finanza e banche",
+            "es": "Finanzas y banca",
+            "fr": "Finance et banque",
+            "hu": "Pénzügy és bankügyek",
+            "pt": "Finanças e bancos"
           },
           "layout": "table",
           "level": "C1",
@@ -1498,7 +1988,14 @@
           "code": "C9T06",
           "names": {
             "en": "Industry & agriculture",
-            "ro": "Industrie și agricultură"
+            "ro": "Industrie și agricultură",
+            "de": "Industrie und Landwirtschaft",
+            "ru": "Промышленность и сельское хозяйство",
+            "it": "Industria e agricoltura",
+            "es": "Industria y agricultura",
+            "fr": "Industrie et agriculture",
+            "hu": "Ipar és mezőgazdaság",
+            "pt": "Indústria e agricultura"
           },
           "layout": "table",
           "level": "C1",
@@ -1519,7 +2016,14 @@
           "code": "C9T07",
           "names": {
             "en": "Contracts, salary & tax",
-            "ro": "Contracte, salariu și impozite"
+            "ro": "Contracte, salariu și impozite",
+            "de": "Verträge, Gehalt und Steuern",
+            "ru": "Договоры, зарплата и налоги",
+            "it": "Contratti, stipendio e tasse",
+            "es": "Contratos, salario e impuestos",
+            "fr": "Contrats, salaire et impôts",
+            "hu": "Szerződések, fizetés és adók",
+            "pt": "Contratos, salário e impostos"
           },
           "layout": "table",
           "level": "C1",
@@ -1542,14 +2046,28 @@
       "code": "C10",
       "names": {
         "en": "Science & Technology",
-        "ro": "Știință și tehnologie"
+        "ro": "Știință și tehnologie",
+        "de": "Wissenschaft und Technik",
+        "ru": "Наука и технологии",
+        "it": "Scienza e tecnologia",
+        "es": "Ciencia y tecnología",
+        "fr": "Science et technologie",
+        "hu": "Tudomány és technológia",
+        "pt": "Ciência e tecnologia"
       },
       "topics": [
         {
           "code": "C10T01",
           "names": {
             "en": "Computers & devices",
-            "ro": "Calculatoare și dispozitive"
+            "ro": "Calculatoare și dispozitive",
+            "de": "Computer und Geräte",
+            "ru": "Компьютеры и устройства",
+            "it": "Computer e dispositivi",
+            "es": "Computadoras y dispositivos",
+            "fr": "Ordinateurs et appareils",
+            "hu": "Számítógépek és eszközök",
+            "pt": "Computadores e dispositivos"
           },
           "layout": "table",
           "level": "C1",
@@ -1575,7 +2093,14 @@
           "code": "C10T02",
           "names": {
             "en": "Internet & social media",
-            "ro": "Internet și rețele sociale"
+            "ro": "Internet și rețele sociale",
+            "de": "Internet und soziale Medien",
+            "ru": "Интернет и социальные сети",
+            "it": "Internet e social media",
+            "es": "Internet y redes sociales",
+            "fr": "Internet et réseaux sociaux",
+            "hu": "Internet és közösségi média",
+            "pt": "Internet e redes sociais"
           },
           "layout": "table",
           "level": "C1",
@@ -1596,7 +2121,14 @@
           "code": "C10T03",
           "names": {
             "en": "Scientific method",
-            "ro": "Metoda științifică"
+            "ro": "Metoda științifică",
+            "de": "Wissenschaftliche Methode",
+            "ru": "Научный метод",
+            "it": "Metodo scientifico",
+            "es": "Método científico",
+            "fr": "Méthode scientifique",
+            "hu": "Tudományos módszer",
+            "pt": "Método científico"
           },
           "layout": "table",
           "level": "C1",
@@ -1617,7 +2149,14 @@
           "code": "C10T04",
           "names": {
             "en": "Energy & engineering",
-            "ro": "Energie și inginerie"
+            "ro": "Energie și inginerie",
+            "de": "Energie und Ingenieurwesen",
+            "ru": "Энергия и инженерия",
+            "it": "Energia e ingegneria",
+            "es": "Energía e ingeniería",
+            "fr": "Énergie et ingénierie",
+            "hu": "Energia és mérnöki tudományok",
+            "pt": "Energia e engenharia"
           },
           "layout": "table",
           "level": "C1",
@@ -1638,7 +2177,14 @@
           "code": "C10T05",
           "names": {
             "en": "Medicine & biology",
-            "ro": "Medicină și biologie"
+            "ro": "Medicină și biologie",
+            "de": "Medizin und Biologie",
+            "ru": "Медицина и биология",
+            "it": "Medicina e biologia",
+            "es": "Medicina y biología",
+            "fr": "Médecine et biologie",
+            "hu": "Orvostudomány és biológia",
+            "pt": "Medicina e biologia"
           },
           "layout": "table",
           "level": "C1",
@@ -1659,7 +2205,14 @@
           "code": "C10T06",
           "names": {
             "en": "AI & data",
-            "ro": "Inteligență artificială și date"
+            "ro": "Inteligență artificială și date",
+            "de": "KI und Daten",
+            "ru": "ИИ и данные",
+            "it": "IA e dati",
+            "es": "IA y datos",
+            "fr": "IA et données",
+            "hu": "MI és adatok",
+            "pt": "IA e dados"
           },
           "layout": "table",
           "level": "C1",
@@ -1680,7 +2233,14 @@
           "code": "C10T07",
           "names": {
             "en": "Emerging technologies",
-            "ro": "Tehnologii emergente"
+            "ro": "Tehnologii emergente",
+            "de": "Neue Technologien",
+            "ru": "Новые технологии",
+            "it": "Tecnologie emergenti",
+            "es": "Tecnologías emergentes",
+            "fr": "Technologies émergentes",
+            "hu": "Feltörekvő technológiák",
+            "pt": "Tecnologias emergentes"
           },
           "layout": "table",
           "level": "C1",
@@ -1703,14 +2263,28 @@
       "code": "C11",
       "names": {
         "en": "Thinking & Argument",
-        "ro": "Gândire și argumentare"
+        "ro": "Gândire și argumentare",
+        "de": "Denken und Argumentation",
+        "ru": "Мышление и аргументация",
+        "it": "Pensiero e argomentazione",
+        "es": "Pensamiento y argumentación",
+        "fr": "Pensée et argumentation",
+        "hu": "Gondolkodás és érvelés",
+        "pt": "Pensamento e argumentação"
       },
       "topics": [
         {
           "code": "C11T01",
           "names": {
             "en": "Opinions & debate",
-            "ro": "Opinii și dezbateri"
+            "ro": "Opinii și dezbateri",
+            "de": "Meinungen und Debatte",
+            "ru": "Мнения и дебаты",
+            "it": "Opinioni e dibattito",
+            "es": "Opiniones y debate",
+            "fr": "Opinions et débat",
+            "hu": "Vélemények és vita",
+            "pt": "Opiniões e debate"
           },
           "layout": "table",
           "level": "C2",
@@ -1731,7 +2305,14 @@
           "code": "C11T02",
           "names": {
             "en": "Agreement & disagreement",
-            "ro": "Acord și dezacord"
+            "ro": "Acord și dezacord",
+            "de": "Zustimmung und Widerspruch",
+            "ru": "Согласие и несогласие",
+            "it": "Accordo e disaccordo",
+            "es": "Acuerdo y desacuerdo",
+            "fr": "Accord et désaccord",
+            "hu": "Egyetértés és nézeteltérés",
+            "pt": "Acordo e desacordo"
           },
           "layout": "table",
           "level": "C2",
@@ -1752,7 +2333,14 @@
           "code": "C11T03",
           "names": {
             "en": "Logical connectors",
-            "ro": "Conectori logici"
+            "ro": "Conectori logici",
+            "de": "Logische Konnektoren",
+            "ru": "Логические связки",
+            "it": "Connettori logici",
+            "es": "Conectores lógicos",
+            "fr": "Connecteurs logiques",
+            "hu": "Logikai kötőszavak",
+            "pt": "Conectores lógicos"
           },
           "layout": "table",
           "level": "C2",
@@ -1773,7 +2361,14 @@
           "code": "C11T04",
           "names": {
             "en": "Cause & effect",
-            "ro": "Cauză și efect"
+            "ro": "Cauză și efect",
+            "de": "Ursache und Wirkung",
+            "ru": "Причина и следствие",
+            "it": "Causa ed effetto",
+            "es": "Causa y efecto",
+            "fr": "Cause et effet",
+            "hu": "Ok és okozat",
+            "pt": "Causa e efeito"
           },
           "layout": "table",
           "level": "C2",
@@ -1794,7 +2389,14 @@
           "code": "C11T05",
           "names": {
             "en": "Comparison & contrast",
-            "ro": "Comparație și contrast"
+            "ro": "Comparație și contrast",
+            "de": "Vergleich und Gegensatz",
+            "ru": "Сравнение и противопоставление",
+            "it": "Confronto e contrasto",
+            "es": "Comparación y contraste",
+            "fr": "Comparaison et contraste",
+            "hu": "Összehasonlítás és szembeállítás",
+            "pt": "Comparação e contraste"
           },
           "layout": "table",
           "level": "C2",
@@ -1815,7 +2417,14 @@
           "code": "C11T06",
           "names": {
             "en": "Ethics & values",
-            "ro": "Etică și valori"
+            "ro": "Etică și valori",
+            "de": "Ethik und Werte",
+            "ru": "Этика и ценности",
+            "it": "Etica e valori",
+            "es": "Ética y valores",
+            "fr": "Éthique et valeurs",
+            "hu": "Etika és értékek",
+            "pt": "Ética e valores"
           },
           "layout": "table",
           "level": "C2",
@@ -1836,7 +2445,14 @@
           "code": "C11T07",
           "names": {
             "en": "Abstract ideas & philosophy",
-            "ro": "Idei abstracte și filosofie"
+            "ro": "Idei abstracte și filosofie",
+            "de": "Abstrakte Ideen und Philosophie",
+            "ru": "Абстрактные идеи и философия",
+            "it": "Idee astratte e filosofia",
+            "es": "Ideas abstractas y filosofía",
+            "fr": "Idées abstraites et philosophie",
+            "hu": "Absztrakt gondolatok és filozófia",
+            "pt": "Ideias abstratas e filosofia"
           },
           "layout": "table",
           "level": "C2",
@@ -1859,14 +2475,28 @@
       "code": "C12",
       "names": {
         "en": "Nuance & Mastery",
-        "ro": "Nuanțe și măiestrie"
+        "ro": "Nuanțe și măiestrie",
+        "de": "Nuancen und Meisterschaft",
+        "ru": "Нюансы и мастерство",
+        "it": "Sfumature e padronanza",
+        "es": "Matices y maestría",
+        "fr": "Nuances et maîtrise",
+        "hu": "Árnyalatok és mesterfokú tudás",
+        "pt": "Nuances e maestria"
       },
       "topics": [
         {
           "code": "C12T01",
           "names": {
             "en": "Idioms & fixed expressions",
-            "ro": "Expresii idiomatice și fixe"
+            "ro": "Expresii idiomatice și fixe",
+            "de": "Redewendungen und feste Ausdrücke",
+            "ru": "Идиомы и устойчивые выражения",
+            "it": "Modi di dire ed espressioni fisse",
+            "es": "Modismos y expresiones fijas",
+            "fr": "Idiomes et expressions figées",
+            "hu": "Szólások és állandósult kifejezések",
+            "pt": "Expressões idiomáticas e fixas"
           },
           "layout": "table",
           "level": "C2",
@@ -1887,7 +2517,14 @@
           "code": "C12T02",
           "names": {
             "en": "Proverbs & sayings",
-            "ro": "Proverbe și zicători"
+            "ro": "Proverbe și zicători",
+            "de": "Sprichwörter und Redensarten",
+            "ru": "Пословицы и поговорки",
+            "it": "Proverbi e detti",
+            "es": "Proverbios y refranes",
+            "fr": "Proverbes et dictons",
+            "hu": "Közmondások és szólások",
+            "pt": "Provérbios e ditados"
           },
           "layout": "table",
           "level": "C2",
@@ -1908,7 +2545,14 @@
           "code": "C12T03",
           "names": {
             "en": "Colloquial speech & slang",
-            "ro": "Limbaj colocvial și argou"
+            "ro": "Limbaj colocvial și argou",
+            "de": "Umgangssprache und Slang",
+            "ru": "Разговорная речь и сленг",
+            "it": "Linguaggio colloquiale e gergo",
+            "es": "Habla coloquial y argot",
+            "fr": "Langage familier et argot",
+            "hu": "Köznyelvi beszéd és szleng",
+            "pt": "Fala coloquial e gíria"
           },
           "layout": "table",
           "level": "C2",
@@ -1929,7 +2573,14 @@
           "code": "C12T04",
           "names": {
             "en": "Register & politeness",
-            "ro": "Registru și politețe"
+            "ro": "Registru și politețe",
+            "de": "Sprachregister und Höflichkeit",
+            "ru": "Речевой регистр и вежливость",
+            "it": "Registro e cortesia",
+            "es": "Registro y cortesía",
+            "fr": "Registre et politesse",
+            "hu": "Nyelvi regiszter és udvariasság",
+            "pt": "Registro e cortesia"
           },
           "layout": "table",
           "level": "C2",
@@ -1950,7 +2601,14 @@
           "code": "C12T05",
           "names": {
             "en": "Nuanced synonyms",
-            "ro": "Sinonime nuanțate"
+            "ro": "Sinonime nuanțate",
+            "de": "Nuancierte Synonyme",
+            "ru": "Оттенки синонимов",
+            "it": "Sinonimi sfumati",
+            "es": "Sinónimos matizados",
+            "fr": "Synonymes nuancés",
+            "hu": "Árnyalt szinonimák",
+            "pt": "Sinônimos matizados"
           },
           "layout": "table",
           "level": "C2",
@@ -1971,7 +2629,14 @@
           "code": "C12T06",
           "names": {
             "en": "Literary & rhetorical terms",
-            "ro": "Termeni literari și retorici"
+            "ro": "Termeni literari și retorici",
+            "de": "Literarische und rhetorische Begriffe",
+            "ru": "Литературные и риторические термины",
+            "it": "Termini letterari e retorici",
+            "es": "Términos literarios y retóricos",
+            "fr": "Termes littéraires et rhétoriques",
+            "hu": "Irodalmi és retorikai fogalmak",
+            "pt": "Termos literários e retóricos"
           },
           "layout": "table",
           "level": "C2",
@@ -1992,7 +2657,14 @@
           "code": "C12T07",
           "names": {
             "en": "Academic vocabulary",
-            "ro": "Vocabular academic"
+            "ro": "Vocabular academic",
+            "de": "Akademischer Wortschatz",
+            "ru": "Академическая лексика",
+            "it": "Vocabolario accademico",
+            "es": "Vocabulario académico",
+            "fr": "Vocabulaire académique",
+            "hu": "Akadémiai szókincs",
+            "pt": "Vocabulário acadêmico"
           },
           "layout": "table",
           "level": "C2",

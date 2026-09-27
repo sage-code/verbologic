@@ -66,7 +66,6 @@ export const useRoadmapStore = defineStore('roadmap', () => {
   const counts = ref<Record<string, Record<string, number>>>({}) // topic → lang → n
   /** topic → lang → entity ids (from the media index — bulk check-all/reset). */
   const indexIds = ref<Record<string, Record<string, string[]>>>({})
-  const progressIndex = ref<Record<string, string>>({})
   const ready = ref(false)
 
   const chapterCode = ref<string | null>(null) // selected chapter
@@ -240,11 +239,17 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     filteredRecords.value.filter((r: MediaRecord) => !r.content)
   )
 
-  /** Learned count for one topic: how many of its word ids are learned. */
-  function learnedCount(code: string, learned: Set<string>): number {
-    let count = 0
-    for (const id of learned) if (progressIndex.value[id] === code) count++
-    return count
+  /**
+   * Whether every id of a scope (one topic's ids, or a chapter's pooled ids)
+   * is marked learned — the single "done" rule every check/redo button in the
+   * roadmap tree (topic list, chapters table, progress meter) must share.
+   * Id-exact: the topic-CODE aggregate this replaced (matching learned ids
+   * against progressIndex, a flat map with no section/chapter scoping) could
+   * inflate its count when a code repeats across chapters/sections, desyncing
+   * that "done" read from this one.
+   */
+  function scopeDone(ids: string[], learned: Set<string>): boolean {
+    return ids.length > 0 && ids.every((id: string) => learned.has(id))
   }
 
   const chapterExists = (code: string) => chapters.value.some((c: SidebarSection) => c.code === code)
@@ -335,7 +340,6 @@ export const useRoadmapStore = defineStore('roadmap', () => {
       const index: MediaIndex = await media.fetchIndex()
       counts.value = index.counts[section.value] ?? {}
       indexIds.value = index.ids[section.value] ?? {}
-      progressIndex.value = index.progress
       ready.value = true
     }
     if (topicFromQuery && topicExists(topicFromQuery)) {
@@ -419,7 +423,6 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     prevTopicLastPage,
     ensureWords,
     counts,
-    progressIndex,
     ready,
     chapterCode,
     topicCode,
@@ -454,7 +457,7 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     ensureSearchIndex,
     setPageSize,
     setPage,
-    learnedCount,
+    scopeDone,
     topicCount,
     topicIds,
     scopeIds,

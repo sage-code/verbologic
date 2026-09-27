@@ -39,22 +39,20 @@ function playTitle(code: string) {
 const targetName = (names: MediaNames, fallback: string) => mediaName(names, store.lang, fallback)
 const uiName = (names: MediaNames, fallback: string) => mediaName(names, uiLang.value, fallback)
 
-const learnedOf = (code: string) => (progress ? store.learnedCount(code, progress.learned.value) : 0)
-
 /** Column headers — the same shell as the word table. */
 const nameHeader = computed(() => languageName(store.lang))
 const glossHeader = computed(() => languageName(uiLang.value !== store.lang ? uiLang.value : 'en'))
 
-/** Records across one chapter's topics (drives the row's Done button). */
-function chapterTotal(c: SidebarSection): number {
-  return c.topics.reduce((n: number, tp: SidebarTopic) => n + store.topicCount(tp.code), 0)
-}
-function chapterLearned(c: SidebarSection): number {
-  if (!progress) return 0
-  return c.topics.reduce((n: number, tp: SidebarTopic) => n + store.learnedCount(tp.code, progress.learned.value), 0)
-}
 function chapterIds(c: SidebarSection): string[] {
   return store.scopeIds(c.topics.map((tp: SidebarTopic) => tp.code))
+}
+
+/** A chapter is Done when every one of its ids is marked learned — id-exact
+ *  (store.scopeDone), the same rule the topic list's Done button uses; never
+ *  the topicCount/learnedCount aggregate, which can desync from it. */
+function chapterDone(c: SidebarSection): boolean {
+  if (!progress) return false
+  return store.scopeDone(chapterIds(c), progress.learned.value)
 }
 
 /** Row Done button: marks the whole chapter learned, or resets it (and its
@@ -64,7 +62,7 @@ async function toggleChapterDone(c: SidebarSection) {
   if (!progress) return
   const ids = chapterIds(c)
   if (ids.length === 0) return
-  if (chapterLearned(c) >= chapterTotal(c)) {
+  if (chapterDone(c)) {
     await progress.setLearnedMany(ids, false)
     await progress.clearListens(ids)
   } else {
@@ -100,8 +98,8 @@ const titleRows = computed<TitleRow[]>(() =>
     code: c.code,
     name: targetName(c.names, c.code),
     translation: uiName(c.names, c.code),
-    done: chapterTotal(c) > 0 && chapterLearned(c) >= chapterTotal(c),
-    disabled: chapterTotal(c) === 0,
+    done: chapterDone(c),
+    disabled: chapterIds(c).length === 0,
     pick: () => store.pickChapter(c.code),
     open: () => store.selectChapter(c.code),
     toggleDone: () => toggleChapterDone(c)

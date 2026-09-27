@@ -318,9 +318,11 @@ watch(
                 :title="isLearned(r) ? copy('ui.learned', 'Learned') : copy('ui.mark_learned', 'Mark as learned')"
                 @click.stop="toggleLearned(r)"
               >
-                <!-- Empty ring until learned (manual check or the 5-listen auto-check) -->
-                <CheckIcon v-if="isLearned(r)" class="h-4 w-4" aria-hidden="true" />
-                <span v-else class="h-3 w-3 rounded-full border border-current" aria-hidden="true" />
+                <!-- Check invites marking done; once learned (manual or the
+                     5-listen auto-check) it becomes redo, like every other
+                     check/redo button in the roadmap tree. -->
+                <ArrowPathIcon v-if="isLearned(r)" class="h-4 w-4" aria-hidden="true" />
+                <CheckIcon v-else class="h-4 w-4" aria-hidden="true" />
               </button>
             </td>
           </tr>

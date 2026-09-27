@@ -125,10 +125,12 @@ const creditPct = computed(() => {
   return e && e.creditsTotal > 0 ? Math.min(100, Math.round((e.creditsConsumed / e.creditsTotal) * 100)) : 0
 })
 
-/** A topic is done when it has records and every one of them is learned. */
+/** A topic is done when it has records and every one of them is learned —
+ *  id-exact (store.scopeDone), the same rule the topic list's and chapters
+ *  table's Done buttons use; never the topicCount/learnedCount aggregate,
+ *  which can desync from it. */
 function topicDone(code: string): boolean {
-  const total = store.topicCount(code)
-  return total > 0 && store.learnedCount(code, progress.learned.value) >= total
+  return store.scopeDone(store.topicIds(code), progress.learned.value)
 }
 
 /** Chapter Progress meter: completed topics of the chapter in focus. Only

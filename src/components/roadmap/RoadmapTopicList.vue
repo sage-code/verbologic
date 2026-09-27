@@ -4,7 +4,7 @@
 // click). No word/article count and no article icon here — those belong to
 // the topic's own word/article table (TopicTable), not this overview.
 <script setup lang="ts">
-import { CheckIcon } from '@heroicons/vue/20/solid'
+import { ArrowPathIcon, CheckIcon } from '@heroicons/vue/20/solid'
 import { useRoadmapStore, PROGRESS_KEY, type TopicRow } from '~/stores/roadmapStore'
 import { mediaName } from '~/composables/useMedia'
 import { useTitles } from '~/composables/useTitles'
@@ -44,11 +44,11 @@ const glossHeader = computed(() => languageName(uiLang.value !== store.lang ? ui
 /** A topic without content in the active language renders disabled. */
 const topicEmpty = (code: string) => store.topicCount(code) === 0
 
-/** A topic is Done when every one of its ids is marked learned. */
+/** A topic is Done when every one of its ids is marked learned — the same
+ *  store.scopeDone rule the chapters table and progress meter use. */
 const topicDone = (code: string): boolean => {
   if (!progress) return false
-  const ids = store.topicIds(code)
-  return ids.length > 0 && ids.every((id: string) => progress.isLearned(id))
+  return store.scopeDone(store.topicIds(code), progress.learned.value)
 }
 
 /** The Done button: marks the whole topic learned, or clears it (and its
@@ -175,7 +175,8 @@ const topicRows = computed<TopicRowView[]>(() =>
               "
               @click.stop="toggleTopicDone(row.code)"
             >
-              <CheckIcon class="h-4 w-4" aria-hidden="true" />
+              <ArrowPathIcon v-if="topicDone(row.code)" class="h-4 w-4" aria-hidden="true" />
+              <CheckIcon v-else class="h-4 w-4" aria-hidden="true" />
             </button>
           </td>
         </tr>
