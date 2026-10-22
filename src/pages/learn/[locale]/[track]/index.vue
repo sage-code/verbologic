@@ -60,6 +60,18 @@ const TRACK_META: Record<TrackId, { icon: Component; titleKey: string; fallback:
 const meta = computed(() => TRACK_META[trackId.value])
 const title = computed(() => copy(meta.value.titleKey, meta.value.fallback))
 const live = computed(() => isTrackLive(locale.value, trackId.value))
+
+/** The learner's own language — the UI language, or English when it matches the
+ *  target language (mirrors the table's native-gloss fallback). */
+const nativeLocale = computed(() => (uiLang.value !== locale.value ? uiLang.value : 'en'))
+/** Second heading row: target language first, then the native language. When
+ *  both resolve to the same language the pair would read "English — English",
+ *  so only the target is shown. */
+const languagePair = computed(() => {
+  const target = languageName(locale.value)
+  const native = languageName(nativeLocale.value)
+  return target === native ? target : `${target} — ${native}`
+})
 </script>
 
 <template>
@@ -75,9 +87,10 @@ const live = computed(() => isTrackLive(locale.value, trackId.value))
         <LanguageFlag :code="flagFor(locale)" :label="languageName(locale)" size="md" />
       </button>
       <LanguageFlag v-else :code="flagFor(locale)" :label="languageName(locale)" size="md" />
-      <h1 class="text-2xl font-bold text-content">
-        {{ languageName(locale) }} — {{ title }}
-      </h1>
+      <div class="min-w-0">
+        <h1 class="text-2xl font-bold text-content">{{ title }}</h1>
+        <p class="text-sm text-muted">{{ languagePair }}</p>
+      </div>
       <component :is="meta.icon" class="h-6 w-6 text-accent" aria-hidden="true" />
       <!-- Meter slot: RoadmapShell teleports the two progress meters here —
            right half of the free space, right-aligned with the table edge -->
