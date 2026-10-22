@@ -5,9 +5,9 @@
 // selection. One table, three data sources: the open topic's rows, or the
 // dictionary-wide search results (the toolbar's filter mode), which take
 // precedence regardless of the topic underneath.
-// Columns: native gloss first (the user's language — English canonical when
-// the UI language is the target language) · name in the learning language
-// (the File ID stays in the DOM as a hidden sr-only field) · IPA (Dictionary
+// Columns: name in the learning language (the target term) · native gloss (the
+// user's language — English canonical when the UI language is the target
+// language) (the File ID stays in the DOM as a hidden sr-only field) · IPA (Dictionary
 // only — hidden on small screens; the Lectures' expressions never show IPA) ·
 // read (a book button when the row carries an article — words, expressions
 // and stories alike; blank otherwise) · per-row play button (pause
@@ -50,14 +50,14 @@ function docLocale(r: MediaRow): string {
 const articleHref = (r: MediaRow) => `/learn/${store.lang}/${store.track}/${r.topic}/${r.id}/${docLocale(r)}`
 
 /** Native gloss (the user's language): UI locale first, then English canonical,
- *  then the target term itself — the first column is never blank. */
+ *  then the target term itself — the native column is never blank. */
 const native = (r: MediaRow): string => glossName(r.names, r.lang, uiLang.value) || r.term
 
-/** Column headers: the native language first, then the language learned —
- *  the toolbar language, or English when it matches the target language
- *  (the gloss falls back to names.en in that case). */
-const nativeHeader = computed(() => languageName(uiLang.value !== store.lang ? uiLang.value : 'en'))
+/** Column headers: the language learned first (the toolbar language), then the
+ *  native language — or English when it matches the target language (the gloss
+ *  falls back to names.en in that case). */
 const targetHeader = computed(() => languageName(store.lang))
+const nativeHeader = computed(() => languageName(uiLang.value !== store.lang ? uiLang.value : 'en'))
 
 /** Dictionary track: words only — an IPA column fits beside the name. The
  *  Lectures' expressions never show IPA. */
@@ -174,7 +174,7 @@ watch(
       }}
     </p>
 
-    <!-- The paginated word table: native · target · play · learned -->
+    <!-- The paginated word table: target · native · play · learned -->
     <div v-else class="overflow-clip rounded-lg border border-edge bg-surface shadow-sm">
       <table class="w-full table-fixed border-collapse text-sm">
         <colgroup>
@@ -187,8 +187,8 @@ watch(
         </colgroup>
         <thead class="sticky z-10 bg-soft text-left text-xs uppercase tracking-wide text-faint" :class="THEAD_STICKY_TOP">
           <tr>
-            <th class="px-3 py-2 font-medium [overflow-wrap:anywhere]">{{ nativeHeader }}</th>
             <th class="px-3 py-2 font-medium [overflow-wrap:anywhere]">{{ targetHeader }}</th>
+            <th class="px-3 py-2 font-medium [overflow-wrap:anywhere]">{{ nativeHeader }}</th>
             <th v-if="isDictionary" class="hidden px-3 py-2 font-medium sm:table-cell [overflow-wrap:anywhere]">
               {{ copy('dictionary.col_ipa', 'IPA') }}
             </th>
@@ -230,12 +230,11 @@ watch(
             :class="[activeId === r.entity_id ? 'bg-accent-soft' : 'hover:bg-soft', isDictionary ? '' : 'expr-row']"
             @click="stopAutoplay"
           >
-            <td class="px-3 py-2 font-medium text-content">{{ native(r) }}</td>
             <td class="px-3 py-2">
               <!-- File ID: kept in the DOM as a hidden (screen-reader-only)
                    field — no visible column anymore -->
               <span class="sr-only">{{ r.id }}</span>
-              <span class="text-content">{{ r.term }}</span>
+              <span class="font-medium text-content">{{ r.term }}</span>
               <span v-if="r.context" class="mt-0.5 block text-xs text-faint" :title="r.context">{{ r.context }}</span>
               <!-- Search results come from every topic: the chip names the
                    row's topic and jumps straight into its word table -->
@@ -249,6 +248,7 @@ watch(
                 {{ r.topic }}
               </button>
             </td>
+            <td class="px-3 py-2 text-content">{{ native(r) }}</td>
             <!-- IPA column (Dictionary only) — muted mono, blank until the
                  transcription is authored on the entity -->
             <td v-if="isDictionary" class="hidden whitespace-nowrap px-3 py-2 font-code text-xs text-muted sm:table-cell">
