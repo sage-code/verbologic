@@ -3,8 +3,8 @@
  * media-rehome.mjs — one-time move: redistribute media/audio/ro-archive/<old
  * code>/ files into media/audio/<lang>/<new code>/, where <new code> is
  * looked up per manifest `id` from the CURRENT sidebars (dictionary /
- * lectures / stories) — the sidebars place rows by id, not by folder, so
- * they are the source of truth for where an id lives now (see
+ * lectures / stories) — topic-scoped content codes and legacy progress aliases
+ * are the source of truth for where a record lives now (see
  * manual/curriculum.md "Re-home record", 2026-09-26).
  *
  * For each destination topic, assigns fresh sequential A0xx codes
@@ -49,19 +49,22 @@ function archivedManifests() {
   return out
 }
 
-/** id -> current topic code, built from every sidebar's topics[].items. */
-function buildIdToTopic() {
+/** Legacy progress id -> current topic, content code, and canonical entity id. */
+function buildEntityIndex() {
   const map = new Map()
-  for (const sidebarPath of Object.values(SIDEBAR_BY_PREFIX)) {
-    const sidebar = loadSidebar(sidebarPath)
-    for (const section of sidebar.sections) {
-      for (const topic of section.topics) {
-        for (const id of topic.items ?? []) {
-          if (map.has(id) && map.get(id) !== topic.code) {
-            console.error(`! id '${id}' appears in multiple topics: ${map.get(id)} and ${topic.code}`)
-          }
-          map.set(id, topic.code)
+  for (const lang of listTopicDirs(AUDIO_ROOT).filter((name) => name !== 'ro-archive')) {
+    for (const topicCode of listTopicDirs(join(AUDIO_ROOT, lang))) {
+      const dir = join(AUDIO_ROOT, lang, topicCode)
+      for (const name of readdirSync(dir).filter((file) => file.endsWith('.json'))) {
+        const manifest = JSON.parse(readFileSync(join(dir, name), 'utf8'))
+        const legacyId = manifest.legacy_entity_id ?? manifest.entity_id
+        if (!legacyId || !manifest.entity_id || !manifest.id) continue
+        const existing = map.get(legacyId)
+        if (existing && (existing.topic !== topicCode || existing.id !== manifest.id)) {
+          console.error(`! legacy entity_id '${legacyId}' maps to conflicting content codes`)
+          continue
         }
+        map.set(legacyId, { topic: topicCode, id: manifest.id, entityId: manifest.entity_id })
       }
     }
   }
@@ -73,7 +76,7 @@ function manifestNameFor(code, indexInGroup) {
 }
 
 function main() {
-  const idToTopic = buildIdToTopic()
+  const entityIndex = buildEntityIndex()
   const sidebarCache = new Map()
   const plan = []
   let filesMoved = 0
@@ -87,12 +90,17 @@ function main() {
     const groups = new Map()
 
     for (const m of manifests) {
-      const destTopic = idToTopic.get(m.data.id)
-      if (!destTopic) {
+      const legacyEntityId = m.data.legacy_entity_id ?? m.data.entity_id ?? m.data.id
+      const current = entityIndex.get(legacyEntityId)
+      if (!current) {
         unattributed++
         unattributedList.push(`${lang}/${m.oldTopic}/${m.name} (id: ${m.data.id})`)
         continue
       }
+      const destTopic = current.topic
+      m.contentId = current.id
+      m.entityId = current.entityId
+      m.legacyEntityId = legacyEntityId
       if (!groups.has(destTopic)) groups.set(destTopic, new Map())
       const byKey = groups.get(destTopic)
       const oldKey = m.data.key ?? m.path
@@ -135,6 +143,9 @@ function main() {
           plan.push(`${lang}/${primary.oldTopic}/${primary.name} -> ${lang}/${destTopic}/${wantName}  (id: ${primary.data.id}, pending)`)
           if (apply) {
             mkdirSync(destDir, { recursive: true })
+            primary.data.id = primary.contentId
+            primary.data.legacy_entity_id ??= primary.legacyEntityId
+            primary.data.entity_id = primary.entityId
             writeFileSync(join(destDir, wantName), JSON.stringify(primary.data, null, 2) + '\n')
             if (existsSync(primary.path)) rmSync(primary.path)
           }
@@ -158,6 +169,9 @@ function main() {
 
         group.forEach((m, i) => {
           const wantName = manifestNameFor(code, i)
+          m.data.id = m.contentId
+          m.data.legacy_entity_id ??= m.legacyEntityId
+          m.data.entity_id = m.entityId
           m.data.file = newFile
           m.data.key = newKey
           plan.push(`  ${lang}/${primary.oldTopic}/${m.name} -> ${lang}/${destTopic}/${wantName}  (id: ${m.data.id})`)

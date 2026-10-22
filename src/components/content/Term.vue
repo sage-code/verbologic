@@ -1,10 +1,12 @@
 // TermRow — MDC component for `::term{addresses="id1,id2"}` blocks: renders the
-// referenced records as playable chips (term + IPA + audio). Rows resolve from
-// the lecture page's provided payload rows; unknown ids are build-time errors
-// (media-index) so a silent empty chip means the page payload is missing.
+// referenced records as playable chips (native gloss + target term + IPA +
+// audio). Rows resolve from the lecture page's provided payload rows; unknown
+// ids are build-time errors (media-index) so a silent empty chip means the page
+// payload is missing.
 <script setup lang="ts">
 import type { Ref } from 'vue'
 import { LECTURE_ROWS_KEY } from '~/lib/lectureRows'
+import { glossName } from '~/lib/dictionarySearch'
 import type { MediaRow } from '~/types/media'
 
 const props = defineProps<{ addresses?: string }>()
@@ -22,6 +24,9 @@ const list = computed<MediaRow[]>(() => {
     .map((id) => map.get(id))
     .filter((r): r is MediaRow => Boolean(r))
 })
+
+/** Native gloss (the user's language) — the chip's primary line. */
+const native = (r: MediaRow): string => glossName(r.names, r.lang, lang.value)
 </script>
 
 <template>
@@ -33,7 +38,8 @@ const list = computed<MediaRow[]>(() => {
     >
       <MediaViewer :src="r.media.url" :mime="r.media.mime" :label="r.term" />
       <span class="min-w-0">
-        <span class="block font-medium text-content">{{ r.names[lang] || r.term }}</span>
+        <span class="block font-medium text-content">{{ native(r) || r.term }}</span>
+        <span v-if="native(r)" class="block text-sm text-muted">{{ r.term }}</span>
         <span v-if="r.ipa" class="block font-code text-xs text-muted">{{ r.ipa }}</span>
       </span>
     </li>

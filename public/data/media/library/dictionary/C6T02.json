@@ -1,39 +1,41 @@
 [
   {
-    "id": "word_tabla",
+    "id": "A001",
     "section": "library/dictionary",
     "kind": "word",
-    "lang": "ro",
+    "lang": "en",
     "source": "media",
-    "term": "tablă",
+    "term": "question",
     "names": {
-      "en": "board",
-      "es": "pizarra",
-      "it": "lavagna",
-      "fr": "tableau",
-      "de": "Tafel",
-      "ru": "Доска",
-      "hu": "Tábla",
-      "pt": "Quadro",
-      "ro": "tablă"
+      "en": "question",
+      "ro": "întrebare",
+      "de": "Frage",
+      "ru": "вопрос",
+      "it": "domanda",
+      "es": "pregunta",
+      "fr": "question",
+      "hu": "kérdés",
+      "pt": "pergunta"
     },
-    "ipa": "ˈtablə",
+    "description": null,
+    "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T08/A003.mp3",
+      "url": null,
       "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "a0083db0725ee3a20c24c8a5b8317a0d318449f3"
+      "bytes": 0,
+      "sha1": null
     },
+    "read": null,
     "tags": [
-      "scaffold#C1T08"
+      "scaffold#C6T02"
     ],
     "context": null,
     "example": null,
     "topic": "C6T02",
-    "entity_id": "word_tabla"
+    "entity_id": "C6T02:A001"
   },
   {
-    "id": "word_intrebare",
+    "id": "A001",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -41,32 +43,314 @@
     "term": "întrebare",
     "names": {
       "en": "question",
-      "es": "pregunta",
-      "it": "domanda",
-      "fr": "question",
+      "ro": "întrebare",
       "de": "Frage",
       "ru": "вопрос",
+      "it": "domanda",
+      "es": "pregunta",
+      "fr": "question",
       "hu": "kérdés",
-      "pt": "pergunta",
-      "ro": "întrebare"
+      "pt": "pergunta"
     },
-    "ipa": "ɨntreˈbare",
+    "description": null,
+    "ipa": "/ɨntreˈbare/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C6T02/A001.mp3",
+      "url": "https://media.verbologic.com/dictionary/C6/C6T02/A001/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "cb0b1f8b1ee3fbb777d8606794616d8337ce601c"
     },
+    "read": null,
     "tags": [
       "scaffold#C6T02"
     ],
     "context": null,
     "example": null,
     "topic": "C6T02",
-    "entity_id": "word_intrebare"
+    "entity_id": "C6T02:A001"
   },
   {
-    "id": "word_raspuns",
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Frage",
+    "names": {
+      "en": "question",
+      "ro": "întrebare",
+      "de": "Frage",
+      "ru": "вопрос",
+      "it": "domanda",
+      "es": "pregunta",
+      "fr": "question",
+      "hu": "kérdés",
+      "pt": "pergunta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "вопрос",
+    "names": {
+      "en": "question",
+      "ro": "întrebare",
+      "de": "Frage",
+      "ru": "вопрос",
+      "it": "domanda",
+      "es": "pregunta",
+      "fr": "question",
+      "hu": "kérdés",
+      "pt": "pergunta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "domanda",
+    "names": {
+      "en": "question",
+      "ro": "întrebare",
+      "de": "Frage",
+      "ru": "вопрос",
+      "it": "domanda",
+      "es": "pregunta",
+      "fr": "question",
+      "hu": "kérdés",
+      "pt": "pergunta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "pregunta",
+    "names": {
+      "en": "question",
+      "ro": "întrebare",
+      "de": "Frage",
+      "ru": "вопрос",
+      "it": "domanda",
+      "es": "pregunta",
+      "fr": "question",
+      "hu": "kérdés",
+      "pt": "pergunta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "question",
+    "names": {
+      "en": "question",
+      "ro": "întrebare",
+      "de": "Frage",
+      "ru": "вопрос",
+      "it": "domanda",
+      "es": "pregunta",
+      "fr": "question",
+      "hu": "kérdés",
+      "pt": "pergunta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "kérdés",
+    "names": {
+      "en": "question",
+      "ro": "întrebare",
+      "de": "Frage",
+      "ru": "вопрос",
+      "it": "domanda",
+      "es": "pregunta",
+      "fr": "question",
+      "hu": "kérdés",
+      "pt": "pergunta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "pergunta",
+    "names": {
+      "en": "question",
+      "ro": "întrebare",
+      "de": "Frage",
+      "ru": "вопрос",
+      "it": "domanda",
+      "es": "pregunta",
+      "fr": "question",
+      "hu": "kérdés",
+      "pt": "pergunta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A001"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "answer",
+    "names": {
+      "en": "answer",
+      "ro": "răspuns",
+      "de": "Antwort",
+      "ru": "ответ",
+      "it": "risposta",
+      "es": "respuesta",
+      "fr": "réponse",
+      "hu": "válasz",
+      "pt": "resposta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A002"
+  },
+  {
+    "id": "A002",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -74,32 +358,314 @@
     "term": "răspuns",
     "names": {
       "en": "answer",
-      "es": "respuesta",
-      "it": "risposta",
-      "fr": "réponse",
+      "ro": "răspuns",
       "de": "Antwort",
       "ru": "ответ",
+      "it": "risposta",
+      "es": "respuesta",
+      "fr": "réponse",
       "hu": "válasz",
-      "pt": "resposta",
-      "ro": "răspuns"
+      "pt": "resposta"
     },
-    "ipa": "rəsˈpuns",
+    "description": null,
+    "ipa": "/rəsˈpuns/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C6T02/A002.mp3",
+      "url": "https://media.verbologic.com/dictionary/C6/C6T02/A002/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "a191084d622aa266a677572efdb6cd525fba911e"
     },
+    "read": null,
     "tags": [
       "scaffold#C6T02"
     ],
     "context": null,
     "example": null,
     "topic": "C6T02",
-    "entity_id": "word_raspuns"
+    "entity_id": "C6T02:A002"
   },
   {
-    "id": "word_exercitiu",
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Antwort",
+    "names": {
+      "en": "answer",
+      "ro": "răspuns",
+      "de": "Antwort",
+      "ru": "ответ",
+      "it": "risposta",
+      "es": "respuesta",
+      "fr": "réponse",
+      "hu": "válasz",
+      "pt": "resposta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "ответ",
+    "names": {
+      "en": "answer",
+      "ro": "răspuns",
+      "de": "Antwort",
+      "ru": "ответ",
+      "it": "risposta",
+      "es": "respuesta",
+      "fr": "réponse",
+      "hu": "válasz",
+      "pt": "resposta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "risposta",
+    "names": {
+      "en": "answer",
+      "ro": "răspuns",
+      "de": "Antwort",
+      "ru": "ответ",
+      "it": "risposta",
+      "es": "respuesta",
+      "fr": "réponse",
+      "hu": "válasz",
+      "pt": "resposta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "respuesta",
+    "names": {
+      "en": "answer",
+      "ro": "răspuns",
+      "de": "Antwort",
+      "ru": "ответ",
+      "it": "risposta",
+      "es": "respuesta",
+      "fr": "réponse",
+      "hu": "válasz",
+      "pt": "resposta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "réponse",
+    "names": {
+      "en": "answer",
+      "ro": "răspuns",
+      "de": "Antwort",
+      "ru": "ответ",
+      "it": "risposta",
+      "es": "respuesta",
+      "fr": "réponse",
+      "hu": "válasz",
+      "pt": "resposta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "válasz",
+    "names": {
+      "en": "answer",
+      "ro": "răspuns",
+      "de": "Antwort",
+      "ru": "ответ",
+      "it": "risposta",
+      "es": "respuesta",
+      "fr": "réponse",
+      "hu": "válasz",
+      "pt": "resposta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "resposta",
+    "names": {
+      "en": "answer",
+      "ro": "răspuns",
+      "de": "Antwort",
+      "ru": "ответ",
+      "it": "risposta",
+      "es": "respuesta",
+      "fr": "réponse",
+      "hu": "válasz",
+      "pt": "resposta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A002"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "exercise",
+    "names": {
+      "en": "exercise",
+      "ro": "exercițiu",
+      "de": "Übung",
+      "ru": "упражнение",
+      "it": "esercizio",
+      "es": "ejercicio",
+      "fr": "exercice",
+      "hu": "gyakorlat",
+      "pt": "exercício"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A003"
+  },
+  {
+    "id": "A003",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -107,32 +673,314 @@
     "term": "exercițiu",
     "names": {
       "en": "exercise",
-      "es": "ejercicio",
-      "it": "esercizio",
-      "fr": "exercice",
+      "ro": "exercițiu",
       "de": "Übung",
       "ru": "упражнение",
+      "it": "esercizio",
+      "es": "ejercicio",
+      "fr": "exercice",
       "hu": "gyakorlat",
-      "pt": "exercício",
-      "ro": "exercițiu"
+      "pt": "exercício"
     },
-    "ipa": "ekserˈtʃitsiu",
+    "description": null,
+    "ipa": "/ekserˈtʃitsiu/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C6T02/A003.mp3",
+      "url": "https://media.verbologic.com/dictionary/C6/C6T02/A003/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "8fcc9e72445c26d03709a1746b703498e86120e6"
     },
+    "read": null,
     "tags": [
       "scaffold#C6T02"
     ],
     "context": null,
     "example": null,
     "topic": "C6T02",
-    "entity_id": "word_exercitiu"
+    "entity_id": "C6T02:A003"
   },
   {
-    "id": "word_regula",
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Übung",
+    "names": {
+      "en": "exercise",
+      "ro": "exercițiu",
+      "de": "Übung",
+      "ru": "упражнение",
+      "it": "esercizio",
+      "es": "ejercicio",
+      "fr": "exercice",
+      "hu": "gyakorlat",
+      "pt": "exercício"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "упражнение",
+    "names": {
+      "en": "exercise",
+      "ro": "exercițiu",
+      "de": "Übung",
+      "ru": "упражнение",
+      "it": "esercizio",
+      "es": "ejercicio",
+      "fr": "exercice",
+      "hu": "gyakorlat",
+      "pt": "exercício"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "esercizio",
+    "names": {
+      "en": "exercise",
+      "ro": "exercițiu",
+      "de": "Übung",
+      "ru": "упражнение",
+      "it": "esercizio",
+      "es": "ejercicio",
+      "fr": "exercice",
+      "hu": "gyakorlat",
+      "pt": "exercício"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "ejercicio",
+    "names": {
+      "en": "exercise",
+      "ro": "exercițiu",
+      "de": "Übung",
+      "ru": "упражнение",
+      "it": "esercizio",
+      "es": "ejercicio",
+      "fr": "exercice",
+      "hu": "gyakorlat",
+      "pt": "exercício"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "exercice",
+    "names": {
+      "en": "exercise",
+      "ro": "exercițiu",
+      "de": "Übung",
+      "ru": "упражнение",
+      "it": "esercizio",
+      "es": "ejercicio",
+      "fr": "exercice",
+      "hu": "gyakorlat",
+      "pt": "exercício"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "gyakorlat",
+    "names": {
+      "en": "exercise",
+      "ro": "exercițiu",
+      "de": "Übung",
+      "ru": "упражнение",
+      "it": "esercizio",
+      "es": "ejercicio",
+      "fr": "exercice",
+      "hu": "gyakorlat",
+      "pt": "exercício"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "exercício",
+    "names": {
+      "en": "exercise",
+      "ro": "exercițiu",
+      "de": "Übung",
+      "ru": "упражнение",
+      "it": "esercizio",
+      "es": "ejercicio",
+      "fr": "exercice",
+      "hu": "gyakorlat",
+      "pt": "exercício"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A003"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "rule",
+    "names": {
+      "en": "rule",
+      "ro": "regulă",
+      "de": "Regel",
+      "ru": "правило",
+      "it": "regola",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "szabály",
+      "pt": "regra"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A004"
+  },
+  {
+    "id": "A004",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -140,32 +988,314 @@
     "term": "regulă",
     "names": {
       "en": "rule",
-      "es": "regla",
-      "it": "regola",
-      "fr": "règle",
+      "ro": "regulă",
       "de": "Regel",
       "ru": "правило",
+      "it": "regola",
+      "es": "regla",
+      "fr": "règle",
       "hu": "szabály",
-      "pt": "regra",
-      "ro": "regulă"
+      "pt": "regra"
     },
-    "ipa": "ˈregulə",
+    "description": null,
+    "ipa": "/ˈregulə/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C6T02/A004.mp3",
+      "url": "https://media.verbologic.com/dictionary/C6/C6T02/A004/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "05836226dfaef5e8218eb1439e26bf729b81e4aa"
     },
+    "read": null,
     "tags": [
       "scaffold#C6T02"
     ],
     "context": null,
     "example": null,
     "topic": "C6T02",
-    "entity_id": "word_regula"
+    "entity_id": "C6T02:A004"
   },
   {
-    "id": "word_greseala",
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Regel",
+    "names": {
+      "en": "rule",
+      "ro": "regulă",
+      "de": "Regel",
+      "ru": "правило",
+      "it": "regola",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "szabály",
+      "pt": "regra"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "правило",
+    "names": {
+      "en": "rule",
+      "ro": "regulă",
+      "de": "Regel",
+      "ru": "правило",
+      "it": "regola",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "szabály",
+      "pt": "regra"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "regola",
+    "names": {
+      "en": "rule",
+      "ro": "regulă",
+      "de": "Regel",
+      "ru": "правило",
+      "it": "regola",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "szabály",
+      "pt": "regra"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "regla",
+    "names": {
+      "en": "rule",
+      "ro": "regulă",
+      "de": "Regel",
+      "ru": "правило",
+      "it": "regola",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "szabály",
+      "pt": "regra"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "règle",
+    "names": {
+      "en": "rule",
+      "ro": "regulă",
+      "de": "Regel",
+      "ru": "правило",
+      "it": "regola",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "szabály",
+      "pt": "regra"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "szabály",
+    "names": {
+      "en": "rule",
+      "ro": "regulă",
+      "de": "Regel",
+      "ru": "правило",
+      "it": "regola",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "szabály",
+      "pt": "regra"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "regra",
+    "names": {
+      "en": "rule",
+      "ro": "regulă",
+      "de": "Regel",
+      "ru": "правило",
+      "it": "regola",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "szabály",
+      "pt": "regra"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A004"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "mistake",
+    "names": {
+      "en": "mistake",
+      "ro": "greșeală",
+      "de": "Fehler",
+      "ru": "ошибка",
+      "it": "errore",
+      "es": "error",
+      "fr": "erreur",
+      "hu": "hiba",
+      "pt": "erro"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A005"
+  },
+  {
+    "id": "A005",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -173,32 +1303,314 @@
     "term": "greșeală",
     "names": {
       "en": "mistake",
-      "es": "error",
-      "it": "errore",
-      "fr": "erreur",
+      "ro": "greșeală",
       "de": "Fehler",
       "ru": "ошибка",
+      "it": "errore",
+      "es": "error",
+      "fr": "erreur",
       "hu": "hiba",
-      "pt": "erro",
-      "ro": "greșeală"
+      "pt": "erro"
     },
-    "ipa": "greˈʃealə",
+    "description": null,
+    "ipa": "/greˈʃealə/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C6T02/A005.mp3",
+      "url": "https://media.verbologic.com/dictionary/C6/C6T02/A005/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "4ecfa23c94c0b8cb3326e9466d10d6894b3562fd"
     },
+    "read": null,
     "tags": [
       "scaffold#C6T02"
     ],
     "context": null,
     "example": null,
     "topic": "C6T02",
-    "entity_id": "word_greseala"
+    "entity_id": "C6T02:A005"
   },
   {
-    "id": "word_corect",
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Fehler",
+    "names": {
+      "en": "mistake",
+      "ro": "greșeală",
+      "de": "Fehler",
+      "ru": "ошибка",
+      "it": "errore",
+      "es": "error",
+      "fr": "erreur",
+      "hu": "hiba",
+      "pt": "erro"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "ошибка",
+    "names": {
+      "en": "mistake",
+      "ro": "greșeală",
+      "de": "Fehler",
+      "ru": "ошибка",
+      "it": "errore",
+      "es": "error",
+      "fr": "erreur",
+      "hu": "hiba",
+      "pt": "erro"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "errore",
+    "names": {
+      "en": "mistake",
+      "ro": "greșeală",
+      "de": "Fehler",
+      "ru": "ошибка",
+      "it": "errore",
+      "es": "error",
+      "fr": "erreur",
+      "hu": "hiba",
+      "pt": "erro"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "error",
+    "names": {
+      "en": "mistake",
+      "ro": "greșeală",
+      "de": "Fehler",
+      "ru": "ошибка",
+      "it": "errore",
+      "es": "error",
+      "fr": "erreur",
+      "hu": "hiba",
+      "pt": "erro"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "erreur",
+    "names": {
+      "en": "mistake",
+      "ro": "greșeală",
+      "de": "Fehler",
+      "ru": "ошибка",
+      "it": "errore",
+      "es": "error",
+      "fr": "erreur",
+      "hu": "hiba",
+      "pt": "erro"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "hiba",
+    "names": {
+      "en": "mistake",
+      "ro": "greșeală",
+      "de": "Fehler",
+      "ru": "ошибка",
+      "it": "errore",
+      "es": "error",
+      "fr": "erreur",
+      "hu": "hiba",
+      "pt": "erro"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "erro",
+    "names": {
+      "en": "mistake",
+      "ro": "greșeală",
+      "de": "Fehler",
+      "ru": "ошибка",
+      "it": "errore",
+      "es": "error",
+      "fr": "erreur",
+      "hu": "hiba",
+      "pt": "erro"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A005"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "correct",
+    "names": {
+      "en": "correct",
+      "ro": "corect",
+      "de": "richtig",
+      "ru": "правильно",
+      "it": "corretto",
+      "es": "correcto",
+      "fr": "correct",
+      "hu": "helyes",
+      "pt": "correto"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A006"
+  },
+  {
+    "id": "A006",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -206,32 +1618,314 @@
     "term": "corect",
     "names": {
       "en": "correct",
-      "es": "correcto",
-      "it": "corretto",
-      "fr": "correct",
+      "ro": "corect",
       "de": "richtig",
       "ru": "правильно",
+      "it": "corretto",
+      "es": "correcto",
+      "fr": "correct",
       "hu": "helyes",
-      "pt": "correto",
-      "ro": "corect"
+      "pt": "correto"
     },
-    "ipa": "koˈrekt",
+    "description": null,
+    "ipa": "/koˈrekt/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C6T02/A006.mp3",
+      "url": "https://media.verbologic.com/dictionary/C6/C6T02/A006/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "2935ca2913808806f19c43381ff11e407412266d"
     },
+    "read": null,
     "tags": [
       "scaffold#C6T02"
     ],
     "context": null,
     "example": null,
     "topic": "C6T02",
-    "entity_id": "word_corect"
+    "entity_id": "C6T02:A006"
   },
   {
-    "id": "word_gresit",
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "richtig",
+    "names": {
+      "en": "correct",
+      "ro": "corect",
+      "de": "richtig",
+      "ru": "правильно",
+      "it": "corretto",
+      "es": "correcto",
+      "fr": "correct",
+      "hu": "helyes",
+      "pt": "correto"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "правильно",
+    "names": {
+      "en": "correct",
+      "ro": "corect",
+      "de": "richtig",
+      "ru": "правильно",
+      "it": "corretto",
+      "es": "correcto",
+      "fr": "correct",
+      "hu": "helyes",
+      "pt": "correto"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "corretto",
+    "names": {
+      "en": "correct",
+      "ro": "corect",
+      "de": "richtig",
+      "ru": "правильно",
+      "it": "corretto",
+      "es": "correcto",
+      "fr": "correct",
+      "hu": "helyes",
+      "pt": "correto"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "correcto",
+    "names": {
+      "en": "correct",
+      "ro": "corect",
+      "de": "richtig",
+      "ru": "правильно",
+      "it": "corretto",
+      "es": "correcto",
+      "fr": "correct",
+      "hu": "helyes",
+      "pt": "correto"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "correct",
+    "names": {
+      "en": "correct",
+      "ro": "corect",
+      "de": "richtig",
+      "ru": "правильно",
+      "it": "corretto",
+      "es": "correcto",
+      "fr": "correct",
+      "hu": "helyes",
+      "pt": "correto"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "helyes",
+    "names": {
+      "en": "correct",
+      "ro": "corect",
+      "de": "richtig",
+      "ru": "правильно",
+      "it": "corretto",
+      "es": "correcto",
+      "fr": "correct",
+      "hu": "helyes",
+      "pt": "correto"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "correto",
+    "names": {
+      "en": "correct",
+      "ro": "corect",
+      "de": "richtig",
+      "ru": "правильно",
+      "it": "corretto",
+      "es": "correcto",
+      "fr": "correct",
+      "hu": "helyes",
+      "pt": "correto"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A006"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "wrong",
+    "names": {
+      "en": "wrong",
+      "ro": "greșit",
+      "de": "falsch",
+      "ru": "неправильно",
+      "it": "sbagliato",
+      "es": "incorrecto",
+      "fr": "faux",
+      "hu": "helytelen",
+      "pt": "errado"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A007"
+  },
+  {
+    "id": "A007",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -239,32 +1933,314 @@
     "term": "greșit",
     "names": {
       "en": "wrong",
-      "es": "incorrecto",
-      "it": "sbagliato",
-      "fr": "faux",
+      "ro": "greșit",
       "de": "falsch",
       "ru": "неправильно",
+      "it": "sbagliato",
+      "es": "incorrecto",
+      "fr": "faux",
       "hu": "helytelen",
-      "pt": "errado",
-      "ro": "greșit"
+      "pt": "errado"
     },
-    "ipa": "greˈʃit",
+    "description": null,
+    "ipa": "/greˈʃit/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C6T02/A007.mp3",
+      "url": "https://media.verbologic.com/dictionary/C6/C6T02/A007/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "687bfac0b46a617dd849c77cdb1c888a547784e5"
     },
+    "read": null,
     "tags": [
       "scaffold#C6T02"
     ],
     "context": null,
     "example": null,
     "topic": "C6T02",
-    "entity_id": "word_gresit"
+    "entity_id": "C6T02:A007"
   },
   {
-    "id": "word_atentie",
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "falsch",
+    "names": {
+      "en": "wrong",
+      "ro": "greșit",
+      "de": "falsch",
+      "ru": "неправильно",
+      "it": "sbagliato",
+      "es": "incorrecto",
+      "fr": "faux",
+      "hu": "helytelen",
+      "pt": "errado"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "неправильно",
+    "names": {
+      "en": "wrong",
+      "ro": "greșit",
+      "de": "falsch",
+      "ru": "неправильно",
+      "it": "sbagliato",
+      "es": "incorrecto",
+      "fr": "faux",
+      "hu": "helytelen",
+      "pt": "errado"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "sbagliato",
+    "names": {
+      "en": "wrong",
+      "ro": "greșit",
+      "de": "falsch",
+      "ru": "неправильно",
+      "it": "sbagliato",
+      "es": "incorrecto",
+      "fr": "faux",
+      "hu": "helytelen",
+      "pt": "errado"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "incorrecto",
+    "names": {
+      "en": "wrong",
+      "ro": "greșit",
+      "de": "falsch",
+      "ru": "неправильно",
+      "it": "sbagliato",
+      "es": "incorrecto",
+      "fr": "faux",
+      "hu": "helytelen",
+      "pt": "errado"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "faux",
+    "names": {
+      "en": "wrong",
+      "ro": "greșit",
+      "de": "falsch",
+      "ru": "неправильно",
+      "it": "sbagliato",
+      "es": "incorrecto",
+      "fr": "faux",
+      "hu": "helytelen",
+      "pt": "errado"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "helytelen",
+    "names": {
+      "en": "wrong",
+      "ro": "greșit",
+      "de": "falsch",
+      "ru": "неправильно",
+      "it": "sbagliato",
+      "es": "incorrecto",
+      "fr": "faux",
+      "hu": "helytelen",
+      "pt": "errado"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "errado",
+    "names": {
+      "en": "wrong",
+      "ro": "greșit",
+      "de": "falsch",
+      "ru": "неправильно",
+      "it": "sbagliato",
+      "es": "incorrecto",
+      "fr": "faux",
+      "hu": "helytelen",
+      "pt": "errado"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A007"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "attention",
+    "names": {
+      "en": "attention",
+      "ro": "atenție",
+      "de": "Achtung",
+      "ru": "внимание",
+      "it": "attenzione",
+      "es": "atención",
+      "fr": "attention",
+      "hu": "figyelem",
+      "pt": "atenção"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A008"
+  },
+  {
+    "id": "A008",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -272,32 +2248,314 @@
     "term": "atenție",
     "names": {
       "en": "attention",
-      "es": "atención",
-      "it": "attenzione",
-      "fr": "attention",
+      "ro": "atenție",
       "de": "Achtung",
       "ru": "внимание",
+      "it": "attenzione",
+      "es": "atención",
+      "fr": "attention",
       "hu": "figyelem",
-      "pt": "atenção",
-      "ro": "atenție"
+      "pt": "atenção"
     },
-    "ipa": "aˈtentsie",
+    "description": null,
+    "ipa": "/aˈtentsie/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C6T02/A008.mp3",
+      "url": "https://media.verbologic.com/dictionary/C6/C6T02/A008/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "dcc5ad105de298a830c0bd281457e7654f63938e"
     },
+    "read": null,
     "tags": [
       "scaffold#C6T02"
     ],
     "context": null,
     "example": null,
     "topic": "C6T02",
-    "entity_id": "word_atentie"
+    "entity_id": "C6T02:A008"
   },
   {
-    "id": "word_liniste",
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Achtung",
+    "names": {
+      "en": "attention",
+      "ro": "atenție",
+      "de": "Achtung",
+      "ru": "внимание",
+      "it": "attenzione",
+      "es": "atención",
+      "fr": "attention",
+      "hu": "figyelem",
+      "pt": "atenção"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "внимание",
+    "names": {
+      "en": "attention",
+      "ro": "atenție",
+      "de": "Achtung",
+      "ru": "внимание",
+      "it": "attenzione",
+      "es": "atención",
+      "fr": "attention",
+      "hu": "figyelem",
+      "pt": "atenção"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "attenzione",
+    "names": {
+      "en": "attention",
+      "ro": "atenție",
+      "de": "Achtung",
+      "ru": "внимание",
+      "it": "attenzione",
+      "es": "atención",
+      "fr": "attention",
+      "hu": "figyelem",
+      "pt": "atenção"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "atención",
+    "names": {
+      "en": "attention",
+      "ro": "atenție",
+      "de": "Achtung",
+      "ru": "внимание",
+      "it": "attenzione",
+      "es": "atención",
+      "fr": "attention",
+      "hu": "figyelem",
+      "pt": "atenção"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "attention",
+    "names": {
+      "en": "attention",
+      "ro": "atenție",
+      "de": "Achtung",
+      "ru": "внимание",
+      "it": "attenzione",
+      "es": "atención",
+      "fr": "attention",
+      "hu": "figyelem",
+      "pt": "atenção"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "figyelem",
+    "names": {
+      "en": "attention",
+      "ro": "atenție",
+      "de": "Achtung",
+      "ru": "внимание",
+      "it": "attenzione",
+      "es": "atención",
+      "fr": "attention",
+      "hu": "figyelem",
+      "pt": "atenção"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "atenção",
+    "names": {
+      "en": "attention",
+      "ro": "atenție",
+      "de": "Achtung",
+      "ru": "внимание",
+      "it": "attenzione",
+      "es": "atención",
+      "fr": "attention",
+      "hu": "figyelem",
+      "pt": "atenção"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A008"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "silence",
+    "names": {
+      "en": "silence",
+      "ro": "liniște",
+      "de": "Ruhe",
+      "ru": "тишина",
+      "it": "silenzio",
+      "es": "silencio",
+      "fr": "silence",
+      "hu": "csend",
+      "pt": "silêncio"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A009"
+  },
+  {
+    "id": "A009",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -305,28 +2563,275 @@
     "term": "liniște",
     "names": {
       "en": "silence",
-      "es": "silencio",
-      "it": "silenzio",
-      "fr": "silence",
+      "ro": "liniște",
       "de": "Ruhe",
       "ru": "тишина",
+      "it": "silenzio",
+      "es": "silencio",
+      "fr": "silence",
       "hu": "csend",
-      "pt": "silêncio",
-      "ro": "liniște"
+      "pt": "silêncio"
     },
-    "ipa": "ˈliniʃte",
+    "description": null,
+    "ipa": "/ˈliniʃte/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C6T02/A009.mp3",
+      "url": "https://media.verbologic.com/dictionary/C6/C6T02/A009/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "d6d13537883fd1ee7ed2932000f56dcb054ba2f5"
     },
+    "read": null,
     "tags": [
       "scaffold#C6T02"
     ],
     "context": null,
     "example": null,
     "topic": "C6T02",
-    "entity_id": "word_liniste"
+    "entity_id": "C6T02:A009"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Ruhe",
+    "names": {
+      "en": "silence",
+      "ro": "liniște",
+      "de": "Ruhe",
+      "ru": "тишина",
+      "it": "silenzio",
+      "es": "silencio",
+      "fr": "silence",
+      "hu": "csend",
+      "pt": "silêncio"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A009"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "тишина",
+    "names": {
+      "en": "silence",
+      "ro": "liniște",
+      "de": "Ruhe",
+      "ru": "тишина",
+      "it": "silenzio",
+      "es": "silencio",
+      "fr": "silence",
+      "hu": "csend",
+      "pt": "silêncio"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A009"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "silenzio",
+    "names": {
+      "en": "silence",
+      "ro": "liniște",
+      "de": "Ruhe",
+      "ru": "тишина",
+      "it": "silenzio",
+      "es": "silencio",
+      "fr": "silence",
+      "hu": "csend",
+      "pt": "silêncio"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A009"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "silencio",
+    "names": {
+      "en": "silence",
+      "ro": "liniște",
+      "de": "Ruhe",
+      "ru": "тишина",
+      "it": "silenzio",
+      "es": "silencio",
+      "fr": "silence",
+      "hu": "csend",
+      "pt": "silêncio"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A009"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "silence",
+    "names": {
+      "en": "silence",
+      "ro": "liniște",
+      "de": "Ruhe",
+      "ru": "тишина",
+      "it": "silenzio",
+      "es": "silencio",
+      "fr": "silence",
+      "hu": "csend",
+      "pt": "silêncio"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A009"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "csend",
+    "names": {
+      "en": "silence",
+      "ro": "liniște",
+      "de": "Ruhe",
+      "ru": "тишина",
+      "it": "silenzio",
+      "es": "silencio",
+      "fr": "silence",
+      "hu": "csend",
+      "pt": "silêncio"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A009"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "silêncio",
+    "names": {
+      "en": "silence",
+      "ro": "liniște",
+      "de": "Ruhe",
+      "ru": "тишина",
+      "it": "silenzio",
+      "es": "silencio",
+      "fr": "silence",
+      "hu": "csend",
+      "pt": "silêncio"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C6T02"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C6T02",
+    "entity_id": "C6T02:A009"
   }
 ]

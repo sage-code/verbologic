@@ -1,6 +1,14 @@
 {
   // VS Code workspace settings for Verbologic (Nuxt 3 SSG).
   // Live Server serves the generated static site from .output/public.
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": ["--login", "-i"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
   "liveServer.settings.root": "/.output/public",
   "liveServer.settings.port": 5500,
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "",

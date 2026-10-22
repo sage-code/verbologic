@@ -35,7 +35,7 @@ export interface SidebarTopic {
   layout: TopicLayout
   /** Study level badge (library tracks); optional elsewhere. */
   level?: CefrLevel
-  /** Item ids (manifest ids, content doc ids, or legacy entity ids) in display order. */
+  /** Topic-scoped media/content codes (or legacy ids for unresolved planned items), in display order. */
   items: string[]
 }
 
@@ -73,4 +73,6 @@ export interface MediaIndex {
   ids: Record<string, Record<string, Record<string, string[]>>>
   /** entity_id → topic code (joins useProgress' learned ids to topics). */
   progress: Record<string, string>
+  /** Previous semantic progress id → language-independent entity_id. */
+  progressAliases: Record<string, string>
 }

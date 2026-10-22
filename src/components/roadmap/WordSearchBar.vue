@@ -4,9 +4,9 @@
 // TOPIC titles (fuzzy, both languages — see roadmapStore's topicIndex);
 // everywhere else it live-filters WORDS across the WHOLE track (every
 // chapter/topic, never just the one in focus) — 1-2 letters is a prefix scan
-// on the term, 3+ looks like a whole word and matches either language (see
-// matchesDictionaryQuery). Clearing the field returns to the state's own
-// content.
+// across all localized names, 3+ matches substrings in any translation
+// (see matchesDictionaryQuery). Clearing the field returns to
+// the state's own content.
 //
 // `bare`: when the pane below is the table layout (DictionaryToolbar), this
 // renders as an input + magnifier button with no box of its own, meant to be

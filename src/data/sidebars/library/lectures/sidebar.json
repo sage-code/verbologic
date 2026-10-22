@@ -8,27 +8,15 @@
     {
       "code": "L1",
       "names": {
-        "en": "Sounds & Writing",
-        "ro": "Sunete și scriere"
+        "en": "Sounds & Pronunciation",
+        "ro": "Sunete și pronunție"
       },
       "topics": [
         {
           "code": "L1T01",
           "names": {
-            "en": "The Romanian alphabet",
-            "ro": "Alfabetul românesc"
-          },
-          "layout": "article",
-          "level": "A1",
-          "items": [
-            "lecture_alphabet"
-          ]
-        },
-        {
-          "code": "L1T02",
-          "names": {
             "en": "Alphabet & letters",
-            "ro": "Alfabet și litere"
+            "ro": "Alfabetul și literele"
           },
           "layout": "table",
           "level": "A1",
@@ -107,36 +95,36 @@
             "letter_through",
             "letter_though",
             "letter_thought",
-            "letter_a",
-            "letter_a_breve",
-            "letter_a_circumflex",
-            "letter_b",
-            "letter_c",
-            "letter_d",
-            "letter_e",
-            "letter_f",
-            "letter_g",
-            "letter_h",
-            "letter_i",
-            "letter_i_circumflex",
-            "letter_j",
-            "letter_k",
-            "letter_l",
-            "letter_m",
-            "letter_n",
-            "letter_o",
-            "letter_p",
-            "letter_r",
-            "letter_s",
-            "letter_s_cedilla",
-            "letter_t",
-            "letter_t_cedilla",
-            "letter_u",
-            "letter_v",
-            "letter_w",
-            "letter_x",
-            "letter_y",
-            "letter_z"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010",
+            "A011",
+            "A012",
+            "A013",
+            "A014",
+            "A015",
+            "A016",
+            "A017",
+            "A018",
+            "A019",
+            "A020",
+            "A021",
+            "A022",
+            "A023",
+            "A024",
+            "A025",
+            "A026",
+            "A027",
+            "A028",
+            "A029",
+            "A030"
           ],
           "lastIndex": {
             "ro": {
@@ -145,103 +133,81 @@
           }
         },
         {
-          "code": "L1T03",
+          "code": "L1T02",
           "names": {
-            "en": "Vowels, diphthongs & triphthongs",
-            "ro": "Vocale, diftongi și triftongi"
+            "en": "Vowel & consonant groups",
+            "ro": "Grupuri de vocale și consoane"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "A1",
           "items": [
-            "lecture_vowel-groups"
-          ]
+            "A003",
+            "A015",
+            "A008",
+            "A011",
+            "A012",
+            "A014",
+            "A017",
+            "A018",
+            "A001",
+            "A006",
+            "A016",
+            "A019",
+            "A002",
+            "A007",
+            "A004",
+            "A009",
+            "A005",
+            "A010",
+            "A013",
+            "A020",
+            "A022",
+            "A021",
+            "A023"
+          ],
+          "lastIndex": {
+            "ro": {
+              "audio": 23
+            }
+          }
+        },
+        {
+          "code": "L1T03",
+          "names": {
+            "en": "Syllables & word stress",
+            "ro": "Silabe și accentul cuvintelor"
+          },
+          "layout": "table",
+          "level": "A1",
+          "items": []
         },
         {
           "code": "L1T04",
           "names": {
-            "en": "Vowel groups",
-            "ro": "Grupuri vocalice"
+            "en": "Sound alternations & phonetic shifts",
+            "ro": "Alternanțe fonetice"
           },
           "layout": "table",
-          "level": "A1",
-          "items": [
-            "letter_ea",
-            "letter_oa",
-            "letter_ia",
-            "letter_ie",
-            "letter_io",
-            "letter_iu",
-            "letter_ua",
-            "letter_ue",
-            "letter_ai",
-            "letter_ei",
-            "letter_oi",
-            "letter_ui",
-            "letter_au",
-            "letter_eu",
-            "letter_eai",
-            "letter_iai",
-            "letter_eau",
-            "letter_iau",
-            "letter_ioa"
-          ],
-          "lastIndex": {
-            "ro": {
-              "audio": 19
-            }
-          }
+          "level": "A2",
+          "items": []
         },
         {
           "code": "L1T05",
           "names": {
-            "en": "Digraphs & trigraphs",
-            "ro": "Digrafe și trigrafe"
+            "en": "Elision, hyphenation & fast speech",
+            "ro": "Eliziunea, cratima și vorbirea legată"
           },
-          "layout": "article",
-          "level": "A1",
-          "items": [
-            "lecture_consonant-groups"
-          ]
+          "layout": "table",
+          "level": "A2",
+          "items": []
         },
         {
           "code": "L1T06",
           "names": {
-            "en": "Consonant groups",
-            "ro": "Grupuri consonantice"
+            "en": "Intonation, rhythm & punctuation",
+            "ro": "Intonație, ritm și punctuație"
           },
           "layout": "table",
-          "level": "A1",
-          "items": [
-            "letter_ce-ci",
-            "letter_ge-gi",
-            "letter_che-chi",
-            "letter_ghe-ghi"
-          ],
-          "lastIndex": {
-            "ro": {
-              "audio": 4
-            }
-          }
-        },
-        {
-          "code": "L1T07",
-          "names": {
-            "en": "Diacritics, syllables & stress",
-            "ro": "Diacritice, silabe și accent"
-          },
-          "layout": "article",
-          "level": "A1",
-          "items": [
-            "lecture_stress"
-          ]
-        },
-        {
-          "code": "L1T08",
-          "names": {
-            "en": "Spelling & punctuation",
-            "ro": "Ortografie și punctuație"
-          },
-          "layout": "article",
           "level": "A2",
           "items": []
         }
@@ -250,27 +216,15 @@
     {
       "code": "L2",
       "names": {
-        "en": "Sentences",
-        "ro": "Propoziții"
+        "en": "First Sentences & Questions",
+        "ro": "Primele propoziții și întrebări"
       },
       "topics": [
         {
           "code": "L2T01",
           "names": {
-            "en": "What is a sentence?",
-            "ro": "Ce este o propoziție?"
-          },
-          "layout": "article",
-          "level": "A1",
-          "items": [
-            "lecture_sentence"
-          ]
-        },
-        {
-          "code": "L2T02",
-          "names": {
-            "en": "Statements",
-            "ro": "Enunțuri"
+            "en": "Everyday statements",
+            "ro": "Enunțuri uzuale"
           },
           "layout": "table",
           "level": "A1",
@@ -313,22 +267,10 @@
           }
         },
         {
-          "code": "L2T03",
+          "code": "L2T02",
           "names": {
-            "en": "Asking and answering",
-            "ro": "Cum întrebăm și cum răspundem"
-          },
-          "layout": "article",
-          "level": "A1",
-          "items": [
-            "lecture_questions"
-          ]
-        },
-        {
-          "code": "L2T04",
-          "names": {
-            "en": "Questions: people, home & daily life",
-            "ro": "Întrebări: oameni, casă și viața de zi cu zi"
+            "en": "Questions & answers: people, home & daily life",
+            "ro": "Întrebări și răspunsuri: oameni, casă și rutină"
           },
           "layout": "table",
           "level": "A1",
@@ -404,13 +346,13 @@
           }
         },
         {
-          "code": "L2T05",
+          "code": "L2T03",
           "names": {
-            "en": "Questions: work, town, travel & help",
-            "ro": "Întrebări: muncă, oraș, călătorii și ajutor"
+            "en": "Questions & answers: work, technology & directions",
+            "ro": "Întrebări și răspunsuri: muncă, tehnologie și orientare"
           },
           "layout": "table",
-          "level": "A2",
+          "level": "A1",
           "items": [
             "question_ai-proiect-nou",
             "question_da-am-proiect-nou",
@@ -447,7 +389,23 @@
             "question_nu-cumpar-bilet-acum",
             "question_trenul-merge-la-oras",
             "question_da-trenul-merge-la-oras",
-            "question_nu-trenul-merge-la-aeroport",
+            "question_nu-trenul-merge-la-aeroport"
+          ],
+          "lastIndex": {
+            "ro": {
+              "audio": 72
+            }
+          }
+        },
+        {
+          "code": "L2T04",
+          "names": {
+            "en": "Questions & answers: transport, shopping, health & nature",
+            "ro": "Întrebări și răspunsuri: transport, cumpărături, sănătate și natură"
+          },
+          "layout": "table",
+          "level": "A1",
+          "items": [
             "question_ai-bani",
             "question_da-am-bani",
             "question_nu-am-card",
@@ -484,30 +442,13 @@
             "question_mergi-la-mare",
             "question_da-merg-la-mare",
             "question_nu-merg-la-munte"
-          ],
-          "lastIndex": {
-            "ro": {
-              "audio": 72
-            }
-          }
-        },
-        {
-          "code": "L2T06",
-          "names": {
-            "en": "The imperative",
-            "ro": "Imperativul"
-          },
-          "layout": "article",
-          "level": "A1",
-          "items": [
-            "lecture_imperative"
           ]
         },
         {
-          "code": "L2T07",
+          "code": "L2T05",
           "names": {
-            "en": "Commands",
-            "ro": "Comenzi"
+            "en": "Everyday commands: people, home, routine & study",
+            "ro": "Comenzi uzuale: oameni, casă, rutină și studiu"
           },
           "layout": "table",
           "level": "A2",
@@ -546,7 +487,23 @@
             "imperative_scrie-tema",
             "imperative_deschide-caietul",
             "imperative_asculta-profesorul",
-            "imperative_pregateste-examenul",
+            "imperative_pregateste-examenul"
+          ],
+          "lastIndex": {
+            "ro": {
+              "audio": 75
+            }
+          }
+        },
+        {
+          "code": "L2T06",
+          "names": {
+            "en": "Everyday commands: work, town, travel & emergencies",
+            "ro": "Comenzi uzuale: muncă, oraș, călătorii și urgențe"
+          },
+          "layout": "table",
+          "level": "A2",
+          "items": [
             "imperative_deschide-proiectul",
             "imperative_citeste-raportul",
             "imperative_suna-clientul",
@@ -587,113 +544,125 @@
             "imperative_priveste-norul",
             "imperative_urmeaza-raul",
             "imperative_cauta-padurea"
-          ],
-          "lastIndex": {
-            "ro": {
-              "audio": 75
-            }
-          }
+          ]
         }
       ]
     },
     {
       "code": "L3",
       "names": {
-        "en": "Grammar",
-        "ro": "Gramatică"
+        "en": "Greetings, Courtesy & Social Expressions",
+        "ro": "Saluturi, politețe și expresii sociale"
       },
       "topics": [
         {
           "code": "L3T01",
           "names": {
-            "en": "Personal pronouns",
-            "ro": "Pronumele personale"
+            "en": "Greetings, farewells & polite formulas",
+            "ro": "Saluturi, rămas-bun și formule de politețe"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "A1",
           "items": [
-            "lecture_pronouns"
-          ]
+            "A021",
+            "greeting_buna",
+            "greeting_ceao",
+            "greeting_buna-dimineata",
+            "greeting_buna-ziua",
+            "A022",
+            "greeting_noapte-buna",
+            "greeting_pe-curand",
+            "A023",
+            "greeting_sa-fii-sanatos",
+            "greeting_noroc-bun",
+            "greeting_sa-auzim-de-bine",
+            "greeting_sa-ne-vedem-sanatosi",
+            "greeting_noapte-buna-2",
+            "greeting_adio-si-noroc",
+            "word_imi-pare-bine",
+            "A017",
+            "A018",
+            "A019",
+            "A020"
+          ],
+          "lastIndex": {
+            "ro": {
+              "audio": 23
+            },
+            "en": {
+              "audio": 3
+            },
+            "es": {
+              "audio": 3
+            },
+            "it": {
+              "audio": 3
+            },
+            "fr": {
+              "audio": 3
+            },
+            "de": {
+              "audio": 3
+            },
+            "ru": {
+              "audio": 3
+            },
+            "hu": {
+              "audio": 3
+            },
+            "pt": {
+              "audio": 3
+            }
+          }
         },
         {
           "code": "L3T02",
           "names": {
-            "en": "To be & to have",
-            "ro": "A fi și a avea"
+            "en": "Introductions, origin & personal identity",
+            "ro": "Prezentări, origine și identitate"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "A1",
-          "items": [
-            "lecture_be-have"
-          ]
+          "items": []
         },
         {
           "code": "L3T03",
           "names": {
-            "en": "Verbs in the present tense",
-            "ro": "Verbe la prezent"
+            "en": "Polite requests, thanks & apologies",
+            "ro": "Cereri politicos formulate, mulțumiri și scuze"
           },
-          "layout": "article",
-          "level": "A2",
-          "items": [
-            "lecture_present-tense"
-          ]
+          "layout": "table",
+          "level": "A1",
+          "items": []
         },
         {
           "code": "L3T04",
           "names": {
-            "en": "Nouns, gender & articles",
-            "ro": "Substantive, gen și articole"
+            "en": "Family, friends & social visits",
+            "ro": "Familie, prieteni și vizite"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "A2",
-          "items": [
-            "lecture_nouns"
-          ]
+          "items": []
         },
         {
           "code": "L3T05",
           "names": {
-            "en": "Adjectives & agreement",
-            "ro": "Adjective și acord"
+            "en": "Wishes, congratulations & holiday customs",
+            "ro": "Urări, felicitări și tradiții"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "A2",
-          "items": [
-            "lecture_adjectives"
-          ]
+          "items": []
         },
         {
           "code": "L3T06",
           "names": {
-            "en": "Prepositions & numbers",
-            "ro": "Prepoziții și numerale"
+            "en": "Small talk, invitations & cultural etiquette",
+            "ro": "Conversații uzuale, invitații și etichetă"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "A2",
-          "items": [
-            "lecture_prepositions",
-            "lecture_numbers"
-          ]
-        },
-        {
-          "code": "L3T07",
-          "names": {
-            "en": "Past, future & moods",
-            "ro": "Trecutul, viitorul și modurile"
-          },
-          "layout": "article",
-          "level": "B1",
-          "items": []
-        },
-        {
-          "code": "L3T08",
-          "names": {
-            "en": "Clauses & complex sentences",
-            "ro": "Propoziții subordonate și fraze complexe"
-          },
-          "layout": "article",
-          "level": "B2",
           "items": []
         }
       ]
@@ -701,123 +670,68 @@
     {
       "code": "L4",
       "names": {
-        "en": "Communication & Literature",
-        "ro": "Comunicare și literatură"
+        "en": "Pronouns & Core Verbs",
+        "ro": "Pronume și verbe fundamentale"
       },
       "topics": [
         {
           "code": "L4T01",
           "names": {
-            "en": "Greetings and common formulas",
-            "ro": "Saluturi și formule uzuale"
+            "en": "Subject pronouns & a fi (to be)",
+            "ro": "Pronumele personale și verbul a fi"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "A1",
-          "items": [
-            "lecture_greetings"
-          ]
+          "items": []
         },
         {
           "code": "L4T02",
           "names": {
-            "en": "Greetings & farewells",
-            "ro": "Saluturi și rămas-bun"
+            "en": "Having & needing: a avea and a trebui",
+            "ro": "A avea și a trebui"
           },
           "layout": "table",
           "level": "A1",
-          "items": [
-            "greeting_salut",
-            "greeting_buna",
-            "greeting_ceao",
-            "greeting_buna-dimineata",
-            "greeting_buna-ziua",
-            "greeting_buna-seara",
-            "greeting_noapte-buna",
-            "greeting_pe-curand",
-            "greeting_la-revedere",
-            "greeting_sa-fii-sanatos",
-            "greeting_noroc-bun",
-            "greeting_sa-auzim-de-bine",
-            "greeting_sa-ne-vedem-sanatosi",
-            "greeting_noapte-buna-2",
-            "greeting_adio-si-noroc",
-            "word_imi-pare-bine"
-          ],
-          "lastIndex": {
-            "ro": {
-              "audio": 16
-            }
-          }
+          "items": []
         },
         {
           "code": "L4T03",
           "names": {
-            "en": "Introducing yourself",
-            "ro": "Cum te prezinți"
+            "en": "Existence & possession (este, sunt, al meu)",
+            "ro": "Existență și posesie"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "A1",
-          "items": [
-            "lecture_introductions"
-          ]
+          "items": []
         },
         {
           "code": "L4T04",
           "names": {
-            "en": "Dialogs in daily life",
-            "ro": "Dialoguri din viața de zi cu zi"
+            "en": "Reflexive pronouns & daily routine verbs",
+            "ro": "Pronumele reflexive și verbele de rutină"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "A2",
-          "items": [
-            "lecture_daily-dialog",
-            "lecture_family-friends",
-            "lecture_home",
-            "lecture_travel-city",
-            "lecture_shopping",
-            "lecture_health",
-            "lecture_work-study",
-            "lecture_culture"
-          ]
+          "items": []
         },
         {
           "code": "L4T05",
           "names": {
-            "en": "Stories & narration",
-            "ro": "Povești și narațiune"
+            "en": "Direct & indirect object pronouns (clitics)",
+            "ro": "Pronumele în acuzativ și dativ"
           },
-          "layout": "article",
-          "level": "B1",
+          "layout": "table",
+          "level": "A2",
           "items": []
         },
         {
           "code": "L4T06",
           "names": {
-            "en": "Poetry & figurative language",
-            "ro": "Poezie și limbaj figurat"
+            "en": "Polite pronouns (dumneavoastră) & register",
+            "ro": "Pronumele de politețe și registrul vorbirii"
           },
-          "layout": "article",
-          "level": "B1",
-          "items": []
-        },
-        {
-          "code": "L4T07",
-          "names": {
-            "en": "Genres, analysis & themes",
-            "ro": "Genuri, analiză și teme"
-          },
-          "layout": "article",
-          "level": "B2",
-          "items": []
-        },
-        {
-          "code": "L4T08",
-          "names": {
-            "en": "Essay, rhetoric & style",
-            "ro": "Eseu, retorică și stil"
-          },
-          "layout": "article",
-          "level": "C1",
+          "layout": "table",
+          "level": "A2",
           "items": []
         }
       ]
@@ -825,88 +739,68 @@
     {
       "code": "L5",
       "names": {
-        "en": "Mathematics",
-        "ro": "Matematică"
+        "en": "Nouns, Articles & Modifiers",
+        "ro": "Substantive, articole și determinanți"
       },
       "topics": [
         {
           "code": "L5T01",
           "names": {
-            "en": "Numbers & counting",
-            "ro": "Numere și numărare"
+            "en": "Noun gender: masculine, feminine & neuter",
+            "ro": "Genul substantivelor: masculin, feminin și neutru"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "A1",
           "items": []
         },
         {
           "code": "L5T02",
           "names": {
-            "en": "Arithmetic operations",
-            "ro": "Operații aritmetice"
+            "en": "Singular & plural patterns",
+            "ro": "Singularul și pluralul substantivelor"
           },
-          "layout": "article",
-          "level": "A2",
+          "layout": "table",
+          "level": "A1",
           "items": []
         },
         {
           "code": "L5T03",
           "names": {
-            "en": "Fractions, decimals & percentages",
-            "ro": "Fracții, zecimale și procente"
+            "en": "Indefinite & definite articles (enclitic articles)",
+            "ro": "Articolul nehotărât și articolul hotărât"
           },
-          "layout": "article",
-          "level": "A2",
+          "layout": "table",
+          "level": "A1",
           "items": []
         },
         {
           "code": "L5T04",
           "names": {
-            "en": "Geometry & measurement",
-            "ro": "Geometrie și măsurare"
+            "en": "Descriptive adjectives & agreement",
+            "ro": "Adjectivele și acordul în gen și număr"
           },
-          "layout": "article",
-          "level": "B1",
+          "layout": "table",
+          "level": "A2",
           "items": []
         },
         {
           "code": "L5T05",
           "names": {
-            "en": "Algebra & equations",
-            "ro": "Algebră și ecuații"
+            "en": "Demonstratives, possessives & quantifiers",
+            "ro": "Pronume și adjective demonstrative, posesive și nehotărâte"
           },
-          "layout": "article",
-          "level": "B2",
+          "layout": "table",
+          "level": "A2",
           "items": []
         },
         {
           "code": "L5T06",
           "names": {
-            "en": "Functions & graphs",
-            "ro": "Funcții și grafice"
+            "en": "Comparison of adjectives & adverbs",
+            "ro": "Gradele de comparație"
           },
-          "layout": "article",
-          "level": "B2",
-          "items": []
-        },
-        {
-          "code": "L5T07",
-          "names": {
-            "en": "Statistics & probability",
-            "ro": "Statistică și probabilitate"
-          },
-          "layout": "article",
-          "level": "C1",
-          "items": []
-        },
-        {
-          "code": "L5T08",
-          "names": {
-            "en": "Calculus & advanced topics",
-            "ro": "Analiză matematică și teme avansate"
-          },
-          "layout": "article",
-          "level": "C2",
+          "layout": "table",
+          "level": "A2",
           "items": []
         }
       ]
@@ -914,78 +808,68 @@
     {
       "code": "L6",
       "names": {
-        "en": "Physics",
-        "ro": "Fizică"
+        "en": "Present Tense & Everyday Actions",
+        "ro": "Timpul prezent și acțiuni cotidiene"
       },
       "topics": [
         {
           "code": "L6T01",
           "names": {
-            "en": "Matter & motion",
-            "ro": "Materie și mișcare"
+            "en": "First conjugation verbs (-a & -ez patterns)",
+            "ro": "Verbe de conjugarea I: -a și -ez"
           },
-          "layout": "article",
-          "level": "A2",
+          "layout": "table",
+          "level": "A1",
           "items": []
         },
         {
           "code": "L6T02",
           "names": {
-            "en": "Forces & simple machines",
-            "ro": "Forțe și mașini simple"
+            "en": "Second & third conjugation verbs (-ea & -e)",
+            "ro": "Verbe de conjugarea a II-a și a III-a"
           },
-          "layout": "article",
-          "level": "B1",
+          "layout": "table",
+          "level": "A2",
           "items": []
         },
         {
           "code": "L6T03",
           "names": {
-            "en": "Energy, heat & light",
-            "ro": "Energie, căldură și lumină"
+            "en": "Fourth conjugation verbs (-i, -î, -esc, -ăsc)",
+            "ro": "Verbe de conjugarea a IV-a: -esc și -ăsc"
           },
-          "layout": "article",
-          "level": "B1",
+          "layout": "table",
+          "level": "A2",
           "items": []
         },
         {
           "code": "L6T04",
           "names": {
-            "en": "Electricity & magnetism",
-            "ro": "Electricitate și magnetism"
+            "en": "Irregular & high-frequency motion verbs",
+            "ro": "Verbe neregulate și verbe de mișcare"
           },
-          "layout": "article",
-          "level": "B2",
+          "layout": "table",
+          "level": "A2",
           "items": []
         },
         {
           "code": "L6T05",
           "names": {
-            "en": "Waves, sound & optics",
-            "ro": "Unde, sunet și optică"
+            "en": "Adverbs of frequency, time & manner",
+            "ro": "Adverbe de frecvență, timp și mod"
           },
-          "layout": "article",
-          "level": "B2",
+          "layout": "table",
+          "level": "A2",
           "items": []
         },
         {
           "code": "L6T06",
           "names": {
-            "en": "Mechanics & laws of motion",
-            "ro": "Mecanică și legile mișcării"
+            "en": "Negation, mai, și, tot & word order",
+            "ro": "Negația, semiadverbele și topica"
           },
-          "layout": "article",
-          "level": "C1",
-          "items": []
-        },
-        {
-          "code": "L6T07",
-          "names": {
-            "en": "Modern physics",
-            "ro": "Fizică modernă"
-          },
-          "layout": "article",
-          "level": "C2",
+          "layout": "table",
+          "level": "A2",
           "items": []
         }
       ]
@@ -993,68 +877,68 @@
     {
       "code": "L7",
       "names": {
-        "en": "Chemistry",
-        "ro": "Chimie"
+        "en": "Cases, Prepositions & Numbers in Context",
+        "ro": "Cazuri, prepoziții și numerale în context"
       },
       "topics": [
         {
           "code": "L7T01",
           "names": {
-            "en": "Matter, elements & particles",
-            "ro": "Materie, elemente și particule"
+            "en": "Prepositions of place, movement & direction",
+            "ro": "Prepoziții de loc, mișcare și direcție"
           },
-          "layout": "article",
-          "level": "B1",
+          "layout": "table",
+          "level": "A1",
           "items": []
         },
         {
           "code": "L7T02",
           "names": {
-            "en": "The periodic table",
-            "ro": "Tabelul periodic"
+            "en": "Prepositions of time, cause & instrument",
+            "ro": "Prepoziții de timp, cauză și instrument"
           },
-          "layout": "article",
-          "level": "B1",
+          "layout": "table",
+          "level": "A2",
           "items": []
         },
         {
           "code": "L7T03",
           "names": {
-            "en": "Substances & compounds",
-            "ro": "Substanțe și compuși"
+            "en": "Direct object marker pe & accusative",
+            "ro": "Complementul direct cu pe și acuzativul"
           },
-          "layout": "article",
-          "level": "B2",
+          "layout": "table",
+          "level": "A2",
           "items": []
         },
         {
           "code": "L7T04",
           "names": {
-            "en": "Reactions & basic laws",
-            "ro": "Reacții și legi de bază"
+            "en": "Genitive & dative forms (possession & recipients)",
+            "ro": "Cazul genitiv și cazul dativ"
           },
-          "layout": "article",
-          "level": "B2",
+          "layout": "table",
+          "level": "B1",
           "items": []
         },
         {
           "code": "L7T05",
           "names": {
-            "en": "Organic chemistry & life",
-            "ro": "Chimie organică și viață"
+            "en": "Numbers, quantities, dates & telling time",
+            "ro": "Numerale, cantități, date și exprimarea orei"
           },
-          "layout": "article",
-          "level": "C1",
+          "layout": "table",
+          "level": "A2",
           "items": []
         },
         {
           "code": "L7T06",
           "names": {
-            "en": "Industrial chemistry & petrochemistry",
-            "ro": "Chimie industrială și petrochimie"
+            "en": "Vocative forms & direct address",
+            "ro": "Cazul vocativ și adresarea directă"
           },
-          "layout": "article",
-          "level": "C2",
+          "layout": "table",
+          "level": "B1",
           "items": []
         }
       ]
@@ -1062,78 +946,68 @@
     {
       "code": "L8",
       "names": {
-        "en": "Biology & Health",
-        "ro": "Biologie și sănătate"
+        "en": "Past, Future & Moods",
+        "ro": "Trecutul, viitorul și modurile verbale"
       },
       "topics": [
         {
           "code": "L8T01",
           "names": {
-            "en": "Living things & classification",
-            "ro": "Viețuitoare și clasificare"
+            "en": "Compound past (perfectul compus)",
+            "ro": "Perfectul compus — acțiuni încheiate"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "A2",
           "items": []
         },
         {
           "code": "L8T02",
           "names": {
-            "en": "Plants",
-            "ro": "Plante"
+            "en": "Imperfect tense: habits & ongoing past",
+            "ro": "Imperfectul — obiceiuri și descrieri în trecut"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "B1",
           "items": []
         },
         {
           "code": "L8T03",
           "names": {
-            "en": "The human body & health",
-            "ro": "Corpul uman și sănătatea"
+            "en": "The subjunctive (conjunctivul with să)",
+            "ro": "Conjunctivul cu să"
           },
-          "layout": "article",
-          "level": "B1",
+          "layout": "table",
+          "level": "A2",
           "items": []
         },
         {
           "code": "L8T04",
           "names": {
-            "en": "Cells & microorganisms",
-            "ro": "Celule și microorganisme"
+            "en": "Future forms: literary, spoken (o să) & probable",
+            "ro": "Formele de viitor: literar și colocvial"
           },
-          "layout": "article",
-          "level": "B2",
+          "layout": "table",
+          "level": "B1",
           "items": []
         },
         {
           "code": "L8T05",
           "names": {
-            "en": "Ecosystems & life cycles",
-            "ro": "Ecosisteme și cicluri de viață"
+            "en": "Conditional mood (aș, ai, ar) & polite desires",
+            "ro": "Condițional-optativul"
           },
-          "layout": "article",
-          "level": "B2",
+          "layout": "table",
+          "level": "B1",
           "items": []
         },
         {
           "code": "L8T06",
           "names": {
-            "en": "Genetics & evolution",
-            "ro": "Genetică și evoluție"
+            "en": "Infinitive, gerund, participle & supin",
+            "ro": "Formele verbale nepersonale: infinitiv, gerunziu, participiu și supin"
           },
-          "layout": "article",
-          "level": "C1",
-          "items": []
-        },
-        {
-          "code": "L8T07",
-          "names": {
-            "en": "Advanced biology & biotechnology",
-            "ro": "Biologie avansată și biotehnologie"
-          },
-          "layout": "article",
-          "level": "C2",
+          "layout": "table",
+          "level": "B1",
           "items": []
         }
       ]
@@ -1141,88 +1015,68 @@
     {
       "code": "L9",
       "names": {
-        "en": "Geography & Space",
-        "ro": "Geografie și spațiu cosmic"
+        "en": "Everyday Life & Practical Conversations",
+        "ro": "Viața de zi cu zi și conversații practice"
       },
       "topics": [
         {
           "code": "L9T01",
           "names": {
-            "en": "Maps, directions & landforms",
-            "ro": "Hărți, direcții și forme de relief"
+            "en": "At home, household & neighborhood",
+            "ro": "Acasă, în gospodărie și în cartier"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "A2",
           "items": []
         },
         {
           "code": "L9T02",
           "names": {
-            "en": "Weather & climate",
-            "ro": "Vreme și climă"
+            "en": "Shopping, markets, prices & services",
+            "ro": "La cumpărături, în piață și la servicii"
           },
-          "layout": "article",
-          "level": "B1",
+          "layout": "table",
+          "level": "A2",
           "items": []
         },
         {
           "code": "L9T03",
           "names": {
-            "en": "Countries & continents",
-            "ro": "Țări și continente"
+            "en": "Ordering food, cafés & Romanian cuisine",
+            "ro": "La restaurant, la cafenea și bucătăria românească"
           },
-          "layout": "article",
-          "level": "B1",
+          "layout": "table",
+          "level": "A2",
           "items": []
         },
         {
           "code": "L9T04",
           "names": {
-            "en": "Sun, Moon & the Solar System",
-            "ro": "Soarele, Luna și Sistemul Solar"
+            "en": "Directions, public transport & travel",
+            "ro": "Orientare, transport public și călătorii"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "B1",
           "items": []
         },
         {
           "code": "L9T05",
           "names": {
-            "en": "Population & cities",
-            "ro": "Populație și orașe"
+            "en": "Health, pharmacy, doctor & emergencies",
+            "ro": "Sănătate, farmacie, medic și urgențe"
           },
-          "layout": "article",
-          "level": "B2",
+          "layout": "table",
+          "level": "B1",
           "items": []
         },
         {
           "code": "L9T06",
           "names": {
-            "en": "Economic & political geography",
-            "ro": "Geografie economică și politică"
+            "en": "Work, study, scheduling & digital communication",
+            "ro": "Muncă, studiu, programări și comunicare digitală"
           },
-          "layout": "article",
-          "level": "C1",
-          "items": []
-        },
-        {
-          "code": "L9T07",
-          "names": {
-            "en": "Stars, galaxies & exploration",
-            "ro": "Stele, galaxii și explorare"
-          },
-          "layout": "article",
-          "level": "C1",
-          "items": []
-        },
-        {
-          "code": "L9T08",
-          "names": {
-            "en": "Cosmology & global systems",
-            "ro": "Cosmologie și sisteme globale"
-          },
-          "layout": "article",
-          "level": "C2",
+          "layout": "table",
+          "level": "B1",
           "items": []
         }
       ]
@@ -1230,78 +1084,68 @@
     {
       "code": "L10",
       "names": {
-        "en": "History",
-        "ro": "Istorie"
+        "en": "Complex Sentences & Connectors",
+        "ro": "Fraza și conectorii logici"
       },
       "topics": [
         {
           "code": "L10T01",
           "names": {
-            "en": "Time & timelines",
-            "ro": "Timp și cronologii"
+            "en": "Coordinating clauses (și, dar, însă, sau, deci)",
+            "ro": "Coordonarea în frază"
           },
-          "layout": "article",
-          "level": "A2",
+          "layout": "table",
+          "level": "B1",
           "items": []
         },
         {
           "code": "L10T02",
           "names": {
-            "en": "Early civilizations",
-            "ro": "Civilizații timpurii"
+            "en": "Relative clauses (care, pe care, căruia, unde)",
+            "ro": "Propozițiile relative"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "B1",
           "items": []
         },
         {
           "code": "L10T03",
           "names": {
-            "en": "Antiquity",
-            "ro": "Antichitatea"
+            "en": "Time & sequence clauses (când, în timp ce, după ce)",
+            "ro": "Exprimarea timpului în frază"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "B1",
           "items": []
         },
         {
           "code": "L10T04",
           "names": {
-            "en": "The Middle Ages",
-            "ro": "Evul Mediu"
+            "en": "Cause, purpose & result (pentru că, ca să, încât)",
+            "ro": "Cauza, scopul și consecința"
           },
-          "layout": "article",
-          "level": "B2",
+          "layout": "table",
+          "level": "B1",
           "items": []
         },
         {
           "code": "L10T05",
           "names": {
-            "en": "Discoveries & early modern era",
-            "ro": "Descoperiri și epoca modernă timpurie"
+            "en": "Conditional sentences: real & hypothetical (dacă)",
+            "ro": "Fraza condițională: reală și ipotetică"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "B2",
           "items": []
         },
         {
           "code": "L10T06",
           "names": {
-            "en": "Revolutions & the modern era",
-            "ro": "Revoluții și epoca modernă"
+            "en": "Concession, contrast & indirect speech",
+            "ro": "Concesia, opoziția și vorbirea indirectă"
           },
-          "layout": "article",
-          "level": "C1",
-          "items": []
-        },
-        {
-          "code": "L10T07",
-          "names": {
-            "en": "The 20th century & today",
-            "ro": "Secolul XX și prezentul"
-          },
-          "layout": "article",
-          "level": "C2",
+          "layout": "table",
+          "level": "B2",
           "items": []
         }
       ]
@@ -1309,88 +1153,68 @@
     {
       "code": "L11",
       "names": {
-        "en": "Society & Ideas",
-        "ro": "Societate și idei"
+        "en": "Idioms, Nuance & Romanian Culture",
+        "ro": "Expresii idiomatice, nuanțe și cultură"
       },
       "topics": [
         {
           "code": "L11T01",
           "names": {
-            "en": "Self, family & community",
-            "ro": "Sine, familie și comunitate"
+            "en": "Everyday idioms with a face, a da, a lua, a sta, a pune",
+            "ro": "Expresii uzuale cu verbe fundamentale"
           },
-          "layout": "article",
-          "level": "A2",
+          "layout": "table",
+          "level": "B1",
           "items": []
         },
         {
           "code": "L11T02",
           "names": {
-            "en": "Categories, properties & relations",
-            "ro": "Categorii, proprietăți și relații"
+            "en": "Conversational fillers & natural flow",
+            "ro": "Conectori conversaționali și naturalețea vorbirii"
           },
-          "layout": "article",
-          "level": "B1",
+          "layout": "table",
+          "level": "B2",
           "items": []
         },
         {
           "code": "L11T03",
           "names": {
-            "en": "Society, culture & norms",
-            "ro": "Societate, cultură și norme"
+            "en": "Expressing feelings, opinions, certainty & doubt",
+            "ro": "Exprimarea emoțiilor, opiniilor și îndoielii"
           },
-          "layout": "article",
-          "level": "B1",
+          "layout": "table",
+          "level": "B2",
           "items": []
         },
         {
           "code": "L11T04",
           "names": {
-            "en": "Government, law & civics",
-            "ro": "Guvern, drept și educație civică"
+            "en": "Proverbs, sayings & folk wisdom",
+            "ro": "Proverbe, zicători și înțelepciune populară"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "B2",
           "items": []
         },
         {
           "code": "L11T05",
           "names": {
-            "en": "Economics & personal finance",
-            "ro": "Economie și finanțe personale"
+            "en": "Diminutives, augmentatives & emotional register",
+            "ro": "Diminutive, augmentative și nuanțe afective"
           },
-          "layout": "article",
+          "layout": "table",
           "level": "B2",
           "items": []
         },
         {
           "code": "L11T06",
           "names": {
-            "en": "Logic & reasoning",
-            "ro": "Logică și raționament"
+            "en": "Traditions, regions & cultural landmarks",
+            "ro": "Tradiții, regiuni istorice și repere culturale"
           },
-          "layout": "article",
-          "level": "C1",
-          "items": []
-        },
-        {
-          "code": "L11T07",
-          "names": {
-            "en": "Ethics & global society",
-            "ro": "Etică și societate globală"
-          },
-          "layout": "article",
-          "level": "C1",
-          "items": []
-        },
-        {
-          "code": "L11T08",
-          "names": {
-            "en": "Philosophy",
-            "ro": "Filosofie"
-          },
-          "layout": "article",
-          "level": "C2",
+          "layout": "table",
+          "level": "B2",
           "items": []
         }
       ]
@@ -1398,86 +1222,68 @@
     {
       "code": "L12",
       "names": {
-        "en": "Arts & Technology",
-        "ro": "Arte și tehnologie"
+        "en": "Advanced Expression, Style & Mastery",
+        "ro": "Exprimare avansată, stil și măiestrie"
       },
       "topics": [
         {
           "code": "L12T01",
           "names": {
-            "en": "Computers & digital literacy",
-            "ro": "Calculatoare și alfabetizare digitală"
+            "en": "Passive voice & impersonal reflexive (se spune, se poate)",
+            "ro": "Diateza pasivă și reflexivul impersonal"
           },
-          "layout": "article",
-          "level": "A2",
+          "layout": "table",
+          "level": "B2",
           "items": []
         },
         {
           "code": "L12T02",
           "names": {
-            "en": "Music theory",
-            "ro": "Teoria muzicii"
+            "en": "Presumptive mood, advanced tenses & subtle aspect",
+            "ro": "Modul prezumtiv și nuanțe temporale avansate"
           },
-          "layout": "article",
-          "level": "B1",
-          "items": [
-            "lecture_music_notes_rhythm",
-            "lecture_music_scales_harmony",
-            "lecture_music_instruments_forms"
-          ]
+          "layout": "table",
+          "level": "C1",
+          "items": []
         },
         {
           "code": "L12T03",
           "names": {
-            "en": "Drawing & painting",
-            "ro": "Desen și pictură"
+            "en": "Argumentation, debate & persuasive structures",
+            "ro": "Argumentare, dezbatere și structuri persuasive"
           },
-          "layout": "article",
-          "level": "B1",
-          "items": [
-            "lecture_art_tools_shapes",
-            "lecture_art_color_composition",
-            "lecture_art_styles_techniques"
-          ]
+          "layout": "table",
+          "level": "C1",
+          "items": []
         },
         {
           "code": "L12T04",
           "names": {
-            "en": "Art history & styles",
-            "ro": "Istoria artei și stiluri"
+            "en": "Formal, professional & academic register",
+            "ro": "Registrul formal, profesional și academic"
           },
-          "layout": "article",
-          "level": "B2",
+          "layout": "table",
+          "level": "C1",
           "items": []
         },
         {
           "code": "L12T05",
           "names": {
-            "en": "Theatre & film",
-            "ro": "Teatru și film"
+            "en": "Collocations, false friends & lexical precision",
+            "ro": "Colocații, capcane lexicale și precizia exprimării"
           },
-          "layout": "article",
-          "level": "B2",
+          "layout": "table",
+          "level": "C1",
           "items": []
         },
         {
           "code": "L12T06",
           "names": {
-            "en": "Programming & algorithms",
-            "ro": "Programare și algoritmi"
+            "en": "Literary style, figurative language & rhetoric",
+            "ro": "Stil literar, limbaj figurat și retorică"
           },
-          "layout": "article",
-          "level": "B2",
-          "items": []
-        },
-        {
-          "code": "L12T07",
-          "names": {
-            "en": "Media & information literacy",
-            "ro": "Educație media și informațională"
-          },
-          "layout": "article",
-          "level": "C1",
+          "layout": "table",
+          "level": "C2",
           "items": []
         }
       ]

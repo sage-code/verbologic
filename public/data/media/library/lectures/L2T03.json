@@ -1,18 +1,18 @@
 [
   {
-    "id": "lecture_questions",
+    "id": "question_ai-proiect-nou",
     "section": "library/lectures",
-    "kind": "article",
+    "kind": "question",
     "lang": "ro",
-    "source": "content",
-    "term": "Asking and answering",
+    "source": "legacy",
+    "term": "Ai proiect nou?",
     "names": {
-      "en": "Asking and answering"
+      "ro": "Ai proiect nou?"
     },
     "ipa": null,
     "media": {
-      "url": null,
-      "mime": "",
+      "url": "https://media.verbologic.com/audio/ro/question_ai-proiect-nou.mp3",
+      "mime": "audio/mpeg",
       "bytes": 0,
       "sha1": null
     },
@@ -20,95 +20,811 @@
     "context": null,
     "example": null,
     "topic": "L2T03",
-    "entity_id": "lecture_questions",
-    "content": {
-      "canonical": "en",
-      "locales": {
-        "en": {
-          "status": "draft",
-          "stale": false
-        }
-      },
-      "summary": "Turn a statement into a question, then answer it — every question in this chapter comes with a \"yes\" and a \"no\" answer.",
-      "order": 1,
-      "minutes": 5
+    "entity_id": "question_ai-proiect-nou"
+  },
+  {
+    "id": "question_da-am-proiect-nou",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Da, am proiect nou.",
+    "names": {
+      "ro": "Da, am proiect nou."
     },
-    "related": [
-      {
-        "id": "question_esti-student",
-        "entity_id": "question_esti-student",
-        "topic": "L2T04",
-        "lang": "ro",
-        "term": "Ești student?",
-        "names": {
-          "ro": "Ești student?"
-        },
-        "ipa": null,
-        "context": null,
-        "media": {
-          "url": "https://media.verbologic.com/audio/ro/L2T04/A030.mp3"
-        }
-      },
-      {
-        "id": "question_da-sunt-student",
-        "entity_id": "question_da-sunt-student",
-        "topic": "L2T04",
-        "lang": "ro",
-        "term": "Da, sunt student.",
-        "names": {
-          "ro": "Da, sunt student."
-        },
-        "ipa": null,
-        "context": null,
-        "media": {
-          "url": "https://media.verbologic.com/audio/ro/L2T04/A016.mp3"
-        }
-      },
-      {
-        "id": "question_nu-sunt-profesor",
-        "entity_id": "question_nu-sunt-profesor",
-        "topic": "L2T04",
-        "lang": "ro",
-        "term": "Nu, sunt profesor.",
-        "names": {
-          "ro": "Nu, sunt profesor."
-        },
-        "ipa": null,
-        "context": null,
-        "media": {
-          "url": "https://media.verbologic.com/audio/ro/L2T04/A051.mp3"
-        }
-      },
-      {
-        "id": "question_care-este-numele-tau",
-        "entity_id": "question_care-este-numele-tau",
-        "topic": "L2T04",
-        "lang": "ro",
-        "term": "Care este numele tău?",
-        "names": {
-          "ro": "Care este numele tău?"
-        },
-        "ipa": null,
-        "context": null,
-        "media": {
-          "url": "https://media.verbologic.com/audio/ro/L2T04/A002.mp3"
-        }
-      },
-      {
-        "id": "question_numele-meu-este-andrei",
-        "entity_id": "question_numele-meu-este-andrei",
-        "topic": "L2T04",
-        "lang": "ro",
-        "term": "Numele meu este Andrei.",
-        "names": {
-          "ro": "Numele meu este Andrei."
-        },
-        "ipa": null,
-        "context": null,
-        "media": {
-          "url": "https://media.verbologic.com/audio/ro/L2T04/A058.mp3"
-        }
-      }
-    ]
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_da-am-proiect-nou.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_da-am-proiect-nou"
+  },
+  {
+    "id": "question_nu-am-raport-nou",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Nu, am raport nou.",
+    "names": {
+      "ro": "Nu, am raport nou."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_nu-am-raport-nou.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_nu-am-raport-nou"
+  },
+  {
+    "id": "question_clientul-are-contract",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Clientul are contract?",
+    "names": {
+      "ro": "Clientul are contract?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_clientul-are-contract.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_clientul-are-contract"
+  },
+  {
+    "id": "question_da-clientul-are-contract",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Da, clientul are contract.",
+    "names": {
+      "ro": "Da, clientul are contract."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_da-clientul-are-contract.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_da-clientul-are-contract"
+  },
+  {
+    "id": "question_nu-clientul-are-intrebare",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Nu, clientul are întrebare.",
+    "names": {
+      "ro": "Nu, clientul are întrebare."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_nu-clientul-are-intrebare.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_nu-clientul-are-intrebare"
+  },
+  {
+    "id": "question_sedinta-este-azi",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Ședința este azi?",
+    "names": {
+      "ro": "Ședința este azi?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_sedinta-este-azi.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_sedinta-este-azi"
+  },
+  {
+    "id": "question_da-sedinta-este-azi",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Da, ședința este azi.",
+    "names": {
+      "ro": "Da, ședința este azi."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_da-sedinta-este-azi.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_da-sedinta-este-azi"
+  },
+  {
+    "id": "question_nu-sedinta-este-maine",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Nu, ședința este mâine.",
+    "names": {
+      "ro": "Nu, ședința este mâine."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_nu-sedinta-este-maine.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_nu-sedinta-este-maine"
+  },
+  {
+    "id": "question_ai-telefon",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Ai telefon?",
+    "names": {
+      "ro": "Ai telefon?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_ai-telefon.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_ai-telefon"
+  },
+  {
+    "id": "question_da-am-telefon",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Da, am telefon.",
+    "names": {
+      "ro": "Da, am telefon."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_da-am-telefon.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_da-am-telefon"
+  },
+  {
+    "id": "question_nu-am-calculator",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Nu, am calculator.",
+    "names": {
+      "ro": "Nu, am calculator."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_nu-am-calculator.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_nu-am-calculator"
+  },
+  {
+    "id": "question_trimiti-mesaj-acum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Trimiți mesaj acum?",
+    "names": {
+      "ro": "Trimiți mesaj acum?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_trimiti-mesaj-acum.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_trimiti-mesaj-acum"
+  },
+  {
+    "id": "question_da-trimit-mesaj-acum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Da, trimit mesaj acum.",
+    "names": {
+      "ro": "Da, trimit mesaj acum."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_da-trimit-mesaj-acum.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_da-trimit-mesaj-acum"
+  },
+  {
+    "id": "question_nu-trimit-email-acum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Nu, trimit email acum.",
+    "names": {
+      "ro": "Nu, trimit email acum."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_nu-trimit-email-acum.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_nu-trimit-email-acum"
+  },
+  {
+    "id": "question_parola-este-aici",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Parola este aici?",
+    "names": {
+      "ro": "Parola este aici?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_parola-este-aici.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_parola-este-aici"
+  },
+  {
+    "id": "question_da-parola-este-aici",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Da, parola este aici.",
+    "names": {
+      "ro": "Da, parola este aici."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_da-parola-este-aici.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_da-parola-este-aici"
+  },
+  {
+    "id": "question_nu-parola-este-in-fisier",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Nu, parola este în fișier.",
+    "names": {
+      "ro": "Nu, parola este în fișier."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_nu-parola-este-in-fisier.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_nu-parola-este-in-fisier"
+  },
+  {
+    "id": "question_magazinul-este-la-dreapta",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Magazinul este la dreapta?",
+    "names": {
+      "ro": "Magazinul este la dreapta?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_magazinul-este-la-dreapta.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_magazinul-este-la-dreapta"
+  },
+  {
+    "id": "question_da-magazinul-este-la-dreapta",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Da, magazinul este la dreapta.",
+    "names": {
+      "ro": "Da, magazinul este la dreapta."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_da-magazinul-este-la-dreapta.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_da-magazinul-este-la-dreapta"
+  },
+  {
+    "id": "question_nu-magazinul-este-la-stanga",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Nu, magazinul este la stânga.",
+    "names": {
+      "ro": "Nu, magazinul este la stânga."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_nu-magazinul-este-la-stanga.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_nu-magazinul-este-la-stanga"
+  },
+  {
+    "id": "question_statia-este-pe-aceasta-strada",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Stația este pe această stradă?",
+    "names": {
+      "ro": "Stația este pe această stradă?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_statia-este-pe-aceasta-strada.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_statia-este-pe-aceasta-strada"
+  },
+  {
+    "id": "question_da-statia-este-pe-aceasta-strada",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Da, stația este pe această stradă.",
+    "names": {
+      "ro": "Da, stația este pe această stradă."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_da-statia-este-pe-aceasta-strada.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_da-statia-este-pe-aceasta-strada"
+  },
+  {
+    "id": "question_nu-statia-este-pe-alt-drum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Nu, stația este pe alt drum.",
+    "names": {
+      "ro": "Nu, stația este pe alt drum."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_nu-statia-este-pe-alt-drum.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_nu-statia-este-pe-alt-drum"
+  },
+  {
+    "id": "question_ai-harta",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Ai hartă?",
+    "names": {
+      "ro": "Ai hartă?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_ai-harta.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_ai-harta"
+  },
+  {
+    "id": "question_da-am-harta",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Da, am hartă.",
+    "names": {
+      "ro": "Da, am hartă."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_da-am-harta.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_da-am-harta"
+  },
+  {
+    "id": "question_nu-am-telefon",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Nu, am telefon.",
+    "names": {
+      "ro": "Nu, am telefon."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_nu-am-telefon.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_nu-am-telefon"
+  },
+  {
+    "id": "question_vine-autobuzul-acum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Vine autobuzul acum?",
+    "names": {
+      "ro": "Vine autobuzul acum?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_vine-autobuzul-acum.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_vine-autobuzul-acum"
+  },
+  {
+    "id": "question_da-autobuzul-vine-acum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Da, autobuzul vine acum.",
+    "names": {
+      "ro": "Da, autobuzul vine acum."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_da-autobuzul-vine-acum.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_da-autobuzul-vine-acum"
+  },
+  {
+    "id": "question_nu-trenul-vine-acum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Nu, trenul vine acum.",
+    "names": {
+      "ro": "Nu, trenul vine acum."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_nu-trenul-vine-acum.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_nu-trenul-vine-acum"
+  },
+  {
+    "id": "question_ai-bilet",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Ai bilet?",
+    "names": {
+      "ro": "Ai bilet?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_ai-bilet.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_ai-bilet"
+  },
+  {
+    "id": "question_da-am-bilet",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Da, am bilet.",
+    "names": {
+      "ro": "Da, am bilet."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_da-am-bilet.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_da-am-bilet"
+  },
+  {
+    "id": "question_nu-cumpar-bilet-acum",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Nu, cumpăr bilet acum.",
+    "names": {
+      "ro": "Nu, cumpăr bilet acum."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_nu-cumpar-bilet-acum.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_nu-cumpar-bilet-acum"
+  },
+  {
+    "id": "question_trenul-merge-la-oras",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Trenul merge la oraș?",
+    "names": {
+      "ro": "Trenul merge la oraș?"
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_trenul-merge-la-oras.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_trenul-merge-la-oras"
+  },
+  {
+    "id": "question_da-trenul-merge-la-oras",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Da, trenul merge la oraș.",
+    "names": {
+      "ro": "Da, trenul merge la oraș."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_da-trenul-merge-la-oras.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_da-trenul-merge-la-oras"
+  },
+  {
+    "id": "question_nu-trenul-merge-la-aeroport",
+    "section": "library/lectures",
+    "kind": "question",
+    "lang": "ro",
+    "source": "legacy",
+    "term": "Nu, trenul merge la aeroport.",
+    "names": {
+      "ro": "Nu, trenul merge la aeroport."
+    },
+    "ipa": null,
+    "media": {
+      "url": "https://media.verbologic.com/audio/ro/question_nu-trenul-merge-la-aeroport.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "tags": [],
+    "context": null,
+    "example": null,
+    "topic": "L2T03",
+    "entity_id": "question_nu-trenul-merge-la-aeroport"
   }
 ]

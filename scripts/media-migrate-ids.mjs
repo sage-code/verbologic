@@ -4,16 +4,15 @@
  * file under media/audio/<lang>/<TOPIC>/ to the sequential A001, A002, …
  * scheme (independent per topic + language), via scripts/lib/media-ids.mjs —
  * AND rename its sibling manifest .json file(s) to match, so the directory
- * listing reads A007.mp3 / A007.json side by side instead of the old
- * semantic id. Two dedup manifests sharing one file (letter_a / letter_a-2)
- * become A007.json (primary) and A007-2.json (dedup), ordered by their own
- * `id` so the assignment is stable across re-runs.
+ * listing reads A007.mp3 / A007.json side by side. Two manifests sharing an
+ * audio file become A007.json (primary) and A007-2.json (dedup), ordered by
+ * their content code so the assignment is stable across re-runs.
  *
- * The manifest `id` FIELD (R2 lookup key + `learned_items.entity_id`
- * progress key — see media/readme.md) is NEVER touched, only the on-disk
- * filename and the manifest's `file`/`key` content fields. media-index.mjs
- * resolves everything by `id`, never by filename, so this is purely a
- * directory-browsability rename. Pending items (no audio yet) still get a
+ * This migration changes physical filenames and the manifest's `file`/`key`
+ * fields only. The manifest `id` is the topic-scoped content code;
+ * `entity_id` is the language-independent progress identity. Neither is
+ * changed here. Pending items
+ * (no audio yet) still get a
  * reserved code and a renamed manifest (`file`/`key` stay null) — the same
  * slot is filled in later when the recording lands, no further rename.
  *

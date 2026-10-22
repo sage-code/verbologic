@@ -4,19 +4,19 @@ Nuxt 3 / Vue 3 language-learning platform. SSG + client-side Vue islands, deploy
 
 ## Commands
 
-Primary interface is the project runner — `./run help` lists everything (build, validate, media pipeline, deploy, git commit/push with push throttling). Prefer `run <cmd>` over calling the wrapped npm/node scripts directly; it adds fingerprint gating, throttling and sequencing that calling scripts raw skips.
+Primary interface is the project runner — `./run.sh help` lists everything (build, validate, media pipeline, deploy, git commit/push with push throttling). Prefer `./run.sh <cmd>` over calling the wrapped npm/node scripts directly; it adds fingerprint gating, throttling and sequencing that calling scripts raw skips.
 
-- `npm run dev` — dev server (the one command used directly, not wrapped by `run`)
-- `run build [--force]` — differential static build to `.output/public` (skips rebuild when unchanged)
+- `npm run dev` — dev server (the one command used directly, not wrapped by `./run.sh`)
+- `./run.sh build [--force]` — differential static build to `.output/public` (skips rebuild when unchanged)
 - `npm run preview` — serve built site (port 4173, requires Python)
-- `run validate` — validate data indices (`scripts/validate-data.mjs`)
-- `run media index|stage|manifest|verify|upload|prune` — media pipeline (see `scripts/media-*.mjs`, `manual/MAINTENANCE.md`)
-- `run missing` / `run scaffold <lang> <TOPIC> <seed.json>` — missing-content inventory and topic seeding
-- `run lecture <new|status|translate|review>` — lecture content tooling (`content/lectures/`)
-- `run deploy` / `run deploy-dry` — Wrangler deploy / dry-run validation
-- `run status` / `run commit "<msg>"` / `run push [--force]` / `run release "<msg>"` — git + release flow (push throttled to 1/2h)
-- `run tsc` — type-check (`vue-tsc`)
-- `run clean` / `run clean-deep` — remove build junk (`clean-deep` also clears `.nuxt`)
+- `./run.sh validate` — validate data indices (`scripts/validate-data.mjs`)
+- `./run.sh media index|stage|manifest|verify|upload|prune` — media pipeline (see `scripts/media-*.mjs`, `manual/MAINTENANCE.md`)
+- `./run.sh missing` / `./run.sh scaffold <lang> <TOPIC> <seed.json>` — missing-content inventory and topic seeding
+- `./run.sh lecture <new|status|translate|review>` — lecture content tooling (`content/lectures/`)
+- `./run.sh deploy` / `./run.sh deploy-dry` — Wrangler deploy / dry-run validation
+- `./run.sh status` / `./run.sh commit "<msg>"` / `./run.sh push [--force]` / `./run.sh release "<msg>"` — git + release flow (push throttled to 1/2h)
+- `./run.sh tsc` — type-check (`vue-tsc`)
+- `./run.sh clean` / `./run.sh clean-deep` — remove build junk (`clean-deep` also clears `.nuxt`)
 
 One-off scripts not wrapped by `run` (invoke directly with `node`/`python` when needed):
 
@@ -27,7 +27,13 @@ One-off scripts not wrapped by `run` (invoke directly with `node`/`python` when 
 - `.venv/Scripts/python.exe scripts/generate-audio.py [--lang] [--topic] [--id] [--overwrite] [--dry-run]` — Microsoft Edge TTS audio generation for pending media manifests (`manual/MAINTENANCE.md` §3.3)
 - `node scripts/seed-titles.mjs <lang> <chapterCode> <ipaMap.json> [--tts overrides.json]` — chapter/topic title-audio manifests (`src/composables/useTitles.ts`)
 
-New dictionary vocabulary: `run scaffold <lang> <TOPIC> <seed.json>` → `generate-audio.py` → `run media manifest` → `run media upload --apply` is the standard pipeline — see `manual/MAINTENANCE.md` §3.3 for the full walkthrough, including the `ipa`/`ttsText` manifest fields.
+New dictionary vocabulary: `./run.sh scaffold <lang> <TOPIC> <seed.json>` → `generate-audio.py` → `./run.sh media manifest` → `./run.sh media upload --apply` is the standard pipeline — see `manual/MAINTENANCE.md` §3.3 for the full walkthrough, including the `ipa`/`ttsText` manifest fields.
+
+## File Editing
+
+- Prefer `C:\Users\eluci\sage-code\ed-tool\bin\bee-ed.exe` for file operations: use `apply` for unified diffs, `edit` for unique replacements, `append` for guarded chunks, and `search`, `tail`, and `balance` to inspect or verify. Use `--dry-run` before broad edits and verify each result.
+- For files over about 200 lines, write 50–300-line chunks to scratch files and append with `append <file> @<chunk> --new`, then `append <file> @<chunk> --at N` using the prior reported line count. If an append result is uncertain, retry the identical command; use `tail` to recover the actual line count. Run `balance` for Markdown or HTML, then remove scratch files.
+- Prefer `@file` for patch or replacement content instead of long inline arguments or shell heredocs. Preserve existing line endings and final newlines.
 
 ## Conventions
 
@@ -35,7 +41,7 @@ New dictionary vocabulary: `run scaffold <lang> <TOPIC> <seed.json>` → `genera
 - Interactive features = Vue islands (`src/components/`); state in Pinia stores (`src/stores/`).
 - Lectures content follows `manual/curriculum.md` (teaching order, `L<n>T<nn>` codes, article-then-tables lessons, how to write an article). Read it before adding or moving lecture content.
 - Every dictionary manifest (`media/audio/<lang>/<TOPIC>/A0NN.json`) needs a hand-transcribed Romanian `ipa` (Romanian orthography is close enough to phonetic that transcribing by hand beats fighting a G2P library install — `epitran` fails to build natively on Windows here). When Edge TTS mispronounces the plain `term`, add a `ttsText` field: text fed to the TTS engine instead, while `term`/`names`/`ipa` stay the correct displayed spelling. Edge TTS accepts **no SSML beyond `<voice>`/`<prosody>`** — a `<phoneme>` pronunciation override is rejected server-side (`NoAudioReceived`), even for plain ASCII text — so `ttsText` respelling is the only lever.
-- Every seed row's `names` object must cover **all 9 site languages** (`src/data/language-names.json`): `en`, `es`, `it`, `fr`, `de`, `ru`, `hu`, `pt`, plus the target language itself (e.g. `ro`, filled in automatically from `term`). `run scaffold` only copies `term`/`names`/`ipa` from the seed row verbatim — it does not invent missing locales — so write all 8 non-target glosses into the seed JSON up front, not just en/es/it/fr.
+- Every seed row's `names` object must cover **all 9 site languages** (`src/data/language-names.json`): `en`, `es`, `it`, `fr`, `de`, `ru`, `hu`, `pt`, plus the target language itself (e.g. `ro`, filled in automatically from `term`). `./run.sh scaffold` only copies `term`/`names`/`ipa` from the seed row verbatim — it does not invent missing locales — so write all 8 non-target glosses into the seed JSON up front, not just en/es/it/fr.
 - Manifest filenames are sequential per folder (`A001.json`, `A002.json`, …) — this is what `scripts/media-scaffold-topic.mjs` writes and every existing manifest in the repo follows. The semantic id lives in the manifest's `id` field, never the filename; the audio file matches the *manifest's* filename, not the `id`.
 - Deep design docs live in `manual/` (architecture, maintenance, page-design, todo). **Do not read them unless the task requires it** — they're large. `MAINTENANCE.md` §3.3 is the one to check for anything media/audio/translation-pipeline related; otherwise start from code.
 

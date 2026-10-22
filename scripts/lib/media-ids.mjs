@@ -9,8 +9,8 @@
  * A001 first audio file — independent per type (each starts at 001).
  *
  * This ONLY generates the physical filename (manifest `file`/`key`). The
- * manifest `id` (the R2 lookup key and `learned_items.entity_id` progress
- * key — see media/readme.md) is never touched by anything in this module.
+ * manifest `id` is the topic-scoped content code and `entity_id` is the
+ * language-independent `<TOPIC>:<CODE>` progress identity; neither is touched here.
  *
  * Topic codes are routed to their sidebar by first letter: C → dictionary,
  * L → lectures, S → stories (mirrors the existing chapter-code convention).

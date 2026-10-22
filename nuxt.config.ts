@@ -4,39 +4,44 @@ import { readdirSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
 
 /**
- * Enumerate the prerendered article routes from the content tree —
- * content/<track>/<trackLang>/<TOPIC>/<ID>/<locale>.md (one route per
- * explanation-locale doc, so each renders at build time). ANY track can host
- * article topics, so every first-level content folder is a track. Read with
- * plain fs (no module dependency): nuxt.config.ts already imports
- * build-inlined JSON the same way.
+ * Enumerate prerendered article routes from the content tree. Shared
+ * dictionary, lecture, and shared story docs are emitted for each registered
+ * target language, while Markdown is stored once per explanation locale.
  */
 function contentDocRoutes(): string[] {
   const root = fileURLToPath(new URL('./content', import.meta.url))
   if (!existsSync(root)) return []
   const routes: string[] = []
-  for (const track of readdirSync(root, { withFileTypes: true })) {
-    if (!track.isDirectory()) continue
-    const trackLangs = join(root, track.name)
-    for (const trackLang of readdirSync(trackLangs, { withFileTypes: true })) {
-      if (!trackLang.isDirectory()) continue
-      const topics = join(trackLangs, trackLang.name)
-      for (const topic of readdirSync(topics, { withFileTypes: true })) {
-        if (!topic.isDirectory()) continue
-        const articles = join(topics, topic.name)
-        for (const article of readdirSync(articles, { withFileTypes: true })) {
-          if (!article.isDirectory()) continue
-          for (const doc of readdirSync(join(articles, article.name), { withFileTypes: true })) {
-            if (doc.isFile() && doc.name.endsWith('.md')) {
-              routes.push(
-                `/learn/${trackLang.name}/${track.name}/${topic.name}/${article.name}/${doc.name.replace(/\.md$/, '')}`
-              )
-            }
+  const walk = (dir: string, parts: string[] = []) => {
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      const next = [...parts, entry.name]
+      if (entry.isDirectory()) {
+        walk(join(dir, entry.name), next)
+      } else if (entry.isFile() && entry.name.endsWith('.md')) {
+        const locale = entry.name.replace(/\.md$/, '')
+        if (parts[0] === 'dictionary' && parts.length === 3) {
+          const [, topic, article] = parts
+          for (const language of navigation.languages) {
+            routes.push(`/learn/${language.locale}/dictionary/${topic}/${article}/${locale}`)
           }
+        } else if (parts[0] === 'lectures' && parts.length === 3) {
+          const [, topic, article] = parts
+          for (const language of navigation.languages) {
+            routes.push(`/learn/${language.locale}/lectures/${topic}/${article}/${locale}`)
+          }
+        } else if (parts[0] === 'stories' && parts.length === 3) {
+          const [, topic, article] = parts
+          for (const language of navigation.languages) {
+            routes.push(`/learn/${language.locale}/stories/${topic}/${article}/${locale}`)
+          }
+        } else if (parts.length === 4) {
+          const [track, trackLang, topic, article] = parts
+          routes.push(`/learn/${trackLang}/${track}/${topic}/${article}/${locale}`)
         }
       }
     }
   }
+  walk(root)
   return routes
 }
 
@@ -68,10 +73,9 @@ export default defineNuxtConfig({
       routes: navigation.languages.flatMap((l) =>
         ['dictionary', 'lectures', 'stories'].map((t) => `/learn/${l.locale}/${t}`)
       )
-        // Article pages are prerendered per *explanation* locale doc:
-        // content/<track>/<trackLang>/<TOPIC>/<ID>/<locale>.md →
-        // /learn/<trackLang>/<track>/<TOPIC>/<ID>/<locale> — the query then
-        // runs at build time (no client-side content database).
+        // Article prose is prerendered per explanation-locale doc. Shared
+        // dictionary, lecture, and shared story docs produce routes for every
+        // registered target language; legacy stories retain their own tree.
         .concat(contentDocRoutes())
     }
   },

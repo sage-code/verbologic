@@ -144,10 +144,12 @@ Consumed via `useLanguageNames()` + `useNavigation().languageName()`
 code). `run validate` enforces matrix completeness.
 
 ### 3.3 Media / audio
-Audio is **not** in Git. The staging root is the **media repository** itself —
-`media/audio/<lang>/<TOPIC>/<ID>.mp3` (git-ignored binaries) next to their
-sibling `<ID>.json` manifests (the committed Git index) — so the local layout
-mirrors the R2 object keys exactly (`audio/<lang>/<TOPIC>/<ID>.mp3`).
+Audio is **not** in Git. Shared item records live in the media repository:
+`media/dictionary/<CHAPTER>/<TOPIC>/<CODE>/item.json` and
+`media/lectures/<CHAPTER>/<TOPIC>/<CODE>/item.json`. Each record contains
+localized `names` and `description` maps plus one language-specific audio
+descriptor per locale. Generated MP3 files are stored beside the record in
+`sound/<locale>.mp3`.
 
 The **differential baseline lives in the item manifests**: a published
 manifest's `sha1`/`bytes` are the exact bytes that should be on R2. There is
@@ -176,38 +178,62 @@ successful PUT the script writes the new `sha1`/`bytes`/`status` back into the
 item manifest — the committed baseline always means *"these exact bytes are
 on R2"*, so there is no separate ledger step and no ordering trap.
 
-`audio: null` in an entity = queued for TTS regeneration (alphabet + greetings,
-68 items). In the media these are **pending manifests** (`status: "pending"`,
-`key/file/bytes/sha1: null`) — the dictionary renders them as a disabled
-"audio coming soon" button. Once the file is generated: drop `<ID>.mp3` into
-the topic folder → `run media manifest` (promotes it to published) →
-`run media upload --apply`.
+The `media-sync.mjs` commands above still consume the retired `media/audio`
+layout; migrating that uploader to `media/dictionary` and `media/lectures` is
+separate work. The generator below writes and indexes local content but does
+not upload it.
 
-**Generating TTS audio** (`scripts/generate-audio.py`, Microsoft Edge TTS via
-the `edge-tts` PyPI package installed in `.venv`): walks pending manifests and
-synthesizes `<manifest-filename>.mp3` — matching the **manifest's own
-filename** (`A002.json` → `A002.mp3`), never the semantic `id` — with a voice
-picked from the manifest's `lang` (`VOICE_BY_LANG`, currently `ro`/`en`).
-`--topic`/`--lang` scope a batch run; `--id <manifest-id>` regenerates one
-manifest even if already published (e.g. a pronunciation fix), bypassing the
-pending-only filter. Edge TTS's endpoint accepts **no SSML beyond
-`<voice>`/`<prosody>`** — a `<phoneme>` pronunciation override is rejected
-server-side (`NoAudioReceived`) even for plain ASCII text, confirmed by direct
-test — so there is no way to feed it IPA. When the plain `term` comes out
-wrong (e.g. Alina reading "gumă" as "gamă"), add an optional manifest field
-`ttsText`: the text actually sent to the TTS engine, while `term` / `names` /
-`ipa` keep the correct displayed spelling. Every new manifest should also
-carry a hand-transcribed Romanian `ipa` — Romanian's near-phonetic spelling
-makes hand transcription faster and more reliable than fighting a G2P library
-install (`epitran`'s native `editdistance` dependency fails to build on
-Windows here).
+An audio descriptor with `status: "pending"` and no local
+`sound/<locale>.mp3` renders as a disabled "audio coming soon" button until
+audio is generated.
 
-**`names` must cover every site language.** The 9 locales in
-`src/data/language-names.json` are `en`, `es`, `it`, `fr`, `de`, `ru`, `hu`,
-`pt` plus the target language itself. `scripts/media-scaffold-topic.mjs`
-copies a seed row's `names` object verbatim (plus the target-language entry
-from `term`) — it does not fill in missing locales — so every seed row must
-already carry all 8 non-target glosses, not just en/es/it/fr.
+**Filling localized text and generating audio** (`scripts/generate-audio.py`):
+the script adapts the project's Gemini bulk translator and Edge TTS workflow
+to shared item records. It fills only blank `names` and `description` locales
+using Gemini (`GEMINI_API_KEY` in `.env`, optional `GEMINI_MODEL`) and writes
+generated recordings to `sound/<locale>.mp3`. Edge TTS uses a neural voice for
+each native locale, alternating female and male voices by odd/even topic number.
+Install its pinned-compatible dependency with
+`.venv/Scripts/python.exe -m pip install -r requirements-audio.txt`. It is
+report-only by default; `--apply` is required to write translations or audio.
+Examples:
+
+```bash
+.venv/Scripts/python.exe scripts/generate-audio.py --all
+.venv/Scripts/python.exe scripts/generate-audio.py --all --apply
+.venv/Scripts/python.exe scripts/generate-audio.py --translate --track dictionary --apply
+.venv/Scripts/python.exe scripts/generate-audio.py --translate --track dictionary --chapter C1 --apply
+.venv/Scripts/python.exe scripts/generate-audio.py --audio --lang ro --apply
+```
+
+Existing non-empty text is never overwritten. Existing audio is reused and
+its descriptor refreshed; add `--overwrite-audio` with `--audio` or `--all` to
+regenerate it. `--track`, `--chapter`, `--topic`, and `--id` narrow the batch.
+`--kind` narrows it by item kind. Alphabet letter manifests may set a localized
+`ttsText` value per locale when the spoken letter name differs from the
+displayed glyph/name.
+The common Latin alphabet is maintained as `letter` items in
+`media/dictionary/C1/C1T09/` and listed in the Dictionary sidebar as “Alphabet”;
+language-specific characters belong in lectures. Older spelling/pronunciation
+examples are retained separately as `phonics-example` items.
+Edge TTS's endpoint accepts **no SSML beyond `<voice>`/`<prosody>`** — a `<phoneme>`
+pronunciation override is rejected server-side, so there is no way to feed it
+IPA. `scripts/generate-ipa.py` fills missing IPA for each item's localized
+spoken text (including `ttsText` overrides) using Gemini; it preserves existing
+IPA and is report-only unless `--apply` is passed. Run it for one chapter with:
+
+```bash
+.venv/Scripts/python.exe scripts/generate-ipa.py --track dictionary --chapter C1
+.venv/Scripts/python.exe scripts/generate-ipa.py --track dictionary --chapter C1 --apply
+```
+
+Gemini-generated IPA is a draft and should be reviewed for pronunciation and
+locale before publication. Keep hand-reviewed IPA intact; the script never
+overwrites a non-empty transcription.
+
+**`names` should cover every site language.** The 9 locales are `en`, `ro`,
+`de`, `ru`, `it`, `es`, `fr`, `hu`, and `pt`. The Gemini workflow can fill
+missing localized names from an existing translation.
 
 **Chapter/topic title audio** (`src/composables/useTitles.ts`,
 `scripts/seed-titles.mjs`): each dictionary chapter and topic can have its own
@@ -215,14 +241,10 @@ short clip of its name, served from
 `public/data/media/library/dictionary/titles.json` (built by
 `media-index.mjs` from any manifest with `kind: 'chapter-title'` or
 `'topic-title'` — swept up by the same manifest walk as everything else, so
-no separate indexing pass). These manifests all live together in their
-**chapter's** folder, not each topic's own folder —
-`media/audio/<lang>/<chapterCode>/<CODE>.json`, e.g.
-`media/audio/ro/C1/C1T01.json` — one place to track every title of a chapter.
-`id` = the code itself (`C1`, `C1T01`). Seed a chapter's titles with
-`node scripts/seed-titles.mjs <lang> <chapterCode> <ipaMap.json> [--tts overrides.json]`
-(reads names straight from `sidebar.json`), then the normal
-`generate-audio.py` → `media manifest` → `media upload` pipeline.
+no separate indexing pass). Chapter titles live in
+`media/dictionary/<chapterCode>/item.json`, and topic titles in
+`media/dictionary/<chapterCode>/<topicCode>/item.json`; audio remains in each
+record's `sound/<locale>.mp3`.
 
 **Structure-first policy.** The sidebars (the design layer) may reference ids
 whose content does not exist yet — those are **planned items, expected by
@@ -234,6 +256,59 @@ design, and the site is published with them**. No script may fail on them:
 `run scaffold <lang> <TOPIC> <seed.json>` → drop the mp3s → `run media
 manifest` → `run media upload --apply` → `run build`. See
 **architecture.md → "Content Lifecycle — Structure-First Design"**.
+For an audio variant of an existing concept, include its assigned code as
+`"id": "A023"` in the seed row; this reuses the shared content ID and progress
+key while creating a separate language-specific audio manifest.
+
+### Dictionary articles (shared across target languages)
+
+Dictionary article prose is authored in **`content/dictionary/`**, independently
+of the target dictionary language:
+
+```text
+content/dictionary/<TOPIC>/<ID>/en.md
+content/dictionary/<TOPIC>/<ID>/ro.md
+content/dictionary/<TOPIC>/<ID>/<locale>.md
+```
+
+Each file uses the `articles` collection front matter (`track: dictionary`,
+`topic`, `article: <ID>`, `locale`, localized `title`, and `status`). English
+is the canonical source; optional `sourceSha` on translations records the
+canonical revision they were translated from. Keep the stable entry ID and
+topic the same across translations and dictionary languages. The target
+language is deliberately **not** part of the content path: `<locale>` is the
+language of the explanation text, not the dictionary's target language.
+
+`<ID>` is the topic-scoped content code from the manifest (`A023`, for example),
+not the readable term slug. Runtime `entity_id` is the language-independent
+`<TOPIC>:<ID>` key (for example, `C1T01:A031`). Manifests retain any prior
+semantic progress key as `legacy_entity_id` so saved progress can be resolved
+to the new identity. A language-specific manifest may use a different audio
+`file`/R2 `key`; do not derive the shared article ID from that path.
+
+For the one-time migration of old slug IDs, preview with
+`node scripts/media-reid-manifests.mjs`, then apply with
+`node scripts/media-reid-manifests.mjs --apply`. It updates manifest IDs,
+sidebar item references, article folders/front matter, and preserves the
+previous progress key as `legacy_entity_id`; media bytes and R2 keys are
+unchanged.
+
+`run media index` joins the article's locale/review metadata to every matching
+language-specific dictionary manifest sharing that content code. Thus the
+same article opens from each dictionary, while its audio continues to come from
+`media/audio/<target-language>/<TOPIC>/`. Search remains a single lazy-loaded
+`public/data/media/library/dictionary/search.json` index and matches the term
+plus all localized names; no database or per-keystroke network request is
+needed. Nuxt prerenders each authored explanation locale for every registered
+dictionary language, so the prose is present in the static HTML.
+
+An article link is available only when that target language has a matching
+manifest. Preview missing variants with
+`node scripts/media-expand-shared-variants.mjs`, then create them with
+`node scripts/media-expand-shared-variants.mjs --apply`. The generated
+manifests reuse the shared content code and start with pending, language-specific
+audio. Generate or add each recording with the normal audio workflow; the
+article remains shared and does not need to be copied per target language.
 
 ### 3.4 Lectures & stories (Nuxt Content — live)
 
@@ -241,31 +316,47 @@ The authoring layer is **Nuxt Content v3** (`@nuxt/content`, collection schemas 
 `content.config.ts`). One Markdown document per *explanation locale*:
 
 ```
-content/lectures/<trackLang>/<TOPIC>/<ID>/en.md     ← the canonical original (edit freely)
-content/lectures/<trackLang>/<TOPIC>/<ID>/<locale>.md ← translations (status + sourceSha)
+content/lectures/<TOPIC>/<ID>/en.md       ← shared canonical explanation
+content/lectures/<TOPIC>/<ID>/<locale>.md ← translated explanation
 ```
 
-- **Two axes**: `trackLang` = which roadmap the lecture belongs to (may diverge
-  freely per language — different video, different prose); `locale` = the
-  language the explanation is written in. Lectures are English-canonical;
-  stories (Phase 4) are target-language-canonical (the story IS the material).
-- **Review tooling** (`run lecture …`, `scripts/lecture.mjs`): `new` scaffolds
-  doc + pending video manifest + sidebar item; `status` prints the review queue
-  (draft / stale / reviewed per doc); `translate <id> --lang <l>` scaffolds a
-  translation carrying `sourceSha` (sha1 of the canonical doc) — the moment the
-  original changes, the translation flags **stale** (exit code 1, UI badge);
-  `review` marks it reviewed. The script never generates body text.
-- **Runtime**: `scripts/media-index.mjs` joins each doc's **front matter** into
-  the topic payloads (localized titles → `names`, per-locale review state →
-  `content` meta, `related` ids → embedded rows). The prose itself renders on
-  the lecture's **prerendered route**
-  `/learn/<trackLang>/lectures/<TOPIC>/<ID>/<locale>` — `nuxt.config.ts`
-  enumerates those routes from the content tree, so content queries run at
-  build time and **no client-side content database is shipped** (verified: no
-  `_content` dump in `.output/public`). MDC components: `::callout`, `::term`.
-- The embedded video is a normal media item (`media/video/<lang>/<TOPIC>/<ID>.mp4`
-  + sibling manifest, `kind: 'lecture'`, `content` pointer) — pending until the
-  mp4 lands, then `run media upload --apply`.
+- **One concept, one identity**: `<TOPIC>:<ID>` is the same in every target
+  language. The folder contains explanation translations only; `locale` is the
+  explanation language, and `trackLang` is deliberately absent. Put the
+  translated example terms in the front-matter `terms` map and use
+  `:target-term` in prose for values that vary with the selected language.
+- **Audio is language-specific and separate**:
+  `media/audio/<locale>/<TOPIC>/<physical-file>.json` plus its `.mp3`. Each
+  manifest repeats the stable `id`, `entity_id`, and complete `names` map;
+  `lang`, `term`, `ipa`, `file`, and `key` describe that language's variant.
+  Physical filenames are sequential per topic/language and are not content
+  IDs. Missing recordings stay pending; generate or record them later.
+- **Authoring and review tooling** (`run lecture …`, `scripts/lecture.mjs`):
+  start with one language's seed manifest for the code, including a complete
+  nine-language `names` map and a matching `term`; `new <TOPIC> <ID>` adds the
+  sidebar item and shared English document from that map. Then run
+  `node scripts/media-expand-shared-variants.mjs --apply` to create the other
+  languages' pending audio manifests. `status` prints the review queue;
+  `translate <TOPIC> <ID> --lang <l>` scaffolds a translation with `sourceSha`;
+  `review` marks it reviewed. Editing the canonical document makes translations
+  stale.
+- **Runtime**: `scripts/media-index.mjs` joins locale review state and related
+  items onto every target-language row. The prose is prerendered at
+  `/learn/<target-language>/lectures/<TOPIC>/<ID>/<locale>` for all registered
+  languages; no client-side content database is shipped. Shared story text
+  lives at `content/stories/<TOPIC>/<ID>/<locale>.md`, with language-specific
+  audio manifests under `media/stories/<chapter>/<topic>/<ID>/item.json`.
+  English is the canonical story source; translated documents share the same
+  story ID across target-language tracks.
+- **Examples**: `L3T01/A021` (informal hello), `L3T01/A022` (evening greeting),
+  and `L3T01/A023` (goodbye) each have explanation documents in all nine
+  locales and target terms in all nine languages. Their audio manifests are
+  separate by target language and remain pending until recordings are added.
+- Preview/create missing audio variants with
+  `node scripts/media-expand-shared-variants.mjs [--apply]`. TTS reads each
+  pending manifest's localized `term` and writes the MP3 beside that manifest;
+  reconcile and publish through `run media manifest` and `run media upload
+  --apply`.
 - `content/**` is a **fingerprint input** (editing a lecture rebuilds).
 
 ### 3.5 Pricing (tiers + CTA behavior) — removed from the menu, page retained
@@ -620,7 +711,7 @@ filtered" queue), `article` (content doc cards → prerendered pages) or
 | Concern | File |
 | --- | --- |
 | Frame | `src/components/roadmap/RoadmapShell.vue` — store init, `?chapter=&topic=` deep links, one `useProgress` instance provided to the tree (`PROGRESS_KEY`), the credit/chapter meters (`#track-meters` teleport), the Chapters TOC toggle; the open topic's pane = `TOPIC_LAYOUTS[store.topicLayout]` (`track` prop only selects the sidebar section, default `'dictionary'`) |
-| Topic layouts | `roadmap/layouts/TopicTable.vue` (table topics: toolbar + paginated file table — name (File ID remains a hidden sr-only field) · translation · per-row play (blinks) · learned toggle; prefix/translation search, rows-per-page, prev/next, global "play page" (▶ → ■ while running), loop toggle; row click stops autoplay; the list scrolls to the playhead) · `roadmap/layouts/TopicArticle.vue` (article topics: the topic's content docs as cards → prerendered article pages; strictly prose — no practice rows) · `roadmap/layouts/TopicGallery.vue` (gallery topics: image cards — image · term · gloss · learned toggle) · `roadmap/ChaptersTable.vue` (the chapters TOC table, shared by every track) |
+| Topic layouts | `roadmap/layouts/TopicTable.vue` (table topics: toolbar + paginated file table — native gloss (UI language; English canonical when it matches the target) · name in the learning language (File ID remains a hidden sr-only field) · per-row play (blinks) · learned toggle; prefix/translation search, rows-per-page, prev/next, global "play page" (▶ → ■ while running), loop toggle; row click stops autoplay; the list scrolls to the playhead) · `roadmap/layouts/TopicArticle.vue` (article topics: the topic's content docs as cards → prerendered article pages; strictly prose — no practice rows) · `roadmap/layouts/TopicGallery.vue` (gallery topics: image cards — image · native gloss · term · learned toggle) · `roadmap/ChaptersTable.vue` (the chapters TOC table, shared by every track) |
 | Layout invariants | ONE topic = ONE layout, declared as `layout` on the sidebar topic (`src/types/sidebars.ts` `TopicLayout`); enforced by `scripts/validate-data.mjs` — but only for content that EXISTS (wrong-kind items fail; missing/planned content is inventoried by `run missing`, never fatal): `table` → non-image records only, never a doc · `article` → content docs only (a video manifest for its own embedded video is allowed) · `gallery` → image manifests only. Mixed topics are split (e.g. lectures C1T01 = the 104 letter rows, C1T01A = the alphabet article) |
 | Chapter rail | `roadmap/RoadmapSidePane.vue` + `src/lib/roadmapRail.ts` — **one** height rule for every track: the rail is EXACTLY as tall as the page content — the RoadmapShell grid (`flex-1`, fills the page area) stretches the rail cell to the content column; the rail panel is absolutely positioned inside it (`lg:absolute lg:inset-0`) so the chapter list never drives the row height; a list longer than the content scrolls inside the rail with its own scrollbar (`lg:overflow-y-auto lg:overscroll-contain`); the page content keeps the browser scroll. Double-clicking the selected chapter folds/unfolds its topics (`RoadmapSidebar.vue`) |
 | Selection / filter / search state | `src/stores/roadmapStore.ts` — **track-aware** (`SECTION_BY_TRACK`, `init(lang, track, …)`; sidebar/counts/payload caches reset per track+lang), `topicLayout` (the open topic's pane kind), Fuse topic search, word filter, empty scaffolding rendered **disabled** (`populatedTopics` / `populatedChapters` drive walking + the default chapter; `visibleChapters` / `visibleTopics` show everything — contentless chapters/topics are disabled with a "coming soon" title), learned counts via `progress-index.json` |
@@ -629,11 +720,11 @@ filtered" queue), `article` (content doc cards → prerendered pages) or
 | Location config | `src/data/media.config.json` — R2 `root` + one path per sidebar section; media URL = `root + path + file` |
 | Repository | `media/` — media files under `<type>/<lang>/<TOPIC>/`, each with its own sibling `<ID>.json` manifest (item text: term/names/ipa/kind + file facts: file/key/mime/bytes/sha1/status; optional `ttsText` overrides what's fed to the TTS engine when it mispronounces `term` (§3.3); `pending` = media not yet produced — renders "coming soon") |
 | Types + loaders | `src/types/media.ts` (runtime records) · `src/types/sidebars.ts` · `src/composables/useMedia.ts` · sequential player `src/composables/useAudioQueue.ts` |
-| Topic attribution | `scripts/archive-topics.mjs` + `topic-map.json` — parses the archive pages (page#section → topic) and attributes all entities to Dictionary topics (report + topic map only; it never writes sidebars — the Lectures sidebar is hand-curated, see `manual/curriculum.md`); `scripts/media-manifests.mjs` re-folders media + writes the manifests; `scripts/media-scaffold-topic.mjs` (`run scaffold`) seeds the blank topics; `scripts/seed-titles.mjs` seeds one chapter's title-audio manifests; `scripts/generate-audio.py` synthesizes pending manifests' mp3s (Edge TTS); `scripts/lecture.mjs` (`run lecture`) scaffolds/reviews article content |
+| Topic attribution | `scripts/archive-topics.mjs` + `topic-map.json` — parses the archive pages (page#section → topic) and attributes all entities to Dictionary topics (report + topic map only; it never writes sidebars — the Lectures sidebar is hand-curated, see `manual/curriculum.md`); `scripts/media-manifests.mjs` re-folders media + writes the manifests; `scripts/media-scaffold-topic.mjs` (`run scaffold`) seeds the blank topics; `scripts/seed-titles.mjs` seeds one chapter's title-audio manifests; `scripts/generate-audio.py` synthesizes pending manifests' mp3s (Edge TTS); `scripts/lecture.mjs` (`run lecture`) scaffolds/reviews shared article content |
 | Legacy bridge (fallback) | sidebar item ids without a manifest resolve from `public/data/entities/*.json` (also the global-search source) — every dictionary item has a manifest now, so the dictionary is fully manifest-backed |
 | Components | `roadmap/RoadmapSidebar.vue` · `RoadmapTopicSearch.vue` · `RoadmapTopicList.vue` · `roadmap/ChaptersTable.vue` · `roadmap/layouts/DictionaryToolbar.vue` |
-| Article pages | `src/pages/learn/[locale]/[track]/[topic]/[id]/[doc].vue` — track-agnostic, prerendered per explanation-locale doc (content/track/trackLang/TOPIC/ID/locale.md — angle brackets in a top-level .vue comment would break the SFC parser); the collection is `articles` (content.config.ts, one collection for every track); canonical doc: `en` for lectures, the track language for the other tracks (`EN_CANONICAL` in media-index.mjs) |
-| Dictionary playback state | `roadmapStore` `dictionaryQuery` (committed on Enter / the toolbar's filter button — never while typing) / `page` / `pageSize` + `dictionaryRows` (filter off: diacritic-folded prefix on the term in the open topic; filter on: substring on the rendered gloss, dictionary-wide via `searchInTranslation` + lazy `ensureSearchIndex` over `<section>/search.json`, one fetch) / `searchActive` / `pageCount` / `pagedRows` + `setDictionaryQuery` / `setSearchMode` / `setPageSize` / `setPage` (page resets on topic open/close and filter changes; the mode persists like Repeat); pure match helpers in `src/lib/dictionarySearch.ts` (`fold` / `glossName` / `matchesDictionaryQuery` — the gloss the search matches is exactly the gloss the table renders); `useAudioQueue` gained `loop` / `mode` (`'idle' \| 'single' \| 'page'`) / `playOne()` / `setLoop()` / `onCycle` — single runs skip the memorization gap; loop laps fire `onCycle` (the layout jumps the list back to the top) |
+| Article pages | `src/pages/learn/[locale]/[track]/[topic]/[id]/[doc].vue` — track-agnostic, prerendered per explanation-locale doc; dictionary, lecture, and story prose are shared at `content/<track>/TOPIC/ID/locale.md`, English-canonical; legacy stories may remain under `content/stories/<trackLang>/TOPIC/ID/locale.md` |
+| Dictionary playback state | `roadmapStore` `dictionaryQuery` (committed on Enter / the toolbar's filter button — never while typing) / `page` / `pageSize` + `dictionaryRows` (diacritic-folded prefix/substring matching across all localized names; dictionary-wide via lazy `ensureSearchIndex` over `<section>/search.json`, one fetch) / `searchActive` / `pageCount` / `pagedRows` + `setDictionaryQuery` / `setSearchMode` / `setPageSize` / `setPage` (page resets on topic open/close and filter changes; the mode persists like Repeat); pure match helpers in `src/lib/dictionarySearch.ts` (`fold` / `glossName` / `matchesDictionaryQuery`); `useAudioQueue` gained `loop` / `mode` (`'idle' \| 'single' \| 'page'`) / `playOne()` / `setLoop()` / `onCycle` — single runs skip the memorization gap; loop laps fire `onCycle` (the layout jumps the list back to the top) |
 
 ### Add a language to the roadmap
 1. Translations: the sidebar `names` blocks already cover all 144 topics × 9 locales

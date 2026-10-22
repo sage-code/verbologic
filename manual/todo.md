@@ -6,7 +6,7 @@
 ## 🤔 Decisions needed
 - [x] Styling — **Tailwind CSS** via `@nuxtjs/tailwindcss` (utility-first, inline classes in all components)
 - [ ] Milestone scope — minimal / FE+data / full stack (Supabase+R2)
-- [ ] Content module — `@nuxt/content` for MD lessons (default: yes)
+- [x] Content module — `@nuxt/content` for shared dictionary/lecture articles and localized stories
 
 ## Phase 0 — Prep
 - [x] Confirm Node ≥ 18 (have v24.18.0 ✅) and npm (have 11.16.0 ✅)
@@ -282,14 +282,14 @@
 ## Lectures & stories live — Nuxt Content authoring + dictionary restructure
 - [x] Track-aware `roadmapStore`: `SECTION_BY_TRACK` + `init(lang, track, …)` — sidebar/counts/ids/payload caches are section-scoped and reset per track+lang (the store was hardcoded to `library/dictionary` before)
 - [x] Empty scaffolding hidden: `populatedTopics` / `visibleChapters` (lists, sidebar, topic walks, Fuse hits) — 114 empty dictionary topics and the C9–C12 ghost chapters stop cluttering the UI; deep links to empty topics still resolve
-- [x] `@nuxt/content` v3 (collections + zod front-matter schemas in `content.config.ts`, `sqliteConnector: 'native'` — no native dep on Node 24): one Markdown doc per explanation locale at `content/lectures/<trackLang>/<TOPIC>/<ID>/<locale>.md`, English canonical; stories collection pre-declared (Phase 4, target-language canonical)
-- [x] Lecture pages are **prerendered** (`nuxt.config.ts` enumerates the content tree → `/learn/<trackLang>/lectures/<TOPIC>/<ID>/<locale>`): content queries run at build time — verified no `_content` client DB dump in `.output/public`, so the WASM SQLite never ships
+- [x] `@nuxt/content` v3 (collections + zod front-matter schemas in `content.config.ts`, `sqliteConnector: 'native'` — no native dep on Node 24): shared lecture articles at `content/lectures/<TOPIC>/<ID>/<locale>.md`, English canonical; stories remain target-language-specific at `content/stories/<trackLang>/<TOPIC>/<ID>/<locale>.md`
+- [x] Lecture pages are **prerendered** (`nuxt.config.ts` enumerates shared lecture docs → `/learn/<target-language>/lectures/<TOPIC>/<ID>/<locale>` for all target languages): content queries run at build time — no client-side content database ships
 - [x] `media-index` content overlay: front matter → topic payloads (localized titles → `names`, per-locale `content` review meta, `related` ids → embedded rows); `content/**` added to the build fingerprint
-- [x] `run lecture` tooling (`scripts/lecture.mjs`): `new` (doc + pending video manifest + sidebar item) · `status` (the review queue; exits 1 on stale) · `translate <id> --lang <l>` (scaffold/refresh front matter only — never body text) · `review` (draft → reviewed + timestamp, refuses stale without --force)
+- [x] `run lecture` tooling (`scripts/lecture.mjs`): `new <TOPIC> <ID>` scaffolds shared English prose after all language manifests exist · `status` reports the review queue · `translate <TOPIC> <ID> --lang <l>` scaffolds/refreshes front matter only · `review` marks translations reviewed and refuses stale docs without `--force`
 - [x] `LectureLayout` (lecture cards over the shared word table) · `LecturePlayer` video card (pending = coming-soon) · MDC `::callout` / `::term` components · `MediaViewer` mime-aware (video/img/audio) · first lecture authored end-to-end: `content/lectures/ro/C1T01/lecture_alphabet/{en,ro}.md` (both draft — review pending)
 - [x] Dictionary restructure: **127 letter/sound ids moved** (`library/dictionary C1T01–T03 → library/lectures C1T01–T03` — same code space, so R2 keys + entity_ids + progress untouched) and **pinned** (`pins.json`, honored by `archive-topics.mjs --apply-sidebar`); the dictionary is now the expression corpus (405 records: word 150 · question 135 · imperative 75 · sentence 30 · greeting 15); `/learn/en/dictionary` retired (EN was 100% alphabet) — EN's live track is Lectures; `gitignore` `lib/` anchored to `/lib/` (it was swallowing `src/lib/`)
 - [x] Chapter rail rule (`RoadmapSidePane.vue` + `src/lib/roadmapRail.ts`): the rail is a **self-sized** panel — `self-start` cancels the grid's `align-items: stretch`, so its height is its own content capped at the viewport (`lg:max-h-[calc(100dvh-5rem)]`), sticky under the header (`lg:sticky lg:top-14`, the same offset token as the dictionary's sticky table heads) and the chapter list scrolls **inside** the rail (`lg:overflow-y-auto lg:overscroll-contain`); the page content keeps the browser scroll. Fixes the dictionary rail stretching to the table's height (the old `lg:flex lg:flex-col` + `lg:flex-1` behaviour, documented as intended) — all three layouts render the same `RoadmapSidePane`, so the rule lives in exactly one place
-- [x] Verified: `vue-tsc` green · `validate-data` OK (content + pins integrity) · `nuxt generate` 82 routes · lecture prose prerendered in EN + RO · `temp/verify_lectures_pipeline.mjs` 46/46 PASS
+- [x] Reversible examples: `L3T01/A021`–`A023` have translated prose and target terms in all nine locales; each language has its own pending audio manifest. Verified all 243 explanation/target-language routes render.
 
 ## Dictionary standard — per-topic gallery repository (ro + en)
 - [x] Media moved: `media/audio/<lang>/<ID>.mp3` (462 flat) → `gallery/audio/<lang>/<TOPIC>/<ID>.mp3` (per-topic folders; R2 keys mirror the path); `media/` keeps only `audio-manifest.json` as the prune source

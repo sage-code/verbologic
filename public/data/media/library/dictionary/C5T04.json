@@ -1,72 +1,68 @@
 [
   {
-    "id": "word_banca",
-    "section": "library/dictionary",
-    "kind": "word",
-    "lang": "ro",
-    "source": "media",
-    "term": "bancă",
-    "names": {
-      "en": "bank",
-      "es": "banco",
-      "it": "banca",
-      "fr": "banque",
-      "de": "Bank",
-      "ru": "банк",
-      "hu": "bank",
-      "pt": "banco",
-      "ro": "bancă"
-    },
-    "ipa": "ˈbankə",
-    "media": {
-      "url": "https://media.verbologic.com/audio/ro/C4T01/A010.mp3",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "d446ff805e2ed87e73b420cd7409490b415d44ba"
-    },
-    "tags": [
-      "scaffold#C4T01"
-    ],
-    "context": null,
-    "example": null,
-    "topic": "C5T04",
-    "entity_id": "word_banca"
-  },
-  {
     "id": "word_card",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
-    "source": "media",
+    "source": "legacy",
     "term": "card",
     "names": {
       "en": "card",
       "es": "tarjeta",
       "it": "carta",
       "fr": "carte",
-      "de": "Karte",
-      "ru": "карта",
-      "hu": "kártya",
-      "pt": "cartão",
       "ro": "card"
     },
-    "ipa": "kard",
+    "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C4T03/A003.mp3",
+      "url": "https://media.verbologic.com/audio/ro/word_card.mp3",
       "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "1645d882c2023a62d9cef56e4691faadd41fa5fb"
+      "bytes": 0,
+      "sha1": null
     },
-    "tags": [
-      "vocabulary#shopping-money"
-    ],
+    "tags": [],
     "context": null,
     "example": null,
     "topic": "C5T04",
     "entity_id": "word_card"
   },
   {
-    "id": "word_cont",
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "account",
+    "names": {
+      "en": "account",
+      "ro": "cont",
+      "de": "Konto",
+      "ru": "счёт",
+      "it": "conto",
+      "es": "cuenta",
+      "fr": "compte",
+      "hu": "számla",
+      "pt": "conta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A001"
+  },
+  {
+    "id": "A001",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -74,32 +70,314 @@
     "term": "cont",
     "names": {
       "en": "account",
-      "es": "cuenta",
-      "it": "conto",
-      "fr": "compte",
+      "ro": "cont",
       "de": "Konto",
       "ru": "счёт",
+      "it": "conto",
+      "es": "cuenta",
+      "fr": "compte",
       "hu": "számla",
-      "pt": "conta",
-      "ro": "cont"
+      "pt": "conta"
     },
-    "ipa": "kont",
+    "description": null,
+    "ipa": "/kont/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T04/A001.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T04/A001/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "64cae3620caa451f59730f6dbb5c7c049d42f89a"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T04"
     ],
     "context": null,
     "example": null,
     "topic": "C5T04",
-    "entity_id": "word_cont"
+    "entity_id": "C5T04:A001"
   },
   {
-    "id": "word_plic",
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Konto",
+    "names": {
+      "en": "account",
+      "ro": "cont",
+      "de": "Konto",
+      "ru": "счёт",
+      "it": "conto",
+      "es": "cuenta",
+      "fr": "compte",
+      "hu": "számla",
+      "pt": "conta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "счёт",
+    "names": {
+      "en": "account",
+      "ro": "cont",
+      "de": "Konto",
+      "ru": "счёт",
+      "it": "conto",
+      "es": "cuenta",
+      "fr": "compte",
+      "hu": "számla",
+      "pt": "conta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "conto",
+    "names": {
+      "en": "account",
+      "ro": "cont",
+      "de": "Konto",
+      "ru": "счёт",
+      "it": "conto",
+      "es": "cuenta",
+      "fr": "compte",
+      "hu": "számla",
+      "pt": "conta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "cuenta",
+    "names": {
+      "en": "account",
+      "ro": "cont",
+      "de": "Konto",
+      "ru": "счёт",
+      "it": "conto",
+      "es": "cuenta",
+      "fr": "compte",
+      "hu": "számla",
+      "pt": "conta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "compte",
+    "names": {
+      "en": "account",
+      "ro": "cont",
+      "de": "Konto",
+      "ru": "счёт",
+      "it": "conto",
+      "es": "cuenta",
+      "fr": "compte",
+      "hu": "számla",
+      "pt": "conta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "számla",
+    "names": {
+      "en": "account",
+      "ro": "cont",
+      "de": "Konto",
+      "ru": "счёт",
+      "it": "conto",
+      "es": "cuenta",
+      "fr": "compte",
+      "hu": "számla",
+      "pt": "conta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "conta",
+    "names": {
+      "en": "account",
+      "ro": "cont",
+      "de": "Konto",
+      "ru": "счёт",
+      "it": "conto",
+      "es": "cuenta",
+      "fr": "compte",
+      "hu": "számla",
+      "pt": "conta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A001"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "envelope",
+    "names": {
+      "en": "envelope",
+      "ro": "plic",
+      "de": "Umschlag",
+      "ru": "конверт",
+      "it": "busta",
+      "es": "sobre",
+      "fr": "enveloppe",
+      "hu": "boríték",
+      "pt": "envelope"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A002"
+  },
+  {
+    "id": "A002",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -107,32 +385,314 @@
     "term": "plic",
     "names": {
       "en": "envelope",
-      "es": "sobre",
-      "it": "busta",
-      "fr": "enveloppe",
+      "ro": "plic",
       "de": "Umschlag",
       "ru": "конверт",
+      "it": "busta",
+      "es": "sobre",
+      "fr": "enveloppe",
       "hu": "boríték",
-      "pt": "envelope",
-      "ro": "plic"
+      "pt": "envelope"
     },
-    "ipa": "plik",
+    "description": null,
+    "ipa": "/plik/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T04/A002.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T04/A002/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "df298013cac133b4e22c6323dd0eff0d9de48b8a"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T04"
     ],
     "context": null,
     "example": null,
     "topic": "C5T04",
-    "entity_id": "word_plic"
+    "entity_id": "C5T04:A002"
   },
   {
-    "id": "word_scrisoare",
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Umschlag",
+    "names": {
+      "en": "envelope",
+      "ro": "plic",
+      "de": "Umschlag",
+      "ru": "конверт",
+      "it": "busta",
+      "es": "sobre",
+      "fr": "enveloppe",
+      "hu": "boríték",
+      "pt": "envelope"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "конверт",
+    "names": {
+      "en": "envelope",
+      "ro": "plic",
+      "de": "Umschlag",
+      "ru": "конверт",
+      "it": "busta",
+      "es": "sobre",
+      "fr": "enveloppe",
+      "hu": "boríték",
+      "pt": "envelope"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "busta",
+    "names": {
+      "en": "envelope",
+      "ro": "plic",
+      "de": "Umschlag",
+      "ru": "конверт",
+      "it": "busta",
+      "es": "sobre",
+      "fr": "enveloppe",
+      "hu": "boríték",
+      "pt": "envelope"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "sobre",
+    "names": {
+      "en": "envelope",
+      "ro": "plic",
+      "de": "Umschlag",
+      "ru": "конверт",
+      "it": "busta",
+      "es": "sobre",
+      "fr": "enveloppe",
+      "hu": "boríték",
+      "pt": "envelope"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "enveloppe",
+    "names": {
+      "en": "envelope",
+      "ro": "plic",
+      "de": "Umschlag",
+      "ru": "конверт",
+      "it": "busta",
+      "es": "sobre",
+      "fr": "enveloppe",
+      "hu": "boríték",
+      "pt": "envelope"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "boríték",
+    "names": {
+      "en": "envelope",
+      "ro": "plic",
+      "de": "Umschlag",
+      "ru": "конверт",
+      "it": "busta",
+      "es": "sobre",
+      "fr": "enveloppe",
+      "hu": "boríték",
+      "pt": "envelope"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "envelope",
+    "names": {
+      "en": "envelope",
+      "ro": "plic",
+      "de": "Umschlag",
+      "ru": "конверт",
+      "it": "busta",
+      "es": "sobre",
+      "fr": "enveloppe",
+      "hu": "boríték",
+      "pt": "envelope"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A002"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "letter",
+    "names": {
+      "en": "letter",
+      "ro": "scrisoare",
+      "de": "Brief",
+      "ru": "письмо",
+      "it": "lettera",
+      "es": "carta",
+      "fr": "lettre",
+      "hu": "levél",
+      "pt": "carta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A003"
+  },
+  {
+    "id": "A003",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -140,32 +700,314 @@
     "term": "scrisoare",
     "names": {
       "en": "letter",
-      "es": "carta",
-      "it": "lettera",
-      "fr": "lettre",
+      "ro": "scrisoare",
       "de": "Brief",
       "ru": "письмо",
+      "it": "lettera",
+      "es": "carta",
+      "fr": "lettre",
       "hu": "levél",
-      "pt": "carta",
-      "ro": "scrisoare"
+      "pt": "carta"
     },
-    "ipa": "skriˈsoare",
+    "description": null,
+    "ipa": "/skriˈsoare/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T04/A003.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T04/A003/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "0f340aec60249eda762de9e438a7410dd6537d65"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T04"
     ],
     "context": null,
     "example": null,
     "topic": "C5T04",
-    "entity_id": "word_scrisoare"
+    "entity_id": "C5T04:A003"
   },
   {
-    "id": "word_colet",
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Brief",
+    "names": {
+      "en": "letter",
+      "ro": "scrisoare",
+      "de": "Brief",
+      "ru": "письмо",
+      "it": "lettera",
+      "es": "carta",
+      "fr": "lettre",
+      "hu": "levél",
+      "pt": "carta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "письмо",
+    "names": {
+      "en": "letter",
+      "ro": "scrisoare",
+      "de": "Brief",
+      "ru": "письмо",
+      "it": "lettera",
+      "es": "carta",
+      "fr": "lettre",
+      "hu": "levél",
+      "pt": "carta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "lettera",
+    "names": {
+      "en": "letter",
+      "ro": "scrisoare",
+      "de": "Brief",
+      "ru": "письмо",
+      "it": "lettera",
+      "es": "carta",
+      "fr": "lettre",
+      "hu": "levél",
+      "pt": "carta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "carta",
+    "names": {
+      "en": "letter",
+      "ro": "scrisoare",
+      "de": "Brief",
+      "ru": "письмо",
+      "it": "lettera",
+      "es": "carta",
+      "fr": "lettre",
+      "hu": "levél",
+      "pt": "carta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "lettre",
+    "names": {
+      "en": "letter",
+      "ro": "scrisoare",
+      "de": "Brief",
+      "ru": "письмо",
+      "it": "lettera",
+      "es": "carta",
+      "fr": "lettre",
+      "hu": "levél",
+      "pt": "carta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "levél",
+    "names": {
+      "en": "letter",
+      "ro": "scrisoare",
+      "de": "Brief",
+      "ru": "письмо",
+      "it": "lettera",
+      "es": "carta",
+      "fr": "lettre",
+      "hu": "levél",
+      "pt": "carta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "carta",
+    "names": {
+      "en": "letter",
+      "ro": "scrisoare",
+      "de": "Brief",
+      "ru": "письмо",
+      "it": "lettera",
+      "es": "carta",
+      "fr": "lettre",
+      "hu": "levél",
+      "pt": "carta"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A003"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "package",
+    "names": {
+      "en": "package",
+      "ro": "colet",
+      "de": "Paket",
+      "ru": "посылка",
+      "it": "pacco",
+      "es": "paquete",
+      "fr": "colis",
+      "hu": "csomag",
+      "pt": "pacote"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A004"
+  },
+  {
+    "id": "A004",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -173,32 +1015,314 @@
     "term": "colet",
     "names": {
       "en": "package",
-      "es": "paquete",
-      "it": "pacco",
-      "fr": "colis",
+      "ro": "colet",
       "de": "Paket",
       "ru": "посылка",
+      "it": "pacco",
+      "es": "paquete",
+      "fr": "colis",
       "hu": "csomag",
-      "pt": "pacote",
-      "ro": "colet"
+      "pt": "pacote"
     },
-    "ipa": "koˈlet",
+    "description": null,
+    "ipa": "/koˈlet/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T04/A004.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T04/A004/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "3d984159ab005bb4ccf64a5a8dd1f36aca75ab12"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T04"
     ],
     "context": null,
     "example": null,
     "topic": "C5T04",
-    "entity_id": "word_colet"
+    "entity_id": "C5T04:A004"
   },
   {
-    "id": "word_timbru",
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Paket",
+    "names": {
+      "en": "package",
+      "ro": "colet",
+      "de": "Paket",
+      "ru": "посылка",
+      "it": "pacco",
+      "es": "paquete",
+      "fr": "colis",
+      "hu": "csomag",
+      "pt": "pacote"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "посылка",
+    "names": {
+      "en": "package",
+      "ro": "colet",
+      "de": "Paket",
+      "ru": "посылка",
+      "it": "pacco",
+      "es": "paquete",
+      "fr": "colis",
+      "hu": "csomag",
+      "pt": "pacote"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "pacco",
+    "names": {
+      "en": "package",
+      "ro": "colet",
+      "de": "Paket",
+      "ru": "посылка",
+      "it": "pacco",
+      "es": "paquete",
+      "fr": "colis",
+      "hu": "csomag",
+      "pt": "pacote"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "paquete",
+    "names": {
+      "en": "package",
+      "ro": "colet",
+      "de": "Paket",
+      "ru": "посылка",
+      "it": "pacco",
+      "es": "paquete",
+      "fr": "colis",
+      "hu": "csomag",
+      "pt": "pacote"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "colis",
+    "names": {
+      "en": "package",
+      "ro": "colet",
+      "de": "Paket",
+      "ru": "посылка",
+      "it": "pacco",
+      "es": "paquete",
+      "fr": "colis",
+      "hu": "csomag",
+      "pt": "pacote"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "csomag",
+    "names": {
+      "en": "package",
+      "ro": "colet",
+      "de": "Paket",
+      "ru": "посылка",
+      "it": "pacco",
+      "es": "paquete",
+      "fr": "colis",
+      "hu": "csomag",
+      "pt": "pacote"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "pacote",
+    "names": {
+      "en": "package",
+      "ro": "colet",
+      "de": "Paket",
+      "ru": "посылка",
+      "it": "pacco",
+      "es": "paquete",
+      "fr": "colis",
+      "hu": "csomag",
+      "pt": "pacote"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A004"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "stamp",
+    "names": {
+      "en": "stamp",
+      "ro": "timbru",
+      "de": "Briefmarke",
+      "ru": "почтовая марка",
+      "it": "francobollo",
+      "es": "sello",
+      "fr": "timbre",
+      "hu": "bélyeg",
+      "pt": "selo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A005"
+  },
+  {
+    "id": "A005",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -206,32 +1330,314 @@
     "term": "timbru",
     "names": {
       "en": "stamp",
-      "es": "sello",
-      "it": "francobollo",
-      "fr": "timbre",
+      "ro": "timbru",
       "de": "Briefmarke",
       "ru": "почтовая марка",
+      "it": "francobollo",
+      "es": "sello",
+      "fr": "timbre",
       "hu": "bélyeg",
-      "pt": "selo",
-      "ro": "timbru"
+      "pt": "selo"
     },
-    "ipa": "ˈtimbru",
+    "description": null,
+    "ipa": "/ˈtimbru/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T04/A005.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T04/A005/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "33c4f3df4a048508d6b3459f1a6d1e76a0e27ed8"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T04"
     ],
     "context": null,
     "example": null,
     "topic": "C5T04",
-    "entity_id": "word_timbru"
+    "entity_id": "C5T04:A005"
   },
   {
-    "id": "word_semnatura",
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Briefmarke",
+    "names": {
+      "en": "stamp",
+      "ro": "timbru",
+      "de": "Briefmarke",
+      "ru": "почтовая марка",
+      "it": "francobollo",
+      "es": "sello",
+      "fr": "timbre",
+      "hu": "bélyeg",
+      "pt": "selo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "почтовая марка",
+    "names": {
+      "en": "stamp",
+      "ro": "timbru",
+      "de": "Briefmarke",
+      "ru": "почтовая марка",
+      "it": "francobollo",
+      "es": "sello",
+      "fr": "timbre",
+      "hu": "bélyeg",
+      "pt": "selo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "francobollo",
+    "names": {
+      "en": "stamp",
+      "ro": "timbru",
+      "de": "Briefmarke",
+      "ru": "почтовая марка",
+      "it": "francobollo",
+      "es": "sello",
+      "fr": "timbre",
+      "hu": "bélyeg",
+      "pt": "selo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "sello",
+    "names": {
+      "en": "stamp",
+      "ro": "timbru",
+      "de": "Briefmarke",
+      "ru": "почтовая марка",
+      "it": "francobollo",
+      "es": "sello",
+      "fr": "timbre",
+      "hu": "bélyeg",
+      "pt": "selo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "timbre",
+    "names": {
+      "en": "stamp",
+      "ro": "timbru",
+      "de": "Briefmarke",
+      "ru": "почтовая марка",
+      "it": "francobollo",
+      "es": "sello",
+      "fr": "timbre",
+      "hu": "bélyeg",
+      "pt": "selo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "bélyeg",
+    "names": {
+      "en": "stamp",
+      "ro": "timbru",
+      "de": "Briefmarke",
+      "ru": "почтовая марка",
+      "it": "francobollo",
+      "es": "sello",
+      "fr": "timbre",
+      "hu": "bélyeg",
+      "pt": "selo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "selo",
+    "names": {
+      "en": "stamp",
+      "ro": "timbru",
+      "de": "Briefmarke",
+      "ru": "почтовая марка",
+      "it": "francobollo",
+      "es": "sello",
+      "fr": "timbre",
+      "hu": "bélyeg",
+      "pt": "selo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A005"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "signature",
+    "names": {
+      "en": "signature",
+      "ro": "semnătură",
+      "de": "Unterschrift",
+      "ru": "подпись",
+      "it": "firma",
+      "es": "firma",
+      "fr": "signature",
+      "hu": "aláírás",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A006"
+  },
+  {
+    "id": "A006",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -239,32 +1645,314 @@
     "term": "semnătură",
     "names": {
       "en": "signature",
-      "es": "firma",
-      "it": "firma",
-      "fr": "signature",
+      "ro": "semnătură",
       "de": "Unterschrift",
       "ru": "подпись",
+      "it": "firma",
+      "es": "firma",
+      "fr": "signature",
       "hu": "aláírás",
-      "pt": "assinatura",
-      "ro": "semnătură"
+      "pt": "assinatura"
     },
-    "ipa": "semnəˈturə",
+    "description": null,
+    "ipa": "/semnəˈturə/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T04/A006.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T04/A006/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "62a3b3bc4aaac17d13bdbfcb4365d19edef9d56f"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T04"
     ],
     "context": null,
     "example": null,
     "topic": "C5T04",
-    "entity_id": "word_semnatura"
+    "entity_id": "C5T04:A006"
   },
   {
-    "id": "word_imprumut",
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Unterschrift",
+    "names": {
+      "en": "signature",
+      "ro": "semnătură",
+      "de": "Unterschrift",
+      "ru": "подпись",
+      "it": "firma",
+      "es": "firma",
+      "fr": "signature",
+      "hu": "aláírás",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "подпись",
+    "names": {
+      "en": "signature",
+      "ro": "semnătură",
+      "de": "Unterschrift",
+      "ru": "подпись",
+      "it": "firma",
+      "es": "firma",
+      "fr": "signature",
+      "hu": "aláírás",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "firma",
+    "names": {
+      "en": "signature",
+      "ro": "semnătură",
+      "de": "Unterschrift",
+      "ru": "подпись",
+      "it": "firma",
+      "es": "firma",
+      "fr": "signature",
+      "hu": "aláírás",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "firma",
+    "names": {
+      "en": "signature",
+      "ro": "semnătură",
+      "de": "Unterschrift",
+      "ru": "подпись",
+      "it": "firma",
+      "es": "firma",
+      "fr": "signature",
+      "hu": "aláírás",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "signature",
+    "names": {
+      "en": "signature",
+      "ro": "semnătură",
+      "de": "Unterschrift",
+      "ru": "подпись",
+      "it": "firma",
+      "es": "firma",
+      "fr": "signature",
+      "hu": "aláírás",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "aláírás",
+    "names": {
+      "en": "signature",
+      "ro": "semnătură",
+      "de": "Unterschrift",
+      "ru": "подпись",
+      "it": "firma",
+      "es": "firma",
+      "fr": "signature",
+      "hu": "aláírás",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "assinatura",
+    "names": {
+      "en": "signature",
+      "ro": "semnătură",
+      "de": "Unterschrift",
+      "ru": "подпись",
+      "it": "firma",
+      "es": "firma",
+      "fr": "signature",
+      "hu": "aláírás",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A006"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "loan",
+    "names": {
+      "en": "loan",
+      "ro": "împrumut",
+      "de": "Kredit",
+      "ru": "кредит",
+      "it": "prestito",
+      "es": "préstamo",
+      "fr": "prêt",
+      "hu": "kölcsön",
+      "pt": "empréstimo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A007"
+  },
+  {
+    "id": "A007",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -272,32 +1960,314 @@
     "term": "împrumut",
     "names": {
       "en": "loan",
-      "es": "préstamo",
-      "it": "prestito",
-      "fr": "prêt",
+      "ro": "împrumut",
       "de": "Kredit",
       "ru": "кредит",
+      "it": "prestito",
+      "es": "préstamo",
+      "fr": "prêt",
       "hu": "kölcsön",
-      "pt": "empréstimo",
-      "ro": "împrumut"
+      "pt": "empréstimo"
     },
-    "ipa": "ɨmpruˈmut",
+    "description": null,
+    "ipa": "/ɨmpruˈmut/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T04/A007.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T04/A007/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "2fca874ce2dd8cd6030cd6d832f95d76f780de8e"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T04"
     ],
     "context": null,
     "example": null,
     "topic": "C5T04",
-    "entity_id": "word_imprumut"
+    "entity_id": "C5T04:A007"
   },
   {
-    "id": "word_factura",
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Kredit",
+    "names": {
+      "en": "loan",
+      "ro": "împrumut",
+      "de": "Kredit",
+      "ru": "кредит",
+      "it": "prestito",
+      "es": "préstamo",
+      "fr": "prêt",
+      "hu": "kölcsön",
+      "pt": "empréstimo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "кредит",
+    "names": {
+      "en": "loan",
+      "ro": "împrumut",
+      "de": "Kredit",
+      "ru": "кредит",
+      "it": "prestito",
+      "es": "préstamo",
+      "fr": "prêt",
+      "hu": "kölcsön",
+      "pt": "empréstimo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "prestito",
+    "names": {
+      "en": "loan",
+      "ro": "împrumut",
+      "de": "Kredit",
+      "ru": "кредит",
+      "it": "prestito",
+      "es": "préstamo",
+      "fr": "prêt",
+      "hu": "kölcsön",
+      "pt": "empréstimo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "préstamo",
+    "names": {
+      "en": "loan",
+      "ro": "împrumut",
+      "de": "Kredit",
+      "ru": "кредит",
+      "it": "prestito",
+      "es": "préstamo",
+      "fr": "prêt",
+      "hu": "kölcsön",
+      "pt": "empréstimo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "prêt",
+    "names": {
+      "en": "loan",
+      "ro": "împrumut",
+      "de": "Kredit",
+      "ru": "кредит",
+      "it": "prestito",
+      "es": "préstamo",
+      "fr": "prêt",
+      "hu": "kölcsön",
+      "pt": "empréstimo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "kölcsön",
+    "names": {
+      "en": "loan",
+      "ro": "împrumut",
+      "de": "Kredit",
+      "ru": "кредит",
+      "it": "prestito",
+      "es": "préstamo",
+      "fr": "prêt",
+      "hu": "kölcsön",
+      "pt": "empréstimo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "empréstimo",
+    "names": {
+      "en": "loan",
+      "ro": "împrumut",
+      "de": "Kredit",
+      "ru": "кредит",
+      "it": "prestito",
+      "es": "préstamo",
+      "fr": "prêt",
+      "hu": "kölcsön",
+      "pt": "empréstimo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A007"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "invoice",
+    "names": {
+      "en": "invoice",
+      "ro": "factură",
+      "de": "Rechnung",
+      "ru": "счёт-фактура",
+      "it": "fattura",
+      "es": "factura",
+      "fr": "facture",
+      "hu": "számla",
+      "pt": "fatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A008"
+  },
+  {
+    "id": "A008",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -305,28 +2275,275 @@
     "term": "factură",
     "names": {
       "en": "invoice",
-      "es": "factura",
-      "it": "fattura",
-      "fr": "facture",
+      "ro": "factură",
       "de": "Rechnung",
       "ru": "счёт-фактура",
+      "it": "fattura",
+      "es": "factura",
+      "fr": "facture",
       "hu": "számla",
-      "pt": "fatura",
-      "ro": "factură"
+      "pt": "fatura"
     },
-    "ipa": "fakˈturə",
+    "description": null,
+    "ipa": "/fakˈturə/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T04/A008.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T04/A008/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "8f0cf83275a41d7e01983f3359160573f6ed89fe"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T04"
     ],
     "context": null,
     "example": null,
     "topic": "C5T04",
-    "entity_id": "word_factura"
+    "entity_id": "C5T04:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Rechnung",
+    "names": {
+      "en": "invoice",
+      "ro": "factură",
+      "de": "Rechnung",
+      "ru": "счёт-фактура",
+      "it": "fattura",
+      "es": "factura",
+      "fr": "facture",
+      "hu": "számla",
+      "pt": "fatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "счёт-фактура",
+    "names": {
+      "en": "invoice",
+      "ro": "factură",
+      "de": "Rechnung",
+      "ru": "счёт-фактура",
+      "it": "fattura",
+      "es": "factura",
+      "fr": "facture",
+      "hu": "számla",
+      "pt": "fatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "fattura",
+    "names": {
+      "en": "invoice",
+      "ro": "factură",
+      "de": "Rechnung",
+      "ru": "счёт-фактура",
+      "it": "fattura",
+      "es": "factura",
+      "fr": "facture",
+      "hu": "számla",
+      "pt": "fatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "factura",
+    "names": {
+      "en": "invoice",
+      "ro": "factură",
+      "de": "Rechnung",
+      "ru": "счёт-фактура",
+      "it": "fattura",
+      "es": "factura",
+      "fr": "facture",
+      "hu": "számla",
+      "pt": "fatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "facture",
+    "names": {
+      "en": "invoice",
+      "ro": "factură",
+      "de": "Rechnung",
+      "ru": "счёт-фактура",
+      "it": "fattura",
+      "es": "factura",
+      "fr": "facture",
+      "hu": "számla",
+      "pt": "fatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "számla",
+    "names": {
+      "en": "invoice",
+      "ro": "factură",
+      "de": "Rechnung",
+      "ru": "счёт-фактура",
+      "it": "fattura",
+      "es": "factura",
+      "fr": "facture",
+      "hu": "számla",
+      "pt": "fatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "fatura",
+    "names": {
+      "en": "invoice",
+      "ro": "factură",
+      "de": "Rechnung",
+      "ru": "счёт-фактура",
+      "it": "fattura",
+      "es": "factura",
+      "fr": "facture",
+      "hu": "számla",
+      "pt": "fatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T04"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T04",
+    "entity_id": "C5T04:A008"
   }
 ]

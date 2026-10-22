@@ -12,13 +12,15 @@ const TRACKS = ['dictionary', 'lectures', 'stories'] as const
  * sidebar `layout` is 'article' lists its docs here; the docs open on their
  * own prerendered pages, in ANY track:
  *
- *   content/<track>/<trackLang>/<TOPIC>/<ID>/<locale>.md
+ *   content/<dictionary|lectures>/<TOPIC>/<ID>/<locale>.md
+ *   content/stories/<TOPIC>/<ID>/<locale>.md
+ *   content/stories/<trackLang>/<TOPIC>/<ID>/<locale>.md (legacy)
  *
- * The English document is the canonical original for lectures; every other
- * track's canonical document is the track language itself (stories: the story
- * IS the material). Translations carry `sourceSha` (sha1 of the canonical doc
- * they were made from) so the review tooling can flag stale translations the
- * moment the original changes.
+ * Dictionary prose is shared by every target-language dictionary; its
+ * `locale` is the explanation language, not the language being learned.
+ * Dictionary, lecture, and story articles are shared and English-canonical.
+ * Translations carry `sourceSha` (sha1 of the canonical doc they were made
+ * from) so review tooling can flag stale text.
  *
  * Front matter is validated here at build time and joined into the runtime
  * payloads by scripts/media-index.mjs (titles → names, per-locale review
@@ -34,14 +36,18 @@ export default defineContentConfig({
       schema: z.object({
         /** Which sidebar track the article topic lives in (the content folder leaf). */
         track: z.enum(TRACKS),
-        /** Which roadmap the article belongs to (differs per language by design). */
-        trackLang: z.enum(TRACK_LANGS),
+        /** Learning language for legacy target-language-specific story docs. */
+        trackLang: z.enum(TRACK_LANGS).optional(),
         /** Language THIS document is written in (the explanation language). */
         locale: z.enum(LOCALES),
         /** Sidebar topic code, e.g. 'C1T01A'. */
         topic: z.string(),
-        /** Stable article id — the progress key (learned_items.entity_id). */
+        /** Topic-scoped content code, shared by all target-language variants. */
         article: z.string(),
+        /** Language-independent progress identity: <TOPIC>:<CODE>. */
+        entity_id: z.string().optional(),
+        /** Target-language terms used to render one shared dictionary article. */
+        terms: z.record(z.string(), z.string()).optional(),
         /** Article title in this document's language. */
         title: z.string(),
         /** One-liner under the title (optional). */

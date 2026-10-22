@@ -3,8 +3,8 @@
  * per-track chapter/topic selection (structure from the build-inlined
  * sidebars), topic search (Fuse), the open topic's records (lazy per-topic
  * payloads built from the media manifests / content docs), dictionary search
- * (term prefix per topic, or dictionary-wide translation matches) and
- * per-topic learned counts. The template lives in
+ * (term or native-gloss prefix per topic, or dictionary-wide matches on
+ * either language) and per-topic learned counts. The template lives in
  * src/components/roadmap/RoadmapShell.vue.
  */
 import { defineStore } from 'pinia'
@@ -92,7 +92,7 @@ export const useRoadmapStore = defineStore('roadmap', () => {
 
   // --- Table-layout state (the TopicTable pane's toolbar; see layouts/TopicTable) ---
 
-  /** Committed search query — term prefix, or translation substring in filter mode. */
+  /** Committed search query — term or native-gloss prefix, or a substring of either. */
   const dictionaryQuery = ref('')
   /** 1-based page within the filtered rows. */
   const page = ref(1)
@@ -104,7 +104,7 @@ export const useRoadmapStore = defineStore('roadmap', () => {
   const searchIndexReady = ref(false)
   const loadingSearch = ref(false)
 
-  /** The UI language (the translation column) — reactive to the top-bar switcher. */
+  /** The UI language (the native gloss column) — reactive to the top-bar switcher. */
   const { lang: uiLang } = useLocale()
 
   /**

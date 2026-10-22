@@ -1,6 +1,41 @@
 [
   {
-    "id": "word_carte",
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "book",
+    "names": {
+      "en": "book",
+      "ro": "carte",
+      "de": "Buch",
+      "ru": "Книга",
+      "it": "libro",
+      "es": "libro",
+      "fr": "livre",
+      "hu": "Könyv",
+      "pt": "Livro"
+    },
+    "description": "A mother is a female parent.",
+    "ipa": "/bʊk/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A001/sound/en.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4464,
+      "sha1": "e08b21be9905ff3e63ba5cf848f21ee0a7d4441d"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A001"
+  },
+  {
+    "id": "A001",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -8,32 +43,314 @@
     "term": "carte",
     "names": {
       "en": "book",
-      "es": "libro",
-      "it": "libro",
-      "fr": "livre",
+      "ro": "carte",
       "de": "Buch",
       "ru": "Книга",
+      "it": "libro",
+      "es": "libro",
+      "fr": "livre",
       "hu": "Könyv",
-      "pt": "Livro",
-      "ro": "carte"
+      "pt": "Livro"
     },
-    "ipa": "ˈkarte",
+    "description": "O mamă este un părinte de sex feminin.",
+    "ipa": "/ˈkarte/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T08/A001.mp3",
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A001/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "b7b40162bb80f1af60d1751858cdff654f5bb602"
     },
+    "read": null,
     "tags": [
       "scaffold#C1T08"
     ],
     "context": null,
     "example": null,
     "topic": "C1T08",
-    "entity_id": "word_carte"
+    "entity_id": "C1T08:A001"
   },
   {
-    "id": "word_ghiozdan",
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Buch",
+    "names": {
+      "en": "book",
+      "ro": "carte",
+      "de": "Buch",
+      "ru": "Книга",
+      "it": "libro",
+      "es": "libro",
+      "fr": "livre",
+      "hu": "Könyv",
+      "pt": "Livro"
+    },
+    "description": "Eine Mutter ist ein weiblicher Elternteil.",
+    "ipa": "/buːx/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A001/sound/de.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "021d1327f9a00f231b26af1656966bbee5eca243"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "Книга",
+    "names": {
+      "en": "book",
+      "ro": "carte",
+      "de": "Buch",
+      "ru": "Книга",
+      "it": "libro",
+      "es": "libro",
+      "fr": "livre",
+      "hu": "Könyv",
+      "pt": "Livro"
+    },
+    "description": "Мать — это родитель женского пола.",
+    "ipa": "/ˈknʲiɡə/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A001/sound/ru.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "6a4ec2c28238a3ea3f27c7bdd0637ebdd63fde8a"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "libro",
+    "names": {
+      "en": "book",
+      "ro": "carte",
+      "de": "Buch",
+      "ru": "Книга",
+      "it": "libro",
+      "es": "libro",
+      "fr": "livre",
+      "hu": "Könyv",
+      "pt": "Livro"
+    },
+    "description": "Una madre è un genitore di sesso femminile.",
+    "ipa": "/ˈli.bro/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A001/sound/it.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "cecaa168d52011e655806b3b99ce0427359831be"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "libro",
+    "names": {
+      "en": "book",
+      "ro": "carte",
+      "de": "Buch",
+      "ru": "Книга",
+      "it": "libro",
+      "es": "libro",
+      "fr": "livre",
+      "hu": "Könyv",
+      "pt": "Livro"
+    },
+    "description": "Una madre es un progenitor de sexo femenino.",
+    "ipa": "/ˈli.βɾo/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A001/sound/es.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "6edb3a7bc7e2905a3b864fc6fe60820e4b79fee6"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "livre",
+    "names": {
+      "en": "book",
+      "ro": "carte",
+      "de": "Buch",
+      "ru": "Книга",
+      "it": "libro",
+      "es": "libro",
+      "fr": "livre",
+      "hu": "Könyv",
+      "pt": "Livro"
+    },
+    "description": "Une mère est un parent de sexe féminin.",
+    "ipa": "/livʁ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A001/sound/fr.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "dd6e3f0f888deeddc7262169a78fd381e222057e"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "Könyv",
+    "names": {
+      "en": "book",
+      "ro": "carte",
+      "de": "Buch",
+      "ru": "Книга",
+      "it": "libro",
+      "es": "libro",
+      "fr": "livre",
+      "hu": "Könyv",
+      "pt": "Livro"
+    },
+    "description": "Az anya egy női szülő.",
+    "ipa": "/ˈkøɲv/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A001/sound/hu.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "72c9d9b9472f855c4a4e8ffc74cc4c3f83987f9a"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "Livro",
+    "names": {
+      "en": "book",
+      "ro": "carte",
+      "de": "Buch",
+      "ru": "Книга",
+      "it": "libro",
+      "es": "libro",
+      "fr": "livre",
+      "hu": "Könyv",
+      "pt": "Livro"
+    },
+    "description": "Uma mãe é um progenitor do sexo feminino.",
+    "ipa": "/ˈli.vɾu/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A001/sound/pt.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "3a0b33b3bcc6a3327a435dd0bddd1f326319dbe4"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A001"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "backpack",
+    "names": {
+      "en": "backpack",
+      "ro": "ghiozdan",
+      "de": "Schulranzen",
+      "ru": "Рюкзак",
+      "it": "zaino",
+      "es": "mochila",
+      "fr": "cartable",
+      "hu": "Iskolatáska",
+      "pt": "Mochila"
+    },
+    "description": "A father is a male parent.",
+    "ipa": "/ˈbæk.pæk/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A002/sound/en.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "25d7977237cdc97e67c493e944e94fdba4a301e7"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A002"
+  },
+  {
+    "id": "A002",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -41,32 +358,314 @@
     "term": "ghiozdan",
     "names": {
       "en": "backpack",
-      "es": "mochila",
-      "it": "zaino",
-      "fr": "cartable",
+      "ro": "ghiozdan",
       "de": "Schulranzen",
       "ru": "Рюкзак",
+      "it": "zaino",
+      "es": "mochila",
+      "fr": "cartable",
       "hu": "Iskolatáska",
-      "pt": "Mochila",
-      "ro": "ghiozdan"
+      "pt": "Mochila"
     },
-    "ipa": "gjozˈdan",
+    "description": "Un tată este un părinte de sex masculin.",
+    "ipa": "/gjozˈdan/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T08/A002.mp3",
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A002/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "c64e05dba9163a455813c1da7f78871eb1c338a7"
     },
+    "read": null,
     "tags": [
       "scaffold#C1T08"
     ],
     "context": null,
     "example": null,
     "topic": "C1T08",
-    "entity_id": "word_ghiozdan"
+    "entity_id": "C1T08:A002"
   },
   {
-    "id": "word_tabla",
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Schulranzen",
+    "names": {
+      "en": "backpack",
+      "ro": "ghiozdan",
+      "de": "Schulranzen",
+      "ru": "Рюкзак",
+      "it": "zaino",
+      "es": "mochila",
+      "fr": "cartable",
+      "hu": "Iskolatáska",
+      "pt": "Mochila"
+    },
+    "description": "Ein Vater ist ein männlicher Elternteil.",
+    "ipa": "/ˈʃuːlˌʁant͡sən/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A002/sound/de.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "b57e4e3a92d0f3857384303ea228488234adf559"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "Рюкзак",
+    "names": {
+      "en": "backpack",
+      "ro": "ghiozdan",
+      "de": "Schulranzen",
+      "ru": "Рюкзак",
+      "it": "zaino",
+      "es": "mochila",
+      "fr": "cartable",
+      "hu": "Iskolatáska",
+      "pt": "Mochila"
+    },
+    "description": "Отец — это родитель мужского пола.",
+    "ipa": "/rʲʊkˈzak/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A002/sound/ru.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "0e49e58c3ba2f02bf4ad0f2c4c0e1600a21ff16f"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "zaino",
+    "names": {
+      "en": "backpack",
+      "ro": "ghiozdan",
+      "de": "Schulranzen",
+      "ru": "Рюкзак",
+      "it": "zaino",
+      "es": "mochila",
+      "fr": "cartable",
+      "hu": "Iskolatáska",
+      "pt": "Mochila"
+    },
+    "description": "Un padre è un genitore di sesso maschile.",
+    "ipa": "/ˈd͡zai.no/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A002/sound/it.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "fdfa066635cd0d73e172d037a0b8ac8df7306bca"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "mochila",
+    "names": {
+      "en": "backpack",
+      "ro": "ghiozdan",
+      "de": "Schulranzen",
+      "ru": "Рюкзак",
+      "it": "zaino",
+      "es": "mochila",
+      "fr": "cartable",
+      "hu": "Iskolatáska",
+      "pt": "Mochila"
+    },
+    "description": "Un padre es un progenitor de sexo masculino.",
+    "ipa": "/moˈt͡ʃi.la/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A002/sound/es.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "0be2a753c44f86d9fd530ac9aaee961848b72264"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "cartable",
+    "names": {
+      "en": "backpack",
+      "ro": "ghiozdan",
+      "de": "Schulranzen",
+      "ru": "Рюкзак",
+      "it": "zaino",
+      "es": "mochila",
+      "fr": "cartable",
+      "hu": "Iskolatáska",
+      "pt": "Mochila"
+    },
+    "description": "Un père est un parent de sexe masculin.",
+    "ipa": "/kaʁ.tabl/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A002/sound/fr.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "58f3d883ad75f38f3b86bca20ba52a094ca90fe7"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "Iskolatáska",
+    "names": {
+      "en": "backpack",
+      "ro": "ghiozdan",
+      "de": "Schulranzen",
+      "ru": "Рюкзак",
+      "it": "zaino",
+      "es": "mochila",
+      "fr": "cartable",
+      "hu": "Iskolatáska",
+      "pt": "Mochila"
+    },
+    "description": "Az apa egy férfi szülő.",
+    "ipa": "/ˈiʃkolaˌtaːʃkɒ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A002/sound/hu.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "003b825319c4367184d0d89c630f16ace235d6a3"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "Mochila",
+    "names": {
+      "en": "backpack",
+      "ro": "ghiozdan",
+      "de": "Schulranzen",
+      "ru": "Рюкзак",
+      "it": "zaino",
+      "es": "mochila",
+      "fr": "cartable",
+      "hu": "Iskolatáska",
+      "pt": "Mochila"
+    },
+    "description": "Um pai é um progenitor do sexo masculino.",
+    "ipa": "/muˈʃi.lɐ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A002/sound/pt.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "3b93b4f116cc93cdde9b74466f5b26ce7888a0e8"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A002"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "board",
+    "names": {
+      "en": "board",
+      "ro": "tablă",
+      "de": "Tafel",
+      "ru": "Доска",
+      "it": "lavagna",
+      "es": "pizarra",
+      "fr": "tableau",
+      "hu": "Tábla",
+      "pt": "Quadro"
+    },
+    "description": "A sister is a female sibling.",
+    "ipa": "/bɔːrd/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A003/sound/en.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4464,
+      "sha1": "e7f64c87012861fa802d092ff5f638544adc9609"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A003"
+  },
+  {
+    "id": "A003",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -74,32 +673,314 @@
     "term": "tablă",
     "names": {
       "en": "board",
-      "es": "pizarra",
-      "it": "lavagna",
-      "fr": "tableau",
+      "ro": "tablă",
       "de": "Tafel",
       "ru": "Доска",
+      "it": "lavagna",
+      "es": "pizarra",
+      "fr": "tableau",
       "hu": "Tábla",
-      "pt": "Quadro",
-      "ro": "tablă"
+      "pt": "Quadro"
     },
-    "ipa": "ˈtablə",
+    "description": "O soră este o rudă de sex feminin cu aceiași părinți.",
+    "ipa": "/ˈtablə/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T08/A003.mp3",
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A003/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "a0083db0725ee3a20c24c8a5b8317a0d318449f3"
     },
+    "read": null,
     "tags": [
       "scaffold#C1T08"
     ],
     "context": null,
     "example": null,
     "topic": "C1T08",
-    "entity_id": "word_tabla"
+    "entity_id": "C1T08:A003"
   },
   {
-    "id": "word_rigla",
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Tafel",
+    "names": {
+      "en": "board",
+      "ro": "tablă",
+      "de": "Tafel",
+      "ru": "Доска",
+      "it": "lavagna",
+      "es": "pizarra",
+      "fr": "tableau",
+      "hu": "Tábla",
+      "pt": "Quadro"
+    },
+    "description": "Eine Schwester ist ein weibliches Geschwisterteil.",
+    "ipa": "/ˈtaːfəl/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A003/sound/de.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "1591e429243627bf150019925662dd42c2fc9520"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "Доска",
+    "names": {
+      "en": "board",
+      "ro": "tablă",
+      "de": "Tafel",
+      "ru": "Доска",
+      "it": "lavagna",
+      "es": "pizarra",
+      "fr": "tableau",
+      "hu": "Tábla",
+      "pt": "Quadro"
+    },
+    "description": "Сестра — это родственница женского пола с общими родителями.",
+    "ipa": "/dɐˈska/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A003/sound/ru.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "a3f884e01a2e1bc3b54b7348c29a7979250c4a95"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "lavagna",
+    "names": {
+      "en": "board",
+      "ro": "tablă",
+      "de": "Tafel",
+      "ru": "Доска",
+      "it": "lavagna",
+      "es": "pizarra",
+      "fr": "tableau",
+      "hu": "Tábla",
+      "pt": "Quadro"
+    },
+    "description": "Una sorella è una parente di sesso femminile con gli stessi genitori.",
+    "ipa": "/laˈvaɲ.ɲa/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A003/sound/it.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "21189c9a3391e1eac528edc117673f85fe46fd5f"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "pizarra",
+    "names": {
+      "en": "board",
+      "ro": "tablă",
+      "de": "Tafel",
+      "ru": "Доска",
+      "it": "lavagna",
+      "es": "pizarra",
+      "fr": "tableau",
+      "hu": "Tábla",
+      "pt": "Quadro"
+    },
+    "description": "Una hermana es una pariente de sexo femenino con los mismos padres.",
+    "ipa": "/piˈθa.ra/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A003/sound/es.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "cf6e55a1fbe6e35a248fe08dccbab53a371ac24a"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "tableau",
+    "names": {
+      "en": "board",
+      "ro": "tablă",
+      "de": "Tafel",
+      "ru": "Доска",
+      "it": "lavagna",
+      "es": "pizarra",
+      "fr": "tableau",
+      "hu": "Tábla",
+      "pt": "Quadro"
+    },
+    "description": "Une sœur est une parente de sexe féminin ayant les mêmes parents.",
+    "ipa": "/ta.blo/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A003/sound/fr.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "2785309f02eff37799c8ce94fff2a41f14360877"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "Tábla",
+    "names": {
+      "en": "board",
+      "ro": "tablă",
+      "de": "Tafel",
+      "ru": "Доска",
+      "it": "lavagna",
+      "es": "pizarra",
+      "fr": "tableau",
+      "hu": "Tábla",
+      "pt": "Quadro"
+    },
+    "description": "A nővér vagy húg egy női testvér.",
+    "ipa": "/ˈtaːblɒ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A003/sound/hu.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "4858a43fd639183c9c3538d2baa54bd13eb31c76"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "Quadro",
+    "names": {
+      "en": "board",
+      "ro": "tablă",
+      "de": "Tafel",
+      "ru": "Доска",
+      "it": "lavagna",
+      "es": "pizarra",
+      "fr": "tableau",
+      "hu": "Tábla",
+      "pt": "Quadro"
+    },
+    "description": "Uma irmã é uma parente do sexo feminino com os mesmos pais.",
+    "ipa": "/ˈkwa.ðɾu/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A003/sound/pt.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "ebf22b5f76b0776c64f3847669ae21a97b3d8d00"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A003"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "ruler",
+    "names": {
+      "en": "ruler",
+      "ro": "riglă",
+      "de": "Lineal",
+      "ru": "Линейка",
+      "it": "righello",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "Vonalzó",
+      "pt": "Régua"
+    },
+    "description": "A brother is a male sibling.",
+    "ipa": "/ˈruːlər/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A004/sound/en.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4896,
+      "sha1": "d7619104a9495fab75281e176ec43caada14ea6e"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A004"
+  },
+  {
+    "id": "A004",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -107,32 +988,314 @@
     "term": "riglă",
     "names": {
       "en": "ruler",
-      "es": "regla",
-      "it": "righello",
-      "fr": "règle",
+      "ro": "riglă",
       "de": "Lineal",
       "ru": "Линейка",
+      "it": "righello",
+      "es": "regla",
+      "fr": "règle",
       "hu": "Vonalzó",
-      "pt": "Régua",
-      "ro": "riglă"
+      "pt": "Régua"
     },
-    "ipa": "ˈriglə",
+    "description": "Un frate este o rudă de sex masculin cu aceiași părinți.",
+    "ipa": "/ˈriglə/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T08/A004.mp3",
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A004/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "32067d9105e327fb25877bbd29672f146653332a"
     },
+    "read": null,
     "tags": [
       "scaffold#C1T08"
     ],
     "context": null,
     "example": null,
     "topic": "C1T08",
-    "entity_id": "word_rigla"
+    "entity_id": "C1T08:A004"
   },
   {
-    "id": "word_guma",
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Lineal",
+    "names": {
+      "en": "ruler",
+      "ro": "riglă",
+      "de": "Lineal",
+      "ru": "Линейка",
+      "it": "righello",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "Vonalzó",
+      "pt": "Régua"
+    },
+    "description": "Ein Bruder ist ein männliches Geschwisterteil.",
+    "ipa": "/liˈneːaːl/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A004/sound/de.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "7dfbdca1cce9f3a18c488693d5694e6eb061c021"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "Линейка",
+    "names": {
+      "en": "ruler",
+      "ro": "riglă",
+      "de": "Lineal",
+      "ru": "Линейка",
+      "it": "righello",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "Vonalzó",
+      "pt": "Régua"
+    },
+    "description": "Брат — это родственник мужского пола с общими родителями.",
+    "ipa": "/lʲɪˈnʲejkə/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A004/sound/ru.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "cd17b98644fe3613446586f30f733bfde6c0cd61"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "righello",
+    "names": {
+      "en": "ruler",
+      "ro": "riglă",
+      "de": "Lineal",
+      "ru": "Линейка",
+      "it": "righello",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "Vonalzó",
+      "pt": "Régua"
+    },
+    "description": "Un fratello è un parente di sesso maschile con gli stessi genitori.",
+    "ipa": "/riɡˈɛllo/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A004/sound/it.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "9270b238dc54cfbacad11ff8a1d32d2771672cce"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "regla",
+    "names": {
+      "en": "ruler",
+      "ro": "riglă",
+      "de": "Lineal",
+      "ru": "Линейка",
+      "it": "righello",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "Vonalzó",
+      "pt": "Régua"
+    },
+    "description": "Un hermano es un pariente de sexo masculino con los mismos padres.",
+    "ipa": "/ˈreɣla/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A004/sound/es.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "ff5a5397c5f371397bddc778b9ac0fd8dc3616f5"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "règle",
+    "names": {
+      "en": "ruler",
+      "ro": "riglă",
+      "de": "Lineal",
+      "ru": "Линейка",
+      "it": "righello",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "Vonalzó",
+      "pt": "Régua"
+    },
+    "description": "Un frère est un parent de sexe masculin ayant les mêmes parents.",
+    "ipa": "/ʁɛɡl/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A004/sound/fr.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "85a691d7129f8fda90a882d184e2b49b6d987cff"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "Vonalzó",
+    "names": {
+      "en": "ruler",
+      "ro": "riglă",
+      "de": "Lineal",
+      "ru": "Линейка",
+      "it": "righello",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "Vonalzó",
+      "pt": "Régua"
+    },
+    "description": "A báty vagy öcs egy férfi testvér.",
+    "ipa": "/ˈvonalzoː/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A004/sound/hu.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "dff17d8cd854a1c6e5be7e4532cc5323dc8ad9ea"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "Régua",
+    "names": {
+      "en": "ruler",
+      "ro": "riglă",
+      "de": "Lineal",
+      "ru": "Линейка",
+      "it": "righello",
+      "es": "regla",
+      "fr": "règle",
+      "hu": "Vonalzó",
+      "pt": "Régua"
+    },
+    "description": "Um irmão é um parente do sexo masculino com os mesmos pais.",
+    "ipa": "/ˈʁɛɣuɐ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A004/sound/pt.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "27e12018af2ac0a8d460d2800850dfb87714befe"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A004"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "eraser",
+    "names": {
+      "en": "eraser",
+      "ro": "gumă",
+      "de": "Radiergummi",
+      "ru": "Ластик",
+      "it": "gomma",
+      "es": "goma",
+      "fr": "gomme",
+      "hu": "Radír",
+      "pt": "Borracha"
+    },
+    "description": "A grandmother is the mother of one's parent.",
+    "ipa": "/ɪˈreɪsər/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A005/sound/en.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "f72283bd404518f55927188809d72aee3ee3fa3b"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A005"
+  },
+  {
+    "id": "A005",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -140,32 +1303,314 @@
     "term": "gumă",
     "names": {
       "en": "eraser",
-      "es": "goma",
-      "it": "gomma",
-      "fr": "gomme",
+      "ro": "gumă",
       "de": "Radiergummi",
       "ru": "Ластик",
+      "it": "gomma",
+      "es": "goma",
+      "fr": "gomme",
       "hu": "Radír",
-      "pt": "Borracha",
-      "ro": "gumă"
+      "pt": "Borracha"
     },
-    "ipa": "ˈgumə",
+    "description": "O bunică este mama unuia dintre părinți.",
+    "ipa": "/ˈgumə/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T08/A005.mp3",
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A005/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "78e40b6237bcca23a127e7f3c2cf7de85c1007ad"
     },
+    "read": null,
     "tags": [
       "scaffold#C1T08"
     ],
     "context": null,
     "example": null,
     "topic": "C1T08",
-    "entity_id": "word_guma"
+    "entity_id": "C1T08:A005"
   },
   {
-    "id": "word_stilou",
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Radiergummi",
+    "names": {
+      "en": "eraser",
+      "ro": "gumă",
+      "de": "Radiergummi",
+      "ru": "Ластик",
+      "it": "gomma",
+      "es": "goma",
+      "fr": "gomme",
+      "hu": "Radír",
+      "pt": "Borracha"
+    },
+    "description": "Eine Großmutter ist die Mutter eines Elternteils.",
+    "ipa": "/ʁaˈdiːɐ̯ˌɡʊmi/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A005/sound/de.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "1844b2c246a758f3490c9b75f0526d07e8188205"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "Ластик",
+    "names": {
+      "en": "eraser",
+      "ro": "gumă",
+      "de": "Radiergummi",
+      "ru": "Ластик",
+      "it": "gomma",
+      "es": "goma",
+      "fr": "gomme",
+      "hu": "Radír",
+      "pt": "Borracha"
+    },
+    "description": "Бабушка — это мать одного из родителей.",
+    "ipa": "/ˈɫastʲɪk/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A005/sound/ru.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "da0df8e7df082ef8754557ae6d73a75fde3447fd"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "gomma",
+    "names": {
+      "en": "eraser",
+      "ro": "gumă",
+      "de": "Radiergummi",
+      "ru": "Ластик",
+      "it": "gomma",
+      "es": "goma",
+      "fr": "gomme",
+      "hu": "Radír",
+      "pt": "Borracha"
+    },
+    "description": "Una nonna è la madre di un genitore.",
+    "ipa": "/ˈɡɔmma/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A005/sound/it.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "63072f2c8933957f92550924bd5416b71fa2c875"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "goma",
+    "names": {
+      "en": "eraser",
+      "ro": "gumă",
+      "de": "Radiergummi",
+      "ru": "Ластик",
+      "it": "gomma",
+      "es": "goma",
+      "fr": "gomme",
+      "hu": "Radír",
+      "pt": "Borracha"
+    },
+    "description": "Una abuela es la madre de uno de los padres.",
+    "ipa": "/ˈɡoma/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A005/sound/es.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "3361e3662c4d932487c858c4c8ac281ef93b1e89"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "gomme",
+    "names": {
+      "en": "eraser",
+      "ro": "gumă",
+      "de": "Radiergummi",
+      "ru": "Ластик",
+      "it": "gomma",
+      "es": "goma",
+      "fr": "gomme",
+      "hu": "Radír",
+      "pt": "Borracha"
+    },
+    "description": "Une grand-mère est la mère de l'un des parents.",
+    "ipa": "/ɡɔm/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A005/sound/fr.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "d18cde3df505800910239c7f4d9aff38d70d621b"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "Radír",
+    "names": {
+      "en": "eraser",
+      "ro": "gumă",
+      "de": "Radiergummi",
+      "ru": "Ластик",
+      "it": "gomma",
+      "es": "goma",
+      "fr": "gomme",
+      "hu": "Radír",
+      "pt": "Borracha"
+    },
+    "description": "A nagymama az egyik szülő édesanyja.",
+    "ipa": "/ˈrɒdiːr/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A005/sound/hu.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "d01e3c9652068d3e172a25c5a14842440aa0a631"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "Borracha",
+    "names": {
+      "en": "eraser",
+      "ro": "gumă",
+      "de": "Radiergummi",
+      "ru": "Ластик",
+      "it": "gomma",
+      "es": "goma",
+      "fr": "gomme",
+      "hu": "Radír",
+      "pt": "Borracha"
+    },
+    "description": "Uma avó é a mãe de um dos pais.",
+    "ipa": "/buˈʁaʃɐ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A005/sound/pt.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "5b55ef333bfa61e4aee403bcf918d874a364c73d"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A005"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "pen",
+    "names": {
+      "en": "pen",
+      "ro": "stilou",
+      "de": "Füller",
+      "ru": "Перьевая ручка",
+      "it": "penna",
+      "es": "pluma",
+      "fr": "stylo",
+      "hu": "Töltőtoll",
+      "pt": "Caneta-tinteiro"
+    },
+    "description": "A grandfather is the father of one's parent.",
+    "ipa": "/pɛn/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A006/sound/en.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4464,
+      "sha1": "b29f738442aa100d63b4c370028f716fd262279b"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A006"
+  },
+  {
+    "id": "A006",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -173,32 +1618,314 @@
     "term": "stilou",
     "names": {
       "en": "pen",
-      "es": "pluma",
-      "it": "penna",
-      "fr": "stylo",
+      "ro": "stilou",
       "de": "Füller",
       "ru": "Перьевая ручка",
+      "it": "penna",
+      "es": "pluma",
+      "fr": "stylo",
       "hu": "Töltőtoll",
-      "pt": "Caneta-tinteiro",
-      "ro": "stilou"
+      "pt": "Caneta-tinteiro"
     },
-    "ipa": "stiˈlow",
+    "description": "Un bunic este tatăl unuia dintre părinți.",
+    "ipa": "/stiˈlow/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T08/A006.mp3",
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A006/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "e37a5e6eeb1427392205246b57ffbc692196a4ad"
     },
+    "read": null,
     "tags": [
       "scaffold#C1T08"
     ],
     "context": null,
     "example": null,
     "topic": "C1T08",
-    "entity_id": "word_stilou"
+    "entity_id": "C1T08:A006"
   },
   {
-    "id": "word_pix",
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Füller",
+    "names": {
+      "en": "pen",
+      "ro": "stilou",
+      "de": "Füller",
+      "ru": "Перьевая ручка",
+      "it": "penna",
+      "es": "pluma",
+      "fr": "stylo",
+      "hu": "Töltőtoll",
+      "pt": "Caneta-tinteiro"
+    },
+    "description": "Ein Großvater ist der Vater eines Elternteils.",
+    "ipa": "/ˈfʏlɐ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A006/sound/de.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "2eb478c802a3102d82c80d63ef65704d8d6c567a"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "Перьевая ручка",
+    "names": {
+      "en": "pen",
+      "ro": "stilou",
+      "de": "Füller",
+      "ru": "Перьевая ручка",
+      "it": "penna",
+      "es": "pluma",
+      "fr": "stylo",
+      "hu": "Töltőtoll",
+      "pt": "Caneta-tinteiro"
+    },
+    "description": "Дедушка — это отец одного из родителей.",
+    "ipa": "/ˈpʲerʲɪvəjə ˈrut͡ɕkə/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A006/sound/ru.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 12384,
+      "sha1": "3bb7138896f4a5546db03ad19590b995fcf6c1c9"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "penna",
+    "names": {
+      "en": "pen",
+      "ro": "stilou",
+      "de": "Füller",
+      "ru": "Перьевая ручка",
+      "it": "penna",
+      "es": "pluma",
+      "fr": "stylo",
+      "hu": "Töltőtoll",
+      "pt": "Caneta-tinteiro"
+    },
+    "description": "Un nonno è il padre di un genitore.",
+    "ipa": "/ˈpɛnna/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A006/sound/it.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "f57f395f2d4ecb4c08e4f87049188155ddb7987e"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "pluma",
+    "names": {
+      "en": "pen",
+      "ro": "stilou",
+      "de": "Füller",
+      "ru": "Перьевая ручка",
+      "it": "penna",
+      "es": "pluma",
+      "fr": "stylo",
+      "hu": "Töltőtoll",
+      "pt": "Caneta-tinteiro"
+    },
+    "description": "Un abuelo es el padre de uno de los padres.",
+    "ipa": "/ˈpluma/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A006/sound/es.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "ed557cadecbcd4163b41ad7881120b8bfccd1071"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "stylo",
+    "names": {
+      "en": "pen",
+      "ro": "stilou",
+      "de": "Füller",
+      "ru": "Перьевая ручка",
+      "it": "penna",
+      "es": "pluma",
+      "fr": "stylo",
+      "hu": "Töltőtoll",
+      "pt": "Caneta-tinteiro"
+    },
+    "description": "Un grand-père est le père de l'un des parents.",
+    "ipa": "/stiˈlo/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A006/sound/fr.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "9c01d42ec15c29da87d826e54d3b39fc400664cd"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "Töltőtoll",
+    "names": {
+      "en": "pen",
+      "ro": "stilou",
+      "de": "Füller",
+      "ru": "Перьевая ручка",
+      "it": "penna",
+      "es": "pluma",
+      "fr": "stylo",
+      "hu": "Töltőtoll",
+      "pt": "Caneta-tinteiro"
+    },
+    "description": "A nagypapa az egyik szülő édesapja.",
+    "ipa": "/ˈtøltøːtoll/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A006/sound/hu.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "039839e877f0aeb0eb7f49e3bd91f82f308a8c78"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "Caneta-tinteiro",
+    "names": {
+      "en": "pen",
+      "ro": "stilou",
+      "de": "Füller",
+      "ru": "Перьевая ручка",
+      "it": "penna",
+      "es": "pluma",
+      "fr": "stylo",
+      "hu": "Töltőtoll",
+      "pt": "Caneta-tinteiro"
+    },
+    "description": "Um avô é o pai de um dos pais.",
+    "ipa": "/kɐˈnɛtɐ tĩˈtɐjɾu/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A006/sound/pt.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "abed940c95a562e66972c59fb9a6d5329fc1a179"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A006"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "ballpoint pen",
+    "names": {
+      "en": "ballpoint pen",
+      "ro": "pix",
+      "de": "Kugelschreiber",
+      "ru": "Шариковая ручка",
+      "it": "penna a sfera",
+      "es": "bolígrafo",
+      "fr": "stylo à bille",
+      "hu": "Golyóstoll",
+      "pt": "Caneta esferográfica"
+    },
+    "description": "A child is a son or daughter of a parent.",
+    "ipa": "/ˈbɔlpɔɪnt pɛn/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A007/sound/en.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "8ae5646b4600763e50140fba16051eaaf47e31af"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A007"
+  },
+  {
+    "id": "A007",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -206,32 +1933,314 @@
     "term": "pix",
     "names": {
       "en": "ballpoint pen",
-      "es": "bolígrafo",
-      "it": "penna a sfera",
-      "fr": "stylo à bille",
+      "ro": "pix",
       "de": "Kugelschreiber",
       "ru": "Шариковая ручка",
+      "it": "penna a sfera",
+      "es": "bolígrafo",
+      "fr": "stylo à bille",
       "hu": "Golyóstoll",
-      "pt": "Caneta esferográfica",
-      "ro": "pix"
+      "pt": "Caneta esferográfica"
     },
-    "ipa": "piks",
+    "description": "Un copil este fiul sau fiica unui părinte.",
+    "ipa": "/piks/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T08/A007.mp3",
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A007/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "041e15a32eb8b26f0f29c27836ec57cddd41d20c"
     },
+    "read": null,
     "tags": [
       "scaffold#C1T08"
     ],
     "context": null,
     "example": null,
     "topic": "C1T08",
-    "entity_id": "word_pix"
+    "entity_id": "C1T08:A007"
   },
   {
-    "id": "word_foaie",
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Kugelschreiber",
+    "names": {
+      "en": "ballpoint pen",
+      "ro": "pix",
+      "de": "Kugelschreiber",
+      "ru": "Шариковая ручка",
+      "it": "penna a sfera",
+      "es": "bolígrafo",
+      "fr": "stylo à bille",
+      "hu": "Golyóstoll",
+      "pt": "Caneta esferográfica"
+    },
+    "description": "Ein Kind ist der Sohn oder die Tochter eines Elternteils.",
+    "ipa": "/ˈkuːɡl̩ˌʃʁaɪ̯bɐ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A007/sound/de.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "b363673ff8cc49d4c8bde3b70d0de6339f67d643"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "Шариковая ручка",
+    "names": {
+      "en": "ballpoint pen",
+      "ro": "pix",
+      "de": "Kugelschreiber",
+      "ru": "Шариковая ручка",
+      "it": "penna a sfera",
+      "es": "bolígrafo",
+      "fr": "stylo à bille",
+      "hu": "Golyóstoll",
+      "pt": "Caneta esferográfica"
+    },
+    "description": "Ребенок — это сын или дочь родителя.",
+    "ipa": "/ˈʂarʲɪkəvəjə ˈrut͡ɕkə/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A007/sound/ru.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 13392,
+      "sha1": "02ed17e55e31af2cca23aaf20bd434fd1baf8693"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "penna a sfera",
+    "names": {
+      "en": "ballpoint pen",
+      "ro": "pix",
+      "de": "Kugelschreiber",
+      "ru": "Шариковая ручка",
+      "it": "penna a sfera",
+      "es": "bolígrafo",
+      "fr": "stylo à bille",
+      "hu": "Golyóstoll",
+      "pt": "Caneta esferográfica"
+    },
+    "description": "Un figlio o una figlia è la prole di un genitore.",
+    "ipa": "/ˈpɛnna a ˈsfɛra/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A007/sound/it.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11376,
+      "sha1": "af9261db2f802e8d8900cab3fcc65ad39c3991c8"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "bolígrafo",
+    "names": {
+      "en": "ballpoint pen",
+      "ro": "pix",
+      "de": "Kugelschreiber",
+      "ru": "Шариковая ручка",
+      "it": "penna a sfera",
+      "es": "bolígrafo",
+      "fr": "stylo à bille",
+      "hu": "Golyóstoll",
+      "pt": "Caneta esferográfica"
+    },
+    "description": "Un hijo o una hija es la descendencia de un progenitor.",
+    "ipa": "/boˈliɣɾafo/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A007/sound/es.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "912fa1c7c74df002a24b15d0373bb64c951c9b08"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "stylo à bille",
+    "names": {
+      "en": "ballpoint pen",
+      "ro": "pix",
+      "de": "Kugelschreiber",
+      "ru": "Шариковая ручка",
+      "it": "penna a sfera",
+      "es": "bolígrafo",
+      "fr": "stylo à bille",
+      "hu": "Golyóstoll",
+      "pt": "Caneta esferográfica"
+    },
+    "description": "Un enfant est le fils ou la fille d'un parent.",
+    "ipa": "/stiˈlo a bij/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A007/sound/fr.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11520,
+      "sha1": "f05d714f43b0c3b16db67abe537d90dd705e0981"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "Golyóstoll",
+    "names": {
+      "en": "ballpoint pen",
+      "ro": "pix",
+      "de": "Kugelschreiber",
+      "ru": "Шариковая ручка",
+      "it": "penna a sfera",
+      "es": "bolígrafo",
+      "fr": "stylo à bille",
+      "hu": "Golyóstoll",
+      "pt": "Caneta esferográfica"
+    },
+    "description": "A gyermek egy szülő fia vagy lánya.",
+    "ipa": "/ˈɡoːjoːʃtoll/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A007/sound/hu.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "3b572dce766f6f654d1447271a1838ce845a7d21"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "Caneta esferográfica",
+    "names": {
+      "en": "ballpoint pen",
+      "ro": "pix",
+      "de": "Kugelschreiber",
+      "ru": "Шариковая ручка",
+      "it": "penna a sfera",
+      "es": "bolígrafo",
+      "fr": "stylo à bille",
+      "hu": "Golyóstoll",
+      "pt": "Caneta esferográfica"
+    },
+    "description": "Um filho ou filha é a prole de um progenitor.",
+    "ipa": "/kɐˈnɛtɐ ɛsfɛɾuˈɣɾafikɐ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A007/sound/pt.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 12960,
+      "sha1": "8d6970dd6bd62c13d7d033ad85ff60491b1f7034"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A007"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "sheet of paper",
+    "names": {
+      "en": "sheet of paper",
+      "ro": "foaie",
+      "de": "Blatt Papier",
+      "ru": "Лист бумаги",
+      "it": "foglio",
+      "es": "hoja",
+      "fr": "feuille",
+      "hu": "Papírlap",
+      "pt": "Folha de papel"
+    },
+    "description": "A pencil is a tool used for writing or drawing.",
+    "ipa": "/ˈʃit əv ˈpeɪpər/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A008/sound/en.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "5eb4e7b16025c8024f177efbf86ca936fdeaaee9"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A008"
+  },
+  {
+    "id": "A008",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -239,32 +2248,314 @@
     "term": "foaie",
     "names": {
       "en": "sheet of paper",
-      "es": "hoja",
-      "it": "foglio",
-      "fr": "feuille",
+      "ro": "foaie",
       "de": "Blatt Papier",
       "ru": "Лист бумаги",
+      "it": "foglio",
+      "es": "hoja",
+      "fr": "feuille",
       "hu": "Papírlap",
-      "pt": "Folha de papel",
-      "ro": "foaie"
+      "pt": "Folha de papel"
     },
-    "ipa": "ˈfoaje",
+    "description": "Un creion este un instrument folosit pentru scris sau desenat.",
+    "ipa": "/ˈfoaje/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T08/A008.mp3",
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A008/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "59e91ae03825f28fff5ac84fd35f116db4e15c93"
     },
+    "read": null,
     "tags": [
       "scaffold#C1T08"
     ],
     "context": null,
     "example": null,
     "topic": "C1T08",
-    "entity_id": "word_foaie"
+    "entity_id": "C1T08:A008"
   },
   {
-    "id": "word_penar",
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Blatt Papier",
+    "names": {
+      "en": "sheet of paper",
+      "ro": "foaie",
+      "de": "Blatt Papier",
+      "ru": "Лист бумаги",
+      "it": "foglio",
+      "es": "hoja",
+      "fr": "feuille",
+      "hu": "Papírlap",
+      "pt": "Folha de papel"
+    },
+    "description": "Ein Bleistift ist ein Werkzeug zum Schreiben oder Zeichnen.",
+    "ipa": "/blat paˈpiːɐ̯/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A008/sound/de.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "2e3b7b6728717cc4e592668ebc0b27430a82e46d"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "Лист бумаги",
+    "names": {
+      "en": "sheet of paper",
+      "ro": "foaie",
+      "de": "Blatt Papier",
+      "ru": "Лист бумаги",
+      "it": "foglio",
+      "es": "hoja",
+      "fr": "feuille",
+      "hu": "Papírlap",
+      "pt": "Folha de papel"
+    },
+    "description": "Карандаш — это инструмент, используемый для письма или рисования.",
+    "ipa": "/lʲist bʊˈmaɡʲɪ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A008/sound/ru.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 13104,
+      "sha1": "c57ab4180ab1a667523994d42a27750a9d884256"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "foglio",
+    "names": {
+      "en": "sheet of paper",
+      "ro": "foaie",
+      "de": "Blatt Papier",
+      "ru": "Лист бумаги",
+      "it": "foglio",
+      "es": "hoja",
+      "fr": "feuille",
+      "hu": "Papírlap",
+      "pt": "Folha de papel"
+    },
+    "description": "Una matita è uno strumento utilizzato per scrivere o disegnare.",
+    "ipa": "/ˈfɔʎʎo/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A008/sound/it.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "c739d427628515fd310d0561d50b9b7df7a61c2c"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "hoja",
+    "names": {
+      "en": "sheet of paper",
+      "ro": "foaie",
+      "de": "Blatt Papier",
+      "ru": "Лист бумаги",
+      "it": "foglio",
+      "es": "hoja",
+      "fr": "feuille",
+      "hu": "Papírlap",
+      "pt": "Folha de papel"
+    },
+    "description": "Un lápiz es una herramienta utilizada para escribir o dibujar.",
+    "ipa": "/ˈoxa/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A008/sound/es.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "dae42e57ed25e59749e6e8c4400d35abb7f904dd"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "feuille",
+    "names": {
+      "en": "sheet of paper",
+      "ro": "foaie",
+      "de": "Blatt Papier",
+      "ru": "Лист бумаги",
+      "it": "foglio",
+      "es": "hoja",
+      "fr": "feuille",
+      "hu": "Papírlap",
+      "pt": "Folha de papel"
+    },
+    "description": "Un crayon est un outil utilisé pour écrire ou dessiner.",
+    "ipa": "/fœj/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A008/sound/fr.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "88af4d4cff722e31e50e1cb0189dda888e9d9f97"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "Papírlap",
+    "names": {
+      "en": "sheet of paper",
+      "ro": "foaie",
+      "de": "Blatt Papier",
+      "ru": "Лист бумаги",
+      "it": "foglio",
+      "es": "hoja",
+      "fr": "feuille",
+      "hu": "Papírlap",
+      "pt": "Folha de papel"
+    },
+    "description": "A ceruza írásra vagy rajzolásra használt eszköz.",
+    "ipa": "/ˈpaːpiːrlɒp/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A008/sound/hu.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "204cc3d5f2f17ee3798e1d2528882ee7f1f2ee61"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A008"
+  },
+  {
+    "id": "A008",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "Folha de papel",
+    "names": {
+      "en": "sheet of paper",
+      "ro": "foaie",
+      "de": "Blatt Papier",
+      "ru": "Лист бумаги",
+      "it": "foglio",
+      "es": "hoja",
+      "fr": "feuille",
+      "hu": "Papírlap",
+      "pt": "Folha de papel"
+    },
+    "description": "Um lápis é uma ferramenta usada para escrever ou desenhar.",
+    "ipa": "/ˈfoʎɐ ðɨ pɐˈpɛɫ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A008/sound/pt.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "068c1ac45f09448479cadc0dde46df3d9718ab75"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A008"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "pencil case",
+    "names": {
+      "en": "pencil case",
+      "ro": "penar",
+      "de": "Federmäppchen",
+      "ru": "Пенал",
+      "it": "astuccio",
+      "es": "estuche",
+      "fr": "trousse",
+      "hu": "Tolltartó",
+      "pt": "Estojo"
+    },
+    "description": "A pen is an instrument used for writing with ink.",
+    "ipa": "/ˈpɛnsəl ˌkeɪs/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A009/sound/en.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "6ecd7cb8e289a85a03a114c734096dbc9200820b"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A009"
+  },
+  {
+    "id": "A009",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -272,32 +2563,314 @@
     "term": "penar",
     "names": {
       "en": "pencil case",
-      "es": "estuche",
-      "it": "astuccio",
-      "fr": "trousse",
+      "ro": "penar",
       "de": "Federmäppchen",
       "ru": "Пенал",
+      "it": "astuccio",
+      "es": "estuche",
+      "fr": "trousse",
       "hu": "Tolltartó",
-      "pt": "Estojo",
-      "ro": "penar"
+      "pt": "Estojo"
     },
-    "ipa": "peˈnar",
+    "description": "Un pix este un instrument folosit pentru a scrie cu cerneală.",
+    "ipa": "/peˈnar/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T08/A009.mp3",
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A009/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "99aea9e20b23beeda8636655d5027c97b9ca1798"
     },
+    "read": null,
     "tags": [
       "scaffold#C1T08"
     ],
     "context": null,
     "example": null,
     "topic": "C1T08",
-    "entity_id": "word_penar"
+    "entity_id": "C1T08:A009"
   },
   {
-    "id": "word_creta",
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Federmäppchen",
+    "names": {
+      "en": "pencil case",
+      "ro": "penar",
+      "de": "Federmäppchen",
+      "ru": "Пенал",
+      "it": "astuccio",
+      "es": "estuche",
+      "fr": "trousse",
+      "hu": "Tolltartó",
+      "pt": "Estojo"
+    },
+    "description": "Ein Kugelschreiber ist ein Instrument zum Schreiben mit Tinte.",
+    "ipa": "/ˈfeːdɐˌmɛpçən/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A009/sound/de.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "bc69333a2248d5f668e6213e411356071716106b"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A009"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "Пенал",
+    "names": {
+      "en": "pencil case",
+      "ro": "penar",
+      "de": "Federmäppchen",
+      "ru": "Пенал",
+      "it": "astuccio",
+      "es": "estuche",
+      "fr": "trousse",
+      "hu": "Tolltartó",
+      "pt": "Estojo"
+    },
+    "description": "Ручка — это инструмент, используемый для письма чернилами.",
+    "ipa": "/pʲɪˈnaɫ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A009/sound/ru.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "2f6f44a1923b0cfb51bc7c0cb4ab6544b4e79c75"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A009"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "astuccio",
+    "names": {
+      "en": "pencil case",
+      "ro": "penar",
+      "de": "Federmäppchen",
+      "ru": "Пенал",
+      "it": "astuccio",
+      "es": "estuche",
+      "fr": "trousse",
+      "hu": "Tolltartó",
+      "pt": "Estojo"
+    },
+    "description": "Una penna è uno strumento utilizzato per scrivere con l'inchiostro.",
+    "ipa": "/asˈtuttʃo/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A009/sound/it.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "8bacd5a24d1938d89cdce93367e7868f6df5a9de"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A009"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "estuche",
+    "names": {
+      "en": "pencil case",
+      "ro": "penar",
+      "de": "Federmäppchen",
+      "ru": "Пенал",
+      "it": "astuccio",
+      "es": "estuche",
+      "fr": "trousse",
+      "hu": "Tolltartó",
+      "pt": "Estojo"
+    },
+    "description": "Un bolígrafo es un instrumento utilizado para escribir con tinta.",
+    "ipa": "/esˈtutʃe/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A009/sound/es.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "8528c53d4acff351b5ea5eef475580da21264069"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A009"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "trousse",
+    "names": {
+      "en": "pencil case",
+      "ro": "penar",
+      "de": "Federmäppchen",
+      "ru": "Пенал",
+      "it": "astuccio",
+      "es": "estuche",
+      "fr": "trousse",
+      "hu": "Tolltartó",
+      "pt": "Estojo"
+    },
+    "description": "Un stylo est un instrument utilisé pour écrire avec de l'encre.",
+    "ipa": "/tʁus/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A009/sound/fr.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "d5d191476d437694525f405b3256fa99a6f824c0"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A009"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "Tolltartó",
+    "names": {
+      "en": "pencil case",
+      "ro": "penar",
+      "de": "Federmäppchen",
+      "ru": "Пенал",
+      "it": "astuccio",
+      "es": "estuche",
+      "fr": "trousse",
+      "hu": "Tolltartó",
+      "pt": "Estojo"
+    },
+    "description": "A toll tintával való írásra használt eszköz.",
+    "ipa": "/ˈtolltɒrtoː/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A009/sound/hu.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "71fa0a4213eae99fe1ee0a8f6dfde6097b40a670"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A009"
+  },
+  {
+    "id": "A009",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "Estojo",
+    "names": {
+      "en": "pencil case",
+      "ro": "penar",
+      "de": "Federmäppchen",
+      "ru": "Пенал",
+      "it": "astuccio",
+      "es": "estuche",
+      "fr": "trousse",
+      "hu": "Tolltartó",
+      "pt": "Estojo"
+    },
+    "description": "Uma caneta é um instrumento usado para escrever com tinta.",
+    "ipa": "/iʃˈtoʒu/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A009/sound/pt.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "4d9245d32560685217447818a3b27aaabd683223"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A009"
+  },
+  {
+    "id": "A010",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "chalk",
+    "names": {
+      "en": "chalk",
+      "ro": "cretă",
+      "de": "Kreide",
+      "ru": "Мел",
+      "it": "gesso",
+      "es": "tiza",
+      "fr": "craie",
+      "hu": "Kréta",
+      "pt": "Giz"
+    },
+    "description": "An eraser is an object used to remove pencil marks.",
+    "ipa": "/tʃɔk/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A010/sound/en.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 4896,
+      "sha1": "5c564cc18945ab557bc25cd00708feafffd06050"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A010"
+  },
+  {
+    "id": "A010",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -305,28 +2878,275 @@
     "term": "cretă",
     "names": {
       "en": "chalk",
-      "es": "tiza",
-      "it": "gesso",
-      "fr": "craie",
+      "ro": "cretă",
       "de": "Kreide",
       "ru": "Мел",
+      "it": "gesso",
+      "es": "tiza",
+      "fr": "craie",
       "hu": "Kréta",
-      "pt": "Giz",
-      "ro": "cretă"
+      "pt": "Giz"
     },
-    "ipa": "ˈkretə",
+    "description": "O radieră este un obiect folosit pentru a șterge urmele de creion.",
+    "ipa": "/ˈkretə/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C1T08/A010.mp3",
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A010/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "93d66bef26a9b9583a1b0eb866c6e43244a9597b"
     },
+    "read": null,
     "tags": [
       "scaffold#C1T08"
     ],
     "context": null,
     "example": null,
     "topic": "C1T08",
-    "entity_id": "word_creta"
+    "entity_id": "C1T08:A010"
+  },
+  {
+    "id": "A010",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Kreide",
+    "names": {
+      "en": "chalk",
+      "ro": "cretă",
+      "de": "Kreide",
+      "ru": "Мел",
+      "it": "gesso",
+      "es": "tiza",
+      "fr": "craie",
+      "hu": "Kréta",
+      "pt": "Giz"
+    },
+    "description": "Ein Radiergummi ist ein Gegenstand zum Entfernen von Bleistiftmarkierungen.",
+    "ipa": "/ˈkʁaɪ̯də/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A010/sound/de.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "78fb880019c73d28c9ba3de1935dd607866055d1"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A010"
+  },
+  {
+    "id": "A010",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "Мел",
+    "names": {
+      "en": "chalk",
+      "ro": "cretă",
+      "de": "Kreide",
+      "ru": "Мел",
+      "it": "gesso",
+      "es": "tiza",
+      "fr": "craie",
+      "hu": "Kréta",
+      "pt": "Giz"
+    },
+    "description": "Ластик — это предмет, используемый для удаления следов карандаша.",
+    "ipa": "/mʲeɫ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A010/sound/ru.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "e41b38383b5880dbb2ffa78a14cef5125f0876d7"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A010"
+  },
+  {
+    "id": "A010",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "gesso",
+    "names": {
+      "en": "chalk",
+      "ro": "cretă",
+      "de": "Kreide",
+      "ru": "Мел",
+      "it": "gesso",
+      "es": "tiza",
+      "fr": "craie",
+      "hu": "Kréta",
+      "pt": "Giz"
+    },
+    "description": "Una gomma è un oggetto utilizzato per rimuovere i segni di matita.",
+    "ipa": "/ˈdʒɛsso/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A010/sound/it.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "014b8d4744af7c07de6d70a196edc8b39a3fb953"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A010"
+  },
+  {
+    "id": "A010",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "tiza",
+    "names": {
+      "en": "chalk",
+      "ro": "cretă",
+      "de": "Kreide",
+      "ru": "Мел",
+      "it": "gesso",
+      "es": "tiza",
+      "fr": "craie",
+      "hu": "Kréta",
+      "pt": "Giz"
+    },
+    "description": "Una goma de borrar es un objeto utilizado para eliminar marcas de lápiz.",
+    "ipa": "/ˈtiθa/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A010/sound/es.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "91ac8f91d83dcf011724a3eb9ef8cfdf5c4071b4"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A010"
+  },
+  {
+    "id": "A010",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "craie",
+    "names": {
+      "en": "chalk",
+      "ro": "cretă",
+      "de": "Kreide",
+      "ru": "Мел",
+      "it": "gesso",
+      "es": "tiza",
+      "fr": "craie",
+      "hu": "Kréta",
+      "pt": "Giz"
+    },
+    "description": "Une gomme est un objet utilisé pour effacer les traces de crayon.",
+    "ipa": "/kʁɛ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A010/sound/fr.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "2a9e267331d1f1bd116dd1a47d24406d06ef473f"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A010"
+  },
+  {
+    "id": "A010",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "Kréta",
+    "names": {
+      "en": "chalk",
+      "ro": "cretă",
+      "de": "Kreide",
+      "ru": "Мел",
+      "it": "gesso",
+      "es": "tiza",
+      "fr": "craie",
+      "hu": "Kréta",
+      "pt": "Giz"
+    },
+    "description": "A radír ceruzanyomok eltávolítására használt eszköz.",
+    "ipa": "/ˈkreːtɒ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A010/sound/hu.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "0d03fe3e520c7d4680b2e1cb2498a7e90102feee"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A010"
+  },
+  {
+    "id": "A010",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "Giz",
+    "names": {
+      "en": "chalk",
+      "ro": "cretă",
+      "de": "Kreide",
+      "ru": "Мел",
+      "it": "gesso",
+      "es": "tiza",
+      "fr": "craie",
+      "hu": "Kréta",
+      "pt": "Giz"
+    },
+    "description": "Uma borracha é um objeto usado para remover marcas de lápis.",
+    "ipa": "/ˈʒiʃ/",
+    "media": {
+      "url": "https://media.verbologic.com/dictionary/C1/C1T08/A010/sound/pt.mp3",
+      "mime": "audio/mpeg",
+      "bytes": 11232,
+      "sha1": "c0892ac9cd2c14d4553a28a145c848c5b9a271ba"
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C1T08"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C1T08",
+    "entity_id": "C1T08:A010"
   }
 ]

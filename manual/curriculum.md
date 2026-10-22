@@ -25,22 +25,22 @@ Dictionary and Stories are graded **by chapter**: two chapters per level, so a l
 
 ## Lectures
 
-L1–L4 teach the language itself. L5–L12 are school subjects, taught in the track language.
+All topics use the `table` layout. Each of the **12 lectures (`L1`–`L12`)** contains **5–12 topics**, and each topic contains **18–70 progressive items/examples**. Learners repeat items in an audio loop to build intuition; clicking any item's book icon opens its detailed grammar, expression, and cultural explanation (without standalone prose-only topics, videos, or secondary audio strips).
 
-| Chapter | Topics (in order) |
+| Lecture | Topics (in order) |
 | --- | --- |
-| **L1 Sounds & Writing** | The Romanian alphabet → letters (table) → vowels, diphthongs & triphthongs → vowel groups (table) → digraphs & trigraphs → consonant groups (table) → diacritics, syllables & stress → spelling & punctuation |
-| **L2 Sentences** | What is a sentence? → statements (table) → asking and answering → questions: people, home & daily life (table) → questions: work, town, travel & help (table) → the imperative → commands (table) |
-| **L3 Grammar** | Personal pronouns → *to be* & *to have* → present tense → nouns, gender & articles → adjectives & agreement → prepositions & numbers → past, future & moods → clauses & complex sentences |
-| **L4 Communication & Literature** | Greetings & formulas → greetings & farewells (table) → introducing yourself → dialogs in daily life → stories & narration → poetry & figurative language → genres, analysis & themes → essay, rhetoric & style |
-| **L5 Mathematics** | Numbers & counting → arithmetic → fractions, decimals & percentages → geometry & measurement → algebra & equations → functions & graphs → statistics & probability → calculus & advanced topics |
-| **L6 Physics** | Matter & motion → forces & simple machines → energy, heat & light → electricity & magnetism → waves, sound & optics → mechanics & laws of motion → modern physics |
-| **L7 Chemistry** | Matter, elements & particles → the periodic table → substances & compounds → reactions & basic laws → organic chemistry & life → industrial chemistry & petrochemistry |
-| **L8 Biology & Health** | Living things & classification → plants → the human body & health → cells & microorganisms → ecosystems & life cycles → genetics & evolution → advanced biology & biotechnology |
-| **L9 Geography & Space** | Maps, directions & landforms → weather & climate → countries & continents → Sun, Moon & the Solar System → population & cities → economic & political geography → stars, galaxies & exploration → cosmology & global systems |
-| **L10 History** | Time & timelines → early civilizations → antiquity → the Middle Ages → discoveries & the early modern era → revolutions & the modern era → the 20th century & today |
-| **L11 Society & Ideas** | Self, family & community → categories, properties & relations → society, culture & norms → government, law & civics → economics & personal finance → logic & reasoning → ethics & global society → philosophy |
-| **L12 Arts & Technology** | Computers & digital literacy → music theory → drawing & painting → art history & styles → theatre & film → programming & algorithms → media & information literacy |
+| **L1 Sounds & Pronunciation** | Alphabet & letters (30) → vowel & consonant groups (23) → syllables & word stress → sound alternations & phonetic shifts → elision, hyphenation & fast speech → intonation, rhythm & punctuation |
+| **L2 First Sentences & Questions** | Everyday statements (30) → questions & answers: people, home & daily life (63) → questions & answers: work, technology & directions (36) → questions & answers: transport, shopping, health & nature (36) → everyday commands: people, home, routine & study (35) → everyday commands: work, town, travel & emergencies (40) |
+| **L3 Greetings, Courtesy & Social Expressions** | Greetings, farewells & polite formulas (20) → introductions, origin & personal identity → polite requests, thanks & apologies → family, friends & social visits → wishes, congratulations & holiday customs → small talk, invitations & cultural etiquette |
+| **L4 Pronouns & Core Verbs** | Subject pronouns & *to be* (*a fi*) → having & needing (*a avea* and *a trebui*) → existence & possession (*este, sunt, al meu*) → reflexive pronouns & daily routine verbs → direct & indirect object pronouns (clitics) → polite pronouns (*dumneavoastră*) & register |
+| **L5 Nouns, Articles & Modifiers** | Noun gender: masculine, feminine & neuter → singular & plural patterns → indefinite & definite articles (enclitic articles) → descriptive adjectives & agreement → demonstratives, possessives & quantifiers → comparison of adjectives & adverbs |
+| **L6 Present Tense & Everyday Actions** | First conjugation verbs (*-a* & *-ez* patterns) → second & third conjugation verbs (*-ea* & *-e*) → fourth conjugation verbs (*-i, -î, -esc, -ăsc*) → irregular & high-frequency motion verbs → adverbs of frequency, time & manner → negation, *mai, și, tot* & word order |
+| **L7 Cases, Prepositions & Numbers in Context** | Prepositions of place, movement & direction → prepositions of time, cause & instrument → direct object marker *pe* & accusative constructions → genitive & dative forms (possession & recipients) → numbers, quantities, dates & telling time → vocative forms & direct address |
+| **L8 Past, Future & Moods** | Compound past (*perfectul compus*) → imperfect tense: habits, descriptions & ongoing past → the subjunctive (*conjunctivul* with *să*) → future forms: literary, spoken (*o să*) & probable → conditional mood (*aș, ai, ar…*) & polite desires → infinitive, gerund, participle & *supin* |
+| **L9 Everyday Life & Practical Conversations** | At home, household & neighborhood → shopping, markets, prices & services → ordering food, cafés & Romanian cuisine → directions, public transport & travel → health, pharmacy, doctor & emergencies → work, study, scheduling & digital communication |
+| **L10 Complex Sentences & Connectors** | Coordinating clauses (*și, dar, însă, sau, deci*) → relative clauses (*care, pe care, căruia, unde*) → time & sequence clauses (*când, în timp ce, după ce*) → cause, purpose & result (*pentru că, ca să, încât*) → conditional sentences: real & hypothetical (*dacă*) → concession, contrast & indirect speech |
+| **L11 Idioms, Nuance & Romanian Culture** | Everyday idioms with *a face, a da, a lua, a sta, a pune* → conversational fillers, discourse markers & natural flow → expressing feelings, opinions, certainty & doubt → proverbs, sayings & folk wisdom → diminutives, augmentatives & emotional register → traditions, regions & cultural landmarks |
+| **L12 Advanced Expression, Style & Mastery** | Passive voice & impersonal reflexive (*se spune, se poate*) → presumptive mood, advanced tenses & subtle aspect → argumentation, debate & persuasive structures → formal, professional & academic register → collocations, false friends & lexical precision → literary style, figurative language & rhetoric |
 
 ## Dictionary
 
@@ -84,17 +84,12 @@ All topics use the `article` layout.
 
 ## The lesson pattern
 
-A topic has exactly one layout, so each lesson is a run of consecutive topics:
-
-1. **One or more `article` topics first:** the explanation.
-2. **Then one or more `table` topics:** the practice rows.
-
-Example: `L1T01` *The Romanian alphabet* (article) → `L1T02` *Alphabet & letters* (104 rows).
+Every topic in **Lectures** uses the `table` layout and holds **18–70 progressive items/examples**. Learners play the topic in a loop to absorb pronunciation and structure intuitively, and click any item's Read button to open its detailed explanation (`content/lectures/<lang>/<TOPIC>/<id>/en.md`). Explanations have no secondary sound strip or video — audio belongs exclusively to the item and topic table loop.
 
 Topic codes are `<track letter><chapter>T<nn>`, numbered in teaching order: `C` for Dictionary, `L` for Lectures and `S` for Stories. `scripts/lib/media-ids.mjs` routes a code to its sidebar by that letter. To insert a topic, renumber the topics after it: codes are display labels, not storage keys. Audio URLs come from each manifest's own `key`, and progress stores only the entity id. When a code changes:
 
 - move `lastIndex` with the topic;
-- rename the folders `content/lectures/<lang>/<TOPIC>/` and `media/video/<lang>/<TOPIC>/`;
+- rename the folder `content/lectures/<lang>/<TOPIC>/`;
 - update each moved doc's `topic:` front matter.
 
 ## Row order inside a table

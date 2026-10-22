@@ -300,7 +300,7 @@ function main() {
 }
 /** Planned archive source per blank topic, keyed by CURRENT sidebar code (any track). */
 const PLANNED_SOURCES = {
-  L3T01: ['romanian/data/pronouns.json'],
+  L4T01: ['romanian/data/pronouns.json'],
   C1T07: ['romanian/data/nouns.json', 'english/data/nouns.json'],
   C7T01: ['romanian/data/adjectives.json'],
   C7T02: ['romanian/data/family-friends.json'],
@@ -312,11 +312,11 @@ const PLANNED_SOURCES = {
   C9T07: ['english/data/docs.json'],
   C5T05: ['english/data/issues.json'],
   C11T05: ['english/data/sentences.json'],
-  L3T07: ['english/data/tenses.json'],
+  L8T01: ['english/data/tenses.json'],
   C12T01: ['english/data/phrases.json'],
   C1T04: ['english/data/questions.json'],
   C10T01: ['english/data/technical.json'],
-  L4T04: ['romanian/data/daily-dialog.json']
+  L9T01: ['romanian/data/daily-dialog.json']
 }
 
 // CLI only — importing this module (media-manifests) must stay side-effect free.

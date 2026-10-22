@@ -4,29 +4,23 @@
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
-    "source": "media",
+    "source": "legacy",
     "term": "telefon",
     "names": {
       "en": "phone",
       "es": "teléfono",
       "it": "telefono",
       "fr": "téléphone",
-      "de": "Telefon",
-      "ru": "телефон",
-      "hu": "telefon",
-      "pt": "telefone",
       "ro": "telefon"
     },
-    "ipa": "teleˈfon",
+    "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C10T01/A009.mp3",
+      "url": "https://media.verbologic.com/audio/ro/word_telefon.mp3",
       "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "edd3d3c07bba4426ab2e27b4671f93a0e1c87d1e"
+      "bytes": 0,
+      "sha1": null
     },
-    "tags": [
-      "vocabulary#communication-technology"
-    ],
+    "tags": [],
     "context": null,
     "example": null,
     "topic": "C5T05",
@@ -37,29 +31,23 @@
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
-    "source": "media",
+    "source": "legacy",
     "term": "aplicație",
     "names": {
       "en": "app",
       "es": "aplicación",
       "it": "applicazione",
       "fr": "application",
-      "de": "App",
-      "ru": "приложение",
-      "hu": "alkalmazás",
-      "pt": "aplicativo",
       "ro": "aplicație"
     },
-    "ipa": "aplikaˈtsie",
+    "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C10T01/A002.mp3",
+      "url": "https://media.verbologic.com/audio/ro/word_aplicatie.mp3",
       "mime": "audio/mpeg",
-      "bytes": 10944,
-      "sha1": "f40ec4d70a398adfb337639ec8d0c0c46be66b29"
+      "bytes": 0,
+      "sha1": null
     },
-    "tags": [
-      "vocabulary#communication-technology"
-    ],
+    "tags": [],
     "context": null,
     "example": null,
     "topic": "C5T05",
@@ -70,69 +58,65 @@
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
-    "source": "media",
+    "source": "legacy",
     "term": "parolă",
     "names": {
       "en": "password",
       "es": "contraseña",
       "it": "password",
       "fr": "mot de passe",
-      "de": "Passwort",
-      "ru": "пароль",
-      "hu": "jelszó",
-      "pt": "senha",
       "ro": "parolă"
     },
-    "ipa": "paˈrolə",
+    "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C10T01/A008.mp3",
+      "url": "https://media.verbologic.com/audio/ro/word_parola.mp3",
       "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "650d1aa0361bf44ac0a840a8437c61afc4dd9977"
+      "bytes": 0,
+      "sha1": null
     },
-    "tags": [
-      "vocabulary#communication-technology"
-    ],
+    "tags": [],
     "context": null,
     "example": null,
     "topic": "C5T05",
     "entity_id": "word_parola"
   },
   {
-    "id": "word_cont",
+    "id": "A001",
     "section": "library/dictionary",
     "kind": "word",
-    "lang": "ro",
+    "lang": "en",
     "source": "media",
-    "term": "cont",
+    "term": "network",
     "names": {
-      "en": "account",
-      "es": "cuenta",
-      "it": "conto",
-      "fr": "compte",
-      "de": "Konto",
-      "ru": "счёт",
-      "hu": "számla",
-      "pt": "conta",
-      "ro": "cont"
+      "en": "network",
+      "ro": "rețea",
+      "de": "Netzwerk",
+      "ru": "сеть",
+      "it": "rete",
+      "es": "red",
+      "fr": "réseau",
+      "hu": "hálózat",
+      "pt": "rede"
     },
-    "ipa": "kont",
+    "description": null,
+    "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T04/A001.mp3",
+      "url": null,
       "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "64cae3620caa451f59730f6dbb5c7c049d42f89a"
+      "bytes": 0,
+      "sha1": null
     },
+    "read": null,
     "tags": [
-      "scaffold#C5T04"
+      "scaffold#C5T05"
     ],
     "context": null,
     "example": null,
     "topic": "C5T05",
-    "entity_id": "word_cont"
+    "entity_id": "C5T05:A001"
   },
   {
-    "id": "word_retea",
+    "id": "A001",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -140,32 +124,314 @@
     "term": "rețea",
     "names": {
       "en": "network",
-      "es": "red",
-      "it": "rete",
-      "fr": "réseau",
+      "ro": "rețea",
       "de": "Netzwerk",
       "ru": "сеть",
+      "it": "rete",
+      "es": "red",
+      "fr": "réseau",
       "hu": "hálózat",
-      "pt": "rede",
-      "ro": "rețea"
+      "pt": "rede"
     },
-    "ipa": "reˈtsea",
+    "description": null,
+    "ipa": "/reˈtsea/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T05/A001.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T05/A001/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "c7ee80d3318d48bcaa840415d8db7fb91505300c"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T05"
     ],
     "context": null,
     "example": null,
     "topic": "C5T05",
-    "entity_id": "word_retea"
+    "entity_id": "C5T05:A001"
   },
   {
-    "id": "word_semnal",
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Netzwerk",
+    "names": {
+      "en": "network",
+      "ro": "rețea",
+      "de": "Netzwerk",
+      "ru": "сеть",
+      "it": "rete",
+      "es": "red",
+      "fr": "réseau",
+      "hu": "hálózat",
+      "pt": "rede"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "сеть",
+    "names": {
+      "en": "network",
+      "ro": "rețea",
+      "de": "Netzwerk",
+      "ru": "сеть",
+      "it": "rete",
+      "es": "red",
+      "fr": "réseau",
+      "hu": "hálózat",
+      "pt": "rede"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "rete",
+    "names": {
+      "en": "network",
+      "ro": "rețea",
+      "de": "Netzwerk",
+      "ru": "сеть",
+      "it": "rete",
+      "es": "red",
+      "fr": "réseau",
+      "hu": "hálózat",
+      "pt": "rede"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "red",
+    "names": {
+      "en": "network",
+      "ro": "rețea",
+      "de": "Netzwerk",
+      "ru": "сеть",
+      "it": "rete",
+      "es": "red",
+      "fr": "réseau",
+      "hu": "hálózat",
+      "pt": "rede"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "réseau",
+    "names": {
+      "en": "network",
+      "ro": "rețea",
+      "de": "Netzwerk",
+      "ru": "сеть",
+      "it": "rete",
+      "es": "red",
+      "fr": "réseau",
+      "hu": "hálózat",
+      "pt": "rede"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "hálózat",
+    "names": {
+      "en": "network",
+      "ro": "rețea",
+      "de": "Netzwerk",
+      "ru": "сеть",
+      "it": "rete",
+      "es": "red",
+      "fr": "réseau",
+      "hu": "hálózat",
+      "pt": "rede"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "rede",
+    "names": {
+      "en": "network",
+      "ro": "rețea",
+      "de": "Netzwerk",
+      "ru": "сеть",
+      "it": "rete",
+      "es": "red",
+      "fr": "réseau",
+      "hu": "hálózat",
+      "pt": "rede"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A001"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "signal",
+    "names": {
+      "en": "signal",
+      "ro": "semnal",
+      "de": "Signal",
+      "ru": "сигнал",
+      "it": "segnale",
+      "es": "señal",
+      "fr": "signal",
+      "hu": "jel",
+      "pt": "sinal"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A002"
+  },
+  {
+    "id": "A002",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -173,32 +439,314 @@
     "term": "semnal",
     "names": {
       "en": "signal",
-      "es": "señal",
-      "it": "segnale",
-      "fr": "signal",
+      "ro": "semnal",
       "de": "Signal",
       "ru": "сигнал",
+      "it": "segnale",
+      "es": "señal",
+      "fr": "signal",
       "hu": "jel",
-      "pt": "sinal",
-      "ro": "semnal"
+      "pt": "sinal"
     },
-    "ipa": "semˈnal",
+    "description": null,
+    "ipa": "/semˈnal/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T05/A002.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T05/A002/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "cecc2d0660f20a939eb76d16a6eb6664f6992f0a"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T05"
     ],
     "context": null,
     "example": null,
     "topic": "C5T05",
-    "entity_id": "word_semnal"
+    "entity_id": "C5T05:A002"
   },
   {
-    "id": "word_incarcator",
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Signal",
+    "names": {
+      "en": "signal",
+      "ro": "semnal",
+      "de": "Signal",
+      "ru": "сигнал",
+      "it": "segnale",
+      "es": "señal",
+      "fr": "signal",
+      "hu": "jel",
+      "pt": "sinal"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "сигнал",
+    "names": {
+      "en": "signal",
+      "ro": "semnal",
+      "de": "Signal",
+      "ru": "сигнал",
+      "it": "segnale",
+      "es": "señal",
+      "fr": "signal",
+      "hu": "jel",
+      "pt": "sinal"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "segnale",
+    "names": {
+      "en": "signal",
+      "ro": "semnal",
+      "de": "Signal",
+      "ru": "сигнал",
+      "it": "segnale",
+      "es": "señal",
+      "fr": "signal",
+      "hu": "jel",
+      "pt": "sinal"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "señal",
+    "names": {
+      "en": "signal",
+      "ro": "semnal",
+      "de": "Signal",
+      "ru": "сигнал",
+      "it": "segnale",
+      "es": "señal",
+      "fr": "signal",
+      "hu": "jel",
+      "pt": "sinal"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "signal",
+    "names": {
+      "en": "signal",
+      "ro": "semnal",
+      "de": "Signal",
+      "ru": "сигнал",
+      "it": "segnale",
+      "es": "señal",
+      "fr": "signal",
+      "hu": "jel",
+      "pt": "sinal"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "jel",
+    "names": {
+      "en": "signal",
+      "ro": "semnal",
+      "de": "Signal",
+      "ru": "сигнал",
+      "it": "segnale",
+      "es": "señal",
+      "fr": "signal",
+      "hu": "jel",
+      "pt": "sinal"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "sinal",
+    "names": {
+      "en": "signal",
+      "ro": "semnal",
+      "de": "Signal",
+      "ru": "сигнал",
+      "it": "segnale",
+      "es": "señal",
+      "fr": "signal",
+      "hu": "jel",
+      "pt": "sinal"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A002"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "charger",
+    "names": {
+      "en": "charger",
+      "ro": "încărcător",
+      "de": "Ladegerät",
+      "ru": "зарядное устройство",
+      "it": "caricabatterie",
+      "es": "cargador",
+      "fr": "chargeur",
+      "hu": "töltő",
+      "pt": "carregador"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A003"
+  },
+  {
+    "id": "A003",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -206,32 +754,314 @@
     "term": "încărcător",
     "names": {
       "en": "charger",
-      "es": "cargador",
-      "it": "caricabatterie",
-      "fr": "chargeur",
+      "ro": "încărcător",
       "de": "Ladegerät",
       "ru": "зарядное устройство",
+      "it": "caricabatterie",
+      "es": "cargador",
+      "fr": "chargeur",
       "hu": "töltő",
-      "pt": "carregador",
-      "ro": "încărcător"
+      "pt": "carregador"
     },
-    "ipa": "ɨnkərkəˈtor",
+    "description": null,
+    "ipa": "/ɨnkərkəˈtor/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T05/A003.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T05/A003/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "7ec366ccc467e9d4f1247a9092d671843797bce3"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T05"
     ],
     "context": null,
     "example": null,
     "topic": "C5T05",
-    "entity_id": "word_incarcator"
+    "entity_id": "C5T05:A003"
   },
   {
-    "id": "word_baterie",
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Ladegerät",
+    "names": {
+      "en": "charger",
+      "ro": "încărcător",
+      "de": "Ladegerät",
+      "ru": "зарядное устройство",
+      "it": "caricabatterie",
+      "es": "cargador",
+      "fr": "chargeur",
+      "hu": "töltő",
+      "pt": "carregador"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "зарядное устройство",
+    "names": {
+      "en": "charger",
+      "ro": "încărcător",
+      "de": "Ladegerät",
+      "ru": "зарядное устройство",
+      "it": "caricabatterie",
+      "es": "cargador",
+      "fr": "chargeur",
+      "hu": "töltő",
+      "pt": "carregador"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "caricabatterie",
+    "names": {
+      "en": "charger",
+      "ro": "încărcător",
+      "de": "Ladegerät",
+      "ru": "зарядное устройство",
+      "it": "caricabatterie",
+      "es": "cargador",
+      "fr": "chargeur",
+      "hu": "töltő",
+      "pt": "carregador"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "cargador",
+    "names": {
+      "en": "charger",
+      "ro": "încărcător",
+      "de": "Ladegerät",
+      "ru": "зарядное устройство",
+      "it": "caricabatterie",
+      "es": "cargador",
+      "fr": "chargeur",
+      "hu": "töltő",
+      "pt": "carregador"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "chargeur",
+    "names": {
+      "en": "charger",
+      "ro": "încărcător",
+      "de": "Ladegerät",
+      "ru": "зарядное устройство",
+      "it": "caricabatterie",
+      "es": "cargador",
+      "fr": "chargeur",
+      "hu": "töltő",
+      "pt": "carregador"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "töltő",
+    "names": {
+      "en": "charger",
+      "ro": "încărcător",
+      "de": "Ladegerät",
+      "ru": "зарядное устройство",
+      "it": "caricabatterie",
+      "es": "cargador",
+      "fr": "chargeur",
+      "hu": "töltő",
+      "pt": "carregador"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "carregador",
+    "names": {
+      "en": "charger",
+      "ro": "încărcător",
+      "de": "Ladegerät",
+      "ru": "зарядное устройство",
+      "it": "caricabatterie",
+      "es": "cargador",
+      "fr": "chargeur",
+      "hu": "töltő",
+      "pt": "carregador"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A003"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "battery",
+    "names": {
+      "en": "battery",
+      "ro": "baterie",
+      "de": "Batterie",
+      "ru": "батарея",
+      "it": "batteria",
+      "es": "batería",
+      "fr": "batterie",
+      "hu": "akkumulátor",
+      "pt": "bateria"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A004"
+  },
+  {
+    "id": "A004",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -239,32 +1069,314 @@
     "term": "baterie",
     "names": {
       "en": "battery",
-      "es": "batería",
-      "it": "batteria",
-      "fr": "batterie",
+      "ro": "baterie",
       "de": "Batterie",
       "ru": "батарея",
+      "it": "batteria",
+      "es": "batería",
+      "fr": "batterie",
       "hu": "akkumulátor",
-      "pt": "bateria",
-      "ro": "baterie"
+      "pt": "bateria"
     },
-    "ipa": "bateˈrie",
+    "description": null,
+    "ipa": "/bateˈrie/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T05/A004.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T05/A004/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "e6a1600e08819ccb2d27605d5a6660ea94e752a9"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T05"
     ],
     "context": null,
     "example": null,
     "topic": "C5T05",
-    "entity_id": "word_baterie"
+    "entity_id": "C5T05:A004"
   },
   {
-    "id": "word_wifi",
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Batterie",
+    "names": {
+      "en": "battery",
+      "ro": "baterie",
+      "de": "Batterie",
+      "ru": "батарея",
+      "it": "batteria",
+      "es": "batería",
+      "fr": "batterie",
+      "hu": "akkumulátor",
+      "pt": "bateria"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "батарея",
+    "names": {
+      "en": "battery",
+      "ro": "baterie",
+      "de": "Batterie",
+      "ru": "батарея",
+      "it": "batteria",
+      "es": "batería",
+      "fr": "batterie",
+      "hu": "akkumulátor",
+      "pt": "bateria"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "batteria",
+    "names": {
+      "en": "battery",
+      "ro": "baterie",
+      "de": "Batterie",
+      "ru": "батарея",
+      "it": "batteria",
+      "es": "batería",
+      "fr": "batterie",
+      "hu": "akkumulátor",
+      "pt": "bateria"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "batería",
+    "names": {
+      "en": "battery",
+      "ro": "baterie",
+      "de": "Batterie",
+      "ru": "батарея",
+      "it": "batteria",
+      "es": "batería",
+      "fr": "batterie",
+      "hu": "akkumulátor",
+      "pt": "bateria"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "batterie",
+    "names": {
+      "en": "battery",
+      "ro": "baterie",
+      "de": "Batterie",
+      "ru": "батарея",
+      "it": "batteria",
+      "es": "batería",
+      "fr": "batterie",
+      "hu": "akkumulátor",
+      "pt": "bateria"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "akkumulátor",
+    "names": {
+      "en": "battery",
+      "ro": "baterie",
+      "de": "Batterie",
+      "ru": "батарея",
+      "it": "batteria",
+      "es": "batería",
+      "fr": "batterie",
+      "hu": "akkumulátor",
+      "pt": "bateria"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "bateria",
+    "names": {
+      "en": "battery",
+      "ro": "baterie",
+      "de": "Batterie",
+      "ru": "батарея",
+      "it": "batteria",
+      "es": "batería",
+      "fr": "batterie",
+      "hu": "akkumulátor",
+      "pt": "bateria"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A004"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "wifi",
+    "names": {
+      "en": "wifi",
+      "ro": "wifi",
+      "de": "WLAN",
+      "ru": "вайфай",
+      "it": "wifi",
+      "es": "wifi",
+      "fr": "wifi",
+      "hu": "wifi",
+      "pt": "wifi"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A005"
+  },
+  {
+    "id": "A005",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -272,32 +1384,314 @@
     "term": "wifi",
     "names": {
       "en": "wifi",
-      "es": "wifi",
-      "it": "wifi",
-      "fr": "wifi",
+      "ro": "wifi",
       "de": "WLAN",
       "ru": "вайфай",
+      "it": "wifi",
+      "es": "wifi",
+      "fr": "wifi",
       "hu": "wifi",
-      "pt": "wifi",
-      "ro": "wifi"
+      "pt": "wifi"
     },
-    "ipa": "ˈwaifai",
+    "description": null,
+    "ipa": "/ˈwaifai/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T05/A005.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T05/A005/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "68ff09bc1a83bb663909fd6073d7112511fdbec0"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T05"
     ],
     "context": null,
     "example": null,
     "topic": "C5T05",
-    "entity_id": "word_wifi"
+    "entity_id": "C5T05:A005"
   },
   {
-    "id": "word_abonament",
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "WLAN",
+    "names": {
+      "en": "wifi",
+      "ro": "wifi",
+      "de": "WLAN",
+      "ru": "вайфай",
+      "it": "wifi",
+      "es": "wifi",
+      "fr": "wifi",
+      "hu": "wifi",
+      "pt": "wifi"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "вайфай",
+    "names": {
+      "en": "wifi",
+      "ro": "wifi",
+      "de": "WLAN",
+      "ru": "вайфай",
+      "it": "wifi",
+      "es": "wifi",
+      "fr": "wifi",
+      "hu": "wifi",
+      "pt": "wifi"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "wifi",
+    "names": {
+      "en": "wifi",
+      "ro": "wifi",
+      "de": "WLAN",
+      "ru": "вайфай",
+      "it": "wifi",
+      "es": "wifi",
+      "fr": "wifi",
+      "hu": "wifi",
+      "pt": "wifi"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "wifi",
+    "names": {
+      "en": "wifi",
+      "ro": "wifi",
+      "de": "WLAN",
+      "ru": "вайфай",
+      "it": "wifi",
+      "es": "wifi",
+      "fr": "wifi",
+      "hu": "wifi",
+      "pt": "wifi"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "wifi",
+    "names": {
+      "en": "wifi",
+      "ro": "wifi",
+      "de": "WLAN",
+      "ru": "вайфай",
+      "it": "wifi",
+      "es": "wifi",
+      "fr": "wifi",
+      "hu": "wifi",
+      "pt": "wifi"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "wifi",
+    "names": {
+      "en": "wifi",
+      "ro": "wifi",
+      "de": "WLAN",
+      "ru": "вайфай",
+      "it": "wifi",
+      "es": "wifi",
+      "fr": "wifi",
+      "hu": "wifi",
+      "pt": "wifi"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "wifi",
+    "names": {
+      "en": "wifi",
+      "ro": "wifi",
+      "de": "WLAN",
+      "ru": "вайфай",
+      "it": "wifi",
+      "es": "wifi",
+      "fr": "wifi",
+      "hu": "wifi",
+      "pt": "wifi"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A005"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "subscription",
+    "names": {
+      "en": "subscription",
+      "ro": "abonament",
+      "de": "Abonnement",
+      "ru": "подписка",
+      "it": "abbonamento",
+      "es": "suscripción",
+      "fr": "abonnement",
+      "hu": "előfizetés",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A006"
+  },
+  {
+    "id": "A006",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -305,28 +1699,275 @@
     "term": "abonament",
     "names": {
       "en": "subscription",
-      "es": "suscripción",
-      "it": "abbonamento",
-      "fr": "abonnement",
+      "ro": "abonament",
       "de": "Abonnement",
       "ru": "подписка",
+      "it": "abbonamento",
+      "es": "suscripción",
+      "fr": "abonnement",
       "hu": "előfizetés",
-      "pt": "assinatura",
-      "ro": "abonament"
+      "pt": "assinatura"
     },
-    "ipa": "abonaˈment",
+    "description": null,
+    "ipa": "/abonaˈment/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C5T05/A006.mp3",
+      "url": "https://media.verbologic.com/dictionary/C5/C5T05/A006/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "97d0c7337695bad5fba361d1646671463f231cc9"
     },
+    "read": null,
     "tags": [
       "scaffold#C5T05"
     ],
     "context": null,
     "example": null,
     "topic": "C5T05",
-    "entity_id": "word_abonament"
+    "entity_id": "C5T05:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "Abonnement",
+    "names": {
+      "en": "subscription",
+      "ro": "abonament",
+      "de": "Abonnement",
+      "ru": "подписка",
+      "it": "abbonamento",
+      "es": "suscripción",
+      "fr": "abonnement",
+      "hu": "előfizetés",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "подписка",
+    "names": {
+      "en": "subscription",
+      "ro": "abonament",
+      "de": "Abonnement",
+      "ru": "подписка",
+      "it": "abbonamento",
+      "es": "suscripción",
+      "fr": "abonnement",
+      "hu": "előfizetés",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "abbonamento",
+    "names": {
+      "en": "subscription",
+      "ro": "abonament",
+      "de": "Abonnement",
+      "ru": "подписка",
+      "it": "abbonamento",
+      "es": "suscripción",
+      "fr": "abonnement",
+      "hu": "előfizetés",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "suscripción",
+    "names": {
+      "en": "subscription",
+      "ro": "abonament",
+      "de": "Abonnement",
+      "ru": "подписка",
+      "it": "abbonamento",
+      "es": "suscripción",
+      "fr": "abonnement",
+      "hu": "előfizetés",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "abonnement",
+    "names": {
+      "en": "subscription",
+      "ro": "abonament",
+      "de": "Abonnement",
+      "ru": "подписка",
+      "it": "abbonamento",
+      "es": "suscripción",
+      "fr": "abonnement",
+      "hu": "előfizetés",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "előfizetés",
+    "names": {
+      "en": "subscription",
+      "ro": "abonament",
+      "de": "Abonnement",
+      "ru": "подписка",
+      "it": "abbonamento",
+      "es": "suscripción",
+      "fr": "abonnement",
+      "hu": "előfizetés",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "assinatura",
+    "names": {
+      "en": "subscription",
+      "ro": "abonament",
+      "de": "Abonnement",
+      "ru": "подписка",
+      "it": "abbonamento",
+      "es": "suscripción",
+      "fr": "abonnement",
+      "hu": "előfizetés",
+      "pt": "assinatura"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C5T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C5T05",
+    "entity_id": "C5T05:A006"
   }
 ]

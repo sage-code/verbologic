@@ -2,12 +2,13 @@
 /**
  * media-sync.mjs — differential media pipeline (maintenance).
  *
- * The staging root is the media repository itself: media files live in
- * media/audio/<lang>/<TOPIC>/ (gitignored binaries) next to their sibling
- * <ID>.json manifests (the Git index), so the local layout mirrors the R2
- * object keys exactly:
+ * The shared media root is the media repository itself:
+ * media/<track>/<chapter>/<topic>/<code>/item.json and sound/<locale>.mp3.
+ * The reorganize command migrates legacy language-prefixed R2 objects into
+ * keys matching this shared tree:
  *
- *   media/audio/ro/C1T11/greeting_salut.mp3  →  audio/ro/C1T11/greeting_salut.mp3
+ *   media/dictionary/C1/C1T01/A034/sound/ro.mp3
+ *     → dictionary/C1/C1T01/A034/sound/ro.mp3
  *
  * The differential baseline lives IN the item manifests: a published
  * manifest's sha1/bytes describe the exact bytes that SHOULD be on R2. When
@@ -15,11 +16,12 @@
  * bucket itself (remote truth) — so drift (e.g. the initial upload never
  * having happened) is detected, not assumed away.
  *
- *   node scripts/media-sync.mjs stage              archive mp3s → media per-topic layout
+ *   node scripts/media-sync.mjs stage              archive mp3s → legacy media/audio layout
  *   node scripts/media-sync.mjs manifest           reconcile item manifests with the files on disk
  *   node scripts/media-sync.mjs verify [--remote]  missing / orphan / dirty / pending report
  *   node scripts/media-sync.mjs upload [--apply]   differential R2 sync (default: report; --apply transfers)
- *   node scripts/media-sync.mjs prune [--apply]    R2 objects no manifest references (default: report)
+ *   node scripts/media-sync.mjs reorganize [--apply] legacy audio keys → shared dictionary/lectures keys
+ *   node scripts/media-sync.mjs prune [--apply]    R2 objects no legacy manifest references (default: report)
  *
  * R2 access uses R2's S3-compatible API, hand-signed with AWS SigV4 (no SDK,
  * no wrangler spawns; uploads run with bounded concurrency) — four env vars,
@@ -39,13 +41,22 @@ import { createHash, createHmac } from 'node:crypto'
 import {
   copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync
 } from 'node:fs'
-import { basename, join, relative } from 'node:path'
+import { basename, isAbsolute, join, relative, sep } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 if (existsSync(join(ROOT, '.env'))) process.loadEnvFile(join(ROOT, '.env'))
 const MEDIA = join(ROOT, 'media')
 const AUDIO_DIR = join(MEDIA, 'audio')
+const SHARED_TRACKS = ['dictionary', 'lectures']
+const LOCALES = ['en', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
+/**
+ * The two recordings every item can carry, per language:
+ *   audio → sound/<locale>.mp3  the short title/term recording
+ *   read  → read/<locale>.mp3   the full article read
+ */
+const DESCRIPTOR_FIELDS = ['audio', 'read']
+const DEFAULT_FOLDER = { audio: 'sound', read: 'read' }
 // The legacy flat staging (media/audio/<lang>/<ID>.mp3) — retired; `stage`
 // reads from it while it still exists, otherwise straight from the archive.
 const LEGACY_MEDIA = join(ROOT, 'media', 'audio')
@@ -79,20 +90,29 @@ function toKey(file) {
   return relative(MEDIA, file).replaceAll('\\', '/')
 }
 
-/** All staged media files with their keys, indexed by "<lang>/<base>". */
+/** Every media file in the shared tree, indexed by its R2 key. */
 function stagedIndex() {
   const out = new Map()
-  for (const f of walk(AUDIO_DIR)) {
+  for (const f of walk(MEDIA)) {
     if (!MEDIA_EXT.has(f.split('.').pop())) continue
-    const relPath = relative(AUDIO_DIR, f).replaceAll('\\', '/') // "<lang>/<TOPIC>/<base>"
-    const [lang, , base] = relPath.split('/')
-    out.set(`${lang}/${base}`, { file: f, key: toKey(f) })
+    const key = toKey(f)
+    out.set(key, { file: f, key })
   }
   return out
 }
 
-/** Every item manifest under media/audio, with its owning lang/topic. */
+/** Every shared item manifest (media/<track>/<chapter>/<topic>/<code>/item.json). */
 function* itemManifests() {
+  for (const f of walk(MEDIA)) {
+    if (!f.endsWith('item.json')) continue
+    const manifest = JSON.parse(readFileSync(f, 'utf-8'))
+    if (!manifest.code || !manifest.track) continue
+    yield { path: f, manifest, dir: join(f, '..'), track: manifest.track, topic: manifest.topic }
+  }
+}
+
+/** Retired per-language manifests (media/audio/<lang>/<TOPIC>/<ID>.json). */
+function* legacyManifests() {
   for (const f of walk(AUDIO_DIR)) {
     if (!f.endsWith('.json')) continue
     const manifest = JSON.parse(readFileSync(f, 'utf-8'))
@@ -103,20 +123,47 @@ function* itemManifests() {
   }
 }
 
-/** The item's media file on disk: the manifest's file, or <manifest-filename>.mp3
- *  for pending items (A002.json -> A002.mp3 — the manifest's own filename, not
- *  its semantic `id`, which is a separate internal key). */
-function diskPath(item) {
-  const base = item.manifest.file ?? `${basename(item.path, '.json')}.mp3`
-  const p = join(item.dir, base)
+/**
+ * One media file to sync: a shared manifest's `audio`/`read` descriptor for
+ * one locale, or a retired legacy manifest (which is its own descriptor).
+ */
+function* mediaEntries() {
+  for (const item of itemManifests()) {
+    for (const field of DESCRIPTOR_FIELDS) {
+      const map = item.manifest[field]
+      if (!map || typeof map !== 'object') continue
+      for (const [locale, descriptor] of Object.entries(map)) {
+        if (!descriptor || typeof descriptor !== 'object') continue
+        yield { ...item, field, locale, descriptor, legacy: false }
+      }
+    }
+  }
+  for (const item of legacyManifests()) {
+    yield { ...item, field: 'audio', locale: item.manifest.lang, descriptor: item.manifest, legacy: true }
+  }
+}
+
+/** The entry's media file on disk (null while the recording is still pending). */
+function diskPath(entry) {
+  const base = entry.legacy
+    ? entry.manifest.file ?? `${basename(entry.path, '.json')}.mp3`
+    : entry.descriptor.file ?? `${DEFAULT_FOLDER[entry.field]}/${entry.locale}.mp3`
+  const p = join(entry.dir, base)
   return existsSync(p) ? p : null
 }
 
-/** Published manifest keys — the set of keys that SHOULD exist on R2. */
+/** Write the file facts back into the manifest that owns this entry. */
+function writeFacts(entry, facts) {
+  if (entry.legacy) Object.assign(entry.manifest, facts)
+  else Object.assign(entry.manifest[entry.field][entry.locale], facts)
+  writeFileSync(entry.path, JSON.stringify(entry.manifest, null, 2) + '\n')
+}
+
+/** Published keys — the set of keys that SHOULD exist on R2. */
 function expectedKeys() {
   const out = new Set()
-  for (const { manifest } of itemManifests()) {
-    if (manifest.status === 'published' && manifest.key) out.add(manifest.key)
+  for (const entry of mediaEntries()) {
+    if (entry.descriptor.status === 'published' && entry.descriptor.key) out.add(entry.descriptor.key)
   }
   return out
 }
@@ -231,6 +278,16 @@ async function r2Put(env, key, filePath, mime) {
   if (!res.ok) throw new Error(xmlTag(await res.text(), 'Message') || `HTTP ${res.status}`)
 }
 
+/** Download one object so migration can verify bytes before deleting its old key. */
+async function r2GetSha1(env, key) {
+  const { authorization, amzDate, payloadHash, url } = sign(env, 'GET', `/${env.bucket}/${key}`, {}, '')
+  const res = await fetch(url, {
+    headers: { Authorization: authorization, 'x-amz-date': amzDate, 'x-amz-content-sha256': payloadHash }
+  })
+  if (!res.ok) throw new Error(xmlTag(await res.text(), 'Message') || `HTTP ${res.status}`)
+  return createHash('sha1').update(Buffer.from(await res.arrayBuffer())).digest('hex')
+}
+
 /** DELETE one object. */
 async function r2Delete(env, key) {
   const { authorization, amzDate, payloadHash, url } = sign(env, 'DELETE', `/${env.bucket}/${key}`, {}, '')
@@ -301,33 +358,34 @@ function cmdManifest() {
   let promoted = 0
   let stale = 0
   let pending = 0
-  for (const item of itemManifests()) {
-    const { manifest } = item
-    const disk = diskPath(item)
+  for (const entry of mediaEntries()) {
+    const { descriptor } = entry
+    const disk = diskPath(entry)
     if (!disk) {
-      if (manifest.status === 'published') {
+      if (descriptor.status === 'published') {
         stale++
-        console.warn(`stale: ${manifest.key} (${manifest.id}) — no file on disk`)
+        console.warn(`stale: ${descriptor.key} (${entry.manifest.code ?? entry.manifest.id}) — no file on disk`)
       } else pending++
       continue
     }
-    const wasPending = manifest.status !== 'published'
+    const wasPending = descriptor.status !== 'published'
     const key = toKey(disk)
     const bytes = statSync(disk).size
     const hash = sha1(disk)
     const mime = MIME_BY_EXT[disk.split('.').pop()] ?? 'application/octet-stream'
     const changed =
-      wasPending || manifest.key !== key || manifest.bytes !== bytes ||
-      manifest.sha1 !== hash || manifest.mime !== mime
+      wasPending || descriptor.key !== key || descriptor.bytes !== bytes ||
+      descriptor.sha1 !== hash || descriptor.mime !== mime
     if (!changed) continue
     if (!dry) {
-      manifest.file = basename(disk)
-      manifest.key = key
-      manifest.mime = mime
-      manifest.bytes = bytes
-      manifest.sha1 = hash
-      manifest.status = 'published'
-      writeFileSync(item.path, JSON.stringify(manifest, null, 2) + '\n')
+      writeFacts(entry, {
+        file: entry.legacy ? basename(disk) : relative(entry.dir, disk).replaceAll('\\', '/'),
+        key,
+        mime,
+        bytes,
+        sha1: hash,
+        status: 'published'
+      })
     }
     if (wasPending) promoted++
     else reconciled++
@@ -352,22 +410,23 @@ async function cmdVerify() {
   const missing = []
   const dirtyList = []
   const referenced = new Set()
-  for (const item of itemManifests()) {
-    const { manifest } = item
-    const disk = diskPath(item)
-    if (manifest.status !== 'published') {
+  for (const entry of mediaEntries()) {
+    const { descriptor } = entry
+    const label = entry.manifest.code ?? entry.manifest.id
+    const disk = diskPath(entry)
+    if (descriptor.status !== 'published') {
       pending++
-      if (disk) console.log(`ready: ${manifest.id} — file on disk, 'media manifest' will promote it`)
+      if (disk) console.log(`ready: ${label} ${entry.field}.${entry.locale} — file on disk, 'media manifest' will promote it`)
       continue
     }
     published++
-    referenced.add(manifest.key)
-    if (!disk) { missing.push(`${manifest.key} (${manifest.id})`); continue }
-    if (manifest.sha1 !== sha1(disk)) { dirty++; dirtyList.push(`${manifest.key} (${manifest.id})`) }
+    referenced.add(descriptor.key)
+    if (!disk) { missing.push(`${descriptor.key} (${label})`); continue }
+    if (descriptor.sha1 !== sha1(disk)) { dirty++; dirtyList.push(`${descriptor.key} (${label})`) }
   }
   const staged = stagedIndex()
   const orphans = [...staged.values()].map((v) => v.key).filter((k) => !referenced.has(k))
-  console.log(`verify: manifests ${published + pending} (published ${published}, pending ${pending}) · staged files ${staged.size}`)
+  console.log(`verify: media entries ${published + pending} (published ${published}, pending ${pending}) · staged files ${staged.size}`)
   for (const m of missing) console.error(`  missing: ${m}`)
   for (const d of dirtyList) console.warn(`  dirty (edited, needs upload): ${d}`)
   if (orphans.length) {
@@ -400,17 +459,18 @@ async function cmdUpload() {
     console.warn('note: set the R2 S3 credentials in .env to also diff against the bucket (remote truth) — see this file\'s header comment')
   }
 
-  const delta = new Map() // key → { file, bytes, hash, mime, items: [item…] }
-  for (const item of itemManifests()) {
-    const { manifest } = item
-    const disk = diskPath(item)
+  const delta = new Map() // key → { file, bytes, hash, mime, entries: [entry…] }
+  for (const entry of mediaEntries()) {
+    const { descriptor } = entry
+    const label = entry.manifest.code ?? entry.manifest.id
+    const disk = diskPath(entry)
     if (!disk) {
-      if (manifest.status === 'published') {
-        if (remote && !remote.has(manifest.key)) {
-          console.error(`broken (published, but no file locally and not on R2): ${manifest.key} (${manifest.id})`)
+      if (descriptor.status === 'published') {
+        if (remote && !remote.has(descriptor.key)) {
+          console.error(`broken (published, but no file locally and not on R2): ${descriptor.key} (${label})`)
           process.exitCode = 1
         } else {
-          console.warn(`skip (file missing on disk): ${manifest.key}`)
+          console.warn(`skip (file missing on disk): ${descriptor.key}`)
         }
       }
       continue
@@ -419,15 +479,15 @@ async function cmdUpload() {
     const bytes = statSync(disk).size
     const hash = sha1(disk)
     const onR2 = remote ? remote.has(key) : true
-    if (manifest.status === 'published' && manifest.sha1 === hash && manifest.bytes === bytes && onR2) continue
+    if (descriptor.status === 'published' && descriptor.sha1 === hash && descriptor.bytes === bytes && onR2) continue
     if (!delta.has(key)) {
       delta.set(key, {
         file: disk, bytes, hash,
         mime: MIME_BY_EXT[disk.split('.').pop()] ?? 'application/octet-stream',
-        items: []
+        entries: []
       })
     }
-    delta.get(key).items.push(item)
+    delta.get(key).entries.push(entry)
   }
 
   if (!delta.size) {
@@ -443,15 +503,15 @@ async function cmdUpload() {
   await pool([...delta.entries()].map(([key, d]) => async () => {
     try {
       await r2Put(env, key, d.file, d.mime)
-      for (const item of d.items) {
-        const { manifest } = item
-        manifest.status = 'published'
-        manifest.file = basename(d.file)
-        manifest.key = key
-        manifest.mime = d.mime
-        manifest.bytes = d.bytes
-        manifest.sha1 = d.hash
-        writeFileSync(item.path, JSON.stringify(manifest, null, 2) + '\n')
+      for (const entry of d.entries) {
+        writeFacts(entry, {
+          status: 'published',
+          file: entry.legacy ? basename(d.file) : relative(entry.dir, d.file).replaceAll('\\', '/'),
+          key,
+          mime: d.mime,
+          bytes: d.bytes,
+          sha1: d.hash
+        })
       }
       ok++
       console.log(`  ✓ ${key}`)
@@ -461,6 +521,135 @@ async function cmdUpload() {
     }
   }))
   console.log(`upload: ${ok} uploaded, ${failed} failed${failed ? ' — failed keys stay in the delta; fix and re-run' : ''}`)
+  if (failed) process.exitCode = 1
+}
+
+/**
+ * Copy existing per-language audio objects to the shared media tree's R2 keys.
+ * Old objects are deleted only after each matching new object is downloaded
+ * and verified against the local SHA-1. The default is a report-only plan.
+ */
+async function cmdReorganize() {
+  const apply = process.argv.includes('--apply')
+  const env = r2Env(apply)
+  if (!env) {
+    console.error('reorganize requires the R2 S3 credentials in .env')
+    process.exitCode = 1
+    return
+  }
+
+  const records = []
+  const targetKeys = new Set()
+  for (const track of SHARED_TRACKS) {
+    const trackRoot = join(MEDIA, track)
+    for (const manifestPath of walk(trackRoot).filter((file) => file.endsWith('item.json'))) {
+      const item = JSON.parse(readFileSync(manifestPath, 'utf-8'))
+      if (item.track !== track || !item.code || !item.chapter || !item.topic) {
+        throw new Error(`Invalid shared media item identity: ${manifestPath}`)
+      }
+      const itemDir = join(manifestPath, '..')
+      for (const locale of LOCALES) {
+        const descriptor = item.audio?.[locale]
+        if (!descriptor || typeof descriptor !== 'object') {
+          throw new Error(`Missing audio.${locale} descriptor: ${manifestPath}`)
+        }
+        const relativeAudio = descriptor.file ?? `sound/${locale}.mp3`
+        const file = join(itemDir, relativeAudio)
+        const itemRelativeAudio = relative(itemDir, file)
+        if (isAbsolute(itemRelativeAudio) || itemRelativeAudio === '..' || itemRelativeAudio.startsWith(`..${sep}`)) {
+          throw new Error(`Audio path escapes item directory: ${manifestPath}: ${relativeAudio}`)
+        }
+        if (!existsSync(file)) continue
+        if (!file.toLowerCase().endsWith('.mp3')) {
+          throw new Error(`Expected MP3 audio file: ${file}`)
+        }
+        const key = toKey(file)
+        if (targetKeys.has(key)) throw new Error(`Duplicate target R2 key: ${key}`)
+        targetKeys.add(key)
+        const localHash = sha1(file)
+        if (descriptor.sha1 && descriptor.sha1 !== localHash) {
+          throw new Error(`Local audio SHA-1 does not match ${manifestPath} audio.${locale}`)
+        }
+        if (descriptor.bytes != null && descriptor.bytes !== statSync(file).size) {
+          throw new Error(`Local audio byte count does not match ${manifestPath} audio.${locale}`)
+        }
+        const title = item.kind === 'chapter-title' || item.kind === 'topic-title'
+        const oldFolder = title ? item.chapter : item.topic
+        const oldKey = `audio/${locale}/${oldFolder}/${item.code}.mp3`
+        records.push({ track, locale, item, manifestPath, file, key, oldKey, hash: localHash })
+      }
+    }
+  }
+
+  const remote = await r2List(env)
+  const oldAudioKeys = [...remote.keys()].filter((key) => key.startsWith('audio/'))
+  const byOldKey = new Map(records.map((record) => [record.oldKey, record]))
+  const mappedOldKeys = oldAudioKeys.filter((key) => byOldKey.has(key))
+  const unmappedOldKeys = oldAudioKeys.filter((key) => !byOldKey.has(key))
+  const copyRecords = records.filter((record) => remote.get(record.key) !== statSync(record.file).size)
+
+  console.log(`reorganize${apply ? '' : ' (dry run)'}`)
+  console.log(`  local shared audio files: ${records.length}`)
+  console.log(`  legacy audio/ objects: ${oldAudioKeys.length}`)
+  console.log(`  legacy objects mapped to local items: ${mappedOldKeys.length}`)
+  console.log(`  new objects to upload: ${copyRecords.length}`)
+  console.log(`  new objects already at expected size: ${records.length - copyRecords.length}`)
+  console.log(`  legacy objects with no local mapping (will be preserved): ${unmappedOldKeys.length}`)
+  for (const key of unmappedOldKeys.slice(0, 20)) console.warn(`  preserve unmapped: ${key}`)
+  for (const record of records) {
+    if (remote.has(record.key)) continue
+    console.log(`  ${record.oldKey} -> ${record.key}`)
+  }
+  if (!apply) {
+    console.log('dry run — re-run with --apply to upload, verify, and then remove mapped legacy objects')
+    return
+  }
+
+  const changed = []
+  let failed = 0
+  await pool(records.map((record) => async () => {
+    try {
+      const remoteSize = remote.get(record.key)
+      const remoteHash = remoteSize === statSync(record.file).size
+        ? await r2GetSha1(env, record.key)
+        : null
+      if (remoteHash !== record.hash) {
+        await r2Put(env, record.key, record.file, 'audio/mpeg')
+      }
+      const uploadedHash = await r2GetSha1(env, record.key)
+      if (uploadedHash !== record.hash) {
+        throw new Error(`R2 SHA-1 mismatch (expected ${record.hash}, received ${uploadedHash})`)
+      }
+      record.verified = true
+      if (remoteSize !== statSync(record.file).size) changed.push(record.key)
+    } catch (error) {
+      failed++
+      console.error(`  ✗ ${record.key}: ${error.message}`)
+    }
+  }))
+
+  if (failed) {
+    console.error(`reorganize: ${failed} target object(s) failed verification; no legacy objects deleted`)
+    process.exitCode = 1
+    return
+  }
+
+  const deletions = mappedOldKeys.filter((key) => {
+    const record = byOldKey.get(key)
+    return record?.verified && key !== record.key
+  })
+  let deleted = 0
+  await pool(deletions.map((key) => async () => {
+    try {
+      await r2Delete(env, key)
+      deleted++
+      console.log(`  ✓ deleted legacy ${key}`)
+    } catch (error) {
+      failed++
+      console.error(`  ✗ could not delete ${key}: ${error.message}`)
+    }
+  }))
+  console.log(`reorganize: ${changed.length} uploaded and verified · ${deleted} legacy object(s) deleted · ${unmappedOldKeys.length} legacy object(s) preserved`)
   if (failed) process.exitCode = 1
 }
 
@@ -502,7 +691,7 @@ async function cmdPrune() {
 }
 
 const mode = process.argv[2] ?? 'verify'
-const handlers = { stage: cmdStage, manifest: cmdManifest, verify: cmdVerify, upload: cmdUpload, prune: cmdPrune }
+const handlers = { stage: cmdStage, manifest: cmdManifest, verify: cmdVerify, upload: cmdUpload, reorganize: cmdReorganize, prune: cmdPrune }
 if (!handlers[mode]) {
   console.error(`unknown media command: ${mode} (stage | manifest | verify | upload | prune)`)
   process.exit(2)

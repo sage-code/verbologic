@@ -14,9 +14,9 @@
  *    synced with the new keys before the next deploy — run media upload).
  *  - Items without audio yet → status 'pending' with key/file/bytes/sha1 null
  *    (the app renders those rows as a disabled "audio coming soon" button).
- *  - Ids are NEVER renamed: they are R2 filenames and learned_items.entity_id
- *    progress keys. Two dedup ids may share one file (letter_cat/letter_cat-2,
- *    word_coleg/word_coleg-2) — one manifest each, same key.
+ *  - Manifest ids are topic-scoped content codes; `entity_id` is the
+ *    language-independent `<TOPIC>:<CODE>` identity. The previous progress
+ *    key is retained as `legacy_entity_id` during migration.
  *
  *   node scripts/media-manifests.mjs --dry-run   # plan only, write nothing
  *   node scripts/media-manifests.mjs             # move files + write manifests
@@ -41,6 +41,30 @@ function main() {
     process.exit(1)
   }
 
+  const contentIdsByEntity = new Map()
+  for (const lang of existsSync(MEDIA_AUDIO) ? readdirSync(MEDIA_AUDIO) : []) {
+    const langDir = join(MEDIA_AUDIO, lang)
+    for (const topic of readdirSync(langDir, { withFileTypes: true }).filter((entry) => entry.isDirectory())) {
+      const topicDir = join(langDir, topic.name)
+      for (const name of readdirSync(topicDir).filter((file) => file.endsWith('.json'))) {
+        const existing = JSON.parse(readFileSync(join(topicDir, name), 'utf8'))
+        const legacyId = existing.legacy_entity_id ?? existing.entity_id
+        if (legacyId && existing.id) {
+          contentIdsByEntity.set(`${topic.name}\n${legacyId}`, existing.id)
+        }
+      }
+    }
+  }
+
+  const unmapped = [...attribution].filter(([entityId, item]) =>
+    !contentIdsByEntity.has(`${item.topic}\n${entityId}`)
+  )
+  if (unmapped.length) {
+    console.error(`ERROR: ${unmapped.length} legacy item(s) have no assigned content code. Run media-scaffold-topic for the topic first.`)
+    for (const [id, item] of unmapped.slice(0, 10)) console.error(`  - ${item.topic}: ${id}`)
+    process.exit(1)
+  }
+
   let moved = 0
   let copiedBytes = 0
   let shared = 0
@@ -52,12 +76,15 @@ function main() {
   for (const [id, at] of attribution) {
     const { entity } = at
     const lang = entity.lang
+    const contentId = contentIdsByEntity.get(`${at.topic}\n${id}`)
     const topicDir = join(MEDIA_AUDIO, lang, at.topic)
     const names = { ...(entity.translations ?? {}), [lang]: entity.term }
 
     /** Base manifest — shared by the published and pending paths. */
     const manifest = {
-      id,
+      id: contentId,
+      entity_id: `${at.topic}:${contentId}`,
+      legacy_entity_id: id,
       lang,
       kind: entity.type ?? null,
       term: entity.term,
@@ -81,7 +108,7 @@ function main() {
       const dest = join(topicDir, base)
       if (!existsSync(src)) {
         missing++
-        missingList.push(`${lang}/${base} (${id})`)
+        missingList.push(`${lang}/${base} (${contentId})`)
         continue
       }
       const existedBefore = existsSync(dest)
@@ -104,7 +131,7 @@ function main() {
 
     if (!dryRun) {
       mkdirSync(topicDir, { recursive: true })
-      writeFileSync(join(topicDir, `${id}.json`), JSON.stringify(manifest, null, 2) + '\n')
+      writeFileSync(join(topicDir, `${contentId}.json`), JSON.stringify(manifest, null, 2) + '\n')
     }
   }
 

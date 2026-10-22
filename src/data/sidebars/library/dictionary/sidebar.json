@@ -42,17 +42,38 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_salut",
-            "word_buna-ziua",
-            "word_buna-seara",
-            "word_la-revedere"
+            "A034",
+            "A032",
+            "A031",
+            "A033"
           ],
           "lastIndex": {
             "en": {
-              "audio": 73
+              "audio": 77
             },
             "ro": {
               "audio": 34
+            },
+            "es": {
+              "audio": 4
+            },
+            "it": {
+              "audio": 4
+            },
+            "fr": {
+              "audio": 4
+            },
+            "de": {
+              "audio": 4
+            },
+            "ru": {
+              "audio": 4
+            },
+            "hu": {
+              "audio": 4
+            },
+            "pt": {
+              "audio": 4
             }
           }
         },
@@ -72,14 +93,38 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_te-rog",
-            "word_multumesc",
-            "word_cu-placere",
-            "word_scuze"
+            "A023",
+            "A021",
+            "A020",
+            "A022"
           ],
           "lastIndex": {
             "ro": {
               "audio": 23
+            },
+            "en": {
+              "audio": 1
+            },
+            "es": {
+              "audio": 1
+            },
+            "it": {
+              "audio": 1
+            },
+            "fr": {
+              "audio": 1
+            },
+            "de": {
+              "audio": 1
+            },
+            "ru": {
+              "audio": 1
+            },
+            "hu": {
+              "audio": 1
+            },
+            "pt": {
+              "audio": 1
             }
           }
         },
@@ -99,17 +144,17 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_nume",
-            "word_prenume",
-            "word_om",
-            "word_femeie",
-            "word_barbat",
-            "word_copil",
-            "word_prieten",
-            "word_familie",
-            "word_vecin",
-            "word_coleg",
-            "word_coleg-2"
+            "A010",
+            "A012",
+            "A011",
+            "A009",
+            "A005",
+            "A007",
+            "A013",
+            "A008",
+            "A014",
+            "A006",
+            "A006-2"
           ],
           "lastIndex": {
             "ro": {
@@ -133,8 +178,8 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_da",
-            "word_nu"
+            "A001",
+            "A002"
           ],
           "lastIndex": {
             "ro": {
@@ -158,26 +203,26 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_zero",
-            "word_unu",
-            "word_doi",
-            "word_trei",
-            "word_patru",
-            "word_cinci",
-            "word_sase",
-            "word_sapte",
-            "word_opt",
-            "word_noua",
-            "word_zece",
-            "word_douazeci",
-            "word_treizeci",
-            "word_patruzeci",
-            "word_cincizeci",
-            "word_saizeci",
-            "word_saptezeci",
-            "word_optzeci",
-            "word_nouazeci",
-            "word_o-suta"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010",
+            "A011",
+            "A012",
+            "A013",
+            "A014",
+            "A015",
+            "A016",
+            "A017",
+            "A018",
+            "A019",
+            "A020"
           ]
         },
         {
@@ -196,16 +241,16 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_rosu",
-            "word_albastru",
-            "word_verde",
-            "word_galben",
-            "word_negru",
-            "word_alb",
-            "word_portocaliu",
-            "word_mov",
-            "word_cerc",
-            "word_patrat"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -224,16 +269,16 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_mama",
-            "word_tata",
-            "word_frate",
-            "word_sora",
-            "word_bunica",
-            "word_bunicul",
-            "word_fiu",
-            "word_fiica",
-            "word_sot",
-            "word_sotie"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -252,16 +297,60 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_carte",
-            "word_ghiozdan",
-            "word_tabla",
-            "word_rigla",
-            "word_guma",
-            "word_stilou",
-            "word_pix",
-            "word_foaie",
-            "word_penar",
-            "word_creta"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
+          ]
+        },
+        {
+          "code": "C1T09",
+          "names": {
+            "en": "Alphabet",
+            "ro": "Alfabetul",
+            "de": "Alphabet",
+            "ru": "Алфавит",
+            "it": "Alfabeto",
+            "es": "Alfabeto",
+            "fr": "Alphabet",
+            "hu": "Ábécé",
+            "pt": "Alfabeto"
+          },
+          "layout": "table",
+          "level": "A1",
+          "items": [
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010",
+            "A011",
+            "A012",
+            "A013",
+            "A014",
+            "A015",
+            "A016",
+            "A017",
+            "A018",
+            "A019",
+            "A020",
+            "A021",
+            "A022",
+            "A023",
+            "A024",
+            "A025",
+            "A026"
           ]
         }
       ]
@@ -296,16 +385,16 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_cap",
-            "word_ochi",
-            "word_nas",
-            "word_gura",
-            "word_ureche",
-            "word_mana",
-            "word_picior",
-            "word_deget",
-            "word_par",
-            "word_inima"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -324,16 +413,16 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_tricou",
-            "word_pantaloni",
-            "word_rochie",
-            "word_fusta",
-            "word_haina",
-            "word_pantofi",
-            "word_ciorapi",
-            "word_caciula",
-            "word_curea",
-            "word_geaca"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ],
           "lastIndex": {
             "ro": {
@@ -357,16 +446,16 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_bucatarie",
-            "word_dormitor",
-            "word_sufragerie",
+            "A001",
+            "A002",
+            "A003",
             "word_baie",
-            "word_hol",
-            "word_curte",
-            "word_balcon",
-            "word_acoperis",
-            "word_pivnita",
-            "word_gradina"
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009"
           ],
           "lastIndex": {
             "ro": {
@@ -390,16 +479,16 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_casa",
-            "word_apartament",
-            "word_usa",
-            "word_fereastra",
-            "word_masa",
-            "word_scaun",
-            "word_pat",
-            "word_dulap",
-            "word_baie",
-            "word_cheie"
+            "A003",
+            "A001",
+            "A010",
+            "A006",
+            "A007",
+            "A009",
+            "A008",
+            "A005",
+            "A002",
+            "A004"
           ],
           "lastIndex": {
             "ro": {
@@ -423,16 +512,16 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_apa",
-            "word_paine",
-            "word_lapte",
-            "word_ou",
-            "word_carne",
-            "word_peste",
-            "word_fruct",
-            "word_leguma",
-            "word_zahar",
-            "word_sare"
+            "A001",
+            "A007",
+            "A004",
+            "A006",
+            "A002",
+            "A008",
+            "A003",
+            "A005",
+            "A010",
+            "A009"
           ],
           "lastIndex": {
             "ro": {
@@ -456,16 +545,16 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_caine",
-            "word_pisica",
-            "word_pasare",
+            "A001",
+            "A002",
+            "A003",
             "word_peste",
-            "word_iepure",
-            "word_hamster",
-            "word_cal",
-            "word_vaca",
-            "word_oaie",
-            "word_porc"
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009"
           ]
         },
         {
@@ -484,16 +573,16 @@
           "layout": "table",
           "level": "A1",
           "items": [
-            "word_papusa",
-            "word_minge",
-            "word_puzzle",
-            "word_joc",
-            "word_cuburi",
-            "word_zmeu",
-            "word_coarda-de-sarit",
-            "word_trotineta",
-            "word_leagan",
-            "word_balon"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         }
       ]
@@ -528,16 +617,16 @@
           "layout": "table",
           "level": "A2",
           "items": [
-            "word_a-se-trezi",
-            "word_a-manca",
-            "word_a-bea",
-            "word_a-lucra",
-            "word_a-invata",
-            "word_a-merge",
-            "word_a-veni",
-            "word_a-citi",
-            "word_a-scrie",
-            "word_a-dormi"
+            "A014",
+            "A011",
+            "A006",
+            "A010",
+            "A009",
+            "A012",
+            "A015",
+            "A007",
+            "A013",
+            "A008"
           ],
           "lastIndex": {
             "ro": {
@@ -561,16 +650,16 @@
           "layout": "table",
           "level": "A2",
           "items": [
-            "word_azi",
-            "word_maine",
-            "word_ieri",
-            "word_acum",
-            "word_dimineata",
-            "word_dupa-amiaza",
-            "word_seara",
-            "word_noapte",
-            "word_saptamana",
-            "word_an"
+            "A027",
+            "A031",
+            "A030",
+            "A025",
+            "A028",
+            "A029",
+            "A034",
+            "A032",
+            "A033",
+            "A026"
           ],
           "lastIndex": {
             "ro": {
@@ -594,29 +683,29 @@
           "layout": "table",
           "level": "A2",
           "items": [
-            "word_luni",
-            "word_marti",
-            "word_miercuri",
-            "word_joi",
-            "word_vineri",
-            "word_sambata",
-            "word_duminica",
-            "word_ianuarie",
-            "word_februarie",
-            "word_martie",
-            "word_aprilie",
-            "word_mai",
-            "word_iunie",
-            "word_iulie",
-            "word_august",
-            "word_septembrie",
-            "word_octombrie",
-            "word_noiembrie",
-            "word_decembrie",
-            "word_primavara",
-            "word_vara",
-            "word_toamna",
-            "word_iarna"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010",
+            "A011",
+            "A012",
+            "A013",
+            "A014",
+            "A015",
+            "A016",
+            "A017",
+            "A018",
+            "A019",
+            "A020",
+            "A021",
+            "A022",
+            "A023"
           ]
         },
         {
@@ -635,16 +724,16 @@
           "layout": "table",
           "level": "A2",
           "items": [
-            "word_soare",
-            "word_ploaie",
-            "word_vant",
-            "word_zapada",
-            "word_nor",
-            "word_cer",
-            "word_rau",
-            "word_mare",
-            "word_padure",
-            "word_floare"
+            "A027",
+            "A025",
+            "A028",
+            "A029",
+            "A023",
+            "A020",
+            "A026",
+            "A022",
+            "A024",
+            "A021"
           ],
           "lastIndex": {
             "ro": {
@@ -668,16 +757,16 @@
           "layout": "table",
           "level": "A2",
           "items": [
-            "word_mic-dejun",
-            "word_pranz",
-            "word_cina",
-            "word_gustare",
-            "word_cafea",
-            "word_ceai",
-            "word_suc",
-            "word_vin",
-            "word_bere",
-            "word_desert"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ],
           "lastIndex": {
             "ro": {
@@ -701,16 +790,16 @@
           "layout": "table",
           "level": "A2",
           "items": [
-            "word_a-spala",
-            "word_a-curata",
-            "word_a-gati",
-            "word_a-calca",
-            "word_a-matura",
-            "word_a-spala-vasele",
-            "word_a-arunca-gunoiul",
-            "word_a-face-patul",
-            "word_a-aspira",
-            "word_a-uda-florile"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -729,15 +818,15 @@
           "layout": "table",
           "level": "A2",
           "items": [
-            "word_fericit",
-            "word_trist",
-            "word_obosit",
-            "word_suparat",
-            "word_linistit",
-            "word_mi-e-foame",
-            "word_mi-e-sete",
-            "word_a-face",
-            "word_bine"
+            "A003",
+            "A009",
+            "A007",
+            "A008",
+            "A004",
+            "A005",
+            "A006",
+            "A001",
+            "A002"
           ],
           "lastIndex": {
             "ro": {
@@ -777,16 +866,16 @@
           "layout": "table",
           "level": "A2",
           "items": [
-            "word_primarie",
-            "word_biserica",
-            "word_muzeu",
-            "word_biblioteca",
-            "word_parc",
-            "word_pod",
-            "word_gara",
-            "word_stadion",
-            "word_teatru",
-            "word_banca"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -805,16 +894,16 @@
           "layout": "table",
           "level": "A2",
           "items": [
-            "word_brutarie",
-            "word_macelarie",
-            "word_librarie",
-            "word_florarie",
-            "word_supermarket",
-            "word_chiosc",
-            "word_taraba",
-            "word_vanzator",
-            "word_cumparator",
-            "word_coada"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -833,16 +922,16 @@
           "layout": "table",
           "level": "A2",
           "items": [
-            "word_magazin",
-            "word_piata",
-            "word_pret",
-            "word_bani",
-            "word_card",
-            "word_numerar",
-            "word_reducere",
-            "word_marime",
-            "word_culoare",
-            "word_bon"
+            "A005",
+            "A008",
+            "A009",
+            "A001",
+            "A003",
+            "A007",
+            "A010",
+            "A006",
+            "A004",
+            "A002"
           ],
           "lastIndex": {
             "ro": {
@@ -866,16 +955,16 @@
           "layout": "table",
           "level": "A2",
           "items": [
-            "word_strada",
-            "word_drum",
-            "word_colt",
-            "word_dreapta",
-            "word_stanga",
-            "word_autobuz",
-            "word_tren",
-            "word_statie",
-            "word_bilet",
-            "word_harta"
+            "A033",
+            "A029",
+            "A027",
+            "A028",
+            "A031",
+            "A025",
+            "A034",
+            "A032",
+            "A026",
+            "A030"
           ],
           "lastIndex": {
             "ro": {
@@ -902,13 +991,13 @@
             "word_stanga",
             "word_dreapta",
             "word_colt",
-            "word_inainte",
-            "word_inapoi",
-            "word_sus",
-            "word_jos",
-            "word_langa",
-            "word_in-fata",
-            "word_in-spate"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007"
           ],
           "lastIndex": {
             "ro": {
@@ -932,16 +1021,16 @@
           "layout": "table",
           "level": "A2",
           "items": [
-            "word_avocat",
-            "word_inginer",
-            "word_contabil",
-            "word_bucatar",
-            "word_sofer",
-            "word_politist",
-            "word_pompier",
-            "word_asistenta-medicala",
-            "word_fermier",
-            "word_pictor"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -960,16 +1049,16 @@
           "layout": "table",
           "level": "A2",
           "items": [
-            "word_doctor",
-            "word_spital",
-            "word_farmacie",
-            "word_medicament",
-            "word_durere",
-            "word_febra",
-            "word_ajutor",
-            "word_urgenta",
-            "word_politie",
-            "word_ambulanta"
+            "A003",
+            "A009",
+            "A005",
+            "A007",
+            "A004",
+            "A006",
+            "A001",
+            "A010",
+            "A008",
+            "A002"
           ],
           "lastIndex": {
             "ro": {
@@ -1009,16 +1098,16 @@
           "layout": "table",
           "level": "B1",
           "items": [
-            "word_aeroport",
-            "word_pasaport",
-            "word_hotel",
-            "word_camera",
-            "word_rezervare",
-            "word_valiza",
-            "word_vacanta",
-            "word_plaja",
-            "word_munte",
-            "word_ghid"
+            "A015",
+            "A020",
+            "A018",
+            "A016",
+            "A022",
+            "A024",
+            "A023",
+            "A021",
+            "A019",
+            "A017"
           ],
           "lastIndex": {
             "ro": {
@@ -1042,16 +1131,16 @@
           "layout": "table",
           "level": "B1",
           "items": [
-            "word_receptie",
-            "word_cazare",
-            "word_etaj",
-            "word_lift",
-            "word_prosop",
-            "word_perna",
-            "word_patura",
-            "word_cearsaf",
-            "word_oaspete",
-            "word_receptioner"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -1070,16 +1159,16 @@
           "layout": "table",
           "level": "B1",
           "items": [
-            "word_meniu",
-            "word_chelner",
+            "A001",
+            "A002",
             "word_masa",
             "word_rezervare",
-            "word_nota-de-plata",
-            "word_felul-principal",
-            "word_tacamuri",
-            "word_farfurie",
-            "word_pahar",
-            "word_bacsis"
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008"
           ],
           "lastIndex": {
             "ro": {
@@ -1105,14 +1194,14 @@
           "items": [
             "word_banca",
             "word_card",
-            "word_cont",
-            "word_plic",
-            "word_scrisoare",
-            "word_colet",
-            "word_timbru",
-            "word_semnatura",
-            "word_imprumut",
-            "word_factura"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008"
           ]
         },
         {
@@ -1135,12 +1224,12 @@
             "word_aplicatie",
             "word_parola",
             "word_cont",
-            "word_retea",
-            "word_semnal",
-            "word_incarcator",
-            "word_baterie",
-            "word_wifi",
-            "word_abonament"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006"
           ]
         },
         {
@@ -1159,16 +1248,16 @@
           "layout": "table",
           "level": "B1",
           "items": [
-            "word_sarbatoare",
-            "word_craciun",
-            "word_paste",
-            "word_anul-nou",
-            "word_zi-de-nastere",
-            "word_cadou",
-            "word_petrecere",
-            "word_invitatie",
-            "word_tort",
-            "word_felicitare"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -1187,12 +1276,12 @@
           "layout": "table",
           "level": "B1",
           "items": [
-            "word_incendiu",
-            "word_pericol",
-            "word_evacuare",
-            "word_stingator",
-            "word_iesire-de-urgenta",
-            "word_siguranta",
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
             "word_ajutor",
             "word_urgenta",
             "word_ambulanta",
@@ -1236,16 +1325,16 @@
           "layout": "table",
           "level": "B1",
           "items": [
-            "word_scoala",
-            "word_universitate",
-            "word_profesor",
-            "word_student",
-            "word_lectie",
-            "word_tema",
-            "word_examen",
-            "word_nota",
-            "word_caiet",
-            "word_creion"
+            "A007",
+            "A010",
+            "A006",
+            "A008",
+            "A004",
+            "A009",
+            "A003",
+            "A005",
+            "A001",
+            "A002"
           ],
           "lastIndex": {
             "ro": {
@@ -1270,15 +1359,15 @@
           "level": "B1",
           "items": [
             "word_tabla",
-            "word_intrebare",
-            "word_raspuns",
-            "word_exercitiu",
-            "word_regula",
-            "word_greseala",
-            "word_corect",
-            "word_gresit",
-            "word_atentie",
-            "word_liniste"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009"
           ],
           "lastIndex": {
             "ro": {
@@ -1302,16 +1391,16 @@
           "layout": "table",
           "level": "B1",
           "items": [
-            "word_plus",
-            "word_minus",
-            "word_inmultire",
-            "word_impartire",
-            "word_suma",
-            "word_lungime",
-            "word_greutate",
-            "word_metru",
-            "word_kilogram",
-            "word_litru"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -1330,16 +1419,16 @@
           "layout": "table",
           "level": "B1",
           "items": [
-            "word_experiment",
-            "word_laborator",
-            "word_eprubeta",
-            "word_microscop",
-            "word_substanta",
-            "word_reactie",
-            "word_temperatura",
-            "word_lichid",
-            "word_solid",
-            "word_gaz"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -1358,16 +1447,16 @@
           "layout": "table",
           "level": "B1",
           "items": [
-            "word_epoca",
-            "word_rege",
-            "word_regina",
-            "word_razboi",
-            "word_revolutie",
-            "word_imperiu",
-            "word_civilizatie",
-            "word_descoperire",
-            "word_secol",
-            "word_antichitate"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -1386,15 +1475,15 @@
           "layout": "table",
           "level": "B1",
           "items": [
-            "word_muzica",
-            "word_pictura",
-            "word_desen",
-            "word_instrument",
-            "word_vioara",
-            "word_pian",
-            "word_chitara",
-            "word_cantec",
-            "word_dans",
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
             "word_teatru"
           ]
         },
@@ -1414,16 +1503,16 @@
           "layout": "table",
           "level": "B1",
           "items": [
-            "word_sport",
-            "word_fotbal",
-            "word_baschet",
-            "word_tenis",
-            "word_inot",
-            "word_alergare",
-            "word_echipa",
-            "word_meci",
-            "word_campion",
-            "word_medalie"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         }
       ]
@@ -1458,16 +1547,16 @@
           "layout": "table",
           "level": "B2",
           "items": [
-            "word_caracter",
-            "word_personalitate",
-            "word_amabil",
-            "word_curajos",
-            "word_onest",
-            "word_generos",
-            "word_timid",
-            "word_increzator",
-            "word_rabdator",
-            "word_incapatanat"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ],
           "lastIndex": {
             "ro": {
@@ -1491,16 +1580,16 @@
           "layout": "table",
           "level": "B2",
           "items": [
-            "word_prieten-2",
-            "word_prietenie",
-            "word_iubire",
-            "word_casatorie",
-            "word_logodna",
-            "word_vecin-2",
-            "word_coleg-3",
-            "word_cunostinta",
-            "word_incredere",
-            "word_cearta"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ],
           "lastIndex": {
             "ro": {
@@ -1524,16 +1613,16 @@
           "layout": "table",
           "level": "B2",
           "items": [
-            "word_sanatate",
-            "word_boala",
-            "word_doctor-2",
-            "word_spital-2",
-            "word_medicament-2",
-            "word_durere-2",
-            "word_odihna",
-            "word_stres",
-            "word_exercitiu-2",
-            "word_vindecare"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ],
           "lastIndex": {
             "ro": {
@@ -1557,16 +1646,16 @@
           "layout": "table",
           "level": "B2",
           "items": [
-            "word_televizor",
-            "word_film",
-            "word_radio",
-            "word_ziar",
-            "word_revista",
-            "word_actor",
-            "word_actrita",
-            "word_concert",
-            "word_divertisment",
-            "word_internet-2"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -1585,16 +1674,16 @@
           "layout": "table",
           "level": "B2",
           "items": [
-            "word_cultura",
-            "word_traditie",
-            "word_obicei",
-            "word_sarbatoare-2",
-            "word_costum-popular",
-            "word_folclor",
-            "word_legenda",
-            "word_proverb",
-            "word_mostenire",
-            "word_identitate"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -1613,16 +1702,16 @@
           "layout": "table",
           "level": "B2",
           "items": [
-            "word_drept",
-            "word_lege",
-            "word_cetatenie",
-            "word_justitie",
-            "word_libertate",
-            "word_egalitate",
-            "word_vot",
-            "word_guvern",
-            "word_constitutie",
-            "word_avocat-2"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ],
           "lastIndex": {
             "ro": {
@@ -1662,16 +1751,16 @@
           "layout": "table",
           "level": "B2",
           "items": [
-            "word_munte-2",
-            "word_deal",
-            "word_vale",
-            "word_campie",
-            "word_padure-2",
-            "word_desert-2",
-            "word_pestera",
-            "word_insula",
-            "word_coasta",
-            "word_vulcan"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ],
           "lastIndex": {
             "ro": {
@@ -1695,16 +1784,16 @@
           "layout": "table",
           "level": "B2",
           "items": [
-            "word_lup",
-            "word_urs",
-            "word_vulpe",
-            "word_cerb",
-            "word_vultur",
-            "word_sarpe",
-            "word_copac",
-            "word_floare-2",
-            "word_iarba",
-            "word_frunza"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ],
           "lastIndex": {
             "ro": {
@@ -1728,16 +1817,16 @@
           "layout": "table",
           "level": "B2",
           "items": [
-            "word_clima",
-            "word_mediu",
-            "word_poluare",
-            "word_incalzire-globala",
-            "word_reciclare",
-            "word_natura",
-            "word_ecosistem",
-            "word_resursa",
-            "word_energie",
-            "word_sustenabilitate"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -1756,16 +1845,16 @@
           "layout": "table",
           "level": "B2",
           "items": [
-            "word_tara",
-            "word_natiune",
-            "word_nationalitate",
-            "word_frontiera",
-            "word_capitala",
-            "word_continent",
-            "word_roman",
-            "word_strain",
-            "word_pasaport-2",
-            "word_ambasada"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -1784,16 +1873,16 @@
           "layout": "table",
           "level": "B2",
           "items": [
-            "word_cer-2",
-            "word_soare-2",
-            "word_luna",
-            "word_stea",
-            "word_planeta",
-            "word_univers",
-            "word_galaxie",
-            "word_nor-2",
-            "word_astronaut",
-            "word_racheta"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -1812,16 +1901,16 @@
           "layout": "table",
           "level": "B2",
           "items": [
-            "word_lemn",
-            "word_metal",
-            "word_sticla",
-            "word_plastic",
-            "word_piatra",
-            "word_hartie",
-            "word_material",
-            "word_substanta-2",
-            "word_aur",
-            "word_argint"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         }
       ]
@@ -1856,15 +1945,15 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_birou",
-            "word_sedinta",
-            "word_proiect",
-            "word_client",
-            "word_contract",
-            "word_salariu",
-            "word_program",
-            "word_pauza",
-            "word_raport"
+            "A001",
+            "A009",
+            "A006",
+            "A002",
+            "A003",
+            "A008",
+            "A005",
+            "A004",
+            "A007"
           ],
           "lastIndex": {
             "ro": {
@@ -1888,16 +1977,16 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_loc-de-munca",
-            "word_candidat",
-            "word_candidatura",
-            "word_cv",
-            "word_interviu",
-            "word_angajator",
-            "word_angajat",
-            "word_experienta",
-            "word_calificare",
-            "word_cariera"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -1916,16 +2005,16 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_e-mail",
-            "word_mesaj-2",
-            "word_agenda",
-            "word_participant",
-            "word_prezentare",
-            "word_nota-2",
-            "word_convocare",
-            "word_discutie",
-            "word_decizie",
-            "word_atasament"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -1944,16 +2033,16 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_afacere",
-            "word_comert",
-            "word_companie",
-            "word_produs",
-            "word_marfa",
-            "word_vanzare",
-            "word_cumparare",
-            "word_piata-2",
-            "word_concurenta",
-            "word_profit"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -1972,16 +2061,16 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_banca-2",
-            "word_cont-bancar",
-            "word_credit",
-            "word_imprumut-2",
-            "word_dobanda",
-            "word_economii",
-            "word_investitie",
-            "word_valuta",
-            "word_factura-2",
-            "word_datorie"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2000,16 +2089,16 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_industrie",
-            "word_fabrica",
-            "word_agricultura",
-            "word_ferma",
-            "word_fermier-2",
-            "word_recolta",
-            "word_productie",
-            "word_masinarie",
-            "word_muncitor",
-            "word_materie-prima"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2028,16 +2117,16 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_impozit",
-            "word_taxa",
-            "word_clauza",
-            "word_semnatura-2",
-            "word_angajament",
-            "word_beneficiu",
-            "word_concediu",
-            "word_pensie",
-            "word_asigurare",
-            "word_declaratie"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         }
       ]
@@ -2072,16 +2161,16 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_telefon",
-            "word_mesaj",
-            "word_email",
-            "word_internet",
-            "word_calculator",
-            "word_parola",
-            "word_aplicatie",
-            "word_apel",
-            "word_video",
-            "word_fisier"
+            "A009",
+            "A007",
+            "A004",
+            "A006",
+            "A003",
+            "A008",
+            "A002",
+            "A001",
+            "A010",
+            "A005"
           ],
           "lastIndex": {
             "ro": {
@@ -2105,16 +2194,16 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_retea-2",
-            "word_profil",
-            "word_postare",
-            "word_apreciere",
-            "word_comentariu",
-            "word_urmaritor",
-            "word_cont-2",
-            "word_descarcare",
-            "word_incarcare",
-            "word_eticheta"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2133,16 +2222,16 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_ipoteza",
-            "word_experiment-2",
-            "word_observatie",
-            "word_teorie",
-            "word_date",
-            "word_analiza",
-            "word_rezultat",
-            "word_concluzie",
-            "word_cercetare",
-            "word_dovada"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2161,16 +2250,16 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_electricitate",
-            "word_inginerie",
-            "word_inginer-2",
-            "word_motor",
-            "word_mecanism",
-            "word_combustibil",
-            "word_panou-solar",
-            "word_turbina",
-            "word_circuit",
-            "word_baterie-2"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2189,16 +2278,16 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_medicina",
-            "word_biologie",
-            "word_celula",
-            "word_gena",
-            "word_virus",
-            "word_bacterie",
-            "word_vaccin",
-            "word_diagnostic",
-            "word_tratament",
-            "word_organism"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2217,15 +2306,15 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_inteligenta-artificiala",
-            "word_algoritm",
-            "word_robot",
-            "word_automatizare",
-            "word_retea-neuronala",
-            "word_invatare-automata",
-            "word_procesare",
-            "word_predictie",
-            "word_model",
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
             "word_date"
           ]
         },
@@ -2245,16 +2334,16 @@
           "layout": "table",
           "level": "C1",
           "items": [
-            "word_tehnologie",
-            "word_inovatie",
-            "word_realitate-virtuala",
-            "word_realitate-augmentata",
-            "word_drona",
-            "word_imprimanta-3d",
-            "word_nanotehnologie",
-            "word_criptomoneda",
-            "word_blockchain",
-            "word_senzor"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         }
       ]
@@ -2289,15 +2378,15 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_opinie",
-            "word_dezbatere",
-            "word_argument",
-            "word_parere",
-            "word_punct-de-vedere",
-            "word_contraargument",
-            "word_controversa",
-            "word_moderator",
-            "word_public",
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
             "word_concluzie"
           ]
         },
@@ -2317,16 +2406,16 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_acord",
-            "word_dezacord",
-            "word_consens",
-            "word_compromis",
-            "word_obiectie",
-            "word_confirmare",
-            "word_negare",
-            "word_aprobare",
-            "word_respingere",
-            "word_intelegere"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2345,16 +2434,16 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_deci",
-            "word_totusi",
-            "word_prin-urmare",
-            "word_in-plus",
-            "word_de-exemplu",
-            "word_cu-toate-acestea",
-            "word_pe-de-alta-parte",
-            "word_asadar",
-            "word_mai-mult",
-            "word_in-concluzie"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2373,15 +2462,15 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_cauza",
-            "word_efect",
-            "word_consecinta",
-            "word_motiv",
-            "word_influenta",
-            "word_impact",
-            "word_datorita",
-            "word_din-cauza",
-            "word_declansator",
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
             "word_rezultat"
           ]
         },
@@ -2401,16 +2490,16 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_comparatie",
-            "word_contrast",
-            "word_asemanare",
-            "word_diferenta",
-            "word_la-fel",
-            "word_diferit",
-            "word_similar",
-            "word_opus",
-            "word_decat",
-            "word_in-comparatie-cu"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2429,16 +2518,16 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_etica",
-            "word_valoare",
-            "word_moral",
-            "word_corect-2",
-            "word_gresit-2",
-            "word_responsabilitate",
-            "word_integritate",
-            "word_respect",
-            "word_dreptate",
-            "word_constiinta"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2457,15 +2546,15 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_idee",
-            "word_filosofie",
-            "word_concept",
-            "word_existenta",
-            "word_realitate",
-            "word_adevar",
-            "word_cunoastere",
-            "word_gandire",
-            "word_sens",
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
             "word_libertate"
           ]
         }
@@ -2501,16 +2590,16 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_a-bate-campii",
-            "word_a-rupe-gheata",
-            "word_a-trage-un-pui-de-somn",
-            "word_a-fi-cu-capul-in-nori",
-            "word_a-pune-punctul-pe-i",
-            "word_a-da-din-casa",
-            "word_a-taia-frunza-la-caini",
-            "word_a-fi-mura-n-gura",
-            "word_a-face-din-tantar-armasar",
-            "word_a-i-parea-rau"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2529,16 +2618,16 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_graba-strica-treaba",
-            "word_cine-se-scoala-de-dimineata-departe-ajunge",
-            "word_nu-tot-ce-zboara-se-mananca",
-            "word_ochii-care-nu-se-vad-se-uita",
-            "word_lupul-isi-schimba-parul-dar-naravul-ba",
-            "word_ce-tie-nu-ti-place-altuia-nu-i-face",
-            "word_dupa-fapta-si-rasplata",
-            "word_vorba-dulce-mult-aduce",
-            "word_unde-i-unul-nu-i-putere",
-            "word_prietenul-la-nevoie-se-cunoaste"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2557,16 +2646,16 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_misto",
-            "word_tare",
-            "word_naspa",
-            "word_bengos",
-            "word_a-chiuli",
-            "word_a-se-pili",
-            "word_fraier",
-            "word_gagica",
-            "word_ba",
-            "word_lovele"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2585,16 +2674,16 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_politicos",
-            "word_formal",
-            "word_informal",
-            "word_respectuos",
-            "word_a-se-adresa",
-            "word_dumneavoastra",
-            "word_tu",
-            "word_a-ruga",
-            "word_scuza",
-            "word_amabilitate"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2613,16 +2702,16 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_frumos",
-            "word_superb",
-            "word_fericit-2",
-            "word_vesel",
-            "word_trist-2",
-            "word_mahnit",
-            "word_mare-2",
-            "word_urias",
-            "word_mic",
-            "word_minuscul"
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
+            "A010"
           ]
         },
         {
@@ -2641,15 +2730,15 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_metafora",
-            "word_ironie",
-            "word_simbol",
-            "word_narator",
-            "word_personaj",
-            "word_rima",
-            "word_strofa",
-            "word_alegorie",
-            "word_retorica",
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
             "word_comparatie"
           ]
         },
@@ -2669,15 +2758,15 @@
           "layout": "table",
           "level": "C2",
           "items": [
-            "word_teza",
-            "word_citat",
-            "word_bibliografie",
-            "word_capitol",
-            "word_studiu",
-            "word_metodologie",
-            "word_abstract",
-            "word_disertatie",
-            "word_referat",
+            "A001",
+            "A002",
+            "A003",
+            "A004",
+            "A005",
+            "A006",
+            "A007",
+            "A008",
+            "A009",
             "word_ipoteza"
           ]
         }

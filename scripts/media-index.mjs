@@ -25,14 +25,14 @@
  *   node scripts/media-index.mjs --dry-run    print the plan, write nothing
  *
  * Outputs (public/data/media/):
- *   index.json                          counts[section][topic][lang] + progress {entity_id: topic}
+ *   index.json                          counts, progress ids + legacy progress aliases
  *   <section>/<TOPIC>.json              records for one topic (topics with items only)
  *   <section>/search.json               every record of one section in one payload
  *                                       (the dictionary-wide translation search)
  */
 import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
-import { join } from 'node:path'
+import { dirname, join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import grayMatter from 'gray-matter'
 
@@ -72,17 +72,80 @@ const walkSidebars = (dir) =>
   })
 walkSidebars(SIDEBARS)
 
-/** Manifests indexed by bare id: media/<sectionPath>/…/<ID>.json (recursive). */
-const manifestsById = new Map() // id -> [{ manifest, sectionPath }]
+/** Title manifests use chapter/topic codes; learning items use topic-scoped codes. */
+const manifestsById = new Map() // title id -> [{ manifest, sectionPath }]
+const manifestsByTopicId = new Map() // `${topic}\n${id}` -> [{ manifest, sectionPath }]
+/**
+ * One locale's media descriptor resolved against the files on disk.
+ * `field` is the manifest map ('audio' = the short title/term recording,
+ * 'read' = the full article read). A descriptor whose file has not landed yet
+ * keeps `key: null`, so the runtime URL stays null and the UI disables it.
+ */
+function resolveDescriptor(item, path, locale, field) {
+  const descriptor = item[field]?.[locale] ?? {}
+  const filePath = descriptor.file
+    ? join(dirname(path), ...descriptor.file.split('/'))
+    : null
+  const key = filePath && existsSync(filePath)
+    ? relative(MEDIA, filePath).replaceAll('\\', '/')
+    : null
+  return {
+    key,
+    mime: descriptor.mime ?? 'audio/mpeg',
+    bytes: key ? descriptor.bytes ?? 0 : 0,
+    sha1: key ? descriptor.sha1 ?? null : null,
+    status: descriptor.status ?? 'pending'
+  }
+}
+
+function localizeItem(item, path, locale) {
+  const audio = resolveDescriptor(item, path, locale, 'audio')
+  const read = item.read ? resolveDescriptor(item, path, locale, 'read') : null
+  const metadata = item.metadata?.[locale] ?? {}
+  return {
+    id: item.code,
+    lang: locale,
+    kind: item.kind,
+    term: item.names?.[locale] ?? null,
+    names: item.names ?? {},
+    ipa: item.pronunciation?.[locale]?.ipa ?? null,
+    key: audio.key,
+    mime: audio.mime,
+    bytes: audio.bytes,
+    sha1: audio.sha1,
+    status: audio.status,
+    read,
+    tags: item.tags ?? [],
+    topic: item.topic,
+    entity_id: `${item.topic}:${item.code}`,
+    description: item.description?.[locale] ?? null,
+    context: metadata.context ?? null,
+    example: metadata.example ?? null
+  }
+}
+
 const walkManifests = (dir, sectionPath) => {
   if (!existsSync(dir)) return
   for (const e of readdirSync(dir, { withFileTypes: true })) {
     const p = join(dir, e.name)
     if (e.isDirectory()) walkManifests(p, sectionPath)
-    else if (e.name.endsWith('.json')) {
-      const manifest = readJson(p)
-      if (!manifestsById.has(manifest.id)) manifestsById.set(manifest.id, [])
-      manifestsById.get(manifest.id).push({ manifest, sectionPath })
+    else if (e.name === 'item.json') {
+      const item = readJson(p)
+      if (!item.code) continue
+      const map = ['chapter-title', 'topic-title'].includes(item.kind)
+        ? manifestsById
+        : manifestsByTopicId
+      const manifestKey = map === manifestsById
+        ? item.code
+        : `${item.topic}\n${item.code}`
+      if (!map.has(manifestKey)) map.set(manifestKey, [])
+      for (const locale of LOCALES_ALL) {
+        if (typeof item.names?.[locale] !== 'string' || !item.names[locale]) continue
+        map.get(manifestKey).push({
+          manifest: localizeItem(item, p, locale),
+          sectionPath
+        })
+      }
     }
   }
 }
@@ -102,9 +165,9 @@ function mediaDescriptor(manifest) {
   }
 }
 
-/** Chapter/topic title audio (src/composables/useTitles.ts): manifests with
- *  kind 'chapter-title' | 'topic-title', id = the chapter/topic code itself
- *  (media/audio/<lang>/<CODE>/<CODE>.json) — already swept into manifestsById
+/** Chapter/topic title audio (src/composables/useTitles.ts): item records with
+ *  kind 'chapter-title' | 'topic-title', code = the chapter/topic code itself
+ *  (media/audio/<track>/<chapter>/<topic>/<code>/item.json) — swept into manifestsById
  *  above, independent of any sidebar's items[] (titles are never referenced
  *  there). Emitted as library/dictionary/titles.json, the one payload
  *  useTitles fetches; absent codes just keep the "coming soon" button. */
@@ -136,6 +199,7 @@ function manifestRecord(manifest, section) {
     source: 'media',
     term: manifest.term,
     names: { ...manifest.names, [manifest.lang]: manifest.term },
+    description: manifest.description ?? null,
     ipa: manifest.ipa ?? null,
     media: {
       // Pending manifests (status 'pending', key null) have no URL yet —
@@ -145,6 +209,9 @@ function manifestRecord(manifest, section) {
       bytes: manifest.bytes ?? 0,
       sha1: manifest.sha1 ?? null
     },
+    // Full-article read (media/<track>/…/read/<locale>.mp3) — null when the
+    // manifest has no read map or the recording has not been generated yet.
+    read: manifest.read ? mediaDescriptor(manifest.read) : null,
     tags: manifest.tags ?? [],
     context: manifest.context ?? null,
     example: manifest.example ?? null,
@@ -181,6 +248,19 @@ function legacyRecord(entity, section, topic) {
 const errors = []
 let planned = 0 // ids referenced by a sidebar whose content does not exist yet
 const recordsBySectionTopic = new Map() // `${section}\n${topic}` -> records[]
+const progressAliases = {}
+for (const entries of manifestsByTopicId.values()) {
+  for (const { manifest } of entries) {
+    const legacyId = manifest.legacy_entity_id
+    if (!legacyId || legacyId === manifest.entity_id) continue
+    const existing = progressAliases[legacyId]
+    if (existing && existing !== manifest.entity_id) {
+      errors.push(`legacy progress id '${legacyId}' maps to multiple content ids`)
+      continue
+    }
+    progressAliases[legacyId] = manifest.entity_id
+  }
+}
 
 for (const sidebar of sidebars) {
   const sectionPath = config.sections[sidebar.id]
@@ -192,7 +272,7 @@ for (const sidebar of sidebars) {
     for (const topic of section.topics) {
       const records = []
       for (const id of topic.items) {
-        const manifests = manifestsById.get(id)
+        const manifests = manifestsByTopicId.get(`${topic.code}\n${id}`)
         if (manifests?.length) {
           for (const { manifest } of manifests) {
             records.push(manifestRecord({ ...manifest, topic: topic.code }, sidebar.id))
@@ -212,18 +292,14 @@ for (const sidebar of sidebars) {
   }
 }
 
-/* ── content overlay (lectures / stories) ────────────────────────────────
+/* ── content overlay (dictionary / lectures / stories) ──────────────────
  *
- * content/<lectures|stories>/<trackLang>/<TOPIC>/<ID>/<locale>.md — one
- * Markdown document per explanation locale (English canonical for lectures,
- * the track language for stories). The overlay joins each doc's FRONT MATTER
- * into the matching media record: localized titles → names, per-locale
- * review state → `content` meta, related ids → embedded rows. The prose
- * itself renders on the lecture's own prerendered route (Nuxt Content) —
- * it is never fetched or re-rendered here. */
+ * Dictionary, lecture, and story prose is shared by every target language:
+ * content/<track>/<TOPIC>/<ID>/<locale>.md. Legacy story docs may still be
+ * language-specific. Front matter joins per-locale review state onto records;
+ * prose renders on prerendered Nuxt Content routes. */
 
-/** Tracks whose canonical document is English — every other track's canonical
- *  document is the track language itself (stories: the story IS the material). */
+/** Legacy groups without an explicit canonical locale use these defaults. */
 const EN_CANONICAL = new Set(['library/lectures'])
 const CONTENT_DIR = join(ROOT, 'content')
 
@@ -237,16 +313,25 @@ const toRow = (r) => ({
   names: r.names,
   ipa: r.ipa,
   context: r.context,
-  media: { url: r.media.url }
+  media: { url: r.media.url },
+  read: r.read ? { url: r.read.url } : null
 })
 
 /** Front-matter + review state joined onto one content-backed record. */
-function applyContentMeta(record, group, recordsById) {
-  const canonicalLocale = EN_CANONICAL.has(group.section) ? 'en' : group.trackLang
+function applyContentMeta(record, group, recordsById, recordsByTopicContentId) {
+  const canonicalLocale = group.canonical ?? (EN_CANONICAL.has(group.section) ? 'en' : group.trackLang)
   const canonical = group.docs.get(canonicalLocale)
   if (!canonical) {
     errors.push(`content: '${record.id}' has no canonical '${canonicalLocale}' document`)
     return
+  }
+  if (group.shared) {
+    const term = canonical.terms?.[record.lang]
+    if (!term) {
+      errors.push(`content: '${group.topic}/${group.articleId}' has no target term for '${record.lang}'`)
+    } else if (term !== record.term) {
+      errors.push(`content: '${group.topic}/${group.articleId}' term for '${record.lang}' does not match its media manifest`)
+    }
   }
   const locales = {}
   for (const [locale, doc] of group.docs) {
@@ -256,10 +341,10 @@ function applyContentMeta(record, group, recordsById) {
       stale: doc.sourceSha !== null && doc.sourceSha !== canonical.sha
     }
     // Titles come from the docs — the authoring source of truth.
-    if (doc.title) record.names[locale] = doc.title
+    if (group.useTitlesAsNames !== false && doc.title) record.names[locale] = doc.title
   }
   // Keep the manifest invariant names[lang] === term when a track-language doc exists.
-  if (group.docs.has(record.lang)) {
+  if (group.useTitlesAsNames !== false && group.docs.has(record.lang)) {
     record.term = record.names[record.lang]
   }
   record.content = {
@@ -271,7 +356,11 @@ function applyContentMeta(record, group, recordsById) {
     video: canonical.video
   }
   record.related = canonical.related.map((id) => {
-    const row = recordsById.get(id)
+    const row =
+      recordsByTopicContentId
+        .get(`${record.topic}\n${id}`)
+        ?.find((candidate) => candidate.section === record.section && candidate.lang === record.lang) ??
+      recordsById.get(id)
     // A related id whose record does not exist yet is a planned item — drop
     // the embed, never fail (structure-first policy).
     if (!row) return null
@@ -279,7 +368,7 @@ function applyContentMeta(record, group, recordsById) {
   }).filter(Boolean)
 }
 
-/** All content docs grouped by lecture id: id → { section, trackLang, topic, docs }. */
+/** Content docs grouped by track, topic, and topic-scoped content code. */
 function loadContentGroups() {
   const groups = new Map()
   if (!existsSync(CONTENT_DIR)) return groups
@@ -289,17 +378,25 @@ function loadContentGroups() {
     for (const entry of readdirSync(dir, { withFileTypes: true })) {
       const next = [...parts, entry.name]
       if (entry.isDirectory()) walk(join(dir, entry.name), next)
+      // Root-level documentation explains the authoring conventions; it is
+      // not an article and must not be sent through the content schema.
+      else if (parts.length === 0 && entry.name.toLowerCase() === 'readme.md') continue
       else if (entry.name.endsWith('.md')) files.push(next)
     }
   }
   walk(CONTENT_DIR, [])
-  // Expected shape: [<lectures|stories>, <trackLang>, <TOPIC>, <ID>, <locale>.md]
+  // Shared docs: [<track>, <TOPIC>, <ID>, <locale>.md]. Legacy story docs
+  // remain [stories, <trackLang>, <TOPIC>, <ID>, <locale>.md].
   for (const parts of files) {
-    if (parts.length !== 5) {
-      errors.push(`content: '${parts.join('/')}' must live at <track>/<TOPIC>/<ID>/<locale>.md`)
+    const isShared =
+      (['dictionary', 'lectures'].includes(parts[0]) || parts[0] === 'stories') && parts.length === 4
+    if (!isShared && parts.length !== 5) {
+      errors.push(`content: '${parts.join('/')}' has an invalid article path`)
       continue
     }
-    const [sectionLeaf, trackLang, topic, lectureId, docName] = parts
+    const [sectionLeaf, trackLang, topic, articleId, docName] = isShared
+      ? [parts[0], null, parts[1], parts[2], parts[3]]
+      : parts
     const locale = docName.replace(/\.md$/, '')
     const section = `library/${sectionLeaf}`
     if (!config.sections[section]) {
@@ -308,16 +405,46 @@ function loadContentGroups() {
     const file = join(CONTENT_DIR, ...parts)
     const { data } = grayMatter(readFileSync(file, 'utf8'))
     if (!data.title) errors.push(`content: '${parts.join('/')}' is missing a title`)
+    for (const [field, expected] of [
+      ['track', sectionLeaf],
+      ['topic', topic],
+      ['article', articleId],
+      ['locale', locale]
+    ]) {
+      if (data[field] !== expected) errors.push(`content: '${parts.join('/')}' front-matter ${field} '${data[field]}' does not match its path`)
+    }
+    if (isShared ? data.trackLang !== undefined : data.trackLang !== trackLang) {
+      errors.push(`content: '${parts.join('/')}' has trackLang inconsistent with its path`)
+    }
     if (!LOCALES_ALL.includes(locale)) errors.push(`content: '${parts.join('/')}' bad doc locale '${locale}'`)
 
-    const group = groups.get(lectureId) ?? { section, trackLang, topic, docs: new Map() }
-    if (group.topic !== topic || group.trackLang !== trackLang || group.section !== section) {
-      errors.push(`content: '${parts.join('/')}' conflicts with another doc of '${lectureId}'`)
+    const groupKey = `${section}\n${trackLang ?? ''}\n${topic}\n${articleId}`
+    const group = groups.get(groupKey) ?? {
+      articleId,
+      section,
+      trackLang,
+      topic,
+      entityId: data.entity_id ?? null,
+      canonical: isShared ? 'en' : undefined,
+      shared: isShared && ['dictionary', 'lectures'].includes(sectionLeaf),
+      broadcast: isShared && sectionLeaf === 'stories',
+      useTitlesAsNames: !isShared || sectionLeaf === 'stories',
+      docs: new Map()
+    }
+    if (
+      group.topic !== topic ||
+      group.trackLang !== trackLang ||
+      group.section !== section ||
+      (group.entityId && data.entity_id && group.entityId !== data.entity_id)
+    ) {
+      errors.push(`content: '${parts.join('/')}' conflicts with another doc of '${articleId}'`)
       continue
     }
+    group.entityId ??= data.entity_id ?? null
     group.docs.set(locale, {
       title: data.title ?? null,
       summary: data.summary ?? null,
+      terms: data.terms ?? null,
       status: data.status ?? 'draft',
       sourceSha: data.sourceSha ?? null,
       reviewedAt: data.reviewedAt ?? null,
@@ -326,15 +453,22 @@ function loadContentGroups() {
       minutes: data.minutes ?? null,
       sha: createHash('sha1').update(readFileSync(file)).digest('hex')
     })
-    groups.set(lectureId, group)
+    groups.set(groupKey, group)
   }
   return groups
 }
 
 const contentGroups = loadContentGroups()
-const recordsById = new Map()
+const recordsById = new Map() // stable entity_id -> record
+const recordsByTopicContentId = new Map() // `${topic}\n${content id}` -> language variants
 for (const records of recordsBySectionTopic.values()) {
-  for (const record of records) recordsById.set(record.entity_id, record)
+  for (const record of records) {
+    recordsById.set(record.entity_id, record)
+    const contentKey = `${record.topic}\n${record.id}`
+    const variants = recordsByTopicContentId.get(contentKey) ?? []
+    variants.push(record)
+    recordsByTopicContentId.set(contentKey, variants)
+  }
 }
 
 /**
@@ -370,21 +504,44 @@ function contentRecord(contentId, group) {
     context: null,
     example: null,
     topic: group.topic,
-    entity_id: contentId
+    entity_id: group.entityId ?? `${group.topic}:${contentId}`
   }
 }
 
-for (const [contentId, group] of contentGroups) {
-  let record = recordsById.get(contentId)
+for (const group of contentGroups.values()) {
+  const contentId = group.articleId
+  if (
+    group.broadcast ||
+    group.section === 'library/dictionary' ||
+    (group.section === 'library/lectures' && group.trackLang === null)
+  ) {
+    const matches = (recordsBySectionTopic.get(`${group.section}\n${group.topic}`) ?? []).filter(
+      (record) => record.id === contentId
+    )
+    if (matches.length === 0) {
+      errors.push(`shared article: '${group.topic}/${contentId}' has no matching target-language manifest`)
+      continue
+    }
+    for (const record of matches) applyContentMeta(record, group, recordsById, recordsByTopicContentId)
+    continue
+  }
+
+  let record = recordsByTopicContentId
+    .get(`${group.topic}\n${contentId}`)
+    ?.find((candidate) => candidate.section === group.section && candidate.lang === group.trackLang)
   if (!record) {
     record = contentRecord(contentId, group)
     if (!record) continue
-    recordsById.set(contentId, record)
+    recordsById.set(record.entity_id, record)
+    const contentKey = `${group.topic}\n${contentId}`
+    const variants = recordsByTopicContentId.get(contentKey) ?? []
+    variants.push(record)
+    recordsByTopicContentId.set(contentKey, variants)
     const key = `${group.section}\n${group.topic}`
     if (!recordsBySectionTopic.has(key)) recordsBySectionTopic.set(key, [])
     recordsBySectionTopic.get(key).push(record)
   }
-  applyContentMeta(record, group, recordsById)
+  applyContentMeta(record, group, recordsById, recordsByTopicContentId)
 }
 
 /* ── counts (second pass — includes the synthesized content-only records) ── */
@@ -472,7 +629,8 @@ emit('index.json', {
   generated: new Date().toISOString(),
   counts,
   ids,
-  progress
+  progress,
+  progressAliases
 })
 
 /* ── stale cleanup + report ────────────────────────────────────────────── */
@@ -521,4 +679,3 @@ if (errors.length) {
   process.exit(1)
 }
 console.log('media-index OK ✓')
-

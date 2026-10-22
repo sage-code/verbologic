@@ -1,9 +1,10 @@
-// ChaptersTable — the chapters TOC mode: one row per chapter (code · title ·
-// translation · title-audio · a Done button that marks/resets the whole
-// chapter). A row click picks the chapter (see pickChapter); a double-click
-// opens it straight to its topic list. Toggled from the frame's Chapters
-// button (store.toggleChapters) and rendered by RoadmapShell for EVERY
-// track — chapter overview is roadmap chrome, not a topic layout.
+// ChaptersTable — the chapters TOC mode: one row per chapter (code · native
+// gloss · title in the learning language · title-audio · a Done button that
+// marks/resets the whole chapter). A row click picks the chapter (see
+// pickChapter); a double-click opens it straight to its topic list. Toggled
+// from the frame's Chapters button (store.toggleChapters) and rendered by
+// RoadmapShell for EVERY track — chapter overview is roadmap chrome, not a
+// topic layout.
 <script setup lang="ts">
 import { ArrowPathIcon, CheckIcon } from '@heroicons/vue/20/solid'
 import { useRoadmapStore, PROGRESS_KEY, type TopicRow } from '~/stores/roadmapStore'
@@ -11,7 +12,7 @@ import { mediaName } from '~/composables/useMedia'
 import { useTitles } from '~/composables/useTitles'
 import { useAudioQueue } from '~/composables/useAudioQueue'
 import { THEAD_STICKY_TOP } from '~/lib/roadmapRail'
-import type { MediaNames, MediaRow } from '~/types/media'
+import type { MediaNames } from '~/types/media'
 import type { SidebarSection, SidebarTopic } from '~/types/sidebars'
 
 const store = useRoadmapStore()
@@ -35,13 +36,17 @@ function playTitle(code: string) {
   if (url) titleQueue.playOne({ id: code, url })
 }
 
-/** Title in the learning language (the term) and in the UI language (the gloss). */
+/** Title in the UI language (the native gloss) and in the learning language (the term).
+ *  When the UI language IS the learning language the native column falls back
+ *  to the English canonical — the target column already shows the term. */
+const nativeName = (names: MediaNames, fallback: string) =>
+  mediaName(names, uiLang.value !== store.lang ? uiLang.value : 'en', fallback)
 const targetName = (names: MediaNames, fallback: string) => mediaName(names, store.lang, fallback)
-const uiName = (names: MediaNames, fallback: string) => mediaName(names, uiLang.value, fallback)
 
-/** Column headers — the same shell as the word table. */
-const nameHeader = computed(() => languageName(store.lang))
-const glossHeader = computed(() => languageName(uiLang.value !== store.lang ? uiLang.value : 'en'))
+/** Column headers — the same shell as the word table: native first, then the
+ *  language learned. */
+const nativeHeader = computed(() => languageName(uiLang.value !== store.lang ? uiLang.value : 'en'))
+const targetHeader = computed(() => languageName(store.lang))
 
 function chapterIds(c: SidebarSection): string[] {
   return store.scopeIds(c.topics.map((tp: SidebarTopic) => tp.code))
@@ -77,8 +82,10 @@ async function toggleChapterDone(c: SidebarSection) {
 interface TitleRow {
   key: string
   code: string
-  name: string
-  translation: string
+  /** Title in the UI language (the native gloss). */
+  native: string
+  /** Title in the learning language (the term). */
+  target: string
   /** Every topic in the chapter is fully learned (drives the row's Done button). */
   done: boolean
   /** No topic has content in the active language — row renders disabled. */
@@ -96,8 +103,8 @@ const titleRows = computed<TitleRow[]>(() =>
   store.visibleChapters.map((c: SidebarSection) => ({
     key: c.code,
     code: c.code,
-    name: targetName(c.names, c.code),
-    translation: uiName(c.names, c.code),
+    native: nativeName(c.names, c.code),
+    target: targetName(c.names, c.code),
     done: chapterDone(c),
     disabled: chapterIds(c).length === 0,
     pick: () => store.pickChapter(c.code),
@@ -143,10 +150,8 @@ async function toggleScopeLearned() {
         <thead class="sticky z-10 bg-soft text-left text-xs uppercase tracking-wide text-faint" :class="THEAD_STICKY_TOP">
           <tr>
             <th class="px-3 py-2 font-medium">{{ copy('dictionary.col_id', 'File ID') }}</th>
-            <th class="px-3 py-2 font-medium">{{ nameHeader }}</th>
-            <th class="hidden px-3 py-2 font-medium sm:table-cell">
-              {{ glossHeader }}
-            </th>
+            <th class="px-3 py-2 font-medium">{{ nativeHeader }}</th>
+            <th class="px-3 py-2 font-medium">{{ targetHeader }}</th>
             <th class="px-3 py-2 text-center font-medium">{{ copy('dictionary.col_audio', 'Audio') }}</th>
             <th class="px-3 py-2 text-center font-medium">
               <!-- Check-all / reset for the whole track scope -->
@@ -191,8 +196,8 @@ async function toggleScopeLearned() {
             @dblclick="!row.disabled && row.open()"
           >
             <td class="whitespace-nowrap px-3 py-2 font-code text-xs text-faint">{{ row.code }}</td>
-            <td class="px-3 py-2 font-medium text-content">{{ row.name }}</td>
-            <td class="hidden px-3 py-2 text-muted sm:table-cell">{{ row.translation }}</td>
+            <td class="px-3 py-2 font-medium text-content">{{ row.native }}</td>
+            <td class="px-3 py-2 text-muted">{{ row.target }}</td>
             <td class="px-3 py-2 text-center">
               <!-- Title audio: lights up via useTitles once the titles payload lands -->
               <button

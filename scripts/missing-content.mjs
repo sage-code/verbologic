@@ -32,7 +32,7 @@ const TOPIC_MAP = join(ROOT, 'src', 'data', 'sidebars', 'library', 'dictionary',
 const OUT = join(ROOT, 'temp', 'missing-content.md')
 
 /** Canonical locale per track (mirrors validate-data / media-index). */
-const CANONICAL_BY_TRACK = { lectures: 'en' } // stories: the track language
+const CANONICAL_BY_TRACK = { dictionary: 'en', lectures: 'en' } // stories: the track language
 
 const readJson = (p) => JSON.parse(readFileSync(p, 'utf-8'))
 const stdout = process.argv.includes('--stdout')
@@ -50,12 +50,13 @@ const walk = (dir, ext, acc = []) => {
 
 /* ── content sources ─────────────────────────────────────────────────────── */
 
-/** Manifest ids under every configured section path (media/<sectionPath>/**.json). */
+/** Manifest ids under each topic (codes are intentionally topic-scoped). */
 const manifestIds = new Set()
 for (const sectionPath of new Set(Object.values(config.sections ?? {}))) {
   for (const file of walk(join(MEDIA, sectionPath), '.json')) {
     const m = readJson(file)
-    if (m.id) manifestIds.add(m.id)
+    const topic = file.split(/[\\/]/).at(-2)
+    if (m.id) manifestIds.add(`${topic}\n${m.id}`)
   }
 }
 
@@ -67,21 +68,35 @@ if (existsSync(ENTITIES)) {
   }
 }
 
-/** Content docs grouped by lecture id: content/<track>/<trackLang>/<TOPIC>/<ID>/<locale>.md */
-const docsByLecture = new Map() // id → { section, trackLang, topic, locales: Set<string> }
+/** Content docs grouped by article id; dictionary prose is shared across target languages. */
+const docsByLecture = new Map() // source key → { id, track, section, trackLang, topic, locales }
+const docsById = new Set()
 for (const file of walk(CONTENT, '.md')) {
   const parts = file.slice(CONTENT.length + 1).split(/[\\/]/)
-  if (parts.length !== 5) continue
-  const [track, trackLang, topic, id, docName] = parts
-  const group = docsByLecture.get(id) ?? { section: `library/${track}`, trackLang, topic, locales: new Set() }
+  const isDictionary = parts[0] === 'dictionary' && parts.length === 4
+  if (!isDictionary && parts.length !== 5) continue
+  const [track, trackLang, topic, id, docName] = isDictionary
+    ? [parts[0], null, parts[1], parts[2], parts[3]]
+    : parts
+  const groupKey = `${track}\n${trackLang ?? ''}\n${topic}\n${id}`
+  const group = docsByLecture.get(groupKey) ?? {
+    id,
+    track,
+    section: `library/${track}`,
+    trackLang,
+    topic,
+    locales: new Set()
+  }
   group.locales.add(docName.replace(/\.md$/, ''))
-  docsByLecture.set(id, group)
+  docsByLecture.set(groupKey, group)
+  docsById.add(`${topic}\n${id}`)
 }
 
 /** The dictionary's planned-topic registry (archive source per blank topic). */
 const plannedSources = existsSync(TOPIC_MAP) ? readJson(TOPIC_MAP).planned ?? {} : {}
 
-const isResolved = (id) => manifestIds.has(id) || entityIds.has(id) || docsByLecture.has(id)
+const isResolved = (topic, id) =>
+  manifestIds.has(`${topic}\n${id}`) || entityIds.has(id) || docsById.has(`${topic}\n${id}`)
 
 /* ── walk the structure layer ────────────────────────────────────────────── */
 
@@ -105,7 +120,7 @@ for (const sidebar of sidebars) {
     for (const topic of chapter.topics ?? []) {
       const items = topic.items ?? []
       totals.ids += items.length
-      const plannedItems = items.filter((id) => !isResolved(id))
+      const plannedItems = items.filter((id) => !isResolved(topic.code, id))
       totals.planned += plannedItems.length
       if (items.length === 0) {
         totals.empty++
@@ -158,9 +173,9 @@ for (const { section, chapter, topic, ids } of plannedByTopic) {
 /* ── content docs missing their canonical locale ─────────────────────────── */
 
 const missingCanonical = []
-for (const [id, group] of docsByLecture) {
+for (const group of docsByLecture.values()) {
   const canonical = CANONICAL_BY_TRACK[group.track] ?? group.trackLang
-  if (!group.locales.has(canonical)) missingCanonical.push({ id, group, canonical })
+  if (!group.locales.has(canonical)) missingCanonical.push({ id: group.id, group, canonical })
 }
 push(`## Content docs missing their canonical locale — ${missingCanonical.length}`, '')
 if (missingCanonical.length === 0) push('_None._', '')

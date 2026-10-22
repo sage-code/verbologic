@@ -1,8 +1,9 @@
 // RoadmapTopicList — topics of the selected chapter (or search hits across all
-// chapters): one row per topic — Topic ID · name · translation · title-audio ·
-// Done (a round check button that marks/unmarks the WHOLE topic learned in one
-// click). No word/article count and no article icon here — those belong to
-// the topic's own word/article table (TopicTable), not this overview.
+// chapters): one row per topic — Topic ID · native gloss · title in the
+// learning language · title-audio · Done (a round check button that
+// marks/unmarks the WHOLE topic learned in one click). No word/article count
+// and no article icon here — those belong to the topic's own word/article
+// table (TopicTable), not this overview.
 <script setup lang="ts">
 import { ArrowPathIcon, CheckIcon } from '@heroicons/vue/20/solid'
 import { useRoadmapStore, PROGRESS_KEY, type TopicRow } from '~/stores/roadmapStore'
@@ -33,13 +34,17 @@ function playTitle(code: string) {
   if (url) titleQueue.playOne({ id: code, url })
 }
 
-/** Title in the learning language (the term) and in the UI language (the gloss). */
+/** Title in the UI language (the native gloss) and in the learning language (the term).
+ *  When the UI language IS the learning language the native column falls back
+ *  to the English canonical — the target column already shows the term. */
+const nativeName = (names: MediaNames, fallback: string) =>
+  mediaName(names, uiLang.value !== store.lang ? uiLang.value : 'en', fallback)
 const targetName = (names: MediaNames, fallback: string) => mediaName(names, store.lang, fallback)
-const uiName = (names: MediaNames, fallback: string) => mediaName(names, uiLang.value, fallback)
 
-/** Column headers — the same shell as the chapters/word tables. */
-const nameHeader = computed(() => languageName(store.lang))
-const glossHeader = computed(() => languageName(uiLang.value !== store.lang ? uiLang.value : 'en'))
+/** Column headers — the same shell as the chapters/word tables: native first,
+ *  then the language learned. */
+const nativeHeader = computed(() => languageName(uiLang.value !== store.lang ? uiLang.value : 'en'))
+const targetHeader = computed(() => languageName(store.lang))
 
 /** A topic without content in the active language renders disabled. */
 const topicEmpty = (code: string) => store.topicCount(code) === 0
@@ -73,8 +78,10 @@ async function toggleTopicDone(code: string) {
 interface TopicRowView {
   key: string
   code: string
-  name: string
-  translation: string
+  /** Title in the UI language (the native gloss). */
+  native: string
+  /** Title in the learning language (the term). */
+  target: string
   disabled: boolean
   /** Click: pick the topic — highlights it and readies the title bar's
    *  "Open Topic" button, but stays on the list (see pickTopic). */
@@ -87,8 +94,8 @@ const topicRows = computed<TopicRowView[]>(() =>
   store.visibleTopics.map((tp: TopicRow) => ({
     key: tp.code,
     code: tp.code,
-    name: targetName(tp.names, tp.code),
-    translation: uiName(tp.names, tp.code),
+    native: nativeName(tp.names, tp.code),
+    target: targetName(tp.names, tp.code),
     disabled: topicEmpty(tp.code),
     pick: () => store.pickTopic(tp.code),
     open: () => store.openTopic(tp.code)
@@ -109,8 +116,8 @@ const topicRows = computed<TopicRowView[]>(() =>
       <thead class="sticky z-10 bg-soft text-left text-xs uppercase tracking-wide text-faint" :class="THEAD_STICKY_TOP">
         <tr>
           <th class="px-3 py-2 font-medium">{{ copy('dictionary.col_id', 'Topic ID') }}</th>
-          <th class="px-3 py-2 font-medium">{{ nameHeader }}</th>
-          <th class="hidden px-3 py-2 font-medium sm:table-cell">{{ glossHeader }}</th>
+          <th class="px-3 py-2 font-medium">{{ nativeHeader }}</th>
+          <th class="px-3 py-2 font-medium">{{ targetHeader }}</th>
           <th class="px-3 py-2 text-center font-medium">{{ copy('dictionary.col_audio', 'Audio') }}</th>
           <th class="px-3 py-2 text-center font-medium">{{ copy('dictionary.col_done', 'Done') }}</th>
         </tr>
@@ -133,8 +140,8 @@ const topicRows = computed<TopicRowView[]>(() =>
           @dblclick="!row.disabled && row.open()"
         >
           <td class="whitespace-nowrap px-3 py-2 font-code text-xs text-faint">{{ row.code }}</td>
-          <td class="px-3 py-2 font-medium text-content">{{ row.name }}</td>
-          <td class="hidden px-3 py-2 text-muted sm:table-cell">{{ row.translation }}</td>
+          <td class="px-3 py-2 font-medium text-content">{{ row.native }}</td>
+          <td class="px-3 py-2 text-muted">{{ row.target }}</td>
           <td class="px-3 py-2 text-center">
             <!-- Title audio: lights up via useTitles once the titles payload lands -->
             <button

@@ -20,6 +20,7 @@ export interface MediaMedia {
 
 /** One row in a topic table (dictionary word, lecture video, story image). */
 export interface MediaRecord {
+  /** Topic-scoped content code (for example, A023), shared across languages. */
   id: string
   /** Sidebar section the record belongs to, e.g. 'library/dictionary'. */
   section: string
@@ -34,6 +35,12 @@ export interface MediaRecord {
   names: MediaNames
   ipa: string | null
   media: MediaMedia
+  /**
+   * Full-article read recording for this record's language
+   * (`media/<track>/…/read/<locale>.mp3`). Null when the manifest has no read
+   * map or the recording is still pending.
+   */
+  read?: MediaMedia | null
   tags: string[]
   /** Register/usage note (optional manifest field, e.g. 'hard c'). */
   context: string | null
@@ -41,7 +48,7 @@ export interface MediaRecord {
   example: string | null
   /** Topic code the record belongs to, e.g. 'C1T01'. */
   topic: string
-  /** Progress join key (learned_items.entity_id). */
+  /** Language-independent progress identity: `<TOPIC>:<CODE>`. */
   entity_id: string
   /** Content docs (lectures/stories) — present only on content-backed records. */
   content?: ContentMeta
@@ -51,14 +58,14 @@ export interface MediaRecord {
 
 export type MediaRecords = MediaRecord[]
 
-/** Review state of one locale document of a content-backed record (lecture/story). */
+/** Review state of one locale document of a content-backed record. */
 export interface ContentDocState {
   status: 'draft' | 'reviewed'
   /** True when the canonical document changed after this translation was made. */
   stale: boolean
 }
 
-/** Content docs (content/** front matter) joined onto a media record. */
+/** Content docs (dictionary/lecture/story front matter) joined onto a media record. */
 export interface ContentMeta {
   /** Locale of the canonical document ('en' for lectures, the track language for stories). */
   canonical: string
@@ -78,10 +85,11 @@ export interface ContentMeta {
  * a supertype of `{ url }`), so one row pipeline serves both sources.
  */
 export interface MediaRow {
+  /** Topic-scoped content code (for example, A023), shared across languages. */
   id: string
   /** Topic code the row belongs to, e.g. 'C3T01' (the search-results chip). */
   topic: string
-  /** Progress join key (learned_items.entity_id). */
+  /** Language-independent progress identity: `<TOPIC>:<CODE>`. */
   entity_id: string
   /** Target language of the row ('ro', 'en', …). */
   lang: string
@@ -90,6 +98,8 @@ export interface MediaRow {
   ipa: string | null
   context: string | null
   media: { url: string | null }
+  /** Full-article read recording for the row's language (null while pending). */
+  read?: { url: string | null } | null
   /** Article docs — any row (word, expression, story…) may carry one; the
    *  table shows a read button when present. */
   content?: ContentMeta

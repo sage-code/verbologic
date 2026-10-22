@@ -5,11 +5,12 @@
 // selection. One table, three data sources: the open topic's rows, or the
 // dictionary-wide search results (the toolbar's filter mode), which take
 // precedence regardless of the topic underneath.
-// Columns: name in the learning language (the File ID stays in the DOM as a
-// hidden sr-only field) · IPA (Dictionary only — words are short, so the
-// narrower columns still fit; the Lectures' expressions never show IPA) ·
+// Columns: native gloss first (the user's language — English canonical when
+// the UI language is the target language) · name in the learning language
+// (the File ID stays in the DOM as a hidden sr-only field) · IPA (Dictionary
+// only — hidden on small screens; the Lectures' expressions never show IPA) ·
 // read (a book button when the row carries an article — words, expressions
-// and stories alike; blank otherwise) · translation · per-row play button (pause
+// and stories alike; blank otherwise) · per-row play button (pause
 // bars while its file plays, looping or not) · learned toggle. The header's check-all scope
 // is the visible page. Lectures rows get a fixed two-line height — long
 // expressions wrap, short ones sit centered in an equal-height row.
@@ -19,7 +20,7 @@ import { useRoadmapStore, PROGRESS_KEY } from '~/stores/roadmapStore'
 import { useAudioQueue, type QueueItem } from '~/composables/useAudioQueue'
 import { glossName } from '~/lib/dictionarySearch'
 import { THEAD_STICKY_TOP } from '~/lib/roadmapRail'
-import type { MediaNames, MediaRow } from '~/types/media'
+import type { MediaRow } from '~/types/media'
 import DictionaryToolbar from './DictionaryToolbar.vue'
 
 const store = useRoadmapStore()
@@ -48,14 +49,15 @@ function docLocale(r: MediaRow): string {
 /** Prerendered article route of a row that carries an article (any track). */
 const articleHref = (r: MediaRow) => `/learn/${store.lang}/${store.track}/${r.topic}/${r.id}/${docLocale(r)}`
 
-/** Gloss in the user's language: UI locale first, then English canonical. */
-const gloss = (r: MediaRow): string => glossName(r.names, r.lang, uiLang.value)
+/** Native gloss (the user's language): UI locale first, then English canonical,
+ *  then the target term itself — the first column is never blank. */
+const native = (r: MediaRow): string => glossName(r.names, r.lang, uiLang.value) || r.term
 
-/** Column headers: the language learned first, then the language the glosses
- *  are actually shown in — the toolbar language, or English when it matches
- *  the target language (the gloss falls back to names.en in that case). */
-const nameHeader = computed(() => languageName(store.lang))
-const glossHeader = computed(() => languageName(uiLang.value !== store.lang ? uiLang.value : 'en'))
+/** Column headers: the native language first, then the language learned —
+ *  the toolbar language, or English when it matches the target language
+ *  (the gloss falls back to names.en in that case). */
+const nativeHeader = computed(() => languageName(uiLang.value !== store.lang ? uiLang.value : 'en'))
+const targetHeader = computed(() => languageName(store.lang))
 
 /** Dictionary track: words only — an IPA column fits beside the name. The
  *  Lectures' expressions never show IPA. */
@@ -172,22 +174,28 @@ watch(
       }}
     </p>
 
-    <!-- The paginated word table: name · translation · play · learned -->
+    <!-- The paginated word table: native · target · play · learned -->
     <div v-else class="overflow-clip rounded-lg border border-edge bg-surface shadow-sm">
-      <table class="w-full border-collapse text-sm">
+      <table class="w-full table-fixed border-collapse text-sm">
+        <colgroup>
+          <col />
+          <col />
+          <col v-if="isDictionary" class="hidden sm:table-column" />
+          <col class="w-14" />
+          <col class="w-14" />
+          <col class="w-14" />
+        </colgroup>
         <thead class="sticky z-10 bg-soft text-left text-xs uppercase tracking-wide text-faint" :class="THEAD_STICKY_TOP">
           <tr>
-            <th class="px-3 py-2 font-medium">{{ nameHeader }}</th>
-            <th v-if="isDictionary" class="px-3 py-2 font-medium">
+            <th class="px-3 py-2 font-medium [overflow-wrap:anywhere]">{{ nativeHeader }}</th>
+            <th class="px-3 py-2 font-medium [overflow-wrap:anywhere]">{{ targetHeader }}</th>
+            <th v-if="isDictionary" class="hidden px-3 py-2 font-medium sm:table-cell [overflow-wrap:anywhere]">
               {{ copy('dictionary.col_ipa', 'IPA') }}
             </th>
             <!-- Article column: header left blank, the book icon speaks for itself -->
-            <th class="w-10 px-1 py-2" :aria-label="copy('article.label', 'Article')" />
-            <th class="hidden px-3 py-2 font-medium sm:table-cell">
-              {{ glossHeader }}
-            </th>
-            <th class="px-3 py-2 text-center font-medium">{{ copy('dictionary.col_audio', 'Audio') }}</th>
-            <th class="px-3 py-2 text-center font-medium">
+            <th class="w-14 px-1 py-2 text-center" :aria-label="copy('article.label', 'Article')" />
+            <th class="w-14 px-1 py-2 text-center font-medium">{{ copy('dictionary.col_audio', 'Audio') }}</th>
+            <th class="w-14 px-1 py-2 text-center font-medium">
               <!-- Check-all / reset: scope = the visible page; same height as
                    the data rows; marks every row done, then resets them -->
               <button
@@ -222,11 +230,12 @@ watch(
             :class="[activeId === r.entity_id ? 'bg-accent-soft' : 'hover:bg-soft', isDictionary ? '' : 'expr-row']"
             @click="stopAutoplay"
           >
+            <td class="px-3 py-2 font-medium text-content">{{ native(r) }}</td>
             <td class="px-3 py-2">
               <!-- File ID: kept in the DOM as a hidden (screen-reader-only)
                    field — no visible column anymore -->
               <span class="sr-only">{{ r.id }}</span>
-              <span class="font-medium text-content">{{ r.term }}</span>
+              <span class="text-content">{{ r.term }}</span>
               <span v-if="r.context" class="mt-0.5 block text-xs text-faint" :title="r.context">{{ r.context }}</span>
               <!-- Search results come from every topic: the chip names the
                    row's topic and jumps straight into its word table -->
@@ -242,13 +251,13 @@ watch(
             </td>
             <!-- IPA column (Dictionary only) — muted mono, blank until the
                  transcription is authored on the entity -->
-            <td v-if="isDictionary" class="whitespace-nowrap px-3 py-2 font-code text-xs text-muted">
+            <td v-if="isDictionary" class="hidden whitespace-nowrap px-3 py-2 font-code text-xs text-muted sm:table-cell">
               {{ r.ipa ?? '' }}
             </td>
             <!-- Read: always shown. A row with an article (word, expression,
                  story) opens it on its prerendered page; otherwise the same
                  icon renders disabled, like the "Audio coming soon" play -->
-            <td class="w-10 px-1 py-2 text-center">
+            <td class="w-14 px-1 py-2 text-center">
               <NuxtLink
                 v-if="r.content"
                 :to="articleHref(r)"
@@ -273,8 +282,7 @@ watch(
                 <span class="absolute h-0.5 w-6 rotate-45 rounded-full bg-muted" aria-hidden="true" />
               </button>
             </td>
-            <td class="hidden px-3 py-2 text-muted sm:table-cell">{{ gloss(r) }}</td>
-            <td class="px-3 py-2 text-center">
+            <td class="w-14 px-1 py-2 text-center">
               <button
                 type="button"
                 class="inline-flex h-8 w-8 items-center justify-center rounded-full border text-sm transition disabled:cursor-not-allowed disabled:border-edge disabled:text-faint"
@@ -305,7 +313,7 @@ watch(
                 </span>
               </button>
             </td>
-            <td class="px-3 py-2 text-center">
+            <td class="w-14 px-1 py-2 text-center">
               <button
                 type="button"
                 class="inline-flex h-8 w-8 items-center justify-center rounded-full border transition"

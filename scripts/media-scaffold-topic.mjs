@@ -8,18 +8,19 @@
  *
  *   node scripts/media-scaffold-topic.mjs <lang> <TOPIC> <seed.json> [--kind word]
  *
- * Seed JSON: [{ "term": "carte", "names": { "en": "book" }, "ipa": "/ˈkar.te/" }, …]
- *  - term (required, target language) · names: extra locale glosses (optional)
- *  - ipa (optional) · kind via --kind (default 'word' → id prefix 'word')
+ * Seed JSON: [{ "term": "carte", "id": "A023", "names": { …all locales… }, "ipa": "/ˈkar.te/" }, …]
+ *  - term (required, target language) · names must cover all other 8 locales
+ *  - id (optional) reuses an assigned content code for another language variant
+ *  - ipa (optional) · kind via --kind (default 'word')
  *
  * What it does:
  *  - writes media/audio/<lang>/<TOPIC>/A0NN.json with status 'pending'
  *    (key/file/bytes/sha1 null — renders as "audio coming soon" until filled).
- *    A0NN is sequential per topic folder (continues from the highest existing
- *    A-code there) — the manifest filename convention used across the whole
- *    repo; the semantic id lives in the `id` field, not the filename.
- *  - ids are `<kind-prefix>_<slug(term)>`, deduped against the whole sidebar
- *  - inserts the ids into the sidebar topic's items (append, deduped)
+ *    The manifest `id` is a topic-scoped content code (A001, A002, …), shared
+ *    by every target-language variant. The filename/audio key stays
+ *    language-specific.
+ *  - assigns a language-independent `<TOPIC>:<CODE>` entity_id
+ *  - replaces a matching planned sidebar slug, or appends the new content code
  *  - never touches published manifests or existing items
  */
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
@@ -29,6 +30,7 @@ import { fileURLToPath } from 'node:url'
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const MEDIA_AUDIO = join(ROOT, 'media', 'audio')
 const SIDEBAR_FILE = join(ROOT, 'src', 'data', 'sidebars', 'library', 'dictionary', 'sidebar.json')
+const LOCALES = ['en', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
 
 /** ASCII-safe slug (diacritics stripped) — the extract-legacy convention. */
 const slug = (s) =>
@@ -56,13 +58,34 @@ function fail(msg) {
 }
 
 /** Next free A-code in a topic dir (A007.json, A008.json, … → 9), 1 if empty/missing. */
-function nextCode(dir) {
+function nextFileCode(dir) {
   if (!existsSync(dir)) return 1
   const nums = readdirSync(dir)
     .map((f) => /^A(\d+)\.json$/.exec(f))
     .filter(Boolean)
     .map((m) => Number(m[1]))
   return nums.length ? Math.max(...nums) + 1 : 1
+}
+
+function nextContentCode(topic, topicEntry) {
+  let highest = 0
+  for (const lang of existsSync(MEDIA_AUDIO) ? readdirSync(MEDIA_AUDIO) : []) {
+    const dir = join(MEDIA_AUDIO, lang, topic)
+    if (!existsSync(dir)) continue
+    for (const file of readdirSync(dir).filter((name) => name.endsWith('.json'))) {
+      const manifest = JSON.parse(readFileSync(join(dir, file), 'utf8'))
+      const match = /^A(\d{3,})(?:-\d+)?$/.exec(manifest.id ?? '')
+      if (match) highest = Math.max(highest, Number(match[1]))
+    }
+  }
+  for (const id of topicEntry.items) {
+    const match = /^A(\d{3,})(?:-\d+)?$/.exec(id)
+    if (match) highest = Math.max(highest, Number(match[1]))
+  }
+  for (const counters of Object.values(topicEntry.lastIndex ?? {})) {
+    highest = Math.max(highest, Number(counters?.audio ?? 0))
+  }
+  return highest + 1
 }
 
 function main() {
@@ -75,32 +98,63 @@ function main() {
   if (!prefix) fail(`unknown kind '${kind}' (${Object.keys(PREFIX_BY_KIND).join(', ')})`)
 
   const seed = JSON.parse(readFileSync(seedFile, 'utf-8'))
-  if (!Array.isArray(seed) || seed.length === 0) fail('seed must be a non-empty array of { term, names?, ipa? }')
+  if (!Array.isArray(seed) || seed.length === 0) fail('seed must be a non-empty array of { term, names, id?, ipa? }')
+  if (!LOCALES.includes(lang)) fail(`unknown language '${lang}' (${LOCALES.join(', ')})`)
+  for (const row of seed) {
+    const missing = LOCALES.filter((locale) =>
+      locale !== lang && (typeof row.names?.[locale] !== 'string' || !row.names[locale].trim())
+    )
+    if (missing.length) fail(`seed row '${row.term ?? '?'}' is missing names for: ${missing.join(', ')}`)
+  }
 
   const sidebar = JSON.parse(readFileSync(SIDEBAR_FILE, 'utf-8'))
-  // Reserved ids: the whole sidebar (all languages) + existing manifest ids.
-  const taken = new Set(
-    sidebar.sections.flatMap((c) => c.topics.flatMap((t) => t.items))
-  )
-
   const chapter = sidebar.sections.find((c) => c.topics.some((t) => t.code === topic))
   const topicEntry = chapter?.topics.find((t) => t.code === topic)
   if (!topicEntry) fail(`unknown topic '${topic}'`)
 
   const dir = join(MEDIA_AUDIO, lang, topic)
   mkdirSync(dir, { recursive: true })
-  let code = nextCode(dir)
+  let fileCode = nextFileCode(dir)
+  let contentCode = nextContentCode(topic, topicEntry)
+  const existingCodes = new Map()
+  const existingLanguageCodes = new Set()
+  for (const existingLang of existsSync(MEDIA_AUDIO) ? readdirSync(MEDIA_AUDIO) : []) {
+    const langDir = join(MEDIA_AUDIO, existingLang)
+    for (const existingTopic of readdirSync(langDir, { withFileTypes: true }).filter((entry) => entry.isDirectory())) {
+      const existingDir = join(langDir, existingTopic.name)
+      for (const file of readdirSync(existingDir).filter((name) => name.endsWith('.json'))) {
+        const manifest = JSON.parse(readFileSync(join(existingDir, file), 'utf8'))
+        if (existingTopic.name === topic && manifest.id && manifest.entity_id) {
+          existingCodes.set(manifest.id, `${topic}:${manifest.id}`)
+        }
+        if (existingLang === lang && existingTopic.name === topic && manifest.id) {
+          existingLanguageCodes.add(manifest.id)
+        }
+      }
+    }
+  }
   const created = []
   for (const row of seed) {
     if (!row.term) fail(`seed row without term: ${JSON.stringify(row)}`)
-    const base = slug(row.term)
-    let id = `${prefix}_${base}`
-    let n = 2
-    while (taken.has(id)) id = `${prefix}_${base}-${n++}`
-    taken.add(id)
+    const plannedId = `${prefix}_${slug(row.term)}`
+    let id = row.id
+    if (id) {
+      if (!/^A\d{3,}(?:-\d+)?$/.test(id)) fail(`seed row id must be a content code such as A023: ${id}`)
+      if (existingLanguageCodes.has(id)) fail(`content code '${id}' already has a ${lang} manifest in ${topic}`)
+      if (!topicEntry.items.includes(id) && !existingCodes.has(id)) {
+        fail(`content code '${id}' is not already assigned to ${topic}; omit row.id to allocate a new code`)
+      }
+    } else {
+      id = `A${String(contentCode++).padStart(3, '0')}`
+      const existingIndex = topicEntry.items.indexOf(plannedId)
+      if (existingIndex >= 0) topicEntry.items[existingIndex] = id
+      else topicEntry.items.push(id)
+    }
+    const entityId = existingCodes.get(id) ?? `${topic}:${id}`
 
     const manifest = {
       id,
+      entity_id: entityId,
       lang,
       kind,
       term: row.term,
@@ -114,10 +168,10 @@ function main() {
       status: 'pending',
       tags: [`scaffold#${topic}`]
     }
-    const fileName = `A${String(code++).padStart(3, '0')}.json`
+    const fileName = `A${String(fileCode++).padStart(3, '0')}.json`
     writeFileSync(join(dir, fileName), JSON.stringify(manifest, null, 2) + '\n')
-    topicEntry.items.push(id)
-    created.push(id)
+    existingCodes.set(id, entityId)
+    created.push(`${id} (${entityId})`)
   }
 
   writeFileSync(SIDEBAR_FILE, JSON.stringify(sidebar, null, 2) + '\n')

@@ -1,10 +1,9 @@
 /**
  * Per-language learning-track metadata for the Library panels.
  *
- * Each owned language exposes three distinct tracks — Dictionary, Lectures and
- * Stories. Only languages with live content have an entry in TRACKS; every
- * track without a live route resolves `null` and the panel shows the
- * "coming soon" state for that track.
+ * The shared dictionary structure is available for every registered language.
+ * Story routes share the same translated collection for every registered
+ * language; lectures remain live only where that language has content.
  *
  * Live routes are served by src/pages/learn/[locale]/[track]/index.vue
  * (Dictionary renders the shared RoadmapShell). All 9 languages × 3 tracks
@@ -34,7 +33,14 @@ export const TRACKS: Record<string, TrackMeta> = {
   en: {
     words: 74,
     tracks: { dictionary: '/learn/en/dictionary', lectures: '/learn/en/lectures', stories: '/learn/en/stories' }
-  }
+  },
+  de: { words: 0, tracks: { dictionary: '/learn/de/dictionary', lectures: null, stories: '/learn/de/stories' } },
+  ru: { words: 0, tracks: { dictionary: '/learn/ru/dictionary', lectures: null, stories: '/learn/ru/stories' } },
+  it: { words: 0, tracks: { dictionary: '/learn/it/dictionary', lectures: null, stories: '/learn/it/stories' } },
+  es: { words: 0, tracks: { dictionary: '/learn/es/dictionary', lectures: null, stories: '/learn/es/stories' } },
+  fr: { words: 0, tracks: { dictionary: '/learn/fr/dictionary', lectures: null, stories: '/learn/fr/stories' } },
+  hu: { words: 0, tracks: { dictionary: '/learn/hu/dictionary', lectures: null, stories: '/learn/hu/stories' } },
+  pt: { words: 0, tracks: { dictionary: '/learn/pt/dictionary', lectures: null, stories: '/learn/pt/stories' } }
 }
 
 /** Track metadata for a language; unknown languages resolve to a stub. */

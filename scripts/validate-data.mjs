@@ -166,13 +166,38 @@ try {
         })
       : []
 
-  // Manifests (media/**.json), keyed by id.
+  // Learning manifests are keyed by topic-scoped content id.
   const manifestIds = new Set()
+  let manifestCount = 0
   for (const file of walkFiles('media', '.json')) {
-    const relPath = rel(file).replace(/^media\//, '')
+    if (file.split(/[\\/]/).at(-1) !== 'item.json') continue
+    const relPath = file.replaceAll('\\', '/').replace(/^media\//, '')
     const manifest = readJson(file)
-    if (!manifest.id) continue // non-manifest JSON (none expected)
-    manifestIds.add(manifest.id)
+    if (manifest.code && manifest.track) {
+      manifestCount++
+      const isTitle = ['chapter-title', 'topic-title'].includes(manifest.kind)
+      if (!isTitle && manifest.topic) manifestIds.add(`${manifest.topic}\n${manifest.code}`)
+      if (!isTitle && !/^([AVP]\d{3,})(?:-\d+)?$/.test(manifest.code)) {
+        ERRORS.push(`media manifest ${relPath}: code '${manifest.code}' must be a media code such as A023`)
+      }
+      if (!manifest.names || !Object.values(manifest.names).some((name) => typeof name === 'string' && name.trim())) {
+        ERRORS.push(`media manifest ${relPath}: missing localized names`)
+      }
+      continue
+    }
+    if (!manifest.id) continue
+    manifestCount++
+    const topic = file.split(/[\\/]/).at(-2)
+    const isTitle = ['chapter-title', 'topic-title'].includes(manifest.kind)
+    manifestIds.add(`${topic}\n${manifest.id}`)
+    if (!isTitle && !/^([AVP]\d{3,})(?:-\d+)?$/.test(manifest.id)) {
+      ERRORS.push(`media manifest ${relPath}: id '${manifest.id}' must be a media code such as A023`)
+    }
+    if (!isTitle && !manifest.entity_id) {
+      ERRORS.push(`media manifest ${relPath}: missing language-independent entity_id`)
+    } else if (!isTitle && manifest.entity_id !== `${topic}:${manifest.id}`) {
+      ERRORS.push(`media manifest ${relPath}: entity_id '${manifest.entity_id}' must match '${topic}:${manifest.id}'`)
+    }
     if (!manifest.lang || !localeCodesAll.includes(manifest.lang)) {
       ERRORS.push(`media manifest ${relPath}: bad lang '${manifest.lang}'`)
     }
@@ -218,7 +243,9 @@ try {
           itemCount++
           // Structure-first: an id resolving to nothing yet is a PLANNED item
           // (reported below, never fatal — see the header policy note).
-          if (!manifestIds.has(id) && !entities.has(id)) plannedIds.push(`${sidebar.id} · ${topic.code}: ${id}`)
+          if (!manifestIds.has(`${topic.code}\n${id}`) && !entities.has(id)) {
+            plannedIds.push(`${sidebar.id} · ${topic.code}: ${id}`)
+          }
         }
       }
     }
@@ -226,28 +253,30 @@ try {
   for (const sectionId of Object.keys(config.sections ?? {})) {
     if (!seenSections.has(sectionId)) ERRORS.push(`config.sections has no sidebar for '${sectionId}'`)
   }
-  console.log(`media: ${sidebarFiles.length} sidebars · ${itemCount} items · ${manifestIds.size} manifests · config root ${config.root}`)
+  console.log(`media: ${sidebarFiles.length} sidebars · ${itemCount} items · ${manifestCount} manifests · config root ${config.root}`)
 } catch (e) {
   ERRORS.push(`media model missing or unparseable: ${e.message}`)
 }
 
-/* ── content: lectures/stories front matter ↔ sidebars ↔ manifests ─────── */
+/* ── content: shared dictionary + lecture/story front matter ───────────── */
 try {
   const { default: grayMatter } = await import('gray-matter')
   const LOCALES = ['en', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
-  const CANONICAL_BY_TRACK = { lectures: 'en' } // stories: the track language
+  const CANONICAL_BY_TRACK = { dictionary: 'en', lectures: 'en', stories: 'en' }
   const contentDir = join(ROOT, 'content')
 
   const walkContent = (dir, parts) =>
     existsSync(dir)
       ? readdirSync(dir, { withFileTypes: true }).flatMap((e) => {
           const next = [...parts, e.name]
+          if (parts.length === 0 && e.isFile() && e.name.toLowerCase() === 'readme.md') return []
           return e.isDirectory() ? walkContent(join(dir, e.name), next) : e.name.endsWith('.md') ? [next] : []
         })
       : []
 
   // Manifest ids (media/**.json) — content media (the video) must resolve here.
   const mediaManifestIds = new Set()
+  const mediaTermsByTopicId = new Map()
   const walkManifestFiles = (dir) =>
     existsSync(dir)
       ? readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
@@ -256,7 +285,23 @@ try {
       : []
   for (const file of walkManifestFiles(join(ROOT, 'media'))) {
     const manifest = JSON.parse(readFileSync(file, 'utf-8'))
-    if (manifest.id) mediaManifestIds.add(manifest.id)
+    if (manifest.code && manifest.topic) {
+      const isTitle = ['chapter-title', 'topic-title'].includes(manifest.kind)
+      if (!isTitle) {
+        const key = `${manifest.topic}\n${manifest.code}`
+        mediaManifestIds.add(key)
+        mediaTermsByTopicId.set(key, manifest.names ?? {})
+      }
+    } else if (manifest.id) {
+      const topic = file.split(/[\\/]/).at(-2)
+      mediaManifestIds.add(`${topic}\n${manifest.id}`)
+      if (manifest.lang && manifest.term) {
+        const key = `${topic}\n${manifest.id}`
+        const terms = mediaTermsByTopicId.get(key) ?? {}
+        terms[manifest.lang] = manifest.term
+        mediaTermsByTopicId.set(key, terms)
+      }
+    }
   }
 
   const sidebarBySection = {}
@@ -265,46 +310,84 @@ try {
     sidebarBySection[doc.id] = doc
   }
 
-  const docsByLecture = new Map() // id → { track, trackLang, topic, docs: Map<locale, data> }
+  const docsByLecture = new Map() // topic/id → { track, trackLang?, topic, docs: Map<locale, data> }
   const contentFiles = walkContent(contentDir, [])
   for (const parts of contentFiles) {
     const relPath = `content/${parts.join('/')}`
-    // <lectures|stories>/<trackLang>/<TOPIC>/<id>/<locale>.md
-    if (parts.length !== 5) {
-      ERRORS.push(`content ${relPath}: must live at <track>/<trackLang>/<TOPIC>/<id>/<locale>.md`)
+    // Shared: <track>/<TOPIC>/<id>/<locale>.md. Legacy stories may still
+    // use <track>/<trackLang>/<TOPIC>/<id>/<locale>.md.
+    const isShared =
+      (['dictionary', 'lectures'].includes(parts[0]) || parts[0] === 'stories') && parts.length === 4
+    if (!isShared && parts.length !== 5) {
+      ERRORS.push(`content ${relPath}: invalid article path`)
       continue
     }
-    const [track, trackLang, topic, id, docName] = parts
+    const [track, trackLang, topic, id, docName] = isShared
+      ? [parts[0], null, parts[1], parts[2], parts[3]]
+      : parts
     const locale = docName.replace(/\.md$/, '')
     const { data } = grayMatter(readFileSync(join(contentDir, ...parts), 'utf8'))
     if (!LOCALES.includes(locale)) ERRORS.push(`content ${relPath}: bad doc locale '${locale}'`)
     if (!data.title) ERRORS.push(`content ${relPath}: missing title`)
     for (const [field, expected] of [
       ['track', track],
-      ['trackLang', trackLang],
       ['topic', topic],
       ['article', id],
       ['locale', locale]
     ]) {
       if (data[field] !== expected) ERRORS.push(`content ${relPath}: front-matter ${field} '${data[field]}' != path '${expected}'`)
     }
+    if (data.entity_id && data.entity_id !== `${topic}:${id}`) {
+      ERRORS.push(`content ${relPath}: entity_id '${data.entity_id}' must match '${topic}:${id}'`)
+    }
+    if (isShared && ['dictionary', 'lectures'].includes(track)) {
+      if (data.trackLang !== undefined) ERRORS.push(`content ${relPath}: shared ${track} articles must not declare trackLang`)
+      if (!data.terms || LOCALES.some((language) => typeof data.terms[language] !== 'string' || !data.terms[language])) {
+        ERRORS.push(`content ${relPath}: shared articles need a non-empty terms entry for every locale`)
+      }
+    } else if (isShared) {
+      if (data.trackLang !== undefined) ERRORS.push(`content ${relPath}: shared stories must not declare trackLang`)
+    } else if (data.trackLang !== trackLang) {
+      ERRORS.push(`content ${relPath}: front-matter trackLang '${data.trackLang}' != path '${trackLang}'`)
+    }
     if (data.status && !['draft', 'reviewed'].includes(data.status)) {
       ERRORS.push(`content ${relPath}: bad status '${data.status}'`)
     }
-    const group = docsByLecture.get(id) ?? { track, trackLang, topic, docs: new Map() }
+    const groupKey = `${track}\n${trackLang ?? ''}\n${topic}\n${id}`
+    const group = docsByLecture.get(groupKey) ?? { track, trackLang, topic, terms: null, docs: new Map() }
+    if (isShared && ['dictionary', 'lectures'].includes(track)) {
+      const terms = data.terms ?? {}
+      if (group.terms && LOCALES.some((language) => group.terms[language] !== terms[language])) {
+        ERRORS.push(`content ${relPath}: terms map differs from another locale document for '${topic}/${id}'`)
+      }
+      group.terms ??= terms
+    }
     group.docs.set(locale, data)
-    docsByLecture.set(id, group)
+    docsByLecture.set(groupKey, group)
   }
 
-  for (const [id, group] of docsByLecture) {
-    const canonicalLocale = CANONICAL_BY_TRACK[group.track] ?? group.trackLang
+  for (const [groupKey, group] of docsByLecture) {
+    const canonicalLocale =
+      group.track === 'stories' && group.trackLang
+        ? group.trackLang
+        : CANONICAL_BY_TRACK[group.track] ?? group.trackLang
     if (!group.docs.has(canonicalLocale)) {
-      ERRORS.push(`content '${id}': no canonical '${canonicalLocale}' document`)
+      ERRORS.push(`content '${groupKey.replaceAll('\n', '/')}' no canonical '${canonicalLocale}' document`)
+    }
+    if (group.track === 'dictionary' || group.track === 'lectures') {
+      const manifestTerms = mediaTermsByTopicId.get(`${group.topic}\n${groupKey.split('\n').at(-1)}`) ?? {}
+      for (const language of LOCALES) {
+        if (!manifestTerms[language]) {
+          ERRORS.push(`content '${group.topic}/${groupKey.split('\n').at(-1)}' has no ${language} media manifest`)
+        } else if (manifestTerms[language] !== group.terms?.[language]) {
+          ERRORS.push(`content '${group.topic}/${groupKey.split('\n').at(-1)}' terms.${language} does not match its media manifest`)
+        }
+      }
     }
     // Reachability (the id being a sidebar item of its topic) is NOT checked:
     // structure-first policy — a doc whose sidebar topic/items have not landed
     // yet is a planned item, inventoried by `run missing`, never fatal.
-    // Manifests for content media (the video) are validated by the media pass (manifestIds).
+    // Shared target-language terms are also checked against their media manifests below.
   }
 
   // ── topic layouts — ONE topic, ONE layout kind (the pane is picked by the
@@ -315,10 +398,12 @@ try {
   // Any row in any layout may ALSO carry an article (content doc joined by id)
   // — the table's read button opens it.
   const TOPIC_LAYOUTS = ['table', 'article', 'gallery']
-  const mimeById = new Map() // manifest id → mime
+  const mimeById = new Map() // `${topic}\n${manifest id}` → mime
   for (const file of walkManifestFiles(join(ROOT, 'media'))) {
     const manifest = JSON.parse(readFileSync(file, 'utf-8'))
-    if (manifest.id && manifest.mime) mimeById.set(manifest.id, manifest.mime)
+    const topic = manifest.topic ?? file.split(/[\\/]/).at(-2)
+    const id = manifest.code ?? manifest.id
+    if (id && manifest.mime) mimeById.set(`${topic}\n${id}`, manifest.mime)
   }
   let layoutCount = 0
   const layoutTotals = {}
@@ -337,13 +422,15 @@ try {
         // entity / doc at all is a PLANNED item (structure-first policy) —
         // inventoried by `run missing`, never fatal.
         for (const id of topic.items ?? []) {
+          const manifestKey = `${topic.code}\n${id}`
+          const mime = mimeById.get(manifestKey)
           if (layout === 'article') {
-            if (mediaManifestIds.has(id) && !(mimeById.get(id) ?? '').startsWith('video/')) {
+            if (mime && mediaManifestIds.has(manifestKey) && !mime.startsWith('video/')) {
               ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: article item '${id}' has a non-video manifest — articles are prose-only (a video manifest is allowed)`)
             }
-          } else if (layout === 'gallery' && mediaManifestIds.has(id) && !(mimeById.get(id) ?? '').startsWith('image/')) {
+          } else if (layout === 'gallery' && mime && mediaManifestIds.has(manifestKey) && !mime.startsWith('image/')) {
             ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: gallery item '${id}' has a non-image manifest`)
-          } else if (layout === 'table' && (mimeById.get(id) ?? '').startsWith('image/')) {
+          } else if (layout === 'table' && mime?.startsWith('image/')) {
             ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: table topic holds image item '${id}' — make it a gallery topic`)
           }
         }

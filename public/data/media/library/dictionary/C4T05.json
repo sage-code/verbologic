@@ -4,29 +4,23 @@
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
-    "source": "media",
+    "source": "legacy",
     "term": "stânga",
     "names": {
       "en": "left",
       "es": "izquierda",
       "it": "sinistra",
       "fr": "gauche",
-      "de": "links",
-      "ru": "налево",
-      "hu": "balra",
-      "pt": "esquerda",
       "ro": "stânga"
     },
-    "ipa": "ˈstɨnga",
+    "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C4T04/A031.mp3",
+      "url": "https://media.verbologic.com/audio/ro/word_stanga.mp3",
       "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "7e6d7761743fd2269b91c1ec9e4729f87971fcee"
+      "bytes": 0,
+      "sha1": null
     },
-    "tags": [
-      "vocabulary#transport-directions"
-    ],
+    "tags": [],
     "context": null,
     "example": null,
     "topic": "C4T05",
@@ -37,29 +31,23 @@
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
-    "source": "media",
+    "source": "legacy",
     "term": "dreapta",
     "names": {
       "en": "right",
       "es": "derecha",
       "it": "destra",
       "fr": "droite",
-      "de": "rechts",
-      "ru": "направо",
-      "hu": "jobbra",
-      "pt": "direita",
       "ro": "dreapta"
     },
-    "ipa": "ˈdreapta",
+    "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C4T04/A028.mp3",
+      "url": "https://media.verbologic.com/audio/ro/word_dreapta.mp3",
       "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "40f709aa29dfeca16c942708d5d0fa4c5e73b1aa"
+      "bytes": 0,
+      "sha1": null
     },
-    "tags": [
-      "vocabulary#transport-directions"
-    ],
+    "tags": [],
     "context": null,
     "example": null,
     "topic": "C4T05",
@@ -70,36 +58,65 @@
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
-    "source": "media",
+    "source": "legacy",
     "term": "colț",
     "names": {
       "en": "corner",
       "es": "esquina",
       "it": "angolo",
       "fr": "coin",
-      "de": "Ecke",
-      "ru": "угол",
-      "hu": "sarok",
-      "pt": "esquina",
       "ro": "colț"
     },
-    "ipa": "kolts",
+    "ipa": null,
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C4T04/A027.mp3",
+      "url": "https://media.verbologic.com/audio/ro/word_colt.mp3",
       "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "580a46fe1d8ece84cacfc07bf17349780f56601b"
+      "bytes": 0,
+      "sha1": null
     },
-    "tags": [
-      "vocabulary#transport-directions"
-    ],
+    "tags": [],
     "context": null,
     "example": null,
     "topic": "C4T05",
     "entity_id": "word_colt"
   },
   {
-    "id": "word_inainte",
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "forward",
+    "names": {
+      "en": "forward",
+      "ro": "înainte",
+      "de": "vorwärts",
+      "ru": "вперёд",
+      "it": "avanti",
+      "es": "adelante",
+      "fr": "en avant",
+      "hu": "előre",
+      "pt": "para frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A001"
+  },
+  {
+    "id": "A001",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -107,32 +124,314 @@
     "term": "înainte",
     "names": {
       "en": "forward",
-      "es": "adelante",
-      "it": "avanti",
-      "fr": "en avant",
+      "ro": "înainte",
       "de": "vorwärts",
       "ru": "вперёд",
+      "it": "avanti",
+      "es": "adelante",
+      "fr": "en avant",
       "hu": "előre",
-      "pt": "para frente",
-      "ro": "înainte"
+      "pt": "para frente"
     },
-    "ipa": "ɨnaˈjinte",
+    "description": null,
+    "ipa": "/ɨnaˈjinte/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C4T05/A001.mp3",
+      "url": "https://media.verbologic.com/dictionary/C4/C4T05/A001/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "56bf382c290885ed3b0fb9537757d3d2ed2c4a3b"
     },
+    "read": null,
     "tags": [
       "scaffold#C4T05"
     ],
     "context": null,
     "example": null,
     "topic": "C4T05",
-    "entity_id": "word_inainte"
+    "entity_id": "C4T05:A001"
   },
   {
-    "id": "word_inapoi",
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "vorwärts",
+    "names": {
+      "en": "forward",
+      "ro": "înainte",
+      "de": "vorwärts",
+      "ru": "вперёд",
+      "it": "avanti",
+      "es": "adelante",
+      "fr": "en avant",
+      "hu": "előre",
+      "pt": "para frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "вперёд",
+    "names": {
+      "en": "forward",
+      "ro": "înainte",
+      "de": "vorwärts",
+      "ru": "вперёд",
+      "it": "avanti",
+      "es": "adelante",
+      "fr": "en avant",
+      "hu": "előre",
+      "pt": "para frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "avanti",
+    "names": {
+      "en": "forward",
+      "ro": "înainte",
+      "de": "vorwärts",
+      "ru": "вперёд",
+      "it": "avanti",
+      "es": "adelante",
+      "fr": "en avant",
+      "hu": "előre",
+      "pt": "para frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "adelante",
+    "names": {
+      "en": "forward",
+      "ro": "înainte",
+      "de": "vorwärts",
+      "ru": "вперёд",
+      "it": "avanti",
+      "es": "adelante",
+      "fr": "en avant",
+      "hu": "előre",
+      "pt": "para frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "en avant",
+    "names": {
+      "en": "forward",
+      "ro": "înainte",
+      "de": "vorwärts",
+      "ru": "вперёд",
+      "it": "avanti",
+      "es": "adelante",
+      "fr": "en avant",
+      "hu": "előre",
+      "pt": "para frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "előre",
+    "names": {
+      "en": "forward",
+      "ro": "înainte",
+      "de": "vorwärts",
+      "ru": "вперёд",
+      "it": "avanti",
+      "es": "adelante",
+      "fr": "en avant",
+      "hu": "előre",
+      "pt": "para frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A001"
+  },
+  {
+    "id": "A001",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "para frente",
+    "names": {
+      "en": "forward",
+      "ro": "înainte",
+      "de": "vorwärts",
+      "ru": "вперёд",
+      "it": "avanti",
+      "es": "adelante",
+      "fr": "en avant",
+      "hu": "előre",
+      "pt": "para frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A001"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "backward",
+    "names": {
+      "en": "backward",
+      "ro": "înapoi",
+      "de": "rückwärts",
+      "ru": "назад",
+      "it": "indietro",
+      "es": "atrás",
+      "fr": "en arrière",
+      "hu": "hátra",
+      "pt": "para trás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A002"
+  },
+  {
+    "id": "A002",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -140,32 +439,314 @@
     "term": "înapoi",
     "names": {
       "en": "backward",
-      "es": "atrás",
-      "it": "indietro",
-      "fr": "en arrière",
+      "ro": "înapoi",
       "de": "rückwärts",
       "ru": "назад",
+      "it": "indietro",
+      "es": "atrás",
+      "fr": "en arrière",
       "hu": "hátra",
-      "pt": "para trás",
-      "ro": "înapoi"
+      "pt": "para trás"
     },
-    "ipa": "ɨnaˈpoj",
+    "description": null,
+    "ipa": "/ɨnaˈpoj/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C4T05/A002.mp3",
+      "url": "https://media.verbologic.com/dictionary/C4/C4T05/A002/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "acd14da6d38f52f9fb243894f0a12f0c04e1a288"
     },
+    "read": null,
     "tags": [
       "scaffold#C4T05"
     ],
     "context": null,
     "example": null,
     "topic": "C4T05",
-    "entity_id": "word_inapoi"
+    "entity_id": "C4T05:A002"
   },
   {
-    "id": "word_sus",
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "rückwärts",
+    "names": {
+      "en": "backward",
+      "ro": "înapoi",
+      "de": "rückwärts",
+      "ru": "назад",
+      "it": "indietro",
+      "es": "atrás",
+      "fr": "en arrière",
+      "hu": "hátra",
+      "pt": "para trás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "назад",
+    "names": {
+      "en": "backward",
+      "ro": "înapoi",
+      "de": "rückwärts",
+      "ru": "назад",
+      "it": "indietro",
+      "es": "atrás",
+      "fr": "en arrière",
+      "hu": "hátra",
+      "pt": "para trás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "indietro",
+    "names": {
+      "en": "backward",
+      "ro": "înapoi",
+      "de": "rückwärts",
+      "ru": "назад",
+      "it": "indietro",
+      "es": "atrás",
+      "fr": "en arrière",
+      "hu": "hátra",
+      "pt": "para trás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "atrás",
+    "names": {
+      "en": "backward",
+      "ro": "înapoi",
+      "de": "rückwärts",
+      "ru": "назад",
+      "it": "indietro",
+      "es": "atrás",
+      "fr": "en arrière",
+      "hu": "hátra",
+      "pt": "para trás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "en arrière",
+    "names": {
+      "en": "backward",
+      "ro": "înapoi",
+      "de": "rückwärts",
+      "ru": "назад",
+      "it": "indietro",
+      "es": "atrás",
+      "fr": "en arrière",
+      "hu": "hátra",
+      "pt": "para trás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "hátra",
+    "names": {
+      "en": "backward",
+      "ro": "înapoi",
+      "de": "rückwärts",
+      "ru": "назад",
+      "it": "indietro",
+      "es": "atrás",
+      "fr": "en arrière",
+      "hu": "hátra",
+      "pt": "para trás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A002"
+  },
+  {
+    "id": "A002",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "para trás",
+    "names": {
+      "en": "backward",
+      "ro": "înapoi",
+      "de": "rückwärts",
+      "ru": "назад",
+      "it": "indietro",
+      "es": "atrás",
+      "fr": "en arrière",
+      "hu": "hátra",
+      "pt": "para trás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A002"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "up",
+    "names": {
+      "en": "up",
+      "ro": "sus",
+      "de": "oben",
+      "ru": "вверх",
+      "it": "su",
+      "es": "arriba",
+      "fr": "en haut",
+      "hu": "fent",
+      "pt": "em cima"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A003"
+  },
+  {
+    "id": "A003",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -173,32 +754,314 @@
     "term": "sus",
     "names": {
       "en": "up",
-      "es": "arriba",
-      "it": "su",
-      "fr": "en haut",
+      "ro": "sus",
       "de": "oben",
       "ru": "вверх",
+      "it": "su",
+      "es": "arriba",
+      "fr": "en haut",
       "hu": "fent",
-      "pt": "em cima",
-      "ro": "sus"
+      "pt": "em cima"
     },
-    "ipa": "sus",
+    "description": null,
+    "ipa": "/sus/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C4T05/A003.mp3",
+      "url": "https://media.verbologic.com/dictionary/C4/C4T05/A003/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "baa59b90a7bfa33206d149835ce2329fe0535fcc"
     },
+    "read": null,
     "tags": [
       "scaffold#C4T05"
     ],
     "context": null,
     "example": null,
     "topic": "C4T05",
-    "entity_id": "word_sus"
+    "entity_id": "C4T05:A003"
   },
   {
-    "id": "word_jos",
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "oben",
+    "names": {
+      "en": "up",
+      "ro": "sus",
+      "de": "oben",
+      "ru": "вверх",
+      "it": "su",
+      "es": "arriba",
+      "fr": "en haut",
+      "hu": "fent",
+      "pt": "em cima"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "вверх",
+    "names": {
+      "en": "up",
+      "ro": "sus",
+      "de": "oben",
+      "ru": "вверх",
+      "it": "su",
+      "es": "arriba",
+      "fr": "en haut",
+      "hu": "fent",
+      "pt": "em cima"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "su",
+    "names": {
+      "en": "up",
+      "ro": "sus",
+      "de": "oben",
+      "ru": "вверх",
+      "it": "su",
+      "es": "arriba",
+      "fr": "en haut",
+      "hu": "fent",
+      "pt": "em cima"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "arriba",
+    "names": {
+      "en": "up",
+      "ro": "sus",
+      "de": "oben",
+      "ru": "вверх",
+      "it": "su",
+      "es": "arriba",
+      "fr": "en haut",
+      "hu": "fent",
+      "pt": "em cima"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "en haut",
+    "names": {
+      "en": "up",
+      "ro": "sus",
+      "de": "oben",
+      "ru": "вверх",
+      "it": "su",
+      "es": "arriba",
+      "fr": "en haut",
+      "hu": "fent",
+      "pt": "em cima"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "fent",
+    "names": {
+      "en": "up",
+      "ro": "sus",
+      "de": "oben",
+      "ru": "вверх",
+      "it": "su",
+      "es": "arriba",
+      "fr": "en haut",
+      "hu": "fent",
+      "pt": "em cima"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A003"
+  },
+  {
+    "id": "A003",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "em cima",
+    "names": {
+      "en": "up",
+      "ro": "sus",
+      "de": "oben",
+      "ru": "вверх",
+      "it": "su",
+      "es": "arriba",
+      "fr": "en haut",
+      "hu": "fent",
+      "pt": "em cima"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A003"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "down",
+    "names": {
+      "en": "down",
+      "ro": "jos",
+      "de": "unten",
+      "ru": "вниз",
+      "it": "giù",
+      "es": "abajo",
+      "fr": "en bas",
+      "hu": "lent",
+      "pt": "em baixo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A004"
+  },
+  {
+    "id": "A004",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -206,32 +1069,314 @@
     "term": "jos",
     "names": {
       "en": "down",
-      "es": "abajo",
-      "it": "giù",
-      "fr": "en bas",
+      "ro": "jos",
       "de": "unten",
       "ru": "вниз",
+      "it": "giù",
+      "es": "abajo",
+      "fr": "en bas",
       "hu": "lent",
-      "pt": "em baixo",
-      "ro": "jos"
+      "pt": "em baixo"
     },
-    "ipa": "ʒos",
+    "description": null,
+    "ipa": "/ʒos/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C4T05/A004.mp3",
+      "url": "https://media.verbologic.com/dictionary/C4/C4T05/A004/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "4d94f8abcc1d5dd155ac2a077fa739eee8f33cc6"
     },
+    "read": null,
     "tags": [
       "scaffold#C4T05"
     ],
     "context": null,
     "example": null,
     "topic": "C4T05",
-    "entity_id": "word_jos"
+    "entity_id": "C4T05:A004"
   },
   {
-    "id": "word_langa",
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "unten",
+    "names": {
+      "en": "down",
+      "ro": "jos",
+      "de": "unten",
+      "ru": "вниз",
+      "it": "giù",
+      "es": "abajo",
+      "fr": "en bas",
+      "hu": "lent",
+      "pt": "em baixo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "вниз",
+    "names": {
+      "en": "down",
+      "ro": "jos",
+      "de": "unten",
+      "ru": "вниз",
+      "it": "giù",
+      "es": "abajo",
+      "fr": "en bas",
+      "hu": "lent",
+      "pt": "em baixo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "giù",
+    "names": {
+      "en": "down",
+      "ro": "jos",
+      "de": "unten",
+      "ru": "вниз",
+      "it": "giù",
+      "es": "abajo",
+      "fr": "en bas",
+      "hu": "lent",
+      "pt": "em baixo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "abajo",
+    "names": {
+      "en": "down",
+      "ro": "jos",
+      "de": "unten",
+      "ru": "вниз",
+      "it": "giù",
+      "es": "abajo",
+      "fr": "en bas",
+      "hu": "lent",
+      "pt": "em baixo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "en bas",
+    "names": {
+      "en": "down",
+      "ro": "jos",
+      "de": "unten",
+      "ru": "вниз",
+      "it": "giù",
+      "es": "abajo",
+      "fr": "en bas",
+      "hu": "lent",
+      "pt": "em baixo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "lent",
+    "names": {
+      "en": "down",
+      "ro": "jos",
+      "de": "unten",
+      "ru": "вниз",
+      "it": "giù",
+      "es": "abajo",
+      "fr": "en bas",
+      "hu": "lent",
+      "pt": "em baixo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A004"
+  },
+  {
+    "id": "A004",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "em baixo",
+    "names": {
+      "en": "down",
+      "ro": "jos",
+      "de": "unten",
+      "ru": "вниз",
+      "it": "giù",
+      "es": "abajo",
+      "fr": "en bas",
+      "hu": "lent",
+      "pt": "em baixo"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A004"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "next to",
+    "names": {
+      "en": "next to",
+      "ro": "lângă",
+      "de": "neben",
+      "ru": "рядом с",
+      "it": "accanto a",
+      "es": "al lado de",
+      "fr": "à côté de",
+      "hu": "mellett",
+      "pt": "ao lado de"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A005"
+  },
+  {
+    "id": "A005",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -239,32 +1384,314 @@
     "term": "lângă",
     "names": {
       "en": "next to",
-      "es": "al lado de",
-      "it": "accanto a",
-      "fr": "à côté de",
+      "ro": "lângă",
       "de": "neben",
       "ru": "рядом с",
+      "it": "accanto a",
+      "es": "al lado de",
+      "fr": "à côté de",
       "hu": "mellett",
-      "pt": "ao lado de",
-      "ro": "lângă"
+      "pt": "ao lado de"
     },
-    "ipa": "ˈlɨngə",
+    "description": null,
+    "ipa": "/ˈlɨngə/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C4T05/A005.mp3",
+      "url": "https://media.verbologic.com/dictionary/C4/C4T05/A005/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "2b73242a49a6af2d1c7ad3fe52a79d5e4dc93190"
     },
+    "read": null,
     "tags": [
       "scaffold#C4T05"
     ],
     "context": null,
     "example": null,
     "topic": "C4T05",
-    "entity_id": "word_langa"
+    "entity_id": "C4T05:A005"
   },
   {
-    "id": "word_in-fata",
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "neben",
+    "names": {
+      "en": "next to",
+      "ro": "lângă",
+      "de": "neben",
+      "ru": "рядом с",
+      "it": "accanto a",
+      "es": "al lado de",
+      "fr": "à côté de",
+      "hu": "mellett",
+      "pt": "ao lado de"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "рядом с",
+    "names": {
+      "en": "next to",
+      "ro": "lângă",
+      "de": "neben",
+      "ru": "рядом с",
+      "it": "accanto a",
+      "es": "al lado de",
+      "fr": "à côté de",
+      "hu": "mellett",
+      "pt": "ao lado de"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "accanto a",
+    "names": {
+      "en": "next to",
+      "ro": "lângă",
+      "de": "neben",
+      "ru": "рядом с",
+      "it": "accanto a",
+      "es": "al lado de",
+      "fr": "à côté de",
+      "hu": "mellett",
+      "pt": "ao lado de"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "al lado de",
+    "names": {
+      "en": "next to",
+      "ro": "lângă",
+      "de": "neben",
+      "ru": "рядом с",
+      "it": "accanto a",
+      "es": "al lado de",
+      "fr": "à côté de",
+      "hu": "mellett",
+      "pt": "ao lado de"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "à côté de",
+    "names": {
+      "en": "next to",
+      "ro": "lângă",
+      "de": "neben",
+      "ru": "рядом с",
+      "it": "accanto a",
+      "es": "al lado de",
+      "fr": "à côté de",
+      "hu": "mellett",
+      "pt": "ao lado de"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "mellett",
+    "names": {
+      "en": "next to",
+      "ro": "lângă",
+      "de": "neben",
+      "ru": "рядом с",
+      "it": "accanto a",
+      "es": "al lado de",
+      "fr": "à côté de",
+      "hu": "mellett",
+      "pt": "ao lado de"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A005"
+  },
+  {
+    "id": "A005",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "ao lado de",
+    "names": {
+      "en": "next to",
+      "ro": "lângă",
+      "de": "neben",
+      "ru": "рядом с",
+      "it": "accanto a",
+      "es": "al lado de",
+      "fr": "à côté de",
+      "hu": "mellett",
+      "pt": "ao lado de"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A005"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "in front",
+    "names": {
+      "en": "in front",
+      "ro": "în față",
+      "de": "vorne",
+      "ru": "впереди",
+      "it": "davanti",
+      "es": "en frente",
+      "fr": "devant",
+      "hu": "elöl",
+      "pt": "na frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A006"
+  },
+  {
+    "id": "A006",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -272,32 +1699,314 @@
     "term": "în față",
     "names": {
       "en": "in front",
-      "es": "en frente",
-      "it": "davanti",
-      "fr": "devant",
+      "ro": "în față",
       "de": "vorne",
       "ru": "впереди",
+      "it": "davanti",
+      "es": "en frente",
+      "fr": "devant",
       "hu": "elöl",
-      "pt": "na frente",
-      "ro": "în față"
+      "pt": "na frente"
     },
-    "ipa": "ɨn ˈfatsə",
+    "description": null,
+    "ipa": "/ɨn ˈfatsə/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C4T05/A006.mp3",
+      "url": "https://media.verbologic.com/dictionary/C4/C4T05/A006/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "587f08ba15840f667004f17e02c8e5b6a786c830"
     },
+    "read": null,
     "tags": [
       "scaffold#C4T05"
     ],
     "context": null,
     "example": null,
     "topic": "C4T05",
-    "entity_id": "word_in-fata"
+    "entity_id": "C4T05:A006"
   },
   {
-    "id": "word_in-spate",
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "vorne",
+    "names": {
+      "en": "in front",
+      "ro": "în față",
+      "de": "vorne",
+      "ru": "впереди",
+      "it": "davanti",
+      "es": "en frente",
+      "fr": "devant",
+      "hu": "elöl",
+      "pt": "na frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "впереди",
+    "names": {
+      "en": "in front",
+      "ro": "în față",
+      "de": "vorne",
+      "ru": "впереди",
+      "it": "davanti",
+      "es": "en frente",
+      "fr": "devant",
+      "hu": "elöl",
+      "pt": "na frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "davanti",
+    "names": {
+      "en": "in front",
+      "ro": "în față",
+      "de": "vorne",
+      "ru": "впереди",
+      "it": "davanti",
+      "es": "en frente",
+      "fr": "devant",
+      "hu": "elöl",
+      "pt": "na frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "en frente",
+    "names": {
+      "en": "in front",
+      "ro": "în față",
+      "de": "vorne",
+      "ru": "впереди",
+      "it": "davanti",
+      "es": "en frente",
+      "fr": "devant",
+      "hu": "elöl",
+      "pt": "na frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "devant",
+    "names": {
+      "en": "in front",
+      "ro": "în față",
+      "de": "vorne",
+      "ru": "впереди",
+      "it": "davanti",
+      "es": "en frente",
+      "fr": "devant",
+      "hu": "elöl",
+      "pt": "na frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "elöl",
+    "names": {
+      "en": "in front",
+      "ro": "în față",
+      "de": "vorne",
+      "ru": "впереди",
+      "it": "davanti",
+      "es": "en frente",
+      "fr": "devant",
+      "hu": "elöl",
+      "pt": "na frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A006"
+  },
+  {
+    "id": "A006",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "na frente",
+    "names": {
+      "en": "in front",
+      "ro": "în față",
+      "de": "vorne",
+      "ru": "впереди",
+      "it": "davanti",
+      "es": "en frente",
+      "fr": "devant",
+      "hu": "elöl",
+      "pt": "na frente"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A006"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "en",
+    "source": "media",
+    "term": "behind",
+    "names": {
+      "en": "behind",
+      "ro": "în spate",
+      "de": "hinten",
+      "ru": "сзади",
+      "it": "dietro",
+      "es": "detrás",
+      "fr": "derrière",
+      "hu": "hátul",
+      "pt": "atrás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A007"
+  },
+  {
+    "id": "A007",
     "section": "library/dictionary",
     "kind": "word",
     "lang": "ro",
@@ -305,28 +2014,275 @@
     "term": "în spate",
     "names": {
       "en": "behind",
-      "es": "detrás",
-      "it": "dietro",
-      "fr": "derrière",
+      "ro": "în spate",
       "de": "hinten",
       "ru": "сзади",
+      "it": "dietro",
+      "es": "detrás",
+      "fr": "derrière",
       "hu": "hátul",
-      "pt": "atrás",
-      "ro": "în spate"
+      "pt": "atrás"
     },
-    "ipa": "ɨn ˈspate",
+    "description": null,
+    "ipa": "/ɨn ˈspate/",
     "media": {
-      "url": "https://media.verbologic.com/audio/ro/C4T05/A007.mp3",
+      "url": "https://media.verbologic.com/dictionary/C4/C4T05/A007/sound/ro.mp3",
       "mime": "audio/mpeg",
       "bytes": 12528,
       "sha1": "1215e4dd34c74ff3d80df678690acf1a9ca741a9"
     },
+    "read": null,
     "tags": [
       "scaffold#C4T05"
     ],
     "context": null,
     "example": null,
     "topic": "C4T05",
-    "entity_id": "word_in-spate"
+    "entity_id": "C4T05:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "de",
+    "source": "media",
+    "term": "hinten",
+    "names": {
+      "en": "behind",
+      "ro": "în spate",
+      "de": "hinten",
+      "ru": "сзади",
+      "it": "dietro",
+      "es": "detrás",
+      "fr": "derrière",
+      "hu": "hátul",
+      "pt": "atrás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "ru",
+    "source": "media",
+    "term": "сзади",
+    "names": {
+      "en": "behind",
+      "ro": "în spate",
+      "de": "hinten",
+      "ru": "сзади",
+      "it": "dietro",
+      "es": "detrás",
+      "fr": "derrière",
+      "hu": "hátul",
+      "pt": "atrás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "it",
+    "source": "media",
+    "term": "dietro",
+    "names": {
+      "en": "behind",
+      "ro": "în spate",
+      "de": "hinten",
+      "ru": "сзади",
+      "it": "dietro",
+      "es": "detrás",
+      "fr": "derrière",
+      "hu": "hátul",
+      "pt": "atrás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "es",
+    "source": "media",
+    "term": "detrás",
+    "names": {
+      "en": "behind",
+      "ro": "în spate",
+      "de": "hinten",
+      "ru": "сзади",
+      "it": "dietro",
+      "es": "detrás",
+      "fr": "derrière",
+      "hu": "hátul",
+      "pt": "atrás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "fr",
+    "source": "media",
+    "term": "derrière",
+    "names": {
+      "en": "behind",
+      "ro": "în spate",
+      "de": "hinten",
+      "ru": "сзади",
+      "it": "dietro",
+      "es": "detrás",
+      "fr": "derrière",
+      "hu": "hátul",
+      "pt": "atrás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "hu",
+    "source": "media",
+    "term": "hátul",
+    "names": {
+      "en": "behind",
+      "ro": "în spate",
+      "de": "hinten",
+      "ru": "сзади",
+      "it": "dietro",
+      "es": "detrás",
+      "fr": "derrière",
+      "hu": "hátul",
+      "pt": "atrás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A007"
+  },
+  {
+    "id": "A007",
+    "section": "library/dictionary",
+    "kind": "word",
+    "lang": "pt",
+    "source": "media",
+    "term": "atrás",
+    "names": {
+      "en": "behind",
+      "ro": "în spate",
+      "de": "hinten",
+      "ru": "сзади",
+      "it": "dietro",
+      "es": "detrás",
+      "fr": "derrière",
+      "hu": "hátul",
+      "pt": "atrás"
+    },
+    "description": null,
+    "ipa": null,
+    "media": {
+      "url": null,
+      "mime": "audio/mpeg",
+      "bytes": 0,
+      "sha1": null
+    },
+    "read": null,
+    "tags": [
+      "scaffold#C4T05"
+    ],
+    "context": null,
+    "example": null,
+    "topic": "C4T05",
+    "entity_id": "C4T05:A007"
   }
 ]

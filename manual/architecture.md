@@ -86,10 +86,12 @@ header → `.app-main` → footer).
 
 ```
 verbologic/
-├── content/                   # MD docs — lectures & stories (Nuxt Content)
-│   └── lectures/<trackLang>/<TOPIC>/<ID>/<locale>.md   # EN canonical for lectures
+├── content/                   # MD articles — shared dictionary/lectures; localized stories
+│   ├── dictionary/<TOPIC>/<A-code>/<locale>.md         # shared across target languages
+│   ├── lectures/<TOPIC>/<A-code>/<locale>.md           # shared across target languages
+│   └── stories/<trackLang>/<TOPIC>/<ID>/<locale>.md    # track-language-specific
 ├── media/                     # the media REPOSITORY (mp3/mp4/webp stay out of Git)
-│   └── audio/<lang>/<TOPIC>/<ID>.mp3 + sibling <ID>.json manifest
+│   └── audio/<lang>/<TOPIC>/<file>.mp3 + sibling manifest (topic-scoped content id)
 │       (manifest = term/names/ipa + file facts; status 'pending' = no file yet)
 ├── public/data/               # decoupled static data (O(N))
 │   ├── entities/              # legacy entities (transitional bridge)

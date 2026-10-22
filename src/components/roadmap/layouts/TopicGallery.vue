@@ -1,5 +1,5 @@
 // TopicGallery — the GALLERY topic layout's pane: the topic's image records as
-// a card grid (image · term · gloss · learned toggle). Rendered by
+// a card grid (image · native gloss · term · learned toggle). Rendered by
 // RoadmapShell whenever the OPEN TOPIC's `layout` is 'gallery' — in any track
 // (Dictionary · Lectures · Stories), never by track selection. Strictly
 // images: the validator rejects non-image manifests on a gallery item.
@@ -7,6 +7,7 @@
 import { CheckIcon } from '@heroicons/vue/20/solid'
 import { useRoadmapStore, PROGRESS_KEY } from '~/stores/roadmapStore'
 import { mediaName } from '~/composables/useMedia'
+import { glossName } from '~/lib/dictionarySearch'
 import type { MediaRecord } from '~/types/media'
 
 const store = useRoadmapStore()
@@ -20,11 +21,8 @@ const topicTitle = computed(() =>
   store.topic ? mediaName(store.topic.names, uiLang.value, store.topic.code) : ''
 )
 
-/** Gloss in the user's language: UI locale first, then English canonical. */
-function gloss(r: MediaRecord): string {
-  if (uiLang.value !== r.lang && r.names[uiLang.value]) return r.names[uiLang.value]
-  return r.names.en || ''
-}
+/** Native gloss (the user's language): UI locale first, then English canonical. */
+const gloss = (r: MediaRecord): string => glossName(r.names, r.lang, uiLang.value)
 
 const isLearned = (r: MediaRecord) => (progress ? progress.isLearned(r.entity_id) : false)
 const toggleLearned = (r: MediaRecord) => void progress?.toggleLearned(r.entity_id)
@@ -55,7 +53,7 @@ const toggleLearned = (r: MediaRecord) => void progress?.toggleLearned(r.entity_
       {{ copy('gallery.coming_soon', 'No images in this topic yet — content is being prepared.') }}
     </p>
 
-    <!-- The gallery cards: image · term · gloss · learned toggle -->
+    <!-- The gallery cards: image · native gloss · term · learned toggle -->
     <ul v-else class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
       <li
         v-for="r in rows"
@@ -66,10 +64,10 @@ const toggleLearned = (r: MediaRecord) => void progress?.toggleLearned(r.entity_
 
         <div class="min-w-0">
           <div class="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
-            <span class="font-medium text-content">{{ r.term }}</span>
+            <span class="font-medium text-content">{{ gloss(r) || r.term }}</span>
             <span v-if="r.ipa" class="rounded bg-soft px-1.5 py-0.5 text-xs text-muted">{{ r.ipa }}</span>
           </div>
-          <p v-if="gloss(r)" class="mt-0.5 text-sm text-muted">{{ gloss(r) }}</p>
+          <p v-if="gloss(r)" class="mt-0.5 text-sm text-muted">{{ r.term }}</p>
         </div>
 
         <button
