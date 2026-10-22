@@ -87,7 +87,7 @@ function learnedLabel(e: VerbologicEntity): string {
           <div class="min-w-0 flex-1">
             <div class="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
               <span class="font-medium text-content">{{ gloss(e) || e.term }}</span>
-              <span v-if="e.ipa" class="rounded bg-soft px-1.5 py-0.5 text-xs text-muted">{{ e.ipa }}</span>
+              <span v-if="e.ipa" class="ipa rounded bg-soft px-1.5 py-0.5 text-xs text-muted">{{ e.ipa }}</span>
               <span v-if="e.example" class="text-sm text-accent">{{ e.example }}</span>
               <span class="text-xs uppercase tracking-wide text-faint">{{ typeLabel(e.type) }}</span>
               <span v-if="e.category" class="text-xs text-faint">{{ e.category.title }}</span>

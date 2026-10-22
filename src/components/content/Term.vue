@@ -40,7 +40,7 @@ const native = (r: MediaRow): string => glossName(r.names, r.lang, lang.value)
       <span class="min-w-0">
         <span class="block font-medium text-content">{{ native(r) || r.term }}</span>
         <span v-if="native(r)" class="block text-sm text-muted">{{ r.term }}</span>
-        <span v-if="r.ipa" class="block font-code text-xs text-muted">{{ r.ipa }}</span>
+        <span v-if="r.ipa" class="block ipa text-xs text-muted">{{ r.ipa }}</span>
       </span>
     </li>
   </ul>

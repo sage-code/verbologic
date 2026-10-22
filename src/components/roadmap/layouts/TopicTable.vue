@@ -251,7 +251,7 @@ watch(
             <td class="px-3 py-2 text-content">{{ native(r) }}</td>
             <!-- IPA column (Dictionary only) — muted mono, blank until the
                  transcription is authored on the entity -->
-            <td v-if="isDictionary" class="hidden whitespace-nowrap px-3 py-2 font-code text-xs text-muted sm:table-cell">
+            <td v-if="isDictionary" class="hidden whitespace-nowrap px-3 py-2 ipa text-xs text-muted sm:table-cell">
               {{ r.ipa ?? '' }}
             </td>
             <!-- Read: always shown. A row with an article (word, expression,

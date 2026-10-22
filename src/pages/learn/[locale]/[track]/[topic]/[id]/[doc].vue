@@ -375,7 +375,7 @@ useSeoMeta({
               <span class="min-w-0">
                 <span class="block font-medium text-content">{{ glossName(row.names, row.lang, uiLang) || row.term }}</span>
                 <span v-if="glossName(row.names, row.lang, uiLang)" class="block text-sm text-muted">{{ row.term }}</span>
-                <span v-if="row.ipa" class="block font-code text-xs text-muted">{{ row.ipa }}</span>
+                <span v-if="row.ipa" class="block ipa text-xs text-muted">{{ row.ipa }}</span>
               </span>
             </li>
           </ul>

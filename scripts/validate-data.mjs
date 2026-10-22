@@ -175,10 +175,10 @@ try {
     const manifest = readJson(file)
     if (manifest.code && manifest.track) {
       manifestCount++
-      const isTitle = ['chapter-title', 'topic-title'].includes(manifest.kind)
+      const isTitle = ['chapter-title', 'topic-title', 'story-chapter', 'story-topic'].includes(manifest.kind)
       if (!isTitle && manifest.topic) manifestIds.add(`${manifest.topic}\n${manifest.code}`)
-      if (!isTitle && !/^([AVP]\d{3,})(?:-\d+)?$/.test(manifest.code)) {
-        ERRORS.push(`media manifest ${relPath}: code '${manifest.code}' must be a media code such as A023`)
+      if (!isTitle && !/^([WLSAVP]\d{3,})(?:-\d+)?$/.test(manifest.code)) {
+        ERRORS.push(`media manifest ${relPath}: code '${manifest.code}' must be a media code such as W001 (word), L001 (lecture) or S001 (story)`)
       }
       if (!manifest.names || !Object.values(manifest.names).some((name) => typeof name === 'string' && name.trim())) {
         ERRORS.push(`media manifest ${relPath}: missing localized names`)
@@ -188,10 +188,10 @@ try {
     if (!manifest.id) continue
     manifestCount++
     const topic = file.split(/[\\/]/).at(-2)
-    const isTitle = ['chapter-title', 'topic-title'].includes(manifest.kind)
+    const isTitle = ['chapter-title', 'topic-title', 'story-chapter', 'story-topic'].includes(manifest.kind)
     manifestIds.add(`${topic}\n${manifest.id}`)
-    if (!isTitle && !/^([AVP]\d{3,})(?:-\d+)?$/.test(manifest.id)) {
-      ERRORS.push(`media manifest ${relPath}: id '${manifest.id}' must be a media code such as A023`)
+    if (!isTitle && !/^([WLSAVP]\d{3,})(?:-\d+)?$/.test(manifest.id)) {
+      ERRORS.push(`media manifest ${relPath}: id '${manifest.id}' must be a media code such as W001 (word), L001 (lecture) or S001 (story)`)
     }
     if (!isTitle && !manifest.entity_id) {
       ERRORS.push(`media manifest ${relPath}: missing language-independent entity_id`)
@@ -286,7 +286,7 @@ try {
   for (const file of walkManifestFiles(join(ROOT, 'media'))) {
     const manifest = JSON.parse(readFileSync(file, 'utf-8'))
     if (manifest.code && manifest.topic) {
-      const isTitle = ['chapter-title', 'topic-title'].includes(manifest.kind)
+      const isTitle = ['chapter-title', 'topic-title', 'story-chapter', 'story-topic'].includes(manifest.kind)
       if (!isTitle) {
         const key = `${manifest.topic}\n${manifest.code}`
         mediaManifestIds.add(key)

@@ -22,6 +22,13 @@
   /* UI code (language codes, snippets) — system monospace, no webfont. */
   --font-code: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
 
+  /* IPA transcriptions. System monospace fonts (Consolas, Menlo) cover only a
+     fraction of the IPA Extensions block, so browsers substitute glyph-by-glyph
+     and the result looks corrupted. Charis SIL is the SIL font designed for
+     phonetic transcription; Gentium Plus and Doulos SIL are the same family of
+     IPA-complete fallbacks, then DejaVu Sans (Linux) and Segoe UI (Windows). */
+  --font-ipa: 'Charis SIL', 'Doulos SIL', 'Gentium Plus', 'DejaVu Sans', 'Segoe UI', 'Lucida Sans Unicode', sans-serif;
+
   --font-header: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-ui: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -72,6 +79,15 @@
     font-family: var(--font-ui);
     font-weight: 600;
     letter-spacing: -0.01em;
+  }
+
+  /* IPA transcriptions — a phonetic-capable stack, never the monospace one.
+     `font-variant-ligatures: none` keeps combining marks (U+0361 tie bar,
+     U+0303 nasalization) from being re-shaped into ligatures. */
+  .ipa {
+    font-family: var(--font-ipa);
+    font-variant-ligatures: none;
+    font-feature-settings: 'liga' 0, 'clig' 0;
   }
 }
 

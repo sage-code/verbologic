@@ -43,10 +43,10 @@ const nativeName = (names: MediaNames, fallback: string) =>
   mediaName(names, uiLang.value !== store.lang ? uiLang.value : 'en', fallback)
 const targetName = (names: MediaNames, fallback: string) => mediaName(names, store.lang, fallback)
 
-/** Column headers — the same shell as the word table: native first, then the
- *  language learned. */
-const nativeHeader = computed(() => languageName(uiLang.value !== store.lang ? uiLang.value : 'en'))
+/** Column headers — the same shell as the word table: the language learned
+ *  first, then the native language. */
 const targetHeader = computed(() => languageName(store.lang))
+const nativeHeader = computed(() => languageName(uiLang.value !== store.lang ? uiLang.value : 'en'))
 
 function chapterIds(c: SidebarSection): string[] {
   return store.scopeIds(c.topics.map((tp: SidebarTopic) => tp.code))
@@ -150,8 +150,8 @@ async function toggleScopeLearned() {
         <thead class="sticky z-10 bg-soft text-left text-xs uppercase tracking-wide text-faint" :class="THEAD_STICKY_TOP">
           <tr>
             <th class="px-3 py-2 font-medium">{{ copy('dictionary.col_id', 'File ID') }}</th>
-            <th class="px-3 py-2 font-medium">{{ nativeHeader }}</th>
             <th class="px-3 py-2 font-medium">{{ targetHeader }}</th>
+            <th class="px-3 py-2 font-medium">{{ nativeHeader }}</th>
             <th class="px-3 py-2 text-center font-medium">{{ copy('dictionary.col_audio', 'Audio') }}</th>
             <th class="px-3 py-2 text-center font-medium">
               <!-- Check-all / reset for the whole track scope -->
@@ -196,8 +196,8 @@ async function toggleScopeLearned() {
             @dblclick="!row.disabled && row.open()"
           >
             <td class="whitespace-nowrap px-3 py-2 font-code text-xs text-faint">{{ row.code }}</td>
-            <td class="px-3 py-2 font-medium text-content">{{ row.native }}</td>
-            <td class="px-3 py-2 text-muted">{{ row.target }}</td>
+            <td class="px-3 py-2 font-medium text-content">{{ row.target }}</td>
+            <td class="px-3 py-2 text-muted">{{ row.native }}</td>
             <td class="px-3 py-2 text-center">
               <!-- Title audio: lights up via useTitles once the titles payload lands -->
               <button

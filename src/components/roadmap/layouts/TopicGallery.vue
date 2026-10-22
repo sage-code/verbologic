@@ -65,7 +65,7 @@ const toggleLearned = (r: MediaRecord) => void progress?.toggleLearned(r.entity_
         <div class="min-w-0">
           <div class="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
             <span class="font-medium text-content">{{ gloss(r) || r.term }}</span>
-            <span v-if="r.ipa" class="rounded bg-soft px-1.5 py-0.5 text-xs text-muted">{{ r.ipa }}</span>
+            <span v-if="r.ipa" class="ipa rounded bg-soft px-1.5 py-0.5 text-xs text-muted">{{ r.ipa }}</span>
           </div>
           <p v-if="gloss(r)" class="mt-0.5 text-sm text-muted">{{ r.term }}</p>
         </div>
