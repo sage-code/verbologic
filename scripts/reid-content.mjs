@@ -429,6 +429,27 @@ for (const job of manifestJobs) {
   }
 }
 
+// R2 keys embed the old chapter/topic/code path. Rewrite them to match the new
+// tree so media-index can resolve the files (it derives the key from disk, but
+// the manifest's own key must agree for media-sync's differential baseline).
+for (const job of manifestJobs) {
+  const manifest = job.manifest
+  let changed = false
+  for (const field of ['audio', 'read']) {
+    const map = manifest[field]
+    if (!map || typeof map !== 'object') continue
+    for (const descriptor of Object.values(map)) {
+      if (!descriptor || typeof descriptor !== 'object' || !descriptor.key) continue
+      const next = `${job.track}/${job.newChapter}/${job.newTopic}/${job.newCode}/${descriptor.file ?? ''}`
+      if (descriptor.key !== next) {
+        descriptor.key = next
+        changed = true
+      }
+    }
+  }
+  if (changed) writeJson(join(job.newDir, 'item.json'), manifest)
+}
+
 // Title manifests: rewrite identity, then place the manifest at its new path.
 // Both chapter-title and topic-title manifests sit in directories the item
 // sweep has already created (the chapter root and the topic folder), so only
