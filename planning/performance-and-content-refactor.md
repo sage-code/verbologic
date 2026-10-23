@@ -321,3 +321,49 @@ Operational rules:
 **Still open:**
 7. Languages for audio at first promotion: `ro` + `en` only?
 8. Reviewer capacity: is 100% Romanian/English + ~10% others per chapter realistic, or plan a lower sampling rate with a stricter automated gate?
+
+---
+
+## 11. Local vs API translation, batching, and the CH01 pilot (2026-10-23)
+
+### 11.1 Can this computer translate? — not usefully
+
+Inspected: **32 GB RAM (~17 GB free), Intel Iris Xe integrated graphics only (no NVIDIA/CUDA), no Ollama/LM Studio models installed** (the Ollama/LM Studio PATH entries are stale), Python venv has only `edge-tts`.
+
+| Local option | Verdict on this machine |
+|---|---|
+| Open LLM via Ollama/LM Studio (Gemma 4 is available; Google's page gives no sizes or hardware guidance) | CPU-only ⇒ only small quantised models are practical, at a few tokens/s; Romanian/Hungarian/Russian quality at that size is below `gemini-3.8-flash`. Not worth it for published text. |
+| Dedicated MT (NLLB-200, MADLAD, Opus-MT via CTranslate2) | Runs on CPU, free, but translates **strings without sense**, and the Python toolchain on Windows has bitten before (`epitran` failed to build). Not for primary translation. |
+| **Local MT as an independent critic** (back-translate each locale to English and compare with `sense`) | The one good local use: free, and a different model family than the translator, so it catches shared blind spots. **Optional, later** — only if the Gemini critic proves insufficient. |
+
+Cost is not the reason to go local: the whole dictionary is tens of dollars on the API (§8.5). **Decision: all translation via the Gemini API.**
+
+### 11.2 Which Gemini model
+
+- **Finding:** `.env` sets `GEMINI_MODEL='models/gemini-3.1-flash-light'`, which `generate-audio.py` normalises to `gemini-3.1-flash-lite` — the cheapest tier, overriding the script's own default. Current translations were made by it. Fine for a first pass; not what I would trust for the ×9 multiplier.
+- **Use `gemini-3.8-flash`** (stable) for terms, descriptions, article translation. **Use `gemini-4-argon`** as author of the English canonical text and as critic.
+- **Pilot experiment (cheap, ~80 units):** translate CH01 with `gemini-3.1-flash-lite` (baseline), `gemini-3.8-flash`, and `gemini-4-argon`; have you judge Romanian (and English) blind, and score the other 7 by critic + deterministic checks. This answers "is the upgrade worth it" with evidence instead of opinion. Expect it to cost well under a dollar.
+- Free tier covers `gemini-3.8-flash`, so the pilot can run on the existing key; I don't know that key's tier. Free-tier prompts may be used by Google for product improvement — acceptable for public vocabulary, not for anything private. Use a paid key for bulk runs (rate limits).
+
+### 11.3 Batching — already how it works; tune, don't redesign
+
+`gemini_translate_batch` already sends 8 items per request and asks for **all missing locales for each item in one JSON response** — one word → 8 languages in one call. Keep that (the model sees all languages together and keeps register consistent), with these changes:
+- **25–40 units per request** (not 8): the shared style guide/glossary is amortised, ~3 requests cover CH01. Do not go much larger — long outputs degrade accuracy and a failure costs more.
+- **Per-locale validation, per-locale repair:** if only `hu` fails a check, re-ask for `hu` of those units, not the whole batch.
+- Each unit carries `sense` (§8.2), so homonyms resolve.
+- Use the Batch API (50% off) for bulk chapters; synchronous for the pilot so you can watch results.
+- Traffic is not a problem at this scale (a few requests per chapter); the limiting factors are accuracy and review time.
+
+### 11.4 CH01 pilot — design
+
+Your instruction: do the first chapter for **all languages** to see how it goes. Agreed, with two choices:
+1. **Run it now in the current manifest format, into a staging area** (`temp/pilot/CH01/…`, git-ignored), **not** into `item.json`. It is ~80 units, so migrating its results later via the Phase-4 codemod is trivial, and the pilot's purpose is to calibrate prompts, glossaries and thresholds — we want that data before building the unit schema and before scaling. This supersedes the "pilot after Phase 4" ordering in §10; chapters beyond CH01 still wait for the Phase-4 schema.
+2. **Audio for all 9 languages in the pilot** (Edge TTS is free and ~720 short clips), even though later chapters will generate only promoted languages. This exercises all nine voices and tells us the per-language ASR-mismatch rate, which sets the threshold and the `ttsText` workload.
+
+Outputs of the pilot, as one report (`temp/pilot/CH01/report.md`):
+- per-model, per-language: deterministic-check failures, critic flags, Romanian/English blind scores;
+- per-language TTS: ASR mismatch rate, silence/loudness spread;
+- real token usage and cost; wall-clock time per stage;
+- list of prompt/glossary/template changes the data suggests.
+
+**Prerequisites:** none beyond what exists (`.env` key present and git-ignored; `edge-tts` installed). The ASR round-trip needs a transcriber: use a Gemini audio-input call (no new local install). Confirm that choice before I build it.
