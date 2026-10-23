@@ -11,6 +11,7 @@
  * Payloads are fetched lazily, once per track, and cached for the session.
  */
 import type { MediaMedia, MediaTitles } from '~/types/media'
+import { localizeMediaTitles } from '~/lib/localMedia'
 
 const EMPTY: MediaTitles = { schema: 0, generated: '', chapters: {}, topics: {} }
 
@@ -23,7 +24,7 @@ function request(section: string) {
   requested.add(section)
   $fetch<MediaTitles>(`/data/media/${section}/titles.json`)
     .then((data) => {
-      bySection.value = { ...bySection.value, [section]: data }
+      bySection.value = { ...bySection.value, [section]: localizeMediaTitles(data) }
     })
     .catch(() => {
       // Payload not generated yet — titles stay "coming soon"; retry later.

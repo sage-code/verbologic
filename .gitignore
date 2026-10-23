@@ -293,3 +293,17 @@ nul
 # The differential baseline lives in the item manifests — never re-introduce
 # an aggregate ledger here (see scripts/media-sync.mjs).
 /media/audio-manifest.json
+# --- Generated letter articles (scripts/generate-letter-articles.mjs) ---
+# Derived from src/data/alphabets/<lang>.json at build time — never hand-edited,
+# never committed. The data files are the authoring surface.
+/content/lectures/LT01T01/
+/content/lectures/LT01T02/
+/content/lectures/LT01T07/
+/content/lectures/LT01T08/
+/content/lectures/LT01T09/
+/content/lectures/LT01T10/
+/content/lectures/LT01T11/
+/content/lectures/LT01T12/
+/content/lectures/LT01T13/
+/content/lectures/LT01T14/
+/content/lectures/LT01T15/

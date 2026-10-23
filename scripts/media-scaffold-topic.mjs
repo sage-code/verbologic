@@ -26,11 +26,11 @@
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { LOCALES } from './lib/locales.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const MEDIA_AUDIO = join(ROOT, 'media', 'audio')
 const SIDEBAR_FILE = join(ROOT, 'src', 'data', 'sidebars', 'library', 'dictionary', 'sidebar.json')
-const LOCALES = ['en', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
 
 /** ASCII-safe slug (diacritics stripped) — the extract-legacy convention. */
 const slug = (s) =>

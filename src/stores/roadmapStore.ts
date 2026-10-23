@@ -17,8 +17,7 @@ import type { MediaRecord, MediaRow } from '~/types/media'
 import type { MediaIndex, SidebarSection, SidebarTopic, TopicLayout } from '~/types/sidebars'
 import { useMedia } from '~/composables/useMedia'
 import { matchesDictionaryQuery } from '~/lib/dictionarySearch'
-
-const LOCALES = ['en', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
+import { LOCALES } from '~/data/locales'
 
 /** Sidebar section per track id — the structure layer each track renders. */
 const SECTION_BY_TRACK: Record<TrackId, string> = {
@@ -169,14 +168,34 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     page.value = Math.min(Math.max(1, target), pageCount.value)
   }
 
-  const chapter = computed(() => chapters.value.find((c: SidebarSection) => c.code === chapterCode.value) ?? null)
+  /** True when a topic is visible for the active language — `sourceLang`
+   *  (phonetic ownership) and `langs` (explicit allow-list) both scope it. */
+  const topicVisible = (t: SidebarTopic): boolean =>
+    (!t.sourceLang || t.sourceLang === lang.value) && (!t.langs || t.langs.includes(lang.value))
+
+  /**
+   * Every chapter of the track with its topics scoped to the active language.
+   * The sidebar, the chapters TOC and every progress scope read THIS, so a
+   * language-owned topic (the German alphabet while learning Romanian) never
+   * shows up beside the one that belongs to the current language. Empty
+   * chapters render disabled, never hidden.
+   */
+  const visibleChapters = computed<SidebarSection[]>(() =>
+    chapters.value.map((c: SidebarSection) => ({
+      ...c,
+      topics: c.topics.filter(topicVisible)
+    }))
+  )
+
+  const chapter = computed(
+    () => visibleChapters.value.find((c: SidebarSection) => c.code === chapterCode.value) ?? null
+  )
+
   /** The open topic — null when the code belongs to another language's
    *  exclusive topic, so a deep link cannot open it here. */
-  const topic = computed(() => {
-    const found = chapter.value?.topics.find((t: SidebarTopic) => t.code === topicCode.value) ?? null
-    if (!found) return null
-    return !found.langs || found.langs.includes(lang.value) ? found : null
-  })
+  const topic = computed(
+    () => chapter.value?.topics.find((t: SidebarTopic) => t.code === topicCode.value) ?? null
+  )
 
   /**
    * The open topic's layout kind — the main pane is THIS, never the track
@@ -186,14 +205,12 @@ export const useRoadmapStore = defineStore('roadmap', () => {
   const topicLayout = computed<TopicLayout>(() => topic.value?.layout ?? 'table')
 
   /** All topics flattened with their chapter code — the search-index unit.
-   *  Language-exclusive topics (`langs`) are dropped for any language they do
-   *  not list, so the topic list, chapter TOC, topic search and the next/prev
-   *  walk all see one consistent set. */
+   *  Language-exclusive topics (`langs`/`sourceLang`) are already dropped by
+   *  `visibleChapters`, so the topic list, chapter TOC, topic search and the
+   *  next/prev walk all see one consistent set. */
   const allTopics = computed<TopicRow[]>(() =>
-    chapters.value.flatMap((c: SidebarSection) =>
-      c.topics
-        .filter((t: SidebarTopic) => !t.langs || t.langs.includes(lang.value))
-        .map((t: SidebarTopic) => ({ ...t, chapterCode: c.code }))
+    visibleChapters.value.flatMap((c: SidebarSection) =>
+      c.topics.map((t: SidebarTopic) => ({ ...t, chapterCode: c.code }))
     )
   )
 
@@ -204,11 +221,10 @@ export const useRoadmapStore = defineStore('roadmap', () => {
 
   /** Chapters with at least one populated topic (the default chapter pick). */
   const populatedChapters = computed<SidebarSection[]>(() =>
-    chapters.value.filter((c: SidebarSection) => c.topics.some((t: SidebarTopic) => topicCount(t.code) > 0))
+    visibleChapters.value.filter((c: SidebarSection) =>
+      c.topics.some((t: SidebarTopic) => topicCount(t.code) > 0)
+    )
   )
-
-  /** Every chapter of the track — empty ones render disabled, never hidden. */
-  const visibleChapters = computed<SidebarSection[]>(() => chapters.value)
 
   const topicIndex = computed(
     () =>

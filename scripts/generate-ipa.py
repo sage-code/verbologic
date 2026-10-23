@@ -27,7 +27,8 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parents[1]
 MEDIA_DIR = ROOT / "media"
 TRACKS = ("dictionary", "lectures")
-LOCALES = ("en", "ro", "de", "ru", "it", "es", "fr", "hu", "pt")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.locales import LOCALES  # noqa: E402  (single locale registry)
 LANGUAGE_NAMES = {
     "en": "English (US)",
     "ro": "Romanian",

@@ -118,7 +118,17 @@ Article topics are already listed with planned ids (e.g. `L2T01` → `lecture_se
 5. `run media index` → `run validate`, then **open `/learn/ro/lectures/<TOPIC>/<id>/en` and check the body really renders** (the validators don't render pages).
 6. Translation: `run lecture translate <id> --lang ro`. The translation records the English hash (`sourceSha`) and is flagged stale when the original changes. `run lecture status` shows the review queue.
 
-Worked examples: `content/lectures/ro/L1T01/lecture_alphabet/` (EN + RO) and `content/lectures/ro/L4T01/lecture_greetings/` (tables, dialogs, callout, term chips).
+**One reading template, every track.** An article opens in the same two-panel
+view as a story: the learning language on the left, the reader's own language
+on the right, paginated by one rule — a document with `##` headings starts a new
+page at each heading, a heading-less document paginates one paragraph per page.
+There is no per-locale button row: the route's `:doc` segment already chose the
+explanation language, and the right panel shows the reader's. Write prose that
+reads well in that frame — a letter article is one paragraph, a grammar article
+is a few `##` sections.
+
+Worked examples: `content/lectures/LT03T01/L294/` (tables, dialogs, callout,
+term chips) and the generated letter articles under `content/lectures/LT01T01/`.
 
 ## Converting an archive page
 

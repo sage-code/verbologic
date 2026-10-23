@@ -6,6 +6,7 @@
  */
 import type { MediaRecords, MediaSearchIndex } from '~/types/media'
 import type { MediaIndex } from '~/types/sidebars'
+import { localizeMediaRecords, localizeMediaSearch } from '~/lib/localMedia'
 
 const indexCache = new Map<string, Promise<MediaIndex>>()
 const topicCache = new Map<string, Promise<MediaRecords>>()
@@ -30,7 +31,7 @@ export function useMedia() {
   /** Records for one sidebar section + topic (lazy, one small fetch). */
   const fetchTopic = (section: string, topic: string) =>
     cached(topicCache, `${section}:${topic}`, () =>
-      $fetch<MediaRecords>(`/data/media/${section}/${topic}.json`)
+      $fetch<MediaRecords>(`/data/media/${section}/${topic}.json`).then(localizeMediaRecords)
     )
 
   /**
@@ -38,7 +39,9 @@ export function useMedia() {
    * every record in one file — the translation search loads it on demand.
    */
   const fetchSearch = (section: string) =>
-    cached(searchCache, section, () => $fetch<MediaSearchIndex>(`/data/media/${section}/search.json`))
+    cached(searchCache, section, () =>
+      $fetch<MediaSearchIndex>(`/data/media/${section}/search.json`).then(localizeMediaSearch)
+    )
 
   return { fetchIndex, fetchTopic, fetchSearch }
 }

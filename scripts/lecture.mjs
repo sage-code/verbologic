@@ -19,12 +19,12 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import grayMatter from 'gray-matter'
+import { LOCALES } from './lib/locales.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const CONTENT = join(ROOT, 'content', 'lectures')
 const AUDIO = join(ROOT, 'media', 'audio')
 const SIDEBAR_FILE = join(ROOT, 'src', 'data', 'sidebars', 'library', 'lectures', 'sidebar.json')
-const LOCALES = ['en', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
 const CANONICAL = 'en'
 
 const sha1 = (file) => createHash('sha1').update(readFileSync(file)).digest('hex')

@@ -43,13 +43,13 @@ import {
 } from 'node:fs'
 import { basename, isAbsolute, join, relative, sep } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { LOCALES } from './lib/locales.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 if (existsSync(join(ROOT, '.env'))) process.loadEnvFile(join(ROOT, '.env'))
 const MEDIA = join(ROOT, 'media')
 const AUDIO_DIR = join(MEDIA, 'audio')
 const SHARED_TRACKS = ['dictionary', 'lectures']
-const LOCALES = ['en', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
 /**
  * The two recordings every item can carry, per language:
  *   audio → sound/<locale>.mp3  the short title/term recording

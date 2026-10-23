@@ -168,6 +168,8 @@ try {
 
   // Learning manifests are keyed by topic-scoped content id.
   const manifestIds = new Set()
+  /** `topic\ncode` → manifest, for the per-topic content checks (phonetic IPA). */
+  const manifestById = new Map()
   let manifestCount = 0
   for (const file of walkFiles('media', '.json')) {
     if (file.split(/[\\/]/).at(-1) !== 'item.json') continue
@@ -176,7 +178,10 @@ try {
     if (manifest.code && manifest.track) {
       manifestCount++
       const isTitle = ['chapter-title', 'topic-title', 'story-chapter', 'story-topic'].includes(manifest.kind)
-      if (!isTitle && manifest.topic) manifestIds.add(`${manifest.topic}\n${manifest.code}`)
+      if (!isTitle && manifest.topic) {
+        manifestIds.add(`${manifest.topic}\n${manifest.code}`)
+        manifestById.set(`${manifest.topic}\n${manifest.code}`, manifest)
+      }
       if (!isTitle && !/^([WLSAVP]\d{3,})(?:-\d+)?$/.test(manifest.code)) {
         ERRORS.push(`media manifest ${relPath}: code '${manifest.code}' must be a media code such as W001 (word), L001 (lecture) or S001 (story)`)
       }
@@ -239,9 +244,26 @@ try {
         } else if (topic.level === undefined && sidebar.id.startsWith('library/')) {
           WARNINGS.push(`sidebar ${sidebar.id} · ${topic.code}: missing level`)
         }
-        // Language scope (`langs`): absent = every language. Present = the
-        // topic is language-exclusive, so every listed language must be a
-        // registered locale and the list must not be empty.
+        // Phonetic topic (`phonetic: true`): the table shows IPA instead of the
+        // native gloss, so every resolved item must actually carry one.
+        if (topic.phonetic !== undefined && typeof topic.phonetic !== 'boolean') {
+          ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: 'phonetic' must be a boolean`)
+        } else if (topic.phonetic === true) {
+          for (const id of topic.items ?? []) {
+            const manifest = manifestById.get(`${topic.code}\n${id}`)
+            if (!manifest) continue // planned item — nothing to check yet
+            // Shared manifests keep IPA per locale under pronunciation[lang].ipa;
+            // the retired per-language manifests used a flat `ipa` field.
+            const ipa =
+              manifest.ipa ??
+              Object.values(manifest.pronunciation ?? {}).find((p) => p && typeof p.ipa === 'string' && p.ipa.trim())?.ipa
+            if (!ipa) {
+              ERRORS.push(
+                `sidebar ${sidebar.id} · ${topic.code}: phonetic topic item '${id}' has no IPA transcription`
+              )
+            }
+          }
+        }
         if (topic.langs !== undefined) {
           if (!Array.isArray(topic.langs) || topic.langs.length === 0) {
             ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: 'langs' must be a non-empty array (omit it for every language)`)
@@ -254,6 +276,20 @@ try {
             if (new Set(topic.langs).size !== topic.langs.length) {
               ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: 'langs' has duplicate entries`)
             }
+          }
+        }
+        // Phonetic ownership (`sourceLang`): the ONE language whose sounds the
+        // topic teaches. Implies the same visibility rule as `langs`, and tells
+        // the audio pipeline to synthesise a single voice.
+        if (topic.sourceLang !== undefined) {
+          if (typeof topic.sourceLang !== 'string' || !localeCodesAll.includes(topic.sourceLang)) {
+            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: 'sourceLang' must be a registered locale`)
+          }
+          if (topic.langs !== undefined) {
+            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: use 'sourceLang' OR 'langs', not both`)
+          }
+          if (topic.phonetic !== true) {
+            WARNINGS.push(`sidebar ${sidebar.id} · ${topic.code}: 'sourceLang' on a non-phonetic topic`)
           }
         }
         for (const id of topic.items ?? []) {
@@ -278,7 +314,7 @@ try {
 /* ── content: shared dictionary + lecture/story front matter ───────────── */
 try {
   const { default: grayMatter } = await import('gray-matter')
-  const LOCALES = ['en', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
+  const { LOCALES } = await import('./lib/locales.mjs')
   const CANONICAL_BY_TRACK = { dictionary: 'en', lectures: 'en', stories: 'en' }
   const contentDir = join(ROOT, 'content')
 

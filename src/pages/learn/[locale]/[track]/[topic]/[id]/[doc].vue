@@ -34,8 +34,12 @@ if (!(TRACK_IDS as readonly string[]).includes(track.value)) {
   throw createError({ statusCode: 404, statusMessage: 'Track not found', fatal: true })
 }
 
-/** The Markdown doc for this locale, else its canonical translation. */
-const { data: markdownPage, error: markdownError } = await useAsyncData(
+/**
+ * Every doc of this article in ONE query: the route's explanation locale, its
+ * canonical fallback, and the per-locale docs the two reading panels need.
+ * (The page used to run the same collection scan twice.)
+ */
+const { data: articleData, error: markdownError } = await useAsyncData(
   `article-${track.value}-${trackLang.value}-${topicCode.value}-${articleId.value}-${docLocale.value}`,
   async () => {
     const docs = await queryCollection('articles')
@@ -43,55 +47,43 @@ const { data: markdownPage, error: markdownError } = await useAsyncData(
       .where('topic', '=', topicCode.value)
       .where('track', '=', track.value)
       .all()
-    const findDoc = (locale: string) =>
-      docs.find((doc) => doc.locale === locale && (!doc.trackLang || doc.trackLang === trackLang.value))
+    const scoped = docs.filter((doc) => !doc.trackLang || doc.trackLang === trackLang.value)
+    const findDoc = (locale: string) => scoped.find((doc) => doc.locale === locale)
     const mine = findDoc(docLocale.value)
-    if (mine) return { doc: mine, fallback: false }
     // Shared articles use English as the canonical original. Legacy stories
     // remain canonical in their learning language.
     const sharedStory = track.value === 'stories' && docs.some((doc) => !doc.trackLang)
     const canonicalLocale =
       track.value === 'lectures' || track.value === 'dictionary' || sharedStory ? 'en' : trackLang.value
-    const canonical = findDoc(canonicalLocale)
-    return canonical ? { doc: canonical, fallback: true } : null
+    const doc = mine ?? findDoc(canonicalLocale)
+    return doc ? { docs: scoped, doc, fallback: !mine } : null
   }
 )
 
-if (markdownError.value || !markdownPage.value) {
+if (markdownError.value || !articleData.value) {
   throw createError({ statusCode: 404, statusMessage: 'Article not found', fatal: true })
 }
-
-const { data: articleDocs } = await useAsyncData(
-  `article-locales-${track.value}-${trackLang.value}-${topicCode.value}-${articleId.value}`,
-  async () => {
-    const docs = await queryCollection('articles')
-      .where('article', '=', articleId.value)
-      .where('topic', '=', topicCode.value)
-      .where('track', '=', track.value)
-      .all()
-    return docs.filter((doc) => !doc.trackLang || doc.trackLang === trackLang.value)
-  }
-)
 
 const record = ref<MediaRecord | null>(null)
 const nativeRecord = ref<MediaRecord | null>(null)
 const rowsById = ref<Map<string, MediaRow>>(new Map())
 const mediaError = ref<string | null>(null)
 /**
- * Every article — story, lecture or dictionary — renders as two side-by-side
- * panels: the learning language on the left, the reader's own language on the
- * right. Only the story track paginates; lectures and dictionary articles show
- * the whole document in each panel.
+ * ONE reading template for every track — the stories one: the learning
+ * language on the left, the reader's own language on the right, paginated by
+ * the same rule. Lectures and dictionary articles are not a special case, and
+ * there is no per-locale button row: the route's `:doc` segment already picks
+ * the explanation language, and the right panel shows the reader's.
  */
-const storyMode = computed(() => track.value === 'stories')
-const markdownDoc = computed(() => markdownPage.value?.doc ?? null)
+const markdownDoc = computed(() => articleData.value?.doc ?? null)
+const articleDocs = computed(() => articleData.value?.docs ?? [])
 const storyTargetDoc = computed(
-  () => articleDocs.value?.find((doc) => doc.locale === trackLang.value) ?? markdownDoc.value
+  () => articleDocs.value.find((doc) => doc.locale === trackLang.value) ?? markdownDoc.value
 )
 const storyNativeDoc = computed(
   () =>
-    articleDocs.value?.find((doc) => doc.locale === docLocale.value) ??
-    articleDocs.value?.find((doc) => doc.locale === uiLang.value) ??
+    articleDocs.value.find((doc) => doc.locale === docLocale.value) ??
+    articleDocs.value.find((doc) => doc.locale === uiLang.value) ??
     storyTargetDoc.value
 )
 /** True when the two panels would show the same document (nothing to compare). */
@@ -172,30 +164,21 @@ const storyNativeName = computed(() => languageName(docLocale.value))
 /** Full-article read recordings, one per panel language. */
 const storyTargetRead = computed(() => record.value?.read?.url ?? null)
 const storyNativeRead = computed(() => nativeRecord.value?.read?.url ?? null)
-/** Dictionary/lecture articles read in the explanation language (the doc locale). */
-const articleRead = computed(
-  () => nativeRecord.value?.read?.url ?? record.value?.read?.url ?? null
-)
 const targetTerm = computed(() =>
   markdownDoc.value?.terms?.[trackLang.value] ?? record.value?.term ?? ''
 )
 const articleTitle = computed(() => {
-  const title = (storyMode.value ? storyTargetDoc.value?.title : markdownDoc.value?.title) ?? 'Article'
+  const title = storyTargetDoc.value?.title ?? 'Article'
   return title.replace(/\{\{term\}\}/g, (match, offset: number) => {
     const term = targetTerm.value
     if (offset === 0 && term) return term[0].toLocaleUpperCase() + term.slice(1)
     return term || match
   })
 })
-const articleSummary = computed(() =>
-  (storyMode.value ? storyTargetDoc.value?.summary : markdownDoc.value?.summary) ?? ''
-)
+const articleSummary = computed(() => storyTargetDoc.value?.summary ?? '')
 const articleStatus = computed(() => markdownDoc.value?.status ?? 'draft')
 const articleMinutes = computed(() => markdownDoc.value?.minutes ?? null)
-const isFallback = computed(() => markdownPage.value?.fallback ?? false)
-
-/** Available explanation locales, known during prerender for indexable links. */
-const availableLocales = computed<string[]>(() => articleDocs.value?.map((doc) => doc.locale) ?? [])
+const isFallback = computed(() => articleData.value?.fallback ?? false)
 watch(
   () => [articleId.value, storyPageCount.value],
   () => {
@@ -286,19 +269,6 @@ useSeoMeta({
               {{ copy('lecture.not_translated', 'Not translated yet — showing English') }}
             </span>
           </div>
-
-          <!-- Locale switcher is for explanatory articles, not story translation panes. -->
-          <div v-if="!storyMode && availableLocales.length > 1" class="flex flex-wrap gap-1.5 pt-1">
-            <a
-              v-for="locale in availableLocales"
-              :key="locale"
-              :href="`/learn/${trackLang}/${track}/${topicCode}/${articleId}/${locale}`"
-              class="rounded-full border px-2.5 py-0.5 font-code text-xs uppercase transition"
-              :class="locale === docLocale ? 'border-accent bg-accent-soft text-accent' : 'border-edge text-muted hover:border-accent hover:text-accent'"
-            >
-              {{ locale }}
-            </a>
-          </div>
         </header>
 
         <p
@@ -321,8 +291,10 @@ useSeoMeta({
           </div>
         </div>
 
-        <!-- Two panels for every article: learning language left, native right.
-             Stories paginate; lectures and dictionary articles show the whole doc. -->
+        <!-- ONE reading template for every track (the stories one): learning
+             language left, the reader's language right, paginated by the same
+             rule. No per-locale button row — the route's :doc segment already
+             chose the explanation language. -->
         <section class="flex min-h-0 flex-1 flex-col gap-3">
           <div class="grid min-h-0 flex-1 grid-cols-1 gap-3 overflow-hidden lg:grid-cols-2">
             <section

@@ -113,9 +113,10 @@ const titleRows = computed<TitleRow[]>(() =>
   }))
 )
 
-/** The ids the header button acts on — every chapter's every topic. */
+/** The ids the header button acts on — every chapter's every topic, scoped to
+ *  the active language (a language-owned topic is not part of this track). */
 const scopeIds = computed<string[]>(() =>
-  store.scopeIds(store.chapters.flatMap((c: SidebarSection) => c.topics.map((t: SidebarTopic) => t.code)))
+  store.scopeIds(store.visibleChapters.flatMap((c: SidebarSection) => c.topics.map((t: SidebarTopic) => t.code)))
 )
 
 /** Every id in the current scope is marked done (drives the header button). */

@@ -1,17 +1,49 @@
 import { fileURLToPath } from 'node:url'
 import navigation from './src/data/navigation.json'
-import { readdirSync, existsSync } from 'node:fs'
+import { readdirSync, existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
+
+/**
+ * Topic → the target languages it exists for, read from the lecture sidebar.
+ * A language-owned topic (`sourceLang`, e.g. the German alphabet) exists for
+ * exactly one language; `langs` is an explicit allow-list; absent both means
+ * every language. Prerendering a language-owned topic for all nine languages
+ * would emit eight pages that can never be reached — the runtime drops the
+ * topic for every language it does not belong to.
+ */
+function lectureTopicScopes(): Map<string, string[]> {
+  const file = fileURLToPath(
+    new URL('./src/data/sidebars/library/lectures/sidebar.json', import.meta.url)
+  )
+  const scopes = new Map<string, string[]>()
+  if (!existsSync(file)) return scopes
+  const sidebar = JSON.parse(readFileSync(file, 'utf8'))
+  const all = navigation.languages.map((l) => l.locale)
+  for (const section of sidebar.sections ?? []) {
+    for (const topic of section.topics ?? []) {
+      const langs = topic.sourceLang
+        ? [topic.sourceLang]
+        : Array.isArray(topic.langs) && topic.langs.length
+          ? topic.langs
+          : all
+      scopes.set(topic.code, langs)
+    }
+  }
+  return scopes
+}
 
 /**
  * Enumerate prerendered article routes from the content tree. Shared
  * dictionary, lecture, and shared story docs are emitted for each registered
  * target language, while Markdown is stored once per explanation locale.
+ * Lecture topics are scoped to the languages they exist for.
  */
 function contentDocRoutes(): string[] {
   const root = fileURLToPath(new URL('./content', import.meta.url))
   if (!existsSync(root)) return []
   const routes: string[] = []
+  const allLangs = navigation.languages.map((l) => l.locale)
+  const lectureScopes = lectureTopicScopes()
   const walk = (dir: string, parts: string[] = []) => {
     for (const entry of readdirSync(dir, { withFileTypes: true })) {
       const next = [...parts, entry.name]
@@ -21,18 +53,18 @@ function contentDocRoutes(): string[] {
         const locale = entry.name.replace(/\.md$/, '')
         if (parts[0] === 'dictionary' && parts.length === 3) {
           const [, topic, article] = parts
-          for (const language of navigation.languages) {
-            routes.push(`/learn/${language.locale}/dictionary/${topic}/${article}/${locale}`)
+          for (const language of allLangs) {
+            routes.push(`/learn/${language}/dictionary/${topic}/${article}/${locale}`)
           }
         } else if (parts[0] === 'lectures' && parts.length === 3) {
           const [, topic, article] = parts
-          for (const language of navigation.languages) {
-            routes.push(`/learn/${language.locale}/lectures/${topic}/${article}/${locale}`)
+          for (const language of lectureScopes.get(topic) ?? allLangs) {
+            routes.push(`/learn/${language}/lectures/${topic}/${article}/${locale}`)
           }
         } else if (parts[0] === 'stories' && parts.length === 3) {
           const [, topic, article] = parts
-          for (const language of navigation.languages) {
-            routes.push(`/learn/${language.locale}/stories/${topic}/${article}/${locale}`)
+          for (const language of allLangs) {
+            routes.push(`/learn/${language}/stories/${topic}/${article}/${locale}`)
           }
         } else if (parts.length === 4) {
           const [track, trackLang, topic, article] = parts
@@ -95,7 +127,17 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       supabaseUrl: '',
-      supabaseAnonKey: ''
+      supabaseAnonKey: '',
+      /**
+       * Media root override for local development. The media payloads bake
+       * absolute R2 URLs at build time (scripts/media-index.mjs), so without
+       * this a local build points at media.verbologic.com and every audio
+       * request 404s until the files are uploaded.
+       *
+       * Set NUXT_PUBLIC_MEDIA_ROOT=http://localhost:4180/ and serve the media/
+       * folder on that port to hear audio locally. Empty = use the baked URLs.
+       */
+      mediaRoot: ''
     }
   },
 

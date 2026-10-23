@@ -75,6 +75,33 @@ const nativeHeader = computed(() => languageName(uiLang.value !== store.lang ? u
  *  Lectures' expressions never show IPA. */
 const isDictionary = computed(() => store.track === 'dictionary')
 
+/**
+ * Phonetic topic (alphabet, letter groups, phonics): the rows teach sounds, so
+ * the second column shows the IPA transcription instead of the native gloss —
+ * "măr" for the letter A is noise, `/a/` is the lesson. The IPA column is then
+ * always visible (it replaces the translation, it does not sit beside it).
+ */
+const isPhonetic = computed(() => store.topic?.phonetic === true)
+
+/** The second column's header: IPA on a phonetic topic, else the native language. */
+const secondHeader = computed(() =>
+  isPhonetic.value ? copy('dictionary.col_ipa', 'IPA') : nativeHeader.value
+)
+
+/** The second column's cell: IPA on a phonetic topic, else the native gloss. */
+const secondCell = (r: MediaRow): string => (isPhonetic.value ? (r.ipa ?? '') : native(r))
+
+/**
+ * The muted line under the term. On a phonetic row the useful fact is the
+ * example word ("Apfel" for the letter A) — the manifest's `context` there is
+ * the glyph itself, which would print the term twice. Elsewhere it is the
+ * usage note. A value equal to the term is never shown.
+ */
+const contextLine = (r: MediaRow): string => {
+  const line = (isPhonetic.value ? r.example : r.context) ?? ''
+  return line && line !== r.term ? line : ''
+}
+
 const isLearned = (r: MediaRow) => (progress ? progress.isLearned(r.entity_id) : false)
 const toggleLearned = (r: MediaRow) => void progress?.toggleLearned(r.entity_id)
 
@@ -192,7 +219,7 @@ watch(
         <colgroup>
           <col />
           <col />
-          <col v-if="isDictionary" class="hidden sm:table-column" />
+          <col v-if="isDictionary && !isPhonetic" class="hidden sm:table-column" />
           <col class="w-14" />
           <col class="w-14" />
           <col class="w-14" />
@@ -200,8 +227,8 @@ watch(
         <thead class="sticky z-10 bg-soft text-left text-xs uppercase tracking-wide text-faint" :class="THEAD_STICKY_TOP">
           <tr>
             <th class="px-3 py-2 font-medium [overflow-wrap:anywhere]">{{ targetHeader }}</th>
-            <th class="px-3 py-2 font-medium [overflow-wrap:anywhere]">{{ nativeHeader }}</th>
-            <th v-if="isDictionary" class="hidden px-3 py-2 font-medium sm:table-cell [overflow-wrap:anywhere]">
+            <th class="px-3 py-2 font-medium [overflow-wrap:anywhere]">{{ secondHeader }}</th>
+            <th v-if="isDictionary && !isPhonetic" class="hidden px-3 py-2 font-medium sm:table-cell [overflow-wrap:anywhere]">
               {{ copy('dictionary.col_ipa', 'IPA') }}
             </th>
             <!-- Article column: an eye that opens the legend — one glyph, no
@@ -279,7 +306,15 @@ watch(
                    field — no visible column anymore -->
               <span class="sr-only">{{ r.id }}</span>
               <span class="font-medium text-content">{{ r.term }}</span>
-              <span v-if="r.context" class="mt-0.5 block text-xs text-faint" :title="r.context">{{ r.context }}</span>
+              <!-- Context line: the example word on a phonetic row ("Apfel"
+                   for the letter A), the usage note elsewhere. Never repeat
+                   the term itself — a phonetic row's context IS its glyph,
+                   which would print "A" twice. -->
+              <span
+                v-if="contextLine(r)"
+                class="mt-0.5 block text-xs text-faint"
+                :title="contextLine(r)"
+              >{{ contextLine(r) }}</span>
               <!-- Search results come from every topic: the chip names the
                    row's topic and jumps straight into its word table -->
               <button
@@ -292,10 +327,16 @@ watch(
                 {{ r.topic }}
               </button>
             </td>
-            <td class="px-3 py-2 text-content">{{ native(r) }}</td>
-            <!-- IPA column (Dictionary only) — muted mono, blank until the
-                 transcription is authored on the entity -->
-            <td v-if="isDictionary" class="hidden whitespace-nowrap px-3 py-2 ipa text-xs text-muted sm:table-cell">
+            <td class="px-3 py-2 text-content" :class="isPhonetic ? 'ipa whitespace-nowrap text-xs text-muted' : ''">
+              {{ secondCell(r) }}
+            </td>
+            <!-- IPA column (Dictionary only, and only when it is not already
+                 standing in for the translation column) — muted mono, blank
+                 until the transcription is authored on the entity -->
+            <td
+              v-if="isDictionary && !isPhonetic"
+              class="hidden whitespace-nowrap px-3 py-2 ipa text-xs text-muted sm:table-cell"
+            >
               {{ r.ipa ?? '' }}
             </td>
             <!-- Read: always shown. A row with an article (word, expression,

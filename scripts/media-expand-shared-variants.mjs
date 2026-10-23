@@ -10,11 +10,11 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { basename, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { SIDEBAR_BY_PREFIX, bumpLastIndex, findTopic, loadSidebar, saveSidebar } from './lib/media-ids.mjs'
+import { LOCALES } from './lib/locales.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const CONTENT = join(ROOT, 'content')
 const AUDIO = join(ROOT, 'media', 'audio')
-const LOCALES = ['en', 'es', 'it', 'fr', 'de', 'ru', 'hu', 'pt', 'ro']
 const SHARED_TRACKS = new Set(['dictionary', 'lectures'])
 const TRANSLATABLE_KINDS = new Set(['word', 'sentence', 'expression', 'phrase', 'greeting', 'letter'])
 const apply = process.argv.includes('--apply')

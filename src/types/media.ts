@@ -99,6 +99,8 @@ export interface MediaRow {
   names: MediaNames
   ipa: string | null
   context: string | null
+  /** Example word the row illustrates (phonetic rows: "Apfel" for the letter A). */
+  example?: string | null
   media: { url: string | null }
   /** Full-article read recording for the row's language (null while pending). */
   read?: { url: string | null } | null

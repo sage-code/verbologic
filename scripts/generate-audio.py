@@ -45,7 +45,8 @@ MEDIA_DIR = ROOT / "media"
 CONTENT_DIR = ROOT / "content"
 SIDEBARS_DIR = ROOT / "src" / "data" / "sidebars"
 TRACKS = ("dictionary", "lectures", "stories")
-LOCALES = ("en", "ro", "de", "ru", "it", "es", "fr", "hu", "pt")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.locales import LOCALES  # noqa: E402  (single locale registry)
 LANGUAGE_NAMES = {
     "en": "English",
     "ro": "Romanian",
@@ -357,17 +358,26 @@ def voice_for(locale: str, item: dict[str, Any]) -> str:
 
 
 async def apply_audio(
-    items, lang_filter: str | None, dry_run: bool, overwrite: bool
+    items,
+    lang_filter: str | None,
+    dry_run: bool,
+    overwrite: bool,
+    owners: dict[str, str] | None = None,
 ) -> tuple[int, int, int]:
     generated = 0
     skipped = 0
     failed = 0
+    owners = owners or {}
     for path, item in items:
         if not isinstance(item.get("audio"), dict):
             continue
+        # Phonetic topic owned by one language: synthesise that voice only.
+        owner = owners.get(str(item.get("topic", "")))
         changed = False
         for locale in LOCALES:
             if lang_filter and locale != lang_filter:
+                continue
+            if owner and locale != owner:
                 continue
             text = item["names"].get(locale)
             if is_missing(text):
@@ -440,19 +450,28 @@ def article_text(track: str, topic: str, code: str, locale: str) -> str | None:
 
 
 async def apply_read(
-    items, lang_filter: str | None, dry_run: bool, overwrite: bool
+    items,
+    lang_filter: str | None,
+    dry_run: bool,
+    overwrite: bool,
+    owners: dict[str, str] | None = None,
 ) -> tuple[int, int, int]:
     """Synthesize the full-article read (read/<locale>.mp3) from the content doc."""
     generated = 0
     skipped = 0
     failed = 0
+    owners = owners or {}
     for path, item in items:
         track = str(item.get("track", ""))
         topic = str(item.get("topic", ""))
         code = str(item.get("code", ""))
+        # Phonetic topic owned by one language: read that language's article only.
+        owner = owners.get(topic)
         changed = False
         for locale in LOCALES:
             if lang_filter and locale != lang_filter:
+                continue
+            if owner and locale != owner:
                 continue
             text = article_text(track, topic, code, locale)
             if is_missing(text):
@@ -517,6 +536,25 @@ def sidebar_paths(track_filter: str | None) -> list[Path]:
         if path.is_file():
             paths.append(path)
     return paths
+
+
+def phonetic_source_langs(paths: list[Path]) -> dict[str, str]:
+    """Topic code → the ONE language that owns its content (`sourceLang`).
+
+    A phonetic topic teaches the sounds of a single target language: the German
+    alphabet is not a translation of the Romanian one. Synthesising the other
+    eight voices produces audio that media-index then discards, so the audio
+    pass must generate exactly one voice per such topic.
+    """
+    owners: dict[str, str] = {}
+    for path in paths:
+        sidebar = json.loads(path.read_text(encoding="utf-8"))
+        for section in sidebar.get("sections", []):
+            for topic in section.get("topics", []):
+                source = topic.get("sourceLang")
+                if isinstance(source, str) and source:
+                    owners[str(topic.get("code"))] = source
+    return owners
 
 
 def build_sidebar_jobs(paths: list[Path]):
@@ -691,7 +729,11 @@ async def main() -> None:
             if args.kind:
                 items = [(path, item) for path, item in items if item.get("kind") == args.kind]
         audio_count, skipped_audio, failed_audio = await apply_audio(
-            items, args.lang, dry_run=not args.apply, overwrite=args.overwrite_audio
+            items,
+            args.lang,
+            dry_run=not args.apply,
+            overwrite=args.overwrite_audio,
+            owners=phonetic_source_langs(sidebar_paths(args.track)),
         )
         verb = "Would generate" if not args.apply else "Generated"
         print(
@@ -703,7 +745,11 @@ async def main() -> None:
 
     if generate_read:
         read_count, skipped_read, failed_read = await apply_read(
-            items, args.lang, dry_run=not args.apply, overwrite=args.overwrite_audio
+            items,
+            args.lang,
+            dry_run=not args.apply,
+            overwrite=args.overwrite_audio,
+            owners=phonetic_source_langs(sidebar_paths(args.track)),
         )
         verb = "Would generate" if not args.apply else "Generated"
         print(

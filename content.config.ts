@@ -1,7 +1,9 @@
 import { defineContentConfig, defineCollection } from '@nuxt/content'
 import { z } from 'zod'
+import { LOCALES as REGISTERED_LOCALES } from './src/data/locales'
 
-const LOCALES = ['en', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt'] as const
+/** Every registered interface language (src/data/locales.ts). */
+const LOCALES = REGISTERED_LOCALES as unknown as readonly [string, ...string[]]
 /** Languages with a live roadmap track (src/data/tracks.ts). */
 const TRACK_LANGS = ['ro', 'en'] as const
 /** Sidebar tracks that can host article topics (the content folder leaves). */

@@ -39,17 +39,40 @@ export interface SidebarTopic {
   items: string[]
   /**
    * Languages this topic exists for. Absent = every language (the reversible
-   * default). Present = the topic is language-exclusive: it is hidden from the
-   * topic list, the chapter TOC and topic search for any language not listed,
-   * and a deep link to it in another language does not resolve.
+   * default). Present = the topic is language-exclusive: it is dropped from
+   * the chapter's topic list (`visibleChapters` in the roadmap store), so the
+   * rail, the chapters TOC, topic search, the next/prev walk and the prerender
+   * route list all agree, and a deep link to it in another language does not
+   * resolve.
    *
    * Use this for content that is genuinely about ONE language and has no
-   * counterpart in the others — the Romanian alphabet, English phonics
-   * clusters. Do NOT use it for a topic whose translations are merely not
-   * written yet: that is a planned topic, and it stays visible-but-disabled
-   * (the structure-first policy) until its content lands.
+   * counterpart in the others. Do NOT use it for a topic whose translations
+   * are merely not written yet: that is a planned topic, and it stays
+   * visible-but-disabled (the structure-first policy) until its content lands.
+   *
+   * For phonetic topics prefer `sourceLang`: it states the ownership fact the
+   * audio pipeline needs, and implies the same visibility rule.
    */
   langs?: string[]
+  /**
+   * Phonetic topic ownership — the ONE target language whose sounds this topic
+   * teaches (the German alphabet is owned by `de`). The topic is shown only
+   * when the active language matches, so a language's alphabet appears once,
+   * under a generic title, and audio is synthesised in that language only.
+   *
+   * Distinct from `langs`: `langs` is a visibility allow-list, `sourceLang` is
+   * a content-ownership fact. A phonetic topic should use `sourceLang`.
+   */
+  sourceLang?: string
+  /**
+   * Phonetic topic — the rows teach SOUNDS, not meanings (alphabets, letter
+   * groups, phonics clusters). The table then shows the IPA transcription in
+   * place of the native-language translation column: a gloss like "măr" for
+   * the letter A is noise, while `/a/` is the thing being taught.
+   *
+   * Absent/false = the normal two-language table (term · native gloss).
+   */
+  phonetic?: boolean
 }
 
 export interface SidebarSection {

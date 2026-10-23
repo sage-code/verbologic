@@ -13,6 +13,7 @@
  * (ro: 532 entities across vocabulary/sentences/imperative/questions/greetings/
  * alphabet; en: 74 alphabet rows).
  */
+import { LOCALES } from './locales'
 
 export const TRACK_IDS = ['dictionary', 'lectures', 'stories'] as const
 
@@ -25,23 +26,20 @@ export interface TrackMeta {
   tracks: Record<TrackId, string | null>
 }
 
-export const TRACKS: Record<string, TrackMeta> = {
-  ro: {
-    words: 405,
-    tracks: { dictionary: '/learn/ro/dictionary', lectures: '/learn/ro/lectures', stories: '/learn/ro/stories' }
-  },
-  en: {
-    words: 74,
-    tracks: { dictionary: '/learn/en/dictionary', lectures: '/learn/en/lectures', stories: '/learn/en/stories' }
-  },
-  de: { words: 0, tracks: { dictionary: '/learn/de/dictionary', lectures: null, stories: '/learn/de/stories' } },
-  ru: { words: 0, tracks: { dictionary: '/learn/ru/dictionary', lectures: null, stories: '/learn/ru/stories' } },
-  it: { words: 0, tracks: { dictionary: '/learn/it/dictionary', lectures: null, stories: '/learn/it/stories' } },
-  es: { words: 0, tracks: { dictionary: '/learn/es/dictionary', lectures: null, stories: '/learn/es/stories' } },
-  fr: { words: 0, tracks: { dictionary: '/learn/fr/dictionary', lectures: null, stories: '/learn/fr/stories' } },
-  hu: { words: 0, tracks: { dictionary: '/learn/hu/dictionary', lectures: null, stories: '/learn/hu/stories' } },
-  pt: { words: 0, tracks: { dictionary: '/learn/pt/dictionary', lectures: null, stories: '/learn/pt/stories' } }
-}
+/** Every registered language gets all three tracks live — the routes are
+ *  prerendered for each of them from navigation.json (nuxt.config.ts). */
+const liveTracks = (locale: string): Record<TrackId, string | null> => ({
+  dictionary: `/learn/${locale}/dictionary`,
+  lectures: `/learn/${locale}/lectures`,
+  stories: `/learn/${locale}/stories`
+})
+
+/** Progress denominators per language (0 = no vocabulary counted yet). */
+const WORD_COUNTS: Record<string, number> = { ro: 405, en: 74 }
+
+export const TRACKS: Record<string, TrackMeta> = Object.fromEntries(
+  LOCALES.map((locale) => [locale, { words: WORD_COUNTS[locale] ?? 0, tracks: liveTracks(locale) }])
+)
 
 /** Track metadata for a language; unknown languages resolve to a stub. */
 export function trackFor(locale: string): TrackMeta {

@@ -1,3 +1,5 @@
+import { LOCALES as REGISTERED_LOCALES } from '~/data/locales'
+
 export type DictionaryLocale = 'en' | 'ro' | 'de' | 'ru' | 'it' | 'es' | 'fr' | 'hu' | 'pt'
 export type DictionaryTrackLanguage = 'en' | 'ro'
 
@@ -24,7 +26,7 @@ export interface DictionaryArticleDocument {
   blocks: DictionaryArticleBlock[]
 }
 
-const LOCALES = new Set<string>(['en', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt'])
+const LOCALES = new Set<string>(REGISTERED_LOCALES)
 const TRACK_LANGUAGES = new Set<string>(['en', 'ro'])
 
 function isDictionaryLocale(value: string): value is DictionaryLocale {

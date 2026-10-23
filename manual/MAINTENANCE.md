@@ -218,7 +218,38 @@ language-specific characters belong in lectures. Older spelling/pronunciation
 examples are retained separately as `phonics-example` items.
 Edge TTS's endpoint accepts **no SSML beyond `<voice>`/`<prosody>`** — a `<phoneme>`
 pronunciation override is rejected server-side, so there is no way to feed it
-IPA. `scripts/generate-ipa.py` fills missing IPA for each item's localized
+IPA. `ttsText` respelling is the only lever, and it works by changing which
+*word* the engine resolves, not by describing a sound.
+
+**Diagnosing a wrong `ttsText`.** Synthesize the suspect token in isolation and
+compare its onset against reference words whose pronunciation you already know.
+A short script using `edge_tts` + `soundfile`/`numpy` is enough: measure the
+high-frequency energy ratio (≥2.5 kHz) and zero-crossing rate of the first
+~120 ms. Calibrated on Romanian `ro-RO-EmilNeural`:
+
+| onset | HF ≥2.5 kHz | ZCR | example |
+| --- | --- | --- | --- |
+| `/g/` (stop) | < 5 % | < 0.05 | `ghete`, `ghid`, `gară` |
+| `/dʒ/` (voiced affricate) | 15–80 % | < 0.18 | `ger`, `gin` |
+| `/k/` (aspirated stop) | 3–25 % | > 0.18 | `cheie`, `chibrit` |
+| `/tʃ/` (voiceless affricate) | > 80 % | > 0.30 | `ceară`, `cine` |
+
+**Worked example — Romanian `Ghe / Ghi` (`LT01T02/L053`).** The displayed term
+is correct, but Edge TTS resolves the bare token `Ghi` as `/dʒi/` (soft g, as in
+*gin*) instead of `/gi/` (hard g, as in *ghid*). `Ghe` alone is fine. The fix is
+a `ttsText` that forces the hard-g word shape — doubling the final vowel makes
+the engine read it as a real word rather than a spelling:
+
+```json
+"ttsText": { "ro": "Ghe / Ghii" }
+```
+
+Measured before/after on the published mp3: `Ghi` onset HF 70.6 % → `Ghii`
+onset HF 1.4 %, i.e. `/dʒ/` → `/g/`. Note that `Ghi` is only wrong in isolation;
+inside `Ghe / Ghi` the first token's context partly masks it, so always verify
+the *published* file, not just the isolated token.
+
+`scripts/generate-ipa.py` fills missing IPA for each item's localized
 spoken text (including `ttsText` overrides) using Gemini; it preserves existing
 IPA and is report-only unless `--apply` is passed. Run it for one chapter with:
 
@@ -342,12 +373,25 @@ content/lectures/<TOPIC>/<ID>/<locale>.md ← translated explanation
   stale.
 - **Runtime**: `scripts/media-index.mjs` joins locale review state and related
   items onto every target-language row. The prose is prerendered at
-  `/learn/<target-language>/lectures/<TOPIC>/<ID>/<locale>` for all registered
-  languages; no client-side content database is shipped. Shared story text
-  lives at `content/stories/<TOPIC>/<ID>/<locale>.md`, with language-specific
-  audio manifests under `media/stories/<chapter>/<topic>/<ID>/item.json`.
-  English is the canonical story source; translated documents share the same
-  story ID across target-language tracks.
+  `/learn/<target-language>/lectures/<TOPIC>/<ID>/<locale>`; no client-side
+  content database is shipped. **A language-owned topic is prerendered only for
+  its own language** — `nuxt.config.ts` reads `sourceLang`/`langs` from the
+  lecture sidebar, so the German alphabet emits `/learn/de/…` and nothing else
+  (9 × 3 367 routes became 4 158). Shared story text lives at
+  `content/stories/<TOPIC>/<ID>/<locale>.md`, with language-specific audio
+  manifests under `media/stories/<chapter>/<topic>/<ID>/item.json`. English is
+  the canonical story source; translated documents share the same story ID
+  across target-language tracks.
+- **One reading template**: every article — story, lecture or dictionary —
+  opens in the same two-panel view (learning language left, reader's language
+  right) with one pagination rule: `##` headings start a page, a heading-less
+  document paginates one paragraph per page. There is no per-locale button row;
+  the route's `:doc` segment picks the explanation language.
+- **Generated letter articles**: `scripts/generate-letter-articles.mjs` renders
+  one article per letter/group from `src/data/alphabets/<lang>.json` (run by
+  `npm run dev` / `npm run generate`; the output is gitignored). The body is a
+  single paragraph — the glyph, its IPA and the note — so a letter stays on one
+  page.
 - **Examples**: `L3T01/A021` (informal hello), `L3T01/A022` (evening greeting),
   and `L3T01/A023` (goodbye) each have explanation documents in all nine
   locales and target terms in all nine languages. Their audio manifests are
@@ -577,6 +621,44 @@ authoring layer), `public/data/**`, the build configs (`nuxt.config.ts`,
 whenever the hash is unchanged, so quick "build again" cycles skip
 regeneration. Any source/content change short-circuits that and regenerates.
 `--force` bypasses the gate.
+
+### Testing locally with audio
+
+The media payloads bake **absolute R2 URLs** at build time
+(`scripts/media-index.mjs` joins `src/data/media.config.json`'s `root` with each
+manifest key). That is right for production — one CDN origin, no runtime
+lookup — but it means a local build points at `media.verbologic.com`, where the
+files are not uploaded yet, so every audio request 404s.
+
+`NUXT_PUBLIC_MEDIA_ROOT` rewrites the origin of every media URL as the payloads
+load (`src/lib/localMedia.ts`), so the same build plays audio from a local
+static server. Empty (the default) leaves the baked URLs untouched.
+
+Two terminals:
+
+```bash
+# 1. serve the media/ folder (CORS + correct MIME types)
+.venv/Scripts/python.exe scripts/serve-media.py --port 4180
+
+# 2. dev server pointed at it
+NUXT_PUBLIC_MEDIA_ROOT=http://localhost:4180/ npm run dev
+```
+
+PowerShell: `$env:NUXT_PUBLIC_MEDIA_ROOT="http://localhost:4180/"; npm run dev`
+
+To preview an existing static build instead of running the dev server:
+
+```bash
+.venv/Scripts/python.exe -m http.server 4179 --directory .output/public
+```
+
+…but a **prerendered** build has the override baked in at build time, so set the
+env var *before* `npm run generate` if you want audio in the preview.
+
+`scripts/serve-media.py` exists because `python -m http.server` sends no CORS
+headers: `<audio>` playback works without them, but `fetch()` does not. It also
+maps `.mp3`/`.mp4`/`.webp` explicitly and disables caching so a regenerated file
+is picked up immediately.
 
 ### Push throttle (2h)
 Pushes trigger a Cloudflare Workers Builds deploy, so `run` enforces **at most

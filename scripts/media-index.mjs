@@ -35,6 +35,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync
 import { dirname, join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import grayMatter from 'gray-matter'
+import { LOCALES } from './lib/locales.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const SIDEBARS = join(ROOT, 'src', 'data', 'sidebars')
@@ -49,8 +50,8 @@ const MIME_BY_EXT = {
   webp: 'image/webp'
 }
 
-/** The 9 UI locales (mirrors useLocale's LOCALE_CODES) — content doc names. */
-const LOCALES_ALL = ['en', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
+/** The registered UI locales (src/data/locales.ts) — content doc names. */
+const LOCALES_ALL = LOCALES
 
 const readJson = (p) => JSON.parse(readFileSync(p, 'utf-8'))
 // ROOT-relative, forward-slash; tolerates a trailing separator in ROOT.
@@ -286,11 +287,16 @@ for (const sidebar of sidebars) {
   for (const section of sidebar.sections) {
     for (const topic of section.topics) {
       const records = []
-      // Language-exclusive topic (`langs`): its items belong to those languages
-      // only. Records of any other language are dropped here, so the runtime
-      // counts, ids and search index never offer it to a language it does not
-      // exist for. Absent `langs` = every language (the reversible default).
-      const scope = Array.isArray(topic.langs) && topic.langs.length ? new Set(topic.langs) : null
+      // Phonetic topic ownership (`sourceLang`) or an explicit allow-list
+      // (`langs`): its items belong to those languages only. Records of any
+      // other language are dropped here, so the runtime counts, ids and search
+      // index never offer it to a language it does not exist for. Absent both
+      // = every language (the reversible default).
+      const scope = topic.sourceLang
+        ? new Set([topic.sourceLang])
+        : Array.isArray(topic.langs) && topic.langs.length
+          ? new Set(topic.langs)
+          : null
       for (const id of topic.items) {
         const manifests = manifestsByTopicId.get(`${topic.code}\n${id}`)
         if (manifests?.length) {
@@ -335,6 +341,7 @@ const toRow = (r) => ({
   names: r.names,
   ipa: r.ipa,
   context: r.context,
+  example: r.example ?? null,
   media: { url: r.media.url },
   read: r.read ? { url: r.read.url } : null
 })

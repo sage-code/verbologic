@@ -183,14 +183,76 @@ structural difference, not a backlog.
 
 **Worked example — LT01.** The chapter originally held one topic, `LT01T01`,
 whose `items` mixed the English alphabet and 48 phonics clusters (74 legacy ids)
-with the Romanian alphabet (30 `L`-codes). It is now two topics:
+with the Romanian alphabet (30 `L`-codes). It is now one topic per subject per
+language, each owned by exactly one language through `sourceLang`:
 
-| Topic | `langs` | Items | Title |
+| Topic | `sourceLang` | Items | Title |
 | --- | --- | --- | --- |
-| `LT01T01` | `["ro"]` | 30 | Romanian alphabet & letters |
-| `LT01T07` | `["en"]` | 74 | English alphabet & phonics |
+| `LT01T01` | `ro` | 31 | Alphabet & letters |
+| `LT01T02` | `ro` | 23 | Letter groups & sounds |
+| `LT01T07` | `en` | 74 | Alphabet & letters |
+| `LT01T08` | `en` | 24 | Letter groups & sounds |
+| `LT01T09`–`LT01T15` | `de` `ru` `it` `es` `fr` `hu` `pt` | 26–43 | Alphabet & letters |
 
-The remaining `LT01T02`–`LT01T06` topics carry no `langs` and stay reversible.
+The titles are deliberately generic: the learner already chose the language, so
+"Romanian alphabet" beside a Romanian track is noise. `sourceLang` is what makes
+the topic appear **once**, under the language being learned — the store filters
+each chapter's topics through it (`visibleChapters`), so the rail, the chapters
+TOC, the topic search, the next/prev walk and the prerender route list all see
+the same scoped set. The remaining `LT01T03`–`LT01T06` topics carry no
+`sourceLang` and stay reversible.
+
+### Phonetic topics — IPA instead of a translation
+
+A topic that teaches **sounds** rather than meanings (an alphabet, letter
+groups, phonics clusters) sets `phonetic: true`:
+
+```json
+{
+  "code": "LT01T01",
+  "phonetic": true,
+  "sourceLang": "ro",
+  "items": ["L001", "…"]
+}
+```
+
+The table then renders **term · IPA** instead of **term · native gloss**. A
+gloss like "măr" for the letter A is noise; `/a/` is the lesson. The IPA column
+is not added beside the translation — it *replaces* it, and it stays visible on
+mobile (the dictionary's separate IPA column is the one that hides below `sm`).
+
+`scripts/validate-data.mjs` fails the build when a `phonetic` topic has an item
+with no IPA transcription, so the column can never render half-empty.
+
+| Topic | `phonetic` | `sourceLang` | Rows | Second column |
+| --- | --- | --- | --- | --- |
+| `LT01T01` Romanian alphabet | ✓ | `ro` | 31 | IPA |
+| `LT01T02` Romanian letter groups | ✓ | `ro` | 23 | IPA |
+| `LT01T07` English alphabet & phonics | ✓ | `en` | 74 | IPA |
+| `LT01T08` English letter groups | ✓ | `en` | 24 | IPA |
+| `LT02T01` Everyday statements | — | — | 30 | native gloss |
+| Dictionary `CH01T01` | — | — | 36 | native gloss + IPA column |
+
+### Letter articles — generated, prose-shaped
+
+One article per letter/group is **generated** from `src/data/alphabets/<lang>.json`
+by `scripts/generate-letter-articles.mjs` (run by `npm run dev` / `npm run
+generate`; the output under `content/lectures/LT01T*/` is gitignored). The data
+file is the authoring surface — glyph, IPA, letter name, example and the
+nine-locale note are typed once, not 3 267 times.
+
+The body is **one paragraph**, not a stack of `##` sections:
+
+```markdown
+**A** · `/a/` — The letter A is the first letter of the Romanian alphabet.
+```
+
+That shape matters because the reading view paginates a heading-less document
+one paragraph per page (the stories rule). A `## Sound` / `## Notes` stack would
+turn two sentences into four pages; one paragraph keeps a letter on one page.
+The facts line only adds what the note does not already say, so the English and
+German letters (whose notes state the name and example) do not repeat
+themselves.
 
 **The on-the-go loop (fill missing content whenever you like)**
 

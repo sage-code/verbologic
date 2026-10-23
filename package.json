@@ -4,9 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "dev": "node scripts/generate-letter-articles.mjs --apply && nuxt dev",
+    "generate": "node scripts/generate-letter-articles.mjs --apply && nuxt generate",
     "preview": "python -m http.server 4173 --directory .output/public",
+    "media:serve": "python -m http.server 4180 --directory media",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
