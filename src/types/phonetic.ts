@@ -8,9 +8,34 @@
  * example) are stored ONCE, and only the explanation varies per UI locale.
  *
  * Authoring surface: src/data/alphabets/<lang>.json, one file per language.
- * Manifests and articles are DERIVED from these files, never hand-written.
+ * Manifests are DERIVED from these files, never hand-written. The article is
+ * rendered by `PhoneticArticle.vue` from the same data — there is no Markdown
+ * for a letter (planning/performance-and-content-refactor.md §3 phase 3).
  */
 import type { MediaNames } from './media'
+
+/**
+ * One section of a phonetic article. The reading view paginates by section —
+ * one section = one page — so each is short and self-contained.
+ */
+export interface PhoneticSection {
+  /** Section heading in the explanation language. */
+  title: string
+  /** Section body (plain text; inline `**bold**` and `` `ipa` `` are rendered). */
+  text: string
+}
+
+/**
+ * The four sections of a phonetic article, in reading order. Every field is
+ * optional: an entry that only has a `note` renders as the single-paragraph
+ * article it always was, and gains sections as the content is authored.
+ */
+export interface PhoneticSections {
+  sound?: PhoneticSection
+  howToSay?: PhoneticSection
+  spelling?: PhoneticSection
+  compare?: PhoneticSection
+}
 
 /** One letter or letter group of a target language. */
 export interface PhoneticEntry {
@@ -26,6 +51,11 @@ export interface PhoneticEntry {
   example: string | null
   /** Explanation per UI locale — the only genuinely translated field. */
   note: MediaNames
+  /**
+   * Structured article sections per UI locale. Absent for an entry that has
+   * only a `note`; the renderer then falls back to the one-paragraph form.
+   */
+  sections?: Record<string, PhoneticSections>
 }
 
 /** One language's phonetic content. */

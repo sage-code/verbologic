@@ -7,11 +7,14 @@ import { computed, onMounted, ref, watch } from 'vue'
 import { ArrowLeftIcon, ArrowRightIcon, ArrowsRightLeftIcon, ClockIcon, FilmIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 import { TRACK_IDS, type TrackId } from '~/data/tracks'
 import ArticleRail from '~/components/roadmap/ArticleRail.vue'
+import PhoneticArticle from '~/components/content/PhoneticArticle.vue'
 import { LECTURE_ROWS_KEY } from '~/lib/lectureRows'
 import { DICTIONARY_TERM_KEY } from '~/lib/dictionary-term'
 import { glossName } from '~/lib/dictionarySearch'
 import { useMedia } from '~/composables/useMedia'
+import { phoneticEntry, phoneticPages, phoneticSummary, phoneticTopic } from '~/composables/usePhonetic'
 import type { MediaRecord, MediaRow } from '~/types/media'
+import type { PhoneticEntry, PhoneticSection } from '~/types/phonetic'
 
 definePageMeta({ key: (pageRoute) => pageRoute.path })
 
@@ -35,6 +38,25 @@ if (!(TRACK_IDS as readonly string[]).includes(track.value)) {
 }
 
 /**
+ * Phonetic articles (letters and sounds) are DATA, not Markdown: the alphabet
+ * file is the authoring surface and `PhoneticArticle.vue` is the template
+ * (planning/performance-and-content-refactor.md §3 phase 3). Resolving the
+ * entry here means the page never queries Nuxt Content for them — which is
+ * what let 3 267 generated `.md` files be deleted.
+ *
+ * Ownership matters: a phonetic topic belongs to ONE language (`sourceLang`),
+ * and every language's alphabet file uses the same item codes. Looking the
+ * entry up by the route's language alone would render the German letter for a
+ * Romanian URL, so the topic's owner must match the route.
+ */
+const phonetic = computed<PhoneticEntry | null>(() => {
+  if (track.value !== 'lectures') return null
+  const topic = phoneticTopic(topicCode.value)
+  if (!topic || topic.sourceLang !== trackLang.value) return null
+  return phoneticEntry(topic.sourceLang, articleId.value)
+})
+
+/**
  * Every doc of this article in ONE query: the route's explanation locale, its
  * canonical fallback, and the per-locale docs the two reading panels need.
  * (The page used to run the same collection scan twice.)
@@ -42,6 +64,8 @@ if (!(TRACK_IDS as readonly string[]).includes(track.value)) {
 const { data: articleData, error: markdownError } = await useAsyncData(
   `article-${track.value}-${trackLang.value}-${topicCode.value}-${articleId.value}-${docLocale.value}`,
   async () => {
+    // A phonetic article has no Markdown — skip the content query entirely.
+    if (phonetic.value) return null
     const docs = await queryCollection('articles')
       .where('article', '=', articleId.value)
       .where('topic', '=', topicCode.value)
@@ -60,7 +84,7 @@ const { data: articleData, error: markdownError } = await useAsyncData(
   }
 )
 
-if (markdownError.value || !articleData.value) {
+if (!phonetic.value && (markdownError.value || !articleData.value)) {
   throw createError({ statusCode: 404, statusMessage: 'Article not found', fatal: true })
 }
 
@@ -87,7 +111,12 @@ const storyNativeDoc = computed(
     storyTargetDoc.value
 )
 /** True when the two panels would show the same document (nothing to compare). */
-const hasTranslation = computed(() => storyNativeDoc.value !== storyTargetDoc.value)
+const hasTranslation = computed(() => {
+  // A phonetic article is data: the panels differ when the explanation
+  // languages differ (the glyph itself is the same in both).
+  if (phonetic.value) return docLocale.value !== trackLang.value
+  return storyNativeDoc.value !== storyTargetDoc.value
+})
 
 /** Top-level body nodes of a doc (Nuxt Content minimark tuples). */
 const bodyNodes = (doc: unknown): unknown[] =>
@@ -127,9 +156,23 @@ function paginate(nodes: unknown[]): unknown[][] {
 
 const targetPages = computed(() => paginate(bodyNodes(storyTargetDoc.value)))
 const nativePages = computed(() => paginate(bodyNodes(storyNativeDoc.value)))
+
+/**
+ * Phonetic pages — the data-driven equivalent of `targetPages`/`nativePages`.
+ * One section = one page, in the explanation language of each panel.
+ */
+const phoneticTargetPages = computed<PhoneticSection[]>(() =>
+  phonetic.value ? phoneticPages(phonetic.value, trackLang.value) : []
+)
+const phoneticNativePages = computed<PhoneticSection[]>(() =>
+  phonetic.value ? phoneticPages(phonetic.value, docLocale.value) : []
+)
+
 /** Pages to page through — the longer of the two panels, never zero. */
 const storyPageCount = computed(() =>
-  Math.max(targetPages.value.length, nativePages.value.length, 1)
+  phonetic.value
+    ? Math.max(phoneticTargetPages.value.length, phoneticNativePages.value.length, 1)
+    : Math.max(targetPages.value.length, nativePages.value.length, 1)
 )
 const storyPage = ref(0)
 /**
@@ -168,6 +211,7 @@ const targetTerm = computed(() =>
   markdownDoc.value?.terms?.[trackLang.value] ?? record.value?.term ?? ''
 )
 const articleTitle = computed(() => {
+  if (phonetic.value) return phonetic.value.glyph ?? phonetic.value.code
   const title = storyTargetDoc.value?.title ?? 'Article'
   return title.replace(/\{\{term\}\}/g, (match, offset: number) => {
     const term = targetTerm.value
@@ -175,7 +219,9 @@ const articleTitle = computed(() => {
     return term || match
   })
 })
-const articleSummary = computed(() => storyTargetDoc.value?.summary ?? '')
+const articleSummary = computed(() =>
+  phonetic.value ? phoneticSummary(phonetic.value, docLocale.value) : (storyTargetDoc.value?.summary ?? '')
+)
 const articleStatus = computed(() => markdownDoc.value?.status ?? 'draft')
 const articleMinutes = computed(() => markdownDoc.value?.minutes ?? null)
 const isFallback = computed(() => articleData.value?.fallback ?? false)
@@ -312,6 +358,17 @@ useSeoMeta({
                 :value="storyTargetPage"
                 class="lecture-prose story-page-content min-h-0 flex-1 overflow-y-auto text-sm leading-relaxed text-content sm:text-base"
               />
+              <div
+                v-else-if="phoneticTargetPages[storyPage]"
+                class="lecture-prose story-page-content min-h-0 flex-1 overflow-y-auto text-sm leading-relaxed text-content sm:text-base"
+              >
+                <PhoneticArticle
+                  :section="phoneticTargetPages[storyPage]"
+                  :glyph="phonetic?.glyph"
+                  :ipa="phonetic?.ipa"
+                  :lead="storyPage === 0"
+                />
+              </div>
             </section>
             <section
               v-if="hasTranslation"
@@ -329,6 +386,17 @@ useSeoMeta({
                 :value="storyNativePage"
                 class="lecture-prose story-page-content min-h-0 flex-1 overflow-y-auto text-sm leading-relaxed text-content sm:text-base"
               />
+              <div
+                v-else-if="phoneticNativePages[storyPage]"
+                class="lecture-prose story-page-content min-h-0 flex-1 overflow-y-auto text-sm leading-relaxed text-content sm:text-base"
+              >
+                <PhoneticArticle
+                  :section="phoneticNativePages[storyPage]"
+                  :glyph="phonetic?.glyph"
+                  :ipa="phonetic?.ipa"
+                  :lead="storyPage === 0"
+                />
+              </div>
             </section>
           </div>
           <div class="flex shrink-0 items-center justify-center gap-3">

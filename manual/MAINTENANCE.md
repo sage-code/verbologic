@@ -387,11 +387,13 @@ content/lectures/<TOPIC>/<ID>/<locale>.md ← translated explanation
   right) with one pagination rule: `##` headings start a page, a heading-less
   document paginates one paragraph per page. There is no per-locale button row;
   the route's `:doc` segment picks the explanation language.
-- **Generated letter articles**: `scripts/generate-letter-articles.mjs` renders
-  one article per letter/group from `src/data/alphabets/<lang>.json` (run by
-  `npm run dev` / `npm run generate`; the output is gitignored). The body is a
-  single paragraph — the glyph, its IPA and the note — so a letter stays on one
-  page.
+- **Letter articles are data, not Markdown**: `src/data/alphabets/<lang>.json`
+  is the authoring surface and `src/components/content/PhoneticArticle.vue` is
+  the template — there is no generator and no `.md` for a letter. An entry with
+  only a `note` renders as one paragraph (the glyph, its IPA and the note); an
+  entry with `sections` renders one page per section. Routes come from the same
+  data (`phoneticArticleRoutes` in `nuxt.config.ts`), scoped by the topic's
+  `items`.
 - **Examples**: `L3T01/A021` (informal hello), `L3T01/A022` (evening greeting),
   and `L3T01/A023` (goodbye) each have explanation documents in all nine
   locales and target terms in all nine languages. Their audio manifests are

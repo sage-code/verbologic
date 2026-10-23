@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node scripts/generate-letter-articles.mjs --apply && nuxt dev",
-    "generate": "node scripts/generate-letter-articles.mjs --apply && nuxt generate",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
     "preview": "python -m http.server 4173 --directory .output/public",
     "media:serve": "python -m http.server 4180 --directory media",
     "postinstall": "nuxt prepare"

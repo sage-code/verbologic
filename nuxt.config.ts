@@ -37,14 +37,19 @@ function lectureTopicScopes(): Map<string, string[]> {
  * dictionary, lecture, and shared story docs are emitted for each registered
  * target language, while Markdown is stored once per explanation locale.
  * Lecture topics are scoped to the languages they exist for.
+ *
+ * Phonetic articles (letters and sounds) have NO Markdown — they are rendered
+ * from src/data/alphabets/<lang>.json by PhoneticArticle.vue — so their routes
+ * are enumerated from that data instead (phase 3 of
+ * planning/performance-and-content-refactor.md).
  */
 function contentDocRoutes(): string[] {
   const root = fileURLToPath(new URL('./content', import.meta.url))
-  if (!existsSync(root)) return []
   const routes: string[] = []
   const allLangs = navigation.languages.map((l) => l.locale)
   const lectureScopes = lectureTopicScopes()
   const walk = (dir: string, parts: string[] = []) => {
+    if (!existsSync(dir)) return
     for (const entry of readdirSync(dir, { withFileTypes: true })) {
       const next = [...parts, entry.name]
       if (entry.isDirectory()) {
@@ -74,6 +79,51 @@ function contentDocRoutes(): string[] {
     }
   }
   walk(root)
+  return [...routes, ...phoneticArticleRoutes(allLangs)]
+}
+
+/**
+ * Prerendered routes of the phonetic articles, enumerated from the alphabet
+ * data (the authoring surface) rather than from Markdown. A phonetic topic is
+ * owned by ONE target language (`sourceLang`), so its articles exist for that
+ * language only — but each is explained in every UI locale, exactly like a
+ * shared lecture article.
+ *
+ * Scoped by `topic.items`, not by the whole alphabet file: a language's data
+ * file holds every letter AND every group, while each topic owns a subset
+ * (LT01T01 = the Romanian letters, LT01T02 = its groups). Emitting the whole
+ * file per topic would prerender pages no sidebar entry can reach.
+ */
+function phoneticArticleRoutes(allLangs: string[]): string[] {
+  const routes: string[] = []
+  const dir = fileURLToPath(new URL('./src/data/alphabets', import.meta.url))
+  if (!existsSync(dir)) return routes
+  const sidebar = JSON.parse(
+    readFileSync(fileURLToPath(new URL('./src/data/sidebars/library/lectures/sidebar.json', import.meta.url)), 'utf8')
+  )
+  /** topic code → { sourceLang, items } for every phonetic topic. */
+  const phoneticTopics = new Map<string, { sourceLang: string; items: string[] }>()
+  for (const section of sidebar.sections ?? []) {
+    for (const topic of section.topics ?? []) {
+      if (topic.phonetic === true && topic.sourceLang) {
+        phoneticTopics.set(topic.code, { sourceLang: topic.sourceLang, items: topic.items ?? [] })
+      }
+    }
+  }
+  for (const [topic, { sourceLang, items }] of phoneticTopics) {
+    const file = join(dir, `${sourceLang}.json`)
+    if (!existsSync(file)) continue
+    const data = JSON.parse(readFileSync(file, 'utf8'))
+    const codes = new Set(
+      [...(data.letters ?? []), ...(data.groups ?? [])].map((entry: { code: string }) => entry.code)
+    )
+    for (const code of items) {
+      if (!codes.has(code)) continue
+      for (const locale of allLangs) {
+        routes.push(`/learn/${sourceLang}/lectures/${topic}/${code}/${locale}`)
+      }
+    }
+  }
   return routes
 }
 

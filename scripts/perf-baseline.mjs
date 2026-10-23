@@ -106,12 +106,37 @@ function routeMetrics() {
     }
   }
   const trackPages = allLangs.length * 3
+  // Phonetic articles have no Markdown — they render from the alphabet data
+  // (phase 3), so their routes are counted from the same source nuxt.config.ts
+  // enumerates: the topic's items, in the topic's owning language, per locale.
+  const alphabets = join(ROOT, 'src', 'data', 'alphabets')
+  let phoneticRoutes = 0
+  let phoneticDocs = 0
+  if (existsSync(alphabets)) {
+    for (const section of sidebar.sections ?? []) {
+      for (const topic of section.topics ?? []) {
+        if (topic.phonetic !== true || !topic.sourceLang) continue
+        const file = join(alphabets, `${topic.sourceLang}.json`)
+        if (!existsSync(file)) continue
+        const data = readJson(file)
+        const codes = new Set(
+          [...(data.letters ?? []), ...(data.groups ?? [])].map((entry) => entry.code)
+        )
+        const owned = (topic.items ?? []).filter((code) => codes.has(code))
+        phoneticRoutes += owned.length * allLangs.length
+        phoneticDocs += owned.length
+      }
+    }
+    byTrack.lectures += phoneticRoutes
+    docsByTrack.lectures += phoneticDocs
+  }
   return {
     languages: allLangs.length,
     trackPages,
     articleRoutes: Object.values(byTrack).reduce((a, b) => a + b, 0),
     articleRoutesByTrack: byTrack,
-    mdDocsByTrack: docsByTrack
+    mdDocsByTrack: docsByTrack,
+    phoneticRoutes
   }
 }
 

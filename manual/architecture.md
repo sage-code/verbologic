@@ -233,26 +233,39 @@ with no IPA transcription, so the column can never render half-empty.
 | `LT02T01` Everyday statements | — | — | 30 | native gloss |
 | Dictionary `CH01T01` | — | — | 36 | native gloss + IPA column |
 
-### Letter articles — generated, prose-shaped
+### Letter articles — data, rendered by a component
 
-One article per letter/group is **generated** from `src/data/alphabets/<lang>.json`
-by `scripts/generate-letter-articles.mjs` (run by `npm run dev` / `npm run
-generate`; the output under `content/lectures/LT01T*/` is gitignored). The data
-file is the authoring surface — glyph, IPA, letter name, example and the
-nine-locale note are typed once, not 3 267 times.
+One article per letter/group is **rendered from data**, not authored as
+Markdown. `src/data/alphabets/<lang>.json` is the authoring surface — glyph,
+IPA, letter name, example and the nine-locale note are typed once — and
+`src/components/content/PhoneticArticle.vue` is the template. There is no
+generator and no `.md` for a letter: the 3 267 generated files this replaced
+were pure duplication (planning/performance-and-content-refactor.md §3
+phase 3).
 
-The body is **one paragraph**, not a stack of `##` sections:
+The article is **one paragraph** by default, and gains structure only when the
+data does:
 
-```markdown
-**A** · `/a/` — The letter A is the first letter of the Romanian alphabet.
+```jsonc
+// src/data/alphabets/ro.json — the simple form (one page)
+{ "code": "L001", "glyph": "A", "ipa": "/a/", "note": { "en": "The letter A …" } }
+
+// the richer form (one page per section, in reading order)
+{ "code": "L001", "glyph": "A", "ipa": "/a/",
+  "sections": { "en": { "sound": { "title": "The sound", "text": "…" },
+                        "howToSay": { … }, "spelling": { … }, "compare": { … } } } }
 ```
 
-That shape matters because the reading view paginates a heading-less document
-one paragraph per page (the stories rule). A `## Sound` / `## Notes` stack would
-turn two sentences into four pages; one paragraph keeps a letter on one page.
-The facts line only adds what the note does not already say, so the English and
-German letters (whose notes state the name and example) do not repeat
-themselves.
+That shape matters because the reading view paginates by section — one section
+= one page, the same contract the Markdown form had. An entry with only a
+`note` renders as the single paragraph it always was, so both forms coexist
+while the richer content is authored (`planning/prompts/phonetic-article.md`).
+
+Routes are enumerated from the same data in `nuxt.config.ts`
+(`phoneticArticleRoutes`), scoped by the topic's `items` — a language's data
+file holds every letter *and* every group, while each topic owns a subset.
+`scripts/media-index.mjs` synthesizes the record's `content` meta from the
+data too, so the table's read button and the article route agree.
 
 **The on-the-go loop (fill missing content whenever you like)**
 

@@ -128,7 +128,8 @@ reads well in that frame — a letter article is one paragraph, a grammar articl
 is a few `##` sections.
 
 Worked examples: `content/lectures/LT03T01/L294/` (tables, dialogs, callout,
-term chips) and the generated letter articles under `content/lectures/LT01T01/`.
+term chips) and the letter articles, which are data rather than Markdown —
+`src/data/alphabets/ro.json` plus `src/components/content/PhoneticArticle.vue`.
 
 ## Converting an archive page
 
