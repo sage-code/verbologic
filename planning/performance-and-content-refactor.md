@@ -1,6 +1,6 @@
 # Performance & content-model refactor plan
 
-Status: proposal, **rev. 2** (adds §7 rendering strategy, §8 generation pipeline, §9 content order, §10 go/no-go; **§2.5 and Phase 2 are superseded by §7**) · Date: 2026-10-23 · Scope: build pipeline, content/data model, runtime payloads, routing, content generation.
+Status: proposal, **rev. 3** (optimise first, validate on a 10% slice — see §12; no flagship model, no staging area; phonetic prompt in `planning/prompts/phonetic-article.md`). Rev. 2 (adds §7 rendering strategy, §8 generation pipeline, §9 content order, §10 go/no-go; **§2.5 and Phase 2 are superseded by §7**) · Date: 2026-10-23 · Scope: build pipeline, content/data model, runtime payloads, routing, content generation.
 Constraints honoured: media files stay under `media/` (and keep their paths, so R2 URLs and uploads do not change); manifest/JSON structure may change; MD stays for prose, YAML/JSON allowed where better.
 
 > **Caveat.** `media/` is blocked by this session's permission settings, so I could not read the per-item `item.json` manifests. Their shape is inferred from `scripts/media-index.mjs`, `scripts/media-scaffold-topic.mjs` and the emitted payloads. Verify the field list in Phase 0 before writing the codemod.
@@ -123,7 +123,7 @@ Each phase is independently shippable and ends with a **golden comparison**: the
 | **0 · Baseline & guardrails** | Start from a clean commit (the tree has ~100s of modified `item.json`). Add `scripts/perf-baseline.mjs` (payload sizes raw/gz, route count, `.output` file count, build time). Snapshot golden rows from today's payloads. Read one real `item.json` per kind and confirm the field list assumed here. | Numbers to beat; safety net for every later phase. | None |
 | **1 · Payload quick wins** (no model change) | Minify output; remove `generated`; drop `sha1/bytes/source/section` from topic and search payloads (keep `mime`, `tags`); collapse `content.locales` to a compact form; add `_headers` caching. | `search.json` 4.16 MB → ~1.5 MB raw; topic files ~40–50% smaller; deterministic output. | Low |
 | **2 · Rendering strategy** (replaces "route collapse") | Measure build time and file count; run the 1–2 day Workers SSR spike in §7; decide static tiers vs on-demand tail. **URLs do not change.** | Removes the 69k-route cliff without losing per-locale SEO pages. | Medium: introduces a Worker script if the spike passes |
-| **3 · Letters as data** | `LetterArticle.vue` renders from alphabet data; delete `generate-letter-articles.mjs` and the `dev`/`generate` hook; drop `content/lectures/LT01T*` md; `sourceSha`/review tooling skips data-backed topics. | −3,267 files; faster dev start, `nuxt generate` and Nuxt Content DB build. | Low–Medium: the reading view paginates by paragraph — keep a one-paragraph component |
+| **3 · Phonetic articles as data** | Articles for letters/sounds become **structured sections stored as data** (one file per topic/locale), rendered by `PhoneticArticle.vue` — no `.md`. Delete `generate-letter-articles.mjs` and the `dev`/`generate` hook; drop `content/lectures/LT01T*` md; review tooling reads the data files. Content is produced offline with the prompt in `planning/prompts/phonetic-article.md` (see §12). | −3,267 files; faster dev start, `nuxt generate` and Nuxt Content DB build; richer articles than today's one-sentence notes. | Low–Medium: the reading view paginates by `##` heading — one section = one page, keep that contract |
 | **4 · Unit model + loader** | Define the `topic.yaml` / `structure.yaml` / `media.lock.json` schema (zod, shared with `content.config.ts`). Write `content-graph.mjs`. Write an idempotent codemod (`--dry-run`) from `item.json` + md front matter → `topic.yaml` + lock. Slim md front matter. Keep old files until Phase 7. | Single source of truth; clean diffs; one reader. | Medium–High: the biggest change; guarded by the golden comparison |
 | **5 · Unit-shaped payloads + client** | Emit the §2.4 shape; replace `useMedia` row handling with a `useUnits` selector `(unit, target, ui) → row`; update `roadmapStore`, `TopicTable`, `TopicGallery`, `Term.vue`, search. | `search.json` ~250 KB raw / 59 KB gz; one record per unit in memory. | Medium: touches the most client code |
 | **6 · Direction semantics** | `mode: reversible | directional` in schema, validator, UI (hide/show swap, directional second column). Migrate `LT01` topics (`sourceLang` → `directional`+`target`). Delete `langs`, `sourceLang`, `EN_CANONICAL`, `broadcast`. | The five mechanisms (F9) become one. | Low–Medium |
@@ -232,7 +232,7 @@ Move from "free prose" to **typed templates** in `generation/templates/<kind>.ya
 |---|---|---|
 | `word` | register & use · 2 example sentences (with L1 gloss) · common mistake · collocations · cultural note (optional) | Example sentences must use only vocabulary of the same or earlier level (see below) |
 | `phrase` / `sentence` | when to use · formality · variants · reply | Pairs with Q&A topics |
-| `letter` / `sound` | **no generation** — data-driven component (Phase 3) | IPA/spelling facts come from data, not an LLM |
+| `letter` / `sound` | **Generated once, stored as structured data, rendered by a component** (Phase 3) — prompt in `planning/prompts/phonetic-article.md` | Articulatory facts (place/manner/voicing, vowel features) come from a reference table, never from the model's memory; the model writes only the explanation |
 | `grammar` (lectures) | rule in 1–2 sentences · pattern table · 3 graded examples · exceptions · quick check | Table is data, not prose |
 | `story` | title · level · controlled-vocabulary prose · comprehension questions | Hardest; do last |
 
@@ -246,14 +246,14 @@ Stages and models (all IDs checked against the [models](https://ai.google.dev/ge
 
 | Stage | Recommended model | Why | Price / 1M tokens (in / out, batch = 50%) |
 |---|---|---|---|
-| Canonical English `sense` + article (author) | **`gemini-4-argon`** (stable flagship) | Quality at the one step that is multiplied ×9; volume is small | $2 / $10 now → **$4 / $20 from 2026-12-01** |
+| Canonical English `sense` + article (author) | **`gemini-3.8-flash`** (decision 2026-10-23: good enough; flagship judged too expensive for writing) | One model for authoring and translation keeps cost and tooling simple; quality is bought with templates, reference facts and checks (§8.4, `planning/prompts/`), not with a pricier model | $0.75 / $3.75 now → $1.50 / $7.50 from 2027-01-01 |
 | Translation ×8 locales | **`gemini-3.8-flash`** (stable) | Strong multilingual quality, much cheaper; use Batch | $0.75 / $3.75 now → **$1.50 / $7.50 from 2027-01-01** |
-| Critic / verification | `gemini-4-argon` on a sampled or flagged subset, `gemini-3.8-flash` on the rest | A different model/prompt from the translator avoids shared blind spots | as above |
+| Critic / verification | `gemini-3.8-flash` with a **separate prompt and no access to the generator's output reasoning**, plus the deterministic checks | Same model means shared blind spots, so the weight is on the deterministic validators and the human sample; the optional local back-translation critic (§11.1) is the independent fallback | as above |
 | Mechanical pre-checks, tagging, cheap lookups | `gemini-3.5-flash-lite` (today's default) | Fine for non-linguistic work; **not recommended for term translation** (no sense awareness at that size) | $0.30 / $2.50 |
 | Voice, if the bake-off wins | `gemini-3.8-flash-tts` (expressive) or `-flash-lite-tts` (bulk) | Same price family as above | $0.50 / $9 now → $1 / $18 from 2027-01-01 (TTS in / audio out) |
 | **Avoid** | `gemini-3.1-pro-preview`, `gemini-3-flash-preview`, `gemini-3.1-flash-tts-preview` | Preview/legacy — behaviour and availability can change; `gemini-3.1-flash-lite-preview` and `gemini-3-pro-preview` are already shut down | — |
 
-**Cost reality check.** Dictionary articles are ~150 words. 858 articles × 9 locales ≈ 2M output tokens ⇒ order of **tens of dollars** for the whole dictionary even at post-increase rates, less with Batch (flagship reasoning tokens add a multiple; still small). **Cost is not the constraint; accuracy and your review time are.** (These are my estimates from token counts — confirm on the pilot with real usage metadata.)
+**Cost reality check.** Dictionary articles are ~150 words. 858 articles × 9 locales ≈ 2M output tokens ⇒ order of **tens of dollars** for the whole dictionary even at post-increase rates, less with Batch. **Cost is not the constraint; accuracy and your review time are.** (These are my estimates from token counts — confirm on the §12 slice validation with real usage metadata.)
 
 Operational rules:
 - API key stays in the git-ignored `.env` (`GEMINI_API_KEY`, as today); never in the repo, logs, or front matter. Use a **paid-tier** project: the pricing page notes free-tier usage may be used to improve Google's products, and free-tier rate limits would throttle bulk runs.
@@ -278,7 +278,7 @@ Operational rules:
 | 4. Audio | Only for languages being promoted (start `ro`, `en`) | ASR round-trip ≥ agreed threshold; 5% listen sample; mismatches get `ttsText` |
 | 5. Publish | `./run.sh media manifest/upload`, build, verify rendering (curl the page) | Chapter checklist below |
 
-2. **Pilot on `CH01` (dictionary).** It already holds ~80 units, so it can calibrate prompts, glossaries, voices and thresholds on content you know. Don't scale before the pilot's error rate is known.
+2. **Validate on a 10% slice first (§12), not a full-chapter pilot.** It calibrates prompts, glossaries, voices and thresholds across all three tracks and two chapters; don't scale before its error rate is known.
 
 **Track order:** Dictionary → Lectures → Stories. Dictionary supplies the controlled vocabulary the later tracks draw on, and curriculum levels line up chapter-for-chapter (see `manual/curriculum.md`). Stories are last: long-form, hardest to verify automatically.
 
@@ -296,13 +296,18 @@ Operational rules:
 
 | Step | What | Why this position |
 |---|---|---|
+**Rev. 3 (2026-10-23): optimisation first, no generation until the architecture is validated on a 10% slice (§12).**
+
+| Step | What | Why this position |
+|---|---|---|
 | 0 | Baseline + golden snapshot (includes build time, route count, TTFB) | Everything is judged against it |
 | 1 | Payload quick wins | Low risk, immediate size win |
-| 2 | Rendering spike & decision (§7) | Must precede any large content volume |
-| 3 | Letters as data | Independent, removes ~3,267 files |
-| 4 | Unit model + loader + `media.lock.json` (the schema now includes `sense`, `gen`, `status`) | **Generation must target the new schema — otherwise we generate into `item.json` and migrate twice** |
-| G | Generation pipeline (§8) built on the Phase-4 schema; **pilot CH01**, then chapter by chapter | Scales content with measured quality |
-| 5–7 | Unit-shaped payloads, direction semantics, cleanup | Can proceed in parallel with chapter generation |
+| 2 | Rendering spike & decision (§7) | Free plan ⇒ 20k-file limit is binding |
+| 3 | Phonetic articles as data (structure + renderer; content comes later with the §12 prompt) | Independent, removes ~3,267 files |
+| 4 | Unit model + loader + `media.lock.json` (schema includes `sense`, `gen`, `status`) | Everything after targets one schema |
+| 5–7 | Unit-shaped payloads, direction semantics, cleanup | Completes the optimised architecture |
+| **V** | **Slice validation (§12): 10% of dictionary CH01+CH02, lectures LT01+LT02, stories ST01+ST02, end to end** | Proves the new architecture and the generation pipeline before any bulk run |
+| G | Chapter-by-chapter generation | Only after V passes |
 
 **Preconditions before step 0:**
 1. ~~Allow read access to `media/`~~ — **done 2026-10-23** (`.claude/settings.json` deny narrowed to `*.mp3/*.mp4/*.webp`; `./run` → `./run.sh` in allow/ask rules; `--apply` forms of `media upload|prune` set to ask). First manifest read (`media/lectures/LT01/LT01T01/L001/item.json`) confirms the inferred shape and adds one finding: each manifest also carries a **per-locale `description` (×9)** and a stored `audio.<lang>.key`, so the unit model must absorb `description` (it overlaps the article `summary` — keep one) and drop `key` (derived).
@@ -341,8 +346,8 @@ Cost is not the reason to go local: the whole dictionary is tens of dollars on t
 ### 11.2 Which Gemini model
 
 - **Finding:** `.env` sets `GEMINI_MODEL='models/gemini-3.1-flash-light'`, which `generate-audio.py` normalises to `gemini-3.1-flash-lite` — the cheapest tier, overriding the script's own default. Current translations were made by it. Fine for a first pass; not what I would trust for the ×9 multiplier.
-- **Use `gemini-3.8-flash`** (stable) for terms, descriptions, article translation. **Use `gemini-4-argon`** as author of the English canonical text and as critic.
-- **Pilot experiment (cheap, ~80 units):** translate CH01 with `gemini-3.1-flash-lite` (baseline), `gemini-3.8-flash`, and `gemini-4-argon`; have you judge Romanian (and English) blind, and score the other 7 by critic + deterministic checks. This answers "is the upgrade worth it" with evidence instead of opinion. Expect it to cost well under a dollar.
+- **Decision (2026-10-23): `gemini-3.8-flash` for everything** — terms, descriptions, article writing, translation, critic. No flagship model (too expensive for writing). `gemini-3.1-flash-lite` (current `.env` value) is retired for translation: update `.env`/`models.yaml`.
+- ~~Three-model comparison~~ — dropped. Quality of `gemini-3.8-flash` with the new templates and checks is measured by the §12 slice validation instead.
 - Free tier covers `gemini-3.8-flash`, so the pilot can run on the existing key; I don't know that key's tier. Free-tier prompts may be used by Google for product improvement — acceptable for public vocabulary, not for anything private. Use a paid key for bulk runs (rate limits).
 
 ### 11.3 Batching — already how it works; tune, don't redesign
@@ -357,13 +362,91 @@ Cost is not the reason to go local: the whole dictionary is tens of dollars on t
 ### 11.4 CH01 pilot — design
 
 Your instruction: do the first chapter for **all languages** to see how it goes. Agreed, with two choices:
-1. **Run it now in the current manifest format, into a staging area** (`temp/pilot/CH01/…`, git-ignored), **not** into `item.json`. It is ~80 units, so migrating its results later via the Phase-4 codemod is trivial, and the pilot's purpose is to calibrate prompts, glossaries and thresholds — we want that data before building the unit schema and before scaling. This supersedes the "pilot after Phase 4" ordering in §10; chapters beyond CH01 still wait for the Phase-4 schema.
+1. ~~Run it now in a staging area~~ — **superseded (2026-10-23): no staging area and no generation now.** The architecture is optimised first and the CH01 pilot becomes part of the 10% slice validation in §12, written straight into the new schema.
 2. **Audio for all 9 languages in the pilot** (Edge TTS is free and ~720 short clips), even though later chapters will generate only promoted languages. This exercises all nine voices and tells us the per-language ASR-mismatch rate, which sets the threshold and the `ttsText` workload.
 
-Outputs of the pilot, as one report (`temp/pilot/CH01/report.md`):
-- per-model, per-language: deterministic-check failures, critic flags, Romanian/English blind scores;
+Outputs of the validation run, as one report (`planning/validation/slice-report.md`):
+- per-language: deterministic-check failures, critic flags, Romanian/English review scores;
 - per-language TTS: ASR mismatch rate, silence/loudness spread;
 - real token usage and cost; wall-clock time per stage;
 - list of prompt/glossary/template changes the data suggests.
 
 **Prerequisites:** none beyond what exists (`.env` key present and git-ignored; `edge-tts` installed). The ASR round-trip needs a transcriber: use a Gemini audio-input call (no new local install). Confirm that choice before I build it.
+
+---
+
+# Revision 3 (2026-10-23)
+
+Decisions in this revision: **no generation until the architecture is optimised and validated; no staging area; `gemini-3.8-flash` for writing, translating and checking (no flagship model); phonetic articles get a dedicated fact-driven prompt** (`planning/prompts/phonetic-article.md`); **the architecture is validated on a 10% slice of dictionary, lectures and stories, chapters 1 and 2.**
+
+## 12. Optimisation first, then slice validation
+
+### 12.1 Work order (no content generated in this stage)
+
+| Stage | Phases (§3) | Exit check |
+|---|---|---|
+| **A. Measure** | 0 | Baseline report committed: payload sizes (raw/gz), route and file counts, build time, TTFB; golden row snapshot |
+| **B. Cheap wins** | 1 | Payload sizes at or below the §3 targets; output deterministic (two builds ⇒ byte-identical payloads); golden comparison clean |
+| **C. Rendering** | 2 (spike + decision) | Decision recorded in §7 with measured build time per 1,000 routes and cache-hit/miss TTFB; projected full-size file count ≤ 15k (Free plan margin) |
+| **D. Model** | 3, 4 | One loader feeds every consumer; codemod reproduces today's payloads exactly for existing items; no `item.json` is read after this point except by the codemod |
+| **E. Client + semantics** | 5, 6, 7 | Per-unit payloads in use; reversible/directional modes enforced by schema; legacy bridge and one-off scripts removed |
+| **F. Prepare content tooling (still no generation)** | — | Reference tables (§8 of the phonetic prompt) authored and reviewed; templates and prompts written for `word`, `phrase`, `grammar`, `story`; `generation/models.yaml` set to `gemini-3.8-flash`; `gen` commands implemented with `--dry-run` only |
+| **V. Validate on a 10% slice** | §12.2–12.4 | Pass criteria in §12.4 |
+
+Stage F can overlap D–E (it is data authoring and tooling, not generation). Nothing calls the Gemini API until stage V.
+
+### 12.2 The slice
+
+Rule: **per non-empty topic, `ceil(10% × planned items)`, minimum 1**, chosen by a stable hash of `<TOPIC>:<ID>` so the choice is reproducible, then **frozen** in `generation/slices/v1.yaml`. Computed from the sidebars on 2026-10-23:
+
+| Track | Chapter | Topics with items | Planned items | Slice |
+|---|---|---|---|---|
+| Dictionary | CH01 | 9 | 97 | 13 |
+| Dictionary | CH02 | 7 | 70 | 7 |
+| Lectures | LT01 | 11 | 363 | 42 |
+| Lectures | LT02 | 7 | 315 | 34 |
+| Stories | ST01 | 2 | 8 | 2 |
+| Stories | ST02 | 2 | 10 | 2 |
+| **Total** | | **38** | **863** | **100** |
+
+Coverage the slice must contain (add picks if the hash misses one): every layout (table, phonetic table, article); reversible dictionary and lecture topics; **directional topics in all 9 languages** (LT01T01/02 ro, T07/08 en, T09–T15 de/ru/it/es/fr/hu/pt); at least one existing item per topic (regression against today's data) and at least one *planned* item (exercises generation).
+
+Scope per slice unit: terms/glosses/IPA in 9 locales; articles per template; Edge TTS audio **for all 9 languages** (≈ 900 short clips — it exercises every voice and sizes the per-language mispronunciation rate); story read-aloud for the 4 story items in `ro` and `en` only.
+
+### 12.3 What the slice proves
+
+| Area | Test |
+|---|---|
+| Unit model | Existing slice items round-trip through the codemod to payloads equal to today's (golden). New items need no special code path. |
+| Reversible vs directional | Reversible topic: swap target/native in the UI works and rows are correct both ways. Directional topic: swap hidden, second column is IPA (phonetic) or gloss as declared. |
+| Payload size and speed | Per-unit bytes measured on the slice, projected to 858 + lecture + story units; compare with §2.4 targets; measure parse/filter time on a throttled mobile profile. |
+| Rendering tiers | Slice article pages served as tier 1 (static) and tier 2 (Worker + cache) in a preview; TTFB hit/miss; sitemap and `hreflang` validate; file-count projection stays under the Free limit. |
+| Generation pipeline | Stages 1–5 (§9) run on the slice; **second run makes 0 API calls** (hash cache); changing one term regenerates only that term's dependent text and clip. |
+| Phonetic articles | The slice's LT01 picks (≈ 42 sounds across 9 languages) are generated with the phonetic prompt; validators (§5 of the prompt) pass or route to repair; review per §12.4. |
+| Translation accuracy | Deterministic-check failure rate; critic flags; human review results (below). |
+| Sound accuracy | ASR round-trip mismatch rate per language; 5% listen sample; `ttsText` corrections needed. |
+| Operations | Real token usage, cost, wall-clock time per stage; extrapolation to the full site. |
+
+### 12.4 Review load and provisional pass criteria
+
+Review on the slice (100 units): **you review 100% of Romanian and English** (≈ 200 language-units); **a 10% random sample of the other 7 languages** (≈ 10 units × 7), plus every item a validator or the critic flagged. Thresholds are provisional and get re-set from these results:
+
+| Metric | Pass |
+|---|---|
+| Deterministic-check failures after one repair pass | 0 reaching human review unflagged |
+| Human edits needed, Romanian and English | ≤ 5% of fields |
+| Human edits needed, other languages (sampled) | ≤ 10% of fields |
+| ASR mismatch after `ttsText` fixes | ≤ 3% of clips per language |
+| Phonetic articles: factual errors found in review (wrong place/manner/voicing, invented word/IPA) | 0 — any occurrence blocks scale-up and triggers a validator fix |
+| Idempotency | 0 API calls on the second run |
+| Golden regression | 0 differences on existing items |
+| Projected full-site cost | within the §8.5 estimate (tens of dollars) |
+| Projected file count | ≤ 15k |
+
+**Gate:** all pass ⇒ proceed chapter by chapter (§9). Any failure ⇒ fix list (prompt, glossary, validator, schema or architecture), then re-run **only the failed area** on the same frozen slice.
+
+### 12.5 Still open
+
+1. Languages for audio at first promotion beyond the slice: `ro` + `en` only? (the slice itself generates all 9)
+2. Is "100% ro/en + 10% others" realistic for the slice's ~200 language-units? It is a fraction of a full chapter's load; confirm before stage V.
+3. `.env` is still set to `gemini-3.1-flash-lite`; switching it to `gemini-3.8-flash` is part of stage F.
