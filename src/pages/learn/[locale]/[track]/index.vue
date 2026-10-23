@@ -51,14 +51,36 @@ const trackId = computed<TrackId>(() => track.value as TrackId)
 const flagFor = (loc: string): string => languages.find((l) => l.locale === loc)?.flag ?? loc
 
 /** Track titles + icons — one entry per TRACK_IDS entry. */
-const TRACK_META: Record<TrackId, { icon: Component; titleKey: string; fallback: string }> = {
-  dictionary: { icon: BookOpenIcon, titleKey: 'track.dictionary_title', fallback: 'Dictionary' },
-  lectures: { icon: AcademicCapIcon, titleKey: 'track.lectures_title', fallback: 'Lectures' },
-  stories: { icon: BookmarkIcon, titleKey: 'track.stories_title', fallback: 'Stories' }
+const TRACK_META: Record<
+  TrackId,
+  { icon: Component; titleKey: string; fallback: string; introKey: string; introFallback: string }
+> = {
+  dictionary: {
+    icon: BookOpenIcon,
+    titleKey: 'track.dictionary_title',
+    fallback: 'Dictionary',
+    introKey: 'track.dictionary_intro',
+    introFallback: 'Words and expressions with IPA, a native gloss and audio in every language.'
+  },
+  lectures: {
+    icon: AcademicCapIcon,
+    titleKey: 'track.lectures_title',
+    fallback: 'Lectures',
+    introKey: 'track.lectures_intro',
+    introFallback: 'Grammar and usage explained in short articles, readable in two languages.'
+  },
+  stories: {
+    icon: BookmarkIcon,
+    titleKey: 'track.stories_title',
+    fallback: 'Stories',
+    introKey: 'track.stories_intro',
+    introFallback: 'Short texts to read and listen to, side by side with your own language.'
+  }
 }
 
 const meta = computed(() => TRACK_META[trackId.value])
 const title = computed(() => copy(meta.value.titleKey, meta.value.fallback))
+const intro = computed(() => copy(meta.value.introKey, meta.value.introFallback))
 const live = computed(() => isTrackLive(locale.value, trackId.value))
 
 /** The learner's own language — the UI language, or English when it matches the
@@ -90,6 +112,7 @@ const languagePair = computed(() => {
       <div class="min-w-0">
         <h1 class="text-2xl font-bold text-content">{{ title }}</h1>
         <p class="text-sm text-muted">{{ languagePair }}</p>
+        <p class="mt-1 max-w-xl text-sm text-muted">{{ intro }}</p>
       </div>
       <component :is="meta.icon" class="h-6 w-6 text-accent" aria-hidden="true" />
       <!-- Meter slot: RoadmapShell teleports the two progress meters here —

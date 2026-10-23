@@ -149,7 +149,7 @@ async function toggleScopeLearned() {
       <table class="w-full border-collapse text-sm">
         <thead class="sticky z-10 bg-soft text-left text-xs uppercase tracking-wide text-faint" :class="THEAD_STICKY_TOP">
           <tr>
-            <th class="px-3 py-2 font-medium">{{ copy('dictionary.col_id', 'File ID') }}</th>
+            <th class="hidden px-3 py-2 font-medium sm:table-cell">{{ copy('dictionary.col_id', 'File ID') }}</th>
             <th class="px-3 py-2 font-medium">{{ targetHeader }}</th>
             <th class="px-3 py-2 font-medium">{{ nativeHeader }}</th>
             <th class="px-3 py-2 text-center font-medium">{{ copy('dictionary.col_audio', 'Audio') }}</th>
@@ -195,15 +195,15 @@ async function toggleScopeLearned() {
             @click="!row.disabled && row.pick()"
             @dblclick="!row.disabled && row.open()"
           >
-            <td class="whitespace-nowrap px-3 py-2 font-code text-xs text-faint">{{ row.code }}</td>
+            <td class="hidden whitespace-nowrap px-3 py-2 font-code text-xs text-faint sm:table-cell">{{ row.code }}</td>
             <td class="px-3 py-2 font-medium text-content">{{ row.target }}</td>
             <td class="px-3 py-2 text-muted">{{ row.native }}</td>
             <td class="px-3 py-2 text-center">
               <!-- Title audio: lights up via useTitles once the titles payload lands -->
               <button
                 type="button"
-                class="inline-flex h-8 w-8 items-center justify-center rounded-full border text-sm transition disabled:cursor-not-allowed disabled:border-edge disabled:bg-surface disabled:text-faint disabled:opacity-40"
-                :class="isPlayingTitle(row.code) ? 'border-transparent bg-red-800 text-white' : 'border-edge bg-surface text-accent hover:border-accent'"
+                class="btn-pastel inline-flex h-8 w-8 items-center justify-center rounded-full border text-sm transition disabled:cursor-not-allowed disabled:border-edge disabled:bg-surface disabled:text-faint disabled:opacity-40"
+                :class="isPlayingTitle(row.code) ? 'border-transparent bg-red-800 text-white' : 'border-edge text-accent hover:border-accent'"
                 :disabled="!titleUrl(row.code)"
                 :title="
                   !titleUrl(row.code)
@@ -227,7 +227,7 @@ async function toggleScopeLearned() {
                 :class="
                   row.done
                     ? 'border-accent bg-accent-soft text-accent'
-                    : 'border-edge text-muted hover:border-accent hover:text-accent'
+                    : 'btn-pastel border-edge text-muted hover:border-accent hover:text-accent'
                 "
                 :disabled="row.disabled"
                 :aria-pressed="row.done"

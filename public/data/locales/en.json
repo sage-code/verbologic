@@ -30,7 +30,9 @@
     "video_coming_soon": "Video coming soon",
     "read": "Read",
     "resume": "Resume",
-    "stop": "Stop"
+    "stop": "Stop",
+    "sound_on": "Turn sound on",
+    "sound_off": "Turn sound off"
   },
   "languages": {
     "en": "English",
@@ -181,15 +183,14 @@
   },
   "method": {
     "title": "Method",
-    "intro": "Contextual acquisition and adaptive spaced repetition — the full method write-up is on its way. Until then, browse the Romanian and English roadmaps, already fully searchable.",
-    "features_title": "System features",
-    "features_subtitle": "Built for acquisition that sticks.",
-    "feature_ai_title": "AI Context Engines",
-    "feature_ai_desc": "Every expression is learned in context, never in isolation.",
-    "feature_srs_title": "Spaced Repetition",
-    "feature_srs_desc": "Adaptive review scheduling locks vocabulary into long-term memory.",
-    "feature_analytics_title": "Precision Analytics",
-    "feature_analytics_desc": "Progress tracked letter by letter, word by word."
+    "intro": "Contextual acquisition with native audio in nine languages. Pick a panel below to start.",
+    "panel_practice_title": "AI Context Learning",
+    "panel_practice_desc": "Every expression is learned in context, never in isolation. The practice modes are in preparation.",
+    "panel_library_title": "Native Audio Dictionary",
+    "panel_library_desc": "Dictionary, lectures and stories in nine languages — one shared text, audio in each language.",
+    "panel_profile_title": "Progress Tracking",
+    "panel_profile_desc": "Mark words learned, listen to a term five times to auto-complete it, and follow chapter progress. Requires a registered account.",
+    "panel_open": "Open"
   },
   "about": {
     "title": "About Verbologic",
@@ -240,8 +241,11 @@
   },
   "track": {
     "dictionary_title": "Dictionary",
+    "dictionary_intro": "Words and expressions with IPA, a native gloss and audio in every language.",
     "lectures_title": "Lectures",
+    "lectures_intro": "Grammar and usage explained in short articles, readable in two languages.",
     "stories_title": "Stories",
+    "stories_intro": "Short texts to read and listen to, side by side with your own language.",
     "coming_soon_title": "This track is coming soon",
     "coming_soon_body": "We are preparing this track. Check back soon — your progress is safe."
   },
@@ -337,6 +341,16 @@
     "label": "Article",
     "read_article": "Read this article",
     "coming_soon": "No articles in this topic yet — content is being prepared."
+  },
+  "legend": {
+    "title": "Legend",
+    "open": "Show legend",
+    "article": "Article — open the two-panel reading view",
+    "scroll": "Scroll — this row has an article to read",
+    "sound": "Speaker — turn the sound on or off",
+    "play": "Play — listen to this row",
+    "done": "Check — mark the row or the whole page as learned",
+    "total_credit": "Total credit"
   },
   "stories": {
     "learning_text": "Learning language",

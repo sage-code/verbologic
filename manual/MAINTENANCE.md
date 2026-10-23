@@ -695,6 +695,14 @@ View **`enrollments_overview`** aggregates `words_learned` /
 **Regenerate DB types:** `npx supabase gen types typescript --project-id <ref>
 --schema public > src/types/database.ts`.
 
+**Payments (not wired yet):** credits are bought with PayPal, which needs a
+server — the site is a static bundle, so the secret cannot live in the browser.
+The planned host is a Supabase Edge Function. Setup steps (PayPal Business
+account → Client ID + Secret → Edge Function secrets → next-phase prompt) are
+in [planning/paypall_settings.md](../planning/paypall_settings.md). Until then
+`AddCreditsDialog` writes the pool to `localStorage` only and `/pricing` is a
+checkout stub.
+
 
 ---
 

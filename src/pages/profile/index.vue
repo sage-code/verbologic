@@ -589,6 +589,9 @@ async function securitySubmit() {
 <template>
   <main class="mx-auto max-w-3xl">
     <h1 class="text-center text-3xl font-bold text-content">{{ copy('profile.title', 'Profile') }}</h1>
+    <p class="mt-2 text-center text-muted">
+      {{ copy('profile.subtitle', 'Your account, preferences and credits.') }}
+    </p>
 
     <!-- Preferences — shared bar, identical signed in and signed out, always
          directly under the title: theme toggle + Log in/out on the left,

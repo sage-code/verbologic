@@ -69,7 +69,7 @@ const menuIds = nav.menu.map((m) => m.id)
 const KNOWN_FLAGS = ['us', 'ro', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
 const KNOWN_BRANDS = ['bluesky', 'discord', 'youtube', 'reddit']
 /** Menu icon slugs — each must map to a component in AppNav.vue `ICONS`. */
-const KNOWN_MENU_ICONS = ['academic-cap', 'building-library', 'speaker-wave', 'user']
+const KNOWN_MENU_ICONS = ['academic-cap', 'building-library', 'speaker-wave', 'sparkles', 'user']
 
 if (langCount !== 9) ERRORS.push(`expected 9 languages, got ${langCount}`)
 for (const l of nav.languages) {

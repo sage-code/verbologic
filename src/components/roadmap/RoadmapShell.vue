@@ -172,6 +172,21 @@ const frameTitle = computed(() => {
   return copy('roadmap.all_chapters', 'All chapters')
 })
 
+/**
+ * The open topic's title split into its parts so the code can drop out on a
+ * phone: "(A1) - LT02T01: Everyday statements" on desktop, "(A1) - Everyday
+ * statements" below `sm`. Null when no topic is open (frameTitle is used).
+ */
+const topicTitleParts = computed(() => {
+  if (!store.topic || store.searchActive) return null
+  const code = store.topicCode ?? ''
+  return {
+    level: store.topic.level ? `(${store.topic.level})` : '',
+    code,
+    name: mediaName(store.topic.names, uiLang.value, code)
+  }
+})
+
 /** The resolved pane is TopicTable (search results, or an open topic in a
  *  table or article layout) — it has its own toolbar row, so the search box
  *  drops into THAT row (bare, see WordSearchBar) instead of getting its own row here. */
@@ -261,7 +276,7 @@ const navAction = computed(() => {
       <Teleport v-if="metersMounted" to="#track-meters">
         <div v-if="enrollment" class="min-w-0 flex-1">
           <p class="text-[11px] leading-none text-muted">
-            Credit: {{ enrollment.creditsConsumed }}$/{{ enrollment.creditsTotal }}$
+            {{ copy('legend.total_credit', 'Total credit') }}: {{ enrollment.creditsTotal }}$
           </p>
           <div class="mt-1.5 h-1.5 overflow-hidden rounded-full bg-soft">
             <div class="h-full rounded-full bg-accent transition-all" :style="{ width: `${creditPct}%` }" />
@@ -286,7 +301,12 @@ const navAction = computed(() => {
            DictionaryToolbar. -->
       <div class="flex h-10 items-center justify-between gap-2">
         <h2 class="min-w-0 flex-1 truncate text-lg font-semibold text-content">
-          {{ frameTitle }}
+          <template v-if="topicTitleParts">
+            <span v-if="topicTitleParts.level">{{ topicTitleParts.level }} - </span>
+            <span class="hidden sm:inline">{{ topicTitleParts.code }}: </span>
+            {{ topicTitleParts.name }}
+          </template>
+          <template v-else>{{ frameTitle }}</template>
         </h2>
         <!-- The one navigation button — on the title row (not the sidebar
              label) so it stays visible on small screens, where the rail is a

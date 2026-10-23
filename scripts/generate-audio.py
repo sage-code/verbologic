@@ -43,6 +43,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parents[1]
 MEDIA_DIR = ROOT / "media"
 CONTENT_DIR = ROOT / "content"
+SIDEBARS_DIR = ROOT / "src" / "data" / "sidebars"
 TRACKS = ("dictionary", "lectures", "stories")
 LOCALES = ("en", "ro", "de", "ru", "it", "es", "fr", "hu", "pt")
 LANGUAGE_NAMES = {
@@ -506,6 +507,106 @@ async def apply_read(
     return generated, skipped, failed
 
 
+def sidebar_paths(track_filter: str | None) -> list[Path]:
+    """Sidebar files for the selected track(s) — the structure layer the UI
+    renders chapter/topic names from (src/data/sidebars/library/<track>/sidebar.json)."""
+    tracks = (track_filter,) if track_filter else TRACKS
+    paths = []
+    for track in tracks:
+        path = SIDEBARS_DIR / "library" / track / "sidebar.json"
+        if path.is_file():
+            paths.append(path)
+    return paths
+
+
+def build_sidebar_jobs(paths: list[Path]):
+    """One translation job per chapter and per topic whose `names` lack locales.
+
+    Sidebars carry only `names` (no descriptions), so the job shape is the same
+    as a manifest's names half. Keys are `<chapter>` / `<chapter>/<topic>` so a
+    single sidebar's chapters and topics never collide.
+    """
+    jobs = []
+    for path in paths:
+        sidebar = json.loads(path.read_text(encoding="utf-8"))
+        entries: list[tuple[str, dict[str, Any]]] = []
+        for section in sidebar.get("sections", []):
+            entries.append((str(section.get("code")), section))
+            for topic in section.get("topics", []):
+                entries.append((f"{section.get('code')}/{topic.get('code')}", topic))
+        for key, entry in entries:
+            names = entry.get("names")
+            if not isinstance(names, dict):
+                continue
+            missing = [lang for lang in LOCALES if is_missing(names.get(lang))]
+            if not missing:
+                continue
+            source = locale_source(names)
+            if not source:
+                continue
+            source_lang, source_text = source
+            targets = [lang for lang in missing if lang != source_lang]
+            if not targets:
+                continue
+            jobs.append(
+                (
+                    path,
+                    sidebar,
+                    {
+                        "key": key,
+                        "kind": "sidebar",
+                        "context": {"code": key, "track": sidebar.get("id")},
+                        "names": {
+                            "sourceLanguage": LANGUAGE_NAMES[source_lang],
+                            "sourceText": source_text,
+                            "targets": targets,
+                        },
+                        "description": None,
+                        "generateDescription": False,
+                    },
+                )
+            )
+    return jobs
+
+
+def apply_sidebar_translations(jobs, dry_run: bool) -> int:
+    """Fill blank sidebar `names` locales, writing each sidebar once."""
+    if dry_run:
+        return len(jobs)
+    changed = 0
+    by_path: dict[Path, list[tuple[dict[str, Any], dict[str, Any]]]] = {}
+    for path, sidebar, job in jobs:
+        by_path.setdefault(path, []).append((sidebar, job))
+    for path, entries in by_path.items():
+        for offset in range(0, len(entries), BATCH_SIZE):
+            chunk = entries[offset : offset + BATCH_SIZE]
+            translated = gemini_translate_batch([job for _, job in chunk])
+            for sidebar, job in chunk:
+                result = translated[job["key"]]
+                values = result.get("names", {})
+                for locale in job["names"]["targets"]:
+                    target = None
+                    for section in sidebar.get("sections", []):
+                        if str(section.get("code")) == job["key"]:
+                            target = section
+                            break
+                        for topic in section.get("topics", []):
+                            if f"{section.get('code')}/{topic.get('code')}" == job["key"]:
+                                target = topic
+                                break
+                        if target:
+                            break
+                    if target is None:
+                        continue
+                    if is_missing(target["names"].get(locale)):
+                        target["names"][locale] = values[locale].strip()
+                        changed += 1
+            print(f"translated sidebar batch {offset // BATCH_SIZE + 1} ({len(chunk)} entry(s))")
+            time.sleep(1)
+        write_json_atomic(path, sidebar)
+    return changed
+
+
 async def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     mode = parser.add_mutually_exclusive_group()
@@ -513,6 +614,7 @@ async def main() -> None:
     mode.add_argument("--translate", action="store_true", help="fill missing names/descriptions with Gemini")
     mode.add_argument("--audio", action="store_true", help="generate missing language audio")
     mode.add_argument("--read", action="store_true", help="generate missing full-article read audio from content docs")
+    mode.add_argument("--sidebar", action="store_true", help="fill missing chapter/topic names in the sidebars (the structure the UI renders)")
     parser.add_argument("--track", choices=TRACKS, help="only this content track")
     parser.add_argument("--lang", choices=LOCALES, help="only this audio locale")
     parser.add_argument("--chapter", help="only this chapter code and its nested items (e.g. C1)")
@@ -539,6 +641,23 @@ async def main() -> None:
     translate = args.all or args.translate
     generate_audio = args.all or args.audio
     generate_read = args.all or args.read
+    translate_sidebar = args.sidebar
+
+    if translate_sidebar:
+        paths = sidebar_paths(args.track)
+        sidebar_jobs = build_sidebar_jobs(paths)
+        field_count = sum(len(job["names"]["targets"]) for _, _, job in sidebar_jobs)
+        print(
+            f"Sidebar translation plan: {len(sidebar_jobs)} chapter/topic entr(ies) "
+            f"across {len(paths)} sidebar(s), {field_count} missing localized name(s)."
+        )
+        if not args.apply:
+            print("Run with --apply to call Gemini and fill only blank names.")
+        else:
+            filled = apply_sidebar_translations(sidebar_jobs, dry_run=False)
+            print(f"Filled {filled} sidebar name(s).")
+        return
+
     jobs: list[tuple[Path, dict[str, Any], dict[str, Any]]] = []
     skipped_names = 0
     if translate:
@@ -601,7 +720,7 @@ async def main() -> None:
             for _, item in items
         )
         print(f"{len(items)} item(s) scanned; {gaps} missing name/description slot(s).")
-        print("Choose --translate, --audio, --read, or --all. Add --apply to make changes.")
+        print("Choose --translate, --audio, --read, --sidebar, or --all. Add --apply to make changes.")
 
 
 if __name__ == "__main__":

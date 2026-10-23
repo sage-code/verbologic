@@ -75,6 +75,16 @@ walkSidebars(SIDEBARS)
 /** Title manifests use chapter/topic codes; learning items use topic-scoped codes. */
 const manifestsById = new Map() // title id -> [{ manifest, sectionPath }]
 const manifestsByTopicId = new Map() // `${topic}\n${id}` -> [{ manifest, sectionPath }]
+
+/**
+ * Manifest kinds that describe a chapter or topic title rather than a learning
+ * item. Dictionary/lectures use `chapter-title`/`topic-title`; the stories
+ * track names its own `story-chapter`/`story-topic`. All four carry the
+ * chapter/topic code as `code` and sit one level above the items.
+ */
+const CHAPTER_TITLE_KINDS = new Set(['chapter-title', 'story-chapter'])
+const TOPIC_TITLE_KINDS = new Set(['topic-title', 'story-topic'])
+const isTitleKind = (kind) => CHAPTER_TITLE_KINDS.has(kind) || TOPIC_TITLE_KINDS.has(kind)
 /**
  * One locale's media descriptor resolved against the files on disk.
  * `field` is the manifest map ('audio' = the short title/term recording,
@@ -132,9 +142,7 @@ const walkManifests = (dir, sectionPath) => {
     else if (e.name === 'item.json') {
       const item = readJson(p)
       if (!item.code) continue
-      const map = ['chapter-title', 'topic-title'].includes(item.kind)
-        ? manifestsById
-        : manifestsByTopicId
+      const map = isTitleKind(item.kind) ? manifestsById : manifestsByTopicId
       const manifestKey = map === manifestsById
         ? item.code
         : `${item.topic}\n${item.code}`
@@ -166,17 +174,24 @@ function mediaDescriptor(manifest) {
 }
 
 /** Chapter/topic title audio (src/composables/useTitles.ts): item records with
- *  kind 'chapter-title' | 'topic-title', code = the chapter/topic code itself
- *  (media/audio/<track>/<chapter>/<topic>/<code>/item.json) — swept into manifestsById
+ *  a title kind, code = the chapter/topic code itself
+ *  (media/<track>/<chapter>/<topic>/<code>/item.json) — swept into manifestsById
  *  above, independent of any sidebar's items[] (titles are never referenced
- *  there). Emitted as library/dictionary/titles.json, the one payload
- *  useTitles fetches; absent codes just keep the "coming soon" button. */
-const titlesChapters = {} // code -> lang -> media
-const titlesTopics = {} // code -> lang -> media
+ *  there). Emitted per track as <section>/titles.json, the payload useTitles
+ *  fetches for the active track; absent codes just keep the "coming soon"
+ *  button. Title codes are globally unique across tracks, so one lookup table
+ *  per track is enough and no code can collide. */
+const titlesByTrack = new Map() // section id -> { chapters, topics }
+/** config.sections values are media-relative paths ('stories/'); the payload
+ *  lives under the section id ('library/stories'). Map one to the other. */
+const sectionIdByPath = new Map(Object.entries(config.sections).map(([id, p]) => [p, id]))
 for (const [id, entries] of manifestsById) {
-  for (const { manifest } of entries) {
-    if (manifest.kind === 'chapter-title') (titlesChapters[id] ??= {})[manifest.lang] = mediaDescriptor(manifest)
-    else if (manifest.kind === 'topic-title') (titlesTopics[id] ??= {})[manifest.lang] = mediaDescriptor(manifest)
+  for (const { manifest, sectionPath } of entries) {
+    const sectionId = sectionIdByPath.get(sectionPath) ?? sectionPath
+    const bucket = titlesByTrack.get(sectionId) ?? { chapters: {}, topics: {} }
+    titlesByTrack.set(sectionId, bucket)
+    if (CHAPTER_TITLE_KINDS.has(manifest.kind)) (bucket.chapters[id] ??= {})[manifest.lang] = mediaDescriptor(manifest)
+    else if (TOPIC_TITLE_KINDS.has(manifest.kind)) (bucket.topics[id] ??= {})[manifest.lang] = mediaDescriptor(manifest)
   }
 }
 
@@ -612,12 +627,14 @@ for (const [section, records] of recordsBySection) {
   searchStats.push(`  ${section}: ${records.length} searchable records`)
 }
 
-emit('library/dictionary/titles.json', {
-  schema: 1,
-  generated: new Date().toISOString(),
-  chapters: titlesChapters,
-  topics: titlesTopics
-})
+for (const [sectionPath, bucket] of titlesByTrack) {
+  emit(`${sectionPath}/titles.json`, {
+    schema: 1,
+    generated: new Date().toISOString(),
+    chapters: bucket.chapters,
+    topics: bucket.topics
+  })
+}
 
 const progress = {}
 for (const records of recordsBySectionTopic.values()) {

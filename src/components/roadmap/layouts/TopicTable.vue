@@ -15,9 +15,13 @@
 // is the visible page. Lectures rows get a fixed two-line height — long
 // expressions wrap, short ones sit centered in an equal-height row.
 <script setup lang="ts">
-import { ArrowPathIcon, BookOpenIcon, CheckIcon } from '@heroicons/vue/20/solid'
+import { ArrowPathIcon, CheckIcon } from '@heroicons/vue/20/solid'
+import { EyeIcon, SpeakerWaveIcon, SpeakerXMarkIcon } from '@heroicons/vue/24/outline'
+import LegendDialog from '~/components/roadmap/LegendDialog.vue'
 import { useRoadmapStore, PROGRESS_KEY } from '~/stores/roadmapStore'
+import { useLibraryStore } from '~/stores/libraryStore'
 import { useAudioQueue, type QueueItem } from '~/composables/useAudioQueue'
+import { useSound } from '~/composables/useSound'
 import { glossName } from '~/lib/dictionarySearch'
 import { THEAD_STICKY_TOP } from '~/lib/roadmapRail'
 import type { MediaRow } from '~/types/media'
@@ -29,6 +33,14 @@ const { lang: uiLang } = useLocale()
 const { languageName } = useNavigation()
 const copy = useCopy()
 const queue = useAudioQueue()
+const sound = useSound()
+const library = useLibraryStore()
+
+/** The legend modal (the header's eye button). */
+const legendOpen = ref(false)
+
+/** Total credit for the active language — the legend's one figure. */
+const creditTotal = computed(() => library.activeFor(store.lang)?.creditsTotal ?? 0)
 
 const rows = computed<MediaRow[]>(() => store.pagedRows)
 
@@ -192,9 +204,41 @@ watch(
             <th v-if="isDictionary" class="hidden px-3 py-2 font-medium sm:table-cell [overflow-wrap:anywhere]">
               {{ copy('dictionary.col_ipa', 'IPA') }}
             </th>
-            <!-- Article column: header left blank, the book icon speaks for itself -->
-            <th class="w-14 px-1 py-2 text-center" :aria-label="copy('article.label', 'Article')" />
-            <th class="w-14 px-1 py-2 text-center font-medium">{{ copy('dictionary.col_audio', 'Audio') }}</th>
+            <!-- Article column: an eye that opens the legend — one glyph, no
+                 second symbol underneath -->
+            <th class="w-14 px-1 py-2 text-center">
+              <button
+                type="button"
+                class="btn-pastel inline-flex h-8 w-8 items-center justify-center rounded-full text-faint transition hover:text-accent"
+                :aria-label="copy('legend.open', 'Show legend')"
+                :title="copy('legend.open', 'Show legend')"
+                @click="legendOpen = true"
+              >
+                <EyeIcon class="h-4 w-4" aria-hidden="true" />
+              </button>
+            </th>
+            <!-- Sound column: a speaker that mutes/unmutes every player -->
+            <th class="w-14 px-1 py-2 text-center font-medium">
+              <button
+                type="button"
+                class="btn-pastel inline-flex h-8 w-8 items-center justify-center rounded-full text-faint transition hover:text-accent"
+                :aria-pressed="sound.enabled.value"
+                :aria-label="
+                  sound.enabled.value
+                    ? copy('ui.sound_off', 'Turn sound off')
+                    : copy('ui.sound_on', 'Turn sound on')
+                "
+                :title="
+                  sound.enabled.value
+                    ? copy('ui.sound_off', 'Turn sound off')
+                    : copy('ui.sound_on', 'Turn sound on')
+                "
+                @click="sound.toggle()"
+              >
+                <SpeakerWaveIcon v-if="sound.enabled.value" class="h-4 w-4" aria-hidden="true" />
+                <SpeakerXMarkIcon v-else class="h-4 w-4" aria-hidden="true" />
+              </button>
+            </th>
             <th class="w-14 px-1 py-2 text-center font-medium">
               <!-- Check-all / reset: scope = the visible page; same height as
                    the data rows; marks every row done, then resets them -->
@@ -204,7 +248,7 @@ watch(
                 :class="
                   allScopeLearned
                     ? 'border-accent bg-accent-soft text-accent'
-                    : 'border-edge text-muted hover:border-accent hover:text-accent'
+                    : 'btn-pastel border-edge text-muted hover:border-accent hover:text-accent'
                 "
                 :disabled="!scopeIds.length"
                 :aria-pressed="allScopeLearned"
@@ -261,12 +305,12 @@ watch(
               <NuxtLink
                 v-if="r.content"
                 :to="articleHref(r)"
-                class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-edge text-accent transition hover:border-accent"
+                class="btn-pastel inline-flex h-8 w-8 items-center justify-center rounded-full border border-edge text-accent transition hover:border-accent"
                 :aria-label="`${copy('article.read', 'Read')} ${r.term}`"
                 :title="`${copy('article.read', 'Read')} ${r.term}`"
                 @click.stop
               >
-                <BookOpenIcon class="h-4 w-4" aria-hidden="true" />
+                <span class="text-base leading-none" aria-hidden="true">📃</span>
               </NuxtLink>
               <button
                 v-else
@@ -277,7 +321,7 @@ watch(
                 :title="copy('article.coming_soon_row', 'No article yet')"
                 @click.stop
               >
-                <BookOpenIcon class="h-4 w-4" aria-hidden="true" />
+                <span class="text-base leading-none" aria-hidden="true">📃</span>
                 <!-- Diagonal strike: "no article" reads at a glance in both themes -->
                 <span class="absolute h-0.5 w-6 rotate-45 rounded-full bg-muted" aria-hidden="true" />
               </button>
@@ -291,7 +335,7 @@ watch(
                     ? 'row-blink-paused border-transparent text-white'
                     : activeId === r.entity_id
                       ? 'border-transparent bg-red-800 text-white'
-                      : 'border-edge text-accent hover:border-accent'
+                      : 'btn-pastel border-edge text-accent hover:border-accent'
                 "
                 :disabled="!r.media.url"
                 :aria-label="`${copy('dictionary.play_single', 'Play')} ${r.term}`"
@@ -320,7 +364,7 @@ watch(
                 :class="
                   isLearned(r)
                     ? 'border-accent bg-accent-soft text-accent'
-                    : 'border-edge text-muted hover:border-accent hover:text-accent'
+                    : 'btn-pastel border-edge text-muted hover:border-accent hover:text-accent'
                 "
                 :aria-pressed="isLearned(r)"
                 :title="isLearned(r) ? copy('ui.learned', 'Learned') : copy('ui.mark_learned', 'Mark as learned')"
@@ -337,6 +381,8 @@ watch(
         </tbody>
       </table>
     </div>
+
+    <LegendDialog v-if="legendOpen" :credit-total="creditTotal" @close="legendOpen = false" />
   </div>
 </template>
 

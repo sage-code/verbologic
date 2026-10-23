@@ -45,6 +45,9 @@ const descriptionOf = (sidebar: Sidebar) =>
 <template>
   <main class="mx-auto max-w-4xl">
     <h1 class="text-center text-3xl font-bold text-content">{{ copy('practice.title', 'Practice') }}</h1>
+    <p class="mt-2 text-center text-muted">
+      {{ copy('practice.intro', 'Speak with an AI mentor, do exercises, play games.') }}
+    </p>
 
     <!-- Planned modes — preview cards driven by the practice sidebars -->
     <ul class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">

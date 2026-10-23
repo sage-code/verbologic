@@ -4,7 +4,7 @@
 // Article prose is queried at build time; media records load client-side.
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue'
-import { ArrowLeftIcon, ArrowRightIcon, ArrowsRightLeftIcon, ClockIcon, FilmIcon } from '@heroicons/vue/24/outline'
+import { ArrowLeftIcon, ArrowRightIcon, ArrowsRightLeftIcon, ClockIcon, FilmIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 import { TRACK_IDS, type TrackId } from '~/data/tracks'
 import ArticleRail from '~/components/roadmap/ArticleRail.vue'
 import { LECTURE_ROWS_KEY } from '~/lib/lectureRows'
@@ -77,6 +77,12 @@ const record = ref<MediaRecord | null>(null)
 const nativeRecord = ref<MediaRecord | null>(null)
 const rowsById = ref<Map<string, MediaRow>>(new Map())
 const mediaError = ref<string | null>(null)
+/**
+ * Every article — story, lecture or dictionary — renders as two side-by-side
+ * panels: the learning language on the left, the reader's own language on the
+ * right. Only the story track paginates; lectures and dictionary articles show
+ * the whole document in each panel.
+ */
 const storyMode = computed(() => track.value === 'stories')
 const markdownDoc = computed(() => markdownPage.value?.doc ?? null)
 const storyTargetDoc = computed(
@@ -88,19 +94,51 @@ const storyNativeDoc = computed(
     articleDocs.value?.find((doc) => doc.locale === uiLang.value) ??
     storyTargetDoc.value
 )
-const storyTargetParagraphs = computed(
-  () =>
-    storyTargetDoc.value?.body?.value?.filter(
-      (node) => Array.isArray(node) && node[0] === 'p'
-    ) ?? []
+/** True when the two panels would show the same document (nothing to compare). */
+const hasTranslation = computed(() => storyNativeDoc.value !== storyTargetDoc.value)
+
+/** Top-level body nodes of a doc (Nuxt Content minimark tuples). */
+const bodyNodes = (doc: unknown): unknown[] =>
+  (doc as { body?: { value?: unknown[] } } | null)?.body?.value ?? []
+
+/**
+ * Split a document into pages — ONE rule for every track, so stories, lectures
+ * and dictionary articles read through the same template:
+ * - a document with section headings (h2/h3) starts a new page at each heading
+ *   and carries the blocks beneath it (lectures, dictionary articles);
+ * - a document with no headings paginates one paragraph per page (stories).
+ */
+function paginate(nodes: unknown[]): unknown[][] {
+  const isHeading = (n: unknown) =>
+    Array.isArray(n) && (n[0] === 'h2' || n[0] === 'h3')
+  const isParagraph = (n: unknown) => Array.isArray(n) && n[0] === 'p'
+
+  if (!nodes.some(isHeading)) {
+    return nodes.filter(isParagraph).map((n) => [n])
+  }
+  const pages: unknown[][] = []
+  let current: unknown[] | null = null
+  for (const node of nodes) {
+    if (!Array.isArray(node)) continue
+    if (isHeading(node)) {
+      if (current) pages.push(current)
+      current = [node]
+    } else if (current) {
+      current.push(node)
+    } else {
+      current = [node]
+    }
+  }
+  if (current) pages.push(current)
+  return pages
+}
+
+const targetPages = computed(() => paginate(bodyNodes(storyTargetDoc.value)))
+const nativePages = computed(() => paginate(bodyNodes(storyNativeDoc.value)))
+/** Pages to page through — the longer of the two panels, never zero. */
+const storyPageCount = computed(() =>
+  Math.max(targetPages.value.length, nativePages.value.length, 1)
 )
-const storyNativeParagraphs = computed(
-  () =>
-    storyNativeDoc.value?.body?.value?.filter(
-      (node) => Array.isArray(node) && node[0] === 'p'
-    ) ?? []
-)
-const storyPageCount = computed(() => Math.max(storyTargetParagraphs.value.length, storyNativeParagraphs.value.length))
 const storyPage = ref(0)
 /**
  * Which panel is visible on narrow screens. Desktop always shows both side by
@@ -119,13 +157,15 @@ function toggleStoryPanel() {
 }
 const storyTargetPage = computed(() => {
   const doc = storyTargetDoc.value
-  const paragraph = storyTargetParagraphs.value[storyPage.value]
-  return doc && paragraph ? { ...doc, body: { ...doc.body, value: [paragraph] } } : null
+  if (!doc) return null
+  const page = targetPages.value[storyPage.value]
+  return page ? { ...doc, body: { ...doc.body, value: page } } : null
 })
 const storyNativePage = computed(() => {
   const doc = storyNativeDoc.value
-  const paragraph = storyNativeParagraphs.value[storyPage.value]
-  return doc && paragraph ? { ...doc, body: { ...doc.body, value: [paragraph] } } : null
+  if (!doc) return null
+  const page = nativePages.value[storyPage.value]
+  return page ? { ...doc, body: { ...doc.body, value: page } } : null
 })
 const storyTargetName = computed(() => languageName(trackLang.value))
 const storyNativeName = computed(() => languageName(docLocale.value))
@@ -202,24 +242,35 @@ useSeoMeta({
 <template>
   <main
     class="app-container grid gap-5 py-6 lg:grid-cols-[280px_minmax(0,1fr)]"
-    :class="storyMode ? 'min-h-0 overflow-hidden' : ''"
+    :class="'min-h-0 overflow-hidden'"
   >
     <!-- Desktop: the track's chapter/topic rail stays beside the article -->
     <ArticleRail :lang="trackLang" :track="track as TrackId" :topic="topicCode" />
 
-    <div class="min-w-0" :class="storyMode ? 'flex min-h-0 flex-col' : ''">
+    <div class="flex min-w-0 min-h-0 flex-col">
       <nav class="flex items-center gap-2 text-sm text-muted">
         <a :href="`/learn/${trackLang}/${track}`" class="inline-flex items-center gap-1.5 transition hover:text-accent">
           <ArrowLeftIcon class="h-4 w-4" aria-hidden="true" />
           {{ copy('roadmap.back_to_topics', 'All topics') }}
         </a>
         <span class="text-faint">/</span>
-        <span class="font-code text-xs text-faint">{{ topicCode }}</span>
+        <span class="hidden font-code text-xs text-faint sm:inline">{{ topicCode }}</span>
       </nav>
 
-      <article :class="storyMode ? 'mt-4 flex min-h-0 flex-1 flex-col gap-3' : 'mt-4 space-y-5'">
-        <header class="space-y-2" :class="storyMode ? 'shrink-0' : ''">
-          <h1 class="text-3xl font-bold text-content">{{ articleTitle }}</h1>
+      <article class="mt-4 flex min-h-0 flex-1 flex-col gap-3">
+        <header class="shrink-0 space-y-2">
+          <div class="flex items-start justify-between gap-3">
+            <h1 class="min-w-0 text-3xl font-bold text-content">{{ articleTitle }}</h1>
+            <!-- Close: back to the topic's table, the same target as the breadcrumb -->
+            <a
+              :href="`/learn/${trackLang}/${track}?chapter=${topicCode.slice(0, 4)}&topic=${topicCode}`"
+              class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-edge bg-surface text-muted transition hover:border-accent hover:text-accent"
+              :aria-label="copy('ui.close', 'Close')"
+              :title="copy('roadmap.back_to_topics', 'All topics')"
+            >
+              <XMarkIcon class="h-4 w-4" aria-hidden="true" />
+            </a>
+          </div>
           <p v-if="articleSummary" class="text-muted">{{ articleSummary }}</p>
           <div class="flex flex-wrap items-center gap-2 text-xs text-faint">
             <span v-if="articleMinutes" class="inline-flex items-center gap-1">
@@ -270,10 +321,9 @@ useSeoMeta({
           </div>
         </div>
 
-        <section
-          v-if="storyMode"
-          class="flex min-h-0 flex-1 flex-col gap-3"
-        >
+        <!-- Two panels for every article: learning language left, native right.
+             Stories paginate; lectures and dictionary articles show the whole doc. -->
+        <section class="flex min-h-0 flex-1 flex-col gap-3">
           <div class="grid min-h-0 flex-1 grid-cols-1 gap-3 overflow-hidden lg:grid-cols-2">
             <section
               class="min-w-0 flex-col overflow-hidden rounded-lg border border-edge bg-surface p-3 sm:p-5"
@@ -288,10 +338,11 @@ useSeoMeta({
               <ContentRenderer
                 v-if="storyTargetPage"
                 :value="storyTargetPage"
-                class="lecture-prose story-page-content min-h-0 flex-1 overflow-hidden text-sm leading-relaxed text-content sm:text-base"
+                class="lecture-prose story-page-content min-h-0 flex-1 overflow-y-auto text-sm leading-relaxed text-content sm:text-base"
               />
             </section>
             <section
+              v-if="hasTranslation"
               class="min-w-0 flex-col overflow-hidden rounded-lg border border-edge bg-surface p-3 sm:p-5"
               :class="storyMobilePanel === 'native' ? 'flex' : 'hidden lg:flex'"
             >
@@ -304,12 +355,13 @@ useSeoMeta({
               <ContentRenderer
                 v-if="storyNativePage"
                 :value="storyNativePage"
-                class="lecture-prose story-page-content min-h-0 flex-1 overflow-hidden text-sm leading-relaxed text-content sm:text-base"
+                class="lecture-prose story-page-content min-h-0 flex-1 overflow-y-auto text-sm leading-relaxed text-content sm:text-base"
               />
             </section>
           </div>
           <div class="flex shrink-0 items-center justify-center gap-3">
             <button
+              v-if="hasTranslation"
               type="button"
               class="inline-flex h-9 items-center gap-2 rounded-full border border-edge bg-surface px-4 text-sm text-content transition hover:border-accent lg:hidden"
               :aria-pressed="storyMobilePanel === 'native'"
@@ -348,18 +400,6 @@ useSeoMeta({
             </nav>
           </div>
         </section>
-        <template v-else-if="markdownDoc">
-          <div class="flex items-center justify-between gap-2 border-b border-edge pb-2">
-            <h2 class="text-xs font-semibold uppercase tracking-wide text-muted">
-              {{ copy('article.read_article', 'Read this article') }}
-            </h2>
-            <ArticleReadPlayer :src="articleRead" :label="articleTitle" />
-          </div>
-          <ContentRenderer
-            :value="markdownDoc"
-            class="lecture-prose space-y-4 text-content"
-          />
-        </template>
         <!-- Practise: the records the prose points at -->
         <section v-if="record?.related?.length" class="space-y-2">
           <h2 class="text-sm font-semibold uppercase tracking-wide text-faint">

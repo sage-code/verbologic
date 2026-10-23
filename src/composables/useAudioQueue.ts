@@ -11,6 +11,8 @@
  *              start while loop is on (firing the onCycle callback once per lap).
  * - 'idle'   — nothing running.
  */
+import { useSound } from '~/composables/useSound'
+
 export interface QueueItem {
   id: string
   url: string | null
@@ -34,6 +36,7 @@ export interface QueueOptions {
 }
 
 export function useAudioQueue() {
+  const sound = useSound()
   const currentId = ref<string | null>(null)
   const isPlaying = ref(false)
   const paused = ref(false)
@@ -101,11 +104,12 @@ export function useAudioQueue() {
     }
     const item = queue[cursor]
     currentId.value = item.id
-    if (!player) player = new Audio()
-    player.src = item.url ?? ''
-    void player.play().catch(() => {}) // rapid src switches can reject — ignore
+    if (!player) player = sound.bind(new Audio())
+    const audio = player
+    audio.src = item.url ?? ''
+    void audio.play().catch(() => {}) // rapid src switches can reject — ignore
     cursor++
-    player.onended = () => {
+    audio.onended = () => {
       clearTimer()
       onItemEnded?.(item) // one full listen — each Repeat lap counts too
       // A single file ends right away unless Repeat is on — then it replays
@@ -154,7 +158,10 @@ export function useAudioQueue() {
     else play(items, options)
   }
 
-  onBeforeUnmount(stop)
+  onBeforeUnmount(() => {
+    stop()
+    sound.unbind(player)
+  })
 
   return { currentId, isPlaying, paused, loop, mode, play, playOne, stop, pause, resume, setLoop, toggle }
 }

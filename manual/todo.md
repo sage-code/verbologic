@@ -129,6 +129,7 @@
 - [ ] Set `NUXT_PUBLIC_*` in Cloudflare Workers Builds (values bake at build time)
 - [ ] Login UI (magic link) → `userStore.signInWithEmail`
 - [ ] AI Mentor credit spend → append to `credit_ledger` (negative deltas need a server-side policy/edge function)
+- [ ] **PayPal top-up** — blocked on credentials; step-by-step setup (Client ID + Secret, Supabase Edge Function secrets, next-phase prompt) in [planning/paypall_settings.md](../planning/paypall_settings.md)
 
 ## Phase 1 — Account form (/account) + auth wiring
 - [x] Migration `account_profiles_avatars` applied via MCP + mirrored into `supabase/schema.sql` (idempotent): `profiles.display_name`/`avatar_url`, `avatars` storage bucket (public read, 2 MB, images, owner-only folder writes), `handle_new_user` seeds display_name

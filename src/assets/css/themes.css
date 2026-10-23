@@ -21,7 +21,10 @@
   --color-accent-strong: #2f5bc4; /* pressed accent (brand-700) */
   --color-accent-soft: #e6eeff;   /* tinted accent wash */
   --color-on-accent: #ffffff;     /* text/icon on accent backgrounds */
-  --color-btn-bg: #e3edfd;        /* pale sky-blue resting background for unselected buttons */
+  --color-btn-bg: #dce8fb;        /* pastel sky-blue resting background for unselected buttons */
+  --color-btn-bg-hover: #c2d6f5;  /* deeper pastel on hover — still light, never accent-dark */
+  --color-btn-text: #1c2433;      /* button label at rest */
+  --color-btn-text-hover: #10203f;/* button label on hover — dark navy, never white or yellow */
   --color-btn-shadow: 0 1px 2px rgb(15 23 42 / 0.08), 0 3px 8px rgb(59 110 224 / 0.14);
 }
 
@@ -43,17 +46,47 @@
 }
 
 /* Unselected buttons/links (the "border-edge + bg-surface/bg-body" pattern
- * used for secondary controls sitewide) get a pale sky-blue background and a
+ * used for secondary controls sitewide) get a pastel sky-blue background and a
  * soft shadow on the light theme only, so they read as clickable instead of
- * blending into white cards. Selected/primary controls use bg-accent and
- * never carry bg-surface/bg-body, so they're untouched. Dark theme is
- * excluded entirely — it already has enough surface contrast. */
+ * blending into the cream page and near-white cards. Selected/primary controls
+ * use bg-accent and never carry bg-surface/bg-body, so they're untouched.
+ * Dark theme is excluded entirely — it already has enough surface contrast.
+ *
+ * Hover is pinned here too: a control that asks for `hover:bg-accent` would
+ * otherwise turn accent-blue while its label stayed `hover:text-on-accent`
+ * (white) — white on pastel is unreadable. The pastel deepens instead and the
+ * label goes dark navy, so contrast improves on hover rather than collapsing. */
 html:not([data-theme='dark']) button[class~='bg-surface'],
 html:not([data-theme='dark']) a[class~='bg-surface'],
 html:not([data-theme='dark']) button[class~='bg-body'],
 html:not([data-theme='dark']) a[class~='bg-body'] {
   background-color: var(--color-btn-bg);
+  color: var(--color-btn-text);
   box-shadow: var(--color-btn-shadow);
+}
+
+html:not([data-theme='dark']) button[class~='bg-surface']:hover:not(:disabled),
+html:not([data-theme='dark']) a[class~='bg-surface']:hover,
+html:not([data-theme='dark']) button[class~='bg-body']:hover:not(:disabled),
+html:not([data-theme='dark']) a[class~='bg-body']:hover {
+  background-color: var(--color-btn-bg-hover);
+  color: var(--color-btn-text-hover);
+}
+
+/* Small round row/header controls (article, play, learned, legend, sound).
+ * They sit on near-white cards, so a transparent icon button vanishes into the
+ * paper. `btn-pastel` gives them the same pastel lift as the secondary buttons
+ * above. It is applied ONLY in the resting state — active/learned states swap
+ * it out for their own bg-accent / bg-red-800, so those keep their colour. */
+html:not([data-theme='dark']) .btn-pastel {
+  background-color: var(--color-btn-bg);
+  color: var(--color-btn-text);
+  box-shadow: var(--color-btn-shadow);
+}
+
+html:not([data-theme='dark']) .btn-pastel:hover:not(:disabled) {
+  background-color: var(--color-btn-bg-hover);
+  color: var(--color-btn-text-hover);
 }
 
 /* Gentle cross-fade when switching modes */

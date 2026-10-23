@@ -5,6 +5,7 @@
 // disabled "audio coming soon" state instead of a dead button.
 <script setup lang="ts">
 import { PauseIcon, PlayIcon, StopIcon } from '@heroicons/vue/24/solid'
+import { useSound } from '~/composables/useSound'
 
 const props = withDefaults(
   defineProps<{
@@ -17,6 +18,7 @@ const props = withDefaults(
 )
 
 const copy = useCopy()
+const sound = useSound()
 const player = shallowRef<HTMLAudioElement | null>(null)
 const playing = ref(false)
 const paused = ref(false)
@@ -28,7 +30,7 @@ const state = computed<'idle' | 'playing' | 'paused'>(() =>
 function ensurePlayer(): HTMLAudioElement | null {
   if (!props.src) return null
   if (!player.value) {
-    const audio = new Audio(props.src)
+    const audio = sound.bind(new Audio(props.src))
     audio.onended = () => {
       playing.value = false
       paused.value = false
@@ -67,11 +69,15 @@ watch(
   () => props.src,
   () => {
     stop()
+    sound.unbind(player.value)
     player.value = null
   }
 )
 
-onBeforeUnmount(() => player.value?.pause())
+onBeforeUnmount(() => {
+  player.value?.pause()
+  sound.unbind(player.value)
+})
 
 defineExpose({ stop })
 </script>

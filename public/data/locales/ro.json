@@ -30,7 +30,9 @@
     "video_coming_soon": "Video în pregătire",
     "read": "Citește",
     "resume": "Continuă",
-    "stop": "Oprește"
+    "stop": "Oprește",
+    "sound_on": "Pornește sunetul",
+    "sound_off": "Oprește sunetul"
   },
   "languages": {
     "en": "Engleză",
@@ -181,15 +183,14 @@
   },
   "method": {
     "title": "Metodă",
-    "intro": "Asimilare contextuală și repetiție spațiată adaptivă — metodologia completă va fi publicată în curând. Până atunci, explorează traseele de română și engleză, deja complet căutabile.",
-    "features_title": "Funcționalitățile sistemului",
-    "features_subtitle": "Construit pentru o asimilare durabilă.",
-    "feature_ai_title": "Motoare contextuale AI",
-    "feature_ai_desc": "Fiecare expresie se învață în context, nu izolat.",
-    "feature_srs_title": "Repetiție spațiată",
-    "feature_srs_desc": "Programarea adaptivă a repetițiilor fixează vocabularul în memoria de lungă durată.",
-    "feature_analytics_title": "Analitice de precizie",
-    "feature_analytics_desc": "Progres urmărit literă cu literă, cuvânt cu cuvânt."
+    "intro": "Asimilare contextuală cu audio nativ în nouă limbi. Alege un panou mai jos pentru a începe.",
+    "panel_practice_title": "Învățare contextuală AI",
+    "panel_practice_desc": "Fiecare expresie se învață în context, nu izolat. Modurile de exersare sunt în pregătire.",
+    "panel_library_title": "Dicționar audio nativ",
+    "panel_library_desc": "Dicționar, lecții și povești în nouă limbi — un singur text partajat, audio în fiecare limbă.",
+    "panel_profile_title": "Urmărirea progresului",
+    "panel_profile_desc": "Marchează cuvinte ca învățate, ascultă un termen de cinci ori pentru a-l completa automat și urmărește progresul capitolului. Necesită un cont înregistrat.",
+    "panel_open": "Deschide"
   },
   "about": {
     "title": "Despre Verbologic",
@@ -240,8 +241,11 @@
   },
   "track": {
     "dictionary_title": "Dicționar",
+    "dictionary_intro": "Cuvinte și expresii cu IPA, glosă nativă și audio în fiecare limbă.",
     "lectures_title": "Cursuri",
+    "lectures_intro": "Gramatică și uz explicate în articole scurte, citibile în două limbi.",
     "stories_title": "Povești",
+    "stories_intro": "Texte scurte de citit și ascultat, alături de limba ta.",
     "coming_soon_title": "Acest traseu vine în curând",
     "coming_soon_body": "Pregătim acest traseu. Revino curând — progresul tău este în siguranță."
   },
@@ -392,6 +396,16 @@
     "label": "Articol",
     "read_article": "Citește acest articol",
     "coming_soon": "Niciun articol în acest subiect încă — conținutul este în pregătire."
+  },
+  "legend": {
+    "title": "Legendă",
+    "open": "Arată legenda",
+    "article": "Articol — deschide vizualizarea cu două panouri",
+    "scroll": "Sulă — acest rând are un articol de citit",
+    "sound": "Difuzor — pornește sau oprește sunetul",
+    "play": "Redare — ascultă acest rând",
+    "done": "Bifă — marchează rândul sau toată pagina ca învățat",
+    "total_credit": "Credit total"
   },
   "stories": {
     "learning_text": "Limba învățată",
