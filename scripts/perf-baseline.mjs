@@ -136,7 +136,10 @@ function routeMetrics() {
     articleRoutes: Object.values(byTrack).reduce((a, b) => a + b, 0),
     articleRoutesByTrack: byTrack,
     mdDocsByTrack: docsByTrack,
-    phoneticRoutes
+    phoneticRoutes,
+    // Nitro's own "Prerendered N routes" counter counts a page AND its
+    // _payload.json as two routes. These are the real page counts.
+    note: 'articleRoutes counts PAGES; a build emits ~2 files per page while experimental.payloadExtraction is on'
   }
 }
 

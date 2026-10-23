@@ -186,6 +186,95 @@ Suggested order if time is short: **0 → 1 → 2 → 3**. That gets most of the
 
 **Gate:** stay fully static if the full-size route count, at a realistic locale tier, stays under ~15k files and the build stays acceptable; otherwise adopt C. Re-evaluate when per-user rendering (personalised practice) is needed — that is the other legitimate reason for a Worker.
 
+### 7.1 Measured — Phase 2 spike result (2026-10-23)
+
+Machine: Windows, Node 24.18, Nuxt 3 static generate. Reproduce with
+`npm run generate` and the file counts below; the route-count experiments were
+run by temporarily patching `nuxt.config.ts` (both patches reverted).
+
+**Finding 1 — Nitro's "routes" counter is not a page count.** It counts a page
+*and* its `_payload.json` as two routes. The 8,395 "routes" reported by every
+build so far are **4,198 pages + 4,196 payload files**. Every file-limit
+projection in this document that used the route number was therefore 2× too
+optimistic. Corrected numbers below.
+
+**Finding 2 — `payloadExtraction` is the cheapest file-count lever.** It is on
+by default and emits one `_payload.json` beside every page.
+
+| | pages | files | files/page | build | page transfer |
+|---|---|---|---|---|---|
+| `payloadExtraction: true` (today) | 4,198 | 8,604 | 2.05 | 57.5–77.5 s | 18.1 KB gz + 2.6 KB gz payload, 2 requests |
+| `payloadExtraction: false` | 4,199 | 4,408 | 1.05 | 48.7–58.8 s | 21.5 KB gz, 1 request |
+
+Halving the file count costs **+3.4 KB gzip per page** and removes a request.
+First-load transfer is a wash (20.7 KB in two requests vs 21.5 KB in one); the
+real loss is that the payload is no longer separately cacheable. Build time
+drops ~20%.
+
+**Finding 3 — build cost per page is ~14 ms, and the measurement is noisy.**
+Marginal cost from two builds differing only in page count (4,199 vs 1,861
+pages): **14.2 ms/page**, fixed overhead ≈ 0. Identical-config builds varied
+57.5–77.5 s (±30%), so treat the per-page figure as ±30% too.
+
+**Finding 4 — the full dictionary breaks the file limit either way.**
+
+| Scenario | pages | files (payload on) | files (payload off) | build |
+|---|---|---|---|---|
+| Today | 4,198 | 8,604 | 4,408 | ~1 min |
+| Full dictionary, all 9 explanation locales | 69,498 | **142,439** | **72,957** | 16–21 min |
+| Tier 1, 3 explanation locales | 23,166 | 47,480 | 24,319 | 5–7 min |
+| Tier 1, 2 explanation locales | 15,444 | 31,660 | **16,216** | 4–5 min |
+
+Free plan = 20,000 files, Paid = 100,000. So: full static at all 9 locales
+exceeds **even the Paid limit** with payload extraction on, and fits Paid but
+not Free with it off. Only a 2-locale tier fits Free, and only with payload
+extraction off (16,216 files, 19% margin).
+
+**Finding 5 — the tier-2 prerequisites do not exist.** The hybrid design
+assumes tier-2 pages "are listed in sharded sitemaps with `hreflang`
+alternates so they stay indexable". The build currently emits **no
+`sitemap.xml`, no `robots.txt`, and no `hreflang`/`canonical` tags**. Tier 2
+would be invisible to crawlers until that is built.
+
+**Finding 6 — SEO of the static pages is sound.** Article bodies *are*
+server-rendered (verified: the English body text is in the HTML of
+`/learn/ro/lectures/LT03T01/L294/en`, outside any script tag). A crawler
+without JS sees the full article. This was worth checking because the reading
+view paginates client-side.
+
+**Finding 7 — the tier-2 data source already exists.** Each `_payload.json`
+already contains the article as a precompiled minimark AST
+(`{"type":"minimark","value":[…]}`). A Worker could serve article bodies from
+those files without Nuxt Content or a D1 binding — the "precompiled JSON AST"
+option in the unknowns list is not new work, it is the current output.
+
+**Finding 8 — JS is the real per-page weight, not HTML.** A page preloads 25
+chunks = **261 KB gzip**; the whole build is 71 chunks = 454 KB gzip. This is
+independent of the rendering strategy and is the largest single lever left on
+first load.
+
+**Decision (2026-10-23): stay fully static; do not build tier 2 yet.**
+
+Rationale: at today's 4,198 pages the site is 8,604 files — 43% of the Free
+limit — and builds in about a minute. Nothing is broken and nothing needs a
+Worker. The file limit only bites at full dictionary size, which is a content
+milestone, not a rendering one, and the cheapest lever (`payloadExtraction:
+false`, 2× headroom for +3.4 KB gzip) has not been spent yet.
+
+**Conditions that reopen this decision**, in order:
+
+1. **Before the dictionary passes ~2,000 units**, apply `payloadExtraction:
+   false` (halves files, ~20% faster build). Re-measure; no Worker needed.
+2. **Before it passes ~4,000 units**, cap prerendered explanation locales at 2
+   (`en` + `ro`). That is 16,216 files at full size — inside Free.
+3. **Only if a third explanation locale is required**, build tier 2 — and build
+   the sitemap + `hreflang` + `robots.txt` first, because without them tier-2
+   pages are unindexable and the SEO argument for per-locale URLs collapses.
+
+**Not measured:** TTFB cache-hit vs cache-miss on Workers. That needs a
+deployed Worker and this spike deliberately did not create one; it is only
+relevant if condition 3 is reached.
+
 ---
 
 ## 8. Generation pipeline (translation, templates, sound)
