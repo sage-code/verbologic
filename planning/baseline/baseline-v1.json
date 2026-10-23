@@ -1,0 +1,151 @@
+{
+  "tag": "v1",
+  "commit": "42a8abd0",
+  "dirtyTree": true,
+  "recordedAt": "2026-10-23T21:32:57.442Z",
+  "node": "v24.18.0",
+  "payloads": {
+    "totalMB": 6.022,
+    "groups": {
+      "entities": {
+        "files": 7,
+        "rawMB": 0.166,
+        "gzipMB": 0.016,
+        "brotliMB": 0.014
+      },
+      "locales": {
+        "files": 2,
+        "rawMB": 0.037,
+        "gzipMB": 0.012,
+        "brotliMB": 0.01
+      },
+      "media/index": {
+        "files": 1,
+        "rawMB": 0.189,
+        "gzipMB": 0.016,
+        "brotliMB": 0.009
+      },
+      "media/topics": {
+        "files": 104,
+        "rawMB": 3.137,
+        "gzipMB": 0.237,
+        "brotliMB": 0.188
+      },
+      "media/search": {
+        "files": 3,
+        "rawMB": 2.444,
+        "gzipMB": 0.17,
+        "brotliMB": 0.121
+      },
+      "media/titles": {
+        "files": 3,
+        "rawMB": 0.049,
+        "gzipMB": 0.009,
+        "brotliMB": 0.008
+      },
+      "prices.json": {
+        "files": 1,
+        "rawMB": 0.001,
+        "gzipMB": 0,
+        "brotliMB": 0
+      }
+    },
+    "biggest": [
+      {
+        "path": "media/library/dictionary/search.json",
+        "bytes": 2190384
+      },
+      {
+        "path": "media/library/lectures/search.json",
+        "bytes": 239866
+      },
+      {
+        "path": "media/index.json",
+        "bytes": 188600
+      },
+      {
+        "path": "media/library/dictionary/CH01T09.json",
+        "bytes": 118614
+      },
+      {
+        "path": "media/library/dictionary/CH01T05.json",
+        "bytes": 92241
+      },
+      {
+        "path": "media/library/dictionary/CH03T03.json",
+        "bytes": 68083
+      },
+      {
+        "path": "entities/ro_vocabulary.json",
+        "bytes": 62218
+      },
+      {
+        "path": "media/library/lectures/LT02T07.json",
+        "bytes": 54194
+      }
+    ]
+  },
+  "routes": {
+    "languages": 9,
+    "trackPages": 27,
+    "articleRoutes": 4158,
+    "articleRoutesByTrack": {
+      "dictionary": 405,
+      "lectures": 3510,
+      "stories": 243,
+      "legacyStories": 0
+    },
+    "mdDocsByTrack": {
+      "dictionary": 45,
+      "lectures": 3294,
+      "stories": 27,
+      "legacyStories": 0
+    }
+  },
+  "projection": {
+    "dictionaryPlannedUnits": 858,
+    "fullDictionaryArticleRoutes": 69498,
+    "freePlanFileLimit": 20000
+  },
+  "files": {
+    "contentMd": {
+      "files": 3367,
+      "bytes": 1276027
+    },
+    "mediaByExtension": {
+      "json": {
+        "files": 1641,
+        "bytes": 3906459
+      },
+      "mp3": {
+        "files": 3198,
+        "bytes": 45087696
+      },
+      "md": {
+        "files": 1,
+        "bytes": 9860
+      }
+    },
+    "sidebarsJson": {
+      "files": 7,
+      "bytes": 204548
+    },
+    "alphabetsJson": {
+      "files": 9,
+      "bytes": 204375
+    },
+    "output": {
+      "files": 8604,
+      "bytes": 293528776,
+      "builtAt": "2026-10-23T21:31:18.308Z",
+      "note": "last build on disk, not re-run by snapshot"
+    }
+  },
+  "parse": {
+    "file": "media/library/dictionary/search.json",
+    "records": 7512,
+    "parseMsMedian": 11.7
+  },
+  "build": null,
+  "ttfb": "not measured — static preview server is not representative; measured in stage C on Workers"
+}

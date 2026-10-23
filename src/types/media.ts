@@ -2,40 +2,38 @@
  * Media runtime types — mirrors public/data/media/**, built by
  * scripts/media-index.mjs from the src/data/sidebars structure, the media
  * per-file manifests and the legacy entity bridge.
+ *
+ * Payloads are minified and carry only what the client reads (no `sha1`,
+ * `bytes`, `source`, `section`, no build timestamp) — see
+ * planning/performance-and-content-refactor.md §3 phase 1.
  */
-
-export type MediaSource = 'legacy' | 'media' | 'content'
 
 /** Localized names keyed by UI locale (canonical order: en, ro, de, ru, it, es, fr, hu, pt).
  *  A locale with no translation yet is `null` in the manifests — every consumer
  *  must treat a missing/null entry as "no gloss", never assume a string. */
 export type MediaNames = Record<string, string | null>
 
-/** Media descriptor — R2 URL plus delivery facts (prefix always matches the section's path). */
+/** Media descriptor — R2 URL plus the delivery fact the viewers switch on. */
 export interface MediaMedia {
   /** R2 media URL (config root + key), or null while upload is pending. */
   url: string | null
-  mime: string
-  bytes: number
-  sha1: string | null
+  /** Present on topic records (video/image viewers); absent on title audio. */
+  mime?: string
 }
 
 /** One row in a topic table (dictionary word, lecture video, story image). */
 export interface MediaRecord {
   /** Topic-scoped content code (for example, A023), shared across languages. */
   id: string
-  /** Sidebar section the record belongs to, e.g. 'library/dictionary'. */
-  section: string
   /** Content class for the row badge (word/sentence/letter/…), or null. */
-  kind: string | null
+  kind?: string | null
   /** Target language of the record ('ro', 'en', …). */
   lang: string
-  source: MediaSource
   /** Text in the target language. */
   term: string
   /** Localized glosses; names[lang] === term. */
   names: MediaNames
-  ipa: string | null
+  ipa?: string | null
   media: MediaMedia
   /**
    * Full-article read recording for this record's language
@@ -43,11 +41,11 @@ export interface MediaRecord {
    * map or the recording is still pending.
    */
   read?: MediaMedia | null
-  tags: string[]
+  tags?: string[]
   /** Register/usage note (optional manifest field, e.g. 'hard c'). */
-  context: string | null
+  context?: string | null
   /** Example usage (optional manifest field, e.g. the word the letter sounds in). */
-  example: string | null
+  example?: string | null
   /** Topic code the record belongs to, e.g. 'C1T01'. */
   topic: string
   /** Language-independent progress identity: `<TOPIC>:<CODE>`. */
@@ -60,24 +58,17 @@ export interface MediaRecord {
 
 export type MediaRecords = MediaRecord[]
 
-/** Review state of one locale document of a content-backed record. */
-export interface ContentDocState {
-  status: 'draft' | 'reviewed'
-  /** True when the canonical document changed after this translation was made. */
-  stale: boolean
-}
-
 /** Content docs (dictionary/lecture/story front matter) joined onto a media record. */
 export interface ContentMeta {
   /** Locale of the canonical document ('en' for lectures, the track language for stories). */
   canonical: string
-  /** One entry per existing doc — absence means "not translated yet". */
-  locales: Record<string, ContentDocState>
-  summary: string | null
-  order: number
-  minutes: number | null
+  /** Locales that have a document — absence means "not translated yet". */
+  locales: string[]
+  summary?: string | null
+  order?: number
+  minutes?: number | null
   /** Media manifest id of the embedded video, when the record has one. */
-  video: string | null
+  video?: string | null
 }
 
 /**
@@ -97,8 +88,8 @@ export interface MediaRow {
   lang: string
   term: string
   names: MediaNames
-  ipa: string | null
-  context: string | null
+  ipa?: string | null
+  context?: string | null
   /** Example word the row illustrates (phonetic rows: "Apfel" for the letter A). */
   example?: string | null
   media: { url: string | null }
@@ -116,7 +107,6 @@ export interface MediaRow {
  */
 export interface MediaSearchIndex {
   schema: number
-  generated: string
   section: string
   records: MediaRow[]
 }
@@ -128,7 +118,6 @@ export interface MediaSearchIndex {
  */
 export interface MediaTitles {
   schema: number
-  generated: string
   /** Chapter code (e.g. 'C1') → lang → media. */
   chapters: Record<string, Record<string, MediaMedia>>
   /** Topic code (e.g. 'C1T01') → lang → media. */

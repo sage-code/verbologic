@@ -251,7 +251,7 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     return records.value.filter(
       (r: MediaRecord) =>
         r.term.toLowerCase().includes(query) ||
-        r.tags.some((tag: string) => tag.toLowerCase().includes(query)) ||
+        (r.tags ?? []).some((tag: string) => tag.toLowerCase().includes(query)) ||
         // names values are null for locales without a translation yet
         Object.values(r.names).some((value: string | null) => value?.toLowerCase().includes(query))
     )

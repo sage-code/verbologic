@@ -1,0 +1,19 @@
+# Cloudflare Workers Static Assets response headers.
+#
+# Runtime payloads under /data/ are content-addressed by the build: a payload
+# only changes when its content changes, and every deploy replaces the whole
+# asset set. Long-lived immutable caching is therefore safe and removes the
+# revalidation round-trip on repeat visits.
+#
+# HTML is deliberately NOT listed: Workers Static Assets already serves it with
+# `Cache-Control: public, max-age=0, must-revalidate`, which is what a deploy
+# that can change any page needs. (A `/*.html` rule would also be invalid —
+# Cloudflare only supports a splat at the end of a path.)
+#
+# planning/performance-and-content-refactor.md §3 phase 1.
+
+/data/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/_nuxt/*
+  Cache-Control: public, max-age=31536000, immutable

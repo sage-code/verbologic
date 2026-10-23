@@ -102,7 +102,6 @@ export interface MediaConfig {
 /** Runtime index (public/data/media/index.json) — counts + progress in one fetch. */
 export interface MediaIndex {
   schema: number
-  generated: string
   /** section → topic code → lang → record count. */
   counts: Record<string, Record<string, Record<string, number>>>
   /** section → topic code → lang → entity ids (bulk check-all/reset scopes). */

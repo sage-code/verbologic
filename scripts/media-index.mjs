@@ -29,6 +29,10 @@
  *   <section>/<TOPIC>.json              records for one topic (topics with items only)
  *   <section>/search.json               every record of one section in one payload
  *                                       (the dictionary-wide translation search)
+ *
+ * Payloads are MINIFIED and DETERMINISTIC (no build timestamp), and carry only
+ * the fields the client reads — see `toPayload` below and
+ * planning/performance-and-content-refactor.md §3 phase 1.
  */
 import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
@@ -346,6 +350,45 @@ const toRow = (r) => ({
   read: r.read ? { url: r.read.url } : null
 })
 
+/**
+ * Runtime payload projection (planning/performance-and-content-refactor.md §3
+ * phase 1). Drops the fields no client reads — `sha1`, `bytes`, `source`,
+ * `section` — collapses `content.locales` from `{locale: {status, stale}}` to
+ * the list of locales that exist, and omits null/empty values. `mime` stays:
+ * MediaViewer switches on it for video/image rows.
+ */
+function toPayload(record) {
+  const out = {}
+  for (const [key, value] of Object.entries(record)) {
+    if (value === null || value === undefined) continue
+    if (key === 'sha1' || key === 'bytes' || key === 'source' || key === 'section') continue
+    if (key === 'media' || key === 'read') {
+      const descriptor = { url: value.url ?? null }
+      if (value.mime) descriptor.mime = value.mime
+      out[key] = descriptor
+      continue
+    }
+    if (key === 'content') {
+      const content = {
+        canonical: value.canonical,
+        locales: Object.keys(value.locales ?? {}),
+        summary: value.summary,
+        order: value.order,
+        minutes: value.minutes,
+        video: value.video
+      }
+      for (const [field, fieldValue] of Object.entries(content)) {
+        if (fieldValue === null || fieldValue === undefined) delete content[field]
+      }
+      out.content = content
+      continue
+    }
+    if (Array.isArray(value) && value.length === 0) continue
+    out[key] = value
+  }
+  return out
+}
+
 /** Front-matter + review state joined onto one content-backed record. */
 function applyContentMeta(record, group, recordsById, recordsByTopicContentId) {
   const canonicalLocale = group.canonical ?? (EN_CANONICAL.has(group.section) ? 'en' : group.trackLang)
@@ -603,7 +646,9 @@ function emit(relPath, payload) {
   if (dryRun) return
   const path = join(OUT, relPath)
   mkdirSync(join(path, '..'), { recursive: true })
-  writeFileSync(path, JSON.stringify(payload, null, 2) + '\n')
+  // Minified + no build timestamp: two builds of the same content are
+  // byte-identical, so a no-op rebuild is a true no-op (§3 phase 1).
+  writeFileSync(path, JSON.stringify(payload) + '\n')
 }
 
 const byId = (a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)
@@ -612,7 +657,7 @@ const byId = (a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)
 // (e.g. a question row is followed by its answers).
 for (const [key, records] of recordsBySectionTopic) {
   const [section, topic] = key.split('\n')
-  emit(`${section}/${topic}.json`, records)
+  emit(`${section}/${topic}.json`, records.map(toPayload))
 }
 
 /* ── section search index ─────────────────────────────────────────────────
@@ -634,9 +679,8 @@ const searchStats = []
 for (const [section, records] of recordsBySection) {
   emit(`${section}/search.json`, {
     schema: 1,
-    generated: new Date().toISOString(),
     section,
-    records: [...records].sort(byId)
+    records: [...records].sort(byId).map(toPayload)
   })
   searchStats.push(`  ${section}: ${records.length} searchable records`)
 }
@@ -644,7 +688,6 @@ for (const [section, records] of recordsBySection) {
 for (const [sectionPath, bucket] of titlesByTrack) {
   emit(`${sectionPath}/titles.json`, {
     schema: 1,
-    generated: new Date().toISOString(),
     chapters: bucket.chapters,
     topics: bucket.topics
   })
@@ -657,7 +700,6 @@ for (const records of recordsBySectionTopic.values()) {
 
 emit('index.json', {
   schema: 1,
-  generated: new Date().toISOString(),
   counts,
   ids,
   progress,

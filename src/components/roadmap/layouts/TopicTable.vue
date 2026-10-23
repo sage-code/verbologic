@@ -54,8 +54,8 @@ const queueItems = computed<QueueItem[]>(() =>
 
 /** The article doc a row opens: the UI locale's doc, else the canonical one. */
 function docLocale(r: MediaRow): string {
-  const locales = r.content?.locales ?? {}
-  return locales[uiLang.value] ? uiLang.value : r.content?.canonical ?? 'en'
+  const locales = r.content?.locales ?? []
+  return locales.includes(uiLang.value) ? uiLang.value : r.content?.canonical ?? 'en'
 }
 
 /** Prerendered article route of a row that carries an article (any track). */

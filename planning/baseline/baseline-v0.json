@@ -1,8 +1,8 @@
 {
   "tag": "v0",
-  "commit": "c64d6bb1",
-  "dirtyTree": true,
-  "recordedAt": "2026-10-23T19:03:25.222Z",
+  "commit": "42a8abd0",
+  "dirtyTree": false,
+  "recordedAt": "2026-10-23T19:04:26.758Z",
   "node": "v24.18.0",
   "payloads": {
     "totalMB": 11.776,
@@ -137,15 +137,20 @@
     "output": {
       "files": 8603,
       "bytes": 299281941,
-      "builtAt": "2026-10-23T17:20:37.035Z",
+      "builtAt": "2026-10-23T19:06:33.318Z",
       "note": "last build on disk, not re-run by snapshot"
     }
   },
   "parse": {
     "file": "media/library/dictionary/search.json",
     "records": 7512,
-    "parseMsMedian": 9.7
+    "parseMsMedian": 10
   },
-  "build": null,
+  "build": {
+    "command": "./run.sh build --force",
+    "seconds": 135,
+    "exitCode": 0,
+    "outputFiles": 8603
+  },
   "ttfb": "not measured — static preview server is not representative; measured in stage C on Workers"
 }

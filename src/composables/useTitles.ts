@@ -13,7 +13,7 @@
 import type { MediaMedia, MediaTitles } from '~/types/media'
 import { localizeMediaTitles } from '~/lib/localMedia'
 
-const EMPTY: MediaTitles = { schema: 0, generated: '', chapters: {}, topics: {} }
+const EMPTY: MediaTitles = { schema: 0, chapters: {}, topics: {} }
 
 /** sectionPath (e.g. 'library/stories') -> titles payload. */
 const bySection = ref<Record<string, MediaTitles>>({})
