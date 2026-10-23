@@ -95,8 +95,10 @@ export const useRoadmapStore = defineStore('roadmap', () => {
   const dictionaryQuery = ref('')
   /** 1-based page within the filtered rows. */
   const page = ref(1)
-  /** Rows per page (toolbar select) — Fibonacci sizes, default 13. */
-  const pageSize = ref(13)
+  /** Rows per page (toolbar select) — Fibonacci sizes, default 5.
+   *  Small by default so the first page paints from a small payload: the
+   *  reader sees rows immediately instead of waiting for a 13-row slice. */
+  const pageSize = ref(5)
 
   /** Dictionary-wide search rows (the lazy search.json payload, lang-filtered). */
   const searchIndex = ref<MediaRow[]>([])

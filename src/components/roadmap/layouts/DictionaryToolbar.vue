@@ -147,9 +147,9 @@ async function goPrev() {
 
     <!-- Controls group: beside the search it takes only its content width
          (grow 1 vs the search's 1000); wrapped onto its own line it spans the
-         full width — "# [13] /Page" first on the left, the buttons on the right -->
+         full width — "# [5] /Page" first on the left, the buttons on the right -->
     <div class="flex max-w-full grow flex-wrap items-center gap-2">
-      <!-- Rows per page (Fibonacci sizes), read as "# [13] /Page" on every screen -->
+      <!-- Rows per page (Fibonacci sizes), read as "# [5] /Page" on every screen -->
       <label for="dict-per-page" class="shrink-0 text-xs text-muted">#</label>
       <select
         id="dict-per-page"

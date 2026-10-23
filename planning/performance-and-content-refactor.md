@@ -539,3 +539,166 @@ Review on the slice (100 units): **you review 100% of Romanian and English** (�
 1. Languages for audio at first promotion beyond the slice: `ro` + `en` only? (the slice itself generates all 9)
 2. Is "100% ro/en + 10% others" realistic for the slice's ~200 language-units? It is a fraction of a full chapter's load; confirm before stage V.
 3. `.env` is still set to `gemini-3.1-flash-lite`; switching it to `gemini-3.8-flash` is part of stage F.
+
+---
+
+# Revision 4 (2026-10-23) — content in Supabase, not in the build
+
+Decisions in this revision: **the dictionary lives in Supabase and is queried page by page**; **only some words get articles**; **lectures are the file-count driver, not the dictionary**; **9 seed JSON files in git, never deployed**; **default page size 5**; **deploy only the built site**.
+
+This revision supersedes §7.1's "stay fully static" decision for the *content* path. The static site stays; what changes is where the rows come from.
+
+## 13. What the measurements actually say
+
+Phase 2 measured the wrong thing. It counted pages and concluded the dictionary was the problem. The composition says otherwise:
+
+| Track | Article pages | Share |
+|---|---|---|
+| Lectures (phonetic, from data) | 3,267 | **78.6%** |
+| Dictionary | 405 | 9.7% |
+| Lectures (Markdown) | 243 | 5.8% |
+| Stories | 243 | 5.8% |
+| Track pages | 27 | 0.6% |
+| **Total** | **4,185** | |
+
+And the payload side is the mirror image:
+
+| Payload group | Size | Share |
+|---|---|---|
+| Dictionary table payloads (search + topics + index) | 5.76 MB | **96%** |
+| Everything else | 0.25 MB | 4% |
+
+**So the two problems are disjoint.** Lectures inflate the *file count*; the dictionary inflates the *payload*. Fixing one does nothing for the other. The plan treated them as one problem and therefore solved neither.
+
+### 13.1 The phonetic pages are pure duplication
+
+`src/composables/usePhonetic.ts` imports all nine alphabet files into the JS bundle — **200 KB raw of article content the client already has**. The 3,267 prerendered pages are that same data rendered nine times per item, once per explanation locale.
+
+That is 78.6% of the site's files spent re-emitting data already shipped in JS.
+
+### 13.2 The dictionary has almost no articles
+
+5 of 848 units (0.6%) have an article. The user's intent — "some words, not all" — is already the reality. So the dictionary's 405 article pages are not a growth problem; they are 5 units × 9 locales.
+
+The dictionary's real cost is the **table payload**: 5.76 MB of JSON fetched to render rows that the reader sees 5 at a time.
+
+## 14. Target architecture
+
+### 14.1 Content lives in Supabase; the site queries it
+
+```
+authoring (git)                    Supabase                    browser
+─────────────────                  ────────                    ───────
+content/**/*.md  ──┐
+src/data/alphabets ─┼─► seed/*.json ─► import ─► units table ─► page query (5 rows)
+media/**/item.json ─┘   (9 files)                articles table
+```
+
+- **units** — one row per unit: `entity_id`, `topic`, `track`, `lang`, `term`, `ipa`, `names` (jsonb), `audio` (jsonb), `kind`, `level`.
+- **articles** — one row per article *locale*: `entity_id`, `locale`, `title`, `summary`, `body` (minimap AST or markdown), `status`, `source_sha`.
+- **topics / chapters** — the structure layer, so the sidebar can be queried rather than bundled.
+
+The browser asks for **one page of 5 rows**, not a 2.19 MB index. That is the whole point: the payload stops scaling with content.
+
+### 14.2 The 9 seed files
+
+`seed/<lang>.json`, one per target language, committed to git, **never deployed**.
+
+Measured shape (848 units):
+
+| Layout | Size |
+|---|---|
+| 9 files × full unit (names map repeated in each) | 1,808 KB |
+| 1 shared `names.json` + 9 thin per-language files | **568 KB** (−69%) |
+
+The thin form wins: `names` is the same 9-language map in every file, so it is stored once. Each per-language file carries only `{ i, term, ipa, audio }`.
+
+These files are the **import source**, not a runtime asset. They exist so the database can be rebuilt from git without re-parsing Markdown and manifests.
+
+### 14.3 What stays static
+
+- Track/chapter/topic pages (27).
+- Article pages for the units that have one — 5 dictionary units, 27 lecture docs, 27 story docs = **891 pages**.
+- Phonetic articles: **client-rendered from the bundled alphabet data** (see §15).
+
+### 14.4 Projected result
+
+| Scenario | Pages | Files | Payload |
+|---|---|---|---|
+| A. Today | 4,185 | 8,579 | 5.74 MB |
+| B. Phonetic client-rendered + dictionary in DB | **918** | **1,882** | **~0.2 MB** |
+| C. Phonetic prerendered for `en` + target only | 1,644 | 3,370 | ~0.2 MB |
+
+Scenario B is a **78% file reduction and a 96% payload reduction**. It also removes the file-count cliff entirely: the dictionary can grow to 858 units without adding a single page, because rows come from the database.
+
+## 15. Phonetic articles: stop prerendering them
+
+The 3,267 phonetic pages are the single largest file consumer and they duplicate bundled data. Three options:
+
+| Option | Pages | SEO | Verdict |
+|---|---|---|---|
+| Prerender all 9 explanation locales (today) | 3,267 | Best | Wasteful — 78.6% of files for 0.6% of content |
+| Prerender `en` + the target language only | 726 | Good | **Recommended** — keeps crawlable pages, cuts 2,541 files |
+| Client-render only | 0 | Weak | Best size, but the article text leaves the HTML |
+
+**Recommendation: prerender `en` + target (726 pages).** It keeps the SEO property Phase 2 verified (article bodies are in the HTML), cuts 78% of the phonetic files, and the other 7 locales still render client-side from the bundled data — they just are not separate crawlable URLs.
+
+> **Superseded — see §15.1.** This was implemented and reverted: the 7 non-prerendered locales return 404, not a client-rendered page.
+
+This is a smaller change than it sounds: `phoneticArticleRoutes()` already enumerates from data, so it becomes a filter on the locale loop.
+
+### 15.1 Why 3a was rejected (measured)
+
+Implemented, built, and tested — then reverted. The filter works, but it breaks the site:
+
+| URL | Before | After |
+|---|---|---|
+| `/learn/ro/lectures/LT01T01/L001/en` | 200 | 200 |
+| `/learn/fr/lectures/LT01T01/L001/en` | 200 | **404** |
+
+`wrangler.toml` sets `not_found_handling = "404-page"`, so a URL with no prerendered file is a hard 404 — there is no SPA fallback. The 7 non-prerendered locales are not "rendered client-side"; they are unreachable. The sidebar links to all 9 locales, so 2,541 internal links would 404.
+
+The build did drop to 1,559 pages / 3,116 files (from 4,185 / 8,395), and the prerendered pages were correct. But file count is not worth dead links.
+
+**What would make it viable:** a `_redirects` rule or `not_found_handling = "single-page-application"` so unknown paths fall back to `200.html` and hydrate. That is a real option, but it changes 404 behaviour site-wide (every typo'd URL becomes a 200), which is worse for SEO than the files it saves. Not worth it.
+
+**Conclusion:** phonetic articles stay prerendered in all 9 locales. The file-count problem is solved by Phase 5 (rows from the database), not by dropping locales.
+
+## 16. Page size 5
+
+Done: `roadmapStore.pageSize` default is now 5 (was 13). The toolbar's Fibonacci selector still offers 3·5·8·13·21·34·55·89, so a reader who wants more can pick it.
+
+With rows coming from the database this matters more than it did: the first query returns 5 rows, so the first paint does not wait for a 13-row slice.
+
+## 17. Build and deploy workflow
+
+The user's workflow, made explicit:
+
+```
+author → ./run.sh commit "<msg>" → ./run.sh push → ./run.sh build → ./run.sh deploy
+```
+
+- **`seed/*.json` is committed but not deployed.** It is import input, not a runtime asset. `.output/public` never contains it.
+- **Only `.output/public` is deployed** (`wrangler.toml` `[assets] directory`). Source, `content/`, `media/`, `seed/` and `planning/` stay in git and never reach Cloudflare.
+- **`public/data/media/**` shrinks to near nothing** once the dictionary is queried from Supabase. What remains is `locales/`, `prices.json`, and the article payloads.
+
+This is already how `wrangler.toml` works — the change is that `public/data` stops carrying 5.74 MB of table payloads.
+
+## 18. Revised phase order
+
+| Phase | Work | Why now |
+|---|---|---|
+| **3a** | Prerender phonetic articles for `en` + target only | **Rejected** — see §15.1 |
+| **4** | `seed/*.json` exporter + Supabase `units`/`articles`/`topics` schema + importer | The foundation; unblocks everything else |
+| **5** | Client queries the DB page by page; delete `search.json`/topic payloads | −5.76 MB payload |
+| **6** | Direction semantics (`reversible` / `directional`) | Unchanged from rev. 3 |
+| **7** | Cleanup: `entities/` bridge, `item.json`, legacy scripts | Unchanged |
+
+Phase 2's rendering spike is **closed** — the answer is "static site, database-backed rows", not "Worker".
+
+## 19. Open questions for this revision
+
+1. **Anonymous reads.** The dictionary must be readable without sign-in (it is public content). That means RLS policies granting `anon` SELECT on `units`/`articles`/`topics`, and the publishable key in the client. Confirm that is acceptable — it is the standard pattern for public reference data, but it does expose the full dictionary to anyone with the key.
+2. **Offline / repeat-loop playback.** The audio queue plays a page of rows repeatedly. With rows from the DB, a page change is a network round-trip. Acceptable, or should the next page be prefetched?
+3. **Search.** Today the dictionary-wide search loads one 2.19 MB payload and filters in memory. With the DB it becomes a query — but fuzzy matching across 9 languages needs either Postgres `pg_trgm`/full-text or a client-side index built from a smaller payload. Which?
+4. **Seed file granularity.** 9 files by target language (measured above), or 1 file per track? Per-language matches the import and the RLS shape.
