@@ -50,13 +50,19 @@ const walk = (dir, ext, acc = []) => {
 
 /* ── content sources ─────────────────────────────────────────────────────── */
 
-/** Manifest ids under each topic (codes are intentionally topic-scoped). */
+/** Manifest ids under each topic (codes are intentionally topic-scoped).
+ *  Shared manifests (media/<track>/<chapter>/<topic>/<code>/item.json) carry
+ *  `code` + `topic`; only the retired per-language manifests carry `id`. */
 const manifestIds = new Set()
 for (const sectionPath of new Set(Object.values(config.sections ?? {}))) {
   for (const file of walk(join(MEDIA, sectionPath), '.json')) {
     const m = readJson(file)
-    const topic = file.split(/[\\/]/).at(-2)
-    if (m.id) manifestIds.add(`${topic}\n${m.id}`)
+    if (m.code && m.topic) {
+      manifestIds.add(`${m.topic}\n${m.code}`)
+    } else if (m.id) {
+      const topic = file.split(/[\\/]/).at(-2)
+      manifestIds.add(`${topic}\n${m.id}`)
+    }
   }
 }
 
@@ -184,6 +190,49 @@ for (const { id, group, canonical } of missingCanonical) {
 }
 push('')
 
+/* ── orphan manifests (content no sidebar references) ───────────────────── */
+
+/** Every id a sidebar references, keyed `topic\nid` — the resolution set. */
+const referencedIds = new Set()
+for (const sidebar of sidebars) {
+  for (const chapter of sidebar.sections ?? []) {
+    for (const topic of chapter.topics ?? []) {
+      for (const id of topic.items ?? []) referencedIds.add(`${topic.code}\n${id}`)
+    }
+  }
+}
+
+/** Title manifests (chapter/topic audio) are never listed in `items` — they
+ *  are addressed by their own code, so they are not orphans. */
+const TITLE_KINDS = new Set(['chapter-title', 'topic-title', 'story-chapter', 'story-topic'])
+
+const orphans = []
+for (const sectionPath of new Set(Object.values(config.sections ?? {}))) {
+  for (const file of walk(join(MEDIA, sectionPath), '.json')) {
+    if (file.split(/[\\/]/).at(-1) !== 'item.json') continue
+    const m = readJson(file)
+    if (!m.code || !m.topic) continue
+    if (TITLE_KINDS.has(m.kind)) continue
+    if (!referencedIds.has(`${m.topic}\n${m.code}`)) {
+      orphans.push({ section: sectionPath, topic: m.topic, code: m.code, kind: m.kind ?? '—', file })
+    }
+  }
+}
+orphans.sort((a, b) => (a.section + a.topic + a.code).localeCompare(b.section + b.topic + b.code))
+
+push(`## Orphan manifests (content no sidebar references) — ${orphans.length}`, '')
+push('> These manifests exist on disk and may be published to R2, but no sidebar `items[]`')
+push('> lists them, so the site never renders them. Either add the id to its topic or retire')
+push('> the manifest. Title manifests (`chapter-title` / `topic-title` / story titles) are')
+push('> excluded — they are addressed by their own code, never by `items[]`.', '')
+if (orphans.length === 0) push('_None._', '')
+else {
+  push('| section | topic | code | kind |')
+  push('| --- | --- | --- | --- |')
+  for (const o of orphans) push(`| ${o.section} | ${o.topic} | \`${o.code}\` | ${o.kind} |`)
+}
+push('')
+
 /* ── report ──────────────────────────────────────────────────────────────── */
 
 const report = [
@@ -198,6 +247,7 @@ const report = [
   `- sidebars: ${sidebars.length} · referenced item ids: ${totals.ids}`,
   `- planned ids (no manifest / entity / doc): **${totals.planned}**`,
   `- empty topics (no items): **${totals.empty}**`,
+  `- orphan manifests (no sidebar reference): ${orphans.length}`,
   `- content docs missing their canonical locale: ${missingCanonical.length}`,
   '',
   ...lines
@@ -207,7 +257,7 @@ mkdirSync(join(OUT, '..'), { recursive: true })
 writeFileSync(OUT, report + '\n')
 
 console.log(
-  `missing-content: ${totals.planned} planned id(s) · ${totals.empty} empty topic(s) → ${OUT.replace(ROOT, '')}`
+  `missing-content: ${totals.planned} planned id(s) · ${totals.empty} empty topic(s) · ${orphans.length} orphan manifest(s) → ${OUT.replace(ROOT, '')}`
 )
 console.log('missing-content OK ✓ (informational only — a missing finding is never a failure)')
 if (stdout) console.log('\n' + report)

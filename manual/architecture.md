@@ -143,6 +143,55 @@ it in incrementally.
 | Empty topic / chapter (no records) | hidden from the sidebar & TOC (`populatedTopics` / `visibleChapters`), but deep links still resolve |
 | Legacy-bridge row whose mp3 is not on R2 | the **only real broken link** (play → 404); `run media verify --remote` reports it — upload to fix |
 
+### Reversible content vs. language-exclusive topics
+
+Most content is **reversible**: one topic, one item list, the same ids in every
+language, with the text translated per locale. The runtime filters records by
+`lang`, so a topic whose translations are merely incomplete still works — the
+missing languages simply have fewer rows.
+
+Some content is **not reversible**, because it is *about* one language and has
+no counterpart in the others: the Romanian alphabet (Ă, Â, Î, Ș, Ț), English
+phonics clusters (`kn-`, `-ough`, `-tion`). Those are declared with the optional
+`langs` field on a topic:
+
+```json
+{
+  "code": "LT01T01",
+  "names": { "en": "Romanian alphabet & letters", "ro": "Alfabetul și literele românești" },
+  "layout": "table",
+  "level": "A1",
+  "langs": ["ro"],
+  "items": ["L001", "L002", "…"]
+}
+```
+
+| Field | Absent | Present |
+| --- | --- | --- |
+| `langs` | the topic exists in **every** language (the reversible default) | the topic exists **only** in the listed languages |
+
+A language-exclusive topic is dropped from `allTopics` for any language it does
+not list, so it disappears from the topic list, the chapter TOC, topic search
+and the next/previous walk — and a deep link to it in another language does not
+resolve. `scripts/media-index.mjs` applies the same scope when building records,
+so the runtime counts, ids and search index never offer it to the wrong language.
+
+**Do not use `langs` for content that is merely unwritten.** A topic whose
+translations are pending stays visible-but-disabled (the structure-first policy
+above) so the gap is visible in `run missing`. `langs` is for a genuine
+structural difference, not a backlog.
+
+**Worked example — LT01.** The chapter originally held one topic, `LT01T01`,
+whose `items` mixed the English alphabet and 48 phonics clusters (74 legacy ids)
+with the Romanian alphabet (30 `L`-codes). It is now two topics:
+
+| Topic | `langs` | Items | Title |
+| --- | --- | --- | --- |
+| `LT01T01` | `["ro"]` | 30 | Romanian alphabet & letters |
+| `LT01T07` | `["en"]` | 74 | English alphabet & phonics |
+
+The remaining `LT01T02`–`LT01T06` topics carry no `langs` and stay reversible.
+
 **The on-the-go loop (fill missing content whenever you like)**
 
 ```

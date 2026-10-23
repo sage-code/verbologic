@@ -170,7 +170,13 @@ export const useRoadmapStore = defineStore('roadmap', () => {
   }
 
   const chapter = computed(() => chapters.value.find((c: SidebarSection) => c.code === chapterCode.value) ?? null)
-  const topic = computed(() => chapter.value?.topics.find((t: SidebarTopic) => t.code === topicCode.value) ?? null)
+  /** The open topic — null when the code belongs to another language's
+   *  exclusive topic, so a deep link cannot open it here. */
+  const topic = computed(() => {
+    const found = chapter.value?.topics.find((t: SidebarTopic) => t.code === topicCode.value) ?? null
+    if (!found) return null
+    return !found.langs || found.langs.includes(lang.value) ? found : null
+  })
 
   /**
    * The open topic's layout kind — the main pane is THIS, never the track
@@ -179,9 +185,16 @@ export const useRoadmapStore = defineStore('roadmap', () => {
    */
   const topicLayout = computed<TopicLayout>(() => topic.value?.layout ?? 'table')
 
-  /** All topics flattened with their chapter code — the search-index unit. */
+  /** All topics flattened with their chapter code — the search-index unit.
+   *  Language-exclusive topics (`langs`) are dropped for any language they do
+   *  not list, so the topic list, chapter TOC, topic search and the next/prev
+   *  walk all see one consistent set. */
   const allTopics = computed<TopicRow[]>(() =>
-    chapters.value.flatMap((c: SidebarSection) => c.topics.map((t: SidebarTopic) => ({ ...t, chapterCode: c.code })))
+    chapters.value.flatMap((c: SidebarSection) =>
+      c.topics
+        .filter((t: SidebarTopic) => !t.langs || t.langs.includes(lang.value))
+        .map((t: SidebarTopic) => ({ ...t, chapterCode: c.code }))
+    )
   )
 
   /** Topics with content in the active language — lists and walks show only these. */
@@ -223,7 +236,8 @@ export const useRoadmapStore = defineStore('roadmap', () => {
       (r: MediaRecord) =>
         r.term.toLowerCase().includes(query) ||
         r.tags.some((tag: string) => tag.toLowerCase().includes(query)) ||
-        Object.values(r.names).some((value: string) => value.toLowerCase().includes(query))
+        // names values are null for locales without a translation yet
+        Object.values(r.names).some((value: string | null) => value?.toLowerCase().includes(query))
     )
   })
 
@@ -295,7 +309,7 @@ export const useRoadmapStore = defineStore('roadmap', () => {
       showChapters.value = false // a word table is open — close the chapter TOC
       return true
     }
-    const first = visibleTopics.value[0] ?? chapter.value?.topics[0] ?? allTopics.value[0]
+    const first = visibleTopics.value[0] ?? allTopics.value[0]
     if (!first) return false
     await openTopic(first.code, { keepFilter: true })
     return true

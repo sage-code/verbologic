@@ -11,8 +11,10 @@
  */
 import type { MediaNames, MediaRow } from '~/types/media'
 
-/** Lowercase + diacritics folded ('ă'→'a', 'ș'→'s') for prefix/substring matching. */
-export function fold(value: string): string {
+/** Lowercase + diacritics folded ('ă'→'a', 'ș'→'s') for prefix/substring matching.
+ *  Null-safe: manifests carry `null` for locales that have no translation yet. */
+export function fold(value: string | null | undefined): string {
+  if (typeof value !== 'string') return ''
   return value
     .trim()
     .toLowerCase()
@@ -44,7 +46,8 @@ export function matchesDictionaryQuery(
 ): boolean {
   const folded = fold(query)
   if (!folded) return true
-  const names = [row.term, ...Object.values(row.names)].map(fold)
+  // `names` values are null for locales without a translation — fold() drops them.
+  const names = [row.term, ...Object.values(row.names ?? {})].map(fold).filter(Boolean)
   if (folded.length < WORD_LENGTH_THRESHOLD) {
     return names.some((name) => name.startsWith(folded))
   }

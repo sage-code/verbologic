@@ -6,8 +6,10 @@
 
 export type MediaSource = 'legacy' | 'media' | 'content'
 
-/** Localized names keyed by UI locale (canonical order: en, ro, de, ru, it, es, fr, hu, pt). */
-export type MediaNames = Record<string, string>
+/** Localized names keyed by UI locale (canonical order: en, ro, de, ru, it, es, fr, hu, pt).
+ *  A locale with no translation yet is `null` in the manifests — every consumer
+ *  must treat a missing/null entry as "no gloss", never assume a string. */
+export type MediaNames = Record<string, string | null>
 
 /** Media descriptor — R2 URL plus delivery facts (prefix always matches the section's path). */
 export interface MediaMedia {

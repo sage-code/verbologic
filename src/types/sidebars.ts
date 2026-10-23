@@ -37,6 +37,19 @@ export interface SidebarTopic {
   level?: CefrLevel
   /** Topic-scoped media/content codes (or legacy ids for unresolved planned items), in display order. */
   items: string[]
+  /**
+   * Languages this topic exists for. Absent = every language (the reversible
+   * default). Present = the topic is language-exclusive: it is hidden from the
+   * topic list, the chapter TOC and topic search for any language not listed,
+   * and a deep link to it in another language does not resolve.
+   *
+   * Use this for content that is genuinely about ONE language and has no
+   * counterpart in the others — the Romanian alphabet, English phonics
+   * clusters. Do NOT use it for a topic whose translations are merely not
+   * written yet: that is a planned topic, and it stays visible-but-disabled
+   * (the structure-first policy) until its content lands.
+   */
+  langs?: string[]
 }
 
 export interface SidebarSection {

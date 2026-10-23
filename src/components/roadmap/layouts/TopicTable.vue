@@ -180,9 +180,9 @@ watch(
       class="rounded-lg border border-edge bg-surface px-4 py-6 text-sm text-muted"
     >
       {{
-        store.dictionaryRows.length === 0
-          ? copy('roadmap.no_words', 'No words in this topic yet — content is being prepared.')
-          : copy('ui.no_results', 'No matches found.')
+        store.searchActive
+          ? copy('ui.no_results', 'No matches found.')
+          : copy('roadmap.no_words', 'No words in this topic yet — content is being prepared.')
       }}
     </p>
 

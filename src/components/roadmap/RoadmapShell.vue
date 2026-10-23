@@ -187,13 +187,17 @@ const topicTitleParts = computed(() => {
   }
 })
 
-/** The resolved pane is TopicTable (search results, or an open topic in a
- *  table or article layout) — it has its own toolbar row, so the search box
- *  drops into THAT row (bare, see WordSearchBar) instead of getting its own row here. */
+/** The resolved pane is TopicTable with an OPEN TOPIC (table layout) — it has
+ *  its own toolbar row, so the search box drops into THAT row (bare, see
+ *  WordSearchBar) instead of getting its own row here.
+ *
+ *  Deliberately NOT true for a committed word search with no topic open: the
+ *  search box must stay in its own row there, otherwise it would be unmounted
+ *  and re-created the moment the first keystroke commits — losing focus and
+ *  the draft mid-typing. TopicTable still renders the results; its toolbar
+ *  just omits the search box (see DictionaryToolbar). */
 const paneIsTable = computed(
-  () =>
-    (store.searchActive && !store.topicCode) ||
-    (!!store.topicCode && !!store.topic && TOPIC_LAYOUTS[store.topicLayout] === TopicTable)
+  () => !!store.topicCode && !!store.topic && TOPIC_LAYOUTS[store.topicLayout] === TopicTable
 )
 
 /**

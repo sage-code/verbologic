@@ -286,16 +286,23 @@ for (const sidebar of sidebars) {
   for (const section of sidebar.sections) {
     for (const topic of section.topics) {
       const records = []
+      // Language-exclusive topic (`langs`): its items belong to those languages
+      // only. Records of any other language are dropped here, so the runtime
+      // counts, ids and search index never offer it to a language it does not
+      // exist for. Absent `langs` = every language (the reversible default).
+      const scope = Array.isArray(topic.langs) && topic.langs.length ? new Set(topic.langs) : null
       for (const id of topic.items) {
         const manifests = manifestsByTopicId.get(`${topic.code}\n${id}`)
         if (manifests?.length) {
           for (const { manifest } of manifests) {
+            if (scope && !scope.has(manifest.lang)) continue
             records.push(manifestRecord({ ...manifest, topic: topic.code }, sidebar.id))
           }
           continue
         }
         const entity = entitiesById.get(id)
         if (entity) {
+          if (scope && !scope.has(entity.lang)) continue
           records.push(legacyRecord(entity, sidebar.id, topic.code))
           continue
         }

@@ -239,6 +239,23 @@ try {
         } else if (topic.level === undefined && sidebar.id.startsWith('library/')) {
           WARNINGS.push(`sidebar ${sidebar.id} · ${topic.code}: missing level`)
         }
+        // Language scope (`langs`): absent = every language. Present = the
+        // topic is language-exclusive, so every listed language must be a
+        // registered locale and the list must not be empty.
+        if (topic.langs !== undefined) {
+          if (!Array.isArray(topic.langs) || topic.langs.length === 0) {
+            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: 'langs' must be a non-empty array (omit it for every language)`)
+          } else {
+            for (const code of topic.langs) {
+              if (!localeCodesAll.includes(code)) {
+                ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: 'langs' has unknown locale '${code}'`)
+              }
+            }
+            if (new Set(topic.langs).size !== topic.langs.length) {
+              ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: 'langs' has duplicate entries`)
+            }
+          }
+        }
         for (const id of topic.items ?? []) {
           itemCount++
           // Structure-first: an id resolving to nothing yet is a PLANNED item

@@ -138,8 +138,12 @@ async function goPrev() {
 <template>
   <div class="flex flex-wrap items-center gap-2 rounded-lg border border-edge bg-surface p-2 shadow-sm">
     <!-- The search box: first, responsive — fills the left side; when the
-         row is too narrow it keeps the top line and the controls wrap below -->
-    <WordSearchBar bare />
+         row is too narrow it keeps the top line and the controls wrap below.
+         Only when a TOPIC is open: in bare search-results mode (no topic)
+         RoadmapShell renders the box in its own row above, so rendering it
+         here too would duplicate it — and remounting it mid-typing would
+         steal focus. -->
+    <WordSearchBar v-if="store.topicCode" bare />
 
     <!-- Controls group: beside the search it takes only its content width
          (grow 1 vs the search's 1000); wrapped onto its own line it spans the

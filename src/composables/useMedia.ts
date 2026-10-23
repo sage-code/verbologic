@@ -45,9 +45,15 @@ export function useMedia() {
 
 /**
  * Display name for a localized-names map: the UI language first, then the
- * English canonical, then the fallback (usually the code itself).
+ * English canonical, then the fallback (usually the code itself). A locale
+ * with no translation yet is `null` in the manifests, so both lookups are
+ * null-safe.
  */
-export function mediaName(names: Record<string, string> | undefined, uiLang: string, fallback: string): string {
+export function mediaName(
+  names: Record<string, string | null> | undefined,
+  uiLang: string,
+  fallback: string
+): string {
   if (!names) return fallback
   return names[uiLang] || names.en || fallback
 }
