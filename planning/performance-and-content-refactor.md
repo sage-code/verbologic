@@ -737,6 +737,10 @@ The device id must be a **claim the client cannot forge into another user's data
 
 That last row is the one to watch. The current architecture is already correct (auth lives in a Pinia store, populated in the browser), but Phase 6 must not introduce a server-side session read. The `is_anonymous` check also means the "restrictive policy" pattern from the docs is needed, since RLS policies are permissive-by-default and OR'd together.
 
+**Decision (2026-10-23): anonymous sign-in, but LAZY — on first write, not first visit.** The MAU row above is the reason. Signing in on first visit makes every visitor an MAU and spends the 50,000 Free-tier quota on people who never engage. Signing in on the first *progress write* keeps MAU proportional to engaged visitors while still giving a real, unforgeable `auth.uid()`. Implemented in `userStore.ensureAnonymousSession()`, called from `useProgress`'s write paths only — `refresh()` deliberately never mints an account just to read.
+
+**Turnstile, not hCaptcha.** The site already runs behind Cloudflare, so Turnstile adds no third-party dependency and is free/unlimited. It guards `signInAnonymously` (the endpoint that creates rows); `updateUser` needs no token because it creates nothing. The widget is `interaction-only` and the script loads on demand, so it costs nothing for visitors who never sign in. See `manual/MAINTENANCE.md` §7 for the two dashboard steps.
+
 **Prefetch the next page.** The audio queue already knows the page boundary, so the next page's query fires when the current page's playback starts. No new infrastructure — one `prefetch` call keyed on `page + 1`.
 
 **`pg_trgm` for search.** Enables `CREATE EXTENSION pg_trgm` plus GIN indexes on the searchable columns. Note it is **trigram** matching, so it handles typos and partial words but not stemming — for 9 languages that is the right trade (no per-language dictionary to maintain). The index must be on the *normalized* text (`lower(unaccent(name))`) to match across diacritics, which matters for `ro`/`hu`/`ru`.

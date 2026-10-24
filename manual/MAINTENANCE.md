@@ -836,6 +836,53 @@ caller, which is a `200` and therefore success.
   but the key is wrong; a connection error means the project is paused — resume
   it at `https://supabase.com/dashboard/project/<ref>`.
 
+### Anonymous visitors — lazy sign-in + Turnstile
+
+A visitor browses the whole site with **no account**. The first time they save
+progress (mark a word learned, or cross the 5-listen auto-complete), the client
+calls `userStore.ensureAnonymousSession()`, which mints a real Supabase
+anonymous user. Browsing never creates an account — only saving does.
+
+That "lazy" timing is deliberate. Anonymous users count as **monthly active
+users**, and the Free tier allows 50,000. Signing in on first visit would make
+every visitor an MAU and burn the quota on people who never engage; signing in
+on first *write* keeps MAU proportional to engaged visitors.
+
+The account is a real `auth.uid()`, so RLS stays the standard
+`auth.uid() = user_id` shape and the id cannot be forged — unlike a
+localStorage device id, which is a bearer token anyone could replay.
+
+**Registration promotes the same user in place.** `promoteAnonymous(email)`
+calls `updateUser({ email })`, which attaches an e-mail to the *existing* user.
+The id never changes, so every `learned_items` / `listen_counts` row stays
+attached — no merge, no "fill the gaps" step.
+
+**When anonymous sign-in is disabled** (the current state), `signInAnonymously`
+returns `anonymous_provider_disabled`; the store swallows it and the
+localStorage path takes over. Behaviour is identical to before this feature.
+
+#### Enabling it (two dashboard steps, no code)
+
+1. **Supabase → Authentication → Sign In / Providers → Anonymous sign-ins →
+   Enable.** Without this the endpoint returns `anonymous_provider_disabled`.
+2. **Cloudflare → Turnstile → Add widget.** Domains: `verbologic.com`,
+   `www.verbologic.com`, `localhost`. Copy the **site key** into
+   `NUXT_PUBLIC_TURNSTILE_SITE_KEY` (`.env` and Cloudflare Workers Builds), and
+   the **secret key** into **Supabase → Authentication → Attack Protection →
+   Enable CAPTCHA protection** (provider: Turnstile).
+
+Turnstile is the right fit here: the site already runs behind Cloudflare, and
+Turnstile is free and unlimited. It matters because anonymous sign-in creates a
+row in `auth.users` per call — the built-in 30 requests/hour/IP limit does not
+stop a distributed botnet, and a CAPTCHA does.
+
+The widget is `interaction-only` and the script loads **on demand**, only when a
+token is actually needed, so it costs nothing for visitors who never sign in.
+
+**Verifying it works:** with both steps done, clear localStorage, mark a word
+learned, and check `select id, is_anonymous, created_at from auth.users order by
+created_at desc limit 1` — a new row with `is_anonymous = true` should appear.
+
 **Payments (not wired yet):** credits are bought with PayPal, which needs a
 server — the site is a static bundle, so the secret cannot live in the browser.
 The planned host is a Supabase Edge Function. Setup steps (PayPal Business

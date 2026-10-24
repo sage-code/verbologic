@@ -2,10 +2,17 @@
  * useProgress — per-locale learning progress ("Words learned").
  *
  * Signed in + Supabase configured: source of truth is the learned_items table
- * (idempotent via UNIQUE(user_id, entity_id)); the Library reads the aggregate
- * through enrollments_overview.
+ * (idempotent via UNIQUE(user_id, locale, entity_id)); the Library reads the
+ * aggregate through enrollments_overview.
  * Signed out or Supabase unconfigured: localStorage fallback
  * ('verbologic-progress', keyed by locale) — identical UX, no server.
+ *
+ * Anonymous visitors: the first progress write calls
+ * `userStore.ensureAnonymousSession()`, which mints a real Supabase anonymous
+ * account so the write lands in the DB under a genuine `auth.uid()`. Browsing
+ * never creates an account — only saving does. When anonymous sign-in is
+ * disabled on the project the call resolves null and the localStorage path
+ * takes over, so behaviour is unchanged.
  */
 import { useUserStore } from '~/stores/userStore'
 
@@ -103,6 +110,8 @@ export function useProgress(locale: () => string) {
   /** Load the learned set + listen counts for the active locale. */
   async function refresh(): Promise<void> {
     ready.value = false
+    // Read-only: use the existing session if there is one, but never mint an
+    // anonymous account just to look at progress.
     const userId = userStore.user?.id
     await loadProgressAliases()
     if (supabase && userId) {
@@ -142,6 +151,30 @@ export function useProgress(locale: () => string) {
   }
 
   /**
+   * The user id to write progress against, minting an anonymous account on
+   * first use. Returns null when Supabase is unconfigured or anonymous sign-in
+   * is disabled — callers then take the localStorage path.
+   *
+   * Cached per page load so a burst of writes (bulk mark, listen counter) does
+   * not fire concurrent sign-ins.
+   */
+  let anonymousPromise: Promise<string | null> | null = null
+
+  async function resolveUserId(): Promise<string | null> {
+    const existing = userStore.user?.id
+    if (existing) return existing
+    if (!supabase) return null
+    if (!anonymousPromise) {
+      anonymousPromise = userStore.ensureAnonymousSession().catch((error: unknown) => {
+        anonymousPromise = null
+        console.warn('[progress] anonymous session unavailable', error)
+        return null
+      })
+    }
+    return anonymousPromise
+  }
+
+  /**
    * Toggle learned state for one entity. Optimistic; the DB side is idempotent
    * (UNIQUE(user_id, entity_id)), so races cannot inflate the count.
    */
@@ -152,7 +185,7 @@ export function useProgress(locale: () => string) {
     else next.add(entityId)
     learned.value = next
 
-    const userId = userStore.user?.id
+    const userId = await resolveUserId()
     if (supabase && userId) {
       if (wasLearned) {
         const { error } = await supabase
@@ -196,7 +229,7 @@ export function useProgress(locale: () => string) {
     const count = (listens.value[entityId] ?? 0) + 1
     listens.value = { ...listens.value, [entityId]: count }
 
-    const userId = userStore.user?.id
+    const userId = await resolveUserId()
     if (supabase && userId) {
       const { error } = await supabase
         .from('listen_counts')
@@ -229,7 +262,7 @@ export function useProgress(locale: () => string) {
     }
     learned.value = next
 
-    const userId = userStore.user?.id
+    const userId = await resolveUserId()
     if (supabase && userId) {
       if (learnedValue) {
         for (const part of chunk(entityIds, BULK_CHUNK)) {
@@ -274,7 +307,7 @@ export function useProgress(locale: () => string) {
     for (const id of entityIds) delete next[id]
     listens.value = next
 
-    const userId = userStore.user?.id
+    const userId = await resolveUserId()
     if (supabase && userId) {
       for (const part of chunk(entityIds, BULK_CHUNK)) {
         const { error } = await supabase

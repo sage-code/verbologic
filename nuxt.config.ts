@@ -179,6 +179,15 @@ export default defineNuxtConfig({
       supabaseUrl: '',
       supabaseAnonKey: '',
       /**
+       * Cloudflare Turnstile site key (public — safe to ship). Guards the
+       * anonymous sign-in endpoint, which creates a real auth.users row per
+       * call. Empty = no CAPTCHA; useTurnstile() then resolves null and the
+       * sign-in proceeds without a token, so the site works unchanged until
+       * the key is set. The matching secret lives in Supabase
+       * (Authentication → Attack Protection), never here.
+       */
+      turnstileSiteKey: '',
+      /**
        * Media root override for local development. The media payloads bake
        * absolute R2 URLs at build time (scripts/media-index.mjs), so without
        * this a local build points at media.verbologic.com and every audio

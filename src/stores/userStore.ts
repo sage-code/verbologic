@@ -39,6 +39,12 @@ export interface UserProfile {
   pendingEmail?: string
   /** Phone change awaiting the SMS code (auth.users.new_phone). */
   pendingPhone?: string
+  /**
+   * True for a Supabase anonymous user — a real `auth.uid()` with no e-mail.
+   * It exists so progress can be saved before the visitor registers; the
+   * account is promoted in place on registration, so the id never changes.
+   */
+  isAnonymous?: boolean
 }
 
 /** Result of an auth mutation: ok, or a raw message the form maps to i18n. */
@@ -126,9 +132,11 @@ export const useUserStore = defineStore('user', () => {
   /** Map a Supabase user onto the local profile shape. */
   function applyUser(u: User) {
     const meta = (u.user_metadata ?? {}) as Record<string, unknown>
+    // `is_anonymous` is a top-level field on the user object (and a JWT claim).
+    const isAnonymous = Boolean((u as User & { is_anonymous?: boolean }).is_anonymous)
     user.value = {
       id: u.id,
-      name: (meta.full_name as string) || u.email || 'User',
+      name: (meta.full_name as string) || u.email || (isAnonymous ? 'Guest' : 'User'),
       email: u.email ?? undefined,
       // Confirmed phone first; the signup phone lives only in metadata until
       // it's verified by SMS.
@@ -137,7 +145,8 @@ export const useUserStore = defineStore('user', () => {
       emailVerified: Boolean(u.email_confirmed_at),
       phoneVerified: Boolean(u.phone && u.phone_confirmed_at),
       pendingEmail: u.new_email || undefined,
-      pendingPhone: u.new_phone || undefined
+      pendingPhone: u.new_phone || undefined,
+      isAnonymous
     }
   }
 
@@ -203,6 +212,86 @@ export const useUserStore = defineStore('user', () => {
   function signIn(profile: UserProfile) {
     user.value = profile
     persist()
+  }
+
+  /**
+   * Ensure there is an `auth.uid()` to write progress against, creating an
+   * anonymous account on first use.
+   *
+   * This is the "lazy" half of the identity model: a visitor browses the whole
+   * site with no account at all, and only when they first save progress do we
+   * mint one. That keeps monthly-active-user usage proportional to *engaged*
+   * visitors rather than to all traffic — which matters because anonymous users
+   * count against the Free tier's 50,000 MAU quota.
+   *
+   * The account is a real Supabase user, so RLS stays the standard
+   * `auth.uid() = user_id` shape and the id cannot be forged (unlike a
+   * localStorage device id, which is a bearer token).
+   *
+   * Registration later *promotes* this same user in place (see
+   * `promoteAnonymous`), so the id — and therefore every learned_items row —
+   * survives sign-up.
+   *
+   * Returns the user id, or null when Supabase is unconfigured or anonymous
+   * sign-in is disabled on the project (the caller then falls back to
+   * localStorage, exactly as before).
+   */
+  async function ensureAnonymousSession(): Promise<string | null> {
+    if (!supabase || !import.meta.client) return null
+
+    // Already have a session (anonymous or real) — nothing to do.
+    const { data: existing } = await supabase.auth.getSession()
+    if (existing.session?.user) {
+      if (!user.value) applySession(existing.session)
+      return existing.session.user.id
+    }
+
+    // A CAPTCHA token is required when the project has Attack Protection on.
+    // useTurnstile() resolves null when no site key is configured, which is
+    // the correct "not enabled yet" behaviour.
+    const { getToken } = useTurnstile()
+    const captchaToken = await getToken()
+
+    const { data, error } = await supabase.auth.signInAnonymously(
+      captchaToken ? { options: { captchaToken } } : undefined
+    )
+    if (error) {
+      // `anonymous_provider_disabled` means the dashboard toggle is off. That
+      // is a configuration state, not a bug — stay silent and let the caller
+      // use the localStorage path.
+      if (!/anonymous_provider_disabled|anonymous/i.test(error.message)) {
+        console.warn('[auth] anonymous sign-in failed', error.message)
+      }
+      return null
+    }
+    if (data.session) {
+      applySession(data.session)
+      return data.session.user.id
+    }
+    return null
+  }
+
+  /**
+   * Promote the current anonymous account to a real one, in place.
+   *
+   * `updateUser({ email })` attaches an e-mail to the *existing* user, so the
+   * id is unchanged and every learned_items / listen_counts row stays attached
+   * — no migration, no merge, no "fill the gaps" logic. Supabase then sends a
+   * confirmation e-mail; the account becomes permanent once it is confirmed.
+   *
+   * Requires "Manual linking" to be enabled in the dashboard for the
+   * identity-linking variant; the e-mail variant used here does not.
+   */
+  async function promoteAnonymous(email: string): Promise<AuthResult> {
+    if (!supabase) return { ok: false, error: 'not_configured' }
+    if (!user.value?.isAnonymous) return { ok: false, error: 'not_anonymous' }
+
+    // No CAPTCHA here: updateUser() does not create a user, so it is not the
+    // abuse surface — signInAnonymously() is, and that one is guarded.
+    const { error } = await supabase.auth.updateUser({ email })
+    if (error) return { ok: false, error: error.message }
+    await refreshUser()
+    return { ok: true }
   }
 
   function emailRedirect() {
@@ -507,6 +596,8 @@ export const useUserStore = defineStore('user', () => {
     hydrate,
     fetchProfile,
     signIn,
+    ensureAnonymousSession,
+    promoteAnonymous,
     signUpWithPassword,
     signInWithPassword,
     sendPasswordReset,
