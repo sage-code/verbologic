@@ -689,16 +689,202 @@ This is already how `wrangler.toml` works — the change is that `public/data` s
 | Phase | Work | Why now |
 |---|---|---|
 | **3a** | Prerender phonetic articles for `en` + target only | **Rejected** — see §15.1 |
-| **4** | `seed/*.json` exporter + Supabase `units`/`articles`/`topics` schema + importer | The foundation; unblocks everything else |
-| **5** | Client queries the DB page by page; delete `search.json`/topic payloads | −5.76 MB payload |
-| **6** | Direction semantics (`reversible` / `directional`) | Unchanged from rev. 3 |
-| **7** | Cleanup: `entities/` bridge, `item.json`, legacy scripts | Unchanged |
+| **4** | Manifest shape: `locales` + `files` (§20–§24) | The import unit for the DB; do it before the exporter so the exporter reads one shape |
+| **5** | `seed/*.json` exporter + Supabase `units`/`articles`/`topics` schema + importer | The foundation; unblocks everything else |
+| **6** | Client queries the DB page by page; delete `search.json`/topic payloads | −5.76 MB payload |
+| **7** | Direction semantics (`reversible` / `directional`) | Unchanged from rev. 3 |
+| **8** | Cleanup: `entities/` bridge, legacy scripts | Unchanged |
 
 Phase 2's rendering spike is **closed** — the answer is "static site, database-backed rows", not "Worker".
 
-## 19. Open questions for this revision
+Phase 4 is ordered before the exporter deliberately: the exporter's job is to emit one row per `(entity_id, locale)`, and the `locales` map (§21) is already that shape. Doing the exporter first would mean writing the flattening logic twice.
+
+## 19. Open questions for this revision — answered
 
 1. **Anonymous reads.** The dictionary must be readable without sign-in (it is public content). That means RLS policies granting `anon` SELECT on `units`/`articles`/`topics`, and the publishable key in the client. Confirm that is acceptable — it is the standard pattern for public reference data, but it does expose the full dictionary to anyone with the key.
+**answer** I could store a secret on the cloudflare user is not anonymous 100% he is storing a temporary id in browser cache. We use his temporary ID for tracking. If he register, temporary id is his permanent. We just fill the gaps on registration.
 2. **Offline / repeat-loop playback.** The audio queue plays a page of rows repeatedly. With rows from the DB, a page change is a network round-trip. Acceptable, or should the next page be prefetched?
+**answer** we can prefetch next page while user listen current page to reduce lagging.
 3. **Search.** Today the dictionary-wide search loads one 2.19 MB payload and filters in memory. With the DB it becomes a query — but fuzzy matching across 9 languages needs either Postgres `pg_trgm`/full-text or a client-side index built from a smaller payload. Which?
+**answer** we use pg_trgm
 4. **Seed file granularity.** 9 files by target language (measured above), or 1 file per track? Per-language matches the import and the RLS shape.
+**answer** one file per language.
+
+### 19.1 Consequences of the answers
+
+**Anonymous reads → a device identity, not an anonymous role.** The reader gets a temporary id in browser storage on first visit; it is the tracking key. Registration *promotes* that id rather than creating a new one, so progress carries over and only the missing profile fields are filled in.
+
+This changes the RLS shape from "public read, authenticated write" to:
+
+| Table | `anon` | `authenticated` |
+|---|---|---|
+| `units`, `articles`, `topics` | SELECT | SELECT |
+| `learned_items`, `quiz_results`, `credit_ledger` | SELECT + INSERT/UPDATE **scoped to the device id** | same, scoped to `auth.uid()` |
+
+The device id must be a **claim the client cannot forge into another user's data**. Two options:
+
+- **`device_id` column + RLS predicate** — the client sends its id; the policy checks it matches the row. Simple, but the id is a bearer token: anyone who learns another device's id can read that device's progress.
+- **Anonymous sign-in** (`supabase.auth.signInAnonymously()`) — Supabase issues a real JWT with a real `auth.uid()`. Registration links the anonymous user to a permanent one (`updateUser({email})` or `linkIdentity()`), so the id is *already* permanent and no promotion logic is needed. RLS stays the standard `auth.uid() = user_id` shape.
+
+**Recommendation: anonymous sign-in.** It is exactly the "temporary id becomes permanent on registration" model, and it avoids inventing a bearer-token scheme. Verified against the Supabase docs (2026-10-23):
+
+| Fact | Consequence |
+|---|---|
+| Anonymous users assume the **`authenticated`** role, with an `is_anonymous` claim in the JWT | Policies must check `is_anonymous` to distinguish them from real accounts — `TO authenticated` alone does **not** mean "signed up" |
+| Free tier MAU quota is **50,000** | Every visitor becomes an MAU. Fine at launch; a concern only at scale |
+| Converting requires **manual linking enabled** in the dashboard | A project setting, not code |
+| Docs warn: *"user metadata being cached across unique anonymous users as a result of Next.js static page rendering"* | **This site is SSG.** Auth must stay strictly client-side — never read the session during prerender, never let a user-scoped value reach the HTML |
+
+That last row is the one to watch. The current architecture is already correct (auth lives in a Pinia store, populated in the browser), but Phase 6 must not introduce a server-side session read. The `is_anonymous` check also means the "restrictive policy" pattern from the docs is needed, since RLS policies are permissive-by-default and OR'd together.
+
+**Prefetch the next page.** The audio queue already knows the page boundary, so the next page's query fires when the current page's playback starts. No new infrastructure — one `prefetch` call keyed on `page + 1`.
+
+**`pg_trgm` for search.** Enables `CREATE EXTENSION pg_trgm` plus GIN indexes on the searchable columns. Note it is **trigram** matching, so it handles typos and partial words but not stemming — for 9 languages that is the right trade (no per-language dictionary to maintain). The index must be on the *normalized* text (`lower(unaccent(name))`) to match across diacritics, which matters for `ro`/`hu`/`ru`.
+
+**One seed file per language.** Confirms §14.2's thin layout: 1 shared `names.json` + 9 per-language files, 568 KB.
+
+# Revision 5 (2026-10-23) — manifest shape: locales as rows, files as paths
+
+## 20. What is wrong with `item.json` today (measured)
+
+1,641 manifests, **3,815 KB**. Each repeats six parallel locale maps:
+
+| Map | Bytes | Share |
+|---|---|---|
+| `audio` | 1,492 KB | 39% |
+| `description` | 344 KB | 9% |
+| `names` | 217 KB | 6% |
+| `pronunciation` | 192 KB | 5% |
+| `metadata` | 23 KB | 0.6% |
+| `read` | 5 KB | 0.1% |
+
+Three separate problems:
+
+1. **The `audio` map is mostly empty.** Of 14,796 descriptors, **11,602 (78%)** are `{file: null, key: null, mime: "audio/mpeg", bytes: null, sha1: null, status: "pending"}`. That is 1,492 KB of map, ~1,160 KB of it saying "nothing here yet".
+2. **Four of the six fields are derivable.** Verified against all 14,796 descriptors:
+   - `file` — always `sound/<loc>.mp3` or `read/<loc>.mp3`; the 11,602 nulls are exactly the pending ones.
+   - `mime` — `audio/mpeg` in 14,796 of 14,796.
+   - `key` — always `<item dir>/<file>`; **0 mismatches**. 347 published descriptors carry `key: null` while the file *is* on disk, so the field is already stale.
+   - `status` — exactly `sha1 != null`. 0 pending-with-sha1, 0 published-without-sha1.
+3. **Six maps must agree on the locale set.** Adding a language means editing six maps in 1,641 files. 2,569 `pronunciation` entries are literally `null` — the maps already disagree.
+
+## 21. The shape
+
+```json
+{
+  "code": "W001",
+  "track": "dictionary",
+  "chapter": "CH01",
+  "topic": "CH01T01",
+  "kind": "word",
+  "entity_id": "CH01T01:W001",
+  "cefr": "A1",
+  "tags": ["shared-article-variant", "vocabulary#override:vocabulary"],
+
+  "locales": {
+    "en": { "name": "hello", "description": "An informal greeting…", "ipa": "/həˈloʊ/" },
+    "ro": { "name": "salut", "description": "O formulă informală…", "ipa": "/saˈlut/" }
+  },
+
+  "files": {
+    "sound/en.mp3": { "bytes": 11232, "sha1": "918a4e31…" },
+    "sound/ro.mp3": { "bytes": 10656, "sha1": "16e4b9d6…" }
+  }
+}
+```
+
+Two maps, split by what they describe:
+
+- **`locales`** — one key per locale, each a complete row (`name`, `description`, `ipa`, `ttsText`, `example`, `context`). The locale key *is* the identity.
+- **`files`** — keyed by **path**, not locale. Holds only the two facts that cannot be derived: `bytes` and `sha1`. A file's presence *is* its published status.
+
+Measured on the real data: **3,815 KB → 1,626 KB (−57%)**.
+
+### 21.1 Why a map keyed by locale, not an array
+
+| Shape | Lookup | Duplicate locale possible | Import |
+|---|---|---|---|
+| `[{locale, name, …}]` | O(n) scan | yes | read the `locale` field |
+| `{en: {name, …}}` | O(1) | no | `Object.entries` → rows |
+
+The array's only advantage is ordering, and ordering is already owned by `src/data/navigation.json` (`LOCALES`). The map makes an invalid state unrepresentable.
+
+### 21.2 Why `files` is keyed by path, not locale
+
+Keying by locale (`files: {en: {…}}`) cannot express the `read/` folder without nesting, and an R2 object is identified by its path, not by its locale. Keying by path means:
+
+- the key is the R2 key suffix — sync compares `files` against the bucket directly, no reconstruction;
+- a new folder (`read/`, or anything later) needs no schema change;
+- two files for one locale (short + read) are naturally distinct.
+
+There are **2,847 distinct keys and 0 shared keys** today, so path-keying has no collision risk.
+
+### 21.3 What disappears
+
+| Field | Why |
+|---|---|
+| `file` | it *is* the `files` key |
+| `key` | `dir + path`; already stale in 347 places |
+| `mime` | from the extension |
+| `status` | present in `files` = published; absent = pending |
+| `pronunciation` | folded into `locales[loc].ipa` / `.ttsText` |
+| `metadata` | folded into `locales[loc].example` / `.context` |
+| `names` / `description` | folded into `locales[loc]` |
+
+`ttsText` currently lives in **two** places — a top-level map (29 items) and `pronunciation[loc].ttsText` (8 items), with 0 collisions. Both fold into one `locales[loc].ttsText`.
+
+Top-level `letter` (26 items) and `schema` (2 items) stay as they are.
+
+## 22. Migration
+
+### 22.1 The one-shot converter
+
+`scripts/media-migrate-shape.mjs`:
+
+- read every `item.json`;
+- build `locales` from `names` / `description` / `pronunciation` / `metadata` / `ttsText`;
+- build `files` from `audio` / `read` where `sha1 != null`;
+- write back;
+- `--dry-run` reports counts and the byte delta without writing.
+
+### 22.2 Readers to update (11)
+
+| Script | Reads |
+|---|---|
+| `media-index.mjs` | all six maps → `locales` + `files` |
+| `media-sync.mjs` | `audio` / `read` descriptors → `files` |
+| `media-scaffold-topic.mjs` | `names` |
+| `media-expand-shared-variants.mjs` | `names` |
+| `seed-titles.mjs` | writes `names` / `ttsText` |
+| `media-reid-manifests.mjs` | `names` |
+| `media-migrate-ids.mjs` | `status` / `key` |
+| `media-reorganize.py` | all six maps |
+| `generate-audio.py` | `names` / `ttsText` / `audio` |
+| `generate-ipa.py` | `pronunciation` / `ttsText` |
+| `media-rehome.mjs` | none — no field access |
+
+### 22.3 Order
+
+1. converter + `--dry-run` (report only).
+2. Update the readers to the new shape.
+3. Run the converter for real.
+4. `./run.sh media manifest` → must report **0 changes**.
+5. `./run.sh media index` → payloads must be **byte-identical** to golden.
+6. Build + `perf-baseline compare`.
+
+Steps 4 and 5 are the gate: if `manifest` wants to change anything, or the payloads differ, the converter lost information.
+
+## 23. What it unblocks
+
+The `locales` map is the import unit for §14.1's `units` table: one row per `(entity_id, locale)`. Adding a language is adding a key to `locales` — no schema change, no second map to keep in sync. That is the "load it into the database when we translate, or when we add a new one" requirement.
+
+`files` is the sync unit: it compares directly against the R2 bucket listing, so `media verify --remote` becomes a set difference rather than a reconstruction.
+
+## 24. Risk
+
+Same category as Phase 4 — a migration, not a rename. 1,641 files and 11 scripts. Mitigations:
+
+- the converter is one-shot and idempotent;
+- steps 4–5 prove losslessness before anything is committed;
+- `git` holds the old shape, so a revert is one command;
+- the payloads are the contract — if `media index` output is byte-identical, the site cannot tell the difference. 
