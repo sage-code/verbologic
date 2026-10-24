@@ -593,6 +593,7 @@ automatically (the menu link is crawled from every page's header).
 | `run heartbeat` | ping Supabase once (keeps the Free-tier project from pausing — see §7) |
 | `run missing` | missing-content inventory → `temp/missing-content.md`: empty topics, planned ids, planned sources, pins/docs gaps |
 | `run media …` | stage / manifest / verify / upload audio |
+| `run media index [--pretty]` | rebuild the runtime payloads; `--pretty` writes indented JSON for reading by hand (debug only — ~74% larger) |
 | `run lecture <new\|status\|translate\|review>` | lecture content tooling (content/lectures — see §3.4) |
 | `run clean` | remove build junk, keep `.nuxt` (fast next build) |
 | `run clean-deep` | remove build junk + `.nuxt` cache |
@@ -602,6 +603,32 @@ automatically (the menu link is crawled from every page's header).
 | `run release "<msg>"` | build → validate → media manifest → commit → push (push throttled: on throttle the release is committed locally and reports when to `run push`) |
 | `run deploy` | `wrangler deploy` (Workers Static Assets, differential; needs `CLOUDFLARE_API_TOKEN`) |
 | `run deploy-dry` | validate `wrangler.toml` without uploading |
+
+### Why the runtime payloads are not in git
+
+`public/data/media/**` (111 files, 5.7 MB) is **generated** by
+`scripts/media-index.mjs` from `src/data/sidebars`, the media manifests and the
+entity bridge. It is gitignored, for two reasons:
+
+1. **It is minified on purpose.** It is what the browser downloads, so
+   pretty-printing it would add ~4.2 MB (+74%) to every page load. Keeping it out
+   of git means the repo has no unreadable single-line files without paying that
+   cost.
+2. **It is derived.** `./run.sh build` runs `media-index.mjs` before the
+   fingerprint check, so a fresh clone regenerates it on the first build. Nothing
+   depends on it being committed.
+
+To read a payload by hand:
+
+```bash
+node scripts/media-index.mjs --pretty   # 2-space indent, for inspection
+node scripts/media-index.mjs            # back to minified (always do this after)
+```
+
+`--pretty` output must never be committed or deployed — it is a debug aid.
+
+**Source JSON is already readable** (2-space indent): `src/data/**`,
+`media/**/item.json`, `seed/**`. Those are the files worth reading in a diff.
 
 ### Why the build is differential
 `scripts/fingerprint.mjs` hashes `src/**`, `content/**` (the lecture/story

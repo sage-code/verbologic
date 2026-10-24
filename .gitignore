@@ -299,6 +299,15 @@ nul
 # The differential baseline lives in the item manifests — never re-introduce
 # an aggregate ledger here (see scripts/media-sync.mjs).
 /media/audio-manifest.json
+
+# --- Generated runtime payloads (never committed) ---
+# public/data/media/** is BUILT by scripts/media-index.mjs from src/data/sidebars,
+# the media manifests and the entity bridge. It is minified on purpose: it is what
+# the browser downloads, so pretty-printing it would add ~4 MB (+74%) to every
+# page load. Keeping it out of git means the repo has no unreadable single-line
+# files, and `./run.sh build` regenerates it before the fingerprint check.
+# Inspect it with: node scripts/media-index.mjs --pretty
+/public/data/media/
 # --- Phonetic articles are DATA, not Markdown ---
 # Letters and sounds render from src/data/alphabets/<lang>.json via
 # src/components/content/PhoneticArticle.vue — there is no .md for them and no

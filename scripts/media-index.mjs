@@ -64,6 +64,8 @@ const rel = (p) => p.slice(ROOT.length).replaceAll('\\', '/').replace(/^\//, '')
 const OUT_REL = rel(OUT)
 
 const dryRun = process.argv.includes('--dry-run')
+/** Debug aid: write indented JSON so a payload can be read by hand. */
+const pretty = process.argv.includes('--pretty')
 
 /* ── inputs ────────────────────────────────────────────────────────────── */
 
@@ -714,7 +716,11 @@ function emit(relPath, payload) {
   mkdirSync(join(path, '..'), { recursive: true })
   // Minified + no build timestamp: two builds of the same content are
   // byte-identical, so a no-op rebuild is a true no-op (§3 phase 1).
-  writeFileSync(path, JSON.stringify(payload) + '\n')
+  //
+  // `--pretty` writes 2-space-indented JSON instead, for reading a payload by
+  // hand. It is a DEBUG aid only — never commit or deploy pretty output, it is
+  // ~74% larger and this is what the browser downloads.
+  writeFileSync(path, (pretty ? JSON.stringify(payload, null, 2) : JSON.stringify(payload)) + '\n')
 }
 
 const byId = (a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)
