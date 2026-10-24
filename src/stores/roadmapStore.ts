@@ -192,10 +192,16 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     page.value = Math.min(Math.max(1, target), pageCount.value)
   }
 
-  /** True when a topic is visible for the active language — `sourceLang`
-   *  (phonetic ownership) and `langs` (explicit allow-list) both scope it. */
+  /**
+   * True when a topic is visible for the active language.
+   *
+   * A `directional` topic is about ONE language, so it is visible only when the
+   * active language matches its `target` — the German alphabet never shows up
+   * while learning Romanian. A `reversible` topic (the default) is visible in
+   * every language.
+   */
   const topicVisible = (t: SidebarTopic): boolean =>
-    (!t.sourceLang || t.sourceLang === lang.value) && (!t.langs || t.langs.includes(lang.value))
+    t.mode !== 'directional' || !t.target || t.target === lang.value
 
   /**
    * Every chapter of the track with its topics scoped to the active language.
@@ -229,7 +235,7 @@ export const useRoadmapStore = defineStore('roadmap', () => {
   const topicLayout = computed<TopicLayout>(() => topic.value?.layout ?? 'table')
 
   /** All topics flattened with their chapter code — the search-index unit.
-   *  Language-exclusive topics (`langs`/`sourceLang`) are already dropped by
+   *  Language-exclusive topics (`mode: 'directional'`) are already dropped by
    *  `visibleChapters`, so the topic list, chapter TOC, topic search and the
    *  next/prev walk all see one consistent set. */
   const allTopics = computed<TopicRow[]>(() =>

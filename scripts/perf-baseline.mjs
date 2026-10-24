@@ -87,7 +87,7 @@ function routeMetrics() {
     for (const topic of section.topics ?? [])
       scopes.set(
         topic.code,
-        topic.sourceLang ? [topic.sourceLang] : Array.isArray(topic.langs) && topic.langs.length ? topic.langs : allLangs
+        topic.mode === 'directional' && topic.target ? [topic.target] : allLangs
       )
   const byTrack = { dictionary: 0, lectures: 0, stories: 0, legacyStories: 0 }
   const docsByTrack = { dictionary: 0, lectures: 0, stories: 0, legacyStories: 0 }
@@ -115,8 +115,8 @@ function routeMetrics() {
   if (existsSync(alphabets)) {
     for (const section of sidebar.sections ?? []) {
       for (const topic of section.topics ?? []) {
-        if (topic.phonetic !== true || !topic.sourceLang) continue
-        const file = join(alphabets, `${topic.sourceLang}.json`)
+        if (topic.phonetic !== true || topic.mode !== 'directional' || !topic.target) continue
+        const file = join(alphabets, `${topic.target}.json`)
         if (!existsSync(file)) continue
         const data = readJson(file)
         const codes = new Set(

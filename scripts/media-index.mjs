@@ -308,16 +308,16 @@ for (const sidebar of sidebars) {
   for (const section of sidebar.sections) {
     for (const topic of section.topics) {
       const records = []
-      // Phonetic topic ownership (`sourceLang`) or an explicit allow-list
-      // (`langs`): its items belong to those languages only. Records of any
-      // other language are dropped here, so the runtime counts, ids and search
-      // index never offer it to a language it does not exist for. Absent both
-      // = every language (the reversible default).
-      const scope = topic.sourceLang
-        ? new Set([topic.sourceLang])
-        : Array.isArray(topic.langs) && topic.langs.length
-          ? new Set(topic.langs)
-          : null
+      // Direction (Phase 7): a `directional` topic is about ONE language, so its
+      // items belong to that language only. Records of any other language are
+      // dropped here, so the runtime counts, ids and search index never offer it
+      // to a language it does not exist for. A `reversible` topic (the default)
+      // is available in every language.
+      //
+      // This replaces the old `sourceLang` / `langs` pair: both meant "about one
+      // language", which is exactly what `mode: 'directional'` + `target` says.
+      const scope =
+        topic.mode === 'directional' && topic.target ? new Set([topic.target]) : null
       for (const id of topic.items) {
         const manifests = manifestsByTopicId.get(`${topic.code}\n${id}`)
         if (manifests?.length) {
@@ -645,18 +645,20 @@ for (const group of contentGroups.values()) {
  */
 
 const ALPHABETS = join(ROOT, 'src', 'data', 'alphabets')
-/** topic code → { sourceLang, entries: Map<code, entry> } */
+/** topic code → { target, entries: Map<code, entry> } */
 const phoneticTopics = new Map()
 for (const sidebar of sidebars) {
   for (const section of sidebar.sections) {
     for (const topic of section.topics) {
-      if (topic.phonetic !== true || !topic.sourceLang) continue
-      const file = join(ALPHABETS, `${topic.sourceLang}.json`)
+      // A phonetic topic is directional by definition: the alphabet of German is
+      // about German. `target` is the language whose sounds it teaches.
+      if (topic.phonetic !== true || topic.mode !== 'directional' || !topic.target) continue
+      const file = join(ALPHABETS, `${topic.target}.json`)
       if (!existsSync(file)) continue
       const data = readJson(file)
       const entries = new Map()
       for (const entry of [...(data.letters ?? []), ...(data.groups ?? [])]) entries.set(entry.code, entry)
-      phoneticTopics.set(topic.code, { sourceLang: topic.sourceLang, entries })
+      phoneticTopics.set(topic.code, { target: topic.target, entries })
     }
   }
 }

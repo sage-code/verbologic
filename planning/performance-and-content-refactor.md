@@ -695,6 +695,40 @@ This is already how `wrangler.toml` works — the change is that `public/data` s
 | **7** | Direction semantics (`reversible` / `directional`) | Unchanged from rev. 3 |
 | **8** | Cleanup: `entities/` bridge, legacy scripts | Unchanged |
 
+### 18.4 Phase 7 — done (2026-10-24)
+
+The five overlapping direction mechanisms (`langs`, `sourceLang`, `phonetic`
+ownership, `EN_CANONICAL`, `broadcast`) collapse into one:
+
+```json
+{ "mode": "directional", "target": "ro", "phonetic": true }
+```
+
+`mode` is omitted for `reversible` (the default), so existing sidebars needed no
+change. `phonetic` is kept — it is a rendering fact (second column = IPA), not a
+direction.
+
+**Migration:** `scripts/migrate-topic-mode.mjs` (idempotent, `--dry-run`).
+`sourceLang: 'ro'` → `mode: 'directional', target: 'ro'`. 11 topics in 1 file;
+`langs` was unused, so nothing else moved.
+
+**Consumers updated:** `media-index.mjs` (record scoping + phonetic ownership),
+`roadmapStore.topicVisible`, `usePhonetic.phoneticTopic`, the article page,
+`validate-data.mjs` (now *rejects* `sourceLang`/`langs` and requires `target` on
+a directional topic), `generate-audio.py`, `perf-baseline.mjs`.
+
+**Deleted:** `migrate-phonetic-topics.mjs` and `migrate-alphabet-data.mjs` — both
+one-shot migrations already applied, which would now write the retired schema.
+
+**Verified the payload is byte-identical.** Regenerating `index.json` from the
+pre-Phase-7 commit and from the migrated sidebars produced the same 188,600
+bytes — the schema changed, the output did not. That is the strongest available
+check that the refactor is semantics-preserving.
+
+**Verified in a browser:** Romanian lectures list `LT01T01`/`T02` (its own
+alphabet) and hide the German ones; German lists `LT01T09` and hides the
+Romanian ones; a phonetic article still renders with its IPA column.
+
 ### 18.1 Phase 5 — done (2026-10-24)
 
 Shipped and verified against the live project:

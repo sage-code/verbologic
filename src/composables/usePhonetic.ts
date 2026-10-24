@@ -49,16 +49,17 @@ export function phoneticEntry(lang: string, code: string): PhoneticEntry | null 
 /**
  * The phonetic topic a code belongs to, or null when the code is not a
  * phonetic topic. Phonetic topics live in the Lectures track and declare
- * `phonetic: true` + `sourceLang` (the one language whose sounds they teach).
+ * `phonetic: true` on a `directional` topic — `target` is the one language
+ * whose sounds they teach.
  */
-export function phoneticTopic(topicCode: string): { code: string; sourceLang: string } | null {
+export function phoneticTopic(topicCode: string): { code: string; target: string } | null {
   const { all } = useSidebars()
   for (const sidebar of all()) {
     for (const section of sidebar.sections) {
       for (const topic of section.topics) {
         if (topic.code !== topicCode) continue
-        if (topic.phonetic !== true || !topic.sourceLang) return null
-        return { code: topic.code, sourceLang: topic.sourceLang }
+        if (topic.phonetic !== true || topic.mode !== 'directional' || !topic.target) return null
+        return { code: topic.code, target: topic.target }
       }
     }
   }

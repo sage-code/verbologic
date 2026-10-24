@@ -44,16 +44,16 @@ if (!(TRACK_IDS as readonly string[]).includes(track.value)) {
  * entry here means the page never queries Nuxt Content for them — which is
  * what let 3 267 generated `.md` files be deleted.
  *
- * Ownership matters: a phonetic topic belongs to ONE language (`sourceLang`),
- * and every language's alphabet file uses the same item codes. Looking the
- * entry up by the route's language alone would render the German letter for a
- * Romanian URL, so the topic's owner must match the route.
+ * Ownership matters: a phonetic topic is `directional` — it belongs to ONE
+ * language (`target`), and every language's alphabet file uses the same item
+ * codes. Looking the entry up by the route's language alone would render the
+ * German letter for a Romanian URL, so the topic's target must match the route.
  */
 const phonetic = computed<PhoneticEntry | null>(() => {
   if (track.value !== 'lectures') return null
   const topic = phoneticTopic(topicCode.value)
-  if (!topic || topic.sourceLang !== trackLang.value) return null
-  return phoneticEntry(topic.sourceLang, articleId.value)
+  if (!topic || topic.target !== trackLang.value) return null
+  return phoneticEntry(topic.target, articleId.value)
 })
 
 /**

@@ -38,42 +38,44 @@ export interface SidebarTopic {
   /** Topic-scoped media/content codes (or legacy ids for unresolved planned items), in display order. */
   items: string[]
   /**
-   * Languages this topic exists for. Absent = every language (the reversible
-   * default). Present = the topic is language-exclusive: it is dropped from
-   * the chapter's topic list (`visibleChapters` in the roadmap store), so the
-   * rail, the chapters TOC, topic search, the next/prev walk and the prerender
-   * route list all agree, and a deep link to it in another language does not
-   * resolve.
+   * Direction of the content — the ONE mechanism that replaces the five
+   * overlapping ones this used to take (`langs`, `sourceLang`, `phonetic`
+   * ownership, `EN_CANONICAL`, `broadcast`).
    *
-   * Use this for content that is genuinely about ONE language and has no
-   * counterpart in the others. Do NOT use it for a topic whose translations
-   * are merely not written yet: that is a planned topic, and it stays
-   * visible-but-disabled (the structure-first policy) until its content lands.
+   *   reversible  (default) — `term` is a set of equivalents: any language can
+   *               be learned and any can be the gloss. The dictionary.
+   *   directional — the content exists *about* one language; it cannot be
+   *               flipped. The alphabet of German is about German.
    *
-   * For phonetic topics prefer `sourceLang`: it states the ownership fact the
-   * audio pipeline needs, and implies the same visibility rule.
+   * A `directional` topic must declare `target`. It is shown only when the
+   * active language matches, so a language's alphabet appears once, under a
+   * generic title, and audio is synthesised in that language only.
    */
-  langs?: string[]
+  mode?: TopicMode
   /**
-   * Phonetic topic ownership — the ONE target language whose sounds this topic
-   * teaches (the German alphabet is owned by `de`). The topic is shown only
-   * when the active language matches, so a language's alphabet appears once,
-   * under a generic title, and audio is synthesised in that language only.
-   *
-   * Distinct from `langs`: `langs` is a visibility allow-list, `sourceLang` is
-   * a content-ownership fact. A phonetic topic should use `sourceLang`.
+   * The language a `directional` topic is about. Required when
+   * `mode: 'directional'`; ignored (and rejected by the validator) otherwise.
    */
-  sourceLang?: string
+  target?: string
   /**
-   * Phonetic topic — the rows teach SOUNDS, not meanings (alphabets, letter
-   * groups, phonics clusters). The table then shows the IPA transcription in
-   * place of the native-language translation column: a gloss like "măr" for
-   * the letter A is noise, while `/a/` is the thing being taught.
+   * The rows teach SOUNDS, not meanings (alphabets, letter groups, phonics
+   * clusters). The table shows the IPA transcription in place of the
+   * native-language translation column: a gloss like "măr" for the letter A is
+   * noise, while `/a/` is the thing being taught.
    *
-   * Absent/false = the normal two-language table (term · native gloss).
+   * Only meaningful on a `directional` topic — a reversible topic's second
+   * column is always the native gloss.
    */
   phonetic?: boolean
 }
+
+/**
+ * Direction of a topic's content.
+ *
+ * `reversible` is the default so existing sidebars need no change: a topic with
+ * no `mode` behaves exactly as before.
+ */
+export type TopicMode = 'reversible' | 'directional'
 
 export interface SidebarSection {
   /** Chapter/section code, e.g. 'C1'. */

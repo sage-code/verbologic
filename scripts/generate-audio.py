@@ -526,21 +526,23 @@ def sidebar_paths(track_filter: str | None) -> list[Path]:
 
 
 def phonetic_source_langs(paths: list[Path]) -> dict[str, str]:
-    """Topic code → the ONE language that owns its content (`sourceLang`).
+    """Topic code → the ONE language that owns its content (`mode: directional`).
 
-    A phonetic topic teaches the sounds of a single target language: the German
-    alphabet is not a translation of the Romanian one. Synthesising the other
-    eight voices produces audio that media-index then discards, so the audio
-    pass must generate exactly one voice per such topic.
+    A directional topic is about a single target language: the German alphabet is
+    not a translation of the Romanian one. Synthesising the other eight voices
+    produces audio that media-index then discards, so the audio pass must
+    generate exactly one voice per such topic.
     """
     owners: dict[str, str] = {}
     for path in paths:
         sidebar = json.loads(path.read_text(encoding="utf-8"))
         for section in sidebar.get("sections", []):
             for topic in section.get("topics", []):
-                source = topic.get("sourceLang")
-                if isinstance(source, str) and source:
-                    owners[str(topic.get("code"))] = source
+                if topic.get("mode") != "directional":
+                    continue
+                target = topic.get("target")
+                if isinstance(target, str) and target:
+                    owners[str(topic.get("code"))] = target
     return owners
 
 

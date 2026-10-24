@@ -263,33 +263,42 @@ try {
             }
           }
         }
-        if (topic.langs !== undefined) {
-          if (!Array.isArray(topic.langs) || topic.langs.length === 0) {
-            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: 'langs' must be a non-empty array (omit it for every language)`)
-          } else {
-            for (const code of topic.langs) {
-              if (!localeCodesAll.includes(code)) {
-                ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: 'langs' has unknown locale '${code}'`)
-              }
-            }
-            if (new Set(topic.langs).size !== topic.langs.length) {
-              ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: 'langs' has duplicate entries`)
-            }
-          }
+        // Direction (Phase 7): `mode` is the ONE mechanism. `reversible` is the
+        // default (omit it); `directional` means the content is about one
+        // language and must name it in `target`.
+        if (topic.mode !== undefined && topic.mode !== 'reversible' && topic.mode !== 'directional') {
+          ERRORS.push(
+            `sidebar ${sidebar.id} · ${topic.code}: 'mode' must be 'reversible' or 'directional'`
+          )
         }
-        // Phonetic ownership (`sourceLang`): the ONE language whose sounds the
-        // topic teaches. Implies the same visibility rule as `langs`, and tells
-        // the audio pipeline to synthesise a single voice.
+        if (topic.mode === 'directional') {
+          if (typeof topic.target !== 'string' || !localeCodesAll.includes(topic.target)) {
+            ERRORS.push(
+              `sidebar ${sidebar.id} · ${topic.code}: a directional topic needs 'target' set to a registered locale`
+            )
+          }
+        } else if (topic.target !== undefined) {
+          ERRORS.push(
+            `sidebar ${sidebar.id} · ${topic.code}: 'target' is only valid with mode: 'directional'`
+          )
+        }
+        // The superseded mechanisms must not creep back in.
         if (topic.sourceLang !== undefined) {
-          if (typeof topic.sourceLang !== 'string' || !localeCodesAll.includes(topic.sourceLang)) {
-            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: 'sourceLang' must be a registered locale`)
-          }
-          if (topic.langs !== undefined) {
-            ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: use 'sourceLang' OR 'langs', not both`)
-          }
-          if (topic.phonetic !== true) {
-            WARNINGS.push(`sidebar ${sidebar.id} · ${topic.code}: 'sourceLang' on a non-phonetic topic`)
-          }
+          ERRORS.push(
+            `sidebar ${sidebar.id} · ${topic.code}: 'sourceLang' is retired — use mode: 'directional' + target`
+          )
+        }
+        if (topic.langs !== undefined) {
+          ERRORS.push(
+            `sidebar ${sidebar.id} · ${topic.code}: 'langs' is retired — use mode: 'directional' + target`
+          )
+        }
+        // `phonetic` is a rendering fact (second column = IPA), not a direction,
+        // so it is only meaningful on a directional topic.
+        if (topic.phonetic === true && topic.mode !== 'directional') {
+          WARNINGS.push(
+            `sidebar ${sidebar.id} · ${topic.code}: 'phonetic' on a reversible topic — the IPA column replaces the gloss, which only makes sense for directional content`
+          )
         }
         for (const id of topic.items ?? []) {
           itemCount++
