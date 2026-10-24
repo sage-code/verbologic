@@ -6,22 +6,23 @@
  *
  * ## The database seam (Phase 6)
  *
- * From Phase 6 the dictionary content comes from Supabase, queried one page at
- * a time. These three functions are the ONLY place the client reads content, so
- * they are the seam: `fetchTopic`/`fetchSearch` will query the `units` table and
- * fall back to the bundled payloads when the database is unreachable.
+ * Content comes from Supabase's `units` table when it is reachable, and from the
+ * bundled payloads when it is not. These three functions are the ONLY place the
+ * client reads content, so the branch lives here and nowhere else:
  *
- * Today they read the bundled payloads unconditionally, which is exactly the
- * fallback path — so the offline behaviour is already correct and Phase 6 only
- * adds the online branch. `useDbStatus()` is the flag that decides which branch
- * runs; it is not consulted here yet because there is only one branch.
+ *   online   → useContentDb() queries the table (a page of rows, ~1.4 KB)
+ *   offline  → the bundled payloads (the English fallback the site ships)
+ *
+ * The bundled payloads are therefore load-bearing, not dead weight: they are the
+ * offline mode. That is why they are not deleted.
  */
-import type { MediaRecords, MediaSearchIndex } from '~/types/media'
+import type { MediaRecords, MediaRow, MediaSearchIndex } from '~/types/media'
 import type { MediaIndex } from '~/types/sidebars'
 import { localizeMediaRecords, localizeMediaSearch } from '~/lib/localMedia'
 
 const indexCache = new Map<string, Promise<MediaIndex>>()
 const topicCache = new Map<string, Promise<MediaRecords>>()
+/** The bundled search payload only — the DB search is not cached (see fetchSearch). */
 const searchCache = new Map<string, Promise<MediaSearchIndex>>()
 
 function cached<K, V>(cache: Map<K, Promise<V>>, key: K, load: () => Promise<V>): Promise<V> {
@@ -35,33 +36,58 @@ function cached<K, V>(cache: Map<K, Promise<V>>, key: K, load: () => Promise<V>)
   return pending
 }
 
+/** `library/dictionary` → `dictionary` (the `units.track` value). */
+function trackOf(section: string): string {
+  return section.includes('/') ? section.split('/').pop()! : section
+}
+
 export function useMedia() {
+  const db = useContentDb()
+
   /** One-fetch runtime index: counts[section][topic][lang] + progress {entity_id: topic}. */
   const fetchIndex = () =>
     cached(indexCache, 'index', () => $fetch<MediaIndex>('/data/media/index.json'))
 
   /**
-   * Records for one sidebar section + topic.
+   * Records for one sidebar section + topic, in one language.
    *
-   * The bundled payload is the offline fallback: it carries every language, so
-   * the English content is always available even when the database is down.
+   * Online: the `units` page query. Offline (or on any query failure): the
+   * bundled payload, filtered to the requested language — which is exactly the
+   * English fallback when the database is down.
    */
-  const fetchTopic = (section: string, topic: string) =>
-    cached(topicCache, `${section}:${topic}`, () =>
-      $fetch<MediaRecords>(`/data/media/${section}/${topic}.json`).then(localizeMediaRecords)
-    )
+  const fetchTopic = (section: string, topic: string, locale?: string) =>
+    cached(topicCache, `${section}:${topic}:${locale ?? '*'}`, async () => {
+      if (locale) {
+        const rows = await db.fetchTopicPage(trackOf(section), topic, locale)
+        if (rows) return rows as MediaRecords
+      }
+      const bundled = await $fetch<MediaRecords>(`/data/media/${section}/${topic}.json`).then(
+        localizeMediaRecords
+      )
+      return locale ? bundled.filter((r) => r.lang === locale) : bundled
+    })
 
   /**
-   * Dictionary-wide search payload for one sidebar section (lazy, one fetch):
-   * every record in one file — the translation search loads it on demand.
+   * Dictionary-wide search for one section + language.
    *
-   * This is the 2.19 MB payload Phase 6 replaces with a `pg_trgm` query. It
-   * stays as the offline fallback, which is why the file is not deleted yet.
+   * Online: a `pg_trgm` query against `units.search_text` (folded, so it matches
+   * across diacritics and translations). Offline: the bundled search payload —
+   * the 2.1 MB file that Phase 6 exists to stop shipping on the happy path.
+   *
+   * NOT cached: the query changes on every keystroke, so a cache keyed by query
+   * would grow without bound, and caching a fallback result would pin the
+   * offline answer for that query even after the database came back.
    */
-  const fetchSearch = (section: string) =>
-    cached(searchCache, section, () =>
+  const fetchSearch = async (section: string, locale?: string, query?: string): Promise<MediaRow[]> => {
+    if (locale && query && query.trim()) {
+      const rows = await db.search(trackOf(section), locale, query)
+      if (rows) return rows
+    }
+    const bundled = await cached(searchCache, section, () =>
       $fetch<MediaSearchIndex>(`/data/media/${section}/search.json`).then(localizeMediaSearch)
     )
+    return locale ? bundled.records.filter((r) => r.lang === locale) : bundled.records
+  }
 
   return { fetchIndex, fetchTopic, fetchSearch }
 }

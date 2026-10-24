@@ -739,6 +739,47 @@ reading it:
 Phase 6 is next: point the client at these tables and delete the bundled
 payloads.
 
+### 18.3 Phase 6 — done (2026-10-24)
+
+The client now reads content from Supabase, with the bundled payloads as the
+offline fallback.
+
+| Path | Online | Offline |
+|---|---|---|
+| Topic rows | `units` page query (~1.4 KB) | bundled topic payload, filtered to the language |
+| Search | `pg_trgm` on `units.search_text` | bundled `search.json` |
+| Topic counts | one `units` query per track | bundled `index.json` |
+
+`src/composables/useContentDb.ts` holds the queries; `useMedia` is the single
+branch point, so the fallback lives in one place.
+
+**Search needed a schema change.** The first cut queried `ilike` on `term` and
+returned 2 results where the bundled search returned 4. The bundled search does
+two things a plain `ilike` does not: it **folds diacritics** (`mult` must find
+`mulțumesc`) and it searches **every translation**, not just the term. Migration
+`20261024030000` adds `units.search_text` — the folded term plus every folded
+translation, trigger-maintained, GIN-indexed — and the client queries that.
+`EXPLAIN` confirms `Bitmap Index Scan on units_search_trgm_idx`.
+
+**Two client bugs found by testing, not by reading:**
+1. `searchIndexReady` latched after the first query, so every later search
+   returned the first query's results. Search is now query-driven with a
+   sequence guard so a slow earlier response cannot overwrite a newer one.
+2. The search cache was keyed by query, which both grew without bound and pinned
+   an offline fallback result for that query even after the database returned.
+   The DB search is no longer cached; only the bundled payload is.
+
+**The database is more complete than the old payloads.** `units` holds 1,101
+Romanian dictionary rows against `search.json`'s 848 — the old pipeline silently
+dropped 253 legacy entity rows (`imperative_*`, `question_*`, `sentence_*`).
+Searching "mult" now returns 8 rows where it used to return 4, and all 8 are
+real content. That is a fix, not a regression.
+
+**Measured:** a topic page is one ~1.4 KB query instead of a 24 KB payload; search
+is one indexed query instead of a 2.1 MB download. The bundled payloads stay
+(377 KB English-only would be the floor if they were trimmed) because they are
+the offline mode.
+
 ### 18.2 Offline mode — done (2026-10-24)
 
 Because Phase 6 makes the dictionary depend on Supabase, an unreachable project

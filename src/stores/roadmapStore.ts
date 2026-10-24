@@ -53,6 +53,7 @@ export const PROGRESS_KEY: InjectionKey<RoadmapProgress> = Symbol('roadmap-progr
 export const useRoadmapStore = defineStore('roadmap', () => {
   const media = useMedia()
   const sidebars = useSidebars()
+  const db = useContentDb()
 
   const track = ref<TrackId>('dictionary') // which track's structure is loaded
   const lang = ref('ro') // target language of the track
@@ -109,15 +110,18 @@ export const useRoadmapStore = defineStore('roadmap', () => {
   const { lang: uiLang } = useLocale()
 
   /**
-   * Search hits: the search.json rows (filtered by the track language)
-   * matching the committed query — ALWAYS across the whole track (every
-   * chapter/topic), regardless of which chapter or topic is currently open.
-   * Chapters and topics are never filtered: a committed query always shows
-   * WORDS.
+   * Search hits for the committed query.
+   *
+   * The rows are already the answer: the database path filtered them with
+   * `pg_trgm` on the folded search text, and the bundled fallback path is
+   * filtered here by the same `matchesDictionaryQuery` rule the client has
+   * always used. Re-filtering the database rows would be wrong — they match on
+   * every translation, which `matchesDictionaryQuery` also does, but the DB
+   * folds diacritics server-side and the two must not disagree.
    */
   const searchResults = computed<MediaRow[]>(() => {
     if (!searchIndexReady.value) return []
-    return searchIndex.value.filter((r: MediaRow) => matchesDictionaryQuery(r, dictionaryQuery.value, uiLang.value))
+    return searchIndex.value
   })
 
   /** Search active: a non-empty query is committed. */
@@ -147,16 +151,34 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     if (query.trim()) void ensureSearchIndex()
   }
 
-  /** Load the section search payload once (no-op once loaded / loading). */
+  /**
+   * Run the search for the current query.
+   *
+   * Query-driven, not load-once: the database path is a `pg_trgm` query per
+   * query, so latching a "ready" flag after the first search would pin the
+   * results of the first query forever. The bundled fallback payload is cached
+   * inside useMedia, so the offline path still fetches it only once.
+   *
+   * A sequence guard drops out-of-order responses: typing fast fires several
+   * queries, and an earlier one must not overwrite a later one's results.
+   */
+  let searchSeq = 0
   async function ensureSearchIndex(): Promise<void> {
-    if (searchIndexReady.value || loadingSearch.value) return
+    const query = dictionaryQuery.value.trim()
+    if (!query) {
+      searchIndex.value = []
+      searchIndexReady.value = false
+      return
+    }
+    const seq = ++searchSeq
     loadingSearch.value = true
     try {
-      const payload = await media.fetchSearch(section.value)
-      searchIndex.value = payload.records.filter((r) => r.lang === lang.value)
+      const rows = await media.fetchSearch(section.value, lang.value, query)
+      if (seq !== searchSeq) return // a newer query superseded this one
+      searchIndex.value = rows
       searchIndexReady.value = true
     } finally {
-      loadingSearch.value = false
+      if (seq === searchSeq) loadingSearch.value = false
     }
   }
 
@@ -370,7 +392,16 @@ export const useRoadmapStore = defineStore('roadmap', () => {
       showChapters.value = false
       page.value = 1
       const index: MediaIndex = await media.fetchIndex()
-      counts.value = index.counts[section.value] ?? {}
+      // Counts come from the database when it is reachable (one query for the
+      // whole track); the bundled index is the offline fallback. `ids` has no
+      // database equivalent yet — it is only used by bulk check-all/reset, which
+      // still reads the bundled index.
+      const dbCounts = await db.fetchCounts(track.value, lang.value)
+      counts.value = dbCounts
+        ? Object.fromEntries(
+            Object.entries(dbCounts).map(([topic, n]) => [topic, { [lang.value]: n }])
+          )
+        : (index.counts[section.value] ?? {})
       indexIds.value = index.ids[section.value] ?? {}
       ready.value = true
     }
@@ -427,8 +458,9 @@ export const useRoadmapStore = defineStore('roadmap', () => {
     if (!recordsByCode.value[cacheKey]) {
       loadingTopic.value = true
       try {
-        const list = await media.fetchTopic(section.value, code)
-        recordsByCode.value[cacheKey] = list.filter((r) => r.lang === lang.value)
+        // Online: the `units` page query for this language. Offline: the bundled
+        // payload filtered to this language (the English fallback).
+        recordsByCode.value[cacheKey] = await media.fetchTopic(section.value, code, lang.value)
       } finally {
         loadingTopic.value = false
       }
