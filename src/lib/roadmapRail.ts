@@ -10,6 +10,16 @@
  * keeps the browser scroll between the frozen header and footer.
  */
 
-/** Sticky offset of the table heads — just under the frozen header
- *  (the header wraps to 2 rows below md). */
-export const THEAD_STICKY_TOP = 'top-[7rem] md:top-14'
+/**
+ * Sticky offset of the table heads — directly under the frozen app header and,
+ * where the pane has one, under the sticky toolbar above the table.
+ *
+ * Both heights are published as CSS variables at runtime (AppHeader.vue
+ * measures the header into --app-header-h, TopicTable.vue measures its toolbar
+ * into --dict-toolbar-h) because neither is a fixed number: the header follows
+ * the fluid wordmark, and the toolbar wraps to two rows on narrow screens. A
+ * hard-coded offset left a strip between the header and the head for rows to
+ * scroll through. Panes without a toolbar inherit the 0px fallback and pin
+ * straight under the header.
+ */
+export const THEAD_STICKY_TOP = 'top-[calc(var(--app-header-h)+var(--dict-toolbar-h,0px))]'

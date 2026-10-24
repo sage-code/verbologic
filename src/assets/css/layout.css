@@ -28,6 +28,10 @@
   --gutter-y: 16px;
   /* Frame aspect ratio (width / height) on large landscape screens. */
   --frame-ratio: 3 / 4;
+  /* Frozen header height — measured at runtime by AppHeader.vue. This value
+   * is the pre-hydration fallback (one header row); sticky table heads and the
+   * dictionary toolbar pin below it. */
+  --app-header-h: 3.5rem;
 }
 
 /* Outside the frame — only visible as the unused landscape margins. */
@@ -66,16 +70,12 @@
   padding-inline: var(--gutter-x);
 }
 
-/* Sticky header/footer must not hide the target of scrollIntoView / anchors. */
+/* Sticky header/footer must not hide the target of scrollIntoView / anchors.
+ * The top offset is the frozen header plus, on the dictionary pane, its sticky
+ * toolbar — both measured at runtime (see --app-header-h / --dict-toolbar-h). */
 html {
-  scroll-padding-top: 7.5rem; /* header wraps to 2 rows below md */
+  scroll-padding-top: calc(var(--app-header-h) + var(--dict-toolbar-h, 0px) + 0.5rem);
   scroll-padding-bottom: 3.5rem;
-}
-
-@media (min-width: 768px) {
-  html {
-    scroll-padding-top: 4rem;
-  }
 }
 
 /* --- Tablet portrait ------------------------------------------------ */

@@ -188,12 +188,50 @@ watch(
   () => [store.searchActive, store.topicCode] as const,
   () => queue.stop()
 )
+
+// The toolbar is sticky under the frozen app header, and the table head pins
+// below IT (THEAD_STICKY_TOP). Its height is not a constant — the row wraps to
+// two lines on narrow screens — so publish the measured height as
+// --dict-toolbar-h for the head's offset. Cleared on unmount so the panes
+// without a toolbar (chapters TOC, topic list) pin straight under the header.
+const toolbarRef = ref<HTMLElement | null>(null)
+let toolbarObserver: ResizeObserver | null = null
+let publishedToolbarH = ''
+
+onMounted(() => {
+  const el = toolbarRef.value
+  if (!el) return
+  const publish = () => {
+    publishedToolbarH = `${el.offsetHeight}px`
+    document.documentElement.style.setProperty('--dict-toolbar-h', publishedToolbarH)
+  }
+  publish()
+  toolbarObserver = new ResizeObserver(publish)
+  toolbarObserver.observe(el)
+})
+
+onBeforeUnmount(() => {
+  toolbarObserver?.disconnect()
+  // Only clear our own value — a successor pane may already have published.
+  const root = document.documentElement
+  if (root.style.getPropertyValue('--dict-toolbar-h') === publishedToolbarH) {
+    root.style.removeProperty('--dict-toolbar-h')
+  }
+})
 </script>
 <template>
   <div class="space-y-1.5">
     <!-- The frame title + word search bar live in RoadmapShell (always
-         visible); this pane starts at the table toolbar. -->
-    <DictionaryToolbar :queue="queue" :items="queueItems" :on-cycle="onCycle" :on-item-ended="onItemEnded" />
+         visible); this pane starts at the table toolbar. The toolbar is
+         STICKY: navigation outranks the table head, which pins below it.
+         The bottom padding + matching negative margin cover the gap to the
+         table, so rows never scroll through a sliver above the head. -->
+    <div
+      ref="toolbarRef"
+      class="sticky top-[var(--app-header-h)] z-20 -mb-1.5 bg-body pb-1.5"
+    >
+      <DictionaryToolbar :queue="queue" :items="queueItems" :on-cycle="onCycle" :on-item-ended="onItemEnded" />
+    </div>
 
     <div
       v-if="store.loadingTopic || store.loadingSearch"
@@ -297,7 +335,7 @@ watch(
             v-for="r in rows"
             :id="`dict-row-${r.entity_id}`"
             :key="r.entity_id"
-            class="scroll-mt-24 border-t border-edge transition-colors"
+            class="scroll-mt-[calc(var(--app-header-h)+var(--dict-toolbar-h,0px)+0.5rem)] border-t border-edge transition-colors"
             :class="[activeId === r.entity_id ? 'bg-accent-soft' : 'hover:bg-soft', isDictionary ? '' : 'expr-row']"
             @click="stopAutoplay"
           >

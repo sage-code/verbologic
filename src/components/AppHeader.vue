@@ -23,10 +23,29 @@ const sidebarToggleLabel = computed(() => {
     ? (t('roadmap.close_topics') ?? 'Close topics')
     : (t('roadmap.open_topics') ?? 'Open topics')
 })
+
+// Publish the frozen header's height as --app-header-h: everything that pins
+// below it (the dictionary toolbar, every sticky table head) offsets by this
+// value. It is not a constant — the wordmark is fluid and the row's padding
+// changes on short landscape screens — so measure it instead of guessing.
+const headerRef = ref<HTMLElement | null>(null)
+let headerObserver: ResizeObserver | null = null
+
+onMounted(() => {
+  const el = headerRef.value
+  if (!el) return
+  const publish = () =>
+    document.documentElement.style.setProperty('--app-header-h', `${el.offsetHeight}px`)
+  publish()
+  headerObserver = new ResizeObserver(publish)
+  headerObserver.observe(el)
+})
+
+onBeforeUnmount(() => headerObserver?.disconnect())
 </script>
 
 <template>
-  <header class="sticky top-0 z-40 border-b border-edge bg-chrome backdrop-blur">
+  <header ref="headerRef" class="sticky top-0 z-40 border-b border-edge bg-chrome backdrop-blur">
     <div class="app-container app-header-inner py-1.5">
       <NuxtLink to="/" class="flex shrink-0 items-center gap-2" :aria-label="`Verbologic — ${t('ui.home') ?? 'Home'}`">
         <!-- Monochrome transparent mark — white on dark theme, black on light. -->

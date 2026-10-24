@@ -26,7 +26,7 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parents[1]
 MEDIA_DIR = ROOT / "media"
-TRACKS = ("dictionary", "lectures")
+TRACKS = ("dictionary", "lectures", "stories")
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.locales import LOCALES  # noqa: E402  (single locale registry)
 from lib.manifest import (  # noqa: E402  (locales + files shape)
@@ -160,6 +160,15 @@ def generate_ipa_batch(batch: list[dict[str, Any]]) -> dict[str, dict[str, str]]
         "generationConfig": {
             "temperature": 0.1,
             "responseMimeType": "application/json",
+            # A batch of 4 items x 9 locales is ~36 transcriptions; the model's
+            # default output cap truncates that mid-JSON, which then fails to
+            # parse. Ask for room to finish the whole array.
+            "maxOutputTokens": 8192,
+            # Gemini 3.x spends output tokens on internal reasoning by default
+            # (a 21-token prompt burned 237 thought tokens), which eats the
+            # budget before the JSON is complete and truncates it. This task is
+            # mechanical transcription — no reasoning needed.
+            "thinkingConfig": {"thinkingBudget": 0},
         },
     }
     model = normalize_model(os.environ.get("GEMINI_MODEL") or DEFAULT_GEMINI_MODEL)
@@ -174,9 +183,9 @@ def generate_ipa_batch(batch: list[dict[str, Any]]) -> dict[str, dict[str, str]]
         method="POST",
     )
 
-    for attempt in range(3):
+    for attempt in range(4):
         try:
-            with urllib.request.urlopen(request, timeout=90) as response:
+            with urllib.request.urlopen(request, timeout=180) as response:
                 response_data = json.loads(response.read().decode("utf-8"))
             text = response_data["candidates"][0]["content"]["parts"][0]["text"].strip()
             text = re.sub(r"\A```(?:json)?\s*|\s*```\Z", "", text)
@@ -222,12 +231,20 @@ def generate_ipa_batch(batch: list[dict[str, Any]]) -> dict[str, dict[str, str]]
         except urllib.error.HTTPError as error:
             retryable = error.code == 429 or 500 <= error.code < 600
             message = format_http_error(error)
-            if not retryable or attempt == 2:
+            if not retryable or attempt == 3:
                 raise RuntimeError(f"Gemini IPA generation failed: {message}") from error
         except urllib.error.URLError as error:
-            if attempt == 2:
+            if attempt == 3:
                 raise RuntimeError(
                     f"Gemini IPA connection failed: {error.reason}"
+                ) from error
+        except TimeoutError as error:
+            # A stalled read surfaces as a bare TimeoutError (not URLError), so
+            # it has to be retried here too — otherwise one slow response kills
+            # a long run that has already written hundreds of manifests.
+            if attempt == 3:
+                raise RuntimeError(
+                    f"Gemini IPA request timed out after {attempt + 1} attempts"
                 ) from error
         except (KeyError, IndexError, json.JSONDecodeError, ValueError) as error:
             raise RuntimeError(f"Invalid Gemini IPA response: {error}") from error
@@ -281,7 +298,27 @@ def main() -> None:
     changed = 0
     for offset in range(0, len(pending), BATCH_SIZE):
         batch = pending[offset : offset + BATCH_SIZE]
-        generated = generate_ipa_batch([request for _, _, request in batch])
+        try:
+            generated = generate_ipa_batch([request for _, _, request in batch])
+        except RuntimeError as error:
+            # One oversized or unlucky batch must not abandon the whole run:
+            # retry it item by item so the rest of the track still lands.
+            if len(batch) == 1:
+                print(f"skipping {batch[0][2]['key']}: {error}", file=sys.stderr)
+                continue
+            print(
+                f"batch {offset // BATCH_SIZE + 1} failed ({error}); "
+                f"retrying its {len(batch)} item(s) one at a time",
+                file=sys.stderr,
+            )
+            generated = {}
+            for _, _, request in batch:
+                try:
+                    generated.update(generate_ipa_batch([request]))
+                except RuntimeError as item_error:
+                    print(f"skipping {request['key']}: {item_error}", file=sys.stderr)
+            if not generated:
+                continue
         for attempt in range(3):
             missing_requests = []
             for _, _, request in batch:
