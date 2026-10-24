@@ -861,27 +861,51 @@ attached — no merge, no "fill the gaps" step.
 returns `anonymous_provider_disabled`; the store swallows it and the
 localStorage path takes over. Behaviour is identical to before this feature.
 
-#### Enabling it (two dashboard steps, no code)
+#### Enabling it — done, and how it is configured
 
-1. **Supabase → Authentication → Sign In / Providers → Anonymous sign-ins →
-   Enable.** Without this the endpoint returns `anonymous_provider_disabled`.
-2. **Cloudflare → Turnstile → Add widget.** Domains: `verbologic.com`,
-   `www.verbologic.com`, `localhost`. Copy the **site key** into
-   `NUXT_PUBLIC_TURNSTILE_SITE_KEY` (`.env` and Cloudflare Workers Builds), and
-   the **secret key** into **Supabase → Authentication → Attack Protection →
-   Enable CAPTCHA protection** (provider: Turnstile).
+Both settings are **live** on project `vmxkimcdtluoghcaxqht` and are managed
+declaratively in [supabase/config.toml](../supabase/config.toml):
 
-Turnstile is the right fit here: the site already runs behind Cloudflare, and
-Turnstile is free and unlimited. It matters because anonymous sign-in creates a
-row in `auth.users` per call — the built-in 30 requests/hour/IP limit does not
-stop a distributed botnet, and a CAPTCHA does.
+```toml
+[auth]
+enable_anonymous_sign_ins = true
 
-The widget is `interaction-only` and the script loads **on demand**, only when a
-token is actually needed, so it costs nothing for visitors who never sign in.
+[auth.captcha]
+enabled = true
+provider = "turnstile"
+secret = "env(TURNSTILE_SECRET_KEY)"
+```
 
-**Verifying it works:** with both steps done, clear localStorage, mark a word
-learned, and check `select id, is_anonymous, created_at from auth.users order by
-created_at desc limit 1` — a new row with `is_anonymous = true` should appear.
+Apply with:
+
+```bash
+TURNSTILE_SECRET_KEY=<secret> npx supabase config push --project-ref <ref>
+```
+
+**`config.toml` is deliberately minimal.** `supabase config push` only writes
+the properties the file declares; everything else is left untouched. That
+matters because `supabase init` generates a 400-line file of local-development
+defaults, and pushing it would silently clobber production — it would disable
+e-mail confirmations, change the OTP length from 8 to 6, and replace the
+production redirect URLs with localhost ones. Always run
+`supabase config diff` and read the output before pushing.
+
+**No siteverify Worker is needed, and one would break the flow.** Supabase
+validates the Turnstile token itself — it calls Cloudflare's siteverify
+internally. Turnstile tokens are **single-use**, so a separate Worker that
+consumed the token would leave Supabase rejecting it with
+`timeout-or-duplicate`. The client sends the token straight to
+`signInAnonymously({ options: { captchaToken } })`.
+
+**Widget:** `0x4AAAAAAFjXppUaBTTEGqw_` (managed, `no_clearance`), domains
+`verbologic.com`, `www.verbologic.com`, `localhost`, `127.0.0.1`. The site key
+goes in `NUXT_PUBLIC_TURNSTILE_SITE_KEY` (`.env` and Cloudflare Workers Builds);
+the secret goes only into Supabase, never into this repo.
+
+**Verifying it works:** clear localStorage, mark a word learned, and check
+`select id, is_anonymous from auth.users order by created_at desc limit 1` — a
+new row with `is_anonymous = true` should appear, and the header switches from
+"Anonymous" to "Guest".
 
 **Payments (not wired yet):** credits are bought with PayPal, which needs a
 server — the site is a static bundle, so the secret cannot live in the browser.

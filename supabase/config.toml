@@ -1,0 +1,40 @@
+# Verbologic — Supabase project configuration (declarative).
+#
+# DELIBERATELY MINIMAL. `supabase config push` only writes the properties this
+# file declares; everything else is left untouched on the remote project. That
+# is the whole point: `supabase init` generates a 400-line file full of
+# local-development defaults, and pushing it would silently clobber production
+# settings — it would disable e-mail confirmations, change the OTP length from
+# 8 to 6, and replace the production redirect URLs with localhost ones.
+#
+# So: declare ONLY what this project actually needs to differ from the
+# dashboard defaults, and add to it deliberately. Run `supabase config diff`
+# before every push and read the output.
+#
+# Applied with:
+#   TURNSTILE_SECRET_KEY=... npx supabase config push --project-ref <ref>
+#
+# The database schema is NOT managed here — it lives in supabase/schema.sql and
+# supabase/migrations/ (see manual/MAINTENANCE.md §7).
+
+project_id = "verbologic"
+
+[auth]
+# Anonymous sign-ins: a visitor browses with no account and gets a real
+# auth.uid() on the first progress write (manual/MAINTENANCE.md §7). Each
+# sign-in creates an auth.users row, so it is guarded by the CAPTCHA below.
+enable_anonymous_sign_ins = true
+
+[auth.captcha]
+# Turnstile guards the anonymous sign-in endpoint.
+#
+# Supabase validates the token itself — it calls Cloudflare's siteverify
+# internally — so no separate validation Worker is needed. Deploying one would
+# actively break the flow: Turnstile tokens are single-use, so a Worker that
+# consumed the token would leave Supabase rejecting it with
+# `timeout-or-duplicate`.
+#
+# The secret is read from the environment at push time and never committed.
+enabled = true
+provider = "turnstile"
+secret = "env(TURNSTILE_SECRET_KEY)"
