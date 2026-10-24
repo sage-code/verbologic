@@ -37,14 +37,13 @@ Verbologic maintenance runner
   ./run.sh tsc                           Type-check (vue-tsc)
   ./run.sh status                        Git status + build-fingerprint state
   ./run.sh commit "<message>"            Stage + commit all changes
-  ./run.sh push [--force]                Push current branch (throttled: max 1 push / 2h; --force bypasses)
-  ./run.sh release "<message>"           build → validate → media manifest → commit → push (throttled)
+  ./run.sh push [--force]                Push current branch (throttled: max 1 push / 2h; --force bypasses)  ./run.sh release "<message>"           build → validate → media manifest → commit → push (throttled)
   ./run.sh deploy                        Wrangler deploy (Workers Static Assets, differential)
   ./run.sh deploy-dry                    Validate wrangler.toml without uploading
 EOF
 }
 
-# ── Push throttle: at most one push per 2h (one Workers Builds deploy/window).
+# ── Push throttle: at most one push per 2h (one deploy window).
 # Commits always happen; a throttled push just keeps them local until the
 # window opens. The marker lives in gitignored temp/ (same pattern as the
 # build fingerprint); './run.sh clean' wiping it falls back to the origin/main
@@ -83,7 +82,7 @@ do_push() {
 
   git push origin "$branch" || fail "push failed"
   date +%s > "$PUSH_STAMP"
-  say "Pushed $branch — Cloudflare Workers Builds is (re)deploying. Next push allowed in 2h."
+  say "Pushed $branch. Next push allowed in 2h. NOTE: pushing does not deploy — run './run.sh deploy' to publish."
 }
 
 differential_build() {
@@ -178,7 +177,7 @@ case "${1:-help}" in
     if (( $? == 2 )); then
       warn "Release committed but push throttled — run './run.sh push' when the 2h window opens."
     else
-      say "Released ✓ — website deployed by Cloudflare Workers Builds."
+      say "Released ✓ — committed and pushed. Run './run.sh deploy' to publish the site."
     fi
     ;;
 

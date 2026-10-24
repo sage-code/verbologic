@@ -171,9 +171,11 @@ export default defineNuxtConfig({
   },
 
   // Supabase — public values baked into the static bundle at build time.
-  // Set via NUXT_PUBLIC_SUPABASE_URL / NUXT_PUBLIC_SUPABASE_ANON_KEY (.env,
-  // Cloudflare Workers Builds). Empty defaults keep `nuxt generate` green
-  // without credentials; supabase.client.ts then no-ops gracefully.
+  // Set via NUXT_PUBLIC_SUPABASE_URL / NUXT_PUBLIC_SUPABASE_ANON_KEY in .env,
+  // which Nuxt loads during `nuxt generate`. They are NOT runtime variables:
+  // this is an assets-only Worker (no `main`), so there is no runtime to read
+  // them in and the dashboard refuses to add them. Empty defaults keep
+  // `nuxt generate` green without credentials; supabase.client.ts then no-ops.
   runtimeConfig: {
     public: {
       supabaseUrl: '',

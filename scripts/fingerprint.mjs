@@ -6,10 +6,17 @@
  *   node scripts/fingerprint.mjs --save    recompute and store the fingerprint
  *
  * The fingerprint is a single hash over every source/content file that can
- * affect the static output: src/**, public/data/**, and the build configs.
+ * affect the static output: src/**, public/data/**, the build configs, and
+ * .env.
+ *
+ * .env is included because NUXT_PUBLIC_* values are BAKED INTO the bundle at
+ * build time — they are not read at runtime (this is an assets-only Worker, so
+ * there is no runtime to read them in). Adding or changing a public key
+ * therefore changes the output, and skipping the rebuild would ship a bundle
+ * with the old value. Only the file's contents are hashed, never logged.
  */
 import { createHash } from 'node:crypto'
-import { readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -23,6 +30,8 @@ const TOP_FILES = [
   'package.json',
   'wrangler.toml'
 ]
+/** Baked into the bundle at build time — see the header comment. */
+const OPTIONAL_FILES = ['.env']
 
 /** Recursively list all files under a directory (sorted, deterministic). */
 function walk(dir) {
@@ -40,6 +49,12 @@ function collect() {
   const files = []
   for (const dir of TOP_DIRS) files.push(...walk(join(ROOT, dir)))
   for (const f of TOP_FILES) files.push(join(ROOT, f))
+  // Optional: absent on a machine with no .env (CI, a fresh clone) — skip
+  // rather than crash, so the gate still works there.
+  for (const f of OPTIONAL_FILES) {
+    const p = join(ROOT, f)
+    if (existsSync(p)) files.push(p)
+  }
   return files.sort()
 }
 

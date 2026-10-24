@@ -596,7 +596,7 @@ automatically (the menu link is crawled from every page's header).
 | `run clean-deep` | remove build junk + `.nuxt` cache |
 | `run tsc` | vue-tsc typecheck |
 | `run commit "<msg>"` | `git add -A` + commit (always allowed) |
-| `run push [--force]` | push branch (triggers Cloudflare Workers Builds deploy) — **throttled: max 1 push / 2h**; a throttled push keeps commits local, exits 2 with a wait notice; `--force` bypasses once |
+| `run push [--force]` | push branch to GitHub — **throttled: max 1 push / 2h**; a throttled push keeps commits local, exits 2 with a wait notice; `--force` bypasses once. Note: pushing does **not** deploy — run `run deploy` |
 | `run release "<msg>"` | build → validate → media manifest → commit → push (push throttled: on throttle the release is committed locally and reports when to `run push`) |
 | `run deploy` | `wrangler deploy` (Workers Static Assets, differential; needs `CLOUDFLARE_API_TOKEN`) |
 | `run deploy-dry` | validate `wrangler.toml` without uploading |
@@ -649,10 +649,10 @@ maps `.mp3`/`.mp4`/`.webp` explicitly and disables caching so a regenerated file
 is picked up immediately.
 
 ### Push throttle (2h)
-Pushes trigger a Cloudflare Workers Builds deploy, so `run` enforces **at most
-one push per 2h**. State: `temp/last_push` (epoch seconds, written after every
-successful push; `run clean` wiping `temp/` falls back to the `origin/main`
-commit date, which tracks the last push closely). Behavior:
+`run` enforces **at most one push per 2h**. State: `temp/last_push` (epoch
+seconds, written after every successful push; `run clean` wiping `temp/` falls
+back to the `origin/main` commit date, which tracks the last push closely).
+Behavior:
 - `run push` with unpushed commits inside the window → **no push**; commits
   stay local; exit code 2 with a "push in ~N min" notice.
 - `run push --force` → bypasses the window once (for hotfixes).
@@ -662,10 +662,15 @@ commit date, which tracks the last push closely). Behavior:
   intentionally not throttled.
 
 ### Deployment paths (pick one)
-1. **Automatic (recommended):** push to the GitHub `main` branch; Cloudflare
-   Workers Builds auto-deploys. `run release` does exactly this.
-2. **Direct upload (differential):** `run deploy` — Wrangler hashes and uploads
-   only the changed files from `.output/public`.
+1. **Direct upload (what this project actually uses):** `run deploy` — Wrangler
+   hashes and uploads only the changed files from `.output/public`. Every
+   deployment in the Worker's history has `source: wrangler`, i.e. it came from
+   this command on this machine.
+2. **Automatic (not connected):** pushing to GitHub `main` does **not** deploy.
+   There is no Workers Builds trigger on this Worker — the deployment history
+   shows no `source: builds` entries, and a push leaves the live bundle
+   unchanged until `run deploy` runs. `run release` therefore builds, validates,
+   commits and pushes, but the site only updates when you deploy.
 3. **Media:** `run media upload --apply` (R2) — the delta is each item whose
    file hash no longer matches its manifest **or whose key is missing from
    the bucket**; only those keys transfer (`run media upload` reports the
@@ -739,9 +744,16 @@ NUXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_…
 ```
 
 Nuxt reads `NUXT_PUBLIC_*` (never `NEXT_PUBLIC_*`). Values are **baked at
-build time** → also set them in Cloudflare Workers Builds. The publishable key
-(`sb_publishable_…`, replaces the legacy `anon` JWT) is browser-safe; RLS is
-the security boundary. Never ship the `sb_secret_…` key.
+build time** — they are not read at runtime, so they cannot be Worker variables
+or secrets (the dashboard refuses: *"Variables cannot be added to a Worker that
+only has static assets"*, which is correct — `wrangler.toml` has no `main`).
+They reach the bundle through `.env`, which Nuxt loads during `nuxt generate`.
+The publishable key (`sb_publishable_…`, replaces the legacy `anon` JWT) is
+browser-safe; RLS is the security boundary. Never ship the `sb_secret_…` key.
+
+`scripts/fingerprint.mjs` hashes `.env` too, so changing a public key
+invalidates the differential build and forces a rebuild — otherwise
+`./run.sh deploy` would reuse the old `.output/public` and ship stale values.
 
 **Schema:** `supabase/schema.sql` — the whole schema in one idempotent file.
 Incremental changes live in `supabase/migrations/` and are applied with the
@@ -899,8 +911,27 @@ consumed the token would leave Supabase rejecting it with
 
 **Widget:** `0x4AAAAAAFjXppUaBTTEGqw_` (managed, `no_clearance`), domains
 `verbologic.com`, `www.verbologic.com`, `localhost`, `127.0.0.1`. The site key
-goes in `NUXT_PUBLIC_TURNSTILE_SITE_KEY` (`.env` and Cloudflare Workers Builds);
-the secret goes only into Supabase, never into this repo.
+goes in `NUXT_PUBLIC_TURNSTILE_SITE_KEY` in `.env`; the secret goes only into
+Supabase, never into this repo.
+
+#### Where the site key lives — and why not a Worker variable
+
+`NUXT_PUBLIC_*` values are **baked into the bundle at build time**. They are not
+read at runtime, so they cannot be Worker variables or secrets.
+
+The dashboard will refuse anyway: *"Variables cannot be added to a Worker that
+only has static assets."* That is correct and expected — `wrangler.toml` has no
+`main`, so there is no Worker script to read a variable. Nothing is broken.
+
+The value reaches the bundle through `.env`, which Nuxt loads during
+`nuxt generate`. Since every deploy here runs `./run.sh deploy` (wrangler, from
+this machine — the deployment history shows `source: wrangler`, not Workers
+Builds), `.env` is the only place it needs to be set.
+
+`scripts/fingerprint.mjs` hashes `.env` along with the source, so adding or
+changing a public key invalidates the differential build and forces a rebuild.
+Without that, `./run.sh deploy` would reuse the previous `.output/public` and
+ship a bundle with the old value.
 
 **Verifying it works:** clear localStorage, mark a word learned, and check
 `select id, is_anonymous from auth.users order by created_at desc limit 1` — a

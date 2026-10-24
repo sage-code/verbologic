@@ -1,7 +1,8 @@
 # Verbologic — Cloudflare Workers Static Assets configuration.
 #
 # This file is the source of truth for the Worker's name, assets directory and
-# custom domains. Cloudflare Workers Builds reads it on every push to `main`.
+# custom domains. `wrangler deploy` reads it; there is no Workers Builds trigger
+# on this Worker, so pushing to `main` does NOT deploy — run `run deploy`.
 #
 # Custom domains are declared here rather than in the dashboard so the binding is
 # reproducible from source control. `custom_domain = true` makes Cloudflare create
