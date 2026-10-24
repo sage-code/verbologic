@@ -11,7 +11,8 @@ name: Supabase heartbeat
 # Bucharest exits without pinging, so the heartbeat stays at 05:00 year-round
 # instead of drifting an hour every November.
 #
-# Manual run: Actions → Supabase heartbeat → Run workflow.
+# Manual run: Actions → Supabase heartbeat → Run workflow. A manual dispatch
+# pings immediately, bypassing the 05:00 gate.
 
 on:
   schedule:
@@ -40,6 +41,8 @@ jobs:
 
       - name: Confirm it is 05:00 in Bucharest
         id: gate
+        # A manual dispatch means "ping now", so only scheduled runs are gated.
+        if: github.event_name == 'schedule'
         run: |
           hour="$(TZ=Europe/Bucharest date +%H)"
           echo "Bucharest hour: $hour"
@@ -51,7 +54,7 @@ jobs:
           fi
 
       - name: Ping the database
-        if: steps.gate.outputs.run == 'true'
+        if: github.event_name == 'workflow_dispatch' || steps.gate.outputs.run == 'true'
         env:
           NUXT_PUBLIC_SUPABASE_URL: ${{ secrets.NUXT_PUBLIC_SUPABASE_URL }}
           NUXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NUXT_PUBLIC_SUPABASE_ANON_KEY }}
