@@ -18,7 +18,9 @@
     "ro": {
       "name": "ue",
       "description": "Acest element ilustrează diftongul românesc ue așa cum apare în cuvântul înșeuează.",
-      "ipa": "/we/"
+      "ipa": "/we/",
+      "context": "/ɨn.ʃe.we̯aˈza/",
+      "example": "înșeuează"
     },
     "de": {
       "name": "ue in înșeuează (sattelt)",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 8496,
-      "sha1": "e246cfeafdc14009825980c15dc02d048c6479cc"
+      "bytes": 11232,
+      "sha1": "8a2228ed3c9615ed48c94e4e53eee728df733cfc"
+    },
+    "read/ro.mp3": {
+      "bytes": 545328,
+      "sha1": "0a1d1fb22c7d93232b437e932286c589e98d9043"
     }
   }
 }

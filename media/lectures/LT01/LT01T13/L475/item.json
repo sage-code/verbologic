@@ -45,7 +45,8 @@
       "description": "Letter name: erre. Example: rouge.",
       "ipa": "/ɛʁ/",
       "example": "rouge",
-      "context": "erre"
+      "context": "/ʁuʒ/",
+      "ttsText": "erre"
     },
     "hu": {
       "name": "R",
@@ -61,7 +62,11 @@
   "files": {
     "sound/fr.mp3": {
       "bytes": 11232,
-      "sha1": "48c7532f37453267f3cb758265b8c0f10c6cd604"
+      "sha1": "a1388ceaa03b9ebb5634db6ce92cf3d3ea4bbf4a"
+    },
+    "read/fr.mp3": {
+      "bytes": 480240,
+      "sha1": "0044c651bd6b0eee9b2cf528954a37887d5e5c5c"
     }
   }
 }

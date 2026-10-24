@@ -18,7 +18,9 @@
     "ro": {
       "name": "eau",
       "description": "Acest element ilustrează diftongul românesc eau, așa cum apare în forma verbală beau.",
-      "ipa": "/e̯aw/"
+      "ipa": "/e̯aw/",
+      "context": "/be̯aw/",
+      "example": "beau"
     },
     "de": {
       "name": "eau in beau (ich trinke / sie trinken)",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 9072,
-      "sha1": "3f52c67d0c7fbbd2ba5d1c5e094793e000b7033c"
+      "bytes": 11232,
+      "sha1": "ad5f3e12615f1e9dba8448521a42f8fc2bbf742a"
+    },
+    "read/ro.mp3": {
+      "bytes": 584064,
+      "sha1": "0052bd62618f6f2e73ce7765ce84104f9ee82213"
     }
   }
 }

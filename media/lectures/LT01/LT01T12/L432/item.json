@@ -35,7 +35,8 @@
       "description": "Letter name: be. Example: bueno.",
       "ipa": "/be/",
       "example": "bueno",
-      "context": "be"
+      "context": "/ˈbwe.no/",
+      "ttsText": "be"
     },
     "fr": {
       "name": "B",
@@ -53,7 +54,11 @@
   "files": {
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "05bcc529310662642d0f1f5085a4ab92eb5f06ff"
+      "sha1": "b2e5a1709914c602bcca01df679c1f77919e811d"
+    },
+    "read/es.mp3": {
+      "bytes": 591840,
+      "sha1": "e76ecef1234a033ccd76a5158fcf4424c760114e"
     }
   }
 }

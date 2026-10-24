@@ -50,7 +50,8 @@
       "description": "Letter name: gyé. Example: gyerek.",
       "ipa": "/ɟeː/",
       "example": "gyerek",
-      "context": "gyé"
+      "context": "/ˈɟɛrɛk/",
+      "ttsText": "gyé"
     },
     "pt": {
       "name": "Gy",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/hu.mp3": {
-      "bytes": 7632,
-      "sha1": "23dcdb14e90ca1c0b1c472734563dbc1756fc71c"
+      "bytes": 11232,
+      "sha1": "a5fecd1da6b14c257d3b53016100f7f653538b0a"
+    },
+    "read/hu.mp3": {
+      "bytes": 436032,
+      "sha1": "c2c5d1ef405519f51ac8f8c6864acb2bb2104199"
     }
   }
 }

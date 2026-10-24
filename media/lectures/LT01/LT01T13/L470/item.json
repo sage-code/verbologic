@@ -45,7 +45,8 @@
       "description": "Letter name: emme. Example: maison.",
       "ipa": "/ɛm/",
       "example": "maison",
-      "context": "emme"
+      "context": "/mɛ.zɔ̃/",
+      "ttsText": "emme"
     },
     "hu": {
       "name": "M",
@@ -61,7 +62,11 @@
   "files": {
     "sound/fr.mp3": {
       "bytes": 11232,
-      "sha1": "d4447541eb183257d6130c63e70c81fc76cc215a"
+      "sha1": "36b990f5032814aeb1f95faa7578ad9b7eb5cf7a"
+    },
+    "read/fr.mp3": {
+      "bytes": 449712,
+      "sha1": "5ab0987f2a6f5de8b5cff8aa48fc37b70fe18a0f"
     }
   }
 }

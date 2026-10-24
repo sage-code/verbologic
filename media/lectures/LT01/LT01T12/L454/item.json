@@ -35,7 +35,8 @@
       "description": "Letter name: uve doble. Example: web.",
       "ipa": "/ˈdoble be/",
       "example": "web",
-      "context": "uve doble"
+      "context": "/ˈweb/",
+      "ttsText": "uve doble"
     },
     "fr": {
       "name": "W",
@@ -53,7 +54,11 @@
   "files": {
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "89fd5750a1f38353096b9db490415d9dcec90ef6"
+      "sha1": "34ba578fd36dff2c4f4b4a3e7d24393737e3d1e2"
+    },
+    "read/es.mp3": {
+      "bytes": 514368,
+      "sha1": "e88614286ba083d3aec5094e24aea33a7741d600"
     }
   }
 }

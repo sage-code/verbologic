@@ -50,7 +50,8 @@
       "description": "Letter name: í. Example: íz.",
       "ipa": "/iː/",
       "example": "íz",
-      "context": "í"
+      "context": "/ˈiːz/",
+      "ttsText": "í"
     },
     "pt": {
       "name": "Í",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/hu.mp3": {
-      "bytes": 11232,
-      "sha1": "f93d1a83856e492f1e7c1b3767f7a7003598ca5d"
+      "bytes": 7344,
+      "sha1": "2640eb8171e4f6d3962e7c9b0c647954fea065a2"
+    },
+    "read/hu.mp3": {
+      "bytes": 511920,
+      "sha1": "b573f5f78fa04882c3a913c8ce5153c4fd09a6fe"
     }
   }
 }

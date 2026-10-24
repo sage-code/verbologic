@@ -25,7 +25,8 @@
       "description": "Letter name: Ef. Example: Fisch.",
       "ipa": "/ɛf/",
       "example": "Fisch",
-      "context": "Ef"
+      "context": "/fɪʃ/",
+      "ttsText": "Ef"
     },
     "ru": {
       "name": "F",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "c624c850289dca99a435524ff83e4bc0c00810ae"
+      "sha1": "09a72f5bb1c895ec0a7a6ada8dbccf82e686e41e"
+    },
+    "read/de.mp3": {
+      "bytes": 405216,
+      "sha1": "ffd5127766e98fab6e98f2ae91948d6d2103cc3c"
     }
   }
 }

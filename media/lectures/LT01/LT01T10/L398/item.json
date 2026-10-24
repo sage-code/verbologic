@@ -30,7 +30,8 @@
       "description": "Letter name: ща. Example: щи.",
       "ipa": "/ɕːa/",
       "example": "щи",
-      "context": "ща"
+      "context": "/ɕːi/",
+      "ttsText": "ща"
     },
     "it": {
       "name": "Щ",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "771a681ec0b0ce78df5a5dae75c3d702d4f3eded"
+      "sha1": "a13012a0bdb9b55dd9f407a5d45cc7dd6ff3a1d3"
+    },
+    "read/ru.mp3": {
+      "bytes": 393696,
+      "sha1": "e6ca7c0561d703f334ade953153aa72fce25fa28"
     }
   }
 }

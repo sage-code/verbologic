@@ -50,7 +50,8 @@
       "description": "Letter name: elly. Example: lyuk.",
       "ipa": "/ɛj/",
       "example": "lyuk",
-      "context": "elly"
+      "context": "/ˈjuk/",
+      "ttsText": "elly"
     },
     "pt": {
       "name": "Ly",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "057a399dc667f94251a8c1def95f5d4850f73cca"
+      "sha1": "39118c1f94e23fa9d1942a9cb3804913ed754b5e"
+    },
+    "read/hu.mp3": {
+      "bytes": 489312,
+      "sha1": "ab9b5e0cfe055b01c321bda75dd8d89d7c163400"
     }
   }
 }

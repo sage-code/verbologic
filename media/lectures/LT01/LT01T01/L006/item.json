@@ -18,7 +18,9 @@
     "ro": {
       "name": "D",
       "description": "Litera D este o consoană din alfabetul limbii române.",
-      "ipa": "/d/"
+      "ipa": "/d/",
+      "context": "/dor/",
+      "example": "dorință"
     },
     "de": {
       "name": "D",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "25458fbfd266d9d055a3d591b170ae0d609fe630"
+      "sha1": "f228e3181227d537408e5589379533910c227e25"
+    },
+    "read/ro.mp3": {
+      "bytes": 466992,
+      "sha1": "90b276b590f0453262d3170965b9781b95088540"
     }
   }
 }

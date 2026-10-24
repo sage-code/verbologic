@@ -364,9 +364,9 @@ useSeoMeta({
               >
                 <PhoneticArticle
                   :section="phoneticTargetPages[storyPage]"
-                  :glyph="phonetic?.glyph"
-                  :ipa="phonetic?.ipa"
+                  :entry="phonetic"
                   :lead="storyPage === 0"
+                  :locale="trackLang"
                 />
               </div>
             </section>
@@ -392,9 +392,9 @@ useSeoMeta({
               >
                 <PhoneticArticle
                   :section="phoneticNativePages[storyPage]"
-                  :glyph="phonetic?.glyph"
-                  :ipa="phonetic?.ipa"
+                  :entry="phonetic"
                   :lead="storyPage === 0"
+                  :locale="docLocale"
                 />
               </div>
             </section>

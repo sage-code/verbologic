@@ -30,7 +30,8 @@
       "description": "Letter name: бэ. Example: брат.",
       "ipa": "/bɛ/",
       "example": "брат",
-      "context": "бэ"
+      "context": "/brat/",
+      "ttsText": "бэ"
     },
     "it": {
       "name": "Б",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "d5ef1642152339d7f6e5e19a201643a08c908c3e"
+      "sha1": "b4b80039d22ce3365062c355fc4a52f8b7afe0b7"
+    },
+    "read/ru.mp3": {
+      "bytes": 367200,
+      "sha1": "0cb585a9d2ec40d9f85c02bfde5accfc4c729055"
     }
   }
 }

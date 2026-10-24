@@ -30,7 +30,8 @@
       "description": "Letter name: ка. Example: кот.",
       "ipa": "/ka/",
       "example": "кот",
-      "context": "ка"
+      "context": "/kot/",
+      "ttsText": "ка"
     },
     "it": {
       "name": "К",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "c5c2838994042e05beb995b6b87722675ff04fe9"
+      "sha1": "6288f2a2ed402a15926395a1b51ab18c62ec1dc1"
+    },
+    "read/ru.mp3": {
+      "bytes": 408816,
+      "sha1": "5191e7b7c9237032e90b10a7eb18ce54dd2e44c3"
     }
   }
 }

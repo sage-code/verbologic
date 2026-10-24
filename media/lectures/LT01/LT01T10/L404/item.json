@@ -30,7 +30,8 @@
       "description": "Letter name: я. Example: яблоко.",
       "ipa": "/ja/",
       "example": "яблоко",
-      "context": "я"
+      "context": "/ˈja.blə.kə/",
+      "ttsText": "я"
     },
     "it": {
       "name": "Я",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "24e9b0903f1be2b17a374818a3b8b18e85a9eeea"
+      "sha1": "a263dd8ac3c7e86dd8751284448eb2d8808a07fb"
+    },
+    "read/ru.mp3": {
+      "bytes": 592272,
+      "sha1": "59b208a287f006fae7ba125ffe7d7c65819b960d"
     }
   }
 }

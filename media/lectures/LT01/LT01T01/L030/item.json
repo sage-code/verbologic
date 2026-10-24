@@ -18,7 +18,9 @@
     "ro": {
       "name": "Z",
       "description": "Litera Z este a douăzeci și șaptea literă a alfabetului român.",
-      "ipa": "/z/"
+      "ipa": "/z/",
+      "context": "/ˈzɛ.bre/",
+      "example": "zi"
     },
     "de": {
       "name": "Z",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "b453a0efc161cf49f3370c6e856eb74ece8cd1ce"
+      "sha1": "06236ddaf1e95541df45afc6a46e544de649fd3c"
+    },
+    "read/ro.mp3": {
+      "bytes": 446544,
+      "sha1": "87bb3854ef6d5b9c989948748f35fee51ee743e7"
     }
   }
 }

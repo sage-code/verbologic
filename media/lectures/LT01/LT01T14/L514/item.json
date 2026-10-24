@@ -50,7 +50,8 @@
       "description": "Letter name: ess. Example: sárga.",
       "ipa": "/ɛʃ/",
       "example": "sárga",
-      "context": "ess"
+      "context": "/ˈʃaːrɡɒ/",
+      "ttsText": "ess"
     },
     "pt": {
       "name": "S",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "7d04dabae6298d31b70a15e8a9944ab5e15d8694"
+      "sha1": "086f0fc0d11ee4089a8e673d7820d4ea65cb21f7"
+    },
+    "read/hu.mp3": {
+      "bytes": 500112,
+      "sha1": "f6bec24f377962ce6018ca5e6e013b277e8d35ab"
     }
   }
 }

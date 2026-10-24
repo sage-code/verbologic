@@ -45,7 +45,8 @@
       "description": "Letter name: ji. Example: jour.",
       "ipa": "/ʒi/",
       "example": "jour",
-      "context": "ji"
+      "context": "/ʒuʁ/",
+      "ttsText": "ji"
     },
     "hu": {
       "name": "J",
@@ -61,7 +62,11 @@
   "files": {
     "sound/fr.mp3": {
       "bytes": 11232,
-      "sha1": "0b3aa18a429e92e5bb0d2d9f69e83d43b83d38e8"
+      "sha1": "5e5390999bb949087424198f5523d9e5e2f6b15d"
+    },
+    "read/fr.mp3": {
+      "bytes": 448992,
+      "sha1": "d1268e8f5d573ac020ee483298ae71a1b7cb339c"
     }
   }
 }

@@ -50,7 +50,8 @@
       "description": "Letter name: csé. Example: csillag.",
       "ipa": "/tʃeː/",
       "example": "csillag",
-      "context": "csé"
+      "context": "/ˈtʃil.lɒɡ/",
+      "ttsText": "csé"
     },
     "pt": {
       "name": "Cs",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/hu.mp3": {
-      "bytes": 7776,
-      "sha1": "4a46e102647be6c53cde628e2955b18b127b7b65"
+      "bytes": 11232,
+      "sha1": "55aa7ec71f4df079a84f9d3e04e2de15664af4e2"
+    },
+    "read/hu.mp3": {
+      "bytes": 499824,
+      "sha1": "2dc7c306e38a0b34c0c4ece9e03c0ba453778574"
     }
   }
 }

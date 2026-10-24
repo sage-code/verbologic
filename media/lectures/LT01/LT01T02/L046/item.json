@@ -18,7 +18,9 @@
     "ro": {
       "name": "iai",
       "description": "Acest element ilustrează diftongul românesc iai, așa cum apare în forma verbală tăiai.",
-      "ipa": "/jaj/"
+      "ipa": "/jaj/",
+      "context": "/təˈjaj/",
+      "example": "tăiai"
     },
     "de": {
       "name": "iai in tăiai (du hast geschnitten)",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "e89e935ac667fe094f80fba77d149de209523d80"
+      "sha1": "cfa2df48158eab1327f76193e8d4d44407bde393"
+    },
+    "read/ro.mp3": {
+      "bytes": 518400,
+      "sha1": "9080972561cc8c0c00f2de95128d84e5ada40405"
     }
   }
 }

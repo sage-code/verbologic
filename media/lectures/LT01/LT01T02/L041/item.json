@@ -18,7 +18,9 @@
     "ro": {
       "name": "oi",
       "description": "Acest element ilustrează diftongul românesc oi așa cum apare în cuvântul doi.",
-      "ipa": "/oj/"
+      "ipa": "/oj/",
+      "context": "/doj/",
+      "example": "doi"
     },
     "de": {
       "name": "oi in doi (zwei)",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "d88875298e0564389fadb784c294a75286e2e40d"
+      "sha1": "dfef98d7c6041f393f899bb975413bf80f73ae62"
+    },
+    "read/ro.mp3": {
+      "bytes": 510048,
+      "sha1": "44c5fef42256569bf459224fbd0aad3a07327166"
     }
   }
 }

@@ -35,7 +35,8 @@
       "description": "Letter name: ce. Example: casa.",
       "ipa": "/θe/",
       "example": "casa",
-      "context": "ce"
+      "context": "/ˈka.sa/",
+      "ttsText": "ce"
     },
     "fr": {
       "name": "C",
@@ -53,7 +54,11 @@
   "files": {
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "0bfcb10268f27db9e9e0394378194088f5ff2748"
+      "sha1": "0a358a1206efc73d1d05841d0a861dae2b67cc3c"
+    },
+    "read/es.mp3": {
+      "bytes": 701280,
+      "sha1": "d65bf1788b4cf3a3ac0f83eb8d112b7e069e1b83"
     }
   }
 }

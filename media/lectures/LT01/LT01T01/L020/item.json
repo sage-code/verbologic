@@ -18,7 +18,9 @@
     "ro": {
       "name": "R",
       "description": "Litera R este a șaptesprezecea literă a alfabetului român.",
-      "ipa": "/r/"
+      "ipa": "/r/",
+      "context": "/rak/",
+      "example": "rac"
     },
     "de": {
       "name": "R",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "4d7067e2d78c9ad6d01b981625608ab9208d73e2"
+      "sha1": "b2c5b421cc045b754717cb2b61df7e6e61f005d5"
+    },
+    "read/ro.mp3": {
+      "bytes": 468720,
+      "sha1": "90f7afe9028f462954e3d0a511cb19bed466246e"
     }
   }
 }

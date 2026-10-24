@@ -35,7 +35,8 @@
       "description": "Letter name: zeta. Example: zapato.",
       "ipa": "/ˈθeta/",
       "example": "zapato",
-      "context": "zeta"
+      "context": "/θaˈpa.to/",
+      "ttsText": "zeta"
     },
     "fr": {
       "name": "Z",
@@ -53,7 +54,11 @@
   "files": {
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "925bb031cab32ad4279f7a035b8d9e8e3f0f4f6d"
+      "sha1": "572f8523b0e254d04082828ff7027bfe090bf3e3"
+    },
+    "read/es.mp3": {
+      "bytes": 599328,
+      "sha1": "975c651f2877138c3eec098ab4718bda98ead790"
     }
   }
 }

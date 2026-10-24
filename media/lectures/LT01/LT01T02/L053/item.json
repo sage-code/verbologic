@@ -19,7 +19,8 @@
       "name": "Ghe / Ghi",
       "description": "Litera g reprezintă sunetul consoană oclusivă velară sonoră /g/, ca în cuvintele get și give.",
       "ipa": "/ge/, /gi/",
-      "ttsText": "Ghe / Ghii"
+      "context": "/ɡe̯at͡sə/",
+      "example": "gheață"
     },
     "de": {
       "name": "g in get / give (/g/)",
@@ -59,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 10512,
-      "sha1": "c7ca0c05422f95780dc6a0c9754bf19261e17c7b"
+      "bytes": 12960,
+      "sha1": "9ed134224e9b24684c5f67798b179c483cacdd20"
+    },
+    "read/ro.mp3": {
+      "bytes": 507600,
+      "sha1": "ebc6fb17bf2b2901a245424a69d82f13e0419437"
     }
   }
 }

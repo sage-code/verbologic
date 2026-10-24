@@ -40,7 +40,8 @@
       "description": "Letter name: o. Example: ojo.",
       "ipa": "/o/",
       "example": "ojo",
-      "context": "o"
+      "context": "/ˈo.xo/",
+      "ttsText": "o"
     },
     "fr": {
       "name": "O",
@@ -61,7 +62,11 @@
   "files": {
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "e26dec883491158b770649ef5e4d9caea0db2203"
+      "sha1": "e62abb3d16f6f754dd6830b2d809a15ffa1a0bfe"
+    },
+    "read/es.mp3": {
+      "bytes": 528480,
+      "sha1": "76c1b2cf1e94adf604340949473127faea60c73e"
     }
   }
 }

@@ -30,7 +30,8 @@
       "description": "Letter name: эс. Example: солнце.",
       "ipa": "/ɛs/",
       "example": "солнце",
-      "context": "эс"
+      "context": "/ˈsont͡sə/",
+      "ttsText": "эс"
     },
     "it": {
       "name": "С",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/ru.mp3": {
-      "bytes": 7488,
-      "sha1": "9eae652a9dbeefb42b56e1cdf3422fb72eeb4284"
+      "bytes": 11232,
+      "sha1": "cd37e52529126a0ebeaac8a3cc1cceed8ac2cc4c"
+    },
+    "read/ru.mp3": {
+      "bytes": 432000,
+      "sha1": "7c74de6487da1d86d9733bac9acfbc7689f24df3"
     }
   }
 }

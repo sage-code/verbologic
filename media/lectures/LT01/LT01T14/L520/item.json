@@ -50,7 +50,8 @@
       "description": "Letter name: ü. Example: üveg.",
       "ipa": "/y/",
       "example": "üveg",
-      "context": "ü"
+      "context": "/ˈyvɛɡ/",
+      "ttsText": "ü"
     },
     "pt": {
       "name": "Ü",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "e53bb3eabfcd25206edfa244e1e72f3f74c44b13"
+      "sha1": "7b11d1a1c96a17e530ce4b5863160243588c4003"
+    },
+    "read/hu.mp3": {
+      "bytes": 467136,
+      "sha1": "2d2b053c4e76d654aa22eeb2a72a9b43b978067c"
     }
   }
 }

@@ -50,7 +50,8 @@
       "description": "Letter name: ű. Example: űr.",
       "ipa": "/yː/",
       "example": "űr",
-      "context": "ű"
+      "context": "/ˈyːr/",
+      "ttsText": "ű"
     },
     "pt": {
       "name": "Ű",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/hu.mp3": {
-      "bytes": 11232,
-      "sha1": "97b4eb74cb32c85a5d2f28d3dfc1fcf9985f80cd"
+      "bytes": 7776,
+      "sha1": "d8cd808ae5c22ca773ebcae2fcb989f064b023d7"
+    },
+    "read/hu.mp3": {
+      "bytes": 513792,
+      "sha1": "1ba9b7edf3b09ae59f7e0799a96b484136a15e23"
     }
   }
 }

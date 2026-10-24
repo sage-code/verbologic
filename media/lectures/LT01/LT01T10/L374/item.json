@@ -30,7 +30,8 @@
       "description": "Letter name: вэ. Example: вода.",
       "ipa": "/vɛ/",
       "example": "вода",
-      "context": "вэ"
+      "context": "/vɐˈda/",
+      "ttsText": "вэ"
     },
     "it": {
       "name": "В",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "c3c5356536ca02fe4608edf0d47d2fe78a6d5895"
+      "sha1": "4445652acf181214257a670993e833a6a1d34cf6"
+    },
+    "read/ru.mp3": {
+      "bytes": 460080,
+      "sha1": "41ac28245fe64f8d4ec79cfcf0b54d45093759f0"
     }
   }
 }

@@ -50,7 +50,8 @@
       "description": "Letter name: dzé. Example: dzsungel.",
       "ipa": "/dzeː/",
       "example": "dzsungel",
-      "context": "dzé"
+      "context": "/ˈd͡ʒuŋɡɛl/",
+      "ttsText": "dzé"
     },
     "pt": {
       "name": "Dz",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/hu.mp3": {
-      "bytes": 8064,
-      "sha1": "d8dda849a9df56b3e9b6965d7a29d212f7b93bc2"
+      "bytes": 11232,
+      "sha1": "edd24f92f9c16183a55e2bceaee0e92d7ead4767"
+    },
+    "read/hu.mp3": {
+      "bytes": 490032,
+      "sha1": "d83f4bb50f9e52c0ff653c59028a859fe9e4a9ec"
     }
   }
 }

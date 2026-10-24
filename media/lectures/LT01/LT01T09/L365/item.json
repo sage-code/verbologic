@@ -25,7 +25,8 @@
       "description": "Letter name: Ix. Example: Xylophon.",
       "ipa": "/ɪks/",
       "example": "Xylophon",
-      "context": "Ix"
+      "context": "/ksyloˈfoːn/",
+      "ttsText": "Ix"
     },
     "ru": {
       "name": "X",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "d8be3f70bae67ec912916ee639f2eb4111746d5d"
+      "sha1": "3930b781592d69aa5d182d0536646312a2153d55"
+    },
+    "read/de.mp3": {
+      "bytes": 572688,
+      "sha1": "7e797ed9df0d68a22d4565d17d7a128aa60486cc"
     }
   }
 }

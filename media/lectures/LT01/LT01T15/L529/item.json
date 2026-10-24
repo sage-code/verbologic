@@ -55,13 +55,18 @@
       "description": "Letter name: cê. Example: casa.",
       "ipa": "/se/",
       "example": "casa",
-      "context": "cê"
+      "context": "/ˈka.zɐ/",
+      "ttsText": "cê"
     }
   },
   "files": {
     "sound/pt.mp3": {
-      "bytes": 7488,
-      "sha1": "9b60fd26edac081e3c6d17bb4dee855f9c5f967e"
+      "bytes": 11232,
+      "sha1": "2bb5c114ab41980e9f7b6e0368ca08a690f84b24"
+    },
+    "read/pt.mp3": {
+      "bytes": 535968,
+      "sha1": "d9bb703671921b2fc441c52f656d2dcafc9ecd74"
     }
   }
 }

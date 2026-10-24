@@ -50,7 +50,8 @@
       "description": "Letter name: o. Example: okos.",
       "ipa": "/o/",
       "example": "okos",
-      "context": "o"
+      "context": "/ˈokoʃ/",
+      "ttsText": "o"
     },
     "pt": {
       "name": "O",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "7e171ec6d562c9a92b850d18048be9449f73f7df"
+      "sha1": "246e16537409074ad8cc95b7b30a3060a1b2ee70"
+    },
+    "read/hu.mp3": {
+      "bytes": 373392,
+      "sha1": "18cfa6489497154661ed83cd3bc2df9334086595"
     }
   }
 }

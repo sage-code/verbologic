@@ -50,7 +50,8 @@
       "description": "Letter name: enny. Example: nyár.",
       "ipa": "/ɛɲ/",
       "example": "nyár",
-      "context": "enny"
+      "context": "/ˈɲaːr/",
+      "ttsText": "enny"
     },
     "pt": {
       "name": "Ny",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "eca9e97fcb74065614ecacf64984468924177874"
+      "sha1": "8935ff0ccb62aedef10161102adfdc2dd2b3276b"
+    },
+    "read/hu.mp3": {
+      "bytes": 467712,
+      "sha1": "5b8d6d3f7315ed2575f74201fb8821100216bc39"
     }
   }
 }

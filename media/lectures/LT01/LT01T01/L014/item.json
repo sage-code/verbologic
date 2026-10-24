@@ -18,7 +18,9 @@
     "ro": {
       "name": "K",
       "description": "Litera K este a douăsprezecea literă a alfabetului român.",
-      "ipa": "/k/"
+      "ipa": "/k/",
+      "context": "/ˈki.lo/",
+      "example": "kilogram"
     },
     "de": {
       "name": "K",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 7776,
-      "sha1": "904d79aecf469dc4f5e4005cd9e237b722c38815"
+      "bytes": 11232,
+      "sha1": "882ebf7791e85ad0adb9fb1545851e90476e73a5"
+    },
+    "read/ro.mp3": {
+      "bytes": 497808,
+      "sha1": "dcfab46e17263932a6a3e9a0d660afe985951a02"
     }
   }
 }

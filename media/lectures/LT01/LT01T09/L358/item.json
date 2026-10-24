@@ -25,7 +25,8 @@
       "description": "Letter name: Qu. Example: Quelle.",
       "ipa": "/kuː/",
       "example": "Quelle",
-      "context": "Qu"
+      "context": "/ˈkvɛlə/",
+      "ttsText": "Qu"
     },
     "ru": {
       "name": "Q",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "7d78dda6da3c8a0cd892f978ce9983a87d3bdb7a"
+      "sha1": "a6c28d4f1bec2fab83d99234a2d8db6c993d4806"
+    },
+    "read/de.mp3": {
+      "bytes": 595008,
+      "sha1": "7b96f52fce2848c43161dab287c0aeaabf2586db"
     }
   }
 }

@@ -18,7 +18,9 @@
     "ro": {
       "name": "eu",
       "description": "Acest element ilustrează diftongul românesc eu așa cum apare în cuvântul greu.",
-      "ipa": "/ew/"
+      "ipa": "/ew/",
+      "context": "/ɡrew/",
+      "example": "greu"
     },
     "de": {
       "name": "eu in greu (schwer / schwierig)",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 8784,
-      "sha1": "f6f6da9afecc83387dd07d28b62dc261af657a8d"
+      "bytes": 11232,
+      "sha1": "afcdf267eebd7cf4f0b2da4b9ec3f32965c2cb32"
+    },
+    "read/ro.mp3": {
+      "bytes": 523584,
+      "sha1": "7cc5bceb5962d73df32e44e94e6d51304ced636b"
     }
   }
 }

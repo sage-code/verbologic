@@ -40,7 +40,8 @@
       "description": "Letter name: cu. Example: queso.",
       "ipa": "/ku/",
       "example": "queso",
-      "context": "cu"
+      "context": "/ˈke.so/",
+      "ttsText": "cu"
     },
     "fr": {
       "name": "Q",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/es.mp3": {
-      "bytes": 8064,
-      "sha1": "86cb7974dfb37cbf15941858f5ee4ba38c7e08f0"
+      "bytes": 11232,
+      "sha1": "08d7e4701ed453d20e9cbe5c4866275ff0d23fcf"
+    },
+    "read/es.mp3": {
+      "bytes": 524880,
+      "sha1": "1ce44d2a26ab3691d5da0da3a339bc4dce0e1417"
     }
   }
 }

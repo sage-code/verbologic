@@ -30,7 +30,8 @@
       "description": "Letter name: е. Example: ель.",
       "ipa": "/je/",
       "example": "ель",
-      "context": "е"
+      "context": "/jelʲ/",
+      "ttsText": "е"
     },
     "it": {
       "name": "Е",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "5fc97210ca379809261ded520304588234f41d4a"
+      "sha1": "8cdff57db8d0dc824a1fff8e3d4b2b2f39cbc2a3"
+    },
+    "read/ru.mp3": {
+      "bytes": 546624,
+      "sha1": "f36052e8c1d0129b8971d91b120be7ee6d8e5993"
     }
   }
 }

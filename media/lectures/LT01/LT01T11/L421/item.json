@@ -35,7 +35,8 @@
       "description": "Letter name: esse. Example: sera.",
       "ipa": "/ˈɛsse/",
       "example": "sera",
-      "context": "esse"
+      "context": "/ˈse.ra/",
+      "ttsText": "esse"
     },
     "es": {
       "name": "S",
@@ -61,7 +62,11 @@
   "files": {
     "sound/it.mp3": {
       "bytes": 11232,
-      "sha1": "7188279ac073548f702cf303a282e95026aa4498"
+      "sha1": "c9bb584a3603dd1475d8fc13bc932e448994a941"
+    },
+    "read/it.mp3": {
+      "bytes": 580176,
+      "sha1": "6eeeff2296f4cdc254b1df04add046b2e6ec5900"
     }
   }
 }

@@ -18,7 +18,9 @@
     "ro": {
       "name": "ie",
       "description": "Diftongul ie se regăsește în cuvântul românesc ieri.",
-      "ipa": "/je/"
+      "ipa": "/je/",
+      "context": "/jerʲ/",
+      "example": "ieri"
     },
     "de": {
       "name": "ie in ieri (gestern)",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "0ac5dcf8a6ae3b84af061f21c51e1cf3e779dc3a"
+      "sha1": "579a82ba9d3389432c411b5e1184c0d0e008f13c"
+    },
+    "read/ro.mp3": {
+      "bytes": 501408,
+      "sha1": "061b323a7b841fa75c52c934803f1a172129b2e0"
     }
   }
 }

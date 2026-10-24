@@ -55,13 +55,18 @@
       "description": "Letter name: á. Example: água.",
       "ipa": "/a/",
       "example": "água",
-      "context": "á"
+      "context": "/ˈa.ɡwɐ/",
+      "ttsText": "á"
     }
   },
   "files": {
     "sound/pt.mp3": {
       "bytes": 11232,
-      "sha1": "c5394d0c14ab1624f38a7932f8cef237f1b29995"
+      "sha1": "252cdb78c38f71d1cb35dde981b55dd1baeef783"
+    },
+    "read/pt.mp3": {
+      "bytes": 564912,
+      "sha1": "f3ebb945c6dd16bbe00a1bb3a6149f3d819e1094"
     }
   }
 }

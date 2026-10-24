@@ -55,13 +55,18 @@
       "description": "Letter name: u. Example: um.",
       "ipa": "/u/",
       "example": "um",
-      "context": "u"
+      "context": "/ˈũ/",
+      "ttsText": "u"
     }
   },
   "files": {
     "sound/pt.mp3": {
       "bytes": 11232,
-      "sha1": "7b50b2fb75987c1e777986f381ded5fb7f737834"
+      "sha1": "0c1bad047b3ad2d5b3db6e00588f1bea6cc7a257"
+    },
+    "read/pt.mp3": {
+      "bytes": 601344,
+      "sha1": "a21e64e1afea537a90a3fce2f6c12dfbd45d4bc4"
     }
   }
 }

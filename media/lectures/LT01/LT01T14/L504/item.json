@@ -50,7 +50,8 @@
       "description": "Letter name: emm. Example: ma.",
       "ipa": "/ɛm/",
       "example": "ma",
-      "context": "emm"
+      "context": "/ˈmɒ/",
+      "ttsText": "emm"
     },
     "pt": {
       "name": "M",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "36ae4c28394a85f4fdb966aac390a6f006d43caa"
+      "sha1": "0d7c6d6958de928af93f08462671304fcd61ffee"
+    },
+    "read/hu.mp3": {
+      "bytes": 477648,
+      "sha1": "78401a328be806e8df65c79c996a8b6d4715ca34"
     }
   }
 }

@@ -30,7 +30,8 @@
       "description": "Letter name: мягкий знак. Example: день.",
       "ipa": "/ˈmʲaxkʲɪj ˈznak/",
       "example": "день",
-      "context": "мягкий знак"
+      "context": "/dʲenʲ/",
+      "ttsText": "мягкий знак"
     },
     "it": {
       "name": "Ь",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/ru.mp3": {
-      "bytes": 11808,
-      "sha1": "480b84427fa48bde51876d383d1acf276775bfe5"
+      "bytes": 12096,
+      "sha1": "471f024317ad19af8f40d411ad50d4eb7ee5a09c"
+    },
+    "read/ru.mp3": {
+      "bytes": 539568,
+      "sha1": "a4dceba3928efa830b31d6c19c20219aea671ca7"
     }
   }
 }

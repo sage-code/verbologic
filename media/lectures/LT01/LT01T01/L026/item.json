@@ -18,7 +18,9 @@
     "ro": {
       "name": "V",
       "description": "Litera V este a douăzeci și treia literă a alfabetului român.",
-      "ipa": "/v/"
+      "ipa": "/v/",
+      "context": "/ˈvi.no/",
+      "example": "verde"
     },
     "de": {
       "name": "V",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 7920,
-      "sha1": "fa9d6c15101d435be5daa98ebf5350441f99a516"
+      "bytes": 11232,
+      "sha1": "ac15c632138a342b51c89912958ccffef451b42c"
+    },
+    "read/ro.mp3": {
+      "bytes": 375696,
+      "sha1": "1ef611aeabb9094802fcbe3b063be5b0f50a2dd7"
     }
   }
 }

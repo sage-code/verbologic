@@ -55,13 +55,18 @@
       "description": "Letter name: pê. Example: pão.",
       "ipa": "/pe/",
       "example": "pão",
-      "context": "pê"
+      "context": "/ˈpɐ̃w̃/",
+      "ttsText": "pê"
     }
   },
   "files": {
     "sound/pt.mp3": {
       "bytes": 11232,
-      "sha1": "4a003c83402c1702959c891b6804a57a6b121430"
+      "sha1": "7d802dacee8ab514d10519ea750c2d2a48998f01"
+    },
+    "read/pt.mp3": {
+      "bytes": 430992,
+      "sha1": "9ab9328dae43401edf2898d0402915bb557efd9d"
     }
   }
 }

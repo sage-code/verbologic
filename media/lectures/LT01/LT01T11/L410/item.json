@@ -35,7 +35,8 @@
       "description": "Letter name: effe. Example: fare.",
       "ipa": "/ˈɛffe/",
       "example": "fare",
-      "context": "effe"
+      "context": "/ˈfa.re/",
+      "ttsText": "effe"
     },
     "es": {
       "name": "F",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/it.mp3": {
-      "bytes": 5328,
-      "sha1": "859fbdfcbc37d1e2bf410b29b982d4ea1c407c98"
+      "bytes": 11232,
+      "sha1": "65b4728d7a94e6d46d61c71bb7afb75f4b506b30"
+    },
+    "read/it.mp3": {
+      "bytes": 422064,
+      "sha1": "e8a243ad58d5a9631900814bf8456f895b205785"
     }
   }
 }

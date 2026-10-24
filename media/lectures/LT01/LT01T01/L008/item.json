@@ -18,7 +18,9 @@
     "ro": {
       "name": "F",
       "description": "Litera F este a șasea literă a alfabetului român.",
-      "ipa": "/f/"
+      "ipa": "/f/",
+      "context": "/flo̯a.re/",
+      "example": "floare"
     },
     "de": {
       "name": "F",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 8208,
-      "sha1": "0588c3c2ca2734db40e763bd2efe2eba53c3c737"
+      "bytes": 11232,
+      "sha1": "516eff38b0bd0c28a3f912d8a68c34cceffc1a62"
+    },
+    "read/ro.mp3": {
+      "bytes": 432144,
+      "sha1": "ae46f0ac202448a5ea351f691165faa7be87aac4"
     }
   }
 }

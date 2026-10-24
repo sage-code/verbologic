@@ -45,7 +45,8 @@
       "description": "Letter name: pé. Example: pain.",
       "ipa": "/pe/",
       "example": "pain",
-      "context": "pé"
+      "context": "/pɛ̃/",
+      "ttsText": "pé"
     },
     "hu": {
       "name": "P",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/fr.mp3": {
-      "bytes": 7488,
-      "sha1": "d22390c56f388a0c9c41c531d79e3629366fb587"
+      "bytes": 11232,
+      "sha1": "abc56aebc81eb50d635d74d1314c12da730b071e"
+    },
+    "read/fr.mp3": {
+      "bytes": 351360,
+      "sha1": "80bbd18e12fb803fe3dd74e1525ffe75cc37eacb"
     }
   }
 }

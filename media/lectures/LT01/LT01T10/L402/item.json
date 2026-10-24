@@ -30,7 +30,8 @@
       "description": "Letter name: э. Example: это.",
       "ipa": "/ɛ/",
       "example": "это",
-      "context": "э"
+      "context": "/ˈɛtə/",
+      "ttsText": "э"
     },
     "it": {
       "name": "Э",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "a5ff9d6a1f8e5295ba826a9e4c9915c8b540e7a6"
+      "sha1": "767e60f43e6a1978eac372de5d378ac86bb7286a"
+    },
+    "read/ru.mp3": {
+      "bytes": 483984,
+      "sha1": "bf2fbc7e6adc9d65a4e4b8d184cbe982d3a93f25"
     }
   }
 }

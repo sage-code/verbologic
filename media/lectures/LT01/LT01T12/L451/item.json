@@ -35,7 +35,8 @@
       "description": "Letter name: te. Example: tiempo.",
       "ipa": "/te/",
       "example": "tiempo",
-      "context": "te"
+      "context": "/ˈtjem.po/",
+      "ttsText": "te"
     },
     "fr": {
       "name": "T",
@@ -53,7 +54,11 @@
   "files": {
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "d3c6269154d49c0f2d7f79ae5c8fbdc479228063"
+      "sha1": "3d2da661eab5221c023727a562054e65f0430fa4"
+    },
+    "read/es.mp3": {
+      "bytes": 509184,
+      "sha1": "12afd71344904994a304a2e756b5d4ea740f2531"
     }
   }
 }

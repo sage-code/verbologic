@@ -45,7 +45,8 @@
       "description": "Letter name: qu. Example: quatre.",
       "ipa": "/ky/",
       "example": "quatre",
-      "context": "qu"
+      "context": "/katʁ/",
+      "ttsText": "qu"
     },
     "hu": {
       "name": "Q",
@@ -61,7 +62,11 @@
   "files": {
     "sound/fr.mp3": {
       "bytes": 11232,
-      "sha1": "751b989d36b1bc0f5f58876e6ae6df097e210e88"
+      "sha1": "d4a276c956dcb3178903ea80980f9a602f583d48"
+    },
+    "read/fr.mp3": {
+      "bytes": 477072,
+      "sha1": "cb9559f5a2550582795e205a91970353bd021fdd"
     }
   }
 }

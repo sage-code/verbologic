@@ -55,13 +55,18 @@
       "description": "Letter name: zê. Example: zebra.",
       "ipa": "/ze/",
       "example": "zebra",
-      "context": "zê"
+      "context": "/ˈze.βɾɐ/",
+      "ttsText": "zê"
     }
   },
   "files": {
     "sound/pt.mp3": {
       "bytes": 11232,
-      "sha1": "8499f30eb340e74c0172f48f52ea36cb2c7a269c"
+      "sha1": "4c13c1eb52c364d6720bf2f023274e5ed43cf0bb"
+    },
+    "read/pt.mp3": {
+      "bytes": 503136,
+      "sha1": "0cbc34d2ae8d70150021709be325f914575b85f9"
     }
   }
 }

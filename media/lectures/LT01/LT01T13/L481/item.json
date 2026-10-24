@@ -45,7 +45,8 @@
       "description": "Letter name: ixe. Example: xylophone.",
       "ipa": "/iks/",
       "example": "xylophone",
-      "context": "ixe"
+      "context": "/ɡzi.lɔ.fɔn/",
+      "ttsText": "ixe"
     },
     "hu": {
       "name": "X",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/fr.mp3": {
-      "bytes": 11232,
-      "sha1": "f3653da18993e09f903563ab4a96be634b270bb7"
+      "bytes": 8640,
+      "sha1": "d21d436e68c7ee88b13a349b2ef37f091151deb6"
+    },
+    "read/fr.mp3": {
+      "bytes": 545040,
+      "sha1": "0f9e819549f346905f728cd0886d1c0a6ff316c7"
     }
   }
 }

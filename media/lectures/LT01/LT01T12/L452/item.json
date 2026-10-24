@@ -35,7 +35,8 @@
       "description": "Letter name: u. Example: uno.",
       "ipa": "/u/",
       "example": "uno",
-      "context": "u"
+      "context": "/ˈu.no/",
+      "ttsText": "u"
     },
     "fr": {
       "name": "U",
@@ -52,8 +53,12 @@
   },
   "files": {
     "sound/es.mp3": {
-      "bytes": 7488,
-      "sha1": "990dd762c299bdd7899fc6a5a2ec7a2fac0f1216"
+      "bytes": 11232,
+      "sha1": "347fb894bae410deebfa3d8a6da81278f7de814e"
+    },
+    "read/es.mp3": {
+      "bytes": 560304,
+      "sha1": "1f8e19139b52766aea3e865e5fd3359e11a99250"
     }
   }
 }

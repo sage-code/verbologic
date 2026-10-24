@@ -18,7 +18,9 @@
     "ro": {
       "name": "ea",
       "description": "Diftongul ea se regăsește în cuvântul românesc seară.",
-      "ipa": "/e̯a/"
+      "ipa": "/e̯a/",
+      "context": "/ˈse̯a.rə/",
+      "example": "seară"
     },
     "de": {
       "name": "ea in seară (Abend)",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 8352,
-      "sha1": "f78022d09f0373fdabf0d7e78fb6fbcf1b94e622"
+      "bytes": 11232,
+      "sha1": "3637970e2fc89682ebf7873f136eccc616eb769a"
+    },
+    "read/ro.mp3": {
+      "bytes": 539280,
+      "sha1": "0e40eae930d3fdab5df63135fac450424709c12c"
     }
   }
 }

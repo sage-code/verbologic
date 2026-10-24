@@ -50,7 +50,8 @@
       "description": "Letter name: essz. Example: szem.",
       "ipa": "/ɛs/",
       "example": "szem",
-      "context": "essz"
+      "context": "/ˈsɛm/",
+      "ttsText": "essz"
     },
     "pt": {
       "name": "Sz",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/hu.mp3": {
-      "bytes": 11232,
-      "sha1": "abca1f538f2d100ef5057be81893299606833c73"
+      "bytes": 8064,
+      "sha1": "554d189cf15f30f4ced0e51a79636d83d4d6e05e"
+    },
+    "read/hu.mp3": {
+      "bytes": 449856,
+      "sha1": "fc9e8df46d8d6fd077fe18e3157f1bcaeef8d727"
     }
   }
 }

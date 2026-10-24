@@ -50,7 +50,8 @@
       "description": "Letter name: i. Example: itt.",
       "ipa": "/i/",
       "example": "itt",
-      "context": "i"
+      "context": "/ˈitː/",
+      "ttsText": "i"
     },
     "pt": {
       "name": "I",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "7c970f87db8464c6fae4aa0ad58c9331e893dcaf"
+      "sha1": "6b06cf314b0bce99cabae6626b3904d845fa32cc"
+    },
+    "read/hu.mp3": {
+      "bytes": 469728,
+      "sha1": "0a3afc41c36737a87279cebb260b9f228d0d42f7"
     }
   }
 }

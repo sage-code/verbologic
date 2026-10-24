@@ -30,7 +30,8 @@
       "description": "Letter name: ша. Example: школа.",
       "ipa": "/ʃa/",
       "example": "школа",
-      "context": "ша"
+      "context": "/ˈʂko.ɫə/",
+      "ttsText": "ша"
     },
     "it": {
       "name": "Ш",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/ru.mp3": {
-      "bytes": 11232,
-      "sha1": "62dc0714921db06e362773d088fb5633684e8b3c"
+      "bytes": 8784,
+      "sha1": "e19b521e96f027bd6ebddbc809a2173e68f650e7"
+    },
+    "read/ru.mp3": {
+      "bytes": 511344,
+      "sha1": "a5734e77fe44b23d4639c5f66645a3fa22dfc191"
     }
   }
 }

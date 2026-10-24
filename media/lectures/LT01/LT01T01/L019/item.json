@@ -18,7 +18,9 @@
     "ro": {
       "name": "P",
       "description": "Litera P este a șaisprezecea literă a alfabetului român.",
-      "ipa": "/p/"
+      "ipa": "/p/",
+      "context": "/pəˈmɨnt/",
+      "example": "pâine"
     },
     "de": {
       "name": "P",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "e9a4b6f4d0cfe7f1e9742b874aa63764fe543c0a"
+      "sha1": "3d7b5aa9ada439379a114c217ae293828b0c46c8"
+    },
+    "read/ro.mp3": {
+      "bytes": 526896,
+      "sha1": "a15939c50ce5fc20670302d544896c3ff3c9bdce"
     }
   }
 }

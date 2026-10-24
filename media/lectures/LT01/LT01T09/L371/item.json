@@ -25,7 +25,8 @@
       "description": "Letter name: Eszett. Example: Straße.",
       "ipa": "/ɛsˈtsɛt/",
       "example": "Straße",
-      "context": "Eszett"
+      "context": "/ˈʃtʁaːsə/",
+      "ttsText": "Eszett"
     },
     "ru": {
       "name": "ß",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/de.mp3": {
-      "bytes": 9072,
-      "sha1": "475f93e608bb08b71b9d30f8c16823cac32a7582"
+      "bytes": 11232,
+      "sha1": "020bb7a790520370959cf8ff084bb862e0c28109"
+    },
+    "read/de.mp3": {
+      "bytes": 557712,
+      "sha1": "12fbdf00de890bbe9c2d95172fa29bb0870306d1"
     }
   }
 }

@@ -50,7 +50,8 @@
       "description": "Letter name: a. Example: alma.",
       "ipa": "/ɒ/",
       "example": "alma",
-      "context": "a"
+      "context": "/ˈɒlmɒ/",
+      "ttsText": "a"
     },
     "pt": {
       "name": "A",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "364a2cb65b38047bfdfd560b604c4b6b819bb74a"
+      "sha1": "aff555215db638c3ef50354cb80b46791525fa7b"
+    },
+    "read/hu.mp3": {
+      "bytes": 482832,
+      "sha1": "4c3ba7185adc225902f3579fac6cd8dd40843fed"
     }
   }
 }

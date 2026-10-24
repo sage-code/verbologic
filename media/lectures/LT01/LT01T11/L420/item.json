@@ -35,7 +35,8 @@
       "description": "Letter name: erre. Example: sole.",
       "ipa": "/ˈɛrre/",
       "example": "sole",
-      "context": "erre"
+      "context": "/ˈsɔ.le/",
+      "ttsText": "erre"
     },
     "es": {
       "name": "R",
@@ -61,7 +62,11 @@
   "files": {
     "sound/it.mp3": {
       "bytes": 11232,
-      "sha1": "557338568379de964a9c7569a309a1ae801f2264"
+      "sha1": "9d384324c7a57d6bcc03af9b91f2876891827abf"
+    },
+    "read/it.mp3": {
+      "bytes": 442368,
+      "sha1": "7d1299724a3bbc54fa78a01ae42aa9f72df111a7"
     }
   }
 }

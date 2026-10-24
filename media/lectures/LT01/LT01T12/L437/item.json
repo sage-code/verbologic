@@ -40,7 +40,8 @@
       "description": "Letter name: ge. Example: gato.",
       "ipa": "/xe/",
       "example": "gato",
-      "context": "ge"
+      "context": "/ˈɡa.to/",
+      "ttsText": "ge"
     },
     "fr": {
       "name": "G",
@@ -61,7 +62,11 @@
   "files": {
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "18d561b76a0ab78c81290bbfb759f89c1d8798c1"
+      "sha1": "df93fdd93a545c73345cdb0262997ba89d83e42a"
+    },
+    "read/es.mp3": {
+      "bytes": 372240,
+      "sha1": "a3ae63c374eee49301652aa7ccbc7d9e7eb36a18"
     }
   }
 }

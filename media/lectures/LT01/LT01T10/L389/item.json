@@ -30,7 +30,8 @@
       "description": "Letter name: эр. Example: рука.",
       "ipa": "/ɛr/",
       "example": "рука",
-      "context": "эр"
+      "context": "/rʊˈka/",
+      "ttsText": "эр"
     },
     "it": {
       "name": "Р",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/ru.mp3": {
-      "bytes": 8352,
-      "sha1": "1244852803f5e15b46920871884b08cea20d1a2f"
+      "bytes": 11232,
+      "sha1": "134e7c9f5b546b95bf60a8dc4c8ea7ddd56b4d29"
+    },
+    "read/ru.mp3": {
+      "bytes": 497376,
+      "sha1": "b113fcc57f1d010a7c7480b8b71a33aee857d6b4"
     }
   }
 }

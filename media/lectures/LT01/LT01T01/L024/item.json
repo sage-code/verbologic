@@ -18,7 +18,9 @@
     "ro": {
       "name": "Ț",
       "description": "Litera Ț este a douăzeci și una literă a alfabetului român.",
-      "ipa": "/ts/"
+      "ipa": "/ts/",
+      "context": "/ˈtsa.rə/",
+      "example": "țară"
     },
     "de": {
       "name": "Ț",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 11232,
-      "sha1": "bec7ffffa08e665f0b60fd0db32b483ba8391e0d"
+      "bytes": 7920,
+      "sha1": "acc19e3fc1de4830716b33a567bce9a0ab361c2f"
+    },
+    "read/ro.mp3": {
+      "bytes": 520704,
+      "sha1": "baa37718b25d7375511683221545ba2f22590499"
     }
   }
 }

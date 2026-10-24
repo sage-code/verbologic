@@ -50,7 +50,8 @@
       "description": "Letter name: dé. Example: dob.",
       "ipa": "/deː/",
       "example": "dob",
-      "context": "dé"
+      "context": "/ˈdob/",
+      "ttsText": "dé"
     },
     "pt": {
       "name": "D",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/hu.mp3": {
-      "bytes": 11232,
-      "sha1": "6fd485d5b0b2532f53ea60f0c66a2076d344f12d"
+      "bytes": 7920,
+      "sha1": "f75560f8ea098f0963fa7c17d684ec9558674a51"
+    },
+    "read/hu.mp3": {
+      "bytes": 462816,
+      "sha1": "9ae5db6f615cee97a66626dce43331b1ee5fe43d"
     }
   }
 }

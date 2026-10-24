@@ -50,7 +50,8 @@
       "description": "Letter name: ká. Example: kék.",
       "ipa": "/kaː/",
       "example": "kék",
-      "context": "ká"
+      "context": "/ˈkeːk/",
+      "ttsText": "ká"
     },
     "pt": {
       "name": "K",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "0004f1e6752bfabeaf1f4bbf3d37c4e7495aff5b"
+      "sha1": "09f0354e19e372af02f4e533959d9aecdd1b5f48"
+    },
+    "read/hu.mp3": {
+      "bytes": 483264,
+      "sha1": "1c55ceaf000868e2558a6d1ee784b7ec13a09b7a"
     }
   }
 }

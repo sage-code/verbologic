@@ -25,7 +25,8 @@
       "description": "Letter name: Er. Example: Rot.",
       "ipa": "/ɛʁ/",
       "example": "Rot",
-      "context": "Er"
+      "context": "/ʁoːt/",
+      "ttsText": "Er"
     },
     "ru": {
       "name": "R",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "3198a045c631d9f5f09a85e445a029e63fde2e32"
+      "sha1": "369e70e03e6273cdcc0548b6d998a11a6edeef84"
+    },
+    "read/de.mp3": {
+      "bytes": 595008,
+      "sha1": "3775d50d1187ca1421bd18fcb8fb03dbcdf6ab23"
     }
   }
 }

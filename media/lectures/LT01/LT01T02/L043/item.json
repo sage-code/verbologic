@@ -18,7 +18,9 @@
     "ro": {
       "name": "au",
       "description": "Acest element ilustrează diftongul românesc au așa cum apare în cuvântul sau.",
-      "ipa": "/aw/"
+      "ipa": "/aw/",
+      "context": "/saw/",
+      "example": "aur"
     },
     "de": {
       "name": "au in sau (oder)",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 7920,
-      "sha1": "46f58db0c6dd97113ac10a5d46801858cc82d8c9"
+      "bytes": 11232,
+      "sha1": "faf2cf199380adb8fc2c1cbaa0c5c3480d428d31"
+    },
+    "read/ro.mp3": {
+      "bytes": 551232,
+      "sha1": "5670e4edb26786b7dd6d2d5341df95367e930c05"
     }
   }
 }

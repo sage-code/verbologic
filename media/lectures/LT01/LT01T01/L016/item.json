@@ -18,7 +18,9 @@
     "ro": {
       "name": "M",
       "description": "Litera M este a treisprezecea literă a alfabetului român.",
-      "ipa": "/m/"
+      "ipa": "/m/",
+      "context": "/ˈma.mə/",
+      "example": "mare"
     },
     "de": {
       "name": "M",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "bb9c1dcb310ae38602e9db80dedb1ed586895923"
+      "sha1": "1d9db785611645a812d6d5da008ce579bcbcbe16"
+    },
+    "read/ro.mp3": {
+      "bytes": 510480,
+      "sha1": "dbfc8526c0a66655217a9297354732266b7752ba"
     }
   }
 }

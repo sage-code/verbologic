@@ -35,7 +35,8 @@
       "description": "Letter name: acca. Example: hotel.",
       "ipa": "/ˈakka/",
       "example": "hotel",
-      "context": "acca"
+      "context": "/oˈtɛl/",
+      "ttsText": "acca"
     },
     "es": {
       "name": "H",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/it.mp3": {
-      "bytes": 11232,
-      "sha1": "2ac076bfa22b4c33f83ba998c242df72108d4e1b"
+      "bytes": 5472,
+      "sha1": "65e41fa58313c9bbac6c596995aae2db29a3cec5"
+    },
+    "read/it.mp3": {
+      "bytes": 476784,
+      "sha1": "68d4ef1bbbe15098e3b2a9a1a2df8fc900019f24"
     }
   }
 }

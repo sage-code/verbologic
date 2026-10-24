@@ -25,7 +25,8 @@
       "description": "Letter name: En. Example: Name.",
       "ipa": "/ɛn/",
       "example": "Name",
-      "context": "En"
+      "context": "/ˈnaːmə/",
+      "ttsText": "En"
     },
     "ru": {
       "name": "N",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "e2a2b5b640a92bf35d22a4037dd9906567399b86"
+      "sha1": "a862ce80266b8edb45ffb329c7336aab71f2c59c"
+    },
+    "read/de.mp3": {
+      "bytes": 562464,
+      "sha1": "c0dc58e34fb39f8598393f134308ca6168be00e1"
     }
   }
 }

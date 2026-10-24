@@ -50,7 +50,8 @@
       "description": "Letter name: pé. Example: piros.",
       "ipa": "/peː/",
       "example": "piros",
-      "context": "pé"
+      "context": "/ˈpiroʃ/",
+      "ttsText": "pé"
     },
     "pt": {
       "name": "P",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "693e536573a2f4e16931a06ec5bb747e9ee0acd9"
+      "sha1": "687829bd872df0eb24f13f44a769c7f50a1e5fa9"
+    },
+    "read/hu.mp3": {
+      "bytes": 474480,
+      "sha1": "97c115b383e4b92df0fb60fda2c115cd690f0471"
     }
   }
 }

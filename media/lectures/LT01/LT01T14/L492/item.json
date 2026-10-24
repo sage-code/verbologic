@@ -50,7 +50,8 @@
       "description": "Letter name: e. Example: este.",
       "ipa": "/ɛ/",
       "example": "este",
-      "context": "e"
+      "context": "/ˈɛʃtɛ/",
+      "ttsText": "e"
     },
     "pt": {
       "name": "E",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "8c6901ddc6f5ba6bb61580de9eec399ac2d77878"
+      "sha1": "e547de2310eef3c20171425409a0af9bacc6752e"
+    },
+    "read/hu.mp3": {
+      "bytes": 441792,
+      "sha1": "f76f18912392a5e46f2ea5b92a234cd3d2665b5f"
     }
   }
 }

@@ -50,7 +50,8 @@
       "description": "Letter name: zé. Example: zöld.",
       "ipa": "/zsɛ/",
       "example": "zöld",
-      "context": "zé"
+      "context": "/ˈzøld/",
+      "ttsText": "zé"
     },
     "pt": {
       "name": "Z",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "391ddf2b466a6a9a60e2644adde9260deb92ed07"
+      "sha1": "ac54decdecac615a799ca2ba1a8f61dad08f4804"
+    },
+    "read/hu.mp3": {
+      "bytes": 424224,
+      "sha1": "366efe232415b3b4f612e812af2f9400c72222ec"
     }
   }
 }

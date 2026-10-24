@@ -35,7 +35,8 @@
       "description": "Letter name: gi. Example: gatto.",
       "ipa": "/dʒi/",
       "example": "gatto",
-      "context": "gi"
+      "context": "/ˈɡat.to/",
+      "ttsText": "gi"
     },
     "es": {
       "name": "G",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/it.mp3": {
-      "bytes": 4464,
-      "sha1": "3eec16329ce90e02300cb3af049935b49a993fdd"
+      "bytes": 4176,
+      "sha1": "2e23a2bb1b7ba32ea47c9fd701616a3e4fb7cc5d"
+    },
+    "read/it.mp3": {
+      "bytes": 628272,
+      "sha1": "df04eb064d7e0416dddb6df6463ce2583ce69049"
     }
   }
 }

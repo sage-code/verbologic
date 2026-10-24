@@ -50,7 +50,8 @@
       "description": "Letter name: é. Example: ég.",
       "ipa": "/eː/",
       "example": "ég",
-      "context": "é"
+      "context": "/eːɡ/",
+      "ttsText": "é"
     },
     "pt": {
       "name": "É",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "ee328d1d5e9e58c41c04e52f99951f526eb4f566"
+      "sha1": "e98198af545e8337c200efb3e170f7f27a35e294"
+    },
+    "read/hu.mp3": {
+      "bytes": 481680,
+      "sha1": "9dfeb156f80639bcb1d5c6844d96d4953e3f0ed7"
     }
   }
 }

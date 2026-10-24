@@ -18,7 +18,9 @@
     "ro": {
       "name": "iau",
       "description": "Acest element ilustrează diftongul românesc iau, așa cum apare în forma verbală iau.",
-      "ipa": "/jaw/"
+      "ipa": "/jaw/",
+      "context": "/jaw/",
+      "example": "iau"
     },
     "de": {
       "name": "iau in iau (ich nehme / sie nehmen)",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 9072,
-      "sha1": "6fa9e3e6725fa56487386cc27f7aa8265ae64d4a"
+      "bytes": 11232,
+      "sha1": "e2e444c3c49c0fe08d47108701dcec66c10c7d8d"
+    },
+    "read/ro.mp3": {
+      "bytes": 517392,
+      "sha1": "bcdecb80d9d92b64ea7b905a0798badf3d6fa8db"
     }
   }
 }

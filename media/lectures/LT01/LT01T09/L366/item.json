@@ -25,7 +25,8 @@
       "description": "Letter name: Ypsilon. Example: Yoga.",
       "ipa": "/ʏpsilɔn/",
       "example": "Yoga",
-      "context": "Ypsilon"
+      "context": "/ˈjoːɡa/",
+      "ttsText": "Ypsilon"
     },
     "ru": {
       "name": "Y",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "224c42d3133c2c639e1b514253e6bb158fc96975"
+      "sha1": "f6f76f7af8f05643a013f45392b871ea03b82728"
+    },
+    "read/de.mp3": {
+      "bytes": 550800,
+      "sha1": "89e02eb66f74f0c514f46ebe68f2ae30bddf8519"
     }
   }
 }

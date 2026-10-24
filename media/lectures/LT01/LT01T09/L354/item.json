@@ -25,7 +25,8 @@
       "description": "Letter name: Em. Example: Mutter.",
       "ipa": "/ɛm/",
       "example": "Mutter",
-      "context": "Em"
+      "context": "/ˈmʊtɐ/",
+      "ttsText": "Em"
     },
     "ru": {
       "name": "M",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/de.mp3": {
-      "bytes": 7344,
-      "sha1": "f3d5797aeee7543571026e38a6eb10f98a848687"
+      "bytes": 11232,
+      "sha1": "899ccaa280223589e0d12ddbde39eec259c9df4e"
+    },
+    "read/de.mp3": {
+      "bytes": 467280,
+      "sha1": "d75ee57c261f7247c6d505f95fa0d534f5827eaa"
     }
   }
 }

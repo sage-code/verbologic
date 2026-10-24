@@ -18,7 +18,9 @@
     "ro": {
       "name": "E",
       "description": "Litera E este a cincea literă a alfabetului român.",
-      "ipa": "/e/"
+      "ipa": "/e/",
+      "context": "/ˈe.le.fant/",
+      "example": "elev"
     },
     "de": {
       "name": "E",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 7776,
-      "sha1": "ca8a4d31cc826420c84c3b4a123e847fcfc4d449"
+      "bytes": 11232,
+      "sha1": "b1d9b53b06a6db30380704e87c14d197fb950ebd"
+    },
+    "read/ro.mp3": {
+      "bytes": 546768,
+      "sha1": "f8c594348b2e2628c755e38e3393eecc72e0b36c"
     }
   }
 }

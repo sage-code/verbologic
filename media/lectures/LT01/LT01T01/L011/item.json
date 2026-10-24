@@ -18,7 +18,9 @@
     "ro": {
       "name": "I",
       "description": "Litera I este a noua literă a alfabetului român.",
-      "ipa": "/i/ or /j/"
+      "ipa": "/i/ or /j/",
+      "context": "/iˈnel/",
+      "example": "inimă"
     },
     "de": {
       "name": "I",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "1ec3dc900de13e5a128befe3e64b0a05a116fc42"
+      "sha1": "15878fdf1bd61b3e7618bf4eec24bdeb8f8134df"
+    },
+    "read/ro.mp3": {
+      "bytes": 460944,
+      "sha1": "017190def1528dee616abd1f8060e33088687bd4"
     }
   }
 }

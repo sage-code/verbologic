@@ -25,7 +25,8 @@
       "description": "Letter name: Ha. Example: Haus.",
       "ipa": "/haː/",
       "example": "Haus",
-      "context": "Ha"
+      "context": "/haʊ̯s/",
+      "ttsText": "Ha"
     },
     "ru": {
       "name": "H",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/de.mp3": {
-      "bytes": 7200,
-      "sha1": "3b793fadd1dfe9d165cc9a23010f521146c93ae9"
+      "bytes": 11232,
+      "sha1": "94ef5e8c1444de393c2d66d53adbd34e3a0267cf"
+    },
+    "read/de.mp3": {
+      "bytes": 473616,
+      "sha1": "1034015112965f6213db03c0ec7da06c0ea96bf2"
     }
   }
 }

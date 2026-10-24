@@ -18,7 +18,9 @@
     "ro": {
       "name": "Che / Chi",
       "description": "Acest element ilustrează litera k care reprezintă sunetul /k/, așa cum apare în cuvântul key.",
-      "ipa": "/ke/, /ki/"
+      "ipa": "/ke/, /ki/",
+      "context": "/kʲe̯e/",
+      "example": "chelner"
     },
     "de": {
       "name": "k in key (/k/)",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "b1268ff9fbe83673a5022e6314e2358c6f33bdf1"
+      "sha1": "63219ae1123add9d3fd1b75c86d78ddb685d0048"
+    },
+    "read/ro.mp3": {
+      "bytes": 536976,
+      "sha1": "bf9f32bb305035b1248d4763cb2294cc46e60159"
     }
   }
 }

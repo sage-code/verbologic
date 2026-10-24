@@ -50,7 +50,8 @@
       "description": "Letter name: enn. Example: nap.",
       "ipa": "/ɛn/",
       "example": "nap",
-      "context": "enn"
+      "context": "/ˈnɒp/",
+      "ttsText": "enn"
     },
     "pt": {
       "name": "N",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "8de793a8c36833625e7a0a3c716d582f0a2cf39e"
+      "sha1": "d269d3234c29f9d65db3494db0d1b3e55ee80668"
+    },
+    "read/hu.mp3": {
+      "bytes": 460224,
+      "sha1": "2314644a7bbbd05f2695b8eb59fc65e097528b77"
     }
   }
 }

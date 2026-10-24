@@ -50,7 +50,8 @@
       "description": "Letter name: bé. Example: baba.",
       "ipa": "/beː/",
       "example": "baba",
-      "context": "bé"
+      "context": "/ˈbɒbɒ/",
+      "ttsText": "bé"
     },
     "pt": {
       "name": "B",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "54ac98deba263e812e2b9b7182564f75d69c1cfc"
+      "sha1": "c7fc4f72b949365d9aadaccb838d65b1bd5ba168"
+    },
+    "read/hu.mp3": {
+      "bytes": 434304,
+      "sha1": "fb02c0f4d26824670f335bfa51d2ee0b7e6c8ea7"
     }
   }
 }

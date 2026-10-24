@@ -35,7 +35,8 @@
       "description": "Letter name: ye. Example: yo.",
       "ipa": "/ˈje/",
       "example": "yo",
-      "context": "ye"
+      "context": "/ˈɟʝo/",
+      "ttsText": "ye"
     },
     "fr": {
       "name": "Y",
@@ -52,8 +53,12 @@
   },
   "files": {
     "sound/es.mp3": {
-      "bytes": 9504,
-      "sha1": "2b5bc54c7f435b1ea2da2777ededa6b0bb92a56d"
+      "bytes": 11232,
+      "sha1": "49987906e07bd1b9b6968d7541caec459b0f987e"
+    },
+    "read/es.mp3": {
+      "bytes": 647712,
+      "sha1": "9c24c5241f2b5c5d33e264110bb234817054d41f"
     }
   }
 }

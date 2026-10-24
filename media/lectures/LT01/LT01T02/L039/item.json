@@ -18,7 +18,9 @@
     "ro": {
       "name": "ai",
       "description": "Acest element ilustrează diftongul românesc ai așa cum apare în cuvântul mai.",
-      "ipa": "/aj/"
+      "ipa": "/aj/",
+      "context": "/maj/",
+      "example": "mai"
     },
     "de": {
       "name": "ai in mai (Mai / mehr)",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "d78ecccd6694add25eb2f837a1c0f63a11f73024"
+      "sha1": "8d8ad92798c414b761b00cd597a55df40336e23f"
+    },
+    "read/ro.mp3": {
+      "bytes": 481824,
+      "sha1": "630f4a3dccb194864bf03d405bd3b8adc6cdec5b"
     }
   }
 }

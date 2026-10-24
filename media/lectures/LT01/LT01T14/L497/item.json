@@ -50,7 +50,8 @@
       "description": "Letter name: há. Example: ház.",
       "ipa": "/haː/",
       "example": "ház",
-      "context": "há"
+      "context": "/ˈhaːz/",
+      "ttsText": "há"
     },
     "pt": {
       "name": "H",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/hu.mp3": {
-      "bytes": 7920,
-      "sha1": "6fe334ecfdd70881821f6b459feecf9f6a0eacfa"
+      "bytes": 11232,
+      "sha1": "a525972db1c24df0cef843da2960558dc1297fa2"
+    },
+    "read/hu.mp3": {
+      "bytes": 474480,
+      "sha1": "663628bbd1ce72a322269dd580a97cd3c165773c"
     }
   }
 }

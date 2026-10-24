@@ -18,7 +18,9 @@
     "ro": {
       "name": "ei",
       "description": "Acest element ilustrează diftongul românesc ei așa cum apare în cuvântul trei.",
-      "ipa": "/ej/"
+      "ipa": "/ej/",
+      "context": "/trej/",
+      "example": "trei"
     },
     "de": {
       "name": "ei in trei (drei)",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 8640,
-      "sha1": "3066d240356c4f463ade85a7bd3be979e2073784"
+      "bytes": 11232,
+      "sha1": "d4fc22a9c41ba360bbae75c8506463e63670ba77"
+    },
+    "read/ro.mp3": {
+      "bytes": 536256,
+      "sha1": "4e2a215bf6dcc5fcd6ee260d31d5a8831b566992"
     }
   }
 }

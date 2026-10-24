@@ -31,7 +31,8 @@
       "description": "Letter name: ipsilon. Example: yogurt.",
       "ipa": "/ˈipsilon/",
       "example": "yogurt",
-      "context": "ipsilon"
+      "context": "/ˈjɔ.ɡurt/",
+      "ttsText": "ipsilon"
     },
     "es": {
       "name": "Y",
@@ -52,8 +53,12 @@
   },
   "files": {
     "sound/it.mp3": {
-      "bytes": 11232,
-      "sha1": "1dc49c8f2bb12ac2680928cd29125dd148340c1d"
+      "bytes": 6912,
+      "sha1": "7bace8e61d02095183d321bfd8e89bca7db7990e"
+    },
+    "read/it.mp3": {
+      "bytes": 564768,
+      "sha1": "16ae339b93252d6f173bf1f0a5b41407f4a17acf"
     }
   }
 }

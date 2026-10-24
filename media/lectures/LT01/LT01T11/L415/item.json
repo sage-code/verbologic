@@ -35,7 +35,8 @@
       "description": "Letter name: emme. Example: mare.",
       "ipa": "/ˈɛmme/",
       "example": "mare",
-      "context": "emme"
+      "context": "/ˈma.re/",
+      "ttsText": "emme"
     },
     "es": {
       "name": "M",
@@ -61,7 +62,11 @@
   "files": {
     "sound/it.mp3": {
       "bytes": 11232,
-      "sha1": "cb5c2de24f54d9f49986de205767ca991076a539"
+      "sha1": "4ad51f270752d70acf05e39b5be0a22ecc4c5942"
+    },
+    "read/it.mp3": {
+      "bytes": 433872,
+      "sha1": "761d4fdb774d81df6931743a0755d7c1f22c40c4"
     }
   }
 }

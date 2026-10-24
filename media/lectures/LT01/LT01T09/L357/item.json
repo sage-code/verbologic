@@ -25,7 +25,8 @@
       "description": "Letter name: Pe. Example: Papa.",
       "ipa": "/peː/",
       "example": "Papa",
-      "context": "Pe"
+      "context": "/ˈpaːpa/",
+      "ttsText": "Pe"
     },
     "ru": {
       "name": "P",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/de.mp3": {
-      "bytes": 7632,
-      "sha1": "340dd7daebcfaa971ad74fc768f253c382fcc8a4"
+      "bytes": 11232,
+      "sha1": "11dbdcb2a46a9df8216c90a174fa1c73b3ad7f4c"
+    },
+    "read/de.mp3": {
+      "bytes": 511920,
+      "sha1": "a89a0a64be871be381cd624022d9a0ef224db822"
     }
   }
 }

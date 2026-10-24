@@ -18,7 +18,9 @@
     "ro": {
       "name": "N",
       "description": "Litera N este a paisprezecea literă a alfabetului român.",
-      "ipa": "/n/"
+      "ipa": "/n/",
+      "context": "/now/",
+      "example": "nor"
     },
     "de": {
       "name": "N",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "4dec78c57a02500f1fdff506ad59c893f94c65d6"
+      "sha1": "be3c7150e707bc8f6dc10d9d5c6a387f9f9573db"
+    },
+    "read/ro.mp3": {
+      "bytes": 478512,
+      "sha1": "436248138969e53b6361eaa53d10001a3a19bfdc"
     }
   }
 }

@@ -25,7 +25,8 @@
       "description": "Letter name: Ka. Example: Kind.",
       "ipa": "/kaː/",
       "example": "Kind",
-      "context": "Ka"
+      "context": "/kɪnt/",
+      "ttsText": "Ka"
     },
     "ru": {
       "name": "K",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/de.mp3": {
-      "bytes": 11232,
-      "sha1": "170abbd068ceb71a177c111f2eaeb6f6fb0712e3"
+      "bytes": 8064,
+      "sha1": "2ee3887fb7665c92f52a99b7f05d562b3a4eed89"
+    },
+    "read/de.mp3": {
+      "bytes": 533808,
+      "sha1": "128134e85fc236e673e41d93071bc0ad596b1a1c"
     }
   }
 }

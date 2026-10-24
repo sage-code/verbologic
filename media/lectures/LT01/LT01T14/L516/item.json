@@ -50,7 +50,8 @@
       "description": "Letter name: té. Example: tél.",
       "ipa": "/teː/",
       "example": "tél",
-      "context": "té"
+      "context": "/ˈteːl/",
+      "ttsText": "té"
     },
     "pt": {
       "name": "T",
@@ -59,10 +60,6 @@
     }
   },
   "files": {
-    "sound/hu.mp3": {
-      "bytes": 11232,
-      "sha1": "fe5078bc4c36cb06565664fc4938fd5b8b1aff25"
-    },
     "sound/en.mp3": {
       "bytes": 4176,
       "sha1": "21fadecfbe34c560801e11539fa3b066e8429b55"
@@ -74,6 +71,14 @@
     "sound/de.mp3": {
       "bytes": 8064,
       "sha1": "be0d030cd40179f91916ecfc36d054b310953f04"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "51561bf2ef165ddd5d3070a1244b3bf338203f0e"
+    },
+    "read/hu.mp3": {
+      "bytes": 443376,
+      "sha1": "4341b72de9c0a7237e470f11bc110243f9c6622d"
     }
   }
 }

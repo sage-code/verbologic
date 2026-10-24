@@ -45,7 +45,8 @@
       "description": "Letter name: e. Example: école.",
       "ipa": "/ə/",
       "example": "école",
-      "context": "e"
+      "context": "/e.kɔl/",
+      "ttsText": "e"
     },
     "hu": {
       "name": "E",
@@ -61,7 +62,11 @@
   "files": {
     "sound/fr.mp3": {
       "bytes": 11232,
-      "sha1": "0a2751154f19afbf000167027b89561068d850c3"
+      "sha1": "33b759b795efbf96a7f05f653d95f2d6d0c4a0cf"
+    },
+    "read/fr.mp3": {
+      "bytes": 418320,
+      "sha1": "68fe4ee820b406bfeb0a1426c6a543b3aea71341"
     }
   }
 }

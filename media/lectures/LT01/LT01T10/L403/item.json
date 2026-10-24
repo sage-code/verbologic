@@ -30,7 +30,8 @@
       "description": "Letter name: ю. Example: юг.",
       "ipa": "/ju/",
       "example": "юг",
-      "context": "ю"
+      "context": "/juk/",
+      "ttsText": "ю"
     },
     "it": {
       "name": "Ю",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/ru.mp3": {
-      "bytes": 9504,
-      "sha1": "c4bdfdd1301b4d6ebfcac2df5686738acd970e1c"
+      "bytes": 11232,
+      "sha1": "e42f0d5edd514dd943460265841584b8455ec3f1"
+    },
+    "read/ru.mp3": {
+      "bytes": 597168,
+      "sha1": "179e7ca81e5d0da70568647943b52f7c2936233f"
     }
   }
 }

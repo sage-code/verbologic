@@ -25,7 +25,8 @@
       "description": "Letter name: Es. Example: Sonne.",
       "ipa": "/ɛs/",
       "example": "Sonne",
-      "context": "Es"
+      "context": "/ˈzɔnə/",
+      "ttsText": "Es"
     },
     "ru": {
       "name": "S",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "5c6423c89e01ad87024a05008e88b99a7b5dab03"
+      "sha1": "4df57d4ce84cf5b9f0a44d3e97cf4f4b99e23691"
+    },
+    "read/de.mp3": {
+      "bytes": 550080,
+      "sha1": "c85f54714d36b29eb0b46601fee7123ca8465f93"
     }
   }
 }

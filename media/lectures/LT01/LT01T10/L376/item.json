@@ -30,7 +30,8 @@
       "description": "Letter name: дэ. Example: дом.",
       "ipa": "/dɛ/",
       "example": "дом",
-      "context": "дэ"
+      "context": "/dom/",
+      "ttsText": "дэ"
     },
     "it": {
       "name": "Д",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/ru.mp3": {
-      "bytes": 8640,
-      "sha1": "ab19345f0a743b393438c0e36d023456daf2f119"
+      "bytes": 11232,
+      "sha1": "75f6e66acb557dff51269fe7f1085420c82c9ea3"
+    },
+    "read/ru.mp3": {
+      "bytes": 539856,
+      "sha1": "f5ff87077d5406c38930b23f5583a64409e70d32"
     }
   }
 }

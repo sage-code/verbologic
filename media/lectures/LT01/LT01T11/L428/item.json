@@ -31,7 +31,8 @@
       "description": "Letter name: doppia vu. Example: web.",
       "ipa": "/ˈdoppja vu/",
       "example": "web",
-      "context": "doppia vu"
+      "context": "/ˈwɛb/",
+      "ttsText": "doppia vu"
     },
     "es": {
       "name": "W",
@@ -53,7 +54,11 @@
   "files": {
     "sound/it.mp3": {
       "bytes": 11232,
-      "sha1": "db95742a05ca1149c706ec9edaf76d215aec51d5"
+      "sha1": "ce66fe56ef6516bb151eb314ff352ef6f0d031ef"
+    },
+    "read/it.mp3": {
+      "bytes": 558288,
+      "sha1": "da4135d47879d003a77794663f0d6bcf71271a4d"
     }
   }
 }

@@ -35,7 +35,8 @@
       "description": "Letter name: elle. Example: luna.",
       "ipa": "/ˈɛlle/",
       "example": "luna",
-      "context": "elle"
+      "context": "/ˈlu.na/",
+      "ttsText": "elle"
     },
     "es": {
       "name": "L",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/it.mp3": {
-      "bytes": 5040,
-      "sha1": "b48eb3d6e35dd18aa6af997efe113c62ddba5dcd"
+      "bytes": 4464,
+      "sha1": "e3c0912e4fdcc5346db4ac657c1b6881cb33400a"
+    },
+    "read/it.mp3": {
+      "bytes": 409392,
+      "sha1": "f17199efe270502fb4506e0d6696566e7b1a35f1"
     }
   }
 }

@@ -45,7 +45,8 @@
       "description": "Letter name: zède. Example: zèbre.",
       "ipa": "/zɛd/",
       "example": "zèbre",
-      "context": "zède"
+      "context": "/zɛbʁ/",
+      "ttsText": "zède"
     },
     "hu": {
       "name": "Z",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/fr.mp3": {
-      "bytes": 8928,
-      "sha1": "f9b16c635c41f2d4096251564e0ec20982221942"
+      "bytes": 11232,
+      "sha1": "40e6e981dc3e9c21eff868117e3fc2c6d1a655f1"
+    },
+    "read/fr.mp3": {
+      "bytes": 379728,
+      "sha1": "4ae4129bf31820b0d8a9fa181753c80c83c0c19f"
     }
   }
 }

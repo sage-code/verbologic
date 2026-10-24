@@ -30,7 +30,8 @@
       "description": "Letter name: ё. Example: ёлка.",
       "ipa": "/jo/",
       "example": "ёлка",
-      "context": "ё"
+      "context": "/ˈjɵlkə/",
+      "ttsText": "ё"
     },
     "it": {
       "name": "Ё",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "88356932ac544d3222a28c6fd36c88403d713481"
+      "sha1": "46c01a63ff3d68683d0ef473c223cf76bdce0972"
+    },
+    "read/ru.mp3": {
+      "bytes": 563904,
+      "sha1": "2983d2e7a41db518f937dcfb066571c0e7c28a0b"
     }
   }
 }

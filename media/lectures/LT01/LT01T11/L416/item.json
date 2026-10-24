@@ -35,7 +35,8 @@
       "description": "Letter name: enne. Example: notte.",
       "ipa": "/ˈɛnne/",
       "example": "notte",
-      "context": "enne"
+      "context": "/ˈnɔt.te/",
+      "ttsText": "enne"
     },
     "es": {
       "name": "N",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/it.mp3": {
-      "bytes": 5328,
-      "sha1": "94b6cf034658cca1c37e810a0b557da897e0859e"
+      "bytes": 11232,
+      "sha1": "4a05f1d4dacba3514e24cc224ca19d6751808478"
+    },
+    "read/it.mp3": {
+      "bytes": 547056,
+      "sha1": "6a383731a77750dc77643a27056e7e26f4615290"
     }
   }
 }

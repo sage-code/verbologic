@@ -55,13 +55,18 @@
       "description": "Letter name: dê. Example: dia.",
       "ipa": "/de/",
       "example": "dia",
-      "context": "dê"
+      "context": "/ˈdi.ɐ/",
+      "ttsText": "dê"
     }
   },
   "files": {
     "sound/pt.mp3": {
       "bytes": 11232,
-      "sha1": "cb9673df8207a4fe1f224b921436001522514687"
+      "sha1": "bba30e150371ff33d377df058cbee9070da8ef8f"
+    },
+    "read/pt.mp3": {
+      "bytes": 470880,
+      "sha1": "46b67fd37bbd5156152bbfc3e1bb8ab40a1c1c36"
     }
   }
 }

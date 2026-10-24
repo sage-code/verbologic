@@ -18,7 +18,9 @@
     "ro": {
       "name": "B",
       "description": "Litera B este o consoană din alfabetul limbii române.",
-      "ipa": "/b/"
+      "ipa": "/b/",
+      "context": "/bun/",
+      "example": "băiat"
     },
     "de": {
       "name": "B",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "1425688d9db011a942903d9efe9fe66447cfa94f"
+      "sha1": "dd7950b666a20b3d657c9e9cef8152584da04816"
+    },
+    "read/ro.mp3": {
+      "bytes": 441072,
+      "sha1": "b34b5e5b6811eeae7953900102687519d35dbca7"
     }
   }
 }

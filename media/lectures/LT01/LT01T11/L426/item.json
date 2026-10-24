@@ -31,7 +31,8 @@
       "description": "Letter name: i lunga. Example: jeans.",
       "ipa": "/i ˈluŋɡo/",
       "example": "jeans",
-      "context": "i lunga"
+      "context": "/dʒins/",
+      "ttsText": "i lunga"
     },
     "es": {
       "name": "J",
@@ -52,8 +53,12 @@
   },
   "files": {
     "sound/it.mp3": {
-      "bytes": 4896,
-      "sha1": "43678c65b0aca1c920197f810c5f590f9a535246"
+      "bytes": 11232,
+      "sha1": "088860fe69b121523fb64412d05274df76b6244b"
+    },
+    "read/it.mp3": {
+      "bytes": 507312,
+      "sha1": "cab2080f2aa72704d8e8f5367217a75bad7487c4"
     }
   }
 }

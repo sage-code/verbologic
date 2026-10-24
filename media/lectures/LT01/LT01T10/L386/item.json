@@ -30,7 +30,8 @@
       "description": "Letter name: эн. Example: нос.",
       "ipa": "/ɛn/",
       "example": "нос",
-      "context": "эн"
+      "context": "/nos/",
+      "ttsText": "эн"
     },
     "it": {
       "name": "Н",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "a023166b857ae57dacc26750f2820bf5f8738c8f"
+      "sha1": "ef87db20a65f261ad78ceaf5e13d060835f86da6"
+    },
+    "read/ru.mp3": {
+      "bytes": 525600,
+      "sha1": "0517c7dfae77160a712483487a20aff0af7df26b"
     }
   }
 }

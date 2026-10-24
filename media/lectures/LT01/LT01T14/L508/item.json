@@ -50,7 +50,8 @@
       "description": "Letter name: ó. Example: óra.",
       "ipa": "/oː/",
       "example": "óra",
-      "context": "ó"
+      "context": "/ˈoː.rɒ/",
+      "ttsText": "ó"
     },
     "pt": {
       "name": "Ó",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "017f7c2a0c9de6490b1273b02a02fb44cdedd48a"
+      "sha1": "c027666175f972fcce942f3357f029fddf4af3dd"
+    },
+    "read/hu.mp3": {
+      "bytes": 503136,
+      "sha1": "8bd322be725353cfc1e778db9c22c196ec890d60"
     }
   }
 }

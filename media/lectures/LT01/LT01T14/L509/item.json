@@ -50,7 +50,8 @@
       "description": "Letter name: ö. Example: öt.",
       "ipa": "/ø/",
       "example": "öt",
-      "context": "ö"
+      "context": "/øt/",
+      "ttsText": "ö"
     },
     "pt": {
       "name": "Ö",
@@ -62,6 +63,10 @@
     "sound/hu.mp3": {
       "bytes": 7344,
       "sha1": "6338de20cc0ec04ad98014f2f6d3c66f5ea5362d"
+    },
+    "read/hu.mp3": {
+      "bytes": 444384,
+      "sha1": "af27911821ab6659c6a27d3dc684c3f0b0861740"
     }
   }
 }

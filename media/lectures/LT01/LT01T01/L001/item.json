@@ -18,7 +18,9 @@
     "ro": {
       "name": "A",
       "description": "Litera A este prima literă a alfabetului limbii române.",
-      "ipa": "/a/"
+      "ipa": "/a/",
+      "context": "/apə/",
+      "example": "apă"
     },
     "de": {
       "name": "A",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "f989cac5e921f2d3462fd440cb5b0a0caab21e1e"
+      "sha1": "8115f7ce00d04f16939d035856b8bb3997bd28fa"
+    },
+    "read/ro.mp3": {
+      "bytes": 482256,
+      "sha1": "7525098c39a54e2ced617d1562d7fa57fbedd54e"
     }
   }
 }

@@ -45,7 +45,8 @@
       "description": "Letter name: i. Example: île.",
       "ipa": "/i/",
       "example": "île",
-      "context": "i"
+      "context": "/il/",
+      "ttsText": "i"
     },
     "hu": {
       "name": "I",
@@ -61,7 +62,11 @@
   "files": {
     "sound/fr.mp3": {
       "bytes": 11232,
-      "sha1": "5e1b86ba418bb51a64a804d61cc2b8b6d3dec137"
+      "sha1": "938623ab54eadf503b3506a73ea0d0c70658ffdb"
+    },
+    "read/fr.mp3": {
+      "bytes": 388080,
+      "sha1": "87dd1f911b8e84b72f1602a78573b76ac793237a"
     }
   }
 }

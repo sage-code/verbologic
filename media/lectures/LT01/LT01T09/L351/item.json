@@ -25,7 +25,8 @@
       "description": "Letter name: Jot. Example: Jahr.",
       "ipa": "/jɔt/",
       "example": "Jahr",
-      "context": "Jot"
+      "context": "/jaːɐ̯/",
+      "ttsText": "Jot"
     },
     "ru": {
       "name": "J",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "931739f7c5124027d62c666f8b9061e076be1c5a"
+      "sha1": "6c79ce80f9d4711e11c95aa9501248f3dc0012fb"
+    },
+    "read/de.mp3": {
+      "bytes": 473328,
+      "sha1": "5f5e819d81ef1789bff248be75fc21331c1d0ac3"
     }
   }
 }

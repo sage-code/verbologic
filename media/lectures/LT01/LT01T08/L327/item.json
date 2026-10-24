@@ -13,7 +13,9 @@
     "en": {
       "name": "oy",
       "description": "This is the letter L327.",
-      "ipa": "/ɔɪ/"
+      "ipa": "/ɔɪ/",
+      "context": "/bɔɪ/",
+      "example": "boy"
     },
     "ro": {
       "name": "oy in boy (băiat)",
@@ -60,6 +62,10 @@
     "sound/en.mp3": {
       "bytes": 4320,
       "sha1": "25c730989565c960d7820f0b6cb3d971de820845"
+    },
+    "read/en.mp3": {
+      "bytes": 503424,
+      "sha1": "17bf426f5cf7d01b1c8c0ca80e29e5276685b4cc"
     }
   }
 }

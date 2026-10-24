@@ -30,7 +30,8 @@
       "description": "Letter name: ха. Example: хлеб.",
       "ipa": "/xa/",
       "example": "хлеб",
-      "context": "ха"
+      "context": "/xlʲep/",
+      "ttsText": "ха"
     },
     "it": {
       "name": "Х",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/ru.mp3": {
-      "bytes": 8784,
-      "sha1": "9bbd247891f6e1524ec997fd65ba24f1b84b86bd"
+      "bytes": 11232,
+      "sha1": "0fd96900e8f7cfab4c9c56bd5995e6b90c2b0970"
+    },
+    "read/ru.mp3": {
+      "bytes": 572832,
+      "sha1": "8cc24715d7bdf81fe781e33c9aeef23f89d1d451"
     }
   }
 }

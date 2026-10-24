@@ -40,7 +40,8 @@
       "description": "Letter name: hache. Example: hola.",
       "ipa": "/ˈatʃe/",
       "example": "hola",
-      "context": "hache"
+      "context": "/ˈo.la/",
+      "ttsText": "hache"
     },
     "fr": {
       "name": "H",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/es.mp3": {
-      "bytes": 8640,
-      "sha1": "92225bc2cedbd956c9b004a3b40be401efea4930"
+      "bytes": 11232,
+      "sha1": "5171128fa938dbbf9b0e46151e99cc8550306938"
+    },
+    "read/es.mp3": {
+      "bytes": 586944,
+      "sha1": "137b2f5451154804ee824ababefc42b95512a3ac"
     }
   }
 }

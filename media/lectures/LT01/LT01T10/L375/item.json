@@ -30,7 +30,8 @@
       "description": "Letter name: гэ. Example: город.",
       "ipa": "/ɡɛ/",
       "example": "город",
-      "context": "гэ"
+      "context": "/ˈɡorət/",
+      "ttsText": "гэ"
     },
     "it": {
       "name": "Г",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "9033d9a800792747686861c82ac7c29c4e517cf1"
+      "sha1": "3415442db4c23526e94c01fc1eafc66746b808c7"
+    },
+    "read/ru.mp3": {
+      "bytes": 554976,
+      "sha1": "59ff8657ea22e5bd2645496f8bf2175fee8ace66"
     }
   }
 }

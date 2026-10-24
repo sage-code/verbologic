@@ -35,7 +35,8 @@
       "description": "Letter name: cu. Example: quando.",
       "ipa": "/ku/",
       "example": "quando",
-      "context": "cu"
+      "context": "/ˈkwan.do/",
+      "ttsText": "cu"
     },
     "es": {
       "name": "Q",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/it.mp3": {
-      "bytes": 4320,
-      "sha1": "70b3a879c5a62fafb881d2287b35c09316bcf15f"
+      "bytes": 4032,
+      "sha1": "67cce153b5ac6ccc0e403872c68bd3178730255a"
+    },
+    "read/it.mp3": {
+      "bytes": 452160,
+      "sha1": "765c30d30fe7190e29c97a8d4c61a91b6e006058"
     }
   }
 }

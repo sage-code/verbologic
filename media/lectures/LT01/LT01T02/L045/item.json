@@ -18,7 +18,9 @@
     "ro": {
       "name": "eai",
       "description": "Acest element ilustrează diftongul românesc eai, așa cum apare în forma verbală vedeai.",
-      "ipa": "/e̯aj/"
+      "ipa": "/e̯aj/",
+      "context": "/veˈde̯aj/",
+      "example": "vedeai"
     },
     "de": {
       "name": "eai in vedeai (du hast gesehen)",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "edce6a7e1b5781c9a1a467ac2f2faab7ab030ce8"
+      "sha1": "b7ce498f141636930e97bd2a467e487d8c867895"
+    },
+    "read/ro.mp3": {
+      "bytes": 482112,
+      "sha1": "1eeee5d42fa942cc45ea13f8735f05cb2cf4e06b"
     }
   }
 }

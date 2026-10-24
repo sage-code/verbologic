@@ -45,7 +45,8 @@
       "description": "Letter name: dé. Example: doux.",
       "ipa": "/de/",
       "example": "doux",
-      "context": "dé"
+      "context": "/du/",
+      "ttsText": "dé"
     },
     "hu": {
       "name": "D",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/fr.mp3": {
-      "bytes": 7920,
-      "sha1": "6cd38cf520a21a808e74edbf06880d2ba0432daf"
+      "bytes": 11232,
+      "sha1": "c0c8cd77a98cc37474ccc7937ee53765ceef5fb4"
+    },
+    "read/fr.mp3": {
+      "bytes": 333936,
+      "sha1": "2d5f9417564eb69fae16ea73c932f27e9bd95511"
     }
   }
 }

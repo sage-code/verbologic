@@ -55,13 +55,18 @@
       "description": "Letter name: ele. Example: lua.",
       "ipa": "/ˈɛli/",
       "example": "lua",
-      "context": "ele"
+      "context": "/ˈlu.ɐ/",
+      "ttsText": "ele"
     }
   },
   "files": {
     "sound/pt.mp3": {
       "bytes": 11232,
-      "sha1": "3db7c9beeb3ebc4ee443db8575cab183f277756f"
+      "sha1": "33fbde6efcf175c928b140f02a4b405f9f9b42f5"
+    },
+    "read/pt.mp3": {
+      "bytes": 515664,
+      "sha1": "2840c7bc1c7e7bb10c4b4a616197aa78a6f97578"
     }
   }
 }

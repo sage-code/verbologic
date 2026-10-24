@@ -18,7 +18,9 @@
     "ro": {
       "name": "ua",
       "description": "Acest element ilustrează diftongul românesc ua așa cum apare în cuvântul ziua.",
-      "ipa": "/wa/"
+      "ipa": "/wa/",
+      "context": "/ˈzi.wa/",
+      "example": "ziua"
     },
     "de": {
       "name": "ua in ziua (der Tag)",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "126d2e518b7a6e554030841284f3714ae30ccbed"
+      "sha1": "f21214402c74a9197aa67bf4c86f444af1da4ee8"
+    },
+    "read/ro.mp3": {
+      "bytes": 554544,
+      "sha1": "26b7d37cf401a624cc8f624def52a70513c9fa08"
     }
   }
 }

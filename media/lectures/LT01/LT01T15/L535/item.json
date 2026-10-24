@@ -55,13 +55,18 @@
       "description": "Letter name: i. Example: ilha.",
       "ipa": "/i/",
       "example": "ilha",
-      "context": "i"
+      "context": "/ˈi.ʎɐ/",
+      "ttsText": "i"
     }
   },
   "files": {
     "sound/pt.mp3": {
-      "bytes": 11232,
-      "sha1": "49e5245ef6ec7da8245415ee41d4cfdee9527c7c"
+      "bytes": 7632,
+      "sha1": "af036d584af5542bf832e691f2f44254206d1a47"
+    },
+    "read/pt.mp3": {
+      "bytes": 505872,
+      "sha1": "ab18bf684f927e48f28d3b0b56aa99916165229a"
     }
   }
 }

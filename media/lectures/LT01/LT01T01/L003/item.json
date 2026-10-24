@@ -18,7 +18,9 @@
     "ro": {
       "name": "Â",
       "description": "Litera Â este un caracter din alfabetul limbii române.",
-      "ipa": "/ɨ/"
+      "ipa": "/ɨ/",
+      "context": "/kɨnt/",
+      "example": "român"
     },
     "de": {
       "name": "Â",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "fa277addba6b42873be4d41d07c42a5515546c1d"
+      "sha1": "629664a831abdeeec044320dd6b75ce372ca31b2"
+    },
+    "read/ro.mp3": {
+      "bytes": 537264,
+      "sha1": "7a851b91c401f0e829862312e114b0c3eb1c8389"
     }
   }
 }

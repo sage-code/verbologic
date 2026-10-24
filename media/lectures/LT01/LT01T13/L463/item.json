@@ -45,7 +45,8 @@
       "description": "Letter name: effe. Example: femme.",
       "ipa": "/ɛf/",
       "example": "femme",
-      "context": "effe"
+      "context": "/fam/",
+      "ttsText": "effe"
     },
     "hu": {
       "name": "F",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/fr.mp3": {
-      "bytes": 8352,
-      "sha1": "76811a6c4408fc60656e086058cf3370401de84c"
+      "bytes": 11232,
+      "sha1": "63cc925ac7923461db32171f73be429f2b6ad885"
+    },
+    "read/fr.mp3": {
+      "bytes": 361296,
+      "sha1": "868742bab4c1472236821e1aa2ab0e5ac637482c"
     }
   }
 }

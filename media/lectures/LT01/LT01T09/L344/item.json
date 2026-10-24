@@ -25,7 +25,8 @@
       "description": "Letter name: Ce. Example: Computer.",
       "ipa": "/tseː/",
       "example": "Computer",
-      "context": "Ce"
+      "context": "/kɔmˈpjuːtɐ/",
+      "ttsText": "Ce"
     },
     "ru": {
       "name": "C",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "d9cbf6957e86bbfaf29fe2c90fc04ac0744236a7"
+      "sha1": "dd0ef9f51236813c268f5a81b0fa1ad0a1979428"
+    },
+    "read/de.mp3": {
+      "bytes": 616752,
+      "sha1": "6c1a3976862dd52327e74dbf58c349620f3fd786"
     }
   }
 }

@@ -40,7 +40,8 @@
       "description": "Letter name: de. Example: día.",
       "ipa": "/de/",
       "example": "día",
-      "context": "de"
+      "context": "/ˈdi.a/",
+      "ttsText": "de"
     },
     "fr": {
       "name": "D",
@@ -61,7 +62,11 @@
   "files": {
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "88bacd0bfb70d8dcb20932e4a14bdf0db0b45434"
+      "sha1": "e1045bd08421e134a0d963a3ec25eed6316f8fd6"
+    },
+    "read/es.mp3": {
+      "bytes": 528048,
+      "sha1": "ab04a1f228fedb2c637d83173f815428ba61c0f6"
     }
   }
 }

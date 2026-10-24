@@ -18,7 +18,9 @@
     "ro": {
       "name": "C",
       "description": "Litera C este o consoană din alfabetul limbii române.",
-      "ipa": "/k/ or /tʃ/"
+      "ipa": "/k/ or /tʃ/",
+      "context": "/kasp/",
+      "example": "casă"
     },
     "de": {
       "name": "C",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 7920,
-      "sha1": "d76c9946da188cbfd1c3c07763c9e4d62b193574"
+      "bytes": 11232,
+      "sha1": "271310688b6e4fb5c6a5b73bad679bc091ededf8"
+    },
+    "read/ro.mp3": {
+      "bytes": 570240,
+      "sha1": "0c64c80154188baf29fc4e238550ce7b278d7a7c"
     }
   }
 }

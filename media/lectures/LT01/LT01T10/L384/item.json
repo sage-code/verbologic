@@ -30,7 +30,8 @@
       "description": "Letter name: эль. Example: лампа.",
       "ipa": "/ɛlʲ/",
       "example": "лампа",
-      "context": "эль"
+      "context": "/ˈɫam.pə/",
+      "ttsText": "эль"
     },
     "it": {
       "name": "Л",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/ru.mp3": {
-      "bytes": 8496,
-      "sha1": "38597e254b52b1aa6858e4f68aaf290e06eec459"
+      "bytes": 11232,
+      "sha1": "b8426ac7684ec3b8810e8b2c1f5e019417a20a62"
+    },
+    "read/ru.mp3": {
+      "bytes": 604944,
+      "sha1": "86d861d4be243e10b231b195384198a195b461d5"
     }
   }
 }

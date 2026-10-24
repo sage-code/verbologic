@@ -35,7 +35,8 @@
       "description": "Letter name: ese. Example: sol.",
       "ipa": "/ˈese/",
       "example": "sol",
-      "context": "ese"
+      "context": "/ˈsol/",
+      "ttsText": "ese"
     },
     "fr": {
       "name": "S",
@@ -53,7 +54,11 @@
   "files": {
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "edd2a740095ee43e2406d0557a486e655a7d8272"
+      "sha1": "169529fcde96cbbbbdf5550d1bb14cc24a5480fc"
+    },
+    "read/es.mp3": {
+      "bytes": 566640,
+      "sha1": "5148d7e2f97eab7e537806efea7415d4bd99c8ef"
     }
   }
 }

@@ -50,7 +50,8 @@
       "description": "Letter name: jé. Example: jó.",
       "ipa": "/jɛ/",
       "example": "jó",
-      "context": "jé"
+      "context": "/ˈjoː/",
+      "ttsText": "jé"
     },
     "pt": {
       "name": "J",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "dd6bfc46273a71e8d04322d7f07b4b29c46eb463"
+      "sha1": "2a4ba870141a7fdb2448ca8144bb55cb5bf46772"
+    },
+    "read/hu.mp3": {
+      "bytes": 505152,
+      "sha1": "f256da6de8a3dfd3fab8230767be0485996aaf83"
     }
   }
 }

@@ -25,7 +25,8 @@
       "description": "Letter name: Be. Example: Buch.",
       "ipa": "/beː/",
       "example": "Buch",
-      "context": "Be"
+      "context": "/buːx/",
+      "ttsText": "Be"
     },
     "ru": {
       "name": "B",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "ff909abc9f715240e4eb4d17476b1c8554a06c1d"
+      "sha1": "a8bf6012068a74303bf26baa13a01241dfeb6921"
+    },
+    "read/de.mp3": {
+      "bytes": 516816,
+      "sha1": "8192263c7d22dc13e98a98be6575bf4fd16bdf21"
     }
   }
 }

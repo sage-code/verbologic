@@ -30,7 +30,8 @@
       "description": "Letter name: эф. Example: фонарь.",
       "ipa": "/ɛf/",
       "example": "фонарь",
-      "context": "эф"
+      "context": "/fɐˈnarʲ/",
+      "ttsText": "эф"
     },
     "it": {
       "name": "Ф",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/ru.mp3": {
-      "bytes": 8640,
-      "sha1": "a6228a40d8d21df633cbb3b8ee8d68c061866144"
+      "bytes": 11232,
+      "sha1": "753355e6549e06c5b25636e9bfc2d4433f207faf"
+    },
+    "read/ru.mp3": {
+      "bytes": 522864,
+      "sha1": "8b7d996af6c2dfdad1b5829b9ef9e254cf2205dc"
     }
   }
 }

@@ -45,7 +45,8 @@
       "description": "Letter name: té. Example: temps.",
       "ipa": "/te/",
       "example": "temps",
-      "context": "té"
+      "context": "/tɑ̃/",
+      "ttsText": "té"
     },
     "hu": {
       "name": "T",
@@ -61,7 +62,11 @@
   "files": {
     "sound/fr.mp3": {
       "bytes": 11232,
-      "sha1": "3038172ff3c7cffdb5b2459085698901ee7390b2"
+      "sha1": "103154fc1b55636f7983d77451d0071bc3b6f6a7"
+    },
+    "read/fr.mp3": {
+      "bytes": 426960,
+      "sha1": "0d893d7337316e3470a393b715abf10fef2fd77d"
     }
   }
 }

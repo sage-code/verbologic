@@ -18,7 +18,9 @@
     "ro": {
       "name": "Q",
       "description": "Litera Q face parte din alfabetul limbii române.",
-      "ipa": "/k/"
+      "ipa": "/k/",
+      "context": "/kwi.k‿step/",
+      "example": "quasar"
     },
     "de": {
       "name": "Q",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "c0b6472ea6374a6c47f8c42f0014b71a80da9b65"
+      "sha1": "2a206a05ac4b1357dc02ae424dd881016d58c228"
+    },
+    "read/ro.mp3": {
+      "bytes": 527472,
+      "sha1": "bb117e597d72a78d299a4bffd8552434e70f9fa9"
     }
   }
 }

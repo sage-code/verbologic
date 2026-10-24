@@ -25,7 +25,8 @@
       "description": "Letter name: Te. Example: Tisch.",
       "ipa": "/teː/",
       "example": "Tisch",
-      "context": "Te"
+      "context": "/tɪʃ/",
+      "ttsText": "Te"
     },
     "ru": {
       "name": "T",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "3ba8225c7b39195042b638892bcdd675a2e9686e"
+      "sha1": "0f3dd9be9548c79bbce9c15131d8a17cd1f94665"
+    },
+    "read/de.mp3": {
+      "bytes": 520704,
+      "sha1": "3354ea7b10c47ade35689b02d761bddcee8d984b"
     }
   }
 }

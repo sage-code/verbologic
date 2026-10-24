@@ -35,7 +35,8 @@
       "description": "Letter name: pi. Example: pane.",
       "ipa": "/pi/",
       "example": "pane",
-      "context": "pi"
+      "context": "/ˈpa.ne/",
+      "ttsText": "pi"
     },
     "es": {
       "name": "P",
@@ -61,7 +62,11 @@
   "files": {
     "sound/it.mp3": {
       "bytes": 3744,
-      "sha1": "506f70214e6be6a5ba0650db316b7d2e19349ca7"
+      "sha1": "8b6454f55fe84931818219f310337a1d4393a15e"
+    },
+    "read/it.mp3": {
+      "bytes": 446400,
+      "sha1": "01b44d2fd3caf428db8a99c09cb60468d3aa745d"
     }
   }
 }

@@ -18,7 +18,9 @@
     "ro": {
       "name": "T",
       "description": "Litera T este a douăzecea literă a alfabetului român.",
-      "ipa": "/t/"
+      "ipa": "/t/",
+      "context": "/tata/",
+      "example": "tren"
     },
     "de": {
       "name": "T",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "b991d890c7d34d1769e6332ca5a21d3fc3d13470"
+      "sha1": "f31c26de97083500f5d79697cf8068a51839381c"
+    },
+    "read/ro.mp3": {
+      "bytes": 484128,
+      "sha1": "f5dd5918ecc5b427ce82758b2c3aa36294c8aa12"
     }
   }
 }

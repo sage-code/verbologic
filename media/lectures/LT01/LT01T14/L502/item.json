@@ -50,7 +50,8 @@
       "description": "Letter name: ell. Example: ló.",
       "ipa": "/ɛl/",
       "example": "ló",
-      "context": "ell"
+      "context": "/ˈloː/",
+      "ttsText": "ell"
     },
     "pt": {
       "name": "L",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "5666827a1bd24317756aa6f7e454285eea0f9792"
+      "sha1": "ad81103147df1caa00111554b73e7a6c82bc53c8"
+    },
+    "read/hu.mp3": {
+      "bytes": 486720,
+      "sha1": "91397144f1c1aa8e6591e1da313ebcc24139b92d"
     }
   }
 }

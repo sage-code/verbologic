@@ -32,6 +32,14 @@
   --font-header: 'Space Grotesk', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-ui: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Handwriting model for the alphabet articles. Playwrite US Trad is the
+     Google Fonts family built on the US school cursive model (Zaner-Bloser
+     style: upright-ish, single-stroke, joined lowercase). It is the closest
+     freely-licensed match to Zaner-Bloser Cursive, which is a commercial
+     typeface and cannot be bundled. Only the alphabet articles load it, so
+     the rest of the site never pays for it. */
+  --font-cursive: 'Playwrite US Trad', 'Segoe Script', 'Bradley Hand', 'Brush Script MT', cursive;
 }
 
 @layer base {
@@ -88,6 +96,16 @@
     font-family: var(--font-ipa);
     font-variant-ligatures: none;
     font-feature-settings: 'liga' 0, 'clig' 0;
+  }
+
+  /* Cursive letterforms in the alphabet articles. Playwrite sits on a much
+     larger em box than a text face, so the size is set by the caller and the
+     line-height is tightened here to keep the glyph from pushing the layout
+     apart. */
+  .cursive {
+    font-family: var(--font-cursive);
+    line-height: 1.1;
+    font-weight: 400;
   }
 }
 

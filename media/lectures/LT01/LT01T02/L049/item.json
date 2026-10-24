@@ -18,7 +18,9 @@
     "ro": {
       "name": "ioa",
       "description": "Acest element ilustrează triftongul românesc ioa, așa cum apare în substantivul creioane.",
-      "ipa": "/jo̯a/"
+      "ipa": "/jo̯a/",
+      "context": "/kreˈjo̯a.ne/",
+      "example": "creioane"
     },
     "de": {
       "name": "ioa in creioane (Bleistifte)",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "8b58fe0c16990ccb6c18416c791890fafbb3a2f9"
+      "sha1": "c026edf8c3603df6f2658486660143593a7a89f5"
+    },
+    "read/ro.mp3": {
+      "bytes": 531936,
+      "sha1": "18ddf1650e3a5e5c9e747befaf14f1ce3d655cad"
     }
   }
 }

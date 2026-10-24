@@ -50,7 +50,8 @@
       "description": "Letter name: err. Example: róka.",
       "ipa": "/ɛr/",
       "example": "róka",
-      "context": "err"
+      "context": "/ˈroːkɒ/",
+      "ttsText": "err"
     },
     "pt": {
       "name": "R",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "9bb295e583573a0d798bce172fedc65b88290f61"
+      "sha1": "89a1bc74829cf5af19e442135e9eed938e7db0fc"
+    },
+    "read/hu.mp3": {
+      "bytes": 427248,
+      "sha1": "6b38f1d3670622ce73249441a8709dfe604d0f42"
     }
   }
 }

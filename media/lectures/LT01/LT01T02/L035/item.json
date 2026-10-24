@@ -18,7 +18,9 @@
     "ro": {
       "name": "io",
       "description": "Diftongul io se regăsește în cuvântul românesc iod.",
-      "ipa": "/jo/"
+      "ipa": "/jo/",
+      "context": "/jod/",
+      "example": "iod"
     },
     "de": {
       "name": "io in iod (Jod)",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "2c28b14244657e1fe004db407ba99532602e4264"
+      "sha1": "f61e03eb257ac09a2e382b4faa6b12d1cd099dc4"
+    },
+    "read/ro.mp3": {
+      "bytes": 513504,
+      "sha1": "b1ad170276b79d3b282c9ed42a840d343ed69a6d"
     }
   }
 }

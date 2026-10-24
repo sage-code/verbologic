@@ -40,7 +40,8 @@
       "description": "Letter name: e. Example: escuela.",
       "ipa": "/e/",
       "example": "escuela",
-      "context": "e"
+      "context": "/esˈkwela/",
+      "ttsText": "e"
     },
     "fr": {
       "name": "E",
@@ -61,7 +62,11 @@
   "files": {
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "b1fe9fdfd96faf41be85c0c218d135c6970a6d2e"
+      "sha1": "0ace677b513ed3f0f42eb4b566fa7e7a6d84f7e7"
+    },
+    "read/es.mp3": {
+      "bytes": 489024,
+      "sha1": "0246fa1a5916e9d928b8e1c921a4426906fec1ed"
     }
   }
 }

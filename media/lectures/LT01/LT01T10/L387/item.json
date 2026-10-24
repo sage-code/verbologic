@@ -30,7 +30,8 @@
       "description": "Letter name: о. Example: окно.",
       "ipa": "/o/",
       "example": "окно",
-      "context": "о"
+      "context": "/ɐkˈno/",
+      "ttsText": "о"
     },
     "it": {
       "name": "О",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/ru.mp3": {
-      "bytes": 7632,
-      "sha1": "d6708b5c1dc94d09ed8a780b7472b63ddc73bb2a"
+      "bytes": 11232,
+      "sha1": "2b98c223696ed2ee52ae709c58a0f0c53587e3d7"
+    },
+    "read/ru.mp3": {
+      "bytes": 419760,
+      "sha1": "c11d26b9866f7e871f1af2818710fe725f2b8802"
     }
   }
 }

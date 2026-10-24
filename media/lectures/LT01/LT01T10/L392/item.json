@@ -30,7 +30,8 @@
       "description": "Letter name: у. Example: ухо.",
       "ipa": "/u/",
       "example": "ухо",
-      "context": "у"
+      "context": "/ˈu.xə/",
+      "ttsText": "у"
     },
     "it": {
       "name": "У",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "c6120eaa899d18358b0dfac96c9882de20da3fd4"
+      "sha1": "b3f41242324c31421cab04423263e3bdec403a4c"
+    },
+    "read/ru.mp3": {
+      "bytes": 525168,
+      "sha1": "7d392abe34fd9d56862fc871b602c3468f35cafa"
     }
   }
 }

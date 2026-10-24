@@ -45,7 +45,8 @@
       "description": "Letter name: ache. Example: homme.",
       "ipa": "/aʃ/",
       "example": "homme",
-      "context": "ache"
+      "context": "/ɔm/",
+      "ttsText": "ache"
     },
     "hu": {
       "name": "H",
@@ -61,7 +62,11 @@
   "files": {
     "sound/fr.mp3": {
       "bytes": 11232,
-      "sha1": "0326016f0ee12ffff5f7fc8b9ac985290f3113fb"
+      "sha1": "4636cb41f1cdd78a2d015a92d07051de7369b164"
+    },
+    "read/fr.mp3": {
+      "bytes": 429264,
+      "sha1": "45ecba30640f3a166166f224056455d95c02e667"
     }
   }
 }

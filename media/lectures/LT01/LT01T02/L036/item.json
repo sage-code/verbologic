@@ -18,7 +18,9 @@
     "ro": {
       "name": "iu",
       "description": "Diftongul iu se regăsește în cuvântul românesc iubit.",
-      "ipa": "/ju/"
+      "ipa": "/ju/",
+      "context": "/juˈbit/",
+      "example": "iubit"
     },
     "de": {
       "name": "iu in iubit (geliebt)",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "ee3ffd6e06776ec67002e41d7f92fefee7e6427c"
+      "sha1": "fb2c614a720ddcb1b089090f5e0a4f20ec587971"
+    },
+    "read/ro.mp3": {
+      "bytes": 501984,
+      "sha1": "9459ebf41c8582285ee3b88b702932abf7112d6b"
     }
   }
 }

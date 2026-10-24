@@ -50,7 +50,8 @@
       "description": "Letter name: ő. Example: ősz.",
       "ipa": "/øː/",
       "example": "ősz",
-      "context": "ő"
+      "context": "/øːs/",
+      "ttsText": "ő"
     },
     "pt": {
       "name": "Ő",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "ee2ae6f13288d5b9faada19e8d52d9b0b824ef55"
+      "sha1": "cdf115e93afd9e5e8ee27dcfce6702b2463a561e"
+    },
+    "read/hu.mp3": {
+      "bytes": 477936,
+      "sha1": "ef4b4529a7417f2b0a50288e8b284f79da39acef"
     }
   }
 }

@@ -25,7 +25,8 @@
       "description": "Letter name: Vau. Example: Vater.",
       "ipa": "/faʊ/",
       "example": "Vater",
-      "context": "Vau"
+      "context": "/ˈfaːtɐ/",
+      "ttsText": "Vau"
     },
     "ru": {
       "name": "V",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/de.mp3": {
-      "bytes": 7776,
-      "sha1": "dee50d657813eff03c0ceea73c78dc9d0dfce087"
+      "bytes": 11232,
+      "sha1": "138b71497f1d2e6f0394422682bdef933b27eb07"
+    },
+    "read/de.mp3": {
+      "bytes": 510768,
+      "sha1": "46ada8eeb4ec1b4290d69d31f240dafee17e76e6"
     }
   }
 }

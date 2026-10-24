@@ -55,13 +55,18 @@
       "description": "Letter name: ó. Example: olho.",
       "ipa": "/ɔ/",
       "example": "olho",
-      "context": "ó"
+      "context": "/ˈɔ.ʎu/",
+      "ttsText": "ó"
     }
   },
   "files": {
     "sound/pt.mp3": {
-      "bytes": 7056,
-      "sha1": "7eb7c0b6c193506cbfae50e8cb4d7c32edaf4f89"
+      "bytes": 11232,
+      "sha1": "79bea5fc8d6656bc1546cdd21c63d7f84852a841"
+    },
+    "read/pt.mp3": {
+      "bytes": 470592,
+      "sha1": "fe6f409ac07c6d6799324a5ba6b7b886865216ae"
     }
   }
 }

@@ -40,7 +40,8 @@
       "description": "Letter name: eme. Example: mano.",
       "ipa": "/ˈeme/",
       "example": "mano",
-      "context": "eme"
+      "context": "/ˈma.no/",
+      "ttsText": "eme"
     },
     "fr": {
       "name": "M",
@@ -61,7 +62,11 @@
   "files": {
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "d1455ebe67337db15f6b70e26abe61ca12a8b18f"
+      "sha1": "dc6a321287f8347fdb96037039546bc1085ae091"
+    },
+    "read/es.mp3": {
+      "bytes": 436320,
+      "sha1": "04ed5fdaaa515287e5c89e4b9e1c86d6ff5d0dc3"
     }
   }
 }

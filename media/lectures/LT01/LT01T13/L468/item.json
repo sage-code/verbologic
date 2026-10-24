@@ -45,7 +45,8 @@
       "description": "Letter name: ka. Example: kilo.",
       "ipa": "/ka/",
       "example": "kilo",
-      "context": "ka"
+      "context": "/ki.lo/",
+      "ttsText": "ka"
     },
     "hu": {
       "name": "K",
@@ -61,7 +62,11 @@
   "files": {
     "sound/fr.mp3": {
       "bytes": 11232,
-      "sha1": "857bf7809e9b50a97e5fa099205d1baf950fb1b0"
+      "sha1": "77bab6180dd57a1630956049f606ef68871193d1"
+    },
+    "read/fr.mp3": {
+      "bytes": 492048,
+      "sha1": "172158cc7aa83ae4d617732fcf934d450f2cd3eb"
     }
   }
 }

@@ -30,7 +30,8 @@
       "description": "Letter name: твёрдый знак. Example: объект.",
       "ipa": "/ˈtvʲɵrdɨj ˈznak/",
       "example": "объект",
-      "context": "твёрдый знак"
+      "context": "/ɐbˈjekt/",
+      "ttsText": "твёрдый знак"
     },
     "it": {
       "name": "Ъ",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/ru.mp3": {
-      "bytes": 11664,
-      "sha1": "ad924cdc11806cc4709603ee8710b34d1a8a706e"
+      "bytes": 11952,
+      "sha1": "cde82a21810a29cf2b5ca4d2037f5552ad1d2c6b"
+    },
+    "read/ru.mp3": {
+      "bytes": 641952,
+      "sha1": "9310f89737aed9c41cc6ec9cf983f076b329aa7f"
     }
   }
 }

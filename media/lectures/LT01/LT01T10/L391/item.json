@@ -30,7 +30,8 @@
       "description": "Letter name: тэ. Example: стол.",
       "ipa": "/tɛ/",
       "example": "стол",
-      "context": "тэ"
+      "context": "/stol/",
+      "ttsText": "тэ"
     },
     "it": {
       "name": "Т",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/ru.mp3": {
-      "bytes": 8064,
-      "sha1": "6fa5f766b18742242acf7177ec6ea729693855ee"
+      "bytes": 11232,
+      "sha1": "cd4bae754034e4abe11c10c76622e501f192c431"
+    },
+    "read/ru.mp3": {
+      "bytes": 548352,
+      "sha1": "d1140bb1c6fbbb64e0fee29ff81ee8185e00706a"
     }
   }
 }

@@ -18,7 +18,9 @@
     "ro": {
       "name": "Ș",
       "description": "Litera Ș este a nouăsprezecea literă a alfabetului român.",
-      "ipa": "/ʃ/"
+      "ipa": "/ʃ/",
+      "context": "/ʃoˈsapte/",
+      "example": "școală"
     },
     "de": {
       "name": "Ș",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "44f97cfd65689686379faf854f01615704f9ea7d"
+      "sha1": "697b9586d8e03b8ca48b53031f0f86679eee0586"
+    },
+    "read/ro.mp3": {
+      "bytes": 498960,
+      "sha1": "1cee284fd96d937f033122c7a2d4f0638fa8d48e"
     }
   }
 }

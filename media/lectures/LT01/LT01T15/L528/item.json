@@ -55,13 +55,18 @@
       "description": "Letter name: bê. Example: bom.",
       "ipa": "/be/",
       "example": "bom",
-      "context": "bê"
+      "context": "/bõ/",
+      "ttsText": "bê"
     }
   },
   "files": {
     "sound/pt.mp3": {
       "bytes": 11232,
-      "sha1": "7e12d13d6ba282919eb447499b9681af46d96c26"
+      "sha1": "84b5e16323b16ddb05172fef4744553ec96a8378"
+    },
+    "read/pt.mp3": {
+      "bytes": 541728,
+      "sha1": "276a5733231be09a98b2fa904fd3b0a7653afa9a"
     }
   }
 }

@@ -35,7 +35,8 @@
       "description": "Letter name: equis. Example: xilófono.",
       "ipa": "/ˈekis/",
       "example": "xilófono",
-      "context": "equis"
+      "context": "/siˈlofono/",
+      "ttsText": "equis"
     },
     "fr": {
       "name": "X",
@@ -52,8 +53,12 @@
   },
   "files": {
     "sound/es.mp3": {
-      "bytes": 11232,
-      "sha1": "8252966cbf64414012735dc4931190eb41d78687"
+      "bytes": 9072,
+      "sha1": "193f9bbde686541597bab4187d39dd0eb0b58af9"
+    },
+    "read/es.mp3": {
+      "bytes": 553104,
+      "sha1": "800f2e91381d736bb5b23e3ccaec293d2357e0f3"
     }
   }
 }

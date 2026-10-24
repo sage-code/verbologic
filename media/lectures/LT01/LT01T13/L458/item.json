@@ -45,7 +45,8 @@
       "description": "Letter name: a. Example: amour.",
       "ipa": "/a/",
       "example": "amour",
-      "context": "a"
+      "context": "/a.muʁ/",
+      "ttsText": "a"
     },
     "hu": {
       "name": "A",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/fr.mp3": {
-      "bytes": 7632,
-      "sha1": "8bd0750554b43b184775a54a48e5442cf7159c9b"
+      "bytes": 11232,
+      "sha1": "b408f8c053785a1c1fc25dcc11bfaa5af315d192"
+    },
+    "read/fr.mp3": {
+      "bytes": 472752,
+      "sha1": "00a39c87a63c090e9bc86a58b4b9eb7eeb944afe"
     }
   }
 }

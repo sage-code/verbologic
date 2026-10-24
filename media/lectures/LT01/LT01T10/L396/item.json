@@ -30,7 +30,8 @@
       "description": "Letter name: че. Example: час.",
       "ipa": "/tɕe/",
       "example": "час",
-      "context": "че"
+      "context": "/tɕas/",
+      "ttsText": "че"
     },
     "it": {
       "name": "Ч",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "12a2de8bf5539773125fda06ac9f40e22f4df07d"
+      "sha1": "3bc293fa4f0dfc5291307ab91538525bd6192b54"
+    },
+    "read/ru.mp3": {
+      "bytes": 443520,
+      "sha1": "e375250afe5e7084be255f5e4fc88d7c85fa2d5a"
     }
   }
 }

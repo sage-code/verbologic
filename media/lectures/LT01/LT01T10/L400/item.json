@@ -30,7 +30,8 @@
       "description": "Letter name: ы. Example: сын.",
       "ipa": "/ɨ/",
       "example": "сын",
-      "context": "ы"
+      "context": "/sɨn/",
+      "ttsText": "ы"
     },
     "it": {
       "name": "Ы",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "f6d602fe995c629afb19dde2ebddc64bab77459d"
+      "sha1": "202d6712fb2085780a06e91955b21751be701b7c"
+    },
+    "read/ru.mp3": {
+      "bytes": 526320,
+      "sha1": "be1561c183a84c7300715c28bc546f27ae9510de"
     }
   }
 }

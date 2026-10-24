@@ -18,7 +18,9 @@
     "ro": {
       "name": "J",
       "description": "Litera J este a unsprezecea literă a alfabetului român.",
-      "ipa": "/ʒ/"
+      "ipa": "/ʒ/",
+      "context": "/ʒos/",
+      "example": "joc"
     },
     "de": {
       "name": "J",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 7920,
-      "sha1": "54afd7b87b3748054c1798bd01643475c321290b"
+      "bytes": 11232,
+      "sha1": "8e57bb069dfdabc8a6b62a960a7a175a0b11489d"
+    },
+    "read/ro.mp3": {
+      "bytes": 511632,
+      "sha1": "c3a7e3d069c7a159b8db2552a053a410eeda9c9e"
     }
   }
 }

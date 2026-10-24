@@ -30,7 +30,8 @@
       "description": "Letter name: зэ. Example: зима.",
       "ipa": "/zɛ/",
       "example": "зима",
-      "context": "зэ"
+      "context": "/zʲɪˈma/",
+      "ttsText": "зэ"
     },
     "it": {
       "name": "З",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "83f6f54a8a79fcfbb30176c0dafbb744a690fe5d"
+      "sha1": "caa73e940954f33dc6fb9bf4d8c1ac1c2558270c"
+    },
+    "read/ru.mp3": {
+      "bytes": 464400,
+      "sha1": "f5e76132d226e08fd396cc2e1149bc34c1e086f9"
     }
   }
 }

@@ -40,7 +40,8 @@
       "description": "Letter name: erre. Example: rojo.",
       "ipa": "/ˈere/",
       "example": "rojo",
-      "context": "erre"
+      "context": "/ˈro.xo/",
+      "ttsText": "erre"
     },
     "fr": {
       "name": "R",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/es.mp3": {
-      "bytes": 9072,
-      "sha1": "40a4457a8c4034a6977e07b86acc746661f8fe63"
+      "bytes": 11232,
+      "sha1": "d5db2fd647ec09c9bb444727ab9fc7d63c9720ee"
+    },
+    "read/es.mp3": {
+      "bytes": 529488,
+      "sha1": "bd53646b7bac929d2763a5d308d9d8ed8d3c5b10"
     }
   }
 }

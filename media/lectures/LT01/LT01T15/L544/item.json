@@ -55,13 +55,18 @@
       "description": "Letter name: erre. Example: rua.",
       "ipa": "/ˈɛʁi/",
       "example": "rua",
-      "context": "erre"
+      "context": "/ˈʁu.ɐ/",
+      "ttsText": "erre"
     }
   },
   "files": {
     "sound/pt.mp3": {
-      "bytes": 11232,
-      "sha1": "bc449c87a62e020ee2d81ec65e46e6719dcbc47c"
+      "bytes": 7920,
+      "sha1": "6d9f53d40fba180fbdfd65709cec1951959f1ed4"
+    },
+    "read/pt.mp3": {
+      "bytes": 533088,
+      "sha1": "7a50d59e25386bb7e592af58b63a7ffdc4e572c2"
     }
   }
 }

@@ -25,7 +25,8 @@
       "description": "Letter name: El. Example: Lampe.",
       "ipa": "/ɛl/",
       "example": "Lampe",
-      "context": "El"
+      "context": "/ˈlampə/",
+      "ttsText": "El"
     },
     "ru": {
       "name": "L",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "94613d7fc0cf68d77a01604f008e2e7652253aa1"
+      "sha1": "bcd71885a8bde5abe9d12ef52c88edfede51bca0"
+    },
+    "read/de.mp3": {
+      "bytes": 501840,
+      "sha1": "056fa1cca809a24e770d7b123ae48b45a988b0f3"
     }
   }
 }

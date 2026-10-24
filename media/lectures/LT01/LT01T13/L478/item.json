@@ -45,7 +45,8 @@
       "description": "Letter name: u. Example: une.",
       "ipa": "/y/",
       "example": "une",
-      "context": "u"
+      "context": "/yn/",
+      "ttsText": "u"
     },
     "hu": {
       "name": "U",
@@ -62,6 +63,10 @@
     "sound/fr.mp3": {
       "bytes": 7200,
       "sha1": "7e1875f483a57fb9b08cb5ff22f904b5f407a437"
+    },
+    "read/fr.mp3": {
+      "bytes": 411408,
+      "sha1": "1b706ef33e39bbff286610be5ccd1cb1314c97ab"
     }
   }
 }

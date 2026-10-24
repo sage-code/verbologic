@@ -50,7 +50,8 @@
       "description": "Letter name: gé. Example: gomb.",
       "ipa": "/ɡeː/",
       "example": "gomb",
-      "context": "gé"
+      "context": "/ˈɡomb/",
+      "ttsText": "gé"
     },
     "pt": {
       "name": "G",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "0ba7312424714326a9a8157d8d11c069cb559269"
+      "sha1": "6fd49a3f302307d40f083113969f916e4b0a10ee"
+    },
+    "read/hu.mp3": {
+      "bytes": 409824,
+      "sha1": "39b5e46ad05e4415cae98b4babb57c1979e0792c"
     }
   }
 }

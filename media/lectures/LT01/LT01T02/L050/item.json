@@ -18,7 +18,9 @@
     "ro": {
       "name": "Ce / Ci",
       "description": "Acest element ilustrează digraful ch care reprezintă sunetul /tʃ/, așa cum apare în cuvântul cherry.",
-      "ipa": "/tʃe/, /tʃi/"
+      "ipa": "/tʃe/, /tʃi/",
+      "context": "/tʃe/",
+      "example": "ceai"
     },
     "de": {
       "name": "ch in cherry (/tʃ/)",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 11088,
-      "sha1": "63b2107f7ef40d547843b2deb0b26446a154eae2"
+      "bytes": 11232,
+      "sha1": "9394e35173e2c9ae80cf2462948f3bf35ca82b42"
+    },
+    "read/ro.mp3": {
+      "bytes": 576288,
+      "sha1": "06ecd3e27c4ffd4f24b5f29fc8dd63aceb51b5bc"
     }
   }
 }

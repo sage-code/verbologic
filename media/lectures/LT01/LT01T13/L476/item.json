@@ -45,7 +45,8 @@
       "description": "Letter name: esse. Example: soleil.",
       "ipa": "/ɛs/",
       "example": "soleil",
-      "context": "esse"
+      "context": "/sɔ.lɛj/",
+      "ttsText": "esse"
     },
     "hu": {
       "name": "S",
@@ -61,7 +62,11 @@
   "files": {
     "sound/fr.mp3": {
       "bytes": 11232,
-      "sha1": "3ba657f88813d4cab0e06b3930d79486dcedd7e0"
+      "sha1": "6ae0c7e56f5312ca4fbddfb3be84270882072a9d"
+    },
+    "read/fr.mp3": {
+      "bytes": 434016,
+      "sha1": "ad004e5b14dd02f923001aaa0a0f5ecb850e1233"
     }
   }
 }

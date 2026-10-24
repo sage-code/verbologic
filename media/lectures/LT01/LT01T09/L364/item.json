@@ -25,7 +25,8 @@
       "description": "Letter name: We. Example: Wasser.",
       "ipa": "/veː/",
       "example": "Wasser",
-      "context": "We"
+      "context": "/ˈvasɐ/",
+      "ttsText": "We"
     },
     "ru": {
       "name": "W",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "9ae3133a8d98d0fea5e20b1828cf3d1f1202b900"
+      "sha1": "2ad3e5ae05dd6ceaa8afa8b55b7e9744f5d850a7"
+    },
+    "read/de.mp3": {
+      "bytes": 468288,
+      "sha1": "b69f891d7910ab1bca0a25128c2460f536e38764"
     }
   }
 }

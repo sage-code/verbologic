@@ -45,7 +45,8 @@
       "description": "Letter name: enne. Example: nuit.",
       "ipa": "/ɛn/",
       "example": "nuit",
-      "context": "enne"
+      "context": "/nɥi/",
+      "ttsText": "enne"
     },
     "hu": {
       "name": "N",
@@ -61,7 +62,11 @@
   "files": {
     "sound/fr.mp3": {
       "bytes": 11232,
-      "sha1": "d25480be7020b71fb97e5c6a8f3b002f336660f8"
+      "sha1": "8c78c944583affb8da367256c6cc2ed2cc659593"
+    },
+    "read/fr.mp3": {
+      "bytes": 486432,
+      "sha1": "69cd540d14472cf5d4b867947b42700d69b109d4"
     }
   }
 }

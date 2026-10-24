@@ -18,7 +18,9 @@
     "ro": {
       "name": "H",
       "description": "Litera H este a opta literă a alfabetului român.",
-      "ipa": "/h/"
+      "ipa": "/h/",
+      "context": "/harˈtə/",
+      "example": "haină"
     },
     "de": {
       "name": "H",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 8928,
-      "sha1": "d35e88bc34b0a863605d9ee21bebf1f9e16639b5"
+      "bytes": 11232,
+      "sha1": "8a1d7a1c25f268760c604d1f4a1f5cf7e9ad9ee8"
+    },
+    "read/ro.mp3": {
+      "bytes": 500544,
+      "sha1": "7faa056e89979d1f78142828fd398dcaf7f929a7"
     }
   }
 }

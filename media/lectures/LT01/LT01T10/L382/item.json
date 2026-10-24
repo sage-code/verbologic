@@ -30,7 +30,8 @@
       "description": "Letter name: и краткое. Example: йогурт.",
       "ipa": "/i ˈkratkəjə/",
       "example": "йогурт",
-      "context": "и краткое"
+      "context": "/ˈjoɡʊrt/",
+      "ttsText": "и краткое"
     },
     "it": {
       "name": "Й",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/ru.mp3": {
-      "bytes": 11520,
-      "sha1": "d83536fae96168ac0bb1ea6eca2ebde9e4291301"
+      "bytes": 11232,
+      "sha1": "82377f5c0081d7096fcbba0e929dca01a1e7bf49"
+    },
+    "read/ru.mp3": {
+      "bytes": 540288,
+      "sha1": "bf662ff9a4cd70a6bd71885722d5f5fc71c6a0ff"
     }
   }
 }

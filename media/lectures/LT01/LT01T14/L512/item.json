@@ -50,7 +50,8 @@
       "description": "Letter name: kú. Example: quasi.",
       "ipa": "/kuː/",
       "example": "quasi",
-      "context": "kú"
+      "context": "/ˈkvɒzi/",
+      "ttsText": "kú"
     },
     "pt": {
       "name": "Q",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "b2eef396e44a1b132cc6d57580513219e265598c"
+      "sha1": "7b7be08a7c50e0967a04539b9cb45956dba94bb6"
+    },
+    "read/hu.mp3": {
+      "bytes": 480816,
+      "sha1": "8b88bdacdf48379566e99ebcf4b0f04c3d06eeb7"
     }
   }
 }

@@ -50,7 +50,8 @@
       "description": "Letter name: vé. Example: víz.",
       "ipa": "/veː/",
       "example": "víz",
-      "context": "vé"
+      "context": "/ˈviːz/",
+      "ttsText": "vé"
     },
     "pt": {
       "name": "V",
@@ -61,7 +62,11 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "281ba9c3146962292ccf892a03b94c52ca1e2519"
+      "sha1": "4b126f96080a7a19ec080dc0d57e5f9c6c3d3f5d"
+    },
+    "read/hu.mp3": {
+      "bytes": 449280,
+      "sha1": "683b7ad1261fd32002f6c914aa571dd67e36962c"
     }
   }
 }

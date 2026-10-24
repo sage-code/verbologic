@@ -40,7 +40,8 @@
       "description": "Letter name: efe. Example: fuego.",
       "ipa": "/ˈefe/",
       "example": "fuego",
-      "context": "efe"
+      "context": "/ˈfwe.ɣo/",
+      "ttsText": "efe"
     },
     "fr": {
       "name": "F",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/es.mp3": {
-      "bytes": 8640,
-      "sha1": "f08b17da72fa8c86bdbdeb3923736b0d7904d0a9"
+      "bytes": 11232,
+      "sha1": "87aff6ab6fb8b32856c091565efb20020edfcdae"
+    },
+    "read/es.mp3": {
+      "bytes": 518112,
+      "sha1": "29128559908515af46c932e482877a971c7acf97"
     }
   }
 }

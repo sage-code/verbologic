@@ -45,7 +45,8 @@
       "description": "Letter name: cé. Example: chat.",
       "ipa": "/se/",
       "example": "chat",
-      "context": "cé"
+      "context": "/ʃa/",
+      "ttsText": "cé"
     },
     "hu": {
       "name": "C",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/fr.mp3": {
-      "bytes": 11232,
-      "sha1": "c12128efa7565931a59765b2265587ce469f3efb"
+      "bytes": 8352,
+      "sha1": "6e892370ef78c4fc01cad3ad9c221407be6de38e"
+    },
+    "read/fr.mp3": {
+      "bytes": 498672,
+      "sha1": "2b1fdeb15c463e48d8f8508ad456f81165e3cdcc"
     }
   }
 }

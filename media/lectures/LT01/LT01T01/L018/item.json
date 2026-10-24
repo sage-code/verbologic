@@ -18,7 +18,9 @@
     "ro": {
       "name": "O",
       "description": "Litera O este a cincisprezecea literă a alfabetului român.",
-      "ipa": "/o/"
+      "ipa": "/o/",
+      "context": "/om/",
+      "example": "om"
     },
     "de": {
       "name": "O",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 7200,
-      "sha1": "10f6452bf08d15d45e76664ffcc81024d8b339e0"
+      "bytes": 11232,
+      "sha1": "af00751a71e95a01a438064d782daf98498c692f"
+    },
+    "read/ro.mp3": {
+      "bytes": 501264,
+      "sha1": "95758153bfd4a3d539f51a48d2b00eb0a58819d8"
     }
   }
 }

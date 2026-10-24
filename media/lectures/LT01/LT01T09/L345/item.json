@@ -25,7 +25,8 @@
       "description": "Letter name: De. Example: Danke.",
       "ipa": "/deː/",
       "example": "Danke",
-      "context": "De"
+      "context": "/ˈdaŋkə/",
+      "ttsText": "De"
     },
     "ru": {
       "name": "D",
@@ -61,7 +62,11 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "1ddf07c095dc54581344b5e86b5eb4372eb7183c"
+      "sha1": "4b43de78543c9a1f1f1f1f56576d2e68c03b7f9a"
+    },
+    "read/de.mp3": {
+      "bytes": 586800,
+      "sha1": "116eb184ceb338966358111c5055888f3890366d"
     }
   }
 }

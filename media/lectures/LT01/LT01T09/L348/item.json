@@ -25,7 +25,8 @@
       "description": "Letter name: Ge. Example: Garten.",
       "ipa": "/ɡeː/",
       "example": "Garten",
-      "context": "Ge"
+      "context": "/ˈɡaʁtn̩/",
+      "ttsText": "Ge"
     },
     "ru": {
       "name": "G",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/de.mp3": {
-      "bytes": 7776,
-      "sha1": "f99066d3d8bcb78033219538e1f5d40904d810ee"
+      "bytes": 11232,
+      "sha1": "409d65562243c1878e2b7f5ca44b43e6bc04d229"
+    },
+    "read/de.mp3": {
+      "bytes": 519264,
+      "sha1": "8eb793e96567ef3edc2f28d758077bd4fe84f420"
     }
   }
 }

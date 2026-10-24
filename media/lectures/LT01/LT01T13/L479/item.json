@@ -45,7 +45,8 @@
       "description": "Letter name: vé. Example: vert.",
       "ipa": "/ve/",
       "example": "vert",
-      "context": "vé"
+      "context": "/vɛʁ/",
+      "ttsText": "vé"
     },
     "hu": {
       "name": "V",
@@ -61,7 +62,11 @@
   "files": {
     "sound/fr.mp3": {
       "bytes": 11232,
-      "sha1": "7e233599e4006390ee6a139dfe95a5fe2c0351f4"
+      "sha1": "fe7796b3c24d12aadca8ac8d2d608333911e14ad"
+    },
+    "read/fr.mp3": {
+      "bytes": 492912,
+      "sha1": "da449dec93689fdc677db8358f45de219672359a"
     }
   }
 }

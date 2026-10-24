@@ -40,7 +40,8 @@
       "description": "Letter name: eñe. Example: niño.",
       "ipa": "/ˈeɲe/",
       "example": "niño",
-      "context": "eñe"
+      "context": "/ˈni.ɲo/",
+      "ttsText": "eñe"
     },
     "fr": {
       "name": "Ñ",
@@ -61,7 +62,11 @@
   "files": {
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "417bf9edbcfc19ab02a7c281a09b02d52a170c2f"
+      "sha1": "7898e53ab81fcaacc644c9c0c336c433d174a637"
+    },
+    "read/es.mp3": {
+      "bytes": 467712,
+      "sha1": "15d92aad151811cde2e12f019a307265190b41b1"
     }
   }
 }

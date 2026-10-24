@@ -30,7 +30,8 @@
       "description": "Letter name: и. Example: игра.",
       "ipa": "/i/",
       "example": "игра",
-      "context": "и"
+      "context": "/ɪˈɡra/",
+      "ttsText": "и"
     },
     "it": {
       "name": "И",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "fc6c9c1d88d98fa9e0e9ad5721594b97eb79171d"
+      "sha1": "d6bea6aff883cf0b33fa91193c4a65ae4a7c41df"
+    },
+    "read/ru.mp3": {
+      "bytes": 516240,
+      "sha1": "86ca96f0fefe9af1e1429ee217e193ba41fae70c"
     }
   }
 }

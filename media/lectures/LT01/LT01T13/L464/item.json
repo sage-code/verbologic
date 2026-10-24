@@ -45,7 +45,8 @@
       "description": "Letter name: gé. Example: gare.",
       "ipa": "/ʒe/",
       "example": "gare",
-      "context": "gé"
+      "context": "/ɡaʁ/",
+      "ttsText": "gé"
     },
     "hu": {
       "name": "G",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/fr.mp3": {
-      "bytes": 11232,
-      "sha1": "29413342530658937f1f8ad450cc7aa520d09219"
+      "bytes": 8352,
+      "sha1": "739d4a58820d9885267a41a5ea86dbed1ecb4715"
+    },
+    "read/fr.mp3": {
+      "bytes": 394560,
+      "sha1": "0596cef16d9cc025f94293acf37b5c9cae8f169e"
     }
   }
 }

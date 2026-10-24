@@ -37,6 +37,21 @@ export interface PhoneticSections {
   compare?: PhoneticSection
 }
 
+/**
+ * One pronunciation variant of a letter — the same glyph sounds different
+ * depending on position, neighbouring letters, or the word's origin. Each
+ * variant carries its own IPA and its own examples, so the article can teach
+ * "A is /a/ in *casă*, but /ə/ in *casa*" instead of one flat transcription.
+ */
+export interface PhoneticVariation {
+  /** IPA of this variant, e.g. "/ə/". */
+  ipa: string
+  /** When this variant occurs, in the explanation language. */
+  when: string
+  /** Example words in the target language, each with its own IPA. */
+  examples: { word: string; ipa: string }[]
+}
+
 /** One letter or letter group of a target language. */
 export interface PhoneticEntry {
   /** Stable item code (L001, L342, …) — the manifest/article id. */
@@ -49,6 +64,12 @@ export interface PhoneticEntry {
   letterName: string | null
   /** Example word in the target language. */
   example: string | null
+  /** IPA of the example word, e.g. "/ˈa.pfel/". */
+  exampleIpa?: string | null
+  /** The example word's meaning per UI locale — the translation column. */
+  exampleTranslation?: MediaNames
+  /** Pronunciation variants, in teaching order (most common first). */
+  variations?: PhoneticVariation[]
   /** Explanation per UI locale — the only genuinely translated field. */
   note: MediaNames
   /**

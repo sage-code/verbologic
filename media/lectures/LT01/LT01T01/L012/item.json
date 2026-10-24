@@ -18,7 +18,9 @@
     "ro": {
       "name": "Î",
       "description": "Litera Î este a zecea literă a alfabetului român.",
-      "ipa": "/ɨ/"
+      "ipa": "/ɨ/",
+      "context": "/ɨn.t͡seˈleɡ/",
+      "example": "înger"
     },
     "de": {
       "name": "Î",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 7200,
-      "sha1": "552a02a40389e29e70767193dbfc8423744cbdb2"
+      "bytes": 11232,
+      "sha1": "125548df35a75f13b54964da017cf787b29c89eb"
+    },
+    "read/ro.mp3": {
+      "bytes": 440928,
+      "sha1": "4b56b001588d77f4bbb3c35e9ae20390c19c3a47"
     }
   }
 }

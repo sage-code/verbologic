@@ -50,7 +50,8 @@
       "description": "Letter name: ú. Example: út.",
       "ipa": "/uː/",
       "example": "út",
-      "context": "ú"
+      "context": "/ˈuːt/",
+      "ttsText": "ú"
     },
     "pt": {
       "name": "Ú",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/hu.mp3": {
-      "bytes": 7776,
-      "sha1": "f751eabdd6f6d9543c6f01de2a7f8f271751cedc"
+      "bytes": 11232,
+      "sha1": "87a7d60bba4f2efaa1c28bec7e9f02562bf5c2d9"
+    },
+    "read/hu.mp3": {
+      "bytes": 467856,
+      "sha1": "f278e1976ff56998dc0acf827fdd34b2f989af21"
     }
   }
 }

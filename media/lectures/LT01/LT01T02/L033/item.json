@@ -18,7 +18,9 @@
     "ro": {
       "name": "ia",
       "description": "Diftongul ia se regăsește în cuvântul românesc iarnă.",
-      "ipa": "/ja/"
+      "ipa": "/ja/",
+      "context": "/ˈjar.nə/",
+      "example": "iarnă"
     },
     "de": {
       "name": "ia in iarnă (Winter)",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "0299c524b758a61fb207b25a14d24b32df75a9b1"
+      "sha1": "2f3c19150b00091bedca04a0621912439a37fa60"
+    },
+    "read/ro.mp3": {
+      "bytes": 487440,
+      "sha1": "9028bc447b1167e56978fce2f4f2796858906896"
     }
   }
 }

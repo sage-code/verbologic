@@ -30,7 +30,8 @@
       "description": "Letter name: эм. Example: мама.",
       "ipa": "/ɛm/",
       "example": "мама",
-      "context": "эм"
+      "context": "/ˈma.mə/",
+      "ttsText": "эм"
     },
     "it": {
       "name": "М",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "e2c7c27295e0d550b74c01d5f41aeab4ab80b84d"
+      "sha1": "ce2e8c52bbd25931b02681269f0ab8bea04c96cd"
+    },
+    "read/ru.mp3": {
+      "bytes": 496080,
+      "sha1": "1f559534c1210a8df828ff25aec690119e7fa035"
     }
   }
 }

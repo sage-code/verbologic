@@ -30,7 +30,8 @@
       "description": "Letter name: а. Example: арбуз.",
       "ipa": "/a/",
       "example": "арбуз",
-      "context": "а"
+      "context": "/ɐrˈbus/",
+      "ttsText": "а"
     },
     "it": {
       "name": "А",
@@ -61,7 +62,11 @@
   "files": {
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "5873d6854353b922a6d8fc84e479a54a06611914"
+      "sha1": "720e8237d4b7da3fce5083ed9c9c48c9a9ed65aa"
+    },
+    "read/ru.mp3": {
+      "bytes": 445536,
+      "sha1": "5e7d386ae4d6207703e332275a6cab1025edf7a1"
     }
   }
 }

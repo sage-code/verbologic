@@ -45,7 +45,8 @@
       "description": "Letter name: o. Example: orange.",
       "ipa": "/o/",
       "example": "orange",
-      "context": "o"
+      "context": "/ɔ.ʁɑ̃ʒ/",
+      "ttsText": "o"
     },
     "hu": {
       "name": "O",
@@ -61,7 +62,11 @@
   "files": {
     "sound/fr.mp3": {
       "bytes": 11232,
-      "sha1": "cbbf8115de9a93572f7b3ef5c78cefe61e43369e"
+      "sha1": "c630d446aa27ea201d4b20e9151515921c11434d"
+    },
+    "read/fr.mp3": {
+      "bytes": 436320,
+      "sha1": "d229527dc4a81bd9d3a13fcd80170832cbdb739e"
     }
   }
 }

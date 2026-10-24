@@ -18,7 +18,9 @@
     "ro": {
       "name": "oa",
       "description": "Diftongul oa se regăsește în cuvântul românesc noapte.",
-      "ipa": "/o̯a/"
+      "ipa": "/o̯a/",
+      "context": "/ˈno̯ap.te/",
+      "example": "oameni"
     },
     "de": {
       "name": "oa in noapte (Nacht)",
@@ -59,7 +61,11 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "980fdd28fa1ecb153458686800ae9ac0443f68c6"
+      "sha1": "82d731fff3cd871641529ad24b9b724b1d5d7f0c"
+    },
+    "read/ro.mp3": {
+      "bytes": 515664,
+      "sha1": "68510c2b12fd63f176363c425575c2a6a2e4147b"
     }
   }
 }

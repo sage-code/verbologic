@@ -40,7 +40,8 @@
       "description": "Letter name: pe. Example: pan.",
       "ipa": "/pe/",
       "example": "pan",
-      "context": "pe"
+      "context": "/ˈpan/",
+      "ttsText": "pe"
     },
     "fr": {
       "name": "P",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/es.mp3": {
-      "bytes": 7920,
-      "sha1": "e2df35cd3fbbfe724808efd64da2d85761747b90"
+      "bytes": 11232,
+      "sha1": "73a2a60f879552a9b68f20ba4366771cef6c81f1"
+    },
+    "read/es.mp3": {
+      "bytes": 479808,
+      "sha1": "75fb3fd1a93c905366ef16dadb02a728e4f5a515"
     }
   }
 }

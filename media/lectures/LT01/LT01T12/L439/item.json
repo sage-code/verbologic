@@ -40,7 +40,8 @@
       "description": "Letter name: i. Example: isla.",
       "ipa": "/i/",
       "example": "isla",
-      "context": "i"
+      "context": "/ˈiz.la/",
+      "ttsText": "i"
     },
     "fr": {
       "name": "I",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/es.mp3": {
-      "bytes": 11232,
-      "sha1": "d7cab6d02147960130f08643ea331c87a1272ba0"
+      "bytes": 7488,
+      "sha1": "a1e8ad247d4b68f34afc652c2ede336b543f904e"
+    },
+    "read/es.mp3": {
+      "bytes": 535104,
+      "sha1": "be8b77d9ab4a22c37aff50ec90315e095ee768c7"
     }
   }
 }

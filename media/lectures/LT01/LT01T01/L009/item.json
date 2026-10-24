@@ -18,7 +18,9 @@
     "ro": {
       "name": "G",
       "description": "Litera G este a șaptea literă a alfabetului român.",
-      "ipa": "/g/ or /dʒ/"
+      "ipa": "/g/ or /dʒ/",
+      "context": "/ɡar/",
+      "example": "gară"
     },
     "de": {
       "name": "G",
@@ -58,8 +60,12 @@
   },
   "files": {
     "sound/ro.mp3": {
-      "bytes": 7920,
-      "sha1": "40c94e95a3b33306064f828944356c686eb44313"
+      "bytes": 11232,
+      "sha1": "baaf8e8c7e258d2a7cad4baa36dbd7b4129e7938"
+    },
+    "read/ro.mp3": {
+      "bytes": 561312,
+      "sha1": "a0f164cb94467f5c56b91ec135830528caf913d2"
     }
   }
 }

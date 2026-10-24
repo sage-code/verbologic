@@ -45,7 +45,8 @@
       "description": "Letter name: bé. Example: bonjour.",
       "ipa": "/be/",
       "example": "bonjour",
-      "context": "bé"
+      "context": "/bɔ̃.ʒuʁ/",
+      "ttsText": "bé"
     },
     "hu": {
       "name": "B",
@@ -60,8 +61,12 @@
   },
   "files": {
     "sound/fr.mp3": {
-      "bytes": 7920,
-      "sha1": "b1cec02f2807be3a34b38365ef76536fa9fd2e82"
+      "bytes": 11232,
+      "sha1": "f4036a83529cafea558c439c4327fa35b6efbd3a"
+    },
+    "read/fr.mp3": {
+      "bytes": 353088,
+      "sha1": "d83618fffd122bd485e44b4bac6e097873adde8d"
     }
   }
 }

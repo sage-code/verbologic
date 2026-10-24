@@ -31,7 +31,8 @@
       "description": "Letter name: cappa. Example: kiwi.",
       "ipa": "/ˈkappa/",
       "example": "kiwi",
-      "context": "cappa"
+      "context": "/ˈki.wi/",
+      "ttsText": "cappa"
     },
     "es": {
       "name": "K",
@@ -52,8 +53,12 @@
   },
   "files": {
     "sound/it.mp3": {
-      "bytes": 5616,
-      "sha1": "a016f46753afe941bb3881854606527cd7278806"
+      "bytes": 11232,
+      "sha1": "4d3af0a627f1b12362603bee1c0e0459e8bd25ad"
+    },
+    "read/it.mp3": {
+      "bytes": 506592,
+      "sha1": "f3786d9f2df70fd8ac209ea0df746d78ae1f3611"
     }
   }
 }

@@ -491,12 +491,80 @@ def article_text(track: str, topic: str, code: str, locale: str) -> str | None:
     """The article body for one locale, reduced to prose the TTS engine reads."""
     path = CONTENT_DIR / track / topic / code / f"{locale}.md"
     if not path.is_file():
-        return None
+        return phonetic_article_text(topic, code, locale)
     text = FRONTMATTER_RE.sub("", path.read_text(encoding="utf-8"))
     text = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", text)  # images
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)  # links → their text
     text = re.sub(r"^\s{0,3}#{1,6}\s*", "", text, flags=re.MULTILINE)  # headings
     text = re.sub(r"[*_`>]+", "", text)  # emphasis / quotes / code marks
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip() or None
+
+
+#: Alphabet data files — the authoring surface for phonetic (letter) articles.
+ALPHABETS_DIR = ROOT / "src" / "data" / "alphabets"
+#: Section order the reading view uses (src/composables/usePhonetic.ts).
+PHONETIC_SECTION_ORDER = ("sound", "howToSay", "spelling", "compare")
+
+
+def phonetic_article_text(topic: str, code: str, locale: str) -> str | None:
+    """Read-aloud prose for a letter article, built from the alphabet data.
+
+    A phonetic article has no Markdown — it is rendered from
+    src/data/alphabets/<lang>.json (see src/types/phonetic.ts). Its read
+    recording therefore has to be synthesized from the same sections the
+    renderer shows, in the same order, with the markup stripped.
+    """
+    sidebar = SIDEBARS_DIR / "library" / "lectures" / "sidebar.json"
+    if not sidebar.is_file():
+        return None
+    data = json.loads(sidebar.read_text(encoding="utf-8"))
+    target = None
+    for section in data.get("sections", []):
+        for entry in section.get("topics", []):
+            if entry.get("code") == topic and entry.get("phonetic") is True:
+                target = entry.get("target")
+                break
+        if target:
+            break
+    if not target:
+        return None
+    alphabet_file = ALPHABETS_DIR / f"{target}.json"
+    if not alphabet_file.is_file():
+        return None
+    alphabet = json.loads(alphabet_file.read_text(encoding="utf-8"))
+    entry = next(
+        (
+            item
+            for item in [*(alphabet.get("letters") or []), *(alphabet.get("groups") or [])]
+            if item.get("code") == code
+        ),
+        None,
+    )
+    if not entry:
+        return None
+
+    sections = (entry.get("sections") or {}).get(locale) or (entry.get("sections") or {}).get("en") or {}
+    parts: list[str] = []
+    glyph = entry.get("glyph")
+    if glyph:
+        parts.append(f"{glyph}.")
+    for key in PHONETIC_SECTION_ORDER:
+        section = sections.get(key)
+        if not isinstance(section, dict):
+            continue
+        text = section.get("text")
+        if isinstance(text, str) and text.strip():
+            parts.append(text.strip())
+    if not parts:
+        note = (entry.get("note") or {}).get(locale) or (entry.get("note") or {}).get("en")
+        if isinstance(note, str) and note.strip():
+            parts.append(note.strip())
+    if not parts:
+        return None
+    text = "\n\n".join(parts)
+    # Strip the inline markup the renderer understands but TTS must not read.
+    text = re.sub(r"[*_`>]+", "", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip() or None
 
