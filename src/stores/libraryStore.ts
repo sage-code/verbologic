@@ -76,7 +76,7 @@ const ALLOCATIONS_KEY = 'verbologic-library-allocations'
  */
 const POOL_KEY = 'verbologic-credit-pool'
 /** How many languages may be active at once (mirrors the DB trigger's cap). */
-export const ACTIVE_LANGUAGE_CAP = 2
+export const ACTIVE_LANGUAGE_CAP = 3
 
 export const useLibraryStore = defineStore('library', () => {
   // Supabase client (null without credentials) — enrollments persist to the
@@ -106,9 +106,17 @@ export const useLibraryStore = defineStore('library', () => {
     sorted.value.filter((e: Enrollment) => e.status === 'abandoned')
   )
 
-  /** Active languages (the ones that count against ACTIVE_LANGUAGE_CAP). */
+  /**
+   * Active languages — the ones that count against ACTIVE_LANGUAGE_CAP.
+   *
+   * Hidden languages are EXCLUDED. Hiding is a view preference, but a hidden
+   * language is not one the user is learning right now, so it must not hold a
+   * slot. Counting them was a bug: hiding every language left the Library
+   * empty while the cap still reported "2 of 2", so no language could be added
+   * and none were visible to remove.
+   */
   const active = computed(() =>
-    enrollments.value.filter((e: Enrollment) => e.status !== 'abandoned')
+    enrollments.value.filter((e: Enrollment) => e.status !== 'abandoned' && !isHidden(e.locale))
   )
 
   /** True when another language cannot be added without abandoning one. */

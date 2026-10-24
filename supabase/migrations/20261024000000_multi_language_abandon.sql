@@ -169,7 +169,7 @@ language plpgsql
 set search_path = ''
 as $$
 declare
-  active_language_cap constant integer := 2;
+  active_language_cap constant integer := 3;
   active_count integer;
 begin
   -- Abandoned rows are exempt: they are history, not active languages.

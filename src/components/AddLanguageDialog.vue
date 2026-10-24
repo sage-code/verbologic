@@ -123,7 +123,7 @@ function confirm() {
 
     <!-- Two active languages is the cap: a third needs one abandoned first -->
     <p v-if="blocked" class="mt-4 rounded-xl bg-accent-soft p-4 text-sm text-content">
-      {{ copy('library.cap_reached', 'You can learn two languages at a time. Remove one from your library first — its progress is kept.') }}
+      {{ copy('library.cap_reached', 'You can learn three languages at a time. Remove one from your library first — its progress is kept.') }}
     </p>
 
     <template #footer>

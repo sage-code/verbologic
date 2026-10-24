@@ -783,14 +783,22 @@ CLI is already authenticated on this machine; `supabase db query --linked --file
 View **`enrollments_overview`** aggregates `words_learned` / `credits_consumed` /
 `credits_left` — the one query the Library reads.
 
-**Languages and credits.** A user holds **at most two active languages** at a
+**Languages and credits.** A user holds **at most three active languages** at a
 time (`enforce_active_language_cap` trigger; the cap is one constant in that
-function). To add a third they must abandon one. Abandoning never loses
-progress: the enrollment flips to `status = 'abandoned'` and every
-`learned_items` / `listen_counts` row stays attached, so restoring is a status
-flip back. On abandon the user is asked whether to **recuperate** the language's
-credits — they return to `profiles.credit_pool` — or forfeit them; either way the
-language's `credits_allocated` drops to zero.
+function, mirrored by `ACTIVE_LANGUAGE_CAP` in `libraryStore`). To add a fourth
+they must abandon one. Abandoning never loses progress: the enrollment flips to
+`status = 'abandoned'` and every `learned_items` / `listen_counts` row stays
+attached, so restoring is a status flip back. On abandon the user is asked
+whether to **recuperate** the language's credits — they return to
+`profiles.credit_pool` — or forfeit them; either way the language's
+`credits_allocated` drops to zero.
+
+**Hidden languages do not count against the cap.** Hiding is a view preference
+(`verbologic-library-hidden`), so a hidden language is not one the user is
+learning right now and must not hold a slot. Counting them was a bug: hiding
+every language left the Library empty while the cap still reported full, so no
+language could be added and none were visible to remove. `active` in
+`libraryStore` therefore excludes both `abandoned` and hidden rows.
 
 Credits are server-side and mutated only through RPCs, so the pool cannot be
 inflated from the browser:

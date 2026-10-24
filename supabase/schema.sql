@@ -357,7 +357,7 @@ language plpgsql
 set search_path = ''
 as $$
 declare
-  active_language_cap constant integer := 2;
+  active_language_cap constant integer := 3;
   active_count integer;
 begin
   if new.status = 'abandoned' then
