@@ -588,6 +588,7 @@ automatically (the menu link is crawled from every page's header).
 | `run build` | **differential build** — only regenerates when source/content hashes changed |
 | `run build --force` | ignore the hash gate and rebuild |
 | `run validate` | entity/nav/locale integrity checks — missing content is **never** an error (see §3.3 / architecture.md) |
+| `run heartbeat` | ping Supabase once (keeps the Free-tier project from pausing — see §7) |
 | `run missing` | missing-content inventory → `temp/missing-content.md`: empty topics, planned ids, planned sources, pins/docs gaps |
 | `run media …` | stage / manifest / verify / upload audio |
 | `run lecture <new\|status\|translate\|review>` | lecture content tooling (content/lectures — see §3.4) |
@@ -763,6 +764,35 @@ View **`enrollments_overview`** aggregates `words_learned` /
 
 **Regenerate DB types:** `npx supabase gen types typescript --project-id <ref>
 --schema public > src/types/database.ts`.
+
+### Keeping the Free-tier project awake (daily heartbeat)
+
+A Free-tier project that receives **no API or database traffic for 7
+consecutive days is paused automatically**. The data is not deleted, but auth
+and progress tracking stay offline until the project is resumed by hand from
+the dashboard — so the site silently loses its backend.
+
+`.github/workflows/supabase-heartbeat.yml` prevents that: it runs
+`scripts/db-heartbeat.mjs` once a day, which makes one authenticated REST
+request (`GET /rest/v1/profiles?select=id&limit=1`) — the cheapest read that
+still counts as real API traffic. RLS returns an empty array to an anonymous
+caller, which is a `200` and therefore success.
+
+- **Schedule:** 05:00 daily, Europe/Bucharest. GitHub cron is UTC-only and
+  ignores DST, so the workflow is pinned to `0 2 * * *` and its first step
+  re-checks the local hour — a run that lands outside 05:00 Bucharest exits
+  without pinging. That keeps the heartbeat at 05:00 year-round instead of
+  drifting an hour every November.
+- **Secrets:** the workflow reads `NUXT_PUBLIC_SUPABASE_URL` and
+  `NUXT_PUBLIC_SUPABASE_ANON_KEY` from **repository secrets** (Settings →
+  Secrets and variables → Actions). The publishable key is browser-safe, so
+  this is not a new exposure — but the workflow needs them because CI has no
+  `.env`.
+- **Manual run:** Actions → *Supabase heartbeat* → *Run workflow*. Locally:
+  `./run.sh heartbeat` (reads `.env`).
+- **If it fails:** the job goes red. A `401`/`403` means the project is awake
+  but the key is wrong; a connection error means the project is paused — resume
+  it at `https://supabase.com/dashboard/project/<ref>`.
 
 **Payments (not wired yet):** credits are bought with PayPal, which needs a
 server — the site is a static bundle, so the secret cannot live in the browser.

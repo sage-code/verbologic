@@ -22,6 +22,7 @@ Verbologic maintenance runner
   ./run.sh install                       Install dependencies
   ./run.sh build [--force]               Differential build (skips rebuild when nothing changed)
   ./run.sh validate                      Entity/nav/locale integrity checks
+  ./run.sh heartbeat                     Ping Supabase (keeps the Free-tier project from pausing)
   ./run.sh missing                       Missing-content inventory (planned items → temp/missing-content.md)
   ./run.sh media stage                  Archive mp3s → media per-topic layout
   ./run.sh media index [dry]            Build public/data/media payloads (sidebars + manifests + config)
@@ -123,6 +124,7 @@ case "${1:-help}" in
     fi
     ;;
   validate)  node scripts/validate-data.mjs ;;
+  heartbeat) node scripts/db-heartbeat.mjs ;;
   missing)   node scripts/missing-content.mjs ;;
   media)
     shift

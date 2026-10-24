@@ -1,0 +1,58 @@
+name: Supabase heartbeat
+
+# Keeps the Free-tier Supabase project from auto-pausing. A Free-tier project
+# with no API or database traffic for 7 consecutive days is paused; the data
+# survives, but auth and progress tracking stay offline until someone resumes it
+# by hand. One authenticated REST request a day resets that clock.
+#
+# 05:00 daily, Europe/Bucharest. GitHub cron is UTC-only and does not follow DST,
+# so the schedule is pinned to 02:00 UTC (05:00 EEST, 04:00 EET in winter) and
+# the first step re-checks the local hour — a run that lands outside 05:00
+# Bucharest exits without pinging, so the heartbeat stays at 05:00 year-round
+# instead of drifting an hour every November.
+#
+# Manual run: Actions → Supabase heartbeat → Run workflow.
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: supabase-heartbeat
+  cancel-in-progress: false
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Confirm it is 05:00 in Bucharest
+        id: gate
+        run: |
+          hour="$(TZ=Europe/Bucharest date +%H)"
+          echo "Bucharest hour: $hour"
+          if [ "$hour" != "05" ]; then
+            echo "Outside the 05:00 window (DST offset) — skipping this run."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Ping the database
+        if: steps.gate.outputs.run == 'true'
+        env:
+          NUXT_PUBLIC_SUPABASE_URL: ${{ secrets.NUXT_PUBLIC_SUPABASE_URL }}
+          NUXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NUXT_PUBLIC_SUPABASE_ANON_KEY }}
+        run: node scripts/db-heartbeat.mjs
