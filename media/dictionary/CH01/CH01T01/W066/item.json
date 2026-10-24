@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "vision",
-    "ro": "viziune",
-    "de": "vision",
-    "ru": "vision",
-    "it": "vision",
-    "es": "vision",
-    "fr": "vision",
-    "hu": "vision",
-    "pt": "vision"
-  },
-  "description": {
-    "en": "Vision is the ability to see or the act of seeing.",
-    "ro": "Vision este capacitatea de a vedea sau actul de a vedea.",
-    "de": "Vision ist die Fähigkeit zu sehen oder der Akt des Sehens.",
-    "ru": "Vision — это способность видеть или процесс зрения.",
-    "it": "Vision è la capacità di vedere o l'atto di vedere.",
-    "es": "Vision es la capacidad de ver o el acto de ver.",
-    "fr": "Vision est la capacité de voir ou l'acte de voir.",
-    "hu": "A vision a látás képessége vagy a látás folyamata.",
-    "pt": "Vision é a capacidade de ver ou o ato de ver."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ʒ/"
-    },
-    "ro": {
-      "ipa": "/vi.ziˈu.ne/"
-    },
-    "de": {
-      "ipa": "/fiˈzi̯oːn/"
-    },
-    "ru": {
-      "ipa": "/ˈvi.ʒən/"
-    },
-    "it": {
-      "ipa": "/ˈvi.ʒən/"
-    },
-    "es": {
-      "ipa": "/ˈvi.ʒən/"
-    },
-    "fr": {
-      "ipa": "/ˈvi.ʒən/"
-    },
-    "hu": {
-      "ipa": "/ˈvi.ʒən/"
-    },
-    "pt": {
-      "ipa": "/ˈvi.ʒən/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "c96361560a331a9836422de3897de0328fd2b23d",
-      "key": "dictionary/CH01/CH01T01/W066/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1ef4d20f1a5470a10b7ee1b2afda4b5d3996ff57",
-      "key": "dictionary/CH01/CH01T01/W066/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3c48b1321b86eb569b4dade022853b32d3b8be51",
-      "key": "dictionary/CH01/CH01T01/W066/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0649d5673be0446dec99863b5eeb21881eb19bd0",
-      "key": "dictionary/CH01/CH01T01/W066/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "85abc810f18d53175e4f9849babf77dffa64a203",
-      "key": "dictionary/CH01/CH01T01/W066/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "7a71c896aba7dd0d58c83822659131e701ca9080",
-      "key": "dictionary/CH01/CH01T01/W066/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "46a5740fd598d19d756d66db26fb4d47b3dd42b9",
-      "key": "dictionary/CH01/CH01T01/W066/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b4acc1e740847f01c96f3ce012ea7e298a475b49",
-      "key": "dictionary/CH01/CH01T01/W066/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "7b990a1d060cb748ad5c2365ae441628ce7dc846",
-      "key": "dictionary/CH01/CH01T01/W066/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W066",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "s + ion",
-      "example": "vision"
+      "name": "vision",
+      "description": "Vision is the ability to see or the act of seeing.",
+      "ipa": "/ʒ/",
+      "example": "vision",
+      "context": "s + ion"
+    },
+    "ro": {
+      "name": "viziune",
+      "description": "Vision este capacitatea de a vedea sau actul de a vedea.",
+      "ipa": "/vi.ziˈu.ne/"
+    },
+    "de": {
+      "name": "vision",
+      "description": "Vision ist die Fähigkeit zu sehen oder der Akt des Sehens.",
+      "ipa": "/fiˈzi̯oːn/"
+    },
+    "ru": {
+      "name": "vision",
+      "description": "Vision — это способность видеть или процесс зрения.",
+      "ipa": "/ˈvi.ʒən/"
+    },
+    "it": {
+      "name": "vision",
+      "description": "Vision è la capacità di vedere o l'atto di vedere.",
+      "ipa": "/ˈvi.ʒən/"
+    },
+    "es": {
+      "name": "vision",
+      "description": "Vision es la capacidad de ver o el acto de ver.",
+      "ipa": "/ˈvi.ʒən/"
+    },
+    "fr": {
+      "name": "vision",
+      "description": "Vision est la capacité de voir ou l'acte de voir.",
+      "ipa": "/ˈvi.ʒən/"
+    },
+    "hu": {
+      "name": "vision",
+      "description": "A vision a látás képessége vagy a látás folyamata.",
+      "ipa": "/ˈvi.ʒən/"
+    },
+    "pt": {
+      "name": "vision",
+      "description": "Vision é a capacidade de ver ou o ato de ver.",
+      "ipa": "/ˈvi.ʒən/"
     }
   },
-  "entity_id": "CH01T01:W066",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "c96361560a331a9836422de3897de0328fd2b23d"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "1ef4d20f1a5470a10b7ee1b2afda4b5d3996ff57"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "3c48b1321b86eb569b4dade022853b32d3b8be51"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "0649d5673be0446dec99863b5eeb21881eb19bd0"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "85abc810f18d53175e4f9849babf77dffa64a203"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "7a71c896aba7dd0d58c83822659131e701ca9080"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "46a5740fd598d19d756d66db26fb4d47b3dd42b9"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "b4acc1e740847f01c96f3ce012ea7e298a475b49"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "7b990a1d060cb748ad5c2365ae441628ce7dc846"
+    }
+  }
 }

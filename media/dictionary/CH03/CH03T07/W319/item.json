@@ -4,111 +4,45 @@
   "chapter": "CH03",
   "topic": "CH03T07",
   "kind": "word",
-  "names": {
-    "en": "to do / to make",
-    "ro": "a face",
-    "de": "machen / tun",
-    "ru": "делать",
-    "it": "fare",
-    "es": "hacer",
-    "fr": "faire",
-    "hu": "csinálni",
-    "pt": "fazer"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/a ˈfatʃe/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "74a40d5c28cae11742d3843b5583cbb83badc938",
-      "key": "dictionary/CH03/CH03T07/W319/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T07:W319",
+  "cefr": "A2",
   "tags": [
     "vocabulary#emotions-social"
   ],
-  "metadata": {},
-  "entity_id": "CH03T07:W319",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "to do / to make"
+    },
+    "ro": {
+      "name": "a face",
+      "ipa": "/a ˈfatʃe/"
+    },
+    "de": {
+      "name": "machen / tun"
+    },
+    "ru": {
+      "name": "делать"
+    },
+    "it": {
+      "name": "fare"
+    },
+    "es": {
+      "name": "hacer"
+    },
+    "fr": {
+      "name": "faire"
+    },
+    "hu": {
+      "name": "csinálni"
+    },
+    "pt": {
+      "name": "fazer"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "74a40d5c28cae11742d3843b5583cbb83badc938"
+    }
+  }
 }

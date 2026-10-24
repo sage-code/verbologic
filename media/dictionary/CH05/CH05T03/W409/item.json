@@ -4,111 +4,45 @@
   "chapter": "CH05",
   "topic": "CH05T03",
   "kind": "word",
-  "names": {
-    "en": "waiter",
-    "ro": "chelner",
-    "de": "Kellner",
-    "ru": "официант",
-    "it": "cameriere",
-    "es": "camarero",
-    "fr": "serveur",
-    "hu": "pincér",
-    "pt": "garçom"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈkelner/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "1355b24a7da6ebe97fac2649a42892450823443e",
-      "key": "dictionary/CH05/CH05T03/W409/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH05T03:W409",
+  "cefr": "B1",
   "tags": [
     "scaffold#C5T03"
   ],
-  "metadata": {},
-  "entity_id": "CH05T03:W409",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "waiter"
+    },
+    "ro": {
+      "name": "chelner",
+      "ipa": "/ˈkelner/"
+    },
+    "de": {
+      "name": "Kellner"
+    },
+    "ru": {
+      "name": "официант"
+    },
+    "it": {
+      "name": "cameriere"
+    },
+    "es": {
+      "name": "camarero"
+    },
+    "fr": {
+      "name": "serveur"
+    },
+    "hu": {
+      "name": "pincér"
+    },
+    "pt": {
+      "name": "garçom"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "1355b24a7da6ebe97fac2649a42892450823443e"
+    }
+  }
 }

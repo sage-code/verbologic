@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T06",
   "kind": "word",
-  "names": {
-    "en": "wrong",
-    "ro": "greșit",
-    "de": "falsch",
-    "ru": "неправильный",
-    "it": "sbagliato",
-    "es": "equivocado",
-    "fr": "faux",
-    "hu": "helytelen",
-    "pt": "errado"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/greˈʃit/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "163f25a7a673e00c94563e16c4953b30315ecbf4",
-      "key": "dictionary/CH11/CH11T06/W824/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T06:W824",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T06"
   ],
-  "metadata": {},
-  "entity_id": "CH11T06:W824",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "wrong"
+    },
+    "ro": {
+      "name": "greșit",
+      "ipa": "/greˈʃit/"
+    },
+    "de": {
+      "name": "falsch"
+    },
+    "ru": {
+      "name": "неправильный"
+    },
+    "it": {
+      "name": "sbagliato"
+    },
+    "es": {
+      "name": "equivocado"
+    },
+    "fr": {
+      "name": "faux"
+    },
+    "hu": {
+      "name": "helytelen"
+    },
+    "pt": {
+      "name": "errado"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "163f25a7a673e00c94563e16c4953b30315ecbf4"
+    }
+  }
 }

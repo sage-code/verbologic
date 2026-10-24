@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T02",
   "kind": "word",
-  "names": {
-    "en": "confirmation",
-    "ro": "confirmare",
-    "de": "Bestätigung",
-    "ru": "подтверждение",
-    "it": "conferma",
-    "es": "confirmación",
-    "fr": "confirmation",
-    "hu": "megerősítés",
-    "pt": "confirmação"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/konfirˈmare/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "11d8ed6c7f8c858a39ebb9e903c045fbe6061d4c",
-      "key": "dictionary/CH11/CH11T02/W786/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T02:W786",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T02"
   ],
-  "metadata": {},
-  "entity_id": "CH11T02:W786",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "confirmation"
+    },
+    "ro": {
+      "name": "confirmare",
+      "ipa": "/konfirˈmare/"
+    },
+    "de": {
+      "name": "Bestätigung"
+    },
+    "ru": {
+      "name": "подтверждение"
+    },
+    "it": {
+      "name": "conferma"
+    },
+    "es": {
+      "name": "confirmación"
+    },
+    "fr": {
+      "name": "confirmation"
+    },
+    "hu": {
+      "name": "megerősítés"
+    },
+    "pt": {
+      "name": "confirmação"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "11d8ed6c7f8c858a39ebb9e903c045fbe6061d4c"
+    }
+  }
 }

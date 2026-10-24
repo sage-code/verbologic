@@ -4,111 +4,45 @@
   "chapter": "CH03",
   "topic": "CH03T02",
   "kind": "word",
-  "names": {
-    "en": "now",
-    "ro": "acum",
-    "de": "jetzt",
-    "ru": "сейчас",
-    "it": "adesso",
-    "es": "ahora",
-    "fr": "maintenant",
-    "hu": "most",
-    "pt": "agora"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/aˈkum/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "7ae3e5a6b3334eddeb853b7c4e37d22e98eb24a6",
-      "key": "dictionary/CH03/CH03T02/W252/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T02:W252",
+  "cefr": "A2",
   "tags": [
     "vocabulary#time-expressions"
   ],
-  "metadata": {},
-  "entity_id": "CH03T02:W252",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "now"
+    },
+    "ro": {
+      "name": "acum",
+      "ipa": "/aˈkum/"
+    },
+    "de": {
+      "name": "jetzt"
+    },
+    "ru": {
+      "name": "сейчас"
+    },
+    "it": {
+      "name": "adesso"
+    },
+    "es": {
+      "name": "ahora"
+    },
+    "fr": {
+      "name": "maintenant"
+    },
+    "hu": {
+      "name": "most"
+    },
+    "pt": {
+      "name": "agora"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "7ae3e5a6b3334eddeb853b7c4e37d22e98eb24a6"
+    }
+  }
 }

@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "gn-",
-    "ro": "gnom",
-    "de": "gn-",
-    "ru": "gn-",
-    "it": "gn-",
-    "es": "gn-",
-    "fr": "gn-",
-    "hu": "gn-",
-    "pt": "gn-"
-  },
-  "description": {
-    "en": "The prefix gn- is a letter combination often found at the beginning of words.",
-    "ro": "Prefixul gn- este o combinație de litere întâlnită adesea la începutul cuvintelor.",
-    "de": "Das Präfix gn- ist eine Buchstabenkombination, die häufig am Wortanfang vorkommt.",
-    "ru": "Префикс gn- — это сочетание букв, часто встречающееся в начале слов.",
-    "it": "Il prefisso gn- è una combinazione di lettere che si trova spesso all'inizio delle parole.",
-    "es": "El prefijo gn- es una combinación de letras que se encuentra a menudo al principio de las palabras.",
-    "fr": "Le préfixe gn- est une combinaison de lettres souvent trouvée au début des mots.",
-    "hu": "A gn- előtag egy betűkombináció, amely gyakran előfordul szavak elején.",
-    "pt": "O prefixo gn- é uma combinação de letras frequentemente encontrada no início das palavras."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/noʊm/"
-    },
-    "ro": {
-      "ipa": "/ɡnom/"
-    },
-    "de": {
-      "ipa": "/ɡn/"
-    },
-    "ru": {
-      "ipa": "/ɡn/"
-    },
-    "it": {
-      "ipa": "/ɲ/"
-    },
-    "es": {
-      "ipa": "/ɲ/"
-    },
-    "fr": {
-      "ipa": "/ɲ/"
-    },
-    "hu": {
-      "ipa": "/ɲ/"
-    },
-    "pt": {
-      "ipa": "/ɲ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "3b6873182a4a6c59336a34f1b06b16788e720136",
-      "key": "dictionary/CH01/CH01T01/W025/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2e1d3df8cf3e4ac2cdab4336216471364d7f94d4",
-      "key": "dictionary/CH01/CH01T01/W025/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8446110f8194043f2d8622e422cd537b5733fc3d",
-      "key": "dictionary/CH01/CH01T01/W025/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c12d7146f107f17f7c30885205cdb0ab52425fb9",
-      "key": "dictionary/CH01/CH01T01/W025/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8cf915d838f23d33a850cb9cf99c76a623349a63",
-      "key": "dictionary/CH01/CH01T01/W025/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9ce6601e53f015c9d829481e70aeee56bbbd86de",
-      "key": "dictionary/CH01/CH01T01/W025/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d3fb604d048c019756a0a35a9549ce1d08515052",
-      "key": "dictionary/CH01/CH01T01/W025/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9ef2a1f1969c7b7eac7d610e578d6bbc1b71d154",
-      "key": "dictionary/CH01/CH01T01/W025/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9004a14f7a4676788c3bef0fc7ee90b7a8796116",
-      "key": "dictionary/CH01/CH01T01/W025/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W025",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "g",
-      "example": "gnome"
+      "name": "gn-",
+      "description": "The prefix gn- is a letter combination often found at the beginning of words.",
+      "ipa": "/noʊm/",
+      "example": "gnome",
+      "context": "g"
+    },
+    "ro": {
+      "name": "gnom",
+      "description": "Prefixul gn- este o combinație de litere întâlnită adesea la începutul cuvintelor.",
+      "ipa": "/ɡnom/"
+    },
+    "de": {
+      "name": "gn-",
+      "description": "Das Präfix gn- ist eine Buchstabenkombination, die häufig am Wortanfang vorkommt.",
+      "ipa": "/ɡn/"
+    },
+    "ru": {
+      "name": "gn-",
+      "description": "Префикс gn- — это сочетание букв, часто встречающееся в начале слов.",
+      "ipa": "/ɡn/"
+    },
+    "it": {
+      "name": "gn-",
+      "description": "Il prefisso gn- è una combinazione di lettere che si trova spesso all'inizio delle parole.",
+      "ipa": "/ɲ/"
+    },
+    "es": {
+      "name": "gn-",
+      "description": "El prefijo gn- es una combinación de letras que se encuentra a menudo al principio de las palabras.",
+      "ipa": "/ɲ/"
+    },
+    "fr": {
+      "name": "gn-",
+      "description": "Le préfixe gn- est une combinaison de lettres souvent trouvée au début des mots.",
+      "ipa": "/ɲ/"
+    },
+    "hu": {
+      "name": "gn-",
+      "description": "A gn- előtag egy betűkombináció, amely gyakran előfordul szavak elején.",
+      "ipa": "/ɲ/"
+    },
+    "pt": {
+      "name": "gn-",
+      "description": "O prefixo gn- é uma combinação de letras frequentemente encontrada no início das palavras.",
+      "ipa": "/ɲ/"
     }
   },
-  "entity_id": "CH01T01:W025",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "3b6873182a4a6c59336a34f1b06b16788e720136"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "2e1d3df8cf3e4ac2cdab4336216471364d7f94d4"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "8446110f8194043f2d8622e422cd537b5733fc3d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "c12d7146f107f17f7c30885205cdb0ab52425fb9"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "8cf915d838f23d33a850cb9cf99c76a623349a63"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "9ce6601e53f015c9d829481e70aeee56bbbd86de"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "d3fb604d048c019756a0a35a9549ce1d08515052"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "9ef2a1f1969c7b7eac7d610e578d6bbc1b71d154"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "9004a14f7a4676788c3bef0fc7ee90b7a8796116"
+    }
+  }
 }

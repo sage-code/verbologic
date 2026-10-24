@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T04",
   "kind": "word",
-  "names": {
-    "en": "trigger",
-    "ro": "declanșator",
-    "de": "Auslöser",
-    "ru": "триггер",
-    "it": "innesco",
-    "es": "detonante",
-    "fr": "déclencheur",
-    "hu": "kiváltó ok",
-    "pt": "gatilho"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/deklanʃaˈtor/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "b11155b75b30fb6e7fb2df4f8815a14502c00b24",
-      "key": "dictionary/CH11/CH11T04/W809/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T04:W809",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T04"
   ],
-  "metadata": {},
-  "entity_id": "CH11T04:W809",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "trigger"
+    },
+    "ro": {
+      "name": "declanșator",
+      "ipa": "/deklanʃaˈtor/"
+    },
+    "de": {
+      "name": "Auslöser"
+    },
+    "ru": {
+      "name": "триггер"
+    },
+    "it": {
+      "name": "innesco"
+    },
+    "es": {
+      "name": "detonante"
+    },
+    "fr": {
+      "name": "déclencheur"
+    },
+    "hu": {
+      "name": "kiváltó ok"
+    },
+    "pt": {
+      "name": "gatilho"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "b11155b75b30fb6e7fb2df4f8815a14502c00b24"
+    }
+  }
 }

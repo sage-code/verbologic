@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T01",
   "kind": "word",
-  "names": {
-    "en": "report",
-    "ro": "raport",
-    "de": "Bericht",
-    "ru": "отчёт",
-    "it": "rapporto",
-    "es": "informe",
-    "fr": "rapport",
-    "hu": "jelentés",
-    "pt": "relatório"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/raˈport/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "356459a591a2d2b29135651e858b994dd8f192ea",
-      "key": "dictionary/CH09/CH09T01/W642/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T01:W642",
+  "cefr": "C1",
   "tags": [
     "vocabulary#office-vocabulary"
   ],
-  "metadata": {},
-  "entity_id": "CH09T01:W642",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "report"
+    },
+    "ro": {
+      "name": "raport",
+      "ipa": "/raˈport/"
+    },
+    "de": {
+      "name": "Bericht"
+    },
+    "ru": {
+      "name": "отчёт"
+    },
+    "it": {
+      "name": "rapporto"
+    },
+    "es": {
+      "name": "informe"
+    },
+    "fr": {
+      "name": "rapport"
+    },
+    "hu": {
+      "name": "jelentés"
+    },
+    "pt": {
+      "name": "relatório"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "356459a591a2d2b29135651e858b994dd8f192ea"
+    }
+  }
 }

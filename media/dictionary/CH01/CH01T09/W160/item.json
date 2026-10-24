@@ -4,176 +4,114 @@
   "chapter": "CH01",
   "topic": "CH01T09",
   "kind": "letter",
+  "entity_id": "CH01T09:W160",
+  "cefr": "A1",
   "letter": "P",
-  "names": {
-    "en": "P (pee)",
-    "ro": "P (pe)",
-    "de": "P (pe)",
-    "ru": "P (пи)",
-    "it": "P (pi)",
-    "es": "P (pe)",
-    "fr": "P (pé)",
-    "hu": "P (pé)",
-    "pt": "P (pê)"
-  },
-  "description": {
-    "en": "The letter P in the Latin alphabet, named pee.",
-    "ro": "Litera P din alfabetul latin, numită pe.",
-    "de": "Der Buchstabe P des lateinischen Alphabets, genannt pe.",
-    "ru": "Буква P латинского алфавита, называемая «пи».",
-    "it": "La lettera P dell'alfabeto latino, chiamata pi.",
-    "es": "La letra P del alfabeto latino, llamada pe.",
-    "fr": "La lettre P de l'alphabet latin, appelée pé.",
-    "hu": "A latin ábécé P betűje, neve pé.",
-    "pt": "A letra P do alfabeto latino, chamada pê."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/pi/"
-    },
-    "ro": {
-      "ipa": "/pe/"
-    },
-    "de": {
-      "ipa": "/peː/"
-    },
-    "ru": {
-      "ipa": "/pi/"
-    },
-    "it": {
-      "ipa": "/pi/"
-    },
-    "es": {
-      "ipa": "/pe/"
-    },
-    "fr": {
-      "ipa": "/pe/"
-    },
-    "hu": {
-      "ipa": "/peː/"
-    },
-    "pt": {
-      "ipa": "/ˈpe/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0e7146835a34c3a2978ea33d19d2b1a21e7db99f",
-      "key": "dictionary/CH01/CH01T09/W160/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2a94a43bef2d2a8c1ab80b45a6c70701b4fcc328",
-      "key": "dictionary/CH01/CH01T09/W160/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "662d8104213fde03156bb6769efef49ec79a431b",
-      "key": "dictionary/CH01/CH01T09/W160/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8fbc18de3eb4fbf4fc8af51c1ade2e2f1e9dbf3e",
-      "key": "dictionary/CH01/CH01T09/W160/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 3744,
-      "sha1": "8b6454f55fe84931818219f310337a1d4393a15e",
-      "key": "dictionary/CH01/CH01T09/W160/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "6027f428f984ba926c24499419b3c076baaa60d5",
-      "key": "dictionary/CH01/CH01T09/W160/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "5f1e77395ca485db5c414a177544c179ac67fbbb",
-      "key": "dictionary/CH01/CH01T09/W160/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "22516716f95181b55c09791c7fc4732820510afd",
-      "key": "dictionary/CH01/CH01T09/W160/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8f8728c0931671d4fb04b2ef842c530e39e70c74",
-      "key": "dictionary/CH01/CH01T09/W160/sound/pt.mp3"
-    }
-  },
-  "ttsText": {
-    "en": "pee",
-    "ro": "pe",
-    "de": "pe",
-    "ru": "пи",
-    "it": "pi",
-    "es": "pe",
-    "fr": "pé",
-    "hu": "pé",
-    "pt": "pê"
-  },
   "tags": [
     "alphabet#common-letter",
     "alphabet#latin"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "P (pee)",
+      "description": "The letter P in the Latin alphabet, named pee.",
+      "ipa": "/pi/",
+      "ttsText": "pee",
       "example": "pee"
     },
     "ro": {
+      "name": "P (pe)",
+      "description": "Litera P din alfabetul latin, numită pe.",
+      "ipa": "/pe/",
+      "ttsText": "pe",
       "example": "pe"
     },
     "de": {
+      "name": "P (pe)",
+      "description": "Der Buchstabe P des lateinischen Alphabets, genannt pe.",
+      "ipa": "/peː/",
+      "ttsText": "pe",
       "example": "pe"
     },
     "ru": {
+      "name": "P (пи)",
+      "description": "Буква P латинского алфавита, называемая «пи».",
+      "ipa": "/pi/",
+      "ttsText": "пи",
       "example": "пи"
     },
     "it": {
+      "name": "P (pi)",
+      "description": "La lettera P dell'alfabeto latino, chiamata pi.",
+      "ipa": "/pi/",
+      "ttsText": "pi",
       "example": "pi"
     },
     "es": {
+      "name": "P (pe)",
+      "description": "La letra P del alfabeto latino, llamada pe.",
+      "ipa": "/pe/",
+      "ttsText": "pe",
       "example": "pe"
     },
     "fr": {
+      "name": "P (pé)",
+      "description": "La lettre P de l'alphabet latin, appelée pé.",
+      "ipa": "/pe/",
+      "ttsText": "pé",
       "example": "pé"
     },
     "hu": {
+      "name": "P (pé)",
+      "description": "A latin ábécé P betűje, neve pé.",
+      "ipa": "/peː/",
+      "ttsText": "pé",
       "example": "pé"
     },
     "pt": {
+      "name": "P (pê)",
+      "description": "A letra P do alfabeto latino, chamada pê.",
+      "ipa": "/ˈpe/",
+      "ttsText": "pê",
       "example": "pê"
     }
   },
-  "entity_id": "CH01T09:W160",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "0e7146835a34c3a2978ea33d19d2b1a21e7db99f"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "2a94a43bef2d2a8c1ab80b45a6c70701b4fcc328"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "662d8104213fde03156bb6769efef49ec79a431b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "8fbc18de3eb4fbf4fc8af51c1ade2e2f1e9dbf3e"
+    },
+    "sound/it.mp3": {
+      "bytes": 3744,
+      "sha1": "8b6454f55fe84931818219f310337a1d4393a15e"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "6027f428f984ba926c24499419b3c076baaa60d5"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "5f1e77395ca485db5c414a177544c179ac67fbbb"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "22516716f95181b55c09791c7fc4732820510afd"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "8f8728c0931671d4fb04b2ef842c530e39e70c74"
+    }
+  }
 }

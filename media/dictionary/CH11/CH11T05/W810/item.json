@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T05",
   "kind": "word",
-  "names": {
-    "en": "comparison",
-    "ro": "comparație",
-    "de": "Vergleich",
-    "ru": "сравнение",
-    "it": "confronto",
-    "es": "comparación",
-    "fr": "comparaison",
-    "hu": "összehasonlítás",
-    "pt": "comparação"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/komparaˈtsie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "3b60287d7d7f866723033a5097e22ad93d9612ab",
-      "key": "dictionary/CH11/CH11T05/W810/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T05:W810",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T05"
   ],
-  "metadata": {},
-  "entity_id": "CH11T05:W810",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "comparison"
+    },
+    "ro": {
+      "name": "comparație",
+      "ipa": "/komparaˈtsie/"
+    },
+    "de": {
+      "name": "Vergleich"
+    },
+    "ru": {
+      "name": "сравнение"
+    },
+    "it": {
+      "name": "confronto"
+    },
+    "es": {
+      "name": "comparación"
+    },
+    "fr": {
+      "name": "comparaison"
+    },
+    "hu": {
+      "name": "összehasonlítás"
+    },
+    "pt": {
+      "name": "comparação"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "3b60287d7d7f866723033a5097e22ad93d9612ab"
+    }
+  }
 }

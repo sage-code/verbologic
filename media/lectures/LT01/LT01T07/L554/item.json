@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "B",
-    "ro": "B",
-    "de": "B",
-    "ru": "B",
-    "it": "B",
-    "es": "B",
-    "fr": "B",
-    "hu": "B",
-    "pt": "B"
-  },
-  "description": {
-    "en": "Letter name: B. Example: book.",
-    "ro": "Numele literei: B. Exemplu: book.",
-    "de": "Name des Buchstabens: B. Beispiel: book.",
-    "ru": "Название буквы: B. Пример: book.",
-    "it": "Nome della lettera: B. Esempio: book.",
-    "es": "Nombre de la letra: B. Ejemplo: book.",
-    "fr": "Nom de la lettre : B. Exemple : book.",
-    "hu": "Betű neve: B. Példa: book.",
-    "pt": "Nome da letra: B. Exemplo: book."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/biː/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 5184,
-      "sha1": "841e9b63aa1902076c05e9204703d381b11ccac1"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L554",
+  "legacy_entity_id": "letter_b-2",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "B",
-      "example": "book"
+      "name": "B",
+      "description": "Letter name: B. Example: book.",
+      "ipa": "/biː/",
+      "example": "book",
+      "context": "B"
+    },
+    "ro": {
+      "name": "B",
+      "description": "Numele literei: B. Exemplu: book."
+    },
+    "de": {
+      "name": "B",
+      "description": "Name des Buchstabens: B. Beispiel: book."
+    },
+    "ru": {
+      "name": "B",
+      "description": "Название буквы: B. Пример: book."
+    },
+    "it": {
+      "name": "B",
+      "description": "Nome della lettera: B. Esempio: book."
+    },
+    "es": {
+      "name": "B",
+      "description": "Nombre de la letra: B. Ejemplo: book."
+    },
+    "fr": {
+      "name": "B",
+      "description": "Nom de la lettre : B. Exemple : book."
+    },
+    "hu": {
+      "name": "B",
+      "description": "Betű neve: B. Példa: book."
+    },
+    "pt": {
+      "name": "B",
+      "description": "Nome da letra: B. Exemplo: book."
     }
   },
-  "entity_id": "LT01T07:L554",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_b-2"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 5184,
+      "sha1": "841e9b63aa1902076c05e9204703d381b11ccac1"
+    }
+  }
 }

@@ -4,110 +4,23 @@
   "chapter": "CH07",
   "topic": "CH07",
   "kind": "chapter-title",
-  "names": {
-    "en": "People & Society",
-    "ro": "Oameni și societate",
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/oaˈmeni ʃi soˈtʃietate/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 14544,
-      "sha1": "a7962838245504e30eef4ff29f012c3fcdbcfa7d",
-      "key": "dictionary/CH07/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH07",
   "tags": [
     "title#chapter"
   ],
-  "metadata": {},
-  "entity_id": "CH07"
+  "locales": {
+    "en": {
+      "name": "People & Society"
+    },
+    "ro": {
+      "name": "Oameni și societate",
+      "ipa": "/oaˈmeni ʃi soˈtʃietate/"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 14544,
+      "sha1": "a7962838245504e30eef4ff29f012c3fcdbcfa7d"
+    }
+  }
 }

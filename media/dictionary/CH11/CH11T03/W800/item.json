@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T03",
   "kind": "word",
-  "names": {
-    "en": "in conclusion",
-    "ro": "în concluzie",
-    "de": "abschließend",
-    "ru": "в заключение",
-    "it": "in conclusione",
-    "es": "en conclusión",
-    "fr": "en conclusion",
-    "hu": "összefoglalva",
-    "pt": "em conclusão"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ɨn konˈkluzie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "a58b03052cb60d8c1badd78cf9e76b1ea430ea80",
-      "key": "dictionary/CH11/CH11T03/W800/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T03:W800",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T03"
   ],
-  "metadata": {},
-  "entity_id": "CH11T03:W800",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "in conclusion"
+    },
+    "ro": {
+      "name": "în concluzie",
+      "ipa": "/ɨn konˈkluzie/"
+    },
+    "de": {
+      "name": "abschließend"
+    },
+    "ru": {
+      "name": "в заключение"
+    },
+    "it": {
+      "name": "in conclusione"
+    },
+    "es": {
+      "name": "en conclusión"
+    },
+    "fr": {
+      "name": "en conclusion"
+    },
+    "hu": {
+      "name": "összefoglalva"
+    },
+    "pt": {
+      "name": "em conclusão"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "a58b03052cb60d8c1badd78cf9e76b1ea430ea80"
+    }
+  }
 }

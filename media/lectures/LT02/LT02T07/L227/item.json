@@ -4,109 +4,23 @@
   "chapter": "LT02",
   "topic": "LT02T07",
   "kind": "imperative",
-  "names": {
-    "en": "Wait for the train.",
-    "ro": "Așteaptă trenul.",
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12096,
-      "sha1": "52ae886b5c87ee24a2fc9a0f1d5287d4b96eaf8d",
-      "key": "lectures/LT02/LT02T07/L227/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT02T07:L227",
+  "cefr": "A2",
   "tags": [
     "imperative#transport-steps"
   ],
-  "metadata": {},
-  "entity_id": "LT02T07:L227",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "Wait for the train."
+    },
+    "ro": {
+      "name": "Așteaptă trenul."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12096,
+      "sha1": "52ae886b5c87ee24a2fc9a0f1d5287d4b96eaf8d"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T09",
   "kind": "letter",
-  "names": {
-    "en": "O",
-    "ro": "O",
-    "de": "O",
-    "ru": "O",
-    "it": "O",
-    "es": "O",
-    "fr": "O",
-    "hu": "O",
-    "pt": "O"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": "Letter name: O. Example: Obst.",
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": {
-      "ipa": "/oː/"
-    },
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7488,
-      "sha1": "26a30312c7273119f3583ec6c2be9ffff38deaac"
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T09:L356",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "O"
+    },
+    "ro": {
+      "name": "O"
+    },
     "de": {
-      "context": "O",
-      "example": "Obst"
+      "name": "O",
+      "description": "Letter name: O. Example: Obst.",
+      "ipa": "/oː/",
+      "example": "Obst",
+      "context": "O"
+    },
+    "ru": {
+      "name": "O"
+    },
+    "it": {
+      "name": "O"
+    },
+    "es": {
+      "name": "O"
+    },
+    "fr": {
+      "name": "O"
+    },
+    "hu": {
+      "name": "O"
+    },
+    "pt": {
+      "name": "O"
     }
   },
-  "entity_id": "LT01T09:L356",
-  "cefr": "A1"
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 7488,
+      "sha1": "26a30312c7273119f3583ec6c2be9ffff38deaac"
+    }
+  }
 }

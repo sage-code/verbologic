@@ -4,111 +4,45 @@
   "chapter": "CH07",
   "topic": "CH07T04",
   "kind": "word",
-  "names": {
-    "en": "newspaper",
-    "ro": "ziar",
-    "de": "Zeitung",
-    "ru": "газета",
-    "it": "giornale",
-    "es": "periódico",
-    "fr": "journal",
-    "hu": "újság",
-    "pt": "jornal"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ziˈar/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "6a4cbdcfd082e70ac43beb5fe2608020301cc14f",
-      "key": "dictionary/CH07/CH07T04/W547/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH07T04:W547",
+  "cefr": "B2",
   "tags": [
     "scaffold#C7T04"
   ],
-  "metadata": {},
-  "entity_id": "CH07T04:W547",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "newspaper"
+    },
+    "ro": {
+      "name": "ziar",
+      "ipa": "/ziˈar/"
+    },
+    "de": {
+      "name": "Zeitung"
+    },
+    "ru": {
+      "name": "газета"
+    },
+    "it": {
+      "name": "giornale"
+    },
+    "es": {
+      "name": "periódico"
+    },
+    "fr": {
+      "name": "journal"
+    },
+    "hu": {
+      "name": "újság"
+    },
+    "pt": {
+      "name": "jornal"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "6a4cbdcfd082e70ac43beb5fe2608020301cc14f"
+    }
+  }
 }

@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "sure",
-    "ro": "sigur",
-    "de": "sicher",
-    "ru": "уверенный",
-    "it": "sicuro",
-    "es": "seguro",
-    "fr": "sûr",
-    "hu": "biztos",
-    "pt": "seguro"
-  },
-  "description": {
-    "en": "Sure describes a state of being confident or certain about something.",
-    "ro": "Sure descrie starea de a fi încrezător sau sigur de ceva.",
-    "de": "Sicher beschreibt den Zustand, von etwas überzeugt oder gewiss zu sein.",
-    "ru": "Sure описывает состояние уверенности или убежденности в чем-либо.",
-    "it": "Sure descrive lo stato di essere fiduciosi o certi di qualcosa.",
-    "es": "Sure describe el estado de estar confiado o seguro de algo.",
-    "fr": "Sure décrit l'état d'être confiant ou certain de quelque chose.",
-    "hu": "A sure szó egy dologgal kapcsolatos magabiztosságot vagy bizonyosságot ír le.",
-    "pt": "Sure descreve o estado de estar confiante ou certo sobre algo."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ʃ/"
-    },
-    "ro": {
-      "ipa": "/ˈsi.ɡur/"
-    },
-    "de": {
-      "ipa": "/ˈzɪçɐ/"
-    },
-    "ru": {
-      "ipa": "/ʊˈvʲerʲɪnnɨj/"
-    },
-    "it": {
-      "ipa": "/siˈku.ro/"
-    },
-    "es": {
-      "ipa": "/seˈɣu.ɾo/"
-    },
-    "fr": {
-      "ipa": "/syʁ/"
-    },
-    "hu": {
-      "ipa": "/ˈbiztoʃ/"
-    },
-    "pt": {
-      "ipa": "/sɨˈɡu.ɾu/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "526260853bc4af4c74b7b986eeb1dece69aff4c5",
-      "key": "dictionary/CH01/CH01T01/W056/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3d4037ca1a923009741a5f7c0228841f396755a1",
-      "key": "dictionary/CH01/CH01T01/W056/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b072ebbd01451f8559d27c46474cd26510ccec1a",
-      "key": "dictionary/CH01/CH01T01/W056/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11520,
-      "sha1": "cb88b05fec81c9719ff875cdb3160d30cd7f0f21",
-      "key": "dictionary/CH01/CH01T01/W056/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2a0c2a2658183a51d0487b3bf652113c9b70bb60",
-      "key": "dictionary/CH01/CH01T01/W056/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d963ab4732a775231e8c4f05ae3679b26ade3649",
-      "key": "dictionary/CH01/CH01T01/W056/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e7f7d6b4dfa76eee121144aace1330765b7d3668",
-      "key": "dictionary/CH01/CH01T01/W056/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3b36dc1c8bd858f05ce5debf86204e3d714b1a24",
-      "key": "dictionary/CH01/CH01T01/W056/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "05fdfccf6b332ed5a74ca8b24a5fd7a020b172b2",
-      "key": "dictionary/CH01/CH01T01/W056/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W056",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "s + u în unele cuvinte",
-      "example": "sure"
+      "name": "sure",
+      "description": "Sure describes a state of being confident or certain about something.",
+      "ipa": "/ʃ/",
+      "example": "sure",
+      "context": "s + u în unele cuvinte"
+    },
+    "ro": {
+      "name": "sigur",
+      "description": "Sure descrie starea de a fi încrezător sau sigur de ceva.",
+      "ipa": "/ˈsi.ɡur/"
+    },
+    "de": {
+      "name": "sicher",
+      "description": "Sicher beschreibt den Zustand, von etwas überzeugt oder gewiss zu sein.",
+      "ipa": "/ˈzɪçɐ/"
+    },
+    "ru": {
+      "name": "уверенный",
+      "description": "Sure описывает состояние уверенности или убежденности в чем-либо.",
+      "ipa": "/ʊˈvʲerʲɪnnɨj/"
+    },
+    "it": {
+      "name": "sicuro",
+      "description": "Sure descrive lo stato di essere fiduciosi o certi di qualcosa.",
+      "ipa": "/siˈku.ro/"
+    },
+    "es": {
+      "name": "seguro",
+      "description": "Sure describe el estado de estar confiado o seguro de algo.",
+      "ipa": "/seˈɣu.ɾo/"
+    },
+    "fr": {
+      "name": "sûr",
+      "description": "Sure décrit l'état d'être confiant ou certain de quelque chose.",
+      "ipa": "/syʁ/"
+    },
+    "hu": {
+      "name": "biztos",
+      "description": "A sure szó egy dologgal kapcsolatos magabiztosságot vagy bizonyosságot ír le.",
+      "ipa": "/ˈbiztoʃ/"
+    },
+    "pt": {
+      "name": "seguro",
+      "description": "Sure descreve o estado de estar confiante ou certo sobre algo.",
+      "ipa": "/sɨˈɡu.ɾu/"
     }
   },
-  "entity_id": "CH01T01:W056",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "526260853bc4af4c74b7b986eeb1dece69aff4c5"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "3d4037ca1a923009741a5f7c0228841f396755a1"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "b072ebbd01451f8559d27c46474cd26510ccec1a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11520,
+      "sha1": "cb88b05fec81c9719ff875cdb3160d30cd7f0f21"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "2a0c2a2658183a51d0487b3bf652113c9b70bb60"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "d963ab4732a775231e8c4f05ae3679b26ade3649"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "e7f7d6b4dfa76eee121144aace1330765b7d3668"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "3b36dc1c8bd858f05ce5debf86204e3d714b1a24"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "05fdfccf6b332ed5a74ca8b24a5fd7a020b172b2"
+    }
+  }
 }

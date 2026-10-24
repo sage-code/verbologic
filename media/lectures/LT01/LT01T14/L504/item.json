@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T14",
   "kind": "letter",
-  "names": {
-    "en": "M",
-    "ro": "M",
-    "de": "M",
-    "ru": "M",
-    "it": "M",
-    "es": "M",
-    "fr": "M",
-    "hu": "M",
-    "pt": "M"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": "Letter name: emm. Example: ma.",
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": {
-      "ipa": "/ɛm/"
-    },
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "36ae4c28394a85f4fdb966aac390a6f006d43caa"
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T14:L504",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "M"
+    },
+    "ro": {
+      "name": "M"
+    },
+    "de": {
+      "name": "M"
+    },
+    "ru": {
+      "name": "M"
+    },
+    "it": {
+      "name": "M"
+    },
+    "es": {
+      "name": "M"
+    },
+    "fr": {
+      "name": "M"
+    },
     "hu": {
-      "context": "emm",
-      "example": "ma"
+      "name": "M",
+      "description": "Letter name: emm. Example: ma.",
+      "ipa": "/ɛm/",
+      "example": "ma",
+      "context": "emm"
+    },
+    "pt": {
+      "name": "M"
     }
   },
-  "entity_id": "LT01T14:L504",
-  "cefr": "A1"
+  "files": {
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "36ae4c28394a85f4fdb966aac390a6f006d43caa"
+    }
+  }
 }

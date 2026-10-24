@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T06",
   "kind": "word",
-  "names": {
-    "en": "narrator",
-    "ro": "narator",
-    "de": "Erzähler",
-    "ru": "рассказчик",
-    "it": "narratore",
-    "es": "narrador",
-    "fr": "narrateur",
-    "hu": "elbeszélő",
-    "pt": "narrador"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/naraˈtor/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "8ca126a94dca09860256453a93714d0e5ddfbee0",
-      "key": "dictionary/CH12/CH12T06/W892/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T06:W892",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T06"
   ],
-  "metadata": {},
-  "entity_id": "CH12T06:W892",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "narrator"
+    },
+    "ro": {
+      "name": "narator",
+      "ipa": "/naraˈtor/"
+    },
+    "de": {
+      "name": "Erzähler"
+    },
+    "ru": {
+      "name": "рассказчик"
+    },
+    "it": {
+      "name": "narratore"
+    },
+    "es": {
+      "name": "narrador"
+    },
+    "fr": {
+      "name": "narrateur"
+    },
+    "hu": {
+      "name": "elbeszélő"
+    },
+    "pt": {
+      "name": "narrador"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "8ca126a94dca09860256453a93714d0e5ddfbee0"
+    }
+  }
 }

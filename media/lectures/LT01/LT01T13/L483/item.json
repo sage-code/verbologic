@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T13",
   "kind": "letter",
-  "names": {
-    "en": "Z",
-    "ro": "Z",
-    "de": "Z",
-    "ru": "Z",
-    "it": "Z",
-    "es": "Z",
-    "fr": "Z",
-    "hu": "Z",
-    "pt": "Z"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": "Letter name: zède. Example: zèbre.",
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": {
-      "ipa": "/zɛd/"
-    },
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8928,
-      "sha1": "f9b16c635c41f2d4096251564e0ec20982221942"
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T13:L483",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Z"
+    },
+    "ro": {
+      "name": "Z"
+    },
+    "de": {
+      "name": "Z"
+    },
+    "ru": {
+      "name": "Z"
+    },
+    "it": {
+      "name": "Z"
+    },
+    "es": {
+      "name": "Z"
+    },
     "fr": {
-      "context": "zède",
-      "example": "zèbre"
+      "name": "Z",
+      "description": "Letter name: zède. Example: zèbre.",
+      "ipa": "/zɛd/",
+      "example": "zèbre",
+      "context": "zède"
+    },
+    "hu": {
+      "name": "Z"
+    },
+    "pt": {
+      "name": "Z"
     }
   },
-  "entity_id": "LT01T13:L483",
-  "cefr": "A1"
+  "files": {
+    "sound/fr.mp3": {
+      "bytes": 8928,
+      "sha1": "f9b16c635c41f2d4096251564e0ec20982221942"
+    }
+  }
 }

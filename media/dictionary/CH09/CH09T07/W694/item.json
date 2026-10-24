@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T07",
   "kind": "word",
-  "names": {
-    "en": "fee",
-    "ro": "taxă",
-    "de": "Gebühr",
-    "ru": "сбор",
-    "it": "tassa",
-    "es": "tasa",
-    "fr": "taxe",
-    "hu": "díj",
-    "pt": "taxa"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈtaksə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "866c4a66b2b26f76d1389f0a9827193bc192c3ac",
-      "key": "dictionary/CH09/CH09T07/W694/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T07:W694",
+  "cefr": "C1",
   "tags": [
     "scaffold#C9T07"
   ],
-  "metadata": {},
-  "entity_id": "CH09T07:W694",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "fee"
+    },
+    "ro": {
+      "name": "taxă",
+      "ipa": "/ˈtaksə/"
+    },
+    "de": {
+      "name": "Gebühr"
+    },
+    "ru": {
+      "name": "сбор"
+    },
+    "it": {
+      "name": "tassa"
+    },
+    "es": {
+      "name": "tasa"
+    },
+    "fr": {
+      "name": "taxe"
+    },
+    "hu": {
+      "name": "díj"
+    },
+    "pt": {
+      "name": "taxa"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "866c4a66b2b26f76d1389f0a9827193bc192c3ac"
+    }
+  }
 }

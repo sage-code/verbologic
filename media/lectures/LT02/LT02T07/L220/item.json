@@ -4,109 +4,23 @@
   "chapter": "LT02",
   "topic": "LT02T07",
   "kind": "imperative",
-  "names": {
-    "en": "Bring the chair.",
-    "ro": "Adu scaunul.",
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11664,
-      "sha1": "936b9bd78db3579cc563c0d5a65091f775971753",
-      "key": "lectures/LT02/LT02T07/L220/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT02T07:L220",
+  "cefr": "A2",
   "tags": [
     "imperative#doors-windows-and-room"
   ],
-  "metadata": {},
-  "entity_id": "LT02T07:L220",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "Bring the chair."
+    },
+    "ro": {
+      "name": "Adu scaunul."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11664,
+      "sha1": "936b9bd78db3579cc563c0d5a65091f775971753"
+    }
+  }
 }

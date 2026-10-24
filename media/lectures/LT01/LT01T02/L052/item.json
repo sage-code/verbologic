@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "k in key (/k/)",
-    "ro": "Che / Chi",
-    "de": "k in key (/k/)",
-    "ru": "k в key (/k/)",
-    "it": "k in key (/k/)",
-    "es": "k en key (/k/)",
-    "fr": "k dans key (/k/)",
-    "hu": "k a key-ben (/k/)",
-    "pt": "k em key (/k/)"
-  },
-  "description": {
-    "en": "This item illustrates the letter k representing the sound /k/ as in the word key.",
-    "ro": "Acest element ilustrează litera k care reprezintă sunetul /k/, așa cum apare în cuvântul key.",
-    "de": "Dieses Element veranschaulicht den Buchstaben k, der den Laut /k/ darstellt, wie im Wort key.",
-    "ru": "Этот элемент иллюстрирует букву k, представляющую звук /k/, как в слове key.",
-    "it": "Questo elemento illustra la lettera k che rappresenta il suono /k/ come nella parola key.",
-    "es": "Este elemento ilustra la letra k que representa el sonido /k/ como en la palabra key.",
-    "fr": "Cet élément illustre la lettre k représentant le son /k/ comme dans le mot key.",
-    "hu": "Ez az elem a k betűt mutatja be, amely a /k/ hangot jelöli a key szóban.",
-    "pt": "Este item ilustra a letra k que representa o som /k/ como na palavra key."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ke/, /ki/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b1268ff9fbe83673a5022e6314e2358c6f33bdf1",
-      "key": "lectures/LT01/LT01T02/L052/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L052",
+  "cefr": "A1",
   "tags": [
     "alphabet#digraphs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L052",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "k in key (/k/)",
+      "description": "This item illustrates the letter k representing the sound /k/ as in the word key."
+    },
+    "ro": {
+      "name": "Che / Chi",
+      "description": "Acest element ilustrează litera k care reprezintă sunetul /k/, așa cum apare în cuvântul key.",
+      "ipa": "/ke/, /ki/"
+    },
+    "de": {
+      "name": "k in key (/k/)",
+      "description": "Dieses Element veranschaulicht den Buchstaben k, der den Laut /k/ darstellt, wie im Wort key."
+    },
+    "ru": {
+      "name": "k в key (/k/)",
+      "description": "Этот элемент иллюстрирует букву k, представляющую звук /k/, как в слове key."
+    },
+    "it": {
+      "name": "k in key (/k/)",
+      "description": "Questo elemento illustra la lettera k che rappresenta il suono /k/ come nella parola key."
+    },
+    "es": {
+      "name": "k en key (/k/)",
+      "description": "Este elemento ilustra la letra k que representa el sonido /k/ como en la palabra key."
+    },
+    "fr": {
+      "name": "k dans key (/k/)",
+      "description": "Cet élément illustre la lettre k représentant le son /k/ comme dans le mot key."
+    },
+    "hu": {
+      "name": "k a key-ben (/k/)",
+      "description": "Ez az elem a k betűt mutatja be, amely a /k/ hangot jelöli a key szóban."
+    },
+    "pt": {
+      "name": "k em key (/k/)",
+      "description": "Este item ilustra a letra k que representa o som /k/ como na palavra key."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "b1268ff9fbe83673a5022e6314e2358c6f33bdf1"
+    }
+  }
 }

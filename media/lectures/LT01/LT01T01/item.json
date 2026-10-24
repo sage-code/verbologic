@@ -4,97 +4,84 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "topic-title",
-  "names": {
-    "en": "Alphabet & letters",
-    "ro": "Alfabetul și literele",
-    "de": "Alphabet & Buchstaben",
-    "ru": "Алфавит и буквы",
-    "it": "Alfabeto e lettere",
-    "es": "Alfabeto y letras",
-    "fr": "Alphabet et lettres",
-    "hu": "Ábécé és betűk",
-    "pt": "Alfabeto e letras"
-  },
-  "description": {
-    "en": "This topic introduces the letters of the Romanian alphabet.",
-    "ro": "Acest subiect introduce literele alfabetului limbii române.",
-    "de": "Dieses Thema führt in die Buchstaben des rumänischen Alphabets ein.",
-    "ru": "Эта тема знакомит с буквами румынского алфавита.",
-    "it": "Questo argomento introduce le lettere dell'alfabeto rumeno.",
-    "es": "Este tema introduce las letras del alfabeto rumano.",
-    "fr": "Ce sujet présente les lettres de l'alphabet roumain.",
-    "hu": "Ez a téma bemutatja a román ábécé betűit.",
-    "pt": "Este tópico apresenta as letras do alfabeto romeno."
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "efb785ef1580e9005fb84b72849a0b6aa045a350"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 15408,
-      "sha1": "b69c2660964eae3de1a5a9705b82c5e9e2a78a53",
-      "key": "lectures/LT01/LT01T01/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 15696,
-      "sha1": "39a5790d79f88772a3c85ca541068ed2e9e87af8"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 15120,
-      "sha1": "a40af36a11b20dd9787a8b2bda67c01a781ce741"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0222fdb335f5ada6aef4d07fb8f1dd34072f8682"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13536,
-      "sha1": "556b91e08e5e0848f5ff6c90b5b78da700566637"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "bad3ca204775ec38d07de0b793c7e2d1f6c880e2"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 15264,
-      "sha1": "78aebdd5803a5441f70d645efe712a40114573b9"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 16416,
-      "sha1": "038bc446a713d76b40b61c3fafb196b9fa72890a"
-    }
-  },
+  "entity_id": "LT01T01",
   "tags": [
     "title#topic"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01"
+  "locales": {
+    "en": {
+      "name": "Alphabet & letters",
+      "description": "This topic introduces the letters of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "Alfabetul și literele",
+      "description": "Acest subiect introduce literele alfabetului limbii române."
+    },
+    "de": {
+      "name": "Alphabet & Buchstaben",
+      "description": "Dieses Thema führt in die Buchstaben des rumänischen Alphabets ein."
+    },
+    "ru": {
+      "name": "Алфавит и буквы",
+      "description": "Эта тема знакомит с буквами румынского алфавита."
+    },
+    "it": {
+      "name": "Alfabeto e lettere",
+      "description": "Questo argomento introduce le lettere dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "Alfabeto y letras",
+      "description": "Este tema introduce las letras del alfabeto rumano."
+    },
+    "fr": {
+      "name": "Alphabet et lettres",
+      "description": "Ce sujet présente les lettres de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "Ábécé és betűk",
+      "description": "Ez a téma bemutatja a román ábécé betűit."
+    },
+    "pt": {
+      "name": "Alfabeto e letras",
+      "description": "Este tópico apresenta as letras do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "efb785ef1580e9005fb84b72849a0b6aa045a350"
+    },
+    "sound/ro.mp3": {
+      "bytes": 15408,
+      "sha1": "b69c2660964eae3de1a5a9705b82c5e9e2a78a53"
+    },
+    "sound/de.mp3": {
+      "bytes": 15696,
+      "sha1": "39a5790d79f88772a3c85ca541068ed2e9e87af8"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15120,
+      "sha1": "a40af36a11b20dd9787a8b2bda67c01a781ce741"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "0222fdb335f5ada6aef4d07fb8f1dd34072f8682"
+    },
+    "sound/es.mp3": {
+      "bytes": 13536,
+      "sha1": "556b91e08e5e0848f5ff6c90b5b78da700566637"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12528,
+      "sha1": "bad3ca204775ec38d07de0b793c7e2d1f6c880e2"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15264,
+      "sha1": "78aebdd5803a5441f70d645efe712a40114573b9"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16416,
+      "sha1": "038bc446a713d76b40b61c3fafb196b9fa72890a"
+    }
+  }
 }

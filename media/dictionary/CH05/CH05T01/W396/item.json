@@ -4,111 +4,45 @@
   "chapter": "CH05",
   "topic": "CH05T01",
   "kind": "word",
-  "names": {
-    "en": "mountain",
-    "ro": "munte",
-    "de": "Berg",
-    "ru": "гора",
-    "it": "montagna",
-    "es": "montaña",
-    "fr": "montagne",
-    "hu": "hegy",
-    "pt": "montanha"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈmunte/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "877de0c226926350cd97ac16406d55fcf7f11418",
-      "key": "dictionary/CH05/CH05T01/W396/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH05T01:W396",
+  "cefr": "B1",
   "tags": [
     "vocabulary#travel-essentials"
   ],
-  "metadata": {},
-  "entity_id": "CH05T01:W396",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "mountain"
+    },
+    "ro": {
+      "name": "munte",
+      "ipa": "/ˈmunte/"
+    },
+    "de": {
+      "name": "Berg"
+    },
+    "ru": {
+      "name": "гора"
+    },
+    "it": {
+      "name": "montagna"
+    },
+    "es": {
+      "name": "montaña"
+    },
+    "fr": {
+      "name": "montagne"
+    },
+    "hu": {
+      "name": "hegy"
+    },
+    "pt": {
+      "name": "montanha"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "877de0c226926350cd97ac16406d55fcf7f11418"
+    }
+  }
 }

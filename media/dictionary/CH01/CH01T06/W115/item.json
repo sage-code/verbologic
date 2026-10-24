@@ -4,135 +4,94 @@
   "chapter": "CH01",
   "topic": "CH01T06",
   "kind": "word",
-  "names": {
-    "en": "red",
-    "ro": "roșu",
-    "de": "Rot",
-    "ru": "Красный",
-    "it": "rosso",
-    "es": "rojo",
-    "fr": "rouge",
-    "hu": "Piros",
-    "pt": "Vermelho"
-  },
-  "description": {
-    "en": "Monday is the first day of the standard work week.",
-    "ro": "Luni este prima zi a săptămânii de lucru standard.",
-    "de": "Montag ist der erste Tag der regulären Arbeitswoche.",
-    "ru": "Понедельник — первый день стандартной рабочей недели.",
-    "it": "Lunedì è il primo giorno della settimana lavorativa standard.",
-    "es": "El lunes es el primer día de la semana laboral estándar.",
-    "fr": "Le lundi est le premier jour de la semaine de travail standard.",
-    "hu": "A hétfő a szokásos munkahét első napja.",
-    "pt": "Segunda-feira é o primeiro dia da semana de trabalho padrão."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɹɛd/"
-    },
-    "ro": {
-      "ipa": "/ˈroʃu/"
-    },
-    "de": {
-      "ipa": "/ʁoːt/"
-    },
-    "ru": {
-      "ipa": "/ˈkrasnɨj/"
-    },
-    "it": {
-      "ipa": "/ˈrosso/"
-    },
-    "es": {
-      "ipa": "/ˈroxo/"
-    },
-    "fr": {
-      "ipa": "/ʁuʒ/"
-    },
-    "hu": {
-      "ipa": "/ˈpiɾoʃ/"
-    },
-    "pt": {
-      "ipa": "/vɨɾˈmɛʎu/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4464,
-      "sha1": "9d5c4e684d8775569217ffb498ce6bf1906c00b1",
-      "key": "dictionary/CH01/CH01T06/W115/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "319870188c9f291fc4e3ae1819eadcc7d04a47b8",
-      "key": "dictionary/CH01/CH01T06/W115/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c68f7c77c824f4738cb84b5fce115f1bdbf1583f",
-      "key": "dictionary/CH01/CH01T06/W115/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "39a0c66274bb18b7b9d10d390592bde9048ce094",
-      "key": "dictionary/CH01/CH01T06/W115/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9e557e9e26d5f2ec7aea91ccd83e39c4c2465e14",
-      "key": "dictionary/CH01/CH01T06/W115/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d2f83be277583cee5cdbe970145bcf46ad4140bd",
-      "key": "dictionary/CH01/CH01T06/W115/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2f1b3310318e9bd584ea4a0c0f74ec49960a1ce3",
-      "key": "dictionary/CH01/CH01T06/W115/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e9f0bde4f8898d0e2e96bd3279100b5c0b137031",
-      "key": "dictionary/CH01/CH01T06/W115/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1be0d601cdb17e9433e0d9e5a0367115e44328a0",
-      "key": "dictionary/CH01/CH01T06/W115/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T06:W115",
+  "cefr": "A1",
   "tags": [
     "scaffold#C1T06"
   ],
-  "metadata": {},
-  "entity_id": "CH01T06:W115",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "red",
+      "description": "Monday is the first day of the standard work week.",
+      "ipa": "/ɹɛd/"
+    },
+    "ro": {
+      "name": "roșu",
+      "description": "Luni este prima zi a săptămânii de lucru standard.",
+      "ipa": "/ˈroʃu/"
+    },
+    "de": {
+      "name": "Rot",
+      "description": "Montag ist der erste Tag der regulären Arbeitswoche.",
+      "ipa": "/ʁoːt/"
+    },
+    "ru": {
+      "name": "Красный",
+      "description": "Понедельник — первый день стандартной рабочей недели.",
+      "ipa": "/ˈkrasnɨj/"
+    },
+    "it": {
+      "name": "rosso",
+      "description": "Lunedì è il primo giorno della settimana lavorativa standard.",
+      "ipa": "/ˈrosso/"
+    },
+    "es": {
+      "name": "rojo",
+      "description": "El lunes es el primer día de la semana laboral estándar.",
+      "ipa": "/ˈroxo/"
+    },
+    "fr": {
+      "name": "rouge",
+      "description": "Le lundi est le premier jour de la semaine de travail standard.",
+      "ipa": "/ʁuʒ/"
+    },
+    "hu": {
+      "name": "Piros",
+      "description": "A hétfő a szokásos munkahét első napja.",
+      "ipa": "/ˈpiɾoʃ/"
+    },
+    "pt": {
+      "name": "Vermelho",
+      "description": "Segunda-feira é o primeiro dia da semana de trabalho padrão.",
+      "ipa": "/vɨɾˈmɛʎu/"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4464,
+      "sha1": "9d5c4e684d8775569217ffb498ce6bf1906c00b1"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "319870188c9f291fc4e3ae1819eadcc7d04a47b8"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "c68f7c77c824f4738cb84b5fce115f1bdbf1583f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "39a0c66274bb18b7b9d10d390592bde9048ce094"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "9e557e9e26d5f2ec7aea91ccd83e39c4c2465e14"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "d2f83be277583cee5cdbe970145bcf46ad4140bd"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "2f1b3310318e9bd584ea4a0c0f74ec49960a1ce3"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "e9f0bde4f8898d0e2e96bd3279100b5c0b137031"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "1be0d601cdb17e9433e0d9e5a0367115e44328a0"
+    }
+  }
 }

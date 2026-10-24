@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "-sland",
-    "ro": "-sland",
-    "de": "-sland",
-    "ru": "-sland",
-    "it": "-sland",
-    "es": "-sland",
-    "fr": "-sland",
-    "hu": "-sland",
-    "pt": "-sland"
-  },
-  "description": {
-    "en": "Letter name: -sland. Example: island.",
-    "ro": "Numele literei: -sland. Exemplu: island.",
-    "de": "Buchstabenname: -sland. Beispiel: island.",
-    "ru": "Название буквы: -sland. Пример: island.",
-    "it": "Nome della lettera: -sland. Esempio: island.",
-    "es": "Nombre de la letra: -sland. Ejemplo: island.",
-    "fr": "Nom de la lettre : -sland. Exemple : island.",
-    "hu": "Betű neve: -sland. Példa: island.",
-    "pt": "Nome da letra: -sland. Exemplo: island."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/lənd/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0a708ab26b3551a404940e538781fcd130e0c30d"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L613",
+  "legacy_entity_id": "letter_island",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "-sland",
-      "example": "island"
+      "name": "-sland",
+      "description": "Letter name: -sland. Example: island.",
+      "ipa": "/lənd/",
+      "example": "island",
+      "context": "-sland"
+    },
+    "ro": {
+      "name": "-sland",
+      "description": "Numele literei: -sland. Exemplu: island."
+    },
+    "de": {
+      "name": "-sland",
+      "description": "Buchstabenname: -sland. Beispiel: island."
+    },
+    "ru": {
+      "name": "-sland",
+      "description": "Название буквы: -sland. Пример: island."
+    },
+    "it": {
+      "name": "-sland",
+      "description": "Nome della lettera: -sland. Esempio: island."
+    },
+    "es": {
+      "name": "-sland",
+      "description": "Nombre de la letra: -sland. Ejemplo: island."
+    },
+    "fr": {
+      "name": "-sland",
+      "description": "Nom de la lettre : -sland. Exemple : island."
+    },
+    "hu": {
+      "name": "-sland",
+      "description": "Betű neve: -sland. Példa: island."
+    },
+    "pt": {
+      "name": "-sland",
+      "description": "Nome da letra: -sland. Exemplo: island."
     }
   },
-  "entity_id": "LT01T07:L613",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_island"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "0a708ab26b3551a404940e538781fcd130e0c30d"
+    }
+  }
 }

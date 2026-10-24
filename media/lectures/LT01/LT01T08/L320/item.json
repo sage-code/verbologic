@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "oa",
-    "ro": "oa in boat (barcă)",
-    "de": "oa in boat (Boot)",
-    "ru": "oa in boat (лодка)",
-    "it": "oa in boat (barca)",
-    "es": "oa in boat (barco)",
-    "fr": "oa in boat (bateau)",
-    "hu": "oa in boat (csónak)",
-    "pt": "oa in boat (barco)"
-  },
-  "description": {
-    "en": "This is the letter L320 from the vowel-consonant groups.",
-    "ro": "Aceasta este litera L320 din grupurile vocală-consoană.",
-    "de": "Dies ist der Buchstabe L320 aus den Vokal-Konsonant-Gruppen.",
-    "ru": "Это буква L320 из групп гласных и согласных.",
-    "it": "Questa è la lettera L320 dei gruppi vocale-consonante.",
-    "es": "Esta es la letra L320 de los grupos vocal-consonante.",
-    "fr": "Ceci est la lettre L320 des groupes voyelle-consonne.",
-    "hu": "Ez az L320 betű a magánhangzó-mássalhangzó csoportokból.",
-    "pt": "Esta é a letra L320 dos grupos vogal-consoante."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/oʊ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4752,
-      "sha1": "ea8c851ab866b943c99b4cfc7daacd9547a23725",
-      "key": "lectures/LT01/LT01T08/L320/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L320",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L320",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "oa",
+      "description": "This is the letter L320 from the vowel-consonant groups.",
+      "ipa": "/oʊ/"
+    },
+    "ro": {
+      "name": "oa in boat (barcă)",
+      "description": "Aceasta este litera L320 din grupurile vocală-consoană."
+    },
+    "de": {
+      "name": "oa in boat (Boot)",
+      "description": "Dies ist der Buchstabe L320 aus den Vokal-Konsonant-Gruppen."
+    },
+    "ru": {
+      "name": "oa in boat (лодка)",
+      "description": "Это буква L320 из групп гласных и согласных."
+    },
+    "it": {
+      "name": "oa in boat (barca)",
+      "description": "Questa è la lettera L320 dei gruppi vocale-consonante."
+    },
+    "es": {
+      "name": "oa in boat (barco)",
+      "description": "Esta es la letra L320 de los grupos vocal-consonante."
+    },
+    "fr": {
+      "name": "oa in boat (bateau)",
+      "description": "Ceci est la lettre L320 des groupes voyelle-consonne."
+    },
+    "hu": {
+      "name": "oa in boat (csónak)",
+      "description": "Ez az L320 betű a magánhangzó-mássalhangzó csoportokból."
+    },
+    "pt": {
+      "name": "oa in boat (barco)",
+      "description": "Esta é a letra L320 dos grupos vogal-consoante."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "ea8c851ab866b943c99b4cfc7daacd9547a23725"
+    }
+  }
 }

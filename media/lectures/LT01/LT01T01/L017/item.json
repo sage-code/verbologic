@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "N",
-    "ro": "N",
-    "de": "N",
-    "ru": "N",
-    "it": "N",
-    "es": "N",
-    "fr": "N",
-    "hu": "N",
-    "pt": "N"
-  },
-  "description": {
-    "en": "The letter N is the fourteenth letter of the Romanian alphabet.",
-    "ro": "Litera N este a paisprezecea literă a alfabetului român.",
-    "de": "Der Buchstabe N ist der vierzehnte Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква N — четырнадцатая буква румынского алфавита.",
-    "it": "La lettera N è la quattordicesima lettera dell'alfabeto rumeno.",
-    "es": "La letra N es la decimocuarta letra del alfabeto rumano.",
-    "fr": "La lettre N est la quatorzième lettre de l'alphabet roumain.",
-    "hu": "Az N betű a román ábécé tizennegyedik betűje.",
-    "pt": "A letra N é a décima quarta letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/n/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "4dec78c57a02500f1fdff506ad59c893f94c65d6",
-      "key": "lectures/LT01/LT01T01/L017/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L017",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L017",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "N",
+      "description": "The letter N is the fourteenth letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "N",
+      "description": "Litera N este a paisprezecea literă a alfabetului român.",
+      "ipa": "/n/"
+    },
+    "de": {
+      "name": "N",
+      "description": "Der Buchstabe N ist der vierzehnte Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "N",
+      "description": "Буква N — четырнадцатая буква румынского алфавита."
+    },
+    "it": {
+      "name": "N",
+      "description": "La lettera N è la quattordicesima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "N",
+      "description": "La letra N es la decimocuarta letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "N",
+      "description": "La lettre N est la quatorzième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "N",
+      "description": "Az N betű a román ábécé tizennegyedik betűje."
+    },
+    "pt": {
+      "name": "N",
+      "description": "A letra N é a décima quarta letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "4dec78c57a02500f1fdff506ad59c893f94c65d6"
+    }
+  }
 }

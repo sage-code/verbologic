@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "eau in beau (I drink / they drink)",
-    "ro": "eau",
-    "de": "eau in beau (ich trinke / sie trinken)",
-    "ru": "eau в beau (я пью / они пьют)",
-    "it": "eau in beau (bevo / bevono)",
-    "es": "eau en beau (bebo / beben)",
-    "fr": "eau dans beau (je bois / ils boivent)",
-    "hu": "eau a beau-ban (iszom / isznak)",
-    "pt": "eau em beau (bebo / bebem)"
-  },
-  "description": {
-    "en": "This item illustrates the Romanian diphthong eau as found in the verb form beau.",
-    "ro": "Acest element ilustrează diftongul românesc eau, așa cum apare în forma verbală beau.",
-    "de": "Dieses Element veranschaulicht den rumänischen Diphthong eau, wie er in der Verbform beau vorkommt.",
-    "ru": "Этот элемент иллюстрирует румынский дифтонг eau, встречающийся в глагольной форме beau.",
-    "it": "Questo elemento illustra il dittongo rumeno eau come si trova nella forma verbale beau.",
-    "es": "Este elemento ilustra el diptongo rumano eau tal como aparece en la forma verbal beau.",
-    "fr": "Cet élément illustre la diphtongue roumaine eau telle qu'elle apparaît dans la forme verbale beau.",
-    "hu": "Ez az elem a román eau kettőshangzót mutatja be a beau igealakban.",
-    "pt": "Este item ilustra o ditongo romeno eau, conforme encontrado na forma verbal beau."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/e̯aw/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 9072,
-      "sha1": "3f52c67d0c7fbbd2ba5d1c5e094793e000b7033c",
-      "key": "lectures/LT01/LT01T02/L047/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L047",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L047",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "eau in beau (I drink / they drink)",
+      "description": "This item illustrates the Romanian diphthong eau as found in the verb form beau."
+    },
+    "ro": {
+      "name": "eau",
+      "description": "Acest element ilustrează diftongul românesc eau, așa cum apare în forma verbală beau.",
+      "ipa": "/e̯aw/"
+    },
+    "de": {
+      "name": "eau in beau (ich trinke / sie trinken)",
+      "description": "Dieses Element veranschaulicht den rumänischen Diphthong eau, wie er in der Verbform beau vorkommt."
+    },
+    "ru": {
+      "name": "eau в beau (я пью / они пьют)",
+      "description": "Этот элемент иллюстрирует румынский дифтонг eau, встречающийся в глагольной форме beau."
+    },
+    "it": {
+      "name": "eau in beau (bevo / bevono)",
+      "description": "Questo elemento illustra il dittongo rumeno eau come si trova nella forma verbale beau."
+    },
+    "es": {
+      "name": "eau en beau (bebo / beben)",
+      "description": "Este elemento ilustra el diptongo rumano eau tal como aparece en la forma verbal beau."
+    },
+    "fr": {
+      "name": "eau dans beau (je bois / ils boivent)",
+      "description": "Cet élément illustre la diphtongue roumaine eau telle qu'elle apparaît dans la forme verbale beau."
+    },
+    "hu": {
+      "name": "eau a beau-ban (iszom / isznak)",
+      "description": "Ez az elem a román eau kettőshangzót mutatja be a beau igealakban."
+    },
+    "pt": {
+      "name": "eau em beau (bebo / bebem)",
+      "description": "Este item ilustra o ditongo romeno eau, conforme encontrado na forma verbal beau."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 9072,
+      "sha1": "3f52c67d0c7fbbd2ba5d1c5e094793e000b7033c"
+    }
+  }
 }

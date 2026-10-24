@@ -4,111 +4,45 @@
   "chapter": "CH03",
   "topic": "CH03T04",
   "kind": "word",
-  "names": {
-    "en": "snow",
-    "ro": "zăpadă",
-    "de": "Schnee",
-    "ru": "снег",
-    "it": "neve",
-    "es": "nieve",
-    "fr": "neige",
-    "hu": "hó",
-    "pt": "neve"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/zəˈpadə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "ac876c292473d60b4a982b9d56937434e28fcd0c",
-      "key": "dictionary/CH03/CH03T04/W285/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T04:W285",
+  "cefr": "A2",
   "tags": [
     "vocabulary#weather-nature"
   ],
-  "metadata": {},
-  "entity_id": "CH03T04:W285",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "snow"
+    },
+    "ro": {
+      "name": "zăpadă",
+      "ipa": "/zəˈpadə/"
+    },
+    "de": {
+      "name": "Schnee"
+    },
+    "ru": {
+      "name": "снег"
+    },
+    "it": {
+      "name": "neve"
+    },
+    "es": {
+      "name": "nieve"
+    },
+    "fr": {
+      "name": "neige"
+    },
+    "hu": {
+      "name": "hó"
+    },
+    "pt": {
+      "name": "neve"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "ac876c292473d60b4a982b9d56937434e28fcd0c"
+    }
+  }
 }

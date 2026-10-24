@@ -4,111 +4,45 @@
   "chapter": "CH07",
   "topic": "CH07T04",
   "kind": "word",
-  "names": {
-    "en": "actor",
-    "ro": "actor",
-    "de": "Schauspieler",
-    "ru": "актёр",
-    "it": "attore",
-    "es": "actor",
-    "fr": "acteur",
-    "hu": "színész",
-    "pt": "ator"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/akˈtor/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "f9e8a9db28da9b7d19187ef0ac119205000fdba7",
-      "key": "dictionary/CH07/CH07T04/W549/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH07T04:W549",
+  "cefr": "B2",
   "tags": [
     "scaffold#C7T04"
   ],
-  "metadata": {},
-  "entity_id": "CH07T04:W549",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "actor"
+    },
+    "ro": {
+      "name": "actor",
+      "ipa": "/akˈtor/"
+    },
+    "de": {
+      "name": "Schauspieler"
+    },
+    "ru": {
+      "name": "актёр"
+    },
+    "it": {
+      "name": "attore"
+    },
+    "es": {
+      "name": "actor"
+    },
+    "fr": {
+      "name": "acteur"
+    },
+    "hu": {
+      "name": "színész"
+    },
+    "pt": {
+      "name": "ator"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "f9e8a9db28da9b7d19187ef0ac119205000fdba7"
+    }
+  }
 }

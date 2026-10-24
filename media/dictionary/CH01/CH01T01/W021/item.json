@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "father",
-    "ro": "tată",
-    "de": "Vater",
-    "ru": "отец",
-    "it": "padre",
-    "es": "padre",
-    "fr": "père",
-    "hu": "apa",
-    "pt": "pai"
-  },
-  "description": {
-    "en": "A father is a male parent.",
-    "ro": "Un tată este un părinte de sex masculin.",
-    "de": "Ein Vater ist ein männlicher Elternteil.",
-    "ru": "Отец — это родитель мужского пола.",
-    "it": "Un padre è un genitore di sesso maschile.",
-    "es": "Un padre es un progenitor de sexo masculino.",
-    "fr": "Un père est un parent de sexe masculin.",
-    "hu": "Az apa egy férfi szülő.",
-    "pt": "Um pai é um progenitor do sexo masculino."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɑː/"
-    },
-    "ro": {
-      "ipa": "/ˈta.tə/"
-    },
-    "de": {
-      "ipa": "/ˈfaː.tɐ/"
-    },
-    "ru": {
-      "ipa": "/ɐˈtʲet͡s/"
-    },
-    "it": {
-      "ipa": "/ˈpa.dre/"
-    },
-    "es": {
-      "ipa": "/ˈpa.ðɾe/"
-    },
-    "fr": {
-      "ipa": "/pɛʁ/"
-    },
-    "hu": {
-      "ipa": "/ɒpɒ/"
-    },
-    "pt": {
-      "ipa": "/ˈpaj/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "6a23ff960bb82a6300bc3665eee118059118738d",
-      "key": "dictionary/CH01/CH01T01/W021/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "cd872f0b6e7b658c3690ddf10159495e035c16f6",
-      "key": "dictionary/CH01/CH01T01/W021/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b4b097102c12dff325f6e72d393041cce4e68a0c",
-      "key": "dictionary/CH01/CH01T01/W021/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "920d5d022434e6ec18e1b9515a61c6ece8ca8fb5",
-      "key": "dictionary/CH01/CH01T01/W021/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e682c85afaf02db8ee66c85799e9611a5060a0af",
-      "key": "dictionary/CH01/CH01T01/W021/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "344d6b436bc7f93474bb12b0858b7cc14472e96b",
-      "key": "dictionary/CH01/CH01T01/W021/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "4c54cfcc76c443bb75aba3bc42d14c1e977e9245",
-      "key": "dictionary/CH01/CH01T01/W021/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "608959a07ef3adc261ad7c55bdc153a1bb4cc850",
-      "key": "dictionary/CH01/CH01T01/W021/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1e31c242e5bdecf1079bc7413bdb6fe0ff5cd688",
-      "key": "dictionary/CH01/CH01T01/W021/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W021",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "cuvânt de origine latină/romanică",
-      "example": "father"
+      "name": "father",
+      "description": "A father is a male parent.",
+      "ipa": "/ɑː/",
+      "example": "father",
+      "context": "cuvânt de origine latină/romanică"
+    },
+    "ro": {
+      "name": "tată",
+      "description": "Un tată este un părinte de sex masculin.",
+      "ipa": "/ˈta.tə/"
+    },
+    "de": {
+      "name": "Vater",
+      "description": "Ein Vater ist ein männlicher Elternteil.",
+      "ipa": "/ˈfaː.tɐ/"
+    },
+    "ru": {
+      "name": "отец",
+      "description": "Отец — это родитель мужского пола.",
+      "ipa": "/ɐˈtʲet͡s/"
+    },
+    "it": {
+      "name": "padre",
+      "description": "Un padre è un genitore di sesso maschile.",
+      "ipa": "/ˈpa.dre/"
+    },
+    "es": {
+      "name": "padre",
+      "description": "Un padre es un progenitor de sexo masculino.",
+      "ipa": "/ˈpa.ðɾe/"
+    },
+    "fr": {
+      "name": "père",
+      "description": "Un père est un parent de sexe masculin.",
+      "ipa": "/pɛʁ/"
+    },
+    "hu": {
+      "name": "apa",
+      "description": "Az apa egy férfi szülő.",
+      "ipa": "/ɒpɒ/"
+    },
+    "pt": {
+      "name": "pai",
+      "description": "Um pai é um progenitor do sexo masculino.",
+      "ipa": "/ˈpaj/"
     }
   },
-  "entity_id": "CH01T01:W021",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "6a23ff960bb82a6300bc3665eee118059118738d"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "cd872f0b6e7b658c3690ddf10159495e035c16f6"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "b4b097102c12dff325f6e72d393041cce4e68a0c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "920d5d022434e6ec18e1b9515a61c6ece8ca8fb5"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "e682c85afaf02db8ee66c85799e9611a5060a0af"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "344d6b436bc7f93474bb12b0858b7cc14472e96b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "4c54cfcc76c443bb75aba3bc42d14c1e977e9245"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "608959a07ef3adc261ad7c55bdc153a1bb4cc850"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "1e31c242e5bdecf1079bc7413bdb6fe0ff5cd688"
+    }
+  }
 }

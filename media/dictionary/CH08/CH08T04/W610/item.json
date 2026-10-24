@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T04",
   "kind": "word",
-  "names": {
-    "en": "Romanian (person)",
-    "ro": "român",
-    "de": "Rumäne",
-    "ru": "румын",
-    "it": "rumeno",
-    "es": "rumano",
-    "fr": "roumain",
-    "hu": "román (személy)",
-    "pt": "romeno"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/roˈmɨn/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "5c1665b4252f22f8bf48730c7199b1ece876ed6e",
-      "key": "dictionary/CH08/CH08T04/W610/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T04:W610",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T04"
   ],
-  "metadata": {},
-  "entity_id": "CH08T04:W610",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "Romanian (person)"
+    },
+    "ro": {
+      "name": "român",
+      "ipa": "/roˈmɨn/"
+    },
+    "de": {
+      "name": "Rumäne"
+    },
+    "ru": {
+      "name": "румын"
+    },
+    "it": {
+      "name": "rumeno"
+    },
+    "es": {
+      "name": "rumano"
+    },
+    "fr": {
+      "name": "roumain"
+    },
+    "hu": {
+      "name": "román (személy)"
+    },
+    "pt": {
+      "name": "romeno"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "5c1665b4252f22f8bf48730c7199b1ece876ed6e"
+    }
+  }
 }

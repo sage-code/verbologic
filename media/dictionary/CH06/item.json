@@ -4,110 +4,23 @@
   "chapter": "CH06",
   "topic": "CH06",
   "kind": "chapter-title",
-  "names": {
-    "en": "School Subjects",
-    "ro": "Materii școlare",
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/maˈterii ʃkoˈlare/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12672,
-      "sha1": "fc57bc59f3d9b1a27b6be5a7cc6cd7379172c50e",
-      "key": "dictionary/CH06/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH06",
   "tags": [
     "title#chapter"
   ],
-  "metadata": {},
-  "entity_id": "CH06"
+  "locales": {
+    "en": {
+      "name": "School Subjects"
+    },
+    "ro": {
+      "name": "Materii școlare",
+      "ipa": "/maˈterii ʃkoˈlare/"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12672,
+      "sha1": "fc57bc59f3d9b1a27b6be5a7cc6cd7379172c50e"
+    }
+  }
 }

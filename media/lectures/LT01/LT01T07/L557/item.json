@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "E",
-    "ro": "E",
-    "de": "E",
-    "ru": "E",
-    "it": "E",
-    "es": "E",
-    "fr": "E",
-    "hu": "E",
-    "pt": "E"
-  },
-  "description": {
-    "en": "Letter name: E. Example: energy.",
-    "ro": "Numele literei: E. Exemplu: energy.",
-    "de": "Buchstabenname: E. Beispiel: energy.",
-    "ru": "Название буквы: E. Пример: energy.",
-    "it": "Nome della lettera: E. Esempio: energy.",
-    "es": "Nombre de la letra: E. Ejemplo: energy.",
-    "fr": "Nom de la lettre : E. Exemple : energy.",
-    "hu": "Betű neve: E. Példa: energy.",
-    "pt": "Nome da letra: E. Exemplo: energy."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/iː/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4752,
-      "sha1": "47f5a82efbaa5da2b9373c637437e9e1e00020c6"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L557",
+  "legacy_entity_id": "letter_e-2",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "E",
-      "example": "energy"
+      "name": "E",
+      "description": "Letter name: E. Example: energy.",
+      "ipa": "/iː/",
+      "example": "energy",
+      "context": "E"
+    },
+    "ro": {
+      "name": "E",
+      "description": "Numele literei: E. Exemplu: energy."
+    },
+    "de": {
+      "name": "E",
+      "description": "Buchstabenname: E. Beispiel: energy."
+    },
+    "ru": {
+      "name": "E",
+      "description": "Название буквы: E. Пример: energy."
+    },
+    "it": {
+      "name": "E",
+      "description": "Nome della lettera: E. Esempio: energy."
+    },
+    "es": {
+      "name": "E",
+      "description": "Nombre de la letra: E. Ejemplo: energy."
+    },
+    "fr": {
+      "name": "E",
+      "description": "Nom de la lettre : E. Exemple : energy."
+    },
+    "hu": {
+      "name": "E",
+      "description": "Betű neve: E. Példa: energy."
+    },
+    "pt": {
+      "name": "E",
+      "description": "Nome da letra: E. Exemplo: energy."
     }
   },
-  "entity_id": "LT01T07:L557",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_e-2"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "47f5a82efbaa5da2b9373c637437e9e1e00020c6"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T12",
   "kind": "letter",
-  "names": {
-    "en": "P",
-    "ro": "P",
-    "de": "P",
-    "ru": "P",
-    "it": "P",
-    "es": "P",
-    "fr": "P",
-    "hu": "P",
-    "pt": "P"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": "Letter name: pe. Example: pan.",
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": {
-      "ipa": "/pe/"
-    },
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7920,
-      "sha1": "e2df35cd3fbbfe724808efd64da2d85761747b90"
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T12:L447",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "P"
+    },
+    "ro": {
+      "name": "P"
+    },
+    "de": {
+      "name": "P"
+    },
+    "ru": {
+      "name": "P"
+    },
+    "it": {
+      "name": "P"
+    },
     "es": {
-      "context": "pe",
-      "example": "pan"
+      "name": "P",
+      "description": "Letter name: pe. Example: pan.",
+      "ipa": "/pe/",
+      "example": "pan",
+      "context": "pe"
+    },
+    "fr": {
+      "name": "P"
+    },
+    "hu": {
+      "name": "P"
+    },
+    "pt": {
+      "name": "P"
     }
   },
-  "entity_id": "LT01T12:L447",
-  "cefr": "A1"
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 7920,
+      "sha1": "e2df35cd3fbbfe724808efd64da2d85761747b90"
+    }
+  }
 }

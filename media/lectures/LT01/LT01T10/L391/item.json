@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T10",
   "kind": "letter",
-  "names": {
-    "en": "Т",
-    "ro": "Т",
-    "de": "Т",
-    "ru": "Т",
-    "it": "Т",
-    "es": "Т",
-    "fr": "Т",
-    "hu": "Т",
-    "pt": "Т"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": "Letter name: тэ. Example: стол.",
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": {
-      "ipa": "/tɛ/"
-    },
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8064,
-      "sha1": "6fa5f766b18742242acf7177ec6ea729693855ee"
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T10:L391",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Т"
+    },
+    "ro": {
+      "name": "Т"
+    },
+    "de": {
+      "name": "Т"
+    },
     "ru": {
-      "context": "тэ",
-      "example": "стол"
+      "name": "Т",
+      "description": "Letter name: тэ. Example: стол.",
+      "ipa": "/tɛ/",
+      "example": "стол",
+      "context": "тэ"
+    },
+    "it": {
+      "name": "Т"
+    },
+    "es": {
+      "name": "Т"
+    },
+    "fr": {
+      "name": "Т"
+    },
+    "hu": {
+      "name": "Т"
+    },
+    "pt": {
+      "name": "Т"
     }
   },
-  "entity_id": "LT01T10:L391",
-  "cefr": "A1"
+  "files": {
+    "sound/ru.mp3": {
+      "bytes": 8064,
+      "sha1": "6fa5f766b18742242acf7177ec6ea729693855ee"
+    }
+  }
 }

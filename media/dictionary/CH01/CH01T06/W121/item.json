@@ -4,135 +4,94 @@
   "chapter": "CH01",
   "topic": "CH01T06",
   "kind": "word",
-  "names": {
-    "en": "orange",
-    "ro": "portocaliu",
-    "de": "Orange",
-    "ru": "Оранжевый",
-    "it": "arancione",
-    "es": "naranja",
-    "fr": "orange",
-    "hu": "Narancssárga",
-    "pt": "Laranja"
-  },
-  "description": {
-    "en": "Blue is a primary color that resembles the color of the clear sky or the ocean.",
-    "ro": "Albastrul este o culoare primară care seamănă cu culoarea cerului senin sau a oceanului.",
-    "de": "Blau ist eine Primärfarbe, die der Farbe des klaren Himmels oder des Ozeans ähnelt.",
-    "ru": "Синий — это основной цвет, напоминающий цвет ясного неба или океана.",
-    "it": "Il blu è un colore primario che ricorda il colore del cielo sereno o dell'oceano.",
-    "es": "El azul es un color primario que se asemeja al color del cielo despejado o del océano.",
-    "fr": "Le bleu est une couleur primaire qui ressemble à la couleur du ciel clair ou de l'océan.",
-    "hu": "A kék egy alapszín, amely a tiszta égbolt vagy az óceán színére emlékeztet.",
-    "pt": "O azul é uma cor primária que se assemelha à cor do céu limpo ou do oceano."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ˈɔrɪndʒ/"
-    },
-    "ro": {
-      "ipa": "/portoˈkaliu/"
-    },
-    "de": {
-      "ipa": "/oˈʁɑ̃ːʒə/"
-    },
-    "ru": {
-      "ipa": "/ɐˈranʐɨvɨj/"
-    },
-    "it": {
-      "ipa": "/aranˈtʃone/"
-    },
-    "es": {
-      "ipa": "/naˈɾaŋxa/"
-    },
-    "fr": {
-      "ipa": "/ɔʁɑ̃ʒ/"
-    },
-    "hu": {
-      "ipa": "/ˈnɒrɒntʃʃaːrɡɒ/"
-    },
-    "pt": {
-      "ipa": "/lɐˈɾɐ̃ʒɐ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3398a0fddc47873f675c364d7c42c6e5fbd27133",
-      "key": "dictionary/CH01/CH01T06/W121/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "ecf57ae82d33068827d7cd6413db36a8c0fc6dda",
-      "key": "dictionary/CH01/CH01T06/W121/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c808834888ca5d994c2312fa5dd991b3b3c27d4d",
-      "key": "dictionary/CH01/CH01T06/W121/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "55ced5be04ab52bdbb1aa4386edd15bfb5431115",
-      "key": "dictionary/CH01/CH01T06/W121/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c0e84a359d981a51983ba5e2374606dc4e407195",
-      "key": "dictionary/CH01/CH01T06/W121/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "88918b12e643f4a3c7cd18e8fc840142ed26d614",
-      "key": "dictionary/CH01/CH01T06/W121/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "998fa5297dd2e69b94040d52de19885daa6c04ce",
-      "key": "dictionary/CH01/CH01T06/W121/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8273cc9e070aa1482310588fa8c9de69b36aca65",
-      "key": "dictionary/CH01/CH01T06/W121/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0e18774e7010f1f0c406d228cacd52888635b9af",
-      "key": "dictionary/CH01/CH01T06/W121/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T06:W121",
+  "cefr": "A1",
   "tags": [
     "scaffold#C1T06"
   ],
-  "metadata": {},
-  "entity_id": "CH01T06:W121",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "orange",
+      "description": "Blue is a primary color that resembles the color of the clear sky or the ocean.",
+      "ipa": "/ˈɔrɪndʒ/"
+    },
+    "ro": {
+      "name": "portocaliu",
+      "description": "Albastrul este o culoare primară care seamănă cu culoarea cerului senin sau a oceanului.",
+      "ipa": "/portoˈkaliu/"
+    },
+    "de": {
+      "name": "Orange",
+      "description": "Blau ist eine Primärfarbe, die der Farbe des klaren Himmels oder des Ozeans ähnelt.",
+      "ipa": "/oˈʁɑ̃ːʒə/"
+    },
+    "ru": {
+      "name": "Оранжевый",
+      "description": "Синий — это основной цвет, напоминающий цвет ясного неба или океана.",
+      "ipa": "/ɐˈranʐɨvɨj/"
+    },
+    "it": {
+      "name": "arancione",
+      "description": "Il blu è un colore primario che ricorda il colore del cielo sereno o dell'oceano.",
+      "ipa": "/aranˈtʃone/"
+    },
+    "es": {
+      "name": "naranja",
+      "description": "El azul es un color primario que se asemeja al color del cielo despejado o del océano.",
+      "ipa": "/naˈɾaŋxa/"
+    },
+    "fr": {
+      "name": "orange",
+      "description": "Le bleu est une couleur primaire qui ressemble à la couleur du ciel clair ou de l'océan.",
+      "ipa": "/ɔʁɑ̃ʒ/"
+    },
+    "hu": {
+      "name": "Narancssárga",
+      "description": "A kék egy alapszín, amely a tiszta égbolt vagy az óceán színére emlékeztet.",
+      "ipa": "/ˈnɒrɒntʃʃaːrɡɒ/"
+    },
+    "pt": {
+      "name": "Laranja",
+      "description": "O azul é uma cor primária que se assemelha à cor do céu limpo ou do oceano.",
+      "ipa": "/lɐˈɾɐ̃ʒɐ/"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "3398a0fddc47873f675c364d7c42c6e5fbd27133"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "ecf57ae82d33068827d7cd6413db36a8c0fc6dda"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "c808834888ca5d994c2312fa5dd991b3b3c27d4d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "55ced5be04ab52bdbb1aa4386edd15bfb5431115"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "c0e84a359d981a51983ba5e2374606dc4e407195"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "88918b12e643f4a3c7cd18e8fc840142ed26d614"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "998fa5297dd2e69b94040d52de19885daa6c04ce"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "8273cc9e070aa1482310588fa8c9de69b36aca65"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "0e18774e7010f1f0c406d228cacd52888635b9af"
+    }
+  }
 }

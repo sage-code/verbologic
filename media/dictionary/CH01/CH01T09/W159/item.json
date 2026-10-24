@@ -4,176 +4,114 @@
   "chapter": "CH01",
   "topic": "CH01T09",
   "kind": "letter",
+  "entity_id": "CH01T09:W159",
+  "cefr": "A1",
   "letter": "O",
-  "names": {
-    "en": "O (oh)",
-    "ro": "O (o)",
-    "de": "O (o)",
-    "ru": "O (оу)",
-    "it": "O (o)",
-    "es": "O (o)",
-    "fr": "O (o)",
-    "hu": "O (o)",
-    "pt": "O (ó)"
-  },
-  "description": {
-    "en": "The letter O in the Latin alphabet, named oh.",
-    "ro": "Litera O din alfabetul latin, numită o.",
-    "de": "Der Buchstabe O des lateinischen Alphabets, genannt o.",
-    "ru": "Буква O латинского алфавита, называемая «оу».",
-    "it": "La lettera O dell'alfabeto latino, chiamata o.",
-    "es": "La letra O del alfabeto latino, llamada o.",
-    "fr": "La lettre O de l'alphabet latin, appelée o.",
-    "hu": "A latin ábécé O betűje, neve o.",
-    "pt": "A letra O do alfabeto latino, chamada ó."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/oʊ/"
-    },
-    "ro": {
-      "ipa": "/o/"
-    },
-    "de": {
-      "ipa": "/oː/"
-    },
-    "ru": {
-      "ipa": "/oʊ/"
-    },
-    "it": {
-      "ipa": "/ɔ/"
-    },
-    "es": {
-      "ipa": "/o/"
-    },
-    "fr": {
-      "ipa": "/o/"
-    },
-    "hu": {
-      "ipa": "/o/"
-    },
-    "pt": {
-      "ipa": "/ˈɔ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 5040,
-      "sha1": "025bfc548fa5be931fc440cd7fc85c2dfc39a6e0",
-      "key": "dictionary/CH01/CH01T09/W159/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "53d4a3cf471e9747b740c30fd1b628c1b1c39cd9",
-      "key": "dictionary/CH01/CH01T09/W159/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b719158cffd02a786a2c0eb94216ddc9089b2c42",
-      "key": "dictionary/CH01/CH01T09/W159/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9222fc27f0f8cd01d244378540d0cda3eb7d5be0",
-      "key": "dictionary/CH01/CH01T09/W159/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4608,
-      "sha1": "b8341fd1e85f5ef840824c1fe1180a80b66402a5",
-      "key": "dictionary/CH01/CH01T09/W159/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "29d7bfef23e22e1261d8cde54a72a608aa54ce73",
-      "key": "dictionary/CH01/CH01T09/W159/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "7cd7d6dd42c0c23991071834375290b998e0ff66",
-      "key": "dictionary/CH01/CH01T09/W159/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ea5efbe92bd8a656c6a46658e39132ca9def7c2c",
-      "key": "dictionary/CH01/CH01T09/W159/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3f7d5b14b2082f8748863e3bd966697341ddf791",
-      "key": "dictionary/CH01/CH01T09/W159/sound/pt.mp3"
-    }
-  },
-  "ttsText": {
-    "en": "oh",
-    "ro": "o",
-    "de": "o",
-    "ru": "оу",
-    "it": "o",
-    "es": "o",
-    "fr": "o",
-    "hu": "o",
-    "pt": "ó"
-  },
   "tags": [
     "alphabet#common-letter",
     "alphabet#latin"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "O (oh)",
+      "description": "The letter O in the Latin alphabet, named oh.",
+      "ipa": "/oʊ/",
+      "ttsText": "oh",
       "example": "oh"
     },
     "ro": {
+      "name": "O (o)",
+      "description": "Litera O din alfabetul latin, numită o.",
+      "ipa": "/o/",
+      "ttsText": "o",
       "example": "o"
     },
     "de": {
+      "name": "O (o)",
+      "description": "Der Buchstabe O des lateinischen Alphabets, genannt o.",
+      "ipa": "/oː/",
+      "ttsText": "o",
       "example": "o"
     },
     "ru": {
+      "name": "O (оу)",
+      "description": "Буква O латинского алфавита, называемая «оу».",
+      "ipa": "/oʊ/",
+      "ttsText": "оу",
       "example": "оу"
     },
     "it": {
+      "name": "O (o)",
+      "description": "La lettera O dell'alfabeto latino, chiamata o.",
+      "ipa": "/ɔ/",
+      "ttsText": "o",
       "example": "o"
     },
     "es": {
+      "name": "O (o)",
+      "description": "La letra O del alfabeto latino, llamada o.",
+      "ipa": "/o/",
+      "ttsText": "o",
       "example": "o"
     },
     "fr": {
+      "name": "O (o)",
+      "description": "La lettre O de l'alphabet latin, appelée o.",
+      "ipa": "/o/",
+      "ttsText": "o",
       "example": "o"
     },
     "hu": {
+      "name": "O (o)",
+      "description": "A latin ábécé O betűje, neve o.",
+      "ipa": "/o/",
+      "ttsText": "o",
       "example": "o"
     },
     "pt": {
+      "name": "O (ó)",
+      "description": "A letra O do alfabeto latino, chamada ó.",
+      "ipa": "/ˈɔ/",
+      "ttsText": "ó",
       "example": "ó"
     }
   },
-  "entity_id": "CH01T09:W159",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "025bfc548fa5be931fc440cd7fc85c2dfc39a6e0"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "53d4a3cf471e9747b740c30fd1b628c1b1c39cd9"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "b719158cffd02a786a2c0eb94216ddc9089b2c42"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "9222fc27f0f8cd01d244378540d0cda3eb7d5be0"
+    },
+    "sound/it.mp3": {
+      "bytes": 4608,
+      "sha1": "b8341fd1e85f5ef840824c1fe1180a80b66402a5"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "29d7bfef23e22e1261d8cde54a72a608aa54ce73"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "7cd7d6dd42c0c23991071834375290b998e0ff66"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "ea5efbe92bd8a656c6a46658e39132ca9def7c2c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "3f7d5b14b2082f8748863e3bd966697341ddf791"
+    }
+  }
 }

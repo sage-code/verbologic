@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "Ș",
-    "ro": "Ș",
-    "de": "Ș",
-    "ru": "Ș",
-    "it": "Ș",
-    "es": "Ș",
-    "fr": "Ș",
-    "hu": "Ș",
-    "pt": "Ș"
-  },
-  "description": {
-    "en": "The letter Ș is the nineteenth letter of the Romanian alphabet.",
-    "ro": "Litera Ș este a nouăsprezecea literă a alfabetului român.",
-    "de": "Der Buchstabe Ș ist der neunzehnte Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква Ș — девятнадцатая буква румынского алфавита.",
-    "it": "La lettera Ș è la diciannovesima lettera dell'alfabeto rumeno.",
-    "es": "La letra Ș es la decimonovena letra del alfabeto rumano.",
-    "fr": "La lettre Ș est la dix-neuvième lettre de l'alphabet roumain.",
-    "hu": "A Ș betű a román ábécé tizenkilencedik betűje.",
-    "pt": "A letra Ș é a décima nona letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ʃ/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "44f97cfd65689686379faf854f01615704f9ea7d",
-      "key": "lectures/LT01/LT01T01/L022/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L022",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L022",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "Ș",
+      "description": "The letter Ș is the nineteenth letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "Ș",
+      "description": "Litera Ș este a nouăsprezecea literă a alfabetului român.",
+      "ipa": "/ʃ/"
+    },
+    "de": {
+      "name": "Ș",
+      "description": "Der Buchstabe Ș ist der neunzehnte Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "Ș",
+      "description": "Буква Ș — девятнадцатая буква румынского алфавита."
+    },
+    "it": {
+      "name": "Ș",
+      "description": "La lettera Ș è la diciannovesima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "Ș",
+      "description": "La letra Ș es la decimonovena letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "Ș",
+      "description": "La lettre Ș est la dix-neuvième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "Ș",
+      "description": "A Ș betű a román ábécé tizenkilencedik betűje."
+    },
+    "pt": {
+      "name": "Ș",
+      "description": "A letra Ș é a décima nona letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "44f97cfd65689686379faf854f01615704f9ea7d"
+    }
+  }
 }

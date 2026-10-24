@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T03",
   "kind": "word",
-  "names": {
-    "en": "garden",
-    "ro": "grădină",
-    "de": "Garten",
-    "ru": "Сад",
-    "it": "giardino",
-    "es": "jardín",
-    "fr": "jardin",
-    "hu": "Kert",
-    "pt": "Jardim"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/grəˈdinə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "72f0725ab9cabf34ef786a31420412db6ba54ff8",
-      "key": "dictionary/CH02/CH02T03/W199/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T03:W199",
+  "cefr": "A1",
   "tags": [
     "scaffold#C2T03"
   ],
-  "metadata": {},
-  "entity_id": "CH02T03:W199",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "garden"
+    },
+    "ro": {
+      "name": "grădină",
+      "ipa": "/grəˈdinə/"
+    },
+    "de": {
+      "name": "Garten"
+    },
+    "ru": {
+      "name": "Сад"
+    },
+    "it": {
+      "name": "giardino"
+    },
+    "es": {
+      "name": "jardín"
+    },
+    "fr": {
+      "name": "jardin"
+    },
+    "hu": {
+      "name": "Kert"
+    },
+    "pt": {
+      "name": "Jardim"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "72f0725ab9cabf34ef786a31420412db6ba54ff8"
+    }
+  }
 }

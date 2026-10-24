@@ -4,111 +4,45 @@
   "chapter": "CH04",
   "topic": "CH04T01",
   "kind": "word",
-  "names": {
-    "en": "stadium",
-    "ro": "stadion",
-    "de": "Stadion",
-    "ru": "стадион",
-    "it": "stadio",
-    "es": "estadio",
-    "fr": "stade",
-    "hu": "stadion",
-    "pt": "estádio"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/staˈdion/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "1a67905dfdf1d5955c7d34a71da42eb2e355323a",
-      "key": "dictionary/CH04/CH04T01/W328/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH04T01:W328",
+  "cefr": "A2",
   "tags": [
     "scaffold#C4T01"
   ],
-  "metadata": {},
-  "entity_id": "CH04T01:W328",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "stadium"
+    },
+    "ro": {
+      "name": "stadion",
+      "ipa": "/staˈdion/"
+    },
+    "de": {
+      "name": "Stadion"
+    },
+    "ru": {
+      "name": "стадион"
+    },
+    "it": {
+      "name": "stadio"
+    },
+    "es": {
+      "name": "estadio"
+    },
+    "fr": {
+      "name": "stade"
+    },
+    "hu": {
+      "name": "stadion"
+    },
+    "pt": {
+      "name": "estádio"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "1a67905dfdf1d5955c7d34a71da42eb2e355323a"
+    }
+  }
 }

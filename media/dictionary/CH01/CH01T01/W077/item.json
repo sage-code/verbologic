@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "listen",
-    "ro": "a asculta",
-    "de": "zuhören",
-    "ru": "слушать",
-    "it": "ascoltare",
-    "es": "escuchar",
-    "fr": "écouter",
-    "hu": "hallgatni",
-    "pt": "ouvir"
-  },
-  "description": {
-    "en": "This is a verb that means to pay attention to sound.",
-    "ro": "Acesta este un verb care înseamnă a fi atent la sunet.",
-    "de": "Dies ist ein Verb, das bedeutet, auf Geräusche zu achten.",
-    "ru": "Это глагол, означающий обращать внимание на звук.",
-    "it": "Questo è un verbo che significa prestare attenzione al suono.",
-    "es": "Este es un verbo que significa prestar atención al sonido.",
-    "fr": "C'est un verbe qui signifie prêter attention au son.",
-    "hu": "Ez egy ige, amely azt jelenti, hogy figyelni a hangra.",
-    "pt": "Este é um verbo que significa prestar atenção ao som."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ˈlɪsən/"
-    },
-    "ro": {
-      "ipa": "/a as.kulˈta/"
-    },
-    "de": {
-      "ipa": "/ˈt͡suːˌhøːʁən/"
-    },
-    "ru": {
-      "ipa": "/ˈsluʂətʲ/"
-    },
-    "it": {
-      "ipa": "/as.kolˈta.re/"
-    },
-    "es": {
-      "ipa": "/es.kuˈt͡ʃaɾ/"
-    },
-    "fr": {
-      "ipa": "/e.ku.te/"
-    },
-    "hu": {
-      "ipa": "/ˈhɒlɡɒtni/"
-    },
-    "pt": {
-      "ipa": "/oˈviɾ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "554758085cf03a81cb5ea286f8f3bc8a64536ed8",
-      "key": "dictionary/CH01/CH01T01/W077/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ecb9c4aa1d3852f37e564548775238b58e4c5e43",
-      "key": "dictionary/CH01/CH01T01/W077/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "11b7b3f151223d305c20f202f7c50ec04f86adcd",
-      "key": "dictionary/CH01/CH01T01/W077/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11376,
-      "sha1": "f48a12bd603a05bc9dc7b85bb9c2c17d179d696d",
-      "key": "dictionary/CH01/CH01T01/W077/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "f1cd291e3988c8fd346c6bb0041c4cf1115e0c25",
-      "key": "dictionary/CH01/CH01T01/W077/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a1738594643ddada696de01d4bf438ea7c18480d",
-      "key": "dictionary/CH01/CH01T01/W077/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "6d5ae2c92278dca559992579f9ee280f9db09604",
-      "key": "dictionary/CH01/CH01T01/W077/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "868ae2f203eea568484d9f69892b1ccd0713186e",
-      "key": "dictionary/CH01/CH01T01/W077/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8dae598a2f55566cae3a3fcaa4b714fc322fe607",
-      "key": "dictionary/CH01/CH01T01/W077/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W077",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "t mut",
-      "example": "listen"
+      "name": "listen",
+      "description": "This is a verb that means to pay attention to sound.",
+      "ipa": "/ˈlɪsən/",
+      "example": "listen",
+      "context": "t mut"
+    },
+    "ro": {
+      "name": "a asculta",
+      "description": "Acesta este un verb care înseamnă a fi atent la sunet.",
+      "ipa": "/a as.kulˈta/"
+    },
+    "de": {
+      "name": "zuhören",
+      "description": "Dies ist ein Verb, das bedeutet, auf Geräusche zu achten.",
+      "ipa": "/ˈt͡suːˌhøːʁən/"
+    },
+    "ru": {
+      "name": "слушать",
+      "description": "Это глагол, означающий обращать внимание на звук.",
+      "ipa": "/ˈsluʂətʲ/"
+    },
+    "it": {
+      "name": "ascoltare",
+      "description": "Questo è un verbo che significa prestare attenzione al suono.",
+      "ipa": "/as.kolˈta.re/"
+    },
+    "es": {
+      "name": "escuchar",
+      "description": "Este es un verbo que significa prestar atención al sonido.",
+      "ipa": "/es.kuˈt͡ʃaɾ/"
+    },
+    "fr": {
+      "name": "écouter",
+      "description": "C'est un verbe qui signifie prêter attention au son.",
+      "ipa": "/e.ku.te/"
+    },
+    "hu": {
+      "name": "hallgatni",
+      "description": "Ez egy ige, amely azt jelenti, hogy figyelni a hangra.",
+      "ipa": "/ˈhɒlɡɒtni/"
+    },
+    "pt": {
+      "name": "ouvir",
+      "description": "Este é um verbo que significa prestar atenção ao som.",
+      "ipa": "/oˈviɾ/"
     }
   },
-  "entity_id": "CH01T01:W077",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "554758085cf03a81cb5ea286f8f3bc8a64536ed8"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "ecb9c4aa1d3852f37e564548775238b58e4c5e43"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "11b7b3f151223d305c20f202f7c50ec04f86adcd"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11376,
+      "sha1": "f48a12bd603a05bc9dc7b85bb9c2c17d179d696d"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "f1cd291e3988c8fd346c6bb0041c4cf1115e0c25"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "a1738594643ddada696de01d4bf438ea7c18480d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "6d5ae2c92278dca559992579f9ee280f9db09604"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "868ae2f203eea568484d9f69892b1ccd0713186e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "8dae598a2f55566cae3a3fcaa4b714fc322fe607"
+    }
+  }
 }

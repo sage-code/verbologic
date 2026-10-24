@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T05",
   "kind": "word",
-  "names": {
-    "en": "moon",
-    "ro": "lună",
-    "de": "Mond",
-    "ru": "луна",
-    "it": "luna",
-    "es": "luna",
-    "fr": "lune",
-    "hu": "hold",
-    "pt": "lua"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈlunə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "f138ad245f1814c552458fb2a4a1a32d999fdd81",
-      "key": "dictionary/CH08/CH08T05/W616/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T05:W616",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T05"
   ],
-  "metadata": {},
-  "entity_id": "CH08T05:W616",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "moon"
+    },
+    "ro": {
+      "name": "lună",
+      "ipa": "/ˈlunə/"
+    },
+    "de": {
+      "name": "Mond"
+    },
+    "ru": {
+      "name": "луна"
+    },
+    "it": {
+      "name": "luna"
+    },
+    "es": {
+      "name": "luna"
+    },
+    "fr": {
+      "name": "lune"
+    },
+    "hu": {
+      "name": "hold"
+    },
+    "pt": {
+      "name": "lua"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "f138ad245f1814c552458fb2a4a1a32d999fdd81"
+    }
+  }
 }

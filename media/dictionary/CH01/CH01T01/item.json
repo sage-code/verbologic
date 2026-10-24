@@ -4,134 +4,93 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "topic-title",
-  "names": {
-    "en": "Greetings & farewells",
-    "ro": "Salutări și despărțiri",
-    "de": "Begrüßungen & Verabschiedungen",
-    "ru": "Приветствия и прощания",
-    "it": "Saluti e congedi",
-    "es": "Saludos y despedidas",
-    "fr": "Salutations et adieux",
-    "hu": "Üdvözlések és elköszönések",
-    "pt": "Saudações e despedidas"
-  },
-  "description": {
-    "en": "This topic covers common phrases for greeting and saying goodbye.",
-    "ro": "Acest subiect acoperă expresii comune pentru salut și rămas bun.",
-    "de": "Dieses Thema behandelt gängige Ausdrücke zur Begrüßung und Verabschiedung.",
-    "ru": "Эта тема охватывает распространенные фразы для приветствия и прощания.",
-    "it": "Questo argomento copre le frasi comuni per salutare e congedarsi.",
-    "es": "Este tema cubre frases comunes para saludar y despedirse.",
-    "fr": "Ce sujet couvre les expressions courantes pour saluer et dire au revoir.",
-    "hu": "Ez a téma a köszöntésre és az elköszönésre vonatkozó gyakori kifejezéseket fedi le.",
-    "pt": "Este tópico cobre frases comuns para cumprimentar e dizer adeus."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ˈɡɹiːtɪŋz ənd ˈfɛəˌwɛlz/"
-    },
-    "ro": {
-      "ipa": "/saluˈtari ʃi despərˈtsiri/"
-    },
-    "de": {
-      "ipa": "/bəˈɡʁyːsʊŋən ʊnt fɛɐ̯ˈʔapʃiːdʊŋən/"
-    },
-    "ru": {
-      "ipa": "/prʲɪˈvʲetstvʲɪjə i prɐˈɕːanʲjə/"
-    },
-    "it": {
-      "ipa": "/saˈlu.ti e konˈd͡ʒɛ.di/"
-    },
-    "es": {
-      "ipa": "/saˈluðos i despeˈðiðas/"
-    },
-    "fr": {
-      "ipa": "/sa.ly.ta.sjɔ̃ e a.djø/"
-    },
-    "hu": {
-      "ipa": "/ˈydvøzleːʃeːk eːʃ ɛlkøsønøʃeːk/"
-    },
-    "pt": {
-      "ipa": "/sawˈðɐʃõjʃ i dɨʃpɨˈðiðɐʃ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11952,
-      "sha1": "d6bb0804c53689bf85986e2ad7fe4a3d20805127",
-      "key": "dictionary/CH01/CH01T01/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 15552,
-      "sha1": "5de4efe2e465653dc896ea98f9fe690639b8d434",
-      "key": "dictionary/CH01/CH01T01/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 19008,
-      "sha1": "c318e46b9bfb3e8a64b4ae4661e802bfc790870f",
-      "key": "dictionary/CH01/CH01T01/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 18288,
-      "sha1": "d3c2ad8a924b5413446475b2579e367844e9eece",
-      "key": "dictionary/CH01/CH01T01/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e5bdbca88c410f5627b5aaabcb76f08aab8821a1",
-      "key": "dictionary/CH01/CH01T01/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 15264,
-      "sha1": "1f76205d51107a7954cac4361923372eb16d3f02",
-      "key": "dictionary/CH01/CH01T01/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13968,
-      "sha1": "26d8a7acd6d8648efe7e52c80bff934d329bbad9",
-      "key": "dictionary/CH01/CH01T01/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 18720,
-      "sha1": "ab879083c1641717a9fd10d3a4e5807cf028035e",
-      "key": "dictionary/CH01/CH01T01/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 18288,
-      "sha1": "6479f2ae71363f8c1f9ef8eadd46342322478d25",
-      "key": "dictionary/CH01/CH01T01/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01",
   "tags": [
     "title#topic"
   ],
-  "metadata": {},
-  "entity_id": "CH01T01"
+  "locales": {
+    "en": {
+      "name": "Greetings & farewells",
+      "description": "This topic covers common phrases for greeting and saying goodbye.",
+      "ipa": "/ˈɡɹiːtɪŋz ənd ˈfɛəˌwɛlz/"
+    },
+    "ro": {
+      "name": "Salutări și despărțiri",
+      "description": "Acest subiect acoperă expresii comune pentru salut și rămas bun.",
+      "ipa": "/saluˈtari ʃi despərˈtsiri/"
+    },
+    "de": {
+      "name": "Begrüßungen & Verabschiedungen",
+      "description": "Dieses Thema behandelt gängige Ausdrücke zur Begrüßung und Verabschiedung.",
+      "ipa": "/bəˈɡʁyːsʊŋən ʊnt fɛɐ̯ˈʔapʃiːdʊŋən/"
+    },
+    "ru": {
+      "name": "Приветствия и прощания",
+      "description": "Эта тема охватывает распространенные фразы для приветствия и прощания.",
+      "ipa": "/prʲɪˈvʲetstvʲɪjə i prɐˈɕːanʲjə/"
+    },
+    "it": {
+      "name": "Saluti e congedi",
+      "description": "Questo argomento copre le frasi comuni per salutare e congedarsi.",
+      "ipa": "/saˈlu.ti e konˈd͡ʒɛ.di/"
+    },
+    "es": {
+      "name": "Saludos y despedidas",
+      "description": "Este tema cubre frases comunes para saludar y despedirse.",
+      "ipa": "/saˈluðos i despeˈðiðas/"
+    },
+    "fr": {
+      "name": "Salutations et adieux",
+      "description": "Ce sujet couvre les expressions courantes pour saluer et dire au revoir.",
+      "ipa": "/sa.ly.ta.sjɔ̃ e a.djø/"
+    },
+    "hu": {
+      "name": "Üdvözlések és elköszönések",
+      "description": "Ez a téma a köszöntésre és az elköszönésre vonatkozó gyakori kifejezéseket fedi le.",
+      "ipa": "/ˈydvøzleːʃeːk eːʃ ɛlkøsønøʃeːk/"
+    },
+    "pt": {
+      "name": "Saudações e despedidas",
+      "description": "Este tópico cobre frases comuns para cumprimentar e dizer adeus.",
+      "ipa": "/sawˈðɐʃõjʃ i dɨʃpɨˈðiðɐʃ/"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11952,
+      "sha1": "d6bb0804c53689bf85986e2ad7fe4a3d20805127"
+    },
+    "sound/ro.mp3": {
+      "bytes": 15552,
+      "sha1": "5de4efe2e465653dc896ea98f9fe690639b8d434"
+    },
+    "sound/de.mp3": {
+      "bytes": 19008,
+      "sha1": "c318e46b9bfb3e8a64b4ae4661e802bfc790870f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18288,
+      "sha1": "d3c2ad8a924b5413446475b2579e367844e9eece"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "e5bdbca88c410f5627b5aaabcb76f08aab8821a1"
+    },
+    "sound/es.mp3": {
+      "bytes": 15264,
+      "sha1": "1f76205d51107a7954cac4361923372eb16d3f02"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13968,
+      "sha1": "26d8a7acd6d8648efe7e52c80bff934d329bbad9"
+    },
+    "sound/hu.mp3": {
+      "bytes": 18720,
+      "sha1": "ab879083c1641717a9fd10d3a4e5807cf028035e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18288,
+      "sha1": "6479f2ae71363f8c1f9ef8eadd46342322478d25"
+    }
+  }
 }

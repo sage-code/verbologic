@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T07",
   "kind": "word",
-  "names": {
-    "en": "leave",
-    "ro": "concediu",
-    "de": "Urlaub",
-    "ru": "отпуск",
-    "it": "congedo",
-    "es": "permiso",
-    "fr": "congé",
-    "hu": "szabadság",
-    "pt": "licença"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/konˈtʃediu/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "51f8652e3fc9299fd57149948621448ff94288bb",
-      "key": "dictionary/CH09/CH09T07/W699/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T07:W699",
+  "cefr": "C1",
   "tags": [
     "scaffold#C9T07"
   ],
-  "metadata": {},
-  "entity_id": "CH09T07:W699",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "leave"
+    },
+    "ro": {
+      "name": "concediu",
+      "ipa": "/konˈtʃediu/"
+    },
+    "de": {
+      "name": "Urlaub"
+    },
+    "ru": {
+      "name": "отпуск"
+    },
+    "it": {
+      "name": "congedo"
+    },
+    "es": {
+      "name": "permiso"
+    },
+    "fr": {
+      "name": "congé"
+    },
+    "hu": {
+      "name": "szabadság"
+    },
+    "pt": {
+      "name": "licença"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "51f8652e3fc9299fd57149948621448ff94288bb"
+    }
+  }
 }

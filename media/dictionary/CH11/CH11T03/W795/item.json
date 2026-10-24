@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T03",
   "kind": "word",
-  "names": {
-    "en": "for example",
-    "ro": "de exemplu",
-    "de": "zum Beispiel",
-    "ru": "например",
-    "it": "per esempio",
-    "es": "por ejemplo",
-    "fr": "par exemple",
-    "hu": "például",
-    "pt": "por exemplo"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/de eksˈemplu/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "39b4bd6c98a302f71a851d2665371288ff5a074e",
-      "key": "dictionary/CH11/CH11T03/W795/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T03:W795",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T03"
   ],
-  "metadata": {},
-  "entity_id": "CH11T03:W795",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "for example"
+    },
+    "ro": {
+      "name": "de exemplu",
+      "ipa": "/de eksˈemplu/"
+    },
+    "de": {
+      "name": "zum Beispiel"
+    },
+    "ru": {
+      "name": "например"
+    },
+    "it": {
+      "name": "per esempio"
+    },
+    "es": {
+      "name": "por ejemplo"
+    },
+    "fr": {
+      "name": "par exemple"
+    },
+    "hu": {
+      "name": "például"
+    },
+    "pt": {
+      "name": "por exemplo"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "39b4bd6c98a302f71a851d2665371288ff5a074e"
+    }
+  }
 }

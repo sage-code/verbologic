@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "sun",
-    "ro": "soare",
-    "de": "Sonne",
-    "ru": "солнце",
-    "it": "sole",
-    "es": "sol",
-    "fr": "soleil",
-    "hu": "nap",
-    "pt": "sol"
-  },
-  "description": {
-    "en": "The sun is the star at the center of our solar system.",
-    "ro": "Soarele este steaua din centrul sistemului nostru solar.",
-    "de": "Die Sonne ist der Stern im Zentrum unseres Sonnensystems.",
-    "ru": "Солнце — это звезда в центре нашей Солнечной системы.",
-    "it": "Il sole è la stella al centro del nostro sistema solare.",
-    "es": "El sol es la estrella en el centro de nuestro sistema solar.",
-    "fr": "Le soleil est l'étoile au centre de notre système solaire.",
-    "hu": "A Nap a naprendszerünk középpontjában álló csillag.",
-    "pt": "O sol é a estrela no centro do nosso sistema solar."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/s/"
-    },
-    "ro": {
-      "ipa": "/ˈso̯a.re/"
-    },
-    "de": {
-      "ipa": "/ˈzɔnə/"
-    },
-    "ru": {
-      "ipa": "/ˈsont͡sɨ/"
-    },
-    "it": {
-      "ipa": "/ˈso.le/"
-    },
-    "es": {
-      "ipa": "/ˈsol/"
-    },
-    "fr": {
-      "ipa": "/sɔ.lɛj/"
-    },
-    "hu": {
-      "ipa": "/nɒp/"
-    },
-    "pt": {
-      "ipa": "/ˈsɔɫ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "deca7371f2a3528296a513cbb98c3ce2beacb6ea",
-      "key": "dictionary/CH01/CH01T01/W055/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "f419825234d8a003d2fe5aa81d6dcf6767bbc526",
-      "key": "dictionary/CH01/CH01T01/W055/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9a3017df0b21c34d4a43894597198f324bd9a95d",
-      "key": "dictionary/CH01/CH01T01/W055/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3d44e0171a47716c407f503fcf6ed73d61280c47",
-      "key": "dictionary/CH01/CH01T01/W055/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "cf6b9864e213aad1f125142c6d79d2bdb1ec2383",
-      "key": "dictionary/CH01/CH01T01/W055/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "f62fabfbff11fb80f5e68cc5d5af987dec006192",
-      "key": "dictionary/CH01/CH01T01/W055/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "94bb800ec2c5f10d13705f0c91d60da096adf617",
-      "key": "dictionary/CH01/CH01T01/W055/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "cbe68c3d0ae0bb386f093536e1102b5997debdc6",
-      "key": "dictionary/CH01/CH01T01/W055/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "de0ca0e220035b922d1ce136c47a591d98ee7efd",
-      "key": "dictionary/CH01/CH01T01/W055/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W055",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "sunet surd",
-      "example": "sun"
+      "name": "sun",
+      "description": "The sun is the star at the center of our solar system.",
+      "ipa": "/s/",
+      "example": "sun",
+      "context": "sunet surd"
+    },
+    "ro": {
+      "name": "soare",
+      "description": "Soarele este steaua din centrul sistemului nostru solar.",
+      "ipa": "/ˈso̯a.re/"
+    },
+    "de": {
+      "name": "Sonne",
+      "description": "Die Sonne ist der Stern im Zentrum unseres Sonnensystems.",
+      "ipa": "/ˈzɔnə/"
+    },
+    "ru": {
+      "name": "солнце",
+      "description": "Солнце — это звезда в центре нашей Солнечной системы.",
+      "ipa": "/ˈsont͡sɨ/"
+    },
+    "it": {
+      "name": "sole",
+      "description": "Il sole è la stella al centro del nostro sistema solare.",
+      "ipa": "/ˈso.le/"
+    },
+    "es": {
+      "name": "sol",
+      "description": "El sol es la estrella en el centro de nuestro sistema solar.",
+      "ipa": "/ˈsol/"
+    },
+    "fr": {
+      "name": "soleil",
+      "description": "Le soleil est l'étoile au centre de notre système solaire.",
+      "ipa": "/sɔ.lɛj/"
+    },
+    "hu": {
+      "name": "nap",
+      "description": "A Nap a naprendszerünk középpontjában álló csillag.",
+      "ipa": "/nɒp/"
+    },
+    "pt": {
+      "name": "sol",
+      "description": "O sol é a estrela no centro do nosso sistema solar.",
+      "ipa": "/ˈsɔɫ/"
     }
   },
-  "entity_id": "CH01T01:W055",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "deca7371f2a3528296a513cbb98c3ce2beacb6ea"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "f419825234d8a003d2fe5aa81d6dcf6767bbc526"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "9a3017df0b21c34d4a43894597198f324bd9a95d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "3d44e0171a47716c407f503fcf6ed73d61280c47"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "cf6b9864e213aad1f125142c6d79d2bdb1ec2383"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "f62fabfbff11fb80f5e68cc5d5af987dec006192"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "94bb800ec2c5f10d13705f0c91d60da096adf617"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "cbe68c3d0ae0bb386f093536e1102b5997debdc6"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "de0ca0e220035b922d1ce136c47a591d98ee7efd"
+    }
+  }
 }

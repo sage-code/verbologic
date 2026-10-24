@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T12",
   "kind": "letter",
-  "names": {
-    "en": "E",
-    "ro": "E",
-    "de": "E",
-    "ru": "E",
-    "it": "E",
-    "es": "E",
-    "fr": "E",
-    "hu": "E",
-    "pt": "E"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": "Letter name: e. Example: escuela.",
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": {
-      "ipa": "/e/"
-    },
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b1fe9fdfd96faf41be85c0c218d135c6970a6d2e"
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T12:L435",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "E"
+    },
+    "ro": {
+      "name": "E"
+    },
+    "de": {
+      "name": "E"
+    },
+    "ru": {
+      "name": "E"
+    },
+    "it": {
+      "name": "E"
+    },
     "es": {
-      "context": "e",
-      "example": "escuela"
+      "name": "E",
+      "description": "Letter name: e. Example: escuela.",
+      "ipa": "/e/",
+      "example": "escuela",
+      "context": "e"
+    },
+    "fr": {
+      "name": "E"
+    },
+    "hu": {
+      "name": "E"
+    },
+    "pt": {
+      "name": "E"
     }
   },
-  "entity_id": "LT01T12:L435",
-  "cefr": "A1"
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "b1fe9fdfd96faf41be85c0c218d135c6970a6d2e"
+    }
+  }
 }

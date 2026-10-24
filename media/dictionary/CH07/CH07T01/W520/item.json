@@ -4,111 +4,45 @@
   "chapter": "CH07",
   "topic": "CH07T01",
   "kind": "word",
-  "names": {
-    "en": "shy",
-    "ro": "timid",
-    "de": "schüchtern",
-    "ru": "застенчивый",
-    "it": "timido",
-    "es": "tímido",
-    "fr": "timide",
-    "hu": "félénk",
-    "pt": "tímido"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/tiˈmid/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "91e9b172dbdb98ccd3affc38c20631d6710775a4",
-      "key": "dictionary/CH07/CH07T01/W520/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH07T01:W520",
+  "cefr": "B2",
   "tags": [
     "scaffold#C7T01"
   ],
-  "metadata": {},
-  "entity_id": "CH07T01:W520",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "shy"
+    },
+    "ro": {
+      "name": "timid",
+      "ipa": "/tiˈmid/"
+    },
+    "de": {
+      "name": "schüchtern"
+    },
+    "ru": {
+      "name": "застенчивый"
+    },
+    "it": {
+      "name": "timido"
+    },
+    "es": {
+      "name": "tímido"
+    },
+    "fr": {
+      "name": "timide"
+    },
+    "hu": {
+      "name": "félénk"
+    },
+    "pt": {
+      "name": "tímido"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "91e9b172dbdb98ccd3affc38c20631d6710775a4"
+    }
+  }
 }

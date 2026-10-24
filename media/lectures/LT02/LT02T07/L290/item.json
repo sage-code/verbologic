@@ -4,109 +4,23 @@
   "chapter": "LT02",
   "topic": "LT02T07",
   "kind": "imperative",
-  "names": {
-    "en": "Call the client.",
-    "ro": "Sună clientul.",
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12240,
-      "sha1": "a5d04bf960289e6b9a085c027bae40c744c14f4f",
-      "key": "lectures/LT02/LT02T07/L290/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT02T07:L290",
+  "cefr": "A2",
   "tags": [
     "imperative#office-actions"
   ],
-  "metadata": {},
-  "entity_id": "LT02T07:L290",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "Call the client."
+    },
+    "ro": {
+      "name": "Sună clientul."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12240,
+      "sha1": "a5d04bf960289e6b9a085c027bae40c744c14f4f"
+    }
+  }
 }

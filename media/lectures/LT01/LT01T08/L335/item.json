@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "cl",
-    "ro": "cl in clock (ceas)",
-    "de": "cl in clock (Uhr)",
-    "ru": "cl in clock (часы)",
-    "it": "cl in clock (orologio)",
-    "es": "cl in clock (reloj)",
-    "fr": "cl in clock (horloge)",
-    "hu": "cl in clock (óra)",
-    "pt": "cl in clock (relógio)"
-  },
-  "description": {
-    "en": "This is the letter L335 from the alphabet vowel-consonant groups.",
-    "ro": "Aceasta este litera L335 din grupurile de vocale și consoane ale alfabetului.",
-    "de": "Dies ist der Buchstabe L335 aus den Vokal-Konsonant-Gruppen des Alphabets.",
-    "ru": "Это буква L335 из групп гласных и согласных алфавита.",
-    "it": "Questa è la lettera L335 dei gruppi vocali-consonanti dell'alfabeto.",
-    "es": "Esta es la letra L335 de los grupos de vocales y consonantes del alfabeto.",
-    "fr": "Ceci est la lettre L335 des groupes voyelles-consonnes de l'alphabet.",
-    "hu": "Ez az L335 betű az ábécé magánhangzó-mássalhangzó csoportjaiból.",
-    "pt": "Esta é a letra L335 dos grupos de vogais e consoantes do alfabeto."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/kl/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 5184,
-      "sha1": "84334808c549ec0a1ed3fd04160a15d0311feb2a",
-      "key": "lectures/LT01/LT01T08/L335/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L335",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L335",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "cl",
+      "description": "This is the letter L335 from the alphabet vowel-consonant groups.",
+      "ipa": "/kl/"
+    },
+    "ro": {
+      "name": "cl in clock (ceas)",
+      "description": "Aceasta este litera L335 din grupurile de vocale și consoane ale alfabetului."
+    },
+    "de": {
+      "name": "cl in clock (Uhr)",
+      "description": "Dies ist der Buchstabe L335 aus den Vokal-Konsonant-Gruppen des Alphabets."
+    },
+    "ru": {
+      "name": "cl in clock (часы)",
+      "description": "Это буква L335 из групп гласных и согласных алфавита."
+    },
+    "it": {
+      "name": "cl in clock (orologio)",
+      "description": "Questa è la lettera L335 dei gruppi vocali-consonanti dell'alfabeto."
+    },
+    "es": {
+      "name": "cl in clock (reloj)",
+      "description": "Esta es la letra L335 de los grupos de vocales y consonantes del alfabeto."
+    },
+    "fr": {
+      "name": "cl in clock (horloge)",
+      "description": "Ceci est la lettre L335 des groupes voyelles-consonnes de l'alphabet."
+    },
+    "hu": {
+      "name": "cl in clock (óra)",
+      "description": "Ez az L335 betű az ábécé magánhangzó-mássalhangzó csoportjaiból."
+    },
+    "pt": {
+      "name": "cl in clock (relógio)",
+      "description": "Esta é a letra L335 dos grupos de vogais e consoantes do alfabeto."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 5184,
+      "sha1": "84334808c549ec0a1ed3fd04160a15d0311feb2a"
+    }
+  }
 }

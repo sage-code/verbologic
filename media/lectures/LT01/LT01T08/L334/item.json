@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "br",
-    "ro": "br in bread (pâine)",
-    "de": "br in bread (Brot)",
-    "ru": "br in bread (хлеб)",
-    "it": "br in bread (pane)",
-    "es": "br in bread (pan)",
-    "fr": "br in bread (pain)",
-    "hu": "br in bread (kenyér)",
-    "pt": "br in bread (pão)"
-  },
-  "description": {
-    "en": "This is the letter L334 from the alphabet vowel-consonant groups.",
-    "ro": "Aceasta este litera L334 din grupurile de vocale și consoane ale alfabetului.",
-    "de": "Dies ist der Buchstabe L334 aus den Vokal-Konsonant-Gruppen des Alphabets.",
-    "ru": "Это буква L334 из групп гласных и согласных алфавита.",
-    "it": "Questa è la lettera L334 dei gruppi vocali-consonanti dell'alfabeto.",
-    "es": "Esta es la letra L334 de los grupos de vocales y consonantes del alfabeto.",
-    "fr": "Ceci est la lettre L334 des groupes voyelles-consonnes de l'alphabet.",
-    "hu": "Ez az L334 betű az ábécé magánhangzó-mássalhangzó csoportjaiból.",
-    "pt": "Esta é a letra L334 dos grupos de vogais e consoantes do alfabeto."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/br/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 5040,
-      "sha1": "a1f12ea3be310d5eca159cfd069118d1f7efa88d",
-      "key": "lectures/LT01/LT01T08/L334/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L334",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L334",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "br",
+      "description": "This is the letter L334 from the alphabet vowel-consonant groups.",
+      "ipa": "/br/"
+    },
+    "ro": {
+      "name": "br in bread (pâine)",
+      "description": "Aceasta este litera L334 din grupurile de vocale și consoane ale alfabetului."
+    },
+    "de": {
+      "name": "br in bread (Brot)",
+      "description": "Dies ist der Buchstabe L334 aus den Vokal-Konsonant-Gruppen des Alphabets."
+    },
+    "ru": {
+      "name": "br in bread (хлеб)",
+      "description": "Это буква L334 из групп гласных и согласных алфавита."
+    },
+    "it": {
+      "name": "br in bread (pane)",
+      "description": "Questa è la lettera L334 dei gruppi vocali-consonanti dell'alfabeto."
+    },
+    "es": {
+      "name": "br in bread (pan)",
+      "description": "Esta es la letra L334 de los grupos de vocales y consonantes del alfabeto."
+    },
+    "fr": {
+      "name": "br in bread (pain)",
+      "description": "Ceci est la lettre L334 des groupes voyelles-consonnes de l'alphabet."
+    },
+    "hu": {
+      "name": "br in bread (kenyér)",
+      "description": "Ez az L334 betű az ábécé magánhangzó-mássalhangzó csoportjaiból."
+    },
+    "pt": {
+      "name": "br in bread (pão)",
+      "description": "Esta é a letra L334 dos grupos de vogais e consoantes do alfabeto."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "a1f12ea3be310d5eca159cfd069118d1f7efa88d"
+    }
+  }
 }

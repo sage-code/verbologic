@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "city",
-    "ro": "oraș",
-    "de": "Stadt",
-    "ru": "город",
-    "it": "città",
-    "es": "ciudad",
-    "fr": "ville",
-    "hu": "város",
-    "pt": "cidade"
-  },
-  "description": {
-    "en": "A city is a large and permanent human settlement.",
-    "ro": "Un oraș este o așezare umană mare și permanentă.",
-    "de": "Eine Stadt ist eine große und dauerhafte menschliche Siedlung.",
-    "ru": "Город — это крупное и постоянное поселение людей.",
-    "it": "Una città è un insediamento umano grande e permanente.",
-    "es": "Una ciudad es un asentamiento humano grande y permanente.",
-    "fr": "Une ville est une grande agglomération humaine permanente.",
-    "hu": "A város egy nagy és állandó emberi település.",
-    "pt": "Uma cidade é um assentamento humano grande e permanente."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/s/"
-    },
-    "ro": {
-      "ipa": "/oˈraʃ/"
-    },
-    "de": {
-      "ipa": "/ʃtat/"
-    },
-    "ru": {
-      "ipa": "/ˈɡorət/"
-    },
-    "it": {
-      "ipa": "/t͡ʃitˈta/"
-    },
-    "es": {
-      "ipa": "/θjuˈðað/"
-    },
-    "fr": {
-      "ipa": "/vil/"
-    },
-    "hu": {
-      "ipa": "/ˈvaːroʃ/"
-    },
-    "pt": {
-      "ipa": "/siˈðaðɨ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "57e87e18ad533dcb8ca0e671401e3f02a9c35abf",
-      "key": "dictionary/CH01/CH01T01/W014/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "280c4d5602083c63d3e6a5c28b578f322fd44787",
-      "key": "dictionary/CH01/CH01T01/W014/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3e094287c42ab7da9ee33a381a0fbd5be13451e5",
-      "key": "dictionary/CH01/CH01T01/W014/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "189f6f432d785d9dbb7f7d08315f2a2b876c20d1",
-      "key": "dictionary/CH01/CH01T01/W014/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b41ea2273502038945460ac18a48cae09373ebe8",
-      "key": "dictionary/CH01/CH01T01/W014/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "dcf32c8acdfb7baee98ee11f2f8e23100fef8984",
-      "key": "dictionary/CH01/CH01T01/W014/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "29bb036157c8834e9862c34b9dcd97eab2970568",
-      "key": "dictionary/CH01/CH01T01/W014/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c7cf30e6dd14ca2e0f5bfcadb4dd822cd69cdefd",
-      "key": "dictionary/CH01/CH01T01/W014/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "57cd5e194252306adac7aaec68df744b2f546660",
-      "key": "dictionary/CH01/CH01T01/W014/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W014",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "soft c",
-      "example": "city"
+      "name": "city",
+      "description": "A city is a large and permanent human settlement.",
+      "ipa": "/s/",
+      "example": "city",
+      "context": "soft c"
+    },
+    "ro": {
+      "name": "oraș",
+      "description": "Un oraș este o așezare umană mare și permanentă.",
+      "ipa": "/oˈraʃ/"
+    },
+    "de": {
+      "name": "Stadt",
+      "description": "Eine Stadt ist eine große und dauerhafte menschliche Siedlung.",
+      "ipa": "/ʃtat/"
+    },
+    "ru": {
+      "name": "город",
+      "description": "Город — это крупное и постоянное поселение людей.",
+      "ipa": "/ˈɡorət/"
+    },
+    "it": {
+      "name": "città",
+      "description": "Una città è un insediamento umano grande e permanente.",
+      "ipa": "/t͡ʃitˈta/"
+    },
+    "es": {
+      "name": "ciudad",
+      "description": "Una ciudad es un asentamiento humano grande y permanente.",
+      "ipa": "/θjuˈðað/"
+    },
+    "fr": {
+      "name": "ville",
+      "description": "Une ville est une grande agglomération humaine permanente.",
+      "ipa": "/vil/"
+    },
+    "hu": {
+      "name": "város",
+      "description": "A város egy nagy és állandó emberi település.",
+      "ipa": "/ˈvaːroʃ/"
+    },
+    "pt": {
+      "name": "cidade",
+      "description": "Uma cidade é um assentamento humano grande e permanente.",
+      "ipa": "/siˈðaðɨ/"
     }
   },
-  "entity_id": "CH01T01:W014",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "57e87e18ad533dcb8ca0e671401e3f02a9c35abf"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "280c4d5602083c63d3e6a5c28b578f322fd44787"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "3e094287c42ab7da9ee33a381a0fbd5be13451e5"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "189f6f432d785d9dbb7f7d08315f2a2b876c20d1"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "b41ea2273502038945460ac18a48cae09373ebe8"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "dcf32c8acdfb7baee98ee11f2f8e23100fef8984"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "29bb036157c8834e9862c34b9dcd97eab2970568"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "c7cf30e6dd14ca2e0f5bfcadb4dd822cd69cdefd"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "57cd5e194252306adac7aaec68df744b2f546660"
+    }
+  }
 }

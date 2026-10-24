@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T04",
   "kind": "word",
-  "names": {
-    "en": "influence",
-    "ro": "influență",
-    "de": "Einfluss",
-    "ru": "влияние",
-    "it": "influenza",
-    "es": "influencia",
-    "fr": "influence",
-    "hu": "befolyás",
-    "pt": "influência"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/influˈentsə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "76829104ead718bc4ed80574cd30a7acf6b27620",
-      "key": "dictionary/CH11/CH11T04/W805/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T04:W805",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T04"
   ],
-  "metadata": {},
-  "entity_id": "CH11T04:W805",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "influence"
+    },
+    "ro": {
+      "name": "influență",
+      "ipa": "/influˈentsə/"
+    },
+    "de": {
+      "name": "Einfluss"
+    },
+    "ru": {
+      "name": "влияние"
+    },
+    "it": {
+      "name": "influenza"
+    },
+    "es": {
+      "name": "influencia"
+    },
+    "fr": {
+      "name": "influence"
+    },
+    "hu": {
+      "name": "befolyás"
+    },
+    "pt": {
+      "name": "influência"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "76829104ead718bc4ed80574cd30a7acf6b27620"
+    }
+  }
 }

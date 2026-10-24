@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T12",
   "kind": "letter",
-  "names": {
-    "en": "M",
-    "ro": "M",
-    "de": "M",
-    "ru": "M",
-    "it": "M",
-    "es": "M",
-    "fr": "M",
-    "hu": "M",
-    "pt": "M"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": "Letter name: eme. Example: mano.",
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": {
-      "ipa": "/ˈeme/"
-    },
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d1455ebe67337db15f6b70e26abe61ca12a8b18f"
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T12:L443",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "M"
+    },
+    "ro": {
+      "name": "M"
+    },
+    "de": {
+      "name": "M"
+    },
+    "ru": {
+      "name": "M"
+    },
+    "it": {
+      "name": "M"
+    },
     "es": {
-      "context": "eme",
-      "example": "mano"
+      "name": "M",
+      "description": "Letter name: eme. Example: mano.",
+      "ipa": "/ˈeme/",
+      "example": "mano",
+      "context": "eme"
+    },
+    "fr": {
+      "name": "M"
+    },
+    "hu": {
+      "name": "M"
+    },
+    "pt": {
+      "name": "M"
     }
   },
-  "entity_id": "LT01T12:L443",
-  "cefr": "A1"
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "d1455ebe67337db15f6b70e26abe61ca12a8b18f"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T14",
   "kind": "letter",
-  "names": {
-    "en": "Dzs",
-    "ro": "Dzs",
-    "de": "Dzs",
-    "ru": "Dzs",
-    "it": "Dzs",
-    "es": "Dzs",
-    "fr": "Dzs",
-    "hu": "Dzs",
-    "pt": "Dzs"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": "Letter name: dzsé. Example: dzsem.",
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": {
-      "ipa": "/dʒeː/"
-    },
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "40a92b94910b6a73f9ed36a450f4c3aaacfcaeb3"
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T14:L491",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Dzs"
+    },
+    "ro": {
+      "name": "Dzs"
+    },
+    "de": {
+      "name": "Dzs"
+    },
+    "ru": {
+      "name": "Dzs"
+    },
+    "it": {
+      "name": "Dzs"
+    },
+    "es": {
+      "name": "Dzs"
+    },
+    "fr": {
+      "name": "Dzs"
+    },
     "hu": {
-      "context": "dzsé",
-      "example": "dzsem"
+      "name": "Dzs",
+      "description": "Letter name: dzsé. Example: dzsem.",
+      "ipa": "/dʒeː/",
+      "example": "dzsem",
+      "context": "dzsé"
+    },
+    "pt": {
+      "name": "Dzs"
     }
   },
-  "entity_id": "LT01T14:L491",
-  "cefr": "A1"
+  "files": {
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "40a92b94910b6a73f9ed36a450f4c3aaacfcaeb3"
+    }
+  }
 }

@@ -4,113 +4,21 @@
   "chapter": "LT04",
   "topic": "LT04T02",
   "kind": "greeting",
-  "names": {
-    "en": null,
-    "ro": "Să ne vedem sănătoși",
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 14400,
-      "sha1": "e2390663caf3d1691b849c4a23bedfe1424bce83",
-      "key": "lectures/LT04/LT04T02/L315/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT04T02:L315",
+  "cefr": "A1",
   "tags": [
     "greetings#override:greetings"
   ],
-  "metadata": {
+  "locales": {
     "ro": {
+      "name": "Să ne vedem sănătoși",
       "context": "Affectionate wish, suitable when separation may be longer."
     }
   },
-  "entity_id": "LT04T02:L315",
-  "cefr": "A1"
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 14400,
+      "sha1": "e2390663caf3d1691b849c4a23bedfe1424bce83"
+    }
+  }
 }

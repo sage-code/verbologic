@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "bl",
-    "ro": "bl in blue (albastru)",
-    "de": "bl in blue (blau)",
-    "ru": "bl in blue (синий)",
-    "it": "bl in blue (blu)",
-    "es": "bl in blue (azul)",
-    "fr": "bl in blue (bleu)",
-    "hu": "bl in blue (kék)",
-    "pt": "bl in blue (azul)"
-  },
-  "description": {
-    "en": "This is the letter L333 from the alphabet vowel-consonant groups.",
-    "ro": "Aceasta este litera L333 din grupurile de vocale și consoane ale alfabetului.",
-    "de": "Dies ist der Buchstabe L333 aus den Vokal-Konsonant-Gruppen des Alphabets.",
-    "ru": "Это буква L333 из групп гласных и согласных алфавита.",
-    "it": "Questa è la lettera L333 dei gruppi vocali-consonanti dell'alfabeto.",
-    "es": "Esta es la letra L333 de los grupos de vocales y consonantes del alfabeto.",
-    "fr": "Ceci est la lettre L333 des groupes voyelles-consonnes de l'alphabet.",
-    "hu": "Ez az L333 betű az ábécé magánhangzó-mássalhangzó csoportjaiból.",
-    "pt": "Esta é a letra L333 dos grupos de vogais e consoantes do alfabeto."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/bl/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4752,
-      "sha1": "c633eed88010785e8a3e46ce860e299a5759e5a9",
-      "key": "lectures/LT01/LT01T08/L333/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L333",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L333",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "bl",
+      "description": "This is the letter L333 from the alphabet vowel-consonant groups.",
+      "ipa": "/bl/"
+    },
+    "ro": {
+      "name": "bl in blue (albastru)",
+      "description": "Aceasta este litera L333 din grupurile de vocale și consoane ale alfabetului."
+    },
+    "de": {
+      "name": "bl in blue (blau)",
+      "description": "Dies ist der Buchstabe L333 aus den Vokal-Konsonant-Gruppen des Alphabets."
+    },
+    "ru": {
+      "name": "bl in blue (синий)",
+      "description": "Это буква L333 из групп гласных и согласных алфавита."
+    },
+    "it": {
+      "name": "bl in blue (blu)",
+      "description": "Questa è la lettera L333 dei gruppi vocali-consonanti dell'alfabeto."
+    },
+    "es": {
+      "name": "bl in blue (azul)",
+      "description": "Esta es la letra L333 de los grupos de vocales y consonantes del alfabeto."
+    },
+    "fr": {
+      "name": "bl in blue (bleu)",
+      "description": "Ceci est la lettre L333 des groupes voyelles-consonnes de l'alphabet."
+    },
+    "hu": {
+      "name": "bl in blue (kék)",
+      "description": "Ez az L333 betű az ábécé magánhangzó-mássalhangzó csoportjaiból."
+    },
+    "pt": {
+      "name": "bl in blue (azul)",
+      "description": "Esta é a letra L333 dos grupos de vogais e consoantes do alfabeto."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "c633eed88010785e8a3e46ce860e299a5759e5a9"
+    }
+  }
 }

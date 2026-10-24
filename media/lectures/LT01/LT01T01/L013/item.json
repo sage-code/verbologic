@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "J",
-    "ro": "J",
-    "de": "J",
-    "ru": "J",
-    "it": "J",
-    "es": "J",
-    "fr": "J",
-    "hu": "J",
-    "pt": "J"
-  },
-  "description": {
-    "en": "The letter J is the eleventh letter of the Romanian alphabet.",
-    "ro": "Litera J este a unsprezecea literă a alfabetului român.",
-    "de": "Der Buchstabe J ist der elfte Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква J — одиннадцатая буква румынского алфавита.",
-    "it": "La lettera J è l'undicesima lettera dell'alfabeto rumeno.",
-    "es": "La letra J es la undécima letra del alfabeto rumano.",
-    "fr": "La lettre J est la onzième lettre de l'alphabet roumain.",
-    "hu": "A J betű a román ábécé tizenegyedik betűje.",
-    "pt": "A letra J é a décima primeira letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ʒ/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7920,
-      "sha1": "54afd7b87b3748054c1798bd01643475c321290b",
-      "key": "lectures/LT01/LT01T01/L013/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L013",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L013",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "J",
+      "description": "The letter J is the eleventh letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "J",
+      "description": "Litera J este a unsprezecea literă a alfabetului român.",
+      "ipa": "/ʒ/"
+    },
+    "de": {
+      "name": "J",
+      "description": "Der Buchstabe J ist der elfte Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "J",
+      "description": "Буква J — одиннадцатая буква румынского алфавита."
+    },
+    "it": {
+      "name": "J",
+      "description": "La lettera J è l'undicesima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "J",
+      "description": "La letra J es la undécima letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "J",
+      "description": "La lettre J est la onzième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "J",
+      "description": "A J betű a román ábécé tizenegyedik betűje."
+    },
+    "pt": {
+      "name": "J",
+      "description": "A letra J é a décima primeira letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 7920,
+      "sha1": "54afd7b87b3748054c1798bd01643475c321290b"
+    }
+  }
 }

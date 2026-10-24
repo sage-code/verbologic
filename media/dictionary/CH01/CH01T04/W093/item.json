@@ -4,135 +4,94 @@
   "chapter": "CH01",
   "topic": "CH01T04",
   "kind": "word",
-  "names": {
-    "en": "yes",
-    "ro": "da",
-    "de": "Ja",
-    "ru": "Да",
-    "it": "sì",
-    "es": "sí",
-    "fr": "oui",
-    "hu": "Igen",
-    "pt": "Sim"
-  },
-  "description": {
-    "en": "An interrogative word used to ask for information about objects, actions, or ideas.",
-    "ro": "Un cuvânt interogativ folosit pentru a cere informații despre obiecte, acțiuni sau idei.",
-    "de": "Ein Fragewort, das verwendet wird, um nach Informationen über Objekte, Handlungen oder Ideen zu fragen.",
-    "ru": "Вопросительное слово, используемое для запроса информации об объектах, действиях или идеях.",
-    "it": "Una parola interrogativa usata per chiedere informazioni su oggetti, azioni o idee.",
-    "es": "Una palabra interrogativa utilizada para solicitar información sobre objetos, acciones o ideas.",
-    "fr": "Un mot interrogatif utilisé pour demander des informations sur des objets, des actions ou des idées.",
-    "hu": "Egy kérdőszó, amelyet tárgyakra, cselekvésekre vagy ötletekre vonatkozó információk kérésére használnak.",
-    "pt": "Uma palavra interrogativa usada para pedir informações sobre objetos, ações ou ideias."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/jɛs/"
-    },
-    "ro": {
-      "ipa": "/da/"
-    },
-    "de": {
-      "ipa": "/jaː/"
-    },
-    "ru": {
-      "ipa": "/da/"
-    },
-    "it": {
-      "ipa": "/si/"
-    },
-    "es": {
-      "ipa": "/si/"
-    },
-    "fr": {
-      "ipa": "/wi/"
-    },
-    "hu": {
-      "ipa": "/ˈiɡɛn/"
-    },
-    "pt": {
-      "ipa": "/sĩ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 5184,
-      "sha1": "e2e9a1dda28a0a508011540f17f43c08ce1a77c2",
-      "key": "dictionary/CH01/CH01T04/W093/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "d3644efe37d044366b83a65c5870ec3a6cc8107b",
-      "key": "dictionary/CH01/CH01T04/W093/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a5a92bad5e0ade7385833eb4ca09c468173d8958",
-      "key": "dictionary/CH01/CH01T04/W093/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1cc35d82929610ef442d4f91bdd5346f2c7ecaab",
-      "key": "dictionary/CH01/CH01T04/W093/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "46e79234266fafbe58cf43d64ea96e5afe7c802f",
-      "key": "dictionary/CH01/CH01T04/W093/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ca1b3ca3f9f253efa6a24c907043fb95e1c38a90",
-      "key": "dictionary/CH01/CH01T04/W093/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2005bdcdc73b15dc4ae2a836af9e94c2ccabf60f",
-      "key": "dictionary/CH01/CH01T04/W093/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "11eb8e3eb2d84411336da9a6a4104dab79374810",
-      "key": "dictionary/CH01/CH01T04/W093/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "5073d7944237f7cd339ce4c74a8701a1afc67d1c",
-      "key": "dictionary/CH01/CH01T04/W093/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T04:W093",
+  "cefr": "A1",
   "tags": [
     "vocabulary#override:vocabulary"
   ],
-  "metadata": {},
-  "entity_id": "CH01T04:W093",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "yes",
+      "description": "An interrogative word used to ask for information about objects, actions, or ideas.",
+      "ipa": "/jɛs/"
+    },
+    "ro": {
+      "name": "da",
+      "description": "Un cuvânt interogativ folosit pentru a cere informații despre obiecte, acțiuni sau idei.",
+      "ipa": "/da/"
+    },
+    "de": {
+      "name": "Ja",
+      "description": "Ein Fragewort, das verwendet wird, um nach Informationen über Objekte, Handlungen oder Ideen zu fragen.",
+      "ipa": "/jaː/"
+    },
+    "ru": {
+      "name": "Да",
+      "description": "Вопросительное слово, используемое для запроса информации об объектах, действиях или идеях.",
+      "ipa": "/da/"
+    },
+    "it": {
+      "name": "sì",
+      "description": "Una parola interrogativa usata per chiedere informazioni su oggetti, azioni o idee.",
+      "ipa": "/si/"
+    },
+    "es": {
+      "name": "sí",
+      "description": "Una palabra interrogativa utilizada para solicitar información sobre objetos, acciones o ideas.",
+      "ipa": "/si/"
+    },
+    "fr": {
+      "name": "oui",
+      "description": "Un mot interrogatif utilisé pour demander des informations sur des objets, des actions ou des idées.",
+      "ipa": "/wi/"
+    },
+    "hu": {
+      "name": "Igen",
+      "description": "Egy kérdőszó, amelyet tárgyakra, cselekvésekre vagy ötletekre vonatkozó információk kérésére használnak.",
+      "ipa": "/ˈiɡɛn/"
+    },
+    "pt": {
+      "name": "Sim",
+      "description": "Uma palavra interrogativa usada para pedir informações sobre objetos, ações ou ideias.",
+      "ipa": "/sĩ/"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 5184,
+      "sha1": "e2e9a1dda28a0a508011540f17f43c08ce1a77c2"
+    },
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "d3644efe37d044366b83a65c5870ec3a6cc8107b"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "a5a92bad5e0ade7385833eb4ca09c468173d8958"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "1cc35d82929610ef442d4f91bdd5346f2c7ecaab"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "46e79234266fafbe58cf43d64ea96e5afe7c802f"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "ca1b3ca3f9f253efa6a24c907043fb95e1c38a90"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "2005bdcdc73b15dc4ae2a836af9e94c2ccabf60f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "11eb8e3eb2d84411336da9a6a4104dab79374810"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "5073d7944237f7cd339ce4c74a8701a1afc67d1c"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH10",
   "topic": "CH10T04",
   "kind": "word",
-  "names": {
-    "en": "solar panel",
-    "ro": "panou solar",
-    "de": "Solarpanel",
-    "ru": "солнечная панель",
-    "it": "pannello solare",
-    "es": "panel solar",
-    "fr": "panneau solaire",
-    "hu": "napelem",
-    "pt": "painel solar"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/paˈnou soˈlar/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "303da35dbe70ffaf87dfe4ab37f1c6799b8aa79a",
-      "key": "dictionary/CH10/CH10T04/W739/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH10T04:W739",
+  "cefr": "C1",
   "tags": [
     "scaffold#C10T04"
   ],
-  "metadata": {},
-  "entity_id": "CH10T04:W739",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "solar panel"
+    },
+    "ro": {
+      "name": "panou solar",
+      "ipa": "/paˈnou soˈlar/"
+    },
+    "de": {
+      "name": "Solarpanel"
+    },
+    "ru": {
+      "name": "солнечная панель"
+    },
+    "it": {
+      "name": "pannello solare"
+    },
+    "es": {
+      "name": "panel solar"
+    },
+    "fr": {
+      "name": "panneau solaire"
+    },
+    "hu": {
+      "name": "napelem"
+    },
+    "pt": {
+      "name": "painel solar"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "303da35dbe70ffaf87dfe4ab37f1c6799b8aa79a"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T09",
   "kind": "letter",
-  "names": {
-    "en": "L",
-    "ro": "L",
-    "de": "L",
-    "ru": "L",
-    "it": "L",
-    "es": "L",
-    "fr": "L",
-    "hu": "L",
-    "pt": "L"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": "Letter name: El. Example: Lampe.",
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": {
-      "ipa": "/ɛl/"
-    },
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "94613d7fc0cf68d77a01604f008e2e7652253aa1"
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T09:L353",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "L"
+    },
+    "ro": {
+      "name": "L"
+    },
     "de": {
-      "context": "El",
-      "example": "Lampe"
+      "name": "L",
+      "description": "Letter name: El. Example: Lampe.",
+      "ipa": "/ɛl/",
+      "example": "Lampe",
+      "context": "El"
+    },
+    "ru": {
+      "name": "L"
+    },
+    "it": {
+      "name": "L"
+    },
+    "es": {
+      "name": "L"
+    },
+    "fr": {
+      "name": "L"
+    },
+    "hu": {
+      "name": "L"
+    },
+    "pt": {
+      "name": "L"
     }
   },
-  "entity_id": "LT01T09:L353",
-  "cefr": "A1"
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "94613d7fc0cf68d77a01604f008e2e7652253aa1"
+    }
+  }
 }

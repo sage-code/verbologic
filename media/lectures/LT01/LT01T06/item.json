@@ -4,97 +4,84 @@
   "chapter": "LT01",
   "topic": "LT01T06",
   "kind": "topic-title",
-  "names": {
-    "en": "Intonation, rhythm & punctuation",
-    "ro": "Intonație, ritm și punctuație",
-    "de": "Intonation, Rhythmus & Zeichensetzung",
-    "ru": "Интонация, ритм и пунктуация",
-    "it": "Intonazione, ritmo e punteggiatura",
-    "es": "Entonación, ritmo y puntuación",
-    "fr": "Intonation, rythme et ponctuation",
-    "hu": "Hanglejtés, ritmus és írásjelek",
-    "pt": "Entonação, ritmo e pontuação"
-  },
-  "description": {
-    "en": "This topic covers the sixth section of the first chapter.",
-    "ro": "Acest subiect acoperă a șasea secțiune a primului capitol.",
-    "de": "Dieses Thema behandelt den sechsten Abschnitt des ersten Kapitels.",
-    "ru": "Эта тема охватывает шестой раздел первой главы.",
-    "it": "Questo argomento copre la sesta sezione del primo capitolo.",
-    "es": "Este tema cubre la sexta sección del primer capítulo.",
-    "fr": "Ce sujet couvre la sixième section du premier chapitre.",
-    "hu": "Ez a téma az első fejezet hatodik szakaszát fedi le.",
-    "pt": "Este tópico cobre a sexta seção do primeiro capítulo."
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 17136,
-      "sha1": "abc6d60e90ffa57905caec8c24af4bc20ac5e3fb"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 20160,
-      "sha1": "86f667e52738c6eb7c4f9da8c0de1057b83b899c",
-      "key": "lectures/LT01/LT01T06/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 20880,
-      "sha1": "5dde2d5ee69ba058dfc224278d2b509096e536f7"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 21888,
-      "sha1": "1b05eba870bade4e4c8b6ba2ee739b56b5588580"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 22032,
-      "sha1": "29a61c0226db4d0080bc3971ec0f9ebde671d102"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 19296,
-      "sha1": "e4bbc5fff30442192eb67a84e9b047c5be994441"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 18144,
-      "sha1": "268bea56dccc26aa6e40601e2eda0cb5308a3e5e"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 19728,
-      "sha1": "90300d3d17f6e5d42e7260c96294f33ced7c485e"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 17280,
-      "sha1": "ec0bef37ecf67cdf1bad8fe846c67fae849c0f11"
-    }
-  },
+  "entity_id": "LT01T06",
   "tags": [
     "title#topic"
   ],
-  "metadata": {},
-  "entity_id": "LT01T06"
+  "locales": {
+    "en": {
+      "name": "Intonation, rhythm & punctuation",
+      "description": "This topic covers the sixth section of the first chapter."
+    },
+    "ro": {
+      "name": "Intonație, ritm și punctuație",
+      "description": "Acest subiect acoperă a șasea secțiune a primului capitol."
+    },
+    "de": {
+      "name": "Intonation, Rhythmus & Zeichensetzung",
+      "description": "Dieses Thema behandelt den sechsten Abschnitt des ersten Kapitels."
+    },
+    "ru": {
+      "name": "Интонация, ритм и пунктуация",
+      "description": "Эта тема охватывает шестой раздел первой главы."
+    },
+    "it": {
+      "name": "Intonazione, ritmo e punteggiatura",
+      "description": "Questo argomento copre la sesta sezione del primo capitolo."
+    },
+    "es": {
+      "name": "Entonación, ritmo y puntuación",
+      "description": "Este tema cubre la sexta sección del primer capítulo."
+    },
+    "fr": {
+      "name": "Intonation, rythme et ponctuation",
+      "description": "Ce sujet couvre la sixième section du premier chapitre."
+    },
+    "hu": {
+      "name": "Hanglejtés, ritmus és írásjelek",
+      "description": "Ez a téma az első fejezet hatodik szakaszát fedi le."
+    },
+    "pt": {
+      "name": "Entonação, ritmo e pontuação",
+      "description": "Este tópico cobre a sexta seção do primeiro capítulo."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 17136,
+      "sha1": "abc6d60e90ffa57905caec8c24af4bc20ac5e3fb"
+    },
+    "sound/ro.mp3": {
+      "bytes": 20160,
+      "sha1": "86f667e52738c6eb7c4f9da8c0de1057b83b899c"
+    },
+    "sound/de.mp3": {
+      "bytes": 20880,
+      "sha1": "5dde2d5ee69ba058dfc224278d2b509096e536f7"
+    },
+    "sound/ru.mp3": {
+      "bytes": 21888,
+      "sha1": "1b05eba870bade4e4c8b6ba2ee739b56b5588580"
+    },
+    "sound/it.mp3": {
+      "bytes": 22032,
+      "sha1": "29a61c0226db4d0080bc3971ec0f9ebde671d102"
+    },
+    "sound/es.mp3": {
+      "bytes": 19296,
+      "sha1": "e4bbc5fff30442192eb67a84e9b047c5be994441"
+    },
+    "sound/fr.mp3": {
+      "bytes": 18144,
+      "sha1": "268bea56dccc26aa6e40601e2eda0cb5308a3e5e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 19728,
+      "sha1": "90300d3d17f6e5d42e7260c96294f33ced7c485e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17280,
+      "sha1": "ec0bef37ecf67cdf1bad8fe846c67fae849c0f11"
+    }
+  }
 }

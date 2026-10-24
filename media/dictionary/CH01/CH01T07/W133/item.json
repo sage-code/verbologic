@@ -4,135 +4,94 @@
   "chapter": "CH01",
   "topic": "CH01T07",
   "kind": "word",
-  "names": {
-    "en": "husband",
-    "ro": "soț",
-    "de": "Ehemann",
-    "ru": "Муж",
-    "it": "marito",
-    "es": "esposo",
-    "fr": "mari",
-    "hu": "Férj",
-    "pt": "Marido"
-  },
-  "description": {
-    "en": "A tram stop is a location where trams stop to allow passengers to board or alight.",
-    "ro": "O stație de tramvai este o locație unde tramvaiele opresc pentru a permite pasagerilor să urce sau să coboare.",
-    "de": "Eine Straßenbahnhaltestelle ist ein Ort, an dem Straßenbahnen halten, damit Passagiere ein- oder aussteigen können.",
-    "ru": "Трамвайная остановка — это место, где трамваи останавливаются для посадки или высадки пассажиров.",
-    "it": "Una fermata del tram è un luogo in cui i tram si fermano per consentire ai passeggeri di salire o scendere.",
-    "es": "Una parada de tranvía es un lugar donde los tranvías se detienen para permitir que los pasajeros suban o bajen.",
-    "fr": "Un arrêt de tramway est un lieu où les tramways s'arrêtent pour permettre aux passagers de monter ou de descendre.",
-    "hu": "A villamosmegálló egy olyan hely, ahol a villamosok megállnak az utasok fel- és leszállásához.",
-    "pt": "Uma parada de bonde é um local onde os bondes param para permitir que os passageiros embarquem ou desembarquem."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ˈhʌzbənd/"
-    },
-    "ro": {
-      "ipa": "/sots/"
-    },
-    "de": {
-      "ipa": "/ˈeːəman/"
-    },
-    "ru": {
-      "ipa": "/muʂ/"
-    },
-    "it": {
-      "ipa": "/maˈrito/"
-    },
-    "es": {
-      "ipa": "/esˈposo/"
-    },
-    "fr": {
-      "ipa": "/maˈʁi/"
-    },
-    "hu": {
-      "ipa": "/feːrj/"
-    },
-    "pt": {
-      "ipa": "/mɐˈɾidu/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "41e6f18e97b01aa1f256b77223b44a68ab5cc62d",
-      "key": "dictionary/CH01/CH01T07/W133/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "d6abd23fce9f4d636a4259961c88f038ecbf8885",
-      "key": "dictionary/CH01/CH01T07/W133/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ab520bcac330bd2ac44077850a7c2218dc364e6b",
-      "key": "dictionary/CH01/CH01T07/W133/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "4b704f47aee2920e79031adc2c6c73bca490f189",
-      "key": "dictionary/CH01/CH01T07/W133/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "887a99e2d802e4e6d3aaa1ac7bf3ea4f43493665",
-      "key": "dictionary/CH01/CH01T07/W133/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c130d3474123a2ba8c38112f5ac15d28a01540f0",
-      "key": "dictionary/CH01/CH01T07/W133/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8c0c8115f5dfbfcfd861edb168618c62dccdb4f4",
-      "key": "dictionary/CH01/CH01T07/W133/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0153831962d3404192b0f71ba22018e91d6749f7",
-      "key": "dictionary/CH01/CH01T07/W133/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1df3e7b6d0cd6775299b5693557c508ca77b2a79",
-      "key": "dictionary/CH01/CH01T07/W133/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T07:W133",
+  "cefr": "A1",
   "tags": [
     "scaffold#C1T07"
   ],
-  "metadata": {},
-  "entity_id": "CH01T07:W133",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "husband",
+      "description": "A tram stop is a location where trams stop to allow passengers to board or alight.",
+      "ipa": "/ˈhʌzbənd/"
+    },
+    "ro": {
+      "name": "soț",
+      "description": "O stație de tramvai este o locație unde tramvaiele opresc pentru a permite pasagerilor să urce sau să coboare.",
+      "ipa": "/sots/"
+    },
+    "de": {
+      "name": "Ehemann",
+      "description": "Eine Straßenbahnhaltestelle ist ein Ort, an dem Straßenbahnen halten, damit Passagiere ein- oder aussteigen können.",
+      "ipa": "/ˈeːəman/"
+    },
+    "ru": {
+      "name": "Муж",
+      "description": "Трамвайная остановка — это место, где трамваи останавливаются для посадки или высадки пассажиров.",
+      "ipa": "/muʂ/"
+    },
+    "it": {
+      "name": "marito",
+      "description": "Una fermata del tram è un luogo in cui i tram si fermano per consentire ai passeggeri di salire o scendere.",
+      "ipa": "/maˈrito/"
+    },
+    "es": {
+      "name": "esposo",
+      "description": "Una parada de tranvía es un lugar donde los tranvías se detienen para permitir que los pasajeros suban o bajen.",
+      "ipa": "/esˈposo/"
+    },
+    "fr": {
+      "name": "mari",
+      "description": "Un arrêt de tramway est un lieu où les tramways s'arrêtent pour permettre aux passagers de monter ou de descendre.",
+      "ipa": "/maˈʁi/"
+    },
+    "hu": {
+      "name": "Férj",
+      "description": "A villamosmegálló egy olyan hely, ahol a villamosok megállnak az utasok fel- és leszállásához.",
+      "ipa": "/feːrj/"
+    },
+    "pt": {
+      "name": "Marido",
+      "description": "Uma parada de bonde é um local onde os bondes param para permitir que os passageiros embarquem ou desembarquem.",
+      "ipa": "/mɐˈɾidu/"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "41e6f18e97b01aa1f256b77223b44a68ab5cc62d"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "d6abd23fce9f4d636a4259961c88f038ecbf8885"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "ab520bcac330bd2ac44077850a7c2218dc364e6b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "4b704f47aee2920e79031adc2c6c73bca490f189"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "887a99e2d802e4e6d3aaa1ac7bf3ea4f43493665"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "c130d3474123a2ba8c38112f5ac15d28a01540f0"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "8c0c8115f5dfbfcfd861edb168618c62dccdb4f4"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "0153831962d3404192b0f71ba22018e91d6749f7"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "1df3e7b6d0cd6775299b5693557c508ca77b2a79"
+    }
+  }
 }

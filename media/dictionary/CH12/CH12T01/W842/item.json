@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T01",
   "kind": "word",
-  "names": {
-    "en": "to have one's head in the clouds",
-    "ro": "a fi cu capul în nori",
-    "de": "mit dem Kopf in den Wolken sein",
-    "ru": "витать в облаках",
-    "it": "avere la testa fra le nuvole",
-    "es": "tener la cabeza en las nubes",
-    "fr": "avoir la tête dans les nuages",
-    "hu": "a fellegekben járni",
-    "pt": "ter a cabeça nas nuvens"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/a fi ku ˈkapul ɨn nori/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13680,
-      "sha1": "6d3e29c38f2fb290e02ad2d368b48f2a872f73fc",
-      "key": "dictionary/CH12/CH12T01/W842/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T01:W842",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T01"
   ],
-  "metadata": {},
-  "entity_id": "CH12T01:W842",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "to have one's head in the clouds"
+    },
+    "ro": {
+      "name": "a fi cu capul în nori",
+      "ipa": "/a fi ku ˈkapul ɨn nori/"
+    },
+    "de": {
+      "name": "mit dem Kopf in den Wolken sein"
+    },
+    "ru": {
+      "name": "витать в облаках"
+    },
+    "it": {
+      "name": "avere la testa fra le nuvole"
+    },
+    "es": {
+      "name": "tener la cabeza en las nubes"
+    },
+    "fr": {
+      "name": "avoir la tête dans les nuages"
+    },
+    "hu": {
+      "name": "a fellegekben járni"
+    },
+    "pt": {
+      "name": "ter a cabeça nas nuvens"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 13680,
+      "sha1": "6d3e29c38f2fb290e02ad2d368b48f2a872f73fc"
+    }
+  }
 }

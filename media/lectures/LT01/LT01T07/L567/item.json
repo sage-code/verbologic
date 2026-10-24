@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "O",
-    "ro": "O",
-    "de": "O",
-    "ru": "O",
-    "it": "O",
-    "es": "O",
-    "fr": "O",
-    "hu": "O",
-    "pt": "O"
-  },
-  "description": {
-    "en": "Letter name: O. Example: open.",
-    "ro": "Numele literei: O. Exemplu: open.",
-    "de": "Buchstabenname: O. Beispiel: open.",
-    "ru": "Название буквы: O. Пример: open.",
-    "it": "Nome della lettera: O. Esempio: open.",
-    "es": "Nombre de la letra: O. Ejemplo: open.",
-    "fr": "Nom de la lettre : O. Exemple : open.",
-    "hu": "Betű neve: O. Példa: open.",
-    "pt": "Nome da letra: O. Exemplo: open."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/oʊ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 5040,
-      "sha1": "025bfc548fa5be931fc440cd7fc85c2dfc39a6e0"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L567",
+  "legacy_entity_id": "letter_o-2",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "O",
-      "example": "open"
+      "name": "O",
+      "description": "Letter name: O. Example: open.",
+      "ipa": "/oʊ/",
+      "example": "open",
+      "context": "O"
+    },
+    "ro": {
+      "name": "O",
+      "description": "Numele literei: O. Exemplu: open."
+    },
+    "de": {
+      "name": "O",
+      "description": "Buchstabenname: O. Beispiel: open."
+    },
+    "ru": {
+      "name": "O",
+      "description": "Название буквы: O. Пример: open."
+    },
+    "it": {
+      "name": "O",
+      "description": "Nome della lettera: O. Esempio: open."
+    },
+    "es": {
+      "name": "O",
+      "description": "Nombre de la letra: O. Ejemplo: open."
+    },
+    "fr": {
+      "name": "O",
+      "description": "Nom de la lettre : O. Exemple : open."
+    },
+    "hu": {
+      "name": "O",
+      "description": "Betű neve: O. Példa: open."
+    },
+    "pt": {
+      "name": "O",
+      "description": "Nome da letra: O. Exemplo: open."
     }
   },
-  "entity_id": "LT01T07:L567",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_o-2"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "025bfc548fa5be931fc440cd7fc85c2dfc39a6e0"
+    }
+  }
 }

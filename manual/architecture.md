@@ -273,8 +273,8 @@ data too, so the table's read button and the article route agree.
 run missing                                  # what is missing, per topic (temp/missing-content.md)
 # author a seed: [{ "term": "carte", "names": { "en": "book" } }, …]
 run scaffold ro C9T01 temp/seed-c9t01.json   # pending manifests + sidebar items → visible "coming soon" rows
-# drop the mp3s into media/audio/ro/C9T01/
-run media manifest                           # promotes pending → published (key/sha1/bytes)
+# drop the mp3s into media/dictionary/CH09/C9T01/<CODE>/sound/
+run media manifest                           # records bytes/sha1 in the manifest's `files`
 run media upload --apply                     # R2 sync
 run build                                    # rows go live
 ```
@@ -304,9 +304,9 @@ ARE committed. Sync to R2 with the differential uploader — `run media upload
 objects before you push).
 
 ```
-Local repo:   media/audio/ro/C3T02/word_carte.mp3 + word_carte.json (manifest: key/bytes/sha1)
-R2 Bucket:    verbologic-media/audio/ro/C3T02/word_carte.mp3
-Public URL:   https://media.verbologic.com/audio/ro/C3T02/word_carte.mp3
+Local repo:   media/dictionary/CH03/CH03T02/A034/sound/ro.mp3 + item.json (manifest: files → bytes/sha1)
+R2 Bucket:    verbologic/dictionary/CH03/CH03T02/A034/sound/ro.mp3
+Public URL:   https://media.verbologic.com/dictionary/CH03/CH03T02/A034/sound/ro.mp3
 ```
 
 ---

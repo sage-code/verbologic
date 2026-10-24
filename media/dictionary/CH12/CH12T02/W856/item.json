@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T02",
   "kind": "word",
-  "names": {
-    "en": "Kind words go a long way",
-    "ro": "Vorba dulce mult aduce",
-    "de": "Freundliche Worte öffnen Türen",
-    "ru": "Доброе слово и кошке приятно",
-    "it": "Le buone parole aprono le porte",
-    "es": "Buenas palabras abren puertas",
-    "fr": "Les bonnes paroles ouvrent bien des portes",
-    "hu": "A jó szó sokra megy",
-    "pt": "Palavra boa abre portas"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈvorba ˈdultʃe mult aˈdutʃe/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 15264,
-      "sha1": "d0c089636c9ca6952ccef5df7502f02c29597f5d",
-      "key": "dictionary/CH12/CH12T02/W856/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T02:W856",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T02"
   ],
-  "metadata": {},
-  "entity_id": "CH12T02:W856",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "Kind words go a long way"
+    },
+    "ro": {
+      "name": "Vorba dulce mult aduce",
+      "ipa": "/ˈvorba ˈdultʃe mult aˈdutʃe/"
+    },
+    "de": {
+      "name": "Freundliche Worte öffnen Türen"
+    },
+    "ru": {
+      "name": "Доброе слово и кошке приятно"
+    },
+    "it": {
+      "name": "Le buone parole aprono le porte"
+    },
+    "es": {
+      "name": "Buenas palabras abren puertas"
+    },
+    "fr": {
+      "name": "Les bonnes paroles ouvrent bien des portes"
+    },
+    "hu": {
+      "name": "A jó szó sokra megy"
+    },
+    "pt": {
+      "name": "Palavra boa abre portas"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 15264,
+      "sha1": "d0c089636c9ca6952ccef5df7502f02c29597f5d"
+    }
+  }
 }

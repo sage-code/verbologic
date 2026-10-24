@@ -14,11 +14,10 @@
  *  - ipa (optional) · kind via --kind (default 'word')
  *
  * What it does:
- *  - writes media/audio/<lang>/<TOPIC>/A0NN.json with status 'pending'
- *    (key/file/bytes/sha1 null — renders as "audio coming soon" until filled).
- *    The manifest `id` is a topic-scoped content code (A001, A002, …), shared
- *    by every target-language variant. The filename/audio key stays
- *    language-specific.
+ *  - writes media/dictionary/<CH>/<TOPIC>/<CODE>/item.json with no `files`
+ *    entry (renders as "audio coming soon" until a recording lands).
+ *    The manifest `code` is a topic-scoped content code (A001, A002, …), shared
+ *    by every target-language variant.
  *  - assigns a language-independent `<TOPIC>:<CODE>` entity_id
  *  - replaces a matching planned sidebar slug, or appends the new content code
  *  - never touches published manifests or existing items
@@ -29,7 +28,7 @@ import { fileURLToPath } from 'node:url'
 import { LOCALES } from './lib/locales.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
-const MEDIA_AUDIO = join(ROOT, 'media', 'audio')
+const MEDIA = join(ROOT, 'media')
 const SIDEBAR_FILE = join(ROOT, 'src', 'data', 'sidebars', 'library', 'dictionary', 'sidebar.json')
 
 /** ASCII-safe slug (diacritics stripped) — the extract-legacy convention. */
@@ -57,26 +56,23 @@ function fail(msg) {
   process.exit(1)
 }
 
-/** Next free A-code in a topic dir (A007.json, A008.json, … → 9), 1 if empty/missing. */
-function nextFileCode(dir) {
-  if (!existsSync(dir)) return 1
-  const nums = readdirSync(dir)
-    .map((f) => /^A(\d+)\.json$/.exec(f))
-    .filter(Boolean)
-    .map((m) => Number(m[1]))
-  return nums.length ? Math.max(...nums) + 1 : 1
+/** Every item.json under a topic folder (media/<track>/<CH>/<TOPIC>/<CODE>/item.json). */
+function topicManifests(topicDir) {
+  if (!existsSync(topicDir)) return []
+  const out = []
+  for (const entry of readdirSync(topicDir, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue
+    const file = join(topicDir, entry.name, 'item.json')
+    if (existsSync(file)) out.push(JSON.parse(readFileSync(file, 'utf8')))
+  }
+  return out
 }
 
-function nextContentCode(topic, topicEntry) {
+function nextContentCode(topic, topicEntry, chapterCode) {
   let highest = 0
-  for (const lang of existsSync(MEDIA_AUDIO) ? readdirSync(MEDIA_AUDIO) : []) {
-    const dir = join(MEDIA_AUDIO, lang, topic)
-    if (!existsSync(dir)) continue
-    for (const file of readdirSync(dir).filter((name) => name.endsWith('.json'))) {
-      const manifest = JSON.parse(readFileSync(join(dir, file), 'utf8'))
-      const match = /^A(\d{3,})(?:-\d+)?$/.exec(manifest.id ?? '')
-      if (match) highest = Math.max(highest, Number(match[1]))
-    }
+  for (const manifest of topicManifests(join(MEDIA, 'dictionary', chapterCode, topic))) {
+    const match = /^A(\d{3,})(?:-\d+)?$/.exec(manifest.code ?? '')
+    if (match) highest = Math.max(highest, Number(match[1]))
   }
   for (const id of topicEntry.items) {
     const match = /^A(\d{3,})(?:-\d+)?$/.exec(id)
@@ -112,26 +108,14 @@ function main() {
   const topicEntry = chapter?.topics.find((t) => t.code === topic)
   if (!topicEntry) fail(`unknown topic '${topic}'`)
 
-  const dir = join(MEDIA_AUDIO, lang, topic)
+  const dir = join(MEDIA, 'dictionary', chapter.code, topic)
   mkdirSync(dir, { recursive: true })
-  let fileCode = nextFileCode(dir)
-  let contentCode = nextContentCode(topic, topicEntry)
+  let contentCode = nextContentCode(topic, topicEntry, chapter.code)
   const existingCodes = new Map()
   const existingLanguageCodes = new Set()
-  for (const existingLang of existsSync(MEDIA_AUDIO) ? readdirSync(MEDIA_AUDIO) : []) {
-    const langDir = join(MEDIA_AUDIO, existingLang)
-    for (const existingTopic of readdirSync(langDir, { withFileTypes: true }).filter((entry) => entry.isDirectory())) {
-      const existingDir = join(langDir, existingTopic.name)
-      for (const file of readdirSync(existingDir).filter((name) => name.endsWith('.json'))) {
-        const manifest = JSON.parse(readFileSync(join(existingDir, file), 'utf8'))
-        if (existingTopic.name === topic && manifest.id && manifest.entity_id) {
-          existingCodes.set(manifest.id, `${topic}:${manifest.id}`)
-        }
-        if (existingLang === lang && existingTopic.name === topic && manifest.id) {
-          existingLanguageCodes.add(manifest.id)
-        }
-      }
-    }
+  for (const manifest of topicManifests(dir)) {
+    if (manifest.code && manifest.entity_id) existingCodes.set(manifest.code, manifest.entity_id)
+    if (manifest.code) existingLanguageCodes.add(manifest.code)
   }
   const created = []
   for (const row of seed) {
@@ -152,24 +136,29 @@ function main() {
     }
     const entityId = existingCodes.get(id) ?? `${topic}:${id}`
 
+    // One manifest per concept, carrying every locale's row. A new concept has
+    // no `files` entry — the UI renders it as "audio coming soon" until a
+    // recording lands and `media manifest` records its bytes/sha1.
+    const locales = {}
+    for (const locale of LOCALES) {
+      const name = locale === lang ? row.term : row.names?.[locale]
+      if (!name) continue
+      locales[locale] = { name }
+      if (locale === lang && row.ipa) locales[locale].ipa = row.ipa
+    }
     const manifest = {
-      id,
-      entity_id: entityId,
-      lang,
+      code: id,
+      track: 'dictionary',
+      chapter: chapter.code,
+      topic,
       kind,
-      term: row.term,
-      names: { ...(row.names ?? {}), [lang]: row.term },
-      ipa: row.ipa ?? null,
-      file: null,
-      key: null,
-      mime: 'audio/mpeg',
-      bytes: null,
-      sha1: null,
-      status: 'pending',
+      entity_id: entityId,
+      locales,
       tags: [`scaffold#${topic}`]
     }
-    const fileName = `A${String(fileCode++).padStart(3, '0')}.json`
-    writeFileSync(join(dir, fileName), JSON.stringify(manifest, null, 2) + '\n')
+    const itemDir = join(dir, id)
+    mkdirSync(itemDir, { recursive: true })
+    writeFileSync(join(itemDir, 'item.json'), JSON.stringify(manifest, null, 2) + '\n')
     existingCodes.set(id, entityId)
     created.push(`${id} (${entityId})`)
   }

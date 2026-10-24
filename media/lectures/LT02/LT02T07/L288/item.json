@@ -4,109 +4,23 @@
   "chapter": "LT02",
   "topic": "LT02T07",
   "kind": "imperative",
-  "names": {
-    "en": "Check the price.",
-    "ro": "Verifică prețul.",
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13248,
-      "sha1": "99595d01fc46a9f43d4c076a6f89f8d1e696e6b0",
-      "key": "lectures/LT02/LT02T07/L288/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT02T07:L288",
+  "cefr": "A2",
   "tags": [
     "imperative#shopping-commands"
   ],
-  "metadata": {},
-  "entity_id": "LT02T07:L288",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "Check the price."
+    },
+    "ro": {
+      "name": "Verifică prețul."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 13248,
+      "sha1": "99595d01fc46a9f43d4c076a6f89f8d1e696e6b0"
+    }
+  }
 }

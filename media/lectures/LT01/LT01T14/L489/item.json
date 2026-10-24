@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T14",
   "kind": "letter",
-  "names": {
-    "en": "D",
-    "ro": "D",
-    "de": "D",
-    "ru": "D",
-    "it": "D",
-    "es": "D",
-    "fr": "D",
-    "hu": "D",
-    "pt": "D"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": "Letter name: dé. Example: dob.",
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": {
-      "ipa": "/deː/"
-    },
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "6fd485d5b0b2532f53ea60f0c66a2076d344f12d"
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T14:L489",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "D"
+    },
+    "ro": {
+      "name": "D"
+    },
+    "de": {
+      "name": "D"
+    },
+    "ru": {
+      "name": "D"
+    },
+    "it": {
+      "name": "D"
+    },
+    "es": {
+      "name": "D"
+    },
+    "fr": {
+      "name": "D"
+    },
     "hu": {
-      "context": "dé",
-      "example": "dob"
+      "name": "D",
+      "description": "Letter name: dé. Example: dob.",
+      "ipa": "/deː/",
+      "example": "dob",
+      "context": "dé"
+    },
+    "pt": {
+      "name": "D"
     }
   },
-  "entity_id": "LT01T14:L489",
-  "cefr": "A1"
+  "files": {
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "6fd485d5b0b2532f53ea60f0c66a2076d344f12d"
+    }
+  }
 }

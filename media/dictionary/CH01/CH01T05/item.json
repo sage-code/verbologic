@@ -4,135 +4,94 @@
   "chapter": "CH01",
   "topic": "CH01T05",
   "kind": "topic-title",
-  "names": {
-    "en": "Numbers 0–100",
-    "ro": "Numere 0–100",
-    "de": "Zahlen 0–100",
-    "ru": "Числа 0–100",
-    "it": "Numeri 0–100",
-    "es": "Números 0–100",
-    "fr": "Nombres 0–100",
-    "hu": "Számok 0–100",
-    "pt": "Números 0–100"
-  },
-  "description": {
-    "en": "This topic covers the counting numbers from zero to one hundred.",
-    "ro": "Acest subiect acoperă numerele de la zero la o sută.",
-    "de": "Dieses Thema behandelt die Zählzahlen von null bis einhundert.",
-    "ru": "Эта тема охватывает числа от нуля до ста.",
-    "it": "Questo argomento copre i numeri da zero a cento.",
-    "es": "Este tema cubre los números del cero al cien.",
-    "fr": "Ce sujet couvre les nombres de zéro à cent.",
-    "hu": "Ez a téma a nullától százig terjedő számokat fedi le.",
-    "pt": "Este tópico cobre os números de zero a cem."
-  },
-  "pronunciation": {
+  "entity_id": "CH01T05",
+  "tags": [
+    "title#topic"
+  ],
+  "locales": {
     "en": {
+      "name": "Numbers 0–100",
+      "description": "This topic covers the counting numbers from zero to one hundred.",
       "ipa": "/ˈnʌmbərz ziːroʊ tuː wʌn ˈhʌndɹəd/"
     },
     "ro": {
+      "name": "Numere 0–100",
+      "description": "Acest subiect acoperă numerele de la zero la o sută.",
       "ipa": "/ˈnumere zero la o ˈsutə/",
       "ttsText": "Numere de la zero la o sută"
     },
     "de": {
+      "name": "Zahlen 0–100",
+      "description": "Dieses Thema behandelt die Zählzahlen von null bis einhundert.",
       "ipa": "/ˈt͡saːlən nʊl biːs hʊndɐt/"
     },
     "ru": {
+      "name": "Числа 0–100",
+      "description": "Эта тема охватывает числа от нуля до ста.",
       "ipa": "/ˈt͡ɕisɫə nʊlʲ stɔ/"
     },
     "it": {
+      "name": "Numeri 0–100",
+      "description": "Questo argomento copre i numeri da zero a cento.",
       "ipa": "/ˈnumɛri ˈzɛro a ˈt͡ʃɛnto/"
     },
     "es": {
+      "name": "Números 0–100",
+      "description": "Este tema cubre los números del cero al cien.",
       "ipa": "/ˈnumeɾos ˈθeɾo a θjen/"
     },
     "fr": {
+      "name": "Nombres 0–100",
+      "description": "Ce sujet couvre les nombres de zéro à cent.",
       "ipa": "/nɔ̃bʁ zɛʁo a sɑ̃/"
     },
     "hu": {
+      "name": "Számok 0–100",
+      "description": "Ez a téma a nullától százig terjedő számokat fedi le.",
       "ipa": "/ˈsaːmok zeːroːtoːl saːzig/"
     },
     "pt": {
+      "name": "Números 0–100",
+      "description": "Este tópico cobre os números de zero a cem.",
       "ipa": "/ˈnumɛɾuz ˈzɛɾu a sɐ̃j/"
     }
   },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
+  "files": {
+    "sound/en.mp3": {
       "bytes": 14832,
-      "sha1": "1c9f656e69eff872507713490ab8c2341cd80fcf",
-      "key": "dictionary/CH01/CH01T05/sound/en.mp3"
+      "sha1": "1c9f656e69eff872507713490ab8c2341cd80fcf"
     },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
+    "sound/ro.mp3": {
       "bytes": 16128,
-      "sha1": "0f369d2f7c40e2ede1bd6dd2545eed1fdd7d1eaf",
-      "key": "dictionary/CH01/CH01T05/sound/ro.mp3"
+      "sha1": "0f369d2f7c40e2ede1bd6dd2545eed1fdd7d1eaf"
     },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
+    "sound/de.mp3": {
       "bytes": 15696,
-      "sha1": "6d238bd09a3505a7f84b3598d7988410c31f9991",
-      "key": "dictionary/CH01/CH01T05/sound/de.mp3"
+      "sha1": "6d238bd09a3505a7f84b3598d7988410c31f9991"
     },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
+    "sound/ru.mp3": {
       "bytes": 13680,
-      "sha1": "43aed1266e9bca81270160a3b8384f879cbb67df",
-      "key": "dictionary/CH01/CH01T05/sound/ru.mp3"
+      "sha1": "43aed1266e9bca81270160a3b8384f879cbb67df"
     },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
+    "sound/it.mp3": {
       "bytes": 11232,
-      "sha1": "cfc235af5c6ae5850aa5086dcb46105d943355f6",
-      "key": "dictionary/CH01/CH01T05/sound/it.mp3"
+      "sha1": "cfc235af5c6ae5850aa5086dcb46105d943355f6"
     },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
+    "sound/es.mp3": {
       "bytes": 13536,
-      "sha1": "531817860842fbafb73a38b7fbdee3b8f0ea3a60",
-      "key": "dictionary/CH01/CH01T05/sound/es.mp3"
+      "sha1": "531817860842fbafb73a38b7fbdee3b8f0ea3a60"
     },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
+    "sound/fr.mp3": {
       "bytes": 11952,
-      "sha1": "b1272c103f7e6fba4773dade9a4d5bc4dee7fa16",
-      "key": "dictionary/CH01/CH01T05/sound/fr.mp3"
+      "sha1": "b1272c103f7e6fba4773dade9a4d5bc4dee7fa16"
     },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
+    "sound/hu.mp3": {
       "bytes": 14688,
-      "sha1": "b9eb5041de12d3ddc2bec2d1c4a2aeeca069d2e5",
-      "key": "dictionary/CH01/CH01T05/sound/hu.mp3"
+      "sha1": "b9eb5041de12d3ddc2bec2d1c4a2aeeca069d2e5"
     },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
+    "sound/pt.mp3": {
       "bytes": 15984,
-      "sha1": "cb7dc55d7df6c7772792864155a9e9dbe3ea448e",
-      "key": "dictionary/CH01/CH01T05/sound/pt.mp3"
+      "sha1": "cb7dc55d7df6c7772792864155a9e9dbe3ea448e"
     }
-  },
-  "tags": [
-    "title#topic"
-  ],
-  "metadata": {},
-  "entity_id": "CH01T05"
+  }
 }

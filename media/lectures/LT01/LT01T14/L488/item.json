@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T14",
   "kind": "letter",
-  "names": {
-    "en": "Cs",
-    "ro": "Cs",
-    "de": "Cs",
-    "ru": "Cs",
-    "it": "Cs",
-    "es": "Cs",
-    "fr": "Cs",
-    "hu": "Cs",
-    "pt": "Cs"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": "Letter name: csé. Example: csillag.",
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": {
-      "ipa": "/tʃeː/"
-    },
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7776,
-      "sha1": "4a46e102647be6c53cde628e2955b18b127b7b65"
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T14:L488",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Cs"
+    },
+    "ro": {
+      "name": "Cs"
+    },
+    "de": {
+      "name": "Cs"
+    },
+    "ru": {
+      "name": "Cs"
+    },
+    "it": {
+      "name": "Cs"
+    },
+    "es": {
+      "name": "Cs"
+    },
+    "fr": {
+      "name": "Cs"
+    },
     "hu": {
-      "context": "csé",
-      "example": "csillag"
+      "name": "Cs",
+      "description": "Letter name: csé. Example: csillag.",
+      "ipa": "/tʃeː/",
+      "example": "csillag",
+      "context": "csé"
+    },
+    "pt": {
+      "name": "Cs"
     }
   },
-  "entity_id": "LT01T14:L488",
-  "cefr": "A1"
+  "files": {
+    "sound/hu.mp3": {
+      "bytes": 7776,
+      "sha1": "4a46e102647be6c53cde628e2955b18b127b7b65"
+    }
+  }
 }

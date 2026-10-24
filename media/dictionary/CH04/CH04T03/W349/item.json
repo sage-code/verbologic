@@ -4,111 +4,45 @@
   "chapter": "CH04",
   "topic": "CH04T03",
   "kind": "word",
-  "names": {
-    "en": "color",
-    "ro": "culoare",
-    "de": "Farbe",
-    "ru": "цвет",
-    "it": "colore",
-    "es": "color",
-    "fr": "couleur",
-    "hu": "szín",
-    "pt": "cor"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/kuˈloare/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "a9dea3d9cb5d2346d1e6646369de3aca57bb89ad",
-      "key": "dictionary/CH04/CH04T03/W349/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH04T03:W349",
+  "cefr": "A2",
   "tags": [
     "vocabulary#shopping-money"
   ],
-  "metadata": {},
-  "entity_id": "CH04T03:W349",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "color"
+    },
+    "ro": {
+      "name": "culoare",
+      "ipa": "/kuˈloare/"
+    },
+    "de": {
+      "name": "Farbe"
+    },
+    "ru": {
+      "name": "цвет"
+    },
+    "it": {
+      "name": "colore"
+    },
+    "es": {
+      "name": "color"
+    },
+    "fr": {
+      "name": "couleur"
+    },
+    "hu": {
+      "name": "szín"
+    },
+    "pt": {
+      "name": "cor"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "a9dea3d9cb5d2346d1e6646369de3aca57bb89ad"
+    }
+  }
 }

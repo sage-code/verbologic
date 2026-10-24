@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T10",
   "kind": "letter",
-  "names": {
-    "en": "Ю",
-    "ro": "Ю",
-    "de": "Ю",
-    "ru": "Ю",
-    "it": "Ю",
-    "es": "Ю",
-    "fr": "Ю",
-    "hu": "Ю",
-    "pt": "Ю"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": "Letter name: ю. Example: юг.",
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": {
-      "ipa": "/ju/"
-    },
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 9504,
-      "sha1": "c4bdfdd1301b4d6ebfcac2df5686738acd970e1c"
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T10:L403",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Ю"
+    },
+    "ro": {
+      "name": "Ю"
+    },
+    "de": {
+      "name": "Ю"
+    },
     "ru": {
-      "context": "ю",
-      "example": "юг"
+      "name": "Ю",
+      "description": "Letter name: ю. Example: юг.",
+      "ipa": "/ju/",
+      "example": "юг",
+      "context": "ю"
+    },
+    "it": {
+      "name": "Ю"
+    },
+    "es": {
+      "name": "Ю"
+    },
+    "fr": {
+      "name": "Ю"
+    },
+    "hu": {
+      "name": "Ю"
+    },
+    "pt": {
+      "name": "Ю"
     }
   },
-  "entity_id": "LT01T10:L403",
-  "cefr": "A1"
+  "files": {
+    "sound/ru.mp3": {
+      "bytes": 9504,
+      "sha1": "c4bdfdd1301b4d6ebfcac2df5686738acd970e1c"
+    }
+  }
 }

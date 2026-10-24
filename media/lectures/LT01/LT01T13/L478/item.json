@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T13",
   "kind": "letter",
-  "names": {
-    "en": "U",
-    "ro": "U",
-    "de": "U",
-    "ru": "U",
-    "it": "U",
-    "es": "U",
-    "fr": "U",
-    "hu": "U",
-    "pt": "U"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": "Letter name: u. Example: une.",
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": {
-      "ipa": "/y/"
-    },
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7200,
-      "sha1": "7e1875f483a57fb9b08cb5ff22f904b5f407a437"
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T13:L478",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "U"
+    },
+    "ro": {
+      "name": "U"
+    },
+    "de": {
+      "name": "U"
+    },
+    "ru": {
+      "name": "U"
+    },
+    "it": {
+      "name": "U"
+    },
+    "es": {
+      "name": "U"
+    },
     "fr": {
-      "context": "u",
-      "example": "une"
+      "name": "U",
+      "description": "Letter name: u. Example: une.",
+      "ipa": "/y/",
+      "example": "une",
+      "context": "u"
+    },
+    "hu": {
+      "name": "U"
+    },
+    "pt": {
+      "name": "U"
     }
   },
-  "entity_id": "LT01T13:L478",
-  "cefr": "A1"
+  "files": {
+    "sound/fr.mp3": {
+      "bytes": 7200,
+      "sha1": "7e1875f483a57fb9b08cb5ff22f904b5f407a437"
+    }
+  }
 }

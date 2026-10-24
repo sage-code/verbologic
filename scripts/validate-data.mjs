@@ -185,7 +185,7 @@ try {
       if (!isTitle && !/^([WLSAVP]\d{3,})(?:-\d+)?$/.test(manifest.code)) {
         ERRORS.push(`media manifest ${relPath}: code '${manifest.code}' must be a media code such as W001 (word), L001 (lecture) or S001 (story)`)
       }
-      if (!manifest.names || !Object.values(manifest.names).some((name) => typeof name === 'string' && name.trim())) {
+      if (!manifest.locales || !Object.values(manifest.locales).some((row) => typeof row?.name === 'string' && row.name.trim())) {
         ERRORS.push(`media manifest ${relPath}: missing localized names`)
       }
       continue
@@ -252,11 +252,10 @@ try {
           for (const id of topic.items ?? []) {
             const manifest = manifestById.get(`${topic.code}\n${id}`)
             if (!manifest) continue // planned item — nothing to check yet
-            // Shared manifests keep IPA per locale under pronunciation[lang].ipa;
-            // the retired per-language manifests used a flat `ipa` field.
-            const ipa =
-              manifest.ipa ??
-              Object.values(manifest.pronunciation ?? {}).find((p) => p && typeof p.ipa === 'string' && p.ipa.trim())?.ipa
+            // Shared manifests keep IPA per locale under locales[lang].ipa.
+            const ipa = Object.values(manifest.locales ?? {}).find(
+              (row) => typeof row?.ipa === 'string' && row.ipa.trim()
+            )?.ipa
             if (!ipa) {
               ERRORS.push(
                 `sidebar ${sidebar.id} · ${topic.code}: phonetic topic item '${id}' has no IPA transcription`
@@ -343,7 +342,11 @@ try {
       if (!isTitle) {
         const key = `${manifest.topic}\n${manifest.code}`
         mediaManifestIds.add(key)
-        mediaTermsByTopicId.set(key, manifest.names ?? {})
+        const names = {}
+        for (const [locale, row] of Object.entries(manifest.locales ?? {})) {
+          if (row?.name) names[locale] = row.name
+        }
+        mediaTermsByTopicId.set(key, names)
       }
     } else if (manifest.id) {
       const topic = file.split(/[\\/]/).at(-2)

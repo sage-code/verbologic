@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T01",
   "kind": "word",
-  "names": {
-    "en": "office",
-    "ro": "birou",
-    "de": "Büro",
-    "ru": "офис",
-    "it": "ufficio",
-    "es": "oficina",
-    "fr": "bureau",
-    "hu": "iroda",
-    "pt": "escritório"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/biˈrou/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "59095e931e8073418d4ab8b1897374eddce43fee",
-      "key": "dictionary/CH09/CH09T01/W634/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T01:W634",
+  "cefr": "C1",
   "tags": [
     "vocabulary#office-vocabulary"
   ],
-  "metadata": {},
-  "entity_id": "CH09T01:W634",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "office"
+    },
+    "ro": {
+      "name": "birou",
+      "ipa": "/biˈrou/"
+    },
+    "de": {
+      "name": "Büro"
+    },
+    "ru": {
+      "name": "офис"
+    },
+    "it": {
+      "name": "ufficio"
+    },
+    "es": {
+      "name": "oficina"
+    },
+    "fr": {
+      "name": "bureau"
+    },
+    "hu": {
+      "name": "iroda"
+    },
+    "pt": {
+      "name": "escritório"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "59095e931e8073418d4ab8b1897374eddce43fee"
+    }
+  }
 }

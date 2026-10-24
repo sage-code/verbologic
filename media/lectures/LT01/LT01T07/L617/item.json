@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "ch",
-    "ro": "ch",
-    "de": "ch",
-    "ru": "ch",
-    "it": "ch",
-    "es": "ch",
-    "fr": "ch",
-    "hu": "ch",
-    "pt": "ch"
-  },
-  "description": {
-    "en": "Letter name: ch. Example: chair.",
-    "ro": "Numele literei: ch. Exemplu: chair.",
-    "de": "Buchstabenname: ch. Beispiel: chair.",
-    "ru": "Название буквы: ch. Пример: chair.",
-    "it": "Nome della lettera: ch. Esempio: chair.",
-    "es": "Nombre de la letra: ch. Ejemplo: chair.",
-    "fr": "Nom de la lettre : ch. Exemple : chair.",
-    "hu": "Betű neve: ch. Példa: chair.",
-    "pt": "Nome da letra: ch. Exemplo: chair."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/tʃ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "5a079fc30a1fe5ad7215c795935d5bd8ee6b55df"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L617",
+  "legacy_entity_id": "letter_chair",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "ch",
-      "example": "chair"
+      "name": "ch",
+      "description": "Letter name: ch. Example: chair.",
+      "ipa": "/tʃ/",
+      "example": "chair",
+      "context": "ch"
+    },
+    "ro": {
+      "name": "ch",
+      "description": "Numele literei: ch. Exemplu: chair."
+    },
+    "de": {
+      "name": "ch",
+      "description": "Buchstabenname: ch. Beispiel: chair."
+    },
+    "ru": {
+      "name": "ch",
+      "description": "Название буквы: ch. Пример: chair."
+    },
+    "it": {
+      "name": "ch",
+      "description": "Nome della lettera: ch. Esempio: chair."
+    },
+    "es": {
+      "name": "ch",
+      "description": "Nombre de la letra: ch. Ejemplo: chair."
+    },
+    "fr": {
+      "name": "ch",
+      "description": "Nom de la lettre : ch. Exemple : chair."
+    },
+    "hu": {
+      "name": "ch",
+      "description": "Betű neve: ch. Példa: chair."
+    },
+    "pt": {
+      "name": "ch",
+      "description": "Nome da letra: ch. Exemplo: chair."
     }
   },
-  "entity_id": "LT01T07:L617",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_chair"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "5a079fc30a1fe5ad7215c795935d5bd8ee6b55df"
+    }
+  }
 }

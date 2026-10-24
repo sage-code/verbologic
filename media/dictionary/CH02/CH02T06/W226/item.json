@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T06",
   "kind": "word",
-  "names": {
-    "en": "cow",
-    "ro": "vacă",
-    "de": "Kuh",
-    "ru": "Корова",
-    "it": "mucca",
-    "es": "vaca",
-    "fr": "vache",
-    "hu": "Tehén",
-    "pt": "Vaca"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈvakə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "0b2f247102c092373dd9c0854c805125dcc0de58",
-      "key": "dictionary/CH02/CH02T06/W226/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T06:W226",
+  "cefr": "A1",
   "tags": [
     "scaffold#C2T06"
   ],
-  "metadata": {},
-  "entity_id": "CH02T06:W226",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "cow"
+    },
+    "ro": {
+      "name": "vacă",
+      "ipa": "/ˈvakə/"
+    },
+    "de": {
+      "name": "Kuh"
+    },
+    "ru": {
+      "name": "Корова"
+    },
+    "it": {
+      "name": "mucca"
+    },
+    "es": {
+      "name": "vaca"
+    },
+    "fr": {
+      "name": "vache"
+    },
+    "hu": {
+      "name": "Tehén"
+    },
+    "pt": {
+      "name": "Vaca"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "0b2f247102c092373dd9c0854c805125dcc0de58"
+    }
+  }
 }

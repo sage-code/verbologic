@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T09",
   "kind": "letter",
-  "names": {
-    "en": "X",
-    "ro": "X",
-    "de": "X",
-    "ru": "X",
-    "it": "X",
-    "es": "X",
-    "fr": "X",
-    "hu": "X",
-    "pt": "X"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": "Letter name: Ix. Example: Xylophon.",
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": {
-      "ipa": "/ɪks/"
-    },
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d8be3f70bae67ec912916ee639f2eb4111746d5d"
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T09:L365",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "X"
+    },
+    "ro": {
+      "name": "X"
+    },
     "de": {
-      "context": "Ix",
-      "example": "Xylophon"
+      "name": "X",
+      "description": "Letter name: Ix. Example: Xylophon.",
+      "ipa": "/ɪks/",
+      "example": "Xylophon",
+      "context": "Ix"
+    },
+    "ru": {
+      "name": "X"
+    },
+    "it": {
+      "name": "X"
+    },
+    "es": {
+      "name": "X"
+    },
+    "fr": {
+      "name": "X"
+    },
+    "hu": {
+      "name": "X"
+    },
+    "pt": {
+      "name": "X"
     }
   },
-  "entity_id": "LT01T09:L365",
-  "cefr": "A1"
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "d8be3f70bae67ec912916ee639f2eb4111746d5d"
+    }
+  }
 }

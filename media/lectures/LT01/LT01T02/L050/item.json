@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "ch in cherry (/tʃ/)",
-    "ro": "Ce / Ci",
-    "de": "ch in cherry (/tʃ/)",
-    "ru": "ch в cherry (/tʃ/)",
-    "it": "ch in cherry (/tʃ/)",
-    "es": "ch en cherry (/tʃ/)",
-    "fr": "ch dans cherry (/tʃ/)",
-    "hu": "ch a cherry-ben (/tʃ/)",
-    "pt": "ch em cherry (/tʃ/)"
-  },
-  "description": {
-    "en": "This item illustrates the digraph ch representing the sound /tʃ/ as in the word cherry.",
-    "ro": "Acest element ilustrează digraful ch care reprezintă sunetul /tʃ/, așa cum apare în cuvântul cherry.",
-    "de": "Dieses Element veranschaulicht den Digraphen ch, der den Laut /tʃ/ darstellt, wie im Wort cherry.",
-    "ru": "Этот элемент иллюстрирует диграф ch, представляющий звук /tʃ/, как в слове cherry.",
-    "it": "Questo elemento illustra il digramma ch che rappresenta il suono /tʃ/ come nella parola cherry.",
-    "es": "Este elemento ilustra el dígrafo ch que representa el sonido /tʃ/ como en la palabra cherry.",
-    "fr": "Cet élément illustre le digraphe ch représentant le son /tʃ/ comme dans le mot cherry.",
-    "hu": "Ez az elem a ch digráfot mutatja be, amely a /tʃ/ hangot jelöli a cherry szóban.",
-    "pt": "Este item ilustra o dígrafo ch que representa o som /tʃ/ como na palavra cherry."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/tʃe/, /tʃi/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11088,
-      "sha1": "63b2107f7ef40d547843b2deb0b26446a154eae2",
-      "key": "lectures/LT01/LT01T02/L050/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L050",
+  "cefr": "A1",
   "tags": [
     "alphabet#digraphs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L050",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ch in cherry (/tʃ/)",
+      "description": "This item illustrates the digraph ch representing the sound /tʃ/ as in the word cherry."
+    },
+    "ro": {
+      "name": "Ce / Ci",
+      "description": "Acest element ilustrează digraful ch care reprezintă sunetul /tʃ/, așa cum apare în cuvântul cherry.",
+      "ipa": "/tʃe/, /tʃi/"
+    },
+    "de": {
+      "name": "ch in cherry (/tʃ/)",
+      "description": "Dieses Element veranschaulicht den Digraphen ch, der den Laut /tʃ/ darstellt, wie im Wort cherry."
+    },
+    "ru": {
+      "name": "ch в cherry (/tʃ/)",
+      "description": "Этот элемент иллюстрирует диграф ch, представляющий звук /tʃ/, как в слове cherry."
+    },
+    "it": {
+      "name": "ch in cherry (/tʃ/)",
+      "description": "Questo elemento illustra il digramma ch che rappresenta il suono /tʃ/ come nella parola cherry."
+    },
+    "es": {
+      "name": "ch en cherry (/tʃ/)",
+      "description": "Este elemento ilustra el dígrafo ch que representa el sonido /tʃ/ como en la palabra cherry."
+    },
+    "fr": {
+      "name": "ch dans cherry (/tʃ/)",
+      "description": "Cet élément illustre le digraphe ch représentant le son /tʃ/ comme dans le mot cherry."
+    },
+    "hu": {
+      "name": "ch a cherry-ben (/tʃ/)",
+      "description": "Ez az elem a ch digráfot mutatja be, amely a /tʃ/ hangot jelöli a cherry szóban."
+    },
+    "pt": {
+      "name": "ch em cherry (/tʃ/)",
+      "description": "Este item ilustra o dígrafo ch que representa o som /tʃ/ como na palavra cherry."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11088,
+      "sha1": "63b2107f7ef40d547843b2deb0b26446a154eae2"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH03",
   "topic": "CH03T02",
   "kind": "word",
-  "names": {
-    "en": "yesterday",
-    "ro": "ieri",
-    "de": "gestern",
-    "ru": "вчера",
-    "it": "ieri",
-    "es": "ayer",
-    "fr": "hier",
-    "hu": "tegnap",
-    "pt": "ontem"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈjerʲ/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "5e1122172bde8a1d579eaa69e3e3ad0d516826bb",
-      "key": "dictionary/CH03/CH03T02/W251/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T02:W251",
+  "cefr": "A2",
   "tags": [
     "vocabulary#time-expressions"
   ],
-  "metadata": {},
-  "entity_id": "CH03T02:W251",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "yesterday"
+    },
+    "ro": {
+      "name": "ieri",
+      "ipa": "/ˈjerʲ/"
+    },
+    "de": {
+      "name": "gestern"
+    },
+    "ru": {
+      "name": "вчера"
+    },
+    "it": {
+      "name": "ieri"
+    },
+    "es": {
+      "name": "ayer"
+    },
+    "fr": {
+      "name": "hier"
+    },
+    "hu": {
+      "name": "tegnap"
+    },
+    "pt": {
+      "name": "ontem"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "5e1122172bde8a1d579eaa69e3e3ad0d516826bb"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH05",
   "topic": "CH05T06",
   "kind": "word",
-  "names": {
-    "en": "gift",
-    "ro": "cadou",
-    "de": "Geschenk",
-    "ru": "подарок",
-    "it": "regalo",
-    "es": "regalo",
-    "fr": "cadeau",
-    "hu": "ajándék",
-    "pt": "presente"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/kaˈdow/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "01b3550d45c65fce793ee328dac2459258ad2948",
-      "key": "dictionary/CH05/CH05T06/W435/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH05T06:W435",
+  "cefr": "B1",
   "tags": [
     "scaffold#C5T06"
   ],
-  "metadata": {},
-  "entity_id": "CH05T06:W435",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "gift"
+    },
+    "ro": {
+      "name": "cadou",
+      "ipa": "/kaˈdow/"
+    },
+    "de": {
+      "name": "Geschenk"
+    },
+    "ru": {
+      "name": "подарок"
+    },
+    "it": {
+      "name": "regalo"
+    },
+    "es": {
+      "name": "regalo"
+    },
+    "fr": {
+      "name": "cadeau"
+    },
+    "hu": {
+      "name": "ajándék"
+    },
+    "pt": {
+      "name": "presente"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "01b3550d45c65fce793ee328dac2459258ad2948"
+    }
+  }
 }

@@ -4,176 +4,114 @@
   "chapter": "CH01",
   "topic": "CH01T09",
   "kind": "letter",
+  "entity_id": "CH01T09:W155",
+  "cefr": "A1",
   "letter": "K",
-  "names": {
-    "en": "K (kay)",
-    "ro": "K (ca)",
-    "de": "K (ka)",
-    "ru": "K (кей)",
-    "it": "K (cappa)",
-    "es": "K (ka)",
-    "fr": "K (ka)",
-    "hu": "K (ká)",
-    "pt": "K (cá)"
-  },
-  "description": {
-    "en": "The letter K in the Latin alphabet, named kay.",
-    "ro": "Litera K din alfabetul latin, numită ca.",
-    "de": "Der Buchstabe K des lateinischen Alphabets, genannt ka.",
-    "ru": "Буква K латинского алфавита, называемая «кей».",
-    "it": "La lettera K dell'alfabeto latino, chiamata cappa.",
-    "es": "La letra K del alfabeto latino, llamada ka.",
-    "fr": "La lettre K de l'alphabet latin, appelée ka.",
-    "hu": "A latin ábécé K betűje, neve ká.",
-    "pt": "A letra K do alfabeto latino, chamada cá."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/keɪ/"
-    },
-    "ro": {
-      "ipa": "/ka/"
-    },
-    "de": {
-      "ipa": "/kaː/"
-    },
-    "ru": {
-      "ipa": "/kɛj/"
-    },
-    "it": {
-      "ipa": "/ˈkappa/"
-    },
-    "es": {
-      "ipa": "/ka/"
-    },
-    "fr": {
-      "ipa": "/ka/"
-    },
-    "hu": {
-      "ipa": "/kaː/"
-    },
-    "pt": {
-      "ipa": "/ˈka/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8bbd27ae89a15d44686459b13b16f6e04878f036",
-      "key": "dictionary/CH01/CH01T09/W155/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "33a4cbf7f6186b8fc574a06ad81092610e70000e",
-      "key": "dictionary/CH01/CH01T09/W155/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9e053685f6510e246146be65af880d1561b3f6ff",
-      "key": "dictionary/CH01/CH01T09/W155/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9833f43f3e406e7c73d47f49d90203106b6530d0",
-      "key": "dictionary/CH01/CH01T09/W155/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e2b6645fdae2916a63e4d965f95c42bec8ba5cfa",
-      "key": "dictionary/CH01/CH01T09/W155/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "5ce42f103bdb9945ea8254f6e07e9c581c00252d",
-      "key": "dictionary/CH01/CH01T09/W155/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1fa6c3819f3571cc6b9ac6830c33a4e73b835e19",
-      "key": "dictionary/CH01/CH01T09/W155/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "57de40ba8d82f10a4fed001d07b95541429b1ac7",
-      "key": "dictionary/CH01/CH01T09/W155/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "035a93cf7fa85667db5409db450e596dcc0746cd",
-      "key": "dictionary/CH01/CH01T09/W155/sound/pt.mp3"
-    }
-  },
-  "ttsText": {
-    "en": "kay",
-    "ro": "ca",
-    "de": "ka",
-    "ru": "кей",
-    "it": "cappa",
-    "es": "ka",
-    "fr": "ka",
-    "hu": "ká",
-    "pt": "cá"
-  },
   "tags": [
     "alphabet#common-letter",
     "alphabet#latin"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "K (kay)",
+      "description": "The letter K in the Latin alphabet, named kay.",
+      "ipa": "/keɪ/",
+      "ttsText": "kay",
       "example": "kay"
     },
     "ro": {
+      "name": "K (ca)",
+      "description": "Litera K din alfabetul latin, numită ca.",
+      "ipa": "/ka/",
+      "ttsText": "ca",
       "example": "ca"
     },
     "de": {
+      "name": "K (ka)",
+      "description": "Der Buchstabe K des lateinischen Alphabets, genannt ka.",
+      "ipa": "/kaː/",
+      "ttsText": "ka",
       "example": "ka"
     },
     "ru": {
+      "name": "K (кей)",
+      "description": "Буква K латинского алфавита, называемая «кей».",
+      "ipa": "/kɛj/",
+      "ttsText": "кей",
       "example": "кей"
     },
     "it": {
+      "name": "K (cappa)",
+      "description": "La lettera K dell'alfabeto latino, chiamata cappa.",
+      "ipa": "/ˈkappa/",
+      "ttsText": "cappa",
       "example": "cappa"
     },
     "es": {
+      "name": "K (ka)",
+      "description": "La letra K del alfabeto latino, llamada ka.",
+      "ipa": "/ka/",
+      "ttsText": "ka",
       "example": "ka"
     },
     "fr": {
+      "name": "K (ka)",
+      "description": "La lettre K de l'alphabet latin, appelée ka.",
+      "ipa": "/ka/",
+      "ttsText": "ka",
       "example": "ka"
     },
     "hu": {
+      "name": "K (ká)",
+      "description": "A latin ábécé K betűje, neve ká.",
+      "ipa": "/kaː/",
+      "ttsText": "ká",
       "example": "ká"
     },
     "pt": {
+      "name": "K (cá)",
+      "description": "A letra K do alfabeto latino, chamada cá.",
+      "ipa": "/ˈka/",
+      "ttsText": "cá",
       "example": "cá"
     }
   },
-  "entity_id": "CH01T09:W155",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8bbd27ae89a15d44686459b13b16f6e04878f036"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "33a4cbf7f6186b8fc574a06ad81092610e70000e"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "9e053685f6510e246146be65af880d1561b3f6ff"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "9833f43f3e406e7c73d47f49d90203106b6530d0"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "e2b6645fdae2916a63e4d965f95c42bec8ba5cfa"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "5ce42f103bdb9945ea8254f6e07e9c581c00252d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "1fa6c3819f3571cc6b9ac6830c33a4e73b835e19"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "57de40ba8d82f10a4fed001d07b95541429b1ac7"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "035a93cf7fa85667db5409db450e596dcc0746cd"
+    }
+  }
 }

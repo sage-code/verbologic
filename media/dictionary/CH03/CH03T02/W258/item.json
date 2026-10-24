@@ -4,111 +4,45 @@
   "chapter": "CH03",
   "topic": "CH03T02",
   "kind": "word",
-  "names": {
-    "en": "year",
-    "ro": "an",
-    "de": "Jahr",
-    "ru": "год",
-    "it": "anno",
-    "es": "año",
-    "fr": "année",
-    "hu": "év",
-    "pt": "ano"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/an/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "83bb359e3f0809a2b6d7ced928636a7b5fce9171",
-      "key": "dictionary/CH03/CH03T02/W258/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T02:W258",
+  "cefr": "A2",
   "tags": [
     "vocabulary#time-expressions"
   ],
-  "metadata": {},
-  "entity_id": "CH03T02:W258",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "year"
+    },
+    "ro": {
+      "name": "an",
+      "ipa": "/an/"
+    },
+    "de": {
+      "name": "Jahr"
+    },
+    "ru": {
+      "name": "год"
+    },
+    "it": {
+      "name": "anno"
+    },
+    "es": {
+      "name": "año"
+    },
+    "fr": {
+      "name": "année"
+    },
+    "hu": {
+      "name": "év"
+    },
+    "pt": {
+      "name": "ano"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "83bb359e3f0809a2b6d7ced928636a7b5fce9171"
+    }
+  }
 }

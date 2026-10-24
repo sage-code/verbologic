@@ -4,111 +4,45 @@
   "chapter": "CH10",
   "topic": "CH10T07",
   "kind": "word",
-  "names": {
-    "en": "drone",
-    "ro": "dronă",
-    "de": "Drohne",
-    "ru": "дрон",
-    "it": "drone",
-    "es": "dron",
-    "fr": "drone",
-    "hu": "drón",
-    "pt": "drone"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈdronə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "f0c875bd1b4f12ce29b5694389fe834886f517f4",
-      "key": "dictionary/CH10/CH10T07/W766/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH10T07:W766",
+  "cefr": "C1",
   "tags": [
     "scaffold#C10T07"
   ],
-  "metadata": {},
-  "entity_id": "CH10T07:W766",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "drone"
+    },
+    "ro": {
+      "name": "dronă",
+      "ipa": "/ˈdronə/"
+    },
+    "de": {
+      "name": "Drohne"
+    },
+    "ru": {
+      "name": "дрон"
+    },
+    "it": {
+      "name": "drone"
+    },
+    "es": {
+      "name": "dron"
+    },
+    "fr": {
+      "name": "drone"
+    },
+    "hu": {
+      "name": "drón"
+    },
+    "pt": {
+      "name": "drone"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "f0c875bd1b4f12ce29b5694389fe834886f517f4"
+    }
+  }
 }

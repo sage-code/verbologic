@@ -1,105 +1,85 @@
 {
-  "schema": 1,
+  "code": "ST01T02",
   "track": "stories",
   "chapter": "ST01",
   "topic": "ST01T02",
   "kind": "story-topic",
-  "names": {
-    "en": "Fairy Tales",
-    "ro": "Basme",
-    "de": "Märchen",
-    "ru": "Сказки",
-    "it": "Fiabe",
-    "es": "Cuentos de hadas",
-    "fr": "Contes de fées",
-    "hu": "Tündérmesék",
-    "pt": "Contos de fadas"
-  },
-  "description": {
-    "en": "Familiar public-domain tales, retold in clear language for learners.",
-    "ro": "Povești cunoscute din domeniul public, repovestite într-un limbaj clar pentru cei care învață.",
-    "de": "Bekannte gemeinfreie Märchen, in klarer Sprache für Lernende neu erzählt.",
-    "ru": "Знакомые сказки из общественного достояния, пересказанные понятным языком для изучающих.",
-    "it": "Fiabe di pubblico dominio, raccontate di nuovo con un linguaggio chiaro per chi studia.",
-    "es": "Cuentos de dominio público, narrados de nuevo con un lenguaje claro para estudiantes.",
-    "fr": "Des contes du domaine public, racontés à nouveau dans une langue claire pour les apprenants.",
-    "hu": "Közkinccsé vált mesék újramesélve, világos nyelvezettel a tanulók számára.",
-    "pt": "Contos de domínio público recontados em linguagem clara para estudantes."
-  },
-  "code": "ST01T02",
   "entity_id": "ST01T02",
-  "audio": {
+  "schema": 1,
+  "locales": {
     "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1274430a8e1826cb40ae693333d827438aa940d6",
-      "key": "stories/ST01/ST01T02/sound/en.mp3"
+      "name": "Fairy Tales",
+      "description": "Familiar public-domain tales, retold in clear language for learners."
     },
     "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 9936,
-      "sha1": "38e6f0f5377d592fea1b1f6c7daca8a2bf395ae0",
-      "key": "stories/ST01/ST01T02/sound/ro.mp3"
+      "name": "Basme",
+      "description": "Povești cunoscute din domeniul public, repovestite într-un limbaj clar pentru cei care învață."
     },
     "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 9360,
-      "sha1": "f3e0d537beeaf340e8758fd399f6a81ce136ac2f",
-      "key": "stories/ST01/ST01T02/sound/de.mp3"
+      "name": "Märchen",
+      "description": "Bekannte gemeinfreie Märchen, in klarer Sprache für Lernende neu erzählt."
     },
     "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10368,
-      "sha1": "31e3fbd0c24f879458d39514d1921a05ce735289",
-      "key": "stories/ST01/ST01T02/sound/ru.mp3"
+      "name": "Сказки",
+      "description": "Знакомые сказки из общественного достояния, пересказанные понятным языком для изучающих."
     },
     "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b54847f596aebbe6aa496fd5f91574991675ce1c",
-      "key": "stories/ST01/ST01T02/sound/it.mp3"
+      "name": "Fiabe",
+      "description": "Fiabe di pubblico dominio, raccontate di nuovo con un linguaggio chiaro per chi studia."
     },
     "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12240,
-      "sha1": "0ebc4ef3982f8b6a525e231bc1dcffeccb00b19b",
-      "key": "stories/ST01/ST01T02/sound/es.mp3"
+      "name": "Cuentos de hadas",
+      "description": "Cuentos de dominio público, narrados de nuevo con un lenguaje claro para estudiantes."
     },
     "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "936273509275c3d26358c0a23dd100f8a1bb9491",
-      "key": "stories/ST01/ST01T02/sound/fr.mp3"
+      "name": "Contes de fées",
+      "description": "Des contes du domaine public, racontés à nouveau dans une langue claire pour les apprenants."
     },
     "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "15ba3c99f8ff8ca68126cb04a3f54290f4d19bf7",
-      "key": "stories/ST01/ST01T02/sound/hu.mp3"
+      "name": "Tündérmesék",
+      "description": "Közkinccsé vált mesék újramesélve, világos nyelvezettel a tanulók számára."
     },
     "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
+      "name": "Contos de fadas",
+      "description": "Contos de domínio público recontados em linguagem clara para estudantes."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "1274430a8e1826cb40ae693333d827438aa940d6"
+    },
+    "sound/ro.mp3": {
+      "bytes": 9936,
+      "sha1": "38e6f0f5377d592fea1b1f6c7daca8a2bf395ae0"
+    },
+    "sound/de.mp3": {
+      "bytes": 9360,
+      "sha1": "f3e0d537beeaf340e8758fd399f6a81ce136ac2f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10368,
+      "sha1": "31e3fbd0c24f879458d39514d1921a05ce735289"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "b54847f596aebbe6aa496fd5f91574991675ce1c"
+    },
+    "sound/es.mp3": {
+      "bytes": 12240,
+      "sha1": "0ebc4ef3982f8b6a525e231bc1dcffeccb00b19b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "936273509275c3d26358c0a23dd100f8a1bb9491"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "15ba3c99f8ff8ca68126cb04a3f54290f4d19bf7"
+    },
+    "sound/pt.mp3": {
       "bytes": 11664,
-      "sha1": "b1e7e9043096c3c4b9d15b75a1daf5a21bc5c66d",
-      "key": "stories/ST01/ST01T02/sound/pt.mp3"
+      "sha1": "b1e7e9043096c3c4b9d15b75a1daf5a21bc5c66d"
     }
   }
 }

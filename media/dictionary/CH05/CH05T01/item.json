@@ -4,110 +4,23 @@
   "chapter": "CH05",
   "topic": "CH05T01",
   "kind": "topic-title",
-  "names": {
-    "en": "Airport & border",
-    "ro": "Aeroport și frontieră",
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/aeroˈport ʃi fronˈtjerə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 14832,
-      "sha1": "d2306c6b597944800668422011d5b33322030121",
-      "key": "dictionary/CH05/CH05T01/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH05T01",
   "tags": [
     "title#topic"
   ],
-  "metadata": {},
-  "entity_id": "CH05T01"
+  "locales": {
+    "en": {
+      "name": "Airport & border"
+    },
+    "ro": {
+      "name": "Aeroport și frontieră",
+      "ipa": "/aeroˈport ʃi fronˈtjerə/"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 14832,
+      "sha1": "d2306c6b597944800668422011d5b33322030121"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T01",
   "kind": "word",
-  "names": {
-    "en": "desert",
-    "ro": "deșert",
-    "de": "Wüste",
-    "ru": "пустыня",
-    "it": "deserto",
-    "es": "desierto",
-    "fr": "désert",
-    "hu": "sivatag",
-    "pt": "deserto"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/deˈʃert/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "08d22c540a49d9f704eb43a31be0705b82ad03ee",
-      "key": "dictionary/CH08/CH08T01/W579/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T01:W579",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T01"
   ],
-  "metadata": {},
-  "entity_id": "CH08T01:W579",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "desert"
+    },
+    "ro": {
+      "name": "deșert",
+      "ipa": "/deˈʃert/"
+    },
+    "de": {
+      "name": "Wüste"
+    },
+    "ru": {
+      "name": "пустыня"
+    },
+    "it": {
+      "name": "deserto"
+    },
+    "es": {
+      "name": "desierto"
+    },
+    "fr": {
+      "name": "désert"
+    },
+    "hu": {
+      "name": "sivatag"
+    },
+    "pt": {
+      "name": "deserto"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "08d22c540a49d9f704eb43a31be0705b82ad03ee"
+    }
+  }
 }

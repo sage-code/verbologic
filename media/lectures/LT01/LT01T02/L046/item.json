@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "iai in tăiai (you were cutting)",
-    "ro": "iai",
-    "de": "iai in tăiai (du hast geschnitten)",
-    "ru": "iai в tăiai (ты резал)",
-    "it": "iai in tăiai (tagliavi)",
-    "es": "iai en tăiai (cortabas)",
-    "fr": "iai dans tăiai (tu coupais)",
-    "hu": "iai a tăiai-ban (vágtál)",
-    "pt": "iai em tăiai (tu cortavas)"
-  },
-  "description": {
-    "en": "This item illustrates the Romanian diphthong iai as found in the verb form tăiai.",
-    "ro": "Acest element ilustrează diftongul românesc iai, așa cum apare în forma verbală tăiai.",
-    "de": "Dieses Element veranschaulicht den rumänischen Diphthong iai, wie er in der Verbform tăiai vorkommt.",
-    "ru": "Этот элемент иллюстрирует румынский дифтонг iai, встречающийся в глагольной форме tăiai.",
-    "it": "Questo elemento illustra il dittongo rumeno iai come si trova nella forma verbale tăiai.",
-    "es": "Este elemento ilustra el diptongo rumano iai tal como aparece en la forma verbal tăiai.",
-    "fr": "Cet élément illustre la diphtongue roumaine iai telle qu'elle apparaît dans la forme verbale tăiai.",
-    "hu": "Ez az elem a román iai kettőshangzót mutatja be a tăiai igealakban.",
-    "pt": "Este item ilustra o ditongo romeno iai, conforme encontrado na forma verbal tăiai."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/jaj/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e89e935ac667fe094f80fba77d149de209523d80",
-      "key": "lectures/LT01/LT01T02/L046/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L046",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L046",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "iai in tăiai (you were cutting)",
+      "description": "This item illustrates the Romanian diphthong iai as found in the verb form tăiai."
+    },
+    "ro": {
+      "name": "iai",
+      "description": "Acest element ilustrează diftongul românesc iai, așa cum apare în forma verbală tăiai.",
+      "ipa": "/jaj/"
+    },
+    "de": {
+      "name": "iai in tăiai (du hast geschnitten)",
+      "description": "Dieses Element veranschaulicht den rumänischen Diphthong iai, wie er in der Verbform tăiai vorkommt."
+    },
+    "ru": {
+      "name": "iai в tăiai (ты резал)",
+      "description": "Этот элемент иллюстрирует румынский дифтонг iai, встречающийся в глагольной форме tăiai."
+    },
+    "it": {
+      "name": "iai in tăiai (tagliavi)",
+      "description": "Questo elemento illustra il dittongo rumeno iai come si trova nella forma verbale tăiai."
+    },
+    "es": {
+      "name": "iai en tăiai (cortabas)",
+      "description": "Este elemento ilustra el diptongo rumano iai tal como aparece en la forma verbal tăiai."
+    },
+    "fr": {
+      "name": "iai dans tăiai (tu coupais)",
+      "description": "Cet élément illustre la diphtongue roumaine iai telle qu'elle apparaît dans la forme verbale tăiai."
+    },
+    "hu": {
+      "name": "iai a tăiai-ban (vágtál)",
+      "description": "Ez az elem a román iai kettőshangzót mutatja be a tăiai igealakban."
+    },
+    "pt": {
+      "name": "iai em tăiai (tu cortavas)",
+      "description": "Este item ilustra o ditongo romeno iai, conforme encontrado na forma verbal tăiai."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "e89e935ac667fe094f80fba77d149de209523d80"
+    }
+  }
 }

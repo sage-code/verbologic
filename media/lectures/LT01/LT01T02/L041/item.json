@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "oi in doi (two)",
-    "ro": "oi",
-    "de": "oi in doi (zwei)",
-    "ru": "oi в doi (два)",
-    "it": "oi in doi (due)",
-    "es": "oi en doi (dos)",
-    "fr": "oi dans doi (deux)",
-    "hu": "oi a doi-ban (kettő)",
-    "pt": "oi em doi (dois)"
-  },
-  "description": {
-    "en": "This item illustrates the Romanian diphthong oi as found in the word doi.",
-    "ro": "Acest element ilustrează diftongul românesc oi așa cum apare în cuvântul doi.",
-    "de": "Dieser Eintrag veranschaulicht den rumänischen Diphthong oi, wie er im Wort doi vorkommt.",
-    "ru": "Этот элемент иллюстрирует румынский дифтонг oi, встречающийся в слове doi.",
-    "it": "Questo elemento illustra il dittongo rumeno oi come si trova nella parola doi.",
-    "es": "Este elemento ilustra el diptongo rumano oi tal como aparece en la palabra doi.",
-    "fr": "Cet élément illustre la diphtongue roumaine oi telle qu'elle apparaît dans le mot doi.",
-    "hu": "Ez az elem a román oi kettőshangzót mutatja be a doi szóban.",
-    "pt": "Este item ilustra o ditongo romeno oi conforme encontrado na palavra doi."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/oj/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d88875298e0564389fadb784c294a75286e2e40d",
-      "key": "lectures/LT01/LT01T02/L041/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L041",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L041",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "oi in doi (two)",
+      "description": "This item illustrates the Romanian diphthong oi as found in the word doi."
+    },
+    "ro": {
+      "name": "oi",
+      "description": "Acest element ilustrează diftongul românesc oi așa cum apare în cuvântul doi.",
+      "ipa": "/oj/"
+    },
+    "de": {
+      "name": "oi in doi (zwei)",
+      "description": "Dieser Eintrag veranschaulicht den rumänischen Diphthong oi, wie er im Wort doi vorkommt."
+    },
+    "ru": {
+      "name": "oi в doi (два)",
+      "description": "Этот элемент иллюстрирует румынский дифтонг oi, встречающийся в слове doi."
+    },
+    "it": {
+      "name": "oi in doi (due)",
+      "description": "Questo elemento illustra il dittongo rumeno oi come si trova nella parola doi."
+    },
+    "es": {
+      "name": "oi en doi (dos)",
+      "description": "Este elemento ilustra el diptongo rumano oi tal como aparece en la palabra doi."
+    },
+    "fr": {
+      "name": "oi dans doi (deux)",
+      "description": "Cet élément illustre la diphtongue roumaine oi telle qu'elle apparaît dans le mot doi."
+    },
+    "hu": {
+      "name": "oi a doi-ban (kettő)",
+      "description": "Ez az elem a román oi kettőshangzót mutatja be a doi szóban."
+    },
+    "pt": {
+      "name": "oi em doi (dois)",
+      "description": "Este item ilustra o ditongo romeno oi conforme encontrado na palavra doi."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "d88875298e0564389fadb784c294a75286e2e40d"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T09",
   "kind": "letter",
-  "names": {
-    "en": "I",
-    "ro": "I",
-    "de": "I",
-    "ru": "I",
-    "it": "I",
-    "es": "I",
-    "fr": "I",
-    "hu": "I",
-    "pt": "I"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": "Letter name: I. Example: Insel.",
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": {
-      "ipa": "/iː/"
-    },
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "613edc63b02facc085d1138e8060430ffb1cc900"
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T09:L350",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "I"
+    },
+    "ro": {
+      "name": "I"
+    },
     "de": {
-      "context": "I",
-      "example": "Insel"
+      "name": "I",
+      "description": "Letter name: I. Example: Insel.",
+      "ipa": "/iː/",
+      "example": "Insel",
+      "context": "I"
+    },
+    "ru": {
+      "name": "I"
+    },
+    "it": {
+      "name": "I"
+    },
+    "es": {
+      "name": "I"
+    },
+    "fr": {
+      "name": "I"
+    },
+    "hu": {
+      "name": "I"
+    },
+    "pt": {
+      "name": "I"
     }
   },
-  "entity_id": "LT01T09:L350",
-  "cefr": "A1"
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "613edc63b02facc085d1138e8060430ffb1cc900"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH10",
   "topic": "CH10T01",
   "kind": "word",
-  "names": {
-    "en": "file",
-    "ro": "fișier",
-    "de": "Datei",
-    "ru": "файл",
-    "it": "file",
-    "es": "archivo",
-    "fr": "fichier",
-    "hu": "fájl",
-    "pt": "arquivo"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/fiʃiˈer/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "2e079495c7a64a4ccede0c41cdb100a775023221",
-      "key": "dictionary/CH10/CH10T01/W712/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH10T01:W712",
+  "cefr": "C1",
   "tags": [
     "vocabulary#communication-technology"
   ],
-  "metadata": {},
-  "entity_id": "CH10T01:W712",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "file"
+    },
+    "ro": {
+      "name": "fișier",
+      "ipa": "/fiʃiˈer/"
+    },
+    "de": {
+      "name": "Datei"
+    },
+    "ru": {
+      "name": "файл"
+    },
+    "it": {
+      "name": "file"
+    },
+    "es": {
+      "name": "archivo"
+    },
+    "fr": {
+      "name": "fichier"
+    },
+    "hu": {
+      "name": "fájl"
+    },
+    "pt": {
+      "name": "arquivo"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "2e079495c7a64a4ccede0c41cdb100a775023221"
+    }
+  }
 }

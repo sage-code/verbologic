@@ -4,109 +4,23 @@
   "chapter": "LT02",
   "topic": "LT02T02",
   "kind": "sentence",
-  "names": {
-    "en": "The bed is in the room.",
-    "ro": "Patul este în cameră.",
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 14112,
-      "sha1": "b440211b0bb65010b622f9a27e0070597e374a6c",
-      "key": "lectures/LT02/LT02T02/L068/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT02T02:L068",
+  "cefr": "A1",
   "tags": [
     "sentences#home-objects-and-places"
   ],
-  "metadata": {},
-  "entity_id": "LT02T02:L068",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "The bed is in the room."
+    },
+    "ro": {
+      "name": "Patul este în cameră."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 14112,
+      "sha1": "b440211b0bb65010b622f9a27e0070597e374a6c"
+    }
+  }
 }

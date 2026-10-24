@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "-ough",
-    "ro": "-ough",
-    "de": "-ough",
-    "ru": "-ough",
-    "it": "-ough",
-    "es": "-ough",
-    "fr": "-ough",
-    "hu": "-ough",
-    "pt": "-ough"
-  },
-  "description": {
-    "en": "Letter name: -ough. Example: through.",
-    "ro": "Numele literei: -ough. Exemplu: through.",
-    "de": "Buchstabenname: -ough. Beispiel: through.",
-    "ru": "Название буквы: -ough. Пример: through.",
-    "it": "Nome della lettera: -ough. Esempio: through.",
-    "es": "Nombre de la letra: -ough. Ejemplo: through.",
-    "fr": "Nom de la lettre : -ough. Exemple : through.",
-    "hu": "Betűnév: -ough. Példa: through.",
-    "pt": "Nome da letra: -ough. Exemplo: through."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/uː/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "40d132978f67d2aa09cfe74d75d9719f84a42024"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L624",
+  "legacy_entity_id": "letter_through",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "-ough",
-      "example": "through"
+      "name": "-ough",
+      "description": "Letter name: -ough. Example: through.",
+      "ipa": "/uː/",
+      "example": "through",
+      "context": "-ough"
+    },
+    "ro": {
+      "name": "-ough",
+      "description": "Numele literei: -ough. Exemplu: through."
+    },
+    "de": {
+      "name": "-ough",
+      "description": "Buchstabenname: -ough. Beispiel: through."
+    },
+    "ru": {
+      "name": "-ough",
+      "description": "Название буквы: -ough. Пример: through."
+    },
+    "it": {
+      "name": "-ough",
+      "description": "Nome della lettera: -ough. Esempio: through."
+    },
+    "es": {
+      "name": "-ough",
+      "description": "Nombre de la letra: -ough. Ejemplo: through."
+    },
+    "fr": {
+      "name": "-ough",
+      "description": "Nom de la lettre : -ough. Exemple : through."
+    },
+    "hu": {
+      "name": "-ough",
+      "description": "Betűnév: -ough. Példa: through."
+    },
+    "pt": {
+      "name": "-ough",
+      "description": "Nome da letra: -ough. Exemplo: through."
     }
   },
-  "entity_id": "LT01T07:L624",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_through"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "40d132978f67d2aa09cfe74d75d9719f84a42024"
+    }
+  }
 }

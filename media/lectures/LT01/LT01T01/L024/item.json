@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "Ț",
-    "ro": "Ț",
-    "de": "Ț",
-    "ru": "Ț",
-    "it": "Ț",
-    "es": "Ț",
-    "fr": "Ț",
-    "hu": "Ț",
-    "pt": "Ț"
-  },
-  "description": {
-    "en": "The letter Ț is the twenty-first letter of the Romanian alphabet.",
-    "ro": "Litera Ț este a douăzeci și una literă a alfabetului român.",
-    "de": "Der Buchstabe Ț ist der einundzwanzigste Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква Ț — двадцать первая буква румынского алфавита.",
-    "it": "La lettera Ț è la ventunesima lettera dell'alfabeto rumeno.",
-    "es": "La letra Ț es la vigésima primera letra del alfabeto rumano.",
-    "fr": "La lettre Ț est la vingt et unième lettre de l'alphabet roumain.",
-    "hu": "A Ț betű a román ábécé huszonegyedik betűje.",
-    "pt": "A letra Ț é a vigésima primeira letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ts/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "bec7ffffa08e665f0b60fd0db32b483ba8391e0d",
-      "key": "lectures/LT01/LT01T01/L024/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L024",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L024",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "Ț",
+      "description": "The letter Ț is the twenty-first letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "Ț",
+      "description": "Litera Ț este a douăzeci și una literă a alfabetului român.",
+      "ipa": "/ts/"
+    },
+    "de": {
+      "name": "Ț",
+      "description": "Der Buchstabe Ț ist der einundzwanzigste Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "Ț",
+      "description": "Буква Ț — двадцать первая буква румынского алфавита."
+    },
+    "it": {
+      "name": "Ț",
+      "description": "La lettera Ț è la ventunesima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "Ț",
+      "description": "La letra Ț es la vigésima primera letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "Ț",
+      "description": "La lettre Ț est la vingt et unième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "Ț",
+      "description": "A Ț betű a román ábécé huszonegyedik betűje."
+    },
+    "pt": {
+      "name": "Ț",
+      "description": "A letra Ț é a vigésima primeira letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "bec7ffffa08e665f0b60fd0db32b483ba8391e0d"
+    }
+  }
 }

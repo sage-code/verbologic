@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "C",
-    "ro": "C",
-    "de": "C",
-    "ru": "C",
-    "it": "C",
-    "es": "C",
-    "fr": "C",
-    "hu": "C",
-    "pt": "C"
-  },
-  "description": {
-    "en": "Letter name: C. Example: ocean.",
-    "ro": "Numele literei: C. Exemplu: ocean.",
-    "de": "Name des Buchstabens: C. Beispiel: ocean.",
-    "ru": "Название буквы: C. Пример: ocean.",
-    "it": "Nome della lettera: C. Esempio: ocean.",
-    "es": "Nombre de la letra: C. Ejemplo: ocean.",
-    "fr": "Nom de la lettre : C. Exemple : ocean.",
-    "hu": "Betű neve: C. Példa: ocean.",
-    "pt": "Nome da letra: C. Exemplo: ocean."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ʃ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "cd8c926e6e8a04ab1fbd882bfa350429b23a39e0"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L585",
+  "legacy_entity_id": "letter_ocean",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "C",
-      "example": "ocean"
+      "name": "C",
+      "description": "Letter name: C. Example: ocean.",
+      "ipa": "/ʃ/",
+      "example": "ocean",
+      "context": "C"
+    },
+    "ro": {
+      "name": "C",
+      "description": "Numele literei: C. Exemplu: ocean."
+    },
+    "de": {
+      "name": "C",
+      "description": "Name des Buchstabens: C. Beispiel: ocean."
+    },
+    "ru": {
+      "name": "C",
+      "description": "Название буквы: C. Пример: ocean."
+    },
+    "it": {
+      "name": "C",
+      "description": "Nome della lettera: C. Esempio: ocean."
+    },
+    "es": {
+      "name": "C",
+      "description": "Nombre de la letra: C. Ejemplo: ocean."
+    },
+    "fr": {
+      "name": "C",
+      "description": "Nom de la lettre : C. Exemple : ocean."
+    },
+    "hu": {
+      "name": "C",
+      "description": "Betű neve: C. Példa: ocean."
+    },
+    "pt": {
+      "name": "C",
+      "description": "Nome da letra: C. Exemplo: ocean."
     }
   },
-  "entity_id": "LT01T07:L585",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_ocean"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "cd8c926e6e8a04ab1fbd882bfa350429b23a39e0"
+    }
+  }
 }

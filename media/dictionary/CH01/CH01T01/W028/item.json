@@ -4,139 +4,95 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "house",
-    "ro": "casă",
-    "de": "Haus",
-    "ru": "дом",
-    "it": "casa",
-    "es": "casa",
-    "fr": "maison",
-    "hu": "ház",
-    "pt": "casa"
-  },
-  "description": {
-    "en": "A house is a building where people live.",
-    "ro": "O casă este o clădire în care locuiesc oameni.",
-    "de": "Ein Haus ist ein Gebäude, in dem Menschen wohnen.",
-    "ru": "Дом — это здание, в котором живут люди.",
-    "it": "Una casa è un edificio in cui vivono le persone.",
-    "es": "Una casa es un edificio donde viven las personas.",
-    "fr": "Une maison est un bâtiment où vivent des gens.",
-    "hu": "A ház egy épület, ahol emberek laknak.",
-    "pt": "Uma casa é um edifício onde as pessoas vivem."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/eɪtʃ/"
-    },
-    "ro": {
-      "ipa": "/ˈkasə/"
-    },
-    "de": {
-      "ipa": "/haʊ̯s/"
-    },
-    "ru": {
-      "ipa": "/dom/"
-    },
-    "it": {
-      "ipa": "/ˈkaːza/"
-    },
-    "es": {
-      "ipa": "/ˈkasa/"
-    },
-    "fr": {
-      "ipa": "/mɛˈzɔ̃/"
-    },
-    "hu": {
-      "ipa": "/haːz/"
-    },
-    "pt": {
-      "ipa": "/ˈkaza/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12240,
-      "sha1": "0a2dbfb77f771bd92ff0c06b20bfe87afae365a9",
-      "key": "dictionary/CH01/CH01T01/W028/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "29f35454dfa28767bd075d7dc06529e725f29c1c",
-      "key": "dictionary/CH01/CH01T01/W028/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8d020167bdeed9fa1fb8cbe7e90175dfe8e197a6",
-      "key": "dictionary/CH01/CH01T01/W028/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1a35ce5b756febafdaf4351bfc3ef83a93fa23e0",
-      "key": "dictionary/CH01/CH01T01/W028/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "dbceb48453dadd510728037ce316b68511982b46",
-      "key": "dictionary/CH01/CH01T01/W028/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ce2bf3fbdd3e19850d5d9d3c08817ccf269a24d0",
-      "key": "dictionary/CH01/CH01T01/W028/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "f48d51b98b7a3e32f876809251defaaa42621db5",
-      "key": "dictionary/CH01/CH01T01/W028/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2dae784d25e486cf1522472a08e0382c55376ef4",
-      "key": "dictionary/CH01/CH01T01/W028/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e13bf9b9593f6899fd3bd12be9bcfea38bcaeb63",
-      "key": "dictionary/CH01/CH01T01/W028/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W028",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "house",
+      "description": "A house is a building where people live.",
+      "ipa": "/eɪtʃ/",
       "example": "house"
+    },
+    "ro": {
+      "name": "casă",
+      "description": "O casă este o clădire în care locuiesc oameni.",
+      "ipa": "/ˈkasə/"
+    },
+    "de": {
+      "name": "Haus",
+      "description": "Ein Haus ist ein Gebäude, in dem Menschen wohnen.",
+      "ipa": "/haʊ̯s/"
+    },
+    "ru": {
+      "name": "дом",
+      "description": "Дом — это здание, в котором живут люди.",
+      "ipa": "/dom/"
+    },
+    "it": {
+      "name": "casa",
+      "description": "Una casa è un edificio in cui vivono le persone.",
+      "ipa": "/ˈkaːza/"
+    },
+    "es": {
+      "name": "casa",
+      "description": "Una casa es un edificio donde viven las personas.",
+      "ipa": "/ˈkasa/"
+    },
+    "fr": {
+      "name": "maison",
+      "description": "Une maison est un bâtiment où vivent des gens.",
+      "ipa": "/mɛˈzɔ̃/"
+    },
+    "hu": {
+      "name": "ház",
+      "description": "A ház egy épület, ahol emberek laknak.",
+      "ipa": "/haːz/"
+    },
+    "pt": {
+      "name": "casa",
+      "description": "Uma casa é um edifício onde as pessoas vivem.",
+      "ipa": "/ˈkaza/"
     }
   },
-  "entity_id": "CH01T01:W028",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 12240,
+      "sha1": "0a2dbfb77f771bd92ff0c06b20bfe87afae365a9"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "29f35454dfa28767bd075d7dc06529e725f29c1c"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "8d020167bdeed9fa1fb8cbe7e90175dfe8e197a6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "1a35ce5b756febafdaf4351bfc3ef83a93fa23e0"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "dbceb48453dadd510728037ce316b68511982b46"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "ce2bf3fbdd3e19850d5d9d3c08817ccf269a24d0"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "f48d51b98b7a3e32f876809251defaaa42621db5"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "2dae784d25e486cf1522472a08e0382c55376ef4"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "e13bf9b9593f6899fd3bd12be9bcfea38bcaeb63"
+    }
+  }
 }

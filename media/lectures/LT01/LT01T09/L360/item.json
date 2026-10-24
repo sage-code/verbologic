@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T09",
   "kind": "letter",
-  "names": {
-    "en": "S",
-    "ro": "S",
-    "de": "S",
-    "ru": "S",
-    "it": "S",
-    "es": "S",
-    "fr": "S",
-    "hu": "S",
-    "pt": "S"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": "Letter name: Es. Example: Sonne.",
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": {
-      "ipa": "/ɛs/"
-    },
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "5c6423c89e01ad87024a05008e88b99a7b5dab03"
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T09:L360",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "S"
+    },
+    "ro": {
+      "name": "S"
+    },
     "de": {
-      "context": "Es",
-      "example": "Sonne"
+      "name": "S",
+      "description": "Letter name: Es. Example: Sonne.",
+      "ipa": "/ɛs/",
+      "example": "Sonne",
+      "context": "Es"
+    },
+    "ru": {
+      "name": "S"
+    },
+    "it": {
+      "name": "S"
+    },
+    "es": {
+      "name": "S"
+    },
+    "fr": {
+      "name": "S"
+    },
+    "hu": {
+      "name": "S"
+    },
+    "pt": {
+      "name": "S"
     }
   },
-  "entity_id": "LT01T09:L360",
-  "cefr": "A1"
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "5c6423c89e01ad87024a05008e88b99a7b5dab03"
+    }
+  }
 }

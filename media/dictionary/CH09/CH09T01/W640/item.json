@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T01",
   "kind": "word",
-  "names": {
-    "en": "schedule",
-    "ro": "program",
-    "de": "Zeitplan",
-    "ru": "расписание",
-    "it": "orario",
-    "es": "horario",
-    "fr": "horaire",
-    "hu": "beosztás",
-    "pt": "horário"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/proˈgram/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "a6c34f368d098d00a1e9cdbc10a64a749659aa27",
-      "key": "dictionary/CH09/CH09T01/W640/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T01:W640",
+  "cefr": "C1",
   "tags": [
     "vocabulary#office-vocabulary"
   ],
-  "metadata": {},
-  "entity_id": "CH09T01:W640",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "schedule"
+    },
+    "ro": {
+      "name": "program",
+      "ipa": "/proˈgram/"
+    },
+    "de": {
+      "name": "Zeitplan"
+    },
+    "ru": {
+      "name": "расписание"
+    },
+    "it": {
+      "name": "orario"
+    },
+    "es": {
+      "name": "horario"
+    },
+    "fr": {
+      "name": "horaire"
+    },
+    "hu": {
+      "name": "beosztás"
+    },
+    "pt": {
+      "name": "horário"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "a6c34f368d098d00a1e9cdbc10a64a749659aa27"
+    }
+  }
 }

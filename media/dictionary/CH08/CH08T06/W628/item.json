@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T06",
   "kind": "word",
-  "names": {
-    "en": "stone",
-    "ro": "piatră",
-    "de": "Stein",
-    "ru": "камень",
-    "it": "pietra",
-    "es": "piedra",
-    "fr": "pierre",
-    "hu": "kő",
-    "pt": "pedra"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈpjatrə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "aa66daa0cbcc0e44b17c9e55811eb6c98d023672",
-      "key": "dictionary/CH08/CH08T06/W628/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T06:W628",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T06"
   ],
-  "metadata": {},
-  "entity_id": "CH08T06:W628",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "stone"
+    },
+    "ro": {
+      "name": "piatră",
+      "ipa": "/ˈpjatrə/"
+    },
+    "de": {
+      "name": "Stein"
+    },
+    "ru": {
+      "name": "камень"
+    },
+    "it": {
+      "name": "pietra"
+    },
+    "es": {
+      "name": "piedra"
+    },
+    "fr": {
+      "name": "pierre"
+    },
+    "hu": {
+      "name": "kő"
+    },
+    "pt": {
+      "name": "pedra"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "aa66daa0cbcc0e44b17c9e55811eb6c98d023672"
+    }
+  }
 }

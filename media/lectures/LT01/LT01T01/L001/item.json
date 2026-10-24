@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "A",
-    "ro": "A",
-    "de": "A",
-    "ru": "A",
-    "it": "A",
-    "es": "A",
-    "fr": "A",
-    "hu": "A",
-    "pt": "A"
-  },
-  "description": {
-    "en": "The letter A is the first letter of the Romanian alphabet.",
-    "ro": "Litera A este prima literă a alfabetului limbii române.",
-    "de": "Der Buchstabe A ist der erste Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква A — первая буква румынского алфавита.",
-    "it": "La lettera A è la prima lettera dell'alfabeto rumeno.",
-    "es": "La letra A es la primera letra del alfabeto rumano.",
-    "fr": "La lettre A est la première lettre de l'alphabet roumain.",
-    "hu": "Az A betű a román ábécé első betűje.",
-    "pt": "A letra A é a primeira letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/a/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "f989cac5e921f2d3462fd440cb5b0a0caab21e1e",
-      "key": "lectures/LT01/LT01T01/L001/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L001",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L001",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "A",
+      "description": "The letter A is the first letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "A",
+      "description": "Litera A este prima literă a alfabetului limbii române.",
+      "ipa": "/a/"
+    },
+    "de": {
+      "name": "A",
+      "description": "Der Buchstabe A ist der erste Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "A",
+      "description": "Буква A — первая буква румынского алфавита."
+    },
+    "it": {
+      "name": "A",
+      "description": "La lettera A è la prima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "A",
+      "description": "La letra A es la primera letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "A",
+      "description": "La lettre A est la première lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "A",
+      "description": "Az A betű a román ábécé első betűje."
+    },
+    "pt": {
+      "name": "A",
+      "description": "A letra A é a primeira letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "f989cac5e921f2d3462fd440cb5b0a0caab21e1e"
+    }
+  }
 }

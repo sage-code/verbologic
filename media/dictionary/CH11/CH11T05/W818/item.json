@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T05",
   "kind": "word",
-  "names": {
-    "en": "than",
-    "ro": "decât",
-    "de": "als",
-    "ru": "чем",
-    "it": "di",
-    "es": "que",
-    "fr": "que",
-    "hu": "mint",
-    "pt": "do que"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/deˈkɨt/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "44a720a95191edd204ceefbc73cd7e56ad6244cf",
-      "key": "dictionary/CH11/CH11T05/W818/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T05:W818",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T05"
   ],
-  "metadata": {},
-  "entity_id": "CH11T05:W818",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "than"
+    },
+    "ro": {
+      "name": "decât",
+      "ipa": "/deˈkɨt/"
+    },
+    "de": {
+      "name": "als"
+    },
+    "ru": {
+      "name": "чем"
+    },
+    "it": {
+      "name": "di"
+    },
+    "es": {
+      "name": "que"
+    },
+    "fr": {
+      "name": "que"
+    },
+    "hu": {
+      "name": "mint"
+    },
+    "pt": {
+      "name": "do que"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "44a720a95191edd204ceefbc73cd7e56ad6244cf"
+    }
+  }
 }

@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "F",
-    "ro": "F",
-    "de": "F",
-    "ru": "F",
-    "it": "F",
-    "es": "F",
-    "fr": "F",
-    "hu": "F",
-    "pt": "F"
-  },
-  "description": {
-    "en": "The letter F is the sixth letter of the Romanian alphabet.",
-    "ro": "Litera F este a șasea literă a alfabetului român.",
-    "de": "Der Buchstabe F ist der sechste Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква F — шестая буква румынского алфавита.",
-    "it": "La lettera F è la sesta lettera dell'alfabeto rumeno.",
-    "es": "La letra F es la sexta letra del alfabeto rumano.",
-    "fr": "La lettre F est la sixième lettre de l'alphabet roumain.",
-    "hu": "Az F betű a román ábécé hatodik betűje.",
-    "pt": "A letra F é a sexta letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/f/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8208,
-      "sha1": "0588c3c2ca2734db40e763bd2efe2eba53c3c737",
-      "key": "lectures/LT01/LT01T01/L008/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L008",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L008",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "F",
+      "description": "The letter F is the sixth letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "F",
+      "description": "Litera F este a șasea literă a alfabetului român.",
+      "ipa": "/f/"
+    },
+    "de": {
+      "name": "F",
+      "description": "Der Buchstabe F ist der sechste Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "F",
+      "description": "Буква F — шестая буква румынского алфавита."
+    },
+    "it": {
+      "name": "F",
+      "description": "La lettera F è la sesta lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "F",
+      "description": "La letra F es la sexta letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "F",
+      "description": "La lettre F est la sixième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "F",
+      "description": "Az F betű a román ábécé hatodik betűje."
+    },
+    "pt": {
+      "name": "F",
+      "description": "A letra F é a sexta letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 8208,
+      "sha1": "0588c3c2ca2734db40e763bd2efe2eba53c3c737"
+    }
+  }
 }

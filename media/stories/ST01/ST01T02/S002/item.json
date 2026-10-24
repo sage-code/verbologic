@@ -3,181 +3,123 @@
   "track": "stories",
   "chapter": "ST01",
   "topic": "ST01T02",
-  "entity_id": "ST01T02:S002",
   "kind": "story",
-  "names": {
-    "en": "The Three Little Pigs",
-    "ro": "Cei trei purceluși",
-    "de": "Die drei kleinen Schweinchen",
-    "ru": "Три поросёнка",
-    "it": "I tre porcellini",
-    "es": "Los tres cerditos",
-    "fr": "Les trois petits cochons",
-    "hu": "A három kismalac",
-    "pt": "Os três porquinhos"
-  },
-  "description": {
-    "en": "Three siblings build homes in different ways and discover the value of patience and care.",
-    "ro": "Trei frați își construiesc casele în moduri diferite și descoperă valoarea răbdării și a grijii.",
-    "de": "Drei Geschwister bauen auf verschiedene Weise Häuser und entdecken den Wert von Geduld und Sorgfalt.",
-    "ru": "Трое братьев строят дома по-разному и узнают, как важны терпение и забота.",
-    "it": "Tre fratelli costruiscono le loro case in modi diversi e scoprono il valore della pazienza e della cura.",
-    "es": "Tres hermanos construyen sus casas de distintas maneras y descubren el valor de la paciencia y el cuidado.",
-    "fr": "Trois frères construisent leurs maisons de différentes façons et découvrent l’importance de la patience et du soin.",
-    "hu": "Három testvér különböző módon épít házat, és megtapasztalja a türelem és a gondosság értékét.",
-    "pt": "Três irmãos constroem suas casas de maneiras diferentes e descobrem o valor da paciência e do cuidado."
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 9072,
-      "sha1": "442b3f65c85a7ea1544fb393566845a5f0dda8db",
-      "key": "stories/ST01/ST01T02/S002/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13392,
-      "sha1": "ea7acace9978be2d137009583f31272fe4cbb879",
-      "key": "stories/ST01/ST01T02/S002/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 14544,
-      "sha1": "abbb1e28031f4412f560a8586fcd982ba0d1da90",
-      "key": "stories/ST01/ST01T02/S002/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12240,
-      "sha1": "902e4fabf3487b1856532653ac1aba40ba3eade1",
-      "key": "stories/ST01/ST01T02/S002/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13392,
-      "sha1": "5c605b83cd9615a106046ca0afd15a3aca524c8e",
-      "key": "stories/ST01/ST01T02/S002/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13680,
-      "sha1": "e9dc7909474aaf7feeab3b11e9f2de66d5f5da2d",
-      "key": "stories/ST01/ST01T02/S002/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12816,
-      "sha1": "2d53e69e70aa680e716d3811e38b39470740120e",
-      "key": "stories/ST01/ST01T02/S002/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "6ba563dc2ef354b36283a9fdcdacadec6ac276fc",
-      "key": "stories/ST01/ST01T02/S002/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11808,
-      "sha1": "07da3a2e52d67c1eceea57635a09fb2383b2f5d1",
-      "key": "stories/ST01/ST01T02/S002/sound/pt.mp3"
-    }
-  },
-  "read": {
-    "en": {
-      "file": "read/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 245088,
-      "sha1": "63ba9e2793dd9fae172c9af3252d6992fe0aac5b",
-      "key": "stories/ST01/ST01T02/S002/read/en.mp3"
-    },
-    "ro": {
-      "file": "read/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 308016,
-      "sha1": "a61a6602a789e008445d9d6902fd4ae32c532e71",
-      "key": "stories/ST01/ST01T02/S002/read/ro.mp3"
-    },
-    "de": {
-      "file": "read/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 309456,
-      "sha1": "ee72d115ab4707f237c22d073de1b2c2c90a8de2",
-      "key": "stories/ST01/ST01T02/S002/read/de.mp3"
-    },
-    "ru": {
-      "file": "read/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 302976,
-      "sha1": "ad41fc56b22f3535fdec893bfd0a92e100271aee",
-      "key": "stories/ST01/ST01T02/S002/read/ru.mp3"
-    },
-    "it": {
-      "file": "read/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 328464,
-      "sha1": "1b4048b36eadbc8c86bb6c7077f77b5567072473",
-      "key": "stories/ST01/ST01T02/S002/read/it.mp3"
-    },
-    "es": {
-      "file": "read/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 310320,
-      "sha1": "c9b42fb2dee91e33a2b6effe304056d6c17cacee",
-      "key": "stories/ST01/ST01T02/S002/read/es.mp3"
-    },
-    "fr": {
-      "file": "read/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 279216,
-      "sha1": "0e6b7e5ff913e9d260168dd3732cfb680041763f",
-      "key": "stories/ST01/ST01T02/S002/read/fr.mp3"
-    },
-    "hu": {
-      "file": "read/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 310320,
-      "sha1": "080d4273f8fde79687d584fad4e2837c537bfd64",
-      "key": "stories/ST01/ST01T02/S002/read/hu.mp3"
-    },
-    "pt": {
-      "file": "read/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 275040,
-      "sha1": "f399deb549f01c5e1cfb58e2f677bb6fbf95b968",
-      "key": "stories/ST01/ST01T02/S002/read/pt.mp3"
-    }
-  },
+  "entity_id": "ST01T02:S002",
+  "cefr": "A1",
   "tags": [
     "story#fairy-tale",
     "level#A1"
   ],
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "The Three Little Pigs",
+      "description": "Three siblings build homes in different ways and discover the value of patience and care."
+    },
+    "ro": {
+      "name": "Cei trei purceluși",
+      "description": "Trei frați își construiesc casele în moduri diferite și descoperă valoarea răbdării și a grijii."
+    },
+    "de": {
+      "name": "Die drei kleinen Schweinchen",
+      "description": "Drei Geschwister bauen auf verschiedene Weise Häuser und entdecken den Wert von Geduld und Sorgfalt."
+    },
+    "ru": {
+      "name": "Три поросёнка",
+      "description": "Трое братьев строят дома по-разному и узнают, как важны терпение и забота."
+    },
+    "it": {
+      "name": "I tre porcellini",
+      "description": "Tre fratelli costruiscono le loro case in modi diversi e scoprono il valore della pazienza e della cura."
+    },
+    "es": {
+      "name": "Los tres cerditos",
+      "description": "Tres hermanos construyen sus casas de distintas maneras y descubren el valor de la paciencia y el cuidado."
+    },
+    "fr": {
+      "name": "Les trois petits cochons",
+      "description": "Trois frères construisent leurs maisons de différentes façons et découvrent l’importance de la patience et du soin."
+    },
+    "hu": {
+      "name": "A három kismalac",
+      "description": "Három testvér különböző módon épít házat, és megtapasztalja a türelem és a gondosság értékét."
+    },
+    "pt": {
+      "name": "Os três porquinhos",
+      "description": "Três irmãos constroem suas casas de maneiras diferentes e descobrem o valor da paciência e do cuidado."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 9072,
+      "sha1": "442b3f65c85a7ea1544fb393566845a5f0dda8db"
+    },
+    "sound/ro.mp3": {
+      "bytes": 13392,
+      "sha1": "ea7acace9978be2d137009583f31272fe4cbb879"
+    },
+    "sound/de.mp3": {
+      "bytes": 14544,
+      "sha1": "abbb1e28031f4412f560a8586fcd982ba0d1da90"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12240,
+      "sha1": "902e4fabf3487b1856532653ac1aba40ba3eade1"
+    },
+    "sound/it.mp3": {
+      "bytes": 13392,
+      "sha1": "5c605b83cd9615a106046ca0afd15a3aca524c8e"
+    },
+    "sound/es.mp3": {
+      "bytes": 13680,
+      "sha1": "e9dc7909474aaf7feeab3b11e9f2de66d5f5da2d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12816,
+      "sha1": "2d53e69e70aa680e716d3811e38b39470740120e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12528,
+      "sha1": "6ba563dc2ef354b36283a9fdcdacadec6ac276fc"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11808,
+      "sha1": "07da3a2e52d67c1eceea57635a09fb2383b2f5d1"
+    },
+    "read/en.mp3": {
+      "bytes": 245088,
+      "sha1": "63ba9e2793dd9fae172c9af3252d6992fe0aac5b"
+    },
+    "read/ro.mp3": {
+      "bytes": 308016,
+      "sha1": "a61a6602a789e008445d9d6902fd4ae32c532e71"
+    },
+    "read/de.mp3": {
+      "bytes": 309456,
+      "sha1": "ee72d115ab4707f237c22d073de1b2c2c90a8de2"
+    },
+    "read/ru.mp3": {
+      "bytes": 302976,
+      "sha1": "ad41fc56b22f3535fdec893bfd0a92e100271aee"
+    },
+    "read/it.mp3": {
+      "bytes": 328464,
+      "sha1": "1b4048b36eadbc8c86bb6c7077f77b5567072473"
+    },
+    "read/es.mp3": {
+      "bytes": 310320,
+      "sha1": "c9b42fb2dee91e33a2b6effe304056d6c17cacee"
+    },
+    "read/fr.mp3": {
+      "bytes": 279216,
+      "sha1": "0e6b7e5ff913e9d260168dd3732cfb680041763f"
+    },
+    "read/hu.mp3": {
+      "bytes": 310320,
+      "sha1": "080d4273f8fde79687d584fad4e2837c537bfd64"
+    },
+    "read/pt.mp3": {
+      "bytes": 275040,
+      "sha1": "f399deb549f01c5e1cfb58e2f677bb6fbf95b968"
+    }
+  }
 }

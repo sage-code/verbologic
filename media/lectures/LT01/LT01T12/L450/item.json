@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T12",
   "kind": "letter",
-  "names": {
-    "en": "S",
-    "ro": "S",
-    "de": "S",
-    "ru": "S",
-    "it": "S",
-    "es": "S",
-    "fr": "S",
-    "hu": "S",
-    "pt": "S"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": "Letter name: ese. Example: sol.",
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": {
-      "ipa": "/ˈese/"
-    },
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "edd2a740095ee43e2406d0557a486e655a7d8272"
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T12:L450",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "S"
+    },
+    "ro": {
+      "name": "S"
+    },
+    "de": {
+      "name": "S"
+    },
+    "ru": {
+      "name": "S"
+    },
+    "it": {
+      "name": "S"
+    },
     "es": {
-      "context": "ese",
-      "example": "sol"
+      "name": "S",
+      "description": "Letter name: ese. Example: sol.",
+      "ipa": "/ˈese/",
+      "example": "sol",
+      "context": "ese"
+    },
+    "fr": {
+      "name": "S"
+    },
+    "hu": {
+      "name": "S"
+    },
+    "pt": {
+      "name": "S"
     }
   },
-  "entity_id": "LT01T12:L450",
-  "cefr": "A1"
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "edd2a740095ee43e2406d0557a486e655a7d8272"
+    }
+  }
 }

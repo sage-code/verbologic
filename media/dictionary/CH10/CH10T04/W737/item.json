@@ -4,111 +4,45 @@
   "chapter": "CH10",
   "topic": "CH10T04",
   "kind": "word",
-  "names": {
-    "en": "mechanism",
-    "ro": "mecanism",
-    "de": "Mechanismus",
-    "ru": "механизм",
-    "it": "meccanismo",
-    "es": "mecanismo",
-    "fr": "mécanisme",
-    "hu": "mechanizmus",
-    "pt": "mecanismo"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/mekaˈnism/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "106ccdc37b89362fd73be862a534dc2405c3e3a3",
-      "key": "dictionary/CH10/CH10T04/W737/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH10T04:W737",
+  "cefr": "C1",
   "tags": [
     "scaffold#C10T04"
   ],
-  "metadata": {},
-  "entity_id": "CH10T04:W737",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "mechanism"
+    },
+    "ro": {
+      "name": "mecanism",
+      "ipa": "/mekaˈnism/"
+    },
+    "de": {
+      "name": "Mechanismus"
+    },
+    "ru": {
+      "name": "механизм"
+    },
+    "it": {
+      "name": "meccanismo"
+    },
+    "es": {
+      "name": "mecanismo"
+    },
+    "fr": {
+      "name": "mécanisme"
+    },
+    "hu": {
+      "name": "mechanizmus"
+    },
+    "pt": {
+      "name": "mecanismo"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "106ccdc37b89362fd73be862a534dc2405c3e3a3"
+    }
+  }
 }

@@ -4,125 +4,55 @@
   "chapter": "CH01",
   "topic": "CH01T09",
   "kind": "topic-title",
-  "names": {
-    "en": "Alphabet",
-    "ro": "Alfabetul",
-    "de": "Alphabet",
-    "ru": "Алфавит",
-    "it": "Alfabeto",
-    "es": "Alfabeto",
-    "fr": "Alphabet",
-    "hu": "Ábécé",
-    "pt": "Alfabeto"
-  },
-  "description": {
-    "en": "The 26 common letters of the Latin alphabet. Language-specific letters are studied in lectures.",
-    "ro": "Cele 26 de litere comune ale alfabetului latin. Literele specifice unei limbi se studiază în lecții.",
-    "de": "Die 26 gemeinsamen Buchstaben des lateinischen Alphabets. Sprachspezifische Buchstaben werden in Lektionen behandelt.",
-    "ru": "26 общих букв латинского алфавита. Буквы, характерные для отдельных языков, изучаются на лекциях.",
-    "it": "Le 26 lettere comuni dell’alfabeto latino. Le lettere specifiche di una lingua si studiano nelle lezioni.",
-    "es": "Las 26 letras comunes del alfabeto latino. Las letras propias de cada idioma se estudian en las lecciones.",
-    "fr": "Les 26 lettres communes de l’alphabet latin. Les lettres propres à chaque langue sont étudiées dans les cours.",
-    "hu": "A latin ábécé 26 közös betűje. A nyelvspecifikus betűket a leckékben tanuljuk.",
-    "pt": "As 26 letras comuns do alfabeto latino. As letras específicas de cada idioma são estudadas nas aulas."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ˈælfəbɛt/"
-    },
-    "ro": {
-      "ipa": "/alfaˈbetul/"
-    },
-    "de": {
-      "ipa": "/ˈalfabɛt/"
-    },
-    "ru": {
-      "ipa": "/alfaˈvʲit/"
-    },
-    "it": {
-      "ipa": "/alfaˈbɛto/"
-    },
-    "es": {
-      "ipa": "/alfaˈβeto/"
-    },
-    "fr": {
-      "ipa": "/alfabɛ/"
-    },
-    "hu": {
-      "ipa": "/ˈaːbeːtseː/"
-    },
-    "pt": {
-      "ipa": "/alfaˈβetu/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH01T09",
   "tags": [
     "title#topic"
   ],
-  "metadata": {},
-  "entity_id": "CH01T09"
+  "locales": {
+    "en": {
+      "name": "Alphabet",
+      "description": "The 26 common letters of the Latin alphabet. Language-specific letters are studied in lectures.",
+      "ipa": "/ˈælfəbɛt/"
+    },
+    "ro": {
+      "name": "Alfabetul",
+      "description": "Cele 26 de litere comune ale alfabetului latin. Literele specifice unei limbi se studiază în lecții.",
+      "ipa": "/alfaˈbetul/"
+    },
+    "de": {
+      "name": "Alphabet",
+      "description": "Die 26 gemeinsamen Buchstaben des lateinischen Alphabets. Sprachspezifische Buchstaben werden in Lektionen behandelt.",
+      "ipa": "/ˈalfabɛt/"
+    },
+    "ru": {
+      "name": "Алфавит",
+      "description": "26 общих букв латинского алфавита. Буквы, характерные для отдельных языков, изучаются на лекциях.",
+      "ipa": "/alfaˈvʲit/"
+    },
+    "it": {
+      "name": "Alfabeto",
+      "description": "Le 26 lettere comuni dell’alfabeto latino. Le lettere specifiche di una lingua si studiano nelle lezioni.",
+      "ipa": "/alfaˈbɛto/"
+    },
+    "es": {
+      "name": "Alfabeto",
+      "description": "Las 26 letras comunes del alfabeto latino. Las letras propias de cada idioma se estudian en las lecciones.",
+      "ipa": "/alfaˈβeto/"
+    },
+    "fr": {
+      "name": "Alphabet",
+      "description": "Les 26 lettres communes de l’alphabet latin. Les lettres propres à chaque langue sont étudiées dans les cours.",
+      "ipa": "/alfabɛ/"
+    },
+    "hu": {
+      "name": "Ábécé",
+      "description": "A latin ábécé 26 közös betűje. A nyelvspecifikus betűket a leckékben tanuljuk.",
+      "ipa": "/ˈaːbeːtseː/"
+    },
+    "pt": {
+      "name": "Alfabeto",
+      "description": "As 26 letras comuns do alfabeto latino. As letras específicas de cada idioma são estudadas nas aulas.",
+      "ipa": "/alfaˈβetu/"
+    }
+  }
 }

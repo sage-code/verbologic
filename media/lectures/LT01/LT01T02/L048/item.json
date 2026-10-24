@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "iau in iau (I take / they take)",
-    "ro": "iau",
-    "de": "iau in iau (ich nehme / sie nehmen)",
-    "ru": "iau в iau (я беру / они берут)",
-    "it": "iau in iau (prendo / prendono)",
-    "es": "iau en iau (tomo / toman)",
-    "fr": "iau dans iau (je prends / ils prennent)",
-    "hu": "iau az iau-ban (veszek / vesznek)",
-    "pt": "iau em iau (pego / pegam)"
-  },
-  "description": {
-    "en": "This item illustrates the Romanian diphthong iau as found in the verb form iau.",
-    "ro": "Acest element ilustrează diftongul românesc iau, așa cum apare în forma verbală iau.",
-    "de": "Dieses Element veranschaulicht den rumänischen Diphthong iau, wie er in der Verbform iau vorkommt.",
-    "ru": "Этот элемент иллюстрирует румынский дифтонг iau, встречающийся в глагольной форме iau.",
-    "it": "Questo elemento illustra il dittongo rumeno iau come si trova nella forma verbale iau.",
-    "es": "Este elemento ilustra el diptongo rumano iau tal como aparece en la forma verbal iau.",
-    "fr": "Cet élément illustre la diphtongue roumaine iau telle qu'elle apparaît dans la forme verbale iau.",
-    "hu": "Ez az elem a román iau kettőshangzót mutatja be az iau igealakban.",
-    "pt": "Este item ilustra o ditongo romeno iau, conforme encontrado na forma verbal iau."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/jaw/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 9072,
-      "sha1": "6fa9e3e6725fa56487386cc27f7aa8265ae64d4a",
-      "key": "lectures/LT01/LT01T02/L048/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L048",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L048",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "iau in iau (I take / they take)",
+      "description": "This item illustrates the Romanian diphthong iau as found in the verb form iau."
+    },
+    "ro": {
+      "name": "iau",
+      "description": "Acest element ilustrează diftongul românesc iau, așa cum apare în forma verbală iau.",
+      "ipa": "/jaw/"
+    },
+    "de": {
+      "name": "iau in iau (ich nehme / sie nehmen)",
+      "description": "Dieses Element veranschaulicht den rumänischen Diphthong iau, wie er in der Verbform iau vorkommt."
+    },
+    "ru": {
+      "name": "iau в iau (я беру / они берут)",
+      "description": "Этот элемент иллюстрирует румынский дифтонг iau, встречающийся в глагольной форме iau."
+    },
+    "it": {
+      "name": "iau in iau (prendo / prendono)",
+      "description": "Questo elemento illustra il dittongo rumeno iau come si trova nella forma verbale iau."
+    },
+    "es": {
+      "name": "iau en iau (tomo / toman)",
+      "description": "Este elemento ilustra el diptongo rumano iau tal como aparece en la forma verbal iau."
+    },
+    "fr": {
+      "name": "iau dans iau (je prends / ils prennent)",
+      "description": "Cet élément illustre la diphtongue roumaine iau telle qu'elle apparaît dans la forme verbale iau."
+    },
+    "hu": {
+      "name": "iau az iau-ban (veszek / vesznek)",
+      "description": "Ez az elem a román iau kettőshangzót mutatja be az iau igealakban."
+    },
+    "pt": {
+      "name": "iau em iau (pego / pegam)",
+      "description": "Este item ilustra o ditongo romeno iau, conforme encontrado na forma verbal iau."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 9072,
+      "sha1": "6fa9e3e6725fa56487386cc27f7aa8265ae64d4a"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T14",
   "kind": "letter",
-  "names": {
-    "en": "U",
-    "ro": "U",
-    "de": "U",
-    "ru": "U",
-    "it": "U",
-    "es": "U",
-    "fr": "U",
-    "hu": "U",
-    "pt": "U"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": "Letter name: u. Example: utca.",
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": {
-      "ipa": "/u/"
-    },
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "97e6ad5f51078dc657046c786e0d7c77a8fd35ae"
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T14:L518",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "U"
+    },
+    "ro": {
+      "name": "U"
+    },
+    "de": {
+      "name": "U"
+    },
+    "ru": {
+      "name": "U"
+    },
+    "it": {
+      "name": "U"
+    },
+    "es": {
+      "name": "U"
+    },
+    "fr": {
+      "name": "U"
+    },
     "hu": {
-      "context": "u",
-      "example": "utca"
+      "name": "U",
+      "description": "Letter name: u. Example: utca.",
+      "ipa": "/u/",
+      "example": "utca",
+      "context": "u"
+    },
+    "pt": {
+      "name": "U"
     }
   },
-  "entity_id": "LT01T14:L518",
-  "cefr": "A1"
+  "files": {
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "97e6ad5f51078dc657046c786e0d7c77a8fd35ae"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T01",
   "kind": "word",
-  "names": {
-    "en": "cave",
-    "ro": "peșteră",
-    "de": "Höhle",
-    "ru": "пещера",
-    "it": "grotta",
-    "es": "cueva",
-    "fr": "grotte",
-    "hu": "barlang",
-    "pt": "caverna"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈpeʃterə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "3f42936ecd497189c2d79a13f6d6231512903e77",
-      "key": "dictionary/CH08/CH08T01/W580/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T01:W580",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T01"
   ],
-  "metadata": {},
-  "entity_id": "CH08T01:W580",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "cave"
+    },
+    "ro": {
+      "name": "peșteră",
+      "ipa": "/ˈpeʃterə/"
+    },
+    "de": {
+      "name": "Höhle"
+    },
+    "ru": {
+      "name": "пещера"
+    },
+    "it": {
+      "name": "grotta"
+    },
+    "es": {
+      "name": "cueva"
+    },
+    "fr": {
+      "name": "grotte"
+    },
+    "hu": {
+      "name": "barlang"
+    },
+    "pt": {
+      "name": "caverna"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "3f42936ecd497189c2d79a13f6d6231512903e77"
+    }
+  }
 }

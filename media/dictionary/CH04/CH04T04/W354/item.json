@@ -4,111 +4,45 @@
   "chapter": "CH04",
   "topic": "CH04T04",
   "kind": "word",
-  "names": {
-    "en": "right",
-    "ro": "dreapta",
-    "de": "rechts",
-    "ru": "направо",
-    "it": "destra",
-    "es": "derecha",
-    "fr": "droite",
-    "hu": "jobbra",
-    "pt": "direita"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈdreapta/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "40f709aa29dfeca16c942708d5d0fa4c5e73b1aa",
-      "key": "dictionary/CH04/CH04T04/W354/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH04T04:W354",
+  "cefr": "A2",
   "tags": [
     "vocabulary#transport-directions"
   ],
-  "metadata": {},
-  "entity_id": "CH04T04:W354",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "right"
+    },
+    "ro": {
+      "name": "dreapta",
+      "ipa": "/ˈdreapta/"
+    },
+    "de": {
+      "name": "rechts"
+    },
+    "ru": {
+      "name": "направо"
+    },
+    "it": {
+      "name": "destra"
+    },
+    "es": {
+      "name": "derecha"
+    },
+    "fr": {
+      "name": "droite"
+    },
+    "hu": {
+      "name": "jobbra"
+    },
+    "pt": {
+      "name": "direita"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "40f709aa29dfeca16c942708d5d0fa4c5e73b1aa"
+    }
+  }
 }

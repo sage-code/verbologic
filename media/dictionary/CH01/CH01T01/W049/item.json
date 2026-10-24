@@ -4,139 +4,95 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "around",
-    "ro": "în jur",
-    "de": "herum",
-    "ru": "вокруг",
-    "it": "intorno",
-    "es": "alrededor",
-    "fr": "autour",
-    "hu": "körül",
-    "pt": "ao redor"
-  },
-  "description": {
-    "en": "Around means located on every side or in a circular direction.",
-    "ro": "În jur înseamnă situat pe toate părțile sau într-o direcție circulară.",
-    "de": "Herum bedeutet, sich auf allen Seiten oder in einer kreisförmigen Richtung zu befinden.",
-    "ru": "Вокруг означает расположенный со всех сторон или в круговом направлении.",
-    "it": "Intorno significa situato su ogni lato o in una direzione circolare.",
-    "es": "Alrededor significa situado en todos los lados o en una dirección circular.",
-    "fr": "Autour signifie situé de tous les côtés ou dans une direction circulaire.",
-    "hu": "A körül azt jelenti, hogy minden oldalon vagy körkörös irányban található.",
-    "pt": "Ao redor significa localizado em todos os lados ou em uma direção circular."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɑːr/"
-    },
-    "ro": {
-      "ipa": "/ɨn ˈʒur/"
-    },
-    "de": {
-      "ipa": "/hɛˈʁʊm/"
-    },
-    "ru": {
-      "ipa": "/vɐˈkruk/"
-    },
-    "it": {
-      "ipa": "/inˈtorno/"
-    },
-    "es": {
-      "ipa": "/alreðeˈðoɾ/"
-    },
-    "fr": {
-      "ipa": "/oˈtuʁ/"
-    },
-    "hu": {
-      "ipa": "/ˈkøryl/"
-    },
-    "pt": {
-      "ipa": "/aw ʁɨˈðoɾ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12096,
-      "sha1": "db0bdc43921c598b2a984ab3018ffdf1605168fe",
-      "key": "dictionary/CH01/CH01T01/W049/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "760d2bcf819263344121d3ffa97236343b508b2e",
-      "key": "dictionary/CH01/CH01T01/W049/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "efbd774696b31050c222acb9df9e34a974c6da3e",
-      "key": "dictionary/CH01/CH01T01/W049/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "af64a09cc73c5f6570b09da9b35132a5bd9a8f37",
-      "key": "dictionary/CH01/CH01T01/W049/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "545cbd969218b4acef8c48d7318ed8517ced17d0",
-      "key": "dictionary/CH01/CH01T01/W049/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1ef2d2615618ad4e0eebdb701ac73ae59c42e6a7",
-      "key": "dictionary/CH01/CH01T01/W049/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b2eac341e98794def0adf1aac98b9f14108c28ee",
-      "key": "dictionary/CH01/CH01T01/W049/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2ea0d44e437a8e310c12bb63a290e7e010189e55",
-      "key": "dictionary/CH01/CH01T01/W049/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "80b215fded531df0255d1407d504361c7469b96f",
-      "key": "dictionary/CH01/CH01T01/W049/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W049",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "around",
+      "description": "Around means located on every side or in a circular direction.",
+      "ipa": "/ɑːr/",
       "example": "around"
+    },
+    "ro": {
+      "name": "în jur",
+      "description": "În jur înseamnă situat pe toate părțile sau într-o direcție circulară.",
+      "ipa": "/ɨn ˈʒur/"
+    },
+    "de": {
+      "name": "herum",
+      "description": "Herum bedeutet, sich auf allen Seiten oder in einer kreisförmigen Richtung zu befinden.",
+      "ipa": "/hɛˈʁʊm/"
+    },
+    "ru": {
+      "name": "вокруг",
+      "description": "Вокруг означает расположенный со всех сторон или в круговом направлении.",
+      "ipa": "/vɐˈkruk/"
+    },
+    "it": {
+      "name": "intorno",
+      "description": "Intorno significa situato su ogni lato o in una direzione circolare.",
+      "ipa": "/inˈtorno/"
+    },
+    "es": {
+      "name": "alrededor",
+      "description": "Alrededor significa situado en todos los lados o en una dirección circular.",
+      "ipa": "/alreðeˈðoɾ/"
+    },
+    "fr": {
+      "name": "autour",
+      "description": "Autour signifie situé de tous les côtés ou dans une direction circulaire.",
+      "ipa": "/oˈtuʁ/"
+    },
+    "hu": {
+      "name": "körül",
+      "description": "A körül azt jelenti, hogy minden oldalon vagy körkörös irányban található.",
+      "ipa": "/ˈkøryl/"
+    },
+    "pt": {
+      "name": "ao redor",
+      "description": "Ao redor significa localizado em todos os lados ou em uma direção circular.",
+      "ipa": "/aw ʁɨˈðoɾ/"
     }
   },
-  "entity_id": "CH01T01:W049",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 12096,
+      "sha1": "db0bdc43921c598b2a984ab3018ffdf1605168fe"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "760d2bcf819263344121d3ffa97236343b508b2e"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "efbd774696b31050c222acb9df9e34a974c6da3e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "af64a09cc73c5f6570b09da9b35132a5bd9a8f37"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "545cbd969218b4acef8c48d7318ed8517ced17d0"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "1ef2d2615618ad4e0eebdb701ac73ae59c42e6a7"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "b2eac341e98794def0adf1aac98b9f14108c28ee"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "2ea0d44e437a8e310c12bb63a290e7e010189e55"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "80b215fded531df0255d1407d504361c7469b96f"
+    }
+  }
 }

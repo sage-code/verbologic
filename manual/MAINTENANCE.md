@@ -174,18 +174,16 @@ bucket → Manage API tokens): `CLOUDFLARE_ACCOUNT_ID`, `R2_BUCKET`,
 `R2_S3_ENDPOINT`, `R2_S3_ACCESS_KEY_ID`, `R2_S3_SECRET_ACCESS_KEY`. `.env` is
 loaded automatically. Without them the local checks still run, but the delta
 is local-hash only. After every
-successful PUT the script writes the new `sha1`/`bytes`/`status` back into the
-item manifest — the committed baseline always means *"these exact bytes are
-on R2"*, so there is no separate ledger step and no ordering trap.
+successful PUT the script writes the new `sha1`/`bytes` back into the item
+manifest's `files` map — the committed baseline always means *"these exact
+bytes are on R2"*, so there is no separate ledger step and no ordering trap.
 
-The `media-sync.mjs` commands above still consume the retired `media/audio`
-layout; migrating that uploader to `media/dictionary` and `media/lectures` is
-separate work. The generator below writes and indexes local content but does
+`media-sync.mjs` reads the shared `media/dictionary` and `media/lectures`
+trees directly. The generator below writes and indexes local content but does
 not upload it.
 
-An audio descriptor with `status: "pending"` and no local
-`sound/<locale>.mp3` renders as a disabled "audio coming soon" button until
-audio is generated.
+A locale with no entry in `files` renders as a disabled "audio coming soon"
+button until audio is generated.
 
 **Filling localized text and generating audio** (`scripts/generate-audio.py`):
 the script adapts the project's Gemini bulk translator and Edge TTS workflow
@@ -314,32 +312,23 @@ language of the explanation text, not the dictionary's target language.
 not the readable term slug. Runtime `entity_id` is the language-independent
 `<TOPIC>:<ID>` key (for example, `C1T01:A031`). Manifests retain any prior
 semantic progress key as `legacy_entity_id` so saved progress can be resolved
-to the new identity. A language-specific manifest may use a different audio
-`file`/R2 `key`; do not derive the shared article ID from that path.
+to the new identity. A language's recording lives at `sound/<locale>.mp3`
+inside the item folder; do not derive the shared article ID from that path.
 
-For the one-time migration of old slug IDs, preview with
-`node scripts/media-reid-manifests.mjs`, then apply with
-`node scripts/media-reid-manifests.mjs --apply`. It updates manifest IDs,
-sidebar item references, article folders/front matter, and preserves the
-previous progress key as `legacy_entity_id`; media bytes and R2 keys are
-unchanged.
-
-`run media index` joins the article's locale/review metadata to every matching
-language-specific dictionary manifest sharing that content code. Thus the
-same article opens from each dictionary, while its audio continues to come from
-`media/audio/<target-language>/<TOPIC>/`. Search remains a single lazy-loaded
+`run media index` joins the article's locale/review metadata to the item's
+`locales` rows. Thus the same article opens from each dictionary, while its
+audio continues to come from `media/<track>/<CH>/<TOPIC>/<CODE>/sound/`.
+Search remains a single lazy-loaded
 `public/data/media/library/dictionary/search.json` index and matches the term
 plus all localized names; no database or per-keystroke network request is
 needed. Nuxt prerenders each authored explanation locale for every registered
 dictionary language, so the prose is present in the static HTML.
 
-An article link is available only when that target language has a matching
-manifest. Preview missing variants with
-`node scripts/media-expand-shared-variants.mjs`, then create them with
-`node scripts/media-expand-shared-variants.mjs --apply`. The generated
-manifests reuse the shared content code and start with pending, language-specific
-audio. Generate or add each recording with the normal audio workflow; the
-article remains shared and does not need to be copied per target language.
+An article link is available only when that target language has a `locales`
+row with a `name`. Fill a missing one with
+`generate-audio.py --translate`; a missing recording is simply absent from
+`files` and renders as "audio coming soon". The article remains shared and
+does not need to be copied per target language.
 
 ### 3.4 Lectures & stories (Nuxt Content — live)
 
@@ -357,17 +346,15 @@ content/lectures/<TOPIC>/<ID>/<locale>.md ← translated explanation
   translated example terms in the front-matter `terms` map and use
   `:target-term` in prose for values that vary with the selected language.
 - **Audio is language-specific and separate**:
-  `media/audio/<locale>/<TOPIC>/<physical-file>.json` plus its `.mp3`. Each
-  manifest repeats the stable `id`, `entity_id`, and complete `names` map;
-  `lang`, `term`, `ipa`, `file`, and `key` describe that language's variant.
-  Physical filenames are sequential per topic/language and are not content
-  IDs. Missing recordings stay pending; generate or record them later.
+  `media/lectures/<CH>/<TOPIC>/<CODE>/sound/<locale>.mp3`, recorded in the
+  item's `files` map. One manifest holds every language's `locales` row
+  (`name`, `description`, `ipa`, `ttsText`) and every recording's
+  `bytes`/`sha1`. Missing recordings are simply absent from `files` and stay
+  pending; generate or record them later.
 - **Authoring and review tooling** (`run lecture …`, `scripts/lecture.mjs`):
-  start with one language's seed manifest for the code, including a complete
-  nine-language `names` map and a matching `term`; `new <TOPIC> <ID>` adds the
-  sidebar item and shared English document from that map. Then run
-  `node scripts/media-expand-shared-variants.mjs --apply` to create the other
-  languages' pending audio manifests. `status` prints the review queue;
+  start with one seed manifest for the code, including a `locales` row per
+  language; `new <TOPIC> <ID>` adds the sidebar item and shared English
+  document from those rows. `status` prints the review queue;
   `translate <TOPIC> <ID> --lang <l>` scaffolds a translation with `sourceSha`;
   `review` marks it reviewed. Editing the canonical document makes translations
   stale.
@@ -396,13 +383,11 @@ content/lectures/<TOPIC>/<ID>/<locale>.md ← translated explanation
   `items`.
 - **Examples**: `L3T01/A021` (informal hello), `L3T01/A022` (evening greeting),
   and `L3T01/A023` (goodbye) each have explanation documents in all nine
-  locales and target terms in all nine languages. Their audio manifests are
-  separate by target language and remain pending until recordings are added.
-- Preview/create missing audio variants with
-  `node scripts/media-expand-shared-variants.mjs [--apply]`. TTS reads each
-  pending manifest's localized `term` and writes the MP3 beside that manifest;
-  reconcile and publish through `run media manifest` and `run media upload
-  --apply`.
+  locales and target terms in all nine languages. Their recordings are absent
+  from `files` until generated.
+- TTS reads each pending locale's `name` (or its `ttsText` respelling) and
+  writes `sound/<locale>.mp3` beside the manifest; reconcile and publish
+  through `run media manifest` and `run media upload --apply`.
 - `content/**` is a **fingerprint input** (editing a lecture rebuilds).
 
 ### 3.5 Pricing (tiers + CTA behavior) — removed from the menu, page retained
@@ -728,10 +713,10 @@ redirect *from* also needs a proxied DNS record (`A` → `192.0.2.0` or
 - *"I fixed a word in the archive HTML"* → `node scripts/extract-legacy.mjs` → `run validate` → `run build`
 - *"I want a 6th toolbar item"* → §2 steps in `navigation.json` + page + `AppNav.ICONS`
 - *"The menu reads better in French"* → edit `menuLabels.fr` in `navigation.json`
-- *"New pronunciation file arrived from TTS"* → copy to `media/audio/<lang>/<TOPIC>/<ID>.mp3` → `run media manifest` (promotes the pending manifest) → `run media upload --apply`
+- *"New pronunciation file arrived from TTS"* → copy to `media/<track>/<CH>/<TOPIC>/<CODE>/sound/<locale>.mp3` → `run media manifest` (records its bytes/sha1) → `run media upload --apply`
 - *"Mobile layout looks off in landscape"* → `layout.css` `@media (orientation: landscape)` block
 - *"Rebuild everything from scratch"* → `run clean-deep` → `run build --force`
-- *"New media content arrived"* → drop the media file in `media/<section path>/<lang>/<TOPIC>/` + write its sibling `<ID>.json` manifest (term/names/ipa/key/mime/sha1) → add the item id to the section's sidebar → `run media index` → `run build` (the index also runs automatically before every build)
+- *"New media content arrived"* → drop the media file at `media/<track>/<CH>/<TOPIC>/<CODE>/sound/<locale>.mp3` → `run media manifest` (records its bytes/sha1 in `files`) → add the item code to the section's sidebar → `run media index` → `run build` (the index also runs automatically before every build)
 - *"A blank topic has its content now"* → `run scaffold <lang> <TOPIC> <seed.json>` creates the pending manifests + sidebar items → drop the mp3s → `run media manifest` → `run media upload --apply`
 
 

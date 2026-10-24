@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "nature",
-    "ro": "natură",
-    "de": "Natur",
-    "ru": "природа",
-    "it": "natura",
-    "es": "naturaleza",
-    "fr": "nature",
-    "hu": "természet",
-    "pt": "natureza"
-  },
-  "description": {
-    "en": "Nature refers to the physical world and everything in it that is not made by humans.",
-    "ro": "Natura se referă la lumea fizică și la tot ce există în ea și nu este creat de oameni.",
-    "de": "Natur bezieht sich auf die physische Welt und alles darin, was nicht von Menschen geschaffen wurde.",
-    "ru": "Природа относится к физическому миру и всему, что в нем есть и не создано человеком.",
-    "it": "La natura si riferisce al mondo fisico e a tutto ciò che contiene che non è creato dall'uomo.",
-    "es": "La naturaleza se refiere al mundo físico y a todo lo que contiene que no ha sido creado por los humanos.",
-    "fr": "La nature désigne le monde physique et tout ce qu'il contient qui n'est pas créé par l'homme.",
-    "hu": "A természet a fizikai világra és minden olyan dologra utal, amelyet nem emberek alkottak.",
-    "pt": "A natureza refere-se ao mundo físico e a tudo o que nele existe que não foi criado pelos humanos."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/tʃ/"
-    },
-    "ro": {
-      "ipa": "/naˈtu.rə/"
-    },
-    "de": {
-      "ipa": "/naˈtuːɐ̯/"
-    },
-    "ru": {
-      "ipa": "/prʲɪˈrodə/"
-    },
-    "it": {
-      "ipa": "/naˈtu.ra/"
-    },
-    "es": {
-      "ipa": "/na.tu.ɾaˈle.θa/"
-    },
-    "fr": {
-      "ipa": "/na.tyʁ/"
-    },
-    "hu": {
-      "ipa": "/ˈtɛrmeːseːt/"
-    },
-    "pt": {
-      "ipa": "/nɐ.tuˈɾe.zɐ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "e8f8d1e2cf2e02b10890a3f9f4146d607077ba18",
-      "key": "dictionary/CH01/CH01T01/W042/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "4b6ab59874ce877b1f57850be79b456ecada5b89",
-      "key": "dictionary/CH01/CH01T01/W042/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "02263287cc233433290ff62035d7c3e863ed835c",
-      "key": "dictionary/CH01/CH01T01/W042/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d709d855147b46a89f446bab9b3d83fe32a27c6e",
-      "key": "dictionary/CH01/CH01T01/W042/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "4fb468eb07a954530737fc78c483e5ae323cbfb8",
-      "key": "dictionary/CH01/CH01T01/W042/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11376,
-      "sha1": "cf294c379d896958c25f9c3e4f3c30dc9917d835",
-      "key": "dictionary/CH01/CH01T01/W042/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "82ec7646e06fb3662b99f5f2f65ab07a9ab343aa",
-      "key": "dictionary/CH01/CH01T01/W042/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11376,
-      "sha1": "091b93072172029e616a90d3ae4bdd3954827942",
-      "key": "dictionary/CH01/CH01T01/W042/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11808,
-      "sha1": "d92920db19f9424f2fd9ef43424ae9dd84efc55b",
-      "key": "dictionary/CH01/CH01T01/W042/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W042",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "t + ure",
-      "example": "nature"
+      "name": "nature",
+      "description": "Nature refers to the physical world and everything in it that is not made by humans.",
+      "ipa": "/tʃ/",
+      "example": "nature",
+      "context": "t + ure"
+    },
+    "ro": {
+      "name": "natură",
+      "description": "Natura se referă la lumea fizică și la tot ce există în ea și nu este creat de oameni.",
+      "ipa": "/naˈtu.rə/"
+    },
+    "de": {
+      "name": "Natur",
+      "description": "Natur bezieht sich auf die physische Welt und alles darin, was nicht von Menschen geschaffen wurde.",
+      "ipa": "/naˈtuːɐ̯/"
+    },
+    "ru": {
+      "name": "природа",
+      "description": "Природа относится к физическому миру и всему, что в нем есть и не создано человеком.",
+      "ipa": "/prʲɪˈrodə/"
+    },
+    "it": {
+      "name": "natura",
+      "description": "La natura si riferisce al mondo fisico e a tutto ciò che contiene che non è creato dall'uomo.",
+      "ipa": "/naˈtu.ra/"
+    },
+    "es": {
+      "name": "naturaleza",
+      "description": "La naturaleza se refiere al mundo físico y a todo lo que contiene que no ha sido creado por los humanos.",
+      "ipa": "/na.tu.ɾaˈle.θa/"
+    },
+    "fr": {
+      "name": "nature",
+      "description": "La nature désigne le monde physique et tout ce qu'il contient qui n'est pas créé par l'homme.",
+      "ipa": "/na.tyʁ/"
+    },
+    "hu": {
+      "name": "természet",
+      "description": "A természet a fizikai világra és minden olyan dologra utal, amelyet nem emberek alkottak.",
+      "ipa": "/ˈtɛrmeːseːt/"
+    },
+    "pt": {
+      "name": "natureza",
+      "description": "A natureza refere-se ao mundo físico e a tudo o que nele existe que não foi criado pelos humanos.",
+      "ipa": "/nɐ.tuˈɾe.zɐ/"
     }
   },
-  "entity_id": "CH01T01:W042",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "e8f8d1e2cf2e02b10890a3f9f4146d607077ba18"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "4b6ab59874ce877b1f57850be79b456ecada5b89"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "02263287cc233433290ff62035d7c3e863ed835c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "d709d855147b46a89f446bab9b3d83fe32a27c6e"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "4fb468eb07a954530737fc78c483e5ae323cbfb8"
+    },
+    "sound/es.mp3": {
+      "bytes": 11376,
+      "sha1": "cf294c379d896958c25f9c3e4f3c30dc9917d835"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "82ec7646e06fb3662b99f5f2f65ab07a9ab343aa"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11376,
+      "sha1": "091b93072172029e616a90d3ae4bdd3954827942"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11808,
+      "sha1": "d92920db19f9424f2fd9ef43424ae9dd84efc55b"
+    }
+  }
 }

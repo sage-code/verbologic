@@ -4,111 +4,45 @@
   "chapter": "CH06",
   "topic": "CH06T03",
   "kind": "word",
-  "names": {
-    "en": "length",
-    "ro": "lungime",
-    "de": "Länge",
-    "ru": "длина",
-    "it": "lunghezza",
-    "es": "longitud",
-    "fr": "longueur",
-    "hu": "hosszúság",
-    "pt": "comprimento"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/lunˈdʒime/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "d2b1c48d83751a0870792a46ecea393ddaa8ab19",
-      "key": "dictionary/CH06/CH06T03/W470/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH06T03:W470",
+  "cefr": "B1",
   "tags": [
     "scaffold#C6T03"
   ],
-  "metadata": {},
-  "entity_id": "CH06T03:W470",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "length"
+    },
+    "ro": {
+      "name": "lungime",
+      "ipa": "/lunˈdʒime/"
+    },
+    "de": {
+      "name": "Länge"
+    },
+    "ru": {
+      "name": "длина"
+    },
+    "it": {
+      "name": "lunghezza"
+    },
+    "es": {
+      "name": "longitud"
+    },
+    "fr": {
+      "name": "longueur"
+    },
+    "hu": {
+      "name": "hosszúság"
+    },
+    "pt": {
+      "name": "comprimento"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "d2b1c48d83751a0870792a46ecea393ddaa8ab19"
+    }
+  }
 }

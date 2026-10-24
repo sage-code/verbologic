@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T06",
   "kind": "word",
-  "names": {
-    "en": "dog",
-    "ro": "câine",
-    "de": "Hund",
-    "ru": "Собака",
-    "it": "cane",
-    "es": "perro",
-    "fr": "chien",
-    "hu": "Kutya",
-    "pt": "Cão"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈkɨjne/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "4a8c244e633f8ea36988576740ac1ea381218b97",
-      "key": "dictionary/CH02/CH02T06/W220/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T06:W220",
+  "cefr": "A1",
   "tags": [
     "scaffold#C2T06"
   ],
-  "metadata": {},
-  "entity_id": "CH02T06:W220",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "dog"
+    },
+    "ro": {
+      "name": "câine",
+      "ipa": "/ˈkɨjne/"
+    },
+    "de": {
+      "name": "Hund"
+    },
+    "ru": {
+      "name": "Собака"
+    },
+    "it": {
+      "name": "cane"
+    },
+    "es": {
+      "name": "perro"
+    },
+    "fr": {
+      "name": "chien"
+    },
+    "hu": {
+      "name": "Kutya"
+    },
+    "pt": {
+      "name": "Cão"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "4a8c244e633f8ea36988576740ac1ea381218b97"
+    }
+  }
 }

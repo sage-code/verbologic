@@ -4,111 +4,45 @@
   "chapter": "CH10",
   "topic": "CH10T05",
   "kind": "word",
-  "names": {
-    "en": "biology",
-    "ro": "biologie",
-    "de": "Biologie",
-    "ru": "биология",
-    "it": "biologia",
-    "es": "biología",
-    "fr": "biologie",
-    "hu": "biológia",
-    "pt": "biologia"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/bioloˈdʒie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "6785f6f95667b764edcc8173f7d6c9e1f62a7197",
-      "key": "dictionary/CH10/CH10T05/W744/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH10T05:W744",
+  "cefr": "C1",
   "tags": [
     "scaffold#C10T05"
   ],
-  "metadata": {},
-  "entity_id": "CH10T05:W744",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "biology"
+    },
+    "ro": {
+      "name": "biologie",
+      "ipa": "/bioloˈdʒie/"
+    },
+    "de": {
+      "name": "Biologie"
+    },
+    "ru": {
+      "name": "биология"
+    },
+    "it": {
+      "name": "biologia"
+    },
+    "es": {
+      "name": "biología"
+    },
+    "fr": {
+      "name": "biologie"
+    },
+    "hu": {
+      "name": "biológia"
+    },
+    "pt": {
+      "name": "biologia"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "6785f6f95667b764edcc8173f7d6c9e1f62a7197"
+    }
+  }
 }

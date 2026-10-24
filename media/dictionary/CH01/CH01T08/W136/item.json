@@ -4,135 +4,94 @@
   "chapter": "CH01",
   "topic": "CH01T08",
   "kind": "word",
-  "names": {
-    "en": "backpack",
-    "ro": "ghiozdan",
-    "de": "Schulranzen",
-    "ru": "Рюкзак",
-    "it": "zaino",
-    "es": "mochila",
-    "fr": "cartable",
-    "hu": "Iskolatáska",
-    "pt": "Mochila"
-  },
-  "description": {
-    "en": "A father is a male parent.",
-    "ro": "Un tată este un părinte de sex masculin.",
-    "de": "Ein Vater ist ein männlicher Elternteil.",
-    "ru": "Отец — это родитель мужского пола.",
-    "it": "Un padre è un genitore di sesso maschile.",
-    "es": "Un padre es un progenitor de sexo masculino.",
-    "fr": "Un père est un parent de sexe masculin.",
-    "hu": "Az apa egy férfi szülő.",
-    "pt": "Um pai é um progenitor do sexo masculino."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ˈbæk.pæk/"
-    },
-    "ro": {
-      "ipa": "/gjozˈdan/"
-    },
-    "de": {
-      "ipa": "/ˈʃuːlˌʁant͡sən/"
-    },
-    "ru": {
-      "ipa": "/rʲʊkˈzak/"
-    },
-    "it": {
-      "ipa": "/ˈd͡zai.no/"
-    },
-    "es": {
-      "ipa": "/moˈt͡ʃi.la/"
-    },
-    "fr": {
-      "ipa": "/kaʁ.tabl/"
-    },
-    "hu": {
-      "ipa": "/ˈiʃkolaˌtaːʃkɒ/"
-    },
-    "pt": {
-      "ipa": "/muˈʃi.lɐ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "25d7977237cdc97e67c493e944e94fdba4a301e7",
-      "key": "dictionary/CH01/CH01T08/W136/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "c64e05dba9163a455813c1da7f78871eb1c338a7",
-      "key": "dictionary/CH01/CH01T08/W136/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b57e4e3a92d0f3857384303ea228488234adf559",
-      "key": "dictionary/CH01/CH01T08/W136/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0e49e58c3ba2f02bf4ad0f2c4c0e1600a21ff16f",
-      "key": "dictionary/CH01/CH01T08/W136/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "fdfa066635cd0d73e172d037a0b8ac8df7306bca",
-      "key": "dictionary/CH01/CH01T08/W136/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0be2a753c44f86d9fd530ac9aaee961848b72264",
-      "key": "dictionary/CH01/CH01T08/W136/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "58f3d883ad75f38f3b86bca20ba52a094ca90fe7",
-      "key": "dictionary/CH01/CH01T08/W136/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "003b825319c4367184d0d89c630f16ace235d6a3",
-      "key": "dictionary/CH01/CH01T08/W136/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3b93b4f116cc93cdde9b74466f5b26ce7888a0e8",
-      "key": "dictionary/CH01/CH01T08/W136/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T08:W136",
+  "cefr": "A1",
   "tags": [
     "scaffold#C1T08"
   ],
-  "metadata": {},
-  "entity_id": "CH01T08:W136",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "backpack",
+      "description": "A father is a male parent.",
+      "ipa": "/ˈbæk.pæk/"
+    },
+    "ro": {
+      "name": "ghiozdan",
+      "description": "Un tată este un părinte de sex masculin.",
+      "ipa": "/gjozˈdan/"
+    },
+    "de": {
+      "name": "Schulranzen",
+      "description": "Ein Vater ist ein männlicher Elternteil.",
+      "ipa": "/ˈʃuːlˌʁant͡sən/"
+    },
+    "ru": {
+      "name": "Рюкзак",
+      "description": "Отец — это родитель мужского пола.",
+      "ipa": "/rʲʊkˈzak/"
+    },
+    "it": {
+      "name": "zaino",
+      "description": "Un padre è un genitore di sesso maschile.",
+      "ipa": "/ˈd͡zai.no/"
+    },
+    "es": {
+      "name": "mochila",
+      "description": "Un padre es un progenitor de sexo masculino.",
+      "ipa": "/moˈt͡ʃi.la/"
+    },
+    "fr": {
+      "name": "cartable",
+      "description": "Un père est un parent de sexe masculin.",
+      "ipa": "/kaʁ.tabl/"
+    },
+    "hu": {
+      "name": "Iskolatáska",
+      "description": "Az apa egy férfi szülő.",
+      "ipa": "/ˈiʃkolaˌtaːʃkɒ/"
+    },
+    "pt": {
+      "name": "Mochila",
+      "description": "Um pai é um progenitor do sexo masculino.",
+      "ipa": "/muˈʃi.lɐ/"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "25d7977237cdc97e67c493e944e94fdba4a301e7"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "c64e05dba9163a455813c1da7f78871eb1c338a7"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "b57e4e3a92d0f3857384303ea228488234adf559"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "0e49e58c3ba2f02bf4ad0f2c4c0e1600a21ff16f"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "fdfa066635cd0d73e172d037a0b8ac8df7306bca"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "0be2a753c44f86d9fd530ac9aaee961848b72264"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "58f3d883ad75f38f3b86bca20ba52a094ca90fe7"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "003b825319c4367184d0d89c630f16ace235d6a3"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "3b93b4f116cc93cdde9b74466f5b26ce7888a0e8"
+    }
+  }
 }

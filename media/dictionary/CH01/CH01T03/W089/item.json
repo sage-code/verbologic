@@ -4,135 +4,94 @@
   "chapter": "CH01",
   "topic": "CH01T03",
   "kind": "word",
-  "names": {
-    "en": "family",
-    "ro": "familie",
-    "de": "Familie",
-    "ru": "Семья",
-    "it": "famiglia",
-    "es": "familia",
-    "fr": "famille",
-    "hu": "Család",
-    "pt": "Família"
-  },
-  "description": {
-    "en": "A female child or young person.",
-    "ro": "Un copil sau o persoană tânără de sex feminin.",
-    "de": "Ein weibliches Kind oder ein junger Mensch.",
-    "ru": "Ребенок или молодой человек женского пола.",
-    "it": "Una bambina o una giovane di sesso femminile.",
-    "es": "Una niña o joven de sexo femenino.",
-    "fr": "Une enfant ou une jeune femme.",
-    "hu": "Egy lánygyermek vagy fiatal nő.",
-    "pt": "Uma criança ou jovem do sexo feminino."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ˈfæməli/"
-    },
-    "ro": {
-      "ipa": "/faˈmilie/"
-    },
-    "de": {
-      "ipa": "/faˈmiːli̯ə/"
-    },
-    "ru": {
-      "ipa": "/sʲɪmˈjja/"
-    },
-    "it": {
-      "ipa": "/faˈmiʎʎa/"
-    },
-    "es": {
-      "ipa": "/faˈmilja/"
-    },
-    "fr": {
-      "ipa": "/faˈmij/"
-    },
-    "hu": {
-      "ipa": "/ˈtʃɒlaːd/"
-    },
-    "pt": {
-      "ipa": "/fɐˈmiʎɐ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d050d3cac436ed91f649cc1fc4a2efb8563d756d",
-      "key": "dictionary/CH01/CH01T03/W089/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "7127255dd43c52d0b0191824126e2d5e7cf21be4",
-      "key": "dictionary/CH01/CH01T03/W089/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a68e4cb9ee115b949ada25a040f6bb1feb4a5832",
-      "key": "dictionary/CH01/CH01T03/W089/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "f0407756e0e33127829b2a93f69a78be9f2a96d7",
-      "key": "dictionary/CH01/CH01T03/W089/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d822fdb09b8dd8592d07022d9601a8ada98200e5",
-      "key": "dictionary/CH01/CH01T03/W089/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "6111937dede13bead296ed2d06b9202c74bd4cf2",
-      "key": "dictionary/CH01/CH01T03/W089/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "83582795ff75ee15a705d429e56f0a0bcc7c50f2",
-      "key": "dictionary/CH01/CH01T03/W089/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2ffde1a7dcbf192aab22609be27f9947a3770b7e",
-      "key": "dictionary/CH01/CH01T03/W089/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d87668687d2688986ab97d5c37a90d5dcf47c367",
-      "key": "dictionary/CH01/CH01T03/W089/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T03:W089",
+  "cefr": "A1",
   "tags": [
     "vocabulary#identity-people"
   ],
-  "metadata": {},
-  "entity_id": "CH01T03:W089",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "family",
+      "description": "A female child or young person.",
+      "ipa": "/ˈfæməli/"
+    },
+    "ro": {
+      "name": "familie",
+      "description": "Un copil sau o persoană tânără de sex feminin.",
+      "ipa": "/faˈmilie/"
+    },
+    "de": {
+      "name": "Familie",
+      "description": "Ein weibliches Kind oder ein junger Mensch.",
+      "ipa": "/faˈmiːli̯ə/"
+    },
+    "ru": {
+      "name": "Семья",
+      "description": "Ребенок или молодой человек женского пола.",
+      "ipa": "/sʲɪmˈjja/"
+    },
+    "it": {
+      "name": "famiglia",
+      "description": "Una bambina o una giovane di sesso femminile.",
+      "ipa": "/faˈmiʎʎa/"
+    },
+    "es": {
+      "name": "familia",
+      "description": "Una niña o joven de sexo femenino.",
+      "ipa": "/faˈmilja/"
+    },
+    "fr": {
+      "name": "famille",
+      "description": "Une enfant ou une jeune femme.",
+      "ipa": "/faˈmij/"
+    },
+    "hu": {
+      "name": "Család",
+      "description": "Egy lánygyermek vagy fiatal nő.",
+      "ipa": "/ˈtʃɒlaːd/"
+    },
+    "pt": {
+      "name": "Família",
+      "description": "Uma criança ou jovem do sexo feminino.",
+      "ipa": "/fɐˈmiʎɐ/"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d050d3cac436ed91f649cc1fc4a2efb8563d756d"
+    },
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "7127255dd43c52d0b0191824126e2d5e7cf21be4"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "a68e4cb9ee115b949ada25a040f6bb1feb4a5832"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "f0407756e0e33127829b2a93f69a78be9f2a96d7"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "d822fdb09b8dd8592d07022d9601a8ada98200e5"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "6111937dede13bead296ed2d06b9202c74bd4cf2"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "83582795ff75ee15a705d429e56f0a0bcc7c50f2"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "2ffde1a7dcbf192aab22609be27f9947a3770b7e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "d87668687d2688986ab97d5c37a90d5dcf47c367"
+    }
+  }
 }

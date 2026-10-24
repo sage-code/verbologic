@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T15",
   "kind": "letter",
-  "names": {
-    "en": "Q",
-    "ro": "Q",
-    "de": "Q",
-    "ru": "Q",
-    "it": "Q",
-    "es": "Q",
-    "fr": "Q",
-    "hu": "Q",
-    "pt": "Q"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": "Letter name: quê. Example: quatro."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": {
-      "ipa": "/ke/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "4a52098e3d6c9c606b4e7ffbdb83a0b779fe0c18"
-    }
-  },
+  "entity_id": "LT01T15:L543",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Q"
+    },
+    "ro": {
+      "name": "Q"
+    },
+    "de": {
+      "name": "Q"
+    },
+    "ru": {
+      "name": "Q"
+    },
+    "it": {
+      "name": "Q"
+    },
+    "es": {
+      "name": "Q"
+    },
+    "fr": {
+      "name": "Q"
+    },
+    "hu": {
+      "name": "Q"
+    },
     "pt": {
-      "context": "quê",
-      "example": "quatro"
+      "name": "Q",
+      "description": "Letter name: quê. Example: quatro.",
+      "ipa": "/ke/",
+      "example": "quatro",
+      "context": "quê"
     }
   },
-  "entity_id": "LT01T15:L543",
-  "cefr": "A1"
+  "files": {
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "4a52098e3d6c9c606b4e7ffbdb83a0b779fe0c18"
+    }
+  }
 }

@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "cat",
-    "ro": "pisică",
-    "de": "Katze",
-    "ru": "кот",
-    "it": "gatto",
-    "es": "gato",
-    "fr": "chat",
-    "hu": "macska",
-    "pt": "gato"
-  },
-  "description": {
-    "en": "A cat is a small domesticated carnivorous mammal.",
-    "ro": "O pisică este un mamifer carnivor mic domesticit.",
-    "de": "Eine Katze ist ein kleines domestiziertes fleischfressendes Säugetier.",
-    "ru": "Кошка — это небольшое одомашненное плотоядное млекопитающее.",
-    "it": "Un gatto è un piccolo mammifero carnivoro addomesticato.",
-    "es": "Un gato es un pequeño mamífero carnívoro domesticado.",
-    "fr": "Un chat est un petit mammifère carnivore domestiqué.",
-    "hu": "A macska egy kis háziasított húsevő emlős.",
-    "pt": "Um gato é um pequeno mamífero carnívoro domesticado."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/æ/"
-    },
-    "ro": {
-      "ipa": "/piˈsɨkə/"
-    },
-    "de": {
-      "ipa": "/ˈkat͡sə/"
-    },
-    "ru": {
-      "ipa": "/kot/"
-    },
-    "it": {
-      "ipa": "/ˈɡatto/"
-    },
-    "es": {
-      "ipa": "/ˈɡato/"
-    },
-    "fr": {
-      "ipa": "/ʃa/"
-    },
-    "hu": {
-      "ipa": "/ˈmɒt͡ʃkɒ/"
-    },
-    "pt": {
-      "ipa": "/ˈɡatu/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "a89bbe4d7f22cda90f136c638c33a44b56b6cfcd",
-      "key": "dictionary/CH01/CH01T01/W011/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "cec4bb0930c9535f61d87efdcefbee57ab3f0605",
-      "key": "dictionary/CH01/CH01T01/W011/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "680f487d8686d5088d36677b281b2769d9afccde",
-      "key": "dictionary/CH01/CH01T01/W011/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "16b319f2583995f57981ae8e43be98e6cc10369b",
-      "key": "dictionary/CH01/CH01T01/W011/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b08915919f0d9aa71189e628f059a3ad640c1b8f",
-      "key": "dictionary/CH01/CH01T01/W011/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "57fde2921863f8c4824ce9bb8fab25210335289f",
-      "key": "dictionary/CH01/CH01T01/W011/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0ba758b9936c2bcf8efb6991b255336830d5faa3",
-      "key": "dictionary/CH01/CH01T01/W011/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "04dd77bfefa71d2d22d93bc15a8b6c99adafc37e",
-      "key": "dictionary/CH01/CH01T01/W011/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ec060ce02eac5f563109eb9bed7408f129bd4c76",
-      "key": "dictionary/CH01/CH01T01/W011/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W011",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "silabă scurtă accentuată",
-      "example": "cat"
+      "name": "cat",
+      "description": "A cat is a small domesticated carnivorous mammal.",
+      "ipa": "/æ/",
+      "example": "cat",
+      "context": "silabă scurtă accentuată"
+    },
+    "ro": {
+      "name": "pisică",
+      "description": "O pisică este un mamifer carnivor mic domesticit.",
+      "ipa": "/piˈsɨkə/"
+    },
+    "de": {
+      "name": "Katze",
+      "description": "Eine Katze ist ein kleines domestiziertes fleischfressendes Säugetier.",
+      "ipa": "/ˈkat͡sə/"
+    },
+    "ru": {
+      "name": "кот",
+      "description": "Кошка — это небольшое одомашненное плотоядное млекопитающее.",
+      "ipa": "/kot/"
+    },
+    "it": {
+      "name": "gatto",
+      "description": "Un gatto è un piccolo mammifero carnivoro addomesticato.",
+      "ipa": "/ˈɡatto/"
+    },
+    "es": {
+      "name": "gato",
+      "description": "Un gato es un pequeño mamífero carnívoro domesticado.",
+      "ipa": "/ˈɡato/"
+    },
+    "fr": {
+      "name": "chat",
+      "description": "Un chat est un petit mammifère carnivore domestiqué.",
+      "ipa": "/ʃa/"
+    },
+    "hu": {
+      "name": "macska",
+      "description": "A macska egy kis háziasított húsevő emlős.",
+      "ipa": "/ˈmɒt͡ʃkɒ/"
+    },
+    "pt": {
+      "name": "gato",
+      "description": "Um gato é um pequeno mamífero carnívoro domesticado.",
+      "ipa": "/ˈɡatu/"
     }
   },
-  "entity_id": "CH01T01:W011",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "a89bbe4d7f22cda90f136c638c33a44b56b6cfcd"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "cec4bb0930c9535f61d87efdcefbee57ab3f0605"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "680f487d8686d5088d36677b281b2769d9afccde"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "16b319f2583995f57981ae8e43be98e6cc10369b"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "b08915919f0d9aa71189e628f059a3ad640c1b8f"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "57fde2921863f8c4824ce9bb8fab25210335289f"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "0ba758b9936c2bcf8efb6991b255336830d5faa3"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "04dd77bfefa71d2d22d93bc15a8b6c99adafc37e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "ec060ce02eac5f563109eb9bed7408f129bd4c76"
+    }
+  }
 }

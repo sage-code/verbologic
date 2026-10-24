@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "ou",
-    "ro": "ou in house (casă)",
-    "de": "ou in house (Haus)",
-    "ru": "ou in house (дом)",
-    "it": "ou in house (casa)",
-    "es": "ou in house (casa)",
-    "fr": "ou in house (maison)",
-    "hu": "ou in house (ház)",
-    "pt": "ou in house (casa)"
-  },
-  "description": {
-    "en": "This is the letter L322 from the vowel-consonant groups.",
-    "ro": "Aceasta este litera L322 din grupurile vocală-consoană.",
-    "de": "Dies ist der Buchstabe L322 aus den Vokal-Konsonant-Gruppen.",
-    "ru": "Это буква L322 из групп гласных и согласных.",
-    "it": "Questa è la lettera L322 dei gruppi vocale-consonante.",
-    "es": "Esta es la letra L322 de los grupos vocal-consonante.",
-    "fr": "Ceci est la lettre L322 des groupes voyelle-consonne.",
-    "hu": "Ez az L322 betű a magánhangzó-mássalhangzó csoportokból.",
-    "pt": "Esta é a letra L322 dos grupos vogal-consoante."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/aʊ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4896,
-      "sha1": "13fdc6ee069e6991f419df31ece6cdd0fccb6a04",
-      "key": "lectures/LT01/LT01T08/L322/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L322",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L322",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ou",
+      "description": "This is the letter L322 from the vowel-consonant groups.",
+      "ipa": "/aʊ/"
+    },
+    "ro": {
+      "name": "ou in house (casă)",
+      "description": "Aceasta este litera L322 din grupurile vocală-consoană."
+    },
+    "de": {
+      "name": "ou in house (Haus)",
+      "description": "Dies ist der Buchstabe L322 aus den Vokal-Konsonant-Gruppen."
+    },
+    "ru": {
+      "name": "ou in house (дом)",
+      "description": "Это буква L322 из групп гласных и согласных."
+    },
+    "it": {
+      "name": "ou in house (casa)",
+      "description": "Questa è la lettera L322 dei gruppi vocale-consonante."
+    },
+    "es": {
+      "name": "ou in house (casa)",
+      "description": "Esta es la letra L322 de los grupos vocal-consonante."
+    },
+    "fr": {
+      "name": "ou in house (maison)",
+      "description": "Ceci est la lettre L322 des groupes voyelle-consonne."
+    },
+    "hu": {
+      "name": "ou in house (ház)",
+      "description": "Ez az L322 betű a magánhangzó-mássalhangzó csoportokból."
+    },
+    "pt": {
+      "name": "ou in house (casa)",
+      "description": "Esta é a letra L322 dos grupos vogal-consoante."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "13fdc6ee069e6991f419df31ece6cdd0fccb6a04"
+    }
+  }
 }

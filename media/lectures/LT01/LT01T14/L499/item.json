@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T14",
   "kind": "letter",
-  "names": {
-    "en": "Í",
-    "ro": "Í",
-    "de": "Í",
-    "ru": "Í",
-    "it": "Í",
-    "es": "Í",
-    "fr": "Í",
-    "hu": "Í",
-    "pt": "Í"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": "Letter name: í. Example: íz.",
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": {
-      "ipa": "/iː/"
-    },
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "f93d1a83856e492f1e7c1b3767f7a7003598ca5d"
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T14:L499",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Í"
+    },
+    "ro": {
+      "name": "Í"
+    },
+    "de": {
+      "name": "Í"
+    },
+    "ru": {
+      "name": "Í"
+    },
+    "it": {
+      "name": "Í"
+    },
+    "es": {
+      "name": "Í"
+    },
+    "fr": {
+      "name": "Í"
+    },
     "hu": {
-      "context": "í",
-      "example": "íz"
+      "name": "Í",
+      "description": "Letter name: í. Example: íz.",
+      "ipa": "/iː/",
+      "example": "íz",
+      "context": "í"
+    },
+    "pt": {
+      "name": "Í"
     }
   },
-  "entity_id": "LT01T14:L499",
-  "cefr": "A1"
+  "files": {
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "f93d1a83856e492f1e7c1b3767f7a7003598ca5d"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T14",
   "kind": "letter",
-  "names": {
-    "en": "H",
-    "ro": "H",
-    "de": "H",
-    "ru": "H",
-    "it": "H",
-    "es": "H",
-    "fr": "H",
-    "hu": "H",
-    "pt": "H"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": "Letter name: há. Example: ház.",
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": {
-      "ipa": "/haː/"
-    },
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7920,
-      "sha1": "6fe334ecfdd70881821f6b459feecf9f6a0eacfa"
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T14:L497",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "H"
+    },
+    "ro": {
+      "name": "H"
+    },
+    "de": {
+      "name": "H"
+    },
+    "ru": {
+      "name": "H"
+    },
+    "it": {
+      "name": "H"
+    },
+    "es": {
+      "name": "H"
+    },
+    "fr": {
+      "name": "H"
+    },
     "hu": {
-      "context": "há",
-      "example": "ház"
+      "name": "H",
+      "description": "Letter name: há. Example: ház.",
+      "ipa": "/haː/",
+      "example": "ház",
+      "context": "há"
+    },
+    "pt": {
+      "name": "H"
     }
   },
-  "entity_id": "LT01T14:L497",
-  "cefr": "A1"
+  "files": {
+    "sound/hu.mp3": {
+      "bytes": 7920,
+      "sha1": "6fe334ecfdd70881821f6b459feecf9f6a0eacfa"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T02",
   "kind": "word",
-  "names": {
-    "en": "The early bird catches the worm",
-    "ro": "Cine se scoală de dimineață, departe ajunge",
-    "de": "Morgenstund hat Gold im Mund",
-    "ru": "Кто рано встаёт, тому Бог подаёт",
-    "it": "Chi dorme non piglia pesci",
-    "es": "A quien madruga, Dios le ayuda",
-    "fr": "L'avenir appartient à ceux qui se lèvent tôt",
-    "hu": "Aki korán kel, aranyat lel",
-    "pt": "Deus ajuda quem cedo madruga"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈtʃine se skoˈalə de dimiˈneatsə deˈparte aˈdʒundʒe/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 23328,
-      "sha1": "7934bf90f9ba4a339c856d0c9314f97384dd8ab0",
-      "key": "dictionary/CH12/CH12T02/W850/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T02:W850",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T02"
   ],
-  "metadata": {},
-  "entity_id": "CH12T02:W850",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "The early bird catches the worm"
+    },
+    "ro": {
+      "name": "Cine se scoală de dimineață, departe ajunge",
+      "ipa": "/ˈtʃine se skoˈalə de dimiˈneatsə deˈparte aˈdʒundʒe/"
+    },
+    "de": {
+      "name": "Morgenstund hat Gold im Mund"
+    },
+    "ru": {
+      "name": "Кто рано встаёт, тому Бог подаёт"
+    },
+    "it": {
+      "name": "Chi dorme non piglia pesci"
+    },
+    "es": {
+      "name": "A quien madruga, Dios le ayuda"
+    },
+    "fr": {
+      "name": "L'avenir appartient à ceux qui se lèvent tôt"
+    },
+    "hu": {
+      "name": "Aki korán kel, aranyat lel"
+    },
+    "pt": {
+      "name": "Deus ajuda quem cedo madruga"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 23328,
+      "sha1": "7934bf90f9ba4a339c856d0c9314f97384dd8ab0"
+    }
+  }
 }

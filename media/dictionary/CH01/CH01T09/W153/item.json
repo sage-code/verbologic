@@ -4,176 +4,114 @@
   "chapter": "CH01",
   "topic": "CH01T09",
   "kind": "letter",
+  "entity_id": "CH01T09:W153",
+  "cefr": "A1",
   "letter": "I",
-  "names": {
-    "en": "I (eye)",
-    "ro": "I (i)",
-    "de": "I (i)",
-    "ru": "I (ай)",
-    "it": "I (i)",
-    "es": "I (i)",
-    "fr": "I (i)",
-    "hu": "I (í)",
-    "pt": "I (i)"
-  },
-  "description": {
-    "en": "The letter I in the Latin alphabet, named eye.",
-    "ro": "Litera I din alfabetul latin, numită i.",
-    "de": "Der Buchstabe I des lateinischen Alphabets, genannt i.",
-    "ru": "Буква I латинского алфавита, называемая «ай».",
-    "it": "La lettera I dell'alfabeto latino, chiamata i.",
-    "es": "La letra I del alfabeto latino, llamada i.",
-    "fr": "La lettre I de l'alphabet latin, appelée i.",
-    "hu": "A latin ábécé I betűje, neve í.",
-    "pt": "A letra I do alfabeto latino, chamada i."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/aɪ/"
-    },
-    "ro": {
-      "ipa": "/i/"
-    },
-    "de": {
-      "ipa": "/iː/"
-    },
-    "ru": {
-      "ipa": "/aɪ/"
-    },
-    "it": {
-      "ipa": "/i/"
-    },
-    "es": {
-      "ipa": "/i/"
-    },
-    "fr": {
-      "ipa": "/i/"
-    },
-    "hu": {
-      "ipa": "/iː/"
-    },
-    "pt": {
-      "ipa": "/i/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4896,
-      "sha1": "50594d71842ef9586f38a10f321f31809b161bd1",
-      "key": "dictionary/CH01/CH01T09/W153/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "bdce25318d287eb03219b263d5a4f524c526887b",
-      "key": "dictionary/CH01/CH01T09/W153/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9e75eb663b7926020263590acc8af23c88865fe3",
-      "key": "dictionary/CH01/CH01T09/W153/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "190a79051d261f60fb6c09f142ba2660cf59a784",
-      "key": "dictionary/CH01/CH01T09/W153/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4752,
-      "sha1": "45d1b114844380c4f39f5a0f12f0503765d63362",
-      "key": "dictionary/CH01/CH01T09/W153/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "5d520fa5504a0baa85a606586198a78aa522bef1",
-      "key": "dictionary/CH01/CH01T09/W153/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "4c4805ca7140aea48dcd774abc964c961f4c8191",
-      "key": "dictionary/CH01/CH01T09/W153/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d9e9aab47c959b8ec90a9393760b40b820c1a5f1",
-      "key": "dictionary/CH01/CH01T09/W153/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "744e116e52810bba9445e3d9e988c21e9f204930",
-      "key": "dictionary/CH01/CH01T09/W153/sound/pt.mp3"
-    }
-  },
-  "ttsText": {
-    "en": "eye",
-    "ro": "i",
-    "de": "i",
-    "ru": "ай",
-    "it": "i",
-    "es": "i",
-    "fr": "i",
-    "hu": "í",
-    "pt": "i"
-  },
   "tags": [
     "alphabet#common-letter",
     "alphabet#latin"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "I (eye)",
+      "description": "The letter I in the Latin alphabet, named eye.",
+      "ipa": "/aɪ/",
+      "ttsText": "eye",
       "example": "eye"
     },
     "ro": {
+      "name": "I (i)",
+      "description": "Litera I din alfabetul latin, numită i.",
+      "ipa": "/i/",
+      "ttsText": "i",
       "example": "i"
     },
     "de": {
+      "name": "I (i)",
+      "description": "Der Buchstabe I des lateinischen Alphabets, genannt i.",
+      "ipa": "/iː/",
+      "ttsText": "i",
       "example": "i"
     },
     "ru": {
+      "name": "I (ай)",
+      "description": "Буква I латинского алфавита, называемая «ай».",
+      "ipa": "/aɪ/",
+      "ttsText": "ай",
       "example": "ай"
     },
     "it": {
+      "name": "I (i)",
+      "description": "La lettera I dell'alfabeto latino, chiamata i.",
+      "ipa": "/i/",
+      "ttsText": "i",
       "example": "i"
     },
     "es": {
+      "name": "I (i)",
+      "description": "La letra I del alfabeto latino, llamada i.",
+      "ipa": "/i/",
+      "ttsText": "i",
       "example": "i"
     },
     "fr": {
+      "name": "I (i)",
+      "description": "La lettre I de l'alphabet latin, appelée i.",
+      "ipa": "/i/",
+      "ttsText": "i",
       "example": "i"
     },
     "hu": {
+      "name": "I (í)",
+      "description": "A latin ábécé I betűje, neve í.",
+      "ipa": "/iː/",
+      "ttsText": "í",
       "example": "í"
     },
     "pt": {
+      "name": "I (i)",
+      "description": "A letra I do alfabeto latino, chamada i.",
+      "ipa": "/i/",
+      "ttsText": "i",
       "example": "i"
     }
   },
-  "entity_id": "CH01T09:W153",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "50594d71842ef9586f38a10f321f31809b161bd1"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "bdce25318d287eb03219b263d5a4f524c526887b"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "9e75eb663b7926020263590acc8af23c88865fe3"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "190a79051d261f60fb6c09f142ba2660cf59a784"
+    },
+    "sound/it.mp3": {
+      "bytes": 4752,
+      "sha1": "45d1b114844380c4f39f5a0f12f0503765d63362"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "5d520fa5504a0baa85a606586198a78aa522bef1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "4c4805ca7140aea48dcd774abc964c961f4c8191"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "d9e9aab47c959b8ec90a9393760b40b820c1a5f1"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "744e116e52810bba9445e3d9e988c21e9f204930"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T10",
   "kind": "letter",
-  "names": {
-    "en": "К",
-    "ro": "К",
-    "de": "К",
-    "ru": "К",
-    "it": "К",
-    "es": "К",
-    "fr": "К",
-    "hu": "К",
-    "pt": "К"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": "Letter name: ка. Example: кот.",
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": {
-      "ipa": "/ka/"
-    },
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c5c2838994042e05beb995b6b87722675ff04fe9"
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T10:L383",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "К"
+    },
+    "ro": {
+      "name": "К"
+    },
+    "de": {
+      "name": "К"
+    },
     "ru": {
-      "context": "ка",
-      "example": "кот"
+      "name": "К",
+      "description": "Letter name: ка. Example: кот.",
+      "ipa": "/ka/",
+      "example": "кот",
+      "context": "ка"
+    },
+    "it": {
+      "name": "К"
+    },
+    "es": {
+      "name": "К"
+    },
+    "fr": {
+      "name": "К"
+    },
+    "hu": {
+      "name": "К"
+    },
+    "pt": {
+      "name": "К"
     }
   },
-  "entity_id": "LT01T10:L383",
-  "cefr": "A1"
+  "files": {
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "c5c2838994042e05beb995b6b87722675ff04fe9"
+    }
+  }
 }

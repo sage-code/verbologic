@@ -4,135 +4,94 @@
   "chapter": "CH01",
   "topic": "CH01T05",
   "kind": "word",
-  "names": {
-    "en": "zero",
-    "ro": "zero",
-    "de": "Null",
-    "ru": "Ноль",
-    "it": "zero",
-    "es": "cero",
-    "fr": "zéro",
-    "hu": "Nulla",
-    "pt": "Zero"
-  },
-  "description": {
-    "en": "A word used to express agreement, affirmation, or a positive response to a question.",
-    "ro": "Un cuvânt folosit pentru a exprima acordul, afirmația sau un răspuns pozitiv la o întrebare.",
-    "de": "Ein Wort, das verwendet wird, um Zustimmung, Bestätigung oder eine positive Antwort auf eine Frage auszudrücken.",
-    "ru": "Слово, используемое для выражения согласия, утверждения или положительного ответа на вопрос.",
-    "it": "Una parola usata per esprimere accordo, affermazione o una risposta positiva a una domanda.",
-    "es": "Una palabra utilizada para expresar acuerdo, afirmación o una respuesta positiva a una pregunta.",
-    "fr": "Un mot utilisé pour exprimer l'accord, l'affirmation ou une réponse positive à une question.",
-    "hu": "Egy szó, amelyet egyetértés, megerősítés vagy egy kérdésre adott pozitív válasz kifejezésére használnak.",
-    "pt": "Uma palavra usada para expressar concordância, afirmação ou uma resposta positiva a uma pergunta."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ˈzɪroʊ/"
-    },
-    "ro": {
-      "ipa": "/ˈzero/"
-    },
-    "de": {
-      "ipa": "/nʊl/"
-    },
-    "ru": {
-      "ipa": "/nolʲ/"
-    },
-    "it": {
-      "ipa": "/ˈdzɛro/"
-    },
-    "es": {
-      "ipa": "/ˈθeɾo/"
-    },
-    "fr": {
-      "ipa": "/zeˈʁo/"
-    },
-    "hu": {
-      "ipa": "/ˈnʊlːɒ/"
-    },
-    "pt": {
-      "ipa": "/ˈzeɾu/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ae9c22cbdf2149c17d0559d5f331132f34f071c8",
-      "key": "dictionary/CH01/CH01T05/W095/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "9afc29c4eb53fe627387b860394eb14ba59d1845",
-      "key": "dictionary/CH01/CH01T05/W095/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "80f802218e68fae0ea083dea86a827683c36838e",
-      "key": "dictionary/CH01/CH01T05/W095/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "6a374d727c1e18f86593552be6542d1d33614d81",
-      "key": "dictionary/CH01/CH01T05/W095/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a8069e4b99a01062502a48e0eb90dec9646a2c44",
-      "key": "dictionary/CH01/CH01T05/W095/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "705236556520efc238392015ed3261e599a62eb4",
-      "key": "dictionary/CH01/CH01T05/W095/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "337e4f2b37a10f3c20fc440bafd9ede329b59edb",
-      "key": "dictionary/CH01/CH01T05/W095/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e82badc3120e65c191f372413eb14a45c13d7f87",
-      "key": "dictionary/CH01/CH01T05/W095/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b29c99874fcff7ebba74215159a477bc85a64f0a",
-      "key": "dictionary/CH01/CH01T05/W095/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T05:W095",
+  "cefr": "A1",
   "tags": [
     "scaffold#C1T05"
   ],
-  "metadata": {},
-  "entity_id": "CH01T05:W095",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "zero",
+      "description": "A word used to express agreement, affirmation, or a positive response to a question.",
+      "ipa": "/ˈzɪroʊ/"
+    },
+    "ro": {
+      "name": "zero",
+      "description": "Un cuvânt folosit pentru a exprima acordul, afirmația sau un răspuns pozitiv la o întrebare.",
+      "ipa": "/ˈzero/"
+    },
+    "de": {
+      "name": "Null",
+      "description": "Ein Wort, das verwendet wird, um Zustimmung, Bestätigung oder eine positive Antwort auf eine Frage auszudrücken.",
+      "ipa": "/nʊl/"
+    },
+    "ru": {
+      "name": "Ноль",
+      "description": "Слово, используемое для выражения согласия, утверждения или положительного ответа на вопрос.",
+      "ipa": "/nolʲ/"
+    },
+    "it": {
+      "name": "zero",
+      "description": "Una parola usata per esprimere accordo, affermazione o una risposta positiva a una domanda.",
+      "ipa": "/ˈdzɛro/"
+    },
+    "es": {
+      "name": "cero",
+      "description": "Una palabra utilizada para expresar acuerdo, afirmación o una respuesta positiva a una pregunta.",
+      "ipa": "/ˈθeɾo/"
+    },
+    "fr": {
+      "name": "zéro",
+      "description": "Un mot utilisé pour exprimer l'accord, l'affirmation ou une réponse positive à une question.",
+      "ipa": "/zeˈʁo/"
+    },
+    "hu": {
+      "name": "Nulla",
+      "description": "Egy szó, amelyet egyetértés, megerősítés vagy egy kérdésre adott pozitív válasz kifejezésére használnak.",
+      "ipa": "/ˈnʊlːɒ/"
+    },
+    "pt": {
+      "name": "Zero",
+      "description": "Uma palavra usada para expressar concordância, afirmação ou uma resposta positiva a uma pergunta.",
+      "ipa": "/ˈzeɾu/"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "ae9c22cbdf2149c17d0559d5f331132f34f071c8"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "9afc29c4eb53fe627387b860394eb14ba59d1845"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "80f802218e68fae0ea083dea86a827683c36838e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "6a374d727c1e18f86593552be6542d1d33614d81"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "a8069e4b99a01062502a48e0eb90dec9646a2c44"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "705236556520efc238392015ed3261e599a62eb4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "337e4f2b37a10f3c20fc440bafd9ede329b59edb"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "e82badc3120e65c191f372413eb14a45c13d7f87"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "b29c99874fcff7ebba74215159a477bc85a64f0a"
+    }
+  }
 }

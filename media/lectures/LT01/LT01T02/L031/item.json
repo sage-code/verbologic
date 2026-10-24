@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "ea in seară (evening)",
-    "ro": "ea",
-    "de": "ea in seară (Abend)",
-    "ru": "ea в seară (вечер)",
-    "it": "ea in seară (sera)",
-    "es": "ea en seară (tarde/noche)",
-    "fr": "ea dans seară (soir)",
-    "hu": "ea a seară (este) szóban",
-    "pt": "ea em seară (noite/tarde)"
-  },
-  "description": {
-    "en": "The diphthong ea is found in the Romanian word seară.",
-    "ro": "Diftongul ea se regăsește în cuvântul românesc seară.",
-    "de": "Der Diphthong ea kommt im rumänischen Wort seară vor.",
-    "ru": "Дифтонг ea встречается в румынском слове seară.",
-    "it": "Il dittongo ea si trova nella parola rumena seară.",
-    "es": "El diptongo ea se encuentra en la palabra rumana seară.",
-    "fr": "La diphtongue ea se trouve dans le mot roumain seară.",
-    "hu": "Az ea diftongus a román seară szóban található meg.",
-    "pt": "O ditongo ea é encontrado na palavra romena seară."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/e̯a/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8352,
-      "sha1": "f78022d09f0373fdabf0d7e78fb6fbcf1b94e622",
-      "key": "lectures/LT01/LT01T02/L031/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L031",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L031",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ea in seară (evening)",
+      "description": "The diphthong ea is found in the Romanian word seară."
+    },
+    "ro": {
+      "name": "ea",
+      "description": "Diftongul ea se regăsește în cuvântul românesc seară.",
+      "ipa": "/e̯a/"
+    },
+    "de": {
+      "name": "ea in seară (Abend)",
+      "description": "Der Diphthong ea kommt im rumänischen Wort seară vor."
+    },
+    "ru": {
+      "name": "ea в seară (вечер)",
+      "description": "Дифтонг ea встречается в румынском слове seară."
+    },
+    "it": {
+      "name": "ea in seară (sera)",
+      "description": "Il dittongo ea si trova nella parola rumena seară."
+    },
+    "es": {
+      "name": "ea en seară (tarde/noche)",
+      "description": "El diptongo ea se encuentra en la palabra rumana seară."
+    },
+    "fr": {
+      "name": "ea dans seară (soir)",
+      "description": "La diphtongue ea se trouve dans le mot roumain seară."
+    },
+    "hu": {
+      "name": "ea a seară (este) szóban",
+      "description": "Az ea diftongus a román seară szóban található meg."
+    },
+    "pt": {
+      "name": "ea em seară (noite/tarde)",
+      "description": "O ditongo ea é encontrado na palavra romena seară."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 8352,
+      "sha1": "f78022d09f0373fdabf0d7e78fb6fbcf1b94e622"
+    }
+  }
 }

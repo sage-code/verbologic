@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "ui in pui (chicken / you put)",
-    "ro": "ui",
-    "de": "ui in pui (Hühnchen / du legst)",
-    "ru": "ui в pui (цыпленок / ты кладешь)",
-    "it": "ui in pui (pollo / tu metti)",
-    "es": "ui en pui (pollo / tú pones)",
-    "fr": "ui dans pui (poulet / tu mets)",
-    "hu": "ui a pui-ban (csirke / teszel)",
-    "pt": "ui em pui (frango / tu pões)"
-  },
-  "description": {
-    "en": "This item illustrates the Romanian diphthong ui as found in the word pui.",
-    "ro": "Acest element ilustrează diftongul românesc ui așa cum apare în cuvântul pui.",
-    "de": "Dieser Eintrag veranschaulicht den rumänischen Diphthong ui, wie er im Wort pui vorkommt.",
-    "ru": "Этот элемент иллюстрирует румынский дифтонг ui, встречающийся в слове pui.",
-    "it": "Questo elemento illustra il dittongo rumeno ui come si trova nella parola pui.",
-    "es": "Este elemento ilustra el diptongo rumano ui tal como aparece en la palabra pui.",
-    "fr": "Cet élément illustre la diphtongue roumaine ui telle qu'elle apparaît dans le mot pui.",
-    "hu": "Ez az elem a román ui kettőshangzót mutatja be a pui szóban.",
-    "pt": "Este item ilustra o ditongo romeno ui conforme encontrado na palavra pui."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/uj/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8640,
-      "sha1": "daf57c39ff19f00b6c0fc91fe8c2b3fe26d623d5",
-      "key": "lectures/LT01/LT01T02/L042/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L042",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L042",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ui in pui (chicken / you put)",
+      "description": "This item illustrates the Romanian diphthong ui as found in the word pui."
+    },
+    "ro": {
+      "name": "ui",
+      "description": "Acest element ilustrează diftongul românesc ui așa cum apare în cuvântul pui.",
+      "ipa": "/uj/"
+    },
+    "de": {
+      "name": "ui in pui (Hühnchen / du legst)",
+      "description": "Dieser Eintrag veranschaulicht den rumänischen Diphthong ui, wie er im Wort pui vorkommt."
+    },
+    "ru": {
+      "name": "ui в pui (цыпленок / ты кладешь)",
+      "description": "Этот элемент иллюстрирует румынский дифтонг ui, встречающийся в слове pui."
+    },
+    "it": {
+      "name": "ui in pui (pollo / tu metti)",
+      "description": "Questo elemento illustra il dittongo rumeno ui come si trova nella parola pui."
+    },
+    "es": {
+      "name": "ui en pui (pollo / tú pones)",
+      "description": "Este elemento ilustra el diptongo rumano ui tal como aparece en la palabra pui."
+    },
+    "fr": {
+      "name": "ui dans pui (poulet / tu mets)",
+      "description": "Cet élément illustre la diphtongue roumaine ui telle qu'elle apparaît dans le mot pui."
+    },
+    "hu": {
+      "name": "ui a pui-ban (csirke / teszel)",
+      "description": "Ez az elem a román ui kettőshangzót mutatja be a pui szóban."
+    },
+    "pt": {
+      "name": "ui em pui (frango / tu pões)",
+      "description": "Este item ilustra o ditongo romeno ui conforme encontrado na palavra pui."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 8640,
+      "sha1": "daf57c39ff19f00b6c0fc91fe8c2b3fe26d623d5"
+    }
+  }
 }

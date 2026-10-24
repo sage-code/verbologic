@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T07",
   "kind": "word",
-  "names": {
-    "en": "jump rope",
-    "ro": "coardă de sărit",
-    "de": "Springseil",
-    "ru": "Скакалка",
-    "it": "corda per saltare",
-    "es": "cuerda de saltar",
-    "fr": "corde à sauter",
-    "hu": "Ugrókötél",
-    "pt": "Corda de pular"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈkoardə de səˈrit/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12816,
-      "sha1": "353790a78df346d8bc8d22c30a9c7be266f1ebca",
-      "key": "dictionary/CH02/CH02T07/W235/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T07:W235",
+  "cefr": "A1",
   "tags": [
     "scaffold#C2T07"
   ],
-  "metadata": {},
-  "entity_id": "CH02T07:W235",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "jump rope"
+    },
+    "ro": {
+      "name": "coardă de sărit",
+      "ipa": "/ˈkoardə de səˈrit/"
+    },
+    "de": {
+      "name": "Springseil"
+    },
+    "ru": {
+      "name": "Скакалка"
+    },
+    "it": {
+      "name": "corda per saltare"
+    },
+    "es": {
+      "name": "cuerda de saltar"
+    },
+    "fr": {
+      "name": "corde à sauter"
+    },
+    "hu": {
+      "name": "Ugrókötél"
+    },
+    "pt": {
+      "name": "Corda de pular"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12816,
+      "sha1": "353790a78df346d8bc8d22c30a9c7be266f1ebca"
+    }
+  }
 }

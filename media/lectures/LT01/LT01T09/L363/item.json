@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T09",
   "kind": "letter",
-  "names": {
-    "en": "V",
-    "ro": "V",
-    "de": "V",
-    "ru": "V",
-    "it": "V",
-    "es": "V",
-    "fr": "V",
-    "hu": "V",
-    "pt": "V"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": "Letter name: Vau. Example: Vater.",
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": {
-      "ipa": "/faʊ/"
-    },
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7776,
-      "sha1": "dee50d657813eff03c0ceea73c78dc9d0dfce087"
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T09:L363",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "V"
+    },
+    "ro": {
+      "name": "V"
+    },
     "de": {
-      "context": "Vau",
-      "example": "Vater"
+      "name": "V",
+      "description": "Letter name: Vau. Example: Vater.",
+      "ipa": "/faʊ/",
+      "example": "Vater",
+      "context": "Vau"
+    },
+    "ru": {
+      "name": "V"
+    },
+    "it": {
+      "name": "V"
+    },
+    "es": {
+      "name": "V"
+    },
+    "fr": {
+      "name": "V"
+    },
+    "hu": {
+      "name": "V"
+    },
+    "pt": {
+      "name": "V"
     }
   },
-  "entity_id": "LT01T09:L363",
-  "cefr": "A1"
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 7776,
+      "sha1": "dee50d657813eff03c0ceea73c78dc9d0dfce087"
+    }
+  }
 }

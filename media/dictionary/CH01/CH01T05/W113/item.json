@@ -4,135 +4,94 @@
   "chapter": "CH01",
   "topic": "CH01T05",
   "kind": "word",
-  "names": {
-    "en": "ninety",
-    "ro": "nouăzeci",
-    "de": "Neunzig",
-    "ru": "Девяносто",
-    "it": "novanta",
-    "es": "noventa",
-    "fr": "quatre-vingt-dix",
-    "hu": "Kilencven",
-    "pt": "Noventa"
-  },
-  "description": {
-    "en": "The number nineteen represents the value after eighteen and before twenty.",
-    "ro": "Numărul nouăsprezece reprezintă valoarea de după optsprezece și înainte de douăzeci.",
-    "de": "Die Zahl neunzehn stellt den Wert nach achtzehn und vor zwanzig dar.",
-    "ru": "Число девятнадцать представляет собой значение после восемнадцати и перед двадцатью.",
-    "it": "Il numero diciannove rappresenta il valore dopo diciotto e prima di venti.",
-    "es": "El número diecinueve representa el valor después de dieciocho y antes de veinte.",
-    "fr": "Le nombre dix-neuf représente la valeur après dix-huit et avant vingt.",
-    "hu": "A tizenkilenc szám a tizennyolc utáni és a húsz előtti értéket jelöli.",
-    "pt": "O número dezanove representa o valor após dezoito e antes de vinte."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ˈnaɪnti/"
-    },
-    "ro": {
-      "ipa": "/nowəˈzetʃi/"
-    },
-    "de": {
-      "ipa": "/ˈnɔʏnt͡sɪç/"
-    },
-    "ru": {
-      "ipa": "/dʲɪvʲɪˈnostə/"
-    },
-    "it": {
-      "ipa": "/noˈvanta/"
-    },
-    "es": {
-      "ipa": "/noˈβenta/"
-    },
-    "fr": {
-      "ipa": "/katʁəvɛ̃dis/"
-    },
-    "hu": {
-      "ipa": "/ˈkilɛnt͡svɛn/"
-    },
-    "pt": {
-      "ipa": "/nuˈvẽtɐ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "594cde32c7d712e52d393804d2670b4836143670",
-      "key": "dictionary/CH01/CH01T05/W113/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "82333e119f6cf8ba38ffdbdd73e8301ed252ced6",
-      "key": "dictionary/CH01/CH01T05/W113/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d0ff594d0fc15dcf5a36633598e64c684db10dae",
-      "key": "dictionary/CH01/CH01T05/W113/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11808,
-      "sha1": "854ec4262c045712430ea23bec7b624236b6d7eb",
-      "key": "dictionary/CH01/CH01T05/W113/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "430396e9cd3adae6dc5272a81e01fb8452a76cce",
-      "key": "dictionary/CH01/CH01T05/W113/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "62549a720c24adacbc34ddfad4478a926e934008",
-      "key": "dictionary/CH01/CH01T05/W113/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3cdd2310c3bb1f2923d6cb03b28c63c3b10d86b4",
-      "key": "dictionary/CH01/CH01T05/W113/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "4818786775d69ce2a61faa9a703197050ee3b808",
-      "key": "dictionary/CH01/CH01T05/W113/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d1513c9e9316e1d132462c5c70e7d4e2d615fc2c",
-      "key": "dictionary/CH01/CH01T05/W113/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T05:W113",
+  "cefr": "A1",
   "tags": [
     "scaffold#C1T05"
   ],
-  "metadata": {},
-  "entity_id": "CH01T05:W113",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ninety",
+      "description": "The number nineteen represents the value after eighteen and before twenty.",
+      "ipa": "/ˈnaɪnti/"
+    },
+    "ro": {
+      "name": "nouăzeci",
+      "description": "Numărul nouăsprezece reprezintă valoarea de după optsprezece și înainte de douăzeci.",
+      "ipa": "/nowəˈzetʃi/"
+    },
+    "de": {
+      "name": "Neunzig",
+      "description": "Die Zahl neunzehn stellt den Wert nach achtzehn und vor zwanzig dar.",
+      "ipa": "/ˈnɔʏnt͡sɪç/"
+    },
+    "ru": {
+      "name": "Девяносто",
+      "description": "Число девятнадцать представляет собой значение после восемнадцати и перед двадцатью.",
+      "ipa": "/dʲɪvʲɪˈnostə/"
+    },
+    "it": {
+      "name": "novanta",
+      "description": "Il numero diciannove rappresenta il valore dopo diciotto e prima di venti.",
+      "ipa": "/noˈvanta/"
+    },
+    "es": {
+      "name": "noventa",
+      "description": "El número diecinueve representa el valor después de dieciocho y antes de veinte.",
+      "ipa": "/noˈβenta/"
+    },
+    "fr": {
+      "name": "quatre-vingt-dix",
+      "description": "Le nombre dix-neuf représente la valeur après dix-huit et avant vingt.",
+      "ipa": "/katʁəvɛ̃dis/"
+    },
+    "hu": {
+      "name": "Kilencven",
+      "description": "A tizenkilenc szám a tizennyolc utáni és a húsz előtti értéket jelöli.",
+      "ipa": "/ˈkilɛnt͡svɛn/"
+    },
+    "pt": {
+      "name": "Noventa",
+      "description": "O número dezanove representa o valor após dezoito e antes de vinte.",
+      "ipa": "/nuˈvẽtɐ/"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "594cde32c7d712e52d393804d2670b4836143670"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "82333e119f6cf8ba38ffdbdd73e8301ed252ced6"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "d0ff594d0fc15dcf5a36633598e64c684db10dae"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11808,
+      "sha1": "854ec4262c045712430ea23bec7b624236b6d7eb"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "430396e9cd3adae6dc5272a81e01fb8452a76cce"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "62549a720c24adacbc34ddfad4478a926e934008"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "3cdd2310c3bb1f2923d6cb03b28c63c3b10d86b4"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "4818786775d69ce2a61faa9a703197050ee3b808"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "d1513c9e9316e1d132462c5c70e7d4e2d615fc2c"
+    }
+  }
 }

@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "ir",
-    "ro": "ir in bird (pasăre)",
-    "de": "ir in bird (Vogel)",
-    "ru": "ir in bird (птица)",
-    "it": "ir in bird (uccello)",
-    "es": "ir in bird (pájaro)",
-    "fr": "ir in bird (oiseau)",
-    "hu": "ir in bird (madár)",
-    "pt": "ir in bird (pássaro)"
-  },
-  "description": {
-    "en": "This is the letter L330.",
-    "ro": "Aceasta este litera L330.",
-    "de": "Dies ist der Buchstabe L330.",
-    "ru": "Это буква L330.",
-    "it": "Questa è la lettera L330.",
-    "es": "Esta es la letra L330.",
-    "fr": "Ceci est la lettre L330.",
-    "hu": "Ez az L330 betű.",
-    "pt": "Esta é a letra L330."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɜːr/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 5040,
-      "sha1": "7cee8f7c8b665afc9ad343ec4923f63efd80d509",
-      "key": "lectures/LT01/LT01T08/L330/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L330",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L330",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ir",
+      "description": "This is the letter L330.",
+      "ipa": "/ɜːr/"
+    },
+    "ro": {
+      "name": "ir in bird (pasăre)",
+      "description": "Aceasta este litera L330."
+    },
+    "de": {
+      "name": "ir in bird (Vogel)",
+      "description": "Dies ist der Buchstabe L330."
+    },
+    "ru": {
+      "name": "ir in bird (птица)",
+      "description": "Это буква L330."
+    },
+    "it": {
+      "name": "ir in bird (uccello)",
+      "description": "Questa è la lettera L330."
+    },
+    "es": {
+      "name": "ir in bird (pájaro)",
+      "description": "Esta es la letra L330."
+    },
+    "fr": {
+      "name": "ir in bird (oiseau)",
+      "description": "Ceci est la lettre L330."
+    },
+    "hu": {
+      "name": "ir in bird (madár)",
+      "description": "Ez az L330 betű."
+    },
+    "pt": {
+      "name": "ir in bird (pássaro)",
+      "description": "Esta é a letra L330."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "7cee8f7c8b665afc9ad343ec4923f63efd80d509"
+    }
+  }
 }

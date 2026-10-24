@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T10",
   "kind": "letter",
-  "names": {
-    "en": "Х",
-    "ro": "Х",
-    "de": "Х",
-    "ru": "Х",
-    "it": "Х",
-    "es": "Х",
-    "fr": "Х",
-    "hu": "Х",
-    "pt": "Х"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": "Letter name: ха. Example: хлеб.",
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": {
-      "ipa": "/xa/"
-    },
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8784,
-      "sha1": "9bbd247891f6e1524ec997fd65ba24f1b84b86bd"
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T10:L394",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Х"
+    },
+    "ro": {
+      "name": "Х"
+    },
+    "de": {
+      "name": "Х"
+    },
     "ru": {
-      "context": "ха",
-      "example": "хлеб"
+      "name": "Х",
+      "description": "Letter name: ха. Example: хлеб.",
+      "ipa": "/xa/",
+      "example": "хлеб",
+      "context": "ха"
+    },
+    "it": {
+      "name": "Х"
+    },
+    "es": {
+      "name": "Х"
+    },
+    "fr": {
+      "name": "Х"
+    },
+    "hu": {
+      "name": "Х"
+    },
+    "pt": {
+      "name": "Х"
     }
   },
-  "entity_id": "LT01T10:L394",
-  "cefr": "A1"
+  "files": {
+    "sound/ru.mp3": {
+      "bytes": 8784,
+      "sha1": "9bbd247891f6e1524ec997fd65ba24f1b84b86bd"
+    }
+  }
 }

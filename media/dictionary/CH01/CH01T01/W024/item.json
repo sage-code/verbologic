@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "giant",
-    "ro": "uriaș",
-    "de": "Riese",
-    "ru": "гигант",
-    "it": "gigante",
-    "es": "gigante",
-    "fr": "géant",
-    "hu": "óriás",
-    "pt": "gigante"
-  },
-  "description": {
-    "en": "A giant is an imaginary or real being of very large size.",
-    "ro": "Un gigant este o ființă imaginară sau reală de dimensiuni foarte mari.",
-    "de": "Ein Riese ist ein imaginäres oder reales Wesen von sehr großer Gestalt.",
-    "ru": "Гигант — это вымышленное или реальное существо очень большого размера.",
-    "it": "Un gigante è un essere immaginario o reale di dimensioni molto grandi.",
-    "es": "Un gigante es un ser imaginario o real de tamaño muy grande.",
-    "fr": "Un géant est un être imaginaire ou réel de très grande taille.",
-    "hu": "Az óriás egy képzeletbeli vagy valós, nagyon nagy méretű lény.",
-    "pt": "Um gigante é um ser imaginário ou real de tamanho muito grande."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/dʒ/"
-    },
-    "ro": {
-      "ipa": "/uˈri.aʃ/"
-    },
-    "de": {
-      "ipa": "/ˈʁiːzə/"
-    },
-    "ru": {
-      "ipa": "/ɡʲɪˈɡant/"
-    },
-    "it": {
-      "ipa": "/dʒiˈɡante/"
-    },
-    "es": {
-      "ipa": "/xiˈɣante/"
-    },
-    "fr": {
-      "ipa": "/ʒeɑ̃/"
-    },
-    "hu": {
-      "ipa": "/ˈoːriaːʃ/"
-    },
-    "pt": {
-      "ipa": "/ʒiˈɡɐ̃tɨ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "962131a801093498ea817f25dd64681e11c337e4",
-      "key": "dictionary/CH01/CH01T01/W024/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "97d7959ef7260ec84787d52bded9aeec9169dac7",
-      "key": "dictionary/CH01/CH01T01/W024/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "41c414c8cf4636345efea9801e0e7a95eb58bfa6",
-      "key": "dictionary/CH01/CH01T01/W024/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11376,
-      "sha1": "8215f1c271750f67f6acfcc585773b130d77becf",
-      "key": "dictionary/CH01/CH01T01/W024/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e75f7b34871b1ce2d89244925cf0a30a3ebdce98",
-      "key": "dictionary/CH01/CH01T01/W024/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "7f5468919f217ea46fbd92b4b017b2a5587bae06",
-      "key": "dictionary/CH01/CH01T01/W024/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "93337326cf74e5de392df6013a55b94c98f71e86",
-      "key": "dictionary/CH01/CH01T01/W024/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12384,
-      "sha1": "931f81580a097648ba1280ce42180a991c3bbb91",
-      "key": "dictionary/CH01/CH01T01/W024/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11808,
-      "sha1": "aedf193225b22d15e3b8dc23a28dacd1eef5c98f",
-      "key": "dictionary/CH01/CH01T01/W024/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W024",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "soft g",
-      "example": "giant"
+      "name": "giant",
+      "description": "A giant is an imaginary or real being of very large size.",
+      "ipa": "/dʒ/",
+      "example": "giant",
+      "context": "soft g"
+    },
+    "ro": {
+      "name": "uriaș",
+      "description": "Un gigant este o ființă imaginară sau reală de dimensiuni foarte mari.",
+      "ipa": "/uˈri.aʃ/"
+    },
+    "de": {
+      "name": "Riese",
+      "description": "Ein Riese ist ein imaginäres oder reales Wesen von sehr großer Gestalt.",
+      "ipa": "/ˈʁiːzə/"
+    },
+    "ru": {
+      "name": "гигант",
+      "description": "Гигант — это вымышленное или реальное существо очень большого размера.",
+      "ipa": "/ɡʲɪˈɡant/"
+    },
+    "it": {
+      "name": "gigante",
+      "description": "Un gigante è un essere immaginario o reale di dimensioni molto grandi.",
+      "ipa": "/dʒiˈɡante/"
+    },
+    "es": {
+      "name": "gigante",
+      "description": "Un gigante es un ser imaginario o real de tamaño muy grande.",
+      "ipa": "/xiˈɣante/"
+    },
+    "fr": {
+      "name": "géant",
+      "description": "Un géant est un être imaginaire ou réel de très grande taille.",
+      "ipa": "/ʒeɑ̃/"
+    },
+    "hu": {
+      "name": "óriás",
+      "description": "Az óriás egy képzeletbeli vagy valós, nagyon nagy méretű lény.",
+      "ipa": "/ˈoːriaːʃ/"
+    },
+    "pt": {
+      "name": "gigante",
+      "description": "Um gigante é um ser imaginário ou real de tamanho muito grande.",
+      "ipa": "/ʒiˈɡɐ̃tɨ/"
     }
   },
-  "entity_id": "CH01T01:W024",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "962131a801093498ea817f25dd64681e11c337e4"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "97d7959ef7260ec84787d52bded9aeec9169dac7"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "41c414c8cf4636345efea9801e0e7a95eb58bfa6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11376,
+      "sha1": "8215f1c271750f67f6acfcc585773b130d77becf"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "e75f7b34871b1ce2d89244925cf0a30a3ebdce98"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "7f5468919f217ea46fbd92b4b017b2a5587bae06"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "93337326cf74e5de392df6013a55b94c98f71e86"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12384,
+      "sha1": "931f81580a097648ba1280ce42180a991c3bbb91"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11808,
+      "sha1": "aedf193225b22d15e3b8dc23a28dacd1eef5c98f"
+    }
+  }
 }

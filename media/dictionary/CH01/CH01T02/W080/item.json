@@ -4,135 +4,94 @@
   "chapter": "CH01",
   "topic": "CH01T02",
   "kind": "word",
-  "names": {
-    "en": "you're welcome",
-    "ro": "cu plăcere",
-    "de": "Bitte schön",
-    "ru": "Пожалуйста",
-    "it": "prego",
-    "es": "de nada",
-    "fr": "de rien",
-    "hu": "Szívesen",
-    "pt": "De nada"
-  },
-  "description": {
-    "en": "This is a single unit of language.",
-    "ro": "Aceasta este o unitate unică de limbaj.",
-    "de": "Dies ist eine einzelne Spracheinheit.",
-    "ru": "Это отдельная единица языка.",
-    "it": "Questa è una singola unità di linguaggio.",
-    "es": "Esta es una unidad única de lenguaje.",
-    "fr": "Il s'agit d'une unité unique de langage.",
-    "hu": "Ez a nyelv egyetlen egysége.",
-    "pt": "Esta é uma unidade única de linguagem."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/jʊə ˈwɛlkəm/"
-    },
-    "ro": {
-      "ipa": "/ku pləˈtʃere/"
-    },
-    "de": {
-      "ipa": "/ˈbɪtə ʃøːn/"
-    },
-    "ru": {
-      "ipa": "/pɐˈʐaɫʊstə/"
-    },
-    "it": {
-      "ipa": "/ˈpre.ɡo/"
-    },
-    "es": {
-      "ipa": "/de ˈna.ða/"
-    },
-    "fr": {
-      "ipa": "/də ʁjɛ̃/"
-    },
-    "hu": {
-      "ipa": "/ˈsiːvɛʃɛn/"
-    },
-    "pt": {
-      "ipa": "/dɨ ˈnaðɐ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "fcb906a552c8d60a0e25f46e484f4df3b7f8d0fa",
-      "key": "dictionary/CH01/CH01T02/W080/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "f1436ceb86f17f373e3db923958bada39e502b2f",
-      "key": "dictionary/CH01/CH01T02/W080/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "95f069a1ae3957ef559faecab9efc0375857d5fa",
-      "key": "dictionary/CH01/CH01T02/W080/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1dbf44b3aafcfea1cc6912f9fd330c230ba4ffb0",
-      "key": "dictionary/CH01/CH01T02/W080/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "edb5ad5f70c35a103d3a7a8dfdb71787e330cbf1",
-      "key": "dictionary/CH01/CH01T02/W080/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d929fd0b5a7197154d6e6085e5f6e0bdb06b45e4",
-      "key": "dictionary/CH01/CH01T02/W080/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0e3672a16407f4db64cc69827fd39f384505185f",
-      "key": "dictionary/CH01/CH01T02/W080/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "7f401bf19096649f9889cadc493a68a577b0436d",
-      "key": "dictionary/CH01/CH01T02/W080/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b57b991c4854925139e9c197ece865e095b8e6d9",
-      "key": "dictionary/CH01/CH01T02/W080/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T02:W080",
+  "cefr": "A1",
   "tags": [
     "vocabulary#override:vocabulary"
   ],
-  "metadata": {},
-  "entity_id": "CH01T02:W080",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "you're welcome",
+      "description": "This is a single unit of language.",
+      "ipa": "/jʊə ˈwɛlkəm/"
+    },
+    "ro": {
+      "name": "cu plăcere",
+      "description": "Aceasta este o unitate unică de limbaj.",
+      "ipa": "/ku pləˈtʃere/"
+    },
+    "de": {
+      "name": "Bitte schön",
+      "description": "Dies ist eine einzelne Spracheinheit.",
+      "ipa": "/ˈbɪtə ʃøːn/"
+    },
+    "ru": {
+      "name": "Пожалуйста",
+      "description": "Это отдельная единица языка.",
+      "ipa": "/pɐˈʐaɫʊstə/"
+    },
+    "it": {
+      "name": "prego",
+      "description": "Questa è una singola unità di linguaggio.",
+      "ipa": "/ˈpre.ɡo/"
+    },
+    "es": {
+      "name": "de nada",
+      "description": "Esta es una unidad única de lenguaje.",
+      "ipa": "/de ˈna.ða/"
+    },
+    "fr": {
+      "name": "de rien",
+      "description": "Il s'agit d'une unité unique de langage.",
+      "ipa": "/də ʁjɛ̃/"
+    },
+    "hu": {
+      "name": "Szívesen",
+      "description": "Ez a nyelv egyetlen egysége.",
+      "ipa": "/ˈsiːvɛʃɛn/"
+    },
+    "pt": {
+      "name": "De nada",
+      "description": "Esta é uma unidade única de linguagem.",
+      "ipa": "/dɨ ˈnaðɐ/"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "fcb906a552c8d60a0e25f46e484f4df3b7f8d0fa"
+    },
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "f1436ceb86f17f373e3db923958bada39e502b2f"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "95f069a1ae3957ef559faecab9efc0375857d5fa"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "1dbf44b3aafcfea1cc6912f9fd330c230ba4ffb0"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "edb5ad5f70c35a103d3a7a8dfdb71787e330cbf1"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "d929fd0b5a7197154d6e6085e5f6e0bdb06b45e4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "0e3672a16407f4db64cc69827fd39f384505185f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "7f401bf19096649f9889cadc493a68a577b0436d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "b57b991c4854925139e9c197ece865e095b8e6d9"
+    }
+  }
 }

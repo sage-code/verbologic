@@ -4,97 +4,84 @@
   "chapter": "LT01",
   "topic": "LT01T05",
   "kind": "topic-title",
-  "names": {
-    "en": "Elision, hyphenation & fast speech",
-    "ro": "Eliziunea, cratima și vorbirea legată",
-    "de": "Elision, Silbentrennung & schnelle Sprache",
-    "ru": "Элизия, дефисы и быстрая речь",
-    "it": "Elisione, sillabazione e parlato veloce",
-    "es": "Elisión, separación silábica y habla rápida",
-    "fr": "Élision, césure et débit rapide",
-    "hu": "Elízió, elválasztás és gyors beszéd",
-    "pt": "Elisões, hifenização e fala rápida"
-  },
-  "description": {
-    "en": "This topic covers the fifth section of the first chapter.",
-    "ro": "Acest subiect acoperă a cincea secțiune a primului capitol.",
-    "de": "Dieses Thema behandelt den fünften Abschnitt des ersten Kapitels.",
-    "ru": "Эта тема охватывает пятый раздел первой главы.",
-    "it": "Questo argomento copre la quinta sezione del primo capitolo.",
-    "es": "Este tema cubre la quinta sección del primer capítulo.",
-    "fr": "Ce sujet couvre la cinquième section du premier chapitre.",
-    "hu": "Ez a téma az első fejezet ötödik szakaszát fedi le.",
-    "pt": "Este tópico cobre a quinta seção do primeiro capítulo."
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 19728,
-      "sha1": "4e0ef673299889e1e459ed1f38e8d6fb4c03a9ad"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 21600,
-      "sha1": "fa250b10317a0cb31140459b9b991f5255881ac1",
-      "key": "lectures/LT01/LT01T05/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 24048,
-      "sha1": "1149b343be2ff1405d9b30bbc053827e41d288e5"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 21024,
-      "sha1": "028f747f668492dea231a6efb9e7baea409cdcce"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 19152,
-      "sha1": "cdb3e283bc49d555165fa2c314d6f0bd50af1ecb"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 22608,
-      "sha1": "af8f377d4bae18dbd42fc3b818ceec39501eb402"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 19152,
-      "sha1": "dfdebe9ff3ceeb6f15ebe9ac300178fd268e644b"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 25200,
-      "sha1": "0bb239e675a4a309ffcab46b460463ee407dc372"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 23904,
-      "sha1": "25170445fa900cd39c11b59dc325a4178f737451"
-    }
-  },
+  "entity_id": "LT01T05",
   "tags": [
     "title#topic"
   ],
-  "metadata": {},
-  "entity_id": "LT01T05"
+  "locales": {
+    "en": {
+      "name": "Elision, hyphenation & fast speech",
+      "description": "This topic covers the fifth section of the first chapter."
+    },
+    "ro": {
+      "name": "Eliziunea, cratima și vorbirea legată",
+      "description": "Acest subiect acoperă a cincea secțiune a primului capitol."
+    },
+    "de": {
+      "name": "Elision, Silbentrennung & schnelle Sprache",
+      "description": "Dieses Thema behandelt den fünften Abschnitt des ersten Kapitels."
+    },
+    "ru": {
+      "name": "Элизия, дефисы и быстрая речь",
+      "description": "Эта тема охватывает пятый раздел первой главы."
+    },
+    "it": {
+      "name": "Elisione, sillabazione e parlato veloce",
+      "description": "Questo argomento copre la quinta sezione del primo capitolo."
+    },
+    "es": {
+      "name": "Elisión, separación silábica y habla rápida",
+      "description": "Este tema cubre la quinta sección del primer capítulo."
+    },
+    "fr": {
+      "name": "Élision, césure et débit rapide",
+      "description": "Ce sujet couvre la cinquième section du premier chapitre."
+    },
+    "hu": {
+      "name": "Elízió, elválasztás és gyors beszéd",
+      "description": "Ez a téma az első fejezet ötödik szakaszát fedi le."
+    },
+    "pt": {
+      "name": "Elisões, hifenização e fala rápida",
+      "description": "Este tópico cobre a quinta seção do primeiro capítulo."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 19728,
+      "sha1": "4e0ef673299889e1e459ed1f38e8d6fb4c03a9ad"
+    },
+    "sound/ro.mp3": {
+      "bytes": 21600,
+      "sha1": "fa250b10317a0cb31140459b9b991f5255881ac1"
+    },
+    "sound/de.mp3": {
+      "bytes": 24048,
+      "sha1": "1149b343be2ff1405d9b30bbc053827e41d288e5"
+    },
+    "sound/ru.mp3": {
+      "bytes": 21024,
+      "sha1": "028f747f668492dea231a6efb9e7baea409cdcce"
+    },
+    "sound/it.mp3": {
+      "bytes": 19152,
+      "sha1": "cdb3e283bc49d555165fa2c314d6f0bd50af1ecb"
+    },
+    "sound/es.mp3": {
+      "bytes": 22608,
+      "sha1": "af8f377d4bae18dbd42fc3b818ceec39501eb402"
+    },
+    "sound/fr.mp3": {
+      "bytes": 19152,
+      "sha1": "dfdebe9ff3ceeb6f15ebe9ac300178fd268e644b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 25200,
+      "sha1": "0bb239e675a4a309ffcab46b460463ee407dc372"
+    },
+    "sound/pt.mp3": {
+      "bytes": 23904,
+      "sha1": "25170445fa900cd39c11b59dc325a4178f737451"
+    }
+  }
 }

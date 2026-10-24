@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T03",
   "kind": "word",
-  "names": {
-    "en": "energy",
-    "ro": "energie",
-    "de": "Energie",
-    "ru": "энергия",
-    "it": "energia",
-    "es": "energía",
-    "fr": "énergie",
-    "hu": "energia",
-    "pt": "energia"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/enerˈdʒie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "b24ada14e6f971eed38ed33b823aadb061207f36",
-      "key": "dictionary/CH08/CH08T03/W602/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T03:W602",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T03"
   ],
-  "metadata": {},
-  "entity_id": "CH08T03:W602",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "energy"
+    },
+    "ro": {
+      "name": "energie",
+      "ipa": "/enerˈdʒie/"
+    },
+    "de": {
+      "name": "Energie"
+    },
+    "ru": {
+      "name": "энергия"
+    },
+    "it": {
+      "name": "energia"
+    },
+    "es": {
+      "name": "energía"
+    },
+    "fr": {
+      "name": "énergie"
+    },
+    "hu": {
+      "name": "energia"
+    },
+    "pt": {
+      "name": "energia"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "b24ada14e6f971eed38ed33b823aadb061207f36"
+    }
+  }
 }

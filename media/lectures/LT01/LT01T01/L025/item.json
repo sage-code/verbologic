@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "U",
-    "ro": "U",
-    "de": "U",
-    "ru": "U",
-    "it": "U",
-    "es": "U",
-    "fr": "U",
-    "hu": "U",
-    "pt": "U"
-  },
-  "description": {
-    "en": "The letter U is the twenty-second letter of the Romanian alphabet.",
-    "ro": "Litera U este a douăzeci și doua literă a alfabetului român.",
-    "de": "Der Buchstabe U ist der zweiundzwanzigste Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква U — двадцать вторая буква румынского алфавита.",
-    "it": "La lettera U è la ventiduesima lettera dell'alfabeto rumeno.",
-    "es": "La letra U es la vigésima segunda letra del alfabeto rumano.",
-    "fr": "La lettre U est la vingt-deuxième lettre de l'alphabet roumain.",
-    "hu": "Az U betű a román ábécé huszonkettedik betűje.",
-    "pt": "A letra U é a vigésima segunda letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/u/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7200,
-      "sha1": "7b0a83825531e79070a6bc55829b8a857f13427f",
-      "key": "lectures/LT01/LT01T01/L025/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L025",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L025",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "U",
+      "description": "The letter U is the twenty-second letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "U",
+      "description": "Litera U este a douăzeci și doua literă a alfabetului român.",
+      "ipa": "/u/"
+    },
+    "de": {
+      "name": "U",
+      "description": "Der Buchstabe U ist der zweiundzwanzigste Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "U",
+      "description": "Буква U — двадцать вторая буква румынского алфавита."
+    },
+    "it": {
+      "name": "U",
+      "description": "La lettera U è la ventiduesima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "U",
+      "description": "La letra U es la vigésima segunda letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "U",
+      "description": "La lettre U est la vingt-deuxième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "U",
+      "description": "Az U betű a román ábécé huszonkettedik betűje."
+    },
+    "pt": {
+      "name": "U",
+      "description": "A letra U é a vigésima segunda letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 7200,
+      "sha1": "7b0a83825531e79070a6bc55829b8a857f13427f"
+    }
+  }
 }

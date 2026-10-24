@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T03",
   "kind": "word",
-  "names": {
-    "en": "money (slang)",
-    "ro": "lovele",
-    "de": "Kohle (Slang)",
-    "ru": "бабки (сленг)",
-    "it": "grana (soldi)",
-    "es": "pasta (dinero)",
-    "fr": "fric",
-    "hu": "lóvé",
-    "pt": "grana"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/loˈvele/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "d26ce171df2af44a847e2a5b1db06803a62ed036",
-      "key": "dictionary/CH12/CH12T03/W868/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T03:W868",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T03"
   ],
-  "metadata": {},
-  "entity_id": "CH12T03:W868",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "money (slang)"
+    },
+    "ro": {
+      "name": "lovele",
+      "ipa": "/loˈvele/"
+    },
+    "de": {
+      "name": "Kohle (Slang)"
+    },
+    "ru": {
+      "name": "бабки (сленг)"
+    },
+    "it": {
+      "name": "grana (soldi)"
+    },
+    "es": {
+      "name": "pasta (dinero)"
+    },
+    "fr": {
+      "name": "fric"
+    },
+    "hu": {
+      "name": "lóvé"
+    },
+    "pt": {
+      "name": "grana"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "d26ce171df2af44a847e2a5b1db06803a62ed036"
+    }
+  }
 }

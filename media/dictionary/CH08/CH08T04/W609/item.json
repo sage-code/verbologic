@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T04",
   "kind": "word",
-  "names": {
-    "en": "continent",
-    "ro": "continent",
-    "de": "Kontinent",
-    "ru": "континент",
-    "it": "continente",
-    "es": "continente",
-    "fr": "continent",
-    "hu": "kontinens",
-    "pt": "continente"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/kontiˈnent/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "88d98e27aeba7d0d41dda2d1ed7101bfafca1937",
-      "key": "dictionary/CH08/CH08T04/W609/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T04:W609",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T04"
   ],
-  "metadata": {},
-  "entity_id": "CH08T04:W609",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "continent"
+    },
+    "ro": {
+      "name": "continent",
+      "ipa": "/kontiˈnent/"
+    },
+    "de": {
+      "name": "Kontinent"
+    },
+    "ru": {
+      "name": "континент"
+    },
+    "it": {
+      "name": "continente"
+    },
+    "es": {
+      "name": "continente"
+    },
+    "fr": {
+      "name": "continent"
+    },
+    "hu": {
+      "name": "kontinens"
+    },
+    "pt": {
+      "name": "continente"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "88d98e27aeba7d0d41dda2d1ed7101bfafca1937"
+    }
+  }
 }

@@ -4,139 +4,95 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "th",
-    "ro": "a gândi",
-    "de": "th",
-    "ru": "th",
-    "it": "th",
-    "es": "th",
-    "fr": "th",
-    "hu": "th",
-    "pt": "th"
-  },
-  "description": {
-    "en": "The digraph th represents a dental fricative sound.",
-    "ro": "Digraful th reprezintă un sunet fricativ dental.",
-    "de": "Das Digraph th steht für einen dentalen Frikativ.",
-    "ru": "Диграф th обозначает зубной фрикативный звук.",
-    "it": "Il digramma th rappresenta un suono fricativo dentale.",
-    "es": "El dígrafo th representa un sonido fricativo dental.",
-    "fr": "Le digraphe th représente un son fricatif dental.",
-    "hu": "A th digráf egy foghangú réshangot jelöl.",
-    "pt": "O dígrafo th representa um som fricativo dental."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/θ/"
-    },
-    "ro": {
-      "ipa": "/a ɡɨnˈdi/"
-    },
-    "de": {
-      "ipa": "/tʰ/"
-    },
-    "ru": {
-      "ipa": "/tʰ/"
-    },
-    "it": {
-      "ipa": "/tʰ/"
-    },
-    "es": {
-      "ipa": "/tʰ/"
-    },
-    "fr": {
-      "ipa": "/tʰ/"
-    },
-    "hu": {
-      "ipa": "/tʰ/"
-    },
-    "pt": {
-      "ipa": "/tʰ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "47f84d55fc6eacb2e74baa762d3744c00bb73c3a",
-      "key": "dictionary/CH01/CH01T01/W058/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "6b545bef989472b8833183d84e163220f44d093a",
-      "key": "dictionary/CH01/CH01T01/W058/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e079c89a31ca9e305766d4775e43640d95b7c198",
-      "key": "dictionary/CH01/CH01T01/W058/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ef7f690c61b315fb1a0e7e586341f0db1582a5fb",
-      "key": "dictionary/CH01/CH01T01/W058/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b432a476115139c6ebafb27d769b960c5cc10468",
-      "key": "dictionary/CH01/CH01T01/W058/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c0ce1cc7db9dabd422b6283e4971f726eae8c36e",
-      "key": "dictionary/CH01/CH01T01/W058/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e23a57c4cbe5dda178536dc68b44bb7028f75e41",
-      "key": "dictionary/CH01/CH01T01/W058/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a7e6397bb9493fe5d5d7d73b07e7a0e5d1fe8119",
-      "key": "dictionary/CH01/CH01T01/W058/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0eaa6905a644eaf816681c52a4a58378b950f6a3",
-      "key": "dictionary/CH01/CH01T01/W058/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W058",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "th",
+      "description": "The digraph th represents a dental fricative sound.",
+      "ipa": "/θ/",
       "example": "think"
+    },
+    "ro": {
+      "name": "a gândi",
+      "description": "Digraful th reprezintă un sunet fricativ dental.",
+      "ipa": "/a ɡɨnˈdi/"
+    },
+    "de": {
+      "name": "th",
+      "description": "Das Digraph th steht für einen dentalen Frikativ.",
+      "ipa": "/tʰ/"
+    },
+    "ru": {
+      "name": "th",
+      "description": "Диграф th обозначает зубной фрикативный звук.",
+      "ipa": "/tʰ/"
+    },
+    "it": {
+      "name": "th",
+      "description": "Il digramma th rappresenta un suono fricativo dentale.",
+      "ipa": "/tʰ/"
+    },
+    "es": {
+      "name": "th",
+      "description": "El dígrafo th representa un sonido fricativo dental.",
+      "ipa": "/tʰ/"
+    },
+    "fr": {
+      "name": "th",
+      "description": "Le digraphe th représente un son fricatif dental.",
+      "ipa": "/tʰ/"
+    },
+    "hu": {
+      "name": "th",
+      "description": "A th digráf egy foghangú réshangot jelöl.",
+      "ipa": "/tʰ/"
+    },
+    "pt": {
+      "name": "th",
+      "description": "O dígrafo th representa um som fricativo dental.",
+      "ipa": "/tʰ/"
     }
   },
-  "entity_id": "CH01T01:W058",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "47f84d55fc6eacb2e74baa762d3744c00bb73c3a"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "6b545bef989472b8833183d84e163220f44d093a"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "e079c89a31ca9e305766d4775e43640d95b7c198"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "ef7f690c61b315fb1a0e7e586341f0db1582a5fb"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "b432a476115139c6ebafb27d769b960c5cc10468"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "c0ce1cc7db9dabd422b6283e4971f726eae8c36e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "e23a57c4cbe5dda178536dc68b44bb7028f75e41"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "a7e6397bb9493fe5d5d7d73b07e7a0e5d1fe8119"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "0eaa6905a644eaf816681c52a4a58378b950f6a3"
+    }
+  }
 }

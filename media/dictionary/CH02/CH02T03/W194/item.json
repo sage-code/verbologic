@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T03",
   "kind": "word",
-  "names": {
-    "en": "hallway",
-    "ro": "hol",
-    "de": "Flur",
-    "ru": "Коридор",
-    "it": "corridoio",
-    "es": "pasillo",
-    "fr": "couloir",
-    "hu": "Folyosó",
-    "pt": "Corredor"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/hol/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "ee4d30ded7004dd9fc7977e84b527f0b9a5ae327",
-      "key": "dictionary/CH02/CH02T03/W194/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T03:W194",
+  "cefr": "A1",
   "tags": [
     "scaffold#C2T03"
   ],
-  "metadata": {},
-  "entity_id": "CH02T03:W194",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "hallway"
+    },
+    "ro": {
+      "name": "hol",
+      "ipa": "/hol/"
+    },
+    "de": {
+      "name": "Flur"
+    },
+    "ru": {
+      "name": "Коридор"
+    },
+    "it": {
+      "name": "corridoio"
+    },
+    "es": {
+      "name": "pasillo"
+    },
+    "fr": {
+      "name": "couloir"
+    },
+    "hu": {
+      "name": "Folyosó"
+    },
+    "pt": {
+      "name": "Corredor"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "ee4d30ded7004dd9fc7977e84b527f0b9a5ae327"
+    }
+  }
 }

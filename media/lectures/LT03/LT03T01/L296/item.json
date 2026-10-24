@@ -4,111 +4,49 @@
   "chapter": "LT03",
   "topic": "LT03T01",
   "kind": "greeting",
-  "names": {
-    "en": "goodbye",
-    "ro": "la revedere",
-    "de": "Auf Wiedersehen",
-    "ru": "до свидания",
-    "it": "arrivederci",
-    "es": "adiós",
-    "fr": "au revoir",
-    "hu": "viszlát",
-    "pt": "adeus"
-  },
-  "description": {
-    "en": "A common expression for taking leave.",
-    "ro": "O formulă obișnuită pentru a-ți lua rămas-bun.",
-    "de": "Ein üblicher Ausdruck, um sich zu verabschieden.",
-    "ru": "Распространённое выражение для прощания.",
-    "it": "Un’espressione comune per congedarsi.",
-    "es": "Una expresión habitual para despedirse.",
-    "fr": "Une expression courante pour prendre congé.",
-    "hu": "Gyakori kifejezés az elköszönésre.",
-    "pt": "Uma expressão comum para se despedir."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/la re.veˈde.re/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT03T01:L296",
+  "cefr": "A1",
   "tags": [
     "lecture#greeting",
     "shared-article-variant"
   ],
-  "metadata": {},
-  "entity_id": "LT03T01:L296",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "goodbye",
+      "description": "A common expression for taking leave."
+    },
+    "ro": {
+      "name": "la revedere",
+      "description": "O formulă obișnuită pentru a-ți lua rămas-bun.",
+      "ipa": "/la re.veˈde.re/"
+    },
+    "de": {
+      "name": "Auf Wiedersehen",
+      "description": "Ein üblicher Ausdruck, um sich zu verabschieden."
+    },
+    "ru": {
+      "name": "до свидания",
+      "description": "Распространённое выражение для прощания."
+    },
+    "it": {
+      "name": "arrivederci",
+      "description": "Un’espressione comune per congedarsi."
+    },
+    "es": {
+      "name": "adiós",
+      "description": "Una expresión habitual para despedirse."
+    },
+    "fr": {
+      "name": "au revoir",
+      "description": "Une expression courante pour prendre congé."
+    },
+    "hu": {
+      "name": "viszlát",
+      "description": "Gyakori kifejezés az elköszönésre."
+    },
+    "pt": {
+      "name": "adeus",
+      "description": "Uma expressão comum para se despedir."
+    }
+  }
 }

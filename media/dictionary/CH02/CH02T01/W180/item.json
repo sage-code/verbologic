@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T01",
   "kind": "word",
-  "names": {
-    "en": "heart",
-    "ro": "inimă",
-    "de": "Herz",
-    "ru": "Сердце",
-    "it": "cuore",
-    "es": "corazón",
-    "fr": "cœur",
-    "hu": "Szív",
-    "pt": "Coração"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈinimə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "a37bf2a55eef27594fbd059c5c631f10420c7cec",
-      "key": "dictionary/CH02/CH02T01/W180/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T01:W180",
+  "cefr": "A1",
   "tags": [
     "scaffold#C2T01"
   ],
-  "metadata": {},
-  "entity_id": "CH02T01:W180",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "heart"
+    },
+    "ro": {
+      "name": "inimă",
+      "ipa": "/ˈinimə/"
+    },
+    "de": {
+      "name": "Herz"
+    },
+    "ru": {
+      "name": "Сердце"
+    },
+    "it": {
+      "name": "cuore"
+    },
+    "es": {
+      "name": "corazón"
+    },
+    "fr": {
+      "name": "cœur"
+    },
+    "hu": {
+      "name": "Szív"
+    },
+    "pt": {
+      "name": "Coração"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "a37bf2a55eef27594fbd059c5c631f10420c7cec"
+    }
+  }
 }

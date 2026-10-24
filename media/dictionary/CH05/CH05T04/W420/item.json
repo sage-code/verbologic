@@ -4,111 +4,45 @@
   "chapter": "CH05",
   "topic": "CH05T04",
   "kind": "word",
-  "names": {
-    "en": "stamp",
-    "ro": "timbru",
-    "de": "Briefmarke",
-    "ru": "почтовая марка",
-    "it": "francobollo",
-    "es": "sello",
-    "fr": "timbre",
-    "hu": "bélyeg",
-    "pt": "selo"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈtimbru/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "33c4f3df4a048508d6b3459f1a6d1e76a0e27ed8",
-      "key": "dictionary/CH05/CH05T04/W420/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH05T04:W420",
+  "cefr": "B1",
   "tags": [
     "scaffold#C5T04"
   ],
-  "metadata": {},
-  "entity_id": "CH05T04:W420",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "stamp"
+    },
+    "ro": {
+      "name": "timbru",
+      "ipa": "/ˈtimbru/"
+    },
+    "de": {
+      "name": "Briefmarke"
+    },
+    "ru": {
+      "name": "почтовая марка"
+    },
+    "it": {
+      "name": "francobollo"
+    },
+    "es": {
+      "name": "sello"
+    },
+    "fr": {
+      "name": "timbre"
+    },
+    "hu": {
+      "name": "bélyeg"
+    },
+    "pt": {
+      "name": "selo"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "33c4f3df4a048508d6b3459f1a6d1e76a0e27ed8"
+    }
+  }
 }

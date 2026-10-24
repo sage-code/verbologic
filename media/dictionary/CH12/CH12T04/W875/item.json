@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T04",
   "kind": "word",
-  "names": {
-    "en": "you (informal)",
-    "ro": "tu",
-    "de": "du",
-    "ru": "ты",
-    "it": "tu",
-    "es": "tú",
-    "fr": "tu",
-    "hu": "te",
-    "pt": "tu"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/tu/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "b7a442e5104e20fd350493d165c1e7dab927e079",
-      "key": "dictionary/CH12/CH12T04/W875/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T04:W875",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T04"
   ],
-  "metadata": {},
-  "entity_id": "CH12T04:W875",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "you (informal)"
+    },
+    "ro": {
+      "name": "tu",
+      "ipa": "/tu/"
+    },
+    "de": {
+      "name": "du"
+    },
+    "ru": {
+      "name": "ты"
+    },
+    "it": {
+      "name": "tu"
+    },
+    "es": {
+      "name": "tú"
+    },
+    "fr": {
+      "name": "tu"
+    },
+    "hu": {
+      "name": "te"
+    },
+    "pt": {
+      "name": "tu"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "b7a442e5104e20fd350493d165c1e7dab927e079"
+    }
+  }
 }

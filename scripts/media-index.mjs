@@ -40,6 +40,7 @@ import { dirname, join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import grayMatter from 'gray-matter'
 import { LOCALES } from './lib/locales.mjs'
+import { descriptor, filePath, localeRow, localesOf, nameOf } from './lib/manifest.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const SIDEBARS = join(ROOT, 'src', 'data', 'sidebars')
@@ -97,33 +98,31 @@ const isTitleKind = (kind) => CHAPTER_TITLE_KINDS.has(kind) || TOPIC_TITLE_KINDS
  * keeps `key: null`, so the runtime URL stays null and the UI disables it.
  */
 function resolveDescriptor(item, path, locale, field) {
-  const descriptor = item[field]?.[locale] ?? {}
-  const filePath = descriptor.file
-    ? join(dirname(path), ...descriptor.file.split('/'))
-    : null
-  const key = filePath && existsSync(filePath)
-    ? relative(MEDIA, filePath).replaceAll('\\', '/')
+  const facts = item.files?.[filePath(field, locale)]
+  const filePathOnDisk = facts ? join(dirname(path), ...filePath(field, locale).split('/')) : null
+  const key = filePathOnDisk && existsSync(filePathOnDisk)
+    ? relative(MEDIA, filePathOnDisk).replaceAll('\\', '/')
     : null
   return {
     key,
-    mime: descriptor.mime ?? 'audio/mpeg',
-    bytes: key ? descriptor.bytes ?? 0 : 0,
-    sha1: key ? descriptor.sha1 ?? null : null,
-    status: descriptor.status ?? 'pending'
+    mime: 'audio/mpeg',
+    bytes: key ? facts.bytes ?? 0 : 0,
+    sha1: key ? facts.sha1 ?? null : null,
+    status: key ? 'published' : 'pending'
   }
 }
 
 function localizeItem(item, path, locale) {
   const audio = resolveDescriptor(item, path, locale, 'audio')
-  const read = item.read ? resolveDescriptor(item, path, locale, 'read') : null
-  const metadata = item.metadata?.[locale] ?? {}
+  const read = item.files?.[filePath('read', locale)] ? resolveDescriptor(item, path, locale, 'read') : null
+  const row = localeRow(item, locale)
   return {
     id: item.code,
     lang: locale,
     kind: item.kind,
-    term: item.names?.[locale] ?? null,
-    names: item.names ?? {},
-    ipa: item.pronunciation?.[locale]?.ipa ?? null,
+    term: row.name ?? null,
+    names: namesOf(item),
+    ipa: row.ipa ?? null,
     key: audio.key,
     mime: audio.mime,
     bytes: audio.bytes,
@@ -133,10 +132,26 @@ function localizeItem(item, path, locale) {
     tags: item.tags ?? [],
     topic: item.topic,
     entity_id: `${item.topic}:${item.code}`,
-    description: item.description?.[locale] ?? null,
-    context: metadata.context ?? null,
-    example: metadata.example ?? null
+    description: row.description ?? null,
+    context: row.context ?? null,
+    example: row.example ?? null
   }
+}
+
+/**
+ * The old `names` map, rebuilt from `locales` — the runtime still reads it.
+ *
+ * Every registered locale is emitted, with `null` for the ones that have no
+ * name yet. That is what the pre-migration manifests carried, and the payloads
+ * are the contract: keeping the nulls means `media index` output stays
+ * byte-identical, so the migration is provably zero-impact. Dropping them
+ * would shrink `search.json` further, but that is a separate change with its
+ * own measurement (planning/performance-and-content-refactor.md §25).
+ */
+function namesOf(item) {
+  const out = {}
+  for (const locale of LOCALES_ALL) out[locale] = nameOf(item, locale) ?? null
+  return out
 }
 
 const walkManifests = (dir, sectionPath) => {
@@ -153,7 +168,7 @@ const walkManifests = (dir, sectionPath) => {
         : `${item.topic}\n${item.code}`
       if (!map.has(manifestKey)) map.set(manifestKey, [])
       for (const locale of LOCALES_ALL) {
-        if (typeof item.names?.[locale] !== 'string' || !item.names[locale]) continue
+        if (!nameOf(item, locale)) continue
         map.get(manifestKey).push({
           manifest: localizeItem(item, p, locale),
           sectionPath

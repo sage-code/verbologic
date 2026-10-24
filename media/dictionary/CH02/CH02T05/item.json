@@ -4,110 +4,23 @@
   "chapter": "CH02",
   "topic": "CH02T05",
   "kind": "topic-title",
-  "names": {
-    "en": "Food & ingredients",
-    "ro": "Alimente și ingrediente",
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/aliˈmente ʃi ingreˈdiente/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 15120,
-      "sha1": "da073e7efc8d3e178efec726f40d054b578bfd01",
-      "key": "dictionary/CH02/CH02T05/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T05",
   "tags": [
     "title#topic"
   ],
-  "metadata": {},
-  "entity_id": "CH02T05"
+  "locales": {
+    "en": {
+      "name": "Food & ingredients"
+    },
+    "ro": {
+      "name": "Alimente și ingrediente",
+      "ipa": "/aliˈmente ʃi ingreˈdiente/"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 15120,
+      "sha1": "da073e7efc8d3e178efec726f40d054b578bfd01"
+    }
+  }
 }

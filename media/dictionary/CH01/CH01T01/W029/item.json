@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "-lf",
-    "ro": "jumătate",
-    "de": "-lf",
-    "ru": "-lf",
-    "it": "-lf",
-    "es": "-lf",
-    "fr": "-lf",
-    "hu": "-lf",
-    "pt": "-lf"
-  },
-  "description": {
-    "en": "This is a letter sequence ending in lf.",
-    "ro": "Aceasta este o secvență de litere care se termină în lf.",
-    "de": "Dies ist eine Buchstabenfolge, die auf lf endet.",
-    "ru": "Это последовательность букв, заканчивающаяся на lf.",
-    "it": "Questa è una sequenza di lettere che termina con lf.",
-    "es": "Esta es una secuencia de letras que termina en lf.",
-    "fr": "Il s'agit d'une séquence de lettres se terminant par lf.",
-    "hu": "Ez egy betűsorozat, amely lf-re végződik.",
-    "pt": "Esta é uma sequência de letras que termina em lf."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/hæf/"
-    },
-    "ro": {
-      "ipa": "/ʒu.məˈtə.te/"
-    },
-    "de": {
-      "ipa": "/lf/"
-    },
-    "ru": {
-      "ipa": "/lf/"
-    },
-    "it": {
-      "ipa": "/lf/"
-    },
-    "es": {
-      "ipa": "/lf/"
-    },
-    "fr": {
-      "ipa": "/lf/"
-    },
-    "hu": {
-      "ipa": "/lf/"
-    },
-    "pt": {
-      "ipa": "/lf/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "59569ad994826396846f804074328524727077b7",
-      "key": "dictionary/CH01/CH01T01/W029/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2bade107f4d4dab5789f7b1fda9d91c7a80fedba",
-      "key": "dictionary/CH01/CH01T01/W029/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0def7343333736722e815c2429436e6b0c6af4e3",
-      "key": "dictionary/CH01/CH01T01/W029/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3661484fe46a552d1ef306bb135d44db35f28019",
-      "key": "dictionary/CH01/CH01T01/W029/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "4dac8c4d0ed35d63c2af06b833aaa2d940691613",
-      "key": "dictionary/CH01/CH01T01/W029/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "723fb92fd12624a9c6092419e9ed15b15882e825",
-      "key": "dictionary/CH01/CH01T01/W029/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "5e29e29334524d191e6eab5f787ed4976634a05c",
-      "key": "dictionary/CH01/CH01T01/W029/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1d15b8760f70cfe717d926593d747c0e8e910c40",
-      "key": "dictionary/CH01/CH01T01/W029/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "92ae0e0748aed9ef7d833ebcda2acbc1692c3709",
-      "key": "dictionary/CH01/CH01T01/W029/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W029",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "l",
-      "example": "half"
+      "name": "-lf",
+      "description": "This is a letter sequence ending in lf.",
+      "ipa": "/hæf/",
+      "example": "half",
+      "context": "l"
+    },
+    "ro": {
+      "name": "jumătate",
+      "description": "Aceasta este o secvență de litere care se termină în lf.",
+      "ipa": "/ʒu.məˈtə.te/"
+    },
+    "de": {
+      "name": "-lf",
+      "description": "Dies ist eine Buchstabenfolge, die auf lf endet.",
+      "ipa": "/lf/"
+    },
+    "ru": {
+      "name": "-lf",
+      "description": "Это последовательность букв, заканчивающаяся на lf.",
+      "ipa": "/lf/"
+    },
+    "it": {
+      "name": "-lf",
+      "description": "Questa è una sequenza di lettere che termina con lf.",
+      "ipa": "/lf/"
+    },
+    "es": {
+      "name": "-lf",
+      "description": "Esta es una secuencia de letras que termina en lf.",
+      "ipa": "/lf/"
+    },
+    "fr": {
+      "name": "-lf",
+      "description": "Il s'agit d'une séquence de lettres se terminant par lf.",
+      "ipa": "/lf/"
+    },
+    "hu": {
+      "name": "-lf",
+      "description": "Ez egy betűsorozat, amely lf-re végződik.",
+      "ipa": "/lf/"
+    },
+    "pt": {
+      "name": "-lf",
+      "description": "Esta é uma sequência de letras que termina em lf.",
+      "ipa": "/lf/"
     }
   },
-  "entity_id": "CH01T01:W029",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "59569ad994826396846f804074328524727077b7"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "2bade107f4d4dab5789f7b1fda9d91c7a80fedba"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "0def7343333736722e815c2429436e6b0c6af4e3"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "3661484fe46a552d1ef306bb135d44db35f28019"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "4dac8c4d0ed35d63c2af06b833aaa2d940691613"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "723fb92fd12624a9c6092419e9ed15b15882e825"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "5e29e29334524d191e6eab5f787ed4976634a05c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "1d15b8760f70cfe717d926593d747c0e8e910c40"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "92ae0e0748aed9ef7d833ebcda2acbc1692c3709"
+    }
+  }
 }

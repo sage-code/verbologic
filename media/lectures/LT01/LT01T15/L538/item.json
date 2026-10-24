@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T15",
   "kind": "letter",
-  "names": {
-    "en": "L",
-    "ro": "L",
-    "de": "L",
-    "ru": "L",
-    "it": "L",
-    "es": "L",
-    "fr": "L",
-    "hu": "L",
-    "pt": "L"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": "Letter name: ele. Example: lua."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": {
-      "ipa": "/ˈɛli/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3db7c9beeb3ebc4ee443db8575cab183f277756f"
-    }
-  },
+  "entity_id": "LT01T15:L538",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "L"
+    },
+    "ro": {
+      "name": "L"
+    },
+    "de": {
+      "name": "L"
+    },
+    "ru": {
+      "name": "L"
+    },
+    "it": {
+      "name": "L"
+    },
+    "es": {
+      "name": "L"
+    },
+    "fr": {
+      "name": "L"
+    },
+    "hu": {
+      "name": "L"
+    },
     "pt": {
-      "context": "ele",
-      "example": "lua"
+      "name": "L",
+      "description": "Letter name: ele. Example: lua.",
+      "ipa": "/ˈɛli/",
+      "example": "lua",
+      "context": "ele"
     }
   },
-  "entity_id": "LT01T15:L538",
-  "cefr": "A1"
+  "files": {
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "3db7c9beeb3ebc4ee443db8575cab183f277756f"
+    }
+  }
 }

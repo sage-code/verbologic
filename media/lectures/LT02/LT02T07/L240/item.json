@@ -4,109 +4,23 @@
   "chapter": "LT02",
   "topic": "LT02T07",
   "kind": "imperative",
-  "names": {
-    "en": "Call the ambulance.",
-    "ro": "Cheamă ambulanța.",
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12384,
-      "sha1": "4d82096cba75efd478dc837268d7b968f2d560cd",
-      "key": "lectures/LT02/LT02T07/L240/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT02T07:L240",
+  "cefr": "A2",
   "tags": [
     "imperative#emergency-actions"
   ],
-  "metadata": {},
-  "entity_id": "LT02T07:L240",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "Call the ambulance."
+    },
+    "ro": {
+      "name": "Cheamă ambulanța."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12384,
+      "sha1": "4d82096cba75efd478dc837268d7b968f2d560cd"
+    }
+  }
 }

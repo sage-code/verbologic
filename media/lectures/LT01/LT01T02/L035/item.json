@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "io in iod (iodine)",
-    "ro": "io",
-    "de": "io in iod (Jod)",
-    "ru": "io в iod (йод)",
-    "it": "io in iod (iodio)",
-    "es": "io en iod (yodo)",
-    "fr": "io dans iod (iode)",
-    "hu": "io a iod (jód) szóban",
-    "pt": "io em iod (iodo)"
-  },
-  "description": {
-    "en": "The diphthong io is found in the Romanian word iod.",
-    "ro": "Diftongul io se regăsește în cuvântul românesc iod.",
-    "de": "Der Diphthong io kommt im rumänischen Wort iod vor.",
-    "ru": "Дифтонг io встречается в румынском слове iod.",
-    "it": "Il dittongo io si trova nella parola rumena iod.",
-    "es": "El diptongo io se encuentra en la palabra rumana iod.",
-    "fr": "La diphtongue io se trouve dans le mot roumain iod.",
-    "hu": "Az io diftongus a román iod szóban található meg.",
-    "pt": "O ditongo io é encontrado na palavra romena iod."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/jo/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2c28b14244657e1fe004db407ba99532602e4264",
-      "key": "lectures/LT01/LT01T02/L035/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L035",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L035",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "io in iod (iodine)",
+      "description": "The diphthong io is found in the Romanian word iod."
+    },
+    "ro": {
+      "name": "io",
+      "description": "Diftongul io se regăsește în cuvântul românesc iod.",
+      "ipa": "/jo/"
+    },
+    "de": {
+      "name": "io in iod (Jod)",
+      "description": "Der Diphthong io kommt im rumänischen Wort iod vor."
+    },
+    "ru": {
+      "name": "io в iod (йод)",
+      "description": "Дифтонг io встречается в румынском слове iod."
+    },
+    "it": {
+      "name": "io in iod (iodio)",
+      "description": "Il dittongo io si trova nella parola rumena iod."
+    },
+    "es": {
+      "name": "io en iod (yodo)",
+      "description": "El diptongo io se encuentra en la palabra rumana iod."
+    },
+    "fr": {
+      "name": "io dans iod (iode)",
+      "description": "La diphtongue io se trouve dans le mot roumain iod."
+    },
+    "hu": {
+      "name": "io a iod (jód) szóban",
+      "description": "Az io diftongus a román iod szóban található meg."
+    },
+    "pt": {
+      "name": "io em iod (iodo)",
+      "description": "O ditongo io é encontrado na palavra romena iod."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "2c28b14244657e1fe004db407ba99532602e4264"
+    }
+  }
 }

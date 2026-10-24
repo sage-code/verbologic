@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "-mb",
-    "ro": "-mb",
-    "de": "-mb",
-    "ru": "-mb",
-    "it": "-mb",
-    "es": "-mb",
-    "fr": "-mb",
-    "hu": "-mb",
-    "pt": "-mb"
-  },
-  "description": {
-    "en": "Letter name: -mb. Example: lamb.",
-    "ro": "Combinația de litere -mb este mută la sfârșitul cuvintelor precum lamb.",
-    "de": "Die Buchstabenkombination -mb ist am Wortende stumm, wie zum Beispiel in lamb.",
-    "ru": "Буквосочетание -mb не произносится в конце таких слов, как lamb.",
-    "it": "La combinazione di lettere -mb è muta alla fine di parole come lamb.",
-    "es": "La combinación de letras -mb es muda al final de palabras como lamb.",
-    "fr": "La combinaison de lettres -mb est muette à la fin de mots comme lamb.",
-    "hu": "A -mb betűkombináció néma a szavak végén, például a lamb szóban.",
-    "pt": "A combinação de letras -mb é muda no final de palavras como lamb."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/m/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 6336,
-      "sha1": "b11bca9ac37f271d4b9586c91b7aa922f26d46b3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L607",
+  "legacy_entity_id": "letter_lamb",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "-mb",
-      "example": "lamb"
+      "name": "-mb",
+      "description": "Letter name: -mb. Example: lamb.",
+      "ipa": "/m/",
+      "example": "lamb",
+      "context": "-mb"
+    },
+    "ro": {
+      "name": "-mb",
+      "description": "Combinația de litere -mb este mută la sfârșitul cuvintelor precum lamb."
+    },
+    "de": {
+      "name": "-mb",
+      "description": "Die Buchstabenkombination -mb ist am Wortende stumm, wie zum Beispiel in lamb."
+    },
+    "ru": {
+      "name": "-mb",
+      "description": "Буквосочетание -mb не произносится в конце таких слов, как lamb."
+    },
+    "it": {
+      "name": "-mb",
+      "description": "La combinazione di lettere -mb è muta alla fine di parole come lamb."
+    },
+    "es": {
+      "name": "-mb",
+      "description": "La combinación de letras -mb es muda al final de palabras como lamb."
+    },
+    "fr": {
+      "name": "-mb",
+      "description": "La combinaison de lettres -mb est muette à la fin de mots comme lamb."
+    },
+    "hu": {
+      "name": "-mb",
+      "description": "A -mb betűkombináció néma a szavak végén, például a lamb szóban."
+    },
+    "pt": {
+      "name": "-mb",
+      "description": "A combinação de letras -mb é muda no final de palavras como lamb."
     }
   },
-  "entity_id": "LT01T07:L607",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_lamb"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 6336,
+      "sha1": "b11bca9ac37f271d4b9586c91b7aa922f26d46b3"
+    }
+  }
 }

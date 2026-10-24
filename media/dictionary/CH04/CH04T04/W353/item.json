@@ -4,111 +4,45 @@
   "chapter": "CH04",
   "topic": "CH04T04",
   "kind": "word",
-  "names": {
-    "en": "corner",
-    "ro": "colț",
-    "de": "Ecke",
-    "ru": "угол",
-    "it": "angolo",
-    "es": "esquina",
-    "fr": "coin",
-    "hu": "sarok",
-    "pt": "esquina"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/kolts/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "580a46fe1d8ece84cacfc07bf17349780f56601b",
-      "key": "dictionary/CH04/CH04T04/W353/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH04T04:W353",
+  "cefr": "A2",
   "tags": [
     "vocabulary#transport-directions"
   ],
-  "metadata": {},
-  "entity_id": "CH04T04:W353",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "corner"
+    },
+    "ro": {
+      "name": "colț",
+      "ipa": "/kolts/"
+    },
+    "de": {
+      "name": "Ecke"
+    },
+    "ru": {
+      "name": "угол"
+    },
+    "it": {
+      "name": "angolo"
+    },
+    "es": {
+      "name": "esquina"
+    },
+    "fr": {
+      "name": "coin"
+    },
+    "hu": {
+      "name": "sarok"
+    },
+    "pt": {
+      "name": "esquina"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "580a46fe1d8ece84cacfc07bf17349780f56601b"
+    }
+  }
 }

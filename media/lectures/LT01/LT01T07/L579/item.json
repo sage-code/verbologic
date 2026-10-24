@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "A",
-    "ro": "A",
-    "de": "A",
-    "ru": "A",
-    "it": "A",
-    "es": "A",
-    "fr": "A",
-    "hu": "A",
-    "pt": "A"
-  },
-  "description": {
-    "en": "Letter name: A. Example: cat.",
-    "ro": "Numele literei: A. Exemplu: cat.",
-    "de": "Buchstabenname: A. Beispiel: cat.",
-    "ru": "Название буквы: A. Пример: cat.",
-    "it": "Nome della lettera: A. Esempio: cat.",
-    "es": "Nombre de la letra: A. Ejemplo: cat.",
-    "fr": "Nom de la lettre : A. Exemple : cat.",
-    "hu": "Betű neve: A. Példa: cat.",
-    "pt": "Nome da letra: A. Exemplo: cat."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/æ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4896,
-      "sha1": "38c81d1b3b92b8d48fe65d43cf48ac41d7a3e633"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L579",
+  "legacy_entity_id": "letter_cat",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "A",
-      "example": "cat"
+      "name": "A",
+      "description": "Letter name: A. Example: cat.",
+      "ipa": "/æ/",
+      "example": "cat",
+      "context": "A"
+    },
+    "ro": {
+      "name": "A",
+      "description": "Numele literei: A. Exemplu: cat."
+    },
+    "de": {
+      "name": "A",
+      "description": "Buchstabenname: A. Beispiel: cat."
+    },
+    "ru": {
+      "name": "A",
+      "description": "Название буквы: A. Пример: cat."
+    },
+    "it": {
+      "name": "A",
+      "description": "Nome della lettera: A. Esempio: cat."
+    },
+    "es": {
+      "name": "A",
+      "description": "Nombre de la letra: A. Ejemplo: cat."
+    },
+    "fr": {
+      "name": "A",
+      "description": "Nom de la lettre : A. Exemple : cat."
+    },
+    "hu": {
+      "name": "A",
+      "description": "Betű neve: A. Példa: cat."
+    },
+    "pt": {
+      "name": "A",
+      "description": "Nome da letra: A. Exemplo: cat."
     }
   },
-  "entity_id": "LT01T07:L579",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_cat"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "38c81d1b3b92b8d48fe65d43cf48ac41d7a3e633"
+    }
+  }
 }

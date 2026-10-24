@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "Ă",
-    "ro": "Ă",
-    "de": "Ă",
-    "ru": "Ă",
-    "it": "Ă",
-    "es": "Ă",
-    "fr": "Ă",
-    "hu": "Ă",
-    "pt": "Ă"
-  },
-  "description": {
-    "en": "The letter Ă is a character in the Romanian alphabet.",
-    "ro": "Litera Ă este un caracter din alfabetul limbii române.",
-    "de": "Der Buchstabe Ă ist ein Zeichen im rumänischen Alphabet.",
-    "ru": "Буква Ă — это символ румынского алфавита.",
-    "it": "La lettera Ă è un carattere dell'alfabeto rumeno.",
-    "es": "La letra Ă es un carácter del alfabeto rumano.",
-    "fr": "La lettre Ă est un caractère de l'alphabet roumain.",
-    "hu": "Az Ă betű a román ábécé egyik karaktere.",
-    "pt": "A letra Ă é um caractere do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e0d5d9e2f32a022583db6cca071da1ee15f1b00d",
-      "key": "lectures/LT01/LT01T01/L002/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L002",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L002",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "Ă",
+      "description": "The letter Ă is a character in the Romanian alphabet."
+    },
+    "ro": {
+      "name": "Ă",
+      "description": "Litera Ă este un caracter din alfabetul limbii române.",
+      "ipa": "/ə/"
+    },
+    "de": {
+      "name": "Ă",
+      "description": "Der Buchstabe Ă ist ein Zeichen im rumänischen Alphabet."
+    },
+    "ru": {
+      "name": "Ă",
+      "description": "Буква Ă — это символ румынского алфавита."
+    },
+    "it": {
+      "name": "Ă",
+      "description": "La lettera Ă è un carattere dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "Ă",
+      "description": "La letra Ă es un carácter del alfabeto rumano."
+    },
+    "fr": {
+      "name": "Ă",
+      "description": "La lettre Ă est un caractère de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "Ă",
+      "description": "Az Ă betű a román ábécé egyik karaktere."
+    },
+    "pt": {
+      "name": "Ă",
+      "description": "A letra Ă é um caractere do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "e0d5d9e2f32a022583db6cca071da1ee15f1b00d"
+    }
+  }
 }

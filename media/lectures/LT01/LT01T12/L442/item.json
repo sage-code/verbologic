@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T12",
   "kind": "letter",
-  "names": {
-    "en": "L",
-    "ro": "L",
-    "de": "L",
-    "ru": "L",
-    "it": "L",
-    "es": "L",
-    "fr": "L",
-    "hu": "L",
-    "pt": "L"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": "Letter name: ele. Example: luna.",
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": {
-      "ipa": "/ˈele/"
-    },
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "4ac9f0494ec58974f6d7a1a8d88fb26d10196234"
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T12:L442",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "L"
+    },
+    "ro": {
+      "name": "L"
+    },
+    "de": {
+      "name": "L"
+    },
+    "ru": {
+      "name": "L"
+    },
+    "it": {
+      "name": "L"
+    },
     "es": {
-      "context": "ele",
-      "example": "luna"
+      "name": "L",
+      "description": "Letter name: ele. Example: luna.",
+      "ipa": "/ˈele/",
+      "example": "luna",
+      "context": "ele"
+    },
+    "fr": {
+      "name": "L"
+    },
+    "hu": {
+      "name": "L"
+    },
+    "pt": {
+      "name": "L"
     }
   },
-  "entity_id": "LT01T12:L442",
-  "cefr": "A1"
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "4ac9f0494ec58974f6d7a1a8d88fb26d10196234"
+    }
+  }
 }

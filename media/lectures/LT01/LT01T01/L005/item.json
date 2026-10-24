@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "C",
-    "ro": "C",
-    "de": "C",
-    "ru": "C",
-    "it": "C",
-    "es": "C",
-    "fr": "C",
-    "hu": "C",
-    "pt": "C"
-  },
-  "description": {
-    "en": "The letter C is a consonant in the Romanian alphabet.",
-    "ro": "Litera C este o consoană din alfabetul limbii române.",
-    "de": "Der Buchstabe C ist ein Konsonant im rumänischen Alphabet.",
-    "ru": "Буква C — это согласный звук румынского алфавита.",
-    "it": "La lettera C è una consonante dell'alfabeto rumeno.",
-    "es": "La letra C es una consonante del alfabeto rumano.",
-    "fr": "La lettre C est une consonne de l'alphabet roumain.",
-    "hu": "A C betű a román ábécé egyik mássalhangzója.",
-    "pt": "A letra C é uma consoante do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/k/ or /tʃ/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7920,
-      "sha1": "d76c9946da188cbfd1c3c07763c9e4d62b193574",
-      "key": "lectures/LT01/LT01T01/L005/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L005",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L005",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "C",
+      "description": "The letter C is a consonant in the Romanian alphabet."
+    },
+    "ro": {
+      "name": "C",
+      "description": "Litera C este o consoană din alfabetul limbii române.",
+      "ipa": "/k/ or /tʃ/"
+    },
+    "de": {
+      "name": "C",
+      "description": "Der Buchstabe C ist ein Konsonant im rumänischen Alphabet."
+    },
+    "ru": {
+      "name": "C",
+      "description": "Буква C — это согласный звук румынского алфавита."
+    },
+    "it": {
+      "name": "C",
+      "description": "La lettera C è una consonante dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "C",
+      "description": "La letra C es una consonante del alfabeto rumano."
+    },
+    "fr": {
+      "name": "C",
+      "description": "La lettre C est une consonne de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "C",
+      "description": "A C betű a román ábécé egyik mássalhangzója."
+    },
+    "pt": {
+      "name": "C",
+      "description": "A letra C é uma consoante do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 7920,
+      "sha1": "d76c9946da188cbfd1c3c07763c9e4d62b193574"
+    }
+  }
 }

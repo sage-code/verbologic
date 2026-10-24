@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "gn-",
-    "ro": "gn-",
-    "de": "gn-",
-    "ru": "gn-",
-    "it": "gn-",
-    "es": "gn-",
-    "fr": "gn-",
-    "hu": "gn-",
-    "pt": "gn-"
-  },
-  "description": {
-    "en": "Letter name: gn-. Example: gnome.",
-    "ro": "Combinația de litere gn- este mută la începutul cuvintelor precum gnome.",
-    "de": "Die Buchstabenkombination gn- ist am Wortanfang stumm, wie zum Beispiel in gnome.",
-    "ru": "Буквосочетание gn- не произносится в начале таких слов, как gnome.",
-    "it": "La combinazione di lettere gn- è muta all'inizio di parole come gnome.",
-    "es": "La combinación de letras gn- es muda al principio de palabras como gnome.",
-    "fr": "La combinaison de lettres gn- est muette au début de mots comme gnome.",
-    "hu": "A gn- betűkombináció néma a szavak elején, például a gnome szóban.",
-    "pt": "A combinação de letras gn- é muda no início de palavras como gnome."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/n/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 6192,
-      "sha1": "cc5c69417e11303b59c3de3a25aa989e9113eccc"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L606",
+  "legacy_entity_id": "letter_gnome",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "gn-",
-      "example": "gnome"
+      "name": "gn-",
+      "description": "Letter name: gn-. Example: gnome.",
+      "ipa": "/n/",
+      "example": "gnome",
+      "context": "gn-"
+    },
+    "ro": {
+      "name": "gn-",
+      "description": "Combinația de litere gn- este mută la începutul cuvintelor precum gnome."
+    },
+    "de": {
+      "name": "gn-",
+      "description": "Die Buchstabenkombination gn- ist am Wortanfang stumm, wie zum Beispiel in gnome."
+    },
+    "ru": {
+      "name": "gn-",
+      "description": "Буквосочетание gn- не произносится в начале таких слов, как gnome."
+    },
+    "it": {
+      "name": "gn-",
+      "description": "La combinazione di lettere gn- è muta all'inizio di parole come gnome."
+    },
+    "es": {
+      "name": "gn-",
+      "description": "La combinación de letras gn- es muda al principio de palabras como gnome."
+    },
+    "fr": {
+      "name": "gn-",
+      "description": "La combinaison de lettres gn- est muette au début de mots comme gnome."
+    },
+    "hu": {
+      "name": "gn-",
+      "description": "A gn- betűkombináció néma a szavak elején, például a gnome szóban."
+    },
+    "pt": {
+      "name": "gn-",
+      "description": "A combinação de letras gn- é muda no início de palavras como gnome."
     }
   },
-  "entity_id": "LT01T07:L606",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_gnome"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 6192,
+      "sha1": "cc5c69417e11303b59c3de3a25aa989e9113eccc"
+    }
+  }
 }

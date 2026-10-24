@@ -4,111 +4,45 @@
   "chapter": "CH05",
   "topic": "CH05T02",
   "kind": "word",
-  "names": {
-    "en": "accommodation",
-    "ro": "cazare",
-    "de": "Unterkunft",
-    "ru": "проживание",
-    "it": "alloggio",
-    "es": "alojamiento",
-    "fr": "hébergement",
-    "hu": "szállás",
-    "pt": "hospedagem"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/kaˈzare/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "d1585909c0b0b5ffd9624439e821d634211d34b2",
-      "key": "dictionary/CH05/CH05T02/W399/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH05T02:W399",
+  "cefr": "B1",
   "tags": [
     "scaffold#C5T02"
   ],
-  "metadata": {},
-  "entity_id": "CH05T02:W399",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "accommodation"
+    },
+    "ro": {
+      "name": "cazare",
+      "ipa": "/kaˈzare/"
+    },
+    "de": {
+      "name": "Unterkunft"
+    },
+    "ru": {
+      "name": "проживание"
+    },
+    "it": {
+      "name": "alloggio"
+    },
+    "es": {
+      "name": "alojamiento"
+    },
+    "fr": {
+      "name": "hébergement"
+    },
+    "hu": {
+      "name": "szállás"
+    },
+    "pt": {
+      "name": "hospedagem"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "d1585909c0b0b5ffd9624439e821d634211d34b2"
+    }
+  }
 }

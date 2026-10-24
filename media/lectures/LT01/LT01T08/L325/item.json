@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "au",
-    "ro": "au in autumn (toamnă)",
-    "de": "au in autumn (Herbst)",
-    "ru": "au in autumn (осень)",
-    "it": "au in autumn (autunno)",
-    "es": "au in autumn (otoño)",
-    "fr": "au in autumn (automne)",
-    "hu": "au in autumn (ősz)",
-    "pt": "au in autumn (outono)"
-  },
-  "description": {
-    "en": "This is the letter L325.",
-    "ro": "Aceasta este litera L325.",
-    "de": "Dies ist der Buchstabe L325.",
-    "ru": "Это буква L325.",
-    "it": "Questa è la lettera L325.",
-    "es": "Esta es la letra L325.",
-    "fr": "Ceci est la lettre L325.",
-    "hu": "Ez az L325 betű.",
-    "pt": "Esta é a letra L325."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɔː/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4032,
-      "sha1": "ee6983c8138f9f86e504b09666f98c56dd03bd42",
-      "key": "lectures/LT01/LT01T08/L325/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L325",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L325",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "au",
+      "description": "This is the letter L325.",
+      "ipa": "/ɔː/"
+    },
+    "ro": {
+      "name": "au in autumn (toamnă)",
+      "description": "Aceasta este litera L325."
+    },
+    "de": {
+      "name": "au in autumn (Herbst)",
+      "description": "Dies ist der Buchstabe L325."
+    },
+    "ru": {
+      "name": "au in autumn (осень)",
+      "description": "Это буква L325."
+    },
+    "it": {
+      "name": "au in autumn (autunno)",
+      "description": "Questa è la lettera L325."
+    },
+    "es": {
+      "name": "au in autumn (otoño)",
+      "description": "Esta es la letra L325."
+    },
+    "fr": {
+      "name": "au in autumn (automne)",
+      "description": "Ceci est la lettre L325."
+    },
+    "hu": {
+      "name": "au in autumn (ősz)",
+      "description": "Ez az L325 betű."
+    },
+    "pt": {
+      "name": "au in autumn (outono)",
+      "description": "Esta é a letra L325."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4032,
+      "sha1": "ee6983c8138f9f86e504b09666f98c56dd03bd42"
+    }
+  }
 }

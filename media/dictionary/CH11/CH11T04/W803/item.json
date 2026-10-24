@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T04",
   "kind": "word",
-  "names": {
-    "en": "consequence",
-    "ro": "consecință",
-    "de": "Konsequenz",
-    "ru": "последствие",
-    "it": "conseguenza",
-    "es": "consecuencia",
-    "fr": "conséquence",
-    "hu": "következmény",
-    "pt": "consequência"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/konseˈkintsə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "427c38ac07072c2f0bcac2eb32691a4492cdf5e6",
-      "key": "dictionary/CH11/CH11T04/W803/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T04:W803",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T04"
   ],
-  "metadata": {},
-  "entity_id": "CH11T04:W803",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "consequence"
+    },
+    "ro": {
+      "name": "consecință",
+      "ipa": "/konseˈkintsə/"
+    },
+    "de": {
+      "name": "Konsequenz"
+    },
+    "ru": {
+      "name": "последствие"
+    },
+    "it": {
+      "name": "conseguenza"
+    },
+    "es": {
+      "name": "consecuencia"
+    },
+    "fr": {
+      "name": "conséquence"
+    },
+    "hu": {
+      "name": "következmény"
+    },
+    "pt": {
+      "name": "consequência"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "427c38ac07072c2f0bcac2eb32691a4492cdf5e6"
+    }
+  }
 }

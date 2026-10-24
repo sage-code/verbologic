@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "or",
-    "ro": "or in fork (furculiță)",
-    "de": "or in fork (Gabel)",
-    "ru": "or in fork (вилка)",
-    "it": "or in fork (forchetta)",
-    "es": "or in fork (tenedor)",
-    "fr": "or in fork (fourchette)",
-    "hu": "or in fork (villa)",
-    "pt": "or in fork (garfo)"
-  },
-  "description": {
-    "en": "This is the letter L331.",
-    "ro": "Aceasta este litera L331.",
-    "de": "Dies ist der Buchstabe L331.",
-    "ru": "Это буква L331.",
-    "it": "Questa è la lettera L331.",
-    "es": "Esta es la letra L331.",
-    "fr": "Ceci est la lettre L331.",
-    "hu": "Ez az L331 betű.",
-    "pt": "Esta é a letra L331."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɔːr/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4464,
-      "sha1": "e31cdf7add36151928369fa5b80d69b4e63bb365",
-      "key": "lectures/LT01/LT01T08/L331/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L331",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L331",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "or",
+      "description": "This is the letter L331.",
+      "ipa": "/ɔːr/"
+    },
+    "ro": {
+      "name": "or in fork (furculiță)",
+      "description": "Aceasta este litera L331."
+    },
+    "de": {
+      "name": "or in fork (Gabel)",
+      "description": "Dies ist der Buchstabe L331."
+    },
+    "ru": {
+      "name": "or in fork (вилка)",
+      "description": "Это буква L331."
+    },
+    "it": {
+      "name": "or in fork (forchetta)",
+      "description": "Questa è la lettera L331."
+    },
+    "es": {
+      "name": "or in fork (tenedor)",
+      "description": "Esta es la letra L331."
+    },
+    "fr": {
+      "name": "or in fork (fourchette)",
+      "description": "Ceci est la lettre L331."
+    },
+    "hu": {
+      "name": "or in fork (villa)",
+      "description": "Ez az L331 betű."
+    },
+    "pt": {
+      "name": "or in fork (garfo)",
+      "description": "Esta é a letra L331."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4464,
+      "sha1": "e31cdf7add36151928369fa5b80d69b4e63bb365"
+    }
+  }
 }

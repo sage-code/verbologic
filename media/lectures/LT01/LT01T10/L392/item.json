@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T10",
   "kind": "letter",
-  "names": {
-    "en": "У",
-    "ro": "У",
-    "de": "У",
-    "ru": "У",
-    "it": "У",
-    "es": "У",
-    "fr": "У",
-    "hu": "У",
-    "pt": "У"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": "Letter name: у. Example: ухо.",
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": {
-      "ipa": "/u/"
-    },
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c6120eaa899d18358b0dfac96c9882de20da3fd4"
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T10:L392",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "У"
+    },
+    "ro": {
+      "name": "У"
+    },
+    "de": {
+      "name": "У"
+    },
     "ru": {
-      "context": "у",
-      "example": "ухо"
+      "name": "У",
+      "description": "Letter name: у. Example: ухо.",
+      "ipa": "/u/",
+      "example": "ухо",
+      "context": "у"
+    },
+    "it": {
+      "name": "У"
+    },
+    "es": {
+      "name": "У"
+    },
+    "fr": {
+      "name": "У"
+    },
+    "hu": {
+      "name": "У"
+    },
+    "pt": {
+      "name": "У"
     }
   },
-  "entity_id": "LT01T10:L392",
-  "cefr": "A1"
+  "files": {
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "c6120eaa899d18358b0dfac96c9882de20da3fd4"
+    }
+  }
 }

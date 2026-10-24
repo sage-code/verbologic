@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "ar",
-    "ro": "ar in car (mașină)",
-    "de": "ar in car (Auto)",
-    "ru": "ar in car (машина)",
-    "it": "ar in car (auto)",
-    "es": "ar in car (coche)",
-    "fr": "ar in car (voiture)",
-    "hu": "ar in car (autó)",
-    "pt": "ar in car (carro)"
-  },
-  "description": {
-    "en": "This is the letter L328.",
-    "ro": "Aceasta este litera L328.",
-    "de": "Dies ist der Buchstabe L328.",
-    "ru": "Это буква L328.",
-    "it": "Questa è la lettera L328.",
-    "es": "Esta es la letra L328.",
-    "fr": "Ceci est la lettre L328.",
-    "hu": "Ez az L328 betű.",
-    "pt": "Esta é a letra L328."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɑːr/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 5040,
-      "sha1": "ced94736d7aa71c4f63d84b3c871d04abdab6261",
-      "key": "lectures/LT01/LT01T08/L328/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L328",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L328",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ar",
+      "description": "This is the letter L328.",
+      "ipa": "/ɑːr/"
+    },
+    "ro": {
+      "name": "ar in car (mașină)",
+      "description": "Aceasta este litera L328."
+    },
+    "de": {
+      "name": "ar in car (Auto)",
+      "description": "Dies ist der Buchstabe L328."
+    },
+    "ru": {
+      "name": "ar in car (машина)",
+      "description": "Это буква L328."
+    },
+    "it": {
+      "name": "ar in car (auto)",
+      "description": "Questa è la lettera L328."
+    },
+    "es": {
+      "name": "ar in car (coche)",
+      "description": "Esta es la letra L328."
+    },
+    "fr": {
+      "name": "ar in car (voiture)",
+      "description": "Ceci est la lettre L328."
+    },
+    "hu": {
+      "name": "ar in car (autó)",
+      "description": "Ez az L328 betű."
+    },
+    "pt": {
+      "name": "ar in car (carro)",
+      "description": "Esta é a letra L328."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "ced94736d7aa71c4f63d84b3c871d04abdab6261"
+    }
+  }
 }

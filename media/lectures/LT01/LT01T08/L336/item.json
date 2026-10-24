@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "cr",
-    "ro": "cr in crab (crab)",
-    "de": "cr in crab (Krabbe)",
-    "ru": "cr in crab (краб)",
-    "it": "cr in crab (granchio)",
-    "es": "cr in crab (cangrejo)",
-    "fr": "cr in crab (crabe)",
-    "hu": "cr in crab (rák)",
-    "pt": "cr in crab (caranguejo)"
-  },
-  "description": {
-    "en": "This is the letter L336 from the alphabet vowel-consonant groups.",
-    "ro": "Aceasta este litera L336 din grupurile de vocale și consoane ale alfabetului.",
-    "de": "Dies ist der Buchstabe L336 aus den Vokal-Konsonant-Gruppen des Alphabets.",
-    "ru": "Это буква L336 из групп гласных и согласных алфавита.",
-    "it": "Questa è la lettera L336 dei gruppi vocali-consonanti dell'alfabeto.",
-    "es": "Esta es la letra L336 de los grupos de vocales y consonantes del alfabeto.",
-    "fr": "Ceci est la lettre L336 des groupes voyelles-consonnes de l'alphabet.",
-    "hu": "Ez az L336 betű az ábécé magánhangzó-mássalhangzó csoportjaiból.",
-    "pt": "Esta é a letra L336 dos grupos de vogais e consoantes do alfabeto."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/kr/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "fe7fef0ed0a70777838fe45cb9c3ea2cef1a7be0",
-      "key": "lectures/LT01/LT01T08/L336/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L336",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L336",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "cr",
+      "description": "This is the letter L336 from the alphabet vowel-consonant groups.",
+      "ipa": "/kr/"
+    },
+    "ro": {
+      "name": "cr in crab (crab)",
+      "description": "Aceasta este litera L336 din grupurile de vocale și consoane ale alfabetului."
+    },
+    "de": {
+      "name": "cr in crab (Krabbe)",
+      "description": "Dies ist der Buchstabe L336 aus den Vokal-Konsonant-Gruppen des Alphabets."
+    },
+    "ru": {
+      "name": "cr in crab (краб)",
+      "description": "Это буква L336 из групп гласных и согласных алфавита."
+    },
+    "it": {
+      "name": "cr in crab (granchio)",
+      "description": "Questa è la lettera L336 dei gruppi vocali-consonanti dell'alfabeto."
+    },
+    "es": {
+      "name": "cr in crab (cangrejo)",
+      "description": "Esta es la letra L336 de los grupos de vocales y consonantes del alfabeto."
+    },
+    "fr": {
+      "name": "cr in crab (crabe)",
+      "description": "Ceci est la lettre L336 des groupes voyelles-consonnes de l'alphabet."
+    },
+    "hu": {
+      "name": "cr in crab (rák)",
+      "description": "Ez az L336 betű az ábécé magánhangzó-mássalhangzó csoportjaiból."
+    },
+    "pt": {
+      "name": "cr in crab (caranguejo)",
+      "description": "Esta é a letra L336 dos grupos de vogais e consoantes do alfabeto."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "fe7fef0ed0a70777838fe45cb9c3ea2cef1a7be0"
+    }
+  }
 }

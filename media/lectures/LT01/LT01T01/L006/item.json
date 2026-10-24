@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "D",
-    "ro": "D",
-    "de": "D",
-    "ru": "D",
-    "it": "D",
-    "es": "D",
-    "fr": "D",
-    "hu": "D",
-    "pt": "D"
-  },
-  "description": {
-    "en": "The letter D is a consonant in the Romanian alphabet.",
-    "ro": "Litera D este o consoană din alfabetul limbii române.",
-    "de": "Der Buchstabe D ist ein Konsonant im rumänischen Alphabet.",
-    "ru": "Буква D — это согласный звук румынского алфавита.",
-    "it": "La lettera D è una consonante dell'alfabeto rumeno.",
-    "es": "La letra D es una consonante del alfabeto rumano.",
-    "fr": "La lettre D est une consonne de l'alphabet roumain.",
-    "hu": "A D betű a román ábécé egyik mássalhangzója.",
-    "pt": "A letra D é uma consoante do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/d/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "25458fbfd266d9d055a3d591b170ae0d609fe630",
-      "key": "lectures/LT01/LT01T01/L006/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L006",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L006",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "D",
+      "description": "The letter D is a consonant in the Romanian alphabet."
+    },
+    "ro": {
+      "name": "D",
+      "description": "Litera D este o consoană din alfabetul limbii române.",
+      "ipa": "/d/"
+    },
+    "de": {
+      "name": "D",
+      "description": "Der Buchstabe D ist ein Konsonant im rumänischen Alphabet."
+    },
+    "ru": {
+      "name": "D",
+      "description": "Буква D — это согласный звук румынского алфавита."
+    },
+    "it": {
+      "name": "D",
+      "description": "La lettera D è una consonante dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "D",
+      "description": "La letra D es una consonante del alfabeto rumano."
+    },
+    "fr": {
+      "name": "D",
+      "description": "La lettre D est une consonne de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "D",
+      "description": "A D betű a román ábécé egyik mássalhangzója."
+    },
+    "pt": {
+      "name": "D",
+      "description": "A letra D é uma consoante do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "25458fbfd266d9d055a3d591b170ae0d609fe630"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T05",
   "kind": "word",
-  "names": {
-    "en": "fish",
-    "ro": "pește",
-    "de": "Fisch",
-    "ru": "Рыба",
-    "it": "pesce",
-    "es": "pescado",
-    "fr": "poisson",
-    "hu": "Hal",
-    "pt": "Peixe"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈpeʃte/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "c342c66517539bf928249287784b2b1c75541bc0",
-      "key": "dictionary/CH02/CH02T05/W215/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T05:W215",
+  "cefr": "A1",
   "tags": [
     "vocabulary#kitchen-food-basics"
   ],
-  "metadata": {},
-  "entity_id": "CH02T05:W215",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "fish"
+    },
+    "ro": {
+      "name": "pește",
+      "ipa": "/ˈpeʃte/"
+    },
+    "de": {
+      "name": "Fisch"
+    },
+    "ru": {
+      "name": "Рыба"
+    },
+    "it": {
+      "name": "pesce"
+    },
+    "es": {
+      "name": "pescado"
+    },
+    "fr": {
+      "name": "poisson"
+    },
+    "hu": {
+      "name": "Hal"
+    },
+    "pt": {
+      "name": "Peixe"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "c342c66517539bf928249287784b2b1c75541bc0"
+    }
+  }
 }

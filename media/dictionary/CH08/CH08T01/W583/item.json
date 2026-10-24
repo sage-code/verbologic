@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T01",
   "kind": "word",
-  "names": {
-    "en": "volcano",
-    "ro": "vulcan",
-    "de": "Vulkan",
-    "ru": "вулкан",
-    "it": "vulcano",
-    "es": "volcán",
-    "fr": "volcan",
-    "hu": "vulkán",
-    "pt": "vulcão"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/vulˈkan/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "442ee84022cc761cc064df0e2ad364975029a5ec",
-      "key": "dictionary/CH08/CH08T01/W583/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T01:W583",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T01"
   ],
-  "metadata": {},
-  "entity_id": "CH08T01:W583",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "volcano"
+    },
+    "ro": {
+      "name": "vulcan",
+      "ipa": "/vulˈkan/"
+    },
+    "de": {
+      "name": "Vulkan"
+    },
+    "ru": {
+      "name": "вулкан"
+    },
+    "it": {
+      "name": "vulcano"
+    },
+    "es": {
+      "name": "volcán"
+    },
+    "fr": {
+      "name": "volcan"
+    },
+    "hu": {
+      "name": "vulkán"
+    },
+    "pt": {
+      "name": "vulcão"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "442ee84022cc761cc064df0e2ad364975029a5ec"
+    }
+  }
 }

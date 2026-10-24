@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T03",
   "kind": "word",
-  "names": {
-    "en": "therefore",
-    "ro": "prin urmare",
-    "de": "folglich",
-    "ru": "следовательно",
-    "it": "perciò",
-    "es": "por lo tanto",
-    "fr": "par conséquent",
-    "hu": "ennélfogva",
-    "pt": "portanto"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/prin urˈmare/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "0964f67ef2f687d42b8ca0ca2c868d1c92aeabdb",
-      "key": "dictionary/CH11/CH11T03/W793/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T03:W793",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T03"
   ],
-  "metadata": {},
-  "entity_id": "CH11T03:W793",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "therefore"
+    },
+    "ro": {
+      "name": "prin urmare",
+      "ipa": "/prin urˈmare/"
+    },
+    "de": {
+      "name": "folglich"
+    },
+    "ru": {
+      "name": "следовательно"
+    },
+    "it": {
+      "name": "perciò"
+    },
+    "es": {
+      "name": "por lo tanto"
+    },
+    "fr": {
+      "name": "par conséquent"
+    },
+    "hu": {
+      "name": "ennélfogva"
+    },
+    "pt": {
+      "name": "portanto"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "0964f67ef2f687d42b8ca0ca2c868d1c92aeabdb"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T01",
   "kind": "word",
-  "names": {
-    "en": "to talk nonsense",
-    "ro": "a bate câmpii",
-    "de": "Unsinn reden",
-    "ru": "нести чушь",
-    "it": "dire sciocchezze",
-    "es": "decir tonterías",
-    "fr": "divaguer",
-    "hu": "hülyeségeket beszélni",
-    "pt": "falar besteira"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/a ˈbate kɨmˈpii/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "281eb53ec002734acbfff91a6a7283f6e090b11f",
-      "key": "dictionary/CH12/CH12T01/W839/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T01:W839",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T01"
   ],
-  "metadata": {},
-  "entity_id": "CH12T01:W839",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "to talk nonsense"
+    },
+    "ro": {
+      "name": "a bate câmpii",
+      "ipa": "/a ˈbate kɨmˈpii/"
+    },
+    "de": {
+      "name": "Unsinn reden"
+    },
+    "ru": {
+      "name": "нести чушь"
+    },
+    "it": {
+      "name": "dire sciocchezze"
+    },
+    "es": {
+      "name": "decir tonterías"
+    },
+    "fr": {
+      "name": "divaguer"
+    },
+    "hu": {
+      "name": "hülyeségeket beszélni"
+    },
+    "pt": {
+      "name": "falar besteira"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "281eb53ec002734acbfff91a6a7283f6e090b11f"
+    }
+  }
 }

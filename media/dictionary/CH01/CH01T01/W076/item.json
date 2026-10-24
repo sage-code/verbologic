@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "-mb",
-    "ro": "miel",
-    "de": "-mb",
-    "ru": "-mb",
-    "it": "-mb",
-    "es": "-mb",
-    "fr": "-mb",
-    "hu": "-mb",
-    "pt": "-mb"
-  },
-  "description": {
-    "en": "This is a letter combination used in the alphabet.",
-    "ro": "Aceasta este o combinație de litere folosită în alfabet.",
-    "de": "Dies ist eine Buchstabenkombination, die im Alphabet verwendet wird.",
-    "ru": "Это сочетание букв, используемое в алфавите.",
-    "it": "Questa è una combinazione di lettere usata nell'alfabeto.",
-    "es": "Esta es una combinación de letras utilizada en el alfabeto.",
-    "fr": "Il s'agit d'une combinaison de lettres utilisée dans l'alphabet.",
-    "hu": "Ez egy betűkombináció, amelyet az ábécében használnak.",
-    "pt": "Esta é uma combinação de letras usada no alfabeto."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/læm/"
-    },
-    "ro": {
-      "ipa": "/mjel/"
-    },
-    "de": {
-      "ipa": "/mb/"
-    },
-    "ru": {
-      "ipa": "/mb/"
-    },
-    "it": {
-      "ipa": "/mb/"
-    },
-    "es": {
-      "ipa": "/mb/"
-    },
-    "fr": {
-      "ipa": "/mb/"
-    },
-    "hu": {
-      "ipa": "/mb/"
-    },
-    "pt": {
-      "ipa": "/mb/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "95a825ab2dda4100c666b11f1f59bd60a1aa30c6",
-      "key": "dictionary/CH01/CH01T01/W076/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "39703856c3a316c78803b1df0bc93a54e5738beb",
-      "key": "dictionary/CH01/CH01T01/W076/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c25b23888e67b65d117f36f8e561cd4d0f6807a2",
-      "key": "dictionary/CH01/CH01T01/W076/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "39708795230bf586170bfdcb9df9bee8a6647b91",
-      "key": "dictionary/CH01/CH01T01/W076/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0ffec738295fde2b28dd8d23205a21c41bed6891",
-      "key": "dictionary/CH01/CH01T01/W076/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2aea402038cf44f9e87ac516ed3b7b254d6addbe",
-      "key": "dictionary/CH01/CH01T01/W076/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "da97f46c1d5d8d25df6465118bbfa4aba73654d2",
-      "key": "dictionary/CH01/CH01T01/W076/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "7f2d02e66e448a994ec8c5ad9e2d990ba5539bee",
-      "key": "dictionary/CH01/CH01T01/W076/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e2cf2c33fa25c1769ef58c822c19d062aef5081f",
-      "key": "dictionary/CH01/CH01T01/W076/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W076",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "b",
-      "example": "lamb"
+      "name": "-mb",
+      "description": "This is a letter combination used in the alphabet.",
+      "ipa": "/læm/",
+      "example": "lamb",
+      "context": "b"
+    },
+    "ro": {
+      "name": "miel",
+      "description": "Aceasta este o combinație de litere folosită în alfabet.",
+      "ipa": "/mjel/"
+    },
+    "de": {
+      "name": "-mb",
+      "description": "Dies ist eine Buchstabenkombination, die im Alphabet verwendet wird.",
+      "ipa": "/mb/"
+    },
+    "ru": {
+      "name": "-mb",
+      "description": "Это сочетание букв, используемое в алфавите.",
+      "ipa": "/mb/"
+    },
+    "it": {
+      "name": "-mb",
+      "description": "Questa è una combinazione di lettere usata nell'alfabeto.",
+      "ipa": "/mb/"
+    },
+    "es": {
+      "name": "-mb",
+      "description": "Esta es una combinación de letras utilizada en el alfabeto.",
+      "ipa": "/mb/"
+    },
+    "fr": {
+      "name": "-mb",
+      "description": "Il s'agit d'une combinaison de lettres utilisée dans l'alphabet.",
+      "ipa": "/mb/"
+    },
+    "hu": {
+      "name": "-mb",
+      "description": "Ez egy betűkombináció, amelyet az ábécében használnak.",
+      "ipa": "/mb/"
+    },
+    "pt": {
+      "name": "-mb",
+      "description": "Esta é uma combinação de letras usada no alfabeto.",
+      "ipa": "/mb/"
     }
   },
-  "entity_id": "CH01T01:W076",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "95a825ab2dda4100c666b11f1f59bd60a1aa30c6"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "39703856c3a316c78803b1df0bc93a54e5738beb"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "c25b23888e67b65d117f36f8e561cd4d0f6807a2"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "39708795230bf586170bfdcb9df9bee8a6647b91"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "0ffec738295fde2b28dd8d23205a21c41bed6891"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "2aea402038cf44f9e87ac516ed3b7b254d6addbe"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "da97f46c1d5d8d25df6465118bbfa4aba73654d2"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "7f2d02e66e448a994ec8c5ad9e2d990ba5539bee"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "e2cf2c33fa25c1769ef58c822c19d062aef5081f"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T10",
   "kind": "letter",
-  "names": {
-    "en": "Ф",
-    "ro": "Ф",
-    "de": "Ф",
-    "ru": "Ф",
-    "it": "Ф",
-    "es": "Ф",
-    "fr": "Ф",
-    "hu": "Ф",
-    "pt": "Ф"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": "Letter name: эф. Example: фонарь.",
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": {
-      "ipa": "/ɛf/"
-    },
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8640,
-      "sha1": "a6228a40d8d21df633cbb3b8ee8d68c061866144"
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T10:L393",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Ф"
+    },
+    "ro": {
+      "name": "Ф"
+    },
+    "de": {
+      "name": "Ф"
+    },
     "ru": {
-      "context": "эф",
-      "example": "фонарь"
+      "name": "Ф",
+      "description": "Letter name: эф. Example: фонарь.",
+      "ipa": "/ɛf/",
+      "example": "фонарь",
+      "context": "эф"
+    },
+    "it": {
+      "name": "Ф"
+    },
+    "es": {
+      "name": "Ф"
+    },
+    "fr": {
+      "name": "Ф"
+    },
+    "hu": {
+      "name": "Ф"
+    },
+    "pt": {
+      "name": "Ф"
     }
   },
-  "entity_id": "LT01T10:L393",
-  "cefr": "A1"
+  "files": {
+    "sound/ru.mp3": {
+      "bytes": 8640,
+      "sha1": "a6228a40d8d21df633cbb3b8ee8d68c061866144"
+    }
+  }
 }

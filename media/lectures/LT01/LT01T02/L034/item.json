@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "ie in ieri (yesterday)",
-    "ro": "ie",
-    "de": "ie in ieri (gestern)",
-    "ru": "ie в ieri (вчера)",
-    "it": "ie in ieri (ieri)",
-    "es": "ie en ieri (ayer)",
-    "fr": "ie dans ieri (hier)",
-    "hu": "ie a ieri (tegnap) szóban",
-    "pt": "ie em ieri (ontem)"
-  },
-  "description": {
-    "en": "The diphthong ie is found in the Romanian word ieri.",
-    "ro": "Diftongul ie se regăsește în cuvântul românesc ieri.",
-    "de": "Der Diphthong ie kommt im rumänischen Wort ieri vor.",
-    "ru": "Дифтонг ie встречается в румынском слове ieri.",
-    "it": "Il dittongo ie si trova nella parola rumena ieri.",
-    "es": "El diptongo ie se encuentra en la palabra rumana ieri.",
-    "fr": "La diphtongue ie se trouve dans le mot roumain ieri.",
-    "hu": "Az ie diftongus a román ieri szóban található meg.",
-    "pt": "O ditongo ie é encontrado na palavra romena ieri."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/je/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0ac5dcf8a6ae3b84af061f21c51e1cf3e779dc3a",
-      "key": "lectures/LT01/LT01T02/L034/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L034",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L034",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ie in ieri (yesterday)",
+      "description": "The diphthong ie is found in the Romanian word ieri."
+    },
+    "ro": {
+      "name": "ie",
+      "description": "Diftongul ie se regăsește în cuvântul românesc ieri.",
+      "ipa": "/je/"
+    },
+    "de": {
+      "name": "ie in ieri (gestern)",
+      "description": "Der Diphthong ie kommt im rumänischen Wort ieri vor."
+    },
+    "ru": {
+      "name": "ie в ieri (вчера)",
+      "description": "Дифтонг ie встречается в румынском слове ieri."
+    },
+    "it": {
+      "name": "ie in ieri (ieri)",
+      "description": "Il dittongo ie si trova nella parola rumena ieri."
+    },
+    "es": {
+      "name": "ie en ieri (ayer)",
+      "description": "El diptongo ie se encuentra en la palabra rumana ieri."
+    },
+    "fr": {
+      "name": "ie dans ieri (hier)",
+      "description": "La diphtongue ie se trouve dans le mot roumain ieri."
+    },
+    "hu": {
+      "name": "ie a ieri (tegnap) szóban",
+      "description": "Az ie diftongus a román ieri szóban található meg."
+    },
+    "pt": {
+      "name": "ie em ieri (ontem)",
+      "description": "O ditongo ie é encontrado na palavra romena ieri."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "0ac5dcf8a6ae3b84af061f21c51e1cf3e779dc3a"
+    }
+  }
 }

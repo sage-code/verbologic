@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "name",
-    "ro": "nume",
-    "de": "Name",
-    "ru": "имя",
-    "it": "nome",
-    "es": "nombre",
-    "fr": "nom",
-    "hu": "név",
-    "pt": "nome"
-  },
-  "description": {
-    "en": "A name is a word or set of words by which a person, animal, or thing is known.",
-    "ro": "Un nume este un cuvânt sau un set de cuvinte prin care o persoană, un animal sau un lucru este cunoscut.",
-    "de": "Ein Name ist ein Wort oder eine Wortgruppe, durch die eine Person, ein Tier oder eine Sache bekannt ist.",
-    "ru": "Имя — это слово или набор слов, по которым узнают человека, животное или предмет.",
-    "it": "Un nome è una parola o un insieme di parole con cui una persona, un animale o una cosa è conosciuta.",
-    "es": "Un nombre es una palabra o conjunto de palabras por las cuales se conoce a una persona, animal o cosa.",
-    "fr": "Un nom est un mot ou un ensemble de mots par lequel une personne, un animal ou une chose est connu.",
-    "hu": "A név egy szó vagy szavak csoportja, amely alapján egy személyt, állatot vagy dolgot azonosítanak.",
-    "pt": "Um nome é uma palavra ou conjunto de palavras pelas quais uma pessoa, animal ou coisa é conhecida."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/eɪ/"
-    },
-    "ro": {
-      "ipa": "/ˈnu.me/"
-    },
-    "de": {
-      "ipa": "/ˈnaːmə/"
-    },
-    "ru": {
-      "ipa": "/ˈi.mʲə/"
-    },
-    "it": {
-      "ipa": "/ˈno.me/"
-    },
-    "es": {
-      "ipa": "/ˈnom.bɾe/"
-    },
-    "fr": {
-      "ipa": "/nɔ̃/"
-    },
-    "hu": {
-      "ipa": "/neːv/"
-    },
-    "pt": {
-      "ipa": "/ˈnɔ.mɨ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "7fb8995245971f8ef95494937644302e56e16fad",
-      "key": "dictionary/CH01/CH01T01/W040/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3a78df01bb795b931ed188110e26249347478ebb",
-      "key": "dictionary/CH01/CH01T01/W040/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "53b1d41d0d94d7a64c587f272c2a5722b8cc52ab",
-      "key": "dictionary/CH01/CH01T01/W040/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "46326fe80cbc34cab8f62f4dc95e9087a1bf8dcb",
-      "key": "dictionary/CH01/CH01T01/W040/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "54f5b2264556ab2bc18bcb5359fa32ec32d6c744",
-      "key": "dictionary/CH01/CH01T01/W040/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "7aeafda9ea78ab42aa6fe7bfeaf9593d79c34313",
-      "key": "dictionary/CH01/CH01T01/W040/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2fd8608c43ceeaa60af94934584542f2638f479a",
-      "key": "dictionary/CH01/CH01T01/W040/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0a0046b5691b5bbf1dbce8af4b7e8392d8f4bebb",
-      "key": "dictionary/CH01/CH01T01/W040/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "83f18888a3aa4ee0c5ed89483e8cbe406b76a9b8",
-      "key": "dictionary/CH01/CH01T01/W040/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W040",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "model vocală + consoană + e mut",
-      "example": "name"
+      "name": "name",
+      "description": "A name is a word or set of words by which a person, animal, or thing is known.",
+      "ipa": "/eɪ/",
+      "example": "name",
+      "context": "model vocală + consoană + e mut"
+    },
+    "ro": {
+      "name": "nume",
+      "description": "Un nume este un cuvânt sau un set de cuvinte prin care o persoană, un animal sau un lucru este cunoscut.",
+      "ipa": "/ˈnu.me/"
+    },
+    "de": {
+      "name": "Name",
+      "description": "Ein Name ist ein Wort oder eine Wortgruppe, durch die eine Person, ein Tier oder eine Sache bekannt ist.",
+      "ipa": "/ˈnaːmə/"
+    },
+    "ru": {
+      "name": "имя",
+      "description": "Имя — это слово или набор слов, по которым узнают человека, животное или предмет.",
+      "ipa": "/ˈi.mʲə/"
+    },
+    "it": {
+      "name": "nome",
+      "description": "Un nome è una parola o un insieme di parole con cui una persona, un animale o una cosa è conosciuta.",
+      "ipa": "/ˈno.me/"
+    },
+    "es": {
+      "name": "nombre",
+      "description": "Un nombre es una palabra o conjunto de palabras por las cuales se conoce a una persona, animal o cosa.",
+      "ipa": "/ˈnom.bɾe/"
+    },
+    "fr": {
+      "name": "nom",
+      "description": "Un nom est un mot ou un ensemble de mots par lequel une personne, un animal ou une chose est connu.",
+      "ipa": "/nɔ̃/"
+    },
+    "hu": {
+      "name": "név",
+      "description": "A név egy szó vagy szavak csoportja, amely alapján egy személyt, állatot vagy dolgot azonosítanak.",
+      "ipa": "/neːv/"
+    },
+    "pt": {
+      "name": "nome",
+      "description": "Um nome é uma palavra ou conjunto de palavras pelas quais uma pessoa, animal ou coisa é conhecida.",
+      "ipa": "/ˈnɔ.mɨ/"
     }
   },
-  "entity_id": "CH01T01:W040",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "7fb8995245971f8ef95494937644302e56e16fad"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "3a78df01bb795b931ed188110e26249347478ebb"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "53b1d41d0d94d7a64c587f272c2a5722b8cc52ab"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "46326fe80cbc34cab8f62f4dc95e9087a1bf8dcb"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "54f5b2264556ab2bc18bcb5359fa32ec32d6c744"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "7aeafda9ea78ab42aa6fe7bfeaf9593d79c34313"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "2fd8608c43ceeaa60af94934584542f2638f479a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "0a0046b5691b5bbf1dbce8af4b7e8392d8f4bebb"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "83f18888a3aa4ee0c5ed89483e8cbe406b76a9b8"
+    }
+  }
 }

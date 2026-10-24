@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T04",
   "kind": "word",
-  "names": {
-    "en": "cause",
-    "ro": "cauză",
-    "de": "Ursache",
-    "ru": "причина",
-    "it": "causa",
-    "es": "causa",
-    "fr": "cause",
-    "hu": "ok",
-    "pt": "causa"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈkauzə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "571a1c0bd41cd9f8bc3a512f365de98d8b4509ac",
-      "key": "dictionary/CH11/CH11T04/W801/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T04:W801",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T04"
   ],
-  "metadata": {},
-  "entity_id": "CH11T04:W801",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "cause"
+    },
+    "ro": {
+      "name": "cauză",
+      "ipa": "/ˈkauzə/"
+    },
+    "de": {
+      "name": "Ursache"
+    },
+    "ru": {
+      "name": "причина"
+    },
+    "it": {
+      "name": "causa"
+    },
+    "es": {
+      "name": "causa"
+    },
+    "fr": {
+      "name": "cause"
+    },
+    "hu": {
+      "name": "ok"
+    },
+    "pt": {
+      "name": "causa"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "571a1c0bd41cd9f8bc3a512f365de98d8b4509ac"
+    }
+  }
 }

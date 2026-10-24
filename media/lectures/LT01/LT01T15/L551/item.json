@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T15",
   "kind": "letter",
-  "names": {
-    "en": "Y",
-    "ro": "Y",
-    "de": "Y",
-    "ru": "Y",
-    "it": "Y",
-    "es": "Y",
-    "fr": "Y",
-    "hu": "Y",
-    "pt": "Y"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": "Letter name: ípsilon. Example: yoga."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": {
-      "ipa": "/ˈipsilõ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b99ab2fe2c1e01389edee2b0db9088c23c27c571"
-    }
-  },
+  "entity_id": "LT01T15:L551",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Y"
+    },
+    "ro": {
+      "name": "Y"
+    },
+    "de": {
+      "name": "Y"
+    },
+    "ru": {
+      "name": "Y"
+    },
+    "it": {
+      "name": "Y"
+    },
+    "es": {
+      "name": "Y"
+    },
+    "fr": {
+      "name": "Y"
+    },
+    "hu": {
+      "name": "Y"
+    },
     "pt": {
-      "context": "ípsilon",
-      "example": "yoga"
+      "name": "Y",
+      "description": "Letter name: ípsilon. Example: yoga.",
+      "ipa": "/ˈipsilõ/",
+      "example": "yoga",
+      "context": "ípsilon"
     }
   },
-  "entity_id": "LT01T15:L551",
-  "cefr": "A1"
+  "files": {
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "b99ab2fe2c1e01389edee2b0db9088c23c27c571"
+    }
+  }
 }

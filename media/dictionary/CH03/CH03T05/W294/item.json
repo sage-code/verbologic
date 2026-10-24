@@ -4,111 +4,45 @@
   "chapter": "CH03",
   "topic": "CH03T05",
   "kind": "word",
-  "names": {
-    "en": "dinner",
-    "ro": "cină",
-    "de": "Abendessen",
-    "ru": "ужин",
-    "it": "cena",
-    "es": "cena",
-    "fr": "dîner",
-    "hu": "vacsora",
-    "pt": "jantar"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈtʃinə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "026a6a26621aa32655a2430fd99b6b28c01160fb",
-      "key": "dictionary/CH03/CH03T05/W294/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T05:W294",
+  "cefr": "A2",
   "tags": [
     "scaffold#C3T05"
   ],
-  "metadata": {},
-  "entity_id": "CH03T05:W294",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "dinner"
+    },
+    "ro": {
+      "name": "cină",
+      "ipa": "/ˈtʃinə/"
+    },
+    "de": {
+      "name": "Abendessen"
+    },
+    "ru": {
+      "name": "ужин"
+    },
+    "it": {
+      "name": "cena"
+    },
+    "es": {
+      "name": "cena"
+    },
+    "fr": {
+      "name": "dîner"
+    },
+    "hu": {
+      "name": "vacsora"
+    },
+    "pt": {
+      "name": "jantar"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "026a6a26621aa32655a2430fd99b6b28c01160fb"
+    }
+  }
 }

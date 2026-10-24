@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T09",
   "kind": "letter",
-  "names": {
-    "en": "ß",
-    "ro": "ß",
-    "de": "ß",
-    "ru": "ß",
-    "it": "ß",
-    "es": "ß",
-    "fr": "ß",
-    "hu": "ß",
-    "pt": "ß"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": "Letter name: Eszett. Example: Straße.",
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": {
-      "ipa": "/ɛsˈtsɛt/"
-    },
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 9072,
-      "sha1": "475f93e608bb08b71b9d30f8c16823cac32a7582"
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T09:L371",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "ß"
+    },
+    "ro": {
+      "name": "ß"
+    },
     "de": {
-      "context": "Eszett",
-      "example": "Straße"
+      "name": "ß",
+      "description": "Letter name: Eszett. Example: Straße.",
+      "ipa": "/ɛsˈtsɛt/",
+      "example": "Straße",
+      "context": "Eszett"
+    },
+    "ru": {
+      "name": "ß"
+    },
+    "it": {
+      "name": "ß"
+    },
+    "es": {
+      "name": "ß"
+    },
+    "fr": {
+      "name": "ß"
+    },
+    "hu": {
+      "name": "ß"
+    },
+    "pt": {
+      "name": "ß"
     }
   },
-  "entity_id": "LT01T09:L371",
-  "cefr": "A1"
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 9072,
+      "sha1": "475f93e608bb08b71b9d30f8c16823cac32a7582"
+    }
+  }
 }

@@ -4,135 +4,94 @@
   "chapter": "CH01",
   "topic": "CH01T03",
   "kind": "word",
-  "names": {
-    "en": "first name",
-    "ro": "prenume",
-    "de": "Vorname",
-    "ru": "Имя (личное)",
-    "it": "nome proprio",
-    "es": "nombre de pila",
-    "fr": "prénom",
-    "hu": "Keresztnév",
-    "pt": "Primeiro nome"
-  },
-  "description": {
-    "en": "A person who is fully grown or developed.",
-    "ro": "O persoană care este complet dezvoltată.",
-    "de": "Eine Person, die ausgewachsen ist.",
-    "ru": "Человек, достигший полного развития.",
-    "it": "Una persona completamente sviluppata.",
-    "es": "Una persona que está completamente desarrollada.",
-    "fr": "Une personne qui est pleinement développée.",
-    "hu": "Egy teljesen kifejlett személy.",
-    "pt": "Uma pessoa que está totalmente desenvolvida."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ˈfɜrst neɪm/"
-    },
-    "ro": {
-      "ipa": "/preˈnume/"
-    },
-    "de": {
-      "ipa": "/ˈfoːɐ̯naːmə/"
-    },
-    "ru": {
-      "ipa": "/ˈimʲə/"
-    },
-    "it": {
-      "ipa": "/ˈnoːme ˈprɔpjo/"
-    },
-    "es": {
-      "ipa": "/ˈnombɾe ðe ˈpila/"
-    },
-    "fr": {
-      "ipa": "/pʁeˈnɔ̃/"
-    },
-    "hu": {
-      "ipa": "/ˈkɛrɛstneːv/"
-    },
-    "pt": {
-      "ipa": "/pɾiˈmejɾu ˈnomɨ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8f599d72d6e9cfc7f8dc0f41d3079e436789fafc",
-      "key": "dictionary/CH01/CH01T03/W083/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "65440b1445974e13d09d0a1faa054f0b94660b0f",
-      "key": "dictionary/CH01/CH01T03/W083/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "15681dce8baa9a224c1b41512338d9a8ad14a083",
-      "key": "dictionary/CH01/CH01T03/W083/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 14256,
-      "sha1": "fe376cfa6b348ae0ce05b090a108c931035beee1",
-      "key": "dictionary/CH01/CH01T03/W083/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "40403f783930ff4c435a8f3fcc544bc507c7372f",
-      "key": "dictionary/CH01/CH01T03/W083/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11952,
-      "sha1": "bc5d77824b514e045b63d36453c70440bd40b30c",
-      "key": "dictionary/CH01/CH01T03/W083/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "feabc897476d35e560010c4f62a401041b1877e5",
-      "key": "dictionary/CH01/CH01T03/W083/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b2ddb9924114dff7db230c6625592b53dd8e4570",
-      "key": "dictionary/CH01/CH01T03/W083/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12384,
-      "sha1": "754f2a35ef54afb370b9ffacfb97a32792c4892c",
-      "key": "dictionary/CH01/CH01T03/W083/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T03:W083",
+  "cefr": "A1",
   "tags": [
     "vocabulary#identity-people"
   ],
-  "metadata": {},
-  "entity_id": "CH01T03:W083",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "first name",
+      "description": "A person who is fully grown or developed.",
+      "ipa": "/ˈfɜrst neɪm/"
+    },
+    "ro": {
+      "name": "prenume",
+      "description": "O persoană care este complet dezvoltată.",
+      "ipa": "/preˈnume/"
+    },
+    "de": {
+      "name": "Vorname",
+      "description": "Eine Person, die ausgewachsen ist.",
+      "ipa": "/ˈfoːɐ̯naːmə/"
+    },
+    "ru": {
+      "name": "Имя (личное)",
+      "description": "Человек, достигший полного развития.",
+      "ipa": "/ˈimʲə/"
+    },
+    "it": {
+      "name": "nome proprio",
+      "description": "Una persona completamente sviluppata.",
+      "ipa": "/ˈnoːme ˈprɔpjo/"
+    },
+    "es": {
+      "name": "nombre de pila",
+      "description": "Una persona que está completamente desarrollada.",
+      "ipa": "/ˈnombɾe ðe ˈpila/"
+    },
+    "fr": {
+      "name": "prénom",
+      "description": "Une personne qui est pleinement développée.",
+      "ipa": "/pʁeˈnɔ̃/"
+    },
+    "hu": {
+      "name": "Keresztnév",
+      "description": "Egy teljesen kifejlett személy.",
+      "ipa": "/ˈkɛrɛstneːv/"
+    },
+    "pt": {
+      "name": "Primeiro nome",
+      "description": "Uma pessoa que está totalmente desenvolvida.",
+      "ipa": "/pɾiˈmejɾu ˈnomɨ/"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8f599d72d6e9cfc7f8dc0f41d3079e436789fafc"
+    },
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "65440b1445974e13d09d0a1faa054f0b94660b0f"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "15681dce8baa9a224c1b41512338d9a8ad14a083"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14256,
+      "sha1": "fe376cfa6b348ae0ce05b090a108c931035beee1"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "40403f783930ff4c435a8f3fcc544bc507c7372f"
+    },
+    "sound/es.mp3": {
+      "bytes": 11952,
+      "sha1": "bc5d77824b514e045b63d36453c70440bd40b30c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "feabc897476d35e560010c4f62a401041b1877e5"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "b2ddb9924114dff7db230c6625592b53dd8e4570"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12384,
+      "sha1": "754f2a35ef54afb370b9ffacfb97a32792c4892c"
+    }
+  }
 }

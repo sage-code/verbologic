@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T09",
   "kind": "letter",
-  "names": {
-    "en": "U",
-    "ro": "U",
-    "de": "U",
-    "ru": "U",
-    "it": "U",
-    "es": "U",
-    "fr": "U",
-    "hu": "U",
-    "pt": "U"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": "Letter name: U. Example: Uhr.",
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": {
-      "ipa": "/uː/"
-    },
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ed5efb98c4836c4b029f70cf2d77779f07f69a60"
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T09:L362",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "U"
+    },
+    "ro": {
+      "name": "U"
+    },
     "de": {
-      "context": "U",
-      "example": "Uhr"
+      "name": "U",
+      "description": "Letter name: U. Example: Uhr.",
+      "ipa": "/uː/",
+      "example": "Uhr",
+      "context": "U"
+    },
+    "ru": {
+      "name": "U"
+    },
+    "it": {
+      "name": "U"
+    },
+    "es": {
+      "name": "U"
+    },
+    "fr": {
+      "name": "U"
+    },
+    "hu": {
+      "name": "U"
+    },
+    "pt": {
+      "name": "U"
     }
   },
-  "entity_id": "LT01T09:L362",
-  "cefr": "A1"
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "ed5efb98c4836c4b029f70cf2d77779f07f69a60"
+    }
+  }
 }

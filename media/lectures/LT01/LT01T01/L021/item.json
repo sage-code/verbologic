@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "S",
-    "ro": "S",
-    "de": "S",
-    "ru": "S",
-    "it": "S",
-    "es": "S",
-    "fr": "S",
-    "hu": "S",
-    "pt": "S"
-  },
-  "description": {
-    "en": "The letter S is the eighteenth letter of the Romanian alphabet.",
-    "ro": "Litera S este a optsprezecea literă a alfabetului român.",
-    "de": "Der Buchstabe S ist der achtzehnte Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква S — восемнадцатая буква румынского алфавита.",
-    "it": "La lettera S è la diciottesima lettera dell'alfabeto rumeno.",
-    "es": "La letra S es la decimoctava letra del alfabeto rumano.",
-    "fr": "La lettre S est la dix-huitième lettre de l'alphabet roumain.",
-    "hu": "Az S betű a román ábécé tizennyolcadik betűje.",
-    "pt": "A letra S é a décima oitava letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/s/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8064,
-      "sha1": "9569e58ba53f4e2d596bc93a0c43a3a0eeac49a4",
-      "key": "lectures/LT01/LT01T01/L021/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L021",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L021",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "S",
+      "description": "The letter S is the eighteenth letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "S",
+      "description": "Litera S este a optsprezecea literă a alfabetului român.",
+      "ipa": "/s/"
+    },
+    "de": {
+      "name": "S",
+      "description": "Der Buchstabe S ist der achtzehnte Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "S",
+      "description": "Буква S — восемнадцатая буква румынского алфавита."
+    },
+    "it": {
+      "name": "S",
+      "description": "La lettera S è la diciottesima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "S",
+      "description": "La letra S es la decimoctava letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "S",
+      "description": "La lettre S est la dix-huitième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "S",
+      "description": "Az S betű a román ábécé tizennyolcadik betűje."
+    },
+    "pt": {
+      "name": "S",
+      "description": "A letra S é a décima oitava letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 8064,
+      "sha1": "9569e58ba53f4e2d596bc93a0c43a3a0eeac49a4"
+    }
+  }
 }

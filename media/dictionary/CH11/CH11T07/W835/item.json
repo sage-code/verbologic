@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T07",
   "kind": "word",
-  "names": {
-    "en": "truth",
-    "ro": "adevăr",
-    "de": "Wahrheit",
-    "ru": "истина",
-    "it": "verità",
-    "es": "verdad",
-    "fr": "vérité",
-    "hu": "igazság",
-    "pt": "verdade"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/adeˈvər/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "231dfd8b7456f88a20902b49d08698714e270760",
-      "key": "dictionary/CH11/CH11T07/W835/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T07:W835",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T07"
   ],
-  "metadata": {},
-  "entity_id": "CH11T07:W835",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "truth"
+    },
+    "ro": {
+      "name": "adevăr",
+      "ipa": "/adeˈvər/"
+    },
+    "de": {
+      "name": "Wahrheit"
+    },
+    "ru": {
+      "name": "истина"
+    },
+    "it": {
+      "name": "verità"
+    },
+    "es": {
+      "name": "verdad"
+    },
+    "fr": {
+      "name": "vérité"
+    },
+    "hu": {
+      "name": "igazság"
+    },
+    "pt": {
+      "name": "verdade"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "231dfd8b7456f88a20902b49d08698714e270760"
+    }
+  }
 }

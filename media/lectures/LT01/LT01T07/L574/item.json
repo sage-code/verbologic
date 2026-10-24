@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "V",
-    "ro": "V",
-    "de": "V",
-    "ru": "V",
-    "it": "V",
-    "es": "V",
-    "fr": "V",
-    "hu": "V",
-    "pt": "V"
-  },
-  "description": {
-    "en": "Letter name: V. Example: voice.",
-    "ro": "Numele literei: V. Exemplu: voice.",
-    "de": "Buchstabenname: V. Beispiel: voice.",
-    "ru": "Название буквы: V. Пример: voice.",
-    "it": "Nome della lettera: V. Esempio: voice.",
-    "es": "Nombre de la letra: V. Ejemplo: voice.",
-    "fr": "Nom de la lettre : V. Exemple : voice.",
-    "hu": "Betű neve: V. Példa: voice.",
-    "pt": "Nome da letra: V. Exemplo: voice."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/viː/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8cef33e090bf3b9fc7ad07c1bf5b5297d41badd7"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L574",
+  "legacy_entity_id": "letter_v-2",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "V",
-      "example": "voice"
+      "name": "V",
+      "description": "Letter name: V. Example: voice.",
+      "ipa": "/viː/",
+      "example": "voice",
+      "context": "V"
+    },
+    "ro": {
+      "name": "V",
+      "description": "Numele literei: V. Exemplu: voice."
+    },
+    "de": {
+      "name": "V",
+      "description": "Buchstabenname: V. Beispiel: voice."
+    },
+    "ru": {
+      "name": "V",
+      "description": "Название буквы: V. Пример: voice."
+    },
+    "it": {
+      "name": "V",
+      "description": "Nome della lettera: V. Esempio: voice."
+    },
+    "es": {
+      "name": "V",
+      "description": "Nombre de la letra: V. Ejemplo: voice."
+    },
+    "fr": {
+      "name": "V",
+      "description": "Nom de la lettre : V. Exemple : voice."
+    },
+    "hu": {
+      "name": "V",
+      "description": "Betű neve: V. Példa: voice."
+    },
+    "pt": {
+      "name": "V",
+      "description": "Nome da letra: V. Exemplo: voice."
     }
   },
-  "entity_id": "LT01T07:L574",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_v-2"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8cef33e090bf3b9fc7ad07c1bf5b5297d41badd7"
+    }
+  }
 }

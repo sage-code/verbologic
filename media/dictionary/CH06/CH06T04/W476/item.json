@@ -4,111 +4,45 @@
   "chapter": "CH06",
   "topic": "CH06T04",
   "kind": "word",
-  "names": {
-    "en": "laboratory",
-    "ro": "laborator",
-    "de": "Labor",
-    "ru": "лаборатория",
-    "it": "laboratorio",
-    "es": "laboratorio",
-    "fr": "laboratoire",
-    "hu": "laboratórium",
-    "pt": "laboratório"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/laboraˈtor/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "bbe95b5a9293dc1b687e42655fd5afe4dd068621",
-      "key": "dictionary/CH06/CH06T04/W476/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH06T04:W476",
+  "cefr": "B1",
   "tags": [
     "scaffold#C6T04"
   ],
-  "metadata": {},
-  "entity_id": "CH06T04:W476",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "laboratory"
+    },
+    "ro": {
+      "name": "laborator",
+      "ipa": "/laboraˈtor/"
+    },
+    "de": {
+      "name": "Labor"
+    },
+    "ru": {
+      "name": "лаборатория"
+    },
+    "it": {
+      "name": "laboratorio"
+    },
+    "es": {
+      "name": "laboratorio"
+    },
+    "fr": {
+      "name": "laboratoire"
+    },
+    "hu": {
+      "name": "laboratórium"
+    },
+    "pt": {
+      "name": "laboratório"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "bbe95b5a9293dc1b687e42655fd5afe4dd068621"
+    }
+  }
 }

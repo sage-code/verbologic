@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "T",
-    "ro": "T",
-    "de": "T",
-    "ru": "T",
-    "it": "T",
-    "es": "T",
-    "fr": "T",
-    "hu": "T",
-    "pt": "T"
-  },
-  "description": {
-    "en": "The letter T is the twentieth letter of the Romanian alphabet.",
-    "ro": "Litera T este a douăzecea literă a alfabetului român.",
-    "de": "Der Buchstabe T ist der zwanzigste Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква T — двадцатая буква румынского алфавита.",
-    "it": "La lettera T è la ventesima lettera dell'alfabeto rumeno.",
-    "es": "La letra T es la vigésima letra del alfabeto rumano.",
-    "fr": "La lettre T est la vingtième lettre de l'alphabet roumain.",
-    "hu": "A T betű a román ábécé huszadik betűje.",
-    "pt": "A letra T é a vigésima letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/t/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b991d890c7d34d1769e6332ca5a21d3fc3d13470",
-      "key": "lectures/LT01/LT01T01/L023/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L023",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L023",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "T",
+      "description": "The letter T is the twentieth letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "T",
+      "description": "Litera T este a douăzecea literă a alfabetului român.",
+      "ipa": "/t/"
+    },
+    "de": {
+      "name": "T",
+      "description": "Der Buchstabe T ist der zwanzigste Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "T",
+      "description": "Буква T — двадцатая буква румынского алфавита."
+    },
+    "it": {
+      "name": "T",
+      "description": "La lettera T è la ventesima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "T",
+      "description": "La letra T es la vigésima letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "T",
+      "description": "La lettre T est la vingtième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "T",
+      "description": "A T betű a román ábécé huszadik betűje."
+    },
+    "pt": {
+      "name": "T",
+      "description": "A letra T é a vigésima letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "b991d890c7d34d1769e6332ca5a21d3fc3d13470"
+    }
+  }
 }

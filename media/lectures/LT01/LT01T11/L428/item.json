@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T11",
   "kind": "letter",
-  "names": {
-    "en": "W",
-    "ro": "W",
-    "de": "W",
-    "ru": "W",
-    "it": "W",
-    "es": "W",
-    "fr": "W",
-    "hu": "W",
-    "pt": "W"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": "Letter name: doppia vu. Example: web.",
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": {
-      "ipa": "/ˈdoppja vu/"
-    },
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "db95742a05ca1149c706ec9edaf76d215aec51d5"
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T11:L428",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "W"
+    },
+    "ro": {
+      "name": "W"
+    },
+    "de": {
+      "name": "W"
+    },
+    "ru": {
+      "name": "W"
+    },
     "it": {
-      "context": "doppia vu",
-      "example": "web"
+      "name": "W",
+      "description": "Letter name: doppia vu. Example: web.",
+      "ipa": "/ˈdoppja vu/",
+      "example": "web",
+      "context": "doppia vu"
+    },
+    "es": {
+      "name": "W"
+    },
+    "fr": {
+      "name": "W"
+    },
+    "hu": {
+      "name": "W"
+    },
+    "pt": {
+      "name": "W"
     }
   },
-  "entity_id": "LT01T11:L428",
-  "cefr": "A1"
+  "files": {
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "db95742a05ca1149c706ec9edaf76d215aec51d5"
+    }
+  }
 }

@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "I",
-    "ro": "I",
-    "de": "I",
-    "ru": "I",
-    "it": "I",
-    "es": "I",
-    "fr": "I",
-    "hu": "I",
-    "pt": "I"
-  },
-  "description": {
-    "en": "Letter name: I. Example: idea.",
-    "ro": "Numele literei: I. Exemplu: idea.",
-    "de": "Buchstabenname: I. Beispiel: idea.",
-    "ru": "Название буквы: I. Пример: idea.",
-    "it": "Nome della lettera: I. Esempio: idea.",
-    "es": "Nombre de la letra: I. Ejemplo: idea.",
-    "fr": "Nom de la lettre : I. Exemple : idea.",
-    "hu": "Betű neve: I. Példa: idea.",
-    "pt": "Nome da letra: I. Exemplo: idea."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/aɪ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4896,
-      "sha1": "50594d71842ef9586f38a10f321f31809b161bd1"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L561",
+  "legacy_entity_id": "letter_i-2",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "I",
-      "example": "idea"
+      "name": "I",
+      "description": "Letter name: I. Example: idea.",
+      "ipa": "/aɪ/",
+      "example": "idea",
+      "context": "I"
+    },
+    "ro": {
+      "name": "I",
+      "description": "Numele literei: I. Exemplu: idea."
+    },
+    "de": {
+      "name": "I",
+      "description": "Buchstabenname: I. Beispiel: idea."
+    },
+    "ru": {
+      "name": "I",
+      "description": "Название буквы: I. Пример: idea."
+    },
+    "it": {
+      "name": "I",
+      "description": "Nome della lettera: I. Esempio: idea."
+    },
+    "es": {
+      "name": "I",
+      "description": "Nombre de la letra: I. Ejemplo: idea."
+    },
+    "fr": {
+      "name": "I",
+      "description": "Nom de la lettre : I. Exemple : idea."
+    },
+    "hu": {
+      "name": "I",
+      "description": "Betű neve: I. Példa: idea."
+    },
+    "pt": {
+      "name": "I",
+      "description": "Nome da letra: I. Exemplo: idea."
     }
   },
-  "entity_id": "LT01T07:L561",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_i-2"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "50594d71842ef9586f38a10f321f31809b161bd1"
+    }
+  }
 }

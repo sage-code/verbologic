@@ -4,111 +4,45 @@
   "chapter": "CH03",
   "topic": "CH03T05",
   "kind": "word",
-  "names": {
-    "en": "coffee",
-    "ro": "cafea",
-    "de": "Kaffee",
-    "ru": "кофе",
-    "it": "caffè",
-    "es": "café",
-    "fr": "café",
-    "hu": "kávé",
-    "pt": "café"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/kaˈfea/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "c621ff62a5ff83579ebc1c886245f46def440724",
-      "key": "dictionary/CH03/CH03T05/W296/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T05:W296",
+  "cefr": "A2",
   "tags": [
     "scaffold#C3T05"
   ],
-  "metadata": {},
-  "entity_id": "CH03T05:W296",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "coffee"
+    },
+    "ro": {
+      "name": "cafea",
+      "ipa": "/kaˈfea/"
+    },
+    "de": {
+      "name": "Kaffee"
+    },
+    "ru": {
+      "name": "кофе"
+    },
+    "it": {
+      "name": "caffè"
+    },
+    "es": {
+      "name": "café"
+    },
+    "fr": {
+      "name": "café"
+    },
+    "hu": {
+      "name": "kávé"
+    },
+    "pt": {
+      "name": "café"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "c621ff62a5ff83579ebc1c886245f46def440724"
+    }
+  }
 }

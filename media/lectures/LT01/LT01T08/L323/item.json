@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "ow",
-    "ro": "ow in cow (vacă), snow (zăpadă)",
-    "de": "ow in cow (Kuh), snow (Schnee)",
-    "ru": "ow in cow (корова), snow (снег)",
-    "it": "ow in cow (mucca), snow (neve)",
-    "es": "ow in cow (vaca), snow (nieve)",
-    "fr": "ow in cow (vache), snow (neige)",
-    "hu": "ow in cow (tehén), snow (hó)",
-    "pt": "ow in cow (vaca), snow (neve)"
-  },
-  "description": {
-    "en": "This is the letter L323 from the vowel-consonant groups.",
-    "ro": "Aceasta este litera L323 din grupurile vocală-consoană.",
-    "de": "Dies ist der Buchstabe L323 aus den Vokal-Konsonant-Gruppen.",
-    "ru": "Это буква L323 из групп гласных и согласных.",
-    "it": "Questa è la lettera L323 dei gruppi vocale-consonante.",
-    "es": "Esta es la letra L323 de los grupos vocal-consonante.",
-    "fr": "Ceci est la lettre L323 des groupes voyelle-consonne.",
-    "hu": "Ez az L323 betű a magánhangzó-mássalhangzó csoportokból.",
-    "pt": "Esta é a letra L323 dos grupos vogal-consoante."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/aʊ/ or /oʊ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4320,
-      "sha1": "643c03d48e313be05a0e8311eb665133674e9b08",
-      "key": "lectures/LT01/LT01T08/L323/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L323",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L323",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ow",
+      "description": "This is the letter L323 from the vowel-consonant groups.",
+      "ipa": "/aʊ/ or /oʊ/"
+    },
+    "ro": {
+      "name": "ow in cow (vacă), snow (zăpadă)",
+      "description": "Aceasta este litera L323 din grupurile vocală-consoană."
+    },
+    "de": {
+      "name": "ow in cow (Kuh), snow (Schnee)",
+      "description": "Dies ist der Buchstabe L323 aus den Vokal-Konsonant-Gruppen."
+    },
+    "ru": {
+      "name": "ow in cow (корова), snow (снег)",
+      "description": "Это буква L323 из групп гласных и согласных."
+    },
+    "it": {
+      "name": "ow in cow (mucca), snow (neve)",
+      "description": "Questa è la lettera L323 dei gruppi vocale-consonante."
+    },
+    "es": {
+      "name": "ow in cow (vaca), snow (nieve)",
+      "description": "Esta es la letra L323 de los grupos vocal-consonante."
+    },
+    "fr": {
+      "name": "ow in cow (vache), snow (neige)",
+      "description": "Ceci est la lettre L323 des groupes voyelle-consonne."
+    },
+    "hu": {
+      "name": "ow in cow (tehén), snow (hó)",
+      "description": "Ez az L323 betű a magánhangzó-mássalhangzó csoportokból."
+    },
+    "pt": {
+      "name": "ow in cow (vaca), snow (neve)",
+      "description": "Esta é a letra L323 dos grupos vogal-consoante."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4320,
+      "sha1": "643c03d48e313be05a0e8311eb665133674e9b08"
+    }
+  }
 }

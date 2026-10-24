@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "kn-",
-    "ro": "kn-",
-    "de": "kn-",
-    "ru": "kn-",
-    "it": "kn-",
-    "es": "kn-",
-    "fr": "kn-",
-    "hu": "kn-",
-    "pt": "kn-"
-  },
-  "description": {
-    "en": "Letter name: kn-. Example: knife.",
-    "ro": "Numele literei: kn-. Exemplu: knife.",
-    "de": "Buchstabenname: kn-. Beispiel: knife.",
-    "ru": "Название буквы: kn-. Пример: knife.",
-    "it": "Nome della lettera: kn-. Esempio: knife.",
-    "es": "Nombre de la letra: kn-. Ejemplo: knife.",
-    "fr": "Nom de la lettre : kn-. Exemple : knife.",
-    "hu": "Betűnév: kn-. Példa: knife.",
-    "pt": "Nome da letra: kn-. Exemplo: knife."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/n/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ea078f887f0211b9035fb1948b647a2daee6f025"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L603",
+  "legacy_entity_id": "letter_knife",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "kn-",
-      "example": "knife"
+      "name": "kn-",
+      "description": "Letter name: kn-. Example: knife.",
+      "ipa": "/n/",
+      "example": "knife",
+      "context": "kn-"
+    },
+    "ro": {
+      "name": "kn-",
+      "description": "Numele literei: kn-. Exemplu: knife."
+    },
+    "de": {
+      "name": "kn-",
+      "description": "Buchstabenname: kn-. Beispiel: knife."
+    },
+    "ru": {
+      "name": "kn-",
+      "description": "Название буквы: kn-. Пример: knife."
+    },
+    "it": {
+      "name": "kn-",
+      "description": "Nome della lettera: kn-. Esempio: knife."
+    },
+    "es": {
+      "name": "kn-",
+      "description": "Nombre de la letra: kn-. Ejemplo: knife."
+    },
+    "fr": {
+      "name": "kn-",
+      "description": "Nom de la lettre : kn-. Exemple : knife."
+    },
+    "hu": {
+      "name": "kn-",
+      "description": "Betűnév: kn-. Példa: knife."
+    },
+    "pt": {
+      "name": "kn-",
+      "description": "Nome da letra: kn-. Exemplo: knife."
     }
   },
-  "entity_id": "LT01T07:L603",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_knife"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "ea078f887f0211b9035fb1948b647a2daee6f025"
+    }
+  }
 }

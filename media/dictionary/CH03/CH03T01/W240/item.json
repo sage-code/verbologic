@@ -4,111 +4,45 @@
   "chapter": "CH03",
   "topic": "CH03T01",
   "kind": "word",
-  "names": {
-    "en": "to eat",
-    "ro": "a mânca",
-    "de": "essen",
-    "ru": "есть",
-    "it": "mangiare",
-    "es": "comer",
-    "fr": "manger",
-    "hu": "enni",
-    "pt": "comer"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/a mɨnˈka/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "cc04131962d98fe2c350801e5b15fbaf42d08cc6",
-      "key": "dictionary/CH03/CH03T01/W240/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T01:W240",
+  "cefr": "A2",
   "tags": [
     "vocabulary#daily-routines"
   ],
-  "metadata": {},
-  "entity_id": "CH03T01:W240",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "to eat"
+    },
+    "ro": {
+      "name": "a mânca",
+      "ipa": "/a mɨnˈka/"
+    },
+    "de": {
+      "name": "essen"
+    },
+    "ru": {
+      "name": "есть"
+    },
+    "it": {
+      "name": "mangiare"
+    },
+    "es": {
+      "name": "comer"
+    },
+    "fr": {
+      "name": "manger"
+    },
+    "hu": {
+      "name": "enni"
+    },
+    "pt": {
+      "name": "comer"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "cc04131962d98fe2c350801e5b15fbaf42d08cc6"
+    }
+  }
 }

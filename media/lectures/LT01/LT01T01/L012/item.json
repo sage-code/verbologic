@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "Î",
-    "ro": "Î",
-    "de": "Î",
-    "ru": "Î",
-    "it": "Î",
-    "es": "Î",
-    "fr": "Î",
-    "hu": "Î",
-    "pt": "Î"
-  },
-  "description": {
-    "en": "The letter Î is the tenth letter of the Romanian alphabet.",
-    "ro": "Litera Î este a zecea literă a alfabetului român.",
-    "de": "Der Buchstabe Î ist der zehnte Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква Î — десятая буква румынского алфавита.",
-    "it": "La lettera Î è la decima lettera dell'alfabeto rumeno.",
-    "es": "La letra Î es la décima letra del alfabeto rumano.",
-    "fr": "La lettre Î est la dixième lettre de l'alphabet roumain.",
-    "hu": "Az Î betű a román ábécé tizedik betűje.",
-    "pt": "A letra Î é a décima letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ɨ/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7200,
-      "sha1": "552a02a40389e29e70767193dbfc8423744cbdb2",
-      "key": "lectures/LT01/LT01T01/L012/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L012",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L012",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "Î",
+      "description": "The letter Î is the tenth letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "Î",
+      "description": "Litera Î este a zecea literă a alfabetului român.",
+      "ipa": "/ɨ/"
+    },
+    "de": {
+      "name": "Î",
+      "description": "Der Buchstabe Î ist der zehnte Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "Î",
+      "description": "Буква Î — десятая буква румынского алфавита."
+    },
+    "it": {
+      "name": "Î",
+      "description": "La lettera Î è la decima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "Î",
+      "description": "La letra Î es la décima letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "Î",
+      "description": "La lettre Î est la dixième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "Î",
+      "description": "Az Î betű a román ábécé tizedik betűje."
+    },
+    "pt": {
+      "name": "Î",
+      "description": "A letra Î é a décima letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 7200,
+      "sha1": "552a02a40389e29e70767193dbfc8423744cbdb2"
+    }
+  }
 }

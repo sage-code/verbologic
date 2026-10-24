@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T07",
   "kind": "word",
-  "names": {
-    "en": "dissertation",
-    "ro": "disertație",
-    "de": "Dissertation",
-    "ru": "диссертация",
-    "it": "dissertazione",
-    "es": "disertación",
-    "fr": "dissertation",
-    "hu": "disszertáció",
-    "pt": "dissertação"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/diserˈtatsie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "588ebfb0ea3b219d5d841ef4982359110c839017",
-      "key": "dictionary/CH12/CH12T07/W905/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T07:W905",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T07"
   ],
-  "metadata": {},
-  "entity_id": "CH12T07:W905",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "dissertation"
+    },
+    "ro": {
+      "name": "disertație",
+      "ipa": "/diserˈtatsie/"
+    },
+    "de": {
+      "name": "Dissertation"
+    },
+    "ru": {
+      "name": "диссертация"
+    },
+    "it": {
+      "name": "dissertazione"
+    },
+    "es": {
+      "name": "disertación"
+    },
+    "fr": {
+      "name": "dissertation"
+    },
+    "hu": {
+      "name": "disszertáció"
+    },
+    "pt": {
+      "name": "dissertação"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "588ebfb0ea3b219d5d841ef4982359110c839017"
+    }
+  }
 }

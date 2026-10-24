@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T06",
   "kind": "word",
-  "names": {
-    "en": "bird",
-    "ro": "pasăre",
-    "de": "Vogel",
-    "ru": "Птица",
-    "it": "uccello",
-    "es": "pájaro",
-    "fr": "oiseau",
-    "hu": "Madár",
-    "pt": "Pássaro"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈpasəre/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "127645c2372f3c18bfc7adc5252e3052e9b6b0ce",
-      "key": "dictionary/CH02/CH02T06/W222/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T06:W222",
+  "cefr": "A1",
   "tags": [
     "scaffold#C2T06"
   ],
-  "metadata": {},
-  "entity_id": "CH02T06:W222",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "bird"
+    },
+    "ro": {
+      "name": "pasăre",
+      "ipa": "/ˈpasəre/"
+    },
+    "de": {
+      "name": "Vogel"
+    },
+    "ru": {
+      "name": "Птица"
+    },
+    "it": {
+      "name": "uccello"
+    },
+    "es": {
+      "name": "pájaro"
+    },
+    "fr": {
+      "name": "oiseau"
+    },
+    "hu": {
+      "name": "Madár"
+    },
+    "pt": {
+      "name": "Pássaro"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "127645c2372f3c18bfc7adc5252e3052e9b6b0ce"
+    }
+  }
 }

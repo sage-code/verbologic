@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "th",
-    "ro": "th",
-    "de": "th",
-    "ru": "th",
-    "it": "th",
-    "es": "th",
-    "fr": "th",
-    "hu": "th",
-    "pt": "th"
-  },
-  "description": {
-    "en": "Letter name: th. Example: think.",
-    "ro": "Numele literei: th. Exemplu: think.",
-    "de": "Buchstabenname: th. Beispiel: think.",
-    "ru": "Название буквы: th. Пример: think.",
-    "it": "Nome della lettera: th. Esempio: think.",
-    "es": "Nombre de la letra: th. Ejemplo: think.",
-    "fr": "Nom de la lettre : th. Exemple : think.",
-    "hu": "Betű neve: th. Példa: think.",
-    "pt": "Nome da letra: th. Exemplo: think."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/θ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "65bab37cb08fb6e15d7e61f5ce38e7c7f8b16a93"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L614",
+  "legacy_entity_id": "letter_think",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "th",
-      "example": "think"
+      "name": "th",
+      "description": "Letter name: th. Example: think.",
+      "ipa": "/θ/",
+      "example": "think",
+      "context": "th"
+    },
+    "ro": {
+      "name": "th",
+      "description": "Numele literei: th. Exemplu: think."
+    },
+    "de": {
+      "name": "th",
+      "description": "Buchstabenname: th. Beispiel: think."
+    },
+    "ru": {
+      "name": "th",
+      "description": "Название буквы: th. Пример: think."
+    },
+    "it": {
+      "name": "th",
+      "description": "Nome della lettera: th. Esempio: think."
+    },
+    "es": {
+      "name": "th",
+      "description": "Nombre de la letra: th. Ejemplo: think."
+    },
+    "fr": {
+      "name": "th",
+      "description": "Nom de la lettre : th. Exemple : think."
+    },
+    "hu": {
+      "name": "th",
+      "description": "Betű neve: th. Példa: think."
+    },
+    "pt": {
+      "name": "th",
+      "description": "Nome da letra: th. Exemplo: think."
     }
   },
-  "entity_id": "LT01T07:L614",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_think"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "65bab37cb08fb6e15d7e61f5ce38e7c7f8b16a93"
+    }
+  }
 }

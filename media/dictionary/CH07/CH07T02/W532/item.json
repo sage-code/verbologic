@@ -4,111 +4,45 @@
   "chapter": "CH07",
   "topic": "CH07T02",
   "kind": "word",
-  "names": {
-    "en": "trust",
-    "ro": "încredere",
-    "de": "Vertrauen",
-    "ru": "доверие",
-    "it": "fiducia",
-    "es": "confianza",
-    "fr": "confiance",
-    "hu": "bizalom",
-    "pt": "confiança"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ɨnˈkredere/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "5b463d5cffbeee2bfd0e9b40bf1d8c6608fff2db",
-      "key": "dictionary/CH07/CH07T02/W532/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH07T02:W532",
+  "cefr": "B2",
   "tags": [
     "scaffold#C7T02"
   ],
-  "metadata": {},
-  "entity_id": "CH07T02:W532",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "trust"
+    },
+    "ro": {
+      "name": "încredere",
+      "ipa": "/ɨnˈkredere/"
+    },
+    "de": {
+      "name": "Vertrauen"
+    },
+    "ru": {
+      "name": "доверие"
+    },
+    "it": {
+      "name": "fiducia"
+    },
+    "es": {
+      "name": "confianza"
+    },
+    "fr": {
+      "name": "confiance"
+    },
+    "hu": {
+      "name": "bizalom"
+    },
+    "pt": {
+      "name": "confiança"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "5b463d5cffbeee2bfd0e9b40bf1d8c6608fff2db"
+    }
+  }
 }

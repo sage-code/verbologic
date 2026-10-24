@@ -4,176 +4,114 @@
   "chapter": "CH01",
   "topic": "CH01T09",
   "kind": "letter",
+  "entity_id": "CH01T09:W164",
+  "cefr": "A1",
   "letter": "T",
-  "names": {
-    "en": "T (tee)",
-    "ro": "T (te)",
-    "de": "T (te)",
-    "ru": "T (ти)",
-    "it": "T (ti)",
-    "es": "T (te)",
-    "fr": "T (té)",
-    "hu": "T (té)",
-    "pt": "T (tê)"
-  },
-  "description": {
-    "en": "The letter T in the Latin alphabet, named tee.",
-    "ro": "Litera T din alfabetul latin, numită te.",
-    "de": "Der Buchstabe T des lateinischen Alphabets, genannt te.",
-    "ru": "Буква T латинского алфавита, называемая «ти».",
-    "it": "La lettera T dell'alfabeto latino, chiamata ti.",
-    "es": "La letra T del alfabeto latino, llamada te.",
-    "fr": "La lettre T de l'alphabet latin, appelée té.",
-    "hu": "A latin ábécé T betűje, neve té.",
-    "pt": "A letra T do alfabeto latino, chamada tê."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/tiː/"
-    },
-    "ro": {
-      "ipa": "/te/"
-    },
-    "de": {
-      "ipa": "/teː/"
-    },
-    "ru": {
-      "ipa": "/tʲi/"
-    },
-    "it": {
-      "ipa": "/ti/"
-    },
-    "es": {
-      "ipa": "/te/"
-    },
-    "fr": {
-      "ipa": "/te/"
-    },
-    "hu": {
-      "ipa": "/teː/"
-    },
-    "pt": {
-      "ipa": "/te/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e9e01c643cedf4a7bd94e4c4dd2c1dbdc5fea9b2",
-      "key": "dictionary/CH01/CH01T09/W164/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b4dc83e6ac06848d949b72a49d600cfc39c7153e",
-      "key": "dictionary/CH01/CH01T09/W164/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c407b56a62009bc0e4cc0df8b13ff6865731ca82",
-      "key": "dictionary/CH01/CH01T09/W164/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "510d5e09b186b0d2a4541922b834d7ff042c4a22",
-      "key": "dictionary/CH01/CH01T09/W164/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4032,
-      "sha1": "2af1b957f7719a04b2276a7198e892fe0f1bab32",
-      "key": "dictionary/CH01/CH01T09/W164/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "482a5dc6aea8b2060972dfc4bae5a6c9387867d1",
-      "key": "dictionary/CH01/CH01T09/W164/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "734a50f0e5e56514cfd603c6ab8c8d100e87b34c",
-      "key": "dictionary/CH01/CH01T09/W164/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c526b1d12b962849a0f0b3f8297d050c36cefc19",
-      "key": "dictionary/CH01/CH01T09/W164/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ffba91d646acbc69cf7bdfdb7cf53c8c245fe7cf",
-      "key": "dictionary/CH01/CH01T09/W164/sound/pt.mp3"
-    }
-  },
-  "ttsText": {
-    "en": "tee",
-    "ro": "te",
-    "de": "te",
-    "ru": "ти",
-    "it": "ti",
-    "es": "te",
-    "fr": "té",
-    "hu": "té",
-    "pt": "tê"
-  },
   "tags": [
     "alphabet#common-letter",
     "alphabet#latin"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "T (tee)",
+      "description": "The letter T in the Latin alphabet, named tee.",
+      "ipa": "/tiː/",
+      "ttsText": "tee",
       "example": "tee"
     },
     "ro": {
+      "name": "T (te)",
+      "description": "Litera T din alfabetul latin, numită te.",
+      "ipa": "/te/",
+      "ttsText": "te",
       "example": "te"
     },
     "de": {
+      "name": "T (te)",
+      "description": "Der Buchstabe T des lateinischen Alphabets, genannt te.",
+      "ipa": "/teː/",
+      "ttsText": "te",
       "example": "te"
     },
     "ru": {
+      "name": "T (ти)",
+      "description": "Буква T латинского алфавита, называемая «ти».",
+      "ipa": "/tʲi/",
+      "ttsText": "ти",
       "example": "ти"
     },
     "it": {
+      "name": "T (ti)",
+      "description": "La lettera T dell'alfabeto latino, chiamata ti.",
+      "ipa": "/ti/",
+      "ttsText": "ti",
       "example": "ti"
     },
     "es": {
+      "name": "T (te)",
+      "description": "La letra T del alfabeto latino, llamada te.",
+      "ipa": "/te/",
+      "ttsText": "te",
       "example": "te"
     },
     "fr": {
+      "name": "T (té)",
+      "description": "La lettre T de l'alphabet latin, appelée té.",
+      "ipa": "/te/",
+      "ttsText": "té",
       "example": "té"
     },
     "hu": {
+      "name": "T (té)",
+      "description": "A latin ábécé T betűje, neve té.",
+      "ipa": "/teː/",
+      "ttsText": "té",
       "example": "té"
     },
     "pt": {
+      "name": "T (tê)",
+      "description": "A letra T do alfabeto latino, chamada tê.",
+      "ipa": "/te/",
+      "ttsText": "tê",
       "example": "tê"
     }
   },
-  "entity_id": "CH01T09:W164",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "e9e01c643cedf4a7bd94e4c4dd2c1dbdc5fea9b2"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "b4dc83e6ac06848d949b72a49d600cfc39c7153e"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "c407b56a62009bc0e4cc0df8b13ff6865731ca82"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "510d5e09b186b0d2a4541922b834d7ff042c4a22"
+    },
+    "sound/it.mp3": {
+      "bytes": 4032,
+      "sha1": "2af1b957f7719a04b2276a7198e892fe0f1bab32"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "482a5dc6aea8b2060972dfc4bae5a6c9387867d1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "734a50f0e5e56514cfd603c6ab8c8d100e87b34c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "c526b1d12b962849a0f0b3f8297d050c36cefc19"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "ffba91d646acbc69cf7bdfdb7cf53c8c245fe7cf"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T02",
   "kind": "word",
-  "names": {
-    "en": "Haste makes waste",
-    "ro": "Graba strică treaba",
-    "de": "Eile mit Weile",
-    "ru": "Поспешишь — людей насмешишь",
-    "it": "Chi va piano va sano e va lontano",
-    "es": "Vísteme despacio que tengo prisa",
-    "fr": "Qui trop se hâte reste en chemin",
-    "hu": "Lassan járj, tovább érsz",
-    "pt": "Devagar se vai ao longe"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈgraba ˈstrikə ˈtreaba/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13968,
-      "sha1": "df5ab7670ed163a9ba9765729e55b75b98912729",
-      "key": "dictionary/CH12/CH12T02/W849/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T02:W849",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T02"
   ],
-  "metadata": {},
-  "entity_id": "CH12T02:W849",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "Haste makes waste"
+    },
+    "ro": {
+      "name": "Graba strică treaba",
+      "ipa": "/ˈgraba ˈstrikə ˈtreaba/"
+    },
+    "de": {
+      "name": "Eile mit Weile"
+    },
+    "ru": {
+      "name": "Поспешишь — людей насмешишь"
+    },
+    "it": {
+      "name": "Chi va piano va sano e va lontano"
+    },
+    "es": {
+      "name": "Vísteme despacio que tengo prisa"
+    },
+    "fr": {
+      "name": "Qui trop se hâte reste en chemin"
+    },
+    "hu": {
+      "name": "Lassan járj, tovább érsz"
+    },
+    "pt": {
+      "name": "Devagar se vai ao longe"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 13968,
+      "sha1": "df5ab7670ed163a9ba9765729e55b75b98912729"
+    }
+  }
 }

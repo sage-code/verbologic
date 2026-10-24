@@ -4,111 +4,45 @@
   "chapter": "CH10",
   "topic": "CH10T04",
   "kind": "word",
-  "names": {
-    "en": "engine",
-    "ro": "motor",
-    "de": "Motor",
-    "ru": "двигатель",
-    "it": "motore",
-    "es": "motor",
-    "fr": "moteur",
-    "hu": "motor",
-    "pt": "motor"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/moˈtor/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "d28c36307e230fac937265e59cfc20bda24701cf",
-      "key": "dictionary/CH10/CH10T04/W736/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH10T04:W736",
+  "cefr": "C1",
   "tags": [
     "scaffold#C10T04"
   ],
-  "metadata": {},
-  "entity_id": "CH10T04:W736",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "engine"
+    },
+    "ro": {
+      "name": "motor",
+      "ipa": "/moˈtor/"
+    },
+    "de": {
+      "name": "Motor"
+    },
+    "ru": {
+      "name": "двигатель"
+    },
+    "it": {
+      "name": "motore"
+    },
+    "es": {
+      "name": "motor"
+    },
+    "fr": {
+      "name": "moteur"
+    },
+    "hu": {
+      "name": "motor"
+    },
+    "pt": {
+      "name": "motor"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "d28c36307e230fac937265e59cfc20bda24701cf"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH07",
   "topic": "CH07T02",
   "kind": "word",
-  "names": {
-    "en": "neighbor",
-    "ro": "vecin",
-    "de": "Nachbar",
-    "ru": "сосед",
-    "it": "vicino",
-    "es": "vecino",
-    "fr": "voisin",
-    "hu": "szomszéd",
-    "pt": "vizinho"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/veˈtʃin/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "b127cb4c83725012b43fed071c9244c7cf43ff77",
-      "key": "dictionary/CH07/CH07T02/W529/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH07T02:W529",
+  "cefr": "B2",
   "tags": [
     "scaffold#C7T02"
   ],
-  "metadata": {},
-  "entity_id": "CH07T02:W529",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "neighbor"
+    },
+    "ro": {
+      "name": "vecin",
+      "ipa": "/veˈtʃin/"
+    },
+    "de": {
+      "name": "Nachbar"
+    },
+    "ru": {
+      "name": "сосед"
+    },
+    "it": {
+      "name": "vicino"
+    },
+    "es": {
+      "name": "vecino"
+    },
+    "fr": {
+      "name": "voisin"
+    },
+    "hu": {
+      "name": "szomszéd"
+    },
+    "pt": {
+      "name": "vizinho"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "b127cb4c83725012b43fed071c9244c7cf43ff77"
+    }
+  }
 }

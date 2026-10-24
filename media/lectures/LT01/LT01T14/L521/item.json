@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T14",
   "kind": "letter",
-  "names": {
-    "en": "Ű",
-    "ro": "Ű",
-    "de": "Ű",
-    "ru": "Ű",
-    "it": "Ű",
-    "es": "Ű",
-    "fr": "Ű",
-    "hu": "Ű",
-    "pt": "Ű"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": "Letter name: ű. Example: űr.",
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": {
-      "ipa": "/yː/"
-    },
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "97b4eb74cb32c85a5d2f28d3dfc1fcf9985f80cd"
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T14:L521",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Ű"
+    },
+    "ro": {
+      "name": "Ű"
+    },
+    "de": {
+      "name": "Ű"
+    },
+    "ru": {
+      "name": "Ű"
+    },
+    "it": {
+      "name": "Ű"
+    },
+    "es": {
+      "name": "Ű"
+    },
+    "fr": {
+      "name": "Ű"
+    },
     "hu": {
-      "context": "ű",
-      "example": "űr"
+      "name": "Ű",
+      "description": "Letter name: ű. Example: űr.",
+      "ipa": "/yː/",
+      "example": "űr",
+      "context": "ű"
+    },
+    "pt": {
+      "name": "Ű"
     }
   },
-  "entity_id": "LT01T14:L521",
-  "cefr": "A1"
+  "files": {
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "97b4eb74cb32c85a5d2f28d3dfc1fcf9985f80cd"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T05",
   "kind": "word",
-  "names": {
-    "en": "tiny",
-    "ro": "minuscul",
-    "de": "winzig",
-    "ru": "крошечный",
-    "it": "minuscolo",
-    "es": "minúsculo",
-    "fr": "minuscule",
-    "hu": "apró",
-    "pt": "minúsculo"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/minusˈkul/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "a87c78c4208557b70d999abf9f3a708eb4b33030",
-      "key": "dictionary/CH12/CH12T05/W888/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T05:W888",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T05"
   ],
-  "metadata": {},
-  "entity_id": "CH12T05:W888",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "tiny"
+    },
+    "ro": {
+      "name": "minuscul",
+      "ipa": "/minusˈkul/"
+    },
+    "de": {
+      "name": "winzig"
+    },
+    "ru": {
+      "name": "крошечный"
+    },
+    "it": {
+      "name": "minuscolo"
+    },
+    "es": {
+      "name": "minúsculo"
+    },
+    "fr": {
+      "name": "minuscule"
+    },
+    "hu": {
+      "name": "apró"
+    },
+    "pt": {
+      "name": "minúsculo"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "a87c78c4208557b70d999abf9f3a708eb4b33030"
+    }
+  }
 }

@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "ai",
-    "ro": "ai in rain (ploaie)",
-    "de": "ai in rain (Regen)",
-    "ru": "ai in rain (дождь)",
-    "it": "ai in rain (pioggia)",
-    "es": "ai in rain (lluvia)",
-    "fr": "ai in rain (pluie)",
-    "hu": "ai in rain (eső)",
-    "pt": "ai in rain (chuva)"
-  },
-  "description": {
-    "en": "This is the letter L319 from the vowel-consonant groups.",
-    "ro": "Aceasta este litera L319 din grupurile vocală-consoană.",
-    "de": "Dies ist der Buchstabe L319 aus den Vokal-Konsonant-Gruppen.",
-    "ru": "Это буква L319 из групп гласных и согласных.",
-    "it": "Questa è la lettera L319 dei gruppi vocale-consonante.",
-    "es": "Esta es la letra L319 de los grupos vocal-consonante.",
-    "fr": "Ceci est la lettre L319 des groupes voyelle-consonne.",
-    "hu": "Ez az L319 betű a magánhangzó-mássalhangzó csoportokból.",
-    "pt": "Esta é a letra L319 dos grupos vogal-consoante."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/eɪ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4752,
-      "sha1": "85e36fcb87de4278a6bd7004e25e7538493b88a5",
-      "key": "lectures/LT01/LT01T08/L319/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L319",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L319",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ai",
+      "description": "This is the letter L319 from the vowel-consonant groups.",
+      "ipa": "/eɪ/"
+    },
+    "ro": {
+      "name": "ai in rain (ploaie)",
+      "description": "Aceasta este litera L319 din grupurile vocală-consoană."
+    },
+    "de": {
+      "name": "ai in rain (Regen)",
+      "description": "Dies ist der Buchstabe L319 aus den Vokal-Konsonant-Gruppen."
+    },
+    "ru": {
+      "name": "ai in rain (дождь)",
+      "description": "Это буква L319 из групп гласных и согласных."
+    },
+    "it": {
+      "name": "ai in rain (pioggia)",
+      "description": "Questa è la lettera L319 dei gruppi vocale-consonante."
+    },
+    "es": {
+      "name": "ai in rain (lluvia)",
+      "description": "Esta es la letra L319 de los grupos vocal-consonante."
+    },
+    "fr": {
+      "name": "ai in rain (pluie)",
+      "description": "Ceci est la lettre L319 des groupes voyelle-consonne."
+    },
+    "hu": {
+      "name": "ai in rain (eső)",
+      "description": "Ez az L319 betű a magánhangzó-mássalhangzó csoportokból."
+    },
+    "pt": {
+      "name": "ai in rain (chuva)",
+      "description": "Esta é a letra L319 dos grupos vogal-consoante."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "85e36fcb87de4278a6bd7004e25e7538493b88a5"
+    }
+  }
 }

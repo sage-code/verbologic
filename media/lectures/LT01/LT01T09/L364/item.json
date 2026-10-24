@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T09",
   "kind": "letter",
-  "names": {
-    "en": "W",
-    "ro": "W",
-    "de": "W",
-    "ru": "W",
-    "it": "W",
-    "es": "W",
-    "fr": "W",
-    "hu": "W",
-    "pt": "W"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": "Letter name: We. Example: Wasser.",
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": {
-      "ipa": "/veː/"
-    },
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9ae3133a8d98d0fea5e20b1828cf3d1f1202b900"
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T09:L364",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "W"
+    },
+    "ro": {
+      "name": "W"
+    },
     "de": {
-      "context": "We",
-      "example": "Wasser"
+      "name": "W",
+      "description": "Letter name: We. Example: Wasser.",
+      "ipa": "/veː/",
+      "example": "Wasser",
+      "context": "We"
+    },
+    "ru": {
+      "name": "W"
+    },
+    "it": {
+      "name": "W"
+    },
+    "es": {
+      "name": "W"
+    },
+    "fr": {
+      "name": "W"
+    },
+    "hu": {
+      "name": "W"
+    },
+    "pt": {
+      "name": "W"
     }
   },
-  "entity_id": "LT01T09:L364",
-  "cefr": "A1"
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "9ae3133a8d98d0fea5e20b1828cf3d1f1202b900"
+    }
+  }
 }

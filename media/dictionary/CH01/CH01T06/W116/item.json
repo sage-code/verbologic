@@ -4,135 +4,94 @@
   "chapter": "CH01",
   "topic": "CH01T06",
   "kind": "word",
-  "names": {
-    "en": "blue",
-    "ro": "albastru",
-    "de": "Blau",
-    "ru": "Синий",
-    "it": "blu",
-    "es": "azul",
-    "fr": "bleu",
-    "hu": "Kék",
-    "pt": "Azul"
-  },
-  "description": {
-    "en": "Tuesday is the second day of the standard work week.",
-    "ro": "Marți este a doua zi a săptămânii de lucru standard.",
-    "de": "Dienstag ist der zweite Tag der regulären Arbeitswoche.",
-    "ru": "Вторник — второй день стандартной рабочей недели.",
-    "it": "Martedì è il secondo giorno della settimana lavorativa standard.",
-    "es": "El martes es el segundo día de la semana laboral estándar.",
-    "fr": "Le mardi est le deuxième jour de la semaine de travail standard.",
-    "hu": "A kedd a szokásos munkahét második napja.",
-    "pt": "Terça-feira é o segundo dia da semana de trabalho padrão."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/blu/"
-    },
-    "ro": {
-      "ipa": "/alˈbastru/"
-    },
-    "de": {
-      "ipa": "/blaʊ̯/"
-    },
-    "ru": {
-      "ipa": "/ˈsʲinʲɪj/"
-    },
-    "it": {
-      "ipa": "/ˈblu/"
-    },
-    "es": {
-      "ipa": "/aˈθul/"
-    },
-    "fr": {
-      "ipa": "/blø/"
-    },
-    "hu": {
-      "ipa": "/keːk/"
-    },
-    "pt": {
-      "ipa": "/ɐˈzuɫ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4320,
-      "sha1": "3e032f56d0aa62e1291dee40017ac452967a9245",
-      "key": "dictionary/CH01/CH01T06/W116/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "0d49ff029728e440173ffa360a1ff4dd70513dfe",
-      "key": "dictionary/CH01/CH01T06/W116/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ef5a5116c15b9adb6343bc52bcac1014c4f5ff5c",
-      "key": "dictionary/CH01/CH01T06/W116/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "cc1759f1d0dfb6e308f4542661f4f81f70e9eecb",
-      "key": "dictionary/CH01/CH01T06/W116/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a839f0f72313f984c9c6ad87e566af0659056662",
-      "key": "dictionary/CH01/CH01T06/W116/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "423ea5ef90fd4beaac30f22fe6ddf4b0309799b2",
-      "key": "dictionary/CH01/CH01T06/W116/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "eb50aadb75d7a92255e9fcf6352903bd7cc3fd8c",
-      "key": "dictionary/CH01/CH01T06/W116/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ef7ab79750d792e3c66158e71746ea6df893ed43",
-      "key": "dictionary/CH01/CH01T06/W116/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "987ac8c8d971b0dd455c8d7f89625cab698574ce",
-      "key": "dictionary/CH01/CH01T06/W116/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T06:W116",
+  "cefr": "A1",
   "tags": [
     "scaffold#C1T06"
   ],
-  "metadata": {},
-  "entity_id": "CH01T06:W116",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "blue",
+      "description": "Tuesday is the second day of the standard work week.",
+      "ipa": "/blu/"
+    },
+    "ro": {
+      "name": "albastru",
+      "description": "Marți este a doua zi a săptămânii de lucru standard.",
+      "ipa": "/alˈbastru/"
+    },
+    "de": {
+      "name": "Blau",
+      "description": "Dienstag ist der zweite Tag der regulären Arbeitswoche.",
+      "ipa": "/blaʊ̯/"
+    },
+    "ru": {
+      "name": "Синий",
+      "description": "Вторник — второй день стандартной рабочей недели.",
+      "ipa": "/ˈsʲinʲɪj/"
+    },
+    "it": {
+      "name": "blu",
+      "description": "Martedì è il secondo giorno della settimana lavorativa standard.",
+      "ipa": "/ˈblu/"
+    },
+    "es": {
+      "name": "azul",
+      "description": "El martes es el segundo día de la semana laboral estándar.",
+      "ipa": "/aˈθul/"
+    },
+    "fr": {
+      "name": "bleu",
+      "description": "Le mardi est le deuxième jour de la semaine de travail standard.",
+      "ipa": "/blø/"
+    },
+    "hu": {
+      "name": "Kék",
+      "description": "A kedd a szokásos munkahét második napja.",
+      "ipa": "/keːk/"
+    },
+    "pt": {
+      "name": "Azul",
+      "description": "Terça-feira é o segundo dia da semana de trabalho padrão.",
+      "ipa": "/ɐˈzuɫ/"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4320,
+      "sha1": "3e032f56d0aa62e1291dee40017ac452967a9245"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "0d49ff029728e440173ffa360a1ff4dd70513dfe"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "ef5a5116c15b9adb6343bc52bcac1014c4f5ff5c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "cc1759f1d0dfb6e308f4542661f4f81f70e9eecb"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "a839f0f72313f984c9c6ad87e566af0659056662"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "423ea5ef90fd4beaac30f22fe6ddf4b0309799b2"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "eb50aadb75d7a92255e9fcf6352903bd7cc3fd8c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "ef7ab79750d792e3c66158e71746ea6df893ed43"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "987ac8c8d971b0dd455c8d7f89625cab698574ce"
+    }
+  }
 }

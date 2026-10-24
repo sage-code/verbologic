@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "G",
-    "ro": "G",
-    "de": "G",
-    "ru": "G",
-    "it": "G",
-    "es": "G",
-    "fr": "G",
-    "hu": "G",
-    "pt": "G"
-  },
-  "description": {
-    "en": "The letter G is the seventh letter of the Romanian alphabet.",
-    "ro": "Litera G este a șaptea literă a alfabetului român.",
-    "de": "Der Buchstabe G ist der siebte Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква G — седьмая буква румынского алфавита.",
-    "it": "La lettera G è la settima lettera dell'alfabeto rumeno.",
-    "es": "La letra G es la séptima letra del alfabeto rumano.",
-    "fr": "La lettre G est la septième lettre de l'alphabet roumain.",
-    "hu": "A G betű a román ábécé hetedik betűje.",
-    "pt": "A letra G é a sétima letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/g/ or /dʒ/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7920,
-      "sha1": "40c94e95a3b33306064f828944356c686eb44313",
-      "key": "lectures/LT01/LT01T01/L009/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L009",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L009",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "G",
+      "description": "The letter G is the seventh letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "G",
+      "description": "Litera G este a șaptea literă a alfabetului român.",
+      "ipa": "/g/ or /dʒ/"
+    },
+    "de": {
+      "name": "G",
+      "description": "Der Buchstabe G ist der siebte Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "G",
+      "description": "Буква G — седьмая буква румынского алфавита."
+    },
+    "it": {
+      "name": "G",
+      "description": "La lettera G è la settima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "G",
+      "description": "La letra G es la séptima letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "G",
+      "description": "La lettre G est la septième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "G",
+      "description": "A G betű a román ábécé hetedik betűje."
+    },
+    "pt": {
+      "name": "G",
+      "description": "A letra G é a sétima letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 7920,
+      "sha1": "40c94e95a3b33306064f828944356c686eb44313"
+    }
+  }
 }

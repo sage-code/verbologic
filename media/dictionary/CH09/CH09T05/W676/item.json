@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T05",
   "kind": "word",
-  "names": {
-    "en": "loan",
-    "ro": "împrumut",
-    "de": "Darlehen",
-    "ru": "заём",
-    "it": "prestito",
-    "es": "préstamo",
-    "fr": "emprunt",
-    "hu": "kölcsön",
-    "pt": "empréstimo"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ɨmpruˈmut/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "1de95bd43b20608e31dbbbaf1206c99b3ebca604",
-      "key": "dictionary/CH09/CH09T05/W676/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T05:W676",
+  "cefr": "C1",
   "tags": [
     "scaffold#C9T05"
   ],
-  "metadata": {},
-  "entity_id": "CH09T05:W676",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "loan"
+    },
+    "ro": {
+      "name": "împrumut",
+      "ipa": "/ɨmpruˈmut/"
+    },
+    "de": {
+      "name": "Darlehen"
+    },
+    "ru": {
+      "name": "заём"
+    },
+    "it": {
+      "name": "prestito"
+    },
+    "es": {
+      "name": "préstamo"
+    },
+    "fr": {
+      "name": "emprunt"
+    },
+    "hu": {
+      "name": "kölcsön"
+    },
+    "pt": {
+      "name": "empréstimo"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "1de95bd43b20608e31dbbbaf1206c99b3ebca604"
+    }
+  }
 }

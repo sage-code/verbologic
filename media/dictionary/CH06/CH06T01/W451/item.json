@@ -4,111 +4,45 @@
   "chapter": "CH06",
   "topic": "CH06T01",
   "kind": "word",
-  "names": {
-    "en": "homework",
-    "ro": "temă",
-    "de": "Hausaufgabe",
-    "ru": "домашнее задание",
-    "it": "compiti",
-    "es": "tarea",
-    "fr": "devoirs",
-    "hu": "házi feladat",
-    "pt": "tarefa de casa"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈtemə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "cdb128be2c6108594d41535073aecf8a0e66641e",
-      "key": "dictionary/CH06/CH06T01/W451/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH06T01:W451",
+  "cefr": "B1",
   "tags": [
     "vocabulary#school-vocabulary"
   ],
-  "metadata": {},
-  "entity_id": "CH06T01:W451",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "homework"
+    },
+    "ro": {
+      "name": "temă",
+      "ipa": "/ˈtemə/"
+    },
+    "de": {
+      "name": "Hausaufgabe"
+    },
+    "ru": {
+      "name": "домашнее задание"
+    },
+    "it": {
+      "name": "compiti"
+    },
+    "es": {
+      "name": "tarea"
+    },
+    "fr": {
+      "name": "devoirs"
+    },
+    "hu": {
+      "name": "házi feladat"
+    },
+    "pt": {
+      "name": "tarefa de casa"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "cdb128be2c6108594d41535073aecf8a0e66641e"
+    }
+  }
 }

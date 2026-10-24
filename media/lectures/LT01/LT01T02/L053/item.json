@@ -4,114 +4,55 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "g in get / give (/g/)",
-    "ro": "Ghe / Ghi",
-    "de": "g in get / give (/g/)",
-    "ru": "g в get / give (/g/)",
-    "it": "g in get / give (/g/)",
-    "es": "g en get / give (/g/)",
-    "fr": "g dans get / give (/g/)",
-    "hu": "g a get / give (/g/) szóban",
-    "pt": "g em get / give (/g/)"
-  },
-  "description": {
-    "en": "The letter g represents the voiced velar plosive sound /g/ as in the words get and give.",
-    "ro": "Litera g reprezintă sunetul consoană oclusivă velară sonoră /g/, ca în cuvintele get și give.",
-    "de": "Der Buchstabe g steht für den stimmhaften velaren Plosivlaut /g/, wie in den Wörtern get und give.",
-    "ru": "Буква g обозначает звонкий заднеязычный взрывной звук /g/, как в словах get и give.",
-    "it": "La lettera g rappresenta il suono occlusivo velare sonoro /g/ come nelle parole get e give.",
-    "es": "La letra g representa el sonido oclusivo velar sonoro /g/ como en las palabras get y give.",
-    "fr": "La lettre g représente le son occlusif vélaire voisé /g/ comme dans les mots get et give.",
-    "hu": "A g betű a zöngés veláris zárhangot (/g/) jelöli, mint a get és give szavakban.",
-    "pt": "A letra g representa o som oclusivo velar sonoro /g/ como nas palavras get e give."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ge/, /gi/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10512,
-      "sha1": "c7ca0c05422f95780dc6a0c9754bf19261e17c7b",
-      "key": "lectures/LT01/LT01T02/L053/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L053",
+  "cefr": "A1",
   "tags": [
     "alphabet#digraphs"
   ],
-  "ttsText": {
-    "ro": "Ghe / Ghii"
+  "locales": {
+    "en": {
+      "name": "g in get / give (/g/)",
+      "description": "The letter g represents the voiced velar plosive sound /g/ as in the words get and give."
+    },
+    "ro": {
+      "name": "Ghe / Ghi",
+      "description": "Litera g reprezintă sunetul consoană oclusivă velară sonoră /g/, ca în cuvintele get și give.",
+      "ipa": "/ge/, /gi/",
+      "ttsText": "Ghe / Ghii"
+    },
+    "de": {
+      "name": "g in get / give (/g/)",
+      "description": "Der Buchstabe g steht für den stimmhaften velaren Plosivlaut /g/, wie in den Wörtern get und give."
+    },
+    "ru": {
+      "name": "g в get / give (/g/)",
+      "description": "Буква g обозначает звонкий заднеязычный взрывной звук /g/, как в словах get и give."
+    },
+    "it": {
+      "name": "g in get / give (/g/)",
+      "description": "La lettera g rappresenta il suono occlusivo velare sonoro /g/ come nelle parole get e give."
+    },
+    "es": {
+      "name": "g en get / give (/g/)",
+      "description": "La letra g representa el sonido oclusivo velar sonoro /g/ como en las palabras get y give."
+    },
+    "fr": {
+      "name": "g dans get / give (/g/)",
+      "description": "La lettre g représente le son occlusif vélaire voisé /g/ comme dans les mots get et give."
+    },
+    "hu": {
+      "name": "g a get / give (/g/) szóban",
+      "description": "A g betű a zöngés veláris zárhangot (/g/) jelöli, mint a get és give szavakban."
+    },
+    "pt": {
+      "name": "g em get / give (/g/)",
+      "description": "A letra g representa o som oclusivo velar sonoro /g/ como nas palavras get e give."
+    }
   },
-  "metadata": {},
-  "entity_id": "LT01T02:L053",
-  "cefr": "A1"
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10512,
+      "sha1": "c7ca0c05422f95780dc6a0c9754bf19261e17c7b"
+    }
+  }
 }

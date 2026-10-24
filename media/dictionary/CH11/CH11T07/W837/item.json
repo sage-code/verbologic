@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T07",
   "kind": "word",
-  "names": {
-    "en": "thinking",
-    "ro": "gândire",
-    "de": "Denken",
-    "ru": "мышление",
-    "it": "pensiero",
-    "es": "pensamiento",
-    "fr": "pensée",
-    "hu": "gondolkodás",
-    "pt": "pensamento"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/gɨnˈdire/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "3ac4cca40b84f8f5507878c26fa74461b1b5ee85",
-      "key": "dictionary/CH11/CH11T07/W837/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T07:W837",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T07"
   ],
-  "metadata": {},
-  "entity_id": "CH11T07:W837",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "thinking"
+    },
+    "ro": {
+      "name": "gândire",
+      "ipa": "/gɨnˈdire/"
+    },
+    "de": {
+      "name": "Denken"
+    },
+    "ru": {
+      "name": "мышление"
+    },
+    "it": {
+      "name": "pensiero"
+    },
+    "es": {
+      "name": "pensamiento"
+    },
+    "fr": {
+      "name": "pensée"
+    },
+    "hu": {
+      "name": "gondolkodás"
+    },
+    "pt": {
+      "name": "pensamento"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "3ac4cca40b84f8f5507878c26fa74461b1b5ee85"
+    }
+  }
 }

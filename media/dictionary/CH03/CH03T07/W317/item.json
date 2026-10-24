@@ -4,111 +4,45 @@
   "chapter": "CH03",
   "topic": "CH03T07",
   "kind": "word",
-  "names": {
-    "en": "I'm hungry",
-    "ro": "mi-e foame",
-    "de": "Ich habe Hunger",
-    "ru": "Я голоден",
-    "it": "ho fame",
-    "es": "tengo hambre",
-    "fr": "j'ai faim",
-    "hu": "Éhes vagyok",
-    "pt": "Estou com fome"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/mi e ˈfoame/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "281785e9e8c26eec556d56b8c8e5b27b2687d196",
-      "key": "dictionary/CH03/CH03T07/W317/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T07:W317",
+  "cefr": "A2",
   "tags": [
     "vocabulary#emotions-social"
   ],
-  "metadata": {},
-  "entity_id": "CH03T07:W317",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "I'm hungry"
+    },
+    "ro": {
+      "name": "mi-e foame",
+      "ipa": "/mi e ˈfoame/"
+    },
+    "de": {
+      "name": "Ich habe Hunger"
+    },
+    "ru": {
+      "name": "Я голоден"
+    },
+    "it": {
+      "name": "ho fame"
+    },
+    "es": {
+      "name": "tengo hambre"
+    },
+    "fr": {
+      "name": "j'ai faim"
+    },
+    "hu": {
+      "name": "Éhes vagyok"
+    },
+    "pt": {
+      "name": "Estou com fome"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "281785e9e8c26eec556d56b8c8e5b27b2687d196"
+    }
+  }
 }

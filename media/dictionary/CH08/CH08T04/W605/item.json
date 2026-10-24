@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T04",
   "kind": "word",
-  "names": {
-    "en": "nation",
-    "ro": "națiune",
-    "de": "Nation",
-    "ru": "нация",
-    "it": "nazione",
-    "es": "nación",
-    "fr": "nation",
-    "hu": "nemzet",
-    "pt": "nação"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/natsiˈune/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "4ab86d6f582e75c6fc66519958c395ddf86c3e86",
-      "key": "dictionary/CH08/CH08T04/W605/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T04:W605",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T04"
   ],
-  "metadata": {},
-  "entity_id": "CH08T04:W605",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "nation"
+    },
+    "ro": {
+      "name": "națiune",
+      "ipa": "/natsiˈune/"
+    },
+    "de": {
+      "name": "Nation"
+    },
+    "ru": {
+      "name": "нация"
+    },
+    "it": {
+      "name": "nazione"
+    },
+    "es": {
+      "name": "nación"
+    },
+    "fr": {
+      "name": "nation"
+    },
+    "hu": {
+      "name": "nemzet"
+    },
+    "pt": {
+      "name": "nação"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "4ab86d6f582e75c6fc66519958c395ddf86c3e86"
+    }
+  }
 }

@@ -4,176 +4,114 @@
   "chapter": "CH01",
   "topic": "CH01T09",
   "kind": "letter",
+  "entity_id": "CH01T09:W168",
+  "cefr": "A1",
   "letter": "X",
-  "names": {
-    "en": "X (ex)",
-    "ro": "X (ics)",
-    "de": "X (iks)",
-    "ru": "X (экс)",
-    "it": "X (ics)",
-    "es": "X (equis)",
-    "fr": "X (ix)",
-    "hu": "X (iksz)",
-    "pt": "X (xis)"
-  },
-  "description": {
-    "en": "The letter X in the Latin alphabet, named ex.",
-    "ro": "Litera X din alfabetul latin, numită ics.",
-    "de": "Der Buchstabe X des lateinischen Alphabets, genannt iks.",
-    "ru": "Буква X латинского алфавита, называемая «экс».",
-    "it": "La lettera X dell'alfabeto latino, chiamata ics.",
-    "es": "La letra X del alfabeto latino, llamada equis.",
-    "fr": "La lettre X de l'alphabet latin, appelée ix.",
-    "hu": "A latin ábécé X betűje, neve iksz.",
-    "pt": "A letra X do alfabeto latino, chamada xis."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɛks/"
-    },
-    "ro": {
-      "ipa": "/iks/"
-    },
-    "de": {
-      "ipa": "/ɪks/"
-    },
-    "ru": {
-      "ipa": "/ɛks/"
-    },
-    "it": {
-      "ipa": "/iks/"
-    },
-    "es": {
-      "ipa": "/ˈekis/"
-    },
-    "fr": {
-      "ipa": "/iks/"
-    },
-    "hu": {
-      "ipa": "/iks/"
-    },
-    "pt": {
-      "ipa": "/ˈʃiʃ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "f47bb6214e1548c2a0a5d28398f3b560ac7534d6",
-      "key": "dictionary/CH01/CH01T09/W168/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3a5d7de778c6aed58c4a6599f06212cae3127b24",
-      "key": "dictionary/CH01/CH01T09/W168/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "5c5e09f20ea52140d8b49f5c3521ceeabfdc06b0",
-      "key": "dictionary/CH01/CH01T09/W168/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9344e305735cb6f7b0d4c1df42ed7c967b28709c",
-      "key": "dictionary/CH01/CH01T09/W168/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4896,
-      "sha1": "1e7ff03c1fd7906eb306fe9335bc35f124ce5765",
-      "key": "dictionary/CH01/CH01T09/W168/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "581deb2b6db90b7eec720bab6a4f6d781435ebcb",
-      "key": "dictionary/CH01/CH01T09/W168/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "67dec711365390eb78c223b7f5f2fdc24e1e253a",
-      "key": "dictionary/CH01/CH01T09/W168/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "158ddb111140cd2b0872b7bebe62165b34821e8a",
-      "key": "dictionary/CH01/CH01T09/W168/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1847bae9f0f6bbd923b47ab6c95bfa64bc93fbbd",
-      "key": "dictionary/CH01/CH01T09/W168/sound/pt.mp3"
-    }
-  },
-  "ttsText": {
-    "en": "ex",
-    "ro": "ics",
-    "de": "iks",
-    "ru": "экс",
-    "it": "ics",
-    "es": "equis",
-    "fr": "ix",
-    "hu": "iksz",
-    "pt": "xis"
-  },
   "tags": [
     "alphabet#common-letter",
     "alphabet#latin"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "X (ex)",
+      "description": "The letter X in the Latin alphabet, named ex.",
+      "ipa": "/ɛks/",
+      "ttsText": "ex",
       "example": "ex"
     },
     "ro": {
+      "name": "X (ics)",
+      "description": "Litera X din alfabetul latin, numită ics.",
+      "ipa": "/iks/",
+      "ttsText": "ics",
       "example": "ics"
     },
     "de": {
+      "name": "X (iks)",
+      "description": "Der Buchstabe X des lateinischen Alphabets, genannt iks.",
+      "ipa": "/ɪks/",
+      "ttsText": "iks",
       "example": "iks"
     },
     "ru": {
+      "name": "X (экс)",
+      "description": "Буква X латинского алфавита, называемая «экс».",
+      "ipa": "/ɛks/",
+      "ttsText": "экс",
       "example": "экс"
     },
     "it": {
+      "name": "X (ics)",
+      "description": "La lettera X dell'alfabeto latino, chiamata ics.",
+      "ipa": "/iks/",
+      "ttsText": "ics",
       "example": "ics"
     },
     "es": {
+      "name": "X (equis)",
+      "description": "La letra X del alfabeto latino, llamada equis.",
+      "ipa": "/ˈekis/",
+      "ttsText": "equis",
       "example": "equis"
     },
     "fr": {
+      "name": "X (ix)",
+      "description": "La lettre X de l'alphabet latin, appelée ix.",
+      "ipa": "/iks/",
+      "ttsText": "ix",
       "example": "ix"
     },
     "hu": {
+      "name": "X (iksz)",
+      "description": "A latin ábécé X betűje, neve iksz.",
+      "ipa": "/iks/",
+      "ttsText": "iksz",
       "example": "iksz"
     },
     "pt": {
+      "name": "X (xis)",
+      "description": "A letra X do alfabeto latino, chamada xis.",
+      "ipa": "/ˈʃiʃ/",
+      "ttsText": "xis",
       "example": "xis"
     }
   },
-  "entity_id": "CH01T09:W168",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "f47bb6214e1548c2a0a5d28398f3b560ac7534d6"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "3a5d7de778c6aed58c4a6599f06212cae3127b24"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "5c5e09f20ea52140d8b49f5c3521ceeabfdc06b0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "9344e305735cb6f7b0d4c1df42ed7c967b28709c"
+    },
+    "sound/it.mp3": {
+      "bytes": 4896,
+      "sha1": "1e7ff03c1fd7906eb306fe9335bc35f124ce5765"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "581deb2b6db90b7eec720bab6a4f6d781435ebcb"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "67dec711365390eb78c223b7f5f2fdc24e1e253a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "158ddb111140cd2b0872b7bebe62165b34821e8a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "1847bae9f0f6bbd923b47ab6c95bfa64bc93fbbd"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T01",
   "kind": "word",
-  "names": {
-    "en": "project",
-    "ro": "proiect",
-    "de": "Projekt",
-    "ru": "проект",
-    "it": "progetto",
-    "es": "proyecto",
-    "fr": "projet",
-    "hu": "projekt",
-    "pt": "projeto"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/proˈjekt/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "1bee7aeb9c3c1f57747433133a6a2f35fc66b19c",
-      "key": "dictionary/CH09/CH09T01/W636/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T01:W636",
+  "cefr": "C1",
   "tags": [
     "vocabulary#office-vocabulary"
   ],
-  "metadata": {},
-  "entity_id": "CH09T01:W636",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "project"
+    },
+    "ro": {
+      "name": "proiect",
+      "ipa": "/proˈjekt/"
+    },
+    "de": {
+      "name": "Projekt"
+    },
+    "ru": {
+      "name": "проект"
+    },
+    "it": {
+      "name": "progetto"
+    },
+    "es": {
+      "name": "proyecto"
+    },
+    "fr": {
+      "name": "projet"
+    },
+    "hu": {
+      "name": "projekt"
+    },
+    "pt": {
+      "name": "projeto"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "1bee7aeb9c3c1f57747433133a6a2f35fc66b19c"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T04",
   "kind": "word",
-  "names": {
-    "en": "profit",
-    "ro": "profit",
-    "de": "Gewinn",
-    "ru": "прибыль",
-    "it": "profitto",
-    "es": "beneficio",
-    "fr": "profit",
-    "hu": "nyereség",
-    "pt": "lucro"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/proˈfit/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "c6ade82918e952f46ffe98ac3dab8af98b0c86d9",
-      "key": "dictionary/CH09/CH09T04/W672/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T04:W672",
+  "cefr": "C1",
   "tags": [
     "scaffold#C9T04"
   ],
-  "metadata": {},
-  "entity_id": "CH09T04:W672",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "profit"
+    },
+    "ro": {
+      "name": "profit",
+      "ipa": "/proˈfit/"
+    },
+    "de": {
+      "name": "Gewinn"
+    },
+    "ru": {
+      "name": "прибыль"
+    },
+    "it": {
+      "name": "profitto"
+    },
+    "es": {
+      "name": "beneficio"
+    },
+    "fr": {
+      "name": "profit"
+    },
+    "hu": {
+      "name": "nyereség"
+    },
+    "pt": {
+      "name": "lucro"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "c6ade82918e952f46ffe98ac3dab8af98b0c86d9"
+    }
+  }
 }

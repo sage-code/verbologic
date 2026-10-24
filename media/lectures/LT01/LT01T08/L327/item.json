@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "oy",
-    "ro": "oy in boy (băiat)",
-    "de": "oy in boy (Junge)",
-    "ru": "oy in boy (мальчик)",
-    "it": "oy in boy (ragazzo)",
-    "es": "oy in boy (niño)",
-    "fr": "oy in boy (garçon)",
-    "hu": "oy in boy (fiú)",
-    "pt": "oy in boy (menino)"
-  },
-  "description": {
-    "en": "This is the letter L327.",
-    "ro": "Aceasta este litera L327.",
-    "de": "Dies ist der Buchstabe L327.",
-    "ru": "Это буква L327.",
-    "it": "Questa è la lettera L327.",
-    "es": "Esta es la letra L327.",
-    "fr": "Ceci est la lettre L327.",
-    "hu": "Ez az L327 betű.",
-    "pt": "Esta é a letra L327."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɔɪ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4320,
-      "sha1": "25c730989565c960d7820f0b6cb3d971de820845",
-      "key": "lectures/LT01/LT01T08/L327/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L327",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L327",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "oy",
+      "description": "This is the letter L327.",
+      "ipa": "/ɔɪ/"
+    },
+    "ro": {
+      "name": "oy in boy (băiat)",
+      "description": "Aceasta este litera L327."
+    },
+    "de": {
+      "name": "oy in boy (Junge)",
+      "description": "Dies ist der Buchstabe L327."
+    },
+    "ru": {
+      "name": "oy in boy (мальчик)",
+      "description": "Это буква L327."
+    },
+    "it": {
+      "name": "oy in boy (ragazzo)",
+      "description": "Questa è la lettera L327."
+    },
+    "es": {
+      "name": "oy in boy (niño)",
+      "description": "Esta es la letra L327."
+    },
+    "fr": {
+      "name": "oy in boy (garçon)",
+      "description": "Ceci est la lettre L327."
+    },
+    "hu": {
+      "name": "oy in boy (fiú)",
+      "description": "Ez az L327 betű."
+    },
+    "pt": {
+      "name": "oy in boy (menino)",
+      "description": "Esta é a letra L327."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4320,
+      "sha1": "25c730989565c960d7820f0b6cb3d971de820845"
+    }
+  }
 }

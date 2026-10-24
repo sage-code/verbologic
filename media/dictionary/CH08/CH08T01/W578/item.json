@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T01",
   "kind": "word",
-  "names": {
-    "en": "forest",
-    "ro": "pădure",
-    "de": "Wald",
-    "ru": "лес",
-    "it": "foresta",
-    "es": "bosque",
-    "fr": "forêt",
-    "hu": "erdő",
-    "pt": "floresta"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/pəˈdure/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "c9c65a8337e606a99ed2f1773251fa07aea79f6a",
-      "key": "dictionary/CH08/CH08T01/W578/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T01:W578",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T01"
   ],
-  "metadata": {},
-  "entity_id": "CH08T01:W578",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "forest"
+    },
+    "ro": {
+      "name": "pădure",
+      "ipa": "/pəˈdure/"
+    },
+    "de": {
+      "name": "Wald"
+    },
+    "ru": {
+      "name": "лес"
+    },
+    "it": {
+      "name": "foresta"
+    },
+    "es": {
+      "name": "bosque"
+    },
+    "fr": {
+      "name": "forêt"
+    },
+    "hu": {
+      "name": "erdő"
+    },
+    "pt": {
+      "name": "floresta"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "c9c65a8337e606a99ed2f1773251fa07aea79f6a"
+    }
+  }
 }

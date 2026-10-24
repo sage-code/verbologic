@@ -4,111 +4,45 @@
   "chapter": "CH07",
   "topic": "CH07T03",
   "kind": "word",
-  "names": {
-    "en": "pain",
-    "ro": "durere",
-    "de": "Schmerz",
-    "ru": "боль",
-    "it": "dolore",
-    "es": "dolor",
-    "fr": "douleur",
-    "hu": "fájdalom",
-    "pt": "dor"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/duˈrere/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "07da0aa9842b6437654f7334d6405bdeec559412",
-      "key": "dictionary/CH07/CH07T03/W539/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH07T03:W539",
+  "cefr": "B2",
   "tags": [
     "scaffold#C7T03"
   ],
-  "metadata": {},
-  "entity_id": "CH07T03:W539",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "pain"
+    },
+    "ro": {
+      "name": "durere",
+      "ipa": "/duˈrere/"
+    },
+    "de": {
+      "name": "Schmerz"
+    },
+    "ru": {
+      "name": "боль"
+    },
+    "it": {
+      "name": "dolore"
+    },
+    "es": {
+      "name": "dolor"
+    },
+    "fr": {
+      "name": "douleur"
+    },
+    "hu": {
+      "name": "fájdalom"
+    },
+    "pt": {
+      "name": "dor"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "07da0aa9842b6437654f7334d6405bdeec559412"
+    }
+  }
 }

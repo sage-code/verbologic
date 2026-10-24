@@ -4,111 +4,45 @@
   "chapter": "CH03",
   "topic": "CH03T03",
   "kind": "word",
-  "names": {
-    "en": "winter",
-    "ro": "iarnă",
-    "de": "Winter",
-    "ru": "зима",
-    "it": "inverno",
-    "es": "invierno",
-    "fr": "hiver",
-    "hu": "tél",
-    "pt": "inverno"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈjarnə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "4a5a5299c750918d4440dd8b62ad894e84cffcb2",
-      "key": "dictionary/CH03/CH03T03/W281/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T03:W281",
+  "cefr": "A2",
   "tags": [
     "scaffold#C3T03"
   ],
-  "metadata": {},
-  "entity_id": "CH03T03:W281",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "winter"
+    },
+    "ro": {
+      "name": "iarnă",
+      "ipa": "/ˈjarnə/"
+    },
+    "de": {
+      "name": "Winter"
+    },
+    "ru": {
+      "name": "зима"
+    },
+    "it": {
+      "name": "inverno"
+    },
+    "es": {
+      "name": "invierno"
+    },
+    "fr": {
+      "name": "hiver"
+    },
+    "hu": {
+      "name": "tél"
+    },
+    "pt": {
+      "name": "inverno"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "4a5a5299c750918d4440dd8b62ad894e84cffcb2"
+    }
+  }
 }

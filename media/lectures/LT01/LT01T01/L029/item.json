@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "Y",
-    "ro": "Y",
-    "de": "Y",
-    "ru": "Y",
-    "it": "Y",
-    "es": "Y",
-    "fr": "Y",
-    "hu": "Y",
-    "pt": "Y"
-  },
-  "description": {
-    "en": "The letter Y is the twenty-sixth letter of the Romanian alphabet.",
-    "ro": "Litera Y este a douăzeci și șasea literă a alfabetului român.",
-    "de": "Der Buchstabe Y ist der sechsundzwanzigste Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква Y — двадцать шестая буква румынского алфавита.",
-    "it": "La lettera Y è la ventiseiesima lettera dell'alfabeto rumeno.",
-    "es": "La letra Y es la vigésima sexta letra del alfabeto rumano.",
-    "fr": "La lettre Y est la vingt-sixième lettre de l'alphabet roumain.",
-    "hu": "Az Y betű a román ábécé huszonhatodik betűje.",
-    "pt": "A letra Y é a vigésima sexta letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/j/ or /i/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b7e8e23a350df96b9cb078e7131e3769c22355d3",
-      "key": "lectures/LT01/LT01T01/L029/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L029",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L029",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "Y",
+      "description": "The letter Y is the twenty-sixth letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "Y",
+      "description": "Litera Y este a douăzeci și șasea literă a alfabetului român.",
+      "ipa": "/j/ or /i/"
+    },
+    "de": {
+      "name": "Y",
+      "description": "Der Buchstabe Y ist der sechsundzwanzigste Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "Y",
+      "description": "Буква Y — двадцать шестая буква румынского алфавита."
+    },
+    "it": {
+      "name": "Y",
+      "description": "La lettera Y è la ventiseiesima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "Y",
+      "description": "La letra Y es la vigésima sexta letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "Y",
+      "description": "La lettre Y est la vingt-sixième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "Y",
+      "description": "Az Y betű a román ábécé huszonhatodik betűje."
+    },
+    "pt": {
+      "name": "Y",
+      "description": "A letra Y é a vigésima sexta letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "b7e8e23a350df96b9cb078e7131e3769c22355d3"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T12",
   "kind": "letter",
-  "names": {
-    "en": "J",
-    "ro": "J",
-    "de": "J",
-    "ru": "J",
-    "it": "J",
-    "es": "J",
-    "fr": "J",
-    "hu": "J",
-    "pt": "J"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": "Letter name: jota. Example: jugar.",
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": {
-      "ipa": "/ˈxota/"
-    },
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "6b077bff156f05dd10e3512ae5862ff2d614eee8"
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T12:L440",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "J"
+    },
+    "ro": {
+      "name": "J"
+    },
+    "de": {
+      "name": "J"
+    },
+    "ru": {
+      "name": "J"
+    },
+    "it": {
+      "name": "J"
+    },
     "es": {
-      "context": "jota",
-      "example": "jugar"
+      "name": "J",
+      "description": "Letter name: jota. Example: jugar.",
+      "ipa": "/ˈxota/",
+      "example": "jugar",
+      "context": "jota"
+    },
+    "fr": {
+      "name": "J"
+    },
+    "hu": {
+      "name": "J"
+    },
+    "pt": {
+      "name": "J"
     }
   },
-  "entity_id": "LT01T12:L440",
-  "cefr": "A1"
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "6b077bff156f05dd10e3512ae5862ff2d614eee8"
+    }
+  }
 }

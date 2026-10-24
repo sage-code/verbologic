@@ -4,139 +4,95 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "-eigh",
-    "ro": "opt",
-    "de": "-eigh",
-    "ru": "-eigh",
-    "it": "-eigh",
-    "es": "-eigh",
-    "fr": "-eigh",
-    "hu": "-eigh",
-    "pt": "-eigh"
-  },
-  "description": {
-    "en": "The sequence -eigh is a letter combination used in various English words.",
-    "ro": "Secvența -eigh este o combinație de litere folosită în diverse cuvinte englezești.",
-    "de": "Die Buchstabenfolge -eigh wird in verschiedenen englischen Wörtern verwendet.",
-    "ru": "Последовательность -eigh представляет собой сочетание букв, используемое в различных английских словах.",
-    "it": "La sequenza -eigh è una combinazione di lettere utilizzata in varie parole inglesi.",
-    "es": "La secuencia -eigh es una combinación de letras utilizada en varias palabras en inglés.",
-    "fr": "La séquence -eigh est une combinaison de lettres utilisée dans divers mots anglais.",
-    "hu": "A -eigh betűkapcsolat különféle angol szavakban fordul elő.",
-    "pt": "A sequência -eigh é uma combinação de letras usada em várias palavras em inglês."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/eɪ/"
-    },
-    "ro": {
-      "ipa": "/opt/"
-    },
-    "de": {
-      "ipa": "/eɪ/"
-    },
-    "ru": {
-      "ipa": "/eɪ/"
-    },
-    "it": {
-      "ipa": "/eɪ/"
-    },
-    "es": {
-      "ipa": "/eɪ/"
-    },
-    "fr": {
-      "ipa": "/eɪ/"
-    },
-    "hu": {
-      "ipa": "/eɪ/"
-    },
-    "pt": {
-      "ipa": "/eɪ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "4dd0b699124a3a7a7f45b043fc390edee8d5a962",
-      "key": "dictionary/CH01/CH01T01/W018/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "f8f4f4e3448ec9a59563d0703262d68966f519b4",
-      "key": "dictionary/CH01/CH01T01/W018/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "5b1f28d19b42b7ef0576d5cd764f6e19f4b0aca1",
-      "key": "dictionary/CH01/CH01T01/W018/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "57c9651d82b38135e4063e033e57447b72e617cc",
-      "key": "dictionary/CH01/CH01T01/W018/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4896,
-      "sha1": "35b9b606bd7be6dafb3d7bdbcd1edaf3938de803",
-      "key": "dictionary/CH01/CH01T01/W018/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "294409317b12c9db2b853189b567bfd604a18cac",
-      "key": "dictionary/CH01/CH01T01/W018/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c61de86f15c440b7777234802ad513e52ff53ef1",
-      "key": "dictionary/CH01/CH01T01/W018/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "eeaf2d5b9355dbb11358c2f648bed05b2e5a9115",
-      "key": "dictionary/CH01/CH01T01/W018/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "bcd88bdc135c720ea2c26615d302429f384f888d",
-      "key": "dictionary/CH01/CH01T01/W018/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W018",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "-eigh",
+      "description": "The sequence -eigh is a letter combination used in various English words.",
+      "ipa": "/eɪ/",
       "example": "eight"
+    },
+    "ro": {
+      "name": "opt",
+      "description": "Secvența -eigh este o combinație de litere folosită în diverse cuvinte englezești.",
+      "ipa": "/opt/"
+    },
+    "de": {
+      "name": "-eigh",
+      "description": "Die Buchstabenfolge -eigh wird in verschiedenen englischen Wörtern verwendet.",
+      "ipa": "/eɪ/"
+    },
+    "ru": {
+      "name": "-eigh",
+      "description": "Последовательность -eigh представляет собой сочетание букв, используемое в различных английских словах.",
+      "ipa": "/eɪ/"
+    },
+    "it": {
+      "name": "-eigh",
+      "description": "La sequenza -eigh è una combinazione di lettere utilizzata in varie parole inglesi.",
+      "ipa": "/eɪ/"
+    },
+    "es": {
+      "name": "-eigh",
+      "description": "La secuencia -eigh es una combinación de letras utilizada en varias palabras en inglés.",
+      "ipa": "/eɪ/"
+    },
+    "fr": {
+      "name": "-eigh",
+      "description": "La séquence -eigh est une combinaison de lettres utilisée dans divers mots anglais.",
+      "ipa": "/eɪ/"
+    },
+    "hu": {
+      "name": "-eigh",
+      "description": "A -eigh betűkapcsolat különféle angol szavakban fordul elő.",
+      "ipa": "/eɪ/"
+    },
+    "pt": {
+      "name": "-eigh",
+      "description": "A sequência -eigh é uma combinação de letras usada em várias palavras em inglês.",
+      "ipa": "/eɪ/"
     }
   },
-  "entity_id": "CH01T01:W018",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "4dd0b699124a3a7a7f45b043fc390edee8d5a962"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "f8f4f4e3448ec9a59563d0703262d68966f519b4"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "5b1f28d19b42b7ef0576d5cd764f6e19f4b0aca1"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "57c9651d82b38135e4063e033e57447b72e617cc"
+    },
+    "sound/it.mp3": {
+      "bytes": 4896,
+      "sha1": "35b9b606bd7be6dafb3d7bdbcd1edaf3938de803"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "294409317b12c9db2b853189b567bfd604a18cac"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "c61de86f15c440b7777234802ad513e52ff53ef1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "eeaf2d5b9355dbb11358c2f648bed05b2e5a9115"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "bcd88bdc135c720ea2c26615d302429f384f888d"
+    }
+  }
 }

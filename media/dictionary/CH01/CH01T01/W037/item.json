@@ -4,139 +4,95 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "ch",
-    "ro": "mașină",
-    "de": "ch",
-    "ru": "ch",
-    "it": "ch",
-    "es": "ch",
-    "fr": "ch",
-    "hu": "ch",
-    "pt": "ch"
-  },
-  "description": {
-    "en": "The digraph ch represents a specific sound in the English alphabet.",
-    "ro": "Digraful ch reprezintă un sunet specific în alfabetul englez.",
-    "de": "Das Digraph ch steht für einen bestimmten Laut im englischen Alphabet.",
-    "ru": "Диграф ch представляет собой определенный звук в английском алфавите.",
-    "it": "Il digramma ch rappresenta un suono specifico nell'alfabeto inglese.",
-    "es": "El dígrafo ch representa un sonido específico en el alfabeto inglés.",
-    "fr": "Le digraphe ch représente un son spécifique dans l'alphabet anglais.",
-    "hu": "A ch digráf egy meghatározott hangot jelöl az angol ábécében.",
-    "pt": "O dígrafo ch representa um som específico no alfabeto inglês."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ʃ/"
-    },
-    "ro": {
-      "ipa": "/maˈʃi.nə/"
-    },
-    "de": {
-      "ipa": "/ç/"
-    },
-    "ru": {
-      "ipa": "/t͡ɕ/"
-    },
-    "it": {
-      "ipa": "/k/"
-    },
-    "es": {
-      "ipa": "/t͡ʃ/"
-    },
-    "fr": {
-      "ipa": "/ʃ/"
-    },
-    "hu": {
-      "ipa": "/x/"
-    },
-    "pt": {
-      "ipa": "/ʃ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "4d209b41fb13cb837e86681110c6e230cb2e108b",
-      "key": "dictionary/CH01/CH01T01/W037/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b3eb3f88688cd2e8e7f1d02b107c5365db4cdc71",
-      "key": "dictionary/CH01/CH01T01/W037/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "00389d63a36a1813d2f659ad4e10bfe24e4e5aad",
-      "key": "dictionary/CH01/CH01T01/W037/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11520,
-      "sha1": "2fcd3008965437d18f563a9a9bc92d669195224a",
-      "key": "dictionary/CH01/CH01T01/W037/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d859b413c8eb74f8e2388d351e79f0b3ba1274d5",
-      "key": "dictionary/CH01/CH01T01/W037/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "dc42c5eff0d06d444a49b31a9c090d24dd6f129c",
-      "key": "dictionary/CH01/CH01T01/W037/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e81011dc68824390e7728173d9ce17935686b448",
-      "key": "dictionary/CH01/CH01T01/W037/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "356922c44c74fa0483f64936097ae7492adb2e12",
-      "key": "dictionary/CH01/CH01T01/W037/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1859ca6eeafe43c7ba0e13cea4da2be1597e6be3",
-      "key": "dictionary/CH01/CH01T01/W037/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W037",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "ch",
+      "description": "The digraph ch represents a specific sound in the English alphabet.",
+      "ipa": "/ʃ/",
       "example": "machine"
+    },
+    "ro": {
+      "name": "mașină",
+      "description": "Digraful ch reprezintă un sunet specific în alfabetul englez.",
+      "ipa": "/maˈʃi.nə/"
+    },
+    "de": {
+      "name": "ch",
+      "description": "Das Digraph ch steht für einen bestimmten Laut im englischen Alphabet.",
+      "ipa": "/ç/"
+    },
+    "ru": {
+      "name": "ch",
+      "description": "Диграф ch представляет собой определенный звук в английском алфавите.",
+      "ipa": "/t͡ɕ/"
+    },
+    "it": {
+      "name": "ch",
+      "description": "Il digramma ch rappresenta un suono specifico nell'alfabeto inglese.",
+      "ipa": "/k/"
+    },
+    "es": {
+      "name": "ch",
+      "description": "El dígrafo ch representa un sonido específico en el alfabeto inglés.",
+      "ipa": "/t͡ʃ/"
+    },
+    "fr": {
+      "name": "ch",
+      "description": "Le digraphe ch représente un son spécifique dans l'alphabet anglais.",
+      "ipa": "/ʃ/"
+    },
+    "hu": {
+      "name": "ch",
+      "description": "A ch digráf egy meghatározott hangot jelöl az angol ábécében.",
+      "ipa": "/x/"
+    },
+    "pt": {
+      "name": "ch",
+      "description": "O dígrafo ch representa um som específico no alfabeto inglês.",
+      "ipa": "/ʃ/"
     }
   },
-  "entity_id": "CH01T01:W037",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "4d209b41fb13cb837e86681110c6e230cb2e108b"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "b3eb3f88688cd2e8e7f1d02b107c5365db4cdc71"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "00389d63a36a1813d2f659ad4e10bfe24e4e5aad"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11520,
+      "sha1": "2fcd3008965437d18f563a9a9bc92d669195224a"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "d859b413c8eb74f8e2388d351e79f0b3ba1274d5"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "dc42c5eff0d06d444a49b31a9c090d24dd6f129c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "e81011dc68824390e7728173d9ce17935686b448"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "356922c44c74fa0483f64936097ae7492adb2e12"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "1859ca6eeafe43c7ba0e13cea4da2be1597e6be3"
+    }
+  }
 }

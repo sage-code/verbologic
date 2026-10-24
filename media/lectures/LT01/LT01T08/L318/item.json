@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "ee",
-    "ro": "ee in tree (copac)",
-    "de": "ee in tree (Baum)",
-    "ru": "ee in tree (дерево)",
-    "it": "ee in tree (albero)",
-    "es": "ee in tree (árbol)",
-    "fr": "ee in tree (arbre)",
-    "hu": "ee in tree (fa)",
-    "pt": "ee in tree (árvore)"
-  },
-  "description": {
-    "en": "This is the letter L318 from the vowel-consonant groups.",
-    "ro": "Aceasta este litera L318 din grupurile vocală-consoană.",
-    "de": "Dies ist der Buchstabe L318 aus den Vokal-Konsonant-Gruppen.",
-    "ru": "Это буква L318 из групп гласных и согласных.",
-    "it": "Questa è la lettera L318 dei gruppi vocale-consonante.",
-    "es": "Esta es la letra L318 de los grupos vocal-consonante.",
-    "fr": "Ceci est la lettre L318 des groupes voyelle-consonne.",
-    "hu": "Ez az L318 betű a magánhangzó-mássalhangzó csoportokból.",
-    "pt": "Esta é a letra L318 dos grupos vogal-consoante."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/iː/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4896,
-      "sha1": "916c8ec5939eba76de86f7eabcb0c7f4b4dea6cd",
-      "key": "lectures/LT01/LT01T08/L318/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L318",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L318",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ee",
+      "description": "This is the letter L318 from the vowel-consonant groups.",
+      "ipa": "/iː/"
+    },
+    "ro": {
+      "name": "ee in tree (copac)",
+      "description": "Aceasta este litera L318 din grupurile vocală-consoană."
+    },
+    "de": {
+      "name": "ee in tree (Baum)",
+      "description": "Dies ist der Buchstabe L318 aus den Vokal-Konsonant-Gruppen."
+    },
+    "ru": {
+      "name": "ee in tree (дерево)",
+      "description": "Это буква L318 из групп гласных и согласных."
+    },
+    "it": {
+      "name": "ee in tree (albero)",
+      "description": "Questa è la lettera L318 dei gruppi vocale-consonante."
+    },
+    "es": {
+      "name": "ee in tree (árbol)",
+      "description": "Esta es la letra L318 de los grupos vocal-consonante."
+    },
+    "fr": {
+      "name": "ee in tree (arbre)",
+      "description": "Ceci est la lettre L318 des groupes voyelle-consonne."
+    },
+    "hu": {
+      "name": "ee in tree (fa)",
+      "description": "Ez az L318 betű a magánhangzó-mássalhangzó csoportokból."
+    },
+    "pt": {
+      "name": "ee in tree (árvore)",
+      "description": "Esta é a letra L318 dos grupos vogal-consoante."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "916c8ec5939eba76de86f7eabcb0c7f4b4dea6cd"
+    }
+  }
 }

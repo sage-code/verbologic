@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "S",
-    "ro": "S",
-    "de": "S",
-    "ru": "S",
-    "it": "S",
-    "es": "S",
-    "fr": "S",
-    "hu": "S",
-    "pt": "S"
-  },
-  "description": {
-    "en": "Letter name: S. Example: vision.",
-    "ro": "Numele literei: S. Exemplu: vision.",
-    "de": "Buchstabenname: S. Beispiel: vision.",
-    "ru": "Название буквы: S. Пример: vision.",
-    "it": "Nome della lettera: S. Esempio: vision.",
-    "es": "Nombre de la letra: S. Ejemplo: vision.",
-    "fr": "Nom de la lettre : S. Exemple : vision.",
-    "hu": "Betű neve: S. Példa: vision.",
-    "pt": "Nome da letra: S. Exemplo: vision."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ʒ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d118d92d8681dfb1050b7c9b49b3fe977df3de1c"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L592",
+  "legacy_entity_id": "letter_vision",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "S",
-      "example": "vision"
+      "name": "S",
+      "description": "Letter name: S. Example: vision.",
+      "ipa": "/ʒ/",
+      "example": "vision",
+      "context": "S"
+    },
+    "ro": {
+      "name": "S",
+      "description": "Numele literei: S. Exemplu: vision."
+    },
+    "de": {
+      "name": "S",
+      "description": "Buchstabenname: S. Beispiel: vision."
+    },
+    "ru": {
+      "name": "S",
+      "description": "Название буквы: S. Пример: vision."
+    },
+    "it": {
+      "name": "S",
+      "description": "Nome della lettera: S. Esempio: vision."
+    },
+    "es": {
+      "name": "S",
+      "description": "Nombre de la letra: S. Ejemplo: vision."
+    },
+    "fr": {
+      "name": "S",
+      "description": "Nom de la lettre : S. Exemple : vision."
+    },
+    "hu": {
+      "name": "S",
+      "description": "Betű neve: S. Példa: vision."
+    },
+    "pt": {
+      "name": "S",
+      "description": "Nome da letra: S. Exemplo: vision."
     }
   },
-  "entity_id": "LT01T07:L592",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_vision"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d118d92d8681dfb1050b7c9b49b3fe977df3de1c"
+    }
+  }
 }

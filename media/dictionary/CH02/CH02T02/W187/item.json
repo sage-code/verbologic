@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T02",
   "kind": "word",
-  "names": {
-    "en": "socks",
-    "ro": "ciorapi",
-    "de": "Socken",
-    "ru": "Носки",
-    "it": "calzini",
-    "es": "calcetines",
-    "fr": "chaussettes",
-    "hu": "Zokni",
-    "pt": "Meias"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/tʃoˈrapi/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "63623a1b6bdb84f1ea7e93cf4e39a2dc0cd2907e",
-      "key": "dictionary/CH02/CH02T02/W187/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T02:W187",
+  "cefr": "A1",
   "tags": [
     "scaffold#C2T02"
   ],
-  "metadata": {},
-  "entity_id": "CH02T02:W187",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "socks"
+    },
+    "ro": {
+      "name": "ciorapi",
+      "ipa": "/tʃoˈrapi/"
+    },
+    "de": {
+      "name": "Socken"
+    },
+    "ru": {
+      "name": "Носки"
+    },
+    "it": {
+      "name": "calzini"
+    },
+    "es": {
+      "name": "calcetines"
+    },
+    "fr": {
+      "name": "chaussettes"
+    },
+    "hu": {
+      "name": "Zokni"
+    },
+    "pt": {
+      "name": "Meias"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "63623a1b6bdb84f1ea7e93cf4e39a2dc0cd2907e"
+    }
+  }
 }

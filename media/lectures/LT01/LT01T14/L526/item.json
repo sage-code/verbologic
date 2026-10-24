@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T14",
   "kind": "letter",
-  "names": {
-    "en": "Z",
-    "ro": "Z",
-    "de": "Z",
-    "ru": "Z",
-    "it": "Z",
-    "es": "Z",
-    "fr": "Z",
-    "hu": "Z",
-    "pt": "Z"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": "Letter name: zé. Example: zöld.",
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": {
-      "ipa": "/zsɛ/"
-    },
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "391ddf2b466a6a9a60e2644adde9260deb92ed07"
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T14:L526",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Z"
+    },
+    "ro": {
+      "name": "Z"
+    },
+    "de": {
+      "name": "Z"
+    },
+    "ru": {
+      "name": "Z"
+    },
+    "it": {
+      "name": "Z"
+    },
+    "es": {
+      "name": "Z"
+    },
+    "fr": {
+      "name": "Z"
+    },
     "hu": {
-      "context": "zé",
-      "example": "zöld"
+      "name": "Z",
+      "description": "Letter name: zé. Example: zöld.",
+      "ipa": "/zsɛ/",
+      "example": "zöld",
+      "context": "zé"
+    },
+    "pt": {
+      "name": "Z"
     }
   },
-  "entity_id": "LT01T14:L526",
-  "cefr": "A1"
+  "files": {
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "391ddf2b466a6a9a60e2644adde9260deb92ed07"
+    }
+  }
 }

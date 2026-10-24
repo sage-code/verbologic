@@ -4,97 +4,80 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "topic-title",
-  "names": {
-    "en": "Vowel & consonant groups",
-    "ro": "Grupuri de vocale și consoane",
-    "de": "Vokal- & Konsonantengruppen",
-    "ru": "Группы гласных и согласных",
-    "it": "Gruppi di vocali e consonanti",
-    "es": "Grupos de vocales y consonantes",
-    "fr": "Groupes de voyelles et consonnes",
-    "hu": "Magánhangzó- és mássalhangzó-csoportok",
-    "pt": "Grupos de vogais e consoantes"
-  },
-  "description": {
-    "en": "This topic covers the diphthongs used in the Romanian language.",
-    "ro": "Acest subiect acoperă diftongii utilizați în limba română.",
-    "de": "Dieses Thema behandelt die im Rumänischen verwendeten Diphthonge.",
-    "ru": "Эта тема охватывает дифтонги, используемые в румынском языке.",
-    "it": "Questo argomento copre i dittonghi utilizzati nella lingua rumena.",
-    "es": "Este tema cubre los diptongos utilizados en el idioma rumano.",
-    "fr": "Ce sujet couvre les diphtongues utilisés dans la langue roumaine.",
-    "hu": "Ez a téma a román nyelvben használt diftongusokat ismerteti.",
-    "pt": "Este tópico aborda os ditongos usados na língua romena."
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12096,
-      "sha1": "10fbf93dd176fd59f629584c4de48ee6d1e4002a"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 16704,
-      "sha1": "1c4cf170bc732eeead296ef9b8adff1311691381",
-      "key": "lectures/LT01/LT01T02/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 17568,
-      "sha1": "86641e73303b619b376fea01f7de3f2dfa3caeb4"
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 18144,
-      "sha1": "3bc9fc187a11c43ee519a34225eb13830f8a94bd"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 17856,
-      "sha1": "4c0e5b0b310a59d6c3e2269323ec537a2fe5fc01"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 14400,
-      "sha1": "850cfb42b488a90ee65ea6581b9490ebf00ba23f"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 19872,
-      "sha1": "b8352681463435f2e7f3026a78b23e2c277c111f"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 16416,
-      "sha1": "2d6ef28d1a506811aeaca37d31ccf739d7ac3299"
-    }
-  },
+  "entity_id": "LT01T02",
   "tags": [
     "title#topic"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02"
+  "locales": {
+    "en": {
+      "name": "Vowel & consonant groups",
+      "description": "This topic covers the diphthongs used in the Romanian language."
+    },
+    "ro": {
+      "name": "Grupuri de vocale și consoane",
+      "description": "Acest subiect acoperă diftongii utilizați în limba română."
+    },
+    "de": {
+      "name": "Vokal- & Konsonantengruppen",
+      "description": "Dieses Thema behandelt die im Rumänischen verwendeten Diphthonge."
+    },
+    "ru": {
+      "name": "Группы гласных и согласных",
+      "description": "Эта тема охватывает дифтонги, используемые в румынском языке."
+    },
+    "it": {
+      "name": "Gruppi di vocali e consonanti",
+      "description": "Questo argomento copre i dittonghi utilizzati nella lingua rumena."
+    },
+    "es": {
+      "name": "Grupos de vocales y consonantes",
+      "description": "Este tema cubre los diptongos utilizados en el idioma rumano."
+    },
+    "fr": {
+      "name": "Groupes de voyelles et consonnes",
+      "description": "Ce sujet couvre les diphtongues utilisés dans la langue roumaine."
+    },
+    "hu": {
+      "name": "Magánhangzó- és mássalhangzó-csoportok",
+      "description": "Ez a téma a román nyelvben használt diftongusokat ismerteti."
+    },
+    "pt": {
+      "name": "Grupos de vogais e consoantes",
+      "description": "Este tópico aborda os ditongos usados na língua romena."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 12096,
+      "sha1": "10fbf93dd176fd59f629584c4de48ee6d1e4002a"
+    },
+    "sound/ro.mp3": {
+      "bytes": 16704,
+      "sha1": "1c4cf170bc732eeead296ef9b8adff1311691381"
+    },
+    "sound/de.mp3": {
+      "bytes": 17568,
+      "sha1": "86641e73303b619b376fea01f7de3f2dfa3caeb4"
+    },
+    "sound/it.mp3": {
+      "bytes": 18144,
+      "sha1": "3bc9fc187a11c43ee519a34225eb13830f8a94bd"
+    },
+    "sound/es.mp3": {
+      "bytes": 17856,
+      "sha1": "4c0e5b0b310a59d6c3e2269323ec537a2fe5fc01"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14400,
+      "sha1": "850cfb42b488a90ee65ea6581b9490ebf00ba23f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 19872,
+      "sha1": "b8352681463435f2e7f3026a78b23e2c277c111f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16416,
+      "sha1": "2d6ef28d1a506811aeaca37d31ccf739d7ac3299"
+    }
+  }
 }

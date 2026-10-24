@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T07",
   "kind": "word",
-  "names": {
-    "en": "game",
-    "ro": "joc",
-    "de": "Spiel",
-    "ru": "Игра",
-    "it": "gioco",
-    "es": "juego",
-    "fr": "jeu",
-    "hu": "Játék",
-    "pt": "Jogo"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ʒok/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "755f16f7d35c64db8ba174a06ecd7e2a0d90a1e0",
-      "key": "dictionary/CH02/CH02T07/W232/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T07:W232",
+  "cefr": "A1",
   "tags": [
     "scaffold#C2T07"
   ],
-  "metadata": {},
-  "entity_id": "CH02T07:W232",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "game"
+    },
+    "ro": {
+      "name": "joc",
+      "ipa": "/ʒok/"
+    },
+    "de": {
+      "name": "Spiel"
+    },
+    "ru": {
+      "name": "Игра"
+    },
+    "it": {
+      "name": "gioco"
+    },
+    "es": {
+      "name": "juego"
+    },
+    "fr": {
+      "name": "jeu"
+    },
+    "hu": {
+      "name": "Játék"
+    },
+    "pt": {
+      "name": "Jogo"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "755f16f7d35c64db8ba174a06ecd7e2a0d90a1e0"
+    }
+  }
 }

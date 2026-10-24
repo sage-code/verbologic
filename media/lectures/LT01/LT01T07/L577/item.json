@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "Y",
-    "ro": "Y",
-    "de": "Y",
-    "ru": "Y",
-    "it": "Y",
-    "es": "Y",
-    "fr": "Y",
-    "hu": "Y",
-    "pt": "Y"
-  },
-  "description": {
-    "en": "Letter name: Y. Example: yellow.",
-    "ro": "Numele literei: Y. Exemplu: yellow.",
-    "de": "Buchstabenname: Y. Beispiel: yellow.",
-    "ru": "Название буквы: Y. Пример: yellow.",
-    "it": "Nome della lettera: Y. Esempio: yellow.",
-    "es": "Nombre de la letra: Y. Ejemplo: yellow.",
-    "fr": "Nom de la lettre : Y. Exemple : yellow.",
-    "hu": "Betű neve: Y. Példa: yellow.",
-    "pt": "Nome da letra: Y. Exemplo: yellow."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/waɪ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a30873723a54bed7859829e9b25cacd38e9fe577"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L577",
+  "legacy_entity_id": "letter_y-2",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "Y",
-      "example": "yellow"
+      "name": "Y",
+      "description": "Letter name: Y. Example: yellow.",
+      "ipa": "/waɪ/",
+      "example": "yellow",
+      "context": "Y"
+    },
+    "ro": {
+      "name": "Y",
+      "description": "Numele literei: Y. Exemplu: yellow."
+    },
+    "de": {
+      "name": "Y",
+      "description": "Buchstabenname: Y. Beispiel: yellow."
+    },
+    "ru": {
+      "name": "Y",
+      "description": "Название буквы: Y. Пример: yellow."
+    },
+    "it": {
+      "name": "Y",
+      "description": "Nome della lettera: Y. Esempio: yellow."
+    },
+    "es": {
+      "name": "Y",
+      "description": "Nombre de la letra: Y. Ejemplo: yellow."
+    },
+    "fr": {
+      "name": "Y",
+      "description": "Nom de la lettre : Y. Exemple : yellow."
+    },
+    "hu": {
+      "name": "Y",
+      "description": "Betű neve: Y. Példa: yellow."
+    },
+    "pt": {
+      "name": "Y",
+      "description": "Nome da letra: Y. Exemplo: yellow."
     }
   },
-  "entity_id": "LT01T07:L577",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_y-2"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "a30873723a54bed7859829e9b25cacd38e9fe577"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T07",
   "kind": "word",
-  "names": {
-    "en": "clause",
-    "ro": "clauză",
-    "de": "Klausel",
-    "ru": "пункт договора",
-    "it": "clausola",
-    "es": "cláusula",
-    "fr": "clause",
-    "hu": "záradék",
-    "pt": "cláusula"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈklauzə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "89f6525036267c41a443af73b518c76ae66f673a",
-      "key": "dictionary/CH09/CH09T07/W695/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T07:W695",
+  "cefr": "C1",
   "tags": [
     "scaffold#C9T07"
   ],
-  "metadata": {},
-  "entity_id": "CH09T07:W695",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "clause"
+    },
+    "ro": {
+      "name": "clauză",
+      "ipa": "/ˈklauzə/"
+    },
+    "de": {
+      "name": "Klausel"
+    },
+    "ru": {
+      "name": "пункт договора"
+    },
+    "it": {
+      "name": "clausola"
+    },
+    "es": {
+      "name": "cláusula"
+    },
+    "fr": {
+      "name": "clause"
+    },
+    "hu": {
+      "name": "záradék"
+    },
+    "pt": {
+      "name": "cláusula"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "89f6525036267c41a443af73b518c76ae66f673a"
+    }
+  }
 }

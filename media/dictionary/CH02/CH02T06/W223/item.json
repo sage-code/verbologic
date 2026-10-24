@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T06",
   "kind": "word",
-  "names": {
-    "en": "rabbit",
-    "ro": "iepure",
-    "de": "Hase",
-    "ru": "Кролик",
-    "it": "coniglio",
-    "es": "conejo",
-    "fr": "lapin",
-    "hu": "Nyúl",
-    "pt": "Coelho"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈjepure/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "b61693d51f79c9766eed56a73e5861f5bbdcc523",
-      "key": "dictionary/CH02/CH02T06/W223/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T06:W223",
+  "cefr": "A1",
   "tags": [
     "scaffold#C2T06"
   ],
-  "metadata": {},
-  "entity_id": "CH02T06:W223",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "rabbit"
+    },
+    "ro": {
+      "name": "iepure",
+      "ipa": "/ˈjepure/"
+    },
+    "de": {
+      "name": "Hase"
+    },
+    "ru": {
+      "name": "Кролик"
+    },
+    "it": {
+      "name": "coniglio"
+    },
+    "es": {
+      "name": "conejo"
+    },
+    "fr": {
+      "name": "lapin"
+    },
+    "hu": {
+      "name": "Nyúl"
+    },
+    "pt": {
+      "name": "Coelho"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "b61693d51f79c9766eed56a73e5861f5bbdcc523"
+    }
+  }
 }

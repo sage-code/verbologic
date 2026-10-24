@@ -4,111 +4,45 @@
   "chapter": "CH10",
   "topic": "CH10T05",
   "kind": "word",
-  "names": {
-    "en": "vaccine",
-    "ro": "vaccin",
-    "de": "Impfstoff",
-    "ru": "вакцина",
-    "it": "vaccino",
-    "es": "vacuna",
-    "fr": "vaccin",
-    "hu": "vakcina",
-    "pt": "vacina"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/vakˈtʃin/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "d6b93129aa8f64f99bb996e8afd6b357468fb191",
-      "key": "dictionary/CH10/CH10T05/W749/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH10T05:W749",
+  "cefr": "C1",
   "tags": [
     "scaffold#C10T05"
   ],
-  "metadata": {},
-  "entity_id": "CH10T05:W749",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "vaccine"
+    },
+    "ro": {
+      "name": "vaccin",
+      "ipa": "/vakˈtʃin/"
+    },
+    "de": {
+      "name": "Impfstoff"
+    },
+    "ru": {
+      "name": "вакцина"
+    },
+    "it": {
+      "name": "vaccino"
+    },
+    "es": {
+      "name": "vacuna"
+    },
+    "fr": {
+      "name": "vaccin"
+    },
+    "hu": {
+      "name": "vakcina"
+    },
+    "pt": {
+      "name": "vacina"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "d6b93129aa8f64f99bb996e8afd6b357468fb191"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH03",
   "topic": "CH03T03",
   "kind": "word",
-  "names": {
-    "en": "January",
-    "ro": "ianuarie",
-    "de": "Januar",
-    "ru": "январь",
-    "it": "gennaio",
-    "es": "enero",
-    "fr": "janvier",
-    "hu": "január",
-    "pt": "janeiro"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/jaˈnuarie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "a5ac2aeb8cfe8531e5d507ae20a8b816f96c734b",
-      "key": "dictionary/CH03/CH03T03/W266/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T03:W266",
+  "cefr": "A2",
   "tags": [
     "scaffold#C3T03"
   ],
-  "metadata": {},
-  "entity_id": "CH03T03:W266",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "January"
+    },
+    "ro": {
+      "name": "ianuarie",
+      "ipa": "/jaˈnuarie/"
+    },
+    "de": {
+      "name": "Januar"
+    },
+    "ru": {
+      "name": "январь"
+    },
+    "it": {
+      "name": "gennaio"
+    },
+    "es": {
+      "name": "enero"
+    },
+    "fr": {
+      "name": "janvier"
+    },
+    "hu": {
+      "name": "január"
+    },
+    "pt": {
+      "name": "janeiro"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "a5ac2aeb8cfe8531e5d507ae20a8b816f96c734b"
+    }
+  }
 }

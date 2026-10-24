@@ -44,6 +44,7 @@ import {
 import { basename, isAbsolute, join, relative, sep } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { LOCALES } from './lib/locales.mjs'
+import { FOLDER, descriptor, filePath, setFileFacts } from './lib/manifest.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 if (existsSync(join(ROOT, '.env'))) process.loadEnvFile(join(ROOT, '.env'))
@@ -56,7 +57,7 @@ const SHARED_TRACKS = ['dictionary', 'lectures']
  *   read  → read/<locale>.mp3   the full article read
  */
 const DESCRIPTOR_FIELDS = ['audio', 'read']
-const DEFAULT_FOLDER = { audio: 'sound', read: 'read' }
+const DEFAULT_FOLDER = FOLDER
 // The legacy flat staging (media/audio/<lang>/<ID>.mp3) — retired; `stage`
 // reads from it while it still exists, otherwise straight from the archive.
 const LEGACY_MEDIA = join(ROOT, 'media', 'audio')
@@ -126,15 +127,21 @@ function* legacyManifests() {
 /**
  * One media file to sync: a shared manifest's `audio`/`read` descriptor for
  * one locale, or a retired legacy manifest (which is its own descriptor).
+ *
+ * The shared manifest stores only published files (`files`, keyed by path), so
+ * the entry set is the published set plus the pending locales the caller asks
+ * for. `descriptor()` synthesizes the old file/key/mime/bytes/sha1/status
+ * shape from `files` so the rest of this script is unchanged.
  */
 function* mediaEntries() {
   for (const item of itemManifests()) {
     for (const field of DESCRIPTOR_FIELDS) {
-      const map = item.manifest[field]
-      if (!map || typeof map !== 'object') continue
-      for (const [locale, descriptor] of Object.entries(map)) {
-        if (!descriptor || typeof descriptor !== 'object') continue
-        yield { ...item, field, locale, descriptor, legacy: false }
+      for (const locale of LOCALES) {
+        const facts = item.manifest.files?.[filePath(field, locale)]
+        // Pending locales are only interesting when a file has landed on disk
+        // (that is what `manifest` promotes); skip them otherwise.
+        if (!facts && !existsSync(join(item.dir, filePath(field, locale)))) continue
+        yield { ...item, field, locale, descriptor: descriptor(item.manifest, field, locale), legacy: false }
       }
     }
   }
@@ -147,15 +154,21 @@ function* mediaEntries() {
 function diskPath(entry) {
   const base = entry.legacy
     ? entry.manifest.file ?? `${basename(entry.path, '.json')}.mp3`
-    : entry.descriptor.file ?? `${DEFAULT_FOLDER[entry.field]}/${entry.locale}.mp3`
+    : filePath(entry.field, entry.locale)
   const p = join(entry.dir, base)
   return existsSync(p) ? p : null
 }
 
 /** Write the file facts back into the manifest that owns this entry. */
 function writeFacts(entry, facts) {
-  if (entry.legacy) Object.assign(entry.manifest, facts)
-  else Object.assign(entry.manifest[entry.field][entry.locale], facts)
+  if (entry.legacy) {
+    Object.assign(entry.manifest, facts)
+  } else if (facts.status === 'published') {
+    setFileFacts(entry.manifest, entry.field, entry.locale, facts)
+  } else {
+    // Back to pending — the file is gone, so it leaves `files` entirely.
+    if (entry.manifest.files) delete entry.manifest.files[filePath(entry.field, entry.locale)]
+  }
   writeFileSync(entry.path, JSON.stringify(entry.manifest, null, 2) + '\n')
 }
 
@@ -163,7 +176,11 @@ function writeFacts(entry, facts) {
 function expectedKeys() {
   const out = new Set()
   for (const entry of mediaEntries()) {
-    if (entry.descriptor.status === 'published' && entry.descriptor.key) out.add(entry.descriptor.key)
+    if (entry.descriptor.status !== 'published') continue
+    // `key` is derived from the item directory now, not stored.
+    const disk = diskPath(entry)
+    const key = disk ? toKey(disk) : entry.legacy ? entry.descriptor.key : null
+    if (key) out.add(key)
   }
   return out
 }
@@ -372,16 +389,15 @@ function cmdManifest() {
     const key = toKey(disk)
     const bytes = statSync(disk).size
     const hash = sha1(disk)
-    const mime = MIME_BY_EXT[disk.split('.').pop()] ?? 'application/octet-stream'
-    const changed =
-      wasPending || descriptor.key !== key || descriptor.bytes !== bytes ||
-      descriptor.sha1 !== hash || descriptor.mime !== mime
+    // `key` and `mime` are derived from the path now, so only the two stored
+    // facts can differ — comparing them is the whole check.
+    const changed = wasPending || descriptor.bytes !== bytes || descriptor.sha1 !== hash
     if (!changed) continue
     if (!dry) {
       writeFacts(entry, {
         file: entry.legacy ? basename(disk) : relative(entry.dir, disk).replaceAll('\\', '/'),
         key,
-        mime,
+        mime: MIME_BY_EXT[disk.split('.').pop()] ?? 'application/octet-stream',
         bytes,
         sha1: hash,
         status: 'published'
@@ -414,15 +430,18 @@ async function cmdVerify() {
     const { descriptor } = entry
     const label = entry.manifest.code ?? entry.manifest.id
     const disk = diskPath(entry)
+    // `key` is derived from the item directory now, not stored — compute it
+    // from the disk path so the report names the real R2 object.
+    const key = disk ? toKey(disk) : entry.legacy ? descriptor.key : null
     if (descriptor.status !== 'published') {
       pending++
       if (disk) console.log(`ready: ${label} ${entry.field}.${entry.locale} — file on disk, 'media manifest' will promote it`)
       continue
     }
     published++
-    referenced.add(descriptor.key)
-    if (!disk) { missing.push(`${descriptor.key} (${label})`); continue }
-    if (descriptor.sha1 !== sha1(disk)) { dirty++; dirtyList.push(`${descriptor.key} (${label})`) }
+    if (key) referenced.add(key)
+    if (!disk) { missing.push(`${key ?? `${label} ${entry.field}.${entry.locale}`} (${label})`); continue }
+    if (descriptor.sha1 !== sha1(disk)) { dirty++; dirtyList.push(`${key} (${label})`) }
   }
   const staged = stagedIndex()
   const orphans = [...staged.values()].map((v) => v.key).filter((k) => !referenced.has(k))
@@ -466,11 +485,12 @@ async function cmdUpload() {
     const disk = diskPath(entry)
     if (!disk) {
       if (descriptor.status === 'published') {
-        if (remote && !remote.has(descriptor.key)) {
-          console.error(`broken (published, but no file locally and not on R2): ${descriptor.key} (${label})`)
+        const key = entry.legacy ? descriptor.key : null
+        if (remote && key && !remote.has(key)) {
+          console.error(`broken (published, but no file locally and not on R2): ${key} (${label})`)
           process.exitCode = 1
         } else {
-          console.warn(`skip (file missing on disk): ${descriptor.key}`)
+          console.warn(`skip (file missing on disk): ${key ?? `${label} ${entry.field}.${entry.locale}`}`)
         }
       }
       continue
@@ -549,11 +569,11 @@ async function cmdReorganize() {
       }
       const itemDir = join(manifestPath, '..')
       for (const locale of LOCALES) {
-        const descriptor = item.audio?.[locale]
+        const descriptor = item.files?.[filePath('audio', locale)]
         if (!descriptor || typeof descriptor !== 'object') {
-          throw new Error(`Missing audio.${locale} descriptor: ${manifestPath}`)
+          throw new Error(`Missing audio file facts for '${locale}': ${manifestPath}`)
         }
-        const relativeAudio = descriptor.file ?? `sound/${locale}.mp3`
+        const relativeAudio = filePath('audio', locale)
         const file = join(itemDir, relativeAudio)
         const itemRelativeAudio = relative(itemDir, file)
         if (isAbsolute(itemRelativeAudio) || itemRelativeAudio === '..' || itemRelativeAudio.startsWith(`..${sep}`)) {

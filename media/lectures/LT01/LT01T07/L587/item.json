@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "G",
-    "ro": "G",
-    "de": "G",
-    "ru": "G",
-    "it": "G",
-    "es": "G",
-    "fr": "G",
-    "hu": "G",
-    "pt": "G"
-  },
-  "description": {
-    "en": "Letter name: G. Example: giant.",
-    "ro": "Numele literei: G. Exemplu: giant.",
-    "de": "Name des Buchstabens: G. Beispiel: giant.",
-    "ru": "Название буквы: G. Пример: giant.",
-    "it": "Nome della lettera: G. Esempio: giant.",
-    "es": "Nombre de la letra: G. Ejemplo: giant.",
-    "fr": "Nom de la lettre : G. Exemple : giant.",
-    "hu": "Betű neve: G. Példa: giant.",
-    "pt": "Nome da letra: G. Exemplo: giant."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/dʒ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 6192,
-      "sha1": "e2147035277441520979ad737e396ef0a7f8545f"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L587",
+  "legacy_entity_id": "letter_giant",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "G",
-      "example": "giant"
+      "name": "G",
+      "description": "Letter name: G. Example: giant.",
+      "ipa": "/dʒ/",
+      "example": "giant",
+      "context": "G"
+    },
+    "ro": {
+      "name": "G",
+      "description": "Numele literei: G. Exemplu: giant."
+    },
+    "de": {
+      "name": "G",
+      "description": "Name des Buchstabens: G. Beispiel: giant."
+    },
+    "ru": {
+      "name": "G",
+      "description": "Название буквы: G. Пример: giant."
+    },
+    "it": {
+      "name": "G",
+      "description": "Nome della lettera: G. Esempio: giant."
+    },
+    "es": {
+      "name": "G",
+      "description": "Nombre de la letra: G. Ejemplo: giant."
+    },
+    "fr": {
+      "name": "G",
+      "description": "Nom de la lettre : G. Exemple : giant."
+    },
+    "hu": {
+      "name": "G",
+      "description": "Betű neve: G. Példa: giant."
+    },
+    "pt": {
+      "name": "G",
+      "description": "Nome da letra: G. Exemplo: giant."
     }
   },
-  "entity_id": "LT01T07:L587",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_giant"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 6192,
+      "sha1": "e2147035277441520979ad737e396ef0a7f8545f"
+    }
+  }
 }

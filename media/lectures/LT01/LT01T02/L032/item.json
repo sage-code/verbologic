@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "oa in noapte (night)",
-    "ro": "oa",
-    "de": "oa in noapte (Nacht)",
-    "ru": "oa в noapte (ночь)",
-    "it": "oa in noapte (notte)",
-    "es": "oa en noapte (noche)",
-    "fr": "oa dans noapte (nuit)",
-    "hu": "oa a noapte (éjszaka) szóban",
-    "pt": "oa em noapte (noite)"
-  },
-  "description": {
-    "en": "The diphthong oa is found in the Romanian word noapte.",
-    "ro": "Diftongul oa se regăsește în cuvântul românesc noapte.",
-    "de": "Der Diphthong oa kommt im rumänischen Wort noapte vor.",
-    "ru": "Дифтонг oa встречается в румынском слове noapte.",
-    "it": "Il dittongo oa si trova nella parola rumena noapte.",
-    "es": "El diptongo oa se encuentra en la palabra rumana noapte.",
-    "fr": "La diphtongue oa se trouve dans le mot roumain noapte.",
-    "hu": "Az oa diftongus a román noapte szóban található meg.",
-    "pt": "O ditongo oa é encontrado na palavra romena noapte."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/o̯a/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "980fdd28fa1ecb153458686800ae9ac0443f68c6",
-      "key": "lectures/LT01/LT01T02/L032/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L032",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L032",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "oa in noapte (night)",
+      "description": "The diphthong oa is found in the Romanian word noapte."
+    },
+    "ro": {
+      "name": "oa",
+      "description": "Diftongul oa se regăsește în cuvântul românesc noapte.",
+      "ipa": "/o̯a/"
+    },
+    "de": {
+      "name": "oa in noapte (Nacht)",
+      "description": "Der Diphthong oa kommt im rumänischen Wort noapte vor."
+    },
+    "ru": {
+      "name": "oa в noapte (ночь)",
+      "description": "Дифтонг oa встречается в румынском слове noapte."
+    },
+    "it": {
+      "name": "oa in noapte (notte)",
+      "description": "Il dittongo oa si trova nella parola rumena noapte."
+    },
+    "es": {
+      "name": "oa en noapte (noche)",
+      "description": "El diptongo oa se encuentra en la palabra rumana noapte."
+    },
+    "fr": {
+      "name": "oa dans noapte (nuit)",
+      "description": "La diphtongue oa se trouve dans le mot roumain noapte."
+    },
+    "hu": {
+      "name": "oa a noapte (éjszaka) szóban",
+      "description": "Az oa diftongus a román noapte szóban található meg."
+    },
+    "pt": {
+      "name": "oa em noapte (noite)",
+      "description": "O ditongo oa é encontrado na palavra romena noapte."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "980fdd28fa1ecb153458686800ae9ac0443f68c6"
+    }
+  }
 }

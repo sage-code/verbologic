@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T03",
   "kind": "word",
-  "names": {
-    "en": "global warming",
-    "ro": "încălzire globală",
-    "de": "globale Erwärmung",
-    "ru": "глобальное потепление",
-    "it": "riscaldamento globale",
-    "es": "calentamiento global",
-    "fr": "réchauffement climatique",
-    "hu": "globális felmelegedés",
-    "pt": "aquecimento global"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ɨnkəlˈzire gloˈbalə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13248,
-      "sha1": "43b02d886e6a03dfca2b9bb59d43b6c6d41ab21a",
-      "key": "dictionary/CH08/CH08T03/W597/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T03:W597",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T03"
   ],
-  "metadata": {},
-  "entity_id": "CH08T03:W597",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "global warming"
+    },
+    "ro": {
+      "name": "încălzire globală",
+      "ipa": "/ɨnkəlˈzire gloˈbalə/"
+    },
+    "de": {
+      "name": "globale Erwärmung"
+    },
+    "ru": {
+      "name": "глобальное потепление"
+    },
+    "it": {
+      "name": "riscaldamento globale"
+    },
+    "es": {
+      "name": "calentamiento global"
+    },
+    "fr": {
+      "name": "réchauffement climatique"
+    },
+    "hu": {
+      "name": "globális felmelegedés"
+    },
+    "pt": {
+      "name": "aquecimento global"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 13248,
+      "sha1": "43b02d886e6a03dfca2b9bb59d43b6c6d41ab21a"
+    }
+  }
 }

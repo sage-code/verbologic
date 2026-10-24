@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T04",
   "kind": "word",
-  "names": {
-    "en": "to address (someone)",
-    "ro": "a se adresa",
-    "de": "sich wenden an",
-    "ru": "обращаться",
-    "it": "rivolgersi a",
-    "es": "dirigirse a",
-    "fr": "s'adresser à",
-    "hu": "megszólítani",
-    "pt": "dirigir-se a"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/a se adreˈsa/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "8ae62a4892c6c69580df74b0998fca641abc0f06",
-      "key": "dictionary/CH12/CH12T04/W873/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T04:W873",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T04"
   ],
-  "metadata": {},
-  "entity_id": "CH12T04:W873",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "to address (someone)"
+    },
+    "ro": {
+      "name": "a se adresa",
+      "ipa": "/a se adreˈsa/"
+    },
+    "de": {
+      "name": "sich wenden an"
+    },
+    "ru": {
+      "name": "обращаться"
+    },
+    "it": {
+      "name": "rivolgersi a"
+    },
+    "es": {
+      "name": "dirigirse a"
+    },
+    "fr": {
+      "name": "s'adresser à"
+    },
+    "hu": {
+      "name": "megszólítani"
+    },
+    "pt": {
+      "name": "dirigir-se a"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "8ae62a4892c6c69580df74b0998fca641abc0f06"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T05",
   "kind": "word",
-  "names": {
-    "en": "planet",
-    "ro": "planetă",
-    "de": "Planet",
-    "ru": "планета",
-    "it": "pianeta",
-    "es": "planeta",
-    "fr": "planète",
-    "hu": "bolygó",
-    "pt": "planeta"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/plaˈnetə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "0ede14f09fa5fbb047426e868498ce723f1e3f5a",
-      "key": "dictionary/CH08/CH08T05/W618/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T05:W618",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T05"
   ],
-  "metadata": {},
-  "entity_id": "CH08T05:W618",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "planet"
+    },
+    "ro": {
+      "name": "planetă",
+      "ipa": "/plaˈnetə/"
+    },
+    "de": {
+      "name": "Planet"
+    },
+    "ru": {
+      "name": "планета"
+    },
+    "it": {
+      "name": "pianeta"
+    },
+    "es": {
+      "name": "planeta"
+    },
+    "fr": {
+      "name": "planète"
+    },
+    "hu": {
+      "name": "bolygó"
+    },
+    "pt": {
+      "name": "planeta"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "0ede14f09fa5fbb047426e868498ce723f1e3f5a"
+    }
+  }
 }

@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "j in jam (/dʒ/)",
-    "ro": "Ge / Gi",
-    "de": "j in jam (/dʒ/)",
-    "ru": "j в jam (/dʒ/)",
-    "it": "j in jam (/dʒ/)",
-    "es": "j en jam (/dʒ/)",
-    "fr": "j dans jam (/dʒ/)",
-    "hu": "j a jam-ben (/dʒ/)",
-    "pt": "j em jam (/dʒ/)"
-  },
-  "description": {
-    "en": "This item illustrates the letter j representing the sound /dʒ/ as in the word jam.",
-    "ro": "Acest element ilustrează litera j care reprezintă sunetul /dʒ/, așa cum apare în cuvântul jam.",
-    "de": "Dieses Element veranschaulicht den Buchstaben j, der den Laut /dʒ/ darstellt, wie im Wort jam.",
-    "ru": "Этот элемент иллюстрирует букву j, представляющую звук /dʒ/, как в слове jam.",
-    "it": "Questo elemento illustra la lettera j che rappresenta il suono /dʒ/ come nella parola jam.",
-    "es": "Este elemento ilustra la letra j que representa el sonido /dʒ/ como en la palabra jam.",
-    "fr": "Cet élément illustre la lettre j représentant le son /dʒ/ comme dans le mot jam.",
-    "hu": "Ez az elem a j betűt mutatja be, amely a /dʒ/ hangot jelöli a jam szóban.",
-    "pt": "Este item ilustra a letra j que representa o som /dʒ/ como na palavra jam."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/dʒe/, /dʒi/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "75614a6d4f6b30154ecfd26f2d980c22bb062e91",
-      "key": "lectures/LT01/LT01T02/L051/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L051",
+  "cefr": "A1",
   "tags": [
     "alphabet#digraphs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L051",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "j in jam (/dʒ/)",
+      "description": "This item illustrates the letter j representing the sound /dʒ/ as in the word jam."
+    },
+    "ro": {
+      "name": "Ge / Gi",
+      "description": "Acest element ilustrează litera j care reprezintă sunetul /dʒ/, așa cum apare în cuvântul jam.",
+      "ipa": "/dʒe/, /dʒi/"
+    },
+    "de": {
+      "name": "j in jam (/dʒ/)",
+      "description": "Dieses Element veranschaulicht den Buchstaben j, der den Laut /dʒ/ darstellt, wie im Wort jam."
+    },
+    "ru": {
+      "name": "j в jam (/dʒ/)",
+      "description": "Этот элемент иллюстрирует букву j, представляющую звук /dʒ/, как в слове jam."
+    },
+    "it": {
+      "name": "j in jam (/dʒ/)",
+      "description": "Questo elemento illustra la lettera j che rappresenta il suono /dʒ/ come nella parola jam."
+    },
+    "es": {
+      "name": "j en jam (/dʒ/)",
+      "description": "Este elemento ilustra la letra j que representa el sonido /dʒ/ como en la palabra jam."
+    },
+    "fr": {
+      "name": "j dans jam (/dʒ/)",
+      "description": "Cet élément illustre la lettre j représentant le son /dʒ/ comme dans le mot jam."
+    },
+    "hu": {
+      "name": "j a jam-ben (/dʒ/)",
+      "description": "Ez az elem a j betűt mutatja be, amely a /dʒ/ hangot jelöli a jam szóban."
+    },
+    "pt": {
+      "name": "j em jam (/dʒ/)",
+      "description": "Este item ilustra a letra j que representa o som /dʒ/ como na palavra jam."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "75614a6d4f6b30154ecfd26f2d980c22bb062e91"
+    }
+  }
 }

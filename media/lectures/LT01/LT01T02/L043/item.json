@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "au in sau (or)",
-    "ro": "au",
-    "de": "au in sau (oder)",
-    "ru": "au в sau (или)",
-    "it": "au in sau (o)",
-    "es": "au en sau (o)",
-    "fr": "au dans sau (ou)",
-    "hu": "au a sau-ban (vagy)",
-    "pt": "au em sau (ou)"
-  },
-  "description": {
-    "en": "This item illustrates the Romanian diphthong au as found in the word sau.",
-    "ro": "Acest element ilustrează diftongul românesc au așa cum apare în cuvântul sau.",
-    "de": "Dieser Eintrag veranschaulicht den rumänischen Diphthong au, wie er im Wort sau vorkommt.",
-    "ru": "Этот элемент иллюстрирует румынский дифтонг au, встречающийся в слове sau.",
-    "it": "Questo elemento illustra il dittongo rumeno au come si trova nella parola sau.",
-    "es": "Este elemento ilustra el diptongo rumano au tal como aparece en la palabra sau.",
-    "fr": "Cet élément illustre la diphtongue roumaine au telle qu'elle apparaît dans le mot sau.",
-    "hu": "Ez az elem a román au kettőshangzót mutatja be a sau szóban.",
-    "pt": "Este item ilustra o ditongo romeno au conforme encontrado na palavra sau."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/aw/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7920,
-      "sha1": "46f58db0c6dd97113ac10a5d46801858cc82d8c9",
-      "key": "lectures/LT01/LT01T02/L043/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L043",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L043",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "au in sau (or)",
+      "description": "This item illustrates the Romanian diphthong au as found in the word sau."
+    },
+    "ro": {
+      "name": "au",
+      "description": "Acest element ilustrează diftongul românesc au așa cum apare în cuvântul sau.",
+      "ipa": "/aw/"
+    },
+    "de": {
+      "name": "au in sau (oder)",
+      "description": "Dieser Eintrag veranschaulicht den rumänischen Diphthong au, wie er im Wort sau vorkommt."
+    },
+    "ru": {
+      "name": "au в sau (или)",
+      "description": "Этот элемент иллюстрирует румынский дифтонг au, встречающийся в слове sau."
+    },
+    "it": {
+      "name": "au in sau (o)",
+      "description": "Questo elemento illustra il dittongo rumeno au come si trova nella parola sau."
+    },
+    "es": {
+      "name": "au en sau (o)",
+      "description": "Este elemento ilustra el diptongo rumano au tal como aparece en la palabra sau."
+    },
+    "fr": {
+      "name": "au dans sau (ou)",
+      "description": "Cet élément illustre la diphtongue roumaine au telle qu'elle apparaît dans le mot sau."
+    },
+    "hu": {
+      "name": "au a sau-ban (vagy)",
+      "description": "Ez az elem a román au kettőshangzót mutatja be a sau szóban."
+    },
+    "pt": {
+      "name": "au em sau (ou)",
+      "description": "Este item ilustra o ditongo romeno au conforme encontrado na palavra sau."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 7920,
+      "sha1": "46f58db0c6dd97113ac10a5d46801858cc82d8c9"
+    }
+  }
 }

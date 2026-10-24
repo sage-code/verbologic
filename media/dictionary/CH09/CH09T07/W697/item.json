@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T07",
   "kind": "word",
-  "names": {
-    "en": "commitment",
-    "ro": "angajament",
-    "de": "Verpflichtung",
-    "ru": "обязательство",
-    "it": "impegno",
-    "es": "compromiso",
-    "fr": "engagement",
-    "hu": "kötelezettségvállalás",
-    "pt": "compromisso"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/angadʒaˈment/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "fd7424d1de9bbce989ecb7c273d4af9a20386ff0",
-      "key": "dictionary/CH09/CH09T07/W697/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T07:W697",
+  "cefr": "C1",
   "tags": [
     "scaffold#C9T07"
   ],
-  "metadata": {},
-  "entity_id": "CH09T07:W697",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "commitment"
+    },
+    "ro": {
+      "name": "angajament",
+      "ipa": "/angadʒaˈment/"
+    },
+    "de": {
+      "name": "Verpflichtung"
+    },
+    "ru": {
+      "name": "обязательство"
+    },
+    "it": {
+      "name": "impegno"
+    },
+    "es": {
+      "name": "compromiso"
+    },
+    "fr": {
+      "name": "engagement"
+    },
+    "hu": {
+      "name": "kötelezettségvállalás"
+    },
+    "pt": {
+      "name": "compromisso"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "fd7424d1de9bbce989ecb7c273d4af9a20386ff0"
+    }
+  }
 }

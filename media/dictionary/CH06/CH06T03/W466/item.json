@@ -4,111 +4,45 @@
   "chapter": "CH06",
   "topic": "CH06T03",
   "kind": "word",
-  "names": {
-    "en": "minus",
-    "ro": "minus",
-    "de": "minus",
-    "ru": "минус",
-    "it": "meno",
-    "es": "menos",
-    "fr": "moins",
-    "hu": "mínusz",
-    "pt": "menos"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈminus/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "5142407c5c8e166b933dc5ce41e051a1e058f124",
-      "key": "dictionary/CH06/CH06T03/W466/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH06T03:W466",
+  "cefr": "B1",
   "tags": [
     "scaffold#C6T03"
   ],
-  "metadata": {},
-  "entity_id": "CH06T03:W466",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "minus"
+    },
+    "ro": {
+      "name": "minus",
+      "ipa": "/ˈminus/"
+    },
+    "de": {
+      "name": "minus"
+    },
+    "ru": {
+      "name": "минус"
+    },
+    "it": {
+      "name": "meno"
+    },
+    "es": {
+      "name": "menos"
+    },
+    "fr": {
+      "name": "moins"
+    },
+    "hu": {
+      "name": "mínusz"
+    },
+    "pt": {
+      "name": "menos"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "5142407c5c8e166b933dc5ce41e051a1e058f124"
+    }
+  }
 }

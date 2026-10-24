@@ -4,176 +4,114 @@
   "chapter": "CH01",
   "topic": "CH01T09",
   "kind": "letter",
+  "entity_id": "CH01T09:W161",
+  "cefr": "A1",
   "letter": "Q",
-  "names": {
-    "en": "Q (cue)",
-    "ro": "Q (chiu)",
-    "de": "Q (ku)",
-    "ru": "Q (кью)",
-    "it": "Q (cu)",
-    "es": "Q (cu)",
-    "fr": "Q (ku)",
-    "hu": "Q (kú)",
-    "pt": "Q (quê)"
-  },
-  "description": {
-    "en": "The letter Q in the Latin alphabet, named cue.",
-    "ro": "Litera Q din alfabetul latin, numită chiu.",
-    "de": "Der Buchstabe Q des lateinischen Alphabets, genannt ku.",
-    "ru": "Буква Q латинского алфавита, называемая «кью».",
-    "it": "La lettera Q dell'alfabeto latino, chiamata cu.",
-    "es": "La letra Q del alfabeto latino, llamada cu.",
-    "fr": "La lettre Q de l'alphabet latin, appelée ku.",
-    "hu": "A latin ábécé Q betűje, neve kú.",
-    "pt": "A letra Q do alfabeto latino, chamada quê."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/kjuː/"
-    },
-    "ro": {
-      "ipa": "/kju/"
-    },
-    "de": {
-      "ipa": "/kuː/"
-    },
-    "ru": {
-      "ipa": "/kʲju/"
-    },
-    "it": {
-      "ipa": "/ku/"
-    },
-    "es": {
-      "ipa": "/ku/"
-    },
-    "fr": {
-      "ipa": "/ky/"
-    },
-    "hu": {
-      "ipa": "/kuː/"
-    },
-    "pt": {
-      "ipa": "/ke/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2c8ea8551d9488bbce5cad5f215713a1e46cf008",
-      "key": "dictionary/CH01/CH01T09/W161/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ee4fd0631a0cf41ce905326716d719878c22a5eb",
-      "key": "dictionary/CH01/CH01T09/W161/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e5013f9c80eeb5589bb3035d027bf0f504342a02",
-      "key": "dictionary/CH01/CH01T09/W161/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "280331d414063baa76570a8af730643cbcd1cdb9",
-      "key": "dictionary/CH01/CH01T09/W161/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4032,
-      "sha1": "67cce153b5ac6ccc0e403872c68bd3178730255a",
-      "key": "dictionary/CH01/CH01T09/W161/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c9a47ce1ce736fc99d79b03eb1f14289b1f40ae8",
-      "key": "dictionary/CH01/CH01T09/W161/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a98bea2a6e7d7850962d153f7d82d8da989b2536",
-      "key": "dictionary/CH01/CH01T09/W161/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "f50504bc93c2aace162f7fef1f69b609a7da95b4",
-      "key": "dictionary/CH01/CH01T09/W161/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "cc4487b90816c49ff2be46f15207b5c7194abcae",
-      "key": "dictionary/CH01/CH01T09/W161/sound/pt.mp3"
-    }
-  },
-  "ttsText": {
-    "en": "cue",
-    "ro": "chiu",
-    "de": "ku",
-    "ru": "кью",
-    "it": "cu",
-    "es": "cu",
-    "fr": "ku",
-    "hu": "kú",
-    "pt": "quê"
-  },
   "tags": [
     "alphabet#common-letter",
     "alphabet#latin"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "Q (cue)",
+      "description": "The letter Q in the Latin alphabet, named cue.",
+      "ipa": "/kjuː/",
+      "ttsText": "cue",
       "example": "cue"
     },
     "ro": {
+      "name": "Q (chiu)",
+      "description": "Litera Q din alfabetul latin, numită chiu.",
+      "ipa": "/kju/",
+      "ttsText": "chiu",
       "example": "chiu"
     },
     "de": {
+      "name": "Q (ku)",
+      "description": "Der Buchstabe Q des lateinischen Alphabets, genannt ku.",
+      "ipa": "/kuː/",
+      "ttsText": "ku",
       "example": "ku"
     },
     "ru": {
+      "name": "Q (кью)",
+      "description": "Буква Q латинского алфавита, называемая «кью».",
+      "ipa": "/kʲju/",
+      "ttsText": "кью",
       "example": "кью"
     },
     "it": {
+      "name": "Q (cu)",
+      "description": "La lettera Q dell'alfabeto latino, chiamata cu.",
+      "ipa": "/ku/",
+      "ttsText": "cu",
       "example": "cu"
     },
     "es": {
+      "name": "Q (cu)",
+      "description": "La letra Q del alfabeto latino, llamada cu.",
+      "ipa": "/ku/",
+      "ttsText": "cu",
       "example": "cu"
     },
     "fr": {
+      "name": "Q (ku)",
+      "description": "La lettre Q de l'alphabet latin, appelée ku.",
+      "ipa": "/ky/",
+      "ttsText": "ku",
       "example": "ku"
     },
     "hu": {
+      "name": "Q (kú)",
+      "description": "A latin ábécé Q betűje, neve kú.",
+      "ipa": "/kuː/",
+      "ttsText": "kú",
       "example": "kú"
     },
     "pt": {
+      "name": "Q (quê)",
+      "description": "A letra Q do alfabeto latino, chamada quê.",
+      "ipa": "/ke/",
+      "ttsText": "quê",
       "example": "quê"
     }
   },
-  "entity_id": "CH01T09:W161",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "2c8ea8551d9488bbce5cad5f215713a1e46cf008"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "ee4fd0631a0cf41ce905326716d719878c22a5eb"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "e5013f9c80eeb5589bb3035d027bf0f504342a02"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "280331d414063baa76570a8af730643cbcd1cdb9"
+    },
+    "sound/it.mp3": {
+      "bytes": 4032,
+      "sha1": "67cce153b5ac6ccc0e403872c68bd3178730255a"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "c9a47ce1ce736fc99d79b03eb1f14289b1f40ae8"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "a98bea2a6e7d7850962d153f7d82d8da989b2536"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "f50504bc93c2aace162f7fef1f69b609a7da95b4"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "cc4487b90816c49ff2be46f15207b5c7194abcae"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T02",
   "kind": "word",
-  "names": {
-    "en": "approval",
-    "ro": "aprobare",
-    "de": "Genehmigung",
-    "ru": "одобрение",
-    "it": "approvazione",
-    "es": "aprobación",
-    "fr": "approbation",
-    "hu": "jóváhagyás",
-    "pt": "aprovação"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/aproˈbare/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "89ef39cced4bf14c1eef0e3ede712649c445e7e9",
-      "key": "dictionary/CH11/CH11T02/W788/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T02:W788",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T02"
   ],
-  "metadata": {},
-  "entity_id": "CH11T02:W788",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "approval"
+    },
+    "ro": {
+      "name": "aprobare",
+      "ipa": "/aproˈbare/"
+    },
+    "de": {
+      "name": "Genehmigung"
+    },
+    "ru": {
+      "name": "одобрение"
+    },
+    "it": {
+      "name": "approvazione"
+    },
+    "es": {
+      "name": "aprobación"
+    },
+    "fr": {
+      "name": "approbation"
+    },
+    "hu": {
+      "name": "jóváhagyás"
+    },
+    "pt": {
+      "name": "aprovação"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "89ef39cced4bf14c1eef0e3ede712649c445e7e9"
+    }
+  }
 }

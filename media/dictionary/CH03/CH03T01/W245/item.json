@@ -4,111 +4,45 @@
   "chapter": "CH03",
   "topic": "CH03T01",
   "kind": "word",
-  "names": {
-    "en": "to come",
-    "ro": "a veni",
-    "de": "kommen",
-    "ru": "приходить",
-    "it": "venire",
-    "es": "venir",
-    "fr": "venir",
-    "hu": "jönni",
-    "pt": "vir"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/a veˈni/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "9504f6f74917fd1331782e7b5563676270f69bc4",
-      "key": "dictionary/CH03/CH03T01/W245/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T01:W245",
+  "cefr": "A2",
   "tags": [
     "vocabulary#daily-routines"
   ],
-  "metadata": {},
-  "entity_id": "CH03T01:W245",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "to come"
+    },
+    "ro": {
+      "name": "a veni",
+      "ipa": "/a veˈni/"
+    },
+    "de": {
+      "name": "kommen"
+    },
+    "ru": {
+      "name": "приходить"
+    },
+    "it": {
+      "name": "venire"
+    },
+    "es": {
+      "name": "venir"
+    },
+    "fr": {
+      "name": "venir"
+    },
+    "hu": {
+      "name": "jönni"
+    },
+    "pt": {
+      "name": "vir"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "9504f6f74917fd1331782e7b5563676270f69bc4"
+    }
+  }
 }

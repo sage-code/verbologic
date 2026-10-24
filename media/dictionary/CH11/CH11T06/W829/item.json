@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T06",
   "kind": "word",
-  "names": {
-    "en": "conscience",
-    "ro": "conștiință",
-    "de": "Gewissen",
-    "ru": "совесть",
-    "it": "coscienza",
-    "es": "conciencia",
-    "fr": "conscience",
-    "hu": "lelkiismeret",
-    "pt": "consciência"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/konʃtiˈintsə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "093628a4e581170a71be710b5a0c4e625a5ab095",
-      "key": "dictionary/CH11/CH11T06/W829/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T06:W829",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T06"
   ],
-  "metadata": {},
-  "entity_id": "CH11T06:W829",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "conscience"
+    },
+    "ro": {
+      "name": "conștiință",
+      "ipa": "/konʃtiˈintsə/"
+    },
+    "de": {
+      "name": "Gewissen"
+    },
+    "ru": {
+      "name": "совесть"
+    },
+    "it": {
+      "name": "coscienza"
+    },
+    "es": {
+      "name": "conciencia"
+    },
+    "fr": {
+      "name": "conscience"
+    },
+    "hu": {
+      "name": "lelkiismeret"
+    },
+    "pt": {
+      "name": "consciência"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "093628a4e581170a71be710b5a0c4e625a5ab095"
+    }
+  }
 }

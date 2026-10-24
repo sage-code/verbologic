@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T15",
   "kind": "letter",
-  "names": {
-    "en": "B",
-    "ro": "B",
-    "de": "B",
-    "ru": "B",
-    "it": "B",
-    "es": "B",
-    "fr": "B",
-    "hu": "B",
-    "pt": "B"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": "Letter name: bê. Example: bom."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": {
-      "ipa": "/be/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "7e12d13d6ba282919eb447499b9681af46d96c26"
-    }
-  },
+  "entity_id": "LT01T15:L528",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "B"
+    },
+    "ro": {
+      "name": "B"
+    },
+    "de": {
+      "name": "B"
+    },
+    "ru": {
+      "name": "B"
+    },
+    "it": {
+      "name": "B"
+    },
+    "es": {
+      "name": "B"
+    },
+    "fr": {
+      "name": "B"
+    },
+    "hu": {
+      "name": "B"
+    },
     "pt": {
-      "context": "bê",
-      "example": "bom"
+      "name": "B",
+      "description": "Letter name: bê. Example: bom.",
+      "ipa": "/be/",
+      "example": "bom",
+      "context": "bê"
     }
   },
-  "entity_id": "LT01T15:L528",
-  "cefr": "A1"
+  "files": {
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "7e12d13d6ba282919eb447499b9681af46d96c26"
+    }
+  }
 }

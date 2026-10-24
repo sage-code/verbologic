@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "er",
-    "ro": "er in her (ei)",
-    "de": "er in her (ihr)",
-    "ru": "er in her (её)",
-    "it": "er in her (lei)",
-    "es": "er in her (ella)",
-    "fr": "er in her (elle)",
-    "hu": "er in her (őt)",
-    "pt": "er in her (dela)"
-  },
-  "description": {
-    "en": "This is the letter L329.",
-    "ro": "Aceasta este litera L329.",
-    "de": "Dies ist der Buchstabe L329.",
-    "ru": "Это буква L329.",
-    "it": "Questa è la lettera L329.",
-    "es": "Esta es la letra L329.",
-    "fr": "Ceci est la lettre L329.",
-    "hu": "Ez az L329 betű.",
-    "pt": "Esta é a letra L329."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɜːr/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4176,
-      "sha1": "ce09af3b0dae5aa907f0c832f157f3cb0f74e907",
-      "key": "lectures/LT01/LT01T08/L329/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L329",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L329",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "er",
+      "description": "This is the letter L329.",
+      "ipa": "/ɜːr/"
+    },
+    "ro": {
+      "name": "er in her (ei)",
+      "description": "Aceasta este litera L329."
+    },
+    "de": {
+      "name": "er in her (ihr)",
+      "description": "Dies ist der Buchstabe L329."
+    },
+    "ru": {
+      "name": "er in her (её)",
+      "description": "Это буква L329."
+    },
+    "it": {
+      "name": "er in her (lei)",
+      "description": "Questa è la lettera L329."
+    },
+    "es": {
+      "name": "er in her (ella)",
+      "description": "Esta es la letra L329."
+    },
+    "fr": {
+      "name": "er in her (elle)",
+      "description": "Ceci est la lettre L329."
+    },
+    "hu": {
+      "name": "er in her (őt)",
+      "description": "Ez az L329 betű."
+    },
+    "pt": {
+      "name": "er in her (dela)",
+      "description": "Esta é a letra L329."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4176,
+      "sha1": "ce09af3b0dae5aa907f0c832f157f3cb0f74e907"
+    }
+  }
 }

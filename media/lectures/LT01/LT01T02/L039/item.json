@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "ai in mai (May / more)",
-    "ro": "ai",
-    "de": "ai in mai (Mai / mehr)",
-    "ru": "ai в mai (май / больше)",
-    "it": "ai in mai (maggio / più)",
-    "es": "ai en mai (mayo / más)",
-    "fr": "ai dans mai (mai / plus)",
-    "hu": "ai a mai-ban (május / több)",
-    "pt": "ai em mai (maio / mais)"
-  },
-  "description": {
-    "en": "This item illustrates the Romanian diphthong ai as found in the word mai.",
-    "ro": "Acest element ilustrează diftongul românesc ai așa cum apare în cuvântul mai.",
-    "de": "Dieser Eintrag veranschaulicht den rumänischen Diphthong ai, wie er im Wort mai vorkommt.",
-    "ru": "Этот элемент иллюстрирует румынский дифтонг ai, встречающийся в слове mai.",
-    "it": "Questo elemento illustra il dittongo rumeno ai come si trova nella parola mai.",
-    "es": "Este elemento ilustra el diptongo rumano ai tal como aparece en la palabra mai.",
-    "fr": "Cet élément illustre la diphtongue roumaine ai telle qu'elle apparaît dans le mot mai.",
-    "hu": "Ez az elem a román ai kettőshangzót mutatja be a mai szóban.",
-    "pt": "Este item ilustra o ditongo romeno ai conforme encontrado na palavra mai."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/aj/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d78ecccd6694add25eb2f837a1c0f63a11f73024",
-      "key": "lectures/LT01/LT01T02/L039/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L039",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L039",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ai in mai (May / more)",
+      "description": "This item illustrates the Romanian diphthong ai as found in the word mai."
+    },
+    "ro": {
+      "name": "ai",
+      "description": "Acest element ilustrează diftongul românesc ai așa cum apare în cuvântul mai.",
+      "ipa": "/aj/"
+    },
+    "de": {
+      "name": "ai in mai (Mai / mehr)",
+      "description": "Dieser Eintrag veranschaulicht den rumänischen Diphthong ai, wie er im Wort mai vorkommt."
+    },
+    "ru": {
+      "name": "ai в mai (май / больше)",
+      "description": "Этот элемент иллюстрирует румынский дифтонг ai, встречающийся в слове mai."
+    },
+    "it": {
+      "name": "ai in mai (maggio / più)",
+      "description": "Questo elemento illustra il dittongo rumeno ai come si trova nella parola mai."
+    },
+    "es": {
+      "name": "ai en mai (mayo / más)",
+      "description": "Este elemento ilustra el diptongo rumano ai tal como aparece en la palabra mai."
+    },
+    "fr": {
+      "name": "ai dans mai (mai / plus)",
+      "description": "Cet élément illustre la diphtongue roumaine ai telle qu'elle apparaît dans le mot mai."
+    },
+    "hu": {
+      "name": "ai a mai-ban (május / több)",
+      "description": "Ez az elem a román ai kettőshangzót mutatja be a mai szóban."
+    },
+    "pt": {
+      "name": "ai em mai (maio / mais)",
+      "description": "Este item ilustra o ditongo romeno ai conforme encontrado na palavra mai."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "d78ecccd6694add25eb2f837a1c0f63a11f73024"
+    }
+  }
 }

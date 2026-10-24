@@ -4,111 +4,45 @@
   "chapter": "CH04",
   "topic": "CH04T02",
   "kind": "word",
-  "names": {
-    "en": "seller",
-    "ro": "vânzător",
-    "de": "Verkäufer",
-    "ru": "продавец",
-    "it": "venditore",
-    "es": "vendedor",
-    "fr": "vendeur",
-    "hu": "eladó",
-    "pt": "vendedor"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/vɨnzəˈtor/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "3085381c531134fab7b0f4ece2da2777304fc887",
-      "key": "dictionary/CH04/CH04T02/W338/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH04T02:W338",
+  "cefr": "A2",
   "tags": [
     "scaffold#C4T02"
   ],
-  "metadata": {},
-  "entity_id": "CH04T02:W338",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "seller"
+    },
+    "ro": {
+      "name": "vânzător",
+      "ipa": "/vɨnzəˈtor/"
+    },
+    "de": {
+      "name": "Verkäufer"
+    },
+    "ru": {
+      "name": "продавец"
+    },
+    "it": {
+      "name": "venditore"
+    },
+    "es": {
+      "name": "vendedor"
+    },
+    "fr": {
+      "name": "vendeur"
+    },
+    "hu": {
+      "name": "eladó"
+    },
+    "pt": {
+      "name": "vendedor"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "3085381c531134fab7b0f4ece2da2777304fc887"
+    }
+  }
 }

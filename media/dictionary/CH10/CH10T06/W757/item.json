@@ -4,111 +4,45 @@
   "chapter": "CH10",
   "topic": "CH10T06",
   "kind": "word",
-  "names": {
-    "en": "neural network",
-    "ro": "rețea neuronală",
-    "de": "neuronales Netzwerk",
-    "ru": "нейронная сеть",
-    "it": "rete neurale",
-    "es": "red neuronal",
-    "fr": "réseau de neurones",
-    "hu": "neurális hálózat",
-    "pt": "rede neural"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/reˈtsea neuroˈnalə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13104,
-      "sha1": "cf42f73a827783364f2009a85b8f832bbf285708",
-      "key": "dictionary/CH10/CH10T06/W757/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH10T06:W757",
+  "cefr": "C1",
   "tags": [
     "scaffold#C10T06"
   ],
-  "metadata": {},
-  "entity_id": "CH10T06:W757",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "neural network"
+    },
+    "ro": {
+      "name": "rețea neuronală",
+      "ipa": "/reˈtsea neuroˈnalə/"
+    },
+    "de": {
+      "name": "neuronales Netzwerk"
+    },
+    "ru": {
+      "name": "нейронная сеть"
+    },
+    "it": {
+      "name": "rete neurale"
+    },
+    "es": {
+      "name": "red neuronal"
+    },
+    "fr": {
+      "name": "réseau de neurones"
+    },
+    "hu": {
+      "name": "neurális hálózat"
+    },
+    "pt": {
+      "name": "rede neural"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 13104,
+      "sha1": "cf42f73a827783364f2009a85b8f832bbf285708"
+    }
+  }
 }

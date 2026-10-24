@@ -4,139 +4,95 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "-ough",
-    "ro": "prin",
-    "de": "-ough",
-    "ru": "-ough",
-    "it": "-ough",
-    "es": "-ough",
-    "fr": "-ough",
-    "hu": "-ough",
-    "pt": "-ough"
-  },
-  "description": {
-    "en": "The letter combination -ough is a sequence of characters used in various English words.",
-    "ro": "Combinația de litere -ough este o secvență de caractere utilizată în diverse cuvinte englezești.",
-    "de": "Die Buchstabenkombination -ough ist eine Zeichenfolge, die in verschiedenen englischen Wörtern verwendet wird.",
-    "ru": "Буквосочетание -ough — это последовательность символов, используемая в различных английских словах.",
-    "it": "La combinazione di lettere -ough è una sequenza di caratteri utilizzata in varie parole inglesi.",
-    "es": "La combinación de letras -ough es una secuencia de caracteres utilizada en varias palabras en inglés.",
-    "fr": "La combinaison de lettres -ough est une séquence de caractères utilisée dans divers mots anglais.",
-    "hu": "Az -ough betűkombináció egy karakterlánc, amelyet különféle angol szavakban használnak.",
-    "pt": "A combinação de letras -ough é uma sequência de caracteres usada em várias palavras em inglês."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/uː/"
-    },
-    "ro": {
-      "ipa": "/prin/"
-    },
-    "de": {
-      "ipa": "/oːx/"
-    },
-    "ru": {
-      "ipa": "/oːx/"
-    },
-    "it": {
-      "ipa": "/oːx/"
-    },
-    "es": {
-      "ipa": "/oːx/"
-    },
-    "fr": {
-      "ipa": "/oːx/"
-    },
-    "hu": {
-      "ipa": "/oːx/"
-    },
-    "pt": {
-      "ipa": "/oːx/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "687c8c0db89ae47094a206aedd65aba506221bd9",
-      "key": "dictionary/CH01/CH01T01/W062/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d48f2a78e1d18f6780d9cf17af9e39654f18aa85",
-      "key": "dictionary/CH01/CH01T01/W062/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "5c58c2bd76699518973d0a71990f017052faebd3",
-      "key": "dictionary/CH01/CH01T01/W062/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9c4534b25f87a88b189d4f489c78f79c0849da81",
-      "key": "dictionary/CH01/CH01T01/W062/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4176,
-      "sha1": "cb9beddcb301f6bb8fc210a9313e3827e815fe67",
-      "key": "dictionary/CH01/CH01T01/W062/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "bdd6e10d1468e8418f36762a76da3b29e3f94c1d",
-      "key": "dictionary/CH01/CH01T01/W062/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "519c01285805447090ac4b2ee83a318fddd70fcd",
-      "key": "dictionary/CH01/CH01T01/W062/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "58e81c25d357492657cff6c0e82d6b07a8100712",
-      "key": "dictionary/CH01/CH01T01/W062/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "4aa673d3b0310af77b2c213574000de5e536b723",
-      "key": "dictionary/CH01/CH01T01/W062/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W062",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "-ough",
+      "description": "The letter combination -ough is a sequence of characters used in various English words.",
+      "ipa": "/uː/",
       "example": "through"
+    },
+    "ro": {
+      "name": "prin",
+      "description": "Combinația de litere -ough este o secvență de caractere utilizată în diverse cuvinte englezești.",
+      "ipa": "/prin/"
+    },
+    "de": {
+      "name": "-ough",
+      "description": "Die Buchstabenkombination -ough ist eine Zeichenfolge, die in verschiedenen englischen Wörtern verwendet wird.",
+      "ipa": "/oːx/"
+    },
+    "ru": {
+      "name": "-ough",
+      "description": "Буквосочетание -ough — это последовательность символов, используемая в различных английских словах.",
+      "ipa": "/oːx/"
+    },
+    "it": {
+      "name": "-ough",
+      "description": "La combinazione di lettere -ough è una sequenza di caratteri utilizzata in varie parole inglesi.",
+      "ipa": "/oːx/"
+    },
+    "es": {
+      "name": "-ough",
+      "description": "La combinación de letras -ough es una secuencia de caracteres utilizada en varias palabras en inglés.",
+      "ipa": "/oːx/"
+    },
+    "fr": {
+      "name": "-ough",
+      "description": "La combinaison de lettres -ough est une séquence de caractères utilisée dans divers mots anglais.",
+      "ipa": "/oːx/"
+    },
+    "hu": {
+      "name": "-ough",
+      "description": "Az -ough betűkombináció egy karakterlánc, amelyet különféle angol szavakban használnak.",
+      "ipa": "/oːx/"
+    },
+    "pt": {
+      "name": "-ough",
+      "description": "A combinação de letras -ough é uma sequência de caracteres usada em várias palavras em inglês.",
+      "ipa": "/oːx/"
     }
   },
-  "entity_id": "CH01T01:W062",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "687c8c0db89ae47094a206aedd65aba506221bd9"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "d48f2a78e1d18f6780d9cf17af9e39654f18aa85"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "5c58c2bd76699518973d0a71990f017052faebd3"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "9c4534b25f87a88b189d4f489c78f79c0849da81"
+    },
+    "sound/it.mp3": {
+      "bytes": 4176,
+      "sha1": "cb9beddcb301f6bb8fc210a9313e3827e815fe67"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "bdd6e10d1468e8418f36762a76da3b29e3f94c1d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "519c01285805447090ac4b2ee83a318fddd70fcd"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "58e81c25d357492657cff6c0e82d6b07a8100712"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "4aa673d3b0310af77b2c213574000de5e536b723"
+    }
+  }
 }

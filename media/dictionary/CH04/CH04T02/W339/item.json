@@ -4,111 +4,45 @@
   "chapter": "CH04",
   "topic": "CH04T02",
   "kind": "word",
-  "names": {
-    "en": "buyer",
-    "ro": "cumpărător",
-    "de": "Käufer",
-    "ru": "покупатель",
-    "it": "acquirente",
-    "es": "comprador",
-    "fr": "acheteur",
-    "hu": "vevő",
-    "pt": "comprador"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/kumpərəˈtor/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "7255a4c4a5d0f04d675b65348e1059f188d79748",
-      "key": "dictionary/CH04/CH04T02/W339/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH04T02:W339",
+  "cefr": "A2",
   "tags": [
     "scaffold#C4T02"
   ],
-  "metadata": {},
-  "entity_id": "CH04T02:W339",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "buyer"
+    },
+    "ro": {
+      "name": "cumpărător",
+      "ipa": "/kumpərəˈtor/"
+    },
+    "de": {
+      "name": "Käufer"
+    },
+    "ru": {
+      "name": "покупатель"
+    },
+    "it": {
+      "name": "acquirente"
+    },
+    "es": {
+      "name": "comprador"
+    },
+    "fr": {
+      "name": "acheteur"
+    },
+    "hu": {
+      "name": "vevő"
+    },
+    "pt": {
+      "name": "comprador"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "7255a4c4a5d0f04d675b65348e1059f188d79748"
+    }
+  }
 }

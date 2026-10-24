@@ -4,111 +4,45 @@
   "chapter": "CH04",
   "topic": "CH04T04",
   "kind": "word",
-  "names": {
-    "en": "left",
-    "ro": "stânga",
-    "de": "links",
-    "ru": "налево",
-    "it": "sinistra",
-    "es": "izquierda",
-    "fr": "gauche",
-    "hu": "balra",
-    "pt": "esquerda"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈstɨnga/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "7e6d7761743fd2269b91c1ec9e4729f87971fcee",
-      "key": "dictionary/CH04/CH04T04/W355/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH04T04:W355",
+  "cefr": "A2",
   "tags": [
     "vocabulary#transport-directions"
   ],
-  "metadata": {},
-  "entity_id": "CH04T04:W355",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "left"
+    },
+    "ro": {
+      "name": "stânga",
+      "ipa": "/ˈstɨnga/"
+    },
+    "de": {
+      "name": "links"
+    },
+    "ru": {
+      "name": "налево"
+    },
+    "it": {
+      "name": "sinistra"
+    },
+    "es": {
+      "name": "izquierda"
+    },
+    "fr": {
+      "name": "gauche"
+    },
+    "hu": {
+      "name": "balra"
+    },
+    "pt": {
+      "name": "esquerda"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "7e6d7761743fd2269b91c1ec9e4729f87971fcee"
+    }
+  }
 }

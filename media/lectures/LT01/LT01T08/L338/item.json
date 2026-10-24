@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "fl",
-    "ro": "fl in flag (steag)",
-    "de": "fl in flag (Flagge)",
-    "ru": "fl in flag (флаг)",
-    "it": "fl in flag (bandiera)",
-    "es": "fl in flag (bandera)",
-    "fr": "fl in flag (drapeau)",
-    "hu": "fl in flag (zászló)",
-    "pt": "fl in flag (bandeira)"
-  },
-  "description": {
-    "en": "This is the letter L338 from the alphabet vowel-consonant groups.",
-    "ro": "Aceasta este litera L338 din grupurile de vocale și consoane ale alfabetului.",
-    "de": "Dies ist der Buchstabe L338 aus den Vokal-Konsonant-Gruppen des Alphabets.",
-    "ru": "Это буква L338 из групп гласных и согласных алфавита.",
-    "it": "Questa è la lettera L338 dei gruppi vocali-consonanti dell'alfabeto.",
-    "es": "Esta es la letra L338 de los grupos de vocales y consonantes del alfabeto.",
-    "fr": "Ceci est la lettre L338 des groupes voyelles-consonnes de l'alphabet.",
-    "hu": "Ez az L338 betű az ábécé magánhangzó-mássalhangzó csoportjaiból.",
-    "pt": "Esta é a letra L338 dos grupos de vogais e consoantes do alfabeto."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/fl/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4896,
-      "sha1": "06d2e91bb9bc204c07e5093ec3c086e3ea45d1a0",
-      "key": "lectures/LT01/LT01T08/L338/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L338",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L338",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "fl",
+      "description": "This is the letter L338 from the alphabet vowel-consonant groups.",
+      "ipa": "/fl/"
+    },
+    "ro": {
+      "name": "fl in flag (steag)",
+      "description": "Aceasta este litera L338 din grupurile de vocale și consoane ale alfabetului."
+    },
+    "de": {
+      "name": "fl in flag (Flagge)",
+      "description": "Dies ist der Buchstabe L338 aus den Vokal-Konsonant-Gruppen des Alphabets."
+    },
+    "ru": {
+      "name": "fl in flag (флаг)",
+      "description": "Это буква L338 из групп гласных и согласных алфавита."
+    },
+    "it": {
+      "name": "fl in flag (bandiera)",
+      "description": "Questa è la lettera L338 dei gruppi vocali-consonanti dell'alfabeto."
+    },
+    "es": {
+      "name": "fl in flag (bandera)",
+      "description": "Esta es la letra L338 de los grupos de vocales y consonantes del alfabeto."
+    },
+    "fr": {
+      "name": "fl in flag (drapeau)",
+      "description": "Ceci est la lettre L338 des groupes voyelles-consonnes de l'alphabet."
+    },
+    "hu": {
+      "name": "fl in flag (zászló)",
+      "description": "Ez az L338 betű az ábécé magánhangzó-mássalhangzó csoportjaiból."
+    },
+    "pt": {
+      "name": "fl in flag (bandeira)",
+      "description": "Esta é a letra L338 dos grupos de vogais e consoantes do alfabeto."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "06d2e91bb9bc204c07e5093ec3c086e3ea45d1a0"
+    }
+  }
 }

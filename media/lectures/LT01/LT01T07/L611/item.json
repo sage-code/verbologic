@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "-gh(t)",
-    "ro": "-gh(t)",
-    "de": "-gh(t)",
-    "ru": "-gh(t)",
-    "it": "-gh(t)",
-    "es": "-gh(t)",
-    "fr": "-gh(t)",
-    "hu": "-gh(t)",
-    "pt": "-gh(t)"
-  },
-  "description": {
-    "en": "Letter name: -gh(t). Example: night.",
-    "ro": "Combinația de litere -gh(t) este mută în cuvinte precum night.",
-    "de": "Die Buchstabenkombination -gh(t) ist in Wörtern wie night stumm.",
-    "ru": "Буквосочетание -gh(t) не произносится в таких словах, как night.",
-    "it": "La combinazione di lettere -gh(t) è muta in parole come night.",
-    "es": "La combinación de letras -gh(t) es muda en palabras como night.",
-    "fr": "La combinaison de lettres -gh(t) est muette dans des mots comme night.",
-    "hu": "A -gh(t) betűkombináció néma a night szóhoz hasonló szavakban.",
-    "pt": "A combinação de letras -gh(t) é muda em palavras como night."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/t/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8640,
-      "sha1": "0747ca086b2855119f494b64b31647d6805ac45e"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L611",
+  "legacy_entity_id": "letter_night",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "-gh(t)",
-      "example": "night"
+      "name": "-gh(t)",
+      "description": "Letter name: -gh(t). Example: night.",
+      "ipa": "/t/",
+      "example": "night",
+      "context": "-gh(t)"
+    },
+    "ro": {
+      "name": "-gh(t)",
+      "description": "Combinația de litere -gh(t) este mută în cuvinte precum night."
+    },
+    "de": {
+      "name": "-gh(t)",
+      "description": "Die Buchstabenkombination -gh(t) ist in Wörtern wie night stumm."
+    },
+    "ru": {
+      "name": "-gh(t)",
+      "description": "Буквосочетание -gh(t) не произносится в таких словах, как night."
+    },
+    "it": {
+      "name": "-gh(t)",
+      "description": "La combinazione di lettere -gh(t) è muta in parole come night."
+    },
+    "es": {
+      "name": "-gh(t)",
+      "description": "La combinación de letras -gh(t) es muda en palabras como night."
+    },
+    "fr": {
+      "name": "-gh(t)",
+      "description": "La combinaison de lettres -gh(t) est muette dans des mots comme night."
+    },
+    "hu": {
+      "name": "-gh(t)",
+      "description": "A -gh(t) betűkombináció néma a night szóhoz hasonló szavakban."
+    },
+    "pt": {
+      "name": "-gh(t)",
+      "description": "A combinação de letras -gh(t) é muda em palavras como night."
     }
   },
-  "entity_id": "LT01T07:L611",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_night"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 8640,
+      "sha1": "0747ca086b2855119f494b64b31647d6805ac45e"
+    }
+  }
 }

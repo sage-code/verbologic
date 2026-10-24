@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "fly",
-    "ro": "a zbura",
-    "de": "fliegen",
-    "ru": "летать",
-    "it": "volare",
-    "es": "volar",
-    "fr": "voler",
-    "hu": "repülni",
-    "pt": "voar"
-  },
-  "description": {
-    "en": "To fly is to move through the air using wings or an aircraft.",
-    "ro": "A zbura înseamnă a te deplasa prin aer folosind aripi sau o aeronavă.",
-    "de": "Fliegen bedeutet, sich mithilfe von Flügeln oder einem Fluggerät durch die Luft zu bewegen.",
-    "ru": "Летать — значит перемещаться по воздуху с помощью крыльев или летательного аппарата.",
-    "it": "Volare significa muoversi nell'aria usando ali o un velivolo.",
-    "es": "Volar es moverse por el aire usando alas o una aeronave.",
-    "fr": "Voler signifie se déplacer dans les airs à l'aide d'ailes ou d'un aéronef.",
-    "hu": "Repülni annyit tesz, mint szárnyak vagy légi jármű segítségével mozogni a levegőben.",
-    "pt": "Voar é mover-se pelo ar usando asas ou uma aeronave."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/aɪ/"
-    },
-    "ro": {
-      "ipa": "/a zbuˈra/"
-    },
-    "de": {
-      "ipa": "/ˈfliː.ɡən/"
-    },
-    "ru": {
-      "ipa": "/lʲɪˈtatʲ/"
-    },
-    "it": {
-      "ipa": "/voˈla.re/"
-    },
-    "es": {
-      "ipa": "/boˈlaɾ/"
-    },
-    "fr": {
-      "ipa": "/vɔ.le/"
-    },
-    "hu": {
-      "ipa": "/rɛpylli/"
-    },
-    "pt": {
-      "ipa": "/vuˈaɾ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "d4008055deacb39bc05c6d5ab434badd1c469086",
-      "key": "dictionary/CH01/CH01T01/W022/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "5c0f29f7df726b9390ceb08f93a220c2faf47111",
-      "key": "dictionary/CH01/CH01T01/W022/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "584fc1a79b2a7f2703039047f5fb7e7fe31d453a",
-      "key": "dictionary/CH01/CH01T01/W022/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a4d2ace69f9d446088f852696ebdc5105d5e29cf",
-      "key": "dictionary/CH01/CH01T01/W022/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d3c630d480e36bde91995f24e806363c7e4864fa",
-      "key": "dictionary/CH01/CH01T01/W022/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b5577f357c51c96d41389b196a06da3608139ac5",
-      "key": "dictionary/CH01/CH01T01/W022/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "6133aaed64b86b24a03c900641f7fd04e2505efd",
-      "key": "dictionary/CH01/CH01T01/W022/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "c45a8feaae6fd97a8c2a7b9b6e79732397fcb0c8",
-      "key": "dictionary/CH01/CH01T01/W022/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a459f2bd9eb6932d6622e92408b9773513ab4863",
-      "key": "dictionary/CH01/CH01T01/W022/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W022",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "vocală finală",
-      "example": "fly"
+      "name": "fly",
+      "description": "To fly is to move through the air using wings or an aircraft.",
+      "ipa": "/aɪ/",
+      "example": "fly",
+      "context": "vocală finală"
+    },
+    "ro": {
+      "name": "a zbura",
+      "description": "A zbura înseamnă a te deplasa prin aer folosind aripi sau o aeronavă.",
+      "ipa": "/a zbuˈra/"
+    },
+    "de": {
+      "name": "fliegen",
+      "description": "Fliegen bedeutet, sich mithilfe von Flügeln oder einem Fluggerät durch die Luft zu bewegen.",
+      "ipa": "/ˈfliː.ɡən/"
+    },
+    "ru": {
+      "name": "летать",
+      "description": "Летать — значит перемещаться по воздуху с помощью крыльев или летательного аппарата.",
+      "ipa": "/lʲɪˈtatʲ/"
+    },
+    "it": {
+      "name": "volare",
+      "description": "Volare significa muoversi nell'aria usando ali o un velivolo.",
+      "ipa": "/voˈla.re/"
+    },
+    "es": {
+      "name": "volar",
+      "description": "Volar es moverse por el aire usando alas o una aeronave.",
+      "ipa": "/boˈlaɾ/"
+    },
+    "fr": {
+      "name": "voler",
+      "description": "Voler signifie se déplacer dans les airs à l'aide d'ailes ou d'un aéronef.",
+      "ipa": "/vɔ.le/"
+    },
+    "hu": {
+      "name": "repülni",
+      "description": "Repülni annyit tesz, mint szárnyak vagy légi jármű segítségével mozogni a levegőben.",
+      "ipa": "/rɛpylli/"
+    },
+    "pt": {
+      "name": "voar",
+      "description": "Voar é mover-se pelo ar usando asas ou uma aeronave.",
+      "ipa": "/vuˈaɾ/"
     }
   },
-  "entity_id": "CH01T01:W022",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "d4008055deacb39bc05c6d5ab434badd1c469086"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "5c0f29f7df726b9390ceb08f93a220c2faf47111"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "584fc1a79b2a7f2703039047f5fb7e7fe31d453a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "a4d2ace69f9d446088f852696ebdc5105d5e29cf"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "d3c630d480e36bde91995f24e806363c7e4864fa"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "b5577f357c51c96d41389b196a06da3608139ac5"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "6133aaed64b86b24a03c900641f7fd04e2505efd"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "c45a8feaae6fd97a8c2a7b9b6e79732397fcb0c8"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "a459f2bd9eb6932d6622e92408b9773513ab4863"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T04",
   "kind": "word",
-  "names": {
-    "en": "bed",
-    "ro": "pat",
-    "de": "Bett",
-    "ru": "Кровать",
-    "it": "letto",
-    "es": "cama",
-    "fr": "lit",
-    "hu": "Ágy",
-    "pt": "Cama"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/pat/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "c2edb71b961acfe76c84c7b5f9dabe71b99b088d",
-      "key": "dictionary/CH02/CH02T04/W206/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T04:W206",
+  "cefr": "A1",
   "tags": [
     "vocabulary#home-objects"
   ],
-  "metadata": {},
-  "entity_id": "CH02T04:W206",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "bed"
+    },
+    "ro": {
+      "name": "pat",
+      "ipa": "/pat/"
+    },
+    "de": {
+      "name": "Bett"
+    },
+    "ru": {
+      "name": "Кровать"
+    },
+    "it": {
+      "name": "letto"
+    },
+    "es": {
+      "name": "cama"
+    },
+    "fr": {
+      "name": "lit"
+    },
+    "hu": {
+      "name": "Ágy"
+    },
+    "pt": {
+      "name": "Cama"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "c2edb71b961acfe76c84c7b5f9dabe71b99b088d"
+    }
+  }
 }

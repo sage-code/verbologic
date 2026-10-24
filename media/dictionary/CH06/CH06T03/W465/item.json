@@ -4,111 +4,45 @@
   "chapter": "CH06",
   "topic": "CH06T03",
   "kind": "word",
-  "names": {
-    "en": "plus",
-    "ro": "plus",
-    "de": "plus",
-    "ru": "плюс",
-    "it": "più",
-    "es": "más",
-    "fr": "plus",
-    "hu": "plusz",
-    "pt": "mais"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/plus/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "c9e225c04f3adfc169025412dfbeaf9b98b18668",
-      "key": "dictionary/CH06/CH06T03/W465/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH06T03:W465",
+  "cefr": "B1",
   "tags": [
     "scaffold#C6T03"
   ],
-  "metadata": {},
-  "entity_id": "CH06T03:W465",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "plus"
+    },
+    "ro": {
+      "name": "plus",
+      "ipa": "/plus/"
+    },
+    "de": {
+      "name": "plus"
+    },
+    "ru": {
+      "name": "плюс"
+    },
+    "it": {
+      "name": "più"
+    },
+    "es": {
+      "name": "más"
+    },
+    "fr": {
+      "name": "plus"
+    },
+    "hu": {
+      "name": "plusz"
+    },
+    "pt": {
+      "name": "mais"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "c9e225c04f3adfc169025412dfbeaf9b98b18668"
+    }
+  }
 }

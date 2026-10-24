@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "ea",
-    "ro": "ea in bread (pâine), team (echipă)",
-    "de": "ea in bread (Brot), team (Team)",
-    "ru": "ea in bread (хлеб), team (команда)",
-    "it": "ea in bread (pane), team (squadra)",
-    "es": "ea in bread (pan), team (equipo)",
-    "fr": "ea in bread (pain), team (équipe)",
-    "hu": "ea in bread (kenyér), team (csapat)",
-    "pt": "ea in bread (pão), team (equipe)"
-  },
-  "description": {
-    "en": "This is the letter L317 from the vowel-consonant groups.",
-    "ro": "Aceasta este litera L317 din grupurile vocală-consoană.",
-    "de": "Dies ist der Buchstabe L317 aus den Vokal-Konsonant-Gruppen.",
-    "ru": "Это буква L317 из групп гласных и согласных.",
-    "it": "Questa è la lettera L317 dei gruppi vocale-consonante.",
-    "es": "Esta es la letra L317 de los grupos vocal-consonante.",
-    "fr": "Ceci est la lettre L317 des groupes voyelle-consonne.",
-    "hu": "Ez az L317 betű a magánhangzó-mássalhangzó csoportokból.",
-    "pt": "Esta é a letra L317 dos grupos vogal-consoante."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/iː/ or /e/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4608,
-      "sha1": "0f52ecd45a40ae248c5bbc1fb321ffa645aff468",
-      "key": "lectures/LT01/LT01T08/L317/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L317",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L317",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ea",
+      "description": "This is the letter L317 from the vowel-consonant groups.",
+      "ipa": "/iː/ or /e/"
+    },
+    "ro": {
+      "name": "ea in bread (pâine), team (echipă)",
+      "description": "Aceasta este litera L317 din grupurile vocală-consoană."
+    },
+    "de": {
+      "name": "ea in bread (Brot), team (Team)",
+      "description": "Dies ist der Buchstabe L317 aus den Vokal-Konsonant-Gruppen."
+    },
+    "ru": {
+      "name": "ea in bread (хлеб), team (команда)",
+      "description": "Это буква L317 из групп гласных и согласных."
+    },
+    "it": {
+      "name": "ea in bread (pane), team (squadra)",
+      "description": "Questa è la lettera L317 dei gruppi vocale-consonante."
+    },
+    "es": {
+      "name": "ea in bread (pan), team (equipo)",
+      "description": "Esta es la letra L317 de los grupos vocal-consonante."
+    },
+    "fr": {
+      "name": "ea in bread (pain), team (équipe)",
+      "description": "Ceci est la lettre L317 des groupes voyelle-consonne."
+    },
+    "hu": {
+      "name": "ea in bread (kenyér), team (csapat)",
+      "description": "Ez az L317 betű a magánhangzó-mássalhangzó csoportokból."
+    },
+    "pt": {
+      "name": "ea in bread (pão), team (equipe)",
+      "description": "Esta é a letra L317 dos grupos vogal-consoante."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4608,
+      "sha1": "0f52ecd45a40ae248c5bbc1fb321ffa645aff468"
+    }
+  }
 }

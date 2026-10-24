@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "K",
-    "ro": "K",
-    "de": "K",
-    "ru": "K",
-    "it": "K",
-    "es": "K",
-    "fr": "K",
-    "hu": "K",
-    "pt": "K"
-  },
-  "description": {
-    "en": "The letter K is the twelfth letter of the Romanian alphabet.",
-    "ro": "Litera K este a douăsprezecea literă a alfabetului român.",
-    "de": "Der Buchstabe K ist der zwölfte Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква K — двенадцатая буква румынского алфавита.",
-    "it": "La lettera K è la dodicesima lettera dell'alfabeto rumeno.",
-    "es": "La letra K es la duodécima letra del alfabeto rumano.",
-    "fr": "La lettre K est la douzième lettre de l'alphabet roumain.",
-    "hu": "A K betű a román ábécé tizenkettedik betűje.",
-    "pt": "A letra K é a décima segunda letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/k/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7776,
-      "sha1": "904d79aecf469dc4f5e4005cd9e237b722c38815",
-      "key": "lectures/LT01/LT01T01/L014/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L014",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L014",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "K",
+      "description": "The letter K is the twelfth letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "K",
+      "description": "Litera K este a douăsprezecea literă a alfabetului român.",
+      "ipa": "/k/"
+    },
+    "de": {
+      "name": "K",
+      "description": "Der Buchstabe K ist der zwölfte Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "K",
+      "description": "Буква K — двенадцатая буква румынского алфавита."
+    },
+    "it": {
+      "name": "K",
+      "description": "La lettera K è la dodicesima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "K",
+      "description": "La letra K es la duodécima letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "K",
+      "description": "La lettre K est la douzième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "K",
+      "description": "A K betű a román ábécé tizenkettedik betűje."
+    },
+    "pt": {
+      "name": "K",
+      "description": "A letra K é a décima segunda letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 7776,
+      "sha1": "904d79aecf469dc4f5e4005cd9e237b722c38815"
+    }
+  }
 }

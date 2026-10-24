@@ -4,111 +4,45 @@
   "chapter": "CH10",
   "topic": "CH10T02",
   "kind": "word",
-  "names": {
-    "en": "comment",
-    "ro": "comentariu",
-    "de": "Kommentar",
-    "ru": "комментарий",
-    "it": "commento",
-    "es": "comentario",
-    "fr": "commentaire",
-    "hu": "hozzászólás",
-    "pt": "comentário"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/komenˈtariu/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "db26eddcebfb9adc3daae08e8b4414eecd728d56",
-      "key": "dictionary/CH10/CH10T02/W717/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH10T02:W717",
+  "cefr": "C1",
   "tags": [
     "scaffold#C10T02"
   ],
-  "metadata": {},
-  "entity_id": "CH10T02:W717",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "comment"
+    },
+    "ro": {
+      "name": "comentariu",
+      "ipa": "/komenˈtariu/"
+    },
+    "de": {
+      "name": "Kommentar"
+    },
+    "ru": {
+      "name": "комментарий"
+    },
+    "it": {
+      "name": "commento"
+    },
+    "es": {
+      "name": "comentario"
+    },
+    "fr": {
+      "name": "commentaire"
+    },
+    "hu": {
+      "name": "hozzászólás"
+    },
+    "pt": {
+      "name": "comentário"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "db26eddcebfb9adc3daae08e8b4414eecd728d56"
+    }
+  }
 }

@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "S",
-    "ro": "S",
-    "de": "S",
-    "ru": "S",
-    "it": "S",
-    "es": "S",
-    "fr": "S",
-    "hu": "S",
-    "pt": "S"
-  },
-  "description": {
-    "en": "Letter name: S. Example: rose.",
-    "ro": "Numele literei: S. Exemplu: rose.",
-    "de": "Buchstabenname: S. Beispiel: rose.",
-    "ru": "Название буквы: S. Пример: rose.",
-    "it": "Nome della lettera: S. Esempio: rose.",
-    "es": "Nombre de la letra: S. Ejemplo: rose.",
-    "fr": "Nom de la lettre : S. Exemple : rose.",
-    "hu": "Betű neve: S. Példa: rose.",
-    "pt": "Nome da letra: S. Exemplo: rose."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/z/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 6336,
-      "sha1": "b3851b0938f217f7be1d4c0937538c5dad57413f"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L590",
+  "legacy_entity_id": "letter_rose",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "S",
-      "example": "rose"
+      "name": "S",
+      "description": "Letter name: S. Example: rose.",
+      "ipa": "/z/",
+      "example": "rose",
+      "context": "S"
+    },
+    "ro": {
+      "name": "S",
+      "description": "Numele literei: S. Exemplu: rose."
+    },
+    "de": {
+      "name": "S",
+      "description": "Buchstabenname: S. Beispiel: rose."
+    },
+    "ru": {
+      "name": "S",
+      "description": "Название буквы: S. Пример: rose."
+    },
+    "it": {
+      "name": "S",
+      "description": "Nome della lettera: S. Esempio: rose."
+    },
+    "es": {
+      "name": "S",
+      "description": "Nombre de la letra: S. Ejemplo: rose."
+    },
+    "fr": {
+      "name": "S",
+      "description": "Nom de la lettre : S. Exemple : rose."
+    },
+    "hu": {
+      "name": "S",
+      "description": "Betű neve: S. Példa: rose."
+    },
+    "pt": {
+      "name": "S",
+      "description": "Nome da letra: S. Exemplo: rose."
     }
   },
-  "entity_id": "LT01T07:L590",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_rose"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 6336,
+      "sha1": "b3851b0938f217f7be1d4c0937538c5dad57413f"
+    }
+  }
 }

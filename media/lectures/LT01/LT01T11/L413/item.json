@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T11",
   "kind": "letter",
-  "names": {
-    "en": "I",
-    "ro": "I",
-    "de": "I",
-    "ru": "I",
-    "it": "I",
-    "es": "I",
-    "fr": "I",
-    "hu": "I",
-    "pt": "I"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": "Letter name: i. Example: isola.",
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": {
-      "ipa": "/i/"
-    },
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4752,
-      "sha1": "45d1b114844380c4f39f5a0f12f0503765d63362"
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T11:L413",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "I"
+    },
+    "ro": {
+      "name": "I"
+    },
+    "de": {
+      "name": "I"
+    },
+    "ru": {
+      "name": "I"
+    },
     "it": {
-      "context": "i",
-      "example": "isola"
+      "name": "I",
+      "description": "Letter name: i. Example: isola.",
+      "ipa": "/i/",
+      "example": "isola",
+      "context": "i"
+    },
+    "es": {
+      "name": "I"
+    },
+    "fr": {
+      "name": "I"
+    },
+    "hu": {
+      "name": "I"
+    },
+    "pt": {
+      "name": "I"
     }
   },
-  "entity_id": "LT01T11:L413",
-  "cefr": "A1"
+  "files": {
+    "sound/it.mp3": {
+      "bytes": 4752,
+      "sha1": "45d1b114844380c4f39f5a0f12f0503765d63362"
+    }
+  }
 }

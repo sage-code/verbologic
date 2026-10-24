@@ -4,176 +4,114 @@
   "chapter": "CH01",
   "topic": "CH01T09",
   "kind": "letter",
+  "entity_id": "CH01T09:W150",
+  "cefr": "A1",
   "letter": "F",
-  "names": {
-    "en": "F (ef)",
-    "ro": "F (ef)",
-    "de": "F (ef)",
-    "ru": "F (эф)",
-    "it": "F (effe)",
-    "es": "F (efe)",
-    "fr": "F (effe)",
-    "hu": "F (ef)",
-    "pt": "F (éfe)"
-  },
-  "description": {
-    "en": "The letter F in the Latin alphabet, named ef.",
-    "ro": "Litera F din alfabetul latin, numită ef.",
-    "de": "Der Buchstabe F des lateinischen Alphabets, genannt ef.",
-    "ru": "Буква F латинского алфавита, называемая «эф».",
-    "it": "La lettera F dell'alfabeto latino, chiamata effe.",
-    "es": "La letra F del alfabeto latino, llamada efe.",
-    "fr": "La lettre F de l'alphabet latin, appelée effe.",
-    "hu": "A latin ábécé F betűje, neve ef.",
-    "pt": "A letra F do alfabeto latino, chamada éfe."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɛf/"
-    },
-    "ro": {
-      "ipa": "/ef/"
-    },
-    "de": {
-      "ipa": "/ɛf/"
-    },
-    "ru": {
-      "ipa": "/ɛf/"
-    },
-    "it": {
-      "ipa": "/ˈɛffe/"
-    },
-    "es": {
-      "ipa": "/ˈefe/"
-    },
-    "fr": {
-      "ipa": "/ɛf/"
-    },
-    "hu": {
-      "ipa": "/ɛf/"
-    },
-    "pt": {
-      "ipa": "/ˈɛfɨ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3bb74bbc3ba48af9c714c5b8cd18e97dac376910",
-      "key": "dictionary/CH01/CH01T09/W150/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "70e959d96ee94599ecf95be0f382921f5f8cc45f",
-      "key": "dictionary/CH01/CH01T09/W150/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "4a2cfb908a0ebeb790ed22c1ed5fee359455945d",
-      "key": "dictionary/CH01/CH01T09/W150/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "eb8e3d79bc8ea1466f36a1bfdc531c4175c5b6cc",
-      "key": "dictionary/CH01/CH01T09/W150/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "6f3dc8bf17b6b86e9c9530fc4809111fa8e11eb4",
-      "key": "dictionary/CH01/CH01T09/W150/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ae0cf24b0a30efc6f5719ef0a29045bfb98d2430",
-      "key": "dictionary/CH01/CH01T09/W150/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3a77a503b53f393a83c55479c9667c7453530621",
-      "key": "dictionary/CH01/CH01T09/W150/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "fa8c7005c215d0028e557abf963abcad7a5926af",
-      "key": "dictionary/CH01/CH01T09/W150/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1a88d10333cfbea4b2047ab44747abbb8a2e802b",
-      "key": "dictionary/CH01/CH01T09/W150/sound/pt.mp3"
-    }
-  },
-  "ttsText": {
-    "en": "ef",
-    "ro": "ef",
-    "de": "ef",
-    "ru": "эф",
-    "it": "effe",
-    "es": "efe",
-    "fr": "effe",
-    "hu": "ef",
-    "pt": "éfe"
-  },
   "tags": [
     "alphabet#common-letter",
     "alphabet#latin"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "F (ef)",
+      "description": "The letter F in the Latin alphabet, named ef.",
+      "ipa": "/ɛf/",
+      "ttsText": "ef",
       "example": "ef"
     },
     "ro": {
+      "name": "F (ef)",
+      "description": "Litera F din alfabetul latin, numită ef.",
+      "ipa": "/ef/",
+      "ttsText": "ef",
       "example": "ef"
     },
     "de": {
+      "name": "F (ef)",
+      "description": "Der Buchstabe F des lateinischen Alphabets, genannt ef.",
+      "ipa": "/ɛf/",
+      "ttsText": "ef",
       "example": "ef"
     },
     "ru": {
+      "name": "F (эф)",
+      "description": "Буква F латинского алфавита, называемая «эф».",
+      "ipa": "/ɛf/",
+      "ttsText": "эф",
       "example": "эф"
     },
     "it": {
+      "name": "F (effe)",
+      "description": "La lettera F dell'alfabeto latino, chiamata effe.",
+      "ipa": "/ˈɛffe/",
+      "ttsText": "effe",
       "example": "effe"
     },
     "es": {
+      "name": "F (efe)",
+      "description": "La letra F del alfabeto latino, llamada efe.",
+      "ipa": "/ˈefe/",
+      "ttsText": "efe",
       "example": "efe"
     },
     "fr": {
+      "name": "F (effe)",
+      "description": "La lettre F de l'alphabet latin, appelée effe.",
+      "ipa": "/ɛf/",
+      "ttsText": "effe",
       "example": "effe"
     },
     "hu": {
+      "name": "F (ef)",
+      "description": "A latin ábécé F betűje, neve ef.",
+      "ipa": "/ɛf/",
+      "ttsText": "ef",
       "example": "ef"
     },
     "pt": {
+      "name": "F (éfe)",
+      "description": "A letra F do alfabeto latino, chamada éfe.",
+      "ipa": "/ˈɛfɨ/",
+      "ttsText": "éfe",
       "example": "éfe"
     }
   },
-  "entity_id": "CH01T09:W150",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "3bb74bbc3ba48af9c714c5b8cd18e97dac376910"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "70e959d96ee94599ecf95be0f382921f5f8cc45f"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "4a2cfb908a0ebeb790ed22c1ed5fee359455945d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "eb8e3d79bc8ea1466f36a1bfdc531c4175c5b6cc"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "6f3dc8bf17b6b86e9c9530fc4809111fa8e11eb4"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "ae0cf24b0a30efc6f5719ef0a29045bfb98d2430"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "3a77a503b53f393a83c55479c9667c7453530621"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "fa8c7005c215d0028e557abf963abcad7a5926af"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "1a88d10333cfbea4b2047ab44747abbb8a2e802b"
+    }
+  }
 }

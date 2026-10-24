@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T03",
   "kind": "word",
-  "names": {
-    "en": "recycling",
-    "ro": "reciclare",
-    "de": "Recycling",
-    "ru": "переработка",
-    "it": "riciclaggio",
-    "es": "reciclaje",
-    "fr": "recyclage",
-    "hu": "újrahasznosítás",
-    "pt": "reciclagem"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/retʃiˈklare/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "183ab62787ea3adc5437e0ee37fd52565932c0d6",
-      "key": "dictionary/CH08/CH08T03/W598/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T03:W598",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T03"
   ],
-  "metadata": {},
-  "entity_id": "CH08T03:W598",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "recycling"
+    },
+    "ro": {
+      "name": "reciclare",
+      "ipa": "/retʃiˈklare/"
+    },
+    "de": {
+      "name": "Recycling"
+    },
+    "ru": {
+      "name": "переработка"
+    },
+    "it": {
+      "name": "riciclaggio"
+    },
+    "es": {
+      "name": "reciclaje"
+    },
+    "fr": {
+      "name": "recyclage"
+    },
+    "hu": {
+      "name": "újrahasznosítás"
+    },
+    "pt": {
+      "name": "reciclagem"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "183ab62787ea3adc5437e0ee37fd52565932c0d6"
+    }
+  }
 }

@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T06",
   "kind": "word",
-  "names": {
-    "en": "industry",
-    "ro": "industrie",
-    "de": "Industrie",
-    "ru": "промышленность",
-    "it": "industria",
-    "es": "industria",
-    "fr": "industrie",
-    "hu": "ipar",
-    "pt": "indústria"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/induˈstrie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "da7646d6a46259c8af6d0d2ec2663f796b244b7b",
-      "key": "dictionary/CH09/CH09T06/W683/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T06:W683",
+  "cefr": "C1",
   "tags": [
     "scaffold#C9T06"
   ],
-  "metadata": {},
-  "entity_id": "CH09T06:W683",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "industry"
+    },
+    "ro": {
+      "name": "industrie",
+      "ipa": "/induˈstrie/"
+    },
+    "de": {
+      "name": "Industrie"
+    },
+    "ru": {
+      "name": "промышленность"
+    },
+    "it": {
+      "name": "industria"
+    },
+    "es": {
+      "name": "industria"
+    },
+    "fr": {
+      "name": "industrie"
+    },
+    "hu": {
+      "name": "ipar"
+    },
+    "pt": {
+      "name": "indústria"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "da7646d6a46259c8af6d0d2ec2663f796b244b7b"
+    }
+  }
 }

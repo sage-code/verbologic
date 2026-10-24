@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T06",
   "kind": "word",
-  "names": {
-    "en": "symbol",
-    "ro": "simbol",
-    "de": "Symbol",
-    "ru": "символ",
-    "it": "simbolo",
-    "es": "símbolo",
-    "fr": "symbole",
-    "hu": "szimbólum",
-    "pt": "símbolo"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/simˈbol/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "0cbe7121e2139e1ae83a8766bc7170c9c4e2320c",
-      "key": "dictionary/CH12/CH12T06/W891/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T06:W891",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T06"
   ],
-  "metadata": {},
-  "entity_id": "CH12T06:W891",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "symbol"
+    },
+    "ro": {
+      "name": "simbol",
+      "ipa": "/simˈbol/"
+    },
+    "de": {
+      "name": "Symbol"
+    },
+    "ru": {
+      "name": "символ"
+    },
+    "it": {
+      "name": "simbolo"
+    },
+    "es": {
+      "name": "símbolo"
+    },
+    "fr": {
+      "name": "symbole"
+    },
+    "hu": {
+      "name": "szimbólum"
+    },
+    "pt": {
+      "name": "símbolo"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "0cbe7121e2139e1ae83a8766bc7170c9c4e2320c"
+    }
+  }
 }

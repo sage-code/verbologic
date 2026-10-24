@@ -4,111 +4,45 @@
   "chapter": "CH06",
   "topic": "CH06T03",
   "kind": "word",
-  "names": {
-    "en": "division",
-    "ro": "împărțire",
-    "de": "Division",
-    "ru": "деление",
-    "it": "divisione",
-    "es": "división",
-    "fr": "division",
-    "hu": "osztás",
-    "pt": "divisão"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ɨmpərˈtsire/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "950f245f87035526ea2ba64753f94089a16022a9",
-      "key": "dictionary/CH06/CH06T03/W468/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH06T03:W468",
+  "cefr": "B1",
   "tags": [
     "scaffold#C6T03"
   ],
-  "metadata": {},
-  "entity_id": "CH06T03:W468",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "division"
+    },
+    "ro": {
+      "name": "împărțire",
+      "ipa": "/ɨmpərˈtsire/"
+    },
+    "de": {
+      "name": "Division"
+    },
+    "ru": {
+      "name": "деление"
+    },
+    "it": {
+      "name": "divisione"
+    },
+    "es": {
+      "name": "división"
+    },
+    "fr": {
+      "name": "division"
+    },
+    "hu": {
+      "name": "osztás"
+    },
+    "pt": {
+      "name": "divisão"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "950f245f87035526ea2ba64753f94089a16022a9"
+    }
+  }
 }

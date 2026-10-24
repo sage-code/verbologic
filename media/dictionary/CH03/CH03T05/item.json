@@ -4,110 +4,23 @@
   "chapter": "CH03",
   "topic": "CH03T05",
   "kind": "topic-title",
-  "names": {
-    "en": "Meals & drinks",
-    "ro": "Mese și băuturi",
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈmese ʃi bəˈuturi/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13392,
-      "sha1": "5fe33547a2d323ed403f6f7750409d1ef7171dc8",
-      "key": "dictionary/CH03/CH03T05/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T05",
   "tags": [
     "title#topic"
   ],
-  "metadata": {},
-  "entity_id": "CH03T05"
+  "locales": {
+    "en": {
+      "name": "Meals & drinks"
+    },
+    "ro": {
+      "name": "Mese și băuturi",
+      "ipa": "/ˈmese ʃi bəˈuturi/"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 13392,
+      "sha1": "5fe33547a2d323ed403f6f7750409d1ef7171dc8"
+    }
+  }
 }

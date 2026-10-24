@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T09",
   "kind": "letter",
-  "names": {
-    "en": "Z",
-    "ro": "Z",
-    "de": "Z",
-    "ru": "Z",
-    "it": "Z",
-    "es": "Z",
-    "fr": "Z",
-    "hu": "Z",
-    "pt": "Z"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": "Letter name: Zet. Example: Zug.",
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": {
-      "ipa": "/tsɛt/"
-    },
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9a0c6fe6ec65564aebe75fc49e6eeb43aaebdf9b"
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T09:L367",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Z"
+    },
+    "ro": {
+      "name": "Z"
+    },
     "de": {
-      "context": "Zet",
-      "example": "Zug"
+      "name": "Z",
+      "description": "Letter name: Zet. Example: Zug.",
+      "ipa": "/tsɛt/",
+      "example": "Zug",
+      "context": "Zet"
+    },
+    "ru": {
+      "name": "Z"
+    },
+    "it": {
+      "name": "Z"
+    },
+    "es": {
+      "name": "Z"
+    },
+    "fr": {
+      "name": "Z"
+    },
+    "hu": {
+      "name": "Z"
+    },
+    "pt": {
+      "name": "Z"
     }
   },
-  "entity_id": "LT01T09:L367",
-  "cefr": "A1"
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "9a0c6fe6ec65564aebe75fc49e6eeb43aaebdf9b"
+    }
+  }
 }

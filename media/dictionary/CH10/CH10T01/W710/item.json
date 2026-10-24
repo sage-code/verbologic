@@ -4,111 +4,45 @@
   "chapter": "CH10",
   "topic": "CH10T01",
   "kind": "word",
-  "names": {
-    "en": "call",
-    "ro": "apel",
-    "de": "Anruf",
-    "ru": "звонок",
-    "it": "chiamata",
-    "es": "llamada",
-    "fr": "appel",
-    "hu": "hívás",
-    "pt": "chamada"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/aˈpel/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "2bbd7022af3f2f3fc4259f8c7cd7c747047ca030",
-      "key": "dictionary/CH10/CH10T01/W710/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH10T01:W710",
+  "cefr": "C1",
   "tags": [
     "vocabulary#communication-technology"
   ],
-  "metadata": {},
-  "entity_id": "CH10T01:W710",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "call"
+    },
+    "ro": {
+      "name": "apel",
+      "ipa": "/aˈpel/"
+    },
+    "de": {
+      "name": "Anruf"
+    },
+    "ru": {
+      "name": "звонок"
+    },
+    "it": {
+      "name": "chiamata"
+    },
+    "es": {
+      "name": "llamada"
+    },
+    "fr": {
+      "name": "appel"
+    },
+    "hu": {
+      "name": "hívás"
+    },
+    "pt": {
+      "name": "chamada"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "2bbd7022af3f2f3fc4259f8c7cd7c747047ca030"
+    }
+  }
 }

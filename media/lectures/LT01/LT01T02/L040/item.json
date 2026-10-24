@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "ei in trei (three)",
-    "ro": "ei",
-    "de": "ei in trei (drei)",
-    "ru": "ei в trei (три)",
-    "it": "ei in trei (tre)",
-    "es": "ei en trei (tres)",
-    "fr": "ei dans trei (trois)",
-    "hu": "ei a trei-ben (három)",
-    "pt": "ei em trei (três)"
-  },
-  "description": {
-    "en": "This item illustrates the Romanian diphthong ei as found in the word trei.",
-    "ro": "Acest element ilustrează diftongul românesc ei așa cum apare în cuvântul trei.",
-    "de": "Dieser Eintrag veranschaulicht den rumänischen Diphthong ei, wie er im Wort trei vorkommt.",
-    "ru": "Этот элемент иллюстрирует румынский дифтонг ei, встречающийся в слове trei.",
-    "it": "Questo elemento illustra il dittongo rumeno ei come si trova nella parola trei.",
-    "es": "Este elemento ilustra el diptongo rumano ei tal como aparece en la palabra trei.",
-    "fr": "Cet élément illustre la diphtongue roumaine ei telle qu'elle apparaît dans le mot trei.",
-    "hu": "Ez az elem a román ei kettőshangzót mutatja be a trei szóban.",
-    "pt": "Este item ilustra o ditongo romeno ei conforme encontrado na palavra trei."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ej/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8640,
-      "sha1": "3066d240356c4f463ade85a7bd3be979e2073784",
-      "key": "lectures/LT01/LT01T02/L040/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L040",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L040",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ei in trei (three)",
+      "description": "This item illustrates the Romanian diphthong ei as found in the word trei."
+    },
+    "ro": {
+      "name": "ei",
+      "description": "Acest element ilustrează diftongul românesc ei așa cum apare în cuvântul trei.",
+      "ipa": "/ej/"
+    },
+    "de": {
+      "name": "ei in trei (drei)",
+      "description": "Dieser Eintrag veranschaulicht den rumänischen Diphthong ei, wie er im Wort trei vorkommt."
+    },
+    "ru": {
+      "name": "ei в trei (три)",
+      "description": "Этот элемент иллюстрирует румынский дифтонг ei, встречающийся в слове trei."
+    },
+    "it": {
+      "name": "ei in trei (tre)",
+      "description": "Questo elemento illustra il dittongo rumeno ei come si trova nella parola trei."
+    },
+    "es": {
+      "name": "ei en trei (tres)",
+      "description": "Este elemento ilustra el diptongo rumano ei tal como aparece en la palabra trei."
+    },
+    "fr": {
+      "name": "ei dans trei (trois)",
+      "description": "Cet élément illustre la diphtongue roumaine ei telle qu'elle apparaît dans le mot trei."
+    },
+    "hu": {
+      "name": "ei a trei-ben (három)",
+      "description": "Ez az elem a román ei kettőshangzót mutatja be a trei szóban."
+    },
+    "pt": {
+      "name": "ei em trei (três)",
+      "description": "Este item ilustra o ditongo romeno ei conforme encontrado na palavra trei."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 8640,
+      "sha1": "3066d240356c4f463ade85a7bd3be979e2073784"
+    }
+  }
 }

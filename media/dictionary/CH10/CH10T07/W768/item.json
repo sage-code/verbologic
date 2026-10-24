@@ -4,111 +4,45 @@
   "chapter": "CH10",
   "topic": "CH10T07",
   "kind": "word",
-  "names": {
-    "en": "nanotechnology",
-    "ro": "nanotehnologie",
-    "de": "Nanotechnologie",
-    "ru": "нанотехнология",
-    "it": "nanotecnologia",
-    "es": "nanotecnología",
-    "fr": "nanotechnologie",
-    "hu": "nanotechnológia",
-    "pt": "nanotecnologia"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/nanotehnoloˈdʒie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12672,
-      "sha1": "414050f261810a176277bbca386e07f3d030dd39",
-      "key": "dictionary/CH10/CH10T07/W768/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH10T07:W768",
+  "cefr": "C1",
   "tags": [
     "scaffold#C10T07"
   ],
-  "metadata": {},
-  "entity_id": "CH10T07:W768",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "nanotechnology"
+    },
+    "ro": {
+      "name": "nanotehnologie",
+      "ipa": "/nanotehnoloˈdʒie/"
+    },
+    "de": {
+      "name": "Nanotechnologie"
+    },
+    "ru": {
+      "name": "нанотехнология"
+    },
+    "it": {
+      "name": "nanotecnologia"
+    },
+    "es": {
+      "name": "nanotecnología"
+    },
+    "fr": {
+      "name": "nanotechnologie"
+    },
+    "hu": {
+      "name": "nanotechnológia"
+    },
+    "pt": {
+      "name": "nanotecnologia"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12672,
+      "sha1": "414050f261810a176277bbca386e07f3d030dd39"
+    }
+  }
 }

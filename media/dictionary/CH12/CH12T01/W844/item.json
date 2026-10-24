@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T01",
   "kind": "word",
-  "names": {
-    "en": "to air one's dirty laundry",
-    "ro": "a da din casă",
-    "de": "Familiengeheimnisse ausplaudern",
-    "ru": "выносить сор из избы",
-    "it": "sparlare della propria famiglia",
-    "es": "sacar los trapos sucios",
-    "fr": "laver son linge sale en public",
-    "hu": "kiteregetni a szennyest",
-    "pt": "lavar a roupa suja em público"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/a da din ˈkasə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "da371ef472c1736357325e2b4dde9a8b7939cde0",
-      "key": "dictionary/CH12/CH12T01/W844/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T01:W844",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T01"
   ],
-  "metadata": {},
-  "entity_id": "CH12T01:W844",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "to air one's dirty laundry"
+    },
+    "ro": {
+      "name": "a da din casă",
+      "ipa": "/a da din ˈkasə/"
+    },
+    "de": {
+      "name": "Familiengeheimnisse ausplaudern"
+    },
+    "ru": {
+      "name": "выносить сор из избы"
+    },
+    "it": {
+      "name": "sparlare della propria famiglia"
+    },
+    "es": {
+      "name": "sacar los trapos sucios"
+    },
+    "fr": {
+      "name": "laver son linge sale en public"
+    },
+    "hu": {
+      "name": "kiteregetni a szennyest"
+    },
+    "pt": {
+      "name": "lavar a roupa suja em público"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "da371ef472c1736357325e2b4dde9a8b7939cde0"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T11",
   "kind": "letter",
-  "names": {
-    "en": "A",
-    "ro": "A",
-    "de": "A",
-    "ru": "A",
-    "it": "A",
-    "es": "A",
-    "fr": "A",
-    "hu": "A",
-    "pt": "A"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": "Letter name: a. Example: amore.",
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": {
-      "ipa": "/a/"
-    },
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4464,
-      "sha1": "575ad44f18175630c63df3e98d3fd7d88741086f"
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T11:L405",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "A"
+    },
+    "ro": {
+      "name": "A"
+    },
+    "de": {
+      "name": "A"
+    },
+    "ru": {
+      "name": "A"
+    },
     "it": {
-      "context": "a",
-      "example": "amore"
+      "name": "A",
+      "description": "Letter name: a. Example: amore.",
+      "ipa": "/a/",
+      "example": "amore",
+      "context": "a"
+    },
+    "es": {
+      "name": "A"
+    },
+    "fr": {
+      "name": "A"
+    },
+    "hu": {
+      "name": "A"
+    },
+    "pt": {
+      "name": "A"
     }
   },
-  "entity_id": "LT01T11:L405",
-  "cefr": "A1"
+  "files": {
+    "sound/it.mp3": {
+      "bytes": 4464,
+      "sha1": "575ad44f18175630c63df3e98d3fd7d88741086f"
+    }
+  }
 }

@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "B",
-    "ro": "B",
-    "de": "B",
-    "ru": "B",
-    "it": "B",
-    "es": "B",
-    "fr": "B",
-    "hu": "B",
-    "pt": "B"
-  },
-  "description": {
-    "en": "The letter B is a consonant in the Romanian alphabet.",
-    "ro": "Litera B este o consoană din alfabetul limbii române.",
-    "de": "Der Buchstabe B ist ein Konsonant im rumänischen Alphabet.",
-    "ru": "Буква B — это согласный звук румынского алфавита.",
-    "it": "La lettera B è una consonante dell'alfabeto rumeno.",
-    "es": "La letra B es una consonante del alfabeto rumano.",
-    "fr": "La lettre B est une consonne de l'alphabet roumain.",
-    "hu": "A B betű a román ábécé egyik mássalhangzója.",
-    "pt": "A letra B é uma consoante do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/b/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1425688d9db011a942903d9efe9fe66447cfa94f",
-      "key": "lectures/LT01/LT01T01/L004/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L004",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L004",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "B",
+      "description": "The letter B is a consonant in the Romanian alphabet."
+    },
+    "ro": {
+      "name": "B",
+      "description": "Litera B este o consoană din alfabetul limbii române.",
+      "ipa": "/b/"
+    },
+    "de": {
+      "name": "B",
+      "description": "Der Buchstabe B ist ein Konsonant im rumänischen Alphabet."
+    },
+    "ru": {
+      "name": "B",
+      "description": "Буква B — это согласный звук румынского алфавита."
+    },
+    "it": {
+      "name": "B",
+      "description": "La lettera B è una consonante dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "B",
+      "description": "La letra B es una consonante del alfabeto rumano."
+    },
+    "fr": {
+      "name": "B",
+      "description": "La lettre B est une consonne de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "B",
+      "description": "A B betű a román ábécé egyik mássalhangzója."
+    },
+    "pt": {
+      "name": "B",
+      "description": "A letra B é uma consoante do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "1425688d9db011a942903d9efe9fe66447cfa94f"
+    }
+  }
 }

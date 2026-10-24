@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "-sland",
-    "ro": "insulă",
-    "de": "-sland",
-    "ru": "-sland",
-    "it": "-sland",
-    "es": "-sland",
-    "fr": "-sland",
-    "hu": "-sland",
-    "pt": "-sland"
-  },
-  "description": {
-    "en": "This is a letter sequence ending in sland.",
-    "ro": "Aceasta este o secvență de litere care se termină în sland.",
-    "de": "Dies ist eine Buchstabenfolge, die auf sland endet.",
-    "ru": "Это последовательность букв, заканчивающаяся на sland.",
-    "it": "Questa è una sequenza di lettere che termina con sland.",
-    "es": "Esta es una secuencia de letras que termina en sland.",
-    "fr": "Il s'agit d'une séquence de lettres se terminant par sland.",
-    "hu": "Ez egy betűsorozat, amely sland-re végződik.",
-    "pt": "Esta é uma sequência de letras que termina em sland."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ˈaɪ.lənd/"
-    },
-    "ro": {
-      "ipa": "/ˈin.su.lə/"
-    },
-    "de": {
-      "ipa": "/sland/"
-    },
-    "ru": {
-      "ipa": "/sland/"
-    },
-    "it": {
-      "ipa": "/sland/"
-    },
-    "es": {
-      "ipa": "/sland/"
-    },
-    "fr": {
-      "ipa": "/sland/"
-    },
-    "hu": {
-      "ipa": "/sland/"
-    },
-    "pt": {
-      "ipa": "/sland/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "3832dd4415fbacc0541892fdae42db03094206e1",
-      "key": "dictionary/CH01/CH01T01/W031/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a6e301b734d5309e8171738db9d8ff5a277c846f",
-      "key": "dictionary/CH01/CH01T01/W031/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b52dc188b14589cda08a274c3ec023b5d9d109e2",
-      "key": "dictionary/CH01/CH01T01/W031/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11376,
-      "sha1": "27742ed79cdb1dd7a08b46b1dac8ddafc417e165",
-      "key": "dictionary/CH01/CH01T01/W031/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2563d9bd66eb176bfaec1ff438869538283ed3b1",
-      "key": "dictionary/CH01/CH01T01/W031/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "94f68c9a0ea87538c1ccccc91cc8ccceaba05154",
-      "key": "dictionary/CH01/CH01T01/W031/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "08552e047142a8d380aa6cf9bf78ab03b77201ba",
-      "key": "dictionary/CH01/CH01T01/W031/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "81cc07ce2d5c2c02f71b506a56025b6a3ea7b649",
-      "key": "dictionary/CH01/CH01T01/W031/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "b272a4898d1cbdc6609222dcfc6ec7549519a117",
-      "key": "dictionary/CH01/CH01T01/W031/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W031",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "s",
-      "example": "island"
+      "name": "-sland",
+      "description": "This is a letter sequence ending in sland.",
+      "ipa": "/ˈaɪ.lənd/",
+      "example": "island",
+      "context": "s"
+    },
+    "ro": {
+      "name": "insulă",
+      "description": "Aceasta este o secvență de litere care se termină în sland.",
+      "ipa": "/ˈin.su.lə/"
+    },
+    "de": {
+      "name": "-sland",
+      "description": "Dies ist eine Buchstabenfolge, die auf sland endet.",
+      "ipa": "/sland/"
+    },
+    "ru": {
+      "name": "-sland",
+      "description": "Это последовательность букв, заканчивающаяся на sland.",
+      "ipa": "/sland/"
+    },
+    "it": {
+      "name": "-sland",
+      "description": "Questa è una sequenza di lettere che termina con sland.",
+      "ipa": "/sland/"
+    },
+    "es": {
+      "name": "-sland",
+      "description": "Esta es una secuencia de letras que termina en sland.",
+      "ipa": "/sland/"
+    },
+    "fr": {
+      "name": "-sland",
+      "description": "Il s'agit d'une séquence de lettres se terminant par sland.",
+      "ipa": "/sland/"
+    },
+    "hu": {
+      "name": "-sland",
+      "description": "Ez egy betűsorozat, amely sland-re végződik.",
+      "ipa": "/sland/"
+    },
+    "pt": {
+      "name": "-sland",
+      "description": "Esta é uma sequência de letras que termina em sland.",
+      "ipa": "/sland/"
     }
   },
-  "entity_id": "CH01T01:W031",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "3832dd4415fbacc0541892fdae42db03094206e1"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "a6e301b734d5309e8171738db9d8ff5a277c846f"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "b52dc188b14589cda08a274c3ec023b5d9d109e2"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11376,
+      "sha1": "27742ed79cdb1dd7a08b46b1dac8ddafc417e165"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "2563d9bd66eb176bfaec1ff438869538283ed3b1"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "94f68c9a0ea87538c1ccccc91cc8ccceaba05154"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "08552e047142a8d380aa6cf9bf78ab03b77201ba"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "81cc07ce2d5c2c02f71b506a56025b6a3ea7b649"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "b272a4898d1cbdc6609222dcfc6ec7549519a117"
+    }
+  }
 }

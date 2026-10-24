@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "Y",
-    "ro": "Y",
-    "de": "Y",
-    "ru": "Y",
-    "it": "Y",
-    "es": "Y",
-    "fr": "Y",
-    "hu": "Y",
-    "pt": "Y"
-  },
-  "description": {
-    "en": "Letter name: Y. Example: myth.",
-    "ro": "Numele literei: Y. Exemplu: myth.",
-    "de": "Buchstabenname: Y. Beispiel: myth.",
-    "ru": "Название буквы: Y. Пример: myth.",
-    "it": "Nome della lettera: Y. Esempio: myth.",
-    "es": "Nombre de la letra: Y. Ejemplo: myth.",
-    "fr": "Nom de la lettre : Y. Exemple : myth.",
-    "hu": "Betűnév: Y. Példa: myth.",
-    "pt": "Nome da letra: Y. Exemplo: myth."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɪ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2159e7d7dad85d34c53bdf63b201de90fc6731d9"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L601",
+  "legacy_entity_id": "letter_myth",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "Y",
-      "example": "myth"
+      "name": "Y",
+      "description": "Letter name: Y. Example: myth.",
+      "ipa": "/ɪ/",
+      "example": "myth",
+      "context": "Y"
+    },
+    "ro": {
+      "name": "Y",
+      "description": "Numele literei: Y. Exemplu: myth."
+    },
+    "de": {
+      "name": "Y",
+      "description": "Buchstabenname: Y. Beispiel: myth."
+    },
+    "ru": {
+      "name": "Y",
+      "description": "Название буквы: Y. Пример: myth."
+    },
+    "it": {
+      "name": "Y",
+      "description": "Nome della lettera: Y. Esempio: myth."
+    },
+    "es": {
+      "name": "Y",
+      "description": "Nombre de la letra: Y. Ejemplo: myth."
+    },
+    "fr": {
+      "name": "Y",
+      "description": "Nom de la lettre : Y. Exemple : myth."
+    },
+    "hu": {
+      "name": "Y",
+      "description": "Betűnév: Y. Példa: myth."
+    },
+    "pt": {
+      "name": "Y",
+      "description": "Nome da letra: Y. Exemplo: myth."
     }
   },
-  "entity_id": "LT01T07:L601",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_myth"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "2159e7d7dad85d34c53bdf63b201de90fc6731d9"
+    }
+  }
 }

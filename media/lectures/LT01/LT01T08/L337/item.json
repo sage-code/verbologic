@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "dr",
-    "ro": "dr in drum (tobă)",
-    "de": "dr in drum (Trommel)",
-    "ru": "dr in drum (барабан)",
-    "it": "dr in drum (tamburo)",
-    "es": "dr in drum (tambor)",
-    "fr": "dr in drum (tambour)",
-    "hu": "dr in drum (dob)",
-    "pt": "dr in drum (tambor)"
-  },
-  "description": {
-    "en": "This is the letter L337 from the alphabet vowel-consonant groups.",
-    "ro": "Aceasta este litera L337 din grupurile de vocale și consoane ale alfabetului.",
-    "de": "Dies ist der Buchstabe L337 aus den Vokal-Konsonant-Gruppen des Alphabets.",
-    "ru": "Это буква L337 из групп гласных и согласных алфавита.",
-    "it": "Questa è la lettera L337 dei gruppi vocali-consonanti dell'alfabeto.",
-    "es": "Esta es la letra L337 de los grupos de vocales y consonantes del alfabeto.",
-    "fr": "Ceci est la lettre L337 des groupes voyelles-consonnes de l'alphabet.",
-    "hu": "Ez az L337 betű az ábécé magánhangzó-mássalhangzó csoportjaiból.",
-    "pt": "Esta é a letra L337 dos grupos de vogais e consoantes do alfabeto."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/dr/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4896,
-      "sha1": "4d806a4cb26d574d9ce9ba7dcb1387038580a37b",
-      "key": "lectures/LT01/LT01T08/L337/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L337",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L337",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "dr",
+      "description": "This is the letter L337 from the alphabet vowel-consonant groups.",
+      "ipa": "/dr/"
+    },
+    "ro": {
+      "name": "dr in drum (tobă)",
+      "description": "Aceasta este litera L337 din grupurile de vocale și consoane ale alfabetului."
+    },
+    "de": {
+      "name": "dr in drum (Trommel)",
+      "description": "Dies ist der Buchstabe L337 aus den Vokal-Konsonant-Gruppen des Alphabets."
+    },
+    "ru": {
+      "name": "dr in drum (барабан)",
+      "description": "Это буква L337 из групп гласных и согласных алфавита."
+    },
+    "it": {
+      "name": "dr in drum (tamburo)",
+      "description": "Questa è la lettera L337 dei gruppi vocali-consonanti dell'alfabeto."
+    },
+    "es": {
+      "name": "dr in drum (tambor)",
+      "description": "Esta es la letra L337 de los grupos de vocales y consonantes del alfabeto."
+    },
+    "fr": {
+      "name": "dr in drum (tambour)",
+      "description": "Ceci est la lettre L337 des groupes voyelles-consonnes de l'alphabet."
+    },
+    "hu": {
+      "name": "dr in drum (dob)",
+      "description": "Ez az L337 betű az ábécé magánhangzó-mássalhangzó csoportjaiból."
+    },
+    "pt": {
+      "name": "dr in drum (tambor)",
+      "description": "Esta é a letra L337 dos grupos de vogais e consoantes do alfabeto."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "4d806a4cb26d574d9ce9ba7dcb1387038580a37b"
+    }
+  }
 }

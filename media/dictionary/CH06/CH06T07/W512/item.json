@@ -4,111 +4,45 @@
   "chapter": "CH06",
   "topic": "CH06T07",
   "kind": "word",
-  "names": {
-    "en": "champion",
-    "ro": "campion",
-    "de": "Meister",
-    "ru": "чемпион",
-    "it": "campione",
-    "es": "campeón",
-    "fr": "champion",
-    "hu": "bajnok",
-    "pt": "campeão"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/kamˈpion/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "9745457a1f7252dccf4efa4bfbe54d49ed79ac53",
-      "key": "dictionary/CH06/CH06T07/W512/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH06T07:W512",
+  "cefr": "B1",
   "tags": [
     "scaffold#C6T07"
   ],
-  "metadata": {},
-  "entity_id": "CH06T07:W512",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "champion"
+    },
+    "ro": {
+      "name": "campion",
+      "ipa": "/kamˈpion/"
+    },
+    "de": {
+      "name": "Meister"
+    },
+    "ru": {
+      "name": "чемпион"
+    },
+    "it": {
+      "name": "campione"
+    },
+    "es": {
+      "name": "campeón"
+    },
+    "fr": {
+      "name": "champion"
+    },
+    "hu": {
+      "name": "bajnok"
+    },
+    "pt": {
+      "name": "campeão"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "9745457a1f7252dccf4efa4bfbe54d49ed79ac53"
+    }
+  }
 }

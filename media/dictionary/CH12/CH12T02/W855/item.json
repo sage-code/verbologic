@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T02",
   "kind": "word",
-  "names": {
-    "en": "You reap what you sow",
-    "ro": "După faptă și răsplată",
-    "de": "Wie man sich bettet, so liegt man",
-    "ru": "Что посеешь, то и пожнёшь",
-    "it": "Si raccoglie quel che si semina",
-    "es": "Se cosecha lo que se siembra",
-    "fr": "On récolte ce que l'on sème",
-    "hu": "Ki mint vet, úgy arat",
-    "pt": "Quem semeia colhe"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈdupə ˈfaptə ʃi rəsˈplatə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 15552,
-      "sha1": "f812f350f2617cac89a9334368624534d948881b",
-      "key": "dictionary/CH12/CH12T02/W855/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T02:W855",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T02"
   ],
-  "metadata": {},
-  "entity_id": "CH12T02:W855",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "You reap what you sow"
+    },
+    "ro": {
+      "name": "După faptă și răsplată",
+      "ipa": "/ˈdupə ˈfaptə ʃi rəsˈplatə/"
+    },
+    "de": {
+      "name": "Wie man sich bettet, so liegt man"
+    },
+    "ru": {
+      "name": "Что посеешь, то и пожнёшь"
+    },
+    "it": {
+      "name": "Si raccoglie quel che si semina"
+    },
+    "es": {
+      "name": "Se cosecha lo que se siembra"
+    },
+    "fr": {
+      "name": "On récolte ce que l'on sème"
+    },
+    "hu": {
+      "name": "Ki mint vet, úgy arat"
+    },
+    "pt": {
+      "name": "Quem semeia colhe"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 15552,
+      "sha1": "f812f350f2617cac89a9334368624534d948881b"
+    }
+  }
 }

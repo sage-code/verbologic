@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "M",
-    "ro": "M",
-    "de": "M",
-    "ru": "M",
-    "it": "M",
-    "es": "M",
-    "fr": "M",
-    "hu": "M",
-    "pt": "M"
-  },
-  "description": {
-    "en": "The letter M is the thirteenth letter of the Romanian alphabet.",
-    "ro": "Litera M este a treisprezecea literă a alfabetului român.",
-    "de": "Der Buchstabe M ist der dreizehnte Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква M — тринадцатая буква румынского алфавита.",
-    "it": "La lettera M è la tredicesima lettera dell'alfabeto rumeno.",
-    "es": "La letra M es la decimotercera letra del alfabeto rumano.",
-    "fr": "La lettre M est la treizième lettre de l'alphabet roumain.",
-    "hu": "Az M betű a román ábécé tizenharmadik betűje.",
-    "pt": "A letra M é a décima terceira letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/m/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "bb9c1dcb310ae38602e9db80dedb1ed586895923",
-      "key": "lectures/LT01/LT01T01/L016/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L016",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L016",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "M",
+      "description": "The letter M is the thirteenth letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "M",
+      "description": "Litera M este a treisprezecea literă a alfabetului român.",
+      "ipa": "/m/"
+    },
+    "de": {
+      "name": "M",
+      "description": "Der Buchstabe M ist der dreizehnte Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "M",
+      "description": "Буква M — тринадцатая буква румынского алфавита."
+    },
+    "it": {
+      "name": "M",
+      "description": "La lettera M è la tredicesima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "M",
+      "description": "La letra M es la decimotercera letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "M",
+      "description": "La lettre M est la treizième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "M",
+      "description": "Az M betű a román ábécé tizenharmadik betűje."
+    },
+    "pt": {
+      "name": "M",
+      "description": "A letra M é a décima terceira letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "bb9c1dcb310ae38602e9db80dedb1ed586895923"
+    }
+  }
 }

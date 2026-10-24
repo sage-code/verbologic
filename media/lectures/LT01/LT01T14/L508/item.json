@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T14",
   "kind": "letter",
-  "names": {
-    "en": "Ó",
-    "ro": "Ó",
-    "de": "Ó",
-    "ru": "Ó",
-    "it": "Ó",
-    "es": "Ó",
-    "fr": "Ó",
-    "hu": "Ó",
-    "pt": "Ó"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": "Letter name: ó. Example: óra.",
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": {
-      "ipa": "/oː/"
-    },
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "017f7c2a0c9de6490b1273b02a02fb44cdedd48a"
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T14:L508",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Ó"
+    },
+    "ro": {
+      "name": "Ó"
+    },
+    "de": {
+      "name": "Ó"
+    },
+    "ru": {
+      "name": "Ó"
+    },
+    "it": {
+      "name": "Ó"
+    },
+    "es": {
+      "name": "Ó"
+    },
+    "fr": {
+      "name": "Ó"
+    },
     "hu": {
-      "context": "ó",
-      "example": "óra"
+      "name": "Ó",
+      "description": "Letter name: ó. Example: óra.",
+      "ipa": "/oː/",
+      "example": "óra",
+      "context": "ó"
+    },
+    "pt": {
+      "name": "Ó"
     }
   },
-  "entity_id": "LT01T14:L508",
-  "cefr": "A1"
+  "files": {
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "017f7c2a0c9de6490b1273b02a02fb44cdedd48a"
+    }
+  }
 }

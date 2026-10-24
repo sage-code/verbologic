@@ -4,115 +4,56 @@
   "chapter": "LT01",
   "topic": "LT01T09",
   "kind": "letter",
-  "names": {
-    "en": "E",
-    "ro": "E",
-    "de": "E",
-    "ru": "E",
-    "it": "E",
-    "es": "E",
-    "fr": "E",
-    "hu": "E",
-    "pt": "E"
-  },
-  "description": {
-    "en": "The letter name is E, as in the word Elefant.",
-    "ro": "Numele literei este E, ca în cuvântul Elefant.",
-    "de": "Letter name: E. Example: Elefant.",
-    "ru": "Название буквы — E, как в слове Elefant.",
-    "it": "Il nome della lettera è E, come nella parola Elefant.",
-    "es": "El nombre de la letra es E, como en la palabra Elefant.",
-    "fr": "Le nom de la lettre est E, comme dans le mot Elefant.",
-    "hu": "A betű neve E, mint az Elefant szóban.",
-    "pt": "O nome da letra é E, como na palavra Elefant."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": {
-      "ipa": "/eː/"
-    },
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7344,
-      "sha1": "f7a906b00411ee07ed300586cd349ff4a808fbd4"
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T09:L346",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "E",
+      "description": "The letter name is E, as in the word Elefant."
+    },
+    "ro": {
+      "name": "E",
+      "description": "Numele literei este E, ca în cuvântul Elefant."
+    },
     "de": {
-      "context": "E",
-      "example": "Elefant"
+      "name": "E",
+      "description": "Letter name: E. Example: Elefant.",
+      "ipa": "/eː/",
+      "example": "Elefant",
+      "context": "E"
+    },
+    "ru": {
+      "name": "E",
+      "description": "Название буквы — E, как в слове Elefant."
+    },
+    "it": {
+      "name": "E",
+      "description": "Il nome della lettera è E, come nella parola Elefant."
+    },
+    "es": {
+      "name": "E",
+      "description": "El nombre de la letra es E, como en la palabra Elefant."
+    },
+    "fr": {
+      "name": "E",
+      "description": "Le nom de la lettre est E, comme dans le mot Elefant."
+    },
+    "hu": {
+      "name": "E",
+      "description": "A betű neve E, mint az Elefant szóban."
+    },
+    "pt": {
+      "name": "E",
+      "description": "O nome da letra é E, como na palavra Elefant."
     }
   },
-  "entity_id": "LT01T09:L346",
-  "cefr": "A1"
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 7344,
+      "sha1": "f7a906b00411ee07ed300586cd349ff4a808fbd4"
+    }
+  }
 }

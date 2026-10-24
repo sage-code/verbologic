@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T13",
   "kind": "letter",
-  "names": {
-    "en": "J",
-    "ro": "J",
-    "de": "J",
-    "ru": "J",
-    "it": "J",
-    "es": "J",
-    "fr": "J",
-    "hu": "J",
-    "pt": "J"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": "Letter name: ji. Example: jour.",
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": {
-      "ipa": "/ʒi/"
-    },
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0b3aa18a429e92e5bb0d2d9f69e83d43b83d38e8"
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T13:L467",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "J"
+    },
+    "ro": {
+      "name": "J"
+    },
+    "de": {
+      "name": "J"
+    },
+    "ru": {
+      "name": "J"
+    },
+    "it": {
+      "name": "J"
+    },
+    "es": {
+      "name": "J"
+    },
     "fr": {
-      "context": "ji",
-      "example": "jour"
+      "name": "J",
+      "description": "Letter name: ji. Example: jour.",
+      "ipa": "/ʒi/",
+      "example": "jour",
+      "context": "ji"
+    },
+    "hu": {
+      "name": "J"
+    },
+    "pt": {
+      "name": "J"
     }
   },
-  "entity_id": "LT01T13:L467",
-  "cefr": "A1"
+  "files": {
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "0b3aa18a429e92e5bb0d2d9f69e83d43b83d38e8"
+    }
+  }
 }

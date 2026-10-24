@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T04",
   "kind": "word",
-  "names": {
-    "en": "kindness",
-    "ro": "amabilitate",
-    "de": "Freundlichkeit",
-    "ru": "любезность",
-    "it": "gentilezza",
-    "es": "amabilidad",
-    "fr": "amabilité",
-    "hu": "kedvesség",
-    "pt": "amabilidade"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/amabiliˈtate/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "748cc75dbda2af455c53e2a2bf8ebb4edf01d5fe",
-      "key": "dictionary/CH12/CH12T04/W878/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T04:W878",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T04"
   ],
-  "metadata": {},
-  "entity_id": "CH12T04:W878",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "kindness"
+    },
+    "ro": {
+      "name": "amabilitate",
+      "ipa": "/amabiliˈtate/"
+    },
+    "de": {
+      "name": "Freundlichkeit"
+    },
+    "ru": {
+      "name": "любезность"
+    },
+    "it": {
+      "name": "gentilezza"
+    },
+    "es": {
+      "name": "amabilidad"
+    },
+    "fr": {
+      "name": "amabilité"
+    },
+    "hu": {
+      "name": "kedvesség"
+    },
+    "pt": {
+      "name": "amabilidade"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "748cc75dbda2af455c53e2a2bf8ebb4edf01d5fe"
+    }
+  }
 }

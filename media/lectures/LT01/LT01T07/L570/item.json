@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "R",
-    "ro": "R",
-    "de": "R",
-    "ru": "R",
-    "it": "R",
-    "es": "R",
-    "fr": "R",
-    "hu": "R",
-    "pt": "R"
-  },
-  "description": {
-    "en": "Letter name: R. Example: around.",
-    "ro": "Numele literei: R. Exemplu: around.",
-    "de": "Buchstabenname: R. Beispiel: around.",
-    "ru": "Название буквы: R. Пример: around.",
-    "it": "Nome della lettera: R. Esempio: around.",
-    "es": "Nombre de la letra: R. Ejemplo: around.",
-    "fr": "Nom de la lettre : R. Exemple : around.",
-    "hu": "Betű neve: R. Példa: around.",
-    "pt": "Nome da letra: R. Exemplo: around."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɑːr/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 5616,
-      "sha1": "c982188552886c37f5852e5679f8028678db86ca"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L570",
+  "legacy_entity_id": "letter_r-2",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "R",
-      "example": "around"
+      "name": "R",
+      "description": "Letter name: R. Example: around.",
+      "ipa": "/ɑːr/",
+      "example": "around",
+      "context": "R"
+    },
+    "ro": {
+      "name": "R",
+      "description": "Numele literei: R. Exemplu: around."
+    },
+    "de": {
+      "name": "R",
+      "description": "Buchstabenname: R. Beispiel: around."
+    },
+    "ru": {
+      "name": "R",
+      "description": "Название буквы: R. Пример: around."
+    },
+    "it": {
+      "name": "R",
+      "description": "Nome della lettera: R. Esempio: around."
+    },
+    "es": {
+      "name": "R",
+      "description": "Nombre de la letra: R. Ejemplo: around."
+    },
+    "fr": {
+      "name": "R",
+      "description": "Nom de la lettre : R. Exemple : around."
+    },
+    "hu": {
+      "name": "R",
+      "description": "Betű neve: R. Példa: around."
+    },
+    "pt": {
+      "name": "R",
+      "description": "Nome da letra: R. Exemplo: around."
     }
   },
-  "entity_id": "LT01T07:L570",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_r-2"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 5616,
+      "sha1": "c982188552886c37f5852e5679f8028678db86ca"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T15",
   "kind": "letter",
-  "names": {
-    "en": "O",
-    "ro": "O",
-    "de": "O",
-    "ru": "O",
-    "it": "O",
-    "es": "O",
-    "fr": "O",
-    "hu": "O",
-    "pt": "O"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": "Letter name: ó. Example: olho."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": {
-      "ipa": "/ɔ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7056,
-      "sha1": "7eb7c0b6c193506cbfae50e8cb4d7c32edaf4f89"
-    }
-  },
+  "entity_id": "LT01T15:L541",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "O"
+    },
+    "ro": {
+      "name": "O"
+    },
+    "de": {
+      "name": "O"
+    },
+    "ru": {
+      "name": "O"
+    },
+    "it": {
+      "name": "O"
+    },
+    "es": {
+      "name": "O"
+    },
+    "fr": {
+      "name": "O"
+    },
+    "hu": {
+      "name": "O"
+    },
     "pt": {
-      "context": "ó",
-      "example": "olho"
+      "name": "O",
+      "description": "Letter name: ó. Example: olho.",
+      "ipa": "/ɔ/",
+      "example": "olho",
+      "context": "ó"
     }
   },
-  "entity_id": "LT01T15:L541",
-  "cefr": "A1"
+  "files": {
+    "sound/pt.mp3": {
+      "bytes": 7056,
+      "sha1": "7eb7c0b6c193506cbfae50e8cb4d7c32edaf4f89"
+    }
+  }
 }

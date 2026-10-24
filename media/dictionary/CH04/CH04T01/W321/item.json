@@ -4,111 +4,45 @@
   "chapter": "CH04",
   "topic": "CH04T01",
   "kind": "word",
-  "names": {
-    "en": "city hall",
-    "ro": "primărie",
-    "de": "Rathaus",
-    "ru": "мэрия",
-    "it": "municipio",
-    "es": "ayuntamiento",
-    "fr": "mairie",
-    "hu": "városháza",
-    "pt": "prefeitura"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/priməˈrie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "c788229042b96fc51e4a7a243165a2e7caa60adf",
-      "key": "dictionary/CH04/CH04T01/W321/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH04T01:W321",
+  "cefr": "A2",
   "tags": [
     "scaffold#C4T01"
   ],
-  "metadata": {},
-  "entity_id": "CH04T01:W321",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "city hall"
+    },
+    "ro": {
+      "name": "primărie",
+      "ipa": "/priməˈrie/"
+    },
+    "de": {
+      "name": "Rathaus"
+    },
+    "ru": {
+      "name": "мэрия"
+    },
+    "it": {
+      "name": "municipio"
+    },
+    "es": {
+      "name": "ayuntamiento"
+    },
+    "fr": {
+      "name": "mairie"
+    },
+    "hu": {
+      "name": "városháza"
+    },
+    "pt": {
+      "name": "prefeitura"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "c788229042b96fc51e4a7a243165a2e7caa60adf"
+    }
+  }
 }

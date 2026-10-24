@@ -4,111 +4,45 @@
   "chapter": "CH06",
   "topic": "CH06T01",
   "kind": "word",
-  "names": {
-    "en": "pencil",
-    "ro": "creion",
-    "de": "Bleistift",
-    "ru": "карандаш",
-    "it": "matita",
-    "es": "lápiz",
-    "fr": "crayon",
-    "hu": "ceruza",
-    "pt": "lápis"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/kreˈion/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "4439535e46b9c7672d97b6c875734e6450405744",
-      "key": "dictionary/CH06/CH06T01/W455/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH06T01:W455",
+  "cefr": "B1",
   "tags": [
     "vocabulary#school-vocabulary"
   ],
-  "metadata": {},
-  "entity_id": "CH06T01:W455",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "pencil"
+    },
+    "ro": {
+      "name": "creion",
+      "ipa": "/kreˈion/"
+    },
+    "de": {
+      "name": "Bleistift"
+    },
+    "ru": {
+      "name": "карандаш"
+    },
+    "it": {
+      "name": "matita"
+    },
+    "es": {
+      "name": "lápiz"
+    },
+    "fr": {
+      "name": "crayon"
+    },
+    "hu": {
+      "name": "ceruza"
+    },
+    "pt": {
+      "name": "lápis"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "4439535e46b9c7672d97b6c875734e6450405744"
+    }
+  }
 }

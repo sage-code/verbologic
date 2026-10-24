@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "eu in greu (heavy / hard)",
-    "ro": "eu",
-    "de": "eu in greu (schwer / schwierig)",
-    "ru": "eu в greu (тяжелый / трудный)",
-    "it": "eu in greu (pesante / difficile)",
-    "es": "eu en greu (pesado / difícil)",
-    "fr": "eu dans greu (lourd / difficile)",
-    "hu": "eu a greu-ban (nehéz)",
-    "pt": "eu em greu (pesado / difícil)"
-  },
-  "description": {
-    "en": "This item illustrates the Romanian diphthong eu as found in the word greu.",
-    "ro": "Acest element ilustrează diftongul românesc eu așa cum apare în cuvântul greu.",
-    "de": "Dieser Eintrag veranschaulicht den rumänischen Diphthong eu, wie er im Wort greu vorkommt.",
-    "ru": "Этот элемент иллюстрирует румынский дифтонг eu, встречающийся в слове greu.",
-    "it": "Questo elemento illustra il dittongo rumeno eu come si trova nella parola greu.",
-    "es": "Este elemento ilustra el diptongo rumano eu tal como aparece en la palabra greu.",
-    "fr": "Cet élément illustre la diphtongue roumaine eu telle qu'elle apparaît dans le mot greu.",
-    "hu": "Ez az elem a román eu kettőshangzót mutatja be a greu szóban.",
-    "pt": "Este item ilustra o ditongo romeno eu conforme encontrado na palavra greu."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ew/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8784,
-      "sha1": "f6f6da9afecc83387dd07d28b62dc261af657a8d",
-      "key": "lectures/LT01/LT01T02/L044/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L044",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L044",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "eu in greu (heavy / hard)",
+      "description": "This item illustrates the Romanian diphthong eu as found in the word greu."
+    },
+    "ro": {
+      "name": "eu",
+      "description": "Acest element ilustrează diftongul românesc eu așa cum apare în cuvântul greu.",
+      "ipa": "/ew/"
+    },
+    "de": {
+      "name": "eu in greu (schwer / schwierig)",
+      "description": "Dieser Eintrag veranschaulicht den rumänischen Diphthong eu, wie er im Wort greu vorkommt."
+    },
+    "ru": {
+      "name": "eu в greu (тяжелый / трудный)",
+      "description": "Этот элемент иллюстрирует румынский дифтонг eu, встречающийся в слове greu."
+    },
+    "it": {
+      "name": "eu in greu (pesante / difficile)",
+      "description": "Questo elemento illustra il dittongo rumeno eu come si trova nella parola greu."
+    },
+    "es": {
+      "name": "eu en greu (pesado / difícil)",
+      "description": "Este elemento ilustra el diptongo rumano eu tal como aparece en la palabra greu."
+    },
+    "fr": {
+      "name": "eu dans greu (lourd / difficile)",
+      "description": "Cet élément illustre la diphtongue roumaine eu telle qu'elle apparaît dans le mot greu."
+    },
+    "hu": {
+      "name": "eu a greu-ban (nehéz)",
+      "description": "Ez az elem a román eu kettőshangzót mutatja be a greu szóban."
+    },
+    "pt": {
+      "name": "eu em greu (pesado / difícil)",
+      "description": "Este item ilustra o ditongo romeno eu conforme encontrado na palavra greu."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 8784,
+      "sha1": "f6f6da9afecc83387dd07d28b62dc261af657a8d"
+    }
+  }
 }

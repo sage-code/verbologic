@@ -4,176 +4,114 @@
   "chapter": "CH01",
   "topic": "CH01T09",
   "kind": "letter",
+  "entity_id": "CH01T09:W169",
+  "cefr": "A1",
   "letter": "Y",
-  "names": {
-    "en": "Y (why)",
-    "ro": "Y (igrec)",
-    "de": "Y (ypsilon)",
-    "ru": "Y (уай)",
-    "it": "Y (ipsilon)",
-    "es": "Y (ye)",
-    "fr": "Y (i grec)",
-    "hu": "Y (ipszilon)",
-    "pt": "Y (ípsilon)"
-  },
-  "description": {
-    "en": "The letter Y in the Latin alphabet, named why.",
-    "ro": "Litera Y din alfabetul latin, numită igrec.",
-    "de": "Der Buchstabe Y des lateinischen Alphabets, genannt ypsilon.",
-    "ru": "Буква Y латинского алфавита, называемая «уай».",
-    "it": "La lettera Y dell'alfabeto latino, chiamata ipsilon.",
-    "es": "La letra Y del alfabeto latino, llamada ye.",
-    "fr": "La lettre Y de l'alphabet latin, appelée i grec.",
-    "hu": "A latin ábécé Y betűje, neve ipszilon.",
-    "pt": "A letra Y do alfabeto latino, chamada ípsilon."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/waɪ/"
-    },
-    "ro": {
-      "ipa": "/iˈɡrek/"
-    },
-    "de": {
-      "ipa": "/ˈʏpsilɔn/"
-    },
-    "ru": {
-      "ipa": "/ˈwaj/"
-    },
-    "it": {
-      "ipa": "/ˈipsilon/"
-    },
-    "es": {
-      "ipa": "/ˈʝe/"
-    },
-    "fr": {
-      "ipa": "/i ɡʁɛk/"
-    },
-    "hu": {
-      "ipa": "/ˈipsilon/"
-    },
-    "pt": {
-      "ipa": "/ˈipsilu/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8ad5cc7ac55a529171a5b2280d8d399b8c31b342",
-      "key": "dictionary/CH01/CH01T09/W169/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "7f563736ae73e672ee933ce58f1642ed290144eb",
-      "key": "dictionary/CH01/CH01T09/W169/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a5c994c53f88668e98cc4e774c61f091830e4e1c",
-      "key": "dictionary/CH01/CH01T09/W169/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8aa1eefd3a020dfaa5a266347a13d9c649b620ac",
-      "key": "dictionary/CH01/CH01T09/W169/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3e18620c4e42da1d546246e6b2d80ffb062b1803",
-      "key": "dictionary/CH01/CH01T09/W169/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "0e96fbcac81585e1deaa419de480cae51312842e",
-      "key": "dictionary/CH01/CH01T09/W169/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "53f823d2b5a5e0d8d212db6bac4c18104853d872",
-      "key": "dictionary/CH01/CH01T09/W169/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a64e03c20091e54b2b78537885ec8d3a14266bf1",
-      "key": "dictionary/CH01/CH01T09/W169/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "02f6cfc757f83c0d2b150625fd66f165006b2f38",
-      "key": "dictionary/CH01/CH01T09/W169/sound/pt.mp3"
-    }
-  },
-  "ttsText": {
-    "en": "why",
-    "ro": "igrec",
-    "de": "ypsilon",
-    "ru": "уай",
-    "it": "ipsilon",
-    "es": "ye",
-    "fr": "i grec",
-    "hu": "ipszilon",
-    "pt": "ípsilon"
-  },
   "tags": [
     "alphabet#common-letter",
     "alphabet#latin"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "Y (why)",
+      "description": "The letter Y in the Latin alphabet, named why.",
+      "ipa": "/waɪ/",
+      "ttsText": "why",
       "example": "why"
     },
     "ro": {
+      "name": "Y (igrec)",
+      "description": "Litera Y din alfabetul latin, numită igrec.",
+      "ipa": "/iˈɡrek/",
+      "ttsText": "igrec",
       "example": "igrec"
     },
     "de": {
+      "name": "Y (ypsilon)",
+      "description": "Der Buchstabe Y des lateinischen Alphabets, genannt ypsilon.",
+      "ipa": "/ˈʏpsilɔn/",
+      "ttsText": "ypsilon",
       "example": "ypsilon"
     },
     "ru": {
+      "name": "Y (уай)",
+      "description": "Буква Y латинского алфавита, называемая «уай».",
+      "ipa": "/ˈwaj/",
+      "ttsText": "уай",
       "example": "уай"
     },
     "it": {
+      "name": "Y (ipsilon)",
+      "description": "La lettera Y dell'alfabeto latino, chiamata ipsilon.",
+      "ipa": "/ˈipsilon/",
+      "ttsText": "ipsilon",
       "example": "ipsilon"
     },
     "es": {
+      "name": "Y (ye)",
+      "description": "La letra Y del alfabeto latino, llamada ye.",
+      "ipa": "/ˈʝe/",
+      "ttsText": "ye",
       "example": "ye"
     },
     "fr": {
+      "name": "Y (i grec)",
+      "description": "La lettre Y de l'alphabet latin, appelée i grec.",
+      "ipa": "/i ɡʁɛk/",
+      "ttsText": "i grec",
       "example": "i grec"
     },
     "hu": {
+      "name": "Y (ipszilon)",
+      "description": "A latin ábécé Y betűje, neve ipszilon.",
+      "ipa": "/ˈipsilon/",
+      "ttsText": "ipszilon",
       "example": "ipszilon"
     },
     "pt": {
+      "name": "Y (ípsilon)",
+      "description": "A letra Y do alfabeto latino, chamada ípsilon.",
+      "ipa": "/ˈipsilu/",
+      "ttsText": "ípsilon",
       "example": "ípsilon"
     }
   },
-  "entity_id": "CH01T09:W169",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8ad5cc7ac55a529171a5b2280d8d399b8c31b342"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "7f563736ae73e672ee933ce58f1642ed290144eb"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "a5c994c53f88668e98cc4e774c61f091830e4e1c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "8aa1eefd3a020dfaa5a266347a13d9c649b620ac"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "3e18620c4e42da1d546246e6b2d80ffb062b1803"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "0e96fbcac81585e1deaa419de480cae51312842e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "53f823d2b5a5e0d8d212db6bac4c18104853d872"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "a64e03c20091e54b2b78537885ec8d3a14266bf1"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "02f6cfc757f83c0d2b150625fd66f165006b2f38"
+    }
+  }
 }

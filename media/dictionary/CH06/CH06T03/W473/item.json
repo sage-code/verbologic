@@ -4,111 +4,45 @@
   "chapter": "CH06",
   "topic": "CH06T03",
   "kind": "word",
-  "names": {
-    "en": "kilogram",
-    "ro": "kilogram",
-    "de": "Kilogramm",
-    "ru": "килограмм",
-    "it": "chilogrammo",
-    "es": "kilogramo",
-    "fr": "kilogramme",
-    "hu": "kilogramm",
-    "pt": "quilograma"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/kiloˈgram/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "e837cc318a2fd4fd513216629b9a65af8906193a",
-      "key": "dictionary/CH06/CH06T03/W473/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH06T03:W473",
+  "cefr": "B1",
   "tags": [
     "scaffold#C6T03"
   ],
-  "metadata": {},
-  "entity_id": "CH06T03:W473",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "kilogram"
+    },
+    "ro": {
+      "name": "kilogram",
+      "ipa": "/kiloˈgram/"
+    },
+    "de": {
+      "name": "Kilogramm"
+    },
+    "ru": {
+      "name": "килограмм"
+    },
+    "it": {
+      "name": "chilogrammo"
+    },
+    "es": {
+      "name": "kilogramo"
+    },
+    "fr": {
+      "name": "kilogramme"
+    },
+    "hu": {
+      "name": "kilogramm"
+    },
+    "pt": {
+      "name": "quilograma"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "e837cc318a2fd4fd513216629b9a65af8906193a"
+    }
+  }
 }

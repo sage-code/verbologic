@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T06",
   "kind": "word",
-  "names": {
-    "en": "wood",
-    "ro": "lemn",
-    "de": "Holz",
-    "ru": "дерево",
-    "it": "legno",
-    "es": "madera",
-    "fr": "bois",
-    "hu": "fa",
-    "pt": "madeira"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/lemn/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "771f83c1bd14708a7c85ab8377c9c85c654a95a2",
-      "key": "dictionary/CH08/CH08T06/W624/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T06:W624",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T06"
   ],
-  "metadata": {},
-  "entity_id": "CH08T06:W624",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "wood"
+    },
+    "ro": {
+      "name": "lemn",
+      "ipa": "/lemn/"
+    },
+    "de": {
+      "name": "Holz"
+    },
+    "ru": {
+      "name": "дерево"
+    },
+    "it": {
+      "name": "legno"
+    },
+    "es": {
+      "name": "madera"
+    },
+    "fr": {
+      "name": "bois"
+    },
+    "hu": {
+      "name": "fa"
+    },
+    "pt": {
+      "name": "madeira"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "771f83c1bd14708a7c85ab8377c9c85c654a95a2"
+    }
+  }
 }

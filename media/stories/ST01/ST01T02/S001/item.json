@@ -3,181 +3,123 @@
   "track": "stories",
   "chapter": "ST01",
   "topic": "ST01T02",
-  "entity_id": "ST01T02:S001",
   "kind": "story",
-  "names": {
-    "en": "Little Red Riding Hood",
-    "ro": "Scufița Roșie",
-    "de": "Rotkäppchen",
-    "ru": "Красная Шапочка",
-    "it": "Cappuccetto Rosso",
-    "es": "Caperucita Roja",
-    "fr": "Le Petit Chaperon rouge",
-    "hu": "Piroska",
-    "pt": "Capuchinho Vermelho"
-  },
-  "description": {
-    "en": "A careful girl takes a basket to her grandmother and learns to stay on the safe path.",
-    "ro": "O fetiță grijulie duce un coș la bunica ei și învață să rămână pe drumul sigur.",
-    "de": "Ein vorsichtiges Mädchen bringt seiner Großmutter einen Korb und lernt, auf dem sicheren Weg zu bleiben.",
-    "ru": "Заботливая девочка несёт корзинку бабушке и учится не сходить с безопасной тропы.",
-    "it": "Una bambina attenta porta un cestino alla nonna e impara a restare sul sentiero sicuro.",
-    "es": "Una niña prudente lleva una cesta a su abuela y aprende a seguir el camino seguro.",
-    "fr": "Une fillette prudente apporte un panier à sa grand-mère et apprend à rester sur le chemin sûr.",
-    "hu": "Egy figyelmes kislány kosarat visz a nagymamájának, és megtanul a biztonságos ösvényen maradni.",
-    "pt": "Uma menina cuidadosa leva uma cesta à avó e aprende a permanecer no caminho seguro."
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "39d016f6b178c183e73e0c5d2b6dbeb5d06c4dff",
-      "key": "stories/ST01/ST01T02/S001/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13104,
-      "sha1": "7542917ebc712a85ab9d2718d89b0ed99e7d66b3",
-      "key": "stories/ST01/ST01T02/S001/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1f99adabad92b5ba0e080e885a32f610241369c0",
-      "key": "stories/ST01/ST01T02/S001/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13392,
-      "sha1": "09fd6c52958af38b2065361b7a5042d40e2062f1",
-      "key": "stories/ST01/ST01T02/S001/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13392,
-      "sha1": "9d09d0e52e8b76da55ae0b0898a1be0b47c0d1f1",
-      "key": "stories/ST01/ST01T02/S001/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "4904ddedddec80daaf92f2f940bc0ca8fb047556",
-      "key": "stories/ST01/ST01T02/S001/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 13824,
-      "sha1": "47a94ef2d6e9f253340b3167256bfabee2e04165",
-      "key": "stories/ST01/ST01T02/S001/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "1f98b46a4f1bfcc65a456e884e16d737051ea5d2",
-      "key": "stories/ST01/ST01T02/S001/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11520,
-      "sha1": "95bc4f6c122168e069af971c6009a3c16ee5a1ea",
-      "key": "stories/ST01/ST01T02/S001/sound/pt.mp3"
-    }
-  },
-  "read": {
-    "en": {
-      "file": "read/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 210816,
-      "sha1": "68234fad36d762ed1b2cc7837753ee0577a5a16c",
-      "key": "stories/ST01/ST01T02/S001/read/en.mp3"
-    },
-    "ro": {
-      "file": "read/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 257904,
-      "sha1": "5e9733e2696d6bfd66014897769cd0106310e3c4",
-      "key": "stories/ST01/ST01T02/S001/read/ro.mp3"
-    },
-    "de": {
-      "file": "read/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 275616,
-      "sha1": "ab5727bb0119ae01fe79bcb4c9881beaa103370b",
-      "key": "stories/ST01/ST01T02/S001/read/de.mp3"
-    },
-    "ru": {
-      "file": "read/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 295776,
-      "sha1": "2a2777a9bab35be475d089dd34040834ba2df7b7",
-      "key": "stories/ST01/ST01T02/S001/read/ru.mp3"
-    },
-    "it": {
-      "file": "read/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 274176,
-      "sha1": "833f42a9e9ee5977055c4d09629b0fed65bb803c",
-      "key": "stories/ST01/ST01T02/S001/read/it.mp3"
-    },
-    "es": {
-      "file": "read/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 273744,
-      "sha1": "0927c88f2cb901265e8fa35ed0b2f3c838c42996",
-      "key": "stories/ST01/ST01T02/S001/read/es.mp3"
-    },
-    "fr": {
-      "file": "read/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 248544,
-      "sha1": "82b917c958580acdb6a6b5a7e41b27db56b6ad2a",
-      "key": "stories/ST01/ST01T02/S001/read/fr.mp3"
-    },
-    "hu": {
-      "file": "read/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 283680,
-      "sha1": "82727b1f4d8be29df0a5c99f55dab2f587281615",
-      "key": "stories/ST01/ST01T02/S001/read/hu.mp3"
-    },
-    "pt": {
-      "file": "read/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 224064,
-      "sha1": "ee3162a2a87e5c29035ff2eea9a9184c242bbb91",
-      "key": "stories/ST01/ST01T02/S001/read/pt.mp3"
-    }
-  },
+  "entity_id": "ST01T02:S001",
+  "cefr": "A1",
   "tags": [
     "story#fairy-tale",
     "level#A1"
   ],
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "Little Red Riding Hood",
+      "description": "A careful girl takes a basket to her grandmother and learns to stay on the safe path."
+    },
+    "ro": {
+      "name": "Scufița Roșie",
+      "description": "O fetiță grijulie duce un coș la bunica ei și învață să rămână pe drumul sigur."
+    },
+    "de": {
+      "name": "Rotkäppchen",
+      "description": "Ein vorsichtiges Mädchen bringt seiner Großmutter einen Korb und lernt, auf dem sicheren Weg zu bleiben."
+    },
+    "ru": {
+      "name": "Красная Шапочка",
+      "description": "Заботливая девочка несёт корзинку бабушке и учится не сходить с безопасной тропы."
+    },
+    "it": {
+      "name": "Cappuccetto Rosso",
+      "description": "Una bambina attenta porta un cestino alla nonna e impara a restare sul sentiero sicuro."
+    },
+    "es": {
+      "name": "Caperucita Roja",
+      "description": "Una niña prudente lleva una cesta a su abuela y aprende a seguir el camino seguro."
+    },
+    "fr": {
+      "name": "Le Petit Chaperon rouge",
+      "description": "Une fillette prudente apporte un panier à sa grand-mère et apprend à rester sur le chemin sûr."
+    },
+    "hu": {
+      "name": "Piroska",
+      "description": "Egy figyelmes kislány kosarat visz a nagymamájának, és megtanul a biztonságos ösvényen maradni."
+    },
+    "pt": {
+      "name": "Capuchinho Vermelho",
+      "description": "Uma menina cuidadosa leva uma cesta à avó e aprende a permanecer no caminho seguro."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "39d016f6b178c183e73e0c5d2b6dbeb5d06c4dff"
+    },
+    "sound/ro.mp3": {
+      "bytes": 13104,
+      "sha1": "7542917ebc712a85ab9d2718d89b0ed99e7d66b3"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "1f99adabad92b5ba0e080e885a32f610241369c0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13392,
+      "sha1": "09fd6c52958af38b2065361b7a5042d40e2062f1"
+    },
+    "sound/it.mp3": {
+      "bytes": 13392,
+      "sha1": "9d09d0e52e8b76da55ae0b0898a1be0b47c0d1f1"
+    },
+    "sound/es.mp3": {
+      "bytes": 12528,
+      "sha1": "4904ddedddec80daaf92f2f940bc0ca8fb047556"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13824,
+      "sha1": "47a94ef2d6e9f253340b3167256bfabee2e04165"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "1f98b46a4f1bfcc65a456e884e16d737051ea5d2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11520,
+      "sha1": "95bc4f6c122168e069af971c6009a3c16ee5a1ea"
+    },
+    "read/en.mp3": {
+      "bytes": 210816,
+      "sha1": "68234fad36d762ed1b2cc7837753ee0577a5a16c"
+    },
+    "read/ro.mp3": {
+      "bytes": 257904,
+      "sha1": "5e9733e2696d6bfd66014897769cd0106310e3c4"
+    },
+    "read/de.mp3": {
+      "bytes": 275616,
+      "sha1": "ab5727bb0119ae01fe79bcb4c9881beaa103370b"
+    },
+    "read/ru.mp3": {
+      "bytes": 295776,
+      "sha1": "2a2777a9bab35be475d089dd34040834ba2df7b7"
+    },
+    "read/it.mp3": {
+      "bytes": 274176,
+      "sha1": "833f42a9e9ee5977055c4d09629b0fed65bb803c"
+    },
+    "read/es.mp3": {
+      "bytes": 273744,
+      "sha1": "0927c88f2cb901265e8fa35ed0b2f3c838c42996"
+    },
+    "read/fr.mp3": {
+      "bytes": 248544,
+      "sha1": "82b917c958580acdb6a6b5a7e41b27db56b6ad2a"
+    },
+    "read/hu.mp3": {
+      "bytes": 283680,
+      "sha1": "82727b1f4d8be29df0a5c99f55dab2f587281615"
+    },
+    "read/pt.mp3": {
+      "bytes": 224064,
+      "sha1": "ee3162a2a87e5c29035ff2eea9a9184c242bbb91"
+    }
+  }
 }

@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "H",
-    "ro": "H",
-    "de": "H",
-    "ru": "H",
-    "it": "H",
-    "es": "H",
-    "fr": "H",
-    "hu": "H",
-    "pt": "H"
-  },
-  "description": {
-    "en": "Letter name: H. Example: house.",
-    "ro": "Numele literei: H. Exemplu: house.",
-    "de": "Buchstabenname: H. Beispiel: house.",
-    "ru": "Название буквы: H. Пример: house.",
-    "it": "Nome della lettera: H. Esempio: house.",
-    "es": "Nombre de la letra: H. Ejemplo: house.",
-    "fr": "Nom de la lettre : H. Exemple : house.",
-    "hu": "Betű neve: H. Példa: house.",
-    "pt": "Nome da letra: H. Exemplo: house."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/eɪtʃ/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e1c76ed10ffa38e02a923019b4c0abc8b44c4a04"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L560",
+  "legacy_entity_id": "letter_h-2",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "H",
-      "example": "house"
+      "name": "H",
+      "description": "Letter name: H. Example: house.",
+      "ipa": "/eɪtʃ/",
+      "example": "house",
+      "context": "H"
+    },
+    "ro": {
+      "name": "H",
+      "description": "Numele literei: H. Exemplu: house."
+    },
+    "de": {
+      "name": "H",
+      "description": "Buchstabenname: H. Beispiel: house."
+    },
+    "ru": {
+      "name": "H",
+      "description": "Название буквы: H. Пример: house."
+    },
+    "it": {
+      "name": "H",
+      "description": "Nome della lettera: H. Esempio: house."
+    },
+    "es": {
+      "name": "H",
+      "description": "Nombre de la letra: H. Ejemplo: house."
+    },
+    "fr": {
+      "name": "H",
+      "description": "Nom de la lettre : H. Exemple : house."
+    },
+    "hu": {
+      "name": "H",
+      "description": "Betű neve: H. Példa: house."
+    },
+    "pt": {
+      "name": "H",
+      "description": "Nome da letra: H. Exemplo: house."
     }
   },
-  "entity_id": "LT01T07:L560",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_h-2"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "e1c76ed10ffa38e02a923019b4c0abc8b44c4a04"
+    }
+  }
 }

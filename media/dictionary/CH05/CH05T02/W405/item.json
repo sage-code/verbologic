@@ -4,111 +4,45 @@
   "chapter": "CH05",
   "topic": "CH05T02",
   "kind": "word",
-  "names": {
-    "en": "bedsheet",
-    "ro": "cearșaf",
-    "de": "Bettlaken",
-    "ru": "простыня",
-    "it": "lenzuolo",
-    "es": "sábana",
-    "fr": "drap",
-    "hu": "lepedő",
-    "pt": "lençol"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/tʃearˈʃaf/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "f18c447785c70fe5b51591da13c671459d354b6a",
-      "key": "dictionary/CH05/CH05T02/W405/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH05T02:W405",
+  "cefr": "B1",
   "tags": [
     "scaffold#C5T02"
   ],
-  "metadata": {},
-  "entity_id": "CH05T02:W405",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "bedsheet"
+    },
+    "ro": {
+      "name": "cearșaf",
+      "ipa": "/tʃearˈʃaf/"
+    },
+    "de": {
+      "name": "Bettlaken"
+    },
+    "ru": {
+      "name": "простыня"
+    },
+    "it": {
+      "name": "lenzuolo"
+    },
+    "es": {
+      "name": "sábana"
+    },
+    "fr": {
+      "name": "drap"
+    },
+    "hu": {
+      "name": "lepedő"
+    },
+    "pt": {
+      "name": "lençol"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "f18c447785c70fe5b51591da13c671459d354b6a"
+    }
+  }
 }

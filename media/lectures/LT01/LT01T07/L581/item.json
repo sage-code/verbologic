@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "A",
-    "ro": "A",
-    "de": "A",
-    "ru": "A",
-    "it": "A",
-    "es": "A",
-    "fr": "A",
-    "hu": "A",
-    "pt": "A"
-  },
-  "description": {
-    "en": "Letter name: A. Example: father.",
-    "ro": "Numele literei: A. Exemplu: father.",
-    "de": "Name des Buchstabens: A. Beispiel: father.",
-    "ru": "Название буквы: A. Пример: father.",
-    "it": "Nome della lettera: A. Esempio: father.",
-    "es": "Nombre de la letra: A. Ejemplo: father.",
-    "fr": "Nom de la lettre : A. Exemple : father.",
-    "hu": "Betű neve: A. Példa: father.",
-    "pt": "Nome da letra: A. Exemplo: father."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ɑː/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4896,
-      "sha1": "38c81d1b3b92b8d48fe65d43cf48ac41d7a3e633"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L581",
+  "legacy_entity_id": "letter_father",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "A",
-      "example": "father"
+      "name": "A",
+      "description": "Letter name: A. Example: father.",
+      "ipa": "/ɑː/",
+      "example": "father",
+      "context": "A"
+    },
+    "ro": {
+      "name": "A",
+      "description": "Numele literei: A. Exemplu: father."
+    },
+    "de": {
+      "name": "A",
+      "description": "Name des Buchstabens: A. Beispiel: father."
+    },
+    "ru": {
+      "name": "A",
+      "description": "Название буквы: A. Пример: father."
+    },
+    "it": {
+      "name": "A",
+      "description": "Nome della lettera: A. Esempio: father."
+    },
+    "es": {
+      "name": "A",
+      "description": "Nombre de la letra: A. Ejemplo: father."
+    },
+    "fr": {
+      "name": "A",
+      "description": "Nom de la lettre : A. Exemple : father."
+    },
+    "hu": {
+      "name": "A",
+      "description": "Betű neve: A. Példa: father."
+    },
+    "pt": {
+      "name": "A",
+      "description": "Nome da letra: A. Exemplo: father."
     }
   },
-  "entity_id": "LT01T07:L581",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_father"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "38c81d1b3b92b8d48fe65d43cf48ac41d7a3e633"
+    }
+  }
 }

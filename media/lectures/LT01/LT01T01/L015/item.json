@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "L",
-    "ro": "L",
-    "de": "L",
-    "ru": "L",
-    "it": "L",
-    "es": "L",
-    "fr": "L",
-    "hu": "L",
-    "pt": "L"
-  },
-  "description": {
-    "en": "The letter L is the twelfth letter of the Romanian alphabet.",
-    "ro": "Litera L este a douăsprezecea literă a alfabetului român.",
-    "de": "Der Buchstabe L ist der zwölfte Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква L — двенадцатая буква румынского алфавита.",
-    "it": "La lettera L è la dodicesima lettera dell'alfabeto rumeno.",
-    "es": "La letra L es la duodécima letra del alfabeto rumano.",
-    "fr": "La lettre L est la douzième lettre de l'alphabet roumain.",
-    "hu": "Az L betű a román ábécé tizenkettedik betűje.",
-    "pt": "A letra L é a décima segunda letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/l/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "846a645297fbd28e08dcf790b452929cbbc7b41b",
-      "key": "lectures/LT01/LT01T01/L015/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L015",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L015",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "L",
+      "description": "The letter L is the twelfth letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "L",
+      "description": "Litera L este a douăsprezecea literă a alfabetului român.",
+      "ipa": "/l/"
+    },
+    "de": {
+      "name": "L",
+      "description": "Der Buchstabe L ist der zwölfte Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "L",
+      "description": "Буква L — двенадцатая буква румынского алфавита."
+    },
+    "it": {
+      "name": "L",
+      "description": "La lettera L è la dodicesima lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "L",
+      "description": "La letra L es la duodécima letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "L",
+      "description": "La lettre L est la douzième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "L",
+      "description": "Az L betű a román ábécé tizenkettedik betűje."
+    },
+    "pt": {
+      "name": "L",
+      "description": "A letra L é a décima segunda letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "846a645297fbd28e08dcf790b452929cbbc7b41b"
+    }
+  }
 }

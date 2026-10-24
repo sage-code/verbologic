@@ -4,111 +4,45 @@
   "chapter": "CH08",
   "topic": "CH08T03",
   "kind": "word",
-  "names": {
-    "en": "nature",
-    "ro": "natură",
-    "de": "Natur",
-    "ru": "природа",
-    "it": "natura",
-    "es": "naturaleza",
-    "fr": "nature",
-    "hu": "természet",
-    "pt": "natureza"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/naˈturə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "10e5b86e60f7579b757cb550daabfb4f91026736",
-      "key": "dictionary/CH08/CH08T03/W599/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH08T03:W599",
+  "cefr": "B2",
   "tags": [
     "scaffold#C8T03"
   ],
-  "metadata": {},
-  "entity_id": "CH08T03:W599",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "nature"
+    },
+    "ro": {
+      "name": "natură",
+      "ipa": "/naˈturə/"
+    },
+    "de": {
+      "name": "Natur"
+    },
+    "ru": {
+      "name": "природа"
+    },
+    "it": {
+      "name": "natura"
+    },
+    "es": {
+      "name": "naturaleza"
+    },
+    "fr": {
+      "name": "nature"
+    },
+    "hu": {
+      "name": "természet"
+    },
+    "pt": {
+      "name": "natureza"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "10e5b86e60f7579b757cb550daabfb4f91026736"
+    }
+  }
 }

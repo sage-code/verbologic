@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T13",
   "kind": "letter",
-  "names": {
-    "en": "T",
-    "ro": "T",
-    "de": "T",
-    "ru": "T",
-    "it": "T",
-    "es": "T",
-    "fr": "T",
-    "hu": "T",
-    "pt": "T"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": "Letter name: té. Example: temps.",
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": {
-      "ipa": "/te/"
-    },
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "3038172ff3c7cffdb5b2459085698901ee7390b2"
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T13:L477",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "T"
+    },
+    "ro": {
+      "name": "T"
+    },
+    "de": {
+      "name": "T"
+    },
+    "ru": {
+      "name": "T"
+    },
+    "it": {
+      "name": "T"
+    },
+    "es": {
+      "name": "T"
+    },
     "fr": {
-      "context": "té",
-      "example": "temps"
+      "name": "T",
+      "description": "Letter name: té. Example: temps.",
+      "ipa": "/te/",
+      "example": "temps",
+      "context": "té"
+    },
+    "hu": {
+      "name": "T"
+    },
+    "pt": {
+      "name": "T"
     }
   },
-  "entity_id": "LT01T13:L477",
-  "cefr": "A1"
+  "files": {
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "3038172ff3c7cffdb5b2459085698901ee7390b2"
+    }
+  }
 }

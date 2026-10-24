@@ -4,140 +4,96 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "kn-",
-    "ro": "a ști",
-    "de": "kn-",
-    "ru": "kn-",
-    "it": "kn-",
-    "es": "kn-",
-    "fr": "kn-",
-    "hu": "kn-",
-    "pt": "kn-"
-  },
-  "description": {
-    "en": "This is a letter combination found in English words.",
-    "ro": "Aceasta este o combinație de litere găsită în cuvintele englezești.",
-    "de": "Dies ist eine Buchstabenkombination, die in englischen Wörtern vorkommt.",
-    "ru": "Это сочетание букв, встречающееся в английских словах.",
-    "it": "Questa è una combinazione di lettere che si trova nelle parole inglesi.",
-    "es": "Esta es una combinación de letras que se encuentra en las palabras en inglés.",
-    "fr": "Il s'agit d'une combinaison de lettres présente dans les mots anglais.",
-    "hu": "Ez egy angol szavakban előforduló betűkombináció.",
-    "pt": "Esta é uma combinação de letras encontrada em palavras em inglês."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/noʊ/"
-    },
-    "ro": {
-      "ipa": "/a ˈʃti/"
-    },
-    "de": {
-      "ipa": "/kn/"
-    },
-    "ru": {
-      "ipa": "/kn/"
-    },
-    "it": {
-      "ipa": "/kn/"
-    },
-    "es": {
-      "ipa": "/kn/"
-    },
-    "fr": {
-      "ipa": "/kn/"
-    },
-    "hu": {
-      "ipa": "/kn/"
-    },
-    "pt": {
-      "ipa": "/kn/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "7922743390aabdc7124302d82b9a04db2a6beefd",
-      "key": "dictionary/CH01/CH01T01/W074/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "e947c84946d7080999a0f64767d7868e513086c8",
-      "key": "dictionary/CH01/CH01T01/W074/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2cdc4287c7cdd7da0415f96f8dadfa7e923a1d98",
-      "key": "dictionary/CH01/CH01T01/W074/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "cb293ca526456b18dffebc915d8dbe5f077682e3",
-      "key": "dictionary/CH01/CH01T01/W074/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ccb651da93cdd5c8d05e7479755fde4a1efb2fec",
-      "key": "dictionary/CH01/CH01T01/W074/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "686612a135b861a91caeaaede018867c4f57e479",
-      "key": "dictionary/CH01/CH01T01/W074/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "4520a102033ef52cb8dbe821e7d7e693505c5ad5",
-      "key": "dictionary/CH01/CH01T01/W074/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8461250ac20f8ff2345ebd0c7ec31a4fe5183aca",
-      "key": "dictionary/CH01/CH01T01/W074/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a0759ab74dcae88bb0a4385369aa856ccd1094fe",
-      "key": "dictionary/CH01/CH01T01/W074/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W074",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "k",
-      "example": "know"
+      "name": "kn-",
+      "description": "This is a letter combination found in English words.",
+      "ipa": "/noʊ/",
+      "example": "know",
+      "context": "k"
+    },
+    "ro": {
+      "name": "a ști",
+      "description": "Aceasta este o combinație de litere găsită în cuvintele englezești.",
+      "ipa": "/a ˈʃti/"
+    },
+    "de": {
+      "name": "kn-",
+      "description": "Dies ist eine Buchstabenkombination, die in englischen Wörtern vorkommt.",
+      "ipa": "/kn/"
+    },
+    "ru": {
+      "name": "kn-",
+      "description": "Это сочетание букв, встречающееся в английских словах.",
+      "ipa": "/kn/"
+    },
+    "it": {
+      "name": "kn-",
+      "description": "Questa è una combinazione di lettere che si trova nelle parole inglesi.",
+      "ipa": "/kn/"
+    },
+    "es": {
+      "name": "kn-",
+      "description": "Esta es una combinación de letras que se encuentra en las palabras en inglés.",
+      "ipa": "/kn/"
+    },
+    "fr": {
+      "name": "kn-",
+      "description": "Il s'agit d'une combinaison de lettres présente dans les mots anglais.",
+      "ipa": "/kn/"
+    },
+    "hu": {
+      "name": "kn-",
+      "description": "Ez egy angol szavakban előforduló betűkombináció.",
+      "ipa": "/kn/"
+    },
+    "pt": {
+      "name": "kn-",
+      "description": "Esta é uma combinação de letras encontrada em palavras em inglês.",
+      "ipa": "/kn/"
     }
   },
-  "entity_id": "CH01T01:W074",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "7922743390aabdc7124302d82b9a04db2a6beefd"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "e947c84946d7080999a0f64767d7868e513086c8"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "2cdc4287c7cdd7da0415f96f8dadfa7e923a1d98"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "cb293ca526456b18dffebc915d8dbe5f077682e3"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "ccb651da93cdd5c8d05e7479755fde4a1efb2fec"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "686612a135b861a91caeaaede018867c4f57e479"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "4520a102033ef52cb8dbe821e7d7e693505c5ad5"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "8461250ac20f8ff2345ebd0c7ec31a4fe5183aca"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "a0759ab74dcae88bb0a4385369aa856ccd1094fe"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T14",
   "kind": "letter",
-  "names": {
-    "en": "Á",
-    "ro": "Á",
-    "de": "Á",
-    "ru": "Á",
-    "it": "Á",
-    "es": "Á",
-    "fr": "Á",
-    "hu": "Á",
-    "pt": "Á"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": "Letter name: á. Example: ár.",
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": {
-      "ipa": "/aː/"
-    },
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7776,
-      "sha1": "75980e59808c06b9792b34247d930ab1fd2c6386"
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T14:L485",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Á"
+    },
+    "ro": {
+      "name": "Á"
+    },
+    "de": {
+      "name": "Á"
+    },
+    "ru": {
+      "name": "Á"
+    },
+    "it": {
+      "name": "Á"
+    },
+    "es": {
+      "name": "Á"
+    },
+    "fr": {
+      "name": "Á"
+    },
     "hu": {
-      "context": "á",
-      "example": "ár"
+      "name": "Á",
+      "description": "Letter name: á. Example: ár.",
+      "ipa": "/aː/",
+      "example": "ár",
+      "context": "á"
+    },
+    "pt": {
+      "name": "Á"
     }
   },
-  "entity_id": "LT01T14:L485",
-  "cefr": "A1"
+  "files": {
+    "sound/hu.mp3": {
+      "bytes": 7776,
+      "sha1": "75980e59808c06b9792b34247d930ab1fd2c6386"
+    }
+  }
 }

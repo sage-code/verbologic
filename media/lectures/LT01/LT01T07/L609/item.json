@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "-lf",
-    "ro": "-lf",
-    "de": "-lf",
-    "ru": "-lf",
-    "it": "-lf",
-    "es": "-lf",
-    "fr": "-lf",
-    "hu": "-lf",
-    "pt": "-lf"
-  },
-  "description": {
-    "en": "Letter name: -lf. Example: half.",
-    "ro": "Combinația de litere -lf este mută la sfârșitul cuvintelor precum half.",
-    "de": "Die Buchstabenkombination -lf ist am Wortende stumm, wie zum Beispiel in half.",
-    "ru": "Буквосочетание -lf не произносится в конце таких слов, как half.",
-    "it": "La combinazione di lettere -lf è muta alla fine di parole come half.",
-    "es": "La combinación de letras -lf es muda al final de palabras como half.",
-    "fr": "La combinaison de lettres -lf est muette à la fin de mots comme half.",
-    "hu": "A -lf betűkombináció néma a szavak végén, például a half szóban.",
-    "pt": "A combinação de letras -lf é muda no final de palavras como half."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/f/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "f0bfd66810e6b69d77833594a71c8a3208502810"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L609",
+  "legacy_entity_id": "letter_half",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "-lf",
-      "example": "half"
+      "name": "-lf",
+      "description": "Letter name: -lf. Example: half.",
+      "ipa": "/f/",
+      "example": "half",
+      "context": "-lf"
+    },
+    "ro": {
+      "name": "-lf",
+      "description": "Combinația de litere -lf este mută la sfârșitul cuvintelor precum half."
+    },
+    "de": {
+      "name": "-lf",
+      "description": "Die Buchstabenkombination -lf ist am Wortende stumm, wie zum Beispiel in half."
+    },
+    "ru": {
+      "name": "-lf",
+      "description": "Буквосочетание -lf не произносится в конце таких слов, как half."
+    },
+    "it": {
+      "name": "-lf",
+      "description": "La combinazione di lettere -lf è muta alla fine di parole come half."
+    },
+    "es": {
+      "name": "-lf",
+      "description": "La combinación de letras -lf es muda al final de palabras como half."
+    },
+    "fr": {
+      "name": "-lf",
+      "description": "La combinaison de lettres -lf est muette à la fin de mots comme half."
+    },
+    "hu": {
+      "name": "-lf",
+      "description": "A -lf betűkombináció néma a szavak végén, például a half szóban."
+    },
+    "pt": {
+      "name": "-lf",
+      "description": "A combinação de letras -lf é muda no final de palavras como half."
     }
   },
-  "entity_id": "LT01T07:L609",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_half"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "f0bfd66810e6b69d77833594a71c8a3208502810"
+    }
+  }
 }

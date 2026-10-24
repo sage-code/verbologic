@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T04",
   "kind": "word",
-  "names": {
-    "en": "wardrobe",
-    "ro": "dulap",
-    "de": "Kleiderschrank",
-    "ru": "Шкаф",
-    "it": "armadio",
-    "es": "armario",
-    "fr": "armoire",
-    "hu": "Szekrény",
-    "pt": "Armário"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/duˈlap/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "8f242c2b3f5c68c4fc2b8d1b8d7e1d9cb8886d2a",
-      "key": "dictionary/CH02/CH02T04/W207/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T04:W207",
+  "cefr": "A1",
   "tags": [
     "vocabulary#home-objects"
   ],
-  "metadata": {},
-  "entity_id": "CH02T04:W207",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "wardrobe"
+    },
+    "ro": {
+      "name": "dulap",
+      "ipa": "/duˈlap/"
+    },
+    "de": {
+      "name": "Kleiderschrank"
+    },
+    "ru": {
+      "name": "Шкаф"
+    },
+    "it": {
+      "name": "armadio"
+    },
+    "es": {
+      "name": "armario"
+    },
+    "fr": {
+      "name": "armoire"
+    },
+    "hu": {
+      "name": "Szekrény"
+    },
+    "pt": {
+      "name": "Armário"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "8f242c2b3f5c68c4fc2b8d1b8d7e1d9cb8886d2a"
+    }
+  }
 }

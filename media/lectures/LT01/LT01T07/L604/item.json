@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "kn-",
-    "ro": "kn-",
-    "de": "kn-",
-    "ru": "kn-",
-    "it": "kn-",
-    "es": "kn-",
-    "fr": "kn-",
-    "hu": "kn-",
-    "pt": "kn-"
-  },
-  "description": {
-    "en": "Letter name: kn-. Example: know.",
-    "ro": "Combinația de litere kn- este mută la începutul cuvintelor precum know.",
-    "de": "Die Buchstabenkombination kn- ist am Wortanfang stumm, wie zum Beispiel in know.",
-    "ru": "Буквосочетание kn- не произносится в начале таких слов, как know.",
-    "it": "La combinazione di lettere kn- è muta all'inizio di parole come know.",
-    "es": "La combinación de letras kn- es muda al principio de palabras como know.",
-    "fr": "La combinaison de lettres kn- est muette au début de mots comme know.",
-    "hu": "A kn- betűkombináció néma a szavak elején, például a know szóban.",
-    "pt": "A combinação de letras kn- é muda no início de palavras como know."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/n/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 6192,
-      "sha1": "5e942600b12eb16da298f19d1ad16cef2ecd65a1"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L604",
+  "legacy_entity_id": "letter_know",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "kn-",
-      "example": "know"
+      "name": "kn-",
+      "description": "Letter name: kn-. Example: know.",
+      "ipa": "/n/",
+      "example": "know",
+      "context": "kn-"
+    },
+    "ro": {
+      "name": "kn-",
+      "description": "Combinația de litere kn- este mută la începutul cuvintelor precum know."
+    },
+    "de": {
+      "name": "kn-",
+      "description": "Die Buchstabenkombination kn- ist am Wortanfang stumm, wie zum Beispiel in know."
+    },
+    "ru": {
+      "name": "kn-",
+      "description": "Буквосочетание kn- не произносится в начале таких слов, как know."
+    },
+    "it": {
+      "name": "kn-",
+      "description": "La combinazione di lettere kn- è muta all'inizio di parole come know."
+    },
+    "es": {
+      "name": "kn-",
+      "description": "La combinación de letras kn- es muda al principio de palabras como know."
+    },
+    "fr": {
+      "name": "kn-",
+      "description": "La combinaison de lettres kn- est muette au début de mots comme know."
+    },
+    "hu": {
+      "name": "kn-",
+      "description": "A kn- betűkombináció néma a szavak elején, például a know szóban."
+    },
+    "pt": {
+      "name": "kn-",
+      "description": "A combinação de letras kn- é muda no início de palavras como know."
     }
   },
-  "entity_id": "LT01T07:L604",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_know"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 6192,
+      "sha1": "5e942600b12eb16da298f19d1ad16cef2ecd65a1"
+    }
+  }
 }

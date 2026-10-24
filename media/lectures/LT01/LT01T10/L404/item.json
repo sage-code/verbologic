@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T10",
   "kind": "letter",
-  "names": {
-    "en": "Я",
-    "ro": "Я",
-    "de": "Я",
-    "ru": "Я",
-    "it": "Я",
-    "es": "Я",
-    "fr": "Я",
-    "hu": "Я",
-    "pt": "Я"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": "Letter name: я. Example: яблоко.",
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": {
-      "ipa": "/ja/"
-    },
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "24e9b0903f1be2b17a374818a3b8b18e85a9eeea"
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T10:L404",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Я"
+    },
+    "ro": {
+      "name": "Я"
+    },
+    "de": {
+      "name": "Я"
+    },
     "ru": {
-      "context": "я",
-      "example": "яблоко"
+      "name": "Я",
+      "description": "Letter name: я. Example: яблоко.",
+      "ipa": "/ja/",
+      "example": "яблоко",
+      "context": "я"
+    },
+    "it": {
+      "name": "Я"
+    },
+    "es": {
+      "name": "Я"
+    },
+    "fr": {
+      "name": "Я"
+    },
+    "hu": {
+      "name": "Я"
+    },
+    "pt": {
+      "name": "Я"
     }
   },
-  "entity_id": "LT01T10:L404",
-  "cefr": "A1"
+  "files": {
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "24e9b0903f1be2b17a374818a3b8b18e85a9eeea"
+    }
+  }
 }

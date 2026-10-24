@@ -4,111 +4,45 @@
   "chapter": "CH07",
   "topic": "CH07T06",
   "kind": "word",
-  "names": {
-    "en": "lawyer",
-    "ro": "avocat",
-    "de": "Anwalt",
-    "ru": "адвокат",
-    "it": "avvocato",
-    "es": "abogado",
-    "fr": "avocat",
-    "hu": "ügyvéd",
-    "pt": "advogado"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/avoˈkat/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "853bdceeabe40c1f3c4922b778815cd3e1dbc873",
-      "key": "dictionary/CH07/CH07T06/W573/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH07T06:W573",
+  "cefr": "B2",
   "tags": [
     "scaffold#C7T06"
   ],
-  "metadata": {},
-  "entity_id": "CH07T06:W573",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "lawyer"
+    },
+    "ro": {
+      "name": "avocat",
+      "ipa": "/avoˈkat/"
+    },
+    "de": {
+      "name": "Anwalt"
+    },
+    "ru": {
+      "name": "адвокат"
+    },
+    "it": {
+      "name": "avvocato"
+    },
+    "es": {
+      "name": "abogado"
+    },
+    "fr": {
+      "name": "avocat"
+    },
+    "hu": {
+      "name": "ügyvéd"
+    },
+    "pt": {
+      "name": "advogado"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "853bdceeabe40c1f3c4922b778815cd3e1dbc873"
+    }
+  }
 }

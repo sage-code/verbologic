@@ -4,111 +4,45 @@
   "chapter": "CH07",
   "topic": "CH07T06",
   "kind": "word",
-  "names": {
-    "en": "justice",
-    "ro": "justiție",
-    "de": "Gerechtigkeit",
-    "ru": "справедливость",
-    "it": "giustizia",
-    "es": "justicia",
-    "fr": "justice",
-    "hu": "igazságosság",
-    "pt": "justiça"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ʒusˈtitsie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "8df97616a9415187ef29303c609aab15017421c7",
-      "key": "dictionary/CH07/CH07T06/W567/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH07T06:W567",
+  "cefr": "B2",
   "tags": [
     "scaffold#C7T06"
   ],
-  "metadata": {},
-  "entity_id": "CH07T06:W567",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "justice"
+    },
+    "ro": {
+      "name": "justiție",
+      "ipa": "/ʒusˈtitsie/"
+    },
+    "de": {
+      "name": "Gerechtigkeit"
+    },
+    "ru": {
+      "name": "справедливость"
+    },
+    "it": {
+      "name": "giustizia"
+    },
+    "es": {
+      "name": "justicia"
+    },
+    "fr": {
+      "name": "justice"
+    },
+    "hu": {
+      "name": "igazságosság"
+    },
+    "pt": {
+      "name": "justiça"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "8df97616a9415187ef29303c609aab15017421c7"
+    }
+  }
 }

@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "ue in înșeuează (saddles)",
-    "ro": "ue",
-    "de": "ue in înșeuează (sattelt)",
-    "ru": "ue в înșeuează (седлает)",
-    "it": "ue in înșeuează (sella)",
-    "es": "ue en înșeuează (ensilla)",
-    "fr": "ue dans înșeuează (selle)",
-    "hu": "ue a înșeuează-ban (nyergel)",
-    "pt": "ue em înșeuează (sela)"
-  },
-  "description": {
-    "en": "This item illustrates the Romanian diphthong ue as found in the word înșeuează.",
-    "ro": "Acest element ilustrează diftongul românesc ue așa cum apare în cuvântul înșeuează.",
-    "de": "Dieser Eintrag veranschaulicht den rumänischen Diphthong ue, wie er im Wort înșeuează vorkommt.",
-    "ru": "Этот элемент иллюстрирует румынский дифтонг ue, встречающийся в слове înșeuează.",
-    "it": "Questo elemento illustra il dittongo rumeno ue come si trova nella parola înșeuează.",
-    "es": "Este elemento ilustra el diptongo rumano ue tal como aparece en la palabra înșeuează.",
-    "fr": "Cet élément illustre la diphtongue roumaine ue telle qu'elle apparaît dans le mot înșeuează.",
-    "hu": "Ez az elem a román ue kettőshangzót mutatja be a înșeuează szóban.",
-    "pt": "Este item ilustra o ditongo romeno ue conforme encontrado na palavra înșeuează."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/we/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8496,
-      "sha1": "e246cfeafdc14009825980c15dc02d048c6479cc",
-      "key": "lectures/LT01/LT01T02/L038/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L038",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L038",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "ue in înșeuează (saddles)",
+      "description": "This item illustrates the Romanian diphthong ue as found in the word înșeuează."
+    },
+    "ro": {
+      "name": "ue",
+      "description": "Acest element ilustrează diftongul românesc ue așa cum apare în cuvântul înșeuează.",
+      "ipa": "/we/"
+    },
+    "de": {
+      "name": "ue in înșeuează (sattelt)",
+      "description": "Dieser Eintrag veranschaulicht den rumänischen Diphthong ue, wie er im Wort înșeuează vorkommt."
+    },
+    "ru": {
+      "name": "ue в înșeuează (седлает)",
+      "description": "Этот элемент иллюстрирует румынский дифтонг ue, встречающийся в слове înșeuează."
+    },
+    "it": {
+      "name": "ue in înșeuează (sella)",
+      "description": "Questo elemento illustra il dittongo rumeno ue come si trova nella parola înșeuează."
+    },
+    "es": {
+      "name": "ue en înșeuează (ensilla)",
+      "description": "Este elemento ilustra el diptongo rumano ue tal como aparece en la palabra înșeuează."
+    },
+    "fr": {
+      "name": "ue dans înșeuează (selle)",
+      "description": "Cet élément illustre la diphtongue roumaine ue telle qu'elle apparaît dans le mot înșeuează."
+    },
+    "hu": {
+      "name": "ue a înșeuează-ban (nyergel)",
+      "description": "Ez az elem a román ue kettőshangzót mutatja be a înșeuează szóban."
+    },
+    "pt": {
+      "name": "ue em înșeuează (sela)",
+      "description": "Este item ilustra o ditongo romeno ue conforme encontrado na palavra înșeuează."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 8496,
+      "sha1": "e246cfeafdc14009825980c15dc02d048c6479cc"
+    }
+  }
 }

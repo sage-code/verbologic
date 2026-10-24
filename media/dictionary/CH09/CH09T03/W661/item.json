@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T03",
   "kind": "word",
-  "names": {
-    "en": "decision",
-    "ro": "decizie",
-    "de": "Entscheidung",
-    "ru": "решение",
-    "it": "decisione",
-    "es": "decisión",
-    "fr": "décision",
-    "hu": "döntés",
-    "pt": "decisão"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/deˈtʃizie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "e1254ac3edfca3c6aa3a6502322e0f2398b7b87b",
-      "key": "dictionary/CH09/CH09T03/W661/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T03:W661",
+  "cefr": "C1",
   "tags": [
     "scaffold#C9T03"
   ],
-  "metadata": {},
-  "entity_id": "CH09T03:W661",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "decision"
+    },
+    "ro": {
+      "name": "decizie",
+      "ipa": "/deˈtʃizie/"
+    },
+    "de": {
+      "name": "Entscheidung"
+    },
+    "ru": {
+      "name": "решение"
+    },
+    "it": {
+      "name": "decisione"
+    },
+    "es": {
+      "name": "decisión"
+    },
+    "fr": {
+      "name": "décision"
+    },
+    "hu": {
+      "name": "döntés"
+    },
+    "pt": {
+      "name": "decisão"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "e1254ac3edfca3c6aa3a6502322e0f2398b7b87b"
+    }
+  }
 }

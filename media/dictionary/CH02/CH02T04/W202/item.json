@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T04",
   "kind": "word",
-  "names": {
-    "en": "door",
-    "ro": "ușă",
-    "de": "Tür",
-    "ru": "Дверь",
-    "it": "porta",
-    "es": "puerta",
-    "fr": "porte",
-    "hu": "Ajtó",
-    "pt": "Porta"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈuʃə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "a9b9e2cbc95befc4543422507ba138e0d357276c",
-      "key": "dictionary/CH02/CH02T04/W202/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T04:W202",
+  "cefr": "A1",
   "tags": [
     "vocabulary#home-objects"
   ],
-  "metadata": {},
-  "entity_id": "CH02T04:W202",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "door"
+    },
+    "ro": {
+      "name": "ușă",
+      "ipa": "/ˈuʃə/"
+    },
+    "de": {
+      "name": "Tür"
+    },
+    "ru": {
+      "name": "Дверь"
+    },
+    "it": {
+      "name": "porta"
+    },
+    "es": {
+      "name": "puerta"
+    },
+    "fr": {
+      "name": "porte"
+    },
+    "hu": {
+      "name": "Ajtó"
+    },
+    "pt": {
+      "name": "Porta"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "a9b9e2cbc95befc4543422507ba138e0d357276c"
+    }
+  }
 }

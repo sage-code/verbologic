@@ -4,111 +4,45 @@
   "chapter": "CH06",
   "topic": "CH06T06",
   "kind": "word",
-  "names": {
-    "en": "drawing",
-    "ro": "desen",
-    "de": "Zeichnung",
-    "ru": "рисунок",
-    "it": "disegno",
-    "es": "dibujo",
-    "fr": "dessin",
-    "hu": "rajz",
-    "pt": "desenho"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/deˈsen/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "a0c480cbadf8a7efb4b53a9542b254bddc70b934",
-      "key": "dictionary/CH06/CH06T06/W497/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH06T06:W497",
+  "cefr": "B1",
   "tags": [
     "scaffold#C6T06"
   ],
-  "metadata": {},
-  "entity_id": "CH06T06:W497",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "drawing"
+    },
+    "ro": {
+      "name": "desen",
+      "ipa": "/deˈsen/"
+    },
+    "de": {
+      "name": "Zeichnung"
+    },
+    "ru": {
+      "name": "рисунок"
+    },
+    "it": {
+      "name": "disegno"
+    },
+    "es": {
+      "name": "dibujo"
+    },
+    "fr": {
+      "name": "dessin"
+    },
+    "hu": {
+      "name": "rajz"
+    },
+    "pt": {
+      "name": "desenho"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "a0c480cbadf8a7efb4b53a9542b254bddc70b934"
+    }
+  }
 }

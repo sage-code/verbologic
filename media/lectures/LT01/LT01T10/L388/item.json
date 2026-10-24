@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T10",
   "kind": "letter",
-  "names": {
-    "en": "П",
-    "ro": "П",
-    "de": "П",
-    "ru": "П",
-    "it": "П",
-    "es": "П",
-    "fr": "П",
-    "hu": "П",
-    "pt": "П"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": "Letter name: пэ. Example: папа.",
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": {
-      "ipa": "/pɛ/"
-    },
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8ddfd48e885d40f2c59e7152418569e10c36d226"
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T10:L388",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "П"
+    },
+    "ro": {
+      "name": "П"
+    },
+    "de": {
+      "name": "П"
+    },
     "ru": {
-      "context": "пэ",
-      "example": "папа"
+      "name": "П",
+      "description": "Letter name: пэ. Example: папа.",
+      "ipa": "/pɛ/",
+      "example": "папа",
+      "context": "пэ"
+    },
+    "it": {
+      "name": "П"
+    },
+    "es": {
+      "name": "П"
+    },
+    "fr": {
+      "name": "П"
+    },
+    "hu": {
+      "name": "П"
+    },
+    "pt": {
+      "name": "П"
     }
   },
-  "entity_id": "LT01T10:L388",
-  "cefr": "A1"
+  "files": {
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "8ddfd48e885d40f2c59e7152418569e10c36d226"
+    }
+  }
 }

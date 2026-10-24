@@ -4,176 +4,114 @@
   "chapter": "CH01",
   "topic": "CH01T09",
   "kind": "letter",
+  "entity_id": "CH01T09:W148",
+  "cefr": "A1",
   "letter": "D",
-  "names": {
-    "en": "D (dee)",
-    "ro": "D (de)",
-    "de": "D (de)",
-    "ru": "D (ди)",
-    "it": "D (di)",
-    "es": "D (de)",
-    "fr": "D (dé)",
-    "hu": "D (dé)",
-    "pt": "D (dê)"
-  },
-  "description": {
-    "en": "The letter D in the Latin alphabet, named dee.",
-    "ro": "Litera D din alfabetul latin, numită de.",
-    "de": "Der Buchstabe D des lateinischen Alphabets, genannt de.",
-    "ru": "Буква D латинского алфавита, называемая «ди».",
-    "it": "La lettera D dell'alfabeto latino, chiamata di.",
-    "es": "La letra D del alfabeto latino, llamada de.",
-    "fr": "La lettre D de l'alphabet latin, appelée dé.",
-    "hu": "A latin ábécé D betűje, neve dé.",
-    "pt": "A letra D do alfabeto latino, chamada dê."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/diː/"
-    },
-    "ro": {
-      "ipa": "/de/"
-    },
-    "de": {
-      "ipa": "/deː/"
-    },
-    "ru": {
-      "ipa": "/di/"
-    },
-    "it": {
-      "ipa": "/di/"
-    },
-    "es": {
-      "ipa": "/de/"
-    },
-    "fr": {
-      "ipa": "/de/"
-    },
-    "hu": {
-      "ipa": "/deː/"
-    },
-    "pt": {
-      "ipa": "/de/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "6c3a86d34f1a906a955e78f02057704e4e5d9636",
-      "key": "dictionary/CH01/CH01T09/W148/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "7c9e4a5a03b3b19f911cdbfa6569097dad23dea2",
-      "key": "dictionary/CH01/CH01T09/W148/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "15e23b20e3885fc7ce8b1e6cacac452607ae10b8",
-      "key": "dictionary/CH01/CH01T09/W148/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "7e0369aca01cd4cb2dfa6947c07afff3d9bda730",
-      "key": "dictionary/CH01/CH01T09/W148/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 4896,
-      "sha1": "d0b9f24cd159d2d83f7b4fecdee7e7371e4c8a20",
-      "key": "dictionary/CH01/CH01T09/W148/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "dd232df1139ccac95d09de5a7eaf8b41fe7f8a94",
-      "key": "dictionary/CH01/CH01T09/W148/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "9f0b4ba9c44bdda13ecb4be5e79eae1a7055f55c",
-      "key": "dictionary/CH01/CH01T09/W148/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "dbf7d28b5f25e1eb34cb0eb485e0cd3a9572b447",
-      "key": "dictionary/CH01/CH01T09/W148/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "42a279054424f2c4ac19746eaff849ab9bf4462a",
-      "key": "dictionary/CH01/CH01T09/W148/sound/pt.mp3"
-    }
-  },
-  "ttsText": {
-    "en": "dee",
-    "ro": "de",
-    "de": "de",
-    "ru": "ди",
-    "it": "di",
-    "es": "de",
-    "fr": "dé",
-    "hu": "dé",
-    "pt": "dê"
-  },
   "tags": [
     "alphabet#common-letter",
     "alphabet#latin"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "D (dee)",
+      "description": "The letter D in the Latin alphabet, named dee.",
+      "ipa": "/diː/",
+      "ttsText": "dee",
       "example": "dee"
     },
     "ro": {
+      "name": "D (de)",
+      "description": "Litera D din alfabetul latin, numită de.",
+      "ipa": "/de/",
+      "ttsText": "de",
       "example": "de"
     },
     "de": {
+      "name": "D (de)",
+      "description": "Der Buchstabe D des lateinischen Alphabets, genannt de.",
+      "ipa": "/deː/",
+      "ttsText": "de",
       "example": "de"
     },
     "ru": {
+      "name": "D (ди)",
+      "description": "Буква D латинского алфавита, называемая «ди».",
+      "ipa": "/di/",
+      "ttsText": "ди",
       "example": "ди"
     },
     "it": {
+      "name": "D (di)",
+      "description": "La lettera D dell'alfabeto latino, chiamata di.",
+      "ipa": "/di/",
+      "ttsText": "di",
       "example": "di"
     },
     "es": {
+      "name": "D (de)",
+      "description": "La letra D del alfabeto latino, llamada de.",
+      "ipa": "/de/",
+      "ttsText": "de",
       "example": "de"
     },
     "fr": {
+      "name": "D (dé)",
+      "description": "La lettre D de l'alphabet latin, appelée dé.",
+      "ipa": "/de/",
+      "ttsText": "dé",
       "example": "dé"
     },
     "hu": {
+      "name": "D (dé)",
+      "description": "A latin ábécé D betűje, neve dé.",
+      "ipa": "/deː/",
+      "ttsText": "dé",
       "example": "dé"
     },
     "pt": {
+      "name": "D (dê)",
+      "description": "A letra D do alfabeto latino, chamada dê.",
+      "ipa": "/de/",
+      "ttsText": "dê",
       "example": "dê"
     }
   },
-  "entity_id": "CH01T09:W148",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "6c3a86d34f1a906a955e78f02057704e4e5d9636"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "7c9e4a5a03b3b19f911cdbfa6569097dad23dea2"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "15e23b20e3885fc7ce8b1e6cacac452607ae10b8"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "7e0369aca01cd4cb2dfa6947c07afff3d9bda730"
+    },
+    "sound/it.mp3": {
+      "bytes": 4896,
+      "sha1": "d0b9f24cd159d2d83f7b4fecdee7e7371e4c8a20"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "dd232df1139ccac95d09de5a7eaf8b41fe7f8a94"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "9f0b4ba9c44bdda13ecb4be5e79eae1a7055f55c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "dbf7d28b5f25e1eb34cb0eb485e0cd3a9572b447"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "42a279054424f2c4ac19746eaff849ab9bf4462a"
+    }
+  }
 }

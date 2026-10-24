@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T04",
   "kind": "word",
-  "names": {
-    "en": "company",
-    "ro": "companie",
-    "de": "Unternehmen",
-    "ru": "компания",
-    "it": "azienda",
-    "es": "empresa",
-    "fr": "entreprise",
-    "hu": "cég",
-    "pt": "empresa"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/kompaˈnie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "196c0e386a53d279f08c82493f0fc227ac0d0884",
-      "key": "dictionary/CH09/CH09T04/W665/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T04:W665",
+  "cefr": "C1",
   "tags": [
     "scaffold#C9T04"
   ],
-  "metadata": {},
-  "entity_id": "CH09T04:W665",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "company"
+    },
+    "ro": {
+      "name": "companie",
+      "ipa": "/kompaˈnie/"
+    },
+    "de": {
+      "name": "Unternehmen"
+    },
+    "ru": {
+      "name": "компания"
+    },
+    "it": {
+      "name": "azienda"
+    },
+    "es": {
+      "name": "empresa"
+    },
+    "fr": {
+      "name": "entreprise"
+    },
+    "hu": {
+      "name": "cég"
+    },
+    "pt": {
+      "name": "empresa"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "196c0e386a53d279f08c82493f0fc227ac0d0884"
+    }
+  }
 }

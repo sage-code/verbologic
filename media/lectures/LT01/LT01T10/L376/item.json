@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T10",
   "kind": "letter",
-  "names": {
-    "en": "Д",
-    "ro": "Д",
-    "de": "Д",
-    "ru": "Д",
-    "it": "Д",
-    "es": "Д",
-    "fr": "Д",
-    "hu": "Д",
-    "pt": "Д"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": "Letter name: дэ. Example: дом.",
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": {
-      "ipa": "/dɛ/"
-    },
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8640,
-      "sha1": "ab19345f0a743b393438c0e36d023456daf2f119"
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T10:L376",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Д"
+    },
+    "ro": {
+      "name": "Д"
+    },
+    "de": {
+      "name": "Д"
+    },
     "ru": {
-      "context": "дэ",
-      "example": "дом"
+      "name": "Д",
+      "description": "Letter name: дэ. Example: дом.",
+      "ipa": "/dɛ/",
+      "example": "дом",
+      "context": "дэ"
+    },
+    "it": {
+      "name": "Д"
+    },
+    "es": {
+      "name": "Д"
+    },
+    "fr": {
+      "name": "Д"
+    },
+    "hu": {
+      "name": "Д"
+    },
+    "pt": {
+      "name": "Д"
     }
   },
-  "entity_id": "LT01T10:L376",
-  "cefr": "A1"
+  "files": {
+    "sound/ru.mp3": {
+      "bytes": 8640,
+      "sha1": "ab19345f0a743b393438c0e36d023456daf2f119"
+    }
+  }
 }

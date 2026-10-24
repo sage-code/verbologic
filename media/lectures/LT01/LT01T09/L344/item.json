@@ -4,115 +4,56 @@
   "chapter": "LT01",
   "topic": "LT01T09",
   "kind": "letter",
-  "names": {
-    "en": "C",
-    "ro": "C",
-    "de": "C",
-    "ru": "C",
-    "it": "C",
-    "es": "C",
-    "fr": "C",
-    "hu": "C",
-    "pt": "C"
-  },
-  "description": {
-    "en": "The letter name is Ce, as in the word Computer.",
-    "ro": "Numele literei este Ce, ca în cuvântul Computer.",
-    "de": "Letter name: Ce. Example: Computer.",
-    "ru": "Название буквы — Ce, как в слове Computer.",
-    "it": "Il nome della lettera è Ce, come nella parola Computer.",
-    "es": "El nombre de la letra es Ce, como en la palabra Computer.",
-    "fr": "Le nom de la lettre est Ce, comme dans le mot Computer.",
-    "hu": "A betű neve Ce, mint a Computer szóban.",
-    "pt": "O nome da letra é Ce, como na palavra Computer."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": {
-      "ipa": "/tseː/"
-    },
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "d9cbf6957e86bbfaf29fe2c90fc04ac0744236a7"
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T09:L344",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "C",
+      "description": "The letter name is Ce, as in the word Computer."
+    },
+    "ro": {
+      "name": "C",
+      "description": "Numele literei este Ce, ca în cuvântul Computer."
+    },
     "de": {
-      "context": "Ce",
-      "example": "Computer"
+      "name": "C",
+      "description": "Letter name: Ce. Example: Computer.",
+      "ipa": "/tseː/",
+      "example": "Computer",
+      "context": "Ce"
+    },
+    "ru": {
+      "name": "C",
+      "description": "Название буквы — Ce, как в слове Computer."
+    },
+    "it": {
+      "name": "C",
+      "description": "Il nome della lettera è Ce, come nella parola Computer."
+    },
+    "es": {
+      "name": "C",
+      "description": "El nombre de la letra es Ce, como en la palabra Computer."
+    },
+    "fr": {
+      "name": "C",
+      "description": "Le nom de la lettre est Ce, comme dans le mot Computer."
+    },
+    "hu": {
+      "name": "C",
+      "description": "A betű neve Ce, mint a Computer szóban."
+    },
+    "pt": {
+      "name": "C",
+      "description": "O nome da letra é Ce, como na palavra Computer."
     }
   },
-  "entity_id": "LT01T09:L344",
-  "cefr": "A1"
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "d9cbf6957e86bbfaf29fe2c90fc04ac0744236a7"
+    }
+  }
 }

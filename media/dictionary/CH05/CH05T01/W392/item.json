@@ -4,111 +4,45 @@
   "chapter": "CH05",
   "topic": "CH05T01",
   "kind": "word",
-  "names": {
-    "en": "reservation",
-    "ro": "rezervare",
-    "de": "Reservierung",
-    "ru": "бронирование",
-    "it": "prenotazione",
-    "es": "reserva",
-    "fr": "réservation",
-    "hu": "foglalás",
-    "pt": "reserva"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/rezerˈvare/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11088,
-      "sha1": "cef41ba0eb8bdcedd77f66bfeb44baccf974eaa6",
-      "key": "dictionary/CH05/CH05T01/W392/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH05T01:W392",
+  "cefr": "B1",
   "tags": [
     "vocabulary#travel-essentials"
   ],
-  "metadata": {},
-  "entity_id": "CH05T01:W392",
-  "cefr": "B1"
+  "locales": {
+    "en": {
+      "name": "reservation"
+    },
+    "ro": {
+      "name": "rezervare",
+      "ipa": "/rezerˈvare/"
+    },
+    "de": {
+      "name": "Reservierung"
+    },
+    "ru": {
+      "name": "бронирование"
+    },
+    "it": {
+      "name": "prenotazione"
+    },
+    "es": {
+      "name": "reserva"
+    },
+    "fr": {
+      "name": "réservation"
+    },
+    "hu": {
+      "name": "foglalás"
+    },
+    "pt": {
+      "name": "reserva"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11088,
+      "sha1": "cef41ba0eb8bdcedd77f66bfeb44baccf974eaa6"
+    }
+  }
 }

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T10",
   "kind": "letter",
-  "names": {
-    "en": "Э",
-    "ro": "Э",
-    "de": "Э",
-    "ru": "Э",
-    "it": "Э",
-    "es": "Э",
-    "fr": "Э",
-    "hu": "Э",
-    "pt": "Э"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": "Letter name: э. Example: это.",
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": {
-      "ipa": "/ɛ/"
-    },
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a5ff9d6a1f8e5295ba826a9e4c9915c8b540e7a6"
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T10:L402",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "Э"
+    },
+    "ro": {
+      "name": "Э"
+    },
+    "de": {
+      "name": "Э"
+    },
     "ru": {
-      "context": "э",
-      "example": "это"
+      "name": "Э",
+      "description": "Letter name: э. Example: это.",
+      "ipa": "/ɛ/",
+      "example": "это",
+      "context": "э"
+    },
+    "it": {
+      "name": "Э"
+    },
+    "es": {
+      "name": "Э"
+    },
+    "fr": {
+      "name": "Э"
+    },
+    "hu": {
+      "name": "Э"
+    },
+    "pt": {
+      "name": "Э"
     }
   },
-  "entity_id": "LT01T10:L402",
-  "cefr": "A1"
+  "files": {
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "a5ff9d6a1f8e5295ba826a9e4c9915c8b540e7a6"
+    }
+  }
 }

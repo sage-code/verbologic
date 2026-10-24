@@ -4,111 +4,45 @@
   "chapter": "CH04",
   "topic": "CH04T07",
   "kind": "word",
-  "names": {
-    "en": "emergency",
-    "ro": "urgență",
-    "de": "Notfall",
-    "ru": "экстренный случай",
-    "it": "emergenza",
-    "es": "emergencia",
-    "fr": "urgence",
-    "hu": "sürgősség",
-    "pt": "emergência"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/urˈdʒentsə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "31caa1b30eb78586ff71ca1e8988274f0c26509f",
-      "key": "dictionary/CH04/CH04T07/W385/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH04T07:W385",
+  "cefr": "A2",
   "tags": [
     "vocabulary#health-emergencies"
   ],
-  "metadata": {},
-  "entity_id": "CH04T07:W385",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "emergency"
+    },
+    "ro": {
+      "name": "urgență",
+      "ipa": "/urˈdʒentsə/"
+    },
+    "de": {
+      "name": "Notfall"
+    },
+    "ru": {
+      "name": "экстренный случай"
+    },
+    "it": {
+      "name": "emergenza"
+    },
+    "es": {
+      "name": "emergencia"
+    },
+    "fr": {
+      "name": "urgence"
+    },
+    "hu": {
+      "name": "sürgősség"
+    },
+    "pt": {
+      "name": "emergência"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 10656,
+      "sha1": "31caa1b30eb78586ff71ca1e8988274f0c26509f"
+    }
+  }
 }

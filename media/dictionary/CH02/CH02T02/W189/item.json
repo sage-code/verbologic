@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T02",
   "kind": "word",
-  "names": {
-    "en": "belt",
-    "ro": "curea",
-    "de": "Gürtel",
-    "ru": "Ремень",
-    "it": "cintura",
-    "es": "cinturón",
-    "fr": "ceinture",
-    "hu": "Öv",
-    "pt": "Cinto"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/kuˈrea/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "889606311a31140dfb3f3f519436f4b0333d5874",
-      "key": "dictionary/CH02/CH02T02/W189/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T02:W189",
+  "cefr": "A1",
   "tags": [
     "scaffold#C2T02"
   ],
-  "metadata": {},
-  "entity_id": "CH02T02:W189",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "belt"
+    },
+    "ro": {
+      "name": "curea",
+      "ipa": "/kuˈrea/"
+    },
+    "de": {
+      "name": "Gürtel"
+    },
+    "ru": {
+      "name": "Ремень"
+    },
+    "it": {
+      "name": "cintura"
+    },
+    "es": {
+      "name": "cinturón"
+    },
+    "fr": {
+      "name": "ceinture"
+    },
+    "hu": {
+      "name": "Öv"
+    },
+    "pt": {
+      "name": "Cinto"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "889606311a31140dfb3f3f519436f4b0333d5874"
+    }
+  }
 }

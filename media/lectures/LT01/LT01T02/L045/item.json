@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "eai in vedeai (you used to see)",
-    "ro": "eai",
-    "de": "eai in vedeai (du hast gesehen)",
-    "ru": "eai в vedeai (ты видел)",
-    "it": "eai in vedeai (vedevi)",
-    "es": "eai en vedeai (veías)",
-    "fr": "eai dans vedeai (tu voyais)",
-    "hu": "eai a vedeai-ban (láttál)",
-    "pt": "eai em vedeai (tu vias)"
-  },
-  "description": {
-    "en": "This item illustrates the Romanian diphthong eai as found in the verb form vedeai.",
-    "ro": "Acest element ilustrează diftongul românesc eai, așa cum apare în forma verbală vedeai.",
-    "de": "Dieses Element veranschaulicht den rumänischen Diphthong eai, wie er in der Verbform vedeai vorkommt.",
-    "ru": "Этот элемент иллюстрирует румынский дифтонг eai, встречающийся в глагольной форме vedeai.",
-    "it": "Questo elemento illustra il dittongo rumeno eai come si trova nella forma verbale vedeai.",
-    "es": "Este elemento ilustra el diptongo rumano eai tal como aparece en la forma verbal vedeai.",
-    "fr": "Cet élément illustre la diphtongue roumaine eai telle qu'elle apparaît dans la forme verbale vedeai.",
-    "hu": "Ez az elem a román eai kettőshangzót mutatja be a vedeai igealakban.",
-    "pt": "Este item ilustra o ditongo romeno eai, conforme encontrado na forma verbal vedeai."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/e̯aj/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "edce6a7e1b5781c9a1a467ac2f2faab7ab030ce8",
-      "key": "lectures/LT01/LT01T02/L045/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L045",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L045",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "eai in vedeai (you used to see)",
+      "description": "This item illustrates the Romanian diphthong eai as found in the verb form vedeai."
+    },
+    "ro": {
+      "name": "eai",
+      "description": "Acest element ilustrează diftongul românesc eai, așa cum apare în forma verbală vedeai.",
+      "ipa": "/e̯aj/"
+    },
+    "de": {
+      "name": "eai in vedeai (du hast gesehen)",
+      "description": "Dieses Element veranschaulicht den rumänischen Diphthong eai, wie er in der Verbform vedeai vorkommt."
+    },
+    "ru": {
+      "name": "eai в vedeai (ты видел)",
+      "description": "Этот элемент иллюстрирует румынский дифтонг eai, встречающийся в глагольной форме vedeai."
+    },
+    "it": {
+      "name": "eai in vedeai (vedevi)",
+      "description": "Questo elemento illustra il dittongo rumeno eai come si trova nella forma verbale vedeai."
+    },
+    "es": {
+      "name": "eai en vedeai (veías)",
+      "description": "Este elemento ilustra el diptongo rumano eai tal como aparece en la forma verbal vedeai."
+    },
+    "fr": {
+      "name": "eai dans vedeai (tu voyais)",
+      "description": "Cet élément illustre la diphtongue roumaine eai telle qu'elle apparaît dans la forme verbale vedeai."
+    },
+    "hu": {
+      "name": "eai a vedeai-ban (láttál)",
+      "description": "Ez az elem a román eai kettőshangzót mutatja be a vedeai igealakban."
+    },
+    "pt": {
+      "name": "eai em vedeai (tu vias)",
+      "description": "Este item ilustra o ditongo romeno eai, conforme encontrado na forma verbal vedeai."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "edce6a7e1b5781c9a1a467ac2f2faab7ab030ce8"
+    }
+  }
 }

@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T02",
   "kind": "letter",
-  "names": {
-    "en": "iu in iubit (beloved)",
-    "ro": "iu",
-    "de": "iu in iubit (geliebt)",
-    "ru": "iu в iubit (любимый)",
-    "it": "iu in iubit (amato)",
-    "es": "iu en iubit (amado)",
-    "fr": "iu dans iubit (aimé)",
-    "hu": "iu a iubit (szeretett) szóban",
-    "pt": "iu em iubit (amado)"
-  },
-  "description": {
-    "en": "The diphthong iu is found in the Romanian word iubit.",
-    "ro": "Diftongul iu se regăsește în cuvântul românesc iubit.",
-    "de": "Der Diphthong iu kommt im rumänischen Wort iubit vor.",
-    "ru": "Дифтонг iu встречается в румынском слове iubit.",
-    "it": "Il dittongo iu si trova nella parola rumena iubit.",
-    "es": "El diptongo iu se encuentra en la palabra rumana iubit.",
-    "fr": "La diphtongue iu se trouve dans le mot roumain iubit.",
-    "hu": "Az iu diftongus a román iubit szóban található meg.",
-    "pt": "O ditongo iu é encontrado na palavra romena iubit."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ju/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "ee3ffd6e06776ec67002e41d7f92fefee7e6427c",
-      "key": "lectures/LT01/LT01T02/L036/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T02:L036",
+  "cefr": "A1",
   "tags": [
     "alphabet#diphthongs"
   ],
-  "metadata": {},
-  "entity_id": "LT01T02:L036",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "iu in iubit (beloved)",
+      "description": "The diphthong iu is found in the Romanian word iubit."
+    },
+    "ro": {
+      "name": "iu",
+      "description": "Diftongul iu se regăsește în cuvântul românesc iubit.",
+      "ipa": "/ju/"
+    },
+    "de": {
+      "name": "iu in iubit (geliebt)",
+      "description": "Der Diphthong iu kommt im rumänischen Wort iubit vor."
+    },
+    "ru": {
+      "name": "iu в iubit (любимый)",
+      "description": "Дифтонг iu встречается в румынском слове iubit."
+    },
+    "it": {
+      "name": "iu in iubit (amato)",
+      "description": "Il dittongo iu si trova nella parola rumena iubit."
+    },
+    "es": {
+      "name": "iu en iubit (amado)",
+      "description": "El diptongo iu se encuentra en la palabra rumana iubit."
+    },
+    "fr": {
+      "name": "iu dans iubit (aimé)",
+      "description": "La diphtongue iu se trouve dans le mot roumain iubit."
+    },
+    "hu": {
+      "name": "iu a iubit (szeretett) szóban",
+      "description": "Az iu diftongus a román iubit szóban található meg."
+    },
+    "pt": {
+      "name": "iu em iubit (amado)",
+      "description": "O ditongo iu é encontrado na palavra romena iubit."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "ee3ffd6e06776ec67002e41d7f92fefee7e6427c"
+    }
+  }
 }

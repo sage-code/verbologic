@@ -4,111 +4,45 @@
   "chapter": "CH07",
   "topic": "CH07T03",
   "kind": "word",
-  "names": {
-    "en": "doctor",
-    "ro": "doctor",
-    "de": "Arzt",
-    "ru": "врач",
-    "it": "dottore",
-    "es": "doctor",
-    "fr": "docteur",
-    "hu": "orvos",
-    "pt": "médico"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/dokˈtor/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "667afc51c04e67d99ff55ae366dfc8188a898aa6",
-      "key": "dictionary/CH07/CH07T03/W536/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH07T03:W536",
+  "cefr": "B2",
   "tags": [
     "scaffold#C7T03"
   ],
-  "metadata": {},
-  "entity_id": "CH07T03:W536",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "doctor"
+    },
+    "ro": {
+      "name": "doctor",
+      "ipa": "/dokˈtor/"
+    },
+    "de": {
+      "name": "Arzt"
+    },
+    "ru": {
+      "name": "врач"
+    },
+    "it": {
+      "name": "dottore"
+    },
+    "es": {
+      "name": "doctor"
+    },
+    "fr": {
+      "name": "docteur"
+    },
+    "hu": {
+      "name": "orvos"
+    },
+    "pt": {
+      "name": "médico"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "667afc51c04e67d99ff55ae366dfc8188a898aa6"
+    }
+  }
 }

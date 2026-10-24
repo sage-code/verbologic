@@ -4,111 +4,45 @@
   "chapter": "CH10",
   "topic": "CH10T04",
   "kind": "word",
-  "names": {
-    "en": "engineer",
-    "ro": "inginer",
-    "de": "Ingenieur",
-    "ru": "инженер",
-    "it": "ingegnere",
-    "es": "ingeniero",
-    "fr": "ingénieur",
-    "hu": "mérnök",
-    "pt": "engenheiro"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/indʒiˈner/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "12d3fe3d35153444e5f48220e1cefb7e52292f21",
-      "key": "dictionary/CH10/CH10T04/W735/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH10T04:W735",
+  "cefr": "C1",
   "tags": [
     "scaffold#C10T04"
   ],
-  "metadata": {},
-  "entity_id": "CH10T04:W735",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "engineer"
+    },
+    "ro": {
+      "name": "inginer",
+      "ipa": "/indʒiˈner/"
+    },
+    "de": {
+      "name": "Ingenieur"
+    },
+    "ru": {
+      "name": "инженер"
+    },
+    "it": {
+      "name": "ingegnere"
+    },
+    "es": {
+      "name": "ingeniero"
+    },
+    "fr": {
+      "name": "ingénieur"
+    },
+    "hu": {
+      "name": "mérnök"
+    },
+    "pt": {
+      "name": "engenheiro"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "12d3fe3d35153444e5f48220e1cefb7e52292f21"
+    }
+  }
 }

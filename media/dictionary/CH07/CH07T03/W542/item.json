@@ -4,111 +4,45 @@
   "chapter": "CH07",
   "topic": "CH07T03",
   "kind": "word",
-  "names": {
-    "en": "exercise",
-    "ro": "exercițiu",
-    "de": "Übung",
-    "ru": "упражнение",
-    "it": "esercizio",
-    "es": "ejercicio",
-    "fr": "exercice",
-    "hu": "gyakorlat",
-    "pt": "exercício"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/eksertʃiˈtsiu/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "add0a077f76c96ef6d30251607d703d8a14b57ec",
-      "key": "dictionary/CH07/CH07T03/W542/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH07T03:W542",
+  "cefr": "B2",
   "tags": [
     "scaffold#C7T03"
   ],
-  "metadata": {},
-  "entity_id": "CH07T03:W542",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "exercise"
+    },
+    "ro": {
+      "name": "exercițiu",
+      "ipa": "/eksertʃiˈtsiu/"
+    },
+    "de": {
+      "name": "Übung"
+    },
+    "ru": {
+      "name": "упражнение"
+    },
+    "it": {
+      "name": "esercizio"
+    },
+    "es": {
+      "name": "ejercicio"
+    },
+    "fr": {
+      "name": "exercice"
+    },
+    "hu": {
+      "name": "gyakorlat"
+    },
+    "pt": {
+      "name": "exercício"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "add0a077f76c96ef6d30251607d703d8a14b57ec"
+    }
+  }
 }

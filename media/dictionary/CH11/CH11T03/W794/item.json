@@ -4,111 +4,45 @@
   "chapter": "CH11",
   "topic": "CH11T03",
   "kind": "word",
-  "names": {
-    "en": "moreover",
-    "ro": "în plus",
-    "de": "außerdem",
-    "ru": "кроме того",
-    "it": "inoltre",
-    "es": "además",
-    "fr": "de plus",
-    "hu": "továbbá",
-    "pt": "além disso"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ɨn plus/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "3950e993ec45695ce455580680595f71c84ec572",
-      "key": "dictionary/CH11/CH11T03/W794/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH11T03:W794",
+  "cefr": "C2",
   "tags": [
     "scaffold#C11T03"
   ],
-  "metadata": {},
-  "entity_id": "CH11T03:W794",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "moreover"
+    },
+    "ro": {
+      "name": "în plus",
+      "ipa": "/ɨn plus/"
+    },
+    "de": {
+      "name": "außerdem"
+    },
+    "ru": {
+      "name": "кроме того"
+    },
+    "it": {
+      "name": "inoltre"
+    },
+    "es": {
+      "name": "además"
+    },
+    "fr": {
+      "name": "de plus"
+    },
+    "hu": {
+      "name": "továbbá"
+    },
+    "pt": {
+      "name": "além disso"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "3950e993ec45695ce455580680595f71c84ec572"
+    }
+  }
 }

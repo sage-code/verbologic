@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T15",
   "kind": "letter",
-  "names": {
-    "en": "C",
-    "ro": "C",
-    "de": "C",
-    "ru": "C",
-    "it": "C",
-    "es": "C",
-    "fr": "C",
-    "hu": "C",
-    "pt": "C"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": "Letter name: cê. Example: casa."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": {
-      "ipa": "/se/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 7488,
-      "sha1": "9b60fd26edac081e3c6d17bb4dee855f9c5f967e"
-    }
-  },
+  "entity_id": "LT01T15:L529",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "C"
+    },
+    "ro": {
+      "name": "C"
+    },
+    "de": {
+      "name": "C"
+    },
+    "ru": {
+      "name": "C"
+    },
+    "it": {
+      "name": "C"
+    },
+    "es": {
+      "name": "C"
+    },
+    "fr": {
+      "name": "C"
+    },
+    "hu": {
+      "name": "C"
+    },
     "pt": {
-      "context": "cê",
-      "example": "casa"
+      "name": "C",
+      "description": "Letter name: cê. Example: casa.",
+      "ipa": "/se/",
+      "example": "casa",
+      "context": "cê"
     }
   },
-  "entity_id": "LT01T15:L529",
-  "cefr": "A1"
+  "files": {
+    "sound/pt.mp3": {
+      "bytes": 7488,
+      "sha1": "9b60fd26edac081e3c6d17bb4dee855f9c5f967e"
+    }
+  }
 }

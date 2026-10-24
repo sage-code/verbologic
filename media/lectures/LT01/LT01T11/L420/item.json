@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T11",
   "kind": "letter",
-  "names": {
-    "en": "R",
-    "ro": "R",
-    "de": "R",
-    "ru": "R",
-    "it": "R",
-    "es": "R",
-    "fr": "R",
-    "hu": "R",
-    "pt": "R"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": "Letter name: erre. Example: sole.",
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": {
-      "ipa": "/ˈɛrre/"
-    },
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "557338568379de964a9c7569a309a1ae801f2264"
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T11:L420",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "R"
+    },
+    "ro": {
+      "name": "R"
+    },
+    "de": {
+      "name": "R"
+    },
+    "ru": {
+      "name": "R"
+    },
     "it": {
-      "context": "erre",
-      "example": "sole"
+      "name": "R",
+      "description": "Letter name: erre. Example: sole.",
+      "ipa": "/ˈɛrre/",
+      "example": "sole",
+      "context": "erre"
+    },
+    "es": {
+      "name": "R"
+    },
+    "fr": {
+      "name": "R"
+    },
+    "hu": {
+      "name": "R"
+    },
+    "pt": {
+      "name": "R"
     }
   },
-  "entity_id": "LT01T11:L420",
-  "cefr": "A1"
+  "files": {
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "557338568379de964a9c7569a309a1ae801f2264"
+    }
+  }
 }

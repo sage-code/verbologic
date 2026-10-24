@@ -4,111 +4,45 @@
   "chapter": "CH10",
   "topic": "CH10T05",
   "kind": "word",
-  "names": {
-    "en": "organism",
-    "ro": "organism",
-    "de": "Organismus",
-    "ru": "организм",
-    "it": "organismo",
-    "es": "organismo",
-    "fr": "organisme",
-    "hu": "organizmus",
-    "pt": "organismo"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/orgaˈnism/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "a88127421143b90dfd89a13a2702383f78b4ddce",
-      "key": "dictionary/CH10/CH10T05/W752/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH10T05:W752",
+  "cefr": "C1",
   "tags": [
     "scaffold#C10T05"
   ],
-  "metadata": {},
-  "entity_id": "CH10T05:W752",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "organism"
+    },
+    "ro": {
+      "name": "organism",
+      "ipa": "/orgaˈnism/"
+    },
+    "de": {
+      "name": "Organismus"
+    },
+    "ru": {
+      "name": "организм"
+    },
+    "it": {
+      "name": "organismo"
+    },
+    "es": {
+      "name": "organismo"
+    },
+    "fr": {
+      "name": "organisme"
+    },
+    "hu": {
+      "name": "organizmus"
+    },
+    "pt": {
+      "name": "organismo"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "a88127421143b90dfd89a13a2702383f78b4ddce"
+    }
+  }
 }

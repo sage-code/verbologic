@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T14",
   "kind": "letter",
-  "names": {
-    "en": "X",
-    "ro": "X",
-    "de": "X",
-    "ru": "X",
-    "it": "X",
-    "es": "X",
-    "fr": "X",
-    "hu": "X",
-    "pt": "X"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": "Letter name: iksz. Example: xilofon.",
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": {
-      "ipa": "/iks/"
-    },
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8064,
-      "sha1": "e238f7b4464a0cb7940136510c7317c7238bdcba"
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T14:L524",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "X"
+    },
+    "ro": {
+      "name": "X"
+    },
+    "de": {
+      "name": "X"
+    },
+    "ru": {
+      "name": "X"
+    },
+    "it": {
+      "name": "X"
+    },
+    "es": {
+      "name": "X"
+    },
+    "fr": {
+      "name": "X"
+    },
     "hu": {
-      "context": "iksz",
-      "example": "xilofon"
+      "name": "X",
+      "description": "Letter name: iksz. Example: xilofon.",
+      "ipa": "/iks/",
+      "example": "xilofon",
+      "context": "iksz"
+    },
+    "pt": {
+      "name": "X"
     }
   },
-  "entity_id": "LT01T14:L524",
-  "cefr": "A1"
+  "files": {
+    "sound/hu.mp3": {
+      "bytes": 8064,
+      "sha1": "e238f7b4464a0cb7940136510c7317c7238bdcba"
+    }
+  }
 }

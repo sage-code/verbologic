@@ -47,6 +47,14 @@ SIDEBARS_DIR = ROOT / "src" / "data" / "sidebars"
 TRACKS = ("dictionary", "lectures", "stories")
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.locales import LOCALES  # noqa: E402  (single locale registry)
+from lib.manifest import (  # noqa: E402  (locales + files shape)
+    file_path,
+    locale_row,
+    name_of,
+    set_file_facts,
+    set_locale_field,
+    tts_text_of,
+)
 LANGUAGE_NAMES = {
     "en": "English",
     "ro": "Romanian",
@@ -102,12 +110,8 @@ def read_items(track_filter: str | None):
             item = json.loads(path.read_text(encoding="utf-8"))
             if item.get("track") != track:
                 raise ValueError(f"Track mismatch in {path}: expected {track!r}")
-            for field in ("names", "description"):
-                if not isinstance(item.get(field), dict):
-                    raise ValueError(f"{path} must contain a {field!r} object")
-            # Chapter/topic title manifests carry no per-language audio map.
-            if item.get("audio") is not None and not isinstance(item["audio"], dict):
-                raise ValueError(f"{path} must contain an 'audio' object")
+            if not isinstance(item.get("locales"), dict):
+                raise ValueError(f"{path} must contain a 'locales' object")
             yield path, item
 
 
@@ -123,8 +127,10 @@ def build_translation_jobs(items):
     jobs = []
     skipped_names = 0
     for path, item in items:
-        names = item["names"]
-        descriptions = item["description"]
+        names = {locale: name_of(item, locale) for locale in LOCALES}
+        descriptions = {
+            locale: locale_row(item, locale).get("description") for locale in LOCALES
+        }
         missing_names = [lang for lang in LOCALES if is_missing(names.get(lang))]
         missing_descriptions = [
             lang for lang in LOCALES if is_missing(descriptions.get(lang))
@@ -309,8 +315,8 @@ def apply_translations(jobs, dry_run: bool) -> int:
                 requested = job.get(field) or {}
                 values = result.get(field, {})
                 for locale in requested.get("targets", []):
-                    if is_missing(item[field].get(locale)):
-                        item[field][locale] = values[locale].strip()
+                    if is_missing(locale_row(item, locale).get(field)):
+                        set_locale_field(item, locale, field, values[locale].strip())
                         changed += 1
             write_json_atomic(path, item)
         print(f"translated batch {offset // BATCH_SIZE + 1} ({len(chunk)} item(s))")
@@ -318,8 +324,8 @@ def apply_translations(jobs, dry_run: bool) -> int:
     return changed
 
 
-def audio_path_for(path: Path, audio: dict[str, Any], locale: str, folder: str = "sound") -> Path:
-    relative_path = audio.get("file") or f"{folder}/{locale}.mp3"
+def audio_path_for(path: Path, locale: str, folder: str = "sound") -> Path:
+    relative_path = file_path("audio" if folder == "sound" else "read", locale)
     target = (path.parent / relative_path).resolve()
     if not target.is_relative_to(path.parent.resolve()):
         raise ValueError(f"Audio path escapes its item directory: {path}: {relative_path}")
@@ -369,8 +375,6 @@ async def apply_audio(
     failed = 0
     owners = owners or {}
     for path, item in items:
-        if not isinstance(item.get("audio"), dict):
-            continue
         # Phonetic topic owned by one language: synthesise that voice only.
         owner = owners.get(str(item.get("topic", "")))
         changed = False
@@ -379,23 +383,19 @@ async def apply_audio(
                 continue
             if owner and locale != owner:
                 continue
-            text = item["names"].get(locale)
+            text = name_of(item, locale)
             if is_missing(text):
                 skipped += 1
                 continue
-            tts_text = item.get("ttsText")
-            if isinstance(tts_text, dict) and not is_missing(tts_text.get(locale)):
-                text = tts_text[locale]
-            output = audio_path_for(path, item["audio"].setdefault(locale, {}), locale)
-            descriptor = item["audio"][locale]
+            tts_text = tts_text_of(item, locale)
+            if not is_missing(tts_text):
+                text = tts_text
+            output = audio_path_for(path, locale)
             if output.is_file() and not overwrite:
-                descriptor.update({
-                    "file": output.relative_to(path.parent).as_posix(),
-                    "status": "published",
-                    "mime": "audio/mpeg",
-                    "bytes": output.stat().st_size,
-                    "sha1": file_sha1(output),
-                })
+                set_file_facts(
+                    item, "audio", locale,
+                    bytes_=output.stat().st_size, sha1=file_sha1(output),
+                )
                 changed = True
                 skipped += 1
                 continue
@@ -417,13 +417,10 @@ async def apply_audio(
                     file=sys.stderr,
                 )
                 continue
-            descriptor.update({
-                "file": output.relative_to(path.parent).as_posix(),
-                "status": "published",
-                "mime": "audio/mpeg",
-                "bytes": output.stat().st_size,
-                "sha1": file_sha1(output),
-            })
+            set_file_facts(
+                item, "audio", locale,
+                bytes_=output.stat().st_size, sha1=file_sha1(output),
+            )
             changed = True
             generated += 1
             print(f"generated: {display_media_path(output)} ({voice})")
@@ -477,19 +474,12 @@ async def apply_read(
             if is_missing(text):
                 skipped += 1
                 continue
-            read_map = item.setdefault("read", {})
-            if not isinstance(read_map, dict):
-                raise ValueError(f"{path} must contain a 'read' object")
-            output = audio_path_for(path, read_map.setdefault(locale, {}), locale, "read")
-            descriptor = read_map[locale]
+            output = audio_path_for(path, locale, "read")
             if output.is_file() and not overwrite:
-                descriptor.update({
-                    "file": output.relative_to(path.parent).as_posix(),
-                    "status": "published",
-                    "mime": "audio/mpeg",
-                    "bytes": output.stat().st_size,
-                    "sha1": file_sha1(output),
-                })
+                set_file_facts(
+                    item, "read", locale,
+                    bytes_=output.stat().st_size, sha1=file_sha1(output),
+                )
                 changed = True
                 skipped += 1
                 continue
@@ -511,13 +501,10 @@ async def apply_read(
                     file=sys.stderr,
                 )
                 continue
-            descriptor.update({
-                "file": output.relative_to(path.parent).as_posix(),
-                "status": "published",
-                "mime": "audio/mpeg",
-                "bytes": output.stat().st_size,
-                "sha1": file_sha1(output),
-            })
+            set_file_facts(
+                item, "read", locale,
+                bytes_=output.stat().st_size, sha1=file_sha1(output),
+            )
             changed = True
             generated += 1
             print(f"read: {display_media_path(output)} ({voice})")
@@ -761,8 +748,11 @@ async def main() -> None:
 
     if not translate and not generate_audio and not generate_read:
         gaps = sum(
-            sum(is_missing(item["names"].get(locale)) for locale in LOCALES)
-            + sum(is_missing(item["description"].get(locale)) for locale in LOCALES)
+            sum(is_missing(name_of(item, locale)) for locale in LOCALES)
+            + sum(
+                is_missing(locale_row(item, locale).get("description"))
+                for locale in LOCALES
+            )
             for _, item in items
         )
         print(f"{len(items)} item(s) scanned; {gaps} missing name/description slot(s).")

@@ -4,115 +4,48 @@
   "chapter": "LT01",
   "topic": "LT01T13",
   "kind": "letter",
-  "names": {
-    "en": "O",
-    "ro": "O",
-    "de": "O",
-    "ru": "O",
-    "it": "O",
-    "es": "O",
-    "fr": "O",
-    "hu": "O",
-    "pt": "O"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": "Letter name: o. Example: orange.",
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": {
-      "ipa": "/o/"
-    },
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "cbbf8115de9a93572f7b3ef5c78cefe61e43369e"
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T13:L472",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
+    "en": {
+      "name": "O"
+    },
+    "ro": {
+      "name": "O"
+    },
+    "de": {
+      "name": "O"
+    },
+    "ru": {
+      "name": "O"
+    },
+    "it": {
+      "name": "O"
+    },
+    "es": {
+      "name": "O"
+    },
     "fr": {
-      "context": "o",
-      "example": "orange"
+      "name": "O",
+      "description": "Letter name: o. Example: orange.",
+      "ipa": "/o/",
+      "example": "orange",
+      "context": "o"
+    },
+    "hu": {
+      "name": "O"
+    },
+    "pt": {
+      "name": "O"
     }
   },
-  "entity_id": "LT01T13:L472",
-  "cefr": "A1"
+  "files": {
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "cbbf8115de9a93572f7b3ef5c78cefe61e43369e"
+    }
+  }
 }

@@ -4,134 +4,93 @@
   "chapter": "CH01",
   "topic": "CH01",
   "kind": "chapter-title",
-  "names": {
-    "en": "First Words",
-    "ro": "Primele cuvinte",
-    "de": "Erste Wörter",
-    "ru": "Первые слова",
-    "it": "Prime parole",
-    "es": "Primeras palabras",
-    "fr": "Premiers mots",
-    "hu": "Első szavak",
-    "pt": "Primeiras palavras"
-  },
-  "description": {
-    "en": "This chapter introduces basic vocabulary for beginners.",
-    "ro": "Acest capitol introduce vocabularul de bază pentru începători.",
-    "de": "Dieses Kapitel führt grundlegenden Wortschatz für Anfänger ein.",
-    "ru": "Эта глава знакомит с базовой лексикой для начинающих.",
-    "it": "Questo capitolo introduce il vocabolario di base per i principianti.",
-    "es": "Este capítulo introduce vocabulario básico para principiantes.",
-    "fr": "Ce chapitre présente le vocabulaire de base pour les débutants.",
-    "hu": "Ez a fejezet alapvető szókincset mutat be kezdőknek.",
-    "pt": "Este capítulo introduz vocabulário básico para iniciantes."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/fɜrst wɜrdz/"
-    },
-    "ro": {
-      "ipa": "/ˈprimele kuˈvinte/"
-    },
-    "de": {
-      "ipa": "/ˈeːɐ̯stə ˈvœʁtɐ/"
-    },
-    "ru": {
-      "ipa": "/ˈpʲervɨje ˈslova/"
-    },
-    "it": {
-      "ipa": "/ˈprime ˈparole/"
-    },
-    "es": {
-      "ipa": "/pɾiˈmeɾas paˈlaβɾas/"
-    },
-    "fr": {
-      "ipa": "/pʁəˈmje mo/"
-    },
-    "hu": {
-      "ipa": "/ˈɛlʃøː ˈsɒvɒk/"
-    },
-    "pt": {
-      "ipa": "/pɾiˈmejɾɐʃ pɐˈlaβɾɐʃ/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8940b8ba915a661f62485398b62277b7834db89f",
-      "key": "dictionary/CH01/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "b86116257d8cdb5ff3a506001b0c040192df246e",
-      "key": "dictionary/CH01/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "79e321e8db0ca90f401a591ea8f1060817bb3310",
-      "key": "dictionary/CH01/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "3563698ca6f905ca6250d560f7514e014487d1b5",
-      "key": "dictionary/CH01/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "fff028ed84b1ee6ee6575ef90fd31f6c881ac696",
-      "key": "dictionary/CH01/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12672,
-      "sha1": "42e15e4c954a0f57cda1d51193c9b0f018434bea",
-      "key": "dictionary/CH01/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "de519671f23efb4ecc448e1b7538bcd8926fa7f1",
-      "key": "dictionary/CH01/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12672,
-      "sha1": "c3eeab28883f2c0ad01b72d53f5121e61b6d5a21",
-      "key": "dictionary/CH01/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 15552,
-      "sha1": "138096712a9c77eb25222e298f2799d71bf7fa2c",
-      "key": "dictionary/CH01/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01",
   "tags": [
     "title#chapter"
   ],
-  "metadata": {},
-  "entity_id": "CH01"
+  "locales": {
+    "en": {
+      "name": "First Words",
+      "description": "This chapter introduces basic vocabulary for beginners.",
+      "ipa": "/fɜrst wɜrdz/"
+    },
+    "ro": {
+      "name": "Primele cuvinte",
+      "description": "Acest capitol introduce vocabularul de bază pentru începători.",
+      "ipa": "/ˈprimele kuˈvinte/"
+    },
+    "de": {
+      "name": "Erste Wörter",
+      "description": "Dieses Kapitel führt grundlegenden Wortschatz für Anfänger ein.",
+      "ipa": "/ˈeːɐ̯stə ˈvœʁtɐ/"
+    },
+    "ru": {
+      "name": "Первые слова",
+      "description": "Эта глава знакомит с базовой лексикой для начинающих.",
+      "ipa": "/ˈpʲervɨje ˈslova/"
+    },
+    "it": {
+      "name": "Prime parole",
+      "description": "Questo capitolo introduce il vocabolario di base per i principianti.",
+      "ipa": "/ˈprime ˈparole/"
+    },
+    "es": {
+      "name": "Primeras palabras",
+      "description": "Este capítulo introduce vocabulario básico para principiantes.",
+      "ipa": "/pɾiˈmeɾas paˈlaβɾas/"
+    },
+    "fr": {
+      "name": "Premiers mots",
+      "description": "Ce chapitre présente le vocabulaire de base pour les débutants.",
+      "ipa": "/pʁəˈmje mo/"
+    },
+    "hu": {
+      "name": "Első szavak",
+      "description": "Ez a fejezet alapvető szókincset mutat be kezdőknek.",
+      "ipa": "/ˈɛlʃøː ˈsɒvɒk/"
+    },
+    "pt": {
+      "name": "Primeiras palavras",
+      "description": "Este capítulo introduz vocabulário básico para iniciantes.",
+      "ipa": "/pɾiˈmejɾɐʃ pɐˈlaβɾɐʃ/"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8940b8ba915a661f62485398b62277b7834db89f"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "b86116257d8cdb5ff3a506001b0c040192df246e"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "79e321e8db0ca90f401a591ea8f1060817bb3310"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12528,
+      "sha1": "3563698ca6f905ca6250d560f7514e014487d1b5"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "fff028ed84b1ee6ee6575ef90fd31f6c881ac696"
+    },
+    "sound/es.mp3": {
+      "bytes": 12672,
+      "sha1": "42e15e4c954a0f57cda1d51193c9b0f018434bea"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "de519671f23efb4ecc448e1b7538bcd8926fa7f1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12672,
+      "sha1": "c3eeab28883f2c0ad01b72d53f5121e61b6d5a21"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15552,
+      "sha1": "138096712a9c77eb25222e298f2799d71bf7fa2c"
+    }
+  }
 }

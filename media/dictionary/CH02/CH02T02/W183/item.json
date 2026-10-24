@@ -4,111 +4,45 @@
   "chapter": "CH02",
   "topic": "CH02T02",
   "kind": "word",
-  "names": {
-    "en": "dress",
-    "ro": "rochie",
-    "de": "Kleid",
-    "ru": "Платье",
-    "it": "vestito",
-    "es": "vestido",
-    "fr": "robe",
-    "hu": "Ruha",
-    "pt": "Vestido"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈrokie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "6614444153a0d8d2e6b2437d2cabe06cdda3b622",
-      "key": "dictionary/CH02/CH02T02/W183/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH02T02:W183",
+  "cefr": "A1",
   "tags": [
     "scaffold#C2T02"
   ],
-  "metadata": {},
-  "entity_id": "CH02T02:W183",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "dress"
+    },
+    "ro": {
+      "name": "rochie",
+      "ipa": "/ˈrokie/"
+    },
+    "de": {
+      "name": "Kleid"
+    },
+    "ru": {
+      "name": "Платье"
+    },
+    "it": {
+      "name": "vestito"
+    },
+    "es": {
+      "name": "vestido"
+    },
+    "fr": {
+      "name": "robe"
+    },
+    "hu": {
+      "name": "Ruha"
+    },
+    "pt": {
+      "name": "Vestido"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "6614444153a0d8d2e6b2437d2cabe06cdda3b622"
+    }
+  }
 }

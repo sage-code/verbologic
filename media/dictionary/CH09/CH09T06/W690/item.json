@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T06",
   "kind": "word",
-  "names": {
-    "en": "machinery",
-    "ro": "mașinărie",
-    "de": "Maschinerie",
-    "ru": "техника",
-    "it": "macchinario",
-    "es": "maquinaria",
-    "fr": "machinerie",
-    "hu": "gépészet",
-    "pt": "maquinário"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/maʃinəˈrie/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "98c1816dc587c251fe1f2cfd186bedd01a039b84",
-      "key": "dictionary/CH09/CH09T06/W690/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T06:W690",
+  "cefr": "C1",
   "tags": [
     "scaffold#C9T06"
   ],
-  "metadata": {},
-  "entity_id": "CH09T06:W690",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "machinery"
+    },
+    "ro": {
+      "name": "mașinărie",
+      "ipa": "/maʃinəˈrie/"
+    },
+    "de": {
+      "name": "Maschinerie"
+    },
+    "ru": {
+      "name": "техника"
+    },
+    "it": {
+      "name": "macchinario"
+    },
+    "es": {
+      "name": "maquinaria"
+    },
+    "fr": {
+      "name": "machinerie"
+    },
+    "hu": {
+      "name": "gépészet"
+    },
+    "pt": {
+      "name": "maquinário"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "98c1816dc587c251fe1f2cfd186bedd01a039b84"
+    }
+  }
 }

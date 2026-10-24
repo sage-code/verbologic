@@ -4,111 +4,45 @@
   "chapter": "CH03",
   "topic": "CH03T03",
   "kind": "word",
-  "names": {
-    "en": "summer",
-    "ro": "vară",
-    "de": "Sommer",
-    "ru": "лето",
-    "it": "estate",
-    "es": "verano",
-    "fr": "été",
-    "hu": "nyár",
-    "pt": "verão"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈvarə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "7551e4e091b6efae18bd90b8c611af116d69af78",
-      "key": "dictionary/CH03/CH03T03/W279/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH03T03:W279",
+  "cefr": "A2",
   "tags": [
     "scaffold#C3T03"
   ],
-  "metadata": {},
-  "entity_id": "CH03T03:W279",
-  "cefr": "A2"
+  "locales": {
+    "en": {
+      "name": "summer"
+    },
+    "ro": {
+      "name": "vară",
+      "ipa": "/ˈvarə/"
+    },
+    "de": {
+      "name": "Sommer"
+    },
+    "ru": {
+      "name": "лето"
+    },
+    "it": {
+      "name": "estate"
+    },
+    "es": {
+      "name": "verano"
+    },
+    "fr": {
+      "name": "été"
+    },
+    "hu": {
+      "name": "nyár"
+    },
+    "pt": {
+      "name": "verão"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "7551e4e091b6efae18bd90b8c611af116d69af78"
+    }
+  }
 }

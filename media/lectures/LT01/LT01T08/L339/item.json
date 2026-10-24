@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T08",
   "kind": "letter",
-  "names": {
-    "en": "gr",
-    "ro": "gr in green (verde)",
-    "de": "gr in green (grün)",
-    "ru": "gr in green (зелёный)",
-    "it": "gr in green (verde)",
-    "es": "gr in green (verde)",
-    "fr": "gr in green (vert)",
-    "hu": "gr in green (zöld)",
-    "pt": "gr in green (verde)"
-  },
-  "description": {
-    "en": "This is the letter L339 from the alphabet vowel-consonant groups.",
-    "ro": "Aceasta este litera L339 din grupurile de vocale și consoane ale alfabetului.",
-    "de": "Dies ist der Buchstabe L339 aus den Vokal-Konsonant-Gruppen des Alphabets.",
-    "ru": "Это буква L339 из групп гласных и согласных алфавита.",
-    "it": "Questa è la lettera L339 dei gruppi vocali-consonanti dell'alfabeto.",
-    "es": "Esta es la letra L339 de los grupos de vocales y consonantes del alfabeto.",
-    "fr": "Ceci est la lettre L339 des groupes voyelles-consonnes de l'alphabet.",
-    "hu": "Ez az L339 betű az ábécé magánhangzó-mássalhangzó csoportjaiból.",
-    "pt": "Esta é a letra L339 dos grupos de vogais e consoantes do alfabeto."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/gr/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "8e0d4e742b73cb9ae1b0272b326c231e55079c3c",
-      "key": "lectures/LT01/LT01T08/L339/sound/en.mp3"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T08:L339",
+  "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
   ],
-  "metadata": {},
-  "entity_id": "LT01T08:L339",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "gr",
+      "description": "This is the letter L339 from the alphabet vowel-consonant groups.",
+      "ipa": "/gr/"
+    },
+    "ro": {
+      "name": "gr in green (verde)",
+      "description": "Aceasta este litera L339 din grupurile de vocale și consoane ale alfabetului."
+    },
+    "de": {
+      "name": "gr in green (grün)",
+      "description": "Dies ist der Buchstabe L339 aus den Vokal-Konsonant-Gruppen des Alphabets."
+    },
+    "ru": {
+      "name": "gr in green (зелёный)",
+      "description": "Это буква L339 из групп гласных и согласных алфавита."
+    },
+    "it": {
+      "name": "gr in green (verde)",
+      "description": "Questa è la lettera L339 dei gruppi vocali-consonanti dell'alfabeto."
+    },
+    "es": {
+      "name": "gr in green (verde)",
+      "description": "Esta es la letra L339 de los grupos de vocales y consonantes del alfabeto."
+    },
+    "fr": {
+      "name": "gr in green (vert)",
+      "description": "Ceci est la lettre L339 des groupes voyelles-consonnes de l'alphabet."
+    },
+    "hu": {
+      "name": "gr in green (zöld)",
+      "description": "Ez az L339 betű az ábécé magánhangzó-mássalhangzó csoportjaiból."
+    },
+    "pt": {
+      "name": "gr in green (verde)",
+      "description": "Esta é a letra L339 dos grupos de vogais e consoantes do alfabeto."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8e0d4e742b73cb9ae1b0272b326c231e55079c3c"
+    }
+  }
 }

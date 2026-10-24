@@ -4,116 +4,57 @@
   "chapter": "LT01",
   "topic": "LT01T07",
   "kind": "letter",
-  "names": {
-    "en": "-tion",
-    "ro": "-tion",
-    "de": "-tion",
-    "ru": "-tion",
-    "it": "-tion",
-    "es": "-tion",
-    "fr": "-tion",
-    "hu": "-tion",
-    "pt": "-tion"
-  },
-  "description": {
-    "en": "Letter name: -tion. Example: nation.",
-    "ro": "Numele literei: -tion. Exemplu: nation.",
-    "de": "Buchstabenname: -tion. Beispiel: nation.",
-    "ru": "Название буквы: -tion. Пример: nation.",
-    "it": "Nome della lettera: -tion. Esempio: nation.",
-    "es": "Nombre de la letra: -tion. Ejemplo: nation.",
-    "fr": "Nom de la lettre : -tion. Exemple : nation.",
-    "hu": "Betűnév: -tion. Példa: nation.",
-    "pt": "Nome da letra: -tion. Exemplo: nation."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/ʃən/"
-    },
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "97afd23199eb7868abed2a673b05cefdeb70b27a"
-    },
-    "ro": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T07:L622",
+  "legacy_entity_id": "letter_nation",
+  "cefr": "A1",
   "tags": [
     "alphabet#letters"
   ],
-  "metadata": {
+  "locales": {
     "en": {
-      "context": "-tion",
-      "example": "nation"
+      "name": "-tion",
+      "description": "Letter name: -tion. Example: nation.",
+      "ipa": "/ʃən/",
+      "example": "nation",
+      "context": "-tion"
+    },
+    "ro": {
+      "name": "-tion",
+      "description": "Numele literei: -tion. Exemplu: nation."
+    },
+    "de": {
+      "name": "-tion",
+      "description": "Buchstabenname: -tion. Beispiel: nation."
+    },
+    "ru": {
+      "name": "-tion",
+      "description": "Название буквы: -tion. Пример: nation."
+    },
+    "it": {
+      "name": "-tion",
+      "description": "Nome della lettera: -tion. Esempio: nation."
+    },
+    "es": {
+      "name": "-tion",
+      "description": "Nombre de la letra: -tion. Ejemplo: nation."
+    },
+    "fr": {
+      "name": "-tion",
+      "description": "Nom de la lettre : -tion. Exemple : nation."
+    },
+    "hu": {
+      "name": "-tion",
+      "description": "Betűnév: -tion. Példa: nation."
+    },
+    "pt": {
+      "name": "-tion",
+      "description": "Nome da letra: -tion. Exemplo: nation."
     }
   },
-  "entity_id": "LT01T07:L622",
-  "cefr": "A1",
-  "legacy_entity_id": "letter_nation"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "97afd23199eb7868abed2a673b05cefdeb70b27a"
+    }
+  }
 }

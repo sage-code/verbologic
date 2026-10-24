@@ -4,111 +4,45 @@
   "chapter": "CH12",
   "topic": "CH12T06",
   "kind": "word",
-  "names": {
-    "en": "character",
-    "ro": "personaj",
-    "de": "Figur",
-    "ru": "персонаж",
-    "it": "personaggio",
-    "es": "personaje",
-    "fr": "personnage",
-    "hu": "szereplő",
-    "pt": "personagem"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/persoˈnaʒ/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "c7426daf0df3160e7c8278cbc9d359a9684e7248",
-      "key": "dictionary/CH12/CH12T06/W893/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH12T06:W893",
+  "cefr": "C2",
   "tags": [
     "scaffold#C12T06"
   ],
-  "metadata": {},
-  "entity_id": "CH12T06:W893",
-  "cefr": "C2"
+  "locales": {
+    "en": {
+      "name": "character"
+    },
+    "ro": {
+      "name": "personaj",
+      "ipa": "/persoˈnaʒ/"
+    },
+    "de": {
+      "name": "Figur"
+    },
+    "ru": {
+      "name": "персонаж"
+    },
+    "it": {
+      "name": "personaggio"
+    },
+    "es": {
+      "name": "personaje"
+    },
+    "fr": {
+      "name": "personnage"
+    },
+    "hu": {
+      "name": "szereplő"
+    },
+    "pt": {
+      "name": "personagem"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "c7426daf0df3160e7c8278cbc9d359a9684e7248"
+    }
+  }
 }

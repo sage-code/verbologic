@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T03",
   "kind": "word",
-  "names": {
-    "en": "note",
-    "ro": "notă",
-    "de": "Notiz",
-    "ru": "заметка",
-    "it": "nota",
-    "es": "nota",
-    "fr": "note",
-    "hu": "jegyzet",
-    "pt": "nota"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ˈnotə/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "b1b38b177bb6e8351e69d8156229fa68b7743cde",
-      "key": "dictionary/CH09/CH09T03/W658/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T03:W658",
+  "cefr": "C1",
   "tags": [
     "scaffold#C9T03"
   ],
-  "metadata": {},
-  "entity_id": "CH09T03:W658",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "note"
+    },
+    "ro": {
+      "name": "notă",
+      "ipa": "/ˈnotə/"
+    },
+    "de": {
+      "name": "Notiz"
+    },
+    "ru": {
+      "name": "заметка"
+    },
+    "it": {
+      "name": "nota"
+    },
+    "es": {
+      "name": "nota"
+    },
+    "fr": {
+      "name": "note"
+    },
+    "hu": {
+      "name": "jegyzet"
+    },
+    "pt": {
+      "name": "nota"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "b1b38b177bb6e8351e69d8156229fa68b7743cde"
+    }
+  }
 }

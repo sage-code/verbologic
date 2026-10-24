@@ -4,111 +4,45 @@
   "chapter": "CH09",
   "topic": "CH09T02",
   "kind": "word",
-  "names": {
-    "en": "interview",
-    "ro": "interviu",
-    "de": "Vorstellungsgespräch",
-    "ru": "собеседование",
-    "it": "colloquio",
-    "es": "entrevista",
-    "fr": "entretien",
-    "hu": "állásinterjú",
-    "pt": "entrevista"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/interˈviu/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "9523375f2d338b1a25de6126f198121fa8242a01",
-      "key": "dictionary/CH09/CH09T02/W647/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH09T02:W647",
+  "cefr": "C1",
   "tags": [
     "scaffold#C9T02"
   ],
-  "metadata": {},
-  "entity_id": "CH09T02:W647",
-  "cefr": "C1"
+  "locales": {
+    "en": {
+      "name": "interview"
+    },
+    "ro": {
+      "name": "interviu",
+      "ipa": "/interˈviu/"
+    },
+    "de": {
+      "name": "Vorstellungsgespräch"
+    },
+    "ru": {
+      "name": "собеседование"
+    },
+    "it": {
+      "name": "colloquio"
+    },
+    "es": {
+      "name": "entrevista"
+    },
+    "fr": {
+      "name": "entretien"
+    },
+    "hu": {
+      "name": "állásinterjú"
+    },
+    "pt": {
+      "name": "entrevista"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "9523375f2d338b1a25de6126f198121fa8242a01"
+    }
+  }
 }

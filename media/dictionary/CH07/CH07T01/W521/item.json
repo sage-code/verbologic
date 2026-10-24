@@ -4,111 +4,45 @@
   "chapter": "CH07",
   "topic": "CH07T01",
   "kind": "word",
-  "names": {
-    "en": "confident",
-    "ro": "încrezător",
-    "de": "selbstbewusst",
-    "ru": "уверенный",
-    "it": "sicuro di sé",
-    "es": "confiado",
-    "fr": "confiant",
-    "hu": "magabiztos",
-    "pt": "confiante"
-  },
-  "description": {
-    "en": null,
-    "ro": null,
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/ɨnkrezəˈtor/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 12528,
-      "sha1": "23287742d14a014d9611445749b18dfc13361ab0",
-      "key": "dictionary/CH07/CH07T01/W521/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "CH07T01:W521",
+  "cefr": "B2",
   "tags": [
     "scaffold#C7T01"
   ],
-  "metadata": {},
-  "entity_id": "CH07T01:W521",
-  "cefr": "B2"
+  "locales": {
+    "en": {
+      "name": "confident"
+    },
+    "ro": {
+      "name": "încrezător",
+      "ipa": "/ɨnkrezəˈtor/"
+    },
+    "de": {
+      "name": "selbstbewusst"
+    },
+    "ru": {
+      "name": "уверенный"
+    },
+    "it": {
+      "name": "sicuro di sé"
+    },
+    "es": {
+      "name": "confiado"
+    },
+    "fr": {
+      "name": "confiant"
+    },
+    "hu": {
+      "name": "magabiztos"
+    },
+    "pt": {
+      "name": "confiante"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "23287742d14a014d9611445749b18dfc13361ab0"
+    }
+  }
 }

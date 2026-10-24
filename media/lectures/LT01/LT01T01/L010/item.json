@@ -4,111 +4,54 @@
   "chapter": "LT01",
   "topic": "LT01T01",
   "kind": "letter",
-  "names": {
-    "en": "H",
-    "ro": "H",
-    "de": "H",
-    "ru": "H",
-    "it": "H",
-    "es": "H",
-    "fr": "H",
-    "hu": "H",
-    "pt": "H"
-  },
-  "description": {
-    "en": "The letter H is the eighth letter of the Romanian alphabet.",
-    "ro": "Litera H este a opta literă a alfabetului român.",
-    "de": "Der Buchstabe H ist der achte Buchstabe des rumänischen Alphabets.",
-    "ru": "Буква H — восьмая буква румынского алфавита.",
-    "it": "La lettera H è l'ottava lettera dell'alfabeto rumeno.",
-    "es": "La letra H es la octava letra del alfabeto rumano.",
-    "fr": "La lettre H est la huitième lettre de l'alphabet roumain.",
-    "hu": "A H betű a román ábécé nyolcadik betűje.",
-    "pt": "A letra H é a oitava letra do alfabeto romeno."
-  },
-  "pronunciation": {
-    "en": null,
-    "ro": {
-      "ipa": "/h/"
-    },
-    "de": null,
-    "ru": null,
-    "it": null,
-    "es": null,
-    "fr": null,
-    "hu": null,
-    "pt": null
-  },
-  "audio": {
-    "en": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 8928,
-      "sha1": "d35e88bc34b0a863605d9ee21bebf1f9e16639b5",
-      "key": "lectures/LT01/LT01T01/L010/sound/ro.mp3"
-    },
-    "de": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "ru": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "it": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "es": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "fr": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "hu": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    },
-    "pt": {
-      "file": null,
-      "status": "pending",
-      "mime": "audio/mpeg",
-      "bytes": null,
-      "sha1": null
-    }
-  },
+  "entity_id": "LT01T01:L010",
+  "cefr": "A1",
   "tags": [
     "alphabet#romanian-alphabet"
   ],
-  "metadata": {},
-  "entity_id": "LT01T01:L010",
-  "cefr": "A1"
+  "locales": {
+    "en": {
+      "name": "H",
+      "description": "The letter H is the eighth letter of the Romanian alphabet."
+    },
+    "ro": {
+      "name": "H",
+      "description": "Litera H este a opta literă a alfabetului român.",
+      "ipa": "/h/"
+    },
+    "de": {
+      "name": "H",
+      "description": "Der Buchstabe H ist der achte Buchstabe des rumänischen Alphabets."
+    },
+    "ru": {
+      "name": "H",
+      "description": "Буква H — восьмая буква румынского алфавита."
+    },
+    "it": {
+      "name": "H",
+      "description": "La lettera H è l'ottava lettera dell'alfabeto rumeno."
+    },
+    "es": {
+      "name": "H",
+      "description": "La letra H es la octava letra del alfabeto rumano."
+    },
+    "fr": {
+      "name": "H",
+      "description": "La lettre H est la huitième lettre de l'alphabet roumain."
+    },
+    "hu": {
+      "name": "H",
+      "description": "A H betű a román ábécé nyolcadik betűje."
+    },
+    "pt": {
+      "name": "H",
+      "description": "A letra H é a oitava letra do alfabeto romeno."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 8928,
+      "sha1": "d35e88bc34b0a863605d9ee21bebf1f9e16639b5"
+    }
+  }
 }

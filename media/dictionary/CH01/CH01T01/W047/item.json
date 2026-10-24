@@ -4,139 +4,95 @@
   "chapter": "CH01",
   "topic": "CH01T01",
   "kind": "phonics-example",
-  "names": {
-    "en": "ph",
-    "ro": "telefon",
-    "de": "ph",
-    "ru": "ph",
-    "it": "ph",
-    "es": "ph",
-    "fr": "ph",
-    "hu": "ph",
-    "pt": "ph"
-  },
-  "description": {
-    "en": "Ph is a combination of letters often used in words.",
-    "ro": "Ph este o combinație de litere folosită adesea în cuvinte.",
-    "de": "Ph ist eine Buchstabenkombination, die häufig in Wörtern verwendet wird.",
-    "ru": "Ph — это сочетание букв, часто используемое в словах.",
-    "it": "Ph è una combinazione di lettere spesso usata nelle parole.",
-    "es": "Ph es una combinación de letras que se usa a menudo en las palabras.",
-    "fr": "Ph est une combinaison de lettres souvent utilisée dans les mots.",
-    "hu": "A ph egy betűkombináció, amelyet gyakran használnak szavakban.",
-    "pt": "Ph é uma combinação de letras frequentemente usada em palavras."
-  },
-  "pronunciation": {
-    "en": {
-      "ipa": "/f/"
-    },
-    "ro": {
-      "ipa": "/teˈlefon/"
-    },
-    "de": {
-      "ipa": "/f/"
-    },
-    "ru": {
-      "ipa": "/f/"
-    },
-    "it": {
-      "ipa": "/f/"
-    },
-    "es": {
-      "ipa": "/f/"
-    },
-    "fr": {
-      "ipa": "/f/"
-    },
-    "hu": {
-      "ipa": "/f/"
-    },
-    "pt": {
-      "ipa": "/f/"
-    }
-  },
-  "audio": {
-    "en": {
-      "file": "sound/en.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 10656,
-      "sha1": "b5050061041b0be0456baa93b09fea7ced10d9fe",
-      "key": "dictionary/CH01/CH01T01/W047/sound/en.mp3"
-    },
-    "ro": {
-      "file": "sound/ro.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "a19521d4012aeb642bc058d3b1be9fb980b1453f",
-      "key": "dictionary/CH01/CH01T01/W047/sound/ro.mp3"
-    },
-    "de": {
-      "file": "sound/de.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "2a03a53660bd141e75a4ed490d3e1a5492e41ce1",
-      "key": "dictionary/CH01/CH01T01/W047/sound/de.mp3"
-    },
-    "ru": {
-      "file": "sound/ru.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "6df90b6817874f5f348f06a314b0e784468fe00b",
-      "key": "dictionary/CH01/CH01T01/W047/sound/ru.mp3"
-    },
-    "it": {
-      "file": "sound/it.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "902d3c0439d3881c6ad4e4ba981156f49ece045b",
-      "key": "dictionary/CH01/CH01T01/W047/sound/it.mp3"
-    },
-    "es": {
-      "file": "sound/es.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "37beaed9f4941bcfa1b0d17f5209d7002943aad0",
-      "key": "dictionary/CH01/CH01T01/W047/sound/es.mp3"
-    },
-    "fr": {
-      "file": "sound/fr.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "491dac467c3d4f023ccfcb12425b522a7355d5fd",
-      "key": "dictionary/CH01/CH01T01/W047/sound/fr.mp3"
-    },
-    "hu": {
-      "file": "sound/hu.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "38e639d9627593acaa5697deba584b450eab4950",
-      "key": "dictionary/CH01/CH01T01/W047/sound/hu.mp3"
-    },
-    "pt": {
-      "file": "sound/pt.mp3",
-      "status": "published",
-      "mime": "audio/mpeg",
-      "bytes": 11232,
-      "sha1": "74e99622fb8d352fcfaf5ed91e4dfa501a6bc459",
-      "key": "dictionary/CH01/CH01T01/W047/sound/pt.mp3"
-    }
-  },
+  "entity_id": "CH01T01:W047",
+  "cefr": "A1",
   "tags": [
     "alphabet#*"
   ],
-  "metadata": {
+  "locales": {
     "en": {
+      "name": "ph",
+      "description": "Ph is a combination of letters often used in words.",
+      "ipa": "/f/",
       "example": "phone"
+    },
+    "ro": {
+      "name": "telefon",
+      "description": "Ph este o combinație de litere folosită adesea în cuvinte.",
+      "ipa": "/teˈlefon/"
+    },
+    "de": {
+      "name": "ph",
+      "description": "Ph ist eine Buchstabenkombination, die häufig in Wörtern verwendet wird.",
+      "ipa": "/f/"
+    },
+    "ru": {
+      "name": "ph",
+      "description": "Ph — это сочетание букв, часто используемое в словах.",
+      "ipa": "/f/"
+    },
+    "it": {
+      "name": "ph",
+      "description": "Ph è una combinazione di lettere spesso usata nelle parole.",
+      "ipa": "/f/"
+    },
+    "es": {
+      "name": "ph",
+      "description": "Ph es una combinación de letras que se usa a menudo en las palabras.",
+      "ipa": "/f/"
+    },
+    "fr": {
+      "name": "ph",
+      "description": "Ph est une combinaison de lettres souvent utilisée dans les mots.",
+      "ipa": "/f/"
+    },
+    "hu": {
+      "name": "ph",
+      "description": "A ph egy betűkombináció, amelyet gyakran használnak szavakban.",
+      "ipa": "/f/"
+    },
+    "pt": {
+      "name": "ph",
+      "description": "Ph é uma combinação de letras frequentemente usada em palavras.",
+      "ipa": "/f/"
     }
   },
-  "entity_id": "CH01T01:W047",
-  "cefr": "A1"
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "b5050061041b0be0456baa93b09fea7ced10d9fe"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "a19521d4012aeb642bc058d3b1be9fb980b1453f"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "2a03a53660bd141e75a4ed490d3e1a5492e41ce1"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "6df90b6817874f5f348f06a314b0e784468fe00b"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "902d3c0439d3881c6ad4e4ba981156f49ece045b"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "37beaed9f4941bcfa1b0d17f5209d7002943aad0"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "491dac467c3d4f023ccfcb12425b522a7355d5fd"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "38e639d9627593acaa5697deba584b450eab4950"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "74e99622fb8d352fcfaf5ed91e4dfa501a6bc459"
+    }
+  }
 }

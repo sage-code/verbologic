@@ -29,6 +29,12 @@ MEDIA_DIR = ROOT / "media"
 TRACKS = ("dictionary", "lectures")
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.locales import LOCALES  # noqa: E402  (single locale registry)
+from lib.manifest import (  # noqa: E402  (locales + files shape)
+    locale_row,
+    name_of,
+    set_locale_field,
+    tts_text_of,
+)
 LANGUAGE_NAMES = {
     "en": "English (US)",
     "ro": "Romanian",
@@ -78,18 +84,15 @@ def read_items(track_filter: str | None):
             item = json.loads(path.read_text(encoding="utf-8"))
             if item.get("track") != track:
                 raise ValueError(f"Track mismatch in {path}: expected {track!r}")
-            if not isinstance(item.get("names"), dict):
-                raise ValueError(f"{path} must contain a 'names' object")
-            if not isinstance(item.get("pronunciation"), dict):
-                raise ValueError(f"{path} must contain a 'pronunciation' object")
+            if not isinstance(item.get("locales"), dict):
+                raise ValueError(f"{path} must contain a 'locales' object")
             yield path, item
 
 
 def spoken_text(item: dict[str, Any], locale: str) -> str:
-    override = item.get("ttsText")
-    value = override.get(locale) if isinstance(override, dict) else None
+    value = tts_text_of(item, locale)
     if not isinstance(value, str) or not value.strip():
-        value = item["names"].get(locale)
+        value = name_of(item, locale)
     if not isinstance(value, str) or not value.strip():
         raise ValueError(
             f"{item.get('code')} has no localized spoken text for {locale}"
@@ -100,24 +103,29 @@ def spoken_text(item: dict[str, Any], locale: str) -> str:
 def pending_item(path: Path, item: dict[str, Any]) -> dict[str, Any] | None:
     targets = []
     for locale in LOCALES:
-        pronunciation = item["pronunciation"].get(locale)
-        ipa = pronunciation.get("ipa") if isinstance(pronunciation, dict) else None
-        if is_missing_ipa(ipa):
+        if is_missing_ipa(locale_row(item, locale).get("ipa")):
             targets.append(locale)
     if not targets:
+        return None
+    # A locale with no name has nothing to transcribe — it is a translation
+    # gap, not an IPA gap, so it is left for `generate-audio --translate`.
+    spoken = {}
+    for locale in targets:
+        try:
+            spoken[locale] = {
+                "language": LANGUAGE_NAMES[locale],
+                "text": spoken_text(item, locale),
+            }
+        except ValueError:
+            continue
+    if not spoken:
         return None
     return {
         "key": path.relative_to(MEDIA_DIR).as_posix(),
         "code": item.get("code"),
         "kind": item.get("kind", "item"),
         "topic": item.get("topic"),
-        "targets": {
-            locale: {
-                "language": LANGUAGE_NAMES[locale],
-                "text": spoken_text(item, locale),
-            }
-            for locale in targets
-        },
+        "targets": spoken,
     }
 
 
@@ -308,14 +316,9 @@ def main() -> None:
                 + ", ".join(sorted(missing_outputs))
             )
         for path, item, request in batch:
-            pronunciation = item["pronunciation"]
             for locale, ipa in generated[request["key"]].items():
-                current = pronunciation.get(locale)
-                if not isinstance(current, dict):
-                    current = {}
-                    pronunciation[locale] = current
-                if is_missing_ipa(current.get("ipa")):
-                    current["ipa"] = ipa.strip()
+                if is_missing_ipa(locale_row(item, locale).get("ipa")):
+                    set_locale_field(item, locale, "ipa", ipa.strip())
                     changed += 1
             write_json_atomic(path, item)
         print(
