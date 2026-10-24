@@ -26,8 +26,7 @@ Verbologic maintenance runner
   ./run.sh seed import [--dry-run]       Load seed/*.json into the Supabase content tables
   ./run.sh heartbeat                     Ping Supabase (keeps the Free-tier project from pausing)
   ./run.sh missing                       Missing-content inventory (planned items → temp/missing-content.md)
-  ./run.sh media stage                  Archive mp3s → media per-topic layout
-  ./run.sh media index [dry]            Build public/data/media payloads (sidebars + manifests + config)
+  ./run.sh media index [--pretty]        Build public/data/media payloads (sidebars + manifests + config)
   ./run.sh media manifest [--dry-run]   Reconcile item manifests with files on disk (the baseline)
   ./run.sh media verify [--remote]      Missing / orphan / dirty / pending report (+ R2 diff)
   ./run.sh media upload [--apply]       Differential R2 sync (Cloudflare API; default reports, --apply transfers)
@@ -39,7 +38,8 @@ Verbologic maintenance runner
   ./run.sh tsc                           Type-check (vue-tsc)
   ./run.sh status                        Git status + build-fingerprint state
   ./run.sh commit "<message>"            Stage + commit all changes
-  ./run.sh push [--force]                Push current branch (throttled: max 1 push / 2h; --force bypasses)  ./run.sh release "<message>"           build → validate → media manifest → commit → push (throttled)
+  ./run.sh push [--force]                Push current branch (throttled: max 1 push / 2h; --force bypasses)
+  ./run.sh release "<message>"           build → validate → media manifest → commit → push (throttled)
   ./run.sh deploy                        Wrangler deploy (Workers Static Assets, differential)
   ./run.sh deploy-dry                    Validate wrangler.toml without uploading
 EOF

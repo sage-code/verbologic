@@ -695,6 +695,41 @@ This is already how `wrangler.toml` works — the change is that `public/data` s
 | **7** | Direction semantics (`reversible` / `directional`) | Unchanged from rev. 3 |
 | **8** | Cleanup: `entities/` bridge, legacy scripts | Unchanged |
 
+### 18.5 Phase 8 — partially done (2026-10-24)
+
+**Done — one-off scripts removed (72 KB):**
+
+| Script | Why it could go |
+|---|---|
+| `reid-content.mjs`, `reid-content-v2.mjs` | one-shot id re-keying, already applied; no references |
+| `media-rehome.mjs` | one-shot folder move, already applied |
+| `media-migrate-shape.mjs` | one-shot `item.json` → `locales`+`files` (Phase 4), already applied |
+| `extract-legacy.mjs` | parsed the gitignored `archive/` tree, which is **absent** — it hard-failed with `ENOENT` |
+
+**Also removed the dead `stage` path** from `media-sync.mjs`: `cmdStage`,
+`legacyManifests`, `AUDIO_DIR`, `LEGACY_MEDIA` and every `entry.legacy` branch.
+`run media stage` targeted the retired `media/audio/` layout and failed with
+`ENOENT`; it is gone from `run.sh` too. `media-sync` still reports the same 3,197
+entries, and the regenerated payload is byte-identical.
+
+**NOT done — the `entities/` bridge cannot be removed yet.** The plan's
+precondition ("after confirming Supabase progress ids are all migrated") is not
+the blocker; this is:
+
+> **268 sidebar items exist ONLY in `public/data/entities/`** — they have no
+> manifest and no `legacy_entity_id` alias. They are live content: all of
+> `LT02T01`–`LT02T06` (240 records) and `LT03T01` (13), plus 15 dictionary rows
+> across `CH02T03`, `CH02T06`, `CH04T05`, `CH05T03`–`T07`.
+
+Deleting the bridge would blank those 14 topics. The fix is to give each of the
+268 items a real manifest (the `./run.sh scaffold` + `generate-audio.py` +
+`media manifest` pipeline), which is content work, not refactoring. Until then
+`media-index.mjs` keeps its `legacyRecord()` path and `useEntities.ts` stays.
+
+`archive-topics.mjs` also stays: `media-manifests.mjs` and `media-sync.mjs`
+import `attributeAll` from it. It needs the absent `archive/` tree, so it only
+runs on a machine that has one — but removing it would break those imports.
+
 ### 18.4 Phase 7 — done (2026-10-24)
 
 The five overlapping direction mechanisms (`langs`, `sourceLang`, `phonetic`

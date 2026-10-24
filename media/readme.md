@@ -147,7 +147,6 @@ manifest-less ids in other sections.
 .venv/Scripts/python.exe scripts/scaffold-media.py --dry-run  # preview the folder skeleton
 node scripts/archive-topics.mjs                                 # topic attribution + topic map (report only)
 node scripts/media-manifests.mjs [--dry-run]                  # re-folder media + write the sibling manifests
-node scripts/media-migrate-shape.mjs [--dry-run]              # one-shot: item.json → locales + files
 node scripts/lecture.mjs new <TOPIC> <ID>                      # scaffold a shared English lecture
 node scripts/lecture.mjs translate <TOPIC> <ID> --lang <locale> # scaffold a translation draft
 node scripts/lecture.mjs status                                # show review/stale-translation status

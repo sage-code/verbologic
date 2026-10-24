@@ -117,12 +117,12 @@ change needed.
 }
 ```
 
-**IMPORTANT — how these files are born.** They are **generated** from the legacy
-HTML archive by `scripts/extract-legacy.mjs` (parses the `data-audio` tables).
-Do **not** edit them as part of a release; instead:
+**IMPORTANT — how these files are born.** They were **generated** from the legacy
+HTML archive by `scripts/extract-legacy.mjs`, which has been **removed**: the
+archive tree it parsed is gitignored and no longer present, so the script could
+not run. The 7 files are now the source of truth — edit them directly, then:
 
 ```bash
-node scripts/extract-legacy.mjs   # regenerates all 7 files + locales/chrome
 run validate                       # checks ids/audio/labels integrity
 run build                          # differential: only rebuilds if hashes changed
 ```
@@ -745,7 +745,9 @@ redirect *from* also needs a proxied DNS record (`A` → `192.0.2.0` or
 
 ## 6. Recipe drawer (common manual jobs)
 
-- *"I fixed a word in the archive HTML"* → `node scripts/extract-legacy.mjs` → `run validate` → `run build`
+- *"I fixed a word in the archive HTML"* → the archive tree is gone and
+  `extract-legacy.mjs` was removed with it; edit `public/data/entities/*.json`
+  directly → `run validate` → `run build`
 - *"I want a 6th toolbar item"* → §2 steps in `navigation.json` + page + `AppNav.ICONS`
 - *"The menu reads better in French"* → edit `menuLabels.fr` in `navigation.json`
 - *"New pronunciation file arrived from TTS"* → copy to `media/<track>/<CH>/<TOPIC>/<CODE>/sound/<locale>.mp3` → `run media manifest` (records its bytes/sha1) → `run media upload --apply`
