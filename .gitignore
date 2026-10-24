@@ -249,6 +249,12 @@ coverage/
 .wrangler/
 .wrangler.toml
 
+# --- Supabase CLI local state ---
+# `.temp/` holds the linked project ref and CLI scratch; `.branches/` is local
+# branch state. Neither is source.
+supabase/.temp/
+supabase/.branches/
+
 # --- Build & tooling caches ---
 *.tsbuildinfo
 .eslintcache

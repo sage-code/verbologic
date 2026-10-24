@@ -118,7 +118,14 @@ create policy "Users can view own abandoned languages"
 -- `credits_left` now derives from `credits_allocated` (the pool slice), not the
 -- legacy tier allotment. `credits_total` stays in the projection for callers
 -- that have not migrated yet.
-create or replace view public.enrollments_overview as
+--
+-- DROP + CREATE, not CREATE OR REPLACE: the new `credits_allocated` column sits
+-- in the middle of the projection, and CREATE OR REPLACE VIEW can only append
+-- columns — inserting one fails with "cannot change name of view column".
+-- Dropping is safe: a view holds no data, and it is recreated immediately.
+drop view if exists public.enrollments_overview;
+
+create view public.enrollments_overview as
 select
   e.user_id,
   e.locale,
@@ -145,8 +152,7 @@ left join (
   group by user_id, locale
 ) l on l.user_id = e.user_id and l.locale = e.locale;
 
--- CREATE OR REPLACE VIEW preserves reloptions, but re-assert it so a fresh
--- install and a migrated install end up identical.
+-- Enforce the caller's identity when reading the view (base-table RLS applies).
 alter view public.enrollments_overview set (security_invoker = true);
 
 -- ── 6. Two-active-language cap ─────────────────────────────────────────────

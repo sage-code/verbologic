@@ -397,12 +397,14 @@ Execute this script in the Supabase SQL Editor. Row Level Security (RLS) ensures
 
 ```sql
 -- 1. User Profile & Learning Domain Preferences
+-- No target_lang: a user holds up to two active languages at a time, and that
+-- state lives in `enrollments` (see supabase/schema.sql).
 CREATE TABLE public.profiles (
   id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
   instruction_lang TEXT NOT NULL DEFAULT 'en',
-  target_lang TEXT NOT NULL DEFAULT 'es',
   active_domains TEXT[] DEFAULT '{general}',
   xp INTEGER DEFAULT 0,
+  credit_pool INTEGER NOT NULL DEFAULT 0 CHECK (credit_pool >= 0),
   updated_at TIMESTAMPTZ DEFAULT NOW()
 );
 

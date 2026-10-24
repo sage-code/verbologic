@@ -743,27 +743,69 @@ build time** → also set them in Cloudflare Workers Builds. The publishable key
 (`sb_publishable_…`, replaces the legacy `anon` JWT) is browser-safe; RLS is
 the security boundary. Never ship the `sb_secret_…` key.
 
-**Schema:** `supabase/schema.sql` — run once in the Dashboard → SQL editor.
-Idempotent; safe to re-run.
+**Schema:** `supabase/schema.sql` — the whole schema in one idempotent file.
+Incremental changes live in `supabase/migrations/` and are applied with the
+Supabase CLI:
+
+```bash
+npx supabase link --project-ref <ref>   # once per machine
+npx supabase db push --linked --include-all --dry-run   # preview
+npx supabase db push --linked --include-all             # apply
+```
+
+`--include-all` is needed because the first two migrations were applied from the
+Dashboard SQL editor and are mirrored locally to keep the history in step. The
+CLI is already authenticated on this machine; `supabase db query --linked --file
+<path>` runs ad-hoc SQL (used to verify a migration's behaviour).
 
 | Table | Purpose |
 | --- | --- |
-| `profiles` | preferences + XP; auto-created by the `on_auth_user_created` trigger |
-| `enrollments` | one row per user+language (`tier_id`, `status`, `credits_total`), `UNIQUE(user_id, locale)` |
-| `learned_items` | source of truth for **Words learned**; `UNIQUE(user_id, entity_id)` makes writes idempotent |
+| `profiles` | preferences + XP + `credit_pool` (the user-level credit balance); auto-created by the `on_auth_user_created` trigger |
+| `enrollments` | one row per user+language (`tier_id`, `status`, `credits_allocated`), `UNIQUE(user_id, locale)`; `status = 'abandoned'` is the abandon flow |
+| `abandoned_languages` | append-only abandon event log with a progress snapshot; written only by `abandon_language()` |
+| `learned_items` | source of truth for **Words learned**; `UNIQUE(user_id, locale, entity_id)` makes writes idempotent |
 | `credit_ledger` | append-only credit movements (+ top-up / − spend); consumed & left **derive** from `SUM(delta)` — reserved for the AI Mentor |
 | `quiz_results` | attempt history (Phase 3 QuizEngine) |
+| `listen_counts` | full-listen counter per entity (auto-completion at multiples of 5) |
 
-View **`enrollments_overview`** aggregates `words_learned` /
-`credits_consumed` / `credits_left` — the one query the Library reads.
+View **`enrollments_overview`** aggregates `words_learned` / `credits_consumed` /
+`credits_left` — the one query the Library reads.
+
+**Languages and credits.** A user holds **at most two active languages** at a
+time (`enforce_active_language_cap` trigger; the cap is one constant in that
+function). To add a third they must abandon one. Abandoning never loses
+progress: the enrollment flips to `status = 'abandoned'` and every
+`learned_items` / `listen_counts` row stays attached, so restoring is a status
+flip back. On abandon the user is asked whether to **recuperate** the language's
+credits — they return to `profiles.credit_pool` — or forfeit them; either way the
+language's `credits_allocated` drops to zero.
+
+Credits are server-side and mutated only through RPCs, so the pool cannot be
+inflated from the browser:
+
+| RPC | Purpose |
+| --- | --- |
+| `add_credits(p_credits)` | buy credits into the pool (the Add-credits dialog) |
+| `allocate_credits(p_locale, p_credits)` | move credits between the pool and one language (the gear dialog); clamps to allocation + pool |
+| `abandon_language(p_locale, p_recuperate)` | atomic abandon + credit return; returns the credits returned |
+| `restore_language(p_locale)` | flip an abandoned language back to active |
+
+All four are `security definer` with `search_path = ''`, revoked from `anon`,
+granted to `authenticated`, and guard on `auth.uid()`.
 
 **Consumers:** `userStore` (auth session: `getSession` + `onAuthStateChange`),
 `useProgress()` (`learned_items` writes + localStorage fallback; the
 "mark as learned" toggle in `ExpressionSearch.vue`), `libraryStore` →
 `setFromOverview()` (Library panels).
 
-**Regenerate DB types:** `npx supabase gen types typescript --project-id <ref>
---schema public > src/types/database.ts`.
+**Regenerate DB types:** `npx supabase gen types typescript --linked --schema
+public > src/types/database.ts`. The generator rewrites the file wholesale, so
+re-append the app-facing aliases at the bottom (`EnrollmentsOverviewRow`,
+`EnrollmentTier`, `EnrollmentStatus`, `asTier`, `asStatus`) — they are marked
+with a "stable across regenerations" comment. `EnrollmentsOverviewRow` is
+declared explicitly rather than derived: Postgres views carry no NOT NULL, so
+the generated view row marks every column nullable even though only
+`abandoned_at` genuinely is.
 
 ### Keeping the Free-tier project awake (daily heartbeat)
 
