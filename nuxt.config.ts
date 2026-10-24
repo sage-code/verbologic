@@ -105,8 +105,11 @@ function phoneticArticleRoutes(allLangs: string[]): string[] {
   const phoneticTopics = new Map<string, { sourceLang: string; items: string[] }>()
   for (const section of sidebar.sections ?? []) {
     for (const topic of section.topics ?? []) {
-      if (topic.phonetic === true && topic.sourceLang) {
-        phoneticTopics.set(topic.code, { sourceLang: topic.sourceLang, items: topic.items ?? [] })
+      // `target` is the field the runtime reads (usePhonetic.phoneticTopic);
+      // `sourceLang` is the older name and is absent from the sidebar.
+      const sourceLang = topic.target ?? topic.sourceLang
+      if (topic.phonetic === true && sourceLang) {
+        phoneticTopics.set(topic.code, { sourceLang, items: topic.items ?? [] })
       }
     }
   }
