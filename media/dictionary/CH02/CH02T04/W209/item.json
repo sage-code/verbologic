@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "key"
+      "name": "key",
+      "description": "A common object found and used in the home."
     },
     "ro": {
       "name": "cheie",
-      "ipa": "/ˈkeje/"
+      "ipa": "/ˈkeje/",
+      "description": "Un obiect obișnuit găsit și folosit în casă."
     },
     "de": {
-      "name": "Schlüssel"
+      "name": "Schlüssel",
+      "description": "Ein gewöhnlicher Gegenstand, der im Haushalt zu finden ist und verwendet wird."
     },
     "ru": {
-      "name": "Ключ"
+      "name": "Ключ",
+      "description": "Обычный предмет, который можно найти и использовать дома."
     },
     "it": {
-      "name": "chiave"
+      "name": "chiave",
+      "description": "Un oggetto comune che si trova e si usa in casa."
     },
     "es": {
-      "name": "llave"
+      "name": "llave",
+      "description": "Un objeto común que se encuentra y se utiliza en el hogar."
     },
     "fr": {
-      "name": "clé"
+      "name": "clé",
+      "description": "Un objet courant que l'on trouve et utilise dans la maison."
     },
     "hu": {
-      "name": "Kulcs"
+      "name": "Kulcs",
+      "description": "A háztartásban megtalálható és használt gyakori tárgy."
     },
     "pt": {
-      "name": "Chave"
+      "name": "Chave",
+      "description": "Um objeto comum encontrado e usado em casa."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "4adf61a0982887763c2754cd338061c8318e72ef"
+    },
+    "sound/en.mp3": {
+      "bytes": 4176,
+      "sha1": "6933b5d1e07a90b39303c3e244eb4da053e7ba22"
+    },
+    "sound/de.mp3": {
+      "bytes": 9504,
+      "sha1": "fdc42d035f736dcc929949a8ac3f56e32147b24c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "06b16483e65ac7a8e2dd1b667db5aa1748d97754"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "692f3535ef60d54e77e05da1152958369c47397b"
+    },
+    "sound/es.mp3": {
+      "bytes": 8784,
+      "sha1": "6378bda4461f7f6edd7c26adf804e6978ec96c93"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "535f0b8c580d771e2a6be8fcc30c912c0550f874"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "dce7e546777faa77328036e63be5dfc7313044cf"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "d1ebced590d45171f04dc1f78c8fce7b59b9140a"
     }
   }
 }

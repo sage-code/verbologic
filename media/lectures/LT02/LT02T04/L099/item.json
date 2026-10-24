@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, sunt student."
+      "name": "Da, sunt student.",
+      "description": "O propoziție care confirmă că ești student."
+    },
+    "en": {
+      "description": "A sentence confirming that you are a student.",
+      "name": "Yes, I am a student."
+    },
+    "de": {
+      "description": "Ein Satz, der bestätigt, dass man Student ist.",
+      "name": "Ja, ich bin Student."
+    },
+    "ru": {
+      "description": "Предложение, подтверждающее, что вы студент.",
+      "name": "Да, я студент."
+    },
+    "it": {
+      "description": "Una frase per confermare di essere uno studente.",
+      "name": "Sì, sono uno studente."
+    },
+    "es": {
+      "description": "Una frase que confirma que eres estudiante.",
+      "name": "Sí, soy estudiante."
+    },
+    "fr": {
+      "description": "Une phrase confirmant que vous êtes étudiant.",
+      "name": "Oui, je suis étudiant."
+    },
+    "hu": {
+      "description": "Mondat, amely megerősíti, hogy diák vagy.",
+      "name": "Igen, diák vagyok."
+    },
+    "pt": {
+      "description": "Uma frase que confirma que você é estudante.",
+      "name": "Sim, sou estudante."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14832,
       "sha1": "bb3ab6566e70c073cd6891c82b8546d78baaa7e9"
+    },
+    "sound/de.mp3": {
+      "bytes": 14400,
+      "sha1": "4ace35322442c2dff60c922e1acf91195f46d18f"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "ecf14ecfaaba2a1ae86db3f34f719f75cfaeb480"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15120,
+      "sha1": "12aad053dcec2bdc43e9dd1d873ef893c6a32768"
+    },
+    "sound/it.mp3": {
+      "bytes": 17424,
+      "sha1": "1da0062ccde944d1d13c3019bc910fc841916336"
+    },
+    "sound/es.mp3": {
+      "bytes": 15984,
+      "sha1": "07906dd6bc248ef62b05cf3746c657e900fdc60c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14832,
+      "sha1": "47a5363d108ec8177210d5ffc6524269c6fa64fa"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13248,
+      "sha1": "f2ac4dd0a0a07ce5f447493b4e9ab6dfbcc10b0d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14112,
+      "sha1": "7f923b980fee79ce935784f1991c8ca14041768f"
     }
   }
 }

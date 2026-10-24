@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Vecinul este acolo?"
+      "name": "Vecinul este acolo?",
+      "description": "Exersează cum să întrebi dacă vecinul este prezent într-un anumit loc."
+    },
+    "en": {
+      "description": "Practice asking whether the neighbor is present in a specific place.",
+      "name": "Is the neighbor there?"
+    },
+    "de": {
+      "description": "Üben Sie zu fragen, ob der Nachbar an einem bestimmten Ort anwesend ist.",
+      "name": "Ist der Nachbar da?"
+    },
+    "ru": {
+      "description": "Потренируйтесь спрашивать, находится ли сосед на месте.",
+      "name": "Сосед там?"
+    },
+    "it": {
+      "description": "Esercitati a chiedere se il vicino è presente lì.",
+      "name": "Il vicino è lì?"
+    },
+    "es": {
+      "description": "Practica preguntar si el vecino está presente en un lugar determinado.",
+      "name": "¿Está el vecino allí?"
+    },
+    "fr": {
+      "description": "Entraînez-vous à demander si le voisin est présent à cet endroit.",
+      "name": "Le voisin est-il là ?"
+    },
+    "hu": {
+      "description": "Gyakorolja annak megkérdezését, hogy ott van-e a szomszéd.",
+      "name": "Ott van a szomszéd?"
+    },
+    "pt": {
+      "description": "Pratique perguntar se o vizinho está presente ali.",
+      "name": "O vizinho está lá?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14688,
       "sha1": "be8c4effb4f47e4ce8722269955809b09439dc1f"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "5b63d91d8a98411f657ee5211b92eddda26ea789"
+    },
+    "sound/de.mp3": {
+      "bytes": 12528,
+      "sha1": "be3bbd6bd87429ad9ef5eaf70c7829364fc3bbdf"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11808,
+      "sha1": "d22a5371c65f7045b55a78d95c44995a8ff3b279"
+    },
+    "sound/it.mp3": {
+      "bytes": 12384,
+      "sha1": "b8220aefa380fcf84f83c0c51f86a5180fa14324"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11952,
+      "sha1": "20087916ef58bba96f5eb08eeae4659cdfffe391"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12240,
+      "sha1": "7b2618fd3cada9e78a0675d190a057abeb73ed9b"
+    },
+    "sound/es.mp3": {
+      "bytes": 12816,
+      "sha1": "cb8e1b3cb28a1f02d38a728e6d8572a1504ee622"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "12512761279e628b02eb1bdeed115035e7cf08ac"
     }
   }
 }

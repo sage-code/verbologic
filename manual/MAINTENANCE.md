@@ -12,7 +12,7 @@ edit everything **by hand** when no agent is involved.
 ┌───────────────────────────  Git repo (slim)  ───────────────────────────┐
 │  src/data/navigation.json   ← MENU, languages, social (builder data)    │
 │  src/data/language-names.json ← localized language names (builder data) │
-│  public/data/entities/*.json      ← CONTENT (generated, then curated)   │
+│  media/**/item.json         ← CONTENT (manifests: text + file facts)    │
 │  public/data/locales/*.json       ← UI strings (generic chrome)         │
 │  src/layouts/default.vue    ← LAYOUT shell (header+nav+footer)          │
 │  src/components/*.vue       ← Header/Footer/LanguageSwitcher/AppNav     │
@@ -91,36 +91,36 @@ change needed.
 
 ## 3. Content — where the source of truth lives
 
-### 3.1 Static entities (the O(N) core)
-| File | What | Count |
-| --- | --- | --- |
-| `public/data/entities/ro_vocabulary.json` | themed vocabulary | 150 |
-| `public/data/entities/ro_questions.json` | Q&A drills | 135 |
-| `public/data/entities/ro_imperative.json` | imperative phrases | 75 |
-| `public/data/entities/ro_sentences.json` | sentence corpus | 30 |
-| `public/data/entities/ro_greetings.json` | greeting formulas | 15 |
-| `public/data/entities/ro_alphabet.json` | letters + digraphs (contrastive) | 53 |
-| `public/data/entities/en_alphabet.json` | EN alphabet + patterns (IPA) | 74 |
+### 3.1 Content manifests (the O(N) core)
 
-**Schema per entity** (language-neutral, zero UI strings):
+Content lives in `media/<track>/<chapter>/<topic>/<code>/item.json` — one
+manifest per item, carrying the localized text **and** the file facts:
 
 ```jsonc
 {
-  "id": "word_salut",            // unique; "<type>_<slug>"
-  "type": "word",                // word | sentence | question | imperative | letter
-  "lang": "ro",                  // ro | en (target language)
-  "term": "salut",               // term in the target language
-  "ipa": null,                   // IPA only on alphabet entities for now
-  "translations": { "en": "hello", "es": "hola", "it": "ciao", "fr": "salut" },
-  "context": null,               // usage note (greetings / patterns)
-  "audio": "https://media.verbologic.com/audio/ro/word_salut.mp3" // null = TTS queue
+  "code": "W001",                 // media code: W/S/A/V/P/L + digits
+  "track": "dictionary",
+  "chapter": "CH01",
+  "topic": "CH01T01",
+  "kind": "word",                 // word | sentence | question | imperative | letter | greeting
+  "entity_id": "CH01T01:W001",    // language-independent identity
+  "cefr": "A1",
+  "locales": {                    // one self-contained row per locale
+    "en": { "name": "hello", "description": "…", "ipa": "/həˈloʊ/" },
+    "ro": { "name": "salut", "ipa": "/saˈlut/" }
+  },
+  "files": {                      // keyed by PATH; presence = published
+    "sound/en.mp3": { "bytes": 11232, "sha1": "918a4e31…" }
+  }
 }
 ```
 
-**IMPORTANT — how these files are born.** They were **generated** from the legacy
-HTML archive by `scripts/extract-legacy.mjs`, which has been **removed**: the
-archive tree it parsed is gitignored and no longer present, so the script could
-not run. The 7 files are now the source of truth — edit them directly, then:
+`legacy_entity_id` preserves the pre-migration id for content converted from the
+retired `public/data/entities/` bridge, so sidebar item lists and progress rows
+keep resolving.
+
+**Adding content** is the scaffold pipeline (`manual/MAINTENANCE.md` §3.3):
+`run scaffold` → `generate-audio.py` → `run media manifest` → `run media upload`.
 
 ```bash
 run validate                       # checks ids/audio/labels integrity
@@ -493,9 +493,8 @@ buttons: **Dictionary · Lectures · Stories**.
 | Prerender | `nuxt.config.ts → nitro.prerender.routes` | all 9 × 3 = 27 `/learn/:locale/:track` URLs derived from `navigation.json` (the host serves `404-page`, so every navigable route must exist as a file); adding a language to `navigation.json` adds its three track URLs automatically |
 | Copy | `public/data/locales/*.json` | `library.*` (title/intro/add_language/select_*/add/all_added) + `track.*` (per-track titles + coming-soon); `ui.close` labels the dialog's ✕ |
 
-Currently live: Dictionary for `ro` (532 entities) and `en` (74). Lectures and
-Stories come online by filling `tracks` in `src/data/tracks.ts` and adding the
-content — the pages and prerender routes already exist.
+Currently live: all three tracks for all 9 languages — the content is shared
+across target languages, so a track is live wherever its manifests exist.
 
 **Hide vs. delete:** the panel's ✕ only *hides* a language (device-local
 preference key). When the enrollment write path lands with the new
@@ -745,9 +744,8 @@ redirect *from* also needs a proxied DNS record (`A` → `192.0.2.0` or
 
 ## 6. Recipe drawer (common manual jobs)
 
-- *"I fixed a word in the archive HTML"* → the archive tree is gone and
-  `extract-legacy.mjs` was removed with it; edit `public/data/entities/*.json`
-  directly → `run validate` → `run build`
+- *"I fixed a word"* → edit its `media/<track>/<CH>/<TOPIC>/<CODE>/item.json`
+  `locales` row directly → `run validate` → `run build`
 - *"I want a 6th toolbar item"* → §2 steps in `navigation.json` + page + `AppNav.ICONS`
 - *"The menu reads better in French"* → edit `menuLabels.fr` in `navigation.json`
 - *"New pronunciation file arrived from TTS"* → copy to `media/<track>/<CH>/<TOPIC>/<CODE>/sound/<locale>.mp3` → `run media manifest` (records its bytes/sha1) → `run media upload --apply`
@@ -901,7 +899,7 @@ granted to `authenticated`, and guard on `auth.uid()`.
 
 **Consumers:** `userStore` (auth session: `getSession` + `onAuthStateChange`),
 `useProgress()` (`learned_items` writes + localStorage fallback; the
-"mark as learned" toggle in `ExpressionSearch.vue`), `libraryStore` →
+"mark as learned" toggle in the topic table), `libraryStore` →
 `setFromOverview()` (Library panels).
 
 **Regenerate DB types:** `npx supabase gen types typescript --linked --schema
@@ -1139,7 +1137,6 @@ filtered" queue), `article` (content doc cards → prerendered pages) or
 | Repository | `media/` — media files under `<type>/<lang>/<TOPIC>/`, each with its own sibling `<ID>.json` manifest (item text: term/names/ipa/kind + file facts: file/key/mime/bytes/sha1/status; optional `ttsText` overrides what's fed to the TTS engine when it mispronounces `term` (§3.3); `pending` = media not yet produced — renders "coming soon") |
 | Types + loaders | `src/types/media.ts` (runtime records) · `src/types/sidebars.ts` · `src/composables/useMedia.ts` · sequential player `src/composables/useAudioQueue.ts` |
 | Topic attribution | `scripts/archive-topics.mjs` + `topic-map.json` — parses the archive pages (page#section → topic) and attributes all entities to Dictionary topics (report + topic map only; it never writes sidebars — the Lectures sidebar is hand-curated, see `manual/curriculum.md`); `scripts/media-manifests.mjs` re-folders media + writes the manifests; `scripts/media-scaffold-topic.mjs` (`run scaffold`) seeds the blank topics; `scripts/seed-titles.mjs` seeds one chapter's title-audio manifests; `scripts/generate-audio.py` synthesizes pending manifests' mp3s (Edge TTS); `scripts/lecture.mjs` (`run lecture`) scaffolds/reviews shared article content |
-| Legacy bridge (fallback) | sidebar item ids without a manifest resolve from `public/data/entities/*.json` (also the global-search source) — every dictionary item has a manifest now, so the dictionary is fully manifest-backed |
 | Components | `roadmap/RoadmapSidebar.vue` · `RoadmapTopicSearch.vue` · `RoadmapTopicList.vue` · `roadmap/ChaptersTable.vue` · `roadmap/layouts/DictionaryToolbar.vue` |
 | Article pages | `src/pages/learn/[locale]/[track]/[topic]/[id]/[doc].vue` — track-agnostic, prerendered per explanation-locale doc; dictionary, lecture, and story prose are shared at `content/<track>/TOPIC/ID/locale.md`, English-canonical; legacy stories may remain under `content/stories/<trackLang>/TOPIC/ID/locale.md` |
 | Dictionary playback state | `roadmapStore` `dictionaryQuery` (committed on Enter / the toolbar's filter button — never while typing) / `page` / `pageSize` + `dictionaryRows` (diacritic-folded prefix/substring matching across all localized names; dictionary-wide via lazy `ensureSearchIndex` over `<section>/search.json`, one fetch) / `searchActive` / `pageCount` / `pagedRows` + `setDictionaryQuery` / `setSearchMode` / `setPageSize` / `setPage` (page resets on topic open/close and filter changes; the mode persists like Repeat); pure match helpers in `src/lib/dictionarySearch.ts` (`fold` / `glossName` / `matchesDictionaryQuery`); `useAudioQueue` gained `loop` / `mode` (`'idle' \| 'single' \| 'page'`) / `playOne()` / `setLoop()` / `onCycle` — single runs skip the memorization gap; loop laps fire `onCycle` (the layout jumps the list back to the top) |

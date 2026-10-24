@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, parola este aici."
+      "name": "Da, parola este aici.",
+      "description": "O afirmație care confirmă că parola se află aici."
+    },
+    "en": {
+      "description": "A statement confirming that the password is here.",
+      "name": "Yes, the password is here."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass das Passwort hier ist.",
+      "name": "Ja, das Passwort ist hier."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее, что пароль находится здесь.",
+      "name": "Да, пароль здесь."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che la password si trova qui.",
+      "name": "Sì, la password è qui."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que la contraseña está aquí.",
+      "name": "Sí, la contraseña está aquí."
+    },
+    "fr": {
+      "description": "Une affirmation confirmant que le mot de passe est ici.",
+      "name": "Oui, le mot de passe est ici."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely megerősíti, hogy a jelszó itt található.",
+      "name": "Igen, itt van a jelszó."
+    },
+    "pt": {
+      "description": "Uma afirmação confirmando que a palavra-passe está aqui.",
+      "name": "Sim, a palavra-passe está aqui."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16560,
       "sha1": "58d9de9794a4a74a9e3ad44b0d8d17cf642959e9"
+    },
+    "sound/en.mp3": {
+      "bytes": 14112,
+      "sha1": "d3de4ea45b43f4e96208f765277f5f01d4e664cc"
+    },
+    "sound/de.mp3": {
+      "bytes": 16848,
+      "sha1": "60355ec3913436e3c152340688a69c608bfff8f1"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14544,
+      "sha1": "5635c8a4404f6927c60582485c77f378eb3b9bfb"
+    },
+    "sound/it.mp3": {
+      "bytes": 12672,
+      "sha1": "3d9e232651f724e017e2fbd089b0feec984c967f"
+    },
+    "sound/es.mp3": {
+      "bytes": 17424,
+      "sha1": "f5178a99832315a1db900fa6408cd1078c863642"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16704,
+      "sha1": "55d326dc48e747c5493c8c1b7ea2494b21a2ab3a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 19008,
+      "sha1": "9100b7e10dbca2e1e6394fa29ab663ae9bfa33a0"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17136,
+      "sha1": "57246367429cc100bc469714148400ff6b880194"
     }
   }
 }

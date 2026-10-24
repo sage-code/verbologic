@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "towel"
+      "name": "towel",
+      "description": "This word is related to accommodation."
     },
     "ro": {
       "name": "prosop",
-      "ipa": "/proˈsop/"
+      "ipa": "/proˈsop/",
+      "description": "Acest cuvânt este legat de cazare."
     },
     "de": {
-      "name": "Handtuch"
+      "name": "Handtuch",
+      "description": "Dieses Wort steht im Zusammenhang mit Unterkunft."
     },
     "ru": {
-      "name": "полотенце"
+      "name": "полотенце",
+      "description": "Это слово связано с темой жилья."
     },
     "it": {
-      "name": "asciugamano"
+      "name": "asciugamano",
+      "description": "Questa parola è correlata all'alloggio."
     },
     "es": {
-      "name": "toalla"
+      "name": "toalla",
+      "description": "Esta palabra está relacionada con el alojamiento."
     },
     "fr": {
-      "name": "serviette"
+      "name": "serviette",
+      "description": "Ce mot est lié à l'hébergement."
     },
     "hu": {
-      "name": "törölköző"
+      "name": "törölköző",
+      "description": "Ez a szó a szállással kapcsolatos."
     },
     "pt": {
-      "name": "toalha"
+      "name": "toalha",
+      "description": "Esta palavra está relacionada com alojamento."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "53a19f5891da6ac3991f0ef0f88fe3aa09ae2a89"
+    },
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "c2a765aa7ffea07abe323484c24685d715123a03"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "cece358ced6bb6b4a1b3f3a4ecf3f3e0fccfc0ad"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "2af8e06c7a729a3056df0a68037a463daad80c2f"
+    },
+    "sound/it.mp3": {
+      "bytes": 11952,
+      "sha1": "2cf7fdfe1d937dc33a7d9da81a991188da42fc1b"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "7b24f297b5793ea1d0985b6346a815b90dab6440"
+    },
+    "sound/fr.mp3": {
+      "bytes": 10656,
+      "sha1": "330c2d3f9badb4d4da9fca813943acea0134b0ad"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "c6fa1ed66286264c7daf6e760dc54d370e33dca0"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "cbea26f26cc57d7ab6c698ec8fd032bb7748e4ec"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, am examen azi."
+      "name": "Da, am examen azi.",
+      "description": "O afirmație care confirmă că cineva are un examen azi."
+    },
+    "en": {
+      "description": "An affirmative statement confirming that someone has an exam today.",
+      "name": "Yes, I have an exam today."
+    },
+    "de": {
+      "description": "Eine bejahende Aussage, die bestätigt, dass jemand heute eine Prüfung hat.",
+      "name": "Ja, ich habe heute eine Prüfung."
+    },
+    "ru": {
+      "description": "Утвердительное высказывание, подтверждающее, что у кого-то сегодня экзамен.",
+      "name": "Да, у меня сегодня экзамен."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che si ha un esame oggi.",
+      "name": "Sì, ho un esame oggi."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que alguien tiene un examen hoy.",
+      "name": "Sí, tengo un examen hoy."
+    },
+    "fr": {
+      "description": "Une phrase affirmative confirmant que l'on a un examen aujourd'hui.",
+      "name": "Oui, j'ai un examen aujourd'hui."
+    },
+    "hu": {
+      "description": "Állítás, amely megerősíti, hogy valakinek ma vizsgája van.",
+      "name": "Igen, ma van vizsgám."
+    },
+    "pt": {
+      "description": "Uma afirmação que confirma que alguém tem exame hoje.",
+      "name": "Sim, tenho exame hoje."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15408,
       "sha1": "d60c7a09cb18475bbea3eccc0c892f9e8bfe1287"
+    },
+    "sound/en.mp3": {
+      "bytes": 12240,
+      "sha1": "c77db7a9b867ed12d30c281d57fa2519bdd57f6c"
+    },
+    "sound/de.mp3": {
+      "bytes": 17568,
+      "sha1": "b5bbb4cb1c9bf8901fea18841ebf4b329c00bb74"
+    },
+    "sound/ru.mp3": {
+      "bytes": 19584,
+      "sha1": "2b32bdde344c15d94f33dc90dc94210964fe30dd"
+    },
+    "sound/it.mp3": {
+      "bytes": 17712,
+      "sha1": "f73b31419c536e86c24f3b71f4f981d9ea394342"
+    },
+    "sound/es.mp3": {
+      "bytes": 16848,
+      "sha1": "eabbd65b05449e78c754fec409f8cb5e1ac5f009"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17136,
+      "sha1": "6fcfdb096c2c7f692369984b13f92f40a7090e71"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13824,
+      "sha1": "12cec16d12154cb009b63fed70cc2904156e4f1c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14976,
+      "sha1": "37ea7e31bc3c65497055e68bd173d6f935463d49"
     }
   }
 }

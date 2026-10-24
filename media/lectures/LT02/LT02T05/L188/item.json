@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, cumpăr bilet acum."
+      "name": "Nu, cumpăr bilet acum.",
+      "description": "O afirmație prin care se spune că cineva cumpără un bilet în acel moment."
+    },
+    "en": {
+      "description": "A statement stating that one is currently purchasing a ticket.",
+      "name": "No, I am buying a ticket now."
+    },
+    "de": {
+      "description": "Eine Aussage, die besagt, dass man gerade eine Fahrkarte kauft.",
+      "name": "Nein, ich kaufe jetzt eine Fahrkarte."
+    },
+    "ru": {
+      "description": "Утверждение о покупке билета в данный момент.",
+      "name": "Нет, я покупаю билет сейчас."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che si sta acquistando un biglietto in questo momento.",
+      "name": "No, compro il biglietto adesso."
+    },
+    "es": {
+      "description": "Una afirmación que indica que se está comprando un billete en este momento.",
+      "name": "No, estoy comprando un billete ahora."
+    },
+    "fr": {
+      "description": "Une déclaration indiquant que l'on achète un billet en ce moment.",
+      "name": "Non, j'achète un billet maintenant."
+    },
+    "hu": {
+      "description": "Egy kijelentés arról, hogy az illető éppen jegyet vásárol.",
+      "name": "Nem, most veszek jegyet."
+    },
+    "pt": {
+      "description": "Uma declaração informando que a pessoa está comprando uma passagem no momento.",
+      "name": "Não, estou comprando a passagem agora."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16416,
       "sha1": "a358044e755ef3f6dcaace7298a87387f347faae"
+    },
+    "sound/de.mp3": {
+      "bytes": 20304,
+      "sha1": "6ba5f6a7db0c9f413be79ae581261c011ad6e599"
+    },
+    "sound/en.mp3": {
+      "bytes": 14688,
+      "sha1": "1c02157366f701da6ead2cd396dea08cf9279947"
+    },
+    "sound/it.mp3": {
+      "bytes": 14688,
+      "sha1": "b29096355146ba72cab7a1b4c6a10eb136d0a528"
+    },
+    "sound/ru.mp3": {
+      "bytes": 20016,
+      "sha1": "3f8b9d469ea472861e47412c11fc49155a022642"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16848,
+      "sha1": "f09b3f2ab357642ba896990590752d9e42f4fabf"
+    },
+    "sound/es.mp3": {
+      "bytes": 19584,
+      "sha1": "e8eb402db9f0cf5c44e513ea0bda60aab5323e1b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17280,
+      "sha1": "f8136ceb0c7187c4d787391b1e4f1ccf8b35a732"
+    },
+    "sound/pt.mp3": {
+      "bytes": 20304,
+      "sha1": "d6e5813054f33630e2879c29bf052b263e7bd08b"
     }
   }
 }

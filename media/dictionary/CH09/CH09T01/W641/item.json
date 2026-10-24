@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "break"
+      "name": "break",
+      "description": "This word relates to office vocabulary."
     },
     "ro": {
       "name": "pauză",
-      "ipa": "/ˈpauzə/"
+      "ipa": "/ˈpauzə/",
+      "description": "Acest cuvânt este legat de vocabularul de birou."
     },
     "de": {
-      "name": "Pause"
+      "name": "Pause",
+      "description": "Dieses Wort gehört zum Büro-Wortschatz."
     },
     "ru": {
-      "name": "перерыв"
+      "name": "перерыв",
+      "description": "Это слово относится к офисной лексике."
     },
     "it": {
-      "name": "pausa"
+      "name": "pausa",
+      "description": "Questa parola si riferisce al vocabolario dell'ufficio."
     },
     "es": {
-      "name": "pausa"
+      "name": "pausa",
+      "description": "Esta palabra está relacionada con el vocabulario de oficina."
     },
     "fr": {
-      "name": "pause"
+      "name": "pause",
+      "description": "Ce mot est lié au vocabulaire de bureau."
     },
     "hu": {
-      "name": "szünet"
+      "name": "szünet",
+      "description": "Ez a szó az irodai szókincshez kapcsolódik."
     },
     "pt": {
-      "name": "pausa"
+      "name": "pausa",
+      "description": "Esta palavra está relacionada ao vocabulário de escritório."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "2186c18c91b2088f217f5a5024c339907ab1c918"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8de7b724a2e49b752d5d0a3f1dcad80ad4bcc898"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "46c99d1a829b33842206dcb5fa24dbf55c5abf75"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "0a5f26e93931f4053f2026376f0231cefff285c9"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "b1c20986b9e3d23213c825d6d5eb0435fc4d0585"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "890d17195e2441ee95ba068fa5a7bb12b23750b8"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "a458a620738a8bdc59ee7665a66aaa4b34978a4a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "74b84672151694fcff01bab6d3ae79360e4c445e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "2f12cda7f5d7c2cc9e19a1dbeae66d65c792b6ee"
     }
   }
 }

@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Arrange the bed."
+      "name": "Arrange the bed.",
+      "description": "An imperative phrase instructing someone to arrange the bed."
     },
     "ro": {
-      "name": "Aranjează patul."
+      "name": "Aranjează patul.",
+      "description": "O frază imperativă care instruiește pe cineva să aranjeze patul."
+    },
+    "de": {
+      "description": "Ein Aufforderungssatz, der jemanden anweist, das Bett zu machen.",
+      "name": "Mach das Bett."
+    },
+    "ru": {
+      "description": "Повелительная фраза, предписывающая заправить кровать.",
+      "name": "Заправь кровать."
+    },
+    "it": {
+      "description": "Una frase imperativa che invita qualcuno a rifare il letto.",
+      "name": "Rifai il letto."
+    },
+    "es": {
+      "description": "Una frase imperativa que indica a alguien que arregle la cama.",
+      "name": "Arregla la cama."
+    },
+    "fr": {
+      "description": "Une phrase impérative demandant à quelqu'un de faire le lit.",
+      "name": "Fais le lit."
+    },
+    "hu": {
+      "description": "Felszólító mondat, amely arra utasít valakit, hogy vesse be az ágyat.",
+      "name": "Vesd be az ágyat!"
+    },
+    "pt": {
+      "description": "Uma frase imperativa que instrui alguém a arrumar a cama.",
+      "name": "Arruma a cama."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13104,
       "sha1": "e427126e3a350252d719b0d34d4bc7b3c9dacb6e"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8433be8cad02f68fe2b9369268e34635e4563921"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "f83e35a7e4ead532c8236b72c2c28e0bbfcb5993"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13680,
+      "sha1": "41a03988174c9e2d08ca823fbec87d2417998fc5"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "0e401414189fcfb12887b1ace528cf809606c437"
+    },
+    "sound/es.mp3": {
+      "bytes": 12096,
+      "sha1": "55c116ad53167390010766594cd92868d1943ef5"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "5f0c7715f9034c8b94d616f76f5479bb29f50621"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12672,
+      "sha1": "0ad447a7909134b16dbde6047542d2054f8fb888"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13680,
+      "sha1": "a725c96ea38476341c0819ccc5d168e4e495b96d"
     }
   }
 }

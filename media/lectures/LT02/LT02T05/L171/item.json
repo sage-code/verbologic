@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, magazinul este la dreapta."
+      "name": "Da, magazinul este la dreapta.",
+      "description": "O afirmație care confirmă că magazinul este în dreapta."
+    },
+    "en": {
+      "description": "A statement confirming that the shop is on the right.",
+      "name": "Yes, the shop is on the right."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass das Geschäft rechts ist.",
+      "name": "Ja, das Geschäft ist rechts."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее, что магазин находится справа.",
+      "name": "Да, магазин справа."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che il negozio è sulla destra.",
+      "name": "Sì, il negozio è a destra."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que la tienda está a la derecha.",
+      "name": "Sí, la tienda está a la derecha."
+    },
+    "fr": {
+      "description": "Une affirmation confirmant que le magasin est à droite.",
+      "name": "Oui, le magasin est à droite."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely megerősíti, hogy a bolt jobbra található.",
+      "name": "Igen, a bolt jobbra van."
+    },
+    "pt": {
+      "description": "Uma afirmação confirmando que a loja está à direita.",
+      "name": "Sim, a loja fica à direita."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 18720,
       "sha1": "9a26516f3478d40f53d0152b97ea66ab1a88b0f8"
+    },
+    "sound/en.mp3": {
+      "bytes": 13392,
+      "sha1": "de10381fe44997a6a4f74853a1302b0ff341debf"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16272,
+      "sha1": "e3a18b2f513484b610bd91142758f12e319348af"
+    },
+    "sound/de.mp3": {
+      "bytes": 17424,
+      "sha1": "e565c80001806d29ee925b6adfa8b81c0de9f238"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17856,
+      "sha1": "f3370e97aba2131cc4b920d8df1c2e6a96d628e9"
+    },
+    "sound/es.mp3": {
+      "bytes": 18288,
+      "sha1": "ffc2be8671a69254af312336933f49603d03f647"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18864,
+      "sha1": "04cb77a9b3138e416736a7fa66d2a43492365987"
+    },
+    "sound/it.mp3": {
+      "bytes": 14112,
+      "sha1": "fa821eec72a3006d7090976d571898ef7aae64f8"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17568,
+      "sha1": "31df771b4271bc218df66cc05d2f7efe3f8119ea"
     }
   }
 }

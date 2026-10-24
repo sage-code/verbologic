@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "loan"
+      "name": "loan",
+      "description": "This item represents vocabulary word W675 from chapter 9, topic 5."
     },
     "ro": {
       "name": "credit",
-      "ipa": "/ˈkredit/"
+      "ipa": "/ˈkredit/",
+      "description": "Acest element reprezintă cuvântul de vocabular W675 din capitolul 9, tema 5."
     },
     "de": {
-      "name": "Kredit"
+      "name": "Kredit",
+      "description": "Dieser Eintrag stellt die Vokabel W675 aus Kapitel 9, Thema 5 dar."
     },
     "ru": {
-      "name": "кредит"
+      "name": "кредит",
+      "description": "Этот элемент представляет собой словарное слово W675 из главы 9, темы 5."
     },
     "it": {
-      "name": "credito"
+      "name": "credito",
+      "description": "Questo elemento rappresenta il vocabolo W675 del capitolo 9, tema 5."
     },
     "es": {
-      "name": "crédito"
+      "name": "crédito",
+      "description": "Este elemento representa la palabra de vocabulario W675 del capítulo 9, tema 5."
     },
     "fr": {
-      "name": "crédit"
+      "name": "crédit",
+      "description": "Cet élément représente le mot de vocabulaire W675 du chapitre 9, thème 5."
     },
     "hu": {
-      "name": "hitel"
+      "name": "hitel",
+      "description": "Ez az elem a 9. fejezet 5. témájához tartozó W675 szókincselemet jelöli."
     },
     "pt": {
-      "name": "crédito"
+      "name": "crédito",
+      "description": "Este item representa a palavra de vocabulário W675 do capítulo 9, tópico 5."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "369c854431a3ff2c133adc39af4944a553c57946"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "abea8d6927d6c622815f2a73b421a6ebeee96e85"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "782f64297499641f408a4f6255d1587c406e8d5a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10800,
+      "sha1": "bf5a1c69a57b60c24bd69a68d00178570c6578e9"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "3945d9b998aab1836ec5ef3b9ae84521ebfba0e4"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "80117747dac53ab8e93cce4b5eaa3d51ba32c619"
+    },
+    "sound/fr.mp3": {
+      "bytes": 9504,
+      "sha1": "e74f8e7d40c3126987d82bd02faef3f4fa2c571d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "b988c1e71431d384f44a7c3e3f725f46dad288a8"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "ef97811b70d6e440ceab9b9bea1021bb260c701d"
     }
   }
 }

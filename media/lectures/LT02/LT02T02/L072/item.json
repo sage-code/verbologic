@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "The chair is next to the table."
+      "name": "The chair is next to the table.",
+      "description": "A sentence describing the position of a chair beside a table."
     },
     "ro": {
-      "name": "Scaunul este lângă masă."
+      "name": "Scaunul este lângă masă.",
+      "description": "O propoziție care descrie poziția unui scaun lângă o masă."
+    },
+    "de": {
+      "description": "Ein Satz, der die Position eines Stuhls neben einem Tisch beschreibt.",
+      "name": "Der Stuhl steht neben dem Tisch."
+    },
+    "ru": {
+      "description": "Предложение, описывающее положение стула рядом со столом.",
+      "name": "Стул стоит рядом со столом."
+    },
+    "it": {
+      "description": "Una frase che descrive la posizione di una sedia accanto a un tavolo.",
+      "name": "La sedia è vicino al tavolo."
+    },
+    "es": {
+      "description": "Una oración que describe la posición de una silla al lado de una mesa.",
+      "name": "La silla está al lado de la mesa."
+    },
+    "fr": {
+      "description": "Une phrase décrivant la position d'une chaise à côté d'une table.",
+      "name": "La chaise est à côté de la table."
+    },
+    "hu": {
+      "description": "Egy mondat, amely egy szék helyzetét írja le egy asztal mellett.",
+      "name": "A szék az asztal mellett van."
+    },
+    "pt": {
+      "description": "Uma frase que descreve a posição de uma cadeira ao lado de uma mesa.",
+      "name": "A cadeira fica ao lado da mesa."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16272,
       "sha1": "ff5cfde15a5d88faf5fd02f55ca90f013914b4b1"
+    },
+    "sound/it.mp3": {
+      "bytes": 16992,
+      "sha1": "73d1f0c9458695292939ac83f9f901dbf3f2bef5"
+    },
+    "sound/de.mp3": {
+      "bytes": 15696,
+      "sha1": "965f6f3eda256e06d720afc851bf5e728fe2971c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14976,
+      "sha1": "b7a3eaa3ad5563da16fbc4242c91537d66d9c997"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15696,
+      "sha1": "bfee37a95a5760c380b35f1fdf7b9bf971cfe645"
+    },
+    "sound/es.mp3": {
+      "bytes": 16992,
+      "sha1": "a73525d8483cc65cb60e34fdded7fc26db5a3d17"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14400,
+      "sha1": "b7daa798923cf9b6a5b58f855e92486ba9373a3d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17424,
+      "sha1": "b5e9bcfc62c70b8c739a776c6b1e767ac54c5f99"
+    },
+    "sound/en.mp3": {
+      "bytes": 10656,
+      "sha1": "e2c4dca413baa5f7772d5f33dd6cc1d78cf665e6"
     }
   }
 }

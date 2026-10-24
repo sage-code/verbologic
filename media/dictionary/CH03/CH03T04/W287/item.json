@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "sky"
+      "name": "sky",
+      "description": "This word relates to weather and nature."
     },
     "ro": {
       "name": "cer",
-      "ipa": "/tʃer/"
+      "ipa": "/tʃer/",
+      "description": "Acest cuvânt se referă la vreme și natură."
     },
     "de": {
-      "name": "Himmel"
+      "name": "Himmel",
+      "description": "Dieses Wort bezieht sich auf Wetter und Natur."
     },
     "ru": {
-      "name": "небо"
+      "name": "небо",
+      "description": "Это слово относится к погоде и природе."
     },
     "it": {
-      "name": "cielo"
+      "name": "cielo",
+      "description": "Questa parola si riferisce al tempo atmosferico e alla natura."
     },
     "es": {
-      "name": "cielo"
+      "name": "cielo",
+      "description": "Esta palabra se relaciona con el clima y la naturaleza."
     },
     "fr": {
-      "name": "ciel"
+      "name": "ciel",
+      "description": "Ce mot se rapporte à la météo et à la nature."
     },
     "hu": {
-      "name": "ég"
+      "name": "ég",
+      "description": "Ez a szó az időjárásra és a természetre vonatkozik."
     },
     "pt": {
-      "name": "céu"
+      "name": "céu",
+      "description": "Esta palavra refere-se ao clima e à natureza."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "f078d3a13bd54319c4336054de5e23aa6ac7586f"
+    },
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "4444a5a8a67b9eee03d38e3a45f279be8bcbdbb2"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "68d6ddd7d056dac04ea9ef932c5e458cb7f57132"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "e98c910d4172e48243315892e93cc502bb828027"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "81299a049604b645c1c655588f11d5e38de81f10"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "fb1f9834e92f5b3b80534d28daf3d6841d254ab8"
+    },
+    "sound/fr.mp3": {
+      "bytes": 9072,
+      "sha1": "35cea29027e5ba1038c5e64b5c98e2b23d53418e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "d8692c486b959b8344e56af3250ae3ae9451c4f0"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "e4db2be64b5280d888a1a988a76d7ccf1805ba10"
     }
   }
 }

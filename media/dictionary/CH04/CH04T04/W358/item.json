@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "station"
+      "name": "station",
+      "description": "This word relates to transport directions."
     },
     "ro": {
       "name": "stație",
-      "ipa": "/ˈstatsie/"
+      "ipa": "/ˈstatsie/",
+      "description": "Acest cuvânt se referă la indicațiile de orientare în transport."
     },
     "de": {
-      "name": "Haltestelle"
+      "name": "Haltestelle",
+      "description": "Dieses Wort bezieht sich auf Wegbeschreibungen im Verkehr."
     },
     "ru": {
-      "name": "остановка"
+      "name": "остановка",
+      "description": "Это слово относится к указанию пути на транспорте."
     },
     "it": {
-      "name": "stazione"
+      "name": "stazione",
+      "description": "Questa parola si riferisce alle indicazioni di trasporto."
     },
     "es": {
-      "name": "estación"
+      "name": "estación",
+      "description": "Esta palabra se refiere a las indicaciones de transporte."
     },
     "fr": {
-      "name": "station"
+      "name": "station",
+      "description": "Ce mot se rapporte aux indications de transport."
     },
     "hu": {
-      "name": "megálló"
+      "name": "megálló",
+      "description": "Ez a szó a közlekedési útbaigazításhoz kapcsolódik."
     },
     "pt": {
-      "name": "parada"
+      "name": "parada",
+      "description": "Esta palavra refere-se a orientações de transporte."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "866244af1878ce6665f0e137ab673111c3717dc7"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "9b9c216c5b6de74ef01a87467d72b19e6c9cb7e8"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "8b6076b8bd01373ba6cdc7267fa4e51e43a18fee"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "cae152dccd98fec4846bdd8598a7b94d77fba395"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "9795391d649cd7d376c73647d0891ce9e1b5be3d"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "fbf765256a9967106d62ab40563ebb12bd8d0808"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "f51dfc0b6694c95e9c6600bc10fe35ceed0b1d4f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "badc31d8394b1eb0ead53929328608c5c9f2d204"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "9ccd615dbb415a061395d773171a522c19a0bc7a"
     }
   }
 }

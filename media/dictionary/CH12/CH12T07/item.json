@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Academic vocabulary"
+      "name": "Academic vocabulary",
+      "description": "This topic covers vocabulary used in academic contexts."
     },
     "ro": {
       "name": "Vocabular academic",
-      "ipa": "/vokabuˈlar akaˈdemik/"
+      "ipa": "/vokabuˈlar akaˈdemik/",
+      "description": "Această temă acoperă vocabularul utilizat în contexte academice."
+    },
+    "de": {
+      "description": "Dieses Thema umfasst den in akademischen Kontexten verwendeten Wortschatz.",
+      "name": "Akademischer Wortschatz"
+    },
+    "ru": {
+      "description": "В этой теме рассматривается лексика, используемая в академическом контексте.",
+      "name": "Академическая лексика"
+    },
+    "it": {
+      "description": "Questo argomento tratta il vocabolario utilizzato in contesti accademici.",
+      "name": "Vocabolario accademico"
+    },
+    "es": {
+      "description": "Este tema abarca el vocabulario utilizado en contextos académicos.",
+      "name": "Vocabulario académico"
+    },
+    "fr": {
+      "description": "Ce thème couvre le vocabulaire utilisé dans des contextes académiques.",
+      "name": "Vocabulaire académique"
+    },
+    "hu": {
+      "description": "Ez a témakör az akadémiai szövegkörnyezetben használt szókincset tárgyalja.",
+      "name": "Akadémiai szókincs"
+    },
+    "pt": {
+      "description": "Este tópico aborda o vocabulário utilizado em contextos acadêmicos.",
+      "name": "Vocabulário acadêmico"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14544,
       "sha1": "858501166a7f7bcdff309b94ddd734c8bf33ff0e"
+    },
+    "sound/en.mp3": {
+      "bytes": 12240,
+      "sha1": "026b227df37967b7d8bb811f440335767a47fafb"
+    },
+    "sound/de.mp3": {
+      "bytes": 15120,
+      "sha1": "6dba97af4f99597736ae93531e66b7915553b9e1"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16560,
+      "sha1": "6c7e8349e51f7073d1847850bac4fd94c9c7bc19"
+    },
+    "sound/it.mp3": {
+      "bytes": 11520,
+      "sha1": "22dce0aef291e3015b29397c7416537ad472694f"
+    },
+    "sound/es.mp3": {
+      "bytes": 14976,
+      "sha1": "031e0b4bebeb41da77236cc22bcc1b679a12f258"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15264,
+      "sha1": "6b40433bf5f22c96e08c9fd1c32c66b8f47a1600"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15552,
+      "sha1": "74927b8329b16b1ff6712ad7c36a83b71287d77c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17136,
+      "sha1": "80a1d8687ffe883aaffa47060ff7e032ad32ce65"
     }
   }
 }

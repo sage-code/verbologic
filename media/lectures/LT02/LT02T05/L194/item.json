@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, am telefon."
+      "name": "Nu, am telefon.",
+      "description": "O scurtă declarație care indică faptul că ai un telefon."
+    },
+    "en": {
+      "description": "A short statement indicating that you have a phone.",
+      "name": "No, I have a phone."
+    },
+    "de": {
+      "description": "Eine kurze Aussage, die angibt, dass man ein Telefon hat.",
+      "name": "Nein, ich habe ein Telefon."
+    },
+    "ru": {
+      "description": "Короткая фраза, указывающая на то, что у вас есть телефон.",
+      "name": "Нет, у меня есть телефон."
+    },
+    "it": {
+      "description": "Una breve frase che indica che hai un telefono.",
+      "name": "No, ho un telefono."
+    },
+    "es": {
+      "description": "Una frase breve que indica que tienes un teléfono.",
+      "name": "No, tengo un teléfono."
+    },
+    "fr": {
+      "description": "Une courte phrase indiquant que vous avez un téléphone.",
+      "name": "Non, j'ai un téléphone."
+    },
+    "hu": {
+      "description": "Rövid kijelentés, amely jelzi, hogy van nálad telefon.",
+      "name": "Nem, van telefonom."
+    },
+    "pt": {
+      "description": "Uma frase curta que indica que você tem um telefone.",
+      "name": "Não, eu tenho um telefone."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14256,
       "sha1": "fd52fb115885ad947f7ec2744e99f883d200df8d"
+    },
+    "sound/en.mp3": {
+      "bytes": 11952,
+      "sha1": "88213834ef3aa97b5bbb61d57bf86315ac35dad4"
+    },
+    "sound/de.mp3": {
+      "bytes": 17280,
+      "sha1": "b5130bbdf999b1a17e885f7c5a36a8234d2c1c9f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17424,
+      "sha1": "b46f9f17b7e0e029674c125a8ef052842412ae61"
+    },
+    "sound/it.mp3": {
+      "bytes": 12816,
+      "sha1": "eb6431cc26ab775e8fd0cd79729bc960a60efb39"
+    },
+    "sound/es.mp3": {
+      "bytes": 14544,
+      "sha1": "a2c7292a1d3647bb287cc8d22c122bdfcd5c1941"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16992,
+      "sha1": "f91d4ea626f18081b57afecb151d67ae8a690947"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15552,
+      "sha1": "1bbeb8f5bba6b9537d29cde5030c8b62ea334271"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17280,
+      "sha1": "b39963f9dcc64480ee9d545287fce99349a57912"
     }
   }
 }

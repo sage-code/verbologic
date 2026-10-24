@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "The colleague has a project."
+      "name": "The colleague has a project.",
+      "description": "A sentence stating that the colleague has a project."
     },
     "ro": {
-      "name": "Colegul are un proiect."
+      "name": "Colegul are un proiect.",
+      "description": "O propoziție care afirmă că un coleg are un proiect."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass der Kollege ein Projekt hat.",
+      "name": "Der Kollege hat ein Projekt."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее о том, что у коллеги есть проект.",
+      "name": "У коллеги есть проект."
+    },
+    "it": {
+      "description": "Una frase che indica che il collega ha un progetto.",
+      "name": "Il collega ha un progetto."
+    },
+    "es": {
+      "description": "Una frase que indica que el colega tiene un proyecto.",
+      "name": "El colega tiene un proyecto."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le collègue a un projet.",
+      "name": "Le collègue a un projet."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kijelenti, hogy a kollégának van egy projektje.",
+      "name": "A kollégának van egy projektje."
+    },
+    "pt": {
+      "description": "Uma frase que afirma que o colega tem um projeto.",
+      "name": "O colega tem um projeto."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14400,
       "sha1": "e9540a8b98b6df3a86839b27dcf74de700a32393"
+    },
+    "sound/de.mp3": {
+      "bytes": 15120,
+      "sha1": "ce6dc5b43da40a20be311f2256ceb02297da1f62"
+    },
+    "sound/it.mp3": {
+      "bytes": 15552,
+      "sha1": "c1cbf0b24fa335e36e799cfe4f4eebeafeff205c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12816,
+      "sha1": "81ea880927803e2e131274311ac8c8ea76bfff0b"
+    },
+    "sound/es.mp3": {
+      "bytes": 15840,
+      "sha1": "abf99fa1f58d9c25f3a435600dfe97f03317905d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13392,
+      "sha1": "b836edd93dbe86b5f64fbc654bf98fcc948f4c50"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15408,
+      "sha1": "00ad65b289bd0c50e18569b55f7f4fd270d42425"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15696,
+      "sha1": "bf45f940166ae4a96f33c67bdf89a2a2a9f995d6"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8c861bef20c61105266455b637367f062fa672da"
     }
   }
 }

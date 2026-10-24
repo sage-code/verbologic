@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, clientul are întrebare."
+      "name": "Nu, clientul are întrebare.",
+      "description": "O propoziție care afirmă că clientul are o întrebare."
+    },
+    "en": {
+      "description": "A sentence stating that the client has a question.",
+      "name": "No, the client has a question."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass der Kunde eine Frage hat.",
+      "name": "Nein, der Kunde hat eine Frage."
+    },
+    "ru": {
+      "description": "Предложение о том, что у клиента есть вопрос.",
+      "name": "Нет, у клиента есть вопрос."
+    },
+    "it": {
+      "description": "Una frase che indica che il cliente ha una domanda.",
+      "name": "No, il cliente ha una domanda."
+    },
+    "es": {
+      "description": "Una frase que indica que el cliente tiene una pregunta.",
+      "name": "No, el cliente tiene una pregunta."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le client a une question.",
+      "name": "Non, le client a une question."
+    },
+    "hu": {
+      "description": "Egy mondat, amely azt fejezi ki, hogy az ügyfélnek van kérdése.",
+      "name": "Nem, az ügyfélnek van kérdése."
+    },
+    "pt": {
+      "description": "Uma frase informando que o cliente tem uma pergunta.",
+      "name": "Não, o cliente tem uma pergunta."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17136,
       "sha1": "2d5f7c9209456721914488874aebc73053859e59"
+    },
+    "sound/en.mp3": {
+      "bytes": 14832,
+      "sha1": "021457c57293358c3ce0d82e7744bd6741790c8f"
+    },
+    "sound/de.mp3": {
+      "bytes": 19296,
+      "sha1": "f456e20f7eab96cc7c5f7a47fa2c31ae121ba2e3"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18144,
+      "sha1": "98ead7b40ce005c225e61cba89bba5ae8544c74a"
+    },
+    "sound/it.mp3": {
+      "bytes": 15264,
+      "sha1": "de28a9ce0fb9ef18ce398409cb9c460586bfdbf7"
+    },
+    "sound/es.mp3": {
+      "bytes": 18144,
+      "sha1": "d97db0ad7e4f85b401a4aeb4394f60ea06b8092b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17136,
+      "sha1": "d301f5022a7d63b03fec154122955a575238f73f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 19008,
+      "sha1": "9c7d3127f3001d2547ce49d770af939eae0baf9d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 20304,
+      "sha1": "2bb41cf17bdce77c8469826ed1fb99e11bab4837"
     }
   }
 }

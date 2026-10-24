@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "music"
+      "name": "music",
+      "description": "This item represents vocabulary word W495 in topic six of chapter six."
     },
     "ro": {
       "name": "muzică",
-      "ipa": "/ˈmuzikə/"
+      "ipa": "/ˈmuzikə/",
+      "description": "Acest element reprezintă cuvântul de vocabular W495 din tema șase a capitolului șase."
     },
     "de": {
-      "name": "Musik"
+      "name": "Musik",
+      "description": "Dieser Eintrag stellt die Vokabel W495 in Thema sechs von Kapitel sechs dar."
     },
     "ru": {
-      "name": "музыка"
+      "name": "музыка",
+      "description": "Этот элемент представляет словарное слово W495 в теме шесть главы шесть."
     },
     "it": {
-      "name": "musica"
+      "name": "musica",
+      "description": "Questo elemento rappresenta il vocabolo W495 nell'argomento sei del capitolo sei."
     },
     "es": {
-      "name": "música"
+      "name": "música",
+      "description": "Este elemento representa la palabra de vocabulario W495 en el tema seis del capítulo seis."
     },
     "fr": {
-      "name": "musique"
+      "name": "musique",
+      "description": "Cet élément représente le mot de vocabulaire W495 dans le thème six du chapitre six."
     },
     "hu": {
-      "name": "zene"
+      "name": "zene",
+      "description": "Ez az elem a hatodik fejezet hatodik témájának W495-ös szókincsszavát képviseli."
     },
     "pt": {
-      "name": "música"
+      "name": "música",
+      "description": "Este item representa a palavra de vocabulário W495 no tópico seis do capítulo seis."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "2b6dfa01dbce887657bacc37e3459741e7af0cf0"
+    },
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "03e226a66ec9fcc7f567b72c58f742c069d56fa0"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "a42d7d1b50f3241c5c2ac6c3e84890578cdb08ef"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "0e7c38f7108b75c581bf31d8d6b1111824d1565e"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "0e654bc670cbff8d06659879e4c159287b585e36"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "3936ce6e9968a5067a8289e4d05f548bd3ec01d4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "fa1e07f44a3d3a7a4d77af45e0beb31ac4bff53d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "039f19895697d56cc8299ec6b20694a62ea73e8b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 9360,
+      "sha1": "6bb1064b6606074ccf257988406667ec54605a54"
     }
   }
 }

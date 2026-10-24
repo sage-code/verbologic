@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, văd soarele."
+      "name": "Da, văd soarele.",
+      "description": "Învață cum să spui că vezi soarele."
+    },
+    "en": {
+      "description": "Learn how to state that you see the sun.",
+      "name": "Yes, I see the sun."
+    },
+    "de": {
+      "description": "Lerne, wie du sagst, dass du die Sonne siehst.",
+      "name": "Ja, ich sehe die Sonne."
+    },
+    "ru": {
+      "description": "Узнайте, как сказать, что вы видите солнце.",
+      "name": "Да, я вижу солнце."
+    },
+    "it": {
+      "description": "Impara a dire che vedi il sole.",
+      "name": "Sì, vedo il sole."
+    },
+    "es": {
+      "description": "Aprende a decir que ves el sol.",
+      "name": "Sí, veo el sol."
+    },
+    "fr": {
+      "description": "Apprenez à dire que vous voyez le soleil.",
+      "name": "Oui, je vois le soleil."
+    },
+    "hu": {
+      "description": "Tanuld meg elmondani, hogy látod a napot.",
+      "name": "Igen, látom a napot."
+    },
+    "pt": {
+      "description": "Aprenda a dizer que vê o sol.",
+      "name": "Sim, vejo o sol."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14976,
       "sha1": "f669f1ab4ef5b1f6569ba2799d6932fec51ed8a5"
+    },
+    "sound/en.mp3": {
+      "bytes": 11952,
+      "sha1": "2704c6a890ee0f4d86a7a5de34bac3c2225b7efc"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "0a4963e9c4edad35ffb54d5e18c1e0aae9f86cfc"
+    },
+    "sound/de.mp3": {
+      "bytes": 15408,
+      "sha1": "7cf3635e7a446a609df7a0ccd4702363a14b0e6c"
+    },
+    "sound/es.mp3": {
+      "bytes": 12528,
+      "sha1": "ff2c0622e1b61455ccae7435d1a1e8cf63fde2fb"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14976,
+      "sha1": "1753d871303a70007e732324a55cdbd14fdbf879"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17136,
+      "sha1": "86e69c15a4869e2c6e3c4ae96f520b3033cba772"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14688,
+      "sha1": "15d8a01d6b83d6c26a8e1680b1105724da6b1d9e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16992,
+      "sha1": "149fa91fe3db7e43940f381ad50b4f4ba99aff21"
     }
   }
 }

@@ -12,13 +12,78 @@
   "locales": {
     "ro": {
       "name": "Noapte bună",
-      "context": "end of day, before sleep"
+      "context": "end of day, before sleep",
+      "description": "Un salut sau o formulă de rămas-bun folosită noaptea sau înainte de culcare."
+    },
+    "en": {
+      "description": "A greeting or farewell used at night or before going to bed.",
+      "name": "Good night"
+    },
+    "de": {
+      "description": "Ein Gruß oder Abschiedsgruß, der nachts oder vor dem Schlafengehen verwendet wird.",
+      "name": "Gute Nacht"
+    },
+    "ru": {
+      "description": "Приветствие или прощание, используемое ночью или перед сном.",
+      "name": "Спокойной ночи"
+    },
+    "it": {
+      "description": "Un saluto o congedo usato di notte o prima di andare a dormire.",
+      "name": "Buonanotte"
+    },
+    "es": {
+      "description": "Un saludo o despedida que se usa por la noche o antes de ir a dormir.",
+      "name": "Buenas noches"
+    },
+    "fr": {
+      "description": "Une salutation ou formule d'adieu utilisée la nuit ou avant d'aller dormir.",
+      "name": "Bonne nuit"
+    },
+    "hu": {
+      "description": "Köszönés vagy búcsúzás, amelyet éjszaka vagy lefekvés előtt használnak.",
+      "name": "Jó éjszakát"
+    },
+    "pt": {
+      "description": "Uma saudação ou despedida usada à noite ou antes de ir dormir.",
+      "name": "Boa noite"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "c593fcd224de02d9c6af1e66ac9694e20796e811"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "459f9e4f093963dddeebedba2e17416c879a8a0f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13392,
+      "sha1": "895940c7ac86bdb57dbc0dde78f41aba059c66a4"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "5c4e540d549bae700911c569436437c026527358"
+    },
+    "sound/it.mp3": {
+      "bytes": 11520,
+      "sha1": "f28070225a1b649dd7f95bcbb6622c837b4a8afb"
+    },
+    "sound/es.mp3": {
+      "bytes": 12384,
+      "sha1": "58705710fbdec946730c05985d88a4cca448c0d4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "8d7109ca697eaf3de4db4f08bdb7816f5df5d4df"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "dbbdfc54b2ab68a20aba057da4b2652c2b79f939"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "449c2225cce1d277c632c1bef7d543452fa35ea5"
     }
   }
 }

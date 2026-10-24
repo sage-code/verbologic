@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Open the app."
+      "name": "Open the app.",
+      "description": "An imperative phrase instructing someone to open the application."
     },
     "ro": {
-      "name": "Deschide aplicația."
+      "name": "Deschide aplicația.",
+      "description": "O frază imperativă care instruiește pe cineva să deschidă aplicația."
+    },
+    "de": {
+      "description": "Ein Aufforderungssatz, der jemanden anweist, die App zu öffnen.",
+      "name": "Öffne die App."
+    },
+    "ru": {
+      "description": "Повелительная фраза, предписывающая открыть приложение.",
+      "name": "Открой приложение."
+    },
+    "it": {
+      "description": "Una frase imperativa che invita qualcuno ad aprire l'applicazione.",
+      "name": "Apri l'app."
+    },
+    "es": {
+      "description": "Una frase imperativa que indica a alguien que abra la aplicación.",
+      "name": "Abre la aplicación."
+    },
+    "fr": {
+      "description": "Une phrase impérative demandant à quelqu'un d'ouvrir l'application.",
+      "name": "Ouvre l'application."
+    },
+    "hu": {
+      "description": "Felszólító mondat, amely arra utasít valakit, hogy nyissa meg az alkalmazást.",
+      "name": "Nyisd meg az alkalmazást!"
+    },
+    "pt": {
+      "description": "Uma frase imperativa que instrui alguém a abrir a aplicação.",
+      "name": "Abre a aplicação."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13536,
       "sha1": "ebac49ea4a7dc0072abf12c97774d257c982d614"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "37ba6d25cbb854163e4ab42c5cbc0c7098a509f2"
+    },
+    "sound/es.mp3": {
+      "bytes": 13392,
+      "sha1": "b09e6460f719a051cdb8e226e758a570ad43c74c"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "300b3346d189cac1033e24ffb539e376096bf461"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "90ebfb036341b1f41e796aaa904356edf26c863a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12384,
+      "sha1": "1ac8cd606529f598478ab3c704670473121adb85"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14544,
+      "sha1": "69a3abcb59af934ec6871c75f60a92e1a8ceb82b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13392,
+      "sha1": "bffb27778a31a024d736fbfa18178b466acde9f9"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15984,
+      "sha1": "aaa02ee8384bf162191d71c73379c517e44aa782"
     }
   }
 }

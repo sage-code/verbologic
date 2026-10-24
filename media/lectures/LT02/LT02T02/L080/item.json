@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "I go to the store."
+      "name": "I go to the store.",
+      "description": "A sentence expressing that the speaker is going to the store."
     },
     "ro": {
-      "name": "Eu merg la magazin."
+      "name": "Eu merg la magazin.",
+      "description": "O propoziție care exprimă faptul că vorbitorul merge la magazin."
+    },
+    "de": {
+      "description": "Ein Satz, der ausdrückt, dass die sprechende Person in den Laden geht.",
+      "name": "Ich gehe in den Laden."
+    },
+    "ru": {
+      "description": "Предложение, выражающее, что говорящий идёт в магазин.",
+      "name": "Я иду в магазин."
+    },
+    "it": {
+      "description": "Una frase che esprime che chi parla va al negozio.",
+      "name": "Vado al negozio."
+    },
+    "es": {
+      "description": "Una frase que expresa que el hablante va a la tienda.",
+      "name": "Voy a la tienda."
+    },
+    "fr": {
+      "description": "Une phrase exprimant que le locuteur va au magasin.",
+      "name": "Je vais au magasin."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kifejezi, hogy a beszélő a boltba megy.",
+      "name": "A boltba megyek."
+    },
+    "pt": {
+      "description": "Uma frase que expressa que o falante vai à loja.",
+      "name": "Eu vou à loja."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14112,
       "sha1": "6d7e2eec8a88ee5d18dd5d7348ce068f53be09ce"
+    },
+    "sound/de.mp3": {
+      "bytes": 13392,
+      "sha1": "0835c0c7c4e6981fbd56aeadf8b37e39664349d2"
+    },
+    "sound/it.mp3": {
+      "bytes": 12960,
+      "sha1": "84bc3a2245e3441172e5356390b195c7046fc0ff"
+    },
+    "sound/es.mp3": {
+      "bytes": 11952,
+      "sha1": "fba173700ec8ff4eb50cb3c895ee8caba5c290dd"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "e9882a89cd48324846af8babb7720c54991ca736"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "7ed1a63d101daeaba7a1c0d403dc7baaaf3b8756"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11664,
+      "sha1": "6b312d24e77ee755d2ccf39224aef35bad1d9a24"
+    },
+    "sound/pt.mp3": {
+      "bytes": 10944,
+      "sha1": "5d6783e513a9851744e9fbc5a4dc20c505340356"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14256,
+      "sha1": "b33eea1e80d97f9c38c75cd26582a27fef35c213"
     }
   }
 }

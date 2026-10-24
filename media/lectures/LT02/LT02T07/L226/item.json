@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Look for the corner."
+      "name": "Look for the corner.",
+      "description": "Learn how to tell someone to look for a corner."
     },
     "ro": {
-      "name": "Caută colțul."
+      "name": "Caută colțul.",
+      "description": "Învață cum să-i spui cuiva să caute colțul."
+    },
+    "de": {
+      "description": "Lerne, wie du jemanden aufforderst, nach der Ecke zu suchen.",
+      "name": "Suche nach der Ecke."
+    },
+    "ru": {
+      "description": "Узнайте, как сказать кому-то искать угол.",
+      "name": "Ищи угол."
+    },
+    "it": {
+      "description": "Impara a dire a qualcuno di cercare l'angolo.",
+      "name": "Cerca l'angolo."
+    },
+    "es": {
+      "description": "Aprende a decirle a alguien que busque la esquina.",
+      "name": "Busca la esquina."
+    },
+    "fr": {
+      "description": "Apprenez à dire à quelqu'un de chercher le coin.",
+      "name": "Cherche le coin."
+    },
+    "hu": {
+      "description": "Tanuld meg, hogyan kérj meg valakit arra, hogy keresse a sarkot.",
+      "name": "Keresd a sarkot."
+    },
+    "pt": {
+      "description": "Aprenda a dizer a alguém para procurar a esquina.",
+      "name": "Procure a esquina."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12096,
       "sha1": "3257c7e4a73fc400b21dca5b257a83a9565c7777"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "c15fc03be61172bb7f3c87924b375b64fc41dfb1"
+    },
+    "sound/de.mp3": {
+      "bytes": 12816,
+      "sha1": "431c19c14d1a393eed3c2fa0aa74742c23452249"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12096,
+      "sha1": "cf22e571456fe512a810a14cf313e739b97a53ad"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "02e6ab186723c082dcb087f3c5397b37d54a0c39"
+    },
+    "sound/es.mp3": {
+      "bytes": 12528,
+      "sha1": "3e14463732ac6ade262393feecca090935dfb42a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11520,
+      "sha1": "f96587af5cd5164042033be5ef940dd105e11c73"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13104,
+      "sha1": "016a9446928eefd4b3935599d52c7e04232700b1"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13392,
+      "sha1": "fcb7f4a59cdee38d408f7f3f02864464bb1441f9"
     }
   }
 }

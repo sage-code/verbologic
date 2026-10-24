@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "to read"
+      "name": "to read",
+      "description": "To eat the first meal of the day."
     },
     "ro": {
       "name": "a citi",
-      "ipa": "/a tʃiˈti/"
+      "ipa": "/a tʃiˈti/",
+      "description": "A mânca prima masă a zilei."
     },
     "de": {
-      "name": "lesen"
+      "name": "lesen",
+      "description": "Die erste Mahlzeit des Tages essen."
     },
     "ru": {
-      "name": "читать"
+      "name": "читать",
+      "description": "Принимать первую пищу за день."
     },
     "it": {
-      "name": "leggere"
+      "name": "leggere",
+      "description": "Mangiare il primo pasto della giornata."
     },
     "es": {
-      "name": "leer"
+      "name": "leer",
+      "description": "Comer la primera comida del día."
     },
     "fr": {
-      "name": "lire"
+      "name": "lire",
+      "description": "Prendre le premier repas de la journée."
     },
     "hu": {
-      "name": "olvasni"
+      "name": "olvasni",
+      "description": "Elfogyasztani a nap első étkezését."
     },
     "pt": {
-      "name": "ler"
+      "name": "ler",
+      "description": "Comer a primeira refeição do dia."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "6ba4a03404140c0fae5450522267b21b83ad5f87"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "325ecaf9f4aa1ef62899168971f8d863f342b0c0"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "ffe7ef4da30e89cc063b3d3f58a2ce73d32bc9d6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "36b6e14d92cc8bd674c3af3a5baf581fd248cb7b"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "8522d3966a0423b4095092df9afc043e4cd35fb1"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "b9930f82777be5051e2dee6b63a84253bd88f456"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "bed529615b36b7ae1070010ef0074d53e2cdc9e7"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "e45a6ff92d72582235c8c6df0b5faf5d4ec2432c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "6baa3f05516e3024afa1aa0c88393805a576e7d0"
     }
   }
 }

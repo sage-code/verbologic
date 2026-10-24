@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, sunt fericit azi."
+      "name": "Da, sunt fericit azi.",
+      "description": "O propoziție care arată că ești fericit astăzi."
+    },
+    "en": {
+      "description": "A sentence expressing that you are happy today.",
+      "name": "Yes, I am happy today."
+    },
+    "de": {
+      "description": "Ein Satz, der ausdrückt, dass man heute glücklich ist.",
+      "name": "Ja, ich bin heute glücklich."
+    },
+    "ru": {
+      "description": "Предложение, выражающее, что вы сегодня счастливы.",
+      "name": "Да, я счастлив сегодня."
+    },
+    "it": {
+      "description": "Una frase per esprimere che oggi sei felice.",
+      "name": "Sì, sono felice oggi."
+    },
+    "es": {
+      "description": "Una frase que expresa que estás feliz hoy.",
+      "name": "Sí, estoy feliz hoy."
+    },
+    "fr": {
+      "description": "Une phrase exprimant que vous êtes heureux aujourd'hui.",
+      "name": "Oui, je suis heureux aujourd'hui."
+    },
+    "hu": {
+      "description": "Mondat, amely kifejezi, hogy ma boldog vagy.",
+      "name": "Igen, ma boldog vagyok."
+    },
+    "pt": {
+      "description": "Uma frase que expressa que você está feliz hoje.",
+      "name": "Sim, estou feliz hoje."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16128,
       "sha1": "e6533a0e9f4a224e635c8cc2adf7e3bd427214a6"
+    },
+    "sound/de.mp3": {
+      "bytes": 15984,
+      "sha1": "72a2b53151560c6aba2222429a34887fa0f2a234"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "0a974d2c2a0d538e838a1c5619525a2094868e3c"
+    },
+    "sound/it.mp3": {
+      "bytes": 17424,
+      "sha1": "c88937c4a47c1ac8afb06baa5de71d0bb116b7a4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16128,
+      "sha1": "8ff853923f0049c8c6d1dc29e5a82721bc837b32"
+    },
+    "sound/es.mp3": {
+      "bytes": 15264,
+      "sha1": "c8e85621804faff4fcb6f5d5df388460a44b355c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14688,
+      "sha1": "cfe2c515374393da8b66f9f1b7bf6c20d47f38a1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14400,
+      "sha1": "a23e51791f97e46983308d5fe0407a0653e55a0c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18432,
+      "sha1": "13b4865d94abb3e2a26bc84bf9ca5ac9f51a43ca"
     }
   }
 }

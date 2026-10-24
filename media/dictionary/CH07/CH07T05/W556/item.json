@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "custom"
+      "name": "custom",
+      "description": "This word belongs to topic CH07T05."
     },
     "ro": {
       "name": "obicei",
-      "ipa": "/obiˈtʃej/"
+      "ipa": "/obiˈtʃej/",
+      "description": "Acest cuvânt aparține temei CH07T05."
     },
     "de": {
-      "name": "Brauch"
+      "name": "Brauch",
+      "description": "Dieses Wort gehört zum Thema CH07T05."
     },
     "ru": {
-      "name": "обычай"
+      "name": "обычай",
+      "description": "Это слово относится к теме CH07T05."
     },
     "it": {
-      "name": "usanza"
+      "name": "usanza",
+      "description": "Questa parola appartiene all'argomento CH07T05."
     },
     "es": {
-      "name": "costumbre"
+      "name": "costumbre",
+      "description": "Esta palabra pertenece al tema CH07T05."
     },
     "fr": {
-      "name": "coutume"
+      "name": "coutume",
+      "description": "Ce mot appartient au thème CH07T05."
     },
     "hu": {
-      "name": "szokás"
+      "name": "szokás",
+      "description": "Ez a szó a CH07T05 témakörhöz tartozik."
     },
     "pt": {
-      "name": "costume"
+      "name": "costume",
+      "description": "Esta palavra pertence ao tópico CH07T05."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "2faac48949bf6cb9a8aef0976e0cc27ee4f3da52"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "0275fa78d985d24a768f2da7f39e46639bd473a9"
+    },
+    "sound/de.mp3": {
+      "bytes": 8784,
+      "sha1": "d55c1cde3e8715181ffde4c2194ecb1967120f07"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "226fdad24d76ce6cddaa8d3c3b03d3a5bcde8277"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "e116390c508274715427eb6ac5a22ad86ceb7946"
+    },
+    "sound/es.mp3": {
+      "bytes": 10080,
+      "sha1": "51481782761ae50cdcc2bdb2e39a6c1d1b41b053"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "954faf4da862849e07f7fa56c41564058de34f6e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "205cb65b848b6dc0f6fefdf4dbb346ec3e9919bb"
+    },
+    "sound/pt.mp3": {
+      "bytes": 10224,
+      "sha1": "28feb51f9f71a80df8802deb381eb0a2893d866d"
     }
   }
 }

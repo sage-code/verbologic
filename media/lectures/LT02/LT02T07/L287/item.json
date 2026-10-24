@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Go to the station."
+      "name": "Go to the station.",
+      "description": "A command telling someone to go to the station."
     },
     "ro": {
-      "name": "Mergi la stație."
+      "name": "Mergi la stație.",
+      "description": "O comandă prin care i se cere cuiva să meargă la gară."
+    },
+    "de": {
+      "description": "Eine Aufforderung, zum Bahnhof zu gehen.",
+      "name": "Geh zum Bahnhof."
+    },
+    "ru": {
+      "description": "Команда, указывающая кому-то пойти на вокзал.",
+      "name": "Иди на вокзал."
+    },
+    "it": {
+      "description": "Un comando per dire a qualcuno di andare alla stazione.",
+      "name": "Vai alla stazione."
+    },
+    "es": {
+      "description": "Una orden para indicarle a alguien que vaya a la estación.",
+      "name": "Ve a la estación."
+    },
+    "fr": {
+      "description": "Un ordre disant à quelqu'un d'aller à la gare.",
+      "name": "Va à la gare."
+    },
+    "hu": {
+      "description": "Utasítás arra, hogy valaki menjen az állomásra.",
+      "name": "Menj az állomásra!"
+    },
+    "pt": {
+      "description": "Um comando para dizer a alguém para ir à estação.",
+      "name": "Vá para a estação."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "b74be5c7800a132f2af102dc0b8b5ba5dbe2f949"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "220f6742c4d38c4ea41806b3c6a1153fc2995ca6"
+    },
+    "sound/de.mp3": {
+      "bytes": 12672,
+      "sha1": "489f4ad11d5c9586e55b5e16de5591777871fe02"
+    },
+    "sound/it.mp3": {
+      "bytes": 9072,
+      "sha1": "e3f09872cad0983cb624976228fc6fd4396b6434"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12384,
+      "sha1": "4b650b5c0e1b3534f8c387ccc0f592259334557f"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11808,
+      "sha1": "e890a2a0df72acbb5f7a42a7821e68a87c99a3c6"
+    },
+    "sound/es.mp3": {
+      "bytes": 12240,
+      "sha1": "7edb7b6644ba9e5c644c12985ee3c688801c015d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14256,
+      "sha1": "447fa7eea9dbd43386a0d40627751c4a2bffa52e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13824,
+      "sha1": "89049be8367a905a394598441f51b018f801807b"
     }
   }
 }

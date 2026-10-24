@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, am durere."
+      "name": "Da, am durere.",
+      "description": "Învață cum să exprimi faptul că ai dureri."
+    },
+    "en": {
+      "description": "Learn how to express that you are experiencing pain.",
+      "name": "Yes, I have pain."
+    },
+    "de": {
+      "description": "Lerne, wie du ausdrückst, dass du Schmerzen hast.",
+      "name": "Ja, ich habe Schmerzen."
+    },
+    "ru": {
+      "description": "Узнайте, как сказать о наличии боли.",
+      "name": "Да, у меня есть боль."
+    },
+    "it": {
+      "description": "Impara a esprimere che provi dolore.",
+      "name": "Sì, provo dolore."
+    },
+    "es": {
+      "description": "Aprende a expresar que sientes dolor.",
+      "name": "Sí, tengo dolor."
+    },
+    "fr": {
+      "description": "Apprenez à exprimer que vous ressentez de la douleur.",
+      "name": "Oui, j'ai de la douleur."
+    },
+    "hu": {
+      "description": "Tanuld meg kifejezni, hogy fájdalmat érzel.",
+      "name": "Igen, fájdalmam van."
+    },
+    "pt": {
+      "description": "Aprenda a expressar que está com dores.",
+      "name": "Sim, sinto dor."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13392,
       "sha1": "3d2de7ba3b875b51644e1127f6c09bc4005246af"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "bf926b947dd73b1c3fd4b3c13e18a3410c85fa3f"
+    },
+    "sound/de.mp3": {
+      "bytes": 15408,
+      "sha1": "29c0be42fa567be331b768a738af50b6e7994919"
+    },
+    "sound/it.mp3": {
+      "bytes": 10944,
+      "sha1": "8ce8820c27130036cb67d05d8cca5611ea861a1f"
+    },
+    "sound/es.mp3": {
+      "bytes": 12672,
+      "sha1": "de063b3583be21be540e6b2689586a047cc48bd6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16128,
+      "sha1": "9fa9a6188a5cefd75e54f893137016f1dd2d3a9e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15264,
+      "sha1": "4edd16c2df47669889da9d33d1e5ac603a056baa"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17136,
+      "sha1": "7975c5a65c6c4171e7852b569006d81a6d8f6f82"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14400,
+      "sha1": "68c33913c6520ee6ff62172190207ca35b7fa7ec"
     }
   }
 }

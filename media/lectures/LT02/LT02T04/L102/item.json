@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, beau apă acum."
+      "name": "Da, beau apă acum.",
+      "description": "O propoziție care arată că bei apă acum."
+    },
+    "en": {
+      "description": "A sentence stating that you are drinking water now.",
+      "name": "Yes, I am drinking water now."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass man jetzt Wasser trinkt.",
+      "name": "Ja, ich trinke jetzt Wasser."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее, что вы сейчас пьёте воду.",
+      "name": "Да, я сейчас пью воду."
+    },
+    "it": {
+      "description": "Una frase per dire che stai bevendo acqua adesso.",
+      "name": "Sì, adesso bevo acqua."
+    },
+    "es": {
+      "description": "Una frase que indica que estás bebiendo agua ahora.",
+      "name": "Sí, estoy bebiendo agua ahora."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que vous buvez de l'eau maintenant.",
+      "name": "Oui, je bois de l'eau maintenant."
+    },
+    "hu": {
+      "description": "Mondat, amely azt fejezi ki, hogy most vizet iszol.",
+      "name": "Igen, most vizet iszom."
+    },
+    "pt": {
+      "description": "Uma frase que indica que você está bebendo água agora.",
+      "name": "Sim, estou bebendo água agora."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14832,
       "sha1": "24ccc04d498fb92c0d11dae9fdd1985438296088"
+    },
+    "sound/en.mp3": {
+      "bytes": 13104,
+      "sha1": "fe395c97a5de06a5cbfc905766fa465a85e6398b"
+    },
+    "sound/de.mp3": {
+      "bytes": 16992,
+      "sha1": "3509f4a452798fe8bf854c769d4f60bf8971e796"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15840,
+      "sha1": "7aed3f2781adba16935db61ca5b1bbc88fe189c7"
+    },
+    "sound/it.mp3": {
+      "bytes": 17568,
+      "sha1": "acf5bef2cb2521edade941c91709749b224a74fa"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14256,
+      "sha1": "161e862362c80eddb6479ad8f6d112df992cfe74"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16848,
+      "sha1": "7d799964185169aad790ada104a3735e6cfef29b"
+    },
+    "sound/es.mp3": {
+      "bytes": 18144,
+      "sha1": "a4639e8be8bfa10408d718bf549e3c652676a2a9"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18288,
+      "sha1": "00b8b8dbf754fd97bddfb2a6a4f0416be9d10a2d"
     }
   }
 }

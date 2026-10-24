@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "beach"
+      "name": "beach",
+      "description": "A card or electronic document that gives a passenger permission to board an aircraft or ship."
     },
     "ro": {
       "name": "plajă",
-      "ipa": "/ˈplaʒə/"
+      "ipa": "/ˈplaʒə/",
+      "description": "Un document tipărit sau digital care permite unui pasager să urce la bordul unui avion sau al unei nave."
     },
     "de": {
-      "name": "Strand"
+      "name": "Strand",
+      "description": "Ein Dokument oder digitaler Nachweis, der einem Passagier das Einsteigen in ein Flugzeug oder Schiff erlaubt."
     },
     "ru": {
-      "name": "пляж"
+      "name": "пляж",
+      "description": "Документ или электронный билет, дающий пассажиру право на посадку в самолет или на корабль."
     },
     "it": {
-      "name": "spiaggia"
+      "name": "spiaggia",
+      "description": "Un documento stampato o digitale che consente a un passeggero di salire a bordo di un aereo o di una nave."
     },
     "es": {
-      "name": "playa"
+      "name": "playa",
+      "description": "Un documento impreso o digital que autoriza a un pasajero a subir a un avión o barco."
     },
     "fr": {
-      "name": "plage"
+      "name": "plage",
+      "description": "Un document imprimé ou numérique qui autorise un passager à monter à bord d'un avion ou d'un navire."
     },
     "hu": {
-      "name": "strand"
+      "name": "strand",
+      "description": "Olyan dokumentum vagy elektronikus igazolás, amely engedélyezi az utas beszállását a repülőgépre vagy hajóra."
     },
     "pt": {
-      "name": "praia"
+      "name": "praia",
+      "description": "Um documento impresso ou digital que autoriza o passageiro a embarcar em um avião ou navio."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "dfc8a9295c757ec83668c86d4cc8ed8b3360bdc0"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "899fd4b919c78896cfaec457752afb3def0c06ad"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "568612d30e4dd1b174f4c2b16a1ee03d80c808f9"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "83797d9fd1d2c04cb9466980d1a370f134b01359"
+    },
+    "sound/it.mp3": {
+      "bytes": 6480,
+      "sha1": "66132dde35f8358f7ccdcb8356ef480a1d7d4e0f"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "1590930620855cf54355cd7e7778e2f985972d34"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "2651060e7bb2cf080e78301e38feb3dff07d2f5f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "483475dc46f1ba24fc3560a7f1b013343af4b57f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "e8467ce9e2a83b4b5306c033fbce94b25f7feb61"
     }
   }
 }

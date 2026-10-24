@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, ședința este azi."
+      "name": "Da, ședința este azi.",
+      "description": "O afirmație care confirmă că o ședință are loc astăzi."
+    },
+    "en": {
+      "description": "A statement confirming that a meeting is taking place today.",
+      "name": "Yes, the meeting is today."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass heute eine Besprechung stattfindet.",
+      "name": "Ja, die Besprechung ist heute."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее, что встреча проходит сегодня.",
+      "name": "Да, собрание сегодня."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che una riunione si terrà oggi.",
+      "name": "Sì, la riunione è oggi."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que hoy se celebra una reunión.",
+      "name": "Sí, la reunión es hoy."
+    },
+    "fr": {
+      "description": "Une affirmation confirmant qu'une réunion a lieu aujourd'hui.",
+      "name": "Oui, la réunion a lieu aujourd'hui."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely megerősíti, hogy ma van a megbeszélés.",
+      "name": "Igen, a megbeszélés ma van."
+    },
+    "pt": {
+      "description": "Uma declaração confirmando que uma reunião acontecerá hoje.",
+      "name": "Sim, a reunião é hoje."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17136,
       "sha1": "58a303ca6eb41933752dd4df3508f84e03d8c805"
+    },
+    "sound/en.mp3": {
+      "bytes": 13968,
+      "sha1": "30b82cce9552931848c8489c62ecdb8abf1b6a5c"
+    },
+    "sound/de.mp3": {
+      "bytes": 18144,
+      "sha1": "3f4261c0fda0802027d7469746afdb4c37424fa2"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16992,
+      "sha1": "406dd3844cfb6de57f9949734a8fdcfbbf0571c8"
+    },
+    "sound/it.mp3": {
+      "bytes": 12384,
+      "sha1": "b21382adfb5583e41447227356c09c591c9fbaad"
+    },
+    "sound/es.mp3": {
+      "bytes": 15408,
+      "sha1": "5c182565f5cfb711cd03dea062a82685314e34d9"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17712,
+      "sha1": "9405d630c9a9cace25a1d4ff1d352fe38c455132"
+    },
+    "sound/hu.mp3": {
+      "bytes": 19152,
+      "sha1": "1b021a8599bb31f48f357fd5256a4a59f334e901"
+    },
+    "sound/fr.mp3": {
+      "bytes": 19008,
+      "sha1": "411982711e51c0f63e067124bbde7b4847806a2a"
     }
   }
 }

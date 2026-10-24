@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, patul este lângă ușă."
+      "name": "Nu, patul este lângă ușă.",
+      "description": "O propoziție care indică faptul că patul este lângă ușă."
+    },
+    "en": {
+      "description": "A statement stating that the bed is next to the door.",
+      "name": "No, the bed is next to the door."
+    },
+    "de": {
+      "description": "Eine Aussage darüber, dass das Bett neben der Tür steht.",
+      "name": "Nein, das Bett steht neben der Tür."
+    },
+    "ru": {
+      "description": "Высказывание о том, что кровать находится рядом с дверью.",
+      "name": "Нет, кровать стоит рядом с дверью."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che il letto è vicino alla porta.",
+      "name": "No, il letto è vicino alla porta."
+    },
+    "es": {
+      "description": "Una afirmación que indica que la cama está junto a la puerta.",
+      "name": "No, la cama está al lado de la puerta."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le lit se trouve à côté de la porte.",
+      "name": "Non, le lit est à côté de la porte."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kifejezi, hogy az ágy az ajtó mellett található.",
+      "name": "Nem, az ágy az ajtó mellett van."
+    },
+    "pt": {
+      "description": "Uma afirmação indicando que a cama está ao lado da porta.",
+      "name": "Não, a cama fica ao lado da porta."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17568,
       "sha1": "0b4aca1d070d86fe62c61c7c36e7112b4781ebde"
+    },
+    "sound/en.mp3": {
+      "bytes": 14256,
+      "sha1": "0fd35e6a71aa53fa050930677965e81684b8f6ea"
+    },
+    "sound/de.mp3": {
+      "bytes": 18720,
+      "sha1": "52611e6435e2349938e44511c76a966ebbbdedfc"
+    },
+    "sound/it.mp3": {
+      "bytes": 19152,
+      "sha1": "c9c2e7645336845000f7b13d58c832da758768ec"
+    },
+    "sound/fr.mp3": {
+      "bytes": 18288,
+      "sha1": "344050ee633d7d466eb3d167805a5f6a357f8775"
+    },
+    "sound/es.mp3": {
+      "bytes": 19584,
+      "sha1": "590028d2d8e4bc60fdb58b195fffe6a85539fd0d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16992,
+      "sha1": "cdc04ee0a1f12dcb54237e183ad6d6f7f61b8b8d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17424,
+      "sha1": "27d7145fa3e485ece12cc39db375f93ff82b8366"
+    },
+    "sound/ru.mp3": {
+      "bytes": 20736,
+      "sha1": "e4cb0c280149c79d5aa0e54301df7af99642a44c"
     }
   }
 }

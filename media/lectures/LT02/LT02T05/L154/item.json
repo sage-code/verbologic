@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, ambulanța vine."
+      "name": "Da, ambulanța vine.",
+      "description": "O declarație care confirmă că ambulanța este pe drum."
+    },
+    "en": {
+      "description": "A statement confirming that an ambulance is on its way.",
+      "name": "Yes, the ambulance is coming."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass ein Krankenwagen unterwegs ist.",
+      "name": "Ja, der Krankenwagen kommt."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее, что скорая помощь уже в пути.",
+      "name": "Да, скорая помощь едет."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che un'ambulanza sta arrivando.",
+      "name": "Sì, l'ambulanza sta arrivando."
+    },
+    "es": {
+      "description": "Una frase que confirma que una ambulancia está en camino.",
+      "name": "Sí, la ambulancia viene."
+    },
+    "fr": {
+      "description": "Une phrase confirmant qu'une ambulance est en route.",
+      "name": "Oui, l'ambulance arrive."
+    },
+    "hu": {
+      "description": "Megerősítés arról, hogy a mentőautó úton van.",
+      "name": "Igen, jön a mentő."
+    },
+    "pt": {
+      "description": "Uma frase confirmando que uma ambulância está a caminho.",
+      "name": "Sim, a ambulância está vindo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15552,
       "sha1": "b2425a9ff5102241aaf10be8ee5f52668b380840"
+    },
+    "sound/en.mp3": {
+      "bytes": 16272,
+      "sha1": "a7ab2c0d888a6439cc28f038bf58659a52673f5d"
+    },
+    "sound/de.mp3": {
+      "bytes": 17424,
+      "sha1": "ed89d118b9ac64568a5e5ed5b7a9967b4cbb45f8"
+    },
+    "sound/it.mp3": {
+      "bytes": 15120,
+      "sha1": "59df525608fd43792f8d0f9c454d4d218f0e0e09"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17856,
+      "sha1": "d16c5daac116efd2602fa3c82c6010d4a63a0915"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15840,
+      "sha1": "36fcc7c096e2bf37e968f75c449acd53cb522030"
+    },
+    "sound/es.mp3": {
+      "bytes": 15696,
+      "sha1": "106567797b204fb4b6a3d160fe1fb2c9c4c97465"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16272,
+      "sha1": "7432b393b09784219d3f410c2c357d8891e9b415"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18864,
+      "sha1": "cb492cad38081c6139a7b31698235c45dd2e6e46"
     }
   }
 }

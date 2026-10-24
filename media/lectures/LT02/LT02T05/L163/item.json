@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, am hartă."
+      "name": "Da, am hartă.",
+      "description": "Învață cum să spui că ai o hartă."
+    },
+    "en": {
+      "description": "Learn how to say that you have a map.",
+      "name": "Yes, I have a map."
+    },
+    "de": {
+      "description": "Lerne, wie du sagst, dass du eine Karte hast.",
+      "name": "Ja, ich habe eine Karte."
+    },
+    "ru": {
+      "description": "Узнайте, как сказать, что у вас есть карта.",
+      "name": "Да, у меня есть карта."
+    },
+    "it": {
+      "description": "Impara a dire che hai una mappa.",
+      "name": "Sì, ho una mappa."
+    },
+    "es": {
+      "description": "Aprende a decir que tienes un mapa.",
+      "name": "Sí, tengo un mapa."
+    },
+    "fr": {
+      "description": "Apprenez à dire que vous avez une carte.",
+      "name": "Oui, j'ai une carte."
+    },
+    "hu": {
+      "description": "Tanuld meg elmondani, hogy van térképed.",
+      "name": "Igen, van térképem."
+    },
+    "pt": {
+      "description": "Aprenda a dizer que tem um mapa.",
+      "name": "Sim, eu tenho um mapa."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13680,
       "sha1": "42b78ee4b4bdd6cfc2dc3f84d5bf504a20932002"
+    },
+    "sound/de.mp3": {
+      "bytes": 15984,
+      "sha1": "82c2292f67c6239976a904ff83a9865b384e14ec"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "6c15b4a1c6a91ff03d86b1975b31840a0207449d"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "22b968bd6cf738ffbaf185cf859de8114d944acd"
+    },
+    "sound/es.mp3": {
+      "bytes": 13536,
+      "sha1": "0d886376efb7e9e327afebbe73e67c0901c8128f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17568,
+      "sha1": "b09158957e4ff7f7633667e245f340ba00c5c8c1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14544,
+      "sha1": "9a9fa49c608d929fa7f9fd0132e1d064ecd844d1"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15984,
+      "sha1": "43aa6b418c886deb73f52ed321bb2826df638041"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16704,
+      "sha1": "e87d814303d16685091611cb6e5ff362be06ce71"
     }
   }
 }

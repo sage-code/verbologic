@@ -12,13 +12,78 @@
   "locales": {
     "ro": {
       "name": "Bună dimineața",
-      "context": "morning, formal or neutral"
+      "context": "morning, formal or neutral",
+      "description": "Un salut folosit la întâlnirea cu cineva dimineața."
+    },
+    "en": {
+      "description": "A greeting used when meeting someone in the morning.",
+      "name": "Good morning"
+    },
+    "de": {
+      "description": "Eine Begrüßung, die morgens beim Zusammentreffen verwendet wird.",
+      "name": "Guten Morgen"
+    },
+    "ru": {
+      "description": "Приветствие, используемое при утренней встрече.",
+      "name": "Доброе утро"
+    },
+    "it": {
+      "description": "Un saluto usato quando si incontra qualcuno di mattina.",
+      "name": "Buongiorno"
+    },
+    "es": {
+      "description": "Un saludo utilizado al encontrarse con alguien por la mañana.",
+      "name": "Buenos días"
+    },
+    "fr": {
+      "description": "Une salutation utilisée lorsque l'on rencontre quelqu'un le matin.",
+      "name": "Bonjour"
+    },
+    "hu": {
+      "description": "Köszönés, amelyet reggeli találkozáskor használnak.",
+      "name": "Jó reggelt"
+    },
+    "pt": {
+      "description": "Uma saudação usada ao encontrar alguém pela manhã.",
+      "name": "Bom dia"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12672,
       "sha1": "40b26eb19c54aea28829376444126bd4067febdc"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "f1398d81cf349c6285df7b6524efcd4da8a2e1a6"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "2adf072974d129403380a1c4950cc24d8bc9f68c"
+    },
+    "sound/it.mp3": {
+      "bytes": 11664,
+      "sha1": "33450a86a024363206414af1ecd20143021b8c2e"
+    },
+    "sound/es.mp3": {
+      "bytes": 11664,
+      "sha1": "cb9a73955aeeb5f95ea2649927d89191925d6bcc"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13536,
+      "sha1": "6dbf14f60358bed04fbee0c7e69e4c807de20da0"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "b8749740c5b89d7f4d2f58351adb4e8f3b541297"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "ea414d8750de9564fd0a07115e6b96c4769a23c0"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "36d0dcaaa7825442bfee672394b238770002d178"
     }
   }
 }

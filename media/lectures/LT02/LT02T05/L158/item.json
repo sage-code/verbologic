@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Ai proiect nou?"
+      "name": "Ai proiect nou?",
+      "description": "O întrebare prin care se află dacă cineva are un proiect nou."
+    },
+    "en": {
+      "description": "A question asking someone if they have a new project.",
+      "name": "Do you have a new project?"
+    },
+    "de": {
+      "description": "Eine Frage, mit der man jemanden fragt, ob er ein neues Projekt hat.",
+      "name": "Hast du ein neues Projekt?"
+    },
+    "ru": {
+      "description": "Вопрос о том, есть ли у кого-то новый проект.",
+      "name": "У тебя есть новый проект?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere a qualcuno se ha un nuovo progetto.",
+      "name": "Hai un nuovo progetto?"
+    },
+    "es": {
+      "description": "Una pregunta para saber si alguien tiene un nuevo proyecto.",
+      "name": "¿Tienes un nuevo proyecto?"
+    },
+    "fr": {
+      "description": "Une question demandant à quelqu'un s'il a un nouveau projet.",
+      "name": "As-tu un nouveau projet ?"
+    },
+    "hu": {
+      "description": "Kérdés arról, hogy van-e valakinek új projektje.",
+      "name": "Van új projekted?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se alguém tem um novo projeto.",
+      "name": "Você tem um novo projeto?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11808,
       "sha1": "61e6a2df96e9a085e7317148f7099615f0070078"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "f206591aeb0d15feb8f4acf55e741fa0c8a4220a"
+    },
+    "sound/de.mp3": {
+      "bytes": 14544,
+      "sha1": "187fa9c4a1bfcc2dcfa67fe88360930d92d9feb2"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16416,
+      "sha1": "5e1d4c0a06a90d448fb9123eb3ec1305ece060a0"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "5a5b07fe4e10f15c17407fc1887030da3ed820c8"
+    },
+    "sound/es.mp3": {
+      "bytes": 14688,
+      "sha1": "019849b5e8685a009f11e99596c2ffabf9f596bd"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13248,
+      "sha1": "cc30f738f24b61f09971b77d5a5218228c1c0ff7"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14400,
+      "sha1": "44441d10f888f7dd1c408d03a6766b9580757b83"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16272,
+      "sha1": "058b91c8fb8b9d5eb710367ac9b541d25c9397aa"
     }
   }
 }

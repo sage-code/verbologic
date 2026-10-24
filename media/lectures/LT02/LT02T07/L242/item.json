@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Buy the ticket."
+      "name": "Buy the ticket.",
+      "description": "Learn how to give an instruction to buy a travel ticket."
     },
     "ro": {
-      "name": "Cumpără biletul."
+      "name": "Cumpără biletul.",
+      "description": "Învață cum să dai o instrucțiune de a cumpăra un bilet de călătorie."
+    },
+    "de": {
+      "description": "Lerne, wie man die Anweisung gibt, eine Fahrkarte zu kaufen.",
+      "name": "Kaufe die Fahrkarte."
+    },
+    "ru": {
+      "description": "Узнайте, как дать указание купить проездной билет.",
+      "name": "Купи билет."
+    },
+    "it": {
+      "description": "Impara a dare un'istruzione per comprare un biglietto.",
+      "name": "Compra il biglietto."
+    },
+    "es": {
+      "description": "Aprende a dar una indicación para comprar un billete.",
+      "name": "Compra el billete."
+    },
+    "fr": {
+      "description": "Apprenez à donner l'instruction d'acheter un titre de transport.",
+      "name": "Achète le billet."
+    },
+    "hu": {
+      "description": "Tanuld meg, hogyan adj utasítást jegyvásárlásra.",
+      "name": "Vedd meg a jegyet."
+    },
+    "pt": {
+      "description": "Aprenda a dar uma instrução para comprar uma passagem.",
+      "name": "Compre a passagem."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12384,
       "sha1": "065b825af7dcade0c6da3d9275b642cba75085ba"
+    },
+    "sound/en.mp3": {
+      "bytes": 7488,
+      "sha1": "86e2769093978f88bd11cb94236cc127a5ade271"
+    },
+    "sound/de.mp3": {
+      "bytes": 13824,
+      "sha1": "efa5d706f9c4c9474e95bd5d04dd970d52dc946c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12096,
+      "sha1": "80a2a2a75ec13b903264438f152c04417a79c488"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11952,
+      "sha1": "f071c680654ad0b8af72d94effc79677f1c12f33"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "3351481ef9ba2208125bf44d0e64c2116dfa036c"
+    },
+    "sound/es.mp3": {
+      "bytes": 11808,
+      "sha1": "23be4c137762e377dd0d2dfee92e0c8dac839675"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12672,
+      "sha1": "9425394d26cff56f07245941f654dc68e391cb7b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13536,
+      "sha1": "8e65d0603588aaef29117da5bc7c73696b3315f0"
     }
   }
 }

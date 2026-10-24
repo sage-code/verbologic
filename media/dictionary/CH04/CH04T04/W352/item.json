@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "road"
+      "name": "road",
+      "description": "This term relates to public transport and directions."
     },
     "ro": {
       "name": "drum",
-      "ipa": "/drum/"
+      "ipa": "/drum/",
+      "description": "Acest termen se referă la transportul public și la direcții."
     },
     "de": {
-      "name": "Weg"
+      "name": "Weg",
+      "description": "Dieser Begriff bezieht sich auf öffentliche Verkehrsmittel und Wegbeschreibungen."
     },
     "ru": {
-      "name": "дорога"
+      "name": "дорога",
+      "description": "Этот термин относится к общественному транспорту и указанию направления."
     },
     "it": {
-      "name": "strada"
+      "name": "strada",
+      "description": "Questo termine si riferisce al trasporto pubblico e alle indicazioni."
     },
     "es": {
-      "name": "camino"
+      "name": "camino",
+      "description": "Este término se refiere al transporte público y a las direcciones."
     },
     "fr": {
-      "name": "route"
+      "name": "route",
+      "description": "Ce terme fait référence aux transports en commun et aux directions."
     },
     "hu": {
-      "name": "út"
+      "name": "út",
+      "description": "Ez a kifejezés a tömegközlekedéshez és az útbaigazításhoz kapcsolódik."
     },
     "pt": {
-      "name": "caminho"
+      "name": "caminho",
+      "description": "Este termo refere-se ao transporte público e a direções."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "5543734d594d4bc4702b6fa4610b4fc84ffed38b"
+    },
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "632b75bfbaa01c12cc62f03cddc986bc112bb404"
+    },
+    "sound/de.mp3": {
+      "bytes": 8496,
+      "sha1": "f203a0f9f1f776bff69fab02856aebc12e859888"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "45c67d7262eb8b52e4759169349deda80738cd2c"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "7db4d95652d78226387b1007de5abac96ecd9e28"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "484fffede988a310baa0e81b817a21538c70bf13"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "ef97a0194662620a21474d472f5dfda25b8b6401"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "fb803e3f03d942ef77d6299e76f574c6eab8526f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "599e4f9d41ebcc0f7703f39de9b693672805de82"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "card"
+      "name": "card",
+      "description": "A coin is a small, round piece of metal used as money."
     },
     "ro": {
       "name": "card",
-      "ipa": "/kard/"
+      "ipa": "/kard/",
+      "description": "O monedă este o piesă mică și rotundă din metal folosită ca bani."
     },
     "de": {
-      "name": "Karte"
+      "name": "Karte",
+      "description": "Eine Münze ist ein kleines, rundes Metallstück, das als Geld verwendet wird."
     },
     "ru": {
-      "name": "карта"
+      "name": "карта",
+      "description": "Монета — это небольшой круглый металлический предмет, используемый в качестве денег."
     },
     "it": {
-      "name": "carta"
+      "name": "carta",
+      "description": "Una moneta è un piccolo pezzo rotondo di metallo usato come denaro."
     },
     "es": {
-      "name": "tarjeta"
+      "name": "tarjeta",
+      "description": "Una moneda es una pieza de metal pequeña y redonda que se usa como dinero."
     },
     "fr": {
-      "name": "carte"
+      "name": "carte",
+      "description": "Une pièce de monnaie est un petit morceau de métal rond utilisé comme moyen de paiement."
     },
     "hu": {
-      "name": "kártya"
+      "name": "kártya",
+      "description": "Az érme egy kis, kerek fémdarab, amelyet pénzként használnak."
     },
     "pt": {
-      "name": "cartão"
+      "name": "cartão",
+      "description": "Uma moeda é uma peça de metal pequena e redonda usada como dinheiro."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "1645d882c2023a62d9cef56e4691faadd41fa5fb"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "9df39ba30f870f2840933f2f0dcedceeddaa9d2c"
+    },
+    "sound/de.mp3": {
+      "bytes": 8784,
+      "sha1": "9da991e5a99776d7d706c6421e7a2c40a5d5e3bd"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "77b1b15a505bb602bc66a5e87167cef111a5a877"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "401224ef127ac9e5c4255fcd788970b85c99efb8"
+    },
+    "sound/es.mp3": {
+      "bytes": 9792,
+      "sha1": "c6b6d67e51901de5d653e0c0b4ac93ecbbde447b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 8928,
+      "sha1": "ae7b3b9aaa7423a3c4dae5a2ef619d0cec151e0e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "a12ea4f6d75d069ab209638882afe5108ce1db7a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "cad264175143264b3e3e2576dfb4d8ec6e63aa31"
     }
   }
 }

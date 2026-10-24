@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Toys & games"
+      "name": "Toys & games",
+      "description": "This topic covers words related to toys and games."
     },
     "ro": {
       "name": "Jucării și jocuri",
-      "ipa": "/ʒuˈkəri ʃi ˈʒokuri/"
+      "ipa": "/ʒuˈkəri ʃi ˈʒokuri/",
+      "description": "Această temă cuprinde cuvinte legate de jucării și jocuri."
+    },
+    "de": {
+      "description": "Dieses Thema umfasst Wörter rund um Spielzeug und Spiele.",
+      "name": "Spielzeug & Spiele"
+    },
+    "ru": {
+      "description": "Эта тема охватывает слова, связанные с игрушками и играми.",
+      "name": "Игрушки и игры"
+    },
+    "it": {
+      "description": "Questo argomento comprende parole relative a giocattoli e giochi.",
+      "name": "Giocattoli e giochi"
+    },
+    "es": {
+      "description": "Este tema abarca palabras relacionadas con juguetes y juegos.",
+      "name": "Juguetes y juegos"
+    },
+    "fr": {
+      "description": "Ce thème couvre les mots liés aux jouets et aux jeux.",
+      "name": "Jouets et jeux"
+    },
+    "hu": {
+      "description": "Ez a témakör a játékokkal és társasjátékokkal kapcsolatos szavakat tartalmazza.",
+      "name": "Játékok és társasjátékok"
+    },
+    "pt": {
+      "description": "Este tópico abrange palavras relacionadas a brinquedos e jogos.",
+      "name": "Brinquedos e jogos"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13680,
       "sha1": "9b58dcdbc6f801bccf250edffbb98285f4e9e5cc"
+    },
+    "sound/en.mp3": {
+      "bytes": 9936,
+      "sha1": "37779bb3d821950115fcd5aac4d2047efa9f5137"
+    },
+    "sound/de.mp3": {
+      "bytes": 14112,
+      "sha1": "d48af45f307c317d5f4dfcc9ba7dc284b8e8561b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14976,
+      "sha1": "081b667b4f58bb0102258c3b5e8f7dfbc7765f7c"
+    },
+    "sound/it.mp3": {
+      "bytes": 9648,
+      "sha1": "0120a30ae63865a636633eb2447d12b9ba32c7d9"
+    },
+    "sound/es.mp3": {
+      "bytes": 13248,
+      "sha1": "871331a38b36af81bf2ff242997d690a40000194"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "feded57f2c0fd175e18f97c56e5e3ec3be5d8d48"
+    },
+    "sound/hu.mp3": {
+      "bytes": 19008,
+      "sha1": "b27bae41fb33e2c1436ed6de9ade1e30f5914962"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16416,
+      "sha1": "6850b97639ce19469899a25aae517f5140f621fc"
     }
   }
 }

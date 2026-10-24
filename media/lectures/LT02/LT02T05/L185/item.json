@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, doctorul este aici."
+      "name": "Da, doctorul este aici.",
+      "description": "O afirmație care confirmă că medicul este aici."
+    },
+    "en": {
+      "description": "A statement confirming that the doctor is present.",
+      "name": "Yes, the doctor is here."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass der Arzt anwesend ist.",
+      "name": "Ja, der Arzt ist hier."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее, что врач находится здесь.",
+      "name": "Да, врач здесь."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che il medico è presente.",
+      "name": "Sì, il dottore è qui."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que el médico está presente.",
+      "name": "Sí, el médico está aquí."
+    },
+    "fr": {
+      "description": "Une affirmation confirmant que le médecin est présent.",
+      "name": "Oui, le médecin est là."
+    },
+    "hu": {
+      "description": "Kijelentés, amely megerősíti, hogy az orvos itt van.",
+      "name": "Igen, az orvos itt van."
+    },
+    "pt": {
+      "description": "Uma afirmação confirmando que o médico está presente.",
+      "name": "Sim, o médico está aqui."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17280,
       "sha1": "55d5cb3b95cb7d13708277ec8b37ad230ff54159"
+    },
+    "sound/en.mp3": {
+      "bytes": 13248,
+      "sha1": "ede8359b3d48d84ffb01558b5af38fa2b9f21648"
+    },
+    "sound/de.mp3": {
+      "bytes": 16416,
+      "sha1": "27f7c3aa19b5fd032fd65c25d4cf8de1e861a674"
+    },
+    "sound/es.mp3": {
+      "bytes": 14976,
+      "sha1": "5484bfab52b97935a8ce0d64dc9b55e6578f53cb"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15984,
+      "sha1": "ef716c4ca32699e01fd886689ea8ca8b0afad4ff"
+    },
+    "sound/it.mp3": {
+      "bytes": 12528,
+      "sha1": "32ec54cf0cca61a069d9b110f7f4624ee69f0c58"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14544,
+      "sha1": "a2d7e16994454b6f4b921163f55b8b2e88a2fe8c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17136,
+      "sha1": "ce3899abdd4882444afff9a095d5743ea44a0cc1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17424,
+      "sha1": "3539f245bbf2044b0f9ee5fcc8cd468300f665fc"
     }
   }
 }

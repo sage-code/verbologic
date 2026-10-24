@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, am familie mică."
+      "name": "Nu, am familie mică.",
+      "description": "O afirmație care spune că cineva are o familie mică."
+    },
+    "en": {
+      "description": "A statement saying that one has a small family.",
+      "name": "No, I have a small family."
+    },
+    "de": {
+      "description": "Eine Aussage, dass man eine kleine Familie hat.",
+      "name": "Nein, ich habe eine kleine Familie."
+    },
+    "ru": {
+      "description": "Утверждение о том, что у человека небольшая семья.",
+      "name": "Нет, у меня маленькая семья."
+    },
+    "it": {
+      "description": "Un'affermazione in cui si dice di avere una famiglia piccola.",
+      "name": "No, ho una famiglia piccola."
+    },
+    "es": {
+      "description": "Una afirmación que indica que se tiene una familia pequeña.",
+      "name": "No, tengo una familia pequeña."
+    },
+    "fr": {
+      "description": "Une affirmation indiquant que l'on a une petite famille.",
+      "name": "Non, j'ai une petite famille."
+    },
+    "hu": {
+      "description": "Egy állítás, amely szerint az embernek kis családja van.",
+      "name": "Nem, kis családom van."
+    },
+    "pt": {
+      "description": "Uma afirmação dizendo que a pessoa tem uma família pequena.",
+      "name": "Não, eu tenho uma família pequena."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16272,
       "sha1": "15ec92f137d2a52da77f31a10bdad035f9cca873"
+    },
+    "sound/en.mp3": {
+      "bytes": 11808,
+      "sha1": "4344833621302683973b978f22f64e2c1a2e2ccc"
+    },
+    "sound/de.mp3": {
+      "bytes": 19008,
+      "sha1": "a48bb3f736b73ffc9a0ea707ac701888b6a9699f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 19296,
+      "sha1": "1a96a6ae737a1917d1315c221377a211a5227205"
+    },
+    "sound/es.mp3": {
+      "bytes": 18288,
+      "sha1": "8568c2149eda42e277759c7180cea8711925ead9"
+    },
+    "sound/it.mp3": {
+      "bytes": 18288,
+      "sha1": "0982539efd0a7495d75275617c44c9ba3dab7b1f"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16416,
+      "sha1": "1be567687706dc580490e021f8851d83932cd871"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13968,
+      "sha1": "e6b85e81805523ead7c918b24f548a488606ab25"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16416,
+      "sha1": "7405ffdb4db2f78164794f50f150435f8b3c87c3"
     }
   }
 }

@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "I have money and a card."
+      "name": "I have money and a card.",
+      "description": "A sentence expressing that the speaker has money and a card."
     },
     "ro": {
-      "name": "Eu am bani și card."
+      "name": "Eu am bani și card.",
+      "description": "O propoziție care exprimă faptul că vorbitorul are bani și un card."
+    },
+    "de": {
+      "description": "Ein Satz, der ausdrückt, dass die sprechende Person Geld und eine Karte hat.",
+      "name": "Ich habe Geld und eine Karte."
+    },
+    "ru": {
+      "description": "Предложение, выражающее, что у говорящего есть деньги и карта.",
+      "name": "У меня есть деньги и карта."
+    },
+    "it": {
+      "description": "Una frase che esprime che chi parla ha soldi e una carta.",
+      "name": "Ho soldi e una carta."
+    },
+    "es": {
+      "description": "Una frase que expresa que el hablante tiene dinero y una tarjeta.",
+      "name": "Tengo dinero y una tarjeta."
+    },
+    "fr": {
+      "description": "Une phrase exprimant que le locuteur a de l'argent et une carte.",
+      "name": "J'ai de l'argent et une carte."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kifejezi, hogy a beszélőnek van pénze és kártyája.",
+      "name": "Van pénzem és kártyám."
+    },
+    "pt": {
+      "description": "Uma frase que expressa que o falante tem dinheiro e um cartão.",
+      "name": "Eu tenho dinheiro e um cartão."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13392,
       "sha1": "350e46f48c7a5563d525964b88781a4a5d859fdd"
+    },
+    "sound/it.mp3": {
+      "bytes": 14688,
+      "sha1": "2808fb4afe9844bdb3e391c1f59bae89213a719b"
+    },
+    "sound/de.mp3": {
+      "bytes": 16416,
+      "sha1": "a9b233c7c3762eecc7f00f01856f2964cfa4abdb"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14112,
+      "sha1": "b014ce52e2d9a867f2dcd4679c34c2ead6bf148f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13824,
+      "sha1": "0878c1771218a3730df0a2dafe7cb6eb638019e0"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13680,
+      "sha1": "d6201a73c9d4441bd5441d75417911b87e0aadf5"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17424,
+      "sha1": "b66fcb6bc2025619474228f69879e64ed986f200"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "944ec3081cd2322e03a1455557fa307eebce6352"
+    },
+    "sound/es.mp3": {
+      "bytes": 15408,
+      "sha1": "fd0008b01436bf7b735f7703faf294096c37b703"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "year"
+      "name": "year",
+      "description": "This vocabulary item is a time expression."
     },
     "ro": {
       "name": "an",
-      "ipa": "/an/"
+      "ipa": "/an/",
+      "description": "Acest element de vocabular este o expresie de timp."
     },
     "de": {
-      "name": "Jahr"
+      "name": "Jahr",
+      "description": "Dieser Wortschatzeintrag ist ein Zeitausdruck."
     },
     "ru": {
-      "name": "год"
+      "name": "год",
+      "description": "Эта словарная единица представляет собой выражение времени."
     },
     "it": {
-      "name": "anno"
+      "name": "anno",
+      "description": "Questo elemento di vocabolario è un'espressione di tempo."
     },
     "es": {
-      "name": "año"
+      "name": "año",
+      "description": "Este elemento de vocabulario es una expresión de tiempo."
     },
     "fr": {
-      "name": "année"
+      "name": "année",
+      "description": "Cet élément de vocabulaire est une expression de temps."
     },
     "hu": {
-      "name": "év"
+      "name": "év",
+      "description": "Ez a szókincselem egy időkifejezés."
     },
     "pt": {
-      "name": "ano"
+      "name": "ano",
+      "description": "Este item de vocabulário é uma expressão de tempo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "83bb359e3f0809a2b6d7ced928636a7b5fce9171"
+    },
+    "sound/en.mp3": {
+      "bytes": 4608,
+      "sha1": "9876cfcec095de10b8aa06cbc664fc606accc4c5"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "d9ad6657f2d2e510f41491741d2d8d18e80c683f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "6202a102fdd6eba9ed8b113ca3555e80e03ac133"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "6f51ff539729d0587b4ec4daeba6082e43c07018"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "19e9833c1605ffef239912e55c69f66b1bd05a20"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "ac0d65b4edc036e346f3a5fc7d2f99a8713031c1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "4b35cd07026df836df8c13343e1c110da147e265"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "bc002e27dd684689b9005e5042b641f65a01230c"
     }
   }
 }

@@ -1,0 +1,85 @@
+{
+  "code": "A020",
+  "track": "lectures",
+  "chapter": "LT02",
+  "topic": "LT02T04",
+  "kind": "question",
+  "entity_id": "LT02T04:A020",
+  "legacy_entity_id": "question_da-este-urgenta",
+  "locales": {
+    "ro": {
+      "name": "Da, este urgență.",
+      "description": "Un răspuns afirmativ care confirmă că este o urgență."
+    },
+    "en": {
+      "description": "An affirmative answer stating that there is an emergency.",
+      "name": "Yes, it is an emergency."
+    },
+    "de": {
+      "description": "Eine bejahende Antwort, die bestätigt, dass ein Notfall vorliegt.",
+      "name": "Ja, es ist ein Notfall."
+    },
+    "ru": {
+      "description": "Утвердительный ответ, сообщающий о наличии чрезвычайной ситуации.",
+      "name": "Да, это срочно."
+    },
+    "it": {
+      "description": "Una risposta affermativa che conferma che si tratta di un'emergenza.",
+      "name": "Sì, è un'emergenza."
+    },
+    "es": {
+      "description": "Una respuesta afirmativa que confirma que se trata de una emergencia.",
+      "name": "Sí, es una emergencia."
+    },
+    "fr": {
+      "description": "Une réponse affirmative indiquant qu'il s'agit d'une urgence.",
+      "name": "Oui, c'est une urgence."
+    },
+    "hu": {
+      "description": "Megerősítő válasz, amely jelzi, hogy vészhelyzetről van szó.",
+      "name": "Igen, sürgős eset."
+    },
+    "pt": {
+      "description": "Uma resposta afirmativa afirmando que se trata de uma emergência.",
+      "name": "Sim, é uma emergência."
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 15984,
+      "sha1": "f6619eae56973beea270f591e48d418b985b4fff"
+    },
+    "sound/de.mp3": {
+      "bytes": 15696,
+      "sha1": "7800afabd29640c7a285fb169f87df5376292230"
+    },
+    "sound/it.mp3": {
+      "bytes": 17712,
+      "sha1": "caf47d5714b2836688816de52baf78979f311ab2"
+    },
+    "sound/en.mp3": {
+      "bytes": 11952,
+      "sha1": "dac47b247f134430d61efb1e020c94b733c1f2f9"
+    },
+    "sound/es.mp3": {
+      "bytes": 16848,
+      "sha1": "c8704b9cde330ad43ee14176bfdd70d03603898d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14976,
+      "sha1": "7ffbe9f038b9e068fbb00db8b7d1a0da4e31ed43"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13968,
+      "sha1": "961806ed35bc4d4fa61fee98ff3b2decbc3cb340"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15120,
+      "sha1": "04b3bd23a1b4314711e5e15f293bcc85b2c3f565"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15552,
+      "sha1": "503ec78f1e8477a5e0afbc65ad8427af15f6bfa9"
+    }
+  }
+}

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "up"
+      "name": "up",
+      "description": "This word relates to directions and positions."
     },
     "ro": {
       "name": "sus",
-      "ipa": "/sus/"
+      "ipa": "/sus/",
+      "description": "Acest cuvânt se referă la direcții și poziții."
     },
     "de": {
-      "name": "oben"
+      "name": "oben",
+      "description": "Dieses Wort bezieht sich auf Richtungen und Positionen."
     },
     "ru": {
-      "name": "вверх"
+      "name": "вверх",
+      "description": "Это слово относится к направлениям и позициям."
     },
     "it": {
-      "name": "su"
+      "name": "su",
+      "description": "Questa parola si riferisce alle direzioni e alle posizioni."
     },
     "es": {
-      "name": "arriba"
+      "name": "arriba",
+      "description": "Esta palabra se refiere a direcciones y posiciones."
     },
     "fr": {
-      "name": "en haut"
+      "name": "en haut",
+      "description": "Ce mot se rapporte aux directions et aux positions."
     },
     "hu": {
-      "name": "fent"
+      "name": "fent",
+      "description": "Ez a szó az irányokhoz és pozíciókhoz kapcsolódik."
     },
     "pt": {
-      "name": "em cima"
+      "name": "em cima",
+      "description": "Esta palavra refere-se a direções e posições."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "baa59b90a7bfa33206d149835ce2329fe0535fcc"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "2439e879862dee46e8469b8f88a27819f747c697"
+    },
+    "sound/de.mp3": {
+      "bytes": 8928,
+      "sha1": "e1a3477f991b4e4f3dbd3f16b97d1bd611d06cff"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "b3e4786e02bc76464966f68e8ad9701d6ec69d2b"
+    },
+    "sound/it.mp3": {
+      "bytes": 4752,
+      "sha1": "63a5de45a77f6e19ae0c146faa2ffd6375d34a92"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "9b228e0d632b05898d8691a6565d5d762646e2da"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "82d42a74431458ec8f6422c925c32bcb0d899a4d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "fc1cee27657f3f68e0aef0ba9bd5cd4809f47bbe"
+    },
+    "sound/pt.mp3": {
+      "bytes": 10656,
+      "sha1": "8df8381cb92d5e67b06cfe09c7be278ce0ffd492"
     }
   }
 }

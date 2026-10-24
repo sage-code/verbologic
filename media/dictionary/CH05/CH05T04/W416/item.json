@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "account"
+      "name": "account",
+      "description": "A table is a piece of furniture with a flat top and legs."
     },
     "ro": {
       "name": "cont",
-      "ipa": "/kont/"
+      "ipa": "/kont/",
+      "description": "O masă este o piesă de mobilier cu o suprafață plană și picioare."
     },
     "de": {
-      "name": "Konto"
+      "name": "Konto",
+      "description": "Ein Tisch ist ein Möbelstück mit einer flachen Oberseite und Beinen."
     },
     "ru": {
-      "name": "счёт"
+      "name": "счёт",
+      "description": "Стол — это предмет мебели с плоской поверхностью и ножками."
     },
     "it": {
-      "name": "conto"
+      "name": "conto",
+      "description": "Un tavolo è un mobile con una superficie piana e delle gambe."
     },
     "es": {
-      "name": "cuenta"
+      "name": "cuenta",
+      "description": "Una mesa es un mueble con una superficie plana y patas."
     },
     "fr": {
-      "name": "compte"
+      "name": "compte",
+      "description": "Une table est un meuble doté d'une surface plane et de pieds."
     },
     "hu": {
-      "name": "számla"
+      "name": "számla",
+      "description": "Az asztal egy sík felületű, lábakkal ellátott bútor."
     },
     "pt": {
-      "name": "conta"
+      "name": "conta",
+      "description": "Uma mesa é um móvel com uma superfície plana e pernas."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "64cae3620caa451f59730f6dbb5c7c049d42f89a"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "92de39319e42f12e938bb57b9ea8e00a7626a0d2"
+    },
+    "sound/de.mp3": {
+      "bytes": 9216,
+      "sha1": "ef1ebf288f56d679c5bc94fd8aa4ac3c8a785deb"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "404202b05c228b0c28f86b607ba7b0ac4b1b18c6"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "b83953cc08f26d8dc7f5a3ddb4f2463256a04d3f"
+    },
+    "sound/es.mp3": {
+      "bytes": 8352,
+      "sha1": "c2229c41583273f202a996ecef0206fd10e6e21f"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "0ac2d6f9522abfbfbf8a58100aebe0da031d6d0a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "efd54a10db651edbc1602013fb0fcbc9057389a7"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "1d34b44db6c09b762001a5c4cfcd7e70a1e222c0"
     }
   }
 }

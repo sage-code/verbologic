@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Buy fish."
+      "name": "Buy fish.",
+      "description": "An imperative phrase instructing someone to purchase fish."
     },
     "ro": {
-      "name": "Cumpără pește."
+      "name": "Cumpără pește.",
+      "description": "O expresie la imperativ prin care i se cere cuiva să cumpere pește."
+    },
+    "de": {
+      "description": "Ein Ausdruck im Imperativ, der jemanden anweist, Fisch zu kaufen.",
+      "name": "Kauf Fisch."
+    },
+    "ru": {
+      "description": "Повелительная фраза, указывающая купить рыбу.",
+      "name": "Купи рыбу."
+    },
+    "it": {
+      "description": "Una frase all'imperativo che dice a qualcuno di comprare del pesce.",
+      "name": "Compra del pesce."
+    },
+    "es": {
+      "description": "Una frase imperativa que indica a alguien que compre pescado.",
+      "name": "Compra pescado."
+    },
+    "fr": {
+      "description": "Une phrase à l'impératif demandant à quelqu'un d'acheter du poisson.",
+      "name": "Achète du poisson."
+    },
+    "hu": {
+      "description": "Felszólító kifejezés, amely hal vásárlására utasít.",
+      "name": "Vegyél halat."
+    },
+    "pt": {
+      "description": "Uma frase imperativa que instrui alguém a comprar peixe.",
+      "name": "Compre peixe."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11952,
       "sha1": "a9c39c19bebf5f08879cd0531d06e64fe6ff2a31"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "bf0e8e355da60b22de2e6746ac3b92353c614261"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "66c6efbc5155dc8db6fbf2c1e1c7cc95f12284df"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "dedcbaa1d090c6589994d886593891d21db5a884"
+    },
+    "sound/es.mp3": {
+      "bytes": 11520,
+      "sha1": "83d1bcdf9029eaff10beec888fe26d41239b3ae0"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13104,
+      "sha1": "5da709a027907247fef9645c5266a9be1a4a6d19"
+    },
+    "sound/it.mp3": {
+      "bytes": 8496,
+      "sha1": "9aa73ae0b46395128035129ac7037d200e7c68e0"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12096,
+      "sha1": "0897befbd90e3275c06b89749de985453645d999"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12384,
+      "sha1": "2e9e0c8d4e011c6b6e66af8ba1b0fe4dc1595612"
     }
   }
 }

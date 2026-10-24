@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Look at the cloud."
+      "name": "Look at the cloud.",
+      "description": "An imperative phrase directing someone to look at a cloud."
     },
     "ro": {
-      "name": "Privește norul."
+      "name": "Privește norul.",
+      "description": "O expresie la imperativ prin care i se atrage cuiva atenția să privească un nor."
+    },
+    "de": {
+      "description": "Ein Ausdruck im Imperativ, der jemanden auffordert, die Wolke anzusehen.",
+      "name": "Schau dir die Wolke an."
+    },
+    "ru": {
+      "description": "Повелительная фраза, указывающая посмотреть на облако.",
+      "name": "Посмотри на облако."
+    },
+    "it": {
+      "description": "Una frase all'imperativo che invita qualcuno a guardare la nuvola.",
+      "name": "Guarda la nuvola."
+    },
+    "es": {
+      "description": "Una frase imperativa que pide a alguien que mire una nube.",
+      "name": "Mira la nube."
+    },
+    "fr": {
+      "description": "Une phrase à l'impératif invitant quelqu'un à regarder le nuage.",
+      "name": "Regarde le nuage."
+    },
+    "hu": {
+      "description": "Felszólító kifejezés, amely a felhő megnézésére szólít fel.",
+      "name": "Nézd a felhőt."
+    },
+    "pt": {
+      "description": "Uma frase imperativa que orienta alguém a olhar para a nuvem.",
+      "name": "Olhe para a nuvem."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12096,
       "sha1": "a02654401b34691a7cf2c70eae18b900ced1ca96"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "6ecd3a96f0b6df8da2de4837b0fd8f0f9ddd7ee9"
+    },
+    "sound/es.mp3": {
+      "bytes": 11520,
+      "sha1": "9cc5f8b61543c526d34b352eb10bcd67c14ed8a9"
+    },
+    "sound/de.mp3": {
+      "bytes": 13968,
+      "sha1": "c5f06df2f4189c7c852ac651eeab1fd929579e50"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14400,
+      "sha1": "918202a61bc4d028b18a5d68ef74988e2ea3516e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13104,
+      "sha1": "3901ab8178ab464295c9775640bd1de4155a16ae"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "1e24007156635cce0ca0aa34a5ce394b18c91cab"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13248,
+      "sha1": "d4776fecaefc3527f7bc35a6bc5f6c3c8ab870fd"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13392,
+      "sha1": "5ae8672f8fb18dc112c819f3d02fbb953b319407"
     }
   }
 }

@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "The meeting is today."
+      "name": "The meeting is today.",
+      "description": "A sentence stating that the meeting takes place today."
     },
     "ro": {
-      "name": "Ședința este azi."
+      "name": "Ședința este azi.",
+      "description": "O propoziție care afirmă că întâlnirea are loc astăzi."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass das Treffen heute stattfindet.",
+      "name": "Das Treffen ist heute."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее о том, что встреча проходит сегодня.",
+      "name": "Встреча сегодня."
+    },
+    "it": {
+      "description": "Una frase che indica che la riunione ha luogo oggi.",
+      "name": "La riunione è oggi."
+    },
+    "es": {
+      "description": "Una frase que indica que la reunión tiene lugar hoy.",
+      "name": "La reunión es hoy."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que la réunion a lieu aujourd'hui.",
+      "name": "La réunion a lieu aujourd'hui."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kijelenti, hogy a találkozó ma van.",
+      "name": "A találkozó ma van."
+    },
+    "pt": {
+      "description": "Uma frase que afirma que a reunião acontece hoje.",
+      "name": "A reunião é hoje."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13536,
       "sha1": "cb2b313064cd4c5a03b7a6a039148fb28828b1c2"
+    },
+    "sound/it.mp3": {
+      "bytes": 14688,
+      "sha1": "39cb24298210a852033215ecd40ee9239e2bf04e"
+    },
+    "sound/de.mp3": {
+      "bytes": 13536,
+      "sha1": "ae1777ed9584d8bf2efc00c9d975ff6e027f36fb"
+    },
+    "sound/es.mp3": {
+      "bytes": 12528,
+      "sha1": "20228d716f95bb3d294c63fa67a6dc3043e3d8d4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14400,
+      "sha1": "a1953899d78eedfc3acf08777e30119f5b4b8014"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12528,
+      "sha1": "911e75c5137b1eb629a5304ec902b3339f7f392e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12096,
+      "sha1": "944acade7f2c2c7fd1d7aa01147d98bec384ec84"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14256,
+      "sha1": "64268687bc6bc89fad0db8ae2338ff1523520774"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "0a46a2ef066d6e77aa26fd5a2ac2073311b09e8a"
     }
   }
 }

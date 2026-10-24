@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "juice"
+      "name": "juice",
+      "description": "This item represents vocabulary entry W298 from Chapter 3, Topic 5."
     },
     "ro": {
       "name": "suc",
-      "ipa": "/suk/"
+      "ipa": "/suk/",
+      "description": "Acest element reprezintă intrarea de vocabular W298 din Capitolul 3, Tema 5."
     },
     "de": {
-      "name": "Saft"
+      "name": "Saft",
+      "description": "Dieser Eintrag stellt den Wortschatzeintrag W298 aus Kapitel 3, Thema 5 dar."
     },
     "ru": {
-      "name": "сок"
+      "name": "сок",
+      "description": "Этот элемент представляет словарную единицу W298 из главы 3, темы 5."
     },
     "it": {
-      "name": "succo"
+      "name": "succo",
+      "description": "Questo elemento rappresenta la voce di vocabolario W298 del Capitolo 3, Argomento 5."
     },
     "es": {
-      "name": "jugo"
+      "name": "jugo",
+      "description": "Este elemento representa la entrada de vocabulario W298 del Capítulo 3, Tema 5."
     },
     "fr": {
-      "name": "jus"
+      "name": "jus",
+      "description": "Cet élément représente l'entrée de vocabulaire W298 du chapitre 3, thème 5."
     },
     "hu": {
-      "name": "gyümölcslé"
+      "name": "gyümölcslé",
+      "description": "Ez az elem a 3. fejezet 5. témájának W298 szókincsbeli bejegyzését képviseli."
     },
     "pt": {
-      "name": "suco"
+      "name": "suco",
+      "description": "Este item representa a entrada de vocabulário W298 do Capítulo 3, Tópico 5."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "36bcd289c510f93b9ea74210cfed33ee10cbea0b"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "590730cba21149a882662618125be7b53e7c72b8"
+    },
+    "sound/de.mp3": {
+      "bytes": 8784,
+      "sha1": "551a04dee8ec2dfc79c80d74327921a1d4b0dfed"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "a46caf8012748c9ed5359dbc8d2527df8f557616"
+    },
+    "sound/it.mp3": {
+      "bytes": 6192,
+      "sha1": "a7fcb996a0ef94710a1b1660ffda70c76a0ccc0a"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "42335ab6d9ee3fa8e0296209b11e1f30f9ba4fed"
+    },
+    "sound/fr.mp3": {
+      "bytes": 8352,
+      "sha1": "7ca64e04dce5000d1c0bcafd7435c337a8a77039"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "31a08eab7bbe757ffb1b772fb1463b98d148411e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "8095f9817db3adf6b1dfd79b7894ce743c32971f"
     }
   }
 }

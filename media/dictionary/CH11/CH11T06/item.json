@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Ethics & values"
+      "name": "Ethics & values",
+      "description": "This topic covers ethics and values."
     },
     "ro": {
       "name": "Etică și valori",
-      "ipa": "/ˈetikə ʃi vaˈlorʲ/"
+      "ipa": "/ˈetikə ʃi vaˈlorʲ/",
+      "description": "Această temă acoperă etica și valorile."
+    },
+    "de": {
+      "description": "Dieses Thema behandelt Ethik und Werte.",
+      "name": "Ethik & Werte"
+    },
+    "ru": {
+      "description": "Эта тема охватывает этику и ценности.",
+      "name": "Этика и ценности"
+    },
+    "it": {
+      "description": "Questo argomento tratta l'etica e i valori.",
+      "name": "Etica e valori"
+    },
+    "es": {
+      "description": "Este tema aborda la ética y los valores.",
+      "name": "Ética y valores"
+    },
+    "fr": {
+      "description": "Ce thème aborde l'éthique et les valeurs.",
+      "name": "Éthique et valeurs"
+    },
+    "hu": {
+      "description": "Ez a témakör az etikával és az értékekkel foglalkozik.",
+      "name": "Etika és értékek"
+    },
+    "pt": {
+      "description": "Este tópico aborda a ética e os valores.",
+      "name": "Ética e valores"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13392,
       "sha1": "caf1800358c42c77d8ba86c444274b3b9fd8e2ca"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "c01aeff4d36910094f10447b3bb6b673a93383e5"
+    },
+    "sound/de.mp3": {
+      "bytes": 12672,
+      "sha1": "29154e21521087c145bce4ae1c45840a8f69a4a2"
+    },
+    "sound/it.mp3": {
+      "bytes": 12240,
+      "sha1": "8272b07fb89d1f9444e2bcd7dd1146adff62bc56"
+    },
+    "sound/es.mp3": {
+      "bytes": 12240,
+      "sha1": "88a0b44c7155276dcdb8e9af99a9b736418235df"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12096,
+      "sha1": "fa615b9a5ad6f7755310b07ef83ddc9fa3ea1b57"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13104,
+      "sha1": "a0024f22f0839126ea53fd853267c8ea2f93f4b1"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12096,
+      "sha1": "7c759a8a8adbbfe24767c7e1f30703256af92237"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14544,
+      "sha1": "cef456cb8201a5d695b92abd605aea92bdafe35c"
     }
   }
 }

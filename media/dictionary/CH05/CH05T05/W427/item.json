@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "battery"
+      "name": "battery",
+      "description": "This word relates to phone and online services."
     },
     "ro": {
       "name": "baterie",
-      "ipa": "/bateˈrie/"
+      "ipa": "/bateˈrie/",
+      "description": "Acest cuvânt este legat de telefon și servicii online."
     },
     "de": {
-      "name": "Batterie"
+      "name": "Batterie",
+      "description": "Dieses Wort bezieht sich auf Telefon- und Online-Dienste."
     },
     "ru": {
-      "name": "батарея"
+      "name": "батарея",
+      "description": "Это слово относится к телефону и онлайн-сервисам."
     },
     "it": {
-      "name": "batteria"
+      "name": "batteria",
+      "description": "Questa parola si riferisce al telefono e ai servizi online."
     },
     "es": {
-      "name": "batería"
+      "name": "batería",
+      "description": "Esta palabra se relaciona con el teléfono y los servicios en línea."
     },
     "fr": {
-      "name": "batterie"
+      "name": "batterie",
+      "description": "Ce mot est lié au téléphone et aux services en ligne."
     },
     "hu": {
-      "name": "akkumulátor"
+      "name": "akkumulátor",
+      "description": "Ez a szó a telefon- és onlineszolgáltatásokhoz kapcsolódik."
     },
     "pt": {
-      "name": "bateria"
+      "name": "bateria",
+      "description": "Esta palavra está relacionada a telefone e serviços online."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "e6a1600e08819ccb2d27605d5a6660ea94e752a9"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "1727a7f417d42157da8bed524ec9828869145c5a"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "e0441c59811d2e375e8d3d88b472a5a9239184b3"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12528,
+      "sha1": "fde5bc0ca8dc1e04135a8eba9531c98be8ddeebd"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "2a34b0b1f7dbf576dfa9479671f84c7b17e4dde7"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "24243b588459a024443c8451864a6d5dc53d529a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "46cba0622d07186bdc5e17dddd0edfd7b0e170ae"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12672,
+      "sha1": "fd3a942f8b6d0ac1f7d109240c805cd63e48293d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "ec86595bec9c96a270117e3542d5bdfbb086b7da"
     }
   }
 }

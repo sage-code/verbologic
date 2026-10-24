@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Mănânci pâine dimineața?"
+      "name": "Mănânci pâine dimineața?",
+      "description": "O întrebare despre consumul de pâine dimineața."
+    },
+    "en": {
+      "description": "A question asking if someone eats bread in the morning.",
+      "name": "Do you eat bread in the morning?"
+    },
+    "de": {
+      "description": "Eine Frage, ob jemand morgens Brot isst.",
+      "name": "Isst du morgens Brot?"
+    },
+    "ru": {
+      "description": "Вопрос о том, ест ли собеседник хлеб по утрам.",
+      "name": "Ты ешь хлеб по утрам?"
+    },
+    "it": {
+      "description": "Una domanda che chiede se qualcuno mangia pane la mattina.",
+      "name": "Mangi pane la mattina?"
+    },
+    "es": {
+      "description": "Una pregunta sobre si alguien come pan por la mañana.",
+      "name": "¿Comes pan por la mañana?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un mange du pain le matin.",
+      "name": "Manges-tu du pain le matin ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy valaki eszik-e kenyeret reggelente.",
+      "name": "Eszel kenyeret reggel?"
+    },
+    "pt": {
+      "description": "Uma pergunta sobre se alguém come pão de manhã.",
+      "name": "Você come pão de manhã?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15552,
       "sha1": "3bc3f437e8f52b463e075ada0f3b1795ffbb2614"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "18c9760b687070d33980150f7a4e3a3ec0c48732"
+    },
+    "sound/de.mp3": {
+      "bytes": 12816,
+      "sha1": "3c09f43a16b4d6087b9fcf2db74cf7cead9846ae"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15120,
+      "sha1": "f6cee452d06e780397668ab7abbe1b500fbb4bb4"
+    },
+    "sound/it.mp3": {
+      "bytes": 14976,
+      "sha1": "94b0910e10f52c52cbd414f6bb3a731c1e1c364c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13104,
+      "sha1": "7c6a1b288d9553b76649f55849f3a04b42b9ac9e"
+    },
+    "sound/es.mp3": {
+      "bytes": 13968,
+      "sha1": "c3404d0000ec1a9a8e538011f977819a92258588"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13104,
+      "sha1": "fe44c4d78c27ba841b33dbd461fe1077a14b74c4"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12816,
+      "sha1": "5e1eef3a84f63709c1a9884bd168b580776744d6"
     }
   }
 }

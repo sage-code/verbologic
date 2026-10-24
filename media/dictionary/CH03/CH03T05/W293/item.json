@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "lunch"
+      "name": "lunch",
+      "description": "This item represents vocabulary entry W293 from Chapter 3, Topic 5."
     },
     "ro": {
       "name": "prânz",
-      "ipa": "/prɨnz/"
+      "ipa": "/prɨnz/",
+      "description": "Acest element reprezintă intrarea de vocabular W293 din Capitolul 3, Tema 5."
     },
     "de": {
-      "name": "Mittagessen"
+      "name": "Mittagessen",
+      "description": "Dieser Eintrag stellt den Wortschatzeintrag W293 aus Kapitel 3, Thema 5 dar."
     },
     "ru": {
-      "name": "обед"
+      "name": "обед",
+      "description": "Этот элемент представляет словарную единицу W293 из главы 3, темы 5."
     },
     "it": {
-      "name": "pranzo"
+      "name": "pranzo",
+      "description": "Questo elemento rappresenta la voce di vocabolario W293 del Capitolo 3, Argomento 5."
     },
     "es": {
-      "name": "almuerzo"
+      "name": "almuerzo",
+      "description": "Este elemento representa la entrada de vocabulario W293 del Capítulo 3, Tema 5."
     },
     "fr": {
-      "name": "déjeuner"
+      "name": "déjeuner",
+      "description": "Cet élément représente l'entrée de vocabulaire W293 du chapitre 3, thème 5."
     },
     "hu": {
-      "name": "ebéd"
+      "name": "ebéd",
+      "description": "Ez az elem a 3. fejezet 5. témájának W293 szókincsbeli bejegyzését képviseli."
     },
     "pt": {
-      "name": "almoço"
+      "name": "almoço",
+      "description": "Este item representa a entrada de vocabulário W293 do Capítulo 3, Tópico 5."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "638c89ea866e0dda74bf317e60a542cd61c18a38"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "82c7e43b349cfe40366ee5298793b9d6abfbae27"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "7778813acd6f636df671227431593c22933f63a1"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "671ded6f244a8f29aec915093eff430887a2edb9"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "e397167845df30e5be417800d3055be2db136e4f"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "ca4786008d5daae07246277873a88057940fbe85"
+    },
+    "sound/fr.mp3": {
+      "bytes": 9936,
+      "sha1": "6dc5d1add42179e9dd60f3c53ac87d8466f1a89e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "56105457ce8bf320d38abc6ea2c1e59861b2f46c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "ecb435f7999ca5a1f1adff7c1803637a81cdd972"
     }
   }
 }

@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Science lab"
+      "name": "Science lab",
+      "description": "A science lab is a room equipped for scientific experiments and study."
     },
     "ro": {
       "name": "Laboratorul de științe",
-      "ipa": "/laboraˈtorul de ˈʃtiintse/"
+      "ipa": "/laboraˈtorul de ˈʃtiintse/",
+      "description": "Un laborator de științe este o sală echipată pentru experimente și studii științifice."
+    },
+    "de": {
+      "description": "Ein naturwissenschaftliches Labor ist ein Raum, der für wissenschaftliche Experimente und Studien ausgestattet ist.",
+      "name": "Naturwissenschaftslabor"
+    },
+    "ru": {
+      "description": "Научная лаборатория — это помещение, оборудованное для научных экспериментов и исследований.",
+      "name": "Научная лаборатория"
+    },
+    "it": {
+      "description": "Un laboratorio di scienze è una stanza attrezzata per esperimenti e studi scientifici.",
+      "name": "Laboratorio di scienze"
+    },
+    "es": {
+      "description": "Un laboratorio de ciencias es una sala equipada para experimentos y estudios científicos.",
+      "name": "Laboratorio de ciencias"
+    },
+    "fr": {
+      "description": "Un laboratoire de sciences est une pièce équipée pour les expériences et les études scientifiques.",
+      "name": "Laboratoire de sciences"
+    },
+    "hu": {
+      "description": "A természettudományi laboratórium tudományos kísérletekhez és tanulmányokhoz felszerelt helyiség.",
+      "name": "Természettudományi laboratórium"
+    },
+    "pt": {
+      "description": "Um laboratório de ciências é uma sala equipada para experimentos e estudos científicos.",
+      "name": "Laboratório de ciências"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14544,
       "sha1": "78dc8d5110a7bf1901b29b250a00df2fded4b794"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "cb67c056ae83f19e27c4c7cee8a7fb64ed8a308f"
+    },
+    "sound/de.mp3": {
+      "bytes": 15264,
+      "sha1": "221eee5ebf774ce99a915507fa8cc8a1342627cd"
+    },
+    "sound/it.mp3": {
+      "bytes": 15264,
+      "sha1": "dea1fb94b22f64b24697d29ac73570d8e4097543"
+    },
+    "sound/es.mp3": {
+      "bytes": 14976,
+      "sha1": "c3d6fd5fcb8f5ba6b30fa74f69a33e39d73b9e98"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14112,
+      "sha1": "beb84cb1fe09e9b3c1644250b0bc43a8e902269f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16704,
+      "sha1": "e585940f87e17135920d17469f969e0f429f0df6"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13824,
+      "sha1": "b28e05fdd4a9466106106c67729f850e6252fbd8"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16128,
+      "sha1": "8609d4d2356e9e4fce0ef57e5b5c8d95ba2237b0"
     }
   }
 }

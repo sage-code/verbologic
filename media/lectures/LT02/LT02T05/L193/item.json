@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, poliția este departe."
+      "name": "Nu, poliția este departe.",
+      "description": "O afirmație care clarifică faptul că poliția se află departe."
+    },
+    "en": {
+      "description": "A statement clarifying that the police are located far away.",
+      "name": "No, the police are far away."
+    },
+    "de": {
+      "description": "Eine Aussage, die klarstellt, dass die Polizei weit weg ist.",
+      "name": "Nein, die Polizei ist weit weg."
+    },
+    "ru": {
+      "description": "Утверждение, уточняющее, что полиция находится далеко.",
+      "name": "Нет, полиция далеко."
+    },
+    "it": {
+      "description": "Un'affermazione che chiarisce che la polizia si trova lontana.",
+      "name": "No, la polizia è lontana."
+    },
+    "es": {
+      "description": "Una afirmación que aclara que la policía está lejos.",
+      "name": "No, la policía está lejos."
+    },
+    "fr": {
+      "description": "Une déclaration précisant que la police est loin.",
+      "name": "Non, la police est loin."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely tisztázza, hogy a rendőrség messze van.",
+      "name": "Nem, a rendőrség messze van."
+    },
+    "pt": {
+      "description": "Uma declaração esclarecendo que a polícia está longe.",
+      "name": "Não, a polícia está longe."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17712,
       "sha1": "4ba25f3d25f8a9ea99eb45420ebc9b7095b2fa21"
+    },
+    "sound/en.mp3": {
+      "bytes": 14112,
+      "sha1": "d3ecb58dad17742a65a310536596fa6c98c1919b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16704,
+      "sha1": "fe5bd2151eb5b9dde827a68368020e0583d75de4"
+    },
+    "sound/es.mp3": {
+      "bytes": 16704,
+      "sha1": "49414eefa59bda0d6841c4be775c00d2d496872f"
+    },
+    "sound/de.mp3": {
+      "bytes": 18720,
+      "sha1": "b9b9a89b0569eb58211209ae506c5ed30fa0ab34"
+    },
+    "sound/it.mp3": {
+      "bytes": 13968,
+      "sha1": "393e1a00a392a635f25a24e4a060ad20dc9abdbd"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15120,
+      "sha1": "95a39705dae458ce7d0902fc31bbd4d394b75fbe"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18000,
+      "sha1": "f050f96b3211cf208d2695eedfb06fb648e1d96e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 19728,
+      "sha1": "adc37e0480c57b5be67df4e223cec96028288b6c"
     }
   }
 }

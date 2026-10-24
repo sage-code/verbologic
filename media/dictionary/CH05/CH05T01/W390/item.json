@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "hotel"
+      "name": "hotel",
+      "description": "An official travel document that confirms a person's identity and nationality for international journeys."
     },
     "ro": {
       "name": "hotel",
-      "ipa": "/hoˈtel/"
+      "ipa": "/hoˈtel/",
+      "description": "Un document oficial de călătorie care confirmă identitatea și naționalitatea unei persoane pentru călătorii internaționale."
     },
     "de": {
-      "name": "Hotel"
+      "name": "Hotel",
+      "description": "Ein offizielles Reisedokument, das die Identität und Staatsangehörigkeit einer Person für internationale Reisen bestätigt."
     },
     "ru": {
-      "name": "отель"
+      "name": "отель",
+      "description": "Официальный проездной документ, подтверждающий личность и гражданство человека для международных поездок."
     },
     "it": {
-      "name": "hotel"
+      "name": "hotel",
+      "description": "Un documento di viaggio ufficiale che conferma l'identità e la nazionalità di una persona per i viaggi internazionali."
     },
     "es": {
-      "name": "hotel"
+      "name": "hotel",
+      "description": "Un documento de viaje oficial que confirma la identidad y la nacionalidad de una persona para viajes internacionales."
     },
     "fr": {
-      "name": "hôtel"
+      "name": "hôtel",
+      "description": "Un document de voyage officiel qui confirme l'identité et la nationalité d'une personne pour les voyages internationaux."
     },
     "hu": {
-      "name": "szálloda"
+      "name": "szálloda",
+      "description": "Hivatalos úti okmány, amely igazolja a személy személyazonosságát és állampolgárságát nemzetközi utazásokhoz."
     },
     "pt": {
-      "name": "hotel"
+      "name": "hotel",
+      "description": "Um documento de viagem oficial que confirma a identidade e a nacionalidade de uma pessoa em viagens internacionais."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "e93c61d392a28c269d7c7a2cf6a84a16ccbb71a7"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "61c533b9674e09c562e0c2633c789cbd6fc417db"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "b0908b85f300f6e2a201ef12d9058117abf863ef"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10368,
+      "sha1": "1ad1843616001778383308c48f7f3b4bfcf4346b"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "baa19fa60f58f12ba2bbac4949a6cf883b934376"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "6502632afbdf950383b9c461f1e30d2d08a8b66c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "8b5788ae3fb278f0bbb76929f90b909ef920041d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 10656,
+      "sha1": "934896254237ef576ff7543fc2bd60c592037bb2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 9648,
+      "sha1": "80889b9d490ae75b5b1274e93d0187f85d01b0aa"
     }
   }
 }

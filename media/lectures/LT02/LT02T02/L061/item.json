@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "I read in the evening."
+      "name": "I read in the evening.",
+      "description": "A simple sentence describing the daily routine of reading during the evening."
     },
     "ro": {
-      "name": "Eu citesc seara."
+      "name": "Eu citesc seara.",
+      "description": "O propoziție simplă care descrie rutina zilnică de a citi seara."
+    },
+    "de": {
+      "description": "Ein einfacher Satz, der die tägliche Routine des Lesens am Abend beschreibt.",
+      "name": "Ich lese am Abend."
+    },
+    "ru": {
+      "description": "Простое предложение, описывающее ежедневное чтение по вечерам.",
+      "name": "Я читаю вечером."
+    },
+    "it": {
+      "description": "Una frase semplice che descrive l'abitudine quotidiana di leggere la sera.",
+      "name": "Leggo di sera."
+    },
+    "es": {
+      "description": "Una oración simple que describe la rutina diaria de leer por la noche.",
+      "name": "Leo por la noche."
+    },
+    "fr": {
+      "description": "Une phrase simple décrivant l'habitude de lire le soir.",
+      "name": "Je lis le soir."
+    },
+    "hu": {
+      "description": "Egyszerű mondat, amely az esti olvasás napi rutinját írja le.",
+      "name": "Este olvasok."
+    },
+    "pt": {
+      "description": "Uma frase simples que descreve a rotina diária de ler à noite.",
+      "name": "Eu leio à noite."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12672,
       "sha1": "c0dd71bb6dde9ebca6fc6dac069475c41d5f535b"
+    },
+    "sound/de.mp3": {
+      "bytes": 12672,
+      "sha1": "2eda6d694d7cf6ccb4d83c4963c79d2417ae4540"
+    },
+    "sound/it.mp3": {
+      "bytes": 12384,
+      "sha1": "0b2efda7bb35b9a76d76fabd646df6f96ae7a700"
+    },
+    "sound/es.mp3": {
+      "bytes": 12672,
+      "sha1": "f49f2fe4d198cba7ed02527cae3579b81c777337"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11808,
+      "sha1": "3d1d9548501a335622f642f5886a39bff3ff7033"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11376,
+      "sha1": "20eb9847474f950efae00bf41d6e67118be3e043"
+    },
+    "sound/en.mp3": {
+      "bytes": 8064,
+      "sha1": "8b17d1ec2651d2a04203b3a22763b2888440ce6a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "9a800b84d04a615461a2abe162875373a79c5c69"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14400,
+      "sha1": "ef392593f2a63cd4f9503848a468cc1b94c9b8a7"
     }
   }
 }

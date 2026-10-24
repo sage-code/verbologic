@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "The house has a door."
+      "name": "The house has a door.",
+      "description": "A simple sentence stating that the house features a door."
     },
     "ro": {
-      "name": "Casa are o ușă."
+      "name": "Casa are o ușă.",
+      "description": "O propoziție simplă care afirmă că o casă are o ușă."
+    },
+    "de": {
+      "description": "Ein einfacher Satz, der aussagt, dass das Haus eine Tür hat.",
+      "name": "Das Haus hat eine Tür."
+    },
+    "ru": {
+      "description": "Простое предложение, констатирующее, что у дома есть дверь.",
+      "name": "У дома есть дверь."
+    },
+    "it": {
+      "description": "Una frase semplice che afferma che la casa ha una porta.",
+      "name": "La casa ha una porta."
+    },
+    "es": {
+      "description": "Una oración simple que afirma que la casa tiene una puerta.",
+      "name": "La casa tiene una puerta."
+    },
+    "fr": {
+      "description": "Une phrase simple indiquant que la maison a une porte.",
+      "name": "La maison a une porte."
+    },
+    "hu": {
+      "description": "Egyszerű mondat, amely kijelenti, hogy a háznak van egy ajtaja.",
+      "name": "A háznak van ajtaja."
+    },
+    "pt": {
+      "description": "Uma frase simples que afirma que a casa tem uma porta.",
+      "name": "A casa tem uma porta."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11520,
       "sha1": "2417b32294a9dbdcfed27252b75c660770d1a248"
+    },
+    "sound/de.mp3": {
+      "bytes": 13680,
+      "sha1": "74be8665146235ffae9c30d40666fb32018bd082"
+    },
+    "sound/it.mp3": {
+      "bytes": 13968,
+      "sha1": "dbffd8cb7e66db31c95379b2b2f316beab4e1953"
+    },
+    "sound/es.mp3": {
+      "bytes": 15408,
+      "sha1": "4665ab739e5519a4ac882d64c56b179f4017ef4f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12816,
+      "sha1": "c3d5a121042520028f26bf263069adc93ebab114"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13248,
+      "sha1": "c85091365db9d4334a7175fa4e0e82ba067d1057"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12528,
+      "sha1": "4ed513dfbc6b1b298e871ef43d8f26bbe30adcfd"
+    },
+    "sound/en.mp3": {
+      "bytes": 8208,
+      "sha1": "a155b5cb1cd488d633901f06f1b879a182bf1420"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13680,
+      "sha1": "34657d8dba5e5b7ee6e40e23d38decf358c0c74d"
     }
   }
 }

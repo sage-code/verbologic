@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "discount"
+      "name": "discount",
+      "description": "A credit card is a plastic card used to make payments electronically."
     },
     "ro": {
       "name": "reducere",
-      "ipa": "/reˈdutʃere/"
+      "ipa": "/reˈdutʃere/",
+      "description": "Un card de credit este un card de plastic folosit pentru a efectua plăți electronic."
     },
     "de": {
-      "name": "Rabatt"
+      "name": "Rabatt",
+      "description": "Eine Kreditkarte ist eine Plastikkarte, mit der elektronisch bezahlt wird."
     },
     "ru": {
-      "name": "скидка"
+      "name": "скидка",
+      "description": "Кредитная карта — это пластиковая карта, используемая для электронных платежей."
     },
     "it": {
-      "name": "sconto"
+      "name": "sconto",
+      "description": "Una carta di credito è una tessera di plastica utilizzata per effettuare pagamenti elettronici."
     },
     "es": {
-      "name": "descuento"
+      "name": "descuento",
+      "description": "Una tarjeta de crédito es una tarjeta de plástico que se utiliza para realizar pagos electrónicamente."
     },
     "fr": {
-      "name": "réduction"
+      "name": "réduction",
+      "description": "Une carte de crédit est une carte en plastique utilisée pour effectuer des paiements par voie électronique."
     },
     "hu": {
-      "name": "kedvezmény"
+      "name": "kedvezmény",
+      "description": "A hitelkártya egy műanyag kártya, amelyet elektronikus fizetésre használnak."
     },
     "pt": {
-      "name": "desconto"
+      "name": "desconto",
+      "description": "Um cartão de crédito é um cartão de plástico utilizado para efetuar pagamentos eletronicamente."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10800,
       "sha1": "9ae56ed52b67d94397feb2333cbfe2143e9fde19"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "158af2ecbe9056b6576b2b54121e832c5a647525"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "b00070d9d6eee7977a8bf3b8a1491109d48d5cec"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "ed2d272056bcc8fd11300a69d3747c0c7a0c1567"
+    },
+    "sound/it.mp3": {
+      "bytes": 6048,
+      "sha1": "259d3d56cd4c8eab19c3ede06512e467a4b21ac2"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "1b75e9bb9d89c7330ab67fb0cb46f79cab451451"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "d5c155a9cd48cee83e3a57c4d570d68922693a04"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11376,
+      "sha1": "53dc62f5589eeccaa44f775527e66e251d42056a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 10944,
+      "sha1": "8c7ce843a9e24db0dfe9dfcf7cdfede279e58b89"
     }
   }
 }

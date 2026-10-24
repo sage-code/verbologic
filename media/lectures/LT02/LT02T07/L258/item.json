@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Keep the receipt."
+      "name": "Keep the receipt.",
+      "description": "An instruction telling someone to keep their purchase receipt."
     },
     "ro": {
-      "name": "Păstrează bonul."
+      "name": "Păstrează bonul.",
+      "description": "O instrucțiune prin care i se cere cuiva să păstreze chitanța de cumpărare."
+    },
+    "de": {
+      "description": "Eine Aufforderung, den Kaufbeleg aufzubewahren.",
+      "name": "Behalte die Quittung."
+    },
+    "ru": {
+      "description": "Указание сохранить товарный чек после покупки.",
+      "name": "Сохрани чек."
+    },
+    "it": {
+      "description": "Un'istruzione che invita a conservare la ricevuta d'acquisto.",
+      "name": "Conserva lo scontrino."
+    },
+    "es": {
+      "description": "Una instrucción que indica conservar el comprobante de compra.",
+      "name": "Guarda el recibo."
+    },
+    "fr": {
+      "description": "Une consigne indiquant de conserver son ticket de caisse.",
+      "name": "Garde le reçu."
+    },
+    "hu": {
+      "description": "Utasítás a vásárlási bizonylat vagy nyugta megőrzésére.",
+      "name": "Tartsd meg a nyugtát."
+    },
+    "pt": {
+      "description": "Uma instrução para guardar o comprovante de compra.",
+      "name": "Guarde o recibo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "2e47c7c844b80fee04d3fdc1d864f5499e9b74db"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8ae98f223c93afa316ab5bb15d8a95ea2f76a84b"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "a9ab7503f0c0accf7fe8f45ba4f5ed8c22551df2"
+    },
+    "sound/de.mp3": {
+      "bytes": 13392,
+      "sha1": "5d798d15639453beb557b2b4444a808fa35454ba"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13392,
+      "sha1": "3697ec070b191d3822e1c059a3f6b0c0f1c66b50"
+    },
+    "sound/es.mp3": {
+      "bytes": 12384,
+      "sha1": "302185aca38d66981454fd00ea66155c974d43ee"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12096,
+      "sha1": "baf6843ae1670e086205b78628dbcd88036afbf2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13680,
+      "sha1": "8d04c0c5dce7ad6ea5b7fbb1cef2780990f6f14d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13680,
+      "sha1": "9718cb27288ee972d45e691c7719969f7a82676a"
     }
   }
 }

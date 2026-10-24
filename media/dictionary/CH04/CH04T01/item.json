@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Town places & buildings"
+      "name": "Town places & buildings",
+      "description": "This topic covers vocabulary related to town places and buildings."
     },
     "ro": {
       "name": "Locuri și clădiri din oraș",
-      "ipa": "/ˈlokuri ʃi kləˈdiri din oˈraʃ/"
+      "ipa": "/ˈlokuri ʃi kləˈdiri din oˈraʃ/",
+      "description": "Această temă acoperă vocabularul legat de locuri și clădiri din oraș."
+    },
+    "de": {
+      "description": "Dieses Thema umfasst Wortschatz rund um Orte und Gebäude in der Stadt.",
+      "name": "Orte und Gebäude in der Stadt"
+    },
+    "ru": {
+      "description": "В этой теме рассматривается словарный запас, связанный с местами и зданиями в городе.",
+      "name": "Места и здания в городе"
+    },
+    "it": {
+      "description": "Questo argomento comprende il vocabolario relativo a luoghi ed edifici della città.",
+      "name": "Luoghi ed edifici della città"
+    },
+    "es": {
+      "description": "Este tema cubre el vocabulario relacionado con lugares y edificios de la ciudad.",
+      "name": "Lugares y edificios de la ciudad"
+    },
+    "fr": {
+      "description": "Ce thème couvre le vocabulaire lié aux lieux et bâtiments de la ville.",
+      "name": "Lieux et bâtiments de la ville"
+    },
+    "hu": {
+      "description": "Ez a téma a városi helyekkel és épületekkel kapcsolatos szókincset tartalmazza.",
+      "name": "Városi helyek és épületek"
+    },
+    "pt": {
+      "description": "Este tópico abrange o vocabulário relacionado a lugares e edifícios da cidade.",
+      "name": "Lugares e edifícios da cidade"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16992,
       "sha1": "1fcf2928b1520807fb523390cb82d590c7964c34"
+    },
+    "sound/en.mp3": {
+      "bytes": 13824,
+      "sha1": "8c4ae6ad7fa0a6e3b132a32905dcbf098c2b7cb1"
+    },
+    "sound/de.mp3": {
+      "bytes": 17280,
+      "sha1": "fd51d60e409f0c7a365e2a02c49adfaf92472b6e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16416,
+      "sha1": "4b1ad437f50b679c7bbe24115319722763d58d29"
+    },
+    "sound/it.mp3": {
+      "bytes": 12816,
+      "sha1": "1c511e9e6ae6f57f92083f36060f73d8798f364e"
+    },
+    "sound/es.mp3": {
+      "bytes": 16560,
+      "sha1": "583f76c540a9f85ac57d343f3aabb559723f74a4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14976,
+      "sha1": "acdbf4a743eb26694884a2db8cd24f7c9ad39e32"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17424,
+      "sha1": "febe08b522c390f268a013a54e61665f8aeac5ed"
+    },
+    "sound/pt.mp3": {
+      "bytes": 20448,
+      "sha1": "9d22bbef55d20cdac9ac0d7559da5eae1476dff2"
     }
   }
 }

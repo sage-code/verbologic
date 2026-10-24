@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "The bus comes to the station."
+      "name": "The bus comes to the station.",
+      "description": "A sentence stating that a bus arrives at the station."
     },
     "ro": {
-      "name": "Autobuzul vine la stație."
+      "name": "Autobuzul vine la stație.",
+      "description": "O propoziție care afirmă că un autobuz sosește la stație."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass ein Bus an der Station ankommt.",
+      "name": "Der Bus kommt zur Station."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее о том, что автобус прибывает на станцию.",
+      "name": "Автобус приезжает на станцию."
+    },
+    "it": {
+      "description": "Una frase che indica che un autobus arriva alla stazione.",
+      "name": "L'autobus arriva alla stazione."
+    },
+    "es": {
+      "description": "Una frase que indica que un autobús llega a la estación.",
+      "name": "El autobús llega a la estación."
+    },
+    "fr": {
+      "description": "Une phrase indiquant qu'un bus arrive à la station.",
+      "name": "Le bus arrive à la station."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kijelenti, hogy a busz megérkezik az állomásra.",
+      "name": "A busz megérkezik az állomásra."
+    },
+    "pt": {
+      "description": "Uma frase que afirma que um ônibus chega à estação.",
+      "name": "O ônibus chega à estação."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16128,
       "sha1": "21bed29dd91bc36051781d7ef41a8fd1c4e2f4ec"
+    },
+    "sound/de.mp3": {
+      "bytes": 14976,
+      "sha1": "8d2a5f5e9d411f4f95319a6ae5b6c205eb524869"
+    },
+    "sound/it.mp3": {
+      "bytes": 17712,
+      "sha1": "1ce00a87efbc15087f60cf8db7b14bbe95981001"
+    },
+    "sound/es.mp3": {
+      "bytes": 16272,
+      "sha1": "17af4e91e644b2c1e2685de427742296a9ff6473"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14400,
+      "sha1": "41f2e4aeb0f36576c156c347fa84bcffee8ccbd7"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16848,
+      "sha1": "e4b22b21ff047e2242871a5abb7d6df0bbf29747"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13680,
+      "sha1": "b37885aa349ddca31fd9f90b15f555dcf03a7988"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8ab41dcd3ff74f4cb28ec3589dfe9b8377d685ba"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17856,
+      "sha1": "d32ae4196511ab8550f98ad441bbac312d08dd55"
     }
   }
 }

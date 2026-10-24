@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "He is sad today."
+      "name": "He is sad today.",
+      "description": "A simple sentence expressing that a male person feels sad today."
     },
     "ro": {
-      "name": "El este trist azi."
+      "name": "El este trist azi.",
+      "description": "O propoziție simplă care exprimă faptul că o persoană este tristă astăzi."
+    },
+    "de": {
+      "description": "Ein einfacher Satz, der ausdrückt, dass eine männliche Person heute traurig ist.",
+      "name": "Er ist heute traurig."
+    },
+    "ru": {
+      "description": "Простое предложение, выражающее, что мужчина сегодня грустит.",
+      "name": "Он сегодня грустный."
+    },
+    "it": {
+      "description": "Una frase semplice che esprime che una persona è triste oggi.",
+      "name": "Lui è triste oggi."
+    },
+    "es": {
+      "description": "Una oración simple que expresa que una persona está triste hoy.",
+      "name": "Él está triste hoy."
+    },
+    "fr": {
+      "description": "Une phrase simple exprimant qu'une personne est triste aujourd'hui.",
+      "name": "Il est triste aujourd'hui."
+    },
+    "hu": {
+      "description": "Egyszerű mondat, amely kifejezi, hogy valaki ma szomorú.",
+      "name": "Ő ma szomorú."
+    },
+    "pt": {
+      "description": "Uma frase simples que expressa que uma pessoa está triste hoje.",
+      "name": "Ele está triste hoje."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13680,
       "sha1": "9db26ae5c3bdd4c96d38c2d1494c34a019a1c871"
+    },
+    "sound/de.mp3": {
+      "bytes": 13536,
+      "sha1": "57a54e7a83086e8f55b066834d3893c6bae46385"
+    },
+    "sound/it.mp3": {
+      "bytes": 14256,
+      "sha1": "7280bffa6aa594b4982a8410f8b2ed664d4c0eeb"
+    },
+    "sound/es.mp3": {
+      "bytes": 12816,
+      "sha1": "83ae2ebbeceb21b2af0934aa0e147c1e4aa5a1bd"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12384,
+      "sha1": "cda1f631dfa73be4bc6bad1b39bdea29713fc4b7"
+    },
+    "sound/hu.mp3": {
+      "bytes": 10800,
+      "sha1": "04ce196cb139f55804e4561e4f3aa5436127c68c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12528,
+      "sha1": "19b80359a91b882f49462a11d8b4c600fc59e0a6"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "c993e17927e3a6b30ebb22d98bab06e2d41c23e9"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14544,
+      "sha1": "c510f608a4e19113b8a2659cc5af5b2edba25a96"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "file"
+      "name": "file",
+      "description": "This term relates to communication technology."
     },
     "ro": {
       "name": "fișier",
-      "ipa": "/fiʃiˈer/"
+      "ipa": "/fiʃiˈer/",
+      "description": "Acest termen se referă la tehnologia comunicațiilor."
     },
     "de": {
-      "name": "Datei"
+      "name": "Datei",
+      "description": "Dieser Begriff bezieht sich auf die Kommunikationstechnologie."
     },
     "ru": {
-      "name": "файл"
+      "name": "файл",
+      "description": "Этот термин относится к коммуникационным технологиям."
     },
     "it": {
-      "name": "file"
+      "name": "file",
+      "description": "Questo termine si riferisce alla tecnologia della comunicazione."
     },
     "es": {
-      "name": "archivo"
+      "name": "archivo",
+      "description": "Este término se refiere a la tecnología de la comunicación."
     },
     "fr": {
-      "name": "fichier"
+      "name": "fichier",
+      "description": "Ce terme fait référence aux technologies de communication."
     },
     "hu": {
-      "name": "fájl"
+      "name": "fájl",
+      "description": "Ez a kifejezés a kommunikációs technológiához kapcsolódik."
     },
     "pt": {
-      "name": "arquivo"
+      "name": "arquivo",
+      "description": "Este termo refere-se à tecnologia da comunicação."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "2e079495c7a64a4ccede0c41cdb100a775023221"
+    },
+    "sound/en.mp3": {
+      "bytes": 6480,
+      "sha1": "c4d98a4dc95d17202a00cc3b506465e0bd95825c"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "daabd021e7352dbb6f487d6770f95c53ea830c4e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "08b9d13c26cdc017f9e4740a0a3fc09e119d8f2e"
+    },
+    "sound/it.mp3": {
+      "bytes": 4752,
+      "sha1": "c096d6b10ccca43ab4ebc1710e7549c9a25c8f69"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "f6ffbeef2ecfd0285274c07ed0a2e152478b53f1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "601142a36e53d48112fb0188d04f23d09c4f2c96"
+    },
+    "sound/hu.mp3": {
+      "bytes": 9648,
+      "sha1": "158862d0440182b4fc98e3cbd60978e436adbb86"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "1eb26e6be00e5263a0912d76b39b65ab9464c268"
     }
   }
 }

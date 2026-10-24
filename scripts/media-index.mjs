@@ -11,11 +11,6 @@
  *   3. src/data/media.config.json      R2 root + section → path mapping;
  *      a sidebar entry's media URL = root + sectionPath + manifest.key
  *
- * Transitional legacy bridge: sidebar item ids WITHOUT a manifest resolve from
- * public/data/entities/*.json (the 532 legacy entities, audio at
- * media.verbologic.com/audio/<lang>/<id>.mp3). As TTS / media-native content
- * lands, manifests appear and the bridge stops applying to them.
- *
  * Structure-first policy (manual/architecture.md): the sidebars — the design
  * layer — MAY reference ids whose content has not been created yet. Such a
  * PLANNED id produces no record (the topic counts only what exists) and is
@@ -46,7 +41,6 @@ const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const SIDEBARS = join(ROOT, 'src', 'data', 'sidebars')
 const CONFIG = join(ROOT, 'src', 'data', 'media.config.json')
 const MEDIA = join(ROOT, 'media')
-const ENTITIES = join(ROOT, 'public', 'data', 'entities')
 const OUT = join(ROOT, 'public', 'data', 'media')
 
 const MIME_BY_EXT = {
@@ -83,6 +77,10 @@ walkSidebars(SIDEBARS)
 /** Title manifests use chapter/topic codes; learning items use topic-scoped codes. */
 const manifestsById = new Map() // title id -> [{ manifest, sectionPath }]
 const manifestsByTopicId = new Map() // `${topic}\n${id}` -> [{ manifest, sectionPath }]
+/** `${topic}\n${legacy_entity_id}` -> same entries. Sidebars still reference the
+ *  pre-migration ids for content that was converted from the retired
+ *  `public/data/entities/` bridge, so the old id has to keep resolving. */
+const manifestsByLegacyId = new Map()
 
 /**
  * Manifest kinds that describe a chapter or topic title rather than a learning
@@ -169,12 +167,18 @@ const walkManifests = (dir, sectionPath) => {
         ? item.code
         : `${item.topic}\n${item.code}`
       if (!map.has(manifestKey)) map.set(manifestKey, [])
+      const legacyKey = item.legacy_entity_id
+        ? `${item.topic}\n${item.legacy_entity_id}`
+        : null
+      if (legacyKey && !manifestsByLegacyId.has(legacyKey)) manifestsByLegacyId.set(legacyKey, [])
       for (const locale of LOCALES_ALL) {
         if (!nameOf(item, locale)) continue
-        map.get(manifestKey).push({
+        const entry = {
           manifest: localizeItem(item, p, locale),
           sectionPath
-        })
+        }
+        map.get(manifestKey).push(entry)
+        if (legacyKey) manifestsByLegacyId.get(legacyKey).push(entry)
       }
     }
   }
@@ -217,12 +221,6 @@ for (const [id, entries] of manifestsById) {
   }
 }
 
-/** Legacy entities by id — the transitional bridge for ids without a manifest. */
-const entitiesById = new Map()
-for (const file of readdirSync(ENTITIES).filter((f) => f.endsWith('.json'))) {
-  for (const entity of readJson(join(ENTITIES, file))) entitiesById.set(entity.id, entity)
-}
-
 /* ── record assembly ───────────────────────────────────────────────────── */
 
 /** Repository manifest -> runtime record (URL built from the config root). */
@@ -254,31 +252,6 @@ function manifestRecord(manifest, section) {
     example: manifest.example ?? null,
     topic: manifest.topic,
     entity_id: manifest.entity_id ?? manifest.id
-  }
-}
-
-/** Legacy entity -> runtime record (all legacy media is audio). */
-function legacyRecord(entity, section, topic) {
-  return {
-    id: entity.id,
-    section,
-    kind: entity.type,
-    lang: entity.lang,
-    source: 'legacy',
-    term: entity.term,
-    names: { ...(entity.translations ?? {}), [entity.lang]: entity.term },
-    ipa: entity.ipa ?? null,
-    media: {
-      url: entity.audio,
-      mime: 'audio/mpeg',
-      bytes: 0,
-      sha1: null
-    },
-    tags: [],
-    context: entity.context ?? null,
-    example: entity.example ?? null,
-    topic,
-    entity_id: entity.id
   }
 }
 
@@ -319,18 +292,14 @@ for (const sidebar of sidebars) {
       const scope =
         topic.mode === 'directional' && topic.target ? new Set([topic.target]) : null
       for (const id of topic.items) {
-        const manifests = manifestsByTopicId.get(`${topic.code}\n${id}`)
+        const manifests =
+          manifestsByTopicId.get(`${topic.code}\n${id}`) ??
+          manifestsByLegacyId.get(`${topic.code}\n${id}`)
         if (manifests?.length) {
           for (const { manifest } of manifests) {
             if (scope && !scope.has(manifest.lang)) continue
             records.push(manifestRecord({ ...manifest, topic: topic.code }, sidebar.id))
           }
-          continue
-        }
-        const entity = entitiesById.get(id)
-        if (entity) {
-          if (scope && !scope.has(entity.lang)) continue
-          records.push(legacyRecord(entity, sidebar.id, topic.code))
           continue
         }
         // PLANNED item — content not created yet; no record, never fatal.

@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Daily Life"
+      "name": "Daily Life",
+      "description": "This chapter covers vocabulary related to daily life."
     },
     "ro": {
       "name": "Viața de zi cu zi",
-      "ipa": "/ˈvjatsa de zi ku zi/"
+      "ipa": "/ˈvjatsa de zi ku zi/",
+      "description": "Acest capitol acoperă vocabularul legat de viața de zi cu zi."
+    },
+    "de": {
+      "description": "Dieses Kapitel umfasst Wortschatz rund um den Alltag.",
+      "name": "Alltag"
+    },
+    "ru": {
+      "description": "В этой главе рассматривается словарный запас, связанный с повседневной жизнью.",
+      "name": "Повседневная жизнь"
+    },
+    "it": {
+      "description": "Questo capitolo comprende il vocabolario relativo alla vita quotidiana.",
+      "name": "Vita quotidiana"
+    },
+    "es": {
+      "description": "Este capítulo cubre el vocabulario relacionado con la vida cotidiana.",
+      "name": "Vida cotidiana"
+    },
+    "fr": {
+      "description": "Ce chapitre couvre le vocabulaire lié à la vie quotidienne.",
+      "name": "Vie quotidienne"
+    },
+    "hu": {
+      "description": "Ez a fejezet a mindennapi élettel kapcsolatos szókincset tartalmazza.",
+      "name": "Mindennapi élet"
+    },
+    "pt": {
+      "description": "Este capítulo abrange o vocabulário relacionado à vida cotidiana.",
+      "name": "Vida cotidiana"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12672,
       "sha1": "588b0aec1102f7ad14a0fb369bd664ed5d7a94d4"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "c7b0acd88df39f64b65e2bae999fb67a9d6eecca"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "dee2b7914de2b3038429ea2f3a00ccd23e863be2"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14400,
+      "sha1": "528b0f9b730259871d553876caabe875f02f1f5a"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "230a6544bc4dcaae37133e1f165b6768dd6a925a"
+    },
+    "sound/es.mp3": {
+      "bytes": 12384,
+      "sha1": "d8e39aad6b45dbf020a11f0930e9fe00c031a6ae"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12096,
+      "sha1": "9dae841a902c6bab3510e27f2a529e2db437643c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13824,
+      "sha1": "c052bb81f90954dbf035d3cef555210f9a6ec277"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14400,
+      "sha1": "49443c54fa5d00ad214c8603a3a3b3acc9aa3ceb"
     }
   }
 }

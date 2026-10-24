@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Ai nevoie de ajutor?"
+      "name": "Ai nevoie de ajutor?",
+      "description": "O întrebare prin care se află dacă cineva are nevoie de ajutor."
+    },
+    "en": {
+      "description": "A question asking someone if they need help.",
+      "name": "Do you need help?"
+    },
+    "de": {
+      "description": "Eine Frage, mit der man jemanden fragt, ob er Hilfe braucht.",
+      "name": "Brauchst du Hilfe?"
+    },
+    "ru": {
+      "description": "Вопрос о том, нужна ли кому-то помощь.",
+      "name": "Тебе нужна помощь?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere a qualcuno se ha bisogno di aiuto.",
+      "name": "Hai bisogno di aiuto?"
+    },
+    "es": {
+      "description": "Una pregunta para saber si alguien necesita ayuda.",
+      "name": "¿Necesitas ayuda?"
+    },
+    "fr": {
+      "description": "Une question demandant à quelqu'un s'il a besoin d'aide.",
+      "name": "As-tu besoin d'aide ?"
+    },
+    "hu": {
+      "description": "Kérdés arról, hogy van-e valakinek szüksége segítségre.",
+      "name": "Szükséged van segítségre?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se alguém precisa de ajuda.",
+      "name": "Você precisa de ajuda?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13680,
       "sha1": "7fc863360b08d1c762327edbd230f0e58fa966a6"
+    },
+    "sound/de.mp3": {
+      "bytes": 11520,
+      "sha1": "1b0b5a20237fe414076329d5c71eb35c2f82acba"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "38d403fe9ac676a84d1bb08735ebe64edc1f2847"
+    },
+    "sound/it.mp3": {
+      "bytes": 9072,
+      "sha1": "de510a55bca4b1388c07867ff709d42f613c7761"
+    },
+    "sound/es.mp3": {
+      "bytes": 13248,
+      "sha1": "85421ab0c1066e09e39001e69567f22c742bee90"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17136,
+      "sha1": "57447596bafbce37ef202fe1e5f1f1e33608353e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13104,
+      "sha1": "409833dccc4c1282f04c81d8b33061b3185c855a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13392,
+      "sha1": "820c8c6bb4e12eb5ff039c4747a811511954e260"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15840,
+      "sha1": "69a37987b5c9f7ea144ab7e29ac369af6b1771ce"
     }
   }
 }

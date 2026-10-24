@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "computer"
+      "name": "computer",
+      "description": "This term relates to communication technology and computing devices."
     },
     "ro": {
       "name": "calculator",
-      "ipa": "/kalkulaˈtor/"
+      "ipa": "/kalkulaˈtor/",
+      "description": "Acest termen se referă la tehnologia comunicațiilor și dispozitivele informatice."
     },
     "de": {
-      "name": "Computer"
+      "name": "Computer",
+      "description": "Dieser Begriff bezieht sich auf Kommunikationstechnologie und Computergeräte."
     },
     "ru": {
-      "name": "компьютер"
+      "name": "компьютер",
+      "description": "Этот термин относится к коммуникационным технологиям и компьютерным устройствам."
     },
     "it": {
-      "name": "computer"
+      "name": "computer",
+      "description": "Questo termine si riferisce alla tecnologia della comunicazione e ai dispositivi informatici."
     },
     "es": {
-      "name": "ordenador"
+      "name": "ordenador",
+      "description": "Este término se refiere a la tecnología de la comunicación y a los dispositivos informáticos."
     },
     "fr": {
-      "name": "ordinateur"
+      "name": "ordinateur",
+      "description": "Ce terme fait référence aux technologies de la communication et aux appareils informatiques."
     },
     "hu": {
-      "name": "számítógép"
+      "name": "számítógép",
+      "description": "Ez a kifejezés a kommunikációs technológiára és a számítástechnikai eszközökre vonatkozik."
     },
     "pt": {
-      "name": "computador"
+      "name": "computador",
+      "description": "Este termo refere-se à tecnologia de comunicação e a dispositivos informáticos."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
       "sha1": "8fb1e51cbc3ee9e77c4fcf6bc0bca8ac4b0cc66a"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "f66616c3fcac0de8ee987323f679eb04cdcfda03"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "9f7cced22bd270b37570496397d04e130f189aff"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11376,
+      "sha1": "6164bb9e748a46e84a22b16cb87541ce7ca6d8d8"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "a43b5d2cf64344d1da67ba7fbf49884ecc2fecc9"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "e96881bc6d61f272f8b08f3fb841294407662a25"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "3a511b5ccd31557decf45d6d9415f2c8793c3dcc"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12672,
+      "sha1": "1a6426816695fdd7a3b8dae33f81e1c3f684dfdd"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11664,
+      "sha1": "22b013fe4cb29d32153b9c04ba21c5cf9973f6a7"
     }
   }
 }

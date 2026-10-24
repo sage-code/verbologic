@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "gold"
+      "name": "gold",
+      "description": "This vocabulary item relates to nature and the planet."
     },
     "ro": {
       "name": "aur",
-      "ipa": "/ˈaur/"
+      "ipa": "/ˈaur/",
+      "description": "Acest termen de vocabular este legat de natură și planetă."
     },
     "de": {
-      "name": "Gold"
+      "name": "Gold",
+      "description": "Dieser Wortschatzeintrag bezieht sich auf die Natur und den Planeten."
     },
     "ru": {
-      "name": "золото"
+      "name": "золото",
+      "description": "Эта словарная единица относится к теме природы и планеты."
     },
     "it": {
-      "name": "oro"
+      "name": "oro",
+      "description": "Questo elemento del vocabolario riguarda la natura e il pianeta."
     },
     "es": {
-      "name": "oro"
+      "name": "oro",
+      "description": "Este elemento de vocabulario se refiere a la naturaleza y el planeta."
     },
     "fr": {
-      "name": "or"
+      "name": "or",
+      "description": "Ce terme de vocabulaire se rapporte à la nature et à la planète."
     },
     "hu": {
-      "name": "arany"
+      "name": "arany",
+      "description": "Ez a szókincselem a természettel és a bolygóval kapcsolatos."
     },
     "pt": {
-      "name": "ouro"
+      "name": "ouro",
+      "description": "Este item de vocabulário está relacionado à natureza e ao planeta."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "e20db258d04c64ab3c9d322b93b9e0337b45ce61"
+    },
+    "sound/en.mp3": {
+      "bytes": 4608,
+      "sha1": "32410bbef717455cf7dfaf3c1874eebdf035463d"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "0eaf87c8743fbdf7c43a16e8260eb91a6b768134"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "d5fa15be1a4f8ea447fa3bbccfe0f91817b4a3c2"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "9d2140dd7c19cbe4d8b8cbd0dcbb691b88c7555a"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "d93acd720b89d81edfef84d022680a76d7e5b75c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "94a0e53020bb355600cb92f4a5dfb4e91a54e302"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "c23dedd27cb881c8567b15cb05f03ccebd888463"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "8df06425ee19eb8cffdedc27b96dcfd41bad9811"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "to write"
+      "name": "to write",
+      "description": "To travel to one's place of employment."
     },
     "ro": {
       "name": "a scrie",
-      "ipa": "/a ˈskrie/"
+      "ipa": "/a ˈskrie/",
+      "description": "A se deplasa la locul de muncă."
     },
     "de": {
-      "name": "schreiben"
+      "name": "schreiben",
+      "description": "Zu seinem Arbeitsplatz fahren oder gehen."
     },
     "ru": {
-      "name": "писать"
+      "name": "писать",
+      "description": "Отправляться на своё рабочее место."
     },
     "it": {
-      "name": "scrivere"
+      "name": "scrivere",
+      "description": "Recarsi sul proprio luogo di lavoro."
     },
     "es": {
-      "name": "escribir"
+      "name": "escribir",
+      "description": "Desplazarse al lugar de trabajo."
     },
     "fr": {
-      "name": "écrire"
+      "name": "écrire",
+      "description": "Se rendre sur son lieu de travail."
     },
     "hu": {
-      "name": "írni"
+      "name": "írni",
+      "description": "Elindulni a munkahelyre."
     },
     "pt": {
-      "name": "escrever"
+      "name": "escrever",
+      "description": "Deslocar-se para o local de trabalho."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "5e0b41e97dcd8201ccf2493a82d7fae32403014a"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "b65f268791d25397d0760641352cb75796444ec5"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "921a59dfea048ccc3ce84537c2ea355578503cdf"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "93eb9c1650f6c93dd151ec8202817934bda618f0"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "5ece4f1308f3b1ecad5c003b6b5a776245c7b63c"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "c8b54402126a4290fd0208259e7478be6a7bc99b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 9072,
+      "sha1": "2a885f19387c81dc68b2dc0a710d1708c7ef3daa"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "abed64449a08f51a8e4e4397dd4ad448b465e3ca"
+    },
+    "sound/pt.mp3": {
+      "bytes": 10800,
+      "sha1": "d352330978765a542e1649a59148e15fdf4913c1"
     }
   }
 }

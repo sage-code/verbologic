@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "The client has a contract."
+      "name": "The client has a contract.",
+      "description": "A sentence stating that the client possesses a contract."
     },
     "ro": {
-      "name": "Clientul are un contract."
+      "name": "Clientul are un contract.",
+      "description": "O propoziție care afirmă că un client are un contract."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass der Kunde einen Vertrag hat.",
+      "name": "Der Kunde hat einen Vertrag."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее о том, что у клиента есть договор.",
+      "name": "У клиента есть договор."
+    },
+    "it": {
+      "description": "Una frase che indica che il cliente possiede un contratto.",
+      "name": "Il cliente ha un contratto."
+    },
+    "es": {
+      "description": "Una frase que indica que el cliente tiene un contrato.",
+      "name": "El cliente tiene un contrato."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le client a un contrat.",
+      "name": "Le client a un contrat."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kijelenti, hogy az ügyfélnek van egy szerződése.",
+      "name": "Az ügyfélnek van egy szerződése."
+    },
+    "pt": {
+      "description": "Uma frase que afirma que o cliente tem um contrato.",
+      "name": "O cliente tem um contrato."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14688,
       "sha1": "b4b6835adf446205b9dec08a3bdb6fa19c1e18f7"
+    },
+    "sound/de.mp3": {
+      "bytes": 14688,
+      "sha1": "a3df9cb0dd212c044d95eed8f474470cd913ae03"
+    },
+    "sound/it.mp3": {
+      "bytes": 16128,
+      "sha1": "0fca9ec0a7eb47d7cdcfca26d72342656470796c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13104,
+      "sha1": "356f1a83b3be7fcf2b74ae8ed9f53fba794b7664"
+    },
+    "sound/es.mp3": {
+      "bytes": 16704,
+      "sha1": "63516731859cbaab72fa199bad9139369c81b7c9"
+    },
+    "sound/en.mp3": {
+      "bytes": 10512,
+      "sha1": "f229f2127d8edec935fdd2586ef5ab2ec941b49a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16848,
+      "sha1": "5e1c38e4ae6112c47d6dec49364a72be52333e26"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16128,
+      "sha1": "fb6d9ebc464c6a9277345e8e61e8aedbd414d586"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13968,
+      "sha1": "902319c09a0135255a6146d8783c2c31596395b0"
     }
   }
 }

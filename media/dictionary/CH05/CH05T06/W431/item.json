@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Christmas"
+      "name": "Christmas",
+      "description": "A vocabulary item related to holidays and celebrations."
     },
     "ro": {
       "name": "Crăciun",
-      "ipa": "/krəˈtʃun/"
+      "ipa": "/krəˈtʃun/",
+      "description": "Un element de vocabular legat de sărbători și celebrări."
     },
     "de": {
-      "name": "Weihnachten"
+      "name": "Weihnachten",
+      "description": "Ein Vokabeleintrag rund um Feiertage und Feste."
     },
     "ru": {
-      "name": "Рождество"
+      "name": "Рождество",
+      "description": "Словарная единица, относящаяся к праздникам и торжествам."
     },
     "it": {
-      "name": "Natale"
+      "name": "Natale",
+      "description": "Un termine del vocabolario relativo a festività e celebrazioni."
     },
     "es": {
-      "name": "Navidad"
+      "name": "Navidad",
+      "description": "Un término de vocabulario relacionado con días festivos y celebraciones."
     },
     "fr": {
-      "name": "Noël"
+      "name": "Noël",
+      "description": "Un terme de vocabulaire lié aux fêtes et aux célébrations."
     },
     "hu": {
-      "name": "Karácsony"
+      "name": "Karácsony",
+      "description": "Az ünnepekkel és ünnepléssel kapcsolatos szókincselem."
     },
     "pt": {
-      "name": "Natal"
+      "name": "Natal",
+      "description": "Um item de vocabulário relacionado a feriados e celebrações."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "894f2ce13bd5e885fed5667abb0793b04afa5d71"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "425ed67ccf9a666e4adec517341d4abe439377ee"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "64507b509a0e53496a184bfafdeec22850b5bae5"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11520,
+      "sha1": "fd8a77271439c7a551353c0a8892eb91ee0b9ef3"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "ea4271d06a73e273cb2ad545441e693b44ccd443"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "f6e58075f3456b87cb519c2963b528441a07455c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "ffc36e9170f49b0d43589688c03147ce9994bf51"
+    },
+    "sound/hu.mp3": {
+      "bytes": 9072,
+      "sha1": "ed8373db5ea5516457caea294dbac1f34974bffe"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "30bde66d11f6f1b2780a63b7982275443605ea67"
     }
   }
 }

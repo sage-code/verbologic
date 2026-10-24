@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, merg la munte."
+      "name": "Nu, merg la munte.",
+      "description": "O propoziție care indică faptul că mergi la munte."
+    },
+    "en": {
+      "description": "A sentence stating that you are going to the mountains.",
+      "name": "No, I am going to the mountains."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass man in die Berge fährt.",
+      "name": "Nein, ich fahre in die Berge."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее о поездке в горы.",
+      "name": "Нет, я еду в горы."
+    },
+    "it": {
+      "description": "Una frase che afferma che stai andando in montagna.",
+      "name": "No, vado in montagna."
+    },
+    "es": {
+      "description": "Una frase que indica que vas a la montaña.",
+      "name": "No, voy a la montaña."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que vous allez à la montagne.",
+      "name": "Non, je vais à la montagne."
+    },
+    "hu": {
+      "description": "Mondat, amely kijelenti, hogy a hegyekbe mész.",
+      "name": "Nem, a hegyekbe megyek."
+    },
+    "pt": {
+      "description": "Uma frase indicando que você vai para as montanhas.",
+      "name": "Não, vou para as montanhas."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14832,
       "sha1": "a664614799dd3b63802fa467388493545f6adeee"
+    },
+    "sound/en.mp3": {
+      "bytes": 15264,
+      "sha1": "a33e09a7bf8412d1d19c2b46bf2e268cd990edd4"
+    },
+    "sound/de.mp3": {
+      "bytes": 16848,
+      "sha1": "6dc8a180255ac62ebc45d49ddbd7e415da24d862"
+    },
+    "sound/es.mp3": {
+      "bytes": 14400,
+      "sha1": "5ae06433c9a450c477869ab94fb42f0504b2aad3"
+    },
+    "sound/it.mp3": {
+      "bytes": 10944,
+      "sha1": "a2953d54a5c8657be9fc985a5e606c5453ddbd6a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16272,
+      "sha1": "0a2c499b192e407f3be6a3f93ea41c20d36e83df"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16128,
+      "sha1": "b7c2356c6af6ff449cca7e67cc424d20e485c9cb"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18576,
+      "sha1": "86877b07a9749d98ef5411390e8b2ae0052d50d2"
+    },
+    "sound/hu.mp3": {
+      "bytes": 18000,
+      "sha1": "407507f867d94138a74767371db9a87b77a93452"
     }
   }
 }

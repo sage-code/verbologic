@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "doctor"
+      "name": "doctor",
+      "description": "This vocabulary item relates to health and well-being."
     },
     "ro": {
       "name": "doctor",
-      "ipa": "/dokˈtor/"
+      "ipa": "/dokˈtor/",
+      "description": "Acest element de vocabular este legat de sănătate și bunăstare."
     },
     "de": {
-      "name": "Arzt"
+      "name": "Arzt",
+      "description": "Dieser Wortschatzeintrag bezieht sich auf Gesundheit und Wohlbefinden."
     },
     "ru": {
-      "name": "врач"
+      "name": "врач",
+      "description": "Эта словарная единица связана со здоровьем и благополучием."
     },
     "it": {
-      "name": "dottore"
+      "name": "dottore",
+      "description": "Questo elemento di vocabolario riguarda la salute e il benessere."
     },
     "es": {
-      "name": "doctor"
+      "name": "doctor",
+      "description": "Este elemento de vocabulario está relacionado con la salud y el bienestar."
     },
     "fr": {
-      "name": "docteur"
+      "name": "docteur",
+      "description": "Cet élément de vocabulaire se rapporte à la santé et au bien-être."
     },
     "hu": {
-      "name": "orvos"
+      "name": "orvos",
+      "description": "Ez a szókincselem az egészséggel és a jólléttel kapcsolatos."
     },
     "pt": {
-      "name": "médico"
+      "name": "médico",
+      "description": "Este item de vocabulário está relacionado à saúde e ao bem-estar."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "667afc51c04e67d99ff55ae366dfc8188a898aa6"
+    },
+    "sound/en.mp3": {
+      "bytes": 6480,
+      "sha1": "1528d354f38000e9ba0189048742ec5afab02930"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "53f865ae857c8beb11da2d63950a25baab4fadec"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "371c50308aade5e58dbfbf445b263a0999e7eb26"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "eb6d51792bca78fe34067bc39688b681b57a13be"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "ca10bc830d330e180c3a1c56182c773325767950"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "51455d13e8123e92165a7deb433ebf28c1560066"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "e7060583b4a871465aa1eb37f8a6c464eea4f743"
+    },
+    "sound/pt.mp3": {
+      "bytes": 10080,
+      "sha1": "d4a6bdafc819e880c8fd180f20608ddd3a513cf3"
     }
   }
 }

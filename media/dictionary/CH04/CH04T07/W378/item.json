@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "doctor"
+      "name": "doctor",
+      "description": "This vocabulary word relates to health emergencies."
     },
     "ro": {
       "name": "doctor",
-      "ipa": "/dokˈtor/"
+      "ipa": "/dokˈtor/",
+      "description": "Acest cuvânt de vocabular se referă la urgențe medicale."
     },
     "de": {
-      "name": "Arzt"
+      "name": "Arzt",
+      "description": "Diese Vokabel bezieht sich auf medizinische Notfälle."
     },
     "ru": {
-      "name": "врач"
+      "name": "врач",
+      "description": "Это словарное слово относится к экстренным медицинским ситуациям."
     },
     "it": {
-      "name": "medico"
+      "name": "medico",
+      "description": "Questo termine del vocabolario si riferisce alle emergenze sanitarie."
     },
     "es": {
-      "name": "médico"
+      "name": "médico",
+      "description": "Esta palabra de vocabulario se refiere a emergencias de salud."
     },
     "fr": {
-      "name": "médecin"
+      "name": "médecin",
+      "description": "Ce mot de vocabulaire se rapporte aux urgences médicales."
     },
     "hu": {
-      "name": "orvos"
+      "name": "orvos",
+      "description": "Ez a szókincsbeli szó az egészségügyi vészhelyzetekre vonatkozik."
     },
     "pt": {
-      "name": "médico"
+      "name": "médico",
+      "description": "Esta palavra de vocabulário refere-se a emergências de saúde."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "22998d50ed0619c3744a6415fd8408a109a456e6"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "b8925b570eb9481b79ab4775b99815acd412650f"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "4815b53c1940b0379a75cba97d2f8c77db5f35ee"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "0c1884c263ed7106635a463c0161ad4ecaa4e92f"
+    },
+    "sound/it.mp3": {
+      "bytes": 6480,
+      "sha1": "95ea49ad698a67853b70850e4bda97f568dee4b4"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "b8e73a558a860d570c6410acf7603d71f3104846"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "c6405613165a95a32daabdf34a6b39432d13ee52"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "f4000de14cd7f9dca219f6ba7f185d8089cbecf4"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "679e5db191111be58e04c09abbfb1ecd5b311a17"
     }
   }
 }

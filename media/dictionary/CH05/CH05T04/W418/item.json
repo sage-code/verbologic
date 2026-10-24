@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "letter"
+      "name": "letter",
+      "description": "This is a vocabulary item for chapter five, topic four."
     },
     "ro": {
       "name": "scrisoare",
-      "ipa": "/skriˈsoare/"
+      "ipa": "/skriˈsoare/",
+      "description": "Acesta este un element de vocabular pentru capitolul cinci, tema patru."
     },
     "de": {
-      "name": "Brief"
+      "name": "Brief",
+      "description": "Dies ist ein Vokabeleintrag für Kapitel fünf, Thema vier."
     },
     "ru": {
-      "name": "письмо"
+      "name": "письмо",
+      "description": "Это словарная единица для пятой главы, темы четыре."
     },
     "it": {
-      "name": "lettera"
+      "name": "lettera",
+      "description": "Questo è un elemento di vocabolario per il capitolo cinque, argomento quattro."
     },
     "es": {
-      "name": "carta"
+      "name": "carta",
+      "description": "Este es un elemento de vocabulario para el capítulo cinco, tema cuatro."
     },
     "fr": {
-      "name": "lettre"
+      "name": "lettre",
+      "description": "Ceci est un élément de vocabulaire pour le chapitre cinq, thème quatre."
     },
     "hu": {
-      "name": "levél"
+      "name": "levél",
+      "description": "Ez egy szókincselem az ötödik fejezet, negyedik témához."
     },
     "pt": {
-      "name": "carta"
+      "name": "carta",
+      "description": "Este é um item de vocabulário para o capítulo cinco, tópico quatro."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "0f340aec60249eda762de9e438a7410dd6537d65"
+    },
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "e61ee4b7a26114752c0f561c607718e750b905f3"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "f63a5fdee1284c300b633da0cc23398c4c3489ea"
+    },
+    "sound/ru.mp3": {
+      "bytes": 9792,
+      "sha1": "768293be7bd57628b56689ad213c44c56b0a9ac7"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "191d46928847fb05130914c6e47fd31cc70cb02b"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "a96d7d7e5ecda9841cbb9f6ff5915a87cc3509d0"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "66e564c1daab80d037ea43f5eacc890b43d495da"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "9a61e0f2f6fdecc8ac987f535927825ab606cdc9"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "cda67563817273eb3b6bfc59dcb8b533620e306a"
     }
   }
 }

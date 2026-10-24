@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "sugar"
+      "name": "sugar",
+      "description": "This vocabulary item relates to kitchen and food basics."
     },
     "ro": {
       "name": "zahăr",
-      "ipa": "/ˈzahər/"
+      "ipa": "/ˈzahər/",
+      "description": "Acest termen de vocabular se referă la noțiuni de bază despre bucătărie și alimente."
     },
     "de": {
-      "name": "Zucker"
+      "name": "Zucker",
+      "description": "Dieser Wortschatzeintrag bezieht sich auf Grundlagen zu Küche und Lebensmitteln."
     },
     "ru": {
-      "name": "Сахар"
+      "name": "Сахар",
+      "description": "Это словарное слово относится к базовым понятиям о кухне и еде."
     },
     "it": {
-      "name": "zucchero"
+      "name": "zucchero",
+      "description": "Questo termine del vocabolario si riferisce alle nozioni di base sulla cucina e sul cibo."
     },
     "es": {
-      "name": "azúcar"
+      "name": "azúcar",
+      "description": "Este término de vocabulario se refiere a conceptos básicos de cocina y alimentos."
     },
     "fr": {
-      "name": "sucre"
+      "name": "sucre",
+      "description": "Ce terme de vocabulaire se rapporte aux notions de base de la cuisine et de l'alimentation."
     },
     "hu": {
-      "name": "Cukor"
+      "name": "Cukor",
+      "description": "Ez a szókincselem a konyhai és élelmiszer-alapismeretekhez kapcsolódik."
     },
     "pt": {
-      "name": "Açúcar"
+      "name": "Açúcar",
+      "description": "Este termo de vocabulário refere-se a conceitos básicos de cozinha e alimentação."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "bc3250a63ab515537e5c2a9890836b7d9ef3f1d5"
+    },
+    "sound/en.mp3": {
+      "bytes": 6336,
+      "sha1": "91f161a14e5b9624205b1ff90b75383b813da65b"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "e5781243cd0934213c94a6ae6cb81e7807e86a5d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "94cf38cf2e39b39195e70613fdf7c89cd6d5c5dd"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "49e6d0eff95caf02d3688246534e32217c7459e9"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "9feef7c7d14ff64ed546b1d8eba50659cff65ae2"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "6ea2eff6946a718d74617aca369978b01b9a8672"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "026b77e0f2bacda3f4ae918e749fcdcecce9c00a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "0c1e2c2be61719688a1a19c111afa67a4b01c921"
     }
   }
 }

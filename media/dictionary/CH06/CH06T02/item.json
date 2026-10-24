@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Classroom language"
+      "name": "Classroom language",
+      "description": "Language and expressions used in the classroom."
     },
     "ro": {
       "name": "Limbajul de la clasă",
-      "ipa": "/limˈbaʒul de la ˈklasə/"
+      "ipa": "/limˈbaʒul de la ˈklasə/",
+      "description": "Limbaj și expresii utilizate în sala de clasă."
+    },
+    "de": {
+      "description": "Sprache und Ausdrücke, die im Klassenzimmer verwendet werden.",
+      "name": "Unterrichtssprache"
+    },
+    "ru": {
+      "description": "Язык и выражения, используемые в классе.",
+      "name": "Язык общения в классе"
+    },
+    "it": {
+      "description": "Linguaggio ed espressioni utilizzate in classe.",
+      "name": "Linguaggio della classe"
+    },
+    "es": {
+      "description": "Lenguaje y expresiones utilizadas en el aula.",
+      "name": "Lenguaje del aula"
+    },
+    "fr": {
+      "description": "Langage et expressions utilisés en classe.",
+      "name": "Langage de la classe"
+    },
+    "hu": {
+      "description": "A tanteremben használt nyelv és kifejezések.",
+      "name": "Tantermi nyelv"
+    },
+    "pt": {
+      "description": "Linguagem e expressões usadas na sala de aula.",
+      "name": "Linguagem de sala de aula"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13824,
       "sha1": "d2bb1306d1c8f374b6c55198d2c550ae334062c4"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8044555a853657c1b3d29747d2e8ddccdd84d382"
+    },
+    "sound/de.mp3": {
+      "bytes": 12384,
+      "sha1": "c28b34c5501d04642304950c6211bbbc4eaf3357"
+    },
+    "sound/it.mp3": {
+      "bytes": 15264,
+      "sha1": "dc431d85f6d1665eecc2f1f064039a1a9a8872cb"
+    },
+    "sound/es.mp3": {
+      "bytes": 13104,
+      "sha1": "2f2256e44e28300b7afa165202e1fee3bd993423"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13536,
+      "sha1": "4247d877700aaa6f80e28f19f38252d7b4949a2f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "8e9bb39d4f07b1f1b46baaac885714f92515426d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13824,
+      "sha1": "417161e043a65ea2215d3b414988cb5e30398bf1"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15696,
+      "sha1": "ab1a83f26843f5b06cc6bad233e3dc9bacc0e0ba"
     }
   }
 }

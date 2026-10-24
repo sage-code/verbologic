@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Ești student?"
+      "name": "Ești student?",
+      "description": "O întrebare despre statutul de student al cuiva."
+    },
+    "en": {
+      "description": "A question asking whether someone is a student.",
+      "name": "Are you a student?"
+    },
+    "de": {
+      "description": "Eine Frage, die danach fragt, ob jemand Student ist.",
+      "name": "Bist du Student?"
+    },
+    "ru": {
+      "description": "Вопрос о том, является ли собеседник студентом.",
+      "name": "Ты студент?"
+    },
+    "it": {
+      "description": "Una domanda che chiede se qualcuno sia uno studente.",
+      "name": "Sei uno studente?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si la otra persona es estudiante.",
+      "name": "¿Eres estudiante?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un est étudiant.",
+      "name": "Es-tu étudiant ?"
+    },
+    "hu": {
+      "description": "Kérdés arról, hogy a beszélgetőpartner diák-e.",
+      "name": "Diák vagy?"
+    },
+    "pt": {
+      "description": "Uma pergunta sobre a outra pessoa ser estudante.",
+      "name": "Você é estudante?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11376,
       "sha1": "9b9f9cc70190236079247ac8d78624f2af7d66fd"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "4ba0730385c02e1249d00c4a5e411f7a61984b5c"
+    },
+    "sound/de.mp3": {
+      "bytes": 11376,
+      "sha1": "df12121085d83fe48ec0948c0a893ca1141f384e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11088,
+      "sha1": "113585de9ff7a3867adb796cf534f05586d26411"
+    },
+    "sound/it.mp3": {
+      "bytes": 13392,
+      "sha1": "6dfbdba9805d55b04078f6717e9ff9802337a620"
+    },
+    "sound/es.mp3": {
+      "bytes": 12528,
+      "sha1": "f1c0afe5eee7bf4be6729c35d0837c333923b5de"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "55b82d819546b0d3db862384159cf951c5fab4d9"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "2b91b93fa2ee4d53457abe277d80cbcb15b2da59"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11952,
+      "sha1": "f8158aef87d69c4a786e362cd8ec4119af6aa946"
     }
   }
 }

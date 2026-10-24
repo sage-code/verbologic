@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, am calculator."
+      "name": "Nu, am calculator.",
+      "description": "O afirmație care indică faptul că o persoană deține un calculator."
+    },
+    "en": {
+      "description": "A statement indicating that one possesses a computer.",
+      "name": "No, I have a computer."
+    },
+    "de": {
+      "description": "Eine Aussage, die angibt, dass man einen Computer besitzt.",
+      "name": "Nein, ich habe einen Computer."
+    },
+    "ru": {
+      "description": "Утверждение о том, что у говорящего есть компьютер.",
+      "name": "Нет, у меня есть компьютер."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che si possiede un computer.",
+      "name": "No, ho un computer."
+    },
+    "es": {
+      "description": "Una afirmación que indica que se dispone de un ordenador.",
+      "name": "No, tengo un ordenador."
+    },
+    "fr": {
+      "description": "Une déclaration indiquant que l'on possède un ordinateur.",
+      "name": "Non, j'ai un ordinateur."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely azt fejezi ki, hogy valakinek van számítógépe.",
+      "name": "Nem, van számítógépem."
+    },
+    "pt": {
+      "description": "Uma declaração indicando que a pessoa possui um computador.",
+      "name": "Não, eu tenho um computador."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15696,
       "sha1": "2fa29f55ff291b9e3655b6f36323008a18bfe8d8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11808,
+      "sha1": "91ee312967e1595df0d0f5b5c46bcfade72dc99f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18000,
+      "sha1": "914827daa40cf4eecb6de041f7fb6ac633b00b98"
+    },
+    "sound/de.mp3": {
+      "bytes": 17712,
+      "sha1": "aef75ee15ee47009e66fd5f1dda01717f64a853b"
+    },
+    "sound/it.mp3": {
+      "bytes": 13104,
+      "sha1": "5b84911cb9a8c9061a0784566ba4866e387129e8"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16272,
+      "sha1": "3b82778f9f33833bb36ce19674433e55ce996457"
+    },
+    "sound/es.mp3": {
+      "bytes": 15120,
+      "sha1": "b64c27b2c2f7ce5e8da14b24d833fbc913ef469b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17712,
+      "sha1": "8ffd53248d31441188a3bba6566e6fb1c33cb308"
+    },
+    "sound/hu.mp3": {
+      "bytes": 19296,
+      "sha1": "bd1e666fba613710559bc77082ce289f05f25532"
     }
   }
 }

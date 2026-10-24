@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "elevator"
+      "name": "elevator",
+      "description": "This word is related to accommodation."
     },
     "ro": {
       "name": "lift",
-      "ipa": "/lift/"
+      "ipa": "/lift/",
+      "description": "Acest cuvânt este legat de cazare."
     },
     "de": {
-      "name": "Aufzug"
+      "name": "Aufzug",
+      "description": "Dieses Wort steht im Zusammenhang mit Unterkunft."
     },
     "ru": {
-      "name": "лифт"
+      "name": "лифт",
+      "description": "Это слово связано с темой жилья."
     },
     "it": {
-      "name": "ascensore"
+      "name": "ascensore",
+      "description": "Questa parola è correlata all'alloggio."
     },
     "es": {
-      "name": "ascensor"
+      "name": "ascensor",
+      "description": "Esta palabra está relacionada con el alojamiento."
     },
     "fr": {
-      "name": "ascenseur"
+      "name": "ascenseur",
+      "description": "Ce mot est lié à l'hébergement."
     },
     "hu": {
-      "name": "lift"
+      "name": "lift",
+      "description": "Ez a szó a szállással kapcsolatos."
     },
     "pt": {
-      "name": "elevador"
+      "name": "elevador",
+      "description": "Esta palavra está relacionada com alojamento."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "13aab8447cf174116ad5cd71a0cc1a749e7cc3ef"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "e020adbe32d56ae292b24f71622855814998ffbe"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "8c3c33016b544c5aa69fe35941bf69b64ad08c21"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "9382636137f8628fbe9fe6d94f3f248abf4fc2b8"
+    },
+    "sound/it.mp3": {
+      "bytes": 11808,
+      "sha1": "9fc6dc37c7096c156532bf72da295ef2bfc2bce7"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "78a23f1dbd5c641afe2f6b181e9ee761c98f6772"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "30de164e0e7038283c2ff71716550a06af0273e9"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "5c8972e58e4f559062660e80f759b281bf46b60f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 9360,
+      "sha1": "e7dc9e2ab17d1a346ffe983c6bb90387e1c5b4d3"
     }
   }
 }

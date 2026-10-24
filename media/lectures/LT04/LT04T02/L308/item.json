@@ -12,13 +12,78 @@
   "locales": {
     "ro": {
       "name": "La revedere",
-      "context": "Standard polite form, suitable for formal and neutral contexts."
+      "context": "Standard polite form, suitable for formal and neutral contexts.",
+      "description": "O expresie standard folosită la despărțirea de cineva."
+    },
+    "en": {
+      "description": "A standard expression used when parting from someone.",
+      "name": "Goodbye"
+    },
+    "de": {
+      "description": "Ein standardmäßiger Ausdruck, der bei der Verabschiedung von jemandem verwendet wird.",
+      "name": "Auf Wiedersehen"
+    },
+    "ru": {
+      "description": "Стандартное выражение, используемое при расставании с кем-либо.",
+      "name": "До свидания"
+    },
+    "it": {
+      "description": "Un'espressione comune usata quando ci si congeda da qualcuno.",
+      "name": "Arrivederci"
+    },
+    "es": {
+      "description": "Una expresión estándar utilizada al despedirse de alguien.",
+      "name": "Hasta la vista"
+    },
+    "fr": {
+      "description": "Une expression standard utilisée lorsque l'on quitte quelqu'un.",
+      "name": "Au revoir"
+    },
+    "hu": {
+      "description": "Hagyományos kifejezés, amelyet elváláskor használnak.",
+      "name": "Viszontlátásra"
+    },
+    "pt": {
+      "description": "Uma expressão padrão usada ao se despedir de alguém.",
+      "name": "Até logo"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "9875e60822aa917a285a523d5f2ece69047bba6e"
+    },
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "9d8ed2891057ceb4c662a5e037a1a6cf4885d095"
+    },
+    "sound/de.mp3": {
+      "bytes": 11376,
+      "sha1": "3d4a6184d4c4ed32552993d955e713e197a5e97b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12960,
+      "sha1": "2b9583211166a9abb0f5ab3c250e9ed56b162622"
+    },
+    "sound/it.mp3": {
+      "bytes": 13248,
+      "sha1": "f4e4c12f053d2be7c301e4ce3a4838a403cd7e59"
+    },
+    "sound/es.mp3": {
+      "bytes": 11664,
+      "sha1": "e4ba8822b68302f9212488056cc5d6363b6ccb3f"
+    },
+    "sound/fr.mp3": {
+      "bytes": 10512,
+      "sha1": "14e5a43a2f9dbde231b4ee3d66a05d3f112887fe"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11952,
+      "sha1": "b26b746eab2dceff37571729c5e72cb788b3e0e6"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "0dcdba5e77b4629acb04b3dfa9e2a33a2b5a11cd"
     }
   }
 }

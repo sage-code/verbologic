@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, mă trezesc dimineața devreme."
+      "name": "Da, mă trezesc dimineața devreme.",
+      "description": "O afirmație care confirmă trezirea devreme dimineața."
+    },
+    "en": {
+      "description": "A statement confirming waking up early in the morning.",
+      "name": "Yes, I wake up early in the morning."
+    },
+    "de": {
+      "description": "Eine Aussage, die das frühe Aufwachen am Morgen bestätigt.",
+      "name": "Ja, ich wache morgens früh auf."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее привычку просыпаться рано утром.",
+      "name": "Да, я просыпаюсь рано утром."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma l'abitudine di svegliarsi presto la mattina.",
+      "name": "Sì, mi sveglio la mattina presto."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que la persona se despierta temprano por la mañana.",
+      "name": "Sí, me despierto temprano por la mañana."
+    },
+    "fr": {
+      "description": "Une phrase confirmant le réveil matinal.",
+      "name": "Oui, je me réveille tôt le matin."
+    },
+    "hu": {
+      "description": "Állítás, amely megerősíti a kora reggeli ébredést.",
+      "name": "Igen, kora reggel ébredek."
+    },
+    "pt": {
+      "description": "Uma afirmação que confirma o hábito de acordar cedo pela manhã.",
+      "name": "Sim, eu acordo cedo de manhã."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 20016,
       "sha1": "48381cbe4a96f10b20da58770f8603b1b88c4444"
+    },
+    "sound/en.mp3": {
+      "bytes": 13536,
+      "sha1": "3846dc11bff7d81d87e41881a2b95b3275a267c5"
+    },
+    "sound/de.mp3": {
+      "bytes": 17568,
+      "sha1": "17fd72b9719a852af6d1d49a026c9175ca74c61d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 19584,
+      "sha1": "f53ebbb733bfaf814b9171897b5d7729dc938170"
+    },
+    "sound/it.mp3": {
+      "bytes": 20160,
+      "sha1": "1b3225b0adf5d33fa60d343b27d2dbb71f91e132"
+    },
+    "sound/es.mp3": {
+      "bytes": 20448,
+      "sha1": "44ccbaf79a7185eb0ae34fa409fdb26527556012"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16560,
+      "sha1": "ac856d9e18d18f715d2bca89eed87c53016a6d87"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17280,
+      "sha1": "076fccb9453f5185b5057c8184cea299dd2da46a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15552,
+      "sha1": "dd24484de8b9157aa3a7afa8ccd5ec944e592b73"
     }
   }
 }

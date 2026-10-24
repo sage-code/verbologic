@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Prețul este mare?"
+      "name": "Prețul este mare?",
+      "description": "O întrebare despre nivelul ridicat al prețului."
+    },
+    "en": {
+      "description": "A question asking whether the price is high.",
+      "name": "Is the price high?"
+    },
+    "de": {
+      "description": "Eine Frage, die sich danach erkundigt, ob der Preis hoch ist.",
+      "name": "Ist der Preis hoch?"
+    },
+    "ru": {
+      "description": "Вопрос о том, высокая ли цена.",
+      "name": "Цена высокая?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere se il prezzo è alto.",
+      "name": "Il prezzo è alto?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si el precio es alto.",
+      "name": "¿El precio es alto?"
+    },
+    "fr": {
+      "description": "Une question demandant si le prix est élevé.",
+      "name": "Le prix est-il élevé ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy magas-e az ár.",
+      "name": "Magas az ár?"
+    },
+    "pt": {
+      "description": "Uma pergunta questionando se o preço é alto.",
+      "name": "O preço é alto?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13392,
       "sha1": "933bc9ecba4d854fb0dc2c4bfce98bfc924f0911"
+    },
+    "sound/de.mp3": {
+      "bytes": 12528,
+      "sha1": "1010552af222c33946db0665c3af2ddb7fdcaafa"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "69ae49a37dcd3ab415a7dc017fa45cfd561e4bac"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13536,
+      "sha1": "d97a07d854c6fa327039fcb4ff1c75baaff889c9"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "7dd7ee284ce3df7fc29ccf7a90c2851155c1a74b"
+    },
+    "sound/es.mp3": {
+      "bytes": 12672,
+      "sha1": "fa0e48fb14938aa447e92ac05093739bfd5c970b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13248,
+      "sha1": "0c4eb5aa61f6837a7753d25d74adbcd98fe3cc99"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12960,
+      "sha1": "5d7717b3f4493734407d4d1c56b4d91e664befc8"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13104,
+      "sha1": "bdf904b84c4e79a73f6d407bb2164c12c5e6a27d"
     }
   }
 }

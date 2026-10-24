@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "The teacher writes a report."
+      "name": "The teacher writes a report.",
+      "description": "A sentence stating that the teacher writes a report."
     },
     "ro": {
-      "name": "Profesorul scrie un raport."
+      "name": "Profesorul scrie un raport.",
+      "description": "O propoziție care afirmă că profesorul scrie un raport."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass der Lehrer einen Bericht schreibt.",
+      "name": "Der Lehrer schreibt einen Bericht."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее о том, что учитель пишет отчёт.",
+      "name": "Учитель пишет отчёт."
+    },
+    "it": {
+      "description": "Una frase che indica che l'insegnante scrive una relazione.",
+      "name": "L'insegnante scrive una relazione."
+    },
+    "es": {
+      "description": "Una frase que indica que el profesor escribe un informe.",
+      "name": "El profesor escribe un informe."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le professeur écrit un rapport.",
+      "name": "Le professeur écrit un rapport."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kijelenti, hogy a tanár jelentést ír.",
+      "name": "A tanár jelentést ír."
+    },
+    "pt": {
+      "description": "Uma frase que afirma que o professor escreve um relatório.",
+      "name": "O professor escreve um relatório."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16848,
       "sha1": "3b5b545e5fcba675741eb10b8dd04ea8165c39c3"
+    },
+    "sound/de.mp3": {
+      "bytes": 15408,
+      "sha1": "d338bb43209adc2fff50bdc8601db81acea8ac8f"
+    },
+    "sound/it.mp3": {
+      "bytes": 19152,
+      "sha1": "9583c1463ac336b9ba147c161681b246bbef358a"
+    },
+    "sound/es.mp3": {
+      "bytes": 16848,
+      "sha1": "8b1ca4e0b5f75b1c931721025230da331cdd99f3"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15408,
+      "sha1": "189a14a0054ce2af2b0c15d5586843943d9d993d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16416,
+      "sha1": "66aad43a72386d175dcc7d322b44ad85d7207d43"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13392,
+      "sha1": "4f6b703d6d04bc01acf9d100c7488f3885f17a10"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14976,
+      "sha1": "6e5851ffca91ee4dba9efbebb3949c4fc5ede6a1"
+    },
+    "sound/en.mp3": {
+      "bytes": 10368,
+      "sha1": "0ee2617b22f36b3085fac5d8038c76648cfb1155"
     }
   }
 }

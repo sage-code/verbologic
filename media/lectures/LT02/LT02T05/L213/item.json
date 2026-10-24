@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, doctorul este la spital."
+      "name": "Nu, doctorul este la spital.",
+      "description": "O afirmație care explică faptul că medicul se află în prezent la spital."
+    },
+    "en": {
+      "description": "A statement explaining that the doctor is currently at the hospital.",
+      "name": "No, the doctor is at the hospital."
+    },
+    "de": {
+      "description": "Eine Aussage, die erklärt, dass der Arzt zurzeit im Krankenhaus ist.",
+      "name": "Nein, der Arzt ist im Krankenhaus."
+    },
+    "ru": {
+      "description": "Утверждение, поясняющее, что врач в настоящее время находится в больнице.",
+      "name": "Нет, врач в больнице."
+    },
+    "it": {
+      "description": "Un'affermazione che spiega che il medico si trova attualmente in ospedale.",
+      "name": "No, il medico è all'ospedale."
+    },
+    "es": {
+      "description": "Una afirmación que explica que el médico se encuentra actualmente en el hospital.",
+      "name": "No, el médico está en el hospital."
+    },
+    "fr": {
+      "description": "Une affirmation expliquant que le médecin se trouve actuellement à l'hôpital.",
+      "name": "Non, le médecin est à l'hôpital."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely elmagyarázza, hogy az orvos jelenleg a kórházban van.",
+      "name": "Nem, az orvos a kórházban van."
+    },
+    "pt": {
+      "description": "Uma declaração que explica que o médico está atualmente no hospital.",
+      "name": "Não, o médico está no hospital."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 19008,
       "sha1": "dfa01bac21fb479ee1753351ac7e67712148b4a5"
+    },
+    "sound/en.mp3": {
+      "bytes": 15408,
+      "sha1": "0cc080f53dca01012d35f1be8d518b080a90953e"
+    },
+    "sound/de.mp3": {
+      "bytes": 21024,
+      "sha1": "ec4255bc4423407794078410ee7fa5f5e1cd7ddf"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18144,
+      "sha1": "27ede50bb8234d7b92acb8b5c9f4cce3330757b4"
+    },
+    "sound/it.mp3": {
+      "bytes": 14544,
+      "sha1": "04493d15f9ef37fe5a5db40e6710f86cf24ae9ff"
+    },
+    "sound/fr.mp3": {
+      "bytes": 18576,
+      "sha1": "8b6faaaa8305679bff93fcef3d22ba17b9b7d3c8"
+    },
+    "sound/es.mp3": {
+      "bytes": 16560,
+      "sha1": "99108b279bb14a732599357962526ca7eb956d68"
+    },
+    "sound/hu.mp3": {
+      "bytes": 20592,
+      "sha1": "9805d6d3b47e5e51c7ac2a8e5fe342b7695c6d8d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 19584,
+      "sha1": "6ab69279e5a7ad9f336c5d79a4d24bd2e8fd15a4"
     }
   }
 }

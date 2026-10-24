@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "window"
+      "name": "window",
+      "description": "A piece of furniture or household object."
     },
     "ro": {
       "name": "fereastră",
-      "ipa": "/feˈreastrə/"
+      "ipa": "/feˈreastrə/",
+      "description": "O piesă de mobilier sau un obiect de uz casnic."
     },
     "de": {
-      "name": "Fenster"
+      "name": "Fenster",
+      "description": "Ein Möbelstück oder Haushaltsgegenstand."
     },
     "ru": {
-      "name": "Окно"
+      "name": "Окно",
+      "description": "Предмет мебели или предмет домашнего обихода."
     },
     "it": {
-      "name": "finestra"
+      "name": "finestra",
+      "description": "Un mobile o un oggetto per la casa."
     },
     "es": {
-      "name": "ventana"
+      "name": "ventana",
+      "description": "Un mueble u objeto doméstico."
     },
     "fr": {
-      "name": "fenêtre"
+      "name": "fenêtre",
+      "description": "Un meuble ou un objet de la maison."
     },
     "hu": {
-      "name": "Ablak"
+      "name": "Ablak",
+      "description": "Egy bútordarab vagy háztartási tárgy."
     },
     "pt": {
-      "name": "Janela"
+      "name": "Janela",
+      "description": "Um móvel ou objeto doméstico."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10800,
       "sha1": "52885e66c9a65684b09d02d1f776f77c752b7dd5"
+    },
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "14f7f5cf29118a61f3162da43101cbce25393e37"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "d6e5ecc9a416b171ac0ae7108092a09b3020f6d0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "a8f4c7aff27f251afbae97cfbf742aed0f8d88d6"
+    },
+    "sound/it.mp3": {
+      "bytes": 10656,
+      "sha1": "8eec6c056502f39eafcc1812fea30cc8247c59a8"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "30638b432e36653caf59dc1b3ee71225422b86df"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "ff96bd690b9de86d08d5dc7579e7410ced43fd65"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "c06e86584cbf0ffc91017985f2641a5e44daad9d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "7efd5e5732497107aeca4e3255e6516d35d02f5a"
     }
   }
 }

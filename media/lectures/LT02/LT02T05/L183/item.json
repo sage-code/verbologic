@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, trimit mesaj acum."
+      "name": "Da, trimit mesaj acum.",
+      "description": "O afirmație care confirmă că se trimite un mesaj acum."
+    },
+    "en": {
+      "description": "A statement confirming that a message is being sent right now.",
+      "name": "Yes, I am sending a message now."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass gerade eine Nachricht gesendet wird.",
+      "name": "Ja, ich sende jetzt eine Nachricht."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее отправку сообщения в данный момент.",
+      "name": "Да, я отправляю сообщение сейчас."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma l'invio di un messaggio adesso.",
+      "name": "Sì, mando un messaggio adesso."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que se está enviando un mensaje en este momento.",
+      "name": "Sí, envío un mensaje ahora."
+    },
+    "fr": {
+      "description": "Une affirmation confirmant qu'un message est envoyé maintenant.",
+      "name": "Oui, j'envoie un message maintenant."
+    },
+    "hu": {
+      "description": "Kijelentés, amely megerősíti, hogy éppen most küldenek el egy üzenetet.",
+      "name": "Igen, most küldök üzenetet."
+    },
+    "pt": {
+      "description": "Uma afirmação confirmando que uma mensagem está sendo enviada agora.",
+      "name": "Sim, envio uma mensagem agora."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17280,
       "sha1": "fdeb5ee80481af7dcbc50a02368409ac6870ea87"
+    },
+    "sound/en.mp3": {
+      "bytes": 14400,
+      "sha1": "41922b7bdcf6f02ef68753431526c38c2986cb11"
+    },
+    "sound/ru.mp3": {
+      "bytes": 21024,
+      "sha1": "588abb72cf4538da72594dedaf23f96e2cd2f436"
+    },
+    "sound/hu.mp3": {
+      "bytes": 19152,
+      "sha1": "dad03895cb52e9115e00d48a34d6f8c23409491f"
+    },
+    "sound/it.mp3": {
+      "bytes": 14544,
+      "sha1": "70aa47626c7dd3e3908be2ff1eb73cd10388f3b3"
+    },
+    "sound/es.mp3": {
+      "bytes": 16848,
+      "sha1": "f52564ff70735f0593f22dee80e525fc3bb38b94"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17424,
+      "sha1": "9a341f42063fd9365067e89cd984e80ff5b138b6"
+    },
+    "sound/de.mp3": {
+      "bytes": 20016,
+      "sha1": "e87401ec824801e40ea56d4ecb2c32b47d7d40cc"
+    },
+    "sound/pt.mp3": {
+      "bytes": 19440,
+      "sha1": "d772f5ec37112e526f9ca33f73f9463d7a5ace86"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "fruit"
+      "name": "fruit",
+      "description": "This vocabulary item relates to kitchen and food basics."
     },
     "ro": {
       "name": "fruct",
-      "ipa": "/frukt/"
+      "ipa": "/frukt/",
+      "description": "Acest termen de vocabular se referă la noțiuni de bază despre bucătărie și alimente."
     },
     "de": {
-      "name": "Obst"
+      "name": "Obst",
+      "description": "Dieser Wortschatzeintrag bezieht sich auf Grundlagen zu Küche und Lebensmitteln."
     },
     "ru": {
-      "name": "Фрукт"
+      "name": "Фрукт",
+      "description": "Это словарное слово относится к базовым понятиям о кухне и еде."
     },
     "it": {
-      "name": "frutta"
+      "name": "frutta",
+      "description": "Questo termine del vocabolario si riferisce alle nozioni di base sulla cucina e sul cibo."
     },
     "es": {
-      "name": "fruta"
+      "name": "fruta",
+      "description": "Este término de vocabulario se refiere a conceptos básicos de cocina y alimentos."
     },
     "fr": {
-      "name": "fruit"
+      "name": "fruit",
+      "description": "Ce terme de vocabulaire se rapporte aux notions de base de la cuisine et de l'alimentation."
     },
     "hu": {
-      "name": "Gyümölcs"
+      "name": "Gyümölcs",
+      "description": "Ez a szókincselem a konyhai és élelmiszer-alapismeretekhez kapcsolódik."
     },
     "pt": {
-      "name": "Fruta"
+      "name": "Fruta",
+      "description": "Este termo de vocabulário refere-se a conceitos básicos de cozinha e alimentação."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "a48bdbe3c47f859b2ee9cdafb946f46a6fc76bb8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "2b194e49def7ec3588cd1f055acc2779114ad4cf"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "29e6177ed90b76321ce72f92a375f31fb804cc5c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "dec750d9884f1422ecd3d488d820e8a04bdfd816"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "d446563a2cf84ee8e503ef18dc463ec5366e13dd"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "63dc6d23841ccea0fa47b3572ad8863d8fd89a8a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "e82799805ea4a1598fd6b0c7c532bab848cd3a3e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "49b04b727a7d9daf132fcaa67aa4c23591f237df"
+    },
+    "sound/pt.mp3": {
+      "bytes": 10080,
+      "sha1": "2801ae17e00eecd9b0d4cfdc7ada0f7c2e565dd9"
     }
   }
 }

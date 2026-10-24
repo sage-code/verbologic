@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "production"
+      "name": "production",
+      "description": "This vocabulary item relates to work and employment."
     },
     "ro": {
       "name": "producție",
-      "ipa": "/proˈduktsie/"
+      "ipa": "/proˈduktsie/",
+      "description": "Acest element de vocabular este legat de muncă și angajare."
     },
     "de": {
-      "name": "Produktion"
+      "name": "Produktion",
+      "description": "Dieser Wortschatzeintrag bezieht sich auf Arbeit und Beschäftigung."
     },
     "ru": {
-      "name": "производство"
+      "name": "производство",
+      "description": "Эта словарная единица относится к теме работы и занятости."
     },
     "it": {
-      "name": "produzione"
+      "name": "produzione",
+      "description": "Questo elemento di vocabolario è legato al lavoro e all'occupazione."
     },
     "es": {
-      "name": "producción"
+      "name": "producción",
+      "description": "Este elemento de vocabulario se relaciona con el trabajo y el empleo."
     },
     "fr": {
-      "name": "production"
+      "name": "production",
+      "description": "Cet élément de vocabulaire est lié au travail et à l'emploi."
     },
     "hu": {
-      "name": "termelés"
+      "name": "termelés",
+      "description": "Ez a szókincselem a munkához és a foglalkoztatáshoz kapcsolódik."
     },
     "pt": {
-      "name": "produção"
+      "name": "produção",
+      "description": "Este item de vocabulário está relacionado ao trabalho e ao emprego."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "27cd79bd67e5e69a79a2fc2f827d41ae76d13992"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "a471deb788493f97a2cdf78498e281dc6ffa39f3"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "c16f90a40e175d58d3be032183e2f0b3430d30a0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11520,
+      "sha1": "01abf06e41ab4c2cf599920b086c04334c0143ca"
+    },
+    "sound/it.mp3": {
+      "bytes": 11376,
+      "sha1": "6bb987d06f97eea10979da473107b4d41e08c482"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "648eccf10d318e78083d0f46c703d00801ce4836"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "85574162ee6736a8e8d9283fc7961f5074a1a3d1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "4d0cb3eb194cd6113eb0951d0c8302ccaba4715e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "c747e81b19a97a757edf36b0397a63f9b195d0b9"
     }
   }
 }

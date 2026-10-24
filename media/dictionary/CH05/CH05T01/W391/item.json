@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "room"
+      "name": "room",
+      "description": "A printed or electronic document that gives the holder permission to travel on a vehicle or service."
     },
     "ro": {
       "name": "cameră",
-      "ipa": "/ˈkamerə/"
+      "ipa": "/ˈkamerə/",
+      "description": "Un document tipărit sau electronic care oferă dreptul de a călători cu un mijloc de transport."
     },
     "de": {
-      "name": "Zimmer"
+      "name": "Zimmer",
+      "description": "Ein gedrucktes oder elektronisches Dokument, das zur Nutzung eines Verkehrsmittels berechtigt."
     },
     "ru": {
-      "name": "комната"
+      "name": "комната",
+      "description": "Печатный или электронный документ, дающий право на проезд в транспортном средстве."
     },
     "it": {
-      "name": "camera"
+      "name": "camera",
+      "description": "Un documento stampato o elettronico che consente di viaggiare su un mezzo di trasporto."
     },
     "es": {
-      "name": "habitación"
+      "name": "habitación",
+      "description": "Un documento impreso o electrónico que otorga permiso para viajar en un transporte o servicio."
     },
     "fr": {
-      "name": "chambre"
+      "name": "chambre",
+      "description": "Un document imprimé ou électronique qui autorise son titulaire à voyager à bord d'un moyen de transport."
     },
     "hu": {
-      "name": "szoba"
+      "name": "szoba",
+      "description": "Nyomtatott vagy elektronikus dokumentum, amely feljogosítja a tulajdonosát egy járművel való utazásra."
     },
     "pt": {
-      "name": "quarto"
+      "name": "quarto",
+      "description": "Um documento impresso ou eletrônico que dá permissão para viajar em um transporte ou serviço."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "4f9d3bb2fa6979957825f77ec1f14e5f0cb91ae9"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "069549f829d4d7e50003af12af1e30469e519323"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "07cb20bbf2cca8df79dd6118605393dedfce57e6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "bbbe86b9c9cdb92cb88cb044dfbe4535880bb5b4"
+    },
+    "sound/it.mp3": {
+      "bytes": 5472,
+      "sha1": "fa228f912ba9e0fd87b041549815b177512f1db1"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "2d7eaf275bcb6ac9e65296cb886ffaaff2dd123b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "4c0682cfdcf77b7f4a5c22af66abf8fa5a29f9ae"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "ae8d3873edba23622d4598059399c45f35eebad6"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "48117770f19b97fdca29a6e0a2c3729d1c790ef8"
     }
   }
 }

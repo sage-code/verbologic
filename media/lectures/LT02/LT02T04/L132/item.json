@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, studentul scrie lecția."
+      "name": "Nu, studentul scrie lecția.",
+      "description": "O propoziție care indică faptul că studentul scrie lecția."
+    },
+    "en": {
+      "description": "A statement stating that the student is writing the lesson.",
+      "name": "No, the student is writing the lesson."
+    },
+    "de": {
+      "description": "Eine Aussage darüber, dass der Student die Lektion aufschreibt.",
+      "name": "Nein, der Student schreibt die Lektion auf."
+    },
+    "ru": {
+      "description": "Высказывание о том, что студент пишет урок.",
+      "name": "Нет, студент пишет урок."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che lo studente sta scrivendo la lezione.",
+      "name": "No, lo studente scrive la lezione."
+    },
+    "es": {
+      "description": "Una afirmación que indica que el estudiante está escribiendo la lección.",
+      "name": "No, el estudiante escribe la lección."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que l'étudiant écrit la leçon.",
+      "name": "Non, l'étudiant écrit la leçon."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kifejezi, hogy a diák a leckét írja.",
+      "name": "Nem, a diák a leckét írja."
+    },
+    "pt": {
+      "description": "Uma afirmação indicando que o estudante está escrevendo a lição.",
+      "name": "Não, o estudante está escrevendo a lição."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 18144,
       "sha1": "933099375a5705d8cecb8a060fe1063e8a0a0917"
+    },
+    "sound/en.mp3": {
+      "bytes": 16128,
+      "sha1": "fdbcf107cf4cefc36d12475c092aaa9e24bf2fb1"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18576,
+      "sha1": "98751f1687d3f87ffeea2eb2399276ee301ee457"
+    },
+    "sound/it.mp3": {
+      "bytes": 20592,
+      "sha1": "10291c4b48c104e047e26acedcfede19e02a469c"
+    },
+    "sound/es.mp3": {
+      "bytes": 20304,
+      "sha1": "ab0c7140fb8433a595123907a63b00603382f31f"
+    },
+    "sound/de.mp3": {
+      "bytes": 20592,
+      "sha1": "0b744ff49f8575a50f5ab2cb85abda52207f3727"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16848,
+      "sha1": "c4c8ef7bdf10430f78fe173da5caf7c726e2ab52"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17568,
+      "sha1": "c77902b409a2c443cb1416ac384653176a79d72d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18576,
+      "sha1": "9cdaf0bc652825444161efb91ed80eb77e9c1756"
     }
   }
 }

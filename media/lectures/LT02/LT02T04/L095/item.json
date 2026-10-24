@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Cumperi pește azi?"
+      "name": "Cumperi pește azi?",
+      "description": "O întrebare prin care se află dacă cineva cumpără pește azi."
+    },
+    "en": {
+      "description": "A question asking whether someone is buying fish today.",
+      "name": "Are you buying fish today?"
+    },
+    "de": {
+      "description": "Eine Frage, die sich erkundigt, ob jemand heute Fisch kauft.",
+      "name": "Kaufst du heute Fisch?"
+    },
+    "ru": {
+      "description": "Вопрос о том, покупает ли кто-то рыбу сегодня.",
+      "name": "Ты покупаешь рыбу сегодня?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere se qualcuno compra pesce oggi.",
+      "name": "Compri pesce oggi?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si alguien compra pescado hoy.",
+      "name": "¿Compras pescado hoy?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un achète du poisson aujourd'hui.",
+      "name": "Achètes-tu du poisson aujourd'hui ?"
+    },
+    "hu": {
+      "description": "Kérdés arra vonatkozóan, hogy vesz-e valaki ma halat.",
+      "name": "Veszel ma halat?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se alguém compra peixe hoje.",
+      "name": "Compras peixe hoje?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13392,
       "sha1": "f534bc0949171b89e31d98c2b9649d965c9c42a2"
+    },
+    "sound/de.mp3": {
+      "bytes": 13536,
+      "sha1": "e31bac00014bb92d462149355fb493c0c1dbdc29"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "9c87c22bf20293c1d263c0a40c73b5c09073b525"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16272,
+      "sha1": "b22494a3090f8b6d717c5d2d5f046fde88c2fb9a"
+    },
+    "sound/es.mp3": {
+      "bytes": 13104,
+      "sha1": "61376627a71e21955f9cca4e7341f0bdefdb0e8f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11664,
+      "sha1": "035547d345d58e61086160694796c364c98859a3"
+    },
+    "sound/it.mp3": {
+      "bytes": 13536,
+      "sha1": "d7d68c326b8882f216ea8e075f9869c404f608ed"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14976,
+      "sha1": "972e32ed82d336b5f75c4a186c1f9b018593938b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11808,
+      "sha1": "6c32efb5623fc82f36393efa02c16288e7f98adf"
     }
   }
 }

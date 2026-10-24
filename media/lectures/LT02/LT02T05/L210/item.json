@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, ședința este mâine."
+      "name": "Nu, ședința este mâine.",
+      "description": "O propoziție folosită pentru a clarifica faptul că o ședință este programată pentru mâine."
+    },
+    "en": {
+      "description": "A sentence used to clarify that a meeting is scheduled for tomorrow.",
+      "name": "No, the meeting is tomorrow."
+    },
+    "de": {
+      "description": "Ein Satz, der klarstellt, dass eine Besprechung für morgen geplant ist.",
+      "name": "Nein, die Besprechung ist morgen."
+    },
+    "ru": {
+      "description": "Предложение, используемое для уточнения того, что встреча запланирована на завтра.",
+      "name": "Нет, собрание завтра."
+    },
+    "it": {
+      "description": "Una frase usata per chiarire che una riunione è prevista per domani.",
+      "name": "No, la riunione è domani."
+    },
+    "es": {
+      "description": "Una frase utilizada para aclarar que una reunión está programada para mañana.",
+      "name": "No, la reunión es mañana."
+    },
+    "fr": {
+      "description": "Une phrase utilisée pour préciser qu'une réunion est prévue pour demain.",
+      "name": "Non, la réunion est demain."
+    },
+    "hu": {
+      "description": "Egy mondat annak tisztázására, hogy a megbeszélés holnapra van betervezve.",
+      "name": "Nem, a megbeszélés holnap van."
+    },
+    "pt": {
+      "description": "Uma frase usada para esclarecer que uma reunião está agendada para amanhã.",
+      "name": "Não, a reunião é amanhã."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17424,
       "sha1": "98b6231e1bd539878fac66e24ee27c1b42b98a4d"
+    },
+    "sound/de.mp3": {
+      "bytes": 19152,
+      "sha1": "cf7ab94d743bff293d75edf5ad94b87e38bfbb84"
+    },
+    "sound/en.mp3": {
+      "bytes": 13680,
+      "sha1": "a3d094cb56f02c974e94d791f0700e3be387feeb"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16848,
+      "sha1": "e2bec8c10de2bbd22798a8cf33d7fb92b63e9233"
+    },
+    "sound/it.mp3": {
+      "bytes": 12816,
+      "sha1": "02244024dd2db6f547d614f9b58dad28915d1b55"
+    },
+    "sound/es.mp3": {
+      "bytes": 16128,
+      "sha1": "fae612a8c21f56555bb870fe9acdd37d8cee6e59"
+    },
+    "sound/hu.mp3": {
+      "bytes": 20448,
+      "sha1": "839ad3987b99fbf4c72a651cbf3640c755340989"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15984,
+      "sha1": "ba50dd8e4de45fcc2d71179f7852fa23909a6ea1"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18288,
+      "sha1": "3d7f26a5ac53c3080d5c021a6a0566c2badcde48"
     }
   }
 }

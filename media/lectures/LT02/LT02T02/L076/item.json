@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "The receipt is on the table."
+      "name": "The receipt is on the table.",
+      "description": "A sentence stating where the receipt is located."
     },
     "ro": {
-      "name": "Bonul este pe masă."
+      "name": "Bonul este pe masă.",
+      "description": "O propoziție care indică unde se află chitanța."
+    },
+    "de": {
+      "description": "Ein Satz, der angibt, wo sich die Quittung befindet.",
+      "name": "Die Quittung liegt auf dem Tisch."
+    },
+    "ru": {
+      "description": "Предложение, указывающее, где находится чек.",
+      "name": "Чек лежит на столе."
+    },
+    "it": {
+      "description": "Una frase che indica dove si trova la ricevuta.",
+      "name": "La ricevuta è sul tavolo."
+    },
+    "es": {
+      "description": "Una frase que indica dónde está el recibo.",
+      "name": "El recibo está sobre la mesa."
+    },
+    "fr": {
+      "description": "Une phrase indiquant où se trouve le reçu.",
+      "name": "Le reçu est sur la table."
+    },
+    "hu": {
+      "description": "Egy mondat, amely megadja, hol van a nyugta.",
+      "name": "A nyugta az asztalon van."
+    },
+    "pt": {
+      "description": "Uma frase que indica onde o recibo está localizado.",
+      "name": "O recibo está sobre a mesa."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14400,
       "sha1": "ab9445f2efb97a858491a6ad039cb93353207fe9"
+    },
+    "sound/de.mp3": {
+      "bytes": 14976,
+      "sha1": "c3d9ebef800dfa306b86601593893b82307558e8"
+    },
+    "sound/it.mp3": {
+      "bytes": 15984,
+      "sha1": "dc88f2c4db315beea7081ab31a52784387438815"
+    },
+    "sound/es.mp3": {
+      "bytes": 16128,
+      "sha1": "a9427ed7345f67138c6edba4b503a51dad431fa1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13968,
+      "sha1": "a89bcb278deecb26d52142420ddbd7c42f553233"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13248,
+      "sha1": "cbd658cec7bf76d15abedd36618f18cd9edea8e4"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13392,
+      "sha1": "a677072dc4fd1fb45a1bcd888c148d7dc428065b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15120,
+      "sha1": "7b16e4cc341d57d1bcbcccdb853347f6f06c774a"
+    },
+    "sound/en.mp3": {
+      "bytes": 11664,
+      "sha1": "94c1214f11306bb42651c9524c3b41c853eece06"
     }
   }
 }

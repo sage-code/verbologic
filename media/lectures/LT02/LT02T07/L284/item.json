@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Call the doctor."
+      "name": "Call the doctor.",
+      "description": "A command instructing someone to call the doctor."
     },
     "ro": {
-      "name": "Sună doctorul."
+      "name": "Sună doctorul.",
+      "description": "O comandă prin care i se cere cuiva să cheme medicul."
+    },
+    "de": {
+      "description": "Eine Aufforderung, den Arzt zu rufen.",
+      "name": "Rufe den Arzt."
+    },
+    "ru": {
+      "description": "Команда вызвать или позвать врача.",
+      "name": "Вызови врача."
+    },
+    "it": {
+      "description": "Un comando che invita a chiamare il medico.",
+      "name": "Chiama il medico."
+    },
+    "es": {
+      "description": "Una orden que indica llamar al médico.",
+      "name": "Llama al médico."
+    },
+    "fr": {
+      "description": "Un ordre demandant d'appeler le médecin.",
+      "name": "Appelle le médecin."
+    },
+    "hu": {
+      "description": "Felszólítás arra, hogy valaki hívja az orvost.",
+      "name": "Hívd az orvost."
+    },
+    "pt": {
+      "description": "Um comando instruindo alguém a chamar o médico.",
+      "name": "Chame o médico."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12096,
       "sha1": "5bc0720455dbcb3dfbce3d982dee7b073fb7e64c"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "4c44941b6cef698cd0aa77f5e6353b0c03682260"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "5769d444b8a2a07ff22c613b8ab63d0c7f662f10"
+    },
+    "sound/es.mp3": {
+      "bytes": 12240,
+      "sha1": "0579fe4d8c1f4ec6f2dce6e37a17c8acef9f1391"
+    },
+    "sound/de.mp3": {
+      "bytes": 12672,
+      "sha1": "a680877321330755a9e37a6e824880135cb79bec"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11808,
+      "sha1": "bd29a301d5df2b57a19044324186240d6036ddad"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13248,
+      "sha1": "7e7caaf6d3f2f290f6698bf806009069d2a694b4"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13104,
+      "sha1": "ce08c910874aa88a09677bd32d071265a502edfd"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13248,
+      "sha1": "5c428c1b6a714aaafc604223eab3a8b85039df15"
     }
   }
 }

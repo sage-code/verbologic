@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "resource"
+      "name": "resource",
+      "description": "A salary is a fixed amount of money paid regularly to an employee for their work."
     },
     "ro": {
       "name": "resursă",
-      "ipa": "/reˈsursə/"
+      "ipa": "/reˈsursə/",
+      "description": "Un salariu este o sumă fixă de bani plătită periodic unui angajat pentru munca sa."
     },
     "de": {
-      "name": "Ressource"
+      "name": "Ressource",
+      "description": "Ein Gehalt ist ein fester Geldbetrag, der einem Mitarbeiter regelmäßig für seine Arbeit gezahlt wird."
     },
     "ru": {
-      "name": "ресурс"
+      "name": "ресурс",
+      "description": "Зарплата — это фиксированная сумма денег, регулярно выплачиваемая работнику за его труд."
     },
     "it": {
-      "name": "risorsa"
+      "name": "risorsa",
+      "description": "Lo stipendio è una somma fissa di denaro pagata regolarmente a un dipendente per il suo lavoro."
     },
     "es": {
-      "name": "recurso"
+      "name": "recurso",
+      "description": "Un salario es una cantidad fija de dinero que se paga regularmente a un empleado por su trabajo."
     },
     "fr": {
-      "name": "ressource"
+      "name": "ressource",
+      "description": "Un salaire est une somme d'argent fixe versée régulièrement à un employé pour son travail."
     },
     "hu": {
-      "name": "erőforrás"
+      "name": "erőforrás",
+      "description": "A fizetés olyan meghatározott összegű pénz, amelyet rendszeresen fizetnek a munkavállalónak a munkájáért."
     },
     "pt": {
-      "name": "recurso"
+      "name": "recurso",
+      "description": "Um salário é uma quantia fixa de dinheiro paga regularmente a um funcionário pelo seu trabalho."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "065036f9d38b257b3f93c5f9e12b80c1265b2a57"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "38254e615800d1a2ada08fa18c699d49084ff157"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "7c87bdfc6148f56bd957a65ba6ef4887b6fac08a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "612aa6cfe45fb1badf55f31f0f49843248876814"
+    },
+    "sound/it.mp3": {
+      "bytes": 6912,
+      "sha1": "3924e9d861790bc1fdfdee9093d2977686f1c528"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "e4d0c39f21b0b3f98a5d53a32982b317c38e79ec"
+    },
+    "sound/fr.mp3": {
+      "bytes": 10224,
+      "sha1": "7448139360e3900cf3cae8375f5848bea401ec16"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12240,
+      "sha1": "cb19da86f90913b632a35c109f17aae8a00312c7"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "bddf2e9fc78093899311306b8d21e09e1d5f563d"
     }
   }
 }

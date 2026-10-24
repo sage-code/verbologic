@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, el este prietenul meu."
+      "name": "Da, el este prietenul meu.",
+      "description": "O afirmație care confirmă că el este prietenul cuiva."
+    },
+    "en": {
+      "description": "An affirmative statement confirming that he is someone's friend.",
+      "name": "Yes, he is my friend."
+    },
+    "de": {
+      "description": "Eine bejahende Aussage, die bestätigt, dass er jemandes Freund ist.",
+      "name": "Ja, er ist mein Freund."
+    },
+    "ru": {
+      "description": "Утвердительное высказывание, подтверждающее, что он чей-то друг.",
+      "name": "Да, он мой друг."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che lui è l'amico di qualcuno.",
+      "name": "Sì, lui è il mio amico."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que él es amigo de alguien.",
+      "name": "Sí, él es mi amigo."
+    },
+    "fr": {
+      "description": "Une phrase affirmative confirmant qu'il est l'ami de quelqu'un.",
+      "name": "Oui, c'est mon ami."
+    },
+    "hu": {
+      "description": "Állítás, amely megerősíti, hogy ő valakinek a barátja.",
+      "name": "Igen, ő a barátom."
+    },
+    "pt": {
+      "description": "Uma afirmação que confirma que ele é amigo de alguém.",
+      "name": "Sim, ele é meu amigo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 18288,
       "sha1": "d4978edf37711d599b564367c3c5322c020fbf12"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "f39e89ae331f178b473420bb10689f67b98812ea"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15840,
+      "sha1": "cfb8ab985c283a72cd503456dce8c15591d41168"
+    },
+    "sound/de.mp3": {
+      "bytes": 15552,
+      "sha1": "928b0c59548fd940c664184ada48e0567b533ea3"
+    },
+    "sound/es.mp3": {
+      "bytes": 15696,
+      "sha1": "654c033c5aa3fb5488c7a6ef41338822deae14fe"
+    },
+    "sound/it.mp3": {
+      "bytes": 17568,
+      "sha1": "06ab136a20fa9a90a7aa2150d5ffb47658612175"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13680,
+      "sha1": "ec9a229b4ffa25a3668ad7aeeff072cfe9c34f8a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14976,
+      "sha1": "59a09c4fa44a13ae2d017817b37c17b782488f11"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13104,
+      "sha1": "af4e02eaafb5d0adf6d47810aa83bf801641860d"
     }
   }
 }

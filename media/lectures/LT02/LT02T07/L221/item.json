@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Drink water."
+      "name": "Drink water.",
+      "description": "An imperative phrase instructing someone to drink water."
     },
     "ro": {
-      "name": "Bea apă."
+      "name": "Bea apă.",
+      "description": "O frază la imperativ care cere cuiva să bea apă."
+    },
+    "de": {
+      "description": "Ein Imperativsatz, der jemanden auffordert, Wasser zu trinken.",
+      "name": "Trink Wasser."
+    },
+    "ru": {
+      "description": "Повелительная фраза, призывающая пить воду.",
+      "name": "Пей воду."
+    },
+    "it": {
+      "description": "Una frase imperativa che invita a bere acqua.",
+      "name": "Bevi acqua."
+    },
+    "es": {
+      "description": "Una frase imperativa que indica a alguien que beba agua.",
+      "name": "Bebe agua."
+    },
+    "fr": {
+      "description": "Une phrase impérative demandant de boire de l'eau.",
+      "name": "Bois de l'eau."
+    },
+    "hu": {
+      "description": "Felszólító kifejezés, amely arra utasít valakit, hogy igyon vizet.",
+      "name": "Igyál vizet."
+    },
+    "pt": {
+      "description": "Uma frase no imperativo que instrui alguém a beber água.",
+      "name": "Beba água."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "38c138c556edc1668cd2bcb7e6bf0ba03e8e354b"
+    },
+    "sound/de.mp3": {
+      "bytes": 10800,
+      "sha1": "d5ca6d435b19c1a1573202be9beceaa08a24e72e"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "41d469dc58273d5e60dec2f22ddf5c58ba775ca1"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "5c4ee22164f4c7c668b0199a163d1540844e0659"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "ca09690df817820a6d1f6f96bb0c03694dcb8937"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "56fb3c2329a145b79af8c30fb51f0a58f26a14eb"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "7ed9ade5adc2110f1e204452fae3477067d7e9ef"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11664,
+      "sha1": "e39e1eacd4e369b8cf3fb184922a951c8826a452"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12096,
+      "sha1": "daef518b245fcdc7d1d5f4beca37c49292f8a8a6"
     }
   }
 }

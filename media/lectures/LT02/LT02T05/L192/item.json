@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Doctorul este aici?"
+      "name": "Doctorul este aici?",
+      "description": "O întrebare prin care se află dacă medicul este prezent."
+    },
+    "en": {
+      "description": "A question asking if the doctor is present.",
+      "name": "Is the doctor here?"
+    },
+    "de": {
+      "description": "Eine Frage, die sich erkundigt, ob der Arzt anwesend ist.",
+      "name": "Ist der Arzt hier?"
+    },
+    "ru": {
+      "description": "Вопрос о том, присутствует ли врач на месте.",
+      "name": "Врач здесь?"
+    },
+    "it": {
+      "description": "Una domanda per sapere se il medico è presente.",
+      "name": "Il dottore è qui?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si el médico está presente.",
+      "name": "¿Está el médico aquí?"
+    },
+    "fr": {
+      "description": "Une question demandant si le médecin est présent.",
+      "name": "Le médecin est-il là ?"
+    },
+    "hu": {
+      "description": "Kérdés arról, hogy jelen van-e az orvos.",
+      "name": "Itt van az orvos?"
+    },
+    "pt": {
+      "description": "Uma pergunta perguntando se o médico está presente.",
+      "name": "O médico está aqui?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13968,
       "sha1": "8688a8efc3c098a62b0f2322fd50d817a944fb2a"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "69e1e6ba73d421fbb6d17bb0dbb40a209da2c574"
+    },
+    "sound/de.mp3": {
+      "bytes": 12384,
+      "sha1": "33f401e16d17147f7f13083959529ec89fc64ca3"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12528,
+      "sha1": "72d6caa1ba0c94d934ce6cd6ca50bf43c1d11482"
+    },
+    "sound/it.mp3": {
+      "bytes": 8784,
+      "sha1": "6801c1a442b16d0f381c92c1486bdb79b10e8e5b"
+    },
+    "sound/es.mp3": {
+      "bytes": 12960,
+      "sha1": "8e1deab1f2e5759ff3e018095eaec97bace236fa"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13536,
+      "sha1": "4427012215556b38e0d59b1da213fd365856f38b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13392,
+      "sha1": "f6bf37ec4abf864963b0742d638a7104b49ff57a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13824,
+      "sha1": "8f3c0ffe38aa3f04ab0ad9e9fa620c645a03a923"
     }
   }
 }

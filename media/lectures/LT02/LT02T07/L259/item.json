@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Open the notebook."
+      "name": "Open the notebook.",
+      "description": "A classroom instruction telling someone to open their notebook."
     },
     "ro": {
-      "name": "Deschide caietul."
+      "name": "Deschide caietul.",
+      "description": "O instrucțiune de la clasă prin care i se cere cuiva să deschidă caietul."
+    },
+    "de": {
+      "description": "Eine Anweisung im Unterricht, das Notizheft aufzuschlagen.",
+      "name": "Öffne das Heft."
+    },
+    "ru": {
+      "description": "Инструкция на уроке, требующая открыть тетрадь.",
+      "name": "Открой тетрадь."
+    },
+    "it": {
+      "description": "Un'istruzione da classe che invita ad aprire il quaderno.",
+      "name": "Apri il quaderno."
+    },
+    "es": {
+      "description": "Una instrucción de clase que indica abrir el cuaderno.",
+      "name": "Abre el cuaderno."
+    },
+    "fr": {
+      "description": "Une consigne en classe demandant d'ouvrir son cahier.",
+      "name": "Ouvre le cahier."
+    },
+    "hu": {
+      "description": "Tantermi utasítás, amely a füzet kinyitására szólít fel.",
+      "name": "Nyisd ki a füzetet."
+    },
+    "pt": {
+      "description": "Uma instrução em sala de aula para abrir o caderno.",
+      "name": "Abra o caderno."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13248,
       "sha1": "df5829eb6875f1c93c9ebcd1bb1a45465e48cdd0"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "2af45d9bf2dc19e7f2648162ae87fe0bcfcd7ce1"
+    },
+    "sound/de.mp3": {
+      "bytes": 11808,
+      "sha1": "df46b80234dc79474b3ad854bab6cf89b74aaab0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13392,
+      "sha1": "2b70ecf6dcf1fa1f2f6d7a61fee4b466dd55eeb2"
+    },
+    "sound/es.mp3": {
+      "bytes": 12384,
+      "sha1": "334b9e0c889d4c95064313808bd3e2f82bae3392"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "c1adbe17fca53dff0d0132354b0a9734aef323da"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "46601d90cc2c6f1851613e07112e13bf7c3b18b5"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13968,
+      "sha1": "d5a0e2082f58d61b0d4af37d547bdef260fd7424"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13104,
+      "sha1": "a248f6b7c2c6a373ebf5d8007c8cd297ba7fdd63"
     }
   }
 }

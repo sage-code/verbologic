@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Prepare the contract."
+      "name": "Prepare the contract.",
+      "description": "A workplace instruction telling someone to prepare a contract."
     },
     "ro": {
-      "name": "Pregătește contractul."
+      "name": "Pregătește contractul.",
+      "description": "O instrucțiune de lucru prin care i se cere cuiva să pregătească un contract."
+    },
+    "de": {
+      "description": "Eine Arbeitsanweisung, einen Vertrag vorzubereiten.",
+      "name": "Bereite den Vertrag vor."
+    },
+    "ru": {
+      "description": "Рабочее указание подготовить договор.",
+      "name": "Подготовь договор."
+    },
+    "it": {
+      "description": "Un'istruzione di lavoro che richiede di predisporre un contratto.",
+      "name": "Prepara il contratto."
+    },
+    "es": {
+      "description": "Una instrucción de trabajo que pide preparar un contrato.",
+      "name": "Prepara el contrato."
+    },
+    "fr": {
+      "description": "Une consigne de travail demandant de préparer un contrat.",
+      "name": "Prépare le contrat."
+    },
+    "hu": {
+      "description": "Munkahelyi utasítás szerződés előkészítésére.",
+      "name": "Készítsd elő a szerződést."
+    },
+    "pt": {
+      "description": "Uma instrução de trabalho para preparar um contrato.",
+      "name": "Prepare o contrato."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14544,
       "sha1": "4b62d8ab385bb8d0e610fe328a06da16be53038f"
+    },
+    "sound/es.mp3": {
+      "bytes": 13104,
+      "sha1": "2555ce09eaef7904e23507838a419616e148f565"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "f0152a1c90ef29f7efb78711b761f782d882188d"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "74dd6d62968249b92790886142ee2b1295fe6c84"
+    },
+    "sound/de.mp3": {
+      "bytes": 15552,
+      "sha1": "b46a9b1c4da5fc3a06a06778b367d605c5a71b24"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12240,
+      "sha1": "44f2ea774d6abcb542224ff0425d2e1b54fdac85"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13536,
+      "sha1": "9bd251d59b5d8dd868242d36d0d60464edea6e6d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14112,
+      "sha1": "2f8c62becbbb9327c6ddf59b179a2ee0e212adb4"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16992,
+      "sha1": "a23654efb362f86e23cd7e640be65ae3eaf00a18"
     }
   }
 }

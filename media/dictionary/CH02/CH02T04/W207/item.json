@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "wardrobe"
+      "name": "wardrobe",
+      "description": "A common object found and used in the home."
     },
     "ro": {
       "name": "dulap",
-      "ipa": "/duˈlap/"
+      "ipa": "/duˈlap/",
+      "description": "Un obiect obișnuit găsit și folosit în casă."
     },
     "de": {
-      "name": "Kleiderschrank"
+      "name": "Kleiderschrank",
+      "description": "Ein gewöhnlicher Gegenstand, der im Haushalt zu finden ist und verwendet wird."
     },
     "ru": {
-      "name": "Шкаф"
+      "name": "Шкаф",
+      "description": "Обычный предмет, который можно найти и использовать дома."
     },
     "it": {
-      "name": "armadio"
+      "name": "armadio",
+      "description": "Un oggetto comune che si trova e si usa in casa."
     },
     "es": {
-      "name": "armario"
+      "name": "armario",
+      "description": "Un objeto común que se encuentra y se utiliza en el hogar."
     },
     "fr": {
-      "name": "armoire"
+      "name": "armoire",
+      "description": "Un objet courant que l'on trouve et utilise dans la maison."
     },
     "hu": {
-      "name": "Szekrény"
+      "name": "Szekrény",
+      "description": "A háztartásban megtalálható és használt gyakori tárgy."
     },
     "pt": {
-      "name": "Armário"
+      "name": "Armário",
+      "description": "Um objeto comum encontrado e usado em casa."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "8f242c2b3f5c68c4fc2b8d1b8d7e1d9cb8886d2a"
+    },
+    "sound/en.mp3": {
+      "bytes": 5472,
+      "sha1": "2e7eb98d483ee7619af0c80187fcbe848bd1a290"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "1ee1dc6ec79049cd09ff91cd465f612321089665"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "ebbda398fbbe3240a62e10409390b00101bd1762"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "25505059b13a76eb01ffaa4ac66e98109525847e"
+    },
+    "sound/es.mp3": {
+      "bytes": 9648,
+      "sha1": "a42e8aae14fee943d10fa9cdcd72c0adc534068b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "2662f3d4a9da21358bf59c35236609beb8bd0439"
+    },
+    "sound/hu.mp3": {
+      "bytes": 9216,
+      "sha1": "37a6c0d44e64735da63e3b485234087bdbd99b5c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 9072,
+      "sha1": "993e77c94e686a8884770ccd1775d54eac218812"
     }
   }
 }

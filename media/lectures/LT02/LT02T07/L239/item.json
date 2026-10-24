@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Look for the pharmacy."
+      "name": "Look for the pharmacy.",
+      "description": "Learn how to give an instruction to search for a pharmacy."
     },
     "ro": {
-      "name": "Caută farmacia."
+      "name": "Caută farmacia.",
+      "description": "Învață cum să dai o instrucțiune de a căuta o farmacie."
+    },
+    "de": {
+      "description": "Lerne, wie man die Anweisung gibt, nach einer Apotheke zu suchen.",
+      "name": "Suche die Apotheke."
+    },
+    "ru": {
+      "description": "Узнайте, как дать указание найти аптеку.",
+      "name": "Поищи аптеку."
+    },
+    "it": {
+      "description": "Impara a dare un'istruzione per cercare la farmacia.",
+      "name": "Cerca la farmacia."
+    },
+    "es": {
+      "description": "Aprende a dar una indicación para buscar la farmacia.",
+      "name": "Busca la farmacia."
+    },
+    "fr": {
+      "description": "Apprenez à donner une instruction pour chercher la pharmacie.",
+      "name": "Cherche la pharmacie."
+    },
+    "hu": {
+      "description": "Tanuld meg, hogyan adj utasítást a gyógyszertár megkeresésére.",
+      "name": "Keresd a gyógyszertárat."
+    },
+    "pt": {
+      "description": "Aprenda a dar uma instrução para procurar a farmácia.",
+      "name": "Procure a farmácia."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12672,
       "sha1": "a1ce5b79ca0a82459a46cdb97ee298ee14476891"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "6127847fdb0fda3964ec8634eed1858c0adfd911"
+    },
+    "sound/de.mp3": {
+      "bytes": 13536,
+      "sha1": "d0fa44c8190ab3c7adc83e95abe5f0e239928391"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "1a7cb81cce69ce495f1e3dcbda10e5bf25758025"
+    },
+    "sound/es.mp3": {
+      "bytes": 13248,
+      "sha1": "2cbd475c45778e31b7f588f8929beb5f4ed7d76d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13392,
+      "sha1": "bb61c976eae5846e09bdff74d8bd477ea62af7f1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13536,
+      "sha1": "6b9dea77c430ba556fcf89da37373ad75862d557"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15408,
+      "sha1": "cfbe029c76f206bd517c7da53bbceab29d73cdb0"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14544,
+      "sha1": "4b65b57f3d94c859497a169964a797cd159e9eec"
     }
   }
 }

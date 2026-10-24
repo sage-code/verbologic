@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Trimiți mesaj acum?"
+      "name": "Trimiți mesaj acum?",
+      "description": "O întrebare care cere să afle dacă cineva trimite un mesaj chiar acum."
+    },
+    "en": {
+      "description": "A question asking if someone is sending a message right now.",
+      "name": "Are you sending a message now?"
+    },
+    "de": {
+      "description": "Eine Frage, die sich erkundigt, ob jemand gerade eine Nachricht sendet.",
+      "name": "Schickst du jetzt eine Nachricht?"
+    },
+    "ru": {
+      "description": "Вопрос о том, отправляет ли кто-то сообщение прямо сейчас.",
+      "name": "Ты отправляешь сообщение сейчас?"
+    },
+    "it": {
+      "description": "Una domanda che chiede se qualcuno sta inviando un messaggio proprio adesso.",
+      "name": "Mandi un messaggio adesso?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si alguien está enviando un mensaje en este momento.",
+      "name": "¿Envías un mensaje ahora?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un envoie un message en ce moment.",
+      "name": "Tu envoies un message maintenant ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy valaki éppen most küld-e üzenetet.",
+      "name": "Küldesz most üzenetet?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se alguém está enviando uma mensagem agora.",
+      "name": "Você está enviando uma mensagem agora?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13824,
       "sha1": "3b7083757fa29912f23af5cd49333500ed4a2b60"
+    },
+    "sound/en.mp3": {
+      "bytes": 10512,
+      "sha1": "db1082448d0fe322a5400ead3464273527d41a34"
+    },
+    "sound/de.mp3": {
+      "bytes": 16128,
+      "sha1": "b8ea6c5cba1460ca9401ce45a202c20e311114d9"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18720,
+      "sha1": "86607ffcabc0103d06c4456c63db6845d04e56f7"
+    },
+    "sound/es.mp3": {
+      "bytes": 15552,
+      "sha1": "18e9715e4c8eaf660e5bf779f0343d57d06be567"
+    },
+    "sound/pt.mp3": {
+      "bytes": 20016,
+      "sha1": "fc5f485695442dbc269cda639f8605cfa1fa17f8"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "ed9c1b5af31f2dd509f894ed36260b6a3fb03531"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15408,
+      "sha1": "f5ba7ce0755aeab393869372f791f9a43fcd80bb"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15696,
+      "sha1": "6684c7615f1654e23955b5e31b2a1579b7969c01"
     }
   }
 }

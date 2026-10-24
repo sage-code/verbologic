@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "recycling"
+      "name": "recycling",
+      "description": "A meeting is an event where people come together to discuss work."
     },
     "ro": {
       "name": "reciclare",
-      "ipa": "/retʃiˈklare/"
+      "ipa": "/retʃiˈklare/",
+      "description": "O ședință este un eveniment în care oamenii se adună pentru a discuta despre muncă."
     },
     "de": {
-      "name": "Recycling"
+      "name": "Recycling",
+      "description": "Eine Besprechung ist ein Ereignis, bei dem Menschen zusammenkommen, um über Arbeit zu sprechen."
     },
     "ru": {
-      "name": "переработка"
+      "name": "переработка",
+      "description": "Собрание — это мероприятие, на котором люди собираются вместе для обсуждения работы."
     },
     "it": {
-      "name": "riciclaggio"
+      "name": "riciclaggio",
+      "description": "Una riunione è un evento in cui le persone si incontrano per discutere di lavoro."
     },
     "es": {
-      "name": "reciclaje"
+      "name": "reciclaje",
+      "description": "Una reunión es un evento en el que las personas se reúnen para hablar de trabajo."
     },
     "fr": {
-      "name": "recyclage"
+      "name": "recyclage",
+      "description": "Une réunion est un événement où les gens se rassemblent pour discuter du travail."
     },
     "hu": {
-      "name": "újrahasznosítás"
+      "name": "újrahasznosítás",
+      "description": "A megbeszélés olyan esemény, ahol az emberek összejönnek, hogy a munkáról tárgyaljanak."
     },
     "pt": {
-      "name": "reciclagem"
+      "name": "reciclagem",
+      "description": "Uma reunião é um evento em que as pessoas se juntam para discutir trabalho."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "183ab62787ea3adc5437e0ee37fd52565932c0d6"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "440cf6d24f9e91cbf08ad75d06831211319b357d"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "7f112cf4857e637691f7473c4bf83b04e24f707d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11808,
+      "sha1": "877288e416d688e9a2c873ac79e86ca642f76e7f"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "d413cecc38b157b2196dfd717d2cf1cc163d1f47"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "1f34ff296d357c3a35c02eaaba0296f0ddd05a67"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "e7a1a8dcc636342c7c6d209d88d7091ea5fb2ee4"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14544,
+      "sha1": "0da2b2b980408c409d13416fe0359436cfe7c679"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12096,
+      "sha1": "19823fe35fd6703cf4b40a71340a1cd010e65f98"
     }
   }
 }

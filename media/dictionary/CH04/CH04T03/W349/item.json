@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "color"
+      "name": "color",
+      "description": "A price is the amount of money required to buy something."
     },
     "ro": {
       "name": "culoare",
-      "ipa": "/kuˈloare/"
+      "ipa": "/kuˈloare/",
+      "description": "Un preț este suma de bani necesară pentru a cumpăra ceva."
     },
     "de": {
-      "name": "Farbe"
+      "name": "Farbe",
+      "description": "Ein Preis ist der Geldbetrag, der erforderlich ist, um etwas zu kaufen."
     },
     "ru": {
-      "name": "цвет"
+      "name": "цвет",
+      "description": "Цена — это сумма денег, необходимая для покупки чего-либо."
     },
     "it": {
-      "name": "colore"
+      "name": "colore",
+      "description": "Il prezzo è la quantità di denaro necessaria per acquistare qualcosa."
     },
     "es": {
-      "name": "color"
+      "name": "color",
+      "description": "El precio es la cantidad de dinero necesaria para comprar algo."
     },
     "fr": {
-      "name": "couleur"
+      "name": "couleur",
+      "description": "Un prix est la somme d'argent nécessaire pour acheter quelque chose."
     },
     "hu": {
-      "name": "szín"
+      "name": "szín",
+      "description": "Az ár az a pénzösszeg, amely valaminek a megvásárlásához szükséges."
     },
     "pt": {
-      "name": "cor"
+      "name": "cor",
+      "description": "Um preço é a quantia de dinheiro necessária para comprar algo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "a9dea3d9cb5d2346d1e6646369de3aca57bb89ad"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "72bd1a21d03b184e5f90a979fe4b77ac0a78ee27"
+    },
+    "sound/de.mp3": {
+      "bytes": 9072,
+      "sha1": "d30904e42ce354aa0c2b06944dbd7869f48dec1c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10368,
+      "sha1": "5dd27522b1ed6d471a0ecb23856e8f97a42d3ca2"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "c94ca974edc23cce9032f8936ea0c6779f6fbe95"
+    },
+    "sound/es.mp3": {
+      "bytes": 8784,
+      "sha1": "0ef51836ee94832fc7f22074e7eecd8e13bcc59b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "2bd71db52e2d5a0ccf190a398f5518d1ceceee03"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "11a80669a69f7e9ffff5a3a7015878b86c12d048"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "5fccbdbd038765d1e2cdc970aee8243d29fa5dbe"
     }
   }
 }

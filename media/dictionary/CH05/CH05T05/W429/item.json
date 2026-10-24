@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "subscription"
+      "name": "subscription",
+      "description": "This word relates to phone and online services."
     },
     "ro": {
       "name": "abonament",
-      "ipa": "/abonaˈment/"
+      "ipa": "/abonaˈment/",
+      "description": "Acest cuvânt este legat de telefon și servicii online."
     },
     "de": {
-      "name": "Abonnement"
+      "name": "Abonnement",
+      "description": "Dieses Wort bezieht sich auf Telefon- und Online-Dienste."
     },
     "ru": {
-      "name": "подписка"
+      "name": "подписка",
+      "description": "Это слово относится к телефону и онлайн-сервисам."
     },
     "it": {
-      "name": "abbonamento"
+      "name": "abbonamento",
+      "description": "Questa parola si riferisce al telefono e ai servizi online."
     },
     "es": {
-      "name": "suscripción"
+      "name": "suscripción",
+      "description": "Esta palabra se relaciona con el teléfono y los servicios en línea."
     },
     "fr": {
-      "name": "abonnement"
+      "name": "abonnement",
+      "description": "Ce mot est lié au téléphone et aux services en ligne."
     },
     "hu": {
-      "name": "előfizetés"
+      "name": "előfizetés",
+      "description": "Ez a szó a telefon- és onlineszolgáltatásokhoz kapcsolódik."
     },
     "pt": {
-      "name": "assinatura"
+      "name": "assinatura",
+      "description": "Esta palavra está relacionada a telefone e serviços online."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "97d0c7337695bad5fba361d1646671463f231cc9"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "1c4ef0a3194962eb3ea71ca8e1226e4028cbe5cb"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "a4ba645f433c8dc04d6ab9363f5801448fafdd13"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11088,
+      "sha1": "49d707fbfd4a5126f9b337373d6989e3fe593875"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "4a2935a3b191f569ec08b0806af899476c35d24e"
+    },
+    "sound/es.mp3": {
+      "bytes": 11520,
+      "sha1": "c9a2a5941cfaeaca12295badc25cba3a17ea3d42"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "6a33c103433450bee5175dcf7a3942429ec9a80f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12672,
+      "sha1": "aa8f310e1c88ec06b3f44b8a049f98435b523921"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12384,
+      "sha1": "b74375a3c157f3bc442b326d5d0d0a5e82e74556"
     }
   }
 }

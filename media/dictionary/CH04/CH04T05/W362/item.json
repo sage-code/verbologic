@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "backward"
+      "name": "backward",
+      "description": "This word relates to directions and positions."
     },
     "ro": {
       "name": "înapoi",
-      "ipa": "/ɨnaˈpoj/"
+      "ipa": "/ɨnaˈpoj/",
+      "description": "Acest cuvânt se referă la direcții și poziții."
     },
     "de": {
-      "name": "rückwärts"
+      "name": "rückwärts",
+      "description": "Dieses Wort bezieht sich auf Richtungen und Positionen."
     },
     "ru": {
-      "name": "назад"
+      "name": "назад",
+      "description": "Это слово относится к направлениям и позициям."
     },
     "it": {
-      "name": "indietro"
+      "name": "indietro",
+      "description": "Questa parola si riferisce alle direzioni e alle posizioni."
     },
     "es": {
-      "name": "atrás"
+      "name": "atrás",
+      "description": "Esta palabra se refiere a direcciones y posiciones."
     },
     "fr": {
-      "name": "en arrière"
+      "name": "en arrière",
+      "description": "Ce mot se rapporte aux directions et aux positions."
     },
     "hu": {
-      "name": "hátra"
+      "name": "hátra",
+      "description": "Ez a szó az irányokhoz és pozíciókhoz kapcsolódik."
     },
     "pt": {
-      "name": "para trás"
+      "name": "para trás",
+      "description": "Esta palavra refere-se a direções e posições."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "acd14da6d38f52f9fb243894f0a12f0c04e1a288"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "c832bec72657320082ead68440035d4f800bbcdc"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "c26cf734a926f7a57757ffac6d9e4b6507367b0b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "74e06d790a9ea46147bea98af6022e7c7195e015"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "d261e650f24346362e520ead9027beffd705a520"
+    },
+    "sound/es.mp3": {
+      "bytes": 9648,
+      "sha1": "499adcef01ff93d8dc4a85e7dcd78e33753246ef"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "785051631d0f2484bcf5e858ed2b2b6d2dfa5147"
+    },
+    "sound/hu.mp3": {
+      "bytes": 9936,
+      "sha1": "33e8b4a3edaf526605f50e2c6b1840b650fb682a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11664,
+      "sha1": "47f50b3a3f1b61bc98e79ae27c5a97f51df2a7e2"
     }
   }
 }

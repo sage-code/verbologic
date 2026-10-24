@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "I say thank you."
+      "name": "I say thank you.",
+      "description": "A simple sentence expressing the act of saying thank you."
     },
     "ro": {
-      "name": "Eu spun mulțumesc."
+      "name": "Eu spun mulțumesc.",
+      "description": "O propoziție simplă care exprimă acțiunea de a spune mulțumesc."
+    },
+    "de": {
+      "description": "Ein einfacher Satz, der das Sagen von Dankeschön beschreibt.",
+      "name": "Ich sage danke."
+    },
+    "ru": {
+      "description": "Простое предложение, выражающее произнесение слов благодарности.",
+      "name": "Я говорю спасибо."
+    },
+    "it": {
+      "description": "Una frase semplice che esprime l'azione di dire grazie.",
+      "name": "Dico grazie."
+    },
+    "es": {
+      "description": "Una oración simple que expresa el acto de decir gracias.",
+      "name": "Digo gracias."
+    },
+    "fr": {
+      "description": "Une phrase simple exprimant l'action de dire merci.",
+      "name": "Je dis merci."
+    },
+    "hu": {
+      "description": "Egyszerű mondat, amely a köszönet kifejezésének cselekedetét írja le.",
+      "name": "Azt mondom, köszönöm."
+    },
+    "pt": {
+      "description": "Uma frase simples que expressa o ato de dizer obrigado.",
+      "name": "Eu digo obrigado."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13824,
       "sha1": "78984c90995eac7e6fbfa4fa46505521ce87eb0a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14400,
+      "sha1": "da7299c3701219a6d7530a7f86d13139ee57901e"
+    },
+    "sound/de.mp3": {
+      "bytes": 12096,
+      "sha1": "9b3c8dd734e4582f2c2a27e444de4521d97e0a94"
+    },
+    "sound/it.mp3": {
+      "bytes": 12240,
+      "sha1": "2a93181f51eea8f9fa52e9f46009972710267015"
+    },
+    "sound/fr.mp3": {
+      "bytes": 10944,
+      "sha1": "02ceac03aaf3c209a38cd9ece6796a6261f92ec3"
+    },
+    "sound/es.mp3": {
+      "bytes": 12096,
+      "sha1": "a90002392fb59fdc5279f5255d5b2f83bd468acc"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13248,
+      "sha1": "050aeb85f1dc8efd22f072734b61437ba6f5475f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11520,
+      "sha1": "305b23bdf7d19c17fda84ef1efbc1208631ce75f"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "1a74887169b49b78ace6224e472e7ccaaeb4c909"
     }
   }
 }

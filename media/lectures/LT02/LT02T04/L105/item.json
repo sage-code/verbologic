@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, copilul este acasă."
+      "name": "Da, copilul este acasă.",
+      "description": "O propoziție care afirmă că copilul este acasă."
+    },
+    "en": {
+      "description": "A sentence stating that the child is at home.",
+      "name": "Yes, the child is at home."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass das Kind zu Hause ist.",
+      "name": "Ja, das Kind ist zu Hause."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее, что ребёнок дома.",
+      "name": "Да, ребёнок дома."
+    },
+    "it": {
+      "description": "Una frase per dire che il bambino è a casa.",
+      "name": "Sì, il bambino è a casa."
+    },
+    "es": {
+      "description": "Una frase que indica que el niño está en casa.",
+      "name": "Sí, el niño está en casa."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que l'enfant est à la maison.",
+      "name": "Oui, l'enfant est à la maison."
+    },
+    "hu": {
+      "description": "Mondat, amely azt fejezi ki, hogy a gyerek otthon van.",
+      "name": "Igen, a gyerek otthon van."
+    },
+    "pt": {
+      "description": "Uma frase que indica que a criança está em casa.",
+      "name": "Sim, a criança está em casa."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17280,
       "sha1": "59a876dd428cad3dc81494be011bb69f1d6ceebd"
+    },
+    "sound/en.mp3": {
+      "bytes": 11952,
+      "sha1": "8cd31e890a674a7e934494b8a58937c1d20fff2f"
+    },
+    "sound/de.mp3": {
+      "bytes": 16416,
+      "sha1": "e9e51e01990af18db81605e0657aebfe346e9d42"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15696,
+      "sha1": "da1a4c8ae41edeb02457eea60216c46344de3c2a"
+    },
+    "sound/it.mp3": {
+      "bytes": 18288,
+      "sha1": "7cb67be934ee7ee773876a3e118ab08d01e8869f"
+    },
+    "sound/es.mp3": {
+      "bytes": 16992,
+      "sha1": "2953e2acacd77236deba7a363de64ce2a21b75f8"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16128,
+      "sha1": "f90c7b9d7df71a81a19c6b1e49702e5e8e3ab74d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16416,
+      "sha1": "1a279bcb8a0099a8214353de355d51c8e2fb473b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14688,
+      "sha1": "406feb92317f3e1a3546b8ff89dde35d23904dd7"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "bear"
+      "name": "bear",
+      "description": "This is a vocabulary item for topic CH08T02."
     },
     "ro": {
       "name": "urs",
-      "ipa": "/urs/"
+      "ipa": "/urs/",
+      "description": "Acesta este un element de vocabular pentru tema CH08T02."
     },
     "de": {
-      "name": "Bär"
+      "name": "Bär",
+      "description": "Dies ist ein Vokabeleintrag für das Thema CH08T02."
     },
     "ru": {
-      "name": "медведь"
+      "name": "медведь",
+      "description": "Это словарная единица для темы CH08T02."
     },
     "it": {
-      "name": "orso"
+      "name": "orso",
+      "description": "Questo è un elemento di vocabolario per l'argomento CH08T02."
     },
     "es": {
-      "name": "oso"
+      "name": "oso",
+      "description": "Este es un elemento de vocabulario para el tema CH08T02."
     },
     "fr": {
-      "name": "ours"
+      "name": "ours",
+      "description": "Ceci est un élément de vocabulaire pour le thème CH08T02."
     },
     "hu": {
-      "name": "medve"
+      "name": "medve",
+      "description": "Ez egy szókincselem a(z) CH08T02 témához."
     },
     "pt": {
-      "name": "urso"
+      "name": "urso",
+      "description": "Este é um item de vocabulário para o tópico CH08T02."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "40d677c1bbcd4659a611c02bf8c5d336dcb8071d"
+    },
+    "sound/en.mp3": {
+      "bytes": 4608,
+      "sha1": "cf07226262d091e16334b582c688339474a9febb"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "af53dbe6141d321d702ea303ba218404108cf0b9"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "5a96e82e06284cd5646fc69fc87a4e43c8b9e58c"
+    },
+    "sound/it.mp3": {
+      "bytes": 9936,
+      "sha1": "f556ab9a042b808e3189a3301fc2092a56e5a711"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "77f3a80e762dea55ceb9425901e8c09d3ce8079b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "c24d643a10eb507a54fe5d2adcad83aa2801275f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "be2320114e4de22147529f46866cff290535e014"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "76637cf4d258496c4f8a3a96ad57a92e87f9c15a"
     }
   }
 }

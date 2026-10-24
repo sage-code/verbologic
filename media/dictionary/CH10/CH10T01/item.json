@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Computers & devices"
+      "name": "Computers & devices",
+      "description": "This topic covers computers and related electronic devices."
     },
     "ro": {
       "name": "Calculatoare și dispozitive",
-      "ipa": "/kalkulaˈtoare ʃi dispoziˈtive/"
+      "ipa": "/kalkulaˈtoare ʃi dispoziˈtive/",
+      "description": "Această temă acoperă calculatoarele și dispozitivele electronice conexe."
+    },
+    "de": {
+      "description": "Dieses Thema umfasst Computer und zugehörige elektronische Geräte.",
+      "name": "Computer & Geräte"
+    },
+    "ru": {
+      "description": "Эта тема охватывает компьютеры и сопутствующие электронные устройства.",
+      "name": "Компьютеры и устройства"
+    },
+    "it": {
+      "description": "Questo argomento tratta i computer e i dispositivi elettronici correlati.",
+      "name": "Computer e dispositivi"
+    },
+    "es": {
+      "description": "Este tema abarca los ordenadores y los dispositivos electrónicos relacionados.",
+      "name": "Ordenadores y dispositivos"
+    },
+    "fr": {
+      "description": "Ce thème couvre les ordinateurs et les appareils électroniques associés.",
+      "name": "Ordinateurs et appareils"
+    },
+    "hu": {
+      "description": "Ez a témakör a számítógépeket és a kapcsolódó elektronikus eszközöket fedi le.",
+      "name": "Számítógépek és eszközök"
+    },
+    "pt": {
+      "description": "Este tópico abrange computadores e dispositivos eletrónicos relacionados.",
+      "name": "Computadores e dispositivos"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17424,
       "sha1": "a40131983821cc182d8f4c7bc34128f8cff72e63"
+    },
+    "sound/en.mp3": {
+      "bytes": 12816,
+      "sha1": "0977f594c2ba449c41efdb82d1a79815fc7fe187"
+    },
+    "sound/de.mp3": {
+      "bytes": 14976,
+      "sha1": "adf9110f7edd3cfb69bcb4dc96a5b247ddb67600"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16272,
+      "sha1": "c71c63e4890125f2f958ed2b85861b4965c12aaf"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "46987ea1500c0df0b59f15c80d476a6d8ff0e27b"
+    },
+    "sound/es.mp3": {
+      "bytes": 16992,
+      "sha1": "001ab2da699915df55990259e19cf766524f5306"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14688,
+      "sha1": "628b89cd01c02a6276ea2e9c206e65e778845216"
+    },
+    "sound/hu.mp3": {
+      "bytes": 18288,
+      "sha1": "3770711107b3792c6d085df309d3f122308f7ce5"
+    },
+    "sound/pt.mp3": {
+      "bytes": 19008,
+      "sha1": "4b5e6fec12c53d4190e952a74f69889931bc63a2"
     }
   }
 }

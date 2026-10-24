@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Go right."
+      "name": "Go right.",
+      "description": "Learn how to give a direction command to go right."
     },
     "ro": {
-      "name": "Mergi la dreapta."
+      "name": "Mergi la dreapta.",
+      "description": "Învață cum să dai o indicație de orientare pentru a merge la dreapta."
+    },
+    "de": {
+      "description": "Lerne, wie man die Richtungsanweisung gibt, nach rechts zu gehen.",
+      "name": "Gehe nach rechts."
+    },
+    "ru": {
+      "description": "Узнайте, как дать указание направления повернуть или идти направо.",
+      "name": "Иди направо."
+    },
+    "it": {
+      "description": "Impara a dare un'indicazione per andare a destra.",
+      "name": "Vai a destra."
+    },
+    "es": {
+      "description": "Aprende a dar una indicación de dirección para ir a la derecha.",
+      "name": "Ve a la derecha."
+    },
+    "fr": {
+      "description": "Apprenez à donner une consigne de direction pour aller à droite.",
+      "name": "Va à droite."
+    },
+    "hu": {
+      "description": "Tanuld meg, hogyan adj utasítást a jobbra menésre.",
+      "name": "Menj jobbra."
+    },
+    "pt": {
+      "description": "Aprenda a dar uma instrução de direção para ir para a direita.",
+      "name": "Vá para a direita."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12384,
       "sha1": "36d90ffc877a643863cace9337328259f9cdbdbd"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "76fbd17d13b8085e8224b3dd082a356d4e8893c8"
+    },
+    "sound/de.mp3": {
+      "bytes": 11376,
+      "sha1": "c365b852e7b8c49c70d4cc79dc87e9eef24b60f4"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12096,
+      "sha1": "76c19face4cbaec2ef6bee4fa7a9793a53327553"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "3b4de0782a5be1134705e8ad1e051e11f329ec4e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12240,
+      "sha1": "6b572bac8286a53dfbfdea511c32515907b86d12"
+    },
+    "sound/es.mp3": {
+      "bytes": 12096,
+      "sha1": "41e935d82a493ceaf988beb009e5d6b61b7d1086"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11376,
+      "sha1": "e6e8dc52986a4a2284c2155ff2f84ecc0eabca80"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14112,
+      "sha1": "db5d788c1cd40288092347c3c45bd983d697eb17"
     }
   }
 }

@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Drink milk."
+      "name": "Drink milk.",
+      "description": "An imperative phrase instructing someone to drink milk."
     },
     "ro": {
-      "name": "Bea lapte."
+      "name": "Bea lapte.",
+      "description": "O frază imperativă care instruiește pe cineva să bea lapte."
+    },
+    "de": {
+      "description": "Ein Aufforderungssatz, der jemanden anweist, Milch zu trinken.",
+      "name": "Trink Milch."
+    },
+    "ru": {
+      "description": "Повелительная фраза, предписывающая пить молоко.",
+      "name": "Пей молоко."
+    },
+    "it": {
+      "description": "Una frase imperativa che invita qualcuno a bere il latte.",
+      "name": "Bevi il latte."
+    },
+    "es": {
+      "description": "Una frase imperativa que indica a alguien que beba leche.",
+      "name": "Bebe leche."
+    },
+    "fr": {
+      "description": "Une phrase impérative demandant à quelqu'un de boire du lait.",
+      "name": "Bois du lait."
+    },
+    "hu": {
+      "description": "Felszólító mondat, amely arra utasít valakit, hogy igyon tejet.",
+      "name": "Igyál tejet!"
+    },
+    "pt": {
+      "description": "Uma frase imperativa que instrui alguém a beber leite.",
+      "name": "Bebe leite."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "10b2af94606442d1f0e08b8137402b3e3222cab8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "9a000dfb8a3d9f7c201a23e71d454d7cd074ccc7"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "6ea7d19799fb457523868f5f58fd1fa84d7dde97"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11808,
+      "sha1": "18e323bc2993fc7ce737b661f3a8b847285292e4"
+    },
+    "sound/it.mp3": {
+      "bytes": 8208,
+      "sha1": "d9fab20f441066f78a6317915b6f874854c349e1"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "35c431ab05987804df039903cf7e28e7e3143041"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "9b66acfcb3d4454adfe0b2154e61ea28d6940443"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12384,
+      "sha1": "a4e1c964a8435ae92fcfcb2a6b649f2acb57b3c8"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11808,
+      "sha1": "222b5258451273b76cecd3c762224a8ba216d363"
     }
   }
 }

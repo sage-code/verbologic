@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "I am a student."
+      "name": "I am a student.",
+      "description": "A sentence stating that the speaker is a student."
     },
     "ro": {
-      "name": "Eu sunt student."
+      "name": "Eu sunt student.",
+      "description": "O propoziție care afirmă că vorbitorul este student."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass der Sprecher Schüler ist.",
+      "name": "Ich bin Schüler."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее, что говорящий является учащимся.",
+      "name": "Я ученик."
+    },
+    "it": {
+      "description": "Una frase che afferma che chi parla è uno studente.",
+      "name": "Sono uno studente."
+    },
+    "es": {
+      "description": "Una oración que expresa que el hablante es estudiante.",
+      "name": "Soy estudiante."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le locuteur est étudiant.",
+      "name": "Je suis étudiant."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kijelenti, hogy a beszélő diák.",
+      "name": "Diák vagyok."
+    },
+    "pt": {
+      "description": "Uma frase que afirma que o falante é estudante.",
+      "name": "Eu sou estudante."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12672,
       "sha1": "9f033898b33df48c5c38be09baf7e8dbbcb691f5"
+    },
+    "sound/de.mp3": {
+      "bytes": 11088,
+      "sha1": "0bd7ced30bde567510d885ec9683d2c4394b3d38"
+    },
+    "sound/it.mp3": {
+      "bytes": 13536,
+      "sha1": "e115c830c857c6cd1b9d09a96cb3659613b24b22"
+    },
+    "sound/es.mp3": {
+      "bytes": 12096,
+      "sha1": "227c3cd9336c2c52b470ea1460fafed103a3adad"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11664,
+      "sha1": "b69cba7e6c94fac6138de0f4fd5102118c9c2c30"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "16f2117099d3455d3c42506463be844d2d9af1c1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "54bc80ee018df4ff9c939e7809ed6261d058b712"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "8f4a3778647ec1732eab8677c29d6d7a47e2fde3"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12240,
+      "sha1": "7930182cf466a0e741c41be709e5dbb74beeca25"
     }
   }
 }

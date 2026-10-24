@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Ai telefon?"
+      "name": "Ai telefon?",
+      "description": "O întrebare prin care se află dacă cineva are un telefon."
+    },
+    "en": {
+      "description": "A question asking someone if they have a phone.",
+      "name": "Do you have a phone?"
+    },
+    "de": {
+      "description": "Eine Frage, mit der man jemanden fragt, ob er ein Telefon hat.",
+      "name": "Hast du ein Telefon?"
+    },
+    "ru": {
+      "description": "Вопрос о том, есть ли у кого-то телефон.",
+      "name": "У тебя есть телефон?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere a qualcuno se possiede un telefono.",
+      "name": "Hai un telefono?"
+    },
+    "es": {
+      "description": "Una pregunta para saber si alguien tiene un teléfono.",
+      "name": "¿Tienes teléfono?"
+    },
+    "fr": {
+      "description": "Une question demandant à quelqu'un s'il a un téléphone.",
+      "name": "As-tu un téléphone ?"
+    },
+    "hu": {
+      "description": "Kérdés arról, hogy van-e valakinek telefonja.",
+      "name": "Van telefonod?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se alguém tem um telefone.",
+      "name": "Você tem um telefone?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
       "sha1": "0d5a454b30c059c117a11a0219328535716b0e45"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "f036a6894a362d07b5f087f6e873aef41b90258d"
+    },
+    "sound/de.mp3": {
+      "bytes": 12816,
+      "sha1": "ceaa824f1184515118484ded9a7679a77d0e7399"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14544,
+      "sha1": "b42ea03aba811b3582e05fcf042f0d222dbe40de"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "57da8a3c534fae6f35eca998bb72eb6a16ffe760"
+    },
+    "sound/es.mp3": {
+      "bytes": 12096,
+      "sha1": "cea7deef43da202a9d0ff9db72ba04980399fa70"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13248,
+      "sha1": "1a26c64d159f7b2774d5dd53eb3a8885100a7994"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12672,
+      "sha1": "f2b5a1d96ab00ac8590ae57755ef2252ac0f9df2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15264,
+      "sha1": "8d73a55e855c763afcd53be1fe574a9e5d0b2873"
     }
   }
 }

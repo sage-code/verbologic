@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Ai bilet?"
+      "name": "Ai bilet?",
+      "description": "O întrebare prin care se află dacă cineva are bilet."
+    },
+    "en": {
+      "description": "A question asking someone if they have a ticket.",
+      "name": "Do you have a ticket?"
+    },
+    "de": {
+      "description": "Eine Frage, mit der man jemanden fragt, ob er eine Fahrkarte hat.",
+      "name": "Hast du eine Fahrkarte?"
+    },
+    "ru": {
+      "description": "Вопрос о том, есть ли у кого-то билет.",
+      "name": "У тебя есть билет?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere a qualcuno se ha un biglietto.",
+      "name": "Hai un biglietto?"
+    },
+    "es": {
+      "description": "Una pregunta para saber si alguien tiene un billete.",
+      "name": "¿Tienes billete?"
+    },
+    "fr": {
+      "description": "Une question demandant à quelqu'un s'il a un billet.",
+      "name": "As-tu un billet ?"
+    },
+    "hu": {
+      "description": "Kérdés arról, hogy van-e valakinek jegye.",
+      "name": "Van jegyed?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se alguém tem uma passagem.",
+      "name": "Você tem passagem?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "7ddca93cf70f52ac93fcf7dac680ecea1e7c80f3"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "4d8ad2c5464795d9002bb05de8e7d9021a6e05d6"
+    },
+    "sound/de.mp3": {
+      "bytes": 13680,
+      "sha1": "9ea192e9bf687960ea4b592e80a17ac5b8fa9a3e"
+    },
+    "sound/it.mp3": {
+      "bytes": 7776,
+      "sha1": "e572d08f180d3fa5071c074564ed4d21dd86a0b6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14112,
+      "sha1": "2e841a76423ce7e8c912e9f16baad203ad246560"
+    },
+    "sound/es.mp3": {
+      "bytes": 11664,
+      "sha1": "37e269b697140fd5b5d14ba06391447bc7b032ed"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "a88aa3a103a11d00e7113b102297ae73830ca0cf"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "35e4d7bba8688f5b4db7a9eae86f34b07fcd6ebf"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14688,
+      "sha1": "f822c35906cd0edc30f9dc7a41aa6cca8f0ae577"
     }
   }
 }

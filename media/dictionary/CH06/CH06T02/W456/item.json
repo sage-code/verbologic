@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "question"
+      "name": "question",
+      "description": "A vocabulary word related to classroom language."
     },
     "ro": {
       "name": "întrebare",
-      "ipa": "/ɨntreˈbare/"
+      "ipa": "/ɨntreˈbare/",
+      "description": "Un cuvânt de vocabular legat de limbajul din sala de clasă."
     },
     "de": {
-      "name": "Frage"
+      "name": "Frage",
+      "description": "Ein Vokabelwort zum Thema Unterrichtssprache."
     },
     "ru": {
-      "name": "вопрос"
+      "name": "вопрос",
+      "description": "Словарное слово, относящееся к языку общения в классе."
     },
     "it": {
-      "name": "domanda"
+      "name": "domanda",
+      "description": "Un termine del vocabolario relativo al linguaggio della classe."
     },
     "es": {
-      "name": "pregunta"
+      "name": "pregunta",
+      "description": "Una palabra de vocabulario relacionada con el lenguaje del aula."
     },
     "fr": {
-      "name": "question"
+      "name": "question",
+      "description": "Un mot de vocabulaire lié au langage de la classe."
     },
     "hu": {
-      "name": "kérdés"
+      "name": "kérdés",
+      "description": "A tantermi nyelvhez kapcsolódó szókincsbeli szó."
     },
     "pt": {
-      "name": "pergunta"
+      "name": "pergunta",
+      "description": "Uma palavra de vocabulário relacionada à linguagem de sala de aula."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "cb0b1f8b1ee3fbb777d8606794616d8337ce601c"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "cd58e08bfe76d5ae0541cfdafdcef9d0d55e2f5b"
+    },
+    "sound/de.mp3": {
+      "bytes": 9936,
+      "sha1": "f1d515f6e94a0102c99ec509fc88481e15038225"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "7058ad0cbff44839f2783fa169a788a607e61f66"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "08b9160c317f98a7d1ed35246e43e0a72e4de4ae"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "50f8817f5a3f746b3652a2ac4c6a15078296ad64"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "291e0c8df9425db0e527efae7a28ab327fd7bf32"
+    },
+    "sound/hu.mp3": {
+      "bytes": 9072,
+      "sha1": "286ea54780908f0435e38c366b99e9c39b819168"
+    },
+    "sound/pt.mp3": {
+      "bytes": 9216,
+      "sha1": "6549b026fa18de35bb205780a3cd51f4060012d8"
     }
   }
 }

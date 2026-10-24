@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "post"
+      "name": "post",
+      "description": "This term relates to the internet and social media."
     },
     "ro": {
       "name": "postare",
-      "ipa": "/posˈtare/"
+      "ipa": "/posˈtare/",
+      "description": "Acest termen se referă la internet și rețelele sociale."
     },
     "de": {
-      "name": "Beitrag"
+      "name": "Beitrag",
+      "description": "Dieser Begriff bezieht sich auf das Internet und soziale Medien."
     },
     "ru": {
-      "name": "публикация"
+      "name": "публикация",
+      "description": "Этот термин относится к интернету и социальным сетям."
     },
     "it": {
-      "name": "post"
+      "name": "post",
+      "description": "Questo termine si riferisce a Internet e ai social media."
     },
     "es": {
-      "name": "publicación"
+      "name": "publicación",
+      "description": "Este término se refiere a internet y las redes sociales."
     },
     "fr": {
-      "name": "publication"
+      "name": "publication",
+      "description": "Ce terme fait référence à Internet et aux réseaux sociaux."
     },
     "hu": {
-      "name": "bejegyzés"
+      "name": "bejegyzés",
+      "description": "Ez a kifejezés az internethez és a közösségi médiához kapcsolódik."
     },
     "pt": {
-      "name": "postagem"
+      "name": "postagem",
+      "description": "Este termo refere-se à internet e às redes sociais."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "cb37589414dc5cad8db42ba2ccaa02bb29ac98f1"
+    },
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "6115daba940fe2a999b0745ad4a6dc3943ce9fd9"
+    },
+    "sound/de.mp3": {
+      "bytes": 9504,
+      "sha1": "5b985cdc19a15b4f6cba46c059d96b68bf5cb1ed"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12672,
+      "sha1": "5505a4c1a0346f2a2a427fb9a70ea5542b3c24de"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "aab2540628e4f4133374e80822c420fe8a04cd9c"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "7e641f6ad729e6495428e6e357266f540841fd29"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "1db9e29ade19428d8be504f590efd399d49c3e5c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "2f5ccf874a5fe0c920f8c5fe125fa6b1a783b216"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "a352aa60fd31cb8658534b9dbdc4c97e6677e5c2"
     }
   }
 }

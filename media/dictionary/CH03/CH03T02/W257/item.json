@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "week"
+      "name": "week",
+      "description": "This vocabulary item is a time expression."
     },
     "ro": {
       "name": "săptămână",
-      "ipa": "/səptəˈmɨnə/"
+      "ipa": "/səptəˈmɨnə/",
+      "description": "Acest element de vocabular este o expresie de timp."
     },
     "de": {
-      "name": "Woche"
+      "name": "Woche",
+      "description": "Dieser Wortschatzeintrag ist ein Zeitausdruck."
     },
     "ru": {
-      "name": "неделя"
+      "name": "неделя",
+      "description": "Эта словарная единица представляет собой выражение времени."
     },
     "it": {
-      "name": "settimana"
+      "name": "settimana",
+      "description": "Questo elemento di vocabolario è un'espressione di tempo."
     },
     "es": {
-      "name": "semana"
+      "name": "semana",
+      "description": "Este elemento de vocabulario es una expresión de tiempo."
     },
     "fr": {
-      "name": "semaine"
+      "name": "semaine",
+      "description": "Cet élément de vocabulaire est une expression de temps."
     },
     "hu": {
-      "name": "hét"
+      "name": "hét",
+      "description": "Ez a szókincselem egy időkifejezés."
     },
     "pt": {
-      "name": "semana"
+      "name": "semana",
+      "description": "Este item de vocabulário é uma expressão de tempo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "90e45653ed3526753d686cf967b36b7727b7238e"
+    },
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "a60d59203f4f5f2a39d31c31fb4a98591793c4d9"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "85bdbfafe60f29a699fc5f0bcc29d0fcbb2fac84"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "bf82fd0a378420c31ddc728047242ba0072d071f"
+    },
+    "sound/it.mp3": {
+      "bytes": 11664,
+      "sha1": "38e4d42b345b176a6d5ee809c89ca9f30d104938"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "1c69b2b87a3814883882f39852c6f370836dd76e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "3d6d1df35c4d8150762acc9a0b9a2cdbb6e34bc2"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "5edb4cf28b651fa2cbe1bfda29d4643d3c52ed0a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "dbe56ba5fe4b3b20e60fba3ff281d2d0b054e654"
     }
   }
 }

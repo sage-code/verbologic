@@ -11,11 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Safe travels / Have a good trip"
+      "name": "Safe travels / Have a good trip",
+      "description": "A polite parting expression wishing someone a safe and pleasant journey."
     },
     "ro": {
       "name": "Drum bun",
-      "context": "Said to someone leaving on a journey or heading home."
+      "context": "Said to someone leaving on a journey or heading home.",
+      "description": "O formulă politicoasă de despărțire prin care se urează o călătorie sigură și plăcută."
+    },
+    "de": {
+      "description": "Ein höflicher Abschiedsgruß, mit dem man jemandem eine sichere und angenehme Reise wünscht.",
+      "name": "Gute Reise"
+    },
+    "ru": {
+      "description": "Вежливое пожелание безопасной и приятной поездки при прощании.",
+      "name": "Счастливого пути"
+    },
+    "it": {
+      "description": "Un'espressione di commiato cortese per augurare un viaggio sicuro e piacevole.",
+      "name": "Buon viaggio"
+    },
+    "es": {
+      "description": "Una expresión de despedida cortés para desear un viaje seguro y agradable.",
+      "name": "Buen viaje"
+    },
+    "fr": {
+      "description": "Une formule de politesse pour souhaiter à quelqu'un un voyage agréable et sans encombre.",
+      "name": "Bon voyage"
+    },
+    "hu": {
+      "description": "Udvarias elköszönési kifejezés, amellyel biztonságos és kellemes utat kívánunk.",
+      "name": "Jó utat"
+    },
+    "pt": {
+      "description": "Uma expressão de despedida cortês para desejar uma viagem segura e agradável.",
+      "name": "Boa viagem"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 15840,
+      "sha1": "7aca70c3b324d2b6230d8480d948291a5c6f2366"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "6466a097cc884a214ffd9f9217fe45fad14ddbf7"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14400,
+      "sha1": "8a47536e2178bed416fba98d133f3f556b0e5bca"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "1d53a160115914c096bdfb809789e56490473b9c"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "850cca2c40ed9e540d0cb829946a0071f7d25d9c"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "b8e4b088a054e10d68e75f638e70d3dde45a6046"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "68d273bc319444ab55f0c62182ba88d89c40eda3"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12672,
+      "sha1": "bec124af8ec4b4d3089bf9783b25b8488c1eeb72"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11664,
+      "sha1": "0abcfc036d0b874ce8ceb2db57b6d18421d8ab7a"
     }
   }
 }

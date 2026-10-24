@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "I say hello."
+      "name": "I say hello.",
+      "description": "A sentence describing the act of greeting someone."
     },
     "ro": {
-      "name": "Eu spun salut."
+      "name": "Eu spun salut.",
+      "description": "O propoziție care descrie acțiunea de a saluta pe cineva."
+    },
+    "de": {
+      "description": "Ein Satz, der das Begrüßen von jemandem beschreibt.",
+      "name": "Ich sage Hallo."
+    },
+    "ru": {
+      "description": "Предложение, описывающее приветствие кого-либо.",
+      "name": "Я говорю привет."
+    },
+    "it": {
+      "description": "Una frase che descrive l'atto di salutare qualcuno.",
+      "name": "Dico ciao."
+    },
+    "es": {
+      "description": "Una oración que describe el acto de saludar a alguien.",
+      "name": "Digo hola."
+    },
+    "fr": {
+      "description": "Une phrase décrivant l'action de saluer quelqu'un.",
+      "name": "Je dis bonjour."
+    },
+    "hu": {
+      "description": "Egy mondat, amely valaki üdvözlését írja le.",
+      "name": "Köszönök."
+    },
+    "pt": {
+      "description": "Uma frase que descreve o ato de cumprimentar alguém.",
+      "name": "Eu digo olá."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12672,
       "sha1": "f88134f9acf8a557bc22b13f58792ac73322ffb4"
+    },
+    "sound/de.mp3": {
+      "bytes": 11808,
+      "sha1": "af943a4e764bea7f678a2511a84179aef3f2a9b3"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "ae5aa098e22e8f8322120433077a8778cc5d3a15"
+    },
+    "sound/es.mp3": {
+      "bytes": 10512,
+      "sha1": "8a838d9e8545b5739985fe91e7abd24793a2515f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "a3d5dd52ddc169456312706c7713e2315f1bbcd4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11952,
+      "sha1": "380331f748a17e2da2bee275f329148e7e4b7b5e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "a003071398bb873dad7cc452fa55b492234cc464"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "0b9441e70dca95384f5944177f837af28d5fd726"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13968,
+      "sha1": "d0f1a864206e3985feadd2c4dd5eeb9827414d29"
     }
   }
 }

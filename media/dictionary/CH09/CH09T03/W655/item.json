@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "agenda"
+      "name": "agenda",
+      "description": "This word relates to meetings and email."
     },
     "ro": {
       "name": "agendă",
-      "ipa": "/aˈdʒendə/"
+      "ipa": "/aˈdʒendə/",
+      "description": "Acest cuvânt este legat de ședințe și e-mail."
     },
     "de": {
-      "name": "Tagesordnung"
+      "name": "Tagesordnung",
+      "description": "Dieses Wort bezieht sich auf Besprechungen und E-Mails."
     },
     "ru": {
-      "name": "повестка дня"
+      "name": "повестка дня",
+      "description": "Это слово относится к встречам и электронной почте."
     },
     "it": {
-      "name": "agenda"
+      "name": "agenda",
+      "description": "Questa parola si riferisce a riunioni ed e-mail."
     },
     "es": {
-      "name": "agenda"
+      "name": "agenda",
+      "description": "Esta palabra se relaciona con reuniones y correo electrónico."
     },
     "fr": {
-      "name": "ordre du jour"
+      "name": "ordre du jour",
+      "description": "Ce mot se rapporte aux réunions et aux e-mails."
     },
     "hu": {
-      "name": "napirend"
+      "name": "napirend",
+      "description": "Ez a szó a megbeszélésekhez és az e-mailekhez kapcsolódik."
     },
     "pt": {
-      "name": "pauta"
+      "name": "pauta",
+      "description": "Esta palavra relaciona-se com reuniões e e-mail."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "7a08bc5a0cc08ae650108588607c05e2cbd2d085"
+    },
+    "sound/en.mp3": {
+      "bytes": 7344,
+      "sha1": "546c38261ba64ad24bd436617c9a8b8dac8ea7d5"
+    },
+    "sound/de.mp3": {
+      "bytes": 12096,
+      "sha1": "86d2dbb416f482686ab4328c400871d0f3d9c6cc"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12240,
+      "sha1": "3e411a3a646ef0581a00f470b8b371ef61168e1c"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "55ea11f09973cf90e6f60d7b53af908c34bf84c2"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "434d3368caef00542a1c5ecbb4af476e717f98f5"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11664,
+      "sha1": "c57fe9be35737170eedcb081bb02515002c4d9f3"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "d16fd8e7446c80483a881b81210f4509567f8546"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "25cc927904c3034e81a5e92a2620d25c055c1e39"
     }
   }
 }

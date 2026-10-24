@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Open the phone."
+      "name": "Open the phone.",
+      "description": "Learn how to give an instruction to open a phone."
     },
     "ro": {
-      "name": "Deschide telefonul."
+      "name": "Deschide telefonul.",
+      "description": "Învață cum să dai o instrucțiune de a deschide telefonul."
+    },
+    "de": {
+      "description": "Lerne, wie man die Anweisung gibt, das Telefon zu öffnen.",
+      "name": "Öffne das Telefon."
+    },
+    "ru": {
+      "description": "Узнайте, как дать указание открыть телефон.",
+      "name": "Открой телефон."
+    },
+    "it": {
+      "description": "Impara a dare un'istruzione per aprire il telefono.",
+      "name": "Apri il telefono."
+    },
+    "es": {
+      "description": "Aprende a dar una indicación para abrir el teléfono.",
+      "name": "Abre el teléfono."
+    },
+    "fr": {
+      "description": "Apprenez à donner une instruction pour ouvrir le téléphone.",
+      "name": "Ouvre le téléphone."
+    },
+    "hu": {
+      "description": "Tanuld meg, hogyan adj utasítást a telefon kinyitására vagy megnyitására.",
+      "name": "Nyisd ki a telefont."
+    },
+    "pt": {
+      "description": "Aprenda a dar uma instrução para abrir o telefone.",
+      "name": "Abra o telefone."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13536,
       "sha1": "8653334e37ce5cb3b41547dfd3c10fe2b594a317"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "9fc4cb65d1409debbc4c4d4d27b929ccb326a528"
+    },
+    "sound/de.mp3": {
+      "bytes": 13680,
+      "sha1": "c8837c45cbe26450cb1ddb6051216e2911255df6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13536,
+      "sha1": "95a77464154e68dc534a76f5337f449ec1e30afe"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "99df39f0b62958500bb52a1c93f4f9d4ff60378d"
+    },
+    "sound/es.mp3": {
+      "bytes": 12528,
+      "sha1": "78b955420997eb5671e0d811ad45741c794e47e2"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12672,
+      "sha1": "10723725469409d2f4fab70fbdf11f86867e4d99"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13536,
+      "sha1": "b3a51ac6115a1a8ea2a5f836385fb4a7dd4dc50f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14112,
+      "sha1": "8a3ff7f9b44470e74813e5a7aaf60ea5199af7a2"
     }
   }
 }

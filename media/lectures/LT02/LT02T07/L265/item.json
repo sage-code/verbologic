@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Close the window."
+      "name": "Close the window.",
+      "description": "Practice giving an instruction to close a window."
     },
     "ro": {
-      "name": "Închide fereastra."
+      "name": "Închide fereastra.",
+      "description": "Exersează oferirea unei instrucțiuni de a închide o fereastră."
+    },
+    "de": {
+      "description": "Übe die Anweisung, ein Fenster zu schließen.",
+      "name": "Schließ das Fenster."
+    },
+    "ru": {
+      "description": "Потренируйтесь давать указание закрыть окно.",
+      "name": "Закрой окно."
+    },
+    "it": {
+      "description": "Esercitati a dare l'istruzione di chiudere una finestra.",
+      "name": "Chiudi la finestra."
+    },
+    "es": {
+      "description": "Practica dar una instrucción para cerrar una ventana.",
+      "name": "Cierra la ventana."
+    },
+    "fr": {
+      "description": "Entraînez-vous à donner l'instruction de fermer une fenêtre.",
+      "name": "Ferme la fenêtre."
+    },
+    "hu": {
+      "description": "Gyakorold az utasításadást egy ablak becsukására.",
+      "name": "Csukd be az ablakot!"
+    },
+    "pt": {
+      "description": "Pratique dar uma instrução para fechar uma janela.",
+      "name": "Feche a janela."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12672,
       "sha1": "36d509148a0eed29b84cf25c1f92219cc23743db"
+    },
+    "sound/en.mp3": {
+      "bytes": 9216,
+      "sha1": "917b0b9975d2420bbb9134fa59975451137b2706"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13680,
+      "sha1": "33e99037c269ff702937df85cbf181d300970cbd"
+    },
+    "sound/de.mp3": {
+      "bytes": 12672,
+      "sha1": "0741d121d64b7360df014312efd9d395348ed415"
+    },
+    "sound/it.mp3": {
+      "bytes": 8640,
+      "sha1": "a7c9328d74b0a787bfecfdb00cf98f9efb6c2ec4"
+    },
+    "sound/es.mp3": {
+      "bytes": 13104,
+      "sha1": "dcb5a9640e175251383f4751cdf224927f1311f9"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12384,
+      "sha1": "0e647647d4c2debe215a7a0c6429abe86cd3280e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13824,
+      "sha1": "2eb49abf27727d81ced911dba1b6b47d8f0878ed"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14112,
+      "sha1": "af6ebf09803e8e8d9250ecbc263e3ecfb69a5464"
     }
   }
 }

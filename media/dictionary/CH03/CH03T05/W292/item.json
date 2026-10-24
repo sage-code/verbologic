@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "breakfast"
+      "name": "breakfast",
+      "description": "This word relates to meals and drinks."
     },
     "ro": {
       "name": "mic dejun",
-      "ipa": "/mik deˈʒun/"
+      "ipa": "/mik deˈʒun/",
+      "description": "Acest cuvânt se referă la mese și băuturi."
     },
     "de": {
-      "name": "Frühstück"
+      "name": "Frühstück",
+      "description": "Dieses Wort bezieht sich auf Mahlzeiten und Getränke."
     },
     "ru": {
-      "name": "завтрак"
+      "name": "завтрак",
+      "description": "Это слово относится к еде и напиткам."
     },
     "it": {
-      "name": "colazione"
+      "name": "colazione",
+      "description": "Questa parola si riferisce a pasti e bevande."
     },
     "es": {
-      "name": "desayuno"
+      "name": "desayuno",
+      "description": "Esta palabra se relaciona con comidas y bebidas."
     },
     "fr": {
-      "name": "petit-déjeuner"
+      "name": "petit-déjeuner",
+      "description": "Ce mot se rapporte aux repas et aux boissons."
     },
     "hu": {
-      "name": "reggeli"
+      "name": "reggeli",
+      "description": "Ez a szó az étkezésekre és italokra vonatkozik."
     },
     "pt": {
-      "name": "café da manhã"
+      "name": "café da manhã",
+      "description": "Esta palavra refere-se a refeições e bebidas."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "e1f25ca2e8abeb58bd0fac01acdb4b82d57142d6"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "e1f5e1018ccc9d089512150bdff4dc2e42c1a545"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "5bad4740284995dc62b98eee283cc83668fe23ff"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "d377dc49efd19e27f1f1b77acb4b9dcf6dfaa180"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "0a6b5b40e3eee94c4861f9cdd11bf616bb488faa"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "5e7d72b7b7b927366b237d908391e26141c896a4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "b3c332c3d14edb9468bf21ebdaf6b6df38643e1b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "1179b982ed917c18bf73531835cf3fb6be41b0c4"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12528,
+      "sha1": "3f6e5275cc32e7fc9528c735a68c1cd32aa48136"
     }
   }
 }

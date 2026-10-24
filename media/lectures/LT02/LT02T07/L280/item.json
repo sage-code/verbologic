@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Put the key on the table."
+      "name": "Put the key on the table.",
+      "description": "A command instructing someone to put the key on the table."
     },
     "ro": {
-      "name": "Pune cheia pe masă."
+      "name": "Pune cheia pe masă.",
+      "description": "O comandă prin care i se cere cuiva să pună cheia pe masă."
+    },
+    "de": {
+      "description": "Eine Aufforderung, den Schlüssel auf den Tisch zu legen.",
+      "name": "Lege den Schlüssel auf den Tisch."
+    },
+    "ru": {
+      "description": "Команда положить ключ на стол.",
+      "name": "Положи ключ на стол."
+    },
+    "it": {
+      "description": "Un comando che invita a mettere la chiave sul tavolo.",
+      "name": "Metti la chiave sul tavolo."
+    },
+    "es": {
+      "description": "Una orden que indica poner la llave sobre la mesa.",
+      "name": "Pon la llave sobre la mesa."
+    },
+    "fr": {
+      "description": "Un ordre demandant de poser la clé sur la table.",
+      "name": "Mets la clé sur la table."
+    },
+    "hu": {
+      "description": "Felszólítás arra, hogy valaki tegye az asztalra a kulcsot.",
+      "name": "Tedd a kulcsot az asztalra."
+    },
+    "pt": {
+      "description": "Um comando instruindo alguém a colocar a chave sobre a mesa.",
+      "name": "Coloque a chave sobre a mesa."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13248,
       "sha1": "156d57d9f1a8681817c5fb61e409383a4b226402"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "c8b6fa0e9a65d74caf3927315e39866824ddc34c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14976,
+      "sha1": "52d8d4f0682e21dd6f8bcb68633825656b0f7038"
+    },
+    "sound/de.mp3": {
+      "bytes": 16272,
+      "sha1": "4d3fe338145c3b1b59b196021adde5bea1c9d1e1"
+    },
+    "sound/it.mp3": {
+      "bytes": 11808,
+      "sha1": "f7d1fa1b4baa8cafc5a86d5abfb58b77286eb746"
+    },
+    "sound/es.mp3": {
+      "bytes": 14544,
+      "sha1": "fdbeebe588f6280fcf2d5304556e4797614f40d2"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14112,
+      "sha1": "36058d44b23b0de2409e5cb2a436755221fa5562"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14976,
+      "sha1": "df30a43b4ccabc2f23ece321cc1ce73071356e7f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16272,
+      "sha1": "78b5dc50a4f66a3695c5da25555b84f554e9ce81"
     }
   }
 }

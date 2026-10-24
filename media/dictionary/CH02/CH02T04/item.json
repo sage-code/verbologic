@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Furniture & household objects"
+      "name": "Furniture & household objects",
+      "description": "Vocabulary related to furniture and items found in the home."
     },
     "ro": {
       "name": "Mobilier și obiecte casnice",
-      "ipa": "/mobiˈljer ʃi oˈbjekte ˈkasnitʃe/"
+      "ipa": "/mobiˈljer ʃi oˈbjekte ˈkasnitʃe/",
+      "description": "Vocabular legat de mobilier și obiecte din casă."
+    },
+    "de": {
+      "description": "Wortschatz rund um Möbel und Gegenstände im Haushalt.",
+      "name": "Möbel & Haushaltsgegenstände"
+    },
+    "ru": {
+      "description": "Лексика, относящаяся к мебели и предметам домашнего обихода.",
+      "name": "Мебель и предметы домашнего обихода"
+    },
+    "it": {
+      "description": "Vocabolario relativo a mobili e oggetti per la casa.",
+      "name": "Mobili e oggetti per la casa"
+    },
+    "es": {
+      "description": "Vocabulario relacionado con muebles y objetos del hogar.",
+      "name": "Muebles y objetos del hogar"
+    },
+    "fr": {
+      "description": "Vocabulaire lié aux meubles et aux objets de la maison.",
+      "name": "Meubles et objets de la maison"
+    },
+    "hu": {
+      "description": "A bútorokkal és az otthoni használati tárgyakkal kapcsolatos szókincs.",
+      "name": "Bútorok és háztartási tárgyak"
+    },
+    "pt": {
+      "description": "Vocabulário relacionado a móveis e objetos da casa.",
+      "name": "Móveis e objetos domésticos"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16992,
       "sha1": "981ad676326e432f2b186f6132bc0d68d707c4f4"
+    },
+    "sound/en.mp3": {
+      "bytes": 13680,
+      "sha1": "02d05a60ae5729b7d243effa9dca8307620ebe59"
+    },
+    "sound/de.mp3": {
+      "bytes": 17568,
+      "sha1": "51df8b76be6bcd68e0a375d130a205838dc532b7"
+    },
+    "sound/it.mp3": {
+      "bytes": 17568,
+      "sha1": "80d64c641f0061eb86bbc18137e83b07a18ae97a"
+    },
+    "sound/es.mp3": {
+      "bytes": 15696,
+      "sha1": "def89d05c1270c5d2a64cf37596c419f259853c7"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13968,
+      "sha1": "f346cd1cbfc93c3816b55ec9c79c1752ae089f04"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16848,
+      "sha1": "1f0b2ea6da0893c144a3fe5d105d07683c3c6b8e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16128,
+      "sha1": "5ad49fcb8d43e51f627efe7ff90c289b462a4963"
+    },
+    "sound/ru.mp3": {
+      "bytes": 21024,
+      "sha1": "2e1d8013cbeea5759a633cc09216411eab3dc50c"
     }
   }
 }

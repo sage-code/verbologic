@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Primești bon?"
+      "name": "Primești bon?",
+      "description": "O întrebare prin care se află dacă cineva primește un bon."
+    },
+    "en": {
+      "description": "A question asking whether someone receives a receipt.",
+      "name": "Do you get a receipt?"
+    },
+    "de": {
+      "description": "Eine Frage, die klärt, ob jemand einen Beleg erhält.",
+      "name": "Bekommst du eine Quittung?"
+    },
+    "ru": {
+      "description": "Вопрос о том, получает ли кто-то чек.",
+      "name": "Ты получаешь чек?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere se qualcuno riceve uno scontrino.",
+      "name": "Ricevi lo scontrino?"
+    },
+    "es": {
+      "description": "Una pregunta para consultar si alguien recibe un recibo.",
+      "name": "¿Recibes recibo?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un reçoit un reçu.",
+      "name": "Tu reçois un reçu ?"
+    },
+    "hu": {
+      "description": "Kérdés arra vonatkozóan, hogy valaki kap-e blokkot.",
+      "name": "Kapsz blokkot?"
+    },
+    "pt": {
+      "description": "Uma pergunta para saber se alguém recebe um recibo.",
+      "name": "Você recebe o recibo?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11376,
       "sha1": "1cfab6e907225d5881552c22a49a3f66a0565883"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "5e3fe6f8fba2494ec1e26653016e4bbed94d7885"
+    },
+    "sound/es.mp3": {
+      "bytes": 12816,
+      "sha1": "25037cb6b4dadb01a89a2a3c0b29a80249c2e0e5"
+    },
+    "sound/de.mp3": {
+      "bytes": 14112,
+      "sha1": "41ae5dda545c85dc9ec8918cfd6d4741915dc9b8"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "6c5cb119726ab16ff86c19490c4f864fcba13197"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12672,
+      "sha1": "f2833725f6159391d4eda0b7cd7c6d3dd3fe2849"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13680,
+      "sha1": "7b611f6f8043a1cb32b4bb791e25f29618334575"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12816,
+      "sha1": "de1e0d41f543b266fac3b7b2fdfd0e1e15d56721"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15120,
+      "sha1": "d0dce59daf462b2035541bc4e8afe1366adb7ed9"
     }
   }
 }

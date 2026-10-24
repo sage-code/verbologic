@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, am nevoie de apă."
+      "name": "Nu, am nevoie de apă.",
+      "description": "O propoziție care exprimă nevoia de apă."
+    },
+    "en": {
+      "description": "A sentence expressing a need for water.",
+      "name": "No, I need water."
+    },
+    "de": {
+      "description": "Ein Satz, der das Bedürfnis nach Wasser ausdrückt.",
+      "name": "Nein, ich brauche Wasser."
+    },
+    "ru": {
+      "description": "Предложение, выражающее потребность в воде.",
+      "name": "Нет, мне нужна вода."
+    },
+    "it": {
+      "description": "Una frase che esprime il bisogno di acqua.",
+      "name": "No, ho bisogno di acqua."
+    },
+    "es": {
+      "description": "Una frase que expresa la necesidad de agua.",
+      "name": "No, necesito agua."
+    },
+    "fr": {
+      "description": "Une phrase exprimant le besoin d'eau.",
+      "name": "Non, j'ai besoin d'eau."
+    },
+    "hu": {
+      "description": "Egy mondat, amely a víz iránti szükségletet fejezi ki.",
+      "name": "Nem, vízre van szükségem."
+    },
+    "pt": {
+      "description": "Uma frase que expressa a necessidade de água.",
+      "name": "Não, preciso de água."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16128,
       "sha1": "192341c340d767604221d045209460c1e4ea7741"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "1ed2f48c082aad5e5d739504134524ce4bb86c81"
+    },
+    "sound/de.mp3": {
+      "bytes": 15552,
+      "sha1": "1c7488461816652439165fc0ab6d440aa5a8824b"
+    },
+    "sound/it.mp3": {
+      "bytes": 13248,
+      "sha1": "2219dd027017ae05d9ad8d697e4569690a97bce0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16272,
+      "sha1": "ebe5e7fb0da759664aa94b12850efe3a674dd3af"
+    },
+    "sound/es.mp3": {
+      "bytes": 14832,
+      "sha1": "36e3329fc401a3664d6f03551656d6bbe5feb98a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14112,
+      "sha1": "af3c513f2046566b8c9ecc0383f8d9000835e945"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16272,
+      "sha1": "b81f40fa966d525b2d3afa173960f4c2bebcb5fb"
+    },
+    "sound/hu.mp3": {
+      "bytes": 19152,
+      "sha1": "17aba5fff3cdea068a01df1f5a39dbefb593f7d0"
     }
   }
 }

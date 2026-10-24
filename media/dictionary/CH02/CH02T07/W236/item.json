@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "scooter"
+      "name": "scooter",
+      "description": "This item provides a practice scaffold for Chapter 2, Topic 7."
     },
     "ro": {
       "name": "trotinetă",
-      "ipa": "/trotiˈnetə/"
+      "ipa": "/trotiˈnetə/",
+      "description": "Acest element oferă o structură de exersare pentru capitolul 2, tema 7."
     },
     "de": {
-      "name": "Roller"
+      "name": "Roller",
+      "description": "Dieses Element bietet ein Übungsgerüst für Kapitel 2, Thema 7."
     },
     "ru": {
-      "name": "Самокат"
+      "name": "Самокат",
+      "description": "Этот элемент служит учебной опорой для темы 7 главы 2."
     },
     "it": {
-      "name": "monopattino"
+      "name": "monopattino",
+      "description": "Questo elemento fornisce un supporto di esercitazione per il capitolo 2, argomento 7."
     },
     "es": {
-      "name": "patinete"
+      "name": "patinete",
+      "description": "Este elemento proporciona una estructura de práctica para el capítulo 2, tema 7."
     },
     "fr": {
-      "name": "trottinette"
+      "name": "trottinette",
+      "description": "Cet élément fournit un cadre d'exercice pour le chapitre 2, thème 7."
     },
     "hu": {
-      "name": "Roller"
+      "name": "Roller",
+      "description": "Ez az elem gyakorlási támpontot nyújt a 2. fejezet 7. témájához."
     },
     "pt": {
-      "name": "Trotinete"
+      "name": "Trotinete",
+      "description": "Este item fornece uma estrutura de prática para o capítulo 2, tópico 7."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "699ddb4fa835804d665a79cabdc299e0fc8d690f"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "3510fe18b7e09b34cdf271194fe10887a410cc40"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "bd85174ef7efbfd61ebbaf876061b9e96c26845b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11808,
+      "sha1": "24b4a4564128edd8950002e47d811987bd2479ac"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "89215b3560a41b034a473b2b703da4f417bec190"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "fa9e3160d32d255e34a82c9c52d66ea2ff667307"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "e2b0a211e2664ca749d472d9e0ded7346bb7c404"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "8cfc6d59343260bab5a6e07b2e0c94313daa15ee"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11520,
+      "sha1": "b8d805c2ee544268ac5a7e7971f637f182330256"
     }
   }
 }

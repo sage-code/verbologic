@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Say goodbye."
+      "name": "Say goodbye.",
+      "description": "An imperative phrase instructing someone to say goodbye."
     },
     "ro": {
-      "name": "Spune la revedere."
+      "name": "Spune la revedere.",
+      "description": "O frază imperativă care instruiește pe cineva să își ia rămas-bun."
+    },
+    "de": {
+      "description": "Ein Aufforderungssatz, der jemanden anweist, sich zu verabschieden.",
+      "name": "Sag auf Wiedersehen."
+    },
+    "ru": {
+      "description": "Повелительная фраза, предписывающая попрощаться.",
+      "name": "Попрощайся."
+    },
+    "it": {
+      "description": "Una frase imperativa che invita qualcuno a salutare congedandosi.",
+      "name": "Di' arrivederci."
+    },
+    "es": {
+      "description": "Una frase imperativa que indica a alguien que se despida.",
+      "name": "Despídete."
+    },
+    "fr": {
+      "description": "Une phrase impérative demandant à quelqu'un de dire au revoir.",
+      "name": "Dis au revoir."
+    },
+    "hu": {
+      "description": "Felszólító mondat, amely arra utasít valakit, hogy köszönjön el.",
+      "name": "Köszönj el!"
+    },
+    "pt": {
+      "description": "Uma frase imperativa que instrui alguém a despedir-se.",
+      "name": "Diz adeus."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13392,
       "sha1": "5741de2aa29afa369a356784d5b64f732b5929e8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "2d233910281841205fd62dd8f15a5bfae7433c89"
+    },
+    "sound/de.mp3": {
+      "bytes": 13104,
+      "sha1": "875de053626db3c50b67fe298cd6b13683750bc1"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12096,
+      "sha1": "524ea96af8d4eebd9d4f62d0c619978f45cedeff"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "db492ecaef9462c4a0d37149d3a4ae38839c5c7b"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "85b8b9b14bd3f1e312791a4b0dee8cebf1f9bdcb"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11808,
+      "sha1": "091f9e42e0140a27776719f4b2793904e1245f13"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11664,
+      "sha1": "1fcc5274a5bdd00c4a606a554ef7ddec5b007d8d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12384,
+      "sha1": "54bca4a1c60eee0ff03c794a1cad837d49e4e273"
     }
   }
 }

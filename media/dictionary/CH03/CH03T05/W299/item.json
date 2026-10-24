@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "wine"
+      "name": "wine",
+      "description": "This item represents vocabulary entry W299 from Chapter 3, Topic 5."
     },
     "ro": {
       "name": "vin",
-      "ipa": "/vin/"
+      "ipa": "/vin/",
+      "description": "Acest element reprezintă intrarea de vocabular W299 din Capitolul 3, Tema 5."
     },
     "de": {
-      "name": "Wein"
+      "name": "Wein",
+      "description": "Dieser Eintrag stellt den Wortschatzeintrag W299 aus Kapitel 3, Thema 5 dar."
     },
     "ru": {
-      "name": "вино"
+      "name": "вино",
+      "description": "Этот элемент представляет словарную единицу W299 из главы 3, темы 5."
     },
     "it": {
-      "name": "vino"
+      "name": "vino",
+      "description": "Questo elemento rappresenta la voce di vocabolario W299 del Capitolo 3, Argomento 5."
     },
     "es": {
-      "name": "vino"
+      "name": "vino",
+      "description": "Este elemento representa la entrada de vocabulario W299 del Capítulo 3, Tema 5."
     },
     "fr": {
-      "name": "vin"
+      "name": "vin",
+      "description": "Cet élément représente l'entrée de vocabulaire W299 du chapitre 3, thème 5."
     },
     "hu": {
-      "name": "bor"
+      "name": "bor",
+      "description": "Ez az elem a 3. fejezet 5. témájának W299 szókincsbeli bejegyzését képviseli."
     },
     "pt": {
-      "name": "vinho"
+      "name": "vinho",
+      "description": "Este item representa a entrada de vocabulário W299 do Capítulo 3, Tópico 5."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "08c1803be3c9e2547322382a789d4758636b3f57"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "db37fc0054916076d7de36b11334f5bb683a9462"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "8109229a4795a4cfab35a2c0deeef09483d5ec10"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "1ff9772b1aaa240a1acef064b2f291802415289f"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "9ccbee1b240ce54b0904f60b20f88db6f1d7b439"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "890ca771ca39b6fee92579746963c5bf27465cc1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "64740795895e29f085fd02b102b36bde97d16806"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "4f70497c2114f80afb646d76144c916c19dde00d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "11b2deea9d58ee972465a6b484d6d56df9145714"
     }
   }
 }

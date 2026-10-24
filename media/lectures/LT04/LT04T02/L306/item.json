@@ -12,13 +12,78 @@
   "locales": {
     "ro": {
       "name": "Bună ziua",
-      "context": "daytime, formal or neutral"
+      "context": "daytime, formal or neutral",
+      "description": "Un salut politicos folosit în timpul zilei."
+    },
+    "en": {
+      "description": "A polite greeting used during the daytime.",
+      "name": "Good afternoon"
+    },
+    "de": {
+      "description": "Ein höflicher Gruß, der tagsüber verwendet wird.",
+      "name": "Guten Tag"
+    },
+    "ru": {
+      "description": "Вежливое приветствие, используемое в дневное время.",
+      "name": "Добрый день"
+    },
+    "it": {
+      "description": "Un saluto di cortesia usato durante il giorno.",
+      "name": "Buongiorno"
+    },
+    "es": {
+      "description": "Un saludo de cortesía utilizado durante el día.",
+      "name": "Buenas tardes"
+    },
+    "fr": {
+      "description": "Une salutation polie utilisée pendant la journée.",
+      "name": "Bonjour"
+    },
+    "hu": {
+      "description": "Udvarias köszönés, amelyet napközben használnak.",
+      "name": "Jó napot"
+    },
+    "pt": {
+      "description": "Uma saudação educada usada durante o dia.",
+      "name": "Boa tarde"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "03a9510c173cb0682a5757b817bb490140ac4e13"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "6db13c9443f0150ee49fcb1c2848bd64be76baf2"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "910f6f68954dbb7b080e4a3b957d27ada5b39c60"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12096,
+      "sha1": "e9b4ca62fb39a7e5aaf56add6b4cad381475566a"
+    },
+    "sound/it.mp3": {
+      "bytes": 11664,
+      "sha1": "c2a68c4a18cb403ec5b31e408bc07ee60643c0d2"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "54d4f3094eb2689e7f9fe3ac29630562f79f8f26"
+    },
+    "sound/es.mp3": {
+      "bytes": 12384,
+      "sha1": "c81917ab6066b0667d9493e383c1ab7d40d33254"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "61e41c94802da46250a71161254bc57516d34444"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "81f52d288468b32126b47666688bf11144a50dfb"
     }
   }
 }

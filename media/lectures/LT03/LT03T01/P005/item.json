@@ -1,0 +1,85 @@
+{
+  "code": "P005",
+  "track": "lectures",
+  "chapter": "LT03",
+  "topic": "LT03T01",
+  "kind": "greeting",
+  "entity_id": "LT03T01:P005",
+  "legacy_entity_id": "greeting_noapte-buna",
+  "locales": {
+    "ro": {
+      "name": "Noapte bună",
+      "description": "end of day, before sleep"
+    },
+    "en": {
+      "description": "End of day, before sleep",
+      "name": "Good night"
+    },
+    "de": {
+      "description": "Tagesende, vor dem Schlafen",
+      "name": "Gute Nacht"
+    },
+    "ru": {
+      "description": "В конце дня, перед сном",
+      "name": "Спокойной ночи"
+    },
+    "it": {
+      "description": "Fine giornata, prima di dormire",
+      "name": "Buonanotte"
+    },
+    "es": {
+      "description": "Final del día, antes de dormir",
+      "name": "Buenas noches"
+    },
+    "fr": {
+      "description": "Fin de journée, avant de dormir",
+      "name": "Bonne nuit"
+    },
+    "hu": {
+      "description": "A nap végén, lefekvés előtt",
+      "name": "Jó éjszakát"
+    },
+    "pt": {
+      "description": "Fim do dia, antes de dormir",
+      "name": "Boa noite"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "ab207553268d4f34fa6d86f907f658acaad079d3"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "26169994df52d59b9b47e160e350269750b2a35a"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "10af60ac77702c1877ebedcf1f02133da8dd18b5"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14256,
+      "sha1": "04d95d242d50f4ad1942430517ac5265c4ed6eb8"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "d5eb06a69cf9d13ebda6276e5c8e5fc284cf812c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11952,
+      "sha1": "577402b3f5fad8fe1817db1241c7eecfe3a5c351"
+    },
+    "sound/es.mp3": {
+      "bytes": 12384,
+      "sha1": "51c41d7def083643e7959156eeb39486e245c874"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "f095d6026f62ebddc9dbec0d026e4ace67085aaa"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13104,
+      "sha1": "d20a48244db07bea2ffef6b45eef76a5ab9d62bd"
+    }
+  }
+}

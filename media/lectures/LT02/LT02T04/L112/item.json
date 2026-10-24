@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, vecinul este acolo."
+      "name": "Da, vecinul este acolo.",
+      "description": "O afirmație care confirmă prezența vecinului în acel loc."
+    },
+    "en": {
+      "description": "A statement confirming that the neighbor is there.",
+      "name": "Yes, the neighbor is there."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass der Nachbar dort ist.",
+      "name": "Ja, der Nachbar ist dort."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее, что сосед находится там.",
+      "name": "Да, сосед там."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma la presenza del vicino in quel luogo.",
+      "name": "Sì, il vicino è lì."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que el vecino está en ese lugar.",
+      "name": "Sí, el vecino está allí."
+    },
+    "fr": {
+      "description": "Une phrase confirmant que le voisin est là.",
+      "name": "Oui, le voisin est là."
+    },
+    "hu": {
+      "description": "Állítás, amely megerősíti, hogy a szomszéd ott tartózkodik.",
+      "name": "Igen, a szomszéd ott van."
+    },
+    "pt": {
+      "description": "Uma afirmação que confirma que o vizinho está presente no local.",
+      "name": "Sim, o vizinho está lá."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17280,
       "sha1": "07d9e9095252e4019fce3a7bd8802289b8fce163"
+    },
+    "sound/en.mp3": {
+      "bytes": 11520,
+      "sha1": "b8ebd2b7d4af640c8f1592a43da93d85aba2a77b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15264,
+      "sha1": "0d43f0edf8dc02b60d910ddaea144397e6eb765f"
+    },
+    "sound/es.mp3": {
+      "bytes": 16704,
+      "sha1": "51e9f39208431ab51d5124c3f69baeb7cfdfaa18"
+    },
+    "sound/it.mp3": {
+      "bytes": 16704,
+      "sha1": "5f8756482ead5787b7208cd54e2e1599f6957bef"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14976,
+      "sha1": "4d4d590dc64df0c419999f949d2d06ec73c20e20"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13968,
+      "sha1": "bd7325f96761c1996729b0685528780f7633190b"
+    },
+    "sound/de.mp3": {
+      "bytes": 15696,
+      "sha1": "1839aac20e00ede9255e88e792cb8f68a69230a6"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14256,
+      "sha1": "a85f418981c0bdb5f0f57c0731d3c38770c38035"
     }
   }
 }

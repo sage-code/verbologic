@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "beer"
+      "name": "beer",
+      "description": "This item represents vocabulary entry W300 from Chapter 3, Topic 5."
     },
     "ro": {
       "name": "bere",
-      "ipa": "/ˈbere/"
+      "ipa": "/ˈbere/",
+      "description": "Acest element reprezintă intrarea de vocabular W300 din Capitolul 3, Tema 5."
     },
     "de": {
-      "name": "Bier"
+      "name": "Bier",
+      "description": "Dieser Eintrag stellt den Wortschatzeintrag W300 aus Kapitel 3, Thema 5 dar."
     },
     "ru": {
-      "name": "пиво"
+      "name": "пиво",
+      "description": "Этот элемент представляет словарную единицу W300 из главы 3, темы 5."
     },
     "it": {
-      "name": "birra"
+      "name": "birra",
+      "description": "Questo elemento rappresenta la voce di vocabolario W300 del Capitolo 3, Argomento 5."
     },
     "es": {
-      "name": "cerveza"
+      "name": "cerveza",
+      "description": "Este elemento representa la entrada de vocabulario W300 del Capítulo 3, Tema 5."
     },
     "fr": {
-      "name": "bière"
+      "name": "bière",
+      "description": "Cet élément représente l'entrée de vocabulaire W300 du chapitre 3, thème 5."
     },
     "hu": {
-      "name": "sör"
+      "name": "sör",
+      "description": "Ez az elem a 3. fejezet 5. témájának W300 szókincsbeli bejegyzését képviseli."
     },
     "pt": {
-      "name": "cerveja"
+      "name": "cerveja",
+      "description": "Este item representa a entrada de vocabulário W300 do Capítulo 3, Tópico 5."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "377119ec0ef3d378068f84ad8833f97864920f23"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "decdd4de4deb5b0539bb610b30ae267134d6f1ee"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "f15baba73d1d9a3b6568bcfc601b4fa5a02724d0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "9e6f817932a28405738f3b94afb339c243e31e21"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "1292f1a430a0f3be01c708f1aabc40dde9b8ffb8"
+    },
+    "sound/es.mp3": {
+      "bytes": 10080,
+      "sha1": "1532ab205e02dfcec45b592e4b31c13cfa112b79"
+    },
+    "sound/fr.mp3": {
+      "bytes": 9072,
+      "sha1": "152e7ed20e8ecaf2c3550cd1c61bef4c7ce36e3d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "be4971709fa52dafcd0b9667db2a2518a09ddbea"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11520,
+      "sha1": "24185d7ed00cf1da08d63486019b29c69d5d4f69"
     }
   }
 }

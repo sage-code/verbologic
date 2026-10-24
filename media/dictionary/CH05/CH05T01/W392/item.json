@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "reservation"
+      "name": "reservation",
+      "description": "A rectangular case with a handle used for carrying clothes and personal items while traveling."
     },
     "ro": {
       "name": "rezervare",
-      "ipa": "/rezerˈvare/"
+      "ipa": "/rezerˈvare/",
+      "description": "O geantă dreptunghiulară cu mâner, folosită pentru transportul hainelor și obiectelor personale în timpul călătoriei."
     },
     "de": {
-      "name": "Reservierung"
+      "name": "Reservierung",
+      "description": "Ein rechteckiger Behälter mit Griff zum Transport von Kleidung und persönlichen Gegenständen auf Reisen."
     },
     "ru": {
-      "name": "бронирование"
+      "name": "бронирование",
+      "description": "Прямоугольная сумка с ручкой, используемая для перевозки одежды и личных вещей во время поездок."
     },
     "it": {
-      "name": "prenotazione"
+      "name": "prenotazione",
+      "description": "Un contenitore rettangolare con manico utilizzato per trasportare abiti e oggetti personali durante i viaggi."
     },
     "es": {
-      "name": "reserva"
+      "name": "reserva",
+      "description": "Un equipaje rectangular con asa utilizado para llevar ropa y artículos personales durante un viaje."
     },
     "fr": {
-      "name": "réservation"
+      "name": "réservation",
+      "description": "Un bagage rectangulaire doté d'une poignée, utilisé pour transporter des vêtements et des effets personnels en voyage."
     },
     "hu": {
-      "name": "foglalás"
+      "name": "foglalás",
+      "description": "Fogantyúval ellátott téglalap alakú táska, amelyet ruhák és személyes tárgyak szállítására használnak utazáskor."
     },
     "pt": {
-      "name": "reserva"
+      "name": "reserva",
+      "description": "Uma mala retangular com alça usada para transportar roupas e itens pessoais durante viagens."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11088,
       "sha1": "cef41ba0eb8bdcedd77f66bfeb44baccf974eaa6"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "2e41960f1c8b197889eb474002c6c19f21c92d16"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "94ed40ae739563d8e3629556ede37dd1ec55ac95"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11952,
+      "sha1": "429e12ad50c64b93763b6790a8d3f652cee280e9"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "b6e1f3ddd06618ad50a78e3c8d52834321a86e1b"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "81b9e96c95f76681a9d352fbeccfbd433295e198"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11376,
+      "sha1": "5a9ef8338f1f567e73a56788185f73b9702b2269"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "16d4d94616cc0333e59aecd6df71e6c2da205e16"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11520,
+      "sha1": "035208b9cc5b2366c976f531c58b8fad3f4d55c2"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, prețul este mare."
+      "name": "Da, prețul este mare.",
+      "description": "O afirmație care confirmă că prețul este mare."
+    },
+    "en": {
+      "description": "A statement confirming that the price is high.",
+      "name": "Yes, the price is high."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass der Preis hoch ist.",
+      "name": "Ja, der Preis ist hoch."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее, что цена высокая.",
+      "name": "Да, цена высокая."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che il prezzo è alto.",
+      "name": "Sì, il prezzo è alto."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que el precio es alto.",
+      "name": "Sí, el precio es alto."
+    },
+    "fr": {
+      "description": "Une déclaration confirmant que le prix est élevé.",
+      "name": "Oui, le prix est élevé."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely megerősíti, hogy az ár magas.",
+      "name": "Igen, az ár magas."
+    },
+    "pt": {
+      "description": "Uma afirmação que confirma que o preço é alto.",
+      "name": "Sim, o preço é alto."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16992,
       "sha1": "c7ac7fe7fda9695f0070830a292e471de2d4e753"
+    },
+    "sound/de.mp3": {
+      "bytes": 16416,
+      "sha1": "2ed3a189edbbdfb174f14a32fbe08ee8c7d4a0ec"
+    },
+    "sound/en.mp3": {
+      "bytes": 12240,
+      "sha1": "504bcc754000b40e49ee7e22b3ef6ef2d7a86c68"
+    },
+    "sound/it.mp3": {
+      "bytes": 13536,
+      "sha1": "a048d99bc5ed263655e186b81d956dd087f9db9c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16848,
+      "sha1": "08bbf21f1b3524e2c66d7785d4d198d63507d044"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14976,
+      "sha1": "6a1bf3dd5f19375f8e1591543a2f5e993491d8d3"
+    },
+    "sound/es.mp3": {
+      "bytes": 14544,
+      "sha1": "5d902e0b28bd25a68bbb75bf51649c2a9a0db054"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16128,
+      "sha1": "938c265b299b324b5cb042c9aa8b29800fcefefe"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16128,
+      "sha1": "0d2fd33a49e6a8cae76212bed56a1535aae7e566"
     }
   }
 }

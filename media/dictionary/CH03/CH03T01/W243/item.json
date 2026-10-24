@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "to study"
+      "name": "to study",
+      "description": "To wash one's body under a spray of water."
     },
     "ro": {
       "name": "a învăța",
-      "ipa": "/a ɨnvəˈtsa/"
+      "ipa": "/a ɨnvəˈtsa/",
+      "description": "A-ți spăla corpul sub un jet de apă."
     },
     "de": {
-      "name": "lernen"
+      "name": "lernen",
+      "description": "Seinen Körper unter einem Wasserstrahl waschen."
     },
     "ru": {
-      "name": "учиться"
+      "name": "учиться",
+      "description": "Мыть тело под струёй воды."
     },
     "it": {
-      "name": "studiare"
+      "name": "studiare",
+      "description": "Lavarsi il corpo sotto un getto d'acqua."
     },
     "es": {
-      "name": "estudiar"
+      "name": "estudiar",
+      "description": "Lavarse el cuerpo bajo un chorro de agua."
     },
     "fr": {
-      "name": "étudier"
+      "name": "étudier",
+      "description": "Se laver le corps sous un jet d'eau."
     },
     "hu": {
-      "name": "tanulni"
+      "name": "tanulni",
+      "description": "Megmosni a testet vízsugár alatt."
     },
     "pt": {
-      "name": "estudar"
+      "name": "estudar",
+      "description": "Lavar o corpo sob um jato de água."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "19531e522b1b29f82f9bda7c664707ab4a90f9ac"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "df50d64e72237365c94efe9aa7669eaef8146094"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "1ae89c8d32f22b4ae92939e7a8b832c106250dfa"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "aab17c446d21ad144b91f361b88903c84a5a31e0"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "aacde2eafe2b7526e5140a560b3d9450491f2a0b"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "d2f2223db010eeb5ef2f8fa9db9a874a691fbed8"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "17cebaaa30c3ed42e4fb04c19a82cec8814333e9"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "cfaf8438a9f9739ca7938bca0e8618405bdeaf86"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "2f3d44b4226070a29e2d4381207596cd9cab0d56"
     }
   }
 }

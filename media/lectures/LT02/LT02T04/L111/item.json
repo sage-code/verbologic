@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, studentul citește lecția."
+      "name": "Da, studentul citește lecția.",
+      "description": "O afirmație care confirmă faptul că studentul citește lecția."
+    },
+    "en": {
+      "description": "A statement confirming that the student is reading the lesson.",
+      "name": "Yes, the student is reading the lesson."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass der Student die Lektion liest.",
+      "name": "Ja, der Student liest die Lektion."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее, что студент читает урок.",
+      "name": "Да, студент читает урок."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che lo studente sta leggendo la lezione.",
+      "name": "Sì, lo studente legge la lezione."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que el estudiante lee la lección.",
+      "name": "Sí, el estudiante lee la lección."
+    },
+    "fr": {
+      "description": "Une phrase confirmant que l'étudiant lit la leçon.",
+      "name": "Oui, l'étudiant lit la leçon."
+    },
+    "hu": {
+      "description": "Állítás, amely megerősíti, hogy a diák a leckét olvassa.",
+      "name": "Igen, a diák olvassa a leckét."
+    },
+    "pt": {
+      "description": "Uma afirmação que confirma que o aluno está lendo a lição.",
+      "name": "Sim, o estudante lê a lição."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 18720,
       "sha1": "d0d64bc082be06d6ca1c86cd73c4d8cc517e6cea"
+    },
+    "sound/en.mp3": {
+      "bytes": 16416,
+      "sha1": "493ed11ca8a73db7f4ff9268a712efa175e61e9b"
+    },
+    "sound/de.mp3": {
+      "bytes": 18576,
+      "sha1": "48432485a0cb1aa4738991bd464f7f8b91a92819"
+    },
+    "sound/it.mp3": {
+      "bytes": 21024,
+      "sha1": "10ff0fd5d499fabcd4410138b35a32239c929034"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18864,
+      "sha1": "d31921eee2c8ecf1fa5df1e67c2f888cc767ca6e"
+    },
+    "sound/es.mp3": {
+      "bytes": 19584,
+      "sha1": "9f9ecd29e7c4a6e8700829726382929bba955d75"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17424,
+      "sha1": "4410643b28de8fd7853f292799d302a53a775614"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16272,
+      "sha1": "1bfb3883b2732965b96e69bcb19b4f419d4ae05a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16272,
+      "sha1": "1582836967db1d513ed1d9507b905bc7994e779d"
     }
   }
 }

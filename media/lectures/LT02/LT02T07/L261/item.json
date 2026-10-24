@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Save the file."
+      "name": "Save the file.",
+      "description": "An instruction telling someone to save a digital file."
     },
     "ro": {
-      "name": "Salvează fișierul."
+      "name": "Salvează fișierul.",
+      "description": "O instrucțiune prin care i se cere cuiva să salveze un fișier digital."
+    },
+    "de": {
+      "description": "Eine Anweisung, eine digitale Datei zu speichern.",
+      "name": "Speichere die Datei."
+    },
+    "ru": {
+      "description": "Указание сохранить цифровой файл.",
+      "name": "Сохрани файл."
+    },
+    "it": {
+      "description": "Un'istruzione che richiede di salvare un file digitale.",
+      "name": "Salva il file."
+    },
+    "es": {
+      "description": "Una instrucción para guardar un archivo digital.",
+      "name": "Guarda el archivo."
+    },
+    "fr": {
+      "description": "Une consigne demandant d'enregistrer un fichier numérique.",
+      "name": "Enregistre le fichier."
+    },
+    "hu": {
+      "description": "Digitális fájl mentésére vonatkozó utasítás.",
+      "name": "Mentsd el a fájlt."
+    },
+    "pt": {
+      "description": "Uma instrução para salvar um arquivo digital.",
+      "name": "Salve o arquivo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13680,
       "sha1": "e9ca998c3c920123e9bba554db81c86b6fc222a3"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "e4e96c27a51bea0ba440ea372a33670fa4063767"
+    },
+    "sound/de.mp3": {
+      "bytes": 13824,
+      "sha1": "14f84613868ebda0cf082628d42dbcd394fed164"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13104,
+      "sha1": "12a348c8860c2b709ff54f1148e1291ef0a0dd29"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "5a1fb8887ac5b7ed9be26ef8f5f0a5778b75f281"
+    },
+    "sound/es.mp3": {
+      "bytes": 12528,
+      "sha1": "0a6f6fd24baf3edc26e42b3c95fe16cfcd1ea168"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13536,
+      "sha1": "144b6917617659a258bbcebcd4967b4d60776c16"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13968,
+      "sha1": "545727189c4ccf4128c00393130b14b8c91c831d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13968,
+      "sha1": "383a4238fa19adea69f9e63ad945392d75a0cdf1"
     }
   }
 }

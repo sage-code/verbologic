@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "next to"
+      "name": "next to",
+      "description": "This word is review vocabulary for Chapter 4, Topic 5."
     },
     "ro": {
       "name": "lângă",
-      "ipa": "/ˈlɨngə/"
+      "ipa": "/ˈlɨngə/",
+      "description": "Acest cuvânt este un vocabular de recapitulare pentru capitolul 4, tema 5."
     },
     "de": {
-      "name": "neben"
+      "name": "neben",
+      "description": "Dieses Wort dient als Wiederholungsvokabular für Kapitel 4, Thema 5."
     },
     "ru": {
-      "name": "рядом с"
+      "name": "рядом с",
+      "description": "Это слово используется для повторения словарного запаса в главе 4, теме 5."
     },
     "it": {
-      "name": "accanto a"
+      "name": "accanto a",
+      "description": "Questa parola fa parte del vocabolario di ripasso per il capitolo 4, argomento 5."
     },
     "es": {
-      "name": "al lado de"
+      "name": "al lado de",
+      "description": "Esta palabra sirve como vocabulario de repaso para el capítulo 4, tema 5."
     },
     "fr": {
-      "name": "à côté de"
+      "name": "à côté de",
+      "description": "Ce mot sert de vocabulaire de révision pour le chapitre 4, thème 5."
     },
     "hu": {
-      "name": "mellett"
+      "name": "mellett",
+      "description": "Ez a szó ismétlő szókincs a 4. fejezet 5. témaköréhez."
     },
     "pt": {
-      "name": "ao lado de"
+      "name": "ao lado de",
+      "description": "Esta palavra serve como vocabulário de revisão para o capítulo 4, tópico 5."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "2b73242a49a6af2d1c7ad3fe52a79d5e4dc93190"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "731661c1f32fa1db2a4c205bae7373c6df57fef9"
+    },
+    "sound/de.mp3": {
+      "bytes": 9504,
+      "sha1": "241a1a0e1bee76d9628de92cd5381a8763e95876"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "0855eac04032d212f4f897c0abd126c0bd4e2808"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "ada283522e2d62da7c16f8e94916999c96f3622e"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "11ef2116367a9dbf2821008035ac9d9bcb87e45c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "dd8bec5e92d927c1bd11c4f1a169f7b53c7780a4"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "515cd3392cc0024020297e057342bb77c168cdc4"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11808,
+      "sha1": "08a7a1fa877a0568ac909d88be478a1dd2654a0b"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Bei apă acum?"
+      "name": "Bei apă acum?",
+      "description": "O întrebare care întreabă dacă cineva bea apă acum."
+    },
+    "en": {
+      "description": "A question asking if someone is drinking water now.",
+      "name": "Are you drinking water now?"
+    },
+    "de": {
+      "description": "Eine Frage, die erkundet, ob jemand jetzt Wasser trinkt.",
+      "name": "Trinkst du jetzt Wasser?"
+    },
+    "ru": {
+      "description": "Вопрос о том, пьёт ли кто-то воду сейчас.",
+      "name": "Ты сейчас пьёшь воду?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere se qualcuno sta bevendo acqua adesso.",
+      "name": "Bevi acqua adesso?"
+    },
+    "es": {
+      "description": "Una pregunta sobre si alguien está bebiendo agua ahora.",
+      "name": "¿Estás bebiendo agua ahora?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un boit de l'eau maintenant.",
+      "name": "Bois-tu de l'eau maintenant ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy valaki iszik-e most vizet.",
+      "name": "Iszol most vizet?"
+    },
+    "pt": {
+      "description": "Uma pergunta sobre se alguém está bebendo água agora.",
+      "name": "Estás a beber água agora?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11520,
       "sha1": "29fa5848c140217bfb40bd9d6063c0cb4dea3247"
+    },
+    "sound/de.mp3": {
+      "bytes": 13824,
+      "sha1": "38b10cfc13673c1236452d5f1fcca34431631fbf"
+    },
+    "sound/it.mp3": {
+      "bytes": 13392,
+      "sha1": "6b499174e427f491d330f060f7560b25a800ed8b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12528,
+      "sha1": "df47c5e0bb6205553c6c907639f068af123af4b7"
+    },
+    "sound/es.mp3": {
+      "bytes": 14400,
+      "sha1": "06b0ce948bfb44808a4bf08542f38b9153b96c69"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11808,
+      "sha1": "d59017d106b2994c339bab9594ae07a8d66ecaef"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12816,
+      "sha1": "4499386e0b74ab24cfb9feee1c0c01bbbfa66c4b"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "beff39dad8ba1b587557c24e8b325d0539c4028b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14832,
+      "sha1": "b8263330487dc239d4446111136689731ae5b82b"
     }
   }
 }

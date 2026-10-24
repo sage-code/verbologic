@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "I drink water."
+      "name": "I drink water.",
+      "description": "A sentence stating the action of drinking water."
     },
     "ro": {
-      "name": "Eu beau apă."
+      "name": "Eu beau apă.",
+      "description": "O propoziție care exprimă acțiunea de a bea apă."
+    },
+    "de": {
+      "description": "Ein Satz, der das Trinken von Wasser ausdrückt.",
+      "name": "Ich trinke Wasser."
+    },
+    "ru": {
+      "description": "Предложение, выражающее действие питья воды.",
+      "name": "Я пью воду."
+    },
+    "it": {
+      "description": "Una frase che esprime l'azione di bere acqua.",
+      "name": "Bevo acqua."
+    },
+    "es": {
+      "description": "Una frase que expresa la acción de beber agua.",
+      "name": "Bebo agua."
+    },
+    "fr": {
+      "description": "Une phrase décrivant l'action de boire de l'eau.",
+      "name": "Je bois de l'eau."
+    },
+    "hu": {
+      "description": "Mondat, amely a vízivás cselekvését fejezi ki.",
+      "name": "Vizet iszom."
+    },
+    "pt": {
+      "description": "Uma frase que afirma a ação de beber água.",
+      "name": "Eu bebo água."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11088,
       "sha1": "ad9a1a367e8c9657ac11f4f0422918aa97fb5c31"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "ca72f728f17cced9f93ca6b0503bbd9ffcc8d52f"
+    },
+    "sound/de.mp3": {
+      "bytes": 12096,
+      "sha1": "facb0eba8a01a1ee969cfd088b0f0866c081659b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12816,
+      "sha1": "e7be1f282f8ed46f1fdd48e57d791791408a1607"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "f7aa30717995ca1b130f2c7af32a074a622e4e05"
+    },
+    "sound/it.mp3": {
+      "bytes": 11520,
+      "sha1": "4ad42465ba18912606b020175c988e3398f8d67e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "5b870ae6a48e1fa80cfa891a2854751f4c233dcc"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "b0534ecf97db5d575634e3f50d066487aa450838"
+    },
+    "sound/pt.mp3": {
+      "bytes": 10656,
+      "sha1": "9658ebd9260db4e2fa18c5a47bca4ec69e0206dd"
     }
   }
 }

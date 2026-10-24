@@ -12,13 +12,78 @@
   "locales": {
     "ro": {
       "name": "Pe curând",
-      "context": "Warm formula used when you expect to meet again soon."
+      "context": "Warm formula used when you expect to meet again soon.",
+      "description": "O formulă de rămas-bun care înseamnă ne vedem în curând."
+    },
+    "en": {
+      "description": "A farewell expression meaning see you soon.",
+      "name": "See you soon"
+    },
+    "de": {
+      "description": "Ein Abschiedsgruß mit der Bedeutung bis bald.",
+      "name": "Bis bald"
+    },
+    "ru": {
+      "description": "Формула прощания со значением «до скорого».",
+      "name": "До скорого"
+    },
+    "it": {
+      "description": "Un'espressione di congedo che significa a presto.",
+      "name": "A presto"
+    },
+    "es": {
+      "description": "Una expresión de despedida que significa hasta pronto.",
+      "name": "Hasta pronto"
+    },
+    "fr": {
+      "description": "Une formule d'adieu signifiant à bientôt.",
+      "name": "À bientôt"
+    },
+    "hu": {
+      "description": "Búcsúzási kifejezés, amely azt jelenti, hogy hamarosan találkozunk.",
+      "name": "Viszlát hamarosan"
+    },
+    "pt": {
+      "description": "Uma expressão de despedida que significa até breve.",
+      "name": "Até breve"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "c2b8020ab75d54e3cf4c419016943351d90ee7cc"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "797d391cc5045d62954069abf253763dfc1126d0"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "4dcb6ac2b495017ee8c8d2f865c9a6e9bdc1c105"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "8e732c57c4d464479b4ec8267b0ed5a4b3802db3"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "eafc794f2ab90ab68aa6d84926e9774994ddae9c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "6c2ca2ce6ad408e039e91cd88feef584a8a23c30"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "cce9ef92e446bedeb4aacdfb8b48976d24ec176b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "5f9a91ff00593b36686e1503211b3bfad4ae03c4"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12240,
+      "sha1": "c9fc1d4355aca68eea8ca4b216e08d60c009bee0"
     }
   }
 }

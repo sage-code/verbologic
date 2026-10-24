@@ -11,39 +11,80 @@
   ],
   "locales": {
     "en": {
-      "name": "3D printer"
+      "name": "3D printer",
+      "description": "This is a vocabulary item related to emerging technologies."
     },
     "ro": {
       "name": "imprimantă 3D",
       "ipa": "/imprimˈantə trei ˈde/",
-      "ttsText": "imprimantă trei de"
+      "ttsText": "imprimantă trei de",
+      "description": "Acesta este un element de vocabular legat de tehnologiile emergente."
     },
     "de": {
-      "name": "3D-Drucker"
+      "name": "3D-Drucker",
+      "description": "Dies ist ein Vokabeleintrag zum Thema aufkommende Technologien."
     },
     "ru": {
-      "name": "3D-принтер"
+      "name": "3D-принтер",
+      "description": "Это словарная единица, связанная с развивающимися технологиями."
     },
     "it": {
-      "name": "stampante 3D"
+      "name": "stampante 3D",
+      "description": "Questa è una voce di vocabolario relativa alle tecnologie emergenti."
     },
     "es": {
-      "name": "impresora 3D"
+      "name": "impresora 3D",
+      "description": "Este es un elemento de vocabulario relacionado con las tecnologías emergentes."
     },
     "fr": {
-      "name": "imprimante 3D"
+      "name": "imprimante 3D",
+      "description": "Ceci est un élément de vocabulaire lié aux technologies émergentes."
     },
     "hu": {
-      "name": "3D nyomtató"
+      "name": "3D nyomtató",
+      "description": "Ez egy feltörekvő technológiákkal kapcsolatos szókincselem."
     },
     "pt": {
-      "name": "impressora 3D"
+      "name": "impressora 3D",
+      "description": "Este é um item de vocabulário relacionado a tecnologias emergentes."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13104,
       "sha1": "8f7699a4765976acb3bf1953bbc7143afa524f7e"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "c5bd5ef6e3786d7dfab4dfe693a8e15f361ee187"
+    },
+    "sound/de.mp3": {
+      "bytes": 11952,
+      "sha1": "70210cce1f17f5d1c71206fb00fa42f17c7bdb09"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13392,
+      "sha1": "7dc73eb962b7859f7a9a08114ae2c54a68d61354"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "4ef80a53606a64a317993912ac18931b686ba2fc"
+    },
+    "sound/es.mp3": {
+      "bytes": 13392,
+      "sha1": "988cf3fd3627f717ad510adb61ed4a03c470a550"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12672,
+      "sha1": "e919ce6d84389fe875edeb674e1ea5fe11911819"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14256,
+      "sha1": "ce405d82da99ee6256950f930d6b1b5ba32d5816"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14400,
+      "sha1": "bd65157a297f9cca62223fc35e1cce716d5bc061"
     }
   }
 }

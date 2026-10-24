@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "wifi"
+      "name": "wifi",
+      "description": "This word relates to phone and online services."
     },
     "ro": {
       "name": "wifi",
-      "ipa": "/ˈwaifai/"
+      "ipa": "/ˈwaifai/",
+      "description": "Acest cuvânt este legat de telefon și servicii online."
     },
     "de": {
-      "name": "WLAN"
+      "name": "WLAN",
+      "description": "Dieses Wort bezieht sich auf Telefon- und Online-Dienste."
     },
     "ru": {
-      "name": "вайфай"
+      "name": "вайфай",
+      "description": "Это слово относится к телефону и онлайн-сервисам."
     },
     "it": {
-      "name": "wifi"
+      "name": "wifi",
+      "description": "Questa parola si riferisce al telefono e ai servizi online."
     },
     "es": {
-      "name": "wifi"
+      "name": "wifi",
+      "description": "Esta palabra se relaciona con el teléfono y los servicios en línea."
     },
     "fr": {
-      "name": "wifi"
+      "name": "wifi",
+      "description": "Ce mot est lié au téléphone et aux services en ligne."
     },
     "hu": {
-      "name": "wifi"
+      "name": "wifi",
+      "description": "Ez a szó a telefon- és onlineszolgáltatásokhoz kapcsolódik."
     },
     "pt": {
-      "name": "wifi"
+      "name": "wifi",
+      "description": "Esta palavra está relacionada a telefone e serviços online."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "68ff09bc1a83bb663909fd6073d7112511fdbec0"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "32eb2f41b2db11b5bf490c5868914ff16b4ef9fd"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "8163fa8a0276972539c7efa77a8ca23b4d72c70e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "2476b64857eb226cbb3b11b83f8c64dac9d9e36b"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "476b4f020705f6d3be1c80002bb0d0ed80022b04"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "e682517ad2bf0545cb01c2497d5504c3d7d8f163"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "3724073982700239faf2db7844603d777166083a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 10800,
+      "sha1": "82464e0040a9fbb93ddd090c6c268424d30f652e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "07472070ee0f700eedf702861ed9a3eb572987d8"
     }
   }
 }

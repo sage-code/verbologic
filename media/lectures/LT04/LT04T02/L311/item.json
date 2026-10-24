@@ -12,13 +12,78 @@
   "locales": {
     "ro": {
       "name": "Noroc bun",
-      "context": "Rare/regional formula; may sound archaic, mainly used in traditional tone."
+      "context": "Rare/regional formula; may sound archaic, mainly used in traditional tone.",
+      "description": "Un salut tradițional sau o formulă de rămas-bun prin care se urează noroc."
+    },
+    "en": {
+      "description": "A traditional greeting or farewell wishing good luck.",
+      "name": "Good luck"
+    },
+    "de": {
+      "description": "Ein traditioneller Gruß oder Abschiedsgruß, mit dem man Glück wünscht.",
+      "name": "Glück auf"
+    },
+    "ru": {
+      "description": "Традиционное приветствие или прощание с пожеланием удачи.",
+      "name": "В добрый час"
+    },
+    "it": {
+      "description": "Un saluto o commiato tradizionale con cui si augura buona fortuna.",
+      "name": "Buona fortuna"
+    },
+    "es": {
+      "description": "Un saludo o despedida tradicional para desear buena suerte.",
+      "name": "Buena suerte"
+    },
+    "fr": {
+      "description": "Une salutation ou formule d'adieu traditionnelle pour souhaiter bonne chance.",
+      "name": "Bonne chance"
+    },
+    "hu": {
+      "description": "Hagyományos köszönés vagy búcsúzás, amellyel jó szerencsét kívánnak.",
+      "name": "Jó szerencsét"
+    },
+    "pt": {
+      "description": "Uma saudação ou despedida tradicional para desejar boa sorte.",
+      "name": "Boa sorte"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "4c9375b3f2e33c1e6d91d546c882b03c1dbad586"
+    },
+    "sound/en.mp3": {
+      "bytes": 5616,
+      "sha1": "386691ae1461cf51595e14a07c59e391957cf391"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "8c2ef141ba9932815725f737ccaf10b9b5424b73"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "44470682a2cb6c1743631b56837a0a3a04829f1e"
+    },
+    "sound/es.mp3": {
+      "bytes": 11664,
+      "sha1": "a5e2dffb6944baeb3ba2076bd58d1e137d6a51fe"
+    },
+    "sound/it.mp3": {
+      "bytes": 12096,
+      "sha1": "412ddbdfbed5119724af5f3af82c255bc2c3200e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "a5906ab6aeeb772fd6ea818c86b674d5dd0e8d49"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "4519bb51421ee26f0f5e9b9b41a24b75817e24c3"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12384,
+      "sha1": "f50025051efd7b80981ec6bcd6e2b36cbe10175c"
     }
   }
 }

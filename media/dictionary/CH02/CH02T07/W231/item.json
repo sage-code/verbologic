@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "puzzle"
+      "name": "puzzle",
+      "description": "This word is used for practice in the toys and games topic."
     },
     "ro": {
       "name": "puzzle",
-      "ipa": "/ˈpazəl/"
+      "ipa": "/ˈpazəl/",
+      "description": "Acest cuvânt este folosit pentru exersare în tema jucării și jocuri."
     },
     "de": {
-      "name": "Puzzle"
+      "name": "Puzzle",
+      "description": "Dieses Wort wird zum Üben im Thema Spielzeug und Spiele verwendet."
     },
     "ru": {
-      "name": "Пазл"
+      "name": "Пазл",
+      "description": "Это слово используется для практики в теме «Игрушки и игры»."
     },
     "it": {
-      "name": "puzzle"
+      "name": "puzzle",
+      "description": "Questa parola è usata per fare pratica nell'argomento giocattoli e giochi."
     },
     "es": {
-      "name": "rompecabezas"
+      "name": "rompecabezas",
+      "description": "Esta palabra se utiliza para practicar en el tema de juguetes y juegos."
     },
     "fr": {
-      "name": "puzzle"
+      "name": "puzzle",
+      "description": "Ce mot est utilisé pour s'entraîner dans le thème des jouets et des jeux."
     },
     "hu": {
-      "name": "Kirakó"
+      "name": "Kirakó",
+      "description": "Ez a szó gyakorlásra szolgál a játékok és társasjátékok témakörben."
     },
     "pt": {
-      "name": "Quebra-cabeça"
+      "name": "Quebra-cabeça",
+      "description": "Esta palavra é usada para praticar no tópico de brinquedos e jogos."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "ec3f40e16b97b83cd0843ecfb8a2355e8e2412db"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "a4f2afe9ab669f8956968763cd4b26a987e67b0c"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "d8953481494b2e23d4f9b168518817dbaf8f3a12"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "15082f067fe51d91c9f8e319a8dd53f9bed398af"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "dc81691b9801143440dd2ce62a58a7f657007f14"
+    },
+    "sound/es.mp3": {
+      "bytes": 12384,
+      "sha1": "9bbf7664297d07ee19cd9a01d246ed3aec3ebe06"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "b93466cf878c24d98f1ab2411e183c93161790fc"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11808,
+      "sha1": "672e7e5e4af41011da9904774856092b863d108a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12528,
+      "sha1": "a06345c146ebd2a39b61eb5671d3c06c15aa790d"
     }
   }
 }

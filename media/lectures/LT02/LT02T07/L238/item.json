@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Sleep at night."
+      "name": "Sleep at night.",
+      "description": "An imperative phrase instructing someone to sleep at night."
     },
     "ro": {
-      "name": "Dormi noaptea."
+      "name": "Dormi noaptea.",
+      "description": "O frază imperativă care instruiește pe cineva să doarmă noaptea."
+    },
+    "de": {
+      "description": "Ein Aufforderungssatz, der jemanden anweist, nachts zu schlafen.",
+      "name": "Schlafe in der Nacht."
+    },
+    "ru": {
+      "description": "Повелительная фраза, предписывающая спать ночью.",
+      "name": "Спи ночью."
+    },
+    "it": {
+      "description": "Una frase imperativa che invita qualcuno a dormire di notte.",
+      "name": "Dormi di notte."
+    },
+    "es": {
+      "description": "Una frase imperativa que indica a alguien que duerma por la noche.",
+      "name": "Duerme por la noche."
+    },
+    "fr": {
+      "description": "Une phrase impérative demandant à quelqu'un de dormir la nuit.",
+      "name": "Dors la nuit."
+    },
+    "hu": {
+      "description": "Felszólító mondat, amely arra utasít valakit, hogy éjszaka aludjon.",
+      "name": "Aludj éjszaka!"
+    },
+    "pt": {
+      "description": "Uma frase imperativa que instrui alguém a dormir à noite.",
+      "name": "Dorme de noite."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11664,
       "sha1": "54412ddbdea3fe7e8bf36b6ea4387037440c180d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12240,
+      "sha1": "0817c1da36d996ff46bcfd81b21c092e0af73ccb"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d42a03c196449a75b8a10b571c8e1e2a6f275fa0"
+    },
+    "sound/de.mp3": {
+      "bytes": 13392,
+      "sha1": "5c287a8bf52a861d088ea4f0f713756f095c4915"
+    },
+    "sound/it.mp3": {
+      "bytes": 8496,
+      "sha1": "e8c3e0fc285f9fee9b58f59a2389b0d5d2b85c0a"
+    },
+    "sound/es.mp3": {
+      "bytes": 13536,
+      "sha1": "75facde464d18f14c0dd2ab5b82b0b65a9fcab4a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 10656,
+      "sha1": "84cf10b453d8d037f5a438841180748c3420076d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12528,
+      "sha1": "237b19c2454375744cdc469cefed3960c76f20ba"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13248,
+      "sha1": "5b46ac2901969abd20d177d0829908b438e09f1e"
     }
   }
 }

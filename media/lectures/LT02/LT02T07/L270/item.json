@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Stay calm."
+      "name": "Stay calm.",
+      "description": "Practice giving an instruction to stay calm."
     },
     "ro": {
-      "name": "Rămâi calm."
+      "name": "Rămâi calm.",
+      "description": "Exersează oferirea unei instrucțiuni de a rămâne calm."
+    },
+    "de": {
+      "description": "Übe die Anweisung, ruhig zu bleiben.",
+      "name": "Bleib ruhig."
+    },
+    "ru": {
+      "description": "Потренируйтесь давать указание сохранять спокойствие.",
+      "name": "Сохраняй спокойствие."
+    },
+    "it": {
+      "description": "Esercitati a dare l'istruzione di mantenere la calma.",
+      "name": "Mantieni la calma."
+    },
+    "es": {
+      "description": "Practica dar una instrucción para mantener la calma.",
+      "name": "Mantén la calma."
+    },
+    "fr": {
+      "description": "Entraînez-vous à donner l'instruction de rester calme.",
+      "name": "Reste calme."
+    },
+    "hu": {
+      "description": "Gyakorold az utasításadást a nyugalom megőrzésére.",
+      "name": "Maradj nyugodt!"
+    },
+    "pt": {
+      "description": "Pratique dar uma instrução para manter a calma.",
+      "name": "Fique calmo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10800,
       "sha1": "ee0384a64a68676dc6cda88eb5786a357b124070"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "173647ca7842526fb270d3dc90390fda01f23817"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "e200e9f5ac4561fac1ee2ca16afa6aac799eb781"
+    },
+    "sound/it.mp3": {
+      "bytes": 9648,
+      "sha1": "87ed5e88671b7230d9db03de47cd5498e141f5e0"
+    },
+    "sound/es.mp3": {
+      "bytes": 12528,
+      "sha1": "4dd68700e2d1a2396b6a37db3097f5beed268e5b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15552,
+      "sha1": "9afeb7e71768967d50923fe9f0f0668bf59e0d8b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11376,
+      "sha1": "ca7921f0ceb3a694fef5df76afd63051498850f5"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12240,
+      "sha1": "3ab72cdc98a4229dda501a0ce56208dc6f03df30"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12096,
+      "sha1": "11bfee84273e8230ff5f053ee6b2b72646f61313"
     }
   }
 }

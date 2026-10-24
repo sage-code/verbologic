@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "exam"
+      "name": "exam",
+      "description": "A vocabulary word related to school."
     },
     "ro": {
       "name": "examen",
-      "ipa": "/egˈzamen/"
+      "ipa": "/egˈzamen/",
+      "description": "Un cuvânt de vocabular legat de școală."
     },
     "de": {
-      "name": "Prüfung"
+      "name": "Prüfung",
+      "description": "Ein Vokabelwort zum Thema Schule."
     },
     "ru": {
-      "name": "экзамен"
+      "name": "экзамен",
+      "description": "Словарное слово, относящееся к школе."
     },
     "it": {
-      "name": "esame"
+      "name": "esame",
+      "description": "Un termine del vocabolario relativo alla scuola."
     },
     "es": {
-      "name": "examen"
+      "name": "examen",
+      "description": "Una palabra de vocabulario relacionada con la escuela."
     },
     "fr": {
-      "name": "examen"
+      "name": "examen",
+      "description": "Un mot de vocabulaire lié à l'école."
     },
     "hu": {
-      "name": "vizsga"
+      "name": "vizsga",
+      "description": "Egy iskolával kapcsolatos szókincsbeli szó."
     },
     "pt": {
-      "name": "exame"
+      "name": "exame",
+      "description": "Uma palavra de vocabulário relacionada à escola."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "b3cf3e8c718b952a79567201f65dc46cb204027d"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d32a93011b0c44b3c5d2a00b216b1486a1bf179a"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "4d1ccf2b84eebd70e0bde9f7eb16e82c8a35b47b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "56a2d453a9f83258e571d047246225615eb301c1"
+    },
+    "sound/it.mp3": {
+      "bytes": 6048,
+      "sha1": "ac6d555bd182c30eeb753d8ca5bdaf994bc30fce"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "836175a2abb3475705b0378f8b1222d196efce4e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "df0477ba9890fc0874d597f07d9734797b1bc9c8"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "6065514110bfd9ba5859f5f58284cc2fed94ade6"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "253f33e60f52101dd6fb631ef1cb82b84a012521"
     }
   }
 }

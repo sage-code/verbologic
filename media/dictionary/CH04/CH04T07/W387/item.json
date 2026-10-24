@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "ambulance"
+      "name": "ambulance",
+      "description": "This vocabulary entry covers essential terms related to health emergencies."
     },
     "ro": {
       "name": "ambulanță",
-      "ipa": "/ambuˈlantsə/"
+      "ipa": "/ambuˈlantsə/",
+      "description": "Acest termen de vocabular cuprinde noțiuni esențiale legate de urgențele medicale."
     },
     "de": {
-      "name": "Krankenwagen"
+      "name": "Krankenwagen",
+      "description": "Dieser Vokabeleintrag umfasst grundlegende Begriffe zu medizinischen Notfällen."
     },
     "ru": {
-      "name": "скорая помощь"
+      "name": "скорая помощь",
+      "description": "Эта словарная статья охватывает основные термины, связанные с неотложными медицинскими ситуациями."
     },
     "it": {
-      "name": "ambulanza"
+      "name": "ambulanza",
+      "description": "Questo elemento di vocabolario comprende termini essenziali relativi alle emergenze sanitarie."
     },
     "es": {
-      "name": "ambulancia"
+      "name": "ambulancia",
+      "description": "Este término de vocabulario incluye términos esenciales relacionados con emergencias de salud."
     },
     "fr": {
-      "name": "ambulance"
+      "name": "ambulance",
+      "description": "Ce terme de vocabulaire couvre des termes essentiels liés aux urgences médicales."
     },
     "hu": {
-      "name": "mentő"
+      "name": "mentő",
+      "description": "Ez a szókincselem az egészségügyi vészhelyzetekkel kapcsolatos alapvető kifejezéseket tartalmazza."
     },
     "pt": {
-      "name": "ambulância"
+      "name": "ambulância",
+      "description": "Este item de vocabulário abrange termos essenciais relacionados a emergências de saúde."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11088,
       "sha1": "a3b7077816981e2fbb7c2cccac927d165b981496"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "4aa42462f5b6db482469a3aaf3286cfa8db68680"
+    },
+    "sound/de.mp3": {
+      "bytes": 11376,
+      "sha1": "08360de860979256805979f668ba6de52c3f07e2"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13392,
+      "sha1": "ffee441102cc9e7031e05ddfdc98ecdebdd421c5"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "01c6b8d4e7b0d51092ab50de6640a77834353883"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "9349392c8b9f090235bc9cd8705a804883a79275"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "a9690220df9cac42f562ffc020c1749f4f0e8a59"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "65404d5fedb217c392c630c22f10e631392bb885"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11952,
+      "sha1": "a6b63e84db05561c3bc04241d066b1b08eb6df41"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "guide"
+      "name": "guide",
+      "description": "An official authorization placed in a passport that allows a person to enter, stay in, or leave a specific country."
     },
     "ro": {
       "name": "ghid",
-      "ipa": "/gid/"
+      "ipa": "/gid/",
+      "description": "O autorizație oficială trecută în pașaport care permite unei persoane să intre, să rămână sau să părăsească o anumită țară."
     },
     "de": {
-      "name": "Reiseführer"
+      "name": "Reiseführer",
+      "description": "Eine offizielle Genehmigung in einem Reisepass, die einer Person die Einreise, den Aufenthalt oder die Ausreise aus einem Land gestattet."
     },
     "ru": {
-      "name": "гид"
+      "name": "гид",
+      "description": "Официальное разрешение в паспорте, позволяющее человеку въезжать в определенную страну, находиться в ней или выезжать из нее."
     },
     "it": {
-      "name": "guida"
+      "name": "guida",
+      "description": "Un'autorizzazione ufficiale inserita nel passaporto che permette di entrare, soggiornare o uscire da un determinato paese."
     },
     "es": {
-      "name": "guía"
+      "name": "guía",
+      "description": "Una autorización oficial en el pasaporte que permite a una persona entrar, permanecer o salir de un país específico."
     },
     "fr": {
-      "name": "guide"
+      "name": "guide",
+      "description": "Une autorisation officielle apposée dans un passeport permettant à une personne d'entrer, de séjourner ou de sortir d'un pays donné."
     },
     "hu": {
-      "name": "idegenvezető"
+      "name": "idegenvezető",
+      "description": "Hivatalos engedély az útlevélben, amely lehetővé teszi a személy számára a belépést, a tartózkodást vagy a kilépést egy adott országból."
     },
     "pt": {
-      "name": "guia"
+      "name": "guia",
+      "description": "Uma autorização oficial no passaporte que permite a uma pessoa entrar, permanecer ou sair de um determinado país."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "4225ded066b6c3b94c08423c2fcb231e2905eebe"
+    },
+    "sound/en.mp3": {
+      "bytes": 5760,
+      "sha1": "a4af5765435e01ffaec51c7ded7f8395c04a955a"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "ee7b8a92a9322097c023287c9a96ee048dd405d8"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "4e3031ddc860606532a0866a3f53d1c30702db89"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "518a39084f4137fca841b41bdbf4766346006f12"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "e77b65a9a1c1abfeff347cba161de96dd8066a4c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "3e0067531df19c2b665a04c3fd5045048dce767b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12528,
+      "sha1": "110b648aa8ad67f36b9b95e053a7709222d37cc7"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "9bc06e398ee36c09aa39163583771d9a8c1dc731"
     }
   }
 }

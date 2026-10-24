@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "rhyme"
+      "name": "rhyme",
+      "description": "This entry represents vocabulary item W894 from chapter 12, topic 6."
     },
     "ro": {
       "name": "rimă",
-      "ipa": "/ˈrimə/"
+      "ipa": "/ˈrimə/",
+      "description": "Această intrare reprezintă elementul de vocabular W894 din capitolul 12, tema 6."
     },
     "de": {
-      "name": "Reim"
+      "name": "Reim",
+      "description": "Dieser Eintrag stellt das Vokabelelement W894 aus Kapitel 12, Thema 6 dar."
     },
     "ru": {
-      "name": "рифма"
+      "name": "рифма",
+      "description": "Эта запись представляет элемент словарного запаса W894 из главы 12, темы 6."
     },
     "it": {
-      "name": "rima"
+      "name": "rima",
+      "description": "Questa voce rappresenta l'elemento di vocabolario W894 del capitolo 12, argomento 6."
     },
     "es": {
-      "name": "rima"
+      "name": "rima",
+      "description": "Esta entrada representa el elemento de vocabulario W894 del capítulo 12, tema 6."
     },
     "fr": {
-      "name": "rime"
+      "name": "rime",
+      "description": "Cette entrée représente l'élément de vocabulaire W894 du chapitre 12, thème 6."
     },
     "hu": {
-      "name": "rím"
+      "name": "rím",
+      "description": "Ez a bejegyzés a 12. fejezet 6. témakörének W894 szókincselemét jelöli."
     },
     "pt": {
-      "name": "rima"
+      "name": "rima",
+      "description": "Esta entrada representa o item de vocabulário W894 do capítulo 12, tópico 6."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "d03abc9bd1575c0e864f2dddbbdf286d54f80978"
+    },
+    "sound/en.mp3": {
+      "bytes": 4608,
+      "sha1": "cba8896c11e87759fc4d6ded23ad20a4a175feea"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "5f127069623713dc2e449c7b62a7bb47e2460961"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "fc80ad9b0d81a144bb71e5a102f4c63e6dd125c8"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "a53119177822adc8abe56176e09e0e31cde06de7"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "33f742067cf08c4857b8c88f95a749117dfa1bcf"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "073ec0804dcdefb0e99b4a2c0485620fb918df82"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "4e3c2e96212d860a7fcc9559283fed756c0dd3f9"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "fd2fe92674fc3ef3b3bf5bdbe410435a5948b9bc"
     }
   }
 }

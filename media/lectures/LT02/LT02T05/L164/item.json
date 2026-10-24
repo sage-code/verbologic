@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, am bilet."
+      "name": "Da, am bilet.",
+      "description": "Învață cum să confirmi că ai un bilet."
+    },
+    "en": {
+      "description": "Learn how to confirm that you have a ticket.",
+      "name": "Yes, I have a ticket."
+    },
+    "de": {
+      "description": "Lerne, wie du bestätigst, dass du ein Ticket hast.",
+      "name": "Ja, ich habe ein Ticket."
+    },
+    "ru": {
+      "description": "Узнайте, как подтвердить, что у вас есть билет.",
+      "name": "Да, у меня есть билет."
+    },
+    "it": {
+      "description": "Impara a confermare che hai un biglietto.",
+      "name": "Sì, ho un biglietto."
+    },
+    "es": {
+      "description": "Aprende a confirmar que tienes un billete.",
+      "name": "Sí, tengo un billete."
+    },
+    "fr": {
+      "description": "Apprenez à confirmer que vous avez un billet.",
+      "name": "Oui, j'ai un billet."
+    },
+    "hu": {
+      "description": "Tanuld meg megerősíteni, hogy van jegyed.",
+      "name": "Igen, van jegyem."
+    },
+    "pt": {
+      "description": "Aprenda a confirmar que tem um bilhete.",
+      "name": "Sim, eu tenho um bilhete."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13392,
       "sha1": "6198b980c37519f23ca5478846604e26bf79e049"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "1c47ad376acff529b3718d0f6640ed4ff4c4dab1"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17136,
+      "sha1": "5da8b674031ba65f30ce243731e40fff684f1734"
+    },
+    "sound/it.mp3": {
+      "bytes": 12384,
+      "sha1": "f1c6a8437341416d9e9fd21204a9ebe6d04b3adf"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13680,
+      "sha1": "718569c0eb54fffce7cfe2c40dea43bde7654561"
+    },
+    "sound/es.mp3": {
+      "bytes": 13968,
+      "sha1": "7bd64689d6af639dedb510b21b499a3e293ed87b"
+    },
+    "sound/de.mp3": {
+      "bytes": 16560,
+      "sha1": "f115c38d1e57475b385fc083e9d709d32c05c755"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16128,
+      "sha1": "b831923c4dc85cfd75b003ee75f6105bce6b3971"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16128,
+      "sha1": "cfe32b678a4f2f5efe4ef96498b2e49de885d035"
     }
   }
 }

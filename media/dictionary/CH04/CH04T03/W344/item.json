@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "money"
+      "name": "money",
+      "description": "Cash is physical money in the form of coins and banknotes."
     },
     "ro": {
       "name": "bani",
-      "ipa": "/ˈbanʲ/"
+      "ipa": "/ˈbanʲ/",
+      "description": "Numerarul este o formă fizică de bani, reprezentată de monede și bancnote."
     },
     "de": {
-      "name": "Geld"
+      "name": "Geld",
+      "description": "Bargeld ist physisches Geld in Form von Münzen und Banknoten."
     },
     "ru": {
-      "name": "деньги"
+      "name": "деньги",
+      "description": "Наличные — это физические деньги в виде монет и банкнот."
     },
     "it": {
-      "name": "denaro"
+      "name": "denaro",
+      "description": "I contanti sono denaro fisico sotto forma di monete e banconote."
     },
     "es": {
-      "name": "dinero"
+      "name": "dinero",
+      "description": "El efectivo es dinero físico en forma de monedas y billetes."
     },
     "fr": {
-      "name": "argent"
+      "name": "argent",
+      "description": "Les espèces sont de l'argent physique sous forme de pièces et de billets."
     },
     "hu": {
-      "name": "pénz"
+      "name": "pénz",
+      "description": "A készpénz érmék és bankjegyek formájában megjelenő fizikai pénz."
     },
     "pt": {
-      "name": "dinheiro"
+      "name": "dinheiro",
+      "description": "O dinheiro em espécie é o dinheiro físico sob a forma de moedas e notas."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "d6028efcdba88e72801e490a49df842a32604a4b"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d2d78f30700e0e503f64c74b8590cdc2b01bcd1e"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "46d61d85f359d89f111b9161d9ea5e7a716dd111"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "cf6f14dddbe629c08b0e94cf69ad35c9e0c3d7bf"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "c039495a9979024b1fb7808beb3a7c909c0bd62b"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "ed84af588e07340771eb0bcc44b8828f6f5a43c9"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "343f07a61b3a2ebd8b7546482e18d0d605afdb68"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "1997fe3bd1136102f794234ba2ef0c56382f1f83"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "af24a01518b5c13fa6738b7e3e664d7fc125a395"
     }
   }
 }

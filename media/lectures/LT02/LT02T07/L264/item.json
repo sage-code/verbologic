@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Say hello."
+      "name": "Say hello.",
+      "description": "Practice giving an instruction to greet someone."
     },
     "ro": {
-      "name": "Spune salut."
+      "name": "Spune salut.",
+      "description": "Exersează oferirea unei instrucțiuni de a saluta pe cineva."
+    },
+    "de": {
+      "description": "Übe die Anweisung, jemanden zu grüßen.",
+      "name": "Sag Hallo."
+    },
+    "ru": {
+      "description": "Потренируйтесь давать указание поздороваться с кем-то.",
+      "name": "Поздоровайся."
+    },
+    "it": {
+      "description": "Esercitati a dare l'istruzione di salutare qualcuno.",
+      "name": "Di' ciao."
+    },
+    "es": {
+      "description": "Practica dar una instrucción para saludar a alguien.",
+      "name": "Di hola."
+    },
+    "fr": {
+      "description": "Entraînez-vous à donner l'instruction de saluer quelqu'un.",
+      "name": "Dis bonjour."
+    },
+    "hu": {
+      "description": "Gyakorold az utasításadást valaki üdvözlésére.",
+      "name": "Köszönj!"
+    },
+    "pt": {
+      "description": "Pratique dar uma instrução para cumprimentar alguém.",
+      "name": "Diga olá."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "8773c85aad630ab12a373e8d35142a35cacf1df5"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "53d2315f354531dfcd056b102cfb3102996559ac"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "e8c5e4f385cc45141938c8b12f7a0383f191f669"
+    },
+    "sound/it.mp3": {
+      "bytes": 6048,
+      "sha1": "be5aca0740a41e702cf87139957aa4b9afc07645"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "b8ee0aa58d9404de525edde676e360888b347d48"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "0e7c211ffc8fd3c9c06371430c5eb824d1631ec5"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12240,
+      "sha1": "a1ad6ba8059f898a7c7d4252d17e0ec7939eb6ea"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11664,
+      "sha1": "e6cab200a91899087796ac8937c7158ec3f269f8"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "9eb0b563e093b7cd0e581726d899756e62bb092a"
     }
   }
 }

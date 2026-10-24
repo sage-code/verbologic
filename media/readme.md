@@ -135,11 +135,10 @@ public/data/media/<section>/search.json            every section record in one p
                                                    dictionary-wide translation search (lazy, one fetch)
 ```
 
-Sidebars item ids resolve to records via their manifest, or — fallback — via
-the legacy bridge (`public/data/entities/*.json`, which also powers the global
-search). Every dictionary item has a manifest, so the dictionary is fully
-manifest-backed (`source: 'media'`); the bridge only covers as-yet
-manifest-less ids in other sections.
+Sidebars item ids resolve to records via their manifest. Content converted from
+the retired `public/data/entities/` bridge keeps its old id in
+`legacy_entity_id`, so those sidebar entries still resolve — that alias is the
+only remaining trace of the bridge.
 
 ## 4. Commands
 

@@ -9,9 +9,8 @@
  * (Dictionary renders the shared RoadmapShell). All 9 languages × 3 tracks
  * are pre-rendered from src/data/navigation.json in nuxt.config.ts.
  *
- * Word totals mirror the decoupled entity collections in public/data/entities/
- * (ro: 532 entities across vocabulary/sentences/imperative/questions/greetings/
- * alphabet; en: 74 alphabet rows).
+ * Word totals mirror the media manifests under media/ (the content source of
+ * truth since the entities bridge was retired).
  */
 import { LOCALES } from './locales'
 

@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Send the message."
+      "name": "Send the message.",
+      "description": "This imperative phrase directs someone to transmit a message."
     },
     "ro": {
-      "name": "Trimite mesajul."
+      "name": "Trimite mesajul.",
+      "description": "Această expresie la modul imperativ îi cere cuiva să trimită un mesaj."
+    },
+    "de": {
+      "description": "Diese Aufforderung weist jemanden an, die Nachricht zu senden.",
+      "name": "Senden Sie die Nachricht."
+    },
+    "ru": {
+      "description": "Эта фраза в повелительном наклонении указывает отправить сообщение.",
+      "name": "Отправьте сообщение."
+    },
+    "it": {
+      "description": "Questa frase imperativa indica a qualcuno di trasmettere un messaggio.",
+      "name": "Invia il messaggio."
+    },
+    "es": {
+      "description": "Esta frase imperativa indica a alguien que envíe un mensaje.",
+      "name": "Envía el mensaje."
+    },
+    "fr": {
+      "description": "Cette phrase à l'impératif demande de transmettre un message.",
+      "name": "Envoyez le message."
+    },
+    "hu": {
+      "description": "Ez a felszólító kifejezés egy üzenet elküldésére utasít.",
+      "name": "Küldd el az üzenetet."
+    },
+    "pt": {
+      "description": "Esta frase no imperativo orienta alguém a enviar uma mensagem.",
+      "name": "Envie a mensagem."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12816,
       "sha1": "74a4b46c98b1802c7324ea1ffe994b8255e76440"
+    },
+    "sound/de.mp3": {
+      "bytes": 14688,
+      "sha1": "a731e4d46333d9023731b526ab8325bb2618fdf7"
+    },
+    "sound/en.mp3": {
+      "bytes": 8928,
+      "sha1": "3bbedf54c70b39ce58737185065ac24b250a4c0a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15120,
+      "sha1": "cf72e70489797c2451c1d8c7a6db48d48fc1611d"
+    },
+    "sound/it.mp3": {
+      "bytes": 9216,
+      "sha1": "2cbbfd88984b95b08aaa16d97c70069ad9b868dc"
+    },
+    "sound/es.mp3": {
+      "bytes": 12960,
+      "sha1": "395adf040b225a9d47e541d724b8c21b8a6bb43d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12960,
+      "sha1": "862a9663a13fab6d16d519bb0a859c07fe66f713"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14112,
+      "sha1": "d1964885fe423c714db94e4d74b967148a38c467"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13968,
+      "sha1": "1b5f8e2dda3b3d5f30e6882d76df14c5bb5c8958"
     }
   }
 }

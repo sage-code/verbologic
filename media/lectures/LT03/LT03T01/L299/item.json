@@ -11,11 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "All the best"
+      "name": "All the best",
+      "description": "A polite parting phrase used to wish someone well."
     },
     "ro": {
       "name": "Toate cele bune",
-      "context": "Warm, respectful parting wish in conversation or messages."
+      "context": "Warm, respectful parting wish in conversation or messages.",
+      "description": "O formulă politicoasă de despărțire folosită pentru a ura cuiva numai bine."
+    },
+    "de": {
+      "description": "Eine höfliche Abschiedsformel, mit der man jemandem alles Gute wünscht.",
+      "name": "Alles Gute"
+    },
+    "ru": {
+      "description": "Вежливая фраза прощания, с помощью которой желают всего наилучшего.",
+      "name": "Всего наилучшего"
+    },
+    "it": {
+      "description": "Una formula di congedo cortese usata per augurare il meglio a qualcuno.",
+      "name": "Tutto il meglio"
+    },
+    "es": {
+      "description": "Una fórmula de despedida cortés utilizada para desearle lo mejor a alguien.",
+      "name": "Todo lo mejor"
+    },
+    "fr": {
+      "description": "Une formule de politesse au moment du départ pour souhaiter le meilleur à quelqu'un.",
+      "name": "Bonne continuation"
+    },
+    "hu": {
+      "description": "Udvarias elköszönési formula, amellyel minden jót kívánunk valakinek.",
+      "name": "Minden jót"
+    },
+    "pt": {
+      "description": "Uma frase cortês de despedida usada para desejar tudo de bom a alguém.",
+      "name": "Tudo de bom"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 7920,
+      "sha1": "364fad1aed7a6a75f1ed8db20c21028f9559032a"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "fb27100d9b453a7b10626a5e41bda594f678e081"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14256,
+      "sha1": "9c5ce65de8020f83e2b65cc6b4a0c9ab2872e157"
+    },
+    "sound/it.mp3": {
+      "bytes": 7344,
+      "sha1": "8be677b2dcbdb48e5c43e4d1a437ca2683d1a447"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11952,
+      "sha1": "14ece32e4006f422d2b37eeb4187e622c9b03586"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "236f93d710b795e9394a79a32d8c6cccc91428cd"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12816,
+      "sha1": "c46e77e47d0fb7e38d5fc1e6bea413d6c35d43df"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12240,
+      "sha1": "9c84a22e55dbc6661bef1ecd26a7a4c2ff4f014a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "b235b06bce0e374cfc2e5ad63dc612690982f2c1"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "schedule"
+      "name": "schedule",
+      "description": "This word relates to office vocabulary."
     },
     "ro": {
       "name": "program",
-      "ipa": "/proˈgram/"
+      "ipa": "/proˈgram/",
+      "description": "Acest cuvânt este legat de vocabularul de birou."
     },
     "de": {
-      "name": "Zeitplan"
+      "name": "Zeitplan",
+      "description": "Dieses Wort gehört zum Büro-Wortschatz."
     },
     "ru": {
-      "name": "расписание"
+      "name": "расписание",
+      "description": "Это слово относится к офисной лексике."
     },
     "it": {
-      "name": "orario"
+      "name": "orario",
+      "description": "Questa parola si riferisce al vocabolario dell'ufficio."
     },
     "es": {
-      "name": "horario"
+      "name": "horario",
+      "description": "Esta palabra está relacionada con el vocabulario de oficina."
     },
     "fr": {
-      "name": "horaire"
+      "name": "horaire",
+      "description": "Ce mot est lié au vocabulaire de bureau."
     },
     "hu": {
-      "name": "beosztás"
+      "name": "beosztás",
+      "description": "Ez a szó az irodai szókincshez kapcsolódik."
     },
     "pt": {
-      "name": "horário"
+      "name": "horário",
+      "description": "Esta palavra está relacionada ao vocabulário de escritório."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "a6c34f368d098d00a1e9cdbc10a64a749659aa27"
+    },
+    "sound/en.mp3": {
+      "bytes": 7056,
+      "sha1": "7b44f3068a5ff4e01bfa4a4e7260b230058ec194"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "e02045375ebefa7a306f3746d766d160825aafbf"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11808,
+      "sha1": "118b568fa624597d2a792a2d7d97c96f34f00055"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "2cbf9c7f974373f1c60c673be58e010def5f02c3"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "4479ff7b5a5118c3164b85f0e94c4be78c008d3e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "47d9f381cf5b83c5e5a05f15caa4bcd895a34b72"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12240,
+      "sha1": "c41f1482e1223fcabad0fc132ef9e4987d61d050"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "5f2b47a01cb59cc6228e1dbab4655db3c32f4cda"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, magazinul este la stânga."
+      "name": "Nu, magazinul este la stânga.",
+      "description": "O propoziție care indică faptul că magazinul este în stânga."
+    },
+    "en": {
+      "description": "A sentence indicating that the store is on the left.",
+      "name": "No, the shop is on the left."
+    },
+    "de": {
+      "description": "Ein Satz, der angibt, dass das Geschäft links liegt.",
+      "name": "Nein, das Geschäft ist links."
+    },
+    "ru": {
+      "description": "Предложение, указывающее на то, что магазин находится слева.",
+      "name": "Нет, магазин слева."
+    },
+    "it": {
+      "description": "Una frase che indica che il negozio è a sinistra.",
+      "name": "No, il negozio è a sinistra."
+    },
+    "es": {
+      "description": "Una frase que indica que la tienda está a la izquierda.",
+      "name": "No, la tienda está a la izquierda."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le magasin est sur la gauche.",
+      "name": "Non, le magasin est à gauche."
+    },
+    "hu": {
+      "description": "Mondat, amely jelzi, hogy az üzlet balra található.",
+      "name": "Nem, a bolt balra van."
+    },
+    "pt": {
+      "description": "Uma frase indicando que a loja fica à esquerda.",
+      "name": "Não, a loja fica à esquerda."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 18864,
       "sha1": "45943f3252c7453a19370c62beaec58d873d390c"
+    },
+    "sound/de.mp3": {
+      "bytes": 18288,
+      "sha1": "3f77162d4d1a6cb3802f54c9648038bd93db52a2"
+    },
+    "sound/en.mp3": {
+      "bytes": 13824,
+      "sha1": "369d0194aaf9d737a510fa1739010e01716cd9b7"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16848,
+      "sha1": "06149b6f8163536c3b6300f02f0cc6dd1aa47b80"
+    },
+    "sound/it.mp3": {
+      "bytes": 15552,
+      "sha1": "ca4b2f848fc97683e6a429db1241454ac8f6fcb7"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17280,
+      "sha1": "41f8988de13a0cb2281fbd7dc593a8790a143948"
+    },
+    "sound/es.mp3": {
+      "bytes": 17424,
+      "sha1": "0e068cbacf9d8b230e9907e8868d0d202e357319"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18864,
+      "sha1": "b585ae2f77d533843568f40aa2ad6b544c1857b5"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17568,
+      "sha1": "7f12b30a72fa759198d853e6ef6985a8f306deb1"
     }
   }
 }

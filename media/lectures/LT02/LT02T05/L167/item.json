@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, am telefon."
+      "name": "Da, am telefon.",
+      "description": "Învață cum să spui că ai un telefon."
+    },
+    "en": {
+      "description": "Learn how to say that you have a phone.",
+      "name": "Yes, I have a phone."
+    },
+    "de": {
+      "description": "Lerne, wie du sagst, dass du ein Telefon hast.",
+      "name": "Ja, ich habe ein Telefon."
+    },
+    "ru": {
+      "description": "Узнайте, как сказать, что у вас есть телефон.",
+      "name": "Да, у меня есть телефон."
+    },
+    "it": {
+      "description": "Impara a dire che hai un telefono.",
+      "name": "Sì, ho un telefono."
+    },
+    "es": {
+      "description": "Aprende a decir que tienes un teléfono.",
+      "name": "Sí, tengo un teléfono."
+    },
+    "fr": {
+      "description": "Apprenez à dire que vous avez un téléphone.",
+      "name": "Oui, j'ai un téléphone."
+    },
+    "hu": {
+      "description": "Tanuld meg elmondani, hogy van telefonod.",
+      "name": "Igen, van telefonom."
+    },
+    "pt": {
+      "description": "Aprenda a dizer que tem um telefone.",
+      "name": "Sim, eu tenho um telefone."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14256,
       "sha1": "7cac1365c34756cc88d15066165a035bfe3b9c6f"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "7a4ca037997d49a7fb649fa7731ddc1248a08cf7"
+    },
+    "sound/de.mp3": {
+      "bytes": 16416,
+      "sha1": "d2ddc1144c1551a91da2ce4b9ca5ac138a0a2c4e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17712,
+      "sha1": "346eb96d517a174fe7d13b4b3d5f1c97f2d3f5e3"
+    },
+    "sound/it.mp3": {
+      "bytes": 12384,
+      "sha1": "7051b1441eb4f9ce80d751879c04edd9a2c85b93"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15552,
+      "sha1": "07923d34b7e7ec0afa585183e61414165bfbb9fc"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17280,
+      "sha1": "1848443f4669b5fdbeec704342291c536a966af9"
+    },
+    "sound/es.mp3": {
+      "bytes": 14544,
+      "sha1": "f84e573d547d8017f4ad1be3640931d7f991259e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16992,
+      "sha1": "071d425c4ad2776cae6f922f8639c6390756cdf9"
     }
   }
 }

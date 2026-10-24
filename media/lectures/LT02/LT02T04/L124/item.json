@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, dorm puțin noaptea."
+      "name": "Nu, dorm puțin noaptea.",
+      "description": "O afirmație care exprimă faptul că cineva doarme puțin noaptea."
+    },
+    "en": {
+      "description": "A statement expressing that one sleeps little at night.",
+      "name": "No, I sleep little at night."
+    },
+    "de": {
+      "description": "Eine Aussage, die ausdrückt, dass man nachts wenig schläft.",
+      "name": "Nein, ich schlafe nachts wenig."
+    },
+    "ru": {
+      "description": "Высказывание о том, что человек мало спит по ночам.",
+      "name": "Нет, я мало сплю ночью."
+    },
+    "it": {
+      "description": "Un'affermazione che esprime il dormire poco durante la notte.",
+      "name": "No, dormo poco di notte."
+    },
+    "es": {
+      "description": "Una afirmación que expresa que se duerme poco por la noche.",
+      "name": "No, duermo poco por la noche."
+    },
+    "fr": {
+      "description": "Une phrase exprimant le fait de peu dormir la nuit.",
+      "name": "Non, je dors peu la nuit."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely kifejezi, hogy valaki keveset alszik éjszaka.",
+      "name": "Nem, keveset alszom éjszaka."
+    },
+    "pt": {
+      "description": "Uma afirmação que expressa que se dorme pouco à noite.",
+      "name": "Não, eu durmo pouco à noite."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16416,
       "sha1": "127baf8dc5f1c72f19c23b6b6e29f320bd29f8ea"
+    },
+    "sound/de.mp3": {
+      "bytes": 17136,
+      "sha1": "9b74eda62673e7620d2e8cbeeef3358cee814b63"
+    },
+    "sound/en.mp3": {
+      "bytes": 12096,
+      "sha1": "c971853d8a079c068d14fca5f4555afb8ceb1ef7"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18720,
+      "sha1": "9f20f11516872670513a56d82190e03baeeaf56f"
+    },
+    "sound/es.mp3": {
+      "bytes": 18000,
+      "sha1": "f74500875bb4c7d6e939e6b97115b882cffbb769"
+    },
+    "sound/it.mp3": {
+      "bytes": 18000,
+      "sha1": "e4ad27262c0b1ac885dc36df723025a078b82f17"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14544,
+      "sha1": "674d313edc786077fa9c81e56aa530d3654a457e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16128,
+      "sha1": "65d5a26818137dfdadd67a97158daf2a89d251c9"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16128,
+      "sha1": "de6394f559eebede7d2f992bfc89e4f07bcb55c7"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "hand"
+      "name": "hand",
+      "description": "This word relates to parts of the body."
     },
     "ro": {
       "name": "mână",
-      "ipa": "/ˈmɨnə/"
+      "ipa": "/ˈmɨnə/",
+      "description": "Acest cuvânt se referă la părți ale corpului."
     },
     "de": {
-      "name": "Hand"
+      "name": "Hand",
+      "description": "Dieses Wort bezieht sich auf Körperteile."
     },
     "ru": {
-      "name": "Рука"
+      "name": "Рука",
+      "description": "Это слово относится к частям тела."
     },
     "it": {
-      "name": "mano"
+      "name": "mano",
+      "description": "Questa parola si riferisce alle parti del corpo."
     },
     "es": {
-      "name": "mano"
+      "name": "mano",
+      "description": "Esta palabra se refiere a las partes del cuerpo."
     },
     "fr": {
-      "name": "main"
+      "name": "main",
+      "description": "Ce mot se rapporte aux parties du corps."
     },
     "hu": {
-      "name": "Kéz"
+      "name": "Kéz",
+      "description": "Ez a szó a testrészekre vonatkozik."
     },
     "pt": {
-      "name": "Mão"
+      "name": "Mão",
+      "description": "Esta palavra refere-se às partes do corpo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "edc32337776d215c6d4a631be793209f19c3efac"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "4a56495fe1ccba9900ba2b26f713f7f6f43ea9a7"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "15cd79b2c295c90324732aec9f265f0ef126e80c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "3758bff1abbd618ac9eb3b754d50da38df7569b1"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "38ff8fa135f601976342dac3c0ee1328aaa91747"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "a8d40ebece973833aa39e2f23e775a36350a570d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "d0b2b6c6ac0080cb4d72cc80ac94d262ec665f29"
+    },
+    "sound/hu.mp3": {
+      "bytes": 9504,
+      "sha1": "40b283c5864778a5b304539c74961fcd1baa39c5"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "0d13c084f7676a83605f245dc98a884669ad6bfa"
     }
   }
 }

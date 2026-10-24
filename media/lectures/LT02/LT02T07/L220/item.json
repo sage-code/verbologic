@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Bring the chair."
+      "name": "Bring the chair.",
+      "description": "An imperative phrase instructing someone to bring the chair."
     },
     "ro": {
-      "name": "Adu scaunul."
+      "name": "Adu scaunul.",
+      "description": "O frază la imperativ care cere cuiva să aducă scaunul."
+    },
+    "de": {
+      "description": "Ein Imperativsatz, der jemanden auffordert, den Stuhl zu bringen.",
+      "name": "Bring den Stuhl."
+    },
+    "ru": {
+      "description": "Повелительная фраза, призывающая принести стул.",
+      "name": "Принеси стул."
+    },
+    "it": {
+      "description": "Una frase imperativa che invita a portare la sedia.",
+      "name": "Porta la sedia."
+    },
+    "es": {
+      "description": "Una frase imperativa que indica a alguien que traiga la silla.",
+      "name": "Trae la silla."
+    },
+    "fr": {
+      "description": "Une phrase impérative demandant d'apporter la chaise.",
+      "name": "Apporte la chaise."
+    },
+    "hu": {
+      "description": "Felszólító kifejezés, amely arra utasít valakit, hogy hozza a széket.",
+      "name": "Hozd a széket."
+    },
+    "pt": {
+      "description": "Uma frase no imperativo que instrui alguém a trazer a cadeira.",
+      "name": "Traga a cadeira."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11664,
       "sha1": "936b9bd78db3579cc563c0d5a65091f775971753"
+    },
+    "sound/en.mp3": {
+      "bytes": 8064,
+      "sha1": "16dc176746f478ec8a38d3bd70f2953f44bc20ad"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12240,
+      "sha1": "74980bd4b3b8b69d6820ee6b1f37942e098ec28f"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "273b1026918e0e9407df10dcab8e565cc51efc07"
+    },
+    "sound/es.mp3": {
+      "bytes": 11952,
+      "sha1": "117c7d95214c258b7b27553f37a8bae9c4e44caf"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12384,
+      "sha1": "a7299b94744622b30d40397b9207f8f671e251f9"
+    },
+    "sound/de.mp3": {
+      "bytes": 11808,
+      "sha1": "8a0248c0fcb5a4b7b691745eed206925b4a06bdf"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12528,
+      "sha1": "63dd8ce3953cbd2e70d27915b10b75e624b3c429"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12960,
+      "sha1": "17ddd7fd5286266b7a013ae8d81965e18f77ee37"
     }
   }
 }

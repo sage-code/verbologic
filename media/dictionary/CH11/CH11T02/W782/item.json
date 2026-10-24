@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "disagreement"
+      "name": "disagreement",
+      "description": "This is vocabulary item W782 from chapter 11, topic 2."
     },
     "ro": {
       "name": "dezacord",
-      "ipa": "/dezaˈkord/"
+      "ipa": "/dezaˈkord/",
+      "description": "Acesta este elementul de vocabular W782 din capitolul 11, tema 2."
     },
     "de": {
-      "name": "Uneinigkeit"
+      "name": "Uneinigkeit",
+      "description": "Dies ist der Wortschatzeintrag W782 aus Kapitel 11, Thema 2."
     },
     "ru": {
-      "name": "разногласие"
+      "name": "разногласие",
+      "description": "Это словарная единица W782 из главы 11, темы 2."
     },
     "it": {
-      "name": "disaccordo"
+      "name": "disaccordo",
+      "description": "Questa è la voce di vocabolario W782 del capitolo 11, argomento 2."
     },
     "es": {
-      "name": "desacuerdo"
+      "name": "desacuerdo",
+      "description": "Este es el elemento de vocabulario W782 del capítulo 11, tema 2."
     },
     "fr": {
-      "name": "désaccord"
+      "name": "désaccord",
+      "description": "Il s'agit de l'élément de vocabulaire W782 du chapitre 11, thème 2."
     },
     "hu": {
-      "name": "egyet nem értés"
+      "name": "egyet nem értés",
+      "description": "Ez a W782-es szókincselem a 11. fejezet 2. témájából."
     },
     "pt": {
-      "name": "desacordo"
+      "name": "desacordo",
+      "description": "Este é o item de vocabulário W782 do capítulo 11, tópico 2."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "260c84b71be721a36f83937280cbd36c5b3be107"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "147c5c045f4f09434495d8abe22185aaf7400b2b"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "3cd194f5c6cf2d4526bca3216b1dd83eab45fb42"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12528,
+      "sha1": "88b162005908f82c2420f50ec571f2bd5e94fdfe"
+    },
+    "sound/it.mp3": {
+      "bytes": 12240,
+      "sha1": "7c957a51a59404cac29c8fe4c0612d0fac1760c2"
+    },
+    "sound/es.mp3": {
+      "bytes": 10944,
+      "sha1": "b9161324c904932fff331e8475e8ebb10e2541ea"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11376,
+      "sha1": "97a6a1fd5b4ad03d7a97e660cb2512b52ce2270d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12240,
+      "sha1": "43dc2aa1b07b951f325c3c78f9c0f5d5515f47cb"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "2673571f0ac95e60291bfd766c8d3ac1557fc45c"
     }
   }
 }

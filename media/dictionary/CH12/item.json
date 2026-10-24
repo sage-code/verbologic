@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Nuance & Mastery"
+      "name": "Nuance & Mastery",
+      "description": "This chapter focuses on nuance and mastery."
     },
     "ro": {
       "name": "Nuanțe și măiestrie",
-      "ipa": "/nuˈantse ʃi mə̯ˈjestrie/"
+      "ipa": "/nuˈantse ʃi mə̯ˈjestrie/",
+      "description": "Acest capitol se concentrează pe nuanțe și măiestrie."
+    },
+    "de": {
+      "description": "Dieses Kapitel konzentriert sich auf Nuancen und Meisterschaft.",
+      "name": "Nuancen & Meisterschaft"
+    },
+    "ru": {
+      "description": "Эта глава посвящена нюансам и мастерству.",
+      "name": "Нюансы и мастерство"
+    },
+    "it": {
+      "description": "Questo capitolo si concentra sulle sfumature e sulla maestria.",
+      "name": "Sfumature e maestria"
+    },
+    "es": {
+      "description": "Este capítulo se centra en los matices y la maestría.",
+      "name": "Matices y maestría"
+    },
+    "fr": {
+      "description": "Ce chapitre se concentre sur les nuances et la maîtrise.",
+      "name": "Nuances et maîtrise"
+    },
+    "hu": {
+      "description": "Ez a fejezet az árnyalatokra és a mesteri tudásra összpontosít.",
+      "name": "Árnyalatok és mesteri tudás"
+    },
+    "pt": {
+      "description": "Este capítulo foca nas nuances e na maestria.",
+      "name": "Nuances e maestria"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13824,
       "sha1": "3b8b9131c4fbfdf02b2b993923d8d54cff1dfb06"
+    },
+    "sound/en.mp3": {
+      "bytes": 11952,
+      "sha1": "c49ee3831aa6759e47477a781174adf258ee6bd5"
+    },
+    "sound/de.mp3": {
+      "bytes": 16416,
+      "sha1": "c024778a647289b0fdd33f3639b3397191cea276"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16272,
+      "sha1": "c68df57f6ba8c9e00944d72c4d6bd7f5e4b75f14"
+    },
+    "sound/it.mp3": {
+      "bytes": 11520,
+      "sha1": "459ba957685f727b79b2150457364ff876cd3045"
+    },
+    "sound/es.mp3": {
+      "bytes": 13968,
+      "sha1": "630ddbd826cb2c1d670ae327fa3b4e46931b7cd5"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12384,
+      "sha1": "3b97937698ac1c3419d1b6b85513070216f63972"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17856,
+      "sha1": "9677a2ea2027cc99755373ba80bfdae19495df67"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15984,
+      "sha1": "5c6bac0523548160ffa48a6125c6178b278fe03c"
     }
   }
 }

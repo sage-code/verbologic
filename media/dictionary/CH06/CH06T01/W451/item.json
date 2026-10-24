@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "homework"
+      "name": "homework",
+      "description": "This word is part of school vocabulary."
     },
     "ro": {
       "name": "temă",
-      "ipa": "/ˈtemə/"
+      "ipa": "/ˈtemə/",
+      "description": "Acest cuvânt face parte din vocabularul școlar."
     },
     "de": {
-      "name": "Hausaufgabe"
+      "name": "Hausaufgabe",
+      "description": "Dieses Wort gehört zum Schulwortschatz."
     },
     "ru": {
-      "name": "домашнее задание"
+      "name": "домашнее задание",
+      "description": "Это слово относится к школьной лексике."
     },
     "it": {
-      "name": "compiti"
+      "name": "compiti",
+      "description": "Questa parola fa parte del vocabolario scolastico."
     },
     "es": {
-      "name": "tarea"
+      "name": "tarea",
+      "description": "Esta palabra forma parte del vocabulario escolar."
     },
     "fr": {
-      "name": "devoirs"
+      "name": "devoirs",
+      "description": "Ce mot fait partie du vocabulaire scolaire."
     },
     "hu": {
-      "name": "házi feladat"
+      "name": "házi feladat",
+      "description": "Ez a szó az iskolai szókincs része."
     },
     "pt": {
-      "name": "tarefa de casa"
+      "name": "tarefa de casa",
+      "description": "Esta palavra faz parte do vocabulário escolar."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "cdb128be2c6108594d41535073aecf8a0e66641e"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "18e6ff0655517987c369b721871fc2c76862707d"
+    },
+    "sound/de.mp3": {
+      "bytes": 11664,
+      "sha1": "e4713e9ddff796c41b35b3be0c7c16dce18f89f4"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15840,
+      "sha1": "74888e348651be31243ac42505f382f6d32a5c92"
+    },
+    "sound/it.mp3": {
+      "bytes": 6768,
+      "sha1": "1375254bdc349fc270112adba29c42151c229b59"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "3f7b0f3cc1bbac428a91d2175ebd456f6937867d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "e5a54d77ce6dd09141d32978bad5cc6898b4650a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12816,
+      "sha1": "3d4ef0a4887887ad14d0aaaa75a7990e6c8310a7"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13536,
+      "sha1": "bbe9119618a4529d65630f6009f20bf53cb4b8b8"
     }
   }
 }

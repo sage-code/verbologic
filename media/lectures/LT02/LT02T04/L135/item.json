@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, sunt obosit azi."
+      "name": "Nu, sunt obosit azi.",
+      "description": "O propoziție care indică faptul că ești obosit azi."
+    },
+    "en": {
+      "description": "A statement stating that you are tired today.",
+      "name": "No, I am tired today."
+    },
+    "de": {
+      "description": "Eine Aussage darüber, dass man heute müde ist.",
+      "name": "Nein, ich bin heute müde."
+    },
+    "ru": {
+      "description": "Высказывание о том, что вы сегодня устали.",
+      "name": "Нет, я сегодня устал."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che oggi sei stanco.",
+      "name": "No, oggi sono stanco."
+    },
+    "es": {
+      "description": "Una afirmación que indica que hoy estás cansado.",
+      "name": "No, hoy estoy cansado."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que vous êtes fatigué aujourd'hui.",
+      "name": "Non, je suis fatigué aujourd'hui."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kifejezi, hogy ma fáradt vagy.",
+      "name": "Nem, ma fáradt vagyok."
+    },
+    "pt": {
+      "description": "Uma afirmação indicando que você está cansado hoje.",
+      "name": "Não, estou cansado hoje."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16128,
       "sha1": "36b126276ed5f37d83ae004c76a060adf63e7e2d"
+    },
+    "sound/en.mp3": {
+      "bytes": 11664,
+      "sha1": "f2b7e43cc86ad4e745dca7eeffaa69c7c8608336"
+    },
+    "sound/de.mp3": {
+      "bytes": 15840,
+      "sha1": "27a02c73b36205d3c2942d45f21dc3e54079bbb1"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17568,
+      "sha1": "65bb5202f610a576c5867fd2ce9e5867b18613aa"
+    },
+    "sound/it.mp3": {
+      "bytes": 17424,
+      "sha1": "fe13c2d0c00ea43de5598f59eb7deffe832e0e02"
+    },
+    "sound/es.mp3": {
+      "bytes": 16704,
+      "sha1": "1dfcc86c922171e70c7fde2a9a7c8de58e7a0322"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13968,
+      "sha1": "79a39e6437f69d0061b06a895c921cefe7faa3f0"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17712,
+      "sha1": "b23eb568408d1e655c0fc4d3e9c90f981943a220"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15120,
+      "sha1": "6f7f11f8af4843982def82f4d82c6fcffad82fe0"
     }
   }
 }

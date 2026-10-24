@@ -1,0 +1,85 @@
+{
+  "code": "A058",
+  "track": "lectures",
+  "chapter": "LT02",
+  "topic": "LT02T02",
+  "kind": "question",
+  "entity_id": "LT02T02:A058",
+  "legacy_entity_id": "question_ai-examen-azi",
+  "locales": {
+    "ro": {
+      "name": "Ai examen azi?",
+      "description": "O întrebare prin care cineva este întrebat dacă are examen astăzi."
+    },
+    "en": {
+      "description": "A question asking someone whether they have an exam today.",
+      "name": "Do you have an exam today?"
+    },
+    "de": {
+      "description": "Eine Frage, die jemanden fragt, ob er heute eine Prüfung hat.",
+      "name": "Hast du heute eine Prüfung?"
+    },
+    "ru": {
+      "description": "Вопрос о том, предстоит ли человеку экзамен сегодня.",
+      "name": "У тебя сегодня экзамен?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere a qualcuno se oggi ha un esame.",
+      "name": "Hai un esame oggi?"
+    },
+    "es": {
+      "description": "Una pregunta que consulta si la persona tiene un examen hoy.",
+      "name": "¿Tienes examen hoy?"
+    },
+    "fr": {
+      "description": "Une question demandant à quelqu'un s'il a un examen aujourd'hui.",
+      "name": "As-tu un examen aujourd'hui ?"
+    },
+    "hu": {
+      "description": "Egy kérdés, amely arra kérdez rá, hogy van-e ma vizsgája a személynek.",
+      "name": "Van ma vizsgád?"
+    },
+    "pt": {
+      "description": "Uma pergunta questionando se a pessoa tem um exame hoje.",
+      "name": "Você tem exame hoje?"
+    }
+  },
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 14976,
+      "sha1": "f83e8740828cbf95a9693e9063f95b2ead02daef"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12240,
+      "sha1": "c52d30498e04ccad449d1790e7e605f51d95a9bb"
+    },
+    "sound/it.mp3": {
+      "bytes": 13824,
+      "sha1": "0ebabbe4c4fb68d776ad3eb5cf13c3c2727a7dd5"
+    },
+    "sound/es.mp3": {
+      "bytes": 12816,
+      "sha1": "cfd083ac3761304611e52a20e54bde108fcc0f0a"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "79cbf01b0b5a627e2e1edbb3d8222c97febacae2"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11520,
+      "sha1": "008bbe42aece136d507b74ba260daaebdb77e40c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14400,
+      "sha1": "de20d207958396d3d1ecaa0078e24fa4e608ae21"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12816,
+      "sha1": "4a8b6c61f49abe503affcf1686eb8a662523a2d7"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16128,
+      "sha1": "46536e66745bdfa8c28ce173c9c4333ec55a5159"
+    }
+  }
+}

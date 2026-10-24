@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "nature"
+      "name": "nature",
+      "description": "A computer is an electronic device used for storing and processing data."
     },
     "ro": {
       "name": "natură",
-      "ipa": "/naˈturə/"
+      "ipa": "/naˈturə/",
+      "description": "Un calculator este un dispozitiv electronic utilizat pentru stocarea și prelucrarea datelor."
     },
     "de": {
-      "name": "Natur"
+      "name": "Natur",
+      "description": "Ein Computer ist ein elektronisches Gerät, das zum Speichern und Verarbeiten von Daten verwendet wird."
     },
     "ru": {
-      "name": "природа"
+      "name": "природа",
+      "description": "Компьютер — это электронное устройство, используемое для хранения и обработки данных."
     },
     "it": {
-      "name": "natura"
+      "name": "natura",
+      "description": "Un computer è un dispositivo elettronico utilizzato per memorizzare ed elaborare dati."
     },
     "es": {
-      "name": "naturaleza"
+      "name": "naturaleza",
+      "description": "Un ordenador es un dispositivo electrónico utilizado para almacenar y procesar datos."
     },
     "fr": {
-      "name": "nature"
+      "name": "nature",
+      "description": "Un ordinateur est un appareil électronique utilisé pour stocker et traiter des données."
     },
     "hu": {
-      "name": "természet"
+      "name": "természet",
+      "description": "A számítógép adatok tárolására és feldolgozására használt elektronikus eszköz."
     },
     "pt": {
-      "name": "natureza"
+      "name": "natureza",
+      "description": "Um computador é um dispositivo eletrónico utilizado para armazenar e processar dados."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "10e5b86e60f7579b757cb550daabfb4f91026736"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "318d28410c28d1187c742787912ada835ec1ba33"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "a1a9fb7c759f7f1e52b554531714e2d1e9fd7939"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "dfc83591b83fd28688b1895b88474e7cd2c69584"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "278dbcaeeedfd0e2ce8396f1348eae18b8d9b0a9"
+    },
+    "sound/es.mp3": {
+      "bytes": 11376,
+      "sha1": "8481364efa4a02e733d999072796f1ea7820158a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "7f9dd055374ba7e72b9000ae36c945a687f4b965"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11376,
+      "sha1": "9ae18e557c816a0bbe3d081705bc353e0f2a5443"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11808,
+      "sha1": "013939bfec9f96f2b20116436ea79ccf64dc2518"
     }
   }
 }

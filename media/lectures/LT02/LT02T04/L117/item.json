@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Dormi noaptea bine?"
+      "name": "Dormi noaptea bine?",
+      "description": "O întrebare care cere să afle dacă cineva doarme bine noaptea."
+    },
+    "en": {
+      "description": "A question asking if someone sleeps well at night.",
+      "name": "Do you sleep well at night?"
+    },
+    "de": {
+      "description": "Eine Frage, die danach fragt, ob jemand nachts gut schläft.",
+      "name": "Schläfst du nachts gut?"
+    },
+    "ru": {
+      "description": "Вопрос о том, хорошо ли человек спит ночью.",
+      "name": "Ты хорошо спишь ночью?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere se qualcuno dorme bene la notte.",
+      "name": "Dormi bene la notte?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si alguien duerme bien por la noche.",
+      "name": "¿Duermes bien por la noche?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un dort bien la nuit.",
+      "name": "Dors-tu bien la nuit ?"
+    },
+    "hu": {
+      "description": "Egy kérdés, amely arról érdeklődik, hogy valaki jól alszik-e éjszaka.",
+      "name": "Jól alszol éjszaka?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se alguém dorme bem à noite.",
+      "name": "Você dorme bem à noite?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12816,
       "sha1": "6ec4aae4b291c34b6a3cca3af47c9fc857b8569c"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "f3de4876fa2df1173b7e6b13a15df8a6a40d8c02"
+    },
+    "sound/de.mp3": {
+      "bytes": 13392,
+      "sha1": "77f73f04ce33661f91704b8a6568209a3b70eece"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15120,
+      "sha1": "66eb9c2d812ce8fe80d54d4e0803d1bcd15fafaa"
+    },
+    "sound/it.mp3": {
+      "bytes": 14256,
+      "sha1": "15de65fde5d626585ead6f97f905d4e47ac4fde3"
+    },
+    "sound/es.mp3": {
+      "bytes": 14400,
+      "sha1": "20e1cac04df4ee520031cc922199e7135ea091c7"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12240,
+      "sha1": "b84971a6f9a20d1662d04068e1e411738dd88a61"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13104,
+      "sha1": "8db7c9ab07cc71c00cd9a12ff9e1ef3f5b12a055"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12384,
+      "sha1": "7d971aa656019f3e866113624cc8b649b5608ced"
     }
   }
 }

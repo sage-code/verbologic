@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Ai examen azi?"
+      "name": "Ai examen azi?",
+      "description": "O întrebare prin care se află dacă cineva are un examen azi."
+    },
+    "en": {
+      "description": "A question asking whether someone has an exam today.",
+      "name": "Do you have an exam today?"
+    },
+    "de": {
+      "description": "Eine Frage, die sich erkundigt, ob jemand heute eine Prüfung hat.",
+      "name": "Hast du heute eine Prüfung?"
+    },
+    "ru": {
+      "description": "Вопрос о том, есть ли у кого-то сегодня экзамен.",
+      "name": "У тебя сегодня экзамен?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere se qualcuno ha un esame oggi.",
+      "name": "Hai un esame oggi?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si alguien tiene un examen hoy.",
+      "name": "¿Tienes un examen hoy?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un a un examen aujourd'hui.",
+      "name": "As-tu un examen aujourd'hui ?"
+    },
+    "hu": {
+      "description": "Kérdés arra vonatkozóan, hogy van-e valakinek ma vizsgája.",
+      "name": "Ma van vizsgád?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se alguém tem exame hoje.",
+      "name": "Tens exame hoje?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11952,
       "sha1": "9b0279bd8a8c8304c2c1bc2c43544f80959b8cac"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d3c9ac04eccd2728d6e62c43525ac7b2a5a0eb03"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16128,
+      "sha1": "a48e401a218cf40e1d468122c5fdf428235b090a"
+    },
+    "sound/de.mp3": {
+      "bytes": 14976,
+      "sha1": "bd8de26c334a593115477b5c80f7dc9f1f5a27a9"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14400,
+      "sha1": "9fb68e1f3c9ed8837eff680e8fe4f24184eea328"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11376,
+      "sha1": "7f2ac3badfb6dc13d4edca878c6f04d655e0d31f"
+    },
+    "sound/es.mp3": {
+      "bytes": 13680,
+      "sha1": "0399f60d71d60b06e15abf1be6ec400559123490"
+    },
+    "sound/it.mp3": {
+      "bytes": 13824,
+      "sha1": "622085bbbb55f850c48f603682c32d37d30e22ff"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "17419b0a94a0456fc5d9c6d4111eb8c04174aba2"
     }
   }
 }

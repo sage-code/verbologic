@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "dinner"
+      "name": "dinner",
+      "description": "This item represents vocabulary entry W294 from Chapter 3, Topic 5."
     },
     "ro": {
       "name": "cină",
-      "ipa": "/ˈtʃinə/"
+      "ipa": "/ˈtʃinə/",
+      "description": "Acest element reprezintă intrarea de vocabular W294 din Capitolul 3, Tema 5."
     },
     "de": {
-      "name": "Abendessen"
+      "name": "Abendessen",
+      "description": "Dieser Eintrag stellt den Wortschatzeintrag W294 aus Kapitel 3, Thema 5 dar."
     },
     "ru": {
-      "name": "ужин"
+      "name": "ужин",
+      "description": "Этот элемент представляет словарную единицу W294 из главы 3, темы 5."
     },
     "it": {
-      "name": "cena"
+      "name": "cena",
+      "description": "Questo elemento rappresenta la voce di vocabolario W294 del Capitolo 3, Argomento 5."
     },
     "es": {
-      "name": "cena"
+      "name": "cena",
+      "description": "Este elemento representa la entrada de vocabulario W294 del Capítulo 3, Tema 5."
     },
     "fr": {
-      "name": "dîner"
+      "name": "dîner",
+      "description": "Cet élément représente l'entrée de vocabulaire W294 du chapitre 3, thème 5."
     },
     "hu": {
-      "name": "vacsora"
+      "name": "vacsora",
+      "description": "Ez az elem a 3. fejezet 5. témájának W294 szókincsbeli bejegyzését képviseli."
     },
     "pt": {
-      "name": "jantar"
+      "name": "jantar",
+      "description": "Este item representa a entrada de vocabulário W294 do Capítulo 3, Tópico 5."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "026a6a26621aa32655a2430fd99b6b28c01160fb"
+    },
+    "sound/en.mp3": {
+      "bytes": 5616,
+      "sha1": "837ff132f3459f1de770d74b7028f39cc596e5a1"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "3fcc7bc28cfbabb01704ab6db0f37d8e08a6f15f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "7256a24d7fb0fe1e912297add7fc49a728eac984"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "cc3939773cb1c4c912ea0419d816c96346e4ab56"
+    },
+    "sound/es.mp3": {
+      "bytes": 9216,
+      "sha1": "1d65ead23b32fa91799a2f5524cad9a2a8b0b4fa"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "5609aa3ca8c7c7bceb6a2355387a5e74bb5b4b5a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "45928ce9a73a584c0e5f8f37d985d72e0031d9bb"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "3ccd3a4882986140280536458237c99715cf1584"
     }
   }
 }

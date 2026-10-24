@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Stația este pe această stradă?"
+      "name": "Stația este pe această stradă?",
+      "description": "O întrebare prin care se întreabă dacă stația se află pe această stradă."
+    },
+    "en": {
+      "description": "A question asking whether the station or stop is located on this street.",
+      "name": "Is the station on this street?"
+    },
+    "de": {
+      "description": "Eine Frage, die sich erkundigt, ob sich die Haltestelle oder der Bahnhof in dieser Straße befindet.",
+      "name": "Ist die Haltestelle auf dieser Straße?"
+    },
+    "ru": {
+      "description": "Вопрос о том, расположена ли станция или остановка на этой улице.",
+      "name": "Остановка на этой улице?"
+    },
+    "it": {
+      "description": "Una domanda che chiede se la stazione o la fermata si trova in questa strada.",
+      "name": "La fermata è in questa strada?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si la estación o parada se ubica en esta calle.",
+      "name": "¿La estación está en esta calle?"
+    },
+    "fr": {
+      "description": "Une question demandant si la station ou l'arrêt se situe dans cette rue.",
+      "name": "La station est dans cette rue ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy az állomás vagy a megálló ezen az utcán található-e.",
+      "name": "Ezen az utcán van a megálló?"
+    },
+    "pt": {
+      "description": "Uma pergunta que questiona se a estação ou parada fica situada nesta rua.",
+      "name": "A estação fica nesta rua?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17424,
       "sha1": "5baaa8b00b5e97e2dbe6e88a1b9e4f9eaf4d62d8"
+    },
+    "sound/en.mp3": {
+      "bytes": 10512,
+      "sha1": "7a7285589d1fb5e21414dc263519e6e02aac0751"
+    },
+    "sound/de.mp3": {
+      "bytes": 18864,
+      "sha1": "97ad55bd77e68ab44d9cc5d732ba7e6f4f01a620"
+    },
+    "sound/es.mp3": {
+      "bytes": 16704,
+      "sha1": "22aba2c2bb367f19c9c272d209ab3816467fde89"
+    },
+    "sound/it.mp3": {
+      "bytes": 12528,
+      "sha1": "1b0b38b7832dd3bdb424a2aec0e61af2c96eae01"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14976,
+      "sha1": "99d7eda52c1b98b442ba2e876d3a4016a4951f9f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16992,
+      "sha1": "eb4c0decf61c2736bac6237dae4e2d3347034ba4"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17424,
+      "sha1": "c4860976784472e7bc4715b73ccbb3c865cac539"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17136,
+      "sha1": "916a2e14a13d03e37381cc455a50829710226c00"
     }
   }
 }

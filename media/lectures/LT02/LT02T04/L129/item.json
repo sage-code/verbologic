@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, cheia este în baie."
+      "name": "Nu, cheia este în baie.",
+      "description": "O afirmație care indică faptul că cheia este în baie."
+    },
+    "en": {
+      "description": "A statement indicating that the key is in the bathroom.",
+      "name": "No, the key is in the bathroom."
+    },
+    "de": {
+      "description": "Eine Aussage, die angibt, dass sich der Schlüssel im Badezimmer befindet.",
+      "name": "Nein, der Schlüssel ist im Badezimmer."
+    },
+    "ru": {
+      "description": "Утверждение о том, что ключ находится в ванной.",
+      "name": "Нет, ключ в ванной."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che la chiave si trova in bagno.",
+      "name": "No, la chiave è in bagno."
+    },
+    "es": {
+      "description": "Una afirmación que indica que la llave está en el baño.",
+      "name": "No, la llave está en el baño."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que la clé se trouve dans la salle de bain.",
+      "name": "Non, la clé est dans la salle de bain."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely azt fejezi ki, hogy a kulcs a fürdőszobában van.",
+      "name": "Nem, a kulcs a fürdőszobában van."
+    },
+    "pt": {
+      "description": "Uma afirmação que indica que a chave está no banheiro.",
+      "name": "Não, a chave está no banheiro."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16128,
       "sha1": "b2c0cfed953fa1faa63431055c488ff7fb55aa8d"
+    },
+    "sound/en.mp3": {
+      "bytes": 14112,
+      "sha1": "379762c81c8c735904880bd7a845303935565423"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16272,
+      "sha1": "8d86b6b24c88b02fdbadc367bdf6e062731d1de5"
+    },
+    "sound/de.mp3": {
+      "bytes": 19584,
+      "sha1": "fbe7d8c28f1828dcba21083bdd7890f7c0b9be69"
+    },
+    "sound/it.mp3": {
+      "bytes": 17280,
+      "sha1": "96bcb6422f85e7f4af8463f826aa611ce18d8d65"
+    },
+    "sound/es.mp3": {
+      "bytes": 16992,
+      "sha1": "a412f99b4d00811f1653fff689603109cfdae53b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 18000,
+      "sha1": "c131dfcab15aeae64ae1e70feccdf00d3a5477c8"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15408,
+      "sha1": "19dcdb1bb5f6c8b4ba692ad1b6d13c39aa014a49"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17712,
+      "sha1": "d8d3d36007726cd38ba5c879303be2b850d9b116"
     }
   }
 }

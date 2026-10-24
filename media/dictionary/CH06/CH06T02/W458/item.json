@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "exercise"
+      "name": "exercise",
+      "description": "A vocabulary word related to classroom language."
     },
     "ro": {
       "name": "exercițiu",
-      "ipa": "/ekserˈtʃitsiu/"
+      "ipa": "/ekserˈtʃitsiu/",
+      "description": "Un cuvânt de vocabular legat de limbajul din sala de clasă."
     },
     "de": {
-      "name": "Übung"
+      "name": "Übung",
+      "description": "Ein Vokabelwort zum Thema Unterrichtssprache."
     },
     "ru": {
-      "name": "упражнение"
+      "name": "упражнение",
+      "description": "Словарное слово, относящееся к языку общения в классе."
     },
     "it": {
-      "name": "esercizio"
+      "name": "esercizio",
+      "description": "Un termine del vocabolario relativo al linguaggio della classe."
     },
     "es": {
-      "name": "ejercicio"
+      "name": "ejercicio",
+      "description": "Una palabra de vocabulario relacionada con el lenguaje del aula."
     },
     "fr": {
-      "name": "exercice"
+      "name": "exercice",
+      "description": "Un mot de vocabulaire lié au langage de la classe."
     },
     "hu": {
-      "name": "gyakorlat"
+      "name": "gyakorlat",
+      "description": "A tantermi nyelvhez kapcsolódó szókincsbeli szó."
     },
     "pt": {
-      "name": "exercício"
+      "name": "exercício",
+      "description": "Uma palavra de vocabulário relacionada à linguagem de sala de aula."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "8fcc9e72445c26d03709a1746b703498e86120e6"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "fde4ae3cdd954deb583b200636877aaf0f3ea264"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "14eef7378d1922660066734702ed5852307394ec"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11664,
+      "sha1": "033f5825c988dee0f9c5002e45286888a6be9d49"
+    },
+    "sound/it.mp3": {
+      "bytes": 12096,
+      "sha1": "85aea25fd34bed6a7c730bb2e013342370a2436e"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "91a9fc4c4e6a07edf317b51247494efe8420fd09"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11376,
+      "sha1": "38cc8dfa421bde94ad4a42dc0df3dc43ebbc04d7"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "54ac7f68cb747a4ecf6827563bf0d6afc18dca9f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "0d5b50db482058a419d759ee26a460c68ec4e1aa"
     }
   }
 }

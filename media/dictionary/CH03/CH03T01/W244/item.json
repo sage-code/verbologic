@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "to go"
+      "name": "to go",
+      "description": "To clean one's teeth with a toothbrush and toothpaste."
     },
     "ro": {
       "name": "a merge",
-      "ipa": "/a ˈmerdʒe/"
+      "ipa": "/a ˈmerdʒe/",
+      "description": "A-ți curăța dinții cu o periuță și pastă de dinți."
     },
     "de": {
-      "name": "gehen"
+      "name": "gehen",
+      "description": "Die Zähne mit einer Zahnbürste und Zahnpasta reinigen."
     },
     "ru": {
-      "name": "идти"
+      "name": "идти",
+      "description": "Чистить зубы зубной щёткой и пастой."
     },
     "it": {
-      "name": "andare"
+      "name": "andare",
+      "description": "Pulirsi i denti con spazzolino e dentifricio."
     },
     "es": {
-      "name": "ir"
+      "name": "ir",
+      "description": "Limpiarse los dientes con un cepillo y pasta de dientes."
     },
     "fr": {
-      "name": "aller"
+      "name": "aller",
+      "description": "Se nettoyer les dents avec une brosse à dents et du dentifrice."
     },
     "hu": {
-      "name": "menni"
+      "name": "menni",
+      "description": "Megtisztítani a fogakat fogkefével és fogkrémmel."
     },
     "pt": {
-      "name": "ir"
+      "name": "ir",
+      "description": "Limpar os dentes com uma escova e pasta de dente."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "4bf724c7358a76452003f36e07c2a6d3bf8ac4af"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "27697ac4b41fb328407064c147bb01f995d28744"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "e824ebf392601d1d734ea963d27e80a17f512cf8"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "143aa900428a018732c7934a88964ac14a8bc164"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "30f92c2f44ec45c44db46dfce50dd5e259a5b27d"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "1caf354747cb0398b39e27506a24bc6cb002a8f8"
+    },
+    "sound/fr.mp3": {
+      "bytes": 8640,
+      "sha1": "22a8ac37ceff4ec6d0c37553f46d62d96db73a6a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 9792,
+      "sha1": "e968a20a2474bdf372325c4418e844cd68594323"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "8b2191c1f4d685019c5a39dd085aa443b93d2f95"
     }
   }
 }

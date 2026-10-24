@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, dorm noaptea bine."
+      "name": "Da, dorm noaptea bine.",
+      "description": "O propoziție care confirmă că dormi bine noaptea."
+    },
+    "en": {
+      "description": "A sentence confirming that you sleep well at night.",
+      "name": "Yes, I sleep well at night."
+    },
+    "de": {
+      "description": "Ein Satz, der bestätigt, dass man nachts gut schläft.",
+      "name": "Ja, ich schlafe nachts gut."
+    },
+    "ru": {
+      "description": "Предложение, подтверждающее, что вы хорошо спите ночью.",
+      "name": "Да, я хорошо сплю по ночам."
+    },
+    "it": {
+      "description": "Una frase per confermare di dormire bene la notte.",
+      "name": "Sì, di notte dormo bene."
+    },
+    "es": {
+      "description": "Una frase que confirma que duermes bien por la noche.",
+      "name": "Sí, duermo bien por la noche."
+    },
+    "fr": {
+      "description": "Une phrase confirmant que vous dormez bien la nuit.",
+      "name": "Oui, je dors bien la nuit."
+    },
+    "hu": {
+      "description": "Mondat, amely megerősíti, hogy jól alszol éjszaka.",
+      "name": "Igen, jól alszom éjszaka."
+    },
+    "pt": {
+      "description": "Uma frase que confirma que você dorme bem à noite.",
+      "name": "Sim, eu durmo bem à noite."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15696,
       "sha1": "4db2aad8e2a933a5e4d27783167aac4115c00d15"
+    },
+    "sound/en.mp3": {
+      "bytes": 11808,
+      "sha1": "18324ed605ad9a30d8546782862dead84e0b37ed"
+    },
+    "sound/de.mp3": {
+      "bytes": 15984,
+      "sha1": "31d1a0a9ed145cc1d32cd3386dad83cbc8f43da0"
+    },
+    "sound/es.mp3": {
+      "bytes": 17568,
+      "sha1": "f43a3a0a88213d8f5b945669c43ce21a62c36a22"
+    },
+    "sound/it.mp3": {
+      "bytes": 17568,
+      "sha1": "d56a05155681c802f834343532e078e8011045c1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15120,
+      "sha1": "edb2235f903a431d23696a9c4398984166a42c2d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15408,
+      "sha1": "df88306f4ba664410b14608c6eca15619e306edf"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15696,
+      "sha1": "7974424ff611c0edce84991397855ec433abe0c4"
+    },
+    "sound/ru.mp3": {
+      "bytes": 19440,
+      "sha1": "245c76e20f5f649bb84b1442f3a26c9a974ba91f"
     }
   }
 }

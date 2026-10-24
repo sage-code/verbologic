@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Numele meu este Andrei."
+      "name": "Numele meu este Andrei.",
+      "description": "Exersează cum să te prezinți spunându-ți numele."
+    },
+    "en": {
+      "description": "Practice introducing yourself by stating your name.",
+      "name": "My name is Andrei."
+    },
+    "de": {
+      "description": "Üben Sie, sich vorzustellen, indem Sie Ihren Namen nennen.",
+      "name": "Mein Name ist Andrei."
+    },
+    "ru": {
+      "description": "Потренируйтесь представляться, называя своё имя.",
+      "name": "Меня зовут Андрей."
+    },
+    "it": {
+      "description": "Esercitati a presentarti dicendo il tuo nome.",
+      "name": "Il mio nome è Andrei."
+    },
+    "es": {
+      "description": "Practica cómo presentarte diciendo tu nombre.",
+      "name": "Mi nombre es Andrei."
+    },
+    "fr": {
+      "description": "Entraînez-vous à vous présenter en donnant votre nom.",
+      "name": "Je m'appelle Andrei."
+    },
+    "hu": {
+      "description": "Gyakorolja a bemutatkozást a nevének megadásával.",
+      "name": "A nevem Andrei."
+    },
+    "pt": {
+      "description": "Pratique apresentar-se dizendo o seu nome.",
+      "name": "Meu nome é Andrei."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14256,
       "sha1": "831101dd23ffc2b2585a8d35af7093dfbd53950f"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "87c06d7055775e38524419a276ad30d52aa5d623"
+    },
+    "sound/de.mp3": {
+      "bytes": 14256,
+      "sha1": "7b0eff6f234363f9357150077499238658935089"
+    },
+    "sound/it.mp3": {
+      "bytes": 13248,
+      "sha1": "4edba080742ab3885c84cbc35d3e6f405e0def2b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15120,
+      "sha1": "f56e9e02a2b85c4aa9c0c65883cb04b6589936fc"
+    },
+    "sound/es.mp3": {
+      "bytes": 13104,
+      "sha1": "a1f866178078cae83d7e98640a48503c87773794"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "81e81d1f5432cb89f518f72a485be46a392b6a2a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12240,
+      "sha1": "02fbb4f8759423d62afa69bd8a6c8c16a2374ec1"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "f68ac2fffceead2d94717ffc1db708ec5bee4aaa"
     }
   }
 }

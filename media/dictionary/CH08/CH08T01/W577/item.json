@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "plain"
+      "name": "plain",
+      "description": "This word relates to landscapes and landforms."
     },
     "ro": {
       "name": "câmpie",
-      "ipa": "/kɨmˈpie/"
+      "ipa": "/kɨmˈpie/",
+      "description": "Acest cuvânt se referă la peisaje și forme de relief."
     },
     "de": {
-      "name": "Ebene"
+      "name": "Ebene",
+      "description": "Dieses Wort bezieht sich auf Landschaften und Landformen."
     },
     "ru": {
-      "name": "равнина"
+      "name": "равнина",
+      "description": "Это слово относится к ландшафтам и формам рельефа."
     },
     "it": {
-      "name": "pianura"
+      "name": "pianura",
+      "description": "Questa parola si riferisce a paesaggi e forme del rilievo."
     },
     "es": {
-      "name": "llanura"
+      "name": "llanura",
+      "description": "Esta palabra se refiere a paisajes y formas del relief."
     },
     "fr": {
-      "name": "plaine"
+      "name": "plaine",
+      "description": "Ce mot se rapporte aux paysages et aux formes du relief."
     },
     "hu": {
-      "name": "síkság"
+      "name": "síkság",
+      "description": "Ez a szó a tájakhoz és felszínformákhoz kapcsolódik."
     },
     "pt": {
-      "name": "planície"
+      "name": "planície",
+      "description": "Esta palavra se refere a paisagens e formas de relevo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "db95ec0bb1a7d2643b661dc1904df2cb996b6ec3"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "5661a539b07ffcb9500b4d0283be4dec0c9d9e33"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "9e1157cccfff08601d9524879d56690488a0b334"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "f70425563d2589fb0cea8cc9b50d6e1eef17da66"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "643153931010bfa2c6a1d859143fa19b4c157bbe"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "5e12b8819631d6bf805b5b88779a5b5b539de418"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "b5764182a57da9496089c5c0908d318561967f55"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "952f21c7e0bf09ad5a3517c21d35f32bfb14e2ed"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "e7eca89a058a1bbf2bb24ef812b3506defff4b0b"
     }
   }
 }

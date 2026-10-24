@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "equality"
+      "name": "equality",
+      "description": "This vocabulary item belongs to topic six of the People and Society chapter."
     },
     "ro": {
       "name": "egalitate",
-      "ipa": "/egaliˈtate/"
+      "ipa": "/egaliˈtate/",
+      "description": "Acest element de vocabular aparține temei șase din capitolul Oameni și societate."
     },
     "de": {
-      "name": "Gleichheit"
+      "name": "Gleichheit",
+      "description": "Dieser Vokabeleintrag gehört zu Thema sechs des Kapitels Menschen und Gesellschaft."
     },
     "ru": {
-      "name": "равенство"
+      "name": "равенство",
+      "description": "Эта словарная единица относится к шестой теме главы «Люди и общество»."
     },
     "it": {
-      "name": "uguaglianza"
+      "name": "uguaglianza",
+      "description": "Questa voce di vocabolario appartiene al sesto argomento del capitolo Persone e società."
     },
     "es": {
-      "name": "igualdad"
+      "name": "igualdad",
+      "description": "Esta entrada de vocabulario pertenece al tema seis del capítulo Personas y sociedad."
     },
     "fr": {
-      "name": "égalité"
+      "name": "égalité",
+      "description": "Cet élément de vocabulaire appartient au thème six du chapitre Personnes et société."
     },
     "hu": {
-      "name": "egyenlőség"
+      "name": "egyenlőség",
+      "description": "Ez a szókincselem az Emberek és társadalom fejezet hatodik témájához tartozik."
     },
     "pt": {
-      "name": "igualdade"
+      "name": "igualdade",
+      "description": "Este item de vocabulário pertence ao tópico seis do capítulo Pessoas e sociedade."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "6c8081410d3a982b02a7a8a056d7c6985ce27321"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "49aa56f56b0b01bcfded4b9604ef572ecb9376d2"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "2e865cfc9d76d3ce4ebd34bb2dcfd21fa3b7d724"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11376,
+      "sha1": "064826b3e095deb17761c9251e54abdb9a2e9811"
+    },
+    "sound/it.mp3": {
+      "bytes": 11808,
+      "sha1": "17ca98e71bf6c4329c0aaa9706338c26b6225ee6"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "01bb2712a5651ecf45b5980ae6a123df9dd28c7d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 10368,
+      "sha1": "345d0d520028057ae6d1ab4c5e1bcb86ada637ed"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "a6cdc7671b4a8d8456f25913e296d8b7d150176a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "f4e79a5b98926176db797521e71f9d8027a3a099"
     }
   }
 }

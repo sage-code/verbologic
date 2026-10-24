@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Vine autobuzul acum?"
+      "name": "Vine autobuzul acum?",
+      "description": "O întrebare prin care se întreabă dacă autobuzul sosește chiar acum."
+    },
+    "en": {
+      "description": "A question asking whether the bus is arriving right now.",
+      "name": "Is the bus coming now?"
+    },
+    "de": {
+      "description": "Eine Frage, die sich erkundigt, ob der Bus genau jetzt ankommt.",
+      "name": "Kommt der Bus jetzt?"
+    },
+    "ru": {
+      "description": "Вопрос о том, подъезжает ли автобус прямо сейчас.",
+      "name": "Автобус сейчас подъезжает?"
+    },
+    "it": {
+      "description": "Una domanda che chiede se l'autobus sta arrivando proprio adesso.",
+      "name": "L'autobus arriva adesso?"
+    },
+    "es": {
+      "description": "Una pregunta para saber si el autobús llega en este preciso momento.",
+      "name": "¿Viene el autobús ahora?"
+    },
+    "fr": {
+      "description": "Une question demandant si le bus arrive en ce moment même.",
+      "name": "Le bus arrive maintenant ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy éppen most érkezik-e a busz.",
+      "name": "Most jön a busz?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se o ônibus está chegando neste momento.",
+      "name": "O ônibus está vindo agora?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15264,
       "sha1": "59169e535bba5dd9f8f16ce9a4c2150f65b3343c"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "084f2afccf932ff4b758c8495736ac56887bdde3"
+    },
+    "sound/de.mp3": {
+      "bytes": 12384,
+      "sha1": "40e786793936a6b8c23684c64de7711f22a3b711"
+    },
+    "sound/it.mp3": {
+      "bytes": 10944,
+      "sha1": "c1cb5dd3ae084e85e547fb9e3059283a33715e75"
+    },
+    "sound/es.mp3": {
+      "bytes": 15120,
+      "sha1": "b7f9efc73ad9324da672ec0b8a00af9c2bdc0db9"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17424,
+      "sha1": "4eecfd4192b08a82a8323d73a8fb4c014a504150"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14112,
+      "sha1": "a08e0bf9d77de8b0b20b055761170e729154d588"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12672,
+      "sha1": "aafe80b1e030fc2a5012968616ce86546fcf0f63"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16272,
+      "sha1": "17cdc4f658060bf4c98ecf1fe3eed29d01eb14e2"
     }
   }
 }

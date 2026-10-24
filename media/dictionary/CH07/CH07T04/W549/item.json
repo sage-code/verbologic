@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "actor"
+      "name": "actor",
+      "description": "This entry represents vocabulary item W549 from chapter 7, topic 4."
     },
     "ro": {
       "name": "actor",
-      "ipa": "/akˈtor/"
+      "ipa": "/akˈtor/",
+      "description": "Această intrare reprezintă elementul de vocabular W549 din capitolul 7, tema 4."
     },
     "de": {
-      "name": "Schauspieler"
+      "name": "Schauspieler",
+      "description": "Dieser Eintrag stellt den Wortschatzeintrag W549 aus Kapitel 7, Thema 4 dar."
     },
     "ru": {
-      "name": "актёр"
+      "name": "актёр",
+      "description": "Эта запись представляет словарный элемент W549 из главы 7, темы 4."
     },
     "it": {
-      "name": "attore"
+      "name": "attore",
+      "description": "Questa voce representa l'elemento di vocabolario W549 del capitolo 7, argomento 4."
     },
     "es": {
-      "name": "actor"
+      "name": "actor",
+      "description": "Esta entrada representa el elemento de vocabulario W549 del capítulo 7, tema 4."
     },
     "fr": {
-      "name": "acteur"
+      "name": "acteur",
+      "description": "Cette entrée représente l'élément de vocabulaire W549 du chapitre 7, thème 4."
     },
     "hu": {
-      "name": "színész"
+      "name": "színész",
+      "description": "Ez a bejegyzés a 7. fejezet 4. témájának W549 szókincselemét jelöli."
     },
     "pt": {
-      "name": "ator"
+      "name": "ator",
+      "description": "Esta entrada representa o item de vocabulário W549 do capítulo 7, tópico 4."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "f9e8a9db28da9b7d19187ef0ac119205000fdba7"
+    },
+    "sound/en.mp3": {
+      "bytes": 5184,
+      "sha1": "25196721cce86e42748d44c65d07fe924625d2f5"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "36848159c9cb9939064e9f23fb8fda47551806f6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "f525043f13108c68e2295551760d42b23ec741d9"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "41f5b080fdabf99d1412893d2d1e9cedf732d58d"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "3d9a99104a2972a4f7a644482998e20ac16b7f55"
+    },
+    "sound/fr.mp3": {
+      "bytes": 9792,
+      "sha1": "860fa9a366d272c13e42df37ac9250897d3e0b54"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "0931ab424f0c3b74f010332d0d1a3cb867c033cb"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "ecea70e466aff82c5f6878d8eff6c7420f5c0bb0"
     }
   }
 }

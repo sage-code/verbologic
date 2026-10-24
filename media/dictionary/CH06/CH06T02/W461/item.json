@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "correct"
+      "name": "correct",
+      "description": "This word is a vocabulary item associated with code W461 in topic CH06T02."
     },
     "ro": {
       "name": "corect",
-      "ipa": "/koˈrekt/"
+      "ipa": "/koˈrekt/",
+      "description": "Acest cuvânt este un element de vocabular asociat codului W461 din tema CH06T02."
     },
     "de": {
-      "name": "richtig"
+      "name": "richtig",
+      "description": "Dieses Wort ist ein Vokabelelement, das dem Code W461 im Thema CH06T02 zugeordnet ist."
     },
     "ru": {
-      "name": "правильно"
+      "name": "правильно",
+      "description": "Это слово является словарной единицей, связанной с кодом W461 в теме CH06T02."
     },
     "it": {
-      "name": "corretto"
+      "name": "corretto",
+      "description": "Questa parola è un elemento di vocabolario associato al codice W461 nell'argomento CH06T02."
     },
     "es": {
-      "name": "correcto"
+      "name": "correcto",
+      "description": "Esta palabra es un elemento de vocabulario asociado al código W461 en el tema CH06T02."
     },
     "fr": {
-      "name": "correct"
+      "name": "correct",
+      "description": "Ce mot est un élément de vocabulaire associé au code W461 dans le thème CH06T02."
     },
     "hu": {
-      "name": "helyes"
+      "name": "helyes",
+      "description": "Ez a szó egy szókincsbeli elem, amely a CH06T02 témakör W461 kódjához kapcsolódik."
     },
     "pt": {
-      "name": "correto"
+      "name": "correto",
+      "description": "Esta palavra é um item de vocabulário associado ao código W461 no tópico CH06T02."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "2935ca2913808806f19c43381ff11e407412266d"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "75599b9a663ebddb51a32fdf3fa099d9c72b7b71"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "35fdac7c91fc41ac4bc828157787556ee7c9fef7"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "5a5794d8ec3d0e3c59ce2b28b19811de79b665e8"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "4dd1e983ecf013ad263d48aa21d13e4584052900"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "efe8dada43235221f565dbe0bcabab6f57d27a43"
+    },
+    "sound/fr.mp3": {
+      "bytes": 9216,
+      "sha1": "5a8276b1c2ea1ce315d6053b538896004653fe6d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 8640,
+      "sha1": "2efa8e5da7081582fdb397ec23c0786fd3bae0c6"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "90d97831f53fde2286fd4049b4cfe14a2cd4bd60"
     }
   }
 }

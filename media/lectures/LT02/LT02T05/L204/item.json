@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, trimit email acum."
+      "name": "Nu, trimit email acum.",
+      "description": "O propoziție care afirmă că se trimite un e-mail acum."
+    },
+    "en": {
+      "description": "A sentence stating that an email is being sent now.",
+      "name": "No, I am sending an email now."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass jetzt eine E-Mail gesendet wird.",
+      "name": "Nein, ich sende jetzt eine E-Mail."
+    },
+    "ru": {
+      "description": "Предложение о том, что электронное письмо отправляется сейчас.",
+      "name": "Нет, я отправляю электронное письмо сейчас."
+    },
+    "it": {
+      "description": "Una frase che indica che si sta inviando un'e-mail adesso.",
+      "name": "No, invio un'e-mail adesso."
+    },
+    "es": {
+      "description": "Una frase que indica que se está enviando un correo electrónico ahora.",
+      "name": "No, envío un correo electrónico ahora."
+    },
+    "fr": {
+      "description": "Une phrase indiquant qu'un e-mail est en cours d'envoi maintenant.",
+      "name": "Non, j'envoie un e-mail maintenant."
+    },
+    "hu": {
+      "description": "Egy mondat, amely azt fejezi ki, hogy most küldenek egy e-mailt.",
+      "name": "Nem, most küldök egy e-mailt."
+    },
+    "pt": {
+      "description": "Uma frase informando que um e-mail está sendo enviado agora.",
+      "name": "Não, estou enviando um e-mail agora."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16704,
       "sha1": "09e6b0c29968d95d4a46f7c6064e0b88025d1c3b"
+    },
+    "sound/en.mp3": {
+      "bytes": 15264,
+      "sha1": "619bda32c26af39cac162491a46cacb0fc03e175"
+    },
+    "sound/de.mp3": {
+      "bytes": 19584,
+      "sha1": "d0f2134bc3dd6f4390b163b5a3ba9bce6d09cb5c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 19296,
+      "sha1": "90f39dfbe664f99c414386c27c4ff8a89a4d766e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17136,
+      "sha1": "d571d0892dd85eb3e7d280cd47b8ea4fe8adef0f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 23760,
+      "sha1": "3c6eed31e44d7c31b3874f3c27cc450bb349cff4"
+    },
+    "sound/es.mp3": {
+      "bytes": 19872,
+      "sha1": "9a69142125074f5235da03dff4c60569742df0a1"
+    },
+    "sound/it.mp3": {
+      "bytes": 14112,
+      "sha1": "b83dfe88db97a4860a266a87277f455093fe9fe7"
+    },
+    "sound/pt.mp3": {
+      "bytes": 19440,
+      "sha1": "a24a535250235bce8224ef1869380bfea49e7ef3"
     }
   }
 }

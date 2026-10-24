@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "polite"
+      "name": "polite",
+      "description": "This is a vocabulary item for W869."
     },
     "ro": {
       "name": "politicos",
-      "ipa": "/politiˈkos/"
+      "ipa": "/politiˈkos/",
+      "description": "Acesta este un element de vocabular pentru W869."
     },
     "de": {
-      "name": "höflich"
+      "name": "höflich",
+      "description": "Dies ist ein Vokabeleintrag für W869."
     },
     "ru": {
-      "name": "вежливый"
+      "name": "вежливый",
+      "description": "Это словарный элемент для W869."
     },
     "it": {
-      "name": "cortese"
+      "name": "cortese",
+      "description": "Questo è un elemento di vocabolario per W869."
     },
     "es": {
-      "name": "cortés"
+      "name": "cortés",
+      "description": "Este es un elemento de vocabulario para W869."
     },
     "fr": {
-      "name": "poli"
+      "name": "poli",
+      "description": "Ceci est un élément de vocabulaire pour W869."
     },
     "hu": {
-      "name": "udvarias"
+      "name": "udvarias",
+      "description": "Ez egy szókincselem a W869 azonosítóhoz."
     },
     "pt": {
-      "name": "educado"
+      "name": "educado",
+      "description": "Este é um item de vocabulário para W869."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "00ba1bd3db108be37fe219f1674203e0bd97ee1b"
+    },
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "b116e9cbff14eb401d47c87885a8805c4838445a"
+    },
+    "sound/de.mp3": {
+      "bytes": 9360,
+      "sha1": "096a4c6b9232a7033d3c450f693134e636efadae"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "270e3203daf21f7370c1bcec0893b4d3ccc05f90"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "a9989f0a70a855ef01f9a804213edd53844429ca"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "ebba3ceff6606c93635d68215f5d4a076c49f435"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "a309d5207f4df18041d994677afff3ae0cc182e7"
+    },
+    "sound/hu.mp3": {
+      "bytes": 10080,
+      "sha1": "77757cd9618671130f279d2d8cbd27acb764a8b2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 9072,
+      "sha1": "0ccdd13623a3db404dc9f8c4f76b7407729d7d8b"
     }
   }
 }

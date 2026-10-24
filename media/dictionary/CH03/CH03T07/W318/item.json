@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "I'm thirsty"
+      "name": "I'm thirsty",
+      "description": "This word relates to emotions and social interactions."
     },
     "ro": {
       "name": "mi-e sete",
-      "ipa": "/mi e ˈsete/"
+      "ipa": "/mi e ˈsete/",
+      "description": "Acest cuvânt este legat de emoții și interacțiuni sociale."
     },
     "de": {
-      "name": "Ich habe Durst"
+      "name": "Ich habe Durst",
+      "description": "Dieses Wort bezieht sich auf Gefühle und soziale Interaktionen."
     },
     "ru": {
-      "name": "Я хочу пить"
+      "name": "Я хочу пить",
+      "description": "Это слово относится к эмоциям и социальному взаимодействию."
     },
     "it": {
-      "name": "ho sete"
+      "name": "ho sete",
+      "description": "Questa parola si riferisce alle emozioni e alle interazioni sociali."
     },
     "es": {
-      "name": "tengo sed"
+      "name": "tengo sed",
+      "description": "Esta palabra se relaciona con las emociones y las interacciones sociales."
     },
     "fr": {
-      "name": "j'ai soif"
+      "name": "j'ai soif",
+      "description": "Ce mot se rapporte aux émotions et aux interactions sociales."
     },
     "hu": {
-      "name": "Szomjas vagyok"
+      "name": "Szomjas vagyok",
+      "description": "Ez a szó az érzelmekre és a társas kapcsolatokra vonatkozik."
     },
     "pt": {
-      "name": "Estou com sede"
+      "name": "Estou com sede",
+      "description": "Esta palavra relaciona-se com emoções e interações sociais."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "cddabfc976db790e40d69cf616cffbc2a291e051"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "dc8e3b023406b556a3b7528488b6b7dec1f8b06f"
+    },
+    "sound/de.mp3": {
+      "bytes": 11664,
+      "sha1": "8e7a09d76a6e79d923c92bd6dedc65704c93e7bc"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13104,
+      "sha1": "a4d432dc51d44ad938e481bdab7ef8cb419ea92d"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "ca4102e18a877d8d168a117218c38627fd2dc832"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "35a7e8f2283673406818edf5cd3dbbfd6fec4fdf"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "ef74561256dfe6675c77f5b0aece638b328133b8"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12528,
+      "sha1": "9aacac893072c9686cb81d32c29dfb6d18ff543a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12816,
+      "sha1": "8c258e3c1201265d413774e632ad8e414be9ca16"
     }
   }
 }

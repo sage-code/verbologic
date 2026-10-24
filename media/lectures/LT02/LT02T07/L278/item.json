@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Say the name."
+      "name": "Say the name.",
+      "description": "This imperative phrase asks someone to state a name."
     },
     "ro": {
-      "name": "Spune numele."
+      "name": "Spune numele.",
+      "description": "Această expresie la modul imperativ îi cere cuiva să spună un nume."
+    },
+    "de": {
+      "description": "Diese Aufforderung fordert jemanden auf, den Namen zu nennen.",
+      "name": "Sagen Sie den Namen."
+    },
+    "ru": {
+      "description": "Эта фраза в повелительном наклонении просит назвать имя.",
+      "name": "Назовите имя."
+    },
+    "it": {
+      "description": "Questa frase imperativa chiede a qualcuno di pronunciare un nome.",
+      "name": "Dì il nome."
+    },
+    "es": {
+      "description": "Esta frase imperativa pide a alguien que diga un nombre.",
+      "name": "Di el nombre."
+    },
+    "fr": {
+      "description": "Cette phrase à l'impératif demande d'énoncer un nom.",
+      "name": "Dites le nom."
+    },
+    "hu": {
+      "description": "Ez a felszólító kifejezés arra kér valakit, hogy mondjon egy nevet.",
+      "name": "Mondd a nevet."
+    },
+    "pt": {
+      "description": "Esta frase no imperativo pede que alguém diga um nome.",
+      "name": "Diga o nome."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11376,
       "sha1": "52d430acc5082b8e0d595421f50bef2f5bd15536"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "b0eb29fdacac92cbb605859f329ed6f7ecf9a644"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14112,
+      "sha1": "79b56f8e1de81bbb1ad85ecba12938b17826f3ba"
+    },
+    "sound/de.mp3": {
+      "bytes": 14112,
+      "sha1": "cfcb4ba6f235e521dc09784d8d95b2d7f154b85a"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "d0659ffac17d8172ede86c845fa0a15efef408a2"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11664,
+      "sha1": "793778a92869f4a578cb27af9a2bf2b4e93ea91c"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "fc22877255a8764bd2d410208b37fc566eb1cb03"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12240,
+      "sha1": "5b7495744ad6280fdee822474e5e0e08b6941480"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "0a36fa81b9c9276c90785dafda06be82beadc1f0"
     }
   }
 }

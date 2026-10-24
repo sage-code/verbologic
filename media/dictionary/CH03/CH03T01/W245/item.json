@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "to come"
+      "name": "to come",
+      "description": "To put on clothes."
     },
     "ro": {
       "name": "a veni",
-      "ipa": "/a veˈni/"
+      "ipa": "/a veˈni/",
+      "description": "A-și pune hainele."
     },
     "de": {
-      "name": "kommen"
+      "name": "kommen",
+      "description": "Kleidung anziehen."
     },
     "ru": {
-      "name": "приходить"
+      "name": "приходить",
+      "description": "Надевать на себя одежду."
     },
     "it": {
-      "name": "venire"
+      "name": "venire",
+      "description": "Mettersi i vestiti."
     },
     "es": {
-      "name": "venir"
+      "name": "venir",
+      "description": "Ponerse la ropa."
     },
     "fr": {
-      "name": "venir"
+      "name": "venir",
+      "description": "Mettre des vêtements."
     },
     "hu": {
-      "name": "jönni"
+      "name": "jönni",
+      "description": "Ruhát venni magunkra."
     },
     "pt": {
-      "name": "vir"
+      "name": "vir",
+      "description": "Colocar roupas."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "9504f6f74917fd1331782e7b5563676270f69bc4"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "4690572a610a765af085c76bbc686819c69406ac"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "e35bfcc230af8db938f52e0647f9cb0da8e475e3"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "e4401f780a57c3e6527d66cd44f7854f6191a576"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "fa8bf48a68d32479e7451cc3782418ef32bf9fb5"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "15e3c31d180171ef60883396a163c70b29709ecd"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "f12c3774a37a6817ecfc1747dcbb134f01a02b7b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "7ed2c52dd113bcadaef72101954ab4534040a552"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "f0e70bbe78cebcb99d6064927e8667c852682b2c"
     }
   }
 }

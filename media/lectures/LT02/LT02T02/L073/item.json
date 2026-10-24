@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "I eat bread."
+      "name": "I eat bread.",
+      "description": "A sentence stating that the speaker eats bread."
     },
     "ro": {
-      "name": "Eu mănânc pâine."
+      "name": "Eu mănânc pâine.",
+      "description": "O propoziție care afirmă că vorbitorul mănâncă pâine."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass der Sprecher Brot isst.",
+      "name": "Ich esse Brot."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее, что говорящий ест хлеб.",
+      "name": "Я ем хлеб."
+    },
+    "it": {
+      "description": "Una frase che afferma che chi parla mangia pane.",
+      "name": "Mangio il pane."
+    },
+    "es": {
+      "description": "Una oración que expresa que el hablante come pan.",
+      "name": "Como pan."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le locuteur mange du pain.",
+      "name": "Je mange du pain."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kijelenti, hogy a beszélő kenyeret eszik.",
+      "name": "Kenyeret eszem."
+    },
+    "pt": {
+      "description": "Uma frase que afirma que o falante come pão.",
+      "name": "Eu como pão."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12384,
       "sha1": "d205372dc4561274c28a288c058a6915f80ffa07"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "779a9e3996e9f6f73afd8404c6cebb6313efe91e"
+    },
+    "sound/it.mp3": {
+      "bytes": 11808,
+      "sha1": "2bae607c02c2d50f40d91a346359705d5dae9ee8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "81cf6b101e1c4849ba8c6a4185ddab15dc873af9"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "7ddce3634530b3ed6c109c19a844a5077ba7d55f"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "695c5ab2cb6ead61706cbddd910d31e07ed73a02"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "b2002a4a199777ee50bcce6fdea1503a8d04750b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 10080,
+      "sha1": "7fd2eaabafb97ab0f25656290723c56b4d01a981"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12816,
+      "sha1": "8040ed6e8378d3f5c98795eef4e1cfe0d9674ca9"
     }
   }
 }

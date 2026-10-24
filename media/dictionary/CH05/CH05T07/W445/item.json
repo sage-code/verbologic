@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "safety"
+      "name": "safety",
+      "description": "This item is a learning scaffold for chapter 5, topic 7."
     },
     "ro": {
       "name": "siguranță",
-      "ipa": "/siguˈrantsə/"
+      "ipa": "/siguˈrantsə/",
+      "description": "Acest element este un suport de învățare pentru capitolul 5, tema 7."
     },
     "de": {
-      "name": "Sicherheit"
+      "name": "Sicherheit",
+      "description": "Dieses Element dient als Lerngerüst für Kapitel 5, Thema 7."
     },
     "ru": {
-      "name": "безопасность"
+      "name": "безопасность",
+      "description": "Этот элемент служит учебной опорой для темы 7 главы 5."
     },
     "it": {
-      "name": "sicurezza"
+      "name": "sicurezza",
+      "description": "Questo elemento funge da supporto per l'apprendimento per il capitolo 5, argomento 7."
     },
     "es": {
-      "name": "seguridad"
+      "name": "seguridad",
+      "description": "Este elemento sirve como apoyo de aprendizaje para el capítulo 5, tema 7."
     },
     "fr": {
-      "name": "sécurité"
+      "name": "sécurité",
+      "description": "Cet élément sert de support d'apprentissage pour le chapitre 5, thème 7."
     },
     "hu": {
-      "name": "biztonság"
+      "name": "biztonság",
+      "description": "Ez az elem tanulási támaszként szolgál az 5. fejezet 7. témájához."
     },
     "pt": {
-      "name": "segurança"
+      "name": "segurança",
+      "description": "Este item serve como suporte de aprendizagem para o capítulo 5, tópico 7."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "ef36039f8b867e230da8da0038e0dab588d639c7"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "ca63ecc4014d4298048c6fa48ebef49955c7b9fb"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "eaf1462ebff35afb0d2f66042c147af459b0aa88"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12816,
+      "sha1": "50b4f2356cc58fced4c2bb2044d07ba7c5327439"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "2c81c8ed1d2b59b9093e735e7b1f78b1ff4232a2"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "c011710cc7d86b963d397cc63a809101e7331a06"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "8d59fe37f1db507dc6b7ee9c872115b9eeaabb7a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12096,
+      "sha1": "9672257d82539da968da737271ad821f7e3720e8"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11808,
+      "sha1": "f06f27c861de64e343eb075eeecb8ea7adf0e7dd"
     }
   }
 }

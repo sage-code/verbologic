@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Copilul este acasă?"
+      "name": "Copilul este acasă?",
+      "description": "O întrebare prin care se întreabă dacă copilul este acasă."
+    },
+    "en": {
+      "description": "A question asking whether the child is at home.",
+      "name": "Is the child at home?"
+    },
+    "de": {
+      "description": "Eine Frage, die sich erkundigt, ob das Kind zu Hause ist.",
+      "name": "Ist das Kind zu Hause?"
+    },
+    "ru": {
+      "description": "Вопрос о том, дома ли ребёнок.",
+      "name": "Ребёнок дома?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere se il bambino è a casa.",
+      "name": "Il bambino è a casa?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si el niño está en casa.",
+      "name": "¿El niño está en casa?"
+    },
+    "fr": {
+      "description": "Une question demandant si l'enfant est à la maison.",
+      "name": "L'enfant est-il à la maison ?"
+    },
+    "hu": {
+      "description": "Kérdés arra vonatkozóan, hogy a gyerek otthon van-e.",
+      "name": "A gyerek otthon van?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se a criança está em casa.",
+      "name": "A criança está em casa?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14400,
       "sha1": "86b98672f795aace0586c099c23e1b73cf26fe3f"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "3f789b1fa54bb161326056c7b39fa194d7f59025"
+    },
+    "sound/de.mp3": {
+      "bytes": 13680,
+      "sha1": "f96f965799111e97593a5baa500c6bced57f9744"
+    },
+    "sound/es.mp3": {
+      "bytes": 13248,
+      "sha1": "0ad3fe4d7d1c87ea431c5cc100d3e828ebf83d3d"
+    },
+    "sound/it.mp3": {
+      "bytes": 14112,
+      "sha1": "e56bb8bdf16a28359ee47567821429163fd879bb"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12384,
+      "sha1": "972b073956690473d097165880c29c6dbb0001d6"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13536,
+      "sha1": "de409152154d28335b3e0030287193c16dca291e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11808,
+      "sha1": "14147c24f31d972c212a0a36c56e0aecf1729340"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12672,
+      "sha1": "dbb4d418e3a6213d8447471a29c80df5069cd83c"
     }
   }
 }

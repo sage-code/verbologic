@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "ticket"
+      "name": "ticket",
+      "description": "This word relates to transport directions."
     },
     "ro": {
       "name": "bilet",
-      "ipa": "/biˈlet/"
+      "ipa": "/biˈlet/",
+      "description": "Acest cuvânt se referă la indicațiile de orientare în transport."
     },
     "de": {
-      "name": "Fahrkarte"
+      "name": "Fahrkarte",
+      "description": "Dieses Wort bezieht sich auf Wegbeschreibungen im Verkehr."
     },
     "ru": {
-      "name": "билет"
+      "name": "билет",
+      "description": "Это слово относится к указанию пути на транспорте."
     },
     "it": {
-      "name": "biglietto"
+      "name": "biglietto",
+      "description": "Questa parola si riferisce alle indicazioni di trasporto."
     },
     "es": {
-      "name": "billete"
+      "name": "billete",
+      "description": "Esta palabra se refiere a las indicaciones de transporte."
     },
     "fr": {
-      "name": "billet"
+      "name": "billet",
+      "description": "Ce mot se rapporte aux indications de transport."
     },
     "hu": {
-      "name": "jegy"
+      "name": "jegy",
+      "description": "Ez a szó a közlekedési útbaigazításhoz kapcsolódik."
     },
     "pt": {
-      "name": "bilhete"
+      "name": "bilhete",
+      "description": "Esta palavra refere-se a orientações de transporte."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "0c3f6d50bc6bc0a33d18276aea72780d97a454cf"
+    },
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "d5f32b0dbdff10b648595424b0a5d9976d5dd14e"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "05a5c00d4e7c3aa3c9f675aca2c9ed941cb0c3b0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "4843ff535969f1ff387f9d6cbfb5996a4da0ff94"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "f9d630969bf4b4b418bfbaf000a2ae10b8af25f9"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "76b007f6d068298f4ad6abcdf4b29b95312e04c1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "ce678dc2c98b25c47e660ec608da9f8618d06936"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "c8668317104c77b48676336b7951a08b2faa5396"
+    },
+    "sound/pt.mp3": {
+      "bytes": 8928,
+      "sha1": "8d2278b0ec2952fb1ec12ffd79fda9c35a76a581"
     }
   }
 }

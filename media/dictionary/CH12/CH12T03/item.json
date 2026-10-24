@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Colloquial speech & slang"
+      "name": "Colloquial speech & slang",
+      "description": "This topic covers colloquial speech and slang."
     },
     "ro": {
       "name": "Limbaj colocvial și argou",
-      "ipa": "/limˈbaʒ kolokviˈal ʃi ˈargou/"
+      "ipa": "/limˈbaʒ kolokviˈal ʃi ˈargou/",
+      "description": "Această temă acoperă vorbirea colocvială și argoul."
+    },
+    "de": {
+      "description": "Dieses Thema behandelt Umgangssprache und Slang.",
+      "name": "Umgangssprache und Slang"
+    },
+    "ru": {
+      "description": "Эта тема охватывает разговорную речь и сленг.",
+      "name": "Разговорная речь и сленг"
+    },
+    "it": {
+      "description": "Questo argomento tratta il linguaggio colloquiale e lo slang.",
+      "name": "Linguaggio colloquiale e slang"
+    },
+    "es": {
+      "description": "Este tema cubre el lenguaje coloquial y la jerga.",
+      "name": "Lenguaje coloquial y jerga"
+    },
+    "fr": {
+      "description": "Ce thème couvre le langage familier et l'argot.",
+      "name": "Langage familier et argot"
+    },
+    "hu": {
+      "description": "Ez a témakör a köznyelvi beszéddel és a szlenggel foglalkozik.",
+      "name": "Köznyelvi beszéd és szleng"
+    },
+    "pt": {
+      "description": "Este tópico aborda a linguagem coloquial e as gírias.",
+      "name": "Linguagem coloquial e gíria"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16128,
       "sha1": "60edbe9c27c7dbc4702fd2838e71e6d7bab3298a"
+    },
+    "sound/en.mp3": {
+      "bytes": 15120,
+      "sha1": "a3a5d451492fb3a2a13b143607eea4f1240ccbfc"
+    },
+    "sound/de.mp3": {
+      "bytes": 15408,
+      "sha1": "5a6ec101eb1f9a86fe3d60e09224b780be179d11"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17712,
+      "sha1": "15a34031dcdeab256d558935fbddf6f96a4281be"
+    },
+    "sound/it.mp3": {
+      "bytes": 13824,
+      "sha1": "695b736634f953e2d90c97a274a89202601f850d"
+    },
+    "sound/es.mp3": {
+      "bytes": 15696,
+      "sha1": "39bd17f81f7e251c9f5f923e6aa53a330b825ded"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16416,
+      "sha1": "f0cb0b60288a202abaaa5106a777fc72005c48d3"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15984,
+      "sha1": "68d5c0c1e88546af50dfba293b1cc87b814d3c2c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 19152,
+      "sha1": "60ec16c901c2eee653e31146ca855090cf892b97"
     }
   }
 }

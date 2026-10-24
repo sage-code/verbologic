@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Idioms & fixed expressions"
+      "name": "Idioms & fixed expressions",
+      "description": "A topic covering idioms and fixed expressions."
     },
     "ro": {
       "name": "Expresii idiomatice și fixe",
-      "ipa": "/ekspreˈsii idioˈmatitʃe ʃi ˈfikse/"
+      "ipa": "/ekspreˈsii idioˈmatitʃe ʃi ˈfikse/",
+      "description": "O temă care cuprinde expresii idiomatice și sintagme fixe."
+    },
+    "de": {
+      "description": "Ein Thema, das Redewendungen und feste Ausdrücke behandelt.",
+      "name": "Redewendungen & feste Ausdrücke"
+    },
+    "ru": {
+      "description": "Тема, охватывающая идиомы и устойчивые выражения.",
+      "name": "Идиомы и устойчивые выражения"
+    },
+    "it": {
+      "description": "Un argomento dedicato a modi di dire ed espressioni fisse.",
+      "name": "Modi di dire ed espressioni fisse"
+    },
+    "es": {
+      "description": "Un tema que aborda modismos y expresiones fijas.",
+      "name": "Modismos y expresiones fijas"
+    },
+    "fr": {
+      "description": "Un thème abordant les expressions idiomatiques et les tournures figées.",
+      "name": "Expressions idiomatiques et tournures figées"
+    },
+    "hu": {
+      "description": "Az idiómákat és állandósult kifejezéseket feldolgozó téma.",
+      "name": "Idiómák és állandósult kifejezések"
+    },
+    "pt": {
+      "description": "Um tópico que aborda expressões idiomáticas e locuções fixas.",
+      "name": "Expressões idiomáticas e locuções fixas"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17856,
       "sha1": "aa021aa4dc70a5f76175c2c6cbabca42e9e3abc9"
+    },
+    "sound/en.mp3": {
+      "bytes": 15264,
+      "sha1": "20671deaeecdc53acf68548db0c3ea7ffffc5b63"
+    },
+    "sound/de.mp3": {
+      "bytes": 19152,
+      "sha1": "52064abd9a9b672a3682f8dfe23c137cc4f26de9"
+    },
+    "sound/ru.mp3": {
+      "bytes": 20880,
+      "sha1": "ea07b00d504d82fc730ff1d5ae57b9cdfe3a8f91"
+    },
+    "sound/it.mp3": {
+      "bytes": 15264,
+      "sha1": "3f097920a80af1e0cfbda6f3ff0beb25bb5ad657"
+    },
+    "sound/es.mp3": {
+      "bytes": 18144,
+      "sha1": "ae68c1bf25e768e5b07e73b9f02ab51c63e2ae26"
+    },
+    "sound/fr.mp3": {
+      "bytes": 19296,
+      "sha1": "cfdab428032f430a96b2eb6469cdebac56eb6eab"
+    },
+    "sound/hu.mp3": {
+      "bytes": 23328,
+      "sha1": "96907051ec9f51fad190caa471380691e894cc4c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 23760,
+      "sha1": "8162054aee73efbc42175ae3f7c81218e2b463ef"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, am proiect nou."
+      "name": "Da, am proiect nou.",
+      "description": "O afirmație care confirmă începerea sau deținerea unui proiect nou."
+    },
+    "en": {
+      "description": "A statement confirming having a new project.",
+      "name": "Yes, I have a new project."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, ein neues Projekt zu haben.",
+      "name": "Ja, ich habe ein neues Projekt."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее наличие нового проекта.",
+      "name": "Да, у меня новый проект."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma di avere un nuovo progetto.",
+      "name": "Sì, ho un nuovo progetto."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que se tiene un proyecto nuevo.",
+      "name": "Sí, tengo un proyecto nuevo."
+    },
+    "fr": {
+      "description": "Une affirmation confirmant que l'on a un nouveau projet.",
+      "name": "Oui, j'ai un nouveau projet."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely megerősíti egy új projekt meglétét.",
+      "name": "Igen, új projektem van."
+    },
+    "pt": {
+      "description": "Uma afirmação confirmando a existência de um novo projeto.",
+      "name": "Sim, tenho um novo projeto."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14832,
       "sha1": "b362020daf02a00adfe8290aedddca25afd31d70"
+    },
+    "sound/en.mp3": {
+      "bytes": 12816,
+      "sha1": "f5b7685fd5a42e1fa655eeedf851e38f890bf808"
+    },
+    "sound/de.mp3": {
+      "bytes": 18000,
+      "sha1": "76d2119d6d8b66b9d01ab927c8c6819cf26eed65"
+    },
+    "sound/it.mp3": {
+      "bytes": 13536,
+      "sha1": "6289d821d47ec899ebc742333902969843f17dbf"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17856,
+      "sha1": "0c5e7f14fe2ff20702304567e15d97ee1b9d8905"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15552,
+      "sha1": "55db7bebe41ed35949fb2f546718a0e1ae8bee74"
+    },
+    "sound/es.mp3": {
+      "bytes": 16128,
+      "sha1": "5571cf8ea591e0070c91d86e3f7276f041f056d1"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17568,
+      "sha1": "3144d5acb447e3d954ef62aafb8ac829ba30d9f6"
+    },
+    "sound/hu.mp3": {
+      "bytes": 18000,
+      "sha1": "21749fe22fa2a8afc81c9638180bcea48c90e902"
     }
   }
 }

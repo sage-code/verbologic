@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "She is calm now."
+      "name": "She is calm now.",
+      "description": "A sentence describing someone as calm now."
     },
     "ro": {
-      "name": "Ea este liniștită acum."
+      "name": "Ea este liniștită acum.",
+      "description": "O propoziție care descrie pe cineva ca fiind calm acum."
+    },
+    "de": {
+      "description": "Ein Satz, der beschreibt, dass jemand jetzt ruhig ist.",
+      "name": "Sie ist jetzt ruhig."
+    },
+    "ru": {
+      "description": "Предложение, описывающее, что человек сейчас спокоен.",
+      "name": "Она сейчас спокойна."
+    },
+    "it": {
+      "description": "Una frase che descrive qualcuno che adesso è calmo.",
+      "name": "Ora lei è calma."
+    },
+    "es": {
+      "description": "Una frase que describe a alguien como tranquilo en este momento.",
+      "name": "Ella está tranquila ahora."
+    },
+    "fr": {
+      "description": "Une phrase décrivant une personne comme étant calme maintenant.",
+      "name": "Elle est calme maintenant."
+    },
+    "hu": {
+      "description": "Mondat, amely leírja, hogy valaki most nyugodt.",
+      "name": "Most nyugodt."
+    },
+    "pt": {
+      "description": "Uma frase que descreve alguém que está calmo agora.",
+      "name": "Ela está calma agora."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14544,
       "sha1": "cb7feb0efb8d75787f9317d96c250a680819e949"
+    },
+    "sound/de.mp3": {
+      "bytes": 13104,
+      "sha1": "6b0adae06396c50885e0daf81e5d66eaa74b925c"
+    },
+    "sound/it.mp3": {
+      "bytes": 13104,
+      "sha1": "31ddb2779f3b483ea55d7c353dfc29c94f429385"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12096,
+      "sha1": "6cc42eb522912ffb10fbc6acdd12ce9d5ec5d977"
+    },
+    "sound/es.mp3": {
+      "bytes": 14832,
+      "sha1": "70d2bb57bbf97787c98b67ac79086ad43d097b03"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "b10ca44fb5d5fccf48467650b8cdfe7973e8abdb"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12384,
+      "sha1": "fb24c1c6c522fdc9fedb13790e62d0ff231b6a5e"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "08031f0facab8556ee7ef173a9a7e9545fdc3fe2"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15408,
+      "sha1": "30dbdafc84cfd476a9dfbba0ab04695f51744056"
     }
   }
 }

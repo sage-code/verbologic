@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Te trezești dimineața devreme?"
+      "name": "Te trezești dimineața devreme?",
+      "description": "Exersează cum să întrebi pe cineva despre rutina de trezire de dimineață."
+    },
+    "en": {
+      "description": "Practice asking someone about their morning wake-up routine.",
+      "name": "Do you wake up early in the morning?"
+    },
+    "de": {
+      "description": "Üben Sie, jemanden nach seiner morgendlichen Aufstehroutine zu fragen.",
+      "name": "Wachst du morgens früh auf?"
+    },
+    "ru": {
+      "description": "Потренируйтесь спрашивать собеседника о его привычке просыпаться по утрам.",
+      "name": "Ты просыпаешься рано утром?"
+    },
+    "it": {
+      "description": "Esercitati a chiedere a qualcuno la sua routine di risveglio mattutina.",
+      "name": "Ti svegli la mattina presto?"
+    },
+    "es": {
+      "description": "Practica preguntar a alguien sobre su rutina para levantarse por la mañana.",
+      "name": "¿Te despiertas temprano por la mañana?"
+    },
+    "fr": {
+      "description": "Entraînez-vous à interroger quelqu'un sur son heure de réveil matinale.",
+      "name": "Te réveilles-tu tôt le matin ?"
+    },
+    "hu": {
+      "description": "Gyakorolja annak megkérdezését, hogy valaki korán ébred-e reggelente.",
+      "name": "Korán ébredsz reggel?"
+    },
+    "pt": {
+      "description": "Pratique perguntar a alguém sobre sua rotina matinal ao acordar.",
+      "name": "Você acorda cedo de manhã?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17280,
       "sha1": "20d27ff1b301da15beb0a4e46706dcf5dd470638"
+    },
+    "sound/en.mp3": {
+      "bytes": 10368,
+      "sha1": "fa04520dbd71a1a487dcede0721691e03e17fefb"
+    },
+    "sound/de.mp3": {
+      "bytes": 14976,
+      "sha1": "69d08972b50160ff16b2912a20ca44f3cef40962"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16848,
+      "sha1": "cc506a499c264091e22224c7de5939b13f4b7fb8"
+    },
+    "sound/it.mp3": {
+      "bytes": 15696,
+      "sha1": "e9592e204d08d126b14ec2349655f2bd9b9ad72a"
+    },
+    "sound/es.mp3": {
+      "bytes": 17280,
+      "sha1": "b922faff217ec93cc1568af73908667831f5eb67"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13536,
+      "sha1": "8000603e08007080a905a4ac650bcf8e5a408737"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12816,
+      "sha1": "fe5742b5dcb93d45fba87b7b418b1e51ebef44f8"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13824,
+      "sha1": "a9663cddbf296dbd6f4b479fe487edb5a47b4f63"
     }
   }
 }

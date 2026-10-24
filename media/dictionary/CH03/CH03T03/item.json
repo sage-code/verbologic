@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Days, months & seasons"
+      "name": "Days, months & seasons",
+      "description": "This topic covers days, months, and seasons."
     },
     "ro": {
       "name": "Zile, luni și anotimpuri",
-      "ipa": "/ˈzile ˈluni ʃi anoˈtimpuri/"
+      "ipa": "/ˈzile ˈluni ʃi anoˈtimpuri/",
+      "description": "Această temă acoperă zilele, lunile și anotimpurile."
+    },
+    "de": {
+      "description": "Dieses Thema behandelt Tage, Monate und Jahreszeiten.",
+      "name": "Tage, Monate und Jahreszeiten"
+    },
+    "ru": {
+      "description": "Эта тема охватывает дни, месяцы и времена года.",
+      "name": "Дни, месяцы и времена года"
+    },
+    "it": {
+      "description": "Questo argomento tratta i giorni, i mesi e le stagioni.",
+      "name": "Giorni, mesi e stagioni"
+    },
+    "es": {
+      "description": "Este tema trata sobre los días, los meses y las estaciones.",
+      "name": "Días, meses y estaciones"
+    },
+    "fr": {
+      "description": "Ce thème aborde les jours, les mois et les saisons.",
+      "name": "Jours, mois et saisons"
+    },
+    "hu": {
+      "description": "Ez a témakör a napokkal, hónapokkal és évszakokkal foglalkozik.",
+      "name": "Napok, hónapok és évszakok"
+    },
+    "pt": {
+      "description": "Este tópico aborda os dias, os meses e as estações.",
+      "name": "Dias, meses e estações"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 18144,
       "sha1": "463be6926fbf79179fc53ddc686ae9d15cbbf041"
+    },
+    "sound/en.mp3": {
+      "bytes": 14256,
+      "sha1": "a7b430c7754bf5d18587a10cb296b0fb8e7f14e9"
+    },
+    "sound/de.mp3": {
+      "bytes": 21024,
+      "sha1": "11c530a17a92fc9eee5ac92258e47a66db75cb4a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 20016,
+      "sha1": "e4e3221f993286b47a5cc68a7f8e7cff7ca64cbf"
+    },
+    "sound/it.mp3": {
+      "bytes": 13680,
+      "sha1": "1fc32ad72fefb9313a2d49cb6ae7acd9510956d3"
+    },
+    "sound/es.mp3": {
+      "bytes": 16992,
+      "sha1": "d6f95cb1ca2946c12ac2ddfdc4f44dceeeec2990"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15120,
+      "sha1": "6a6743bed97c1cef574905221eb60a12805cfc1b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 21024,
+      "sha1": "8fd90f5fa0d511855fefcea0bc7e7f0d308896a5"
+    },
+    "sound/pt.mp3": {
+      "bytes": 20448,
+      "sha1": "f5ce1df8af4ac46d269c0f5423081487480fae54"
     }
   }
 }

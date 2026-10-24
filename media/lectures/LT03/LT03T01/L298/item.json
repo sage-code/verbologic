@@ -11,11 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "How are you doing?"
+      "name": "How are you doing?",
+      "description": "A polite greeting used to ask how someone is doing."
     },
     "ro": {
       "name": "Ce mai faci?",
-      "context": "Friendly everyday follow-up after a greeting."
+      "context": "Friendly everyday follow-up after a greeting.",
+      "description": "Un salut politicos folosit pentru a întreba ce mai face cineva."
+    },
+    "de": {
+      "description": "Eine höfliche Begrüßung, mit der man fragt, wie es jemandem geht.",
+      "name": "Wie geht es dir?"
+    },
+    "ru": {
+      "description": "Вежливое приветствие, используемое, чтобы поинтересоваться делами собеседника.",
+      "name": "Как дела?"
+    },
+    "it": {
+      "description": "Un saluto cortese usato per chiedere come sta qualcuno.",
+      "name": "Come va?"
+    },
+    "es": {
+      "description": "Un saludo cortés utilizado para preguntar cómo está alguien.",
+      "name": "¿Cómo te va?"
+    },
+    "fr": {
+      "description": "Une salutation polie utilisée pour demander des nouvelles de quelqu'un.",
+      "name": "Comment ça va ?"
+    },
+    "hu": {
+      "description": "Udvarias köszöntés, amellyel valaki hogyléte felől érdeklődünk.",
+      "name": "Hogy vagy?"
+    },
+    "pt": {
+      "description": "Uma saudação cortês usada para perguntar como alguém está.",
+      "name": "Como vai?"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "a46ad78ecb06b28d28bc2a512aac2bb1761f4e78"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11376,
+      "sha1": "9554718896700680867cc8a7e2228c10567cce42"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "d9a7b0c49d790ba0afe1889bb99ffb2e716bfbb0"
+    },
+    "sound/de.mp3": {
+      "bytes": 11952,
+      "sha1": "a4be75e2a9837f5662342f5e1c5e97ca23ee12a1"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "486830016f0ce9f29365606edd2bd4043df0b22c"
+    },
+    "sound/es.mp3": {
+      "bytes": 9792,
+      "sha1": "ff75477820366c45027e05e14554c2c3ff2a32bf"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "60395c1d7ba37b86a055de2c8fce7e5f1ef36c80"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "25407152416fc4a2688e970fc935b89335beb706"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "cacf67b5ed68b55b95523b0985032e781653cb1a"
     }
   }
 }

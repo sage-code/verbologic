@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, am raport nou."
+      "name": "Nu, am raport nou.",
+      "description": "O propoziție care indică faptul că ai un raport nou."
+    },
+    "en": {
+      "description": "A sentence stating that you have a new report.",
+      "name": "No, I have a new report."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass man einen neuen Bericht hat.",
+      "name": "Nein, ich habe einen neuen Bericht."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее о наличии нового отчета.",
+      "name": "Нет, у меня новый отчет."
+    },
+    "it": {
+      "description": "Una frase che afferma di avere un nuovo rapporto.",
+      "name": "No, ho un nuovo rapporto."
+    },
+    "es": {
+      "description": "Una frase que indica que tienes un informe nuevo.",
+      "name": "No, tengo un informe nuevo."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que vous avez un nouveau rapport.",
+      "name": "Non, j'ai un nouveau rapport."
+    },
+    "hu": {
+      "description": "Mondat, amely kijelenti, hogy új jelentésed van.",
+      "name": "Nem, új jelentésem van."
+    },
+    "pt": {
+      "description": "Uma frase indicando que você tem um novo relatório.",
+      "name": "Não, tenho um relatório novo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15120,
       "sha1": "f916af265a866deb3cd702aa6fa331c6132a48c0"
+    },
+    "sound/en.mp3": {
+      "bytes": 12816,
+      "sha1": "113d6e41753f1e0719b803f19579026aca43d32f"
+    },
+    "sound/de.mp3": {
+      "bytes": 18576,
+      "sha1": "788aabde8beffc30c0a86ba184bb41f20a6291c1"
+    },
+    "sound/es.mp3": {
+      "bytes": 16704,
+      "sha1": "2cc3b35d675a330ce845e6247692d3cfee518e32"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16560,
+      "sha1": "254d594679147c7a2538b587c8f7cbf0e910c1f2"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17712,
+      "sha1": "a0177e507fc4720b194744079b43dd404ba93e60"
+    },
+    "sound/hu.mp3": {
+      "bytes": 18576,
+      "sha1": "a79271f0c43bc9cb64e6365b428d4353bb8ee258"
+    },
+    "sound/it.mp3": {
+      "bytes": 13968,
+      "sha1": "151ed9c563abd870dcff0e673b1d7cb3e906e7e0"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18144,
+      "sha1": "7a13e5a6a1c0c41cb2c8ea1b418e25d73a32bfc8"
     }
   }
 }

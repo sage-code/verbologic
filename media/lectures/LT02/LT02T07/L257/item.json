@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Take the bus."
+      "name": "Take the bus.",
+      "description": "An instruction telling someone to travel by bus."
     },
     "ro": {
-      "name": "Ia autobuzul."
+      "name": "Ia autobuzul.",
+      "description": "O instrucțiune prin care i se spune cuiva să meargă cu autobuzul."
+    },
+    "de": {
+      "description": "Eine Anweisung, mit dem Bus zu fahren.",
+      "name": "Nimm den Bus."
+    },
+    "ru": {
+      "description": "Указание воспользоваться автобусом для поездки.",
+      "name": "Садись на автобус."
+    },
+    "it": {
+      "description": "Un'istruzione che invita qualcuno a viaggiare in autobus.",
+      "name": "Prendi l'autobus."
+    },
+    "es": {
+      "description": "Una instrucción para que alguien viaje en autobús.",
+      "name": "Toma el autobús."
+    },
+    "fr": {
+      "description": "Une consigne indiquant à quelqu'un de voyager en bus.",
+      "name": "Prends le bus."
+    },
+    "hu": {
+      "description": "Utasítás arra vonatkozóan, hogy valaki busszal utazzon.",
+      "name": "Szállj fel a buszra."
+    },
+    "pt": {
+      "description": "Uma instrução para que alguém viaje de ônibus.",
+      "name": "Pegue o ônibus."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12096,
       "sha1": "669f3ff05be95556717b45abbb7fe48b02e94b3d"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "e1b9a9be29d6d297cf22134bb870577d10925975"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "d803983d5a6376bd3616ed370cde431ec0cad6fd"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14688,
+      "sha1": "6c78f6b32b681a6eabec83c94e12e433c991f12f"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "d9c49dbbb9feb7758c0a51fa9917212487556d35"
+    },
+    "sound/es.mp3": {
+      "bytes": 12528,
+      "sha1": "3428b1baa9f3eb2fc212003b6a19138fb3b4a416"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "4f5caf9469f0bfd8766d6589dd13e770a01773b8"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13392,
+      "sha1": "23cba7ec1116081fe60b0476d51d4728a702eb7f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12816,
+      "sha1": "ac81f0df611261c855b2f67c8717684f953629dc"
     }
   }
 }

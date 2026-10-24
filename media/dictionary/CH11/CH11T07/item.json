@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Abstract ideas & philosophy"
+      "name": "Abstract ideas & philosophy",
+      "description": "This topic covers vocabulary related to abstract ideas and philosophy."
     },
     "ro": {
       "name": "Idei abstracte și filosofie",
-      "ipa": "/iˈdei absˈtrakte ʃi filosoˈfie/"
+      "ipa": "/iˈdei absˈtrakte ʃi filosoˈfie/",
+      "description": "Această temă acoperă vocabularul legat de idei abstracte și filosofie."
+    },
+    "de": {
+      "description": "Dieses Thema umfasst Wortschatz rund um abstrakte Ideen und Philosophie.",
+      "name": "Abstrakte Ideen & Philosophie"
+    },
+    "ru": {
+      "description": "Эта тема охватывает лексику, связанную с абстрактными идеями и философией.",
+      "name": "Абстрактные идеи и философия"
+    },
+    "it": {
+      "description": "Questo tema comprende il vocabolario relativo alle idee astratte e alla filosofia.",
+      "name": "Idee astratte e filosofia"
+    },
+    "es": {
+      "description": "Este tema abarca vocabulario relacionado con ideas abstractas y filosofía.",
+      "name": "Ideas abstractas y filosofía"
+    },
+    "fr": {
+      "description": "Ce thème couvre le vocabulaire lié aux idées abstraites et à la philosophie.",
+      "name": "Idées abstraites et philosophie"
+    },
+    "hu": {
+      "description": "Ez a témakör az absztrakt fogalmakkal és a filozófiával kapcsolatos szókincset fedi le.",
+      "name": "Absztrakt fogalmak és filozófia"
+    },
+    "pt": {
+      "description": "Este tópico abrange vocabulário relacionado a ideias abstratas e filosofia.",
+      "name": "Ideias abstratas e filosofia"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17424,
       "sha1": "dd506f4f98a7f8b15ca798a3ef498782d24c5e46"
+    },
+    "sound/en.mp3": {
+      "bytes": 15264,
+      "sha1": "122c0989b9ab1f4fd16c85eb6c239afc38a9d0c7"
+    },
+    "sound/de.mp3": {
+      "bytes": 18288,
+      "sha1": "920ef256179c61052e95c87c3fad6905c1b44923"
+    },
+    "sound/ru.mp3": {
+      "bytes": 21024,
+      "sha1": "c39a0a91d1e3a8a56f1f72e8be27691d4501c6f7"
+    },
+    "sound/it.mp3": {
+      "bytes": 13680,
+      "sha1": "ea802dd223c89faa783e59f808fb99da4a6d95ef"
+    },
+    "sound/es.mp3": {
+      "bytes": 17280,
+      "sha1": "b34857e9e7b55990d2869fa02f1b697719ad9e04"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16272,
+      "sha1": "b4ff1c9609283ab81f68b91d87b7b4e255f7ab07"
+    },
+    "sound/hu.mp3": {
+      "bytes": 18720,
+      "sha1": "1f30c61075c36e15f810e4dcfd804c0410dc635e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 21024,
+      "sha1": "9d4c3dfe64925a40b44b3bb8dd24cd605148a285"
     }
   }
 }

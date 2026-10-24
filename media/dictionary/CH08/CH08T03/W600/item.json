@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "ecosystem"
+      "name": "ecosystem",
+      "description": "An email is a digital message sent from one person to another over a network."
     },
     "ro": {
       "name": "ecosistem",
-      "ipa": "/ekosisˈtem/"
+      "ipa": "/ekosisˈtem/",
+      "description": "Un e-mail este un mesaj digital trimis de la o persoană la alta printr-o rețea."
     },
     "de": {
-      "name": "Ökosystem"
+      "name": "Ökosystem",
+      "description": "Eine E-Mail ist eine digitale Nachricht, die über ein Netzwerk von einer Person an eine andere gesendet wird."
     },
     "ru": {
-      "name": "экосистема"
+      "name": "экосистема",
+      "description": "Электронное письмо — это цифровое сообщение, отправляемое от одного человека другому по сети."
     },
     "it": {
-      "name": "ecosistema"
+      "name": "ecosistema",
+      "description": "Un'e-mail è un messaggio digitale inviato da una persona all'altra attraverso una rete."
     },
     "es": {
-      "name": "ecosistema"
+      "name": "ecosistema",
+      "description": "Un correo electrónico es un mensaje digital enviado de una persona a otra a través de una red."
     },
     "fr": {
-      "name": "écosystème"
+      "name": "écosystème",
+      "description": "Un e-mail est un message numérique envoyé d'une personne à une autre via un réseau."
     },
     "hu": {
-      "name": "ökoszisztéma"
+      "name": "ökoszisztéma",
+      "description": "Az e-mail egy digitális üzenet, amelyet hálózaton keresztül küldenek egyik személytől a másiknak."
     },
     "pt": {
-      "name": "ecossistema"
+      "name": "ecossistema",
+      "description": "Um e-mail é uma mensagem digital enviada de uma persona para outra através de uma rede."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "3f54c8df8cd240d7d9a1d4b995a6c629c14dab42"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "84c3dde95db90f944b31a4e4079ad5fa6a5c3f77"
+    },
+    "sound/de.mp3": {
+      "bytes": 11952,
+      "sha1": "2ae507f5eaba1c90ef079879e302799cbea24f60"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12384,
+      "sha1": "bc136d224d52ff07e8889c550767d15c54abbcca"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "12df326b8b3da5c9cf9ff380256d1bd7cb4a022e"
+    },
+    "sound/es.mp3": {
+      "bytes": 11520,
+      "sha1": "45c7f9d6631155fd2abd8379b843d5be6d41ce46"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11376,
+      "sha1": "932479cf390f01e79625598269923e4b6b21ca34"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12240,
+      "sha1": "3cfae7056d97764f3eb1f2d6e8a7c3cb6f30ef52"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12672,
+      "sha1": "3076a5f4f64d34c695691bba1d6db38687309f27"
     }
   }
 }

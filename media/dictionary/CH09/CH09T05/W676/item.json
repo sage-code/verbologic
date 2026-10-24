@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "loan"
+      "name": "loan",
+      "description": "This item represents vocabulary word W676 from chapter 9, topic 5."
     },
     "ro": {
       "name": "împrumut",
-      "ipa": "/ɨmpruˈmut/"
+      "ipa": "/ɨmpruˈmut/",
+      "description": "Acest element reprezintă cuvântul de vocabular W676 din capitolul 9, tema 5."
     },
     "de": {
-      "name": "Darlehen"
+      "name": "Darlehen",
+      "description": "Dieser Eintrag stellt die Vokabel W676 aus Kapitel 9, Thema 5 dar."
     },
     "ru": {
-      "name": "заём"
+      "name": "заём",
+      "description": "Этот элемент представляет собой словарное слово W676 из главы 9, темы 5."
     },
     "it": {
-      "name": "prestito"
+      "name": "prestito",
+      "description": "Questo elemento rappresenta il vocabolo W676 del capitolo 9, tema 5."
     },
     "es": {
-      "name": "préstamo"
+      "name": "préstamo",
+      "description": "Este elemento representa la palabra de vocabulario W676 del capítulo 9, tema 5."
     },
     "fr": {
-      "name": "emprunt"
+      "name": "emprunt",
+      "description": "Cet élément représente le mot de vocabulaire W676 du chapitre 9, thème 5."
     },
     "hu": {
-      "name": "kölcsön"
+      "name": "kölcsön",
+      "description": "Ez az elem a 9. fejezet 5. témájához tartozó W676 szókincselemet jelöli."
     },
     "pt": {
-      "name": "empréstimo"
+      "name": "empréstimo",
+      "description": "Este item representa a palavra de vocabulário W676 do capítulo 9, tópico 5."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "1de95bd43b20608e31dbbbaf1206c99b3ebca604"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "5f0ceb4f8ec8c449c13852b0039bfec18951a4a2"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "517e0334a33a2400a69cab2e27e70f077ee0c1ec"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "bdd7b6671031fc5cde99b592771d86e0fc9e2cdd"
+    },
+    "sound/it.mp3": {
+      "bytes": 6480,
+      "sha1": "72ff004e244284f341117c85b21a225b1b8ae282"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "2e678909adfc38a3dbfb917a17eb2c83e858635e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "4572b2a02899bf38d747c0cbb139ed775f384abf"
+    },
+    "sound/hu.mp3": {
+      "bytes": 9792,
+      "sha1": "ec7760fef5d2c12413e0c271ed6fcda43063b2b1"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12096,
+      "sha1": "955fbd64dbe9108a2e068d3e76d2e29eab90c267"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, primesc bon."
+      "name": "Da, primesc bon.",
+      "description": "O afirmație care confirmă primirea unui bon."
+    },
+    "en": {
+      "description": "A statement confirming that one receives a receipt.",
+      "name": "Yes, I receive a receipt."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass man einen Beleg erhält.",
+      "name": "Ja, ich erhalte einen Beleg."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее получение чека.",
+      "name": "Да, я получаю чек."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che si riceve uno scontrino.",
+      "name": "Sì, ricevo lo scontrino."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que se recibe un recibo.",
+      "name": "Sí, recibo un recibo."
+    },
+    "fr": {
+      "description": "Une déclaration confirmant que l'on reçoit un reçu.",
+      "name": "Oui, je reçois un reçu."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely megerősíti a nyugta kézhezvételét.",
+      "name": "Igen, kapok nyugtát."
+    },
+    "pt": {
+      "description": "Uma afirmação confirmando que se recebe um recibo.",
+      "name": "Sim, eu recebo um recibo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14976,
       "sha1": "0370de4e777258f854c2eb0719b988ec291e1fd8"
+    },
+    "sound/en.mp3": {
+      "bytes": 13392,
+      "sha1": "c96849f0d0a59a0975461cfee66ec79205d89cc5"
+    },
+    "sound/de.mp3": {
+      "bytes": 17280,
+      "sha1": "3dc12904b7ba8b5844279f1cda97e9340ed4abc0"
+    },
+    "sound/it.mp3": {
+      "bytes": 12960,
+      "sha1": "73635e64aa237b04a5530247bfbf5e9c4d41a915"
+    },
+    "sound/es.mp3": {
+      "bytes": 15984,
+      "sha1": "b08d9f0516b80e2094e856dcb296e35d2db8eaa7"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16416,
+      "sha1": "decc32175c0924c8a3a754c6eec1133a5211cf76"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16272,
+      "sha1": "3b3795cbb0ee3d05f4f988a85ae718db9ead3c3d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16848,
+      "sha1": "b4f4c9772bc68672bbc86890a35c59c47c99e7fa"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17280,
+      "sha1": "0c663c7908ada4905ba4eeb9cc1239094d8702a9"
     }
   }
 }

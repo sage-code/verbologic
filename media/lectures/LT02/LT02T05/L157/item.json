@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, prețul este mic."
+      "name": "Nu, prețul este mic.",
+      "description": "O declarație care indică faptul că prețul este mic."
+    },
+    "en": {
+      "description": "A statement indicating that the price is low.",
+      "name": "No, the price is low."
+    },
+    "de": {
+      "description": "Eine Aussage, die besagt, dass der Preis niedrig ist.",
+      "name": "Nein, der Preis ist niedrig."
+    },
+    "ru": {
+      "description": "Утверждение о том, что цена низкая.",
+      "name": "Нет, цена низкая."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che il prezzo è basso.",
+      "name": "No, il prezzo è basso."
+    },
+    "es": {
+      "description": "Una frase que indica que el precio es bajo.",
+      "name": "No, el precio es bajo."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le prix est bas.",
+      "name": "Non, le prix est bas."
+    },
+    "hu": {
+      "description": "Megállapítás arról, hogy az ár alacsony.",
+      "name": "Nem, az ár alacsony."
+    },
+    "pt": {
+      "description": "Uma frase indicando que o preço é baixo.",
+      "name": "Não, o preço é baixo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16272,
       "sha1": "fff6fcf4199683100b7e0b2753b3b5cfd8a3124d"
+    },
+    "sound/en.mp3": {
+      "bytes": 11808,
+      "sha1": "cd7ab5d5094a2ac63f6fb10e0280bf88b770b0f9"
+    },
+    "sound/de.mp3": {
+      "bytes": 18720,
+      "sha1": "e32c1d3f7711951233c55b3a3e288707b73c2211"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17424,
+      "sha1": "ff1663b8e337c4b7e0ae358a42e38c4a71a2b642"
+    },
+    "sound/it.mp3": {
+      "bytes": 12528,
+      "sha1": "0f61dd929470df34860f335759ef70cab9f6cda8"
+    },
+    "sound/es.mp3": {
+      "bytes": 14544,
+      "sha1": "5cbc1af3628bbd6fdd4d513a165e42892ad62809"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13536,
+      "sha1": "6e0538d33abd527cb1c9a96d01736c5b8c213169"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16848,
+      "sha1": "73323ba261632d99efca98905c7182ef6e29f39b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16416,
+      "sha1": "0eaf56b6813a2711fbe941697c942e615b163266"
     }
   }
 }

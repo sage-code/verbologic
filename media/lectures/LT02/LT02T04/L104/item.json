@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, profesorul este la universitate."
+      "name": "Da, profesorul este la universitate.",
+      "description": "O propoziție care afirmă că profesorul este la universitate."
+    },
+    "en": {
+      "description": "A sentence stating that the professor is at the university.",
+      "name": "Yes, the professor is at the university."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass der Professor an der Universität ist.",
+      "name": "Ja, der Professor ist an der Universität."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее, что преподаватель находится в университете.",
+      "name": "Да, преподаватель находится в университете."
+    },
+    "it": {
+      "description": "Una frase per dire che il professore è all'università.",
+      "name": "Sì, il professore è all'università."
+    },
+    "es": {
+      "description": "Una frase que indica que el profesor está en la universidad.",
+      "name": "Sí, el profesor está en la universidad."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le professeur est à l'université.",
+      "name": "Oui, le professeur est à l'université."
+    },
+    "hu": {
+      "description": "Mondat, amely azt fejezi ki, hogy a professzor az egyetemen van.",
+      "name": "Igen, a professzor az egyetemen van."
+    },
+    "pt": {
+      "description": "Uma frase que indica que o professor está na universidade.",
+      "name": "Sim, o professor está na universidade."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 21888,
       "sha1": "38cf608e724590903f1e0778f3629ed76641d6f9"
+    },
+    "sound/en.mp3": {
+      "bytes": 16560,
+      "sha1": "293cd914c875ffec4f1ae9817e0861ae63472c72"
+    },
+    "sound/de.mp3": {
+      "bytes": 21888,
+      "sha1": "b8f90d6a683afac54e0f3f2ed332ba01f48a107a"
+    },
+    "sound/it.mp3": {
+      "bytes": 21024,
+      "sha1": "99d307c0c22041b560b57293339ce6e5b3892e37"
+    },
+    "sound/es.mp3": {
+      "bytes": 19728,
+      "sha1": "6c314d82fd003d8ba7c0eaef96aaa787905bb199"
+    },
+    "sound/fr.mp3": {
+      "bytes": 19872,
+      "sha1": "8ddb527bef9c24d0088efd4e1b875b67f3924dce"
+    },
+    "sound/hu.mp3": {
+      "bytes": 18000,
+      "sha1": "9ae30cb2a8f104fe6cc2bc3655b3dd9243aac8ac"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18144,
+      "sha1": "640479e927bb4d12800fc3eb3110db42162a4abb"
+    },
+    "sound/ru.mp3": {
+      "bytes": 22752,
+      "sha1": "caaab3e41f6d17c4cd2a6711cb3f84d3a51db6df"
     }
   }
 }

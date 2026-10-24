@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Este ploaie azi?"
+      "name": "Este ploaie azi?",
+      "description": "O întrebare despre existența ploii astăzi."
+    },
+    "en": {
+      "description": "A question asking if it is raining today.",
+      "name": "Is it raining today?"
+    },
+    "de": {
+      "description": "Eine Frage, die sich danach erkundigt, ob es heute regnet.",
+      "name": "Regnet es heute?"
+    },
+    "ru": {
+      "description": "Вопрос о том, идёт ли сегодня дождь.",
+      "name": "Сегодня идёт дождь?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere se oggi piove.",
+      "name": "Piove oggi?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si está lloviendo hoy.",
+      "name": "¿Llueve hoy?"
+    },
+    "fr": {
+      "description": "Une question demandant s'il pleut aujourd'hui.",
+      "name": "Pleut-il aujourd'hui ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy ma esik-e az eső.",
+      "name": "Esik ma az eső?"
+    },
+    "pt": {
+      "description": "Uma pergunta que procura saber se está a chover hoje.",
+      "name": "Está a chover hoje?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "b9615c4080d8595df12d162f8ed103fd42e15e17"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "76c4b3f4974cfdbee409b6ba6c215e217b64856c"
+    },
+    "sound/de.mp3": {
+      "bytes": 13104,
+      "sha1": "3392c452afcbc5c73c15a196508b3f39a962eb04"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "585ff1392ad29593f41cb1e374e2bafed83bf155"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "d119e6c998032c8985009f2216101c83353011f4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12672,
+      "sha1": "6c6639392e463caac1da3acb62b5770f18dcf2d8"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15840,
+      "sha1": "f3ea95833a101653ddbd4474ff306571308f7344"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13824,
+      "sha1": "ae7466a614c8eb4d40b4856373d0f0c0e54e8a19"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13680,
+      "sha1": "281fd19493e6679c07ac7a28d66fe5405cc31cf3"
     }
   }
 }

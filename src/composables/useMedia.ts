@@ -1,7 +1,7 @@
 /**
  * useMedia — loads the media runtime payloads (public/data/media/**).
  * Client-only fetching (call from onMounted) so SSG prerendering never hits a
- * static-file 404; results are cached like useEntities/usePrices, with failed
+ * static-file 404; results are cached like usePrices, with failed
  * lookups evicted so a later call retries instead of replaying the rejection.
  *
  * ## The database seam (Phase 6)

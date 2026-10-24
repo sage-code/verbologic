@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, spun mulțumesc."
+      "name": "Da, spun mulțumesc.",
+      "description": "O afirmație care confirmă că cineva spune mulțumesc."
+    },
+    "en": {
+      "description": "An affirmative statement confirming that someone says thank you.",
+      "name": "Yes, I say thank you."
+    },
+    "de": {
+      "description": "Eine bejahende Aussage, die bestätigt, dass jemand danke sagt.",
+      "name": "Ja, ich sage danke."
+    },
+    "ru": {
+      "description": "Утвердительное высказывание, подтверждающее, что человек говорит «спасибо».",
+      "name": "Да, я говорю спасибо."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che si dice grazie.",
+      "name": "Sì, dico grazie."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que alguien dice gracias.",
+      "name": "Sí, digo gracias."
+    },
+    "fr": {
+      "description": "Une phrase affirmative confirmant que l'on dit merci.",
+      "name": "Oui, je dis merci."
+    },
+    "hu": {
+      "description": "Állítás, amely megerősíti, hogy valaki köszönetet mond.",
+      "name": "Igen, azt mondom, köszönöm."
+    },
+    "pt": {
+      "description": "Uma afirmação que confirma que alguém diz obrigado.",
+      "name": "Sim, eu digo obrigado."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15840,
       "sha1": "8ad20095d6bf244499841b72c8647ef9515a56d5"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d614f595d44641b2ffeebc47bf89890b924baac8"
+    },
+    "sound/de.mp3": {
+      "bytes": 15120,
+      "sha1": "175935fc91d33c14c1ace3b2dd020a4c8dad95ad"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17424,
+      "sha1": "c5174c1fb10a87e92153b163da8074fcbc5bcf08"
+    },
+    "sound/es.mp3": {
+      "bytes": 16128,
+      "sha1": "9ed68e4113237ba22e50148f574d64b2009887cd"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16272,
+      "sha1": "e6f27187a528c0c00efdb0a327376265d5e773ba"
+    },
+    "sound/it.mp3": {
+      "bytes": 15840,
+      "sha1": "e4b1686f7a245be3e44bc7fa3d19dc5a73c1d6e9"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13680,
+      "sha1": "627407047ef0440834657268c658e5a138119b85"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14400,
+      "sha1": "7ce33d06a043ecd7c5fe9413de7cdd40168e7208"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Patul este în cameră?"
+      "name": "Patul este în cameră?",
+      "description": "Exersează cum să întrebi despre amplasarea mobilei într-o cameră."
+    },
+    "en": {
+      "description": "Practice asking about the location of furniture inside a room.",
+      "name": "Is the bed in the room?"
+    },
+    "de": {
+      "description": "Üben Sie zu fragen, wo sich ein Möbelstück im Zimmer befindet.",
+      "name": "Ist das Bett im Zimmer?"
+    },
+    "ru": {
+      "description": "Потренируйтесь спрашивать о расположении мебели в комнате.",
+      "name": "Кровать в комнате?"
+    },
+    "it": {
+      "description": "Esercitati a chiedere la posizione dei mobili all'interno di una stanza.",
+      "name": "Il letto è nella stanza?"
+    },
+    "es": {
+      "description": "Practica preguntar por la ubicación de un mueble en la habitación.",
+      "name": "¿Está la cama en la habitación?"
+    },
+    "fr": {
+      "description": "Entraînez-vous à poser des questions sur l'emplacement d'un meuble dans une pièce.",
+      "name": "Le lit est-il dans la chambre ?"
+    },
+    "hu": {
+      "description": "Gyakorolja a bútorok szobán belüli elhelyezkedésére vonatkozó kérdést.",
+      "name": "A szobában van az ágy?"
+    },
+    "pt": {
+      "description": "Pratique perguntar sobre a localização de um móvel dentro do quarto.",
+      "name": "A cama está no quarto?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14112,
       "sha1": "b440211b0bb65010b622f9a27e0070597e374a6c"
+    },
+    "sound/en.mp3": {
+      "bytes": 8064,
+      "sha1": "87fb08575a03d0c66624213097475b9aba7d7e9c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12960,
+      "sha1": "64f5a13e503e5b7f783cfba9293bba4db8e42239"
+    },
+    "sound/de.mp3": {
+      "bytes": 13392,
+      "sha1": "81ce800e85d4c94ddafe6a7b41e003cd6d960019"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13968,
+      "sha1": "1a094326e235af9864db2003bfc59b819e3ab46f"
+    },
+    "sound/it.mp3": {
+      "bytes": 15120,
+      "sha1": "1131b1ec76dc59ce2c631a7208aa5e00aab5234c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13536,
+      "sha1": "752d745d9fdbde65bbbf3be89d867eed0550b3e6"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11952,
+      "sha1": "8cc4a6739ed72fe2252b893e96a3dd6f82dd5981"
+    },
+    "sound/es.mp3": {
+      "bytes": 15552,
+      "sha1": "f7cf04049add47fff03e512697a572c616091d85"
     }
   }
 }

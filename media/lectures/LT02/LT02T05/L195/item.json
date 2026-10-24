@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, trenul merge la aeroport."
+      "name": "Nu, trenul merge la aeroport.",
+      "description": "O propoziție care indică faptul că trenul merge la aeroport."
+    },
+    "en": {
+      "description": "A sentence indicating that the train is going to the airport.",
+      "name": "No, the train goes to the airport."
+    },
+    "de": {
+      "description": "Ein Satz, der angibt, dass der Zug zum Flughafen fährt.",
+      "name": "Nein, der Zug fährt zum Flughafen."
+    },
+    "ru": {
+      "description": "Предложение, указывающее на то, что поезд идет в аэропорт.",
+      "name": "Нет, поезд идет в аэропорт."
+    },
+    "it": {
+      "description": "Una frase che indica che il treno va all'aeroporto.",
+      "name": "No, il treno va all'aeroporto."
+    },
+    "es": {
+      "description": "Una frase que indica que el tren va al aeropuerto.",
+      "name": "No, el tren va al aeropuerto."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le train va à l'aéroport.",
+      "name": "Non, le train va à l'aéroport."
+    },
+    "hu": {
+      "description": "Mondat, amely jelzi, hogy a vonat a repülőtérre megy.",
+      "name": "Nem, a vonat a repülőtérre megy."
+    },
+    "pt": {
+      "description": "Uma frase indicando que o trem vai para o aeroporto.",
+      "name": "Não, o trem vai para o aeroporto."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 19152,
       "sha1": "db0fed2c48ffcdc679e2c2a46105dad644a1650b"
+    },
+    "sound/en.mp3": {
+      "bytes": 15552,
+      "sha1": "306c641ff4828fd91e199acf00862575ed8bdbe2"
+    },
+    "sound/de.mp3": {
+      "bytes": 20736,
+      "sha1": "7d8ac3be7a06098548ff775f5cd5e789fbff8a37"
+    },
+    "sound/it.mp3": {
+      "bytes": 15264,
+      "sha1": "b65a1f72ce45bdd829d3b7d416bbd6bcedc8ac75"
+    },
+    "sound/es.mp3": {
+      "bytes": 16560,
+      "sha1": "42fdd5e386b28e0c4c7dce635700002e0a417c19"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17568,
+      "sha1": "f9fe7dd4a5c26b01b0a7328e8220f8015f466272"
+    },
+    "sound/hu.mp3": {
+      "bytes": 20880,
+      "sha1": "3cc7834f2db38f1c3120fa05fab11937935bea96"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18720,
+      "sha1": "139e67aef2763db80fd7e5510977fdd8310d384f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 20592,
+      "sha1": "af049d378ebc4fd8e19358986c1545512dfe1abe"
     }
   }
 }

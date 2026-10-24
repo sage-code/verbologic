@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, am nevoie de ajutor."
+      "name": "Da, am nevoie de ajutor.",
+      "description": "O afirmație care confirmă nevoia de ajutor."
+    },
+    "en": {
+      "description": "A statement confirming that help is needed.",
+      "name": "Yes, I need help."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass Hilfe benötigt wird.",
+      "name": "Ja, ich brauche Hilfe."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее необходимость помощи.",
+      "name": "Да, мне нужна помощь."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma il bisogno di aiuto.",
+      "name": "Sì, ho bisogno di aiuto."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que se necesita ayuda.",
+      "name": "Sí, necesito ayuda."
+    },
+    "fr": {
+      "description": "Une affirmation confirmant qu'une aide est nécessaire.",
+      "name": "Oui, j'ai besoin d'aide."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely megerősíti a segítség szükségességét.",
+      "name": "Igen, segítségre van szükségem."
+    },
+    "pt": {
+      "description": "Uma afirmação confirmando que é necessária ajuda.",
+      "name": "Sim, preciso de ajuda."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17136,
       "sha1": "20c368d376a8979747caf12d31a6928b9609d39f"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "df2527f7a34aeb332286a8826b07cfa94a6301b7"
+    },
+    "sound/de.mp3": {
+      "bytes": 15264,
+      "sha1": "7131d1d3889340c0e0954e389dce37979a5eb4f8"
+    },
+    "sound/it.mp3": {
+      "bytes": 13248,
+      "sha1": "c0a64b4c3851b52326ac7fca5e09d1c5e6f87193"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16272,
+      "sha1": "1bcc1d9fa90debe415712a66a914a779083c28a5"
+    },
+    "sound/es.mp3": {
+      "bytes": 14688,
+      "sha1": "d727bdf3f6b9102cd6b934543830949ac9d0bc2c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15408,
+      "sha1": "6d69efed49978661e2e2697ccec991310d54d2ac"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16128,
+      "sha1": "2752416b4666c5ad4db284dcd5ba7ddfb7ff0be2"
+    },
+    "sound/hu.mp3": {
+      "bytes": 20736,
+      "sha1": "0b96eca84fcad0694bd6781852516a1b56956531"
     }
   }
 }

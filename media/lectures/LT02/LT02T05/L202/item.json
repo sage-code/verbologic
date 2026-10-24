@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, trenul vine acum."
+      "name": "Nu, trenul vine acum.",
+      "description": "O propoziție care afirmă că trenul sosește acum."
+    },
+    "en": {
+      "description": "A sentence stating that the train is arriving now.",
+      "name": "No, the train is coming now."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass der Zug jetzt ankommt.",
+      "name": "Nein, der Zug kommt jetzt."
+    },
+    "ru": {
+      "description": "Предложение о том, что поезд прибывает сейчас.",
+      "name": "Нет, поезд едет сейчас."
+    },
+    "it": {
+      "description": "Una frase che indica che il treno sta arrivando adesso.",
+      "name": "No, il treno arriva adesso."
+    },
+    "es": {
+      "description": "Una frase que indica que el tren viene ahora.",
+      "name": "No, el tren viene ahora."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le train arrive maintenant.",
+      "name": "Non, le train arrive maintenant."
+    },
+    "hu": {
+      "description": "Egy mondat, amely azt fejezi ki, hogy a vonat most érkezik.",
+      "name": "Nem, a vonat most jön."
+    },
+    "pt": {
+      "description": "Uma frase informando que o trem está chegando agora.",
+      "name": "Não, o trem está vindo agora."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16416,
       "sha1": "6b83eff74129bb661a9fee6c00d1a1afbdfe0f72"
+    },
+    "sound/en.mp3": {
+      "bytes": 14544,
+      "sha1": "00137f471e4d79a66e73c7fdc68ffaef95fd4ec4"
+    },
+    "sound/de.mp3": {
+      "bytes": 16992,
+      "sha1": "99eab3306854342a1a5c4bc64a85e2636f1f999c"
+    },
+    "sound/it.mp3": {
+      "bytes": 14256,
+      "sha1": "f3018bed1c2fb77873e3c0f34c3a4bbc60f3e189"
+    },
+    "sound/es.mp3": {
+      "bytes": 15840,
+      "sha1": "c361ea2e62804c245f6dd7a998fdb6c3134b6c8e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16416,
+      "sha1": "80d386f1d50612a5a3a8bb0b577d11d23cbddd42"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18000,
+      "sha1": "f501f1ac97d5b863e388dc86ac9276f26f78b221"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17712,
+      "sha1": "6b414721afe196b9cd605b71632e3226b500d9f8"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18576,
+      "sha1": "6b30fda61cc6440e1d0d83703b0207dc3d53ed5a"
     }
   }
 }

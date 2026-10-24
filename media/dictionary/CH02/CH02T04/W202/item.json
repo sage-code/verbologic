@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "door"
+      "name": "door",
+      "description": "A piece of furniture or household object."
     },
     "ro": {
       "name": "ușă",
-      "ipa": "/ˈuʃə/"
+      "ipa": "/ˈuʃə/",
+      "description": "O piesă de mobilier sau un obiect de uz casnic."
     },
     "de": {
-      "name": "Tür"
+      "name": "Tür",
+      "description": "Ein Möbelstück oder Haushaltsgegenstand."
     },
     "ru": {
-      "name": "Дверь"
+      "name": "Дверь",
+      "description": "Предмет мебели или предмет домашнего обихода."
     },
     "it": {
-      "name": "porta"
+      "name": "porta",
+      "description": "Un mobile o un oggetto per la casa."
     },
     "es": {
-      "name": "puerta"
+      "name": "puerta",
+      "description": "Un mueble u objeto doméstico."
     },
     "fr": {
-      "name": "porte"
+      "name": "porte",
+      "description": "Un meuble ou un objet de la maison."
     },
     "hu": {
-      "name": "Ajtó"
+      "name": "Ajtó",
+      "description": "Egy bútordarab vagy háztartási tárgy."
     },
     "pt": {
-      "name": "Porta"
+      "name": "Porta",
+      "description": "Um móvel ou objeto doméstico."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "a9b9e2cbc95befc4543422507ba138e0d357276c"
+    },
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "a887b5f66d2614ca23084baed7195e83615d1ae4"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "fadde99525792a5491895409c42cdc073283f435"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "3d108c8b7fe0edc61057e57c0c68eb22278e5ac7"
+    },
+    "sound/it.mp3": {
+      "bytes": 9504,
+      "sha1": "69d58c8a3c6098c793b438079be2fc2e1655ab55"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "83b10a22cdc4b094def95e9769f0b808ef64fd76"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "ff1f9330ec154a63281cc363e7efcedc3e87f2e9"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "c4e22800677ffcd8ccdd1adf484bad2037dd6e01"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "c1f54fd126879c4cffe8db0982b264ceb3fe321a"
     }
   }
 }

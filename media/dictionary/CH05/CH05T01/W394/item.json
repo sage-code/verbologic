@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "vacation"
+      "name": "vacation",
+      "description": "The bags and suitcases that contain a traveler's belongings during a trip."
     },
     "ro": {
       "name": "vacanță",
-      "ipa": "/vaˈkantsə/"
+      "ipa": "/vaˈkantsə/",
+      "description": "Gențile și valizele care conțin lucrurile unui călător pe durata unei călătorii."
     },
     "de": {
-      "name": "Urlaub"
+      "name": "Urlaub",
+      "description": "Die Taschen und Koffer, die die persönlichen Gegenstände einer Person auf einer Reise enthalten."
     },
     "ru": {
-      "name": "отпуск"
+      "name": "отпуск",
+      "description": "Сумки и чемоданы с вещами путешественника во время поездки."
     },
     "it": {
-      "name": "vacanza"
+      "name": "vacanza",
+      "description": "L'insieme di borse e valigie che contengono gli effetti personali di un viaggiatore durante un viaggio."
     },
     "es": {
-      "name": "vacaciones"
+      "name": "vacaciones",
+      "description": "Las bolsas y maletas que contienen las pertenencias de un viajero durante un viaje."
     },
     "fr": {
-      "name": "vacances"
+      "name": "vacances",
+      "description": "L'ensemble des sacs et valises qui contiennent les affaires d'un voyageur pendant un voyage."
     },
     "hu": {
-      "name": "vakáció"
+      "name": "vakáció",
+      "description": "Azok a táskák és bőröndök, amelyek az utazó holmiját tartalmazzák az utazás során."
     },
     "pt": {
-      "name": "férias"
+      "name": "férias",
+      "description": "As malas e bolsas que contêm os pertences de um viajante durante uma viagem."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10944,
       "sha1": "1688679a05c0ca73ccbbb850d408993b328538bb"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "0dc5eaae9e94b980d52f53d84baf08f240c23fbd"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "0ea4ce9e77619655d424e0d0f83dee62270ecaf2"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10800,
+      "sha1": "1a45f096bcb5383eddb0c7e6031986ce937d33d1"
+    },
+    "sound/it.mp3": {
+      "bytes": 6768,
+      "sha1": "f746b3af7f2f96f49c924f0a260c01696edcb8d5"
+    },
+    "sound/es.mp3": {
+      "bytes": 11376,
+      "sha1": "9a1f57588bdff642b16f73ba1d5743acf729362b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "5ffceeba4a8f1a5124e3f3f5107810a06032d67a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11952,
+      "sha1": "b64cbebeaf590915bc421d140685d05a434543ce"
+    },
+    "sound/pt.mp3": {
+      "bytes": 10944,
+      "sha1": "7544386c7e20608024cc810b1724e2f4257b0b93"
     }
   }
 }

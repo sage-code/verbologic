@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, el este colegul meu."
+      "name": "Nu, el este colegul meu.",
+      "description": "O afirmație prin care cineva este identificat drept coleg."
+    },
+    "en": {
+      "description": "A statement identifying someone as one's colleague.",
+      "name": "No, he is my colleague."
+    },
+    "de": {
+      "description": "Eine Aussage, die jemanden als eigenen Kollegen identifiziert.",
+      "name": "Nein, er ist mein Kollege."
+    },
+    "ru": {
+      "description": "Высказывание, представляющее кого-либо в качестве своего коллеги.",
+      "name": "Нет, он мой коллега."
+    },
+    "it": {
+      "description": "Un'affermazione che identifica qualcuno come proprio collega.",
+      "name": "No, lui è il mio collega."
+    },
+    "es": {
+      "description": "Una afirmación que identifica a alguien como compañero de trabajo.",
+      "name": "No, él es mi colega."
+    },
+    "fr": {
+      "description": "Une phrase identifiant quelqu'un comme son collègue.",
+      "name": "Non, c'est mon collègue."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely valakit a beszélő kollégájaként azonosít.",
+      "name": "Nem, ő a kollégám."
+    },
+    "pt": {
+      "description": "Uma afirmação que identifica alguém como seu colega.",
+      "name": "Não, ele é meu colega."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17280,
       "sha1": "ced6c9d3f47d44fa10ef3e5e10beaf6e538025ab"
+    },
+    "sound/de.mp3": {
+      "bytes": 16704,
+      "sha1": "b643c44ca51541d78ff89062cc1f969cc7d7485d"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "f29c56d3feb7e564cf8cf387002d2f43ce49f822"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16272,
+      "sha1": "e239d7c820f6848683a71a726b50c33b7dd980ac"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13824,
+      "sha1": "7ca2d875daa97b8709e4e78073cedb00fde45d26"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14256,
+      "sha1": "f2101fa62306336ad81a3014114705055e8c1e4b"
+    },
+    "sound/es.mp3": {
+      "bytes": 15840,
+      "sha1": "4512bdade6b38edeaaf7e1624b8902b3b15b8142"
+    },
+    "sound/it.mp3": {
+      "bytes": 17712,
+      "sha1": "6766db12d35c65e8fec49914198ed7e140de5924"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14976,
+      "sha1": "21d26f49fcf96424a6b740ff1420b4ce7eb87354"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "environment"
+      "name": "environment",
+      "description": "An office is a room or building where people work at desks."
     },
     "ro": {
       "name": "mediu",
-      "ipa": "/ˈmediu/"
+      "ipa": "/ˈmediu/",
+      "description": "Un birou este o cameră sau o clădire în care oamenii lucrează la birouri."
     },
     "de": {
-      "name": "Umwelt"
+      "name": "Umwelt",
+      "description": "Ein Büro ist ein Raum oder Gebäude, in dem Menschen an Schreibtischen arbeiten."
     },
     "ru": {
-      "name": "окружающая среда"
+      "name": "окружающая среда",
+      "description": "Офис — это помещение или здание, где люди работают за столами."
     },
     "it": {
-      "name": "ambiente"
+      "name": "ambiente",
+      "description": "Un ufficio è una stanza o un edificio in cui le persone lavorano alla scrivania."
     },
     "es": {
-      "name": "medio ambiente"
+      "name": "medio ambiente",
+      "description": "Una oficina es una habitación o edificio donde las personas trabajan en escritorios."
     },
     "fr": {
-      "name": "environnement"
+      "name": "environnement",
+      "description": "Un bureau est une pièce ou un bâtiment où les gens travaillent à des bureaux."
     },
     "hu": {
-      "name": "környezet"
+      "name": "környezet",
+      "description": "Az iroda olyan helyiség vagy épület, ahol az emberek íróasztaloknál dolgoznak."
     },
     "pt": {
-      "name": "meio ambiente"
+      "name": "meio ambiente",
+      "description": "Um escritório é uma sala ou edifício onde as pessoas trabalham em secretárias."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "529ff2aad85e254f25f3208c54a05b4c3a130d88"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "4b021059d5f7b5ae1a10318ba93d2ea4188b7723"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "788c9ba551dd5dabf47e0c4e21d02f6634c056c6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14832,
+      "sha1": "3b4e2bd60877400a3073b820ed2c109437195595"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "5c27632b55ec76bc670db2273ec9ad8d87493e47"
+    },
+    "sound/es.mp3": {
+      "bytes": 12240,
+      "sha1": "7b6df1bc9ba7cf0e77a466ba18b0823e34716844"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "6d975e5a66dc0827b9b345744700d75f918ae94d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "ce7b80cedf174f21fd486a269d57794a6e3ffdb0"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13392,
+      "sha1": "778f41b521c88d4a88684db49f035ee7dedcfbaa"
     }
   }
 }

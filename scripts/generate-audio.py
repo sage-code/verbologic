@@ -240,7 +240,7 @@ def gemini_translate_batch(batch: list[dict[str, Any]]) -> dict[str, dict[str, A
 
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(request, timeout=90) as response:
+            with urllib.request.urlopen(request, timeout=180) as response:
                 response_data = json.loads(response.read().decode("utf-8"))
             text = response_data["candidates"][0]["content"]["parts"][0]["text"].strip()
             text = re.sub(r"\A```(?:json)?\s*|\s*```\Z", "", text)
@@ -264,6 +264,10 @@ def gemini_translate_batch(batch: list[dict[str, Any]]) -> dict[str, dict[str, A
                 translated = translations[requested["key"]]
                 for field in ("names", "description"):
                     target_locales = (requested.get(field) or {}).get("targets", [])
+                    # Nothing requested for this field — Gemini may legitimately
+                    # omit it or send null, and there is nothing to validate.
+                    if not target_locales:
+                        continue
                     values = translated.get(field, {})
                     if not isinstance(values, dict):
                         raise ValueError(f"Gemini returned invalid {field} for {requested['key']}")
@@ -308,15 +312,24 @@ def apply_translations(jobs, dry_run: bool) -> int:
     changed = 0
     for offset in range(0, len(jobs), BATCH_SIZE):
         chunk = jobs[offset : offset + BATCH_SIZE]
-        translated = gemini_translate_batch([job for _, _, job in chunk])
+        # A single flaky batch must not throw away the whole run: the earlier
+        # batches are already written, so log and continue rather than abort.
+        try:
+            translated = gemini_translate_batch([job for _, _, job in chunk])
+        except RuntimeError as error:
+            print(f"skipped batch {offset // BATCH_SIZE + 1}: {error}")
+            continue
         for path, item, job in chunk:
             result = translated[job["key"]]
-            for field in ("names", "description"):
-                requested = job.get(field) or {}
-                values = result.get(field, {})
+            # The JOB calls the field "names" (a map of locale → name), but the
+            # manifest row calls it "name". Passing the job's name straight to
+            # set_locale_field wrote a bogus `names` key into 614 manifests.
+            for job_field, row_field in (("names", "name"), ("description", "description")):
+                requested = job.get(job_field) or {}
+                values = result.get(job_field, {})
                 for locale in requested.get("targets", []):
-                    if is_missing(locale_row(item, locale).get(field)):
-                        set_locale_field(item, locale, field, values[locale].strip())
+                    if is_missing(locale_row(item, locale).get(row_field)):
+                        set_locale_field(item, locale, row_field, values[locale].strip())
                         changed += 1
             write_json_atomic(path, item)
         print(f"translated batch {offset // BATCH_SIZE + 1} ({len(chunk)} item(s))")
@@ -348,6 +361,34 @@ async def synthesize(text: str, voice: str, output: Path) -> None:
         temporary.unlink(missing_ok=True)
 
 
+# Edge TTS drops the websocket under load and reports NoAudioReceived for text it
+# would happily synthesize a moment later, so every clip gets a few attempts.
+TTS_ATTEMPTS = 4
+TTS_CONCURRENCY = 6
+_TTS_SLOTS: asyncio.Semaphore | None = None
+
+
+def tts_slots() -> asyncio.Semaphore:
+    global _TTS_SLOTS
+    if _TTS_SLOTS is None:
+        _TTS_SLOTS = asyncio.Semaphore(TTS_CONCURRENCY)
+    return _TTS_SLOTS
+
+
+async def synthesize_with_retry(text: str, voice: str, output: Path) -> None:
+    delay = 1.0
+    for attempt in range(1, TTS_ATTEMPTS + 1):
+        try:
+            async with tts_slots():
+                await synthesize(text, voice, output)
+            return
+        except (edge_tts.exceptions.NoAudioReceived, ConnectionError, asyncio.TimeoutError):
+            if attempt == TTS_ATTEMPTS:
+                raise
+            await asyncio.sleep(delay)
+            delay *= 2
+
+
 def file_sha1(path: Path) -> str:
     digest = hashlib.sha1()
     with path.open("rb") as audio_file:
@@ -374,10 +415,11 @@ async def apply_audio(
     skipped = 0
     failed = 0
     owners = owners or {}
+    pending: list[tuple[Path, dict[str, Any], str, str, str, Path]] = []
+    touched: dict[Path, dict[str, Any]] = {}
     for path, item in items:
         # Phonetic topic owned by one language: synthesise that voice only.
         owner = owners.get(str(item.get("topic", "")))
-        changed = False
         for locale in LOCALES:
             if lang_filter and locale != lang_filter:
                 continue
@@ -396,7 +438,7 @@ async def apply_audio(
                     item, "audio", locale,
                     bytes_=output.stat().st_size, sha1=file_sha1(output),
                 )
-                changed = True
+                touched[path] = item
                 skipped += 1
                 continue
             voice = voice_for(locale, item)
@@ -407,24 +449,37 @@ async def apply_audio(
                 )
                 generated += 1
                 continue
-            try:
-                await synthesize(text.strip(), voice, output)
-            except edge_tts.exceptions.NoAudioReceived as error:
-                failed += 1
-                print(
-                    f"audio generation failed: {display_media_path(output)} "
-                    f"({voice}): {error}",
-                    file=sys.stderr,
-                )
-                continue
-            set_file_facts(
-                item, "audio", locale,
-                bytes_=output.stat().st_size, sha1=file_sha1(output),
+            pending.append((path, item, locale, text.strip(), voice, output))
+
+    async def run(job) -> bool:
+        path, item, locale, text, voice, output = job
+        try:
+            await synthesize_with_retry(text, voice, output)
+        except Exception as error:  # noqa: BLE001 - report and keep going
+            print(
+                f"audio generation failed: {display_media_path(output)} "
+                f"({voice}): {error}",
+                file=sys.stderr,
             )
-            changed = True
-            generated += 1
-            print(f"generated: {display_media_path(output)} ({voice})")
-        if changed and not dry_run:
+            return False
+        set_file_facts(
+            item, "audio", locale,
+            bytes_=output.stat().st_size, sha1=file_sha1(output),
+        )
+        print(f"generated: {display_media_path(output)} ({voice})")
+        return True
+
+    if pending:
+        results = await asyncio.gather(*(run(job) for job in pending))
+        for ok, job in zip(results, pending):
+            touched[job[0]] = job[1]
+            if ok:
+                generated += 1
+            else:
+                failed += 1
+
+    if not dry_run:
+        for path, item in touched.items():
             write_json_atomic(path, item)
     return generated, skipped, failed
 
@@ -492,8 +547,8 @@ async def apply_read(
                 generated += 1
                 continue
             try:
-                await synthesize(text, voice, output)
-            except edge_tts.exceptions.NoAudioReceived as error:
+                await synthesize_with_retry(text, voice, output)
+            except Exception as error:  # noqa: BLE001 - report and keep going
                 failed += 1
                 print(
                     f"read generation failed: {display_media_path(output)} "

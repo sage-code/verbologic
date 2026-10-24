@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "meaning"
+      "name": "meaning",
+      "description": "This word relates to thinking and argument."
     },
     "ro": {
       "name": "sens",
-      "ipa": "/sens/"
+      "ipa": "/sens/",
+      "description": "Acest cuvânt este legat de gândire și argumentare."
     },
     "de": {
-      "name": "Bedeutung"
+      "name": "Bedeutung",
+      "description": "Dieses Wort bezieht sich auf Denken und Argumentation."
     },
     "ru": {
-      "name": "смысл"
+      "name": "смысл",
+      "description": "Это слово связано с мышлением и аргументацией."
     },
     "it": {
-      "name": "senso"
+      "name": "senso",
+      "description": "Questa parola è legata al pensiero e all'argomentazione."
     },
     "es": {
-      "name": "sentido"
+      "name": "sentido",
+      "description": "Esta palabra se relaciona con el pensamiento y la argumentación."
     },
     "fr": {
-      "name": "sens"
+      "name": "sens",
+      "description": "Ce mot est lié à la pensée et à l'argumentation."
     },
     "hu": {
-      "name": "jelentés"
+      "name": "jelentés",
+      "description": "Ez a szó a gondolkodáshoz és az érveléshez kapcsolódik."
     },
     "pt": {
-      "name": "sentido"
+      "name": "sentido",
+      "description": "Esta palavra está relacionada ao pensamento e à argumentação."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "133a800eead293405c03b8ddb5e0922be72adbc3"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "906cac387fe008c1ce97764a6b10e54947dd23a5"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "7585905b495096e93b483157b46f7edbd3e2d15a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11376,
+      "sha1": "26309003e4bc0eee21845d55b53763ba92421574"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "fb2396aad9053d55f890e9b1af953b648a71f194"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "80f0750ec21d5c376e8a06b96a31b54509d95a4d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "fee10e5414bd2d07ba3af2af6449fd1236a50f6f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "48ed03b6ebbe51cd6563f08612f31620fca280c8"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "4574ab3bb1d7bfb12852c41224cfbea58c47b102"
     }
   }
 }

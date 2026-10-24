@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "engagement"
+      "name": "engagement",
+      "description": "A vocabulary word related to relationships."
     },
     "ro": {
       "name": "logodnă",
-      "ipa": "/loˈgodnə/"
+      "ipa": "/loˈgodnə/",
+      "description": "Un cuvânt din vocabular legat de relații."
     },
     "de": {
-      "name": "Verlobung"
+      "name": "Verlobung",
+      "description": "Ein Vokabelwort zum Thema Beziehungen."
     },
     "ru": {
-      "name": "помолвка"
+      "name": "помолвка",
+      "description": "Словарное слово, относящееся к теме отношений."
     },
     "it": {
-      "name": "fidanzamento"
+      "name": "fidanzamento",
+      "description": "Un termine del vocabolario legato alle relazioni."
     },
     "es": {
-      "name": "compromiso"
+      "name": "compromiso",
+      "description": "Una palabra de vocabulario relacionada con las relaciones."
     },
     "fr": {
-      "name": "fiançailles"
+      "name": "fiançailles",
+      "description": "Un mot de vocabulaire lié aux relations."
     },
     "hu": {
-      "name": "eljegyzés"
+      "name": "eljegyzés",
+      "description": "A kapcsolatok témaköréhez kapcsolódó szókincselem."
     },
     "pt": {
-      "name": "noivado"
+      "name": "noivado",
+      "description": "Uma palavra de vocabulário relacionada a relacionamentos."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "0a657379815c82390163dd5e58b8fe32425b5482"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "5ecf4b41e1fb4ca02afba4fd1b990ef6c840de2e"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "829148287b7f4b42b41620e7ce24f19131952edd"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "46dfe5419460b9e3160639376fffe7831c6f1594"
+    },
+    "sound/it.mp3": {
+      "bytes": 12816,
+      "sha1": "dcc6941d3c56aa8349698738a9f7971450c417fe"
+    },
+    "sound/es.mp3": {
+      "bytes": 11088,
+      "sha1": "fd210dd56a62e59276e79c651ce0f36e29ed6a1f"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "d9bf023ab52788d353a48ae1d7d4e312c65ec8a5"
+    },
+    "sound/hu.mp3": {
+      "bytes": 10224,
+      "sha1": "3c8d1eead602447834e39b91e64db2945847812c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "8accfadd09bf79680818534dd9457bd1b39b931e"
     }
   }
 }

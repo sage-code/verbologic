@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Poliția este aproape?"
+      "name": "Poliția este aproape?",
+      "description": "O întrebare prin care se întreabă dacă poliția este aproape."
+    },
+    "en": {
+      "description": "A question asking if the police are nearby.",
+      "name": "Is the police nearby?"
+    },
+    "de": {
+      "description": "Eine Frage, ob die Polizei in der Nähe ist.",
+      "name": "Ist die Polizei in der Nähe?"
+    },
+    "ru": {
+      "description": "Вопрос о том, близко ли полиция.",
+      "name": "Полиция близко?"
+    },
+    "it": {
+      "description": "Una domanda che chiede se la polizia è vicina.",
+      "name": "La polizia è vicina?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si la policía está cerca.",
+      "name": "¿La policía está cerca?"
+    },
+    "fr": {
+      "description": "Une question demandant si la police est proche.",
+      "name": "La police est-elle proche ?"
+    },
+    "hu": {
+      "description": "Kérdés arról, hogy a rendőrség a közelben van-e.",
+      "name": "Közel van a rendőrség?"
+    },
+    "pt": {
+      "description": "Uma pergunta questionando se a polícia está por perto.",
+      "name": "A polícia está perto?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14400,
       "sha1": "a748954009bae999cf5faeaafc07f7bba324b0c8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "795b653ad5fc866cafac424c56d1269e898f594c"
+    },
+    "sound/de.mp3": {
+      "bytes": 15408,
+      "sha1": "436214bf7cca2509fe8ad9e27e7396bb525f3c1c"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "c181772a160b07f603cb0b515b35958efc2d74b5"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12816,
+      "sha1": "e84d40d257c3d121b7932d1a40553dd12009f502"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14688,
+      "sha1": "1110c9a3e8ae066f2fe5bd05da3236cded3d806f"
+    },
+    "sound/es.mp3": {
+      "bytes": 14112,
+      "sha1": "3b31a4aee3c9930a513725654b82d2eec1cfd2ed"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14544,
+      "sha1": "eea87b5120b79a3ffc910152d35324c339b24ff4"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15120,
+      "sha1": "094c70114148dc1cce2e7f20f767bee1d8d5225e"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Citești seara?"
+      "name": "Citești seara?",
+      "description": "O întrebare care întreabă dacă cineva citește seara."
+    },
+    "en": {
+      "description": "A question asking if someone reads in the evening.",
+      "name": "Do you read in the evening?"
+    },
+    "de": {
+      "description": "Eine Frage, die erkundet, ob jemand abends liest.",
+      "name": "Liest du abends?"
+    },
+    "ru": {
+      "description": "Вопрос о том, читает ли кто-то по вечерам.",
+      "name": "Ты читаешь по вечерам?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere se qualcuno legge la sera.",
+      "name": "Leggi la sera?"
+    },
+    "es": {
+      "description": "Una pregunta sobre si alguien lee por la noche.",
+      "name": "¿Lees por la noche?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un lit le soir.",
+      "name": "Lis-tu le soir ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy valaki szokott-e olvasni este.",
+      "name": "Olvasol este?"
+    },
+    "pt": {
+      "description": "Uma pergunta sobre se alguém lê à noite.",
+      "name": "Lês à noite?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11808,
       "sha1": "fa625670003eb401e146c6bc1b2c17f41ccdbe3f"
+    },
+    "sound/en.mp3": {
+      "bytes": 8640,
+      "sha1": "cae998bc280f3cd5c3b73a9f32d89820029aba15"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14544,
+      "sha1": "76c0cd766019454f3bbe59beac9cb648f41f7d28"
+    },
+    "sound/it.mp3": {
+      "bytes": 12528,
+      "sha1": "386278c8eaefe78e74467067ead0a2e7815a8f3b"
+    },
+    "sound/de.mp3": {
+      "bytes": 11808,
+      "sha1": "a5915c556c78012cb7670e2141e954567d6e19d4"
+    },
+    "sound/es.mp3": {
+      "bytes": 12672,
+      "sha1": "32ca1800348f2f78aa6fed896105a9007505a586"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "5d24ebe13747d48d16008bc66c502174723943da"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11520,
+      "sha1": "9925f575927ab02db8448a53caae9e49abb0d81f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 10080,
+      "sha1": "26c82811e16901557cfb0f662e6fd7431ffd7eaa"
     }
   }
 }

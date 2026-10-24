@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "hallway"
+      "name": "hallway",
+      "description": "Word W194 belongs to chapter two, topic three."
     },
     "ro": {
       "name": "hol",
-      "ipa": "/hol/"
+      "ipa": "/hol/",
+      "description": "Cuvântul W194 aparține capitolului doi, tema trei."
     },
     "de": {
-      "name": "Flur"
+      "name": "Flur",
+      "description": "Das Wort W194 gehört zu Kapitel zwei, Thema drei."
     },
     "ru": {
-      "name": "Коридор"
+      "name": "Коридор",
+      "description": "Слово W194 относится к главе два, теме три."
     },
     "it": {
-      "name": "corridoio"
+      "name": "corridoio",
+      "description": "La parola W194 appartiene al capitolo due, argomento tre."
     },
     "es": {
-      "name": "pasillo"
+      "name": "pasillo",
+      "description": "La palabra W194 pertenece al capítulo dos, tema tres."
     },
     "fr": {
-      "name": "couloir"
+      "name": "couloir",
+      "description": "Le mot W194 appartient au chapitre deux, thème trois."
     },
     "hu": {
-      "name": "Folyosó"
+      "name": "Folyosó",
+      "description": "A W194 szó a második fejezet harmadik témájához tartozik."
     },
     "pt": {
-      "name": "Corredor"
+      "name": "Corredor",
+      "description": "A palavra W194 pertence ao capítulo dois, tópico três."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "ee4d30ded7004dd9fc7977e84b527f0b9a5ae327"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "83370e4544876b521cd98a590f8f51ecf2eebaf5"
+    },
+    "sound/de.mp3": {
+      "bytes": 8496,
+      "sha1": "8da13de1455c79459939613a45096f0aa6574474"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10368,
+      "sha1": "5adac103eb19cf9bcc84dcd7ed793ed03857768f"
+    },
+    "sound/it.mp3": {
+      "bytes": 7056,
+      "sha1": "1c73db131807a88c5fb5aaafe7a8cc3b730916da"
+    },
+    "sound/es.mp3": {
+      "bytes": 9792,
+      "sha1": "3538d9fef8d676e25ec37afd74c333d0e0b7266e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "1a40c7efad21515d77b26c916347559061fdd73b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "68dc15a6001f0d6af1f1092c7d1ad26c6b0897f2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "1803a615a69192967582580f87e400d2209179b6"
     }
   }
 }

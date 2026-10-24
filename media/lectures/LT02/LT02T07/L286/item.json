@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Check the map."
+      "name": "Check the map.",
+      "description": "A command instructing someone to check the map."
     },
     "ro": {
-      "name": "Verifică harta."
+      "name": "Verifică harta.",
+      "description": "O comandă prin care i se cere cuiva să verifice harta."
+    },
+    "de": {
+      "description": "Eine Aufforderung, auf die Karte zu schauen.",
+      "name": "Prüfe die Karte."
+    },
+    "ru": {
+      "description": "Команда проверить или посмотреть карту.",
+      "name": "Проверь карту."
+    },
+    "it": {
+      "description": "Un comando che invita a controllare la mappa.",
+      "name": "Controlla la mappa."
+    },
+    "es": {
+      "description": "Una orden que indica revisar el mapa.",
+      "name": "Consulta el mapa."
+    },
+    "fr": {
+      "description": "Un ordre demandant de vérifier la carte.",
+      "name": "Vérifie la carte."
+    },
+    "hu": {
+      "description": "Felszólítás arra, hogy valaki nézze meg a térképet.",
+      "name": "Nézd meg a térképet."
+    },
+    "pt": {
+      "description": "Um comando instruindo alguém a verificar o mapa.",
+      "name": "Consulte o mapa."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12960,
       "sha1": "bca40a241be7e1e8f6cd1383c29f1883d09f4310"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "2443b6298d0a84a6f77bcb43739de87ab7b9d241"
+    },
+    "sound/de.mp3": {
+      "bytes": 12384,
+      "sha1": "de2ae20777a2fbc28180b8eacc33f42c744944a1"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12672,
+      "sha1": "5b80e23d58b95c5b765068d9cb23c6b152887d85"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "66ede48d6f86b37e9616f10968e0bfde13dd4150"
+    },
+    "sound/es.mp3": {
+      "bytes": 12528,
+      "sha1": "91a43c2b545ad35a4c177b70db88663956331938"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12816,
+      "sha1": "bad16504b40e46bde1fc1502aa0c1c376c426fa1"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13392,
+      "sha1": "1f9042fcd56e8bc8bb3a97325ad4c01c87c97574"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14544,
+      "sha1": "05051bc48ff3d448cea9e8ee574f2fec077bbb70"
     }
   }
 }

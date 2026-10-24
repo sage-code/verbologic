@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, este alarmă falsă."
+      "name": "Nu, este alarmă falsă.",
+      "description": "O afirmație care clarifică faptul că o alarmă de urgență este falsă."
+    },
+    "en": {
+      "description": "A statement clarifying that an emergency alarm is false.",
+      "name": "No, it is a false alarm."
+    },
+    "de": {
+      "description": "Eine Aussage, die klarstellt, dass ein Notfallalarm falsch ist.",
+      "name": "Nein, es ist ein Fehlalarm."
+    },
+    "ru": {
+      "description": "Утверждение, поясняющее, что сигнал тревоги является ложным.",
+      "name": "Нет, это ложная тревога."
+    },
+    "it": {
+      "description": "Un'affermazione che chiarisce che un allarme di emergenza è falso.",
+      "name": "No, è un falso allarme."
+    },
+    "es": {
+      "description": "Una afirmación que aclara que una alarma de emergencia es falsa.",
+      "name": "No, es una falsa alarma."
+    },
+    "fr": {
+      "description": "Une affirmation précisant qu'une alerte d'urgence est fausse.",
+      "name": "Non, c'est une fausse alerte."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely tisztázza, hogy a vészjelzés téves.",
+      "name": "Nem, ez téves riasztás."
+    },
+    "pt": {
+      "description": "Uma declaração que esclarece que um alarme de emergência é falso.",
+      "name": "Não, é um alarme falso."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17280,
       "sha1": "d344cc5c72735eeb7585d1d8a32908207bdf1743"
+    },
+    "sound/de.mp3": {
+      "bytes": 18000,
+      "sha1": "675d0f6472626cf19f067da3eacd9def4e4c894f"
+    },
+    "sound/en.mp3": {
+      "bytes": 14400,
+      "sha1": "f12b2fa7e8f287161fe79e8d8722797efd6d3771"
+    },
+    "sound/it.mp3": {
+      "bytes": 13824,
+      "sha1": "a0c1fcd2f4ca43bf78e31981cabdc1f05d802654"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17424,
+      "sha1": "f9e9355050c6fccaad0a7fa4ec480d11937d8c4d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16128,
+      "sha1": "60f75fd540af8303c2154ff815fd422a20d3a5c6"
+    },
+    "sound/es.mp3": {
+      "bytes": 16416,
+      "sha1": "b24f8124a2aef6ae6f56902344632362f0af3fb4"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18288,
+      "sha1": "973bb78975f27eee58f8d039eb21364fe8e28427"
+    },
+    "sound/hu.mp3": {
+      "bytes": 19440,
+      "sha1": "76215f84451bc81d5ac4524bd71bee277951fffb"
     }
   }
 }

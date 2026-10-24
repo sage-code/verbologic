@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, stația este pe alt drum."
+      "name": "Nu, stația este pe alt drum.",
+      "description": "O propoziție care indică faptul că stația este pe alt drum."
+    },
+    "en": {
+      "description": "A sentence indicating that the station is on another road.",
+      "name": "No, the station is on another road."
+    },
+    "de": {
+      "description": "Ein Satz, der angibt, dass sich die Station auf einer anderen Straße befindet.",
+      "name": "Nein, die Station ist auf einer anderen Straße."
+    },
+    "ru": {
+      "description": "Предложение, указывающее, что станция находится на другой дороге.",
+      "name": "Нет, станция находится на другой дороге."
+    },
+    "it": {
+      "description": "Una frase che indica che la stazione si trova su un'altra strada.",
+      "name": "No, la stazione è su un'altra strada."
+    },
+    "es": {
+      "description": "Una frase que indica que la estación está en otro camino.",
+      "name": "No, la estación está en otro camino."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que la station se trouve sur une autre route.",
+      "name": "Non, la station est sur une autre route."
+    },
+    "hu": {
+      "description": "Egy mondat, amely jelzi, hogy az állomás egy másik úton található.",
+      "name": "Nem, az állomás egy másik úton van."
+    },
+    "pt": {
+      "description": "Uma frase indicando que a estação fica em outro caminho.",
+      "name": "Não, a estação fica em outro caminho."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 18288,
       "sha1": "7436aa36f4cb1d032e2712e21ae9a2afb46e8899"
+    },
+    "sound/en.mp3": {
+      "bytes": 15408,
+      "sha1": "3098a8552efdf5104649deaaf85853b278194727"
+    },
+    "sound/de.mp3": {
+      "bytes": 23760,
+      "sha1": "53b7a969f6b4a3f046d803b0074ecd21f22223ef"
+    },
+    "sound/es.mp3": {
+      "bytes": 18000,
+      "sha1": "cd5c85058e0127e11e80be33b0542b703eebe136"
+    },
+    "sound/ru.mp3": {
+      "bytes": 21744,
+      "sha1": "87f6b81f6214faea56cda61fbea06329b6d883c3"
+    },
+    "sound/fr.mp3": {
+      "bytes": 20304,
+      "sha1": "9de53c503c653c2a6cb31f72b466e0d604053636"
+    },
+    "sound/it.mp3": {
+      "bytes": 18432,
+      "sha1": "97f4f7159a3719d3574f80e07361bf9609083866"
+    },
+    "sound/pt.mp3": {
+      "bytes": 21168,
+      "sha1": "983978aa2ba913c4b4a5e93a906f9bce6d573ed0"
+    },
+    "sound/hu.mp3": {
+      "bytes": 22896,
+      "sha1": "7acc18e16fc80ac063795115fd3e6aea1b8c8f20"
     }
   }
 }

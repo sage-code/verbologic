@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, profesorul este la școală."
+      "name": "Nu, profesorul este la școală.",
+      "description": "O afirmație care indică faptul că profesorul este la școală."
+    },
+    "en": {
+      "description": "A statement indicating that the teacher is at school.",
+      "name": "No, the teacher is at school."
+    },
+    "de": {
+      "description": "Eine Aussage, die angibt, dass der Lehrer in der Schule ist.",
+      "name": "Nein, der Lehrer ist in der Schule."
+    },
+    "ru": {
+      "description": "Утверждение о том, что учитель находится в школе.",
+      "name": "Нет, учитель в школе."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che l'insegnante si trova a scuola.",
+      "name": "No, l'insegnante è a scuola."
+    },
+    "es": {
+      "description": "Una afirmación que indica que el profesor está en la escuela.",
+      "name": "No, el profesor está en la escuela."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le professeur est à l'école.",
+      "name": "Non, le professeur est à l'école."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely azt fejezi ki, hogy a tanár az iskolában van.",
+      "name": "Nem, a tanár az iskolában van."
+    },
+    "pt": {
+      "description": "Uma afirmação que indica que o professor está na escola.",
+      "name": "Não, o professor está na escola."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 19296,
       "sha1": "59f96a0dab4d2b12bcbf3abebf124a91420fef36"
+    },
+    "sound/de.mp3": {
+      "bytes": 18576,
+      "sha1": "6dde03476fe006f5a249251da9ec3b0f759bc1c2"
+    },
+    "sound/es.mp3": {
+      "bytes": 19728,
+      "sha1": "54bf4082e6b5259b73133abfa845da2bcccd4ab2"
+    },
+    "sound/fr.mp3": {
+      "bytes": 18432,
+      "sha1": "eaa2b1723b267d25fe6132221777b4f42ffebffc"
+    },
+    "sound/it.mp3": {
+      "bytes": 17568,
+      "sha1": "258999be52609dc0b0c495aaf7a83eff00cfab79"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16272,
+      "sha1": "ac16a0e5c35208b56b44578843a923f8d7ede9ce"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16272,
+      "sha1": "165ddddb20b099f576bb14cc291feafbbadc9c22"
+    },
+    "sound/en.mp3": {
+      "bytes": 12384,
+      "sha1": "7fbb628f40e545d58bd407769a75b937fb69077e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16128,
+      "sha1": "9bd0b474bd674e89e9714ab15a228713094852e1"
     }
   }
 }

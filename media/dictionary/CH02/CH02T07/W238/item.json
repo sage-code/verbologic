@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "balloon"
+      "name": "balloon",
+      "description": "This item provides a practice scaffold for Chapter 2, Topic 7."
     },
     "ro": {
       "name": "balon",
-      "ipa": "/baˈlon/"
+      "ipa": "/baˈlon/",
+      "description": "Acest element oferă o structură de exersare pentru capitolul 2, tema 7."
     },
     "de": {
-      "name": "Ballon"
+      "name": "Ballon",
+      "description": "Dieses Element bietet ein Übungsgerüst für Kapitel 2, Thema 7."
     },
     "ru": {
-      "name": "Воздушный шар"
+      "name": "Воздушный шар",
+      "description": "Этот элемент служит учебной опорой для темы 7 главы 2."
     },
     "it": {
-      "name": "palloncino"
+      "name": "palloncino",
+      "description": "Questo elemento fornisce un supporto di esercitazione per il capitolo 2, argomento 7."
     },
     "es": {
-      "name": "globo"
+      "name": "globo",
+      "description": "Este elemento proporciona una estructura de práctica para el capítulo 2, tema 7."
     },
     "fr": {
-      "name": "ballon"
+      "name": "ballon",
+      "description": "Cet élément fournit un cadre d'exercice pour le chapitre 2, thème 7."
     },
     "hu": {
-      "name": "Lufi"
+      "name": "Lufi",
+      "description": "Ez az elem gyakorlási támpontot nyújt a 2. fejezet 7. témájához."
     },
     "pt": {
-      "name": "Balão"
+      "name": "Balão",
+      "description": "Este item fornece uma estrutura de prática para o capítulo 2, tópico 7."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "24fb0ea04ad7a583fc5dd54ce6b8be6536b6dbc5"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "1f5993a27ef173235a03df802d8c97e5deff0b82"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "0e80c8aa3d3bbb3987ead3569a582b1304d279b0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13104,
+      "sha1": "f8cf08a7dce5214e5541143f5594e266be4a5174"
+    },
+    "sound/it.mp3": {
+      "bytes": 7200,
+      "sha1": "f9eb09db6cbcfacc1e0198a4f4e6563cafca4a80"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "9527f7332c1c515130a17b577399c31a4acafb80"
+    },
+    "sound/fr.mp3": {
+      "bytes": 8784,
+      "sha1": "d0ef849fd40d6502c159dda664c4b50ab1a5c87f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "b21a14067d225da82ddfeb9fd155a3969b76c5f2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "484e4fa0a5938ec42eb5efa3833550f1d8fbc8c8"
     }
   }
 }

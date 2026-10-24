@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "salary"
+      "name": "salary",
+      "description": "This word relates to office vocabulary."
     },
     "ro": {
       "name": "salariu",
-      "ipa": "/saˈlariu/"
+      "ipa": "/saˈlariu/",
+      "description": "Acest cuvânt este legat de vocabularul de birou."
     },
     "de": {
-      "name": "Gehalt"
+      "name": "Gehalt",
+      "description": "Dieses Wort gehört zum Büro-Wortschatz."
     },
     "ru": {
-      "name": "зарплата"
+      "name": "зарплата",
+      "description": "Это слово относится к офисной лексике."
     },
     "it": {
-      "name": "stipendio"
+      "name": "stipendio",
+      "description": "Questa parola si riferisce al vocabolario dell'ufficio."
     },
     "es": {
-      "name": "salario"
+      "name": "salario",
+      "description": "Esta palabra está relacionada con el vocabulario de oficina."
     },
     "fr": {
-      "name": "salaire"
+      "name": "salaire",
+      "description": "Ce mot est lié au vocabulaire de bureau."
     },
     "hu": {
-      "name": "fizetés"
+      "name": "fizetés",
+      "description": "Ez a szó az irodai szókincshez kapcsolódik."
     },
     "pt": {
-      "name": "salário"
+      "name": "salário",
+      "description": "Esta palavra está relacionada ao vocabulário de escritório."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "8eef9622bb0c00ff0fda603f705fd507e1bf5258"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "77dc1f81f817eac3841b608dd3ceda843298150f"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "68d572831b15199e3796c35fbcaf9f6b74e90a7e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11664,
+      "sha1": "be2a3c125da566a3362a800d2d67760db8a0ecc3"
+    },
+    "sound/it.mp3": {
+      "bytes": 7056,
+      "sha1": "01386aab1333309b6b2701c8e17f4996f15d23ba"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "381f19b4249978d4d37c8980b7b00ae66e914cfd"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "eade6e711528c2f4d422e12ce76a303a6688cc2c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "8cebf59272d94f3fb51abbca906fc9770cb14022"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "50411119be2bbd837e3259cb289475fa12febffc"
     }
   }
 }

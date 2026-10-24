@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Ai bani?"
+      "name": "Ai bani?",
+      "description": "O întrebare prin care se întreabă cineva dacă are bani."
+    },
+    "en": {
+      "description": "A question asking someone if they have money.",
+      "name": "Do you have money?"
+    },
+    "de": {
+      "description": "Eine Frage, die jemanden fragt, ob er Geld hat.",
+      "name": "Hast du Geld?"
+    },
+    "ru": {
+      "description": "Вопрос о том, есть ли у кого-то деньги.",
+      "name": "У тебя есть деньги?"
+    },
+    "it": {
+      "description": "Una domanda che chiede a qualcuno se ha denaro.",
+      "name": "Hai soldi?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si alguien tiene dinero.",
+      "name": "¿Tienes dinero?"
+    },
+    "fr": {
+      "description": "Une question demandant à quelqu'un s'il a de l'argent.",
+      "name": "As-tu de l'argent ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy van-e valakinek pénze.",
+      "name": "Van pénzed?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se alguém tem dinheiro.",
+      "name": "Você tem dinheiro?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "59fca9d90100d7c25a93d74d2144885cb5a5d282"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "2b0f9c5b32f38ec416bb9bfc5d82f71b699c12b3"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "d4135db6107047f74e524befbf21d12ae6fd7faa"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "25fde2dfae280e4eeb571bf8824d5c609cdee85f"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11520,
+      "sha1": "28ec25e1200fad799f02ccdf312c7e78fec20c50"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "a9d1abf473659aec4a9ba8bd2583b647dbdac9d2"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14400,
+      "sha1": "388dc0344958546088f30cda845ce3497c6460ce"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12240,
+      "sha1": "4893993b1efeb00ed83f3c5f986c5a928b62c1d6"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13824,
+      "sha1": "ada4b075d56227b06510b3c61846c1d67c0888d7"
     }
   }
 }

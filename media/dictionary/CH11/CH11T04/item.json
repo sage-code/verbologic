@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Cause & effect"
+      "name": "Cause & effect",
+      "description": "This topic covers cause and effect."
     },
     "ro": {
       "name": "Cauză și efect",
-      "ipa": "/ˈkauzə ʃi eˈfekt/"
+      "ipa": "/ˈkauzə ʃi eˈfekt/",
+      "description": "Această temă acoperă cauza și efectul."
+    },
+    "de": {
+      "description": "Dieses Thema behandelt Ursache und Wirkung.",
+      "name": "Ursache & Wirkung"
+    },
+    "ru": {
+      "description": "В этой теме рассматриваются причина и следствие.",
+      "name": "Причина и следствие"
+    },
+    "it": {
+      "description": "Questo argomento tratta di causa ed effetto.",
+      "name": "Causa & effetto"
+    },
+    "es": {
+      "description": "Este tema trata sobre la causa y el efecto.",
+      "name": "Causa & efecto"
+    },
+    "fr": {
+      "description": "Ce thème aborde la cause et l'effet.",
+      "name": "Cause & effet"
+    },
+    "hu": {
+      "description": "Ez a téma az okot és okozatot tárgyalja.",
+      "name": "Ok és okozat"
+    },
+    "pt": {
+      "description": "Este tópico aborda causa e efeito.",
+      "name": "Causa & efeito"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13104,
       "sha1": "221fd09ac5b38bd9f57a19e3c17f92dd72d41bf2"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "a4fb00044216411f756edbfcce6eac01bf668fe1"
+    },
+    "sound/de.mp3": {
+      "bytes": 13104,
+      "sha1": "3ea3858f01ba0730dea9986d66b7e2bef8e58170"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15696,
+      "sha1": "1f003c078c999ed9391b9c877e0ef73764567289"
+    },
+    "sound/it.mp3": {
+      "bytes": 12672,
+      "sha1": "3b956567a5a2fad0899e37fb4f2aeff6164390b1"
+    },
+    "sound/es.mp3": {
+      "bytes": 12384,
+      "sha1": "aa6af800c2ce731f4cf20d0f526b9690a522eb0a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "cce19907af88086b2ace3b93666638dbffe7b3db"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11952,
+      "sha1": "33bd6dafab9d63b92ba829c98498fbf0bfa69ce9"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11664,
+      "sha1": "9ef48962d080e2d5914da221aa65e28a4035e0b9"
     }
   }
 }

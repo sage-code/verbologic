@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, stația este pe această stradă."
+      "name": "Da, stația este pe această stradă.",
+      "description": "O afirmație care confirmă că stația se află pe această stradă."
+    },
+    "en": {
+      "description": "A statement confirming that the station is located on this street.",
+      "name": "Yes, the station is on this street."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass sich die Haltestelle in dieser Straße befindet.",
+      "name": "Ja, die Haltestelle ist in dieser Straße."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее, что остановка находится на этой улице.",
+      "name": "Да, остановка на этой улице."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che la fermata si trova in questa strada.",
+      "name": "Sì, la fermata è su questa strada."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que la estación se encuentra en esta calle.",
+      "name": "Sí, la estación está en esta calle."
+    },
+    "fr": {
+      "description": "Une affirmation confirmant que la station se trouve dans cette rue.",
+      "name": "Oui, la station est dans cette rue."
+    },
+    "hu": {
+      "description": "Kijelentés, amely megerősíti, hogy a megálló ezen az utcán található.",
+      "name": "Igen, a megálló ezen az utcán van."
+    },
+    "pt": {
+      "description": "Uma afirmação confirmando que a estação fica nesta rua.",
+      "name": "Sim, a estação fica nesta rua."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 21168,
       "sha1": "b2de0c6e9354c81769e300307f7dced2e4526ae9"
+    },
+    "sound/en.mp3": {
+      "bytes": 15120,
+      "sha1": "dc0db59e55d8b254f6f4e3a4d0955623f77f100e"
+    },
+    "sound/de.mp3": {
+      "bytes": 21600,
+      "sha1": "96d0385a9d489c965b60db1e58281948a21705d2"
+    },
+    "sound/ru.mp3": {
+      "bytes": 20304,
+      "sha1": "983983c8d368303deead746b4261bf848c0d3e1d"
+    },
+    "sound/es.mp3": {
+      "bytes": 17712,
+      "sha1": "4918229b07359d3f7e9cb8dc009146f12c3e3f72"
+    },
+    "sound/it.mp3": {
+      "bytes": 16128,
+      "sha1": "2e0b4dcf58a94e3e6e7f706f564ba07848ca0c9f"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17856,
+      "sha1": "6d9d66b55fe9df05bc059ae2774de646bddc22c2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 19584,
+      "sha1": "ff60a10f4b332f8d4b09416badbff2df001802f6"
+    },
+    "sound/hu.mp3": {
+      "bytes": 22320,
+      "sha1": "c3da4578a4e72d5628b7708404938ee8215d3a43"
     }
   }
 }

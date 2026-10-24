@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Ești fericit azi?"
+      "name": "Ești fericit azi?",
+      "description": "O întrebare care cere să afle dacă cineva este fericit astăzi."
+    },
+    "en": {
+      "description": "A question asking if someone is happy today.",
+      "name": "Are you happy today?"
+    },
+    "de": {
+      "description": "Eine Frage, die danach fragt, ob jemand heute glücklich ist.",
+      "name": "Bist du heute glücklich?"
+    },
+    "ru": {
+      "description": "Вопрос о том, счастлив ли человек сегодня.",
+      "name": "Ты счастлив сегодня?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere se qualcuno è felice oggi.",
+      "name": "Sei felice oggi?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si alguien está feliz hoy.",
+      "name": "¿Estás feliz hoy?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un est heureux aujourd'hui.",
+      "name": "Es-tu heureux aujourd'hui ?"
+    },
+    "hu": {
+      "description": "Egy kérdés, amely arról érdeklődik, hogy valaki boldog-e ma.",
+      "name": "Boldog vagy ma?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se alguém está feliz hoje.",
+      "name": "Você está feliz hoje?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13248,
       "sha1": "7ec329b20f19396b780a25ffb10de3610aebebc4"
+    },
+    "sound/en.mp3": {
+      "bytes": 7200,
+      "sha1": "73a19330853b3f599b472abc5a1c107d0e2b9738"
+    },
+    "sound/de.mp3": {
+      "bytes": 13392,
+      "sha1": "2ca199baeca50974f77e0c992b52ab60b9f44a3d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13968,
+      "sha1": "275385828542cc23b7fd5749f283d59272500f4b"
+    },
+    "sound/it.mp3": {
+      "bytes": 13824,
+      "sha1": "461ce0052b4f46bcf346622d8dfb94c7836af52a"
+    },
+    "sound/es.mp3": {
+      "bytes": 11952,
+      "sha1": "6f879415a35b2305d14e6fa008fb8dd6622c4ec5"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12096,
+      "sha1": "d2d220ce47431f84ba4a52acb4529e7219189660"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "a48a1aff016ac008ee8b06ff4a0609296dc73d88"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12816,
+      "sha1": "215d3e49c5c0d74ae789375eba286a03c446160d"
     }
   }
 }

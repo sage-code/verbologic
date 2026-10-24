@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, am temă azi."
+      "name": "Nu, am temă azi.",
+      "description": "O afirmație care spune că cineva are teme astăzi."
+    },
+    "en": {
+      "description": "A statement saying that one has homework today.",
+      "name": "No, I have homework today."
+    },
+    "de": {
+      "description": "Eine Aussage, dass man heute Hausaufgaben hat.",
+      "name": "Nein, ich habe heute Hausaufgaben."
+    },
+    "ru": {
+      "description": "Утверждение о том, что сегодня есть домашнее задание.",
+      "name": "Нет, у меня сегодня домашнее задание."
+    },
+    "it": {
+      "description": "Un'affermazione in cui si dice di avere compiti per oggi.",
+      "name": "No, ho i compiti oggi."
+    },
+    "es": {
+      "description": "Una afirmación que indica que se tienen deberes hoy.",
+      "name": "No, hoy tengo deberes."
+    },
+    "fr": {
+      "description": "Une affirmation indiquant que l'on a des devoirs aujourd'hui.",
+      "name": "Non, j'ai des devoirs aujourd'hui."
+    },
+    "hu": {
+      "description": "Egy állítás, amely szerint az embernek ma házi feladata van.",
+      "name": "Nem, ma van házi feladatom."
+    },
+    "pt": {
+      "description": "Uma afirmação dizendo que a pessoa tem lição de casa hoje.",
+      "name": "Não, eu tenho lição de casa hoje."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13968,
       "sha1": "4c4944720c4b089ad3bf126d3fcd75fb447faf02"
+    },
+    "sound/en.mp3": {
+      "bytes": 11952,
+      "sha1": "2842bd7872dacc0ea9552cf2ef4ef13a13785ecc"
+    },
+    "sound/de.mp3": {
+      "bytes": 19440,
+      "sha1": "fa5d117d09071b8b0119a8e4e2d86a72a9585f79"
+    },
+    "sound/ru.mp3": {
+      "bytes": 22896,
+      "sha1": "2325dfae9ab4e3b6a6bfb1dcc4c16da807e80d4b"
+    },
+    "sound/it.mp3": {
+      "bytes": 18000,
+      "sha1": "78e9d6af832ab852c15b0b5ead7b939a8bbfa4a1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16560,
+      "sha1": "0997c36cf1ee320c3907666ee249b3e052d13d4c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16992,
+      "sha1": "4b52a273c07a98b2c68c00c76a98052135445f1a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16128,
+      "sha1": "7050722f267cfa7494fee2f8305257524349f582"
+    },
+    "sound/es.mp3": {
+      "bytes": 16272,
+      "sha1": "16fb82758123fbdeed4c97df5d3410273af656fc"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Eu sunt Maria."
+      "name": "Eu sunt Maria.",
+      "description": "O declarație simplă prin care cineva se prezintă ca Maria."
+    },
+    "en": {
+      "description": "A simple statement introducing oneself as Maria.",
+      "name": "I am Maria."
+    },
+    "de": {
+      "description": "Eine einfache Aussage, mit der man sich als Maria vorstellt.",
+      "name": "Ich bin Maria."
+    },
+    "ru": {
+      "description": "Простое высказывание, представляющее себя как Марию.",
+      "name": "Я Мария."
+    },
+    "it": {
+      "description": "Una semplice affermazione con cui ci si presenta come Maria.",
+      "name": "Io sono Maria."
+    },
+    "es": {
+      "description": "Una simple afirmación presentándose como María.",
+      "name": "Yo soy María."
+    },
+    "fr": {
+      "description": "Une simple déclaration pour se présenter sous le nom de Maria.",
+      "name": "Je suis Maria."
+    },
+    "hu": {
+      "description": "Egy egyszerű állítás, amellyel valaki Mariaként mutatkozik be.",
+      "name": "Maria vagyok."
+    },
+    "pt": {
+      "description": "Uma declaração simples apresentando-se como Maria.",
+      "name": "Eu sou Maria."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12096,
       "sha1": "ac9a78a736db0b45311ed61495429bd5bbd2d951"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d24054455d19e2b2bb2c29591350f5aa1ff52b04"
+    },
+    "sound/de.mp3": {
+      "bytes": 11088,
+      "sha1": "3530c66b2ef63ca1698ab3b1c16838764e5a22b6"
+    },
+    "sound/it.mp3": {
+      "bytes": 12672,
+      "sha1": "a1c018895a4c8a6b50a8ef0898040787987ec452"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12528,
+      "sha1": "6d950e45a521281c9c0b3a9fe49e0bb0b93ae735"
+    },
+    "sound/es.mp3": {
+      "bytes": 12096,
+      "sha1": "778f45f761d718d187348f455d3fcebfba8493b1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "d8f8e0ac9c0bddcc7360f1c9cab5c1e4006eb5b0"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "eae09c48d4de98b5981b094972459bb47e313d4c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "84161d6fdefd38f04c6a42c08178e93bc52d846d"
     }
   }
 }

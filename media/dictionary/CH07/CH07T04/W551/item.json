@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "concert"
+      "name": "concert",
+      "description": "This entry represents vocabulary item W551 from chapter 7, topic 4."
     },
     "ro": {
       "name": "concert",
-      "ipa": "/konˈtʃert/"
+      "ipa": "/konˈtʃert/",
+      "description": "Această intrare reprezintă elementul de vocabular W551 din capitolul 7, tema 4."
     },
     "de": {
-      "name": "Konzert"
+      "name": "Konzert",
+      "description": "Dieser Eintrag stellt den Wortschatzeintrag W551 aus Kapitel 7, Thema 4 dar."
     },
     "ru": {
-      "name": "концерт"
+      "name": "концерт",
+      "description": "Эта запись представляет словарный элемент W551 из главы 7, темы 4."
     },
     "it": {
-      "name": "concerto"
+      "name": "concerto",
+      "description": "Questa voce rappresenta l'elemento di vocabolario W551 del capitolo 7, argomento 4."
     },
     "es": {
-      "name": "concierto"
+      "name": "concierto",
+      "description": "Esta entrada representa el elemento de vocabulario W551 del capítulo 7, tema 4."
     },
     "fr": {
-      "name": "concert"
+      "name": "concert",
+      "description": "Cette entrée représente l'élément de vocabulaire W551 du chapitre 7, thème 4."
     },
     "hu": {
-      "name": "koncert"
+      "name": "koncert",
+      "description": "Ez a bejegyzés a 7. fejezet 4. témájának W551 szókincselemét jelöli."
     },
     "pt": {
-      "name": "concerto"
+      "name": "concerto",
+      "description": "Esta entrada representa o item de vocabulário W551 do capítulo 7, tópico 4."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "40db767cce7e6dd2d1d132f5c6ad0b922f2ea5d3"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "104811e8884dd628d27f23ab201ee2eeae5df863"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "82ee6e3c408dbc134dc9eedc8ee37589ebcbdf57"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "2d7e2c37a08ffb1b41e69e6455472060dec29726"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "f12fb6d65270ae3177225ed193143464fc78f97b"
+    },
+    "sound/es.mp3": {
+      "bytes": 9216,
+      "sha1": "60b3a03fbbea17dd7993899e57be499478f0a6bd"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "acd6d3f6527e9a88b64529c5af616db644e2d338"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "613718c74e95301147ed5be1d8fd779f9dc749d0"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "fc429654d0fc5ad7d42f3311e47f3f65350ed63c"
     }
   }
 }

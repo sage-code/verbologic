@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Weather"
+      "name": "Weather",
+      "description": "This topic introduces vocabulary related to the weather."
     },
     "ro": {
       "name": "Vremea",
-      "ipa": "/ˈvremea/"
+      "ipa": "/ˈvremea/",
+      "description": "Această temă prezintă vocabular legat de vreme."
+    },
+    "de": {
+      "description": "Dieses Thema führt Wortschatz rund um das Wetter ein.",
+      "name": "Wetter"
+    },
+    "ru": {
+      "description": "В этой теме представлена лексика, связанная с погодой.",
+      "name": "Погода"
+    },
+    "it": {
+      "description": "Questo argomento introduce il vocabolario relativo al tempo atmosferico.",
+      "name": "Meteo"
+    },
+    "es": {
+      "description": "Este tema presenta vocabulario relacionado con el clima.",
+      "name": "Tiempo"
+    },
+    "fr": {
+      "description": "Ce thème présente le vocabulaire lié à la météo.",
+      "name": "Météo"
+    },
+    "hu": {
+      "description": "Ez a témakör az időjárással kapcsolatos szókincset mutatja be.",
+      "name": "Időjárás"
+    },
+    "pt": {
+      "description": "Este tópico apresenta vocabulário relacionado com o tempo.",
+      "name": "Tempo"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "e6b19456258ecbf6d2d8c4124c97cfbe41889aa7"
+    },
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "086a4aa16435781edc462f1607197425506ef545"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "b3d68fc64e9287daca2b3bed322be6d27a9cc425"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "17b4e35cddeb3539fd20ac5cb0e53906dfedcade"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "8340117e7481e5b326cd50c92bd91435bad37c9a"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "1d295caf22cafa0bd1f1f22a55f4d991cfa75609"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "bf1c97c02e13f3fdfa8e55e09d6113df2d7cda78"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "2612c2db70ed2cdda8acdeb89a9f6d300375b9f5"
+    },
+    "sound/pt.mp3": {
+      "bytes": 8208,
+      "sha1": "eba9a933902b8d8fd07bc4770ad1bd4c18599253"
     }
   }
 }

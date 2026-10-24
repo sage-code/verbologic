@@ -11,11 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Delighted to meet you"
+      "name": "Delighted to meet you",
+      "description": "A polite expression used when meeting someone for the first time."
     },
     "ro": {
       "name": "Încântat de cunoștință",
-      "context": "Polite formula when meeting someone for the first time."
+      "context": "Polite formula when meeting someone for the first time.",
+      "description": "O expresie politicoasă folosită la prima întâlnire cu cineva."
+    },
+    "de": {
+      "description": "Ein höflicher Ausdruck, der verwendet wird, wenn man jemanden zum ersten Mal trifft.",
+      "name": "Sehr erfreut, Sie kennenzulernen"
+    },
+    "ru": {
+      "description": "Вежливое выражение, используемое при первом знакомстве с человеком.",
+      "name": "Очень приятно познакомиться"
+    },
+    "it": {
+      "description": "Un'espressione cortese usata quando si incontra qualcuno per la prima volta.",
+      "name": "Molto lieto di conoscerla"
+    },
+    "es": {
+      "description": "Una expresión cortés que se utiliza al conocer a alguien por primera vez.",
+      "name": "Encantado de conocerle"
+    },
+    "fr": {
+      "description": "Une expression polie utilisée lorsque l'on rencontre quelqu'un pour la première fois.",
+      "name": "Ravi de faire votre connaissance"
+    },
+    "hu": {
+      "description": "Udvarias kifejezés, amelyet akkor használunk, amikor először találkozunk valakivel.",
+      "name": "Örülök, hogy megismerhetem"
+    },
+    "pt": {
+      "description": "Uma expressão educada usada ao conhecer alguém pela primeira vez.",
+      "name": "Muito prazer em conhecê-lo"
+    }
+  },
+  "files": {
+    "sound/ro.mp3": {
+      "bytes": 14688,
+      "sha1": "fc8314b85f0f7ac0125a199f1e411b4044bdefa7"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "984e6a05e9195f9bfdfcf74b5be33f1a350444ac"
+    },
+    "sound/es.mp3": {
+      "bytes": 15120,
+      "sha1": "6490ee96afbdbebb89bdd2b4103bfa53948c3880"
+    },
+    "sound/de.mp3": {
+      "bytes": 19440,
+      "sha1": "ba46bfdc0ebaf7a453919f86e018c72c96803d4a"
+    },
+    "sound/it.mp3": {
+      "bytes": 11664,
+      "sha1": "8ecaa3a5f6c688c453abbd63d82ca2c39936792e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15984,
+      "sha1": "d7b0855777ba0b7b8cd4b37ebd1a4e57092eddf3"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17856,
+      "sha1": "d6b4fe9313431d8ea98e6e546611a1c38a013129"
+    },
+    "sound/hu.mp3": {
+      "bytes": 18864,
+      "sha1": "3a4230ab785405b03b8b9d347283fdadf092f854"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16272,
+      "sha1": "911b924300a4594ac800d02965d371bf20a49a00"
     }
   }
 }

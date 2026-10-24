@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "He is my friend."
+      "name": "He is my friend.",
+      "description": "A simple sentence used to state that someone is your friend."
     },
     "ro": {
-      "name": "El este prietenul meu."
+      "name": "El este prietenul meu.",
+      "description": "O propoziție simplă folosită pentru a spune că cineva este prietenul tău."
+    },
+    "de": {
+      "description": "Ein einfacher Satz, um zu sagen, dass jemand dein Freund ist.",
+      "name": "Er ist mein Freund."
+    },
+    "ru": {
+      "description": "Простое предложение, используемое для сообщения о том, что кто-то является вашим другом.",
+      "name": "Он мой друг."
+    },
+    "it": {
+      "description": "Una frase semplice usata per dire che qualcuno è un tuo amico.",
+      "name": "Lui è mio amico."
+    },
+    "es": {
+      "description": "Una oración simple que se usa para decir que alguien es tu amigo.",
+      "name": "Él es mi amigo."
+    },
+    "fr": {
+      "description": "Une phrase simple utilisée pour dire que quelqu'un est votre ami.",
+      "name": "Il est mon ami."
+    },
+    "hu": {
+      "description": "Egyszerű mondat annak kifejezésére, hogy valaki a barátod.",
+      "name": "Ő a barátom."
+    },
+    "pt": {
+      "description": "Uma frase simples usada para dizer que alguém é seu amigo.",
+      "name": "Ele é meu amigo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15120,
       "sha1": "f5100740e50fc1d79665e486bb1194727137a823"
+    },
+    "sound/it.mp3": {
+      "bytes": 12960,
+      "sha1": "2a4b942cd1102812e6094555881db55b74146cf4"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11808,
+      "sha1": "a0581c1daa40e6cb0037a53b58565aac3300f5ae"
+    },
+    "sound/de.mp3": {
+      "bytes": 12528,
+      "sha1": "886fb55cf12acab28bccc6962c1f0732e6fce1b3"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "1eeeacfa8450822254a897df21f9597050e7585d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "45af9df9ad0f84b0016c992166ec4996df7ac967"
+    },
+    "sound/es.mp3": {
+      "bytes": 11952,
+      "sha1": "4166da377df65847d27fb1db0a48a36e97a91ba2"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "3c5b2d1b944f6d7e401d98790d991d09bbc5a137"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11376,
+      "sha1": "5cac48144e6b48090dfc0f2299ad2081f99b2da1"
     }
   }
 }

@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Follow the street."
+      "name": "Follow the street.",
+      "description": "This imperative phrase gives a direction command to follow a street."
     },
     "ro": {
-      "name": "Urmează strada."
+      "name": "Urmează strada.",
+      "description": "Această expresie la modul imperativ oferă o indicație de orientare de a urma o stradă."
+    },
+    "de": {
+      "description": "Diese Aufforderung gibt eine Richtungsanweisung, einer Straße zu folgen.",
+      "name": "Folgen Sie der Straße."
+    },
+    "ru": {
+      "description": "Эта фраза в повелительном наклонении указывает направление и призывает следовать по улице.",
+      "name": "Следуйте по улице."
+    },
+    "it": {
+      "description": "Questa frase imperativa fornisce un'indicazione stradale per seguire una strada.",
+      "name": "Segui la strada."
+    },
+    "es": {
+      "description": "Esta frase imperativa da una indicación de dirección para seguir la calle.",
+      "name": "Sigue la calle."
+    },
+    "fr": {
+      "description": "Cette phrase à l'impératif donne une indication de direction invitant à suivre une rue.",
+      "name": "Suivez la rue."
+    },
+    "hu": {
+      "description": "Ez a felszólító kifejezés útbaigazítást ad egy utca követésére.",
+      "name": "Kövesd az utcát."
+    },
+    "pt": {
+      "description": "Esta frase no imperativo dá uma instrução de direção para seguir uma rua.",
+      "name": "Siga a rua."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12384,
       "sha1": "9b8152fab4ebe5e222da1214937d640627b4faa8"
+    },
+    "sound/en.mp3": {
+      "bytes": 9072,
+      "sha1": "959a1ff9f557fabf6170211a4d2591a73523db4e"
+    },
+    "sound/de.mp3": {
+      "bytes": 13680,
+      "sha1": "992d390bdb224e6fda3dc6ef126b88e2eb1aca5c"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "818af44e16a08ba9ff7d338accf3a753aafffda5"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14688,
+      "sha1": "fb14aa55a5a99f6323672a70959d2527844d05c7"
+    },
+    "sound/es.mp3": {
+      "bytes": 11664,
+      "sha1": "ec40fc2fcff93df33872fdb5dbfd963e808237e3"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "79aa8cd1d607bd0c76f9f755652fb04d5507e680"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13680,
+      "sha1": "85db5f9dbf1273c33f547bb750528da7411839b2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12240,
+      "sha1": "028d973b4d33f1c636f42e7a378b7d57b2fe8f64"
     }
   }
 }

@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Send the video call."
+      "name": "Send the video call.",
+      "description": "A command telling someone to send a video call."
     },
     "ro": {
-      "name": "Trimite apelul video."
+      "name": "Trimite apelul video.",
+      "description": "O comandă prin care i se cere cuiva să trimită un apel video."
+    },
+    "de": {
+      "description": "Eine Aufforderung, einen Videoanruf zu senden.",
+      "name": "Sende den Videoanruf."
+    },
+    "ru": {
+      "description": "Команда отправить видеозвонок.",
+      "name": "Отправь видеозвонок."
+    },
+    "it": {
+      "description": "Un comando per dire a qualcuno di inviare una videochiamata.",
+      "name": "Invia la videochiamata."
+    },
+    "es": {
+      "description": "Una orden para indicarle a alguien que envíe una videollamada.",
+      "name": "Envía la videollamada."
+    },
+    "fr": {
+      "description": "Un ordre disant à quelqu'un d'envoyer un appel vidéo.",
+      "name": "Envoie l'appel vidéo."
+    },
+    "hu": {
+      "description": "Utasítás videohívás küldésére.",
+      "name": "Küldd el a videohívást!"
+    },
+    "pt": {
+      "description": "Um comando para dizer a alguém para enviar uma chamada de vídeo.",
+      "name": "Envie a chamada de vídeo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13824,
       "sha1": "46f50e3c3a421726b7d3dd93d3c9112dc5da2c57"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "b1405a0082c1028afad6b605a665f5af19c157cb"
+    },
+    "sound/de.mp3": {
+      "bytes": 15552,
+      "sha1": "1ed475eb8ed8f2d87da05a2e8f32aff6f79d422e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15696,
+      "sha1": "bcb8bf9ddf10c410a0c0b7499404baeaad4fd159"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "56968cdf817ebb30ed4bdea78001c8c090cb521e"
+    },
+    "sound/es.mp3": {
+      "bytes": 14112,
+      "sha1": "32eb186691ebd78b0b4720d4cc6e7b6050263638"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12960,
+      "sha1": "49c9e9f289a94f978932ec626fffe9601f9e45c3"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15696,
+      "sha1": "2620d60e733e73a5d6ee4b2fc2ae2c10b6124965"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15984,
+      "sha1": "4d2232d7342d6b6a1aaecd4a8abcdfd1c4655a96"
     }
   }
 }

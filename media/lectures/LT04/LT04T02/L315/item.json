@@ -12,13 +12,78 @@
   "locales": {
     "ro": {
       "name": "Să ne vedem sănătoși",
-      "context": "Affectionate wish, suitable when separation may be longer."
+      "context": "Affectionate wish, suitable when separation may be longer.",
+      "description": "O formulă de despărțire prin care se urează revederea cu bine și sănătate."
+    },
+    "en": {
+      "description": "A parting expression wishing that everyone remains in good health until the next meeting.",
+      "name": "Until we meet again in good health"
+    },
+    "de": {
+      "description": "Ein Abschiedsgruß, mit dem man sich ein gesundes Wiedersehen wünscht.",
+      "name": "Auf ein gesundes Wiedersehen"
+    },
+    "ru": {
+      "description": "Формула прощания с пожеланием встретиться снова в добром здравии.",
+      "name": "Увидимся в добром здравии"
+    },
+    "it": {
+      "description": "Un'espressione di commiato con cui si augura di rivedersi in buona salute.",
+      "name": "A rivederci in salute"
+    },
+    "es": {
+      "description": "Una expresión de despedida para desear reencontrarse con buena salud.",
+      "name": "Hasta que nos volvamos a ver con salud"
+    },
+    "fr": {
+      "description": "Une expression d'adieu pour souhaiter de se revoir en bonne santé.",
+      "name": "Au plaisir de se revoir en bonne santé"
+    },
+    "hu": {
+      "description": "Búcsúzási kifejezés, amellyel jó egészségben való viszontlátást kívánnak.",
+      "name": "Viszontlátásra jó egészségben"
+    },
+    "pt": {
+      "description": "Uma expressão de despedida para desejar que todos se reencontrem com saúde.",
+      "name": "Até nos vermos com saúde"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14400,
       "sha1": "e2390663caf3d1691b849c4a23bedfe1424bce83"
+    },
+    "sound/de.mp3": {
+      "bytes": 15264,
+      "sha1": "33ac6afc6496223b6bec6d34d9dbea23937ac4c4"
+    },
+    "sound/it.mp3": {
+      "bytes": 14112,
+      "sha1": "74d9a257d242a8803507dfc4e4f38150cd5a6b92"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17424,
+      "sha1": "97c11d842fab7fdce6aeb6d8fa14d392766af896"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13680,
+      "sha1": "800f798de3ca9ae21aef7f863713f0c7c038c249"
+    },
+    "sound/es.mp3": {
+      "bytes": 17568,
+      "sha1": "2dd3078ae61dd331c57125e6e4d6cc4acf6c0802"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16416,
+      "sha1": "41a263e64d2df59c77f150e2adb4b8fcbb944ec9"
+    },
+    "sound/en.mp3": {
+      "bytes": 13248,
+      "sha1": "3c21bfed28cbf8c0f156451300396e41e1a4d708"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16704,
+      "sha1": "858d6691dc14325753ac59e0598873119eba2350"
     }
   }
 }

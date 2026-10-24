@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "invoice"
+      "name": "invoice",
+      "description": "This item represents vocabulary word W681 from chapter 9, topic 5."
     },
     "ro": {
       "name": "factură",
-      "ipa": "/fakˈturə/"
+      "ipa": "/fakˈturə/",
+      "description": "Acest element reprezintă cuvântul de vocabular W681 din capitolul 9, tema 5."
     },
     "de": {
-      "name": "Rechnung"
+      "name": "Rechnung",
+      "description": "Dieser Eintrag stellt die Vokabel W681 aus Kapitel 9, Thema 5 dar."
     },
     "ru": {
-      "name": "счёт-фактура"
+      "name": "счёт-фактура",
+      "description": "Этот элемент представляет собой словарное слово W681 из главы 9, темы 5."
     },
     "it": {
-      "name": "fattura"
+      "name": "fattura",
+      "description": "Questo elemento rappresenta il vocabolo W681 del capitolo 9, tema 5."
     },
     "es": {
-      "name": "factura"
+      "name": "factura",
+      "description": "Este elemento representa la palabra de vocabulario W681 del capítulo 9, tema 5."
     },
     "fr": {
-      "name": "facture"
+      "name": "facture",
+      "description": "Cet élément représente le mot de vocabulaire W681 du chapitre 9, thème 5."
     },
     "hu": {
-      "name": "számla"
+      "name": "számla",
+      "description": "Ez az elem a 9. fejezet 5. témájához tartozó W681 szókincselemet jelöli."
     },
     "pt": {
-      "name": "fatura"
+      "name": "fatura",
+      "description": "Este item representa a palavra de vocabulário W681 do capítulo 9, tópico 5."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "4d7175c9ea2644f764d0d4346709196ea7bd35f9"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d3da365148aab9b87ee1b1b0039d2606b166ea9f"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "a5c9043c9ea090b120e6586c0ea4c0c588ad30ce"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12672,
+      "sha1": "02a27f2cbfc271d08fc628ad2c53b8434264078c"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "9598b99af633bc11729803a388bbc4937e8b8517"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "1c35a43ef2e37e34bef6664b498054b2ec958dd1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 9936,
+      "sha1": "4a5c0aa7490aa7152e0e90576796d7b632967519"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "8c177a8f1c0ffe6df8eebb99af9fd4c43d479f06"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11088,
+      "sha1": "814c91696bed60287e2913d101bcd0fb4a134f8d"
     }
   }
 }

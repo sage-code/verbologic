@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "drawing"
+      "name": "drawing",
+      "description": "This item represents vocabulary word W497 in topic six of chapter six."
     },
     "ro": {
       "name": "desen",
-      "ipa": "/deˈsen/"
+      "ipa": "/deˈsen/",
+      "description": "Acest element reprezintă cuvântul de vocabular W497 din tema șase a capitolului șase."
     },
     "de": {
-      "name": "Zeichnung"
+      "name": "Zeichnung",
+      "description": "Dieser Eintrag stellt die Vokabel W497 in Thema sechs von Kapitel sechs dar."
     },
     "ru": {
-      "name": "рисунок"
+      "name": "рисунок",
+      "description": "Этот элемент представляет словарное слово W497 в теме шесть главы шесть."
     },
     "it": {
-      "name": "disegno"
+      "name": "disegno",
+      "description": "Questo elemento rappresenta il vocabolo W497 nell'argomento sei del capitolo sei."
     },
     "es": {
-      "name": "dibujo"
+      "name": "dibujo",
+      "description": "Este elemento representa la palabra de vocabulario W497 en el tema seis del capítulo seis."
     },
     "fr": {
-      "name": "dessin"
+      "name": "dessin",
+      "description": "Cet élément représente le mot de vocabulaire W497 dans le thème six du chapitre six."
     },
     "hu": {
-      "name": "rajz"
+      "name": "rajz",
+      "description": "Ez az elem a hatodik fejezet hatodik témájának W497-es szókincsszavát képviseli."
     },
     "pt": {
-      "name": "desenho"
+      "name": "desenho",
+      "description": "Este item representa a palavra de vocabulário W497 no tópico seis do capítulo seis."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "a0c480cbadf8a7efb4b53a9542b254bddc70b934"
+    },
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "d76b2af7f372287949b602126adb1b49d87d874b"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "57bd91d671a0931c68b3fae82307b88e2d7c6c1f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10656,
+      "sha1": "729640efbf6336f54b8c9edca74e80cb3924cb8c"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "bca37f9a6264dbb0b13023617599f359f0d6d60a"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "8f4ca873025b3417356c8c2189c276b66462bada"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "7ba9e9e3d6f26965663d38feafd034c87736e7a4"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "cbffb54238ea88352b5549989d3f943f4e9062c4"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "50d32f4697082d145b03368e7f15da6c8de4847d"
     }
   }
 }

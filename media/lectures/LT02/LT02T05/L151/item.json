@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, am card."
+      "name": "Nu, am card.",
+      "description": "O afirmație care indică faptul că cineva are un card."
+    },
+    "en": {
+      "description": "A statement indicating that one has a card.",
+      "name": "No, I have a card."
+    },
+    "de": {
+      "description": "Eine Aussage, die angibt, dass man eine Karte hat.",
+      "name": "Nein, ich habe eine Karte."
+    },
+    "ru": {
+      "description": "Утверждение, указывающее на наличие карты.",
+      "name": "Нет, у меня есть карта."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che si possiede una carta.",
+      "name": "No, ho una carta."
+    },
+    "es": {
+      "description": "Una afirmación que indica que se tiene una tarjeta.",
+      "name": "No, tengo tarjeta."
+    },
+    "fr": {
+      "description": "Une déclaration indiquant que l'on possède une carte.",
+      "name": "Non, j'ai une carte."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely jelzi, hogy az embernek van kártyája.",
+      "name": "Nem, kártyám van."
+    },
+    "pt": {
+      "description": "Uma afirmação indicando que se tem um cartão.",
+      "name": "Não, eu tenho cartão."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13392,
       "sha1": "e03f703a2e08e836cd5073a5f2a6bd82eb523cdd"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "099a73261478362737a89037b4a912a88f061262"
+    },
+    "sound/de.mp3": {
+      "bytes": 16272,
+      "sha1": "c7ea31ce3e664ecb22fd206ee32ff9b8d60f4613"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14544,
+      "sha1": "dfa3696bc92a2f76e3d9f4b429946257e28e9c86"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "bc378b4d6f3bd75ef4c84561e3c13781fc6fa735"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16992,
+      "sha1": "dfaa7c5f23c2523b8dd999a3140e4189852a27d5"
+    },
+    "sound/es.mp3": {
+      "bytes": 14256,
+      "sha1": "4eaad6e5a35b5d5656a1c17625b6325fcfa7d8c6"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16416,
+      "sha1": "1ee4c97116dc27623b4ece8d21f76c1115bfc226"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16128,
+      "sha1": "971ae1c9a1b22aaddbbaa7c280560f2508cb90f8"
     }
   }
 }

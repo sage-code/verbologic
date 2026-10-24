@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Ședința este azi?"
+      "name": "Ședința este azi?",
+      "description": "O întrebare prin care se întreabă dacă ședința are loc astăzi."
+    },
+    "en": {
+      "description": "A question asking whether the meeting takes place today.",
+      "name": "Is the meeting today?"
+    },
+    "de": {
+      "description": "Eine Frage, die sich erkundigt, ob die Besprechung heute stattfindet.",
+      "name": "Ist die Besprechung heute?"
+    },
+    "ru": {
+      "description": "Вопрос о том, состоится ли собрание сегодня.",
+      "name": "Собрание сегодня?"
+    },
+    "it": {
+      "description": "Una domanda che chiede se la riunione si tiene oggi.",
+      "name": "La riunione è oggi?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si la reunión se celebra hoy.",
+      "name": "¿La reunión es hoy?"
+    },
+    "fr": {
+      "description": "Une question demandant si la réunion a lieu aujourd'hui.",
+      "name": "La réunion est aujourd'hui ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy ma tartják-e a megbeszélést.",
+      "name": "Ma van a megbeszélés?"
+    },
+    "pt": {
+      "description": "Uma pergunta para saber se a reunião acontece hoje.",
+      "name": "A reunião é hoje?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13536,
       "sha1": "cb2b313064cd4c5a03b7a6a039148fb28828b1c2"
+    },
+    "sound/it.mp3": {
+      "bytes": 9792,
+      "sha1": "71510ad9bbfdfcd2a28e31f14e1574dd85d216d6"
+    },
+    "sound/de.mp3": {
+      "bytes": 14544,
+      "sha1": "7853e88c061e826888c3972b2295542e7a10c74a"
+    },
+    "sound/es.mp3": {
+      "bytes": 13392,
+      "sha1": "67d641e038122a3c5b0f6eddf9cd3b9090b3f908"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "dd5c8214ee301ed5a96e56a1719b478081decceb"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14688,
+      "sha1": "2cd5cbea064cae618e5f4d139bebf160ed2887d6"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14688,
+      "sha1": "b6120cde7e84e0e4255b8a08aad6bac7c2baa8b9"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15408,
+      "sha1": "b1d5c1b9bb08cf76a9006a51c73aa0894dbf1c26"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14400,
+      "sha1": "8bb7a2f3d0e6658414c6de67378a6875c3fd3edf"
     }
   }
 }

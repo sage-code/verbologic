@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "swing"
+      "name": "swing",
+      "description": "This item provides a practice scaffold for Chapter 2, Topic 7."
     },
     "ro": {
       "name": "leagăn",
-      "ipa": "/ˈleagən/"
+      "ipa": "/ˈleagən/",
+      "description": "Acest element oferă o structură de exersare pentru capitolul 2, tema 7."
     },
     "de": {
-      "name": "Schaukel"
+      "name": "Schaukel",
+      "description": "Dieses Element bietet ein Übungsgerüst für Kapitel 2, Thema 7."
     },
     "ru": {
-      "name": "Качели"
+      "name": "Качели",
+      "description": "Этот элемент служит учебной опорой для темы 7 главы 2."
     },
     "it": {
-      "name": "altalena"
+      "name": "altalena",
+      "description": "Questo elemento fornisce un supporto di esercitazione per il capitolo 2, argomento 7."
     },
     "es": {
-      "name": "columpio"
+      "name": "columpio",
+      "description": "Este elemento proporciona una estructura de práctica para el capítulo 2, tema 7."
     },
     "fr": {
-      "name": "balançoire"
+      "name": "balançoire",
+      "description": "Cet élément fournit un cadre d'exercice pour le chapitre 2, thème 7."
     },
     "hu": {
-      "name": "Hinta"
+      "name": "Hinta",
+      "description": "Ez az elem gyakorlási támpontot nyújt a 2. fejezet 7. témájához."
     },
     "pt": {
-      "name": "Balanço"
+      "name": "Balanço",
+      "description": "Este item fornece uma estrutura de prática para o capítulo 2, tópico 7."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "19f6dad5ab02cc97cb5facae9f504be9c6e36f52"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "cbf6993d10c431ef3f54852ecd6e9f3319677ac1"
+    },
+    "sound/de.mp3": {
+      "bytes": 9504,
+      "sha1": "edf34892bba6cc633e61ee88448b7d9388693852"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10656,
+      "sha1": "060765e25c427f8f8fd4aaddb41a2ca888b4f1db"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "9e6f62be904d1812cf24ceaf929c59aad54e090c"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "87c4754f19f9f407e3b46b6bd8140cbdc2f77649"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11376,
+      "sha1": "23da860eeb5b574492b2d76cb6d293764321683a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "4146f4342d534a677618a31eb15f88845c967cb5"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11664,
+      "sha1": "3bf31905b4bf2f0de5c785cd0ee8dea250d17547"
     }
   }
 }

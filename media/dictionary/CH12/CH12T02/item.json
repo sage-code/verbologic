@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Proverbs & sayings"
+      "name": "Proverbs & sayings",
+      "description": "This topic covers common proverbs and sayings."
     },
     "ro": {
       "name": "Proverbe și zicători",
-      "ipa": "/proˈverbe ʃi ziˈkətorʲ/"
+      "ipa": "/proˈverbe ʃi ziˈkətorʲ/",
+      "description": "Această temă acoperă proverbe și zicători comune."
+    },
+    "de": {
+      "description": "Dieses Thema behandelt gängige Sprichwörter und Redewendungen.",
+      "name": "Sprichwörter & Redewendungen"
+    },
+    "ru": {
+      "description": "В этой теме рассматриваются распространенные пословицы и поговорки.",
+      "name": "Пословицы и поговорки"
+    },
+    "it": {
+      "description": "Questo argomento tratta proverbi e detti comuni.",
+      "name": "Proverbi e detti"
+    },
+    "es": {
+      "description": "Este tema trata sobre proverbios y refranes comunes.",
+      "name": "Proverbios y refranes"
+    },
+    "fr": {
+      "description": "Ce thème aborde des proverbes et dictons courants.",
+      "name": "Proverbes et dictons"
+    },
+    "hu": {
+      "description": "Ez a témakör a gyakori közmondásokat és szólásokat mutatja be.",
+      "name": "Közmondások és szólások"
+    },
+    "pt": {
+      "description": "Este tópico aborda provérbios e ditados comuns.",
+      "name": "Provérbios e ditados"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14112,
       "sha1": "401376915bfed57a3fdf92575855b37c9fa9231b"
+    },
+    "sound/en.mp3": {
+      "bytes": 10512,
+      "sha1": "eae8432cfa498337d5c54788439d900c9409cbdf"
+    },
+    "sound/de.mp3": {
+      "bytes": 16416,
+      "sha1": "97bdc669acd2a173bbd11cc9101a7ff75385d5a0"
+    },
+    "sound/it.mp3": {
+      "bytes": 12672,
+      "sha1": "af743e3c8e4b0add0be187a1fc6c95b122618f66"
+    },
+    "sound/es.mp3": {
+      "bytes": 14256,
+      "sha1": "367cb6507f060c268d0e1921c9be8df443eba805"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11664,
+      "sha1": "2984a3dcd4908ba574ffa4e57e5f89e2445570c9"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14688,
+      "sha1": "a14fd5afa263a76ec884828f0c08c1c577653fc3"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13536,
+      "sha1": "7f8ea96fb4c1388e15ee59a0f0d9159d225096d8"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16128,
+      "sha1": "ad2e7aa35d2740eb25919f3ded86a830cffcdc9e"
     }
   }
 }

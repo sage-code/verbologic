@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, poliția vine."
+      "name": "Nu, poliția vine.",
+      "description": "O propoziție care indică faptul că poliția este pe drum."
+    },
+    "en": {
+      "description": "A sentence indicating that the police are on their way.",
+      "name": "No, the police are coming."
+    },
+    "de": {
+      "description": "Ein Satz, der angibt, dass die Polizei unterwegs ist.",
+      "name": "Nein, die Polizei kommt."
+    },
+    "ru": {
+      "description": "Предложение, указывающее на то, что полиция уже в пути.",
+      "name": "Нет, полиция едет."
+    },
+    "it": {
+      "description": "Una frase che indica che la polizia sta arrivando.",
+      "name": "No, la polizia sta arrivando."
+    },
+    "es": {
+      "description": "Una frase que indica que la policía está en camino.",
+      "name": "No, la policía viene."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que la police arrive.",
+      "name": "Non, la police arrive."
+    },
+    "hu": {
+      "description": "Mondat, amely jelzi, hogy a rendőrség úton van.",
+      "name": "Nem, jön a rendőrség."
+    },
+    "pt": {
+      "description": "Uma frase indicando que a polícia está a caminho.",
+      "name": "Não, a polícia está vindo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14688,
       "sha1": "717c749d6358a9e7e7ea59165df38f78f7e4b3d7"
+    },
+    "sound/en.mp3": {
+      "bytes": 13968,
+      "sha1": "9bf428019fbdfc8210e236ddc905fad1462d794f"
+    },
+    "sound/de.mp3": {
+      "bytes": 16848,
+      "sha1": "2387ce0256da2ef0afdb5249a14e4bd1bfcedf56"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16992,
+      "sha1": "cd08d21b818d863acbec8fe8cabe4641547d037c"
+    },
+    "sound/it.mp3": {
+      "bytes": 14688,
+      "sha1": "7b6ed56a8cc7cc02883881727de4d0886b228e12"
+    },
+    "sound/es.mp3": {
+      "bytes": 15408,
+      "sha1": "87d8e5b2d34401bceb5af0225603a9c6657f8022"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15696,
+      "sha1": "04bbbd5694af39b821b31cbe531f6d863a2cc248"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17712,
+      "sha1": "657a4d8fca056aa1f4c291e2cf7e8218db175af2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17424,
+      "sha1": "4937a68bff817b31eaa9bf9c22ec2326aa7c35b6"
     }
   }
 }

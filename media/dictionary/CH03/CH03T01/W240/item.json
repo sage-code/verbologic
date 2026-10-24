@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "to eat"
+      "name": "to eat",
+      "description": "This vocabulary item relates to daily routines."
     },
     "ro": {
       "name": "a mânca",
-      "ipa": "/a mɨnˈka/"
+      "ipa": "/a mɨnˈka/",
+      "description": "Acest element de vocabular se referă la rutina zilnică."
     },
     "de": {
-      "name": "essen"
+      "name": "essen",
+      "description": "Dieser Wortschatzeintrag bezieht sich auf den Tagesablauf."
     },
     "ru": {
-      "name": "есть"
+      "name": "есть",
+      "description": "Эта словарная единица относится к распорядку дня."
     },
     "it": {
-      "name": "mangiare"
+      "name": "mangiare",
+      "description": "Questo elemento di vocabolario si riferisce alla routine quotidiana."
     },
     "es": {
-      "name": "comer"
+      "name": "comer",
+      "description": "Este elemento de vocabulario se refiere a la rutina diaria."
     },
     "fr": {
-      "name": "manger"
+      "name": "manger",
+      "description": "Cet élément de vocabulaire se rapporte à la routine quotidienne."
     },
     "hu": {
-      "name": "enni"
+      "name": "enni",
+      "description": "Ez a szókincselem a napirendhez kapcsolódik."
     },
     "pt": {
-      "name": "comer"
+      "name": "comer",
+      "description": "Este item de vocabulário refere-se à rotina diária."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "cc04131962d98fe2c350801e5b15fbaf42d08cc6"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d03379126e633eee3a0ec008882b6fb435fa9dac"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "75901c160c298d54e354630e61bd8e6c0b2ad0cb"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10368,
+      "sha1": "52a96aad158d67e3be94ac80e636f0f517f0c728"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "30805fe177c3397397c6dadf7ae3863f886cf2d5"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "7a6f3fa3c6cc3f78dd24354ca2c7428f2de1f8b8"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "f6023bb3902e86ebccda08b4e94191645a6e695f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "efe4ac92e0ecefd6267f87f4163858d33b1ff9e5"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "489020e9ae8a0e5b746a7acf384a73b5a948cc1b"
     }
   }
 }

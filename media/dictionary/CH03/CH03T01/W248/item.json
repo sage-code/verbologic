@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "to sleep"
+      "name": "to sleep",
+      "description": "To get into bed in order to sleep."
     },
     "ro": {
       "name": "a dormi",
-      "ipa": "/a dorˈmi/"
+      "ipa": "/a dorˈmi/",
+      "description": "A se așeza în pat pentru a dormi."
     },
     "de": {
-      "name": "schlafen"
+      "name": "schlafen",
+      "description": "Sich ins Bett legen, um zu schlafen."
     },
     "ru": {
-      "name": "спать"
+      "name": "спать",
+      "description": "Ложиться в постель, чтобы уснуть."
     },
     "it": {
-      "name": "dormire"
+      "name": "dormire",
+      "description": "Mettersi a letto per dormire."
     },
     "es": {
-      "name": "dormir"
+      "name": "dormir",
+      "description": "Meterse en la cama para dormir."
     },
     "fr": {
-      "name": "dormir"
+      "name": "dormir",
+      "description": "Se mettre au lit pour dormir."
     },
     "hu": {
-      "name": "aludni"
+      "name": "aludni",
+      "description": "Befeküdni az ágyba aludni."
     },
     "pt": {
-      "name": "dormir"
+      "name": "dormir",
+      "description": "Deitar-se na cama para dormir."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "ad4e8012c6006bb42f92848d5bcc4b247ce87f68"
+    },
+    "sound/en.mp3": {
+      "bytes": 6768,
+      "sha1": "780a5b69de7a0172fa60d799d0a101d61f3d3064"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "487e43adad5cd10784f523c143bb42eb8fb14e23"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "6655f64b955e5d791fbb77c83ce6606a7d41315f"
+    },
+    "sound/it.mp3": {
+      "bytes": 6480,
+      "sha1": "592f2c37f2053051f385987d82d8d2bcff5788d9"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "b20a5c202e2ff80bedd8ed6838cc4aff11c8482d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "1cabf1cd360c48d9287c05e4cbfd70f20007d55c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "2bb6ed3867f413a24660afbf6a95ad12a737d695"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "b0cc9409ec7cf2132f59eac6865bcf8e103839c9"
     }
   }
 }

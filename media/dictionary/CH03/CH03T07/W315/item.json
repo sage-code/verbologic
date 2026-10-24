@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "upset"
+      "name": "upset",
+      "description": "This word relates to emotions and social interactions."
     },
     "ro": {
       "name": "supărat",
-      "ipa": "/supəˈrat/"
+      "ipa": "/supəˈrat/",
+      "description": "Acest cuvânt este legat de emoții și interacțiuni sociale."
     },
     "de": {
-      "name": "verärgert"
+      "name": "verärgert",
+      "description": "Dieses Wort bezieht sich auf Gefühle und soziale Interaktionen."
     },
     "ru": {
-      "name": "расстроенный"
+      "name": "расстроенный",
+      "description": "Это слово относится к эмоциям и социальному взаимодействию."
     },
     "it": {
-      "name": "arrabbiato"
+      "name": "arrabbiato",
+      "description": "Questa parola si riferisce alle emozioni e alle interazioni sociali."
     },
     "es": {
-      "name": "enfadado"
+      "name": "enfadado",
+      "description": "Esta palabra se relaciona con las emociones y las interacciones sociales."
     },
     "fr": {
-      "name": "fâché"
+      "name": "fâché",
+      "description": "Ce mot se rapporte aux émotions et aux interactions sociales."
     },
     "hu": {
-      "name": "dühös"
+      "name": "dühös",
+      "description": "Ez a szó az érzelmekre és a társas kapcsolatokra vonatkozik."
     },
     "pt": {
-      "name": "chateado"
+      "name": "chateado",
+      "description": "Esta palavra relaciona-se com emoções e interações sociais."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "3b2e12297428eb74b693de01e55b2b86a302ea64"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8b750621808ea20c4d3d1d11ff576347090e8e8b"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "ea2136912b357e9d7008a1c4de6d4fa8343ce161"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11952,
+      "sha1": "cb21da876c43216a0c22fbdf590e34766d88e9c9"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "1416b5a5de73be077d2adf1eef19667810085560"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "9652577af52055d44cf2879c75dc0e2c09a95c96"
+    },
+    "sound/fr.mp3": {
+      "bytes": 9072,
+      "sha1": "ff476e08dffff36bda0da39123b7d571613a7bed"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "73a3c655e2f48fac50cd79f4686d5e99efafa39f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11808,
+      "sha1": "dbe40e6fff1860512bb1f07fcd23f293779fe5f4"
     }
   }
 }

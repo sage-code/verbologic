@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "length"
+      "name": "length",
+      "description": "This item represents vocabulary word W470 in chapter 6, topic 3."
     },
     "ro": {
       "name": "lungime",
-      "ipa": "/lunˈdʒime/"
+      "ipa": "/lunˈdʒime/",
+      "description": "Acest element reprezintă cuvântul de vocabular W470 din capitolul 6, tema 3."
     },
     "de": {
-      "name": "Länge"
+      "name": "Länge",
+      "description": "Dieser Eintrag repräsentiert die Vokabel W470 in Kapitel 6, Thema 3."
     },
     "ru": {
-      "name": "длина"
+      "name": "длина",
+      "description": "Этот элемент представляет слово W470 из главы 6, темы 3."
     },
     "it": {
-      "name": "lunghezza"
+      "name": "lunghezza",
+      "description": "Questo elemento rappresenta il vocabolo W470 nel capitolo 6, argomento 3."
     },
     "es": {
-      "name": "longitud"
+      "name": "longitud",
+      "description": "Este elemento representa la palabra de vocabulario W470 en el capítulo 6, tema 3."
     },
     "fr": {
-      "name": "longueur"
+      "name": "longueur",
+      "description": "Cet élément représente le mot de vocabulaire W470 du chapitre 6, thème 3."
     },
     "hu": {
-      "name": "hosszúság"
+      "name": "hosszúság",
+      "description": "Ez az elem a W470 szót képviseli a 6. fejezet 3. témájában."
     },
     "pt": {
-      "name": "comprimento"
+      "name": "comprimento",
+      "description": "Este item representa a palavra de vocabulário W470 no capítulo 6, tópico 3."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "d2b1c48d83751a0870792a46ecea393ddaa8ab19"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8efb2926ae0f6f69b794d4d40b6e5ab744b0584a"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "86fc97d2e6e374ecaf9ecea760abf71823925405"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10224,
+      "sha1": "5e4a2c4f9d6a4085be264018dae205d50aaa39a2"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "42aa81146ffb8ee1fdc2f65cfab6d52c359c0621"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "9b56fd684586a99dfd6517fbd6ef868d9decb4bf"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "41c3ea80089a37c35e58a1758f7df78439feda01"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11808,
+      "sha1": "d86b7ce08c44709e9208f6636e90dc268a9ebeab"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12240,
+      "sha1": "6a5c3a827f1e98148ab7d78e9b433062fa2132e1"
     }
   }
 }

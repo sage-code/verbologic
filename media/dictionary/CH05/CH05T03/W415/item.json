@@ -11,39 +11,80 @@
   ],
   "locales": {
     "en": {
-      "name": "tip"
+      "name": "tip",
+      "description": "This vocabulary word is reviewed in the restaurant topic."
     },
     "ro": {
       "name": "bacșiș",
       "ipa": "/bakˈʃiʃ/",
-      "ttsText": "bacșiiș"
+      "ttsText": "bacșiiș",
+      "description": "Acest cuvânt de vocabular este recapitulat în tema despre restaurant."
     },
     "de": {
-      "name": "Trinkgeld"
+      "name": "Trinkgeld",
+      "description": "Dieses Vokabelwort wird im Thema Restaurant wiederholt."
     },
     "ru": {
-      "name": "чаевые"
+      "name": "чаевые",
+      "description": "Это словарное слово повторяется в теме ресторана."
     },
     "it": {
-      "name": "mancia"
+      "name": "mancia",
+      "description": "Questo vocabolo viene ripassato nell'argomento del ristorante."
     },
     "es": {
-      "name": "propina"
+      "name": "propina",
+      "description": "Esta palabra de vocabulario se repasa en el tema del restaurante."
     },
     "fr": {
-      "name": "pourboire"
+      "name": "pourboire",
+      "description": "Ce mot de vocabulaire est révisé dans le thème du restaurant."
     },
     "hu": {
-      "name": "borravaló"
+      "name": "borravaló",
+      "description": "Ez a szókincselem az étterem témakörben kerül átismétlésre."
     },
     "pt": {
-      "name": "gorjeta"
+      "name": "gorjeta",
+      "description": "Esta palavra de vocabulário é revisada no tópico de restaurante."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "4c67087c8435bdc25769540e02ef6280c798fea6"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "cae4524d61e0c1efc2d708414b26b7356b229836"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "751334ebc7b9ae23bfa1e74ee1b748e02a35a628"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11952,
+      "sha1": "21d3d293ed1c59e129f003c30273969215835e4f"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "4ac5755759daa350f514f4d826828fdd80b0e78c"
+    },
+    "sound/es.mp3": {
+      "bytes": 9504,
+      "sha1": "817a2fa4c53a1def700ba9594f1d58de280e48c9"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "b6718ce232dbd56ebb6dc21d8a901f68af34af79"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11520,
+      "sha1": "b40d227df75ee135f01f471033096ba592b310c3"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11664,
+      "sha1": "d309b54891252a055fa12c17e18cdb899afb9158"
     }
   }
 }

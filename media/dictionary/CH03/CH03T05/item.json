@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Meals & drinks"
+      "name": "Meals & drinks",
+      "description": "This topic covers meals and drinks."
     },
     "ro": {
       "name": "Mese și băuturi",
-      "ipa": "/ˈmese ʃi bəˈuturi/"
+      "ipa": "/ˈmese ʃi bəˈuturi/",
+      "description": "Această temă acoperă mesele și băuturile."
+    },
+    "de": {
+      "description": "Dieses Thema behandelt Mahlzeiten und Getränke.",
+      "name": "Mahlzeiten & Getränke"
+    },
+    "ru": {
+      "description": "Эта тема охватывает приёмы пищи и напитки.",
+      "name": "Еда и напитки"
+    },
+    "it": {
+      "description": "Questo argomento tratta pasti e bevande.",
+      "name": "Pasti e bevande"
+    },
+    "es": {
+      "description": "Este tema trata sobre comidas y bebidas.",
+      "name": "Comidas y bebidas"
+    },
+    "fr": {
+      "description": "Ce thème couvre les repas et les boissons.",
+      "name": "Repas et boissons"
+    },
+    "hu": {
+      "description": "Ez a témakör az étkezésekkel és italokkal foglalkozik.",
+      "name": "Étkezések és italok"
+    },
+    "pt": {
+      "description": "Este tópico aborda refeições e bebidas.",
+      "name": "Refeições e bebidas"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13392,
       "sha1": "5fe33547a2d323ed403f6f7750409d1ef7171dc8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "e11686c1392fe0661d5fb104ef51364c005355bb"
+    },
+    "sound/de.mp3": {
+      "bytes": 16128,
+      "sha1": "e7ecbc66d2d4c558023f4fe2f1e69f7fc151a483"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14976,
+      "sha1": "bb81214d2220f5b733eb1c33d418f42d62070ce2"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "2fd8a86437ed449b954db7468e8804d3d2c1b12a"
+    },
+    "sound/es.mp3": {
+      "bytes": 13248,
+      "sha1": "5fcc98b98a6b60a2e2cb54a2da9ea70c9f913e96"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12240,
+      "sha1": "838a98c3da595b8e9de0fdc46802400ce97ae52d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15552,
+      "sha1": "2c386065d55dec47d11b02a9f17b633934feb4eb"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17568,
+      "sha1": "ec1f7ca244baa5ad42d7af0cb59bfd1ec4331e29"
     }
   }
 }

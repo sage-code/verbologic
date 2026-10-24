@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, văd norii."
+      "name": "Nu, văd norii.",
+      "description": "O propoziție care afirmă că se văd norii."
+    },
+    "en": {
+      "description": "A sentence stating that one sees the clouds.",
+      "name": "No, I see the clouds."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass man die Wolken sieht.",
+      "name": "Nein, ich sehe die Wolken."
+    },
+    "ru": {
+      "description": "Предложение о том, что говорящий видит облака.",
+      "name": "Нет, я вижу облака."
+    },
+    "it": {
+      "description": "Una frase che indica che si vedono le nuvole.",
+      "name": "No, vedo le nuvole."
+    },
+    "es": {
+      "description": "Una frase que indica que se ven las nubes.",
+      "name": "No, veo las nubes."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que l'on voit les nuages.",
+      "name": "Non, je vois les nuages."
+    },
+    "hu": {
+      "description": "Egy mondat, amely azt fejezi ki, hogy a beszélő látja a felhőket.",
+      "name": "Nem, látom a felhőket."
+    },
+    "pt": {
+      "description": "Uma frase informando que a pessoa vê as nuvens.",
+      "name": "Não, eu vejo as nuvens."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13680,
       "sha1": "b16c6341ecb28d38049237538922ffb68b4883f2"
+    },
+    "sound/en.mp3": {
+      "bytes": 13248,
+      "sha1": "478e1299569fad5ae53f26b17808b5d1a9475e62"
+    },
+    "sound/es.mp3": {
+      "bytes": 13824,
+      "sha1": "49e3252967a6a85b8c0bd8036e2177bb4437b7f0"
+    },
+    "sound/de.mp3": {
+      "bytes": 16416,
+      "sha1": "aa6cd9c2f4b4bf20f86efd1590a93921a0cb0a0d"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "6892702e0dd48d5efa264defae687ca41b70ff2c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15120,
+      "sha1": "7dc74f3272500a2dcc2bf890eb12feb201856a73"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16992,
+      "sha1": "a0ce7f33dcf7c4177e38128b31c8275b86036adf"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17856,
+      "sha1": "0b57e14ae9ead9f8847b35c523bca8cc3c68cff5"
+    },
+    "sound/hu.mp3": {
+      "bytes": 18720,
+      "sha1": "578a564ad2d429bd2940a1a3adc3695d6a82d0c9"
     }
   }
 }

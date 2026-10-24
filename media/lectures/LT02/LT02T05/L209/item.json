@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Trenul merge la oraș?"
+      "name": "Trenul merge la oraș?",
+      "description": "O întrebare prin care se întreabă dacă trenul merge la oraș."
+    },
+    "en": {
+      "description": "A question asking if the train goes to the city.",
+      "name": "Does the train go to the city?"
+    },
+    "de": {
+      "description": "Eine Frage, ob der Zug in die Stadt fährt.",
+      "name": "Fährt der Zug in die Stadt?"
+    },
+    "ru": {
+      "description": "Вопрос о том, идет ли поезд в город.",
+      "name": "Поезд едет в город?"
+    },
+    "it": {
+      "description": "Una domanda che chiede se il treno va in città.",
+      "name": "Il treno va in città?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si el tren va a la ciudad.",
+      "name": "¿El tren va a la ciudad?"
+    },
+    "fr": {
+      "description": "Une question demandant si le train va en ville.",
+      "name": "Le train va-t-il en ville ?"
+    },
+    "hu": {
+      "description": "Kérdés arról, hogy a vonat a városba megy-e.",
+      "name": "A vonat a városba megy?"
+    },
+    "pt": {
+      "description": "Uma pergunta questionando se o trem vai para a cidade.",
+      "name": "O trem vai para a cidade?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14256,
       "sha1": "baa2505cbf3fbadd100ff5afb8884acf073458c8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "7d15726186e1fd1db16bf5bee1c72b6716695015"
+    },
+    "sound/de.mp3": {
+      "bytes": 14976,
+      "sha1": "4d3ccc04f1599633d454143e00b1d699d66f63d1"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14544,
+      "sha1": "81bd4723712d74bbd99c3ea7ef38b5ed35da3be1"
+    },
+    "sound/es.mp3": {
+      "bytes": 13824,
+      "sha1": "4ed1ac8312de18e9503085bfc42daf29129ce0f4"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "78e38ebde4487eca29b115815b4505ae88adc320"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13968,
+      "sha1": "7708c8b90b11760714183d995c6bbbd37b8a6f26"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15840,
+      "sha1": "780c694c7538bcd0d0c6c4992010e5f46ab3f228"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15840,
+      "sha1": "5f11cd0b6ac481bf074bdeb2278ac81a7a59f1cc"
     }
   }
 }

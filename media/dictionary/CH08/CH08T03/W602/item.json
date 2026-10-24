@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "energy"
+      "name": "energy",
+      "description": "A contract is a formal written agreement between people or organizations."
     },
     "ro": {
       "name": "energie",
-      "ipa": "/enerˈdʒie/"
+      "ipa": "/enerˈdʒie/",
+      "description": "Un contract este un acord scris oficial între persoane sau organizații."
     },
     "de": {
-      "name": "Energie"
+      "name": "Energie",
+      "description": "Ein Vertrag ist eine formelle schriftliche Vereinbarung zwischen Personen oder Organisationen."
     },
     "ru": {
-      "name": "энергия"
+      "name": "энергия",
+      "description": "Контракт — это официальное письменное соглашение между людьми или организациями."
     },
     "it": {
-      "name": "energia"
+      "name": "energia",
+      "description": "Un contratto è un accordo formale scritto tra persone o organizzazioni."
     },
     "es": {
-      "name": "energía"
+      "name": "energía",
+      "description": "Un contrato es un acuerdo formal por escrito entre personas u organizaciones."
     },
     "fr": {
-      "name": "énergie"
+      "name": "énergie",
+      "description": "Un contrat est un accord écrit formel entre des personnes ou des organisations."
     },
     "hu": {
-      "name": "energia"
+      "name": "energia",
+      "description": "A szerződés személyek vagy szervezetek közötti hivatalos írásbeli megállapodás."
     },
     "pt": {
-      "name": "energia"
+      "name": "energia",
+      "description": "Um contrato é um acordo formal por escrito entre pessoas ou organizações."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "b24ada14e6f971eed38ed33b823aadb061207f36"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "15826a4ea73bb03711f8387f4f29062e373b914b"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "d9a8d42b69bfb07eec5728f02fbcea0cd8c69314"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12528,
+      "sha1": "d83efefbb8d6a1ba446ab66db9c7199358ccae45"
+    },
+    "sound/it.mp3": {
+      "bytes": 7200,
+      "sha1": "228181bf4cea870c27f745c5bcb7ceb43d85ba68"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "c2897dd01d53312ee18b4460fdc5a4c94f83b7b4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "36ef5fbbf09b845f36596ac0a02435833284c5a1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "f69d6aa227999e33d58f3d43e07678ce25908292"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11376,
+      "sha1": "49bfd9ec8013455a573d9d4bc947668fdd9c208a"
     }
   }
 }

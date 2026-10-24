@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "test tube"
+      "name": "test tube",
+      "description": "This is a vocabulary item for the science lab topic."
     },
     "ro": {
       "name": "eprubetă",
-      "ipa": "/eprubeˈtə/"
+      "ipa": "/eprubeˈtə/",
+      "description": "Acesta este un element de vocabular pentru tema laboratorului de științe."
     },
     "de": {
-      "name": "Reagenzglas"
+      "name": "Reagenzglas",
+      "description": "Dies ist ein Vokabeleintrag für das Thema Naturwissenschaftslabor."
     },
     "ru": {
-      "name": "пробирка"
+      "name": "пробирка",
+      "description": "Это словарная статья для темы «Научная лаборатория»."
     },
     "it": {
-      "name": "provetta"
+      "name": "provetta",
+      "description": "Questa è una voce di vocabolario per l'argomento del laboratorio di scienze."
     },
     "es": {
-      "name": "tubo de ensayo"
+      "name": "tubo de ensayo",
+      "description": "Este es un elemento de vocabulario para el tema del laboratorio de ciencias."
     },
     "fr": {
-      "name": "éprouvette"
+      "name": "éprouvette",
+      "description": "Ceci est un élément de vocabulaire pour le thème du laboratoire de sciences."
     },
     "hu": {
-      "name": "kémcső"
+      "name": "kémcső",
+      "description": "Ez egy szókincselem a természettudományi laboratórium témakörhöz."
     },
     "pt": {
-      "name": "tubo de ensaio"
+      "name": "tubo de ensaio",
+      "description": "Este é um item de vocabulário para o tópico de laboratório de ciências."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "7e339a5e2056759ce47749d204e1f1928a5d6927"
+    },
+    "sound/en.mp3": {
+      "bytes": 6192,
+      "sha1": "18725e4e84aa76ec715fe322a17c249a1835e10c"
+    },
+    "sound/de.mp3": {
+      "bytes": 11952,
+      "sha1": "076e1be8d8869543dc0aeabd1841479f5f74c3a3"
+    },
+    "sound/it.mp3": {
+      "bytes": 10656,
+      "sha1": "1e1020edd098af781a2849d49807bfbef62c3468"
+    },
+    "sound/es.mp3": {
+      "bytes": 11952,
+      "sha1": "775e9fdac7af927f4f1b2548578256da2dd600a4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "ece0052d76b27a70f94eff1addd95375fcb7f005"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "99b3f6ad3886783a08c4a207f5e646f61434cb4d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "6a3327fbc95f6d244e3885a4bd3b9a9768e48267"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "a1ef6e843ead03052b2f0a7c31f8ce5a1ff25ac2"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, vecinul este la birou."
+      "name": "Nu, vecinul este la birou.",
+      "description": "O propoziție care indică faptul că vecinul este la birou."
+    },
+    "en": {
+      "description": "A statement stating that the neighbor is at the office.",
+      "name": "No, the neighbor is at the office."
+    },
+    "de": {
+      "description": "Eine Aussage darüber, dass der Nachbar im Büro ist.",
+      "name": "Nein, der Nachbar ist im Büro."
+    },
+    "ru": {
+      "description": "Высказывание о том, что сосед находится в офисе.",
+      "name": "Нет, сосед в офисе."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che il vicino è in ufficio.",
+      "name": "No, il vicino è in ufficio."
+    },
+    "es": {
+      "description": "Una afirmación que indica que el vecino está en la oficina.",
+      "name": "No, el vecino está en la oficina."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le voisin est au bureau.",
+      "name": "Non, le voisin est au bureau."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kifejezi, hogy a szomszéd az irodában van.",
+      "name": "Nem, a szomszéd az irodában van."
+    },
+    "pt": {
+      "description": "Uma afirmação indicando que o vizinho está no escritório.",
+      "name": "Não, o vizinho está no escritório."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 18144,
       "sha1": "f2d9ddd805acad2fa9653a43a49bdddfa9c1b8c3"
+    },
+    "sound/en.mp3": {
+      "bytes": 13680,
+      "sha1": "c58ad921808ddb774a9413b84f1814e5ba5170b8"
+    },
+    "sound/de.mp3": {
+      "bytes": 17424,
+      "sha1": "f01eaf9fca605b095dfa9a84c4ed898796664a31"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16416,
+      "sha1": "9fc15af64e6dfd6cc057e8fd0c9fa306c528ad48"
+    },
+    "sound/it.mp3": {
+      "bytes": 18288,
+      "sha1": "da1e4b6ec7e1e6307156d9584837acc0d45914d1"
+    },
+    "sound/es.mp3": {
+      "bytes": 19152,
+      "sha1": "d9cbdaeab7109f83c6478834d6ec9253fcf54ff7"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15984,
+      "sha1": "3c150de4cf85e4b19f657c831f63484d3fab8d8f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16704,
+      "sha1": "bfb694716bc6f50ab55b4866ca0f2952f802c712"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17712,
+      "sha1": "458ab79aeabf6f65923d87e9437ddf3cc041d874"
     }
   }
 }

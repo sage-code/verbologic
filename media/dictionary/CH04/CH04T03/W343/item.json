@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "price"
+      "name": "price",
+      "description": "Money is what people use to buy goods and services."
     },
     "ro": {
       "name": "preț",
-      "ipa": "/prets/"
+      "ipa": "/prets/",
+      "description": "Banii sunt ceea ce folosesc oamenii pentru a cumpăra bunuri și servicii."
     },
     "de": {
-      "name": "Preis"
+      "name": "Preis",
+      "description": "Geld ist das, was Menschen verwenden, um Waren und Dienstleistungen zu kaufen."
     },
     "ru": {
-      "name": "цена"
+      "name": "цена",
+      "description": "Деньги — это то, что люди используют для покупки товаров и услуг."
     },
     "it": {
-      "name": "prezzo"
+      "name": "prezzo",
+      "description": "Il denaro è ciò che le persone usano per acquistare beni e servizi."
     },
     "es": {
-      "name": "precio"
+      "name": "precio",
+      "description": "El dinero es lo que la gente usa para comprar bienes y servicios."
     },
     "fr": {
-      "name": "prix"
+      "name": "prix",
+      "description": "L'argent est ce que les gens utilisent pour acheter des biens et des services."
     },
     "hu": {
-      "name": "ár"
+      "name": "ár",
+      "description": "A pénz az, amit az emberek áruk és szolgáltatások vásárlására használnak."
     },
     "pt": {
-      "name": "preço"
+      "name": "preço",
+      "description": "O dinheiro é o que as pessoas usam para comprar bens e serviços."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "b783250b1f12f6d465cb78402238121f8504f513"
+    },
+    "sound/en.mp3": {
+      "bytes": 6336,
+      "sha1": "b9493c6c90d36fd02b5c8c03938b3e9fc85a1d18"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "c5b38ff5a0177e6c73dc50e5e6c14f0af8cc5b30"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "a5f745bd372585908c39e1795c18fd0f03fdac72"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "d19cbfd487db15fcc1780f78650cc0be600b5f9a"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "87011bbfb7d22753f80bb280f81be1f6edf5943b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "8af3332b977f066fa8f0e2b30f2f2aa70b9faa13"
+    },
+    "sound/hu.mp3": {
+      "bytes": 9072,
+      "sha1": "ad9f427ee43be7cbaaccb129507108b4d1ad6a08"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "db7724a5531b33567912933928e44694fed2d76d"
     }
   }
 }

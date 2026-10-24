@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "tea"
+      "name": "tea",
+      "description": "This item represents vocabulary entry W297 from Chapter 3, Topic 5."
     },
     "ro": {
       "name": "ceai",
-      "ipa": "/tʃaj/"
+      "ipa": "/tʃaj/",
+      "description": "Acest element reprezintă intrarea de vocabular W297 din Capitolul 3, Tema 5."
     },
     "de": {
-      "name": "Tee"
+      "name": "Tee",
+      "description": "Dieser Eintrag stellt den Wortschatzeintrag W297 aus Kapitel 3, Thema 5 dar."
     },
     "ru": {
-      "name": "чай"
+      "name": "чай",
+      "description": "Этот элемент представляет словарную единицу W297 из главы 3, темы 5."
     },
     "it": {
-      "name": "tè"
+      "name": "tè",
+      "description": "Questo elemento rappresenta la voce di vocabolario W297 del Capitolo 3, Argomento 5."
     },
     "es": {
-      "name": "té"
+      "name": "té",
+      "description": "Este elemento representa la entrada de vocabulario W297 del Capítulo 3, Tema 5."
     },
     "fr": {
-      "name": "thé"
+      "name": "thé",
+      "description": "Cet élément représente l'entrée de vocabulaire W297 du chapitre 3, thème 5."
     },
     "hu": {
-      "name": "tea"
+      "name": "tea",
+      "description": "Ez az elem a 3. fejezet 5. témájának W297 szókincsbeli bejegyzését képviseli."
     },
     "pt": {
-      "name": "chá"
+      "name": "chá",
+      "description": "Este item representa a entrada de vocabulário W297 do Capítulo 3, Tópico 5."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "903f52e79f64f10f1fb0477330b83146ba665868"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "db428e46e96491f181ded73a9d82e751533ec11c"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "da90a587776dd1c551cb158dec6442ff94d3c5d0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "930106def985acaebea4efc25810ffc9e5287411"
+    },
+    "sound/it.mp3": {
+      "bytes": 3744,
+      "sha1": "ccbc119a766a19ca0b05e466b12ed7527ae4b4dc"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "afdf032efea31e449e38489223aa0bd39351cee5"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "637a944e11e861819b6f44e1e0b9fac9655ab5e8"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "6cdcf28ba42f7a6460e307f0a1e32ed6eabfa298"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "8fd28bb9584a6f2f5b8ee55a2ca80190f784daa5"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "accountant"
+      "name": "accountant",
+      "description": "This vocabulary item represents entry W370 in chapter four, topic six."
     },
     "ro": {
       "name": "contabil",
-      "ipa": "/konˈtabil/"
+      "ipa": "/konˈtabil/",
+      "description": "Acest element de vocabular reprezintă intrarea W370 din capitolul patru, tema șase."
     },
     "de": {
-      "name": "Buchhalter"
+      "name": "Buchhalter",
+      "description": "Dieser Vokabeleintrag stellt den Eintrag W370 in Kapitel vier, Thema sechs dar."
     },
     "ru": {
-      "name": "бухгалтер"
+      "name": "бухгалтер",
+      "description": "Эта словарная единица представляет собой запись W370 в главе четыре, теме шесть."
     },
     "it": {
-      "name": "contabile"
+      "name": "contabile",
+      "description": "Questo elemento di vocabolario rappresenta la voce W370 nel capitolo quattro, tema sei."
     },
     "es": {
-      "name": "contador"
+      "name": "contador",
+      "description": "Este elemento de vocabulario representa la entrada W370 en el capítulo cuatro, tema seis."
     },
     "fr": {
-      "name": "comptable"
+      "name": "comptable",
+      "description": "Cet élément de vocabulaire représente l'entrée W370 du chapitre quatre, thème six."
     },
     "hu": {
-      "name": "könyvelő"
+      "name": "könyvelő",
+      "description": "Ez a szókincselem a W370-es bejegyzést képviseli a negyedik fejezet hatodik témájában."
     },
     "pt": {
-      "name": "contador"
+      "name": "contador",
+      "description": "Este item de vocabulário representa a entrada W370 no capítulo quatro, tópico seis."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "141b3b7fb54327cf0f35a23f73a0bf4faa0aeeda"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "f39da5b84beb106c5cdbea04461e658269ecef8f"
+    },
+    "sound/de.mp3": {
+      "bytes": 10368,
+      "sha1": "d1febf2f847ff162c68e92dd430b565e3d09a42f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "554d27ecb7dd07ec55e51221b0c071841a5596ad"
+    },
+    "sound/it.mp3": {
+      "bytes": 11376,
+      "sha1": "c282eff2ea7fd8b26588243cdf3519c8fb7d12df"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "546ec171e17e69e8a6f66a32874026f6e1b86b60"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "efd668036ebb895c65904c6f828130bd06276911"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "165c5d864992b46748be581707b7c5203d1561a7"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "35653839a3bf0d03cb321721d5efac6753affdfd"
     }
   }
 }

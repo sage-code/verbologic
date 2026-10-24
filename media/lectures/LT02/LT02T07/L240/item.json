@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Call the ambulance."
+      "name": "Call the ambulance.",
+      "description": "Learn how to instruct someone to call an ambulance."
     },
     "ro": {
-      "name": "Cheamă ambulanța."
+      "name": "Cheamă ambulanța.",
+      "description": "Învață cum să ceri cuiva să cheme o ambulanță."
+    },
+    "de": {
+      "description": "Lerne, wie man jemanden anweist, einen Krankenwagen zu rufen.",
+      "name": "Rufe den Krankenwagen."
+    },
+    "ru": {
+      "description": "Узнайте, как дать указание вызвать скорую помощь.",
+      "name": "Вызови скорую помощь."
+    },
+    "it": {
+      "description": "Impara come dare l'istruzione di chiamare l'ambulanza.",
+      "name": "Chiama l'ambulanza."
+    },
+    "es": {
+      "description": "Aprende a indicar a alguien que llame a una ambulancia.",
+      "name": "Llama a la ambulancia."
+    },
+    "fr": {
+      "description": "Apprenez à demander à quelqu'un d'appeler une ambulance.",
+      "name": "Appelle l'ambulance."
+    },
+    "hu": {
+      "description": "Tanuld meg, hogyan kérj meg valakit a mentők hívására.",
+      "name": "Hívd a mentőket."
+    },
+    "pt": {
+      "description": "Aprenda a instruir alguém a chamar uma ambulância.",
+      "name": "Chame a ambulância."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12384,
       "sha1": "4d82096cba75efd478dc837268d7b968f2d560cd"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "e9c294691c557dcfef2a61c8cc3795a323a51802"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "584a55d9d8a37f1641da18face4f9c4c643202bb"
+    },
+    "sound/es.mp3": {
+      "bytes": 14256,
+      "sha1": "e16cd7c9cf9a3d31f746d78b2c0b3e68e08828fb"
+    },
+    "sound/de.mp3": {
+      "bytes": 14976,
+      "sha1": "f5411295eab91a5c2977c75d8576abb16dae5e3e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15552,
+      "sha1": "5598a31203482a5ef91e7578b27885ad35831442"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12384,
+      "sha1": "a30ddbceee8955d6f1b9cd93c6a53f60aa96bd29"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13824,
+      "sha1": "2a2f3027ff4c098fef51653544dd04f78f81dea3"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13680,
+      "sha1": "368b0432d3888a224d74d33acde5c8117c52672d"
     }
   }
 }

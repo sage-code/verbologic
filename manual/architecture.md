@@ -91,10 +91,9 @@ verbologic/
 │   ├── lectures/<TOPIC>/<A-code>/<locale>.md           # shared across target languages
 │   └── stories/<trackLang>/<TOPIC>/<ID>/<locale>.md    # track-language-specific
 ├── media/                     # the media REPOSITORY (mp3/mp4/webp stay out of Git)
-│   └── audio/<lang>/<TOPIC>/<file>.mp3 + sibling manifest (topic-scoped content id)
-│       (manifest = term/names/ipa + file facts; status 'pending' = no file yet)
+│   └── <track>/<CH>/<TOPIC>/<CODE>/item.json + sound/<locale>.mp3
+│       (manifest = locales{name,description,ipa} + files{path: bytes,sha1})
 ├── public/data/               # decoupled static data (O(N))
-│   ├── entities/              # legacy entities (transitional bridge)
 │   ├── media/                 # GENERATED runtime payloads (scripts/media-index.mjs)
 │   │   ├── index.json         # counts + progress ids per section/topic/lang
 │   │   └── <section>/<TOPIC>.json + <section>/search.json
@@ -311,83 +310,18 @@ Public URL:   https://media.verbologic.com/dictionary/CH03/CH03T02/A034/sound/ro
 
 ---
 
-### Expression Search Engine (Orama / Fuse.js)
+### Expression Search Engine (client-side, DB-backed)
 
-Load search indices asynchronously in Vue to keep initial page weight minimal.
+Search is a query, not a payload. The dictionary-wide search box calls
+`useMedia().fetchSearch()`, which runs a `pg_trgm` query against
+`units.search_text` (folded term + every translation, trigger-maintained and
+GIN-indexed) when Supabase is reachable. The bundled
+`public/data/media/<section>/search.json` is the offline fallback only — it is
+the 2.1 MB file Phase 6 exists to stop shipping on the happy path.
 
-#### Data Schema (`public/data/expressions_es.json`)
-
-```json
-[
-  {
-    "id": "exp_001",
-    "domain": "travel",
-    "term": "Where is the station?",
-    "target": "¿Dónde está la estación?",
-    "ipa": "/ˈdon.de esˈta la es.taˈsjon/",
-    "audio": "audio/es/exp_001.mp3",
-    "tags": ["transport", "navigation"]
-  }
-]
-
-```
-
-#### Vue Component Implementation (`src/components/ExpressionSearch.vue`)
-
-```vue
-<script setup>
-import { ref, onMounted, computed } from 'vue'
-import Fuse from 'fuse.js'
-
-const props = defineProps(['lang'])
-const query = ref('')
-const selectedDomain = ref('all')
-const expressions = ref([])
-let fuse = null
-
-onMounted(async () => {
-  const res = await fetch(`/data/expressions_${props.lang}.json`)
-  expressions.value = await res.json()
-  
-  fuse = new Fuse(expressions.value, {
-    keys: ['term', 'target', 'tags'],
-    threshold: 0.3
-  })
-})
-
-const filteredResults = computed(() => {
-  let list = expressions.value
-  if (selectedDomain.value !== 'all') {
-    list = list.filter(item => item.domain === selectedDomain.value)
-  }
-  if (!query.value.trim()) return list
-  return fuse ? fuse.search(query.value).map(r => r.item) : list
-})
-
-const playAudio = (path) => {
-  new Audio(`https://media.verbologic.com/${path}`).play()
-}
-</script>
-
-<template>
-  <div class="search-container">
-    <input v-model="query" placeholder="Search expressions, words, tags..." />
-    <select v-model="selectedDomain">
-      <option value="all">All Domains</option>
-      <option value="travel">Travel</option>
-      <option value="business">Business</option>
-    </select>
-
-    <ul class="results-list">
-      <li v-for="item in filteredResults" :key="item.id">
-        <span>{{ item.term }} ➔ {{ item.target }}</span>
-        <button @click="playAudio(item.audio)">🔊 Play</button>
-      </li>
-    </ul>
-  </div>
-</template>
-
-```
+There is no client-side Fuse.js index and no `public/data/expressions_*.json`:
+the retired `searchStore` + `ExpressionSearch.vue` pair built an in-memory index
+over `public/data/entities/`, which no longer exists.
 
 ---
 

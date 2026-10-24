@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "birthday"
+      "name": "birthday",
+      "description": "A vocabulary item related to holidays and celebrations."
     },
     "ro": {
       "name": "zi de naștere",
-      "ipa": "/zi de ˈnaʃtere/"
+      "ipa": "/zi de ˈnaʃtere/",
+      "description": "Un element de vocabular legat de sărbători și celebrări."
     },
     "de": {
-      "name": "Geburtstag"
+      "name": "Geburtstag",
+      "description": "Ein Vokabeleintrag rund um Feiertage und Feste."
     },
     "ru": {
-      "name": "день рождения"
+      "name": "день рождения",
+      "description": "Словарная единица, относящаяся к праздникам и торжествам."
     },
     "it": {
-      "name": "compleanno"
+      "name": "compleanno",
+      "description": "Un termine del vocabolario relativo a festività e celebrazioni."
     },
     "es": {
-      "name": "cumpleaños"
+      "name": "cumpleaños",
+      "description": "Un término de vocabulario relacionado con días festivos y celebraciones."
     },
     "fr": {
-      "name": "anniversaire"
+      "name": "anniversaire",
+      "description": "Un terme de vocabulaire lié aux fêtes et aux célébrations."
     },
     "hu": {
-      "name": "születésnap"
+      "name": "születésnap",
+      "description": "Az ünnepekkel és ünnepléssel kapcsolatos szókincselem."
     },
     "pt": {
-      "name": "aniversário"
+      "name": "aniversário",
+      "description": "Um item de vocabulário relacionado a feriados e celebrações."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "e81d7671fe60d99bca796b3a05981ee30da5ae1d"
+    },
+    "sound/en.mp3": {
+      "bytes": 5184,
+      "sha1": "3b53610f9117ff1d6a153e3544aeccf0397a2146"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "c2730dd34c319d08b9a9d953c8c0d8f34ca977df"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13968,
+      "sha1": "a64ce65798be4075ee8e91ae33e6d9de480a3ecb"
+    },
+    "sound/it.mp3": {
+      "bytes": 11664,
+      "sha1": "1b44189d0114fb321ff27b841fd787b6b831a437"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "7ca12ec9e0a0c50a34f699d1162e9bca556a8311"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "5ee2ed2cce36217fb81b45c5f57a85ed7774bab0"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "55a117873ece6e10a3276efc21d42928f71d9e1c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "4893fd05ec73f0468cecc858bc5295e69afdef70"
     }
   }
 }

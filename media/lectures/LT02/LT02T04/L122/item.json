@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, am casă."
+      "name": "Nu, am casă.",
+      "description": "O afirmație care exprimă faptul că cineva are o casă."
+    },
+    "en": {
+      "description": "A statement expressing that one has a house.",
+      "name": "No, I have a house."
+    },
+    "de": {
+      "description": "Eine Aussage, die ausdrückt, dass man ein Haus hat.",
+      "name": "Nein, ich habe ein Haus."
+    },
+    "ru": {
+      "description": "Высказывание о том, что у говорящего есть дом.",
+      "name": "Нет, у меня есть дом."
+    },
+    "it": {
+      "description": "Un'affermazione che esprime il fatto di avere una casa.",
+      "name": "No, ho una casa."
+    },
+    "es": {
+      "description": "Una afirmación que expresa que se tiene una casa.",
+      "name": "No, tengo una casa."
+    },
+    "fr": {
+      "description": "Une phrase exprimant le fait d'avoir une maison.",
+      "name": "Non, j'ai une maison."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely kifejezi, hogy a beszélőnek van háza.",
+      "name": "Nem, van házam."
+    },
+    "pt": {
+      "description": "Uma afirmação que expressa que se tem uma casa.",
+      "name": "Não, eu tenho uma casa."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13248,
       "sha1": "981bc8d15da181a891b092e93faf76c316c43175"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d83b5be2e1bbff64c9f3568d0b0a78150ce30cde"
+    },
+    "sound/de.mp3": {
+      "bytes": 14976,
+      "sha1": "2e71f4fe9b38bc63b5bc82ff51a4de9cce421b8d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16704,
+      "sha1": "0dd1e27a50637b30d739d7bc11829a21210725b5"
+    },
+    "sound/it.mp3": {
+      "bytes": 15552,
+      "sha1": "f4d7360f89fc3bffb7eabb5eda5c2cfd145a568f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13104,
+      "sha1": "11127706d11174e79d64cb84a6a2e56a1ef72f1e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13104,
+      "sha1": "9d62f3fe31d2069f9c2684d689b42fb4d325f7ab"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14256,
+      "sha1": "24a22746bfd93b0fc08d720c2214ca0921d651e7"
+    },
+    "sound/es.mp3": {
+      "bytes": 15408,
+      "sha1": "0fbf11613bdac95130e121d9a7735c62ba90a8b3"
     }
   }
 }

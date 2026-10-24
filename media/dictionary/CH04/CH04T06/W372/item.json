@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "driver"
+      "name": "driver",
+      "description": "This vocabulary item represents entry W372 in chapter four, topic six."
     },
     "ro": {
       "name": "șofer",
-      "ipa": "/ʃoˈfer/"
+      "ipa": "/ʃoˈfer/",
+      "description": "Acest element de vocabular reprezintă intrarea W372 din capitolul patru, tema șase."
     },
     "de": {
-      "name": "Fahrer"
+      "name": "Fahrer",
+      "description": "Dieser Vokabeleintrag stellt den Eintrag W372 in Kapitel vier, Thema sechs dar."
     },
     "ru": {
-      "name": "водитель"
+      "name": "водитель",
+      "description": "Эта словарная единица представляет собой запись W372 в главе четыре, теме шесть."
     },
     "it": {
-      "name": "autista"
+      "name": "autista",
+      "description": "Questo elemento di vocabolario rappresenta la voce W372 nel capitolo quattro, tema sei."
     },
     "es": {
-      "name": "conductor"
+      "name": "conductor",
+      "description": "Este elemento de vocabulario representa la entrada W372 en el capítulo cuatro, tema seis."
     },
     "fr": {
-      "name": "chauffeur"
+      "name": "chauffeur",
+      "description": "Cet élément de vocabulaire représente l'entrée W372 du chapitre quatre, thème six."
     },
     "hu": {
-      "name": "sofőr"
+      "name": "sofőr",
+      "description": "Ez a szókincselem a W372-es bejegyzést képviseli a negyedik fejezet hatodik témájában."
     },
     "pt": {
-      "name": "motorista"
+      "name": "motorista",
+      "description": "Este item de vocabulário representa a entrada W372 no capítulo quatro, tópico seis."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "0aeff50a1769064232b312607f167facc056dab4"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "7bb1f8437d1a5803866e32a225257112059128e6"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "ee7207d51870679363351a540d0fa584b79a8148"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "7d1e391775d4ed83a130d444c319a881e8fe0eb6"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "b1d65bd107a56b14fd9d3a018a3bf205b082c667"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "45706e70cc98eb3d3c3803c93b5a8072ccf835fe"
+    },
+    "sound/fr.mp3": {
+      "bytes": 10368,
+      "sha1": "fcb676f3883a87a17fa88e4840f248b66a2bec52"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "be31fc18fbff5886767c874a373f5804874e3d21"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "38d9597135d0c87ef98b5bece5e5e43459d51e27"
     }
   }
 }

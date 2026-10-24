@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "doll"
+      "name": "doll",
+      "description": "A fish is an animal that lives in water."
     },
     "ro": {
       "name": "păpușă",
-      "ipa": "/pəˈpuʃə/"
+      "ipa": "/pəˈpuʃə/",
+      "description": "Un pește este un animal care trăiește în apă."
     },
     "de": {
-      "name": "Puppe"
+      "name": "Puppe",
+      "description": "Ein Fisch ist ein Tier, das im Wasser lebt."
     },
     "ru": {
-      "name": "Кукла"
+      "name": "Кукла",
+      "description": "Рыба — это животное, которое живёт в воде."
     },
     "it": {
-      "name": "bambola"
+      "name": "bambola",
+      "description": "Un pesce è un animale che vive nell'acqua."
     },
     "es": {
-      "name": "muñeca"
+      "name": "muñeca",
+      "description": "Un pez es un animal que vive en el agua."
     },
     "fr": {
-      "name": "poupée"
+      "name": "poupée",
+      "description": "Un poisson est un animal qui vit dans l'eau."
     },
     "hu": {
-      "name": "Baba"
+      "name": "Baba",
+      "description": "A hal egy vízben élő állat."
     },
     "pt": {
-      "name": "Boneca"
+      "name": "Boneca",
+      "description": "Um peixe é um animal que vive na água."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "3e62ad5273fcbee84a63a39dc37aba96c9fc8cbf"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "86f2618d09f1c78c92acd2c85962c04a1cb13868"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "263a5cabdbabe385acb0404e028f94bd7ac2e771"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "20f103753197c38ec66aeadcea1764701b55b2bc"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "3cc189deadab8ece21c077001511528713a2781f"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "dd830a49a3b58ce01a771942878d01dc59e15728"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "7d14fbb37a9ddfdedc114590b3721acf7d5371be"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "9b33f23e154aa4a9c8c0c6c7396e8646bf553ada"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "dd8b72a7ab4f9e4ba644d4ee1d972294a3faff1d"
     }
   }
 }

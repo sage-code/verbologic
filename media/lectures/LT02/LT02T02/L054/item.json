@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "She is a woman."
+      "name": "She is a woman.",
+      "description": "A sentence identifying someone as a woman."
     },
     "ro": {
-      "name": "Ea este femeie."
+      "name": "Ea este femeie.",
+      "description": "O propoziție care identifică o persoană ca fiind femeie."
+    },
+    "de": {
+      "description": "Ein Satz, der jemanden als Frau identifiziert.",
+      "name": "Sie ist eine Frau."
+    },
+    "ru": {
+      "description": "Предложение, указывающее, что человек — женщина.",
+      "name": "Она женщина."
+    },
+    "it": {
+      "description": "Una frase che identifica una persona come donna.",
+      "name": "Lei è una donna."
+    },
+    "es": {
+      "description": "Una frase que identifica a alguien como mujer.",
+      "name": "Ella es una mujer."
+    },
+    "fr": {
+      "description": "Une phrase identifiant une personne comme une femme.",
+      "name": "C'est une femme."
+    },
+    "hu": {
+      "description": "Mondat, amely valakit nőként határoz meg.",
+      "name": "Ő egy nő."
+    },
+    "pt": {
+      "description": "Uma frase que identifica alguém como mulher.",
+      "name": "Ela é uma mulher."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12240,
       "sha1": "859c56f77b304b8da3e0da3f1515431be91de8a7"
+    },
+    "sound/it.mp3": {
+      "bytes": 13536,
+      "sha1": "13c8008a5dca5976d1ce2e2d53f944c6f260a0e7"
+    },
+    "sound/de.mp3": {
+      "bytes": 12384,
+      "sha1": "686a88eb8d19d829996b0363f0f14045fa49f452"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11376,
+      "sha1": "be915afcf45f96d00f61685561dec6cc65ff72c1"
+    },
+    "sound/es.mp3": {
+      "bytes": 12672,
+      "sha1": "652d4c0c6f92601d9f29840728a98707577e7ebf"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "2a797cde4b5b470c718921dd11d7256fa46dfc33"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "a44f4707e62a1773eb4ec42e00470616b2db17e5"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11520,
+      "sha1": "5ace4e094d9a24b694dd325ce5e687cc27ea60a0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12240,
+      "sha1": "ca05eeadd1bd777d46068453ab7105763e3c20bb"
     }
   }
 }

@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Public transport"
+      "name": "Public transport",
+      "description": "This topic covers vocabulary related to public transport."
     },
     "ro": {
       "name": "Transport public",
-      "ipa": "/transˈport ˈpublik/"
+      "ipa": "/transˈport ˈpublik/",
+      "description": "Această temă acoperă vocabularul legat de transportul public."
+    },
+    "de": {
+      "description": "Dieses Thema umfasst Wortschatz rund um den öffentlichen Nahverkehr.",
+      "name": "Öffentliche Verkehrsmittel"
+    },
+    "ru": {
+      "description": "Эта тема охватывает лексику, связанную с общественным транспортом.",
+      "name": "Общественный транспорт"
+    },
+    "it": {
+      "description": "Questo argomento copre il vocabolario relativo al trasporto pubblico.",
+      "name": "Trasporto pubblico"
+    },
+    "es": {
+      "description": "Este tema cubre el vocabulario relacionado con el transporte público.",
+      "name": "Transporte público"
+    },
+    "fr": {
+      "description": "Ce thème couvre le vocabulaire lié aux transports en commun.",
+      "name": "Transports en commun"
+    },
+    "hu": {
+      "description": "Ez a témakör a tömegközlekedéssel kapcsolatos szókincset tartalmazza.",
+      "name": "Tömegközlekedés"
+    },
+    "pt": {
+      "description": "Este tópico abrange o vocabulário relacionado ao transporte público.",
+      "name": "Transporte público"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13392,
       "sha1": "d5fecd2690948e20c60f768871a61e3b7ea5da0f"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "6541dfdd0fc88bd637918f9396982b8a507dd92c"
+    },
+    "sound/de.mp3": {
+      "bytes": 14112,
+      "sha1": "01121c641c19deae0c21a1eba0e4f83c7076d917"
+    },
+    "sound/it.mp3": {
+      "bytes": 13680,
+      "sha1": "94df2aba2985b80f025c981c9a1095d1dde76341"
+    },
+    "sound/es.mp3": {
+      "bytes": 13248,
+      "sha1": "af04ee0473621cad8d746386a67bcb3726ed3b3b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11664,
+      "sha1": "39fd3a779e24b6918c58c0299eda2313f6a29afe"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12096,
+      "sha1": "95da242239295d09010d84c05a94e25f194171a2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12096,
+      "sha1": "6c92fd9af684e819ca97f93e40718c423ebb3941"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14400,
+      "sha1": "f76b74bfa0dfd2ffbfd098108ebfe96f43d53926"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "game"
+      "name": "game",
+      "description": "This word is used for practice in the toys and games topic."
     },
     "ro": {
       "name": "joc",
-      "ipa": "/ʒok/"
+      "ipa": "/ʒok/",
+      "description": "Acest cuvânt este folosit pentru exersare în tema jucării și jocuri."
     },
     "de": {
-      "name": "Spiel"
+      "name": "Spiel",
+      "description": "Dieses Wort wird zum Üben im Thema Spielzeug und Spiele verwendet."
     },
     "ru": {
-      "name": "Игра"
+      "name": "Игра",
+      "description": "Это слово используется для практики в теме «Игрушки и игры»."
     },
     "it": {
-      "name": "gioco"
+      "name": "gioco",
+      "description": "Questa parola è usata per fare pratica nell'argomento giocattoli e giochi."
     },
     "es": {
-      "name": "juego"
+      "name": "juego",
+      "description": "Esta palabra se utiliza para practicar en el tema de juguetes y juegos."
     },
     "fr": {
-      "name": "jeu"
+      "name": "jeu",
+      "description": "Ce mot est utilisé pour s'entraîner dans le thème des jouets et des jeux."
     },
     "hu": {
-      "name": "Játék"
+      "name": "Játék",
+      "description": "Ez a szó gyakorlásra szolgál a játékok és társasjátékok témakörben."
     },
     "pt": {
-      "name": "Jogo"
+      "name": "Jogo",
+      "description": "Esta palavra é usada para praticar no tópico de brinquedos e jogos."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "755f16f7d35c64db8ba174a06ecd7e2a0d90a1e0"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d9cbdce2e678a336dc14e5b36f47a10848865c60"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "ee29ff29df3a8850186bdb85790bf28d9b32e697"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "9a5e4c8d15ba838b3a6b99882cb24311d04cd26e"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "e9361a9532f080610a7fed1d0eca9b66bd30b4ee"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "28003f8103f5d9e134137de2be7b79c12b6f8fd2"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "8e53d0c6b9bc28e0c24bd4e0dfb23578bcdda4a3"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "b068e66a0adf5f15a97a41333ef1c87d05fd6334"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "b2fbef4b8b531d8c92d0a92daf5f6106c7f5d82a"
     }
   }
 }

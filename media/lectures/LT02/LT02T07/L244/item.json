@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Read the lesson."
+      "name": "Read the lesson.",
+      "description": "Learn how to give an instruction to read the lesson."
     },
     "ro": {
-      "name": "Citește lecția."
+      "name": "Citește lecția.",
+      "description": "Învață cum să dai o instrucțiune de a citi lecția."
+    },
+    "de": {
+      "description": "Lerne, wie man die Anweisung gibt, die Lektion zu lesen.",
+      "name": "Lies die Lektion."
+    },
+    "ru": {
+      "description": "Узнайте, как дать указание прочитать урок.",
+      "name": "Прочитай урок."
+    },
+    "it": {
+      "description": "Impara a dare un'istruzione per leggere la lezione.",
+      "name": "Leggi la lezione."
+    },
+    "es": {
+      "description": "Aprende a dar una indicación para leer la lección.",
+      "name": "Lee la lección."
+    },
+    "fr": {
+      "description": "Apprenez à donner l'instruction de lire la leçon.",
+      "name": "Lis la leçon."
+    },
+    "hu": {
+      "description": "Tanuld meg, hogyan adj utasítást a lecke elolvasására.",
+      "name": "Olvasd el a leckét."
+    },
+    "pt": {
+      "description": "Aprenda a dar uma instrução para ler a lição.",
+      "name": "Leia a lição."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12384,
       "sha1": "251debd4027ba79081dbe45ee5a1ae5024118cf5"
+    },
+    "sound/en.mp3": {
+      "bytes": 8352,
+      "sha1": "38b4c577264205069abbf970e98d1bbc1c679303"
+    },
+    "sound/de.mp3": {
+      "bytes": 12240,
+      "sha1": "842b7c4ceb9d39c5c69808c7b284d06ab36aa73a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14112,
+      "sha1": "af1376f09fe3acf93f3d58ad0df505d28532fc75"
+    },
+    "sound/es.mp3": {
+      "bytes": 12384,
+      "sha1": "82682f669a153284577b0aedec90c806eca7178d"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "fd903c1b1d9d6b1d228e8e9ff0bd5593c7d8827f"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "b07e68e8e3d85a0df24962fb6f12a9e9a30a5219"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14256,
+      "sha1": "5d6ec4ec958495598cf2d560b451aa5ebcbcce05"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13248,
+      "sha1": "3902b0a10b42c756ca94a3cb7c09e7acd6812307"
     }
   }
 }

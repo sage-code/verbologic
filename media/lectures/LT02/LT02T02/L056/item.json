@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "The apartment has a window."
+      "name": "The apartment has a window.",
+      "description": "A sentence stating that the apartment has a window."
     },
     "ro": {
-      "name": "Apartamentul are o fereastră."
+      "name": "Apartamentul are o fereastră.",
+      "description": "O propoziție care afirmă că apartamentul are o fereastră."
+    },
+    "de": {
+      "description": "Ein Satz, der besagt, dass die Wohnung ein Fenster hat.",
+      "name": "Die Wohnung hat ein Fenster."
+    },
+    "ru": {
+      "description": "Предложение о том, что в квартире есть окно.",
+      "name": "В квартире есть окно."
+    },
+    "it": {
+      "description": "Una frase che indica che l'appartamento ha una finestra.",
+      "name": "L'appartamento ha una finestra."
+    },
+    "es": {
+      "description": "Una frase que indica que el apartamento tiene una ventana.",
+      "name": "El apartamento tiene una ventana."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que l'appartement a une fenêtre.",
+      "name": "L'appartement a une fenêtre."
+    },
+    "hu": {
+      "description": "Mondat, amely kijelenti, hogy a lakásnak van egy ablaka.",
+      "name": "A lakásnak van egy ablaka."
+    },
+    "pt": {
+      "description": "Uma frase que afirma que o apartamento tem uma janela.",
+      "name": "O apartamento tem uma janela."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16416,
       "sha1": "079845959f7e8a3df26e7add4ef06d9b9bf0e468"
+    },
+    "sound/it.mp3": {
+      "bytes": 16416,
+      "sha1": "d7632d98d46b2829a62a741cc34365281d96b0a8"
+    },
+    "sound/de.mp3": {
+      "bytes": 14544,
+      "sha1": "079511ee0b49819e3fba3e7fe97154b712b70d71"
+    },
+    "sound/es.mp3": {
+      "bytes": 17568,
+      "sha1": "254215adfabde939eb14c4482c2b102386704307"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14400,
+      "sha1": "f041c78132c2fdcc8efa601103539e8ecb07439f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14544,
+      "sha1": "76883a3410e2be213af7b8605531772c8e1cf717"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15696,
+      "sha1": "ed1dea9b02d52e8985b352d13b166271534d9665"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14256,
+      "sha1": "ed0d0d027d48a1cfac055c4fb29f27498f332acd"
+    },
+    "sound/en.mp3": {
+      "bytes": 10224,
+      "sha1": "7bd8fedbbabcc6bd0836773bba9310a895789ef9"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "bread"
+      "name": "bread",
+      "description": "A basic food item or ingredient commonly used in the kitchen."
     },
     "ro": {
       "name": "pâine",
-      "ipa": "/ˈpɨjne/"
+      "ipa": "/ˈpɨjne/",
+      "description": "Un aliment sau ingredient de bază folosit în mod obișnuit în bucătărie."
     },
     "de": {
-      "name": "Brot"
+      "name": "Brot",
+      "description": "Ein Grundnahrungsmittel oder eine Zutat, die üblicherweise in der Küche verwendet wird."
     },
     "ru": {
-      "name": "Хлеб"
+      "name": "Хлеб",
+      "description": "Базовый продукт питания или ингредиент, обычно используемый на кухне."
     },
     "it": {
-      "name": "pane"
+      "name": "pane",
+      "description": "Un alimento o ingrediente di base comunemente usado in cucina."
     },
     "es": {
-      "name": "pan"
+      "name": "pan",
+      "description": "Un alimento o ingrediente básico utilizado habitualmente en la cocina."
     },
     "fr": {
-      "name": "pain"
+      "name": "pain",
+      "description": "Un aliment ou un ingrédient de base couramment utilisé dans la cuisine."
     },
     "hu": {
-      "name": "Kenyér"
+      "name": "Kenyér",
+      "description": "A konyhában általánosan használt alapvető élelmiszer vagy hozzávaló."
     },
     "pt": {
-      "name": "Pão"
+      "name": "Pão",
+      "description": "Um alimento ou ingrediente básico normalmente usado na cozinha."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "432cef2a59c56c665422b0519b173f4d63798b68"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "b42249b64c52a228ca76d9ba976f46142f380a3a"
+    },
+    "sound/de.mp3": {
+      "bytes": 8928,
+      "sha1": "d00eaa65fc9e3ebf7e44794def0d958e8ef0b11b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10224,
+      "sha1": "8e010d8355c20b929ca0fc2a161945e70fdff041"
+    },
+    "sound/it.mp3": {
+      "bytes": 5040,
+      "sha1": "3366d5128bd06e8e6655aa46e033d18328d1316b"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "0614a4ce643a122bd810d6eb38e1a16dc7952ed7"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "04b8c244e2a66447042e6eca22a86f3ceed1534b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "c1a77eed6f1e021e40aa29ffd8279bd7bc9ef008"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "4c305bf8e7be518f670b6cfc106d48696c17be71"
     }
   }
 }

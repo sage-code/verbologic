@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "now"
+      "name": "now",
+      "description": "This vocabulary term is an expression related to time."
     },
     "ro": {
       "name": "acum",
-      "ipa": "/aˈkum/"
+      "ipa": "/aˈkum/",
+      "description": "Acest termen de vocabular este o expresie legată de timp."
     },
     "de": {
-      "name": "jetzt"
+      "name": "jetzt",
+      "description": "Dieser Wortschatzeintrag ist ein Ausdruck, der sich auf die Zeit bezieht."
     },
     "ru": {
-      "name": "сейчас"
+      "name": "сейчас",
+      "description": "Эта словарная единица представляет собой выражение, связанное со временем."
     },
     "it": {
-      "name": "adesso"
+      "name": "adesso",
+      "description": "Questo termine del vocabolario è un'espressione legata al tempo."
     },
     "es": {
-      "name": "ahora"
+      "name": "ahora",
+      "description": "Este término de vocabulario es una expresión relacionada con el tiempo."
     },
     "fr": {
-      "name": "maintenant"
+      "name": "maintenant",
+      "description": "Ce terme de vocabulaire est une expression liée au temps."
     },
     "hu": {
-      "name": "most"
+      "name": "most",
+      "description": "Ez a szókincsbeli elem egy idővel kapcsolatos kifejezés."
     },
     "pt": {
-      "name": "agora"
+      "name": "agora",
+      "description": "Este termo de vocabulário é uma expressão relacionada com o tempo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "7ae3e5a6b3334eddeb853b7c4e37d22e98eb24a6"
+    },
+    "sound/en.mp3": {
+      "bytes": 4464,
+      "sha1": "1be04d30126532fb516717f13a283e7f8e9a40b1"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "c3795f7d69eb6112c7804095a2efcd2ade32ad1c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "98cc0438bb0c2ae6390f285df3c8f5620151da64"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "f8d1e4f58ff16be0748b10324046fa07bde0b2e0"
+    },
+    "sound/es.mp3": {
+      "bytes": 8208,
+      "sha1": "5eff34740d76ce40a63825d9de4d67d59d076077"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "5c1bdd07720264cf156cd7fda7e53bb9ed930702"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "447c3b86c2bdb58b1a87d1831429cd33930977bb"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "20c5b6e2e9921410493428af3140a291e42dd143"
     }
   }
 }

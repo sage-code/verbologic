@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, spun scuze."
+      "name": "Nu, spun scuze.",
+      "description": "O afirmație prin care cineva spune că își cere scuze."
+    },
+    "en": {
+      "description": "A statement expressing that one apologizes.",
+      "name": "No, I say sorry."
+    },
+    "de": {
+      "description": "Eine Aussage, die ausdrückt, dass man sich entschuldigt.",
+      "name": "Nein, ich sage Entschuldigung."
+    },
+    "ru": {
+      "description": "Высказывание о том, что человек приносит извинения.",
+      "name": "Нет, я говорю «извини»."
+    },
+    "it": {
+      "description": "Un'affermazione che esprime il fatto di chiedere scusa.",
+      "name": "No, chiedo scusa."
+    },
+    "es": {
+      "description": "Una afirmación que expresa que uno pide disculpas.",
+      "name": "No, pido disculpas."
+    },
+    "fr": {
+      "description": "Une phrase exprimant le fait de présenter des excuses.",
+      "name": "Non, je m'excuse."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely kifejezi, hogy a beszélő bocsánatot kér.",
+      "name": "Nem, bocsánatot kérek."
+    },
+    "pt": {
+      "description": "Uma afirmação que expressa que a pessoa pede desculpas.",
+      "name": "Não, peço desculpas."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14688,
       "sha1": "bbd9072cee1666d31e5a113558b0effa6587e72c"
+    },
+    "sound/de.mp3": {
+      "bytes": 17280,
+      "sha1": "504f27cc631faa2e858acfe146e254480e42e09a"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "7d3639fa8f83906b332928208456075bb77cad59"
+    },
+    "sound/it.mp3": {
+      "bytes": 15552,
+      "sha1": "5a44e102f287b66fe10e71c6b6eed89c3086ed84"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13968,
+      "sha1": "d3c7da11aafddac3bdfe5e969691e5bcb0b1c6fc"
+    },
+    "sound/es.mp3": {
+      "bytes": 15840,
+      "sha1": "fe7d704b542b615d08fc21474bb410cee20e0562"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14976,
+      "sha1": "da6239648a882d047c65e2f11266562cfba7293e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14688,
+      "sha1": "2c696c3765fc299275355f5c6aa50d6a7ea47abd"
+    },
+    "sound/ru.mp3": {
+      "bytes": 21168,
+      "sha1": "4bf980e57abf1f0f2f61711a70c7ed68a14c9ebe"
     }
   }
 }

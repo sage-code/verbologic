@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "to drink"
+      "name": "to drink",
+      "description": "To stop sleeping and become awake."
     },
     "ro": {
       "name": "a bea",
-      "ipa": "/a ˈbea/"
+      "ipa": "/a ˈbea/",
+      "description": "A înceta să dormi și a fi treaz."
     },
     "de": {
-      "name": "trinken"
+      "name": "trinken",
+      "description": "Aufhören zu schlafen und wach werden."
     },
     "ru": {
-      "name": "пить"
+      "name": "пить",
+      "description": "Перестать спать и проснуться."
     },
     "it": {
-      "name": "bere"
+      "name": "bere",
+      "description": "Smettere di dormire e svegliarsi."
     },
     "es": {
-      "name": "beber"
+      "name": "beber",
+      "description": "Dejar de dormir y despertarse."
     },
     "fr": {
-      "name": "boire"
+      "name": "boire",
+      "description": "Cesser de dormir et se réveiller."
     },
     "hu": {
-      "name": "inni"
+      "name": "inni",
+      "description": "Befejezni az alvást és felébredni."
     },
     "pt": {
-      "name": "beber"
+      "name": "beber",
+      "description": "Deixar de dormir e acordar."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "7f80394ba3e4643c278e8f6529bf6352ed875ce1"
+    },
+    "sound/en.mp3": {
+      "bytes": 6624,
+      "sha1": "e962ddb11c8fe0493b8215fe9fc351a68380f9b6"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "3fcbc6e1fdf27c70733a891e9eb4dee009371e96"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "452591ae53fa947cfd4aaa9e8f9a9d3bf14c670d"
+    },
+    "sound/it.mp3": {
+      "bytes": 5184,
+      "sha1": "bacf5d1c50ad68117be00e8850c2f7365c2daa0c"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "c8a40ee7fb6153614605076bbde70f19d64fa6ef"
+    },
+    "sound/fr.mp3": {
+      "bytes": 9216,
+      "sha1": "5d6a930b8d329916ce13d5ce156596d4ef8d327c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "7f41492286111f763bf3170083273c4a45fbff3a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "268d4d5ed72bb2226aa9c90c4cd6eef2dce06862"
     }
   }
 }

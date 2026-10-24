@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "internet"
+      "name": "internet",
+      "description": "This word belongs to topic CH07T04."
     },
     "ro": {
       "name": "internet",
-      "ipa": "/interˈnet/"
+      "ipa": "/interˈnet/",
+      "description": "Acest cuvânt aparține temei CH07T04."
     },
     "de": {
-      "name": "Internet"
+      "name": "Internet",
+      "description": "Dieses Wort gehört zum Thema CH07T04."
     },
     "ru": {
-      "name": "интернет"
+      "name": "интернет",
+      "description": "Это слово относится к теме CH07T04."
     },
     "it": {
-      "name": "internet"
+      "name": "internet",
+      "description": "Questa parola appartiene all'argomento CH07T04."
     },
     "es": {
-      "name": "internet"
+      "name": "internet",
+      "description": "Esta palabra pertenece al tema CH07T04."
     },
     "fr": {
-      "name": "internet"
+      "name": "internet",
+      "description": "Ce mot appartient au thème CH07T04."
     },
     "hu": {
-      "name": "internet"
+      "name": "internet",
+      "description": "Ez a szó a CH07T04 témakörhöz tartozik."
     },
     "pt": {
-      "name": "internet"
+      "name": "internet",
+      "description": "Esta palavra pertence ao tópico CH07T04."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "79ba02167a8aa183575ebc5ccd752677bd1763c7"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "2c916181db1f4321a3a62c3c9c3f4290f982bf08"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "e500ef7d02864ba3fa9e142299cede82f21d8483"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "8a0a24cff12b104a278fa84edc8e25500975fd85"
+    },
+    "sound/it.mp3": {
+      "bytes": 11376,
+      "sha1": "bcbcf443d180cd5463ec67f6b33094f81c0e9f56"
+    },
+    "sound/es.mp3": {
+      "bytes": 10080,
+      "sha1": "874d751516e17e6261a71167f0c6a97fe79c113d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "b874d8a9ed5a2e45124053a7d62ab42c9d0b4aae"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "aacfc4331506fe65f8ee9ff42c5b70b9436fc350"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "e62e7aa562d6b7121221f2b7c8698294b4466681"
     }
   }
 }

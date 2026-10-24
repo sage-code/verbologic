@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "love"
+      "name": "love",
+      "description": "A vocabulary word related to relationships."
     },
     "ro": {
       "name": "iubire",
-      "ipa": "/iuˈbire/"
+      "ipa": "/iuˈbire/",
+      "description": "Un cuvânt din vocabular legat de relații."
     },
     "de": {
-      "name": "Liebe"
+      "name": "Liebe",
+      "description": "Ein Vokabelwort zum Thema Beziehungen."
     },
     "ru": {
-      "name": "любовь"
+      "name": "любовь",
+      "description": "Словарное слово, относящееся к теме отношений."
     },
     "it": {
-      "name": "amore"
+      "name": "amore",
+      "description": "Un termine del vocabolario legato alle relazioni."
     },
     "es": {
-      "name": "amor"
+      "name": "amor",
+      "description": "Una palabra de vocabulario relacionada con las relaciones."
     },
     "fr": {
-      "name": "amour"
+      "name": "amour",
+      "description": "Un mot de vocabulaire lié aux relations."
     },
     "hu": {
-      "name": "szerelem"
+      "name": "szerelem",
+      "description": "A kapcsolatok témaköréhez kapcsolódó szókincselem."
     },
     "pt": {
-      "name": "amor"
+      "name": "amor",
+      "description": "Uma palavra de vocabulário relacionada a relacionamentos."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "0b51151959cad01515fa55afa8cfe130714aa136"
+    },
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "ae2f2c9c27bae4cc7b0ed979c2911526c0dc935f"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "79fae887e5dd5f92e6f36ee1ebe99f63b8694a24"
+    },
+    "sound/ru.mp3": {
+      "bytes": 9936,
+      "sha1": "f34585d3bd50121131dc37fc62920b5f55dcc037"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "b82283c3e529b3bbf848f87733b8fc17a25db685"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "0c4e5f72c60794d668773e3e24cc95f0e296a59a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "7bb7484b4460c5e07b8f664da3fe5e2436dcf3bf"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "43b1756964c4b13aba5a57a950a8e4fa09cda988"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "dea921aa39fb3d5b58566aa9daf60e164281e2bb"
     }
   }
 }

@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Drink water now."
+      "name": "Drink water now.",
+      "description": "Learn how to tell someone to drink water immediately."
     },
     "ro": {
-      "name": "Bea apă acum."
+      "name": "Bea apă acum.",
+      "description": "Învață cum să-i spui cuiva să bea apă acum."
+    },
+    "de": {
+      "description": "Lerne, wie du jemanden aufforderst, jetzt Wasser zu trinken.",
+      "name": "Trink jetzt Wasser."
+    },
+    "ru": {
+      "description": "Узнайте, как сказать кому-то выпить воды сейчас.",
+      "name": "Пей воду сейчас."
+    },
+    "it": {
+      "description": "Impara a dire a qualcuno di bere acqua adesso.",
+      "name": "Bevi acqua adesso."
+    },
+    "es": {
+      "description": "Aprende a decirle a alguien que beba agua ahora.",
+      "name": "Bebe agua ahora."
+    },
+    "fr": {
+      "description": "Apprenez à dire à quelqu'un de boire de l'eau maintenant.",
+      "name": "Bois de l'eau maintenant."
+    },
+    "hu": {
+      "description": "Tanuld meg, hogyan kérj meg valakit arra, hogy most igyon vizet.",
+      "name": "Igyál vizet most."
+    },
+    "pt": {
+      "description": "Aprenda a dizer a alguém para beber água agora.",
+      "name": "Beba água agora."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11088,
       "sha1": "1f4af5aa68bb654dcc1b46b51349be4479fd13b3"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "dd42223356760855456a8dfba3881c06ae91c92f"
+    },
+    "sound/de.mp3": {
+      "bytes": 12672,
+      "sha1": "6018cac2353d081dc2df3d88314e29b4fc9add35"
+    },
+    "sound/es.mp3": {
+      "bytes": 12816,
+      "sha1": "bd77fe83ee64c3405e2397a4ecfc0222039c604d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13536,
+      "sha1": "20ab1a41c215ac8db354253e67d5113680023644"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "1cb61779dc5fc38b7eb953099e070c7ab1c5679c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12240,
+      "sha1": "3b69a8ffd851838ebcf6270b1b7bc6df15040edc"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13104,
+      "sha1": "fff4f7e6f316dee9ac8932410d654a2ce86a463e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14112,
+      "sha1": "f18e00bbe1f38598244e6f726505b2307f5cb971"
     }
   }
 }

@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "I wake up in the morning."
+      "name": "I wake up in the morning.",
+      "description": "A sentence stating that the speaker wakes up in the morning."
     },
     "ro": {
-      "name": "Eu mă trezesc dimineața."
+      "name": "Eu mă trezesc dimineața.",
+      "description": "O propoziție care afirmă că vorbitorul se trezește dimineața."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass der Sprecher morgens aufwacht.",
+      "name": "Ich wache morgens auf."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее, что говорящий просыпается утром.",
+      "name": "Я просыпаюсь утром."
+    },
+    "it": {
+      "description": "Una frase che afferma che chi parla si sveglia al mattino.",
+      "name": "Mi sveglio la mattina."
+    },
+    "es": {
+      "description": "Una oración que expresa que el hablante se despierta por la mañana.",
+      "name": "Me despierto por la mañana."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le locuteur se réveille le matin.",
+      "name": "Je me réveille le matin."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kijelenti, hogy a beszélő reggel ébred fel.",
+      "name": "Reggel ébredek."
+    },
+    "pt": {
+      "description": "Uma frase que afirma que o falante acorda de manhã.",
+      "name": "Eu acordo de manhã."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14976,
       "sha1": "4221c0856cd411db97bc602494d01cd71139f2a6"
+    },
+    "sound/de.mp3": {
+      "bytes": 13104,
+      "sha1": "6807df25177c2bce539ea1f8d004f1177467de17"
+    },
+    "sound/it.mp3": {
+      "bytes": 13968,
+      "sha1": "cde7c4cc65e9ea77e2f31b360e32a5208bf7fc14"
+    },
+    "sound/es.mp3": {
+      "bytes": 15552,
+      "sha1": "8e0164cc35b58fbf649cf971086a3f3dda188aa5"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12816,
+      "sha1": "69ef14a066e42c5d267a7cf11006163a6bdad667"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11808,
+      "sha1": "f25a3638d1513df9b82284f62f5c9a5dc9baa613"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11808,
+      "sha1": "940f434eab3c0944a0d1f8bdb8334172116967f5"
+    },
+    "sound/en.mp3": {
+      "bytes": 8352,
+      "sha1": "9dbb7a7bd1476c46b76c10e6a406eb8a70e11e4c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14832,
+      "sha1": "73af0ae9672d211cf362653acd8ba6e0a8cf0cad"
     }
   }
 }

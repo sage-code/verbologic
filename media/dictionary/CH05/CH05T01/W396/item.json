@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "mountain"
+      "name": "mountain",
+      "description": "A visual representation of an area showing geographic features, cities, and roads."
     },
     "ro": {
       "name": "munte",
-      "ipa": "/ˈmunte/"
+      "ipa": "/ˈmunte/",
+      "description": "O reprezentare vizuală a unei zone care indică elemente geografice, orașe și drumuri."
     },
     "de": {
-      "name": "Berg"
+      "name": "Berg",
+      "description": "Eine visuelle Darstellung eines Gebiets, die geografische Merkmale, Städte und Straßen zeigt."
     },
     "ru": {
-      "name": "гора"
+      "name": "гора",
+      "description": "Визуальное изображение местности, показывающее географические объекты, города и дороги."
     },
     "it": {
-      "name": "montagna"
+      "name": "montagna",
+      "description": "Una rappresentazione visiva di un'area che mostra caratteristiche geografiche, città e strade."
     },
     "es": {
-      "name": "montaña"
+      "name": "montaña",
+      "description": "Una representación visual de un área que muestra características geográficas, ciudades y carreteras."
     },
     "fr": {
-      "name": "montagne"
+      "name": "montagne",
+      "description": "Une représentation visuelle d'une région montrant les éléments géographiques, les villes et les routes."
     },
     "hu": {
-      "name": "hegy"
+      "name": "hegy",
+      "description": "Egy terület vizuális ábrázolása, amely földrajzi képződményeket, városokat és utakat mutat be."
     },
     "pt": {
-      "name": "montanha"
+      "name": "montanha",
+      "description": "Uma representação visual de uma área que mostra características geográficas, cidades e estradas."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "877de0c226926350cd97ac16406d55fcf7f11418"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "9612298c99db8028672a3b0d75b96bfd7d32cb8e"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "4fdcaf690fad016dfd9e5ca6f86c6830ff3bd418"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "ddf78d140314b270622120b60ea8854e867dbf65"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "3c667a26aa8f2955edad4520438e63393cbe7b41"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "d5d12efa352eb72840f8676ab5bd744d9637a282"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "4ab0d51ec7de4fed3c6c10f106b50aa9daa1f766"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "ec2a243d4c47c83ee8b192eea7ddc32605ab578b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11376,
+      "sha1": "4c0f2ad9de9d108248bfcd7ca46d6269fe3c4722"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, cheia este pe masă."
+      "name": "Da, cheia este pe masă.",
+      "description": "O afirmație care confirmă că cheia se află pe masă."
+    },
+    "en": {
+      "description": "A statement confirming that the key is on the table.",
+      "name": "Yes, the key is on the table."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass der Schlüssel auf dem Tisch liegt.",
+      "name": "Ja, der Schlüssel liegt auf dem Tisch."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее, что ключ находится на столе.",
+      "name": "Да, ключ на столе."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che la chiave si trova sul tavolo.",
+      "name": "Sì, la chiave è sul tavolo."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que la llave está sobre la mesa.",
+      "name": "Sí, la llave está sobre la mesa."
+    },
+    "fr": {
+      "description": "Une phrase confirmant que la clé se trouve sur la table.",
+      "name": "Oui, la clé est sur la table."
+    },
+    "hu": {
+      "description": "Állítás, amely megerősíti, hogy a kulcs az asztalon van.",
+      "name": "Igen, a kulcs az asztalon van."
+    },
+    "pt": {
+      "description": "Uma afirmação que confirma que a chave está sobre a mesa.",
+      "name": "Sim, a chave está sobre a mesa."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16560,
       "sha1": "36ff5064e440b8c1e5ced0a279cab08f987f9cef"
+    },
+    "sound/en.mp3": {
+      "bytes": 14256,
+      "sha1": "a128a895034043fac33422eaf63ce3bd48f91cf7"
+    },
+    "sound/de.mp3": {
+      "bytes": 17712,
+      "sha1": "ce269b07c31e04a6b89683bf7588bc12ff3ae3c7"
+    },
+    "sound/es.mp3": {
+      "bytes": 18576,
+      "sha1": "6c4dabdcaf894161b032e1d958cdbd5d94be30c7"
+    },
+    "sound/it.mp3": {
+      "bytes": 19152,
+      "sha1": "830d4b19a2fbcd8d51dc892d0e7a04798e673c3d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16272,
+      "sha1": "d36c8f71c01ee4f5553faec5a13664e6bc33fba8"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16848,
+      "sha1": "5bfefb27051dc7cac2b1c7b7a88a2516302c9af3"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16272,
+      "sha1": "3c4a97cf668d1b3b28b37ba21e91e6354ee40a6a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16416,
+      "sha1": "e2273ed1f59484b0fd745d35e804cc02910593d6"
     }
   }
 }

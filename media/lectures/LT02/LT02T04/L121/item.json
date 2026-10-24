@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, ea este supărată acum."
+      "name": "Nu, ea este supărată acum.",
+      "description": "O afirmație care arată că ea este supărată acum."
+    },
+    "en": {
+      "description": "A statement stating that she is upset right now.",
+      "name": "No, she is upset now."
+    },
+    "de": {
+      "description": "Eine Aussage, dass sie im Moment verärgert ist.",
+      "name": "Nein, sie ist jetzt verärgert."
+    },
+    "ru": {
+      "description": "Утверждение о том, что она сейчас расстроена.",
+      "name": "Нет, она сейчас расстроена."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che lei è contrariata adesso.",
+      "name": "No, lei è arrabbiata adesso."
+    },
+    "es": {
+      "description": "Una afirmación que indica que ella está disgustada ahora.",
+      "name": "No, ella está molesta ahora."
+    },
+    "fr": {
+      "description": "Une affirmation indiquant qu'elle est contrariée en ce moment.",
+      "name": "Non, elle est fâchée maintenant."
+    },
+    "hu": {
+      "description": "Egy állítás, amely szerint a hölgy most zaklatott.",
+      "name": "Nem, ő most ideges."
+    },
+    "pt": {
+      "description": "Uma afirmação que indica que ela está chateada agora.",
+      "name": "Não, ela está chateada agora."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 18000,
       "sha1": "eb598dc1197c59a91a131c75ec6044dc7e3b64c6"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "bae5702ebce6cac04ca381b55c1075109a81a7fc"
+    },
+    "sound/de.mp3": {
+      "bytes": 17280,
+      "sha1": "1ce6adcf46e2fd1e338df2bd63886e94f3df2bdd"
+    },
+    "sound/ru.mp3": {
+      "bytes": 19008,
+      "sha1": "697ecca2816b2f76662cb78baebcbd131bfdccde"
+    },
+    "sound/it.mp3": {
+      "bytes": 18432,
+      "sha1": "88c748f67904f852e5fa0924e20a7aaad5d794a7"
+    },
+    "sound/es.mp3": {
+      "bytes": 18000,
+      "sha1": "61a35b44dd08cbb097ded3896865564defb00de4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15696,
+      "sha1": "b5917394f00121559c823bbbf04ca29dfa91015c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16848,
+      "sha1": "11f83270d7303cdcaba6ea8c3bd75e2129de9f8d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14400,
+      "sha1": "b54bed9a3daf975651d326e6fafb5dc3ba2fa228"
     }
   }
 }

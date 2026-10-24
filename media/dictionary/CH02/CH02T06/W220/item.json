@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "dog"
+      "name": "dog",
+      "description": "This word is related to animals and pets."
     },
     "ro": {
       "name": "câine",
-      "ipa": "/ˈkɨjne/"
+      "ipa": "/ˈkɨjne/",
+      "description": "Acest cuvânt este legat de animale și animale de companie."
     },
     "de": {
-      "name": "Hund"
+      "name": "Hund",
+      "description": "Dieses Wort bezieht sich auf Tiere und Haustiere."
     },
     "ru": {
-      "name": "Собака"
+      "name": "Собака",
+      "description": "Это слово относится к животным и домашним питомцам."
     },
     "it": {
-      "name": "cane"
+      "name": "cane",
+      "description": "Questa parola è legata agli animali e agli animali domestici."
     },
     "es": {
-      "name": "perro"
+      "name": "perro",
+      "description": "Esta palabra está relacionada con los animales y las mascotas."
     },
     "fr": {
-      "name": "chien"
+      "name": "chien",
+      "description": "Ce mot est lié aux animaux et aux animaux de compagnie."
     },
     "hu": {
-      "name": "Kutya"
+      "name": "Kutya",
+      "description": "Ez a szó az állatokhoz és a háziállatokhoz kapcsolódik."
     },
     "pt": {
-      "name": "Cão"
+      "name": "Cão",
+      "description": "Esta palavra está relacionada a animais e animais de estimação."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "4a8c244e633f8ea36988576740ac1ea381218b97"
+    },
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "54adb8fc51dc3e3706bd3d7abb348b589b177f6f"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "37ef079f543a40fe5bf46553a362fc8b7a0ab425"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "7c74121e396ec71db3792ded1a11af45db705ae7"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "cd4bfc8945abfc539809d2d25b9659ec3c116cf9"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "9b4a2e852307e531169b1331508a5bc709d80a4a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "d0be5665800ae30299778f74e8d28ec60cb9c029"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "f3e1124387c6ef0f45788496d3a6fcc863e1b559"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "8bc2d7dccc3c68f81356d04d78daa5320810d805"
     }
   }
 }

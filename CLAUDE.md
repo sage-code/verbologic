@@ -20,7 +20,7 @@ Primary interface is the project runner — `./run.sh help` lists everything (bu
 
 One-off scripts not wrapped by `run` (invoke directly with `node`/`python` when needed):
 
-- `node scripts/archive-topics.mjs` — attributes legacy archive content to Dictionary topics, emits `topic-map.json` (never writes sidebars). Still imported by `media-manifests.mjs` and `media-sync.mjs`; needs the gitignored `archive/` tree, so it only runs on a machine that has it
+- `node scripts/archive-topics.mjs` — attributes legacy archive content to Dictionary topics, emits `topic-map.json` (never writes sidebars). Still imported by `media-manifests.mjs`; needs the gitignored `archive/` tree, so it only runs on a machine that has it
 - `python scripts/generate-logos.py` — regenerates header logo PNGs/favicons from `src/assets/img/earth-logo.jpg`
 - `python scripts/scaffold-media.py [--dry-run]` — scaffolds the `media/` repository's binary folder skeleton
 - `.venv/Scripts/python.exe scripts/generate-audio.py [--lang] [--topic] [--id] [--overwrite] [--dry-run]` — Microsoft Edge TTS audio generation for pending media manifests (`manual/MAINTENANCE.md` §3.3)

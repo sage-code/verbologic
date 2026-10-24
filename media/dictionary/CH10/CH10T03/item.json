@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Scientific method"
+      "name": "Scientific method",
+      "description": "The scientific method is a systematic process of exploring observations and testing ideas through experiments."
     },
     "ro": {
       "name": "Metoda științifică",
-      "ipa": "/ˈmetoda ʃtiintsiˈfikə/"
+      "ipa": "/ˈmetoda ʃtiintsiˈfikə/",
+      "description": "Metoda științifică este un proces sistematic de explorare a observațiilor și de testare a ideilor prin experimente."
+    },
+    "de": {
+      "description": "Die wissenschaftliche Methode ist ein systematischer Prozess zur Untersuchung von Beobachtungen und zur Überprüfung von Ideen durch Experimente.",
+      "name": "Wissenschaftliche Methode"
+    },
+    "ru": {
+      "description": "Научный метод — это систематический процесс изучения наблюдений и проверки идей с помощью экспериментов.",
+      "name": "Научный метод"
+    },
+    "it": {
+      "description": "Il metodo scientifico è un processo sistematico per esplorare le osservazioni e verificare le idee attraverso esperimenti.",
+      "name": "Metodo scientifico"
+    },
+    "es": {
+      "description": "El método científico es un proceso sistemático para explorar observaciones y poner a prueba ideas mediante experimentos.",
+      "name": "Método científico"
+    },
+    "fr": {
+      "description": "La méthode scientifique est un processus systématique permettant d'explorer des observations et de tester des idées au moyen d'expériences.",
+      "name": "Méthode scientifique"
+    },
+    "hu": {
+      "description": "A tudományos módszer egy szisztematikus folyamat a megfigyelések vizsgálatára és az elképzelések kísérletekkel történő tesztelésére.",
+      "name": "Tudományos módszer"
+    },
+    "pt": {
+      "description": "O método científico é um processo sistemático para explorar observações e testar ideias por meio de experimentos.",
+      "name": "Método científico"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13968,
       "sha1": "82d17d9235523e4213cc96cf67b509bfbebea57c"
+    },
+    "sound/en.mp3": {
+      "bytes": 10368,
+      "sha1": "b80b186fcf88755115ba61e8eacad83d7784918e"
+    },
+    "sound/de.mp3": {
+      "bytes": 14976,
+      "sha1": "e4e15bfc67a019b37484333528defdf6f71bb32a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13968,
+      "sha1": "f6669b79ab41f38129a700eac739815b88d66a29"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "5ffbedf0d574fcbfd35535a9ac2afbf427b7a204"
+    },
+    "sound/es.mp3": {
+      "bytes": 13824,
+      "sha1": "887f98cef8641d97a08f02ff538de89e1ee2fc6d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13680,
+      "sha1": "0ceaf704d9207979d989db5cb8f3f347552b9426"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14400,
+      "sha1": "e2b6b6809e7794d08f586861189e1a521a047ef3"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15696,
+      "sha1": "373ef1b6e52cf1f8363a9c4d7b21b76e69f84336"
     }
   }
 }

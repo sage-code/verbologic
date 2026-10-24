@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, este urgență."
+      "name": "Da, este urgență.",
+      "description": "Învață cum să confirmi că este o urgență."
+    },
+    "en": {
+      "description": "Learn how to confirm that there is an emergency.",
+      "name": "Yes, it is an emergency."
+    },
+    "de": {
+      "description": "Lerne, wie du bestätigst, dass ein Notfall vorliegt.",
+      "name": "Ja, es ist ein Notfall."
+    },
+    "ru": {
+      "description": "Узнайте, как подтвердить наличие экстренной ситуации.",
+      "name": "Да, это экстренная ситуация."
+    },
+    "it": {
+      "description": "Impara a confermare che si tratta di un'emergenza.",
+      "name": "Sì, è un'emergenza."
+    },
+    "es": {
+      "description": "Aprende a confirmar que se trata de una emergencia.",
+      "name": "Sí, es una emergencia."
+    },
+    "fr": {
+      "description": "Apprenez à confirmer qu'il s'agit d'une urgence.",
+      "name": "Oui, c'est une urgence."
+    },
+    "hu": {
+      "description": "Tanuld meg megerősíteni, hogy vészhelyzet van.",
+      "name": "Igen, ez vészhelyzet."
+    },
+    "pt": {
+      "description": "Aprenda a confirmar que se trata de uma emergência.",
+      "name": "Sim, é uma emergência."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15984,
       "sha1": "9bff5b36cd5fb4c340d6bd6b855f4a405d07f055"
+    },
+    "sound/en.mp3": {
+      "bytes": 12960,
+      "sha1": "167e1dd50306553263ec3d794d97765eb56727cb"
+    },
+    "sound/de.mp3": {
+      "bytes": 15984,
+      "sha1": "6d35263c8c9cdc015a2ef9932121acfd729e96fb"
+    },
+    "sound/it.mp3": {
+      "bytes": 12384,
+      "sha1": "3fc44a4e45a3dfae2e9e5d39daf28446e56814c8"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15120,
+      "sha1": "ed0c9c96932fa8b7e4e0f59ae146492889be3f5d"
+    },
+    "sound/es.mp3": {
+      "bytes": 15552,
+      "sha1": "6f1ee8a6e49c553b31677e32e9f2fce8c3de1d90"
+    },
+    "sound/ru.mp3": {
+      "bytes": 22176,
+      "sha1": "c605769af96df26bbdf2832052f0afaf553dcfd4"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17424,
+      "sha1": "c147486aa38da766acd325b2c3433a7d05e02212"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16560,
+      "sha1": "b7e072a8f996184176dcedd35071e9d43ac06061"
     }
   }
 }

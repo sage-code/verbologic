@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Check the price."
+      "name": "Check the price.",
+      "description": "A command telling someone to check the price."
     },
     "ro": {
-      "name": "Verifică prețul."
+      "name": "Verifică prețul.",
+      "description": "O comandă prin care i se cere cuiva să verifice prețul."
+    },
+    "de": {
+      "description": "Eine Aufforderung, den Preis zu überprüfen.",
+      "name": "Prüfe den Preis."
+    },
+    "ru": {
+      "description": "Команда проверить цену.",
+      "name": "Проверь цену."
+    },
+    "it": {
+      "description": "Un comando per dire a qualcuno di controllare il prezzo.",
+      "name": "Controlla il prezzo."
+    },
+    "es": {
+      "description": "Una orden para pedirle a alguien que revise el precio.",
+      "name": "Revisa el precio."
+    },
+    "fr": {
+      "description": "Un ordre demandant à quelqu'un de vérifier le prix.",
+      "name": "Vérifie le prix."
+    },
+    "hu": {
+      "description": "Utasítás az ár ellenőrzésére.",
+      "name": "Ellenőrizd az árat!"
+    },
+    "pt": {
+      "description": "Um comando para pedir a alguém que verifique o preço.",
+      "name": "Verifique o preço."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13248,
       "sha1": "99595d01fc46a9f43d4c076a6f89f8d1e696e6b0"
+    },
+    "sound/de.mp3": {
+      "bytes": 12384,
+      "sha1": "1fcfeed8192656dab4992556b03dc9fca3bdd777"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "fd4a2c304823bfea63bf6437f780f237e0ebb9be"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "3117cd40202a7293bd558070f22a08f59a91a7ea"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11808,
+      "sha1": "4fa1322c184e5ee8f15bb2af317effa938e0f1e1"
+    },
+    "sound/es.mp3": {
+      "bytes": 12672,
+      "sha1": "36275801a7b029cfa5c1d9364a499ea1fe1f403b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12528,
+      "sha1": "c49da8d7d0a31427bcabc18f54506b72dd4354ac"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14400,
+      "sha1": "988bed2a515fbdb66767b9b62e79df3371f1c20c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15120,
+      "sha1": "9dd2130b25beb61153f05cac89690fc2e2c5dddd"
     }
   }
 }

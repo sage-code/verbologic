@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, mă trezesc târziu."
+      "name": "Nu, mă trezesc târziu.",
+      "description": "O propoziție care indică faptul că te trezești târziu."
+    },
+    "en": {
+      "description": "A statement stating that you wake up late.",
+      "name": "No, I wake up late."
+    },
+    "de": {
+      "description": "Eine Aussage darüber, dass man spät aufwacht.",
+      "name": "Nein, ich wache spät auf."
+    },
+    "ru": {
+      "description": "Высказывание о том, что вы поздно просыпаетесь.",
+      "name": "Нет, я поздно просыпаюсь."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che ti svegli tardi.",
+      "name": "No, mi sveglio tardi."
+    },
+    "es": {
+      "description": "Una afirmación que indica que te despiertas tarde.",
+      "name": "No, me despierto tarde."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que vous vous réveillez tard.",
+      "name": "Non, je me réveille tard."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kifejezi, hogy későn ébredsz.",
+      "name": "Nem, későn ébredek."
+    },
+    "pt": {
+      "description": "Uma afirmação indicando que você acorda tarde.",
+      "name": "Não, eu acordo tarde."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15984,
       "sha1": "3b2eb41f42edd9c87bf1b2206f07ce494584ec51"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "af083a83c21939efb6d9e05f069f75a7fbfd63e1"
+    },
+    "sound/de.mp3": {
+      "bytes": 16128,
+      "sha1": "89d38e3572e567f94cf7050688f6d243b46e6a3c"
+    },
+    "sound/it.mp3": {
+      "bytes": 17280,
+      "sha1": "af2eb4b0edaee900b35c2fecc34343728c31bbb8"
+    },
+    "sound/es.mp3": {
+      "bytes": 16416,
+      "sha1": "0fab462db745c3564aea39ee47c7d7f6cabffb84"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15696,
+      "sha1": "6a0c8dde84e6db10ab5537cc6bb8c07b76441b57"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14400,
+      "sha1": "2bfd04566cb252d4ef0ab2479da3238ef4177b6c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14688,
+      "sha1": "284ab0f1eb7aef9913172ce75d4732663f258096"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18576,
+      "sha1": "4007dc3ff9eaade8445255a6b887a5baeb8148b2"
     }
   }
 }

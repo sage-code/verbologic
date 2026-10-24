@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, parola este în fișier."
+      "name": "Nu, parola este în fișier.",
+      "description": "O propoziție care indică faptul că parola este în fișier."
+    },
+    "en": {
+      "description": "A sentence indicating that the password is in the file.",
+      "name": "No, the password is in the file."
+    },
+    "de": {
+      "description": "Ein Satz, der angibt, dass das Passwort in der Datei steht.",
+      "name": "Nein, das Passwort ist in der Datei."
+    },
+    "ru": {
+      "description": "Предложение, указывающее на то, что пароль находится в файле.",
+      "name": "Нет, пароль находится в файле."
+    },
+    "it": {
+      "description": "Una frase che indica che la password è nel file.",
+      "name": "No, la password è nel file."
+    },
+    "es": {
+      "description": "Una frase que indica que la contraseña está en el archivo.",
+      "name": "No, la contraseña está en el archivo."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que le mot de passe est dans le fichier.",
+      "name": "Non, le mot de passe est dans le fichier."
+    },
+    "hu": {
+      "description": "Mondat, amely jelzi, hogy a jelszó a fájlban található.",
+      "name": "Nem, a jelszó a fájlban van."
+    },
+    "pt": {
+      "description": "Uma frase indicando que a senha está no arquivo.",
+      "name": "Não, a senha está no arquivo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17856,
       "sha1": "d10aff4c97174c18016a2534b904254ad98446cf"
+    },
+    "sound/en.mp3": {
+      "bytes": 15552,
+      "sha1": "b2312dc540ef931af34817aa4f97625039d4c5a2"
+    },
+    "sound/de.mp3": {
+      "bytes": 20880,
+      "sha1": "2b316cf83c4989ad6a4fbd78277d96a4ae8d4779"
+    },
+    "sound/it.mp3": {
+      "bytes": 14544,
+      "sha1": "624d62d100e9cfb43bcb3930cf0b5d339e5798b1"
+    },
+    "sound/es.mp3": {
+      "bytes": 18576,
+      "sha1": "86f2ac9daa0b3f2d0332efd57e08aa569f80e4ce"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18720,
+      "sha1": "10f4a33fa36c1594af92a0e1cb5aeb84bca3d894"
+    },
+    "sound/hu.mp3": {
+      "bytes": 20304,
+      "sha1": "33f6b685e0a73ada0c92786c8f457664da50ebef"
+    },
+    "sound/fr.mp3": {
+      "bytes": 18576,
+      "sha1": "7c336dd63a69621e1f466fd825ddae9b22f7c8c3"
+    },
+    "sound/ru.mp3": {
+      "bytes": 19008,
+      "sha1": "e541a1ee40af0259affb6ba1364e0eba9dd9e05b"
     }
   }
 }

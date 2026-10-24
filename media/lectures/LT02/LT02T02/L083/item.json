@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "The student reads the lesson."
+      "name": "The student reads the lesson.",
+      "description": "A sentence stating that the student is reading the lesson."
     },
     "ro": {
-      "name": "Studentul citește lecția."
+      "name": "Studentul citește lecția.",
+      "description": "O propoziție care afirmă că elevul citește lecția."
+    },
+    "de": {
+      "description": "Ein Satz, der besagt, dass der Schüler die Lektion liest.",
+      "name": "Der Schüler liest die Lektion."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее, что учащийся читает урок.",
+      "name": "Студент читает урок."
+    },
+    "it": {
+      "description": "Una frase che afferma che lo studente sta leggendo la lezione.",
+      "name": "Lo studente legge la lezione."
+    },
+    "es": {
+      "description": "Una oración que afirma que el estudiante lee la lección.",
+      "name": "El estudiante lee la lección."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que l'élève lit la leçon.",
+      "name": "L'élève lit la leçon."
+    },
+    "hu": {
+      "description": "Egy mondat, amely azt fejezi ki, hogy a diák a leckét olvassa.",
+      "name": "A diák olvassa a leckét."
+    },
+    "pt": {
+      "description": "Uma frase que afirma que o aluno está lendo a lição.",
+      "name": "O aluno lê a lição."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16704,
       "sha1": "774ad4e0f3f05991d31800e22423b80764d47835"
+    },
+    "sound/de.mp3": {
+      "bytes": 14688,
+      "sha1": "0224809deec1a700a3f059bbbb82319b67a13482"
+    },
+    "sound/it.mp3": {
+      "bytes": 17280,
+      "sha1": "40e2c1292128efa0353a1d092b5eb4603113e70e"
+    },
+    "sound/es.mp3": {
+      "bytes": 16272,
+      "sha1": "3f8e10c1bacd85d405d13a2f85e75c656c4470fd"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11952,
+      "sha1": "2959d5dd1c7cf8e4b8e0c32e33a918d59954bb07"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14400,
+      "sha1": "296dd7a97184df036016c6d03d21607ad75737ed"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12528,
+      "sha1": "0de84b4208bdc8af6f041bf21dc4c6cfb8b740fa"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15696,
+      "sha1": "6c7a03a82f0cf6565705d2cba628c2dd91490292"
+    },
+    "sound/en.mp3": {
+      "bytes": 10800,
+      "sha1": "77fbdb462ab92e882af7d88ce7d39de82572ef7b"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Vezi soarele?"
+      "name": "Vezi soarele?",
+      "description": "O întrebare prin care se întreabă dacă cineva poate vedea soarele."
+    },
+    "en": {
+      "description": "A question asking if someone can see the sun.",
+      "name": "Do you see the sun?"
+    },
+    "de": {
+      "description": "Eine Frage, die sich erkundigt, ob jemand die Sonne sehen kann.",
+      "name": "Siehst du die Sonne?"
+    },
+    "ru": {
+      "description": "Вопрос о том, видит ли собеседник солнце.",
+      "name": "Ты видишь солнце?"
+    },
+    "it": {
+      "description": "Una domanda che chiede se qualcuno vede il sole.",
+      "name": "Vedi il sole?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si alguien puede ver el sol.",
+      "name": "¿Ves el sol?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un voit le soleil.",
+      "name": "Tu vois le soleil ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy valaki látja-e a napot.",
+      "name": "Látod a napot?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se alguém consegue ver o sol.",
+      "name": "Você vê o sol?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12096,
       "sha1": "fd81b93fdc9af69194efdffa0cf784b7ae0e3933"
+    },
+    "sound/en.mp3": {
+      "bytes": 8064,
+      "sha1": "3171cc6e4a8a94023e6da5d2b74781fcf65879fd"
+    },
+    "sound/de.mp3": {
+      "bytes": 12096,
+      "sha1": "f757c2d39ec0e96e85496c4e85ec480f677e071d"
+    },
+    "sound/it.mp3": {
+      "bytes": 7632,
+      "sha1": "41546883bf003c620a6932281ccbea58db64979c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13392,
+      "sha1": "a11173f3387e3bf3e06f8a8649e5aa71872a431a"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "a14a41cb28756d40ad169ed97372fb38349d5e5c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12240,
+      "sha1": "4e20e7d49a9030292c51ba6e786bd518a652376b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12816,
+      "sha1": "18c6e9859051db4c922880f5678bb7f40056e3ca"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13392,
+      "sha1": "76163798bfc17a9a2776a12cab22f08965e94c93"
     }
   }
 }

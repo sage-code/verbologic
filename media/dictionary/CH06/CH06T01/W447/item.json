@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "university"
+      "name": "university",
+      "description": "This word is part of school vocabulary."
     },
     "ro": {
       "name": "universitate",
-      "ipa": "/universiˈtate/"
+      "ipa": "/universiˈtate/",
+      "description": "Acest cuvânt face parte din vocabularul școlar."
     },
     "de": {
-      "name": "Universität"
+      "name": "Universität",
+      "description": "Dieses Wort gehört zum Schulwortschatz."
     },
     "ru": {
-      "name": "университет"
+      "name": "университет",
+      "description": "Это слово относится к школьной лексике."
     },
     "it": {
-      "name": "università"
+      "name": "università",
+      "description": "Questa parola fa parte del vocabolario scolastico."
     },
     "es": {
-      "name": "universidad"
+      "name": "universidad",
+      "description": "Esta palabra forma parte del vocabulario escolar."
     },
     "fr": {
-      "name": "université"
+      "name": "université",
+      "description": "Ce mot fait partie du vocabulaire scolaire."
     },
     "hu": {
-      "name": "egyetem"
+      "name": "egyetem",
+      "description": "Ez a szó az iskolai szókincs része."
     },
     "pt": {
-      "name": "universidade"
+      "name": "universidade",
+      "description": "Esta palavra faz parte do vocabulário escolar."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12096,
       "sha1": "be18bd9dd8f623429f7cf760386ecec539d105da"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "307e1319b405f38ce760ffa00b475fe7372c20fb"
+    },
+    "sound/de.mp3": {
+      "bytes": 11952,
+      "sha1": "6b163851afabb2621c0f3f17869775e4b754d261"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12672,
+      "sha1": "62980c29eb02d1f47a0b6d591a1144c11519f4cb"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "59974a9d5d388b617d8594109c02c3d9424d5ee2"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "55f0001ddc6efd2d1cefdf60b6d85be60538a2a5"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11376,
+      "sha1": "ac5bb6c4bb3a306d865f07f81935e09e023e7b87"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "f825ff696816c85e26bcb42fd7ecd344fb835d43"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13392,
+      "sha1": "59393ec3f5ea665d7df7f91d2a297a92d1be75d6"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "suitcase"
+      "name": "suitcase",
+      "description": "A bag carried on the back with shoulder straps, commonly used by travelers and hikers."
     },
     "ro": {
       "name": "valiză",
-      "ipa": "/vaˈlizə/"
+      "ipa": "/vaˈlizə/",
+      "description": "Un sac purtat pe spate cu bretele, folosit frecvent de călători și excursioniști."
     },
     "de": {
-      "name": "Koffer"
+      "name": "Koffer",
+      "description": "Eine Tasche mit Schultergurten, die auf dem Rücken getragen und häufig von Reisenden und Wanderern verwendet wird."
     },
     "ru": {
-      "name": "чемодан"
+      "name": "чемодан",
+      "description": "Сумка с плечевыми ремнями, которую носят на спине, часто используемая путешественниками и туристами."
     },
     "it": {
-      "name": "valigia"
+      "name": "valigia",
+      "description": "Una borsa dotata di spallacci che si porta sulla schiena, comunemente usata da viaggiatori ed escursionisti."
     },
     "es": {
-      "name": "maleta"
+      "name": "maleta",
+      "description": "Una bolsa que se lleva a la espalda con correas para los hombros, muy utilizada por viajeros y excursionistas."
     },
     "fr": {
-      "name": "valise"
+      "name": "valise",
+      "description": "Un sac muni de bretelles qui se porte sur le dos, couramment utilisé par les voyageurs et les randonneurs."
     },
     "hu": {
-      "name": "bőrönd"
+      "name": "bőrönd",
+      "description": "Vállpántokkal ellátott, háton hordható táska, amelyet gyakran használnak utazók és túrázók."
     },
     "pt": {
-      "name": "mala"
+      "name": "mala",
+      "description": "Uma bolsa com alças usada nas costas, comumente utilizada por viajantes e trilheiros."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "a6e305f39bb3cbdd43d1c4f19c8d462ebedf00ff"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d45d3cec4170c6a5f4e792d0fde2f1e5218b6cdb"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "02a02d7795808c05a226cc8244a403ff449c39cf"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10944,
+      "sha1": "b5f2918751a0c483c1d11062b08b8b854520ad38"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "f277f339a93898b328feebec6deb774ae9b7aca0"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "bcbc51f4fa17f7e6bafa6f1708ca77d103ff3f38"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "79dd092cb315f3022153e8e902f508d9947b2b94"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "e503f2da2c939cff94d5641c0618016fb2020362"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "fe6b64c845af00177e7e265d818cd4a0572ebde7"
     }
   }
 }

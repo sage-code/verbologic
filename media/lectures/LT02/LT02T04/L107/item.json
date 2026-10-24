@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Ea este liniștită acum?"
+      "name": "Ea este liniștită acum?",
+      "description": "O întrebare despre starea ei de liniște în prezent."
+    },
+    "en": {
+      "description": "A question asking whether she is calm now.",
+      "name": "Is she calm now?"
+    },
+    "de": {
+      "description": "Eine Frage, die danach fragt, ob sie im Moment ruhig ist.",
+      "name": "Ist sie jetzt ruhig?"
+    },
+    "ru": {
+      "description": "Вопрос о том, спокойна ли она сейчас.",
+      "name": "Она сейчас спокойна?"
+    },
+    "it": {
+      "description": "Una domanda che chiede se lei sia tranquilla in questo momento.",
+      "name": "Lei è tranquilla adesso?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si ella está tranquila en este momento.",
+      "name": "¿Ella está tranquila ahora?"
+    },
+    "fr": {
+      "description": "Une question demandant si elle est calme en ce moment.",
+      "name": "Est-elle calme maintenant ?"
+    },
+    "hu": {
+      "description": "Kérdés arról, hogy ő nyugodt-e most.",
+      "name": "Ő most nyugodt?"
+    },
+    "pt": {
+      "description": "Uma pergunta sobre se ela está tranquila agora.",
+      "name": "Ela está calma agora?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14544,
       "sha1": "cb7feb0efb8d75787f9317d96c250a680819e949"
+    },
+    "sound/de.mp3": {
+      "bytes": 12528,
+      "sha1": "f503fb64342b7386df387a3d03ee59e53c680ca2"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "e4e448c4f3318959d5b1db76fc3ab09a131dd297"
+    },
+    "sound/it.mp3": {
+      "bytes": 15264,
+      "sha1": "db22a089752080c5876a0fc6b016b88e8439bec1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11088,
+      "sha1": "a256b695d580bcd0f55dd189739b56d3d3d065f3"
+    },
+    "sound/es.mp3": {
+      "bytes": 14112,
+      "sha1": "e3220891662253fe5a2b0446323882cda75375a5"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12672,
+      "sha1": "eb4edefbb136ac5c264bfd448b098c724780a14b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12240,
+      "sha1": "2bc4538656670df63f2bf53b24a52e7a49c23411"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15120,
+      "sha1": "cc79c8b5a105e9ea23576312ab2fc2c7decd6f3d"
     }
   }
 }

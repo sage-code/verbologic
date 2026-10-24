@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "to work"
+      "name": "to work",
+      "description": "To get out of bed after sleeping."
     },
     "ro": {
       "name": "a lucra",
-      "ipa": "/a luˈkra/"
+      "ipa": "/a luˈkra/",
+      "description": "A te da jos din pat după somn."
     },
     "de": {
-      "name": "arbeiten"
+      "name": "arbeiten",
+      "description": "Nach dem Schlafen aus dem Bett aufstehen."
     },
     "ru": {
-      "name": "работать"
+      "name": "работать",
+      "description": "Вставать с постели после сна."
     },
     "it": {
-      "name": "lavorare"
+      "name": "lavorare",
+      "description": "Scendere dal letto dopo aver dormito."
     },
     "es": {
-      "name": "trabajar"
+      "name": "trabajar",
+      "description": "Salir de la cama después de dormir."
     },
     "fr": {
-      "name": "travailler"
+      "name": "travailler",
+      "description": "Sortir du lit après avoir dormi."
     },
     "hu": {
-      "name": "dolgozni"
+      "name": "dolgozni",
+      "description": "Kikelni az ágyból alvás után."
     },
     "pt": {
-      "name": "trabalhar"
+      "name": "trabalhar",
+      "description": "Sair da cama depois de dormir."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "bc6e442e7f8aa4b0321a2f60f2874f7a3776c2e8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "6f1ffe60349242774ee71a1efaafc273d2592f17"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "8bad06a604833bab35d7c1c376e449649b9a8442"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11520,
+      "sha1": "8107ddbb63d568531559bebc45872271ced7b6da"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "0d5e151d986488d19e7af46f86460ad2af87973d"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "27e59641acd72207aa1919ec56d7f7ce53a667f6"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "f9d55c7ecc0d456347bfd017d6853d2f22982f64"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11376,
+      "sha1": "094683197bae1a8e6fee9d11da496d62a43f9a54"
+    },
+    "sound/pt.mp3": {
+      "bytes": 10944,
+      "sha1": "9bc38fe00a82edf00dd829fb7b310693b4c421b0"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "El este prietenul tău?"
+      "name": "El este prietenul tău?",
+      "description": "O întrebare despre calitatea cuiva de a fi prietenul tău."
+    },
+    "en": {
+      "description": "A question asking whether someone is your friend.",
+      "name": "Is he your friend?"
+    },
+    "de": {
+      "description": "Eine Frage, die danach fragt, ob jemand dein Freund ist.",
+      "name": "Ist er dein Freund?"
+    },
+    "ru": {
+      "description": "Вопрос о том, является ли кто-то вашим другом.",
+      "name": "Он твой друг?"
+    },
+    "it": {
+      "description": "Una domanda che chiede se qualcuno sia un tuo amico.",
+      "name": "Lui è tuo amico?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si alguien es tu amigo.",
+      "name": "¿Él es tu amigo?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un est votre ami.",
+      "name": "Est-il ton ami ?"
+    },
+    "hu": {
+      "description": "Kérdés arról, hogy valaki a te barátod-e.",
+      "name": "Ő a barátod?"
+    },
+    "pt": {
+      "description": "Uma pergunta sobre alguém ser seu amigo.",
+      "name": "Ele é seu amigo?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15696,
       "sha1": "b3c655d9e06e03c8645b434462b5b5b80e76cfe2"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "a16fed35fa10732082bbb79ecdf9dd0fbba99d60"
+    },
+    "sound/de.mp3": {
+      "bytes": 12528,
+      "sha1": "a25abe250037486be63f78232dac5cba0fba1200"
+    },
+    "sound/es.mp3": {
+      "bytes": 11664,
+      "sha1": "1544aecbb97e977553ba80d3b12279f7368a086c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11376,
+      "sha1": "09c44b7c14b03c3a12e98b438c2b0aaa8a4479a9"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12240,
+      "sha1": "0af69dab2eedaf38ce0132e3e958e110c99a6077"
+    },
+    "sound/it.mp3": {
+      "bytes": 12816,
+      "sha1": "0ed839204c3e0a300e0fa946a80cb4cb8ac3d624"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "32223a02cc66c4199748b34d47a663324d56923b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "6a4a0023adf0c7d15e94fc4802cc2fb8ccd387b2"
     }
   }
 }

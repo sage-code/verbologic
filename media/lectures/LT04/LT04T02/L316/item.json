@@ -12,13 +12,78 @@
   "locales": {
     "ro": {
       "name": "Salut",
-      "context": "friends, close colleagues"
+      "context": "friends, close colleagues",
+      "description": "Un salut informal folosit la întâlnire sau la despărțire."
+    },
+    "en": {
+      "description": "An informal greeting used when meeting or parting.",
+      "name": "Hello"
+    },
+    "de": {
+      "description": "Ein informeller Gruß, der zur Begrüßung oder zum Abschied verwendet wird.",
+      "name": "Hallo"
+    },
+    "ru": {
+      "description": "Неформальное приветствие, используемое при встрече или прощании.",
+      "name": "Привет"
+    },
+    "it": {
+      "description": "Un saluto informale usato per incontrarsi o congedarsi.",
+      "name": "Ciao"
+    },
+    "es": {
+      "description": "Un saludo informal que se usa al encontrarse o al despedirse.",
+      "name": "Hola"
+    },
+    "fr": {
+      "description": "Une salutation informelle utilisée pour se dire bonjour ou au revoir.",
+      "name": "Salut"
+    },
+    "hu": {
+      "description": "Informális köszönés, amelyet találkozáskor vagy búcsúzáskor használnak.",
+      "name": "Szia"
+    },
+    "pt": {
+      "description": "Uma saudação informal usada para cumprimentar ou se despedir.",
+      "name": "Olá"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "96afec37a41a26b14bb55323cdbd097b5d39f453"
+    },
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "d46c1979664a4cc42c6cf5397ee19e4a1b108783"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "296ff431b9428105a44d0afe72943e83237cf1e6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 9792,
+      "sha1": "f32f8116b86ef42f8276c9f98e30ed73dd16630d"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "c9da0eedd20952142e456e8698ced55a7be70f66"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "6d04428824a3b7f27cc4124cfdc7c375e6983977"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "d66c30964cfa9972f6b11b4617e17c510d40d736"
+    },
+    "sound/hu.mp3": {
+      "bytes": 8640,
+      "sha1": "71800f060a4ddc47de650d1e1292313ed28c0308"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "46aa225f0422b30d37936a5904eee65e045388af"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, am febră."
+      "name": "Nu, am febră.",
+      "description": "O propoziție care exprimă faptul că ai febră."
+    },
+    "en": {
+      "description": "A sentence expressing that you have a fever.",
+      "name": "No, I have a fever."
+    },
+    "de": {
+      "description": "Ein Satz, der ausdrückt, dass man Fieber hat.",
+      "name": "Nein, ich habe Fieber."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее о наличии повышенной температуры.",
+      "name": "Нет, у меня температура."
+    },
+    "it": {
+      "description": "Una frase che esprime che hai la febbre.",
+      "name": "No, ho la febbre."
+    },
+    "es": {
+      "description": "Una frase que expresa que tienes fiebre.",
+      "name": "No, tengo fiebre."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que vous avez de la fièvre.",
+      "name": "Non, j'ai de la fièvre."
+    },
+    "hu": {
+      "description": "Mondat, amely kifejezi, hogy lázas vagy.",
+      "name": "Nem, lázam van."
+    },
+    "pt": {
+      "description": "Uma frase que expressa que você está com febre.",
+      "name": "Não, estou com febre."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13392,
       "sha1": "6400f918c0eb08b562cab56bf04e755b80994157"
+    },
+    "sound/de.mp3": {
+      "bytes": 14400,
+      "sha1": "5dbfa8ace725a78b3a0b62c619f52f7329932b91"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "b7a925153795d6f4352afa43490075dd0f491df3"
+    },
+    "sound/it.mp3": {
+      "bytes": 10512,
+      "sha1": "5a762df3a29a59ad7694bda158984159449bcdca"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17568,
+      "sha1": "4fe1700e927bcd28ad91bdd2da8b8df186b9e9b3"
+    },
+    "sound/es.mp3": {
+      "bytes": 13104,
+      "sha1": "fe0f5a74fb8bd99d7ab9f1c95a61f880fe705abc"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14544,
+      "sha1": "655a0669cd87be10922cd78162f728198f8332c5"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15696,
+      "sha1": "97835c1df4c1b5205968b70f332f485c3dc6b062"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16416,
+      "sha1": "54f248f7dfc4dea6630a776ec87f0c3c3058f0a2"
     }
   }
 }

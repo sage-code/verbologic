@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, am familie mare."
+      "name": "Da, am familie mare.",
+      "description": "O propoziție care confirmă că ai o familie mare."
+    },
+    "en": {
+      "description": "A sentence confirming that you have a big family.",
+      "name": "Yes, I have a big family."
+    },
+    "de": {
+      "description": "Ein Satz, der bestätigt, dass man eine große Familie hat.",
+      "name": "Ja, ich habe eine große Familie."
+    },
+    "ru": {
+      "description": "Предложение, подтверждающее, что у вас большая семья.",
+      "name": "Да, у меня большая семья."
+    },
+    "it": {
+      "description": "Una frase per confermare di avere una famiglia numerosa.",
+      "name": "Sì, ho una famiglia numerosa."
+    },
+    "es": {
+      "description": "Una frase que confirma que tienes una familia grande.",
+      "name": "Sí, tengo una familia grande."
+    },
+    "fr": {
+      "description": "Une phrase confirmant que vous avez une grande famille.",
+      "name": "Oui, j'ai une grande famille."
+    },
+    "hu": {
+      "description": "Mondat, amely megerősíti, hogy nagy családod van.",
+      "name": "Igen, nagy családom van."
+    },
+    "pt": {
+      "description": "Uma frase que confirma que você tem uma família grande.",
+      "name": "Sim, eu tenho uma família grande."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15984,
       "sha1": "1c5b6cf3570e4a771c014f42b369c85388fe91f4"
+    },
+    "sound/en.mp3": {
+      "bytes": 11664,
+      "sha1": "c3233ca1439f2edc8eb58662d372684db72a34fd"
+    },
+    "sound/de.mp3": {
+      "bytes": 18576,
+      "sha1": "4661d72f2ede2fdbe8530d030e09adc4dd18b734"
+    },
+    "sound/it.mp3": {
+      "bytes": 19296,
+      "sha1": "aca05207e098aab78c6a34243d53f7c658e8be83"
+    },
+    "sound/ru.mp3": {
+      "bytes": 19152,
+      "sha1": "ee68ae5ff19b383e67062bfd5cc74d8ce8ac69ee"
+    },
+    "sound/es.mp3": {
+      "bytes": 18144,
+      "sha1": "c1ade21c7723dc728fc7e6e7b8d93e4fde619c57"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16272,
+      "sha1": "3b38f8d00a0a43b10b6fb9a54168e1c0f45d3849"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14688,
+      "sha1": "4ef62e208db9ed6fd297c8f0c3c464441583a606"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16992,
+      "sha1": "98fe4b973967e8ea5437e32d3e3199dcdc6ac22e"
     }
   }
 }

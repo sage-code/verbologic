@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Start the computer."
+      "name": "Start the computer.",
+      "description": "An instruction telling someone to turn on or boot up the computer."
     },
     "ro": {
-      "name": "Pornește calculatorul."
+      "name": "Pornește calculatorul.",
+      "description": "O instrucțiune prin care i se cere cuiva să pornească calculatorul."
+    },
+    "de": {
+      "description": "Eine Aufforderung, den Computer einzuschalten oder hochzufahren.",
+      "name": "Starte den Computer."
+    },
+    "ru": {
+      "description": "Указание включить или запустить компьютер.",
+      "name": "Запусти компьютер."
+    },
+    "it": {
+      "description": "Un'istruzione che invita ad accendere o avviare il computer.",
+      "name": "Avvia il computer."
+    },
+    "es": {
+      "description": "Una instrucción para encender o iniciar la computadora.",
+      "name": "Inicia la computadora."
+    },
+    "fr": {
+      "description": "Une consigne demandant d'allumer ou de démarrer l'ordinateur.",
+      "name": "Démarre l'ordinateur."
+    },
+    "hu": {
+      "description": "Utasítás a számítógép bekapcsolására vagy elindítására.",
+      "name": "Indítsd el a számítógépet."
+    },
+    "pt": {
+      "description": "Uma instrução para ligar ou iniciar o computador.",
+      "name": "Inicie o computador."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14544,
       "sha1": "934bb184a7d25ac1042aae0aa45ea2ce0a6cd081"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "b94469b1bf8bdd8fe8a1e50d8668571577bc22aa"
+    },
+    "sound/de.mp3": {
+      "bytes": 14688,
+      "sha1": "bbd5d22e27095550a0d61aa46612b8cbdeb34b04"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14688,
+      "sha1": "69fd1dc241f52f94d0ff18ce2bced8085ee50bdd"
+    },
+    "sound/es.mp3": {
+      "bytes": 14256,
+      "sha1": "e34e9fda87df0f70d486012a6d86240fa8663740"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13392,
+      "sha1": "604a1ce7ef0393bc7b6e7d3ab9490c797f6250e8"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "a342e3b3c5b9589f40b30b64d39c7b497d17f360"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17280,
+      "sha1": "d7b02df40083aa6dca757fcaf3cd7ee0d158c99e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14976,
+      "sha1": "8dfef31594a6602c994011de13579090c7829056"
     }
   }
 }

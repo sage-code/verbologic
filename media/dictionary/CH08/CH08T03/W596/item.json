@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "pollution"
+      "name": "pollution",
+      "description": "A colleague is a person who works with you in the same workplace."
     },
     "ro": {
       "name": "poluare",
-      "ipa": "/poluˈare/"
+      "ipa": "/poluˈare/",
+      "description": "Un coleg este o persoană care lucrează cu tine la același loc de muncă."
     },
     "de": {
-      "name": "Umweltverschmutzung"
+      "name": "Umweltverschmutzung",
+      "description": "Ein Kollege ist eine Person, die mit Ihnen am selben Arbeitsplatz arbeitet."
     },
     "ru": {
-      "name": "загрязнение"
+      "name": "загрязнение",
+      "description": "Коллега — это человек, который работает вместе с вами на одном рабочем месте."
     },
     "it": {
-      "name": "inquinamento"
+      "name": "inquinamento",
+      "description": "Un collega è una persona che lavora con te nello stesso posto di lavoro."
     },
     "es": {
-      "name": "contaminación"
+      "name": "contaminación",
+      "description": "Un colega es una persona que trabaja contigo en el mismo lugar de trabajo."
     },
     "fr": {
-      "name": "pollution"
+      "name": "pollution",
+      "description": "Un collègue est une personne qui travaille avec vous sur le même lieu de travail."
     },
     "hu": {
-      "name": "szennyezés"
+      "name": "szennyezés",
+      "description": "A kolléga olyan személy, aki veled dolgozik ugyanazon a munkahelyen."
     },
     "pt": {
-      "name": "poluição"
+      "name": "poluição",
+      "description": "Um colega é uma pessoa que trabalha consigo no mesmo local de trabalho."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "9478e61465ff99b42747e2c6d3acb8eaa8082d94"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "522d0e4ab43b213dbd1e3921460890df98a643da"
+    },
+    "sound/de.mp3": {
+      "bytes": 13248,
+      "sha1": "19aab2e0d479d673889cc0e74c5629fdcc75cea7"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13536,
+      "sha1": "87b680d226622a5adcb77d00355f7574f16fb96a"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "644f6b055258d7caa379b7f315be232646e144fb"
+    },
+    "sound/es.mp3": {
+      "bytes": 11520,
+      "sha1": "c3d8bfde3c1fe6f8caff40ac980c681178d5638c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "7bd3a1de112f5ce8baadc8fa5c2cb64cbd1a7bbf"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11952,
+      "sha1": "6cc63c802e77aa3e8ef74e4f542c60f5b449fd14"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "3e4bfa84fb41fb301ec5ca9d05b84029bb54c9dd"
     }
   }
 }

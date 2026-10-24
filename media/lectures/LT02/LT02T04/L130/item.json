@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, beau lapte acum."
+      "name": "Nu, beau lapte acum.",
+      "description": "O propoziție care indică faptul că bei lapte acum."
+    },
+    "en": {
+      "description": "A statement stating that you are drinking milk now.",
+      "name": "No, I am drinking milk now."
+    },
+    "de": {
+      "description": "Eine Aussage darüber, dass man jetzt Milch trinkt.",
+      "name": "Nein, ich trinke jetzt Milch."
+    },
+    "ru": {
+      "description": "Высказывание о том, что вы сейчас пьёте молоко.",
+      "name": "Нет, я сейчас пью молоко."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che adesso stai bevendo del latte.",
+      "name": "No, adesso bevo latte."
+    },
+    "es": {
+      "description": "Una afirmación que indica que estás bebiendo leche ahora.",
+      "name": "No, ahora bebo leche."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que vous buvez du lait maintenant.",
+      "name": "Non, je bois du lait maintenant."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kifejezi, hogy éppen tejet iszol.",
+      "name": "Nem, most tejet iszom."
+    },
+    "pt": {
+      "description": "Uma afirmação indicando que você está bebendo leite agora.",
+      "name": "Não, estou bebendo leite agora."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15408,
       "sha1": "d82ebd6447f5a7f628435a30433ef47b339463a6"
+    },
+    "sound/de.mp3": {
+      "bytes": 16848,
+      "sha1": "a27aedc83f8e51bb6d3366215deab9169099401b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15984,
+      "sha1": "e5cdec4a4cc3e2d2ba065ac7d704844eb07922b5"
+    },
+    "sound/it.mp3": {
+      "bytes": 17424,
+      "sha1": "cc89d186daa690e61a5bc1940757fd46d6030c9f"
+    },
+    "sound/es.mp3": {
+      "bytes": 16416,
+      "sha1": "5a5f9344c4c0a18646be15d618146d0089e1ec68"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13392,
+      "sha1": "70e76968475ba5f3de43977f2aff7fd1e36dd301"
+    },
+    "sound/en.mp3": {
+      "bytes": 12672,
+      "sha1": "15ba6a3b689edc04c5a124aa6a43db4c005c9f67"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16272,
+      "sha1": "0494aafb17edc73ad6d3c7413f256c79755df8d8"
+    },
+    "sound/ru.mp3": {
+      "bytes": 19296,
+      "sha1": "67dde94973d15e5aa80c3a738a81693eb04a1958"
     }
   }
 }

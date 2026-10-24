@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "sad"
+      "name": "sad",
+      "description": "This vocabulary word relates to emotions and social situations."
     },
     "ro": {
       "name": "trist",
-      "ipa": "/trist/"
+      "ipa": "/trist/",
+      "description": "Acest cuvânt de vocabular se referă la emoții și situații sociale."
     },
     "de": {
-      "name": "traurig"
+      "name": "traurig",
+      "description": "Dieses Vokabelwort bezieht sich auf Emotionen und soziale Situationen."
     },
     "ru": {
-      "name": "грустный"
+      "name": "грустный",
+      "description": "Это словарное слово относится к эмоциям и социальным ситуациям."
     },
     "it": {
-      "name": "triste"
+      "name": "triste",
+      "description": "Questo vocabolo riguarda le emozioni e le situazioni sociali."
     },
     "es": {
-      "name": "triste"
+      "name": "triste",
+      "description": "Esta palabra de vocabulario se refiere a emociones y situaciones sociales."
     },
     "fr": {
-      "name": "triste"
+      "name": "triste",
+      "description": "Ce mot de vocabulaire se rapporte aux émotions et aux situations sociales."
     },
     "hu": {
-      "name": "szomorú"
+      "name": "szomorú",
+      "description": "Ez a szókincsbeli szó az érzelmekre és a társas helyzetekre vonatkozik."
     },
     "pt": {
-      "name": "triste"
+      "name": "triste",
+      "description": "Esta palavra de vocabulário refere-se a emoções e situações sociais."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "234183b20f3b681d1c2924adb3c7f9a0c96eeead"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "26aff0c4b0ee61e69a8b4872cfd8db23a750be1a"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "17e43a1ac42c0e5e223cf59c3ec02feeeb75d837"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11088,
+      "sha1": "8422219bd110549b38d451371cf1d7a9f701767a"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "e027950c63a8e86503dc4e2fb8ec8e6869c59a3c"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "8988968d6dbc4db94ca7c532b96c6872b0ee22db"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "9df49569c166fdde75af210e5f1db1f9087ea868"
+    },
+    "sound/hu.mp3": {
+      "bytes": 9792,
+      "sha1": "06df0b93673ed8075cdfefe774060a99ec12090f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "1a9c511ffe00c88f9ef94df3138d3c179e032fba"
     }
   }
 }

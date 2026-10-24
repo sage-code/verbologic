@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Accommodation"
+      "name": "Accommodation",
+      "description": "Accommodation refers to places where people stay."
     },
     "ro": {
       "name": "Cazare",
-      "ipa": "/kaˈzare/"
+      "ipa": "/kaˈzare/",
+      "description": "Cazarea se referă la locurile unde stau oamenii."
+    },
+    "de": {
+      "description": "Unterkunft bezieht sich auf Orte, an denen Menschen übernachten.",
+      "name": "Unterkunft"
+    },
+    "ru": {
+      "description": "Жильё относится к местам, где люди останавливаются.",
+      "name": "Проживание"
+    },
+    "it": {
+      "description": "L'alloggio si riferisce ai luoghi in cui le persone soggiornano.",
+      "name": "Alloggio"
+    },
+    "es": {
+      "description": "El alojamiento se refiere a los lugares donde se hospedan las personas.",
+      "name": "Alojamiento"
+    },
+    "fr": {
+      "description": "L'hébergement désigne les lieux où les personnes séjournent.",
+      "name": "Hébergement"
+    },
+    "hu": {
+      "description": "A szállás olyan helyekre utal, ahol az emberek megszállnak.",
+      "name": "Szállás"
+    },
+    "pt": {
+      "description": "Alojamento refere-se aos locais onde as pessoas se hospedam.",
+      "name": "Alojamento"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "4f0b6d569a1217586c7f64142aa01373a34b3251"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "def229457269d026176cdf690b6611b0eb03b0c8"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "e6b090717e0a8819037e56690654ade1d866a1b9"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11520,
+      "sha1": "09d621a91ae4e28c0f291f21682f0a60ceeae668"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "3600782f812f099acfe2b10c195abc13285bdb1e"
+    },
+    "sound/es.mp3": {
+      "bytes": 10800,
+      "sha1": "549e08b79b744499f5d59992ddf4a9887413d975"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "327f0e10ad59c685ac3beb701bc0a72257f2c49b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "628a3d9690f52bf48c85de4d52db47b2567be92d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "b0bca7bf359ff6fe8cac4b95eb6937f093ec6e63"
     }
   }
 }

@@ -12,13 +12,78 @@
   "locales": {
     "ro": {
       "name": "Să fii sănătos",
-      "context": "Personal wish, more intimate; conveys care and respect."
+      "context": "Personal wish, more intimate; conveys care and respect.",
+      "description": "O formulă de despărțire prin care i se urează cuiva sănătate."
+    },
+    "en": {
+      "description": "A parting expression wishing someone good health.",
+      "name": "Be well"
+    },
+    "de": {
+      "description": "Ein Abschiedsgruß, mit dem man jemandem Gesundheit wünscht.",
+      "name": "Bleib gesund"
+    },
+    "ru": {
+      "description": "Формула прощания с пожеланием крепкого здоровья.",
+      "name": "Будь здоров"
+    },
+    "it": {
+      "description": "Un'espressione di commiato con cui si augura buona salute a qualcuno.",
+      "name": "Stammi bene"
+    },
+    "es": {
+      "description": "Una expresión de despedida para desear buena salud a alguien.",
+      "name": "Cuídate"
+    },
+    "fr": {
+      "description": "Une expression d'adieu pour souhaiter une bonne santé à quelqu'un.",
+      "name": "Porte-toi bien"
+    },
+    "hu": {
+      "description": "Búcsúzási kifejezés, amellyel jó egészséget kívánnak valakinek.",
+      "name": "Légy egészséges"
+    },
+    "pt": {
+      "description": "Uma expressão de despedida para desejar boa saúde a alguém.",
+      "name": "Fique bem"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12816,
       "sha1": "2b86801a3f0225b0bb82ec9a1230e422f9f04a80"
+    },
+    "sound/es.mp3": {
+      "bytes": 9072,
+      "sha1": "d2645e9beae57f0ea2d4b0d2da86d5c3f85178a7"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "4fbb2c42966e2241b5a69ed4f71b362efcfe9242"
+    },
+    "sound/it.mp3": {
+      "bytes": 11520,
+      "sha1": "55a9fa6de12b922c8cd35c621e845b933d3e38b1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "2507bd420f57d96cf1beb142aa627f2d540b8010"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12096,
+      "sha1": "5f7b8a908baaf5c3de14b28b073020f6f6dcefcc"
+    },
+    "sound/pt.mp3": {
+      "bytes": 9360,
+      "sha1": "06b3a175455df18889961312d4f56e1bb2d83697"
+    },
+    "sound/en.mp3": {
+      "bytes": 5184,
+      "sha1": "5c513b0af08add6eb18d353de977eae63f6065b1"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12672,
+      "sha1": "bf3735fdf2f346a0d18b90ee8019125bd26f92d4"
     }
   }
 }

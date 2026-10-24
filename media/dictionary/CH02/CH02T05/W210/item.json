@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "water"
+      "name": "water",
+      "description": "A basic food item or ingredient commonly used in the kitchen."
     },
     "ro": {
       "name": "apă",
-      "ipa": "/ˈapə/"
+      "ipa": "/ˈapə/",
+      "description": "Un aliment sau ingredient de bază folosit în mod obișnuit în bucătărie."
     },
     "de": {
-      "name": "Wasser"
+      "name": "Wasser",
+      "description": "Ein Grundnahrungsmittel oder eine Zutat, die üblicherweise in der Küche verwendet wird."
     },
     "ru": {
-      "name": "Вода"
+      "name": "Вода",
+      "description": "Базовый продукт питания или ингредиент, обычно используемый на кухне."
     },
     "it": {
-      "name": "acqua"
+      "name": "acqua",
+      "description": "Un alimento o ingrediente di base comunemente usato in cucina."
     },
     "es": {
-      "name": "agua"
+      "name": "agua",
+      "description": "Un alimento o ingrediente básico utilizado habitualmente en la cocina."
     },
     "fr": {
-      "name": "eau"
+      "name": "eau",
+      "description": "Un aliment ou un ingrédient de base couramment utilisé dans la cuisine."
     },
     "hu": {
-      "name": "Víz"
+      "name": "Víz",
+      "description": "A konyhában általánosan használt alapvető élelmiszer vagy hozzávaló."
     },
     "pt": {
-      "name": "Água"
+      "name": "Água",
+      "description": "Um alimento ou ingrediente básico normalmente usado na cozinha."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "2d24f0371698a6aec778d8dde44bebccb7fe4e2d"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "c09de114967dbba9b923859250cc4d63abfd2009"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "f3066d75ad07d8ce23783e2c0fb50bd46ebd07ff"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "9243af89aaf323911e820874c25f38b03117f5f9"
+    },
+    "sound/it.mp3": {
+      "bytes": 5328,
+      "sha1": "f9848fd85addf187bd9c992c0e2803c160c33f7e"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "2a8148f3682c9ba5a409574aefe3df3eadd9e707"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "836a6bbd2fec0d5f404859adf9919e3d1b634a78"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "646aa3b3ff6cd783f70649a8d458b0b0bd7428ef"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "0ac86251d89cc79e57085fcfd75997e63034907b"
     }
   }
 }

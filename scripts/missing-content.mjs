@@ -24,7 +24,6 @@ import { fileURLToPath } from 'node:url'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const MEDIA = join(ROOT, 'media')
-const ENTITIES = join(ROOT, 'public', 'data', 'entities')
 const CONTENT = join(ROOT, 'content')
 const SIDEBARS = join(ROOT, 'src', 'data', 'sidebars')
 const CONFIG = join(ROOT, 'src', 'data', 'media.config.json')
@@ -59,18 +58,13 @@ for (const sectionPath of new Set(Object.values(config.sections ?? {}))) {
     const m = readJson(file)
     if (m.code && m.topic) {
       manifestIds.add(`${m.topic}\n${m.code}`)
+      // Sidebars still reference the pre-migration id for content converted
+      // from the retired entities bridge.
+      if (m.legacy_entity_id) manifestIds.add(`${m.topic}\n${m.legacy_entity_id}`)
     } else if (m.id) {
       const topic = file.split(/[\\/]/).at(-2)
       manifestIds.add(`${topic}\n${m.id}`)
     }
-  }
-}
-
-/** Legacy entity ids — the transitional bridge. */
-const entityIds = new Set()
-if (existsSync(ENTITIES)) {
-  for (const file of readdirSync(ENTITIES).filter((f) => f.endsWith('.json'))) {
-    for (const e of readJson(join(ENTITIES, file))) if (e.id) entityIds.add(e.id)
   }
 }
 
@@ -102,7 +96,7 @@ for (const file of walk(CONTENT, '.md')) {
 const plannedSources = existsSync(TOPIC_MAP) ? readJson(TOPIC_MAP).planned ?? {} : {}
 
 const isResolved = (topic, id) =>
-  manifestIds.has(`${topic}\n${id}`) || entityIds.has(id) || docsById.has(`${topic}\n${id}`)
+  manifestIds.has(`${topic}\n${id}`) || docsById.has(`${topic}\n${id}`)
 
 /* ── walk the structure layer ────────────────────────────────────────────── */
 

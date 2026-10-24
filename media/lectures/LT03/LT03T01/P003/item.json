@@ -1,0 +1,85 @@
+{
+  "code": "P003",
+  "track": "lectures",
+  "chapter": "LT03",
+  "topic": "LT03T01",
+  "kind": "greeting",
+  "entity_id": "LT03T01:P003",
+  "legacy_entity_id": "greeting_buna-dimineata",
+  "locales": {
+    "ro": {
+      "name": "Bună dimineața",
+      "description": "morning, formal or neutral"
+    },
+    "en": {
+      "description": "Morning, formal or neutral",
+      "name": "Good morning"
+    },
+    "de": {
+      "description": "Morgens, formell oder neutral",
+      "name": "Guten Morgen"
+    },
+    "ru": {
+      "description": "Утром, формально или нейтрально",
+      "name": "Доброе утро"
+    },
+    "it": {
+      "description": "Mattina, formale o neutro",
+      "name": "Buongiorno"
+    },
+    "es": {
+      "description": "Mañana, formal o neutro",
+      "name": "Buenos días"
+    },
+    "fr": {
+      "description": "Matin, formel ou neutre",
+      "name": "Bonjour"
+    },
+    "hu": {
+      "description": "Reggel, formális vagy semleges",
+      "name": "Jó reggelt"
+    },
+    "pt": {
+      "description": "Manhã, formal ou neutro",
+      "name": "Bom dia"
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "6c154e77f8745126003fb92fcb21406a23cbbed8"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12672,
+      "sha1": "9176730d37b10234ffa03ec3c29a30addc6a06d1"
+    },
+    "sound/de.mp3": {
+      "bytes": 11664,
+      "sha1": "dafa5fd90d8449c4bfe8afc54fb5a88bc5311de3"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "65e120e1798183bb8f3bd8ee672af2e68658b71b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13392,
+      "sha1": "25b0b8f4ced5f93db0ae7fbbe31d4c066562ff3b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "92aaab600d2291bf9007b08d3f61b23938eb885a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11952,
+      "sha1": "af717a8b6a521d79a03de4fbc3c824140e689948"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "48c6954ed2329ff5da77b1e8eb2974419ec5cb56"
+    },
+    "sound/es.mp3": {
+      "bytes": 11808,
+      "sha1": "f87b2f83ea93c20470fa4ec91ab0c86e9c60a0bf"
+    }
+  }
+}

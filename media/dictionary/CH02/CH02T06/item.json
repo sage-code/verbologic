@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Animals & pets"
+      "name": "Animals & pets",
+      "description": "This topic covers vocabulary related to animals and pets."
     },
     "ro": {
       "name": "Animale și animale de companie",
-      "ipa": "/aniˈmale ʃi aniˈmale de kompaˈnie/"
+      "ipa": "/aniˈmale ʃi aniˈmale de kompaˈnie/",
+      "description": "Această temă acoperă vocabularul legat de animale și animale de companie."
+    },
+    "de": {
+      "description": "Dieses Thema umfasst Wortschatz rund um Tiere und Haustiere.",
+      "name": "Tiere & Haustiere"
+    },
+    "ru": {
+      "description": "В этой теме рассматриваются слова, связанные с животными и домашними питомцами.",
+      "name": "Животные и питомцы"
+    },
+    "it": {
+      "description": "Questo argomento tratta il vocabolario relativo agli animali e agli animali domestici.",
+      "name": "Animali e animali domestici"
+    },
+    "es": {
+      "description": "Este tema cubre vocabulario relacionado con animales y mascotas.",
+      "name": "Animales y mascotas"
+    },
+    "fr": {
+      "description": "Ce thème couvre le vocabulaire lié aux animaux et aux animaux de compagnie.",
+      "name": "Animaux et animaux de compagnie"
+    },
+    "hu": {
+      "description": "Ez a témakör az állatokkal és házi kedvencekkel kapcsolatos szókincset fedi le.",
+      "name": "Állatok és házi kedvencek"
+    },
+    "pt": {
+      "description": "Este tópico abrange vocabulário relacionado a animais e animais de estimação.",
+      "name": "Animais e animais de estimação"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17856,
       "sha1": "533eed59132f2f9a0aca8945cfd17b38efcb5777"
+    },
+    "sound/en.mp3": {
+      "bytes": 9072,
+      "sha1": "3e38f9932d1923c4688a8982f8dee8b862a2e89d"
+    },
+    "sound/de.mp3": {
+      "bytes": 13680,
+      "sha1": "ee2437a1ebbd4344e77bbf3965b1d818a96bb27c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15696,
+      "sha1": "4922a21082d6a9c1e90804a4bbb7ac49ed84c30e"
+    },
+    "sound/it.mp3": {
+      "bytes": 17856,
+      "sha1": "c68154627d7ca14103b7b89ea67b48bdf0325537"
+    },
+    "sound/es.mp3": {
+      "bytes": 14400,
+      "sha1": "e04fde1983f9ecd2c45c908b10d88450dc001bcb"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15120,
+      "sha1": "66428fc3d02b7af7df2b69f5fff30892b7c4e9f2"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15696,
+      "sha1": "233024d971b9e3a3ba35afbe6da812a384ae3d22"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15696,
+      "sha1": "8af4fe138ac0533dcfa223b17d0a8b0cb8b7c73d"
     }
   }
 }

@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "kilogram"
+      "name": "kilogram",
+      "description": "This item represents vocabulary word W473 in chapter 6, topic 3."
     },
     "ro": {
       "name": "kilogram",
-      "ipa": "/kiloˈgram/"
+      "ipa": "/kiloˈgram/",
+      "description": "Acest element reprezintă cuvântul de vocabular W473 din capitolul 6, tema 3."
     },
     "de": {
-      "name": "Kilogramm"
+      "name": "Kilogramm",
+      "description": "Dieser Eintrag repräsentiert die Vokabel W473 in Kapitel 6, Thema 3."
     },
     "ru": {
-      "name": "килограмм"
+      "name": "килограмм",
+      "description": "Этот элемент представляет слово W473 из главы 6, темы 3."
     },
     "it": {
-      "name": "chilogrammo"
+      "name": "chilogrammo",
+      "description": "Questo elemento rappresenta il vocabolo W473 nel capitolo 6, argomento 3."
     },
     "es": {
-      "name": "kilogramo"
+      "name": "kilogramo",
+      "description": "Este elemento representa la palabra de vocabulario W473 en el capítulo 6, tema 3."
     },
     "fr": {
-      "name": "kilogramme"
+      "name": "kilogramme",
+      "description": "Cet élément représente le mot de vocabulaire W473 du chapitre 6, thème 3."
     },
     "hu": {
-      "name": "kilogramm"
+      "name": "kilogramm",
+      "description": "Ez az elem a W473 szót képviseli a 6. fejezet 3. témájában."
     },
     "pt": {
-      "name": "quilograma"
+      "name": "quilograma",
+      "description": "Este item representa a palavra de vocabulário W473 no capítulo 6, tópico 3."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "e837cc318a2fd4fd513216629b9a65af8906193a"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "834fd48a39d481907e7fef46d255da38e4ee11ee"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "979abaefc6e5d703fbb3c493f949a918d46dadf5"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "48867b8be5f94613b9326ec0eb1899162d583cc3"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "2eb972872ca6c629e8dc53444e17fe24806f2fea"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "9f9ab0837cf6867c93721d6b7df26ab1d15693a4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "e34c84b1b875a74dccdb1c68fc52f4b8cd357ee5"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "a16c32b943a527383df17f3950f279d4ab24ecf0"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11520,
+      "sha1": "f97fbba77b213f88bc8e0dbef49ee3f903c3b789"
     }
   }
 }

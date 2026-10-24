@@ -27,7 +27,7 @@ verbologic/
 ├── public/
 │   └── data/                 # Decoupled locale JSON indices (ro.json, es.json, en.json)
 ├── src/
-│   ├── components/           # Vue interactive components (ExpressionSearch, QuizEngine)
+│   ├── components/           # Vue interactive components (roadmap shell, tables, quiz)
 │   ├── stores/               # Pinia stores (syncing local state to Supabase)
 │   └── lib/                  # Search client and Supabase clients
 ├── wrangler.toml             # Workers Static Assets + custom domain routes

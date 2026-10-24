@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, este ploaie azi."
+      "name": "Da, este ploaie azi.",
+      "description": "O afirmație care confirmă că astăzi este ploaie."
+    },
+    "en": {
+      "description": "A statement confirming that there is rain today.",
+      "name": "Yes, it is raining today."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass es heute Regen gibt.",
+      "name": "Ja, heute gibt es Regen."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее наличие дождя сегодня.",
+      "name": "Да, сегодня дождь."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che oggi c'è pioggia.",
+      "name": "Sì, oggi c'è pioggia."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que hoy llueve.",
+      "name": "Sí, hoy llueve."
+    },
+    "fr": {
+      "description": "Une déclaration confirmant qu'il pleut aujourd'hui.",
+      "name": "Oui, il y a de la pluie aujourd'hui."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely megerősíti, hogy ma esik az eső.",
+      "name": "Igen, ma eső van."
+    },
+    "pt": {
+      "description": "Uma afirmação confirmando que hoje está chovendo.",
+      "name": "Sim, hoje há chuva."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16128,
       "sha1": "7cef4b73a8d6bf1ef93456be814874dd0a5e4f5a"
+    },
+    "sound/en.mp3": {
+      "bytes": 12240,
+      "sha1": "4fa6782ab4704510f7104acbacdcbb70b480914a"
+    },
+    "sound/de.mp3": {
+      "bytes": 17280,
+      "sha1": "4fafbabda77a8bad4be91fd2b9ee912c2c82818c"
+    },
+    "sound/it.mp3": {
+      "bytes": 12240,
+      "sha1": "a8b391ed98f38543c6ddb6cf9db8f995226a720b"
+    },
+    "sound/es.mp3": {
+      "bytes": 12528,
+      "sha1": "b668543949b152249dda221598655163199d0564"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17856,
+      "sha1": "ea865350e72d5f6f95f823cf8f01d1fb3d7a09e5"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15408,
+      "sha1": "ae060ac79bede05f8fc757ceb977a792d6241ad9"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15552,
+      "sha1": "7ac7130f519bbacc2798003184a279346ede45aa"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16992,
+      "sha1": "08d48ff9b64722611fe6fdec4503cd1c899cfe2b"
     }
   }
 }

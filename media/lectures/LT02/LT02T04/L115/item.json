@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, patul este în cameră."
+      "name": "Da, patul este în cameră.",
+      "description": "O afirmație care confirmă că patul este în cameră."
+    },
+    "en": {
+      "description": "A statement confirming that the bed is in the room.",
+      "name": "Yes, the bed is in the room."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass das Bett im Zimmer steht.",
+      "name": "Ja, das Bett ist im Zimmer."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее, что кровать находится в комнате.",
+      "name": "Да, кровать в комнате."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che il letto è nella stanza.",
+      "name": "Sì, il letto è nella stanza."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que la cama está en la habitación.",
+      "name": "Sí, la cama está en la habitación."
+    },
+    "fr": {
+      "description": "Une affirmation confirmant que le lit est dans la pièce.",
+      "name": "Oui, le lit est dans la chambre."
+    },
+    "hu": {
+      "description": "Egy állítás, amely megerősíti, hogy az ágy a szobában van.",
+      "name": "Igen, az ágy a szobában van."
+    },
+    "pt": {
+      "description": "Uma afirmação que confirma que a cama está no quarto.",
+      "name": "Sim, a cama está no quarto."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 17136,
       "sha1": "48a99799e193a56d6a100522287bb527f6f8dc3a"
+    },
+    "sound/en.mp3": {
+      "bytes": 12816,
+      "sha1": "13adec994db70f7226a86592571db33111927b58"
+    },
+    "sound/de.mp3": {
+      "bytes": 16416,
+      "sha1": "df3aa1be28e6cc7fef430b0110dd7aece97358d9"
+    },
+    "sound/it.mp3": {
+      "bytes": 19296,
+      "sha1": "5af8ba813081551bd87072013dc25e9c70eb96e1"
+    },
+    "sound/es.mp3": {
+      "bytes": 18864,
+      "sha1": "0301295155a21cd6205d712c248f1585c8074caf"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15696,
+      "sha1": "944b9514e91dfe95e3c1f57f7283135bc5028628"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15696,
+      "sha1": "4c2b7c3741f527be0aae26782bea6b91afc931ff"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15840,
+      "sha1": "0244ea4d9ef0c49a523eee8c8f4a211ce1d4a80b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16848,
+      "sha1": "3eb3d790e6b709a3ddb58c5aa28ce775a8adc207"
     }
   }
 }

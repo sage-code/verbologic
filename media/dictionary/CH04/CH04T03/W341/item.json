@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "store"
+      "name": "store",
+      "description": "This vocabulary word is related to shopping and money."
     },
     "ro": {
       "name": "magazin",
-      "ipa": "/magaˈzin/"
+      "ipa": "/magaˈzin/",
+      "description": "Acest cuvânt de vocabular este legat de cumpărături și bani."
     },
     "de": {
-      "name": "Geschäft"
+      "name": "Geschäft",
+      "description": "Dieses Wort gehört zum Wortschatz rund um Einkaufen und Geld."
     },
     "ru": {
-      "name": "магазин"
+      "name": "магазин",
+      "description": "Это словарное слово связано с покупками и деньгами."
     },
     "it": {
-      "name": "negozio"
+      "name": "negozio",
+      "description": "Questo termine fa parte del vocabolario relativo a spese e denaro."
     },
     "es": {
-      "name": "tienda"
+      "name": "tienda",
+      "description": "Esta palabra de vocabulario está relacionada con las compras y el dinero."
     },
     "fr": {
-      "name": "magasin"
+      "name": "magasin",
+      "description": "Ce mot de vocabulaire est lié aux achats et à l'argent."
     },
     "hu": {
-      "name": "bolt"
+      "name": "bolt",
+      "description": "Ez a szókincselem a vásárláshoz és a pénzhez kapcsolódik."
     },
     "pt": {
-      "name": "loja"
+      "name": "loja",
+      "description": "Esta palavra do vocabulário está relacionada a compras e dinheiro."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "88bc64535952f9f1a626c16e2de17f10dd5b12fc"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "1d766e5ac0dd16a18df49d10a5a1a5fadc87dfeb"
+    },
+    "sound/de.mp3": {
+      "bytes": 9792,
+      "sha1": "e1c4311253b9aec5c82557d9726097f14eabd4b7"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "036873420af186f965a1329281dd43af92dd61ca"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "7ba68de876fee516daa57f5d5c4711382c31c465"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "96f05ab31d8ee9bcea71f9da5cb84bef6cffe73a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "a1c0347107bcecb7b30373bde5170ec91ffd85b2"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "fc70aa01d4ab81781e7a368a71a670f65b4ddb67"
+    },
+    "sound/pt.mp3": {
+      "bytes": 9504,
+      "sha1": "b8db542e0c9cb90b077c853ea750a63122932913"
     }
   }
 }

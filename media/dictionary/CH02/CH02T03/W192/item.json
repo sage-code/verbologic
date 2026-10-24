@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "bedroom"
+      "name": "bedroom",
+      "description": "Word W192 belongs to chapter two, topic three."
     },
     "ro": {
       "name": "dormitor",
-      "ipa": "/dormiˈtor/"
+      "ipa": "/dormiˈtor/",
+      "description": "Cuvântul W192 aparține capitolului doi, tema trei."
     },
     "de": {
-      "name": "Schlafzimmer"
+      "name": "Schlafzimmer",
+      "description": "Das Wort W192 gehört zu Kapitel zwei, Thema drei."
     },
     "ru": {
-      "name": "Спальня"
+      "name": "Спальня",
+      "description": "Слово W192 относится к главе два, теме три."
     },
     "it": {
-      "name": "camera da letto"
+      "name": "camera da letto",
+      "description": "La parola W192 appartiene al capitolo due, argomento tre."
     },
     "es": {
-      "name": "dormitorio"
+      "name": "dormitorio",
+      "description": "La palabra W192 pertenece al capítulo dos, tema tres."
     },
     "fr": {
-      "name": "chambre"
+      "name": "chambre",
+      "description": "Le mot W192 appartient au chapitre deux, thème trois."
     },
     "hu": {
-      "name": "Hálószoba"
+      "name": "Hálószoba",
+      "description": "A W192 szó a második fejezet harmadik témájához tartozik."
     },
     "pt": {
-      "name": "Quarto"
+      "name": "Quarto",
+      "description": "A palavra W192 pertence ao capítulo dois, tópico três."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "0bf7a0458bfb28a3ad79253e9d3ac8c2c58eeea1"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "0af3c449896ae5207e6245d6db6cbfe89562a71e"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "7a1e767e6ddd1037d916add0c9e015e4e1f2d79a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11088,
+      "sha1": "89b322fea95e826cba15b698ec934e2fc0658b91"
+    },
+    "sound/it.mp3": {
+      "bytes": 8064,
+      "sha1": "2446173934279cd4b77ab70b2ed978608b2e8a39"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "575d3e993476c72a192f6967be7279f679d0a6ef"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "0ba195d2551984cbe596b52d97a0a9130f766f10"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11520,
+      "sha1": "61354937b59e819c4901ebf542074f682a184ea9"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "4f0da3aed035be02e4dd06e7562a17d74a0ee181"
     }
   }
 }

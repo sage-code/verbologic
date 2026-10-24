@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "receipt"
+      "name": "receipt",
+      "description": "A receipt is a printed document showing that goods or services have been paid for."
     },
     "ro": {
       "name": "bon",
-      "ipa": "/bon/"
+      "ipa": "/bon/",
+      "description": "O chitanță este un document tipărit care atestă că bunurile sau serviciile au fost plătite."
     },
     "de": {
-      "name": "Kassenbon"
+      "name": "Kassenbon",
+      "description": "Eine Quittung ist ein gedrucktes Dokument, das belegt, dass Waren oder Dienstleistungen bezahlt wurden."
     },
     "ru": {
-      "name": "чек"
+      "name": "чек",
+      "description": "Чек — это печатный документ, подтверждающий оплату товаров или услуг."
     },
     "it": {
-      "name": "scontrino"
+      "name": "scontrino",
+      "description": "Uno scontrino è un documento stampato che attesta il pagamento di beni o servizi."
     },
     "es": {
-      "name": "recibo"
+      "name": "recibo",
+      "description": "Un recibo es un documento impreso que demuestra que se han pagado bienes o servicios."
     },
     "fr": {
-      "name": "reçu"
+      "name": "reçu",
+      "description": "Un reçu est un document imprimé prouvant que des biens ou des services ont été payés."
     },
     "hu": {
-      "name": "blokk"
+      "name": "blokk",
+      "description": "A nyugta egy nyomtatott bizonylat, amely igazolja, hogy az árukat vagy szolgáltatásokat kifizették."
     },
     "pt": {
-      "name": "recibo"
+      "name": "recibo",
+      "description": "Um recibo é um documento impresso que comprova que bens ou serviços foram pagos."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "60181f1a5e312d63757803ed58a82ab1dbc3fb2d"
+    },
+    "sound/en.mp3": {
+      "bytes": 7056,
+      "sha1": "0ea26201dd612e0c77722ca7889625cece1cb06f"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "48c8f2fca572467e36d6cd4da27cde4347dc9121"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "cc0b50fe3f83aff1c1603f83947ab643ee6a5c7e"
+    },
+    "sound/it.mp3": {
+      "bytes": 7344,
+      "sha1": "8068ecbe9d155d0b11c4e2022bc94749f2163d94"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "326d422e9aa7b2d88d40a5acdf7ea2b5d4a363b1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "9994dc2dfe836626feb1c28b49c48d088c8a0794"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "0e88f1033ad9ab987feb1fbfb50b624567bc762c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "6a6f0f46bc47b5b12daee3167337908e6c0f6a6a"
     }
   }
 }

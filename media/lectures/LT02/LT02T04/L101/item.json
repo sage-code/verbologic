@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, am apartament."
+      "name": "Da, am apartament.",
+      "description": "O propoziție care confirmă că ai un apartament."
+    },
+    "en": {
+      "description": "A sentence confirming that you have an apartment.",
+      "name": "Yes, I have an apartment."
+    },
+    "de": {
+      "description": "Ein Satz, der bestätigt, dass man eine Wohnung hat.",
+      "name": "Ja, ich habe eine Wohnung."
+    },
+    "ru": {
+      "description": "Предложение, подтверждающее наличие квартиры.",
+      "name": "Да, у меня есть квартира."
+    },
+    "it": {
+      "description": "Una frase per confermare di avere un appartamento.",
+      "name": "Sì, ho un appartamento."
+    },
+    "es": {
+      "description": "Una frase que confirma que tienes un apartamento.",
+      "name": "Sí, tengo un apartamento."
+    },
+    "fr": {
+      "description": "Une phrase confirmant que vous avez un appartement.",
+      "name": "Oui, j'ai un appartement."
+    },
+    "hu": {
+      "description": "Mondat, amely megerősíti, hogy van lakásod.",
+      "name": "Igen, van lakásom."
+    },
+    "pt": {
+      "description": "Uma frase que confirma que você tem um apartamento.",
+      "name": "Sim, eu tenho um apartamento."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15264,
       "sha1": "6a2e5abc3625cb3d738795f4b34686845b61385d"
+    },
+    "sound/en.mp3": {
+      "bytes": 11520,
+      "sha1": "a3b6f82737269de3f711001d4d5ab949b97aae61"
+    },
+    "sound/de.mp3": {
+      "bytes": 15696,
+      "sha1": "b78ad82fbbe4380e2dd96f4927f6d78ac8e9f8f6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18720,
+      "sha1": "776878fb73386f1a2acb7ddacd9c29463fdd78cd"
+    },
+    "sound/it.mp3": {
+      "bytes": 18144,
+      "sha1": "ef711daea31cc04491799e2a8c236b411fd6c719"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15120,
+      "sha1": "033101396f5ef0effec89be58d311a57c97cefef"
+    },
+    "sound/es.mp3": {
+      "bytes": 17280,
+      "sha1": "064c0ac06ecf1492d0cc43d58cf05b7cbc34339e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13536,
+      "sha1": "f916e77986ebcdabf23783579574c22c17d61d99"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15552,
+      "sha1": "d655ac96105594cf9482b6d9246a3a7f115705c3"
     }
   }
 }

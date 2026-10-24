@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, este vânt azi."
+      "name": "Nu, este vânt azi.",
+      "description": "O afirmație care arată că astăzi este vânt."
+    },
+    "en": {
+      "description": "A statement stating that the weather is windy today.",
+      "name": "No, it is windy today."
+    },
+    "de": {
+      "description": "Eine Aussage, die feststellt, dass es heute windig ist.",
+      "name": "Nein, heute ist es windig."
+    },
+    "ru": {
+      "description": "Утверждение о том, что сегодняшняя погода ветреная.",
+      "name": "Нет, сегодня ветрено."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che oggi c'è vento.",
+      "name": "No, oggi c'è vento."
+    },
+    "es": {
+      "description": "Una afirmación que indica que hoy hace viento.",
+      "name": "No, hoy hace viento."
+    },
+    "fr": {
+      "description": "Une déclaration indiquant qu'il y a du vent aujourd'hui.",
+      "name": "Non, il y a du vent aujourd'hui."
+    },
+    "hu": {
+      "description": "Egy kijelentés arról, hogy a mai időjárás szeles.",
+      "name": "Nem, ma szeles az idő."
+    },
+    "pt": {
+      "description": "Uma declaração informando que o clima está ventoso hoje.",
+      "name": "Não, está ventando hoje."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15696,
       "sha1": "e1ea24afd4ff96ec76af432fee78f9e5ebf03a4f"
+    },
+    "sound/en.mp3": {
+      "bytes": 12240,
+      "sha1": "df0dac9bb3251178b8e1725888178e26a409c3d5"
+    },
+    "sound/de.mp3": {
+      "bytes": 17856,
+      "sha1": "caabe1ce63524a6d24be0ce71e6e1665f149f41e"
+    },
+    "sound/it.mp3": {
+      "bytes": 12672,
+      "sha1": "58a4b45451aa60518a939d330c1db9dfe3f393fb"
+    },
+    "sound/es.mp3": {
+      "bytes": 14688,
+      "sha1": "667166ee9cc8876dc34e59dc73809a0e4be1770d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17136,
+      "sha1": "c1e280e25c87ddf79d7e9d68efcd7e588e527c82"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16992,
+      "sha1": "96fab26750a33c8c705120318620b7b6889ef3f0"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17712,
+      "sha1": "c7ef75b2b2dc4dd2608d82336bc625c9dd6daea2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17424,
+      "sha1": "e2c53da410b996cc127a284b55accb73376d15cd"
     }
   }
 }

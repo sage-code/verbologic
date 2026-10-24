@@ -1,6 +1,6 @@
 /**
  * usePrices — loads the editable pricing model from public/data/prices.json.
- * Client-side fetch, matching the useLocale/useEntities pattern. Missing or
+ * Client-side fetch, matching the useLocale pattern. Missing or
  * malformed data resolves to an empty tier list (the page shows a notice).
  */
 

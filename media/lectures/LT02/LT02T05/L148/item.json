@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, am bani."
+      "name": "Da, am bani.",
+      "description": "O afirmație care confirmă că cineva are bani."
+    },
+    "en": {
+      "description": "A statement confirming that one has money.",
+      "name": "Yes, I have money."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass man Geld hat.",
+      "name": "Ja, ich habe Geld."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее наличие денег.",
+      "name": "Да, у меня есть деньги."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma di avere denaro.",
+      "name": "Sì, ho soldi."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que se tiene dinero.",
+      "name": "Sí, tengo dinero."
+    },
+    "fr": {
+      "description": "Une déclaration confirmant que l'on a de l'argent.",
+      "name": "Oui, j'ai de l'argent."
+    },
+    "hu": {
+      "description": "Egy kijelentés, amely megerősíti, hogy az embernek van pénze.",
+      "name": "Igen, van pénzem."
+    },
+    "pt": {
+      "description": "Uma afirmação que confirma que se tem dinheiro.",
+      "name": "Sim, eu tenho dinheiro."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "4ebf66b0f83f62f47b05e2c5473cf7442109ec1c"
+    },
+    "sound/de.mp3": {
+      "bytes": 13536,
+      "sha1": "25e2bd5c1972705451e87a5f881972bd44b2db11"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "3bb50dd8cdcc4abed61045ee88168f8c9470e781"
+    },
+    "sound/it.mp3": {
+      "bytes": 11376,
+      "sha1": "879420b5090e6f92e221d7709be1245f3fdb7a5b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16848,
+      "sha1": "ccec3f042b200ea00af9371e4582d2be26af9384"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13824,
+      "sha1": "f6c5f15c099b5de4aafb7713d474f5f33d0f77b1"
+    },
+    "sound/es.mp3": {
+      "bytes": 13104,
+      "sha1": "a2d4dfad10c00d995d030b700bed9bb3c2d0257f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16704,
+      "sha1": "5fce60ad3cf292053bc78d0cecc8d9d5d8bcc322"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15840,
+      "sha1": "eb50cfc47ab84a22d43e8786b76d2af74c05f9fc"
     }
   }
 }

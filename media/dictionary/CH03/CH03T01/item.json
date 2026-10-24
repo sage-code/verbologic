@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Daily routine"
+      "name": "Daily routine",
+      "description": "This topic covers vocabulary related to daily routines."
     },
     "ro": {
       "name": "Rutina zilnică",
-      "ipa": "/ruˈtina ˈzilnikə/"
+      "ipa": "/ruˈtina ˈzilnikə/",
+      "description": "Această temă acoperă vocabularul legat de rutina zilnică."
+    },
+    "de": {
+      "description": "Dieses Thema behandelt Wortschatz rund um den Tagesablauf.",
+      "name": "Tagesablauf"
+    },
+    "ru": {
+      "description": "В этой теме рассматривается лексика, связанная с распорядком дня.",
+      "name": "Распорядок дня"
+    },
+    "it": {
+      "description": "Questo argomento comprende il vocabolario relativo alla routine quotidiana.",
+      "name": "Routine quotidiana"
+    },
+    "es": {
+      "description": "Este tema cubre vocabulario relacionado con la rutina diaria.",
+      "name": "Rutina diaria"
+    },
+    "fr": {
+      "description": "Ce thème couvre le vocabulaire lié à la routine quotidienne.",
+      "name": "Routine quotidienne"
+    },
+    "hu": {
+      "description": "Ez a téma a napirenddel kapcsolatos szókincset tartalmazza.",
+      "name": "Napirend"
+    },
+    "pt": {
+      "description": "Este tópico aborda vocabulário relacionado à rotina diária.",
+      "name": "Rotina diária"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12816,
       "sha1": "259a2f93b65910286c99df2ca86d10f450e1791a"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d15b80646273802dd0c3cbe8ce2a9f0ca5dd71bf"
+    },
+    "sound/de.mp3": {
+      "bytes": 11952,
+      "sha1": "92667857b42cf17ad70554a5b26845094aa0a393"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13248,
+      "sha1": "08e54073c2135cf26dd3f095df60b76414fce8ce"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "f0bc18f6f05024c604df03045fb814aab2c256ea"
+    },
+    "sound/es.mp3": {
+      "bytes": 12672,
+      "sha1": "906d080dcdcdd68481d04f5a30a84d155722b4a7"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13248,
+      "sha1": "1bf34c07959713962b4fea6b98566fe209a5ef6c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 10656,
+      "sha1": "35e9afd11690c9b2d9caceb477cf212265f425d7"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13536,
+      "sha1": "308290ffa933d791ac2ed934bdf89594e956cc51"
     }
   }
 }

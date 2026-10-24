@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "job"
+      "name": "job",
+      "description": "This word relates to jobs and applications."
     },
     "ro": {
       "name": "loc de muncă",
-      "ipa": "/lok de ˈmunkə/"
+      "ipa": "/lok de ˈmunkə/",
+      "description": "Acest cuvânt este legat de locuri de muncă și candidaturi."
     },
     "de": {
-      "name": "Arbeitsplatz"
+      "name": "Arbeitsplatz",
+      "description": "Dieses Wort gehört zum Wortschatz rund um Berufe und Bewerbungen."
     },
     "ru": {
-      "name": "работа"
+      "name": "работа",
+      "description": "Это слово относится к теме работы и подачи резюме."
     },
     "it": {
-      "name": "lavoro"
+      "name": "lavoro",
+      "description": "Questa parola si riferisce al lavoro e alle candidature."
     },
     "es": {
-      "name": "trabajo"
+      "name": "trabajo",
+      "description": "Esta palabra está relacionada con el empleo y las solicitudes."
     },
     "fr": {
-      "name": "emploi"
+      "name": "emploi",
+      "description": "Ce mot est lié aux emplois et aux candidatures."
     },
     "hu": {
-      "name": "munkahely"
+      "name": "munkahely",
+      "description": "Ez a szó az állásokhoz és a jelentkezésekhez kapcsolódik."
     },
     "pt": {
-      "name": "emprego"
+      "name": "emprego",
+      "description": "Esta palavra está relacionada a empregos e candidaturas."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "3bb1098dcdbdb25ec8a8923b73db4c7f2e86903c"
+    },
+    "sound/en.mp3": {
+      "bytes": 4752,
+      "sha1": "9a7976284ddd26e8a1eb1536ca4f17ce90febc86"
+    },
+    "sound/de.mp3": {
+      "bytes": 11088,
+      "sha1": "4b7d97bfac2a3af332eb0536e22b36a6483de216"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10224,
+      "sha1": "1a41f1046cca6ec3d03efa0aa902d15274e46775"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "22774d762e42fb9221085f5fc4f357e98e2d1dc8"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "75a46397fc73689295b4ae3395059a9ab75566c6"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "b9a525d7c0ed528701a3880d081ec05cb56fb9fb"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "c91b2fbb77b8e8fb2bf95fc0e758bb2d6bfb9a98"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "0ddbd11816ba3828762e8d7a85fc0a88ee49a68c"
     }
   }
 }

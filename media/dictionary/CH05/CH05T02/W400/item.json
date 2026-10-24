@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "floor"
+      "name": "floor",
+      "description": "This word is related to accommodation."
     },
     "ro": {
       "name": "etaj",
-      "ipa": "/eˈtaʒ/"
+      "ipa": "/eˈtaʒ/",
+      "description": "Acest cuvânt este legat de cazare."
     },
     "de": {
-      "name": "Stockwerk"
+      "name": "Stockwerk",
+      "description": "Dieses Wort steht im Zusammenhang mit Unterkunft."
     },
     "ru": {
-      "name": "этаж"
+      "name": "этаж",
+      "description": "Это слово связано с темой жилья."
     },
     "it": {
-      "name": "piano"
+      "name": "piano",
+      "description": "Questa parola è correlata all'alloggio."
     },
     "es": {
-      "name": "piso"
+      "name": "piso",
+      "description": "Esta palabra está relacionada con el alojamiento."
     },
     "fr": {
-      "name": "étage"
+      "name": "étage",
+      "description": "Ce mot est lié à l'hébergement."
     },
     "hu": {
-      "name": "emelet"
+      "name": "emelet",
+      "description": "Ez a szó a szállással kapcsolatos."
     },
     "pt": {
-      "name": "andar"
+      "name": "andar",
+      "description": "Esta palavra está relacionada com alojamento."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "6fa135ca2a04d6bb3554f4e90f523774dd59322a"
+    },
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "5a4e634ec8388f19e5d0124fc6f92919648fc08c"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "343b25158ba9d4b240e60eaaf5ad0722e003928c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "05b86d46787d84b71748cf4b3da00830afdae0c4"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "bc3b98223ba0ebb26e47b8aef2aa413be4960c85"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "43ccdeff96df6c9019f67e4fc01a62bf5257d548"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "239454d5b009a14254924b8167b3618259adce89"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "1b92e0efc463fc2cf75e8a4d8967ead9d7348978"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "1bdf80edc2f6a3f273dbc66eff605965353cba2f"
     }
   }
 }

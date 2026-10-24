@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Ai hartă?"
+      "name": "Ai hartă?",
+      "description": "O întrebare prin care se află dacă cineva are o hartă."
+    },
+    "en": {
+      "description": "A question asking someone if they have a map.",
+      "name": "Do you have a map?"
+    },
+    "de": {
+      "description": "Eine Frage, mit der man jemanden fragt, ob er eine Karte hat.",
+      "name": "Hast du eine Karte?"
+    },
+    "ru": {
+      "description": "Вопрос о том, есть ли у кого-то карта.",
+      "name": "У тебя есть карта?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere a qualcuno se possiede una mappa.",
+      "name": "Hai una mappa?"
+    },
+    "es": {
+      "description": "Una pregunta para saber si alguien tiene un mapa.",
+      "name": "¿Tienes un mapa?"
+    },
+    "fr": {
+      "description": "Une question demandant à quelqu'un s'il a une carte.",
+      "name": "As-tu une carte ?"
+    },
+    "hu": {
+      "description": "Kérdés arról, hogy van-e valakinek térképe.",
+      "name": "Van térképed?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se alguém tem um mapa.",
+      "name": "Você tem um mapa?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "8ae2f326fa8b3734e70085da6053ad288a56c844"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "2cbc98c80bfb3dc1cfaa60990d6882c003dc695d"
+    },
+    "sound/de.mp3": {
+      "bytes": 12672,
+      "sha1": "d679456188871988e4304965f59070b3cf46960d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13680,
+      "sha1": "4036b4ecfd2df3c1dc83cf6fa604ee20d8e1bd27"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "b5ff0c1e231bce312f7c49e62b584db73116044e"
+    },
+    "sound/es.mp3": {
+      "bytes": 11664,
+      "sha1": "d439e874f39a99f9a806b0ea76129cfcc05d9e0b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11952,
+      "sha1": "92207b8cbb40648c625bb63f2d942ffe8fdc7db8"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13104,
+      "sha1": "20652b6298615d5ed2ff98ab60e2e87d4959fc8c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13968,
+      "sha1": "b7c05abfea1fe42ac8a6e82a44f0eaaa86b1115f"
     }
   }
 }

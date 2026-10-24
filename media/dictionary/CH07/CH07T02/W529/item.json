@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "neighbor"
+      "name": "neighbor",
+      "description": "A vocabulary word related to relationships."
     },
     "ro": {
       "name": "vecin",
-      "ipa": "/veˈtʃin/"
+      "ipa": "/veˈtʃin/",
+      "description": "Un cuvânt din vocabular legat de relații."
     },
     "de": {
-      "name": "Nachbar"
+      "name": "Nachbar",
+      "description": "Ein Vokabelwort zum Thema Beziehungen."
     },
     "ru": {
-      "name": "сосед"
+      "name": "сосед",
+      "description": "Словарное слово, относящееся к теме отношений."
     },
     "it": {
-      "name": "vicino"
+      "name": "vicino",
+      "description": "Un termine del vocabolario legato alle relazioni."
     },
     "es": {
-      "name": "vecino"
+      "name": "vecino",
+      "description": "Una palabra de vocabulario relacionada con las relaciones."
     },
     "fr": {
-      "name": "voisin"
+      "name": "voisin",
+      "description": "Un mot de vocabulaire lié aux relations."
     },
     "hu": {
-      "name": "szomszéd"
+      "name": "szomszéd",
+      "description": "A kapcsolatok témaköréhez kapcsolódó szókincselem."
     },
     "pt": {
-      "name": "vizinho"
+      "name": "vizinho",
+      "description": "Uma palavra de vocabulário relacionada a relacionamentos."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "b127cb4c83725012b43fed071c9244c7cf43ff77"
+    },
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "3d9a9a55e31bfcc0db69db1fe9e034126d500dc5"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "f4e576d7087191ab26b85d75be51e91cd15f5765"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10800,
+      "sha1": "4a0ab6c746d08fc692b88bb9975cba8d1837d65b"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "e8d518f203ad1e53f794ba43ad3719cb63f619ce"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "8fe5736bfc1ceeab5ed39262ffde9116d295fe87"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "334c16630f04c1c5daa742d25e38d60da4a5226f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "568e74a1a46b8019a6a596eeb2fd796334363499"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "3e98b24eff3321260764c45900656e7516206d9f"
     }
   }
 }

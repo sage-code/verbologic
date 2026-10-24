@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "head"
+      "name": "head",
+      "description": "This word relates to parts of the body."
     },
     "ro": {
       "name": "cap",
-      "ipa": "/kap/"
+      "ipa": "/kap/",
+      "description": "Acest cuvânt se referă la părți ale corpului."
     },
     "de": {
-      "name": "Kopf"
+      "name": "Kopf",
+      "description": "Dieses Wort bezieht sich auf Körperteile."
     },
     "ru": {
-      "name": "Голова"
+      "name": "Голова",
+      "description": "Это слово относится к частям тела."
     },
     "it": {
-      "name": "testa"
+      "name": "testa",
+      "description": "Questa parola si riferisce alle parti del corpo."
     },
     "es": {
-      "name": "cabeza"
+      "name": "cabeza",
+      "description": "Esta palabra se refiere a las partes del cuerpo."
     },
     "fr": {
-      "name": "tête"
+      "name": "tête",
+      "description": "Ce mot se rapporte aux parties du corps."
     },
     "hu": {
-      "name": "Fej"
+      "name": "Fej",
+      "description": "Ez a szó a testrészekre vonatkozik."
     },
     "pt": {
-      "name": "Cabeça"
+      "name": "Cabeça",
+      "description": "Esta palavra refere-se às partes do corpo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "1a6bf049a51340a13cbb0847e487c79112ca685b"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "5f1de11f60eb9ed3e549c8dbd60a478b6b1c2dd6"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "6c2577881ab4e881ed358abc873f180b6cab2c2a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10512,
+      "sha1": "26a9c6d6015a4e43c8cd5fecc8c6d55c62b46665"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "1edb1794112d47556dd17a9158bdffaa18d1c5c4"
+    },
+    "sound/es.mp3": {
+      "bytes": 9504,
+      "sha1": "59479150bf6df04acf7c1f86a13037a10340296c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "2b0f6c8336f6ee70bca245b4c3fda9f673b6be70"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "573c3ff96bdee9aa72ec68b0af700849aa26ece8"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "e406b07d50063f6b66d50f402751f1bd4555babf"
     }
   }
 }

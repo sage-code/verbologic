@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Call the friend."
+      "name": "Call the friend.",
+      "description": "A command telling someone to call a friend."
     },
     "ro": {
-      "name": "Sună prietenul."
+      "name": "Sună prietenul.",
+      "description": "O comandă prin care i se cere cuiva să sune un prieten."
+    },
+    "de": {
+      "description": "Eine Aufforderung, einen Freund anzurufen.",
+      "name": "Ruf den Freund an."
+    },
+    "ru": {
+      "description": "Команда позвонить другу.",
+      "name": "Позвони другу."
+    },
+    "it": {
+      "description": "Un comando per dire a qualcuno di chiamare un amico.",
+      "name": "Chiama l'amico."
+    },
+    "es": {
+      "description": "Una orden para indicarle a alguien que llame a un amigo.",
+      "name": "Llama al amigo."
+    },
+    "fr": {
+      "description": "Un ordre disant à quelqu'un d'appeler un ami.",
+      "name": "Appelle l'ami."
+    },
+    "hu": {
+      "description": "Utasítás egy barát felhívására.",
+      "name": "Hívd fel a barátot!"
+    },
+    "pt": {
+      "description": "Um comando para dizer a alguém para ligar para um amigo.",
+      "name": "Ligue para o amigo."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12672,
       "sha1": "f8a21f863d1dbcd0d11fca6ed3a80fa83ecb5f89"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "bd6a59d8ef008d48f86c29f4160c374aa577189e"
+    },
+    "sound/de.mp3": {
+      "bytes": 12672,
+      "sha1": "fdca37e5c84a42e0b3b71a1f5c2e058f44febb1c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12384,
+      "sha1": "cf6ecf8d219cd012a6ccb5b37fc9eb8bdad890ec"
+    },
+    "sound/it.mp3": {
+      "bytes": 7200,
+      "sha1": "1424db004e8ce477fe9104ee50d044832535fa71"
+    },
+    "sound/es.mp3": {
+      "bytes": 11808,
+      "sha1": "642ff42dfc142d3d70f5aa75c324c7c7e21b4df4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "a09254717a013c283bf9a677985a14859f029093"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14256,
+      "sha1": "2ad42919bc60af44d37cd059c683ba6ca384b49d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14112,
+      "sha1": "85e0dada0016195af316149af172c5496a50ac19"
     }
   }
 }

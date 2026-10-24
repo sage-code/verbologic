@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Emergencies & safety"
+      "name": "Emergencies & safety",
+      "description": "This topic covers vocabulary related to emergencies and safety."
     },
     "ro": {
       "name": "Urgențe și siguranță",
-      "ipa": "/urˈdʒentse ʃi siguˈrantsə/"
+      "ipa": "/urˈdʒentse ʃi siguˈrantsə/",
+      "description": "Această temă acoperă vocabularul legat de urgențe și siguranță."
+    },
+    "de": {
+      "description": "Dieses Thema behandelt den Wortschatz rund um Notfälle und Sicherheit.",
+      "name": "Notfälle & Sicherheit"
+    },
+    "ru": {
+      "description": "Эта тема охватывает лексику, связанную с чрезвычайными ситуациями и безопасностью.",
+      "name": "Чрезвычайные ситуации и безопасность"
+    },
+    "it": {
+      "description": "Questo argomento tratta il vocabolario relativo a emergenze e sicurezza.",
+      "name": "Emergenze e sicurezza"
+    },
+    "es": {
+      "description": "Este tema cubre vocabulario relacionado con emergencias y seguridad.",
+      "name": "Emergencias y seguridad"
+    },
+    "fr": {
+      "description": "Ce thème couvre le vocabulaire lié aux urgences et à la sécurité.",
+      "name": "Urgences et sécurité"
+    },
+    "hu": {
+      "description": "Ez a témakör a vészhelyzetekkel és a biztonsággal kapcsolatos szókincset fedi le.",
+      "name": "Vészhelyzetek és biztonság"
+    },
+    "pt": {
+      "description": "Este tópico aborda o vocabulário relacionado a emergências e segurança.",
+      "name": "Emergências e segurança"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15264,
       "sha1": "60626e60e0ed0beef3227c7f677c0254dfd81368"
+    },
+    "sound/en.mp3": {
+      "bytes": 13104,
+      "sha1": "810fbdd3e21ea7b82a025d75327634b70314e273"
+    },
+    "sound/de.mp3": {
+      "bytes": 15408,
+      "sha1": "5af0c9c9f4a94bce0892957e16a36e2c7fca792a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 21744,
+      "sha1": "3c84861c1aa0d80e413c06f20a248bea86f29763"
+    },
+    "sound/it.mp3": {
+      "bytes": 11952,
+      "sha1": "1212d842db299eed65bffc0209a219f72e861d3b"
+    },
+    "sound/es.mp3": {
+      "bytes": 14400,
+      "sha1": "dc9a70596f848cb3b4cb5a13a90d5ac6a7efb278"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14400,
+      "sha1": "c5bd753a7a8fb30fd7df5a12ce0d12a08a9cd3c6"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17424,
+      "sha1": "1f9ec852bca474a50ff7eb1c1f1adec115cbf7e7"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17712,
+      "sha1": "a1dfe6e6b9321175d270710fbce355f39987d247"
     }
   }
 }

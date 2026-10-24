@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Vine ambulanța?"
+      "name": "Vine ambulanța?",
+      "description": "O întrebare prin care se întreabă dacă o ambulanță este pe drum."
+    },
+    "en": {
+      "description": "A question asking whether an ambulance is on its way.",
+      "name": "Is the ambulance coming?"
+    },
+    "de": {
+      "description": "Eine Frage, die sich erkundigt, ob ein Krankenwagen unterwegs ist.",
+      "name": "Kommt der Krankenwagen?"
+    },
+    "ru": {
+      "description": "Вопрос о том, находится ли скорая помощь в пути.",
+      "name": "Скорая помощь едет?"
+    },
+    "it": {
+      "description": "Una domanda che chiede se l'ambulanza sta arrivando.",
+      "name": "Arriva l'ambulanza?"
+    },
+    "es": {
+      "description": "Una pregunta para saber si una ambulancia está en camino.",
+      "name": "¿Viene la ambulancia?"
+    },
+    "fr": {
+      "description": "Une question demandant si une ambulance est en route.",
+      "name": "L'ambulance arrive ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy úton van-e a mentő.",
+      "name": "Jön a mentő?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se a ambulância está a caminho.",
+      "name": "A ambulância está vindo?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13104,
       "sha1": "cb5fd8416fd78976367b049fa67f5c9601eabadf"
+    },
+    "sound/en.mp3": {
+      "bytes": 9936,
+      "sha1": "c81036dd1e5d40b427ab62cac4063cb1a2575be7"
+    },
+    "sound/de.mp3": {
+      "bytes": 14256,
+      "sha1": "2996ed114c37e04cd72736083bb7e3eaf54492f9"
+    },
+    "sound/it.mp3": {
+      "bytes": 9072,
+      "sha1": "be82de402a72165825a28ed3055b66916a6ba80e"
+    },
+    "sound/es.mp3": {
+      "bytes": 13536,
+      "sha1": "11d404770bb13cf90781cf6c95a4b9e18755b7af"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13536,
+      "sha1": "dd4a56e1dd3cc3d194c5bc8449921ddec9062771"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15120,
+      "sha1": "5ad385a077c5581a38815326e23aa0395e69dbbd"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15696,
+      "sha1": "51e31677f7576cce28890cc9789fc1edccbdb21e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12240,
+      "sha1": "86e9222068a37a15f73a673d396afcae4b29d022"
     }
   }
 }

@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "The key is on the table."
+      "name": "The key is on the table.",
+      "description": "A simple sentence describing the location of a key on a table."
     },
     "ro": {
-      "name": "Cheia este pe masă."
+      "name": "Cheia este pe masă.",
+      "description": "O propoziție simplă care descrie amplasarea unei chei pe o masă."
+    },
+    "de": {
+      "description": "Ein einfacher Satz, der den Ort eines Schlüssels auf einem Tisch beschreibt.",
+      "name": "Der Schlüssel liegt auf dem Tisch."
+    },
+    "ru": {
+      "description": "Простое предложение, описывающее расположение ключа на столе.",
+      "name": "Ключ лежит на столе."
+    },
+    "it": {
+      "description": "Una frase semplice che descrive la posizione di una chiave su un tavolo.",
+      "name": "La chiave è sul tavolo."
+    },
+    "es": {
+      "description": "Una oración simple que describe la ubicación de una llave sobre una mesa.",
+      "name": "La llave está sobre la mesa."
+    },
+    "fr": {
+      "description": "Une phrase simple décrivant l'emplacement d'une clé sur une table.",
+      "name": "La clé est sur la table."
+    },
+    "hu": {
+      "description": "Egyszerű mondat, amely leírja a kulcs elhelyezkedését az asztalon.",
+      "name": "A kulcs az asztalon van."
+    },
+    "pt": {
+      "description": "Uma frase simples que descreve a localização de uma chave em cima da mesa.",
+      "name": "A chave está sobre a mesa."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13536,
       "sha1": "0b90f8e1b97d60e6545f97f12dc0e8386d730dce"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15264,
+      "sha1": "80640e40b65bf17b3248fabf831f3ff0da4df8e5"
+    },
+    "sound/it.mp3": {
+      "bytes": 15264,
+      "sha1": "87aaf1f1560b1c1c6900af7a607312443c288398"
+    },
+    "sound/de.mp3": {
+      "bytes": 14688,
+      "sha1": "4e7ea6dbe4c4c4f8544889533172f1864a9c6cde"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13248,
+      "sha1": "46303b93af389517fbb9b05c8b41457f10654afd"
+    },
+    "sound/es.mp3": {
+      "bytes": 15840,
+      "sha1": "1fa24cc70564ed888d7bfb872ee819466df34de1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13392,
+      "sha1": "ee2499d360ab429cc5cfefa9edece080f0e1d1a6"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12816,
+      "sha1": "ee15deb682f6033fb36a3098589e74d54dac59a1"
+    },
+    "sound/en.mp3": {
+      "bytes": 10080,
+      "sha1": "ff538cdc9838a5a02bbff065fb8ba7c0880aa6be"
     }
   }
 }

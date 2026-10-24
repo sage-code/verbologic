@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "lesson"
+      "name": "lesson",
+      "description": "This word is part of school vocabulary."
     },
     "ro": {
       "name": "lecție",
-      "ipa": "/ˈlektsie/"
+      "ipa": "/ˈlektsie/",
+      "description": "Acest cuvânt face parte din vocabularul școlar."
     },
     "de": {
-      "name": "Lektion"
+      "name": "Lektion",
+      "description": "Dieses Wort gehört zum Schulwortschatz."
     },
     "ru": {
-      "name": "урок"
+      "name": "урок",
+      "description": "Это слово относится к школьной лексике."
     },
     "it": {
-      "name": "lezione"
+      "name": "lezione",
+      "description": "Questa parola fa parte del vocabolario scolastico."
     },
     "es": {
-      "name": "lección"
+      "name": "lección",
+      "description": "Esta palabra forma parte del vocabulario escolar."
     },
     "fr": {
-      "name": "leçon"
+      "name": "leçon",
+      "description": "Ce mot fait partie du vocabulaire scolaire."
     },
     "hu": {
-      "name": "lecke"
+      "name": "lecke",
+      "description": "Ez a szó az iskolai szókincs része."
     },
     "pt": {
-      "name": "lição"
+      "name": "lição",
+      "description": "Esta palavra faz parte do vocabulário escolar."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "26d8956a9beb6ece8de37091ecd28ccbf0289b95"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "a84253e1c4c51ccfe58979387f9a4c320b2fbe5e"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "9b0342580035c69f2d2fc6529534b2673a65cac7"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "1a4a0d851d646cf99ccab7d8d20325f3f10693df"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "7b22bf5a8c619ea86a01d521775fcea9030bb8eb"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "a5d464624f9edc0bd89bc1e8badda71c52d454d4"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "f7b2c825d83f83b47737a6e6c1ae831f665a0649"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "9bf041e07a256f33d7707a9b76168cb227be6e8b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "5b7e950dcf0ea28b05a955ae717f7569b7b8d819"
     }
   }
 }

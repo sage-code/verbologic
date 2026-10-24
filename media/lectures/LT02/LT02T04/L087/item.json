@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Ai apartament?"
+      "name": "Ai apartament?",
+      "description": "O întrebare care întreabă dacă cineva are un apartament."
+    },
+    "en": {
+      "description": "A question asking if someone has an apartment.",
+      "name": "Do you have an apartment?"
+    },
+    "de": {
+      "description": "Eine Frage, die erkundet, ob jemand eine Wohnung hat.",
+      "name": "Hast du eine Wohnung?"
+    },
+    "ru": {
+      "description": "Вопрос о том, есть ли у кого-то квартира.",
+      "name": "У тебя есть квартира?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere se qualcuno ha un appartamento.",
+      "name": "Hai un appartamento?"
+    },
+    "es": {
+      "description": "Una pregunta sobre si alguien tiene un apartamento.",
+      "name": "¿Tienes un apartamento?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un a un appartement.",
+      "name": "As-tu un appartement ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy valakinek van-e lakása.",
+      "name": "Van lakásod?"
+    },
+    "pt": {
+      "description": "Uma pergunta sobre se alguém tem um apartamento.",
+      "name": "Tens um apartamento?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11808,
       "sha1": "dc60e0e3e4439611b697176c43b14e177901687f"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "b889e1a7ab0edcaa1d695ce06e1f192f9ea49d5f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14688,
+      "sha1": "add8efd4cf0fa0bde4c17a02a7e3ca2131d4f6cb"
+    },
+    "sound/it.mp3": {
+      "bytes": 13680,
+      "sha1": "8c899ed87b5346ddf2bb32693c1dfb18200480c3"
+    },
+    "sound/de.mp3": {
+      "bytes": 12960,
+      "sha1": "3c602b30dbb10478619dd2e02e74b043bba405ba"
+    },
+    "sound/es.mp3": {
+      "bytes": 13680,
+      "sha1": "f42193dd42fc606150e38f3575ceab5c13f8c773"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12384,
+      "sha1": "d416c76101c48c9bdcb17eb8c87ae39ea6b2451d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "bf2c5fa6dd8d9de1150f3d7381e6a3bf829ae957"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11520,
+      "sha1": "5bbbb74f73870fed4899c26473d46d4ef77e32ea"
     }
   }
 }

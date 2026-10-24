@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Wednesday"
+      "name": "Wednesday",
+      "description": "This vocabulary item relates to days, months, and seasons."
     },
     "ro": {
       "name": "miercuri",
-      "ipa": "/ˈmjerkuri/"
+      "ipa": "/ˈmjerkuri/",
+      "description": "Acest element de vocabular se referă la zile, luni și anotimpuri."
     },
     "de": {
-      "name": "Mittwoch"
+      "name": "Mittwoch",
+      "description": "Dieser Wortschatzeintrag bezieht sich auf Tage, Monate und Jahreszeiten."
     },
     "ru": {
-      "name": "среда"
+      "name": "среда",
+      "description": "Эта словарная единица относится к дням, месяцам и временам года."
     },
     "it": {
-      "name": "mercoledì"
+      "name": "mercoledì",
+      "description": "Questo elemento di vocabolario si riferisce ai giorni, ai mesi e alle stagioni."
     },
     "es": {
-      "name": "miércoles"
+      "name": "miércoles",
+      "description": "Este elemento de vocabulario se refiere a los días, los meses y las estaciones."
     },
     "fr": {
-      "name": "mercredi"
+      "name": "mercredi",
+      "description": "Cet élément de vocabulaire se rapporte aux jours, aux mois et aux saisons."
     },
     "hu": {
-      "name": "szerda"
+      "name": "szerda",
+      "description": "Ez a szókincselem a napokhoz, hónapokhoz és évszakokhoz kapcsolódik."
     },
     "pt": {
-      "name": "quarta-feira"
+      "name": "quarta-feira",
+      "description": "Este item de vocabulário refere-se aos dias, meses e estações."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "c1dde5bbbac02cf96f7a24a9f3107cd01712eef8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "820f33ce40d1e3ae703dc033fc7f91e8a6c16fb3"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "08c174d7dcc180152a08568e611d7f6935b3d283"
+    },
+    "sound/ru.mp3": {
+      "bytes": 10368,
+      "sha1": "56c6e8d018d968adad6f42bb1e97a5edeef887d2"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "d451e279bb88c85f47863584bffd4e78f50d1a7c"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "f9ee25c7aa6901c823f401b3a0fa41d227a54b0d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "6af4f6cc5bbbf84a40a88b45ad94aa5db3d64524"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "bef514afd798ca43483c793a67963cd21d6c2fc9"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12240,
+      "sha1": "74fb8ba5af5c2ecfa19bf662be608c360c4fed53"
     }
   }
 }

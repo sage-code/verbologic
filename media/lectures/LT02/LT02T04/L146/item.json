@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Studentul citește lecția?"
+      "name": "Studentul citește lecția?",
+      "description": "O întrebare prin care se întreabă dacă studentul citește lecția."
+    },
+    "en": {
+      "description": "A question asking whether the student is reading the lesson.",
+      "name": "Is the student reading the lesson?"
+    },
+    "de": {
+      "description": "Eine Frage, die danach fragt, ob der Student die Lektion liest.",
+      "name": "Liest der Student die Lektion?"
+    },
+    "ru": {
+      "description": "Вопрос о том, читает ли студент урок.",
+      "name": "Студент читает урок?"
+    },
+    "it": {
+      "description": "Una domanda che chiede se lo studente sta leggendo la lezione.",
+      "name": "Lo studente legge la lezione?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si el estudiante lee la lección.",
+      "name": "¿El estudiante lee la lección?"
+    },
+    "fr": {
+      "description": "Une question demandant si l'étudiant lit la leçon.",
+      "name": "L'étudiant lit-il la leçon ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy a diák olvassa-e a leckét.",
+      "name": "A diák olvassa a leckét?"
+    },
+    "pt": {
+      "description": "Uma pergunta que questiona se o estudante está lendo a lição.",
+      "name": "O estudante está lendo a lição?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16704,
       "sha1": "774ad4e0f3f05991d31800e22423b80764d47835"
+    },
+    "sound/de.mp3": {
+      "bytes": 16128,
+      "sha1": "a608e4dc7283703e3ddc4fe983e8f1ff0e3dcea8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "b0ea8bea1a9034984f446972f7c5ed94b2a66452"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15120,
+      "sha1": "7ff0d5ca6144de791669395115a9e4720c5d0ace"
+    },
+    "sound/it.mp3": {
+      "bytes": 17136,
+      "sha1": "6651dbb7d386211586b768a91e5ecaf6a276e792"
+    },
+    "sound/es.mp3": {
+      "bytes": 15696,
+      "sha1": "da33ff6decf3f460af84f3d184397c2f31e975b4"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14112,
+      "sha1": "314b86e8df16a2f2183e80b1abbafc820d6764ea"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14256,
+      "sha1": "6afc6b7c2474cd6b922a3bd0954b0b7b8e8b3d8b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15120,
+      "sha1": "86ee1617f398c194396431f0978fedbb9a54f73a"
     }
   }
 }

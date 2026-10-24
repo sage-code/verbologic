@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, mănânc pâine dimineața."
+      "name": "Da, mănânc pâine dimineața.",
+      "description": "O afirmație care confirmă că cineva mănâncă pâine dimineața."
+    },
+    "en": {
+      "description": "A statement confirming that someone eats bread in the morning.",
+      "name": "Yes, I eat bread in the morning."
+    },
+    "de": {
+      "description": "Eine Aussage, die bestätigt, dass jemand morgens Brot isst.",
+      "name": "Ja, ich esse morgens Brot."
+    },
+    "ru": {
+      "description": "Утверждение, подтверждающее, что человек ест хлеб по утрам.",
+      "name": "Да, я ем хлеб по утрам."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che qualcuno mangia pane la mattina.",
+      "name": "Sì, mangio il pane la mattina."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que alguien come pan por la mañana.",
+      "name": "Sí, como pan por la mañana."
+    },
+    "fr": {
+      "description": "Une affirmation confirmant qu'une personne mange du pain le matin.",
+      "name": "Oui, je mange du pain le matin."
+    },
+    "hu": {
+      "description": "Egy állítás, amely megerősíti, hogy valaki reggel kenyeret eszik.",
+      "name": "Igen, reggel kenyeret eszem."
+    },
+    "pt": {
+      "description": "Uma afirmação que confirma que alguém come pão pela manhã.",
+      "name": "Sim, eu como pão de manhã."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 18288,
       "sha1": "6c66a94b58e3ab1021032945a56f5d8b646b6fdd"
+    },
+    "sound/en.mp3": {
+      "bytes": 12816,
+      "sha1": "b41792295912d273aa7262729925669c96398bc3"
+    },
+    "sound/de.mp3": {
+      "bytes": 16272,
+      "sha1": "cb37ace7d2983f4a97461eaef8d8968c0000cbf5"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18432,
+      "sha1": "f246c59c84fe2380f65034d85e8dac4b239f481e"
+    },
+    "sound/it.mp3": {
+      "bytes": 19872,
+      "sha1": "860bc2d40c091190d3a889ae869a126da1389214"
+    },
+    "sound/es.mp3": {
+      "bytes": 17280,
+      "sha1": "43cf4daa0d3d67ba3b21a483e3c754f214b1462d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15984,
+      "sha1": "1f64463f1c2e93e99625899cb88925317bc7b483"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16272,
+      "sha1": "1fd33a053b4eb56e47c720255d9e5651d06d5ba0"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15264,
+      "sha1": "168bb4da0200529e3a97dcd87cdac14b8a7b3683"
     }
   }
 }

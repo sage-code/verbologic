@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Care este numele tău?"
+      "name": "Care este numele tău?",
+      "description": "O întrebare care cere numele cuiva."
+    },
+    "en": {
+      "description": "A question asking for someone's name.",
+      "name": "What is your name?"
+    },
+    "de": {
+      "description": "Eine Frage nach dem Namen einer Person.",
+      "name": "Wie ist dein Name?"
+    },
+    "ru": {
+      "description": "Вопрос, в котором спрашивается чьё-то имя.",
+      "name": "Как тебя зовут?"
+    },
+    "it": {
+      "description": "Una domanda che chiede il nome di qualcuno.",
+      "name": "Qual è il tuo nome?"
+    },
+    "es": {
+      "description": "Una pregunta que pide el nombre de alguien.",
+      "name": "¿Cuál es tu nombre?"
+    },
+    "fr": {
+      "description": "Une question demandant le nom de quelqu'un.",
+      "name": "Quel est ton nom ?"
+    },
+    "hu": {
+      "description": "Egy kérdés, amely valakinek a nevét tudakolja.",
+      "name": "Mi a neved?"
+    },
+    "pt": {
+      "description": "Uma pergunta pedindo o nome de alguém.",
+      "name": "Qual é o teu nome?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13680,
       "sha1": "c7dfe2312d7ff4f83fbe7d4d6687176091312a15"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8482d44c50d8d1eaf4ce9278eb6b39de54853fd5"
+    },
+    "sound/de.mp3": {
+      "bytes": 12672,
+      "sha1": "f2896679f03f3c012656591cb4358f5acbf88c39"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12672,
+      "sha1": "8c3166b2764440e0cd716c09826fd2e221bf9791"
+    },
+    "sound/es.mp3": {
+      "bytes": 11664,
+      "sha1": "dcc3e3243a6818ce01d370366012f5a54d20e184"
+    },
+    "sound/it.mp3": {
+      "bytes": 12672,
+      "sha1": "b247fe97956b0d2e7c1b08762cdde301761f2541"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "4dd73cb4f3ba9dffc4a07d0558311c11153bfc86"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "5a6b172ebf8b03ddaa8b76e231528506521f7976"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "602cf094d3acd1f5bf998a491477a5943761e492"
     }
   }
 }

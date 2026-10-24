@@ -12,13 +12,78 @@
   "locales": {
     "ro": {
       "name": "Adio și noroc",
-      "context": "Very strong; may suggest a final goodbye. Use carefully."
+      "context": "Very strong; may suggest a final goodbye. Use carefully.",
+      "description": "O formulă de despărțire prin care se urează rămas-bun și noroc."
+    },
+    "en": {
+      "description": "A parting phrase wishing someone farewell and good luck.",
+      "name": "Farewell and good luck"
+    },
+    "de": {
+      "description": "Eine Abschiedsformel, mit der man jemandem Lebewohl und viel Glück wünscht.",
+      "name": "Lebewohl und viel Glück"
+    },
+    "ru": {
+      "description": "Формула прощания с пожеланием всего наилучшего и удачи.",
+      "name": "Прощай и удачи"
+    },
+    "it": {
+      "description": "Una formula di commiato con cui si augurano addio e buona fortuna a qualcuno.",
+      "name": "Addio e buona fortuna"
+    },
+    "es": {
+      "description": "Una fórmula de despedida con la que se desea adiós y buena suerte a alguien.",
+      "name": "Adiós y buena suerte"
+    },
+    "fr": {
+      "description": "Une formule de départ souhaitant adieu et bonne chance à quelqu'un.",
+      "name": "Adieu et bonne chance"
+    },
+    "hu": {
+      "description": "Búcsúzó formula, amellyel Istenhozzádot és sok szerencsét kívánnak valakinek.",
+      "name": "Isten veled és sok szerencsét"
+    },
+    "pt": {
+      "description": "Uma fórmula de despedida que deseja adeus e boa sorte a alguém.",
+      "name": "Adeus e boa sorte"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12816,
       "sha1": "252064e9ad236d9cdbac2118c1378886ce74b11e"
+    },
+    "sound/it.mp3": {
+      "bytes": 15120,
+      "sha1": "3ed4ba4ffc7c65bee2b5ffe62e236e5710bbbed2"
+    },
+    "sound/de.mp3": {
+      "bytes": 15264,
+      "sha1": "c27bf6281d994aa5b71753bae72691f49a443b41"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13104,
+      "sha1": "65a3eee83aa54b798ec8337673a2609cea405dd8"
+    },
+    "sound/es.mp3": {
+      "bytes": 14256,
+      "sha1": "189dceac877cc3ec11438c50dc686e19ebceb5a7"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13104,
+      "sha1": "356f4fd18171a235fe0296e70844cb0eee7906f9"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15696,
+      "sha1": "fbfe6527e2c0b7ffb353f6a0fe4f1d54c0fb206c"
+    },
+    "sound/en.mp3": {
+      "bytes": 10368,
+      "sha1": "5c7e1d688700521ed41b29e04be502ccb62234bd"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13824,
+      "sha1": "001bf40f32c9d281746326502be4ab8c641f1409"
     }
   }
 }

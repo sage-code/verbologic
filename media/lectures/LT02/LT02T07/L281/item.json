@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "Eat bread."
+      "name": "Eat bread.",
+      "description": "A command instructing someone to eat bread."
     },
     "ro": {
-      "name": "Mănâncă pâine."
+      "name": "Mănâncă pâine.",
+      "description": "O comandă prin care i se cere cuiva să mănânce pâine."
+    },
+    "de": {
+      "description": "Eine Aufforderung, Brot zu essen.",
+      "name": "Iss Brot."
+    },
+    "ru": {
+      "description": "Команда есть хлеб.",
+      "name": "Ешь хлеб."
+    },
+    "it": {
+      "description": "Un comando che invita a mangiare del pane.",
+      "name": "Mangia del pane."
+    },
+    "es": {
+      "description": "Una orden que indica comer pan.",
+      "name": "Come pan."
+    },
+    "fr": {
+      "description": "Un ordre demandant de manger du pain.",
+      "name": "Mange du pain."
+    },
+    "hu": {
+      "description": "Felszólítás arra, hogy valaki egyen kenyeret.",
+      "name": "Egyél kenyeret."
+    },
+    "pt": {
+      "description": "Um comando instruindo alguém a comer pão.",
+      "name": "Coma pão."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11520,
       "sha1": "315a57f5a984225aa25acf995a398144cd5887f0"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "c0a8c10ba6c5dfcada33783a2da5c561b427528a"
+    },
+    "sound/de.mp3": {
+      "bytes": 12384,
+      "sha1": "df792238a31682b8cf7a5bc89aaf563442961499"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12384,
+      "sha1": "a9077f47b0e7e723b50a4cd99228ac37246a6783"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "1dfb85eb878024e157c51f33ef4d93e4f3a9046d"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "bdcc190af0cde539b3c34e2afc29acec726705c6"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "2e4818026804165b7e7fc2ecf373855c5b8c6064"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12528,
+      "sha1": "583e2c0759f388ddf883234527b8ce15a058f6ae"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "5de2ce479b6277452ab5acc29e5be37babc43f09"
     }
   }
 }

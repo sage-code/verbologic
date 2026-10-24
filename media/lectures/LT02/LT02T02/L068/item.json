@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "The bed is in the room."
+      "name": "The bed is in the room.",
+      "description": "A sentence describing the location of a bed in a room."
     },
     "ro": {
-      "name": "Patul este în cameră."
+      "name": "Patul este în cameră.",
+      "description": "O propoziție care descrie locul unde se află un pat într-o cameră."
+    },
+    "de": {
+      "description": "Ein Satz, der den Standort eines Bettes in einem Zimmer beschreibt.",
+      "name": "Das Bett steht im Zimmer."
+    },
+    "ru": {
+      "description": "Предложение, описывающее расположение кровати в комнате.",
+      "name": "Кровать находится в комнате."
+    },
+    "it": {
+      "description": "Una frase che descrive la posizione di un letto in una stanza.",
+      "name": "Il letto è nella stanza."
+    },
+    "es": {
+      "description": "Una oración que describe la ubicación de una cama en una habitación.",
+      "name": "La cama está en la habitación."
+    },
+    "fr": {
+      "description": "Une phrase décrivant l'emplacement d'un lit dans une pièce.",
+      "name": "Le lit est dans la pièce."
+    },
+    "hu": {
+      "description": "Egy mondat, amely egy ágy elhelyezkedését írja le a szobában.",
+      "name": "Az ágy a szobában van."
+    },
+    "pt": {
+      "description": "Uma frase que descreve a localização de uma cama em um cômodo.",
+      "name": "A cama está no quarto."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14112,
       "sha1": "b440211b0bb65010b622f9a27e0070597e374a6c"
+    },
+    "sound/de.mp3": {
+      "bytes": 13968,
+      "sha1": "574e13b8f549cab5900341c7bacb754eaa5bc0b6"
+    },
+    "sound/it.mp3": {
+      "bytes": 15552,
+      "sha1": "2e09129ea58604535e857ac285b380385902ad44"
+    },
+    "sound/es.mp3": {
+      "bytes": 15696,
+      "sha1": "3111e1bdefda8a6600acd7cb224a5a972f6c5f23"
+    },
+    "sound/en.mp3": {
+      "bytes": 9792,
+      "sha1": "2703beb30e53a922170928adc2a7fd70c2fd6ca0"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13248,
+      "sha1": "2a35255c4005168522b3f26297ae1af66586e7a5"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12384,
+      "sha1": "fc309238b3f7896c8772a2fda1ee2c1d6dc49a73"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13248,
+      "sha1": "4c138c041af02581071c09d5c9c05d16e294785c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16560,
+      "sha1": "2d3ab5a5a68aab2c8cde062e4c4de32262af607f"
     }
   }
 }

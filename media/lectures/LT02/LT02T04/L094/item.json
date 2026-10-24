@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Cheia este pe masă?"
+      "name": "Cheia este pe masă?",
+      "description": "O întrebare prin care se întreabă dacă cheia este pe masă."
+    },
+    "en": {
+      "description": "A question asking whether the key is on the table.",
+      "name": "Is the key on the table?"
+    },
+    "de": {
+      "description": "Eine Frage, die sich erkundigt, ob der Schlüssel auf dem Tisch liegt.",
+      "name": "Ist der Schlüssel auf dem Tisch?"
+    },
+    "ru": {
+      "description": "Вопрос о том, лежит ли ключ на столе.",
+      "name": "Ключ на столе?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere se la chiave è sul tavolo.",
+      "name": "La chiave è sul tavolo?"
+    },
+    "es": {
+      "description": "Una pregunta que indaga si la llave está sobre la mesa.",
+      "name": "¿La llave está sobre la mesa?"
+    },
+    "fr": {
+      "description": "Une question demandant si la clé est sur la table.",
+      "name": "La clé est-elle sur la table ?"
+    },
+    "hu": {
+      "description": "Kérdés arra vonatkozóan, hogy a kulcs az asztalon van-e.",
+      "name": "A kulcs az asztalon van?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se a chave está na mesa.",
+      "name": "A chave está na mesa?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 13536,
       "sha1": "0b90f8e1b97d60e6545f97f12dc0e8386d730dce"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "6769cf341f0fe4c3290fff4716dc13c55855e7df"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12384,
+      "sha1": "b7399c3702668a78ae2d4d4e1b734b144276a8d3"
+    },
+    "sound/it.mp3": {
+      "bytes": 14976,
+      "sha1": "5f352e8be230d21435805260037fa83878c9335a"
+    },
+    "sound/es.mp3": {
+      "bytes": 14976,
+      "sha1": "308dda15384212d71b2142f49d8512228bef0730"
+    },
+    "sound/de.mp3": {
+      "bytes": 15120,
+      "sha1": "9bf69b02cd2184fc5a9de5c689d46d183d0a6cc3"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14256,
+      "sha1": "144e3fdd91470c216117fbbdca8ff00e48b643ae"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13536,
+      "sha1": "665b3c72957e0155565fef0a5b268870be6fab12"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11952,
+      "sha1": "a7af90420c9bce168aa5a75d18f830b96a98655c"
     }
   }
 }

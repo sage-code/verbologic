@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Mergi la mare?"
+      "name": "Mergi la mare?",
+      "description": "O întrebare prin care se află dacă cineva merge la mare."
+    },
+    "en": {
+      "description": "A question asking whether someone is going to the sea.",
+      "name": "Are you going to the sea?"
+    },
+    "de": {
+      "description": "Eine Frage, die klärt, ob jemand ans Meer fährt.",
+      "name": "Fährst du ans Meer?"
+    },
+    "ru": {
+      "description": "Вопрос о том, едет ли кто-то на море.",
+      "name": "Ты едешь на море?"
+    },
+    "it": {
+      "description": "Una domanda per chiedere se qualcuno va al mare.",
+      "name": "Vai al mare?"
+    },
+    "es": {
+      "description": "Una pregunta para consultar si alguien va al mar.",
+      "name": "¿Vas al mar?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un va à la mer.",
+      "name": "Tu vas à la mer ?"
+    },
+    "hu": {
+      "description": "Kérdés arra vonatkozóan, hogy valaki a tengerhez megy-e.",
+      "name": "Mész a tengerhez?"
+    },
+    "pt": {
+      "description": "Uma pergunta para saber se alguém vai ao mar.",
+      "name": "Você vai ao mar?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 11376,
       "sha1": "407d5a2d84960ad163b9cfaf5931c5db4bf21f85"
+    },
+    "sound/en.mp3": {
+      "bytes": 8496,
+      "sha1": "80a360c75f6ae89f6a29d41aa9e24bbc4c0b9f7a"
+    },
+    "sound/de.mp3": {
+      "bytes": 12096,
+      "sha1": "ff2ad63333fa1bf61daf094288902515c5cb8e11"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "bdcec381da52bf55cc8b46d83d121c543f89e44b"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "ddc9430969f0181c987734cc16654c838cf1e0b1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11952,
+      "sha1": "bfd146aa7ee6f9bd7212c11c7e82ad15da61886e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13392,
+      "sha1": "86c5b5dc256e2c384415770c26145a5013dbdb55"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13824,
+      "sha1": "9ec4ffc8bd0ee10be96e24c9804143f36103a8bd"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14256,
+      "sha1": "edb16800c9249a16f06b6c77340e2c58ba5f598d"
     }
   }
 }

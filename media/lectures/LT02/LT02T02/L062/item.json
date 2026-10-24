@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "He is a teacher."
+      "name": "He is a teacher.",
+      "description": "A simple sentence stating that a male person works as a teacher."
     },
     "ro": {
-      "name": "El este profesor."
+      "name": "El este profesor.",
+      "description": "O propoziție simplă care afirmă că o persoană lucrează ca profesor."
+    },
+    "de": {
+      "description": "Ein einfacher Satz, der besagt, dass eine männliche Person als Lehrer arbeitet.",
+      "name": "Er ist Lehrer."
+    },
+    "ru": {
+      "description": "Простое предложение, сообщающее, что мужчина работает учителем.",
+      "name": "Он учитель."
+    },
+    "it": {
+      "description": "Una frase semplice che indica che un uomo lavora come insegnante.",
+      "name": "Lui è un insegnante."
+    },
+    "es": {
+      "description": "Una oración simple que indica que un hombre trabaja como profesor.",
+      "name": "Él es profesor."
+    },
+    "fr": {
+      "description": "Une phrase simple indiquant qu'un homme exerce la profession d'enseignant.",
+      "name": "Il est professeur."
+    },
+    "hu": {
+      "description": "Egyszerű mondat, amely kijelenti, hogy egy férfi tanárként dolgozik.",
+      "name": "Ő tanár."
+    },
+    "pt": {
+      "description": "Uma frase simples que afirma que um homem trabalha como professor.",
+      "name": "Ele é professor."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14112,
       "sha1": "78617e0c07182b390f6afb3b747a60bc582c4746"
+    },
+    "sound/de.mp3": {
+      "bytes": 11808,
+      "sha1": "fe88ebff221a8539fff8b7201da1343e7e18fbb2"
+    },
+    "sound/it.mp3": {
+      "bytes": 15408,
+      "sha1": "56ca2b406fbe0f31f7572cae3b7b5ada387e16b4"
+    },
+    "sound/hu.mp3": {
+      "bytes": 9216,
+      "sha1": "3a9252aec2faf111ac653645fa91fb6d85b2d388"
+    },
+    "sound/es.mp3": {
+      "bytes": 11952,
+      "sha1": "a4afba2cb9af2794fe1b0c2dff290ae81ede0d8a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11952,
+      "sha1": "5325f4c87ee785382f0515adb548533e2cabf16b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "189a0a13f96e1c2a584a50cc6ca6f5b4db2e1350"
+    },
+    "sound/en.mp3": {
+      "bytes": 7056,
+      "sha1": "4772dece49b51969122da41fe3ca971313dd0529"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "7aea9700adac6556f836b9a24d80589c816276b5"
     }
   }
 }

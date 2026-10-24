@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, sunt profesor."
+      "name": "Nu, sunt profesor.",
+      "description": "O propoziție care indică faptul că ești profesor."
+    },
+    "en": {
+      "description": "A statement stating that you are a teacher.",
+      "name": "No, I am a teacher."
+    },
+    "de": {
+      "description": "Eine Aussage darüber, dass man Lehrer ist.",
+      "name": "Nein, ich bin Lehrer."
+    },
+    "ru": {
+      "description": "Высказывание о том, что вы являетесь учителем.",
+      "name": "Нет, я учитель."
+    },
+    "it": {
+      "description": "Un'affermazione che indica che sei un insegnante.",
+      "name": "No, sono un insegnante."
+    },
+    "es": {
+      "description": "Una afirmación que indica que eres profesor.",
+      "name": "No, soy profesor."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que vous êtes professeur.",
+      "name": "Non, je suis professeur."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kifejezi, hogy tanár vagy.",
+      "name": "Nem, tanár vagyok."
+    },
+    "pt": {
+      "description": "Uma afirmação indicando que você é professor.",
+      "name": "Não, sou professor."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15408,
       "sha1": "eb367a2867ef1ae4d74f39b0a8e42181bc7f408d"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "779525c0d643866a814988665211ed6de8a0f5f9"
+    },
+    "sound/de.mp3": {
+      "bytes": 14400,
+      "sha1": "1dde0ae7fdc33a2067f08b2434580ec65d15fe33"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14688,
+      "sha1": "57732af3bf2169b23d1b17def542996fbcfc3ce7"
+    },
+    "sound/es.mp3": {
+      "bytes": 15408,
+      "sha1": "305e7ed032d51d0501f91b8a5bd7896e45dcd262"
+    },
+    "sound/it.mp3": {
+      "bytes": 17856,
+      "sha1": "3d55c9d8f870c5168367e428c4d9036ef92f7193"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15984,
+      "sha1": "c31a1314cc46cf2e95c75286f5d593609097f6d2"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12528,
+      "sha1": "78a48c9cf7352b72ddd76035c17de9359a142787"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13392,
+      "sha1": "17d9e6ec608847a9b4125b45b27db77c45f88437"
     }
   }
 }

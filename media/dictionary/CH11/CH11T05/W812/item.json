@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "similarity"
+      "name": "similarity",
+      "description": "This item is word W812 in chapter 11, topic 5."
     },
     "ro": {
       "name": "asemănare",
-      "ipa": "/aseməˈnare/"
+      "ipa": "/aseməˈnare/",
+      "description": "Acest element este cuvântul W812 din capitolul 11, tema 5."
     },
     "de": {
-      "name": "Ähnlichkeit"
+      "name": "Ähnlichkeit",
+      "description": "Dieser Eintrag ist das Wort W812 in Kapitel 11, Thema 5."
     },
     "ru": {
-      "name": "сходство"
+      "name": "сходство",
+      "description": "Этот элемент представляет собой слово W812 в главе 11, теме 5."
     },
     "it": {
-      "name": "somiglianza"
+      "name": "somiglianza",
+      "description": "Questo elemento è la parola W812 nel capitolo 11, argomento 5."
     },
     "es": {
-      "name": "semejanza"
+      "name": "semejanza",
+      "description": "Este elemento es la palabra W812 en el capítulo 11, tema 5."
     },
     "fr": {
-      "name": "ressemblance"
+      "name": "ressemblance",
+      "description": "Cet élément est le mot W812 dans le chapitre 11, thème 5."
     },
     "hu": {
-      "name": "hasonlóság"
+      "name": "hasonlóság",
+      "description": "Ez az elem a W812-es szó a 11. fejezet 5. témájában."
     },
     "pt": {
-      "name": "semelhança"
+      "name": "semelhança",
+      "description": "Este item é a palavra W812 no capítulo 11, tópico 5."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "a7a0ab68945b7edbff55b4f71f3dfecf18d8b080"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "54b2aacdd55cccb21dcd091d35c367c98292b8f0"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "4999158675807782e3d612cbe25084cfdc58aaba"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11808,
+      "sha1": "18995a47806a45b02503f6956cce07b5d4546c44"
+    },
+    "sound/it.mp3": {
+      "bytes": 7920,
+      "sha1": "640cbe20c22b2b30d32309dc95842970fc70e88b"
+    },
+    "sound/es.mp3": {
+      "bytes": 10944,
+      "sha1": "dd9e9ba3faa8ea8d527622aaa8768ea1da3c1230"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11088,
+      "sha1": "ab200d99419659b6194662c009e0f97e434d99b7"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12528,
+      "sha1": "8be1c10ec18c2f3b9a045a4f0ec25a1ac9c49189"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11952,
+      "sha1": "8d7faa0cf32a23809c0ff59d7b4c8cc0a5c8ec44"
     }
   }
 }

@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Ai durere?"
+      "name": "Ai durere?",
+      "description": "O întrebare prin care se întreabă dacă cineva are dureri."
+    },
+    "en": {
+      "description": "A question asking someone if they have pain.",
+      "name": "Are you in pain?"
+    },
+    "de": {
+      "description": "Eine Frage, die jemanden fragt, ob er Schmerzen hat.",
+      "name": "Hast du Schmerzen?"
+    },
+    "ru": {
+      "description": "Вопрос о том, испытывает ли человек боль.",
+      "name": "У тебя есть боль?"
+    },
+    "it": {
+      "description": "Una domanda che chiede a qualcuno se prova dolore.",
+      "name": "Hai dolore?"
+    },
+    "es": {
+      "description": "Una pregunta que consulta si alguien tiene dolor.",
+      "name": "¿Tienes dolor?"
+    },
+    "fr": {
+      "description": "Une question demandant si quelqu'un ressent de la douleur.",
+      "name": "As-tu de la douleur ?"
+    },
+    "hu": {
+      "description": "Egy kérdés arról, hogy van-e valakinek fájdalma.",
+      "name": "Van fájdalmad?"
+    },
+    "pt": {
+      "description": "Uma pergunta que indaga se alguém está sentindo dor.",
+      "name": "Você está com dor?"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "6259e40efaeed624fc6e0679491a8087b3bb0f78"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "adf3129fb874ae0873edc1fa862a68f28ab78870"
+    },
+    "sound/de.mp3": {
+      "bytes": 11952,
+      "sha1": "080c8038fdfc32cd3c895cb31e90168eebc188a6"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "04e68d78703b258aa49bccd607f0434df11e7a00"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13104,
+      "sha1": "aaf1e0e4604255b363b6064c129adfeb364c56c8"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13104,
+      "sha1": "0ca53670b5d75ed537e3a272fc3e9527e4f74eec"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "fe7dc822736a2668180fc21daa31251595bde386"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13680,
+      "sha1": "18483d0ea3fa5db87fb81ee8c12445be7a86219a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13536,
+      "sha1": "940a8b2e27065382ab41a5665718bd78eb7bde51"
     }
   }
 }

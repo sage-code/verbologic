@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "cash"
+      "name": "cash",
+      "description": "A banknote is a piece of paper money issued by a central bank."
     },
     "ro": {
       "name": "numerar",
-      "ipa": "/numeˈrar/"
+      "ipa": "/numeˈrar/",
+      "description": "O bancnotă este o bucată de bani de hârtie emisă de o bancă centrală."
     },
     "de": {
-      "name": "Bargeld"
+      "name": "Bargeld",
+      "description": "Eine Banknote ist ein von einer Zentralbank ausgegebenes Stück Papiergeld."
     },
     "ru": {
-      "name": "наличные"
+      "name": "наличные",
+      "description": "Банкнота — это бумажные деньги, выпущенные центральным банком."
     },
     "it": {
-      "name": "contanti"
+      "name": "contanti",
+      "description": "Una banconota è un pezzo di carta moneta emesso da una banca centrale."
     },
     "es": {
-      "name": "efectivo"
+      "name": "efectivo",
+      "description": "Un billete es una pieza de papel moneda emitida por un banco central."
     },
     "fr": {
-      "name": "espèces"
+      "name": "espèces",
+      "description": "Un billet de banque est une coupure de papier-monnaie émise par une banque centrale."
     },
     "hu": {
-      "name": "készpénz"
+      "name": "készpénz",
+      "description": "A bankjegy egy központi bank által kibocsátott papírpénz."
     },
     "pt": {
-      "name": "numerário"
+      "name": "numerário",
+      "description": "Uma nota é uma fração de papel-moeda emitida por um banco central."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "94b9df9e93516b9f187d8b91b5688f6cbf1ce77a"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "32b167ce93089614c857401581cba27e6223fd76"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "b8031e8ff4d391bb3fafca254b89846cafe0c3fc"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11664,
+      "sha1": "66394dfa224fb926560794c0989afc7ba0e1a0bd"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "6ebd5fdb9cd4ad5ae9fbc4abe98bac9e1b680065"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "0472206c093491044105da398841433685f9268e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "1378b5be417a9e9baa366f5d7a09de577bd61443"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "cda8279f6a4d0585aaa8b5e0311d17a5398284ba"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11808,
+      "sha1": "8e30ac85a3e9720d90d0c984e8992bf111a8cb4f"
     }
   }
 }

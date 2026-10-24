@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Around Town"
+      "name": "Around Town",
+      "description": "This chapter introduces vocabulary related to places and activities around town."
     },
     "ro": {
       "name": "Prin oraș",
-      "ipa": "/prin oˈraʃ/"
+      "ipa": "/prin oˈraʃ/",
+      "description": "Acest capitol prezintă vocabular legat de locuri și activități din oraș."
+    },
+    "de": {
+      "description": "Dieses Kapitel führt Vokabeln zu Orten und Aktivitäten in der Stadt ein.",
+      "name": "In der Stadt"
+    },
+    "ru": {
+      "description": "В этой главе представлена лексика, связанная с местами и жизнью в городе.",
+      "name": "По городу"
+    },
+    "it": {
+      "description": "Questo capitolo introduce il vocabolario relativo ai luoghi e alle attività in città.",
+      "name": "In giro per la città"
+    },
+    "es": {
+      "description": "Este capítulo presenta vocabulario relacionado con lugares y actividades en la ciudad.",
+      "name": "Por la ciudad"
+    },
+    "fr": {
+      "description": "Ce chapitre présente le vocabulaire lié aux lieux et aux activités en ville.",
+      "name": "En ville"
+    },
+    "hu": {
+      "description": "Ez a fejezet a városi helyekkel és tevékenységekkel kapcsolatos szókincset mutatja be.",
+      "name": "A városban"
+    },
+    "pt": {
+      "description": "Este capítulo apresenta vocabulário relacionado a lugares e atividades pela cidade.",
+      "name": "Pela cidade"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "f48c7d060cbaa2cb8eb14042b8e774d8dc7a111e"
+    },
+    "sound/en.mp3": {
+      "bytes": 8640,
+      "sha1": "7dce19be6249bca884f07a4aeb9206a7d337ee29"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "139b07e66cc529de925dc37b45e1238d60a466dc"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "f6f2ce61defb4b33bd2853fd511a459844cd49d0"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "ce3da17c527ebea37dab65add9ee138c8ca35bb3"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "2ee8e10dbfcf3e2cd82e6283b8d128152cdf8c18"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "ba03ea31235251100afff91fb368cfcbc7697a82"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12240,
+      "sha1": "e6c5520cdbe15b5020dbd1e02ef12f9ab6379202"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12672,
+      "sha1": "fa966191df3f002b0fffae10e4c8ac900b531e04"
     }
   }
 }

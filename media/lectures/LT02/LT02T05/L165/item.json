@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Nu, primesc mesaj."
+      "name": "Nu, primesc mesaj.",
+      "description": "Învață cum să spui că primești un mesaj."
+    },
+    "en": {
+      "description": "Learn how to say that you are receiving a message.",
+      "name": "No, I am receiving a message."
+    },
+    "de": {
+      "description": "Lerne, wie du sagst, dass du eine Nachricht erhältst.",
+      "name": "Nein, ich erhalte eine Nachricht."
+    },
+    "ru": {
+      "description": "Узнайте, как сказать, что вы получаете сообщение.",
+      "name": "Нет, я получаю сообщение."
+    },
+    "it": {
+      "description": "Impara a dire che ricevi un messaggio.",
+      "name": "No, ricevo un messaggio."
+    },
+    "es": {
+      "description": "Aprende a decir que estás recibiendo un mensaje.",
+      "name": "No, recibo un mensaje."
+    },
+    "fr": {
+      "description": "Apprenez à dire que vous recevez un message.",
+      "name": "Non, je reçois un message."
+    },
+    "hu": {
+      "description": "Tanuld meg elmondani, hogy üzenetet kapsz.",
+      "name": "Nem, üzenetet kapok."
+    },
+    "pt": {
+      "description": "Aprenda a dizer que está a receber uma mensagem.",
+      "name": "Não, estou a receber uma mensagem."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 16416,
       "sha1": "a8e5c46e316eb5af6cf1afa7b58a18cd720dcc26"
+    },
+    "sound/en.mp3": {
+      "bytes": 15552,
+      "sha1": "7f9e4c4b4d0f4db16093c5980e4f615aef38ecb6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18864,
+      "sha1": "c5f9afede057d469fd33d233564cb7be49953525"
+    },
+    "sound/it.mp3": {
+      "bytes": 12816,
+      "sha1": "a002263d3c4171cbfed8a762cb1657d91ac439ce"
+    },
+    "sound/de.mp3": {
+      "bytes": 18864,
+      "sha1": "efd2b74da7fb6480dfd65799a8a580c0f18834c7"
+    },
+    "sound/es.mp3": {
+      "bytes": 16272,
+      "sha1": "a395815fae05336cf7bfa85b7c3833ca7913dad1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16128,
+      "sha1": "e028f04a638c309ee3e47a7faca497744d131f46"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17280,
+      "sha1": "a12e627210b54802628cd622f2fbcc3158c7fd87"
+    },
+    "sound/pt.mp3": {
+      "bytes": 19584,
+      "sha1": "ca653a9eea3675048b2735591baac497fe0a6938"
     }
   }
 }

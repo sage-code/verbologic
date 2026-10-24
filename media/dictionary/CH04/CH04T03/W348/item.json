@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "size"
+      "name": "size",
+      "description": "A wallet is a small, flat case used to carry money and cards."
     },
     "ro": {
       "name": "mărime",
-      "ipa": "/məˈrime/"
+      "ipa": "/məˈrime/",
+      "description": "Un portofel este un obiect mic și plat folosit pentru a păstra bani și carduri."
     },
     "de": {
-      "name": "Größe"
+      "name": "Größe",
+      "description": "Eine Geldbörse ist ein kleines, flaches Etui, in dem Geld und Karten aufbewahrt werden."
     },
     "ru": {
-      "name": "размер"
+      "name": "размер",
+      "description": "Кошелёк — это небольшой плоский футляр для хранения денег и карт."
     },
     "it": {
-      "name": "taglia"
+      "name": "taglia",
+      "description": "Un portafoglio è una piccola custodia piatta utilizzata per portare denaro e carte."
     },
     "es": {
-      "name": "talla"
+      "name": "talla",
+      "description": "Una billetera es un estuche pequeño y plano que se usa para llevar dinero y tarjetas."
     },
     "fr": {
-      "name": "taille"
+      "name": "taille",
+      "description": "Un portefeuille est un petit étui plat utilisé pour transporter de l'argent et des cartes."
     },
     "hu": {
-      "name": "méret"
+      "name": "méret",
+      "description": "A pénztárca egy kis, lapos tok, amelyet pénz és kártyák tárolására használnak."
     },
     "pt": {
-      "name": "tamanho"
+      "name": "tamanho",
+      "description": "Uma carteira é um estojo pequeno e plano usado para guardar dinheiro e cartões."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "0c4a196a8e000d9ba0cb6791689cae3a8e014fce"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "0989bddbc34b4ff78b50b8c5da755ca9f5f12130"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "cc2bdd02eb492ad28f1e0157d13523c7ce2581a0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "e239eca533cb5c065085e6548860ae759eb7c15a"
+    },
+    "sound/it.mp3": {
+      "bytes": 5184,
+      "sha1": "907a2713f1d1e91574bcbc049b1f6f352906946e"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "acf1e6a10388661b02093bd93ef9620a03d04ae1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "2f2627b3c06a2b7f9ad66762fd19f91f6314cea4"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "a54705ddb77aea1f13742863f6951324e86ec10b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "a560bdf4291646020ea7b2db296193cf03b50b94"
     }
   }
 }

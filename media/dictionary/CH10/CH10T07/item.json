@@ -10,17 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Emerging technologies"
+      "name": "Emerging technologies",
+      "description": "This topic covers emerging technologies."
     },
     "ro": {
       "name": "Tehnologii emergente",
-      "ipa": "/tehnoloˈdʒii emerˈdʒente/"
+      "ipa": "/tehnoloˈdʒii emerˈdʒente/",
+      "description": "Această temă acoperă tehnologiile emergente."
+    },
+    "de": {
+      "description": "Dieses Thema behandelt aufkommende Technologien.",
+      "name": "Aufkommende Technologien"
+    },
+    "ru": {
+      "description": "Эта тема охватывает развивающиеся технологии.",
+      "name": "Развивающиеся технологии"
+    },
+    "it": {
+      "description": "Questo argomento tratta le tecnologie emergenti.",
+      "name": "Tecnologie emergenti"
+    },
+    "es": {
+      "description": "Este tema trata sobre las tecnologías emergentes.",
+      "name": "Tecnologías emergentes"
+    },
+    "fr": {
+      "description": "Ce thème couvre les technologies émergentes.",
+      "name": "Technologies émergentes"
+    },
+    "hu": {
+      "description": "Ez a témakör a feltörekvő technológiákkal foglalkozik.",
+      "name": "Feltörekvő technológiák"
+    },
+    "pt": {
+      "description": "Este tópico aborda as tecnologias emergentes.",
+      "name": "Tecnologias emergentes"
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 14400,
       "sha1": "8291702f9ca228f61ab6e865295339181c139911"
+    },
+    "sound/en.mp3": {
+      "bytes": 11808,
+      "sha1": "564acdd26eda8a0ebd8952eb69e7dd6cc04cbd28"
+    },
+    "sound/de.mp3": {
+      "bytes": 15840,
+      "sha1": "bd1a4264d5b57be0400327f4843cecd0d9491f0d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18000,
+      "sha1": "bfcd55de66ee30578045be86815cfd6b2f3dcd7e"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "9325e2407921a5f736c6e99a334e49a4c07c51a7"
+    },
+    "sound/es.mp3": {
+      "bytes": 15840,
+      "sha1": "e7d328dc8aa425719f1c23ec1012b6b2639d1694"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14688,
+      "sha1": "ecd5af142a44e5177090200d9e806beb59aafe2a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17280,
+      "sha1": "ab183ebd549a7b20a297bd37338d7cfd549c1116"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17280,
+      "sha1": "7460cf869c1858aa3bdf78153d9eccf846a924ea"
     }
   }
 }

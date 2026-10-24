@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, ea este liniștită acum."
+      "name": "Da, ea este liniștită acum.",
+      "description": "O propoziție care afirmă că ea este liniștită acum."
+    },
+    "en": {
+      "description": "A sentence stating that she is calm now.",
+      "name": "Yes, she is calm now."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass sie jetzt ruhig ist.",
+      "name": "Ja, sie ist jetzt ruhig."
+    },
+    "ru": {
+      "description": "Предложение, утверждающее, что она сейчас спокойна.",
+      "name": "Да, она сейчас спокойна."
+    },
+    "it": {
+      "description": "Una frase che afferma che lei è calma adesso.",
+      "name": "Sì, lei è calma adesso."
+    },
+    "es": {
+      "description": "Una oración que afirma que ella está tranquila ahora.",
+      "name": "Sí, ella está tranquila ahora."
+    },
+    "fr": {
+      "description": "Une phrase affirmant qu'elle est calme maintenant.",
+      "name": "Oui, elle est calme maintenant."
+    },
+    "hu": {
+      "description": "Egy mondat, amely azt fejezi ki, hogy ő most nyugodt.",
+      "name": "Igen, ő most nyugodt."
+    },
+    "pt": {
+      "description": "Uma frase afirmando que ela está calma agora.",
+      "name": "Sim, ela está calma agora."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 18000,
       "sha1": "afba34d0ee36076e72437c08725a15ad40100ac0"
+    },
+    "sound/de.mp3": {
+      "bytes": 15840,
+      "sha1": "e82758df409abce08855c980a87311a1810780fe"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "076b1a6316329b42f4a6877c97d3a47c9764a44b"
+    },
+    "sound/it.mp3": {
+      "bytes": 18144,
+      "sha1": "dcd808708beb151bb1947827caa358c8afb87f68"
+    },
+    "sound/es.mp3": {
+      "bytes": 18864,
+      "sha1": "92cbbf1cd86ef0e90426e24cd67c4d56083ff89d"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15264,
+      "sha1": "aa0792e386776c985dc0a6604ba1f2305b605238"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16272,
+      "sha1": "fbf53320d429829db0edd01fc06acd98715ebc48"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14112,
+      "sha1": "46840fa93e8208f815c56e039ed7bab337ba7811"
+    },
+    "sound/ru.mp3": {
+      "bytes": 19296,
+      "sha1": "289ae4423ffe21a7c73841001c58f551adffa657"
     }
   }
 }

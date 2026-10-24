@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "table"
+      "name": "table",
+      "description": "A piece of furniture or household object."
     },
     "ro": {
       "name": "masă",
-      "ipa": "/ˈmasə/"
+      "ipa": "/ˈmasə/",
+      "description": "O piesă de mobilier sau un obiect de uz casnic."
     },
     "de": {
-      "name": "Tisch"
+      "name": "Tisch",
+      "description": "Ein Möbelstück oder Haushaltsgegenstand."
     },
     "ru": {
-      "name": "Стол"
+      "name": "Стол",
+      "description": "Предмет мебели или предмет домашнего обихода."
     },
     "it": {
-      "name": "tavolo"
+      "name": "tavolo",
+      "description": "Un mobile o un oggetto per la casa."
     },
     "es": {
-      "name": "mesa"
+      "name": "mesa",
+      "description": "Un mueble u objeto doméstico."
     },
     "fr": {
-      "name": "table"
+      "name": "table",
+      "description": "Un meuble ou un objet de la maison."
     },
     "hu": {
-      "name": "Asztal"
+      "name": "Asztal",
+      "description": "Egy bútordarab vagy háztartási tárgy."
     },
     "pt": {
-      "name": "Mesa"
+      "name": "Mesa",
+      "description": "Um móvel ou objeto doméstico."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "342d42b5f6bf35525e97f6d83e67dc5da0a8c952"
+    },
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "7b12a457b0552140f608de5df10d0263b97b9c29"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "ea58666eb50a0409343cd79f7a36f99c25a64449"
+    },
+    "sound/ru.mp3": {
+      "bytes": 9648,
+      "sha1": "31136823c9252972989250ed48aa58c842a26f5b"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "21a9354e23124aa80db51365d1df1eadfa6ece91"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "00292b30c408a01b0885acdcc3e52d56d097d862"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "c81d4a3a7cef0b0609334d55a510a1ba11da07a1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "13ad68efa7460f7f6f03e8b3d8aa7449896ab958"
+    },
+    "sound/pt.mp3": {
+      "bytes": 8640,
+      "sha1": "70d055649556ea3ccd6f45c3d0b4ca9d2eb366c2"
     }
   }
 }

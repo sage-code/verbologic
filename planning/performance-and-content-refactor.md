@@ -23,7 +23,6 @@ Constraints honoured: media files stay under `media/` (and keep their paths, so 
 | F10 | **Derived/index data does double duty.** `index.json` (318 KB raw) stores `ids` (137 KB) and `progress` (42 KB) — `progress` is the inverse of `ids`, and `entity_id` is already `<TOPIC>:<ID>`. `ids` is only used for bulk check-all. | `index.json` key sizes; `roadmapStore.ts:341,372`. |
 | F11 | **Structure is bundled whole.** The three sidebars (74 + 92 + 34 KB) are `import`ed into the JS bundle with all 9 locales of every name, including ~70 empty placeholder topics (LT04–LT12). | `useSidebars.ts`; `sidebar.json` sizes. |
 | F12 | **Transitional/legacy code is still on the hot path**: the `entities/` bridge, `source: 'legacy'`, `legacy_entity_id` + `progressAliases`, `stories/<trackLang>/…` tree, ~60 KB of one-off migration scripts (`reid-*`, `media-migrate-ids`, `media-rehome`). | `scripts/` sizes. |
-
 ---
 
 ## 2. Target model
@@ -695,7 +694,7 @@ This is already how `wrangler.toml` works — the change is that `public/data` s
 | **7** | Direction semantics (`reversible` / `directional`) | Unchanged from rev. 3 |
 | **8** | Cleanup: `entities/` bridge, legacy scripts | Unchanged |
 
-### 18.5 Phase 8 — partially done (2026-10-24)
+### 18.5 Phase 8 — done (2026-10-24)
 
 **Done — one-off scripts removed (72 KB):**
 
@@ -712,23 +711,40 @@ This is already how `wrangler.toml` works — the change is that `public/data` s
 `ENOENT`; it is gone from `run.sh` too. `media-sync` still reports the same 3,197
 entries, and the regenerated payload is byte-identical.
 
-**NOT done — the `entities/` bridge cannot be removed yet.** The plan's
-precondition ("after confirming Supabase progress ids are all migrated") is not
-the blocker; this is:
+**The `entities/` bridge is gone.** The blocker was 268 sidebar items that
+existed only in `public/data/entities/` — no manifest, no `legacy_entity_id`
+alias. They were live content: all of `LT02T01`–`LT02T06` (240 records) and
+`LT03T01` (13), plus 15 dictionary rows across `CH02T03`, `CH02T06`, `CH04T05`,
+`CH05T03`–`T07`. Deleting the bridge would have blanked those 14 topics.
 
-> **268 sidebar items exist ONLY in `public/data/entities/`** — they have no
-> manifest and no `legacy_entity_id` alias. They are live content: all of
-> `LT02T01`–`LT02T06` (240 records) and `LT03T01` (13), plus 15 dictionary rows
-> across `CH02T03`, `CH02T06`, `CH04T05`, `CH05T03`–`T07`.
+The fix was content work, not refactoring:
 
-Deleting the bridge would blank those 14 topics. The fix is to give each of the
-268 items a real manifest (the `./run.sh scaffold` + `generate-audio.py` +
-`media manifest` pipeline), which is content work, not refactoring. Until then
-`media-index.mjs` keeps its `legacyRecord()` path and `useEntities.ts` stays.
+1. **`scripts/entities-to-manifests.mjs`** (new) converted the 268 orphans into
+   real manifests, allocating media codes per topic (`W200`, `S001`, `P011`, …)
+   and preserving the old id as `legacy_entity_id`. Idempotent, `--dry-run`.
+2. **Translation pass** (Gemini, `generate-audio.py --translate`) filled 17,484
+   localized text fields. All 1,909 manifests now carry all 9 locales.
+3. **Audio pass** (Edge TTS) generated 3,956 clips. 14,305 published, 0 pending.
 
-`archive-topics.mjs` also stays: `media-manifests.mjs` and `media-sync.mjs`
-import `attributeAll` from it. It needs the absent `archive/` tree, so it only
-runs on a machine that has one — but removing it would break those imports.
+Then the bridge itself was deleted: `public/data/entities/`, `useEntities.ts`,
+`types/entities.ts`, `searchStore.ts`, `ExpressionSearch.vue` (all four were
+dead — nothing imported them), and `legacyRecord()` in `media-index.mjs`.
+
+**`legacy_entity_id` still resolves.** Sidebars reference the pre-migration ids,
+so `media-index.mjs` keeps a `manifestsByLegacyId` map and `validate-data.mjs` /
+`missing-content.mjs` register the alias alongside the new code. That is a
+one-line lookup, not a content bridge — it disappears when the sidebars are
+re-keyed.
+
+**Payload grew 2.19 MB, and that is the fix working.** The bridge emitted ONE
+record per item (`lang: 'ro'` only), so those 14 topics were invisible to every
+other target language. Manifests emit one record per locale: `LT02T02` went from
+63 records to 567 (63 ids × 9 locales). The growth is content that was always
+supposed to be there.
+
+`archive-topics.mjs` also stays: `media-manifests.mjs` imports `attributeAll`
+from it. It needs the absent `archive/` tree, so it only runs on a machine that
+has one — but removing it would break that import.
 
 ### 18.4 Phase 7 — done (2026-10-24)
 

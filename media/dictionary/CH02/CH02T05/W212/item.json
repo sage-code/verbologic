@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "milk"
+      "name": "milk",
+      "description": "A basic food item or ingredient commonly used in the kitchen."
     },
     "ro": {
       "name": "lapte",
-      "ipa": "/ˈlapte/"
+      "ipa": "/ˈlapte/",
+      "description": "Un aliment sau ingredient de bază folosit în mod obișnuit în bucătărie."
     },
     "de": {
-      "name": "Milch"
+      "name": "Milch",
+      "description": "Ein Grundnahrungsmittel oder eine Zutat, die üblicherweise in der Küche verwendet wird."
     },
     "ru": {
-      "name": "Молоко"
+      "name": "Молоко",
+      "description": "Базовый продукт питания или ингредиент, обычно используемый на кухне."
     },
     "it": {
-      "name": "latte"
+      "name": "latte",
+      "description": "Un alimento o ingrediente di base comunemente usato in cucina."
     },
     "es": {
-      "name": "leche"
+      "name": "leche",
+      "description": "Un alimento o ingrediente básico utilizado habitualmente en la cocina."
     },
     "fr": {
-      "name": "lait"
+      "name": "lait",
+      "description": "Un aliment ou un ingrédient de base couramment utilisé dans la cuisine."
     },
     "hu": {
-      "name": "Tej"
+      "name": "Tej",
+      "description": "A konyhában általánosan használt alapvető élelmiszer vagy hozzávaló."
     },
     "pt": {
-      "name": "Leite"
+      "name": "Leite",
+      "description": "Um alimento ou ingrediente básico normalmente usado na cozinha."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10656,
       "sha1": "f37d4cbfa8023fbf685e4d6e3af2ba9540402e7c"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8b417cec4f5b51aa152332d4b9782dbfd895eea9"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "ea062e941c1e3cd3192551cdad9bc0248e3ffabc"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "7433e52812a3cc710825f314ea6e99371e42649e"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "5c4a2b2b626169c3543fa397223262574f5da630"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "495b89acce92bba40755b7d0a60358c5c990bb75"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "57e6586e1fd56295c9db74c0adc7e19595ec82eb"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "2b6c10f6d964b61f30f398b8a8ee94f89a56323b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "dc9b5c920fc2df62137abfa171be588f00a9201f"
     }
   }
 }

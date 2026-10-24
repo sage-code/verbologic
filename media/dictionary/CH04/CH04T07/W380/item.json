@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "pharmacy"
+      "name": "pharmacy",
+      "description": "This vocabulary word relates to health emergencies."
     },
     "ro": {
       "name": "farmacie",
-      "ipa": "/farmaˈtʃie/"
+      "ipa": "/farmaˈtʃie/",
+      "description": "Acest cuvânt de vocabular se referă la urgențe medicale."
     },
     "de": {
-      "name": "Apotheke"
+      "name": "Apotheke",
+      "description": "Diese Vokabel bezieht sich auf medizinische Notfälle."
     },
     "ru": {
-      "name": "аптека"
+      "name": "аптека",
+      "description": "Это словарное слово относится к экстренным медицинским ситуациям."
     },
     "it": {
-      "name": "farmacia"
+      "name": "farmacia",
+      "description": "Questo termine del vocabolario si riferisce alle emergenze sanitarie."
     },
     "es": {
-      "name": "farmacia"
+      "name": "farmacia",
+      "description": "Esta palabra de vocabulario se refiere a emergencias de salud."
     },
     "fr": {
-      "name": "pharmacie"
+      "name": "pharmacie",
+      "description": "Ce mot de vocabulaire se rapporte aux urgences médicales."
     },
     "hu": {
-      "name": "gyógyszertár"
+      "name": "gyógyszertár",
+      "description": "Ez a szókincsbeli szó az egészségügyi vészhelyzetekre vonatkozik."
     },
     "pt": {
-      "name": "farmácia"
+      "name": "farmácia",
+      "description": "Esta palavra de vocabulário refere-se a emergências de saúde."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 10944,
       "sha1": "83ccb8bd761924ac55b3e7a86b2bf39b468adec5"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "fdf054b9d5c7d96ab2ad7429fdfa382f8b85c285"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "98c2ce2e552824097826c336b09c7884c858e578"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "30e0703cdf2b7580500160204e1ac46886e0ad5a"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "adb98b4eebfa405da97bf29838755bf7b0d3b085"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "646e3933ee2ddb8e5faaf93302bba23fdbcb393e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "afce444990f2f859e3475d3e18ade6a9704b2cbf"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12960,
+      "sha1": "4bfd90e7364a2f964d205eab0bb4d0b04b713f20"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12096,
+      "sha1": "d908293221c73538e77646a9a0f0a9af5ed09e3c"
     }
   }
 }

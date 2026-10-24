@@ -11,16 +11,78 @@
   ],
   "locales": {
     "en": {
-      "name": "My family has a child."
+      "name": "My family has a child.",
+      "description": "A sentence stating that the speaker's family includes a child."
     },
     "ro": {
-      "name": "Familia mea are un copil."
+      "name": "Familia mea are un copil.",
+      "description": "O propoziție care afirmă că familia vorbitorului are un copil."
+    },
+    "de": {
+      "description": "Ein Satz, der aussagt, dass zur Familie des Sprechers ein Kind gehört.",
+      "name": "Meine Familie hat ein Kind."
+    },
+    "ru": {
+      "description": "Предложение, сообщающее, что в семье говорящего есть ребёнок.",
+      "name": "В моей семье есть ребёнок."
+    },
+    "it": {
+      "description": "Una frase che afferma che la famiglia di chi parla ha un bambino.",
+      "name": "La mia famiglia ha un bambino."
+    },
+    "es": {
+      "description": "Una oración que expresa que la familia del hablante tiene un hijo.",
+      "name": "Mi familia tiene un hijo."
+    },
+    "fr": {
+      "description": "Une phrase indiquant que la famille du locuteur compte un enfant.",
+      "name": "Ma famille a un enfant."
+    },
+    "hu": {
+      "description": "Egy mondat, amely kijelenti, hogy a beszélő családjában van egy gyermek.",
+      "name": "A családomnak van egy gyermeke."
+    },
+    "pt": {
+      "description": "Uma frase que afirma que a família do falante tem uma criança.",
+      "name": "Minha família tem uma criança."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15120,
       "sha1": "331518f498c953ce40f51ae21431e011f9c6c687"
+    },
+    "sound/de.mp3": {
+      "bytes": 15840,
+      "sha1": "1d9fb4f1286faf873027ebe4b22be5c6f02accf4"
+    },
+    "sound/it.mp3": {
+      "bytes": 15984,
+      "sha1": "196e03beabc72455144a6da8f73ed6bbb16e4ba6"
+    },
+    "sound/es.mp3": {
+      "bytes": 14544,
+      "sha1": "e084d4003e079ef0d6a7e107a5da7fddd608a387"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "65baec1e21f1cfff27a7af2f10a1e67a3a269360"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13104,
+      "sha1": "b366ac73914e72d9520742d9d6b4d112eb412426"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14688,
+      "sha1": "dceb5e8de486a8172f7e6483f2697d18e643e3e9"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14544,
+      "sha1": "c7fa39b4fe18ae29ccde0d8c772c43d3cdbefe03"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17280,
+      "sha1": "fb25a72ce8be41b8a40d7bd4eccb6ddd44d66932"
     }
   }
 }

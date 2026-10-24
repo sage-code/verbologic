@@ -11,13 +11,78 @@
   ],
   "locales": {
     "ro": {
-      "name": "Da, citesc seara."
+      "name": "Da, citesc seara.",
+      "description": "O afirmație care confirmă că cineva citește seara."
+    },
+    "en": {
+      "description": "An affirmative statement confirming that someone reads in the evening.",
+      "name": "Yes, I read in the evening."
+    },
+    "de": {
+      "description": "Eine bejahende Aussage, die bestätigt, dass jemand abends liest.",
+      "name": "Ja, ich lese abends."
+    },
+    "ru": {
+      "description": "Утвердительное высказывание, подтверждающее, что человек читает по вечерам.",
+      "name": "Да, я читаю по вечерам."
+    },
+    "it": {
+      "description": "Un'affermazione che conferma che si legge di sera.",
+      "name": "Sì, leggo di sera."
+    },
+    "es": {
+      "description": "Una afirmación que confirma que alguien lee por la noche.",
+      "name": "Sí, leo por la noche."
+    },
+    "fr": {
+      "description": "Une phrase affirmative confirmant que l'on lit le soir.",
+      "name": "Oui, je lis le soir."
+    },
+    "hu": {
+      "description": "Állítás, amely megerősíti, hogy valaki este olvas.",
+      "name": "Igen, este olvasok."
+    },
+    "pt": {
+      "description": "Uma afirmação que confirma que alguém lê à noite.",
+      "name": "Sim, leio à noite."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 15408,
       "sha1": "9343bbc06869804f7669ec9289420fa839db9b4d"
+    },
+    "sound/en.mp3": {
+      "bytes": 11520,
+      "sha1": "1d91a95df6993a6375a635c473f47a1d00e0cda0"
+    },
+    "sound/de.mp3": {
+      "bytes": 15264,
+      "sha1": "471b14a1cfae4ab46200c87d94c95ee9c796038c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18576,
+      "sha1": "c18f03e878290562cadaaafa8fa97dbdd07efe5d"
+    },
+    "sound/es.mp3": {
+      "bytes": 15984,
+      "sha1": "052dc9cbe53a0297d8eb8d90a3da52867d6df7e1"
+    },
+    "sound/it.mp3": {
+      "bytes": 16416,
+      "sha1": "056faac49ba781a514a249908577e6d16c5138a9"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14688,
+      "sha1": "0c4735dcd02bd6c6cfcd4082dcddcb0ce9549280"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13392,
+      "sha1": "87d3b715886bacbc662da2c2f820afb2ff47c558"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14112,
+      "sha1": "34966ce1b7fe085f7226456a15214336b633b735"
     }
   }
 }

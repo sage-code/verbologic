@@ -11,38 +11,79 @@
   ],
   "locales": {
     "en": {
-      "name": "August"
+      "name": "August",
+      "description": "This item represents vocabulary entry W273 from Chapter 3, Topic 3."
     },
     "ro": {
       "name": "august",
-      "ipa": "/ˈawgust/"
+      "ipa": "/ˈawgust/",
+      "description": "Acest element reprezintă intrarea de vocabular W273 din Capitolul 3, Tema 3."
     },
     "de": {
-      "name": "August"
+      "name": "August",
+      "description": "Dieser Eintrag stellt den Wortschatzeintrag W273 aus Kapitel 3, Thema 3 dar."
     },
     "ru": {
-      "name": "август"
+      "name": "август",
+      "description": "Этот элемент представляет словарную единицу W273 из главы 3, темы 3."
     },
     "it": {
-      "name": "agosto"
+      "name": "agosto",
+      "description": "Questo elemento rappresenta la voce di vocabolario W273 del Capitolo 3, Argomento 3."
     },
     "es": {
-      "name": "agosto"
+      "name": "agosto",
+      "description": "Este elemento representa la entrada de vocabulario W273 del Capítulo 3, Tema 3."
     },
     "fr": {
-      "name": "août"
+      "name": "août",
+      "description": "Cet élément représente l'entrée de vocabulaire W273 du chapitre 3, thème 3."
     },
     "hu": {
-      "name": "augusztus"
+      "name": "augusztus",
+      "description": "Ez az elem a W273 szókincselemet képviseli a 3. fejezet 3. témaköréből."
     },
     "pt": {
-      "name": "agosto"
+      "name": "agosto",
+      "description": "Este item representa a entrada de vocabulário W273 do Capítulo 3, Tópico 3."
     }
   },
   "files": {
     "sound/ro.mp3": {
       "bytes": 12528,
       "sha1": "592c825109ab792ef8095d11f62debe3ea86c5cc"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "02f9e427a778faa3c2fce471de68191a9cb86ba5"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "c757a76e5cd6841ad4bb383c7154ab8d4c95c04f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "8b3a66b213688b680b92b0c2bf373b8fa2c23e0c"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "bf29cdb2792c2ec8c815150eb1a6df871fce6f04"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "c051de8503fd2537d860d9efcbb90b82ea8b8a6b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 8064,
+      "sha1": "9dcaf63ec0ecab221f8c3b35b57ee0991a22e33b"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "fdf2b0050bf11c48a422ea9a03d4adc05199144a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "60a6fb8eedbf18004d3291bb7c1e9385c19b204a"
     }
   }
 }
