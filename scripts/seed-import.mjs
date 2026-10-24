@@ -145,7 +145,7 @@ async function main() {
         audio_url: unit.audio ?? null,
         read_url: unit.read ?? null,
         level: meta?.level ?? null,
-        order: 0
+        order: unit.order ?? 0
       })
     }
   }

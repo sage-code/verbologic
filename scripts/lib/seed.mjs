@@ -42,12 +42,14 @@ export function unitsFile(locale) {
  *   ipa   hand-transcribed pronunciation, or null
  *   audio absolute URL of the short recording, or null when not generated
  *   read  absolute URL of the full-article recording, or null
+ *   order 0-based position within the topic, from the sidebar's item list
  */
-export function unitRow({ entityId, term, ipa, audio, read }) {
+export function unitRow({ entityId, term, ipa, audio, read, order }) {
   const row = { i: entityId, term }
   if (ipa) row.ipa = ipa
   if (audio) row.audio = audio
   if (read) row.read = read
+  if (order !== undefined && order !== null) row.order = order
   return row
 }
 

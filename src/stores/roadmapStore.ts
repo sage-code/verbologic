@@ -471,7 +471,31 @@ export const useRoadmapStore = defineStore('roadmap', () => {
         loadingTopic.value = false
       }
     }
-    records.value = recordsByCode.value[cacheKey] ?? []
+    records.value = orderBySidebar(recordsByCode.value[cacheKey] ?? [], code)
+  }
+
+  /**
+   * Reorder a topic's rows to the sidebar's `items` order.
+   *
+   * `items` is the authoritative display order, but the online path gets its
+   * rows from `units` ordered by the `order` column, and the offline path gets
+   * them from the bundled payload. Both can disagree with the sidebar — a stale
+   * `order` (every row tied at 0) lets Postgres return rows in any physical
+   * order, which rotates the table. Sorting here makes the rendered order
+   * independent of both sources.
+   */
+  function orderBySidebar(rows: MediaRecord[], code: string): MediaRecord[] {
+    const topic = allTopics.value.find((t: TopicRow) => t.code === code)
+    const items = topic?.items
+    if (!items?.length) return rows
+    const rank = new Map(items.map((id: string, index: number) => [id, index]))
+    // Only trust the sidebar when it covers every row. Some topics list
+    // semantic slugs (`sentence_eu-sunt-student`) while the records carry codes
+    // (`S001`), and a partial match would push the unmatched rows to the end.
+    if (rows.some((r: MediaRecord) => !rank.has(r.id))) return rows
+    return [...rows].sort(
+      (a: MediaRecord, b: MediaRecord) => rank.get(a.id)! - rank.get(b.id)!
+    )
   }
 
   function closeTopic() {

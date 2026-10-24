@@ -52,6 +52,8 @@ const byEntity = new Map()
 const localesByEntity = new Map()
 /** @type {Map<string, any[]>} `${track}/${topic}` -> records */
 const byTopic = new Map()
+/** @type {Map<string, number>} entity_id -> position within its topic payload */
+const payloadOrder = new Map()
 
 let recordCount = 0
 for (const track of TRACKS) {
@@ -63,6 +65,10 @@ for (const track of TRACKS) {
     const records = readJson(join(dir, file))
     if (!Array.isArray(records)) continue
     byTopic.set(`${track}/${topic}`, records)
+    // The payload is already emitted in manifest order, so the index among
+    // *distinct* entity ids is a usable fallback for topics whose sidebar items
+    // are semantic slugs rather than the `L001`/`S001` codes entity ids use.
+    const seenInTopic = new Set()
     for (const record of records) {
       recordCount += 1
       const id = record.entity_id ?? record.id
@@ -70,6 +76,8 @@ for (const track of TRACKS) {
       if (!byEntity.has(id)) byEntity.set(id, record)
       if (!localesByEntity.has(id)) localesByEntity.set(id, new Set())
       if (record.lang) localesByEntity.get(id).add(record.lang)
+      if (!payloadOrder.has(id)) payloadOrder.set(id, seenInTopic.size)
+      seenInTopic.add(id)
     }
   }
 }
@@ -90,6 +98,39 @@ for (const [id, record] of byEntity) {
   if (record.lang && record.term) map[record.lang] = record.term
   if (Object.keys(map).length) names[id] = map
 }
+
+// ── 2b. unit order — the sidebar's item position ────────────────────────────
+// `units.order` is what the client sorts by (`ORDER BY order`), so it must be
+// unique within a topic. Without it every row ties at 0 and Postgres is free to
+// return them in any physical order — which is how the alphabet table ended up
+// starting mid-list. The sidebar's `items` array is the authoritative order.
+
+/** @type {Map<string, number>} entity_id -> 0-based position within its topic */
+const unitOrder = new Map()
+
+function collectUnitOrder(dir) {
+  if (!existsSync(dir)) return
+  for (const entry of readdirSync(dir)) {
+    const full = join(dir, entry)
+    if (statSync(full).isDirectory()) {
+      collectUnitOrder(full)
+      continue
+    }
+    if (!entry.endsWith('.json') || entry === 'topic-map.json') continue
+    const data = readJson(full)
+    for (const section of data.sections ?? []) {
+      for (const topic of section.topics ?? []) {
+        if (!topic.code || !Array.isArray(topic.items)) continue
+        topic.items.forEach((item, index) => {
+          const code = typeof item === 'string' ? item : item?.code
+          if (code) unitOrder.set(`${topic.code}:${code}`, index)
+        })
+      }
+    }
+  }
+}
+
+for (const track of TRACKS) collectUnitOrder(join(SIDEBARS, 'library', track))
 
 // ── 3. units.<lang>.json — one thin file per target language ────────────────
 // A record is one (entity, language) pair, so the row for a language must come
@@ -122,7 +163,8 @@ for (const [id, byLocale] of recordByEntityLocale) {
         term: record.term,
         ipa: record.ipa,
         audio: record.media?.url ?? null,
-        read: record.read?.url ?? null
+        read: record.read?.url ?? null,
+        order: unitOrder.get(id) ?? payloadOrder.get(id)
       })
     )
   }
