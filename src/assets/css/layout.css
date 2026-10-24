@@ -195,8 +195,13 @@ html {
   }
 }
 
-/* Prevent horizontal overflow on any viewport */
+/* Prevent horizontal overflow on any viewport.
+   `clip` rather than `hidden`: `hidden` makes the element a scroll container,
+   which silently breaks `position: sticky` for every descendant (the sticky
+   element then pins to that container instead of the viewport). `clip` prevents
+   the overflow without creating a scroll container, so sticky keeps working —
+   the profile page's Security footer depends on it. */
 html,
 body {
-  overflow-x: hidden;
+  overflow-x: clip;
 }

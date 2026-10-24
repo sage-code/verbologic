@@ -396,6 +396,14 @@ const phoneDirty = computed(
 const passwordDirty = computed(() => editPassword.value && newPassword.value.length > 0)
 /** Both password fields typed and identical — required before saving. */
 const passwordsMatch = computed(() => newPassword.value === confirmPassword.value)
+/**
+ * Anything typed in the Security panel that is not yet saved. Drives the
+ * Cancel button: with nothing typed there is nothing to cancel, so it stays
+ * disabled rather than offering a no-op.
+ */
+const securityDirty = computed(
+  () => phoneDirty.value || passwordDirty.value || confirmPassword.value.length > 0 || codeInput.value.length > 0
+)
 
 /** E-mail is unverified: never confirmed, or a change awaits its link. */
 const emailUnverified = computed(() => Boolean(store.user && (!store.user.emailVerified || store.user.pendingEmail)))
@@ -523,6 +531,21 @@ async function resendCode() {
   busy.value = true
   await sendPhoneCode(phoneTarget.value)
   busy.value = false
+}
+
+/**
+ * Cancel: discard every unsaved edit in the Security panel and return the
+ * fields to their stored values. Nothing is written to the store or the DB.
+ */
+function securityCancel() {
+  editPhone.value = false
+  phoneInput.value = currentPhone.value
+  codeInput.value = ''
+  editPassword.value = false
+  newPassword.value = ''
+  confirmPassword.value = ''
+  showPassword.value = false
+  securityStatus.value = null
 }
 
 async function securitySubmit() {
@@ -1269,8 +1292,11 @@ async function securitySubmit() {
           </div>
         </div>
 
-        <!-- Panel footer: message left, Save / Confirm / Verify right -->
-        <div class="mt-5 flex flex-wrap items-center justify-between gap-3 border-t border-edge pt-4">
+        <!-- Panel footer: message left, Cancel + Save / Confirm / Verify right.
+             Sticky to the bottom of the viewport while the panel is in view, so
+             the buttons stay reachable when the password fields expand the
+             panel and push the footer below the fold. -->
+        <div class="security-footer">
           <p
             v-if="securityStatus?.text"
             class="min-w-0 flex-1 rounded-xl px-4 py-2 text-sm"
@@ -1285,6 +1311,15 @@ async function securitySubmit() {
             {{ securityStatus.text }}
           </p>
           <span v-else class="flex-1" aria-hidden="true" />
+          <!-- Cancel: left of Save. Enabled only when something is typed. -->
+          <button
+            type="button"
+            class="shrink-0 rounded-full border border-edge px-5 py-2 text-sm font-medium text-content transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
+            :disabled="busy || !securityDirty"
+            @click="securityCancel"
+          >
+            {{ copy('ui.cancel', 'Cancel') }}
+          </button>
           <button
             type="button"
             class="shrink-0 rounded-full bg-accent px-5 py-2 text-sm font-semibold text-on-accent transition hover:bg-accent-strong disabled:cursor-not-allowed disabled:opacity-40"
@@ -1322,6 +1357,28 @@ async function securitySubmit() {
 </template>
 
 <style scoped>
+/* Security panel footer — pinned to the bottom of the viewport while the panel
+   is on screen. Editing the password expands the panel (the confirm field
+   appears), which used to push Save below the fold; sticking the footer keeps
+   Cancel and Save visible and clickable without scrolling. `bottom-0` plus a
+   solid background stops the panel content showing through, and the negative
+   inline margin lets the background span the panel's padding. */
+.security-footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: 1.25rem -1.5rem -1.5rem;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--color-edge);
+  border-radius: 0 0 1rem 1rem;
+  background: var(--color-surface);
+}
+
 /* Round pen / ✕ button left of each Identity + Security field. */
 .pen-btn {
   display: inline-flex;
