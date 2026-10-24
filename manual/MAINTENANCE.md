@@ -1038,6 +1038,44 @@ check `select id, is_anonymous from auth.users order by created_at desc limit 1`
 — a new row with `is_anonymous = true` should appear, and the header switches
 from "Anonymous" to "Guest".
 
+### When the database is down — the offline mode
+
+From Phase 6 the dictionary content comes from Supabase, so an unreachable
+project (paused Free tier, outage) would otherwise leave the content pages
+empty. The site degrades deliberately instead:
+
+| Surface | Offline behaviour |
+| --- | --- |
+| Banner | "Database offline for maintenance" on **every** route, with a Retry button |
+| Dictionary / lectures / stories | falls back to the **bundled English payloads** — the site keeps working |
+| Library | replaced by a "Library is unavailable" notice |
+| Profile | replaced by a "Profile is unavailable" notice |
+| Nav pills | Library and Profile become disabled (not hidden, so the layout does not jump) |
+| Practice | **stays fully available** — it runs on bundled data |
+
+`src/composables/useDbStatus.ts` is the single source of truth. It probes
+`topics` with `limit=1` (8 s timeout), caches the answer for 60 s, and exposes
+`isOffline` / `check(force)` / `markOffline()`. State lives in `useState`, so
+every component sees the same answer without re-probing.
+
+**Client-only, deliberately.** The probe runs in `onMounted` and the banner is
+`v-if="isOffline"`, so the prerendered HTML never bakes in a status — a build
+made while the database was down would otherwise ship "offline" to everyone.
+
+**No credentials configured** is not an outage: `useDbStatus` reports `online`
+and the bundled-data path runs as it always has.
+
+**The fallback seam is `useMedia`.** `fetchTopic` / `fetchSearch` / `fetchIndex`
+are the only place the client reads content, so Phase 6 adds the online branch
+there and keeps the bundled payloads as the offline branch. Today they read the
+bundled payloads unconditionally — which *is* the fallback path, so the offline
+behaviour is already correct.
+
+**Verifying it:** block `*.supabase.co` in DevTools → Network → request blocking,
+then reload. The banner appears, Library/Profile swap to their notices, the nav
+pills grey out, and the dictionary still renders. Unblock and press Retry — the
+UI recovers without a reload.
+
 **Payments (not wired yet):** credits are bought with PayPal, which needs a
 server — the site is a static bundle, so the secret cannot live in the browser.
 The planned host is a Supabase Edge Function. Setup steps (PayPal Business

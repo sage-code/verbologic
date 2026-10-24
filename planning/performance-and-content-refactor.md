@@ -739,6 +739,33 @@ reading it:
 Phase 6 is next: point the client at these tables and delete the bundled
 payloads.
 
+### 18.2 Offline mode — done (2026-10-24)
+
+Because Phase 6 makes the dictionary depend on Supabase, an unreachable project
+would leave the content pages empty. The degradation is now explicit:
+
+| Surface | Offline |
+|---|---|
+| Banner | "Database offline for maintenance" on every route + Retry |
+| Dictionary / lectures / stories | bundled English payloads (site keeps working) |
+| Library, Profile | replaced by an "unavailable" notice |
+| Nav pills | Library/Profile disabled, not hidden (no layout jump) |
+| Practice | **stays available** — bundled data |
+
+`useDbStatus()` probes `topics` with `limit=1` (8 s timeout, 60 s cache) and is
+the single source of truth. Client-only: the probe runs in `onMounted` and the
+banner is `v-if`, so a build made during an outage cannot ship "offline" to
+everyone.
+
+**The fallback seam is `useMedia`.** `fetchTopic`/`fetchSearch`/`fetchIndex` are
+the only content read path, so Phase 6 adds the online branch there and keeps
+the bundled payloads as the offline branch. Today they read the bundled payloads
+unconditionally — which *is* the fallback, so offline already behaves correctly.
+
+Verified in a browser by blocking `*.supabase.co`: banner appears, Library and
+Profile swap to notices, nav pills grey out, dictionary still renders, Practice
+still works, and Retry recovers without a reload.
+
 Phase 2's rendering spike is **closed** — the answer is "static site, database-backed rows", not "Worker".
 
 Phase 4 is ordered before the exporter deliberately: the exporter's job is to emit one row per `(entity_id, locale)`, and the `locales` map (§21) is already that shape. Doing the exporter first would mean writing the flattening logic twice.

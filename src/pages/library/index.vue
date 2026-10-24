@@ -19,6 +19,10 @@ const { languages, languageName } = useNavigation()
 const store = useLibraryStore()
 const supabase = useSupabase()
 const userStore = useUserStore()
+// The Library is entirely account-backed: enrollments, credits and progress all
+// come from Supabase. Offline there is nothing meaningful to render, so the
+// page swaps to DbOfflineNotice instead of showing an empty shell.
+const { isOffline } = useDbStatus()
 
 // Add Language dialog visibility (the dialog mounts fresh each open).
 const addOpen = ref(false)
@@ -103,10 +107,13 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
 </script>
 
 <template>
+  <!-- Database offline: the Library cannot work without it. -->
+  <DbOfflineNotice v-if="isOffline" :page="copy('library.title', 'Your Library')" />
+
   <!-- Full width (page gutters only) with a single language — the lone panel
        stretches like two side-by-side ones would; capped once a second
        language appears (the grid below then pairs them up). -->
-  <main class="mx-auto w-full" :class="store.visible.length > 1 ? 'max-w-6xl' : 'max-w-full'">
+  <main v-else class="mx-auto w-full" :class="store.visible.length > 1 ? 'max-w-6xl' : 'max-w-full'">
     <h1 class="text-center text-3xl font-bold text-content">{{ copy('library.title', 'Your Library') }}</h1>
     <p class="mt-2 text-center text-muted">{{ copy('library.subtitle', 'Manage your languages and view your progress.') }}</p>
 

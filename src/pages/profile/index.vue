@@ -17,6 +17,9 @@ const copy = useCopy()
 const { lang, setLocale, isLoaded } = useLocale()
 const { languageName, languages } = useNavigation()
 const store = useUserStore()
+// Sign-in, profile edits and password changes all need Supabase, so the page
+// swaps to DbOfflineNotice while the backend is unreachable.
+const { isOffline } = useDbStatus()
 
 // ── Local state ─────────────────────────────────────────────────────────────
 // Identity / Security fields are read-only until their pen button is pressed.
@@ -610,7 +613,10 @@ async function securitySubmit() {
 </script>
 
 <template>
-  <main class="mx-auto max-w-3xl">
+  <!-- Database offline: sign-in, profile and password all need it. -->
+  <DbOfflineNotice v-if="isOffline" :page="copy('profile.title', 'Profile')" />
+
+  <main v-else class="mx-auto max-w-3xl">
     <h1 class="text-center text-3xl font-bold text-content">{{ copy('profile.title', 'Profile') }}</h1>
     <p class="mt-2 text-center text-muted">
       {{ copy('profile.subtitle', 'Your account, preferences and credits.') }}

@@ -55,6 +55,48 @@ export type Database = {
           },
         ]
       }
+      articles: {
+        Row: {
+          body: string
+          entity_id: string
+          id: number
+          locale: string
+          order: number | null
+          related: string[] | null
+          source_sha: string | null
+          status: string
+          summary: string | null
+          title: string
+          updated_at: string
+        }
+        Insert: {
+          body?: string
+          entity_id: string
+          id?: never
+          locale: string
+          order?: number | null
+          related?: string[] | null
+          source_sha?: string | null
+          status?: string
+          summary?: string | null
+          title?: string
+          updated_at?: string
+        }
+        Update: {
+          body?: string
+          entity_id?: string
+          id?: never
+          locale?: string
+          order?: number | null
+          related?: string[] | null
+          source_sha?: string | null
+          status?: string
+          summary?: string | null
+          title?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
       credit_ledger: {
         Row: {
           created_at: string
@@ -238,6 +280,87 @@ export type Database = {
         }
         Relationships: []
       }
+      topics: {
+        Row: {
+          chapter: string
+          id: number
+          level: string | null
+          order: number
+          title: string
+          topic: string
+          track: string
+          words: number
+        }
+        Insert: {
+          chapter: string
+          id?: never
+          level?: string | null
+          order?: number
+          title: string
+          topic: string
+          track: string
+          words?: number
+        }
+        Update: {
+          chapter?: string
+          id?: never
+          level?: string | null
+          order?: number
+          title?: string
+          topic?: string
+          track?: string
+          words?: number
+        }
+        Relationships: []
+      }
+      units: {
+        Row: {
+          audio_url: string | null
+          entity_id: string
+          id: number
+          ipa: string | null
+          kind: string | null
+          level: string | null
+          locale: string
+          names: Json
+          order: number
+          read_url: string | null
+          term: string
+          topic: string
+          track: string
+        }
+        Insert: {
+          audio_url?: string | null
+          entity_id: string
+          id?: never
+          ipa?: string | null
+          kind?: string | null
+          level?: string | null
+          locale: string
+          names?: Json
+          order?: number
+          read_url?: string | null
+          term: string
+          topic: string
+          track: string
+        }
+        Update: {
+          audio_url?: string | null
+          entity_id?: string
+          id?: never
+          ipa?: string | null
+          kind?: string | null
+          level?: string | null
+          locale?: string
+          names?: Json
+          order?: number
+          read_url?: string | null
+          term?: string
+          topic?: string
+          track?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       enrollments_overview: {
@@ -269,6 +392,8 @@ export type Database = {
         Returns: number
       }
       restore_language: { Args: { p_locale: string }; Returns: undefined }
+      show_limit: { Args: never; Returns: number }
+      show_trgm: { Args: { "": string }; Returns: string[] }
     }
     Enums: {
       [_ in never]: never
@@ -439,3 +564,10 @@ export function asStatus(v: string): EnrollmentStatus {
   if (v === 'trial' || v === 'abandoned') return v
   return 'active'
 }
+
+/** One row of the content `units` table — the page query's result shape. */
+export type ContentUnitRow = DatabaseWithoutInternals['public']['Tables']['units']['Row']
+/** One row of the content `topics` table — the structure layer. */
+export type ContentTopicRow = DatabaseWithoutInternals['public']['Tables']['topics']['Row']
+/** One row of the content `articles` table. */
+export type ContentArticleRow = DatabaseWithoutInternals['public']['Tables']['articles']['Row']
