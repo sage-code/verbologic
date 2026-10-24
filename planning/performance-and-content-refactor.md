@@ -695,6 +695,50 @@ This is already how `wrangler.toml` works — the change is that `public/data` s
 | **7** | Direction semantics (`reversible` / `directional`) | Unchanged from rev. 3 |
 | **8** | Cleanup: `entities/` bridge, legacy scripts | Unchanged |
 
+### 18.1 Phase 5 — done (2026-10-24)
+
+Shipped and verified against the live project:
+
+- `scripts/lib/seed.mjs` — the shared seed shape (`SEED_SCHEMA`, `unitRow`,
+  `articleRow`, `topicRow`).
+- `scripts/seed-export.mjs` — content → `seed/*.json`. Deterministic, so
+  `--check` is a reliable staleness gate. Reads the **runtime payloads** rather
+  than the manifests, so it inherits every projection the client already relies
+  on instead of re-deriving them.
+- `scripts/seed-import.mjs` — `seed/*.json` → Supabase. Upserts on each table's
+  natural key; skips articles whose `source_sha` is unchanged.
+- `supabase/migrations/20261024020000_content_tables.sql` — `topics`, `units`,
+  `articles`, public-read RLS, `pg_trgm` GIN index on `lower(term)`.
+- `./run.sh seed export|import`.
+
+**Measured against the live database:**
+
+| | Today | Phase 5 |
+|---|---|---|
+| Page of 5 rows | — | **1.4 KB** |
+| `search.json` | 2,139 KB | — |
+| Whole dictionary payload set | 4,858 KB | — |
+| Rows imported | — | 214 topics · 8,340 units · 99 articles |
+
+Seed layout: 12 files, 1,220 KB. Per-locale unit counts match `index.json`
+exactly for all nine languages (en 1016, es 866, it 865, fr 865, de 869, ru 872,
+hu 882, pt 865, ro 1240).
+
+Search verified: `EXPLAIN` shows `Bitmap Index Scan on units_term_trgm_idx`, and
+both `mulțumesc` and `mult` resolve — the index is on `lower(term)`, so it
+matches across diacritics.
+
+**Two bugs caught while building it**, both from assuming a shape instead of
+reading it:
+1. The sidebar walker matched `kind: 'topic'`, but sidebars use
+   `sections[].topics[].code` — it produced 0 topics. Fixed; 214 now.
+2. The per-language unit row took the *first* record for an entity, so
+   `units.ro.json` carried `term: "hello"` with an English audio URL. Fixed by
+   keying on `(entity_id, lang)`; `ro` now has `salut` + `sound/ro.mp3`.
+
+Phase 6 is next: point the client at these tables and delete the bundled
+payloads.
+
 Phase 2's rendering spike is **closed** — the answer is "static site, database-backed rows", not "Worker".
 
 Phase 4 is ordered before the exporter deliberately: the exporter's job is to emit one row per `(entity_id, locale)`, and the `locales` map (§21) is already that shape. Doing the exporter first would mean writing the flattening logic twice.

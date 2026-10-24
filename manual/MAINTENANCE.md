@@ -588,6 +588,8 @@ automatically (the menu link is crawled from every page's header).
 | `run build` | **differential build** — only regenerates when source/content hashes changed |
 | `run build --force` | ignore the hash gate and rebuild |
 | `run validate` | entity/nav/locale integrity checks — missing content is **never** an error (see §3.3 / architecture.md) |
+| `run seed export [--check]` | content → `seed/*.json` (the DB import source); `--check` exits 1 when stale |
+| `run seed import [--dry-run]` | `seed/*.json` → Supabase content tables (needs `SUPABASE_SECRET_KEY`) |
 | `run heartbeat` | ping Supabase once (keeps the Free-tier project from pausing — see §7) |
 | `run missing` | missing-content inventory → `temp/missing-content.md`: empty topics, planned ids, planned sources, pins/docs gaps |
 | `run media …` | stage / manifest / verify / upload audio |
@@ -769,6 +771,61 @@ npx supabase db push --linked --include-all             # apply
 Dashboard SQL editor and are mirrored locally to keep the history in step. The
 CLI is already authenticated on this machine; `supabase db query --linked --file
 <path>` runs ad-hoc SQL (used to verify a migration's behaviour).
+
+### Content tables — the dictionary moves out of the build
+
+The dictionary/lectures/stories content lives in three Supabase tables so the
+browser queries **one page of five rows** instead of downloading a 2.19 MB
+search index plus one payload per topic
+(planning/performance-and-content-refactor.md §14).
+
+| Table | Rows | Purpose |
+| --- | --- | --- |
+| `topics` | 214 | the structure layer — the sidebar queries it instead of bundling |
+| `units` | 8,340 | one row per `(entity_id, locale)`; `names` is the shared 9-language map |
+| `articles` | 99 | one row per `(entity_id, locale)`; Markdown body + `source_sha` |
+
+All three are **public read** (`anon` SELECT, no write policy) — content is
+reference data, and the importer uses the secret key, which bypasses RLS.
+
+**Measured:** a page of 5 rows is **1.4 KB** over the wire, against 2,139 KB for
+`search.json` and 4,858 KB for the whole dictionary payload set. Search uses
+`pg_trgm` on `lower(term)` (GIN index, confirmed used by `EXPLAIN`), which
+matches across diacritics — `mulțumesc` and `mult` both resolve.
+
+#### The seed pipeline
+
+`seed/*.json` is the **import source**, committed to git and never deployed. It
+exists so the database can be rebuilt from source control without re-parsing
+Markdown and manifests.
+
+```bash
+./run.sh seed export          # content → seed/*.json
+./run.sh seed export --check  # exit 1 if seed/ is stale (CI gate)
+./run.sh seed import          # seed/*.json → Supabase (needs SUPABASE_SECRET_KEY)
+./run.sh seed import --dry-run
+```
+
+Layout — one shared file plus one thin file per language, which is the −69%
+measured in §14.2:
+
+| File | Contents |
+| --- | --- |
+| `seed/names.json` | `{ "<entity_id>": { en, es, it, fr, de, ru, hu, pt, ro } }` — stored once |
+| `seed/units.<lang>.json` | `[ { i, term, ipa, audio, read } ]` — only what differs per language |
+| `seed/articles.json` | `[ { entity_id, locale, title, summary, body, status, source_sha } ]` |
+| `seed/topics.json` | `[ { track, chapter, topic, title, order, level, words } ]` |
+
+12 files, 1,220 KB total. The exporter is **deterministic** (sorted keys, stable
+order), so `--check` is a reliable staleness gate.
+
+`seed-import.mjs` upserts on each table's natural key, so a re-run updates in
+place. Articles are skipped when `source_sha` is unchanged, so a re-import after
+a one-file edit only touches the rows that actually changed.
+
+**Credentials:** `SUPABASE_SECRET_KEY` (the `sb_secret_…` key) from the
+environment or `.env`. It is required — the content tables grant `SELECT` to
+`anon` and nothing else. Never ship it to the browser.
 
 | Table | Purpose |
 | --- | --- |

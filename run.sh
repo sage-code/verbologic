@@ -22,6 +22,8 @@ Verbologic maintenance runner
   ./run.sh install                       Install dependencies
   ./run.sh build [--force]               Differential build (skips rebuild when nothing changed)
   ./run.sh validate                      Entity/nav/locale integrity checks
+  ./run.sh seed export [--check]         Export content to seed/*.json (the DB import source)
+  ./run.sh seed import [--dry-run]       Load seed/*.json into the Supabase content tables
   ./run.sh heartbeat                     Ping Supabase (keeps the Free-tier project from pausing)
   ./run.sh missing                       Missing-content inventory (planned items → temp/missing-content.md)
   ./run.sh media stage                  Archive mp3s → media per-topic layout
@@ -123,6 +125,13 @@ case "${1:-help}" in
     fi
     ;;
   validate)  node scripts/validate-data.mjs ;;
+  seed)
+    shift
+    case "${1:-export}" in
+      export) shift; node scripts/seed-export.mjs "$@" ;;
+      import) shift; node scripts/seed-import.mjs "$@" ;;
+      *) fail "usage: ./run.sh seed <export|import> [--check|--dry-run]" ;;
+    esac ;;
   heartbeat) node scripts/db-heartbeat.mjs ;;
   missing)   node scripts/missing-content.mjs ;;
   media)
