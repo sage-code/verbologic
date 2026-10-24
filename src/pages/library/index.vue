@@ -30,6 +30,14 @@ const creditsOpen = ref(false)
 // mounts fresh each open, so the draft allocation always starts current).
 const settingsLocale = ref<string | null>(null)
 
+// Locale whose abandon confirmation is open (null = closed).
+const abandonLocale = ref<string | null>(null)
+
+/** The enrollment for the open abandon dialog, if still present. */
+const abandonEnrollment = computed(
+  () => (abandonLocale.value ? (store.activeFor(abandonLocale.value) ?? null) : null)
+)
+
 /** The enrollment for the open settings dialog, if still visible. */
 const settingsEnrollment = computed(
   () => (settingsLocale.value ? (store.activeFor(settingsLocale.value) ?? null) : null)
@@ -66,6 +74,13 @@ async function loadFromSupabase() {
     return
   }
   if (rows) store.setFromOverview(rows)
+  // The pool is user-level, not per-language — read it from the profile.
+  const { data: profile } = await supabase
+    .from('profiles')
+    .select('credit_pool')
+    .eq('id', data.session.user.id)
+    .maybeSingle()
+  if (profile) store.setCreditPool(profile.credit_pool)
 }
 
 /** ISO country flag for a locale, falling back to the locale code itself. */
@@ -163,9 +178,9 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
           <button
             type="button"
             class="ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-edge text-muted transition hover:border-accent hover:text-accent"
-            :aria-label="`${copy('library.hide', 'Hide')} ${languageName(e.locale)}`"
-            :title="copy('library.hide_hint', 'Hide from your library — progress is kept')"
-            @click="store.hide(e.locale)"
+            :aria-label="`${copy('library.abandon_title', 'Remove language')} — ${languageName(e.locale)}`"
+            :title="copy('library.abandon_hint_short', 'Remove from your library — progress is kept')"
+            @click="abandonLocale = e.locale"
           >
             <XMarkIcon class="h-5 w-5" aria-hidden="true" />
           </button>
@@ -242,6 +257,13 @@ const TRACK_META: Record<TrackId, { icon: Component; key: string; fallback: stri
       v-if="settingsEnrollment"
       :enrollment="settingsEnrollment"
       @close="settingsLocale = null"
+    />
+
+    <!-- Abandon confirmation (✕ button; progress kept, credits recuperated or forfeited) -->
+    <AbandonLanguageDialog
+      v-if="abandonEnrollment"
+      :enrollment="abandonEnrollment"
+      @close="abandonLocale = null"
     />
   </main>
 </template>

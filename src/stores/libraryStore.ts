@@ -32,12 +32,16 @@ export interface Enrollment {
   status: EnrollmentStatus
   /** Credit allotment granted by the tier (0 for non-credit tiers). */
   creditsTotal: number
+  /** Slice of the user-level pool earmarked for this language. */
+  creditsAllocated: number
   /** Credits already spent (lessons, TTS, reviews — billing-defined). */
   creditsConsumed: number
   /** Vocabulary items marked as learned by learning activity. */
   wordsLearned: number
   startedAt: string
   updatedAt: string
+  /** Set when the language was abandoned; null while active. */
+  abandonedAt: string | null
 }
 
 const STORAGE_KEY = 'verbologic-library'
@@ -53,22 +57,26 @@ const STORAGE_KEY = 'verbologic-library'
 const HIDDEN_KEY = 'verbologic-library-hidden'
 /**
  * Credit allocation per language — a separate local key, again deliberately
- * NOT a field on the enrollment (the enrollments_overview view has no such
- * column). Same pattern as the hide preference: `verbologic-library-allocations`
+ * NOT a field on the enrollment. `verbologic-library-allocations`
  * = { [locale]: allocatedCredits }. Allocations carve slices of the POOL
  * (see POOL_KEY) into per-language budgets; the unallocated remainder of the
- * pool is the "credit available". Managed only through the per-language
- * settings dialog (Apply commits, Cancel discards).
+ * pool is the "credit available".
+ *
+ * Signed in, the server is authoritative: `profiles.credit_pool` and
+ * `enrollments.credits_allocated` hold the same numbers, and the RPCs
+ * (allocate_credits / add_credits / abandon_language) are what mutate them.
+ * These local keys stay as the signed-out fast path and the offline mirror.
  */
 const ALLOCATIONS_KEY = 'verbologic-library-allocations'
 /**
  * User-level credit pool — the credits bought with the Add-credits button
  * (one balance for every language). Allocations carve slices of this pool
  * per language via the gear dialog; the unallocated remainder is the
- * "credit available". A local key like the allocations: per-computer until
- * a server-side balance lands.
+ * "credit available". Mirrors `profiles.credit_pool` when signed in.
  */
 const POOL_KEY = 'verbologic-credit-pool'
+/** How many languages may be active at once (mirrors the DB trigger's cap). */
+export const ACTIVE_LANGUAGE_CAP = 2
 
 export const useLibraryStore = defineStore('library', () => {
   // Supabase client (null without credentials) — enrollments persist to the
@@ -88,8 +96,23 @@ export const useLibraryStore = defineStore('library', () => {
     [...enrollments.value].sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))
   )
 
-  /** Enrollments shown in the Library: sorted, minus the hidden languages. */
-  const visible = computed(() => sorted.value.filter((e: Enrollment) => !isHidden(e.locale)))
+  /** Enrollments shown in the Library: sorted, minus hidden and abandoned. */
+  const visible = computed(() =>
+    sorted.value.filter((e: Enrollment) => !isHidden(e.locale) && e.status !== 'abandoned')
+  )
+
+  /** Languages the user has abandoned — restorable, progress intact. */
+  const abandoned = computed(() =>
+    sorted.value.filter((e: Enrollment) => e.status === 'abandoned')
+  )
+
+  /** Active languages (the ones that count against ACTIVE_LANGUAGE_CAP). */
+  const active = computed(() =>
+    enrollments.value.filter((e: Enrollment) => e.status !== 'abandoned')
+  )
+
+  /** True when another language cannot be added without abandoning one. */
+  const atLanguageCap = computed(() => active.value.length >= ACTIVE_LANGUAGE_CAP)
 
   /** How many languages are currently hidden (drives the empty-state hint). */
   const hiddenCount = computed(() => Object.keys(hidden.value).length)
@@ -114,28 +137,113 @@ export const useLibraryStore = defineStore('library', () => {
   const poolAvailable = computed(() => Math.max(0, creditPool.value - allocatedTotal.value))
 
   /** Buy credits into the pool (the Add-credits dialog). */
-  function addCredits(credits: number) {
-    creditPool.value += Math.max(0, credits)
+  async function addCredits(credits: number) {
+    const amount = Math.max(0, credits)
+    if (!amount) return
+    creditPool.value += amount
     if (import.meta.client) localStorage.setItem(POOL_KEY, JSON.stringify(creditPool.value))
+    // Signed in, the server owns the balance — mirror the result back.
+    if (supabase && import.meta.client) {
+      const { data, error } = await supabase.rpc('add_credits', { p_credits: amount })
+      if (error) console.warn('[library] add_credits failed', error.message)
+      else if (typeof data === 'number') {
+        creditPool.value = data
+        if (import.meta.client) localStorage.setItem(POOL_KEY, JSON.stringify(creditPool.value))
+      }
+    }
   }
 
   /** Commit a new credit allocation for one language (settings dialog Apply). */
-  function setAllocation(locale: string, credits: number) {
+  async function setAllocation(locale: string, credits: number) {
     const e = activeFor(locale)
     if (!e) return
     // The ceiling is the language's current allocation plus whatever is
     // still unallocated in the pool — moving credits between languages goes
     // through the pool, so nothing is ever created out of thin air.
     const ceiling = allocationFor(locale) + poolAvailable.value
-    allocations.value[locale] = Math.max(0, Math.min(credits, ceiling))
+    const target = Math.max(0, Math.min(credits, ceiling))
+    allocations.value[locale] = target
     if (import.meta.client) {
       localStorage.setItem(ALLOCATIONS_KEY, JSON.stringify(allocations.value))
+    }
+    if (supabase && import.meta.client) {
+      const { data, error } = await supabase.rpc('allocate_credits', {
+        p_locale: locale,
+        p_credits: target
+      })
+      if (error) console.warn('[library] allocate_credits failed', error.message)
+      else if (typeof data === 'number') {
+        // The server clamps to the same ceiling; adopt its answer.
+        allocations.value[locale] = data
+        creditPool.value = Math.max(0, creditPool.value - (data - target))
+        if (import.meta.client) {
+          localStorage.setItem(ALLOCATIONS_KEY, JSON.stringify(allocations.value))
+          localStorage.setItem(POOL_KEY, JSON.stringify(creditPool.value))
+        }
+      }
+    }
+  }
+
+  /**
+   * Abandon a language. Progress is never touched — the enrollment flips to
+   * 'abandoned' and every learned_item / listen_count stays attached, so
+   * restore() brings the language back exactly as it was.
+   *
+   * `recuperate` decides what happens to the language's credit allocation:
+   * true returns it to the pool, false forfeits it. Either way the language's
+   * allocation drops to zero.
+   *
+   * Returns the number of credits returned to the pool.
+   */
+  async function abandon(locale: string, recuperate = true): Promise<number> {
+    const e = activeFor(locale)
+    if (!e || e.status === 'abandoned') return 0
+
+    const returned = recuperate ? allocationFor(locale) : 0
+    e.status = 'abandoned'
+    e.abandonedAt = new Date().toISOString()
+    e.updatedAt = e.abandonedAt
+    delete allocations.value[locale]
+    creditPool.value += returned
+    persist()
+    if (import.meta.client) {
+      localStorage.setItem(ALLOCATIONS_KEY, JSON.stringify(allocations.value))
+      localStorage.setItem(POOL_KEY, JSON.stringify(creditPool.value))
+    }
+
+    if (supabase && import.meta.client) {
+      const { data, error } = await supabase.rpc('abandon_language', {
+        p_locale: locale,
+        p_recuperate: recuperate
+      })
+      if (error) console.warn('[library] abandon_language failed', error.message)
+      else if (typeof data === 'number') return data
+    }
+    return returned
+  }
+
+  /**
+   * Bring an abandoned language back. A status flip — the progress was never
+   * removed. Credits are not re-allocated; the user re-earmarks them from the
+   * pool with the per-language settings dialog.
+   */
+  async function restoreAbandoned(locale: string) {
+    const e = activeFor(locale)
+    if (!e || e.status !== 'abandoned') return
+    if (atLanguageCap.value) return
+    e.status = 'active'
+    e.abandonedAt = null
+    e.updatedAt = new Date().toISOString()
+    persist()
+    if (supabase && import.meta.client) {
+      const { error } = await supabase.rpc('restore_language', { p_locale: locale })
+      if (error) console.warn('[library] restore_language failed', error.message)
     }
   }
 
   /** Remaining credit balance for one enrollment (never negative). */
   function creditsLeft(e: Enrollment): number {
-    return Math.max(0, e.creditsTotal - e.creditsConsumed)
+    return Math.max(0, e.creditsAllocated - e.creditsConsumed)
   }
 
   /** The enrollment for one language, if owned. */
@@ -162,11 +270,28 @@ export const useLibraryStore = defineStore('library', () => {
       tierId: asTier(r.tier_id),
       status: asStatus(r.status),
       creditsTotal: r.credits_total,
+      creditsAllocated: r.credits_allocated,
       creditsConsumed: r.credits_consumed,
       wordsLearned: r.words_learned,
       startedAt: r.started_at,
-      updatedAt: r.updated_at
+      updatedAt: r.updated_at,
+      abandonedAt: r.abandoned_at
     }))
+    // The server is authoritative for allocations once we have its rows.
+    const serverAllocations: Record<string, number> = {}
+    for (const r of rows) {
+      if (r.credits_allocated > 0) serverAllocations[r.locale] = r.credits_allocated
+    }
+    allocations.value = serverAllocations
+    if (import.meta.client) {
+      localStorage.setItem(ALLOCATIONS_KEY, JSON.stringify(allocations.value))
+    }
+  }
+
+  /** Adopt the server-side credit pool (profiles.credit_pool). */
+  function setCreditPool(pool: number) {
+    creditPool.value = Math.max(0, pool)
+    if (import.meta.client) localStorage.setItem(POOL_KEY, JSON.stringify(creditPool.value))
   }
 
   /**
@@ -221,8 +346,10 @@ export const useLibraryStore = defineStore('library', () => {
         tier_id: e.tierId,
         status: e.status,
         credits_total: e.creditsTotal,
+        credits_allocated: e.creditsAllocated,
         started_at: e.startedAt,
-        updated_at: e.updatedAt
+        updated_at: e.updatedAt,
+        abandoned_at: e.abandonedAt
       },
       { onConflict: 'user_id,locale' }
     )
@@ -235,9 +362,9 @@ export const useLibraryStore = defineStore('library', () => {
   }
 
   /** Record a new order/subscription from the pricing checkout. */
-  function enroll(input: Omit<Enrollment, 'startedAt' | 'updatedAt'>) {
+  function enroll(input: Omit<Enrollment, 'startedAt' | 'updatedAt' | 'abandonedAt'>) {
     const now = new Date().toISOString()
-    const e = { ...input, startedAt: now, updatedAt: now }
+    const e = { ...input, startedAt: now, updatedAt: now, abandonedAt: null }
     enrollments.value.push(e)
     persist()
     void syncToDb(e)
@@ -279,6 +406,9 @@ export const useLibraryStore = defineStore('library', () => {
     isEmpty,
     sorted,
     visible,
+    abandoned,
+    active,
+    atLanguageCap,
     hiddenCount,
     isHidden,
     allocationFor,
@@ -286,12 +416,15 @@ export const useLibraryStore = defineStore('library', () => {
     activeFor,
     hydrate,
     setFromOverview,
+    setCreditPool,
     enroll,
     addCredits,
     syncAll,
     markLearned,
     hide,
     restore,
+    abandon,
+    restoreAbandoned,
     setAllocation
   }
 })

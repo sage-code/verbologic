@@ -19,20 +19,39 @@ const store = useLibraryStore()
 
 /**
  * Languages not currently visible in the Library — the only selectable set.
- * Includes hidden languages: picking one restores it (progress kept).
+ * Includes hidden languages (picking one restores it, progress kept) and
+ * abandoned ones (picking one flips the status back, progress kept).
  */
 const available = computed(() =>
   languages.filter((l) => !store.visible.some((e: Enrollment) => e.locale === l.locale))
 )
 
+/** True when the language was abandoned rather than merely hidden. */
+function isAbandoned(locale: string): boolean {
+  return store.activeFor(locale)?.status === 'abandoned'
+}
+
 /** Single selection — one locale code or '' while nothing is picked. */
 const selected = ref('')
 
+/**
+ * Adding a language needs a free slot. Restoring an abandoned one does too —
+ * it becomes active again. The cap is enforced by the DB trigger as well; this
+ * is the friendly pre-check so the user sees why before the write fails.
+ */
+const blocked = computed(() => store.atLanguageCap && Boolean(selected.value))
+
 function confirm() {
   const locale = selected.value
-  if (!locale) return
-  // Hidden language — restore it; the enrollment (tier, credits, words,
-  // timestamps) was never touched, so the previous progress comes back.
+  if (!locale || blocked.value) return
+  // Already owned — hidden or abandoned. Both are a status flip; the
+  // enrollment (tier, credits, words, timestamps) was never touched, so the
+  // previous progress comes back.
+  if (isAbandoned(locale)) {
+    void store.restoreAbandoned(locale)
+    emit('close')
+    return
+  }
   if (store.activeFor(locale)) {
     store.restore(locale)
     emit('close')
@@ -43,6 +62,7 @@ function confirm() {
     tierId: asTier('prospect'),
     status: 'trial',
     creditsTotal: 0,
+    creditsAllocated: 0,
     creditsConsumed: 0,
     wordsLearned: 0
   })
@@ -84,8 +104,11 @@ function confirm() {
         <LanguageFlag :code="l.flag" :label="languageName(l.locale)" size="md" />
         <span class="min-w-0 flex-1">
           <span class="block truncate font-medium text-content">{{ languageName(l.locale) }}</span>
-          <!-- Hidden language: re-adding restores it with the previous progress -->
-          <span v-if="store.isHidden(l.locale)" class="block text-xs font-medium text-accent">
+          <!-- Hidden or abandoned: re-adding restores it with the previous progress -->
+          <span
+            v-if="store.isHidden(l.locale) || isAbandoned(l.locale)"
+            class="block text-xs font-medium text-accent"
+          >
             {{ copy('library.progress_kept', 'Progress kept') }}
           </span>
         </span>
@@ -98,12 +121,17 @@ function confirm() {
       {{ copy('library.all_added', 'All languages are already in your library.') }}
     </p>
 
+    <!-- Two active languages is the cap: a third needs one abandoned first -->
+    <p v-if="blocked" class="mt-4 rounded-xl bg-accent-soft p-4 text-sm text-content">
+      {{ copy('library.cap_reached', 'You can learn two languages at a time. Remove one from your library first — its progress is kept.') }}
+    </p>
+
     <template #footer>
       <button
         type="button"
         class="flex-1 rounded-full px-5 py-2.5 font-semibold transition disabled:cursor-not-allowed disabled:opacity-40"
-        :class="selected ? 'bg-accent text-on-accent hover:bg-accent-strong' : 'bg-soft text-faint'"
-        :disabled="!selected"
+        :class="selected && !blocked ? 'bg-accent text-on-accent hover:bg-accent-strong' : 'bg-soft text-faint'"
+        :disabled="!selected || blocked"
         @click="confirm"
       >
         {{ copy('library.add', 'Add') }}

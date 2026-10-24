@@ -77,6 +77,7 @@ async function ctaAction() {
           tierId: asTier(tier.id),
           status: 'trial',
           creditsTotal: 0,
+          creditsAllocated: 0,
           creditsConsumed: 0,
           wordsLearned: 0
         })

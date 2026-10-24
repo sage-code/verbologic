@@ -55,6 +55,8 @@ export type Database = {
       }
       enrollments: {
         Row: {
+          abandoned_at: string | null
+          credits_allocated: number
           credits_total: number
           id: number
           locale: string
@@ -65,6 +67,8 @@ export type Database = {
           user_id: string
         }
         Insert: {
+          abandoned_at?: string | null
+          credits_allocated?: number
           credits_total?: number
           id?: never
           locale: string
@@ -75,6 +79,8 @@ export type Database = {
           user_id: string
         }
         Update: {
+          abandoned_at?: string | null
+          credits_allocated?: number
           credits_total?: number
           id?: never
           locale?: string
@@ -83,6 +89,39 @@ export type Database = {
           tier_id?: string
           updated_at?: string
           user_id?: string
+        }
+        Relationships: []
+      }
+      abandoned_languages: {
+        Row: {
+          abandoned_at: string
+          credits_allocated_at: number
+          credits_returned: number
+          enrollment_id: number | null
+          id: number
+          locale: string
+          user_id: string
+          words_learned_at: number
+        }
+        Insert: {
+          abandoned_at?: string
+          credits_allocated_at?: number
+          credits_returned?: number
+          enrollment_id?: number | null
+          id?: never
+          locale: string
+          user_id: string
+          words_learned_at?: number
+        }
+        Update: {
+          abandoned_at?: string
+          credits_allocated_at?: number
+          credits_returned?: number
+          enrollment_id?: number | null
+          id?: never
+          locale?: string
+          user_id?: string
+          words_learned_at?: number
         }
         Relationships: []
       }
@@ -141,30 +180,30 @@ export type Database = {
         Row: {
           active_domains: string[] | null
           avatar_url: string | null
+          credit_pool: number
           display_name: string | null
           id: string
           instruction_lang: string
-          target_lang: string
           updated_at: string | null
           xp: number | null
         }
         Insert: {
           active_domains?: string[] | null
           avatar_url?: string | null
+          credit_pool?: number
           display_name?: string | null
           id: string
           instruction_lang?: string
-          target_lang?: string
           updated_at?: string | null
           xp?: number | null
         }
         Update: {
           active_domains?: string[] | null
           avatar_url?: string | null
+          credit_pool?: number
           display_name?: string | null
           id?: string
           instruction_lang?: string
-          target_lang?: string
           updated_at?: string | null
           xp?: number | null
         }
@@ -204,6 +243,8 @@ export type Database = {
     Views: {
       enrollments_overview: {
         Row: {
+          abandoned_at: string | null
+          credits_allocated: number
           credits_consumed: number
           credits_left: number
           credits_total: number
@@ -218,7 +259,24 @@ export type Database = {
         Relationships: []
       }
     }
-    Functions: { [_ in never]: never }
+    Functions: {
+      abandon_language: {
+        Args: { p_locale: string; p_recuperate?: boolean }
+        Returns: number
+      }
+      add_credits: {
+        Args: { p_credits: number }
+        Returns: number
+      }
+      allocate_credits: {
+        Args: { p_locale: string; p_credits: number }
+        Returns: number
+      }
+      restore_language: {
+        Args: { p_locale: string }
+        Returns: undefined
+      }
+    }
     Enums: { [_ in never]: never }
     CompositeTypes: { [_ in never]: never }
   }
@@ -233,12 +291,13 @@ export type EnrollmentsOverviewRow = DatabaseWithoutInternals['public']['Views']
 
 /** DB stores these as text + CHECK constraints, so generation yields `string`. */
 export type EnrollmentTier = 'prospect' | 'starter' | 'prepaid_credit'
-export type EnrollmentStatus = 'active' | 'trial'
+export type EnrollmentStatus = 'active' | 'trial' | 'abandoned'
 
 /** Narrow a raw `tier_id`/`status` string from the DB to its app union. */
 export function asTier(v: string): EnrollmentTier {
   return (v === 'prospect' || v === 'starter' || v === 'prepaid_credit' ? v : 'prospect') as EnrollmentTier
 }
 export function asStatus(v: string): EnrollmentStatus {
-  return (v === 'trial' ? 'trial' : 'active') as EnrollmentStatus
+  if (v === 'trial' || v === 'abandoned') return v
+  return 'active'
 }

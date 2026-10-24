@@ -119,10 +119,12 @@ onMounted(async () => {
   if (data) library.setFromOverview([data])
 })
 
-/** Credit meter fill: consumed share of the language's total credit. */
+/** Credit meter fill: consumed share of the language's allocated credit. */
 const creditPct = computed(() => {
   const e = enrollment.value
-  return e && e.creditsTotal > 0 ? Math.min(100, Math.round((e.creditsConsumed / e.creditsTotal) * 100)) : 0
+  return e && e.creditsAllocated > 0
+    ? Math.min(100, Math.round((e.creditsConsumed / e.creditsAllocated) * 100))
+    : 0
 })
 
 /** A topic is done when it has records and every one of them is learned —
@@ -280,7 +282,7 @@ const navAction = computed(() => {
       <Teleport v-if="metersMounted" to="#track-meters">
         <div v-if="enrollment" class="min-w-0 flex-1">
           <p class="text-[11px] leading-none text-muted">
-            {{ copy('legend.total_credit', 'Total credit') }}: {{ enrollment.creditsTotal }}$
+            {{ copy('legend.total_credit', 'Total credit') }}: {{ enrollment.creditsAllocated }}$
           </p>
           <div class="mt-1.5 h-1.5 overflow-hidden rounded-full bg-soft">
             <div class="h-full rounded-full bg-accent transition-all" :style="{ width: `${creditPct}%` }" />

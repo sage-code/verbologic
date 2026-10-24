@@ -40,7 +40,7 @@ const library = useLibraryStore()
 const legendOpen = ref(false)
 
 /** Total credit for the active language — the legend's one figure. */
-const creditTotal = computed(() => library.activeFor(store.lang)?.creditsTotal ?? 0)
+const creditTotal = computed(() => library.activeFor(store.lang)?.creditsAllocated ?? 0)
 
 const rows = computed<MediaRow[]>(() => store.pagedRows)
 
