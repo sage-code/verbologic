@@ -933,10 +933,45 @@ changing a public key invalidates the differential build and forces a rebuild.
 Without that, `./run.sh deploy` would reuse the previous `.output/public` and
 ship a bundle with the old value.
 
-**Verifying it works:** clear localStorage, mark a word learned, and check
-`select id, is_anonymous from auth.users order by created_at desc limit 1` — a
-new row with `is_anonymous = true` should appear, and the header switches from
-"Anonymous" to "Guest".
+#### The three ways a user gets an identity
+
+There are three distinct paths, and only one of them is automatic:
+
+| Path | Where | When | CAPTCHA |
+|---|---|---|---|
+| **Anonymous (automatic)** | any track page | first progress write — marking a word learned, or crossing the 5-listen auto-complete | yes |
+| **Register** | `/profile` → **New user** | user presses it | yes |
+| **Log in** | `/profile` → **Log in** tile, or the **Log in** button in the preferences bar | user presses it | yes |
+
+**Nothing happens until one of those fires.** A visitor who only browses stays
+`Anonymous` with no `auth.users` row — that is the point of the lazy model, and
+it is why the header reads "User: Anonymous" until the first write.
+
+**The CAPTCHA is project-wide, not anonymous-only.** Once enabled, Supabase
+guards `signInAnonymously`, `signUp`, `signInWithPassword`, `signInWithOtp` and
+`resetPasswordForEmail` alike. Every one of those must carry a token or it fails
+with `captcha_failed`. `userStore.captchaOptions()` is the single helper that
+fetches one; `updateUser` is deliberately excluded because it creates no user.
+
+**Testing the CAPTCHA.** It is invisible by design — the widget is
+`interaction-only`, so a normal visitor sees nothing and the token arrives
+without a click. To confirm it is working, open DevTools → Network and look for
+`challenges.cloudflare.com/turnstile/...` followed by the Supabase call. A
+missing token shows up as `{"error_code":"captcha_failed"}` in the response.
+
+To force a visible challenge for testing, temporarily set the widget's mode to
+**Pre-clearance** or use Cloudflare's test sitekeys
+(`1x00000000000000000000AA` always passes, `2x00000000000000000000AB` always
+blocks) — see the Turnstile testing docs.
+
+**Logging out** clears the Supabase session cookie. Note the session lives in
+**cookies**, not localStorage, so clearing localStorage alone does not sign a
+user out.
+
+**Verifying it works:** clear cookies + localStorage, mark a word learned, and
+check `select id, is_anonymous from auth.users order by created_at desc limit 1`
+— a new row with `is_anonymous = true` should appear, and the header switches
+from "Anonymous" to "Guest".
 
 **Payments (not wired yet):** credits are bought with PayPal, which needs a
 server — the site is a static bundle, so the secret cannot live in the browser.

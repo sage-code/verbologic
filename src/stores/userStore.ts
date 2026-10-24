@@ -215,6 +215,25 @@ export const useUserStore = defineStore('user', () => {
   }
 
   /**
+   * A Turnstile token for an auth call, or undefined when no site key is
+   * configured.
+   *
+   * Supabase's CAPTCHA protection is project-wide: once enabled it guards
+   * `signInAnonymously`, `signUp`, `signInWithPassword` and `signInWithOtp`
+   * alike. Every one of those must therefore carry a token, or it fails with
+   * `captcha_failed` — which is exactly what happened when the CAPTCHA was
+   * first switched on and only the anonymous path sent one.
+   *
+   * `updateUser` is deliberately NOT wrapped: it does not create a user, so
+   * Supabase does not gate it.
+   */
+  async function captchaOptions(): Promise<{ captchaToken: string } | undefined> {
+    const { getToken } = useTurnstile()
+    const token = await getToken()
+    return token ? { captchaToken: token } : undefined
+  }
+
+  /**
    * Ensure there is an `auth.uid()` to write progress against, creating an
    * anonymous account on first use.
    *
@@ -249,11 +268,10 @@ export const useUserStore = defineStore('user', () => {
     // A CAPTCHA token is required when the project has Attack Protection on.
     // useTurnstile() resolves null when no site key is configured, which is
     // the correct "not enabled yet" behaviour.
-    const { getToken } = useTurnstile()
-    const captchaToken = await getToken()
+    const captcha = await captchaOptions()
 
     const { data, error } = await supabase.auth.signInAnonymously(
-      captchaToken ? { options: { captchaToken } } : undefined
+      captcha ? { options: captcha } : undefined
     )
     if (error) {
       // `anonymous_provider_disabled` means the dashboard toggle is off. That
@@ -301,9 +319,10 @@ export const useUserStore = defineStore('user', () => {
   /** Create a new account (passwordless): e-mail receives a link + OTP code. */
   async function registerWithEmail(email: string): Promise<AuthResult> {
     if (!supabase) return { ok: false, error: 'not_configured' }
+    const captcha = await captchaOptions()
     const { error } = await supabase.auth.signInWithOtp({
       email,
-      options: { shouldCreateUser: true, emailRedirectTo: emailRedirect() }
+      options: { shouldCreateUser: true, emailRedirectTo: emailRedirect(), ...captcha }
     })
     if (error) return { ok: false, error: error.message }
     return { ok: true }
@@ -312,9 +331,10 @@ export const useUserStore = defineStore('user', () => {
   /** Sign in to an existing account (passwordless): magic link + OTP code. */
   async function signInWithEmail(email: string): Promise<AuthResult> {
     if (!supabase) return { ok: false, error: 'not_configured' }
+    const captcha = await captchaOptions()
     const { error } = await supabase.auth.signInWithOtp({
       email,
-      options: { shouldCreateUser: false, emailRedirectTo: emailRedirect() }
+      options: { shouldCreateUser: false, emailRedirectTo: emailRedirect(), ...captcha }
     })
     if (error) return { ok: false, error: error.message }
     return { ok: true }
@@ -505,10 +525,11 @@ export const useUserStore = defineStore('user', () => {
   async function signUpWithPassword(email: string, password: string, phone?: string): Promise<AuthResult> {
     if (!supabase) return { ok: false, error: 'not_configured' }
     const digits = phone?.replace(/[\s\-()]/g, '')
+    const captcha = await captchaOptions()
     const { error } = await supabase.auth.signUp({
       email,
       password,
-      options: digits ? { data: { phone: digits } } : undefined
+      options: { ...(digits ? { data: { phone: digits } } : {}), ...captcha }
     })
     if (error) return { ok: false, error: error.message }
     return { ok: true }
@@ -517,7 +538,12 @@ export const useUserStore = defineStore('user', () => {
   /** Sign in with e-mail + password (temporary mode). */
   async function signInWithPassword(email: string, password: string): Promise<AuthResult> {
     if (!supabase) return { ok: false, error: 'not_configured' }
-    const { error } = await supabase.auth.signInWithPassword({ email, password })
+    const captcha = await captchaOptions()
+    const { error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+      ...(captcha ? { options: captcha } : {})
+    })
     if (error) return { ok: false, error: error.message }
     return { ok: true }
   }
@@ -558,8 +584,10 @@ export const useUserStore = defineStore('user', () => {
     // Trailing slash matters: the static host 301s /profile → /profile/ and
     // Live Server drops the query string on that redirect (recovery flag +
     // token_hash lost). Pointing straight at /profile/ avoids the redirect.
+    const captcha = await captchaOptions()
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: `${window.location.origin}/profile/?recovery=1`
+      redirectTo: `${window.location.origin}/profile/?recovery=1`,
+      ...captcha
     })
     if (error) return { ok: false, error: error.message }
     return { ok: true }
