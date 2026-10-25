@@ -41,6 +41,15 @@ export interface MediaRecord {
    * map or the recording is still pending.
    */
   read?: MediaMedia | null
+  /**
+   * Every locale's read recording, keyed by locale.
+   *
+   * A directional topic emits ONE record (its target language) but its article
+   * is explained in all nine locales, each with its own recording. The article
+   * page picks the panel's language from here; `read` alone would leave the
+   * other eight panels without a Read button.
+   */
+  reads?: Record<string, string> | null
   tags?: string[]
   /** Register/usage note (optional manifest field, e.g. 'hard c'). */
   context?: string | null

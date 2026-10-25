@@ -115,6 +115,19 @@ function resolveDescriptor(item, path, locale, field) {
 function localizeItem(item, path, locale) {
   const audio = resolveDescriptor(item, path, locale, 'audio')
   const read = item.files?.[filePath('read', locale)] ? resolveDescriptor(item, path, locale, 'read') : null
+  // Every locale's read recording, not just this row's.
+  //
+  // A directional topic (the Romanian alphabet) emits ONE record — the target
+  // language's — but its article is explained in all nine locales, and each
+  // explanation has its own recording. Without this map the English panel of a
+  // Romanian letter had no Read button, because no `en` record exists to carry
+  // `read/en.mp3`.
+  const reads = {}
+  for (const candidate of LOCALES_ALL) {
+    if (!item.files?.[filePath('read', candidate)]) continue
+    const descriptor = resolveDescriptor(item, path, candidate, 'read')
+    if (descriptor.key) reads[candidate] = `${config.root}${descriptor.key}`
+  }
   const row = localeRow(item, locale)
   return {
     id: item.code,
@@ -129,6 +142,7 @@ function localizeItem(item, path, locale) {
     sha1: audio.sha1,
     status: audio.status,
     read,
+    reads: Object.keys(reads).length ? reads : null,
     tags: item.tags ?? [],
     topic: item.topic,
     entity_id: `${item.topic}:${item.code}`,
@@ -247,6 +261,9 @@ function manifestRecord(manifest, section) {
     // Full-article read (media/<track>/…/read/<locale>.mp3) — null when the
     // manifest has no read map or the recording has not been generated yet.
     read: manifest.read ? mediaDescriptor(manifest.read) : null,
+    // Every locale's read recording — a directional topic emits one record but
+    // explains its article in all nine, each with its own recording.
+    reads: manifest.reads ?? null,
     tags: manifest.tags ?? [],
     context: manifest.context ?? null,
     example: manifest.example ?? null,

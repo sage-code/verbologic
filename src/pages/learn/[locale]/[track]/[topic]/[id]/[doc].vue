@@ -199,10 +199,17 @@ const storyNativeName = computed(() => languageName(docLocale.value))
  *
  * A lecture's single panel is written in the reader's language, so its Read
  * button plays that language's recording. A story's left panel is the learning
- * language, so it plays the target recording.
+ * language, so it plays the target recording. `reads` carries every locale's
+ * recording because a directional topic emits one record but explains its
+ * article in all nine.
  */
+const readFor = (rec: MediaRecord | null, locale: string): string | null =>
+  rec?.reads?.[locale] ?? rec?.read?.url ?? null
+
 const storyTargetRead = computed(() =>
-  isStory.value ? (record.value?.read?.url ?? null) : (nativeRecord.value?.read?.url ?? null)
+  isStory.value
+    ? (record.value?.read?.url ?? null)
+    : readFor(record.value, storyTargetDoc.value?.locale ?? docLocale.value)
 )
 const storyNativeRead = computed(() => nativeRecord.value?.read?.url ?? null)
 const targetTerm = computed(() =>

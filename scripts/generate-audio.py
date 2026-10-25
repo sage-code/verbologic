@@ -389,6 +389,38 @@ async def synthesize_with_retry(text: str, voice: str, output: Path) -> None:
             delay *= 2
 
 
+async def synthesize_with_fallback(text: str, voice: str, output: Path) -> str:
+    """Synthesize, falling back to the other voice of the same language.
+
+    A voice occasionally refuses text it should handle — ru-RU-DmitryNeural
+    returns NoAudioReceived for 53 of the Romanian-alphabet articles while
+    ru-RU-SvetlanaNeural reads the same text without complaint. Retrying the
+    same voice cannot fix that, so the last resort is the sibling voice: the
+    recording is still in the right language, which is what the reader needs.
+
+    Returns the voice that actually produced the file.
+    """
+    try:
+        await synthesize_with_retry(text, voice, output)
+        return voice
+    except (edge_tts.exceptions.NoAudioReceived, ConnectionError, asyncio.TimeoutError):
+        sibling = sibling_voice(voice)
+        if not sibling:
+            raise
+        await synthesize_with_retry(text, sibling, output)
+        return sibling
+
+
+def sibling_voice(voice: str) -> str | None:
+    """The other voice of the same language, or None when there is only one."""
+    for voices in VOICE_BY_LANG_GENDER.values():
+        pair = list(voices.values())
+        if voice in pair:
+            other = next((v for v in pair if v != voice), None)
+            return other
+    return None
+
+
 def file_sha1(path: Path) -> str:
     digest = hashlib.sha1()
     with path.open("rb") as audio_file:
@@ -454,7 +486,7 @@ async def apply_audio(
     async def run(job) -> bool:
         path, item, locale, text, voice, output = job
         try:
-            await synthesize_with_retry(text, voice, output)
+            used = await synthesize_with_fallback(text, voice, output)
         except Exception as error:  # noqa: BLE001 - report and keep going
             print(
                 f"audio generation failed: {display_media_path(output)} "
@@ -466,7 +498,8 @@ async def apply_audio(
             item, "audio", locale,
             bytes_=output.stat().st_size, sha1=file_sha1(output),
         )
-        print(f"generated: {display_media_path(output)} ({voice})")
+        note = "" if used == voice else f" [fallback from {voice}]"
+        print(f"generated: {display_media_path(output)} ({used}){note}")
         return True
 
     if pending:
@@ -556,7 +589,7 @@ async def apply_read(
     async def run(job) -> bool:
         path, item, locale, text, voice, output = job
         try:
-            await synthesize_with_retry(text, voice, output)
+            used = await synthesize_with_fallback(text, voice, output)
         except Exception as error:  # noqa: BLE001 - report and keep going
             print(
                 f"read generation failed: {display_media_path(output)} "
@@ -568,7 +601,8 @@ async def apply_read(
             item, "read", locale,
             bytes_=output.stat().st_size, sha1=file_sha1(output),
         )
-        print(f"read: {display_media_path(output)} ({voice})")
+        note = "" if used == voice else f" [fallback from {voice}]"
+        print(f"read: {display_media_path(output)} ({used}){note}")
         return True
 
     if pending:

@@ -12,23 +12,19 @@
   "locales": {
     "en": {
       "name": "X",
-      "ipa": "/ɛks/",
-      "description": "Letter name: ics. Example: xilofono."
+      "ipa": "/ɛks/"
     },
     "ro": {
       "name": "X",
-      "ipa": "/iks/",
-      "description": "Numele literei: ics. Exemplu: xilofono."
+      "ipa": "/iks/"
     },
     "de": {
       "name": "X",
-      "ipa": "/ɪks/",
-      "description": "Buchstabenname: ics. Beispiel: xilofono."
+      "ipa": "/ɪks/"
     },
     "ru": {
       "name": "X",
-      "ipa": "/iks/",
-      "description": "Название буквы: ics. Пример: xilofono."
+      "ipa": "/iks/"
     },
     "it": {
       "name": "X",
@@ -40,23 +36,19 @@
     },
     "es": {
       "name": "X",
-      "ipa": "/ˈekis/",
-      "description": "Nombre de la letra: ics. Ejemplo: xilofono."
+      "ipa": "/ˈekis/"
     },
     "fr": {
       "name": "X",
-      "ipa": "/iks/",
-      "description": "Nom de la lettre : ics. Exemple : xilofono."
+      "ipa": "/iks/"
     },
     "hu": {
       "name": "X",
-      "ipa": "/iks/",
-      "description": "Betűnév: ics. Példa: xilofono."
+      "ipa": "/iks/"
     },
     "pt": {
       "name": "X",
-      "ipa": "/ˈʃiʃ/",
-      "description": "Nome da letra: ics. Exemplo: xilofono."
+      "ipa": "/ˈʃiʃ/"
     }
   },
   "files": {
@@ -67,6 +59,38 @@
     "read/it.mp3": {
       "bytes": 579456,
       "sha1": "db31462570a091a1d1a8b4dcae568f5ff89c1b41"
+    },
+    "read/en.mp3": {
+      "bytes": 630432,
+      "sha1": "3c83e117834c54b05a31b0851e4e2ecc71979d24"
+    },
+    "read/de.mp3": {
+      "bytes": 703440,
+      "sha1": "fe427eea3a617caa2f68a31ef8db77e66f4cb96e"
+    },
+    "read/es.mp3": {
+      "bytes": 615744,
+      "sha1": "153c8d6f904713abeed6c44644ad3ba42ef063f2"
+    },
+    "read/fr.mp3": {
+      "bytes": 445104,
+      "sha1": "ae497c933619b71773cae09343488d7a60eceb4d"
+    },
+    "read/ru.mp3": {
+      "bytes": 618192,
+      "sha1": "d292657b11b644fc00a7bad1021ec91f52a43b35"
+    },
+    "read/ro.mp3": {
+      "bytes": 609264,
+      "sha1": "8195a811d7b4c16d3f02ff81d5f8816dc075a96d"
+    },
+    "read/hu.mp3": {
+      "bytes": 519264,
+      "sha1": "ec364a20e31668203c512fdd873ecd6fb140c33a"
+    },
+    "read/pt.mp3": {
+      "bytes": 529920,
+      "sha1": "e7ea6c982bfb6a781603b37e77341344f3d9553a"
     }
   }
 }
