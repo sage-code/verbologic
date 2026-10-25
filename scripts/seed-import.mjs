@@ -4,6 +4,7 @@
  *
  *   node scripts/seed-import.mjs --dry-run   report only, write nothing
  *   node scripts/seed-import.mjs             upsert into the linked project
+ *   node scripts/seed-import.mjs --no-prune  upsert only, keep stale rows
  *
  * Reads the seed files produced by scripts/seed-export.mjs and upserts them
  * into public.topics / public.units / public.articles
@@ -17,6 +18,7 @@
  * Idempotent: every write is an upsert on the table's natural key, so a re-run
  * updates in place. Articles are skipped when `source_sha` is unchanged, so a
  * re-import after a small edit only touches the rows that actually changed.
+ * Rows the seed no longer contains are deleted (see `prune`).
  */
 import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
@@ -75,8 +77,58 @@ async function upsert(table, rows, onConflict, { batch = 500 } = {}) {
   return written
 }
 
-/** Read the existing article hashes so unchanged rows can be skipped. */
-async function existingArticleHashes() {
+/**
+ * Delete rows the seed no longer contains.
+ *
+ * The upsert only ever adds or updates, so a topic removed from the sidebars
+ * (the dictionary alphabet, CH01T09) or a legacy entity id that predates the
+ * manifests (`greeting_*`, `question_*`) stays in the table forever. Those rows
+ * are not inert: `search` filters on track + locale only, so a stale row still
+ * matches a query and can outrank the real one — searching "proiect" returned
+ * four legacy sentences and buried the actual dictionary entry.
+ *
+ * Reads the table's keys, diffs against the seed, and deletes the difference.
+ * `--no-prune` skips it.
+ */
+async function prune(table, keep, keyColumns, { batch = 200 } = {}) {
+  const existing = []
+  const page = 1000
+  for (let offset = 0; ; offset += page) {
+    const response = await fetch(
+      `${url}/rest/v1/${table}?select=${keyColumns.join(',')}&limit=${page}&offset=${offset}`,
+      { headers: { apikey: key, Authorization: `Bearer ${key}` } }
+    )
+    if (!response.ok) {
+      const body = await response.text()
+      throw new Error(`${table} read failed (${response.status}): ${body.slice(0, 300)}`)
+    }
+    const rows = await response.json()
+    existing.push(...rows)
+    if (rows.length < page) break
+  }
+
+  const stale = existing.filter((row) => !keep.has(keyColumns.map((c) => row[c]).join('\u0000')))
+  if (!stale.length) return 0
+
+  for (let i = 0; i < stale.length; i += batch) {
+    const chunk = stale.slice(i, i + batch)
+    // PostgREST has no bulk-delete-by-key, so this is one `or` filter per chunk.
+    const filter = chunk
+      .map((row) => `and(${keyColumns.map((c) => `${c}.eq.${encodeURIComponent(row[c] ?? '')}`).join(',')})`)
+      .join(',')
+    const response = await fetch(`${url}/rest/v1/${table}?or=(${filter})`, {
+      method: 'DELETE',
+      headers: { apikey: key, Authorization: `Bearer ${key}` }
+    })
+    if (!response.ok) {
+      const body = await response.text()
+      throw new Error(`${table} prune failed (${response.status}): ${body.slice(0, 300)}`)
+    }
+  }
+  return stale.length
+}
+
+/** Read the existing article hashes so unchanged rows can be skipped. */async function existingArticleHashes() {
   const hashes = new Map()
   let offset = 0
   const page = 1000
@@ -187,6 +239,23 @@ async function main() {
   console.log(
     `seed-import: articles ${articlesWritten} upserted (${articleRows.length - changed.length} unchanged, skipped)`
   )
+
+  // ── Prune ───────────────────────────────────────────────────────────────
+  // Upsert cannot remove a row, so anything dropped from the sidebars or the
+  // manifests survives in the table and keeps matching searches.
+  if (!process.argv.includes('--no-prune')) {
+    const unitKeys = new Set(unitRows.map((u) => `${u.entity_id}\u0000${u.locale}`))
+    const unitsPruned = await prune('units', unitKeys, ['entity_id', 'locale'])
+    console.log(`seed-import: units    ${unitsPruned} stale row(s) deleted`)
+
+    const topicKeys = new Set(topicRows.map((t) => `${t.track}\u0000${t.topic}`))
+    const topicsPruned = await prune('topics', topicKeys, ['track', 'topic'])
+    console.log(`seed-import: topics   ${topicsPruned} stale row(s) deleted`)
+
+    const articleKeys = new Set(articleRows.map((a) => `${a.entity_id}\u0000${a.locale}`))
+    const articlesPruned = await prune('articles', articleKeys, ['entity_id', 'locale'])
+    console.log(`seed-import: articles ${articlesPruned} stale row(s) deleted`)
+  }
 
   console.log('seed-import: done ✓')
 }
