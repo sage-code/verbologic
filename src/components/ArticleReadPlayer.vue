@@ -56,8 +56,23 @@ function toggle() {
     return
   }
   // Starting from idle seeks to the current page; resuming keeps its position.
-  if (!paused.value && props.startAt > 0) {
-    audio.currentTime = props.startAt
+  //
+  // The seek must wait for metadata: setting `currentTime` on a fresh element
+  // whose duration is still NaN is silently dropped, so Play would start at 0.
+  // `readyState >= 1` (HAVE_METADATA) means the seek will stick.
+  const seekTo = !paused.value && props.startAt > 0 ? props.startAt : null
+  if (seekTo !== null) {
+    if (audio.readyState >= 1) {
+      audio.currentTime = seekTo
+    } else {
+      audio.addEventListener(
+        'loadedmetadata',
+        () => {
+          audio.currentTime = seekTo
+        },
+        { once: true }
+      )
+    }
   }
   void audio.play().catch(() => {})
   playing.value = true

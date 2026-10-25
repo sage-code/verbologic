@@ -1,9 +1,13 @@
 # Cloudflare Workers Static Assets response headers.
 #
-# Runtime payloads under /data/ are content-addressed by the build: a payload
-# only changes when its content changes, and every deploy replaces the whole
-# asset set. Long-lived immutable caching is therefore safe and removes the
-# revalidation round-trip on repeat visits.
+# /data/* is NOT content-addressed: the path is stable (`LT01T01.json`), so a
+# redeploy replaces the bytes behind an unchanged URL. `immutable` therefore
+# pins a returning visitor to whatever payload they first downloaded — a
+# regenerated recording's offsets never reach them. Revalidate instead; the
+# ETag makes the common case a 304.
+#
+# /_nuxt/* IS content-addressed (Vite hashes the filename), so immutable is
+# correct there.
 #
 # HTML is deliberately NOT listed: Workers Static Assets already serves it with
 # `Cache-Control: public, max-age=0, must-revalidate`, which is what a deploy
@@ -13,7 +17,7 @@
 # planning/performance-and-content-refactor.md §3 phase 1.
 
 /data/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=0, must-revalidate
 
 /_nuxt/*
   Cache-Control: public, max-age=31536000, immutable
