@@ -76,6 +76,14 @@ const nativeHeader = computed(() => languageName(uiLang.value !== store.lang ? u
 const isDictionary = computed(() => store.track === 'dictionary')
 
 /**
+ * Whether this track has articles at all. Only lectures and stories do — a
+ * dictionary row is a word with a gloss, not a lesson — so the article column
+ * is hidden on the dictionary rather than rendered as a column of struck-out
+ * icons.
+ */
+const hasArticles = computed(() => store.track !== 'dictionary')
+
+/**
  * Phonetic topic (alphabet, letter groups, phonics): the rows teach sounds, so
  * the second column shows the IPA transcription instead of the native gloss —
  * "măr" for the letter A is noise, `/a/` is the lesson. The IPA column is then
@@ -166,6 +174,25 @@ function onCycle() {
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
+/**
+ * The next page's queue items, or an empty array at the end of the topic.
+ *
+ * "Play all" walks the whole topic, not just the visible page: when the queue
+ * runs dry the store advances a page and the new rows are handed back. Search
+ * results are a single flat list, so they never advance.
+ */
+async function nextPageItems(): Promise<QueueItem[]> {
+  if (store.searchActive) return []
+  if (store.page >= store.pageCount) return []
+  queueAdvancing = true
+  store.setPage(store.page + 1)
+  // The rows are a computed slice of already-loaded records, so they are
+  // available on the next tick — no fetch, no race.
+  await nextTick()
+  queueAdvancing = false
+  return queueItems.value
+}
+
 /** Count one completed listen — the 5th (10th, …) auto-marks the word learned. */
 function onItemEnded(item: QueueItem) {
   void progress?.registerListen(item.id)
@@ -178,9 +205,15 @@ watch(activeId, (id: string | null) => {
 
 // Structural changes invalidate the run — stop the autoplay. The viewport
 // stays where it is on page changes (no forced jump to the top).
+//
+// A page change caused by the queue itself is NOT a structural change: the run
+// is walking the topic, so it must survive its own advance. `queueAdvancing`
+// marks that case.
+let queueAdvancing = false
 watch(
   () => [store.page, store.pageSize, store.dictionaryQuery] as const,
   () => {
+    if (queueAdvancing) return
     if (queue.isPlaying.value) queue.stop()
   }
 )
@@ -230,7 +263,13 @@ onBeforeUnmount(() => {
       ref="toolbarRef"
       class="sticky top-[var(--app-header-h)] z-20 -mb-1.5 bg-body pb-1.5"
     >
-      <DictionaryToolbar :queue="queue" :items="queueItems" :on-cycle="onCycle" :on-item-ended="onItemEnded" />
+      <DictionaryToolbar
+        :queue="queue"
+        :items="queueItems"
+        :on-cycle="onCycle"
+        :on-item-ended="onItemEnded"
+        :next-page="nextPageItems"
+      />
     </div>
 
     <div
@@ -258,7 +297,7 @@ onBeforeUnmount(() => {
           <col />
           <col />
           <col v-if="isDictionary && !isPhonetic" class="hidden sm:table-column" />
-          <col class="w-14" />
+          <col v-if="hasArticles" class="w-14" />
           <col class="w-14" />
           <col class="w-14" />
         </colgroup>
@@ -270,8 +309,9 @@ onBeforeUnmount(() => {
               {{ copy('dictionary.col_ipa', 'IPA') }}
             </th>
             <!-- Article column: an eye that opens the legend — one glyph, no
-                 second symbol underneath -->
-            <th class="w-14 px-1 py-2 text-center">
+                 second symbol underneath. Dictionary rows have no articles, so
+                 the column is hidden there entirely. -->
+            <th v-if="hasArticles" class="w-14 px-1 py-2 text-center">
               <button
                 type="button"
                 class="btn-pastel inline-flex h-8 w-8 items-center justify-center rounded-full text-faint transition hover:text-accent"
@@ -377,10 +417,11 @@ onBeforeUnmount(() => {
             >
               {{ r.ipa ?? '' }}
             </td>
-            <!-- Read: always shown. A row with an article (word, expression,
-                 story) opens it on its prerendered page; otherwise the same
-                 icon renders disabled, like the "Audio coming soon" play -->
-            <td class="w-14 px-1 py-2 text-center">
+            <!-- Read: only on tracks that have articles (lectures, stories).
+                 A row with an article opens it on its prerendered page;
+                 otherwise the same icon renders disabled, like the "Audio
+                 coming soon" play -->
+            <td v-if="hasArticles" class="w-14 px-1 py-2 text-center">
               <NuxtLink
                 v-if="r.content"
                 :to="articleHref(r)"

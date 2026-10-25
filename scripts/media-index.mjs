@@ -604,57 +604,6 @@ for (const group of contentGroups.values()) {
   applyContentMeta(record, group, recordsById, recordsByTopicContentId)
 }
 
-/* ── phonetic articles (data, not Markdown) ───────────────────────────────
- *
- * A letter/sound article is rendered from src/data/alphabets/<lang>.json by
- * PhoneticArticle.vue — there is no `.md` for it (phase 3 of
- * planning/performance-and-content-refactor.md). The record still needs its
- * `content` meta so the table shows the read button and the article route
- * resolves, so it is synthesized from the same data the renderer reads.
- */
-
-const ALPHABETS = join(ROOT, 'src', 'data', 'alphabets')
-/** topic code → { target, entries: Map<code, entry> } */
-const phoneticTopics = new Map()
-for (const sidebar of sidebars) {
-  for (const section of sidebar.sections) {
-    for (const topic of section.topics) {
-      // A phonetic topic is directional by definition: the alphabet of German is
-      // about German. `target` is the language whose sounds it teaches.
-      if (topic.phonetic !== true || topic.mode !== 'directional' || !topic.target) continue
-      const file = join(ALPHABETS, `${topic.target}.json`)
-      if (!existsSync(file)) continue
-      const data = readJson(file)
-      const entries = new Map()
-      for (const entry of [...(data.letters ?? []), ...(data.groups ?? [])]) entries.set(entry.code, entry)
-      phoneticTopics.set(topic.code, { target: topic.target, entries })
-    }
-  }
-}
-
-for (const [topicCode, { entries }] of phoneticTopics) {
-  for (const records of recordsBySectionTopic.values()) {
-    for (const record of records) {
-      if (record.topic !== topicCode) continue
-      const entry = entries.get(record.id)
-      if (!entry) continue
-      // The explanation exists in every locale that has a note (or sections).
-      const locales = LOCALES_ALL.filter(
-        (locale) => entry.note?.[locale] || entry.sections?.[locale]
-      )
-      const note = entry.note?.en ?? ''
-      record.content = {
-        canonical: 'en',
-        locales,
-        // Empty string (not null) when the entry has no note — the value the
-        // generated Markdown front matter used to carry.
-        summary: note.split('\n')[0].slice(0, 160),
-        order: 0
-      }
-    }
-  }
-}
-
 /* ── counts (second pass — includes the synthesized content-only records) ── */
 
 const counts = {} // section -> topic -> lang -> n

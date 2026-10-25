@@ -25,6 +25,8 @@ const props = defineProps<{
   onCycle?: () => void
   /** Fired per finished item — the layout counts listens for auto-completion. */
   onItemEnded?: (item: QueueItem) => void
+  /** Next page's items, or empty at the end of the topic — lets Play walk it. */
+  nextPage?: () => QueueItem[] | Promise<QueueItem[]>
 }>()
 
 /** Memorization pause between rows of a page run. */
@@ -87,7 +89,9 @@ function togglePlay() {
     gapMs: GAP_MS,
     loop: false,
     onCycle: props.onCycle,
-    onItemEnded: props.onItemEnded
+    onItemEnded: props.onItemEnded,
+    // Play walks the whole topic: when the page runs out, the next one loads.
+    nextPage: props.nextPage
   })
 }
 

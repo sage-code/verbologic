@@ -33,6 +33,12 @@ export interface QueueOptions {
   onCycle?: () => void
   /** Fired when an item finishes playing (each Repeat lap counts too). */
   onItemEnded?: (item: QueueItem) => void
+  /**
+   * Called when the queue runs out of items. Return the NEXT page's items to
+   * keep playing across pages, or an empty array to end the run. This is what
+   * lets "play all" walk a whole topic instead of stopping at the page edge.
+   */
+  nextPage?: () => QueueItem[] | Promise<QueueItem[]>
 }
 
 export function useAudioQueue() {
@@ -50,6 +56,9 @@ export function useAudioQueue() {
   let gapMs = 1200
   let onCycle: (() => void) | null = null
   let onItemEnded: ((item: QueueItem) => void) | null = null
+  let nextPage: (() => QueueItem[] | Promise<QueueItem[]>) | null = null
+  /** Guards against a second advance while the next page is being fetched. */
+  let advancing = false
 
   function clearTimer() {
     if (timer !== null) {
@@ -67,6 +76,8 @@ export function useAudioQueue() {
     isPlaying.value = false
     paused.value = false
     mode.value = 'idle'
+    nextPage = null
+    advancing = false
   }
 
   /** Hold the current item in place — the queue stays loaded, the cursor
@@ -97,6 +108,28 @@ export function useAudioQueue() {
         cursor = 0
         onCycle?.()
         playNext()
+        return
+      }
+      // Out of items: ask for the next page. A run that spans pages keeps
+      // going until the topic ends; one with no `nextPage` stops here.
+      if (nextPage && !advancing) {
+        advancing = true
+        void Promise.resolve(nextPage())
+          .then((items) => {
+            advancing = false
+            if (!isPlaying.value) return // stopped while the page was loading
+            if (!items.length) {
+              stop()
+              return
+            }
+            queue = items
+            cursor = 0
+            playNext()
+          })
+          .catch(() => {
+            advancing = false
+            stop()
+          })
         return
       }
       stop()
@@ -136,6 +169,8 @@ export function useAudioQueue() {
     onCycle = options.onCycle ?? null
     // The listen hook persists across runs — every playback counts.
     onItemEnded = options.onItemEnded ?? onItemEnded
+    nextPage = options.nextPage ?? null
+    advancing = false
     queue = [...items]
     const at = options.startId ? items.findIndex((i) => i.id === options.startId) : -1
     cursor = at > 0 ? at : 0

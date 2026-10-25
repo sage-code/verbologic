@@ -179,10 +179,12 @@ def prompt_for(batch: list[dict[str, Any]], lang: str, locales: tuple[str, ...])
         "behaves in words (position, capitalisation, common spellings).\n"
         "   - `compare`: {title, text} — the pronunciation variants and the "
         "words that show them, plus a warning about the mistakes learners make.\n"
-        "   Write each `text` as 2-4 full sentences of genuinely useful prose "
-        "in that explanation language. Do NOT just restate the IPA. Use "
-        "`**bold**` for emphasis and backticks for IPA inline. Never leave a "
-        "locale out.\n\n"
+        "   Write each `text` as ONE or TWO short sentences — enough to explain "
+        "the sound, no more. This is a reference card, not an essay: a learner "
+        "reads it in ten seconds. Do NOT restate the IPA, do NOT pad with "
+        "encouragement or generalities, and do NOT repeat what another section "
+        "already said. Use `**bold**` for emphasis and backticks for IPA inline. "
+        "Never leave a locale out.\n\n"
         "Return ONLY JSON of the shape "
         '{"items":[{"code":"L001","example":"...","exampleIpa":"/.../",'
         '"exampleTranslation":{"en":"..."},"variations":[...],"sections":{...}}]}. '
