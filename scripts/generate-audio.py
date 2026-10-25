@@ -508,11 +508,18 @@ async def apply_read(
     overwrite: bool,
     owners: dict[str, str] | None = None,
 ) -> tuple[int, int, int]:
-    """Synthesize the full-article read (read/<locale>.mp3) from the content doc."""
+    """Synthesize the full-article read (read/<locale>.mp3) from the content doc.
+
+    Concurrent, like the audio pass: a read recording is a whole article, so
+    synthesizing them one at a time made a 3,267-file run take most of a day.
+    """
     generated = 0
     skipped = 0
     failed = 0
     owners = owners or {}
+    pending = []
+    touched: dict[Path, dict[str, Any]] = {}
+
     for path, item in items:
         track = str(item.get("track", ""))
         topic = str(item.get("topic", ""))
@@ -520,7 +527,6 @@ async def apply_read(
         # A lecture's single panel is written in the READER's language, so every
         # locale that has a doc needs its own recording — the old owner-only
         # restriction left the Read button dead for eight of the nine locales.
-        changed = False
         for locale in LOCALES:
             if lang_filter and locale != lang_filter:
                 continue
@@ -534,7 +540,7 @@ async def apply_read(
                     item, "read", locale,
                     bytes_=output.stat().st_size, sha1=file_sha1(output),
                 )
-                changed = True
+                touched[path] = item
                 skipped += 1
                 continue
             voice = voice_for(locale, item)
@@ -545,24 +551,37 @@ async def apply_read(
                 )
                 generated += 1
                 continue
-            try:
-                await synthesize_with_retry(text, voice, output)
-            except Exception as error:  # noqa: BLE001 - report and keep going
-                failed += 1
-                print(
-                    f"read generation failed: {display_media_path(output)} "
-                    f"({voice}): {error}",
-                    file=sys.stderr,
-                )
-                continue
-            set_file_facts(
-                item, "read", locale,
-                bytes_=output.stat().st_size, sha1=file_sha1(output),
+            pending.append((path, item, locale, text.strip(), voice, output))
+
+    async def run(job) -> bool:
+        path, item, locale, text, voice, output = job
+        try:
+            await synthesize_with_retry(text, voice, output)
+        except Exception as error:  # noqa: BLE001 - report and keep going
+            print(
+                f"read generation failed: {display_media_path(output)} "
+                f"({voice}): {error}",
+                file=sys.stderr,
             )
-            changed = True
-            generated += 1
-            print(f"read: {display_media_path(output)} ({voice})")
-        if changed and not dry_run:
+            return False
+        set_file_facts(
+            item, "read", locale,
+            bytes_=output.stat().st_size, sha1=file_sha1(output),
+        )
+        print(f"read: {display_media_path(output)} ({voice})")
+        return True
+
+    if pending:
+        results = await asyncio.gather(*(run(job) for job in pending))
+        for ok, job in zip(results, pending):
+            touched[job[0]] = job[1]
+            if ok:
+                generated += 1
+            else:
+                failed += 1
+
+    if not dry_run:
+        for path, item in touched.items():
             write_json_atomic(path, item)
     return generated, skipped, failed
 
