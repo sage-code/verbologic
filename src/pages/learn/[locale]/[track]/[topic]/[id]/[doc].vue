@@ -212,6 +212,22 @@ const storyTargetRead = computed(() =>
     : readFor(record.value, storyTargetDoc.value?.locale ?? docLocale.value)
 )
 const storyNativeRead = computed(() => nativeRecord.value?.read?.url ?? null)
+
+/**
+ * Where the current reading page starts in each panel's recording.
+ *
+ * The article paginates one `##` section per page, and the generator records
+ * each section's start offset, so pressing Play on page 3 begins at page 3.
+ * A recording made before offsets existed has no entry — the player then
+ * starts at 0, exactly as before.
+ */
+const targetStartAt = computed(() => {
+  const locale = isStory.value ? trackLang.value : (storyTargetDoc.value?.locale ?? docLocale.value)
+  return record.value?.readSections?.[locale]?.[storyPage.value] ?? 0
+})
+const nativeStartAt = computed(
+  () => nativeRecord.value?.readSections?.[docLocale.value]?.[storyPage.value] ?? 0
+)
 const targetTerm = computed(() =>
   markdownDoc.value?.terms?.[trackLang.value] ?? record.value?.term ?? ''
 )
@@ -356,7 +372,7 @@ useSeoMeta({
                 <h2 class="text-xs font-semibold uppercase tracking-wide text-accent">
                   {{ storyTargetName }} · {{ copy(isStory ? 'stories.learning_text' : 'lecture.explanation', isStory ? 'Learning language' : 'Explanation') }}
                 </h2>
-                <ArticleReadPlayer ref="targetPlayer" :src="storyTargetRead" :label="storyTargetName" />
+                <ArticleReadPlayer ref="targetPlayer" :src="storyTargetRead" :label="storyTargetName" :start-at="targetStartAt" />
               </div>
               <ContentRenderer
                 v-if="storyTargetPage"
@@ -373,7 +389,7 @@ useSeoMeta({
                 <h2 class="text-xs font-semibold uppercase tracking-wide text-muted">
                   {{ storyNativeName }} · {{ copy('stories.translation', 'Translation') }}
                 </h2>
-                <ArticleReadPlayer ref="nativePlayer" :src="storyNativeRead" :label="storyNativeName" />
+                <ArticleReadPlayer ref="nativePlayer" :src="storyNativeRead" :label="storyNativeName" :start-at="nativeStartAt" />
               </div>
               <ContentRenderer
                 v-if="storyNativePage"

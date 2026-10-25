@@ -13,8 +13,14 @@ const props = withDefaults(
     src: string | null
     /** Language name shown in the control's accessible label. */
     label?: string
+    /**
+     * Start offset in seconds for the current reading page. Pressing Play
+     * seeks here, so page 3 starts at page 3 instead of replaying pages 1–2.
+     * 0 (or absent) plays from the beginning.
+     */
+    startAt?: number
   }>(),
-  { label: '' }
+  { label: '', startAt: 0 }
 )
 
 const copy = useCopy()
@@ -48,6 +54,10 @@ function toggle() {
     playing.value = false
     paused.value = true
     return
+  }
+  // Starting from idle seeks to the current page; resuming keeps its position.
+  if (!paused.value && props.startAt > 0) {
+    audio.currentTime = props.startAt
   }
   void audio.play().catch(() => {})
   playing.value = true

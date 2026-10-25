@@ -27,6 +27,8 @@ import hashlib
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
 import tempfile
 import time
@@ -361,6 +363,49 @@ async def synthesize(text: str, voice: str, output: Path) -> None:
         temporary.unlink(missing_ok=True)
 
 
+async def synthesize_sections(
+    sections: list[str], voice: str, output: Path
+) -> list[float]:
+    """Synthesize each reading page separately, then concatenate.
+
+    Returns the start offset (seconds) of each page in the joined file.
+
+    Why per section: the article is paginated one `##` section per page, and
+    pressing Play on page 3 must start at page 3, not replay pages 1–2. Raw MP3
+    segments concatenate into a valid stream (verified: a two-segment join
+    reported 6.888 s against 3.50 + 3.36 s expected), so no re-encode is needed.
+
+    Durations come from Edge TTS's `SentenceBoundary` events, whose `offset` and
+    `duration` are in 100-nanosecond units — no MP3 decoding, no ffmpeg.
+    """
+    output.parent.mkdir(parents=True, exist_ok=True)
+    temporary = output.with_name(f".{output.stem}.tmp{output.suffix}")
+    offsets: list[float] = []
+    elapsed = 0.0
+    try:
+        with temporary.open("wb") as handle:
+            for section in sections:
+                offsets.append(round(elapsed, 3))
+                audio = bytearray()
+                section_end = 0.0
+                async for chunk in edge_tts.Communicate(section, voice).stream():
+                    if chunk["type"] == "audio":
+                        audio.extend(chunk["data"])
+                    elif chunk["type"] in ("SentenceBoundary", "WordBoundary"):
+                        end = (chunk.get("offset", 0) + chunk.get("duration", 0)) / 10_000_000
+                        section_end = max(section_end, end)
+                if not audio:
+                    raise IOError(f"Edge TTS produced no audio for a section of {output}")
+                handle.write(bytes(audio))
+                elapsed += section_end
+        if not temporary.is_file() or temporary.stat().st_size == 0:
+            raise IOError(f"Edge TTS produced no audio for {output}")
+        temporary.replace(output)
+        return offsets
+    finally:
+        temporary.unlink(missing_ok=True)
+
+
 # Edge TTS drops the websocket under load and reports NoAudioReceived for text it
 # would happily synthesize a moment later, so every clip gets a few attempts.
 TTS_ATTEMPTS = 4
@@ -419,6 +464,24 @@ def sibling_voice(voice: str) -> str | None:
             other = next((v for v in pair if v != voice), None)
             return other
     return None
+
+
+async def synthesize_sections_with_fallback(
+    sections: list[str], voice: str, output: Path
+) -> tuple[str, list[float]]:
+    """`synthesize_sections`, falling back to the sibling voice on refusal.
+
+    Returns the voice that produced the file and the per-page offsets.
+    """
+    try:
+        offsets = await synthesize_sections(sections, voice, output)
+        return voice, offsets
+    except (edge_tts.exceptions.NoAudioReceived, ConnectionError, asyncio.TimeoutError):
+        sibling = sibling_voice(voice)
+        if not sibling:
+            raise
+        offsets = await synthesize_sections(sections, sibling, output)
+        return sibling, offsets
 
 
 def file_sha1(path: Path) -> str:
@@ -519,6 +582,77 @@ async def apply_audio(
 
 FRONTMATTER_RE = re.compile(r"\A---\s*\r?\n.*?\r?\n---\s*(?:\r?\n|\Z)", re.DOTALL)
 
+#: Node is the only runtime that can run scripts/lib/ipa-translit.mjs, and the
+#: map lives there so the client and the generator share one source of truth.
+NODE = shutil.which("node") or "node"
+
+
+def transliterate_ipa(text: str, locale: str) -> str:
+    """Replace IPA spans with a respelling the TTS voice can read.
+
+    Edge TTS does not fail on IPA — it silently mispronounces or skips it, so
+    the recording says something the article does not. The map is per-language
+    (`/ə/` is "uh" to an English voice, "э" to a Russian one) and lives in
+    scripts/lib/ipa-translit.mjs.
+
+    A failure here is not fatal: the untransliterated text is still better than
+    no recording, so the error is reported and the original returned.
+    """
+    script = (
+        "import {transliterate} from './scripts/lib/ipa-translit.mjs';"
+        "let s='';process.stdin.on('data',d=>s+=d);"
+        "process.stdin.on('end',()=>process.stdout.write(transliterate(s,process.argv[1])));"
+    )
+    try:
+        result = subprocess.run(
+            [NODE, "--input-type=module", "-e", script, locale],
+            input=text,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            cwd=ROOT,
+            timeout=60,
+        )
+        if result.returncode != 0:
+            raise RuntimeError(result.stderr.strip()[:200] or "node exited non-zero")
+        return result.stdout
+    except Exception as error:  # noqa: BLE001 - degrade, never abort the run
+        print(f"transliteration failed for {locale}: {error}", file=sys.stderr)
+        return text
+
+
+def article_sections(track: str, topic: str, code: str, locale: str) -> list[str] | None:
+    """The article body split into reading pages, one per `##` heading.
+
+    This is the SAME rule the reading view paginates by (`paginate()` in
+    [doc].vue): a document with headings starts a new page at each one. Page N
+    of the UI is therefore section N here, which is what lets the player seek.
+    """
+    path = CONTENT_DIR / track / topic / code / f"{locale}.md"
+    if not path.is_file():
+        return None
+    text = FRONTMATTER_RE.sub("", path.read_text(encoding="utf-8"))
+    text = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", text)  # images
+    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)  # links → their text
+    text = re.sub(r"^\s{0,3}#{1,6}\s*", "", text, flags=re.MULTILINE)  # headings
+    text = re.sub(r"[*_`>]+", "", text)  # emphasis / quotes / code marks
+    text = re.sub(r"\n{3,}", "\n\n", text)
+
+    # Split on the heading markers BEFORE they were stripped, so the page
+    # boundaries survive. Re-read and split on the raw `##` lines instead.
+    raw = FRONTMATTER_RE.sub("", path.read_text(encoding="utf-8"))
+    raw = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", raw)
+    raw = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", raw)
+    chunks = re.split(r"^\s{0,3}#{2,3}\s+.*$", raw, flags=re.MULTILINE)
+    sections = []
+    for chunk in chunks:
+        cleaned = re.sub(r"^\s{0,3}#{1,6}\s*", "", chunk, flags=re.MULTILINE)
+        cleaned = re.sub(r"[*_`>]+", "", cleaned)
+        cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
+        if cleaned:
+            sections.append(cleaned)
+    return sections or None
+
 
 def article_text(track: str, topic: str, code: str, locale: str) -> str | None:
     """The article body for one locale, reduced to prose the TTS engine reads."""
@@ -563,8 +697,8 @@ async def apply_read(
         for locale in LOCALES:
             if lang_filter and locale != lang_filter:
                 continue
-            text = article_text(track, topic, code, locale)
-            if is_missing(text):
+            sections = article_sections(track, topic, code, locale)
+            if not sections:
                 skipped += 1
                 continue
             output = audio_path_for(path, locale, "read")
@@ -580,16 +714,20 @@ async def apply_read(
             if dry_run:
                 print(
                     f"would read: {path.relative_to(MEDIA_DIR).as_posix()} "
-                    f"{locale} -> {display_media_path(output)} ({voice})"
+                    f"{locale} -> {display_media_path(output)} ({voice}) "
+                    f"[{len(sections)} section(s)]"
                 )
                 generated += 1
                 continue
-            pending.append((path, item, locale, text.strip(), voice, output))
+            pending.append((path, item, locale, sections, voice, output))
 
     async def run(job) -> bool:
-        path, item, locale, text, voice, output = job
+        path, item, locale, sections, voice, output = job
+        # IPA is respelled before it reaches the API: Edge TTS does not fail on
+        # it, it silently mispronounces or skips it.
+        spoken = [transliterate_ipa(section, locale) for section in sections]
         try:
-            used = await synthesize_with_fallback(text, voice, output)
+            used, offsets = await synthesize_sections_with_fallback(spoken, voice, output)
         except Exception as error:  # noqa: BLE001 - report and keep going
             print(
                 f"read generation failed: {display_media_path(output)} "
@@ -601,8 +739,11 @@ async def apply_read(
             item, "read", locale,
             bytes_=output.stat().st_size, sha1=file_sha1(output),
         )
+        # Where each reading page starts in the joined recording — the player
+        # seeks here so Play on page 3 starts at page 3.
+        item.setdefault("readSections", {})[locale] = offsets
         note = "" if used == voice else f" [fallback from {voice}]"
-        print(f"read: {display_media_path(output)} ({used}){note}")
+        print(f"read: {display_media_path(output)} ({used}){note} [{len(offsets)} page(s)]")
         return True
 
     if pending:

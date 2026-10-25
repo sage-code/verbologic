@@ -128,6 +128,10 @@ function localizeItem(item, path, locale) {
     const descriptor = resolveDescriptor(item, path, candidate, 'read')
     if (descriptor.key) reads[candidate] = `${config.root}${descriptor.key}`
   }
+  // Where each reading page starts in that locale's recording. The article is
+  // paginated one `##` section per page, so the player seeks here instead of
+  // replaying pages 1..N-1 when Play is pressed on page N.
+  const readSections = item.readSections ?? null
   const row = localeRow(item, locale)
   return {
     id: item.code,
@@ -143,6 +147,7 @@ function localizeItem(item, path, locale) {
     status: audio.status,
     read,
     reads: Object.keys(reads).length ? reads : null,
+    readSections,
     tags: item.tags ?? [],
     topic: item.topic,
     entity_id: `${item.topic}:${item.code}`,
@@ -264,6 +269,8 @@ function manifestRecord(manifest, section) {
     // Every locale's read recording — a directional topic emits one record but
     // explains its article in all nine, each with its own recording.
     reads: manifest.reads ?? null,
+    // Per-locale start offset of each reading page in that recording.
+    readSections: manifest.readSections ?? null,
     tags: manifest.tags ?? [],
     context: manifest.context ?? null,
     example: manifest.example ?? null,

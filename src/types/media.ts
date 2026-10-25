@@ -50,6 +50,14 @@ export interface MediaRecord {
    * other eight panels without a Read button.
    */
   reads?: Record<string, string> | null
+  /**
+   * Per-locale start offset (seconds) of each reading page in that locale's
+   * recording. The article paginates one `##` section per page, so the player
+   * seeks to `readSections[locale][page]` instead of replaying from the start.
+   * Absent on recordings generated before this existed — the player then
+   * starts at 0, exactly as before.
+   */
+  readSections?: Record<string, number[]> | null
   tags?: string[]
   /** Register/usage note (optional manifest field, e.g. 'hard c'). */
   context?: string | null
