@@ -443,7 +443,11 @@ async function cmdUpload() {
     const key = toKey(disk)
     const bytes = statSync(disk).size
     const hash = sha1(disk)
-    const onR2 = remote ? remote.has(key) : true
+    // `remote` maps key -> size. Checking only that the key EXISTS is not
+    // enough: a regenerated file keeps its key, so the manifest matches disk
+    // while the bucket still holds the old bytes. Compare the size too.
+    const remoteSize = remote ? remote.get(key) : undefined
+    const onR2 = remote ? remoteSize !== undefined && remoteSize === bytes : true
     if (descriptor.status === 'published' && descriptor.sha1 === hash && descriptor.bytes === bytes && onR2) continue
     if (!delta.has(key)) {
       delta.set(key, {
