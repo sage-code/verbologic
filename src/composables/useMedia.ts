@@ -19,6 +19,7 @@
 import type { MediaRecords, MediaRow, MediaSearchIndex } from '~/types/media'
 import type { MediaIndex } from '~/types/sidebars'
 import { localizeMediaRecords, localizeMediaSearch } from '~/lib/localMedia'
+import { rememberReadFacts } from '~/composables/useContentDb'
 
 const indexCache = new Map<string, Promise<MediaIndex>>()
 const topicCache = new Map<string, Promise<MediaRecords>>()
@@ -57,13 +58,18 @@ export function useMedia() {
    */
   const fetchTopic = (section: string, topic: string, locale?: string) =>
     cached(topicCache, `${section}:${topic}:${locale ?? '*'}`, async () => {
+      // The payload carries read-audio facts the database has no columns for
+      // (`reads`, `readSections`). Load it once per topic so DB-built rows can
+      // borrow them — the article page needs them to pick the panel's
+      // recording and to seek to the current page.
+      const bundled = await $fetch<MediaRecords>(`/data/media/${section}/${topic}.json`)
+        .then(localizeMediaRecords)
+        .catch(() => [] as MediaRecords)
+      rememberReadFacts(bundled)
       if (locale) {
         const rows = await db.fetchTopicPage(trackOf(section), topic, locale)
         if (rows) return rows as MediaRecords
       }
-      const bundled = await $fetch<MediaRecords>(`/data/media/${section}/${topic}.json`).then(
-        localizeMediaRecords
-      )
       return locale ? bundled.filter((r) => r.lang === locale) : bundled
     })
 

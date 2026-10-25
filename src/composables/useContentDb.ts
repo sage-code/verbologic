@@ -49,11 +49,36 @@ function phoneticContentMeta(topic: string): ContentMeta | null {
   return null
 }
 
+/**
+ * Read-audio facts that live only in the bundled payload.
+ *
+ * `units` has no `reads`/`readSections` columns, so a row built from the
+ * database cannot carry them — but the article page needs them to pick the
+ * panel's recording and to seek to the current page. This cache is filled from
+ * the topic payload on first use and keyed by entity id.
+ */
+const readFacts = new Map<string, { reads?: Record<string, string> | null; readSections?: Record<string, number[]> | null }>()
+
+/** Remember a payload's read facts so DB-built rows can borrow them. */
+export function rememberReadFacts(rows: MediaRow[]): void {
+  for (const row of rows) {
+    if (!row.reads && !row.readSections) continue
+    readFacts.set(row.entity_id, { reads: row.reads, readSections: row.readSections })
+  }
+}
+
+/** Attach the payload's read facts to a DB-built row. */
+function withReadFacts(row: MediaRow): MediaRow {
+  const facts = readFacts.get(row.entity_id)
+  if (!facts) return row
+  return { ...row, reads: facts.reads ?? row.reads, readSections: facts.readSections ?? row.readSections }
+}
+
 /** Map a `units` row onto the row contract the table already renders. */
 export function unitToRow(unit: ContentUnitRow): MediaRow {
   // entity_id is `<TOPIC>:<CODE>`; the table's `id` is the code part.
   const code = unit.entity_id.includes(':') ? unit.entity_id.split(':').slice(1).join(':') : unit.entity_id
-  return {
+  return withReadFacts({
     id: code,
     topic: unit.topic,
     entity_id: unit.entity_id,
@@ -63,7 +88,7 @@ export function unitToRow(unit: ContentUnitRow): MediaRow {
     ipa: unit.ipa,
     media: { url: unit.audio_url },
     read: unit.read_url ? { url: unit.read_url } : null
-  }
+  })
 }
 
 export function useContentDb() {

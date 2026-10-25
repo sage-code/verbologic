@@ -112,6 +112,17 @@ export interface MediaRow {
   media: { url: string | null }
   /** Full-article read recording for the row's language (null while pending). */
   read?: { url: string | null } | null
+  /**
+   * Every locale's read recording, keyed by locale. A directional topic emits
+   * one record but explains its article in all nine, each with its own
+   * recording — the article page picks the panel's language from here.
+   */
+  reads?: Record<string, string> | null
+  /**
+   * Per-locale start offset (seconds) of each reading page in that locale's
+   * recording, so Play on page N starts at page N.
+   */
+  readSections?: Record<string, number[]> | null
   /** Article docs — any row (word, expression, story…) may carry one; the
    *  table shows a read button when present. */
   content?: ContentMeta
