@@ -97,19 +97,28 @@ export default defineNuxtConfig({
       // (already listed below) is what actually gets prerendered, and the
       // topic itself is selected client-side from the query on mount.
       ignore: [/\?/],
-      // Library track pages (/learn/:locale/:track) are dynamic routes the
-      // link crawler cannot discover, so they are listed explicitly — one
-      // entry per language × track. The static host (wrangler.toml) serves
-      // "404-page" for missing paths, so every navigable route must exist
-      // as a prerendered file. Adding a language to navigation.json adds
-      // its three track URLs automatically.
-      routes: navigation.languages.flatMap((l) =>
-        ['dictionary', 'lectures', 'stories'].map((t) => `/learn/${l.locale}/${t}`)
-      )
+      // `crawlLinks` defaults to FALSE in this Nitro version, so nothing is
+      // discovered by following links — every route must be listed. That is
+      // why the top-level pages are enumerated here: without them `/`,
+      // `/method`, `/library`, `/profile` and `/practice` were never written,
+      // and the static host (wrangler.toml, `not_found_handling = "404-page"`)
+      // served a hard 404 for the site's own home page.
+      routes: [
+        '/',
+        '/method',
+        '/library',
+        '/profile',
+        '/practice',
+        // Library track pages (/learn/:locale/:track) — one per language ×
+        // track. Adding a language to navigation.json adds its three URLs.
+        ...navigation.languages.flatMap((l) =>
+          ['dictionary', 'lectures', 'stories'].map((t) => `/learn/${l.locale}/${t}`)
+        ),
         // Article prose is prerendered per explanation-locale doc. Shared
         // dictionary, lecture, and shared story docs produce routes for every
         // registered target language; legacy stories retain their own tree.
-        .concat(contentDocRoutes())
+        ...contentDocRoutes()
+      ]
     }
   },
 
