@@ -382,28 +382,31 @@ async def synthesize_sections(
     temporary = output.with_name(f".{output.stem}.tmp{output.suffix}")
     offsets: list[float] = []
     elapsed = 0.0
-    try:
-        with temporary.open("wb") as handle:
-            for section in sections:
-                offsets.append(round(elapsed, 3))
-                audio = bytearray()
-                section_end = 0.0
-                async for chunk in edge_tts.Communicate(section, voice).stream():
-                    if chunk["type"] == "audio":
-                        audio.extend(chunk["data"])
-                    elif chunk["type"] in ("SentenceBoundary", "WordBoundary"):
-                        end = (chunk.get("offset", 0) + chunk.get("duration", 0)) / 10_000_000
-                        section_end = max(section_end, end)
-                if not audio:
-                    raise IOError(f"Edge TTS produced no audio for a section of {output}")
-                handle.write(bytes(audio))
-                elapsed += section_end
-        if not temporary.is_file() or temporary.stat().st_size == 0:
-            raise IOError(f"Edge TTS produced no audio for {output}")
-        temporary.replace(output)
-        return offsets
-    finally:
-        temporary.unlink(missing_ok=True)
+    # Acquire the slot BEFORE opening the temp file: 3,267 concurrent tasks
+    # otherwise create every temp file at once and only then queue for the API.
+    async with tts_slots():
+        try:
+            with temporary.open("wb") as handle:
+                for section in sections:
+                    offsets.append(round(elapsed, 3))
+                    audio = bytearray()
+                    section_end = 0.0
+                    async for chunk in edge_tts.Communicate(section, voice).stream():
+                        if chunk["type"] == "audio":
+                            audio.extend(chunk["data"])
+                        elif chunk["type"] in ("SentenceBoundary", "WordBoundary"):
+                            end = (chunk.get("offset", 0) + chunk.get("duration", 0)) / 10_000_000
+                            section_end = max(section_end, end)
+                    if not audio:
+                        raise IOError(f"Edge TTS produced no audio for a section of {output}")
+                    handle.write(bytes(audio))
+                    elapsed += section_end
+            if not temporary.is_file() or temporary.stat().st_size == 0:
+                raise IOError(f"Edge TTS produced no audio for {output}")
+            temporary.replace(output)
+            return offsets
+        finally:
+            temporary.unlink(missing_ok=True)
 
 
 # Edge TTS drops the websocket under load and reports NoAudioReceived for text it
@@ -621,6 +624,77 @@ def transliterate_ipa(text: str, locale: str) -> str:
         return text
 
 
+def transliterate_many(texts: list[str], locales: list[str]) -> list[str]:
+    """Transliterate many sections in ONE node call, each in its own locale.
+
+    `subprocess.run` blocks the event loop, so this runs before the async
+    gather. One call for the whole run rather than one per article: 3,267 node
+    spawns is minutes of process startup before a single byte of audio is
+    requested.
+    """
+    if not texts:
+        return []
+    script = (
+        "import {transliterate} from './scripts/lib/ipa-translit.mjs';"
+        "let s='';process.stdin.on('data',d=>s+=d);"
+        "process.stdin.on('end',()=>{"
+        "const p=JSON.parse(s);"
+        "process.stdout.write(JSON.stringify(p.texts.map((t,i)=>transliterate(t,p.locales[i]))));"
+        "});"
+    )
+    try:
+        result = subprocess.run(
+            [NODE, "--input-type=module", "-e", script],
+            input=json.dumps({"texts": texts, "locales": locales}),
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            cwd=ROOT,
+            timeout=600,
+        )
+        if result.returncode != 0:
+            raise RuntimeError(result.stderr.strip()[:200] or "node exited non-zero")
+        return json.loads(result.stdout)
+    except Exception as error:  # noqa: BLE001 - degrade, never abort the run
+        print(f"transliteration failed: {error}", file=sys.stderr)
+        return texts
+
+
+def transliterate_batch(texts: list[str], locale: str) -> list[str]:
+    """Transliterate many sections in ONE node call.
+
+    `subprocess.run` blocks the event loop, so calling it per section inside the
+    async gather serialized the whole run — 3,267 files stalled at 1. One call
+    per article keeps the blocking cost off the concurrent path.
+    """
+    if not texts:
+        return []
+    script = (
+        "import {transliterate} from './scripts/lib/ipa-translit.mjs';"
+        "let s='';process.stdin.on('data',d=>s+=d);"
+        "process.stdin.on('end',()=>{"
+        "const parts=JSON.parse(s);"
+        "process.stdout.write(JSON.stringify(parts.map(p=>transliterate(p,process.argv[1]))));"
+        "});"
+    )
+    try:
+        result = subprocess.run(
+            [NODE, "--input-type=module", "-e", script, locale],
+            input=json.dumps(texts),
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            cwd=ROOT,
+            timeout=120,
+        )
+        if result.returncode != 0:
+            raise RuntimeError(result.stderr.strip()[:200] or "node exited non-zero")
+        return json.loads(result.stdout)
+    except Exception as error:  # noqa: BLE001 - degrade, never abort the run
+        print(f"transliteration failed for {locale}: {error}", file=sys.stderr)
+        return texts
+
+
 def article_sections(track: str, topic: str, code: str, locale: str) -> list[str] | None:
     """The article body split into reading pages, one per `##` heading.
 
@@ -721,11 +795,22 @@ async def apply_read(
                 continue
             pending.append((path, item, locale, sections, voice, output))
 
+    # Transliterate BEFORE the async gather: `subprocess.run` blocks the event
+    # loop, so doing it inside `run()` serialized the whole batch. One node call
+    # for the whole run, not one per article — 3,267 spawns is minutes of
+    # process startup before a single byte of audio is requested.
+    if pending:
+        flat = [section for job in pending for section in job[3]]
+        locales = [job[2] for job in pending for _ in job[3]]
+        spoken_all = transliterate_many(flat, locales)
+        cursor = 0
+        for index, (path, item, locale, sections, voice, output) in enumerate(pending):
+            count = len(sections)
+            pending[index] = (path, item, locale, spoken_all[cursor : cursor + count], voice, output)
+            cursor += count
+
     async def run(job) -> bool:
-        path, item, locale, sections, voice, output = job
-        # IPA is respelled before it reaches the API: Edge TTS does not fail on
-        # it, it silently mispronounces or skips it.
-        spoken = [transliterate_ipa(section, locale) for section in sections]
+        path, item, locale, spoken, voice, output = job
         try:
             used, offsets = await synthesize_sections_with_fallback(spoken, voice, output)
         except Exception as error:  # noqa: BLE001 - report and keep going
