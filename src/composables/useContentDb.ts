@@ -14,15 +14,40 @@
  * Row shape: `units` stores the shared 9-language `names` map once per row, so a
  * row already carries every gloss the table renders — no join needed.
  */
-import type { MediaRow } from '~/types/media'
+import type { ContentMeta, MediaRow } from '~/types/media'
 import type { ContentUnitRow } from '~/types/database'
 import { fold } from '~/lib/dictionarySearch'
+import { LOCALES } from '~/data/locales'
+import { useSidebars } from '~/composables/useSidebars'
 
 /** Columns the table renders. Kept explicit so the payload stays small. */
 const UNIT_COLUMNS = 'entity_id, locale, topic, term, ipa, names, audio_url, read_url'
 
 /** PostgREST caps a response at 1000 rows by default; pages are far smaller. */
 const PAGE_LIMIT = 100
+
+/**
+ * The `content` meta of a phonetic (alphabet) row, or null.
+ *
+ * A letter article is not Markdown — it renders from `src/data/alphabets`, so
+ * its "which locales exist" answer comes from that data. Every authored entry
+ * carries all nine locales, so the answer is simply "all of them"; reading the
+ * sidebar (a few KB) rather than the alphabet files (6.7 MB) keeps the alphabet
+ * data out of the main bundle, where only the article page needs it.
+ */
+function phoneticContentMeta(topic: string): ContentMeta | null {
+  const { all } = useSidebars()
+  for (const sidebar of all()) {
+    for (const section of sidebar.sections) {
+      for (const entry of section.topics) {
+        if (entry.code !== topic) continue
+        if (entry.phonetic !== true || entry.mode !== 'directional' || !entry.target) return null
+        return { canonical: 'en', locales: [...LOCALES], order: 0 }
+      }
+    }
+  }
+  return null
+}
 
 /** Map a `units` row onto the row contract the table already renders. */
 export function unitToRow(unit: ContentUnitRow): MediaRow {
@@ -44,6 +69,54 @@ export function unitToRow(unit: ContentUnitRow): MediaRow {
 export function useContentDb() {
   const supabase = useSupabase()
   const { markOffline } = useDbStatus()
+
+  /**
+   * Which locales have an article for each entity of a topic.
+   *
+   * `units` carries no `content` column, so the online path has to ask the
+   * `articles` table — otherwise every row renders "No article yet" even when
+   * the article exists. One query per topic, not per row.
+   */
+  async function articleLocales(topic: string): Promise<Map<string, string[]>> {
+    return articleLocalesFor([topic])
+  }
+
+  /** `articleLocales` for several topics at once (search spans topics). */
+  async function articleLocalesFor(topics: string[]): Promise<Map<string, string[]>> {
+    const byEntity = new Map<string, string[]>()
+    if (!supabase || !topics.length) return byEntity
+    try {
+      const filter = topics.map((topic) => `entity_id.like.${topic}:%`).join(',')
+      const { data, error } = await supabase
+        .from('articles')
+        .select('entity_id, locale')
+        .or(filter)
+      if (error) return byEntity
+      for (const row of data ?? []) {
+        const list = byEntity.get(row.entity_id) ?? []
+        list.push(row.locale)
+        byEntity.set(row.entity_id, list)
+      }
+    } catch {
+      // A missing article list only costs the row its Read button; the table
+      // itself still renders, so this is not an offline condition.
+    }
+    return byEntity
+  }
+
+  /** Attach the `content` meta the Read button keys on. */
+  function attachContent(rows: MediaRow[], locales: Map<string, string[]>): MediaRow[] {
+    for (const row of rows) {
+      const phonetic = phoneticContentMeta(row.topic)
+      if (phonetic) {
+        row.content = phonetic
+        continue
+      }
+      const found = locales.get(row.entity_id)
+      if (found?.length) row.content = { canonical: 'en', locales: found }
+    }
+    return rows
+  }
 
   /**
    * One page of a topic's rows for one language.
@@ -72,7 +145,8 @@ export function useContentDb() {
         markOffline()
         return null
       }
-      return (data ?? []).map((row) => unitToRow(row as ContentUnitRow))
+      const rows = (data ?? []).map((row) => unitToRow(row as ContentUnitRow))
+      return attachContent(rows, await articleLocales(topic))
     } catch {
       markOffline()
       return null
@@ -113,7 +187,9 @@ export function useContentDb() {
         markOffline()
         return null
       }
-      return (data ?? []).map((row) => unitToRow(row as ContentUnitRow))
+      const rows = (data ?? []).map((row) => unitToRow(row as ContentUnitRow))
+      const topics = [...new Set(rows.map((row) => row.topic))]
+      return attachContent(rows, await articleLocalesFor(topics))
     } catch {
       markOffline()
       return null
