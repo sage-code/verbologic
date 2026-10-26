@@ -24,6 +24,7 @@ Verbologic maintenance runner
   ./run.sh validate                      Entity/nav/locale integrity checks
   ./run.sh seed export [--check]         Export content to seed/*.json (the DB import source)
   ./run.sh seed import [--dry-run]       Load seed/*.json into the Supabase content tables
+  ./run.sh export [--dry-run]            Synchronize the database (payloads → seed/*.json → Supabase)
   ./run.sh heartbeat                     Ping Supabase (keeps the Free-tier project from pausing)
   ./run.sh missing                       Missing-content inventory (planned items → temp/missing-content.md)
   ./run.sh media index [--pretty]        Build public/data/media payloads (sidebars + manifests + config)
@@ -40,6 +41,7 @@ Verbologic maintenance runner
   ./run.sh commit "<message>"            Stage + commit all changes
   ./run.sh push [--force]                Push current branch (throttled: max 1 push / 2h; --force bypasses)
   ./run.sh release "<message>"           build → validate → media manifest → commit → push (throttled)
+  ./run.sh publish ["<message>"]         Full publish: export → build → validate → media → release → deploy (throttled)
   ./run.sh deploy                        Wrangler deploy (Workers Static Assets, differential)
   ./run.sh deploy-dry                    Validate wrangler.toml without uploading
 EOF
@@ -104,6 +106,53 @@ differential_build() {
   say "Build finished → .output/public"
 }
 
+# do_export [--dry-run] — synchronize the database with media/.
+# The roadmap counts come from Supabase, so a word that exists only on disk
+# renders its chapter as "coming soon" — this is the step that makes new
+# content visible.
+#   1. media-index  rebuilds public/data/media/** from media/ + sidebars
+#   2. seed-export  regenerates seed/*.json from those payloads
+#   3. seed-import  upserts seed/*.json into Supabase (and prunes stale rows)
+do_export() {
+  local dry="${1:-}"
+  say "Synchronizing the database (payloads → seed → Supabase)…"
+  node scripts/media-index.mjs || fail "media index failed"
+  node scripts/seed-export.mjs || fail "seed export failed"
+  if [[ "$dry" == "--dry-run" ]]; then
+    node scripts/seed-import.mjs --dry-run || fail "seed import dry-run failed"
+    say "Export dry run ✓ — seed/*.json regenerated, database untouched."
+  else
+    node scripts/seed-import.mjs || fail "seed import failed"
+    say "Export ✓ — database synchronized with media/."
+  fi
+}
+
+# do_release ["<message>"] — build → validate → media manifest → commit → push.
+# Exit codes: 0 = released and pushed, 2 = committed but push throttled.
+do_release() {
+  local msg="${1:-release $(date +%Y-%m-%d %H:%M)}"
+  differential_build
+  node scripts/validate-data.mjs || warn "validation reported issues"
+  node scripts/media-sync.mjs manifest || warn "media manifest failed/skipped"
+  git add -A
+  git commit -m "$msg" || warn "nothing to commit"
+  do_push
+  return $?
+}
+
+# do_deploy — wrangler deploy of the current .output/public.
+do_deploy() {
+  # CLOUDFLARE_API_TOKEN lives in .env (gitignored) alongside the R2 S3 keys —
+  # load it so this guard (and wrangler itself) can see it without requiring
+  # it to be exported in the shell profile.
+  [[ -f .env ]] && set -a && source .env && set +a
+  [[ -n "${CLOUDFLARE_API_TOKEN:-}" ]] || \
+    fail "CLOUDFLARE_API_TOKEN is not set in .env — create a Workers-scoped token at https://dash.cloudflare.com/profile/api-tokens (different from the R2 bucket token used by './run.sh media')"
+  differential_build
+  npx wrangler deploy || fail "wrangler deploy failed — see output above."
+  say "Deployed ✓ — verbologic.com + www.verbologic.com (Workers Static Assets)."
+}
+
 case "${1:-help}" in
   help|-h|--help) usage ;;
   dev)            npm run dev ;;
@@ -133,6 +182,9 @@ case "${1:-help}" in
       *) fail "usage: ./run.sh seed <export|import> [--check|--dry-run]" ;;
     esac ;;
   heartbeat) node scripts/db-heartbeat.mjs ;;
+  export)
+    do_export "${2:-}"
+    ;;
   missing)   node scripts/missing-content.mjs ;;
   media)
     shift
@@ -176,13 +228,7 @@ case "${1:-help}" in
     do_push "${2:-}"
     ;;
   release)
-    differential_build
-    node scripts/validate-data.mjs || warn "validation reported issues"
-    node scripts/media-sync.mjs manifest || warn "media manifest failed/skipped"
-    msg="${2:-release $(date +%Y-%m-%d %H:%M)}"
-    git add -A
-    git commit -m "$msg" || warn "nothing to commit"
-    do_push
+    do_release "${2:-}"
     if (( $? == 2 )); then
       warn "Release committed but push throttled — run './run.sh push' when the 2h window opens."
     else
@@ -190,16 +236,34 @@ case "${1:-help}" in
     fi
     ;;
 
-  deploy)
-    # CLOUDFLARE_API_TOKEN lives in .env (gitignored) alongside the R2 S3 keys —
-    # load it so this guard (and wrangler itself) can see it without requiring
-    # it to be exported in the shell profile.
-    [[ -f .env ]] && set -a && source .env && set +a
-    [[ -n "${CLOUDFLARE_API_TOKEN:-}" ]] || \
-      fail "CLOUDFLARE_API_TOKEN is not set in .env — create a Workers-scoped token at https://dash.cloudflare.com/profile/api-tokens (different from the R2 bucket token used by './run.sh media')"
+  publish)
+    # One command to ship: synchronize the database, build, validate, release
+    # (commit + throttled push) and deploy. Tests are assumed already run.
+    # The push throttle is honored — a throttled push still deploys, because the
+    # deploy uploads .output/public directly and does not depend on the push.
+    msg="${2:-publish $(date +%Y-%m-%d %H:%M)}"
+    say "Publishing: export → build → validate → release → deploy"
+    say "── 1/5 database export ──"
+    do_export
+    say "── 2/5 build ──"
     differential_build
-    npx wrangler deploy || fail "wrangler deploy failed — see output above."
-    say "Deployed ✓ — verbologic.com + www.verbologic.com (Workers Static Assets)."
+    say "── 3/5 validate ──"
+    node scripts/validate-data.mjs || warn "validation reported issues"
+    say "── 4/5 release ──"
+    node scripts/media-sync.mjs manifest || warn "media manifest failed/skipped"
+    git add -A
+    git commit -m "$msg" || warn "nothing to commit"
+    do_push
+    if (( $? == 2 )); then
+      warn "Push throttled — commit kept local. Deploying anyway (deploy does not need the push)."
+    fi
+    say "── 5/5 deploy ──"
+    do_deploy
+    say "Published ✓ — database synchronized, committed, and deployed."
+    ;;
+
+  deploy)
+    do_deploy
     ;;
   deploy-dry)
     differential_build
