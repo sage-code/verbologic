@@ -107,8 +107,10 @@ export function publishedFiles(item) {
  * How many illustrations a story gets, from its CEFR level.
  *
  * A longer story needs more pictures to hold a child's attention, so the count
- * follows the level: A1 one, A2 two, B1 three, B2 four, C1 and above five.
- * Anything unrecognised falls back to one, which is the safe minimum.
+ * follows the level: A1 two, A2 two, B1 three, B2 four, C1 and above five.
+ * Even the shortest story gets two, so the picture changes at least once as
+ * the reader advances — a single picture for the whole story wastes the panel.
+ * Anything unrecognised falls back to two, which is the safe minimum.
  */
 export function imageCountForLevel(cefr) {
   const level = String(cefr ?? '').toUpperCase()
@@ -116,7 +118,7 @@ export function imageCountForLevel(cefr) {
   if (level.startsWith('B2')) return 4
   if (level.startsWith('B1')) return 3
   if (level.startsWith('A2')) return 2
-  return 1
+  return 2
 }
 
 /** The item's illustrations, in page order. */

@@ -38,7 +38,7 @@ watch(
   <RoadmapSidePane class="hidden lg:block">
     <template #label>
       <div class="flex h-10 items-center">
-        <p class="text-xs uppercase tracking-wide text-faint">{{ copy('roadmap.topics', 'Topics') }}</p>
+        <p class="text-xs uppercase tracking-wide text-faint">{{ copy('roadmap.curriculum', 'Curriculum') }}</p>
       </div>
     </template>
     <RoadmapSidebar v-if="store.ready" class="mt-1.5" />

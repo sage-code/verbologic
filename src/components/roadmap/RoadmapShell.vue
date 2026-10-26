@@ -258,7 +258,7 @@ const navAction = computed(() => {
     >
       <template #label>
         <div class="flex h-10 items-center justify-between gap-1">
-          <p class="text-xs uppercase tracking-wide text-faint">{{ copy('roadmap.topics', 'Topics') }}</p>
+          <p class="text-xs uppercase tracking-wide text-faint">{{ copy('roadmap.curriculum', 'Curriculum') }}</p>
           <!-- Drawer-only close button — the header hamburger also closes it,
                this is the in-panel escape hatch. -->
           <button

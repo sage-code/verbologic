@@ -15,13 +15,15 @@ import { LECTURE_ROWS_KEY } from '~/lib/lectureRows'
 import { DICTIONARY_TERM_KEY } from '~/lib/dictionary-term'
 import { glossName } from '~/lib/dictionarySearch'
 import { useMedia } from '~/composables/useMedia'
+import { mediaName } from '~/composables/useMedia'
+import { useRoadmapStore } from '~/stores/roadmapStore'
 import type { MediaRecord, MediaRow, StoryImage } from '~/types/media'
 
 definePageMeta({ key: (pageRoute) => pageRoute.path })
 
 const route = useRoute()
 const { lang: uiLang, ensureLocale } = useLocale()
-const { languageName } = useNavigation()
+const { languageName, languages } = useNavigation()
 const copy = useCopy()
 const media = useMedia()
 
@@ -32,6 +34,34 @@ const track = computed(() => segment(route.params.track))
 const topicCode = computed(() => segment(route.params.topic))
 const articleId = computed(() => segment(route.params.id))
 const docLocale = computed(() => segment(route.params.doc))
+
+/** ISO country flag for a locale, falling back to the locale code itself. */
+const flagFor = (loc: string): string => languages.find((l) => l.locale === loc)?.flag ?? loc
+
+/** Track titles — one entry per TRACK_IDS entry (mirrors the track page). */
+const TRACK_TITLES: Record<string, { key: string; fallback: string }> = {
+  dictionary: { key: 'track.dictionary_title', fallback: 'Dictionary' },
+  lectures: { key: 'track.lectures_title', fallback: 'Lectures' },
+  stories: { key: 'track.stories_title', fallback: 'Stories' }
+}
+const trackTitle = computed(() => {
+  const meta = TRACK_TITLES[track.value]
+  return meta ? copy(meta.key, meta.fallback) : track.value
+})
+
+/**
+ * The open topic's display name, for the breadcrumb line above the article.
+ *
+ * The article page does not load the sidebar itself, so this reads the roadmap
+ * store the rail already initialised. Until it is ready the code stands in —
+ * better a code than an empty gap.
+ */
+const roadmap = useRoadmapStore()
+const topicName = computed(() => {
+  const topic = roadmap.topic
+  if (!topic) return topicCode.value
+  return mediaName(topic.names, uiLang.value, topicCode.value)
+})
 
 // Unknown track id → hard 404 (keeps crawlers and deep links honest).
 if (!(TRACK_IDS as readonly string[]).includes(track.value)) {
@@ -382,6 +412,18 @@ useSeoMeta({
 
       <article class="mt-4 flex min-h-0 flex-1 flex-col gap-3">
         <header class="shrink-0 space-y-2">
+          <!-- The track's own title and flag, so the article sits in the same
+               frame as the track page it was opened from. Without this the
+               reader loses the "Stories" heading and the language flag the
+               moment they open a story. -->
+          <div class="flex items-center gap-2">
+            <LanguageFlag :code="flagFor(trackLang)" :label="languageName(trackLang)" size="sm" />
+            <p class="text-xs font-semibold uppercase tracking-wide text-accent">
+              {{ trackTitle }}
+            </p>
+            <span class="text-faint">/</span>
+            <p class="min-w-0 truncate text-xs text-muted">{{ topicName }}</p>
+          </div>
           <div class="flex items-start justify-between gap-3">
             <!-- A letter article's title IS the letter, so it is set in the
                  handwriting face the alphabet is taught with (Marck Script):
@@ -404,7 +446,7 @@ useSeoMeta({
               <XMarkIcon class="h-4 w-4" aria-hidden="true" />
             </a>
           </div>
-          <p v-if="articleSummary" class="text-muted">{{ articleSummary }}</p>
+          <p v-if="articleSummary" class="text-sm text-muted">{{ articleSummary }}</p>
           <div class="flex flex-wrap items-center gap-2 text-xs text-faint">
             <span v-if="articleMinutes" class="inline-flex items-center gap-1">
               <ClockIcon class="h-3.5 w-3.5" aria-hidden="true" /> {{ articleMinutes }} min
@@ -526,18 +568,19 @@ useSeoMeta({
             </div>
             <!-- RIGHT PANEL: the story's illustration. It changes as the story
                  advances — each picture is anchored to the page it first
-                 appears on — and it is shared by every language. `object-contain`
-                 keeps the whole painting visible: a picture book that crops its
-                 illustration loses the part the child is looking at. -->
+                 appears on — and it is shared by every language. The picture is
+                 PORTRAIT and fills the column top-down: `object-cover` on a
+                 full-height box means no letterboxed strip and no wasted
+                 space, which is the whole point of the third panel. -->
             <figure
               v-if="isStory && storyImage"
-              class="hidden min-h-0 min-w-0 flex-col items-center justify-center overflow-hidden rounded-lg border border-edge bg-surface p-2 lg:flex"
+              class="hidden min-h-0 min-w-0 overflow-hidden rounded-lg border border-edge bg-surface lg:block"
             >
               <img
                 :key="storyImage.url"
                 :src="storyImage.url"
                 :alt="articleTitle"
-                class="max-h-full max-w-full rounded object-contain"
+                class="h-full w-full object-cover"
                 decoding="async"
               />
             </figure>

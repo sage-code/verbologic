@@ -69,7 +69,11 @@ STYLE = (
 #: How many pictures a story gets, by CEFR level. Mirrors `imageCountForLevel`
 #: in scripts/lib/manifest.mjs — the two must agree or the manifest and the
 #: files on disk disagree about how many pictures exist.
-LEVEL_IMAGES = {"A1": 1, "A2": 2, "B1": 3, "B2": 4, "C1": 5, "C2": 5}
+LEVEL_IMAGES = {"A1": 2, "A2": 2, "B1": 3, "B2": 4, "C1": 5, "C2": 5}
+
+#: Portrait, because the reader shows the picture in a tall right-hand column.
+#: A landscape picture would letterbox into a thin strip and waste the panel.
+ASPECT_RATIO = "3:4"
 
 
 def load_env() -> None:
@@ -108,27 +112,17 @@ def story_paragraphs(track: str, topic: str, code: str, locale: str) -> list[str
 def pages_for_images(count: int, page_count: int) -> list[int]:
     """Which reading page each picture first appears on.
 
-    Spread evenly across the story so the pictures punctuate it instead of
-    clustering at the front: one picture opens the story, and the rest land on
-    evenly spaced pages after it.
+    Consecutive from the first page: picture 1 opens the story, picture 2 lands
+    on the second page, and so on. A picture book shows a new illustration as
+    the reader turns the page, so clustering them or spreading them to the far
+    end would leave pages with nothing new to look at.
+
+    When a story has fewer pages than pictures, the extra pictures share the
+    last page rather than being dropped — the count is a level promise.
     """
     if count <= 0 or page_count <= 0:
         return []
-    if count == 1:
-        return [0]
-    # Even spacing over the pages that exist, always starting at page 0.
-    step = (page_count - 1) / (count - 1)
-    pages = sorted({round(index * step) for index in range(count)})
-    # Rounding can collapse two pictures onto one page; push the extras later.
-    while len(pages) < count:
-        for candidate in range(page_count):
-            if candidate not in pages:
-                pages.append(candidate)
-                break
-        else:
-            break
-        pages.sort()
-    return pages[:count]
+    return [min(index, page_count - 1) for index in range(count)]
 
 
 def build_prompt(title: str, paragraph: str, index: int, total: int) -> str:
@@ -155,7 +149,12 @@ def call_gemini_image(prompt: str, model: str) -> bytes:
         raise RuntimeError("GEMINI_API_KEY is required (set it in .env).")
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"responseModalities": ["IMAGE"]},
+        "generationConfig": {
+            "responseModalities": ["IMAGE"],
+            # Portrait: the reader's picture column is tall and narrow, so a
+            # landscape picture would letterbox into a wasted strip.
+            "imageConfig": {"aspectRatio": ASPECT_RATIO},
+        },
     }
     url = f"{GEMINI_API_URL}/{model}:generateContent?key={api_key}"
     request = urllib.request.Request(
