@@ -20,7 +20,7 @@ import type { MediaRecord, MediaRow } from '~/types/media'
 definePageMeta({ key: (pageRoute) => pageRoute.path })
 
 const route = useRoute()
-const { lang: uiLang } = useLocale()
+const { lang: uiLang, ensureLocale } = useLocale()
 const { languageName } = useNavigation()
 const copy = useCopy()
 const media = useMedia()
@@ -89,9 +89,16 @@ const mediaError = ref<string | null>(null)
 const markdownDoc = computed(() => articleData.value?.doc ?? null)
 const articleDocs = computed(() => articleData.value?.docs ?? [])
 
-/** The reader's own language — the panel language for a directional article. */
+/**
+ * The reader's own language — the panel language for a directional article.
+ *
+ * The profile's language picker is the native language, so it outranks the
+ * route's `:doc` segment: a Romanian reader opening a French letter must get
+ * the Romanian explanation (and Romanian audio) even if the link says `/en`.
+ * The segment is only a hint for a visitor who has not chosen a language.
+ */
 const readerLocale = computed(() => {
-  const wanted = [docLocale.value, uiLang.value, 'en']
+  const wanted = [uiLang.value, docLocale.value, 'en']
   for (const locale of wanted) {
     const doc = articleDocs.value.find((d) => d.locale === locale)
     if (doc) return doc
@@ -202,9 +209,14 @@ const storyNativeName = computed(() => languageName(docLocale.value))
  * language, so it plays the target recording. `reads` carries every locale's
  * recording because a directional topic emits one record but explains its
  * article in all nine.
+ *
+ * There is deliberately NO fallback to `read.url`: that descriptor is the
+ * TOPIC's language (French for the French alphabet), so falling back to it
+ * plays French audio under a Romanian panel. A disabled button is honest;
+ * wrong-language audio is not.
  */
 const readFor = (rec: MediaRecord | null, locale: string): string | null =>
-  rec?.reads?.[locale] ?? rec?.read?.url ?? null
+  rec?.reads?.[locale] ?? null
 
 const storyTargetRead = computed(() =>
   isStory.value
@@ -259,6 +271,9 @@ function moveStoryPage(direction: -1 | 1) {
 }
 
 onMounted(async () => {
+  // The reader's language drives the panel and its audio, so it must be loaded
+  // before the record is resolved — otherwise `uiLang` is still the default.
+  await ensureLocale()
   try {
     const list = await media.fetchTopic(`library/${track.value}`, topicCode.value)
     const targetRows = list.filter((r: MediaRecord) => r.lang === trackLang.value)

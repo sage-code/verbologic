@@ -11,7 +11,7 @@ import {
   UserCircleIcon
 } from '@heroicons/vue/24/outline'
 
-const { lang, setLocale, isLoaded } = useLocale()
+const { lang, setLocale, ensureLocale } = useLocale()
 const copy = useCopy()
 
 /** The three panels — each one links to the page that delivers it. */
@@ -47,7 +47,7 @@ const PANELS: {
 
 // Preload UI chrome on the client (mirrors the track pages).
 onMounted(() => {
-  if (!isLoaded()) void setLocale(lang.value)
+  void ensureLocale()
 })
 </script>
 

@@ -23,6 +23,23 @@ function lookup(dict: LocaleDict, key: string): string | null {
 
 const cache = new Map<LocaleCode, LocaleDict>()
 
+/**
+ * localStorage key holding the reader's own language.
+ *
+ * The profile's language picker is BOTH the interface language and the native
+ * language: it drives the UI chrome, the dictionary's gloss column, and the
+ * language a lecture article is read aloud in. It is persisted here so a
+ * returning visitor gets their language back on every page, not just /profile.
+ */
+export const NATIVE_LANGUAGE_KEY = 'verbologic-native-language'
+
+/** The stored native language, or null when the visitor never chose one. */
+export function storedNativeLanguage(): LocaleCode | null {
+  if (!import.meta.client) return null
+  const value = localStorage.getItem(NATIVE_LANGUAGE_KEY)
+  return value && (LOCALE_CODES as readonly string[]).includes(value) ? (value as LocaleCode) : null
+}
+
 export function useLocale() {
   const lang = useState<LocaleCode>('app-locale', () => 'en')
   const dict = useState<LocaleDict>('locale-dict', () => ({}))
@@ -49,5 +66,17 @@ export function useLocale() {
     dict.value = locale
   }
 
-  return { lang, t, isLoaded, setLocale }
+  /**
+   * Load the UI dictionary, preferring the visitor's stored language.
+   *
+   * Every page used to call `setLocale(lang.value)`, which is the default
+   * `'en'` — so a visitor who chose Romanian in the profile got English chrome
+   * (and English read audio) on every page except /profile itself.
+   */
+  const ensureLocale = async () => {
+    if (isLoaded()) return
+    await setLocale(storedNativeLanguage() ?? lang.value)
+  }
+
+  return { lang, t, isLoaded, setLocale, ensureLocale }
 }

@@ -9,7 +9,7 @@ import { asTier } from '~/types/database'
 const { tiers, symbol, priceFor } = usePrices()
 const { languages, languageName } = useNavigation()
 const copy = useCopy()
-const { lang, setLocale, isLoaded } = useLocale()
+const { lang, setLocale, ensureLocale } = useLocale()
 const store = useLibraryStore()
 
 // Preload UI chrome + local enrollments on the client (mirrors the other pages).
@@ -17,7 +17,7 @@ const store = useLibraryStore()
 // array, so enrolling on an un-hydrated store would wipe saved enrollments.
 onMounted(() => {
   store.hydrate()
-  if (!isLoaded()) void setLocale(lang.value)
+  void ensureLocale()
 })
 
 const selectedTierId = ref('')

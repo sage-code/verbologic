@@ -3,12 +3,12 @@
 <script setup lang="ts">
 import { SparklesIcon } from '@heroicons/vue/24/outline'
 
-const { lang, setLocale, isLoaded } = useLocale()
+const { lang, setLocale, ensureLocale } = useLocale()
 const copy = useCopy()
 
 // Preload UI chrome on the client (mirrors the track pages).
 onMounted(() => {
-  if (!isLoaded()) void setLocale(lang.value)
+  void ensureLocale()
 })
 </script>
 

@@ -4,11 +4,11 @@
 // the e-mail-confirmation redirect target.
 <script setup lang="ts">
 const copy = useCopy()
-const { lang, setLocale, isLoaded } = useLocale()
+const { lang, setLocale, ensureLocale } = useLocale()
 
 // Preload UI chrome on the client (mirrors the other pages).
 onMounted(() => {
-  if (!isLoaded()) void setLocale(lang.value)
+  void ensureLocale()
 })
 </script>
 

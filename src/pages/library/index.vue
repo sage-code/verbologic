@@ -14,7 +14,7 @@ import { useLibraryStore } from '~/stores/libraryStore'
 import { TRACK_IDS, isTrackLive, trackFor, type TrackId } from '~/data/tracks'
 
 const copy = useCopy()
-const { lang, setLocale, isLoaded } = useLocale()
+const { lang, setLocale, ensureLocale } = useLocale()
 const { languages, languageName } = useNavigation()
 const store = useLibraryStore()
 const supabase = useSupabase()
@@ -53,7 +53,7 @@ const settingsEnrollment = computed(
 // would wipe saved enrollments.
 onMounted(() => {
   store.hydrate()
-  if (!isLoaded()) void setLocale(lang.value)
+  void ensureLocale()
   void loadFromSupabase()
 })
 

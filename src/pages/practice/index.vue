@@ -10,12 +10,12 @@ import { mediaName } from '~/composables/useMedia'
 import type { Sidebar } from '~/types/sidebars'
 
 const copy = useCopy()
-const { lang, setLocale, isLoaded } = useLocale()
+const { lang, setLocale, ensureLocale } = useLocale()
 const { practice } = useSidebars()
 
 // Preload UI chrome on the client (mirrors the other pages).
 onMounted(() => {
-  if (!isLoaded()) void setLocale(lang.value)
+  void ensureLocale()
 })
 
 /** Card icon per practice sidebar id. */

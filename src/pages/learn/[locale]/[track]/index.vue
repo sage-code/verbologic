@@ -14,7 +14,7 @@ import { useRoadmapStore } from '~/stores/roadmapStore'
 
 const route = useRoute()
 const copy = useCopy()
-const { lang: uiLang, setLocale, isLoaded } = useLocale()
+const { lang: uiLang, setLocale, ensureLocale } = useLocale()
 const { languages, languageName } = useNavigation()
 const roadmap = useRoadmapStore()
 
@@ -27,7 +27,7 @@ function openChapters() {
 
 // Preload UI chrome on the client (mirrors the other pages).
 onMounted(() => {
-  if (!isLoaded()) void setLocale(uiLang.value)
+  void ensureLocale()
 })
 
 /** First segment for a possibly-repeated route param. */
