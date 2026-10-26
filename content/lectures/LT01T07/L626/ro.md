@@ -20,18 +20,18 @@ terms:
   ro: "-ough"
 ---
 
-## Grupul ough
+## Sunetul grupului ough
 
-Grupul de litere -ough se numește /ɔː/. Sunetul principal este /ɔː/, adică un o deschis și lung, ca în cuvântul (bought) /bɔːt/.
+Grupul de litere -ough se citește cel mai des ca sunetul /ɔː/, adică un o lung și deschis. Îl auzi în cuvântul (bought) /bɔːt/, care înseamnă cumpărat. Această combinație de litere are patru pronunții diferite în limba engleză.
 
-## Pronunția grupului ough
+## Pronunția sunetelor
 
-Pentru sunetul lung rotunjește larg buzele și trage limba înapoi, folosind vocea. Pentru cel scurt deschide gura relaxat spre un a scurt, apoi atinge buza de jos cu dinții de sus pentru a lăsa aerul să treacă fără voce.
+Pentru primul sunet, rotunjește buzele și coboară mandibula, lăsând limba retrasă în spate. Pentru al doilea sunet, începe cu buzele rotunjite moderat și strânge-le treptat spre un u scurt. Pentru al treilea sunet, împinge buzele înainte și ține limba ridicată spre cerul gurii. La ultimul sunet, pronunță un a scurt din gât, apoi pune dinții de sus pe buza inferioară și suflă aer.
 
-## Ortografia grupului ough
+## Reguli de scriere
 
-Înainte de litera t la formele de trecut se aude sunetul /ɔː/, ca în (thought) /θɔːt/. În unele cuvinte sună /oʊ/, precum în (though) /ðoʊ/, ori ca un u lung în (through) /θruː/. În altele se rostește /ʌf/, ca în (rough) /rʌf/.
+Înainte de litera t la formele de trecut, grupul se citește ca sunetul /ɔː/, de exemplu în (thought) /θɔːt/. La finalul unor cuvinte scurte, acest grup se rostește ca diftongul /oʊ/, precum în (though) /ðoʊ/ sau în (dough) /doʊ/. În alte cuvinte, aceleași litere sună ca vocala lungă /uː/, ca în (through) /θruː/. În final, în anumite rădăcini, grupul dă sunetele /ʌf/, ca în (rough) /rʌf/ sau în (tough) /tʌf/.
 
-## Grupul ough în română
+## Greșeli frecvente
 
-Vorbitorii de română încearcă adesea să citească literele g și h separat. Acest grup nu are niciun sunet asemănător literei h din română, ci se pronunță fie ca o vocală pură, fie cu sunetul f la final.
+Vorbitorii de română încearcă adesea să pronunțe fiecare literă scrisă, rostind litera g sau litera h. Nu pronunța niciodată literele g sau h separat în aceste cuvinte. Când grupul redă un sunet vocalic lung, nu adăuga nicio consoană la final. Dacă apare sunetul consoanei f, folosește aceeași mișcare ca în cuvântul românesc foc.

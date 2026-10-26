@@ -20,18 +20,18 @@ terms:
   ro: "-stle"
 ---
 
-## Grupul stle
+## Sunetul grupului stle
 
-Grupul de litere -stle are denumirea rostită /səl/. Sunetul său principal este redat prin /səl/, ca în cuvântul (castle) /kɑː.səl/.
+Grupul de litere -stle se numește /səl/. Rostirea lui de bază este sunetul /səl/, ca în cuvântul (castle) /kɑː.səl/, care înseamnă castel. Această secvență are o singură pronunție în limba engleză. Litera t rămâne complet mută.
 
 ## Cum se pronunță
 
-Apropie dinții și lasă aerul să șuiere fără voce pentru sunetul /s/. Apoi atinge cerul gurii cu vârful limbii și coboară marginile acesteia pentru sunetul /l/, adăugând vibrația corzilor vocale.
+Apropie dinții ușor și suflă aer printre ei fără voce, pentru un s curat. Apoi atinge cerul gurii cu vârful limbii pentru sunetul l, lăsând corzile vocale să vibreze scurt. Trecerea este directă, fără nicio pauză între consoane. Dacă pui degetele pe gât, simți vibrația doar la final.
 
 ## Reguli de scriere
 
-La finalul cuvintelor, litera t rămâne complet mută, iar grupul se aude /səl/, ca în termenul (rustle) /rʌ.səl/.
+Grupul -stle apare la sfârșitul cuvintelor. În această poziție, litera t nu se aude deloc, iar literele finale redau sunetul /səl/. Acest lucru se aude clar în cuvântul (rustle) /rʌ.səl/.
 
 ## Capcane de pronunție
 
-Vorbitorii de limba română au tendința de a rosti litera t din acest grup. Nu citi litera t ca în cuvântul românesc castel, ci treci direct de la s la l.
+Vorbitorii de limba română au tendința să citească fiecare literă scrisă, pronunțând un t apăsat, ca în cuvântul castel. În limba engleză trebuie să ignori complet acest t. Treci direct de la sunetul s la sunetul l, fără să atingi dinții cu limba pentru t.

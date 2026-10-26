@@ -20,18 +20,18 @@ terms:
   ro: "ei"
 ---
 
-## The Sound of Romanian 'ei'
+## The group ei
 
-The letter combination **ei** represents a falling diphthong pronounced `[ej]`, gliding rapidly from a mid-front `[e]` into a semivocalic `[j]`. It closely resembles the sound of *ay* in English *say* or *ey* in *they*, but starts with a purer, more open European `[e]`. In certain morphological contexts, particularly across morpheme boundaries, the two vowels may instead split into hiatus as `[e.i]`.
+This letter pair is called /ej/. Its main sound is the diphthong /ej/, heard in the word (trei) /trej/, which means three. In Romanian, this spelling represents two different pronunciations depending on the syllable structure.
 
-## How to Pronounce 'ei'
+## How to say it
 
-Open your mouth moderately and spread your lips slightly to form a clear Romanian `[e]`. Immediately glide your tongue upward and forward toward the hard palate to touch the semivowel `[j]`. Keep both elements tightly bound within the same syllable, ensuring the stress lands squarely on the initial `[e]`.
+For the diphthong, start with the mid front vowel and glide swiftly upward toward a tense front sound. The lips stay relaxed and unrounded throughout. For the sequence in hiatus, pronounce two clearly separate vowel beats. Put your hand on your neck to feel the continuous vocal cord vibration across both sounds.
 
-## Spelling and Occurrence
+## Spelling rules
 
-The digraph **ei** is exceptionally common in Romanian, appearing as a root element, a plural ending for feminine and masculine nouns, and a personal pronoun. It is written as two consecutive standard letters without diacritics. When marked by specific inflectional endings or plurals, it can occasionally break into two distinct syllables rather than forming a glide.
+Within a single syllable, this combination forms a falling diphthong pronounced as the sound /ej/, as in (lei) /lej/. When split across two separate syllables in hiatus, both vowels are pronounced distinctly as the sound /e.i/, as shown in the plural word (atei) /aˈte.i/.
 
-## Nuances and Common Mistakes
+## Common mistakes
 
-Learners often make the mistake of separating **ei** into two full syllables like *e-i* or exaggerating the second element into a harsh consonantal sound. Compare the monosyllabic diphthong in **trei** (`/trej/`) with plurals in hiatus like **atei** (`/aˈte.i/`). Take care not to turn it into the broader English *eye* sound `/aɪ/`.
+English speakers often draw out the diphthong into the long sound of words like day or say. Keep the first vowel crisp and short before the glide. In hiatus, do not merge the two vowels into a single sound. Keep both beats separate without inserting a heavy consonant between them.

@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## Sunetul literei iks
+## Sunetul literei ex
 
-Litera (X) /gz/ se numește astfel și redă de obicei combinația surdă /ks/, ca în cuvântul (box) /bɒks/.
+Numele acestei litere se rostește (X) /gz/. Sunetul său principal apare în cuvântul (box) /bɒks/, care înseamnă cutie. În limba engleză, acest semn redă trei pronunții distincte.
 
-## Pronunția literei iks
+## Pronunția corectă
 
-Pentru combinațiile de consoane, blochează aerul cu spatele limbii pe vălul palatului, apoi eliberează-l printr-un șuierat cu vârful limbii lângă dinții de sus. Adaugă vibrația corzilor vocale pentru varianta sonoră, sau menține doar șuieratul pentru sunetul simplu.
+Pentru prima variantă, spatele limbii atinge cerul gurii și eliberează aerul fără voce, apoi vârful limbii șuieră un s scurt. Pentru a doua, aceeași pornire vibrează puternic din gât, urmată de un zumzet continuu. La a treia variantă, doar vârful limbii vibrează zumzăit. Pune o mână pe gât pentru a simți vibrația corzilor vocale.
 
-## Ortografia literei iks
+## Reguli de citire
 
-La sfârșitul cuvintelor sau înaintea consoanelor surde, litera (X) /gz/ redă sunetul /ks/, ca în (tax) /tæks/. Între două vocale înaintea unei silabe accentuate, se aude grupul sonor /ɡz/, ca în (exam) /ɪɡ.zæm/. La începutul cuvintelor, această literă se pronunță simplu /z/, ca în (xylophone) /zaɪ.lə.fəʊn/.
+La sfârșitul cuvintelor sau înaintea consoanelor fără voce, auzi sunetul /ks/, ca în cuvântul (tax) /tæks/. Între două vocale, când a doua vocală poartă accentul, se aude sunetul /ɡz/, ca în (exam) /ɪɡ.zæm/ sau în (exist) /ɪɡ.zɪst/. La începutul cuvintelor rare, această literă se rostește simplu ca sunetul /z/, de pildă în (xylophone) /zaɪ.lə.fəʊn/ ori în (xenon) /zɛn.ɒn/.
 
-## Capcane de pronunție
+## Greșeli frecvente
 
-Vorbitorii de limbă română tind adesea să citească litera la începutul cuvintelor ca un grup dublu, ca în cuvântul pix. În engleză, la început de cuvânt se rostește doar o singură consoană sonoră, identică cu litera din zar.
+Vorbitorii de limbă română tind să citească mereu combinația din cuvântul fix. În limba engleză, la începutul cuvintelor nu rostești un grup de două sunete, ci doar un z curat, exact ca în cuvântul românesc zare. Nu adăuga niciun sunet înainte.

@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## Sunetul literei ei
+## Sunetul literei
 
-Numele acestei litere este (A) /æ/. Cel mai frecvent redă sunetul /æ/, adică un sunet deschis între a și e, ca în cuvântul (apple) /æ.pəl/.
+Numele acestei litere este (A) /æ/. Principalul său sunet este sunetul /æ/, adică un a deschis între a și e, ca în cuvântul (apple) /æ.pəl/, care înseamnă măr. Această vocală poate reda patru sunete diferite în vorbire.
 
-## Pronunția sunetelor
+## Cum se pronunță
 
-Pentru sunetul scurt, coboară maxilarul și întinde buzele lateral, cu limba plată. Pentru diftong, începe cu limba la mijloc și glisează în sus. Pentru sunetul neutru, relaxează complet gura. Pentru sunetul lung și profund, deschide larg gura trăgând limba spre înapoi.
+Pentru primul sunet, coboară maxilarul larg și trage colțurile buzelor spre exterior, ținând limba jos și plată. Pentru al doilea sunet, începe cu buzele întinse ca pentru un e și glisează ușor maxilarul în sus spre un i scurt. Pentru al treilea sunet, relaxează complet gura și lasă limba pe mijloc. Pentru ultimul sunet, deschide gura adânc și trage limba mult înapoi. Gâtul vibrează la fiecare.
 
 ## Reguli de citire
 
-În silabe închise accentuate redă sunetul /æ/, un a deschis spre e, ca în (cat) /kæt/. În silabe deschise sau înaintea unei consoane urmate de e mut sună /eɪ/, ca în (bake) /beɪk/. În silabe neaccentuate se aude /ə/, ca în (ago) /ə.ɡoʊ/. Înaintea unor consoane precum lm devine sunetul /ɑː/, adică un a lung și profund, ca în (calm) /kɑːm/.
+În silabele închise și accentuate, litera redă sunetul /æ/, adică un a deschis între a și e, ca în (cat) /kæt/. În silabele deschise sau înaintea unei consoane urmate de e mut, se aude sunetul /eɪ/, ca în (bake) /beɪk/. În silabele neaccentuate, litera devine sunetul /ə/, ca în (ago) /ə.ɡoʊ/. Înaintea unor consoane speciale precum literele l m, litera se pronunță ca sunetul /ɑː/, adică un a lung și profund, ca în (father) /fɑː.ðər/.
 
-## Capcane pentru vorbitori
+## Greșeli frecvente
 
-Vorbitorii de română tind să înlocuiască sunetul intermediar cu vocala din cuvântul cal. Deschide gura mai mult spre lateral. Nu confunda nici sunetul profund cu sunetul scurt.
+Vorbitorii de limbă română pronunță adesea primul sunet ca pe un a simplu din cuvântul cal. Deschide gura mult mai larg și zâmbește ușor spre un e pentru a găsi nuanța corectă. Pentru al patrulea sunet, nu folosi a scurt românesc din cuvântul pat. Trage limba spre fundul gurii și lungește sunetul cu răbdare.

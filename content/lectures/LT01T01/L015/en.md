@@ -20,18 +20,18 @@ terms:
   ro: "L"
 ---
 
-## The Sound of L
+## Sound of the letter
 
-The Romanian letter **L** represents the voiced alveolar lateral approximant `/l/`. Unlike the English 'dark L' found in words like *ball* or *milk*, Romanian **L** is always 'clear' and bright across all positions in a word. It sounds very much like the light `l` at the beginning of the English word *leaf*.
+The name of this letter is pronounced /l/. It makes the sound /l/, heard in the word (luna) /lup/, which means wolf. This letter always represents one single sound across Romanian words.
 
-## Pronouncing L
+## Making the sound
 
-Place the tip of your tongue firmly against the alveolar ridge just behind your upper front teeth. Let the air flow smoothly around the sides of your tongue while vibrating your vocal cords. Keep the back of your tongue low and flat rather than bunching it up toward your soft palate.
+Place the tip of your tongue against the tooth ridge right behind your upper front teeth. Let the sides of your tongue drop so air flows freely around them. Vibrate your vocal cords as the breath passes. You can place your fingers on your throat to feel a continuous vibration.
 
-## Spelling Patterns
+## Reading the letter
 
-The letter **L** is written as uppercase **L** and lowercase **l**. In Romanian, double consonants are rare and typically appear only in compound formations or loanwords like **alipire** or **colocviu**, so **L** is almost exclusively written as a single letter. It appears freely at the beginning, middle, and end of native words.
+This letter always keeps the same clear value in all standard positions. You hear the sound /l/ at the beginning of words like (lup) /lup/. It also sounds identical inside words and before other consonants, as in (cald) /kald/.
 
-## Nuances and Common Mistakes
+## Avoiding English habits
 
-English speakers often make the mistake of velarising Romanian **L** into a 'dark L' at the ends of words or before consonants, pronouncing words like **cald** or **cal** with a muffled sound. Always maintain a crisp, fronted tongue position so that every final or preconsonantal **L** remains clean and sharp. Do not let the tongue pull back into the throat.
+English speakers often pull the back of the tongue up at the end of words like ball or before consonants like milk. Romanian never uses this dark variant. Keep the back of your tongue flat and low in all positions. Your tongue tip must touch the gum ridge firmly, producing a clear and light sound.

@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## Sunetul literei C
+## Sunetul literei cé
 
-Numele acestei litere se rostește (C) /s/. Cel mai des redă sunetul /k/, ca în cuvântul (cat) /kæt/.
+Numele acestei litere este (C) /s/. Rostirea ei de bază aduce sunetul /k/, pe care îl auzi în cuvântul (cat) /kæt/, adică pisică. În limba engleză, această literă are două sunete diferite.
 
 ## Pronunția sunetelor
 
-Pentru sunetul /k/, blochează aerul cu spatele limbii lipit de cerul gurii moale, apoi eliberează-l brusc, fără voce. Pentru sunetul /s/, apropie vârful limbii de dinții de sus și lasă aerul să șuiere continuu, tot fără voce.
+Pentru primul sunet, ridică spatele limbii spre cerul gurii și oprește aerul. Dă drumul brusc suflului fără să folosești vocea, simțind o explozie de aer pe palmă. Pentru al doilea sunet, apropie dinții și pune vârful limbii aproape de gingia de sus. Suflă aerul printre dinți într-un șuierat continuu. Ține mâna pe gât, coardele vocale nu vibrează deloc.
 
 ## Reguli de citire
 
-Înaintea vocalelor a, o, u ori a unei consoane, litera redă sunetul /k/, ca în (cup) /kʌp/. Înaintea literelor e, i sau y, se citește cu sunetul /s/, ca în cuvintele (city) /sɪ.ti/ și (cent) /sɛnt/.
+Această literă dă sunetul /k/ când stă înaintea literelor a, o, u sau a unei consoane, ca în cuvântul (cup) /kʌp/. În schimb, înaintea literelor e, i sau y, ea dă sunetul /s/. Poți auzi acest sunet în cuvintele (city) /sɪ.ti/ și (cent) /sɛnt/.
 
-## Capcane de pronunție
+## Capcane frecvente
 
-În limba română, această literă urmată de e sau i se aude ce ori ci. În engleză, ea nu se rostește niciodată așa singură, ci devine mereu un s curat, ca în cuvântul românesc sac.
+Vorbitorii de limbă română citesc uneori această literă ca în cuvântul românesc ceai când este urmată de e sau i. În engleză, litera singură nu sună niciodată așa. Înaintea acestor vocale, rostește mereu un sunet curat ca în cuvântul românesc sat.

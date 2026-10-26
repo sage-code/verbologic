@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## Sunetul literei A
+## Sunetul literei éi
 
-Litera (A) /eɪ/ se numește așa și redă de obicei sunetul /æ/, adică un sunet deschis între a și e, ca în cuvântul (apple) /æ.pəl/.
+Numele acestei litere este (A) /eɪ/. Sunetul său principal este sunetul /æ/, adică un a deschis între a și e, ca în cuvântul (apple) /æ.pəl/, care înseamnă măr. Această literă produce patru sunete diferite în limba engleză.
 
-## Pronunția literei A
+## Pronunția literei éi
 
-Pentru sunetul deschis, coboară maxilarul și întinde buzele cu limba în față. Pentru diftong, începe la mijloc și glisează limba spre cerul gurii. Sunetul relaxat cere o gură neutră, iar cel lung cere o deschidere largă în fundul gâtului.
+Pentru primul sunet, coboară maxilarul și întinde buzele lateral, împingând limba spre dinții de jos. Pentru al doilea sunet, începe cu buzele întinse și glisează limba în sus spre cerul gurii. Pentru al treilea sunet, relaxează complet gura și scoate un sunet scurt. Pentru ultimul sunet, deschide gura larg și trage limba spre spatele gâtului. Pune mâna pe gât pentru a simți vibrația corzilor vocale.
 
-## Ortografia literei A
+## Ortografia literei éi
 
-În silabe închise, litera redă sunetul /æ/, adică un a deschis, ca în (cat) /kæt/. În silabe deschise sau înaintea unui e mut, auzi sunetul /eɪ/, precum în (make) /meɪk/. În silabe neaccentuate, ea dă sunetul /ə/, ca în (about) /ə.baʊt/. În alte contexte, produce sunetul /ɑː/, adică un a lung, ca în (father) /fɑː.ðər/.
+În silabe închise, litera produce sunetul /æ/, adică un a deschis între a și e, ca în (cat) /kæt/. În silabe deschise sau înaintea unui e mut, ea devine sunetul /eɪ/, ca în (make) /meɪk/. În silabe neaccentuate, litera se rostește ca sunetul /ə/, ca în (about) /ə.baʊt/. Înaintea literei r sau în anumite cuvinte specifice, ea se aude ca sunetul /ɑː/, adică un a lung și profund, ca în (father) /fɑː.ðər/.
 
-## Diferențe față de română
+## Diferențe fonetice utile
 
-Vorbitorii de română tind să înlocuiască sunetul deschis cu un a obișnuit din cuvântul cal. De asemenea, diftongul este rostit adesea ca un e simplu, iar sunetul relaxat este confundat cu sunetul din cuvântul păr.
+Vorbitorii de limbă română pronunță adesea sunetul românesc din cuvântul sat în loc de sunetul englezesc deschis. Pentru a corecta greșeala, deschide gura mai mult și zâmbește larg, plasând sunetul între a și e. De asemenea, nu înlocui vocala slabă cu un sunet clar. În poziții neaccentuate, rostește pur și simplu un sunet neutru, exact ca vocala din cuvântul românesc măgar.

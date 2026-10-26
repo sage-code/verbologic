@@ -20,18 +20,18 @@ terms:
   ro: "F"
 ---
 
-## The Sound of F
+## Sound of the letter
 
-The Romanian letter **F** represents the voiceless labiodental fricative `/f/`. It sounds virtually identical to the English 'f' in words like *fish* or *coffee*. It does not undergo major allophonic variations and remains clear in all positions.
+The letter is called /f/. It regularly makes the sound /f/, heard in the word (floare) /flo̯a.re/, which means flower. Across the language, this character represents only one sound.
 
-## How to Pronounce F
+## Pronunciation guide
 
-Lightly rest the edges of your upper incisors against the wet inner part of your lower lip. Push air continuously through the narrow constriction without activating your vocal cords. Keep the air stream steady and friction sharp without puffing the cheeks.
+Press your upper teeth lightly against your lower lip. Blow air continuously through the narrow gap without engaging your vocal cords. Hold a palm in front of your mouth to feel the steady stream of cool air.
 
-## Spelling and Distribution
+## Reading rules
 
-Written as uppercase **F** and lowercase **f**, it regularly appears at the beginning, middle, and end of Romanian words. It consistently reflects the `/f/` phoneme without digraph combinations or silent letters. Double 'ff' is practically nonexistent in native vocabulary, appearing only in unadapted loanwords.
+This letter consistently stands for the sound /f/ in all regular spelling positions. You hear it at the start of (foc) /fok/.
 
-## Nuances and Common Mistakes
+## English comparison
 
-English speakers usually have no trouble producing this sound correctly. The main pitfall is inadvertently voicing it into `/v/` before voiced consonants, or failing to pair it cleanly with Romanian diphthongs like in *fiară* (`/ˈfja.rə/`). Maintain crisp voicelessness throughout.
+English speakers make this sound effortlessly, as it is identical to the consonant in fox. There are no special traps or differences to correct.

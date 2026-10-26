@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului ie
 
-Acest grup de litere se numește /aɪ/ or /iː/. Sunetul său principal este diftongul /aɪ/, rostit ca în cuvântul (pie) /paɪ/.
+Grupul ie se numește uneori /aɪ/ sau /iː/, adică un i lung. Sunetul principal este diftongul /aɪ/, pe care îl auzi în cuvântul (pie) /paɪ/, care înseamnă plăcintă. Această combinație de litere redă trei sunete distincte în limba engleză.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Pentru diftong, pornește cu gura larg deschisă și glisează limba spre cerul gurii. Pentru vocala lungă, întinde buzele și ține sunetul mai mult timp. Pentru varianta scurtă, relaxează limba și fă un sunet scurt.
+Pentru primul sunet, deschide gura relaxat și glisează limba rapid spre cerul gurii. La al doilea sunet, întinde buzele și ține limba sus pentru o durată mai lungă. Pentru al treilea sunet, lasă maxilarul puțin mai jos și rostește un sunet scurt. Dacă pui degetele pe gât, vei simți vibrația corzilor vocale de fiecare dată.
 
-## Reguli de pronunție
+## Reguli de citire
 
-La sfârșitul cuvintelor scurte, grupul se rostește /aɪ/, ca în (tie) /taɪ/. În interiorul cuvintelor de origine străină, se aude sunetul /iː/, adică un i lung, ca în (brief) /briːf/. În silabe neaccentuate, se pronunță sunetul /ɪ/, adică un i scurt și relaxat, ca în (sieve) /sɪv/.
+La sfârșitul cuvintelor scurte de o singură silabă, grupul ie se rostește diftongul /aɪ/, ca în (tie) /taɪ/. În interiorul cuvintelor împrumutate, literele dau sunetul /iː/, adică un i lung, de pildă în (brief) /briːf/ sau (chief) /tʃiːf/. În anumite silabe neaccentuate, combinația se aude ca sunetul /ɪ/, adică un i scurt și relaxat, ca în cuvântul (sieve) /sɪv/.
 
-## Capcane frecvente
+## Capcane de pronunție
 
-Vorbitorii de limbă română tind să pronunțe ambele litere separat sau să confunde i lung cu cel scurt. Fii atent la diferența de durată dintre sunetul lung din cuvinte precum cel cu sensul de scurt și varianta scurtă.
+Vorbitorii de limbă română tind să citească mereu două vocale separate, ca în cuvântul românesc fobie. În limba engleză, aceste litere formează un singur bloc sonor. Nu despărți niciodată vocalele în două silabe când le rostești în aceste cuvinte.

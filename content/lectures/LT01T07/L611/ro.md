@@ -20,18 +20,18 @@ terms:
   ro: "-gh(t)"
 ---
 
-## Grupul de litere ght
+## Sunetul grupului -ght
 
-Grupul -gh(t) se rostește sunetul /t/, ca în cuvântul (night) /naɪt/. Literele g și h nu se aud deloc în această combinație finală.
+Numele acestui grup este sunetul /t/. Grupul -gh(t) nu se rostește deloc în vorbire, precum în cuvântul (night) /naɪt/, care înseamnă noapte. Grupul are o singură variantă în această poziție.
 
 ## Cum se pronunță
 
-Atingeți dinții de sus cu vârful limbii și eliberați aerul dintr-o dată, fără să folosiți corzile vocale. Înaintea acestui sunet nu adăugați nicio consoană din gât.
+Literele g și h sunt complet mute în această poziție. Pentru litera finală, atingeți cerul gurii cu vârful limbii chiar în spatele dinților de sus. Blocați aerul pentru o clipă, apoi eliberați aerul brusc fără să folosiți coardele vocale. Puneți mâna pe gât și veți simți că nu există nicio vibrație.
 
 ## Reguli de scriere
 
-Înaintea literei t, în combinația -ght, literele g și h sunt mute, ca în (light) /laɪt/. Același lucru este valabil și în cuvântul (sight) /saɪt/.
+Înainte de litera t, în scrierea -ght, literele g și h nu se pronunță deloc. Se aude doar sunetul literei finale, ca în cuvintele (light) /laɪt/ și (sight) /saɪt/.
 
-## Capcane frecvente
+## Capcane pentru români
 
-Vorbitorii de limba română au tendința să rostească un h aspirat sau un g dur înainte de t. Grupul gh este complet mut, așa că treceți direct la consoana finală.
+Vorbitorii de limba română au tendința să citească literele scrise, adăugând un sunet ca în cuvântul haină sau ca în cuvântul gară. Nu pronunțați niciun sunet pentru aceste două litere. Treceți direct de la sunetul vocalic la consoana finală.

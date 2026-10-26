@@ -11,6 +11,7 @@ import { computed, onMounted, ref, watch } from 'vue'
 import { ArrowLeftIcon, ArrowRightIcon, ArrowsRightLeftIcon, ClockIcon, FilmIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 import { TRACK_IDS, type TrackId } from '~/data/tracks'
 import ArticleRail from '~/components/roadmap/ArticleRail.vue'
+import RailSplitter from '~/components/roadmap/RailSplitter.vue'
 import { LECTURE_ROWS_KEY } from '~/lib/lectureRows'
 import { DICTIONARY_TERM_KEY } from '~/lib/dictionary-term'
 import { glossName } from '~/lib/dictionarySearch'
@@ -26,6 +27,7 @@ const { lang: uiLang, ensureLocale } = useLocale()
 const { languageName, languages } = useNavigation()
 const copy = useCopy()
 const media = useMedia()
+const { width: railWidth } = useRailWidth()
 
 const segment = (value: unknown): string => (Array.isArray(value) ? value[0] : (value as string) ?? '') ?? ''
 
@@ -155,31 +157,72 @@ const hasTranslation = computed(
   () => isStory.value && storyNativeDoc.value !== storyTargetDoc.value
 )
 
+/**
+ * How many equal columns the reading area shows on desktop: the text panels
+ * that exist plus the picture. A story with no translation and a picture is
+ * two columns — text and picture — so the picture is never a lone sized cell.
+ */
+const panelCount = computed(
+  () => (hasTranslation.value ? 2 : 1) + (isStory.value && storyImage.value ? 1 : 0)
+)
+
 /** Top-level body nodes of a doc (Nuxt Content minimark tuples). */
 const bodyNodes = (doc: unknown): unknown[] =>
   (doc as { body?: { value?: unknown[] } } | null)?.body?.value ?? []
 
 /**
+ * A reading page: the blocks to show, and the index of its FIRST section.
+ *
+ * The read recording is cut per section (a heading and the blocks under it, or
+ * one story paragraph), and `readSections` holds one offset per section. A page
+ * can carry several sections, so it names the first one — that is where its
+ * audio starts, and the next page's first section is where it ends.
+ */
+interface ReadingPage {
+  nodes: unknown[]
+  section: number
+}
+
+/**
+ * How much text one page of a sectioned article may carry, in characters. A
+ * large reading area filled with one short section wastes the screen, so
+ * sections are packed onto a page until the next one would overflow this
+ * budget. A section longer than the budget still gets a page of its own.
+ */
+const PAGE_TEXT_BUDGET = 2200
+
+/** Characters of text under a minimark node — what a section costs on a page. */
+function textLength(node: unknown): number {
+  if (typeof node === 'string') return node.length
+  if (!Array.isArray(node)) return 0
+  return node.slice(2).reduce((sum: number, child) => sum + textLength(child), 0)
+}
+
+/**
  * Split a document into pages — ONE rule for every track, so stories, lectures
  * and dictionary articles read through the same template:
- * - a document with section headings (h2/h3) starts a new page at each heading
- *   and carries the blocks beneath it (lectures, dictionary articles);
+ * - a document with section headings (h2/h3) is cut into sections, one per
+ *   heading, and the sections are packed onto pages up to PAGE_TEXT_BUDGET
+ *   (lectures, dictionary articles);
  * - a document with no headings paginates one paragraph per page (stories).
+ *
+ * Page boundaries only ever fall between sections, so audio offsets (one per
+ * section) stay valid however the sections are packed.
  */
-function paginate(nodes: unknown[]): unknown[][] {
+function paginate(nodes: unknown[]): ReadingPage[] {
   const isHeading = (n: unknown) =>
     Array.isArray(n) && (n[0] === 'h2' || n[0] === 'h3')
   const isParagraph = (n: unknown) => Array.isArray(n) && n[0] === 'p'
 
   if (!nodes.some(isHeading)) {
-    return nodes.filter(isParagraph).map((n) => [n])
+    return nodes.filter(isParagraph).map((n, index) => ({ nodes: [n], section: index }))
   }
-  const pages: unknown[][] = []
+  const sections: unknown[][] = []
   let current: unknown[] | null = null
   for (const node of nodes) {
     if (!Array.isArray(node)) continue
     if (isHeading(node)) {
-      if (current) pages.push(current)
+      if (current) sections.push(current)
       current = [node]
     } else if (current) {
       current.push(node)
@@ -187,7 +230,21 @@ function paginate(nodes: unknown[]): unknown[][] {
       current = [node]
     }
   }
-  if (current) pages.push(current)
+  if (current) sections.push(current)
+
+  const pages: ReadingPage[] = []
+  let used = 0
+  sections.forEach((section, index) => {
+    const cost = section.reduce((sum: number, node) => sum + textLength(node), 0)
+    const page = pages[pages.length - 1]
+    if (page && used + cost <= PAGE_TEXT_BUDGET) {
+      page.nodes.push(...section)
+      used += cost
+    } else {
+      pages.push({ nodes: [...section], section: index })
+      used = cost
+    }
+  })
   return pages
 }
 
@@ -218,13 +275,13 @@ const storyTargetPage = computed(() => {
   const doc = storyTargetDoc.value
   if (!doc) return null
   const page = targetPages.value[storyPage.value]
-  return page ? { ...doc, body: { ...doc.body, value: page } } : null
+  return page ? { ...doc, body: { ...doc.body, value: page.nodes } } : null
 })
 const storyNativePage = computed(() => {
   const doc = storyNativeDoc.value
   if (!doc) return null
   const page = nativePages.value[storyPage.value]
-  return page ? { ...doc, body: { ...doc.body, value: page } } : null
+  return page ? { ...doc, body: { ...doc.body, value: page.nodes } } : null
 })
 
 /**
@@ -287,31 +344,35 @@ const storyNativeRead = computed(() => nativeRecord.value?.read?.url ?? null)
 /**
  * Where the current reading page starts in each panel's recording.
  *
- * The article paginates one section per page (a `##` heading, or one paragraph
- * when the document has no headings), and the generator records each section's
- * start offset, so pressing Play on page 3 begins at page 3. A recording made
- * before offsets existed has no entry — the player then starts at 0, exactly
- * as before.
+ * The recording is cut per SECTION (a `##` heading, or one paragraph when the
+ * document has no headings) and the generator records each section's start
+ * offset. A page may carry several sections, so it starts where its FIRST
+ * section starts, and pressing Play on page 3 begins at page 3. A recording
+ * made before offsets existed has no entry — the player then starts at 0,
+ * exactly as before.
  */
-const targetStartAt = computed(() => {
-  const locale = isStory.value ? trackLang.value : (storyTargetDoc.value?.locale ?? docLocale.value)
-  return record.value?.readSections?.[locale]?.[storyPage.value] ?? 0
-})
-const nativeStartAt = computed(
-  () => nativeRecord.value?.readSections?.[docLocale.value]?.[storyPage.value] ?? 0
-)
+const sectionStart = (offsets: number[] | undefined, pages: ReadingPage[], page: number): number => {
+  const first = pages[page]?.section
+  return first === undefined ? 0 : (offsets?.[first] ?? 0)
+}
 /**
- * Where the current page ENDS in each panel's recording — the next page's
- * start. The player stops here and asks for the next page, so the voice never
- * reads on into text the reader cannot see yet. 0 means "no boundary".
+ * Where a page ENDS in the recording — the next page's first section. The
+ * player stops here and asks for the next page, so the voice never reads on
+ * into text the reader cannot see yet. 0 means "no boundary" (the last page).
  */
-const targetEndAt = computed(() => {
-  const locale = isStory.value ? trackLang.value : (storyTargetDoc.value?.locale ?? docLocale.value)
-  return record.value?.readSections?.[locale]?.[storyPage.value + 1] ?? 0
-})
-const nativeEndAt = computed(
-  () => nativeRecord.value?.readSections?.[docLocale.value]?.[storyPage.value + 1] ?? 0
+const sectionEnd = (offsets: number[] | undefined, pages: ReadingPage[], page: number): number => {
+  const next = pages[page + 1]?.section
+  return next === undefined ? 0 : (offsets?.[next] ?? 0)
+}
+const targetLocale = computed(() =>
+  isStory.value ? trackLang.value : (storyTargetDoc.value?.locale ?? docLocale.value)
 )
+const targetOffsets = computed(() => record.value?.readSections?.[targetLocale.value])
+const nativeOffsets = computed(() => nativeRecord.value?.readSections?.[docLocale.value])
+const targetStartAt = computed(() => sectionStart(targetOffsets.value, targetPages.value, storyPage.value))
+const nativeStartAt = computed(() => sectionStart(nativeOffsets.value, nativePages.value, storyPage.value))
+const targetEndAt = computed(() => sectionEnd(targetOffsets.value, targetPages.value, storyPage.value))
+const nativeEndAt = computed(() => sectionEnd(nativeOffsets.value, nativePages.value, storyPage.value))
 const targetTerm = computed(() =>
   markdownDoc.value?.terms?.[trackLang.value] ?? record.value?.term ?? ''
 )
@@ -398,12 +459,21 @@ useSeoMeta({
        articles keep the rail — there the reader is moving between topics.
        No vertical padding here: `.app-main` already supplies the gutter, and
        doubling it pushed the reading area past the viewport. -->
+  <!-- A story also fills the viewport exactly (`.story-reader` in layout.css):
+       its one row is the leftover height, so the page never scrolls and the
+       reading panels size to whatever the header and footer leave. -->
   <main
-    class="app-container grid gap-5"
-    :class="[isStory ? '' : 'lg:grid-cols-[280px_minmax(0,1fr)]', 'min-h-0 overflow-hidden']"
+    class="app-container relative grid gap-5"
+    :class="[
+      isStory ? 'story-reader grid-cols-[minmax(0,1fr)] grid-rows-[minmax(0,1fr)]' : 'lg:grid-cols-[var(--rail-w)_minmax(0,1fr)]',
+      'min-h-0 overflow-hidden'
+    ]"
+    :style="{ '--rail-w': `${railWidth}px` }"
   >
-    <!-- Desktop: the track's chapter/topic rail stays beside the article -->
+    <!-- Desktop: the track's chapter/topic rail stays beside the article; the
+         splitter between them resizes it (width remembered, see useRailWidth) -->
     <ArticleRail v-if="!isStory" :lang="trackLang" :track="track as TrackId" :topic="topicCode" />
+    <RailSplitter v-if="!isStory" inset="var(--gutter-x)" />
 
     <div class="flex min-w-0 min-h-0 flex-col">
       <article class="flex min-h-0 flex-1 flex-col gap-3">
@@ -455,7 +525,9 @@ useSeoMeta({
               </a>
             </div>
           </div>
-          <p v-if="articleSummary" class="text-sm text-muted">{{ articleSummary }}</p>
+          <!-- A story's summary is clamped to two lines: the header must never
+               take the room the reading panels need. -->
+          <p v-if="articleSummary" class="text-sm text-muted" :class="isStory ? 'line-clamp-2' : ''">{{ articleSummary }}</p>
           <span v-if="isFallback" class="inline-block rounded-full bg-soft px-2 py-0.5 text-xs text-muted">
             {{ copy('lecture.not_translated', 'Not translated yet — showing English') }}
           </span>
@@ -463,7 +535,7 @@ useSeoMeta({
 
         <p
           v-if="mediaError"
-          class="rounded-lg border border-red-300 bg-red-50 p-4 text-sm text-red-800 dark:border-red-800 dark:bg-red-950/30 dark:text-red-200"
+          class="shrink-0 rounded-lg border border-red-300 bg-red-50 p-4 text-sm text-red-800 dark:border-red-800 dark:bg-red-950/30 dark:text-red-200"
           role="alert"
         >
           Could not load this language's media: {{ mediaError }}
@@ -472,7 +544,7 @@ useSeoMeta({
         <!-- The embedded video — pending manifests render the coming-soon card -->
         <div
           v-if="record?.media.mime?.startsWith('video/')"
-          class="overflow-hidden rounded-lg border border-edge bg-surface"
+          class="shrink-0 overflow-hidden rounded-lg border border-edge bg-surface"
         >
           <video v-if="record.media.url" :src="record.media.url" controls preload="metadata" class="aspect-video w-full" />
           <div v-else class="flex aspect-video w-full items-center justify-center gap-2 text-sm text-faint">
@@ -487,98 +559,90 @@ useSeoMeta({
              illustration. A lecture keeps two panels (its single explanation
              plus nothing), since it has no picture and no second language. -->
         <section class="flex min-h-0 flex-1 flex-col gap-3">
+          <!-- A story's panels are EQUAL columns that fill the reading height:
+               learning language, then translation, then the picture. Each panel
+               scrolls on its own, so a long paragraph never pushes the page
+               past the screen. -->
           <div
             class="grid min-h-0 flex-1 grid-cols-1 gap-3 overflow-hidden"
-            :class="isStory && storyImage ? 'lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_minmax(0,1.1fr)]' : hasTranslation ? 'lg:grid-cols-2' : ''"
+            :class="[
+              isStory ? 'grid-rows-[minmax(0,1fr)]' : '',
+              panelCount === 3 ? 'lg:grid-cols-3' : panelCount === 2 ? 'lg:grid-cols-2' : ''
+            ]"
           >
-            <!-- LEFT COLUMN: the story in two languages, stacked. Each panel
-                 scrolls on its own, so a long paragraph never pushes the other
-                 language out of view. -->
-            <div
-              class="flex min-h-0 min-w-0 flex-col gap-3"
-              :class="isStory && storyImage ? 'lg:col-span-2' : 'contents'"
+            <section
+              class="min-h-0 min-w-0 flex-col overflow-hidden rounded-lg border border-edge bg-surface p-3 sm:p-5"
+              :class="storyMobilePanel === 'target' ? 'flex' : 'hidden lg:flex'"
             >
-              <section
-                class="min-w-0 flex-col overflow-hidden rounded-lg border border-edge bg-surface p-3 sm:p-5"
-                :class="[
-                  storyMobilePanel === 'target' ? 'flex' : 'hidden lg:flex',
-                  isStory && storyImage ? 'min-h-0 flex-1' : ''
-                ]"
-              >
-                <div class="mb-3 flex items-center justify-between gap-2 border-b border-edge pb-2">
-                  <h2 class="text-xs font-semibold uppercase tracking-wide text-accent">
-                    {{ storyTargetName }} · {{ copy(isStory ? 'stories.learning_text' : 'lecture.explanation', isStory ? 'Learning language' : 'Explanation') }}
-                  </h2>
-                  <ArticleReadPlayer
-                    ref="targetPlayer"
-                    :src="storyTargetRead"
-                    :label="storyTargetName"
-                    :start-at="targetStartAt"
-                    :end-at="targetEndAt"
-                    :has-next="storyPage < storyPageCount - 1"
-                    @page-ended="moveStoryPage(1)"
-                  />
-                </div>
-                <div class="story-page-body min-h-0 flex-1 overflow-y-auto">
-                  <p v-if="isStory" class="story-paragraph-number" aria-hidden="true">
-                    {{ storyParagraphNumber }}.
-                  </p>
-                  <ContentRenderer
-                    v-if="storyTargetPage"
-                    :value="storyTargetPage"
-                    class="lecture-prose story-page-content text-sm leading-relaxed text-content sm:text-base"
-                  />
-                </div>
-              </section>
-              <section
-                v-if="hasTranslation"
-                class="min-w-0 flex-col overflow-hidden rounded-lg border border-edge bg-surface p-3 sm:p-5"
-                :class="[
-                  storyMobilePanel === 'native' ? 'flex' : 'hidden lg:flex',
-                  isStory && storyImage ? 'min-h-0 flex-1' : ''
-                ]"
-              >
-                <div class="mb-3 flex items-center justify-between gap-2 border-b border-edge pb-2">
-                  <h2 class="text-xs font-semibold uppercase tracking-wide text-muted">
-                    {{ storyNativeName }} · {{ copy('stories.translation', 'Translation') }}
-                  </h2>
-                  <ArticleReadPlayer
-                    ref="nativePlayer"
-                    :src="storyNativeRead"
-                    :label="storyNativeName"
-                    :start-at="nativeStartAt"
-                    :end-at="nativeEndAt"
-                    :has-next="storyPage < storyPageCount - 1"
-                    @page-ended="moveStoryPage(1)"
-                  />
-                </div>
-                <div class="story-page-body min-h-0 flex-1 overflow-y-auto">
-                  <p v-if="isStory" class="story-paragraph-number" aria-hidden="true">
-                    {{ storyParagraphNumber }}.
-                  </p>
-                  <ContentRenderer
-                    v-if="storyNativePage"
-                    :value="storyNativePage"
-                    class="lecture-prose story-page-content text-sm leading-relaxed text-content sm:text-base"
-                  />
-                </div>
-              </section>
-            </div>
-            <!-- RIGHT PANEL: the story's illustration. It changes as the story
+              <div class="mb-3 flex shrink-0 items-center justify-between gap-2 border-b border-edge pb-2">
+                <h2 class="text-xs font-semibold uppercase tracking-wide text-accent">
+                  {{ storyTargetName }} · {{ copy(isStory ? 'stories.learning_text' : 'lecture.explanation', isStory ? 'Learning language' : 'Explanation') }}
+                </h2>
+                <ArticleReadPlayer
+                  ref="targetPlayer"
+                  :src="storyTargetRead"
+                  :label="storyTargetName"
+                  :start-at="targetStartAt"
+                  :end-at="targetEndAt"
+                  :has-next="storyPage < storyPageCount - 1"
+                  @page-ended="moveStoryPage(1)"
+                />
+              </div>
+              <div class="story-page-body min-h-0 flex-1 overflow-y-auto">
+                <p v-if="isStory" class="story-paragraph-number" aria-hidden="true">
+                  {{ storyParagraphNumber }}.
+                </p>
+                <ContentRenderer
+                  v-if="storyTargetPage"
+                  :value="storyTargetPage"
+                  class="lecture-prose story-page-content text-sm leading-relaxed text-content sm:text-base"
+                />
+              </div>
+            </section>
+            <section
+              v-if="hasTranslation"
+              class="min-h-0 min-w-0 flex-col overflow-hidden rounded-lg border border-edge bg-surface p-3 sm:p-5"
+              :class="storyMobilePanel === 'native' ? 'flex' : 'hidden lg:flex'"
+            >
+              <div class="mb-3 flex shrink-0 items-center justify-between gap-2 border-b border-edge pb-2">
+                <h2 class="text-xs font-semibold uppercase tracking-wide text-muted">
+                  {{ storyNativeName }} · {{ copy('stories.translation', 'Translation') }}
+                </h2>
+                <ArticleReadPlayer
+                  ref="nativePlayer"
+                  :src="storyNativeRead"
+                  :label="storyNativeName"
+                  :start-at="nativeStartAt"
+                  :end-at="nativeEndAt"
+                  :has-next="storyPage < storyPageCount - 1"
+                  @page-ended="moveStoryPage(1)"
+                />
+              </div>
+              <div class="story-page-body min-h-0 flex-1 overflow-y-auto">
+                <p v-if="isStory" class="story-paragraph-number" aria-hidden="true">
+                  {{ storyParagraphNumber }}.
+                </p>
+                <ContentRenderer
+                  v-if="storyNativePage"
+                  :value="storyNativePage"
+                  class="lecture-prose story-page-content text-sm leading-relaxed text-content sm:text-base"
+                />
+              </div>
+            </section>
+            <!-- THE PICTURE: the story's illustration. It changes as the story
                  advances — each picture is anchored to the page it first
-                 appears on — and it is shared by every language. The picture is
-                 PORTRAIT and fills the column top-down: `object-cover` on a
-                 full-height box means no letterboxed strip and no wasted
-                 space, which is the whole point of the third panel. -->
+                 appears on — and it is shared by every language. It is the
+                 third equal panel: the image fills the box top-down with
+                 `object-cover`, so there is no letterboxed strip. -->
             <figure
               v-if="isStory && storyImage"
-              class="hidden min-h-0 min-w-0 overflow-hidden rounded-lg border border-edge bg-surface lg:block"
+              class="hidden min-h-0 min-w-0 flex-col overflow-hidden rounded-lg border border-edge bg-surface lg:flex"
             >
               <img
                 :key="storyImage.url"
                 :src="storyImage.url"
                 :alt="articleTitle"
-                class="h-full w-full object-cover"
+                class="min-h-0 w-full flex-1 object-cover"
                 decoding="async"
               />
             </figure>
@@ -597,24 +661,24 @@ useSeoMeta({
             </button>
             <nav
               v-if="storyPageCount > 1"
-              class="flex items-center justify-center gap-4"
+              class="flex items-center justify-center gap-2 sm:gap-4"
               :aria-label="copy('stories.page_navigation', 'Story pages')"
             >
               <button
                 type="button"
-                class="inline-flex h-9 items-center gap-2 rounded-full border border-edge bg-surface px-4 text-sm text-content transition hover:border-accent disabled:cursor-not-allowed disabled:opacity-40"
+                class="inline-flex h-9 items-center gap-2 rounded-full border border-edge bg-surface px-3 text-sm text-content transition hover:border-accent disabled:cursor-not-allowed disabled:opacity-40 sm:px-4"
                 :disabled="storyPage === 0"
                 @click="moveStoryPage(-1)"
               >
                 <ArrowLeftIcon class="h-4 w-4" aria-hidden="true" />
                 {{ copy('stories.previous_page', 'Previous') }}
               </button>
-              <span class="font-code text-xs text-muted" aria-live="polite">
+              <span class="whitespace-nowrap font-code text-xs text-muted" aria-live="polite">
                 {{ storyPage + 1 }} / {{ storyPageCount }}
               </span>
               <button
                 type="button"
-                class="inline-flex h-9 items-center gap-2 rounded-full border border-edge bg-surface px-4 text-sm text-content transition hover:border-accent disabled:cursor-not-allowed disabled:opacity-40"
+                class="inline-flex h-9 items-center gap-2 rounded-full border border-edge bg-surface px-3 text-sm text-content transition hover:border-accent disabled:cursor-not-allowed disabled:opacity-40 sm:px-4"
                 :disabled="storyPage >= storyPageCount - 1"
                 @click="moveStoryPage(1)"
               >
@@ -625,7 +689,7 @@ useSeoMeta({
           </div>
         </section>
         <!-- Practise: the records the prose points at -->
-        <section v-if="record?.related?.length" class="space-y-2">
+        <section v-if="record?.related?.length" class="shrink-0 space-y-2">
           <h2 class="text-sm font-semibold uppercase tracking-wide text-faint">
             {{ copy('lecture.practice', 'Practise these') }}
           </h2>

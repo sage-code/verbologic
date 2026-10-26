@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului bl
 
-Grupul se rostește /bl/. Sunetul său de bază se aude în cuvântul (black) /blæk/.
+Grupul bl se rostește /bl/. Sunetul său principal se aude în cuvântul (black) /blæk/, care înseamnă negru. Acest grup de litere redă o singură succesiune de sunete în limba engleză.
 
 ## Cum se pronunță
 
-Atinge buzele pentru a opri aerul, apoi deschide-le brusc cu voce. Ridică imediat vârful limbii spre cerul gurii, lăsând aerul sonor să iasă pe laterale.
+Atinge buzele ferm pentru a opri aerul, apoi deschide-le brusc lăsând corzile vocale să vibreze. Treci imediat cu vârful limbii pe cerul gurii, chiar în spatele dinților de sus, permițând aerului să iasă pe marginile limbii. Dacă pui o mână pe gât, simți o vibrație continuă pe toată durata ambelor sunete.
 
 ## Reguli de citire
 
-La începutul sau la finalul unei silabe, acest grup redă secvența /bl/, ca în cuvântul (blue) /blu/.
+Grupul bl apare frecvent la începutul sau la sfârșitul silabelor. În astfel de grupuri consonantice, el se citește întotdeauna /bl/. Îl găsești la început de cuvânt în (blue) /blu/, dar și în (blind) /blaɪnd/.
 
-## Capcane de pronunție
+## Diferențe față de română
 
-Pronunția este foarte apropiată de secvența din limba română din cuvântul bloc. Ai grijă doar să nu separi consoanele cu o vocală parazită.
+În limba română, această alăturare de consoane sună foarte asemănător ca în cuvântul bloc. Ai grijă totuși să nu introduci o scurtă vocală între cele două sunete. Trecerea de la buze la limbă trebuie să fie directă și legată.

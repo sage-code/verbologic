@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului lf
 
-Grupul final -lf se rostește cel mai adesea ca sunetul /f/, ca în cuvântul (calf) /kɑːf/. Uneori se aud ambele consoane legate.
+Grupul lf se rostește ca sunetul /f/. Se aude în cuvântul (calf) /kɑːf/, care înseamnă vițel. Această combinație are două pronunții diferite.
 
-## Pronunția sunetelor
+## Cum se pronunță
 
-Pentru primul sunet, atingeți dinții de sus de buza de jos și suflați aer fără voce. Pentru varianta completă, atingeți mai întâi cerul gurii cu vârful limbii și folosiți corzile vocale, apoi treceți direct la suflu.
+Atinge dinții de sus cu buza de jos. Suflă aer continuu printre ei, fără voce. Pentru varianta completă, pune mai întâi vârful limbii pe gingia de sus. Scoate un sunet cu voce, apoi treci rapid la buza de jos. Pune mâna pe gât. La primul sunet nu simți vibrație.
 
 ## Reguli de scriere
 
-La sfârșitul unor cuvinte vechi, prima literă este mută și auziți doar sunetul /f/, ca în (half) /hɑːf/. În alte substantive păstrați ambele sunete rostite împreună ca sunetul /lf/, de exemplu în (gulf) /ɡʌlf/ sau (wolf) /wʊlf/.
+Litera l devine mută la finalul unor cuvinte foarte vechi. Atunci grupul lf redă doar sunetul /f/, ca în (half) /hɑːf/. În majoritatea celorlalte cuvinte se aud ambele sunete, adică /lf/. Această pronunție completă apare în cuvinte precum (gulf) /ɡʌlf/ și (wolf) /wʊlf/.
 
-## Capcane pentru români
+## Capcane de pronunție
 
-Vorbitorii de română tind să citească mereu litera l scrisă. Nu rostiți niciun sunet l în cuvintele unde este mut.
+Vorbitorii de limbă română au tendința să citească fiecare literă scrisă. Nu pronunța un sunet l acolo unde el este mut. Sunetul l din română, ca în lac, nu trebuie să apară în aceste cuvinte scurte. Treci direct de la vocală la sunetul /f/.

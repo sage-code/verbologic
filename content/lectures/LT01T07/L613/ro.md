@@ -20,18 +20,18 @@ terms:
   ro: "-sland"
 ---
 
-## Grupul de litere -sland
+## Sunetul grupului sland
 
-Grupul -sland se rostește /lənd/. Îl auzi rostit la finalul cuvântului (island) /aɪ.lənd/.
+Grupul de litere -sland are denumirea rostită ca sunetul /lənd/. El redă un singur sunet compus, care se aude în cuvântul (island) /aɪ.lənd/, ce înseamnă insulă. Acest grup are o singură variantă de pronunțare.
 
-## Cum se pronunță
+## Cum se pronunță grupul sland
 
-Atinge cerul gurii cu vârful limbii pentru primul sunet. Relaxează complet gura pentru vocala scurtă centrală, apoi coboară limba atingând din nou dinții de sus pentru consoana finală ocluzivă.
+Pentru a reda sunetul /lənd/, așează vârful limbii pe cerul gurii chiar în spatele dinților de sus. Emite un l scurt, urmat imediat de n și d fără o vocală clară între ele. Coardele vocale vibrează continuu. Pune mâna pe gât pentru a simți vibrația constantă a vocii.
 
-## Reguli de scriere
+## Ortografia grupului sland
 
-În substantive și denumiri geografice neaccentuate, acest grup se citește întotdeauna cu primul sunet mut, dând secvența de sunete /lənd/.
+Acest grup de litere apare la finalul substantivelor și al denumirilor geografice neaccentuate. Litera s este complet mută în această poziție. Grupul se pronunță mereu ca sunetul /lənd/.
 
-## Dificultăți de pronunție
+## Capcane de pronunție
 
-Vorbitorii de limba română tind să citească litera s ca în cuvântul românesc insulă. Evită această greșeală, deoarece consoana s este complet mută.
+Vorbitorii de limbă română au tendința de a citi litera s ca în cuvântul somn. În limba engleză, această literă nu se rostește deloc în grupul dat. De asemenea, evită să adaugi o vocală puternică precum a din cuvântul cal între consoane.

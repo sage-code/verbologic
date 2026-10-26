@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## Sunetul literei A
+## Sunetul literei a
 
-Litera (A) /ɑː/ are ca pronunție de bază sunetul /æ/, adică un sunet deschis între a și e, ca în cuvântul (apple) /æp.əl/. Numele acestei litere se rostește (A) /ɑː/.
+Numele acestei litere se pronunță (A) /ɑː/. Principalul său sunet este sunetul /æ/, adică un a deschis între a și e, ca în cuvântul (apple) /æp.əl/, care înseamnă măr. Această vocală poate reda patru sunete diferite în limba engleză.
 
-## Pronunția literei A
+## Pronunția literei a
 
-Pentru sunetul scurt, coboară maxilarul și întinde buzele într-un zâmbet larg. Pentru sunetul lung, pornește din poziția vocalei e și glisează ușor spre i. Pentru sunetul neutru, relaxează complet limba și maxilarul în centrul gurii.
+Pentru primul sunet, coboară maxilarul larg, întinde buzele și ține limba plată în față. Pentru al doilea sunet, începe cu un e relaxat și glisează limba sus spre i. Pentru al treilea sunet, relaxează complet gura și scoate un sunet scurt în centru. Pentru ultimul sunet, deschide gura adânc în spate. Simte vibrația gâtului la fiecare sunet.
 
-## Ortografia literei A
+## Ortografia literei a
 
-În silabe închise produce sunetul /æ/, adică a deschis, ca în (cat) /kæt/. În silabe deschise sau înaintea unui e mut sună /eɪ/, precum în (cake) /keɪk/. În silabe neaccentuate devine sunetul /ə/, ca în (about) /ə.baʊt/. Înaintea consoanei r se pronunță /ɑː/, adică un a lung, ca în (father) /fɑː.ðər/.
+În silabe închise, litera dă sunetul /æ/, adică un a deschis, ca în cuvântul (cat) /kæt/. În silabe deschise sau înaintea unui e mut la final, auzi diftongul /eɪ/, ca în (cake) /keɪk/. În silabe neaccentuate, litera se reduce la sunetul /ə/, ca în (about) /ə.baʊt/. Înaintea literei r sau în anumite cuvinte speciale, rostești sunetul /ɑː/, adică un a lung și adânc, ca în (father) /fɑː.ðər/.
 
-## Diferențe față de română
+## Dificultăți pentru români
 
-Vorbitorii de română tind să înlocuiască sunetul intermediar cu vocala clară a din cuvântul cal. De asemenea, evită pronunțarea sunetului neutru ca un ă românesc prea închis sau prea apăsat.
+Vorbitorii de română tind să folosească a din cuvântul vară în loc de sunetul deschis din engleză. Deschide gura mult mai larg și coboară bărbia mai mult decât în română. O altă greșeală este citirea silabelor neaccentuate cu a clar. Nu pronunța tare vocala slabă, ci transform-o într-un sunet foarte scurt și șters, asemănător cu sunetul din cuvântul românesc măr.

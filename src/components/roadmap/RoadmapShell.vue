@@ -15,6 +15,7 @@ import TopicTable from './layouts/TopicTable.vue'
 import TopicGallery from './layouts/TopicGallery.vue'
 import ChaptersTable from './ChaptersTable.vue'
 import WordSearchBar from './WordSearchBar.vue'
+import RailSplitter from './RailSplitter.vue'
 import { mediaName } from '~/composables/useMedia'
 import { XMarkIcon } from '@heroicons/vue/24/outline'
 
@@ -28,6 +29,7 @@ const TOPIC_LAYOUTS: Record<TopicLayout, Component> = {
 }
 
 const store = useRoadmapStore()
+const { width: railWidth } = useRailWidth()
 const route = useRoute()
 const router = useRouter()
 const { t } = useLocale()
@@ -234,7 +236,15 @@ const navAction = computed(() => {
   <!-- The content frame: flex-1 fills the page area between the frozen header
        and footer (so it is never shorter than the screen); the grid's stretch
        makes the rail exactly as tall as the content column. -->
-  <div v-else class="grid flex-1 gap-5 lg:grid-cols-[280px_minmax(0,1fr)]">
+  <!-- The rail's width is the reader's to set: `--rail-w` (default 336px, the
+       old 280px plus 20%) is dragged with the splitter and remembered in
+       localStorage (useRailWidth). -->
+  <div
+    v-else
+    class="relative grid flex-1 gap-5 lg:grid-cols-[var(--rail-w)_minmax(0,1fr)]"
+    :style="{ '--rail-w': `${railWidth}px` }"
+  >
+    <RailSplitter />
     <!-- Backdrop behind the mobile drawer — tap to close. Desktop-only lg:hidden
          keeps it out of the way once the rail is back in the grid flow. -->
     <div

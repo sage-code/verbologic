@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei dublu ve
 
-Numele acestei litere este (W) /dʌbəl.juː/. Cel mai frecvent redă sunetul /w/, ca în cuvântul (wet) /wɛt/.
+Numele acestei litere este (W) /dʌbəl.juː/. Sunetul său principal este sunetul /w/, rostit în cuvântul (wet) /wɛt/, care înseamnă ud. În limba engleză, această literă are o singură pronunție obișnuită, dar poate fi și mută în unele cuvinte.
 
-## Pronunțarea sunetului
+## Pronunțarea sunetului literei
 
-Pentru sunetul /w/, rotunjește buzele strâns, ca pentru un u scurt. Ridică partea din spate a limbii spre vălul palatin. Emite vocea scurt, depărtând apoi rapid buzele.
+Pentru sunetul /w/, rotunjește buzele strâns, ca pentru un u scurt. Ridică partea din spate a limbii spre cerul gurii. Lasă aerul să treacă folosind vocea, apoi deschide rapid buzele spre vocala următoare. Dacă pui mâna pe gât, vei simți vibrația corzilor vocale. În al doilea caz, litera nu produce niciun sunet, iar buzele rămân relaxate.
 
-## Reguli de citire
+## Reguli de scriere
 
-Înaintea unei vocale, litera redă sunetul /w/, ca în cuvântul (win) /wɪn/. Înainte de litera r sau în anumite cuvinte speciale, litera este complet mută, ca în cuvintele (write) /raɪt/ și (two) /tuː/.
+Înaintea unei vocale, litera redă sunetul /w/, ca în cuvântul (win) /wɪn/. Înaintea literei r sau în anumite poziții fixe, litera este complet mută. Acest lucru se aude clar în cuvântul (write) /raɪt/, dar și în cuvântul (two) /tuː/.
 
-## Diferențe față de română
+## Dificultăți pentru vorbitorii români
 
-Vorbitorii de română tind să folosească sunetul v în loc de sunetul /w/. Nu atinge dinții de sus cu buza de jos ca la vânt. Folosește doar buzele rotunjite, exact ca la începutul numelui Oana.
+Vorbitorii de limbă română tind adesea să pronunțe această literă ca un v românesc, ca în cuvântul vară. Pentru a corecta greșeala, nu atinge dinții de sus cu buza de jos. Ține ambele buze rotunjite în față, ca atunci când începi să spui cuvântul rouă.

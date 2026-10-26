@@ -20,18 +20,18 @@ terms:
   ro: "ua"
 ---
 
-## The Sound of Romanian 'ua'
+## The letter group ua
 
-The combination **ua** represents an ascending diphthong pronounced `[wa]`, very close to the *wa* in English *water* or *swallow*. It consists of a rapid semivowel glide `[w]` that slides smoothly into the open central vowel `[a]`. Unlike hiatus where two full vowels are articulated separately, this sequence is produced seamlessly within the very same syllable.
+The letter group ua sounds like /wa/. Its main sound is heard in (ziua) /ˈzi.wa/, which means the day. This group produces only one sound in standard speech.
 
-## How to Produce 'ua'
+## How to say ua
 
-Begin by rounding and protruding your lips tightly into a narrow circle, raising the back of your tongue toward the soft palate just as you would for an English `[w]`. Then, swiftly drop your jaw downward while relaxing and opening your lips to articulate the central vowel `[a]`. Make sure the transition is immediate and vocalised as a single continuous glide without any glottal stop.
+Round your lips tightly and pull your tongue back, then glide immediately into an open mouth. Lower your jaw fully as you transition. Your vocal cords vibrate all the way through. Place a hand on your throat to feel the constant vibration as you glide.
 
-## Spelling and Context
+## When to use each sound
 
-In written Romanian, this diphthong is spelt with the two adjacent letters **u** and **a**. It occurs very frequently in definite articulated feminine nouns ending in unstressed *-a*, such as *ziua* (the day), *roua* (the dew), and *steaua* (the star). It is rarely found at the absolute start of words, instead showing up almost exclusively in post-vocalic or intervocalic suffixes.
+The group ua is read as the sound /wa/ when it acts as an ascending diphthong within a syllable, like in (roua) /ˈro.wa/.
 
-## Contrasts and Common Mistakes
+## Mistakes to avoid
 
-English speakers often separate the letters into two distinct syllables as `[u.a]`, which sounds unnatural and breaks the rhythm of Romanian words. Be careful to treat `[wa]` as a unified diphthong rather than pronouncing a heavy, full `[u]`. Compare the fluid glide in *ziua* `[ˈzi.wa]` with loanwords or technical roots that maintain true hiatus like *dual* `[duˈal]`.
+English speakers often separate the letters into two distinct syllables like oo ah. Keep it as one quick glide, just like the sound of wa in water.

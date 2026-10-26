@@ -20,18 +20,18 @@ terms:
   ro: "dr in drum (tobă)"
 ---
 
-## Grupul de litere dr
+## Sunetul grupului dr
 
-Grupul se pronunță /dr/, la fel ca în cuvântul (drum) /drʌm/. Este o combinație consonantică frecventă la începutul cuvintelor englezești.
+Grupul consonantic dr se rostește /dr/. Îl auzi în cuvântul (drum) /drʌm/, care înseamnă tobă. Acest grup de litere are o singură pronunție.
 
-## Pronunția grupului dr
+## Cum se pronunță
 
-Atingeți cerul gurii cu vârful limbii mai în spate decât pentru sunetele românești. Treceți lin de la ocluziune spre un sunet vibrant fără să atingeți dinții, lăsând corzile vocale să vibreze continuu.
+Atinge cerul gurii cu vârful limbii puțin mai în spate decât pentru un d obișnuit. Retrage limba ușor spre interior în timp ce lași aerul să treacă rotunjit. Coardele vocale vibrează pe toată durata sunetului. Dacă pui mâna pe gât, vei simți o vibrație continuă.
 
-## Ortografia grupului dr
+## Scriere și apariție
 
-În grupul consonantic inițial, aceste litere redau sunetul /dr/, ca în cuvântul (drop) /drɒp/.
+Grupul de consoane dr redă întotdeauna sunetul /dr/. Apare frecvent la începutul cuvintelor, ca în (drop) /drɒp/ sau în (dress) /drɛs/.
 
-## Diferențe față de română
+## Capcane de pronunție
 
-În limba română, grupul din cuvântul drum se rostește pe dinți, cu un r puternic vibrat. În engleză, limba este retrasă și nu atinge dinții, iar sunetul curge mult mai moale.
+Vorbitorii de limbă română tind să pronunțe consoana r vibrat, ca în cuvântul drum. În engleză, limba nu atinge dinții și nu tremură deloc. Ține limba retrasă și curbată spre cerul gurii, fără să o lași să lovească.

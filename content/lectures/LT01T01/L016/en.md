@@ -20,18 +20,18 @@ terms:
   ro: "M"
 ---
 
-## The Sound of M
+## Letter sound
 
-The Romanian letter **M** represents the voiced bilabial nasal consonant `/m/`, identical to the English sound in 'mother'. It is a steady, resonant sound produced through the nasal cavity with full vocal cord vibration. In final unstressed syllables ending in '-i', it can become subtly palatalised as `/mʲ/`.
+This letter is called /m/, that is a plain m. Its primary sound is heard in (mare) /ˈma.mə/, which means mother. The letter has two distinct sounds in Romanian.
 
-## How to Pronounce M
+## Mouth movements
 
-Close both lips firmly together while letting the soft palate drop so air flows freely through your nose. Engage your vocal cords to create voice as the sound resonates in your nasal passages. Release the lips cleanly into the following vowel without adding an extra puff of air.
+For the regular sound, close your lips together gently. Let air pass out through the nose while your vocal cords vibrate. For the second sound, make that same closure while arching your tongue toward the hard palate. Touch your throat to feel continuous vibration for both sounds.
 
-## Spelling and Patterns
+## Reading rules
 
-Written as uppercase **M** and lowercase **m**, it occurs in all positions across native and borrowed Romanian vocabulary. It consistently spells `/m/` in common words like *mare* ('sea' or 'big') and *lumină* ('light'). Unlike Italian or French, Romanian never doubles **m** in standard native words, so *mm* appears only in recent foreign borrowings or across prefix boundaries like *imaterial*.
+In almost all positions, you pronounce the sound /m/, that is a plain m. An example is (om) /om/. At the end of a word before a final short i, pronounce the sound /mʲ/, that is a softened m. You can hear this variant in (dormi) /dormʲ/.
 
-## Nuances and Common Mistakes
+## Common pitfalls
 
-English speakers generally find Romanian **M** very straightforward, but must pay attention to word-final positions. In verbs like *dormi* ('you sleep'), the underlying final /i/ manifests as a brief palatal glide, making the `/mʲ/` softer than an English final 'm'. Avoid dropping the final palatalisation or, conversely, turning it into a full separate syllable 'ee'.
+English speakers usually pronounce this consonant without difficulty. Its main sound matches the first sound in mother. Do not turn the softened ending variant into a full extra syllable. Keep your lips closed and add a quick y-tint without adding an extra vowel.

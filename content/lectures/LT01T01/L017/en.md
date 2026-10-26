@@ -20,18 +20,18 @@ terms:
   ro: "N"
 ---
 
-## The Sound of N
+## Sound of the letter
 
-The letter **N** represents a voiced dental nasal, transcribed as `/n/`. Unlike English where 'n' is produced on the alveolar ridge behind the upper teeth, Romanian `/n/` is strictly dental, making it sound slightly crisper. Before velar stops like /k/ and /g/, it automatically assimilates into the velar nasal `[ŋ]`.
+The letter is called /n/. Its main value is the sound /n/, heard in (nor) /now/, which means night. This letter produces two sounds in Romanian.
 
-## How to Pronounce N
+## How to say it
 
-Place the tip of your tongue directly against the back of your upper front teeth rather than the gum ridge behind them. Lower your soft palate to allow air and sound to flow freely through your nasal cavity. Keep your vocal cords vibrating throughout the sound to produce a clear, voiced nasal tone.
+For the first sound, press the tip of your tongue against your upper gum ridge. Let air pass freely through your nose while your vocal cords vibrate. For the second sound, raise the back of your tongue against your soft palate. Touch your throat to feel continuous vibration for both sounds.
 
-## Spelling and Distribution
+## Spelling rules
 
-Written as uppercase **N** and lowercase **n**, it appears in all positions across Romanian vocabulary: word-initially, word-medially, and word-finally. Romanian does not use phonemic geminate (double) consonants in native words, so double 'nn' appears almost exclusively across morpheme boundaries, such as in prefixes like **în-** before root words beginning with **n-** (e.g., *înnegri*).
+In most positions, the letter represents the sound /n/, as shown in (nou) /now/. Before velar sounds, it automatically shifts to the sound /ŋ/, as heard in (bancă) /ˈbaŋ.kə/.
 
-## Accents and Pitfalls
+## Comparing with English
 
-The primary variant is the velar allophone `[ŋ]` found before velar stops, seen in words like *bancă* (`/ˈbaŋ.kə/`) and *lung* (`/luŋɡ/`). English speakers should avoid the English alveolar contact point and take care not to drop final `/n/` after nasalized vowels. German speakers generally adapt well, but must ensure that double 'nn' across prefix boundaries is distinctly prolonged compared to a single dental `/n/`.
+English speakers make these exact two sounds in words like net and bank. Avoid dropping the consonant at the end of words or nasalizing the preceding vowel instead of articulating the tongue contact clearly.

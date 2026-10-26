@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei uai
 
-Numele acestei litere este (Y) /aɪ/. Sunetul ei principal este consoana /j/, pe care o auzi în cuvântul (yes) /jɛs/.
+Numele acestei litere este (Y) /aɪ/. Sunetul său principal este sunetul /j/, ca în cuvântul (yes) /jɛs/, care înseamnă da. În limba engleză, această literă poate reprezenta patru sunete diferite.
 
 ## Pronunția sunetelor
 
-Pentru consoană, ridică mijlocul limbii spre cerul gurii fără să blochezi aerul și fă corzile vocale să vibreze. Pentru vocala scurtă și relaxată, coboară limba puțin față de poziția unui i românesc obișnuit. Pentru diftong, deschide gura larg apoi glisează spre sunetul i.
+Pentru primul sunet, ridică mijlocul limbii spre cerul gurii și lasă aerul sonor să treacă lin. Pentru al doilea sunet, întinde buzele într-un zâmbet și ridică limba foarte sus. Pentru al treilea sunet, deschide gura larg și alunecă rapid limba spre o poziție înaltă. Pentru ultimul sunet, relaxează limba și coboar-o puțin. Atinge gâtul pentru a simți vibrația corzilor vocale.
 
-## Reguli de citire
+## Reguli de scriere
 
-La început de silabă sau cuvânt înaintea unei vocale, redă sunetul /j/ ca în (yard) /jɑːd/. Neaccentuată la final de cuvânt, redă sunetul /i/, adică un i clar ca în (happy) /hæ.pi/. În silabe închise de origine greacă, devine sunetul /ɪ/, adică un i scurt și relaxat, ca în (myth) /mɪθ/. În silabe deschise sau monosilabe accentuate, redă diftongul /aɪ/ ca în (cry) /kraɪ/.
+La începutul unui cuvânt înaintea unei vocale, litera redă sunetul /j/, ca în (yard) /jɑːd/. La sfârșitul unui cuvânt neaccentuat, ea reprezintă sunetul /i/, adică un i clar și lung, ca în (happy) /hæ.pi/ sau (city) /sɪ.ti/. În cuvinte scurte accentuate sau silabe deschise, se aude sunetul /aɪ/, ca în (cry) /kraɪ/ ori (style) /staɪl/. În silabe închise de origine greacă, se rostește sunetul /ɪ/, adică un i scurt și relaxat, ca în (myth) /mɪθ/ sau (system) /sɪs.təm/.
 
-## Capcane pentru vorbitorii de română
+## Diferențe față de română
 
-Nu confunda sunetul /ɪ/, care este mai relaxat și scurt, cu sunetul /i/ din limba română din cuvântul mic. De asemenea, evită să pronunți diftongul /aɪ/ când litera se află la finalul unui cuvânt neaccentuat.
+Vorbitorii de limbă română pronunță adesea sunetul scurt ca pe un i românesc din cuvântul mic. Pentru sunetul scurt englezesc, relaxează complet limba și maxilarul, fără să rotunjești buzele. Sunetul consonantic seamănă perfect cu cel din cuvântul iar, așa că nu ridică probleme.

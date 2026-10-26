@@ -20,18 +20,18 @@ terms:
   ro: "eau"
 ---
 
-## Sound Overview
+## The group eau
 
-The Romanian sequence **eau** represents a genuine triphthong, pronounced as `[e̯aw]` in a single syllable. It glides smoothly from a non-syllabic semivowel `[e̯]` through the nucleus `[a]` to an off-glide semivowel `[w]`. English lacks an exact single-syllable equivalent, though blending the vowel sound of 'bed' rapidly into the diphthong in 'cow' approximates it.
+The letter group eau is spoken as the sound /e̯aw/. It makes one single triphthong sound in Romanian. You hear this sound in the word (beau) /be̯aw/, which means I drink. The group has only one spoken form.
 
-## Pronunciation Guide
+## Mouth movements
 
-Start with your tongue mid-high and forward in the mouth for the initial `[e̯]` glide. Quickly open your mouth wide and flatten your tongue for the prominent central `[a]` vowel. Finish by rounding your lips tightly and pulling the back of your tongue upward into the closing `[w]` glide, ensuring the whole movement stays in one smooth syllable.
+Start with your lips unrounded and your tongue high and forward. Glide smoothly through a clear, central vowel sound. Finish by rounding your lips into a tight circle while voicing continuously. Place a hand on your neck to feel your vocal cords buzz without stopping.
 
-## Spelling and Context
+## Reading the group
 
-The trigraph **eau** appears predominantly in Romanian verbal inflection, especially the imperfect tense third-person plural endings (such as *făceau* or *vedeau*) and the present-tense forms of *a bea* (*beau*). It is treated as three distinct letters in orthography rather than a separate alphabet character. It almost always occurs at the end of syllables or words.
+The letters eau always stay together in a single syllable. They yield the triphthong sound /e̯aw/, as in the word (vedeau) /veˈde̯aw/.
 
-## Nuances and Common Pitfalls
+## English comparisons
 
-The triphthong `[e̯aw]` must not be broken up into separate syllables like `*e-a-u*`. Foreign speakers frequently over-enunciate the first letter into a full vowel `[e]` or substitute an English 'y' glide `[j]`, turning *beau* into `*[bjaw]*`. Focus on keeping the initial `[e̯]` light and smoothly linked directly to the main `[a]` without inserting extra consonant-like tension.
+English speakers often break this combination into two separate syllables. Do not pause between the parts or turn it into separate words like eh and ow. Blend the glide, vowel and round ending into one single flow of air.

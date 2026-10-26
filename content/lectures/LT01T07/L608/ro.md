@@ -20,18 +20,18 @@ terms:
   ro: "-lk"
 ---
 
-## Grupul de litere lk
+## Sunetul grupului lk
 
-Grupul -lk se pronunță de obicei doar prin sunetul /k/, ca în cuvântul (walk) /wɔːk/. În alte cuvinte, ambele litere se aud clar, formând sunetele /lk/.
+Grupul de litere -lk se numește /k/. Cel mai des produce sunetul /k/, ca în cuvântul (walk) /wɔːk/, care înseamnă a merge pe jos. Acest grup are două pronunții diferite în limba engleză.
 
-## Pronunția grupului lk
+## Cum se pronunță
 
-Pentru sunetul /k/, blochează aerul cu spatele limbii pe vălul palatului și eliberează-l brusc, fără voce. Pentru /lk/, atinge mai întâi dinții de sus cu vârful limbii cu voce, apoi treci rapid la sunetul surd.
+Pentru primul sunet, ridică spatele limbii spre cerul gurii moale și blochează aerul. Eliberează aerul brusc, fără să folosești vocea. Pentru al doilea sunet, atinge mai întâi dinții de sus cu vârful limbii pentru a lăsa aerul să treacă pe margini. Treci apoi imediat la sunetul surd din spate. Pune mâna pe gât și nu simți vibrație la final.
 
-## Ortografia grupului lk
+## Reguli de scriere
 
-După anumite vocale la sfârșit de cuvânt, prima literă este mută și auzi doar sunetul /k/, ca în (talk) /tɔːk/. În alte contexte, ambele litere sunt pronunțate complet, cum este cazul în cuvântul (milk) /mɪlk/.
+La sfârșitul cuvintelor după anumite vocale, prima literă nu se aude deloc și rostești doar sunetul /k/, ca în (talk) /tɔːk/. În alte cuvinte, ambele litere sunt rostite clar ca sunetul /lk/, ca în cuvântul (milk) /mɪlk/ sau în (silk) /sɪlk/.
 
-## Grupul lk pentru români
+## Capcane de pronunție
 
-Vorbitorii de română tind să citească mereu ambele litere. Greșeala frecventă este să pronunți un sunet l acolo unde este mut, exact cum se citește în cuvântul românesc calcar.
+Vorbitorii de limba română tind să citească mereu prima literă din acest grup, ca în cuvântul cald. În multe cuvinte englezești foarte comune, această literă trebuie trecută complet sub tăcere. Treci direct de la vocală la consoana finală.

@@ -20,18 +20,18 @@ terms:
   ro: "D"
 ---
 
-## The Sound of D
+## The sound
 
-The Romanian letter **D** corresponds to the voiced dental plosive `/d/`. Unlike in English, where /d/ is produced with the tongue tip against the alveolar ridge above the teeth, Romanian `d` is strictly dental, with the tongue contacting the upper front teeth. It remains voiced even in word-final positions and does not undergo final devoicing.
+This letter is called /d/. It makes the sound /d/, heard in the word (dorință) /dor/, which means longing or yearning. This letter has only one regular sound in Romanian.
 
-## How to Pronounce D
+## How to say it
 
-Place the tip and blade of your tongue firmly against the back of your upper front teeth. Build up slight air pressure behind this blockage, then release it while vibrating your vocal cords. Keep the release crisp and avoid adding a puff of aspiration.
+Touch the tip of your tongue against the back of your upper front teeth. Block the breath for an instant, then release it while vibrating your vocal cords. Place your hand on your throat to feel the steady vibration.
 
-## Spelling and Positions
+## Reading and spelling
 
-**D** is a very stable consonant that appears initially, medially, and finally, as in **dor** ('longing'), **dulce** ('sweet'), or **brad** ('fir tree'). It regularly combines into digraphs like **dr**, **dl**, or prefixes like **des-** and **de-**. Unlike in Russian or German, final **-d** is clearly pronounced as voiced `/d/` rather than `/t/`.
+In all standard positions, this letter keeps the single sound /d/. You hear it clearly at the end of words like (cald) /kald/.
 
-## Nuances and Common Mistakes
+## Common pitfalls
 
-English speakers often default to an alveolar tap or unvoiced release, making Romanian words sound foreign. German and Slavic speakers frequently devoice final **d** into **t**, turning words like **brad** ('fir tree') into *brat* ('arm'). Ensure the tongue contacts the upper teeth and maintain clear voicing through the entire sound.
+English speakers often touch the bumpy ridge behind the teeth. For Romanian, press your tongue directly against the upper front teeth instead, as in the Spanish sound in words like dos.

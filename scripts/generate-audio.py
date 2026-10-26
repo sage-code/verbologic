@@ -698,15 +698,16 @@ def transliterate_batch(texts: list[str], locale: str) -> list[str]:
 def article_sections(track: str, topic: str, code: str, locale: str) -> list[str] | None:
     """The article body split into reading pages, matching the reading view.
 
-    This is the SAME rule the reading view paginates by (`paginate()` in
+    This is the SAME section rule the reading view cuts by (`paginate()` in
     [doc].vue), and the two must stay in sync or the player seeks to the wrong
     place:
-    - a document with section headings (h2/h3) starts a new page at each one
-      and carries the blocks beneath it (lectures, dictionary articles);
-    - a document with NO headings paginates one paragraph per page (stories).
+    - a document with section headings (h2/h3) has one section per heading,
+      carrying the blocks beneath it (lectures, dictionary articles);
+    - a document with NO headings has one paragraph per section (stories).
 
-    Page N of the UI is therefore section N here, which is what lets the player
-    seek to the page being read.
+    The view may pack SEVERAL sections onto one page (up to a text budget); a
+    page starts at its first section's offset and ends at the next page's first
+    section. Offsets are per section, so the packing never changes the audio.
     """
     path = CONTENT_DIR / track / topic / code / f"{locale}.md"
     if not path.is_file():

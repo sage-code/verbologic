@@ -20,18 +20,18 @@ terms:
   ro: "Ghe / Ghi"
 ---
 
-## Sound of Ghe / Ghi
+## The spelling Ghe and Ghi
 
-The digraphs **ghe** and **ghi** represent the hard voiced velar plosive `[ɡ]` or its palatal variant `[ɟ]`, exactly like the *g* in English *get* or *give*. Without the letter *h*, the letter *g* before *e* or *i* would soften into the *j* sound in *gem*. The *h* acts entirely as a silent spelling marker to keep the consonant hard.
+The letter groups ghe and ghi are pronounced /ge/ and /gi/. Their basic sound is the sound /ɡʲ/, heard in the word (gheață) /ˈɡe̯at͡sə/, which means ice. This spelling pattern represents one single spoken sound across Romanian vocabulary.
 
-## How to Pronounce Ghe / Ghi
+## Mouth movements
 
-Place the back of your tongue firmly against the soft palate at the roof of your mouth to completely block the airflow. Build up slight air pressure while engaging your vocal cords to create voice. Release the closure crisply into the following vowel without pronouncing an independent *h* sound.
+Press the back of your tongue against the soft palate while raising the middle of your tongue toward the roof of your mouth. Vibrate your vocal cords and release the air suddenly. Place your fingers against your throat to feel the strong buzzing vibration as the breath breaks through.
 
-## Spelling Rules for Ghe / Ghi
+## Where it appears
 
-These digraphs only appear before the front vowels **e** and **i**. When followed by another vowel, as in **gheață** ('ice') or **ghiozdan** ('backpack'), the letter *e* or *i* merely serves to mark the spelling or forms a brief glide, rather than a full separate syllable. Capitalization affects only the first letter at the start of a sentence (**Gheorghe**, **Ghid**).
+This spelling occurs before the letters e or i to keep a hard sound. It yields the sound /ɡʲ/, as in the noun (ghid) /ɡid/. The letter h stays completely silent and only serves as an orthographic marker.
 
-## Common Pitfalls to Avoid
+## Common learner mistakes
 
-Foreign speakers frequently make the mistake of trying to articulate an audible English *h* sound, pronouncing *ghid* as *g-hid*. Another frequent error is softening the sound into `[d͡ʒ]` because the eyes catch the *e* or *i*. Remember that **gh** guarantees a hard `[ɡ]` sound, directly contrasting with soft **ge** and **gi** in words like *ger*.
+English speakers often try to pronounce an audible aspiration or an h sound. Do not breathe out an extra puff of air. This consonant is identical to the first sound in the English word geese.

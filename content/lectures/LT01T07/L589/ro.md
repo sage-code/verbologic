@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei es
 
-Numele acestei litere este (S) /s/. Valoarea sa principală este sunetul /s/, întâlnit de exemplu în cuvântul (sun) /sʌn/.
+Numele acestei litere este (S) /s/. Sunetul ei principal este sunetul /s/, ca în cuvântul (sun) /sʌn/, care înseamnă soare. Această literă poate reda patru pronunții diferite în limba engleză.
 
-## Pronunția literei es
+## Pronunția sunetelor literei
 
-Apropie dinții și pune vârful limbii în spatele dinților de sus. Pentru sunetul surd, scoate doar aer fără voce. Activează corzile vocale pentru varianta sonoră. Pentru al treilea sunet, retrage limba spre cerul gurii și rotunjește buzele.
+Pentru sunetul /s/, apropie dinții și suflă aerul printre ei fără să folosești vocea. Pentru sunetul /z/, ține gura la fel, dar activează corzile vocale. Pentru sunetul /ʒ/, rotunjește ușor buzele și lasă aerul sonor să treacă peste limbă. Pune mâna pe gât pentru a simți vibrația vocii.
 
-## Ortografia literei es
+## Reguli de citire
 
-La început de cuvânt sau după consoane surde auzi sunetul /s/, ca în (sit) /sɪt/. Între două vocale sau după sunete sonore apare sunetul /z/, ca în (rose) /roʊz/. Înainte de terminațiile sonore specifice apare sunetul /ʒ/, ca în (vision) /vɪ.ʒən/. În cuvinte precum (island) /aɪ.lənd/, litera este complet mută.
+La începutul cuvintelor sau după consoane surde, litera redă sunetul /s/, ca în (sit) /sɪt/. Între vocale sau la final după sunete sonore, ea redă sunetul /z/, ca în (dogs) /dɒɡz/. Înainte de terminațiile ion sau ure după o vocală, se aude sunetul /ʒ/, ca în (vision) /vɪ.ʒən/. Litera nu se pronunță deloc în cuvinte speciale precum (island) /aɪ.lənd/.
 
-## Comparație cu româna
+## Diferențe față de română
 
-Sunetele seamănă cu cele din soare, zarzăr și jar. Greșeala frecventă a vorbitorilor de limba română este să păstreze consoana surdă la final de cuvânt sau între vocale, uitând să o transforme în consoana sonoră corespunzătoare.
+Mulți vorbitori citesc litera ca un sunet surd la finalul cuvintelor. În română, litera din cuvântul sac este mereu surdă. În engleză, după sunete sonore, trebuie să vibreze glasul ca în cuvântul zar. Fă corzile vocale să vibreze clar.

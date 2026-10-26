@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului ea
 
-Acest grup de litere se numește /iː/ or /e/. Redă în mod obișnuit sunetul /iː/, ca în cuvântul (eat) /iːt/.
+Grupul ea se numește sunetul /iː/ sau sunetul /e/. În mod obișnuit redă sunetul /iː/, ca în cuvântul (eat) /iːt/, care înseamnă a mânca. Această combinație de două litere poate produce trei sunete diferite în limba engleză.
 
 ## Pronunția sunetelor
 
-Pentru sunetul /iː/, întinde buzele și ridică limba spre cerul gurii. Pentru sunetul /ɛ/, coboară ușor mandibula. Pentru diftongul /eɪ/, deschide gura ca pentru e și glisează limba spre i.
+Pentru primul sunet, întinde buzele într-un zâmbet larg și ridică limba foarte sus în față, menținând sunetul lung. Pentru al doilea sunet, deschide gura puțin mai mult și relaxează limba la mijloc, rostind un sunet scurt. Pentru al treilea sunet, începe cu buzele întinse și glisează limba rapid spre un sunet apropiat de i. Pune degetele pe gât pentru a simți vibrația constantă a corzilor vocale.
 
-## Reguli de citire
+## Reguli de scriere
 
-Cel mai des, grupul se rostește ca sunetul lung /iː/, ca în (meat) /miːt/. Înaintea unor consoane precum d, sună scurt ca /ɛ/, de exemplu în (bread) /brɛd/ sau (head) /hɛd/. În câteva cuvinte excepționale se citește ca diftongul /eɪ/, precum în (great) /ɡreɪt/ ori (steak) /steɪk/.
+Grupul ea redă cel mai des sunetul lung /iː/, ca în cuvântul (meat) /miːt/. Înainte de anumite consoane precum d, th sau l, redă sunetul scurt /ɛ/, de pildă în (bread) /brɛd/ ori (head) /hɛd/. În câteva cuvinte excepționale, această combinație se rostește ca diftongul /eɪ/, ca în (great) /ɡreɪt/ sau (steak) /steɪk/.
 
-## Capcane frecvente
+## Diferențe față de română
 
-Nu pronunța două sunete separate, așa cum ai citi diftongul românesc din cuvântul leac. Sunetul /iː/ trebuie ținut mai lung decât un i obișnuit din limba română.
+Vorbitorii de limba română tind să citească aceste litere separat, ca în cuvântul nea, sau să scurteze prima variantă. Nu împărți literele în două vocale distincte. Pentru sunetul lung, prelungește vocala mai mult decât în cuvântul românesc fir. Pentru varianta scurtă, rostește un sunet clar și rapid, exact ca sunetul din cuvântul pat.

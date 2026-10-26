@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## Sunetul literei Y
+## Sunetul literei uai
 
-Litera (Y) /ɪ/ se numește în limba engleză ca sunetul vocalic scurt. Cel mai des reprezintă o semivocală, ca în cuvântul (yes) /jɛs/.
+Numele acestei litere este (Y) /ɪ/. Principalul său rol este de consoană, ca în cuvântul (yes) /jɛs/, care înseamnă da. În total, această literă poate reda patru sunete diferite în limba engleză.
 
-## Pronunția literei Y
+## Pronunțarea sunetelor literei
 
-Pentru semivocală, ridică limba aproape de cerul gurii și lasă corzile vocale să vibreze scurt. Pentru vocale, gura trece de la o deschidere largă spre una îngustă, sau menține limba relaxată spre palat.
+Pentru primul sunet, ridică mijlocul limbii spre cerul gurii și lasă aerul să treacă fără fricțiune. La al doilea sunet, ține limba sus și întinde buzele într-un zâmbet relaxat. Pentru al treilea sunet, deschide gura larg, apoi glisează limba rapid spre cerul gurii. La ultimul sunet, relaxează limba și fă sunetul foarte scurt. Pune degetele pe gât ca să simți vibrația constantă a corzilor vocale.
 
-## Reguli de citire
+## Reguli de scriere
 
-La început de silabă înainte de vocală redă semivocala, ca în (yard) /jɑːd/. Neaccentuată la final de cuvânt sună ca /i/, adică un i lung și curat, ca în (happy) /hæ.pi/. În silabă deschisă accentuată se aude /aɪ/, ca în (my) /maɪ/. În silabă închisă accentuată devine /ɪ/, adică un i scurt și relaxat, ca în (myth) /mɪθ/.
+La începutul unui cuvânt înaintea unei vocale, litera redă sunetul /j/, ca în (yard) /jɑːd/. La final de cuvânt în silabe neaccentuate, ea produce sunetul /i/, adică un i lung și clar, ca în (happy) /hæ.pi/ sau (city) /sɪ.ti/. Într-o silabă accentuată deschisă sau la capătul unui cuvânt scurt, litera sună /aɪ/, ca în (my) /maɪ/ ori (type) /taɪp/. Într-o silabă accentuată închisă de o consoană, auzi sunetul /ɪ/, adică un i scurt și relaxat, ca în (myth) /mɪθ/ sau (gym) /dʒɪm/.
 
-## Capcane de pronunție
+## Diferențe față de română
 
-Vorbitorii de limba română tind să pronunțe mereu un i plin și tensionat. În silabele închise, relaxează buzele și limba pentru a nu confunda sunetul scurt cu cel din cuvintele românești.
+Vorbitorii de română tind să pronunțe sunetul /ɪ/ ca pe un i plin din cuvântul nisip. Sunetul englezesc este mult mai scurt și mai relaxat, apropiat de un sunet între i și e. Coboară ușor maxilarul și lasă mușchii feței complet destinși.

@@ -194,6 +194,7 @@ def build_request(entry: dict[str, Any], with_facts: bool = False) -> dict[str, 
     if with_facts:
         request["example"] = entry.get("example")
         request["exampleIpa"] = entry.get("exampleIpa")
+        request["exampleTranslation"] = entry.get("exampleTranslation")
         request["variations"] = entry.get("variations")
     return request
 
@@ -263,9 +264,53 @@ SPOKEN_FORM_RULES = (
     "write \"grupul th se rotește ca sunetul /θ/\" and NEVER \"(th) /θ/\": the "
     "brackets are reserved for real words, and a group is not a word. Only "
     "real words take the `(word) /ipa/` form.\n"
+    "R13. Write no digits at all: every number is a word of the page's "
+    "language (\"two\", \"doi\", \"zwei\"), because a voice reads digits, "
+    "ordinals and dates by its own rules, often wrongly. Never write a word in "
+    "capitals or an acronym: the voice spells it out or shouts it.\n"
+    "R14. Punctuation is the voice's only guide to rhythm. Use only full "
+    "stops, commas, question marks and exclamation marks. Never a colon, "
+    "semicolon, dash, ellipsis, quotation mark or guillemet: a voice turns "
+    "them into odd pauses or skips them, and a sentence that needs one is two "
+    "sentences. Put a comma where a speaker would breathe. Every page ends "
+    "with a full stop, and every sentence ends with a full stop, a question "
+    "mark or an exclamation mark.\n"
+    "R15. Choose words a voice says correctly. Prefer plain everyday words to "
+    "rare or technical ones, and avoid words whose pronunciation or stress "
+    "depends on context (English \"read\", \"lead\", \"wind\"; Russian "
+    "\"замок\", \"мука\"). When a technical term is needed, use the ordinary "
+    "word of the page's language (\"vocal cords\", never a Latin or Greek "
+    "term). Never use a word of a third language.\n"
+    "R16. Each page is one steady spoken paragraph: one idea per sentence, "
+    "the subject first, one tense throughout, no sentence opening repeated "
+    "more than twice. Open with the point, never with a greeting or a "
+    "preamble.\n"
+    "R17. The pages of one article are shown together on one screen, each "
+    "under its own small subheading, and the voice reads them one after "
+    "another WITHOUT the subheadings. So a page must make sense when heard "
+    "straight after another: never lean on the subheading to say what the page "
+    "is about, and never repeat the subheading as the first words of the text.\n"
 )
 
-PAGE_LIMITS = {"sound": 40, "howToSay": 45, "spelling": 55, "compare": 45}
+#: Words per page. The four pages of an article are shown together, so
+#: together they should fill the reading area: about 280 words, which the
+#: reading view packs onto one page.
+PAGE_LIMITS = {"sound": 55, "howToSay": 70, "spelling": 85, "compare": 70}
+
+
+#: "that is", per page language: what rule R11's qualifier opens with. The
+#: validator (validate_sections) accepts exactly these words after a symbol.
+QUALIFIER_CONNECTIVES = {
+    "en": "that is",
+    "ro": "adică",
+    "es": "es decir",
+    "fr": "c'est-à-dire",
+    "de": "das heißt",
+    "ru": "то есть",
+    "hu": "azaz",
+    "pt": "ou seja",
+    "it": "cioè",
+}
 
 
 def prompt_meta(batch: list[dict[str, Any]], lang: str) -> str:
@@ -343,10 +388,19 @@ def prompt_sections(
                     f"  {entry.get('code')} [{locale}]: {ipa_a} and {ipa_b} both "
                     f"sound like \"{spoken}\" — qualify each in words"
                 )
+    # The validator looks for the connective right after the symbol, so the
+    # model is shown the exact form, in each page language, not just the rule.
+    qualifier_forms = "; ".join(
+        f"{locale}: \"/symbol/, {QUALIFIER_CONNECTIVES[locale]} a short description\""
+        for locale in locales
+    )
     collision_note = (
         "\n\nSOUND COLLISIONS. In these languages the voice pronounces the two "
         "symbols identically, so the page MUST add a short qualifier in words "
-        "after each symbol (rule R11):\n" + "\n".join(collisions) + "\n"
+        "after each symbol (rule R11), written exactly as the symbol, a comma, "
+        f"the connective and a plain description ({qualifier_forms}). Every "
+        "symbol listed below gets its own qualifier, even when the two sound "
+        "alike to the learner:\n" + "\n".join(collisions) + "\n"
         if collisions
         else ""
     )
@@ -370,25 +424,32 @@ def prompt_sections(
         "one page. This is a reference card, not an essay: no encouragement, "
         "no generalities, no history, no dialect survey.\n\n"
         "PAGES, each an object {title, text}. The title is 2-4 words in the "
-        "page's language and is NOT read aloud, so it names the letter by its "
-        "NAME plainly, with no brackets and no IPA (Romanian: \"Sunetul "
-        "literei cé\"). The text is read aloud and follows the writing rules "
-        "below.\n"
-        f"- `sound` (at most {PAGE_LIMITS['sound']} words): the letter's name "
-        "as spoken, then its main sound with the `example` word. One or two "
-        "sentences; this page is the summary, not the list of variants.\n"
-        f"- `howToSay` (at most {PAGE_LIMITS['howToSay']} words): only the "
-        "movements — tongue, lips, air, voice — for the sounds this letter "
-        "makes. No spelling rules, no example words.\n"
-        f"- `spelling` (at most {PAGE_LIMITS['spelling']} words): when each "
+        "page's language, shown as a small subheading above the text, and is "
+        "NOT read aloud, so it names the letter by its NAME plainly, with no "
+        "brackets and no IPA (Romanian: \"Sunetul literei cé\"). The text is "
+        "read aloud and follows the writing rules below.\n"
+        f"- `sound` (up to {PAGE_LIMITS['sound']} words): the letter's name "
+        "as spoken, then its main sound with the `example` word and what that "
+        "word means (`exampleTranslation` for the page's language), then how "
+        "many sounds the letter has, without listing them. This page is the "
+        "summary, not the list of variants.\n"
+        f"- `howToSay` (up to {PAGE_LIMITS['howToSay']} words): only the "
+        "movements — tongue, lips, jaw, air, voice — for each sound this letter "
+        "makes, in the order of the variants, one or two sentences per sound, "
+        "and one thing the learner can feel or check (a hand on the throat, a "
+        "finger before the lips). No spelling rules, no example words.\n"
+        f"- `spelling` (up to {PAGE_LIMITS['spelling']} words): when each "
         "variant applies — the position, neighbouring letters or diacritic, "
-        "then its sound with ONE example word per variant. One short sentence "
-        "per variant. Do not describe the mouth again.\n"
-        f"- `compare` (at most {PAGE_LIMITS['compare']} words): the mistakes "
+        "then its sound with ONE example word per variant. One or two short "
+        "sentences per variant. Do not describe the mouth again.\n"
+        f"- `compare` (up to {PAGE_LIMITS['compare']} words): the mistakes "
         "a learner of the page's language really makes with this letter, naming "
-        "the nearest sound of THEIR language. Each mistake once, using words "
-        "of the learner's language only. If there is no real pitfall, say so in "
-        "one sentence.\n\n"
+        "the nearest sound of THEIR language with an ordinary word of theirs, "
+        "and how to correct each in one short instruction. Each mistake once, "
+        "using words of the learner's language only. If there is no real "
+        "pitfall, say so in one sentence.\n"
+        "Use the room each page allows, but only for true, useful facts: never "
+        "pad, never repeat, never add encouragement.\n\n"
         f"{SPOKEN_FORM_RULES}{collision_note}\n"
         "Return ONLY JSON of the shape "
         '{"items":[{"code":"L001","sections":{"<locale>":{"sound":{"title":"...",'
@@ -554,6 +615,43 @@ def is_group(entry: dict[str, Any]) -> bool:
     return str(entry.get("kind") or "").lower() == "group" or len(str(entry.get("glyph") or "")) > 1
 
 
+#: Punctuation a voice turns into an odd pause or skips (rule R14).
+VOICE_PUNCTUATION = re.compile(r"[:;—–…\"“”„«»]|\.{2,}|\s-\s")
+#: Rule R6 says 20 words; the margin keeps repair rounds for real offenders.
+MAX_SENTENCE_WORDS = 24
+
+
+def spoken_form_problems(tag: str, text: str, outside_ipa: str) -> list[str]:
+    """What a voice reads badly: digits, capitals, odd punctuation, long sentences.
+
+    `outside_ipa` is the page text with its IPA spans blanked, because IPA has
+    its own symbols and is respelled before it reaches the voice.
+    """
+    problems: list[str] = []
+    if re.search(r"\d", outside_ipa):
+        problems.append(f"{tag} contains a digit; write every number as a word (rule R13)")
+    # Bracketed target words are skipped by the voice, so only the prose is checked.
+    prose = re.sub(r"\([^()]*\)", " ", outside_ipa)
+    shouted = [word for word in re.findall(r"[^\W\d_]{2,}", prose) if word.isupper()]
+    if shouted:
+        problems.append(
+            f"{tag} writes '{shouted[0]}' in capitals; the voice spells it out or shouts it (rule R13)"
+        )
+    if VOICE_PUNCTUATION.search(outside_ipa):
+        problems.append(
+            f"{tag} uses a colon, semicolon, dash, ellipsis or quotation mark; "
+            "only . , ? ! are allowed (rule R14)"
+        )
+    if not re.search(r"[.!?]\**$", text.strip()):
+        problems.append(f"{tag} must end with a full stop, question mark or exclamation mark (rule R14)")
+    for sentence in re.split(r"[.!?]+", outside_ipa):
+        count = len(sentence.split())
+        if count > MAX_SENTENCE_WORDS:
+            problems.append(f"{tag} has a sentence of {count} words; the limit is 20 (rule R6)")
+            break
+    return problems
+
+
 def validate_sections(
     entry: dict[str, Any], sections: Any, locales: tuple[str, ...]
 ) -> list[str]:
@@ -659,6 +757,7 @@ def validate_sections(
                     f"{tag} writes the bare glyph '{glyph}'; the voice reads it as the letter name of "
                     "the page's language — name the letter in the (word) /ipa/ form instead"
                 )
+            problems.extend(spoken_form_problems(tag, text, outside_ipa))
             words = len(outside_ipa.split())
             if words > round(PAGE_LIMITS[key] * 1.15):
                 problems.append(f"{tag} has {words} words, the limit is {PAGE_LIMITS[key]}")
@@ -709,6 +808,27 @@ def spoken_preview(texts: list[str], locale: str) -> list[str]:
     return json.loads(result.stdout)
 
 
+def parse_model_json(text: str) -> Any:
+    """json.loads, plus one repair for a failure the model repeats.
+
+    Gemini sometimes drops a closing brace just before the final `]}`, which
+    leaves the whole answer unparseable and, for some entries, fails every
+    retry. Adding the brace back is safe: a misplaced one yields a structure the
+    section validator rejects, so it can never store a malformed page.
+    """
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        if not text.endswith("]}"):
+            raise
+        for missing in (1, 2):
+            try:
+                return json.loads(text[:-2] + "}" * missing + "]}")
+            except json.JSONDecodeError:
+                continue
+        raise
+
+
 def call_gemini(prompt: str, expected: set[str]) -> dict[str, dict[str, Any]]:
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -745,7 +865,7 @@ def call_gemini(prompt: str, expected: set[str]) -> dict[str, dict[str, Any]]:
                 body = json.loads(response.read().decode("utf-8"))
             text = body["candidates"][0]["content"]["parts"][0]["text"].strip()
             text = re.sub(r"\A```(?:json)?\s*|\s*```\Z", "", text)
-            result = json.loads(text)
+            result = parse_model_json(text)
             items = result if isinstance(result, list) else result.get("items")
             if not isinstance(items, list):
                 raise ValueError("Gemini returned JSON without an items array")

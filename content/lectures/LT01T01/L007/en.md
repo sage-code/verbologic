@@ -20,18 +20,18 @@ terms:
   ro: "E"
 ---
 
-## The Sound of Romanian E
+## The letter E
 
-In Romanian, **E** is pronounced as a mid front unrounded vowel `/e/`, much like the "e" in English *bed* or the Spanish "e", but slightly crisper and tenser. In standard pronunciation, it does not glide into an "ay" sound as it often does in English. Note that in a handful of common words—namely personal pronouns starting with *e* like **el** and forms of the verb *a fi* like **este**—it is pronounced with an initial glide `/je/`.
+The letter is named /e/. Its main pronunciation is the full vowel sound /e/, as in the word (elev) /ˈe.le.fant/, which means elephant. Overall, this letter can produce three different sounds in Romanian words.
 
-## How to Produce the Sound
+## Making the sound
 
-Position your tongue in the front of your mouth at a mid-high height, keeping the sides touching your upper molars. Keep your lips relaxed and unrounded, slightly spread as if giving a gentle smile. Release a clean, steady stream of voice without shifting your tongue position during the sound.
+For the full vowel, raise your tongue to the middle front of your mouth and unround your lips. For the gliding sound, start from that position and quickly glide into the following vowel. For the combination sound, begin with your tongue high for a quick consonant glide before opening into the vowel. Touch your throat to feel continuous vibration.
 
-## Spelling and Distribution
+## Spelling rules
 
-The letter **E** appears in all word positions: initial, medial, and final. Romanian spelling is largely phonetic, meaning **e** reliably produces the sound `/e/`, except for the traditional `/je/` pronunciation in words like **ei**, **ele**, and **ești**. It also serves to soften preceding consonants **c** and **g** into `/t͡ʃ/` and `/d͡ʒ/` respectively.
+In most positions, you pronounce this letter as the standard vowel sound /e/, that is, a full vowel, seen in (perete) /peˈre.te/. At the start of personal pronouns and forms of the verb to be, it sounds like /je/, as in (el) /jel/ or (este) /ˈjes.te/. Inside diphthongs, it becomes the brief gliding semivowel sound /e̯/, that is, a short gliding sound, heard in (seară) /ˈse̯a.rə/ and (deal) /de̯al/.
 
-## Pronunciation Variants and Common Mistakes
+## Comparing with English
 
-Do not turn final **e** into a diphthong like the "ey" in *they* or reduce it to a neutral schwa like the "a" in *sofa*. In words like **verde**, the final sound remains a crisp, distinct `/e/`. Beginners often miss the automatic `/je/` onset in pronouns like **el** (`/jel/`) and verb forms like **este** (`/ˈjes.te/`), pronouncing them with a plain `/e/`, which sounds unnatural in standard Romanian.
+English speakers often glide the vowel at the end of syllables, turning bed into bay. Keep your tongue steady and avoid adding an extra off-glide. English speakers also tend to weaken unstressed vowels to an obscure sound. Keep the Romanian vowel clear and distinct, exactly like the vowel in the English word bet.

@@ -20,18 +20,18 @@ terms:
   ro: "R"
 ---
 
-## The Sound of Romanian R
+## Letter sound
 
-In Romanian, the letter **R** represents an alveolar trill or tap `/r/`, just like in Spanish or Italian. Unlike the English postalveolar approximant `/ɹ/` or French uvular `/ʁ/`, Romanian **R** is produced crisply at the front of the mouth. Learners must avoid swallowing the sound or curling the tongue backward.
+This letter is called /r/, that is a rolled r. Its main sound is heard in (rac) /rak/, which means crayfish. The letter makes two sounds in total.
 
-## How to Produce the Sound
+## Mouth movements
 
-Place the tip of your tongue loosely against the alveolar ridge, right behind your upper front teeth. Exhale with vocal cord vibration to let the air pressure vibrate the tongue tip once or twice against the ridge. Keep the back of your tongue relaxed and the lips slightly parted without rounding.
+For the regular sound, place the tip of your tongue loosely against the ridge behind your upper front teeth. Tap it rapidly with outgoing air while vibrating your vocal cords. For the soft sound, make that same tap while arching the middle of your tongue toward the roof of your mouth. Place a finger on your throat to feel the strong vibration.
 
-## Spelling and Distribution
+## Spelling rules
 
-The letter **R** occurs in all positions: word-initially, medially, and word-finally. Romanian orthography is largely phonemic, so **R** is consistently pronounced whenever it is written. At the very end of words after certain consonants, it may be palatalized into a short `/rʲ/` when followed by the desinential letter **i**.
+In all standard positions, it represents the sound /r/, that is a regular rolled r, as in (soare) /ˈso̯a.re/. At the end of a word after a consonant, it represents the sound /rʲ/, that is a softened r. You hear this palatal variant in (membri) /ˈmem.brʲ/.
 
-## Variants and Common Pitfalls
+## Sound comparison
 
-The primary sound is the voiced alveolar trill `/r/` as in **rac** or **mare**, which contrasts with the soft, palatalized `/rʲ/` in words like **membri**. English speakers often substitute their native retroflex approximant, while German or French speakers tend to produce a guttural uvular sound. Focus on keeping the articulation strictly at the front tooth ridge.
+English speakers usually curl the tongue back without touching the roof of the mouth, as in red. Do not make this smooth English sound. Instead, tap the tip of your tongue against your upper gum ridge, like the quick flap in the American pronunciation of water.

@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei en
 
-Numele acestei litere este (N) /en/. În mod obișnuit, ea redă sunetul /n/, ca în cuvântul (net) /nɛt/.
+Numele acestei litere este (N) /en/. În mod obișnuit, ea redă sunetul /n/, ca în cuvântul (net) /nɛt/, care înseamnă plasă. În total, această literă poate produce două sunete diferite în limba engleză, dar uneori poate rămâne complet mută.
 
-## Pronunția sunetelor
+## Cum se pronunță
 
-Pentru primul sunet, atinge cu vârful limbii zona din spatele dinților de sus și scoate aerul pe nas, făcând corzile vocale să vibreze. Pentru varianta nazală velară, ridică partea din spate a limbii spre vălul palatin.
+Pentru primul sunet, atinge gingia din spatele dinților de sus cu vârful limbii. Aerul iese doar pe nas, iar corzile vocale vibrează continuu. Pentru al doilea sunet, ridică partea din spate a limbii spre vălul palatului, fără să atingi dinții. Pune degetul pe gât ca să simți vibrația constantă a vocii.
 
-## Reguli de citire
+## Reguli de scriere
 
-În cele mai multe poziții, litera redă sunetul /n/, precum în cuvântul (sun) /sʌn/. Înaintea consoanelor velare, se aude sunetul /ŋ/, ca în (sink) /sɪŋk/. La sfârșitul unui cuvânt, imediat după litera precedentă m, această literă nu se pronunță deloc, ca în (autumn) /ɔ.təm/.
+În cele mai multe poziții, litera se citește ca sunetul /n/, de pildă în (sun) /sʌn/. Înainte de consoanele velare k sau g, litera produce sunetul /ŋ/, ca în cuvântul (sink) /sɪŋk/. La sfârșitul cuvintelor, după litera m, ea nu se aude deloc, de exemplu în (autumn) /ɔ.təm/.
 
-## Capcane frecvente
+## Capcane de pronunție
 
-Sunetul obișnuit seamănă perfect cu cel din limba română din cuvântul nor. Atenție la varianta nazală velară, care nu există izolat la final de silabă în limba română fără o consoană de sprijin.
+În limba română, sunetul din cuvântul noroc este foarte apropiat, însă vârful limbii atinge de obicei dinții. În engleză, retrage vârful limbii puțin mai în spate, pe gingie. Nu adăuga un g sonor după sunetul nazal dinaintea consoanelor velare. Rostogolește doar aerul pe nas, fără să desprinzi brusc limba.

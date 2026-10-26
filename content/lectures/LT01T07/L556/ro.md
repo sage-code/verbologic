@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei di
 
-Numele acestei litere este (D) /diː/. Redă în principal sunetul /d/, ca în cuvântul (dog) /dɒɡ/.
+Numele acestei litere este (D) /diː/. Cel mai des redă sunetul /d/, ca în cuvântul (dog) /dɒɡ/, care înseamnă câine. În limba engleză, această literă produce trei sunete diferite și poate fi uneori mută.
 
 ## Pronunția sunetelor
 
-Atingeți cu vârful limbii gingia din spatele dinților de sus, nu dinții, apoi eliberați aerul cu vibrația corzilor vocale. Pentru varianta surdă opriți vibrația. Pentru varianta compusă lipiți limba de cerul gurii și desprindeți-o ușor cu fricțiune sonoră.
+Pentru sunetul /d/, atingeți cu vârful limbii gingia din spatele dinților de sus, opriți aerul și eliberați-l cu vibrația corzilor vocale. Pentru sunetul /t/, faceți aceeași mișcare, dar fără voce, lăsând doar aerul să iasă brusc. Pentru sunetul /dʒ/, puneți limba mai în spate pe cerul gurii și eliberați aerul cu voce. Puneți mâna pe gât pentru a simți vibrația la sunetele sonore.
 
 ## Reguli de citire
 
-În majoritatea pozițiilor redă sunetul /d/, ca în (bed) /bɛd/. În terminația de trecut după consoane surde se aude ca sunetul /t/, ca în (hoped) /həʊpt/. Înaintea literei u poate reda sunetul /dʒ/, ca în (educate) /ɛ.dʒʊ.keɪt/. În anumite cuvinte nu se pronunță deloc, ca în (handkerchief) /hæŋ.kə.tʃiːf/.
+În marea majoritate a pozițiilor, litera redă sunetul /d/, ca în (bed) /bɛd/. În terminația de trecut scrisă cu e urmat de această literă, după o consoană fără voce, se aude sunetul /t/, ca în (hoped) /həʊpt/. Înaintea literei u, în unele cuvinte, ea produce sunetul /dʒ/, ca în (educate) /ɛ.dʒʊ.keɪt/. În anumite cuvinte vechi, litera nu se pronunță deloc, ca în (Wednesday) /wɛnz.deɪ/.
 
-## Capcane frecvente
+## Capcane pentru vorbitorii de română
 
-Vorbitorii de limbă română pun adesea limba direct pe dinți, ca în cuvântul dor. În limba engleză limba trebuie să atingă doar gingia superioară. De asemenea, nu transformați sunetul final sonor în consoană surdă.
+În limba română, sunetul d din cuvântul dor se rostește atingând dinții de sus. În engleză, limba trebuie să urce puțin mai sus, direct pe gingie, fără să atingă dinții. O altă greșeală este citirea terminației de trecut mereu cu voce. Nu spuneți d la finalul cuvintelor care cer sunetul fără voce.

@@ -20,18 +20,18 @@ terms:
   ro: "-mb"
 ---
 
-## Grupul de litere mb
+## Sunetul grupului mb
 
-Grupul de litere -mb se citește sunetul /m/. Îl auzi rostit astfel în cuvântul (lamb) /læm/.
+Numele acestui grup se rostește ca sunetul /m/. Grupul are un singur sunet în limba engleză. Acest sunet se aude în cuvântul (lamb) /læm/, care înseamnă miel.
 
-## Cum se pronunță
+## Pronunțarea sunetului
 
-Atinge buzele una de cealaltă pentru a opri aerul în gură. Lasă fluxul de aer să iasă continuu pe nas, făcând corzile vocale să vibreze.
+Atinge buzele una de cealaltă pentru a opri aerul în gură. Lasă aerul să iasă liber pe nas în timp ce corzile vocale vibrează. Dacă atingi gâtul cu degetele, vei simți o vibrație continuă.
 
 ## Reguli de citire
 
-La finalul unui cuvânt sau al unei rădăcini, grupul -mb redă sunetul /m/, ca în (comb) /koʊm/.
+Grupul mb se găsește la sfârșitul unui cuvânt sau al unei rădăcini. În această poziție, litera b este mută și auzi doar sunetul /m/, ca în cuvântul (comb) /koʊm/.
 
-## Capcane de pronunție
+## Greșeli frecvente
 
-Vorbitorii de română tind să citească și a doua consoană. Nu pronunța un b la sfârșit, ci doar un m curat, exact ca în cuvântul românesc pom.
+Vorbitorii de limbă română au tendința de a citi și litera b la sfârșit, ca în cuvântul românesc dâmb. Nu deschide buzele cu o explozie de aer la final. Oprește sunetul pe buze, exact ca la sfârșitul cuvântului românesc pom.

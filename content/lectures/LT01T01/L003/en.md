@@ -20,18 +20,18 @@ terms:
   ro: "Â"
 ---
 
-## The Sound of Â
+## Letter sound
 
-The letter **Â** represents the close central unrounded vowel `/ɨ/`, a deep, closed vowel sound produced in the middle of the vocal tract. It has no direct equivalent in standard English, though it sounds somewhat like the unstressed vowel in the second syllable of *roses* or the fast vowel in *just* (adverb), but pronounced with much more tension. It sounds completely identical to the letter **Î**; the difference between the two is entirely orthographic.
+The name of this letter is pronounced as the sound /ɨ/. It makes this exact sound in the word (român) /kɨnt/, which means river. This letter represents only one vowel sound in the language.
 
-## How to Pronounce Â
+## Pronunciation
 
-Start by forming the sound of the English letter *ee* as in *beet*, keeping your tongue high and tense. Without rounding or moving your lips, pull the body of your tongue back toward the center of your mouth as if aiming for the position of `/u/` (as in *boot*). Keep your lips completely relaxed and unrounded, producing a tight, hollow vowel from the middle of the palate.
+Keep your lips completely flat and unrounded, as if smiling slightly. Pull the body of your tongue back into the middle of the mouth, keeping it high towards the palate. Let the vocal cords vibrate steadily. Place your fingers on your throat to feel the strong vibration while keeping your lips relaxed.
 
-## Spelling Rules for Â
+## Spelling rules
 
-Under standard Romanian orthography, **Â** is written exclusively in the interior of words, never as the very first or very last letter. The sound `/ɨ/` at the beginning or end of a root word is spelled with **Î**, except in words derived from *român* (such as *România* or *românește*), which preserve **Â** throughout. You will encounter uppercase **Â** only in full-capitalized text or acronyms because it does not begin words.
+This letter always stands in the middle of words and never at the very beginning or end. It always represents the closed central vowel sound /ɨ/, as shown in the word (cânt) /kɨnt/.
 
-## Comparing and Common Mistakes
+## Common mistakes
 
-English speakers frequently confuse `/ɨ/` with the relaxed `/ə/` (written as **Ă**) or the back vowel `/u/`. For example, pronouncing **cânta** (/kɨnˈta/, to sing) with an open *uh* sound makes it sound incorrect or muddles it with other words. Always ensure your lips remain spread or neutral and your tongue stays firmly high in the center of the mouth to keep `/ɨ/` distinct from both **Ă** and **U**.
+English speakers often replace this vowel with the relaxed sound in the word roses or the sound in bird. Do not round your lips as you would for the vowel in boot. Pull your tongue back and keep it tense, avoiding the weak English schwa heard in sofa.

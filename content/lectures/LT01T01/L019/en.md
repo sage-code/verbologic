@@ -20,18 +20,18 @@ terms:
   ro: "P"
 ---
 
-## Pronunciation of P
+## Sound of letter P
 
-The letter **P** represents the voiceless bilabial plosive `/p/`, similar to the English 'p' in 'spin'. Unlike English stressed initial 'p', Romanian `/p/` is completely unaspirated, meaning there is no puff of breath released. At the end of certain words followed by a grammatical 'i', it becomes palatalised as `/pʲ/`.
+The name of this letter is pronounced as the sound /p/, that is a plain voiceless p sound. Its main sound is heard in (pâine) /pəˈmɨnt/, which means bread. Across different positions, this letter represents two distinct sounds in spoken Romanian.
 
-## How to Produce the Sound
+## How to say it
 
-Press both your upper and lower lips firmly together to completely block the airflow from your lungs. Build slight air pressure behind the lips without engaging your vocal cords. Release the closure cleanly and sharply without exhaling an extra breath of air.
+For the first sound, press both lips firmly together. Build up air behind them, then open the lips cleanly with no voice. For the second sound, make that same lip release while arching your tongue toward your hard palate. Hold your fingers before your lips to feel a sharp, tiny burst of air.
 
-## Spelling and Distribution
+## Reading letter P
 
-The letter is written as uppercase **P** and lowercase **p**. It appears in all positions: word-initially as in *pâine*, medially as in *apă*, and word-finally as in *cap*. It can also cluster with other consonants, notably in combinations like *pt* (*șapte*) or *pl* (*ploaie*).
+In most positions before vowels or consonants, this letter makes the sound /p/, that is a plain p. You hear this regular variant in (cap) /kap/. At the end of a word before short final i, it softens to the sound /pʲ/, that is a palatalised p. An example of this softer variant is (lupi) /lupʲ/.
 
-## Accents and Common Pitfalls
+## Comparing with English
 
-English and German speakers often pronounce initial **P** with strong aspiration, sounding like `[pʰ]`, which sounds foreign to native Romanian ears. Focus on making the release clean and dry, as in English 'spot' rather than 'pot'. Take care when encountering final `-pi` in plurals like *lupi* (`/lupʲ/`), where the lips briefly soften into a subtle 'y'-glide without creating a full extra syllable.
+English speakers often release a puff of breath when saying words like pet. In Romanian, keep your lips completely unpuffed, exactly like the consonant in the English word spin. Never produce an audible breath of air when speaking.

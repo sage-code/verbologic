@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului ai
 
-Acest grup de litere se numește /eɪ/. Sunetul său principal este diftongul /eɪ/, ca în cuvântul (rain) /reɪn/.
+Grupul ai se pronunță ca numele sunetul /eɪ/. Principalul său sunet este sunetul /eɪ/, ca în cuvântul (rain) /reɪn/, care înseamnă ploaie. Acest grup de litere are trei pronunții diferite în limba engleză.
 
-## Cum se pronunță
+## Pronunțarea sunetelor
 
-Pentru primul sunet, deschide gura relaxat și glisează limba din poziția lui e spre i. Pentru al doilea, deschide gura mediu pentru un e scurt. Pentru al treilea, lasă limba complet neutră în mijlocul gurii.
+Pentru primul sunet, deschideți gura mediu pentru un e curat, apoi glisați limba în sus spre un i scurt. Pentru al doilea sunet, țineți limba relaxată la mijlocul gurii și lăsați aerul să iasă liber. Pentru al treilea sunet, relaxați complet buzele și limba, scoțând un sunet foarte scurt. Puteți simți vibrația corzilor vocale pe gât la toate cele trei sunete.
 
-## Reguli de pronunție
+## Reguli de scriere
 
-În silabe accentuate, se aude de obicei ca diftongul /eɪ/, ca în (wait) /weɪt/. În anumite cuvinte înaintea literei d sau r, se rostește sunetul /ɛ/, de exemplu în (said) /sɛd/. În silabe neaccentuate, devine sunetul /ə/, ca în (captain) /kæp.tən/.
+În silabe accentuate, grupul redă cel mai des sunetul /eɪ/, ca în cuvântul (wait) /weɪt/. În anumite cuvinte, înaintea literei d sau r, grupul se pronunță ca sunetul /ɛ/, de exemplu în (said) /sɛd/ sau (air) /ɛər/. În silabe neaccentuate, grupul ia sunetul /ə/, ca în cuvintele (captain) /kæp.tən/ și (curtain) /kɜːr.tən/.
 
-## Capcane frecvente
+## Capcane de pronunție
 
-Vorbitorii de română tind să citească fiecare literă separat, ca un diftong românesc a urmat de i. În silabe neaccentuate, nu pronunța un a clar, ci sunetul neutru similar cu ă românesc.
+Vorbitorii de română tind să citească acest grup ca pe două sunete separate, ca în cuvântul rai. Nu pronunțați un a urmat de un i plin. În engleză, prima variantă începe cu sunetul e și alunecă ușor spre i, ca în cuvântul românesc lei. Pentru sunetul scurt neaccentuat, folosiți un sunet asemănător cu litera ă din română.

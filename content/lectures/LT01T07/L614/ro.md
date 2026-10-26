@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului th
 
-Grupul th se numește /θ/. Sunetul său principal este sunetul /θ/, ca în cuvântul (think) /θɪŋk/.
+Grupul th se numește sunetul /θ/. Principalul său sunet se aude în cuvântul (think) /θɪŋk/, care înseamnă a gândi. Acest grup de litere redă trei sunete diferite în limba engleză.
 
-## Pronunțarea grupului th
+## Cum se pronunță
 
-Așază vârful limbii ușor între dinți sau chiar în spatele dinților de sus. Pentru prima variantă, suflă aer fără voce. Pentru a doua variantă, fă coardele vocale să vibreze. Pentru a treia, atinge cerul gurii cu limba și eliberează aerul brusc.
+Pentru primul sunet, așază vârful limbii între dinți și suflă aer fără voce. Pentru al doilea sunet, ține limba în aceeași poziție între dinți și scoate vocea, simțind vibrația la gât. Pentru al treilea sunet, atinge scurt cerul gurii cu limba și oprește aerul cu vocea oprită, punând mâna pe gât pentru control.
 
-## Ortografia grupului th
+## Reguli de citire
 
-Grupul th redă sunetul /θ/ în substantive sau verbe, precum (thing) /θɪŋ/, ori la final de cuvânt, ca în (bath) /bɑːθ/. În cuvinte gramaticale sau între vocale, redă sunetul /ð/, ca în (this) /ðɪs/ sau (father) /fɑː.ðə/. În unele nume și împrumuturi vechi se aude sunetul /t/, ca în (thyme) /taɪm/.
+Grupul th redă sunetul /θ/ surd în substantive, verbe sau adjective, ca în (thing) /θɪŋ/, și la sfârșit de cuvânt, ca în (bath) /bɑːθ/. Același grup redă sunetul /ð/ sonor în cuvinte gramaticale, precum (this) /ðɪs/, și între două vocale, ca în (father) /fɑː.ðə/. În câteva nume proprii și împrumuturi vechi, se rostește ca sunetul /t/, ca în (thyme) /taɪm/.
 
-## Grupul th pentru români
+## Greșeli frecvente
 
-În limba română nu există sunetele interdentale. Greșeala obișnuită este înlocuirea lor cu sunetele s, z, t sau d, ca în cuvintele sac, zar, tren sau dor. Scoate mereu vârful limbii ușor între dinți pentru a le rosti corect.
+Vorbitorii de limbă română înlocuiesc adesea aceste sunete noi cu sunetul s din sat sau cu sunetul z din zar. Nu ține limba în spatele dinților. Scoate vârful limbii ușor printre dinți și suflă aerul pentru a rosti corect sunetele englezești.

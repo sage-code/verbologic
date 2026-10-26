@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei gi
 
-Litera se numește (G) /dʒ/. Sunetul său principal este sunetul /ɡ/, ca în cuvântul (game) /ɡeɪm/.
+Numele acestei litere este (G) /dʒ/. Sunetul ei principal se aude în cuvântul (game) /ɡeɪm/, care înseamnă joc. În limba engleză, această literă produce trei sunete diferite și poate fi de asemenea mută.
 
-## Pronunțarea sunetelor
+## Pronunția sunetelor
 
-Pentru sunetul /ɡ/, atinge cerul gurii cu spatele limbii și eliberează brusc aerul cu voce. Pentru sunetul /dʒ/, lipește limba în spatele dinților de sus, apoi desprinde-o treptat. Pentru sunetul /ʒ/, apropie limba de cerul gurii și lasă aerul să vibreze continuu.
+Pentru primul sunet, ridică spatele limbii spre cerul moale al gurii și eliberează aerul cu voce. Pentru al doilea sunet, atinge cerul gurii cu vârful limbii și dă drumul aerului cu vibrație sonoră. Pentru al treilea sunet, rotunjește buzele și lasă aerul să curgă continuu. Pune mâna pe gât pentru a simți vibrația corzilor vocale.
 
-## Reguli de citire
+## Reguli de scriere
 
-Înaintea literelor a, o, u, a consoanelor sau la sfârșit, se rostește sunetul /ɡ/, ca în (gas) /ɡæs/. Înaintea literelor e, i sau y, redă adesea sunetul /dʒ/, ca în (gem) /dʒɛm/. În unele împrumuturi franțuzești devine sunetul /ʒ/, ca în (genre) /ʒɒn.rə/. Înaintea literei n este mută, ca în (sign) /saɪn/.
+Înaintea literelor a, o, u, a consoanelor sau la sfârșit de cuvânt, auzi sunetul /ɡ/, ca în (gas) /ɡæs/ sau (dog) /dɒɡ/. Deseori înaintea literelor e, i sau y, apare sunetul /dʒ/, ca în (gem) /dʒɛm/ sau (gym) /dʒɪm/. În unele împrumuturi din franceză, se rostește sunetul /ʒ/, ca în (genre) /ʒɒn.rə/ sau (regime) /reɪ.ʒiːm/. Litera nu se pronunță deloc înaintea literei n, ca în (sign) /saɪn/ sau (gnat) /næt/.
 
-## Diferențe față de română
+## Capcane frecvente
 
-Sunetele corespund fidel celor din română pentru literele g din gard, g din ger și j din joc. Totuși, nu uita că această literă nu se aude deloc când stă lângă litera n.
+Sunetele acestei litere seamănă foarte bine cu cele din limba română. Sunetul /ɡ/ este identic cu cel din gard, iar sunetul /dʒ/ seamănă perfect cu cel din ger. Sunetul /ʒ/ este identic cu cel din jar. Singura capcană este tendința de a citi litera când stă lângă n. Păstreaz-o complet mută.

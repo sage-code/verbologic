@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului cl
 
-Grupul de litere se rostește /kl/. Sunetul său de bază este /kl/, ca în cuvântul (clap) /klæp/.
+Grupul de litere cl se citește prin sunetele /kl/. Se aude clar în cuvântul (clap) /klæp/, care înseamnă aplauze. Acest grup consonantic are o singură pronunție în limba engleză.
 
-## Pronunția grupului cl
+## Pronunția sunetelor
 
-Lipește spatele limbii de vălul palatului pentru a elibera aerul fără voce. Apoi atinge gingia dinților de sus cu vârful limbii și lasă aerul să iasă pe margini, activând corzile vocale.
+Partea din spate a limbii atinge cerul gurii și eliberează brusc aerul, fără vibrația corzilor vocale. Imediat, vârful limbii urcă pe gingia de sus, iar aerul trece pe lateral. Dacă pui mâna pe gât, simți vibrație abia la al doilea sunet.
 
-## Ortografia grupului cl
+## Reguli de scriere
 
-Grupul se rostește întotdeauna /kl/ în toate pozițiile unui cuvânt, așa cum apare în (club) /klʌb/.
+În toate pozițiile din cuvinte, acest grup redă aceeași succesiune de sunete /kl/. Îl găsești de exemplu în termenul (club) /klʌb/.
 
-## Comparație cu limba română
+## Capcane de pronunție
 
-Pronunția este identică cu secvența din limba română din cuvântul clar. Nu există dificultăți reale pentru vorbitorii de română.
+Vorbitorii de limbă română pronunță uneori primul sunet moale dacă urmează o vocală precum e sau i. Nu schimba consoana într-un sunet apropiat de cel din cuvântul chemare. Păstrează sunetul tare și clar, exact ca în cuvântul românesc clar.

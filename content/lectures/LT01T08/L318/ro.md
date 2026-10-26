@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului ee
 
-Această literă dublă redă sunetul /iː/, un i lung, ca în cuvântul (tree) /triː/. Numele său rostit este tot sunetul /iː/, adică un i lung.
+Grupul ee se rostește cel mai des ca sunetul /iː/, adică un i lung. Îl auzi în cuvântul (tree) /triː/, care înseamnă copac. În limba engleză, această alăturare de litere redă două sunete diferite.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Pentru sunetul lung, întinde buzele într-un zâmbet și ține limba ridicată în față. Pentru varianta scurtă, relaxează puțin buzele și coboară limba doar o idee.
+Pentru primul sunet, întinde buzele într-un zâmbet larg și ridică limba aproape de cerul gurii, menținând vibrația mai mult timp. Pentru al doilea sunet, relaxează buzele și coboară foarte puțin maxilarul, rostind sunetul scurt. Pune degetele pe gât pentru a simți vibrația corzilor vocale la ambele sunete.
 
-## Reguli de pronunție
+## Reguli de citire
 
-În mod obișnuit, această literă dublă redă sunetul /iː/, un i lung, ca în (see) /siː/ sau (feed) /fiːd/. Într-o serie restrânsă de excepții, se rostește ca sunetul /ɪ/, un i scurt și relaxat, ca în (been) /bɪn/.
+În marea majoritate a cuvintelor, grupul ee redă sunetul /iː/, adică un i lung, ca în (see) /siː/ sau (feed) /fiːd/. În câteva excepții foarte rare, grupul se rostește scurt, ca sunetul /ɪ/, adică un i scurt și relaxat, ca în cuvântul (been) /bɪn/.
 
-## Capcane de pronunție
+## Capcane frecvente
 
-Vorbitorii de română tind să folosească mereu sunetul din cuvântul fir. Nu scurta vocala lungă și nu o înlocui pe cea scurtă cu un sunet prea tensionat.
+Vorbitorii de limbă română tind să scurteze sunetul lung sau să folosească sunetul din cuvântul românesc fir. Pentru a rosti corect sunetul lung, prelungește sunetul cu buzele întinse. Pentru sunetul scurt, nu rosti un i românesc tensionat, ci relaxează complet limba și gura.

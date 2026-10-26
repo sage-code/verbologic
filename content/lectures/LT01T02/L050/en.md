@@ -20,18 +20,18 @@ terms:
   ro: "Ce / Ci"
 ---
 
-## The Sound of Ce and Ci
+## The letter combinations Ce and Ci
 
-The letter combinations **ce** and **ci** represent the voiceless postalveolar affricate `/tʃ/`, which is identical to the English **ch** in *church* or *cherry*. Before the front vowels **e** and **i**, the Romanian **c** naturally softens into this affricate rather than producing a hard `/k/`. Unlike in French or Spanish where **c** before front vowels turns into `/s/` or `/θ/`, Romanian retains an affricate just like Italian.
+This letter group is called /tʃe/ or /tʃi/. Its main sound is heard in (ceai) /tʃe/, which means request, petition. It produces two distinct sounds in Romanian depending on its position.
 
-## How to Produce the Sound
+## How to say Ce and Ci
 
-Place the tip of your tongue against the back of your upper tooth ridge, just as you would to make a `/t/`. Build up slight air pressure, then release it slowly through a narrow channel between your tongue blade and the roof of your mouth to create the friction of `/ʃ/`. Round your lips slightly and keep your vocal cords relaxed without vibrating.
+For the first sound, press the tip of your tongue against the tooth ridge behind your upper teeth. Release the breath sharply through a small gap while rounding your lips slightly. The vocal cords do not vibrate. For the second sound, make this same release while flattening the middle of your tongue toward the roof of your mouth.
 
-## Spelling Patterns and Rules
+## Spelling rules for Ce and Ci
 
-When followed by **e** or **i**, the single letter **c** is invariably pronounced `/tʃ/`. In words like *ceai* or *ciorbă*, the vowels **e** and **i** serve primarily as diacritics indicating the `/tʃ/` sound before another vowel. Word-finally, as in *paci* or *maci*, the final **i** is usually non-syllabic, resulting in an inherently palatalised consonant `/tʃʲ/` rather than a full extra syllable.
+The letters produce the sound /tʃ/ when they stand before an ordinary vowel, as in (cine) /ˈtʃi.ne/. They produce the palatalized sound /tʃj/ at the very end of a word before a brief non-syllabic vowel, as in (saci) /satʃʲ/.
 
-## Contrasting Sounds and Pitfalls
+## Avoiding common mistakes
 
-Take care not to confuse **ce** / **ci** (`/tʃ/`) with **che** / **chi** (`/k/`), where the silent **h** restores the hard velar stop. English speakers often accidentally pronounce words like *chitară* with an affricate, or conversely pronounce *cinema* with an `/s/` sound influenced by French or English spelling habits. Remember: **ce** and **ci** are always pronounced with the **ch** sound in Romanian.
+English speakers often pronounce these letters like the soft sound in the English word cereal. Instead, always produce the crisp consonant heard in the English word cheese. When ending a word, avoid adding a full extra beat like the ending of the English word catchy. Keep the final release sharp and short.

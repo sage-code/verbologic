@@ -20,18 +20,18 @@ terms:
   ro: "Z"
 ---
 
-## The Sound of Z
+## Letter sound
 
-In Romanian, the letter **Z** represents a voiced alveolar fricative `/z/`. It sounds exactly like the English 'z' in **zoo** or the 's' in **rose**. Unlike German or Italian, Romanian **Z** is never pronounced as an affricate like `[ts]` or `[dz]`.
+This letter is called the sound /z/. It represents the sound /z/, as in the word (zi) /ˈzɛ.bre/, which means zebra. It makes only one sound in Romanian.
 
-## How to Pronounce It
+## Mouth shape
 
-Place the tip of your tongue very close to the alveolar ridge just behind your upper front teeth without touching it. Force air through this narrow central channel while actively vibrating your vocal cords to create friction. Keep your lips relaxed in a neutral or slightly spread position.
+Bring your teeth lightly together, and spread your lips slightly. Place the tip of your tongue near the ridge behind your upper front teeth without touching it. Blow air through the narrow channel while vibrating your vocal cords. Place two fingers on your throat to feel the steady buzzing vibration.
 
-## Spelling and Occurrence
+## Reading rules
 
-The letter **Z** appears in all word positions: word-initially as in **ziuă** (day), word-medially as in **fereastră**-derived forms or **muzică** (music), and word-finally as in **miez** (core). Romanian maintains voicing word-finally, meaning **Z** does not devoice to `[s]` at the end of isolated words.
+This letter always produces the sound /z/ in standard positions, including initial, medial, and final spots. A clear example of this sound in the middle of a word is (varză) /ˈvar.zə/.
 
-## Comparing and Common Mistakes
+## Common pitfalls
 
-English speakers usually pronounce this sound accurately without difficulty. A major pitfall occurs for speakers of German or Romance languages who may instinctively say `[ts]` (like German 'Zimmer') or `[θ]`. Always maintain a continuous, voiced buzzing sound `/z/` identical to the 'z' in English.
+English speakers usually have no trouble with this letter because it matches the English sound in zebra. Just remember not to harden it into an English sound like in church, or soften it into an English sound like in shoe. Keep your vocal cords vibrating steadily throughout.

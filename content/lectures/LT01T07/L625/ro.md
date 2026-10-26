@@ -20,18 +20,18 @@ terms:
   ro: "-ough"
 ---
 
-## Sunetul grupului -ough
+## Sunetul grupului ough
 
-Numele acestui grup este sunetul /oʊ/. Cea mai comună pronunție este diftongul din cuvântul (though) /ðoʊ/.
+Grupul de litere -ough se numește /oʊ/. Sunetul său principal este diftongul /oʊ/, ca în cuvântul (though) /ðoʊ/, care înseamnă deși. În limba engleză, acest grup istoric de litere redă patru pronunții complet diferite, în funcție de cuvânt.
 
-## Cum se pronunță -ough
+## Pronunția sunetelor
 
-Pentru diftong, pornește cu buzele neutre și rotunjește-le spre final. Pentru vocalele lungi, ține buzele rotunjite și limba retrasă. Pentru varianta cu consoană, atinge buza inferioară de dinții de sus și suflă aer fără să folosești corzile vocale.
+Pentru primul sunet, pornește de la o și rotunjește buzele spre u. Pentru al doilea sunet, ține buzele strânse și rotunjite pentru un u lung. Pentru al treilea sunet, deschide gura larg și rotunjește buzele pentru un o lung și deschis. Pentru ultimul sunet, rostește o vocală scurtă din gât, apoi pune dinții de sus pe buza de jos. Pune mâna pe gât pentru a simți vibrația corzilor vocale.
 
-## Ortografia grupului -ough
+## Reguli de citire
 
-Grupul -ough redă sunetul /oʊ/ în (dough) /doʊ/. În cuvântul (through) /θruː/, acesta sună ca un u lung, sunetul /uː/. Înainte de litera t, se rostește ca sunetul /ɔː/, adică un o deschis și lung, în (thought) /θɔːt/. În cuvinte ca (rough) /rʌf/, se aude ca sunetul /ʌf/.
+Grupul -ough redă diftongul /oʊ/ în cuvântul (dough) /doʊ/. Același grup se pronunță ca o vocală lungă /uː/ în (through) /θruː/. Înainte de litera t, grupul sună ca vocala lungă /ɔː/, adică un o deschis, ca în (thought) /θɔːt/. La finalul unor cuvinte scurte, grupul se citește ca secvența /ʌf/, adică o vocală scurtă urmată de f, ca în (rough) /rʌf/.
 
-## Dificultăți pentru vorbitori
+## Diferențe față de română
 
-Vorbitorii de limbă română au tendința să citească literele separat, ca în cuvântul ogor. Grupul nu are niciodată sunetul g sau un h rostit separat. Reține că această combinație redă o singură vocală sau o vocală urmată de f.
+Vorbitorii de limba română tind să citească fiecare literă scrisă, rostind sunetele o sau g. Nu pronunța niciodată sunetul g în acest grup. De asemenea, nu confunda vocala scurtă din cuvântul românesc pot cu vocala lungă și deschisă din limba engleză. Deschide gura mai mult și prelungește sunetul. Învață pronunția fiecărui cuvânt separat, fără a încerca să deduci sunetul din litere.

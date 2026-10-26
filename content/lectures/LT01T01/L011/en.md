@@ -20,18 +20,18 @@ terms:
   ro: "I"
 ---
 
-## The Sound of I
+## The letter i
 
-The Romanian letter **I** most commonly sounds like the pure vowel `/i/`, equivalent to the 'ee' in English *meet*. However, it can also act as the glide `/j/` (like 'y' in *yes*) or reduce to a subtle 'whispered' palatalized marker `/ʲ/` at the end of words. Unlike English vowels, the full Romanian `/i/` never glides into a diphthong on its own.
+The name of this letter is pronounced /i/ or /j/. Its primary sound is heard in (inimă) /iˈnel/, which means ring. Overall, this letter produces three distinct sounds across different positions in words.
 
-## How to Pronounce It
+## Making the sounds
 
-Spread your lips slightly wide as if giving a gentle smile. Raise the front of your tongue high towards the roof of your mouth, keeping your vocal cords vibrating. When pronouncing the final whispered `/ʲ/`, stop the sound immediately without letting a full vowel emerge, producing only a brief release of breath across the palate.
+For the full vowel, raise your tongue high and forward while spreading your lips wide. To form the gliding sound, push your tongue even higher toward the roof of your mouth and release quickly. For the final faint sound, lift your tongue toward your palate as you pronounce the preceding consonant. Feel your vocal cords vibrate continuously throughout the vowels.
 
-## Spelling and Patterns
+## Spelling rules
 
-**I** is written as uppercase **I** and lowercase **i**. It is ubiquitous across Romanian vocabulary and serves vital grammatical functions, frequently marking plurals and second-person singular verb forms. In digraphs like **ci** and **gi**, it often functions merely as a softening marker before other vowels.
+This letter represents the full vowel sound /i/ in most positions, as in (inel) /iˈnel/. It serves as a gliding semivowel /j/ next to other vowels, as seen in (iarbă) /ˈjar.bə/. At the end of words following a consonant, it becomes a brief palatal breath sound /ʲ/, as heard in (lupi) /lupʲ/.
 
-## Variants and Common Pitfalls
+## Avoiding pitfalls
 
-Notice the stark contrast between the full vowel in *inel* (`/iˈnel/`), the glide in *iarbă* (`/ˈjar.bə/`), and the subtle final sign in *lupi* (`/lupʲ/`). A frequent mistake for English speakers is pronouncing final **-i** as a full syllable `/i/`, which can confuse singular and plural forms or sound unnaturally heavy.
+English speakers often pronounce a final consonant marker as a full vowel, turning the end of words into the vowel of see. Instead, keep the final letter silent and merely soften the preceding consonant. Also avoid substituting the short relaxed vowel of the English word sit for the clear Romanian sound.

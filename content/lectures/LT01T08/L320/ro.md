@@ -20,18 +20,18 @@ terms:
   ro: "oa in boat (barcă)"
 ---
 
-## Grupul de litere oa
+## Sunetul grupului oa
 
-Acest grup se numește /oʊ/. Sunetul său principal este diftongul /oʊ/, pe care îl auzi în cuvântul (oak) /oʊk/.
+Grupul de litere oa se rostește cel mai des ca diftongul /oʊ/. Îl auzi în cuvântul (oak) /oʊk/, care înseamnă stejar. Acest grup redă două sunete diferite în limba engleză.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Pentru diftong, pornești cu buzele rotunjite moderat și limba la mijloc, apoi strângi buzele spre un u scurt. Pentru vocala lungă, deschizi gura mai mult, cobori limba și ții buzele rotunjite fără să le miști.
+Pentru primul sunet, rotunjește buzele și pornește de la o, apoi glisează ușor spre u. Pentru al doilea sunet, deschide gura mai larg și trage limba spre spate, ținând buzele rotunjite și vocala lungă. Pune mâna pe gât ca să simți vibrația constantă a corzilor vocale.
 
-## Reguli de pronunție
+## Reguli de citire
 
-În mod obișnuit, grupul redă diftongul /oʊ/, de pildă în (boat) /boʊt/. Când este urmat de litera r, se pronunță ca vocala lungă /ɔː/, adică un o lung și deschis, ca în cuvântul (roar) /rɔːr/.
+În mod obișnuit, grupul oa redă diftongul /oʊ/, ca în cuvântul (boat) /boʊt/. Atunci când este urmat de litera r, grupul se citește ca sunetul /ɔː/, adică un o lung și deschis, ca în cuvântul (roar) /rɔːr/.
 
-## Capcane pentru români
+## Capcane de pronunție
 
-Nu pronunța acest grup ca diftongul românesc din cuvântul soare. Primul sunet începe cu o și glisează spre u, iar cel dinaintea literei r este doar o lung, fără vreun u la final.
+Vorbitorii de limbă română tind să citească două vocale separate sau un simplu o scurt din cuvântul pot. Nu împărți literele în silabe diferite. Glisează lin de la o la u pentru diftong, iar înaintea literei r ține buzele fixe și sunetul lung.

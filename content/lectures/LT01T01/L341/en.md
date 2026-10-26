@@ -20,18 +20,18 @@ terms:
   ro: "Q"
 ---
 
-## The Sound of Q in Romanian
+## Letter sound
 
-The letter **Q** represents the voiceless velar plosive `/k/`. It is not a native Romanian letter and appears exclusively in borrowed terms, international scientific vocabulary, and foreign proper names. Depending on the source language of the loanword, it may be followed by `/v/`, `/w/`, or pronounced simply as a standalone `/k/`.
+The name of this letter is /k/. It mainly represents the sound /k/, heard in (quasar) /kwi.k‿step/, which means quickstep. This letter has only one sound in Romanian.
 
-## Pronouncing Q
+## Pronouncing the sound
 
-Place the back of your tongue firmly against your soft palate (velum) to block the airflow completely. Release the tongue sharply to let the burst of air escape without vibrating your vocal cords. Keep the sound crisp and unaspirated, just like the standard Romanian **C** before **A** or **O**.
+Press the back of your tongue firmly against the soft roof of your mouth. Stop the airflow completely for a moment, then release it sharply without adding extra breath. Your vocal cords stay still. Hold a flat palm close to your lips to check that you feel only a faint burst of air.
 
-## Spelling and Usage of Q
+## Spelling rules
 
-The letter **Q** is one of the modern additions to the Romanian 31-letter alphabet, specifically kept for foreign borrowings. It is virtually always followed by **U** in words derived from Latin, English, or French, such as *quiproquo* or *quasar*. However, native Romanian vocabulary systematically uses **C** or the digraph **CH** for the `/k/` sound.
+This letter appears in foreign loanwords and names, where it always represents the sound /k/. You can hear this sound in the country name (Qatar) /kaˈtar/.
 
-## Variants and Common Pitfalls
+## Common mistakes
 
-Speakers should be careful not to apply an English-style aspirated `/kʰ/` sound when reading loanwords in Romanian. In words like *Qatar*, the **Q** is pronounced directly as a clean `/k/`, whereas in *quasar*, the sequence **qu** is standardly read as `/kv/`. Take care to pronounce the sound sharply in the mouth rather than letting it turn into a guttural stop.
+English speakers often release this sound with a strong puff of breath. In Romanian, the sound is crisp and clean, like the sound in the English word skate rather than cat. Keep your airflow tightly checked so you never whisper an extra breath after the release.

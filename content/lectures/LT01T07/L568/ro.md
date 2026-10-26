@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei pi
 
-Numele acestei litere este (P) /piː/. Sunetul său principal este sunetul /p/, ca în cuvântul (pen) /pɛn/.
+Numele acestei litere este (P) /piː/. Sunetul său principal este sunetul /p/, ca în cuvântul (pen) /pɛn/, care înseamnă pix. În limba engleză, această literă poate produce un singur sunet sau poate rămâne mută în anumite cuvinte.
 
 ## Pronunțarea sunetului
 
-Atingeți buzele ferm pentru a opri complet aerul. Deschideți-le apoi brusc printr-o mică explozie de aer, fără vibrația corzilor vocale.
+Atingeți buzele ferm una de cealaltă pentru a opri aerul, apoi deschideți-le brusc pentru a elibera o explozie scurtă de aer. Corzile vocale nu vibrează deloc. Puneți o mână în fața gurii și simțiți o suflare clară de aer când rostiți sunetul la începutul unui cuvânt.
 
-## Reguli de citire
+## Reguli de scriere
 
-În cele mai multe poziții se aude sunetul /p/, ca în (cup) /kʌp/. În unele cuvinte împrumutate sau compuse litera rămâne mută, spre exemplu în (cupboard) /kʌ.bəd/ ori în (corps) /kɔː/.
+În cele mai multe cazuri, la început, în mijloc sau la sfârșit de cuvânt, litera redă sunetul /p/, ca în cuvântul (cup) /kʌp/. Litera nu se pronunță deloc înainte de anumite consoane la început de cuvânt sau în unele cuvinte împrumutate, cum sunt (cupboard) /kʌ.bəd/ și (corps) /kɔː/.
 
-## Capcane frecvente
+## Capcane pentru români
 
-Vorbitorii de limbă română pronunță adesea acest sunet fără suflu de aer. La începutul cuvintelor englezești, rostiți-l cu o ușoară expirație, mult mai puternic decât în cuvântul românesc pas.
+În limba română, sunetul din cuvântul pas nu este aspirat. În engleză, la începutul silabelor accentuate, sunetul este însoțit de o mică suflare de aer. Țineți o palmă aproape de buze și asigurați-vă că simțiți acel jet de aer.

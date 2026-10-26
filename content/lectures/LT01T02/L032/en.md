@@ -20,18 +20,18 @@ terms:
   ro: "oa"
 ---
 
-## The Sound of 'oa'
+## The diphthong sound
 
-The letter combination **oa** represents the ascending diphthong `[o̯a]`, where a non-syllabic, rounded glide transitions smoothly into a full open vowel. English does not have an exact equivalent, though it sounds somewhat similar to the glide in *water* or *waft*, but beginning distinctly on a rounded `[o]` rather than a consonantal English *w*. The main stress and duration always fall heavily on the `[a]` portion.
+The letter group oa is pronounced /o̯a/. Its main sound is the diphthong /o̯a/, heard in the Romanian word (oameni) /ˈno̯ap.te/, which means night. This letter combination always represents just one single diphthong sound in standard Romanian speech.
 
-## How to Pronounce 'oa'
+## Mouth position
 
-Start by rounding your lips slightly as if you are about to produce a short, mid-back `[o]`. Without pausing or stopping the airflow, quickly open your jaw wide and drop your tongue to the floor of your mouth to produce a resonant `[a]`. Ensure that the glide is smooth and produced in one continuous syllable.
+Start with your lips rounded and your tongue pulled slightly back. Glide smoothly and immediately into a wide, open mouth position. Your tongue drops down while your jaw opens fully. Keep your vocal cords vibrating continuously throughout the entire movement. Feel the continuous glide without any break in your airflow.
 
-## Spelling and Alternations
+## Reading the spelling
 
-This digraph is exceedingly common in Romanian and is written as **oa** in lowercase and **Oa** at the beginning of sentences. It very frequently alternates with the single vowel **o** in morphological paradigms, particularly between singular and plural forms or verb conjugations (such as *școală* vs. *școli*). It almost exclusively appears in stressed syllables.
+The group oa is written to show a falling diphthong in stressed syllables. Whenever you see these two letters together in such syllables, pronounce the sound /o̯a/, as in the word (soare) /ˈso̯a.re/.
 
-## Comparing 'oa' with Other Sounds
+## Avoiding English pitfalls
 
-Learners often make the mistake of splitting **oa** into two separate syllables (`[o.a]`), which sounds unnatural and breaks Romanian rhythm. Compare the single-syllable diphthong in *floare* (`/ˈflo̯a.re/`) with two distinct vowels across a hiatus like *poet* (`/poˈet/`). Another frequent error is substituting an English *wa* sound, which makes the opening element too tight and consonantal.
+English speakers often separate the two vowels into two syllables, as in the word oasis. Do not pronounce two distinct beats. Blend both elements into one single continuous glide, similar to the quick transition in the word wash. Make sure your lips round quickly before opening wide.

@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei ge
 
-Numele acestei litere este (G) /g/. Sunetul său principal este sunetul /ɡ/, la fel ca în cuvântul (gas) /ɡæs/.
+Numele acestei litere este (G) /g/. Sunetul ei de bază este sunetul /ɡ/, ca în cuvântul (gas) /ɡæs/, care înseamnă gaz. Litera are trei pronunții diferite în vorbire, iar în unele poziții nu se aude deloc.
 
-## Pronunția literei ge
+## Pronunția sunetelor literei
 
-Pentru sunetul /ɡ/, atinge cerul gurii cu spatele limbii și eliberează aerul cu vibrația corzilor vocale. Pentru sunetul /dʒ/, lipește vârful limbii în spatele dinților de sus și desprinde-l treptat. Pentru sunetul /ʒ/, rotunjește buzele și lasă aerul sonor să treacă continuu.
+Pentru primul sunet, spatele limbii atinge cerul moale al gurii și blochează aerul. Apoi desprinzi limba brusc, făcând corzile vocale să vibreze. Pentru al doilea sunet, vârful limbii atinge gingia din spatele dinților de sus, apoi coboară ușor, lăsând aerul să iasă cu vibrație. Pentru al treilea sunet, limba stă aproape de cerul gurii fără să îl atingă. Pune mâna pe gât și vei simți vibrația vocii.
 
-## Ortografia literei ge
+## Reguli de scriere
 
-Înaintea literelor a, o, u sau a consoanelor, litera redă sunetul /ɡ/, ca în (gold) /ɡoʊld/. Înaintea literelor e, i sau y, redă adesea sunetul /dʒ/, ca în (gem) /dʒɛm/. În împrumuturi din franceză auzi sunetul /ʒ/, ca în (genre) /ʒɑn.rə/. Înaintea literei n, la începutul sau sfârșitul rădăcinii, litera nu se pronunță deloc, ca în (sign) /saɪn/.
+Înaintea literelor a, o, u sau înainte de consoane, litera redă sunetul /ɡ/, ca în (gold) /ɡoʊld/. Înaintea literelor e, i sau y, ea redă adesea sunetul /dʒ/, ca în (gem) /dʒɛm/ sau (giant) /dʒaɪ.ənt/. În cuvinte de origine franceză, înaintea literelor e sau i, litera redă sunetul /ʒ/, ca în (genre) /ʒɑn.rə/ sau (regime) /reɪ.ʒim/. Înainte de litera n la începutul sau la sfârșitul unei rădăcini, litera nu se pronunță deloc, ca în (gnat) /næt/ sau (sign) /saɪn/.
 
 ## Diferențe față de română
 
-În limba română nu există litere mute la început sau sfârșit de cuvânt. Nu citi litera înainte de n. În plus, sunetul /dʒ/ din engleză este mai apăsat decât cel din cuvintele românești ger sau gir.
+Vorbitorii de română pronunță uneori această literă ca în cuvântul ger când văd literele e sau i. În engleză, sunetul /dʒ/ seamănă mai mult cu grupul de litere din cuvântul geam. Lipește bine limba de cerul gurii înainte de a elibera aerul. O altă greșeală este citirea literei înainte de n. În aceste cazuri litera este complet mută.

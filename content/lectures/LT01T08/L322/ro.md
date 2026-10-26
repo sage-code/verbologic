@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului ou
 
-Acest grup de litere se numește /aʊ/. Cel mai frecvent redă diftongul /aʊ/, ca în cuvântul (out) /aʊt/.
+Grupul de litere ou se citește cel mai des ca diftongul /aʊ/, ca în cuvântul (out) /aʊt/, care înseamnă afară. Această combinație redă patru sunete distincte în limba engleză.
 
-## Pronunția sunetelor scrise ou
+## Pronunția sunetelor
 
-Pentru diftongul /aʊ/, deschide gura larg pentru primul element, apoi rotunjește buzele spre un u scurt. Pentru sunetul /uː/, rotunjește buzele strâns. Pentru sunetul /ʌ/, coboară maxilarul relaxat. Pentru sunetul /ə/, ține limba și buzele complet relaxate în centru.
+Pentru primul diftong, deschide gura larg și alunecă spre buze rotunjite. Pentru al doilea sunet, rotunjește strâns buzele și împinge limba spre spate. Pentru al treilea, deschide gura relaxat și coboară mandibula scurt. Pentru ultimul sunet, lasă gura moale și emite un murmur scurt și neutru. Dacă pui mâna pe gât, vei simți vibrația corzilor vocale mereu.
 
-## Ortografia grupului ou
+## Reguli de citire
 
-În silabe accentuate, acest grup redă de regulă diftongul /aʊ/, ca în (loud) /laʊd/. În împrumuturi din franceză sau cuvinte uzuale, sună lung ca /uː/ în (soup) /suːp/ sau (group) /ɡruːp/. În anumite cuvinte native, redă sunetul /ʌ/ în (touch) /tʌtʃ/ sau (cousin) /kʌz.ən/. În silabe neaccentuate, devine sunetul /ə/ în (famous) /feɪ.məs/.
+În cele mai multe silabe accentuate, grupul ou redă diftongul /aʊ/, ca în (loud) /laʊd/. În împrumuturi din franceză și câteva cuvinte uzuale, grupul devine sunetul lung /uː/, ca în (soup) /suːp/ sau (group) /ɡruːp/. În anumite cuvinte native urmate de consoane, auzim sunetul /ʌ/, adică un a scurt și deschis, ca în (touch) /tʌtʃ/ sau (cousin) /kʌz.ən/. În silabe neaccentuate și la sufixe, grupul sună neutru /ə/, ca în (famous) /feɪ.məs/.
 
-## Capcane de pronunție
+## Capcane pentru români
 
-Vorbitorii de română tind să citească mereu acest grup ca diftongul românesc din cuvântul ou. Evită să rostești o urmat de u. În engleză, prima variantă începe larg cu a, iar alteori grupul se reduce la un simplu sunet scurt.
+Vorbitorii de română citesc uneori această combinație ca două vocale separate, cum ar fi în cuvântul ouă. În engleză, literele se contopesc întotdeauna într-un singur diftong sau o vocală clară. De asemenea, nu pronunța un u scurt și dur ca în limba română când întâlnești sunetul lung. Ține buzele mult mai rotunjite și prelungește emisia vocalică.

@@ -20,18 +20,18 @@ terms:
   ro: "V"
 ---
 
-## The Sound of V
+## The letter ve
 
-The letter **V** in Romanian represents the voiced labiodental fricative `/v/`. It sounds identical to the English 'v' in words like *voice* or *river*. Romanian keeps this sound fully voiced throughout words, even when appearing near other consonants.
+The name of this letter is /v/. Its main sound is the voiced sound /v/, as heard in (verde) /ˈvi.no/, which means come. This Romanian letter produces only one sound in standard speech.
 
-## How to Produce /v/
+## Making the sound
 
-Rest the edges of your upper teeth lightly against the inner wet part of your lower lip. Force air smoothly through this light constriction while vibrating your vocal cords. Ensure the airflow is continuous and your voice is fully engaged.
+Rest your upper teeth lightly against the inside of your lower lip. Push air out steadily between the teeth and lip while vibrating your vocal cords. Place your hand on your throat to confirm that you feel a continuous vibration.
 
-## Spelling and Distribution
+## Reading the letter
 
-Written as uppercase **V** and lowercase **v**, this letter occurs in word-initial, medial, and final positions. Romanian spelling is consistently phonetic, meaning **V** always sounds like `/v/` and is never silent or substituted by other letters.
+This letter always produces the voiced sound /v/ across all positions in words. You read it as the sound /v/ in the word (val) /val/.
 
-## Sound Comparisons & Tips
+## Comparing with English
 
-English speakers may sometimes confuse Romanian `/v/` with the semi-vowel `/w/`, especially before rounded vowels like 'o' or 'u'. Be careful in words like *vorbă* to keep the teeth touching the lower lip, avoiding the rounded 'w' sound found in English *water*.
+English speakers produce this sound easily because it matches the ordinary consonant in vine. Take care not to devoice it into the sound /f/ at the very end of words. Keep your vocal cords actively buzzing right up to the end.

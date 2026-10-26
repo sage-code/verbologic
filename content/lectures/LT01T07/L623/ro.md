@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului eigh
 
-Grupul de litere -eigh se rostește cel mai des ca diftongul /eɪ/. Îl auzi în cuvântul (weigh) /weɪ/.
+Grupul de litere -eigh se rostește ca numele său, sunetul /eɪ/. Sunetul principal este diftongul /eɪ/, ca în cuvântul (weigh) /weɪ/, care înseamnă a cântări. Acest grup are două pronunții diferite în limba engleză. Literele finale sunt complet mute în ambele variante.
 
 ## Cum se pronunță
 
-Pentru primul diftong, începe cu buzele întinse pe un sunet mediu și glisează limba spre cerul gurii. Pentru al doilea, deschide gura larg pentru un sunet central și apoi ridică limba spre un sunet închis.
+Pentru primul sunet, deschide gura puțin pentru un e curat, apoi ridică ușor limba spre cerul gurii către un i scurt. Pentru al doilea sunet, coboară maxilarul pentru a rosti un a clar, apoi glisează limba sus spre un i scurt. Pune degetele pe gât și vei simți vibrația corzilor vocale tot timpul.
 
-## Reguli de citire
+## Reguli de scriere
 
-În mod obișnuit, grupul -eigh se citește prin diftongul /eɪ/, ca în cuvântul (sleigh) /sleɪ/. În anumite cuvinte speciale, acest grup se citește prin diftongul /aɪ/, așa cum apare în cuvântul (height) /haɪt/.
+În marea majoritate a cuvintelor, grupul se rostește ca diftongul /eɪ/, de exemplu în cuvântul (sleigh) /sleɪ/. În anumite cuvinte speciale, același grup se pronunță ca diftongul /aɪ/, așa cum se aude în cuvântul (height) /haɪt/. Literele g și h nu se aud niciodată separat.
 
-## Diferențe față de română
+## Capcane de pronunție
 
-Vorbitorii de română au tendința greșită de a citi separat fiecare literă sau de a pronunța consoane inexistente. Nu încerca să rostești literele din mijloc ca sunetul h sau g din limba română.
+Vorbitorii de limba română au tendința de a citi litera g sau litera h ca un sunet aspru, așa cum fac în cuvântul hram. Nu încerca să sufli deloc la final. Al doilea risc este scurtarea diftongului la un e simplu, ca în cuvântul steag. Asigură o trecere lină către sunetul final.

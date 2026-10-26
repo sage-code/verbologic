@@ -20,18 +20,18 @@ terms:
   ro: "iu"
 ---
 
-## The Sound of «iu»
+## The sound of iu
 
-The letter combination **iu** typically represents the rising diphthong `/ju/`, sounding like the "you" in English *youth* or *cube*. Depending on the word and stress, it can also appear in hiatus as two separate vowels `/i.u/`. Unlike English, where this glide can sound somewhat breathy or lax, Romanian preserves a crisp, tense initial semivowel.
+The group iu is named by its sound /ju/. It mostly sounds like the sound /ju/ in (iubit) /juˈbit/, which means beloved. Across Romanian words, this letter group can make two different sounds.
 
-## How to Produce It
+## Pronouncing iu
 
-Begin by arching the middle of your tongue high against the hard palate, exactly as if making an English "y" sound. Then, smoothly glide into the vowel `/u/` by rounding your lips firmly into a tight circle while pulling the body of the tongue slightly back. Ensure the transition is seamless when forming a single syllable.
+For the first sound, glide quickly from a tight tongue near the roof to rounded lips. For the second sound, make two separate vocal beats. First keep the tongue high and unrounded, then push the lips firmly forward for the next beat. Touch your throat to feel continuous vibration across both beats.
 
-## Spelling and Patterns
+## Spelling patterns of iu
 
-The digraph **iu** appears frequently at the beginning of words like **iubit** ("beloved") and **iute** ("fast, spicy"), as well as in verbal conjugations and adjective endings. When an accent or morphological boundary intervenes, as in the verb form **știu** ("I know"), the two vowels form a hiatus and are split into separate syllables. It uses standard casing rules, appearing as **Iu** at the start of a sentence.
+Within a single syllable, the group acts as a glide and makes the sound /ju/, as heard in (iute) /ˈju.te/. When separated across two syllable beats, it sounds as two distinct vowels /i.u/, as in (știu) /ʃti.u/ and (triumf) /triˈumf/.
 
-## Nuances and Common Mistakes
+## Avoiding English pitfalls
 
-Learners often confuse the unified diphthong `/ju/` in words like **iunie** with the split two-syllable sequence `/i.u/` found in words like **triumf**. Avoid inserting a full English "w" or an extra breath between the sounds. Make sure the initial glide remains purely palatal without turning into a fricative or English "j" sound.
+English speakers often merge this group into a single vowel like the word you. Do not blend the letters when they sit in separate beats. Keep each vowel clear and distinct, without adding an English w sound at the end.

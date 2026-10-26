@@ -20,18 +20,18 @@ terms:
   ro: "ow in cow (vacă), snow (zăpadă)"
 ---
 
-## Sunetul grupului ow
+## Sunetele grupului ow
 
-Grupul de litere se numește /aʊ/ or /oʊ/. Cel mai frecvent redă diftongul /aʊ/, ca în cuvântul (owl) /aʊl/.
+Grupul ow se numește sunetul /aʊ/ sau sunetul /oʊ/. În mod obișnuit redă sunetul /aʊ/, ca în cuvântul (owl) /aʊl/, care înseamnă bufniță. Acest grup de litere are două pronunții diferite în limba engleză.
 
 ## Pronunția sunetelor
 
-Pentru primul diftong, deschide gura larg pentru un sunet de tip a, apoi rotunjește buzele spre u. Pentru celălalt diftong, pornește dintr-un o clar și îngustează buzele spre același u.
+Pentru primul sunet, deschide gura larg pentru un a curat. Apoi rotunjește buzele rapid spre un u scurt. Pentru al doilea sunet, începe cu buzele relaxate pentru o. Apoi strânge buzele într-un cerc mic. Pune mâna pe gât și vei simți cum vibrează corzile vocale la ambele sunete.
 
-## Reguli de citire
+## Reguli de scriere
 
-Grupul se rostește cel mai des ca diftongul /aʊ/ la final de cuvânt sau înaintea consoanelor, ca în (cow) /kaʊ/. În alte cazuri, la final sau înaintea anumitor consoane, sună ca diftongul /oʊ/, de pildă în (snow) /snoʊ/.
+Grupul ow redă cel mai des sunetul /aʊ/ la final de cuvânt sau înaintea consoanelor. Un exemplu este cuvântul (cow) /kaʊ/. În alte cazuri frecvente, același grup redă sunetul /oʊ/. Acest lucru se întâmplă la sfârșit de cuvânt, ca în (snow) /snoʊ/. Apare și înaintea unor consoane, ca în cuvântul (bowl) /boʊl/.
 
-## Capcane de pronunție
+## Capcane pentru români
 
-Vorbitorii de limbă română tind să citească al doilea element ca pe o consoană v dură. Asigură-te că treci lin spre un sunet vocalic apropiat de u din cuvântul românesc rouă.
+În limba română nu există diftongul din primul sunet, care seamănă doar parțial cu cel din cuvântul au. În engleză, a doua parte este mai închisă și rotunjită. Al doilea sunet nu este un simplu o românesc, ca în os. Mișcă mereu buzele spre u la final, fără să lași vocala neschimbată.

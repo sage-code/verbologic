@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei vi
 
-Litera se numește (V) /viː/. Ea redă sunetul /v/, ca în cuvântul (van) /væn/.
+Numele acestei litere se rostește (V) /viː/. Sunetul ei principal este sunetul /v/, ca în cuvântul (van) /væn/, care înseamnă furgonetă. Această literă produce un singur sunet în limba engleză.
 
-## Pronunția sunetului vi
+## Pronunțarea sunetului
 
-Atinge ușor dinții de sus de buza de jos. Suflă aerul printre ei în timp ce îți folosești corzile vocale, producând o vibrație continuă.
+Atinge ușor buza de jos cu marginea dinților de sus. Împinge aerul printre dinți și buză fără să oprești fluxul. Activează corzile vocale pentru a crea o vibrație continuă. Dacă pui mâna pe gât, trebuie să simți vibrația clară a vocii în timp ce aerul trece.
 
 ## Reguli de citire
 
-În aproape toate pozițiile, litera se pronunță ca sunetul /v/, de exemplu în cuvântul (river) /rɪv.ər/.
+Această literă produce sunetul /v/ în aproape toate pozițiile dintr-un cuvânt. O întâlnești la mijlocul cuvântului (river) /rɪv.ər/.
 
-## Diferențe față de română
+## Capcane pentru români
 
-Nu există capcane reale pentru vorbitorii de limba română. Sunetul este identic cu cel din cuvintele românești vară sau vis.
+Sunetul englezesc este identic cu cel din cuvântul românesc val. Nu există nicio diferență de pronunție între cele două limbi. Prin urmare, nu există capcane de pronunție pentru vorbitorii de limba română.

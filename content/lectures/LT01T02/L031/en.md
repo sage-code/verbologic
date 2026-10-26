@@ -20,18 +20,18 @@ terms:
   ro: "ea"
 ---
 
-## Sound of the diphthong ea
+## The diphthong sound
 
-The Romanian digraph **ea** represents the diphthong `/e̯a/`, pronounced as a quick glide from a non-syllabic `[e̯]` into a full, open `[a]`. English speakers often confuse it with `/ja/` (like in *yard*), but Romanian **ea** starts slightly lower and more relaxed than a standard English *y*. It is almost always stressed on the second element, creating a smooth acoustic transition within a single syllable.
+The letter combination ea has no separate letter name and is pronounced as the sound /e̯a/. It makes the diphthong sound /e̯a/ heard in (seară) /ˈse̯a.rə/, meaning evening. This combination makes one single sound in Romanian.
 
-## How to pronounce ea
+## Pronouncing the sound
 
-Begin by setting your tongue in the mid-front position for a short Romanian **e**, but without giving it any stress. Immediately open your jaw wider and flatten your tongue downward into a resonant **a**. Make sure the transition happens fluidly inside one single breath impulse without creating a hiatus or pause.
+Start with your tongue mid-high and forward, with your lips unrounded. Quickly glide your tongue low and central while opening your mouth wide. Voice sounds continuously through your vocal cords throughout the glide. You can feel your jaw drop swiftly from the glide to the main open vowel.
 
-## Spelling and distribution
+## Reading the combination
 
-The letter combination **ea** is extremely common in Romanian inflection and vocabulary, especially in feminine nouns, adjectives, and verb imperfect endings. It generally appears in stressed syllables or word-finally, as in **cafea** or **vedea**. Note that when preceded by letters like *c* or *g*, such as in *ceas* or *geam*, it simply marks an affricate followed by `/a/`, rather than a true diphthong.
+The group ea functions as a standard falling diphthong in stressed syllables, producing the sound /e̯a/ in (cafea) /kaˈfe̯a/.
 
-## Tips and common pitfalls
+## Common English mistakes
 
-Be careful not to pronounce **ea** as two distinct syllables (`/e.a/`), which completely changes the rhythm and can sound unnatural. Avoid also over-palatalizing the glide into a sharp English *y* `/j/`. Practice distinguishing minimal pairs or alternations like **seară** (evening) versus **seri** (evenings) to master the morphological shift from **ea** to **e**.
+English speakers often separate the two letters into two distinct syllables or use the vowel in bed followed by the vowel in cat. Keep both elements tightly inside one syllable, starting with a brief glide and ending loudly on the open vowel sound.

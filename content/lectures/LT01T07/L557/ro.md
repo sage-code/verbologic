@@ -20,18 +20,18 @@ terms:
   ro: "E"
 ---
 
-## Sunetul literei i lung
+## Sunetul literei e
 
-Numele acestei litere este (E) /iː/. Sunetul său principal este sunetul /ɛ/, pe care îl auzi în cuvântul (egg) /ɛɡ/.
+Numele acestei litere este (E) /iː/. Sunetul său principal se aude în cuvântul (egg) /ɛɡ/, care înseamnă ou. În limba engleză, această literă are patru pronunții diferite.
 
-## Pronunția literei i lung
+## Cum se pronunță
 
-Pentru sunetul /iː/, întinde buzele și ridică limba în față sus. Pentru sunetul /ɛ/, deschide gura puțin mai mult. Pentru sunetul /ə/, ține limba și buzele complet relaxate în mijlocul gurii. Toate folosesc coardele vocale.
+Pentru primul sunet, deschide gura mediu și ține limba relaxată în față. Pentru al doilea sunet, întinde buzele și ridică limba aproape de cerul gurii. Sunetul al treilea este foarte scurt, cu gura și limba complet relaxate în centru. Ultimul mod este fără sunet. Pune o mână pe gât pentru a simți vibrația vocii.
 
-## Ortografia literei i lung
+## Reguli de citire
 
-În silabe închise, litera (E) /iː/ redă sunetul /ɛ/, ca în (bed) /bɛd/. În silabe deschise accentuate, se aude ca sunetul /iː/ lung, ca în (me) /miː/. În silabe neaccentuate, devine sunetul /ə/, ca în (problem) /prɒb.ləm/. La sfârșitul cuvintelor este adesea mută, ca în (take) /teɪk/.
+În silabe închise, litera redă sunetul /ɛ/, ca în (bed) /bɛd/. În silabe deschise accentuate, se pronunță sunetul /iː/ lung, ca în cuvântul (me) /miː/. În silabe neaccentuate, litera devine un sunet neutru /ə/, ca în (problem) /prɒb.ləm/. La sfârșitul multor cuvinte, această literă nu se pronunță deloc, ca în (take) /teɪk/.
 
-## Greșeli frecvente la litera i lung
+## Diferențe față de română
 
-Vorbitorii de română tind să citească mereu această literă ca un e scurt românesc. Nu uita să lungești sunetul când litera redă un i lung. De asemenea, nu pronunța litera de la finalul cuvintelor când este mută.
+Vorbitorii de română tind să pronunțe sunetul lung ca pe un i scurt românesc din cuvântul nisip. Întinde buzele mai mult și prelungește sunetul. Altă greșeală este citirea literei la sfârșitul cuvintelor. Nu rosti vocala finală din cuvintele englezești așa cum faci în mod normal în română.

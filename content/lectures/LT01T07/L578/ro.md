@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei zed
 
-Litera se numește (Z) /ziː/. Sunetul ei principal este consoana /z/, ca în cuvântul (zebra) /z/.
+Litera se numește (Z) /ziː/. Sunetul său principal este sunetul /z/, ca în cuvântul (zebra) /z/, care înseamnă zebră. În limba engleză, această literă poate produce trei sunete diferite.
 
-## Pronunția sunetelor literei
+## Pronunția sunetelor
 
-Pentru primul sunet, așază vârful limbii aproape de dinți și vibrează corzile vocale. Pentru al doilea, ridică limba spre cerul gurii cu vibrație sonoră. Pentru al treilea sunet, oprește aerul scurt la dinți și eliberează-l fâșâit fără voce.
+Pentru primul sunet, așază vârful limbii foarte aproape de dinții de sus. Scoate aerul continuu și fă corzile vocale să vibreze. Pentru al doilea sunet, retrage puțin limba și rotunjește buzele, lăsând vocea să sune cald. Pentru ultimul sunet, blochează aerul scurt cu limba pe dinți, apoi eliberează-l brusc fără voce. Pune degetele pe gât pentru a simți vibrația la primele două sunete.
 
-## Reguli de pronunție
+## Reguli de scriere
 
-În mod obișnuit, litera redă sunetul /z/, ca în (zone) /zoʊn/. Înaintea unei vocale neaccentuate, ea produce sunetul /ʒ/, ca în (azure) /æ.ʒər/. În cuvinte împrumutate din germană sau italiană, redă sunetul compus /ts/, de exemplu în (pizza) /pit.sə/.
+În mod obișnuit, în marea majoritate a pozițiilor, vei citi sunetul /z/, ca în (zone) /zoʊn/. Înaintea unei vocale neaccentuate sau înainte de litera u, se rostește sunetul /ʒ/, ca în (azure) /æ.ʒər/. În cuvinte împrumutate din alte limbi precum germana sau italiana, litera redă sunetul /ts/, de pildă în (pizza) /pit.sə/.
 
 ## Capcane de pronunție
 
-Sunetele acestei litere corespund exact cu zgomotul din română pentru z, j sau ț. Nu există capcane deosebite de pronunție pentru vorbitorii de română.
+Vorbitorii de limba română cunosc deja aceste sunete foarte bine. Sunetul principal seamănă perfect cu cel din cuvântul ziar. Nu rosti un simplu sunet surd la început de cuvânt. Asigură-te mereu că simți vibrația vocii din plin.

@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului ng
 
-Grupul ng se numește sunetul /ŋ/. În mod obișnuit redă sunetul /ŋ/, ca în cuvântul (sing) /sɪŋ/.
+Numele grupului ng este sunetul /ŋ/. Sunetul său principal este sunetul /ŋ/, ca în cuvântul (sing) /sɪŋ/, care înseamnă a cânta. Grupul ng are două pronunții diferite în limba engleză.
 
-## Pronunția grupului ng
+## Cum se pronunță
 
-Ridică spatele limbii spre vălul palatului moale, blocând aerul în gură. Lasă aerul să iasă liber prin nas, făcând corzile vocale să vibreze. Pentru al doilea sunet, eliberează brusc blocajul printr-un sunet scurt din gât.
+Pentru primul sunet, ridică spatele limbii spre cerul moale al gurii și blochează aerul acolo. Lasă aerul să iasă complet prin nas, făcând corzile vocale să vibreze. Pentru al doilea sunet, formează aceeași rezonanță nazală, apoi desprinde brusc limba pentru o explozie scurtă a vocii. Dacă pui degetul pe o nară, vei simți vibrația aerului.
 
-## Ortografia grupului ng
+## Reguli de scriere
 
-La sfârșitul unei silabe sau al unui cuvânt, ng redă sunetul /ŋ/, ca în (ring) /rɪŋ/ sau (long) /lɒŋ/. În interiorul unui morfem, înaintea unei vocale, se aude secvența /ŋɡ/, ca în (finger) /fɪŋ.ɡər/ ori (angle) /æŋ.ɡəl/.
+La sfârșitul unui cuvânt sau al unei silabe, grupul ng se citește ca sunetul /ŋ/, ca în (ring) /rɪŋ/ sau (long) /lɒŋ/. În interiorul rădăcinii unui cuvânt, înaintea unei vocale, grupul ng se pronunță ca sunetul /ŋɡ/, de pildă în (finger) /fɪŋ.ɡər/ sau (angle) /æŋ.ɡəl/.
 
-## Capcane de pronunție
+## Greșeli frecvente
 
-Vorbitorii de română tind să adauge mereu un sunet g la sfârșit. Sunetul final este nazal, similar cu n rostit înainte de c în cuvântul bancă, dar fără să mai pronunți deloc g după el.
+Vorbitorii de limbă română adaugă adesea un sunet g la sfârșit de cuvânt, pronunțând ca în cuvântul românesc dungă. Nu coborî limba cu un pocnet dur, ci menține fluxul de aer continuu prin nas. În cuvinte ca bancă, limba se află în poziția corectă, dar aerul nu trebuie tăiat brusc.

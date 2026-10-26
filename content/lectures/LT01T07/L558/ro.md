@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei ef
 
-Numele acestei litere este (F) /ef/. Sunetul său principal este sunetul /f/, pe care îl auzi în cuvântul (fish) /fɪʃ/.
+Numele acestei litere se rostește (F) /ef/. Sunetul ei principal este sunetul /f/, ca în cuvântul (fish) /fɪʃ/, care înseamnă pește. Această literă produce două sunete diferite în limba engleză.
 
-## Pronunția sunetelor
+## Pronunțarea sunetelor
 
-Pentru sunetul surd, atinge dinții de sus de buza de jos și suflă aer fără voce. Pentru varianta sonoră, păstrează exact aceeași poziție a gurii, dar activează corzile vocale.
+Pentru primul sunet, așază dinții de sus pe buza de jos și suflă aer fără să folosești vocea. Pentru al doilea sunet, ține gura în aceeași poziție, dar activează corzile vocale. Pune o mână pe gât pentru a simți vibrația la al doilea sunet.
 
-## Reguli de citire
+## Reguli de scriere
 
-În marea majoritate a pozițiilor, această literă redă sunetul /f/, ca în cuvântul (fast) /fæst/. În prepoziția (of) /əv/, ea se pronunță prin sunetul /v/.
+În aproape toate pozițiile, litera redă sunetul /f/, ca la început în (fast) /fæst/ sau la sfârșit în (leaf) /liːf/. În prepoziția scurtă (of) /əv/, această literă se rostește prin sunetul /v/.
 
-## Capcane frecvente
+## Capcane de pronunție
 
-Sunetul principal este identic cu cel din limba română din cuvântul floare. Singura capcană este prepoziția scurtă, unde vorbitorii români tind greșit să pronunțe consoana surdă în loc de cea sonoră.
+Sunetul principal este identic cu cel din cuvântul românesc floare, așa că nu creează dificultăți. Singura capcană este rostirea surdă a prepoziției scurte. Nu o citi cu sunetul din cuvântul foc, ci folosește vibrația din cuvântul vară.

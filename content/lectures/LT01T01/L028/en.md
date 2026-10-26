@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## The Sound of the Letter X
+## Sound of X
 
-In Romanian, the letter **X** represents either the voiceless cluster `/ks/` or the voiced cluster `/gz/`. It functions identically to the English letter *x* in words like *fox* (`/ks/`) and *exact* (`/gz/`). Unlike in some Romance languages such as Spanish or Portuguese, Romanian **X** never represents a single fricative sound like `/ʃ/` or `/h/`.
+This letter is called /ks/ or /gz/. Its primary sound appears in (xilofon) /ekˈzamen/, which means exam. The letter makes two sounds in Romanian.
 
-## How to Pronounce X
+## Pronouncing X
 
-To pronounce `/ks/`, press the back of your tongue against the soft palate to produce a crisp `[k]`, then immediately slide the tip behind your upper teeth to hiss out an `[s]`. For the voiced variant `/gz/`, engage your vocal cords throughout both sounds, shifting smoothly from a voiced velar stop `[g]` into a buzzing `[z]`. Keep the transition between the two sounds tight and seamless.
+For the voiceless sound, raise the back of your tongue against your soft palate. Release the air sharply into an s sound without voice. For the voiced sound, hum through your throat as the air escapes. Place a hand on your throat to feel the strong vibration during the voiced sound.
 
-## Spelling and Distribution
+## Spelling of X
 
-The letter **X** is relatively rare in Romanian, occurring almost exclusively in borrowed neologisms of Greek, Latin, or international origin. It appears in uppercase as **X** and lowercase as **x**, found in word-initial, medial, and final positions such as *xenofobie*, *pix*, and *taxi*. Native Slavic and inherited Latin words generally spell out phonetic clusters using **cs** or **gz** instead, reserving **x** for standard learned vocabulary.
+Before voiceless consonants or at the end of a word, it sounds as /ks/, as in (text) /tekst/. Between vowels, especially in borrowed vocabulary, it is pronounced as /gz/, as in (examen) /ekˈzamen/.
 
-## Pronunciation Patterns and Pitfalls
+## English Pitfalls
 
-The choice between `/ks/` and `/gz/` largely follows phonetic environment: `/gz/` typically surfaces between vowels in words starting with the prefix *ex-* (e.g., *examen*, *exercițiu*), whereas `/ks/` appears before voiceless consonants or at the end of words (e.g., *expres*, *index*). A common pitfall for English speakers is attempting to soften or elide the sounds as in modern English loanwords; Romanian demands that both consonants in the cluster be clearly and crisply enunciated without aspiration.
+English speakers often turn word initial occurrences into a simple z sound, as in xylophone. In Romanian, always sound the full consonant combination clearly. Never drop the opening stop sound. Follow the spelling steadily, matching the sound in the English word box or exit.

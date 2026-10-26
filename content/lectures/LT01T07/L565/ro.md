@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei em
 
-Numele acestei litere este (M) /em/. Sunetul său principal este sunetul /m/, rostit clar în cuvântul (milk) /mɪlk/.
+Numele acestei litere este (M) /em/. Sunetul său principal este sunetul /m/, ca în cuvântul (milk) /mɪlk/, care înseamnă lapte. Litera are două variante de pronunțare în limba engleză.
 
-## Pronunțarea sunetului
+## Pronunțarea literei em
 
-Pentru a reda sunetul acestei litere, apropie ambele buze ferm și lasă aerul să iasă prin nas. În același timp, fă corzile vocale să vibreze continuu.
+Pentru a rosti sunetul /m/, închide complet buzele și lasă aerul să iasă liber prin nas. Coardele vocale vibrează continuu. Pune degetele pe gât și vei simți o vibrație clară.
 
-## Reguli de scriere
+## Ortografia literei em
 
-În cele mai multe poziții, litera redă sunetul /m/, ca în (map) /mæp/. La începutul unui cuvânt, chiar înainte de litera n, litera nu se pronunță deloc, ca în (mnemonic) /nə.mɒn.ɪk/.
+În cele mai multe poziții, această literă se pronunță ca sunetul /m/, de exemplu în cuvântul (map) /mæp/. La începutul cuvintelor, când stă chiar înaintea literei en, ea nu se aude deloc, ca în cuvântul (mnemonic) /nə.mɒn.ɪk/.
 
-## Capcane de pronunție
+## Comparație cu limba română
 
-Nu există nicio capcană reală pentru vorbitorii de limba română. Sunetul este exact la fel ca în cuvintele românești mamă sau mare.
+Sunetul acestei litere este identic cu cel din limba română, exact ca în cuvântul mamă. Nu există capcane de pronunție pentru vorbitorii de română.

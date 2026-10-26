@@ -20,18 +20,18 @@ terms:
   ro: "K"
 ---
 
-## Sunetul literei kei
+## Sunetul literei chei
 
-Numele acestei litere este (K) /keɪ/. Sunetul său principal este sunetul /k/, pe care îl auzi în cuvântul (kite) /kaɪt/.
+Numele acestei litere este (K) /keɪ/. Sunetul ei principal se aude în cuvântul (kite) /kaɪt/, care înseamnă zmeu. În limba engleză, această literă produce un singur sunet sau poate fi complet mută în anumite poziții.
 
-## Pronunția literei kei
+## Pronunțarea sunetului
 
-Atinge cerul gurii cu partea din spate a limbii pentru a bloca aerul. Coboară brusc limba și eliberează aerul cu o mică explozie. Corzile vocale nu vibrează deloc.
+Pentru a reda sunetul, ridică partea din spate a limbii spre cerul moale al gurii. Oprește aerul o clipă, apoi eliberează-l brusc printr-o mică explozie. Corzile vocale nu vibrează. Pune o mână pe gât și vei simți cum trecerea aerului este uscată, fără nicio bâzâială.
 
-## Ortografia literei kei
+## Reguli de citire
 
-În cele mai multe cazuri, la început, în mijloc sau la final, litera redă sunetul /k/, ca în (milk) /mɪlk/. În schimb, la început de cuvânt înaintea unei alte consoane nazale, litera nu se pronunță deloc, ca în (knot) /nɒt/.
+În marea majoritate a cuvintelor, la început, la mijloc sau la sfârșit, litera redă sunetul /k/, ca în cuvântul (milk) /mɪlk/. În schimb, la începutul unui cuvânt, chiar înaintea literei n, această literă nu se pronunță deloc, ca în cuvântul (knot) /nɒt/ sau în cuvântul (knee) /niː/.
 
 ## Diferențe față de română
 
-În limba română, acest sunet nu are suflu puternic. La început de cuvânt în engleză, eliberează o expirație scurtă de aer după blocaj, diferită de sunetul din cuvântul capac.
+Sunetul este foarte apropiat de cel din cuvântul românesc cal. Totuși, la începutul cuvintelor englezești, acest sunet cere o mică suflare de aer în plus. Cea mai mare greșeală a vorbitorilor de română este să citească litera când stă înaintea literei n, la început de cuvânt. În acele cazuri, rostește doar sunetul următor.

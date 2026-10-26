@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului oy
 
-Acest grup de litere se numește /ɔɪ/ și redă diftongul /ɔɪ/, ca în cuvântul (boy) /bɔɪ/. Este o combinație stabilă în limba engleză.
+Grupul oy se rostește /ɔɪ/. Sunetul său de bază se aude în cuvântul (boy) /bɔɪ/, care înseamnă băiat. Acest grup de litere are o singură pronunție în limba engleză.
 
 ## Cum se pronunță
 
-Rotunjește ușor buzele pentru primul element, cu limba retrasă jos. Apoi relaxează buzele și ridică limba spre cerul gurii pentru al doilea element, lăsând corzile vocale să vibreze continuu.
+Rotunjește buzele și coboară mandibula pentru prima parte. Trage limba spre spate. Apoi relaxează buzele și ridică limba în față spre cerul gurii, ca pentru sunetul i. Treci lin de la primul element la al doilea. Pune mâna pe gât pentru a simți vibrația constantă a corzilor vocale.
 
 ## Reguli de scriere
 
-În toate contextele în care apare, acest grup notează sunetul /ɔɪ/, ca în cuvântul (toy) /tɔɪ/.
+Grupul oy se citește /ɔɪ/ în toate pozițiile în care apare, de regulă la sfârșitul cuvintelor sau al silabelor. Îl găsești astfel în (toy) /tɔɪ/.
 
-## Capcane și comparații
+## Capcane de pronunție
 
-Acest diftong este foarte apropiat de sunetul din cuvântul românesc oi. Nu există diferențe majore care să pună probleme vorbitorilor nativi de română.
+Vorbitorii de limbă română pronunță adesea acest diftong exact ca în cuvântul românesc oi. În engleză, prima parte a sunetului este mai deschisă, iar buzele sunt mai puțin strânse decât la o din română. Deschide gura puțin mai mult la începutul sunetului înainte de a aluneca spre i.

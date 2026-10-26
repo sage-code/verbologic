@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## The Sound of A
+## Letter sound
 
-The letter **A** in Romanian represents an open central unrounded vowel, transcribed as `/a/`. It is very similar to the 'a' in British English 'father' or the Spanish 'a', but clearly distinct from the English short 'a' in 'cat'. Romanian **A** retains a pure, resonant timbre regardless of whether it carries the stress or not.
+This letter is called /a/. Its main sound is the vowel sound /a/, heard in (apă) /ˈa.pə/, which means water. This letter makes only one sound in Romanian.
 
-## How to Pronounce It
+## Mouth shape
 
-Open your mouth comfortably wide and let your jaw drop in a relaxed manner. Keep your tongue flat on the floor of your mouth, resting naturally behind the lower teeth without arching toward the roof. Release your voice freely without rounding or tightening your lips.
+Drop your jaw low and leave your lips relaxed and wide. Keep your tongue low and flat on the floor of your mouth, without pulling it back. Vibrate your vocal cords as the air leaves freely. Place your hand on your throat to feel the steady vibration.
 
-## Spelling and Positions
+## Reading rules
 
-**A** is the first letter of the Romanian alphabet and appears in all word positions: word-initially, word-internally, and word-finally. It functions solely as a vowel and never behaves as a silent letter. In writing, it takes standard Latin forms as uppercase **A** and lowercase **a**, keeping identical phonetic rules in all registers.
+This letter always keeps the sound /a/ in all positions. It sounds the same whether it carries stress or remains unstressed, as shown in (casă) /ˈka.sə/.
 
-## Comparing and Common Mistakes
+## Common mistakes
 
-English speakers often tend to reduce unstressed **A** into a weak schwa sound, turning a word like **apă** into something resembling an English ending. In Romanian, **A** never reduces to `/ə/`, which is represented separately by the letter **Ă**. Be careful to pronounce full `/a/` clearly even in fast speech to avoid confusion with words containing **Ă**.
+English speakers often weaken unstressed vowels into an obscure sound like the ending of sofa. Keep the vowel clear and open everywhere. Do not slide into the back vowel heard in father, but keep your tongue flat.

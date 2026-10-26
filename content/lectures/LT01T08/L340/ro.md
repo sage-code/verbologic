@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului st
 
-Acest grup se numește sunetul /st/. În mod obișnuit redă secvența /st/, ca în cuvântul (stop) /stɒp/.
+Numele acestui grup este sunetul /st/. În mod obișnuit, grupul st redă sunetul compus /st/, ca în cuvântul (stop) /stɒp/, care înseamnă oprire. Acest grup de litere are două pronunții diferite în limba engleză.
 
-## Cum se pronunță grupul st
+## Pronunția sunetelor
 
-Apropie dinții și lasă aerul să șuiere peste vârful limbii pentru sunetul /s/. Apoi blochează aerul pe cerul gurii și eliberează-l brusc fără voce pentru sunetul /t/.
+Pentru prima variantă, rostești un șuierat continuu cu vârful limbii aproape de dinți. Imediat după aceea, blochezi aerul lipind limba de cerul gurii și îl eliberezi brusc, fără să folosești vocea. Pentru a doua variantă, menții doar șuieratul fără să mai atingi cerul gurii. Dacă pui mâna pe gât, nu vei simți nicio vibrație la aceste sunete.
 
-## Ortografia grupului st
+## Reguli de scriere
 
-În cele mai multe poziții se aude secvența /st/, ca în (fast) /fɑːst/. În anumite cuvinte litera t este mută înainte de le sau en, auzindu-se doar sunetul /s/, de pildă în (castle) /kɑː.səl/ ori (listen) /lɪs.ən/.
+În cele mai multe cazuri, la începutul, la mijlocul sau la sfârșitul cuvintelor, grupul st se pronunță ca sunetul /st/, ca în (fast) /fɑːst/. În anumite cuvinte speciale, a doua literă devine mută, în special înaintea terminațiilor le sau en. În această situație auzi doar sunetul /s/, ca în cuvintele (castle) /kɑː.səl/ sau (listen) /lɪs.ən/.
 
-## Grupul st față de română
+## Capcane de pronunție
 
-Pronunția este similară cu sunetele s și t din cuvintele românești. Capcana apare când litera t este mută în engleză, vorbitorii români având tendința de a o citi întotdeauna.
+În limba română, grupul st din cuvântul stea se pronunță identic cu prima variantă din engleză. Principala greșeală este pronunțarea celei de-a doua litere atunci când ea trebuie să rămână mută. Nu pronunța sunetul t când întâlnești aceste cuvinte speciale. Rostește doar un simplu sunet s, exact ca în cuvântul românesc seară.

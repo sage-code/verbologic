@@ -20,18 +20,18 @@ terms:
   ro: "ch"
 ---
 
-## Sunetul grupului ch
+## Sunetul grupului ce-ha
 
-Grupul ch se citește de obicei prin sunetul /tʃ/, ca în cuvântul (chin) /tʃɪn/. Numele său uzual redă același sunet /tʃ/.
+Grupul ch se cheamă prin sunetul /tʃ/. În mod obișnuit redă sunetul /tʃ/, ca în cuvântul (chin) /tʃɪn/, care înseamnă bărbie. Această combinație de litere are trei pronunții diferite în limba engleză.
 
-## Pronunțarea sunetelor
+## Cum se pronunță
 
-Pentru sunetul /tʃ/, atinge cerul gurii cu vârful limbii și eliberează aerul cu o fricțiune surdă. Pentru sunetul /k/, blochează aerul cu spatele limbii. Pentru sunetul /ʃ/, rotunjește buzele și lasă aerul să treacă continuu.
+Pentru primul sunet, pune vârful limbii pe cerul gurii în spatele dinților de sus, apoi desprinde-l brusc scoțând aerul fără voce. Pentru al doilea sunet, blochează aerul cu spatele limbii lipit de cerul gurii moale și eliberează-l scurt. Pentru al treilea sunet, rotunjește puțin buzele și lasă aerul să curgă continuu peste limbă. Pune o mână pe gât pentru a simți că vocea nu vibrează la niciunul.
 
-## Reguli de pronunțare
+## Reguli de citire
 
-În majoritatea cuvintelor native englezești, acest grup redă sunetul /tʃ/, ca în (rich) /rɪtʃ/. În cuvintele de origine greacă, se aude sunetul /k/, ca în (echo) /ɛk.oʊ/ sau (school) /skuːl/. În împrumuturile recente din franceză, grupul sună /ʃ/, ca în (chef) /ʃɛf/ sau (machine) /mə.ʃiːn/.
+În cele mai multe cuvinte englezești native, grupul ch redă sunetul /tʃ/, ca în cuvântul (rich) /rɪtʃ/. În termenii de origine greacă, acest grup se rostește prin sunetul /k/, de exemplu în cuvântul (echo) /ɛk.oʊ/. În împrumuturile moderne din franceză, același grup se aude prin sunetul /ʃ/, ca în cuvântul (chef) /ʃɛf/.
 
-## Capcane frecvente
+## Greșeli frecvente
 
-Sunetele seamănă cu cele din română: sunetul /tʃ/ este cel din cuvântul cer, sunetul /k/ din cal, iar sunetul /ʃ/ din șir. Singura dificultate constă în originea cuvântului, care schimbă pronunția.
+Sunetul /tʃ/ seamănă cu cel din ceai, iar sunetul /k/ cu cel din cal. Sunetul /ʃ/ este la fel ca cel din șir. Românii greșesc adesea când pronunță mereu ca în limba maternă. Verifică originea termenului când ai dubii, pentru a nu citi cuvintele din greacă sau franceză cu sunetul obișnuit din limba română.

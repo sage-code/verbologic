@@ -20,18 +20,18 @@ terms:
   ro: "oi"
 ---
 
-## The Sound of "oi"
+## The diphthong oi
 
-The letter combination **oi** commonly functions as a falling diphthong pronounced as `[oj]`, consisting of a full vowel followed by a brief semivowel glide. It sounds very similar to the English diphthong in **boy** or **coin**, though the starting vowel is a purer, tenser Romanian `[o]`. In derived or compound words, however, the two letters may split into hiatus and form two distinct syllables `[o.i]`.
+The letter group oi sounds like the diphthong /oj/. It appears in the word (doi) /doj/, which means two. This spelling represents one single diphthong in Romanian.
 
-## How to Pronounce "oi"
+## Pronouncing the sounds
 
-Start by rounding your lips moderately to shape the mid-back vowel `[o]`. Without pausing the flow of breath, glide your tongue quickly upward and forward toward the hard palate into a brief `[j]`. Make sure the primary acoustic weight and duration fall on the initial `[o]`, letting the glide taper off smoothly.
+Start by rounding your lips for an open vowel, then quickly glide your tongue up and forward toward the roof of your mouth. Your vocal cords vibrate throughout the entire glide. Keep your fingers on your throat to feel the continuous vibration as the two parts merge into one smooth syllable.
 
-## Spelling and Patterns
+## Reading the letters
 
-The sequence **oi** is spelled strictly with the letters **o** and **i**. It is extremely common word-finally where it forms plural endings or masculine numerals like **doi** and **trei**. When inflectional boundaries or specific prefixes separate the vowels, native speakers pronounce them separately in two syllables rather than as a diphthong.
+In all positions, this combination represents the falling diphthong /oj/. You can hear it clearly in the word (foi) /foj/.
 
-## Nuances and Common Pitfalls
+## Avoiding common errors
 
-The principal trap for learners is treating every instance of written **oi** as a single diphthong `[oj]`. In words such as **croitor** (`/kro.iˈtor/`), the vowels stand in hiatus across a syllable boundary and must each be articulated fully. English speakers should also avoid diphthongizing the starting sound into an off-glide before reaching the final semivowel.
+English speakers often prolong the second part or add a separate syllable. The sequence matches the vowel sound in the English word boy. Keep the glide fast and smooth, without splitting the diphthong into two distinct beats.

@@ -63,8 +63,14 @@
   /* Article prose (Markdown rendered by ContentRenderer) — the reset strips
      heading sizes, list markers and table borders, so restore them here. */
   .lecture-prose { @apply leading-relaxed; }
-  .lecture-prose h2 { @apply mt-10 border-b border-edge pb-2 text-2xl text-content; }
-  .lecture-prose h3 { @apply mt-6 text-lg text-content; }
+  /* Subheadings are labels, not titles: a page packs several sections, so a
+     heading is one small line that balances the text beneath it. Content adds
+     an anchor link inside each heading — it inherits the heading's colour. */
+  .lecture-prose h2 { @apply mt-5 border-b border-edge pb-1 text-sm font-semibold uppercase tracking-wide text-accent; }
+  .lecture-prose h3 { @apply mt-4 text-sm font-semibold text-content; }
+  .lecture-prose h2 a,
+  .lecture-prose h3 a { color: inherit; text-decoration: none; }
+  .lecture-prose > :first-child { margin-top: 0; }
   .lecture-prose p { @apply my-3; }
   .lecture-prose ul { @apply my-3 list-disc space-y-1 pl-6; }
   .lecture-prose ol { @apply my-3 list-decimal space-y-1 pl-6; }

@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului au
 
-Grupul redă în mod obișnuit sunetul /ɔː/, adică un o lung și deschis. Îl poți auzi în cuvântul (author) /ɔː.θər/.
+Grupul de litere au se rostește cel mai des ca sunetul /ɔː/, adică un o lung. Îl auzi în cuvântul (author) /ɔː.θər/, care înseamnă autor. Această combinație redă trei sunete diferite în limba engleză.
 
-## Pronunțarea sunetelor
+## Pronunția sunetelor
 
-Pentru sunetul lung, rotunjește buzele și retrage limba spre fundul gurii. Pentru varianta scurtă, deschide gura mai mult, rotunjind buzele doar puțin. Pentru celălalt sunet, coboară maxilarul complet și relaxează buzele.
+Pentru sunetul lung, coboară maxilarul, rotunjește buzele și trage limba spre fundul gurii, ținând sunetul prelungit. Pentru al doilea sunet, deschide gura larg, lasă limba complet plată și relaxează buzele fără rotunjire. Pentru cel de-al treilea sunet, rotunjește buzele scurt și deschide gura rapid. Pune mâna pe gât pentru a simți vibrația constantă a corzilor vocale.
 
-## Reguli de pronunțare
+## Reguli de scriere
 
-Înaintea consoanelor, acest grup redă sunetul /ɔː/, adică un o lung, ca în (pause) /pɔːz/. În cuvinte de origine franceză sau împrumuturi, se rostește sunetul /ɑː/, ca în (aunt) /ɑːnt/ sau (laugh) /lɑːf/. În câteva cuvinte speciale, se aude sunetul /ɒ/, adică un o scurt, precum în (sausage) /sɒ.sɪdʒ/ ori (because) /bɪ.kɒz/.
+Grupul au redă cel mai des sunetul /ɔː/, adică un o lung, înaintea consoanelor, ca în (pause) /pɔːz/. În cuvinte împrumutate sau în contexte specifice se pronunță ca sunetul /ɑː/, adică un a lung, ca în (aunt) /ɑːnt/ sau (laugh) /lɑːf/. În câteva cuvinte uzuale produce sunetul /ɒ/, adică un o scurt, precum în (sausage) /sɒ.sɪdʒ/ ori (because) /bɪ.kɒz/.
 
-## Capcane frecvente
+## Greșeli frecvente
 
-Nu citi aceste litere separat, ca în cuvintele românești aur sau taur. În engleză ele formează o singură vocală, niciodată două sunete distincte alăturate.
+Vorbitorii de limbă română citesc adesea două vocale separate, ca în cuvântul aur. Nu rosti două sunete. O altă greșeală este folosirea unui o scurt românesc din cuvântul os în loc de vocala lungă. Ține buzele rotunjite mai mult timp și lasă maxilarul jos pentru a lungi sunetul corect.

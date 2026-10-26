@@ -20,18 +20,18 @@ terms:
   ro: "G"
 ---
 
-## Pronunciation of G
+## The Letter G
 
-The Romanian letter **G** has two primary pronunciations depending entirely on the letter that follows it. In most positions, such as before vowels like **a**, **o**, or consonants, it represents a hard voiced velar plosive `/ɡ/`, identical to the 'g' in English *go*. However, when placed directly before **e** or **i**, it softens into a voiced postalveolar affricate `/dʒ/`, exactly like the 'j' in English *jam*.
+The letter name is spoken as the sound /g/ or the sound /dʒ/. Its primary value is heard in (gară) /ɡar/, meaning train station. This Romanian letter has two distinct sounds across various words.
 
-## How to Articulate the Sounds
+## Pronouncing the Sounds
 
-To pronounce the hard `/ɡ/`, press the back of your tongue against the soft palate, briefly blocking the airflow, and release it cleanly while vibrating your vocal cords. For the soft `/dʒ/` sound before **e** or **i**, place the tip and blade of your tongue against the roof of your mouth just behind your upper teeth. Release the breath sharply with voice to produce an energetic affricate burst.
+For the first sound, press the back of your tongue against the soft palate. Release the air suddenly with vocal cord vibration. For the second sound, touch the tip of your tongue behind your top front teeth. Release into a voiced rush of air. Place a hand on your throat to feel continuous vibration for both.
 
-## Spelling Rules and Patterns
+## Reading Rules
 
-The letter **G** behaves symmetrically to **C** in the Romanian spelling system. To maintain a hard `/ɡ/` sound in front of **e** or **i**, Romanian inserts an unpronounced **h**, creating the digraphs **ghe** and **ghi** (e.g., *gheată* `/ˈɡe̯a.tə/`). Conversely, combinations like **gea** or **gio** use the **e** or **i** purely as an orthographic marker to trigger the soft `/dʒ/` sound before another vowel.
+This letter makes the sound /ɡ/ before consonants, at word endings, or before vowels a, ă, â, o, or u. An example is (gard) /ɡard/. It makes the sound /dʒ/ directly before vowels e or i. An example is (ger) /dʒer/.
 
-## Common Pitfalls and Comparisons
+## English Pitfalls
 
-English speakers frequently err by misinterpreting digraphs like **gh**, assuming the **h** creates an English 'j' or a fricative, when it actually forces a hard `/ɡ/` as in *ghem* `/ɡem/`. Another frequent mistake is trying to pronounce both the **g** and the **e** separately in words like *geam* `/dʒam/`, where the **e** is strictly a spelling tool to soften the consonant. Listen closely to the contrast between *ger* `/dʒer/` and *gherghină* `/ɡerˈɡi.nə/` to master this switch.
+English speakers often soften the sound /ɡ/ into an affricate before front vowels in native words. Do not let this letter become soft before vowels like a or o. Both sounds match regular English consonants in garden and jam.

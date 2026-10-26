@@ -20,18 +20,18 @@ terms:
   ro: "Ș"
 ---
 
-## The Sound of Ș
+## The letter name and sound
 
-The letter **Ș** represents a voiceless postalveolar fricative, transcribed as `/ʃ/`. It sounds virtually identical to the English **sh** sound in **shoe** or **fish**. Unlike Polish or Russian, Romanian does not distinguish between distinct palatalized or retroflex variants of this sound, keeping it clean and familiar to English speakers.
+The name of this letter is pronounced as the sound /ʃ/. Its main sound is heard in (școală) /ʃoˈsapte/, which means six. This letter has only one sound in Romanian.
 
-## How to Pronounce Ș
+## How to say it
 
-Position the tip and blade of your tongue close to the back of the alveolar ridge, just behind your upper front teeth. Slightly round and flare your lips forward while pushing air steadily through the narrow channel without vibrating your vocal cords. Ensure your tongue remains relaxed enough to avoid curling backward into a harsh retroflex sound.
+Raise the blade of your tongue toward the roof of your mouth, just behind your upper teeth. Round your lips slightly and push continuous air over your tongue without using your voice. Place your fingertips on your throat to feel that your vocal cords stay completely still.
 
-## Spelling and Orthography
+## Spelling rules
 
-The Romanian letter **Ș** is written with a small **comma below** (`ș`, `Ș`), not a cedilla (`ş`). It appears freely at the beginning, middle, and end of words, such as in **șapte** (seven) or **ușă** (door). Pay careful attention to fonts or keyboards that incorrectly substitute the Turkish cedilla character.
+This letter always produces the same sound wherever it appears in a word. You can hear it at the start of a word in (șapte) /ˈʃap.te/. You also hear this exact sound at the end of a word in (oraș) /oˈraʃ/.
 
-## Common Traps and Contrasts
+## Pitfalls for English speakers
 
-English learners often confuse **Ș** with plain **S**, which produces the regular `/s/` sound like in **sun**. Be careful not to soften the consonant into an overly palatalized `[ɕ]` before the vowel `i`, as in **și** (and). Always keep the airstream broad and clear, distinct from both standard `/s/` and voiced `/ʒ/` (**J**).
+English speakers usually have no trouble with this sound because it matches the quiet consonant in the English word ship. Make sure you do not add a buzzing voice to turn it into the middle consonant of measure. Keep the breath flowing cleanly without moving your tongue forward.

@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei el
 
-Litera (L) /el/ redă în principal sunetul /l/. Îl poți auzi clar în cuvântul (lamp) /læmp/.
+Numele acestei litere este (L) /el/. Sunetul său principal este sunetul /l/, ca în cuvântul (lamp) /læmp/, care înseamnă lampă. Această literă produce un singur sunet sau poate fi mută în anumite cuvinte.
 
-## Pronunțarea sunetului
+## Pronunția corectă
 
-Atinge cu vârful limbii cerul gurii chiar în spatele dinților de sus. Aerul iese liber pe ambele părți ale limbii, în timp ce corzile vocale vibrează. Pentru varianta mai închisă, ridică și spatele limbii spre vălul palatin.
+Pentru sunetul /l/, atinge cu vârful limbii cerul gurii chiar în spatele dinților de sus. Lasă aerul să treacă liber pe marginile limbii. Coardele vocale vibrează continuu. Pune mâna pe gât ca să simți vibrația.
 
-## Reguli de citire
+## Reguli de scriere
 
-În mod obișnuit, litera (L) /el/ reprezintă sunetul /l/, ca în (milk) /mɪlk/. În fața anumitor consoane, litera este complet mută și nu se pronunță deloc, precum în (calm) /kɑːm/ sau în cuvântul (salmon) /sæ.mən/.
+În mod obișnuit, litera produce sunetul /l/, ca în (milk) /mɪlk/. Înainte de anumite consoane, litera nu se pronunță deloc, așa cum se întâmplă în (calm) /kɑːm/ sau în (salmon) /sæ.mən/.
 
-## Capcane pentru români
+## Capcane de pronunție
 
-În limba română folosești doar un sunet limpede, ca în cuvântul lună. În engleză, când sunetul apare la sfârșit sau înaintea unei consoane, spatele limbii trebuie încordat spre gât pentru a produce o nuanță mai groasă, mai închisă.
+În limba română rostești sunetul din cuvântul lac doar cu vârful limbii foarte în față. La sfârșit de cuvânt în engleză, ridică și spatele limbii spre cerul gurii moale pentru a îngroșa sunetul.

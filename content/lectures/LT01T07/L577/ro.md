@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei uai
 
-Numele acestei litere este (Y) /waɪ/. Sunetul său principal este consoana /j/, pe care o auzi la începutul cuvântului (yes) /jɛs/.
+Numele acestei litere este (Y) /waɪ/. Principalul său rol este sunetul /j/, ca în cuvântul (yes) /jɛs/, care înseamnă da. În limba engleză, această literă produce patru sunete diferite în funcție de poziția din cuvânt. Poate funcționa atât ca o consoană, cât și ca o vocală.
 
-## Pronunția literei uai
+## Pronunția sunetelor
 
-Pentru consoană, ridică mijlocul limbii spre cerul gurii și lasă aerul sonor să alunece. Pentru vocale, mișcă limba din spate în față sau deschide gura relaxat, vibrând mereu corzile vocale.
+Pentru sunetul /j/, ridică mijlocul limbii spre cerul gurii și lasă corzile vocale să vibreze scurt. Pentru sunetul /i/, întinde buzele și ține limba sus și în față. Pentru sunetul /aɪ/, deschide gura larg pentru primul sunet și glisează limba spre cerul gurii. Pentru sunetul /ɪ/, coboară maxilarul puțin și relaxează limba. Pune mâna pe gât ca să simți vibrația constantă a vocii.
 
-## Ortografia literei uai
+## Reguli de citire
 
-La început de silabă înaintea unei vocale redă sunetul /j/, ca în (yellow) /jɛl.oʊ/. La sfârșit neaccentuat dă sunetul /i/, un i lung și clar, ca în (happy) /hæp.i/. În silabe deschise accentuate redă diftongul /aɪ/, ca în (fly) /flaɪ/. În silabe închise produce sunetul /ɪ/, adică un i scurt și relaxat, ca în (gym) /dʒɪm/.
+La începutul unei silabe înaintea unei vocale, litera redă sunetul /j/, ca în (yellow) /jɛl.oʊ/. La sfârșitul unui cuvânt neaccentuat, se rostește ca sunetul /i/, adică un i curat și lung, de exemplu în (happy) /hæp.i/. Într-o silabă deschisă accentuată, produce diftongul /aɪ/, ca în (fly) /flaɪ/. Într-o silabă închisă, se pronunță ca sunetul /ɪ/, adică un i scurt și relaxat, ca în cuvântul (gym) /dʒɪm/.
 
 ## Diferențe față de română
 
-Cea mai frecventă greșeală este pronunțarea sunetului scurt ca un i românesc tensionat, ca în cuvântul nisip. Menține gura mai relaxată pentru această vocală scurtă din engleză.
+Cea mai frecventă greșeală este pronunțarea sunetului scurt /ɪ/ ca un i românesc din cuvântul mic. Pentru a corecta sunetul englezesc, relaxează complet mușchii limbii și deschide gura mai mult. În plus, când diftongul /aɪ/ apare la final, nu tăia al doilea sunet, ci lasă glasul să alunece lin spre i.

@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei ti
 
-Numele acestei litere este (T) /tʃ/. Sunetul său principal este sunetul /t/, pe care îl auzi în cuvântul (top) /tɑp/.
+Numele acestei litere se rostește (T) /tʃ/. Sunetul său principal este sunetul /t/, ca în cuvântul (top) /tɑp/, care înseamnă vârf. Această literă poate reda două sunete diferite și poate rămâne uneori mută.
 
-## Pronunția literei ti
+## Pronunția sunetelor
 
-Pentru sunetul surd, atinge gingia superioară cu vârful limbii și eliberează aerul brusc, fără voce. Pentru varianta bătută, atinge scurt cerul gurii cu o singură lovitură rapidă, lăsând corzile vocale să vibreze.
+Pentru sunetul /t/, atingeți cu vârful limbii zona din spatele dinților de sus. Opriți aerul o clipă, apoi eliberați-l brusc fără a folosi corzile vocale. O palmă ținută în fața gurii simte o suflare scurtă de aer. Pentru sunetul /ɾ/, loviți foarte rapid gingia superioară cu vârful limbii. Acest contact este scurt și corzile vocale vibrează continuu.
 
-## Ortografia literei ti
+## Reguli de citire
 
-În mod obișnuit, litera redă sunetul /t/, ca în (ten) /tɛn/. În engleza americană, între două vocale înaintea unei silabe neaccentuate, ea sună ca o bătaie scurtă /ɾ/, de exemplu în (water) /wɑ.tɚ/ sau (city) /sɪ.ti/. Uneori este mută după litera s, ca în (listen) /lɪ.sən/ și (castle) /kæ.səl/.
+În mod obișnuit, litera dă sunetul /t/, cum se aude în cuvântul (ten) /tɛn/. Între două vocale, înaintea unei silabe neaccentuate, ea primește sunetul /ɾ/, ca în cuvântul (water) /wɑ.tɚ/ sau în cuvântul (city) /sɪ.ti/. În anumite cuvinte vechi, adesea după litera s, ea nu se pronunță deloc, ca în cuvântul (listen) /lɪ.sən/ sau în cuvântul (castle) /kæ.səl/.
 
 ## Diferențe față de română
 
-În limba română, sunetul t este pronunțat cu limba pe dinți. În engleză, vârful limbii atinge gingia mai sus, iar la început de cuvânt sunetul este însoțit de o ușoară suflare de aer.
+În limba română, sunetul din cuvântul tren atinge dinții direct și nu are aer expulzat. La început de silabă englezească, mutați limba mai sus, pe cerul gurii, lăsând aerul să iasă cu o mică explozie. De asemenea, nu citiți litera mută când se află lângă alte consoane.

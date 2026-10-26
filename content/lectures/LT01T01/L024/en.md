@@ -20,18 +20,18 @@ terms:
   ro: "Ț"
 ---
 
-## The Sound of Ț
+## The sound ț
 
-The Romanian letter **Ț** represents the voiceless alveolar affricate `/ts/`. It sounds exactly like the *ts* in the English word *cats* or the *zz* in *pizza*, but it functions as a single consonant sound. English speakers should take care to pronounce it cleanly as an initial sound in words like **țară**, without inserting an extra vowel before it.
+This letter is named /ts/. It represents the sound /ts/, heard in the word (țară) /ˈtsa.rə/, which means country, land. This letter has only one standard sound across the Romanian language.
 
-## How to Pronounce Ț
+## How to say ț
 
-Place the tip of your tongue firmly against your upper alveolar ridge behind your front teeth, as if preparing to say `/t/`. Build up slight air pressure, then immediately release the closure into a tight `/s/` hiss. Keep your vocal cords completely relaxed so the sound remains voiceless.
+Press the tip of your tongue against the back of your upper front teeth. Build up slight air pressure behind it. Release the tongue just enough to let a sharp hiss escape. Keep your vocal cords completely still. Place a finger in front of your lips to feel the quick, sudden burst of air.
 
-## Spelling and Usage
+## Reading the letter ț
 
-In modern Romanian orthography, **Ț** is written with a comma below (**ș** and **ț**), not a cedilla (**ç**). It appears frequently in all word positions, including word-initially (**țară**), medially (**lecție**), and word-finally (**braț**). It also marks common noun plurals derived from singular forms ending in *-t* (e.g., *băiat* becoming *băieți*).
+This letter has a small comma underneath. It represents the sound /ts/ in every position, as heard in (băiat) /bəˈjat/.
 
-## Comparing Sounds and Common Mistakes
+## Avoiding mistakes with ț
 
-English learners sometimes confuse `/ts/` with the simple fricative `/s/` or the stop `/t/`, transforming *țap* into *tap* or *sap*. It can also be confused with the voiced affricate `/dz/` or Italian *z*, but in Romanian **Ț** is strictly voiceless. Listen carefully to pairs like **pat** ('bed') and **pași** vs. **braț** ('arm') to distinguish the affricate articulation.
+English speakers often separate the two elements into a loose sequence. Match the sound precisely to the letters ts in cats or tsunami. Never let your vocal cords vibrate, and avoid turning it into the ch of chair.

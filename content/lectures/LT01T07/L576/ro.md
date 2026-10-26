@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei ex
 
-Numele acestei litere este (X) /eks/. Sunetul său principal este grupul /ks/, ca în cuvântul (box) /bɒks/.
+Numele acestei litere se rostește (X) /eks/. Sunetul său principal este sunetul /ks/, ca în cuvântul (box) /bɒks/, care înseamnă cutie. Această literă are trei sunete diferite în limba engleză.
 
-## Pronunția literei ex
+## Pronunțarea sunetelor
 
-Pentru grupul /ks/, atinge vălul palatului cu spatele limbii fără voce, apoi suflă aerul printre dinți. Pentru /ɡz/, adaugă vibrația corzilor vocale la ambele sunete. Pentru sunetul /z/, lasă doar vocea și aerul să treacă continuu printre dinți.
+Pentru sunetul /ks/, blochezi aerul cu spatele limbii, îl eliberezi fără voce și șuieri imediat printre dinți. Pentru sunetul /ɡz/, faci aceleași mișcări, dar vibrezi coardele vocale din gât. Pentru sunetul /z/, apropii dinții și lași aerul să sâsâie sonor. Pune mâna pe gât pentru a simți vibrația la variantele sonore.
 
-## Ortografia literei ex
+## Reguli de scriere
 
-La sfârșitul unui cuvânt sau înainte de consoane surde, litera (X) /eks/ redă sunetul /ks/, ca în (six) /sɪks/. Între vocale, înaintea unei silabe accentuate, se aude grupul sonor /ɡz/, ca în (exam) /ɪɡ.zæm/. La începutul unui cuvânt, ea redă doar sunetul /z/, ca în (xenon) /zɛn.ɒn/.
+La sfârșitul unui cuvânt sau înainte de o consoană fără voce, litera redă sunetul /ks/, ca în (six) /sɪks/. Între vocale, înaintea unei silabe accentuate, se aude sunetul /ɡz/, ca în (exam) /ɪɡ.zæm/. La începutul unui cuvânt, litera se citește doar ca sunetul /z/, ca în (xylophone) /zaɪ.lə.fəʊn/.
 
-## Diferențe față de română
+## Capcane pentru vorbitori
 
-În limba română nu există cuvinte native care încep cu această literă. Capcana principală este citirea literei inițiale ca un grup dublu, în loc de un simplu zâzâit, exact ca în cuvântul românesc zare.
+Vorbitorii de limbă română tind să citească această literă ca sunetul /ks/ la începutul cuvintelor, ca în cuvântul pix. La început de cuvânt englezesc, rostește doar un z curat, ca în cuvântul românesc zar.

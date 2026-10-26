@@ -20,18 +20,18 @@ terms:
   ro: "gn-"
 ---
 
-## Grupul gn
+## Sunetul grupului gn
 
-Grupul gn- se numește /n/. El redă doar sunetul /n/, ca în cuvântul (gnat) /næt/.
+Numele acestui grup se rostește ca sunetul /n/. Sunetul său de bază se aude în cuvântul (gnat) /næt/, care înseamnă tânțar mic. Grupul are o singură pronunție în limba engleză. Prima literă nu se aude deloc în vorbire.
 
 ## Cum se pronunță
 
-Atingeți cerul gurii cu vârful limbii chiar în spatele dinților de sus. Coborâți vălul palatului și lăsați aerul să iasă liber prin nas, făcând corzile vocale să vibreze.
+Atingeți cerul gurii chiar în spatele dinților de sus cu vârful limbii. Lăsați aerul să iasă liber pe nas în timp ce corzile vocale vibrează. Coborâți apoi limba pentru sunetul următor. Dacă puneți două degete pe nas, veți simți o vibrație clară în timp ce vorbiți.
 
-## Reguli de citire
+## Reguli de scriere
 
-La începutul cuvintelor, când este urmat de o vocală, grupul gn- se rostește ca sunetul /n/, ca în (gnaw) /nɔː/.
+La începutul cuvintelor înaintea unei vocale, prima literă este mută și grupul redă doar sunetul /n/. Un exemplu clar este cuvântul (gnaw) /nɔː/. Această literă inițială nu se rostește niciodată în această poziție.
 
 ## Capcane de pronunție
 
-Vorbitorii de limbă română au tendința de a citi ambele litere, ca în cuvântul gnom. În engleză, prima literă este complet mută și se aude doar sunetul din cuvântul nor.
+Vorbitorii de limbă română au tendința de a citi ambele litere, la fel ca în cuvântul românesc gnom. În limba engleză, nu pronunțați sunetul inițial de la gât. Rostiți direct sunetul pe nas, exact ca în cuvântul românesc nor.

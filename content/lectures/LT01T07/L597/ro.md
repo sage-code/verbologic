@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei iks
 
-Litera se numește (X) /ks/. În mod obișnuit, aceasta redă grupul de sunete /ks/, ca în cuvântul (box) /bɒks/.
+Numele acestei litere este (X) /ks/. Redă cel mai des două sunete legate, ca în cuvântul (box) /bɒks/, care înseamnă cutie. În limba engleză, această literă are trei pronunții diferite.
 
-## Pronunția sunetelor literei
+## Pronunția sunetelor
 
-Pentru sunetul /ks/, blochează aerul cu spatele limbii, eliberează-l brusc fără voce, apoi lasă aerul să șuiere printre dinți. Pentru /ɡz/, adaugă vibrația corzilor vocale. Pentru sunetul /z/, doar lasă aerul vibrat să treacă continuu printre dinți.
+Pentru prima variantă, blochezi aerul cu spatele limbii fără voce, apoi lași aerul să șuiere printre dinți. Pentru a doua variantă, blochezi aerul la fel, dar faci corzile vocale să vibreze pentru ambele sunete. Pentru ultima variantă, limba se apropie de dinți și vibrează sonor. Pune mâna pe gât pentru a simți vibrația.
 
 ## Reguli de citire
 
-Cel mai des, litera redă sunetul /ks/, în special la mijloc sau la final, ca în (fox) /fɒks/. Înaintea unei vocale accentuate, aceasta se citește sonor /ɡz/, ca în (exam) /ɪɡ.zæm/. La începutul cuvintelor, litera se pronunță simplu ca sunetul /z/, de exemplu în (xenon) /zɛn.ɒn/.
+Cel mai des, litera redă sunetul dublu /ks/, mai ales la mijlocul sau la sfârșitul cuvintelor, ca în (fox) /fɒks/. Înaintea unei vocale accentuate, litera devine sonoră și se aude ca sunetul dublu /ɡz/, ca în (exam) /ɪɡ.zæm/. La începutul cuvintelor, litera se citește simplu ca sunetul /z/, de exemplu în cuvântul (xenon) /zɛn.ɒn/.
 
-## Diferențe față de română
+## Capcane pentru vorbitori
 
-În limba română, această literă nu se pronunță niciodată doar ca un simplu z. În engleză, la început de cuvânt, evită să rostești grupul cs sau gz. Folosește doar sunetul z curat, exact ca în cuvântul românesc zare.
+Vorbitorii de limbă română tind să pronunțe această literă de la începutul cuvintelor ca în română. În limba română spui xilofon cu două sunete la început. În engleză, trebuie să începi direct cu sunetul ziar, fără să adaugi vreun alt sunet înainte.

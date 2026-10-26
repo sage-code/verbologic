@@ -20,18 +20,18 @@ terms:
   ro: "H"
 ---
 
-## Sunetul literei h
+## Sunetul literei eici
 
-Numele acestei litere este (H) /eɪtʃ/. Sunetul său principal este sunetul /h/, ca în cuvântul (hat) /hæt/.
+Numele acestei litere se rostește (H) /eɪtʃ/. Principalul său sunet este /h/, ca în cuvântul (hat) /hæt/, care înseamnă pălărie. Această literă poate reda un singur sunet propriu sau poate rămâne complet mută în vorbire.
 
-## Pronunția literei h
+## Pronunțarea sunetului
 
-Pentru sunetul /h/, deschide gura relaxat. Expiră un flux continuu de aer prin gât, fără vibrația corzilor vocale și fără să atingi cerul gurii cu limba.
+Deschide gura relaxat și lasă limba pe fundul gurii. Expiră un jet lin de aer din gât, fără să atingi cerul gurii. Dacă pui o palmă în fața buzelor, vei simți o suflare caldă de aer. La gât, corzile vocale nu vibrează deloc.
 
-## Reguli de scriere
+## Reguli de citire
 
-La începutul unei silabe, înaintea unei vocale, litera redă sunetul /h/, ca în (help) /hɛlp/. În anumite cuvinte la început sau în poziție finală, litera nu se pronunță deloc, cum se aude în (hour) /aʊ.ər/.
+La începutul unei silabe, înaintea unei vocale, litera redă sunetul /h/, ca în cuvântul (help) /hɛlp/. În câteva cuvinte uzuale de origine franceză, litera este mută la început. O poți auzi nepronunțată în cuvântul (hour) /aʊ.ər/ sau în (honest) /ɒn.ɪst/.
 
 ## Capcane de pronunție
 
-În limba română, litera din cuvântul han este mai aspră și zgârie ușor gâtul. În engleză, sunetul este doar o simplă expirație lină de aer, fără nicio frecare puternică.
+În limba română, sunetul din cuvântul horn este mai aspru și zgârie fundul gurii. În engleză, aerul trebuie să treacă liber, doar ca o simplă expirație caldă. O altă greșeală este adăugarea acestui sunet la cuvinte care încep cu o vocală.

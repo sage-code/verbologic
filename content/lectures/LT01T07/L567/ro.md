@@ -20,18 +20,18 @@ terms:
   ro: "O"
 ---
 
-## Sunetul literei ou
+## Sunetul literei o
 
-Numele acestei litere este (O) /oʊ/. În mod obișnuit, ea redă sunetul /ɑ/, un sunet deschis apropiat de a, ca în cuvântul (ox) /ɑks/.
+Numele acestei litere se rostește (O) /oʊ/. Sunetul său principal este sunetul /ɑ/, ca în cuvântul (ox) /ɑks/, care înseamnă bou. Această literă poate reda patru sunete diferite în vorbire.
 
-## Pronunția literei ou
+## Pronunțarea sunetelor
 
-Pentru sunetul scurt, lasă maxilarul mult în jos și ține limba plată și retrasă. Pentru diftong, rotunjește buzele pornind de la o poziție neutră spre una strânsă. Sunetul neutru cere o relaxare completă a gurii.
+Pentru primul sunet coborâți mult maxilarul, lăsați limba jos și rotunjiți foarte puțin buzele. Pentru al doilea sunet porniți de la un o mediu și glisați spre un u scurt. Pentru al treilea sunet relaxați gura complet și scoateți un sunet neutru. Pentru ultimul sunet rotunjiți buzele strâns în față. Simțiți vibrația pe gât la fiecare sunet.
 
-## Reguli de scriere
+## Reguli de citire
 
-În silabe închise accentuate, litera redă sunetul /ɑ/, ca în (hot) /hɑt/. În silabe deschise sau înaintea unui e mut, se aude diftongul /oʊ/, ca în (go) /ɡoʊ/ sau (home) /hoʊm/. În silabe neaccentuate apare sunetul /ə/, ca în (lemon) /lɛ.mən/. Uneori se rostește /uː/, ca în (do) /duː/.
+În silabe închise și accentuate apare sunetul /ɑ/, ca în (hot) /hɑt/. În silabe deschise sau înaintea unui e mut apare diftongul /oʊ/, de pildă în (go) /ɡoʊ/ și în (home) /hoʊm/. În silabe neaccentuate se aude sunetul /ə/, ca în (lemon) /lɛ.mən/ sau în (atom) /æ.təm/. În anumite cuvinte frecvente litera dă sunetul lung /uː/, ca în (do) /duː/ ori în (move) /muːv/.
 
-## Dificultăți pentru vorbitori
+## Capcane de pronunțare
 
-Vorbitorii de limbă română tind să citească această literă ca un o simplu, precum în cuvântul os. Evită această confuzie, fiindcă varianta scurtă seamănă mai degrabă cu a, iar varianta lungă este mereu un diftong articulat cu buzele rotunjite.
+Vorbitorii de română tind să spună un o pur din cuvântul os în loc de sunetul /ɑ/. Pentru sunetul /ɑ/ deschideți gura mult mai larg, spre un a deschis. O altă greșeală este rostirea unui o simplu în loc de diftongul /oʊ/. Nu opriți sunetul pe loc, ci lăsați buzele să alunece spre u la final.

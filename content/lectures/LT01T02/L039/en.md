@@ -20,18 +20,18 @@ terms:
   ro: "ai"
 ---
 
-## The Sound of "ai"
+## The diphthong ai
 
-The Romanian combination **ai** is typically pronounced as a falling diphthong, transcribed in IPA as `/aj/`. It sounds almost identical to the English word "eye" or the "i" in "fine", but starts with a clearer, more open Romanian `/a/`. When written without a hyphen, both vowels blend swiftly within the same syllable unless a hiatus is grammatically required.
+The group ai is pronounced as the sound /aj/. You can hear this sound in the Romanian word (mai) /maj/, which means more, or the month of May. This letter group represents two distinct sound patterns in Romanian speech.
 
-## How to Produce the Diphthong
+## Mouth movements
 
-Open your mouth wide and relax your tongue in a low, central position to produce the clear, open `/a/` vowel. Immediately glide your tongue upward and forward toward the hard palate into a non-syllabic `/j/` sound. Keep the transition smooth, ensuring the main vocalic weight rests entirely on the first vowel.
+Start with your mouth open wide and your tongue resting flat and low. Glide your tongue smoothly upward and forward toward the roof of your mouth, while your lips stay completely relaxed. When pronounced as two separate vowels, produce the open vowel first, then briefly separate it before raising your tongue high for the second vowel.
 
-## Spelling Rules and Occurrence
+## Spelling rules
 
-This sound sequence is consistently written with the letters **a** followed by **i**, appearing freely at the beginning, middle, or end of words. Common examples include monosyllables like **mai** ("more") or **rai** ("heaven"), as well as inflected nouns and verbs. In rare morphological environments or foreign borrowings, the two letters might separate into hiatus (`/a.i/`), though within native roots they overwhelmingly form the single diphthong `/aj/`.
+The letters usually blend into a single syllable as a falling diphthong, as heard in the word (haină) /ˈhaj.nə/. In other words, the two letters sit across a syllable boundary and sound as two distinct vowels, as shown in the word (aurit) /a.uˈrit/.
 
-## Nuances and Common Pitfalls
+## Common pitfalls
 
-English speakers often elongate the off-glide or turn the Romanian `/a/` into a diphthong of its own like the vowel in "cat". Be careful not to separate the two letters into two distinct syllables; saying **mai** as two beats (`*ma-i*`) is an error. Ensure the sound remains crisp, compact, and finishes briskly on the high palatal semivowel.
+English speakers often stretch this combination into the drawn-out vowel heard in words like my or tie. Keep the glide quick and crisp, without adding an extra vowel sound at the end.

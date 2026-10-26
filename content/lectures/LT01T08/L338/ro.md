@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului fl
 
-Grupul se rostește /fl/. Sunetul său de bază este /fl/, ca în cuvântul (flag) /flæɡ/.
+Grupul de litere fl redă sunetul /fl/. Acest grup se rostește ca în cuvântul (flag) /flæɡ/, care înseamnă steag. Grupul are o singură variantă de pronunțare în limba engleză.
 
 ## Cum se pronunță
 
-Atinge dinții de sus cu buza de jos și suflă aer fără voce. Apoi ridică vârful limbii spre cerul gurii și lasă aerul să treacă pe margini, activând corzile vocale.
+Atinge dinții de sus cu buza de jos și suflă continuu aer fără voce. Fără pauză, ridică vârful limbii pe cerul gurii chiar în spatele dinților și adaugă voce. Aerul iese pe marginile limbii. Dacă pui degetul la gât, simți cum vibrația pornește abia la al doilea sunet.
 
-## Reguli de scriere
+## Scriere și apariție
 
-În aproape toate pozițiile, acest grup redă secvența /fl/, cum se aude în cuvântul (flat) /flæt/.
+Grupul de litere fl apare în aproape toate pozițiile cu aceeași rostire. El redă sunetul /fl/, de pildă în cuvântul (flat) /flæt/.
 
-## Capcane frecvente
+## Capcane de pronunție
 
-Pronunția este foarte asemănătoare cu secvența din limba română din cuvântul floare, așa că nu există capcane mari pentru vorbitorii nativi.
+Vorbitorii de română pronunță acest grup foarte curat, ca în cuvântul floare. Singura capcană este adăugarea unei vocale scurte între cele două sunete. Treci direct de la buză la limbă, fără întrerupere.

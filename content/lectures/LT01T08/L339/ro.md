@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului ge er
 
-Grupul redă secvența de sunete /ɡr/, ca în cuvântul (green) /ɡriːn/.
+Grupul gr se rostește /gr/. Sunetul său de bază se aude în cuvântul (green) /ɡriːn/, care înseamnă verde. Această alăturare de litere are un singur mod de pronunțare în limba engleză.
 
-## Cum se pronunță
+## Pronunțarea sunetelor
 
-Atinge cerul gurii cu spatele limbii pentru a bloca aerul, eliberează brusc cu voce, apoi retrage vârful limbii spre cerul gurii fără să atingi.
+Pentru primul sunet, ridică spatele limbii spre cerul gurii și eliberează brusc aerul, făcând corzile vocale să vibreze. Pentru al doilea sunet, trage vârful limbii ușor înapoi, fără să atingi cerul gurii, rotunjind puțin buzele. Pune mâna pe gât pentru a simți vibrația continuă din timpul rostirii.
 
-## Reguli de pronunțare
+## Reguli de scriere
 
-La începutul sau în interiorul cuvintelor, grupul se citește mereu /ɡr/, ca în (great) /ɡreɪt/ sau (grow) /ɡroʊ/.
+Grupul gr apare la începutul sau în interiorul cuvintelor și se pronunță mereu /ɡr/. Poți auzi acest grup în cuvântul (great) /ɡreɪt/. Același sunet apare și în cuvântul (grow) /ɡroʊ/.
 
-## Capcane frecvente
+## Diferențe față de română
 
-În limba română, sunetul r este vibrat cu vârful limbii pe dinți. În engleză, nu atinge dinții și nu vibra vârful limbii când treci de la g la r.
+În limba română, sunetul r din cuvântul greu se obține prin vibrația rapidă a vârfului limbii pe cerul gurii. În engleză, limba nu atinge niciodată cerul gurii la rostirea acestui grup. Ține vârful limbii retras și nemișcat pentru a rosti corect.

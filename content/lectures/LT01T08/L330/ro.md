@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului ir
 
-Grupul se rostește /ɜːr/, un sunet lung. Îl auzi în cuvântul (bird) /bɜːrd/.
+Grupul ir se rostește cel mai des ca sunetul /ɜːr/, adică un ă lung urmat de r. Îl auzi în cuvântul (bird) /bɜːrd/, care înseamnă pasăre. În total, această combinație de litere are trei pronunții distincte în limba engleză.
 
 ## Cum se pronunță
 
-Pentru sunetul vocalic lung, ține limba la mijlocul gurii și relaxează buzele. Pentru diftong, deschide gura larg pentru primul element, alunecă spre un sunet slab și adaugă sunetul final.
+Pentru prima variantă, ridică mijlocul limbii și trage vârful ușor spre interior. Pentru a doua variantă, relaxează complet limba în centrul gurii. La a treia variantă, deschide gura larg pentru primul sunet, alunecă spre un i scurt, apoi relaxează limba. Pune mâna pe gât pentru a simți vibrația constantă a corzilor vocale.
 
-## Reguli de scriere
+## Reguli de citire
 
-În silabele accentuate se aude sunetul /ɜːr/, adică un ă lung urmat de r, ca în (shirt) /ʃɜːrt/. În silabele neaccentuate apare sunetul /ər/, adică un ă scurt și redus urmat de r, ca în (elixir) /ɪ.lɪk.sər/. Înainte de litera e mută sau de o vocală rostești /aɪ.ər/, ca în (fire) /faɪ.ər/ și (wire) /waɪ.ər/.
+În silabele accentuate, grupul ir redă sunetul /ɜːr/, adică un ă lung cu r, ca în (shirt) /ʃɜːrt/. În silabele neaccentuate, același grup se aude ca sunetul /ər/, adică un ă scurt și redus, ca în (elixir) /ɪ.lɪk.sər/. Când este urmat de litera e mută sau de o altă vocală, grupul produce sunetul /aɪ.ər/, ca în (fire) /faɪ.ər/.
 
-## Capcane frecvente
+## Capcane de pronunție
 
-Nu citi grupul ca pe un i urmat de r românesc vibrant. Evită să rostești literele separat așa cum sunt scrise în română.
+Vorbitorii de română tind să citească literele separat, ca în cuvântul birt. În engleză, nu pronunța niciodată un i curat sau un r vibrat cu vârful limbii. Păstrează limba retrasă și buzele neutre.

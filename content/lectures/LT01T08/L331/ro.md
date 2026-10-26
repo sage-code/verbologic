@@ -20,18 +20,18 @@ terms:
   ro: "or in fork (furculiță)"
 ---
 
-## Sunetul or
+## Sunetul grupului or
 
-Grupul se numește /ɔːr/. Sunetul său principal se aude în cuvântul (fork) /fɔːrk/.
+Grupul or se rostește /ɔːr/. Sunetul său principal este sunetul /ɔːr/, ca în cuvântul (fork) /fɔːrk/, care înseamnă furculiță. Acest grup de litere are trei pronunții diferite în limba engleză.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Rotunjește buzele și retrage limba spre spatele gurii, ridicând ușor vârful fără a atinge cerul gurii. Pentru varianta scurtă, relaxează complet gura. Pentru sunetul lung de după consoană labială, menține limba în mijloc, vibrând corzile vocale.
+Pentru primul sunet, rotunjește buzele și trage limba spre spate, ridicând vârful ușor spre cerul gurii fără să atingi. Pentru al doilea sunet, relaxează complet gura și ridică doar puțin vârful limbii. Pentru al treilea sunet, ține limba la mijlocul gurii și ridică marginile ei laterale. Pune mâna pe gât, coardele vocale vibrează mereu.
 
-## Reguli de pronunție
+## Reguli de citire
 
-În silabe accentuate, grupul redă sunetul /ɔːr/, ca în (corn) /kɔːrn/. În silabe neaccentuate, se rostește ca sunetul /ər/, adică un ăr scurt și redus, ca în (doctor) /dɑːk.tər/. După litera dubluve, se aude ca sunetul /ɜːr/, adică un ăr lung și accentuat, ca în (word) /wɜːrd/.
+În silabele accentuate obișnuite, grupul or se citește sunetul /ɔːr/, ca în (corn) /kɔːrn/. În silabele neaccentuate, acest grup devine sunetul /ər/, adică un sunet scurt și relaxat, ca în (doctor) /dɑːk.tər/. După litera w, grupul se rostește ca sunetul /ɜːr/, adică un sunet lung și accentuat, ca în cuvântul (word) /wɜːrd/.
 
-## Capcane frecvente
+## Capcane de pronunție
 
-Vorbitorii de română tind să pronunțe un r plin, vibrat de la vârful limbii. Nu atinge cerul gurii cu limba. În silabele neaccentuate, evită să rostești un o curat ca în limba română.
+Vorbitorii de limbă română tind să citească mereu un o clar și un r puternic bătut, ca în cuvântul corn. În engleză, sunetul r nu atinge niciodată cerul gurii. La sunetele slabe sau după litera w, evită rotunjirea buzelor pe care o folosești la cuvântul dor.

@@ -20,18 +20,18 @@ terms:
   ro: "J"
 ---
 
-## Sunetul literei géi
+## Sunetul literei gei
 
-Numele acestei litere este (J) /dʒeɪ/. În mod obișnuit, ea redă sunetul consoanei din cuvântul (jam) /dʒæm/.
+Numele acestei litere este (J) /dʒeɪ/. Sunetul ei principal se aude în cuvântul (jam) /dʒæm/, care înseamnă gem. În limba engleză, această literă redă patru sunete diferite în funcție de originea cuvântului.
 
-## Pronunțarea sunetelor
+## Pronunția sunetelor
 
-Pentru sunetul principal, atingeți cerul gurii cu vârful limbii și eliberați aerul cu vibrația corzilor vocale. Pentru celelalte variante, lăsați aerul să treacă ușor prin gât, ridicați mijlocul limbii spre palat sau rotunjiți buzele lăsând aerul să vibreze continuu.
+Pentru primul sunet, atinge cerul gurii cu vârful limbii și dă drumul aerului cu voce, rotunjind buzele. Pentru al doilea sunet, expiră lin din fundul gâtului fără să atingi cerul gurii. La al treilea sunet, ridică mijlocul limbii spre cerul gurii și lasă aerul să curgă liber cu voce. Pentru ultimul sunet, apropie dinții și lasă aerul să vibreze continuu. Ține mâna pe gât pentru a simți vibrația corzilor vocale.
 
 ## Reguli de citire
 
-În mod standard, litera se citește /dʒ/, ca în (job) /dʒɒb/. În împrumuturi spaniole, ea redă sunetul /h/, ca în (jalapeño) /hæ.lə.peɪ.njoʊ/. În cuvinte de origine germanică sau slavă, se aude sunetul /j/, adică un i scurt ca în cuvântul (hallelujah) /hæ.lə.luː.jə/. În cuvinte franceze, sună /ʒ/, adică j românesc, ca în (bijou) /biː.ʒuː/.
+În cuvintele obișnuite din engleză, litera se citește cu sunetul /dʒ/, ca în (job) /dʒɒb/. În împrumuturile din spaniolă, ea redă sunetul /h/, ca în (jalapeño) /hæ.lə.peɪ.njoʊ/. În cuvintele de origine germanică, slavă sau scandinavă, litera are sunetul /j/, adică un i scurt ca în cuvântul (hallelujah) /hæ.lə.luː.jə/. În împrumuturile din franceză, ea se rostește ca sunetul /ʒ/, adică un j plin, ca în (bijou) /biː.ʒuː/.
 
-## Capcane frecvente
+## Capcane pentru români
 
-Vorbitorii de limbă română tind adesea să pronunțe această literă ca un j simplu din română, ca în cuvântul jar. Evitați această greșeală începând mereu sunetul englezesc cu o oprire scurtă, asemănătoare cu grupul de litere ge din ger.
+Vorbitorii de limbă română citesc adesea această literă cu sunetul j din cuvântul jar. Sunetul principal din engleză începe însă ferm, exact ca grupul ge din cuvântul ger. Pentru a pronunța corect, lipește ferm vârful limbii în spatele dinților de sus înainte de a da drumul aerului.

@@ -20,18 +20,18 @@ terms:
   ro: "S"
 ---
 
-## Pronunciation of S in Romanian
+## Letter sound
 
-The letter **S** represents the voiceless alveolar fricative `[s]`, identical to the 's' in English *sun* or *hiss*. Unlike in English or German, Romanian **S** never turns into a voiced `[z]` between vowels or before voiced consonants. It remains crisp, sharp, and entirely unvoiced in every native position.
+The name of this letter is pronounced /s/. It represents the sound /s/, heard in the word (soare) /ˈso̯a.re/, which means sun. This letter has only one sound in Romanian.
 
-## How to Produce the Sound
+## Mouth shape
 
-Bring your teeth close together without clenching, and leave your lips in a neutral, relaxed position. Place the tip or blade of your tongue just behind your upper front teeth against the alveolar ridge. Expel air steadily through the narrow central groove of your tongue to produce a clean hissing sound without engaging your vocal cords.
+Bring the tip of your tongue close to the ridge behind your upper teeth. Leave a narrow groove down the centre. Blow air gently over the tongue. Keep your vocal cords completely still. Touch your throat to feel that there is no vibration.
 
-## Spelling and Distribution
+## Reading rules
 
-The letter **S** appears in uppercase as **S** and lowercase as **s**. It occurs freely at the beginning, middle, and end of words, such as in *sac* (sack), *pasăre* (bird), and *nas* (nose). Be careful not to confuse **S** with the comma-bearing letter **Ș** (`[ʃ]`), which represents the 'sh' sound.
+In all regular positions, this letter keeps its single sound /s/. You hear it clearly between vowels in the word (masă) /ˈma.sə/.
 
-## Common Pitfalls to Avoid
+## English comparison
 
-The most frequent error for foreign learners is voicing the letter **S** between vowels, turning words like *casă* (house) into *cază* (fall). In Romanian, intervocalic **S** is always unvoiced `[s]`, while the voiced sound `[z]` is explicitly spelled with the letter **Z**. Pay close attention to this distinction to avoid creating unintended words.
+English speakers often turn this letter into a voiced buzz between vowels, as in the word rise. In Romanian, always keep it completely voiceless, exactly like the hissing sound in rice.

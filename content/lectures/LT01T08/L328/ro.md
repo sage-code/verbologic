@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului ar
 
-Numele acestei combinații este /ɑːr/. Sunetul principal este o vocală lungă, ca în cuvântul (arm) /ɑːm/.
+Numele acestui grup este sunetul /ɑːr/. În vorbire, grupul ar redă de obicei sunetul /ɑː/, adică un a lung și profund, ca în cuvântul (arm) /ɑːm/, care înseamnă braț. În funcție de accent și de poziție, acest grup are patru pronunții distincte.
 
 ## Pronunția sunetelor
 
-Pentru sunetul lung, deschide gura larg și trage limba spre spate. Pentru varianta neutră, lasă gura complet relaxată. Pentru vocala rotundă, rotunjește buzele și ridică partea din spate a limbii.
+Pentru primul sunet, coboară maxilarul și trage limba mult în spate, menținând gâtul relaxat și deschis. Pentru a adăuga consoana, ridică vârful limbii spre cerul gurii fără să atingi deloc palatul. La sunetul scurt, lasă gura doar întredeschisă și relaxează complet limba în mijloc. Pentru sunetul rotund, rotunjește buzele ferm și ridică spatele limbii. Pune mâna pe gât pentru a simți vibrația corzilor vocale.
 
-## Reguli de citire
+## Reguli de scriere
 
-În silabă accentuată la final de cuvânt se aude sunetul /ɑː/, adică un a lung, ca în (car) /kɑː/. Înaintea unei vocale auzi sunetul /ɑːr/ în (starry) /stɑː.ri/, sau la final în (far) /fɑːr/. În silabe neaccentuate se rostește sunetul /ə/ în (sugar) /ʃʊɡ.ə/ și (dollar) /dɒl.ə/. După un sunet consonantic labial auzi sunetul /ɔː/, adică un o lung, în (war) /wɔː/ și (warm) /wɔːm/.
+În silabă accentuată înainte de o consoană sau la sfârșit, grupul ar sună /ɑː/, ca în (car) /kɑː/. Dacă urmează o vocală sau în accentele cu r rostit, auzi sunetul /ɑːr/, ca în (starry) /stɑː.ri/ ori (far) /fɑːr/. În silabele neaccentuate, grupul devine sunetul /ə/, ca în (sugar) /ʃʊɡ.ə/ ori (dollar) /dɒl.ə/. După sunetul /w/, acesta se aude /ɔː/, adică un o lung, ca în (war) /wɔː/ sau (warm) /wɔːm/.
 
-## Diferențe față de română
+## Capcane frecvente
 
-Vorbitorii de limba română tind să pronunțe mereu un sunet r puternic rulat și un a scurt. În pronunția britanică standard, acest grup reprezintă adesea doar o vocală lungă deschisă, fără vibrația vârfului limbii.
+Vorbitorii de română tind să ruleze sunetul r cu vârful limbii ca în cuvântul românesc ramă. Nu atinge cerul gurii cu limba când pronunți acest grup în engleză. O altă greșeală este rostirea unui a scurt ca în cuvântul românesc cal. Pentru sunetul lung englezesc, deschide gura mai larg și prelungește sunetul spre spatele gâtului.

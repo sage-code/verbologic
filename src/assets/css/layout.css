@@ -64,6 +64,19 @@
   flex: 1 1 auto;
 }
 
+/* A story is one fixed-height reading page (`.story-reader`, the article
+ * page): the frame is exactly one screen tall, so the page area is whatever
+ * the header, database banner and footer leave, and the reading panels fill
+ * it. The page area may shrink below its content here — the panels scroll
+ * inside themselves, never the window. */
+.app-frame:has(.story-reader) {
+  height: 100dvh;
+}
+
+.app-frame:has(.story-reader) > .app-main {
+  min-height: 0;
+}
+
 /* Header/footer inner rows — same gutters as the page. */
 .app-container {
   width: 100%;

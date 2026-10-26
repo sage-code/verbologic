@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului th
 
-Numele grupului th se rostește ca sunetul /ð/. Acest grup redă de obicei sunetul /θ/, ca în cuvântul (think) /θɪŋk/.
+Grupul th se numește /ð/. În mod obișnuit, acest grup redă sunetul /θ/, ca în cuvântul (think) /θɪŋk/, care înseamnă a gândi. Grupul are două pronunții diferite în limba engleză.
 
-## Cum se pronunță
+## Pronunția grupului th
 
-Așază vârful limbii foarte ușor între dinți. Pentru primul sunet, suflă aer fără să folosești vocea. Pentru celălalt sunet, menține limba în aceeași poziție și adaugă vibrația corzilor vocale.
+Pentru sunetul /θ/, așezați vârful limbii foarte ușor între dinți și suflați aer fără să folosiți vocea. Pentru sunetul /ð/, țineți limba în aceeași poziție între dinți și activați corzile vocale. Puneți mâna pe gât pentru a simți vibrația numai la al doilea sunet.
 
-## Reguli de citire
+## Reguli de scriere
 
-La sfârșitul cuvintelor sau în cuvinte cu sens de sine stătător, th redă sunetul /θ/, ca în (bath) /bɑːθ/. În cuvinte gramaticale, acest grup redă sunetul /ð/, ca în (this) /ðɪs/. Între două vocale apare tot sunetul /ð/, de pildă în (father) /fɑː.ðə/.
+Grupul th redă sunetul /θ/ în majoritatea cuvintelor importante și la sfârșitul cuvintelor, cum se aude în (bath) /bɑːθ/. Același grup redă sunetul /ð/ în cuvintele gramaticale, precum (this) /ðɪs/, sau când se află așezat între două vocale, ca în (father) /fɑː.ðə/.
 
-## Capcane de pronunție
+## Greșeli frecvente românești
 
-În limba română nu există aceste sunete interdentale. Nu înlocui varianta surdă cu sunetul s sau cu sunetul t din cuvinte ca sac ori tata. Evită de asemenea să rostești sunetul z sau d în locul variantei sonore.
+Vorbitorii de limbă română înlocuiesc adesea aceste sunete cu t din cuvântul tren sau cu d din cuvântul dor. Nu atingeți cerul gurii cu limba. Scoateți vârful limbii ușor printre dinți și lăsați aerul să curgă continuu.

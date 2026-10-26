@@ -20,18 +20,18 @@ terms:
   ro: "O"
 ---
 
-## The Sound of the Letter O
+## Sound of the letter
 
-The Romanian **O** represents a mid back rounded vowel, transcribed in IPA as `/o/`. Unlike the English 'o' in words like *go* or *home*, Romanian `/o/` is a pure, steady monophthong that does not glide into an 'oo' sound at the end. It sounds very close to the pure 'o' heard in Spanish *hola* or Italian *sole*.
+The letter is called /o/, that is the full vowel. It represents the sound /o/, that is the full vowel, heard in the word (om) /om/, which means man, human. This letter has two sounds in Romanian.
 
-## How to Pronounce It
+## How to say it
 
-Round your lips firmly into a neat 'O' shape while pulling the body of your tongue toward the back of your mouth. Keep the middle part of the tongue at a mid-level height, neither too open nor too close to the palate. Most importantly, keep your tongue and lips completely still throughout the vowel to prevent diphthongization.
+For the full vowel, pull your tongue slightly back and round your lips into an open circle. Vibrate your vocal cords with steady air. For the gliding sound, round your lips more tightly and glide instantly into the following vowel without pausing. Place a hand on your throat to feel the voice buzz steadily throughout.
 
-## Spelling and Placement
+## Reading and writing
 
-The letter **O** appears in uppercase as **O** and lowercase as **o**. It can be found at the beginning, middle, or end of Romanian words such as *oraș* (city) and *acolo* (there). When paired with a subsequent **a**, it frequently forms the rising diphthong **oa** as in *floare* (flower).
+This letter usually represents the sound /o/, that is the full vowel. You can hear it in (copil) /koˈpil/. Before another vowel, it becomes the gliding sound /o̯/, that is a short glide. You can hear this glide in (soare) /ˈso̯a.re/ and in (noapte) /ˈno̯ap.te/.
 
-## Variants and Common Pitfalls
+## Common mistakes
 
-Romanian **O** acts either as a full vocalic sound `/o/` in words like *loc* (`/lok/`) or as an off-glide semivowel `/o̯/` in the diphthong **oa** like *soare* (`/ˈso̯a.re/`). English speakers frequently make the mistake of pronouncing Romanian **O** as a diphthong like `[oʊ]`, turning *dor* into something sounding like *dour*. Be careful to keep the vowel crisp, pure, and short.
+English speakers often turn this vowel into a double sound like in boat. Keep your jaw still and do not slide toward an oo sound. For the glide, do not make a heavy English w sound like in water. Keep the movement light, short and closely tied to the next vowel.

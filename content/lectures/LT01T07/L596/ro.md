@@ -20,18 +20,18 @@ terms:
   ro: "-t- (silent)"
 ---
 
-## Sunetul literei t mut
+## Sunetul literei t mute
 
-Această literă este complet mută și nu are niciun sunet, ca în cuvântul (listen) /lɪs.ən/. Nu se aude deloc în vorbire.
+Această literă poate fi complet mută în limba engleză. O întâlnești în cuvântul (listen) /lɪs.ən/, care înseamnă a asculta. În această situație, litera are o singură variantă de pronunție, anume absența totală a oricărui sunet. Treci direct la sunetul următor din cuvânt.
 
 ## Cum se pronunță litera
 
-Nu trebuie să faci nicio mișcare cu limba sau cu buzele. Treci direct la sunetul următor fără să blochezi aerul și fără voce.
+Pentru acest caz, gura nu face nicio mișcare specială. Limba nu atinge dinții și nici cerul gurii. Aerul continuă să curgă fără blocaj, iar coardele vocale nu vibrează pentru această literă. Dacă pui degetul pe gât, simți o trecere lină între sunetele vecine, fără nicio întrerupere bruscă.
 
-## Ortografia literei t mut
+## Reguli de citire
 
-Litera rămâne mută în interiorul cuvintelor, mai ales între consoane, de exemplu în (castle) /kɑːs.əl/.
+Litera nu se pronunță deloc când apare în interiorul unor cuvinte, în special între consoana s și literele l sau n. O lași complet neauzită în cuvinte precum (castle) /kɑːs.əl/. Nu încerca să adaugi niciun sunet între consoane.
 
-## Diferențe față de română
+## Greșeli frecvente de pronunție
 
-Vorbitorii de limba română au tendința să rostească această literă ca pe un t clar din cuvântul tren. Evită articularea ei.
+Vorbitorii de limbă română au tendința firească de a citi fiecare literă scrisă, pronunțând un t clar ca în cuvântul castel. În engleză, trebuie să ignori această literă și să legi direct sunetele alăturate. Imaginează-ți că litera nu există deloc pe hârtie.

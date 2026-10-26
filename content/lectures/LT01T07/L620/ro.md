@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului ph
 
-Grupul ph reprezintă sunetul /f/, la fel ca în cuvântul (photo) /foʊ.toʊ/.
+Grupul ph se pronunță ca sunetul /f/. Îl auzi în cuvântul (photo) /foʊ.toʊ/, care înseamnă fotografie. Această combinație de litere redă două sunete diferite în limba engleză.
 
-## Pronunția sunetelor
+## Pronunțarea sunetelor
 
-Pentru sunetul /f/, atinge dinții de sus de buza de jos și suflă aer fără să folosești vocea. Pentru sunetul /v/, menține aceeași poziție a buzei și dinților, dar adaugă vibrația corzilor vocale.
+Pentru primul sunet, așază dinții de sus pe buza de jos. Suflă aer continuu printre dinți și buză, fără voce. Pentru al doilea sunet, păstrează aceeași poziție a gurii. Fă corzile vocale să vibreze în timp ce sufli aerul. Pune mâna pe gât pentru a simți vibrația.
 
 ## Reguli de scriere
 
-În majoritatea cuvintelor de origine greacă, grupul ph redă sunetul /f/, ca în (phone) /foʊn/. În numele propriu (Stephen) /sti.vən/, acest grup se aude ca sunetul /v/.
+În cele mai multe cuvinte de origine greacă, grupul ph redă sunetul /f/. Un exemplu este cuvântul (phone) /foʊn/. În numele propriu (Stephen) /sti.vən/, această alăturare de litere se rostește ca sunetul /v/.
 
-## Capcane de pronunție
+## Capcane pentru vorbitorii de română
 
-Sunetul /f/ este identic cu cel din limba română din cuvântul floare. Nu pronunța literele separat ca p urmat de h.
+Sunetul principal este identic cu cel din cuvântul românesc floare. Nu încerca să citești separat literele componente. În anumite nume proprii, grupul sună ca în cuvântul românesc val. Pronunțarea cu voce a acestor consoane se învață doar prin memorare.

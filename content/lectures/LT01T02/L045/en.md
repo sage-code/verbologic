@@ -20,18 +20,18 @@ terms:
   ro: "eai"
 ---
 
-## Sound Overview
+## The sound of eai
 
-The sequence **eai** forms a complex Romanian triphthong pronounced `[e̯aj]`. It starts with a brief gliding `[e̯]`, hits a stressed open vowel `[a]`, and finishes with an offglide `[j]`. English has no single equivalent, so learners must pronounce all three elements swiftly inside a single syllable.
+The letter group eai is called /e̯aj/. It makes the triphthong sound /e̯aj/, as heard in (vedeai) /veˈde̯aj/, which means you were seeing. This three-letter sequence has just one single pronunciation in Romanian.
 
-## Pronunciation Guide
+## How to say eai
 
-Start with the tongue mid-high and fronted as for a quick `[e]`, immediately open the mouth wide for the core vowel `[a]`, and glide smoothly upward toward the palate for `[j]`. Keep the lips relaxed and unrounded throughout the entire motion. The main vocal energy rests firmly on the central **a** sound.
+Start with your lips relaxed and tongue mid-high, gliding swiftly from a weak vowel into an open mouth. Drop your jaw fully for the central vowel, then glide up as your tongue arches high toward the roof of your mouth. Your vocal cords vibrate steadily throughout the glide. Place your hand on your throat to feel continuous vibration.
 
-## Spelling Patterns
+## Spelling rules for eai
 
-This triphthong appears written consistently as **eai** in Romanian verb conjugations. It is typical for the second-person singular imperfect indicative of second and third conjugation verbs, such as *vedeai* or *făceai*. It never occurs at the start of native words and always forms a single vocalic nucleus.
+This spelling occurs in a stressed syllable as a triphthong. It always yields the sound /e̯aj/, seen for example in the verb form (spuneai) /spuˈne̯aj/.
 
-## Comparisons & Common Errors
+## Mistakes to avoid
 
-Do not break this cluster into multiple distinct syllables like *ve-de-a-i*. English speakers often insert a heavy English *y* or split the vowels with a glottal stop. Contrast the triphthong in *știai* `[ʃtiˈaj]` with *vedeai* `[veˈde̯aj]` to clearly distinguish the onglide qualities.
+English speakers often break these three letters into two distinct syllables, like the vowel in bed followed by the word eye. Avoid inserting a pause or separate vowel beats. Instead, blend all three elements into one continuous syllable, keeping the central vowel strongest.

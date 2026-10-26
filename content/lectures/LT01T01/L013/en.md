@@ -20,18 +20,18 @@ terms:
   ro: "J"
 ---
 
-## The Sound of J
+## The sound
 
-The letter **J** in Romanian consistently represents the voiced postalveolar fricative `/ʒ/`. It sounds exactly like the 's' in English *measure* or the 'g' in *genre*, or the French *j* in *bonjour*. Unlike English 'j', it is a smooth fricative and never an affricate like the 'j' in *jump*.
+The name of this letter is the sound /ʒ/. It produces one single sound in Romanian, which is heard in the word (joc) /ʒos/, meaning down or below.
 
-## How to Produce /ʒ/
+## Pronunciation
 
-To make the sound `/ʒ/`, place your tongue just behind your upper tooth ridge, exactly where you would make an 'sh' sound (`/ʃ/`). Round your lips slightly and push air continuously through the narrow channel while vibrating your vocal cords. Ensure that you do not touch your tongue to the roof of your mouth to stop the air, keeping the sound buzzing and uninterrupted.
+Raise the front of your tongue toward the roof of your mouth, just behind your upper teeth. Round your lips gently and push air continuously through the narrow gap. Keep your vocal cords vibrating throughout. You can place your fingers on your throat to feel the steady vibration as the sound pours out.
 
-## Spelling and Distribution
+## Spelling rules
 
-In the Romanian alphabet, **J** is the fourteenth letter and always keeps this single phonetic value. It appears in all positions: word-initially as in *joi* (Thursday), medially as in *ajutor* (help), and word-finally in loanwords or specific roots like *goj* or *brej*. It is capitalized as **J** and lowercase as **j**, retaining the standard Latin diacritic dot only in lowercase.
+This letter always represents the sound /ʒ/ in all native positions, whether at the beginning, middle, or end of a word. A clear example in the middle of a word is (plajă) /ˈpla.ʒə/.
 
-## Common Pitfalls
+## Common pitfalls
 
-The most common mistake English speakers make is pronouncing Romanian **J** as the affricate `/dʒ/` (the 'j' in *jam*). Be careful to contrast words like *joc* (`/ʒok/`) with borrowed sounds, ensuring you never add a 'd' sound at the beginning. It also contrasts directly with the voiceless equivalent **Ș** (`/ʃ/`), as in *șoc* (`/ʃok/`) versus *joc* (`/ʒok/`).
+English speakers often replace this sound with the initial sound in jump or jar. Do not stop the air or add an initial burst. Make it a smooth, continuous stream instead, exactly like the middle consonant in the English word vision or measure.

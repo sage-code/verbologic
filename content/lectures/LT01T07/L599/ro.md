@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## Sunetul literei iks
+## Sunetul literei ex
 
-Litera (X) /kʃ/ redă cel mai des combinația de sunete /ks/, ca în cuvântul (fox) /fɒks/.
+Numele acestei litere este (X) /kʃ/. Sunetul ei principal este o combinație de două sunete, ca în cuvântul (fox) /fɒks/, care înseamnă vulpe. În limba engleză, această literă redă trei pronunții diferite în funcție de poziția ei în cuvânt.
 
-## Pronunția sunetelor literei iks
+## Cum se pronunță
 
-Atinge cerul gurii cu spatele limbii pentru a bloca aerul, apoi eliberează-l cu un șuierat printre dinți. Rostogolește sunetele fără vibrația corzilor pentru prima variantă, sau adaugă vibrație vocală pe ambele sunete pentru a doua variantă.
+Pentru prima variantă, ridică spatele limbii spre cerul gurii și eliberează aerul brusc, apoi lasă aerul să șuiere printre dinți fără vibrația corzilor vocale. Pentru a doua variantă, fă aceleași mișcări, dar fă vocea să vibreze pe toată durata lor. Pentru a treia variantă, apropie dinții și lasă aerul să curgă continuu cu vibrație sonoră. O mână pe gât te ajută să simți vibrația.
 
-## Ortografia literei iks
+## Reguli de citire
 
-La sfârșitul cuvintelor sau înaintea consoanelor fără voce, litera (X) /kʃ/ redă sunetele /ks/, ca în (six) /sɪks/. Înaintea unei vocale accentuate, auzi sunetele /ɡz/, ca în (exam) /ɪɡ.zæm/. La începutul unui cuvânt, auzi doar sunetul /z/, ca în (xylophone) /zaɪ.lə.fəʊn/.
+La sfârșitul unei silabe, la final de cuvânt sau înaintea unei consoane fără voce, litera redă sunetul /ks/, ca în cuvântul (six) /sɪks/. Înaintea unei vocale accentuate, litera se citește ca sunetul /ɡz/, ca în cuvântul (exam) /ɪɡ.zæm/. La începutul unui cuvânt, litera se rostește simplu ca sunetul /z/, de exemplu în cuvântul (xylophone) /zaɪ.lə.fəʊn/.
 
-## Diferențe față de română
+## Greșeli frecvente
 
-Cea mai mare capcană este la începutul cuvintelor. Nu rosti două consoane așa cum ai face în cuvântul românesc xilofon, ci rostește doar un simplu sunet sonor, ca la începutul cuvântului zori.
+Cea mai frecventă greșeală la vorbitorii de română este pronunțarea literei de la începutul cuvintelor ca o combinație dublă, ca în cuvântul românesc pix. Când litera deschide un cuvânt englezesc, nu adăuga niciun sunet înainte. Rostește doar un sunet continuu cu vibrație sonoră, exact ca sunetul inițial din cuvântul românesc zar.

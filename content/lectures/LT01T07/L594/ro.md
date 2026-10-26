@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei ti
 
-Numele acestei litere se pronunță (T) /ʃ/. În vorbire, ea redă de obicei sunetul /t/, ca în cuvântul (table) /teɪ.bəl/.
+Numele acestei litere este (T) /ʃ/. Sunetul principal este sunetul /t/, ca în cuvântul (table) /teɪ.bəl/, care înseamnă masă. În limba engleză, această literă produce două sunete distincte și poate fi de asemenea mută în anumite cuvinte.
 
-## Cum se pronunță
+## Pronunția sunetelor literei
 
-Atingeți gingia de sus cu vârful limbii și eliberați brusc aerul fără voce. Pentru varianta compusă, opriți aerul și dați-i drumul printr-o șuierătură scurtă.
+Pentru primul sunet, atingeți cu vârful limbii gingia din spatele dinților de sus. Blocați aerul pentru o clipă, apoi eliberați brusc un jet scurt fără voce. Pentru al doilea sunet, așezați limba în aceeași poziție, rotunjiți buzele și lăsați aerul să iasă printr-o frecare rapidă. Țineți palma în fața gurii pentru a simți suflul de aer.
 
-## Reguli de citire
+## Reguli de scriere
 
-La început de cuvânt sau înaintea vocalelor, redați sunetul /t/, ca în (ten) /tɛn/. Înaintea unui u neaccentuat, se aude sunetul /tʃ/, ca în (nature) /neɪ.tʃər/. În grupuri precum cele din (castle) /kæ.səl/, litera nu se pronunță deloc.
+În cele mai multe cazuri, la început de cuvânt sau înaintea unei vocale, litera redă sunetul /t/, ca în (ten) /tɛn/. Înaintea unui u neaccentuat, litera redă sunetul /tʃ/, ca în cuvântul (nature) /neɪ.tʃər/. În grupuri de consoane precum cele din (castle) /kæ.səl/, litera nu se pronunță deloc.
 
-## Capcane de pronunție
+## Diferențe față de română
 
-În limba română, atingeți dinții când spuneți t. În engleză, sprijiniți limba mai sus, pe gingie, lăsând să iasă o mică răsuflare.
+În limba română, sunetul t din cuvântul tata se rostește atingând dinții. În limba engleză, limba trebuie retrasă puțin mai sus, direct pe gingie. Eliberați sunetul cu o mică explozie de aer, fără a vibra deloc coardele vocale. Pentru al doilea sunet, pronunțați un sunet asemănător cu cel din cuvântul românesc ceai.

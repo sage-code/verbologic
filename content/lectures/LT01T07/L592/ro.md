@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei es
 
-Numele acestei litere este (S) /ʒ/. Redă cel mai des sunetul /s/, ca în cuvântul (sun) /sʌn/.
+Numele acestei litere se rostește (S) /ʒ/. În mod obișnuit, litera redă sunetul /s/, ca în cuvântul (sun) /sʌn/, care înseamnă soare. În limba engleză, această literă poate produce trei sunete diferite sau poate rămâne complet mută.
 
 ## Pronunția sunetelor
 
-Pentru sunetul /s/, vârful limbii se apropie de dinții de sus și aerul iese șuierat, fără voce. Pentru sunetul /z/, folosești aceeași poziție, dar adaugi vibrația corzilor vocale. Pentru sunetul /ʒ/, retragi ușor limba și rotunjești puțin buzele, lăsând vocea să vibreze.
+Pentru primul sunet, așază vârful limbii aproape de dinții de sus și suflă aer continuu, fără vibrația corzilor vocale. Pentru al doilea sunet, păstrează aceeași poziție a gurii, dar activează vocea. Dacă pui mâna pe gât, simți o vibrație clară. Pentru al treilea sunet, retrage limba puțin spre cerul gurii și lasă aerul sonor să treacă ușor prin buzele rotunjite.
 
-## Reguli de citire
+## Reguli de scriere
 
-La începutul cuvintelor sau înaintea consoanelor fără voce, se aude sunetul /s/, ca în (sit) /sɪt/. Între vocale sau la finalul multor cuvinte, redă sunetul /z/, ca în (busy) /bɪ.zi/. Înaintea unor terminații după vocală, redă sunetul /ʒ/, ca în (vision) /vɪ.ʒən/. În anumite cuvinte nu se pronunță deloc, ca în (island) /aɪ.lənd/.
+La începutul cuvintelor sau înaintea consoanelor surde, litera redă sunetul /s/, ca în (sit) /sɪt/. Între două vocale sau la sfârșitul multor cuvinte, ea devine sunetul /z/, ca în (busy) /bɪ.zi/. Înaintea unor terminații precum cele din (vision) /vɪ.ʒən/, litera produce sunetul /ʒ/. În câteva cuvinte speciale, litera nu se pronunță deloc, de pildă în (island) /aɪ.lənd/.
 
 ## Diferențe față de română
 
-Vorbitorii de română tind adesea să pronunțe sunetul /s/ la finalul cuvintelor unde engleza cere sunetul /z/. În română sunetul se găsește în cuvântul sare, iar celălalt în zarzavăt. Atenție să activezi vocea pentru sunetul /z/ când poziția o cere.
+Vorbitorii de limba română tind adesea să citească litera ca sunetul /s/ din sac peste tot. La finalul multor cuvinte englezești sau între vocale, pronunță un sunet sonor cu vibrație clară în gât, exact ca sunetul /z/ din ziar. Nu uita de asemenea să o lași mută în cuvintele unde nu se aude deloc.

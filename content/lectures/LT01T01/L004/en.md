@@ -20,18 +20,18 @@ terms:
   ro: "B"
 ---
 
-## The Sound of the Letter B
+## Letter sound
 
-The Romanian letter **B** represents the voiced bilabial plosive `/b/`. It sounds virtually identical to the English 'b' in words like *boat* or *cab*. Unlike in some Germanic languages, it remains fully voiced and never undergoes final-obstruent devoicing at the end of a word.
+This letter is named /b/. Its sound is heard in the word (băiat) /bun/, which means good. The letter always represents one single sound in standard Romanian speech.
 
-## How to Pronounce /b/
+## How to pronounce it
 
-Bring both lips firmly together to temporarily block the airflow from your lungs. Build slight air pressure behind your lips while vibrating your vocal cords to create voice. Release the lips briskly with a clean burst of sound without adding any puff of breath (aspiration).
+Bring your upper and lower lips firmly together to close the airflow completely. Build up air pressure gently behind the lips while vibrating your vocal cords. Then release the lips quickly to let the air burst out. Place your fingers on your throat to feel a strong vibration.
 
-## Spelling and Distribution
+## Reading rules
 
-Written as uppercase **B** and lowercase **b**, this consonant appears naturally at the beginning, middle, and end of Romanian words. It consistently corresponds to the phoneme `/b/` regardless of surrounding vowels. It never blends into a silent letter as English 'b' sometimes does in words like *comb*.
+The letter always represents the sound /b/ in all standard positions. It occurs at the start, in the middle, and at the end of words. You can hear this clearly in the word (alb) /alb/.
 
-## Comparing Sounds and Common Pitfalls
+## Comparing with English
 
-Native speakers of German or Russian often instinctively devoice final consonants, turning a final `/b/` into a `/p/`. For instance, pronounce **alb** ('white') with a clearly voiced ending `/alb/`, not */alp/*. Take care not to aspirate the sound before open vowels like `/a/`.
+English speakers produce this consonant very easily because it matches their own sound. Do not whisper it at the end of a word or turn it into an unvoiced sound. Keep your vocal cords vibrating until the sound is complete, exactly as you do in the English word cab.

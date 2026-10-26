@@ -20,18 +20,18 @@ terms:
   ro: "-bt"
 ---
 
-## Grupul de litere bt
+## Sunetul grupului bt
 
-Grupul de litere -bt se rostește ca sunetul /t/. Îl auzi la finalul cuvântului (debt) /dɛt/.
+Grupul de litere -bt are denumirea rostită ca sunetul /t/. Acest grup redă sunetul /t/, ca în cuvântul (debt) /dɛt/, care înseamnă datorie. Grupul produce un singur sunet în limba engleză.
 
-## Pronunția sunetului t
+## Pronunțarea sunetului
 
-Atinge marginea dinților de sus cu vârful limbii pentru a opri aerul. Desprinde limba brusc, lăsând aerul să iasă fără vibrația corzilor vocale.
+Atinge cu vârful limbii gingia din spatele dinților de sus. Oprește complet aerul pentru o clipă, apoi desprinde limba brusc pentru a lăsa aerul să iasă. Nu folosi vocea. Pune degetul pe gât și verifică dacă nu simți nicio vibrație în timpul acestei mici explozii.
 
 ## Reguli de scriere
 
-La finalul cuvintelor, litera b este mută și auzi doar sunetul /t/, ca în (doubt) /daʊt/.
+La finalul cuvintelor, prima literă este complet mută și se aude doar sunetul /t/. Poți auzi această pronunție în cuvântul (doubt) /daʊt/.
 
 ## Diferențe față de română
 
-Vorbitorii de română tind să pronunțe ambele consoane scrise. Nu rosti sunetul b, ci doar un simplu t surd, exact ca în cuvântul românesc tata.
+Vorbitorii de limba română au tendința de a citi ambele litere, încercând să pronunțe consoana din cuvântul ban. În limba engleză, prima consoană nu se rostește deloc. Treci direct la sunetul din cuvântul românesc tren, fără să miști buzele pentru a pregăti vreo altă literă.

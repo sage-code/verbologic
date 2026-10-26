@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului er
 
-Grupul se numește /ɜːr/, adică un ăr lung cu r rotic. Sunetul său principal se aude în cuvântul (fern) /fɜːrn/.
+Grupul de litere er are numele rostit ca sunetul /ɜːr/, adică un ă lung urmat de un r englezesc. Sunetul principal se aude în cuvântul (fern) /fɜːrn/, care înseamnă ferigă. Acest grup redă două sunete înrudite, în funcție de accentul cuvântului.
 
-## Cum se pronunță
+## Pronunția sunetelor grupului
 
-Ține limba în centrul gurii, relaxată, cu buzele neutre. Pentru varianta lungă, menține fluxul vocal și curbează ușor vârful limbii spre cerul gurii. Varianta scurtă este extrem de scurtă și slab accentuată.
+Pentru primul sunet, deschideți puțin gura și țineți buzele relaxate. Corpul limbii stă la mijloc, iar vârful se ridică ușor spre cerul gurii fără să îl atingă. Pentru al doilea sunet, relaxați complet gura și rostiți sunetul foarte scurt. Țineți mâna pe gât pentru a simți vibrația corzilor vocale.
 
-## Reguli de pronunție
+## Reguli de scriere
 
-În silabele accentuate, grupul redă sunetul /ɜːr/, adică un ăr lung cu r, ca în (term) /tɜːrm/. În silabele neaccentuate, acesta redă sunetul /ər/, adică un ăr scurt și slab cu r, ca în (water) /wɔː.tər/.
+În silabele accentuate, grupul er se citește ca sunetul /ɜːr/, adică un ă lung cu r, ca în (term) /tɜːrm/. În silabele neaccentuate, adesea la sfârșitul cuvintelor, același grup se aude ca sunetul /ər/, adică un ă foarte scurt și slab cu r. Un exemplu pentru această variantă este cuvântul (water) /wɔː.tər/, dar și cuvântul (butter) /bʌ.tər/.
 
 ## Capcane de pronunție
 
-Vorbitorii de română tind să citească literele separat, ca un e urmat de un r vibrat. În engleză nu ai sunetul e, ci o vocală centrală similară cu ă, iar r nu se vibrează niciodată cu vârful limbii.
+Vorbitorii de limbă română tind să citească litera e ca în cuvântul elev și să vibreze puternic sunetul r ca în cuvântul repede. Nu atingeți dinții sau cerul gurii cu vârful limbii. Transformați vocala într-un sunet apropiat de litera ă din cuvântul măr, rotunjind limba spre spate fără nicio vibrație.

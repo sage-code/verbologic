@@ -20,18 +20,18 @@ terms:
   ro: "ioa"
 ---
 
-## The Sound of "ioa"
+## Sound of ioa
 
-The letter group **ioa** represents the Romanian triphthong `[jo̯a]`, composed of a palatal semivowel, a labial semivowel, and the open central vowel `[a]`. It begins like the English *y* in *yes*, transitions smoothly through a rounded *w*-like glide, and lands firmly on the open *a* of *father*. In English, sequences of three vowels are typically broken across syllables, but in Romanian this entire cluster is pronounced together in a single energetic glide.
+The letter group ioa is spoken as the sound /jo̯a/. It represents a single combined sequence with one standard sound. You hear it clearly in the word (creioane) /kreˈjo̯a.ne/, which means pencils.
 
-## How to Pronounce It
+## How to say it
 
-Start with your tongue high and forward as if saying a quick English *y*. Immediately round your lips slightly while shifting the tongue toward the center to produce the glide `[o̯]`, and then quickly open your mouth wide into the full vowel `[a]`. Keep the transition fluid and avoid pausing between the three elements.
+Start with your tongue high and forward as your vocal cords vibrate. Quickly round your lips slightly while opening your mouth wider into an open vowel. Your voice runs smoothly through this single flow of breath without any pause. Touch your fingers to your throat to feel the steady vibration throughout the whole movement.
 
-## Spelling and Patterns
+## Spelling rules
 
-This triphthong is spelled simply as **ioa** and consistently occurs within the same syllable. It is especially common in diminutive nouns ending in *-ioară* (such as *inimioară*) and plural forms like *creioane*. Because it contains the syllable nucleus, it almost always carries primary stress in standard words.
+This spelling pattern appears in stressed syllables where the three letters form a unified triphthong. In this position, the group always produces the gliding sequence /jo̯a/. You can observe this regular pattern in the noun (aripioară) /a.riˈpjo̯a.rə/.
 
-## Nuances and Common Mistakes
+## Common mistakes
 
-Do not split **ioa** into multiple syllables like *i-o-a*; it must flow as a continuous acoustic unit. English speakers often over-emphasize the middle vowel, turning `[jo̯a]` into two separate beats. Pay close attention to words like **creioane** (`/kreˈjo̯a.ne/`) and ensure the entire sequence belongs strictly to one syllable.
+English speakers often break this sequence into separate syllables. Do not pronounce it like the separate parts in the English word trio. Instead, glide continuously without inserting any extra pauses, similar to saying the end of the English name kayak followed immediately by an ah vowel.

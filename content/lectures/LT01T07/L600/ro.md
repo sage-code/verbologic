@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## Sunetul literei uai
+## Sunetul literei ipsilon
 
-Numele acestei litere este (Y) /j/. Sunetul său principal este sunetul /j/, ca în cuvântul (yes) /jɛs/.
+Numele acestei litere este (Y) /j/. Sunetul său principal este sunetul /j/, ca în cuvântul (yes) /jɛs/, care înseamnă da. Această literă poate reda patru sunete diferite în limba engleză.
 
-## Pronunțarea sunetelor literei
+## Pronunțarea sunetelor
 
-Pentru sunetul consonantic, ridică partea din mijloc a limbii aproape de cerul gurii și folosește vocea. Pentru diftong, deschide gura relaxat, apoi glisează limba spre cerul gurii. La sunetele vocalice scurte, ține limba ridicată în față, mai relaxată sau mai fermă.
+Pentru primul sunet, ridică mijlocul limbii spre cerul gurii și lasă aerul să treacă cu vibrația corzilor vocale. Pentru al doilea sunet, deschide gura larg pentru un sunet de tip a, apoi glisează limba sus spre un i scurt. Pentru al treilea sunet, ține limba sus și buzele întinse. Pentru ultimul sunet, relaxează limba puțin mai jos. Poți simți vibrația punând mâna pe gât.
 
-## Reguli de pronunțare
+## Reguli de citire
 
-La începutul unei silabe înaintea unei vocale, redă sunetul /j/, ca în (yam) /jæm/. La sfârșitul unui cuvânt monosilabic, se rostește diftongul /aɪ/, ca în (my) /maɪ/. La finalul unui cuvânt plurisilabic neaccentuat, oferă sunetul /i/, un i clar, ca în (happy) /hæ.pi/. Într-o silabă închisă accentuată de origine greacă, dă sunetul /ɪ/, adică un i scurt și relaxat, ca în (gym) /dʒɪm/.
+La începutul unui cuvânt sau al unei silabe înaintea unei vocale, litera redă sunetul /j/, ca în (yam) /jæm/. La sfârșitul unui cuvânt scurt de o singură silabă sau într-o silabă deschisă accentuată, auzim sunetul /aɪ/, ca în (my) /maɪ/ sau în (cry) /kraɪ/. La finalul unui cuvânt mai lung, în silabă neaccentuată, se rostește sunetul /i/, adică un i lung și clar, ca în (happy) /hæ.pi/ și (baby) /beɪ.bi/. În silabe închise de origine greacă, auzim sunetul /ɪ/, adică un i scurt și relaxat, ca în (gym) /dʒɪm/ și (myth) /mɪθ/.
 
-## Dificultăți pentru vorbitorii români
+## Diferențe față de română
 
-În cuvinte de origine greacă, vorbitorii români tind să spună un i clar în loc de sunetul relaxat englezesc. Pentru cel relaxat, coboară foarte puțin mandibula și relaxează limba, fără a rosti sunetul ascuțit din română.
+Vorbitorii de limbă română tind să pronunțe sunetul relaxat ca pe un i românesc din cuvântul nisip. Pentru a corecta greșeala, coboară maxilarul foarte puțin și relaxează limba. În diftong, nu prelungi al doilea element ca în cuvântul rai, ci glisează rapid și lin de la primul sunet spre al doilea.

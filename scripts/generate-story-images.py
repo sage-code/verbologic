@@ -1,9 +1,11 @@
 """Generate a story's illustrations with Gemini, in a Grigorescu-like style.
 
 A story is a children's picture book: the reader shows one picture beside the
-text, and the picture changes as the story advances. The number of pictures
-follows the story's CEFR level (A1 one, A2 two, B1 three, B2 four, C1+ five),
-because a longer story needs more pictures to hold a child's attention.
+text, and the picture changes as the story advances. Every story gets three
+pictures, on its first three reading pages.
+
+Every picture is cropped and resized to the reader's panel shape (4:5, 896x1120)
+before it is saved, so the file on disk is the file the page shows.
 
 The pictures are SHARED by every language the story is translated into — they
 live in the item's own `images/` folder, not under a locale — so they are
@@ -66,14 +68,23 @@ STYLE = (
     "No text, no lettering, no captions, no watermark, no signature."
 )
 
-#: How many pictures a story gets, by CEFR level. Mirrors `imageCountForLevel`
-#: in scripts/lib/manifest.mjs — the two must agree or the manifest and the
-#: files on disk disagree about how many pictures exist.
-LEVEL_IMAGES = {"A1": 2, "A2": 2, "B1": 3, "B2": 4, "C1": 5, "C2": 5}
+#: How many pictures every story gets. Mirrors `STORY_IMAGE_COUNT` in
+#: scripts/lib/manifest.mjs — the two must agree or the manifest and the files
+#: on disk disagree about how many pictures exist.
+STORY_IMAGE_COUNT = 3
 
-#: Portrait, because the reader shows the picture in a tall right-hand column.
-#: A landscape picture would letterbox into a thin strip and waste the panel.
-ASPECT_RATIO = "3:4"
+#: The picture's pixel size: 4:5, and 1120 tall keeps a 2x screen sharp at the
+#: panel's height (about 510-620 CSS px).
+PICTURE_WIDTH = 896
+PICTURE_HEIGHT = 1120
+
+#: 4:5, measured against the reader's picture panel (verbologic story page, three
+#: equal panels in a row). The panel is nearly square on common desktop screens:
+#: 481x510 at 1564x794, 387x436 at 1280x720, 415x482 at 1366x768, 493x616 at
+#: 1600x900 — aspect 0.80 to 0.94. A 4:5 picture covers that range with the
+#: largest side crop at about 15%, where 3:4 crops about 20% of the height and a
+#: square crops about 20% of the width. 896x1120 also keeps a 2x screen sharp.
+ASPECT_RATIO = "4:5"
 
 
 def load_env() -> None:
@@ -88,9 +99,37 @@ def load_env() -> None:
         os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
 
 
-def image_count(cefr: str | None) -> int:
-    """Pictures for a level, defaulting to one (the safe minimum)."""
-    return LEVEL_IMAGES.get(str(cefr or "").upper(), 1)
+def image_count() -> int:
+    """Pictures for every story: STORY_IMAGE_COUNT, whatever its level."""
+    return STORY_IMAGE_COUNT
+
+
+def fit_picture(raw: bytes) -> bytes:
+    """Centre-crop to the panel's 4:5 shape and resize to PICTURE_WIDTH x PICTURE_HEIGHT.
+
+    Gemini returns a picture close to 4:5 but not exact (928x1152 came back for
+    a 4:5 request), so the crop removes the few pixels of excess and the resize
+    gives every story the same pixel size. JPEG output, as the manifests expect.
+    """
+    from io import BytesIO
+
+    from PIL import Image
+
+    image = Image.open(BytesIO(raw)).convert("RGB")
+    width, height = image.size
+    target = PICTURE_WIDTH / PICTURE_HEIGHT
+    if width / height > target:
+        new_width = round(height * target)
+        left = (width - new_width) // 2
+        image = image.crop((left, 0, left + new_width, height))
+    else:
+        new_height = round(width / target)
+        top = (height - new_height) // 2
+        image = image.crop((0, top, width, top + new_height))
+    image = image.resize((PICTURE_WIDTH, PICTURE_HEIGHT), Image.LANCZOS)
+    out = BytesIO()
+    image.save(out, format="JPEG", quality=88, optimize=True, progressive=True)
+    return out.getvalue()
 
 
 def story_paragraphs(track: str, topic: str, code: str, locale: str) -> list[str]:
@@ -125,8 +164,22 @@ def pages_for_images(count: int, page_count: int) -> list[int]:
     return [min(index, page_count - 1) for index in range(count)]
 
 
+#: Composition for the reader's panel. The picture is shown with `object-cover`
+#: in a near-square box, so the sides and the top and bottom edges get trimmed
+#: by a few percent. Subjects must sit in the middle, not at the edges, and the
+#: frame must be full-bleed so the trim never shows a border or a blank strip.
+COMPOSITION = (
+    "Frame: a tall 4:5 portrait picture, filled edge to edge with painting — no "
+    "border, no white margin, no vignette, no frame. Place the main characters "
+    "large and central, with their faces in the upper-middle of the picture and "
+    "the key action inside the central three-fifths of the width. Keep the "
+    "edges soft background (sky, foliage, ground), never a character or a "
+    "detail the story needs."
+)
+
+
 def build_prompt(title: str, paragraph: str, index: int, total: int) -> str:
-    """One picture's prompt: the style, plus the scene this page describes."""
+    """One picture's prompt: the style, the frame, and the scene this page describes."""
     position = (
         "This is the opening picture of the story."
         if index == 0
@@ -134,6 +187,7 @@ def build_prompt(title: str, paragraph: str, index: int, total: int) -> str:
     )
     return (
         f"{STYLE}\n\n"
+        f"{COMPOSITION}\n\n"
         f"Story: \"{title}\". {position}\n"
         "Illustrate exactly this moment of the story, showing the characters and "
         "setting it describes. Keep the characters visually consistent with a "
@@ -151,8 +205,7 @@ def call_gemini_image(prompt: str, model: str) -> bytes:
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "responseModalities": ["IMAGE"],
-            # Portrait: the reader's picture column is tall and narrow, so a
-            # landscape picture would letterbox into a wasted strip.
+            # 4:5 matches the reader's picture panel (see ASPECT_RATIO).
             "imageConfig": {"aspectRatio": ASPECT_RATIO},
         },
     }
@@ -210,9 +263,9 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description=(
             "Generate a story's illustrations with Gemini in a Grigorescu "
-            "impressionist style. The count follows the CEFR level (A1 one, "
-            "A2 two, B1 three, B2 four, C1+ five) and the pictures are shared "
-            "by every language the story is translated into."
+            "impressionist style. Every story gets three pictures, cropped to "
+            "4:5, and the pictures are shared by every language the story is "
+            "translated into."
         )
     )
     parser.add_argument("--topic", help="only this story topic (e.g. ST01T02)")
@@ -250,7 +303,7 @@ def main() -> int:
             print(f"  {code}: empty story, skipped", file=sys.stderr)
             skipped += 1
             continue
-        count = image_count(item.get("cefr"))
+        count = image_count()
         pages = pages_for_images(count, len(paragraphs))
         title = story_title(topic, code, source)
         item_dir = manifest_path.parent
@@ -275,7 +328,7 @@ def main() -> int:
                 failed += 1
                 continue
             images_dir.mkdir(parents=True, exist_ok=True)
-            target.write_bytes(raw)
+            target.write_bytes(fit_picture(raw))
             print(f"  [{index}] page {page + 1}: wrote {target.relative_to(ROOT).as_posix()} ({len(raw)} bytes)")
             written += 1
 

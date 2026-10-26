@@ -20,18 +20,18 @@ terms:
   ro: "U"
 ---
 
-## The Sound of Romanian U
+## The letter U
 
-The Romanian letter **U** usually represents the close back rounded vowel `/u/`, similar to the 'oo' in English 'boot' or 'moon'. Unlike in English, this vowel is pure, tense, and never glides into a diphthong on its own. When paired adjacent to another vowel, it can also function as the semivowel `/w/`, like the 'w' in 'water'.
+The name of this letter is pronounced /u/. It represents the sound /u/, as in (urs) /ˈu.nuls/, which means one. This letter has two different sounds in Romanian speech.
 
-## How to Pronounce U
+## Pronouncing the sounds
 
-Round your lips tightly into a small, tense circular opening and push them forward. Pull the body of your tongue high and back toward the soft palate without touching it. Maintain steady vocal cord vibration to produce a clear, sustained `/u/` sound without letting your lips relax.
+To make the first sound, pull the back of your tongue upward toward the soft palate. Round your lips tightly into a small circle and let your vocal cords vibrate. For the gliding sound, keep the same mouth position, but make the movement much shorter and slide instantly into the neighbouring vowel. Place a hand on your throat to feel continuous vibration.
 
-## Spelling and Distribution
+## Reading the variants
 
-Written as uppercase **U** and lowercase **u**, it appears freely in all positions in Romanian words. It forms common descending and ascending diphthongs, such as in *nou* ('new') or *ziua* ('the day'). It never changes pronunciation before specific consonants, remaining strictly vocalic or semivocalic.
+This letter usually acts as a standard full vowel, sounding like the sound /u/, as in (unu) /ˈu.nu/. It becomes a quick glide, pronounced as the semivowel sound /w/, when it forms a diphthong next to another vowel. You hear this gliding quality in (nou) /now/.
 
-## Variants and Common Pitfalls
+## Pitfalls for English speakers
 
-English speakers often make the mistake of reducing unstressed **u** to a schwa `/ə/` or pronouncing it as a lax `/ʊ/` like in 'foot'. In Romanian, `/u/` preserves its tight, rounded quality even in unaccented syllables like *lupul* (`/ˈlu.pul/`). Watch out also for words where **u** forms a semivowel `/w/`, ensuring you do not add an extra syllable.
+English speakers often glide this vowel into an unstable sound or add a preceding consonant, like the sound in cute. Keep your lips firmly rounded and hold the vowel steady, as in boot. English speakers also weaken unstressed vowels into an obscure sound. Give every Romanian instance of this vowel its full, pure tone.

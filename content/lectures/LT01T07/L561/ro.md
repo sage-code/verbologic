@@ -20,18 +20,18 @@ terms:
   ro: "I"
 ---
 
-## Sunetul literei ai
+## Sunetul literei I
 
-Numele acestei litere este (I) /aɪ/. Cel mai des redă sunetul /ɪ/, adică un i scurt și relaxat, ca în cuvântul (ink) /ɪŋk/.
+Numele acestei litere este (I) /aɪ/. Sunetul său principal este sunetul /ɪ/, adică un i scurt și relaxat, ca în cuvântul (ink) /ɪŋk/, care înseamnă cerneală. Această literă produce patru sunete diferite în limba engleză.
 
-## Pronunția literei ai
+## Pronunțarea sunetelor
 
-Pentru sunetul scurt, coboară puțin mandibula și relaxează limba față de poziția obișnuită. Pentru sunetul lung, întinde buzele și ridică limba mai sus. Pentru diftong, deschide gura larg pe prima parte, apoi glisează spre o deschidere mai mică.
+Pentru primul sunet, relaxează buzele și ridică mijlocul limbii spre cerul gurii, puțin mai jos decât la un i obișnuit. Pentru al doilea sunet, deschide gura larg pentru un a curat, apoi glisează limba spre un i scurt. Pentru al treilea sunet, întinde buzele și ține sunetul lung. Pentru ultimul sunet, lasă toată gura complet neutră. Pune degetele pe gât pentru a simți vibrația constantă a corzilor vocale.
 
-## Ortografia literei ai
+## Reguli de citire
 
-În silabe închise produce sunetul /ɪ/, adică un i scurt, ca în (pin) /pɪn/. În silabe deschise sau înaintea unui e final mut redă sunetul /aɪ/, ca în (ice) /aɪs/. În împrumuturi redă sunetul /iː/, adică un i lung, ca în (ski) /skiː/. În silabe neaccentuate devine sunetul /ə/, ca în (pencil) /pen.səl/.
+În silabe închise, litera redă sunetul /ɪ/, adică un i scurt și relaxat, ca în cuvântul (pin) /pɪn/. În silabe deschise sau înainte de un e final mut, auzi diftongul (ice) /aɪs/ sau (time) /taɪm/. În împrumuturi sau terminații neaccentuate, litera se citește ca sunetul /iː/, adică un i lung, ca în (ski) /skiː/ sau (police) /pə.liːs/. În silabe neaccentuate, se aude ca sunetul neutru /ə/, ca în cuvintele (pencil) /pen.səl/ și (possible) /pɒs.ə.bəl/.
 
-## Dificultăți pentru vorbitorii români
+## Capcane frecvente
 
-Vorbitorii de limbă română tind să înlocuiască sunetul scurt prin sunetul i din română, care este prea încordat și lung. De asemenea, sunetul din poziții neaccentuate este rostit greșit ca i plin, în loc de sunetul slab similar cu ă.
+Vorbitorii de limbă română pronunță adesea primul sunet ca pe un i românesc din cuvântul nisip. Sunetul englezesc este mult mai scurt, mai deschis și mai relaxat. Coboară puțin maxilarul și lasă limba mai moale pentru a nu lungi sunetul.

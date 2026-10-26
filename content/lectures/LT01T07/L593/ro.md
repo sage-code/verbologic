@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei ti
 
-Numele acestei litere se rostește (T) /t/. Sunetul său principal este sunetul /t/, auzit în cuvântul (top) /tɑp/.
+Numele acestei litere se rostește sunetul /t/. Sunetul ei principal este sunetul /t/, ca în cuvântul (top) /tɑp/, care înseamnă vârf. Această literă poate avea două pronunții diferite în vorbire. În unele cuvinte, litera nu se aude deloc.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Atingeți gingia de sus cu vârful limbii pentru a bloca aerul, apoi eliberați-l brusc fără voce. Pentru varianta bătută, atingeți scurt aceeași zonă cu vibrația corzilor vocale.
+Pentru primul sunet, atingeți gingia superioară din spatele dinților cu vârful limbii. Eliberați aerul dintr-o dată, cu o mică explozie. Pentru al doilea sunet, atingeți foarte scurt cerul gurii cu vârful limbii. O mână pusă pe gât simte vibrația corzilor vocale doar la al doilea sunet. La primul sunet iese doar un suflu rece de aer.
 
-## Reguli de citire
+## Reguli de scriere
 
-În mod obișnuit, litera redă sunetul /t/, ca în (ten) /tɛn/. Între vocale înaintea unei silabe neaccentuate, devine sunetul /ɾ/ bătut, ca în (butter) /bʌ.tər/. În grupuri de litere din interiorul cuvintelor, litera este mută, de pildă în (listen) /lɪs.ən/.
+În mod obișnuit, litera redă sunetul /t/, ca în cuvântul (ten) /tɛn/. Între două vocale, înainte de o silabă neaccentuată, litera se aude ca sunetul /ɾ/. Puteți auzi acest sunet rapid în cuvântul (butter) /bʌ.tər/. În anumite grupuri de litere din interiorul cuvintelor, litera nu se pronunță. Un exemplu este cuvântul (listen) /lɪs.ən/.
 
-## Capcane frecvente
+## Capcane de pronunție
 
-În limba română, atingeți dinții când spuneți sunetul din tren. În engleză, limba trebuie așezată mai sus, pe gingie, cu o mică explozie de aer.
+În limba română, sunetul din cuvântul tren atinge dinții din față. În limba engleză, limba trebuie să stea mai în spate, pe gingie. La început de cuvânt, suflați puțin aer când desprindeți limba. Al doilea sunet seamănă mult cu sunetul din cuvântul românesc repede, fiind o simplă atingere scurtă.

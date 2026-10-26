@@ -20,18 +20,18 @@ terms:
   ro: "ui"
 ---
 
-## The Sound of Romanian 'ui'
+## The group ui
 
-The combination **ui** most frequently represents a falling diphthong pronounced `[uj]`, smoothly blending a rounded close back vowel into a palatal semivowel. It resembles the glide in English **chewy** or **gooey**, but compressed briskly into a single syllable. In certain words, particularly loanwords or specific verb forms, it separates into two distinct vowels in hiatus (`[u.i]`).
+The letter group ui is named /uj/. Its main sound is the diphthong /uj/, heard in (pui) /puj/, which means chicken or youth. This written pair represents two distinct sounds in Romanian speech. It never stays silent.
 
-## How to Form 'ui'
+## Pronouncing ui
 
-Start by rounding your lips tightly and pulling your tongue back to produce a clear Romanian `[u]`. While keeping the vocal cords vibrating, glide your tongue quickly up and forward toward the hard palate while unrounding your lips slightly. The transition must be seamless so that both components belong to one continuous syllable pulse.
+Round your lips tightly and pull your tongue back for the first vowel. Then glide your tongue forward toward the roof of your mouth while unrounding your lips. Keep your vocal cords vibrating continuously throughout the glide. For the two separate vowels, pause slightly between the rounded back sound and the spread front vowel. Feel continuous vibrations by placing your hand on your throat.
 
-## Spelling and Distribution
+## Spelling of ui
 
-Written as the digraph **ui**, this sequence appears frequently in word-final positions (such as noun endings or genitive-dative markers like **omului**) and internally before consonants. When it carries stress on the initial element, it forms the diphthong `[uj]`. When an inflectional suffix or etymological root demands hiatus, both vowels are pronounced separately without any special diacritic.
+This combination usually forms a single closing diphthong within one syllable. In that case, it is pronounced as the sound /uj/, as found in (puiul) /ˈpu.jul/. In other words, the vowels split across two separate syllables in hiatus. When separated into hiatus, they produce the two vowels /u.i/, as in (ruină) /ruˈi.nə/.
 
-## Variants and Pitfalls
+## English comparisons
 
-Be careful to distinguish the diphthong `[uj]` in monosyllables like **pui** (`/puj/`) from hiatus `[u.i]` in words like **ruină** (`/ruˈi.nə/`). A common pitfall for English speakers is inserting a harsh consonant /w/ before the vowel or lingering too long on the glide. Strive for a concise, energetic glide where the primary acoustic weight remains on the vocalic nucleus.
+English speakers often merge this group into a single long vowel like the sound in suit. Avoid turning it into one flat vowel. Glide distinctly from the rounded back vowel to the high front glide, just like in gooey. If the letters stand in hiatus, say two clear vowels without adding an intrusive w sound between them.

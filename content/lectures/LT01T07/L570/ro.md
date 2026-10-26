@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei ar
 
-Litera (R) /ɑːr/ redă în limba engleză sunetul /r/. O auzi la începutul cuvântului (red) /rɛd/.
+Numele acestei litere este (R) /ɑːr/. Sunetul ei principal se aude în cuvântul (red) /rɛd/, care înseamnă roșu. În limba engleză, această literă are două comportamente diferite în vorbire.
 
-## Pronunția sunetului ar
+## Pronunțarea sunetului
 
-Pentru sunetul /r/, ridică vârful limbii spre cerul gurii fără să atingi dinții sau gingia. Rotunjește puțin buzele și lasă aerul să curgă continuu, vibrând corzile vocale fără să tremuri limba.
+Pentru a rosti sunetul, ridică vârful limbii spre cerul gurii, dar fără să atingi deloc bolta palatină. Retrage puțin corpul limbii și rotunjește ușor buzele. Aerul trece continuu pe deasupra limbii, în timp ce corzile vocale vibrează. Pune o mână pe gât ca să simți vibrația constantă a vocii fără nicio bătaie a limbii.
 
-## Grafia literei ar
+## Reguli de citire
 
-Înaintea unei vocale, litera redă sunetul /r/, ca în (run) /rʌn/. La sfârșitul silabei sau înaintea unei consoane, litera nu se pronunță deloc în pronunția britanică standard, ca în (car) /kɑː/ sau (hard) /hɑːd/.
+Litera se aude ca sunetul /r/ atunci când se află înaintea unei vocale, de exemplu în (run) /rʌn/. La sfârșitul unui cuvânt sau înaintea unei consoane, litera nu se pronunță deloc în pronunția britanică standard, ca în cuvintele (car) /kɑː/ sau (hard) /hɑːd/.
 
 ## Diferențe față de română
 
-În română, sunetul r este vibrat puternic cu vârful limbii bătut pe cerul gurii, ca în cuvântul rac. În engleză nu vibra niciodată limba și nu atinge bolta palatină.
+Vorbitorii de română tind să facă limba să vibreze lovind dinții sau cerul gurii, ca în cuvântul românesc repede. În engleză, vârful limbii nu trebuie să atingă nimic. Ține limba nemișcată și încordată în aer, fără să produci acel tremur specific limbii române.

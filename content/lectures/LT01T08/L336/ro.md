@@ -20,18 +20,18 @@ terms:
   ro: "cr in crab (crab)"
 ---
 
-## Grupul de litere cr
+## Sunetul grupului cr
 
-Grupul se rostește /kr/. Sunetul său standard se aude în cuvântul (crab) /kræb/.
+Grupul cr se pronunță /kr/. Sunetul său de bază se aude în cuvântul (crab) /kræb/, care înseamnă crab. Grupul are un singur sunet în limba engleză.
 
 ## Cum se pronunță
 
-Atinge cerul gurii cu spatele limbii pentru a bloca aerul, apoi eliberează-l brusc. Retrage imediat vârful limbii spre spatele gurii fără să atingi cerul gurii, lăsând aerul să treacă cu vibrația corzilor vocale.
+Pentru prima parte, ridică spatele limbii spre cerul gurii și eliberează brusc aerul, fără voce. Treci imediat la a doua parte, retrăgând vârful limbii spre spatele gurii fără să atingi cerul gurii. Dacă pui mâna pe gât, vei simți vibrația corzilor vocale abia la a doua parte a sunetului.
 
-## Reguli de pronunțare
+## Reguli de scriere
 
-Înaintea unei vocale, acest grup consonantic se pronunță /kr/, ca în cuvântul (cross) /krɒs/.
+Grupul cr apare înaintea unei vocale și redă mereu secvența /kr/. Îl poți auzi la începutul cuvântului (cross) /krɒs/.
 
 ## Capcane de pronunție
 
-În limba română, sunetul r din cuvântul cană este vibrat pe dinți. În engleză, nu lăsa limba să atingă dinții sau gingia atunci când rostești acest grup.
+În limba română, a doua consoană din cuvântul creion este un r vibrat cu vârful limbii. În limba engleză, nu trebuie să vibrezi vârful limbii. Ține limba retrasă și nemișcată în mijlocul gurii.

@@ -20,18 +20,18 @@ terms:
   ro: "Che / Chi"
 ---
 
-## The Hard 'K' Sound Before E and I
+## The digraph sounds
 
-The digraphs **che** and **chi** represent a voiceless palatalized velar plosive (`[kʲ]` or `[c]`), sounding like the English *k* in **key** or *c* in **cue**. In Romanian, the letter **h** is completely silent here; it functions strictly as an orthographic marker to preserve the hard `[k]` quality before front vowels. Without the **h**, the letters **ce** and **ci** would be pronounced soft, like *ch* in *cheese* (`[tʃ]`).
+The names of these groups are spoken as /ke/ and /ki/. They represent a single sound, heard in the word (chelner) /kʲe̯e/, meaning key. This spelling stands for only one distinct Romanian sound.
 
-## Tongue and Mouth Placement
+## Mouth movements
 
-Place the back-middle of your tongue against the roof of your mouth, slightly further forward than for an ordinary English *k*. Build up air pressure behind the seal, then release it crisply without adding any breathy friction or aspiration. Keep your lips neutral and immediately glide into the following vowel sound without pronouncing an audible *h*.
+Press the middle of your tongue firmly against your hard palate, further forward than an ordinary k sound. Stop the airflow completely without using your voice. Release the air sharply into a soft puff. You can check the lack of voicing by placing a hand on your throat.
 
-## Spelling Patterns and Word Positions
+## Reading the combinations
 
-This spelling pattern occurs at the beginning, in the middle, and at the end of Romanian words, such as in **chemare** (calling) or **deschis** (open). When written with capital letters, only the first letter is capitalized in title case, appearing as **Che** or **Chi**. Note that word-final **-chi** often represents a single palatalized consonant rather than a full syllable, as seen in **ochi** (`/okʲ/`).
+Before the letters e or i, this combination makes the sound /kʲ/, that is a softened k sound. You hear it in the word (cheie) /ˈkʲe.je/. At the very end of a word, it produces the same sound /kʲ/, that is a softened k sound. An example is the word (vechi) /vekʲ/.
 
-## Key Contrasts and Mistakes to Avoid
+## Common mistakes
 
-The most common error for foreign learners is attempting to pronounce an English *h* or German *ch* sound; remember that the **h** is entirely mute. Do not confuse **che/chi** with **ce/ci**, which sound like the English *ch* in *church*. Practice contrasting minimal pairs like **ceai** (`/tʃaj/`) and **chei** (`/kʲej/`) to master the distinction.
+English speakers often say the hard sound from the word cat instead. Make sure to raise the middle of your tongue toward the roof of your mouth. Do not add a full consonant y sound like in the word cue.

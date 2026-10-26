@@ -20,18 +20,18 @@ terms:
   ro: "kn-"
 ---
 
-## Grupul de litere kn
+## Sunetul grupului kn
 
-Grupul kn- se rostește ca sunetul /n/, exact ca în cuvântul (knee) /ni/. Prima literă este complet mută.
+Grupul kn se numește /n/. Sunetul său de bază este /n/, ca în cuvântul (knee) /ni/, care înseamnă genunchi. Acest grup de litere are o singură pronunție.
 
-## Cum se pronunță kn
+## Cum se pronunță
 
-Atingeți cerul gurii cu vârful limbii, chiar în spatele dinților de sus. Lăsați aerul să iasă pe nas și folosiți corzile vocale.
+Atingeți cerul gurii chiar în spatele dinților de sus cu vârful limbii. Lăsați aerul să iasă continuu prin nas. Coardele vocale vibrează. Puteți simți această vibrație punând o mână pe gât.
 
-## Ortografia grupului kn
+## Reguli de scriere
 
-La începutul cuvintelor, acest grup redă întotdeauna doar sunetul /n/, așa cum se aude în cuvântul (knot) /nɒt/, adică un o scurt și deschis.
+La începutul cuvintelor, prima literă este mută. Grupul kn se citește întotdeauna ca sunetul /n/, de exemplu în cuvântul (knot) /nɒt/.
 
 ## Capcane de pronunție
 
-Vorbitorii de limba română au tendința de a pronunța prima literă, ca în cuvintele românești nod sau cană. Nu rostiți niciodată un sunet k înainte de n.
+Vorbitorii de limbă română au tendința de a citi ambele litere, încercând să rostească un c înainte de n ca în cuvântul cană. Nu atingeți spatele gurii cu limba. Începeți direct cu sunetul n ca în cuvântul noroc.

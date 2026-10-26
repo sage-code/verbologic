@@ -20,18 +20,18 @@ terms:
   ro: "-tion"
 ---
 
-## Grupul tion
+## Sunetul grupului tion
 
-Grupul de litere -tion se citește în mod obișnuit prin sunetele /ʃən/. Îl auzi rostit astfel în cuvântul (action) /æk.ʃən/.
+Grupul de litere -tion se numește prin pronunția /ʃən/. Sunetul său principal este sunetul /ʃən/, ca în cuvântul (action) /æk.ʃən/, care înseamnă acțiune. Acest grup are două pronunții în limba engleză.
 
 ## Cum se pronunță
 
-Rotunjește ușor buzele și împinge aerul printre dinți pentru un ș scurt. Apoi atinge cerul gurii cu vârful limbii pentru consoana n, trecând direct printr-o vocală foarte slabă. Uneori adaugi o oprire scurtă a aerului înainte, creând un sunet asemănător lui ce.
+Pentru prima pronunție, rotunjește buzele și suflă aerul fără voce, ca un ș românesc. Limba trece apoi repede spre cerul gurii pentru un n slab. La a doua pronunție, atinge cerul gurii cu vârful limbii pentru a opri aerul brusc. Eliberează aerul într-un sunet ci scurt. O mână pe gât simte vibrația doar la final.
 
-## Reguli de pronunție
+## Reguli de scriere
 
-Ca sufix substantival neaccentuat, grupul se rostește /ʃən/, de pildă în (nation) /neɪ.ʃən/. Când apare imediat după litera s, se pronunță prin sunetele /tʃən/, ca în cuvântul (question) /kwes.tʃən/.
+Grupul -tion apare la sfârșitul substantivelor neaccentuate. De regulă, acesta se rostește prin sunetul /ʃən/, ca în cuvântul (nation) /neɪ.ʃən/. După litera s, același grup se pronunță ca sunetul /tʃən/, ca în cuvântul (question) /kwes.tʃən/.
 
-## Capcane frecvente
+## Diferențe față de română
 
-Vorbitorii de limbă română tind adesea să citească literele exact cum se scriu, pronunțând un tiune lung ca în cuvântul națiune. În engleză sunetul este mereu scurt și redus, fără vocale clare la final.
+Vorbitorii de limbă română citesc uneori acest grup cu un sunet ț, ca în cuvântul națiune. În engleză nu există sunetul ț în acest grup. Înlocuiește sunetul ț cu un ș moale sau cu un sunet ci clar, fără să lungești vocala dintre consoane.

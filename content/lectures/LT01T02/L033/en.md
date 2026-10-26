@@ -20,18 +20,18 @@ terms:
   ro: "ia"
 ---
 
-## The Sound of Romanian 'ia'
+## The group ia
 
-The combination **ia** represents the ascending diphthong `/ja/`, sounding very close to the English 'ya' in *yard* or *yarn*. It consists of an unrounded palatal glide swiftly opening into a central vowel `/a/`. Unlike in hiatus, both sounds merge smoothly into a single energetic syllable.
+The letter combination ia is called /ja/. Its main sound is the gliding diphthong /ja/, heard in the word (iarnă) /ˈjar.nə/, which means winter. Across Romanian words, this pairing can make two different sounds depending on syllable boundaries.
 
-## How to Produce 'ia'
+## Pronouncing ia
 
-Start with your tongue arched high and forward toward the hard palate, exactly as if making a brief 'y' sound. Immediately glide downward and relax your jaw to open fully into the central vowel `/a/`. Keep your lips completely unrounded throughout the whole movement.
+For the diphthong, start with your tongue high and near the roof of your mouth. Glide swiftly into an open mouth while dropping your jaw for the vowel. For the separated sound, speak a clear vowel with lips spread, then drop your jaw for a second vowel. Keep your hand on your throat to feel continuous vibration from your vocal cords.
 
-## Spelling and Distribution
+## Spelling patterns
 
-This combination is spelled with the letters **i** and **a** and appears frequently at word beginnings (*iarbă*) as well as internally (*băiat*). Keep in mind that when preceded by certain consonant clusters or in borrowed neologisms, **i** and **a** may split into two separate syllables in hiatus (such as in *pian* `/piˈan/`).
+When both letters sit in the same syllable, they form the diphthong sound /ja/, as in the word (băiat) /bəˈjat/. When the vowels split across two syllables in hiatus, they are spoken separately as the sound /i.a/, as heard in the word (pian) /piˈan/.
 
-## Contrasts and Common Pitfalls
+## English comparisons
 
-English speakers often mistakenly stretch **ia** into two distinct syllables instead of maintaining a crisp, single-syllable diphthong. Compare the monosyllabic diphthong in **iarnă** (`/ˈjar.nə/`) with the hiatus in loanwords like **pian** (`/piˈan/`). Be careful not to replace the open `/a/` with a schwa `/ə/` when unaccented.
+English speakers often make the gliding diphthong too long. It is identical to the start of the English word yard, rather than two separate vowels. Glide quickly into the open vowel without inserting an extra pause.

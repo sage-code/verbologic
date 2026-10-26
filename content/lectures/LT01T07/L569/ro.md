@@ -20,18 +20,18 @@ terms:
   ro: "Q"
 ---
 
-## Sunetul literei qiu
+## Sunetul literei chiu
 
-Numele acestei litere este (Q) /kjuː/. Când apare singură, redă de regulă sunetul /k/, ca în cuvântul (qat) /kæt/.
+Numele acestei litere este (Q) /kjuː/. Când apare de una singură, sunetul principal este sunetul /k/, ca în cuvântul (qat) /kæt/, care înseamnă khat. Această literă izolată are un singur sunet de bază în limba engleză.
 
-## Pronunția sunetului
+## Pronunțarea sunetului
 
-Pentru sunetul /k/, blochează scurt aerul cu partea din spate a limbii lipită de cerul moale al gurii. Desprinde limba brusc pentru a elibera aerul fără vibrația corzilor vocale.
+Pentru a reda sunetul /k/, ridică spatele limbii spre cerul moale al gurii. Oprește scurt fluxul de aer, apoi dă-i drumul brusc printr-o mică explozie. Ține o mână pe gât și vei simți cum corzile vocale nu vibrează deloc.
 
-## Reguli de citire
+## Reguli de scriere
 
-În cuvinte împrumutate unde apare de una singură fără altă literă de sprijin, se citește cu sunetul /k/, de exemplu în (qi) /tʃiː/.
+Litera apare singură, fără litera următoare obișnuită, doar în împrumuturi rare din alte limbi. În această poziție izolată se pronunță ca sunetul /k/, de exemplu în termenul (qi) /tʃiː/.
 
-## Capcane de pronunție
+## Diferențe față de română
 
-În limba română sunetul c din cuvântul cal este identic cu această consoană. Nu adăuga alte sunete vocale dacă litera apare singură.
+Pentru vorbitorii de limbă română, sunetul seamănă perfect cu cel din cuvântul cal. Nu există capcane reale de pronunție când litera stă singură.

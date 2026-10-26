@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului wr
 
-Grupul wr- se rostește /r/, la fel ca un r simplu. Îl auzi la începutul cuvântului (wrist) /rɪst/.
+Grupul wr este numit prin sunetul /r/. Acest grup are un singur sunet în limba engleză. Rostirea lui de bază este sunetul /r/, ca în cuvântul (wrist) /rɪst/, care înseamnă încheietura mâinii. Prima literă nu se aude deloc în vorbire.
 
-## Pronunția sunetului
+## Cum se pronunță
 
-Pentru acest sunet, ridică vârful limbii spre cerul gurii, fără să atingi deloc bolta palatină. Rotunjește puțin buzele și lasă aerul să treacă liber, vibrând corzile vocale.
+Pentru a reda sunetul /r/, rotunjește ușor buzele și ridică vârful limbii spre cerul gurii fără să atingi nimic. Aerul trece continuu pe deasupra limbii. Coardele vocale vibrează pe toată durata sunetului. Dacă pui degetele pe gât, vei simți o vibrație clară. Limba nu trebuie să tremure deloc.
 
 ## Reguli de scriere
 
-La începutul cuvintelor, înainte de o vocală, acest grup se citește întotdeauna cu sunetul /r/, ca în (write) /raɪt/ sau în (wrong) /rɒŋ/. Prima literă nu se pronunță niciodată separat.
+Grupul wr apare la începutul cuvintelor înaintea unei vocale. În această poziție, prima literă este complet mută. Întregul grup redă doar sunetul /r/, ca în termenul (write) /raɪt/. O altă situație identică se aude în cuvântul (wrong) /rɒŋ/.
 
 ## Capcane de pronunție
 
-Vorbitorii de limbă română tind să citească prima literă sau să vibreze limba ca în cuvântul românesc repede. Nu rosti niciodată sunetul v și ține vârful limbii nemișcat, fără atingere.
+Vorbitorii de limbă română încearcă uneori să rostească un sunet de tip v la început sau vibrează limba ca în cuvântul rac. Pentru a vorbi corect, ignoră complet prima literă scrisă. Nu atinge cerul gurii cu limba și nu lăsa vârful limbii să bată, ci doar apropie-l ușor de cerul gurii fără contact.

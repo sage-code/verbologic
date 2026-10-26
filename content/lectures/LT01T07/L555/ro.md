@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## Sunetul literei si
+## Sunetul literei cé
 
-Numele acestei litere este (C) /siː/. În mod obișnuit, ea redă sunetul /k/, la fel ca în cuvântul (cat) /kæt/.
+Numele acestei litere este (C) /siː/. Sunetul ei principal este sunetul /k/, pe care îl auzi în cuvântul (cat) /kæt/, adică pisică. Această literă produce două sunete diferite în limba engleză.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Pentru sunetul surd /k/, blochează aerul cu spatele limbii lipit de cerul gurii și eliberează-l brusc. Pentru sunetul /s/, apropie vârful limbii de dinți și împinge aerul afară cu un șuierat continuu.
+Pentru primul sunet, ridică partea din spate a limbii spre cerul gurii. Blochează aerul scurt, apoi eliberează-l brusc fără voce. Pentru al doilea sunet, apropie dinții și pune vârful limbii aproape de gingia superioară. Suflă aer continuu printre dinți. Pune mâna pe gât, iar corzile vocale nu trebuie să vibreze deloc la niciunul dintre sunete.
 
-## Reguli de pronunție
+## Reguli de citire
 
-Înainte de a, o, u ori consoane, pronunță sunetul /k/, ca în cuvântul (cup) /kʌp/. Înaintea literelor e, i sau y, folosește sunetul /s/, precum în cuvintele (city) /sɪt.i/ și (cell) /sɛl/.
+Litera produce sunetul /k/ când stă înaintea literelor a, o, u sau înainte de consoane, ca în cuvântul (cup) /kʌp/. Aceeași literă redă sunetul /s/ dacă apare direct înaintea literelor e, i sau y. Un exemplu clar pentru această situație este cuvântul (city) /sɪt.i/.
 
-## Diferențe față de română
+## Capcane pentru români
 
-În limba română, grupurile scrise cu această literă urmată de e sau i sună ca în ceai sau circ. În engleză nu folosi niciodată acel sunet: pronunță mereu un s curat, exact ca în soare.
+În limba română, această literă înaintea literelor e sau i sună ca în cuvântul cer sau cireșe. În engleză, nu pronunța niciodată așa această literă singură. Fă pur și simplu un sunet șuierat, exact ca sunetul s din cuvântul românesc seară.

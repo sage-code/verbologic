@@ -20,18 +20,18 @@ terms:
   ro: "ie"
 ---
 
-## The Sound of “ie”
+## Sound of ie
 
-The letter combination **ie** represents an ascending diphthong pronounced `[je]`, sounding very much like the "ye" in the English word *yes*. It consists of a rapid palatal semivowel gliding immediately into a mid front vowel. Take care not to split it into two distinct syllables when it functions as a single diphthong.
+The letter group ie is called /je/. It represents the sound /je/, heard in the word (ieri) /jerʲ/, which means yesterday. This letter combination produces one single diphthong sound in Romanian words.
 
-## How to Produce “ie”
+## How to say ie
 
-Begin by raising the front of your tongue close to the hard palate as if making an English **y** sound `[j]`. Without stopping the airflow, smoothly lower your tongue slightly and open your mouth slightly into the position of the vowel `[e]`. Keep your lips unrounded and relaxed throughout the glide.
+Raise the middle of your tongue high toward the roof of your mouth to start gliding quickly. Glide immediately into a mid front vowel while keeping your mouth slightly open. Your lips stay unrounded and relaxed. Your vocal cords vibrate throughout the entire glide. Place two fingers on your throat to feel continuous vibration from start to finish.
 
-## Spelling and Patterns
+## Reading the group ie
 
-The sequence **ie** appears widely at the beginning, middle, and end of Romanian words, such as in *ieri* (yesterday) or *băieți* (boys). Note that in native Romanian words, word-initial **e** in forms of the verb *a fi* and personal pronouns (like *este* or *el*) is traditionally pronounced as `[je]`, even though it is spelled with a single **e**.
+In most positions, this combination functions as an ascending diphthong. It is pronounced as the sound /je/ in words such as (fier) /fjer/. The glide and vowel remain smoothly connected within the same syllable.
 
-## Diphthong vs. Hiatus
+## Mistakes to avoid
 
-In words like *fier* `[fjer]`, the group forms a tight diphthong, whereas in learned loanwords like *prieten* `[priˈe.ten]`, it is pronounced in hiatus across two syllables. A frequent pitfall for learners is over-elongating the initial glide into a full vowel `[i]`, turning one fluid syllable into two unnatural beats.
+English speakers often separate the letters into two distinct syllables like in the English word alien. Instead, keep them in one rapid syllable like the beginning of the English word yes. Avoid making the glide too heavy or turning it into a tense long sound.

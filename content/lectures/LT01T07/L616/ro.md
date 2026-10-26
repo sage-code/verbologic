@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului sh
 
-Grupul sh se numește sunetul /ʃ/. El redă sunetul /ʃ/, ca în cuvântul (ship) /ʃɪp/.
+Grupul sh se rostește sunetul /ʃ/. Acest grup are un singur sunet. Îl auzi chiar la început în cuvântul (ship) /ʃɪp/, care înseamnă navă.
 
-## Cum se pronunță sunetul
+## Pronunția sunetului
 
-Pentru a rosti sunetul /ʃ/, rotunjește ușor buzele și ridică partea din față a limbii spre cerul gurii. Scoate aerul continuu printre ele, fără să folosești deloc corzile vocale.
+Apropie dinții fără să îi atingi. Ridică partea din față a limbii spre cerul gurii, puțin mai în spate decât pentru s. Rotunjește ușor buzele și împinge aerul cu putere pe mijloc. Coardele vocale nu vibrează. Pune o mână pe gât și verifică absența oricărei vibrații.
 
 ## Reguli de scriere
 
-În scrierea obișnuită, grupul sh redă sunetul /ʃ/, de pildă în cuvântul (fish) /fɪʃ/.
+Grupul sh redă mereu sunetul /ʃ/ în ortografia obișnuită. Îl găsești la sfârșitul cuvântului (fish) /fɪʃ/.
 
-## Comparație cu româna
+## Capcane pentru români
 
-Sunetul este identic cu litera ș din cuvintele românești școală sau pește, așa că nu prezintă nicio dificultate de pronunție pentru vorbitorii de română.
+Sunetul este foarte apropiat de cel din cuvântul românesc șir. Singura mică diferență este rotunjirea mai vizibilă a buzelor în limba engleză. Nu există capcane mari pentru vorbitorii de limba română.

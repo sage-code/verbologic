@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei bi
 
-Numele acestei litere este (B) /biː/. Sunetul său principal este sunetul /b/, rostit clar ca în cuvântul (bed) /bɛd/.
+Numele acestei litere este (B) /biː/. Sunetul său principal se aude în cuvântul (bed) /bɛd/, care înseamnă pat. Litera are două pronunții posibile în limba engleză.
 
-## Pronunția literei bi
+## Cum se pronunță
 
-Atingeți buzele ferm una de cealaltă pentru a opri aerul complet. Deschideți-le brusc și lăsați corzile vocale să vibreze pentru a elibera sunetul sonor.
+Atinge buzele ferm una de cealaltă pentru a opri aerul, apoi desprinde-le brusc. Coardele vocale vibrează din primul moment. Pune degetele pe gât și vei simți o vibrație clară când eliberezi aerul.
 
-## Ortografia literei bi
+## Reguli de citire
 
-În marea majoritate a pozițiilor, litera redă sunetul /b/, ca în cuvântul (cab) /kæb/. Aceasta rămâne însă mută la finalul unei silabe după consoana m, ca în (climb) /klaɪm/. De asemenea, nu se aude nici înaintea literei t, de exemplu în (doubt) /daʊt/.
+În cele mai multe cazuri, litera redă sunetul /b/, la începutul, mijlocul sau sfârșitul cuvântului, ca în (cab) /kæb/. Litera nu se pronunță deloc după litera m în aceeași silabă, ca în (climb) /klaɪm/. De asemenea, litera rămâne mută înainte de litera t în aceeași silabă, ca în (doubt) /daʊt/.
 
-## Comparație cu româna
+## Capcane de pronunție
 
-Acest sunet este identic cu cel din cuvintele românești barcă sau tobă. Nu există capcane de pronunție când litera se aude, dar rețineți situațiile în care ea devine complet mută.
+Sunetul este foarte apropiat de cel din cuvântul românesc bun. Singura capcană pentru vorbitorii de limbă română este tendința de a citi această literă când este mută. Respectă cazurile în care litera nu se rostește deloc.

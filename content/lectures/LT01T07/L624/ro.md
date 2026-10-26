@@ -20,18 +20,18 @@ terms:
   ro: "-ough"
 ---
 
-## Grupul de litere ough
+## Sunetul grupului ough
 
-Grupul -ough se numește /uː/. Sunetul său principal este o vocală lungă, ca în cuvântul (through) /θruː/.
+Numele acestui grup este sunetul /uː/. Sunetul lui principal se aude în cuvântul (through) /θruː/, care înseamnă prin. Grupul de litere are patru pronunții diferite în limba engleză.
 
-## Pronunția grupului ough
+## Pronunția sunetelor grupului
 
-Pentru vocale, rotunjește buzele și trage limba înapoi în gură. Pentru finalul cu consoană, atinge dinții de sus de buza de jos și lasă aerul să treacă fără să vibreze corzile vocale.
+Pentru primul sunet rotunjește buzele strâns și ridică limba în spate. Pentru al doilea sunet pornește de la o și alunecă spre u, rotunjind buzele. Pentru al treilea sunet coboară mandibula și deschide gura larg cu buzele rotunjite. Pentru ultimul sunet deschide puțin gura relaxat, apoi atinge dinții de sus de buza de jos lăsând aerul să iasă continuu. Pune mâna pe gât și vei simți vibrația la vocale.
 
-## Ortografia grupului ough
+## Ortografia sunetelor grupului
 
-Grupul -ough poate deveni diftongul /oʊ/, de pildă în (though) /ðoʊ/. Înaintea unei consoane finale, se aude ca sunetul /ɔː/, adică un o lung și deschis, ca în (thought) /θɔːt/. În alte cazuri, se pronunță /ʌf/, ca în (rough) /rʌf/.
+Grupul redă sunetul /uː/ lung în cuvinte rare precum cel de bază. În cuvântul (though) /ðoʊ/ se citește ca diftongul /oʊ/. Înainte de litera t, în cuvântul (bought) /bɔːt/, grupul redă sunetul /ɔː/, adică un o lung și deschis. La sfârșitul unor cuvinte precum (rough) /rʌf/ se citește ca o vocală scurtă urmată de o consoană, anume sunetul /ʌf/.
 
-## Dificultăți pentru români
+## Dificultăți pentru vorbitorii români
 
-În limba română nu există un grup identic de litere care să aibă pronunții atât de diferite. Nu încerca să citești fiecare literă separat. Memorează fiecare cuvânt în parte pentru a evita confuzia dintre vocale și sunetul f.
+Vorbitorii de limbă română au tendința să citească literele g și h separat, ca un h dur sau chiar ca un g românesc. În engleză aceste două litere nu se rostesc niciodată individual în acest grup. Fie formează o vocală lungă ca în cuvântul românesc dor, fie se transformă complet în sunetul f din cuvântul românesc foc.

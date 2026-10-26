@@ -20,18 +20,18 @@ terms:
   ro: "au"
 ---
 
-## The Sound of Romanian 'au'
+## The sound au
 
-The letter combination **au** in Romanian most commonly represents the falling diphthong `/aw/`, gliding swiftly from an open central vowel to a non-syllabic back glide. It sounds very similar to the English diphthong in words like *house* or *cow*, though the Romanian starting point `/a/` is somewhat purer and brighter. Occasionally, **au** appears in hiatus as two separate vowels `/a.u/`, as in *aur* (gold).
+The group au is called the diphthong /aw/. It sounds like the vowel glide in (sau) /saw/, which means or. This combination produces one falling diphthong in Romanian.
 
-## How to Pronounce It
+## How to say it
 
-Start with your mouth open wide and relaxed to produce the central Romanian `[a]`. Immediately glide your tongue upward and back while rounding and protruding your lips slightly toward the `[w]` position. Ensure the entire glide happens in a single, smooth vocal pulse without inserting any audible stop or pause.
+Open your mouth wide with your tongue low to start the first part. Glide smoothly into rounded lips as your jaw closes slightly. Your vocal cords vibrate all the way through. Feel your lips push forward into a small circle at the very end.
 
-## Spelling and Distribution
+## Spelling rules
 
-The diphthong **au** is extremely common in Romanian grammar and vocabulary, occurring in conjunctions like *sau* (or) and third-person plural verb forms like *au* (they have). It can appear at the start, middle, or end of words. Notice that standard Romanian orthography does not use special accent marks to distinguish the single-syllable diphthong `/aw/` from the two-syllable hiatus `/a.u/`.
+The letters au represent one falling diphthong in a single syllable. In that position, say the sound /aw/, as in (daur) /dawr/.
 
-## Contrasting Sounds and Traps
+## English comparison
 
-Be careful to distinguish the gliding diphthong `/aw/` in *sau* `/saw/` from the disyllabic hiatus `/a.u/` found in words like *aur* `/ˈa.ur/`. English speakers should avoid overly nasalising the glide or pronouncing the second element like an English syllabic 'oo'. Keep the transition crisp and ensure the main acoustic weight rests firmly on the initial **a**.
+English speakers often pronounce this pair like the vowel in caught or author. Do not use that flat vowel. Instead, blend the sounds like the glide in the English word now.

@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului oo
 
-Acest grup de litere se numește /ʊ/ or /uː/. Sunetul său principal este /uː/, adică un u lung, ca în cuvântul (moon) /muːn/.
+Grupul oo se numește după sunetele sale, sunetul /ʊ/, adică un u scurt și relaxat, sau sunetul /uː/, adică un u lung și încordat. Rostirea principală este sunetul /uː/, ca în cuvântul (moon) /muːn/, care înseamnă lună. Această combinație are patru sunete diferite în limba engleză.
 
 ## Pronunția sunetelor
 
-Pentru sunetul lung, rotunjește buzele strâns și ține limba retrasă în spate. Pentru sunetul scurt, lasă buzele mai relaxate. Pentru sunetul central, deschide gura puțin și relaxează limba. Pentru sunetul deschis din spate, rotunjește buzele larg.
+Pentru prima variantă, rotunjește buzele strâns, ridică spatele limbii și ține sunetul lung. Pentru a doua variantă, relaxează buzele și limba, producând un sunet scurt. Pentru a treia, deschide gura relaxat și coboară limba. Pentru ultima, rotunjește larg buzele spre spate. Pune mâna pe gât pentru a simți vibrația constantă a corzilor vocale.
 
-## Reguli de citire
+## Reguli de scriere
 
-De regulă, înainte de consoane ca n sau l, grupul se rostește /uː/, un u lung, ca în (cool) /kuːl/. Înainte de k sau d, se aude sunetul /ʊ/, adică un u scurt, ca în (book) /bʊk/. Ca excepție, produce sunetul /ʌ/ în (blood) /blʌd/. Înainte de r sună /ɔː/, ca în (door) /dɔː/.
+În mod obișnuit, mai ales înainte de consoanele n sau l, grupul se rostește ca sunetul /uː/, adică un u lung, ca în (cool) /kuːl/. Înainte de k sau d, apare des sunetul /ʊ/, adică un u scurt, ca în (book) /bʊk/. În mod excepțional se aude sunetul /ʌ/, ca în (blood) /blʌd/. Înainte de litera r, grupul redă sunetul /ɔː/, ca în (door) /dɔː/.
 
-## Capcane de pronunție
+## Diferențe față de română
 
-Vorbitorii de limbă română tind să folosească mereu sunetul lor obișnuit din cuvântul lună. Diferențiază clar vocala scurtă și relaxată de cea lungă și tensionată, altfel cuvintele își pot schimba sensul.
+Vorbitorii de limbă română folosesc adesea un u plin, ca în cuvântul urs, pentru ambele variante principale. Sunetul lung din engleză este mai întins și mai încordat decât cel românesc. Sunetul scurt cere o relaxare completă a buzelor și a limbii, fără rotunjire strânsă. Nu scurta vocala lungă și nu lungi niciodată vocala relaxată.

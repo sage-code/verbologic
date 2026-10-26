@@ -20,18 +20,18 @@ terms:
   ro: "Ă"
 ---
 
-## The Sound of Ă
+## The sound of ă
 
-The letter **Ă** represents the mid central unrounded vowel `/ə/`, known as a schwa. It is practically identical to the unstressed vowel in the English word *about* or the final sound in *sofa*. Unlike in English, however, Romanian **ă** can be fully stressed, as heard in words like **măr** (*apple*).
+This letter is called /ə/. Its sound is heard in (ăsta) /ˈmə.r/, which means apple. This letter has only one sound in Romanian. It is an essential vowel of the language. Listen closely to how clean and distinct it sounds.
 
-## How to Pronounce Ă
+## Pronouncing the letter
 
-Keep your mouth slightly open with your jaw relaxed, exactly in a neutral resting position. Rest your tongue flat in the middle of your mouth without pushing it forward or pulling it back. Voice a short, effortless sound without rounding your lips.
+Keep your mouth slightly open in a neutral position. Let your tongue rest flat in the middle of your mouth without touching the teeth. Do not round your lips. Vibrate your vocal cords with a relaxed, steady puff of breath. Place your hand on your throat to feel the gentle buzz of your voice.
 
-## Spelling and Rules
+## Spelling rules
 
-**Ă** is the second letter of the Romanian alphabet, written with a crescent-shaped diacritic called a breve. It appears very frequently at the end of feminine nouns and adjectives to indicate the indefinite singular form, such as in **casă** (*house*). It can occur initially, medially, and finally, though it rarely starts a word.
+This letter consistently represents the sound /ə/ across the language. It keeps the exact same quality whether it carries the stress or not. You will hear it in stressed position in (măr) /mər/. You will also hear it in unstressed position in (apă) /ˈa.pə/.
 
-## Nuances and Common Mistakes
+## Common pitfalls
 
-English speakers often neglect this sound when it carries the stress, mistakenly substituting an open `/a/` sound instead. Compare **masă** (`/ˈma.sə/`, *table*) with **măgar** (`/məˈɡar/`, *donkey*) to observe how it behaves in both stressed and unstressed syllables. Be careful not to confuse **ă** with **â** or **î**, which are produced higher and deeper in the vocal tract.
+English speakers often drop this sound or turn it into an open vowel like the sound in cat. It is very close to the weak vowel at the end of comma or sofa. In Romanian, pronounce it firmly even when it is stressed, rather than rushing past it.

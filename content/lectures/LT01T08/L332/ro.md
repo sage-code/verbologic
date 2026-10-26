@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul grupului ur
 
-Acest grup se numește /ɜːr/. Sunetul său principal este /ɜːr/, un ăr lung și accentuat, ca în cuvântul (fur) /fɜːr/.
+Grupul ur se rostește ca numele său, sunetul /ɜːr/, adică un sunet lung cu r rotic. Sunetul de bază se aude în cuvântul (fur) /fɜːr/, care înseamnă blană. Acest grup are trei pronunții distincte în limba engleză.
 
-## Pronunția sunetelor
+## Cum se pronunță
 
-Pentru primul sunet, ține limba la mijlocul gurii și retrage-o ușor, rotunjind puțin buzele cu vibrația corzilor vocale. Pentru varianta scurtă, relaxează complet limba. Pentru a treia variantă, începe cu un sunet scurt de i și glisează buzele spre u rotunjit.
+Pentru prima variantă, țineți limba la mijlocul gurii și ridicați ușor vârful spre cerul gurii fără atingere. Pentru a doua variantă, relaxați complet gura și scoateți un sunet scurt. Pentru a treia variantă, treceți rapid de la un sunet apropiat de i la un sunet scurt de u, apoi ridicați vârful limbii. Puteți simți vibrația constantă a corzilor vocale dacă atingeți gâtul cu degetele.
 
-## Reguli de scriere
+## Reguli de citire
 
-În silabă accentuată înainte de consoană, grupul redă sunetul /ɜːr/, adică un ăr lung, ca în (burn) /bɜːrn/. În silabă neaccentuată, el redă sunetul /ər/, adică un ăr scurt, ca în (sulphur) /sʌl.fər/ sau (augur) /ɔː.ɡər/. Urmat de un e mut final, redă sunetul /jʊər/, ca în (cure) /kjʊər/ ori (pure) /pjʊər/.
+Într-o silabă accentuată, la final de cuvânt sau înaintea unei consoane, grupul se rostește ca sunetul /ɜːr/, adică lung, ca în (burn) /bɜːrn/. Într-o silabă neaccentuată, grupul devine sunetul /ər/, adică foarte scurt, ca în (sulphur) /sʌl.fər/. Când este urmat de litera e mută la sfârșitul cuvântului, grupul se citește ca sunetul /jʊər/, ca în (cure) /kjʊər/.
 
-## Capcane frecvente
+## Comparație cu româna
 
-Vorbitorii de română tind să citească literele separat, pronunțând un u clar urmat de un r vibrat din vârful limbii ca în cuvântul tur. Nu vibra limba pe dinți și nu pronunța vocala u curată.
+Vorbitorii de limbă română tind să citească literele separat, rostind un u urmat de un r vibrat ca în cuvântul măr. Nu atingeți niciodată cerul gurii cu vârful limbii pentru a evita vibrația tipică din română. De asemenea, nu rotunjiți buzele pentru primul sunet, ci păstrați buzele complet neutre.

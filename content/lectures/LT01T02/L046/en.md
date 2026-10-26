@@ -20,18 +20,18 @@ terms:
   ro: "iai"
 ---
 
-## The Sound of Romanian Triphthong 'iai'
+## The group iai
 
-The triphthong **iai** is pronounced `[jaj]`, forming a single complex vowel glide within one syllable. It consists of an initial palatal semivowel, a fully articulated central vowel `/a/`, and a concluding palatal semivowel. English lacks this specific triphthong within a single syllable, but it sounds remarkably close to rapidly uttering the words **yikes** or **yacht** combined with an *eye* glide.
+The letter group iai is spoken as /jaj/. Its main sound is the triphthong /jaj/, heard in the word (tăiai) /təˈjaj/, meaning you were cutting. This letter combination represents one single triphthong sound in Romanian.
 
-## How to Produce 'iai'
+## Mouth movements
 
-Begin with your tongue high and forward near the palate in a light `[j]` glide position, exactly like the *y* in *yes*. Rapidly open your mouth into the open central position of Romanian `[a]`, allowing it to carry the syllable's vocal weight. Without pausing, glide your tongue smoothly back up towards the roof of your mouth to finish on a brief `[j]` glide.
+Start with your tongue high and forward, near the roof of your mouth. Open your mouth wide while dropping your tongue low and central for the core vowel. Then slide your tongue quickly back up toward the front. Keep your vocal cords vibrating continuously throughout the entire glide. You can feel a steady buzzing at your throat.
 
-## Spelling and Context
+## Spelling rules
 
-The sequence **iai** almost exclusively occurs in verb conjugations, particularly the imperfect second-person singular (e.g., *tăiai*, *apropiai*). Because Romanian orthography is largely phonemic, all three glide components are explicitly represented. Keep in mind that the entire sequence remains strictly in one syllable when preceded by an unstressed prefix or stem.
+The spelling group iai always appears in a single syllable with a central vowel glide nucleus. In this position, it is pronounced as the triphthong /jaj/. You hear this pattern in the verb form (apropiai) /a.pro.piˈjaj/.
 
-## Nuances and Common Pitfalls
+## Pitfalls to avoid
 
-Foreign speakers frequently split **iai** into two or three separate syllables, pronouncing it erroneously as `[i.a.i]`. Ensure the sound remains a tight, fluid triphthong `[jaj]` where only the middle vowel receives full vocal prominence. Compare the smooth flow of *tăiai* `/təˈjaj/` with the hiatus found in foreign borrowed compounds to avoid artificial pauses.
+English speakers often break this triphthong across separate beats. The sequence resembles the sound of the word eye preceded by a consonant sound like yes. Blend the glide smoothly in one continuous breath. Do not pause between the parts.

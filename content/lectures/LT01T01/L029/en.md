@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## The Sound of Y
+## Letter sound
 
-The letter **Y** is not native to Romanian and appears almost exclusively in borrowed foreign words. Depending on the word of origin and surrounding sounds, it is pronounced either as a palatal glide `[j]` before vowels or as a standard close front vowel `[i]`. In native Romanian words, these sounds are regularly written using the letter **I**.
+This letter is called /j/ or /i/. Its main sound is the glide /j/, heard in the borrowed word (yoga) /ˈjo.ɡo/, which means yoga. The letter makes two distinct sounds in borrowed vocabulary.
 
-## How to Pronounce Y
+## Mouth movements
 
-When functioning as a consonant glide, raise the body of your tongue close to the hard palate and glide rapidly into the following vowel, exactly like the *y* in English *yes*. When functioning as a vowel, position your tongue high and forward in the mouth with unrounded lips, sounding like the vowel *ee* in *meet*. Keep the vocal cords vibrating cleanly without adding aspiration.
+For the glide, lift the middle of your tongue high against the roof of the mouth and glide quickly into the next vowel. For the full vowel, raise the tongue close to the palate while spreading your lips wide. Keep your vocal cords vibrating continuously. You can feel this steady buzzing vibration by placing your fingers on your throat.
 
-## Spelling Rules for Y
+## Reading rules
 
-**Y** is retained in Romanian strictly to preserve international orthography, proper nouns, and modern neologisms such as **yoga**, **hobby**, or **yacht**. It appears in both lowercase (*y*) and uppercase (*Y*), functioning identically to original spellings in English, French, or Spanish. Derivatives and inflected forms typically add Romanian suffixes directly, sometimes using a hyphen if the stem is visibly foreign.
+Before another vowel in loanwords, the letter produces the glide sound /j/. You hear this pattern in (yankeu) /janˈkew/. When functioning as a pure vowel or a syllable nucleus in borrowings, it sounds like the vowel /i/. This second pattern appears in the word (hobby) /ˈxo.bi/.
 
-## Sound Variations and Common Pitfalls
+## Common mistakes
 
-Speakers must distinguish between vocalic `[i]` in words like **hobby** and the semivowel glide `[j]` in words like **yankeu**. A common mistake is attempting to pronounce it as a rounded vowel `[y]` (like German *ü*), which Romanian does not do unless imitating French closely. Treat **Y** consistently as either Romanian standard `[i]` or `[j]`.
+English speakers often replace the crisp Romanian vowel with a weak diphthong. Do not pronounce this letter like the vowel glide heard in English words like boy or key. Keep the sound pure and tense, without gliding toward an open vowel.

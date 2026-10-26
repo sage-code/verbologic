@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## Sunetul literei C
+## Sunetul literei cé
 
-Numele acestei litere se rostește (C) /k/. Cel mai des redă sunetul /k/, la fel ca în cuvântul (cat) /kæt/.
+Numele acestei litere este (C) /k/. Principalul său sunet este sunetul /k/, pe care îl auzi în cuvântul (cat) /kæt/, care înseamnă pisică. În limba engleză, această literă are două sunete diferite și poate rămâne uneori mută.
 
-## Pronunțarea literei C
+## Pronunția corectă
 
-Pentru sunetul surd /k/, ridică spatele limbii spre cerul gurii și eliberează brusc aerul fără voce. Pentru sunetul /s/, apropie vârful limbii de dinții de sus și lasă aerul să șuiere continuu fără vibrația corzilor vocale.
+Pentru primul sunet, ridică spatele limbii spre cerul gurii și eliberează brusc aerul fără să folosești vocea. Ține mâna pe gât și verifică dacă nu simți nicio vibrație. Pentru al doilea sunet, apropie dinții și lasă vârful limbii jos, în spatele dinților de jos. Împinge aerul printr-un canal îngust fără să vibreze corzile vocale.
 
-## Ortografia literei C
+## Reguli de scriere
 
-Înaintea vocalelor a, o, u sau a consoanelor, această literă redă sunetul /k/, ca în (cup) /kʌp/. În fața literelor e, i sau y, se aude ca sunetul /s/, ca în (city) /sɪ.ti/ sau (cell) /sɛl/. În unele cuvinte particulare rămâne mută, ca în (muscle) /mʌs.əl/ ori (indict) /ɪn.daɪt/.
+Înaintea literelor a, o, u sau a consoanelor, litera redă sunetul /k/, ca în cuvântul (cup) /kʌp/. Înaintea literelor e, i sau y, ea redă sunetul /s/, ca în cuvântul (city) /sɪ.ti/. În câteva cuvinte speciale litera nu se pronunță deloc, de exemplu în cuvântul (muscle) /mʌs.əl/.
 
-## Diferențe față de română
+## Capcane frecvente
 
-În limba română, această literă urmată de e sau i redă sunetul ci sau ce, ca în cireșe. În engleză nu folosi niciodată acel sunet: rostește mereu un s curat, exact ca în cuvântul românesc seară.
+Vorbitorii de limbă română pronunță adesea această literă ca un sunet românesc din cuvântul ceai. În limba engleză, litera singură nu are niciodată această valoare. Înaintea vocalelor moi, rostește mereu un sunet curat, exact ca în cuvântul românesc seară.

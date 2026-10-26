@@ -20,18 +20,18 @@ terms:
   ro: "H"
 ---
 
-## The Sound of H
+## Letter sound
 
-In Romanian, the letter **H** represents an audible voiceless glottal or velar fricative, transcribed as `/h/` or `/x/`. Unlike in French or Italian, it is never silent in native Romanian vocabulary. It is generally rougher and more clearly articulated than the gentle English `h` in *hat*, sounding closer to the Scottish *ch* in *loch* at the end of words.
+The letter name is pronounced /h/, that is an aspirated breath. Its main sound is heard in (haină) /harˈtə/, which means map. This letter has three distinct sounds in total.
 
-## How to Pronounce H
+## Mouth movements
 
-Open your mouth slightly and keep your tongue relaxed in a neutral position. Expel a steady, unvoiced stream of air through your throat to produce a crisp breath friction. When followed by front vowels like `/i/`, raise the middle of your tongue toward the hard palate to make a lighter, whispered sound.
+For the first sound, keep your mouth open and breathe out gently from the throat. For the second sound, raise the middle of your tongue close to the hard roof of your mouth. For the third sound, raise the back of your tongue toward the soft palate. Hold a hand before your lips to feel a steady stream of warm air.
 
-## Spelling and Usage
+## Reading rules
 
-The letter **H** appears initially, medially, and finally in Romanian words such as **haină**, **odihnă**, and **șah**. It also functions crucially in the digraphs **ch** and **gh** (before *e* and *i*), where it indicates that the preceding consonant retains a hard velar stop sound rather than becoming an affricate. In modern foreign loanwords, its pronunciation usually mirrors standard Romanian friction.
+Before back vowels and at the start of most words, pronounce the sound /h/, that is an aspirated breath, as in (horă) /ˈho.rə/. Before front vowels, use the sound /ç/, that is a soft hiss, as in (harnic) /ˈhar.nik/. At the end of a word or before consonants, pronounce the sound /x/ as in (valah) /vaˈlah/.
 
-## Variants and Common Pitfalls
+## Common mistakes
 
-Depending on surrounding vowels, **H** ranges from glottal `/h/` to palatal `/ç/` before front vowels and velar `/x/` at the ends of words like **duh**. A frequent mistake made by speakers of Romance languages like French or Spanish is omitting the sound entirely. English speakers should take care not to drop final **H** and avoid softening it into pure silence.
+English speakers often drop this letter entirely at the end of words. Do not make the final sound silent like in the English word cheetah. Keep the friction clearly audible right up to the end.
