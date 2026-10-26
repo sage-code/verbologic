@@ -44,7 +44,7 @@ import {
 import { basename, isAbsolute, join, relative, sep } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { LOCALES } from './lib/locales.mjs'
-import { FOLDER, descriptor, filePath, setFileFacts } from './lib/manifest.mjs'
+import { FOLDER, descriptor, filePath, imagesOf, setFileFacts, setImageFacts } from './lib/manifest.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 if (existsSync(join(ROOT, '.env'))) process.loadEnvFile(join(ROOT, '.env'))
@@ -65,7 +65,10 @@ const PUT_CONCURRENCY = 8
 const MIME_BY_EXT = {
   mp3: 'audio/mpeg',
   mp4: 'video/mp4',
-  webp: 'image/webp'
+  webp: 'image/webp',
+  jpg: 'image/jpeg',
+  jpeg: 'image/jpeg',
+  png: 'image/png'
 }
 const MEDIA_EXT = new Set(Object.keys(MIME_BY_EXT))
 
@@ -112,12 +115,16 @@ function* itemManifests() {
 
 /**
  * One media file to sync: a shared manifest's `audio`/`read` descriptor for
- * one locale.
+ * one locale, or one of its shared illustrations.
  *
  * The shared manifest stores only published files (`files`, keyed by path), so
  * the entry set is the published set plus the pending locales the caller asks
  * for. `descriptor()` synthesizes the old file/key/mime/bytes/sha1/status
  * shape from `files` so the rest of this script is unchanged.
+ *
+ * Illustrations are NOT per locale — a story's pictures are shared by every
+ * language it is translated into — so they are yielded once per item, keyed by
+ * their own path in `images/`.
  */
 function* mediaEntries() {
   for (const item of itemManifests()) {
@@ -130,21 +137,49 @@ function* mediaEntries() {
         yield { ...item, field, locale, descriptor: descriptor(item.manifest, field, locale) }
       }
     }
+    for (const image of imagesOf(item.manifest)) {
+      yield {
+        ...item,
+        field: 'image',
+        locale: null,
+        image,
+        descriptor: {
+          file: image.file,
+          key: null,
+          mime: MIME_BY_EXT[image.file.split('.').pop()] ?? 'image/jpeg',
+          bytes: image.bytes,
+          sha1: image.sha1,
+          status: 'published'
+        }
+      }
+    }
   }
 }
 
 /** The entry's media file on disk (null while the recording is still pending). */
 function diskPath(entry) {
-  const p = join(entry.dir, filePath(entry.field, entry.locale))
+  const relative = entry.field === 'image' ? entry.image.file : filePath(entry.field, entry.locale)
+  const p = join(entry.dir, relative)
   return existsSync(p) ? p : null
 }
 
 /** Write the file facts back into the manifest that owns this entry. */
 function writeFacts(entry, facts) {
+  if (entry.field === 'image') {
+    // An illustration's facts live in the `images` list, not in `files`.
+    const index = Number(entry.image.file.replace(/^images\//, '').replace(/\.jpg$/, ''))
+    if (facts.status === 'published') {
+      setImageFacts(entry.manifest, index, entry.image.page, facts)
+    } else {
+      entry.manifest.images = (entry.manifest.images ?? []).filter((i) => i.file !== entry.image.file)
+    }
+    writeFileSync(entry.path, JSON.stringify(entry.manifest, null, 2) + '\n')
+    return
+  }
   if (facts.status === 'published') {
     setFileFacts(entry.manifest, entry.field, entry.locale, facts)
   } else {
-    // Back to pending â€” the file is gone, so it leaves `files` entirely.
+    // Back to pending — the file is gone, so it leaves `files` entirely.
     if (entry.manifest.files) delete entry.manifest.files[filePath(entry.field, entry.locale)]
   }
   writeFileSync(entry.path, JSON.stringify(entry.manifest, null, 2) + '\n')

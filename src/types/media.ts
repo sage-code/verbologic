@@ -21,6 +21,20 @@ export interface MediaMedia {
   mime?: string
 }
 
+/**
+ * One illustration of a story.
+ *
+ * Pictures are shared by every language the story is translated into, so they
+ * are not keyed by locale. `page` is the reading page the picture first appears
+ * on: the reader shows it from that page until the next picture's page.
+ */
+export interface StoryImage {
+  /** R2 URL of the picture. */
+  url: string
+  /** Zero-based reading page this picture first appears on. */
+  page: number
+}
+
 /** One row in a topic table (dictionary word, lecture video, story image). */
 export interface MediaRecord {
   /** Topic-scoped content code (for example, A023), shared across languages. */
@@ -58,6 +72,14 @@ export interface MediaRecord {
    * starts at 0, exactly as before.
    */
   readSections?: Record<string, number[]> | null
+  /**
+   * A story's illustrations, shared by every locale it is translated into.
+   *
+   * `page` is the reading page the picture first appears on, so the reader can
+   * show the right one as the story advances. Absent for articles and for
+   * stories whose pictures have not been generated yet.
+   */
+  images?: StoryImage[] | null
   tags?: string[]
   /** Register/usage note (optional manifest field, e.g. 'hard c'). */
   context?: string | null

@@ -15,7 +15,7 @@ import { LECTURE_ROWS_KEY } from '~/lib/lectureRows'
 import { DICTIONARY_TERM_KEY } from '~/lib/dictionary-term'
 import { glossName } from '~/lib/dictionarySearch'
 import { useMedia } from '~/composables/useMedia'
-import type { MediaRecord, MediaRow } from '~/types/media'
+import type { MediaRecord, MediaRow, StoryImage } from '~/types/media'
 
 definePageMeta({ key: (pageRoute) => pageRoute.path })
 
@@ -196,6 +196,35 @@ const storyNativePage = computed(() => {
   const page = nativePages.value[storyPage.value]
   return page ? { ...doc, body: { ...doc.body, value: page } } : null
 })
+
+/**
+ * The picture to show beside the story on the current page.
+ *
+ * A story's illustrations are shared by every language, and each one is
+ * anchored to the page it first appears on. The picture stays up until the
+ * next one's page, so a 1-picture story keeps its picture throughout and a
+ * 5-picture story changes it five times.
+ */
+const storyImage = computed<StoryImage | null>(() => {
+  const images = record.value?.images ?? []
+  if (!images.length) return null
+  let current: StoryImage | null = null
+  for (const image of images) {
+    if (image.page <= storyPage.value) current = image
+    else break
+  }
+  return current ?? images[0]
+})
+
+/**
+ * The paragraph number to print in front of the current page's text.
+ *
+ * Stories are numbered so a child (and the reader following the audio) can see
+ * where they are: "1. A fost o dată ca niciodată…". The number counts the
+ * paragraphs of the panel's own language, so the two panels stay aligned even
+ * when a translation splits a paragraph differently.
+ */
+const storyParagraphNumber = computed(() => storyPage.value + 1)
 /** Left panel's language: the learning language for a story, the reader's for a lecture. */
 const storyTargetName = computed(() =>
   languageName(isStory.value ? trackLang.value : (storyTargetDoc.value?.locale ?? docLocale.value))
@@ -412,64 +441,106 @@ useSeoMeta({
           </div>
         </div>
 
-        <!-- ONE reading template for every track (the stories one): learning
-             language left, the reader's language right, paginated by the same
-             rule. No per-locale button row — the route's :doc segment already
-             chose the explanation language. -->
+        <!-- ONE reading template for every track. A STORY gets three panels —
+             the picture on the right, the learning language above the reader's
+             translation on the left — because a picture book is read beside its
+             illustration. A lecture keeps two panels (its single explanation
+             plus nothing), since it has no picture and no second language. -->
         <section class="flex min-h-0 flex-1 flex-col gap-3">
           <div
             class="grid min-h-0 flex-1 grid-cols-1 gap-3 overflow-hidden"
-            :class="hasTranslation ? 'lg:grid-cols-2' : ''"
+            :class="isStory && storyImage ? 'lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_minmax(0,1.1fr)]' : hasTranslation ? 'lg:grid-cols-2' : ''"
           >
-            <section
-              class="min-w-0 flex-col overflow-hidden rounded-lg border border-edge bg-surface p-3 sm:p-5"
-              :class="storyMobilePanel === 'target' ? 'flex' : 'hidden lg:flex'"
+            <!-- LEFT COLUMN: the story in two languages, stacked. Each panel
+                 scrolls on its own, so a long paragraph never pushes the other
+                 language out of view. -->
+            <div
+              class="flex min-h-0 min-w-0 flex-col gap-3"
+              :class="isStory && storyImage ? 'lg:col-span-2' : 'contents'"
             >
-              <div class="mb-3 flex items-center justify-between gap-2 border-b border-edge pb-2">
-                <h2 class="text-xs font-semibold uppercase tracking-wide text-accent">
-                  {{ storyTargetName }} · {{ copy(isStory ? 'stories.learning_text' : 'lecture.explanation', isStory ? 'Learning language' : 'Explanation') }}
-                </h2>
-                <ArticleReadPlayer
-                  ref="targetPlayer"
-                  :src="storyTargetRead"
-                  :label="storyTargetName"
-                  :start-at="targetStartAt"
-                  :end-at="targetEndAt"
-                  :has-next="storyPage < storyPageCount - 1"
-                  @page-ended="moveStoryPage(1)"
-                />
-              </div>
-              <ContentRenderer
-                v-if="storyTargetPage"
-                :value="storyTargetPage"
-                class="lecture-prose story-page-content min-h-0 flex-1 overflow-y-auto text-sm leading-relaxed text-content sm:text-base"
-              />
-            </section>
-            <section
-              v-if="hasTranslation"
-              class="min-w-0 flex-col overflow-hidden rounded-lg border border-edge bg-surface p-3 sm:p-5"
-              :class="storyMobilePanel === 'native' ? 'flex' : 'hidden lg:flex'"
+              <section
+                class="min-w-0 flex-col overflow-hidden rounded-lg border border-edge bg-surface p-3 sm:p-5"
+                :class="[
+                  storyMobilePanel === 'target' ? 'flex' : 'hidden lg:flex',
+                  isStory && storyImage ? 'min-h-0 flex-1' : ''
+                ]"
+              >
+                <div class="mb-3 flex items-center justify-between gap-2 border-b border-edge pb-2">
+                  <h2 class="text-xs font-semibold uppercase tracking-wide text-accent">
+                    {{ storyTargetName }} · {{ copy(isStory ? 'stories.learning_text' : 'lecture.explanation', isStory ? 'Learning language' : 'Explanation') }}
+                  </h2>
+                  <ArticleReadPlayer
+                    ref="targetPlayer"
+                    :src="storyTargetRead"
+                    :label="storyTargetName"
+                    :start-at="targetStartAt"
+                    :end-at="targetEndAt"
+                    :has-next="storyPage < storyPageCount - 1"
+                    @page-ended="moveStoryPage(1)"
+                  />
+                </div>
+                <div class="story-page-body min-h-0 flex-1 overflow-y-auto">
+                  <p v-if="isStory" class="story-paragraph-number" aria-hidden="true">
+                    {{ storyParagraphNumber }}.
+                  </p>
+                  <ContentRenderer
+                    v-if="storyTargetPage"
+                    :value="storyTargetPage"
+                    class="lecture-prose story-page-content text-sm leading-relaxed text-content sm:text-base"
+                  />
+                </div>
+              </section>
+              <section
+                v-if="hasTranslation"
+                class="min-w-0 flex-col overflow-hidden rounded-lg border border-edge bg-surface p-3 sm:p-5"
+                :class="[
+                  storyMobilePanel === 'native' ? 'flex' : 'hidden lg:flex',
+                  isStory && storyImage ? 'min-h-0 flex-1' : ''
+                ]"
+              >
+                <div class="mb-3 flex items-center justify-between gap-2 border-b border-edge pb-2">
+                  <h2 class="text-xs font-semibold uppercase tracking-wide text-muted">
+                    {{ storyNativeName }} · {{ copy('stories.translation', 'Translation') }}
+                  </h2>
+                  <ArticleReadPlayer
+                    ref="nativePlayer"
+                    :src="storyNativeRead"
+                    :label="storyNativeName"
+                    :start-at="nativeStartAt"
+                    :end-at="nativeEndAt"
+                    :has-next="storyPage < storyPageCount - 1"
+                    @page-ended="moveStoryPage(1)"
+                  />
+                </div>
+                <div class="story-page-body min-h-0 flex-1 overflow-y-auto">
+                  <p v-if="isStory" class="story-paragraph-number" aria-hidden="true">
+                    {{ storyParagraphNumber }}.
+                  </p>
+                  <ContentRenderer
+                    v-if="storyNativePage"
+                    :value="storyNativePage"
+                    class="lecture-prose story-page-content text-sm leading-relaxed text-content sm:text-base"
+                  />
+                </div>
+              </section>
+            </div>
+            <!-- RIGHT PANEL: the story's illustration. It changes as the story
+                 advances — each picture is anchored to the page it first
+                 appears on — and it is shared by every language. `object-contain`
+                 keeps the whole painting visible: a picture book that crops its
+                 illustration loses the part the child is looking at. -->
+            <figure
+              v-if="isStory && storyImage"
+              class="hidden min-h-0 min-w-0 flex-col items-center justify-center overflow-hidden rounded-lg border border-edge bg-surface p-2 lg:flex"
             >
-              <div class="mb-3 flex items-center justify-between gap-2 border-b border-edge pb-2">
-                <h2 class="text-xs font-semibold uppercase tracking-wide text-muted">
-                  {{ storyNativeName }} · {{ copy('stories.translation', 'Translation') }}
-                </h2>
-                <ArticleReadPlayer
-                  ref="nativePlayer"
-                  :src="storyNativeRead"
-                  :label="storyNativeName"
-                  :start-at="nativeStartAt"
-                  :end-at="nativeEndAt"
-                  :has-next="storyPage < storyPageCount - 1"
-                  @page-ended="moveStoryPage(1)"
-                />
-              </div>
-              <ContentRenderer
-                v-if="storyNativePage"
-                :value="storyNativePage"
-                class="lecture-prose story-page-content min-h-0 flex-1 overflow-y-auto text-sm leading-relaxed text-content sm:text-base"
+              <img
+                :key="storyImage.url"
+                :src="storyImage.url"
+                :alt="articleTitle"
+                class="max-h-full max-w-full rounded object-contain"
+                decoding="async"
               />
-            </section>
+            </figure>
           </div>
           <div class="flex shrink-0 items-center justify-center gap-3">
             <button
@@ -540,5 +611,21 @@ useSeoMeta({
 <style scoped>
 .story-page-content :deep(p) {
   margin: 0;
+}
+
+/* The paragraph number sits in the margin, so the prose keeps its own left
+   edge and the number reads as a marker rather than part of the sentence. */
+.story-page-body {
+  position: relative;
+}
+
+.story-paragraph-number {
+  float: left;
+  margin-right: 0.5rem;
+  font-family: var(--font-code, ui-monospace, monospace);
+  font-size: 0.75rem;
+  line-height: 1.9;
+  color: var(--color-faint, #9ca3af);
+  user-select: none;
 }
 </style>

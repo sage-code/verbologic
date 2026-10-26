@@ -5,10 +5,15 @@
  *
  *   locales: { <locale>: { name, description, ipa, ttsText, example, context } }
  *   files:   { "<folder>/<locale>.mp3": { bytes, sha1 } }
+ *   images:  [ { file, bytes, sha1, page } ]
  *
  * `locales` is keyed by locale — one self-contained row each. `files` is keyed
  * by path and holds only the two facts that cannot be derived; a file's
  * presence IS its published status.
+ *
+ * `images` is a LIST, not a locale map: a story's illustrations are shared by
+ * every language it is translated into, so they are generated once and reused.
+ * `page` is the reading page the picture first appears on.
  *
  * Every script goes through this module so the shape is defined once.
  */
@@ -18,6 +23,9 @@ export const FOLDER = { audio: 'sound', read: 'read' }
 
 /** The path a field's file for one locale lives at, relative to the item dir. */
 export const filePath = (field, locale) => `${FOLDER[field]}/${locale}.mp3`
+
+/** The path an illustration lives at, relative to the item dir. */
+export const imagePath = (index) => `images/${index}.jpg`
 
 /** The locale row, or an empty object when the locale has no content. */
 export const localeRow = (item, locale) => item.locales?.[locale] ?? {}
@@ -93,4 +101,36 @@ export function publishedFiles(item) {
     out.push({ field, locale: base.replace(/\.mp3$/, ''), path, bytes: facts.bytes, sha1: facts.sha1 })
   }
   return out
+}
+
+/**
+ * How many illustrations a story gets, from its CEFR level.
+ *
+ * A longer story needs more pictures to hold a child's attention, so the count
+ * follows the level: A1 one, A2 two, B1 three, B2 four, C1 and above five.
+ * Anything unrecognised falls back to one, which is the safe minimum.
+ */
+export function imageCountForLevel(cefr) {
+  const level = String(cefr ?? '').toUpperCase()
+  if (level.startsWith('C')) return 5
+  if (level.startsWith('B2')) return 4
+  if (level.startsWith('B1')) return 3
+  if (level.startsWith('A2')) return 2
+  return 1
+}
+
+/** The item's illustrations, in page order. */
+export const imagesOf = (item) => item.images ?? []
+
+/** Record one illustration. `facts` needs `bytes` and `sha1`. */
+export function setImageFacts(item, index, page, facts) {
+  item.images ??= []
+  const path = imagePath(index)
+  const existing = item.images.find((image) => image.file === path)
+  if (existing) {
+    Object.assign(existing, { bytes: facts.bytes, sha1: facts.sha1, page })
+    return
+  }
+  item.images.push({ file: path, bytes: facts.bytes, sha1: facts.sha1, page })
+  item.images.sort((a, b) => a.page - b.page)
 }

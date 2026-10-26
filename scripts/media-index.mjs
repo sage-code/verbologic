@@ -132,6 +132,18 @@ function localizeItem(item, path, locale) {
   // paginated one `##` section per page, so the player seeks here instead of
   // replaying pages 1..N-1 when Play is pressed on page N.
   const readSections = item.readSections ?? null
+  // The story's illustrations, shared by every locale. `page` is the reading
+  // page each picture first appears on, so the reader can show the right one.
+  const images = (item.images ?? [])
+    .map((image) => {
+      const onDisk = join(dirname(path), ...image.file.split('/'))
+      if (!existsSync(onDisk)) return null
+      return {
+        url: `${config.root}${relative(MEDIA, onDisk).replaceAll('\\', '/')}`,
+        page: image.page ?? 0
+      }
+    })
+    .filter(Boolean)
   const row = localeRow(item, locale)
   return {
     id: item.code,
@@ -148,6 +160,7 @@ function localizeItem(item, path, locale) {
     read,
     reads: Object.keys(reads).length ? reads : null,
     readSections,
+    images: images.length ? images : null,
     tags: item.tags ?? [],
     topic: item.topic,
     entity_id: `${item.topic}:${item.code}`,
@@ -271,6 +284,9 @@ function manifestRecord(manifest, section) {
     reads: manifest.reads ?? null,
     // Per-locale start offset of each reading page in that recording.
     readSections: manifest.readSections ?? null,
+    // A story's illustrations, shared by every locale. `page` is the reading
+    // page each picture first appears on.
+    images: manifest.images ?? null,
     tags: manifest.tags ?? [],
     context: manifest.context ?? null,
     example: manifest.example ?? null,
