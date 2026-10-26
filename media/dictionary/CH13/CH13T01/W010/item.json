@@ -13,9 +13,9 @@
     "en": {
       "name": "castle",
       "description": "-stle is a suffix or word ending often found in English words.",
-      "ipa": "/ˈkæs.əl/",
       "example": "castle",
-      "context": "t"
+      "context": "t",
+      "ipa": "/ˈkæsəl/"
     },
     "ro": {
       "name": "castel",
@@ -25,7 +25,7 @@
     "de": {
       "name": "Burg",
       "description": "-stle ist ein Suffix oder eine Wortendung, die häufig in englischen Wörtern vorkommt.",
-      "ipa": "/ʃləs/"
+      "ipa": "/bʊʁk/"
     },
     "ru": {
       "name": "замок",
@@ -35,12 +35,12 @@
     "it": {
       "name": "castello",
       "description": "-stle è un suffisso o una desinenza spesso presente nelle parole inglesi.",
-      "ipa": "/kaˈstɛllo/"
+      "ipa": "/kasˈtɛllo/"
     },
     "es": {
       "name": "castillo",
       "description": "-stle es un sufijo o terminación de palabra que se encuentra a menudo en las palabras en inglés.",
-      "ipa": "/kasˈtiʝo/"
+      "ipa": "/kasˈtiʎo/"
     },
     "fr": {
       "name": "château",
@@ -50,7 +50,7 @@
     "hu": {
       "name": "kastély",
       "description": "A -stle egy utótag vagy szóvégződés, amely gyakran előfordul angol szavakban.",
-      "ipa": "/ˈkaːstɛj/"
+      "ipa": "/ˈkɒʃteːj/"
     },
     "pt": {
       "name": "castelo",
@@ -60,40 +60,40 @@
   },
   "files": {
     "sound/en.mp3": {
-      "bytes": 10656,
-      "sha1": "e3210eb09157d6ee8559a7ab66f90e342e7c7d7e"
+      "bytes": 11232,
+      "sha1": "2843b462c00fdbee0edba7480ba4b81849d7e9fe"
+    },
+    "sound/de.mp3": {
+      "bytes": 8064,
+      "sha1": "0a9ec8993868046fd9f057130d4f1a9a25ac6ec7"
     },
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "ea0f043a10744cd98bae647358e891e92518f0c7"
-    },
-    "sound/de.mp3": {
-      "bytes": 11232,
-      "sha1": "4988fe87c767270760963393397b7c88f7874f6f"
+      "sha1": "37c9747dba8fc7f2d941ea8856fadea7f09b1ce0"
     },
     "sound/ru.mp3": {
       "bytes": 11232,
-      "sha1": "a9b6a1868a445402e729365a104d257302d384cd"
+      "sha1": "75d97884d98e331b7248f1b29ca2b5dd868d1994"
     },
-    "sound/it.mp3": {
-      "bytes": 11232,
-      "sha1": "c0b93d126a7bdb33196edc73af8a33c4bb80580e"
+    "sound/fr.mp3": {
+      "bytes": 9216,
+      "sha1": "7d81760a464dee02739410cf2e842ff36c051c54"
     },
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "f16c24d3e6f05b176cea34d869be05e88401b81d"
+      "sha1": "2281bcbfc44dd93e9e18467b1317530e15562f99"
     },
-    "sound/fr.mp3": {
-      "bytes": 11232,
-      "sha1": "415943d8a5627d0783436fc39156a0e6505ffd2b"
-    },
-    "sound/hu.mp3": {
-      "bytes": 11232,
-      "sha1": "39a3e788248be12e793e1d1ffc6ad97ad0de1656"
+    "sound/it.mp3": {
+      "bytes": 6624,
+      "sha1": "8b0401be3d9dbadb62d4aef4e663e1e419c56817"
     },
     "sound/pt.mp3": {
       "bytes": 11232,
-      "sha1": "ea5a0ba1660971c56459aaec868e21ddbb01accd"
+      "sha1": "360a69ade8e443507f5321388e51d927f9a9b520"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "0af1e5ba0b29605e2ff30b995cbd11e17994d2fe"
     }
   }
 }
