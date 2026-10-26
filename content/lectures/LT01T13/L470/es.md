@@ -20,18 +20,18 @@ terms:
   ro: "M"
 ---
 
-## El sonido de la letra M
+## Sonido de la eme
 
-La letra **M** representa de forma estándar la consonante nasal bilabial `/m/`, idéntica a la **m** del español en palabras como *madre*. No obstante, cuando se sitúa al final de una sílaba o de una palabra tras una vocal, la consonante en sí no se pronuncia y su única función es transformar la vocal previa en una vocal nasal (como en *nom* o *faim*).
+La letra (emme) /ɛm/ produce habitualmente el sonido /m/, como en la palabra (mer) /mɛʁ/. Es una consonante nasal y sonora idéntica a la española.
 
-## Cómo colocar la boca
+## Cómo se pronuncia
 
-Para articular `/m/`, junta firmemente los labios para bloquear la salida del aire por la boca y hazlo fluir a través de la nariz emitiendo voz. Es una articulación directa y natural que no presenta dificultades motrices para los hispanohablantes.
+Junta ambos labios cerrando la boca por completo. Expulsa el aire suavemente por la cavidad nasal mientras haces vibrar tus cuerdas vocales con claridad.
 
-## Grafía y reglas de posición
+## Ortografía y variantes
 
-La doble **mm** francesa se pronuncia simplemente como una `/m/` corta e individual, como en *grammaire* o *pomme*. Delante de las consonantes **b** y **p**, la **m** sustituye ortográficamente a la **n** para formar dígrafos nasales (*chambre*, *temps*). A final de palabra suele marcar nasalidad (*faim*), salvo en ciertos latinismos o extranjerismos en los que se articula plenamente (*totem*, *album*).
+Delante de cualquier vocal o cuando está duplicada se pronuncia con el sonido /m/, como en (pomme) /pɔm/. En contadas palabras fijas no se pronuncia, como ocurre en (automne) /o.tɔn/.
 
-## Variantes y errores frecuentes
+## Comparación con el español
 
-El error más grave de los hispanohablantes consiste en cerrar los labios y pronunciar una consonante `[m]` al final de palabras con vocales nasales como *parfum* o *nom*. Ten en cuenta la regla: si a la **m** le sigue una vocal o una segunda **m**, se articula como consonante oral `/m/` (*femme* `/fam/`), pero si va seguida de consonante o pausa final, la consonante desaparece para dar paso a la vocal nasal.
+No presenta ninguna dificultad de pronunciación respecto al español, ya que es igual al sonido de la palabra madre. Presta atención únicamente a las palabras concretas donde no suena.

@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## Az Y betű kiejtése
+## Az i grec hangja
 
-A francia **Y** betű neve *i grec*, és helyzetétől függően kétféle hangot jelöl: a magyar *j*-hez hasonló `/j/` félhangzót (mint a **yeux** szóban), vagy a tiszta `/i/` magánhangzót (mint a **stylo** szóban). Magánhangzó előtt mindig sikamlós félhangzóként viselkedik, míg mássalhangzók között egyszerű *i* hangnak felel meg.
+A betű francia neve (i grec) /i ɡʁɛk/. Leggyakrabban a mássalhangzóként viselkedő /j/ hangot jelöli, mint a (yeux) /jø/ szóban.
 
-## A hang képzése
+## A kiejtés módja
 
-A `/j/` hang ejtésekor a nyelv elülső része magasan a szájpadlás felé emelkedik, akárcsak a magyar *j* képzésekor, miközben a hangszalagok rezegnek. A légáramlás akadálytalanul, de szűk résen át áramlik ki, mielőtt átváltana a következő magánhangzóra. Ügyeljen arra, hogy ne szorítsa össze túlságosan a szájüreget, nehogy súrlódó mássalhangzóvá váljon.
+A zárt magánhangzóhoz a nyelv hegye az alsó metszőfogakhoz ér, a nyelvhát magasra emelkedik, az ajkak szélesre húzódnak. A félhangzóhoz a nyelv gyorsan és szorosan a szájpadlás felé siklik, miközben a hangszalagok rezegnek.
 
-## Helyesírási sajátosságok
+## A betűírás szabályai
 
-Az **Y** betű a franciában leggyakrabban görög vagy idegen eredetű szavakban tűnik fel (**système**, **rythme**). Két magánhangzó között, mint a **voyage** szóban, hagyományosan dupla *i*-ként viselkedik, így az első *i* az előtte álló magánhangzóval olvad össze, a második pedig félhangzóként indul. Nagybetűs formája megegyezik a magyarral: **Y**.
+Magánhangzó előtt a betű a félhangzós /j/ hangot kapja, mint a (yoga) /jo.ɡa/ szóban. Mássalhangzók között, önálló szótagként vagy a szó legvégén a tiszta /i/ magánhangzót jelöli, ahogy a (cycle) /sikl/ és a (jury) /ʒy.ʁi/ szó mutatja.
 
-## Összehasonlítás és buktatók
+## Gyakori ejtési hibák
 
-A magyar anyanyelvűek számára a legnagyobb csapda a `/j/` és a francia `/ʒ/` (magyar *zs*) összetévesztése: a **yeux** (`/jø/`) szót nem szabad összekeverni a **jeux** (`/ʒø/`) kifejezéssel. Ezenkívül magánhangzók között ne nyújtsa túl hosszan a hangot, maradjon természetesen lágy és pergő.
+A magyar anyanyelvűeknek ez a betű nem okoz nehézséget, mert a két hangja teljesen megegyezik a magyar jé és i betűk ejtésével.

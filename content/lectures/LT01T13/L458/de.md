@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## Der Laut von A
+## Der Laut von a
 
-Im Standardfranzösischen steht der Buchstabe **A** meist für einen offenen vorderen ungerundeten Vokal, phonetisch `/a/`. Dieser Laut ist heller und weiter vorn im Mund platziert als das deutsche kurze 'a' in *Katze* oder das lange 'a' in *Abend*. Ein tieferer, weiter hinten gesprochener Laut `/ɑ/` existiert traditionell bei Wörtern mit Zirkumflex wie **pâte**, verschmilzt im modernen Französisch jedoch zunehmend mit dem normalen `/a/`.
+Der Buchstabe heißt (a) /a/. Sein wichtigster Klang ist der helle Vokal /a/, wie im Wort (ami) /a.mi/.
 
-## Ausspracheanweisung
+## Aussprache des Buchstabens
 
-Öffnen Sie den Mund entspannt und senken Sie den Unterkiefer spürbar ab. Die Zungenspitze legt sich locker an die Rückseite der unteren Schneidezähne, während der Zungenkörper flach im Mundboden ruht. Halten Sie die Lippen ungerundet und lassen Sie den Ton präzise und klangvoll erklingen, ohne die Zungenstellung dabei zu verändern.
+Öffnen Sie den Mund weit und senken Sie den Kiefer. Die Zunge ruht flach am Mundboden, während die Zungenspitze die unteren Schneidezähne berührt. Die Lippen bleiben vollkommen entspannt und ungerundet, während die Stimmlippen schwingen.
 
-## Schreibung und Vorkommen
+## Schreibweise und Aussprache
 
-Der Buchstabe **A** kommt am Wortanfang, im Wortinneren und am Wortende vor. Alleinstehend bleibt die Aussprache auch mit Gravis (**à**) oder Zirkumflex (**â**) ein 'a'-Laut. In Kombinationen wie **ai** (gesprochen `/ɛ/`) oder **au** (gesprochen `/o/`) verliert er jedoch seinen eigentlichen Lautwert und bildet Diphthongschreibungen für andere Monophthonge.
+In den meisten Fällen sowie mit Gravis steht der Buchstabe für den Laut /a/, wie in (là) /la/. Mit einem Zirkumflex steht er für den hinteren Laut /ɑ/, wie im Wort (pâte) /pɑt/ oder in (âne) /ɑn/.
 
-## Vergleich und typische Fehler
+## Vergleich zum Deutschen
 
-Deutschsprachige neigen manchmal dazu, das französische **a** zu dunkel im Rachenraum zu bilden, wie man es aus Teilen des deutschen Sprachraums kennt. Achten Sie darauf, den Laut stets hell und weit vorn im Mund zu halten. Vermeiden Sie es außerdem, unbetonte 'a' zu einem undeutlichen Schwa-Laut abzuschwächen – im Französischen behält jedes **a** stets seine volle Klangfarbe.
+Vermeiden Sie es, diesen Vokal wie das dunkle deutsche a in Bahn nach hinten zu ziehen. Machen Sie den Laut nicht zu einem langen Diphthong. Halten Sie die Zunge stets flach und den Klang klar vorne.

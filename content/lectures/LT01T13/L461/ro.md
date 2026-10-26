@@ -20,18 +20,18 @@ terms:
   ro: "D"
 ---
 
-## Sunetul literei D în franceză
+## Sunetul literei dé
 
-Litera **D** redă în franceza standard consoana oclusivă dentală sonoră `/d/`. Sunetul este extrem de similar cu **d**-ul din limba română, fiind articulat direct pe dinții superiori. Nu este niciodată aspirat, oferind o tranziție curată către vocala următoare.
+Numele acestei litere este (dé) /de/. În limba franceză, redă sunetul /d/, ca în cuvântul (date) /dat/.
 
-## Cum se pronunță corect
+## Pronunțarea sunetului
 
-Atingeți cu vârful limbii spatele **dinților incisivi superiori**, la fel ca în română. Blocați scurt fluxul de aer în timp ce faceți corzile vocale să vibreze, apoi desprindeți limba cu o mișcare fermă și precisă. Nu expirați aer suplimentar în timpul relaxării limbii.
+Atingeți cu vârful limbii spatele dinților de sus. Opriți aerul pentru o clipă, apoi eliberați-l brusc, lăsând corzile vocale să vibreze.
 
-## Particularități ortografice
+## Reguli de citire
 
-Sunetul `/d/` este redat prin **d** sau **dd** (*addition*). La finalul cuvintelor, **d** este de obicei mut, ca în *froid* sau *accord*. În caz de eliziune formală (liaison) înaintea unei vocale, litera finală se citește prin excepție ca `/t/`, ca în *grand enfant*.
+În cele mai multe poziții, litera redă sunetul /d/, ca în cuvântul (mode) /mɔd/. La finalul multor cuvinte, această literă nu se pronunță deloc, ca în (nord) /nɔʁ/ sau în (chaud) /ʃo/.
 
-## Variante și erori frecvente
+## Capcane de pronunție
 
-Cea mai mare capcană pentru vorbitorii de română este tentația de a citi **d**-ul final scris în cuvinte precum *pied*, *nid* sau *chaud*, unde acesta trebuie să rămână mut. Rețineți de asemenea fenomenul de asurzire în lanțul vorbirii: la liaison, litera nu sună ca un `[d]`, ci devine clar un `[t]` surd.
+Sunetul este identic cu cel din limba română din cuvântul dor. Singura capcană este tendința de a citi litera la sfârșitul cuvintelor, unde ea rămâne mută în franceză.

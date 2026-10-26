@@ -20,18 +20,18 @@ terms:
   ro: "U"
 ---
 
-## Az U betű hangzása
+## A francia u hangja
 
-A francia **U** betű alapértelmezett hangértéke a `/y/`, amely kísértetiesen hasonlít a magyar **ü** vagy **ű** hangra. A magyar anyanyelvűek számára ez az egyik legkönnyebben kiejthető francia magánhangzó. Magánhangzók előtt olykor félhangzóvá válik, jele `/ɥ/`, mint a **nuit** szóban.
+A francia (u) /y/ betű neve (u) /y/. Alapvetően a magyar ü hanghoz hasonló (usine) /y.zin/ szóban hallható tiszta magánhangzót jelöli.
 
-## A kiejtés módja
+## Az u kiejtése
 
-Képezze pontosan úgy, mint a magyar **ü** hangot az *üt* szóban. A nyelve hegyét támassza az alsó fogsor mögé, a szájszéleket pedig erősen kerekítse és csücsörítse előre. Tartsa feszesen az ajkait a hang képzése közben anélkül, hogy elmozdítaná őket.
+Formálj szűk, erősen előretolt, kerek ajkakat, miközben a nyelved hegyét az alsó fogsorod mögé szorítod. Amikor magánhangzó előtt áll, a szűk ajkakkal képezett réshang nagyon gyorsan átcsúszik a következő hangba.
 
-## Helyesírás és írásmód
+## Az u írásmódjai
 
-Leggyakrabban önálló **u** betűként szerepel, de mellékjellel is feltűnhet (**û** vagy **ü**), például a **sûr** szóban. Ügyeljen arra, hogy a francia **ou** kapcsolat a magyar *u*-nak felel meg, míg az önálló **u** mindig az *ü* hangot jelöli. Néhány ige múlt idejű alakjában a betűkapcsolatok (pl. **eu**) is ejthetők `/y/`-ként.
+Általában a magánhangzós (sûr) /syʁ/ hangot jelöli, ékezettel vagy anélkül. Egy másik kiejtett magánhangzó előtt viszont félhangzóvá válik, mint a (huit) /ɥit/ szóban.
 
-## Megkülönböztetés és gyakori hibák
+## Tipikus kiejtési hibák
 
-A legnagyobb csapda a francia **u** `/y/` és a magyar *u* hangnak megfelelő **ou** `/u/` összekeverése. Figyeljen a **tu** (te) és a **tout** (minden), illetve a **dessus** (rajta) és **dessous** (alatta) szópárok tiszta elválasztására. Ne ejtse soha a sima **u** betűt mély *u*-ként.
+A magyar anyanyelvűek számára a magánhangzó könnyű, mert megegyezik a magyar ü betűvel. A félhangzós változatnál azonban vigyázz, ne ejtsd magyar v hangnak.

@@ -20,18 +20,18 @@ terms:
   ro: "E"
 ---
 
-## Sunetul literei E
+## Sunetul literei e
 
-Litera **E** este cea mai cameleonică vocală din limba franceză, producând de bază sunetul mut sau 'caduc' `/ə/`, apropiat de **ă** din limba română, dar rostit cu buzele rotunjite. În funcție de accente și consoane vecine, poate nota și un `/e/` închis (ca în *école*) sau un `/ɛ/` deschis (ca în *mer*). La finalul majorității cuvintelor, **e** neaccentuat nu se pronunță deloc.
+Litera (e) /ə/ se numește /ə/. Principalul său sunet este /ə/, auzit în cuvântul (menu) /mə.ny/.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Pentru a rosti sunetul de bază `/ə/`, porniți de la poziția sunetului românesc **ă**, ținând limba relaxată în centrul gurii. Din această poziție, rotunjiți ușor buzele înainte, ca și cum ați dori să fluierați lejer. Sunetul emis trebuie să fie clar, scurt și fără nicio diftongare spre final.
+Pentru sunetul /ə/, rotunjește buzele și ține limba la mijlocul gurii. Pentru sunetul /e/ închis, întinde buzele și ridică limba. Pentru sunetul /ɛ/ deschis, coboară maxilarul și lasă buzele relaxate. Toate aceste vocale folosesc vibrația corzilor vocale.
 
 ## Reguli de scriere
 
-Fără semne diacritice, **E** se citește `/ə/` în monosilabe (*je*, *me*) sau `/ɛ/` în fața consoanelor duble (*lettre*). Când poartă accent ascuțit (**é**), sună mereu închis `/e/`, iar cu accent grav (**è**) sau circumflex (**ê**), sună deschis `/ɛ/`. La sfârșit de cuvânt după o consoană, litera **e** fără accent este mută (*porte* se rostește /pɔʁt/).
+În monosilabe sau silabe deschise fără accent, litera redă sunetul /ə/, ca în (le) /lə/. Înainte de consoane finale mute, litera redă sunetul /e/ închis, ca în (nez) /ne/. Înainte de consoane duble sau finale de silabă, redă sunetul /ɛ/ deschis, ca în (mer) /mɛʁ/. La sfârșitul cuvintelor, litera este mută, ca în (table) /tabl/.
 
-## Diferențe și capcane
+## Capcane frecvente
 
-Vorbitorii de română tind adesea să pronunțe fiecare literă scrisă, ceea ce duce la greșeala de a citi **e**-ul final. În franceză, un cuvânt precum *banane* se termină la consoana `/n/`, nu într-un `/e/` audibil. De asemenea, nu confundați sunetul rotunjit `/ə/` din *le* cu vocala curată `/e/` din *café*.
+Vorbitorii de română tind să înlocuiască sunetul /ə/ cu sunetul românesc din cuvântul măr. Nu deschide gura la fel de mult și rotunjește bine buzele. De asemenea, evită să rostești litera când este mută la finalul cuvintelor.

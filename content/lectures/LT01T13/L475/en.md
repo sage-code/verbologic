@@ -20,18 +20,18 @@ terms:
   ro: "R"
 ---
 
-## The French 'r'
+## The letter erre
 
-The French letter **R** represents the uvular fricative `/ʁ/`. Unlike the English 'r' made with the tip of the tongue curled back, or a rolled Spanish 'r', the standard French sound is produced deep in the back of the throat near the uvula. It sounds like a smooth, friction-filled gargle rather than a tap.
+The letter (erre) /ɛʁ/ represents the sound /ʁ/, as heard in the word (rue) /ʁy/.
 
-## How to pronounce it
+## Pronouncing the letter
 
-Relax the tip and front of your tongue, keeping them low and resting behind your lower teeth. Raise the very back of your tongue toward your uvula (the fleshy hanging tip at the back of your throat) to create a gentle constriction. Exhale vocalised air through this narrow gap to produce a soft, vibrating friction without aggressively clearing your throat.
+Raise the back of your tongue toward the uvula at the back of your throat. Push air through the narrow gap to create friction. Your vocal cords can vibrate, or remain unvoiced beside quiet consonants.
 
-## Spelling and silent rules
+## Reading the letter
 
-The letter **R** appears singly or doubled (**rr**), both pronounced `/ʁ/` as in **rare** or **arriver**. Crucially, the final **-r** is completely silent in the standard first-group infinitive ending **-er** (such as **chanter** `/ʃɑ̃.te/`) and words like **boulanger**, unless followed by vowel liaison.
+In most positions, this letter makes the sound /ʁ/, as in (rare) /ʁaʁ/. At the end of many words, especially first-group verb endings, it is completely silent, as in (parler) /paʁ.le/ or (premier) /pʁə.mje/.
 
-## Nuances and pitfalls
+## Common English pitfalls
 
-Before or after voiceless consonants (like `/p/`, `/t/`, `/k/`), the sound naturally devoices into a breathy `/χ/`, heard in words like **quatre** `/katχ/`. Avoid the common English mistake of using a retroflex 'r' or curling your tongue tip backward, as this will immediately obscure your French accent.
+Do not use the English tip-of-the-tongue sound heard in red. Never curl your tongue backward. The French consonant is made entirely at the very back of the mouth, like a gentle gargle.

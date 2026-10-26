@@ -20,18 +20,18 @@ terms:
   ro: "D"
 ---
 
-## El sonido de la letra D
+## Sonido de dé
 
-La letra **D** en francés representa la consonante oclusiva dental sonora `/d/`. A diferencia del español, donde la **d** suele suavizarse como fricativa entre vocales (como en *lado*), en francés siempre se mantiene estrictamente oclusiva y firme. Al final de palabra suele ser muda, como en *tard* o *bord*.
+Esta letra se llama (dé) /de/. Su sonido principal corresponde al fonema /d/, como en la palabra (date) /dat/.
 
-## Posición de la boca
+## Articulación del sonido
 
-Coloca la punta de la lengua contra la cara interna de los dientes incisivos superiores, bloqueando totalmente el paso del aire. Haz vibrar las cuerdas vocales con fuerza y separa la lengua de golpe para liberar el sonido. Mantén la tensión firme incluso cuando la letra esté rodeada de vocales.
+Apoya la punta de la lengua con firmeza contra los dientes superiores y las encías. Corta el paso del aire brevemente, haz vibrar las cuerdas vocales y suelta con un sonido claro.
 
-## Ortografía y comportamiento
+## Reglas de ortografía
 
-Se escribe como mayúscula **D** y minúscula **d**. Se pronuncia `/d/` a principio de sílaba y en el dígrafo **dd** (*admettre*, *addition*). Al final de la palabra es generalmente muda (*nœud*, *pied*), con poquísimas excepciones como *sud*.
+En casi todas las posiciones produce el sonido /d/, por ejemplo en (mode) /mɔd/. Al final de muchas palabras no se pronuncia, como en (nord) /nɔʁ/ o en (chaud) /ʃo/.
 
-## Casos especiales y errores
+## Comparación con el español
 
-En la *liaison* (enlace) ante vocal o *h* muda, la **D** final cambia fonéticamente y se articula como `/t/`: *un grand homme* se dice `/œ̃ ɡʁɑ̃.t‿ɔm/`. El error más habitual entre hispanohablantes es debilitar la `/d/` entre vocales (pronunciar *idée* con la fricativa española); asegúrate de bloquear el aire por completo en cada oclusión.
+En español esta consonante suele relajarse entre vocales como en cada. En francés siempre debe mantenerse firme y oclusiva, con la lengua bien pegada a los dientes sin aflojar el contacto.

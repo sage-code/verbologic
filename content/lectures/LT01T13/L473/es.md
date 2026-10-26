@@ -20,18 +20,18 @@ terms:
   ro: "P"
 ---
 
-## El sonido de la letra P
+## Sonido de la letra pe
 
-La letra **P** en francés representa una consonante oclusiva bilabial sorda `/p/`, prácticamente idéntica a la **p** del español en palabras como *pato*. Es un sonido limpio, tenso y sin aspiración perceptible. Resulta un fonema sumamente natural e intuitivo para los hispanohablantes.
+La letra (pé) /pe/ produce el sonido /p/, como en la palabra (porte) /pɔʁt/.
 
-## Posición de la boca
+## Cómo colocar la boca
 
-Junta firmemente los labios impidiendo el paso del aire por una fracción de segundo y luego sepáralos con un golpe seco. Las cuerdas vocales no deben vibrar durante la explosión inicial. Evita expulsar aire extra como se hace en inglés; mantén la salida de aire corta y controlada.
+Une los labios cerrando por completo la salida del aire. Luego, ábrelos de golpe sin vibración en las cuerdas vocales, produciendo una pequeña explosión sorda.
 
-## Uso y combinaciones escritas
+## Reglas de pronunciación
 
-Se grafica en minúscula **p** y mayúscula **P**. Al unirse con la *h* en el dígrafo **ph**, adquiere siempre el sonido de `/f/`, como en *pharmacie*. En posición final de palabra suele ser muda, un rasgo típico en palabras cotidianas como *trop*, *galop* o *camp*.
+Al inicio o en medio de palabra ante vocal o líquida, produce el sonido /p/, como en (pomme) /pɔm/. En posición final en muchas palabras comunes es muda, como en (drap) /dʁa/ y (trop) /tʁo/.
 
-## Variantes y errores comunes
+## Comparación para hispanohablantes
 
-Mientras que al inicio o en medio de sílaba suena `/p/`, al final de palabra suele enmudecer por completo. El error más habitual de los estudiantes hispanohablantes consiste en pronunciar la **p** final en términos como *trop* o *beaucoup*, donde debe permanecer rigurosamente en silencio.
+En español este sonido es idéntico al de palabras como pan. La única dificultad consiste en recordar no pronunciarlo al final de palabra, evitando articularlo por inercia.

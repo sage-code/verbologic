@@ -20,18 +20,18 @@ terms:
   ro: "I"
 ---
 
-## Sonido de la letra I
+## Sonido de la letra i
 
-La letra **I** representa habitualmente la vocal cerrada anterior `/i/`, equivalente a la «i» del español, pero articulada con mayor tensión muscular. Delante de otra vocal adopta el valor de la semiconsonante `/j/`, similar a la «i» en *hielo*. El sonido francés se caracteriza por ser muy nítido y sin variaciones de timbre.
+La letra (i) /i/ recibe el nombre (i) /i/. Corresponde comúnmente al sonido vocálico /i/, como en la palabra (ici) /i.si/.
 
-## Posición de los órganos articulatorios
+## Cómo se pronuncia
 
-Estira ligeramente los labios hacia los lados, manteniendo las comisuras firmes. Coloca la punta de la lengua en contacto firme con la base de los dientes inferiores y eleva la parte media de la lengua hacia el paladar. Emite la voz concentrando la energía en la parte delantera de la boca, con gran tensión en los resonadores.
+Para la vocal /i/, estira los labios y eleva el dorso de la lengua hacia el paladar. Para la semivocal /j/, estrecha aún más ese canal lingual con vibración de las cuerdas vocales.
 
-## Ortografía y comportamiento
+## Ortografía y variantes
 
-Se escribe como **I** y puede llevar acento circunflejo en **î** (*île*, indicando a menudo una antigua 's' histórica) o diéresis en **ï** (*haïr*) para marcar un hiato. En contacto con otras vocales, a menudo funciona como semivocal `/j/` (*ciel*). No obstante, dentro de dígrafos como **ai**, **ei** u **oi**, su presencia modifica completamente el sonido hacia otras vocales.
+Lleva el sonido /i/ de forma habitual o con acento circunflejo, como en (île) /il/. Delante de otra vocal se pronuncia como la semivocal /j/, por ejemplo en (ciel) /sjɛl/ y en (hier) /jɛʁ/.
 
-## Matices y errores comunes
+## Comparación con el español
 
-Compara la vocal sostenida en *île* `/il/` frente al sonido deslizante en *pied* `/pje/`. El error más recurrente entre los hispanohablantes es tender a relajar la tensión labial y lingual al final de las palabras, o intentar pronunciar la `/i/` de forma literal en grupos ortográficos franceses como **in** o **ai**, donde la letra no suena de forma aislada.
+Esta grafía no presenta ninguna dificultad real. Sus sonidos equivalen exactamente a la vocal de fino y a la semiconsonante de pie.

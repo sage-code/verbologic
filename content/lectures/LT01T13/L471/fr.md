@@ -20,18 +20,18 @@ terms:
   ro: "N"
 ---
 
-## Le son de la lettre N
+## Son de la lettre enne
 
-La lettre **N** correspond le plus souvent à la consonne nasale alvéolaire `/n/`, comme dans « nuit » ou « banane ». Lorsqu'elle est placée en fin de syllabe après une voyelle, elle ne se prononce pas comme une consonne mais sert à nasaliser la voyelle précédente, comme dans « bon » `/bɔ̃/`. Contrairement à d'autres langues, elle perd alors totalement son articulation dentale autonome.
+La lettre (enne) /ɛn/ produit principalement le son /n/, que l'on entend dans le mot (nez) /ne/.
 
-## Comment prononcer le N
+## Mouvements articulatoires
 
-Pour réaliser le son `/n/`, appuyez la pointe de la langue fermement contre les alvéoles, juste derrière les dents supérieures. Laissez l'air s'échapper librement par la cavité nasale tout en faisant vibrer vos cordes vocales. Les lèvres restent neutres ou prennent la forme de la voyelle qui suit.
+Placez la pointe de la langue contre les alvéoles, juste derrière les dents du haut. Laissez s'échapper l'air par le nez tout en faisant vibrer vos cordes vocales.
 
-## Règles d'écriture et particularités
+## Règles de lecture
 
-La lettre s'écrit **N** en majuscule et **n** en minuscule. Devant les consonnes « b », « p » et « m », elle se transforme traditionnellement en « m » (comme dans « emmener » ou « impossible »). Enfin, le digramme « gn » note généralement une consonne nasale palatale distincte, `/ɲ/` (comme dans « vigne »).
+Devant une voyelle, elle donne le son /n/ comme dans (minute) /mi.nyt/. Elle reste totalement muette après une consonne dans (condamner) /kɔ̃.da.ne/ ou dans le terme (monsieur) /mə.sjø/.
 
-## Nuances et pièges fréquents
+## Prononciation sans piège
 
-L'erreur la plus courante chez les apprenants consiste à prononcer un `/n/` consonnantique à la fin des mots contenant une voyelle nasale, par exemple en disant `/bɔn/` au lieu de `/bɔ̃/` pour « bon ». Veillez également à bien lier le mot lors d'une liaison obligatoire : « un ami » se prononce `/œ̃.na.mi/`, où le `/n/` réapparaît distinctement devant la voyelle.
+La réalisation de cette consonne est absolument identique à son usage habituel dans votre langue maternelle et ne pose aucun problème particulier.

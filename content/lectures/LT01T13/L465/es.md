@@ -20,18 +20,18 @@ terms:
   ro: "H"
 ---
 
-## Sonido de la letra H
+## Sonido de la letra hache
 
-En francés, la letra **H** es siempre completamente muda y no posee ningún valor fonético propio. Al igual que la **h** en español, jamás se aspira como en inglés ni suena como una jota débil. Su presencia sirve para marcar la historia del término y regular las uniones entre palabras.
+El nombre de la letra es (ache) /aʃ/. Esta letra nunca produce sonido, como se observa en (habiter) /a.bi.te/.
 
-## Cómo se pronuncia
+## Cómo colocar la boca
 
-No intentes articular ningún sonido ni expulsar aire desde la garganta. Coloca directamente la lengua y los labios en la posición de la vocal siguiente y emite esa vocal con naturalidad. La laringe no debe ofrecer ninguna resistencia al paso del aire.
+No debes mover la boca ni usar las cuerdas vocales, pues no sale aire alguno.
 
-## Reglas ortográficas y uso
+## Reglas de ortografía
 
-Se escribe como **h** minúscula o **H** mayúscula y aparece a principio o en medio de palabra, o en dígrafos comunes como **ch** (/ʃ/) y **ph** (/f/). En posición inicial se clasifica en **h muet** (que exige elisión y enlace, ej. *l'homme*) y **h aspiré** (que impide ambos fenómenos, ej. *le héros*). Aunque ambas son inaudibles, modifican la forma de los artículos y adyacentes.
+Esta letra es siempre muda. No emite ningún sonido en palabras como (homme) /ɔm/ ni en (héros) /e.ʁo/.
 
-## Comparación y errores frecuentes
+## Diferencias con el español
 
-Los hispanohablantes suelen acertar en no pronunciarla, pero fallan al aplicar la elisión y la *liaison*. El error más frecuente es decir *l'héros* en lugar de **le héros**, o hacer la unión en *les héros* (que sonaría incorrectamente como *les z'héros*), ignorando que la **h aspiré** actúa como una barrera consonántica invisible.
+En español esta letra también es completamente muda, así que no presenta ninguna dificultad.

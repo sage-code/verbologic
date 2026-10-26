@@ -20,18 +20,18 @@ terms:
   ro: "G"
 ---
 
-## The Sound of G
+## Sound of the letter gé
 
-In French, the letter **G** has two main pronunciations depending on the letter that follows it. Before consonants and the vowels **a**, **o**, and **u**, it represents a hard `[ɡ]` sound identical to the 'g' in 'game'. Before **e**, **i**, and **y**, it softens into `[ʒ]`, which matches the sound of the 's' in 'measure'.
+The letter (gé) /ʒe/ is called (gé) /ʒe/. It most frequently makes the sound /ɡ/, heard in the word (gare) /ɡaʁ/.
 
-## How to Pronounce It
+## Pronouncing the letter gé
 
-For the hard sound `[ɡ]`, raise the back of your tongue firmly against your soft palate to block the airflow, then release it while engaging your vocal cords. For the soft sound `[ʒ]`, curve the sides of your tongue against your upper teeth, round your lips slightly, and let a voiced, continuous stream of air pass over the center of your tongue without letting your tongue tap the roof of your mouth. Always keep the sound fully voiced and avoid releasing sudden puffs of air.
+For the sound /ɡ/, press the back of your tongue against the soft palate, build air pressure, and release with vocal cord vibration. For the sound /ʒ/, round your lips slightly and push continuous voiced air between the tongue blade and upper palate.
 
-## Spelling Rules
+## Spelling of the letter gé
 
-To keep the hard `[ɡ]` sound before front vowels like **e** or **i**, French inserts a silent **u**, as seen in **guitare** or **bague**. Conversely, to maintain the soft `[ʒ]` sound before **a** or **o**, an **e** is inserted after the consonant, as in **mangeons**. At the very end of words, such as in **sang** or **long**, the letter **G** is usually completely silent unless involved in formal liaison.
+The letter produces the hard sound /ɡ/ before the vowels a, o, u or before a consonant, like in (gros) /ɡʁo/. It makes the soft sound /ʒ/ before e, i, y, seen in (gel) /ʒɛl/ and (girafe) /ʒi.ʁaf/. At the end of words like (doigt) /dwa/ and (sang) /sɑ̃/, it is silent.
 
-## Contrasts and Common Mistakes
+## Pitfalls for English speakers
 
-English speakers often mistakenly pronounce soft **G** as an affricate `[dʒ]` like in 'judge'; ensure that in words like **gâteau** versus **gâteau** you never add a 'd' sound to soft `[ʒ]`. Pay close attention to word pairs like **gare** `[ɡaʁ]` and **gel** `[ʒɛl]` to see how vowel context alters the consonant quality. Additionally, remember not to voice silent final letters in words like **poing** unless a liaison requires a rare `[k]` or `[ɡ]` link.
+Avoid adding an affricate sound. Do not pronounce the soft sound like the j in jump, but smoothly like the s in measure. Also avoid the harsh English hard g by keeping contact light and voiced.

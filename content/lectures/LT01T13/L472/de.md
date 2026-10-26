@@ -20,18 +20,18 @@ terms:
   ro: "O"
 ---
 
-## Der Laut des Buchstabens O
+## Laut des Buchstabens O
 
-Der französische Buchstabe **O** steht im Wesentlichen für zwei Laute: das offene `/ɔ/` (wie in *orange*) und das geschlossene `/o/` (wie in *mot*). Beide Laute entsprechen weitgehend dem deutschen kurzen offenen 'o' in *offen* bzw. dem langen geschlossenen 'o' in *Boot*. Französische Vokale bleiben stets reine Monophthonge ohne jegliches Nachgleiten.
+Der Buchstabe heißt (o) /o/. Sein häufiger Grundlaut ist das offene /ɔ/, wie im Beispielwort (olive) /ɔ.liv/.
 
-## Ausspracheanleitung
+## Aussprache und Mundstellung
 
-Für das offene `/ɔ/` senken Sie den Unterkiefer etwas ab und runden die Lippen locker nach vorn, während die Zunge leicht zurückgezogen bleibt. Für das geschlossene `/o/` schürzen Sie die Lippen sehr fest zu einem kleinen, runden Kreis nach vorne. Halten Sie Zunge und Kiefer absolut ruhig, damit der Laut nicht verwaschen klingt.
+Runden Sie die Lippen nach vorn und ziehen Sie den Zungenrücken zurück. Für die geschlossene Variante bleibt der Mund fast zu. Für die offene Variante senken Sie den Kiefer deutlich tiefer, während die Stimmbänder schwingen.
 
-## Schreibung und Besonderheiten
+## Regeln der Rechtschreibung
 
-In geschlossenen Silben vor gesprochenen Konsonanten lautet **O** meist offen `/ɔ/` (*porte*, *sol*), während es am Wortende oder vor `/z/` geschlossen `/o/` gesprochen wird (*zéro*, *rose*). Mit Zirkumflex (**Ô**) ist der Laut ausnahmslos geschlossen `/o/` (*fantôme*). Zusammen mit anderen Vokalen bildet es feste Einheiten wie **OU** (`/u/`) und **OI** (`/wa/`).
+In den meisten geschlossenen Silben sowie am Wortanfang vor einem einzelnen Konsonanten klingt der Buchstabe als offenes /ɔ/ wie in (porte) /pɔʁt/. Am Wortende oder Silbenende sowie vor dem Laut /z/ spricht man geschlossenes /o/ wie in (vélo) /ve.lo/ und (rose) /ʁoz/.
 
-## Varianten und typische Stolpersteine
+## Typische Fehler vermeiden
 
-Beachten Sie den klaren Kontrast zwischen dem offenen Laut in *botte* (`/bɔt/`) und dem geschlossenen Laut in *hôte* (`/ot/`). Deutschsprachige neigen manchmal dazu, unbetonte Vokale zu einem Schwa [ə] abzuschwächen oder französische Vokallängen nach deutschen Kürzeregeln zu verzerren. Achten Sie auf eine saubere, stets voll ausgesprochene Vokalqualität in jeder Silbenposition.
+Im Deutschen neigt langes O oft zu starker Rundung. Achten Sie im Französischen darauf, offenes O weder zu verdumpfen noch zu einem geschlossenen Laut zu machen. Verwechseln Sie geschlossenes O nicht mit dem deutschen offenen O in Post.

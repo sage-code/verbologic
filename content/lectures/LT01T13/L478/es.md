@@ -20,18 +20,18 @@ terms:
   ro: "U"
 ---
 
-## El sonido de la letra U
+## Sonido de la u
 
-En francés, la letra **U** solitaria representa la vocal cerrada anterior redondeada `[y]`. Este sonido no existe en el español estándar y no debe pronunciarse como la **u** castellana `[u]`. Para el oído hispanohablante suena como un híbrido entre una «i» y una «u».
+La letra (u) /y/ representa principalmente el sonido /y/, como se escucha en la palabra (usine) /y.zin/.
 
 ## Cómo colocar la boca
 
-Coloque la boca como si fuera a decir una **«i»** muy marcada, con la punta de la lengua apoyada firmemente contra los dientes inferiores. Sin mover la lengua de esa posición, cierre y redondee los labios proyectándolos hacia adelante como si fuera a silbar o a pronunciar una **«u»**. Emita la voz manteniendo esa postura para lograr el sonido `[y]`.
+Para la vocal, redondea mucho los labios hacia adelante y coloca la lengua arriba, cerca del paladar. Para la semivocal, haz ese mismo gesto con rapidez antes de soltar la siguiente vocal.
 
-## Ortografía y comportamiento
+## Reglas de ortografía
 
-Se escribe como **U** mayúscula y **u** minúscula; puede llevar acento circunflejo (**û**, como en *sûr*) o diéresis (**ü**, como en *aiguë*). Delante de otra vocal, suele pronunciarse como la semivocal `[ɥ]`, como en la palabra *huit*. Recuerde que la **u** española se escribe en francés mediante la combinación de dos letras: **ou**.
+Por norma general, y también con acento, produce el sonido vocálico /y/, como en (sûr) /syʁ/. Delante de otra vocal pronunciada, actúa como semivocal y da el sonido /ɥ/, como en la palabra (huit) /ɥit/.
 
-## Variantes y advertencias
+## Comparación con el español
 
-La pronunciación estándar es la vocal `[y]` (*une*, *lune*), pero ante vocal funciona como semivocal `[ɥ]` (*nuit*, *suis*). El fallo más habitual entre hispanohablantes es articular la **u** velar española: esto altera por completo el significado de las palabras, haciendo que *tu* (tú) se confunda con *tout* (todo) o *su* (sabido) con *sous* (debajo).
+El error común consiste en sustituir este sonido por la u española. Coloca los labios en u pero di la vocal i para evitar confundirlo.

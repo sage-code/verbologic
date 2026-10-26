@@ -20,18 +20,18 @@ terms:
   ro: "V"
 ---
 
-## Il suono della lettera
+## Suono della lettera vé
 
-La lettera **V** in francese corrisponde al suono consonantico `/v/`, esattamente identico alla **v** italiana di parole come «verde» o «vento». Si tratta di una fricativa labiodentale sonora, prodotta con una vibrazione continua delle corde vocali. La sua pronuncia non presenta particolari difficoltà per un parlante italiano.
+La lettera (vé) /ve/ corrisponde al suono /v/, come nella parola (vélo) /ve.lo/.
 
 ## Come posizionare la bocca
 
-Appoggia delicatamente i denti incisivi superiori contro il labbro inferiore. Espira producendo attrito ed emettendo contemporaneamente la voce con la vibrazione delle corde vocali. Il flusso d'aria deve essere continuo e teso, senza stacchi bruschi.
+Appoggia delicatamente i denti superiori sul labbro inferiore. Fai passare l'aria facendo vibrare le corde vocali in modo costante.
 
-## Grafia e combinazioni
+## Grafia e lettura
 
-La lettera **V** si pronuncia sempre `/v/` in ogni contesto, sia all'inizio di parola (**vert**), sia in mezzo (**livre**, **arriver**). Non compare quasi mai raddoppiata nelle parole d'origine nativa, salvo rari prestiti. Mantiene la sua sonorità piena anche prima di consonanti liquide come `/ʁ/` o `/l/`.
+Questa consonante produce regolarmente il suono /v/ in tutte le posizioni ordinarie, come nel vocabolo (vent) /vɑ̃/.
 
-## Varianti ed errori comuni
+## Nessun errore frequente
 
-Questo fonema si presenta identico in contesti diversi: *vert* `/vɛʁ/`, *avoir* `/a.vwaʁ/`, *crevette* `/kʁə.vɛt/`. Gli italofoni non hanno solitamente problemi con la produzione di `/v/`, ma devono fare attenzione a non confonderlo con la semivocale `/w/` quando è seguito da dittonghi grafici come in *voir* `/vwaʁ/`. Assicurati che il contatto labiodentale sia sempre ben netto.
+Per chi parla italiano non esiste alcuna difficoltà, perché il suono equivale esattamente alla consonante iniziale di vino.

@@ -20,18 +20,18 @@ terms:
   ro: "U"
 ---
 
-## Sunetul literei 'u' în franceză
+## Sunetul literei u
 
-Litera **u** în franceza standard redă vocala anterioară rotunjită `/y/`, un sunet care nu există în limba română. Vorbitorii de română tind adesea să îl înlocuiască greșit cu sunetul `u` românesc (`/u/`). În plus, atunci când este urmată imediat de o altă vocală rostită, litera devine semivocala `/ɥ/`.
+Numele acestei litere este (u) /y/. Ea redă în mod obișnuit vocala închisă /y/, ca în cuvântul (usine) /y.zin/.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Pentru a rosti `/y/`, așezați limba în poziția necesară pentru a spune **i** românesc, cu vârful sprijinit pe dinții de jos. Fără a mișca deloc limba din acest loc, rotunjiți strâns buzele ca pentru a fluiera sau ca pentru a spune un **u** foarte strâns. Sunetul rezultat este o combinație perfectă între limba în poziție de **i** și buzele rotunjite.
+Pentru vocala închisă, rostește un i românesc, dar rotunjește buzele strâns înainte. Pentru varianta scurtă de semivocală, pornește din aceeași poziție și treci foarte rapid spre vocala următoare.
 
-## Particularități de scriere
+## Reguli de scriere
 
-Litera **u** simplă se citește aproape întotdeauna `/y/`, inclusiv atunci când poartă accent circumflex (**û**) ca în *sûr*. Aveți grijă la grupurile de litere: combinația **ou** redă sunetul `u` românesc (`/u/`), iar **au** redă `/o/`. De asemenea, după literele **q** și **g** (în *qui*, *guerre*), **u** este adesea doar un semn grafic mut.
+Litera simplă sau cu accent circumflex redă vocala /y/, ca în (sûr) /syʁ/. În fața altei vocale pronunțate, litera devine semivocala /ɥ/, ca în (huit) /ɥit/ sau în (nuit) /nɥi/.
 
-## Variante și greșeli frecvente
+## Capcane de pronunție
 
-Comparați vocala pură din *lune* `/lyn/` cu semivocala rapidă din *nuit* `/nɥi/`. Cea mai mare capcană pentru români este pronunțarea lui **u** ca un simplu `u` românesc, ceea ce schimbă complet sensul cuvintelor, cum ar fi între *tu* (tu) și *tout* (tot), sau *dessus* (deasupra) și *dessous* (dedesubt). Exersați menținerea limbii în față pentru a nu confunda cele două sunete.
+În limba română nu există acest sunet. Greșeala obișnuită este folosirea vocalei u din cuvântul urs sau a vocalei i din inel. Ține limba ca la i, dar rotunjește buzele puternic.

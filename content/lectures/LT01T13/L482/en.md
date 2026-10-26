@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## The Sound of Y
+## Sound of I grec
 
-The French letter **Y** functions either as the palatal glide `/j/` or as the pure vowel `/i/`. Before another vowel, it produces the same gliding sound as the 'y' in English *yes*. When standing alone or between consonants, it acts like a normal French **i**, sounding like the 'ee' in *see* but much tenser and shorter.
+This letter is called (i grec) /i ɡʁɛk/. Its principal sound is the glide /j/, heard in the word (yeux) /jø/.
 
-## How to Pronounce It
+## How to say it
 
-For the glide `/j/`, arch the middle of your tongue high against the hard palate and glide swiftly into the following vowel without building friction. To produce the vowel `/i/`, raise the front of your tongue close to your roof while spreading your lips into a firm smile. Keep the vocal tract steady and avoid any diphthongisation.
+To make the glide, raise your tongue body close to the hard palate and vibrate your vocal cords. For the vowel, push your tongue high and forward while stretching your lips wide and flat without rounding.
 
-## Spelling Patterns
+## Spelling and variants
 
-French **Y** is called *i grec* ('Greek i') and frequently appears in words of Greek origin like *physique* or *système*. Inside native or borrowed words between vowels, like *payer* or *voyage*, it historically acts as a double **i**, affecting the preceding vowel sound (`ay` -> /ɛj/, `oy` -> /waj/). It can also appear word-initially as a consonant glide, as in *yeux* and *yaourt*.
+Before a vowel, the letter sounds like the glide /j/, as in (yoga) /jo.ɡa/. Between consonants, it produces the vowel sound /i/, as in (cycle) /sikl/. At the end of a word, it also makes the sound /i/, as in (jury) /ʒy.ʁi/.
 
-## Variants and Pitfalls
+## Comparison with English
 
-Notice the difference between the consonantal glide in *yeux* (`/jø/`) and the full vowel in *style* (`/stil/`). English speakers often make the mistake of adding a heavy buzz or an English 'j' sound (`/dʒ/`), or conversely turning the glide into a slow, separate syllable `/i.ø/`. Keep the glide crisp and seamlessly attached to the following vowel.
+English speakers usually pronounce this letter correctly. It sounds just like the Y in yes or the long E in machine. Avoid gliding into a diphthong at the end of a word.

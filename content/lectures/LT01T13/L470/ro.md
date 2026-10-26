@@ -20,18 +20,18 @@ terms:
   ro: "M"
 ---
 
-## Sunetul literei M în franceză
+## Sunetul literei emme
 
-În limba franceză, litera **M** redă consoana nazală bilabială `/m/`, identică cu 'm'-ul din limba română în cuvinte precum „mamă”. Totuși, plasată după o vocală la final de silabă sau înaintea literelor **b** și **p**, litera nu se mai pronunță ca o consoană de sine stătătoare, ci nazalizează vocala precedentă. Grupul dublu **mm** se citește întotdeauna ca un singur `/m/` scurt.
+Numele acestei litere este (emme) /ɛm/. Ea redă de obicei sunetul /m/, ca în cuvântul (mer) /mɛʁ/.
 
-## Cum se pronunță corect
+## Pronunția sunetului emme
 
-Apropiați complet ambele buze fără a le încorda excesiv, blocând ieșirea aerului prin gură. Coborâți vălul palatului pentru a permite fluxului de aer să iasă exclusiv pe nas. Activați corzile vocale pentru a emite o vibrație continuă, deschizând apoi buzele lin spre vocala următoare.
+Pentru a produce acest sunet, lipește complet buzele una de cealaltă. Lasă aerul să iasă continuu pe nas, făcând corzile vocale să vibreze.
 
-## Reguli ortografice pentru M
+## Ortografia literei emme
 
-Litera **M** apare la începutul, mijlocul sau sfârșitul cuvintelor, simplă sau dublată, ca în *flamme*. O regulă esențială a ortografiei franceze este că litera **N** devine **M** înaintea literelor **b** și **p** pentru a indica o vocală nazală, de exemplu în *timbre*. Dacă este urmată de o vocală sau dacă este dublată, **M** nu nazalizează vocala anterioară, așa cum se observă în *pomme*.
+Înaintea unei alte litere identice, se aude sunetul /m/, ca în (pomme) /pɔm/. În câteva cuvinte fixe rare, litera nu se pronunță deloc, ca în (damner) /dɑ.ne/ sau (automne) /o.tɔn/.
 
-## Diferențe și greșeli frecvente
+## Comparație cu limba română
 
-Comparați consoana clară `/m/` din *maison* `/mɛ.zɔ̃/` cu nazalizarea din cuvinte precum *nom* `/nɔ̃/`. O greșeală tipică a vorbitorilor de română este închiderea buzelor și pronunțarea unui [m] sonor la sfârșitul cuvintelor nazalizate, cum ar fi *parfum*. La finalul acestor silabe, asigurați-vă că nu uniți buzele și lăsați doar vocala nazală să sune.
+Sunetul este identic cu cel din limba română, ca în cuvântul mamă. Nu există nicio dificultate de pronunție pentru vorbitorii de română.

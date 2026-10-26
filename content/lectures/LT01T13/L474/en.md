@@ -20,18 +20,18 @@ terms:
   ro: "Q"
 ---
 
-## The Sound of Q
+## Sound of the letter qu
 
-In French, the letter **Q** almost always appears as the digraph **qu** and represents a clean, voiceless velar stop `/k/`. Unlike in English, where 'qu' usually sounds like `/kw/` (as in *quick*), the French 'u' here is completely silent. It sounds just like the English 'k' in *skate*, pronounced without any aspiration.
+The letter (qu) /ky/ is called (qu) /ky/. On its own, it produces the sound /k/, as heard in (cinq) /sɛ̃k/.
 
-## How to Pronounce It
+## Pronouncing the letter qu
 
-Press the back of your tongue firmly against your soft palate at the roof of the mouth to block the airflow. Release the seal crisply without letting out a puff of air. Keep your vocal cords silent and avoid rounding your lips into a `[w]` sound unless pronouncing specific Latin borrowings.
+Raise the back of your tongue firmly against your soft palate. Stop the flow of air completely, then release it sharply without vibrating your vocal cords.
 
-## Spelling Patterns
+## Spelling of the letter qu
 
-The letter **Q** is almost never written alone in native words; it is paired with **u** as **qu** before any vowel, as in *qui* or *banque*. It only appears alone at the end of a tiny handful of words, notably *cinq* and *coq*. The letter name itself is pronounced `/ky/`.
+When standing alone or appearing at the end of a word, it produces the sound /k/, as in (coq) /kɔk/.
 
-## Comparing Pronunciations
+## Pitfalls for English speakers
 
-Most words use `/k/`, such as *quatre* `/katʁ/` and *question* `/kɛstjɔ̃/`. A rarer variant `/kw/` appears in select Latin or foreign borrowings like *aquarium* `/akwaʁjɔm/` or *quatuor* `/kwatɥɔʁ/`. The most common mistake for English speakers is pronouncing every 'qu' as `/kw/`; always default to simple `/k/` unless you know it is an exception.
+Unlike the English sound in quick, do not add a w sound after the consonant. Pronounce a clean, plain k sound as heard in skin.

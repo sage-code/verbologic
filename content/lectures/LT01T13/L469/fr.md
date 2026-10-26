@@ -20,18 +20,18 @@ terms:
   ro: "L"
 ---
 
-## Le son de la lettre L
+## Son de la lettre elle
 
-La lettre **L** représente principalement la consonne latérale alvéolaire voisée `/l/`, comme dans **lune** ou **lit**. Contrairement au « l sombre » de l'anglais ou du portugais brésilien en finale de mot, le `/l/` français reste toujours **clair** et dental. Elle peut aussi participer au digraphe `-ill-` produisant le son `/j/`, ou rester totalement muette en finale dans certains mots comme **fusil**.
+La lettre (elle) /ɛl/ donne le son /l/, comme dans le mot (lune) /lyn/.
 
-## Comment la prononcer
+## Comment placer la bouche
 
-Placez la pointe de votre langue fermement contre vos **dents supérieures** ou la gencive alvéolaire juste derrière. Laissez l'air s'échapper librement sur les côtés de la langue tout en faisant vibrer vos cordes vocales. Gardez l'arrière de la langue plat sans le rétracter vers le palais mou pour éviter un son étouffé.
+Placez la pointe de la langue contre le haut des dents du haut et laissez passer l'air sur les côtés en faisant vibrer la voix.
 
-## Graphie et régularités
+## Règles de lecture
 
-Le son `/l/` s'écrit généralement avec un simple **l** ou un double **ll** comme dans **balle**. Lorsqu'il est combiné sous la forme **-ill-** ou **-il** en finale précédé d'une voyelle, il note presque toujours la semi-voyelle `/j/` (comme dans **fille** ou **travail**). Quelques exceptions notables conservent le son `/l/` avec deux l, notamment **ville**, **mille** et **tranquille**.
+Dans la plupart des positions cette lettre donne le son /l/, comme dans (bal) /bal/. Elle reste muette à la fin de quelques mots précis, comme dans (fusil) /fy.zi/ ou (outil) /u.ti/.
 
-## Nuances et pièges fréquents
+## Prononciation pour francophones
 
-Ne vélarisez jamais le **L** en fin de syllabe : un mot comme **fil** doit sonner avec un `/l/` franc et non comme une voyelle `/w/` ou un son sombre. Faites attention aux terminaisons muettes telles que **gentil**, **outil** ou le pronom **il** devant consonne en registre familier. Enfin, retenez bien l'exception de **ville** `/vil/` face à la majorité des mots en **-ille** qui se prononcent `/ij/`.
+Cette consonne ne présente aucun piège phonétique pour un locuteur francophone.

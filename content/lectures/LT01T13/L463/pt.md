@@ -20,18 +20,18 @@ terms:
   ro: "F"
 ---
 
-## O som da letra F
+## O som do efe
 
-A letra **F** representa a consoante fricativa labiodental surda `/f/`. O som é idêntico ao **f** do português em palavras como *falar* ou *fogo*. As cordas vocais não vibram durante a sua produção.
+A letra chama-se (effe) /ɛf/. Representa habitualmente o som /f/, tal como se ouve no termo (film) /film/.
 
-## Como pronunciar a letra F
+## Como pronunciar o efe
 
-Apoie suavemente os **dentes incisivos superiores** sobre o lábio inferior. Deixe o ar passar pela fresta criando um atrito contínuo, sem acionar a voz. Mantenha os lábios relaxados, sem arredondar excessivamente.
+Apoia suavemente os dentes superiores no lábio inferior e sopra o ar. Na versão sonora, faz vibrar as cordas vocais com esse mesmo sopro.
 
-## Ortografia e regras
+## Grafias do efe
 
-O fonema `/f/` pode ser grafado com **f** simples (*femme*), duplo **ff** (*effet*) ou pelo dígrafo **ph** em palavras de origem grega (*philosophie*). Ao final de palavras, o **f** quase sempre se pronuncia (*actif*, *bref*), ao contrário de muitas outras consoantes finais mudas.
+Na maioria dos casos surge como /f/, por exemplo em (café) /ka.fe/. Soa a /v/ na ligação antes de vogal em (neuf ans) /nœ.vɑ̃/. Não se pronuncia em raras exceções, como (clef) /kle/ ou (nerfs) /nɛʁ/.
 
-## Comparações e armadilhas
+## Comparação com o português
 
-Tenha cuidado para não confundir `/f/` com a sua versão sonora `/v/`. Um detalhe crucial no francês ocorre com a palavra *neuf* (nove): em ligação com uma palavra seguinte começada por vogal (*neuf ans*, *neuf heures*), o som do **f** transforma-se regularmente em `/v/`.
+Não existe nenhuma dificuldade para quem fala português, pois o som é idêntico ao da palavra faca.

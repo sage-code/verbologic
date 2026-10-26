@@ -20,18 +20,18 @@ terms:
   ro: "J"
 ---
 
-## Sunetul literei J
+## Sunetul literei ji
 
-În limba franceză, litera **J** reprezintă consoana fricativă postalveolară sonoră `/ʒ/`. Este identică cu sunetul literei **j** din limba română, întâlnit în cuvinte precum *joc* sau *joi*. Spre deosebire de alte limbi, în cuvintele franceze native acest sunet este mereu continuu și nu include niciodată o explozie de tip *dj*.
+Numele acestei litere este (ji) /ʒi/. Ea redă sunetul /ʒ/, pe care îl auzi în cuvântul (jupe) /ʒyp/.
 
-## Cum se pronunță
+## Pronunțarea sunetului
 
-Rotunjiți ușor buzele și împingeți-le puțin înainte. Ridicați partea anterioară a limbii spre cerul gurii, imediat în spatele dinților de sus, fără a atinge complet palatul. Lăsați aerul să curgă continuu prin acest spațiu îngust, făcând corzile vocale să vibreze pentru a produce un zumzet fluid.
+Apropie dinții și rotunjește puțin buzele împinse în față. Ridică partea din față a limbii spre cerul gurii. Lasă aerul continuu printre ele și fă corzile vocale să vibreze.
 
-## Ortografie și reguli
+## Reguli de scriere
 
-Litera **J** își păstrează pronunția `/ʒ/` în fața oricărei vocale (*jaune*, *jeu*, *jupe*), spre deosebire de litera **G**, care își schimbă valoarea în funcție de vocală. În franceză, **J** apare la începutul cuvintelor sau între vocale și aproape niciodată la finalul unui termen nativ.
+În aproape toate cuvintele, această literă notează sunetul /ʒ/, ca în (joli) /ʒɔ.li/.
 
-## Comparații și erori frecvente
+## Comparație cu româna
 
-Pentru vorbitorii de română, pronunția este naturală și facilă datorită identității cu sunetul românesc. Totuși, trebuie evitată influența limbii engleze care ar putea tenta pronunțarea unui `/dʒ/` la începutul cuvintelor franceze. Excepție fac doar câteva neologisme preluate recent din engleză, cum ar fi *jeans*.
+Sunetul este identic cu cel din cuvintele românești jale sau jar. Nu există capcane, deci îl poți pronunța exact ca în limba română.

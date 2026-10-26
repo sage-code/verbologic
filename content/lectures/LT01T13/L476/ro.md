@@ -20,18 +20,18 @@ terms:
   ro: "S"
 ---
 
-## Sunetul literei S
+## Sunetul literei esse
 
-Litera **S** redă în principal consoana fricativă alveolară surdă `/s/`, identică cu sunetul *s* din română ca în *soare*. Atunci când se află între două vocale, ea se sonorizează și devine `/z/`, ca în românescul *zar*. La sfârșitul majorității cuvintelor franceze, **s** nu se pronunță deloc.
+Litera (esse) /ɛs/ redă cel mai des sunetul /s/, ca în cuvântul (sac) /sak/. Uneori are alte pronunții sau rămâne mută.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Pentru sunetul `/s/`, apropiați vârful limbii de alveolele dinților superiori fără a le atinge complet și lăsați aerul să treacă creând un șuierat clar, fără vibrația corzilor vocale. Pentru varianta `/z/`, mențineți aceeași formă a gurii, dar activați vocea pentru a adăuga o rezonanță vibrantă. Păstrați buzele ușor întinse și relaxate.
+Pentru sunetul /s/, apropie dinții și lasă aerul să șuiere peste vârful limbii fără voce. Pentru sunetul /z/, folosește exact aceeași poziție a limbii și a buzelor, dar adaugă vibrația corzilor vocale.
 
-## Reguli de scriere și citire
+## Reguli de scriere
 
-Un singur **s** la început de cuvânt (*sac*) sau lângă o consoană (*penser*) se citește `/s/`. Între două vocale, litera **s** solitară devine `/z/` (*rose*), în timp ce dublarea **ss** garantează pronunția surdă `/s/` (*classe*). La final de cuvânt este de regulă mută, însă într-o legătură obligatorie (*liaison*) înainte de o vocală, se citește `/z/` (*les_enfants*).
+La început de cuvânt sau lângă o consoană, litera redă sunetul /s/, ca în (poste) /pɔst/. Între două vocale, ea redă sunetul /z/, ca în (rose) /ʁoz/. La sfârșitul multor cuvinte, litera nu se pronunță deloc, ca în (bras) /bʁa/.
 
-## Atenție la capcane
+## Comparație cu limba română
 
-O mare capcană pentru vorbitorii de română este pronunțarea lui **s** final la plural (*livres*) sau la conjugări (*tu viens*), unde trebuie să rămână complet mut. De asemenea, fiți foarte atenți la opoziția dintre un singur **s** (`/z/`) și dublu **ss** (`/s/`), diferență esențială în perechi minimale precum *cousin* (văr) și *coussin* (pernă).
+Pentru vorbitorii de limba română nu există capcane reale de articulare. Sunetele sunt identice cu cele din cuvintele românești sac și zarzăr. Fii doar atent să nu rostești litera mută aflată la final de cuvânt.

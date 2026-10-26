@@ -20,18 +20,18 @@ terms:
   ro: "Q"
 ---
 
-## Suono della lettera Q
+## Suono della lettera cu
 
-In francese, la lettera **Q** compare quasi sempre nel digramma **qu** e si pronuncia come una semplice occlusiva velare sorda `/k/`. A differenza dell'italiano, dove il gruppo *qu* include sempre la semivocale [w], in francese la **u** è solitamente muta. Il suono risultante è quindi del tutto identico a una normale *c* dura.
+Il nome di questa lettera si pronuncia (qu) /ky/. Da sola produce il suono /k/, come nella parola (cinq) /sɛ̃k/.
 
 ## Come si pronuncia
 
-Solleva il dorso della lingua a contatto con il palato molle per bloccare momentaneamente il flusso d'aria. Rilascia l'aria bruscamente senza aspirazione, aprendo il canale verso la vocale successiva. Fai attenzione a non arrotondare le labbra: preparale direttamente per la vocale che segue la **u**.
+Per pronunciare il suono /k/, premi il dorso della lingua contro il palato morbido. Trattieni l'aria per un istante, poi rilasciala bruscamente senza vibrazione delle corde vocali.
 
-## Ortografia e particolarità
+## Ortografia e regole
 
-La **Q** francese è quasi inseparabile dalla lettera **u**, che la segue per motivi storici e ortografici (*quatre*, *qualité*). Raramente la si trova isolata alla fine di pochissime parole come *cinq* e *coq*, dove mantiene il valore fonetico di `/k/`.
+Quando compare da sola alla fine delle parole, questa lettera si pronuncia con il suono /k/, come nel vocabolo (coq) /kɔk/.
 
-## Varianti ed errori comuni
+## Confronto con l'italiano
 
-L'errore più comune per gli italofoni è pronunciare la **u** di **qu**, leggendo ad esempio *qui* come fosse l'italiano «qui» anziché `/ki/`. Il nesso si legge eccezionalmente `/kw/` soltanto in rari termini dotti o prestiti come *aquatique* o *square*, mentre nel lessico comune la **u** resta sempre muta.
+Non ci sono insidie particolari. Il suono è identico alla c dura italiana di casa o alla lettera q prima di vocale.

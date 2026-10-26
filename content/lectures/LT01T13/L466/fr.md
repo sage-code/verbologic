@@ -20,18 +20,18 @@ terms:
   ro: "I"
 ---
 
-## Le son de la lettre I
+## Son de la lettre i
 
-La lettre **I** représente le plus souvent la voyelle fermée antérieure non arrondie `/i/`. Elle est très nette, brève et tendue, sans diphtongaison vers la fin de la syllabe. Devant une autre voyelle, elle devient une semi-consonne très rapide notée `/j/`.
+La lettre (i) /i/ se nomme (i) /i/. Elle note principalement le son de voyelle /i/, que l'on entend dans le mot (ici) /i.si/.
 
-## Comment la prononcer
+## Mouvements de la bouche
 
-Étirez fermement les lèvres vers les côtés comme pour faire un large sourire sans arrondir la bouche. Placez la pointe de la langue contre les incisives du bas et bombez l'avant du dos de la langue vers le palais dur. Maintenez les muscles de la bouche bien fermes pour que le son reste pur et stable.
+Pour la voyelle /i/, étirez les lèvres vers l'arrière et montez l'avant de la langue vers le haut. Pour la semi-voyelle /j/, resserrez davantage ce passage avec la voix sans bloquer l'air.
 
-## Graphies et particularités
+## Graphie et contextes
 
-Le son `/i/` s'écrit principalement **i**, mais aussi avec un accent circonflexe (**î**) comme dans *île*, ou un tréma (**ï**) pour séparer les voyelles comme dans *maïs*. Attention, associé à la lettre *n* ou *m* sans voyelle suivante, il forme la voyelle nasale `/ɛ̃/` (*vin*, *simple*).
+La voyelle se réalise comme le son /i/ seule ou avec un accent circonflexe, comme dans (île) /il/. Placée directement devant une autre voyelle, elle devient la semi-voyelle /j/, par exemple dans (ciel) /sjɛl/ ou (hier) /jɛʁ/.
 
-## Nuances et pièges
+## Écueils fréquents
 
-Ne confondez pas le `/i/` français avec le `/ɪ/` plus relâché de l'anglais : le son français reste toujours très tranchant et fermé. Veillez également à bien marquer le glissement en `/j/` devant une voyelle (*hier* `/jɛʁ/`) plutôt que de prononcer deux syllabes distinctes.
+Il n'y a aucun piège particulier. Veillez simplement à bien glisser rapidement sur la semi-voyelle quand elle précède une autre voyelle au sein de la même syllabe.

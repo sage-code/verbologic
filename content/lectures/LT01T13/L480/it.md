@@ -20,18 +20,18 @@ terms:
   ro: "W"
 ---
 
-## Suono della lettera W
+## Suono di double vé
 
-La lettera **W** non appartiene al lessico francese nativo ed è presente esclusivamente nei prestiti linguistici. Nei termini moderni di origine inglese viene pronunciata come semiconsonante `/w/`, equivalente al suono di **«u»** nell'italiano *uomo*. Nei prestiti più datati o derivati dal tedesco, assume invece il suono fricativo `/v/`, esattamente come la **«v»** italiana di *vino*.
+La lettera si chiama (double vé) /dublə ve/. Il suo suono principale corrisponde a /v/, come nel vocabolo (wagon) /va.ɡɔ̃/.
 
 ## Come posizionare la bocca
 
-Per realizzare il suono `/w/`, arrotondate e sporgente bene le labbra come per dire una **«u»** stretta, rilasciandole istantaneamente verso la vocale successiva. Per il suono `/v/`, appoggiate delicatamente gli incisivi superiori contro l'interno del labbro inferiore e fate vibrare le corde vocali espirando con decisione.
+Per il primo suono, appoggiate i denti superiori al labbro inferiore facendo vibrare la voce. Per il secondo suono, arrotondate le labbra in avanti e lasciate passare l'aria come per una brevissima u.
 
-## Ortografia e particolarità
+## Regole di pronuncia
 
-Nel sistema alfabetico francese questa lettera si chiama **«double vé»** e si colloca al ventitreesimo posto. Si incontra quasi sempre a inizio di parola o all'interno di radici straniere non adattate, senza mai raddoppiarsi o subire mutazioni morfologiche native.
+Negli imprestiti più antichi di derivazione germanica, la grafia corrisponde al suono /v/, come in (warrant) /va.ʁɑ̃/. Nei prestiti recenti giunti soprattutto dall'inglese, si pronuncia con il suono /w/, come in (web) /wɛb/.
 
-## Varianti ed errori comuni
+## Errori comuni da evitare
 
-Il dilemma principale per gli studenti è distinguere quando leggere `/v/` o `/w/`. Nel vocabolo **wagon** la pronuncia canonica è `/va.ɡɔ̃/`, mentre in **web** o **weekend** si usa `/w/`. L'errore più comune tra gli italofoni consiste nell'applicare la pronuncia inglese con `/w/` a parole ormai consolidate con la `/v/`, come appunto **wagon**.
+In italiano questo segno oscilla tra due valori nei forestierismi. Non pronunciate sempre un suono semivocalico: nelle parole francesi di ceppo germanico dovete usare una vera fricativa.

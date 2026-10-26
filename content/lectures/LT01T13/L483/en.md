@@ -20,18 +20,18 @@ terms:
   ro: "Z"
 ---
 
-## The Sound of French Z
+## Sound of letter zède
 
-The letter **Z** in French primarily represents the voiced alveolar fricative `/z/`, identical to the 'z' in English 'zebra' or the 's' in 'rose'. Your vocal cords must vibrate continuously while you produce a smooth hissing sound. In word-final position, however, it is very frequently silent.
+The letter (zède) /zɛd/ represents the sound /z/, heard in (zèbre) /zɛbʁ/. It is usually voiced and clear.
 
-## How to Produce /z/
+## Pronouncing the letter
 
-Bring your teeth lightly together and position the tip of your tongue close to the ridge behind your upper front teeth without touching it. Force air through the narrow channel while activating your vocal cords to create voice. Ensure that your tongue remains relaxed and does not touch your teeth, maintaining a clear buzz.
+Place the tip of your tongue near the ridge behind your upper teeth. Push air gently through the narrow passage while vibrating your vocal cords to make a buzzing sound.
 
-## Spelling and Patterns
+## Reading the letter
 
-**Z** is relatively rare within standard French stems, usually appearing in words of Greek, Arabic, or foreign origin like **zone** and **zèbre**. Crucially, it serves as a silent grammatical ending in the second-person plural of verbs such as **parlez** and in common words like **nez** or **chez**. When a final silent **z** undergoes liaison before a vowel, it awakens as a voiced `/z/`.
+At the start of a word or between vowels, it makes the sound /z/, like in (zone) /zon/. At the end of many words, this letter is completely silent, as in (nez) /ne/.
 
-## Variants and Pitfalls
+## Pitfalls to avoid
 
-The main contrast to observe is between fully voiced `/z/` and a totally silent ending. A frequent mistake for German or Slavic speakers is pronouncing final **-z** as `/ts/`, or devoicing it to `/s/` at word boundaries. Never pronounce the final letter in words like **allez**; it simply indicates the vowel sound `/e/`.
+English speakers usually pronounce this sound accurately, just like in zoo. Do not pronounce it as a voiceless hiss like in bus, and remember to leave it silent at word ends.

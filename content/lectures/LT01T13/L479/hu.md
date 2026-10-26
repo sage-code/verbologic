@@ -20,18 +20,18 @@ terms:
   ro: "V"
 ---
 
-## A V betű hangzása
+## A vé betű hangja
 
-A francia **V** betű a zöngés labiodentális réshangot, azaz a `/v/` hangot jelöli. Ez a hang teljesen megegyezik a magyar **v** betű kiejtésével, mint a **víz** vagy **virág** szavakban. A franciában ez a hang rendkívül stabil, és szinte minden pozícióban azonosan hangzik.
+A francia (vé) /ve/ betű alapvetően a magyar v hanghoz hasonló. Fő kiejtése a hang /v/, mint a (vélo) /ve.lo/ szóban.
 
-## A /v/ hang képzése
+## A vé kiejtése
 
-Érintse a felső metszőfogak élét a kissé behúzott alsó ajakhoz. Engedje át a levegőt a fogak és az ajak közötti szűk résen, miközben a hangszálait rezgésbe hozza. A magyar anyanyelvűek számára ez a mozdulat teljesen természetes, mivel pontosan megegyezik a magyar **v** képzésével.
+Helyezd a felső fogsorodat finoman az alsó ajkadra. Engedd ki a levegőt zöngésen, miközben a hangszálaid folyamatosan rezegnek.
 
-## Helyesírás és használat
+## A vé írásmódja
 
-A francia nyelvben a **v** betű szinte soha nem fordul elő kettőzve, mindig egyszerű mássalhangzóként írjuk. Bármilyen magánhangzó előtt állhat, például a **vert** (zöld) vagy a **vélo** (bicikli) szavakban. Szóvégi helyzetben ritkább, de ha ott áll, mindig tisztán kiejtjük.
+Minden szabályos helyzetben ezt az egyetlen mássalhangzót képezi. Ekkor a hang /v/ hallható, például a (vent) /vɑ̃/ szóban.
 
-## Gyakori hibák és összehasonlítás
+## Kiejtési csapdák elkerülése
 
-A magyar anyanyelvűek számára a francia `/v/` nem okoz artikulációs nehézséget, a hangok pontosan fedik egymást. Arra érdemes csak figyelni, hogy zöngétlen mássalhangzók szomszédságában se hasonuljon túlságosan elhamarkodottan `/f/`-fé, hanem őrizze meg zöngés jellegét. Ügyeljen arra is, hogy a szóvégi helyzetekben határozottan és tisztán zengjen.
+A magyar anyanyelvűek számára ez a hang nem jelent nehézséget. Pontosan ugyanúgy képezzük, mint a magyar víz vagy virág szavak kezdetén.

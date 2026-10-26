@@ -20,18 +20,18 @@ terms:
   ro: "V"
 ---
 
-## The Sound of French V
+## The letter vé
 
-The French letter **V** represents the voiced labiodental fricative `/v/`. It sounds identical to the English 'v' in 'vine' or 'voice'. Unlike some languages where 'v' and 'b' merge, French keeps this friction clear and fully voiced.
+The letter (vé) /ve/ is pronounced with the sound /v/, as heard in (vélo) /ve.lo/.
 
-## How to Pronounce It
+## How to pronounce it
 
-Rest your upper front teeth lightly on the inner edge of your lower lip. Push air out steadily while vibrating your vocal cords to create continuous friction. Do not press your lips completely together, or it will mistakenly sound like a 'b'.
+Rest your upper teeth gently on your lower lip. Push voiced air continuously through the gap, letting your vocal cords vibrate.
 
-## Spelling Patterns
+## Spelling positions
 
-The letter **V** is very regular in French and almost always corresponds directly to `/v/`. It appears at the beginning of words like **vert**, between vowels as in **avion**, and before final consonants as in **livre**. It is rarely silent, except in rare archaic or loan contexts.
+In all regular positions, this letter produces the sound /v/, as shown in (vent) /vɑ̃/.
 
-## Watch Out for Confusion
+## Comparing with English
 
-Spanish speakers or speakers of languages without a distinct `/v/` often substitute `/b/`, turning **vent** into sounding like **banc**. German speakers must also avoid pronouncing it like an unvoiced `/f/`, which often happens in native German words written with 'v'. Keep the vocal cords vibrating throughout the sound.
+This consonant sounds exactly like the English letter v in the word vase. There is no pitfall here for English speakers.

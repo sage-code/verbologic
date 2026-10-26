@@ -20,18 +20,18 @@ terms:
   ro: "M"
 ---
 
-## Le son de la lettre M
+## Son de la lettre emme
 
-En français, la lettre **M** note le plus souvent la consonne nasale bilabiale voisée `/m/`. Elle est identique au son français standard que l'on retrouve au début du mot `maison`. Placée en fin de syllabe après une voyelle, elle sert généralement à indiquer la nasalisation de celle-ci au lieu d'être prononcée comme une consonne distincte.
+La lettre (emme) /ɛm/ donne principalement le son /m/, comme dans le mot (mer) /mɛʁ/. C'est une consonne bilabiale voisée très fréquente.
 
-## Comment prononcer le M
+## Comment la prononcer
 
-Fermez complètement les lèvres en laissant la mâchoire légèrement détendue. Faites vibrer vos cordes vocales tout en laissant l'air s'échapper exclusivement par le nez. Ouvrez ensuite la bouche pour relâcher le son vers la voyelle suivante sans ajouter d'explosion d'air brutale.
+Rapproche les deux lèvres jusqu'au contact complet. Laisse l'air s'échapper par le nez tout en faisant vibrer tes cordes vocales de façon continue.
 
-## Règles d'écriture et particularités
+## Règles de lecture
 
-Le **M** s'emploie seul ou redoublé comme dans `pomme`, où le doublement n'allonge pas le son mais ouvre souvent la voyelle précédente. Devant les lettres **P** et **B**, la consonne nasale s'écrit obligatoirement avec un **M** au lieu d'un **N**, comme dans `champignon` ou `tomber`. Dans quelques mots historiques rares comme `automne`, le **M** reste totalement muet.
+Devant une voyelle ou une consonne identique, elle produit le son /m/, comme dans (pomme) /pɔm/. Dans de rares termes figés, la consonne ne se prononce pas, par exemple dans (automne) /o.tɔn/.
 
-## Nuances et pièges fréquents
+## Repères utiles
 
-Ne confondez pas le son consonne `/m/` avec les voyelles nasales qu'il aide à former dans des mots tels que `faim` ou `temps`. Une erreur courante chez les apprenants consiste à prononcer une consonne bilabiale à la fin de ces mots, alors que seul le timbre nasal de la voyelle doit être perçu. Veillez à bien clore les lèvres pour `/m/` uniquement lorsqu'une voyelle le suit directement.
+Cette consonne ne présente aucun piège phonétique majeur. Il suffit de veiller aux quelques mots historiques où la lettre reste entièrement muette.

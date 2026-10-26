@@ -20,18 +20,18 @@ terms:
   ro: "K"
 ---
 
-## Der Laut des französischen K
+## Laut des Buchstabens ka
 
-Der Buchstabe **K** steht für den stimmlosen velaren Plosiv `/k/`. Im Gegensatz zum Deutschen wird dieser Laut im Französischen völlig unaspiriert gesprochen—es darf also kein Hauchlaut nach dem Lösen der Zunge hörbar sein. Der Buchstabe stammt fast ausschließlich aus Lehnwörtern, da das Französische historisch **c** oder **qu** bevorzugt.
+Der Buchstabe (ka) /ka/ entspricht dem Laut /k/. Hören Sie ihn im Wort (kilo) /ki.lo/.
 
-## So wird er ausgesprochen
+## Aussprache des Buchstabens ka
 
-Drücken Sie den hinteren Teil Ihres Zungenrückens fest an das Gaumensegel, um den Luftstrom kurzzeitig vollständig zu blockieren. Lösen Sie den Verschluss ruckartig und sauber, ohne nachzuhauchen. Achten Sie darauf, dass die Stimmlippen während des Lautes nicht schwingen.
+Heben Sie den hinteren Teil der Zunge an das Gaumensegel, um die Luft kurz zu stauen. Lösen Sie den Verschluss ohne Atemhauch und ohne Stimmbeteiligung.
 
-## Schreibung und Vorkommen
+## Schreibung des Buchstabens ka
 
-Im französischen Grundwortschatz ist das **K** sehr selten und fast immer ein Zeichen für griechische Wurzeln oder moderne Fremdwörter wie *kiosque*, *kayak* oder *kilo*. Die Aussprache bleibt in allen Wortpositionen ausnahmslos stabil bei `/k/`.
+Dieser Buchstabe steht in allen Positionen für den Laut /k/, wie im Wort (anorak) /a.nɔ.ʁak/.
 
-## Vergleich und typische Fehler
+## Schwierigkeiten beim Buchstaben ka
 
-Deutschsprachige neigen dazu, das **k** stark zu behauchen (`[kʰ]`), wie in *Käse*. Im Französischen muss der Verschlusslaut jedoch 'trocken' und unaufgeblasen klingen, ähnlich wie das **k** in *Skelett*. Verwechseln Sie **k** nicht mit **c**, da **k** vor **e** oder **i** niemals zu `/s/` erweicht wird.
+Im Deutschen wird dieser Konsonant oft behaucht wie im Wort Kuss. Vermeiden Sie diesen Hauch vollständig und sprechen Sie den Verschluss ganz trocken aus.

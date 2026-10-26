@@ -20,18 +20,18 @@ terms:
   ro: "H"
 ---
 
-## Suono della lettera H
+## Suono della lettera acca
 
-Nel francese standard la lettera **H** è sempre completamente muta e non produce alcun suono consonantico. Si comporta esattamente come l'italiano in parole come *hanno*, senza alcuna aspirazione di tipo inglese o tedesco. Il suo ruolo principale è etimologico e grammaticale.
+Il nome francese della lettera si dice (ache) /aʃ/. Questa lettera non produce alcun suono, come nella parola (habiter) /a.bi.te/.
 
 ## Come si pronuncia
 
-Non tentare di emettere alcun soffio dalla gola. Mantieni le corde vocali rilassate e posiziona direttamente bocca e lingua per pronunciare la vocale che segue la **H**. Il passaggio dell'aria deve essere fluido e senza attrito.
+Non devi muovere le labbra né la lingua, perché la lettera non emette aria e non usa la voce.
 
-## Grafia e comportamento
+## Ortografia e varianti
 
-Si presenta come **h** minuscola o **H** maiuscola ed è presente a inizio o a metà parola, oltre a formare digrammi come **ch** (/ʃ/) e **ph** (/f/). A inizio parola si divide in **h muet** (che consente elisione e liaison, come in *l'homme*) e **h aspiré** (che le blocca, come in *le héros*). Entrambe le varianti sono mute all'ascolto, ma cambiano le regole di fonetica sintattica.
+La lettera non si pronuncia mai in francese. Si trova senza suono sia in (homme) /ɔm/, sia in (héros) /e.ʁo/.
 
-## Confronto ed errori comuni
+## Errori comuni da evitare
 
-L'errore più comune non è l'aspirazione (familiare agli italiani che sanno già ignorare la *h*), bensì dimenticare il blocco della liaison con la cosiddetta **h aspiré**. Pronunciare *l'héros* invece di **le héros** o fare il legamento in *les héros* è un tipico sbaglio da evitare con cura.
+In italiano l'acca è sempre muta, quindi non rischi di fare confusione.

@@ -20,18 +20,18 @@ terms:
   ro: "K"
 ---
 
-## El sonido de la letra K
+## Sonido de la letra ka
 
-La letra **K** en francés representa invariablemente el fonema oclusivo velar sordo `/k/`. Se trata de una letra reservada prácticamente a préstamos léxicos, palabras de origen extranjero o términos científicos. Su valor fonético es idéntico al de la **c** española en *casa* o la **k** en *kilo*.
+La letra (ka) /ka/ representa el sonido /k/, como en la palabra (kilo) /ki.lo/.
 
-## Cómo colocar la boca
+## Cómo pronunciar la letra ka
 
-Apoya la parte posterior de la lengua contra el velo del paladar para cerrar brevemente la salida del aire. Después, separa la lengua de forma seca y repentina mediante un golpe de aire sin activar las cuerdas vocales. Evita expulsar aire extra: el sonido no debe ser aspirado como en inglés.
+Para articular este sonido sordo, apoya la parte posterior de la lengua contra el velo del paladar. Suelta el aire de golpe sin hacer vibrar las cuerdas vocales.
 
-## Particularidades ortográficas
+## Ortografía de la letra ka
 
-La **K** es poco frecuente en la lengua francesa y se localiza en prefijos griegos (*kilo-*), préstamos modernos (*skateboard*) o términos exóticos (*kayak*, *anorak*). A diferencia de otras consonantes finales francesas que suelen ser mudas, la **k** final en préstamos sí suele articularse claramente.
+Esta letra se pronuncia con el sonido /k/ en todas sus posiciones, como al final de (anorak) /a.nɔ.ʁak/.
 
-## Comparación y errores habituales
+## Comparación con el español
 
-El fonema `/k/` se escribe habitualmente en francés mediante **c** (*café*) o **qu** (*qui*). El error más común entre hispanohablantes es vacilar sobre su pronunciación al considerarla una grafía extraña; trátala siempre con el mismo valor nítido y tenso que en español, asegurando que no se suavice ni se aspire.
+No presenta dificultad para los hispanohablantes. Es idéntica al sonido de la letra c en casa o de la letra k en kilo.

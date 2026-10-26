@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## Le son de la lettre C
+## Nom et son
 
-La lettre **C** n'a pas de son unique : elle produit le plus souvent `/k/` devant **a, o, u** ou une consonne, et `/s/` devant **e, i, y**. Dans le mot exemple **chat**, combinée avec le **h**, elle forme le digraphe **ch** qui se prononce `/ʃ/`, comme un chuchotement continu. Les cordes vocales ne vibrent jamais pour ces trois réalisations sourdes.
+La lettre se nomme (cé) /se/. Elle produit principalement le son /k/, comme dans le mot (café) /ka.fe/.
 
-## Comment le prononcer
+## Mécanisme articulatoire
 
-Pour le digraphe **ch** de *chat*, avancez légèrement les lèvres en les arrondissant sans trop serrer. Placez la pointe de la langue vers le bas et le dos de la langue vers le palais dur pour laisser passer un souffle continu sans à-coups. Pour la variante `/k/`, l'arrière de la langue bloque brièvement l'air contre le voile du palais, tandis que pour `/s/`, l'air siffle entre les dents serrées.
+Pour le son /k/, pressez l'arrière de la langue contre le voile du palais afin de bloquer l'air, puis relâchez sans voix. Pour le son /s/, rapprochez la pointe de la langue des alvéoles et laissez siffler l'air en continu.
 
-## Règles d'écriture
+## Graphies et contextes
 
-La lettre s'écrit **C** en majuscule et **c** en minuscule. Si l'on souhaite obtenir le son `/s/` devant **a, o, u**, il faut impérativement ajouter une cédille, comme dans **garçon**. En fin de mot, le **c** se prononce parfois (comme dans **sac**) mais reste souvent muet (comme dans **blanc** ou **estomac**).
+Devant une consonne ou les voyelles a, o, u, elle note le son /k/, comme dans (carte) /kaʁt/. Devant e, i, y ou munie d'une cédille, elle donne le son /s/, illustré par (cerise) /sə.ʁiz/ et (garçon) /gaʁ.sɔ̃/. Elle reste muette en finale de (tabac) /ta.ba/.
 
-## Nuances et pièges fréquents
+## Conseils phonétiques
 
-Ne confondez pas le son doux de **ciel** `/s/` avec le son dur de **café** `/k/`, dictated uniquement par la voyelle suivante. Dans les mots d'origine grecque, attention au digraphe **ch** qui se prononce exceptionnellement `/k/`, comme dans **chronomètre** ou **écho**, et non `/ʃ/`. Veillez également à ne pas prononcer un affriqué `[tʃ]` à l'anglaise ou à l'espagnole lorsque vous lisez un mot comme **chocolat**.
+Le piège fréquent consiste à prononcer les consonnes finales muettes par réflexe écrit. Veillez aussi à bien siffler le son /s/ sans avancer la langue entre les dents.

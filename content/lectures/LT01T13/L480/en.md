@@ -20,18 +20,18 @@ terms:
   ro: "W"
 ---
 
-## The Sound of W
+## The letter double vé
 
-The letter **W** is not originally native to French and appears almost exclusively in borrowed words. Depending on the origin of the loanword, it sounds either like the English 'v' in 'voice' (`/v/`) or like the English 'w' in 'water' (`/w/`). German loanwords typically take the `/v/` sound, while modern English loanwords keep `/w/`.
+The letter (double vé) /dublə ve/ usually makes the sound /v/, as in (wagon) /va.ɡɔ̃/.
 
-## How to Say It
+## Pronouncing the letter
 
-For the `/v/` sound, place your upper front teeth lightly against your lower lip and push voiced air through the gap. For the `/w/` sound, round your lips tightly into a small circle, pull your tongue back toward the soft palate, and glide smoothly into the following vowel. Ensure you do not add an extra vowel sound before the glide.
+For the first sound, place your upper teeth on your lower lip and breathe out with voice. For the second, round your lips tightly and glide into the following vowel.
 
-## Spelling and Context
+## Reading the variants
 
-Named **double vé** in French, this letter appears almost entirely at the beginning of borrowed roots or acronyms. Modern borrowings like *weekend* or *wifi* consistently use `/w/`. Older established borrowings like *wagon* are standardly pronounced with `/v/`, although you might occasionally hear younger speakers use `/w/` influenced by English.
+In older borrowings of Germanic origin, it sounds like /v/, as in (warrant) /va.ʁɑ̃/. In modern loanwords, chiefly from English, it is pronounced as the sound /w/, as in (web) /wɛb/.
 
-## Comparing Pronunciations
+## Pitfalls for English speakers
 
-Contrast words like *wagon* (`/va.ɡɔ̃/`) with *weekend* (`/wi.kɛnd/`) to hear the clear difference between the two standard pronunciations. English speakers often make the mistake of pronouncing every French **W** as `/w/`, turning *wagon* into an unnatural-sounding English word. Make sure to learn whether a word has German origins (`/v/`) or modern English origins (`/w/`).
+Do not default to an English w sound every time. Older words strictly require the sound /v/ instead of a glide.

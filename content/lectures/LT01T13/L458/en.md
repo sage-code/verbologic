@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## The Sound of A
+## Sound of letter a
 
-In standard French, the letter **A** usually represents an open front unrounded vowel, written as `/a/`. It is brighter, clearer, and produced further forward in the mouth than the typical English 'a' in 'father', resembling more closely the short 'a' in British English 'cat' but slightly more open. Some speakers still distinguish a deeper, back variant `/ɑ/` in words with a circumflex like **pâte**, though this contrast is fading in modern France.
+The name of this letter is (a) /a/. Its main pronunciation is the open front vowel /a/, heard in the word (ami) /a.mi/.
 
-## How to Produce the Sound
+## How to say it
 
-Open your mouth naturally wide and keep your jaw relaxed. Rest the tip of your tongue gently against the back of your lower front teeth, allowing the body of the tongue to lie flat. Keep your lips relaxed and unrounded as you voice a crisp, steady vowel sound.
+Open your mouth naturally and drop your jaw. Place your tongue flat on the floor of the mouth, with its tip lightly touching the lower front teeth. Keep your lips relaxed and unrounded while vibrating your vocal cords.
 
-## Spelling Patterns
+## Spelling rules for a
 
-The letter **A** appears in all word positions, both alone and in combinations such as **ai** (`/ɛ/`) or nasal **an** (`/ɑ̃/`). On its own, whether plain (**a**), with a grave accent (**à** in words like *là*), or with a circumflex (**â** in words like *bâtir*), it consistently marks an 'a' vowel. Accents distinguish homophones or historical vowel length rather than entirely different vowel families.
+The standard form and the form with a grave accent represent the front vowel /a/, as in (là) /la/. When written with a circumflex, it represents the deeper back vowel /ɑ/, as in (pâte) /pɑt/ and (âne) /ɑn/.
 
-## Nuances and Common Mistakes
+## Comparison with English
 
-English speakers often make the mistake of reducing an unstressed French **a** to a weak schwa sound, turning *banane* into 'buh-nahn'. In French, every **a** must remain pure, crisp, and fully pronounced regardless of stress. Be careful also not to blend it into a diphthong by gliding your tongue at the end of the syllable.
+Do not turn this vowel into the diphthong heard in the English word cat or father. Keep your lips neutral, avoid gliding, and produce a pure, steady sound without moving your jaw or tongue during pronunciation.

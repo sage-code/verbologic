@@ -20,18 +20,18 @@ terms:
   ro: "W"
 ---
 
-## Sonido de la letra W
+## Sonido de double vé
 
-La letra **W** no es originaria del francés y se utiliza únicamente en palabras tomadas de otros idiomas. En los anglicismos modernos suena como la semiconsonante `/w/`, muy similar a la **«u»** átona en el diptongo español *hueso*. Por el contrario, en vocablos de origen germánico o incorporaciones más antiguas se articula como la fricativa labiodental sonora `/v/`, un sonido que no existe en el español estándar peninsular ni americano.
+Esta letra se llama (double vé) /dublə ve/. Produce principalmente el sonido /v/, como en la palabra (wagon) /va.ɡɔ̃/.
 
 ## Cómo colocar la boca
 
-Para articular el sonido `/w/`, redondee los labios y proyéctelos hacia adelante como para decir **«u»**, pasando inmediatamente al siguiente sonido vocálico. Para pronunciar `/v/`, apoye con firmeza los dientes superiores en el borde interior del labio inferior y haga vibrar las cuerdas vocales, asegurándose de no juntar ambos labios como en la *b* española.
+Para el primer sonido, apoya los dientes superiores en el labio inferior y haz vibrar las cuerdas vocales. Para el segundo sonido, redondea mucho los labios como para pronunciar una u breve sin rozamiento.
 
-## Ortografía y uso
+## Reglas de ortografía
 
-Esta letra recibe el nombre de **«double vé»** y ocupa la vigesimotercera posición en el abecedario galo. Aparece casi exclusivamente al inicio de palabras importadas o en nombres propios, y nunca se acentúa ni se duplica en la ortografía francesa.
+En préstamos antiguos de origen germánico, produce el sonido /v/, como en (warrant) /va.ʁɑ̃/. En préstamos modernos procedentes sobre todo del inglés, adquiere el sonido /w/, como se oye en (web) /wɛb/.
 
-## Variantes y errores comunes
+## Diferencias con el español
 
-El reto fundamental consiste en saber si corresponde pronunciarla como `/v/` o como `/w/`. Por ejemplo, **wagon** se pronuncia `/va.ɡɔ̃/` con fricativa labiodental, mientras que **weekend** suena `/wi.kɛnd/`. El fallo típico de los hispanohablantes es sustituir la `/v/` francesa por una oclusiva bilabial `/b/`, o leer palabras como **wagon** con sonido de *hu-* inglés.
+En español esta grafía suele sonar como una u semiconsonante. En francés no olvides pronunciarla con los dientes sobre el labio si el término viene del alemán.

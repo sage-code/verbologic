@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## Der Laut des französischen C
+## Klang des Buchstabens cé
 
-Der Buchstabe **C** wird im Französischen vor **a**, **o** und **u** als hartes `/k/` ausgesprochen, vor **e**, **i** und **y** hingegen als weiches, stimmloses `/s/`. Bildet er mit **h** das Digraph **ch** (wie in *chat*), klingt er wie das deutsche `sch` (`/ʃ/`). Das harte `/k/` wird im Französischen im Gegensatz zum Deutschen stets völlig unbehaucht artikuliert.
+Der Buchstabe (cé) /se/ ergibt den Laut /k/ im Wort (café) /ka.fe/. Er besitzt noch andere Lautwerte oder bleibt stumm.
 
-## Ausspracheanweisung
+## Artikulation der Laute
 
-Für das harte `/k/` heben Sie den hinteren Zungenrücken an das Gaumensegel und lösen den Verschluss präzise ohne begleitenden Hauchlaut. Für das weiche `/s/` platzieren Sie die Zungenspitze hinter den unteren Schneidezähnen und lassen die Luft zischend entweichen. Bei **ch** (`/ʃ/`) spitzen Sie die Lippen leicht nach vorn und lenken den Luftstrom über den gewölbten Gaumen.
+Drücken Sie für den ersten Laut den hinteren Zungenrücken an den weichen Gaumen und lösen Sie ihn stimmlos. Beim zweiten Laut strömt die Luft zischend durch eine enge Lücke an den oberen Schneidezähnen.
 
-## Schreibweise und Vorkommen
+## Aussprache nach Schriftbild
 
-Soll ein **C** vor den Vokalen **a**, **o** oder **u** wie `/s/` klingen, erhält es eine Cedille: **ç** (wie in *garçon*). Am Wortende ist das **c** oft hörbar als `/k/` (*parc*, *sec*), bleibt jedoch in etlichen Wörtern stumm (*blanc*, *tabac*). Die Buchstabenfolge **ch** entspricht fast ausnahmslos dem Laut `/ʃ/`, außer bei manchen Wörtern griechischen Ursprungs (*technique*, *écho*), wo sie als `/k/` erklingt.
+Vor a, o, u oder Konsonanten lautet er /k/, etwa in (carte) /kaʁt/. Vor e, i, y klingt er wie /s/, wie in (cerise) /sə.ʁiz/. Mit einer Cedille vor a, o, u entsteht /s/ in (garçon) /gaʁ.sɔ̃/. Am Wortende bleibt er oft stumm, beispielsweise in (tabac) /ta.ba/.
 
-## Kontrast und häufige Fehler
+## Typische Fehlerquellen
 
-Achten Sie darauf, das harte `/k/` nicht wie im Deutschen behaucht auszusprechen; ein Atemstoß bei Wörtern wie *café* wirkt fremd. Vermeiden Sie es auch unbedingt, das Digraph **ch** wie das deutsche 'ch' in *Buch* (`/x/`) oder *ich* (`/ç/`) zu lesen – im Französischen lautet es wie `sch`. Merken Sie sich die Faustregel: Vor hellen Vokalen wird **C** immer zum reinen `/s/`.
+Hauchen Sie den Verschlusslaut nicht an, anders als beim deutschen Wort Koffer. Sprechen Sie ihn trocken und ohne zusätzlichen Atemstoß aus.

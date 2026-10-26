@@ -20,18 +20,18 @@ terms:
   ro: "Z"
 ---
 
-## Der Klang des französischen Z
+## Laut des Buchstabens zède
 
-Der Buchstabe **Z** entspricht im Französischen dem stimmhaften Laut `/z/`, wie das weiche 's' im deutschen Wort 'Sonne' oder 'Rose'. Er wird niemals wie das deutsche 'z' (`/ts/`) gesprochen. Am Wortende ist der Buchstabe zudem in den allermeisten Fällen stumm.
+Der Buchstabe (zède) /zɛd/ steht für den Laut /z/, wie im Wort (zèbre) /zɛbʁ/. Er klingt stets weich und summend.
 
-## Mundstellung und Aussprache
+## Aussprache der Laute
 
-Schließen Sie die Zähne leicht und bringen Sie die Zungenspitze nahe an den oberen Zahndamm, ohne ihn ganz zu berühren. Drücken Sie die Luft durch diese Enge und schalten Sie gleichzeitig die Stimme ein, sodass ein weiches Summen entsteht. Achten Sie streng darauf, keinen Plosivlaut (`/t/`) voranzustellen.
+Legen Sie die Zungenspitze ganz nah an den oberen Zahndamm. Blasen Sie die Luft durch diese enge Spalte und lassen Sie dabei Ihre Stimmbänder spürbar vibrieren.
 
-## Schreibweise und Vorkommen
+## Schreibweise und Regeln
 
-Im Wortinneren oder am Anfang steht **Z** meist in Lehnwörtern wie **zèbre** oder **horizon** und wird verlässlich `/z/` gesprochen. Sehr häufig begegnet er Ihnen als stumme Endung bei Verben der zweiten Person Plural wie **vous chantez** sowie in Wörtern wie **chez** oder **nez**. Vor einem vokalisch anlautenden Folgewort wird er in der Liaison wieder als `/z/` hörbar.
+Am Wortanfang und zwischen Vokalen spricht man den Laut /z/, wie in (zone) /zon/. Am Ende vieler Wörter bleibt der Buchstabe dagegen stumm, wie in (nez) /ne/.
 
-## Aussprachevarianten und Fehlerquellen
+## Typische Aussprachefehler
 
-Der gravierendste Fehler deutschsprachiger Lernender ist die Aussprache als Affrikate `/ts/` wie in 'Zebra'. Im Französischen lautet **zèbre** immer weich `/zɛbʁ/`. Vermeiden Sie es außerdem unbedingt, die Endung **-ez** mitzusprechen; sie dient rein der Kennzeichnung des geschlossenen Vokals `/e/`.
+Sprechen Sie diesen Buchstaben niemals hart wie das deutsche Wort Zeit aus. Verwenden Sie stattdessen immer das weich summende s wie in Sonne.

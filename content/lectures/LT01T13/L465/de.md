@@ -20,18 +20,18 @@ terms:
   ro: "H"
 ---
 
-## Lautwert des Buchstabens
+## Laut von ache
 
-Im modernen Französisch ist der Buchstabe **H** ausnahmslos stumm und besitzt keinen eigenen Lautwert. Anders als das deutsche gehauchte [h] in *Haus* wird das französische **H** niemals aspiriert oder angeblasen. Die Aussprache setzt stattdessen nahtlos mit dem nachfolgenden Vokal ein.
+Der Buchstabe (ache) /aʃ/ ist im Französischen stumm. Man hört nur den folgenden Vokal, wie im Wort (habiter) /a.bi.te/.
 
-## Ausspracheanweisung
+## Aussprache von ache
 
-Atmen Sie beim Lesen des Buchstabens nicht hörbar aus und erzeugen Sie keine Reibung im Rachen. Bringen Sie Zunge und Lippen sofort in die Position für den Vokal, der auf das **H** folgt. Stellen Sie sich den Buchstaben rein als orthografisches Zeichen vor, das im Lautbild nicht existiert.
+Stoßen Sie keinen Atemhauch aus und spannen Sie die Kehle nicht an. Die Stimmbänder erzeugen für dieses Zeichen keinerlei Geräusch.
 
-## Schreibung und Besonderheiten
+## Schreibweise von ache
 
-Grammatisch wird zwischen dem stummen **H muet** und dem behauchten **H aspiré** unterschieden, obwohl beide phonetisch stumm sind. Das *H muet* erlaubt Elision und Bindung (*l'homme*, *les_hommes* [le.z‿ɔm]), während das *H aspiré* beides blockiert (*le héros*, *les héros* [le e.ʁo]). Zusammen mit **C** bildet der Buchstabe zudem die Lautverbindung **CH** (`[ʃ]`).
+In allen Wörtern bleibt dieses Zeichen vollkommen stumm. Es erzeugt keinen Laut im Wort (homme) /ɔm/ und keinesfalls im Wort (héros) /e.ʁo/.
 
-## Häufige Fehler
+## Schwierigkeiten bei ache
 
-Der größte Fehler deutscher Muttersprachler ist das Hinzufügen eines deutschen Hauchschnitts [h] bei Wörtern wie *hôtel* oder *hôpital*. Ebenso wichtig ist es, die Bindung (*liaison*) vor einem *H aspiré* strikt zu vermeiden: Ein fälschlicher [z]-Laut in *les héros* führt zu einer Verwechslung mit *les zéros* (die Nullen).
+Deutschsprachige hauchen oft wie im Wort Haus. Vermeiden Sie dieses Geräusch im Französischen vollständig.

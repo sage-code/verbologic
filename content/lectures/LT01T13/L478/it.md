@@ -20,18 +20,18 @@ terms:
   ro: "U"
 ---
 
-## Il suono della lettera U
+## Suono della u
 
-La lettera francese **U** rappresenta la vocale anteriore arrotondata `[y]`, un suono assente nell'italiano standard ma identico alla **u** dei dialetti lombardo, piemontese e ligure. Non corrisponde alla normale **u** italiana `[u]`. Si tratta fondamentalmente di una via di mezzo acustica tra la nostra «i» e la nostra «u».
+Il nome della lettera è (u) /y/ e il suo valore principale è il suono /y/, presente nel vocabolo (usine) /y.zin/.
 
 ## Come posizionare la bocca
 
-Provate a pronunciare una **«i»** prolungata, prestando attenzione a tenere la punta della lingua ben salda contro i denti incisivi inferiori. Senza spostare minimamente la lingua, arrotondate e spingete le labbra in avanti come per dare un bacio o dire **«u»**. La vibrazione che ne risulta è proprio il suono `[y]`.
+Per la vocale, spingi le labbra molto in avanti e tieni la lingua in alto contro il palato. Per la semivocale, forma lo stesso passaggio stretto scivolando via rapidamente verso la vocale successiva.
 
-## Grafia e combinazioni
+## Regole di scrittura
 
-Si presenta come **U** maiuscola e **u** minuscola, talvolta sormontata dall'accento circonflesso (**û**, come in *dû*) o dalla dieresi (**ü**, come in *Saül*). Quando precede un'altra vocale, si trasforma nel suono semivocalico `[ɥ]`, come in *huit*. Attenzione a non confonderla con il digramma *ou*, che si legge invece come la classica **u** italiana.
+Di norma, anche con accento, corrisponde al suono vocalico /y/, come nella parola (sûr) /syʁ/. Quando precede un'altra vocale pronunciata, diventa una semivocale con il suono /ɥ/, come in (huit) /ɥit/.
 
-## Varianti ed errori comuni
+## Confronto con l'italiano
 
-La lettera oscilla tra la vocale piena `[y]` (*lune*, *une*) e la semivocale rapida `[ɥ]` (*nuit*, *lui*). L'errore più comune per un madrelingua italiano è pronunciare una semplice `[u]` posteriore: questo genera fraintendimenti critici, confondendo parole diverse come *tu* (tu) e *tout* (tutto), oppure *bu* (bevuto) e *boue* (fango).
+Non sostituire questo suono con la normale u italiana. Arrotonda bene le labbra pronunciando invece una i per trovare l'impostazione corretta.

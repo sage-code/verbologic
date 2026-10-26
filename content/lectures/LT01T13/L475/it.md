@@ -20,18 +20,18 @@ terms:
   ro: "R"
 ---
 
-## Il suono della lettera R
+## Suono della lettera erre
 
-La lettera **R** rappresenta la celebre «r moscia» o uvulare francese, trascritta foneticamente come `[ʁ]`. A differenza della **r** italiana, che è una vibrante alveolare prodotta dalla punta della lingua contro gli incisivi, il suono francese è una fricativa generata nella parte posteriore della gola tramite l'ugola.
+La lettera (erre) /ɛʁ/ corrisponde principalmente al suono /ʁ/, come nella parola (rue) /ʁy/.
 
-## Come produrre il suono
+## Come si pronuncia
 
-Appoggia la punta della lingua dietro gli incisivi inferiori e tienila completamente ferma. Solleva il dorso della lingua verso il palato molle e l'ugola, espirando per creare una leggera frizione simile a quella usata per fare i gargarismi. È essenziale non far vibrare la punta della lingua, concentrando tutta l'articolazione in fondo alla bocca.
+Per produrre il suono /ʁ/, solleva il dorso della lingua verso l'ugola in fondo alla gola. Lascia passare l'aria creando una vibrazione o uno sfregamento continuo, senza usare la punta della lingua.
 
-## Ortografia e particolarità
+## Ortografia e pronuncia
 
-Si presenta come grafema singolo (**r**) o doppio (**rr**), ma la doppia **rr** si pronuncia sempre come una fricativa semplice, come in *arriver*. In finale di parola si pronuncia spesso (*cher*, *soir*), ma è sistematicamente muta nella desinenza dell'infinito dei verbi regolari in **-er** (*parler*) e nei suffissi in **-ier** (*dernier*).
+La lettera (erre) /ɛʁ/ produce di solito il suono /ʁ/, come in (rare) /ʁaʁ/. Diventa muta alla fine di molte parole, per esempio all'infinito dei verbi in (parler) /paʁ.le/.
 
-## Varianti ed errori comuni
+## Errori comuni
 
-Quando si trova dopo consonanti sorde (*train*, *sucre*), la fricativa si desonorizza diventando sorda `[χ]`. L'errore più comune per un madrelingua italiano è arrotare la **r** apicale classica: per evitarlo, fai attenzione a non staccare mai la punta della lingua dai denti inferiori durante l'emissione del suono.
+Non usare la vibrante alveolare italiana fatta con la punta della lingua come in Roma. La consonante francese si produce sempre in fondo alla gola con l'ugola.

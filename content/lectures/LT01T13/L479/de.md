@@ -20,18 +20,18 @@ terms:
   ro: "V"
 ---
 
-## Der Klang des französischen V
+## Der Buchstabe vé
 
-Der französische Buchstabe **V** steht für den stimmhaften labiodentalen Frikativ `/v/`. Er klingt genau wie das deutsche „w“ in „Wasser“ oder „Welt“. Im Französischen wird das **V** niemals wie ein deutsches stimmloses „f“ (wie in „Vogel“) ausgesprochen.
+Der Buchstabe (vé) /ve/ klingt wie der Laut /v/, wie im Wort (vélo) /ve.lo/.
 
-## Artikulation
+## Aussprache und Mundstellung
 
-Legen Sie die oberen Schneidezähne leicht an die Innenseite der Unterlippe an. Lassen Sie die Atemluft durch die Enge strömen und aktivieren Sie gleichzeitig die Stimmbänder. Achten Sie darauf, dass der Ton weich und deutlich stimmhaft vibriert.
+Legen Sie Ihre oberen Schneidezähne leicht auf die Unterlippe. Lassen Sie die Stimmbänder schwingen und blasen Sie tönende Luft hindurch.
 
-## Schreibweise und Vorkommen
+## Regeln zur Schreibung
 
-Das **V** verhält sich im Französischen äußerst verlässlich und wird praktisch immer als `/v/` gelesen. Es tritt am Wortanfang wie in **vert**, zwischen Vokalen wie in **avion** oder in Konsonantengruppen wie in **livre** auf. Stumme Ausnahmen gibt es im Standardfranzösischen kaum.
+In allen regulären Positionen ergibt dieser Buchstabe den Laut /v/, wie etwa im Wort (vent) /vɑ̃/.
 
-## Wichtige Unterschiede
+## Vergleich mit dem Deutschen
 
-Die größte Fehlerquelle für Deutschsprachige besteht darin, das französische **V** fälschlicherweise als stimmloses `/f/` auszusprechen. Wörter wie **vert**, **venir** oder **ville** müssen immer mit dem weichen, summenden Laut des deutschen „w“ gebildet werden. Eine Verwechslung mit `/b/` sollte ebenfalls vermieden werden.
+Vermeiden Sie es, den Buchstaben stimmlos wie das deutsche v in Vogel auszusprechen. Er klingt immer stimmhaft wie in Vase.

@@ -20,18 +20,18 @@ terms:
   ro: "F"
 ---
 
-## Il suono della lettera F
+## Suono della effe
 
-La lettera **F** in francese corrisponde sempre alla consonante fricativa labiodentale sorda `/f/`. È identica alla **f** italiana di «festa» o «forte». Questo suono è stabile e non subisce modifiche particolari in base alle vocali vicine.
+Il nome della lettera è (effe) /ɛf/. Il suo suono principale è /f/, come nella parola (film) /film/.
 
 ## Come posizionare la bocca
 
-Appoggia delicatamente i denti incisivi superiori contro il labbro inferiore. Soffia l'aria attraverso la fessura per produrre un fruscio netto e continuo senza far vibrare le corde vocali. Mantieni l'articolazione pulita ed energica.
+Appoggia gli incisivi superiori sul labbro inferiore. Soffia l'aria attraverso la fessura senza attivare le corde vocali. Se invece fai vibrare le corde vocali nella stessa posizione, ottieni una frizione sonora.
 
-## Grafia e regole di lettura
+## Regole di pronuncia
 
-Oltre alla singola **f** (*femme*), si trova spesso la doppia **ff** (*effet*), che in francese moderno si legge come una semplice consonante scempia. A fine parola la **f** è quasi sempre pronunciata (*actif*, *soif*), tranne in pochissimi vocaboli come *clef* o al plurale in *œufs* e *bœufs*.
+Nella maggioranza dei casi produce il suono /f/, come in (café) /ka.fe/. Durante il legamento davanti a vocale diventa il suono /v/, come in (neuf ans) /nœ.vɑ̃/. Resta muta in casi particolari, come in (clef) /kle/ oppure in (nerfs) /nɛʁ/.
 
-## Errori comuni e sfumature
+## Confronto con l'italiano
 
-L'errore più comune per gli italofoni è allungare la consonante in presenza della doppia **ff**: in francese non esistono le doppie fonetiche, quindi parole come *affaire* richiedono un suono `/f/` brevissimo. Inoltre, fai attenzione al numero *neuf*, la cui **f** finale si trasforma in `/v/` nella liaison davanti a vocale, come in *neuf ans* (`/nœ.vɑ̃/`).
+In italiano questo suono è identico a quello di filo, quindi non presenta alcun tranello di articolazione per te.

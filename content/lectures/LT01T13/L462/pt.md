@@ -20,18 +20,18 @@ terms:
   ro: "E"
 ---
 
-## O som da letra « e »
+## O som da letra e
 
-A letra **e** é a mais flexível da língua francesa. Representa com frequência o som neutro `[ə]`, mas varia amplamente para o som fechado `[e]` (como em **école**) ou aberto `[ɛ]`, conforme a acentuação e a sílaba. Para quem fala português, o som `[e]` assemelha-se ao nosso « ê » fechado.
+A letra (e) /ə/ chama-se (e) /ə/. O seu som principal surge na palavra (menu) /mə.ny/.
 
-## Como pronunciar
+## Como pronunciar os sons
 
-Para o som básico `[ə]`, mantenha a língua relaxada no centro da cavidade bucal e projete levemente os lábios arredondados para a frente. Já para o `[e]` de **école**, abra um sorriso nítido esticando os cantos dos lábios, mantendo a ponta da língua apoiada atrás dos dentes inferiores. Evite nasalizar a vogal.
+Para o som central, arredonda ligeiramente os lábios com a língua relaxada no meio da boca. Para o som fechado, estica os lábios num sorriso. Para a variante aberta, baixa um pouco a mandíbula mantendo a boca entreaberta.
 
-## Regras de escrita e comportamento
+## Regras de grafia
 
-Os acentos definem o timbre com clareza: **é** soa sempre como `[e]`, enquanto **è** e **ê** representam o som aberto `[ɛ]`. Terminações como *-er* e *-ez* também produzem o som `[e]`. No final das palavras, o **e** não acentuado é quase sempre mudo e não deve ser articulado.
+Sem acento em sílaba aberta, produz o som da palavra (le) /lə/. Pronuncia-se fechada com acento agudo ou antes de consoante final muda, como em (été) /e.te/. Soa aberta com acento grave ou circunflexo, como em (père) /pɛʁ/. No final de palavras não se pronuncia, como em (table) /tabl/.
 
-## Variações e armadilhas comuns
+## Diferenças com o português
 
-O erro mais clássico entre lusófonos é pronunciar o **e** mudo final como se fosse um `[i]` átono brasileiro. Além disso, pratique a distinção crucial entre o artigo singular **le** `[lə]` e o plural **les** `[le]`. Deixar de arredondar os lábios no som `[ə]` faz com que ele soe artificialmente aberto.
+Os falantes de português tendem a pronunciar o som mudo final como o i de quase. Evita também trocar o som central pelo som fechado de dedo, mantendo sempre os lábios ligeiramente arredondados.

@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## Sonido de la letra C
+## Nombre y sonido
 
-La letra **C** en francés representa principalmente los sonidos `/k/` o `/s/`, y combinada como **ch** forma el fonema fricativo `/ʃ/` (como en *chat*). Este sonido `/ʃ/` no existe de forma estándar en español y se asemeja al sonido con el que se manda a callar («shh»). Delante de las vocales *e*, *i*, *y*, la **C** nunca suena como la 'z' peninsular, sino siempre como una 's' sibilante suave `/s/`.
+Esta letra se llama (cé) /se/. Su realización principal produce el sonido /k/, como en el término (café) /ka.fe/.
 
-## Técnica de pronunciación
+## Cómo colocar la boca
 
-Para articular el dígrafo **ch** (`/ʃ/`), adelante levemente los labios en forma redondeada y eleve el dorso de la lengua hacia el paladar sin tocarlo, expulsando el aire de manera continua. Para conseguir `/k/`, apoye la parte posterior de la lengua en el paladar blando y suelte el aire con un chasquido sordo. Para la sibilante `/s/`, dirija la punta de la lengua hacia los alvéolos inferiores.
+Para articular el sonido sordo /k/, corta el aire con el dorso de la lengua contra el paladar blando y suéltalo. Para el sonido /s/, aproxima el ápice lingual a los alvéolos superiores y expulsa aire continuo sin vibración vocal.
 
-## Uso ortográfico y reglas
+## Reglas de pronunciación
 
-La grafía **C** se pronuncia `/k/` ante las vocales *a*, *o*, *u* y ante consonantes (*camion*, *clé*). Se pronuncia `/s/` ante *e*, *i*, *y*, y cuando lleva cedilla (**ç**) ante cualquier vocal dura (*leçon*). La combinación **ch** representa habitualmente `/ʃ/`, salvo en palabras científicas o de origen griego donde suena como `/k/` (*écho*, *chaos*).
+Ante consonantes o ante las vocales a, o, u genera el sonido /k/, como en (carte) /kaʁt/. Delante de e, i, y o con cedilla rinde el sonido /s/, como en (cerise) /sə.ʁiz/ o (garçon) /gaʁ.sɔ̃/. Al final de ciertos vocablos no se pronuncia, como en (tabac) /ta.ba/.
 
-## Diferencias y errores frecuentes
+## Diferencias con el español
 
-Los hispanohablantes suelen cometer el error de articular **ch** como la 'ch' española (`/tʃ/` con golpe seco); en francés es un sonido continuo fricativo `/ʃ/`, por lo que *chat* es `/ʃa/` y no /tʃa/. Asimismo, no pronuncie **ce/ci** como la interdental 'z' de España, sino como una 's' pura `/s/`, y recuerde la excepción acústica de *second* que se lee con `/ɡ/`.
+Evita usar la consonante interdental de cielo ante e o i. Pronuncia siempre una sibilante predorsal suave, idéntica al sonido de sol. Presta atención también a no articular la consonante al final cuando sea muda.

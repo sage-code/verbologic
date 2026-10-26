@@ -20,18 +20,18 @@ terms:
   ro: "J"
 ---
 
-## Il suono della lettera J
+## Suono della lettera ji
 
-La lettera **J** in francese rappresenta sempre la fricativa postalveolare sonora `/ʒ/`. Questo suono non esiste nel sistema standard dell'italiano, ma equivale esattamente alla pronuncia toscana della «c» o della «g» dolce intervocalica (come in *ragione* o *pace*), oppure alla «j» del francese **jour**. Non deve mai essere pronunciata come l'affricata italiana di *giorno*.
+La lettera (ji) /ʒi/ produce il suono /ʒ/. Lo ascolti all'inizio della parola (jupe) /ʒyp/.
 
-## Come posizionare la bocca
+## Come si pronuncia
 
-Arrotonda leggermente le labbra e spingile un po' in avanti, come per dare un bacio. Posiziona la punta della lingua vicino alla parte anteriore del palato, appena dietro la cresta alveolare, senza toccarla del tutto. Fai vibrare le corde vocali mentre rilasci un flusso d'aria continuo attraverso questo stretto passaggio.
+Arrotonda le labbra e sporgile in avanti. Alza la parte anteriore della lingua verso il palato. Fai uscire l'aria con una frizione continua facendo vibrare le corde vocali.
 
-## Uso e grafia
+## Ortografia e varianti
 
-La lettera **J** compare solo prima delle vocali e mantiene invariabilmente il suono `/ʒ/`, indipendentemente dal contesto ortografico. La maiuscola si scrive **J**, mentre la minuscola **j** si estende sotto la linea di base e mantiene il puntino superiore. Non è mai muta all'interno delle parole francesi native.
+La lettera (ji) /ʒi/ rappresenta sempre il suono /ʒ/ in quasi tutte le parole native o naturalizzate, come in (joli) /ʒɔ.li/.
 
-## Errori comuni da evitare
+## Confronto con l'italiano
 
-L'errore più comune per un italofono è pronunciare la **J** come l'affricata forte `/dʒ/` di *gioco*. È essenziale mantenere il suono puramente continuo e privo del blocco iniziale con la lingua, come in **joli** `/ʒɔ.li/` e **jamais** `/ʒa.mɛ/`. Ricorda: deve scorrere fluidamente, senza il colpo secco della «d».
+Non pronunciare questo suono come la lettera gi nell'italiano giorno. La consonante francese è continua e morbida, senza il blocco iniziale tipico della pronuncia italiana.

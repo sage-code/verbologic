@@ -20,18 +20,18 @@ terms:
   ro: "T"
 ---
 
-## Il suono della lettera T
+## Suono della lettera té
 
-La lettera **T** rappresenta generalmente la consonante occlusiva dentale sorda `/t/`, del tutto simile alla «t» italiana. A differenza dell'italiano, però, nelle combinazioni con suffissi colti come *-tion*, *-tiel* o *-tie*, la lettera assume il suono della sibilante `/s/`. Inoltre, in fine di parola la **T** è per lo più muta.
+Il nome di questa lettera si pronuncia (té) /te/. Rappresenta principalmente il suono /t/, come nella parola (table) /tabl/.
 
 ## Come posizionare la bocca
 
-Appoggia la punta della lingua contro la faccia interna degli incisivi superiori per bloccare momentaneamente il flusso d'aria. Rilascia la lingua con uno scatto netto e pulito, evitando assolutamente l'aspirazione tipica delle lingue germaniche. Le corde vocali non devono vibrare durante l'emissione del suono.
+Per il suono /t/, appoggia la punta della lingua dietro i denti superiori ed espelli l'aria senza vibrazione vocale. Per il suono /s/, avvicina la lingua agli alveoli e lascia sibilare l'aria senza usare le corde vocali.
 
-## Ortografia e particolarità
+## Grafia e combinazioni
 
-La lettera **T** si trova all'inizio, all'interno o alla fine delle parole, sia semplice che doppia (*attendre*). A fine parola è quasi sempre muta (*petit*, *lit*), ma torna a sentirsi chiaramente come `/t/` nei contesti di legamento fonetico (*liaison*), come in *c'est un*. Fanno eccezione parole come *huit* e *brut*, dove la consonante finale si pronuncia.
+All'inizio o davanti a quasi tutte le vocali e consonanti, produce il suono /t/, come in (tapis) /ta.pi/. Davanti alla vocale i seguita da un'altra vocale nelle parole latine, dà il suono /s/, come in (patient) /pa.sjɑ̃/. In finale di parola spesso non si pronuncia, come in (salut) /sa.ly/.
 
-## Casi d'uso ed errori comuni
+## Confronto con l'italiano
 
-Confronta il suono `/t/` in *table* (`/tabl/`), la sibilante `/s/` in *nation* (`/na.sjɔ̃/`) e la caduta della consonante in *temps* (`/tɑ̃/`). L'errore più frequente per gli italofoni è leggere la grafia *-tion* con una «t» invece che con il suono `/s/` proprio del francese. Fai attenzione anche a non pronunciare le **T** finali mute nei participi e negli aggettivi.
+Il suono /t/ è identico a quello italiano di tana. Il tranello frequente riguarda la finale muta: gli italiani tendono a far sentire la consonante invece di lasciarla completamente silenziosa.

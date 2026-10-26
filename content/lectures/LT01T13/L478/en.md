@@ -20,18 +20,18 @@ terms:
   ro: "U"
 ---
 
-## The French 'u' sound
+## The letter u
 
-The standard letter **u** in French represents the close front rounded vowel `/y/`, a sound that does not exist in standard English. English speakers frequently confuse it with `/u/` (like the 'oo' in 'food'), but `/y/` is articulated much further forward in the mouth. It also transforms into the semivowel `/ɥ/` when directly followed by another sounded vowel.
+The letter (u) /y/ is called /y/. It regularly makes the vowel sound /y/, as heard in (usine) /y.zin/.
 
-## How to pronounce it
+## Pronouncing the letter u
 
-To produce `/y/`, shape your tongue as if you are saying the 'ee' in 'see' `/i/`. While holding your tongue firmly in that front position, tightly round your lips into a small circle as if whistling. Take care not to pull your tongue backward, which would mistakenly turn the sound into English 'oo'.
+For the vowel sound /y/, place the tongue high and forward as for ee, then round your lips tightly. For the glide sound /ɥ/, make the same mouth shape but quickly glide into the following vowel.
 
-## Spelling patterns
+## Spelling rules for u
 
-The letter **u** consistently produces `/y/` on its own, whether written in lowercase or uppercase, and can carry accents like the circumflex (**û**) in *mûr* or the diaeresis (**ü**) in *Saül*. Beware of vowel combinations: **ou** produces `/u/`, while **au** and **eau** represent `/o/`. In combinations like **qu** (*qui*) or **gu** (*guide*), the **u** is usually silent.
+As a general rule, including with accents, this letter produces the sound /y/, as in (sûr) /syʁ/. Before another sounded vowel, it becomes the semi-vowel sound /ɥ/, as in (huit) /ɥit/.
 
-## Comparing variants and common mistakes
+## English comparison
 
-Compare the pure vowel in *lune* `/lyn/` with the gliding semivowel in *huit* `/ɥit/`. The most notorious pitfall for learners is confusing **/y/** with **/u/**, leading to comical mix-ups between *tu* (you) and *tout* (all), or *dessus* (on top) and *dessous* (underneath). Always keep your lips puckered forward and your tongue tip pressed behind your lower front teeth to avoid slipping into an English 'oo'.
+English speakers often substitute the sound in goose or cute. Do not say oo or yoo. Keep the tongue arch forward while rounding your lips tightly.

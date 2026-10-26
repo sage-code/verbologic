@@ -20,18 +20,18 @@ terms:
   ro: "W"
 ---
 
-## Le son de la lettre W
+## Prononciation de double vé
 
-La lettre **W** n'est pas d'origine française et se prononce de deux manières selon l'étymologie du mot. Dans les emprunts anciens ou d'origine germanique, elle se prononce généralement `/v/`, comme la consonne 'V'. Dans les termes plus récents venus de l'anglais, elle prend la valeur d'une semi-voyelle `/w/`, semblable au début du mot *oui*.
+Cette consonne se nomme (double vé) /dublə ve/. Elle émet principalement le son /v/, comme dans le mot (wagon) /va.ɡɔ̃/.
 
-## Comment la prononcer
+## Position de la bouche
 
-Pour produire le son `/v/`, appuyez légèrement les incisives supérieures sur la lèvre inférieure et faites vibrer les cordes vocales. Pour le son `/w/`, arrondissez fortement les lèvres vers l'avant comme pour dire « ou », puis relâchez-les rapidement vers la voyelle suivante. Veillez à bien distinguer ces deux mécanismes articulatoires selon le mot rencontré.
+Pour le premier son, posez les incisives du haut sur la lèvre inférieure en faisant vibrer la gorge. Pour le second, arrondissez fermement les lèvres en arrière-bouche comme pour une voyelle très courte.
 
-## Graphie et particularités
+## Règles de lecture
 
-Le **W** apparaît exclusivement dans des termes empruntés à d'autres langues ou des noms propres. Bien qu'il s'appelle officiellement **double vé**, la plupart des mots courants contemporains adoptent la prononciation anglaise `/w/`. On le trouve aussi dans des sigles du quotidien comme *W.-C.* ou *Wi-Fi*.
+Dans les emprunts anciens d'origine germanique, elle se prononce avec le son /v/, par exemple dans (warrant) /va.ʁɑ̃/. Dans les mots modernes venus surtout de l'anglais, elle prend le son /w/, comme dans (web) /wɛb/.
 
-## Nuances et pièges fréquents
+## Erreurs fréquentes
 
-L'erreur la plus fréquente consiste à toujours prononcer le **W** à l'anglaise `/w/`. Il faut retenir des exceptions bien ancrées comme *wagon* (`/va.ɡɔ̃/`) ou *Willy* (souvent prononcé avec `/v/`). Écoutez toujours l'usage établi pour chaque emprunt afin d'éviter les anachronismes phonétiques.
+Cette lettre rare s'adapte selon l'origine du terme. Le risque principal est de prononcer un son anglais au lieu d'une consonne frottée dans les mots germaniques anciens.

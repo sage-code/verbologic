@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## Der Laut des Y
+## Lautwert von I grec
 
-Der französische Buchstabe **Y** wird entweder als palataler Halbvokal `/j/` oder als reiner Vokal `/i/` ausgesprochen. Vor einem Vokal entspricht er exakt dem deutschen 'j' in *Jacke*. Steht er zwischen Konsonanten, fungiert er als vokalreines 'i' wie in *Maschine*, niemals jedoch als deutsches ü-haltiges `/y/`.
+Dieser Buchstabe heißt (i grec) /i ɡʁɛk/. Sein häufigster Anlaut ist der Laut /j/, wie im Wort (yeux) /jø/.
 
-## Artikulation
+## Artikulation der Laute
 
-Für den Gleitlaut `/j/` wölben Sie den mittleren Zungenrücken dicht an den harten Gaumen und gleiten unmittelbar und reibungslos in den nächsten Vokal über. Für das vokalische `/i/` ziehen Sie die Mundwinkel leicht straff nach hinten wie bei einem Lächeln und heben die Zunge weit nach oben. Achten Sie darauf, die Lippen nicht zu runden, um ein deutsches 'ü' zu vermeiden.
+Für den Halbvokal heben Sie den Zungenrücken nah an den harten Gaumen und lassen die Stimmbänder schwingen. Für den Vokal bleibt die Zunge weit vorn und sehr hoch, während die ungerundeten Lippen gespannt nach außen weichen.
 
-## Schreibweise und Vorkommen
+## Regeln der Rechtschreibung
 
-Der Buchstabe heißt *i grec* und begegnet vor allem in Wörtern griechischen Ursprungs wie *rythme* oder *syntaxe*. Steht er im Wortinneren zwischen zwei Vokalen wie in *payer*, wirkt er historisch oft wie ein doppelter Buchstabe **i** (`ai` zu /ɛ/ plus /j/). Im Anlaut vor Vokalen leitet er als Halbvokal die Silbe ein, wie in *yeux* oder *yaourt*.
+Vor einem Vokal wird das Zeichen als Laut /j/ gesprochen, wie in (yoga) /jo.ɡa/. Zwischen Konsonanten steht der Laut /i/, wie in (cycle) /sikl/. Am Wortende erklingt ebenfalls der Laut /i/, wie in (jury) /ʒy.ʁi/.
 
-## Varianten und typische Fehler
+## Vergleich mit dem Deutschen
 
-Unterscheiden Sie den raschen Halbvokal in *yeux* (`/jø/`) vom reinen Vokal in *type* (`/tip/`). Die größte Fehlerquelle für Deutschsprachige besteht darin, **y** wie im Deutschen als `/y/` (*Physik*) auszusprechen; im Französischen ist es immer ein ungerundetes `/i/`. Achten Sie außerdem darauf, vor Vokalen keinen harten Reibelaut zu erzeugen.
+Dieses Zeichen ist unkompliziert. Es klingt wie das deutsche Jotta in Worten wie Jacke oder wie das geschlossene deutsche I in Lied. Sprechen Sie es niemals wie das deutsche gerundete Ü aus.

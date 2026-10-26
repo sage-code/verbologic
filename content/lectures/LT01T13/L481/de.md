@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## Der Laut des Buchstabens X
+## Laut des Buchstabens ixe
 
-Der Buchstabe **X** ist im Französischen klanglich sehr wandelbar und besitzt keinen Einzellaut. Am häufigsten steht er für die Konsonantengruppen `/ks/` (wie in *fixe*) oder das stimmhafte `/ɡz/` (wie in *xylophone* und *exemple*). In Ausnahmefällen, wie bei bestimmten Zahlwörtern und bei der Bindung (*liaison*), wird er zu einem einfachen `/s/` oder `/z/`.
+Der Buchstabe (ixe) /iks/ steht für die Lautfolge /ks/ im Wort (texte) /tɛkst/.
 
-## Ausspracheanleitung
+## Aussprache von ixe
 
-Um die Verbindung `/ɡz/` wie in *xylophone* korrekt zu bilden, heben Sie zunächst den hinteren Zungenrücken an das Gaumensegel für ein stimmhaftes `/ɡ/`. Gleiten Sie nahtlos mit der Zungenspitze hinter die unteren Schneidezähne, um ein weiches, summendes `/z/` anzuschließen. Die Stimmlippen müssen während des gesamten Übergangs durchgehend schwingen.
+Für die stimmlose Verbindung stoppen Sie den Luftstrom am Gaumen, lassen ihn los und zischen an den Zähnen. Schalten Sie für die stimmhafte Variante die Stimme hinzu. Für den einfachen Zischlaut lassen Sie nur Luft an den Zähnen reiben.
 
-## Schreibweise und Verhalten im Wort
+## Schreibregeln für ixe
 
-Am Wortanfang vor Vokalen, typischerweise bei Fremdwörtern griechischen Ursprungs, wird **X** als `/ɡz/` artikuliert. Steht die Vorsilbe *ex-* vor einem Vokal, lautet die Aussprache ebenfalls `/ɡz/`, während vor einem Konsonanten `/ks/` gesprochen wird (*texte*). Am Wortende (wie in *paix* oder *yeux*) ist das **X** meist stumm, es sei denn, eine Liaison bindet es als `/z/` an.
+Im Wortinneren vor Konsonanten oder nach einem Anfangsvokal klingt er wie die Lautfolge /ks/ in (taxi) /tak.si/. Nach der Vorsilbe vor einem Vokal lautet er wie die stimmhafte Folge /ɡz/ in (examen) /ɛɡ.za.mɛ̃/. In Zahlwörtern wie (dix) /dis/ ergibt er den Laut /s/. Am Wortende bleibt er stumm, wie in (paix) /pɛ/.
 
-## Vergleiche und typische Stolpersteine
+## Schwierigkeiten mit ixe
 
-Im Deutschen wird das **X** fast ausnahmslos hart als `/ks/` gesprochen (z. B. in *Hexe*); im Französischen muss bei Wörtern wie *exemple* oder *xylophone* jedoch zwingend das weiche, stimmhafte `/ɡz/` erklingen. Vermeiden Sie es außerdem, stumme Endungen wie in *beaux* oder *prix* mitzusprechen, es sei denn, eine direkte Bindung an ein folgendes Vokalwort verlangt ein weiches `/z/`.
+Deutsche Lernende sprechen den Schlusskonsonanten oft fälschlicherweise aus wie im deutschen Wort Fax. Im Französischen bleibt er am Wortende meistens völlig lautlos.

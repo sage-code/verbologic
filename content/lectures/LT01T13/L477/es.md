@@ -20,18 +20,18 @@ terms:
   ro: "T"
 ---
 
-## El sonido de la letra T
+## Sonido de la letra té
 
-La letra **T** representa principalmente el fonema oclusivo dental sordo `/t/`, muy similar a la «t» del español. No obstante, en francés esta letra tiene una variante muy común: se pronuncia como `/s/` dentro de sufijos como *-tion* o *-tial*. Por último, cuando aparece al final de una palabra francesa, suele ser completamente muda.
+El nombre de esta letra se pronuncia (té) /te/. Su sonido principal corresponde a la consonante /t/, como en la palabra (table) /tabl/.
 
 ## Cómo colocar la boca
 
-Coloca la punta de la lengua contra la parte posterior de los dientes incisivos superiores para cortar brevemente la salida del aire. Separa la lengua con un movimiento rápido y seco sin expulsar aire aspirado. Mantén la lengua firme y plana, evitando convertir el sonido en africado cuando vaya seguido de vocales cerradas.
+Para el sonido /t/, apoya la punta de la lengua contra los dientes superiores y suelta el aire sin vibrar las cuerdas vocales. Para el sonido /s/, acerca la lengua a los alvéolos expulsando un silbido continuo y sordo.
 
-## Ortografía y comportamiento
+## Reglas de ortografía
 
-En posición inicial o medial, la grafía **T** (simple o doble) se pronuncia casi siempre como `/t/` (*temps*, *lettre*). Al final de palabra suele ser muda (*chat*, *vent*), a menos que se trate de excepciones léxicas como *huit* o de un enlace obligatorio (*liaison*) ante vocal. En terminaciones como *-tion* o *-tie*, adquiere sistemáticamente el sonido `/s/`.
+Al inicio o ante casi cualquier vocal o consonante produce el sonido /t/, como en (tapis) /ta.pi/. Ante la letra i seguida de otra vocal en palabras cultas da el sonido /s/, como en (patient) /pa.sjɑ̃/. Al final de muchas palabras no se pronuncia, como en (salut) /sa.ly/.
 
-## Variantes y errores comunes
+## Comparación con el español
 
-Observa la diferencia entre *tapis* (`/ta.pi/`), *attention* (`/a.tɑ̃.sjɔ̃/`) y el final mudo de *plat* (`/pla/`). El error más común entre hispanohablantes consiste en pronunciar la terminación *-tion* con `/t/` por calco del español, o articular la **T** final en palabras como *vert* o *lit*. Recuerda dejarla muda al final a menos que haya una *liaison*.
+La consonante /t/ francesa se pronuncia prácticamente igual que en español como en tapa. El mayor error consiste en pronunciar la consonante final cuando en francés debe quedar en silencio absoluto.

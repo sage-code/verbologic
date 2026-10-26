@@ -20,18 +20,18 @@ terms:
   ro: "P"
 ---
 
-## Sunetul literei P în franceză
+## Sunetul literei pé
 
-Litera franceză **P** notează consoana oclusivă bilabială surdă `/p/`, identică cu sunetul „p” din limba română ca în „pas”. Este un sunet curat, neaspirat, pronunțat fără nicio suflare suplimentară de aer. La finalul multor cuvinte franceze, litera este mută.
+Numele acestei litere este (pé) /pe/. Cel mai adesea reprezintă sunetul /p/, ca în cuvântul (porte) /pɔʁt/.
 
-## Cum se pronunță /p/
+## Pronunțarea literei pé
 
-Lipește ferm ambele buze pentru a opri complet fluxul de aer din gură. Deschide buzele brusc pentru a elibera aerul printr-o explozie scurtă și precisă. Corzile vocale nu trebuie să vibreze deloc în timpul articulării.
+Pentru a rosti sunetul /p/, unește complet buzele pentru a bloca aerul. Apoi deschide-le brusc, eliberând suflul fără a folosi corzile vocale.
 
-## Ortografie și poziții
+## Ortografia literei pé
 
-Litera se întâlnește singură sau dublată, ca în **rappeler**, unde se pronunță un singur `/p/`. La finalul cuvintelor uzuale precum **trop**, **coup** sau **sirop**, litera **P** nu se pronunță deloc. În combinația **ph**, preluată adesea din greacă, redă sunetul `/f/`, ca în **philosophie**.
+În mod obișnuit, la început sau în interiorul cuvintelor, redă sunetul /p/, cum auzi în (pomme) /pɔm/. La sfârșitul multor cuvinte uzuale, litera este mută și nu se rostește, de pildă în (drap) /dʁa/ sau (trop) /tʁo/.
 
-## Greșeli frecvente de pronunție
+## Diferențe față de română
 
-Vorbitorii de română pronunță corect sunetul `/p/`, deoarece ambele limbi folosesc varianta neaspirată. Principala dificultate constă în pronunțarea literei **P** acolo unde ar trebui să fie mută, cum ar fi în cuvintele **sept** `/sɛt/` sau **temps** `/tɑ̃/`. Asigură-te că respecți regulile consoanelor finale silențioase.
+Sunetul este identic cu cel din limba română, rostit ca în cuvântul pas. Singura capcană constă în tendința de a citi această literă la finalul cuvintelor unde franceza o lasă mută.

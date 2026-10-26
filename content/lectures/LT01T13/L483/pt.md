@@ -20,18 +20,18 @@ terms:
   ro: "Z"
 ---
 
-## O som da letra Z
+## A letra zède
 
-A letra **Z** em francês representa a consoante fricativa alveolar vozeada `/z/`. Corresponde perfeitamente ao som do **z** em português na palavra *zebra* ou do **s** em *casa*. No final de palavras, costuma ser completamente muda.
+A letra (zède) /zɛd/ produz principalmente o som /z/, como na palavra (zèbre) /zɛbʁ/.
 
 ## Como pronunciar
 
-Aproxime a ponta da língua dos alvéolos superiores sem tocar totalmente, permitindo a passagem do ar. Faça as cordas vocais vibrarem para produzir um zumbido contínuo e sonoro. Mantenha os lábios relaxados, ligeiramente afastados.
+Aproxima a ponta da língua dos dentes superiores sem tocar. Deixa o ar passar com fricção contínua e faz vibrar as cordas vocais.
 
-## Ortografia e particularidades
+## Regras de grafia
 
-Aparece no início e no meio de palavras como *zèbre* ou *bizarre*, mantendo o som `/z/`. No final dos vocábulos, surge frequentemente nas terminações verbais da segunda pessoa do plural (*vous chantez*) e em substantivos como *nez*, contextos em que não é articulada.
+No início de palavra e entre vogais, pronuncia-se com o som /z/, como em (zone) /zon/. No final de muitas palavras fica muda, como em (nez) /ne/ e em (riz) /ʁi/.
 
-## Variações e armadilhas
+## Erros comuns a evitar
 
-Diferentemente do português de Portugal ou do Rio de Janeiro, o **Z** final em francês nunca chia como `/ʃ/` ou `/ʒ/`; ele é simplesmente mudo. Cuidado para não pronunciar a letra final em formas como *parlez* ou *assez*, exceto em situações de *liaison* diante de vogal, onde ressurge como `/z/`.
+Em português europeu, esta consoante no final de palavra soa como um som chiante. Em francês, pelo contrário, não deves pronunciar nada no fim de palavras como arroz.

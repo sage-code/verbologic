@@ -20,18 +20,18 @@ terms:
   ro: "V"
 ---
 
-## El sonido de la letra
+## Sonido de la letra vé
 
-La letra **V** en francés representa la fricativa labiodental sonora `/v/`. A diferencia del español estándar, donde **b** y **v** representan el mismo sonido bilabial, en francés la **v** nunca se pronuncia uniendo ambos labios. Es un sonido vibrante y nítido donde los dientes superiores deben rozar el labio inferior.
+La letra (vé) /ve/ se pronuncia con el sonido /v/, como se escucha en la palabra (vélo) /ve.lo/.
 
-## Posición articulatoria
+## Posición de la boca
 
-Coloca el borde de los incisivos superiores ligeramente sobre la parte interna del labio inferior. Haz pasar el aire de forma continua mientras haces vibrar las cuerdas vocales, produciendo un claro zumbido sonoro. Evita por completo cerrar los dos labios a la vez.
+Apoya suavemente los incisivos superiores sobre el labio inferior. Expulsa el aire mientras haces vibrar las cuerdas vocales con claridad.
 
-## Ortografía y posición
+## Reglas de ortografía
 
-La **V** se pronuncia invariablemente como `/v/` en todas las posiciones dentro de la palabra, como al inicio en **vert** o en posición intermedia en **livre** y **souvenir**. En francés no existe la neutralización entre **b** y **v**, por lo que es esencial escribir y pronunciar cada una según corresponda. La doble grafía **vv** es extremadamente rara.
+Esta letra representa de manera regular el sonido /v/ en cualquier posición habitual, por ejemplo en la palabra (vent) /vɑ̃/.
 
-## Contrastes y errores frecuentes
+## Diferencias con el español
 
-El sonido se mantiene constante en palabras como *vert* `/vɛʁ/`, *vie* `/vi/` o *vague* `/vaɡ/`. El error más habitual de los hispanohablantes es pronunciar la **v** francesa como una **b** oclusiva o fricativa bilabial (`/b/` o `[β]`). Confundir palabras como *vent* (viento) y *banc* (banco) cambia por completo el significado, por lo que es crucial marcar el contacto entre dientes y labio.
+En español no existe este sonido labiodental sonoro. Evita usar la articulación bilabial de vaso o de bien.

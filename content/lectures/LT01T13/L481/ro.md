@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## Sunetul literei X
+## Sunetul literei ixe
 
-Litera **X** în limba franceză nu are o singură pronunție fixă, ci poate reprezenta mai multe combinații consonantice. Cel mai des redă grupurile `/ks/` (ca în *fixe*) și `/ɡz/` (ca în *xylophone* sau *exemple*). De asemenea, în numerale speciale sau în legături fonetice (liaison), poate fi pronunțată simplu `/s/` sau `/z/`.
+Litera se numește (ixe) /iks/. Ea redă cel mai des două consoane legate, ca în cuvântul (texte) /tɛkst/.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Pentru a pronunța grupul `/ɡz/` din cuvântul *xylophone*, lipiți spatele limbii de vălul palatului pentru a emite un `/ɡ/` sonor, vibrant. Fără pauză, aduceți vârful limbii spre incisivii inferiori pentru a lăsa aerul să iasă sub forma unui `/z/` sonor și bâzâit. Mențineți coardele vocale în vibrație pe toată durata pronunțării celor două consoane.
+Pentru grupul surd, blochează aerul cu spatele limbii, desprinde-o brusc și lasă aerul să șuiere printre dinți fără vibrația corzilor vocale. Pentru varianta sonoră, execută aceleași mișcări, dar fă corzile vocale să vibreze continuu. La final, buzele rămân relaxate.
 
-## Particularități ortografice
+## Reguli de scriere
 
-La începutul cuvintelor de origine greacă urmate de o vocală, litera **X** se pronunță `/ɡz/`. În prefixul *ex-* urmat de o vocală, pronunția este tot `/ɡz/`, dar devine `/ks/` dacă urmează o consoană (*externe*). La finalul majorității cuvintelor franceze (*choux*, *prix*), **X** este literă mută, activându-se ca `/z/` doar în liaison.
+În interiorul cuvântului produce sunetele /ks/, ca în (taxi) /tak.si/. În prefixul urmat de o vocală redă sunetele /ɡz/, ca în (examen) /ɛɡ.za.mɛ̃/. În numere speciale se aude doar sunetul /s/, precum în (dix) /dis/. La sfârșitul majorității cuvintelor nu se pronunță deloc, ca în (paix) /pɛ/.
 
-## Comparații și erori frecvente
+## Capcane pentru români
 
-Vorbitorii de română tind uneori să pronunțe orice **X** ca `/ks/`, însă cuvinte precum *exemple* și *xylophone* cer obligatoriu varianta sonoră `/ɡz/`. O altă capcană o reprezintă litera finală mută: nu citiți niciodată **X** la sfârșitul cuvintelor precum *heureux* sau *deux*, cu excepția cazului în care faceți legătura cu o vocală următoare.
+În limba română, litera se citește adesea cu două sunete la finalul cuvintelor, cum ar fi în sufix sau pix. În franceză, nu rosti această literă când încheie un cuvânt, ci las-o complet mută.

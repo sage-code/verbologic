@@ -20,18 +20,18 @@ terms:
   ro: "L"
 ---
 
-## A(z) L betű kiejtése
+## Az elle betű hangja
 
-A francia **L** betű alapértelmezett hangja a tiszta fogmedri `/l/`, amely nagyon hasonlít a magyar **l** hanghoz a **luna** vagy **lap** szavakban. A francia `/l/` minden helyzetben, még szóvégen is teljesen világos és tiszta marad. Bizonyos betűkapcsolatokban, főként az **-ill-** vagy szóvégi **-il** formákban azonban jésül és `/j/` hanggá válik, néhány szóban pedig néma.
+A betű neve (elle) /ɛl/. Leggyakrabban a magyar l-hez hasonló hangot jelöl, mint a (lune) /lyn/ szóban.
 
-## A hang képzése
+## Az elle kiejtése
 
-Érintse a nyelv hegyét a felső metszőfogak tövéhez vagy a fogmederhez. Engedje, hogy a kiáramló levegő a nyelv két oldalán szabadon távozzon, miközben a hangszálak rezegnek. Ügyeljen arra, hogy a nyelv hátsó része ne emelkedjen meg, megőrizve a franciásan tiszta artikulációt.
+Érintsd a nyelv hegyét a felső fogmederhez. Engedd ki a levegőt a nyelv két oldalán, miközben a hangszalagok rezegnek.
 
-## Írásmód és sajátosságok
+## Az elle írásmódjai
 
-A hangot leírhatjuk egyetlen **l** betűvel (**lune**) vagy kettőzve is (**balle**). Magánhangzó után az **-il** vagy **-ille** végződések szinte kivétel nélkül `/j/` hangot jelölnek, mint a **famille** vagy a **soleil** szavakban. Fontos kivétel a **ville**, **mille** és **tranquille** szavak csoportja, ahol a kettős l rendes `/l/` hangként ejtendő.
+A legtöbb helyzetben a hangja /l/, például a (bal) /bal/ szóban. Néhány szó végén a betű néma marad, ilyen például a (fusil) /fy.zi/ vagy a (outil) /u.ti/.
 
-## Gyakori tévesztések és különbségek
+## Az elle összehasonlítása
 
-A magyar anyanyelvűek számára a rendes `/l/` kiejtése könnyű, a fő kihívást a betűkombinációk jelentik. Ne ejtsen kemény `/l/` hangot a **fille** `/fij/` vagy a **travail** `/tʁa.vaj/` szavakban, hiszen itt valójában egy magyar **j** hang képződik. Ezzel szemben ne némítsa el a **ville** szóban, amely következetesen `/vil/` marad.
+A magyar anyanyelvűeknek ez a hang nem okoz gondot. Teljesen megegyezik a magyar ló szó első hangjával.

@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## Il suono della lettera X
+## Suono della lettera ixe
 
-In francese la lettera **X** ha diversi valori fonetici a seconda della posizione e dell'origine della parola. Il più delle volte si pronuncia come la combinazione sorda `[ks]` (come in *taxi*) oppure sonora `[ɡz]` (come in *xylophone* ed *examen*). In italiano la **X** corrisponde quasi sempre a `[ks]`, mentre in francese la resa sonora `[ɡz]` è estremamente comune prima di vocale.
+La lettera (ixe) /iks/ corrisponde soprattutto al suono /ks/, come nella parola (texte) /tɛkst/.
 
 ## Come si pronuncia
 
-Per realizzare il gruppo sonoro `[ɡz]`, fai aderire il dorso della lingua al palato molle producendo una breve occlusiva sonora `[ɡ]`. Subito dopo, rilascia l'aria facendo vibrare le corde vocali mentre la punta della lingua sfiora gli incisivi inferiori per creare la sibilante `[z]`. Entrambi gli elementi devono essere interamente sonorizzati, senza mai desonorizzare la sibilante.
+Per il suono sordo, blocca l'aria con la lingua e rilasciala subito soffiando tra i denti. Per la variante sonora aggiungi le corde vocali. Per il sibilo semplice fai passare solo l'aria senza bloccarla.
 
-## Ortografia e posizioni
+## Regole di pronuncia
 
-All'inizio delle parole greche davanti a vocale e nel prefisso *ex-* seguito da vocale, la **X** vale `[ɡz]`. Si pronuncia sorda `[ks]` all'interno delle parole (*fixe*, *texte*) e `[s]` in numeri specifici come *dix* e *six*. Infine, si legge `[z]` nella liaison (*deux ans*) e in derivati ordinali come *deuxième*.
+Tra vocali produce il suono /ks/ come in (taxi) /tak.si/. All'inizio con una vocale successiva vale il suono /ɡz/ come in (examen) /ɛɡ.za.mɛ̃/ o (exil) /ɛɡ.zil/. In parole come (dix) /dis/ o (six) /sis/ suona /s/. In fine di parola resta muta come in (paix) /pɛ/ oppure (deux) /dø/.
 
-## Confronto tra le varianti ed errori comuni
+## Errori comuni
 
-Un errore frequente tra gli italofoni è pronunciare la combinazione `[ks]` ovunque, trascurando la variante sonora `[ɡz]` in parole come *examen* o *xylophone*. Fai attenzione anche alle lettere finali mute: a fine parola la **X** è spessissimo silenziosa (come in *paix*, *voix* o nel plurale *yeux*), tranne in rare eccezioni come *six* o *index*.
+Non pronunciare mai la consonante muta finale, come faresti leggendo una parola italiana. Fai attenzione a distinguere la sequenza sorda da quella sonora.

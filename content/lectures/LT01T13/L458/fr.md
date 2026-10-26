@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## Le son de la lettre A
+## Son de la lettre a
 
-La lettre **A** se prononce généralement `/a/`, une voyelle ouverte antérieure très claire. Elle correspond au son de base présent dans la grande majorité des mots français du quotidien. Dans certains accents plus traditionnels, elle peut être légèrement plus postérieure (`/ɑ/`), surtout lorsqu'elle porte un accent circonflexe.
+Cette lettre se nomme (a) /a/. Elle donne le plus souvent le son /a/, présent dans (ami) /a.mi/.
 
-## Comment la prononcer
+## Prononciation
 
-Ouvrez grand la bouche de manière détendue, sans arrondir les lèvres. La langue doit reposer bien à plat au fond de la cavité buccale, avec la pointe touchant légèrement la base des incisives inférieures. Laissez sortir la voix de façon nette et sans nasalisation.
+Abaissez la mâchoire en laissant reposer la langue bien à plat au fond de la bouche. Pour la nuance plus sombre, reculez légèrement le dos de la langue sans arrondir les lèvres.
 
-## Graphie et règles d'écriture
+## Graphies et contextes
 
-La lettre **A** peut porter un accent grave (*à*, *là*) sans que sa prononciation ne change, servant principalement à distinguer des homophones. Lorsqu'elle porte un accent circonflexe (*pâte*, *château*), elle est parfois prononcée plus en arrière de la gorge. Combinée avec d'autres voyelles ou consonnes nasales, elle forme de nouveaux sons comme dans *ai*, *au* ou *an*.
+La lettre seule ou avec accent grave donne le son /a/ dans (là) /la/. Surmontée d'un accent circonflexe, elle produit le son /ɑ/ plus en arrière, comme dans (pâte) /pɑt/ ou (âne) /ɑn/.
 
-## Nuances et pièges fréquents
+## Points de vigilance
 
-Ne confondez pas le **A** oral simple avec la voyelle nasale `/ɑ̃/` que l'on trouve dans *banc* ou *chambre*. Veillez également à ne pas obscurcir la voyelle en fin de mot comme un schwa anglais : le **A** français reste franc et stable jusqu'au bout. La distinction classique entre *patte* (`/pat/`) et *pâte* (`/pɑt/`) tend aujourd'hui à disparaître au profit du `/a/` antérieur chez la plupart des locuteurs.
+La distinction entre les deux timbres tend à disparaître. Veillez simplement à ne pas trop fermer la voyelle et gardez une émission franche sans diphtongue.

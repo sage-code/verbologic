@@ -20,18 +20,18 @@ terms:
   ro: "R"
 ---
 
-## O som da letra R
+## O som da letra erre
 
-No francês padrão, a letra **R** representa uma consoante fricativa uvular sonora, transcrita como `/ʁ/`. Este som é produzido na parte posterior da garganta, junto à úvula, assemelhando-se muito ao « r » inicial de **rua** no português de Lisboa ou do Rio de Janeiro. Em contacto com consoantes surdas, como em **quatre**, ele perde a voz e soa como `[χ]`.
+A letra (erre) /ɛʁ/ produz habitualmente o som fricativo uvular /ʁ/, como na palavra (rue) /ʁy/.
 
-## Como pronunciar o R
+## Como pronunciar a letra erre
 
-Mantenha a ponta da língua abaixada e encostada nos dentes inferiores da frente. Eleve a parte de trás da língua em direção à úvula (o «sininho» da garganta) e deixe o ar passar com um leve atrito contínuo. Não faça força excessiva para não arranhar a garganta; o som deve fluir de maneira suave e relaxada.
+Aproxime a parte posterior da língua da úvula, criando uma passagem estreita para o ar roçar na garganta. As cordas vocais podem vibrar, mantendo a ponta da língua sempre baixa.
 
-## Grafia e peculiaridades
+## Grafia da letra erre
 
-A letra escreve-se **R** em maiúscula e **r** em minúscula, aparecendo com frequência duplicada entre vogais como em **arriver**. Um detalhe essencial da ortografia é que a terminação verbal em **-er** (primeira conjugação) tem o « r » mudo, pronunciando-se `/e/`. Nas restantes palavras terminadas em **-r** (como **par** ou **hiver**), a consoante é geralmente articulada.
+Na maioria dos casos, esta letra soa como /ʁ/, tal como em (rare) /ʁaʁ/. No final de muitas palavras não se pronuncia, em particular no infinitivo dos verbos da primeira conjugação, como em (parler) /paʁ.le/.
 
-## Comparações e armadilhas comuns
+## Comparação com o português
 
-Evite usar o « r » vibrante simples da ponta da língua (como em **caro** em português), pois ele não faz parte do francês moderno europeu. Cuidado também para não transformar o som em uma aspiração inglesa ou no som de « h » mudo. Por fim, lembre-se de nunca pronunciar o « r » final de verbos regulares comuns como **parler** ou **manger**.
+No português europeu padrão, a letra inicial de rua tem um som uvular muito semelhante. O único erro comum é usar a vibração simples da ponta da língua, como na palavra caro.

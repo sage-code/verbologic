@@ -20,18 +20,18 @@ terms:
   ro: "R"
 ---
 
-## Der französische R-Laut
+## Der Buchstabe erre
 
-Der französische Buchstabe **R** steht für den stimmhaften uvularen Reibelaut `/ʁ/`. Dieser Laut ähnelt sehr stark dem modernen deutschen Gaumen-R (Zäpfchen-R), wie man es in Wörtern wie **Rasen** spricht. Im Gegensatz zum gerollten Zungen-R wird er weit hinten im Rachen gebildet.
+Der Buchstabe (erre) /ɛʁ/ steht für den Laut /ʁ/, wie im Wort (rue) /ʁy/.
 
-## Ausspracheanleitung
+## Aussprache des Buchstabens
 
-Lassen Sie die Zungenspitze entspannt hinter den unteren Schneidezähnen ruhen. Heben Sie den hinteren Zungenrücken leicht in Richtung Gaumensegel und Zäpfchen (Uvula), um eine Engstelle zu bilden. Lassen Sie die Luft stimmhaft durch diesen Spalt strömen, sodass ein sanftes Reibegeräusch ohne übertriebenes Räuspern entsteht.
+Heben Sie Ihren hinteren Zungenrücken an das Gaumenzäpfchen. Lassen Sie die Luft durch diese Enge strömen, sodass ein deutliches Reibegeräusch entsteht. Die Stimmlippen können dabei mitschwingen.
 
-## Schreibweise und Stummschaltung
+## Schreibregeln des Buchstabens
 
-Der Buchstabe tritt als einfaches **r** oder doppeltes **rr** auf, beide gesprochen als `/ʁ/` wie in **rouge** oder **terre**. Wichtig für Deutschsprachige: Die Infinitivendung **-er** bei regelmäßigen Verben (z. B. **parler** `/paʁ.le/`) sowie bei Wörtern wie **dernier** wird als reines `/e/` gesprochen; das Schluss-R verstummt völlig.
+In den meisten Positionen spricht man den Reibelaut /ʁ/, wie in (rare) /ʁaʁ/. Am Wortende, besonders bei Verben der ersten Gruppe, bleibt der Buchstabe stumm, wie in (parler) /paʁ.le/ oder (premier) /pʁə.mje/.
 
-## Feinheiten und Stolpersteine
+## Typische deutsche Fehler
 
-Nach stimmlosen Konsonanten wie `p`, `t` oder `k` wird der Laut stimmlos gehaucht (`/χ/`), etwa in **sucre** `/sykχ/`. Deutschsprachige beherrschen das Rachen-R meist gut, sollten jedoch darauf achten, das Endungs-R in **-er** keinesfalls als Vokalersatz wie im Deutschen (z. B. 'Bäcke-a') auszusprechen.
+Dieser Laut entspricht dem deutschen Gaumenlaut in Rast. Vermeiden Sie jedoch die deutsche Vokalisierung am Wortende wie in Uhr. Rollen Sie die Zungenspitze niemals vorn an den Zähnen.

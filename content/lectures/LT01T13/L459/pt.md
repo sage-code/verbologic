@@ -20,18 +20,18 @@ terms:
   ro: "B"
 ---
 
-## O som da letra B
+## Som da letra bé
 
-A letra **B** em francês representa normalmente o som `/b/`, idêntico ao **b** do português em palavras como *bola*. É uma consoante oclusiva bilabial sonora, pronunciada com vibração plena das cordas vocais.
+O nome da letra é (bé) /be/. O seu som principal é o som /b/, como na palavra (balle) /bal/.
 
 ## Como pronunciar
 
-Pressione os lábios um contra o outro para interromper brevemente a passagem do ar e solte-os em seguida com a vibração da voz. Não aspire o ar nem crie um sopro extra ao produzir o som.
+Junte os dois lábios para travar o ar e solte-o de repente. Para o som vozeado, faça vibrar as cordas vocais. Para o som surdo, não use a voz.
 
-## Grafia e posições
+## Regras de escrita
 
-Aparece simples ou duplicada (**bb**, como em *abbaye*), soando sempre `/b/`. No final de palavras tradicionais, costuma ser muda, principalmente após consoantes ou vogais nasais (*plomb*), mas soa em estrangeirismos (*snob*, *club*).
+Na maioria dos casos, soa como /b/, tal como em (robe) /ʁɔb/. Antes de uma consoante surda, transforma-se no som /p/, como em (obtenir) /ɔp.tə.niʁ/ ou (absurde) /ap.syʁd/. No final de algumas palavras não se pronuncia, como em (plomb) /plɔ̃/ e (radoub) /ʁa.du/.
 
-## Comparações e assimilações
+## Dificuldades comuns
 
-Antes de consoantes surdas como /s/ ou /t/, o **B** sofre ensurdecimento e passa a soar como `/p/`, a exemplo de *absolu* (`/ap.sɔ.ly/`) e *obtenir*. Mantenha sempre a distinção clara entre `/b/` e `/v/`, evitando qualquer confusão labiodental.
+Não existem armadilhas reais para quem fala português. Os sons desta letra funcionam exatamente da mesma forma que nas palavras portuguesas bola e pato.

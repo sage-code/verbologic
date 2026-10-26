@@ -20,18 +20,18 @@ terms:
   ro: "Z"
 ---
 
-## A Z betű kiejtése
+## A zède betű
 
-A francia **Z** betű szinte mindig a zöngés fogmedri réshangot, azaz a magyar **z** hangot jelöli (`/z/`). Kiejtése teljesen megegyezik a magyar *zöld* szó kezdőhangjával. Szó végén azonban a francia szavak többségében néma marad.
+A francia (zède) /zɛd/ betű leggyakrabban a zöngés /z/ hangot jelöli, mint a (zèbre) /zɛbʁ/ szóban.
 
-## Hogyan ejtsük
+## A kiejtés módja
 
-Helyezze a nyelve hegyét a felső metszőfogak mögötti fogmederhez, de ne zárja el teljesen a levegő útját. Fújja ki a levegőt, miközben a hangszalagjait rezegteti, egyenletes zümmögő hangot képezve. A száj szélei lazán szétnyílhatnak.
+A nyelved hegyét közelítsd az alsó metszőfogakhoz. Engedd ki a levegőt egy szűk résen át, miközben a hangszalagjaid rezegnek.
 
-## Helyesírás és elhelyezkedés
+## Helyesírás és változatok
 
-Szó elején és szó belsejében a **Z** rendkívül stabilan `/z/` hangként viselkedik, mint a *zèbre* vagy *bizarre* szavakban. Szóvégi pozícióban leggyakrabban a többes szám második személyű igealakokban fordul elő (*vous venez*), ahol nem ejtjük, akárcsak a *nez* (orr) főnévben.
+Szó elején és magánhangzók között a hangja /z/, mint a (zone) /zon/ szóban. Sok szó legvégén viszont teljesen némán marad, például a (nez) /ne/ vagy a (riz) /ʁi/ szóban.
 
-## Összehasonlítás és buktatók
+## Gyakori hibák összehasonlítása
 
-A magyar anyanyelvűeknek maga a `/z/` hangképzés természetes, a legnagyobb hiba a szóvégi **-z** túlbuzgó kiejtése. Ügyeljen arra, hogy a *-ez* végű igékben a **z** néma, és az előtte álló betűvel együtt zárt `/e/` hangot alkot, kivéve ha magánhangzóval kezdődő szó előtt hangkötés történik.
+A magyar anyanyelvűek számára ez a hang nem jelent nehézséget, mert megegyezik a magyar z hanggal. Csupán arra ügyelj, hogy szóvégi helyzetben ne ejtsd ki.

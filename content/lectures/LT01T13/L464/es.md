@@ -20,18 +20,18 @@ terms:
   ro: "G"
 ---
 
-## El sonido de la letra G
+## Nombre y sonido principal
 
-La letra **G** representa principalmente dos sonidos: la oclusiva velar sonora `[ɡ]`, como en *gare*, y la fricativa postalveolar sonora `[ʒ]`, como en *genou*. El sonido duro `[ɡ]` es muy parecido a la «g» española de *gato*, pero se mantiene oclusivo y firme. El sonido suave `[ʒ]` no existe en la mayoría de dialectos del español (salvo el rioplatense) y suena como un zumbido suave, similar a una «sh» con vibración de cuerdas vocales.
+Esta letra recibe el nombre de (gé) /ʒe/. Su pronunciación habitual corresponde al sonido /ɡ/, como en la palabra (gare) /ɡaʁ/.
 
-## Cómo pronunciar ambos sonidos
+## Posición de la boca
 
-Para el sonido `[ɡ]`, bloquea el paso del aire apoyando la parte posterior de la lengua contra el paladar blando y suéltalo de golpe con vibración vocal. Para `[ʒ]`, redondea ligeramente los labios hacia afuera y eleva el dorso de la lengua hacia el paladar duro sin bloquear el aire, dejando salir una fricción continua y sonora.
+Para la velare oclusiva sonora, apoya la parte posterior de la lengua en el velo del paladar y suelta aire con voz. Para la fricativa postalveolar sonora, proyecta los labios y deja pasar el aire continuo haciendo vibrar la garganta.
 
-## Reglas de escritura y lectura
+## Reglas para cada variante
 
-La **G** se lee `[ɡ]` delante de **a**, **o**, **u** y consonantes, pero suena `[ʒ]` delante de **e**, **i**, **y**. Para lograr el sonido `[ɡ]` delante de **e** o **i**, se añade una **u** muda (*guitare*), mientras que para obtener `[ʒ]` ante **a** o **o** se intercala una **e** muda (*mangeons*). En posición final suele ser completamente muda (*sang*, *poing*).
+Delante de consonante o de las vocales a, o, u, se pronuncia /ɡ/ como en (gros) /ɡʁo/. Ante e, i o y, adopta el sonido /ʒ/ como en (gel) /ʒɛl/ y (girafe) /ʒi.ʁaf/. Queda muda al final de varias palabras, como en (doigt) /dwa/ o (sang) /sɑ̃/.
 
-## Comparación y errores frecuentes
+## Errores comunes en español
 
-Compara el sonido fuerte en *gare* `[ɡaʁ]` con el suave en *gironde* `[ʒi.ʁɔ̃d]`. El error más común entre hispanohablantes es pronunciar la «g» suave francesa como la «j» española `[x]`, que es sorda y mucho más rasposa. Evita también articular la **u** en secuencias como **gui** o **gue**, diciendo incorrectamente `[ɡwi]` o `[ɡwe]`.
+No pronuncies la jota española fuerte de gente. Tampoco uses el sonido africado inglés. Suaviza la fricativa manteniendo la vibración de las cuerdas vocales. Al final de palabra, evita articular la letra si corresponde dejarla muda.

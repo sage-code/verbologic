@@ -20,18 +20,18 @@ terms:
   ro: "E"
 ---
 
-## Az « e » hangzása
+## Az e betű hangja
 
-A francia **e** az egyik legösszetettebb magánhangzó. Alapértelmezett kiejtése az úgynevezett instabil « e » (`[ə]`), de ékezettől és helyzettől függően ejthető zártan `[e]` (mint az **école** szóban) vagy nyíltan `[ɛ]` is. A magyar fülnek az `[e]` hang a magyar zárt « e »-re hasonlít, míg a `[ə]` kissé az « ö » felé hajlik.
+A francia (e) /ə/ betű neve (e) /ə/. Fő kiejtése a semleges hangzású (menu) /mə.ny/ szóban hallható.
 
-## A hang képzése
+## A hangok képzése
 
-A semleges `[ə]` képzéséhez lazítsa el a nyelvét a szájüreg közepén, és kerekítse finoman a szájszéleket előre. Az **école** szóban hallható `[e]` hanghoz húzza szét a szájszélét széles mosolyra, a nyelv hegyét pedig támassza az alsó fogsorhoz. Kerülje a hangok túlzott elnyújtását.
+A semleges hanghoz lazítsd el a nyelved középen és kerekítsd kissé az ajkadat. A zárt változathoz húzd szét a szájszéleket, nyelved emeld magasra. A nyílt hanghoz engedd lejjebb az állkapcsodat és nyisd nagyobbra a szádat.
 
-## Helyesírás és használat
+## Írás és kiejtés szabályai
 
-Az íráskép kulcsfontosságú: az **é** mindig zárt `[e]`, az **è** és **ê** nyílt `[ɛ]`. A szavak végén lévő ékezet nélküli **e** szinte kivétel nélkül néma marad. Szóvégi *-er* és *-ez* végződésekben a kiejtése szinte mindig zárt `[e]`.
+Ékezet nélkül, nyílt szótagban a hang (le) /lə/. Zárt magánhangzóként ejted ékezettel vagy szóvégi néma mássalhangzó előtt, mint a (été) /e.te/ szóban. Nyíltabb hangként ejted egyéb ékezetekkel vagy zárt szótagban, például a (père) /pɛʁ/ szóban. Szó végén vagy hangsúlytalan helyzetben teljesen néma, mint a (table) /tabl/ szóban.
 
-## Összehasonlítás és buktatók
+## Gyakori kiejtési hibák
 
-A leggyakoribb hiba a szóvégi néma **e** kiejtése a magyar anyanyelvűeknél, ami elrontja a francia szavak ritmusát. Figyeljen a különbségre az olyan szópároknál, mint a **le** `[lə]` és a **les** `[le]`. Ne keverje a semleges hangot a nyílt magyar « e » hanggal sem.
+A magyar anyanyelvűek hajlamosak a semleges hang helyett tisztán ö hangot ejteni, mint a kör szóban. Ügyelj arra, hogy a szavak végén álló néma betűt soha ne ejtsd ki magyaros e hangként, mint a teve szóban.

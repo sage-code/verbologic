@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## El sonido de la letra Y
+## El sonido de i griega
 
-La letra francesa **Y** se llama «i grec» y funciona principalmente como la semivocal `/j/`, muy similar a la «y» del español en «yeso» o a la «i» en «hielo». En posición entre consonantes, suena simplemente como la vocal pura `/i/`. A diferencia de muchas variantes del español de América y España, nunca debe pronunciarse con rehilamiento o sonido africado fuerte tipo «ch» o «ll» rioplatense.
+Esta letra se llama (i grec) /i ɡʁɛk/. Produce sobre todo el sonido semivocálico /j/, como en la palabra (yeux) /jø/.
 
-## Cómo colocar la boca
+## Cómo pronunciar esta letra
 
-Para articular la semiconsonante `/j/`, eleva el dorso de la lengua hacia el paladar duro, dejando una pequeña abertura para que el aire fluya limpiamente. Los labios deben permanecer ligeramente estirados en una sonrisa relajada. El sonido debe ser suave, continuo y vocalizado, sin generar ningún zumbido o fricción áspera.
+Para el sonido vocálico, estira los labios hacia los lados y sube la parte delantera de la lengua contra el paladar duro. Para el sonido consonántico, junta la lengua aún más al paladar y déjala deslizar sin fricción.
 
-## Uso ortográfico y reglas
+## Reglas de pronunciación
 
-Se escribe en mayúscula **Y** y minúscula **y**. Cuando se sitúa entre dos vocales dentro de una palabra nativa (como en *voyage* o *balayer*), actúa fonéticamente como si fueran dos letras «i» juntas: la primera forma diptongo con la vocal anterior y la segunda introduce la siguiente sílaba como semivocal. En cultismos y helenismos funciona como vocal simple (*lycée*, *type*).
+Delante de una vocal, produce el sonido /j/, como en (yoga) /jo.ɡa/. Entre consonantes o a final de palabra, produce la vocal /i/, como en (cycle) /sikl/ y en (jury) /ʒy.ʁi/.
 
-## Variaciones y errores frecuentes
+## Diferencias con el español
 
-Contrasta la semivocal `/j/` en *yeux* con la vocal plena `/i/` en *style*. El error más frecuente entre hispanohablantes es articular la **Y** inicial o intervocálica con demasiada fuerza consonántica (como una «y» fuerte o «yeísmo» rehilado). Recuerda mantenerla siempre como una semivocal suave, evitando convertir *yeux* en un sonido áspero oclusivo.
+En español, esta letra a principio de palabra puede sonar como una consonante africada o fricativa fuerte. En francés nunca tiene fricción; debe sonar siempre como una semivocal suave, idéntica a la de la palabra rey.

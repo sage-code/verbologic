@@ -20,18 +20,18 @@ terms:
   ro: "F"
 ---
 
-## El sonido de la letra F
+## Sonido de la efe
 
-La letra **F** en francés representa la consonante fricativa labiodental sorda `/f/`. Es equivalente al sonido de la **f** en el español peninsular o latinoamericano, como en «fuego» o «fácil». Es un sonido claro, sordo y muy regular.
+La letra (effe) /ɛf/ representa de manera general el sonido /f/, como se escucha en la palabra (film) /film/.
 
-## Cómo colocar la boca
+## Cómo pronunciar la efe
 
-Coloca el borde de los dientes incisivos superiores sobre el labio inferior ligeramente humedecido. Expulsa el aire de manera continua creando una fricción suave sin activar las cuerdas vocales. Evita redondear los labios hacia afuera para no deformar el sonido.
+Apoya suavemente los dientes superiores sobre el labio inferior. Deja salir el aire con fricción continua sin hacer vibrar las cuerdas vocales. Si vibran las cuerdas vocales, obtienes una fricción sonora con la misma posición.
 
-## Ortografía y combinaciones
+## Reglas de ortografía
 
-El fonema `/f/` se escribe con una sola **f** (*fête*) o con doble **ff** (*difficile*), leyéndose esta última exactamente como una sola consonante. A diferencia de muchas consonantes finales en francés, la **f** final casi siempre se pronuncia (*vif*, *chef*), salvo en pocas excepciones fijas como *nerf* o los plurales *œufs* y *bœufs*.
+En casi todas las posiciones produce el sonido /f/, como en (café) /ka.fe/. En el enlace con una vocal tras cierto número suena /v/, como en (neuf ans) /nœ.vɑ̃/. No se pronuncia en algunos casos específicos, como en (clef) /kle/ o (nerfs) /nɛʁ/.
 
-## Diferencias y errores comunes
+## Comparación con el español
 
-Los hispanohablantes suelen pronunciar correctamente este sonido, pero a veces olvidan articular la **f** final de las palabras francesas, pensando erróneamente que es muda. Recuerda pronunciar con fuerza la terminación en palabras como *bœuf* o *neuf*. Ten en cuenta también la particularidad fonética de *neuf*, cuya **f** suele sonar como `/v/` cuando enlaza con una vocal siguiente.
+En español este sonido existe exactamente igual, como en foca. No presenta ninguna dificultad para ti.

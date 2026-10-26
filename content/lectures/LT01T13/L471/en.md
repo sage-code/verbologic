@@ -20,18 +20,18 @@ terms:
   ro: "N"
 ---
 
-## The Sound of N
+## Sound of letter enne
 
-In French, the letter **N** primarily represents the voiced alveolar nasal consonant `/n/`, very similar to the English 'n' in *no*. However, when placed at the end of a syllable directly after a vowel, it stops being pronounced as a consonant and instead marks the nasalization of that preceding vowel. You can hear its clear consonant value at the beginning of words like `nuit`.
+The letter is called (enne) /ɛn/. Its main pronunciation is the sound /n/, heard in (nez) /ne/.
 
-## How to Produce It
+## Producing the sound
 
-To articulate `/n/`, place the tip of your tongue firmly against your upper alveolar ridge behind your front teeth. Lower your soft palate so air flows freely through your nose while your vocal cords vibrate. Keep your lips relaxed in whatever position the neighboring vowel requires.
+Press the tip of your tongue firmly against the back of your upper front teeth. Block the airflow through your mouth completely while vibrating your vocal cords and letting air escape freely through your nose.
 
-## Spelling and Patterns
+## Spelling and variants
 
-The letter **N** retains its clear consonantal sound `/n/` when followed by a vowel (as in *neuf*) or when doubled (as in *bonne*). When followed by another consonant or standing at the end of a word (like *chanson* or *un*), it loses its dental contact and turns the preceding vowel into a French nasal vowel. A doubled **nn** prevents nasalization entirely and keeps the preceding vowel oral.
+Before a vowel, the letter sounds as the sound /n/, as in (minute) /mi.nyt/. It is silent after the letter m in (condamner) /kɔ̃.da.ne/, and in fixed cases such as (monsieur) /mə.sjø/.
 
-## Nuances and Common Mistakes
+## Comparison with English
 
-English speakers often make the mistake of pronouncing a lingering consonant `[n]` at the end of nasal words, turning *bon* into *bonn*. Conversely, remember that when an **N** is followed by an *e* or doubled as in *banane* or *canne*, it must be fully pronounced as a clean consonant `/n/` without nasalizing the preceding vowel.
+English speakers pronounce this sound slightly further back along the gum ridge. Place your tongue tip directly against your upper teeth instead, keeping the consonant clean and short.

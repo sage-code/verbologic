@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## Le son de la lettre Y
+## Le son d'i grec
 
-La lettre **Y** porte le nom d'« i grec » et possède deux valeurs phonétiques principales en français : la semi-voyelle `/j/` comme dans **yeux**, ou la voyelle pure `/i/` comme dans **stylo**. Devant une voyelle, elle forme une consonne spirante très fluide, similaire au début du mot anglais *yes*. Entre deux consonnes, elle équivaut strictement à un simple **i**.
+Cette lettre s'appelle (i grec) /i ɡʁɛk/. Elle donne principalement le son de semi-consonne /j/, que l'on entend dans le mot (yeux) /jø/.
 
-## Comment articuler le Y
+## Mécanisme de prononciation
 
-Pour produire la semi-voyelle `/j/`, placez votre langue très haut et vers l'avant du palais, comme pour un `/i/`, puis relâchez immédiatement le passage d'air vers la voyelle suivante. Les cordes vocales vibrent et les lèvres restent souples ou s'adaptent à la voyelle qui suit. Veillez à ne pas créer de friction audible en serrant trop le palais.
+Pour la voyelle, étirez les lèvres et levez l'avant de la langue vers le palais dur. Pour la semi-consonne, resserrez davantage le passage de l'air contre le palais et relâchez aussitôt la langue vers la voyelle suivante.
 
-## Particularités orthographiques
+## Règles de lecture
 
-Historiquement issue de mots d'origine grecque ou étrangère, la lettre **Y** apparaît souvent au cœur de racines savantes (**analyse**, **rythme**). Lorsqu'elle se trouve entre deux voyelles à l'intérieur d'un mot (**voyage**, **payer**), elle fonctionne phonétiquement comme un double « i » qui décompose la prononciation. En majuscule, elle s'écrit simplement **Y** et ne porte que très rarement d'accent en français.
+Devant une voyelle, elle donne le son /j/, comme dans (yoga) /jo.ɡa/. Entre des consonnes ou en fin de mot, elle produit la voyelle /i/, comme dans (cycle) /sikl/ et dans (jury) /ʒy.ʁi/.
 
-## Nuances et pièges à éviter
+## Erreurs fréquentes
 
-Ne confondez pas le son semi-vocalique `/j/` de **yeux** avec une fricative dure comme le `/ʒ/` de **jeux**. Une erreur fréquente consiste à trop appuyer sur le son ou à introduire un coup de glotte inutile. Gardez l'enchaînement très fluide lorsque **Y** commence un mot suivi d'une voyelle.
+Les francophones ne rencontrent aucun piège particulier avec cette lettre lorsqu'elle fonctionne seule. Elle correspond toujours exactement aux sons habituels de la langue.

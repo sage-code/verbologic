@@ -20,18 +20,18 @@ terms:
   ro: "Z"
 ---
 
-## El sonido de la letra Z
+## Sonido de la letra zed
 
-En francés, la letra **Z** representa exclusivamente la fricativa alveolar sonora `/z/`, un sonido vibrante que no existe en el español estándar peninsular ni en el hispanoamericano. Se parece a un zumbido de abeja continuo o a la **s** sonorizada que a veces se produce en español antes de una consonante sonora (como en *mismo* o *desde*). En posición final de palabra suele ser muda.
+La letra (zède) /zɛd/ representa sobre todo el sonido /z/. Puedes escucharla en la palabra (zèbre) /zɛbʁ/.
 
-## Cómo articular el sonido
+## Cómo pronunciar
 
-Coloca la punta de la lengua muy cerca de la zona alveolar detrás de los dientes superiores, dejando una pequeña ranura para que pase el aire sin cortar el flujo. Estira ligeramente las comisuras de los labios. Al expulsar el aire, haz vibrar con fuerza las cuerdas vocales en la garganta para producir un zumbido sonoro y uniforme.
+Coloca la punta de la lengua muy cerca del paladar superior, justo detrás de los dientes. Expulsa el aire de forma continua mientras haces vibrar las cuerdas vocales.
 
-## Ortografía y comportamiento
+## Reglas de pronunciación
 
-La letra **Z** no es la más común en francés, pero abunda en términos técnicos, préstamos y vocablos de origen griego. Aparece de manera sistemática en la terminación verbal de la segunda persona del plural (*vous écoutez*), donde es completamente muda salvo en casos de enlace fonético (*liaison*). También es silenciosa en palabras cortas como *riz* o *gaz* (generalmente).
+La letra (zède) /zɛd/ suena como /z/ al principio de palabra, por ejemplo en (zone) /zon/. Al final de muchas palabras no se pronuncia, como en (nez) /ne/ o (riz) /ʁi/.
 
-## Variaciones y errores comunes
+## Comparación con el español
 
-Observa la diferencia entre la pronunciación plena en *zèbre* (`/zɛbʁ/`) y la letra muda en *chantez* (`/ʃɑ̃.te/`). El error más habitual de los hispanohablantes es sustituir este sonido por la **s** sorda (`/s/`) o por la **z** española peninsular (`/θ/`). Es fundamental asegurar la vibración laríngea: toca tu cuello para verificar que tus cuerdas vocales vibren al decir palabras como *zéro*.
+No uses el sonido de la zeta española de zapato ni la ese sorda. Este sonido no existe en español peninsular: debes hacer vibrar la voz como un zumbido continuo.

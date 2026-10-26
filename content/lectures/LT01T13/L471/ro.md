@@ -20,18 +20,18 @@ terms:
   ro: "N"
 ---
 
-## Sunetul literei N
+## Sunetul literei enne
 
-În limba franceză, litera **N** reprezintă în principal consoana nazală alveolară `/n/`, identică cu sunetul „n” din limba română din cuvântul *nor*. Totuși, la sfârșitul unei silabe după o vocală, **N** nu se mai pronunță distinct, ci transformă vocala anterioară într-o vocală nazală. Sunetul consonantic clar se aude la începutul cuvintelor, cum ar fi în `nuit`.
+Numele acestei litere este (enne) /ɛn/. Sunetul său principal este /n/, ca în cuvântul (nez) /ne/.
 
-## Cum se pronunță
+## Pronunția literei enne
 
-Atingeți cu vârful limbii alveolele dinților superiori, blocând complet trecerea aerului prin gură. Coborâți vălul palatului pentru a direcționa fluxul de aer prin nas și activați corzile vocale. Buzele trebuie să rămână relaxate, pregătindu-se pentru vocala următoare.
+Atingeți cu vârful limbii zona din spatele dinților de sus. Lăsați aerul să iasă pe nas, făcând corzile vocale să vibreze continuu.
 
-## Particularități ortografice
+## Ortografia literei enne
 
-Litera **N** se pronunță `/n/` ori de câte ori este urmată direct de o vocală (ca în *nature*) sau când este dublată (*année*). Dacă este plasată la sfârșit de silabă sau de cuvânt înaintea unei alte consoane (cum ar fi în *plan* sau *monde*), ea nu se rostește ca o consoană, ci semnalează o vocală nazală. Dublarea literei (**nn**) anulează nazalizarea și păstrează vocala orală.
+Înaintea unei vocale, această literă redă sunetul /n/, ca în (minute) /mi.nyt/. După o altă consoană nazală, litera rămâne mută și nu se pronunță deloc, ca în (condamner) /kɔ̃.da.ne/.
 
-## Comparații și erori frecvente
+## Diferențe față de română
 
-Cea mai frecventă greșeală a vorbitorilor de română este pronunțarea unui `[n]` final perceptibil în cuvinte cu vocale nazale precum *vin* sau *pain*. Asigurați-vă că limba nu atinge cerul gurii la sfârșitul acestor cuvinte, rezervând contactul consonantic `/n/` doar pentru situațiile în care urmează o vocală, ca în *nuit* sau *bonne*.
+Sunetul /n/ din franceză este identic cu cel din limba română, rostit ca în cuvântul nor. Nu există dificultăți reale de pronunție pentru acest sunet.

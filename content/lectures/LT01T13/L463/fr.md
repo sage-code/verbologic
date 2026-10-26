@@ -20,18 +20,18 @@ terms:
   ro: "F"
 ---
 
-## Le son de la lettre F
+## Son de la lettre effe
 
-La lettre **F** note la consonne fricative labio-dentale sourde `/f/`. Ce son est identique à celui du français courant dans la plupart des langues romanes. Les cordes vocales ne vibrent pas lors de son émission.
+La lettre (effe) /ɛf/ produit habituellement le son /f/, que vous entendez dans le mot (film) /film/.
 
-## Comment prononcer le son /f/
+## Prononciation de la lettre effe
 
-Placez le tranchant des **incisives supérieures** au contact de votre lèvre inférieure. Expirez doucement en créant une friction continue sans faire vibrer la voix. Les lèvres restent souples sans s'arrondir exagérément.
+Posez les incisives du haut sur la lèvre inférieure. Expirez pour créer une friction continue sans faire vibrer la gorge. Pour la variante voisée, maintenez ce contact tout en faisant vibrer vos cordes vocales.
 
-## Graphie et particularités
+## Graphies et contextes
 
-Le son `/f/` s'écrit généralement avec un **f** simple ou double comme dans *effet*, ou bien avec le digraphe **ph** dans les mots d'origine grecque comme *photo*. En finale absolue, il se prononce le plus souvent (*vif*, *neuf*), sauf dans de rares exceptions comme *clef* ou *nerf* au pluriel.
+Elle donne le son /f/ dans la plupart des positions, comme dans (café) /ka.fe/. Elle devient le son /v/ en liaison devant une voyelle, comme dans (neuf ans) /nœ.vɑ̃/. Elle reste muette dans quelques cas précis, comme dans (clef) /kle/ ou (nerfs) /nɛʁ/.
 
-## Nuances et pièges fréquents
+## Difficultés éventuelles
 
-Ne confondez pas `/f/` avec sa contrepartie sonore `/v/`, où les cordes vocales vibrent. Une particularité importante concerne l'adjectif numéral *neuf* : devant une voyelle ou un h muet (*neuf heures*, *neuf ans*), le **f** se sonorise en `/v/` dans la liaison standard.
+Ce son ne présente aucune difficulté particulière pour les francophones, car il fonctionne de la même manière dans tous les mots courants.

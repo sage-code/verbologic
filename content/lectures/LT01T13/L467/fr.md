@@ -20,18 +20,18 @@ terms:
   ro: "J"
 ---
 
-## Le son de la lettre J
+## Son de la lettre ji
 
-La lettre **J** représente invariablement la consonne fricative `/ʒ/` en français standard. Elle produit le même son doux et continu que le **G** doux devant un *e* ou un *i*. Contrairement à l'anglais ou à l'espagnol, il n'y a jamais d'élément occlusif de type [d] au début de cette consonne.
+La lettre (ji) /ʒi/ donne le son /ʒ/. Vous l'entendez au début du mot (jupe) /ʒyp/.
 
-## Comment la prononcer
+## Prononciation
 
-Arrondissez légèrement les lèvres et avancez-les comme pour faire le son « ch » `/ʃ/`. Placez la partie avant de votre langue très près du palais, sans le toucher complètement, et faites vibrer vos cordes vocales. L'air doit s'écouler de manière continue et sonore, produisant un chuintement voisé régulier.
+Avancez les lèvres en les arrondissant légèrement. Rapprochez l'avant de votre langue du palais sans le toucher. Laissez passer un souffle continu tout en faisant vibrer vos cordes vocales.
 
-## Orthographe et particularités
+## Orthographe et variantes
 
-Le **J** se trouve principalement au début ou au milieu des mots et apparaît presque toujours suivi d'une voyelle, comme dans **jamais** ou **projet**. Contrairement à la lettre **G**, le **J** conserve toujours la prononciation `/ʒ/`, quelle que soit la voyelle qui le suit (*a*, *o*, *u*, *e*, *i*). Il est extrêmement rare en position finale de mot, hormis dans de rares emprunts.
+La lettre (ji) /ʒi/ correspond au son /ʒ/ dans la quasi-totalité des mots de la langue, comme dans (joli) /ʒɔ.li/.
 
-## Nuances et pièges fréquents
+## Difficultés éventuelles
 
-L'erreur la plus commune chez les apprenants consiste à la prononcer comme une affriquée `/dʒ/` (à l'anglaise) ou comme une jota aspirée `/x/` (à l'espagnole). Veillez à bien maintenir un son fluide `/ʒ/`, identique à celui présent dans **jeu** ou **voyage**. Gardez le flux d'air ininterrompu dès l'attaque de la consonne.
+Cette consonne ne présente aucune difficulté particulière pour les locuteurs francophones natifs.

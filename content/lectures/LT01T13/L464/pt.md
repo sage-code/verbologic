@@ -20,18 +20,18 @@ terms:
   ro: "G"
 ---
 
-## O som da letra G
+## O som do gé
 
-A letra **G** em francês possui dois sons principais, dependendo da vogal seguinte: o som oclusivo `/ɡ/` e o som fricativo `/ʒ/`. Esses valores correspondem exatamente ao português: comporta-se como o **g** de **gato** antes de **A**, **O**, **U**, e como o **j** ou **g** suave de **girafa** antes de **E**, **I** e **Y**.
+A letra francesa (gé) /ʒe/ pronuncia-se principalmente como o som /ɡ/, como na palavra (gare) /ɡaʁ/.
 
-## Como pronunciar
+## Como pronunciar o gé
 
-Para articular o som `/ɡ/`, bloqueie a passagem do ar com a parte de trás da língua contra o véu palatino e solte-o com vibração das cordas vocais. Para o som `/ʒ/`, projete ligeiramente os lábios para a frente e deixe o ar passar de forma contínua com atrito, sem bloquear totalmente o fluxo de ar.
+Para o primeiro som, a parte de trás da língua toca no palato mole e solta o ar com vibração vocal. Para o outro som, a língua aproxima-se do céu da boca com os lábios arredondados, deixando o ar chiar.
 
-## Peculiaridades na escrita
+## Grafia do gé
 
-Assim como no português, usa-se a letra **U** muda após o **G** para manter o som duro antes de **E** ou **I**, como na palavra **guerre**. Para produzir o som `/ʒ/` antes de **A** ou **O**, o francês insere um **E** mudo de apoio, visível na conjugação **nous mangeons**.
+Antes de consoante ou das letras a, o ou u, produz o som /ɡ/, como em (gros) /ɡʁo/. Antes de e, i ou y, produz o som /ʒ/, como em (gel) /ʒɛl/. No fim de certas palavras é muda, como em (doigt) /dwa/.
 
-## Comparações e armadilhas
+## Dificuldades para portugueses
 
-Mantenha atenção redobrada com o dígrafo **GN**, que em francês equivale ao nosso **NH** (`/ɲ/`), como em **montagne**. Além disso, cuidado para não vocalizar o **U** em combinações como **guide** ou **guitare**, onde ele serve apenas como indicador fonético do som duro `/ɡ/`.
+Estes dois sons correspondem exatamente ao g de gato e ao j de janela em português europeu. Não existem armadilhas de articulação nesta letra isolada.

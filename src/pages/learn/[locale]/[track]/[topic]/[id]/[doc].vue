@@ -252,6 +252,25 @@ const articleTitle = computed(() => {
   })
 })
 const articleSummary = computed(() => storyTargetDoc.value?.summary ?? '')
+/**
+ * The cursive pair for a letter article's title.
+ *
+ * A phonetic (alphabet) article's title IS the letter — the manifest's name is
+ * the glyph in every language — so it is set in the handwriting model the
+ * alphabet is taught with (Playwrite, see --font-cursive): uppercase then
+ * lowercase, same face. A group ("ea", "sch") has no case pair and keeps the
+ * plain title.
+ *
+ * The glyph comes from the title rather than from `src/data/alphabets`: that
+ * file is 6.7 MB of prose and only the article body needs it, so importing it
+ * here would put the whole alphabet in the page bundle for one character.
+ */
+const cursivePair = computed(() => {
+  if (track.value !== 'lectures') return null
+  const title = articleTitle.value.trim()
+  if ([...title].length !== 1) return null
+  return { upper: title.toLocaleUpperCase(), lower: title.toLocaleLowerCase() }
+})
 const articleStatus = computed(() => markdownDoc.value?.status ?? 'draft')
 const articleMinutes = computed(() => markdownDoc.value?.minutes ?? null)
 const isFallback = computed(() => articleData.value?.fallback ?? false)
@@ -322,7 +341,17 @@ useSeoMeta({
       <article class="mt-4 flex min-h-0 flex-1 flex-col gap-3">
         <header class="shrink-0 space-y-2">
           <div class="flex items-start justify-between gap-3">
-            <h1 class="min-w-0 text-3xl font-bold text-content">{{ articleTitle }}</h1>
+            <!-- A letter article's title IS the letter, so it is set in the
+                 handwriting model the alphabet is taught with (Playwrite):
+                 uppercase then lowercase, same face. A group ("ea", "sch") has
+                 no case pair and keeps the plain title. The prose title stays
+                 in the accessible name, so screen readers and search engines
+                 still get a word. -->
+            <h1 v-if="cursivePair" class="cursive min-w-0 text-4xl text-content" :data-cursive="trackLang">
+              <span aria-hidden="true">{{ cursivePair.upper }} {{ cursivePair.lower }}</span>
+              <span class="sr-only">{{ articleTitle }}</span>
+            </h1>
+            <h1 v-else class="min-w-0 text-3xl font-bold text-content">{{ articleTitle }}</h1>
             <!-- Close: back to the topic's table, the same target as the breadcrumb -->
             <a
               :href="`/learn/${trackLang}/${track}?chapter=${topicCode.slice(0, 4)}&topic=${topicCode}`"

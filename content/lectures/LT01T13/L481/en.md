@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## The Sound of the Letter X
+## Sound of the letter ixe
 
-The French letter **X** is remarkably versatile and does not have a single fixed sound. Most frequently, it represents the double consonant sounds `/ks/` (as in *texte*) or `/ɡz/` (as in *xylophone* and *exemple*). In a handful of numerals and in linking liaisons, it softens further to a simple `/s/` or `/z/`.
+The letter (ixe) /iks/ represents the sound /ks/ in the word (texte) /tɛkst/.
 
-## How to Pronounce It
+## How to say ixe
 
-For the standard `/ɡz/` cluster found in words like *xylophone*, start with a voiced velar stop: place the back of your tongue against the soft palate and release it into a humming `/ɡ/`. Immediately slide the tip of your tongue forward behind your lower teeth to produce a buzzing, voiced `/z/`. Keep vocal cord vibration active throughout the entire sequence.
+For the voiceless cluster, block air with the back of your tongue, release it sharply, then hiss behind your teeth. For the voiced cluster, add vibration from your vocal cords. For the pure hissing sound, keep vocal cords still.
 
-## Spelling Patterns
+## Spelling rules for ixe
 
-At the start of words before a vowel, such as Greek-derived scientific terms, **X** is regularly pronounced `/ɡz/`. The prefix *ex-* followed by a vowel or silent *h* also yields `/ɡz/`, while *ex-* before a consonant yields `/ks/`. At the end of most everyday French words (like *voix* or *paix*), **X** is entirely silent unless linked in liaison.
+Inside a word before a consonant or after an initial vowel, it sounds like the cluster /ks/ in (taxi) /tak.si/. In the prefix followed by a vowel, it sounds like the voiced cluster /ɡz/ in (examen) /ɛɡ.za.mɛ̃/. In numbers like (dix) /dis/, it yields the sound /s/. At the end of most words, it is silent, as in (paix) /pɛ/.
 
-## Contrasting Sounds and Pitfalls
+## Pitfalls with ixe
 
-English speakers often pronounce initial *x-* as a simple `/z/` (e.g., in English *xylophone*), but in French it must begin with an audible `/ɡ/` as `/ɡzi.lɔ.fɔn/`. Avoid turning the voiced `/ɡz/` of *exemple* into an unvoiced `/ks/`. Pay close attention to numeral oddities, where **X** sounds like `/s/` in isolation (*six*, *dix*) but switches to `/z/` before a vowel (*six amis*).
+English speakers often pronounce the final consonant in words like the English word fix. In French, final letters of this type usually stay completely quiet.

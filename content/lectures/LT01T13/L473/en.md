@@ -20,18 +20,18 @@ terms:
   ro: "P"
 ---
 
-## The Sound of French P
+## Sound of pé
 
-The French letter **P** normally represents an unaspirated voiceless bilabial plosive `/p/`. Unlike the English 'p' in 'pot', it is pronounced completely crisply without a puff of air (`[pʰ]`), sounding much closer to the 'p' in 'spot'. At the end of words or in specific clusters, it is frequently silent.
+The letter is called (pé) /pe/. It usually represents the sound /p/, as heard in the word (porte) /pɔʁt/.
 
-## How to Pronounce /p/
+## Forming the sound
 
-Bring both lips firmly together to completely block the airflow from your lungs. Release the seal sharply and cleanly without letting out a delayed burst of breath. Keep your vocal cords completely still, ensuring the sound remains entirely voiceless.
+Press both lips firmly together to stop the airflow entirely. Release them quickly with no puff of breath. Your vocal cords stay still.
 
-## Spelling and Silent Letters
+## Reading this letter
 
-The letter **P** appears as a single letter or doubled as in **appeler**, where it is still pronounced as a single `/p/`. At the end of many common words such as **beaucoup**, **trop**, and **drap**, the **P** is totally silent. It also combines with **h** to form the digraph **ph**, which is pronounced `/f/` as in **photo**.
+At the start of words or before a vowel, it gives the sound /p/, as in (pomme) /pɔm/. At the end of many common words, it is not pronounced, as in (drap) /dʁa/ and (trop) /tʁo/.
 
-## Aspiration and Silent P Pitfalls
+## Common pronunciation pitfalls
 
-The most common mistake English speakers make is aspirating French `/p/` at the start of words, which sounds unnatural to native ears. Practice saying **pain** without exhaling any breath against your hand. Additionally, take care never to pronounce silent final letters in words like **loup** or historical clusters like **sept** `/sɛt/`.
+English speakers release a puff of air with this sound, as in pot. The French sound is completely unaspirated. Hold back your breath so it sounds like the consonant in spot.

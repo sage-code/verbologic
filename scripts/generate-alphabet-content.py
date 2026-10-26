@@ -9,13 +9,37 @@ articles need but that were never authored:
   exampleTranslation  the example word's meaning, per UI locale
   variations[]        the letter's pronunciation variants, each with its own
                       IPA, the context it occurs in, and example words
-  sections{}          the four article sections per UI locale
+  sections{}          the four article pages per UI locale
                       (sound · howToSay · spelling · compare)
 
+Two stages, so every locale is written from the same words: stage 1 fixes the
+facts (example, translations, variations); stage 2 writes the pages per locale
+from those facts only. A page is also read aloud, so stage 2 output is checked
+against the spoken-form rules (SPOKEN_FORM_RULES) and rejected if it breaks
+them. Foreign words are written `(word) /ipa/`: shown, but skipped by the voice,
+which speaks only the respelled IPA (scripts/lib/ipa-translit.mjs).
+
+The article is a reference card, not an essay. Each page has ONE job and the
+letter's own sounds only: a letter group (ch, qu, ou, ai, gn, ill, -tion) is a
+different sound with its own article, so it is never a variant of its first
+letter and never explained here.
+
+Pipeline after authoring (the pages are read aloud page by page, so the audio
+must be rebuilt whenever the prose changes):
+
+  node scripts/alphabet-to-markdown.mjs
+  node scripts/sync-alphabet-manifests.mjs
+  .venv/Scripts/python.exe scripts/generate-audio.py --read --apply --overwrite-audio
+
 Existing values are never overwritten unless --overwrite is passed, so the
-script is safe to re-run as content grows.
+script is safe to re-run as content grows. --overwrite re-authors the PAGES and
+keeps the facts; add --facts to re-author the facts too (which makes every
+other locale's pages stale, because they quote those words).
 
 Examples:
+  .venv/Scripts/python.exe scripts/generate-alphabet-content.py --lang fr --code L460 --locales ro --overwrite --preview
+  .venv/Scripts/python.exe scripts/generate-alphabet-content.py --lang fr --locales ro --overwrite --apply
+  .venv/Scripts/python.exe scripts/generate-alphabet-content.py --lang fr --locales ro --overwrite --facts --apply
   .venv/Scripts/python.exe scripts/generate-alphabet-content.py --lang ro
   .venv/Scripts/python.exe scripts/generate-alphabet-content.py --all --apply
   .venv/Scripts/python.exe scripts/generate-alphabet-content.py --lang de --apply --overwrite
@@ -26,6 +50,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import urllib.error
@@ -55,7 +80,6 @@ LANGUAGE_NAMES = {
 }
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta"
 DEFAULT_GEMINI_MODEL = "models/gemini-3.8-flash"
-BATCH_SIZE = 1
 #: Parallel Gemini calls. Each call is one entry x one locale group; the API
 #: tolerates this comfortably and it turns a ~9h sequential run into ~1h.
 CONCURRENCY = 8
@@ -100,7 +124,10 @@ def load_alphabet(lang: str) -> dict[str, Any]:
 
 def write_json_atomic(path: Path, data: dict[str, Any]) -> None:
     temporary = path.with_suffix(".json.tmp")
-    temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    # newline="\n" keeps the file LF on Windows too: the repository stores LF,
+    # and a CRLF rewrite would turn every line of the file into a diff.
+    with temporary.open("w", encoding="utf-8", newline="\n") as handle:
+        handle.write(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
     temporary.replace(path)
 
 
@@ -108,104 +135,437 @@ def entries_of(data: dict[str, Any]) -> list[dict[str, Any]]:
     return [*(data.get("letters") or []), *(data.get("groups") or [])]
 
 
-def pending_entries(data: dict[str, Any], overwrite: bool) -> list[dict[str, Any]]:
+def needs_meta(entry: dict[str, Any]) -> bool:
+    """True while the factual half (example, translations, variants) is missing."""
+    return (
+        is_missing(entry.get("example"))
+        or is_missing(entry.get("exampleIpa"))
+        or not entry.get("exampleTranslation")
+        or not entry.get("variations")
+    )
+
+
+def locale_groups(locales: tuple[str, ...] | None) -> tuple[tuple[str, ...], ...]:
+    """The locale groups to author: the default three, or a --locales subset."""
+    if not locales:
+        return LOCALE_GROUPS
+    return tuple(locales[i : i + 3] for i in range(0, len(locales), 3))
+
+
+def incomplete_locales(
+    entry: dict[str, Any], groups: tuple[tuple[str, ...], ...] = LOCALE_GROUPS
+) -> tuple[tuple[str, ...], ...]:
+    """The locale groups an entry is still missing sections for."""
+    have = set((entry.get("sections") or {}).keys())
+    return tuple(group for group in groups if not set(group).issubset(have))
+
+
+def pending_entries(
+    data: dict[str, Any],
+    overwrite: bool,
+    codes: set[str] | None,
+    groups: tuple[tuple[str, ...], ...],
+    facts: bool = False,
+) -> list[dict[str, Any]]:
     """Entries that still need authored content (including partial ones)."""
     out = []
     for entry in entries_of(data):
-        if overwrite:
-            out.append(entry)
+        if codes and entry.get("code") not in codes:
             continue
-        needs = (
-            is_missing(entry.get("example"))
-            or is_missing(entry.get("exampleIpa"))
-            or not entry.get("exampleTranslation")
-            or not entry.get("variations")
-            or not entry.get("sections")
-            # A run that lost a call leaves some locale groups empty; those
-            # entries are still pending even though `sections` exists.
-            or incomplete_locales(entry)
-        )
-        if needs:
+        # A run that lost a call leaves some locale groups empty; those entries
+        # are still pending even though `sections` exists.
+        if overwrite or facts or needs_meta(entry) or incomplete_locales(entry, groups):
             out.append(entry)
     return out
 
 
-def incomplete_locales(entry: dict[str, Any]) -> tuple[str, ...]:
-    """The locale groups an entry is still missing sections for."""
-    have = set((entry.get("sections") or {}).keys())
-    return tuple(
-        group for group in LOCALE_GROUPS if not set(group).issubset(have)
-    )
+def build_request(entry: dict[str, Any], with_facts: bool = False) -> dict[str, Any]:
+    """The per-entry payload sent to Gemini (kept small and factual).
 
-
-def build_request(entry: dict[str, Any], lang: str) -> dict[str, Any]:
-    """The per-entry payload sent to Gemini (kept small and factual)."""
-    return {
+    `ipa` is the transcription of the letter's NAME as recited in the alphabet
+    (fr "cé" is /se/); how the letter sounds inside words is `variations`.
+    """
+    request = {
         "code": entry.get("code"),
         "glyph": entry.get("glyph"),
-        "ipa": entry.get("ipa"),
         "letterName": entry.get("letterName"),
-        "example": entry.get("example"),
-        "existingNote": (entry.get("note") or {}).get("en"),
+        "nameIpa": entry.get("ipa"),
     }
+    if with_facts:
+        request["example"] = entry.get("example")
+        request["exampleIpa"] = entry.get("exampleIpa")
+        request["variations"] = entry.get("variations")
+    return request
 
 
-def prompt_for(batch: list[dict[str, Any]], lang: str, locales: tuple[str, ...]) -> str:
+#: IPA as the site writes it. Slashes are what the TTS pre-processor recognises
+#: (scripts/lib/ipa-translit.mjs), so this is a contract, not a style choice.
+IPA_FORMAT = (
+    "broad phonemic IPA between slashes, real IPA characters, syllables "
+    "separated by a dot, no stress marks, no square brackets (e.g. /ka.fe/); "
+    "a letter that makes no sound is written /∅/"
+)
+
+#: Pages are also read aloud. A voice of the reader's language cannot say a
+#: foreign word, so the pairing `(word) /ipa/` is the whole trick: the word in
+#: round brackets is shown but SKIPPED by the voice, and the IPA after it is
+#: respelled in the voice's own alphabet and spoken. These rules make the same
+#: text correct for the eye and for the ear.
+SPOKEN_FORM_RULES = (
+    "WRITING RULES. Every page is shown on screen AND read aloud by a "
+    "text-to-speech voice of the page's language, which cannot pronounce "
+    "words of the target language. Follow all of them exactly:\n"
+    "R1. Every target-language word is written as `(word) /ipa/`: the word in "
+    "round brackets exactly as spelled, one space, then its IPA between "
+    "slashes. The voice skips the bracketed word and speaks only the IPA. "
+    "Never put the IPA inside the brackets, never put anything but the word "
+    "inside them, and never wrap the pair in bold, italics, quotes or backticks.\n"
+    "R2. Round brackets are used ONLY for rule R1. No asides, no abbreviations "
+    "or explanations in brackets.\n"
+    "R3. A slash is used ONLY around IPA. Write lists in words (\"a, o or u\", "
+    "never \"a/o/u\"), never \"and/or\".\n"
+    "R4. Words of the page's own language (for comparison, e.g. a Romanian word "
+    "that has the same sound) are written normally, with no brackets and no IPA.\n"
+    "R5. Never write the bare glyph of the letter being taught in the prose: "
+    "the article title already shows it. Name the letter by its NAME, in the "
+    "`(word) /ipa/` form of R1. The only markup allowed is **bold** for "
+    "emphasis in the page's own language; never bold a target-language word "
+    "or its IPA. No lists, tables, headings, emoji, backticks, italics, "
+    "square brackets or line breaks. One paragraph per page.\n"
+    "R6. Sentences are short (20 words at most) and make sense when only "
+    "heard. Do not use symbols such as -> = + & ~ or abbreviations "
+    "(e.g., etc., cf.). Never leave an IPA symbol standing alone: say what it "
+    "is (\"sunetul /k/\", \"the sound /k/\").\n"
+    "R7. Write in the page's language with its full correct orthography and "
+    "diacritics (Romanian: comma-below ș and ț, never cedilla). Address the "
+    "learner directly.\n"
+    "R8. Each page is played on its own, so it must be understood without the "
+    "others: never open with a reference to another page (\"as we saw\", "
+    "\"the second sound\"). Naming the letter by its name is allowed on every "
+    "page; no other fact is repeated.\n"
+    "R9. Never put a `(word) /ipa/` pair next to a word of the page's language "
+    "that sounds like the respelled IPA: the voice would say it twice "
+    "(Romanian \"litera (cé) /se/ se pronunță\" is heard as \"se se\"). "
+    "Rephrase the sentence instead.\n"
+    "R10. Never write /∅/ in the prose: the voice reads it as a word "
+    "(\"nimic\", \"nothing\"). Say in words that the letter is not pronounced, "
+    "then give the example.\n"
+    "R11. The voice reads IPA through a respelling in the page's language, so "
+    "two different symbols can come out identical (Romanian reads both /o/ and "
+    "/ɔ/ as \"o\"). When two variants of this letter would be heard the same, "
+    "add a short qualifier in the page's language right after the symbol "
+    "(\"sunetul /ɔ/, adică un o deschis\"). Never leave the learner unable to "
+    "tell the variants apart by ear.\n"
+)
+
+PAGE_LIMITS = {"sound": 40, "howToSay": 45, "spelling": 55, "compare": 45}
+
+
+def prompt_meta(batch: list[dict[str, Any]], lang: str) -> str:
+    """Stage 1 — the facts every locale's pages are built from."""
     language = LANGUAGE_NAMES[lang]
     return (
-        f"You are an expert {language} teacher and phonetician writing the "
-        f"alphabet articles for a language-learning site. The target language "
-        f"is {language}. For EACH entry below, produce:\n\n"
-        "1. `example`: a common, concrete example word in the target language "
-        "that STARTS WITH this letter (or contains this group), and "
-        "`exampleIpa`: its IPA in slashes, with the stressed syllable marked "
-        "(e.g. /ˈa.pfel/).\n"
-        "2. `exampleTranslation`: the example word's meaning in EVERY one of "
-        f"these explanation languages: {', '.join(locales)}. One short gloss "
-        "each (1-3 words), not a sentence.\n"
-        "3. `variations`: the letter's real pronunciation variants in "
-        f"{language}, most common first. Each variant is an object with "
-        "`ipa` (slashes), `when` (a short phrase in English naming the context, "
-        "e.g. 'in an open stressed syllable'), and `examples` (1-2 objects of "
-        "`word` + `ipa`, real words in the target language). Give 1-4 variants. "
-        "If the letter has only one sound, give exactly one variant.\n"
-        "4. `sections`: an object keyed by explanation locale "
-        f"({', '.join(locales)}). Each value has four keys:\n"
-        "   - `sound`: {title, text} — what the letter sounds like, its IPA, "
-        "and how it differs from the nearest sound in the learner's language.\n"
-        "   - `howToSay`: {title, text} — mouth/tongue/lips instructions a "
-        "learner can follow.\n"
-        "   - `spelling`: {title, text} — how the letter is written and how it "
-        "behaves in words (position, capitalisation, common spellings).\n"
-        "   - `compare`: {title, text} — the pronunciation variants and the "
-        "words that show them, plus a warning about the mistakes learners make.\n"
-        "   Write each `text` as ONE or TWO short sentences — enough to explain "
-        "the sound, no more. This is a reference card, not an essay: a learner "
-        "reads it in ten seconds. Do NOT restate the IPA, do NOT pad with "
-        "encouragement or generalities, and do NOT repeat what another section "
-        "already said. Use `**bold**` for emphasis and backticks for IPA inline. "
-        "Never leave a locale out.\n\n"
+        f"You are an expert {language} phonetician preparing the facts for the "
+        f"alphabet articles of a language-learning site. The target language is "
+        f"{language}. For EACH entry (one letter) produce:\n\n"
+        "1. `example`: one common, concrete word in which THIS LETTER, on its "
+        "own, makes its MAIN sound. The letter must be the only source of that "
+        "sound in the word: never a word where the sound comes from a letter "
+        "group (ch, qu, ou, ai, gn, ill, -tion, ...). Prefer a word that starts "
+        "with the letter. `exampleIpa`: its IPA — " + IPA_FORMAT + ".\n"
+        "2. `exampleTranslation`: the example's meaning in EVERY one of these "
+        f"languages: {', '.join(LOCALES)}. 1-3 words each, not a sentence.\n"
+        f"3. `variations`: how this letter, ON ITS OWN, is pronounced in "
+        f"{language}, most common first. One object per variant: `ipa` (slashes, "
+        "one sound), `when` (a short English phrase naming the position, "
+        "neighbouring letters or diacritic that triggers it), `examples` (1-2 "
+        "objects of `word` + `ipa`, real words of the target language where the "
+        "letter really makes that sound). 1-4 variants; exactly one if the "
+        "letter has a single sound. INCLUDE the letter's accented and special "
+        "forms (ç, é è ê ë, ...) and position effects such as a silent final "
+        "letter.\n"
+        "   EXCLUDE LETTER GROUPS. A digraph, trigraph, diphthong spelling, "
+        "nasal-vowel spelling or fixed ending (ch, qu, ou, ai, gn, ill, -tion, "
+        "-er, ...) is a DIFFERENT sound with its own article. It is never a "
+        "variant of its first letter, and its words are never examples here. "
+        "So French c has /k/ and /s/ (and the cedilla), never /ʃ/ from ch; "
+        "French o has /ɔ/ and /o/, never /w/ from oi; French q has /k/, never "
+        "/kw/ from qu. If a sound only exists inside a group, leave it out.\n"
+        "   The `example` word must illustrate one of the variants you return: "
+        "its IPA must be the IPA of that variant (or, for a silent letter, a "
+        "word where the letter is not pronounced). For a silent-letter variant "
+        "prefer a word with no letter group at all, so the learner is not "
+        "distracted by a group sound (French `salut` for a silent final t, not "
+        "`chat`, whose `ch` is a group).\n"
+        "   Every word must be a real, current dictionary word of "
+        f"{language}, spelled exactly as a dictionary spells it — with its "
+        "accents, its hyphens and its apostrophes (French `week-end`, not "
+        "`weekend`; `aujourd'hui`, not `aujourdhui`). Never invent, "
+        "anglicise or regularise a spelling, and never use a word you are not "
+        "certain exists. If you cannot recall a real word for a variant, "
+        "return that variant with one example you are sure of rather than two.\n"
+        f"   Variant IPA is {IPA_FORMAT}.\n\n"
         "Return ONLY JSON of the shape "
         '{"items":[{"code":"L001","example":"...","exampleIpa":"/.../",'
-        '"exampleTranslation":{"en":"..."},"variations":[...],"sections":{...}}]}. '
+        '"exampleTranslation":{"en":"..."},"variations":[{"ipa":"/.../",'
+        '"when":"...","examples":[{"word":"...","ipa":"/.../"}]}]}]}. '
         "Include every entry exactly once, in the order given, and no commentary.\n\n"
         f"ENTRIES:\n{json.dumps(batch, ensure_ascii=False)}"
     )
 
 
-def call_gemini(
-    batch: list[dict[str, Any]], lang: str, locales: tuple[str, ...]
-) -> dict[str, dict[str, Any]]:
+def prompt_sections(
+    batch: list[dict[str, Any]], lang: str, locales: tuple[str, ...], feedback: str = ""
+) -> str:
+    """Stage 2 — the four reading pages per locale, written from the facts."""
+    language = LANGUAGE_NAMES[lang]
+    names = ", ".join(f"{code} = {LANGUAGE_NAMES[code]}" for code in locales)
+    fix = (
+        "\n\nYOUR PREVIOUS ANSWER BROKE THESE RULES — fix every one and "
+        f"change nothing else:\n{feedback}\n"
+        if feedback
+        else ""
+    )
+    return (
+        f"You are an expert {language} phonetician and teacher writing the "
+        f"alphabet reference articles of a language-learning site. The target "
+        f"language is {language}. Each article explains ONE letter to learners "
+        f"whose own language is one of: {names}. Write the article in each "
+        "learner language separately, natively — not as a translation of "
+        "another locale.\n\n"
+        "FACTS are authoritative. Use only the `example`, the variants and "
+        "their example words, the `letterName`, and the IPA strings exactly as "
+        "given. Invent no word, no variant and no transcription of the target "
+        "language. Words of the learner's own language may be used freely for "
+        "comparison.\n\n"
+        "SCOPE. The article covers the letter ON ITS OWN. Letter groups (ch, "
+        "qu, ou, ai, gn, ill, -tion, ...) have their own articles: do not "
+        "mention them, do not explain their sounds, do not use their words. "
+        "Say each fact once: every page has a different job, nothing is "
+        "repeated on another page, and no example word appears on more than "
+        "one page. This is a reference card, not an essay: no encouragement, "
+        "no generalities, no history, no dialect survey.\n\n"
+        "PAGES, each an object {title, text}. The title is 2-4 words in the "
+        "page's language and is NOT read aloud, so it names the letter by its "
+        "NAME plainly, with no brackets and no IPA (Romanian: \"Sunetul "
+        "literei cé\"). The text is read aloud and follows the writing rules "
+        "below.\n"
+        f"- `sound` (at most {PAGE_LIMITS['sound']} words): the letter's name "
+        "as spoken, then its main sound with the `example` word. One or two "
+        "sentences; this page is the summary, not the list of variants.\n"
+        f"- `howToSay` (at most {PAGE_LIMITS['howToSay']} words): only the "
+        "movements — tongue, lips, air, voice — for the sounds this letter "
+        "makes. No spelling rules, no example words.\n"
+        f"- `spelling` (at most {PAGE_LIMITS['spelling']} words): when each "
+        "variant applies — the position, neighbouring letters or diacritic, "
+        "then its sound with ONE example word per variant. One short sentence "
+        "per variant. Do not describe the mouth again.\n"
+        f"- `compare` (at most {PAGE_LIMITS['compare']} words): the mistakes "
+        "a learner of the page's language really makes with this letter, naming "
+        "the nearest sound of THEIR language. Each mistake once, using words "
+        "of the learner's language only. If there is no real pitfall, say so in "
+        "one sentence.\n\n"
+        f"{SPOKEN_FORM_RULES}\n"
+        "Return ONLY JSON of the shape "
+        '{"items":[{"code":"L001","sections":{"<locale>":{"sound":{"title":"...",'
+        '"text":"..."},"howToSay":{...},"spelling":{...},"compare":{...}}}}]}, '
+        f"with a key for each of: {', '.join(locales)}. Include every entry "
+        f"exactly once and no commentary.{fix}\n\n"
+        f"ENTRIES:\n{json.dumps(batch, ensure_ascii=False)}"
+    )
+
+
+IPA_SPAN = re.compile(r"/[^/\n]+/")
+BRACKETED = re.compile(r"\(([^()]*)\)")
+BRACKETED_WITH_IPA = re.compile(r"\(([^()/]+)\) (/[^/\n]+/)")
+IPA_ONLY_CHARS = re.compile("[ɐ-˿̀-ͯᴀ-ᶿⱠ-Ɀ꜀-ꜟ]")
+
+
+def entry_words(entry: dict[str, Any]) -> dict[str, set[str]]:
+    """Every target-language word the pages may use, with its allowed IPA.
+
+    A word can legitimately carry more than one transcription: French `cinq`
+    is /sɛ̃k/ on its own and /sɛ̃/ before a consonant. Both are correct, so the
+    check accepts any of them rather than the last one written.
+    """
+    words: dict[str, set[str]] = {}
+
+    def add(word: Any, ipa: Any) -> None:
+        if word and ipa:
+            words.setdefault(str(word).lower(), set()).add(str(ipa).strip())
+
+    add(entry.get("example"), entry.get("exampleIpa"))
+    add(entry.get("letterName"), entry.get("ipa"))
+    for variant in entry.get("variations") or []:
+        for example in variant.get("examples") or []:
+            add(example.get("word"), example.get("ipa"))
+    return words
+
+
+def bare_foreign_words(text: str, facts: dict[str, set[str]]) -> list[str]:
+    """Target-language words written outside the `(word) /ipa/` pair.
+
+    A voice of the explanation language reads such a word with its own rules,
+    which is the mispronunciation the pairing exists to prevent. Only words of
+    six letters or more are checked: shorter ones are usually also ordinary
+    words of the explanation language ("sac", "port", "table"), and rejecting a
+    page for those would cost a repair round for nothing.
+    """
+    outside = IPA_SPAN.sub(" ", BRACKETED_WITH_IPA.sub(" ", text))
+    return [
+        word
+        for word in facts
+        if len(word) >= 6
+        and re.search(rf"(?<![\w-]){re.escape(word)}(?![\w-])", outside, re.IGNORECASE)
+    ]
+
+
+#: Single letters that are also ordinary words of the explanation languages
+#: ("a", "e", "o", "i" in Romanian; "a" in every Romance language, "A" at the
+#: start of an English sentence). Written as a bare glyph they are far more
+#: likely to be prose than a reference to the letter being taught, and for a
+#: vowel the explanation language's letter name is usually the same sound
+#: anyway, so flagging them would cost a repair round for nothing.
+WORD_LIKE_GLYPHS = set("aeiouyàáâãäåèéêëìíîïòóôõöùúûüăĕəɛɪɔʊșțşţ")
+
+
+def bare_glyph(text: str, glyph: str | None) -> str | None:
+    """The letter being taught, written bare in the prose — or None.
+
+    The article title already shows the glyph, and a voice of the explanation
+    language reads a bare glyph as ITS OWN letter name: a Romanian voice says
+    "ce" for a French **c**, which is the wrong sound. The prose therefore
+    names the letter by its name, in the `(name) /ipa/` form.
+    """
+    if not glyph or len(glyph) > 3 or glyph.lower() in WORD_LIKE_GLYPHS:
+        return None
+    outside = IPA_SPAN.sub(" ", BRACKETED_WITH_IPA.sub(" ", text))
+    outside = re.sub(r"\*\*([^*]+)\*\*", r"\1", outside)
+    match = re.search(rf"(?<![\w(]){re.escape(glyph)}(?![\w)])", outside)
+    return match.group(0) if match else None
+
+
+def validate_sections(
+    entry: dict[str, Any], sections: Any, locales: tuple[str, ...]
+) -> list[str]:
+    """Deterministic checks of the writing rules; empty list means clean."""
+    problems: list[str] = []
+    if not isinstance(sections, dict):
+        return [f"`sections` must be an object keyed by {', '.join(locales)}"]
+    facts = entry_words(entry)
+    for locale in locales:
+        page_set = sections.get(locale)
+        if not isinstance(page_set, dict):
+            problems.append(f"[{locale}] missing")
+            continue
+        seen: dict[str, str] = {}
+        for key in SECTION_KEYS:
+            page = page_set.get(key)
+            tag = f"[{locale}.{key}]"
+            if not isinstance(page, dict) or not str(page.get("text") or "").strip():
+                problems.append(f"{tag} page is missing")
+                continue
+            if not str(page.get("title") or "").strip():
+                problems.append(f"{tag} title is missing")
+            title = str(page.get("title") or "")
+            if "(" in title or "/" in title:
+                problems.append(
+                    f"{tag} title must name the letter plainly — no brackets and no IPA "
+                    "(the title is not read aloud)"
+                )
+            text = str(page["text"]).strip()
+            if re.search(r"[`\[\]|#<>\n]", text):
+                problems.append(f"{tag} uses forbidden markup (backtick, [ ], |, #, < >, line break)")
+            if re.sub(r"\*\*[^*]+\*\*", "", text).count("*"):
+                problems.append(f"{tag} uses markup other than **bold**")
+            outside_ipa = IPA_SPAN.sub(" ", text)
+            if "/" in outside_ipa:
+                problems.append(f"{tag} has a slash that is not around IPA")
+            if IPA_ONLY_CHARS.search(re.sub(r"\([^()]*\)", " ", outside_ipa)):
+                problems.append(f"{tag} has IPA characters outside slashes")
+            if text.count("(") != text.count(")"):
+                problems.append(f"{tag} has unbalanced round brackets")
+            brackets = BRACKETED.findall(text)
+            paired = BRACKETED_WITH_IPA.findall(text)
+            if len(brackets) != len(paired):
+                problems.append(
+                    f"{tag} every round bracket must hold ONE target word followed by a space and its /ipa/ "
+                    "outside the brackets: (word) /ipa/"
+                )
+            for word, ipa in paired:
+                key_word = word.strip().lower()
+                known = facts.get(key_word)
+                if known is None:
+                    problems.append(f"{tag} ({word}) is not a word from FACTS")
+                elif ipa not in known:
+                    problems.append(
+                        f"{tag} ({word}) must be followed by exactly "
+                        f"{' or '.join(sorted(known))}, not {ipa}"
+                    )
+                # R8 lets every page name the letter, so the name is exempt
+                # from the one-page-per-word rule.
+                if key_word != str(entry.get("letterName") or "").strip().lower():
+                    previous = seen.get(key_word)
+                    if previous and previous != key:
+                        problems.append(f"{tag} ({word}) is already used on page {previous}")
+                    seen.setdefault(key_word, key)
+            for word in bare_foreign_words(text, facts):
+                problems.append(
+                    f"{tag} writes the target-language word '{word}' outside the (word) /ipa/ pair; "
+                    "the voice would read it with the wrong rules"
+                )
+            if "/∅/" in text:
+                problems.append(
+                    f"{tag} writes /∅/ in the prose; the voice reads it as a word — say in words that "
+                    "the letter is not pronounced"
+                )
+            glyph = bare_glyph(text, entry.get("glyph"))
+            if glyph:
+                problems.append(
+                    f"{tag} writes the bare glyph '{glyph}'; the voice reads it as the letter name of "
+                    "the page's language — name the letter in the (word) /ipa/ form instead"
+                )
+            words = len(outside_ipa.split())
+            if words > round(PAGE_LIMITS[key] * 1.15):
+                problems.append(f"{tag} has {words} words, the limit is {PAGE_LIMITS[key]}")
+    return problems
+
+
+def spoken_preview(texts: list[str], locale: str) -> list[str]:
+    """What the TTS stage will actually say — the same node transliterator."""
+    script = (
+        "import {transliterate} from './scripts/lib/ipa-translit.mjs';"
+        "let s='';process.stdin.on('data',d=>s+=d);"
+        "process.stdin.on('end',()=>{const p=JSON.parse(s);"
+        "process.stdout.write(JSON.stringify(p.map(t=>transliterate(t,process.argv[1]))));});"
+    )
+    # Same Markdown stripping the read pass applies before transliterating.
+    cleaned = [re.sub(r"[*_`>]+", "", text) for text in texts]
+    result = subprocess.run(
+        ["node", "--input-type=module", "-e", script, locale],
+        input=json.dumps(cleaned),
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        cwd=ROOT,
+        timeout=60,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(result.stderr.strip()[:200] or "node exited non-zero")
+    return json.loads(result.stdout)
+
+
+def call_gemini(prompt: str, expected: set[str]) -> dict[str, dict[str, Any]]:
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is required (set it in .env).")
 
     payload = {
-        "contents": [{"parts": [{"text": prompt_for(batch, lang, locales)}]}],
+        "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "temperature": 0.3,
             "responseMimeType": "application/json",
-            # These responses are large (4 sections x 3 locales per entry), so
+            # These responses are large (4 pages x 3 locales per entry), so
             # the default cap truncates the JSON mid-string.
             "maxOutputTokens": 16384,
             # Gemini 3.x spends output tokens on internal reasoning by default,
@@ -241,7 +601,6 @@ def call_gemini(
                 if not isinstance(code, str) or code in by_code:
                     raise ValueError("Gemini returned a missing or duplicate code")
                 by_code[code] = item
-            expected = {entry["code"] for entry in batch}
             if not set(by_code).issubset(expected):
                 raise ValueError(f"unexpected codes: {sorted(set(by_code) - expected)}")
             return by_code
@@ -261,6 +620,34 @@ def call_gemini(
                 raise RuntimeError(f"Invalid Gemini response: {error}") from error
         time.sleep(2**attempt)
     raise RuntimeError("Gemini generation failed after retries")
+
+
+def author_meta(entry: dict[str, Any], lang: str) -> dict[str, Any]:
+    """Stage 1 for one entry: example, translations and variants."""
+    code = entry["code"]
+    return call_gemini(prompt_meta([build_request(entry)], lang), {code}).get(code) or {}
+
+
+def author_sections(
+    entry: dict[str, Any], lang: str, locales: tuple[str, ...]
+) -> tuple[dict[str, Any], list[str]]:
+    """Stage 2 for one entry and locale group, with one repair round.
+
+    The validator is the contract with the TTS stage; a page that breaks it is
+    never stored, because it would be spoken wrongly on every playback.
+    """
+    code = entry["code"]
+    request = [build_request(entry, with_facts=True)]
+    feedback = ""
+    result: dict[str, Any] = {}
+    problems: list[str] = []
+    for _ in range(2):
+        result = call_gemini(prompt_sections(request, lang, locales, feedback), {code}).get(code) or {}
+        problems = validate_sections(entry, result.get("sections"), locales)
+        if not problems:
+            return result, []
+        feedback = "\n".join(f"- {problem}" for problem in problems[:12])
+    return result, problems
 
 
 def apply_result(
@@ -351,25 +738,73 @@ def apply_result(
     return changed
 
 
+
+def preview(
+    entries: list[dict[str, Any]],
+    lang: str,
+    groups: tuple[tuple[str, ...], ...],
+    overwrite: bool,
+    facts: bool = False,
+) -> None:
+    """Author in memory and print — for tuning the prompts without writing."""
+    for entry in entries:
+        draft = json.loads(json.dumps(entry))
+        if facts or needs_meta(draft):
+            draft.pop("variations", None)
+            apply_result(draft, author_meta(draft, lang), True, tuple(LOCALES))
+        print(f"\n===== {lang} {draft['code']} {draft.get('glyph')!r} =====")
+        print(f"example: {draft.get('example')} {draft.get('exampleIpa')}")
+        for variant in draft.get("variations") or []:
+            words = ", ".join(f"{e['word']} {e['ipa']}" for e in variant.get("examples", []))
+            print(f"  variant {variant['ipa']}  {variant['when']}  [{words}]")
+        for locales in groups:
+            result, problems = author_sections(draft, lang, locales)
+            for locale in locales:
+                pages = (result.get("sections") or {}).get(locale) or {}
+                keys = [key for key in SECTION_KEYS if isinstance(pages.get(key), dict)]
+                spoken = spoken_preview([pages[key].get("text", "") for key in keys], locale)
+                for key, said in zip(keys, spoken):
+                    page = pages[key]
+                    count = len(IPA_SPAN.sub(" ", page.get("text", "")).split())
+                    print(f"\n--- [{locale}] {key}: {page.get('title')}  ({count}/{PAGE_LIMITS[key]} words)")
+                    print(page.get("text", ""))
+                    print(f"  SPOKEN: {said}")
+            print("\nPROBLEMS:" if problems else "\nrules: all pass")
+            for problem in problems:
+                print(f"  - {problem}")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--lang", choices=LOCALES, help="only this target language")
     parser.add_argument("--all", action="store_true", help="every language with an alphabet file")
+    parser.add_argument("--code", help="only these item codes, comma-separated (e.g. L460)")
+    parser.add_argument("--locales", help="only these explanation locales, comma-separated (e.g. ro)")
     parser.add_argument("--apply", action="store_true", help="write the generated content")
-    parser.add_argument("--overwrite", action="store_true", help="replace existing content")
+    parser.add_argument("--preview", action="store_true", help="author in memory and print the pages, the spoken text and rule violations; writes nothing")
+    parser.add_argument("--overwrite", action="store_true", help="re-author the pages (keeps the facts)")
+    parser.add_argument("--facts", action="store_true", help="re-author the facts too (example, translations, variants); every locale's pages then quote stale words, so re-author them as well")
     args = parser.parse_args()
 
     load_env()
     langs = [args.lang] if args.lang else sorted(p.stem for p in ALPHABETS.glob("*.json"))
     if not args.lang and not args.all:
         parser.error("choose --lang <code> or --all")
+    codes = {c.strip() for c in args.code.split(",") if c.strip()} if args.code else None
+    wanted = tuple(c.strip() for c in args.locales.split(",") if c.strip()) if args.locales else None
+    if wanted and not set(wanted).issubset(LOCALES):
+        parser.error(f"--locales must be among {', '.join(LOCALES)}")
+    groups = locale_groups(wanted)
 
     grand_total = 0
     for lang in langs:
         data = load_alphabet(lang)
-        pending = pending_entries(data, args.overwrite)
+        pending = pending_entries(data, args.overwrite, codes, groups, args.facts)
         print(f"{lang}: {len(entries_of(data))} entries, {len(pending)} need content")
         if not pending:
+            continue
+        if args.preview:
+            preview(pending, lang, groups, args.overwrite, args.facts)
             continue
         if not args.apply:
             for entry in pending:
@@ -377,52 +812,69 @@ def main() -> None:
             continue
 
         changed = 0
-        # Each (entry, locale-group) pair is an independent Gemini call, so they
-        # run concurrently: 363 entries x 3 groups is ~1100 calls, which is
-        # hours of wall time sequentially. The pool is small enough to stay
-        # under the API's rate limit.
+        # Stage 1 — the facts (example, translations, variants), once per entry,
+        # so every locale's pages are written from the same words and variants.
+        meta_todo = [e for e in pending if args.facts or needs_meta(e)]
+        with ThreadPoolExecutor(max_workers=CONCURRENCY) as pool:
+            futures = {pool.submit(author_meta, entry, lang): entry for entry in meta_todo}
+            for future in as_completed(futures):
+                entry = futures[future]
+                try:
+                    changed += apply_result(entry, future.result(), args.facts, tuple(LOCALES))
+                except RuntimeError as error:
+                    print(f"  skipping facts for {entry.get('code')}: {error}", file=sys.stderr)
+        write_json_atomic(alphabet_path(lang), data)
+
+        # Stage 2 — each (entry, locale-group) pair is an independent call, so
+        # they run concurrently: 363 entries x 3 groups is ~1100 calls, which is
+        # hours of wall time sequentially.
+        #
+        # Re-authoring the facts invalidates every locale's pages (they quote
+        # those words), so --facts implies --overwrite for the pages.
+        rewrite_pages = args.overwrite or args.facts
         jobs = [
-            (entry, locales)
+            (entry, group)
             for entry in pending
-            # An entry missing only its example word still needs one call; fall
-            # back to the first group so the job list is never empty.
-            for locales in (incomplete_locales(entry) or (LOCALE_GROUPS[0],))
+            if entry.get("variations") and entry.get("example")
+            for group in (groups if rewrite_pages else incomplete_locales(entry, groups))
         ]
+        for entry in pending:
+            if not (entry.get("variations") and entry.get("example")):
+                print(f"  {entry.get('code')}: no facts yet, pages not written", file=sys.stderr)
         total_jobs = len(jobs)
         completed = 0
         with ThreadPoolExecutor(max_workers=CONCURRENCY) as pool:
             futures = {
-                pool.submit(call_gemini, [build_request(entry, lang)], lang, locales): (entry, locales)
-                for entry, locales in jobs
+                pool.submit(author_sections, entry, lang, group): (entry, group)
+                for entry, group in jobs
             }
             for future in as_completed(futures):
-                entry, locales = futures[future]
+                entry, group = futures[future]
                 completed += 1
                 try:
-                    results = future.result()
+                    result, problems = future.result()
                 except RuntimeError as error:
+                    print(f"  skipping {entry.get('code')} [{group[0]}/{group[-1]}]: {error}", file=sys.stderr)
+                    continue
+                if problems:
                     print(
-                        f"  skipping {entry.get('code')} [{locales[0]}/{locales[-1]}]: {error}",
+                        f"  rejected {entry.get('code')} [{group[0]}/{group[-1]}]: "
+                        + "; ".join(problems[:4]),
                         file=sys.stderr,
                     )
-                    continue
-                result = results.get(entry["code"])
-                if result:
-                    changed += apply_result(entry, result, args.overwrite, locales)
+                else:
+                    changed += apply_result(entry, {"sections": result["sections"]}, rewrite_pages, group)
                 if completed % 10 == 0 or completed == total_jobs:
                     write_json_atomic(alphabet_path(lang), data)
-                    print(
-                        f"  {completed}/{total_jobs} call(s) done, {changed} field(s) written",
-                        flush=True,
-                    )
+                    print(f"  {completed}/{total_jobs} call(s) done, {changed} field(s) written", flush=True)
         write_json_atomic(alphabet_path(lang), data)
         grand_total += changed
         print(f"{lang}: wrote {changed} field(s)")
 
     if args.apply:
         print(f"Done — {grand_total} field(s) written.")
-    else:
-        print("Run with --apply to call Gemini and write the content.")
+    elif not args.preview:
+        print("Run with --apply to call Gemini and write the content, or --preview to read the pages first.")
 
 
 if __name__ == "__main__":

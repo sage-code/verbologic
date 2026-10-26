@@ -20,18 +20,18 @@ terms:
   ro: "T"
 ---
 
-## The Sound of T
+## Sound of letter té
 
-The letter **T** in French usually represents the voiceless dental plosive `/t/`. Unlike in English, French `/t/` is strictly unaspirated, meaning there is no puff of air released after the stop. Before endings like **-tion** or certain vowel sequences starting with **i**, it typically softens to an `/s/` sound.
+This letter is called (té) /te/. Its main sound is the sound /t/ as in the word (table) /tabl/.
 
-## How to Pronounce T
+## Forming the Sound
 
-Place the tip of your tongue firmly against the back of your upper front teeth rather than the alveolar ridge behind them. Build up air pressure behind this dental barrier, then release it cleanly without exhaling a breath of air. Keep your vocal cords still to maintain an unvoiced, crisp release.
+Place the tip of your tongue against your upper teeth. Release the closure sharply without any puff of breath. For the friction sound, bring your tongue near the gum ridge and blow unvoiced air through the narrow gap.
 
-## Spelling Patterns
+## Reading the Letter
 
-**T** is found in single and double forms, such as in *tard* or *attendre*, both pronounced as a single `/t/`. At the end of words like *mot* or *vert*, the final **t** is normally silent unless carried over into the next word through liaison. When followed by **-ion** or combined with certain vowels, it routinely shifts to the `/s/` sound found in *action*.
+At the start of words or before most vowels, pronounce the sound /t/ as in (tapis) /ta.pi/. Before an i followed by another vowel, make the sound /s/ as in (patient) /pa.sjɑ̃/. At the end of many words, do not pronounce it, as in (salut) /sa.ly/.
 
-## Nuances and Common Pitfalls
+## Common Pronunciation Errors
 
-English speakers often make the mistake of aspirating the French `/t/` or placing the tongue too far back on the gum ridge. Compare the unaspirated `/t/` in *temps* with the alveolar, breathy English 'time'. Be cautious with words ending in **-tion**, where the letter changes to `/s/` as in *nation*, avoiding an English 'sh' sound.
+English speakers release a puff of air with this consonant as in top. In French, you must release it crisply without aspiration. Also, avoid pronouncing it at word ends where it should stay silent.

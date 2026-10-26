@@ -20,18 +20,18 @@ terms:
   ro: "D"
 ---
 
-## The Sound of French D
+## Sound of the letter dé
 
-The letter **D** in French primarily represents the voiced dental stop `/d/`. Unlike the English alveolar 'd', where the tongue hits the gum ridge behind your upper teeth, French `/d/` is strictly dental. It is also completely unaspirated, meaning there is never an accompanying puff of air.
+This letter is called (dé) /de/. Its sound is /d/, heard in the word (date) /dat/.
 
-## How to Produce /d/
+## Producing the sound
 
-Touch the tip of your tongue firmly against the back of your **upper front teeth**, rather than the alveolar ridge. Build up slight air pressure behind the seal, activate your vocal cords, and release the blockage cleanly. Keep the release crisp and avoid exhaling extra breath as you move into the next vowel.
+Press the tip of your tongue against the back of your upper front teeth. Vibrate your vocal cords and release the air gently without a puff.
 
-## Spelling and Silent D
+## Spelling and variants
 
-The sound `/d/` is usually written as single **d** or double **dd** as in *addition*. At the end of words, final **d** is almost always completely silent, as in *tard* or *canard*. However, in careful speech, a final **d** may link to a following vowel-initial word via liaison, transforming into a `/t/` sound.
+In most positions, it makes the sound /d/, as in (mode) /mɔd/. At the end of many words, the letter is not pronounced, as in (nord) /nɔʁ/.
 
-## Comparing Sounds and Common Pitfalls
+## Comparing with English
 
-Be careful not to pronounce French `/d/` with English-style alveolar placement, which makes your French accent sound heavy and foreign. Furthermore, watch out for final silent letters: pronouncing the ending of words like *chaud* or *lourd* is a frequent error for beginners. Remember that in liaison, *un grand ami* sounds strictly with a `/t/` (`/œ̃ ɡʁɑ̃.t‿a.mi/`).
+In English, the tip of your tongue touches the gum ridge behind your teeth, as in day. In French, touch the back of your upper front teeth instead. Do not add a puff of air.

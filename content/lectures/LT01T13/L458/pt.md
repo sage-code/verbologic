@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## O som da letra A
+## O som da letra a
 
-A letra **A** em francês representa predominantemente a vogal aberta anterior `/a/`, muito clara e bem articulada. Este som é muito semelhante ao **a** aberto do português europeu ou brasileiro em palavras como *pá* ou *casa*. Em contextos mais raros ou com acento circunflexo, pode soar ligeiramente mais posterior (`/ɑ/`).
+A letra (a) /a/ chama-se /a/. O seu som principal é o /a/ aberto e frontal, como na palavra (ami) /a.mi/.
 
-## Como articular o som
+## Como pronunciar o a
 
-Abra a boca de forma ampla e relaxada, sem arredondar os lábios. Mantenha a ponta da língua repousada junto à raiz dos dentes incisivos inferiores, com o dorso da língua bem baixo. Emita o som de forma direta e limpa, garantindo que o ar saia exclusivamente pela boca.
+Abra bem a boca com os lábios relaxados. Mantenha a ponta da língua junto aos dentes inferiores para o som frontal. Para a variante recuada, puxe ligeiramente o dorso da língua para trás.
 
-## Regras de escrita e grafia
+## Grafia da letra a
 
-A letra **A** pode surgir com acento grave (*à*), o que serve para diferenciar palavras homófonas sem alterar a sua pronúncia básica. Quando recebe o acento circunflexo (*â*), em palavras como *bâtiment*, indicava historicamente um som mais posterior e longo. Em dígrafos como *ai*, *au* ou *an*, assume valores fonéticos totalmente distintos.
+Geralmente e com acento grave, lê-se com o som /a/ aberto, como no vocábulo (là) /la/. Com acento circunflexo, produz o som /ɑ/ mais recuado e escuro, como em (pâte) /pɑt/ ou em (âne) /ɑn/.
 
-## Variações e armadilhas comuns
+## Dificuldades comuns
 
-O erro mais comum para lusófonos é reduzir a vogal para um som fechado ou átono, como o *a* final de *mesa* em português europeu; em francês, o **A** deve permanecer sempre aberto e nítido. Cuidado também para não nasalizar a vogal antes de *m* ou *n* quando estes são seguidos de outra vogal, como em *ami*, onde o **A** é estritamente oral. A oposição clássica entre *patte* (`/pat/`) e *pâte* (`/pɑt/`) é hoje quase impercetível na maioria das regiões de França.
+Os falantes de português tendem a fechar esta vogal no fim das palavras ou antes de consoantes nasais. Em francês, o som mantém-se sempre bem aberto, tal como na primeira sílaba de água.

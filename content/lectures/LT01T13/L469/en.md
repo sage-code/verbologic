@@ -20,18 +20,18 @@ terms:
   ro: "L"
 ---
 
-## The Sound of L
+## Sound of the letter elle
 
-In French, the letter **L** represents the clear alveolar lateral approximant `/l/`. Unlike the dark, velarized 'l' often heard at the end of English words like *ball*, the French `/l/` stays bright and clear in all positions. Your tongue body remains flat and fronted rather than hollowed out towards the throat.
+The letter (elle) /ɛl/ makes the sound /l/. You hear it clearly at the start of (lune) /lyn/.
 
-## How to Pronounce It
+## Pronouncing the letter elle
 
-Place the tip of your tongue firmly against the alveolar ridge just behind your upper front teeth. Let the voiced air stream smoothly around the sides of your tongue without raising the back of your tongue toward the soft palate. Keep your lips relaxed or shaped by the surrounding vowel as you release the sound cleanly.
+Touch the tip of your tongue against your upper gum ridge. Let voiced air escape freely along both sides of your tongue without raising the back of your mouth.
 
-## Spelling and Patterns
+## Spelling rules for elle
 
-The letter **L** appears frequently as a single consonant (*lune*, *parler*) or doubled (*balle*, *colline*). When preceded by an *i* in groups like *-ille*, it usually represents the glide `/j/` as in *soleil* or *famille*, with few historical exceptions like *ville* and *mille*. In a handful of final clusters like *-il*, the **L** is completely silent (*fusil*, *outil*).
+In most positions, this letter produces the sound /l/, as in (bal) /bal/. At the end of a few specific words, it remains completely silent, as in (fusil) /fy.zi/.
 
-## Variants and Pitfalls
+## Common mistakes with elle
 
-The most critical mistake for English speakers is producing a heavy 'dark L' at the end of syllables or words, such as in *sel* or *table*. Always keep the tongue arched forward to avoid sounding muddy. Pay close attention also to words ending in *-il*, ensuring you do not pronounce the consonant in words like *gentil* `/ʒɑ̃.ti/`.
+Avoid using the dark English sound found in ball or milk. Keep your tongue arched forward to avoid pulling the sound into your throat.

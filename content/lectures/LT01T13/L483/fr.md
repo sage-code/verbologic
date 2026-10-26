@@ -20,18 +20,18 @@ terms:
   ro: "Z"
 ---
 
-## Le son de la lettre Z
+## Son de la lettre zède
 
-La lettre **Z** note principalement la consonne fricative alvéolaire voisée `/z/`. Elle correspond au même son que le « s » sonore dans le mot français *rose*. En fin de mot, elle est la plupart du temps totalement muette.
+La lettre (zède) /zɛd/ produit principalement le son /z/. On l'entend dans le mot (zèbre) /zɛbʁ/.
 
-## Comment la prononcer
+## Comment prononcer
 
-Rapprochez l'avant de votre langue de vos alvéoles supérieures sans bloquer l'air, en laissant passer un mince filet sonore. Faites vibrer vos cordes vocales comme pour imiter le bourdonnement d'une abeille. Les lèvres restent neutres ou légèrement étirées.
+Placez la pointe de votre langue près des alvéoles, derrière les incisives du haut. Laissez passer un filet d'air continu tout en faisant vibrer vos cordes vocales.
 
-## Règles graphiques
+## Règles de lecture
 
-La lettre **Z** apparaît au début ou à l'intérieur de mots empruntés ou d'origine grecque ou arabe comme *zoo* ou *zéro*. En finale de mot, elle marque la deuxième personne du pluriel des verbes (*vous parlez*) ainsi que quelques substantifs comme *nez* ou *riz*, où elle ne se prononce jamais seule.
+La lettre (zède) /zɛd/ se lit avec le son /z/ au début d'un mot, comme dans (zone) /zon/. Elle est muette à la fin de certains mots comme (nez) /ne/ ou (riz) /ʁi/.
 
-## Nuances et pièges à éviter
+## Prononciation correcte
 
-Ne confondez pas le son voisé `/z/` avec le son sourd `/s/`, une distinction cruciale en français comme entre *poisson* et *poison*. Attention également à ne pas prononcer le **z** final dans les terminaisons verbales en *-ez*, sauf cas de liaison où il se fait entendre comme `/z/` devant une voyelle.
+Cette consonne ne pose pas de difficulté particulière en français. Prenez seulement garde à ne pas la prononcer quand elle termine des mots courts courants.

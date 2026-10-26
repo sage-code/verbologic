@@ -20,18 +20,18 @@ terms:
   ro: "K"
 ---
 
-## Sunetul literei K în franceză
+## Sunetul literei ka
 
-Litera **K** redă consoana oclusivă velară surdă `/k/`. Sună exact ca un **c** tare sau un **k** din limba română (ca în *cafea* sau *kilogram*). Este o literă rară în franceză, folosită aproape exclusiv în neologisme, termeni științifici și împrumuturi.
+Numele acestei litere este (ka) /ka/. Ea redă sunetul /k/, pe care îl auzi în cuvântul (kilo) /ki.lo/.
 
-## Cum se pronunță
+## Pronunția sunetului
 
-Atingeți partea posterioară a limbii de vălul palatului pentru a bloca temporar aerul. Eliberați brusc blocajul printr-o deschidere scurtă și curată, fără a expira aer suplimentar. Coardele vocale nu vibrează în timpul acestei articulări.
+Atinge cerul gurii cu partea din spate a limbii. Oprește aerul o clipă, apoi eliberează-l brusc, fără să folosești deloc corzile vocale.
 
-## Ortografie și poziție
+## Reguli de scriere
 
-În limba franceză tradițională, sunetul `/k/` este reprezentat prin **c** sau **qu**, astfel că litera **k** apare doar în cuvinte de origine străină. O găsiți în termeni precum *kaki*, *kiosque* sau *karaté*. Forma majusculă **K** și cea minusculă **k** se pronunță identic în orice poziție a cuvântului.
+În toate pozițiile, această literă redă sunetul /k/, ca la finalul cuvântului (anorak) /a.nɔ.ʁak/.
 
-## Comparație și greșeli frecvente
+## Comparație cu româna
 
-Vorbitorii de română nu întâmpină dificultăți majore cu `/k/`, deoarece sunetul este identic în ambele limbi. Spre deosebire de litera **c**, care se transformă în `/s/` în fața literelor **e** și **i**, litera **k** rămâne întotdeauna dură, indiferent de vocala care îi urmează.
+Sunetul este identic cu cel din cuvintele românești kilogram sau cal, așa că nu există nicio dificultate de pronunție.

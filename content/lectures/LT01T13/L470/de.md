@@ -20,18 +20,18 @@ terms:
   ro: "M"
 ---
 
-## Der Laut des französischen M
+## Der Buchstabe emme
 
-Der Buchstabe **M** steht im Französischen meist für den stimmhaften bilabialen Nasallaut `/m/`, genau wie das deutsche 'm' in „Mutter“. Folgt er jedoch auf einen Vokal am Silbenende oder vor den Konsonanten **b** und **p**, verliert er seine eigene Konsonantennatur und nasaliert den vorangehenden Vokal. Die Doppelkonsonanz **mm** wird im Standardfranzösischen schlicht wie ein einfaches `/m/` gesprochen.
+Der französische Buchstabe (emme) /ɛm/ klingt wie der Laut /m/, zum Beispiel in (mer) /mɛʁ/.
 
-## Artikulation von /m/
+## Aussprache des Lautes
 
-Schließen Sie sanft Ober- und Unterlippe, sodass der Mundraum vollständig abgedichtet ist. Senken Sie das Gaumensegel ab, damit der Luftstrom ungehindert durch die Nase entweichen kann. Bringen Sie die Stimmlippen zum Schwingen und erzeugen Sie einen summenden Ton, während Sie die Lippen für den Folgelaut öffnen.
+Schließe beide Lippen vollständig. Lass den Gaumensegel gesenkt und die Luft mit vibrierenden Stimmbändern durch die Nase entweichen.
 
-## Schreibweise und Vorkommen
+## Schreibweise und Aussprache
 
-Das **M** steht am Wortanfang, im Wortinneren sowie am Wortende, entweder einzeln oder verdoppelt wie in *homme*. Im Französischen gilt die orthografische Regel, dass vor den Lauten **b** und **p** stets **m** statt **n** geschrieben wird, um Nasalvokale darzustellen, etwa in *lampe*. Steht danach direkt ein Vokal oder ein weiteres **m**, bleibt der Laut rein konsonantisch, wie in *aimer*.
+Vor einem Vokal oder verdoppelt klingt er wie der Laut /m/, wie in (pomme) /pɔm/. In seltenen Ausnahmewörtern vor einem n bleibt er stumm, wie in (automne) /o.tɔn/.
 
-## Vergleich und typische Stolpersteine
+## Vergleich mit dem Deutschen
 
-Beachten Sie den Unterschied zwischen dem klaren `/m/` in *maison* `/mɛ.zɔ̃/` und der Nasalierung in *nom* `/nɔ̃/`. Ein häufiger Fehler deutschsprachiger Lernender besteht darin, bei Wörtern wie *faim* oder *temps* am Ende die Lippen zu schließen und ein deutsches 'm' anzuhängen. Halten Sie die Lippen bei Nasalvokalen geöffnet, damit kein störender Verschlusslaut entsteht.
+Dieser Konsonant entspricht genau dem deutschen Laut in Mutter, daher gibt es hier keine Stolpersteine.

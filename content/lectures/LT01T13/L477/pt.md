@@ -20,18 +20,18 @@ terms:
   ro: "T"
 ---
 
-## O som da letra T
+## O som da letra té
 
-A letra **T** em francês produz tipicamente a consoante oclusiva dental surda `/t/`. Diferente do português de muitas regiões do Brasil, ela nunca sofre palatalização diante de /i/ ou /e/, mantendo sempre um som seco e frontal. Em certas terminações históricas como *-tion*, ela passa a soar como `/s/`.
+A letra (té) /te/ pronuncia-se habitualmente como um t simples. Pode ouvir este som principal na palavra (table) /tabl/.
 
-## Como pronunciar
+## Como pronunciar o té
 
-Pressione a ponta da língua contra a face interna dos dentes incisivos superiores, bloqueando o fluxo de ar. Solte o ar de forma seca e direta, sem sopro e sem chiado. Mantenha os lábios relaxados e garanta que as cordas vocais não vibrem durante a soltura.
+Para o som oclusivo, encoste a ponta da língua aos dentes superiores e solte o ar sem vibrar as cordas vocais. Para o som sibilante, aproxime os dentes e expire continuamente com a ponta da língua baixa.
 
-## Ortografia e posições
+## Grafias da letra té
 
-Aparece tanto simples **t** como duplicada **tt**, ambas lidas identicamente como `/t/` puro (como em *matin* e *mettre*). No final das palavras, o **t** é na grande maioria das vezes mudo (*sport*, *nuit*), a menos que haja uma ligação (*liaison*). A combinação **th** também possui apenas o valor de um simples `/t/`, como em *thé*.
+Na maioria dos casos, no início ou junto de consoantes, lê-se o som /t/, como em (tapis) /ta.pi/. Antes de i seguido de outra vogal, produz o som /s/, como em (patient) /pa.sjɑ̃/. No fim de muitas palavras, a letra não se pronuncia, como em (salut) /sa.ly/.
 
-## Comparações e armadilhas
+## Dificuldades de pronúncia
 
-O erro mais crítico para falantes de português (especialmente brasileiros) é chiar o **t** antes de /i/, dizendo algo próximo a 'tchi' em vez de um `/ti/` límpido como em *petit*. Cuidado também com sufixos latinos como em *attention*, onde o **t** vira `/s/` e não `/t/`. Por fim, evite ler as consoantes finais que devem permanecer silenciosas em francês.
+Em português europeu o t nunca se transforma em assobio antes de vogais nasais. Evite pronunciar a consoante final quando esta deve ser totalmente silenciosa, tal como acontece em várias palavras francesas.

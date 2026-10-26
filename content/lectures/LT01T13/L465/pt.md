@@ -20,18 +20,18 @@ terms:
   ro: "H"
 ---
 
-## O som da letra H
+## O som do ache
 
-No francês padrão, a letra **H** é estritamente **muda** (`/∅/`) e nunca produz som algum isoladamente. Ela não é aspirada como o **H** do inglês ou o **R** aspirado de certas regiões do Brasil. A sua função é unicamente gráfica e histórica.
+A letra (ache) /aʃ/ não possui som próprio em francês. Ela é totalmente muda, como na palavra (habiter) /a.bi.te/.
 
-## Como pronunciar o H
+## Como pronunciar o ache
 
-Para pronunciar uma palavra iniciada por **H**, simplesmente ignore a letra e não tente emitir nenhum ar pela garganta. Posicione a língua e os lábios diretamente para emitir a vogal que vem logo a seguir. A emissão deve começar suavemente com o som vocálico correspondente.
+Não existe nenhum movimento articulatório para esta letra. As cordas vocais não vibram, a boca não produz ruído e o ar passa direto para a vogal seguinte.
 
-## Regras ortográficas
+## Grafia do ache
 
-Distingue-se o **H mudo** (*H muet*), que permite a elisão e a ligação sonora (como em *l'homme* `/lɔm/`), do chamado **H aspirado** (*H aspiré*), que as impede rigorosamente (como em *le héros* `/lə e.ʁo/`). Em dígrafos, junta-se ao **C** para formar **CH** (`/ʃ/`) e ao **P** para formar **PH** (`/f/`).
+Esta letra é sempre silenciosa em francês, tanto na palavra (homme) /ɔm/ como no vocábulo (héros) /e.ʁo/.
 
-## Diferenças e cuidados
+## Erros comuns no ache
 
-O erro mais comum entre lusófonos é tentar pronunciar um som expirado `[h]` como o do *r* carioca inicial. Além disso, é essencial memorizar quais palavras possuem o **H aspiré** para não cometer erros de liaison (ligação), como dizer erradamente *les-z-héros* em vez de *les héros*.
+Em português europeu esta letra também é muda, como em haver. Não existe armadilha comum para este caso, pois o hábito em ambas as línguas é idêntico.

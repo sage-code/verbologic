@@ -20,18 +20,18 @@ terms:
   ro: "D"
 ---
 
-## Il suono della lettera D
+## Suono di dé
 
-La lettera **D** rappresenta la consonante occlusiva dentale sonora `/d/`. È molto simile alla **d** italiana standard in parole come *dado*, con un'articolazione pulita e vibrante. La differenza principale sta nel fatto che a fine parola in francese la **D** è quasi sempre muta, come in *chaud* o *nœud*.
+Il nome di questa lettera è (dé) /de/. Rappresenta principalmente il suono /d/, che puoi ascoltare nella parola (date) /dat/.
 
-## Come posizionare la bocca
+## Come articolare il suono
 
-Appoggia la punta della lingua contro la parte interna degli incisivi superiori per creare una chiusura completa. Fai vibrare le corde vocali prima di rilasciare bruscamente il flusso d'aria. L'emissione deve essere nitida ed energica, senza aspirazione successiva.
+Appoggia la punta della lingua contro i denti superiori per bloccare l'aria. Fai vibrare le corde vocali, poi stacca subito la lingua per liberare il flusso con forza.
 
-## Grafia e combinazioni
+## Regole di ortografia
 
-Si scrive in maiuscolo **D** e minuscolo **d**. All'inizio di parola e tra vocali suona sempre `/d/`, così come nella doppia grafia **dd** (*addition*). In finale di parola non si pronuncia quasi mai, salvo eccezioni come *sud* o nomi propri come *Madrid*.
+Nella maggior parte dei casi si realizza con il suono /d/, come in (mode) /mɔd/. Alla fine di molte parole non viene pronunciata, ad esempio in (nord) /nɔʁ/ oppure in (chaud) /ʃo/.
 
-## Variazioni ed errori comuni
+## Confronto con l'italiano
 
-Nei collegamenti fonetici (*liaison*) davanti a vocale o *h* muta, la **D** finale si trasforma nel suono sordo `/t/`, come in *grand amour* (`/ɡʁɑ̃.t‿a.muʁ/`). L'errore più comune per gli italofoni è pronunciare la consonante alla fine di ogni parola per abitudine grafica. Ricorda di ignorarla sempre in contesti come *lourd*, *accord* o *nid*.
+Il suono è molto simile a quello italiano in dente. Non ci sono particolari difficoltà di pronuncia, basta mantenere sempre un contatto netto tra lingua e denti.

@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## The Sound of French C
+## Sound of the letter cé
 
-The letter **C** produces two primary sounds: a hard `/k/` before **a**, **o**, or **u**, and a soft `/s/` before **e**, **i**, or **y**. Combined with **h** as in *chat*, it forms the digraph **ch**, which sounds like the English `sh` (`/ʃ/`). Unlike English 'c' or 'k', the hard French `/k/` is crisp and completely unaspirated.
+The letter (cé) /se/ represents the sound /k/ in (café) /ka.fe/. It can also make other sounds or remain silent.
 
-## How to Produce It
+## Pronouncing these sounds
 
-For the hard sound `/k/`, place the back of your tongue against your soft palate and release the air sharply without an accompanying puff of breath. For `/s/`, touch the tip of your tongue behind your lower front teeth while hissing air across the blade. When making the `/ʃ/` sound in *chat*, round your lips forward slightly and let the air glide over the arched tongue.
+For the first sound, press the back of your tongue against your soft palate and release the air suddenly without voice. For the second, bring the tongue tip close to your upper gum and blow air smoothly through the gap.
 
-## Spelling Patterns
+## Reading this letter
 
-To retain a soft `/s/` sound before **a**, **o**, or **u**, French uses a cedilla, writing **ç** as in *garçon*. At the end of words, **c** is often pronounced `/k/` (like *sac* or *avec*), though it remains silent in several words such as *blanc* and *estomac*. The digraph **ch** overwhelmingly represents `/ʃ/`, though in a few words of Greek origin (like *chorale*) it is pronounced `/k/`.
+It sounds like /k/ before the vowels a, o, u or consonants, as in (carte) /kaʁt/. It sounds like /s/ before e, i, y, like in (cerise) /sə.ʁiz/, or with a cedilla before a, o, u, as in (garçon) /gaʁ.sɔ̃/. It is silent at the end of (tabac) /ta.ba/.
 
-## Pronunciation Pitfalls
+## Pitfalls to avoid
 
-Avoid aspirating the `/k/` sound; pronouncing *café* with a breathy English 'k' will sound unnatural to native French ears. Additionally, remember that **ch** in French almost always sounds like `/ʃ/` ('sh'), never like the English 'ch' in *cheese* (`/tʃ/`). Always check which vowel follows the letter **C** to determine whether it behaves as a hard stop or a soft sibilant.
+Avoid adding a puff of air to the voiceless stop, unlike the English sound in keep. Keep your release crisp and unaspirated.

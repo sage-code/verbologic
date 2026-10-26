@@ -20,18 +20,18 @@ terms:
   ro: "J"
 ---
 
-## O som da letra J
+## O som do ji
 
-Em francês, a letra **J** produz sempre a consoante fricativa `/ʒ/`, exatamente idêntica ao som da letra **j** no português de Portugal ou do Brasil (como em *janela* ou *jogo*). É um som sonoro, contínuo e suave. Diferente do espanhol ou do inglês, ele nunca é aspirado nem articulado como uma africada `/dʒ/`.
+O nome da letra é (ji) /ʒi/, e o seu som principal escuta-se no vocábulo (jupe) /ʒyp/.
 
-## Como pronunciar
+## Como articular
 
-Projete e arredonde ligeiramente os lábios para a frente, aproximando a lâmina da língua do palato duro sem encostar. Faça o ar passar com fricção contínua ao mesmo tempo em que ativa as cordas vocais. Se você fala português, basta reproduzir o seu **j** natural com firmeza e constância.
+Arredonde ligeiramente os lábios e aproxime a frente da língua do palato. Deixe o ar passar continuamente, fazendo vibrar as cordas vocais.
 
-## Grafia e ocorrência
+## Grafia e variantes
 
-A letra **J** aparece com muita frequência no início e no interior das palavras, sempre acompanhada por uma vogal, como em **jeune** ou **toujours**. Ao contrário da letra **G**, o **J** mantém o som `/ʒ/` diante de absolutamente qualquer vogal (*ja*, *jo*, *ju*). É quase inexistente no final de palavras nativas francesas.
+Em quase todas as palavras nativas, esta letra lê-se sempre como o som /ʒ/, por exemplo em (joli) /ʒɔ.li/.
 
-## Comparações e erros comuns
+## Erros comuns
 
-Para os lusófonos, a pronúncia básica é muito natural, mas o risco vem do contato com o inglês: evite a todo custo pronunciar `/dʒ/` com o ataque oclusivo inicial. Mantenha a emissão suave e sem explosão, como em **jardin** `/ʒaʁ.dɛ̃/` e **joli** `/ʒɔ.li/`. Pratique para que a transição com a vogal seguinte seja perfeitamente fluida.
+Não há armadilhas nesta consoante para falantes de português, pois o som é exatamente igual ao da palavra janela.

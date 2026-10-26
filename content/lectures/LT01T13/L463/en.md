@@ -20,18 +20,18 @@ terms:
   ro: "F"
 ---
 
-## The French F sound
+## The letter effe
 
-The French letter **F** represents the voiceless labiodental fricative `/f/`, exactly like the standard English 'f' in 'father'. It is a crisp, unvoiced stream of air produced between the teeth and lower lip. Unlike some other final consonants in French, a final **F** is very often pronounced, as in words like *soif* or *neuf*.
+The letter (effe) /ɛf/ usually makes the sound /f/. You can hear it in (film) /film/.
 
-## How to articulate /f/
+## Pronouncing the sounds
 
-Rest your upper incisors gently against the inner surface of your lower lip. Push air out steadily without engaging your vocal cords to create a smooth, continuous friction sound. Keep the airflow firm and avoid closing your lips together completely.
+Rest your upper teeth lightly against your lower lip. Blow air continuously through the gap without voice for the unvoiced friction. To make the voiced version, add vibration from your vocal cords while keeping the exact same mouth position.
 
-## Spelling patterns
+## Reading the letter
 
-This sound is written as a single **f** as in *facile*, or doubled as **ff** in words like *effet*, where both spellings sound identical. It is also routinely represented by the Greek-derived digraph **ph**, seen in words like *photo*. Note that while final **f** is usually sounded, it remains silent in a few key plurals and common words such as *clef* or *nerfs*.
+In most positions, it represents the sound /f/, like in (café) /ka.fe/. In liaison before a vowel or mute h, it sounds like the sound /v/ in (neuf ans) /nœ.vɑ̃/. It stays completely silent in (clef) /kle/ and (nerfs) /nɛʁ/.
 
-## Nuances and pitfalls
+## Comparing with English
 
-Learners generally find `/f/` straightforward because it behaves almost identically across European languages. The primary challenge is predicting silent exceptions at the ends of words, such as *bœufs* and *œufs* where the final consonant drops entirely in the plural. Additionally, be careful in liaison contexts with *neuf*, which transforms into a voiced `/v/` sound specifically before *heures* and *ans*.
+The basic sound is identical to English fish. The voiced link creates no trouble either, matching the English voice. There are no real pronunciation pitfalls here for English speakers.

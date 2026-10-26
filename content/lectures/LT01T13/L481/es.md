@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## El sonido de la letra X
+## Sonido de la letra ixe
 
-En francés, la letra **X** no tiene un único sonido y varía según el contexto fónico. Con frecuencia se articula como el grupo sordo `[ks]` (como en *taxi*) o como el grupo sonoro `[ɡz]` (como en *xylophone* o *examen*). A diferencia del español, donde la **X** puede sonar como `[ks]` o como la jota `[x]`, en francés jamás debe pronunciarse como una fricativa velar.
+La letra (ixe) /iks/ representa principalmente el sonido /ks/, como en el vocablo (texte) /tɛkst/.
 
-## Cómo colocar la boca
+## Cómo se pronuncia
 
-Para pronunciar la variante sonora `[ɡz]`, apoya el dorso de la lengua contra el velo del paladar haciendo vibrar las cuerdas vocales para la `[ɡ]`. Inmediatamente después, canaliza el aire con fricción sonora hacia los dientes frontales para producir la `[z]`. Asegúrate de mantener la vibración continua de la voz durante ambos sonidos, sin permitir que se ensordezcan.
+Para el grupo sordo, corta el aire detrás del paladar y suéltalo silbando con los dientes juntos. Para el grupo sonoro vibra además la garganta. Para el silbido simple deja salir el aire continuamente.
 
-## Ortografía y combinaciones
+## Reglas de ortografía
 
-Al inicio de palabras cultas antes de vocal (*xylophone*) y tras el prefijo *ex-* seguido de vocal (*exil*), la **X** se lee `[ɡz]`. Entre vocales o ante consonante sorda suele ser `[ks]` (*boxe*, *texte*). Además, suena como `[s]` en *six* y *dix*, y como `[z]` en las ligaduras fonéticas (*liaison*) o en *deuxième*.
+Entre vocales genera el sonido /ks/ como en (taxi) /tak.si/. Al comienzo ante vocal suena /ɡz/ como en (examen) /ɛɡ.za.mɛ̃/ y (exil) /ɛɡ.zil/. En términos como (dix) /dis/ o (six) /sis/ produce el sonido /s/. Al final de palabra no se pronuncia, como en (paix) /pɛ/ o (deux) /dø/.
 
-## Variantes y errores comunes
+## Sonidos similares
 
-El error más grave de los hispanohablantes es articular la **X** francesa como una jota española `[x]`. Recuerda que *xylophone* suena con `[ɡz]` inicial, nunca con fricción velar. Asimismo, no olvides que al final de la mayoría de las palabras la **X** es muda (como en *beaux* o *choux*), salvo que participe en una *liaison* con sonido `[z]`.
+En español la grafía suele articularse relajada ante consonante. En francés debes marcar siempre el corte seco. Tampoco articules la terminación muda al final.

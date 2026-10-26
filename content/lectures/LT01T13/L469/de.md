@@ -20,18 +20,18 @@ terms:
   ro: "L"
 ---
 
-## Der Laut L
+## Laut des Buchstabens elle
 
-Im Französischen steht das **L** für das helle alveolare `/l/`, das dem deutschen 'l' wie in *Liebe* sehr nahekommt. Es bleibt in jeder Position schlank und vorn im Mund artikuliert, auch am Silben- oder Wortende. Ein dumpfes, vokalisiertes oder gutturales 'l' existiert im Französischen nicht.
+Der Buchstabe (elle) /ɛl/ bildet den Laut /l/. Man hört ihn am Anfang von (lune) /lyn/.
 
-## So wird es ausgesprochen
+## Aussprache des Buchstabens elle
 
-Legen Sie die Zungenspitze fest an den Zahndamm direkt hinter den oberen Schneidezähnen an. Lassen Sie die stimmhafte Luft ungehindert an den Zungenseiten entlangströmen. Vermeiden Sie es streng, den Zungenrücken nach hinten zum Gaumensegel hochzuziehen, damit der Laut stets hell und präzise klingt.
+Setzen Sie Ihre Zungenspitze an den oberen Zahndamm. Lassen Sie die stimmhafte Luft an beiden Zungenseiten ungehindert entweichen, ohne die Zungenhinterseite zu heben.
 
-## Schreibweise und Regeln
+## Schreibregeln für elle
 
-Das **L** steht sowohl einfach (*lune*) als auch verdoppelt (*ballon*), wobei ein Doppel-L fast immer als kurzes `/l/` gesprochen wird. Nach einem *i* in Verbänden wie *-ill-* markiert es meist den Halbvokal `/j/` (*fille*, *bouteille*). Am Wortende bestimmter Substantive und Adjektive auf *-il* bleibt das **L** völlig stumm (*outil*, *gentil*).
+An den meisten Stellen klingt der Buchstabe wie der Laut /l/, wie in (bal) /bal/. Am Ende einiger bestimmter Wörter bleibt er stumm, wie in (fusil) /fy.zi/.
 
-## Vergleich und Stolpersteine
+## Typische Fehler bei elle
 
-Deutschsprachige neigen bisweilen dazu, das **L** am Wortende (wie in *bal* oder *fil*) zu stark abzudunkeln oder zu verschlucken. Achten Sie zudem genau auf die Aussprache von *-ill-*: Wörter wie *famille* werden mit `/j/` gebildet, während Lehnwörter und historische Ausnahmen wie *ville* `/vil/` und *tranquille* `/tʁɑ̃.kil/` das klassische `/l/` behalten.
+Deutsche Muttersprachler sprechen diesen Laut meistens problemlos aus. Halten Sie die Zungenspitze immer vorne und senken Sie den hinteren Zungenrücken nicht nach hinten ab.

@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## Suono della lettera C
+## Nome e suono
 
-La lettera **C** in francese varia moltissimo a seconda delle lettere adiacenti: da sola esprime `/k/` oppure `/s/`, mentre nel digramma **ch** equivale al suono scivolante `/ʃ/` (come in *chat*). Questo `/ʃ/` corrisponde esattamente al digramma italiano *sc* di *sciarpa*. Davanti a *e*, *i*, *y* la lettera **C** non produce mai il suono dolce /tʃ/ di *cena*, ma sempre la sibilante `/s/`.
+La lettera si chiama (cé) /se/. Il suo valore principale corrisponde al suono /k/, come nella parola (café) /ka.fe/.
 
 ## Come posizionare la bocca
 
-Per pronunciare il digramma **ch** (`/ʃ/`), arrotondate leggermente le labbra e sollevate la parte centrale della lingua verso il palato, lasciando sfiatare l'aria con un fruscio continuo. Per l'occlusiva velare `/k/`, bloccate il flusso d'aria premendo il dorso della lingua contro il velo palatino per poi rilasciarlo di colpo. Per ottenere `/s/`, appoggiate delicatamente la punta della lingua dietro gli incisivi inferiori.
+Per produrre il suono sordo /k/, blocca l'aria appoggiando il dorso della lingua al velo palatino, poi rilasciala bruscamente. Per il suono sordo /s/, avvicina la punta della lingua agli alveoli superiori e soffia l'aria senza vibrare le corde vocali.
 
-## Grafia e combinazioni
+## Regole di pronuncia
 
-La **C** si legge `/k/` davanti alle vocali *a*, *o*, *u* e davanti a consonante (*conte*, *crème*). Diventa invece `/s/` davanti a *e*, *i*, *y* (*ciel*), oppure davanti a qualsiasi vocale se munita di cediglia **ç** (*garçon*). In combinazione con la *h* (**ch**) produce quasi sempre `/ʃ/`, tranne in termini colti di radice greca dove vale `/k/` (*chronomètre*).
+Davanti a consonanti oppure alle vocali a, o, u produce il suono /k/, come in (carte) /kaʁt/. Davanti a e, i, y oppure con la cediglia suona /s/, come in (cerise) /sə.ʁiz/ e (garçon) /gaʁ.sɔ̃/. In finale di parola resta talvolta muta, come in (tabac) /ta.ba/.
 
-## Confronto ed errori comuni
+## Differenze con l'italiano
 
-L'errore più comune per gli italofoni è leggere *ch* come `/k/` o **ce/ci** come `/tʃ/`: ricordate che *chat* si pronuncia `/ʃa/` (simile a *scià*) e non /kat/, mentre *merci* suona `/mɛʁ.si/` e non 'mèrci'. Si noti inoltre la rara anomalia del vocabolo *second*, dove la lettera si pronuncia sorprendentemente sonora `/ɡ/`.
+Davanti a e oppure i non pronunciare l'affricata di cena: usa sempre la sibilante aspra di sole. Inoltre, ricorda di non pronunciare la consonante finale quando è muta.

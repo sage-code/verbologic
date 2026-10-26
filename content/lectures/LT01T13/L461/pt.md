@@ -20,18 +20,18 @@ terms:
   ro: "D"
 ---
 
-## O som da letra D
+## O som do dé
 
-Em francês, a letra **D** representa a consoante oclusiva sonora `/d/`. Diferente de muitas regiões do Brasil onde soa como `[dʒ]` diante de /i/, o som francês é sempre puramente **dental** e duro.
+Esta letra chama-se (dé) /de/. O seu som principal é o /d/, como na palavra (date) /dat/.
 
-## Como pronunciar o D
+## Como articular o dé
 
-Encoste a ponta da língua diretamente atrás dos **dentes incisivos superiores**. Bloqueie a passagem de ar fazendo as **cordas vocais vibrarem** e libere o ar de forma seca e direta, sem sopro e sem chiar.
+Apoia a ponta da língua contra a face interna dos dentes superiores. Bloqueia a passagem do ar por um instante e solta-o fazendo vibrar as cordas vocais.
 
-## Ortografia e posições
+## Grafia do dé
 
-Apresenta-se como **d** minúsculo e **D** maiúsculo, podendo aparecer dobrado como em *admettre*. No final das palavras (*nord*, *chaud*), a letra costuma ser **muda**, exceto em ligações fonéticas formais.
+Na maioria das posições, representa o som /d/, tal como em (mode) /mɔd/. No final de muitas palavras, esta letra não se pronuncia, como em (nord) /nɔʁ/ e (chaud) /ʃo/.
 
-## Comparações e armadilhas comuns
+## O dé no português
 
-O erro mais comum para lusófonos brasileiros é chiar a letra diante de 'i' ou 'u', pronunciando *dire* como 'djire'; mantenha sempre o som dental `/diʁ/`. Além disso, lembre-se de que na ligação formal antes de vogal (*un grand arbre*), o **D** soa como `/t/`.
+Não há armadilhas nesta consoante. O som é exatamente igual ao d da palavra dado em português. Tem apenas atenção às palavras onde ela fica muda no fim.

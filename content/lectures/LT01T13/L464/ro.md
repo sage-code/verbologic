@@ -20,18 +20,18 @@ terms:
   ro: "G"
 ---
 
-## Sunetul literei G
+## Sunetul literei gé
 
-În limba franceză, litera **G** se pronunță diferit în funcție de vocala care îi urmează. Înainte de **a**, **o**, **u** sau consoane, redă un sunet dur `[ɡ]`, exact ca 'g'-ul românesc din 'gară'. Înaintea vocalelor **e**, **i** și **y**, ea se transformă într-un sunet moale `[ʒ]`, identic cu 'j'-ul românesc din 'joc'.
+Litera se numește (gé) /ʒe/. Cel mai adesea redă sunetul /ɡ/, la fel ca în cuvântul (gare) /ɡaʁ/.
 
 ## Cum se pronunță
 
-Pentru varianta dură `[ɡ]`, atingeți vălul palatului cu partea posterioară a limbii pentru a opri aerul, apoi eliberați-l brusc făcând corzile vocale să vibreze. Pentru varianta moale `[ʒ]`, rotunjiți ușor buzele și apropiați limba de cerul gurii fără a-l atinge complet, lăsând aerul sonorizat să treacă continuu. Spre deosebire de română, sunetul `[ʒ]` francez este adesea pronunțat cu buzele ceva mai proiectate spre exterior.
+Pentru primul sunet, atinge cerul gurii cu spatele limbii și eliberează brusc aerul cu voce. Pentru celălalt, rotunjește puțin buzele și lasă aerul să treacă prin fața limbii, făcând corzile vocale să vibreze continuu.
 
-## Reguli de ortografie
+## Reguli de scriere
 
-Pentru a păstra pronunția dură `[ɡ]` în fața lui **e** sau **i**, ortografia franceză adaugă un **u** mut, ca în cuvântul **guide**. În mod invers, pentru a păstra sunetul `[ʒ]` înaintea lui **a** sau **o**, se introduce litera **e**, ca în forma verbală **mangeons**. La sfârșitul cuvintelor, cum ar fi în **doigt** sau **rang**, litera **G** este de obicei mută.
+Înaintea unei consoane sau înainte de literele a, o ori u, auzi sunetul /ɡ/, ca în (gros) /ɡʁo/. În fața vocalelor e, i sau y, se rostește ca sunetul /ʒ/, ca în (gel) /ʒɛl/ ori (girafe) /ʒi.ʁaf/. La sfârșitul unor cuvinte nu se aude deloc, de pildă în (doigt) /dwa/ ori (sang) /sɑ̃/.
 
-## Comparații și capcane frecvente
+## Comparație cu româna
 
-Cea mai mare capcană pentru vorbitorii de română este confuzia dintre grupurile ortografice: 'gi' și 'ge' se citesc `[ʒi]` și `[ʒe]`, nu `[dʒi]` sau `[dʒe]` ca în limba română. Comparați pronunția din **gare** `[ɡaʁ]` cu cea din **givre** `[ʒivʁ]` pentru a sesiza trecerea de la ocluzivă la fricativă. De asemenea, evitați pronunțarea literei **G** atunci când aceasta apare la finalul cuvintelor izolate.
+În limba română, această literă devine un africat înainte de e sau i, ca în ger. În franceză, nu începe niciodată cu o oprire a aerului: rostește mereu un sunet continuu, identic cu litera j din cuvântul jar.

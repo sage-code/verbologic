@@ -20,18 +20,18 @@ terms:
   ro: "Q"
 ---
 
-## Sunetul literei Q
+## Sunetul literei qu
 
-În limba franceză, litera **Q** apare aproape exclusiv în digraful **qu** și redă consoana ocluzivă velară surdă `/k/`. Spre deosebire de alte limbi, litera **u** care o însoțește este de regulă complet mută. Sună exact ca litera **c** din cuvântul românesc *cal* sau *capac*.
+Litera (qu) /ky/ se rostește cel mai adesea ca sunetul /k/, de exemplu în cuvântul (cinq) /sɛ̃k/.
 
 ## Cum se pronunță
 
-Atingeți partea din spate a limbii de vălul palatului pentru a bloca scurt fluxul de aer. Eliberați aerul brusc, fără a vibra corzile vocale și fără a adăuga o expirație puternică. Mențineți buzele neutre și evitați pronunțarea unui sunet de tip `[w]` sau `[u]` după consoană.
+Atingeți cerul moale al gurii cu partea din spate a limbii pentru a bloca aerul. Coborâți brusc limba și eliberați suflul fără a folosi corzile vocale.
 
 ## Reguli de scriere
 
-Litera **Q** este urmată aproape obligatoriu de **u** înainte de orice vocală, ca în *quand*, *qui* sau *chèque*. Apare singură doar la sfârșitul a două cuvinte uzuale: *cinq* și *coq*. Numele literei în alfabetul francez se pronunță `/ky/`.
+Când apare la sfârșitul cuvintelor sau foarte rar singură, litera se citește prin sunetul /k/, ca în cuvântul (coq) /kɔk/.
 
-## Comparație și variații
+## Diferențe față de română
 
-În marea majoritate a termenilor, grupul se pronunță simplu `/k/`, ca în *quatre* `/katʁ/`. O variantă rară este `/kw/`, întâlnită în împrumuturi din latină sau engleză precum *aquarium* `/akwaʁjɔm/`. O greșeală frecventă este articularea unui `[v]` sau `[w]` după **q**; rețineți că în cuvintele franceze uzuale se aude strict `/k/`.
+Pentru vorbitorii de limba română nu există nicio dificultate, deoarece acest sunet este identic cu cel al literei c din cuvântul cal.

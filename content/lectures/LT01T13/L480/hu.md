@@ -20,18 +20,18 @@ terms:
   ro: "W"
 ---
 
-## A W betű hangzása
+## A double vé hangja
 
-A **W** betű idegen eredetű a francia nyelvben, és kétféleképpen hangozhat az átvétel forrásától függően. A régebbi vagy német eredetű szavakban a magyar 'v'-hez hasonlóan `/v/`-ként ejtik. Az angolból átvett modern szavakban viszont a félhangzós `/w/` hangot jelöli, ami a magyar fülnek egy nagyon rövid 'u'-ra emlékeztet.
+A francia (double vé) /dublə ve/ betű leggyakrabban a magyar v hanghoz hasonlóan szól, mint a (wagon) /va.ɡɔ̃/ szóban.
 
 ## A kiejtés módja
 
-A `/v/` hang képzésekor a felső metszőfogakat érintse finoman az alsó ajakhoz, és rezegtesse a hangszalagokat. A `/w/` hangnál csücsörítse a száját erősen előre, mint az 'u' betűnél, majd hirtelen nyissa szét a rákövetkező magánhangzó felé. Ügyeljen arra, hogy a két mozdulatot ne keverje össze beszéd közben.
+Az egyik hangnál a felső fogsor az alsó ajakhoz ér, miközben a hangszalagok rezegnek. A másiknál az ajkak erősen kerekítve előreugranak, a nyelv hátul megemelkedik, miközben a levegő szabadon távozik.
 
-## Helyesírási sajátosságok
+## Helyesírási szabályok
 
-A francia ábécében a betű neve **double vé** (kettős v). Csak idegen eredetű szavakban és nevekben fordul elő, ritkán önálló francia tőszóban. Gyakran találkozhatunk vele rövidítésekben (*W.-C.*) és a modern technikai szókincsben (*web*, *Wi-Fi*).
+A régebbi, főként germán eredetű jövevényszavakban a hangzás /v/, mint a (warrant) /va.ʁɑ̃/ szóban. A modernebb, többnyire angolból átvett szavakban a félhangzós /w/ hallható, például a (web) /wɛb/ esetben.
 
 ## Gyakori tévesztések
 
-A nyelvtanulók hajlamosak minden **W** betűt az angol mintára `/w/`-nek ejteni. Ügyeljen a hagyományos szavakra: a *wagon* ejtése a franciában szigorúan `/va.ɡɔ̃/`, nem pedig `/wa.ɡɔ̃/`. Érdemes szóról szóra megjegyezni, hogy az adott jövevényszó a németes vagy az angolos tábort erősíti-e.
+A magyar anyanyelvűek a félhangzós változat helyett hajlamosak sima v hangot ejteni. Az angol eredetű szavaknál ügyelj arra, hogy az ajkad kerek maradjon, és ne érintse a fogsort.

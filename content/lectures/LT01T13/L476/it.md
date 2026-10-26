@@ -20,18 +20,18 @@ terms:
   ro: "S"
 ---
 
-## Suono della lettera S
+## Suono della lettera esse
 
-La lettera francese **S** rappresenta principalmente la sibilante sorda `/s/`, identica alla 's' di *sole*. Quando si trova isolata tra due vocali, assume invece il valore sonoro `/z/`, come nella 's' dolce di *rosa* nel Nord Italia. Rispetto all'italiano, la distribuzione tra sorda e sonora segue regole ortografiche molto più rigide e prive di varianti regionali.
+La lettera (esse) /ɛs/ corrisponde principalmente al suono /s/, come nella parola (sac) /sak/.
 
-## Come posizionare la bocca
+## Come produrre i suoni
 
-Per articolare `/s/`, posiziona la punta della lingua subito dietro gli incisivi inferiori e lascia che l'aria fluisca lungo il centro della lingua contro gli alveoli superiori, senza vibrazione delle corde vocali. Per il suono `/z/`, mantieni la medesima impostazione articolatoria aggiungendo la vibrazione laringea. Fai attenzione a non arretrare la lingua per evitare che il suono diventi palatale.
+Per il suono sordo, avvicina la punta della lingua agli alveoli superiori ed espira senza vibrazione della gola. Per il suono sonoro, mantieni la stessa posizione e fai vibrare le corde vocali emettendo un ronzio.
 
-## Grafia e contesti fonetici
+## Regole di lettura
 
-La **S** si pronuncia sorda `/s/` a inizio parola (*soleil*), accanto a una consonante (*veste*) o quando è doppia **SS** (*tasse*). Una **S** singola intervocalica si pronuncia sempre sonora `/z/` (*maison*). Infine, a fine parola la lettera è quasi sempre muta (*trois*, *enfants*), salvo nei casi di legamento (*liaison*), in cui si riattiva trasformandosi nel suono `/z/` (*les amis* `/le.za.mi/`).
+All'inizio di una parola o vicino a una consonante, produce il suono /s/ come in (poste) /pɔst/. Tra due vocali, assume il suono /z/ come in (rose) /ʁoz/. Alla fine di molte parole non si pronuncia, come in (bras) /bʁa/.
 
-## Confronti e insidie frequenti
+## Confronto con l'italiano
 
-L'errore più comune per gli italofoni è non distinguere la **S** singola dalla doppia **SS** intervocalica, mutando completamente il significato dei termini: *dessert* `/de.sɛʁ/` (dolce) ha la sorda, mentre *désert* `/de.zɛʁ/` (deserto) ha la sonora. Inoltre, non pronunciare mai la **S** finale nei plurali o nelle desinenze verbali: *tu parles* si pronuncia semplicemente `/ty.paʁl/`.
+In italiano la differenza tra suono sordo e sonoro esiste già. La vera insidia è non pronunciare questa consonante a fine parola, dove in francese resta quasi sempre muta.

@@ -20,18 +20,18 @@ terms:
   ro: "U"
 ---
 
-## Le son de la lettre U
+## Son de la lettre u
 
-La lettre **U** note généralement la voyelle fermée antérieure arrondie `/y/`. C'est un son emblématique du français, bien distinct du son `/u/` (écrit « ou »). Dans certains contextes devant une autre voyelle, elle devient la semi-consonne `/ɥ/` comme dans **huit**.
+La lettre (u) /y/ se prononce principalement avec le son /y/, que l'on entend dans le mot (usine) /y.zin/.
 
-## Comment prononcer `/y/`
+## Prononciation pas à pas
 
-Placez votre langue tout à l'avant de la bouche, contre vos incisives du bas, exactement comme pour prononcer un **i** `/i/`. Sans bouger la langue, arrondissez et avancez fortement les lèvres en formant un petit cercle serré, comme pour siffler. Le son produit doit être un `/y/` net et tendu.
+Pour la voyelle, arrondissez fortement les lèvres vers l'avant et placez le corps de la langue en haut contre le palais. Pour la semi-voyelle, effectuez ce même geste très rapidement vers la voyelle suivante.
 
-## Orthographe et graphies
+## Règles de graphie
 
-Le son `/y/` s'écrit principalement avec la lettre **u**, avec ou sans accents (**u**, **û**, **ü**). On la retrouve seule dans des mots courants comme **tu**, **lune** ou **mûr**. Attention, combinée avec d'autres voyelles, elle forme des sons très différents, comme **ou** `/u/` ou **au** `/o/`.
+En règle générale, y compris avec accent, elle correspond au son voyelle /y/, comme dans (sûr) /syʁ/. Devant une autre voyelle prononcée, elle devient une semi-voyelle produisant le son /ɥ/, comme dans (huit) /ɥit/.
 
-## Nuances et pièges fréquents
+## Difficultés et pièges
 
-L'erreur la plus fréquente consiste à confondre le **u** `/y/` avec le son « ou » `/u/`. Dites bien **tu** `/ty/` et non **tout** `/tu/`, ou **dessus** `/də.sy/` au lieu de **dessous** `/də.su/`, car cette confusion change complètement le sens des mots. Veillez également à ne pas la diphtonguer comme en anglais.
+Veillez à bien maintenir les lèvres très avancées pour ne pas confondre ce son avec d'autres voyelles fermées.

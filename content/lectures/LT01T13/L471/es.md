@@ -20,18 +20,18 @@ terms:
   ro: "N"
 ---
 
-## El sonido de la letra N
+## Sonido de enne
 
-La letra **N** representa el sonido consonántico `/n/`, muy similar a la **n** del español en *noche*, siempre que precede a una vocal. Sin embargo, cuando se encuentra al final de una sílaba tras una vocal, no se pronuncia como consonante sino que nasaliza dicha vocal. Comprender cuándo actúa como consonante y cuándo como marca de nasalidad es esencial en francés.
+La letra (enne) /ɛn/ corresponde habitualmente al sonido /n/, como en la palabra (nez) /ne/. Este es su valor sonoro principal.
 
-## Cómo colocar la boca
+## Cómo articular enne
 
-Para articular la consonante `/n/`, apoya la punta de la lengua contra los alvéolos superiores y emite la voz haciendo pasar el aire por la cavidad nasal. Si la **N** forma una vocal nasal, mantén la lengua completamente abajo, relajada, sin tocar el paladar ni los dientes en ningún momento. El flujo de aire debe dividirse suavemente entre la boca y la nariz.
+Apoya la punta de la lengua contra la parte superior de los dientes y el paladar. Deja escapar el aire por la nariz y haz vibrar tus cuerdas vocales.
 
-## Ortografía y reglas
+## Ortografía de enne
 
-La letra **N** aislada ante vocal y el dígrafo **NN** (*année*) se articulan siempre como `/n/`. Los grupos vocálicos terminados en **N** (*an*, *en*, *in*, *on*, *un*) seguidos de consonante o al final de palabra generan vocales nasales. Si se añade una vocal después, como la **e** femenina en *bonne* o *voisine*, la vocal nasal desaparece y se vuelve a pronunciar la consonante `/n/`.
+Delante de una vocal, la letra (enne) /ɛn/ produce el sonido /n/, como en (minute) /mi.nyt/. En cambio, no se pronuncia después de una eme o al final de grupo nasal, como en (condamner) /kɔ̃.da.ne/ o en (monsieur) /mə.sjø/.
 
-## Variantes y errores comunes
+## Comparación en español
 
-Observa la diferencia entre el sonido consonántico en *nuit* `/nɥi/` o *lune* `/lyn/` y la nasalización en *vin* `/vɛ̃/`. El error más común entre los hispanohablantes es articular una [n] alveolar perceptible al final de palabras con vocales nasales. En términos como *sans* o *bon*, la lengua no debe cerrar el paso del aire en ningún momento.
+El sonido francés /n/ es idéntico a la ene del español en palabras como nido. La única dificultad es recordar cuándo queda totalmente muda.

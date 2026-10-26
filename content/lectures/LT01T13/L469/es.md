@@ -20,18 +20,18 @@ terms:
   ro: "L"
 ---
 
-## El sonido de la letra L
+## Sonido de elle
 
-En francés, la letra **L** representa principalmente la consonante lateral alveolar sonora `/l/`. Es prácticamente idéntica a la **l** del español en palabras como *luz* o *ala*, manteniéndose siempre clara y coronal. No obstante, sus combinaciones ortográficas generan comportamientos fonéticos particulares que difieren del castellano.
+La letra (elle) /ɛl/ se pronuncia generalmente con el sonido /l/, como en la palabra (lune) /lyn/.
 
-## Cómo pronunciarla
+## Cómo colocar la boca
 
-Coloca la punta de la lengua contra los alvéolos superiores, justo detrás de los dientes de arriba. Permite que el aire escape por los laterales de la lengua mientras emites voz con las cuerdas vocales. Mantén el cuerpo de la lengua relajado y sin levantar la parte trasera hacia el velo del paladar.
+Apoya la punta de la lengua contra los dientes superiores por detrás y deja escapar el aire por los lados haciendo vibrar las cuerdas vocales.
 
-## Reglas ortográficas y posición
+## Reglas de pronunciación
 
-Aparece como letra simple o geminada (**ll**); en la mayoría de los casos de doble consonante se pronuncia simplemente `/l/` (como en *colline* o *ville*). Sin embargo, en el grupo **-ill-** o a final de palabra tras vocal (**-ail**, **-eil**) pasa a sonar `/j/`, equivalente a la *y* consonántica o semiconsonántica. En contadas palabras patrimoniales como *fusil* o *outil*, la **L** final no se pronuncia.
+En la gran mayoría de las posiciones se pronuncia con el sonido /l/, por ejemplo en (bal) /bal/. En cambio no se pronuncia al final de un número reducido de palabras precisas, como en (fusil) /fy.zi/ o (outil) /u.ti/.
 
-## Variantes y trampas frecuentes
+## Comparación con el español
 
-Compara la `/l/` nítida de *lune* con el valor semivocálico `/j/` de *soleil* o *fille*. El error clásico de los hispanohablantes es articular la doble **ll** francesa como la *ll* española o aplicarle yeísmo fricativo con rehilamiento; ten presente que en francés *ville* suena `/vil/` y *fille* suena exactamente `/fij/`, con una semiconsonante suave.
+La pronunciación no presenta ninguna dificultad porque este sonido es idéntico a la consonante inicial de la palabra luna.

@@ -20,18 +20,18 @@ terms:
   ro: "P"
 ---
 
-## Il suono della lettera P
+## Suono della lettera pé
 
-La lettera francese **P** rappresenta l'occlusiva bilabiale sorda `/p/`, identica al suono della **p** italiana in parole come *pane*. È un suono secco, netto e privo di aspirazione. Non presenta particolari difficoltà per gli italofoni nella maggior parte dei contesti.
+La lettera (pé) /pe/ si realizza con il suono /p/, come nella parola (porte) /pɔʁt/.
 
-## Come impostare la bocca
+## Come posizionare la bocca
 
-Unisci fermamente entrambe le labbra per trattenere l'aria per un istante, poi rilasciala bruscamente senza emettere vibrazioni dalle corde vocali. Mantieni l'articolazione rapida e scattante, evitando soffi d'aria aggiuntivi. La lingua resta bassa e neutra all'interno della cavità orale.
+Chiudi completamente le due labbra bloccando il passaggio dell'aria. Poi aprile all'improvviso senza usare le corde vocali, rilasciando l'aria con un piccolo scoppio sordo.
 
-## Ortografia e combinazioni
+## Regole di ortografia
 
-Si scrive in forma minuscola **p** e maiuscola **P**. Quando è abbinata alla lettera *h* nel digramma **ph**, si pronuncia sempre `/f/` (come in *philosophie*). Spesso a fine parola rimane muta, come accade nei termini *beaucoup*, *loup* o *drap*.
+All'inizio o all'interno prima di vocale o liquida produce il suono /p/, come in (pomme) /pɔm/. A fine parola in molti termini frequenti non si pronuncia, come in (drap) /dʁa/ e (trop) /tʁo/.
 
-## Varianti e tranelli comuni
+## Confronto con l'italiano
 
-La **p** si pronuncia solitamente `/p/`, ma diventa del tutto muta in finale di parola e in alcuni nessi etimologici come in *sculpter* o *sept*. L'errore più comune per chi parla italiano è quello di voler articolare la consonante finale quando invece la regola francese impone che rimanga silenziosa.
+Il suono corrisponde esattamente a quello della parola pane in italiano. Non ci sono particolari difficoltà, a parte ricordare di non pronunciarla a fine parola.

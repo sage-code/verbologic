@@ -20,18 +20,18 @@ terms:
   ro: "F"
 ---
 
-## Az F betű hangja
+## Az eff betű hangja
 
-A francia **F** betű a zöngétlen labiodentális réshangot, azaz a `/f/` hangot jelöli. Ez a hang megegyezik a magyar **f** betű kiejtésével, mint a *fa* szóban. A hangképzés során a hangszalagok nem rezegnek.
+A betű neve (effe) /ɛf/. Alapvetően a magyar f hangnak felel meg, mint a (film) /film/ szóban.
 
-## A kiejtés módja
+## Az eff kiejtése
 
-Érintsd a **felső metszőfogaidat** az alsó ajkad belső pereméhez. Fújd ki a levegőt a fogak és az ajak közötti szűk résen keresztül anélkül, hogy a hangszálaid megszólalnának. A nyelv pihenő helyzetben marad a szájüreg alján.
+Érintsd a felső fogaidat az alsó ajkadhoz, és fújd ki a levegőt. A zöngés változathoz rezegtesd a hangszalagjaidat is.
 
-## Helyesírás és előfordulás
+## Az eff írásmódjai
 
-A hangot leggyakrabban önálló **f** vagy kettőzött **ff** jelöli (*femme*, *affaire*), illetve görög eredetű szavakban a **ph** kapcsolat (*phrase*). A szóvégi **f** általában kiejtendő a franciában (*soif*, *chef*), ellentétben sok más mássalhangzóval.
+Általában a hangot a (café) /ka.fe/ szóban hallod. A hang /v/ lesz a magánhangzó előtti összekötésben, mint a (neuf ans) /nœ.vɑ̃/ kifejezésben. Néhány szóban néma marad, mint a (clef) /kle/ vagy (nerfs) /nɛʁ/ alakban.
 
-## Összehasonlítás és buktatók
+## Magyar összehasonlítás
 
-Ügyelj arra, hogy ne zöngésítsd a hangot `/v/`-re olyan helyzetekben, ahol az nem indokolt. Kivételes szabály azonban a *neuf* (kilenc) szó esete: magánhangzóval vagy néma h-val kezdődő szó előtt hangkötésben (liaison) a kiejtése `/v/` lesz, például a *neuf ans* (`/nœ.vɑ̃/`) kifejezésben.
+A magyar fül számára nincs igazi nehézség, mert a hang teljesen azonos a magyar f hanggal, például a fa szóban.

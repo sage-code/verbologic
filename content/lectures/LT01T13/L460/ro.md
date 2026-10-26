@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## Sunetul literei C
+## Sunetul literei cé
 
-Litera **C** redă în franceză două sunete de bază: un `/k/` dur înaintea vocalelor **a**, **o**, **u** și un `/s/` moale înaintea literelor **e**, **i**, **y**. În combinație cu **h** (grupul **ch**, ca în *chat*), se pronunță identic cu românescul `ș` (`/ʃ/`). Atenție: litera **C** din franceză nu se citește niciodată ca un `ce` sau `ci` românesc (`/tʃ/`).
+Numele acestei litere este (cé) /se/. Sunetul său principal este /k/, pe care îl auzi în cuvântul (café) /ka.fe/.
 
-## Cum se pronunță
+## Pronunțarea sunetelor
 
-Pentru a rosti `/k/`, lipiți partea posterioară a limbii de vălul palatului și eliberați aerul scurt, fără suflu. Pentru sunetul `/s/`, lăsați vârful limbii în spatele dinților de jos și expirați un șuierat continuu. Pentru grupul **ch** (`/ʃ/`), rotunjiți ușor buzele spre înainte și lăsați aerul să curgă lin, exact ca la sunetul `ș` românesc.
+Pentru sunetul /k/, spatele limbii blochează aerul pe vălul palatului, apoi îl eliberează brusc fără voce. Pentru /s/, vârful limbii se apropie de dinți, iar aerul iese continuu printr-un șuierat fără vibrația corzilor vocale.
 
-## Particularități ortografice
+## Reguli de scriere
 
-Dacă un **c** trebuie să sune `/s/` înaintea literelor **a**, **o** sau **u**, franceza recurge la sedilă: **ç** (ca în *français*). La finalul cuvintelor, **c** poate fi rostit `/k/` (ca în *lac*) sau poate rămâne complet mut (ca în *porc* ori *banc*). Grupul **ch** redă regulat sunetul `/ʃ/`, excepțiile cu valoare de `/k/` fiind de regulă împrumuturi vechi de origine greacă (precum *chaos*).
+Înaintea vocalelor a, o, u ori a consoanelor, se aude sunetul /k/, de pildă în (carte) /kaʁt/. Înaintea lui e, i sau y, ori scrisă cu sedilă, redă sunetul /s/, ca în (cerise) /sə.ʁiz/ și (garçon) /gaʁ.sɔ̃/. La sfârșitul unor cuvinte este mută, de exemplu în (tabac) /ta.ba/ și (porc) /pɔʁ/.
 
-## Comparație și greșeli frecvente
+## Capcane pentru români
 
-Cea mai frecventă greșeală a vorbitorilor de română este citirea combinațiilor *ce* și *ci* drept `/tʃe/` și `/tʃi/`, când ele trebuie pronunțate strict cu `/s/` (*cerise* este `/sə.ʁiz/`). De asemenea, nu confundați grupul **ch** cu sunetul `ce/ci`: cuvântul *chat* se pronunță `/ʃa/` ('șa'), niciodată 'ceat'. Fiți atenți mereu la vocala care urmează literei **C**.
+În limba română, această literă urmată de e sau i se pronunță ce sau ci. În franceză nu există acest sunet: rostește mereu un simplu s, exact ca în cuvântul românesc senin.

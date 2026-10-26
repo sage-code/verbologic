@@ -20,18 +20,18 @@ terms:
   ro: "I"
 ---
 
-## O som da letra I
+## O som da letra i
 
-A letra **I** representa quase sempre a vogal fechada anterior não arredondada `/i/`, muito semelhante ao **i** do português em *fita*. Em francês, ela é articulada com grande tensão muscular e clareza, nunca se reduzindo a um som fraco. Quando precede outra vogal, funciona como a semivogal `/j/`.
+A letra (i) /i/ chama-se /i/. O seu valor principal é a vogal /i/, como na palavra (ici) /i.si/.
 
-## Como pronunciar
+## Como pronunciar o i
 
-Abra ligeiramente os lábios esticando os cantos da boca para os lados, como em um sorriso natural. Apoie firmemente a ponta da língua contra a face interna dos dentes inferiores, elevando o dorso da língua perto do palato duro. Garanta que o som seja emitido de forma pura, sem qualquer arredondamento labial.
+Para a vogal, estica os lábios para os lados e eleva a língua junto ao palato anterior. Para a semivogal, parte dessa posição fechada e desliza a língua rapidamente para a vogal seguinte. As cordas vocais vibram sempre.
 
-## Grafia e ocorrência
+## Grafias da letra i
 
-Escreve-se usualmente com a letra **i**, mas também aparece com acento circunflexo (**î**, como em *île*) ou trema (**ï**, como em *naïf*) para marcar o hiato. Lembre-se de que, seguido de *n* ou *m* na mesma sílaba, combina-se para formar a vogal nasal `/ɛ̃/` (*vin*, *timbre*).
+Geralmente ou com acento circunflexo, produz o som vocálico /i/, como em (île) /il/. Antes de outra vogal, passa a soar como a semivogal /j/, tal como em (ciel) /sjɛl/ ou em (hier) /jɛʁ/.
 
-## Comparações e cuidados
+## Dificuldades com o i
 
-Diferente do português europeu ou brasileiro em finais de palavras átonas, o `/i/` francês nunca se enfraquece nem se transforma em som indistinto. Atenção também à passagem rápida para `/j/` antes de vogais (*cahier* `/ka.je/`), evitando alongar o som em duas sílabas separadas.
+Para falantes de português europeu, a pronúncia não apresenta armadilhas. Os sons correspondem com precisão à vogal da palavra ali e à semivogal da palavra iate.

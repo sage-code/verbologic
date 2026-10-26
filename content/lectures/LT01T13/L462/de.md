@@ -20,18 +20,18 @@ terms:
   ro: "E"
 ---
 
-## Der Laut des Buchstabens E
+## Laut des Buchstabens e
 
-Der Buchstabe **E** ist der wandelbarste Vokal im Französischen und steht in seiner Grundform für das 'e caduc' `/ə/`, ähnlich dem deutschen unbetonten Murmellaut in *Gedanke*, jedoch mit deutlicheren Lippenrundungen. Durch Akzente oder Silbenstrukturen wechselt er häufig zu geschlossenem `/e/` (wie in *école*) oder offenem `/ɛ/` (wie in *mer*). Am Wortende bleibt unbetontes **e** meist völlig stumm.
+Der Buchstabe (e) /ə/ heißt so wie sein Hauptlaut. Er klingt wie der Laut /ə/ im Wort (menu) /mə.ny/.
 
-## Ausspracheanleitung
+## Aussprache von Buchstabe e
 
-Um das französische `/ə/` zu bilden, positionieren Sie die Zunge entspannt in der Mitte des Mundes, genau wie beim deutschen Reduktionsvokal am Ende von *Blume*. Runden und stülpen Sie die Lippen dabei leicht nach vorne, ähnlich wie bei einem sehr weichen, ungespannten 'ö'. Halten Sie den Ton vollkommen rein und vermeiden Sie Diphthonge.
+Für den zentralen Laut runden Sie die Lippen leicht und halten die Zunge mittig. Beim geschlossenen Laut spannen Sie die Lippen breit und heben die Zunge. Beim offenen Laut senken Sie den Kiefer etwas weiter nach unten.
 
-## Schreibweise und Vorkommen
+## Regeln für Buchstabe e
 
-Ohne Akzent klingt **E** in einsilbigen Wörtern (*le*, *que*) nach `/ə/`, wandelt sich jedoch vor Doppelkonsonanten (*belle*) zu `/ɛ/`. Akzente bestimmen die Aussprache eindeutig: **é** steht immer für geschlossenes `/e/`, **è** sowie **ê** für offenes `/ɛ/`. Am absoluten Wortende ist ein unakzentuiertes **e** fast ausnahmslos stumm (*table*, *monde*).
+In kurzen Einsilbern klingt der Buchstabe wie der Laut /ə/, zum Beispiel in (le) /lə/. Mit Akzent nach rechts oder vor stummen Endkonsonanten ergibt sich der geschlossene Laut /e/ wie in (nez) /ne/. Vor Doppelbuchstaben hören Sie das offene /ɛ/ wie in (mer) /mɛʁ/. Am Wortende bleibt er oft stumm wie in (table) /tabl/.
 
-## Typische Fehlerquellen
+## Typische Fehler bei e
 
-Im Deutschen neigt man dazu, Endungen wie *-e* immer als Schwa auszusprechen; im Französischen muss dieses finale **e** jedoch komplett stumm bleiben, sodass *pomme* direkt auf `/m/` endet. Verwechseln Sie zudem nicht das gerundete `/ə/` in *le* mit dem gespreizten, geschlossenen `/e/` in *thé*.
+Sprechen Sie den unbetonten Laut nicht mit völlig ungerundeten Lippen wie das deutsche Wortende in bitte. Vermeiden Sie außerdem ein deutsches langes Dehnungs-e bei geschlossenen Silben.

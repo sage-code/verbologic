@@ -20,18 +20,18 @@ terms:
   ro: "B"
 ---
 
-## Il suono della lettera B
+## Suono della lettera bé
 
-La lettera francese **B** corrisponde all'occlusiva bilabiale sonora `/b/`, identica al suono standard della «b» italiana. Si tratta di una consonante forte e pienamente sonorizzata fin dall'inizio dell'esplosione articolatoria. Non presenta alcuna aspirazione e si mantiene nitida in qualsiasi contesto sillabico.
+Questa lettera si chiama (bé) /be/. Corrisponde principalmente al suono /b/, come nella parola (balle) /bal/.
 
-## Come si pronuncia
+## Come posizionare la bocca
 
-Chiudi completamente le labbra per bloccare momentaneamente il flusso d'aria proveniente dai polmoni. Fai vibrare le corde vocali mentre la pressione cresce dolcemente dietro le labbra serrate. Infine, separa le labbra con un rilascio netto e preciso, lasciando la lingua rilassata sul fondo della bocca.
+Per il suono sonoro, unite le labbra bloccando l'aria, poi apritele facendo vibrare le corde vocali. Per la variante sorda, ripetete lo stesso movimento senza vibrazione della voce.
 
-## Ortografia e distribuzione
+## Regole di pronuncia
 
-La grafia prevede la minuscola **b** e la maiuscola **B**, comune in ogni posizione all'interno del termine. Può presentarsi raddoppiata come **bb** (ad esempio in *abbaye*), conservando sempre la pronuncia scempia `/b/`. In posizione finale è spesso muta in termini tradizionali come *plomb*, pur suonando in prestiti moderni come *club*.
+Nella maggior parte dei casi si pronuncia con il suono /b/, come in (robe) /ʁɔb/. Davanti a una consonante sorda diventa sorda con il suono /p/, come in (obtenir) /ɔp.tə.niʁ/. A fine parola resta spesso muta, come in (plomb) /plɔ̃/.
 
-## Variazioni ed errori comuni
+## Confronto con l'italiano
 
-Quando precede una consonante sorda (come `[t]` o `[s]`), la lettera subisce un'assimilazione regressiva e diventa `/p/`, ad esempio in *absolu* (`/ap.sɔ.ly/`). L'errore principale consiste nel pronunciare la lettera finale quando è muta (*plomb* pronunciato erroneamente con il rilascio finale). Presta attenzione a questi casi specifici di desonorizzazione.
+Non ci sono vere difficoltà per gli italiani. Fate solo attenzione ad assimilare il suono davanti a consonanti sorde, senza mantenere la sonorità naturale di parole come barca.

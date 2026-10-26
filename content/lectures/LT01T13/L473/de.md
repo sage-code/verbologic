@@ -20,18 +20,18 @@ terms:
   ro: "P"
 ---
 
-## Der Laut des französischen P
+## Lautwert von pé
 
-Der französische Buchstabe **P** steht für den stimmlosen bilabialen Plosiv `/p/`. Im Gegensatz zum Deutschen wird dieses `/p/` im Französischen niemals behaucht, es folgt also kein kleiner Hauchlaut (`[pʰ]`) wie in „Pass“. Am Wortende oder in bestimmten historischen Buchstabenverbindungen bleibt das **P** meist stumm.
+Der Buchstabe heißt (pé) /pe/. Er steht gewöhnlich für den Laut /p/, zum Beispiel im Wort (porte) /pɔʁt/.
 
-## Artikulation von /p/
+## Bildung der Laute
 
-Schließe beide Lippen fest aneinander, sodass der Atemstrom für einen kurzen Moment komplett blockiert wird. Öffne die Lippen dann schlagartig, um den Laut trocken und explosionsartig zu entlassen. Achte darauf, dass deine Stimmlippen nicht schwingen und kein spürbarer Lufthauch entweicht.
+Schließen Sie beide Lippen fest, um die Luft kurz anzuhalten. Öffnen Sie die Lippen dann ruckartig ohne jeden Luftstoß. Die Stimmbänder schwingen dabei nicht mit.
 
-## Schreibung und Besonderheiten
+## Regeln zur Rechtschreibung
 
-Der Buchstabe tritt einfach oder doppelt auf (z. B. **apprendre**), wobei Doppel-p immer wie ein einzelnes `/p/` klingt. Am Ende vieler gängiger Wörter wie **trop**, **champ** oder **loup** ist das **P** stumm. Die Verbindung **ph** wird wie im Deutschen als `/f/` ausgesprochen, etwa in **phrase**.
+Am Wortanfang oder vor einem Vokal klingt er wie der Laut /p/, so in (pomme) /pɔm/. Am Ende vieler gängiger Wörter bleibt er stumm wie im Wort (drap) /dʁa/ oder auch in (trop) /tʁo/.
 
-## Behauchung und stumme Konsonanten
+## Typische Aussprachefehler
 
-Der häufigste Fehler deutschsprachiger Lernender ist die unwillkürliche Behauchung von **P** am Wortanfang wie in **pain**. Halte eine Hand vor den Mund; du solltest beim Sprechen fast keinen Atemhauch spüren. Vermeide es außerdem, das stumme **P** in Ausdrücken wie **trop** oder in Zahlwörtern wie **sept** `/sɛt/` mitzusprechen.
+Im Deutschen haucht man den Anlaut kräftig an wie in Post. Auf Französisch darf **kein Hauch** entweichen. Halten Sie den Klang trocken wie beim zweiten Laut im deutschen Wort Spott.

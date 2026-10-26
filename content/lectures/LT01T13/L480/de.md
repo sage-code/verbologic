@@ -20,18 +20,18 @@ terms:
   ro: "W"
 ---
 
-## Der Laut des Buchstabens W
+## Der Buchstabe double vé
 
-Der Buchstabe **W** stammt historisch nicht aus dem Französischen und kommt fast ausschließlich in Lehnwörtern vor. Je nach Herkunft des Wortes wird er entweder wie das deutsche 'w' (`/v/`) oder wie das englische 'w' (`/w/`) ausgesprochen. Deutsche Lehnwörter behalten meist das `/v/`, während neuere englische Wörter als `/w/` realisiert werden.
+Der Buchstabe (double vé) /dublə ve/ wird meist als Laut /v/ ausgesprochen, wie in (wagon) /va.ɡɔ̃/.
 
-## Ausspracheanleitung
+## Aussprache der Laute
 
-Für den Laut `/v/` legen Sie die oberen Schneidezähne leicht an die Unterlippe und lassen die Stimmbänder vibrieren, genau wie im deutschen Wort 'Wasser'. Für den Laut `/w/` spitzen Sie die Lippen wie zu einem sehr kurzen 'u' und gleiten unmittelbar in den folgenden Vokal über. Die Zunge bleibt dabei hinten am Gaumen aktiv.
+Für den ersten Laut berühren die oberen Schneidezähne die Unterlippe mit Stimme. Für den zweiten spitzen Sie die Lippen stark und gleiten stimmhaft zum nächsten Vokal.
 
-## Schreibweise und Besonderheiten
+## Schreibweise und Aussprache
 
-Der Buchstabe heißt im Französischen **double vé** und steht fast ausnahmslos am Wortanfang von Entlehnungen. Traditionelle Entlehnungen wie *wagon* haben sich fest mit der Aussprache `/v/` etabliert. Jüngere Begriffe aus dem angloamerikanischen Raum wie *web* oder *weekend* werden hingegen stets mit dem Halbvokal `/w/` gesprochen.
+In älteren Entlehnungen germanischen Ursprungs klingt er wie /v/, wie in (warrant) /va.ʁɑ̃/. In modernen Lehnwörtern, vor allem aus dem Englischen, ertönt der Laut /w/, wie in (web) /wɛb/.
 
-## Vergleich und typische Fehler
+## Tipps für deutsche Muttersprachler
 
-Vergleichen Sie das Wort *wagon* (`/va.ɡɔ̃/`) mit *weekend* (`/wi.kɛnd/`), um die beiden Aussprachevarianten zu unterscheiden. Deutschsprachige Lerner neigen manchmal dazu, auch englische Lehnwörter im Französischen mit `/v/` zu sprechen, oder *wagon* fälschlicherweise wie im Englischen mit `/w/` zu artikulieren. Achten Sie stets darauf, den Ursprung des Begriffs zu berücksichtigen.
+Der Laut /v/ entspricht genau dem deutschen w. Achten Sie bei englischen Lehnwörtern darauf, tatsächlich den gerundeten Gleitlaut wie im englischen Wort water zu bilden.

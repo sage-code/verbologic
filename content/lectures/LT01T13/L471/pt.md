@@ -20,18 +20,18 @@ terms:
   ro: "N"
 ---
 
-## O som da letra N
+## O som do enne
 
-A letra **N** representa a consoante nasal `/n/` diante de vogais, muito semelhante ao «n» do português em «navio». Em final de sílaba após uma vogal, ela deixa de soar como uma consoante articulada e atua apenas como marca de nasalização da vogal antecedente, como em «vin» `/vɛ̃/`. Esse processo produz uma vogal puramente nasal, sem o fechamento da língua.
+A letra (enne) /ɛn/ representa habitualmente o som /n/, como se ouve na palavra (nez) /ne/.
 
-## Como articular o N
+## Como pronunciar o enne
 
-Para articular o `/n/`, pressione a ponta da língua contra os alvéolos superiores, logo atrás dos dentes da frente. Deixe o ar ressoar e escapar pela cavidade nasal enquanto aciona as cordas vocais. Nas vogais nasais, lembre-se de abaixar o véu palatino sem encostar a língua no céu da boca.
+Apoia a ponta da língua nos alvéolos dos dentes superiores, bloqueando a boca, e deixa o ar sair pelo nariz com vibração das cordas vocais.
 
-## Ortografia e particularidades
+## Grafias do enne
 
-Apresenta-se como **N** maiúsculo e **n** minúsculo. Diante das letras «b», «p» e «m», é sistematicamente substituída por «m», com raríssimas exceções como «bonbon». Quando grafada em duplicidade («nn», como em «bonne»), anula a nasalização da vogal anterior e pronuncia-se puramente como `/n/`.
+Antes de uma vogal, produz o som /n/, como em (minute) /mi.nyt/. A letra fica calada após a letra m em (condamner) /kɔ̃.da.ne/ e também no vocábulo (monsieur) /mə.sjø/.
 
-## Variações e armadilhas comuns
+## Dificuldades com o enne
 
-O erro mais frequente é pronunciar uma consoante `/n/` audível no final de sílabas nasais ou transformar a vogal em um ditongo nasal típico do português (dizendo `/bõw/` em vez de `/bɔ̃/` em «bon»). Além disso, preste atenção na ligação fonética (*liaison*), onde o som `/n/` é nitidamente articulado com a palavra seguinte, como em «un enfant» `/œ̃.nɑ̃.fɑ̃/`.
+Em português europeu, este som inicial é igual ao da palavra nada, pelo que não apresenta qualquer dificuldade de articulação.

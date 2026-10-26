@@ -20,18 +20,18 @@ terms:
   ro: "S"
 ---
 
-## Az S betű kiejtése
+## Az esse betű hangja
 
-A francia **S** betű a szó elején és mássalhangzók mellett tiszta magyar **sz** hangként (`/s/`) hangzik, mint a « soleil » szóban. Ha két magánhangzó közé kerül egyedül, meglágyul és magyar **z** hanggá (`/z/`) válik, mint a « maison » szóban. Szó végén általában teljesen néma marad.
+A francia (esse) /ɛs/ betű neve egyszerűen hangzik. Leggyakoribb kiejtése a zöngétlen /s/ hang, mint a (sac) /sak/ szóban.
 
-## Hogyan képezzük a hangot
+## Az esse kiejtése
 
-A `/s/` képzéséhez helyezze a nyelv hegyét a felső fogmederhez, anélkül, hogy elzárná a levegő útját. Fújja ki a levegőt középen, éles sziszegő hangot adva anélkül, hogy a hangszálai rezegnének. A `/z/` variáns esetén a szájállás azonos, de a hangszálak rezgésével zöngés hangot kell adni.
+A zöngétlen mássalhangzóhoz érintsd a nyelvhegyed az alsó fogsor mögé, és fújd ki a levegőt zönge nélkül. A zöngés változathoz a hangszalagjaidat is rezegtesd meg. Néma alaknál a szád egyáltalán nem képez mássalhangzót.
 
-## Helyesírási tudnivalók
+## Az esse betű írásmódja
 
-Magánhangzók között a zöngétlen `/s/` hang megőrzéséhez kötelező a kettőzött **ss** írásmód, például a « poisson » (hal) szóban, szemben a « poison » (méreg) `/z/` hangjával. A szóvégi többesjelként álló **s** a franciában szinte kivétel nélkül kiejtetlen.
+Szó elején vagy mássalhangzó mellett a hangzás zöngétlen, mint a (poste) /pɔst/ szóban. Két magánhangzó között zöngés /z/ hangot hallunk, például a (rose) /ʁoz/ szóban. Sok szó végén a betű teljesen néma marad, mint a (bras) /bʁa/ alakban.
 
-## Gyakori tévedések összehasonlítása
+## Az esse betű összehasonlítása
 
-A magyar anyanyelvűek számára a legnagyobb csapda, hogy a szóvégi **s** betűket hajlamosak kiejteni a többes számú alakoknál (« les livres » kiejtése `/le livʁ/`). Ügyeljen arra is, hogy az egyedül álló magánhangzóközi **s** mindig `/z/`, és csak kötésben (liaison) szólal meg a szó végén.
+A magyar anyanyelvűek számára a legnagyobb hiba a betű felolvasása a magyar sziszegő hanggal, holott az a magyar sz hangnak felel meg. Szó végén ügyelj arra, hogy ne ejtsd ki feleslegesen.

@@ -20,18 +20,18 @@ terms:
   ro: "P"
 ---
 
-## O som da letra P
+## O som do pé
 
-A letra **P** representa a consoante oclusiva bilabial surda `/p/`, exatamente como em português nas palavras «pato» ou «porta». No francês padrão, este som nunca é aspirado, mantendo-se firme e seco. Em algumas palavras históricas ou em posição final, a letra pode ser totalmente muda.
+A letra chama-se (pé) /pe/. O seu som principal é o /p/, como se ouve na palavra (porte) /pɔʁt/.
 
-## Como pronunciar o P
+## Como pronunciar
 
-Junte os lábios com firmeza momentaneamente, interrompendo a passagem do ar que vem dos pulmões. Em seguida, solte a pressão abrindo os lábios de forma rápida e nítida, sem acionar as cordas vocais. Mantenha a emissão de ar curta para evitar criar um sopro aspirado.
+Junte firmemente os lábios para bloquear a passagem de ar. Em seguida, solte os lábios num sopro rápido, sem fazer vibrar as cordas vocais.
 
-## Grafia e regras de uso
+## Regras de escrita
 
-A letra escreve-se **P** em maiúscula e **p** em minúscula. Pode surgir duplicada em termos como «frapper», soando apenas como um `/p/` simples. Quando combinada com **H** no dígrafo **PH**, adquire o som `/f/`, como em «pharmacie».
+No início das palavras ou antes de vogais, pronuncia-se /p/, como em (pomme) /pɔm/. No fim de muitas palavras comuns a letra fica muda, como em (drap) /dʁa/ e em (trop) /tʁo/.
 
-## Diferenças e erros comuns
+## Diferenças com o português
 
-Para os falantes de português, a pronúncia de `/p/` é bastante natural e direta. O principal cuidado reside nas consoantes finais mudas: em vocábulos como «trop», «loup» ou «drap», o **P** final nunca deve ser pronunciado. Tenha também atenção para não confundir o som surdo `/p/` com a sua contraparte sonora `/b/` («pas» versus «bas»).
+Este som não tem armadilhas para falantes de português, sendo idêntico ao p da palavra porta.

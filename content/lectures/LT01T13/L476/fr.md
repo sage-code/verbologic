@@ -20,18 +20,18 @@ terms:
   ro: "S"
 ---
 
-## Le son de la lettre S
+## Son de la lettre esse
 
-La lettre **S** se prononce principalement `/s/`, comme dans « soleil » ou « veste ». Lorsqu'elle se trouve seule entre deux voyelles, elle se sonorise et se prononce `/z/`, comme dans « rose ». En fin de mot, elle est le plus souvent muette, servant notamment de marqueur du pluriel.
+La lettre (esse) /ɛs/ correspond principalement au son /s/, comme dans le mot (sac) /sak/.
 
-## Comment articuler le S
+## Comment placer la bouche
 
-Pour réaliser le son `/s/`, placez la pointe de votre langue tout près des alvéoles supérieures sans les toucher complètement. Laissez l'air s'échapper en continu au centre pour produire un sifflement net et sans vibration des cordes vocales. Pour le son `/z/`, gardez exactement la même posture en faisant vibrer vos cordes vocales.
+Pour la consonne sourde, approchez l'avant de la langue des dents supérieures et soufflez sans faire vibrer la gorge. Pour la consonne voisée, maintenez ce passage d'air continu en activant la vibration des cordes vocales.
 
-## Règles d'écriture et graphies
+## Règles d'écriture
 
-En français, le son `/s/` entre deux voyelles s'écrit obligatoirement avec un double **ss** (comme dans « poisson » vs « poison »). La lettre **S** finale est muette dans la grande majorité des cas, sauf dans certains emprunts ou mots courts comme « bus » ou « mars ».
+En début de mot ou à côté d'une consonne, elle donne le son /s/ comme dans (poste) /pɔst/. Placée entre deux voyelles, elle prend le son /z/ dans (rose) /ʁoz/. À la fin de nombreux mots, elle est muette, comme dans (bras) /bʁa/.
 
-## Nuances et pièges fréquents
+## Prononciation pour francophones
 
-L'erreur la plus courante consiste à oublier la règle du **S** intervocalique en prononçant `/s/` au lieu de `/z/` dans des mots comme « désert ». Veillez aussi à ne pas prononcer le **S** final du pluriel (« les chats » se prononce `/le ʃa/`), sauf lors d'une liaison où il devient `/z/` devant une voyelle.
+Ce signe ne présente aucune difficulté pour vous. Veillez simplement à bien distinguer la consonne sourde et la consonne voisée entre deux voyelles.

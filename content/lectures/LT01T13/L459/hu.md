@@ -20,18 +20,18 @@ terms:
   ro: "B"
 ---
 
-## A B betű hangzása
+## A bé betű hangja
 
-A francia **B** betű alapértelmezetten a `/b/` hangot jelöli, ami pontosan megegyezik a magyar **b** hanggal. Ez egy zöngés bilabiális zárhang, amely a szó elején és magánhangzók között mindig tisztán hallható.
+A francia (bé) /be/ neve és kiejtése egyszerű. Fő hangja a zöngés /b/, mint a (balle) /bal/ szóban.
 
-## Hogyan ejtsük
+## A kiejtés módja
 
-Zárja össze a két ajkát a levegő útjának elzárásához, majd hirtelen nyissa szét őket, miközben megrezegteti a hangszalagjait. Ügyeljen arra, hogy a hang felpattanása tiszta és zöngegazdag maradjon, hehezés nélkül.
+Zárd össze mindkét ajkadat, majd engedd ki hirtelen a levegőt. A zöngés változatnál rezegjenek a hangszalagok, a zöngétlen változatnál pedig ne rezegjenek.
 
-## Helyesírás és elhelyezkedés
+## Helyesírás és változatok
 
-A franciában előfordul egyedül és kettőzve is (**bb**, pl. *abbé*), mindkét esetben sima `/b/` marad. Szó végén, különösen orrhangú magánhangzó után gyakran néma (pl. *plomb*), de idegen eredetű szavak végén ejtjük (pl. *club*).
+A legtöbb helyzetben a zöngés /b/ hang hallható, mint a (robe) /ʁɔb/ szóban. Zöngétlen mássalhangzó előtt zöngétlen /p/ hanggá válik, mint a (obtenir) /ɔp.tə.niʁ/ vagy a (absurde) /ap.syʁd/ alakban. Néhány szó végén pedig teljesen néma marad, mint a (plomb) /plɔ̃/ és a (radoub) /ʁa.du/ szóban.
 
-## Hasonló hangok és hasonulás
+## Gyakori ejtési hibák
 
-Zöngétlen mássalhangzók (például /s/ vagy /t/) előtt a **b** hasonul, és `/p/`-nek hangzik, mint az *obtenir* (`/ɔp.tə.niʁ/`) szóban. A magyar anyanyelvűeknek nem okoz nehézséget a képzése, csupán a néma szóvégi változatokra kell ügyelni.
+A magyar anyanyelvűek számára ez a betű nem jelent nehézséget. A magyar bor vagy lap szavak mássalhangzói pontosan megfelelnek a francia változatoknak.

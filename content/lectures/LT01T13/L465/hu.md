@@ -20,18 +20,18 @@ terms:
   ro: "H"
 ---
 
-## A H betű hangzása
+## Az ache betű hangja
 
-A standard francia nyelvben a **H** betű teljesen **néma** (`/∅/`), soha nem jelöl önálló hangot. Nem ejtjük sem a magyar /h/ torokhangjaként, sem enyhe fújásként. Puszta jelenléte a szavakban történeti vagy helyesírási hagyományt tükröz.
+A francia (ache) /aʃ/ betűnek önmagában nincs hangértéke. Teljesen némán marad például a (habiter) /a.bi.te/ szóban.
 
-## A kiejtés módja
+## Az ache betű kiejtése
 
-Amikor **H** betűvel kezdődő francia szót olvasol, teljesen hagyd figyelmen kívül ezt a betűt. Ne hozz létre semmilyen légáramlást vagy torokhangot a gégédben. A szájat és a nyelvet azonnal a rákövetkező magánhangzó formájára kell alakítani.
+Ehhez a betűhöz semmilyen hangképzés nem tartozik. A hangszalagok nem rezegnek, a száj nem formál hangot, a levegő pedig akadálytalanul halad át a következő magánhangzóhoz.
 
-## Helyesírási sajátosságok
+## Az ache betű írásmódja
 
-Kétféle **H** létezik: a „néma H” (*H muet*), amely megengedi az összeolvasást és a kötést (pl. *l'homme* `/lɔm/`), valamint a „lehelt H” (*H aspiré*), amely megakadályozza azt (pl. *le héros* `/lə e.ʁo/`). A **C** után a **CH** kapcsolatot (`/ʃ/`, magyar *s*), míg a **P** után a **PH** kapcsolatot (`/f/`) alkotja.
+Ez a betű minden helyzetben néma marad. Nem ejtjük sem az (homme) /ɔm/ szóban, sem a (héros) /e.ʁo/ szó elején.
 
-## Gyakori hibák és összehasonlítás
+## Gyakori ejtési hibák
 
-A magyar anyanyelvűek legfőbb hibája, hogy megpróbálják kiejteni a magyarhoz hasonló torokhangú `[h]`-t a szavak elején. Ügyelj arra, hogy soha ne leheld ki a hangot, és tanuld meg kívülről a *H aspiré*-vel kezdődő szavakat, hogy elkerüld a helytelen hangkötéseket.
+A magyar anyanyelvűek hajlamosak a magyar h hangot kiejteni a francia szavakban, mint a ház szó elején. Ügyelj rá, hogy a francia betűt soha ne ejtsd ki zöngétlen réshangként.

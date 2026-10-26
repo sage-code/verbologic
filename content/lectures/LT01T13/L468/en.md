@@ -20,18 +20,18 @@ terms:
   ro: "K"
 ---
 
-## The sound of the French K
+## Sound of the letter ka
 
-The letter **K** represents the voiceless velar plosive `/k/`. Unlike in English, it is pronounced without aspiration—there is no puff of air following the release. It is not native to French and appears almost exclusively in loanwords, Greek roots, and international vocabulary.
+The letter (ka) /ka/ makes the sound /k/. Hear it in the word (kilo) /ki.lo/.
 
-## How to pronounce it
+## Pronouncing the letter ka
 
-Press the back of your tongue firmly against your soft palate (velum) to block the airflow completely. Build up gentle air pressure, then release the tongue sharply without breathing out extra air. Keep your vocal cords completely still, as this is a voiceless stop.
+Raise the back of your tongue against the soft palate to block the airflow. Release it cleanly without puffing out breath and without vibrating your vocal cords.
 
-## Spelling and usage
+## Spelling of the letter ka
 
-The letter **K** is relatively rare in genuine French words, as the sound `/k/` is usually spelled with **c**, **qu**, or **ch**. You will see **k** in borrowed vocabulary like *kiosque*, *kayak*, or metric units such as *kilomètre*. Its pronunciation remains identical regardless of whether it appears at the start or in the middle of a word.
+This letter always makes the sound /k/ in all positions, as heard at the end of (anorak) /a.nɔ.ʁak/.
 
-## Pitfalls and comparison
+## Mistakes with the letter ka
 
-English speakers often produce a noticeable puff of air (`[kʰ]`) when pronouncing **k** before vowels, which sounds unnatural in French. Aim for a crisp, 'dry' `/k/` similar to the sound in the English word *skill* rather than *kill*. The letter itself never changes its sound into a soft consonant, unlike the letter **c**.
+English speakers often release this sound with a puff of air, as in the word kite. Keep it completely unaspired, closer to the sound in the word skate.

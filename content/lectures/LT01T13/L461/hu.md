@@ -20,18 +20,18 @@ terms:
   ro: "D"
 ---
 
-## A D betű kiejtése
+## A dé betű kiejtése
 
-A francia **D** betű a zöngés zárhangot, a `/d/` hangot jelöli, amely nagyon hasonlít a magyar **d** hangra. A különbség csupán annyi, hogy a francia kiejtés kifejezetten **dentális**, a nyelv hegye közvetlenül a felső metszőfogak hátuljához ér.
+Ennek a betűnek a francia neve (dé) /de/. Leggyakrabban a magyar d-hez hasonló hangot jelöl, mint a (date) /dat/ szóban.
 
-## Hogyan képezzük a hangot
+## A dé képzése
 
-Érintse a nyelve hegyét a **felső metszőfogak** belső felületéhez a légáram elzárásához. Engedje, hogy a **hangszálai rezegjenek**, majd hirtelen engedje el a nyelvet, tiszta, hehezetmentes hangot képezve.
+Érintsd a nyelved hegyét a felső metszőfogak belső tövéhez. Zárd el egy pillanatra a levegőt, majd engedd szabadon, miközben a hangszalagjaid rezegnek.
 
-## Helyesírás és elhelyezkedés
+## A dé írásmódjai
 
-A betű kis- és nagybetűs alakja **d** és **D**, kettőzve is előfordul (például *addition*). Szó végén (*nid*, *tard*) a francia **D** szinte mindig **néma**, kivéve a formális hangkötésekben (liaison).
+A legtöbb helyzetben a /d/ hangot ejtjük, mint a (mode) /mɔd/ szóban. Sok szó végén viszont teljesen néma marad, ahogyan a (nord) /nɔʁ/ vagy a (chaud) /ʃo/ szóban hallhatod.
 
-## Összehasonlítás és buktatók
+## A dé és a magyar
 
-A leggyakoribb hiba a szóvégi **D** betűk kiejtése: a *chaud* szót `/ʃo/`-nak ejtjük, a végződés nélkül. Kivétel a választékos kötés, ahol magánhangzó előtt `/t/` hanggá válik, mint a *grand homme* (`/ɡʁɑ̃.t‿ɔm/`) kifejezésben.
+Nincs igazi nehézség a kiejtésében, mert megegyezik a magyar d hanggal, mint a dal szóban. Csupán arra figyelj, hogy a szóvégi helyzetben gyakran egyáltalán nem hangzik el.

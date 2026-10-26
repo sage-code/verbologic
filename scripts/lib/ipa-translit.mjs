@@ -155,6 +155,30 @@ const SHARED = {
 }
 
 /**
+ * Nasal vowels, keyed by the base vowel of a vowel + combining tilde (U+0303).
+ *
+ * The tilde is in SILENT, so without this table `/sɛ̃k/` comes out as "sek" and
+ * the nasality — the whole point of the sound — is lost. No explanation
+ * language here has nasal vowels, so each one approximates the nasal with its
+ * own vowel plus a nasal consonant (Portuguese, which does have them, uses its
+ * own tilde letters).
+ */
+const NASAL = {
+  en: { 'ɑ': 'ahn', 'ɛ': 'ehn', 'ɔ': 'ohn', 'œ': 'uhn', 'æ': 'ahn', 'a': 'ahn', 'e': 'ehn', 'o': 'ohn', 'i': 'ehn', 'u': 'uhn', 'ə': 'uhn' },
+  ro: { 'ɑ': 'an', 'ɛ': 'en', 'ɔ': 'on', 'œ': 'ăn', 'æ': 'an', 'a': 'an', 'e': 'en', 'o': 'on', 'i': 'ân', 'u': 'un', 'ə': 'ăn' },
+  ru: { 'ɑ': 'ан', 'ɛ': 'эн', 'ɔ': 'он', 'œ': 'ён', 'æ': 'ан', 'a': 'ан', 'e': 'эн', 'o': 'он', 'i': 'эн', 'u': 'юн', 'ə': 'эн' },
+  de: { 'ɑ': 'an', 'ɛ': 'en', 'ɔ': 'on', 'œ': 'ön', 'æ': 'än', 'a': 'an', 'e': 'en', 'o': 'on', 'i': 'en', 'u': 'un', 'ə': 'en' },
+  it: { 'ɑ': 'an', 'ɛ': 'en', 'ɔ': 'on', 'œ': 'ön', 'æ': 'an', 'a': 'an', 'e': 'en', 'o': 'on', 'i': 'en', 'u': 'un', 'ə': 'en' },
+  es: { 'ɑ': 'an', 'ɛ': 'en', 'ɔ': 'on', 'œ': 'un', 'æ': 'an', 'a': 'an', 'e': 'en', 'o': 'on', 'i': 'in', 'u': 'un', 'ə': 'en' },
+  fr: { 'ɑ': 'an', 'ɛ': 'in', 'ɔ': 'on', 'œ': 'un', 'æ': 'an', 'a': 'an', 'e': 'in', 'o': 'on', 'i': 'in', 'u': 'un', 'ə': 'in' },
+  hu: { 'ɑ': 'an', 'ɛ': 'en', 'ɔ': 'on', 'œ': 'ön', 'æ': 'en', 'a': 'an', 'e': 'en', 'o': 'on', 'i': 'in', 'u': 'un', 'ə': 'en' },
+  pt: { 'ɑ': 'ã', 'ɛ': 'ẽ', 'ɔ': 'õ', 'œ': 'ũ', 'æ': 'ã', 'a': 'ã', 'e': 'ẽ', 'o': 'õ', 'i': 'ĩ', 'u': 'ũ', 'ə': 'ẽ' }
+}
+
+/** The combining tilde that turns a vowel into a nasal vowel. */
+const COMBINING_TILDE = '\u0303'
+
+/**
  * A backtick span that is a real word — no IPA-only characters — is left alone.
  * `masă` is already readable; `/ˈma.sə/` is not.
  */
@@ -174,17 +198,26 @@ export function looksLikeIpa(span) {
  */
 export function transliterateSpan(span, lang) {
   const table = BY_LANG[lang] ?? BY_LANG.en
+  const nasal = NASAL[lang] ?? NASAL.en
+  const chars = [...span]
   let out = ''
-  for (const char of span) {
-    if (SILENT.has(char)) continue
+  for (let index = 0; index < chars.length; index += 1) {
+    const char = chars[index]
+    // A combining tilde FOLLOWS the vowel it nasalises, so it is consumed by
+    // the vowel's own iteration. It is in SILENT, so without this lookahead it
+    // would simply be dropped and `/sɛ̃k/` would come out as "sek".
+    const nasalised = chars[index + 1] === COMBINING_TILDE
+    if (nasalised) index += 1
+    // `.` is the IPA syllable separator; read aloud it becomes a full stop.
+    if (SILENT.has(char) || char === '.') continue
     const mapped = table[char] ?? SHARED[char]
     if (mapped !== undefined) {
-      out += mapped
+      out += nasalised ? (nasal[char] ?? mapped + 'n') : mapped
       continue
     }
     // ASCII and the language's own accented letters pass through unchanged.
     if (char.codePointAt(0) < 128) {
-      out += char
+      out += nasalised ? (nasal[char] ?? char + 'n') : char
       continue
     }
     if (!IPA_ONLY.test(char)) {
@@ -212,6 +245,7 @@ export function transliterateSpan(span, lang) {
  */
 export function transliterate(text, lang) {
   const rewritten = text
+    .replace(FOREIGN_WORD, '')
     .replace(/\/([^/\n]{1,60})\//g, (_, span) => transliterateSpan(span, lang))
     .replace(/\[([^\]\n]{1,60})\]/g, (whole, span) =>
       looksLikeIpa(span) ? transliterateSpan(span, lang) : whole
@@ -224,6 +258,16 @@ export function transliterate(text, lang) {
     )
   return rewritten.replace(IPA_ONLY_GLOBAL, '')
 }
+
+/**
+ * `(word) /ipa/` — a target-language word in round brackets, spelled as the
+ * language spells it, immediately followed by its pronunciation. A Romanian
+ * (or any other explanation-language) voice cannot read a foreign word, so the
+ * bracketed word is dropped from the spoken text and only the respelled
+ * pronunciation is voiced. The IPA must stay OUTSIDE the brackets: the bracketed
+ * part is the silent part. The lookahead keeps ordinary parentheses untouched.
+ */
+const FOREIGN_WORD = /\(([^()\n]{1,60})\)[ \t]*(?=\/[^/\n]{1,60}\/)/g
 
 /** Every IPA-only character, for the final sweep. */
 const IPA_ONLY_GLOBAL = /[\u0250-\u02FF\u0300-\u036F\u1D00-\u1DBF\u2C60-\u2C7F\uA700-\uA71F]/g

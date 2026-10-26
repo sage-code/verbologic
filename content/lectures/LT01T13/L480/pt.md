@@ -20,18 +20,18 @@ terms:
   ro: "W"
 ---
 
-## O som da letra W
+## Som do double vé
 
-A letra **W** não é nativa do francês e possui duas pronúncias distintas de acordo com a origem da palavra. Em termos germânicos ou de empréstimos mais antigos, soa exatamente como `/v/`, idêntico ao nosso 'V'. Já nos estrangeirismos modernos vindos do inglês, tem som de semivogal `/w/`, muito semelhante ao início da palavra *quase* em português.
+A letra (double vé) /dublə ve/ pronuncia-se habitualmente com o som /v/, como na palavra (wagon) /va.ɡɔ̃/.
 
 ## Como pronunciar
 
-Para articular o som `/v/`, encoste levemente os dentes superiores no lábio inferior e solte o ar com vibração das cordas vocais. Para fazer o som `/w/`, projete e arredonde bem os lábios para a frente, como quem vai dizer um 'u' rápido, deslizando logo para a vogal seguinte. O segredo é identificar qual das duas articulações o vocábulo exige.
+Para um dos sons, encoste os dentes superiores ao lábio inferior e faça vibrar as cordas vocais. Para o outro, arredonde bem os lábios para a frente e levante a parte de trás da língua.
 
-## Ortografia e particularidades
+## Regras de grafia
 
-Chamada de **double vé** em francês, a letra surge quase que unicamente em empréstimos linguísticos e nomes próprios. Palavras da tecnologia e cultura pop quase sempre levam a pronúncia angófona. Ela também aparece comumente em abreviações do dia a dia, como *W.-C.* (`/ve.se/`).
+Nos empréstimos mais antigos de origem germânica, lê-se com o som /v/, como em (warrant) /va.ʁɑ̃/. Nos estrangeirismos modernos de origem inglesa, produz o som de semivogal /w/, como no termo (web) /wɛb/.
 
-## Comparações e armadilhas comuns
+## Erros frequentes
 
-O erro mais clássico entre estudantes é pronunciar todas as palavras com som de `/w/`. Lembre-se de que palavras consagradas pelo uso antigo, como *wagon*, se pronunciam com `/v/` (`/va.ɡɔ̃/`). Fique atento à história do termo para não usar a fonética inglesa em palavras aportuguesadas pelo canal germânico.
+O som /w/ não oferece perigo a quem fala português porque existe na palavra quase. O erro mais vulgar consiste em trocar os dois sons nas palavras cuja origem inglesa ou germânica se desconhece.

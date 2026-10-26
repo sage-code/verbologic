@@ -20,18 +20,18 @@ terms:
   ro: "B"
 ---
 
-## Sunetul literei B
+## Sunetul literei bé
 
-Litera franceză **B** redă aproape întotdeauna consoana oclusivă bilabială sonoră `/b/`, exact ca în limba română în cuvântul *bun*. Este un sunet plin și sonor, produs fără expirație suplimentară de aer. În fața consoanelor surde precum 's' sau 't', acesta se asimilează adesea și se pronunță ca un `/p/` surd.
+Numele acestei litere este (bé) /be/. În marea majoritate a cuvintelor, ea redă sunetul /b/, exact ca în cuvântul (balle) /bal/.
 
-## Cum se pronunță
+## Pronunția literei bé
 
-Apropiați ambele buze strâns pentru a bloca complet trecerea aerului prin gură. Activați corzile vocale înainte de deschiderea buzelor pentru a crea o vibrație clară. Desprindeți buzele brusc, eliberând aerul direct în vocala următoare fără suflu suplimentar.
+Pentru sunetul /b/, lipește complet buzele și lasă corzile vocale să vibreze în timp ce eliberezi aerul. Pentru sunetul /p/, buzele fac aceeași mișcare bruscă, dar corzile vocale nu vibrează deloc.
 
-## Particularități ortografice
+## Ortografia literei bé
 
-Se întâlnește scris ca simplu **b** sau dublat **bb** (ca în *abbaye*), ambele pronunțându-se identic ca un singur `/b/`. La finalul cuvintelor moderne împrumutate se aude clar (ca în *snob*), însă rămâne mut în unele cuvinte vechi precum *plomb*. Nu creează nazalitate de la sine și nu modifică vocala anterioară.
+În cele mai multe poziții, litera redă sunetul /b/, ca în (robe) /ʁɔb/. Înaintea unei consoane surde, ea se asimilează și devine sunetul /p/, ca în (obtenir) /ɔp.tə.niʁ/. La finalul câtorva cuvinte, această literă este complet mută, de exemplu în (plomb) /plɔ̃/.
 
-## Variante și greșeli frecvente
+## Comparație cu limba română
 
-Comparați pronunția `/b/` din *bonjour* cu asimilarea în `/p/` din cuvinte precum *obtenir* sau *absent*. Vorbitorii de limba română pronunță acest sunet foarte natural, însă trebuie să fie atenți la literele finale tăcute. Nu pronunțați consoana finală în termeni tradiționali precum *radoub* sau *plomb*.
+Sunetul principal al literei este identic cu cel din cuvintele românești barcă sau bob. Singura capcană este asimilarea dinaintea unei consoane surde, când devine un p curat, exact ca în pronunția firească a cuvântului românesc obține.

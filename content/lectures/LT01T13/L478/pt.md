@@ -20,18 +20,18 @@ terms:
   ro: "U"
 ---
 
-## O som da letra U
+## O som do u
 
-A letra **U** em francês representa a vogal anterior fechada arredondada `/y/`. Esse som não existe no português padrão e soa como um meio-termo entre o **i** e o **u**. Diante de outra vogal, transforma-se na semivogal `/ɥ/`, como na palavra **huit**.
+A letra (u) /y/ chama-se (u) /y/. O seu som principal é uma vogal fechada, como na palavra (usine) /y.zin/.
 
-## Como produzir o som `/y/`
+## Como pronunciar o u
 
-Posicione a língua na frente da boca, encostada nos dentes inferiores, exatamente na posição do som **i**. Sem mover a língua dessa posição, projete e arredonde os lábios para a frente em formato de bico fechado, como se fosse dizer **u** ou assobiar. Mantenha essa tensão labial ao emitir a voz.
+Posicione a língua à frente para pronunciar um i, mas arredonde os lábios bem para a frente com firmeza. Para a semivogal, mantenha os lábios arredondados e deslize imediatamente para a vogal seguinte.
 
-## Grafia e ocorrência
+## Grafia do u
 
-A letra aparece tanto na forma simples **u** quanto com acentos (**û**, **ü**), como em **flûte** ou **aiguë**. É fundamental não confundi-la com o dígrafo **ou**, que corresponde ao som do **u** em português. Letras finais como **-us** ou **-ut** costumam ter a consoante muda, mantendo apenas a vogal `/y/` sonora.
+Em regra geral, a letra com ou sem acento produz a vogal plena em (sûr) /syʁ/. Diante de outra vogal pronunciada, passa a semivogal, tal como em (nuit) /nɥi/.
 
-## Comparações e erros comuns
+## Erros comuns no u
 
-O erro mais clássico dos lusófonos é pronunciar a letra **u** como o **u** do português `/u/`. Essa troca gera confusões graves de sentido entre palavras fundamentais, como **tu** `/ty/` (tu) e **tout** `/tu/` (tudo), ou **dessus** (em cima) e **dessous** (embaixo). Pratique bastante o biquinho firme para não deixar o som escapar para um **i** puro ou **u** tradicional.
+O erro mais frequente é pronunciar o som de u português como em uva. Mantenha sempre os lábios arredondados com a língua na posição do som de i.

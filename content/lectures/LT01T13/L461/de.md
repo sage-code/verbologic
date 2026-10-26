@@ -20,18 +20,18 @@ terms:
   ro: "D"
 ---
 
-## Der Laut des französischen D
+## Laut des Buchstabens dé
 
-Der Buchstabe **D** steht im Französischen für den stimmhaften dentalen Plosiv `/d/`. Im Vergleich zum deutschen 'd' berührt die Zunge nicht den Zahndamm, sondern die Rückseite der oberen Schneidezähne. Zudem ist der Laut absolut unbehaucht und bleibt stets voll stimmhaft.
+Der Buchstabe heißt (dé) /de/. Er steht für den Laut /d/, zum Beispiel im Wort (date) /dat/.
 
-## Mundstellung und Aussprache
+## Aussprache im Detail
 
-Legen Sie die Zungenspitze flach an die Rückseite der **oberen Schneidezähne**, nicht an das Zahnfleisch darüber. Bauen Sie einen leichten Luftdruck auf, bringen Sie die Stimmlippen zum Schwingen und lösen Sie den Verschluss kurz und präzise. Vermeiden Sie jeglichen hauchenden Luftstoß beim Übergang zum nachfolgenden Vokal.
+Drücken Sie die Zungenspitze fest gegen die Rückseite der oberen Schneidezähne. Öffnen Sie den Verschluss mit Stimmbändern, sodass die Luft kurz entweicht.
 
-## Schreibung und stummes D
+## Regeln zur Rechtschreibung
 
-Das Phonem `/d/` wird mit einfachem **d** oder seltener doppeltem **dd** (*addition*) geschrieben. Am Wortende ist der Buchstabe meistens komplett stumm, wie in *foulard* oder *rond*. Bei einer Liaison vor einem Vokal wird das stumme Auslaut-D jedoch hörbar und wandelt sich zu einem `/t/`-Laut.
+In den meisten Positionen spricht man den Laut /d/, wie in (mode) /mɔd/. Am Ende vieler Wörter bleibt der Buchstabe stumm, wie in (nord) /nɔʁ/.
 
-## Aussprachevarianten und Fehlerquellen
+## Vergleich mit dem Deutschen
 
-Vermeiden Sie die deutsche Auslautverhärtung im Wortinneren vor Vokalen; ein französisches `/d/` muss immer weich und stimmhaft klingen. Sprechen Sie das **d** am Wortende in Wörtern wie *chaud* oder *grand* keinesfalls aus. Merken Sie sich für die gehobene Bindung (Liaison) die Klangänderung: *un grand homme* wird als `/ɡʁɑ̃.t‿ɔm/` artikuliert.
+Im Deutschen schlägt die Zungenspitze oft an den Zahndamm wie in Dame. Im Französischen berührt sie direkt die oberen Schneidezähne. Achten Sie auf diesen Unterschied.

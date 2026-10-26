@@ -20,18 +20,18 @@ terms:
   ro: "R"
 ---
 
-## Az R betű hangja
+## Az erre betű hangja
 
-A standard francia nyelvben az **R** betű az uvuláris réshangot (`/ʁ/`) jelöli, amely a torok mélyén, a nyelvcsap közelében képződik. Ez alapvetően különbözik a magyar pörgetett, nyelvheggyel képzett « r » hangtól. Zöngétlen mássalhangzók mellett (például a **train** szóban) a hang zöngétlenné válik, és `[χ]` formában hallatszik.
+A francia (erre) /ɛʁ/ neve hallható a kezdéskor. Ez a betű legtöbbször a hátsó /ʁ/ réshangot jelöli, mint a (rue) /ʁy/ szóban.
 
-## A kiejtés módja
+## Az erre betű kiejtése
 
-Húzza hátra a nyelve hátsó részét a lágy szájpadlás és a nyelvcsap felé, a nyelv hegyét pedig pihentesse az alsó metszőfogak mögött. Engedje át a kiáramló levegőt ezen a szűk résen, hogy egy finom, surlódó hang jöjjön létre, hasonlóan egy lágy toroköblítéshez. Ügyeljen arra, hogy a nyelv hegye egyáltalán ne mozogjon vagy pörögjön.
+Húzd hátra a nyelvhátat a nyelvcsap közelébe, hogy a kiáramló levegő enyhe surlódást keltsen a torokban. A hangszalagok rezeghetnek, a nyelv hegye pedig lent marad.
 
-## Helyesírás és elhelyezkedés
+## Az erre betű írásmódja
 
-A betű nagybetűs formája **R**, kisbetűs alakja **r**, magánhangzók között pedig gyakran kettőzve áll, mint az **arriver** szóban. A legfontosabb szabály, hogy az első ragozási csoportba tartozó, **-er** végű igékben (pl. **manger**) a szóvégi « r » teljesen néma. Más végződésekben viszont, mint a **finir** vagy **bonjour**, tisztán kiejtjük.
+A legtöbb helyzetben a torokhangú /ʁ/ hallatszik, ahogy a (rare) /ʁaʁ/ szó mutatja. Sok szó végén viszont teljesen néma marad, különösen az első ragozású igék végződésében, mint a (parler) /paʁ.le/ alakban.
 
-## Gyakori hibák és összehasonlítás
+## Az erre betű összehasonlítása
 
-A magyar anyanyelvűek leggyakoribb hibája, hogy a megszokott elöl képzett, pergő « r » hangot használják a mély torokhang helyett. Kerülje a túlzottan kemény, kaparó « h » hangot is, a franciás ejtés lágy és folyamatos. Ne ejtse ki a szóvégi « r »-t olyan szavakban, mint az **aimer**, mert ez hibás hangsúlyozáshoz vezet.
+A magyar anyanyelvűek hajlamosak a nyelv hegyével pergő r hangot képezni, mint a piros szóban. A franciában azonban a nyelv hegye mozdulatlan marad, a hang mindig hátul, a torokban képződik.

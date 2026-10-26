@@ -33,12 +33,15 @@
   --font-ui: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 
-  /* Handwriting model for the alphabet articles. Playwrite US Trad is the
-     Google Fonts family built on the US school cursive model (Zaner-Bloser
-     style: upright-ish, single-stroke, joined lowercase). It is the closest
-     freely-licensed match to Zaner-Bloser Cursive, which is a commercial
-     typeface and cannot be bundled. Only the alphabet articles load it, so
-     the rest of the site never pays for it. */
+  /* Handwriting model for the alphabet articles.
+     Playwrite is a Google Fonts superfamily of the SCHOOL cursive models, one
+     per country (Playwrite RO, Playwrite FR Trad, Playwrite DE Grund, ...).
+     A letter is taught in the handwriting its own country teaches, so the
+     article picks the family by the TARGET language (see `.cursive` below and
+     `cursiveFamily()` in the article page). US Trad is the fallback: it is the
+     closest freely-licensed match to Zaner-Bloser Cursive, which is a
+     commercial typeface and cannot be bundled. Only the alphabet articles load
+     these, so the rest of the site never pays for them. */
   --font-cursive: 'Playwrite US Trad', 'Segoe Script', 'Bradley Hand', 'Brush Script MT', cursive;
 }
 
@@ -101,11 +104,24 @@
   /* Cursive letterforms in the alphabet articles. Playwrite sits on a much
      larger em box than a text face, so the size is set by the caller and the
      line-height is tightened here to keep the glyph from pushing the layout
-     apart. */
+     apart.
+
+     The family is per TARGET language: a French letter is taught in the French
+     school model, a Romanian one in the Romanian model. `data-cursive` is set
+     by the article page from the language being learned; the fallback chain
+     ends at the US model, which covers every Latin letter and diacritic. */
   .cursive {
     font-family: var(--font-cursive);
     line-height: 1.1;
     font-weight: 400;
   }
+  .cursive[data-cursive='ro'] { font-family: 'Playwrite RO', var(--font-cursive); }
+  .cursive[data-cursive='fr'] { font-family: 'Playwrite FR Trad', var(--font-cursive); }
+  .cursive[data-cursive='de'] { font-family: 'Playwrite DE Grund', var(--font-cursive); }
+  .cursive[data-cursive='es'] { font-family: 'Playwrite ES', var(--font-cursive); }
+  .cursive[data-cursive='it'] { font-family: 'Playwrite IT Moderna', var(--font-cursive); }
+  .cursive[data-cursive='hu'] { font-family: 'Playwrite HU', var(--font-cursive); }
+  .cursive[data-cursive='pt'] { font-family: 'Playwrite PT', var(--font-cursive); }
+  .cursive[data-cursive='en'] { font-family: 'Playwrite GB J', var(--font-cursive); }
 }
 

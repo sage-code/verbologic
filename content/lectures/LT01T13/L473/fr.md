@@ -20,18 +20,18 @@ terms:
   ro: "P"
 ---
 
-## Le son de la lettre P
+## Son de la lettre pé
 
-La lettre **P** représente la consonne occlusive bilabiale sourde `/p/`, identique au son dans « pain » ou « père ». En français standard, ce son est net et non aspiré, ce qui le distingue de son équivalent dans les langues germaniques. Il est également muet à la fin de certains mots comme « trop » ou « coup ».
+La lettre (pé) /pe/ correspond au son /p/, que l'on entend dans le mot (porte) /pɔʁt/.
 
-## Comment prononcer le P
+## Articulation du son
 
-Pressez vos deux lèvres l'une contre l'autre pour bloquer complètement l'air qui sort des poumons. Relâchez ensuite brusquement les lèvres sans faire vibrer vos cordes vocales. Veillez à ne pas souffler d'air après le relâchement, pour éviter tout effet d'aspiration.
+Fermez complètement les deux lèvres pour bloquer l'air. Ouvrez-les brusquement sans faire vibrer les cordes vocales, pour relâcher le souffle d'un coup sec.
 
-## Graphie et règles d'écriture
+## Règles de graphie
 
-La lettre s'écrit **P** en majuscule et **p** en minuscule. Elle se trouve au début, au milieu ou à la fin des mots, parfois doublée comme dans « apprendre » où elle se prononce comme un seul `/p/`. Associée au **H**, elle forme le digramme **PH** qui se prononce `/f/` (par exemple dans « photo »).
+Au début ou à l'intérieur d'un mot devant voyelle ou liquide, elle donne le son /p/, comme dans (pomme) /pɔm/. En fin de mot dans de nombreux termes courants, elle ne se prononce pas, comme dans (drap) /dʁa/ et (trop) /tʁo/.
 
-## Nuances et pièges fréquents
+## Difficultés fréquentes
 
-Contrairement aux anglophones qui ont tendance à aspirer le `/p/`, vous devez garder une émission très sèche et directe. Attention aussi aux **P** finaux silencieux (« loup », « drap ») qu'il ne faut pas faire sonner. Enfin, distinguez bien `/p/` de sa variante voisée `/b/` (« pain » contre « bain »).
+En français, cette consonne ne présente aucun piège phonétique majeur. Veillez simplement à ne pas prononcer la finale muette dans les termes courants.

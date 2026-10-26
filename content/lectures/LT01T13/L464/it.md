@@ -20,18 +20,18 @@ terms:
   ro: "G"
 ---
 
-## Il suono della lettera G
+## Nome e suono principale
 
-La lettera **G** può rappresentare due suoni principali: l'occlusiva velare sonora `[ɡ]`, come in *gare*, o la fricativa postalveolare sonora `[ʒ]`, come in *genou*. Mentre il suono duro `[ɡ]` è identico alla «g» dura italiana di *gatto*, il suono dolce francese `[ʒ]` non corrisponde alla nostra affricata di *gelato*, ma è una fricativa continua simile alla «j» francese. Esiste inoltre il digramma **gn**, che corrisponde all'italiano `[ɲ]` (*montagne*).
+Questa lettera si chiama (gé) /ʒe/. Il suo suono principale è la consonante velare sonora /ɡ/, come nella parola (gare) /ɡaʁ/.
 
 ## Come posizionare la bocca
 
-Per il suono duro `[ɡ]`, appoggia il dorso della lingua contro il velo palatino e rilascia bruscamente l'aria facendo vibrare le corde vocali. Per il suono dolce `[ʒ]`, sporgi leggermente le labbra in avanti e avvicina la parte anteriore della lingua al palato senza toccarlo, lasciando passare un flusso d'aria continuo e sonoro senza l'attacco esplosivo tipico dell'italiano.
+Per il primo suono, solleva il dorso della lingua contro il palato molle e rilascia con voce. Per il secondo suono, arrotonda le labbra e fai scorrere l'aria tra lingua e palato senza bloccarla, sempre facendo vibrare le corde vocali.
 
-## Regole ortografiche
+## Tutte le combinazioni scritte
 
-La lettera **G** si pronuncia dura `[ɡ]` davanti ad **a**, **o**, **u** e consonanti, mentre si pronuncia dolce `[ʒ]` davanti a **e**, **i**, **y**. Per ottenere il suono `[ɡ]` davanti a **e** o **i**, il francese usa la **u** muta (*guide*), mentre per mantenere `[ʒ]` davanti ad **a** o **o** si inserisce una **e** muta (*mangeons*). A fine parola la **g** è quasi sempre muta (*long*, *sang*).
+Davanti a consonante o a lettere come a, o, u, produce il suono /ɡ/ come in (gros) /ɡʁo/. Davanti a e, i oppure y, si legge /ʒ/ come in (gel) /ʒɛl/ e (girafe) /ʒi.ʁaf/. Resta muta alla fine di alcuni vocaboli, come in (doigt) /dwa/ oppure (sang) /sɑ̃/.
 
-## Confronto ed errori comuni
+## Errori comuni da evitare
 
-Confronta attentamente le parole *gare* `[ɡaʁ]` e *génie* `[ʒe.ni]`. L'errore più diffuso tra gli italiani è pronunciare la «g» dolce come l'affricata italiana `[d͡ʒ]` anziché come una pura fricativa continua `[ʒ]`. Fai anche attenzione a non pronunciare la **u** nei nessi **gu+vocale**, come in *guerre* `[ɡɛʁ]`.
+Davanti a certe vocali, non pronunciare l'affricata della parola italiana gelato. Fai vibrare l'aria in modo continuo senza bloccarla. A fine parola, evita di articolare una velare superflua come nel finale della parola italiana fango.

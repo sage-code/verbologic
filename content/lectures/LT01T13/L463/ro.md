@@ -20,18 +20,18 @@ terms:
   ro: "F"
 ---
 
-## Sunetul literei F în franceză
+## Sunetul literei effe
 
-Litera franceză **F** redă consoana fricativă labiodentală surdă `/f/`, identică cu 'f'-ul din limba română în cuvinte precum „foc” sau „frate”. Este un sunet clar, obținut prin suflarea continuă a aerului printre dinți și buza inferioară. Spre deosebire de alte consoane finale franceze, **f** final se pronunță în mod regulat, ca în *actif* sau *vif*.
+Numele acestei litere este (effe) /ɛf/. Ea redă de obicei sunetul /f/, ca în cuvântul (film) /film/.
 
-## Cum se pronunță /f/
+## Pronunția sunetelor literei
 
-Așază dinții de sus ușor peste buza inferioară, fără să strângi tare. Suflă aerul cu putere prin spațiul format, fără a folosi corzile vocale. Asigură-te că trecerea aerului este lină și nu formează o explozie.
+Pentru sunetul surd, apropie dinții de sus de buza de jos și suflă continuu, fără voce. Pentru varianta sonoră, păstrează exact aceeași poziție a buzei și a dinților, dar activează vibrația corzilor vocale.
 
-## Particularități ortografice
+## Ortografia literei effe
 
-Sunetul poate fi scris cu un singur **f** (*famille*), dublat ca **ff** (*effort*), sau prin digraful **ph** de origine greacă (*philosophie*). Dublarea literei nu îi schimbă lungimea sau calitatea pronunției în franceza standard modernă. În final de cuvânt se aude frecvent, deși devine mut în câteva forme de plural precum *œufs*.
+În majoritatea pozițiilor, litera redă sunetul /f/, ca în (café) /ka.fe/. În legătura sonoră a numeralului nouă înainte de vocală, ea devine sunetul /v/, precum în (neuf ans) /nœ.vɑ̃/. La finalul câtorva cuvinte rămâne complet mută, ca în (clef) /kle/.
 
-## Comparații și capcane
+## Comparație cu limba română
 
-Pronunția literei nu creează dificultăți majore vorbitorilor de română, sunetul fiind complet familiar. Totuși, trebuie reținut că **f** final devine silențios la pluralul unor cuvinte foarte comune, cum ar fi *les œufs* sau *les bœufs*. O altă capcană este numeralul *neuf*, al cărui **f** final se sonorizează în `/v/` în structuri precum *neuf heures*.
+Sunetul obișnuit este identic cu cel din cuvintele românești floare sau cafea. Nu există capcane majore de pronunție pentru vorbitorii de limba română.

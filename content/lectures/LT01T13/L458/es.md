@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## El sonido de la letra
+## Sonido de la a
 
-La letra **A** en francés se pronuncia como una vocal abierta anterior `/a/`, muy cercana a la **a** del español estándar. La diferencia principal radica en que la versión francesa se articula un poco más hacia la parte frontal de la cavidad bucal, con un timbre ligeramente más brillante y tenso. Tradicionalmente existía una variante posterior `/ɑ/` (a menudo escrita **â**), pero en el francés actual casi siempre se realiza como `/a/`.
+Esta letra se llama (a) /a/. Produce principalmente el sonido /a/, como en la palabra (ami) /a.mi/.
 
-## Posición de la boca
+## Cómo se pronuncia
 
-Abre la boca con soltura descendiendo la mandíbula inferior de forma vertical y relajada. Coloca la punta de la lengua en contacto suave con la base de los dientes inferiores, manteniendo la superficie de la lengua plana. Emite la voz con claridad sin modificar la postura ni tensar los labios.
+Abre la boca dejando caer la mandíbula con la lengua relajada y plana. Para la variante posterior, retira ligeramente la parte trasera de la lengua hacia el velo sin redondear los labios.
 
-## Grafía y patrones de lectura
+## Reglas de pronunciación
 
-Se escribe en minúscula como **a** y en mayúscula como **A**, pudiendo llevar acento grave (**à**) para diferenciar palabras como *a* y *à*, o circunflejo (**â**). Ten en cuenta que en dígrafos como *an* o *am* se transforma en la vocal nasal `/ɑ̃/`, y en combinaciones como *ai* o *au* pasa a sonar como `/ɛ/` o `/o/` respectivamente.
+La letra sin tilde o con acento grave suena como el sonido /a/ en (là) /la/. Con acento circunflejo produce el sonido /ɑ/ más posterior, como en (pâte) /pɑt/ o en (âne) /ɑn/.
 
-## Diferencias y errores frecuentes
+## Diferencias con el español
 
-El error más habitual entre hispanohablantes es nasalizar la vocal por anticipación cuando va seguida de una consonante nasal que no cierra la sílaba, como ocurre en *amour* o *ami*. Asegúrate de que el aire salga únicamente por la boca y de no alargar la vocal artificialmente: el sonido `/a/` debe ser siempre directo, limpio y estable.
+En español solo existe una vocal parecida. No alargues el sonido ni lo retrases en exceso. Tu sonido de la palabra casa funciona para casi todos los casos.

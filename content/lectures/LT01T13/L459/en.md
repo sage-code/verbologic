@@ -20,18 +20,18 @@ terms:
   ro: "B"
 ---
 
-## The Sound of the Letter B
+## Sound of the letter bé
 
-The French letter **B** typically represents the voiced bilabial plosive `/b/`, exactly like the English 'b' in *boat*. Unlike English, French `/b/` is pronounced without any puff of air (aspiration) and with stronger vocal cord vibration right from the start. In words where it sits directly before an unvoiced consonant like 's' or 't', it undergoes regressive assimilation and sounds like `/p/`.
+The letter is called (bé) /be/. Its main sound is the sound /b/ as heard in the word (balle) /bal/.
 
-## How to Produce the Sound
+## How to articulate
 
-Bring both lips firmly together to completely block the airflow from your lungs. Build up slight air pressure behind your closed lips while actively vibrating your vocal cords. Release the lips briskly without letting out an audible puff of breath.
+Press both lips firmly together to stop the airflow. Make your vocal cords vibrate, then release your lips cleanly. For the voiceless variant, keep your vocal cords still when releasing the air.
 
-## Spelling Patterns
+## Spelling and variants
 
-The letter appears as single **b** or double **bb** (as in *abbé*), both pronounced simply as `/b/`. At the end of most French words, it is either pronounced (like in *club*) or silent in specific historical spellings (such as *plomb*). It never alters the quality of preceding vowels on its own.
+In most positions, the letter is pronounced as the sound /b/, such as in (robe) /ʁɔb/. Before a voiceless consonant, it becomes the sound /p/ as in (obtenir) /ɔp.tə.niʁ/. At the end of certain words, it is silent, for example in (plomb) /plɔ̃/.
 
-## Variants and Common Pitfalls
+## Comparison with English
 
-Notice the difference between standard `/b/` in *bonjour* and assimilated `/p/` in *obtenir* or *absent*. Native English speakers often over-aspirate the sound or fail to voice it early enough before vowels. Avoid releasing a burst of breath, and remember not to pronounce final silent letters in words like *aplomb*.
+Unlike in English, this voiced consonant has no puff of air. Keep your vocal cords vibrating immediately from the start, exactly as in the English word cab.

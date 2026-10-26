@@ -20,18 +20,18 @@ terms:
   ro: "Q"
 ---
 
-## O som da letra Q
+## O som da letra quê
 
-Em francês, a letra **Q** representa quase sempre a consoante oclusiva velar surda `/k/`, exatamente como o *c* de *casa* ou o dígrafo *qu* de *quero* em português. Na grande maioria das palavras, ela aparece no dígrafo **qu**, no qual a letra *u* é completamente muda. Por exemplo, a palavra *qui* soa simplesmente como `/ki/`.
+O nome desta letra é (qu) /ky/. Isolada, produz o som /k/, como se ouve em (cinq) /sɛ̃k/.
 
 ## Como pronunciar
 
-Posicione o dorso da língua contra o palato mole (a parte traseira do céu da boca) para interromper brevemente a passagem do ar. Em seguida, solte o ar de forma seca e sem vibração das cordas vocais. Não faça bico nem tente articular o *u* antes da vogal seguinte, preparando os lábios diretamente para o som vocálico principal.
+Pressione a parte de trás da língua contra o céu da boca suavemente. Liberte o ar num golpe seco, sem qualquer vibração das cordas vocais.
 
-## Particularidades de escrita
+## Regras de escrita
 
-A letra **Q** quase nunca aparece desacompanhada: ela vem quase sempre associada a um *u* mudo, como em *question*, *pourquoi* e *banque*. As raras exceções em que surge sozinha ocorrem no final de poucas palavras, como *cinq* e *coq*, ou em termos estrangeiros. Em maiúscula escreve-se **Q** e em minúscula **q**.
+Surgindo sozinha ou no final das palavras, tem o som /k/, tal como acontece no vocábulo (coq) /kɔk/.
 
-## Variantes e erros comuns
+## Erros comuns a evitar
 
-O erro mais comum para lusófonos é pronunciar o *u* como semivogal antes de *a* ou *o*, dizendo incorretamente `/kwatʁ/` em vez de `/katʁ/` para *quatre*. A pronúncia com `/kw/` existe apenas em raras palavras eruditas de origem latina ou anglicismos, como *aquarium* `/akwaʁjɔm/` ou *square* `/skwaʁ/`.
+Não existe qualquer dificuldade para quem fala português europeu, pois o som é idêntico ao c da palavra casa.

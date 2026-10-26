@@ -20,18 +20,18 @@ terms:
   ro: "E"
 ---
 
-## Le son du « e »
+## Son de la lettre e
 
-La lettre **e** est la plus polyvalente de l'alphabet français. Elle produit couramment le « e caduc » noté `[ə]`, mais peut également se prononcer fermé `[e]` (comme dans **école**) ou ouvert `[ɛ]` selon les accents et l'environnement syllabique. En fin de mot, elle devient très souvent muette.
+Le nom de cette lettre se prononce (e) /ə/. Son son principal est le son /ə/, comme dans le mot (menu) /mə.ny/.
 
-## Comment le prononcer
+## Position de la bouche
 
-Pour prononcer le son de base `[ə]`, placez la langue au centre de la bouche sans tension particulière. Arrondissez légèrement les lèvres vers l'avant, comme pour un son intermédiaire entre le « o » et le « eu ». Pour la variante `[e]` d'**école**, étirez les lèvres en un sourire tout en gardant la langue vers l'avant.
+Pour la voyelle centrale, placez la langue au milieu et arrondissez légèrement les lèvres. Pour la voyelle fermée, étirez les lèvres vers l'arrière en montant la langue. Pour la voyelle ouverte, abaissez la mâchoire avec les lèvres détendues.
 
-## Orthographe et graphies
+## Règles de lecture
 
-Le graphème **e** change de son en fonction des accents graphiques : **é** pour `[e]`, **è** et **ê** pour `[ɛ]`. Suivi d'une consonne finale muette comme dans *-er* ou *-ez*, il donne généralement le son fermé `[e]`. Enfin, en fin de mot après une consonne simple, le **e** non accentué ne se prononce pas.
+Dans les monosyllabes ou en syllabe ouverte sans accent, elle donne le son /ə/ comme dans (le) /lə/. Avec accent aigu ou devant consonne muette, elle donne le son /e/ fermé comme dans (été) /e.te/. Avec accent grave ou devant consonne prononcée, elle donne le son /ɛ/ ouvert comme dans (père) /pɛʁ/. En fin de mot, elle reste muette comme dans (table) /tabl/.
 
-## Nuances et pièges fréquents
+## Repères de prononciation
 
-Ne confondez pas le **e** muet ou caduc `[ə]` avec le **é** fermé `[e]` ou le **è** ouvert `[ɛ]`. Les apprenants ont souvent tendance à trop appuyer sur le **e** final des mots, créant une syllabe supplémentaire inutile. Veillez à bien distinguer des paires comme **le** `[lə]` et **les** `[le]`.
+Ce signe graphique présente plusieurs timbres distincts ainsi qu'un statut muet très fréquent. Veillez à bien faire la différence entre la variante fermée, la variante ouverte et la forme arrondie centrale.

@@ -20,18 +20,18 @@ terms:
   ro: "S"
 ---
 
-## O som da letra S
+## O som da letra esse
 
-A letra **S** em francês pronuncia-se habitualmente como `/s/` (equivalente ao nosso **ss** ou **c** suave), como em « soleil ». No entanto, quando surge isolada entre duas vogais, adquire o som de `/z/`, como em « rose ». No final das palavras, é geralmente muda, marcando sobretudo o plural.
+O nome da letra francesa (esse) /ɛs/ pronuncia-se de forma direta. O seu som principal é o som /s/, como na palavra (sac) /sak/.
 
-## Como articular o S
+## Como pronunciar o esse
 
-Para pronunciar `/s/`, aproxime a ponta da língua dos alvéolos superiores, mantendo uma pequena ranhura central para a passagem do ar. Expire continuamente gerando um ruído de fricção limpo e sem vibrar as cordas vocais. Para a variante sonora `/z/`, adote a mesma posição bucal, mas ative a vibração da laringe.
+Para o som sibilante surdo, apoia a ponta da língua atrás dos dentes inferiores e sopra sem voz. Para a variante sonora, faz vibrar as cordas vocais com a mesma passagem de ar. No caso mudo, não emites qualquer ruído.
 
-## Particularidades de grafia
+## Regras de leitura do esse
 
-Entre duas vogais, a grafia **ss** é indispensável para manter o som `/s/` e distingui-lo de `/z/`, como no par clássico « poisson » (peixe) e « poison » (veneno). A terminação em **-s** raramente se pronuncia em francês, surgindo quase sempre muda em substantivos plurais e formas verbais.
+No início de palavra ou junto a consoante, soa como /s/, por exemplo em (poste) /pɔst/. Entre duas vogais, produz o som /z/, como em (rose) /ʁoz/. No final de muitas palavras, a letra não se pronuncia, tal como em (bras) /bʁa/.
 
-## Diferenças e erros comuns
+## Dificuldades com o esse
 
-O erro mais comum entre falantes de português é tentar pronunciar o **S** final nas terminações plurais (« les enfants » não tem som de /s/ no fim). Contudo, preste atenção à ligação fonética (*liaison*): quando a palavra seguinte começa por vogal, esse **S** final mudo ressurge pronunciado como `/z/`.
+Em português europeu, no fim de sílaba ou de palavra, tens o hábito de chiar como em pasta ou luz. Em francês nunca chiarás: ou a consoante é muda no fim, ou mantém o som limpo.

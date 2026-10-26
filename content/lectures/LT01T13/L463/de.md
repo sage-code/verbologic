@@ -20,18 +20,18 @@ terms:
   ro: "F"
 ---
 
-## Der französische F-Laut
+## Der Buchstabe effe
 
-Der französische Buchstabe **F** repräsentiert den stimmlosen labiodentalen Frikativ `/f/`, exakt wie das deutsche 'f' in „Freund“ oder „Feder“. Er wird durch ein kontinuierliches Ausströmen von Luft zwischen Zähnen und Lippe erzeugt. Im Gegensatz zu vielen anderen stummen Endkonsonanten im Französischen wird ein auslautendes **f** meist deutlich mitgesprochen, wie in *chef* oder *neuf*.
+Der Buchstabe (effe) /ɛf/ steht meistens für den Laut /f/. Er klingt so wie in (film) /film/.
 
-## Aussprache von /f/
+## Bildung der Laute
 
-Legen Sie die oberen Schneidezähne leicht an die Innenseite der Unterlippe. Blasen Sie den Atem gleichmäßig hindurch, ohne die Stimmlippen schwingen zu lassen. Der Luftstrom sollte geräuschvoll und kontinuierlich ohne plosiven Druck entweichen.
+Legen Sie die oberen Schneidezähne leicht an die Unterlippe. Blasen Sie die Luft stimmlos durch die Enge. Schalten Sie für die stimmhafte Variante einfach Ihre Stimme dazu, ohne die Haltung der Lippen zu verändern.
 
-## Schreibweisen und Vorkommen
+## Aussprache und Regeln
 
-Der Laut wird entweder als einzelnes **f** (*fête*), als Doppel-**ff** (*affaire*) oder über die griechische Lautkombination **ph** (*phrase*) dargestellt. Das Doppel-**ff** wird dabei nicht länger oder härter gesprochen als ein einfaches **f**. Am Wortende ist der Buchstabe meist hörbar, bleibt aber in vereinzelten Wörtern wie *clef* oder *nerfs* stumm.
+Meistens erzeugt der Buchstabe den Laut /f/, wie in (café) /ka.fe/. Bei der Bindung vor einem Vokal oder stummen h wird er zum Laut /v/ in (neuf ans) /nœ.vɑ̃/. In (clef) /kle/ und (nerfs) /nɛʁ/ bleibt er stumm.
 
-## Besonderheiten und Stolperfallen
+## Vergleich mit Deutsch
 
-Für deutsche Muttersprachler ist dieser Laut articulationstechnisch vertraut und bereitet kaum Probleme. Die größte Schwierigkeit besteht in historischen Ausnahmen wie *œufs* oder *bœufs*, bei denen das End-**f** im Plural völlig verschwindet. Achten Sie zudem auf die Zahl *neuf*, deren Konsonant vor Vokalen wie in *neuf ans* zu einem stimmhaften `/v/` assimiliert wird.
+Dieser Buchstabe entspricht genau dem deutschen Laut in Fisch. Auch die stimmhafte Bindung wie im deutschen Wort Vase gelingt mühelos. Für Deutschsprachige gibt es hier keine echten Hürden.

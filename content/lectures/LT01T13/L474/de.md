@@ -20,18 +20,18 @@ terms:
   ro: "Q"
 ---
 
-## Der Laut des Buchstabens Q
+## Laut des Buchstabens qu
 
-Im Französischen tritt der Buchstabe **Q** fast immer in der Kombination **qu** auf und wird als stimmloser velarer Plosiv `/k/` gesprochen. Anders als im Deutschen, wo 'qu' als `/kv/` artikuliert wird (wie in *Quelle*), ist das **u** im Französischen meist völlig stumm. Es klingt daher wie das deutsche **k** in *Krone*, jedoch ohne Behauchung.
+Der Buchstabe (qu) /ky/ heißt (qu) /ky/. Alleinstehend erzeugt er den Laut /k/, wie im Wort (cinq) /sɛ̃k/.
 
-## Ausspracheanleitung
+## Aussprache des Buchstabens qu
 
-Drücken Sie den hinteren Zungenrücken fest gegen das Gaumensegel, um den Luftstrom kurz zu blockieren. Lösen Sie den Verschluss mit einem sauberen Knall, ohne dass dabei hörbare Luft entweicht. Die Stimmlippen schwingen nicht mit, und die Lippen bilden keinen Vorstülp-Laut.
+Drücke den hinteren Teil deiner Zunge fest an das Gaumensegel. Halte den Atem kurz an und löse den Verschluss explosionsartig ohne Stimmbeteiligung.
 
-## Schreibweise und Vorkommen
+## Rechtschreibung des Buchstabens qu
 
-Der Buchstabe **Q** steht in Erbwörtern fast ausnahmslos mit begleitendem **u** vor Vokalen, wie in *qui*, *quatre* oder *banque*. Isoliert am Wortende existiert er nur in sehr wenigen Ausnahmen wie *cinq* oder *coq*. Der französische Buchstabename lautet `/ky/`.
+Am Wortende oder selten ganz allein steht er für den Laut /k/, wie in (coq) /kɔk/.
 
-## Vergleich und Besonderheiten
+## Typische Fehler bei qu
 
-Die Standardaussprache ist schlichtes `/k/` in Wörtern wie *quatre* `/katʁ/` und *qualité* `/kalite/`. Nur in bestimmten gelehrten Entlehnungen aus dem Lateinischen oder Englischen hört man `/kw/`, etwa in *aquarium* `/akwaʁjɔm/`. Vermeiden Sie unbedingt den typisch deutschen Fehler, **qu** als `/kv/` auszusprechen.
+Im Deutschen spricht man diese Verbindung meist wie ein k mit einem w. Sprich hier nur ein einfaches k ohne jeden Folgelaut.

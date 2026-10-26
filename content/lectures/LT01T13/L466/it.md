@@ -20,18 +20,18 @@ terms:
   ro: "I"
 ---
 
-## Suono della lettera I
+## Suono della lettera i
 
-La lettera **I** rappresenta principalmente la vocale anteriore chiusa `/i/`, molto simile alla «i» italiana standard. Davanti a un'altra vocale si trasforma nella semiconsonante `/j/`, identica al suono iniziale di *ieri*. La differenza principale sta nell'estrema precisione e stabilità articolatoria richiesta dal francese in ogni posizione.
+La lettera (i) /i/ si chiama (i) /i/. Rappresenta abitualmente il suono vocalico /i/, come nella parola (ici) /i.si/.
 
-## Come posizionare la bocca
+## Come si pronuncia
 
-Allarga le labbra verso i lati come se stessi accennando un sorriso energico. Spingi la punta della lingua con decisione contro gli incisivi inferiori e solleva il dorso della lingua verso il palato duro. Mantieni i muscoli facciali ben tesi per produrre un suono limpido e privo di oscillazioni.
+Per il suono /i/, allarga le labbra e porta la lingua molto avanti verso il palato. Per la semivocale /j/, stringi ancora di più il passaggio dell'aria facendo vibrare le corde vocali.
 
-## Grafia e combinazioni
+## Grafia e varianti
 
-La lettera si scrive **I** e può presentare accenti specifici, come l'accento circonflesso in **î** (*île*) o la dieresi in **ï** (*maïs*), che impedisce la fusione con la vocale precedente. Quando è seguita da un'altra vocale, come in *hier*, funge da semivocale `/j/`. Attenzione alle combinazioni come **in** o **im**, dove diventa parte di una vocale nasale.
+Con l'accento circonflesso la grafia produce il suono /i/, come in (île) /il/. Davanti a un'altra vocale diventa la semivocale /j/, ad esempio nel vocabolo (ciel) /sjɛl/ oppure in (hier) /jɛʁ/.
 
-## Confronto e particolarità
+## Confronto con l'italiano
 
-Ascolta la differenza tra la vocale pura in *île* `/il/` e il glide semivocalico in *bien* `/bjɛ̃/`. Per gli italiani l'articolazione della vocale pura è naturale, ma l'errore più comune riguarda le combinazioni ortografiche: non bisogna pronunciare la `/i/` separatamente quando forma dittonghi grafici francesi come **ai** (pronunciato `/ɛ/`) o vocali nasali.
+Non ci sono insidie particolari. I suoni corrispondono perfettamente alla vocale di pino e alla semiconsonante di ieri.

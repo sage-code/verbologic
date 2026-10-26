@@ -20,18 +20,18 @@ terms:
   ro: "V"
 ---
 
-## Sunetul literei V
+## Sunetul literei vé
 
-Litera franceză **V** reprezintă consoana fricativă labiodentală sonoră `/v/`. Ea este perfect echivalentă cu sunetul „v” din limba română, ca în cuvintele „verde” sau „viață”. Nu suferă modificări majore în funcție de poziția din cuvânt.
+Numele acestei litere este (vé) /ve/. Ea redă sunetul /v/, ca în cuvântul (vélo) /ve.lo/.
 
-## Cum se pronunță
+## Pronunția sunetului literei vé
 
-Atingeți ușor buza inferioară cu dinții incisivi superiori. Suflați aer prin spațiul format în timp ce corzile vocale vibrează pentru a crea o fricțiune clară și sonoră. Evitați lipirea buzelor între ele, pentru a nu produce un sunet asemănător cu „b”.
+Atinge ușor cu dinții de sus buza de jos. Lasă aerul să treacă prin această deschidere îngustă și activează corzile vocale.
 
-## Particularități ortografice
+## Ortografia literei vé
 
-În limba franceză, litera **V** este deosebit de regulată și redă aproape întotdeauna sunetul `/v/`. O găsim la început de cuvânt (**vert**), între vocale (**avion**) sau în grupuri consonantice (**livre**). Nu este niciodată mută la sfârșitul rădăcinilor standard.
+În toate pozițiile obișnuite, această literă notează sunetul /v/, de exemplu în cuvântul (vent) /vɑ̃/.
 
-## Comparație și capcane
+## Comparație cu limba română
 
-Pentru vorbitorii de română, pronunția este foarte naturală și intuitivă, fără riscuri majore de confuzie. Totuși, asigurați-vă că mențineți sunetul complet sonor chiar și înainte de consoane surde. Nu confundați litera scrisă cu pronunția germanică de tip `/f/`.
+Nu există nicio capcană la această literă, fiindcă sunetul este absolut identic cu cel din cuvintele românești vară sau vis.

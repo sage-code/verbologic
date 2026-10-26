@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## O som da letra Y
+## O som do i grec
 
-A letra **Y** (chamada *i grec*) possui dois sons fundamentais em francês: a semivogal `/j/`, idêntica ao som de **i** em ditongos como na palavra *praia*, e a vogal plena `/i/`, como em **stylo**. Quando antecede uma vogal, como em **yeux**, funciona como um som de transição rápido e suave. Entre consoantes ou no fim da palavra, soa exatamente como a vogal **i**.
+Esta letra chama-se (i grec) /i ɡʁɛk/. O seu som principal é a semivogal /j/, como se ouve na palavra (yeux) /jø/.
 
-## Como pronunciar o Y
+## Como pronunciar
 
-Para articular o som semi-vocálico `/j/`, levante a parte anterior da língua bem perto do palato duro, na mesma posição da vogal `/i/`, e deslize imediatamente para a vogal seguinte. As cordas vocais devem vibrar de forma contínua e sem bloqueio de ar. Evite apertar a língua contra o céu da boca para não gerar ruído de atrito consonantal.
+Para a vogal, estique os lábios e erga a frente da língua junto ao palato duro. Para a semivogal, aperte ainda mais a passagem do ar entre a língua e o palato, fazendo vibrar as cordas vocais num movimento muito rápido.
 
 ## Regras de escrita
 
-O **Y** é muito comum em palavras herdadas do grego ou de línguas estrangeiras (**type**, **rythme**). Quando surge entre duas vogais no meio de uma palavra, como em **payer** ou **voyage**, atua foneticamente como dois « i » seguidos, influenciando a vogal anterior e a posterior. Escreve-se em maiúscula como **Y** e raramente recebe acentos na ortografia francesa moderna.
+Antes de uma vogal, a letra produz o som /j/, tal como na palavra (yoga) /jo.ɡa/. Entre consoantes, isolada numa sílaba ou no fim de uma palavra, soa como a vogal /i/, como nas palavras (cycle) /sikl/ e (jury) /ʒy.ʁi/.
 
-## Diferenças e erros comuns
+## Dificuldades comuns
 
-O erro mais grave para lusófonos é confundir a semivogal `/j/` com o som consonantal `/ʒ/` (o nosso som de *j*): pronunciar **yeux** com som de **jeux** altera totalmente o significado da frase. Lembre-se sempre de que diante de vogal o **Y** francês tem som de semivogal aberta e límpida, sem qualquer fricção de chiado.
+Para quem fala português europeu não háarmadilhas com esta letra, pois os sons correspondem exatamente ao nosso iote em maio e à vogal i em rir.

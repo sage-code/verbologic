@@ -20,18 +20,18 @@ terms:
   ro: "N"
 ---
 
-## Il suono della lettera N
+## Suono della lettera enne
 
-La lettera **N** corrisponde al suono `/n/`, identico alla **n** italiana di *notte*, quando si trova prima di una vocale. Al contrario, quando segue una vocale alla fine di una sillaba o di una parola, la lettera non viene pronunciata ma rende nasale la vocale precedente. Questa dualità è una delle caratteristiche fondamentali della fonetica francese.
+La lettera (enne) /ɛn/ corrisponde al suono /n/, come nella parola (nez) /ne/.
 
-## Come posizionare la bocca
+## Come si pronuncia
 
-Per pronunciare la consonante `/n/`, appoggia la punta della lingua contro gli alveoli dei denti superiori e lascia passare l'aria attraverso il naso con la vibrazione delle corde vocali. Se invece **N** fa parte di una vocale nasale, la lingua deve rimanere rilassata sul fondo della bocca senza toccare il palato, consentendo all'aria di uscire sia dal naso che dalla bocca.
+Appoggia la punta della lingua contro gli alveoli dei denti superiori. Fai uscire l'aria dal naso facendo vibrare le corde vocali.
 
-## Grafia e combinazioni
+## Grafia e varianti
 
-La **N** singola iniziale o intervocalica e la doppia **NN** (*femme* fa eccezione, ma ad esempio *bonne*) producono sempre la consonante `/n/`. Quando è preceduta da una vocale e seguita da una consonante o a fine parola (*chanson*, *vin*), crea una vocale nasale. L'aggiunta di una **E** muta finale (*fine* rispetto a *fin*) ripristina la consonante `/n/` ed elimina la nasalizzazione.
+Davanti a una vocale, questa grafia produce il suono /n/ come in (minute) /mi.nyt/. Risulta invece del tutto muta dopo la lettera emme, come nel verbo (condamner) /kɔ̃.da.ne/, oppure nel vocabolo (monsieur) /mə.sjø/.
 
-## Varianti ed errori comuni
+## Nessun tranello per l'italiano
 
-Confronta la consonante chiara in *nuit* `/nɥi/` con la vocale nasale in *mon* `/mɔ̃/`. L'errore più frequente per gli italofoni è articolare una vera [n] alla fine delle vocali nasali o velarizzarla come [ŋ]. Ricorda che in parole come *pain* o *un*, la lingua non deve assolutamente muoversi per formare una consonante finale.
+Questo suono consonantico corrisponde esattamente a quello della parola naso in italiano, quindi non presenta alcuna difficoltà di pronuncia.

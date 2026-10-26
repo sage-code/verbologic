@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## Sunetul literei Y
+## Sunetul literei igrec
 
-Litera **Y** în limba franceză reprezintă fie semivocala palatală `/j/`, fie vocala închisă `/i/`. Înainte de o vocală, sună identic cu **i** semivocalic din cuvântul românesc *iarbă*. Între consoane sau izolat, funcționează ca un **i** plin, identic cu cel din *plin*, dar pronunțat foarte clar și tensionat.
+Litera se numește (i grec) /i ɡʁɛk/. Cel mai adesea reprezintă sunetul /j/, ca în cuvântul (yeux) /jø/.
 
 ## Cum se pronunță
 
-Pentru a reda semivocala `/j/`, ridică partea mediană a limbii spre cerul gurii și glisează instantaneu către vocala următoare, fără a opri fluxul de aer. Pentru vocala pură `/i/`, întinde colțurile buzelor ca pentru un zâmbet pronunțat și fixează limba aproape de dinții inferiori. Menține sunetul stabil și evită orice diftongare necontrolată.
+Pentru sunetul semivocalic, ridică spatele limbii spre cerul gurii și lasă aerul să treacă fără frecare, cu vibrația corzilor vocale. Pentru sunetul vocalic, întinde colțurile buzelor și apropie partea din față a limbii de cerul gurii.
 
-## Particularități de scriere
+## Reguli de scriere
 
-Numită *i grec*, litera apare des în termeni de origine greacă, cum ar fi *analyse* sau *lycée*. Când se găsește între două vocale, ca în *voyage* sau *nettoyer*, se comportă adesea fonetic ca doi de **i** (`oi` devine /wa/, urmat de /j/). La început de cuvânt, precede de obicei o vocală, funcționând ca o semivoacală consonantă, ca în *yeux*.
+Înaintea unei vocale, redă sunetul /j/, de pildă în (yoga) /jo.ɡa/. Între consoane, la final de cuvânt sau când formează singură o silabă, notează sunetul /i/, ca în (cycle) /sikl/ sau (jury) /ʒy.ʁi/.
 
-## Variante și capcane
+## Capcane de pronunție
 
-Comparați semivocala scurtă din *yeux* (`/jø/`) cu vocala deplină din *cycle* (`/sikl/`). O greșeală frecventă a vorbitorilor de limba română este separarea glisării într-o silabă distinctă, pronunțând eronat *i-öz* în loc de `/jø/`. Asigurați-vă că glisarea este cursivă și unită perfect cu vocala următoare.
+Nu există capcane reale pentru vorbitorii de limba română. Ambele valori sunt identice cu sunetele din cuvintele românești **iarbă** și **inima**.

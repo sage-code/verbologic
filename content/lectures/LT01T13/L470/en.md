@@ -20,18 +20,18 @@ terms:
   ro: "M"
 ---
 
-## The Sound of French M
+## The letter emme
 
-In standard French, the letter **M** represents the voiced bilabial nasal `/m/`, which sounds virtually identical to the English 'm' in 'mother'. However, when it sits after a vowel at the end of a syllable or before letters like **b** and **p**, it loses its consonant sound and turns the preceding vowel into a nasal vowel. A doubled **mm** simply sounds like a single `/m/`.
+The French letter (emme) /ɛm/ makes the sound /m/, as in the word (mer) /mɛʁ/.
 
-## How to Produce /m/
+## Pronouncing the letter
 
-Bring your upper and lower lips gently together to completely seal your mouth. Keep your tongue resting relaxed on the floor of your oral cavity while lowering your soft palate so air flows freely through your nose. Engage your vocal cords to make a voiced humming vibration as you release your lips.
+Close both lips firmly together. Lower your soft palate and let the air vibrate through your nose as your vocal cords hum.
 
-## Spelling Patterns of M
+## Reading the letter
 
-The letter **M** appears initially, medially, and finally, either as a single consonant or doubled as in *pomme*. Before the labial stops **b** and **p**, French replaces the letter **N** with **M** to mark nasal vowels, as seen in *champ* and *tombe*. When doubled or followed immediately by a vowel, **M** never nasalises the preceding vowel, as in *grammaire*.
+Before a vowel or another identical letter, it makes the sound /m/, as in (pomme) /pɔm/. In a few traditional spellings before an n, it stays silent, as heard in (automne) /o.tɔn/.
 
-## Comparing Pronunciations and Common Pitfalls
+## English and French
 
-Notice the difference between the full consonant `/m/` in *maison* `/mɛ.zɔ̃/` and the nasalisation in *nom* `/nɔ̃/`. English speakers often make the mistake of actually pronouncing an audible `/m/` sound at the end of words like *faim* or *parfum*. Ensure your lips remain slightly parted and do not close to form an 'm' when producing nasal vowel endings.
+The sound is identical to the English sound in mother or calm, so this letter presents no difficulty.

@@ -20,18 +20,18 @@ terms:
   ro: "L"
 ---
 
-## Sunetul literei L
+## Sunetul literei elle
 
-În limba franceză, litera **L** redă consoana `/l/`, foarte similară cu 'l' din limba română în cuvinte precum *lac*. Sunetul este unul curat, alveolar și luminos în orice poziție fonetică. Spre deosebire de engleză sau rusă, limba franceză nu cunoaște un 'l' dur sau velarizat.
+Litera (elle) /ɛl/ redă de obicei sunetul /l/, ca în cuvântul (lune) /lyn/. În câteva cuvinte speciale de la sfârșit, aceasta este complet mută.
 
-## Cum se pronunță
+## Pronunțarea sunetului
 
-Atingeți cu vârful limbii alveolele din spatele dinților incisivi superiori. Permiteți aerului sonorizat să treacă liber pe marginile laterale ale limbii. Mențineți spatele limbii relaxat și desprindeți vârful cu precizie pentru a păstra consoana netedă și clară.
+Atinge cu vârful limbii cerul gurii chiar în spatele dinților de sus. Lasă aerul să treacă liber pe marginile limbii și fă corzile vocale să vibreze.
 
-## Particularități ortografice
+## Reguli de scriere
 
-Litera se regăsește atât simplă (*lune*), cât și dublată (*ville*), ambele pronunțându-se de regulă ca un simplu `/l/`. În combinația *-ill-*, litera se transformă cel mai adesea în semivocala `/j/` (*fille*, *billet*). La finalul unor cuvinte specifice, **L** devine mut, ca în *fusil* sau *gentil*.
+În marea majoritate a pozițiilor, litera redă sunetul /l/, cum auzi în (bal) /bal/. La finalul câtorva cuvinte exacte, litera nu se pronunță deloc, de exemplu în (fusil) /fy.zi/ sau în (outil) /u.ti/.
 
-## Variații și capcane
+## Comparație cu româna
 
-Pentru vorbitorii de română, pronunția lui **L** simplu este naturală, dar principala capcană o reprezintă grupul *-ille*. Nu pronunțați un 'l' distinct în *famille* `/fa.mij/`, ci sunetul românesc 'i' scurt semivocalic. De asemenea, rețineți excepțiile clasice unde grupul păstrează sunetul `/l/`: *mille*, *ville* și *tranquille*.
+Sunetul este foarte asemănător cu cel din cuvântul lună. Nu există capcane deosebite pentru vorbitorii de limba română, doar ai grijă să nu rostești litera la finalul cuvintelor unde este mută.

@@ -68,6 +68,19 @@ function manifestNames(track, topic, code) {
  */
 const yamlString = (value) => JSON.stringify(String(value))
 
+/**
+ * The one-line summary under the article title.
+ *
+ * Deliberately the legacy `note`'s first line, not the `sound` page: the sound
+ * page is the first thing the reader sees, so repeating its opening sentence
+ * above it would say the same thing twice. Most entries have no note, and an
+ * empty summary is honest — the article itself is the summary.
+ */
+function summaryOf(entry, locale) {
+  const note = entry.note?.[locale] ?? entry.note?.en ?? ''
+  return note.split('\n')[0].slice(0, 200)
+}
+
 /** Front matter for one article doc. */
 function frontMatter({ topic, code, locale, title, summary, order, entityId, terms }) {
   const lines = [
@@ -146,7 +159,6 @@ function main() {
         // A locale with no prose would produce an empty article — skip it so
         // the route list stays honest about what actually exists.
         if (!sections || !SECTION_ORDER.some((key) => sections[key]?.text)) continue
-        const note = entry.note?.[locale] ?? entry.note?.en ?? ''
         // A letter's "term" is its glyph in every language, but a group's name
         // is per-locale ("ea in seară (evening)"). The manifest is the
         // authority — the shared-article invariant requires an exact match.
@@ -160,7 +172,7 @@ function main() {
             code,
             locale,
             title: names?.[locale] ?? glyph,
-            summary: note.split('\n')[0].slice(0, 200),
+            summary: summaryOf(entry, locale),
             order: index,
             entityId: `${topic.code}:${code}`,
             terms

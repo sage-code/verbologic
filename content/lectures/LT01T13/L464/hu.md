@@ -20,18 +20,18 @@ terms:
   ro: "G"
 ---
 
-## A G betű kiejtése
+## A gé betű hangja
 
-A francia **G** betű két alapvető hangot jelöl: a kemény `/ɡ/` hangot és a lágy `/ʒ/` hangot. A magyar fülnek mindkettő ismerős, hiszen a kemény változat pontosan megegyezik a magyar **g** hanggal (mint a **gare** szóban), míg a lágy változat a magyar **zs** hangnak felel meg (mint a **girafe** szóban).
+A francia (gé) /ʒe/ betű alaphangja a zöngés zárhang. A leggyakoribb kiejtése a hang /ɡ/, például a (gare) /ɡaʁ/ szóban hallható.
 
-## Hogyan képezzük a hangot
+## A gé kiejtése
 
-A kemény `/ɡ/` képzésekor a nyelv hátulja a lágy szájpadláshoz érve zárja a levegő útját, majd zöngésen pattanva felpattan, éppúgy, mint a magyarban. A lágy `/ʒ/` ejtésekor a száj kissé kerekedik, és a nyelv hegye a fogmeder mögé simulva folyamatos réshangot hoz létre.
+A kemény hangnál a nyelv hátulja a lágy szájpadláshoz záródik, miközben a hangszalagok rezegnek. A lágy hangnál a nyelv hegye felemelkedik, a kerekített ajkak között surran a levegő, a hangszalagok pedig rezegnek.
 
-## Helyesírási tudnivalók
+## A gé írásmódja
 
-A betű **A**, **O**, **U** és mássalhangzók előtt mindig keményen `/ɡ/`-ként szól, míg **E**, **I** és **Y** előtt meglágyul `/ʒ/`-re. Ha **E** vagy **I** előtt kemény hangot szeretnénk, egy néma **U**-t toldunk be (pl. **guitare**), ha pedig **A** vagy **O** előtt lágyat, egy néma **E**-t szúrunk be (pl. **mangeons**).
+Mássalhangzó, valamint a, o vagy u betű előtt a hang /ɡ/, mint a (gros) /ɡʁo/ szóban. Az e, i vagy y betűk előtt a hang /ʒ/, mint a (gel) /ʒɛl/ szóban. Egyes szavak legvégén néma marad, mint a (doigt) /dwa/ szóban.
 
-## Összehasonlítás és buktatók
+## Magyar füllel a gé
 
-A magyar anyanyelvűek számára a legnagyobb csapdát a néma betűk jelentik: a **guitare** szóban az **u**-t nem ejtjük, csupán a **g** keményítésére szolgál. Ügyeljen a **GN** betűkapcsolatra is, amely nem a magyar **gn**-nek felel meg, hanem az **ny** hanghoz (`/ɲ/`) hasonlóan lágyul, mint a **ligne** szóban.
+Mindkét hang pontosan létezik a magyarban: a gomb és a zseb szavakban. Vigyázz, mert e és i előtt soha nem ejtünk magyaros g hangot, csakis a magyar zs megfelelőjét.

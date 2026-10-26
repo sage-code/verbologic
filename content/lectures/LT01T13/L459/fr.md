@@ -20,18 +20,18 @@ terms:
   ro: "B"
 ---
 
-## Le son de la lettre B
+## Son de la lettre bé
 
-La lettre **B** se prononce généralement `/b/`, une consonne occlusive bilabiale voisée identique au son habituel en français. Elle conserve sa sonorité pleine au début des syllabes et en position intervocalique, sans aspiration.
+Cette lettre s'appelle (bé) /be/. Elle correspond le plus souvent au son /b/, comme dans le mot (balle) /bal/.
 
-## Comment la prononcer
+## Prononciation pas à pas
 
-Rapprochez fermement vos deux lèvres pour bloquer l'air venant des poumons, puis relâchez-les brusquement tout en faisant vibrer vos cordes vocales. Contrairement à l'anglais, l'explosion d'air ne doit jamais être accompagnée d'un souffle perceptible.
+Pour la consonne voisée, fermez les deux lèvres pour bloquer l'air, puis ouvrez-les en faisant vibrer vos cordes vocales. Pour la version sourde, faites le même geste sans faire vibrer la voix.
 
-## Graphie et particularités
+## Règles de lecture
 
-Le **B** peut être simple ou doublé (**bb** comme dans *abbé*), les deux se prononçant toujours `/b/`. En fin de mot, il est le plus souvent muet après une consonne nasale (*plomb*), mais se fait entendre dans certains emprunts modernes comme *club* (`/klœb/`).
+Dans la majorité des cas, elle donne le son /b/, comme dans (robe) /ʁɔb/. Devant une consonne sourde, elle s'assimile et prend le son /p/, comme dans (obtenir) /ɔp.tə.niʁ/. En fin de mot, elle est parfois muette, comme dans (plomb) /plɔ̃/.
 
-## Nuances et assimilations
+## Écueils à éviter
 
-Devant une consonne sourde comme /t/ ou /s/, le son s'assourdit naturellement en `/p/`, comme dans *obtenir* (`/ɔp.tə.niʁ/`) ou *observer*. Veillez à bien faire vibrer la voix sur `/b/` pour éviter de le confondre prématurément avec la consonne sourde **P**.
+Cette lettre ne présente aucun piège pour les francophones, qui appliquent cette assimilation naturellement.

@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## A C betű hangja
+## A cé betű hangja
 
-A francia **C** betűnek nincs önálló, egyedi hangértéke: a leggyakrabban a magyar *k*-hoz hasonlóan `/k/` (pl. **café**), illetve *sz*-ként `/s/` (pl. **merci**) hangzik. A **chat** példaszóban a **ch** kettős betű a magyar *s* hangnak felel meg (`/ʃ/`). Mindegyik változat zöngétlen, a hangszalagok nem rezegnek a képzésükkor.
+A francia (cé) /se/ neve így hangzik. Leggyakrabban a magyar k hanghoz hasonlóan ejtik, mint a (café) /ka.fe/ szóban.
 
-## A hang képzése
+## A cé kiejtése
 
-A **chat** szóban hallható `/ʃ/` hanghoz kerekítse és tolja kissé előre az ajkait, mint amikor csendre inti a másikat. A nyelv hegye lefelé mutat, a nyelvhát közepe pedig a szájpadláshoz közeledve engedi át a folyamatos levegőt. A kemény `/k/` hangnál a nyelv hátulja zárja el a levegőt, a selypítő `/s/` hangnál pedig a szorosan tartott fogak között fütyül ki a szél.
+A kemény változathoz a nyelv hátsó részét a lágy szájpadláshoz nyomod, majd hirtelen elengeded hangszalagrezgés nélkül. A lágy változathoz a nyelv hegyét az alsó fogsor mögé teszed, és folyamatosan préstelsz ki levegőt zöngétlenül.
 
-## Helyesírás és használat
+## A cé írásmódjai
 
-A betű nagybetűs alakja **C**, a kisbetűs **c**. Ha az **a, o, u** magánhangzók előtt mégis *sz* hangot szeretnénk ejteni, a betű alá cédille kerül (**ç**), mint a **ça** szóban. Szó végén a **c** gyakran néma marad (pl. **porc**, **blanc**), de sok szóban ki kell ejteni kemény *k*-ként (pl. **avec**, **parc**).
+A, o, u betűk vagy mássalhangzók előtt a hang /k/, például a (carte) /kaʁt/ szóban. Az e, i, y előtt, valamint cedille jellel a hang /s/, mint a (cerise) /sə.ʁiz/ vagy a (garçon) /gaʁ.sɔ̃/ szóban. Egyes szavak legvégén néma marad, ahogy a (tabac) /ta.ba/ szóban.
 
-## Összehasonlítás és buktatók
+## Gyakori ejtési hibák
 
-A magyar anyanyelvűek leggyakoribb hibája, hogy a francia **c** betűt a magyar *c* (`[ts]`) hangként ejtik: a franciában ez a hangzás nem létezik, mindig tiszta `/s/` vagy `/k/` szükséges. Vigyázzon arra is, hogy a **ch** kapcsolatot ne kemény *cs*-nek (`[tʃ]`) mondja, hanem mindig tiszta *s*-nek (`/ʃ/`). Néhány görög eredetű szóban a **ch** kivételesen *k*-nak hangzik, mint a **chaos** vagy **technique** szavakban.
+A magyar anyanyelvűek hajlamosak a betűt a magyar c hangnak ejteni. Ne ejts cét, mert a franciában ez mindig tiszta sz vagy k hang.

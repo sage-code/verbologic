@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## O som da letra C
+## O som do cé
 
-A letra **C** não tem som único em francês: lê-se `/k/` diante de **a, o, u** ou consoante, e `/s/` diante de **e, i, y**. No exemplo **chat**, associada à letra **h**, forma o dígrafo **ch** que soa exatamente como o *ch* de *chave* no português (`/ʃ/`). Trata-se sempre de articulações surdas, sem vibração das cordas vocais.
+A letra (cé) /se/ tem este nome. O seu som principal é o som /k/, como na palavra (café) /ka.fe/.
 
-## Como pronunciar
+## Como pronunciar o cé
 
-Para articular o `/ʃ/` de **chat**, projete e arredonde ligeiramente os lábios para a frente em um sussurro contínuo, mantendo a ponta da língua abaixada. Para a variante `/k/`, faça um bloqueio momentâneo com o dorso da língua contra o véu palatino antes de soltar o ar. Para a variante suave `/s/`, apoie a língua perto dos alvéolos superiores e solte o ar em um sibilo nítido.
+Para o som oclusivo, apoia a parte de trás da língua no palato mole e solta o ar sem vibrar as cordas vocais. Para o som sibilante, encosta a ponta da língua aos dentes inferiores e sopra o ar de forma contínua.
 
-## Ortografia e regras
+## Grafias do cé
 
-Escreve-se **C** em maiúscula e **c** em minúscula. Para manter o som `/s/` antes de **a, o, u**, utiliza-se a cedilha, tal como em **français** ou **leçon**. No final das palavras, o **c** pode ser soado como `/k/` (em **sac**) ou ser totalmente mudo (em **porc**, **franc**).
+Antes de a, o, u ou consoantes, soa como o som /k/, por exemplo em (carte) /kaʁt/. Antes de e, i, y, ou com cedilha, produz o som /s/, como em (cerise) /sə.ʁiz/ e (garçon) /gaʁ.sɔ̃/. No final de algumas palavras não se pronuncia, como em (tabac) /ta.ba/.
 
-## Comparações e armadilhas
+## Dificuldades com o cé
 
-Não confunda o som suave de **cinéma** `/s/` com o som oclusivo de **cuisine** `/k/`, já que a vogal seguinte define a regra. Evite aplicar a pronúncia africada `[tʃ]` comum em algumas línguas românicas para o dígrafo **ch**; em francês corrente diz-se sempre um som contínuo `/ʃ/`, como em **chocolat**. Fique atento também aos termos eruditos de origem grega onde **ch** soa como `/k/`, como em **orchestre** ou **écho**.
+A pronúncia desta consoante segue praticamente as mesmas regras do português europeu. O principal cuidado é evitar articular a letra quando ela surge muda no fim de palavras como tabaco ou porco.

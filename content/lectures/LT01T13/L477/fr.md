@@ -20,18 +20,18 @@ terms:
   ro: "T"
 ---
 
-## Le son de la lettre T
+## Son de la lettre té
 
-La lettre **T** se prononce généralement comme une consonne occlusive dentale sourde `/t/`. Contrairement à l'anglais, elle n'est jamais aspirée et s'articule directement contre les dents. Devant certains groupes vocaliques comme *-ion* ou *-iel*, elle prend le son d'un `/s/` doux.
+Le nom de cette lettre se prononce (té) /te/. Elle correspond principalement au son /t/, comme dans le mot (table) /tabl/.
 
-## Comment la prononcer
+## Comment placer la bouche
 
-Placez la pointe de votre langue fermement contre l'arrière de vos incisives supérieures. Bloquez complètement le passage de l'air un court instant, puis relâchez-le net sans souffler d'air supplémentaire. Vos cordes vocales ne doivent pas vibrer pendant cette articulation.
+Pour le son /t/, posez fermement la pointe de la langue contre les dents du haut puis relâchez l'air sans voix. Pour le son /s/, approchez la langue des alvéoles et laissez siffler l'air sans faire vibrer la gorge.
 
-## Graphie et particularités
+## Règles d'écriture
 
-On la retrouve sous forme simple **t** ou double **tt** comme dans *attendre*, qui se prononce toujours comme un simple `/t/`. En finale absolue, elle est très souvent muette (*vert*, *plat*), sauf lors d'une liaison où elle réapparaît sous forme de `/t/`. Le groupe **th** se prononce également comme un simple `/t/`, le *h* restant muet.
+En début de mot ou devant la plupart des voyelles et consonnes, elle donne le son /t/, comme dans (tapis) /ta.pi/. Devant la voyelle i suivie d'une autre voyelle dans des mots d'origine latine, elle donne le son /s/, comme dans (patient) /pa.sjɑ̃/. En fin de mot, elle ne se prononce pas, comme dans (salut) /sa.ly/.
 
-## Nuances et pièges fréquents
+## Prononciation sans piège
 
-Faites attention à ne pas aspirer le `/t/`, une habitude fréquente chez les anglophones et germanophones. Prenez garde aussi au son `/s/` dans des mots comme *action* ou *national*, où la graphie peut tromper. Enfin, ne prononcez pas le **t** final des mots courants comme *mot* ou *lit* sans raison grammaticale de liaison.
+Cette lettre ne présente aucune difficulté particulière pour les francophones, qui maîtrisent déjà parfaitement ces alternances au quotidien.

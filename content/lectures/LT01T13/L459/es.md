@@ -20,18 +20,18 @@ terms:
   ro: "B"
 ---
 
-## El sonido de la letra B
+## Sonido de la letra bé
 
-En francés, la **B** representa una oclusiva bilabial sonora `/b/` tensa y claramente articulada. A diferencia del español, donde la «b» entre vocales se vuelve una aproximante suave `[β]`, en francés siempre se pronuncia con un cierre total y firme de los labios. Este contraste es fundamental para lograr un acento francés auténtico.
+Esta letra se llama (bé) /be/. Produce principalmente el sonido /b/, como en la palabra (balle) /bal/.
 
-## Cómo pronunciarla
+## Cómo colocar la boca
 
-Junta ambos labios con firmeza impidiendo por completo el paso del aire. Activa las cuerdas vocales antes de abrir la boca para asegurar una sonoridad plena desde el inicio. Libera el aire con una pequeña explosión separando los labios rápidamente, manteniendo la lengua en reposo contra el suelo de la boca.
+Para el sonido sonoro, junte los labios cerrando el paso del aire y suéltelo haciendo vibrar las cuerdas vocales. Para la variante sorda, haga el mismo cierre pero sin vibración vocal.
 
-## Reglas de ortografía
+## Reglas de pronunciación
 
-Se escribe como minúscula **b** y mayúscula **B**, figurando al principio, en medio o al final de las palabras. La doble consonante **bb**, como en *rabbin*, se lee de forma idéntica a una consonante simple `/b/`. Al final de algunas palabras patrimoniales como *radoub* o *plomb*, la grafía suele ser completamente silenciosa.
+Casi siempre produce el sonido /b/, como en (robe) /ʁɔb/. Delante de una consonante sorda suena como el sonido /p/, como en (obtenir) /ɔp.tə.niʁ/. Al final de algunas palabras no se pronuncia, como en (plomb) /plɔ̃/.
 
-## Variantes y errores comunes
+## Comparación con el español
 
-Ante consonantes sordas se desonoriza a `/p/` por asimilación, como en *absent* (`/ap.sɑ̃/`). El error más común entre hispanohablantes es relajar los labios entre vocales (en palabras como *cabine*), produciendo una fricativa española en lugar de una oclusión limpia. Asegúrate de cerrar los labios por completo en cada emisión.
+En español esta letra suele suavizarse entre vocales como en lobo. En francés siempre debe cerrar los labios por completo con un golpe firme, sin dejar escapar aire suavemente.

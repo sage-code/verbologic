@@ -20,18 +20,18 @@ terms:
   ro: "N"
 ---
 
-## Der Laut des Buchstabens N
+## Laut des Buchstabens enne
 
-Im Französischen steht der Buchstabe **N** primär für den stimmhaften alveolaren Nasal `/n/`, genau wie das deutsche „n“ in *Nacht*. Steht **N** jedoch silbenauslautend direkt nach einem Vokal, verstummt der Konsonant als solcher und bewirkt stattdessen die Nasalierung des vorangehenden Vokals. Den klaren Konsonantenlaut hört man beispielsweise in `nuit`.
+Der Buchstabe heißt (enne) /ɛn/. Er steht meist für den Laut /n/, wie im Wort (nez) /ne/.
 
-## Ausspracheanleitung
+## Aussprache der Laute
 
-Legen Sie die Zungenspitze an den oberen Zahndamm hinter den Schneidezähnen, sodass der Mundraum verschlossen wird. Senken Sie das Gaumensegel, damit die Luft ungehindert durch die Nase entweichen kann, während die Stimmlippen schwingen. Die Lippen nehmen dabei neutral die Stellung des nachfolgenden Vokals ein.
+Legen Sie die Zungenspitze fest an die Rückseite der oberen Schneidezähne. Schließen Sie den Mundraum komplett ab und lassen Sie die stimmhafte Luft ganz durch die Nase strömen.
 
-## Rechtschreibung und Vorkommen
+## Regeln zur Schreibung
 
-Folgt auf das **N** ein Vokal (wie in *nid*) oder steht ein Doppel-N (**nn** wie in *bonne*), wird es ausnahmslos als `/n/` gesprochen. Steht es hingegen am Silbenende vor einem Konsonanten oder am Wortende (wie in *bon* oder *enfant*), verschmilzt es mit dem Vokal zu einem Nasalvokal. Ein doppeltes **nn** verhindert diese Nasalierung stets vollständig.
+Vor einem Vokal spricht man den Laut /n/, wie in (minute) /mi.nyt/. Der Buchstabe bleibt stumm nach dem Buchstaben m, wie in (condamner) /kɔ̃.da.ne/, oder in bestimmten festen Wörtern wie (monsieur) /mə.sjø/.
 
-## Vergleich und typische Fehler
+## Vergleich zum Deutschen
 
-Deutschsprachige neigen oft dazu, am Ende französischer Nasalvokale einen hörbaren konsonantischen Verschluss `[n]` oder gar ein `[ŋ]` anzuhängen, etwa bei *vin*. Achten Sie darauf, dass bei echten Nasalen die Zunge keinen Kontakt zum Gaumen herstellt, während bei Wörtern wie *nuit*, *banane* oder *année* ein sauberes, klares `/n/` artikuliert werden muss.
+Der Laut ähnelt dem deutschen Laut in Nase. Achten Sie darauf, den Zungenkontakt stets an den oberen Zähnen zu halten, statt wie im Deutschen weiter hinten am Zahndamm.

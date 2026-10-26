@@ -20,18 +20,18 @@ terms:
   ro: "R"
 ---
 
-## Sunetul literei 'r'
+## Sunetul literei èr
 
-Litera franceză **R** redă consoana uvulară `/ʁ/`. Spre deosebire de limba română, unde 'r' este o vibrantă apicală produsă cu vârful limbii bătut de cerul gurii, în franceză sunetul vine din fundul gâtului, lângă omuleț (uvulă). Este o fricativă moale, similară cu un gâlgâit delicat.
+Numele acestei litere este (erre) /ɛʁ/. Ea redă de obicei sunetul /ʁ/, ca în cuvântul (rue) /ʁy/.
 
-## Cum se pronunță
+## Pronunția sunetului
 
-Țineți vârful limbii nemișcat, sprijinit jos, în spatele incisivilor inferiori. Ridicați rădăcina limbii spre vălul palatin și omuleț pentru a îngusta trecerea aerului. Expirați cu voce prin această fantă îngustă, lăsând uvula să vibreze ușor, fără a forța sau a tuși.
+Apropie spatele limbii de luetă, adică omușor. Lasă aerul să treacă prin acel spațiu îngust, creând o vibrație ușoară sau o frecare în fundul gâtului. Coardele vocale pot vibra.
 
-## Reguli de scriere și citire
+## Reguli de scriere
 
-Sunetul este notat prin **r** sau **rr**, ambele citindu-se `/ʁ/`, ca în **rue** sau **terre**. O regulă esențială este că **-r** final este complet mut la verbele de grupa I terminate în **-er** (cum ar fi **aimer** `/ɛ.me/`) și la substantivele masculine cu această terminație.
+În marea majoritate a pozițiilor, litera redă sunetul /ʁ/, ca în (rare) /ʁaʁ/. La sfârșitul multor cuvinte, mai ales la verbele de conjugarea întâi, litera este mută, ca în (parler) /paʁ.le/.
 
-## Variații și greșeli frecvente
+## Capcane de pronunție
 
-Lângă consoane surde (precum în **lettre** sau **train**), sunetul își pierde sonoritatea, transformându-se într-o șoaptă aspră `/χ/`. Cea mai mare greșeală a vorbitorilor de română este rularea vârfului limbii ca în limba maternă; asigurați-vă că vârful limbii rămâne complet pasiv.
+În limba română, sunetul r din rac se obține prin vibrația vârfului limbii pe cerul gurii. Nu folosi vârful limbii. Frecarea trebuie să aibă loc doar în spatele gâtului.

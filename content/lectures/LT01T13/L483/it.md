@@ -20,18 +20,18 @@ terms:
   ro: "Z"
 ---
 
-## Il suono della lettera Z
+## Suono della lettera zed
 
-In francese la lettera **Z** corrisponde unicamente alla fricativa alveolare sonora `/z/`, identica alla **s** intervocalica italiana della parola *rosa* (nella pronuncia settentrionale) o all'inglese *buzz*. A differenza dell'italiano, la **Z** francese non ha mai valore di affricata sorda `/ts/` (come in *stazione*) né sonora `/dz/` (come in *zona*). A fine parola è quasi sempre muta.
+La lettera (zède) /zɛd/ produce principalmente il suono /z/. Si ascolta ad esempio nella parola (zèbre) /zɛbʁ/.
 
-## Come posizionare la bocca
+## Come si pronuncia
 
-Appoggia la punta della lingua subito dietro i denti incisivi inferiori o verso gli alveoli superiori, senza mai bloccare completamente l'aria. Le labbra rimangono rilassate o leggermente distese ai lati. Fai vibrare costantemente le corde vocali mentre espiri, producendo un ronzio continuo e pulito.
+Per pronunciare il suono /z/, avvicina la punta della lingua agli alveoli superiori senza toccarli. Fai uscire l'aria con una frizione continua, facendo vibrare chiaramente le corde vocali.
 
-## Ortografia e particolarità
+## Ortografia e varianti
 
-La **Z** è relativamente poco frequente all'inizio dei lemmi francesi e compare soprattutto in parole scientifiche o di origine straniera. È invece onnipresente nelle desinenze verbali di seconda persona plurale (ad esempio *-ez* in *venez*), dove non si pronuncia mai. Nelle forme con legamento fonetico (*liaison*), tuttavia, la **Z** finale muta riprende vita trasformandosi nel suono `/z/`.
+La lettera (zède) /zɛd/ fa il suono /z/ all'inizio della parola come in (zone) /zon/. A fine parola resta spesso muta, come accade in (nez) /ne/ e in (riz) /ʁi/.
 
-## Confronti e insidie frequenti
+## Confronto con l'italiano
 
-Nota il contrasto tra l'apertura sonora di *zèbre* (`/zɛbʁ/`) e la terminazione muta di parole come *assez* (`/a.se/`). Il tipico errore degli italofoni è pronunciare la **Z** con l'affricata italiana `/ts/` o `/dz/` (come se *zéro* fosse pronunciato all'italiana). Ricorda sempre che in francese la **Z** è una sibilante pura e deve vibrare come un ronzio d'ape.
+Non confondere mai questo suono con la zeta aspra di pizza o quella dolce di zero. Si tratta esattamente della esse sonora italiana, come nella parola rosa.

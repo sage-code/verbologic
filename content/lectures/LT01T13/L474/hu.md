@@ -20,18 +20,18 @@ terms:
   ro: "Q"
 ---
 
-## A Q betű hangja
+## A kü betű hangja
 
-A francia nyelvben a **Q** betű szinte kivétel nélkül a `/k/` zöngétlen veláris zárhangot jelöli, megegyezve a magyar *k* hanggal (mint a *kép* szóban). Leggyakrabban a **qu** betűkapcsolatban fordul elő, ahol az *u* pusztán helyesírási elem, és nem ejtik ki. Így a *qui* kiejtése pontosan olyan, mintha magyarul azt írnánk: *ki*.
+A betű neve (qu) /ky/. Önmagában szinte mindig a /k/ hangot adja, mint a (cinq) /sɛ̃k/ szóban.
 
-## Hogyan ejtsük helyesen
+## A kiejtés módja
 
-Emelje fel a nyelve hátsó részét a lágy szájpadláshoz, hogy teljesen elzárja a kiáramló levegő útját. Engedje fel hirtelen a zárat a zöngétlen levegőkilökéssel, miközben a hangszalagok nem rezegnek. Ügyeljen arra, hogy ne kerekítse a száját feleslegesen *v* vagy *u* hangra a `/k/` után.
+A nyelv hátulja érintse a lágy szájpadlást, majd a hirtelen kiáramló levegő pattintsa szét a zárat. A hangszalagok nem rezegnek közben.
 
-## Helyesírási tudnivalók
+## A betű írásmódja
 
-A francia szavakban a **Q** szinte elválaszthatatlan az őt követő *u* betűtől (*quand*, *époque*). Nagyon kevés szó végén áll önmagában, mint például a *cinq* (öt) vagy a *coq* (kakas) szavakban. Nyomtatott és írott formában a kisbetűs **q** szára egyenesen lefelé nyúlik a sor alá.
+Önállóan, főleg szavak legvégén jelenik meg, ekkor a hangzása a /k/ hang, mint a (coq) /kɔk/ szóban.
 
-## Változatok és buktatók
+## Gyakori ejtéshibák
 
-A magyar anyanyelvűek hajlamosak a német vagy latin hatásra a *qu* kapcsolatot `/kv/`-nek vagy `/ku/`-nak ejteni, amit kerülni kell (*quatre* ejtése `/katʁ/`, nem pedig *kvatr*). Kivételt képez néhány latin eredetű vagy jövevényszó, mint az *aquarium* vagy a *square*, ahol valóban megjelenik a félhangzós `/kw/` ejtés.
+A magyar anyanyelvűek számára ez a hang nem rejt veszélyt, pontosan úgy ejtik, mint a magyar k hangot a kép szóban.

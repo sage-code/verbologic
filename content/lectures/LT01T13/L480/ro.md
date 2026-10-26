@@ -20,18 +20,18 @@ terms:
   ro: "W"
 ---
 
-## Sunetul literei W
+## Sunetul literei dublu vé
 
-Litera **W** nu este autohtonă în limba franceză și apare doar în cuvinte împrumutate din alte limbi. În funcție de etimologie, ea se pronunță fie ca sunetul românesc 'v' (`/v/`), fie ca semivocala 'u' (`/w/`). Împrumuturile germane vechi folosesc de regulă `/v/`, în timp ce neologismele englezești folosesc `/w/`.
+Numele acestei litere este (double vé) /dublə ve/. Sunetul său principal este sunetul /v/, ca în cuvântul (wagon) /va.ɡɔ̃/.
 
-## Cum se pronunță
+## Pronunțarea literei dublu vé
 
-Pentru varianta `/v/`, atingeți ușor buza inferioară cu dinții de sus și expirați producând vibrația corzilor vocale, exact ca la 'v' din română. Pentru varianta `/w/`, rotunjiți buzele strâns ca pentru un 'u' foarte scurt și treceți rapid la vocala următoare. Țineți limba retrasă și evitați articularea unui sunet vocalic întreg.
+Pentru primul sunet, atinge dinții de sus cu buza de jos și fă corzile vocale să vibreze. Pentru al doilea sunet, rotunjește buzele strâns și ridică partea din spate a limbii, fără frecare.
 
-## Ortografie și context
+## Ortografia literei dublu vé
 
-Numită **double vé**, litera se întâlnește aproape exclusiv la începutul împrumuturilor lexicale precum *wifi*, *web* sau *wagon*. În limba franceză standard, *wagon* se scrie cu **w**, dar se citește cu sunetul `/v/`. În neologismele recente provenite din engleză, valoarea fonetică rămâne invariabil `/w/`.
+În împrumuturile mai vechi, în principal de origine germanică, litera redă sunetul /v/, ca în (warrant) /va.ʁɑ̃/. În cuvintele moderne împrumutate din engleză, ea se aude ca sunetul /w/, ca în (web) /wɛb/.
 
-## Comparație și greșeli frecvente
+## Comparație cu limba română
 
-Comparați *wagon* (`/va.ɡɔ̃/`) cu *weekend* (`/wi.kɛnd/`) pentru a observa alternanța dintre cele două valori fonetice. O greșeală comună este tendința de a citi toate cuvintele moderne cu `/v/`, sau dimpotrivă, de a citi *wagon* cu `/w/` după modelul englezesc. În franceza standard actuală, *wagon* cere cu strictețe consoana `/v/`.
+Ambele sunete există deja în limba română. Nu există nicio capcană de pronunție față de sunetul din cuvinte precum vară sau cel din watt.

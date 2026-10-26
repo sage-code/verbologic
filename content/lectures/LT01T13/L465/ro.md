@@ -20,18 +20,18 @@ terms:
   ro: "H"
 ---
 
-## Sunetul literei
+## Sunetul literei ache
 
-În limba franceză modernă, litera **H** este complet mută și nu produce niciun sunet de sine stătător. Spre deosebire de română, unde litera reprezintă o consoană fricativă velară ca în *hrană* sau glotală ca în *haină*, în franceză nu trebuie să expiri absolut deloc aer. Practic, pronunția începe direct cu vocala imediat următoare.
+Această literă se numește (ache) /aʃ/. Ea nu se pronunță niciodată în limba franceză, cum se observă în (habiter) /a.bi.te/.
 
-## Cum se pronunță
+## Pronunțarea literei ache
 
-Nu încerca să scoți niciun sunet din gât și nu expira aer când vezi litera scrisă. Relaxează corzile vocale și pregătește-ți direct gura și buzele pentru vocala care urmează după **H**. Privește această literă ca pe un semn grafic tăcut, complet invizibil fonic.
+Nu trebuie să faci nicio mișcare cu buzele, limba sau corzile vocale. Aerul iese liber, deoarece sunetul nu există.
 
-## Ortografie și reguli gramaticale
+## Ortografia literei ache
 
-Ortografia franceză împarte această literă în două categorii funcționale: **H muet** și **H aspiré**. În fața unui *H muet*, se produce eliziunea și legătura sonoră (*l'homme*, *les_hommes* [le.z‿ɔm]), în timp ce un *H aspiré* împiedică ambele fenomene (*le héros*, *les héros* [le e.ʁo]). De asemenea, alături de **C**, litera formează digraful clasic **CH**, pronunțat `[ʃ]`.
+Indiferent de poziție sau de cuvânt, litera rămâne complet mută. Acest lucru se aude clar în (homme) /ɔm/ și în (héros) /e.ʁo/.
 
-## Greșeli frecvente de evitat
+## Diferențe față de română
 
-Vorbitorii de română au uneori tendința de a sufla sau a gâjâi un sunet `[h]` aspru, mai ales în cuvinte înrudite sau împrumuturi internaționale. O altă greșeală majoră este aplicarea legăturii fonetice (*liaison*) în fața unui *H aspiré*, spunând de exemplu *les_héros* cu `[z]`, ceea ce schimbă sensul în *les zéros* (zerourile).
+Cea mai mare greșeală este pronunțarea ca un h românesc din cuvântul haină. Păstrează mereu o liniște deplină când vezi această literă.

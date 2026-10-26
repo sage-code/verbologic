@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## O som da letra X
+## O som da letra ixe
 
-A letra **X** em francês é bastante versátil e equivale mais frequentemente ao encontro consonantal `/ks/`, como em **taxi**. No entanto, quando ocorre no início de palavras de origem grega ou no prefixo *ex-* seguido de vogal, pronuncia-se como o grupo sonoro `/gz/`, como em **xylophone** ou **exercice**. Em contextos específicos e numerais, pode soar como `/s/` ou `/z/`, ou permanecer completamente muda no final das palavras.
+A letra chama-se (ixe) /iks/. O seu som principal é o grupo consonântico /ks/, como se ouve no vocábulo (texte) /tɛkst/.
 
-## Como articular o X
+## Como pronunciar o ixe
 
-Para articular o grupo surdo `/ks/`, toque brevemente o fundo da língua no céu da boca para o `[k]` e solte imediatamente em um chiado dental para o `[s]`. Para a versão sonora `/gz/`, faça a mesma transição de `[g]` para `[z]`, mantendo as cordas vocais vibrando ativamente desde o início. Os lábios devem permanecer relaxados e ligeiramente entreabertos.
+Para o som /ks/, bloqueie o ar com o dorso da língua e solte com fricção surda. Para /ɡz/, faça o mesmo movimento com vibração das cordas vocais. Para o som /s/, aproxime a ponta da língua dos dentes superiores.
 
-## Ortografia e posições
+## Regras de leitura do ixe
 
-A letra **X** aparece no início, no meio ou no final das palavras francesas. No final, costuma marcar o plural de termos terminados em *-au*, *-eau* e *-eu* (como em **oiseaux**), permanecendo estritamente muda. Na ligação fonética (*liaison*) com a palavra seguinte iniciada por vogal, esse **X** final mudo ressurge pronunciado obrigatoriamente como `/z/`.
+Antes de consoante ou após vogal soa como /ks/, tal como em (taxi) /tak.si/. No prefixo inicial antes de vogal lê-se /ɡz/, como em (examen) /ɛɡ.za.mɛ̃/. Em certos numerais vale o som /s/, como em (dix) /dis/. Na maioria dos finais de palavra não se pronuncia, como em (paix) /pɛ/.
 
-## Comparações e armadilhas
+## Comparação com o português
 
-Muitos falantes de português tendem a ler o **X** francês com o som de `/ʃ/` (como em *chá*), o que quase nunca ocorre em francês moderno. Cuidado também para distinguir `/ks/` de `/gz/`: diga `/ɛɡ.zɑ̃pl/` para **exemple**, e não `*/ɛk.sɑ̃pl/*`. Por fim, lembre-se de que palavras como **deux**, **paix** e **voix** têm o **X** final totalmente mudo quando isoladas.
+No português europeu esta consoante tem vários valores semelhantes, mas no final de palavra nunca a pronuncie como o som de xadrez. Lembre-se de que no fim da palavra ela fica totalmente muda.

@@ -20,18 +20,18 @@ terms:
   ro: "D"
 ---
 
-## Le son de la lettre D
+## Son de dé
 
-En français, la lettre **D** produit la consonne occlusive voisée `/d/`. Contrairement au son anglais qui est alvéolaire, le `/d/` français est strictement **dental**, ce qui lui confère une attaque plus nette et franche.
+Cette lettre s'appelle (dé) /de/. Son articulation principale correspond au son /d/, comme dans (date) /dat/.
 
-## Comment prononcer le D
+## Prononciation du son
 
-Placez la pointe de la langue fermement contre l'arrière de vos **incisives supérieures**, et non sur les alvéoles en retrait. Bloquez un bref instant l'air tout en faisant vibrer vos **cordes vocales**, puis relâchez la pression de façon nette sans aspirer.
+Placez fermement la pointe de la langue contre les dents du haut. Bloquez l'air un court instant, faites vibrer les cordes vocales, puis relâchez nettement l'appui.
 
-## Orthographe et particularités
+## Règles de lecture
 
-On retrouve la lettre écrite sous les formes **d** et **D**, parfois doublée comme dans *addition*. En fin de mot (*pied*, *chaud*), elle est le plus souvent **muette**, sauf en cas de liaison soutenue où elle se transforme en son `/t/`.
+Dans la plupart des positions, elle se prononce avec le son /d/, comme dans (mode) /mɔd/. À la fin de nombreux mots, elle reste muette, par exemple dans (nord) /nɔʁ/ ou (chaud) /ʃo/.
 
-## Nuances et pièges fréquents
+## Difficultés et pièges
 
-Attention à ne pas aspirer le `/d/` comme en anglais ou en allemand. Veillez également à ne pas le prononcer lorsqu'il est final dans des mots simples comme *froid* `/fʁwa/`, et rappelez-vous que dans *un grand ami*, la liaison produit le son `/t/` (`/ɡʁɑ̃.t‿a.mi/`).
+Aucune difficulté majeure n'existe pour un locuteur francophone. Veillez simplement à bien bloquer l'air contre les dents sans relâcher l'occlusion.

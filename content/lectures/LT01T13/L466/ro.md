@@ -20,18 +20,18 @@ terms:
   ro: "I"
 ---
 
-## Sunetul literei I
+## Sunetul literei i
 
-Litera **I** în limba franceză reprezintă în mod obișnuit vocala închisă anterioară nerotunjită `/i/`, exact ca în cuvântul **île**. Acest sunet este foarte asemănător cu **i**-ul românesc plin din *fir* sau *inel*, fiind pronunțat curat și foarte tensionat. Dacă este urmată imediat de o altă vocală, ea devine o semivocală palatală `/j/`, la fel ca în cuvântul românesc *iarbă*.
+Numele acestei litere este (i) /i/. Ea redă de obicei sunetul vocalic /i/, exact ca în cuvântul (ici) /i.si/.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Întindeți buzele ferm în lateral, ca într-un zâmbet larg, fără a le rotunji deloc. Ridicați partea din față a limbii foarte aproape de cerul gurii, sprijinind vârful limbii în spatele dinților incisivi de jos. Emiteți un sunet clar și scurt, păstrând musculatura feței fermă pe toată durata pronunției.
+Pentru vocala /i/, ridică limba în față aproape de cerul gurii și întinde colțurile buzelor. Pentru semivocala /j/, apropie limba și mai mult și treci rapid la vocala următoare cu vibrația corzilor vocale.
 
-## Ortografie și accente
+## Reguli de citire
 
-Litera **i** apare frecvent simplă, dar poate purta și un accent circumflex (**î**) în cuvinte precum **île**, care indică adesea un vechi sunet dispărut istoric. De asemenea, poate avea o tremă (**ï**) ca în **naïf**, care semnalează că vocala se pronunță separat de vocala precedentă. În combinații cu **n** sau **m** urmate de o consoană, generează vocala nazală `/ɛ̃/`, ca în **matin**.
+Această literă cu accent circumflex redă sunetul vocalic /i/, ca în (île) /il/. Înaintea altei vocale, ea devine o semivocală cu sunetul /j/, de exemplu în (ciel) /sjɛl/ sau în (hier) /jɛʁ/.
 
-## Variații și capcane fonetice
+## Comparație cu româna
 
-Diferența majoră de pronunție apare atunci când **i** este urmat de o altă vocală, transformându-se în semivocala `/j/`, ca în **hier** `/jɛʁ/`. Vorbitorii de română nu întâmpină dificultăți majore cu vocala `/i/`, însă trebuie să fie atenți la grupurile nazale precum **in**, unde **i** își pierde valoarea vocalică pură și devine parte a unei vocale nazale distincte.
+Aceste două sunete nu prezintă dificultăți pentru vorbitorii de română. Vocala /i/ este identică cu cea din cuvântul inel, iar semivocala /j/ corespunde perfect sunetului inițial din cuvântul iarbă.

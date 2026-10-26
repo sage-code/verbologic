@@ -20,18 +20,18 @@ terms:
   ro: "G"
 ---
 
-## Le son de la lettre G
+## Nom et valeur principale
 
-La lettre **G** possède principalement deux prononciations en français selon la voyelle qui la suit : un son dur `/ɡ/` ou un son doux `/ʒ/`. Devant les lettres **A**, **O**, **U** ou une consonne, elle produit l'occlusive voisée `/ɡ/` comme dans **gare**. Devant **E**, **I** et **Y**, elle s'adoucit pour devenir la fricative `/ʒ/` comme dans **girafe**.
+Cette lettre se nomme (gé) /ʒe/. Elle se prononce principalement par le son consonantique /ɡ/, que l'on entend dans le mot (gare) /ɡaʁ/.
 
-## Comment la prononcer
+## Prononciation et mouvements articulatoires
 
-Pour produire le son dur `/ɡ/`, appuyez l'arrière de votre langue contre le voile du palais, bloquez brièvement l'air puis relâchez-le en faisant vibrer vos cordes vocales. Pour le son doux `/ʒ/`, arrondissez légèrement les lèvres et laissez passer l'air en continu entre le dos de la langue et l'avant du palais sans bloquer le flux d'air.
+Pour la consonne occlusive, le dos de la langue touche le voile du palais avant de relâcher l'air avec vibration des cordes vocales. Pour la chuintante, avancez légèrement les lèvres et laissez passer l'air en continu avec voix.
 
-## Règles orthographiques
+## Graphies et contextes d'apparition
 
-Pour conserver le son dur `/ɡ/` devant **E** ou **I**, le français ajoute un **U** muet, comme dans **guitare** ou **bague**. À l'inverse, pour obtenir le son doux `/ʒ/` devant **A** ou **O**, on insère un **E** muet, comme dans **mangeons** ou **orangeade**.
+Devant une consonne ou les voyelles a, o, u, elle produit le son /ɡ/ comme dans (gros) /ɡʁo/. Devant e, i ou y, elle se prononce /ʒ/ comme dans (gel) /ʒɛl/ et (girafe) /ʒi.ʁaf/. Elle ne se prononce pas en finale dans certains mots comme (doigt) /dwa/ et (sang) /sɑ̃/.
 
-## Nuances et pièges fréquents
+## Points de vigilance phonétique
 
-Ne confondez pas le son voisé `/ɡ/` avec son équivalent sourd `/k/` : veillez à bien activer vos cordes vocales. Faites également attention à la combinaison **GN**, qui forme généralement le son palatal `/ɲ/` comme dans **agneau**, et non une séquence de deux consonnes séparées.
+Ce graphème ne pose aucune difficulté majeure en français standard. Veillez simplement à bien distinguer la consonne occlusive de la consonne fricative chuintante selon la voyelle suivante, et à ne pas prononcer les consonnes finales muettes.

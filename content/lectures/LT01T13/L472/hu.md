@@ -20,18 +20,18 @@ terms:
   ro: "O"
 ---
 
-## Az O betű hangjai
+## Az o betű hangja
 
-A francia **O** betű alapvetően kétféle magánhangzót jelöl: a zárt `/o/` hangot (hasonló a magyar hosszú **ó**-hoz) és a nyílt `/ɔ/` hangot (nagyon közel áll a magyar rövid **a** vagy nyílt **o** hanghoz). Emellett nazális párja az `/ɔ̃/`, mint a **bon** szóban. Az **orange** szóban a kezdőhang egy nyílt `/ɔ/`.
+A francia (o) /o/ betű neve (o) /o/. Leggyakoribb kiejtése a nyílt /ɔ/ hang, mint a (olive) /ɔ.liv/ szóban.
 
-## Hogyan ejtsük
+## Az o kiejtése
 
-A zárt `/o/` képzésekor kerekítse erősen az ajkait egy kis nyílássá, a nyelve hátát pedig emelje kissé meg hátul. A nyílt `/ɔ/` esetén nyissa nagyobbra a száját, miközben az ajakkerekítés továbbra is megmarad. Ügyeljen arra, hogy a hang tiszta maradjon, és ne csússzon át kettőshangzóba.
+A zárt változathoz kerekítsd erősen az ajkaidat, és emeld meg hátul a nyelvedet. A nyílt hangnál kissé jobban nyisd le az álladat, miközben az ajkaid lazábban kerekítettek. A hangszalagok mindkét esetben rezegnek.
 
-## Helyesírási tudnivalók
+## Az o írásmódjai
 
-A zárt `/o/` hangot gyakran **o**, **ô**, **au** vagy **eau** betűkapcsolatok jelölik. Szó végén az **o** szinte mindig zárt (pl. **vélo**, **mot**), míg kiejtett mássalhangzóval záródó szótagban általában nyílt `/ɔ/` hanggá válik, mint a **robe** vagy **porte** szavakban.
+A legtöbb zárt szótagban vagy szó elején magánhangzóként a nyílt /ɔ/ hangot adja, mint a (porte) /pɔʁt/ szóban. Szótag végén, szó végén vagy zöngés réshang előtt zárt /o/ lesz, például a (vélo) /ve.lo/ és a (rose) /ʁoz/ szavakban.
 
-## Gyakori tévesztések
+## Gyakori ejtési hibák
 
-Gyakori hiba a nyílt `/ɔ/` és a zárt `/o/` felcserélése, pedig ez jelentésmegkülönböztető lehet, mint a **pomme** (alma, `/pɔm/`) és a **paume** (tenyér, `/pom/`) szavaknál. Ne ejtse az **o** betűt elnyújtott kettőshangzónak; a francia magánhangzók mindig feszesek és egységesek.
+A nyílt francia magánhangzó nagyon hasonlít a magyar o hangra a pont szóban. A zárt változat viszont tisztább és feszesebb, mint a hosszú ó a só szóban, ezért ne ejtsd kettőshangzóként.

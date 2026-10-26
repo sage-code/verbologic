@@ -20,18 +20,18 @@ terms:
   ro: "T"
 ---
 
-## A T betű kiejtése
+## A té betű hangja
 
-A francia **T** betű leggyakrabban a magyarhoz hasonló, zöngétlen foghangot jelöl (`/t/`). A magyar 't' hanghoz képest a franciában a nyelv hegye még határozottabban a felső metszőfogak hátoldalához simul, és soha nem kíséri hehezés. Bizonyos végződésekben, mint a *-tion*, sziszegő `/s/` hangként ejtjük.
+A francia (té) /te/ betű alapértelmezett kiejtése a magyar t hangnak felel meg. Így hangzik például a (table) /tabl/ szóban.
 
-## A kiejtés technikája
+## A té képzése
 
-Érintse a nyelve hegyét a felső metszőfogak belső felületéhez a légáram elzárásához. Engedje fel hirtelen a zárat anélkül, hogy leheletet képezne utána, pontosan úgy, mint a tiszta magyar 't' betűnél. Ügyeljen arra, hogy a hangképzés száraz, pontos és pattogós maradjon.
+A zárhangnál érintsd a nyelvhegyed a felső fogsor mögé, majd hirtelen engedd el a levegőt hangszalagrezgés nélkül. A réshanghoz zárd a fogaidat, a nyelved hegyét tartsd lent, és fújd át a levegőt zöngétlenül.
 
-## Helyesírás és elhelyezkedés
+## A té betű írásmódjai
 
-Szótagkezdő helyzetben a szimpla **t** és a kettős **tt** is sima `/t/` hangként hangzik (pl. *tableau*, *lettre*). Szavak végén a **t** szinte mindig néma, kivéve ha kötés (liaison) köti a következő magánhangzóval kezdődő szóhoz. A klasszikus görög eredetű **th** betűkapcsolat szintén egyszerű `/t/`-nek ejtendő (*théâtre*).
+Szó elején vagy mássalhangzók mellett a hangzás /t/, mint a (tapis) /ta.pi/ szóban. Latin eredetű szavakban egy i és egy másik magánhangzó előtt a hang /s/, például a (patient) /pa.sjɑ̃/ esetben. Sok szó végén a betű néma marad, mint a (salut) /sa.ly/ szóban.
 
-## Gyakori buktatók
+## Gyakori ejtési hibák
 
-A magyar anyanyelvűek számára a legnagyobb csapdát a szóvégi néma **t** betűk jelentik, amelyeket a kezdők hajlamosak kiolvasni (*chat*, *tout*). Egy másik nehézség a *-tion*, *-tiel* végződésekben rejlik, ahol a betűt magyar 'sz'-nek (`/s/`) kell ejteni, nem pedig 't'-nek. Ne ejtsen zárhangot az olyan szavakban, mint a *patience* vagy *initial*.
+A leggyakoribb hiba a szóvégi néma betű kiejtése a magyar szokás szerint. Emellett ügyelj arra, hogy az i előtti latin eredetű helyzetben ne t hangot képezz, hanem pontosan tiszta sz hangot.

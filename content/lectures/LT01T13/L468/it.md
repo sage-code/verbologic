@@ -20,18 +20,18 @@ terms:
   ro: "K"
 ---
 
-## Il suono della lettera K
+## Suono della lettera cappa
 
-La lettera **K** in francese rappresenta sempre la consonante occlusiva velare sorda `/k/`. È una lettera non nativa, impiegata quasi unicamente in prestiti linguistici e termini scientifici o stranieri. Corrisponde esattamente al suono della **c** dura italiana in parole come *casa* o *chilo*.
+La lettera (ka) /ka/ produce il suono consonantico /k/. Lo puoi ascoltare chiaramente all'inizio del vocabolo (kilo) /ki.lo/.
 
-## Come posizionare la bocca
+## Come si pronuncia
 
-Solleva il dorso della lingua fino a toccare il palato molle, bloccando momentaneamente il passaggio dell'aria. Rilascia la chiusura bruscamente senza far vibrare le corde vocali. Il rilascio deve essere netto e privo di aspirazione, proprio come avviene nella corretta pronuncia italiana.
+Spingi la parte posteriore della lingua contro il palato molle per bloccare l'aria. Rilascia poi il fiato all'improvviso, senza far vibrare le corde vocali.
 
-## Uso ortografico
+## Grafia del suono
 
-La lettera **K** è rara nel vocabolario francese autoctono e compare soprattutto in parole d'origine greca, germanica o araba come *kiosque*, *kayak* o *kaki*. All'interno del testo si comporta in modo regolare e non subisce mai modifiche fonetiche prima di vocali mute o desinenze flessive.
+La lettera si realizza con il suono /k/ in tutte le posizioni, come alla fine della parola (anorak) /a.nɔ.ʁak/.
 
-## Confronto e possibili errori
+## Confronto con l'italiano
 
-In francese il suono `/k/` è reso molto più spesso dalle grafie **c** (*conte*) o **qu** (*quatre*). Per gli italofoni questa lettera non presenta grandi difficoltà articolatorie, ma bisogna evitare di aspirarla per influsso dell'inglese, mantenendo un'emissione secca e pulita in parole come *kilo*.
+Non ci sono difficoltà per chi parla italiano. Il suono è identico alla consonante iniziale della parola casa.

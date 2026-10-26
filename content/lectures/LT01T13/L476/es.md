@@ -20,18 +20,18 @@ terms:
   ro: "S"
 ---
 
-## Sonido de la letra S
+## Sonido de la letra esse
 
-En francés, la letra **S** representa habitualmente el sonido sordo `/s/`, similar a la 's' hispanohablante en *sol*. Sin embargo, entre dos vocales adquiere el valor sonoro `/z/`, zumbado y con vibración de cuerdas vocales, que no existe como fonema propio en español. Además, el sonido `/s/` francés es dental o alveolar plano y nunca se pronuncia apical como en el centro-norte de España.
+La letra (esse) /ɛs/ representa principalmente el sonido /s/, como en la palabra (sac) /sak/.
 
-## Cómo colocar la boca
+## Cómo pronunciar los sonidos
 
-Para producir `/s/`, sitúa la punta de la lengua tras los dientes incisivos inferiores y expulsa el aire con fricción continua sin vibrar las cuerdas vocales. Para generar la variante sonora `/z/`, mantén exactamente la misma posición de la boca pero haz vibrar intensamente la laringe, como el zumbido de una abeja. Las comisuras de los labios deben permanecer ligeramente tensadas hacia los lados.
+Para el sonido sordo, acerca la punta de la lengua a los dientes superiores y expulsa aire continuo sin voz. Para el sonido sonoro, haz exactamente el mismo movimiento pero añade vibración de las cuerdas vocales.
 
-## Reglas ortográficas
+## Reglas de pronunciación
 
-La letra **S** suena como `/s/` al inicio de una palabra (*sac*), junto a consonantes (*penser*) y en el dígrafo **SS** entre vocales (*classe*). Se pronuncia obligatoriamente `/z/` cuando es una sola **S** entre vocales (*base*). A final de palabra suele ser completamente muda (*paris*, *maisons*), aunque en las *liaisons* (enlaces obligatorios) reaparece pronunciada como `/z/` ante vocal (*ils ont* `/il.zɔ̃/`).
+A principio de palabra o junto a una consonante, suena como el sonido /s/ en (poste) /pɔst/. Entre dos vocales, produce el sonido /z/ como en (rose) /ʁoz/. Al final de muchas palabras no se pronuncia, como en (bras) /bʁa/.
 
-## Diferencias y errores comunes
+## Diferencias con el español
 
-El mayor peligro para los hispanohablantes es ensordecer la **S** intervocálica diciendo `/s/` en lugar de `/z/`: decir *poison* (veneno) con sonido sordo `/s/` hace que suene como *poisson* (pez). Asimismo, resiste la tentación de pronunciar las eses finales: palabras como *français* o *temps* terminan en vocal oral o nasal, y la consonante escrita no debe articularse jamás.
+En español no existe el sonido sonoro con vibración en las cuerdas vocales. Entre vocales debes hacer vibrar la garganta para no confundirlo con el sonido sordo de la palabra sol.

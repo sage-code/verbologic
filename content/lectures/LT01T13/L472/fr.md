@@ -20,18 +20,18 @@ terms:
   ro: "O"
 ---
 
-## Le son de la lettre O
+## Son de la lettre o
 
-La lettre **O** correspond généralement à deux voyelles orales distinctes : le **o fermé** `/o/` et le **o ouvert** `/ɔ/`. Devant une consonne nasale finale, elle forme également la voyelle nasale `/ɔ̃/` comme dans **bon**. Dans le mot exemple **orange**, l'attaque commence par un son bref et ouvert `/ɔ/`.
+Le nom de la lettre s'articule (o) /o/. Elle donne principalement le son de voyelle ouverte /ɔ/, que l'on entend dans le mot (olive) /ɔ.liv/.
 
-## Comment la prononcer
+## Geste articulatoire
 
-Pour produire le `/o/` fermé, arrondissez fortement les lèvres en formant un petit cercle serré et placez l'arrière de la langue vers le haut. Pour le `/ɔ/` ouvert, ouvrez davantage la mâchoire tout en gardant les lèvres nettement projetées vers l'avant. Veillez à maintenir le son stable sans glisser vers une diphtongue de type anglaise.
+Pour le son ouvert, abaissez la mâchoire, bombez l'arrière de la langue et arrondissez les lèvres. Pour le son fermé, élevez davantage la langue et resserrez l'ouverture des lèvres en avant. Les cordes vocales vibrent dans les deux cas.
 
-## Orthographe et graphies
+## Règles de lecture
 
-Le son `/o/` fermé s'écrit souvent **o**, **ô** (**pôle**), mais aussi **au** (**chaud**) ou **eau** (**beau**). En fin de mot, un **o** suivi de consonnes muettes donne presque toujours `/o/` (**mot**, **dos**), alors qu'en syllabe fermée articulée, il se prononce le plus souvent `/ɔ/` (**porte**, **bol**).
+En syllabe fermée ou en début de mot devant une consonne, elle donne le son /ɔ/ ouvert dans (porte) /pɔʁt/. En fin de syllabe, devant le son z ou avec un accent circonflexe, elle produit le son /o/ fermé de (vélo) /ve.lo/ et (rose) /ʁoz/.
 
-## Nuances et pièges fréquents
+## Différencier les nuances
 
-Distinguez soigneusement la voyelle ouverte dans **pomme** `/pɔm/` de la voyelle fermée dans **paume** `/pom/`. L'erreur classique des apprenants étrangers consiste à diphtonguer ce son en `[oʊ]`, comme en anglais ou en portugais. En français standard, la voyelle reste rigoureusement pure et constante du début à la fin de l'émission sonore.
+L'erreur fréquente consiste à ouvrir la voyelle devant une consonne sonore. Veillez à bien maintenir un timbre fermé et net devant le son z, sans relâcher la tension des lèvres.

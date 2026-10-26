@@ -20,18 +20,18 @@ terms:
   ro: "N"
 ---
 
-## Az N betű hangzása
+## Az enne hangja
 
-Az **N** betű magánhangzó előtt a magyar „n” hanghoz hasonló `/n/` hangot jelöl, mint a « nuit » szóban. Szótag végén, magánhangzó után állva azonban nem önálló mássalhangzóként hangzik, hanem az előtte álló magánhangzót teszi nazálissá (orrhangúvá), mint a « pain » `/pɛ̃/` szóban. Ilyenkor a nyelv nem éri el a szájpadlást, a mássalhangzó teljesen beolvad a hangzásba.
+A francia (enne) /ɛn/ betű a legtöbbször a jól ismert /n/ hangot jelöli, mint a (nez) /ne/ szóban.
 
-## Hogyan ejtsük helyesen
+## Az enne kiejtése
 
-Az önálló `/n/` ejtésekor érintsd a nyelvhegyedet a felső fogínyhez a fogak mögött, elzárva a levegő útját a szájon át. Engedd, hogy a levegő az orrodon keresztül távozzon, miközben a hangszálaid rezegnek. A nazális magánhangzók végén ügyelj arra, hogy ne zárd le a nyelveddel a szájüreget.
+Érintsd a nyelved hegyét a felső fogmederhez, zárd el a levegő útját a szádban, és engedd ki az orrodon át, miközben rezegnek a hangszalagok.
 
-## Helyesírás és használat
+## Az enne írásmódjai
 
-Nagybetűs formája **N**, kisbetűs alakja **n**. A francia helyesírásban a « p », « b » és « m » betűk előtt szinte mindig « m »-re változik (pl. « emporter »). A kettőzött « nn » (mint az « année » szóban) szinte mindig tiszta `/n/` hangot jelöl, és megakadályozza az előtte lévő magánhangzó nazalizációját.
+Magánhangzó előtt a kiejtése a tiszta /n/ mássalhangzó, ahogy a (minute) /mi.nyt/ szó mutatja. Bizonyos szavakban, mint az m betű után a (condamner) /kɔ̃.da.ne/ szóban, vagy a (monsieur) /mə.sjø/ alakban, teljesen némán marad.
 
-## Különbségek és gyakori hibák
+## Az enne buktatói
 
-A magyar anyanyelvűek hajlamosak a szóvégi nazálisokat kemény „n”-nel lezárni, például a « bon » szót `/bon/`-nak ejteni `/bɔ̃/` helyett. Figyelj a kötésre (liaison) is: magánhangzóval kezdődő szó előtt a nazális után megjelenhet a tiszta `/n/`, mint az « un ami » `/œ̃.na.mi/` kifejezésben.
+A magyar anyanyelvűeknek ez a mássalhangzó pontosan olyan, mint a magyar nap szó elején hallható hang, így semmilyen nehézséget nem okoz.

@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## Az X betű kiejtése
+## Az iksz betű hangja
 
-A francia **X** betű többféleképpen hangozhat, leggyakrabban a magyarhoz hasonló `/ks/` kapcsolatként, mint a **taxi** szóban. Magánhangzó előtt álló *ex-* előtagban vagy görög eredetű szavak elején viszont zöngés `/gz/` hanggá válik, mint a **xylophone** (`/gzi.lɔ.fɔn/`) esetében. Néhány számnévben egyszerű `/s/` vagy `/z/` hangot jelöl, szó végén pedig többnyire teljesen néma.
+A betű neve (ixe) /iks/. Leggyakoribb kiejtése a zöngétlen /ks/ kapcsolathang, mint a (texte) /tɛkst/ szóban hallható.
 
-## A helyes képzés
+## Az iksz kiejtése
 
-A `/ks/` kiejtéséhez a nyelv hátulját érintse a lágy szájpadláshoz egy gyors `[k]` hangért, majd rögtön engedje át a levegőt a fogrésen egy sziszegő `[s]` képzéséhez. A `/gz/` kiejtése ugyanez a mozdulat, de a hangszalagok folyamatos rezgésével történik, ahogy a magyar *egzotikus* szóban ejtjük. Ügyeljen arra, hogy ne szúrjon be magánhangzót a két mássalhangzó közé.
+A /ks/ hangnál a nyelv hátulja elzárja a levegőt, majd hirtelen szisszen. A /ɡz/ hangnál ugyanez történik zöngével, rezgő hangszálakkal. A tiszta /s/ hangnál a nyelv hegye a felső fogmederhez közelít, és folyamatos lélegzet áramlik ki.
 
-## Helyesírási szabályok
+## Az iksz írásmódja
 
-Az **X** előfordulhat szó elején, közepén és végén is. A szavak végén a leggyakrabban a többes szám jele az *-au*, *-eau* és *-eu* végű szavaknál (például **châteaux**), ahol szigorúan néma marad. Ha azonban az ezt követő szó magánhangzóval kezdődik, a hangkötés (liaison) során a néma végződés zöngés `/z/` hangként kel életre.
+Mássalhangzó előtt vagy magánhangzó után a hangzás /ks/, mint a (taxi) /tak.si/ szóban. Az ex kezdetű szavakban magánhangzó előtt a kiejtés /ɡz/, mint az (examen) /ɛɡ.za.mɛ̃/ szóban. Bizonyos számnevekben /s/ hangot ad, például a (dix) /dis/ szóban. Szó végén rendszerint néma, mint a (paix) /pɛ/ szóban.
 
-## Gyakori tévesztések
+## Iksz a magyarhoz képest
 
-A leggyakoribb hiba a `/ks/` és `/gz/` összekeverése; ügyeljen arra, hogy az **exemple** szót `/ɛɡ.zɑ̃pl/`-nek és soha ne `*/ɛk.sɑ̃pl/*`-nek ejtse. Kerülje a szóvégi **X** kiejtését az olyan szavakban, mint a **prix** vagy **paix**. Ne feledje a rendhagyó számneveket sem: a **six** és **dix** önállóan tiszta `/s/` hanggal zárul (`/sis/`, `/dis/`).
+A magyar x kiejtése megegyezik a francia /ks/ hanggal, mint a taxi szóban. Arra ügyelj, hogy a szóvégi néma változatot ne ejtsd ki megszokásból magyaros x hangként.

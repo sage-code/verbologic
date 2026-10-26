@@ -20,18 +20,18 @@ terms:
   ro: "O"
 ---
 
-## El sonido de la letra O
+## Sonido de la letra o
 
-En francés, la letra **O** no tiene un único sonido como en español, sino que se divide en **O cerrada** `/o/` y **O abierta** `/ɔ/`. La cerrada es similar a la «o» española pero con los labios mucho más proyectados y redondeados. La abierta `/ɔ/`, como en **orange**, no existe en español y se articula abriendo más la mandíbula, a medio camino entre la «o» y la «a».
+El nombre de la letra se pronuncia (o) /o/. Produce sobre todo el sonido de o abierta /ɔ/, como en la palabra (olive) /ɔ.liv/.
 
-## Posición de la boca y articulación
+## Cómo se pronuncia
 
-Para articular `/o/` cerrada, redondee los labios en un círculo estrecho y manténgalos firmes mientras eleva el dorso de la lengua hacia atrás. Para `/ɔ/` abierta, baje la mandíbula inferior ensanchando la apertura de la boca sin estirar los labios hacia los lados. Asegúrese de mantener un sonido monoptongado y constante.
+Para la variante abierta baja la mandíbula, redondea los labios y retira la lengua hacia atrás. Para la variante cerrada sube la lengua y junta más los labios en un círculo pequeño. Las cuerdas vocales siempre vibran.
 
-## Patrones de ortografía
+## Reglas de ortografía
 
-La **O** se pronuncia cerrada `/o/` a final de palabra (**moto**), ante el sonido `/z/` (**rose**) y con acento circunflejo (**bientôt**). Suele pronunciarse abierta `/ɔ/` en sílabas cerradas por una consonante pronunciada, especialmente ante `r` (**orange**, **fort**). El dígrafo **oi** cambia completamente el sonido a `/wa/` (**trois**).
+En sílaba cerrada o al principio ante consonante única suena como la o abierta /ɔ/ de (porte) /pɔʁt/. A final de sílaba, ante el sonido z o con acento circunflejo suena como la o cerrada /o/ de (vélo) /ve.lo/ y (rose) /ʁoz/.
 
-## Diferencias y errores comunes
+## Comparación con el español
 
-Compare la vocal cerrada en **dos** `/do/` con la abierta en **dot** `/dɔt/`. El error más común entre hispanohablantes es usar siempre su «o» intermedia nativa para ambos casos, ignorando la diferencia acústica. Preste especial atención a abrir bien la boca en palabras como **porte** y **orange** para lograr una pronunciación natural.
+El español solo tiene un sonido intermedio como en pozo. Debes abrir más la boca para la variante abierta y cerrarla con fuerza redondeando los labios para la cerrada, sin sustituirlas por tu vocal única.

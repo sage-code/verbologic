@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## Sunetul literei A
+## Sunetul literei a
 
-În limba franceză standard, litera **A** reprezintă de regulă o vocală deschisă anterioară nerotunjită, notată prin `/a/`. Sunetul este extrem de apropiat de **a**-ul curat și clar din limba română (ca în *casă*), având o rezonanță luminoasă și deschisă. În pronunția tradițională există și o variantă posterioară mai profundă, `/ɑ/`, întâlnită în cuvinte cu accent circumflex precum **pâte**.
+Numele acestei litere este (a) /a/. În mod obișnuit redă sunetul /a/, ca în cuvântul (ami) /a.mi/.
 
-## Cum se pronunță
+## Pronunția literei a
 
-Coborâți maxilarul relaxat și deschideți gura la fel ca pentru un **a** românesc. Atingeți ușor cu vârful limbii baza dinților incisivi inferiori, păstrând limba destul de plată pe fundul cavității bucale. Lăsați buzele complet neutre și emiteți un sunet stabil, fără a schimba poziția aparatului fonator pe durata rostirii.
+Pentru varianta din față, coboară maxilarul și lasă limba relaxată, plată pe fundul gurii. Pentru varianta din spate, retrage ușor limba spre gât și rotunjește foarte puțin buzele.
 
-## Particularități ortografice
+## Ortografia literei a
 
-Litera **A** poate apărea singură sau marcată cu accente grafice precum **à** (în *là*, *à*) ori **â** (în *château*). În combinații specifice de vocale precum **ai** sau **au**, ea nu se mai pronunță independent, transformându-se în sunete precum `/ɛ/` sau `/o/`. Când este urmată de o singură consoană **n** sau **m** în aceeași silabă, formează vocala nazală `/ɑ̃/`.
+În poziție obișnuită sau cu accent grav, produce sunetul /a/, ca în (là) /la/. Când poartă accent circumflex, produce sunetul /ɑ/, adică o variantă mai profundă rostită în spatele gurii, ca în (pâte) /pɑt/ sau (âne) /ɑn/.
 
-## Diferențe și greșeli frecvente
+## Greșeli frecvente
 
-Vorbitorii de limbă română pronunță în general foarte bine această vocală datorită similarității native. Principala capcană este tendința de a citi grupurile vocalice literă cu literă; de exemplu, în cuvinte ca *eau* sau *aimer*, **a** nu se rostește ca un sunet individual. De asemenea, asigurați-vă că nu scurtați excesiv vocala când se află la final de cuvânt.
+Vorbitorii de română pronunță foarte ușor această literă. Sunetul de bază este identic cu cel din cuvântul românesc apă. Ai grijă doar să nu îl transformi într-un sunet închis la sfârșit de cuvânt.

@@ -20,18 +20,18 @@ terms:
   ro: "O"
 ---
 
-## Il suono della lettera O
+## Suono della lettera o
 
-La lettera **O** in francese corrisponde a due fonemi principali: la O chiusa `/o/` e la O aperta `/ɔ/`. Questi suoni sono praticamente identici alle vocali chiuse e aperte dell'italiano standard, come in «botte» (recipiente) e «botte» (percosse). In parole come **orange**, la vocale si pronuncia aperta `/ɔ/`.
+Il nome della lettera si pronuncia (o) /o/. Rappresenta principalmente il suono vocalico aperto /ɔ/, come nella parola (olive) /ɔ.liv/.
 
-## Come posizionare la bocca
+## Come si pronuncia
 
-Per la O chiusa `/o/`, arrotondate bene le labbra spingendole leggermente in avanti con un'apertura piccola e la lingua arretrata. Per la O aperta `/ɔ/`, aprite maggiormente la bocca abbassando la mandibola, mantenendo le labbra rilassate ma a forma di ovale. Il suono deve rimanere stabile e puro, senza scivolare verso una semivocale.
+Per il suono aperto abbassa la mascella, arrotonda le labbra e ritrai la lingua. Per il suono chiuso solleva di più il dorso della lingua e spingi le labbra in avanti con un cerchio più stretto. Entrambi fanno vibrare le corde vocali.
 
-## Grafia e contesti d'uso
+## Grafia e combinazioni
 
-La **O** è chiusa `/o/` quando si trova a fine parola (**vélo**), prima del suono `/z/` (**rose**) o quando porta l'accento circonflesso (**côte**). Si pronuncia aperta `/ɔ/` nella maggior parte delle sillabe chiuse da consonante, in particolare davanti alla `r` (**porte**). In combinazione con la **i** forma il digramma **oi**, letto `/wa/`.
+Nelle sillabe chiuse o a inizio parola davanti a consonante singola si pronuncia come suono /ɔ/ aperto, per esempio in (porte) /pɔʁt/. Alla fine di una sillaba, prima del suono z o con accento circonflesso diventa il suono /o/ chiuso di (vélo) /ve.lo/ o (rose) /ʁoz/.
 
-## Confronto ed errori comuni
+## Confronto con l'italiano
 
-Osservate la differenza netta tra **peau** `/po/` (chiusa) e **pomme** `/pɔm/` (aperta). Gli italofoni tendono a gestire bene l'alternanza tra aperta e chiusa, ma possono sbagliare la distribuzione delle regole francesi, ad esempio aprendo la vocale in finale di parola dove invece deve essere rigorosamente chiusa.
+I due timbri corrispondono esattamente a quelli della o aperta di notte e della o chiusa di voce. Non confondere l'apertura prima del suono sonoro di rosa, che in francese richiede sempre una pronuncia chiusa.

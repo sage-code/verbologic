@@ -20,18 +20,18 @@ terms:
   ro: "S"
 ---
 
-## The Sound of S
+## Letter esse
 
-The letter **S** most often represents the voiceless alveolar fricative `/s/`, exactly like the *s* in English *sun*. However, when placed between two vowels, it softens into a voiced `/z/`, sounding like the *z* in *zero*. At the ends of most French words, such as plural nouns and verb endings, it is completely silent.
+The letter (esse) /ɛs/ most often makes the sound /s/, as in the word (sac) /sak/.
 
-## How to Pronounce It
+## Pronouncing the letter
 
-For `/s/`, place the tip of your tongue near the alveolar ridge behind your upper teeth without touching it, letting air hiss out smoothly while keeping your vocal cords completely still. To make the voiced `/z/` variant between vowels, maintain the exact same mouth position while engaging your vocal cords to create a buzz. Keep your lips relaxed and slightly spread.
+For the voiceless sound, place your tongue tip near your upper teeth and release air without vocal cord vibration. For the voiced variant, keep the exact same tongue position and vibrate your vocal cords.
 
-## Spelling Patterns
+## Reading rules
 
-A single **s** at the beginning of a word (*sac*) or adjacent to a consonant (*valse*) is pronounced `/s/`. Between two vowels, a single **s** is always voiced as `/z/` (*poison*), whereas a double **ss** preserves the voiceless `/s/` sound (*poisson*). At the end of words, final **s** is usually silent unless followed by a vowel in liaison, where it bridges across as `/z/` (*les amis*).
+Next to a consonant or at word start, pronounce the sound /s/, as in (poste) /pɔst/. Between two vowels, it sounds as /z/, seen in (rose) /ʁoz/. At the end of many words, it is completely silent, as in (bras) /bʁa/.
 
-## Watch Out for Traps
+## Pitfalls to avoid
 
-The classic trap for English speakers is confusing single **s** and double **ss** between vowels, which completely changes meanings like *poisson* (fish, `/s/`) and *poison* (poison, `/z/`). Another common error is attempting to pronounce word-final **s** in plurals like *chats* or verb forms like *parles*. Remember to keep word endings silent unless an explicit liaison calls for a voiced `/z/`.
+English speakers often voice this letter at the beginning of words. Keep it strictly voiceless, exactly like the hissing sound in the word see, never letting it slip into a buzz.

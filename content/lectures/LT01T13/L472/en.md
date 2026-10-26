@@ -20,18 +20,18 @@ terms:
   ro: "O"
 ---
 
-## The Sound of O
+## Sound of letter O
 
-The French letter **O** generally represents two main vowel sounds: the open back rounded vowel `/ɔ/` (as in *orange*) and the close-mid back rounded vowel `/o/` (as in *mot*). Unlike English 'o', which frequently glides into an 'oh-oo' diphthong, both French varieties are strictly pure, steady monophthongs. Never add a trailing glide at the end of French vowels.
+The letter is named (o) /o/. It usually produces the open sound /ɔ/, heard in the word (olive) /ɔ.liv/.
 
-## How to Pronounce It
+## How to say it
 
-For the open `/ɔ/` heard in *orange*, drop your jaw slightly while rounding your lips into a wide, relaxed circle and pulling your tongue backward. For the closed `/o/`, round your lips much more tightly and purse them forward as if blowing out a candle. Keep your tongue stable throughout the entire duration of the sound to avoid diphthongising.
+Round your lips and pull your tongue back. For the closed sound, keep the jaw fairly high. For the open sound, drop your jaw further down while your vocal cords vibrate.
 
-## Spelling and Patterns
+## Spelling and sounds
 
-The letter **O** regularly yields `/ɔ/` in closed syllables ending with a pronounced consonant (like *porte*) and `/o/` when final (written as *o*, *ot*, or *os*) or before `/z/`. It also appears with a circumflex as **Ô**, which always signals the closed sound `/o/` (as in *hôtel*). Additionally, **O** forms major compound spellings such as **OU** for `/u/` and **OI** for `/wa/`.
+In most closed syllables or at the beginning before a single consonant, it sounds as open /ɔ/ in (porte) /pɔʁt/. At the end of a word or syllable, and before the consonant /z/, it is pronounced as closed /o/ in (vélo) /ve.lo/ or (rose) /ʁoz/.
 
-## Comparing Variations and Pitfalls
+## Mistakes to avoid
 
-Notice the difference between the open vowel in *pomme* (`/pɔm/`) and the closed vowel in *paume* (`/pom/`) or *rose* (`/ʁoz/`). English speakers frequently substitute their native diphthong [oʊ] for closed `/o/` or reduce unstressed occurrences to a neutral schwa [ə]. Always maintain tense, fully rounded lips and clear, crisp vowel quality in every syllable.
+Do not turn closed O into an English diphthong as heard in boat. Keep your lips still throughout the whole vowel. For open O, avoid the neutral sound of British lot or American father.
