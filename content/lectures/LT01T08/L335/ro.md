@@ -20,18 +20,18 @@ terms:
   ro: "cl in clock (ceas)"
 ---
 
-## Sunetul grupului 'cl'
+## Sunetul grupului cl
 
-Grupul consonantic **cl** se pronunță `/kl/`, combinând sunetele românești [c] dur (ca în *cald*) și [l]. În limba engleză, la începutul cuvintelor accentuate, `/l/` își pierde parțial sonoritatea din cauza expulziei puternice de aer a sunetului `/k/`. Sunetul este foarte similar cu cel din cuvinte românești precum *clar* sau *clopot*.
+Grupul de litere se rostește /kl/. Sunetul său de bază este /kl/, ca în cuvântul (clap) /klæp/.
 
-## Cum se pronunță
+## Pronunția grupului cl
 
-Atingeți partea din spate a limbii de vălul palatului moale pentru a bloca fluxul de aer necesar emiterii lui `/k/`. În momentul eliberării acestei mici explozii de aer, așezați rapid vârful limbii pe alveolele dinților de sus pentru a rosti sunetul `/l/`. Asigurați-vă că nu introduceți nicio pauză sau o vocală scurtă între cele două consoane.
+Lipește spatele limbii de vălul palatului pentru a elibera aerul fără voce. Apoi atinge gingia dinților de sus cu vârful limbii și lasă aerul să iasă pe margini, activând corzile vocale.
 
-## Ortografie și tipare
+## Ortografia grupului cl
 
-Secvența este scrisă ca **cl** la începutul și în interiorul cuvintelor, cum ar fi în *clean*, *clever* și *include*. La finalul cuvintelor, același grup de sunete apare frecvent sub forma literei compuse **-cle**, ca în *uncle* sau *miracle*. În aceste terminații, sunetul funcționează de obicei ca o silabă de sine stătătoare.
+Grupul se rostește întotdeauna /kl/ în toate pozițiile unui cuvânt, așa cum apare în (club) /klʌb/.
 
-## Diferențe și capcane
+## Comparație cu limba română
 
-O greșeală comună a vorbitorilor nativi de română este tendința de a adăuga un mic sunet de sprijin `/ə/` între consoane sau de a înmuia excesiv sunetul `/l/`. De asemenea, la final de cuvânt, în cuvinte precum *bottle* sau *cycle*, nu încercați să citiți litera **e** finală. Trecerea de la consoana ocluzivă direct la lichidă trebuie să fie curată și fermă.
+Pronunția este identică cu secvența din limba română din cuvântul clar. Nu există dificultăți reale pentru vorbitorii de română.

@@ -20,18 +20,18 @@ terms:
   ro: "ch"
 ---
 
-## Sunetul CH
+## Sunetul grupului ch
 
-Digraful **ch** reprezintă cel mai frecvent africata postalveolară surdă `/tʃ/`, similară cu **ce** sau **ci** din limba română (ca în *ceai* sau *cireșe*). Spre deosebire de română, unde litera **h** transformă grupul într-un sunet tare (cum este *ch* în *chemare*), în engleză **ch** redă de obicei un sunet moale de tipul *ci*. Totuși, în cuvinte de origine greacă poate suna ca `/k/`, iar în împrumuturi franceze ca `/ʃ/` (**ș**).
+Grupul ch se citește de obicei prin sunetul /tʃ/, ca în cuvântul (chin) /tʃɪn/. Numele său uzual redă același sunet /tʃ/.
 
-## Cum se pronunță
+## Pronunțarea sunetelor
 
-Atingeți marginea anterioară a limbii de cerul gurii, chiar în spatele dinților de sus, pentru a bloca scurt fluxul de aer ca pentru un `/t/`. Eliberați apoi brusc presiunea lăsând aerul să iasă șuierat printr-un canal îngust, fără a vibra deloc corzile vocale. Asigurați-vă că buzele sunt ușor rotunjite și împinse în față pentru un sunet clar și curat.
+Pentru sunetul /tʃ/, atinge cerul gurii cu vârful limbii și eliberează aerul cu o fricțiune surdă. Pentru sunetul /k/, blochează aerul cu spatele limbii. Pentru sunetul /ʃ/, rotunjește buzele și lasă aerul să treacă continuu.
 
-## Ortografie și tipare
+## Reguli de pronunțare
 
-Grupul **ch** apare la începutul, mijlocul sau sfârșitul cuvintelor native englezești, cum ar fi *chin* sau *peach*. După vocale scurte, sunetul este ortografiat frecvent ca **tch**, ca în *watch* sau *kitchen*. Când provine din greaca veche, **ch** se citește aproape întotdeauna ca un simplu `/k/` dur, de exemplu în *chaos* sau *architect*.
+În majoritatea cuvintelor native englezești, acest grup redă sunetul /tʃ/, ca în (rich) /rɪtʃ/. În cuvintele de origine greacă, se aude sunetul /k/, ca în (echo) /ɛk.oʊ/ sau (school) /skuːl/. În împrumuturile recente din franceză, grupul sună /ʃ/, ca în (chef) /ʃɛf/ sau (machine) /mə.ʃiːn/.
 
-## Comparații și erori frecvente
+## Capcane frecvente
 
-Comparați sunetul `/tʃ/` din *cheap* cu `/ʃ/` din *sheep* și cu `/k/` din *chemist*. O greșeală des întâlnită la vorbitorii de română este tendința de a pronunța **ch** ca un `/k/` românesc din cauza obișnuinței cu regulile de scriere din limba maternă. De asemenea, evitați să confundați ocluziva africată `/tʃ/` cu fricativa simplă `/ʃ/`, păstrând blocajul inițial bine definit.
+Sunetele seamănă cu cele din română: sunetul /tʃ/ este cel din cuvântul cer, sunetul /k/ din cal, iar sunetul /ʃ/ din șir. Singura dificultate constă în originea cuvântului, care schimbă pronunția.

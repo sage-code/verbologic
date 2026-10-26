@@ -20,18 +20,18 @@ terms:
   ro: "bl in blue (albastru)"
 ---
 
-## Sunetul grupului BL
+## Sunetul grupului bl
 
-Grupul consonantic **bl** unește o consoană oclusivă bilabială sonoră `/b/` direct cu o consoană laterală `/l/`. În limba engleză, acest grup seamănă izbitor cu secvența românească din cuvinte precum **bluză** sau **alb**. Trecerea dintre cele două sunete trebuie să fie fluidă, fără pauze sau vocale parazite.
+Grupul se rostește /bl/. Sunetul său de bază se aude în cuvântul (black) /blæk/.
 
 ## Cum se pronunță
 
-Apropiați ambele buze ferm pentru a bloca fluxul de aer necesar sunetului `/b/`. În momentul deschiderii buzelor, ridicați imediat vârful limbii spre cerul gurii, chiar în spatele dinților de sus, pentru a rosti `/l/`. Asigurați-vă că corzile vocale vibrează continuu de la începutul până la sfârșitul combinației.
+Atinge buzele pentru a opri aerul, apoi deschide-le brusc cu voce. Ridică imediat vârful limbii spre cerul gurii, lăsând aerul sonor să iasă pe laterale.
 
-## Particularități de scriere
+## Reguli de citire
 
-Secvența **bl** apare frecvent la începutul cuvintelor englezești precum **black**, **blood** sau **blow**. La finalul cuvintelor, apare de obicei sub forma terminației `-ble`, ca în **simple** sau **table**, unde adesea formează o silabă de sine stătătoare. Se scrie cu majusculă inițială doar la început de propoziție sau în substantive proprii precum **Blake**.
+La începutul sau la finalul unei silabe, acest grup redă secvența /bl/, ca în cuvântul (blue) /blu/.
 
-## Dificultăți și greșeli comune
+## Capcane de pronunție
 
-Vorbitorii de română tind uneori să pronunțe sunetul `/l/` mult prea dur sau să despartă artificial cele două consoane. Evitați să adăugați un sunet scurt de tip „î” între `/b/` și `/l/`, transformând **blue** în *bă-lu*. Asigurați-vă de asemenea că `/b/` rămâne complet sonor și nu devine un sunet surd apropiat de `/p/`.
+Pronunția este foarte apropiată de secvența din limba română din cuvântul bloc. Ai grijă doar să nu separi consoanele cu o vocală parazită.

@@ -20,18 +20,18 @@ terms:
   ro: "F"
 ---
 
-## Sunetul literei F
+## Sunetul literei ef
 
-Litera **F** reprezintă consoana fricativă labiodentală surdă `/f/`, identică cu sunetul literei **F** din limba română (ca în **familie**). Este un sunet format exclusiv din fricțiunea aerului, fără vibrația corzilor vocale. În marea majoritate a cuvintelor englezești, litera **F** își păstrează această valoare fonetică stabilă.
+Numele acestei litere este (F) /ef/. Sunetul său principal este sunetul /f/, pe care îl auzi în cuvântul (fish) /fɪʃ/.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Atingeți ușor buza inferioară cu dinții de sus. Suflați aer prin spațiul îngust dintre dinți și buză, generând un sunet distinct de frecare. Asigurați-vă că nu folosiți vocea în timpul expirării, menținând sunetul complet surd.
+Pentru sunetul surd, atinge dinții de sus de buza de jos și suflă aer fără voce. Pentru varianta sonoră, păstrează exact aceeași poziție a gurii, dar activează corzile vocale.
 
-## Ortografie și reguli
+## Reguli de citire
 
-Litera **F** poate fi găsită la începutul, mijlocul sau sfârșitul cuvintelor, cum ar fi în **fun**, **after** sau **leaf**. După o vocală scurtă, este foarte frecvent dublată în forma **-ff**, de exemplu în **cliff** sau **off**. În cuvântul extrem de frecvent **of**, litera are o pronunție excepțională.
+În marea majoritate a pozițiilor, această literă redă sunetul /f/, ca în cuvântul (fast) /fæst/. În prepoziția (of) /əv/, ea se pronunță prin sunetul /v/.
 
-## Comparații și variații
+## Capcane frecvente
 
-Deși litera **F** se citește aproape mereu `/f/`, în prepoziția **of** se pronunță neașteptat ca `/v/` sonor. Vorbitorii de română nu au de obicei dificultăți cu articularea literei, dar trebuie să evite citirea cuvântului **of** ca **off**. Păstrați dinții ferm sprijiniți pe buză pentru un sunet clar și curat.
+Sunetul principal este identic cu cel din limba română din cuvântul floare. Singura capcană este prepoziția scurtă, unde vorbitorii români tind greșit să pronunțe consoana surdă în loc de cea sonoră.

@@ -20,18 +20,18 @@ terms:
   ro: "S"
 ---
 
-## Sunetul lui S pronunțat /z/
+## Sunetul literei es
 
-În această poziție, litera **S** redă consoana fricativă alveolară sonoră `/z/`. Acest sunet este perfect echivalent cu cel al literei **Z** din limba română, ca în cuvântul *zar*. Diferența principală față de `/s/` este prezența vibrației corzilor vocale.
+Numele acestei litere se rostește (S) /z/. Sunetul ei principal este /s/, ca în cuvântul (sun) /sʌn/.
 
 ## Cum se pronunță
 
-Apropiați vârful limbii de alveolele dinților superiori, lăsând doar o deschizătură foarte îngustă. Suflați aer prin acest canal strâns pentru a produce un șuierat continuu. Activați concomitent corzile vocale pentru a transforma șuieratul într-un zumzet puternic.
+Apropie dinții și pune vârful limbii în spatele dinților de sus. Suflă aer continuu pe mijlocul limbii, fără vibrația corzilor vocale pentru /s/ sau cu vibrație pentru /z/. Pentru /ʃ/, rotunjește buzele și retrage limba.
 
-## Particularități de scriere
+## Reguli de pronunție
 
-Litera **S** se pronunță adesea `/z/` când se află între două vocale, ca în *rose* sau *easy*. De asemenea, apare la terminațiile de plural sau la persoana a III-a singular după sunete sonore, de exemplu în *beds* sau *plays*. La începutul cuvintelor native englezești, **S** nu se citește niciodată ca `/z/`.
+După consoane fără voce, se aude sunetul /s/, ca în (cats) /kæts/. Între vocale sau după sunete sonore, dă sunetul /z/, ca în (busy) /bɪ.zi/ ori (dogs) /dɒɡz/. Înainte de vocale neaccentuate precum u, produce sunetul /ʃ/, ca în (sugar) /ʃʊɡ.ə/. În anumite împrumuturi nu se rostește deloc, ca în (island) /aɪ.lənd/.
 
 ## Capcane frecvente
 
-Vorbitorii de limba română au tendința de a citi litera **S** ca un `/s/` surd peste tot unde o văd scrisă. O greșeală comună este pronunțarea cuvintelor *rose* sau *because* cu `/s/` în loc de `/z/`. Rețineți că în engleză sonorizarea intervocalică a literei **S** este extrem de frecventă.
+Vorbitorii de română tind să citească sunetul /s/ acolo unde engleza cere sonorul /z/, în special la finalul cuvintelor după consoane sonore. Pronunță clar sunetul zârnitor din română, similar cu cel din cuvântul zaruri.

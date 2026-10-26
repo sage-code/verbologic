@@ -20,18 +20,18 @@ terms:
   ro: "G"
 ---
 
-## Sunetul literei G
+## Sunetul literei ge
 
-Litera **G** redă două sunete principale: sunetul 'dur' `/ɡ/` (exact ca în româneștile **gard** sau **gol**) și sunetul 'moale' `/dʒ/` (identic cu **geam** sau **ger**). În cuvântul **go**, vorbim despre varianta dură `/ɡ/`. Spre deosebire de română, la final de cuvânt sunetul englezesc `/ɡ/` trebuie să rămână sonor și să nu devină `/k/`.
+Numele acestei litere este (G) /g/. Sunetul său principal este sunetul /ɡ/, la fel ca în cuvântul (gas) /ɡæs/.
 
-## Cum se pronunță
+## Pronunția literei ge
 
-Pentru a rosti `/ɡ/`, ridică partea din spate a limbii până când atinge vălul palatului moale, blocând complet trecerea aerului. Eliberează brusc blocajul făcând în același timp corzile vocale să vibreze. Menține buzele relaxate și lasă sunetul să rezoneze adânc în gât.
+Pentru sunetul /ɡ/, atinge cerul gurii cu spatele limbii și eliberează aerul cu vibrația corzilor vocale. Pentru sunetul /dʒ/, lipește vârful limbii în spatele dinților de sus și desprinde-l treptat. Pentru sunetul /ʒ/, rotunjește buzele și lasă aerul sonor să treacă continuu.
 
-## Reguli de ortografie
+## Ortografia literei ge
 
-În general, **G** se pronunță dur `/ɡ/` înaintea literelor **a**, **o**, **u** sau a consoanelor, și moale `/dʒ/` înaintea lui **e**, **i** și **y**. Totuși, există excepții importante de origine germanică unde **g** rămâne dur înaintea lui **e** sau **i**, cum ar fi **girl** și **get**. Grupul **gn** conține adesea un **g** mut, ca în **design**.
+Înaintea literelor a, o, u sau a consoanelor, litera redă sunetul /ɡ/, ca în (gold) /ɡoʊld/. Înaintea literelor e, i sau y, redă adesea sunetul /dʒ/, ca în (gem) /dʒɛm/. În împrumuturi din franceză auzi sunetul /ʒ/, ca în (genre) /ʒɑn.rə/. Înaintea literei n, la începutul sau sfârșitul rădăcinii, litera nu se pronunță deloc, ca în (sign) /saɪn/.
 
-## Atenție la confuzii
+## Diferențe față de română
 
-Cea mai frecventă greșeală a vorbitorilor de română este aplicarea regulilor fonetice românești asupra excepțiilor englezești, pronunțând greșit cuvinte precum **give** sau **gift**. De asemenea, evitați să asurziți consoana la sfârșitul cuvintelor precum **big** sau **dog**, pronunțându-le incorect ca **bik** sau **dok**. Păstrați vibrația laringiană până la capăt.
+În limba română nu există litere mute la început sau sfârșit de cuvânt. Nu citi litera înainte de n. În plus, sunetul /dʒ/ din engleză este mai apăsat decât cel din cuvintele românești ger sau gir.

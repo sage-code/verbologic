@@ -20,18 +20,18 @@ terms:
   ro: "oo in book (carte), moon (lună)"
 ---
 
-## Sunetele grupului 'OO'
+## Sunetul grupului oo
 
-Digraful **oo** redă în principal două vocale distincte: vocala lungă și închisă `/uː/` ca în *moon*, și vocala scurtă și relaxată `/ʊ/` ca în *book*. În timp ce `/uː/` seamănă cu 'u'-ul românesc rostit mai lung, sunetul `/ʊ/` este mult mai deschis și mai leneș, neavând un echivalent direct în limba română. În mod excepțional, combinația se poate auzi și ca `/ʌ/` în *blood* sau `/ɔː/` în *door*.
+Acest grup de litere se numește /ʊ/ or /uː/. Sunetul său principal este /uː/, adică un u lung, ca în cuvântul (moon) /muːn/.
 
-## Cum se pronunță corect
+## Pronunția sunetelor
 
-Pentru sunetul lung `/uː/`, rotunjiți buzele strâns într-un cerc mic și ridicați partea din spate a limbii spre cerul gurii. Pentru sunetul scurt `/ʊ/`, lăsați buzele doar ușor rotunjite și relaxați complet maxilarul și limba. Nu încercați să pronunțați un 'u' românesc tensionat atunci când citiți cuvinte scurte precum *good*.
+Pentru sunetul lung, rotunjește buzele strâns și ține limba retrasă în spate. Pentru sunetul scurt, lasă buzele mai relaxate. Pentru sunetul central, deschide gura puțin și relaxează limba. Pentru sunetul deschis din spate, rotunjește buzele larg.
 
-## Reguli de scriere și context
+## Reguli de citire
 
-Grupul **oo** apare de obicei în interiorul cuvintelor native de bază și este foarte predictibil în fața literei 'k', unde se pronunță aproape întotdeauna `/ʊ/` (*cook*, *book*). În fața majorității celorlalte consoane, cum ar fi 'n' sau 't', el produce adesea sunetul lung `/uː/` (*soon*, *boot*). Rețineți câteva excepții majore de la aceste reguli, cum ar fi *blood* și *flood*, unde vocala devine `/ʌ/`.
+De regulă, înainte de consoane ca n sau l, grupul se rostește /uː/, un u lung, ca în (cool) /kuːl/. Înainte de k sau d, se aude sunetul /ʊ/, adică un u scurt, ca în (book) /bʊk/. Ca excepție, produce sunetul /ʌ/ în (blood) /blʌd/. Înainte de r sună /ɔː/, ca în (door) /dɔː/.
 
-## Diferențe și capcane frecvente
+## Capcane de pronunție
 
-Comparați perechi precum *pool* `/puːl/` (piscină) și *pull* `/pʊl/` (a trage), unde diferența de lungime și relaxare schimbă complet sensul. Vorbitorii de română tind adesea să pronunțe ambele sunete identic, folosind 'u'-ul românesc standard în cuvinte precum *look*, ceea ce sună străin. Exersați trecerea de la sunetul închis și lung din *food* la cel scurt și relaxat din *foot*.
+Vorbitorii de limbă română tind să folosească mereu sunetul lor obișnuit din cuvântul lună. Diferențiază clar vocala scurtă și relaxată de cea lungă și tensionată, altfel cuvintele își pot schimba sensul.

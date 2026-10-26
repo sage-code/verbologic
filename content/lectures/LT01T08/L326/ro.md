@@ -20,18 +20,18 @@ terms:
   ro: "oi in coin (monedă)"
 ---
 
-## Sunetul grupului 'oi'
+## Sunetul grupului oi
 
-Grupul de litere **oi** redă diftongul `/ɔɪ/`, identic cu 'oy' din *boy*. Seamănă destul de bine cu diftongul românesc din cuvântul *doi*, însă primul element este ceva mai deschis și mai posterior. Sunetul curge lin de la o vocală deschisă rotunjită spre un sunet apropiat de *i*.
+Acest grup se pronunță de regulă ca diftongul /ɔɪ/. Îl auzi în cuvântul (oil) /ɔɪl/.
 
-## Cum se pronunță
+## Pronunțarea sunetelor
 
-Pornește cu buzele ușor rotunjite și maxilarul coborât, poziționând limba jos și în spate pentru a produce sunetul inițial `/ɔ/`. Fără pauză, ridică limba în sus și înainte către cerul gurii, relaxând buzele într-o poziție neutră. Totul trebuie realizat printr-o singură mișcare continuă.
+Pentru diftong, pornește cu buzele rotunjite și limba jos în spate, apoi glisează spre un sunet scurt cu buzele relaxate. Pentru celălalt sunet, rotunjește scurt buzele ca pentru u, apoi deschide larg gura cu limba coborâtă.
 
-## Reguli de scriere
+## Reguli de citire
 
-În limba engleză, **oi** se întâlnește aproape exclusiv la **începutul** sau la **mijlocul** cuvintelor, cum ar fi în *oil*, *coin* sau *point*. Când același sunet apare la sfârșitul unui cuvânt de bază, engleza preferă aproape întotdeauna grafia **oy** (ca în *boy* sau *enjoy*).
+În cele mai multe cuvinte, grupul se rostește /ɔɪ/, ca în (coin) /kɔɪn/. În cuvintele de origine franceză, se pronunță /wɑː/, de exemplu în (memoir) /mɛm.wɑː/.
 
-## Diferențe și capcane
+## Capcane frecvente
 
-Pronunția acestui grup este remarcabil de constantă în engleza standard și rareori prezintă excepții. Principala greșeală a vorbitorilor nativi de română este pronunțarea unui *o* prea închis și tensionat sau articularea celor două vocale în silabe separate.
+Nu pronunța sunetele separat ca în limba română. Asigură o trecere lină între vocale pentru diftong și nu scurta vocala finală din împrumuturile franceze.

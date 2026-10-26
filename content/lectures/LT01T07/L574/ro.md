@@ -20,18 +20,18 @@ terms:
   ro: "V"
 ---
 
-## Sunetul literei V
+## Sunetul literei vi
 
-Litera **V** redă consoana fricativă labiodentală sonoră `/v/`. Acest sunet este practic identic cu litera **v** din limba română, regăsită în cuvinte precum *voce* sau *vară*. Este perechea sonoră a lui `/f/`, necesitând vibrația clară a corzilor vocale.
+Litera se numește (V) /viː/. Ea redă sunetul /v/, ca în cuvântul (van) /væn/.
 
-## Cum se pronunță
+## Pronunția sunetului vi
 
-Așază dinții incisivi superiori ușor pe marginea interioară a buzei inferioare. Suflă aer prin spațiul îngust format, lăsând corzile vocale să vibreze pentru a produce un zumzet continuu. Nu rotunji ambele buze, altfel vei obține accidental sunetul englezesc `/w/`.
+Atinge ușor dinții de sus de buza de jos. Suflă aerul printre ei în timp ce îți folosești corzile vocale, producând o vibrație continuă.
 
-## Particularități de scriere
+## Reguli de citire
 
-În limba engleză, **V** are o pronunție foarte stabilă și regulată. O regulă ortografică esențială este că termenii nativi englezești nu se termină niciodată în litera **V** simplă, ci primesc un **E** mut final, ca în *live*, *save* sau *move*. Dublarea literei este extrem de rară, apărând doar în câteva împrumuturi sau cuvinte colocviale.
+În aproape toate pozițiile, litera se pronunță ca sunetul /v/, de exemplu în cuvântul (river) /rɪv.ər/.
 
-## Comparații și capcane frecvente
+## Diferențe față de română
 
-Cea mai mare capcană pentru vorbitorii de română nu este pronunția lui `/v/`, ci tendința de a-l confunda cu sunetul `/w/` în cuvinte înrudite. Asigură-te că atingi buza de jos cu dinții pentru *vine* (`/vaɪn/`), dar rotunjești buzele fără contact dentar pentru *wine* (`/waɪn/`). Evită de asemenea asurzirea lui la final de silabă în stil slav.
+Nu există capcane reale pentru vorbitorii de limba română. Sunetul este identic cu cel din cuvintele românești vară sau vis.

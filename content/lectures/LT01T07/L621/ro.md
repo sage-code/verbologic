@@ -20,18 +20,18 @@ terms:
   ro: "ng"
 ---
 
-## Sunetul grupului NG
+## Sunetul grupului ng
 
-Digraful **ng** redă consoana nazală velară `/ŋ/`. Spre deosebire de limba română, unde 'n' se pronunță de obicei pe dinți sau alveole, `/ŋ/` este articulat mult mai în spate, pe cerul moale al gurii. Este sunetul pe care româna îl are doar automat înainte de 'c' sau 'g' (ca în *bancă*), dar în engleză poate apărea de sine stătător la final de cuvânt.
+Grupul ng se numește sunetul /ŋ/. În mod obișnuit redă sunetul /ŋ/, ca în cuvântul (sing) /sɪŋ/.
 
-## Cum se pronunță corect
+## Pronunția grupului ng
 
-Deschideți ușor gura și lipiți partea din spate a limbii de vălul palatului, exact ca atunci când vă pregătiți să spuneți sunetul 'g'. Lăsați aerul să iasă liber doar prin nas, activând coardele vocale într-un zumzet nazal continuu. Nu desprindeți limba brusc și evitați să adăugați un sunet de 'g' la final.
+Ridică spatele limbii spre vălul palatului moale, blocând aerul în gură. Lasă aerul să iasă liber prin nas, făcând corzile vocale să vibreze. Pentru al doilea sunet, eliberează brusc blocajul printr-un sunet scurt din gât.
 
-## Reguli de scriere și poziție
+## Ortografia grupului ng
 
-Sunetul este redat prin grupul de litere **ng** (ca în *king* sau *long*) sau prin litera **n** urmată de 'k' ori 'g' (ca în *pink*). În limba engleză, această consoană nu apare niciodată în poziție inițială, ci doar în mijlocul sau la finalul silabelor. La formele de gerunziu (*-ing*), sunetul final trebuie să rămână nazal și continuu.
+La sfârșitul unei silabe sau al unui cuvânt, ng redă sunetul /ŋ/, ca în (ring) /rɪŋ/ sau (long) /lɒŋ/. În interiorul unui morfem, înaintea unei vocale, se aude secvența /ŋɡ/, ca în (finger) /fɪŋ.ɡər/ ori (angle) /æŋ.ɡəl/.
 
-## Diferențe și capcane frecvente
+## Capcane de pronunție
 
-Comparați *singer* `/ˈsɪŋ.ər/` (fără sunetul 'g') cu *finger* `/ˈfɪŋ.ɡər/` (unde 'g' se aude clar). Vorbitorii de română tind adesea să pronunțe un 'g' dur la sfârșitul cuvintelor precum *sing* sau *running*. Concentrați-vă pe oprirea sunetului exclusiv pe calea nazală, fără a permite o explozie finală de tip 'g' sau 'k'.
+Vorbitorii de română tind să adauge mereu un sunet g la sfârșit. Sunetul final este nazal, similar cu n rostit înainte de c în cuvântul bancă, dar fără să mai pronunți deloc g după el.

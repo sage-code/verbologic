@@ -20,18 +20,18 @@ terms:
   ro: "S"
 ---
 
-## Fricativa postalveolară sonoră
+## Sunetul literei es
 
-În acest context, litera **S** se pronunță `/ʒ/`, sunet identic cu litera **J** din limba română (ca în *joc* sau *plajă*). Este o consoană sonoră și continuă, ceea ce înseamnă că veți simți vibrația corzilor vocale pe toată durata emisiei. Spre deosebire de sunetul de bază `/s/`, limba este retrasă puțin mai spre cerul gurii.
+Numele acestei litere este (S) /ʒ/. Redă cel mai des sunetul /s/, ca în cuvântul (sun) /sʌn/.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Așezați partea din față a limbii în spatele crestei alveolare, lăsând un mic spațiu pentru trecerea aerului, exact ca la pronunțarea lui **j** românesc. Rotunjiți ușor buzele și împingeți-le puțin în față. Suflați aer continuu în timp ce activați vocea, asigurând o rezonanță vibrantă fără a bloca fluxul de aer.
+Pentru sunetul /s/, vârful limbii se apropie de dinții de sus și aerul iese șuierat, fără voce. Pentru sunetul /z/, folosești aceeași poziție, dar adaugi vibrația corzilor vocale. Pentru sunetul /ʒ/, retragi ușor limba și rotunjești puțin buzele, lăsând vocea să vibreze.
 
-## Reguli de scriere și context
+## Reguli de citire
 
-Litera **S** capătă această valoare fonetică aproape exclusiv în interiorul cuvintelor, înaintea unor terminații vocalice precum **-ion**, **-ure** sau **-ual**. Exemple frecvente includ *vision*, *treasure*, *exposure* și *usual*. La începutul sau la sfârșitul cuvintelor englezești, litera **S** nu se va pronunța niciodată astfel.
+La începutul cuvintelor sau înaintea consoanelor fără voce, se aude sunetul /s/, ca în (sit) /sɪt/. Între vocale sau la finalul multor cuvinte, redă sunetul /z/, ca în (busy) /bɪ.zi/. Înaintea unor terminații după vocală, redă sunetul /ʒ/, ca în (vision) /vɪ.ʒən/. În anumite cuvinte nu se pronunță deloc, ca în (island) /aɪ.lənd/.
 
-## Diferențe și greșeli frecvente
+## Diferențe față de română
 
-Nu confundați acest sunet cu africata `/dʒ/` (sunetul românesc *ge/gi* din *gem*); fluxul de aer nu trebuie oprit brusc. De asemenea, evitați să îl pronunțați surd ca un `/ʃ/` (*ș*), așa cum apare în *tension*. Mențineți vibrația vocalică activă și continuă în cuvinte precum *measure* sau *collision*.
+Vorbitorii de română tind adesea să pronunțe sunetul /s/ la finalul cuvintelor unde engleza cere sunetul /z/. În română sunetul se găsește în cuvântul sare, iar celălalt în zarzavăt. Atenție să activezi vocea pentru sunetul /z/ când poziția o cere.

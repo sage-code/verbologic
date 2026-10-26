@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## Sunetul literei X
+## Sunetul literei ex
 
-În limba engleză, litera **X** redă aproape întotdeauna un grup de două consoane alăturate. Cel mai adesea se pronunță surd ca `/ks/` (ca în română în *pix*) sau sonor ca `/ɡz/` (ca în *examen*). La începutul cuvintelor rare de origine greacă, se reduce la un simplu `/z/`.
+Numele acestei litere este (X) /eks/. Sunetul său principal este grupul /ks/, ca în cuvântul (box) /bɒks/.
 
-## Cum se pronunță X
+## Pronunția literei ex
 
-Pentru a rosti `/ks/`, blocați scurt aerul lipind partea din spate a limbii de cerul gurii moale, apoi eliberați-l într-un șuierat `/s/` la dinți. Pentru varianta sonoră `/ɡz/`, mențineți aceleași poziții articulorii, dar activați corzile vocale pentru a crea vibrație continuă. Nu adăugați vocale suplimentare înainte sau după grup.
+Pentru grupul /ks/, atinge vălul palatului cu spatele limbii fără voce, apoi suflă aerul printre dinți. Pentru /ɡz/, adaugă vibrația corzilor vocale la ambele sunete. Pentru sunetul /z/, lasă doar vocea și aerul să treacă continuu printre dinți.
 
-## Reguli de scriere și poziție
+## Ortografia literei ex
 
-Litera **X** apare frecvent la finalul cuvintelor precum *tax* sau în prefixul *ex-* (*exit*, *express*). La fel ca în limba română, o singură literă transcrie două sunete succesive. Cuvintele care încep cu **X** sunt extrem de rare și provin exclusiv din împrumuturi neologice.
+La sfârșitul unui cuvânt sau înainte de consoane surde, litera (X) /eks/ redă sunetul /ks/, ca în (six) /sɪks/. Între vocale, înaintea unei silabe accentuate, se aude grupul sonor /ɡz/, ca în (exam) /ɪɡ.zæm/. La începutul unui cuvânt, ea redă doar sunetul /z/, ca în (xenon) /zɛn.ɒn/.
 
-## Diferențe și greșeli frecvente
+## Diferențe față de română
 
-Cea mai mare capcană constă în alternanța dintre `/ks/` și `/ɡz/` în funcție de accentul cuvântului. Comparați forma fără vibrație `/ks/` din *exit* `/ˈek.sɪt/` cu cea sonoră `/ɡz/` din *exist* `/ɪɡˈzɪst/`. De asemenea, evitați pronunțarea cu `/ks/` la inițiala numelor proprii sau termenilor științifici ca *xylophone*.
+În limba română nu există cuvinte native care încep cu această literă. Capcana principală este citirea literei inițiale ca un grup dublu, în loc de un simplu zâzâit, exact ca în cuvântul românesc zare.

@@ -20,18 +20,18 @@ terms:
   ro: "J"
 ---
 
-## Sunetul literei J
+## Sunetul literei géi
 
-În limba engleză, litera **J** reprezintă aproape exclusiv sunetul `/dʒ/`, exact ca sunetul **ge** sau **gi** din limba română (ca în *gem* sau *gingie*). Spre deosebire de română, unde litera **J** se pronunță `/ʒ/` (ca în *joc*), în engleză aceasta are mereu o ocluziune inițială. Nu o pronunțați niciodată ca un simplu `/ʒ/`.
+Numele acestei litere este (J) /dʒeɪ/. În mod obișnuit, ea redă sunetul consoanei din cuvântul (jam) /dʒæm/.
 
-## Cum se pronunță /dʒ/
+## Pronunțarea sunetelor
 
-Așezați vârful limbii ferm pe cerul gurii, chiar în spatele dinților de sus, exact ca pentru sunetul `/d/`. Rotunjiți ușor buzele și acumulați puțin aer în spatele limbii. Desprindeți brusc limba permițând aerului să iasă cu o vibrație a corzilor vocale, creând un sunet exploziv compus.
+Pentru sunetul principal, atingeți cerul gurii cu vârful limbii și eliberați aerul cu vibrația corzilor vocale. Pentru celelalte variante, lăsați aerul să treacă ușor prin gât, ridicați mijlocul limbii spre palat sau rotunjiți buzele lăsând aerul să vibreze continuu.
 
-## Particularități de scriere
+## Reguli de citire
 
-Litera **J** apare de obicei la începutul cuvintelor sau al rădăcinilor lexicale, cum ar fi în *jacket* sau *inject*. Cuvintele englezești autentice nu se termină niciodată cu litera **J**; sunetul final `/dʒ/` este redat prin **-ge** sau **-dge**, ca în *bridge*. Excepțiile de pronunție apar doar în împrumuturi recente din spaniolă sau franceză.
+În mod standard, litera se citește /dʒ/, ca în (job) /dʒɒb/. În împrumuturi spaniole, ea redă sunetul /h/, ca în (jalapeño) /hæ.lə.peɪ.njoʊ/. În cuvinte de origine germanică sau slavă, se aude sunetul /j/, adică un i scurt ca în cuvântul (hallelujah) /hæ.lə.luː.jə/. În cuvinte franceze, sună /ʒ/, adică j românesc, ca în (bijou) /biː.ʒuː/.
 
-## Greșeli frecvente de evitat
+## Capcane frecvente
 
-Cea mai frecventă greșeală a vorbitorilor de română este pronunțarea literei **J** ca în limba maternă, adică `/ʒ/` (de exemplu, pronunțarea cuvântului *job* ca *jób* în loc de *giob*). Asigurați-vă că includeți sunetul inițial `/d/` înainte de fricativă. Nu confundați niciodată **J** cu sunetul semivocalic `/j/` din *iacă*.
+Vorbitorii de limbă română tind adesea să pronunțe această literă ca un j simplu din română, ca în cuvântul jar. Evitați această greșeală începând mereu sunetul englezesc cu o oprire scurtă, asemănătoare cu grupul de litere ge din ger.

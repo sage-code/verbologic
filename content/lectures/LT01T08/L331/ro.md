@@ -20,18 +20,18 @@ terms:
   ro: "or in fork (furculiță)"
 ---
 
-## Sunetul combinației 'or'
+## Sunetul or
 
-Grupul de litere **or** redă de regulă vocala lungă rotunjită din cuvinte precum *fork* sau *storm* (`/ɔːr/` în engleza americană, `/ɔː/` în cea britanică). Spre deosebire de combinația similară din limba română, vocala este mai deschisă și mai profundă, iar 'r'-ul nu este niciodată rulat. În pronunția britanică standard, consoana 'r' dispare complet la final de silabă.
+Grupul se numește /ɔːr/. Sunetul său principal se aude în cuvântul (fork) /fɔːrk/.
 
 ## Cum se pronunță
 
-Rotunjiți buzele într-o formă ovală deschisă și retrageți rădăcina limbii spre gât. Dacă doriți accentul american, ridicați și curbați ușor vârful limbii spre cerul gurii fără a atinge palatul. Pentru accentul britanic, mențineți limba imobilă și lăsați vocala să sune prelung, fără a introduce nicio vibrație consonantică.
+Rotunjește buzele și retrage limba spre spatele gurii, ridicând ușor vârful fără a atinge cerul gurii. Pentru varianta scurtă, relaxează complet gura. Pentru sunetul lung de după consoană labială, menține limba în mijloc, vibrând corzile vocale.
 
-## Ortografie și poziționare
+## Reguli de pronunție
 
-Grupul apare foarte frecvent în rădăcini accentuate precum *port*, *north* sau *short*. În silabele finale neaccentuate, cum ar fi în *actor* sau *doctor*, sunetul se reduce la o vocală neutră (schwa, `/ər/` sau `/ə/`). Atenție deosebită la cuvintele în care este precedat de litera *w* (*work*, *world*), unde pronunția devine `/ɜːr/`.
+În silabe accentuate, grupul redă sunetul /ɔːr/, ca în (corn) /kɔːrn/. În silabe neaccentuate, se rostește ca sunetul /ər/, adică un ăr scurt și redus, ca în (doctor) /dɑːk.tər/. După litera dubluve, se aude ca sunetul /ɜːr/, adică un ăr lung și accentuat, ca în (word) /wɜːrd/.
 
-## Comparație și erori frecvente
+## Capcane frecvente
 
-Cea mai mare capcană pentru vorbitorii de limba română este rostirea unui 'r' vibrat cu vârful limbii. Comparați forma americană din *cord* (`/kɔːrd/`) cu cea britanică (`/kɔːd/`) pentru a observa tratamentul consoanei 'r'. Evitați să pronunțați vocala prea scurt sau închis, asigurându-vă că mențineți deschiderea cavității bucale.
+Vorbitorii de română tind să pronunțe un r plin, vibrat de la vârful limbii. Nu atinge cerul gurii cu limba. În silabele neaccentuate, evită să rostești un o curat ca în limba română.

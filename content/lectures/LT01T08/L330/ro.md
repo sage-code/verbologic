@@ -20,18 +20,18 @@ terms:
   ro: "ir in bird (pasăre)"
 ---
 
-## Sunetul digrafului 'ir'
+## Sunetul grupului ir
 
-Combinația **ir** redă de obicei vocala centrală lungă `/ɜː/` sau varianta sa rotică `/ɜːr/`. Spre deosebire de limba română, nu se pronunță niciodată ca un 'i' scurt urmat de un 'r' rulat pe dinți. În engleza britanică standard, sunetul este asemănător cu un **ă** prelungit și mai închis, în timp ce în engleza americană primește o coloratură rotică specifică.
+Grupul se rostește /ɜːr/, un sunet lung. Îl auzi în cuvântul (bird) /bɜːrd/.
 
-## Cum se pronunță 'ir'
+## Cum se pronunță
 
-Deschideți gura foarte puțin și mențineți buzele relaxate, fără să le rotunjiți. Ridicați mijlocul limbii în centrul cavității bucale, într-o poziție neutră identică cu cea pentru un **ă** lung. Pentru accentul american, trageți ușor vârful limbii spre cerul gurii fără să atingeți palatul pentru a obține rezonanța specifică.
+Pentru sunetul vocalic lung, ține limba la mijlocul gurii și relaxează buzele. Pentru diftong, deschide gura larg pentru primul element, alunecă spre un sunet slab și adaugă sunetul final.
 
-## Particularități de scriere pentru 'ir'
+## Reguli de scriere
 
-Grupul **ir** apare cel mai frecvent în interiorul cuvintelor precum **shirt** sau **circle**, precum și la final de cuvânt în termeni ca **sir** sau **stir**. Dacă este urmat imediat de o altă vocală, precum în **mirror** sau **spirit**, se transformă într-un `/ɪ/` scurt urmat de consoana `/r/`. Rețineți că împarte exact aceeași pronunție cu digrafele **er** (her) și **ur** (burn).
+În silabele accentuate se aude sunetul /ɜːr/, adică un ă lung urmat de r, ca în (shirt) /ʃɜːrt/. În silabele neaccentuate apare sunetul /ər/, adică un ă scurt și redus urmat de r, ca în (elixir) /ɪ.lɪk.sər/. Înainte de litera e mută sau de o vocală rostești /aɪ.ər/, ca în (fire) /faɪ.ər/ și (wire) /waɪ.ər/.
 
-## Comparații și greșeli frecvente
+## Capcane frecvente
 
-Cea mai frecventă greșeală a vorbitorilor de română este pronunțarea literală cu `/i/` și rularea consoanei `/r/` cu vârful limbii. În cuvinte precum **bird** sau **dirty**, cele două litere formează un nucleu vocalic unic, neseparat. Asigurați-vă că nu deschideți gura prea mult spre sunetul `/a/` și că nu rotunjiți buzele spre `/o/`.
+Nu citi grupul ca pe un i urmat de r românesc vibrant. Evită să rostești literele separat așa cum sunt scrise în română.

@@ -20,18 +20,18 @@ terms:
   ro: "R"
 ---
 
-## Sunetul literei R
+## Sunetul literei ar
 
-În limba engleză, litera **R** redă o consoană sonantă postalveolară `/ɹ/`. Spre deosebire de sunetul românesc `/r/`, care este vibrat la nivelul alveolelor, sunetul englezesc nu implică nicio atingere sau vibrație a limbii. În accentele non-rotice, cum este cel britanic standard, litera devine mută la finalul cuvintelor sau înaintea altor consoane.
+Litera (R) /ɑːr/ redă în limba engleză sunetul /r/. O auzi la începutul cuvântului (red) /rɛd/.
 
-## Cum se pronunță corect
+## Pronunția sunetului ar
 
-Ridicați vârful limbii către cerul gurii și curbați-l ușor spre înapoi, fără a atinge palatul. Părțile laterale ale limbii trebuie să atingă măselele superioare pentru stabilitate. Rotunjiți ușor buzele și emiteți sunetul vocalic fără a lăsa limba să vibreze deloc.
+Pentru sunetul /r/, ridică vârful limbii spre cerul gurii fără să atingi dinții sau gingia. Rotunjește puțin buzele și lasă aerul să curgă continuu, vibrând corzile vocale fără să tremuri limba.
 
-## Ortografie și poziții
+## Grafia literei ar
 
-Litera se scrie cu majusculă ca **R** și minusculă ca **r**. Apare frecvent la începutul silabelor (*run*), în combinații de consoane (*green*, *print*) sau dublată (*hurry*). În ortografia engleză, dublarea literei nu produce un sunet mai lung, ci menține adesea o vocală scurtă precedentă.
+Înaintea unei vocale, litera redă sunetul /r/, ca în (run) /rʌn/. La sfârșitul silabei sau înaintea unei consoane, litera nu se pronunță deloc în pronunția britanică standard, ca în (car) /kɑː/ sau (hard) /hɑːd/.
 
-## Diferențe de accent și capcane frecvente
+## Diferențe față de română
 
-Cea mai mare greșeală a vorbitorilor de română este rularea sau vibrarea sunetului ca în limba maternă. De asemenea, rețineți diferența între accentul american, care pronunță **r** în *car* `/kɑːr/`, și cel britanic, unde acesta devine mut: `/kɑː/`. Mențineți limba suspendată în mijlocul cavității bucale pentru a obține un sunet autentic.
+În română, sunetul r este vibrat puternic cu vârful limbii bătut pe cerul gurii, ca în cuvântul rac. În engleză nu vibra niciodată limba și nu atinge bolta palatină.

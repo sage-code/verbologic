@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## Sunetul „ș” redat prin litera C
+## Sunetul literei cé
 
-În anumite combinații, litera **C** din limba engleză se pronunță `/ʃ/`, sunet identic cu litera românească **Ș** din cuvinte precum *școală*. Acest fenomen de palatalizare apare de obicei când litera este urmată de grupuri de vocale neaccentuate.
+Numele acestei litere este (C) /ʃ/. În vorbire, redă cel mai des sunetul /k/, ca în cuvântul (cat) /kæt/.
 
-## Cum se pronunță sunetul
+## Pronunțarea sunetelor literei cé
 
-Rotunjiți ușor buzele și împingeți-le puțin în față. Ridicați partea din față a limbii spre cerul gurii, chiar în spatele dinților de sus, lăsând un spațiu îngust prin care aerul iese continuu. Nu atingeți complet cerul gurii, lăsând doar o fricțiune clară și fără vibrația corzilor vocale.
+Pentru sunetul /k/, blochează aerul cu spatele limbii lipit de cerul gurii moale, apoi eliberează-l brusc fără voce. Pentru sunetul /s/, apropie vârful limbii de dinții de sus și lasă aerul să șuiere continuu, tot fără voce.
 
-## Particularități ortografice
+## Ortografia literei cé
 
-Pronunția `/ʃ/` pentru litera **C** se întâlnește în terminații precum **-cean** (*ocean*), **-cial** (*special*) sau **-cious** (*delicious*). În alte poziții, litera **C** notează de regulă sunetul `/k/` (înainte de 'a', 'o', 'u') sau `/s/` (înainte de 'e', 'i'). Este important să recunoașteți aceste sufixe pentru a evita pronunția literă cu literă.
+Înaintea literelor a, o, u sau a consoanelor, pronunță sunetul /k/, ca în (cup) /kʌp/. Înaintea literelor e, i sau y, redă sunetul /s/, ca în (city) /sɪ.ti/ sau (cent) /sɛnt/. Uneori litera este mută și nu se aude deloc, ca în cuvântul (muscle) /mʌs.əl/.
 
-## Diferențe și erori comune
+## Diferențe față de română
 
-Vorbitorii de română tind adesea să citească literele separat, spunând *o-ce-an* cu `/tʃ/` sau `/s/`. În engleză, *ocean* are doar două silabe, `/ˈoʊ.ʃən/`, iar vocala 'e' se contopește cu consoana. Asigurați-vă că nu introduceți un 'c' dur românesc și că treceți direct la sunetul `/ʃ/` urmat de un schwa scurt.
+Cea mai frecventă greșeală este citirea acestei litere ca un sunet românesc din cuvântul ceapă. În engleză, litera singură nu sună niciodată astfel înaintea vocalelor e sau i, ci doar ca sunetul din soare.

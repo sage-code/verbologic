@@ -20,18 +20,18 @@ terms:
   ro: "S"
 ---
 
-## Sunetul literei S
+## Sunetul literei es
 
-Litera **S** redă cel mai frecvent consoana fricativă alveolară surdă `/s/`, identică cu sunetul din românescul **soare**. În limba engleză, însă, litera **S** este adesea pronunțată sonor ca `/z/`, în special între două vocale sau la finalul pluralelor. Sunetul `/s/` englezesc este foarte clar și nu se palatalizează înainte de vocale închise.
+Numele acestei litere este (S) /s/. Valoarea sa principală este sunetul /s/, întâlnit de exemplu în cuvântul (sun) /sʌn/.
 
-## Cum se pronunță
+## Pronunția literei es
 
-Apropiați vârful limbii de creasta alveolară din spatele dinților de sus, fără să atingeți complet cerul gurii. Lăsați un canal îngust pe mijlocul limbii și expirați aerul cu putere pentru a crea un șuierat continuu. Păstrați corzile vocale complet relaxate pentru a evita transformarea sunetului într-un `/z/`.
+Apropie dinții și pune vârful limbii în spatele dinților de sus. Pentru sunetul surd, scoate doar aer fără voce. Activează corzile vocale pentru varianta sonoră. Pentru al treilea sunet, retrage limba spre cerul gurii și rotunjește buzele.
 
-## Reguli de scriere
+## Ortografia literei es
 
-Litera **S** poate apărea în orice poziție, fiind utilizată masiv pentru formarea pluralului și a verbelor la persoana a treia singular. Dublarea **ss** indică aproape întotdeauna pronunția surdă `/s/`, ca în **glass** sau **kiss**. În combinație cu 'h' formează digraful **sh**, care notează sunetul `/ʃ/`.
+La început de cuvânt sau după consoane surde auzi sunetul /s/, ca în (sit) /sɪt/. Între două vocale sau după sunete sonore apare sunetul /z/, ca în (rose) /roʊz/. Înainte de terminațiile sonore specifice apare sunetul /ʒ/, ca în (vision) /vɪ.ʒən/. În cuvinte precum (island) /aɪ.lənd/, litera este complet mută.
 
-## Greșeli frecvente
+## Comparație cu româna
 
-Vorbitorii de română tind adesea să pronunțe **S** ca `/s/` la finalul cuvintelor unde engleza cere `/z/`, cum ar fi în **dogs** (`/dɒɡz/`) sau **keys** (`/kiːz/`). De asemenea, atenție la diferențierea cuvintelor pereche precum **advice** (`/s/`) și **advise** (`/z/`). Asigurați-vă că activați vibrația corzilor vocale când **S** urmează după consoane sonore.
+Sunetele seamănă cu cele din soare, zarzăr și jar. Greșeala frecventă a vorbitorilor de limba română este să păstreze consoana surdă la final de cuvânt sau între vocale, uitând să o transforme în consoana sonoră corespunzătoare.

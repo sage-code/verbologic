@@ -20,18 +20,18 @@ terms:
   ro: "fl in flag (steag)"
 ---
 
-## Sunetul grupului „fl”
+## Sunetul grupului fl
 
-Grupul consonantic **fl** combină consoana fricativă labiodentală surdă `/f/` cu aproximanta laterală alveolară sonoră `/l/`. Sunetul rezultat `/fl/` este identic cu cel din limba română din cuvinte precum **floare** sau **fluture**. Este un grup fluent, fără nicio pauză sau vocală intermediară între cele două elemente.
+Grupul se rostește /fl/. Sunetul său de bază este /fl/, ca în cuvântul (flag) /flæɡ/.
 
-## Cum se pronunță „fl”
+## Cum se pronunță
 
-Atingeți ușor dinții de sus de buza inferioară și suflați aer pentru a începe cu sunetul `/f/`. În timp ce aerul este eliberat, ridicați imediat vârful limbii pe cerul gurii, chiar în spatele dinților de sus, pentru a rosti `/l/`. Asigurați-vă că nu introduceți un sunet parazit de tip „î” între consoane și că tranziția este rapidă și unitară.
+Atinge dinții de sus cu buza de jos și suflă aer fără voce. Apoi ridică vârful limbii spre cerul gurii și lasă aerul să treacă pe margini, activând corzile vocale.
 
-## Particularități de scriere pentru „fl”
+## Reguli de scriere
 
-Această combinație de sunete este scrisă consecvent cu literele **fl**, apărând foarte frecvent la începutul cuvintelor precum **flag**, **flame** sau **flat**. Poate apărea și în interiorul cuvintelor, ca în **reflect** sau **affluent**. Ortografia este extrem de regulată și nu creează confuzii majore la citire.
+În aproape toate pozițiile, acest grup redă secvența /fl/, cum se aude în cuvântul (flat) /flæt/.
 
-## Diferențe și capcane de pronunție
+## Capcane frecvente
 
-Vorbitorii de limbă română nu întâmpină de regulă probleme majore cu această secvență, dar trebuie să fie atenți la calitatea sunetului `/l/`. În engleză, `/l/` de după `/f/` este de obicei un „clear l”, pronunțat curat înainte de vocale. Evitați să pronunțați un `/r/` accidental în loc de `/l/` și mențineți consoana `/f/` complet surdă înainte ca vocea să activeze consoana `/l/`.
+Pronunția este foarte asemănătoare cu secvența din limba română din cuvântul floare, așa că nu există capcane mari pentru vorbitorii nativi.

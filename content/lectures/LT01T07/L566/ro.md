@@ -20,18 +20,18 @@ terms:
   ro: "N"
 ---
 
-## Sunetul literei N
+## Sunetul literei en
 
-Litera **N** reprezintă de regulă consoana nazală alveolară sonoră `/n/`, practic identică cu **n** din limba română în cuvinte precum *nor*. Înainte de consoane velare precum `/k/` sau `/ɡ/`, ea devine nazala velară `/ŋ/`, exact ca în cuvântul românesc *încă*. În silabe finale neaccentuate, **n** poate deveni silabic `[n̩]`, formând nucleul silabei fără o vocală audibilă.
+Numele acestei litere este (N) /en/. În mod obișnuit, ea redă sunetul /n/, ca în cuvântul (net) /nɛt/.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Atingeți cu vârful limbii creasta alveolară din spatele dinților de sus, blocând trecerea aerului prin gură. Coborâți vălul palatin și lăsați fluxul de aer și vibrația corzilor vocale să iasă continuu prin nas. Pentru varianta `/ŋ/`, ridicați partea posterioară a limbii spre cerul moale al gurii.
+Pentru primul sunet, atinge cu vârful limbii zona din spatele dinților de sus și scoate aerul pe nas, făcând corzile vocale să vibreze. Pentru varianta nazală velară, ridică partea din spate a limbii spre vălul palatin.
 
-## Particularități de scriere
+## Reguli de citire
 
-Litera se scrie ca majusculă **N** și minusculă **n**, apărând singură sau dublată (**nn**) pentru a marca o vocală scurtă anterioară, ca în *winner*. În combinații finale cu **m** (*-mn*), litera **n** devine complet mută, așa cum se întâmplă în *autumn* sau *column*. În combinația inițială **kn-**, litera **k** este mută, pronunțându-se doar `/n/`, ca în *know*.
+În cele mai multe poziții, litera redă sunetul /n/, precum în cuvântul (sun) /sʌn/. Înaintea consoanelor velare, se aude sunetul /ŋ/, ca în (sink) /sɪŋk/. La sfârșitul unui cuvânt, imediat după litera precedentă m, această literă nu se pronunță deloc, ca în (autumn) /ɔ.təm/.
 
-## Variante și capcane frecvente
+## Capcane frecvente
 
-Faceți distincție clară între sunetul alveolar `/n/` din *run* și nazala velară `/ŋ/` din *rung* sau *bank*. Vorbitorii de română tind adesea să adauge o vocală clară în sufixe cu **n** silabic, pronunțând greșit *button* ca `/ˈbʌ.tən/` în loc de varianta fluentă `/ˈbʌt.n̩/`. De asemenea, nu pronunțați **n** la sfârșitul cuvintelor care se termină în *-mn*, cum ar fi *damn*.
+Sunetul obișnuit seamănă perfect cu cel din limba română din cuvântul nor. Atenție la varianta nazală velară, care nu există izolat la final de silabă în limba română fără o consoană de sprijin.

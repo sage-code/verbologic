@@ -20,18 +20,18 @@ terms:
   ro: "ie in pie (plăcintă), field (câmp)"
 ---
 
-## Sunetele grupului 'ie'
+## Sunetul grupului ie
 
-Digraful **ie** reprezintă cel mai frecvent vocala lungă `/iː/` (ca în *piece*) sau diftongul `/aɪ/` (ca în *pie*). Spre deosebire de grupul românesc „ie” din *ierb*, în engleză acesta nu este o semivocală urmată de vocală, ci o singură vocală pură sau un diftong descendent. În poziții neaccentuate, poate fi redus la un sunet scurt `/ɪ/`.
+Acest grup de litere se numește /aɪ/ or /iː/. Sunetul său principal este diftongul /aɪ/, rostit ca în cuvântul (pie) /paɪ/.
 
-## Cum se pronunță 'ie'
+## Cum se pronunță
 
-Pentru a rosti `/iː/`, întindeți buzele ca într-un zâmbet și ridicați partea din față a limbii aproape de cerul gurii. Pentru diftongul `/aɪ/`, deschideți gura relaxat cu limba jos, apoi glisați lin spre un sunet apropiat de „i” românesc pe măsură ce închideți mandibula. Nu despărțiți digraful în două sunete distincte când se află în aceeași silabă.
+Pentru diftong, pornește cu gura larg deschisă și glisează limba spre cerul gurii. Pentru vocala lungă, întinde buzele și ține sunetul mai mult timp. Pentru varianta scurtă, relaxează limba și fă un sunet scurt.
 
-## Particularități ortografice
+## Reguli de pronunție
 
-Grupul **ie** apare de regulă la mijlocul cuvintelor pentru sunetul `/iː/` (*chief*, *belief*) și la sfârșitul cuvintelor monosilabice pentru `/aɪ/` (*lie*, *pie*). Atunci când se adaugă sufixul **-ing**, **ie** se transformă de obicei în litera **y** (*lying*). Atenție la excepții istorice precum *sieve*, unde se pronunță un simplu `/ɪ/` scurt.
+La sfârșitul cuvintelor scurte, grupul se rostește /aɪ/, ca în (tie) /taɪ/. În interiorul cuvintelor de origine străină, se aude sunetul /iː/, adică un i lung, ca în (brief) /briːf/. În silabe neaccentuate, se pronunță sunetul /ɪ/, adică un i scurt și relaxat, ca în (sieve) /sɪv/.
 
-## Comparații și erori frecvente
+## Capcane frecvente
 
-Comparați perechi precum *grief* `/ɡriːf/` și *tie* `/taɪ/` pentru a distinge clar între cele două valori majore. O greșeală comună a vorbitorilor de română este pronunțarea literei **i** ca o semivocală [j], transformând cuvinte precum *field* într-un diftong românesc inexistent în engleză. Respectați întotdeauna lungimea sunetului `/iː/` și nu scurtați vocala.
+Vorbitorii de limbă română tind să pronunțe ambele litere separat sau să confunde i lung cu cel scurt. Fii atent la diferența de durată dintre sunetul lung din cuvinte precum cel cu sensul de scurt și varianta scurtă.

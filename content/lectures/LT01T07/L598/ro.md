@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## Sunetul literei X
+## Sunetul literei iks
 
-În cuvinte precum **exam**, litera **x** notează grupul de sunete sonor `/ɡz/`. Spre deosebire de grupul surd `/ks/` din **box**, la `/ɡz/` corzile vocale vibrează continuu pe durata ambelor consoane. Acest grup sonor există și în limba română în cuvinte înrudite precum **examen**, făcând articularea destul de intuitivă.
+Litera (X) /gz/ se numește astfel și redă de obicei combinația surdă /ks/, ca în cuvântul (box) /bɒks/.
 
-## Cum se pronunță /ɡz/
+## Pronunția literei iks
 
-Atingeți cerul moale al gurii cu partea posterioară a limbii pentru a bloca scurt aerul, activând corzile vocale pentru a emite sunetul `/ɡ/`. Imediat după desprindere, apropiați vârful limbii de alveolele dinților de sus și lăsați aerul să iasă șuierat, menținând vibrația vocală pentru `/z/`. Mișcarea trebuie să fie cursivă, fără nicio pauză între cele două consoane.
+Pentru combinațiile de consoane, blochează aerul cu spatele limbii pe vălul palatului, apoi eliberează-l printr-un șuierat cu vârful limbii lângă dinții de sus. Adaugă vibrația corzilor vocale pentru varianta sonoră, sau menține doar șuieratul pentru sunetul simplu.
 
-## Particularități ortografice
+## Ortografia literei iks
 
-Litera se scrie ca majusculă **X** și minusculă **x**. În limba engleză, pronunția sonoră `/ɡz/` apare de regulă atunci când **x** se află înaintea unei vocale accentuate, cum ar fi în **exist** sau **exact**. În poziție finală sau înaintea consoanelor surde, litera revine aproape întotdeauna la valoarea surdă `/ks/`.
+La sfârșitul cuvintelor sau înaintea consoanelor surde, litera (X) /gz/ redă sunetul /ks/, ca în (tax) /tæks/. Între două vocale înaintea unei silabe accentuate, se aude grupul sonor /ɡz/, ca în (exam) /ɪɡ.zæm/. La începutul cuvintelor, această literă se pronunță simplu /z/, ca în (xylophone) /zaɪ.lə.fəʊn/.
 
-## Diferențe și capcane frecvente
+## Capcane de pronunție
 
-Cea mai mare capcană pentru vorbitori este pronunțarea invariabilă a literei ca `/ks/`, ceea ce sună artificial în cuvinte cu accent pe a doua silabă precum **exam** (`/ɪɡˈzæm/`). Comparați `/ɡz/` din **exam** cu `/ks/` din **exercise** (`/ˈek.sə.saɪz/`). De asemenea, rețineți că la începutul cuvintelor precum **xylophone**, litera **x** se citește doar ca un simplu `/z/`.
+Vorbitorii de limbă română tind adesea să citească litera la începutul cuvintelor ca un grup dublu, ca în cuvântul pix. În engleză, la început de cuvânt se rostește doar o singură consoană sonoră, identică cu litera din zar.

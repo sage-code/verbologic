@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## Sunetul neaccentuat /ə/
+## Sunetul literei a
 
-În această poziție, litera **A** notează sunetul **schwa** (`/ə/`), cel mai frecvent sunet vocalic din limba engleză. Este foarte apropiat de vocala românească **ă**, însă în engleză este rostit și mai scurt, mai relaxat și exclusiv pe silabe neaccentuate. Spre deosebire de vocalele pline, nu este niciodată rostit cu forță sau intonație accentuată.
+Numele acestei litere este (A) /ə/. Cel mai adesea reprezintă sunetul /æ/, adică un a deschis apropiat de e, ca în cuvântul (apple) /æ.pəl/.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Lăsați maxilarul ușor întredeschis și mențineți limba și buzele complet relaxate în centrul cavității bucale. Nu rotunjiți buzele și nu împingeți limba spre dinți. Emiteți un sunet vocalic foarte scurt și lejer, exact ca un suspin discret sau un **ă** rostit rapid.
+Pentru sunetul scurt deschide gura larg și trage buzele în lateral. Pentru diftong începe dintr-un e clar și alunecă spre un i scurt. Sunetul neutru cere buze relaxate, iar varianta lungă are limba coborâtă în spate.
 
-## Ortografie și tipare
+## Reguli de citire
 
-Litera **A** se reduce la `/ə/` ori de câte ori se află într-o silabă neaccentuată, în special la începutul sau la sfârșitul cuvintelor. Apare adesea în prefixe sau silabe inițiale precum **about**, **again** sau **ago**, dar și în poziție finală, cum ar fi în **sofa**. Când poartă accentul cuvântului, litera **A** capătă alte valori, precum `/æ/` în **cat** sau `/eɪ/` în **name**.
+Într-o silabă închisă auzi sunetul /æ/, adică un a foarte deschis, ca în (cat) /kæt/. Într-o silabă accentuată deschisă sau înainte de e final mut rostești sunetul /eɪ/ în (lake) /leɪk/. În silabe neaccentuate apare sunetul /ə/ în (about) /ə.baʊt/. Înainte de anumite consoane auzi sunetul /ɑː/, adică un a lung posterior, în (father) /fɑː.ðər/.
 
-## Comparație și greșeli frecvente
+## Capcane frecvente
 
-Comparați sunetul redus `/ə/` din **about** (`/əˈbaʊt/`) cu vocala deschisă `/æ/` din **cat** (`/kæt/`) sau diftongul `/eɪ/` din **late** (`/leɪt/`). Vorbitorii de română tind adesea să pronunțe litera **A** clară, ca un **a** românesc plin, indiferent de accent. În engleză, este esențial să atenuați silaba neaccentuată pentru a păstra ritmul natural al limbii.
+Nu înlocui vocala deschisă cu sunetul a din limba română, ci coboară maxilarul și întinde colțurile gurii. De asemenea, evită să rostești sunetul neutru din silabele neaccentuate ca pe un a curat din cuvântul apă.

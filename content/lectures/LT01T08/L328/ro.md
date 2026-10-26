@@ -20,18 +20,18 @@ terms:
   ro: "ar in car (mașină)"
 ---
 
-## Sunetul grupului 'AR'
+## Sunetul grupului ar
 
-Grupul de litere **ar** redă de regulă secvența vocalică `/ɑːr/` în engleza americană sau vocala lungă `/ɑː/` în pronunția britanică standard. Acest sunet seamănă parțial cu un 'a' românesc rostit mult mai profund și deschis, urmat de un 'r' specific englezesc. Nu trebuie confundat cu sunetul scurt din cuvinte precum 'cat'.
+Numele acestei combinații este /ɑːr/. Sunetul principal este o vocală lungă, ca în cuvântul (arm) /ɑːm/.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Coboară maxilarul relaxat și retrage limba spre spatele cavității bucale pentru a emite un 'a' profund. Pentru accentul american, ridică ușor marginile sau vârful limbii spre cerul gurii fără a atinge bolta palatină, adăugând timbrul rotic specific. Buzele rămân neutre și nu se rotunjesc deloc.
+Pentru sunetul lung, deschide gura larg și trage limba spre spate. Pentru varianta neutră, lasă gura complet relaxată. Pentru vocala rotundă, rotunjește buzele și ridică partea din spate a limbii.
 
-## Particularități de scriere
+## Reguli de citire
 
-Grupul **ar** este comun în cuvinte de bază monosilabice sau accentuate precum **car**, **part** și **star**. În silabele neaccentuate de la finalul cuvintelor, cum ar fi **dollar** sau **grammar**, se reduce la un sunet neutru schwa (`/ər/` sau `/ə/`). După litera 'w' (de exemplu în **warm**), vocala se schimbă adesea spre un 'o' deschis `/ɔːr/`.
+În silabă accentuată la final de cuvânt se aude sunetul /ɑː/, adică un a lung, ca în (car) /kɑː/. Înaintea unei vocale auzi sunetul /ɑːr/ în (starry) /stɑː.ri/, sau la final în (far) /fɑːr/. În silabe neaccentuate se rostește sunetul /ə/ în (sugar) /ʃʊɡ.ə/ și (dollar) /dɒl.ə/. După un sunet consonantic labial auzi sunetul /ɔː/, adică un o lung, în (war) /wɔː/ și (warm) /wɔːm/.
 
-## Variații și greșeli frecvente
+## Diferențe față de română
 
-Cea mai mare capcană pentru vorbitorii de română este rularea sunetului 'r' pe dinți sau cerul gurii; 'r'-ul englezesc nu vibrează niciodată. De asemenea, rețineți că în engleza britanică 'r'-ul nu se aude deloc în cuvinte precum **park** (`/pɑːk/`), lăsând doar o vocală lungă. Mențineți vocala deschisă și evitați pronunțarea grăbită.
+Vorbitorii de limba română tind să pronunțe mereu un sunet r puternic rulat și un a scurt. În pronunția britanică standard, acest grup reprezintă adesea doar o vocală lungă deschisă, fără vibrația vârfului limbii.

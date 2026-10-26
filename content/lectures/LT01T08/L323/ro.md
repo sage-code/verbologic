@@ -20,18 +20,18 @@ terms:
   ro: "ow in cow (vacă), snow (zăpadă)"
 ---
 
-## Sunetul grupului OW
+## Sunetul grupului ow
 
-Digraful **ow** reprezintă două diftongi importanți în limba engleză: `/aʊ/` (ca în *now*) și `/oʊ/` (ca în *snow*). Varianta `/aʊ/` este similară diftongului românesc *au* din „sau”, dar alunecă mai fluid spre rotunjirea buzelor. Varianta `/oʊ/` seamănă cu un *o* închis care alunecă spre un *u* scurt, inexistent în mod nativ în limba română.
+Grupul de litere se numește /aʊ/ or /oʊ/. Cel mai frecvent redă diftongul /aʊ/, ca în cuvântul (owl) /aʊl/.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Pentru `/aʊ/`, deschideți gura relaxat cu limba jos, apoi trageți limba spre spate rotunjind ferm buzele spre final. Pentru `/oʊ/`, porniți de la un sunet apropiat de *o* cu buzele deja puțin rotunjite și strângeți-le treptat într-un cerc mai mic. Asigurați-vă că tranziția este continuă și nu pronunțați sunetele ca două vocale complet separate.
+Pentru primul diftong, deschide gura larg pentru un sunet de tip a, apoi rotunjește buzele spre u. Pentru celălalt diftong, pornește dintr-un o clar și îngustează buzele spre același u.
 
-## Ortografie și reguli
+## Reguli de citire
 
-Grupul **ow** apare cel mai adesea la final de cuvânt sau înaintea consoanelor **n** și **l** (precum în *brown* sau *grow*). Nu există o regulă strictă pentru a ști dacă se citește `/aʊ/` sau `/oʊ/`, așa că fiecare termen trebuie memorat individual. Aveți grijă la cuvintele identice vizual, precum *tear* sau *bow*, a căror semnificație schimbă pronunția.
+Grupul se rostește cel mai des ca diftongul /aʊ/ la final de cuvânt sau înaintea consoanelor, ca în (cow) /kaʊ/. În alte cazuri, la final sau înaintea anumitor consoane, sună ca diftongul /oʊ/, de pildă în (snow) /snoʊ/.
 
-## Comparație și capcane
+## Capcane de pronunție
 
-Comparați *now* `/naʊ/` cu *know* `/noʊ/` pentru a distinge clar deschiderea inițială a maxilarului. O greșeală comună a vorbitorilor de română este pronunțarea unui *o* static în loc de diftongul `/oʊ/`, sau citirea greșită a cuvântului *crowd* cu sunetul din *low*. Ascultați cu atenție fiecare cuvânt nou pentru a asocia diftongul corect.
+Vorbitorii de limbă română tind să citească al doilea element ca pe o consoană v dură. Asigură-te că treci lin spre un sunet vocalic apropiat de u din cuvântul românesc rouă.

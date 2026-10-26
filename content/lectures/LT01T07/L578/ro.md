@@ -20,18 +20,18 @@ terms:
   ro: "Z"
 ---
 
-## Sunetul literei Z
+## Sunetul literei zed
 
-Litera **Z** în limba engleză notează de regulă consoana fricativă alveolară sonoră `/z/`. Acest sunet este perfect echivalent cu sunetul literei **z** din limba română (ca în 'zar' sau 'zăpadă'). Coardele vocale trebuie să vibreze continuu în timp ce aerul este expirat.
+Litera se numește (Z) /ziː/. Sunetul ei principal este consoana /z/, ca în cuvântul (zebra) /z/.
 
-## Cum se pronunță Z
+## Pronunția sunetelor literei
 
-Apropiați vârful limbii de marginea dinților superiori, lăsând un spațiu foarte îngust prin care aerul să poată scăpa. Porniți vibrația corzilor vocale simultan cu fluxul de aer pentru a produce un bâzâit clar. Păstrați buzele relaxate și ușor întinse într-un zâmbet discret.
+Pentru primul sunet, așază vârful limbii aproape de dinți și vibrează corzile vocale. Pentru al doilea, ridică limba spre cerul gurii cu vibrație sonoră. Pentru al treilea sunet, oprește aerul scurt la dinți și eliberează-l fâșâit fără voce.
 
-## Ortografie și poziție
+## Reguli de pronunție
 
-**Z** este cea mai rară literă din limba engleză, apărând adesea la începutul unor cuvinte ('zero') sau la final dublat ('buzz'). În engleza americană, terminația verbelor este scrisă regulat cu **-ize** ('organize'), în timp ce în engleza britanică se întâlnește des varianta cu **-ise**. La final de cuvânt, dublarea literei semnalează de obicei o vocală scurtă precedentă.
+În mod obișnuit, litera redă sunetul /z/, ca în (zone) /zoʊn/. Înaintea unei vocale neaccentuate, ea produce sunetul /ʒ/, ca în (azure) /æ.ʒər/. În cuvinte împrumutate din germană sau italiană, redă sunetul compus /ts/, de exemplu în (pizza) /pit.sə/.
 
-## Comparație și greșeli frecvente
+## Capcane de pronunție
 
-În anumite împrumuturi sau înainte de terminații specifice precum '-ure', **Z** poate suna ca `/ʒ/` (românescul 'j', ca în 'azure'). Vorbitorii de română nu întâmpină dificultăți majore cu `/z/`, dar trebuie să evite asurzirea acestuia la sfârșit de cuvânt în `/s/`. Mențineți vibrația vocală completă până la finalul sunetului în cuvinte precum 'buzz' sau 'freeze'.
+Sunetele acestei litere corespund exact cu zgomotul din română pentru z, j sau ț. Nu există capcane deosebite de pronunție pentru vorbitorii de română.

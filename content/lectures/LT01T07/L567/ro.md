@@ -20,18 +20,18 @@ terms:
   ro: "O"
 ---
 
-## Sunetul literei O
+## Sunetul literei ou
 
-În limba engleză, litera **O** reprezintă în mod clasic diftongul `/oʊ/`, auzit chiar în pronunția propriului său nume. Spre deosebire de vocala românească simplă și statică `/o/`, acest sunet începe într-o poziție central-posterioară și alunecă spre `/ʊ/`. De asemenea, litera poate reda vocale scurte precum `/ɒ/` sau `/ɑː/`, ori se poate reduce la vocala neutră `/ə/`.
+Numele acestei litere este (O) /oʊ/. În mod obișnuit, ea redă sunetul /ɑ/, un sunet deschis apropiat de a, ca în cuvântul (ox) /ɑks/.
 
-## Cum se pronunță corect
+## Pronunția literei ou
 
-Pentru a rosti diftongul `/oʊ/`, porniți cu buzele ușor rotunjite și limba retrasă spre cerul moale al gurii. Pe măsură ce emiteți sunetul, strângeți treptat buzele într-o formă mai mică și mai rotundă, ghidând vocea spre `/ʊ/`. Nu blocați gura într-o singură poziție fixă; mișcarea continuă a buzelor este esențială.
+Pentru sunetul scurt, lasă maxilarul mult în jos și ține limba plată și retrasă. Pentru diftong, rotunjește buzele pornind de la o poziție neutră spre una strânsă. Sunetul neutru cere o relaxare completă a gurii.
 
-## Particularități ortografice
+## Reguli de scriere
 
-Diftongul lung `/oʊ/` apare frecvent la finalul silabelor deschise (**go**), înainte de litera mută 'e' (**home**) sau în combinații de litere precum **oa** (**boat**). În silabele închise, urmate de consoană finală, **O** se citește de obicei scurt, ca în **stop** sau **box**. În silabele neaccentuate, litera se reduce de regulă la sunetul schwa `/ə/`, ca în **apron**.
+În silabe închise accentuate, litera redă sunetul /ɑ/, ca în (hot) /hɑt/. În silabe deschise sau înaintea unui e mut, se aude diftongul /oʊ/, ca în (go) /ɡoʊ/ sau (home) /hoʊm/. În silabe neaccentuate apare sunetul /ə/, ca în (lemon) /lɛ.mən/. Uneori se rostește /uː/, ca în (do) /duː/.
 
-## Comparații și greșeli frecvente
+## Dificultăți pentru vorbitori
 
-Vorbitorii nativi de română au tendința de a folosi sunetul pur `/o/` din română, ceea ce face ca termeni precum **so** sau **home** să sune nenatural. Comparați diftongul lung din **open** `/ˈoʊ.pən/` cu vocala scurtă din **pot** `/pɒt/` și forma redusă din **lemon** `/ˈlɛm.ən/`. Asigurați-vă că finalizați întotdeauna rotunjirea buzelor pentru a obține diftongul complet.
+Vorbitorii de limbă română tind să citească această literă ca un o simplu, precum în cuvântul os. Evită această confuzie, fiindcă varianta scurtă seamănă mai degrabă cu a, iar varianta lungă este mereu un diftong articulat cu buzele rotunjite.

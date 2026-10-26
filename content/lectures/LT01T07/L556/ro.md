@@ -20,18 +20,18 @@ terms:
   ro: "D"
 ---
 
-## Sunetul literei D
+## Sunetul literei di
 
-Litera **D** redă în principal consoana oclusivă alveolară sonoră `/d/`. Spre deosebire de limba română, unde 'd' este dental (limba atinge incisivii superiori), în engleză limba atinge **creasta alveolară** din spatele dinților. Acest lucru îi oferă sunetului o rezonanță mai estompată și mai aerată decât în română.
+Numele acestei litere este (D) /diː/. Redă în principal sunetul /d/, ca în cuvântul (dog) /dɒɡ/.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Atingeți cu vârful limbii zona striată a gingiei situată chiar în spatele dinților de sus, fără a atinge dinții. Opriți fluxul de aer pentru o fracțiune de secundă, apoi eliberați-l activând corzile vocale. Asigurați-vă că sunetul este sonor și vibrează în gât.
+Atingeți cu vârful limbii gingia din spatele dinților de sus, nu dinții, apoi eliberați aerul cu vibrația corzilor vocale. Pentru varianta surdă opriți vibrația. Pentru varianta compusă lipiți limba de cerul gurii și desprindeți-o ușor cu fricțiune sonoră.
 
-## Ortografie și poziții
+## Reguli de citire
 
-Litera **D** poate apărea în orice poziție dintr-un cuvânt, de la început (*deep*) până la final (*road*). Dublarea sa (**dd**) indică de obicei o vocală scurtă precedentă, ca în *ladder*. În câteva cuvinte uzuale, precum *Wednesday* sau *handsome*, litera **d** este complet mută.
+În majoritatea pozițiilor redă sunetul /d/, ca în (bed) /bɛd/. În terminația de trecut după consoane surde se aude ca sunetul /t/, ca în (hoped) /həʊpt/. Înaintea literei u poate reda sunetul /dʒ/, ca în (educate) /ɛ.dʒʊ.keɪt/. În anumite cuvinte nu se pronunță deloc, ca în (handkerchief) /hæŋ.kə.tʃiːf/.
 
-## Variante și greșeli frecvente
+## Capcane frecvente
 
-O greșeală comună este articularea dentală specifică limbii române, care sună prea dur pentru urechea unui nativ. De asemenea, acordați atenție terminației de trecut **-ed**: se citește `/t/` după consoane surde (*watched*) și doar ca silabă completă `/ɪd/` după 't' sau 'd' (*needed*).
+Vorbitorii de limbă română pun adesea limba direct pe dinți, ca în cuvântul dor. În limba engleză limba trebuie să atingă doar gingia superioară. De asemenea, nu transformați sunetul final sonor în consoană surdă.

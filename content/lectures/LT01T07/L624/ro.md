@@ -20,18 +20,18 @@ terms:
   ro: "-ough"
 ---
 
-## Prezentarea sunetului
+## Grupul de litere ough
 
-Grupul de litere **-ough** este celebru pentru mulțimea de pronunții diferite pe care le poate avea, dar în cuvântul *through* se pronunță ca o vocală lungă **/uː/**. Acest sunet este similar cu **u** din limba română, însă este mai alungit și mai tensionat. Spre deosebire de alte cuvinte terminate în **-ough**, aici nu se aude absolut nicio consoană la final.
+Grupul -ough se numește /uː/. Sunetul său principal este o vocală lungă, ca în cuvântul (through) /θruː/.
 
-## Cum se pronunță
+## Pronunția grupului ough
 
-Rotunjiți buzele strâns într-un cerc mic și împingeți-le ușor în față. Ridicați partea posterioară a limbii spre cerul moale al gurii, lăsând vârful limbii jos în spatele dinților inferiori. Mențineți sunetul vocalic stabil și prelungit, fără a adăuga vreo fricțiune consonantică la sfârșit.
+Pentru vocale, rotunjește buzele și trage limba înapoi în gură. Pentru finalul cu consoană, atinge dinții de sus de buza de jos și lasă aerul să treacă fără să vibreze corzile vocale.
 
-## Particularități de scriere
+## Ortografia grupului ough
 
-Grupul **-ough** se citește **/uː/** într-un număr extrem de redus de cuvinte, în special *through* și derivatele sale precum *throughout*. Literele **gh** sunt complet mute în această poziție, neproducând sunetul **/f/** pe care îl auzim în *rough*. În engleza americană informală, cuvântul este adesea simplificat ortografic ca *thru*.
+Grupul -ough poate deveni diftongul /oʊ/, de pildă în (though) /ðoʊ/. Înaintea unei consoane finale, se aude ca sunetul /ɔː/, adică un o lung și deschis, ca în (thought) /θɔːt/. În alte cazuri, se pronunță /ʌf/, ca în (rough) /rʌf/.
 
-## Comparații și capcane
+## Dificultăți pentru români
 
-Nu confundați pronunția **/uː/** din *through* cu **/oʊ/** din *though* sau cu **/ʌf/** din *enough*. Vorbitorii de română încearcă uneori să citească literele scrise și pronunță greșit un sunet de tip **f** sau **h** la final. Rețineți că în acest cuvânt întregul grup se reduce la un simplu sunet **u** lung.
+În limba română nu există un grup identic de litere care să aibă pronunții atât de diferite. Nu încerca să citești fiecare literă separat. Memorează fiecare cuvânt în parte pentru a evita confuzia dintre vocale și sunetul f.

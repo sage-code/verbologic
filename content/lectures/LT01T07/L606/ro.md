@@ -20,18 +20,18 @@ terms:
   ro: "gn-"
 ---
 
-## Sunetul grupului inițial „gn-”
+## Grupul gn
 
-În limba engleză, grupul inițial de litere **gn-** se pronunță simplu `/n/`. Litera **g** este complet mută, astfel încât cuvintele încep exact ca și cum ar fi scrise doar cu litera *n*, identic cu `n` din română. Spre deosebire de limba franceză sau italiană, nu există nicio palatalizare (nu sună ca „gn” din *cognac*), iar spre deosebire de română, sunetul `g` nu se aude deloc.
+Grupul gn- se numește /n/. El redă doar sunetul /n/, ca în cuvântul (gnat) /næt/.
 
 ## Cum se pronunță
 
-Atingeți marginea alveolară din spatele dinților de sus cu vârful limbii. Lăsați fluxul de aer să iasă exclusiv pe nas activând coardele vocale pentru a emite un `/n/` curat. Nu încercați să atingeți cerul gurii cu spatele limbii pentru a pregăti un sunet `g`; treceți direct la emiterea nazalei.
+Atingeți cerul gurii cu vârful limbii chiar în spatele dinților de sus. Coborâți vălul palatului și lăsați aerul să iasă liber prin nas, făcând corzile vocale să vibreze.
 
-## Ortografie și poziție
+## Reguli de citire
 
-Secvența **gn-** apare aproape exclusiv la începutul unor cuvinte specifice de origine greacă, germanică sau franceză, cum ar fi *gnome*, *gnaw* sau *gnu*. Se găsește întotdeauna înainte de o vocală la început de cuvânt. Când literele apar în interiorul cuvintelor înrudite, litera `g` se poate pronunța uneori, ca în perechea *sign* `/saɪn/` și *signal* `/ˈsɪɡnəl/`.
+La începutul cuvintelor, când este urmat de o vocală, grupul gn- se rostește ca sunetul /n/, ca în (gnaw) /nɔː/.
 
-## Diferențe și greșeli frecvente
+## Capcane de pronunție
 
-Cea mai frecventă greșeală a vorbitorilor de română este citirea literară a grupului ca `/ɡn/`, spunând incorect `/ɡnoʊm/`. Comparați perechea *gnat* `/næt/` și *net* `/nɛt/` pentru a observa că sunetul de început este absolut identic. Rețineți regula de bază: la începutul cuvintelor, **g** din **gn-** nu se rostește niciodată.
+Vorbitorii de limbă română au tendința de a citi ambele litere, ca în cuvântul gnom. În engleză, prima literă este complet mută și se aude doar sunetul din cuvântul nor.

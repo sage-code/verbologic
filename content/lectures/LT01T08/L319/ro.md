@@ -20,18 +20,18 @@ terms:
   ro: "ai in rain (ploaie)"
 ---
 
-## Sunetul grupului 'ai'
+## Sunetul grupului ai
 
-Grupul de vocale **ai** se pronunță de regulă ca diftongul `/eɪ/`, pornind de la un sunet similar cu 'e' și glisând spre 'i'. Spre deosebire de românescul 'ei', glisarea engleză este mai relaxată și primul element este mai lung. Înainte de litera 'r', sunetul se deschide către `/ɛə/`, ca în **chair**.
+Acest grup de litere se numește /eɪ/. Sunetul său principal este diftongul /eɪ/, ca în cuvântul (rain) /reɪn/.
 
 ## Cum se pronunță
 
-Deschideți gura moderat și relaxați buzele, așezând limba în poziția pentru un 'e' românesc deschis. Glisați apoi limba în sus și ușor înainte spre cerul gurii, către poziția unui 'i' scurt și relaxat. Asigurați-vă că tranziția este fluentă și continuă într-o singură silabă.
+Pentru primul sunet, deschide gura relaxat și glisează limba din poziția lui e spre i. Pentru al doilea, deschide gura mediu pentru un e scurt. Pentru al treilea, lasă limba complet neutră în mijlocul gurii.
 
-## Reguli de scriere
+## Reguli de pronunție
 
-Grupul **ai** se întâlnește predominant în interiorul cuvintelor, cum ar fi **rain**, **pain** sau **sail**. La sfârșitul cuvintelor native englezești, acest sunet este aproape întotdeauna redat prin **ay**. În silabele neaccentuate, precum sufixul din **certain**, se reduce adesea la un sunet neutru scurt.
+În silabe accentuate, se aude de obicei ca diftongul /eɪ/, ca în (wait) /weɪt/. În anumite cuvinte înaintea literei d sau r, se rostește sunetul /ɛ/, de exemplu în (said) /sɛd/. În silabe neaccentuate, devine sunetul /ə/, ca în (captain) /kæp.tən/.
 
-## Diferențe și capcane frecvente
+## Capcane frecvente
 
-Vorbitorii de limba română tind adesea să pronunțe **ai** ca diftongul românesc din 'rai' (`/aj/`) sau ca un 'e' lung pur. Evitați să separați vocalele și asigurați-vă că primul element este un 'e' moale care glisează spre 'i'. În plus, fiți atenți la cuvintele unde este urmat de 'r', unde sunetul devine deschis (`/ɛə/`).
+Vorbitorii de română tind să citească fiecare literă separat, ca un diftong românesc a urmat de i. În silabe neaccentuate, nu pronunța un a clar, ci sunetul neutru similar cu ă românesc.

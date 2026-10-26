@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## Sunetul literei engleze C
+## Sunetul literei si
 
-Litera **C** nu are un sunet propriu în limba engleză, ci împrumută pronunții de la alte litere. Cel mai des reprezintă sunetul dur `/k/` sau sunetul moale `/s/`. În cuvântul **city**, litera se citește exact ca un `s` românesc `/s/`, fără vibrația corzilor vocale.
+Numele acestei litere este (C) /siː/. În mod obișnuit, ea redă sunetul /k/, la fel ca în cuvântul (cat) /kæt/.
 
-## Cum se pronunță C moale
+## Cum se pronunță
 
-Pentru a rosti sunetul `/s/` din **city**, apropiați dinții fără a-i încleșta complet. Ridicați vârful limbii aproape de marginea gingiilor din spatele dinților de sus. Suflați aer continuu prin spațiul îngust format, păstrând corzile vocale complet relaxate.
+Pentru sunetul surd /k/, blochează aerul cu spatele limbii lipit de cerul gurii și eliberează-l brusc. Pentru sunetul /s/, apropie vârful limbii de dinți și împinge aerul afară cu un șuierat continuu.
 
-## Reguli ortografice și poziționare
+## Reguli de pronunție
 
-Regula de bază în engleză arată că litera **C** se citește `/s/` atunci când este urmată direct de **e**, **i** sau **y**. Înainte de **a**, **o**, **u** sau consoane, aceasta devine `/k/`, ca în *cat*. În sufixe cu vocale duble precum cele din *special* sau *delicious*, litera se transformă adesea în `/ʃ/` (sunetul românesc `ș`).
+Înainte de a, o, u ori consoane, pronunță sunetul /k/, ca în cuvântul (cup) /kʌp/. Înaintea literelor e, i sau y, folosește sunetul /s/, precum în cuvintele (city) /sɪt.i/ și (cell) /sɛl/.
 
-## Variații și greșeli frecvente
+## Diferențe față de română
 
-Cea mai mare capcană pentru vorbitorii de română este pronunțarea lui **C** înainte de **e** sau **i** ca `ce`/`ci` (`/tʃ/`). În engleză, cuvinte ca *city* sau *center* nu se citesc niciodată cu `ci` sau `ce`, ci strict cu `/s/`. Sunetul `/tʃ/` este rezervat aproape exclusiv combinației de litere **CH**.
+În limba română, grupurile scrise cu această literă urmată de e sau i sună ca în ceai sau circ. În engleză nu folosi niciodată acel sunet: pronunță mereu un s curat, exact ca în soare.

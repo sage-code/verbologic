@@ -20,18 +20,18 @@ terms:
   ro: "-mb"
 ---
 
-## Sunetul grupului '-mb'
+## Grupul de litere mb
 
-Grupul de consoane **-mb** aflat la sfârșitul unui cuvânt englezesc se pronunță simplu ca un sunet nazal `/m/`. Litera **b** este complet mută și nu trebuie articulată sub nicio formă. Spre deosebire de limba română, unde literele finale sunt de regulă rostite clar, aici nu există nicio explozie a buzelor.
+Grupul de litere -mb se citește sunetul /m/. Îl auzi rostit astfel în cuvântul (lamb) /læm/.
 
 ## Cum se pronunță
 
-Apropiați ferm ambele buze și lăsați limba relaxată pe planșeul gurii. Activați corzile vocale și direcționați fluxul de aer exclusiv prin cavitatea nazală. Evitați să deschideți buzele brusc la final cu o eliberare de aer de tip `/b/`.
+Atinge buzele una de cealaltă pentru a opri aerul în gură. Lasă fluxul de aer să iasă continuu pe nas, făcând corzile vocale să vibreze.
 
-## Ortografie și poziție
+## Reguli de citire
 
-Această combinație apare tipic la sfârșitul rădăcinilor germanice, ca în **lamb**, **climb** sau **tomb**. Litera **b** rămâne mută și atunci când adăugați sufixe gramaticale, precum în **climber** sau **bombs**. În schimb, în cuvinte de origine latină precum **timber**, ambele consoane se aud separat.
+La finalul unui cuvânt sau al unei rădăcini, grupul -mb redă sunetul /m/, ca în (comb) /koʊm/.
 
-## Atenție la capcane
+## Capcane de pronunție
 
-Cea mai frecventă greșeală a vorbitorilor de română este pronunțarea literei **b** finale din obișnuință ortografică. Cuvinte precum **crumb** sau **thumb** trebuie să se termine exact ca un cuvânt simplu în **m**, fără niciun zgomot suplimentar. Tratați întotdeauna litera **b** ca fiind complet inexistentă fonetic.
+Vorbitorii de română tind să citească și a doua consoană. Nu pronunța un b la sfârșit, ci doar un m curat, exact ca în cuvântul românesc pom.

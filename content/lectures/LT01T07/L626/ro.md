@@ -20,18 +20,18 @@ terms:
   ro: "-ough"
 ---
 
-## Sunetul grupului '-ough'
+## Grupul ough
 
-Combinația **-ough** este una dintre cele mai variabile din limba engleză, dar în *thought* redă vocala lungă `/ɔː/`. Acest sunet seamănă cu un **o** deschis din limba română, similar cu cel din interjecția *of*, dar este mai lung și pronunțat mai profund în gât. Literele 'gh' sunt complet mute în această poziție.
+Grupul de litere -ough se numește /ɔː/. Sunetul principal este /ɔː/, adică un o deschis și lung, ca în cuvântul (bought) /bɔːt/.
 
-## Cum se pronunță
+## Pronunția grupului ough
 
-Coborâți maxilarul inferior și rotunjiți buzele moderat, formând o deschidere relaxată. Trageți rădăcina limbii spre partea posterioară a gurii, fără a bloca trecerea aerului. Emiteți un sunet vocalic prelungit și clar fără a pronunța vreo consoană pentru 'gh'.
+Pentru sunetul lung rotunjește larg buzele și trage limba înapoi, folosind vocea. Pentru cel scurt deschide gura relaxat spre un a scurt, apoi atinge buza de jos cu dinții de sus pentru a lăsa aerul să treacă fără voce.
 
-## Particularități de scriere
+## Ortografia grupului ough
 
-Grupul **-ough** apare frecvent în formele de trecut ale verbelor neregulate terminate în **t**, precum *thought*, *sought* și *brought*. Nu începe niciodată un cuvânt și reprezintă o scriere etimologică din engleza veche. Rețineți întregul grup ca pe un bloc sonor unic când este urmat de litera 't'.
+Înainte de litera t la formele de trecut se aude sunetul /ɔː/, ca în (thought) /θɔːt/. În unele cuvinte sună /oʊ/, precum în (though) /ðoʊ/, ori ca un u lung în (through) /θruː/. În altele se rostește /ʌf/, ca în (rough) /rʌf/.
 
-## Diferențe și capcane
+## Grupul ough în română
 
-Mulți cursanți români tind să pronunțe 'gh' ca un **f** peste tot sau să sune fiecare literă separat. Comparați pronunția din *thought* (`/θɔːt/`) cu cea din *tough* (`/tʌf/`) sau *through* (`/θruː/`). Înainte de 't', grupul nu conține niciodată sunetul [f], ci doar o vocală lungă.
+Vorbitorii de română încearcă adesea să citească literele g și h separat. Acest grup nu are niciun sunet asemănător literei h din română, ci se pronunță fie ca o vocală pură, fie cu sunetul f la final.

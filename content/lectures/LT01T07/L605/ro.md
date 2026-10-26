@@ -20,18 +20,18 @@ terms:
   ro: "wr-"
 ---
 
-## Sunetul grupului 'wr-'
+## Sunetul grupului wr
 
-Digraful **wr-** reprezintă o combinație cu literă mută, în care litera 'w' este complet ignorată în pronunție. Se rostește exclusiv ca un `/r/` englezesc postalveolar sonor, exact ca la începutul unui cuvânt ce începe doar cu 'r'. Spre deosebire de limba română, nu se produce niciun sunet rotunjit de tip 'u' sau 'v'.
+Grupul wr- se rostește /r/, la fel ca un r simplu. Îl auzi la începutul cuvântului (wrist) /rɪst/.
 
-## Cum se pronunță
+## Pronunția sunetului
 
-Nu încercați deloc să rostiți litera 'w'. Ridicați și retrageți vârful limbii spre cerul gurii fără a atinge palatul, lăsând aerul să curgă liber pe deasupra în timp ce coardele vocale vibrează. Porniți direct cu acest sunet `/r/` englezesc spre vocala următoare.
+Pentru acest sunet, ridică vârful limbii spre cerul gurii, fără să atingi deloc bolta palatină. Rotunjește puțin buzele și lasă aerul să treacă liber, vibrând corzile vocale.
 
-## Ortografie și poziție
+## Reguli de scriere
 
-Grupul de litere **wr-** apare aproape întotdeauna la începutul cuvintelor sau al rădăcinilor de origine germanică veche. În secolele trecute, ambele litere se pronunțau, însă primul sunet s-a pierdut treptat în limba modernă. Exemple frecvente includ termeni uzuali precum **write**, **wrong**, **wrist** sau **wreck**.
+La începutul cuvintelor, înainte de o vocală, acest grup se citește întotdeauna cu sunetul /r/, ca în (write) /raɪt/ sau în (wrong) /rɒŋ/. Prima literă nu se pronunță niciodată separat.
 
-## Comparații și erori frecvente
+## Capcane de pronunție
 
-Cea mai mare greșeală a vorbitorilor nativi de română este pronunțarea unui sunet parazit `/v/` sau `/w/` la început, crezând că 'w' se citește. Cuvinte precum **write** și **right** se pronunță identic, fiind omofone absolute. Aplicați regula simplă de a citi acest grup pur și simplu ca pe un singur sunet `r`.
+Vorbitorii de limbă română tind să citească prima literă sau să vibreze limba ca în cuvântul românesc repede. Nu rosti niciodată sunetul v și ține vârful limbii nemișcat, fără atingere.

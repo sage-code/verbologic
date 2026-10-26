@@ -20,18 +20,18 @@ terms:
   ro: "kn-"
 ---
 
-## Sunetul grupului „kn-”
+## Sunetul grupului kn
 
-În limba engleză modernă, digraful **kn-** se pronunță întotdeauna ca un simplu `/n/`, identic cu „n” din limba română. Litera **k** este complet mută și nu se rostește deloc în vorbirea standard. Din acest motiv, cuvinte precum **knight** (cavaler) și **night** (noapte) sunt omofone perfecte.
+Grupul kn- se pronunță cu sunetul /n/, exact ca în cuvântul (knee) /ni/. Prima literă este complet mută.
 
-## Cum se pronunță
+## Cum se pronunță kn
 
-Atingeți marginea alveolară din spatele dinților de sus cu vârful limbii pentru a bloca fluxul de aer prin gură. Permiteți aerului să iasă continuu prin nas în timp ce corzile vocale vibrează pentru a produce sunetul `/n/`. Nu încercați să pregătiți sau să articulați un sunet de tip `/k/` în spatele gâtului.
+Atingeți cerul gurii cu vârful limbii chiar în spatele dinților de sus. Coborâți vălul palatului și lăsați aerul să iasă liber pe nas, vibrând coardele vocale fără nicio oprire a aerului cu buzele.
 
-## Particularități de scriere
+## Ortografia grupului kn
 
-Secvența **kn-** apare de regulă la **începutul cuvintelor** de origine veche germanică, cum ar fi **knot**, **knee** sau **know**. Este o relicvă istorică dintr-o perioadă în care ambele consoane se pronunțau. O puteți întâlni și în cuvinte compuse precum **doorknob** sau **unknown**.
+La începutul unui cuvânt, înainte de o vocală, acest grup redă exclusiv sunetul /n/, precum în cuvântul (knot) /nɒt/.
 
-## Greșeli frecvente de pronunție
+## Dificultăți de pronunție
 
-Cea mai frecventă greșeală a vorbitorilor nativi de română este încercarea de a citi fonetic litera **k**. Pronunțarea cuvântului **knife** ca */knaif/* este incorectă și sună nenatural în engleză. Ignorați litera inițială și pronunțați direct sunetul `/n/`, la fel ca în cuvintele **no** sau **nine**.
+Vorbitorii de limbă română tind să citească prima literă și să rostească un c urmat de n. Nu pronunțați niciodată sunetul c la începutul acestui grup, ci treceți direct la n.

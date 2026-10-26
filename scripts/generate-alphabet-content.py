@@ -252,10 +252,17 @@ SPOKEN_FORM_RULES = (
     "then give the example.\n"
     "R11. The voice reads IPA through a respelling in the page's language, so "
     "two different symbols can come out identical (Romanian reads both /o/ and "
-    "/ɔ/ as \"o\"). When two variants of this letter would be heard the same, "
-    "add a short qualifier in the page's language right after the symbol "
-    "(\"sunetul /ɔ/, adică un o deschis\"). Never leave the learner unable to "
-    "tell the variants apart by ear.\n"
+    "/ɔ/ as \"o\", and both /æ/ and /ɑː/ as \"a\"). When two variants of this "
+    "letter would be heard the same, add a short qualifier in the page's "
+    "language right after the symbol (\"sunetul /ɔ/, adică un o deschis\"; "
+    "\"sunetul /æ/, adică un a deschis, între a și e\"). Never leave the "
+    "learner unable to tell the variants apart by ear.\n"
+    "R12. A GROUP article (\"-tion\", \"kn-\", \"-gh(t)\", \"th\") is about a "
+    "SPELLING, not a letter and not a word. Write the group's own spelling "
+    "bare, with no brackets and no IPA — it is the subject of the page. So "
+    "write \"grupul th se rotește ca sunetul /θ/\" and NEVER \"(th) /θ/\": the "
+    "brackets are reserved for real words, and a group is not a word. Only "
+    "real words take the `(word) /ipa/` form.\n"
 )
 
 PAGE_LIMITS = {"sound": 40, "howToSay": 45, "spelling": 55, "compare": 45}
@@ -326,6 +333,23 @@ def prompt_sections(
         if feedback
         else ""
     )
+    # Tell the model which variant pairs its reader's voice cannot distinguish,
+    # so it qualifies them in words instead of leaving two identical sounds.
+    collisions: list[str] = []
+    for entry in batch:
+        for locale in locales:
+            for ipa_a, ipa_b, spoken in colliding_variants(entry, locale):
+                collisions.append(
+                    f"  {entry.get('code')} [{locale}]: {ipa_a} and {ipa_b} both "
+                    f"sound like \"{spoken}\" — qualify each in words"
+                )
+    collision_note = (
+        "\n\nSOUND COLLISIONS. In these languages the voice pronounces the two "
+        "symbols identically, so the page MUST add a short qualifier in words "
+        "after each symbol (rule R11):\n" + "\n".join(collisions) + "\n"
+        if collisions
+        else ""
+    )
     return (
         f"You are an expert {language} phonetician and teacher writing the "
         f"alphabet reference articles of a language-learning site. The target "
@@ -365,7 +389,7 @@ def prompt_sections(
         "the nearest sound of THEIR language. Each mistake once, using words "
         "of the learner's language only. If there is no real pitfall, say so in "
         "one sentence.\n\n"
-        f"{SPOKEN_FORM_RULES}\n"
+        f"{SPOKEN_FORM_RULES}{collision_note}\n"
         "Return ONLY JSON of the shape "
         '{"items":[{"code":"L001","sections":{"<locale>":{"sound":{"title":"...",'
         '"text":"..."},"howToSay":{...},"spelling":{...},"compare":{...}}}}]}, '
@@ -402,6 +426,59 @@ def entry_words(entry: dict[str, Any]) -> dict[str, set[str]]:
     return words
 
 
+def respell(ipas: list[str], locale: str) -> list[str]:
+    """What each IPA span will SOUND like in `locale`, via the real transliterator.
+
+    The validator has to judge the recording, not the page: two different
+    symbols can respell to the same string in the reader's language (Romanian
+    reads both /æ/ and /ɑː/ as "a"), and a page that lists them without a
+    qualifier leaves the learner unable to tell the variants apart by ear.
+    Delegating to scripts/lib/ipa-translit.mjs keeps this check honest — a
+    Python copy of the map would drift from the one the audio is built with.
+    """
+    if not ipas:
+        return []
+    payload = json.dumps([{"ipa": ipa, "lang": locale} for ipa in ipas]).encode("utf-8")
+    try:
+        done = subprocess.run(
+            ["node", str(ROOT / "scripts" / "lib" / "respell-cli.mjs")],
+            input=payload,
+            capture_output=True,
+            timeout=60,
+        )
+    except (OSError, subprocess.SubprocessError):
+        return []
+    if done.returncode != 0:
+        return []
+    try:
+        return [str(x) for x in json.loads(done.stdout.decode("utf-8"))]
+    except (ValueError, TypeError):
+        return []
+
+
+def colliding_variants(entry: dict[str, Any], locale: str) -> list[tuple[str, str, str]]:
+    """Variant pairs that the voice would pronounce identically.
+
+    Returns `(ipa_a, ipa_b, respelling)` for each pair of the letter's own
+    variants whose respelling in `locale` is the same. The page must then
+    qualify them in words ("un a deschis", "un a lung"), because the symbols
+    alone are indistinguishable once spoken.
+    """
+    ipas = [str(v.get("ipa") or "").strip() for v in entry.get("variations") or []]
+    ipas = [ipa for ipa in ipas if ipa and ipa != "/∅/"]
+    if len(ipas) < 2:
+        return []
+    spoken = respell(ipas, locale)
+    if len(spoken) != len(ipas):
+        return []
+    out: list[tuple[str, str, str]] = []
+    for i in range(len(ipas)):
+        for j in range(i + 1, len(ipas)):
+            if spoken[i] and spoken[i] == spoken[j]:
+                out.append((ipas[i], ipas[j], spoken[i]))
+    return out
+
+
 def bare_foreign_words(text: str, facts: dict[str, set[str]]) -> list[str]:
     """Target-language words written outside the `(word) /ipa/` pair.
 
@@ -420,6 +497,23 @@ def bare_foreign_words(text: str, facts: dict[str, set[str]]) -> list[str]:
     ]
 
 
+def bare_group_glyph(text: str, glyph: str | None) -> str | None:
+    """A group's own spelling written bare in the prose — or None.
+
+    A group article ("-gh(t)", "kn-", "-tion") is ABOUT that spelling, so the
+    prose has to be able to name it; the `(word) /ipa/` rule is for words, and
+    a group is not a word. What must not happen is the group's spelling being
+    read as a target-language word, so it is allowed bare but never inside the
+    brackets of a pair.
+    """
+    if not glyph or len(glyph) < 2:
+        return None
+    for word, _ipa in BRACKETED_WITH_IPA.findall(text):
+        if word.strip().lower() == glyph.strip().lower():
+            return word
+    return None
+
+
 #: Single letters that are also ordinary words of the explanation languages
 #: ("a", "e", "o", "i" in Romanian; "a" in every Romance language, "A" at the
 #: start of an English sentence). Written as a bare glyph they are far more
@@ -436,13 +530,28 @@ def bare_glyph(text: str, glyph: str | None) -> str | None:
     language reads a bare glyph as ITS OWN letter name: a Romanian voice says
     "ce" for a French **c**, which is the wrong sound. The prose therefore
     names the letter by its name, in the `(name) /ipa/` form.
+
+    Only SINGLE characters are checked. A group's glyph ("oi", "th", "-tion")
+    is a spelling pattern, not a letter name, and it is also the group's own
+    name — so the prose has to be able to write it, and a voice reading "oi"
+    produces roughly the intended diphthong rather than a wrong letter name.
     """
-    if not glyph or len(glyph) > 3 or glyph.lower() in WORD_LIKE_GLYPHS:
+    if not glyph or len(glyph) > 1 or glyph.lower() in WORD_LIKE_GLYPHS:
         return None
     outside = IPA_SPAN.sub(" ", BRACKETED_WITH_IPA.sub(" ", text))
     outside = re.sub(r"\*\*([^*]+)\*\*", r"\1", outside)
     match = re.search(rf"(?<![\w(]){re.escape(glyph)}(?![\w)])", outside)
     return match.group(0) if match else None
+
+
+def is_group(entry: dict[str, Any]) -> bool:
+    """True for a letter-GROUP entry ("-tion", "kn-", "ea"), false for a letter.
+
+    A group is about a spelling, so the rules that protect a letter's name do
+    not apply: its glyph may contain brackets or a hyphen, and the prose has to
+    be able to write it bare.
+    """
+    return str(entry.get("kind") or "").lower() == "group" or len(str(entry.get("glyph") or "")) > 1
 
 
 def validate_sections(
@@ -468,25 +577,38 @@ def validate_sections(
             if not str(page.get("title") or "").strip():
                 problems.append(f"{tag} title is missing")
             title = str(page.get("title") or "")
-            if "(" in title or "/" in title:
+            # A group's own spelling may legitimately contain brackets
+            # ("-gh(t)"), so only the IPA check applies to it.
+            if "/" in title or ("(" in title and not is_group(entry)):
                 problems.append(
                     f"{tag} title must name the letter plainly — no brackets and no IPA "
                     "(the title is not read aloud)"
                 )
             text = str(page["text"]).strip()
-            if re.search(r"[`\[\]|#<>\n]", text):
+            # A group's own spelling may contain brackets or a hyphen
+            # ("-gh(t)", "-tion"), so a STANDALONE occurrence of it is removed
+            # before the markup and bracket checks. Only standalone: a plain
+            # substring replace would mangle every word that contains the
+            # group ("th" inside "think").
+            checked = text
+            glyph_text = str(entry.get("glyph") or "")
+            if is_group(entry) and glyph_text:
+                checked = re.sub(
+                    rf"(?<![\w]){re.escape(glyph_text)}(?![\w])", " ", checked
+                )
+            if re.search(r"[`\[\]|#<>\n]", checked):
                 problems.append(f"{tag} uses forbidden markup (backtick, [ ], |, #, < >, line break)")
-            if re.sub(r"\*\*[^*]+\*\*", "", text).count("*"):
+            if re.sub(r"\*\*[^*]+\*\*", "", checked).count("*"):
                 problems.append(f"{tag} uses markup other than **bold**")
-            outside_ipa = IPA_SPAN.sub(" ", text)
+            outside_ipa = IPA_SPAN.sub(" ", checked)
             if "/" in outside_ipa:
                 problems.append(f"{tag} has a slash that is not around IPA")
             if IPA_ONLY_CHARS.search(re.sub(r"\([^()]*\)", " ", outside_ipa)):
                 problems.append(f"{tag} has IPA characters outside slashes")
-            if text.count("(") != text.count(")"):
+            if checked.count("(") != checked.count(")"):
                 problems.append(f"{tag} has unbalanced round brackets")
-            brackets = BRACKETED.findall(text)
-            paired = BRACKETED_WITH_IPA.findall(text)
+            brackets = BRACKETED.findall(checked)
+            paired = BRACKETED_WITH_IPA.findall(checked)
             if len(brackets) != len(paired):
                 problems.append(
                     f"{tag} every round bracket must hold ONE target word followed by a space and its /ipa/ "
@@ -496,7 +618,13 @@ def validate_sections(
                 key_word = word.strip().lower()
                 known = facts.get(key_word)
                 if known is None:
-                    problems.append(f"{tag} ({word}) is not a word from FACTS")
+                    if is_group(entry) and key_word == str(entry.get("glyph") or "").strip().lower():
+                        problems.append(
+                            f"{tag} writes the group's own spelling '({word})' as if it were a word; "
+                            "a group is written bare, with no brackets and no IPA (rule R12)"
+                        )
+                    else:
+                        problems.append(f"{tag} ({word}) is not a word from FACTS")
                 elif ipa not in known:
                     problems.append(
                         f"{tag} ({word}) must be followed by exactly "
@@ -509,17 +637,23 @@ def validate_sections(
                     if previous and previous != key:
                         problems.append(f"{tag} ({word}) is already used on page {previous}")
                     seen.setdefault(key_word, key)
-            for word in bare_foreign_words(text, facts):
+            for word in bare_foreign_words(checked, facts):
                 problems.append(
                     f"{tag} writes the target-language word '{word}' outside the (word) /ipa/ pair; "
                     "the voice would read it with the wrong rules"
+                )
+            group = bare_group_glyph(checked, entry.get("glyph"))
+            if group:
+                problems.append(
+                    f"{tag} puts the group's own spelling '{group}' inside the (word) /ipa/ brackets; "
+                    "a group is not a word — write it bare and give a real word as the example"
                 )
             if "/∅/" in text:
                 problems.append(
                     f"{tag} writes /∅/ in the prose; the voice reads it as a word — say in words that "
                     "the letter is not pronounced"
                 )
-            glyph = bare_glyph(text, entry.get("glyph"))
+            glyph = bare_glyph(checked, entry.get("glyph"))
             if glyph:
                 problems.append(
                     f"{tag} writes the bare glyph '{glyph}'; the voice reads it as the letter name of "
@@ -528,6 +662,26 @@ def validate_sections(
             words = len(outside_ipa.split())
             if words > round(PAGE_LIMITS[key] * 1.15):
                 problems.append(f"{tag} has {words} words, the limit is {PAGE_LIMITS[key]}")
+        # Two variants the voice pronounces identically must be told apart in
+        # words, or the learner hears the same sound twice with no way to know
+        # which is which. Checked once per locale, on the page that lists them.
+        for ipa_a, ipa_b, spoken in colliding_variants(entry, locale):
+            if not any(
+                ipa_a in str((page_set.get(key) or {}).get("text") or "")
+                and ipa_b in str((page_set.get(key) or {}).get("text") or "")
+                for key in SECTION_KEYS
+            ):
+                continue
+            qualified = any(
+                re.search(rf"{re.escape(ipa_a)}[^./]{{0,40}}(adică|that is|es decir|c'est-à-dire|das heißt|то есть|azaz|ou seja|cioè)", str((page_set.get(key) or {}).get("text") or ""), re.IGNORECASE)
+                or re.search(rf"{re.escape(ipa_b)}[^./]{{0,40}}(adică|that is|es decir|c'est-à-dire|das heißt|то есть|azaz|ou seja|cioè)", str((page_set.get(key) or {}).get("text") or ""), re.IGNORECASE)
+                for key in SECTION_KEYS
+            )
+            if not qualified:
+                problems.append(
+                    f"[{locale}] variants {ipa_a} and {ipa_b} both sound like '{spoken}' in this "
+                    "language; qualify them in words so the learner can tell them apart by ear"
+                )
     return problems
 
 

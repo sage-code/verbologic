@@ -20,18 +20,18 @@ terms:
   ro: "ee in tree (copac)"
 ---
 
-## Sunetul grupului 'ee'
+## Sunetul grupului ee
 
-Grupul de litere **ee** reprezintă vocala lungă și închisă `/iː/`, similară cu un **i** românesc rostit mai lung și mai tensionat. Spre deosebire de vocala scurtă românească, varianta engleză necesită o poziție mai fixă și o durată vizibil prelungită în silabe accentuate. În engleză, această combinație indică aproape invariabil acest sunet clar.
+Această literă dublă redă sunetul /iː/, un i lung, ca în cuvântul (tree) /triː/. Numele său rostit este tot sunetul /iː/, adică un i lung.
 
 ## Cum se pronunță
 
-Întindeți colțurile buzelor într-un zâmbet discret, menținând buzele relaxate dar ferme. Ridicați partea din față a limbii foarte aproape de cerul gurii, fără a bloca fluxul de aer. Păstrați mușchii limbii tensionați și lăsați corzile vocale să vibreze continuu pentru a genera un `/iː/` susținut.
+Pentru sunetul lung, întinde buzele într-un zâmbet și ține limba ridicată în față. Pentru varianta scurtă, relaxează puțin buzele și coboară limba doar o idee.
 
-## Ortografie și poziție
+## Reguli de pronunție
 
-Secvența **ee** este una dintre cele mai regulate grafii din limba engleză, apărând des în cuvinte precum **feel**, **green** sau **free**. Spre deosebire de litera simplă **e**, dublarea garantează aproape întotdeauna pronunția lungă, rareori reducându-se la un sunet neutru.
+În mod obișnuit, această literă dublă redă sunetul /iː/, un i lung, ca în (see) /siː/ sau (feed) /fiːd/. Într-o serie restrânsă de excepții, se rostește ca sunetul /ɪ/, un i scurt și relaxat, ca în (been) /bɪn/.
 
-## Diferențe și capcane frecvente
+## Capcane de pronunție
 
-Cea mai mare capcană pentru vorbitorii de română este confuzia dintre sunetul lung `/iː/` din **feet** și cel scurt `/ɪ/` din **fit**. Nu scurtați durata vocalei și asigurați-vă că tensiunea musculară a limbii rămâne ridicată pe tot parcursul emiterii sunetului.
+Vorbitorii de română tind să folosească mereu sunetul din cuvântul fir. Nu scurta vocala lungă și nu o înlocui pe cea scurtă cu un sunet prea tensionat.

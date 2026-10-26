@@ -20,18 +20,18 @@ terms:
   ro: "-stle"
 ---
 
-## Sunetul grupului -stle
+## Grupul stle
 
-Grupul de litere final **-stle** se pronunță `/səl/` (sau `/sl̩/`), litera **t** fiind complet mută. După sunetul `/s/`, urmează o vocală redusă foarte scurtă (schwa) și un `/l/` englezesc. Spre deosebire de limba română, unde litera **t** se pronunță întotdeauna clar (ca în „castel”), în engleză acest sunet lipsește cu desăvârșire.
+Grupul de litere -stle are denumirea rostită /səl/. Sunetul său principal este redat prin /səl/, ca în cuvântul (castle) /kɑː.səl/.
 
 ## Cum se pronunță
 
-Apropie dinții ușor și plasează vârful limbii aproape de cerul gurii pentru a șuiera un sunet `/s/` curat. Fără pauză și fără a articula un **t**, glisează limba pentru a atinge gingia superioară cu vârful, permițând aerului să treacă prin părțile laterale pentru a forma un `/l/`. Trecerea trebuie să fie lină și rapidă, ca și cum ai rosti direct silaba „săl”.
+Apropie dinții și lasă aerul să șuiere fără voce pentru sunetul /s/. Apoi atinge cerul gurii cu vârful limbii și coboară marginile acesteia pentru sunetul /l/, adăugând vibrația corzilor vocale.
 
-## Particularități de scriere
+## Reguli de scriere
 
-Acest grup de litere se întâlnește doar la finalul cuvintelor, după o vocală accentuată, ca în **castle**, **whistle** sau **nestle**. Litera **e** finală este mută, având doar un rol ortografic istoric asociat consoanei silabice. În ciuda prezenței literei **t**, aceasta nu se pronunță niciodată în aceste forme derivate vechi.
+La finalul cuvintelor, litera t rămâne complet mută, iar grupul se aude /səl/, ca în termenul (rustle) /rʌ.səl/.
 
-## Diferențe și capcane frecvente
+## Capcane de pronunție
 
-Cea mai frecventă greșeală a vorbitorilor de română este pronunțarea literei **t** influențată de forma scrisă sau de cuvinte similare din română (precum *castel*). Cuvinte ca **castle** și **hassle** rimează perfect la final. Ține minte să ignori complet litera **t** din aceste substantive și verbe.
+Vorbitorii de limba română au tendința de a rosti litera t din acest grup. Nu citi litera t ca în cuvântul românesc castel, ci treci direct de la s la l.

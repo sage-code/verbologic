@@ -20,18 +20,18 @@ terms:
   ro: "st in star (stea)"
 ---
 
-## Sunetul grupului „st”
+## Sunetul grupului st
 
-Grupul de consoane **st** se pronunță identic cu secvența românească din cuvinte precum *stea* sau *cost*, reprezentată în fonetică prin `/st/`. Particularitatea esențială în limba engleză este că sunetul `/t/` de după `/s/` este complet **neaspirat**, adică nu este însoțit de acea expulzie de aer specifică unui `/t/` inițial. Articularea este fermă, clară și cursivă.
+Acest grup se numește sunetul /st/. În mod obișnuit redă secvența /st/, ca în cuvântul (stop) /stɒp/.
 
-## Cum se pronunță /st/
+## Cum se pronunță grupul st
 
-Apropie vârful limbii de creasta alveolară din spatele dinților de sus și eliberează un flux continuu de aer pentru a crea șuieratul lui `/s/`. Imediat după aceea, blochează complet aerul lipind limba de cerul gurii pentru a forma consoana `/t/`. Eliberează sunetul direct în vocala următoare, fără pauze sau sunete suplimentare între cele două consoane.
+Apropie dinții și lasă aerul să șuiere peste vârful limbii pentru sunetul /s/. Apoi blochează aerul pe cerul gurii și eliberează-l brusc fără voce pentru sunetul /t/.
 
-## Ortografie și poziții
+## Ortografia grupului st
 
-Combinația **st** este extrem de frecventă la începutul, mijlocul și sfârșitul cuvintelor englezești, cum ar fi în *stay*, *sister* și *first*. O capcană ortografică importantă apare în cuvinte de origine veche precum *castle*, *fasten* sau *listen*, unde litera **t** este complet mută, pronunțându-se doar sunetul `/s/`.
+În cele mai multe poziții se aude secvența /st/, ca în (fast) /fɑːst/. În anumite cuvinte litera t este mută înainte de le sau en, auzindu-se doar sunetul /s/, de pildă în (castle) /kɑː.səl/ ori (listen) /lɪs.ən/.
 
-## Diferențe și greșeli frecvente
+## Grupul st față de română
 
-Vorbitorii de limbă română nu întâmpină de obicei probleme majore cu această secvență, dar trebuie să evite separarea sunetelor printr-o mică vocală de tranziție. De asemenea, ai grijă să nu adaugi un suflu de aer după `/t/`; acesta trebuie să fie scurt și uscat, exact ca în română, spre deosebire de un `/t/` de la început de cuvânt.
+Pronunția este similară cu sunetele s și t din cuvintele românești. Capcana apare când litera t este mută în engleză, vorbitorii români având tendința de a o citi întotdeauna.

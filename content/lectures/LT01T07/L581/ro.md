@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## Sunetul /ɑː/
+## Sunetul literei A
 
-În cuvântul de referință **father**, litera **A** redă vocala deschisă posterioară `/ɑː/`. Spre deosebire de sunetul **a** standard din limba română, care este o vocală centrală, acest sunet englezesc este articulat considerabil mai în spate în cavitatea bucală. În pronunția britanică standard, el este de regulă și o vocală lungă, susținută.
+Litera (A) /ɑː/ are ca pronunție de bază sunetul /æ/, adică un sunet deschis între a și e, ca în cuvântul (apple) /æp.əl/. Numele acestei litere se rostește (A) /ɑː/.
 
-## Cum se pronunță
+## Pronunția literei A
 
-Coborâți maxilarul inferior într-o deschidere generoasă și păstrați buzele complet relaxate, fără a le rotunji. Trageți corpul limbii ușor spre gât, menținând vârful limbii jos, în spatele dinților inferiori. Emiteți un sunet profund și stabil, exact ca atunci când medicul vă roagă să spuneți „a” pentru a vă examina gâtul.
+Pentru sunetul scurt, coboară maxilarul și întinde buzele într-un zâmbet larg. Pentru sunetul lung, pornește din poziția vocalei e și glisează ușor spre i. Pentru sunetul neutru, relaxează complet limba și maxilarul în centrul gurii.
 
-## Reguli de scriere
+## Ortografia literei A
 
-Litera **A** redă această valoare fonetică în cuvinte de bază precum *father*, dar și în împrumuturi ca *spa* sau înainte de litere mute precum în *calm*. În engleza britanică, ea apare frecvent înainte de grupuri consonantice precum *ss*, *st* sau *ft* (de exemplu, *pass*, *fast*). Majuscula **A** se scrie din două linii oblice unite sus și o bară orizontală, iar minuscula **a** dintr-un cerc unit cu o linie verticală scurtă.
+În silabe închise produce sunetul /æ/, adică a deschis, ca în (cat) /kæt/. În silabe deschise sau înaintea unui e mut sună /eɪ/, precum în (cake) /keɪk/. În silabe neaccentuate devine sunetul /ə/, ca în (about) /ə.baʊt/. Înaintea consoanei r se pronunță /ɑː/, adică un a lung, ca în (father) /fɑː.ðər/.
 
-## Comparație și greșeli frecvente
+## Diferențe față de română
 
-Nu confundați sunetul `/ɑː/` din *father* cu vocala anterioară `/æ/` din *cat* sau cu diftongul `/eɪ/` din *make*. Vorbitorii de limbă română tind adesea să pronunțe un **a** prea scurt și frontal sau să rotunjească involuntar buzele spre un sunet apropiat de **o**. Asigurați-vă că deschiderea maxilarului este largă și că buzele rămân neutre.
+Vorbitorii de română tind să înlocuiască sunetul intermediar cu vocala clară a din cuvântul cal. De asemenea, evită pronunțarea sunetului neutru ca un ă românesc prea închis sau prea apăsat.

@@ -20,18 +20,18 @@ terms:
   ro: "ch"
 ---
 
-## Sunetul grupului ‘ch’ de origine greacă
+## Sunetul grupului ch
 
-În cuvintele preluate din limba greacă veche, digraful **ch** se pronunță ca o oclusivă velară surdă `/k/`. Acest sunet este perfect echivalent cu **c** din cuvântul românesc *cal* sau **ch** din *chitară*. Vorbitorii de română tind adesea să citească eronat acest grup ca un ceacâz `/tʃ/` (sunetul *ce/ci* din română).
+Grupul ch se numește /k/. Sunetul său principal este sunetul /tʃ/, ca în cuvântul (chin) /tʃɪn/.
 
-## Cum se pronunță
+## Pronunția grupului ch
 
-Ridicați partea posterioară a limbii și presați-o ferm de cerul moale al gurii (vălul palatin) pentru a bloca complet aerul. Eliberați brusc această blocadă printr-o explozie scurtă și puternică de aer fără a vibra corzile vocale. Sunetul trebuie să fie curat și uscat, exact ca un *k* standard.
+Pentru sunetul /tʃ/, atinge cerul gurii cu vârful limbii și dă drumul aerului cu fricțiune. Pentru sunetul /k/, blochează aerul cu spatele limbii. Pentru sunetul /ʃ/, rotunjește ușor buzele și lasă aerul să treacă continuu.
 
-## Particularități ortografice
+## Ortografia grupului ch
 
-Pronunția `/k/` pentru grupul **ch** este rezervată termenilor științifici, medicali sau culturali proveniți din greacă. O găsim la începutul cuvintelor (*chorus*, *chemistry*), în interior (*echo*, *technology*) sau la final (*monarch*, *stomach*). În toate aceste cazuri, grupul transcrie litera grecească hi (Χ/χ).
+În cuvintele englezești native, ch redă sunetul /tʃ/, ca în (rich) /rɪtʃ/. În cuvintele de origine greacă, redă sunetul /k/, ca în (echo) /ɛk.oʊ/ sau (ache) /eɪk/. În împrumuturile din franceză, redă sunetul /ʃ/, ca în (chef) /ʃɛf/ sau (chic) /ʃiːk/.
 
-## Atenție la confuzii
+## Capcane de pronunție
 
-Nu confundați pronunția `/k/` din *chorus* cu sunetul obișnuit `/tʃ/` din cuvintele native precum *chest* sau cu `/ʃ/` din împrumuturile franceze ca *machine*. O greșeală des întâlnită este pronunțarea cuvântului *chorus* ca și cum ar începe cu *cior-*. Învățați să recunoașteți rădăcinile grecești pentru a selecta sunetul corect `/k/`.
+În limba română, acest grup de litere se citește doar k înaintea vocalelor e și i. În engleză, sunetul cel mai des întâlnit este cel din cuvântul românesc ceai.

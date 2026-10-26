@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## Sunetul literei Y în engleză
+## Sunetul literei Y
 
-În cuvinte de origine greacă precum **myth**, litera **Y** funcționează ca o vocală și redă sunetul `/ɪ/`. Acesta este un sunet scurt și relaxat, foarte apropiat de un **i** românesc scurt, dar rostit cu mușchii feței mult mai destinși. Nu trebuie confundat cu sunetul lung și tensionat din **see**.
+Litera (Y) /ɪ/ se numește în limba engleză ca sunetul vocalic scurt. Cel mai des reprezintă o semivocală, ca în cuvântul (yes) /jɛs/.
 
-## Cum se pronunță /ɪ/
+## Pronunția literei Y
 
-Deschideți ușor buzele fără a le rotunji deloc și relaxați mușchii gurii. Ridicați partea din față a limbii spre cerul gurii, însă țineți-o ceva mai jos decât la un **i** plin românesc. Emiteți un sunet scurt și ferm, fără să prelungiți vocala.
+Pentru semivocală, ridică limba aproape de cerul gurii și lasă corzile vocale să vibreze scurt. Pentru vocale, gura trece de la o deschidere largă spre una îngustă, sau menține limba relaxată spre palat.
 
-## Ortografie și tipare pentru Y
+## Reguli de citire
 
-Litera **Y** este unică în limba engleză, funcționând atât ca vocală, cât și ca semivocală sau consoană. Redă sunetul `/ɪ/` mai ales în interiorul rădăcinilor de origine greacă, cum ar fi **gym** sau **crystal**. La final de cuvânt devine adesea un `/i/` scurt (ca în **happy**) sau diftongul `/aɪ/` (ca în **cry**).
+La început de silabă înainte de vocală redă semivocala, ca în (yard) /jɑːd/. Neaccentuată la final de cuvânt sună ca /i/, adică un i lung și curat, ca în (happy) /hæ.pi/. În silabă deschisă accentuată se aude /aɪ/, ca în (my) /maɪ/. În silabă închisă accentuată devine /ɪ/, adică un i scurt și relaxat, ca în (myth) /mɪθ/.
 
-## Comparații și greșeli frecvente
+## Capcane de pronunție
 
-Nu confundați pronunția scurtă `/ɪ/` din **myth** cu diftongul `/aɪ/` din **fly** sau **rhyme**. Vorbitorii de limba română tind uneori să o pronunțe prea lung sau prea ascuțit, transformând-o într-un **i** dur. Asigurați-vă că emiteți o vocală relaxată, identică cu cea din cuvântul **bit**.
+Vorbitorii de limba română tind să pronunțe mereu un i plin și tensionat. În silabele închise, relaxează buzele și limba pentru a nu confunda sunetul scurt cu cel din cuvintele românești.

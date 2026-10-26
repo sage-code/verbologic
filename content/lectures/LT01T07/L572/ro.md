@@ -20,18 +20,18 @@ terms:
   ro: "T"
 ---
 
-## Sunetul literei T
+## Sunetul literei ti
 
-Litera **T** reprezintă o consoană oclusivă alveolară surdă, notată în AFI ca `/t/`. Spre deosebire de limba română, unde **t** este dental (vârful limbii atinge dinții), în engleză limba atinge gingia din spatele dinților superiori. La începutul silabelor accentuate, sunetul este însoțit de o ușoară expulzie de aer numită **aspirație**.
+Numele acestei litere este (T) /tiː/. Cel mai des redă sunetul /t/, ca în cuvântul (ten) /tɛn/.
 
-## Cum se pronunță T
+## Pronunția sunetelor literei
 
-Așează vârful limbii direct pe **creasta alveolară**, zona tare și bombată aflată chiar deasupra dinților superiori din față. Oprește fluxul de aer pentru o clipă fără a activa corzile vocale. Coboară limba brusc pentru a elibera aerul cu o pocnitură scurtă și clară.
+Pentru sunetul /t/, atinge cu vârful limbii zona din spatele dinților de sus, oprește aerul și eliberează-l brusc fără voce. Pentru varianta bătută, atinge rapid cerul gurii o singură dată.
 
-## Particularități ortografice
+## Reguli de citire
 
-Litera apare sub formele `T` mare și `t` mic, fiind frecvent dublată în cuvinte precum *letter* sau *bottle*. În combinație cu **h** formează digraful **th** (`/θ/` sau `/ð/`), iar în terminația *-tion* se citește `/ʃ/` (*station*). Atenție la cuvinte precum *listen* sau *castle*, unde litera **t** este complet mută.
+La început de cuvânt sau în silabe accentuate, se citește sunetul /t/, ca în (top) /tɒp/. Între două vocale înaintea unei silabe neaccentuate, devine sunetul /ɾ/, ca în (water) /wɔː.tər/. În anumite grupuri de litere din mijlocul cuvintelor este mută, ca în (listen) /lɪs.ən/.
 
-## Variații și greșeli frecvente
+## Capcane de pronunție
 
-Cea mai frecventă greșeală a vorbitorilor de română este pronunțarea unui sunet dental, fără aspirație la început de cuvânt. În engleza americană, **t** plasat între vocale devine adesea un „flap” `/ɾ/` (*water* sună asemănător cu un **r** românesc foarte scurt). În registrul colocvial britanic, **t** la final de silabă este adesea înlocuit cu o ocluziune glotală `/ʔ/`.
+În limba română, sunetul t din cuvântul tren este dental, cu limba pe dinți. În engleză, vârful limbii trebuie tras mai în spate, pe gingie, lăsând să iasă o mică răsuflare de aer.

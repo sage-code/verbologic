@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## Prezentare Generală a Sunetului
+## Sunetul literei ei
 
-Litera **A** notează mai multe vocale în limba engleză, cea mai caracteristică fiind vocala scurtă `/æ/` întâlnită în **apple**. Spre deosebire de sunetul clar și deschis **/a/** din limba română, englezescul `/æ/` este mai întins și orientat spre **/e/**. În silabele neaccentuate, **A** se reduce aproape întotdeauna la sunetul neutru schwa `/ə/`, foarte asemănător cu **ă** din română.
+Numele acestei litere este (A) /eɪ/. Sunetul său principal este sunetul /æ/, adică un a deschis între a și e, ca în cuvântul (apple) /æ.pəl/.
 
-## Cum se Pronunță
+## Pronunția sunetelor literei
 
-Pentru a rosti sunetul `/æ/` din **apple**, deschideți gura moderat și trageți colțurile buzelor ușor în lateral, ca la un zâmbet discret. Vârful limbii trebuie să stea sprijinit în spatele dinților inferiori, iar partea din mijloc a limbii rămâne coborâtă. Nu rotunjiți buzele și asigurați-vă că nu pronunțați un simplu 'a' românesc curat.
+Pentru sunetul deschis, coboară maxilarul și întinde buzele cu limba în față. Pentru diftong, glisează limba din poziție medie spre una mai închisă. Pentru sunetul neutru, relaxează complet gura. Pentru sunetul lung din spate, deschide larg gura cu limba retrasă.
 
-## Reguli de Ortografie
+## Reguli de pronunțare
 
-Litera se scrie ca majusculă **A** și ca minusculă **a**. Într-o silabă închisă, terminată într-o consoană, litera redă de regulă vocala scurtă `/æ/` (de exemplu în **map** sau **hat**). Dacă este urmată de o consoană și de un 'e' mut, **A** se citește ca diftongul `/eɪ/`, ca în cuvintele **cake** sau **plane**.
+Într-o silabă închisă accentuată, redă sunetul /æ/, un a deschis, ca în (cat) /kæt/. Într-o silabă deschisă accentuată ori înaintea unei consoane urmate de e mut, se aude (make) /meɪk/. În silabe neaccentuate, devine sunetul neutru /ə/, ca în (sofa) /soʊ.fə/. Înainte de anumite consoane, redă sunetul /ɑː/, un a lung și profund, ca în (father) /fɑː.ðər/.
 
-## Diferențe și Erori Comune
+## Capcane pentru vorbitorii români
 
-Vorbitorii de română tind să înlocuiască sunetul `/æ/` cu un **a** central românesc sau cu un **e**, ceea ce creează confuzii între perechi de cuvinte precum **pan** și **pen**. De asemenea, pronunțarea literei ca o vocală plină în silabe neaccentuate este o greșeală frecventă; cuvinte ca **about** încep cu un sunet echivalent cu **ă** (`/ə/`), nu cu un **a** deschis.
+Vorbitorii de limbă română tind să înlocuiască sunetul deschis dintre a și e cu vocala curată din cuvântul cal. De asemenea, sunetul lung din spate nu trebuie rostit ca un a românesc scurt și frontal.

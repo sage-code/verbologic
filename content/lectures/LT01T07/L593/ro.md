@@ -20,18 +20,18 @@ terms:
   ro: "T"
 ---
 
-## Sunetul literei T
+## Sunetul literei ti
 
-Litera **T** redă consoana ocluzivă alveolară surdă `/t/`. Spre deosebire de limba română, unde sunetul este dental și vârful limbii atinge dinții de sus, în engleză limba atinge **creasta alveolară** (zona bombată din spatele dinților). La începutul silabelor accentuate, acest sunet este însoțit de o ușoară expulzie de aer numită aspirație.
+Numele acestei litere se rostește (T) /t/. Sunetul său principal este sunetul /t/, auzit în cuvântul (top) /tɑp/.
 
 ## Cum se pronunță
 
-Așază vârful limbii ferm pe creasta alveolară, chiar deasupra dinților superiori, fără a atinge dinții propriu-ziși. Oprește fluxul de aer pentru o fracțiune de secundă, fără ca corzile vocale să vibreze. Eliberează limba brusc pentru a crea o mică explozie de aer curată și precisă.
+Atingeți gingia de sus cu vârful limbii pentru a bloca aerul, apoi eliberați-l brusc fără voce. Pentru varianta bătută, atingeți scurt aceeași zonă cu vibrația corzilor vocale.
 
-## Ortografie și tipare
+## Reguli de citire
 
-Litera **T** este extrem de frecventă în limba engleză, apărând simplă (*time*) sau dublată (*better*). Formează digraful comun **th**, care produce sunete total diferite (`/θ/` și `/ð/`). De asemenea, în sufixe precum *-tion* sau *-tial*, litera **T** se pronunță adesea ca un `/ʃ/` românesc.
+În mod obișnuit, litera redă sunetul /t/, ca în (ten) /tɛn/. Între vocale înaintea unei silabe neaccentuate, devine sunetul /ɾ/ bătut, ca în (butter) /bʌ.tər/. În grupuri de litere din interiorul cuvintelor, litera este mută, de pildă în (listen) /lɪs.ən/.
 
-## Variații și capcane
+## Capcane frecvente
 
-În engleza americană, **T** aflat între vocale devine adesea o bătaie scurtă `[ɾ]`, făcând ca *city* să sune similar cu un *d* foarte rapid. În engleza britanică colocvială, sunetul este uneori înlocuit la final de cuvânt cu o ocluziune glotală `[ʔ]`. Evită să atingi dinții când pronunți **t**, deoarece aceasta este cea mai frecventă greșeală a vorbitorilor de română.
+În limba română, atingeți dinții când spuneți sunetul din tren. În engleză, limba trebuie așezată mai sus, pe gingie, cu o mică explozie de aer.

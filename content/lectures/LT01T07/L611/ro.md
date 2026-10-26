@@ -20,18 +20,18 @@ terms:
   ro: "-gh(t)"
 ---
 
-## Sunetul grupului -gh(t)
+## Grupul de litere ght
 
-În limba engleză modernă, combinația **-ght** se pronunță pur și simplu ca un `/t/` obișnuit, literele **gh** fiind complet mute. Spre deosebire de română, unde fiecare literă scrisă are de regulă o corespondență sonoră, aici literele din mijloc nu se aud deloc. Sunetul final este foarte similar cu sunetul românesc din *tren*, doar că se pronunță pe alveole, nu pe dinți.
+Grupul -gh(t) se rostește sunetul /t/, ca în cuvântul (night) /naɪt/. Literele g și h nu se aud deloc în această combinație finală.
 
 ## Cum se pronunță
 
-Treceți direct de la vocala precedentă la sunetul `/t/` fără nicio fricativă intermediară. Așezați vârful limbii pe gingia din spatele dinților de sus (creasta alveolară), opriți scurt fluxul de aer și eliberați-l printr-o ușoară explozie. Coardele vocale nu vibrează deloc în timpul articulării.
+Atingeți dinții de sus cu vârful limbii și eliberați aerul dintr-o dată, fără să folosiți corzile vocale. Înaintea acestui sunet nu adăugați nicio consoană din gât.
 
-## Ortografie și tipare
+## Reguli de scriere
 
-Grupul **-ght** apare exclusiv spre mijlocul sau la finalul cuvintelor native englezești, cum ar fi *light*, *taught* sau *straight*. Prezența acestui grup influențează adesea vocala precedentă, transformând litera **i** în diftongul `/aɪ/` sau grupurile **ou/au** în vocala lungă `/ɔː/`. Nu încercați niciodată să separați literele în pronunție.
+Înaintea literei t, în combinația -ght, literele g și h sunt mute, ca în (light) /laɪt/. Același lucru este valabil și în cuvântul (sight) /saɪt/.
 
-## Diferențe și greșeli frecvente
+## Capcane frecvente
 
-Cea mai mare capcană pentru vorbitorii de română este tentația de a pronunța un sunet gutural precum `/g/` sau `/h/` înainte de `/t/`. Cuvinte precum *night* și *knight* se pronunță identic, ambele încheindu-se direct cu sunetul `/t/`. Exersați ignorarea vizuală a literelor **gh** pentru a obține o pronunție naturală.
+Vorbitorii de limba română au tendința să rostească un h aspirat sau un g dur înainte de t. Grupul gh este complet mut, așa că treceți direct la consoana finală.

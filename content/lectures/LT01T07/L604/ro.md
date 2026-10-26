@@ -20,18 +20,18 @@ terms:
   ro: "kn-"
 ---
 
-## Sunetul grupului 'kn-'
+## Grupul de litere kn
 
-În engleza modernă, digraful **kn-** se pronunță pur și simplu `/n/`. Litera **k** este complet mută, reflectând o ortografie istorică veche. Sunetul rezultat este identic cu 'n'-ul din limba română, exact ca în cuvântul *nor*.
+Grupul kn- se rostește ca sunetul /n/, exact ca în cuvântul (knee) /ni/. Prima literă este complet mută.
 
-## Cum se pronunță
+## Cum se pronunță kn
 
-Atingeți cu vârful limbii creasta alveolară din spatele dinților superiori din față pentru a bloca aerul prin gură. Permiteți aerului sonorizat să iasă liber pe nas, activând corzile vocale. Nu încercați deloc să rostiți un sunet 'c' înainte de a trece la 'n'.
+Atingeți cerul gurii cu vârful limbii, chiar în spatele dinților de sus. Lăsați aerul să iasă pe nas și folosiți corzile vocale.
 
-## Ortografie și poziție în cuvinte
+## Ortografia grupului kn
 
-Combinația **kn-** apare exclusiv la începutul rădăcinilor lexicale, precum în *knife*, *knee* sau *knock*. Din cauza literei **k** mute, creează perechi omofone foarte comune, cum ar fi *know* și *no*. Nu veți întâlni niciodată acest grup la final de cuvânt.
+La începutul cuvintelor, acest grup redă întotdeauna doar sunetul /n/, așa cum se aude în cuvântul (knot) /nɒt/, adică un o scurt și deschis.
 
-## Comparație și greșeli frecvente
+## Capcane de pronunție
 
-Cea mai frecventă greșeală a vorbitorilor nativi de română este încercarea de a citi ambele litere, spunând eronat 'c-nau' pentru *know*. Rețineți că în cuvinte precum *knight* `/naɪt/` sau *knot* `/nɒt/`, **k** nu se aude deloc, iar pronunția este identică cu cea a literei 'n' izolate.
+Vorbitorii de limba română au tendința de a pronunța prima literă, ca în cuvintele românești nod sau cană. Nu rostiți niciodată un sunet k înainte de n.

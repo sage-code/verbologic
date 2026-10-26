@@ -20,18 +20,18 @@ terms:
   ro: "G"
 ---
 
-## Sunetele literei G
+## Sunetul literei gi
 
-Litera **G** redă în mod uzual sunetul 'dur' `/ɡ/` sau sunetul 'moale' `/dʒ/` (similar cu **gi** / **ge** din limba română). În cuvântul **garden**, litera are valoarea fonetică `/ɡ/`, exact ca în cuvântul românesc *gard*. Este o oclusivă velară sonoră, pronunțată cu vibrația corzilor vocale.
+Numele acestei litere este (G) /dʒiː/. Cel mai des redă sunetul /ɡ/, ca în cuvântul (gas) /ɡæs/.
 
-## Cum se pronunță sunetul
+## Pronunțarea sunetelor literei gi
 
-Pentru a rosti sunetul `/ɡ/` din **garden**, ridicați partea posterioară a limbii și presați-o ferm de vălul palatului. Blocați scurt fluxul de aer în timp ce activați corzile vocale pentru a crea o rezonanță gravă. Desprindeți brusc limba pentru a elibera aerul cu o mică explozie sonoră.
+Pentru sunetul /ɡ/, atinge cerul gurii cu spatele limbii și eliberează aerul cu voce. Pentru sunetul /dʒ/, lipește vârful limbii în spatele dinților de sus, apoi desprinde-l formând un șuierat cu voce. Sunetul /ʒ/ este continuu, fără atingere completă.
 
-## Reguli de scriere și poziționare
+## Ortografia literei gi
 
-De regulă, **G** se citește `/ɡ/` înaintea vocalelor **a**, **o**, **u** și a consoanelor, ca în **garden** sau **green**. Înaintea literelor **e**, **i** și **y**, devine adesea sunetul românesc *gi/ge* (`/dʒ/`), ca în **giant**. În grupuri specifice precum **gn** sau **igh**, litera **G** este frecvent complet mută (*sign*, *light*).
+Înaintea literelor a, o, u, a consoanelor sau la sfârșit, redă sunetul /ɡ/, ca în (dog) /dɒɡ/. Adesea, înaintea literelor e, i sau y, produce sunetul /dʒ/, precum în (gem) /dʒɛm/. În împrumuturi franceze înaintea literelor e sau i, oferă sunetul /ʒ/, ca în (regime) /reɪ.ʒiːm/. Înaintea consoanelor n sau m, această literă nu se pronunță deloc, ca în (sign) /saɪn/.
 
-## Diferențe fonetice și capcane frecvente
+## Diferențe față de română
 
-Cea mai frecventă greșeală a vorbitorilor de română este aplicarea regulilor stricte din limba maternă asupra cuvintelor englezești native. De pildă, cuvinte fundamentale precum *give* sau *get* se pronunță cu `/ɡ/`, nu cu `/dʒ/`. De asemenea, atenție la neologismele franceze precum **garage**, unde al doilea **g** se pronunță `/ʒ/`.
+Sunetele /ɡ/, /dʒ/ și /ʒ/ seamănă bine cu g din gară, geam sau j din joc. Fii atent la litera mută din engleză, pe care românii tind să o citească.

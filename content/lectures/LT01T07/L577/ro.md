@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## Sunetul literei Y
+## Sunetul literei uai
 
-Litera **Y** funcționează atât ca o consoană, cât și ca o vocală în limba engleză. La începutul silabelor, ea reprezintă semivocala palatală `/j/`, identică cu sunetul *i* semivocalic din cuvântul românesc **iarbă**. În interiorul sau la finalul cuvintelor, se comportă ca o vocală, redând diftongul `/aɪ/` ca în **sky** sau vocala `/i/` ca în **party**.
+Numele acestei litere este (Y) /waɪ/. Sunetul său principal este consoana /j/, pe care o auzi la începutul cuvântului (yes) /jɛs/.
 
-## Cum se pronunță
+## Pronunția literei uai
 
-Pentru a rosti semivocala `/j/`, ridică partea din mijloc a limbii spre cerul gurii fără a bloca complet fluxul de aer. Activează corzile vocale și treci rapid și lin de la această poziție spre vocala care urmează imediat. Ai grijă să nu apeși prea tare limba pe cerul gurii, altfel vei produce o fricativă precum `/ʒ/` sau `/dʒ/`.
+Pentru consoană, ridică mijlocul limbii spre cerul gurii și lasă aerul sonor să alunece. Pentru vocale, mișcă limba din spate în față sau deschide gura relaxat, vibrând mereu corzile vocale.
 
-## Particularități ortografice
+## Ortografia literei uai
 
-La început de cuvânt, **Y** este întotdeauna o consoană, ca în **yes** sau **yellow**. În poziție mediană sau finală, funcționează ca o vocală și înlocuiește adesea litera **I**, ca în **gym** sau **city**. La adăugarea sufixelor, litera **y** precedată de o consoană se transformă de obicei în **i**, de exemplu în trecerea de la *carry* la *carried*.
+La început de silabă înaintea unei vocale redă sunetul /j/, ca în (yellow) /jɛl.oʊ/. La sfârșit neaccentuat dă sunetul /i/, un i lung și clar, ca în (happy) /hæp.i/. În silabe deschise accentuate redă diftongul /aɪ/, ca în (fly) /flaɪ/. În silabe închise produce sunetul /ɪ/, adică un i scurt și relaxat, ca în (gym) /dʒɪm/.
 
-## Capcane și comparații
+## Diferențe față de română
 
-Vorbitorii de limbă română pot fi tentați să pronunțe sunetul `/j/` cu o fricțiune prea puternică, făcând ca **yet** să sune asemănător cu **jet**. Menține fluxul de aer liber și neted, fără nicio explozie sau vibrație aspră pe cerul gurii. De asemenea, observă diferența dintre finalul lung `/aɪ/` din **fly** și finalul scurt `/i/` din **very**.
+Cea mai frecventă greșeală este pronunțarea sunetului scurt ca un i românesc tensionat, ca în cuvântul nisip. Menține gura mai relaxată pentru această vocală scurtă din engleză.

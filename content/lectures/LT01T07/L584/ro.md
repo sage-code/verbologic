@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## Sunetul literei C moale
+## Sunetul literei C
 
-În cuvinte precum **city**, litera **C** se pronunță ca o consoană fricativă `/s/`, exact ca litera românească **S**. În limba engleză, acest fenomen poartă numele de **soft C** (C moale). Spre deosebire de română, unde **C** urmat de **E** sau **I** produce sunetul `/tʃ/` (ca în *ceai* sau *cine*), în engleză acesta nu este niciodată un africat când apare singur.
+Numele acestei litere se rostește (C) /s/. Cel mai des redă sunetul /k/, ca în cuvântul (cat) /kæt/.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Pentru a rosti sunetul `/s/`, așezați vârful limbii foarte aproape de gingia din spatele dinților de sus, fără a atinge complet dinții. Mențineți dinții apropiați și expirați un flux îngust și continuu de aer prin canalul format. Coardele vocale nu trebuie să vibreze deloc în timpul articulării.
+Pentru sunetul /k/, blochează aerul cu spatele limbii lipit de cerul gurii moale, apoi eliberează-l brusc, fără voce. Pentru sunetul /s/, apropie vârful limbii de dinții de sus și lasă aerul să șuiere continuu, tot fără voce.
 
-## Reguli de scriere
+## Reguli de citire
 
-Litera **C** primește valoarea `/s/` ori de câte ori se află direct înaintea vocalelor **E**, **I** sau **Y**, ca în **cell**, **city** sau **cyst**. În fața altor vocale (**A**, **O**, **U**) sau a consoanelor, ea se citește dur, ca `/k/` (ex. **cat**, **cup**). În sufixe complexe precum *-cial* sau *-cious*, litera trece de multe ori la sunetul `/ʃ/` (**special**).
+Înaintea vocalelor a, o, u ori a unei consoane, litera redă sunetul /k/, ca în (cup) /kʌp/. Înaintea literelor e, i sau y, se citește cu sunetul /s/, ca în cuvintele (city) /sɪ.ti/ și (cent) /sɛnt/.
 
-## Atenție la capcane
+## Capcane de pronunție
 
-Cea mai frecventă greșeală a vorbitorilor de română este pronunțarea lui **city** ca */ˈtʃɪti/* prin analogie cu regulile materne de scriere. De asemenea, rețineți că litera **C** devine tare înainte de vocale posterioare, precum în **cat** `/kæt/`. Exersați diferența dintre **cell** `/sɛl/` și **call** `/kɔːl/` pentru a evita confuziile.
+În limba română, această literă urmată de e sau i se aude ce ori ci. În engleză, ea nu se rostește niciodată așa singură, ci devine mereu un s curat, ca în cuvântul românesc sac.

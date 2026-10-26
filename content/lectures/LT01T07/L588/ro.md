@@ -20,18 +20,18 @@ terms:
   ro: "G"
 ---
 
-## Sunetul literei G moale
+## Sunetul literei gi
 
-În cuvântul **gym**, litera **G** se pronunță ca africata sonoră `/dʒ/`. Acest sunet este perfect echivalent cu **g** românesc din cuvinte precum *ger* sau *girafă*. Este o combinație rapidă între un sunet de tip `d` și un `j` sonor.
+Litera se numește (G) /dʒ/. Sunetul său principal este sunetul /ɡ/, ca în cuvântul (game) /ɡeɪm/.
 
-## Cum se pronunță /dʒ/
+## Pronunțarea sunetelor
 
-Atingeți cu partea din față a limbii zona din spatele dinților superiori pentru a bloca scurt aerul. Rotunjiți ușor buzele și dați drumul brusc aerului, activând în același timp corzile vocale. Sunetul trebuie să fie clar și însoțit de vibrație vocală puternică.
+Pentru sunetul /ɡ/, atinge cerul gurii cu spatele limbii și eliberează brusc aerul cu voce. Pentru sunetul /dʒ/, lipește limba în spatele dinților de sus, apoi desprinde-o treptat. Pentru sunetul /ʒ/, apropie limba de cerul gurii și lasă aerul să vibreze continuu.
 
-## Reguli ortografice
+## Reguli de citire
 
-În limba engleză, **G** are valoarea moale `/dʒ/` în special atunci când este urmat de **e**, **i** sau **y**. Există câteva excepții germanice notabile cu **G** dur, cum ar fi *girl* sau *get*. La finalul cuvintelor scurte, acest sunet este adesea ortografiat prin grupul **dge**, ca în *bridge*.
+Înaintea literelor a, o, u, a consoanelor sau la sfârșit, se rostește sunetul /ɡ/, ca în (gas) /ɡæs/. Înaintea literelor e, i sau y, redă adesea sunetul /dʒ/, ca în (gem) /dʒɛm/. În unele împrumuturi franțuzești devine sunetul /ʒ/, ca în (genre) /ʒɒn.rə/. Înaintea literei n este mută, ca în (sign) /saɪn/.
 
-## Diferențe și greșeli frecvente
+## Diferențe față de română
 
-Evitați să confundați acest `/dʒ/` cu sunetul dur `/ɡ/` din *gun* sau cu fricativa simplă `/ʒ/` din cuvintele de origine franceză. Vorbitorii de română pronunță uneori litera prea slab la sfârșitul cuvintelor, transformând-o într-un `/tʃ/` surd. Asigurați-vă că mențineți vibrația sonoră pe toată durata articulării.
+Sunetele corespund fidel celor din română pentru literele g din gard, g din ger și j din joc. Totuși, nu uita că această literă nu se aude deloc când stă lângă litera n.

@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## Sunetul literei Y
+## Sunetul literei uai
 
-Litera **Y** funcționează atât ca o semivocală consonantică, cât și ca o vocală pură în limba engleză. La începutul silabelor, are valoarea fonetică `/j/`, fiind practic identică cu sunetul **i** scurt din cuvinte românești precum **iarnă** sau **iarbă**. Nu implică nicio fricțiune aspră, ci doar o tranziție lină către vocala următoare.
+Numele acestei litere este (Y) /j/. Sunetul său principal este sunetul /j/, ca în cuvântul (yes) /jɛs/.
 
-## Cum se pronunță
+## Pronunțarea sunetelor literei
 
-Ridicați partea din mijloc a limbii către cerul gurii (palatul tare), ca și cum ați dori să rostiți un 'i' prelungit. Mențineți buzele relaxate și lăsați corzile vocale să vibreze pentru a produce o rezonanță vocalică clară. Coborâți rapid limba pentru a trece direct la sunetul vocalic care urmează.
+Pentru sunetul consonantic, ridică partea din mijloc a limbii aproape de cerul gurii și folosește vocea. Pentru diftong, deschide gura relaxat, apoi glisează limba spre cerul gurii. La sunetele vocalice scurte, ține limba ridicată în față, mai relaxată sau mai fermă.
 
-## Reguli de ortografie
+## Reguli de pronunțare
 
-Ca și consoană, **Y** apare la început de cuvânt sau de silabă, cum ar fi în **yes** sau **beyond**. Când se află la finalul cuvintelor lungi, notează adesea vocala `/i/` ca în **party**, iar în cuvinte scurte reprezintă diftongul `/aɪ/` ca în **by**. În poziție mediană închisă, poate fi pronunțat `/ɪ/`, așa cum se întâmplă în **system**.
+La începutul unei silabe înaintea unei vocale, redă sunetul /j/, ca în (yam) /jæm/. La sfârșitul unui cuvânt monosilabic, se rostește diftongul /aɪ/, ca în (my) /maɪ/. La finalul unui cuvânt plurisilabic neaccentuat, oferă sunetul /i/, un i clar, ca în (happy) /hæ.pi/. Într-o silabă închisă accentuată de origine greacă, dă sunetul /ɪ/, adică un i scurt și relaxat, ca în (gym) /dʒɪm/.
 
-## Diferențe și greșeli frecvente
+## Dificultăți pentru vorbitorii români
 
-Vorbitorii de limbă română pronunță uneori semivocala `/j/` prea slab, ceea ce poate face ca **year** să sune identic cu **ear**. O altă capcană este confundarea cu sunetul `/dʒ/`, transformând greșit **yet** într-un cuvânt care seamănă cu **jet**. Asigurați-vă că vârful limbii rămâne jos și aerul curge neîntrerupt.
+În cuvinte de origine greacă, vorbitorii români tind să spună un i clar în loc de sunetul relaxat englezesc. Pentru cel relaxat, coboară foarte puțin mandibula și relaxează limba, fără a rosti sunetul ascuțit din română.

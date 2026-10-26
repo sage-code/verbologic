@@ -20,18 +20,18 @@ terms:
   ro: "E"
 ---
 
-## Sunetul literei E
+## Sunetul literei i lung
 
-Litera **E** redă mai multe sunete în limba engleză, cel mai frecvent fiind `/ɛ/` în silabe închise accentuate, similar cu un 'e' românesc ceva mai deschis. În silabe deschise sau combinații de litere, ea se citește adesea `/iː/`, sunând ca un 'i' lung. În silabe neaccentuate, sunetul se reduce frecvent la o vocală neutră precum `/ə/` sau `/ɪ/`.
+Numele acestei litere este (E) /iː/. Sunetul său principal este sunetul /ɛ/, pe care îl auzi în cuvântul (egg) /ɛɡ/.
 
-## Cum se pronunță
+## Pronunția literei i lung
 
-Pentru a rosti sunetul `/ɛ/` din cuvântul *energy*, deschideți gura moderat, cu buzele relaxate și neutre. Ridicați ușor partea din față a limbii spre cerul gurii, lăsând aerul să iasă continuu cu vibrația corzilor vocale. Nu coborâți maxilarul prea mult pentru a nu-l confunda cu sunetul `/æ/`.
+Pentru sunetul /iː/, întinde buzele și ridică limba în față sus. Pentru sunetul /ɛ/, deschide gura puțin mai mult. Pentru sunetul /ə/, ține limba și buzele complet relaxate în mijlocul gurii. Toate folosesc coardele vocale.
 
-## Reguli de scriere
+## Ortografia literei i lung
 
-Litera **E** este cea mai des întâlnită literă din limba engleză și apare în combinații comune precum *ee*, *ea* sau *ei*. La finalul multor cuvinte, precum *hope* sau *time*, **E** este mut și servește doar pentru a lungi vocala precedentă. În poziție inițială sau închisă, ca în *energy* sau *send*, redă de regulă vocala scurtă `/ɛ/`.
+În silabe închise, litera (E) /iː/ redă sunetul /ɛ/, ca în (bed) /bɛd/. În silabe deschise accentuate, se aude ca sunetul /iː/ lung, ca în (me) /miː/. În silabe neaccentuate, devine sunetul /ə/, ca în (problem) /prɒb.ləm/. La sfârșitul cuvintelor este adesea mută, ca în (take) /teɪk/.
 
-## Variante și capcane
+## Greșeli frecvente la litera i lung
 
-Vorbitorii de limbă română au tendința de a citi mereu **E** ca un 'e' pur românesc sau chiar ca un diftong. Atenție deosebită la cuvintele unde **E** final nu se aude deloc, cum ar fi *like* sau *have*. Nu confundați vocala scurtă `/ɛ/` din *men* cu vocala largă `/æ/` din *man*.
+Vorbitorii de română tind să citească mereu această literă ca un e scurt românesc. Nu uita să lungești sunetul când litera redă un i lung. De asemenea, nu pronunța litera de la finalul cuvintelor când este mută.

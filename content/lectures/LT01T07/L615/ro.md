@@ -20,18 +20,18 @@ terms:
   ro: "th"
 ---
 
-## Fricativa dentală sonoră
+## Sunetul grupului th
 
-Digraful **th** din *this* reprezintă o consoană fricativă dentală sonoră, notată fonetic ca `/ð/`. Acest sunet nu există în limba română, motiv pentru care vorbitorii tind adesea să îl înlocuiască incorect cu `/d/` sau `/z/`. Spre deosebire de `/θ/` din *think*, la `/ð/` corzile vocale vibrează activ, generând o rezonanță specifică.
+Numele grupului th se rostește ca sunetul /ð/. Acest grup redă de obicei sunetul /θ/, ca în cuvântul (think) /θɪŋk/.
 
-## Cum se pronunță /ð/
+## Cum se pronunță
 
-Așază vârful limbii ușor între dinți sau pe marginea dinților superiori din față. Suflă aerul continuu pe lângă limbă, activând în același timp corzile vocale printr-un zumzet sonor clar. Evită blocarea totală a aerului, pentru a nu transforma consoana într-un simplu `/d/` românesc.
+Așază vârful limbii foarte ușor între dinți. Pentru primul sunet, suflă aer fără să folosești vocea. Pentru celălalt sunet, menține limba în aceeași poziție și adaugă vibrația corzilor vocale.
 
-## Particularități de scriere
+## Reguli de citire
 
-În limba engleză, combinația de litere **th** este folosită atât pentru `/ð/`, cât și pentru `/θ/`, fără vreun semn diacritic distinctiv. Sunetul sonor `/ð/` apare frecvent în cuvinte gramaticale de bază (*the*, *this*, *they*) și între două vocale, ca în *brother* sau *father*. La început de propoziție, digraful se scrie cu majusculă inițială: **Th**.
+La sfârșitul cuvintelor sau în cuvinte cu sens de sine stătător, th redă sunetul /θ/, ca în (bath) /bɑːθ/. În cuvinte gramaticale, acest grup redă sunetul /ð/, ca în (this) /ðɪs/. Între două vocale apare tot sunetul /ð/, de pildă în (father) /fɑː.ðə/.
 
-## Diferențe și greșeli frecvente
+## Capcane de pronunție
 
-Cea mai comună greșeală a românilor este pronunțarea cuvântului *this* ca *dis* sau *zis*. Exersează tranziția dintre sunetul surd `/θ/` din *mouth* (substantiv) și cel sonor `/ð/` din *mouthe* (verb). Asigură-te că fluxul de aer nu se întrerupe nicio clipă și că vibrația laringiană este continuă.
+În limba română nu există aceste sunete interdentale. Nu înlocui varianta surdă cu sunetul s sau cu sunetul t din cuvinte ca sac ori tata. Evită de asemenea să rostești sunetul z sau d în locul variantei sonore.

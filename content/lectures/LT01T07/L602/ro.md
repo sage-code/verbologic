@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## Sunetul literei Y
+## Sunetul literei uai
 
-Litera **Y** este unică în limba engleză deoarece funcționează atât ca semivocală consonantică, cât și ca vocală. În exemplul *fly*, ea are valoare vocalică și se pronunță ca diftongul `/aɪ/`, foarte apropiat de grupul „ai” din limba română (ca în cuvântul *rai*). Sunetul începe deschis și alunecă rapid către o vocală închisă anterioară.
+Numele acestei litere este (Y) /aɪ/. Sunetul ei principal este consoana /j/, pe care o auzi în cuvântul (yes) /jɛs/.
 
-## Cum se pronunță /aɪ/
+## Pronunția sunetelor
 
-Pentru a pronunța `/aɪ/` în *fly*, deschideți gura relaxat cu limba așezată jos, pronunțând un „a” clar. În timp ce emiteți sunetul, ridicați treptat partea anterioară a limbii spre cerul gurii și apropiați maxilarele spre poziția sunetului „i”. Asigurați-vă că corzile vocale vibrează pe tot parcursul tranziției fluide.
+Pentru consoană, ridică mijlocul limbii spre cerul gurii fără să blochezi aerul și fă corzile vocale să vibreze. Pentru vocala scurtă și relaxată, coboară limba puțin față de poziția unui i românesc obișnuit. Pentru diftong, deschide gura larg apoi glisează spre sunetul i.
 
-## Particularități de scriere
+## Reguli de citire
 
-În limba engleză, **Y** este scris frecvent la finalul cuvintelor monosilabice precum *try*, *cry* sau *fly* pentru a reda diftongul `/aɪ/`. La sfârșitul cuvintelor plurisilabice, cum ar fi *city*, el se pronunță de regulă ca un „i” scurt `/i/`. La început de cuvânt, precum în *yes*, devine consoana `/j/`, similară cu sunetul „i” din românescul *iarbă*.
+La început de silabă sau cuvânt înaintea unei vocale, redă sunetul /j/ ca în (yard) /jɑːd/. Neaccentuată la final de cuvânt, redă sunetul /i/, adică un i clar ca în (happy) /hæ.pi/. În silabe închise de origine greacă, devine sunetul /ɪ/, adică un i scurt și relaxat, ca în (myth) /mɪθ/. În silabe deschise sau monosilabe accentuate, redă diftongul /aɪ/ ca în (cry) /kraɪ/.
 
-## Diferențe și erori frecvente
+## Capcane pentru vorbitorii de română
 
-Vorbitorii de limba română tind uneori să pronunțe **Y** exclusiv ca un „i” scurt, transformând greșit cuvinte precum *fly* în variante monoftongate. Fiți atenți la lungimea și tranziția diftongului `/aɪ/`, care trebuie să fie bine conturată. De asemenea, nu confundați această valoare cu sunetul scurt `/ɪ/` prezent în termeni de origine greacă precum *myth* sau *gym*.
+Nu confunda sunetul /ɪ/, care este mai relaxat și scurt, cu sunetul /i/ din limba română din cuvântul mic. De asemenea, evită să pronunți diftongul /aɪ/ când litera se află la finalul unui cuvânt neaccentuat.

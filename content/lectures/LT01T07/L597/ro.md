@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## Sunetul literei X
+## Sunetul literei iks
 
-În limba engleză, litera **X** redă cel mai frecvent combinația surdă `/ks/`, identică cu pronunția standard a literei **x** din limba română în cuvinte precum **box**. Înainte de o vocală accentuată, devine adesea sonoră sub forma `/ɡz/`, la fel ca în cuvântul românesc **examen**. La începutul cuvintelor împrumutate din greacă, se citește simplu ca un `/z/` curat.
+Litera se numește (X) /ks/. În mod obișnuit, aceasta redă grupul de sunete /ks/, ca în cuvântul (box) /bɒks/.
 
-## Cum se pronunță
+## Pronunția sunetelor literei
 
-Pentru a rosti sunetul standard `/ks/`, ridicați spatele limbii spre vălul palatin pentru a opri scurt fluxul de aer, formând un sunet `/k/`. Fără nicio pauză sau vocală intermediară, eliberați aerul printr-un șuierat strâns pe sunetul `/s/`. Mențineți corzile vocale complet relaxate pentru a nu adăuga vibrație sonică.
+Pentru sunetul /ks/, blochează aerul cu spatele limbii, eliberează-l brusc fără voce, apoi lasă aerul să șuiere printre dinți. Pentru /ɡz/, adaugă vibrația corzilor vocale. Pentru sunetul /z/, doar lasă aerul vibrat să treacă continuu printre dinți.
 
-## Ortografie și poziții
+## Reguli de citire
 
-Litera **X** este una dintre puținele litere din alfabetul englez care reprezintă singură o secvență de două consoane. Apare foarte rar la începutul cuvintelor native, fiind frecventă la sfârșitul silabelor precum în **six** sau **wax**. Cuvintele științifice începute cu **X** folosesc exclusiv pronunția `/z/`, așa cum se întâmplă în **xenofobie** sau **xilofon**.
+Cel mai des, litera redă sunetul /ks/, în special la mijloc sau la final, ca în (fox) /fɒks/. Înaintea unei vocale accentuate, aceasta se citește sonor /ɡz/, ca în (exam) /ɪɡ.zæm/. La începutul cuvintelor, litera se pronunță simplu ca sunetul /z/, de exemplu în (xenon) /zɛn.ɒn/.
 
-## Variații și capcane frecvente
+## Diferențe față de română
 
-Diferența esențială apare între varianta surdă `/ks/` din **box** și cea sonoră `/ɡz/` din **exam**, determinată de accentul silabei următoare. Vorbitorii de română tind adesea să pronunțe inițiala din cuvinte precum **xylophone** ca `/ks/`, deși regula engleză impune sunetul `/z/`. Asigurați-vă că nu prelungiți faza de șuierat la finalul cuvintelor scurte.
+În limba română, această literă nu se pronunță niciodată doar ca un simplu z. În engleză, la început de cuvânt, evită să rostești grupul cs sau gz. Folosește doar sunetul z curat, exact ca în cuvântul românesc zare.

@@ -20,18 +20,18 @@ terms:
   ro: "ch"
 ---
 
-## Sunetul grupului ‘ch’ de origine franceză
+## Grupul de litere ch
 
-În cuvintele împrumutate din limba franceză, grupul de litere **ch** se pronunță ca o consoană fricativă postalveolară surdă `/ʃ/`. Acest sunet este exact echivalentul literei românești **ș** din cuvinte precum *școală* sau *oraș*. Spre deosebire de valoarea standard a grupului **ch** în engleză (`/tʃ/`), aici nu există nicio oprire a aerului înainte de șuierătură.
+Grupul ch se numește /ʃ/. Sunetul său principal este sunetul /tʃ/, ca în cuvântul (chin) /tʃɪn/.
 
-## Cum se pronunță
+## Pronunția grupului ch
 
-Rotunjiți ușor buzele și împingeți-le puțin spre înainte. Ridicați partea anterioară a limbii spre cerul gurii, imediat în spatele dinților de sus, fără să atingeți palatul. Eliberați un flux continuu de aer fără a vă folosi corzile vocale, producând un fâșâit lin.
+Pentru sunetul /tʃ/, atinge cerul gurii cu vârful limbii și eliberează aerul printr-un fâșâit scurt. Pentru sunetul /k/, blochează aerul cu spatele limbii. Pentru sunetul /ʃ/, rotunjește buzele și lasă aerul să treacă continuu.
 
-## Particularități de scriere
+## Ortografia grupului ch
 
-Pronunția `/ʃ/` pentru grupul **ch** este rezervată aproape exclusiv neologismelor franceze, cum ar fi *chef*, *chic*, *machine* sau *parachute*. Apare atât la începutul cuvintelor, cât și la mijloc sau final. În majoritatea cuvintelor native englezești, grupul **ch** redă sunetul românesc **ce/ci** (`/tʃ/`).
+În cuvinte native germane, ch redă sunetul /tʃ/, ca în (rich) /rɪtʃ/. În cuvinte de origine greacă, redă sunetul /k/, precum în (chemist) /kɛm.ɪst/ sau (echo) /ɛk.oʊ/. În împrumuturi franceze, redă sunetul /ʃ/, ca în (chef) /ʃɛf/ ori (machine) /mə.ʃin/. În (yacht) /jɑt/, grupul este mut.
 
-## Comparație și erori frecvente
+## Diferențe față de română
 
-Cea mai frecventă greșeală a vorbitorilor de română este pronunțarea acestui grup ca un **ce** dur (`/tʃ/`), spunând incorect *ciop* în loc de */ʃef/* pentru *chef*. Comparați pronunția lină din *machine* (`/ʃ/`) cu cea africată din *chin* (`/tʃ/`) sau cu cea dură din *character* (`/k/`). Rețineți că împrumuturile de lux, gastronomice sau militare din franceză păstrează de obicei valoarea `/ʃ/`.
+În limba română, grupul ch urmat de e sau i se citește mereu ca un sunet c dur. În engleză, ch nu este niciodată urmat de regulile italiene sau românești, ci sună cel mai des exact ca litera ce.

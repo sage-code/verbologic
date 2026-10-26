@@ -20,18 +20,18 @@ terms:
   ro: "cr in crab (crab)"
 ---
 
-## Sunetul grupului CR
+## Grupul de litere cr
 
-Grupul de consoane **cr** se pronunță `/kr/`, reunind sunetul surd `/k/` cu `/r/`-ul specific limbii engleze. Spre deosebire de limba română, unde *r* este o consoană vibrantă alveolară produsă prin bătăi rapide ale limbii, în engleză acest sunet este o aproximantă continuă și moale. În plus, din cauza vecinătății cu `/k/`, sunetul `/r/` poate deveni ușor desonorizat și șoptit.
+Grupul se rostește /kr/. Sunetul său standard se aude în cuvântul (crab) /kræb/.
 
 ## Cum se pronunță
 
-Atingeți cerul gurii moale cu spatele limbii pentru a bloca aerul necesar sunetului `/k/`, apoi eliberați-l brusc. Imediat după explozie, trageți ușor vârful limbii spre interior, arcuindu-l fără a atinge deloc palatul. Rotunjiți puțin buzele pentru a lăsa aerul să treacă liber și fluid peste limbă.
+Atinge cerul gurii cu spatele limbii pentru a bloca aerul, apoi eliberează-l brusc. Retrage imediat vârful limbii spre spatele gurii fără să atingi cerul gurii, lăsând aerul să treacă cu vibrația corzilor vocale.
 
-## Ortografie și poziție
+## Reguli de pronunțare
 
-Secvența **cr** apare cel mai frecvent la începutul cuvintelor sau al rădăcinilor lexicale, ca în *cross*, *craft* sau *crazy*. Se scrie identic cu minuscule sau majuscule (**Cr**) și respectă aproape întotdeauna aceeași regulă fonetică. Spre deosebire de alte grupuri consonantice, **cr** nu conține litere mute.
+Înaintea unei vocale, acest grup consonantic se pronunță /kr/, ca în cuvântul (cross) /krɒs/.
 
-## Diferențe și greșeli frecvente
+## Capcane de pronunție
 
-Cea mai mare capcană pentru vorbitorii de română este rularea limbii într-un tremur apical specific lui *r* românesc. Asigurați-vă că vârful limbii nu atinge niciun moment cerul gurii și că nu introduceți o pauză sau o vocală scurtă între cele două consoane. Tranziția dintre `/k/` și `/r/` trebuie să fie instantanee și fluentă.
+În limba română, sunetul r din cuvântul cană este vibrat pe dinți. În engleză, nu lăsa limba să atingă dinții sau gingia atunci când rostești acest grup.

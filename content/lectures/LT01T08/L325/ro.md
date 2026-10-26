@@ -20,18 +20,18 @@ terms:
   ro: "au in autumn (toamnă)"
 ---
 
-## Sunetul grupului 'au'
+## Sunetul grupului au
 
-Digraful englezesc **au** se pronunță de regulă ca o vocală lungă, `/ɔː/` în engleza britanică sau `/ɑː/` în cea americană. Spre deosebire de limba română, nu este un diftong format din `a` și `u`, ci un sunet unic și stabil. Se apropie oarecum de un **o** românesc deschis și prelungit.
+Grupul redă în mod obișnuit sunetul /ɔː/, adică un o lung și deschis. Îl poți auzi în cuvântul (author) /ɔː.θər/.
 
-## Cum se pronunță
+## Pronunțarea sunetelor
 
-Coborâți maxilarul inferior și retrageți limba spre spatele cavității bucale, ținând vârful jos în spatele dinților inferiori. Rotunjiți buzele moderat, fără a le strânge excesiv așa cum ați face pentru sunetul românesc **u**. Emiteți sunetul menținând poziția fixă, fără a glisa spre o altă vocală.
+Pentru sunetul lung, rotunjește buzele și retrage limba spre fundul gurii. Pentru varianta scurtă, deschide gura mai mult, rotunjind buzele doar puțin. Pentru celălalt sunet, coboară maxilarul complet și relaxează buzele.
 
-## Particularități de scriere
+## Reguli de pronunțare
 
-Grupul **au** apare frecvent la începutul sau în interiorul cuvintelor, cum ar fi în *author*, *fault* sau *applaud*. La sfârșitul cuvintelor native englezești se preferă aproape întotdeauna grafia **aw**, ca în *saw*. Excepțiile finale sunt de regulă împrumuturi recente din franceză, precum *bureau*.
+Înaintea consoanelor, acest grup redă sunetul /ɔː/, adică un o lung, ca în (pause) /pɔːz/. În cuvinte de origine franceză sau împrumuturi, se rostește sunetul /ɑː/, ca în (aunt) /ɑːnt/ sau (laugh) /lɑːf/. În câteva cuvinte speciale, se aude sunetul /ɒ/, adică un o scurt, precum în (sausage) /sɒ.sɪdʒ/ ori (because) /bɪ.kɒz/.
 
-## Comparații și erori frecvente
+## Capcane frecvente
 
-Cea mai mare greșeală a vorbitorilor de română este citirea literă cu literă ca diftongul `/aʊ/` din cuvântul *sau*. În cuvinte precum *autumn* sau *cause*, sunetul este un **o** lung sau deschis, nu o combinație de două vocale distincte. Rețineți de asemenea că în engleza americană acest sunet devine adesea identic cu `/ɑː/` din *father*.
+Nu citi aceste litere separat, ca în cuvintele românești aur sau taur. În engleză ele formează o singură vocală, niciodată două sunete distincte alăturate.

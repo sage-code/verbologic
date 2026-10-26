@@ -20,18 +20,18 @@ terms:
   ro: "ou in house (casă)"
 ---
 
-## Sunetul grupului OU
+## Sunetul grupului ou
 
-Digraful **ou** redă cel mai frecvent diftongul `/aʊ/`, similar succesiunii de sunete din cuvântul românesc **sau**. Acesta debutează cu o vocală deschisă și glisează lin către o vocală rotunjită posterioară. Sunetul este dinamic și nu trebuie pronunțat ca o singură vocală statică.
+Acest grup de litere se numește /aʊ/. Cel mai frecvent redă diftongul /aʊ/, ca în cuvântul (out) /aʊt/.
 
-## Cum se pronunță /aʊ/
+## Pronunția sunetelor scrise ou
 
-Începeți prin a deschide gura relaxat, cu limba coborâtă, exact ca pentru un `a` deschis. Pe măsură ce emiteți sunetul, ridicați baza limbii spre cerul gurii și rotunjiți buzele strâns spre un `u`. Asigurați-vă că cele două elemente formează o singură mișcare continuă în cadrul aceleiași silabe.
+Pentru diftongul /aʊ/, deschide gura larg pentru primul element, apoi rotunjește buzele spre un u scurt. Pentru sunetul /uː/, rotunjește buzele strâns. Pentru sunetul /ʌ/, coboară maxilarul relaxat. Pentru sunetul /ə/, ține limba și buzele complet relaxate în centru.
 
-## Particularități de scriere
+## Ortografia grupului ou
 
-Grupul **ou** apare preponderent în interiorul cuvintelor native, precum **cloud** sau **mouse**, la final de cuvânt preferându-se de regulă varianta **ow**. În limba engleză, **ou** prezintă multe excepții istorice, putând nota și alte sunete, cum ar fi `/uː/` în **soup** sau `/ʌ/` în **country**. Învățarea acestor tipare necesită memorarea pronunției fiecărui termen frecvent.
+În silabe accentuate, acest grup redă de regulă diftongul /aʊ/, ca în (loud) /laʊd/. În împrumuturi din franceză sau cuvinte uzuale, sună lung ca /uː/ în (soup) /suːp/ sau (group) /ɡruːp/. În anumite cuvinte native, redă sunetul /ʌ/ în (touch) /tʌtʃ/ sau (cousin) /kʌz.ən/. În silabe neaccentuate, devine sunetul /ə/ în (famous) /feɪ.məs/.
 
-## Variante și greșeli frecvente
+## Capcane de pronunție
 
-Vorbitorii de română tind uneori să citească literele separat sau să reducă diftongul la un simplu `/o/` ori `/u/`. Nu confundați cuvinte precum **south** (`/saʊθ/`) cu forme monoftongate. Fiți atenți și la neologismele de origine franceză, unde grupul se citește `/uː/`, ca în **tour** sau **routine**.
+Vorbitorii de română tind să citească mereu acest grup ca diftongul românesc din cuvântul ou. Evită să rostești o urmat de u. În engleză, prima variantă începe larg cu a, iar alteori grupul se reduce la un simplu sunet scurt.

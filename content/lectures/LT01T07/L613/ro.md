@@ -20,18 +20,18 @@ terms:
   ro: "-sland"
 ---
 
-## Sunetul grupului '-sland'
+## Grupul de litere -sland
 
-În cuvântul comun **island**, secvența `-sland` se pronunță `/lənd/`, litera **s** fiind complet mută. În schimb, în cuvinte compuse unde primul termen se termină în **s** (precum *grassland*), sunetul `/s/` se aude distinct. În română literele se citesc aproape mereu așa cum se scriu, motiv pentru care prezența unui **s** mut poate deruta.
+Grupul -sland se rostește /lənd/. Îl auzi rostit la finalul cuvântului (island) /aɪ.lənd/.
 
 ## Cum se pronunță
 
-Pentru a rosti corect terminația din *island*, treceți direct de la diftongul anterior la consoana `/l/`, urmată de o vocală neutră foarte scurtă (`/ə/`) și grupul `/nd/`. Vârful limbii atinge cerul gurii chiar în spatele dinților superiori pentru a produce `/l/` și `/nd/`. Evitați complet orice șuierat sau încercare de a articula sunetul `/s/`.
+Atinge cerul gurii cu vârful limbii pentru primul sunet. Relaxează complet gura pentru vocala scurtă centrală, apoi coboară limba atingând din nou dinții de sus pentru consoana finală ocluzivă.
 
-## Ortografie și tipare
+## Reguli de scriere
 
-Grupul `-sland` apare cel mai adesea la final de cuvânt ca sufix sau parte a rădăcinii. Prezența literei **s** în *island* este o relicvă istorică bazată pe o falsă etimologie legată de franțuzescul *isle*. În substantivele compuse autentice, precum *grassland*, litera **s** aparține bazei și se pronunță normal.
+În substantive și denumiri geografice neaccentuate, acest grup se citește întotdeauna cu primul sunet mut, dând secvența de sunete /lənd/.
 
-## Comparații și greșeli frecvente
+## Dificultăți de pronunție
 
-Comparați pronunția fără **s** din *island* (`/ˈaɪ.lənd/`) cu cea articulată din *grassland* (`/ˈɡrɑːs.lænd/`). Cea mai comună greșeală a vorbitorilor nativi de română este citirea fonetică a cuvântului ca `/ˈizland/` sau `/ˈaislənd/`. Rețineți că în *island*, **s** este întotdeauna complet mut.
+Vorbitorii de limba română tind să citească litera s ca în cuvântul românesc insulă. Evită această greșeală, deoarece consoana s este complet mută.

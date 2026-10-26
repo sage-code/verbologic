@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## Sunetul literei X
+## Sunetul literei iks
 
-În cuvinte precum **luxury**, litera 'x' se pronunță ca o succesiune de două sunete: `/kʃ/`. Acest grup combină un 'c' dur românesc urmat imediat de un 'ș' clar. Este o pronunție mai puțin frecventă decât clasicul `/ks/`, dar specifică anumitor termeni englezești.
+Litera (X) /kʃ/ redă cel mai des combinația de sunete /ks/, ca în cuvântul (fox) /fɒks/.
 
-## Cum se pronunță /kʃ/
+## Pronunția sunetelor literei iks
 
-Blocați pentru o fracțiune de secundă aerul lipind partea din spate a limbii de cerul gurii moale, la fel ca la 'c'. Eliberați aerul și duceți imediat vârful limbii spre palat, rotunjind ușor buzele pentru a rosti sunetul 'ș' (`/ʃ/`). Ambele sunete sunt complet surde, așa că nu folosiți deloc corzile vocale.
+Atinge cerul gurii cu spatele limbii pentru a bloca aerul, apoi eliberează-l cu un șuierat printre dinți. Rostogolește sunetele fără vibrația corzilor pentru prima variantă, sau adaugă vibrație vocală pe ambele sunete pentru a doua variantă.
 
-## Particularități de scriere
+## Ortografia literei iks
 
-Grupul `/kʃ/` este o variantă fonetică rară a literei 'x', apărută prin asimilare în termeni precum *luxury* sau *anxious*. De regulă, 'x' se citește `/ks/` la final de cuvânt sau înaintea consoanelor și `/ɡz/` înaintea vocalelor accentuate. La început de cuvânt, 'x' se pronunță aproape întotdeauna ca un simplu `/z/`.
+La sfârșitul cuvintelor sau înaintea consoanelor fără voce, litera (X) /kʃ/ redă sunetele /ks/, ca în (six) /sɪks/. Înaintea unei vocale accentuate, auzi sunetele /ɡz/, ca în (exam) /ɪɡ.zæm/. La începutul unui cuvânt, auzi doar sunetul /z/, ca în (xylophone) /zaɪ.lə.fəʊn/.
 
-## Comparații și capcane
+## Diferențe față de română
 
-Nu confundați această secvență cu `/ks/` din română (ca în *pix* sau *complex*); în *luxury*, al doilea element este 'ș', nu 's'. Evitați să adăugați un sunet suplimentar 'i' între 'c' și 'ș', greșeală comună a vorbitorilor nativi de română. Trecerea de la stopul velar la șuierătură trebuie să fie instantanee și cursivă.
+Cea mai mare capcană este la începutul cuvintelor. Nu rosti două consoane așa cum ai face în cuvântul românesc xilofon, ci rostește doar un simplu sunet sonor, ca la începutul cuvântului zori.

@@ -20,18 +20,18 @@ terms:
   ro: "I"
 ---
 
-## Sunetul literei I
+## Sunetul literei ai
 
-Litera **I** în limba engleză redă mai multe sunete, dintre care cele mai frecvente sunt diftongul `/aɪ/` și vocala scurtă `/ɪ/`. Diftongul `/aɪ/` seamănă cu 'ai' din limba română (ca în 'rai'), însă al doilea element este mai relaxat. Spre deosebire de română, unde 'i' este întotdeauna o vocală închisă și tensionată, engleza folosește frecvent o variantă mai deschisă și scurtă.
+Numele acestei litere este (I) /aɪ/. Cel mai des redă sunetul /ɪ/, adică un i scurt și relaxat, ca în cuvântul (ink) /ɪŋk/.
 
-## Cum se pronunță corect
+## Pronunția literei ai
 
-Pentru a rosti diftongul `/aɪ/`, deschideți gura relaxat, coborând limba pentru primul element deschis. Glisați apoi limba în sus spre cerul gurii, apropiind ușor maxilarele pentru a atinge sunetul `/ɪ/`. Buzele trebuie să rămână complet relaxate și ne-rotunjite pe tot parcursul pronunției.
+Pentru sunetul scurt, coboară puțin mandibula și relaxează limba față de poziția obișnuită. Pentru sunetul lung, întinde buzele și ridică limba mai sus. Pentru diftong, deschide gura larg pe prima parte, apoi glisează spre o deschidere mai mică.
 
-## Particularități de scriere
+## Ortografia literei ai
 
-Litera **I** se pronunță de regulă `/aɪ/` la finalul silabelor deschise sau în modelul consoană-vocală cu **e** mut la sfârșit, ca în **line** sau **bite**. În silabele închise, unde este urmată direct de consoane finale, devine `/ɪ/`, ca în **pin**. De asemenea, pronumele personal **I** ('eu') se scrie întotdeauna cu majusculă, indiferent de poziția în propoziție.
+În silabe închise produce sunetul /ɪ/, adică un i scurt, ca în (pin) /pɪn/. În silabe deschise sau înaintea unui e final mut redă sunetul /aɪ/, ca în (ice) /aɪs/. În împrumuturi redă sunetul /iː/, adică un i lung, ca în (ski) /skiː/. În silabe neaccentuate devine sunetul /ə/, ca în (pencil) /pen.səl/.
 
-## Diferențe și capcane de pronunție
+## Dificultăți pentru vorbitorii români
 
-O greșeală clasică a vorbitorilor de română este pronunțarea sunetului scurt `/ɪ/` (din **ship**) ca un 'i' românesc tensionat, riscând confuzia cu **sheep** (`/iː/`). Totodată, asigurați-vă că diftongul din **idea** (`/aɪˈdɪə/`) începe clar din `/aɪ/` și nu este redus la un simplu 'i'. Atenție și la cuvintele împrumutate precum **machine**, unde litera se citește excepțional `/iː/`.
+Vorbitorii de limbă română tind să înlocuiască sunetul scurt prin sunetul i din română, care este prea încordat și lung. De asemenea, sunetul din poziții neaccentuate este rostit greșit ca i plin, în loc de sunetul slab similar cu ă.

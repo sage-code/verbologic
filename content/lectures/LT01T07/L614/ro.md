@@ -20,18 +20,18 @@ terms:
   ro: "th"
 ---
 
-## Sunetul grupului 'th'
+## Sunetul grupului th
 
-Grupul de litere **th** notează în acest caz consoana fricativă dentală surdă `/θ/`, care se aude la începutul cuvântului **think**. Acest sunet nu există în limba română și este complet lipsit de vibrația corzilor vocale. Spre deosebire de un `s` sau un `t`, aerul trece continuu și lin printre dinți și vârful limbii.
+Grupul th se numește /θ/. Sunetul său principal este sunetul /θ/, ca în cuvântul (think) /θɪŋk/.
 
-## Cum se pronunță /θ/
+## Pronunțarea grupului th
 
-Așază vârful limbii ușor între dinții din față (sau imediat în spatele incisivilor superiori). Expiră un flux continuu de aer peste limbă, fără a activa vocea și fără a bloca trecerea aerului. Ai grijă să nu strângi dinții tare, pentru a evita transformarea sunetului într-un `t` exploziv.
+Așază vârful limbii ușor între dinți sau chiar în spatele dinților de sus. Pentru prima variantă, suflă aer fără voce. Pentru a doua variantă, fă coardele vocale să vibreze. Pentru a treia, atinge cerul gurii cu limba și eliberează aerul brusc.
 
-## Ortografie și distribuție
+## Ortografia grupului th
 
-Digraful **th** este utilizat exclusiv în ortografia engleză pentru a reda atât `/θ/`, cât și perechea sa sonoră `/ð/`. Sunetul surd `/θ/` apare tipic în substantive, verbe și adjective (precum **three** sau **thick**), dar și la final de cuvânt în **mouth** sau **tooth**. În câteva excepții istorice, precum numele propriu **Thomas** sau planta **thyme**, litera `h` este mută și se rostește doar `t`.
+Grupul th redă sunetul /θ/ în substantive sau verbe, precum (thing) /θɪŋ/, ori la final de cuvânt, ca în (bath) /bɑːθ/. În cuvinte gramaticale sau între vocale, redă sunetul /ð/, ca în (this) /ðɪs/ sau (father) /fɑː.ðə/. În unele nume și împrumuturi vechi se aude sunetul /t/, ca în (thyme) /taɪm/.
 
-## Comparații și capcane frecvente
+## Grupul th pentru români
 
-Cea mai mare greșeală a vorbitorilor de română este înlocuirea lui `/θ/` cu `s`, `f` sau `t`, pronunțând **think** ca **sink** sau **tink**. De asemenea, nu confunda acest sunet surd cu varianta sonoră `/ð/` din pronume precum **this** sau **that**. Menținerea limbii exact pe marginea dinților previne deformarea cuvintelor.
+În limba română nu există sunetele interdentale. Greșeala obișnuită este înlocuirea lor cu sunetele s, z, t sau d, ca în cuvintele sac, zar, tren sau dor. Scoate mereu vârful limbii ușor între dinți pentru a le rosti corect.

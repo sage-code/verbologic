@@ -20,18 +20,18 @@ terms:
   ro: "H"
 ---
 
-## Sunetul literei H
+## Sunetul literei h
 
-Litera **H** notează o fricativă glotală surdă, redată în AFI prin `/h/`. Spre deosebire de sunetul „h” din limba română (care poate fi mai aspru sau velar, ca în *hram*), sunetul englezesc este o simplă expirație caldă și lină generată adânc în gât. Nu trebuie să se audă nicio frecare aspră de vălul palatului.
+Numele acestei litere este (H) /eɪtʃ/. Sunetul său principal este sunetul /h/, ca în cuvântul (hat) /hæt/.
 
-## Cum se pronunță H
+## Pronunția literei h
 
-Deschideți gura relaxat și lăsați limba într-o poziție neutră pe podeaua gurii. Expirați ușor aer din piept, exact așa cum ați face dacă ați dori să aburiți ochelarii sau o oglindă. Lăsați fluxul de aer să treacă liber și treceți imediat la vocala care urmează, fără a vibra corzile vocale.
+Pentru sunetul /h/, deschide gura relaxat. Expiră un flux continuu de aer prin gât, fără vibrația corzilor vocale și fără să atingi cerul gurii cu limba.
 
-## Ortografie și tipare
+## Reguli de scriere
 
-Litera **H** apare la începutul multor cuvinte native, precum *hand* sau *hope*, dar formează și digrafe frecvente ca *th*, *sh* sau *ch*. În câteva cuvinte de origine franceză, cum ar fi *hour*, *honest* sau *heir*, litera **H** este complet mută. În vorbirea rapidă de zi cu zi, sunetul este adesea omis în pronume neaccentuate precum *him* sau *have*.
+La începutul unei silabe, înaintea unei vocale, litera redă sunetul /h/, ca în (help) /hɛlp/. În anumite cuvinte la început sau în poziție finală, litera nu se pronunță deloc, cum se aude în (hour) /aʊ.ər/.
 
-## Variante și greșeli frecvente
+## Capcane de pronunție
 
-Cea mai frecventă capcană pentru vorbitorii de limba română este omiterea literei **H** acolo unde este necesară, pronunțând *hit* ca *it* sau *heart* ca *art*. De asemenea, aveți grijă să nu pronunțați litera în excepțiile mute precum *honest* (`/ˈɒn.ɪst/`). Nu forțați sunetul în fundul gâtului; acesta trebuie să rămână un simplu oftat curat.
+În limba română, litera din cuvântul han este mai aspră și zgârie ușor gâtul. În engleză, sunetul este doar o simplă expirație lină de aer, fără nicio frecare puternică.

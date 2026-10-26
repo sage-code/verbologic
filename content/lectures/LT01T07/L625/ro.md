@@ -20,18 +20,18 @@ terms:
   ro: "-ough"
 ---
 
-## Sunetul grupului
+## Sunetul grupului -ough
 
-Grupul de litere **-ough** este celebru pentru varietatea sa fonetică în engleză, dar în cuvântul *though* se pronunță ca diftongul `/oʊ/`. Seamănă parțial cu vocala românească „o”, însă alunecă spre un „u” scurt și rotunjit la final. Consoanele **gh** sunt complet mute în această poziție.
+Numele acestui grup este sunetul /oʊ/. Cea mai comună pronunție este diftongul din cuvântul (though) /ðoʊ/.
 
-## Cum se pronunță
+## Cum se pronunță -ough
 
-Începeți prin a deschide gura moderat și a rotunji ușor buzele pentru a rosti un sunet apropiat de „o”. Apoi glisați limba spre spatele cerului gurii și strângeți buzele într-un cerc mai mic, formând diftongul englezesc `/oʊ/`. Nu încercați să pronunțați nicio consoană precum „f” sau „g” la sfârșitul cuvântului.
+Pentru diftong, pornește cu buzele neutre și rotunjește-le spre final. Pentru vocalele lungi, ține buzele rotunjite și limba retrasă. Pentru varianta cu consoană, atinge buza inferioară de dinții de sus și suflă aer fără să folosești corzile vocale.
 
-## Particularități ortografice
+## Ortografia grupului -ough
 
-Grupul de patru litere provine din rădăcini vechi germanice unde literele reprezentau inițial un sunet gutural care a dispărut cu timpul. Apare la sfârșitul sau în interiorul câtorva cuvinte esențiale precum *dough* sau *although*. În contexte informale, unele forme simplificate precum *thru* sunt tolerate în SUA, dar standardul rămâne neschimbat.
+Grupul -ough redă sunetul /oʊ/ în (dough) /doʊ/. În cuvântul (through) /θruː/, acesta sună ca un u lung, sunetul /uː/. Înainte de litera t, se rostește ca sunetul /ɔː/, adică un o deschis și lung, în (thought) /θɔːt/. În cuvinte ca (rough) /rʌf/, se aude ca sunetul /ʌf/.
 
-## Comparații și erori frecvente
+## Dificultăți pentru vorbitori
 
-Cea mai mare capcană pentru vorbitorii de română este confuzia între diferitele valori ale grupului **-ough**, cum ar fi `/ʌf/` în *rough*, `/uː/` în *through* și `/ɔː/` în *thought*. O greșeală comună este încercarea de a citi fonetic literele **gh**, adăugând un sunet străin la finalul lui *though*. Fiecare cuvânt care conține această combinație trebuie reținut individual ca o imagine sonoră distinctă.
+Vorbitorii de limbă română au tendința să citească literele separat, ca în cuvântul ogor. Grupul nu are niciodată sunetul g sau un h rostit separat. Reține că această combinație redă o singură vocală sau o vocală urmată de f.

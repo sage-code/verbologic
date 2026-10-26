@@ -22,16 +22,16 @@ terms:
 
 ## Sunetul literei A
 
-În limba engleză, denumirea literei **A** se pronunță ca un diftong: `/eɪ/`. Spre deosebire de vocala românească simplă **a** sau **e**, acest sunet presupune o tranziție lină între două poziții articulatoare. Îl întâlniți frecvent în cuvinte uzuale precum *face*, *day* sau *name*.
+Litera (A) /eɪ/ se numește așa și redă de obicei sunetul /æ/, adică un sunet deschis între a și e, ca în cuvântul (apple) /æ.pəl/.
 
-## Cum se pronunță /eɪ/
+## Pronunția literei A
 
-Porniți cu gura întredeschisă și limba poziționată în față, la fel ca pentru un `[e]` românesc relaxat. În timp ce emiteți sunetul, ridicați ușor mandibula și glisați limba spre un `[i]` scurt. Păstrați buzele relaxate, fără a le rotunji deloc pe parcursul diftongului.
+Pentru sunetul deschis, coboară maxilarul și întinde buzele cu limba în față. Pentru diftong, începe la mijloc și glisează limba spre cerul gurii. Sunetul relaxat cere o gură neutră, iar cel lung cere o deschidere largă în fundul gâtului.
 
-## Particularități de scriere
+## Ortografia literei A
 
-Pronunția `/eɪ/` apare cel mai des în modelul clasic vocală-consoană-e mut, cum ar fi în *late* sau *game*. De asemenea, se scrie adesea prin grupurile de litere **ai** (*wait*) sau **ay** (*play*). Dacă litera **a** se află într-o silabă închisă fără **e** la sfârșit, ea devine aproape întotdeauna vocala scurtă `/æ/` (*man*, *hat*).
+În silabe închise, litera redă sunetul /æ/, adică un a deschis, ca în (cat) /kæt/. În silabe deschise sau înaintea unui e mut, auzi sunetul /eɪ/, precum în (make) /meɪk/. În silabe neaccentuate, ea dă sunetul /ə/, ca în (about) /ə.baʊt/. În alte contexte, produce sunetul /ɑː/, adică un a lung, ca în (father) /fɑː.ðər/.
 
-## Atenție la confuzii
+## Diferențe față de română
 
-Cea mai frecventă greșeală a vorbitorilor de română este pronunțarea sunetului ca un `[e]` plat și monoton, lipsit de alunecarea specifică spre `[ɪ]`. De asemenea, aveți grijă să nu îl confundați cu sunetul `/æ/` deschis din *cat* sau cu `/ə/` din *about*. Asigurați-vă că finalul diftongului se aude distinct și fluid.
+Vorbitorii de română tind să înlocuiască sunetul deschis cu un a obișnuit din cuvântul cal. De asemenea, diftongul este rostit adesea ca un e simplu, iar sunetul relaxat este confundat cu sunetul din cuvântul păr.

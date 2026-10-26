@@ -20,18 +20,18 @@ terms:
   ro: "-eigh"
 ---
 
-## Sunetul grupului '-eigh'
+## Sunetul grupului eigh
 
-Grupul de litere **-eigh** reprezintă cel mai adesea diftongul `/eɪ/`, asemănător cu pronunția lui **ei** din cuvântul românesc **lei**, dar cu o tranziție mai lină. Literele **gh** sunt complet mute în engleza modernă. Vorbitorii de limba română nu trebuie să încerce să pronunțe consoana **g** sau vreun sunet aspirat.
+Grupul de litere -eigh se rostește cel mai des ca diftongul /eɪ/. Îl auzi în cuvântul (weigh) /weɪ/.
 
 ## Cum se pronunță
 
-Începeți prin a deschide gura moderat, plasând limba într-o poziție neutră spre față, ca pentru un **e** curat. Glisați apoi mandibula ușor în sus, ridicând limba spre palat pentru a atinge sunetul scurt `/ɪ/`. Mențineți buzele relaxate și asigurați-vă că nu emiteți niciun sunet consonantic la nivelul gâtului pentru **gh**.
+Pentru primul diftong, începe cu buzele întinse pe un sunet mediu și glisează limba spre cerul gurii. Pentru al doilea, deschide gura larg pentru un sunet central și apoi ridică limba spre un sunet închis.
 
-## Ortografie și reguli
+## Reguli de citire
 
-Această secvență este o convenție istorică de scriere în care vechiul sunet gutural reprezentat de **gh** a dispărut complet din vorbire. Apare frecvent la finalul rădăcinilor lexicale urmat de **t** (ca în **weight** sau **freight**) ori chiar la sfârșit de cuvânt (ca în **weigh**). La început de cuvânt, se regăsește aproape exclusiv în numeralul **eight** și formele derivate din acesta.
+În mod obișnuit, grupul -eigh se citește prin diftongul /eɪ/, ca în cuvântul (sleigh) /sleɪ/. În anumite cuvinte speciale, acest grup se citește prin diftongul /aɪ/, așa cum apare în cuvântul (height) /haɪt/.
 
-## Comparații și erori frecvente
+## Diferențe față de română
 
-Deși valoarea standard este diftongul `/eɪ/`, există excepții notabile precum **height**, unde grupul se pronunță `/aɪ/` (ca în românescul **hai**). O greșeală des întâlnită este tendința de a citi literele **g** și **h** ca sunete individuale sau de a încerca un sunet hârâit. Tratați întotdeauna întregul grup **-eigh** ca pe o simplă vocală compusă.
+Vorbitorii de română au tendința greșită de a citi separat fiecare literă sau de a pronunța consoane inexistente. Nu încerca să rostești literele din mijloc ca sunetul h sau g din limba română.

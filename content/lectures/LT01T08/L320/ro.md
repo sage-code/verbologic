@@ -20,18 +20,18 @@ terms:
   ro: "oa in boat (barcă)"
 ---
 
-## Sunetul grupului 'oa'
+## Grupul de litere oa
 
-Grupul de litere **oa** redă de regulă diftongul englezesc `/oʊ/` (în engleza americană) sau `/əʊ/` (în cea britanică). Spre deosebire de vocala românească simplă 'o' sau de diftongul 'oa' din limba română (ca în *soare*), sunetul englezesc pornește dintr-o poziție de mijloc și glisează lin spre `/ʊ/`. Nu trebuie pronunțat ca două sunete separate sau ca diftongul românesc ascendent.
+Acest grup se numește /oʊ/. Sunetul său principal este diftongul /oʊ/, pe care îl auzi în cuvântul (oak) /oʊk/.
 
 ## Cum se pronunță
 
-Începeți prin a plasa limba într-o poziție neutră sau median-posterioară, cu buzele ușor rotunjite. Pe măsură ce emiteți sunetul, ridicați ușor partea din spate a limbii și strângeți buzele într-o formă mai rotundă pentru a încheia glisarea spre `/ʊ/`. Mișcarea trebuie să fie una singură, fluidă și cursivă.
+Pentru diftong, pornești cu buzele rotunjite moderat și limba la mijloc, apoi strângi buzele spre un u scurt. Pentru vocala lungă, deschizi gura mai mult, cobori limba și ții buzele rotunjite fără să le miști.
 
-## Reguli de scriere
+## Reguli de pronunție
 
-Secvența **oa** apare aproape întotdeauna în interiorul silabelor accentuate, între două consoane, ca în **boat**, **road** sau **toast**. Nu se folosește la finalul cuvintelor native englezești, unde se preferă de obicei **ow**. Înainte de consoana 'r', ca în **roar** sau **board**, grupul își schimbă pronunția în `/ɔː/`.
+În mod obișnuit, grupul redă diftongul /oʊ/, de pildă în (boat) /boʊt/. Când este urmat de litera r, se pronunță ca vocala lungă /ɔː/, adică un o lung și deschis, ca în cuvântul (roar) /rɔːr/.
 
-## Comparații și capcane frecvente
+## Capcane pentru români
 
-Cea mai frecventă greșeală a vorbitorilor de română este pronunțarea secvenței ca diftongul românesc din *coajă* sau despărțirea în două vocale distincte. Rețineți că în cuvinte precum **coat** sau **soap**, sunetul este identic cu cel din **note** sau **hope**. Fiți atenți și la modificarea calității vocale înainte de 'r', unde glisarea dispare complet.
+Nu pronunța acest grup ca diftongul românesc din cuvântul soare. Primul sunet începe cu o și glisează spre u, iar cel dinaintea literei r este doar o lung, fără vreun u la final.

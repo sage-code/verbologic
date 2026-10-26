@@ -20,18 +20,18 @@ terms:
   ro: "ur in turn (a întoarce)"
 ---
 
-## Sunetul grupului „ur”
+## Sunetul grupului ur
 
-Combinația **ur** reprezintă de regulă o vocală centrală lungă, redată fonetic prin `/ɜːr/` în engleza americană sau `/ɜː/` în cea britanică. Acest sunet seamănă parțial cu vocala românească **ă**, însă este articulat mai lung, mai profund și adesea colorat cu un reflex rotic. Vorbitorii de română au tendința greșită de a citi separat literele ca un **u** plin urmat de un **r** vibrat.
+Acest grup se numește /ɜːr/. Sunetul său principal este /ɜːr/, un ăr lung și accentuat, ca în cuvântul (fur) /fɜːr/.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Păstrați buzele neutre și ușor relaxate, fără să le rotunjiți așa cum ați face pentru sunetul românesc *u*. Ridicați mijlocul limbii în centrul cavității bucale și, pentru accentul american, retrageți ușor vârful limbii spre cerul gurii pentru a obține rezonanța specifică. Pentru accentul britanic, mențineți limba fixă în poziție centrală și prelungiți sunetul fără a vibra deloc vârful limbii.
+Pentru primul sunet, ține limba la mijlocul gurii și retrage-o ușor, rotunjind puțin buzele cu vibrația corzilor vocale. Pentru varianta scurtă, relaxează complet limba. Pentru a treia variantă, începe cu un sunet scurt de i și glisează buzele spre u rotunjit.
 
-## Particularități de scriere
+## Reguli de scriere
 
-Grupul **ur** apare foarte des în silabe accentuate urmate de o consoană, ca în *hurt*, *turn* sau *purple*. La final de cuvânt, se regăsește în termeni scurți precum *fur* sau *blur*. În derivate urmate de vocale, cum ar fi *cure* sau *security*, grupul poate căpăta o pronunție diferită, trecând spre diftongul `/jʊər/`.
+În silabă accentuată înainte de consoană, grupul redă sunetul /ɜːr/, adică un ăr lung, ca în (burn) /bɜːrn/. În silabă neaccentuată, el redă sunetul /ər/, adică un ăr scurt, ca în (sulphur) /sʌl.fər/ sau (augur) /ɔː.ɡər/. Urmat de un e mut final, redă sunetul /jʊər/, ca în (cure) /kjʊər/ ori (pure) /pjʊər/.
 
-## Diferențe regionale și greșeli frecvente
+## Capcane frecvente
 
-În timp ce americanii pronunță clar sunetul rotic în *burn* `/bɜːrn/`, britanicii rostesc doar o vocală lungă centrală `/bɜːn/`. Cea mai răspândită greșeală a românilor este articularea unui `[u]` rotund și a unui `[r]` vibrat apical românesc, ceea ce distorsionează complet cuvântul. De asemenea, rețineți că grupurile **ur**, **ir** și **er** se pronunță identic în marea majoritate a cazurilor.
+Vorbitorii de română tind să citească literele separat, pronunțând un u clar urmat de un r vibrat din vârful limbii ca în cuvântul tur. Nu vibra limba pe dinți și nu pronunța vocala u curată.

@@ -20,18 +20,18 @@ terms:
   ro: "-tion"
 ---
 
-## Sunetul terminației -tion
+## Grupul tion
 
-Sufixul englezesc **-tion** se pronunță de regulă `/ʃən/`, foarte asemănător cu sunetul românesc „ș” urmat de o vocală neutră foarte scurtă și consoana „n”. Spre deosebire de română, unde litera **t** din sufixe similare se citește „ț”, în engleză devine un „ș” moale. Dacă este precedat de litera **s**, sunetul se transformă în `/tʃən/`, similar cu „ci” sau „ce” românesc.
+Grupul de litere -tion se citește în mod obișnuit prin sunetele /ʃən/. Îl auzi rostit astfel în cuvântul (action) /æk.ʃən/.
 
-## Cum se pronunță -tion
+## Cum se pronunță
 
-Rotunjiți ușor buzele și suflați aerul pe deasupra limbii pentru a forma un sunet clar de `/ʃ/` („ș”). Fără pauză, relaxați complet gura pentru o vocală obscură foarte scurtă și duceți vârful limbii pe cerul gurii pentru sunetul `/n/`. Nu accentuați niciodată această terminație; accentul cade întotdeauna pe silaba dinaintea ei.
+Rotunjește ușor buzele și împinge aerul printre dinți pentru un ș scurt. Apoi atinge cerul gurii cu vârful limbii pentru consoana n, trecând direct printr-o vocală foarte slabă. Uneori adaugi o oprire scurtă a aerului înainte, creând un sunet asemănător lui ce.
 
-## Ortografie și poziție
+## Reguli de pronunție
 
-Grupul **-tion** apare exclusiv la finalul substantivelor derivate din verbe, fiind moștenit pe filieră latină. Un indiciu ortografic esențial este că silaba aflată imediat înaintea terminației **-tion** primește întotdeauna accentul principal al cuvântului, ca în **sta-tion** sau **cre-a-tion**.
+Ca sufix substantival neaccentuat, grupul se rostește /ʃən/, de pildă în (nation) /neɪ.ʃən/. Când apare imediat după litera s, se pronunță prin sunetele /tʃən/, ca în cuvântul (question) /kwes.tʃən/.
 
-## Variante și capcane frecvente
+## Capcane frecvente
 
-Cea mai mare greșeală a vorbitorilor de română este citirea literară cu „ț” sau pronunțarea unei vocale „o” clare și accentuate. Comparați pronunția standard `/ʃən/` din **action** cu varianta `/tʃən/` din **question**, apărută exclusiv după litera **s**. Asigurați-vă că sunetul vocalei este redus complet la un „ă” abia perceptibil.
+Vorbitorii de limbă română tind adesea să citească literele exact cum se scriu, pronunțând un tiune lung ca în cuvântul națiune. În engleză sunetul este mereu scurt și redus, fără vocale clare la final.

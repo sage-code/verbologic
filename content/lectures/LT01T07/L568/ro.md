@@ -20,18 +20,18 @@ terms:
   ro: "P"
 ---
 
-## Sunetul literei P
+## Sunetul literei pi
 
-Litera **P** reprezintă o consoană oclusivă bilabială surdă, notată în fonetică drept `/p/`. Spre deosebire de limba română, unde sunetul este întotdeauna uscat și neaspirat, în engleză la începutul silabelor accentuate este însoțit de o expulzare puternică de aer (`[pʰ]`). La sfârșitul cuvintelor, sunetul este adesea lăsat neexplodat.
+Numele acestei litere este (P) /piː/. Sunetul său principal este sunetul /p/, ca în cuvântul (pen) /pɛn/.
 
-## Cum se pronunță
+## Pronunțarea sunetului
 
-Apropiați ambele buze ferm pentru a bloca complet trecerea aerului. Creați o presiune ușoară în spatele buzelor fără să activați corzile vocale. Deschideți brusc buzele lăsând aerul să iasă; la începutul cuvintelor, suflați aerul cu o respirație perceptibilă, similară unui oftat scurt.
+Atingeți buzele ferm pentru a opri complet aerul. Deschideți-le apoi brusc printr-o mică explozie de aer, fără vibrația corzilor vocale.
 
-## Reguli de scriere
+## Reguli de citire
 
-Sunetul este redat prin **P** simplu (*pet*) sau dublat (*supper*), ambele pronunțându-se exact la fel. Combinația **ph** se citește `/f/`, ca în *photo*. De asemenea, litera **P** este complet mută în împrumuturi vechi de origine greacă, precum *psychology*, dar și în cuvinte frecvente ca *receipt* sau *cupboard*.
+În cele mai multe poziții se aude sunetul /p/, ca în (cup) /kʌp/. În unele cuvinte împrumutate sau compuse litera rămâne mută, spre exemplu în (cupboard) /kʌ.bəd/ ori în (corps) /kɔː/.
 
-## Comparație și greșeli frecvente
+## Capcane frecvente
 
-Cea mai frecventă greșeală a vorbitorilor de română este lipsa aspirației inițiale; dacă pronunțați *pat* fără suflu de aer, un vorbitor nativ poate înțelege *bat*. De asemenea, evitați să citiți litera **P** acolo unde este mută, cum ar fi în *pneumonia* sau *psychic*. Folosiți o foaie de hârtie în fața gurii: la *pen* ar trebui să se miște vizibil, dar la *spin* să rămână nemișcată.
+Vorbitorii de limbă română pronunță adesea acest sunet fără suflu de aer. La începutul cuvintelor englezești, rostiți-l cu o ușoară expirație, mult mai puternic decât în cuvântul românesc pas.

@@ -20,18 +20,18 @@ terms:
   ro: "B"
 ---
 
-## Sunetul literei B
+## Sunetul literei bi
 
-Litera **B** redă în limba engleză consoana oclusivă bilabială sonoră `/b/`, identică cu sunetul „b” din limba română (ca în *carte* sau *băiat*). Spre deosebire de română, la final de cuvânt consoana `/b/` tinde să fie articulată mai slab și poate deveni parțial desonorizată. Cu toate acestea, ea nu trebuie transformată complet într-un sunet surd.
+Numele acestei litere este (B) /biː/. Sunetul său principal este sunetul /b/, rostit clar ca în cuvântul (bed) /bɛd/.
 
-## Cum se pronunță corect
+## Pronunția literei bi
 
-Atingeți buza superioară de cea inferioară, blocând complet trecerea aerului din gură. Lăsați corzile vocale să vibreze pentru a produce sonoritate în timp ce presiunea se acumulează ușor. Desprindeți brusc buzele pentru a elibera aerul printr-o mică explozie sonoră.
+Atingeți buzele ferm una de cealaltă pentru a opri aerul complet. Deschideți-le brusc și lăsați corzile vocale să vibreze pentru a elibera sunetul sonor.
 
-## Reguli de scriere și poziții
+## Ortografia literei bi
 
-Sunetul apare scris simplu ca **b** (*bed*, *table*) sau dublat ca **bb** după vocale scurte (*bubble*, *ribbon*). O regulă esențială a ortografiei engleze este că litera **b** devine mută la finalul cuvintelor după litera **m** (*climb*, *bomb*) și înainte de litera **t** în termeni precum *doubt* sau *debt*.
+În marea majoritate a pozițiilor, litera redă sunetul /b/, ca în cuvântul (cab) /kæb/. Aceasta rămâne însă mută la finalul unei silabe după consoana m, ca în (climb) /klaɪm/. De asemenea, nu se aude nici înaintea literei t, de exemplu în (doubt) /daʊt/.
 
-## Comparații și erori frecvente
+## Comparație cu româna
 
-Distincția principală este între sunetul sonor `/b/` și cazurile în care litera devine complet mută. Cea mai frecventă greșeală a vorbitorilor nativi de română este pronunțarea literei **b** în cuvinte precum *comb* sau *plumber*. Nu rostiți niciodată un sunet „b” la sfârșitul cuvintelor după litera **m**.
+Acest sunet este identic cu cel din cuvintele românești barcă sau tobă. Nu există capcane de pronunție când litera se aude, dar rețineți situațiile în care ea devine complet mută.

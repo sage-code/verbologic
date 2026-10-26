@@ -20,18 +20,18 @@ terms:
   ro: "-lf"
 ---
 
-## Sunetul grupului „-lf”
+## Sunetul grupului lf
 
-În cuvinte de bază precum „half” sau „calf”, grupul **-lf** se pronunță simplu `/f/`, litera **l** fiind complet mută. Sunetul `/f/` este identic cu cel din limba română (ca în „floare”). În alte substantive precum „golf” sau „wolf”, grupul se pronunță complet, `/lf/`, asemănător secvențelor de consoane din limba română.
+Grupul final -lf se rostește cel mai adesea ca sunetul /f/, ca în cuvântul (calf) /kɑːf/. Uneori se aud ambele consoane legate.
 
-## Cum se pronunță
+## Pronunția sunetelor
 
-Atingeți ușor buza inferioară cu dinții de sus și expirați continuu fără a folosi corzile vocale pentru a produce sunetul `/f/`. Pentru cuvinte ca „half”, lăsați limba relaxată pe fundul gurii după pronunțarea vocalei. Evitați cu strictețe ridicarea vârfului limbii spre cerul gurii, care ar produce un sunet parazit de „l”.
+Pentru primul sunet, atingeți dinții de sus de buza de jos și suflați aer fără voce. Pentru varianta completă, atingeți mai întâi cerul gurii cu vârful limbii și folosiți corzile vocale, apoi treceți direct la suflu.
 
-## Particularități ortografice
+## Reguli de scriere
 
-Grupul **-lf** apare exclusiv la finalul silabelor sau cuvintelor. În „half” și „calf”, prezența lui **l** este un vestigiu istoric ce dispare în pronunție, iar la plural consoana se transformă în `/v/` scris cu „-lves” („halves”). În majoritatea celorlalte substantive, cum ar fi „shelf” sau „golf”, litera „l” se pronunță clar.
+La sfârșitul unor cuvinte vechi, prima literă este mută și auziți doar sunetul /f/, ca în (half) /hɑːf/. În alte substantive păstrați ambele sunete rostite împreună ca sunetul /lf/, de exemplu în (gulf) /ɡʌlf/ sau (wolf) /wʊlf/.
 
-## Diferențe și greșeli frecvente
+## Capcane pentru români
 
-Cea mai comună greșeală a vorbitorilor de română este citirea fonetică a literei **l** în „half”, pronunțând greșit `/hælf/`. Amintiți-vă că în acest cuvânt specific nu există niciun sunet consonantic înainte de `/f/`. Exersați trecerea directă de la vocala deschisă la fricativa labiodentală, la fel ca în cuvântul „haf”.
+Vorbitorii de română tind să citească mereu litera l scrisă. Nu rostiți niciun sunet l în cuvintele unde este mut.

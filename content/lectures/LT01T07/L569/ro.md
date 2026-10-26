@@ -20,18 +20,18 @@ terms:
   ro: "Q"
 ---
 
-## Sunetul literei
+## Sunetul literei qiu
 
-În limba engleză, litera **Q** este aproape întotdeauna urmată de **U** și se pronunță cel mai des ca secvența `/kw/`. Acest sunet seamănă cu începutul cuvântului românesc *cuarț*, combinând un `/k/` scurt cu un `/w/` semivocalic. În câteva împrumuturi din franceză, se pronunță doar ca un simplu `/k/`.
+Numele acestei litere este (Q) /kjuː/. Când apare singură, redă de regulă sunetul /k/, ca în cuvântul (qat) /kæt/.
 
-## Cum se pronunță
+## Pronunția sunetului
 
-Atingeți partea din spate a limbii de vălul palatin pentru a opri aerul, formând sunetul `/k/`. În momentul eliberării aerului, rotunjiți rapid și strâns buzele pentru a trece imediat în semivocala `/w/`. Evitați să lăsați dinții să atingă buza inferioară, pentru a nu produce un sunet de tip `v`.
+Pentru sunetul /k/, blochează scurt aerul cu partea din spate a limbii lipită de cerul moale al gurii. Desprinde limba brusc pentru a elibera aerul fără vibrația corzilor vocale.
 
-## Ortografie și reguli
+## Reguli de citire
 
-În engleză este o regulă aproape absolută ca litera **Q** să fie urmată de **U** (de exemplu, *queen*, *equal*). La sfârșitul cuvintelor împrumutate din franceză, grupul apare adesea ca **-que**, așa cum este în *unique*. Majuscula **Q** este un cerc mare traversat de o linie scurtă în colțul din dreapta jos.
+În cuvinte împrumutate unde apare de una singură fără altă literă de sprijin, se citește cu sunetul /k/, de exemplu în (qi) /tʃiː/.
 
-## Comparație și greșeli frecvente
+## Capcane de pronunție
 
-Cea mai frecventă greșeală a vorbitorilor de limba română este pronunțarea grupului **qu** ca `/kv/` în loc de `/kw/`, spunând incorect *kvestion* pentru *question*. Asigurați-vă că buzele sunt bine rotunjite, ca pentru sunetul `u` scurt, fără contact dento-labial. De asemenea, rețineți că în cuvinte precum *antique*, grupul final se citește simplu `/k/`.
+În limba română sunetul c din cuvântul cal este identic cu această consoană. Nu adăuga alte sunete vocale dacă litera apare singură.

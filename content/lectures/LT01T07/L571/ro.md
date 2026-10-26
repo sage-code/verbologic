@@ -20,18 +20,18 @@ terms:
   ro: "S"
 ---
 
-## Sunetul literei S
+## Sunetul literei es
 
-Litera **S** redă în mod obișnuit consoana fricativă alveolară surdă `/s/`, similară cu **s** din limba română în cuvântul 'soare'. Spre deosebire de română, în limba engleză această literă se citește extrem de des ca un sunet sonor `/z/`, echivalent cu **z** din 'zar'. În anumite combinații cu sufixe speciale, poate căpăta și valorile `/ʃ/` sau `/ʒ/`.
+Numele acestei litere este (S) /es/. Cel mai frecvent redă sunetul /s/, întâlnit în cuvântul (sun) /sʌn/.
 
-## Cum se pronunță corect
+## Pronunția sunetelor
 
-Apropie vârful limbii de creasta alveolară din spatele dinților de sus, fără să atingi complet cerul gurii. Ține dinții foarte apropiați și buzele relaxate, lăsând un canal îngust pe mijlocul limbii. Suflă aer continuu pentru a crea un sâsâit clar; pentru varianta sonoră `/z/`, activează-ți corzile vocale în timp ce expiri.
+Pentru sunetul /s/, apropie dinții și suflă aer fără voce. Pentru sunetul /z/, fă același gest adăugând vibrația corzilor vocale. Pentru sunetele /ʃ/ și /ʒ/, rotunjește ușor buzele, primul fără voce, iar al doilea cu voce.
 
-## Ortografie și reguli de citire
+## Reguli de scriere
 
-La începutul cuvintelor, **S** este aproape invariabil pronunțat `/s/`. Între două vocale sau la finalul cuvintelor după sunete sonore, **S** devine frecvent `/z/`, ca în 'rose' sau 'dogs'. Dublarea literei prin **ss** garantează aproape întotdeauna păstrarea sunetului surd `/s/`, ca în 'class' sau 'message'.
+La început de cuvânt sau înaintea consoanelor surde rostești sunetul /s/, ca în (stop) /stɒp/. Între vocale ori după sunete sonore ai sunetul /z/, ca în (rose) /roʊz/. Înainte de terminații precum cele din (vision) /vɪ.ʒən/ auzi sunetul /ʒ/. În cuvinte precum (sugar) /ʃʊɡ.ər/ apare sunetul /ʃ/.
 
-## Diferențe și greșeli frecvente
+## Capcane de pronunție
 
-Cea mai mare capcană pentru vorbitorii de română este citirea mecanică a fiecărui **S** ca `/s/`. Această eroare poate schimba complet sensul unui cuvânt, de exemplu între 'bus' `/bʌs/` (autobuz) și 'buzz' `/bʌz/` (bâzâit). Acordă atenție specială terminațiilor de plural și verbelor la prezent, care cer adesea un `/z/` clar pronunțat.
+În limba română nu schimbi consoana surdă în una sonoră între vocale. Nu citi cu sunetul românesc din sat cuvintele englezești unde această literă devine un zgomot sonor precum cel din zori.

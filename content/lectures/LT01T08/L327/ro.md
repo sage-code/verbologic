@@ -20,18 +20,18 @@ terms:
   ro: "oy in boy (băiat)"
 ---
 
-## Sunetul diftongului 'oy'
+## Sunetul grupului oy
 
-Secvența **oy** redă diftongul descendent `/ɔɪ/`, similar diftongului românesc din cuvinte precum *troiță* sau interjecția *oi*. Sunetul pornește de la o vocală posterioară deschisă și glisează lin spre o vocală anterioară scurtă. Este un sunet unitar, nu două vocale pronunțate separat.
+Acest grup de litere se numește /ɔɪ/ și redă diftongul /ɔɪ/, ca în cuvântul (boy) /bɔɪ/. Este o combinație stabilă în limba engleză.
 
 ## Cum se pronunță
 
-Rotunjiți moderat buzele și coborâți partea din spate a limbii pentru a rosti primul element, apropiat de sunetul `o`. Fără întrerupere, deplasați limba în sus și înainte către poziția sunetului `i`, relaxând totodată buzele într-o formă ușor neutră. Asigurați-vă că tranziția este fluentă și executată într-o singură emisie sonoră.
+Rotunjește ușor buzele pentru primul element, cu limba retrasă jos. Apoi relaxează buzele și ridică limba spre cerul gurii pentru al doilea element, lăsând corzile vocale să vibreze continuu.
 
 ## Reguli de scriere
 
-Grupul de litere **oy** se utilizează aproape exclusiv la final de silabă sau de cuvânt, cum ar fi în *boy*, *toy* sau *royal*. Pentru pozițiile din interiorul cuvintelor urmate de consoană, limba engleză preferă de regulă varianta **oi**, ca în *point* sau *noise*. Cunoașterea acestei distribuții ajută semnificativ la scrierea corectă.
+În toate contextele în care apare, acest grup notează sunetul /ɔɪ/, ca în cuvântul (toy) /tɔɪ/.
 
-## Diferențe și greșeli frecvente
+## Capcane și comparații
 
-O greșeală des întâlnită la vorbitorii de română este pronunțarea unui `i` final prea lung și ascuțit, asemănător cu `/iː/`. În engleză, a doua parte a diftongului este mai degrabă un `/ɪ/` relaxat și scurt. Evitați să despărțiți diftongul în două silabe distincte, menținând cuvinte precum *joy* perfect monosilabice.
+Acest diftong este foarte apropiat de sunetul din cuvântul românesc oi. Nu există diferențe majore care să pună probleme vorbitorilor nativi de română.

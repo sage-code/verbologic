@@ -20,18 +20,18 @@ terms:
   ro: "br in bread (pâine)"
 ---
 
-## Sunetul grupului 'br'
+## Grupul de litere br
 
-Grupul consonantic **br** îmbină ocluziva bilabială `/b/` cu africata sau aproximanta postalveolară `/ɹ/`. Spre deosebire de limba română, unde litera 'r' este o vibrantă apicală energică, sunetul englezesc este mult mai moale și fără contact ferm cu cerul gurii. Trecerea de la buze la poziția limbii trebuie să fie lină și continuă.
+Grupul se rostește /br/. Sunetul său complet apare în cuvântul (brown) /braʊn/.
 
-## Cum se pronunță 'br'
+## Cum se pronunță
 
-Lipește ferm ambele buze pentru a pregăti explozia sunetului `/b/`, activând corzile vocale. În timp ce deschizi buzele, retrage corpul limbii spre interiorul cavității bucale, lăsând vârful relaxat sau ușor curbat în sus, fără să atingă palatul. Nu lăsa limba să vibreze pe cerul gurii așa cum ai face în românește.
+Atinge buzele pentru a opri aerul, apoi deschide-le brusc cu voce. Imediat, trage vârful limbii spre cerul gurii fără să atingi deloc palatul, lăsând aerul să treacă rotunjit.
 
-## Particularități de scriere
+## Reguli de scriere
 
-Grupul **br** apare frecvent la începutul multor cuvinte de bază din engleză, cum ar fi **bring**, **brain** sau **bridge**. Poate apărea de asemenea în interiorul cuvintelor, ca în **celebrate** sau **abrupt**. Scrierea este foarte consecventă și reflectă aproape întotdeauna această secvență fonetică standard.
+În toate pozițiile, această combinație redă sunetul /br/, ca în cuvântul (brick) /brɪk/.
 
-## Greșeli frecvente de pronunție
+## Capcane de pronunție
 
-Cea mai mare capcană pentru vorbitorii de limba română este rularea sunetului 'r', producând o vibrație prea aspră. De asemenea, evită introducerea unei pauze sau a unui mic sunet de tip 'ă' între cele două consoane. Antrenează-te să muți limba în poziția specifică de `/ɹ/` înainte chiar ca buzele să termine deschiderea pentru `/b/`.
+Vorbitorii de limba română tind să vibreze vârful limbii ca în cuvântul brad. În engleză, limba doar se curbează ușor spre interior, fără nicio bătaie repetată.

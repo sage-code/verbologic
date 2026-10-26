@@ -20,18 +20,18 @@ terms:
   ro: "G"
 ---
 
-## Sunetul literei G moale
+## Sunetul literei gi
 
-În cuvântul **giant**, litera **G** redă sunetul `/dʒ/`, echivalentul exact al grupului românesc **gi** sau **ge** din cuvinte precum *ger* sau *girafă*. Este o africată sonoră rostită cu vibrația corzilor vocale. Spre deosebire de română, acest sunet poate apărea în engleză și la final de cuvânt sub forma grafică **-ge** sau **-dge**.
+Numele acestei litere este (G) /dʒ/. Sunetul său principal este sunetul /ɡ/, ca în cuvântul (gas) /ɡæs/.
 
-## Cum se pronunță /dʒ/
+## Pronunția sunetelor literei
 
-Atingeți cu partea din față a limbii cerul gurii, imediat în spatele dinților de sus, blocând scurt aerul. Eliberați fluxul de aer cu fricțiune și rotunjiți ușor buzele, asigurându-vă că folosiți vocea. Sunetul trebuie să fie exploziv și continuu, exact ca în românescul *gem*.
+Pentru sunetul /ɡ/, blochează aerul cu spatele limbii lipit de cerul gurii moale și dă-i drumul cu voce. Pentru sunetul /dʒ/, atinge cerul gurii cu limba și desprinde-o rapid, vibrând corzile vocale. Pentru sunetul /ʒ/, lasă aerul să treacă continuu.
 
-## Reguli de scriere
+## Reguli de citire
 
-Pronunția `/dʒ/` apare de regulă atunci când **G** este urmat de literele **e**, **i** sau **y**. Există însă excepții native foarte frecvente precum *girl* sau *get*, unde se pronunță un **G** dur (`/ɡ/`). La sfârșit de cuvânt, sunetul este redat aproape întotdeauna prin **-ge** (*large*) sau **-dge** (*judge*).
+Înaintea literelor e, i sau y, redă adesea sunetul /dʒ/, ca în (gem) /dʒɛm/. Înainte de consoane sau a, o, u, redă sunetul /ɡ/, ca în (gap) /ɡæp/. În împrumuturi din franceză, produce sunetul /ʒ/, ca în (genre) /ʒɑn.rə/. Înaintea literei n la marginea rădăcinii, litera este mută, ca în (gnat) /næt/.
 
-## Atenție la diferențele de pronunție
+## Capcane de pronunție
 
-Nu confundați pronunția moale `/dʒ/` cu sunetul dur `/ɡ/` din *good*. Vorbitorii de română tind uneori să citească mecanic litera **G** ca un sunet dur în derivate neobișnuite, sau să uite rotunjirea ușoară a buzelor. De asemenea, în împrumuturi recente din franceză precum *mirage*, litera se citește `/ʒ/` fără ocluziunea inițială.
+În limba română, litera g urmată de e sau i sună similar, dar în engleză sunetul /dʒ/ este mai apăsat. Nu confunda sunetul /dʒ/ cu sunetul românesc j și evită să rostești sunetul /ɡ/ acolo unde litera trebuie să rămână mută.

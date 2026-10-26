@@ -20,18 +20,18 @@ terms:
   ro: "er in her (ei)"
 ---
 
-## Sunetul combinației ER
+## Sunetul grupului er
 
-Grupul de litere **er** redă de obicei vocala centrală lungă `/ɜːr/` (sau `/ɜː/` în engleza britanică) atunci când este accentuat, ca în *her* sau *person*. Spre deosebire de vocalele limbii române, acest sunet nu seamănă nici cu `ă`, nici cu `e`, ci este o vocală colorată de consoana 'r'. La final de cuvânt, în silabe neaccentuate, devine un 'ă' redus însoțit de un 'r' fluid.
+Grupul se numește /ɜːr/, adică un ăr lung cu r rotic. Sunetul său principal se aude în cuvântul (fern) /fɜːrn/.
 
 ## Cum se pronunță
 
-Întredeschideți gura și mențineți buzele neutre și relaxate, fără să le rotunjiți. Retrageți limba spre centrul gurii și ridicați ușor marginile laterale spre măselele superioare, arcuind vârful fără a atinge cerul gurii. Vibrați corzile vocale fără a lăsa limba să bată pe alveole, obținând un sunet continuu și profund.
+Ține limba în centrul gurii, relaxată, cu buzele neutre. Pentru varianta lungă, menține fluxul vocal și curbează ușor vârful limbii spre cerul gurii. Varianta scurtă este extrem de scurtă și slab accentuată.
 
-## Particularități ortografice
+## Reguli de pronunție
 
-Grupul **er** apare des în rădăcina cuvintelor precum *serve*, *term* sau *fern*. Același sunet este ortografiat și prin **ir** (*girl*), **ur** (*turn*) sau **ear** (*early*). La final de cuvânt, sufixul **er** este folosit pe scară largă pentru a forma substantive de agent (*player*) sau comparative de superioritate (*bigger*).
+În silabele accentuate, grupul redă sunetul /ɜːr/, adică un ăr lung cu r, ca în (term) /tɜːrm/. În silabele neaccentuate, acesta redă sunetul /ər/, adică un ăr scurt și slab cu r, ca în (water) /wɔː.tər/.
 
-## Comparații și capcane fonetice
+## Capcane de pronunție
 
-Vorbitorii de limbă română au tendința de a pronunța un `e` deschis urmat de un `r` rulat, cu vibrație alveolară puternică. În engleză, limba nu trebuie să atingă cerul gurii sau dinții, iar sunetul este unul unitar și fluid. Rețineți de asemenea că în engleza britanică standard sunetul final 'r' nu se aude deloc dacă nu este urmat de o vocală.
+Vorbitorii de română tind să citească literele separat, ca un e urmat de un r vibrat. În engleză nu ai sunetul e, ci o vocală centrală similară cu ă, iar r nu se vibrează niciodată cu vârful limbii.

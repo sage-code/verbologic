@@ -20,18 +20,18 @@ terms:
   ro: "T"
 ---
 
-## Sunetul T ca /tʃ/
+## Sunetul literei ti
 
-În anumite combinații, litera **T** se pronunță ca africata postalveolară surdă `/tʃ/`, identică cu grupul românesc **ce** sau **ci** din *ceai*. Acest fenomen apare de regulă înainte de vocale neaccentuate, în special în terminația *-ure*. Se deosebește complet de sunetul dur și simplu `[t]` din limba română.
+Numele acestei litere este (T) /tʃ/. Sunetul său principal este sunetul /t/, pe care îl auzi în cuvântul (top) /tɑp/.
 
-## Cum se pronunță /tʃ/
+## Pronunția literei ti
 
-Atingeți marginea limbii de cerul gurii, chiar în spatele dinților de sus, blocând pentru o clipă aerul. Dați apoi drumul aerului brusc printr-un spațiu îngust, rotunjind ușor buzele, pentru a produce o explozie scurtă combinată cu o fricativă șuierată. Nu folosiți coardele vocale, deoarece sunetul este complet surd.
+Pentru sunetul surd, atinge gingia superioară cu vârful limbii și eliberează aerul brusc, fără voce. Pentru varianta bătută, atinge scurt cerul gurii cu o singură lovitură rapidă, lăsând corzile vocale să vibreze.
 
-## Particularități de scriere
+## Ortografia literei ti
 
-Această valoare fonetică a literei **T** se întâlnește cel mai frecvent în terminațiile *-ure* (cum ar fi *nature*, *picture*) sau *-ual* (precum *actual*). Deși se aude ca un **ch**, din punct de vedere ortografic se scrie exclusiv cu litera **T**. Este important să recunoașteți aceste sufixe pentru a ști când să aplicați pronunția palatalizată.
+În mod obișnuit, litera redă sunetul /t/, ca în (ten) /tɛn/. În engleza americană, între două vocale înaintea unei silabe neaccentuate, ea sună ca o bătaie scurtă /ɾ/, de exemplu în (water) /wɑ.tɚ/ sau (city) /sɪ.ti/. Uneori este mută după litera s, ca în (listen) /lɪ.sən/ și (castle) /kæ.səl/.
 
-## Comparații și erori frecvente
+## Diferențe față de română
 
-Comparați sunetul `/tʃ/` din *nature* (`/ˈneɪ.tʃər/`) cu `/t/`-ul clar din *native* (`/ˈneɪ.tɪv/`) sau cu `/ʃ/` din *nation* (`/ˈneɪ.ʃən/`). Vorbitorii de română tind adesea să citească litera literal, spunând *ne-tiur* în loc de varianta corectă. Evitați să separați sunetele și folosiți africata completă **ce/ci**.
+În limba română, sunetul t este pronunțat cu limba pe dinți. În engleză, vârful limbii atinge gingia mai sus, iar la început de cuvânt sunetul este însoțit de o ușoară suflare de aer.

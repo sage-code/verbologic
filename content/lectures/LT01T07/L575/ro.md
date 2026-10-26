@@ -20,18 +20,18 @@ terms:
   ro: "W"
 ---
 
-## Sunetul literei W
+## Sunetul literei dublu ve
 
-În limba engleză, litera **W** redă o semivocală sonoră velară notată `/w/`. Acest sunet seamănă foarte bine cu **u** semivocalic din cuvintele românești *ou* sau *ziua*, funcționând ca o trecere rapidă spre vocala următoare. În mod crucial, nu trebuie pronunțat niciodată ca sunetul consoanei românești **v**.
+Numele acestei litere este (W) /dʌbəl.juː/. Cel mai frecvent redă sunetul /w/, ca în cuvântul (wet) /wɛt/.
 
-## Cum se pronunță W
+## Pronunțarea sunetului
 
-Rotunjiți buzele strâns într-o formă circulară mică, exact ca atunci când vă pregătiți să fluierați. Ridicați partea posterioară a limbii spre cerul moale al gurii și activați corzile vocale. Dați drumul sunetului deschizând rapid buzele spre următoarea vocală, având grijă ca dinții de sus să nu atingă buza inferioară.
+Pentru sunetul /w/, rotunjește buzele strâns, ca pentru un u scurt. Ridică partea din spate a limbii spre vălul palatin. Emite vocea scurt, depărtând apoi rapid buzele.
 
-## Ortografie și poziție
+## Reguli de citire
 
-Litera **W** este extrem de frecventă la începutul silabelor (*water*, *wish*) și în grupuri de litere precum *tw* sau *sw*. De asemenea, intră în compoziția multor diftongi ortografici la sfârșit de cuvânt, precum **ow** în *glow* sau **ew** în *new*. Când se află înaintea literei **r** la debutul unui cuvânt (*write*, *wrist*), litera devine complet mută.
+Înaintea unei vocale, litera redă sunetul /w/, ca în cuvântul (win) /wɪn/. Înainte de litera r sau în anumite cuvinte speciale, litera este complet mută, ca în cuvintele (write) /raɪt/ și (two) /tuː/.
 
-## Diferențe și greșeli frecvente
+## Diferențe față de română
 
-Cea mai frecventă greșeală a vorbitorilor de română este pronunțarea literei **W** ca un `/v/` românesc, confundând perechi precum *wine* (vin) și *vine* (viță de vie). Asigurați-vă că nu permiteți dinților să atingă buza de jos când pronunțați `/w/`. În plus, rețineți că în cuvinte precum *sword* sau *two*, **w** nu se aude deloc.
+Vorbitorii de română tind să folosească sunetul v în loc de sunetul /w/. Nu atinge dinții de sus cu buza de jos ca la vânt. Folosește doar buzele rotunjite, exact ca la începutul numelui Oana.

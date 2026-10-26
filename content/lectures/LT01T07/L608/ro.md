@@ -20,18 +20,18 @@ terms:
   ro: "-lk"
 ---
 
-## Sunetul combinației „-lk”
+## Grupul de litere lk
 
-În cele mai cunoscute cuvinte englezești terminate în „-alk” sau „-olk”, litera „l” este complet mută, iar grupul se pronunță simplu `/k/`. Vorbitorii de limba română tind adesea să pronunțe fiecare literă scrisă, încercând să rostească un „l” artificial. În cuvinte precum „walk” sau „chalk”, se aude doar consoana ocluzivă velară surdă de la final.
+Grupul -lk se pronunță de obicei doar prin sunetul /k/, ca în cuvântul (walk) /wɔːk/. În alte cuvinte, ambele litere se aud clar, formând sunetele /lk/.
 
-## Cum se pronunță
+## Pronunția grupului lk
 
-Nu atingeți cerul gurii cu vârful limbii, așa cum ați face pentru un „l” românesc. Treceți direct de la vocala precedentă la blocarea aerului cu spatele limbii lipit de cerul moale al gurii. Eliberați apoi aerul brusc, fără vibrația corzilor vocale, pentru a produce un `/k/` clar.
+Pentru sunetul /k/, blochează aerul cu spatele limbii pe vălul palatului și eliberează-l brusc, fără voce. Pentru /lk/, atinge mai întâi dinții de sus cu vârful limbii cu voce, apoi treci rapid la sunetul surd.
 
-## Reguli de scriere
+## Ortografia grupului lk
 
-Grupul de litere „-lk” apare la sfârșitul cuvintelor de bază sau al silabelor. Când urmează după „a” sau „o” (ca în „walk”, „talk”, „yolk”), litera „l” este întotdeauna mută. În schimb, după alte vocale, cum ar fi „i” în „milk” sau „u” în „hulk”, „l”-ul se pronunță distinct înainte de „k”.
+După anumite vocale la sfârșit de cuvânt, prima literă este mută și auzi doar sunetul /k/, ca în (talk) /tɔːk/. În alte contexte, ambele litere sunt pronunțate complet, cum este cazul în cuvântul (milk) /mɪlk/.
 
-## Comparație și greșeli frecvente
+## Grupul lk pentru români
 
-Comparați cuvântul „walk” (`/wɔːk/`), unde „l” lipsește cu desăvârșire din rostire, cu „milk” (`/mɪlk/`), unde litera „l” trebuie pronunțată clar. Cea mai frecventă greșeală a vorbitorilor nativi de română este pronunțarea sunetului [l] în verbe extrem de uzuale precum „walk” sau „talk”.
+Vorbitorii de română tind să citească mereu ambele litere. Greșeala frecventă este să pronunți un sunet l acolo unde este mut, exact cum se citește în cuvântul românesc calcar.
