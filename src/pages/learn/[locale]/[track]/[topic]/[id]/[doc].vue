@@ -393,74 +393,72 @@ useSeoMeta({
 </script>
 
 <template>
+  <!-- A STORY is read, not browsed: it takes a while, so the chapter rail is
+       hidden and the article gets the full width. Lectures and dictionary
+       articles keep the rail — there the reader is moving between topics.
+       No vertical padding here: `.app-main` already supplies the gutter, and
+       doubling it pushed the reading area past the viewport. -->
   <main
-    class="app-container grid gap-5 py-6 lg:grid-cols-[280px_minmax(0,1fr)]"
-    :class="'min-h-0 overflow-hidden'"
+    class="app-container grid gap-5"
+    :class="[isStory ? '' : 'lg:grid-cols-[280px_minmax(0,1fr)]', 'min-h-0 overflow-hidden']"
   >
     <!-- Desktop: the track's chapter/topic rail stays beside the article -->
-    <ArticleRail :lang="trackLang" :track="track as TrackId" :topic="topicCode" />
+    <ArticleRail v-if="!isStory" :lang="trackLang" :track="track as TrackId" :topic="topicCode" />
 
     <div class="flex min-w-0 min-h-0 flex-col">
-      <nav class="flex items-center gap-2 text-sm text-muted">
-        <a :href="`/learn/${trackLang}/${track}`" class="inline-flex items-center gap-1.5 transition hover:text-accent">
-          <ArrowLeftIcon class="h-4 w-4" aria-hidden="true" />
-          {{ copy('roadmap.back_to_topics', 'All topics') }}
-        </a>
-        <span class="text-faint">/</span>
-        <span class="hidden font-code text-xs text-faint sm:inline">{{ topicCode }}</span>
-      </nav>
-
-      <article class="mt-4 flex min-h-0 flex-1 flex-col gap-3">
+      <article class="flex min-h-0 flex-1 flex-col gap-3">
         <header class="shrink-0 space-y-2">
-          <!-- The track's own title and flag, so the article sits in the same
-               frame as the track page it was opened from. Without this the
-               reader loses the "Stories" heading and the language flag the
-               moment they open a story. -->
-          <div class="flex items-center gap-2">
-            <LanguageFlag :code="flagFor(trackLang)" :label="languageName(trackLang)" size="sm" />
-            <p class="text-xs font-semibold uppercase tracking-wide text-accent">
-              {{ trackTitle }}
-            </p>
-            <span class="text-faint">/</span>
-            <p class="min-w-0 truncate text-xs text-muted">{{ topicName }}</p>
-          </div>
-          <div class="flex items-start justify-between gap-3">
-            <!-- A letter article's title IS the letter, so it is set in the
-                 handwriting face the alphabet is taught with (Marck Script):
-                 uppercase then lowercase, same face. A group ("ea", "sch") has
-                 no case pair and keeps the plain title. The prose title stays
-                 in the accessible name, so screen readers and search engines
-                 still get a word. -->
-            <h1 v-if="cursivePair" class="cursive min-w-0 text-4xl text-content">
-              <span aria-hidden="true">{{ cursivePair.upper }} {{ cursivePair.lower }}</span>
-              <span class="sr-only">{{ articleTitle }}</span>
-            </h1>
-            <h1 v-else class="min-w-0 text-3xl font-bold text-content">{{ articleTitle }}</h1>
-            <!-- Close: back to the topic's table, the same target as the breadcrumb -->
-            <a
-              :href="`/learn/${trackLang}/${track}?chapter=${topicCode.slice(0, 4)}&topic=${topicCode}`"
-              class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-edge bg-surface text-muted transition hover:border-accent hover:text-accent"
-              :aria-label="copy('ui.close', 'Close')"
-              :title="copy('roadmap.back_to_topics', 'All topics')"
-            >
-              <XMarkIcon class="h-4 w-4" aria-hidden="true" />
-            </a>
+          <!-- ONE title row: the flag, the track, the topic and the article
+               title all sit on the same line, so the header costs a single row
+               instead of three. The breadcrumb link is gone — the Close button
+               already goes back to the topic's table, and a story is read in
+               one sitting rather than navigated away from. -->
+          <div class="flex items-center justify-between gap-3">
+            <div class="flex min-w-0 items-center gap-2">
+              <LanguageFlag :code="flagFor(trackLang)" :label="languageName(trackLang)" size="sm" />
+              <p class="shrink-0 text-xs font-semibold uppercase tracking-wide text-accent">
+                {{ trackTitle }}
+              </p>
+              <span class="shrink-0 text-faint">/</span>
+              <p class="hidden min-w-0 truncate text-xs text-muted sm:block">{{ topicName }}</p>
+              <span class="hidden shrink-0 text-faint sm:block">/</span>
+              <!-- A letter article's title IS the letter, so it is set in the
+                   handwriting face the alphabet is taught with (Marck Script):
+                   uppercase then lowercase, same face. A group ("ea", "sch")
+                   has no case pair and keeps the plain title. The prose title
+                   stays in the accessible name, so screen readers and search
+                   engines still get a word. -->
+              <h1 v-if="cursivePair" class="cursive min-w-0 truncate text-2xl text-content">
+                <span aria-hidden="true">{{ cursivePair.upper }} {{ cursivePair.lower }}</span>
+                <span class="sr-only">{{ articleTitle }}</span>
+              </h1>
+              <h1 v-else class="min-w-0 truncate text-xl font-bold text-content">{{ articleTitle }}</h1>
+            </div>
+            <div class="flex shrink-0 items-center gap-2">
+              <span v-if="articleMinutes" class="hidden items-center gap-1 text-xs text-faint sm:inline-flex">
+                <ClockIcon class="h-3.5 w-3.5" aria-hidden="true" /> {{ articleMinutes }} min
+              </span>
+              <span
+                class="hidden rounded-full px-2 py-0.5 text-xs sm:inline"
+                :class="articleStatus === 'reviewed' ? 'bg-accent-soft text-accent' : 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/40 dark:text-yellow-200'"
+              >
+                {{ articleStatus === 'reviewed' ? copy('lecture.reviewed', 'Reviewed') : copy('lecture.draft', 'Draft') }}
+              </span>
+              <!-- Close: back to the topic's table -->
+              <a
+                :href="`/learn/${trackLang}/${track}?chapter=${topicCode.slice(0, 4)}&topic=${topicCode}`"
+                class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge bg-surface text-muted transition hover:border-accent hover:text-accent"
+                :aria-label="copy('ui.close', 'Close')"
+                :title="copy('roadmap.back_to_topics', 'All topics')"
+              >
+                <XMarkIcon class="h-4 w-4" aria-hidden="true" />
+              </a>
+            </div>
           </div>
           <p v-if="articleSummary" class="text-sm text-muted">{{ articleSummary }}</p>
-          <div class="flex flex-wrap items-center gap-2 text-xs text-faint">
-            <span v-if="articleMinutes" class="inline-flex items-center gap-1">
-              <ClockIcon class="h-3.5 w-3.5" aria-hidden="true" /> {{ articleMinutes }} min
-            </span>
-            <span
-              class="rounded-full px-2 py-0.5"
-              :class="articleStatus === 'reviewed' ? 'bg-accent-soft text-accent' : 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/40 dark:text-yellow-200'"
-            >
-              {{ articleStatus === 'reviewed' ? copy('lecture.reviewed', 'Reviewed') : copy('lecture.draft', 'Draft — review pending') }}
-            </span>
-            <span v-if="isFallback" class="rounded-full bg-soft px-2 py-0.5 text-muted">
-              {{ copy('lecture.not_translated', 'Not translated yet — showing English') }}
-            </span>
-          </div>
+          <span v-if="isFallback" class="inline-block rounded-full bg-soft px-2 py-0.5 text-xs text-muted">
+            {{ copy('lecture.not_translated', 'Not translated yet — showing English') }}
+          </span>
         </header>
 
         <p
