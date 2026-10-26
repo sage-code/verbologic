@@ -696,36 +696,38 @@ def transliterate_batch(texts: list[str], locale: str) -> list[str]:
 
 
 def article_sections(track: str, topic: str, code: str, locale: str) -> list[str] | None:
-    """The article body split into reading pages, one per `##` heading.
+    """The article body split into reading pages, matching the reading view.
 
     This is the SAME rule the reading view paginates by (`paginate()` in
-    [doc].vue): a document with headings starts a new page at each one. Page N
-    of the UI is therefore section N here, which is what lets the player seek.
+    [doc].vue), and the two must stay in sync or the player seeks to the wrong
+    place:
+    - a document with section headings (h2/h3) starts a new page at each one
+      and carries the blocks beneath it (lectures, dictionary articles);
+    - a document with NO headings paginates one paragraph per page (stories).
+
+    Page N of the UI is therefore section N here, which is what lets the player
+    seek to the page being read.
     """
     path = CONTENT_DIR / track / topic / code / f"{locale}.md"
     if not path.is_file():
         return None
-    text = FRONTMATTER_RE.sub("", path.read_text(encoding="utf-8"))
-    text = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", text)  # images
-    text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)  # links → their text
-    text = re.sub(r"^\s{0,3}#{1,6}\s*", "", text, flags=re.MULTILINE)  # headings
-    text = re.sub(r"[*_`>]+", "", text)  # emphasis / quotes / code marks
-    text = re.sub(r"\n{3,}", "\n\n", text)
-
-    # Split on the heading markers BEFORE they were stripped, so the page
-    # boundaries survive. Re-read and split on the raw `##` lines instead.
     raw = FRONTMATTER_RE.sub("", path.read_text(encoding="utf-8"))
-    raw = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", raw)
-    raw = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", raw)
+    raw = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", raw)  # images
+    raw = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", raw)  # links → their text
+
+    def clean(chunk: str) -> str:
+        chunk = re.sub(r"^\s{0,3}#{1,6}\s*", "", chunk, flags=re.MULTILINE)
+        chunk = re.sub(r"[*_`>]+", "", chunk)
+        return re.sub(r"\n{3,}", "\n\n", chunk).strip()
+
+    if not re.search(r"^\s{0,3}#{2,3}\s+", raw, flags=re.MULTILINE):
+        # No headings: one paragraph per page, exactly like `paginate()`.
+        paragraphs = [clean(p) for p in re.split(r"\n\s*\n", raw)]
+        return [p for p in paragraphs if p] or None
+
     chunks = re.split(r"^\s{0,3}#{2,3}\s+.*$", raw, flags=re.MULTILINE)
-    sections = []
-    for chunk in chunks:
-        cleaned = re.sub(r"^\s{0,3}#{1,6}\s*", "", chunk, flags=re.MULTILINE)
-        cleaned = re.sub(r"[*_`>]+", "", cleaned)
-        cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
-        if cleaned:
-            sections.append(cleaned)
-    return sections or None
+    sections = [clean(chunk) for chunk in chunks]
+    return [s for s in sections if s] or None
 
 
 def article_text(track: str, topic: str, code: str, locale: str) -> str | None:

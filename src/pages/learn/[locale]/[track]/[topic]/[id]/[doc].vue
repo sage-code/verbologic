@@ -228,10 +228,11 @@ const storyNativeRead = computed(() => nativeRecord.value?.read?.url ?? null)
 /**
  * Where the current reading page starts in each panel's recording.
  *
- * The article paginates one `##` section per page, and the generator records
- * each section's start offset, so pressing Play on page 3 begins at page 3.
- * A recording made before offsets existed has no entry — the player then
- * starts at 0, exactly as before.
+ * The article paginates one section per page (a `##` heading, or one paragraph
+ * when the document has no headings), and the generator records each section's
+ * start offset, so pressing Play on page 3 begins at page 3. A recording made
+ * before offsets existed has no entry — the player then starts at 0, exactly
+ * as before.
  */
 const targetStartAt = computed(() => {
   const locale = isStory.value ? trackLang.value : (storyTargetDoc.value?.locale ?? docLocale.value)
@@ -239,6 +240,18 @@ const targetStartAt = computed(() => {
 })
 const nativeStartAt = computed(
   () => nativeRecord.value?.readSections?.[docLocale.value]?.[storyPage.value] ?? 0
+)
+/**
+ * Where the current page ENDS in each panel's recording — the next page's
+ * start. The player stops here and asks for the next page, so the voice never
+ * reads on into text the reader cannot see yet. 0 means "no boundary".
+ */
+const targetEndAt = computed(() => {
+  const locale = isStory.value ? trackLang.value : (storyTargetDoc.value?.locale ?? docLocale.value)
+  return record.value?.readSections?.[locale]?.[storyPage.value + 1] ?? 0
+})
+const nativeEndAt = computed(
+  () => nativeRecord.value?.readSections?.[docLocale.value]?.[storyPage.value + 1] ?? 0
 )
 const targetTerm = computed(() =>
   markdownDoc.value?.terms?.[trackLang.value] ?? record.value?.term ?? ''
@@ -416,7 +429,15 @@ useSeoMeta({
                 <h2 class="text-xs font-semibold uppercase tracking-wide text-accent">
                   {{ storyTargetName }} · {{ copy(isStory ? 'stories.learning_text' : 'lecture.explanation', isStory ? 'Learning language' : 'Explanation') }}
                 </h2>
-                <ArticleReadPlayer ref="targetPlayer" :src="storyTargetRead" :label="storyTargetName" :start-at="targetStartAt" />
+                <ArticleReadPlayer
+                  ref="targetPlayer"
+                  :src="storyTargetRead"
+                  :label="storyTargetName"
+                  :start-at="targetStartAt"
+                  :end-at="targetEndAt"
+                  :has-next="storyPage < storyPageCount - 1"
+                  @page-ended="moveStoryPage(1)"
+                />
               </div>
               <ContentRenderer
                 v-if="storyTargetPage"
@@ -433,7 +454,15 @@ useSeoMeta({
                 <h2 class="text-xs font-semibold uppercase tracking-wide text-muted">
                   {{ storyNativeName }} · {{ copy('stories.translation', 'Translation') }}
                 </h2>
-                <ArticleReadPlayer ref="nativePlayer" :src="storyNativeRead" :label="storyNativeName" :start-at="nativeStartAt" />
+                <ArticleReadPlayer
+                  ref="nativePlayer"
+                  :src="storyNativeRead"
+                  :label="storyNativeName"
+                  :start-at="nativeStartAt"
+                  :end-at="nativeEndAt"
+                  :has-next="storyPage < storyPageCount - 1"
+                  @page-ended="moveStoryPage(1)"
+                />
               </div>
               <ContentRenderer
                 v-if="storyNativePage"

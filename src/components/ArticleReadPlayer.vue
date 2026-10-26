@@ -3,6 +3,15 @@
 // [locale].mp3). Play becomes Pause while running; Pause becomes Resume; the
 // adjacent Stop button resets to the start. A pending recording renders the
 // disabled "audio coming soon" state instead of a dead button.
+//
+// The recording is the WHOLE article, but the reader shows one page at a time,
+// so the player is page-aware:
+// - Play on page N seeks to that page's offset (`startAt`);
+// - Pause keeps its position, so Resume continues mid-page;
+// - reaching the end of a page advances the reader to the next page and keeps
+//   playing from that page's start (`endAt`), so the text follows the voice;
+// - moving to another page while playing seeks to that page's start, so the
+//   voice follows the text.
 <script setup lang="ts">
 import { PauseIcon, PlayIcon, StopIcon } from '@heroicons/vue/24/solid'
 import { useSound } from '~/composables/useSound'
@@ -19,9 +28,22 @@ const props = withDefaults(
      * 0 (or absent) plays from the beginning.
      */
     startAt?: number
+    /**
+     * End offset in seconds for the current reading page — where the next page
+     * begins. Reaching it advances the reader instead of reading on into the
+     * next page's text. 0 (or absent) means "no boundary": play to the end.
+     */
+    endAt?: number
+    /** True while another page exists after the current one. */
+    hasNext?: boolean
   }>(),
-  { label: '', startAt: 0 }
+  { label: '', startAt: 0, endAt: 0, hasNext: false }
 )
+
+const emit = defineEmits<{
+  /** The current page finished; the reader should show the next one. */
+  (event: 'page-ended'): void
+}>()
 
 const copy = useCopy()
 const sound = useSound()
@@ -37,6 +59,21 @@ function ensurePlayer(): HTMLAudioElement | null {
   if (!props.src) return null
   if (!player.value) {
     const audio = sound.bind(new Audio(props.src))
+    audio.ontimeupdate = () => {
+      // Stop at the page boundary rather than reading on into the next page's
+      // text. `endAt` is the next page's start offset, so the two never
+      // overlap; without a boundary (last page) the recording plays out.
+      if (!playing.value || props.endAt <= 0) return
+      if (audio.currentTime < props.endAt) return
+      if (props.hasNext) {
+        audio.pause()
+        emit('page-ended')
+      } else {
+        audio.pause()
+        playing.value = false
+        paused.value = false
+      }
+    }
     audio.onended = () => {
       playing.value = false
       paused.value = false
@@ -44,6 +81,17 @@ function ensurePlayer(): HTMLAudioElement | null {
     player.value = audio
   }
   return player.value
+}
+
+/** Seek to `seconds`, waiting for metadata when the element is still fresh. */
+function seek(audio: HTMLAudioElement, seconds: number) {
+  if (audio.readyState >= 1) {
+    audio.currentTime = seconds
+    return
+  }
+  audio.addEventListener('loadedmetadata', () => {
+    audio.currentTime = seconds
+  }, { once: true })
 }
 
 function toggle() {
@@ -60,20 +108,7 @@ function toggle() {
   // The seek must wait for metadata: setting `currentTime` on a fresh element
   // whose duration is still NaN is silently dropped, so Play would start at 0.
   // `readyState >= 1` (HAVE_METADATA) means the seek will stick.
-  const seekTo = !paused.value && props.startAt > 0 ? props.startAt : null
-  if (seekTo !== null) {
-    if (audio.readyState >= 1) {
-      audio.currentTime = seekTo
-    } else {
-      audio.addEventListener(
-        'loadedmetadata',
-        () => {
-          audio.currentTime = seekTo
-        },
-        { once: true }
-      )
-    }
-  }
+  if (!paused.value && props.startAt > 0) seek(audio, props.startAt)
   void audio.play().catch(() => {})
   playing.value = true
   paused.value = false
@@ -96,6 +131,24 @@ watch(
     stop()
     sound.unbind(player.value)
     player.value = null
+  }
+)
+
+// The reader moved to another page while the voice was running: follow it, so
+// the sound matches the text on screen. Paused playback is left alone — the
+// user is mid-page and Resume must continue where it stopped.
+//
+// This also covers the auto-advance path: the boundary handler pauses at the
+// page end and asks the reader for the next page, so the new `startAt` arrives
+// here and playback resumes from that page's first word.
+watch(
+  () => props.startAt,
+  (next: number, previous: number) => {
+    if (!playing.value || next === previous) return
+    const audio = player.value
+    if (!audio) return
+    seek(audio, next)
+    if (audio.paused) void audio.play().catch(() => {})
   }
 )
 
