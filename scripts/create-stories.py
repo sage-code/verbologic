@@ -200,7 +200,10 @@ def story_prompt(topic_name: str, level: str, existing_titles: list[str], subjec
         f"{focus}"
         f"- Do not reuse these titles: {taken}.\n\n"
         'Return only a JSON object with the keys "title" (a short title), "summary" '
-        '(one sentence of at most 25 words) and "paragraphs" (a list of strings). '
+        '(one sentence of at most 25 words), "paragraphs" (a list of strings) and '
+        '"context" (an object that maps the name of each character, or its role if it has '
+        'no name, to a short phrase saying what it IS and its main look, for example '
+        '"Pip": "a small white goose with an orange beak"). '
         "Plain text in every string: no markdown, no numbering, no stage directions."
     )
 
@@ -327,6 +330,7 @@ def next_code(topic: str, chapter: str) -> str:
 def article_document(
     topic: str, code: str, locale: str, title: str, summary: str,
     paragraphs: list[str], minutes: int, per_page: int,
+    context: dict[str, str] | None = None,
 ) -> str:
     """One locale's article: front matter as the content schema expects, then the paragraphs."""
     front = [
@@ -342,6 +346,10 @@ def article_document(
         f"order: {int(code[1:])}",
         f"minutes: {minutes}",
         f"paragraphsPerPage: {per_page}",
+        *(
+            ["context:"] + [f"  {json.dumps(name, ensure_ascii=False)}: {json.dumps(what, ensure_ascii=False)}" for name, what in context.items()]
+            if context else []
+        ),
         "---",
         "",
     ]
@@ -361,7 +369,10 @@ def write_story(topic: str, chapter: str, code: str, level: str, story: dict[str
     for loc in LOCALES:
         text = texts[loc]
         (folder / f"{loc}.md").write_text(
-            article_document(topic, code, loc, text["title"], text["summary"], text["paragraphs"], minutes, per_page),
+            article_document(
+                topic, code, loc, text["title"], text["summary"], text["paragraphs"], minutes, per_page,
+                context=story.get("context") if loc == DEFAULT_LOCALE else None,
+            ),
             encoding="utf-8",
             newline="\n",
         )
