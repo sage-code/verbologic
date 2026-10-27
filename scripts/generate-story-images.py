@@ -9,9 +9,9 @@ the English document): one at A1, two at A2, three from B1 up. The page split
 here is the one the reading view makes, so picture N belongs to page N. A story
 must have at least three pages, and therefore at least three pictures.
 
-Every picture is resized to the reader's panel shape (4:5, 896x1120) before it is
-saved, so the file on disk is the file the page shows. The reader shows the
-whole picture, not a crop, so the composition keeps the subject inside the frame.
+Every picture is a perfect square (1:1, 896x896) before it is saved, so the file on
+disk is the file the page shows. The reader shows the whole picture, not a crop,
+so the composition keeps the subject inside the frame.
 
 The pictures are SHARED by every language the story is translated into — they
 live in the item's own `images/` folder, not under a locale — so they are
@@ -81,18 +81,13 @@ CANONICAL = "en"
 #: Paragraphs on one reading page when the story's front matter does not say.
 DEFAULT_PARAGRAPHS_PER_PAGE = 1
 
-#: The picture's pixel size: 4:5, and 1120 tall keeps a 2x screen sharp at the
-#: panel's height (about 510-620 CSS px).
-PICTURE_WIDTH = 896
-PICTURE_HEIGHT = 1120
+#: The picture's pixel size: a perfect square. 896 keeps a 2x screen sharp at the
+#: picture's size on the reader (about 440-520 CSS px square on desktop).
+PICTURE_SIZE = 896
 
-#: 4:5, measured against the reader's picture panel (verbologic story page, three
-#: equal panels in a row). The panel is nearly square on common desktop screens:
-#: 481x510 at 1564x794, 387x436 at 1280x720, 415x482 at 1366x768, 493x616 at
-#: 1600x900 — aspect 0.80 to 0.94. A 4:5 picture covers that range with the
-#: largest side crop at about 15%, where 3:4 crops about 20% of the height and a
-#: square crops about 20% of the width. 896x1120 also keeps a 2x screen sharp.
-ASPECT_RATIO = "4:5"
+#: 1:1, the reader's picture panel is always square (verbologic story page, the
+#: picture beside the text on landscape screens, below it on portrait ones).
+ASPECT_RATIO = "1:1"
 
 
 def load_env() -> None:
@@ -122,11 +117,12 @@ def paragraphs_per_page(topic: str, code: str) -> int:
 
 
 def fit_picture(raw: bytes) -> bytes:
-    """Centre-crop to the panel's 4:5 shape and resize to PICTURE_WIDTH x PICTURE_HEIGHT.
+    """Centre-crop to a square and resize to PICTURE_SIZE x PICTURE_SIZE.
 
-    Gemini returns a picture close to 4:5 but not exact (928x1152 came back for
-    a 4:5 request), so the crop removes the few pixels of excess and the resize
-    gives every story the same pixel size. JPEG output, as the manifests expect.
+    A portrait picture loses its top and bottom, a landscape one its left and
+    right, so the subject stays in the middle of whichever way it was drawn. The
+    resize gives every story the same pixel size. JPEG output, as the manifests
+    expect.
     """
     from io import BytesIO
 
@@ -134,16 +130,11 @@ def fit_picture(raw: bytes) -> bytes:
 
     image = Image.open(BytesIO(raw)).convert("RGB")
     width, height = image.size
-    target = PICTURE_WIDTH / PICTURE_HEIGHT
-    if width / height > target:
-        new_width = round(height * target)
-        left = (width - new_width) // 2
-        image = image.crop((left, 0, left + new_width, height))
-    else:
-        new_height = round(width / target)
-        top = (height - new_height) // 2
-        image = image.crop((0, top, width, top + new_height))
-    image = image.resize((PICTURE_WIDTH, PICTURE_HEIGHT), Image.LANCZOS)
+    side = min(width, height)
+    left = (width - side) // 2
+    top = (height - side) // 2
+    image = image.crop((left, top, left + side, top + side))
+    image = image.resize((PICTURE_SIZE, PICTURE_SIZE), Image.LANCZOS)
     out = BytesIO()
     image.save(out, format="JPEG", quality=88, optimize=True, progressive=True)
     return out.getvalue()
@@ -180,7 +171,7 @@ def story_pages(paragraphs: list[str], per_page: int) -> list[list[str]]:
 #: never cropped to fit), so nothing the story needs may sit at the very edge:
 #: the subjects stay well inside the frame and the edges carry only background.
 COMPOSITION = (
-    "Frame: a tall 4:5 portrait picture, filled edge to edge with painting — no "
+    "Frame: a perfect square 1:1 picture, filled edge to edge with painting — no "
     "border, no white margin, no vignette, no frame. Place the main characters "
     "large and well inside the frame, with their faces in the upper-middle of the "
     "picture and the key action inside the central three-fifths of the width. "
@@ -221,7 +212,7 @@ def call_gemini_image(prompt: str, model: str) -> bytes:
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "responseModalities": ["IMAGE"],
-            # 4:5 matches the reader's picture panel (see ASPECT_RATIO).
+            # 1:1 matches the reader's picture panel (see ASPECT_RATIO).
             "imageConfig": {"aspectRatio": ASPECT_RATIO},
         },
     }
@@ -279,8 +270,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description=(
             "Generate a story's illustrations with Gemini in a Grigorescu "
-            "impressionist style. Every story gets three pictures, cropped to "
-            "4:5, and the pictures are shared by every language the story is "
+            "impressionist style. Every reading page gets one square picture, and "
+            "the pictures are shared by every language the story is "
             "translated into."
         )
     )

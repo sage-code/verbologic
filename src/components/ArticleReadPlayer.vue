@@ -2,7 +2,8 @@
 // Plays the full-article recording for ONE language (media/[track]/…/read/
 // [locale].mp3). Play becomes Pause while running; Pause becomes Resume; the
 // adjacent Stop button resets to the start. A pending recording renders the
-// disabled "audio coming soon" state instead of a dead button.
+// disabled "audio coming soon" state instead of a dead button. With `text` set
+// (a language name), the button reads "Play" and the name instead of "Read".
 //
 // The recording is the WHOLE article, but the reader shows one page at a time,
 // so the player is page-aware:
@@ -22,6 +23,8 @@ const props = withDefaults(
     src: string | null
     /** Language name shown in the control's accessible label. */
     label?: string
+    /** Visible button text (a language name). Empty keeps the plain Read control. */
+    text?: string
     /**
      * Start offset in seconds for the current reading page. Pressing Play
      * seeks here, so page 3 starts at page 3 instead of replaying pages 1–2.
@@ -37,10 +40,12 @@ const props = withDefaults(
     /** True while another page exists after the current one. */
     hasNext?: boolean
   }>(),
-  { label: '', startAt: 0, endAt: 0, hasNext: false }
+  { label: '', text: '', startAt: 0, endAt: 0, hasNext: false }
 )
 
 const emit = defineEmits<{
+  /** Playback began; the page stops any other language's recording. */
+  (event: 'started'): void
   /** The current page finished; the reader should show the next one. */
   (event: 'page-ended'): void
 }>()
@@ -53,6 +58,16 @@ const paused = ref(false)
 
 const state = computed<'idle' | 'playing' | 'paused'>(() =>
   playing.value ? 'playing' : paused.value ? 'paused' : 'idle'
+)
+
+const actionLabel = computed(() =>
+  state.value === 'playing'
+    ? copy('ui.pause', 'Pause')
+    : state.value === 'paused'
+      ? copy('ui.resume', 'Resume')
+      : props.text
+        ? copy('ui.play', 'Play')
+        : copy('ui.read', 'Read')
 )
 
 function ensurePlayer(): HTMLAudioElement | null {
@@ -112,6 +127,7 @@ function toggle() {
   void audio.play().catch(() => {})
   playing.value = true
   paused.value = false
+  emit('started')
 }
 
 function stop() {
@@ -166,27 +182,13 @@ defineExpose({ stop })
       type="button"
       class="inline-flex h-8 items-center gap-1.5 rounded-full border border-edge bg-surface px-3 text-xs font-medium text-accent transition hover:border-accent disabled:cursor-not-allowed disabled:opacity-40"
       :disabled="!src"
-      :aria-label="
-        state === 'playing'
-          ? copy('ui.pause', 'Pause')
-          : state === 'paused'
-            ? copy('ui.resume', 'Resume')
-            : copy('ui.read', 'Read')
-      "
-      :title="src ? (label ? `${copy('ui.read', 'Read')} — ${label}` : copy('ui.read', 'Read')) : copy('ui.audio_coming_soon', 'Audio coming soon')"
+      :aria-label="text ? `${actionLabel}: ${text}` : actionLabel"
+      :title="src ? (label ? `${actionLabel} — ${label}` : actionLabel) : copy('ui.audio_coming_soon', 'Audio coming soon')"
       @click="toggle"
     >
       <PauseIcon v-if="state === 'playing'" class="h-3.5 w-3.5" aria-hidden="true" />
       <PlayIcon v-else class="h-3.5 w-3.5" aria-hidden="true" />
-      <span>
-        {{
-          state === 'playing'
-            ? copy('ui.pause', 'Pause')
-            : state === 'paused'
-              ? copy('ui.resume', 'Resume')
-              : copy('ui.read', 'Read')
-        }}
-      </span>
+      <span>{{ text || actionLabel }}</span>
     </button>
     <button
       type="button"
