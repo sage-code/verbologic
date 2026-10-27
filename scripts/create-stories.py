@@ -172,11 +172,12 @@ def gemini_json(prompt: str, temperature: float, model: str) -> dict[str, Any]:
     return result
 
 
-def story_prompt(topic_name: str, level: str, existing_titles: list[str]) -> str:
+def story_prompt(topic_name: str, level: str, existing_titles: list[str], subject: str | None = None) -> str:
     spec = LEVELS[level]
     low, high = spec["paragraphs"]
     per_page = spec["per_page"]
     taken = ", ".join(f'"{title}"' for title in existing_titles) or "none yet"
+    focus = f"- The main character is {subject}. Give it a name and make it the heart of the story.\n" if subject else ""
     return (
         "You write short illustrated stories for a language-learning website. The "
         "stories are read by people learning English, and every page of a story "
@@ -196,6 +197,7 @@ def story_prompt(topic_name: str, level: str, existing_titles: list[str]) -> str
         "- Keep the same characters and setting throughout, and use their names the same way each time.\n"
         "- Tell an original story, or a well-known public-domain tale told in your own "
         "words, that suits the collection.\n"
+        f"{focus}"
         f"- Do not reuse these titles: {taken}.\n\n"
         'Return only a JSON object with the keys "title" (a short title), "summary" '
         '(one sentence of at most 25 words) and "paragraphs" (a list of strings). '
@@ -411,6 +413,7 @@ def main() -> int:
     parser.add_argument("count", type=int, help="how many stories to create")
     parser.add_argument("--model", help="Gemini text model (default: GEMINI_MODEL from .env)")
     parser.add_argument("--skip-audio", action="store_true", help="do not synthesize title and read audio")
+    parser.add_argument("--subject", help="main character of every story, e.g. 'a hedgehog'")
     args = parser.parse_args()
 
     load_env()
@@ -439,7 +442,7 @@ def main() -> int:
             titles = existing_titles(topic)
             story = with_retries(
                 f"{code} story",
-                lambda: gemini_json(story_prompt(topic_name, level, titles), 0.9, model),
+                lambda: gemini_json(story_prompt(topic_name, level, titles, args.subject), 0.9, model),
                 lambda result: check_story(result, level),
             )
             translated = with_retries(
