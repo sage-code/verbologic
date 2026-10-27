@@ -65,7 +65,13 @@ export default defineContentConfig({
         /** Related dictionary/expression ids — the "practise these" strip. */
         related: z.array(z.string()).default([]),
         order: z.number().default(0),
-        minutes: z.number().optional()
+        minutes: z.number().optional(),
+        /**
+         * A story's reading page size: one paragraph at A1, two at A2, three
+         * from B1 up. Each page carries one picture, so the picture count is
+         * the page count. Unset means one paragraph per page.
+         */
+        paragraphsPerPage: z.number().int().min(1).max(3).default(1)
       })
     })
   }

@@ -103,13 +103,6 @@ export function publishedFiles(item) {
   return out
 }
 
-/**
- * How many illustrations every story gets — the same at every level. Three
- * pictures change as the reader advances through the first three pages.
- * Mirrors STORY_IMAGE_COUNT in scripts/generate-story-images.py.
- */
-export const STORY_IMAGE_COUNT = 3
-
 /** The item's illustrations, in page order. */
 export const imagesOf = (item) => item.images ?? []
 

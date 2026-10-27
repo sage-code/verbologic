@@ -13,6 +13,7 @@ Primary interface is the project runner — `./run.sh help` lists everything (bu
 - `./run.sh media index|stage|manifest|verify|upload|prune` — media pipeline (see `scripts/media-*.mjs`, `manual/MAINTENANCE.md`)
 - `./run.sh missing` / `./run.sh scaffold <lang> <TOPIC> <seed.json>` — missing-content inventory and topic seeding
 - `./run.sh lecture <new|status|translate|review>` — lecture content tooling (`content/lectures/`)
+- `./run.sh create story <topic-code> <n>` — write `n` illustrated stories for a stories topic at the topic's CEFR level (`scripts/create-stories.py`: Gemini text and translations, one picture per reading page, title/read audio; nothing uploaded)
 - `./run.sh deploy` / `./run.sh deploy-dry` — Wrangler deploy / dry-run validation
 - `./run.sh status` / `./run.sh commit "<msg>"` / `./run.sh push [--force]` / `./run.sh release "<msg>"` — git + release flow (push throttled to 1/2h)
 - `./run.sh tsc` — type-check (`vue-tsc`)

@@ -50,20 +50,20 @@ function phoneticContentMeta(topic: string): ContentMeta | null {
 }
 
 /**
- * Read-audio facts that live only in the bundled payload.
+ * Read-audio facts and story pictures that live only in the bundled payload.
  *
- * `units` has no `reads`/`readSections` columns, so a row built from the
+ * `units` has no `reads`/`readSections`/`images` columns, so a row built from the
  * database cannot carry them — but the article page needs them to pick the
  * panel's recording and to seek to the current page. This cache is filled from
  * the topic payload on first use and keyed by entity id.
  */
-const readFacts = new Map<string, { reads?: Record<string, string> | null; readSections?: Record<string, number[]> | null }>()
+const readFacts = new Map<string, Partial<Pick<MediaRow, 'reads' | 'readSections' | 'images'>>>()
 
 /** Remember a payload's read facts so DB-built rows can borrow them. */
 export function rememberReadFacts(rows: MediaRow[]): void {
   for (const row of rows) {
-    if (!row.reads && !row.readSections) continue
-    readFacts.set(row.entity_id, { reads: row.reads, readSections: row.readSections })
+    if (!row.reads && !row.readSections && !row.images) continue
+    readFacts.set(row.entity_id, { reads: row.reads, readSections: row.readSections, images: row.images })
   }
 }
 
@@ -71,7 +71,7 @@ export function rememberReadFacts(rows: MediaRow[]): void {
 function withReadFacts(row: MediaRow): MediaRow {
   const facts = readFacts.get(row.entity_id)
   if (!facts) return row
-  return { ...row, reads: facts.reads ?? row.reads, readSections: facts.readSections ?? row.readSections }
+  return { ...row, reads: facts.reads ?? row.reads, readSections: facts.readSections ?? row.readSections, images: facts.images ?? row.images }
 }
 
 /** Map a `units` row onto the row contract the table already renders. */

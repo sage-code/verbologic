@@ -1,0 +1,395 @@
+{
+  "schema": 1,
+  "note": "ro and en only. Other locales are filled by generate-audio.py --translate; Romanian IPA is hand-written.",
+  "chapters": [
+    {
+      "code": "CH14",
+      "names": { "en": "Arts & Literature", "ro": "Arte și literatură" },
+      "topics": [
+        {
+          "code": "CH14T01", "level": "B1",
+          "names": { "en": "Painting & sculpture", "ro": "Pictură și sculptură" },
+          "words": [
+            { "ro": "pictură", "en": "painting", "ipa": "/pikˈtu.ra/" },
+            { "ro": "sculptură", "en": "sculpture", "ipa": "/skulpˈtu.ra/" },
+            { "ro": "pensulă", "en": "paintbrush", "ipa": "/penˈsu.lə/" },
+            { "ro": "șevalet", "en": "easel", "ipa": "/ʃevaˈlet/" },
+            { "ro": "pânză", "en": "canvas", "ipa": "/ˈpɨn.zə/" },
+            { "ro": "vopsea", "en": "paint", "ipa": "/voˈpe̯.a/" },
+            { "ro": "portret", "en": "portrait", "ipa": "/porˈtret/" },
+            { "ro": "schiță", "en": "sketch", "ipa": "/ˈski.tsə/" },
+            { "ro": "statuie", "en": "statue", "ipa": "/staˈtu.je/" },
+            { "ro": "mozaic", "en": "mosaic", "ipa": "/moˈza.ik/" },
+            { "ro": "acuarelă", "en": "watercolour", "ipa": "/akwaˈre.lə/" },
+            { "ro": "artist", "en": "artist", "ipa": "/arˈtist/" }
+          ]
+        },
+        {
+          "code": "CH14T02", "level": "B1",
+          "names": { "en": "Literature & writing", "ro": "Literatură și scriere" },
+          "words": [
+            { "ro": "roman", "en": "novel", "ipa": "/roˈman/" },
+            { "ro": "poezie", "en": "poem", "ipa": "/po.eˈzi.e/" },
+            { "ro": "poet", "en": "poet", "ipa": "/poˈet/" },
+            { "ro": "scriitor", "en": "writer", "ipa": "/skri.iˈtor/" },
+            { "ro": "nuvelă", "en": "short story", "ipa": "/ˈnu.ve.lə/" },
+            { "ro": "capitol", "en": "chapter", "ipa": "/kaˈpi.tol/" },
+            { "ro": "autor", "en": "author", "ipa": "/auˈtor/" },
+            { "ro": "personaj", "en": "character", "ipa": "/perso̯ˈnaʒ/" },
+            { "ro": "intrigă", "en": "plot", "ipa": "/inˈtri.gə/" },
+            { "ro": "rimă", "en": "rhyme", "ipa": "/ˈri.mə/" },
+            { "ro": "vers", "en": "verse", "ipa": "/vers/" },
+            { "ro": "jurnal", "en": "diary", "ipa": "/ʒurˈnal/" },
+            { "ro": "editură", "en": "publishing house", "ipa": "/e.diˈtu.rə/" },
+            { "ro": "ediție", "en": "edition", "ipa": "/eˈdi.t͡si.e/" }
+          ]
+        },
+        {
+          "code": "CH14T03", "level": "B1",
+          "names": { "en": "Theatre & cinema", "ro": "Teatru și cinema" },
+          "words": [
+            { "ro": "teatru", "en": "theatre", "ipa": "/teˈa.tru/" },
+            { "ro": "scenă", "en": "stage", "ipa": "/ˈse.nə/" },
+            { "ro": "actor", "en": "actor", "ipa": "/akˈtor/" },
+            { "ro": "actriță", "en": "actress", "ipa": "/akˈtri.tsə/" },
+            { "ro": "regizor", "en": "director", "ipa": "/re.dʒiˈzor/" },
+            { "ro": "spectacol", "en": "show", "ipa": "/spekˈta.kol/" },
+            { "ro": "film", "en": "film", "ipa": "/film/" },
+            { "ro": "cinema", "en": "cinema", "ipa": "/ˈt͡ʃi.ne.ma/" },
+            { "ro": "decor", "en": "set", "ipa": "/deˈkor/" },
+            { "ro": "costum", "en": "costume", "ipa": "/koˈstum/" },
+            { "ro": "scenariu", "en": "script", "ipa": "/t͡ʃeˈna.riu/" },
+            { "ro": "aplauze", "en": "applause", "ipa": "/apˈlau.ze/" },
+            { "ro": "comedie", "en": "comedy", "ipa": "/ko.meˈdi.e/" },
+            { "ro": "premieră", "en": "premiere", "ipa": "/preˈmi.e.rə/" },
+            { "ro": "public", "en": "audience", "ipa": "/puˈblik/" }
+          ]
+        },
+        {
+          "code": "CH14T04", "level": "B1",
+          "names": { "en": "Photography & design", "ro": "Fotografie și design" },
+          "words": [
+            { "ro": "fotografie", "en": "photograph", "ipa": "/fo.to.ɡraˈfi.e/" },
+            { "ro": "aparat foto", "en": "camera", "ipa": "/aˈpa.rat ˈfo.to/" },
+            { "ro": "obiectiv", "en": "lens", "ipa": "/o.bi.ekˈtiv/" },
+            { "ro": "imagine", "en": "image", "ipa": "/iˈma.dʒi.ne/" },
+            { "ro": "desen", "en": "drawing", "ipa": "/deˈsen/" },
+            { "ro": "logo", "en": "logo", "ipa": "/ˈlo.ɡo/" },
+            { "ro": "diagramă", "en": "diagram", "ipa": "/dia.ˈɡra.mə/" },
+            { "ro": "machetă", "en": "mock-up", "ipa": "/maˈke.tə/" },
+            { "ro": "tipografie", "en": "typography", "ipa": "/ti.po.ɡraˈfi.e/" },
+            { "ro": "expunere", "en": "exposure", "ipa": "/eksˈpu.ne.re/" },
+            { "ro": "rezoluție", "en": "resolution", "ipa": "/re.zoˈlu.t͡si.e/" },
+            { "ro": "expoziție", "en": "exhibition", "ipa": "/eks.poˈzi.t͡si.e/" }
+          ]
+        },
+        {
+          "code": "CH14T05", "level": "B1",
+          "names": { "en": "Crafts & handmade art", "ro": "Meșteșuguri și artă manuală" },
+          "words": [
+            { "ro": "meșteșug", "en": "craft", "ipa": "/meʃˈte.ʃug/" },
+            { "ro": "olar", "en": "potter", "ipa": "/oˈlar/" },
+            { "ro": "ceramică", "en": "ceramics", "ipa": "/t͡ʃeˈra.mi.kə/" },
+            { "ro": "țesut", "en": "weaving", "ipa": "/t͡se̯ˈsut/" },
+            { "ro": "daltă", "en": "chisel", "ipa": "/ˈdal.tə/" },
+            { "ro": "ac", "en": "needle", "ipa": "/ak/" },
+            { "ro": "ață", "en": "thread", "ipa": "/ˈa.t͡sə/" },
+            { "ro": "croșetat", "en": "crochet", "ipa": "/kroʃeˈtat/" },
+            { "ro": "broderie", "en": "embroidery", "ipa": "/bro.deˈri.e/" },
+            { "ro": "lut", "en": "clay", "ipa": "/lut/" },
+            { "ro": "roată de olar", "en": "potter's wheel", "ipa": "/ˈro̯a.tə de oˈlar/" },
+            { "ro": "cioplitor", "en": "carver", "ipa": "/t͡ʃo.pliˈtor/" }
+          ]
+        },
+        {
+          "code": "CH14T06", "level": "B1",
+          "names": { "en": "Hobbies & leisure", "ro": "Hobby-uri și timp liber" },
+          "words": [
+            { "ro": "hobby", "en": "hobby", "ipa": "/ˈɔ.bi/" },
+            { "ro": "grădinărit", "en": "gardening", "ipa": "/ɡrədi.neˈrit/" },
+            { "ro": "pescuit", "en": "fishing", "ipa": "/pes.ˈku.it/" },
+            { "ro": "drumeție", "en": "hiking", "ipa": "/drumeˈt͡si.e/" },
+            { "ro": "cort", "en": "tent", "ipa": "/kort/" },
+            { "ro": "rucsac", "en": "backpack", "ipa": "/ruk.ˈsak/" },
+            { "ro": "busolă", "en": "compass", "ipa": "/buˈso.lə/" },
+            { "ro": "colecție", "en": "collection", "ipa": "/ko.leˈt͡si.e/" },
+            { "ro": "puzzle", "en": "jigsaw", "ipa": "/ˈpa.zl̩/" },
+            { "ro": "observare a păsărilor", "en": "birdwatching", "ipa": "/obserˈva.re a pəsəˈri.lor/" },
+            { "ro": "origami", "en": "origami", "ipa": "/o.riˈɡa.mi/" },
+            { "ro": "ciclism", "en": "cycling", "ipa": "/t͡ʃiˈklism/" }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CH15",
+      "names": { "en": "Transport & Vehicles", "ro": "Transport și vehicule" },
+      "topics": [
+        {
+          "code": "CH15T01", "level": "B1",
+          "names": { "en": "Cars & driving", "ro": "Mașini și conducere" },
+          "words": [
+            { "ro": "automobil", "en": "car", "ipa": "/au.to.moˈbil/" },
+            { "ro": "șofer", "en": "driver", "ipa": "/ʃoˈfer/" },
+            { "ro": "permis de conducere", "en": "driving licence", "ipa": "/perˈmis de konˈdu.t͡se.re/" },
+            { "ro": "volan", "en": "steering wheel", "ipa": "/voˈlan/" },
+            { "ro": "frână", "en": "brake", "ipa": "/ˈfrɨ.nə/" },
+            { "ro": "accelerator", "en": "accelerator", "ipa": "/a.t͡ʃe.leˈra.tor/" },
+            { "ro": "motor", "en": "engine", "ipa": "/moˈtor/" },
+            { "ro": "cutie de viteze", "en": "gearbox", "ipa": "/kuˈti.e de ˈvi.te.ze/" },
+            { "ro": "benzină", "en": "petrol", "ipa": "/benˈzi.nə/" },
+            { "ro": "parbriz", "en": "windscreen", "ipa": "/parˈbriz/" },
+            { "ro": "parcare", "en": "car park", "ipa": "/parˈka.re/" },
+            { "ro": "remorcă", "en": "trailer", "ipa": "/reˈmor.kə/" },
+            { "ro": "ghidon", "en": "handlebars", "ipa": "/ɡiˈdon/" }
+          ]
+        },
+        {
+          "code": "CH15T02", "level": "B1",
+          "names": { "en": "Roads & traffic", "ro": "Drumuri și trafic" },
+          "words": [
+            { "ro": "drum", "en": "road", "ipa": "/drum/" },
+            { "ro": "autostradă", "en": "motorway", "ipa": "/au.to.ˈstra.də/" },
+            { "ro": "semafor", "en": "traffic light", "ipa": "/se.maˈfor/" },
+            { "ro": "semn de circulație", "en": "road sign", "ipa": "/semn de t͡ʃir.kuˈla.t͡sie/" },
+            { "ro": "trecere de pietoni", "en": "crosswalk", "ipa": "/ˈtre.t͡ʃe.re de pje.ˈto.ni/" },
+            { "ro": "trotuar", "en": "pavement", "ipa": "/tro.tuˈar/" },
+            { "ro": "bordură", "en": "kerb", "ipa": "/borˈdu.rə/" },
+            { "ro": "ambuteiaj", "en": "traffic jam", "ipa": "/am.buˈte.jaʒ/" },
+            { "ro": "intersecție", "en": "junction", "ipa": "/in.terˈsek.t͡si.e/" },
+            { "ro": "sens giratoriu", "en": "roundabout", "ipa": "/sens d͡ʒi.raˈto.ri.u/" },
+            { "ro": "limită de viteză", "en": "speed limit", "ipa": "/ˈli.mi.tə de viˈte.zə/" },
+            { "ro": "centură de siguranță", "en": "seatbelt", "ipa": "/t͡ʃenˈtu.rə de si.ɡuˈran.t͡sə/" }
+          ]
+        },
+        {
+          "code": "CH15T03", "level": "B1",
+          "names": { "en": "Trains & railways", "ro": "Trenuri și căi ferate" },
+          "words": [
+            { "ro": "tren", "en": "train", "ipa": "/tren/" },
+            { "ro": "locomotivă", "en": "locomotive", "ipa": "/lo.ko.moˈti.və/" },
+            { "ro": "vagon", "en": "carriage", "ipa": "/vaˈɡon/" },
+            { "ro": "șină", "en": "rail", "ipa": "/ˈʃi.nə/" },
+            { "ro": "cale ferată", "en": "railway", "ipa": "/ˈka.le feˈra.tə/" },
+            { "ro": "peron", "en": "platform", "ipa": "/peˈron/" },
+            { "ro": "conductor", "en": "conductor", "ipa": "/kon.dukˈtor/" },
+            { "ro": "vagon-restaurant", "en": "dining car", "ipa": "/vaˈɡon restauˈrant/" },
+            { "ro": "tren de mare viteză", "en": "high-speed train", "ipa": "/tren de ˈma.re viˈte.zə/" },
+            { "ro": "traseu", "en": "route", "ipa": "/traˈse.u/" },
+            { "ro": "semnal", "en": "signal", "ipa": "/seˈmnal/" },
+            { "ro": "tunel", "en": "tunnel", "ipa": "/tuˈnel/" },
+            { "ro": "pasager", "en": "passenger", "ipa": "/pa.saˈdʒer/" }
+          ]
+        },
+        {
+          "code": "CH15T04", "level": "B1",
+          "names": { "en": "Ships & sea travel", "ro": "Nave și călătorii pe mare" },
+          "words": [
+            { "ro": "navă", "en": "ship", "ipa": "/ˈna.və/" },
+            { "ro": "barcă", "en": "boat", "ipa": "/ˈbar.kə/" },
+            { "ro": "vapor", "en": "steamship", "ipa": "/vaˈpor/" },
+            { "ro": "port", "en": "harbour", "ipa": "/port/" },
+            { "ro": "far", "en": "lighthouse", "ipa": "/far/" },
+            { "ro": "ancoră", "en": "anchor", "ipa": "/anˈko.rə/" },
+            { "ro": "cârmă", "en": "rudder", "ipa": "/ˈkɨr.mə/" },
+            { "ro": "velă", "en": "sail", "ipa": "/ˈve.lə/" },
+            { "ro": "catarg", "en": "mast", "ipa": "/kaˈtarɡ/" },
+            { "ro": "punte", "en": "deck", "ipa": "/ˈpun.te/" },
+            { "ro": "căpitan", "en": "captain", "ipa": "/kə.piˈtan/" },
+            { "ro": "bac", "en": "ferry", "ipa": "/bak/" },
+            { "ro": "marinar", "en": "sailor", "ipa": "/ma.riˈnar/" }
+          ]
+        },
+        {
+          "code": "CH15T05", "level": "B1",
+          "names": { "en": "Aviation & flight", "ro": "Aviație și zbor" },
+          "words": [
+            { "ro": "elicopter", "en": "helicopter", "ipa": "/e.liˈkop.ter/" },
+            { "ro": "aripă", "en": "wing", "ipa": "/aˈri.pə/" },
+            { "ro": "pilot", "en": "pilot", "ipa": "/piˈlot/" },
+            { "ro": "zbor", "en": "flight", "ipa": "/zbor/" },
+            { "ro": "decolare", "en": "take-off", "ipa": "/de.koˈla.re/" },
+            { "ro": "aterizare", "en": "landing", "ipa": "/a.te.riˈza.re/" },
+            { "ro": "cabină", "en": "cabin", "ipa": "/kaˈbi.nə/" },
+            { "ro": "pistă", "en": "runway", "ipa": "/ˈpis.tə/" },
+            { "ro": "parașută", "en": "parachute", "ipa": "/pa.raˈʃu.tə/" },
+            { "ro": "balon", "en": "balloon", "ipa": "/baˈlon/" },
+            { "ro": "planor", "en": "glider", "ipa": "/plaˈnor/" },
+            { "ro": "altitudine", "en": "altitude", "ipa": "/al.ti.ˈtu.di.ne/" }
+          ]
+        },
+        {
+          "code": "CH15T06", "level": "B1",
+          "names": { "en": "Vehicle parts & maintenance", "ro": "Piese și întreținere" },
+          "words": [
+            { "ro": "roată", "en": "wheel", "ipa": "/ˈro̯a.tə/" },
+            { "ro": "anvelopă", "en": "tyre", "ipa": "/an.veˈlo.pə/" },
+            { "ro": "ulei de motor", "en": "engine oil", "ipa": "/uˈlej de moˈtor/" },
+            { "ro": "filtru", "en": "filter", "ipa": "/ˈfil.tru/" },
+            { "ro": "radiator", "en": "radiator", "ipa": "/ra.di.aˈtor/" },
+            { "ro": "ștergător", "en": "windscreen wiper", "ipa": "/ʃtɛr.ɡəˈtor/" },
+            { "ro": "faruri", "en": "headlights", "ipa": "/ˈfa.ruri/" },
+            { "ro": "ambreiaj", "en": "clutch", "ipa": "/am.breˈjaʒ/" },
+            { "ro": "revizie", "en": "service", "ipa": "/re.viˈzi.e/" },
+            { "ro": "piesă de schimb", "en": "spare part", "ipa": "/ˈpje.sə de skimb/" },
+            { "ro": "cric", "en": "jack", "ipa": "/krik/" },
+            { "ro": "eșapament", "en": "exhaust", "ipa": "/e.ʃa.paˈment/" }
+          ]
+        }
+      ]
+    }
+  ],
+  "additions": {
+    "CH13T01": [
+      { "ro": "arcadă", "en": "arch", "ipa": "/arˈka.də/" },
+      { "ro": "boltă", "en": "vault", "ipa": "/ˈbol.tə/" },
+      { "ro": "temelie", "en": "foundation", "ipa": "/te.meˈli.e/" },
+      { "ro": "cupolă", "en": "dome", "ipa": "/ˈku.po.lə/" },
+      { "ro": "turlă", "en": "steeple", "ipa": "/ˈtur.lə/" },
+      { "ro": "contrafort", "en": "buttress", "ipa": "/kon.traˈfort/" },
+      { "ro": "arhitect", "en": "architect", "ipa": "/ar.hiˈtekt/" }
+    ],
+    "CH13T03": [
+      { "ro": "piramidă", "en": "pyramid", "ipa": "/pi.raˈmi.də/" },
+      { "ro": "gladiator", "en": "gladiator", "ipa": "/ɡla.diˈa.tor/" },
+      { "ro": "sclav", "en": "slave", "ipa": "/sklav/" },
+      { "ro": "zeu", "en": "god", "ipa": "/zeu/" },
+      { "ro": "legiune", "en": "legion", "ipa": "/le.d͡ʒiˈu.ne/" },
+      { "ro": "senat", "en": "senate", "ipa": "/seˈnat/" }
+    ],
+    "CH13T05": [
+      { "ro": "basm", "en": "fairy tale", "ipa": "/basm/" },
+      { "ro": "baladă", "en": "ballad", "ipa": "/baˈla.də/" },
+      { "ro": "datină", "en": "custom", "ipa": "/daˈti.nə/" },
+      { "ro": "ceremonie", "en": "ceremony", "ipa": "/t͡ʃe.re.moˈni.e/" }
+    ],
+    "CH05T03": [
+      { "ro": "meniu", "en": "menu", "ipa": "/meˈni.u/" },
+      { "ro": "ospătar", "en": "waiter", "ipa": "/os.pəˈtar/" },
+      { "ro": "servetel", "en": "napkin", "ipa": "/ser.veˈtel/" }
+    ],
+    "CH05T04": [
+      { "ro": "scrisoare", "en": "letter", "ipa": "/skri.soˈa.re/" },
+      { "ro": "timbru", "en": "stamp", "ipa": "/ˈtim.bru/" },
+      { "ro": "colet", "en": "parcel", "ipa": "/koˈlet/" },
+      { "ro": "cec", "en": "cheque", "ipa": "/tʃek/" },
+      { "ro": "recipisă", "en": "receipt", "ipa": "/re.t͡ʃiˈpi.sə/" }
+    ],
+    "CH05T05": [
+      { "ro": "apel", "en": "call", "ipa": "/aˈpel/" },
+      { "ro": "abonament", "en": "subscription", "ipa": "/a.bo.ˈna.ment/" },
+      { "ro": "parolă", "en": "password", "ipa": "/paˈro.lə/" },
+      { "ro": "cartelă SIM", "en": "SIM card", "ipa": "/karˈte.lə sim/" },
+      { "ro": "acoperire", "en": "coverage", "ipa": "/a.ko.peˈri.re/" },
+      { "ro": "încărcător", "en": "charger", "ipa": "/ɨn.kər.kəˈtor/" },
+      { "ro": "descărcare", "en": "download", "ipa": "/des.kərˈka.re/" },
+      { "ro": "conexiune", "en": "connection", "ipa": "/ko.nekˈsi.u.ne/" }
+    ],
+    "CH05T07": [
+      { "ro": "urgență", "en": "emergency", "ipa": "/urˈd͡ʒen.t͡sə/" },
+      { "ro": "ambulanță", "en": "ambulance", "ipa": "/am.buˈlan.t͡sə/" },
+      { "ro": "pompier", "en": "firefighter", "ipa": "/pomˈpi.er/" },
+      { "ro": "incendiu", "en": "fire", "ipa": "/inˈt͡ʃen.diu/" },
+      { "ro": "extinctor", "en": "fire extinguisher", "ipa": "/eks.tinkˈtor/" },
+      { "ro": "alarmă", "en": "alarm", "ipa": "/aˈlar.mə/" },
+      { "ro": "cutremur", "en": "earthquake", "ipa": "/kuˈtre.mur/" },
+      { "ro": "inundație", "en": "flood", "ipa": "/i.nun.daˈt͡si.e/" }
+    ],
+    "CH04T05": [
+      { "ro": "departe", "en": "far", "ipa": "/deˈpar.te/" },
+      { "ro": "lângă", "en": "next to", "ipa": "/ˈlɨŋ.ɡə/" },
+      { "ro": "între", "en": "between", "ipa": "/ˈin.tre/" },
+      { "ro": "în fața", "en": "in front of", "ipa": "/ɨn ˈfa.t͡sa/" },
+      { "ro": "în spatele", "en": "behind", "ipa": "/ɨn ˈspa.te.le/" },
+      { "ro": "colț", "en": "corner", "ipa": "/kolt͡s/" }
+    ],
+    "CH01T01": [
+      { "ro": "salut", "en": "hi", "ipa": "/saˈlut/" },
+      { "ro": "bună seara", "en": "good evening", "ipa": "/ˈbu.nə ˈse.a.ra/" },
+      { "ro": "ziua bună", "en": "good day", "ipa": "/ˈzi.u.a ˈbu.nə/" },
+      { "ro": "la curând", "en": "see you later", "ipa": "/la kuˈrɨnd/" },
+      { "ro": "adio", "en": "farewell", "ipa": "/aˈdio/" }
+    ],
+    "CH01T02": [
+      { "ro": "pardon", "en": "pardon", "ipa": "/parˈdon/" },
+      { "ro": "cu plăcere", "en": "you're welcome", "ipa": "/ku pləˈtʃe.re/" },
+      { "ro": "poftim", "en": "here you are", "ipa": "/pofˈtim/" },
+      { "ro": "condoleanțe", "en": "condolences", "ipa": "/kon.do.leˈan.t͡se/" }
+    ],
+    "CH02T03": [
+      { "ro": "etaj", "en": "floor", "ipa": "/eˈtaʒ/" },
+      { "ro": "balcon", "en": "balcony", "ipa": "/balˈkon/" },
+      { "ro": "grădină", "en": "garden", "ipa": "/ɡrəˈdi.nə/" },
+      { "ro": "pivniță", "en": "cellar", "ipa": "/pivˈni.tsə/" },
+      { "ro": "terasă", "en": "terrace", "ipa": "/teˈra.sə/" }
+    ],
+    "CH02T06": [
+      { "ro": "iepure", "en": "rabbit", "ipa": "/ieˈpu.re/" },
+      { "ro": "hamster", "en": "hamster", "ipa": "/ˈham.ster/" },
+      { "ro": "oaie", "en": "sheep", "ipa": "/ˈo̯a.je/" },
+      { "ro": "vacă", "en": "cow", "ipa": "/ˈva.kə/" },
+      { "ro": "găină", "en": "hen", "ipa": "/ɡəˈi.nə/" }
+    ],
+    "CH03T07": [
+      { "ro": "bucurie", "en": "joy", "ipa": "/bu.kuˈri.e/" },
+      { "ro": "furie", "en": "anger", "ipa": "/fuˈri.e/" }
+    ],
+    "CH05T05": [
+      { "ro": "tabletă", "en": "tablet", "ipa": "/taˈble.tə/" },
+      { "ro": "ecran", "en": "screen", "ipa": "/eˈkran/" }
+    ],
+    "CH06T02": [
+      { "ro": "răspuns", "en": "answer", "ipa": "/rəsˈpuns/" },
+      { "ro": "temă", "en": "homework", "ipa": "/ˈte.mə/" },
+      { "ro": "tablă", "en": "blackboard", "ipa": "/ˈta.blə/" },
+      { "ro": "caiet", "en": "notebook", "ipa": "/kaˈjet/" },
+      { "ro": "creion", "en": "pencil", "ipa": "/kreˈjon/" },
+      { "ro": "carte", "en": "book", "ipa": "/ˈkar.te/" }
+    ],
+    "CH06T06": [
+      { "ro": "chitară", "en": "guitar", "ipa": "/kiˈta.rə/" },
+      { "ro": "pian", "en": "piano", "ipa": "/pi̯an/" },
+      { "ro": "vioară", "en": "violin", "ipa": "/vi.oˈa.rə/" },
+      { "ro": "tobă", "en": "drum", "ipa": "/ˈto.bə/" },
+      { "ro": "flaut", "en": "flute", "ipa": "/ˈflaut/" }
+    ],
+    "CH09T01": [
+      { "ro": "dosar", "en": "file", "ipa": "/doˈsar/" },
+      { "ro": "imprimantă", "en": "printer", "ipa": "/im.priˈman.tə/" }
+    ],
+    "CH10T06": [
+      { "ro": "algoritm", "en": "algorithm", "ipa": "/al.ɡoˈritm/" },
+      { "ro": "date", "en": "data", "ipa": "/ˈda.te/" },
+      { "ro": "rețea neuronală", "en": "neural network", "ipa": "/ˈret͡sa neuroˈnalə/" },
+      { "ro": "senzor", "en": "sensor", "ipa": "/senˈzor/" },
+      { "ro": "robot", "en": "robot", "ipa": "/roˈbot/" },
+      { "ro": "model", "en": "model", "ipa": "/moˈdel/" }
+    ],
+    "CH11T01": [
+      { "ro": "argument", "en": "argument", "ipa": "/ar.ɡuˈment/" },
+      { "ro": "critică", "en": "criticism", "ipa": "/ˈkri.ti.kə/" }
+    ],
+    "CH11T04": [
+      { "ro": "consecință", "en": "consequence", "ipa": "/kon.seˈt͡ʃin.t͡sə/" },
+      { "ro": "cauză", "en": "cause", "ipa": "/ˈkau.zə/" },
+      { "ro": "efect", "en": "effect", "ipa": "/eˈfekt/" },
+      { "ro": "motiv", "en": "reason", "ipa": "/moˈtiv/" },
+      { "ro": "rezultat", "en": "result", "ipa": "/re.zulˈtat/" }
+    ],
+    "CH11T07": [
+      { "ro": "esență", "en": "essence", "ipa": "/eˈsen.t͡sə/" }
+    ],
+    "CH12T06": [
+      { "ro": "metaforă", "en": "metaphor", "ipa": "/meˈta.fo.rə/" },
+      { "ro": "ironie", "en": "irony", "ipa": "/i.roˈni.e/" },
+      { "ro": "hiperbolă", "en": "hyperbole", "ipa": "/hi.perˈbo.lə/" },
+      { "ro": "alegorie", "en": "allegory", "ipa": "/a.le.ɡoˈri.e/" }
+    ],
+    "CH12T07": [
+      { "ro": "ipoteză", "en": "hypothesis", "ipa": "/i.poˈte.zə/" },
+      { "ro": "concluzie", "en": "conclusion", "ipa": "/konˈklu.zi.e/" },
+      { "ro": "teză", "en": "thesis", "ipa": "/ˈte.zə/" },
+      { "ro": "metodă", "en": "method", "ipa": "/meˈto.də/" }
+    ]
+  }
+}

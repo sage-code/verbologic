@@ -1,11 +1,17 @@
 """Generate a story's illustrations with Gemini, in a Grigorescu-like style.
 
 A story is a children's picture book: the reader shows one picture beside the
-text, and the picture changes as the story advances. Every story gets three
-pictures, on its first three reading pages.
+text, and the picture changes as the reader turns the page. Every reading page
+gets exactly one picture, so the picture count is the page count.
 
-Every picture is cropped and resized to the reader's panel shape (4:5, 896x1120)
-before it is saved, so the file on disk is the file the page shows.
+A reading page holds the story's `paragraphsPerPage` paragraphs (front matter of
+the English document): one at A1, two at A2, three from B1 up. The page split
+here is the one the reading view makes, so picture N belongs to page N. A story
+must have at least three pages, and therefore at least three pictures.
+
+Every picture is resized to the reader's panel shape (4:5, 896x1120) before it is
+saved, so the file on disk is the file the page shows. The reader shows the
+whole picture, not a crop, so the composition keeps the subject inside the frame.
 
 The pictures are SHARED by every language the story is translated into — they
 live in the item's own `images/` folder, not under a locale — so they are
@@ -68,10 +74,12 @@ STYLE = (
     "No text, no lettering, no captions, no watermark, no signature."
 )
 
-#: How many pictures every story gets. Mirrors `STORY_IMAGE_COUNT` in
-#: scripts/lib/manifest.mjs — the two must agree or the manifest and the files
-#: on disk disagree about how many pictures exist.
-STORY_IMAGE_COUNT = 3
+#: The fewest reading pages a story may have, and so the fewest pictures.
+MIN_PAGES = 3
+#: The canonical story language. Pictures are described from its text.
+CANONICAL = "en"
+#: Paragraphs on one reading page when the story's front matter does not say.
+DEFAULT_PARAGRAPHS_PER_PAGE = 1
 
 #: The picture's pixel size: 4:5, and 1120 tall keeps a 2x screen sharp at the
 #: panel's height (about 510-620 CSS px).
@@ -99,9 +107,18 @@ def load_env() -> None:
         os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
 
 
-def image_count() -> int:
-    """Pictures for every story: STORY_IMAGE_COUNT, whatever its level."""
-    return STORY_IMAGE_COUNT
+def paragraphs_per_page(topic: str, code: str) -> int:
+    """How many paragraphs one reading page holds, from the English document.
+
+    The article schema reads the same `paragraphsPerPage` field (1 to 3), so the
+    reader and this generator cut the story identically.
+    """
+    path = CONTENT / "stories" / topic / code / f"{CANONICAL}.md"
+    if not path.is_file():
+        return DEFAULT_PARAGRAPHS_PER_PAGE
+    head = path.read_text(encoding="utf-8")[:800]
+    match = re.search(r"^paragraphsPerPage:\s*(\d+)\s*$", head, re.MULTILINE)
+    return int(match.group(1)) if match else DEFAULT_PARAGRAPHS_PER_PAGE
 
 
 def fit_picture(raw: bytes) -> bytes:
@@ -148,51 +165,50 @@ def story_paragraphs(track: str, topic: str, code: str, locale: str) -> list[str
     return [p for p in paragraphs if p]
 
 
-def pages_for_images(count: int, page_count: int) -> list[int]:
-    """Which reading page each picture first appears on.
+def story_pages(paragraphs: list[str], per_page: int) -> list[list[str]]:
+    """Group the story's paragraphs into reading pages, `per_page` to a page.
 
-    Consecutive from the first page: picture 1 opens the story, picture 2 lands
-    on the second page, and so on. A picture book shows a new illustration as
-    the reader turns the page, so clustering them or spreading them to the far
-    end would leave pages with nothing new to look at.
-
-    When a story has fewer pages than pictures, the extra pictures share the
-    last page rather than being dropped — the count is a level promise.
+    The same grouping the reading view makes (`paginate()` in [doc].vue), so
+    picture N is drawn for exactly the paragraphs the reader shows on page N.
+    Only the last page may be short.
     """
-    if count <= 0 or page_count <= 0:
-        return []
-    return [min(index, page_count - 1) for index in range(count)]
+    size = max(1, per_page)
+    return [paragraphs[start:start + size] for start in range(0, len(paragraphs), size)]
 
 
-#: Composition for the reader's panel. The picture is shown with `object-cover`
-#: in a near-square box, so the sides and the top and bottom edges get trimmed
-#: by a few percent. Subjects must sit in the middle, not at the edges, and the
-#: frame must be full-bleed so the trim never shows a border or a blank strip.
+#: Composition for the reader's panel. The reader shows the WHOLE picture (it is
+#: never cropped to fit), so nothing the story needs may sit at the very edge:
+#: the subjects stay well inside the frame and the edges carry only background.
 COMPOSITION = (
     "Frame: a tall 4:5 portrait picture, filled edge to edge with painting — no "
     "border, no white margin, no vignette, no frame. Place the main characters "
-    "large and central, with their faces in the upper-middle of the picture and "
-    "the key action inside the central three-fifths of the width. Keep the "
-    "edges soft background (sky, foliage, ground), never a character or a "
-    "detail the story needs."
+    "large and well inside the frame, with their faces in the upper-middle of the "
+    "picture and the key action inside the central three-fifths of the width. "
+    "Keep a margin of background (sky, foliage, ground) around the characters, "
+    "so no character, hand, or detail the story needs touches an edge."
 )
 
 
-def build_prompt(title: str, paragraph: str, index: int, total: int) -> str:
-    """One picture's prompt: the style, the frame, and the scene this page describes."""
+def build_prompt(title: str, page: list[str], index: int, total: int) -> str:
+    """One picture's prompt: the style, the frame, and the reading page it illustrates.
+
+    The page may hold several paragraphs; the picture shows the moment they
+    share, so the prompt gives all of them and asks for the page's main event.
+    """
     position = (
         "This is the opening picture of the story."
         if index == 0
         else f"This is picture {index + 1} of {total}, later in the same story."
     )
+    moment = "\n\n".join(page)
     return (
         f"{STYLE}\n\n"
         f"{COMPOSITION}\n\n"
         f"Story: \"{title}\". {position}\n"
-        "Illustrate exactly this moment of the story, showing the characters and "
-        "setting it describes. Keep the characters visually consistent with a "
-        "single storybook: same clothing, same age, same colours.\n\n"
-        f"Moment to illustrate:\n{paragraph}"
+        "Illustrate the main moment that this part of the story describes, "
+        "showing the characters and setting in it. Keep the characters visually "
+        "consistent with a single storybook: same clothing, same age, same colours.\n\n"
+        f"Text of this page to illustrate:\n{moment}"
     )
 
 
@@ -303,33 +319,39 @@ def main() -> int:
             print(f"  {code}: empty story, skipped", file=sys.stderr)
             skipped += 1
             continue
-        count = image_count()
-        pages = pages_for_images(count, len(paragraphs))
+        per_page = paragraphs_per_page(topic, code)
+        pages = story_pages(paragraphs, per_page)
+        if len(pages) < MIN_PAGES:
+            print(f"  {code}: {len(pages)} page(s), a story needs at least {MIN_PAGES}; skipped", file=sys.stderr)
+            skipped += 1
+            continue
+        # One picture per reading page: the count is the page count.
+        count = len(pages)
         title = story_title(topic, code, source)
         item_dir = manifest_path.parent
         images_dir = item_dir / "images"
 
-        print(f"{code} [{item.get('cefr')}] {title!r}: {count} picture(s) on page(s) {[p + 1 for p in pages]}")
+        print(f"{code} [{item.get('cefr')}] {title!r}: {count} page(s), {per_page} paragraph(s) per page, one picture each")
         for index, page in enumerate(pages):
             target = images_dir / f"{index}.jpg"
             if target.is_file() and not args.overwrite:
-                print(f"  [{index}] page {page + 1}: exists, skipped")
+                print(f"  [{index}] page {index + 1}: exists, skipped")
                 skipped += 1
                 continue
-            prompt = build_prompt(title, paragraphs[page], index, count)
+            prompt = build_prompt(title, page, index, count)
             if args.dry_run:
-                print(f"  [{index}] page {page + 1}: would generate")
+                print(f"  [{index}] page {index + 1}: would generate")
                 written += 1
                 continue
             try:
                 raw = call_gemini_image(prompt, args.model)
             except RuntimeError as error:
-                print(f"  [{index}] page {page + 1}: FAILED {error}", file=sys.stderr)
+                print(f"  [{index}] page {index + 1}: FAILED {error}", file=sys.stderr)
                 failed += 1
                 continue
             images_dir.mkdir(parents=True, exist_ok=True)
             target.write_bytes(fit_picture(raw))
-            print(f"  [{index}] page {page + 1}: wrote {target.relative_to(ROOT).as_posix()} ({len(raw)} bytes)")
+            print(f"  [{index}] page {index + 1}: wrote {target.relative_to(ROOT).as_posix()} ({len(raw)} bytes)")
             written += 1
 
         if args.dry_run:
@@ -338,7 +360,7 @@ def main() -> int:
         from hashlib import sha1 as sha1_hash
 
         item["images"] = []
-        for index, page in enumerate(pages):
+        for index in range(count):
             target = images_dir / f"{index}.jpg"
             if not target.is_file():
                 continue
@@ -346,7 +368,7 @@ def main() -> int:
                 "file": f"images/{index}.jpg",
                 "bytes": target.stat().st_size,
                 "sha1": sha1_hash(target.read_bytes()).hexdigest(),
-                "page": page,
+                "page": index,
             })
         write_manifest(manifest_path, item)
 

@@ -34,6 +34,7 @@ Verbologic maintenance runner
   ./run.sh media prune [--apply]        R2 objects no manifest references (default reports, --apply deletes)
   ./run.sh scaffold <lang> <TOPIC> <seed.json>  Seed a blank dictionary topic with pending manifests
   ./run.sh lecture <new|status|translate|review>  Lecture content tooling (content/lectures)
+  ./run.sh create story <topic-code> <n>  Write n illustrated stories for a topic at its CEFR level (Gemini text + pictures + audio)
   ./run.sh clean                         Remove build junk (keeps .nuxt cache)
   ./run.sh clean-deep                    Remove build junk AND the .nuxt cache
   ./run.sh tsc                           Type-check (vue-tsc)
@@ -201,6 +202,10 @@ case "${1:-help}" in
     fi ;;
   scaffold)  shift; node scripts/media-scaffold-topic.mjs "$@" ;;
   lecture)   shift; node scripts/lecture.mjs "$@" ;;
+  create)
+    [[ "${2:-}" == story ]] || fail "usage: ./run.sh create story <topic-code> <n>"
+    shift 2
+    .venv/Scripts/python.exe scripts/create-stories.py "$@" ;;
   clean)
     warn "Removing temp/ (keeping build.fingerprint, last_push, missing-content.md), node_modules/.cache, .output/"
     find temp -mindepth 1 \

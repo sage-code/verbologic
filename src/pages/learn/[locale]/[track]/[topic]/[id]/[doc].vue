@@ -19,6 +19,7 @@ import { useMedia } from '~/composables/useMedia'
 import { mediaName } from '~/composables/useMedia'
 import { useRoadmapStore } from '~/stores/roadmapStore'
 import type { MediaRecord, MediaRow, StoryImage } from '~/types/media'
+import StoryPicture from '~/components/StoryPicture.vue'
 
 definePageMeta({ key: (pageRoute) => pageRoute.path })
 
@@ -204,18 +205,24 @@ function textLength(node: unknown): number {
  * - a document with section headings (h2/h3) is cut into sections, one per
  *   heading, and the sections are packed onto pages up to PAGE_TEXT_BUDGET
  *   (lectures, dictionary articles);
- * - a document with no headings paginates one paragraph per page (stories).
+ * - a document with no headings is a story: `perPage` paragraphs go on each
+ *   page (1 at A1, 2 at A2, 3 from B1 up — the article's `paragraphsPerPage`).
  *
  * Page boundaries only ever fall between sections, so audio offsets (one per
  * section) stay valid however the sections are packed.
  */
-function paginate(nodes: unknown[]): ReadingPage[] {
+function paginate(nodes: unknown[], perPage: number): ReadingPage[] {
   const isHeading = (n: unknown) =>
     Array.isArray(n) && (n[0] === 'h2' || n[0] === 'h3')
   const isParagraph = (n: unknown) => Array.isArray(n) && n[0] === 'p'
 
   if (!nodes.some(isHeading)) {
-    return nodes.filter(isParagraph).map((n, index) => ({ nodes: [n], section: index }))
+    const paragraphs = nodes.filter(isParagraph)
+    const pages: ReadingPage[] = []
+    for (let start = 0; start < paragraphs.length; start += perPage) {
+      pages.push({ nodes: paragraphs.slice(start, start + perPage), section: start })
+    }
+    return pages
   }
   const sections: unknown[][] = []
   let current: unknown[] | null = null
@@ -248,8 +255,19 @@ function paginate(nodes: unknown[]): ReadingPage[] {
   return pages
 }
 
-const targetPages = computed(() => paginate(bodyNodes(storyTargetDoc.value)))
-const nativePages = computed(() => paginate(bodyNodes(storyNativeDoc.value)))
+/**
+ * Paragraphs per reading page of a story, from its front matter. The schema
+ * allows 1 to 3; a document that does not say is one paragraph per page.
+ */
+const paragraphsPerPage = (doc: unknown): number =>
+  Math.min(3, Math.max(1, Math.floor((doc as { paragraphsPerPage?: number } | null)?.paragraphsPerPage ?? 1)))
+
+const targetPages = computed(() =>
+  paginate(bodyNodes(storyTargetDoc.value), paragraphsPerPage(storyTargetDoc.value))
+)
+const nativePages = computed(() =>
+  paginate(bodyNodes(storyNativeDoc.value), paragraphsPerPage(storyNativeDoc.value))
+)
 
 /** Pages to page through — the longer of the two panels, never zero. */
 const storyPageCount = computed(() =>
@@ -287,10 +305,10 @@ const storyNativePage = computed(() => {
 /**
  * The picture to show beside the story on the current page.
  *
- * A story's illustrations are shared by every language, and each one is
- * anchored to the page it first appears on. The picture stays up until the
- * next one's page, so a 1-picture story keeps its picture throughout and a
- * 5-picture story changes it five times.
+ * A story has one picture per reading page, shared by every language, so the
+ * picture changes each time the reader turns the page. Each one is anchored to
+ * the page it appears on; a picture with no page of its own stays up until the
+ * next anchored one.
  */
 const storyImage = computed<StoryImage | null>(() => {
   const images = record.value?.images ?? []
@@ -304,14 +322,28 @@ const storyImage = computed<StoryImage | null>(() => {
 })
 
 /**
- * The paragraph number to print in front of the current page's text.
+ * The paragraphs of the current page, each with its own number.
  *
  * Stories are numbered so a child (and the reader following the audio) can see
- * where they are: "1. A fost o dată ca niciodată…". The number counts the
+ * where they are: "1. A fost o dată ca niciodată…". A page may hold several
+ * paragraphs, so each one is numbered on its own. The number counts the
  * paragraphs of the panel's own language, so the two panels stay aligned even
  * when a translation splits a paragraph differently.
  */
-const storyParagraphNumber = computed(() => storyPage.value + 1)
+function numberedParagraphs(doc: typeof storyTargetDoc.value, pages: ReadingPage[], page: number) {
+  const current = pages[page]
+  if (!doc || !current) return []
+  return current.nodes.map((node, index) => ({
+    number: current.section + index + 1,
+    doc: { ...doc, body: { ...doc.body, value: [node] } }
+  }))
+}
+const storyTargetParagraphs = computed(() =>
+  numberedParagraphs(storyTargetDoc.value, targetPages.value, storyPage.value)
+)
+const storyNativeParagraphs = computed(() =>
+  numberedParagraphs(storyNativeDoc.value, nativePages.value, storyPage.value)
+)
 /** Left panel's language: the learning language for a story, the reader's for a lecture. */
 const storyTargetName = computed(() =>
   languageName(isStory.value ? trackLang.value : (storyTargetDoc.value?.locale ?? docLocale.value))
@@ -589,11 +621,17 @@ useSeoMeta({
                 />
               </div>
               <div class="story-page-body min-h-0 flex-1 overflow-y-auto">
-                <p v-if="isStory" class="story-paragraph-number" aria-hidden="true">
-                  {{ storyParagraphNumber }}.
-                </p>
+                <template v-if="isStory">
+                  <div v-for="paragraph in storyTargetParagraphs" :key="paragraph.number" class="story-paragraph">
+                    <p class="story-paragraph-number" aria-hidden="true">{{ paragraph.number }}.</p>
+                    <ContentRenderer
+                      :value="paragraph.doc"
+                      class="lecture-prose story-page-content text-sm leading-relaxed text-content sm:text-base"
+                    />
+                  </div>
+                </template>
                 <ContentRenderer
-                  v-if="storyTargetPage"
+                  v-else-if="storyTargetPage"
                   :value="storyTargetPage"
                   class="lecture-prose story-page-content text-sm leading-relaxed text-content sm:text-base"
                 />
@@ -619,31 +657,36 @@ useSeoMeta({
                 />
               </div>
               <div class="story-page-body min-h-0 flex-1 overflow-y-auto">
-                <p v-if="isStory" class="story-paragraph-number" aria-hidden="true">
-                  {{ storyParagraphNumber }}.
-                </p>
+                <template v-if="isStory">
+                  <div v-for="paragraph in storyNativeParagraphs" :key="paragraph.number" class="story-paragraph">
+                    <p class="story-paragraph-number" aria-hidden="true">{{ paragraph.number }}.</p>
+                    <ContentRenderer
+                      :value="paragraph.doc"
+                      class="lecture-prose story-page-content text-sm leading-relaxed text-content sm:text-base"
+                    />
+                  </div>
+                </template>
                 <ContentRenderer
-                  v-if="storyNativePage"
+                  v-else-if="storyNativePage"
                   :value="storyNativePage"
                   class="lecture-prose story-page-content text-sm leading-relaxed text-content sm:text-base"
                 />
               </div>
             </section>
-            <!-- THE PICTURE: the story's illustration. It changes as the story
-                 advances — each picture is anchored to the page it first
-                 appears on — and it is shared by every language. It is the
-                 third equal panel: the image fills the box top-down with
-                 `object-cover`, so there is no letterboxed strip. -->
+            <!-- THE PICTURE: the story's illustration, one per reading page, shared
+                 by every language. It is the third equal panel and is shown WHOLE
+                 (never cropped); a tap zooms in on the detail touched, and a
+                 second tap zooms back out. -->
             <figure
               v-if="isStory && storyImage"
               class="hidden min-h-0 min-w-0 flex-col overflow-hidden rounded-lg border border-edge bg-surface lg:flex"
             >
-              <img
+              <StoryPicture
                 :key="storyImage.url"
                 :src="storyImage.url"
                 :alt="articleTitle"
-                class="min-h-0 w-full flex-1 object-cover"
-                decoding="async"
+                :zoom-in-label="copy('stories.zoom_in', 'Zoom in on the picture')"
+                :zoom-out-label="copy('stories.zoom_out', 'Zoom back out')"
               />
             </figure>
           </div>
@@ -722,6 +765,16 @@ useSeoMeta({
    edge and the number reads as a marker rather than part of the sentence. */
 .story-page-body {
   position: relative;
+}
+
+/* One numbered block per paragraph; a page of several paragraphs stacks them.
+   flow-root keeps each float inside its own paragraph. */
+.story-paragraph {
+  display: flow-root;
+}
+
+.story-paragraph + .story-paragraph {
+  margin-top: 0.75rem;
 }
 
 .story-paragraph-number {

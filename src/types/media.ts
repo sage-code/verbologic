@@ -145,6 +145,8 @@ export interface MediaRow {
    * recording, so Play on page N starts at page N.
    */
   readSections?: Record<string, number[]> | null
+  /** A story's pictures, borrowed from the bundled payload onto a DB-built row. */
+  images?: StoryImage[] | null
   /** Article docs — any row (word, expression, story…) may carry one; the
    *  table shows a read button when present. */
   content?: ContentMeta
