@@ -10,6 +10,9 @@ status: draft
 order: 11
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Leo": "a lion with a big body that casts a large shadow"
+  "Pip": "a small bird"
 ---
 Leo the lion rests on the grass. A small bird sits near Leo. Her name is Pip.
 

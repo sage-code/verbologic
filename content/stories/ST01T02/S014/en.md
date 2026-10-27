@@ -10,6 +10,9 @@ status: draft
 order: 14
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Leo": "a gentle brown horse"
+  "Flora": "a small fairy with hurt wings"
 ---
 Leo is a gentle brown horse. He lives in a magic forest. He walks among tall green trees.
 

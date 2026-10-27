@@ -10,6 +10,9 @@ status: draft
 order: 17
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Pip": "a little green frog"
+  "the ant": "a small, wet and cold ant"
 ---
 Pip is a little green frog. He lives in a blue pond. Pip sits on a warm rock.
 

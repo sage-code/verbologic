@@ -10,6 +10,9 @@ status: draft
 order: 16
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Otto": "an owl with big, bright yellow eyes"
+  "Mia": "a small mouse"
 ---
 Otto the owl sits in a tree. The night is dark and quiet. Otto has big, bright yellow eyes.
 

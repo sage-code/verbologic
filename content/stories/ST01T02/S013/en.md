@@ -10,6 +10,9 @@ status: draft
 order: 13
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Toby": "a small pink pig"
+  "the fairy": "a tiny fairy with blue, shiny wings"
 ---
 Toby is a small pink pig. He lives in a quiet forest. Toby loves bright red flowers.
 

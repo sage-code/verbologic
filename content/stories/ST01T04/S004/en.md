@@ -10,6 +10,9 @@ status: draft
 order: 4
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Kiki": "a little kangaroo with quick jumping legs"
+  "Mother kangaroo": "a gentle adult kangaroo with a warm chest"
 ---
 Kiki the kangaroo is on the hill. Night comes and the air is still.
 

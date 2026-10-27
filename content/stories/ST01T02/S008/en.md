@@ -10,6 +10,9 @@ status: draft
 order: 8
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Sammy": "a friendly cat who wears a shiny golden bell"
+  "the fairy": "a small fairy carrying a wand"
 ---
 Sammy is a friendly cat. He lives in a sunny castle garden. He wears a shiny golden bell.
 

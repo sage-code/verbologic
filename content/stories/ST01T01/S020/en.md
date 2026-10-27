@@ -10,6 +10,9 @@ status: draft
 order: 20
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Rafi": "a very tall giraffe with a long neck"
+  "Mia": "a hungry little monkey"
 ---
 Rafi is a very tall giraffe. He stands near a green tree. His friend Mia sits on the grass.
 

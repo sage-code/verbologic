@@ -10,6 +10,9 @@ status: draft
 order: 6
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Anna": "a kind girl wearing a warm brown coat"
+  "the bird": "a small bird with magic golden feathers"
 ---
 Anna walks in the green forest. She sees a small bird on a rock. The bird is cold and sad.
 

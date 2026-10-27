@@ -10,6 +10,9 @@ status: draft
 order: 4
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "the big lion": "a large lion with strong legs and a loud roar"
+  "the small mouse": "a tiny mouse with sharp little teeth"
 ---
 A big lion sleeps under a green tree. A small mouse walks near the lion.
 

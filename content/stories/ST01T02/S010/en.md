@@ -10,6 +10,9 @@ status: draft
 order: 10
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Benny": "a gentle white rabbit"
+  "the frog": "a kind green frog"
 ---
 Benny is a gentle white rabbit. He lives in a quiet green forest. Benny has a shiny golden crown.
 

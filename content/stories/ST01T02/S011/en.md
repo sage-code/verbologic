@@ -10,6 +10,9 @@ status: draft
 order: 11
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Penny": "a small red hen"
+  "Leo": "a dog resting on the green grass"
 ---
 Penny is a small red hen. She lives near a fairy house. Penny finds a glowing golden seed.
 

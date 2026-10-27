@@ -10,6 +10,9 @@ status: draft
 order: 7
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Anna": "a young girl walking through the garden"
+  "the fairy": "a small magical creature who carries a tiny wand"
 ---
 Anna walks in the green garden. She sees a small fairy. The fairy sits on a red flower.
 

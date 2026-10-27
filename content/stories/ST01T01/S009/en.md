@@ -10,6 +10,9 @@ status: draft
 order: 9
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Pip": "a little brown mouse"
+  "Ollie": "a happy green frog"
 ---
 Pip is a little brown mouse. Ollie is a happy green frog. They meet near a calm pond.
 

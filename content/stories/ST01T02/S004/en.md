@@ -10,6 +10,9 @@ status: draft
 order: 4
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Mia": "a young princess"
+  "the frog": "a small green frog"
 ---
 Mia is a young princess. She plays in the palace garden. She throws her shiny gold ball.
 

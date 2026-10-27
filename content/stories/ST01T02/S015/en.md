@@ -10,6 +10,9 @@ status: draft
 order: 15
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Pip": "a small white goat"
+  "the fairy": "a tiny fairy in a blue dress"
 ---
 Pip is a small white goat. He lives on a green mountain. Pip loves sweet yellow flowers.
 

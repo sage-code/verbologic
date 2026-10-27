@@ -10,6 +10,9 @@ status: draft
 order: 1
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Pip": "a very small brown mouse"
+  "Bruno": "a big, strong brown bear"
 ---
 Pip is a very small brown mouse. He walks in a sunny forest. Pip finds sweet red berries near a rock.
 

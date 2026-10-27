@@ -10,6 +10,9 @@ status: draft
 order: 9
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Wanda": "a big blue whale"
+  "the little fish": "a little fish"
 ---
 Wanda is a big blue whale. She slowly moves her tail.
 

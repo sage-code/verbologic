@@ -10,6 +10,9 @@ status: draft
 order: 5
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Milo": "a small penguin"
+  "Mother Penguin": "a penguin with big warm wings and soft feathers"
 ---
 Milo is a small penguin. He stands on the quiet ice. The dark sky has many stars.
 

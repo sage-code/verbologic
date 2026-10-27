@@ -10,6 +10,9 @@ status: draft
 order: 2
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Bella": "a white sheep with soft, thick, and warm wool"
+  "Blue": "a small bird"
 ---
 Bella is a white sheep. She lives on a green hill. Today, the sun is bright.
 

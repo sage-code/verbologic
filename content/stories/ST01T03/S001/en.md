@@ -10,6 +10,9 @@ status: draft
 order: 1
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Pip": "a happy white goose"
+  "Dot": "a little duck"
 ---
 Pip is a happy white goose. Pip lives near a big pond. He finds a bright yellow flower.
 

@@ -10,6 +10,9 @@ status: draft
 order: 8
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Finn": "a little brown deer"
+  "the small bird": "a small cold bird"
 ---
 Finn is a little brown deer. He walks in a sunny forest. Finn looks at the tall trees.
 

@@ -10,6 +10,9 @@ status: draft
 order: 4
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Kiki": "a bright green parrot"
+  "the mouse": "a small gray mouse"
 ---
 Kiki is a bright green parrot. He lives in a sunny garden.
 

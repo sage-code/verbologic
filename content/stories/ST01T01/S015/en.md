@@ -10,6 +10,9 @@ status: draft
 order: 15
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Bruno": "a big, friendly bear with warm brown eyes"
+  "the rabbit": "a hungry little rabbit"
 ---
 Bruno the bear sits by a river. Bruno is big and friendly. He has a basket of red berries.
 

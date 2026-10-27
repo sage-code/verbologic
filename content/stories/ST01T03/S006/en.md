@@ -10,6 +10,8 @@ status: draft
 order: 6
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Barnaby": "a small guinea pig"
 ---
 Barnaby is a small guinea pig. He lives in a green garden. He wants tasty food.
 

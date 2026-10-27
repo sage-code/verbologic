@@ -10,6 +10,9 @@ status: draft
 order: 16
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Bruno": "a kind donkey"
+  "the fairy": "a small fairy with blue wings"
 ---
 Bruno is a kind donkey. He walks in a quiet forest. The green trees are very tall.
 

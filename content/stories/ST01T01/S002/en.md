@@ -10,6 +10,8 @@ status: draft
 order: 2
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Leo": "a clever, thirsty black crow"
 ---
 Leo the crow flies across a dry garden. He is very thirsty. He wants fresh water.
 

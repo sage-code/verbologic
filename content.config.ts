@@ -71,7 +71,14 @@ export default defineContentConfig({
          * from B1 up. Each page carries one picture, so the picture count is
          * the page count. Unset means one paragraph per page.
          */
-        paragraphsPerPage: z.number().int().min(1).max(3).default(1)
+        paragraphsPerPage: z.number().int().min(1).max(3).default(1),
+        /**
+         * A story's named characters and what each one IS, e.g. `Pip: a white
+         * goose`. The picture generator draws every page with these kinds, so a
+         * character named later by its name alone stays the animal, person or
+         * thing it was introduced as. Written on the canonical (English) document.
+         */
+        context: z.record(z.string(), z.string()).optional()
       })
     })
   }

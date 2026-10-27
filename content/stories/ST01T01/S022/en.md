@@ -10,6 +10,9 @@ status: draft
 order: 22
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Toby": "a hedgehog carrying soft leaves on his back"
+  "Nina": "a little cold mouse"
 ---
 Toby the hedgehog walks in the forest. The cold wind blows. Toby finds many soft leaves.
 

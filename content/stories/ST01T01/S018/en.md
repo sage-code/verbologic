@@ -10,6 +10,9 @@ status: draft
 order: 18
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Coco": "a big green crocodile"
+  "the bird": "a small bird"
 ---
 Coco is a big green crocodile. He rests near a sunny river. A small bird sits on a rock.
 

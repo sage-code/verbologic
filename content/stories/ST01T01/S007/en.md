@@ -10,6 +10,9 @@ status: draft
 order: 7
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Pip": "a squirrel with a bushy tail"
+  "Sam": "a spiky hedgehog"
 ---
 Pip the squirrel stands on a hill. He finds a large red strawberry. The strawberry looks very sweet.
 

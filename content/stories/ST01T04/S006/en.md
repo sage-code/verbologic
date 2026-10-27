@@ -10,6 +10,9 @@ status: draft
 order: 6
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Danny": "a tired young dolphin who swims in the bay"
+  "his mother": "a protective mother dolphin who swims to a quiet cave"
 ---
 Danny the dolphin swims in the bay. The warm sun finishes the day.
 

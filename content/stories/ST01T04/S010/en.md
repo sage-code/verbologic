@@ -10,6 +10,9 @@ status: draft
 order: 10
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Eddie the eagle": "a young eagle resting in a high nest"
+  "Mother Eagle": "a protective mother eagle with soft, wide wings"
 ---
 Eddie the eagle sits very high. The bright moon shines in the sky.
 

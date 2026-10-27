@@ -10,6 +10,9 @@ status: draft
 order: 21
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Sammy": "a squirrel living in a tall tree"
+  "Ben": "a friendly rabbit"
 ---
 Sammy the squirrel lives in a tall tree. Today, Sammy finds a big brown nut. He is very happy.
 

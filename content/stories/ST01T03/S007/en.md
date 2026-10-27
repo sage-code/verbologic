@@ -10,6 +10,8 @@ status: draft
 order: 7
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Milo": "a small brown hamster"
 ---
 Milo is a small brown hamster. He lives in a sunny cage. He sees a big seed on a box.
 

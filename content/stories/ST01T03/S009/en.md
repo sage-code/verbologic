@@ -10,6 +10,9 @@ status: draft
 order: 9
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Benny": "a beaver who gathers sticks to build his home"
+  "Mia": "a friendly duck who swims in the river"
 ---
 Benny the beaver lives by a blue river. He gathers small brown sticks for his home. Benny loves his quiet river.
 

@@ -10,6 +10,9 @@ status: draft
 order: 17
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Dilly": "a small white duck"
+  "the fairy": "a tiny fairy"
 ---
 Dilly is a small white duck. She swims in a calm fairy pond.
 

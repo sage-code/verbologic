@@ -10,6 +10,9 @@ status: draft
 order: 5
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Anna": "a young girl visiting the green hill"
+  "the dragon": "a small dragon with shiny blue wings"
 ---
 Anna walks on the green hill. She meets a small dragon there. The dragon has shiny blue wings.
 

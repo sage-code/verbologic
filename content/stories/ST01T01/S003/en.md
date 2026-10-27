@@ -10,6 +10,9 @@ status: draft
 order: 3
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Sam": "a small brown squirrel"
+  "Dan": "a tall deer"
 ---
 Sam is a small brown squirrel. He sits under a tall tree. He sees a big red apple.
 

@@ -10,6 +10,8 @@ status: draft
 order: 8
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Bao": "a sleepy black-and-white panda"
 ---
 The big silver moon shines bright. Bao the panda loves the night.
 

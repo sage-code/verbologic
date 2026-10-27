@@ -10,6 +10,9 @@ status: draft
 order: 12
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Bella": "a friendly white cow with rainbow spots"
+  "the fairy": "a tiny fairy with a little silver wand"
 ---
 Bella is a friendly white cow. She lives in a green meadow. She meets a tiny fairy near a flower.
 

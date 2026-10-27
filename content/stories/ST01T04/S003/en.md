@@ -10,6 +10,8 @@ status: draft
 order: 3
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Pip": "a little zebra with black and white stripes"
 ---
 Pip the zebra stands in the grass. The warm sun sets in the west. It is time for a quiet rest.
 

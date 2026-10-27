@@ -10,6 +10,9 @@ status: draft
 order: 5
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Toby": "a small green turtle with very short legs"
+  "Milo": "a helpful frog"
 ---
 Toby is a small green turtle. He lives near a quiet pond. Toby wants a sweet yellow flower.
 

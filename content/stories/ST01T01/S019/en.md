@@ -10,6 +10,9 @@ status: draft
 order: 19
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Milo": "a monkey sitting on a tall tree branch"
+  "Kiki": "a small hungry bird"
 ---
 Milo the monkey lives in a green jungle. He sits on a tall tree branch. He sees two sweet yellow bananas.
 

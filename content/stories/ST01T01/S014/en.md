@@ -10,6 +10,9 @@ status: draft
 order: 14
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Boris": "a big gray wolf"
+  "the bird": "a small blue bird"
 ---
 Boris is a big gray wolf. He walks in the green forest. He loves the tall trees.
 

@@ -10,6 +10,9 @@ status: draft
 order: 7
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Benny": "a sleepy little koala with small eyes"
+  "Mother Koala": "a caring mother koala holding Benny tight"
 ---
 Benny the koala sits in a tall tree. The little stars shine for him to see.
 

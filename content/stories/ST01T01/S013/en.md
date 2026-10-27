@@ -10,6 +10,9 @@ status: draft
 order: 13
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Kibo": "a big elephant with a long trunk"
+  "Pip": "a small friend sitting in the grass"
 ---
 Kibo the elephant stands near the river. His small friend Pip sits in the grass. They look at the blue sky.
 

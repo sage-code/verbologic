@@ -10,6 +10,9 @@ status: draft
 order: 10
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Ollie": "a little river otter"
+  "the small fish": "a small and friendly river fish"
 ---
 Ollie is a little river otter. He plays in the sunny water. He has a favorite smooth rock.
 

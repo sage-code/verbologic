@@ -10,6 +10,9 @@ status: draft
 order: 6
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Leo": "a small frog"
+  "Sam": "a swimming turtle"
 ---
 Leo the frog sits by a pond. He sees a bright yellow flower.
 

@@ -10,6 +10,8 @@ status: draft
 order: 1
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Sam": "a small green snake"
 ---
 Sam is a small green snake. He lives by a calm lake.
 

@@ -10,6 +10,9 @@ status: draft
 order: 10
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Pip": "a rabbit hopping through the garden"
+  "Max": "a hedgehog pushing a sturdy wooden box"
 ---
 Pip the rabbit hops in the garden. He sees a big apple on a tree.
 

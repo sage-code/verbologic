@@ -10,6 +10,9 @@ status: draft
 order: 12
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Pip": "a small brown mouse"
+  "Toby": "a small bird"
 ---
 Pip is a small brown mouse. Pip lives in a green garden. Pip finds a big yellow seed.
 

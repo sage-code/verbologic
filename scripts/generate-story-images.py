@@ -17,6 +17,12 @@ The pictures are SHARED by every language the story is translated into — they
 live in the item's own `images/` folder, not under a locale — so they are
 generated once from the story's own language and reused everywhere.
 
+Characters stay the same across the pages. The English document's `context:`
+front matter says what each named character IS (`Pip: a white goose`). Every
+picture gets that map, the story so far, and the picture before it, so a later
+page that names the goose only as "Pip" still draws a goose. Write the map with
+`--backfill-context` for stories that do not have one yet.
+
 Style: Nicolae Grigorescu, the Romanian impressionist. Visible brush strokes,
 warm earthy palette, soft dappled light, deliberately not photorealistic. The
 prompt forbids text in the image: a generated caption would be in the wrong
@@ -167,6 +173,51 @@ def story_pages(paragraphs: list[str], per_page: int) -> list[list[str]]:
     return [paragraphs[start:start + size] for start in range(0, len(paragraphs), size)]
 
 
+def story_context(topic: str, code: str) -> dict[str, str]:
+    """The story's characters and what each one is, from the `context:` front matter map.
+
+    The map is written on the English document, one `Name: what it is` line per
+    character. A story without one returns an empty map, and its pictures then
+    rely on the text alone.
+    """
+    path = CONTENT / "stories" / topic / code / f"{CANONICAL}.md"
+    if not path.is_file():
+        return {}
+    match = FRONTMATTER_RE.match(path.read_text(encoding="utf-8"))
+    if not match:
+        return {}
+    context: dict[str, str] = {}
+    inside = False
+    for line in match.group(0).splitlines()[1:-1]:
+        if line.startswith("context:"):
+            inside = True
+            continue
+        if not inside:
+            continue
+        if not line.startswith((" ", "\t")):
+            break
+        key, separator, value = line.strip().partition(":")
+        if not separator:
+            continue
+        value = value.strip()
+        context[json.loads(key) if key.startswith('"') else key.strip()] = (
+            json.loads(value) if value.startswith('"') else value.strip("'")
+        )
+    return context
+
+
+def write_story_context(path: Path, context: dict[str, str]) -> None:
+    """Insert a `context:` map into the English document's front matter, before its closing `---`."""
+    text = path.read_text(encoding="utf-8")
+    match = FRONTMATTER_RE.match(text)
+    if not match:
+        raise ValueError(f"{path}: no front matter")
+    block = match.group(0)
+    lines = ["context:"] + [f"  {json.dumps(name, ensure_ascii=False)}: {json.dumps(what, ensure_ascii=False)}" for name, what in context.items()]
+    new_block = block[: -len("---\n")] + "\n".join(lines) + "\n---\n" if block.endswith("---\n") else block
+    path.write_text(new_block + text[len(block):], encoding="utf-8", newline="\n")
+
+
 #: Composition for the reader's panel. The reader shows the WHOLE picture (it is
 #: never cropped to fit), so nothing the story needs may sit at the very edge:
 #: the subjects stay well inside the frame and the edges carry only background.
@@ -180,36 +231,72 @@ COMPOSITION = (
 )
 
 
-def build_prompt(title: str, page: list[str], index: int, total: int) -> str:
-    """One picture's prompt: the style, the frame, and the reading page it illustrates.
+def build_prompt(
+    title: str,
+    characters: dict[str, str],
+    earlier: list[str],
+    page: list[str],
+    index: int,
+    total: int,
+) -> str:
+    """One picture's prompt: the style, the characters, the story so far, and the page.
 
-    The page may hold several paragraphs; the picture shows the moment they
-    share, so the prompt gives all of them and asks for the page's main event.
+    A character keeps the kind it was introduced as. The text may later name it
+    by its name alone ("Pip is sad"), so the prompt states what each named
+    character IS, and gives the earlier pages so the reader's introduction of it
+    is in view. The page may hold several paragraphs; the picture shows the
+    moment they share.
     """
     position = (
         "This is the opening picture of the story."
         if index == 0
         else f"This is picture {index + 1} of {total}, later in the same story."
     )
+    parts = [STYLE, COMPOSITION, f"Story: \"{title}\". {position}"]
+    if characters:
+        cast = "\n".join(f"- {name}: {what}" for name, what in characters.items())
+        parts.append(
+            "The characters of this story. Draw each one as the kind of creature or "
+            "person described here, with the same look and clothes in every picture, "
+            "even on a page that names it only by its name:\n" + cast
+        )
+    if earlier:
+        parts.append(
+            "The story so far, from the earlier pages. The characters are introduced "
+            "here, so keep their kind and appearance:\n" + "\n\n".join(earlier)
+        )
+    if index > 0:
+        parts.append(
+            "The previous picture of this story is attached. Keep its characters, "
+            "their appearance and the setting, and change only what this page's "
+            "moment requires."
+        )
     moment = "\n\n".join(page)
-    return (
-        f"{STYLE}\n\n"
-        f"{COMPOSITION}\n\n"
-        f"Story: \"{title}\". {position}\n"
-        "Illustrate the main moment that this part of the story describes, "
-        "showing the characters and setting in it. Keep the characters visually "
-        "consistent with a single storybook: same clothing, same age, same colours.\n\n"
+    parts.append(
+        "Illustrate the main moment that this page describes, showing the characters "
+        "and setting in it. Keep the characters visually consistent with a single "
+        "storybook: same kind, same clothing, same age, same colours.\n\n"
         f"Text of this page to illustrate:\n{moment}"
     )
+    return "\n\n".join(parts)
 
 
-def call_gemini_image(prompt: str, model: str) -> bytes:
-    """Ask Gemini for one picture; returns the raw image bytes."""
+def call_gemini_image(prompt: str, model: str, reference: bytes | None = None) -> bytes:
+    """Ask Gemini for one picture; returns the raw image bytes.
+
+    `reference` is the picture drawn just before this one. Sending it as an input
+    keeps the same characters and setting across the pages, where text alone let
+    them drift.
+    """
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is required (set it in .env).")
+    parts: list[dict[str, Any]] = []
+    if reference:
+        parts.append({"inlineData": {"mimeType": "image/jpeg", "data": base64.b64encode(reference).decode("ascii")}})
+    parts.append({"text": prompt})
     payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
+        "contents": [{"parts": parts}],
         "generationConfig": {
             "responseModalities": ["IMAGE"],
             # 1:1 matches the reader's picture panel (see ASPECT_RATIO).
@@ -261,6 +348,72 @@ def story_items(topic: str | None, code: str | None) -> list[tuple[Path, dict[st
     return out
 
 
+def characters_prompt(text: str) -> str:
+    """Ask for the story's named characters, each with what it is."""
+    return (
+        "Below is a short children's story. List its characters: every person, animal, "
+        "creature or talking object that acts in it, named or not. For each one, write a "
+        "short phrase saying what it IS and its main look, for example "
+        '"Pip": "a small white goose with an orange beak". Use the name exactly as the '
+        'story writes it. A character with no name is keyed by its role, for example '
+        '"the fairy": "a small winged fairy with a wand". At most four characters. Return '
+        "only a JSON object that maps each key to its phrase, with no other keys.\n\nStory:\n"
+        + text
+    )
+
+
+def backfill_context(items: list[tuple[Path, dict[str, Any]]], dry_run: bool) -> int:
+    """Write a `context:` map into every English story that does not have one yet.
+
+    One Gemini text call per story, reading the English text. The map is then
+    part of the document, so the picture generator and every later run see it.
+    """
+    import importlib.util
+
+    # create-stories.py owns the text model call; load it rather than copy it.
+    spec = importlib.util.spec_from_file_location("create_stories", Path(__file__).with_name("create-stories.py"))
+    writer = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(writer)
+    model = os.environ.get("GEMINI_MODEL", "")
+    if not model:
+        raise SystemExit("GEMINI_MODEL is required for --backfill-context (set it in .env).")
+
+    written = 0
+    skipped = 0
+    failed = 0
+    for _, item in items:
+        topic = str(item["topic"])
+        code = str(item["code"])
+        path = CONTENT / "stories" / topic / code / f"{CANONICAL}.md"
+        if not path.is_file():
+            skipped += 1
+            continue
+        if story_context(topic, code):
+            print(f"  {code}: has a context, skipped")
+            skipped += 1
+            continue
+        text = "\n\n".join(story_paragraphs("stories", topic, code, CANONICAL))
+        try:
+            found = writer.gemini_json(characters_prompt(text), 0.2, model)
+        except Exception as error:  # noqa: BLE001 - report and keep going
+            print(f"  {code}: FAILED {error}", file=sys.stderr)
+            failed += 1
+            continue
+        context = {str(name): str(what).strip() for name, what in found.items() if str(what).strip()}
+        if not context:
+            print(f"  {code}: no named characters found, skipped")
+            skipped += 1
+            continue
+        print(f"  {code}: " + "; ".join(f"{name} = {what}" for name, what in context.items()))
+        if not dry_run:
+            write_story_context(path, context)
+        written += 1
+
+    verb = "Would write" if dry_run else "Wrote"
+    print(f"{verb} a context for {written} story(ies); skipped {skipped}; failed {failed}")
+    return 1 if failed else 0
+
+
 def write_manifest(path: Path, item: dict[str, Any]) -> None:
     with path.open("w", encoding="utf-8", newline="\n") as handle:
         handle.write(json.dumps(item, ensure_ascii=False, indent=2) + "\n")
@@ -281,6 +434,11 @@ def main() -> int:
     parser.add_argument("--overwrite", action="store_true", help="regenerate existing pictures")
     parser.add_argument("--dry-run", action="store_true", help="report the plan, write nothing")
     parser.add_argument("--model", default=DEFAULT_IMAGE_MODEL, help="Gemini image model")
+    parser.add_argument(
+        "--backfill-context",
+        action="store_true",
+        help="write a `context:` character map into English stories that lack one (text only, no pictures)",
+    )
     args = parser.parse_args()
 
     load_env()
@@ -291,6 +449,8 @@ def main() -> int:
     if not items:
         print("no story manifests matched", file=sys.stderr)
         return 1
+    if args.backfill_context:
+        return backfill_context(items, args.dry_run)
 
     written = 0
     skipped = 0
@@ -321,21 +481,28 @@ def main() -> int:
         title = story_title(topic, code, source)
         item_dir = manifest_path.parent
         images_dir = item_dir / "images"
+        characters = story_context(topic, code)
 
         print(f"{code} [{item.get('cefr')}] {title!r}: {count} page(s), {per_page} paragraph(s) per page, one picture each")
+        if not characters:
+            print(f"  {code}: no `context:` in {CANONICAL}.md, pictures rely on the text alone (run --backfill-context)")
         for index, page in enumerate(pages):
             target = images_dir / f"{index}.jpg"
             if target.is_file() and not args.overwrite:
                 print(f"  [{index}] page {index + 1}: exists, skipped")
                 skipped += 1
                 continue
-            prompt = build_prompt(title, page, index, count)
+            earlier = [paragraph for previous in pages[:index] for paragraph in previous]
+            prompt = build_prompt(title, characters, earlier, page, index, count)
             if args.dry_run:
                 print(f"  [{index}] page {index + 1}: would generate")
                 written += 1
                 continue
+            # The picture drawn just before this one is the reference for this one.
+            previous_picture = images_dir / f"{index - 1}.jpg"
+            reference = previous_picture.read_bytes() if index > 0 and previous_picture.is_file() else None
             try:
-                raw = call_gemini_image(prompt, args.model)
+                raw = call_gemini_image(prompt, args.model, reference)
             except RuntimeError as error:
                 print(f"  [{index}] page {index + 1}: FAILED {error}", file=sys.stderr)
                 failed += 1

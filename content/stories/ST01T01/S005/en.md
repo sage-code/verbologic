@@ -10,6 +10,9 @@ status: draft
 order: 5
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Pip": "a small ant"
+  "Toby": "a big beetle"
 ---
 Pip the small ant walks in the garden. She finds a sweet red berry.
 

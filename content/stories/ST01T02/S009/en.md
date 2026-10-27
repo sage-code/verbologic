@@ -10,6 +10,9 @@ status: draft
 order: 9
 minutes: 1
 paragraphsPerPage: 1
+context:
+  "Barnaby": "a small brown dog"
+  "the star": "a cold, lost little star"
 ---
 Barnaby is a small brown dog. He lives in a magic forest. He walks near a tall tree.
 
