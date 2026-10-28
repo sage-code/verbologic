@@ -61,6 +61,13 @@ function docLocale(r: MediaRow): string {
 /** Prerendered article route of a row that carries an article (any track). */
 const articleHref = (r: MediaRow) => `/learn/${store.lang}/${store.track}/${r.topic}/${r.id}/${docLocale(r)}`
 
+/** Double-click on a row that has an article opens it, like its book button.
+ *  A double-click on a control inside the row (play, learned...) does not. */
+function openArticle(r: MediaRow, event: MouseEvent) {
+  if (!r.content || (event.target as HTMLElement).closest('button, a')) return
+  void navigateTo(articleHref(r))
+}
+
 /** Native gloss (the user's language): UI locale first, then English canonical,
  *  then the target term itself — the native column is never blank. */
 const native = (r: MediaRow): string => glossName(r.names, r.lang, uiLang.value) || r.term
@@ -378,6 +385,7 @@ onBeforeUnmount(() => {
             class="scroll-mt-[calc(var(--app-header-h)+var(--dict-toolbar-h,0px)+0.5rem)] border-t border-edge transition-colors"
             :class="[activeId === r.entity_id ? 'bg-accent-soft' : 'hover:bg-soft', isDictionary ? '' : 'expr-row']"
             @click="stopAutoplay"
+            @dblclick="openArticle(r, $event)"
           >
             <td class="px-3 py-2">
               <!-- File ID: kept in the DOM as a hidden (screen-reader-only)

@@ -4,15 +4,15 @@ topic: ST01T02
 article: S003
 entity_id: 'ST01T02:S003'
 locale: es
-title: El patito feo
-summary: Un ave joven y solitaria se convierte en cisne y encuentra su lugar.
+title: "El patito feo"
+summary: "Un patito solitario se convierte en cisne y encuentra su lugar en el mundo."
 status: draft
 order: 3
 minutes: 2
+paragraphsPerPage: 1
 ---
+Era un patito pequeño y gris que se veía diferente a las otras aves de la granja. Algunos patos se burlaban, así que el patito se marchó y encontró un lugar tranquilo junto a un lago. Allí, una tortuga vieja compartió con él el lugar más cálido bajo el sol.
 
-Un patito gris y pequeño era distinto de las otras aves del corral. Algunos animales se reían de él, así que se alejó y encontró un lugar tranquilo junto a un lago. Allí, una tortuga vieja compartió con él el rincón más cálido del sol.
+Pasó el invierno. Cuando volvió la primavera, el patito estiró las alas y vio hermosos cisnes blancos en el agua. Se acercó y miró su reflejo. Ya no era un patito pequeño: se había convertido en un cisne.
 
-Pasó el invierno. Cuando volvió la primavera, el patito extendió las alas y vio unas aves blancas y elegantes sobre el agua. Se acercó y miró su reflejo. Ya no era un patito: había crecido y se había convertido en cisne.
-
-Los cisnes lo recibieron, y los niños de la orilla sonrieron al ver sus plumas brillantes. Por fin, el ave se sintió en casa. Recordó los días solitarios y decidió ser amable con quienes parecían diferentes. Había necesitado tiempo para crecer, y todos merecen la oportunidad de llegar a ser quienes son.
+Los cisnes le dieron la bienvenida, y dos niños, un niño y una niña en la orilla, sonrieron al ver sus plumas brillantes. La joven ave se sintió por fin en casa. Recordó los días de soledad y decidió ser amable con cualquiera que fuera diferente. Había necesitado tiempo para crecer, y todos merecen la oportunidad de ser ellos mismos.

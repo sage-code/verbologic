@@ -4,15 +4,15 @@ topic: ST01T02
 article: S003
 entity_id: 'ST01T02:S003'
 locale: hu
-title: A rút kiskacsa
-summary: 'Egy magányos fiatal madár hattyúvá cseperedik, és megtalálja a helyét.'
+title: "A rút kiskacsa"
+summary: "Egy magányos kiskacsa hattyúvá cseperedik, és otthonra talál."
 status: draft
 order: 3
 minutes: 2
+paragraphsPerPage: 1
 ---
+Egy kicsi, szürke kiskacsa volt, aki máshogy nézett ki, mint a többi madár a tanyán. Néhány kacsa nevetett rajta, ezért a kiskacsa elment, és talált egy csendes helyet egy tó partján. Ott egy öreg teknős megosztotta vele a legmelegebb napos helyet.
 
-Egy kis szürke kiskacsa másképp nézett ki, mint az udvar többi madara. Néhány állat kinevette, ezért a kiskacsa elindult, és egy csendes helyet talált a tó mellett. Ott egy öreg teknős megosztotta vele a legmelegebb napsütötte helyet.
+Elmúlt a tél. Amikor visszatért a tavasz, a kiskacsa kinyújtotta a szárnyait, és kecses fehér hattyúkat látott a vízen. Közelebb ment, és belenézett a tükörképébe. Már nem egy kis kacsa volt: gyönyörű hattyúvá nőtt.
 
-Elmúlt a tél. Amikor visszatért a tavasz, a kiskacsa kinyújtotta a szárnyát, és kecses, fehér madarakat látott a vízen. Közelebb ment, és megnézte a tükörképét. Már nem volt kiskacsa: megnőtt, és hattyú lett belőle.
-
-A hattyúk befogadták, a parton álló gyerekek pedig elmosolyodtak ragyogó tollai láttán. A fiatal madár végre otthon érezte magát. Eszébe jutottak a magányos napok, és elhatározta, hogy kedves lesz azokhoz, akik másnak tűnnek. Neki időre volt szüksége a növekedéshez, és mindenkinek jár az esély, hogy önmaga lehessen.
+A hattyúk örömmel fogadták őt, és a parton két gyermek, egy fiú és egy lány mosolygott a fényes tollaira. A fiatal madár végre otthon érezte magát. Emlékezett a magányos napokra, és úgy döntött, kedves lesz mindenkihez, aki másnak tűnik. Időre volt szüksége a növekedéshez, és mindenki megérdemli az esélyt, hogy önmaga lehessen.

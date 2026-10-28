@@ -11,10 +11,10 @@ order: 16
 minutes: 1
 paragraphsPerPage: 1
 ---
-Otto die Eule sitzt auf einem Baum. Die Nacht ist dunkel und still. Otto hat große, helle gelbe Augen.
+Otto die Eule sitzt in einem Baum. Die Nacht ist dunkel und still. Er hat große, helle gelbe Augen.
 
 Eine kleine Maus steht unter dem Baum. Ihr Name ist Mia. Mia hat sich im dunklen Gras verirrt.
 
-Otto fliegt auf den weichen Boden. Er geht neben seiner neuen Freundin. Seine großen Augen sehen den kleinen Pfad.
+Otto fliegt auf den weichen Boden. Er geht neben seiner neuen Freundin. Seine großen Augen sehen den kleinen Weg.
 
-Mia findet ihr warmes Zuhause. Sie lächelt und dankt der lieben Eule. Otto ist glücklich, einer Freundin zu helfen.
+Mia findet ihr warmes Zuhause. Sie lächelt und dankt der lieben Eule. Otto freut sich, einer Freundin zu helfen.

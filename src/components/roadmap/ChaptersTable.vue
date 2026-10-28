@@ -7,6 +7,7 @@
 // topic layout.
 <script setup lang="ts">
 import { ArrowPathIcon, CheckIcon } from '@heroicons/vue/20/solid'
+import { FolderIcon } from '@heroicons/vue/24/outline'
 import { useRoadmapStore, PROGRESS_KEY, type TopicRow } from '~/stores/roadmapStore'
 import { mediaName } from '~/composables/useMedia'
 import { useTitles } from '~/composables/useTitles'
@@ -153,6 +154,7 @@ async function toggleScopeLearned() {
             <th class="hidden px-3 py-2 font-medium sm:table-cell">{{ copy('dictionary.col_id', 'File ID') }}</th>
             <th class="px-3 py-2 font-medium">{{ targetHeader }}</th>
             <th class="px-3 py-2 font-medium">{{ nativeHeader }}</th>
+            <th class="w-14 px-1 py-2 text-center font-medium"></th>
             <th class="px-3 py-2 text-center font-medium">{{ copy('dictionary.col_audio', 'Audio') }}</th>
             <th class="px-3 py-2 text-center font-medium">
               <!-- Check-all / reset for the whole track scope -->
@@ -199,6 +201,20 @@ async function toggleScopeLearned() {
             <td class="hidden whitespace-nowrap px-3 py-2 font-code text-xs text-faint sm:table-cell">{{ row.code }}</td>
             <td class="px-3 py-2 font-medium text-content">{{ row.target }}</td>
             <td class="px-3 py-2 text-muted">{{ row.native }}</td>
+            <td class="w-14 px-1 py-2 text-center">
+              <!-- Open the chapter: the folder sits where a topic row's article
+                   book does; a double-click on the row opens it too -->
+              <button
+                type="button"
+                class="btn-pastel inline-flex h-8 w-8 items-center justify-center rounded-full border border-edge text-accent transition hover:border-accent disabled:cursor-not-allowed disabled:opacity-40"
+                :disabled="row.disabled"
+                :aria-label="copy('roadmap.open_chapter', 'Open chapter')"
+                :title="copy('roadmap.open_chapter', 'Open chapter')"
+                @click.stop="row.open()"
+              >
+                <FolderIcon class="h-4 w-4" aria-hidden="true" />
+              </button>
+            </td>
             <td class="px-3 py-2 text-center">
               <!-- Title audio: lights up via useTitles once the titles payload lands -->
               <button

@@ -11,10 +11,10 @@ order: 16
 minutes: 1
 paragraphsPerPage: 1
 ---
-El búho Otto está sentado en un árbol. La noche es oscura y tranquila. Otto tiene ojos grandes y de color amarillo brillante.
+El búho Otto está en un árbol. La noche es oscura y tranquila. Él tiene ojos grandes y amarillos.
 
-Una ratona pequeña está debajo del árbol. Se llama Mia. Mia está perdida en la hierba oscura.
+Una pequeña ratona está debajo del árbol. Se llama Mia. Mia está perdida en la hierba oscura.
 
-Otto vuela hacia el suelo suave. Cammina al lado de su nueva amiga. Sus ojos grandes ven el camino pequeño.
+Otto vuela hacia el suelo suave. Camina al lado de su nueva amiga. Sus ojos grandes ven el camino pequeño.
 
-Mia encuentra su casa cálida. Sonríe y da las gracias al búho bueno. Otto está feliz de ayudar a una amiga.
+Mia encuentra su casa cálida. Sonríe y da las gracias al búho amable. Otto está feliz de ayudar a una amiga.

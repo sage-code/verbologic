@@ -11,10 +11,10 @@ order: 16
 minutes: 1
 paragraphsPerPage: 1
 ---
-Il gufo Otto è seduto su un albero. La notte è buia e silenziosa. Otto ha occhi grandi e giallo brillante.
+Il gufo Otto è su un albero. La notte è buia e silenziosa. Ha occhi grandi e gialli.
 
-Una piccola topolina è sotto l'albero. Si chiama Mia. Mia è persa nell'erba scura.
+Una piccola topolina è sotto l'albero. Si chiama Mia. Mia si è persa nell'erba scura.
 
-Otto vola sul terreno morbido. Cammina accanto alla sua nuova amica. I suoi grandi occhi vedono il piccolo sentiero.
+Otto vola verso il terreno morbido. Cammina vicino alla sua nuova amica. I suoi grandi occhi vedono il piccolo sentiero.
 
 Mia trova la sua casa calda. Sorride e ringrazia il gufo gentile. Otto è felice di aiutare un'amica.

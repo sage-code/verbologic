@@ -5,16 +5,16 @@ article: S007
 entity_id: 'ST01T02:S007'
 locale: en
 title: "The Garden Fairy"
-summary: "Anna helps a small fairy in a magic garden and makes a wonderful new friend."
+summary: "Anna, a young girl, helps a small fairy in a magic garden and makes a wonderful new friend."
 status: draft
 order: 7
 minutes: 1
 paragraphsPerPage: 1
 context:
   "Anna": "a young girl walking through the garden"
-  "the fairy": "a small magical creature who carries a tiny wand"
+  "the fairy": "a small fairy who carries a tiny wand"
 ---
-Anna walks in the green garden. She sees a small fairy. The fairy sits on a red flower.
+Anna, a young girl, walks in the green garden. She sees a small fairy. The fairy sits on a red flower.
 
 The fairy is sad. Her tiny wand is under a big stone. The fairy cannot move the stone.
 

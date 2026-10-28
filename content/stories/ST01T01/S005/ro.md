@@ -15,6 +15,6 @@ Pip, mica furnică, merge prin grădină. Ea găsește o boabă roșie și dulce
 
 Pip vrea să o ducă acasă. Ea împinge boaba grea. Boaba nu se mișcă.
 
-Toby, marele gândac, sosește. Toby este bun și puternic. Toby împinge boaba împreună cu Pip.
+Toby, marele gândac, sosește. El este bun și puternic. Toby împinge boaba împreună cu Pip.
 
 Boaba se rostogolește spre casa lor. Pip și Toby mănâncă mâncarea dulce. Prietenii buni fac munca grea ușoară.

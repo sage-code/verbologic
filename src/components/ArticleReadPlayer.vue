@@ -1,7 +1,7 @@
 // ArticleReadPlayer — the article-level "read" control above a story panel.
 // Plays the full-article recording for ONE language (media/[track]/…/read/
 // [locale].mp3). Play becomes Pause while running; Pause becomes Resume; the
-// adjacent Stop button resets to the start. A pending recording renders the
+// adjacent Stop button resets to the start (`showStop` hides it when a page has two players, which then share one Stop). A pending recording renders the
 // disabled "audio coming soon" state instead of a dead button. With `text` set
 // (a language name), the button reads "Play" and the name instead of "Read".
 //
@@ -39,8 +39,11 @@ const props = withDefaults(
     endAt?: number
     /** True while another page exists after the current one. */
     hasNext?: boolean
+    /** Show the Stop button beside Play. A page with two players turns it off and
+     *  stops both from its own shared Stop button. */
+    showStop?: boolean
   }>(),
-  { label: '', text: '', startAt: 0, endAt: 0, hasNext: false }
+  { label: '', text: '', startAt: 0, endAt: 0, hasNext: false, showStop: true }
 )
 
 const emit = defineEmits<{
@@ -173,7 +176,7 @@ onBeforeUnmount(() => {
   sound.unbind(player.value)
 })
 
-defineExpose({ stop })
+defineExpose({ stop, active: computed(() => state.value !== 'idle') })
 </script>
 
 <template>
@@ -191,6 +194,7 @@ defineExpose({ stop })
       <span>{{ text || actionLabel }}</span>
     </button>
     <button
+      v-if="showStop"
       type="button"
       class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-edge bg-surface text-muted transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
       :disabled="state === 'idle'"

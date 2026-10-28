@@ -4,17 +4,17 @@ topic: ST01T02
 article: S002
 entity_id: 'ST01T02:S002'
 locale: fr
-title: Les trois petits cochons
-summary: >-
-  Trois frères construisent leurs maisons de façons différentes et découvrent la
-  valeur de la patience et du soin.
+title: "Les trois petits cochons"
+summary: "Trois petits cochons construisent des maisons de façons différentes et découvrent la valeur de la patience et du soin."
 status: draft
 order: 2
 minutes: 2
+paragraphsPerPage: 1
 ---
+Trois petits cochons ont quitté leur maison pour construire leurs propres maisons. Le premier a utilisé de la paille, le deuxième a utilisé du bois, et le troisième a travaillé avec soin avec des briques.
 
-Trois petits cochons quittèrent leur maison pour bâtir chacun la leur. Le premier utilisa de la paille, le deuxième des branches et le troisième travailla soigneusement avec des briques. Bientôt, un loup affamé arriva et souffla sur les deux premières maisons, qui s’écroulèrent. Les cochons coururent dans la solide maison en briques de leur frère.
+Bientôt, un loup affamé est arrivé et a soufflé sur les deux premières maisons. Les cochons ont couru vers la maison en briques solide de leur frère.
 
-Le loup souffla et souffla encore, mais les murs tinrent bon. Fatigué, il s’assit dehors. Les cochons lui demandèrent pourquoi il avait si faim. Le loup avoua qu’il n’avait pas cherché de nourriture. Les cochons partagèrent leur soupe et lui montrèrent où poussaient les baies.
+Le loup a soufflé de toutes ses forces, mais les murs sont restés solides. Fatigué, il s'est assis dehors. Les cochons lui ont demandé pourquoi il avait si faim. Le loup a avoué qu'il n'avait pas cherché de nourriture. Les cochons ont partagé de la soupe et lui ont montré où poussaient des baies.
 
-Ensuite, le loup apprit à demander de l’aide au lieu d’effrayer les autres. Les cochons comprirent qu’un travail bien fait prend du temps et que la gentillesse peut transformer une rencontre difficile en nouveau départ.
+Après cela, le loup a appris à demander de l'aide au lieu de faire peur aux autres. Les cochons ont appris qu'un bon travail prend du temps et que la gentillesse peut transformer une situation difficile en un nouveau départ.

@@ -47,6 +47,8 @@ MEDIA_DIR = ROOT / "media"
 CONTENT_DIR = ROOT / "content"
 SIDEBARS_DIR = ROOT / "src" / "data" / "sidebars"
 TRACKS = ("dictionary", "lectures", "stories")
+# A /…/ transcription: short, with no Cyrillic letters inside, so "и/или" is not matched.
+IPA_SPAN = re.compile(r"/(?![^/\n]*[А-Яа-яЁё])[^/\n]{1,40}/")
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.locales import LOCALES  # noqa: E402  (single locale registry)
 from lib.manifest import (  # noqa: E402  (locales + files shape)
@@ -477,14 +479,25 @@ async def synthesize_sections_with_fallback(
     Returns the voice that produced the file and the per-page offsets.
     """
     try:
-        offsets = await synthesize_sections(sections, voice, output)
+        offsets = await with_retries(lambda: synthesize_sections(sections, voice, output))
         return voice, offsets
     except (edge_tts.exceptions.NoAudioReceived, ConnectionError, asyncio.TimeoutError):
         sibling = sibling_voice(voice)
         if not sibling:
             raise
-        offsets = await synthesize_sections(sections, sibling, output)
+        offsets = await with_retries(lambda: synthesize_sections(sections, sibling, output))
         return sibling, offsets
+
+
+async def with_retries(call, attempts: int = 4):
+    """Edge TTS refuses some requests at random and accepts the same text on retry."""
+    for attempt in range(1, attempts + 1):
+        try:
+            return await call()
+        except (edge_tts.exceptions.NoAudioReceived, ConnectionError, asyncio.TimeoutError):
+            if attempt == attempts:
+                raise
+            await asyncio.sleep(3 * attempt)
 
 
 def file_sha1(path: Path) -> str:
@@ -719,6 +732,7 @@ def article_sections(track: str, topic: str, code: str, locale: str) -> list[str
     def clean(chunk: str) -> str:
         chunk = re.sub(r"^\s{0,3}#{1,6}\s*", "", chunk, flags=re.MULTILINE)
         chunk = re.sub(r"[*_`>]+", "", chunk)
+        chunk = IPA_SPAN.sub("", chunk)  # transcriptions are shown, never spoken
         return re.sub(r"\n{3,}", "\n\n", chunk).strip()
 
     if not re.search(r"^\s{0,3}#{2,3}\s+", raw, flags=re.MULTILINE):
@@ -741,6 +755,7 @@ def article_text(track: str, topic: str, code: str, locale: str) -> str | None:
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)  # links → their text
     text = re.sub(r"^\s{0,3}#{1,6}\s*", "", text, flags=re.MULTILINE)  # headings
     text = re.sub(r"[*_`>]+", "", text)  # emphasis / quotes / code marks
+    text = IPA_SPAN.sub("", text)  # transcriptions are shown, never spoken
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip() or None
 

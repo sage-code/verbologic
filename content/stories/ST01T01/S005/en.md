@@ -18,6 +18,6 @@ Pip the small ant walks in the garden. She finds a sweet red berry.
 
 Pip wants to take it home. She pushes the heavy berry. The berry does not move.
 
-Toby the big beetle arrives. Toby is kind and strong. Toby pushes the berry with Pip.
+Toby the big beetle arrives. He is kind and strong. Toby pushes the berry with Pip.
 
 The berry rolls to their home. Pip and Toby eat the sweet food. Good friends make hard work easy.

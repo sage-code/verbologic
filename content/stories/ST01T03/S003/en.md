@@ -5,7 +5,7 @@ article: S003
 entity_id: 'ST01T03:S003'
 locale: en
 title: "Rusty Sings Again"
-summary: "Rusty the rooster loses his voice, but a kind friend helps him sing again."
+summary: "Rusty the rooster loses his voice, but Daisy the cow helps him sing again."
 status: draft
 order: 3
 minutes: 1

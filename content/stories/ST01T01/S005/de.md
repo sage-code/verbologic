@@ -11,10 +11,10 @@ order: 5
 minutes: 1
 paragraphsPerPage: 1
 ---
-Pip, die kleine Ameise, geht im Garten spazieren. Sie findet eine süße rote Beere.
+Pip die kleine Ameise geht im Garten spazieren. Sie findet eine süße rote Beere.
 
 Pip möchte sie nach Hause bringen. Sie schiebt die schwere Beere. Die Beere bewegt sich nicht.
 
-Toby, der große Käfer, kommt an. Toby ist nett und stark. Toby schiebt die Beere zusammen mit Pip.
+Toby der große Käfer kommt an. Er ist nett und stark. Toby schiebt die Beere zusammen mit Pip.
 
 Die Beere rollt zu ihrem Zuhause. Pip und Toby essen das süße Essen. Gute Freunde machen schwere Arbeit leicht.

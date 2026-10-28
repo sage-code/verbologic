@@ -25,7 +25,7 @@ Dictionary and Stories are graded **by chapter**: two chapters per level, so a l
 
 ## Lectures
 
-All topics use the `table` layout. Each of the **12 lectures (`L1`–`L12`)** contains **5–12 topics**, and each topic contains **18–70 progressive items/examples**. Learners repeat items in an audio loop to build intuition; clicking any item's book icon opens its detailed grammar, expression, and cultural explanation (without standalone prose-only topics, videos, or secondary audio strips).
+Most topics use the `table` layout; pronunciation topics may use the `article` layout (see the lesson pattern below). Each of the **12 lectures (`L1`–`L12`)** contains **5–12 topics**, and each topic contains **18–70 progressive items/examples**. Learners repeat items in an audio loop to build intuition; clicking any item's book icon opens its detailed grammar, expression, and cultural explanation (without standalone prose-only topics, videos, or secondary audio strips).
 
 | Lecture | Topics (in order) |
 | --- | --- |
@@ -84,7 +84,7 @@ All topics use the `article` layout.
 
 ## The lesson pattern
 
-Every topic in **Lectures** uses the `table` layout and holds **18–70 progressive items/examples**. Learners play the topic in a loop to absorb pronunciation and structure intuitively, and click any item's Read button to open its detailed explanation (`content/lectures/<lang>/<TOPIC>/<id>/en.md`). Explanations have no secondary sound strip or video — audio belongs exclusively to the item and topic table loop.
+Most topics in **Lectures** use the `table` layout and hold **18–70 progressive items/examples**. Pronunciation topics written as articles (`"layout": "article"`) hold the same number of items, each an article document. Learners play the topic in a loop to absorb pronunciation and structure intuitively, and click any item's Read button to open its detailed explanation (`content/lectures/<lang>/<TOPIC>/<id>/en.md`). Table items have no secondary sound strip or video: their audio belongs to the item and topic table loop. An **article** topic (`"layout": "article"`) has no table loop. Its article items carry a read-aloud MP3 of their document (`read/<locale>.mp3`, made by `generate-audio.py --read`) and may carry a video.
 
 Topic codes are `<track letter><chapter>T<nn>`, numbered in teaching order: `C` for Dictionary, `L` for Lectures and `S` for Stories. `scripts/lib/media-ids.mjs` routes a code to its sidebar by that letter. To insert a topic, renumber the topics after it: codes are display labels, not storage keys. Audio URLs come from each manifest's own `key`, and progress stores only the entity id. When a code changes:
 

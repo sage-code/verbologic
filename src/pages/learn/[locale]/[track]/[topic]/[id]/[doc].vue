@@ -9,7 +9,8 @@
 //   translation, picked with Show) and the picture, which is always square.
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue'
-import { ArrowLeftIcon, ArrowRightIcon, ClockIcon, FilmIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+import { ClockIcon, FilmIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+import { StopIcon } from '@heroicons/vue/24/solid'
 import { TRACK_IDS, type TrackId } from '~/data/tracks'
 import ArticleRail from '~/components/roadmap/ArticleRail.vue'
 import RailSplitter from '~/components/roadmap/RailSplitter.vue'
@@ -272,8 +273,15 @@ const storyPage = ref(0)
  * changes or stops the audio.
  */
 const storyLanguage = ref<'target' | 'native'>('target')
-const targetPlayer = ref<{ stop: () => void } | null>(null)
-const nativePlayer = ref<{ stop: () => void } | null>(null)
+const targetPlayer = ref<{ stop: () => void; active: boolean } | null>(null)
+const nativePlayer = ref<{ stop: () => void; active: boolean } | null>(null)
+/** Either recording is running, so the page's one Stop button is live. */
+const storyPlaying = computed(() => Boolean(targetPlayer.value?.active || nativePlayer.value?.active))
+/** The page's one Stop: halts whichever recording runs, for both players. */
+function stopStory() {
+  targetPlayer.value?.stop()
+  nativePlayer.value?.stop()
+}
 
 const storyTargetPage = computed(() => {
   const doc = storyTargetDoc.value
@@ -577,9 +585,10 @@ useSeoMeta({
         <section class="flex min-h-0 flex-1 flex-col gap-3">
           <div class="story-stage flex min-h-0 flex-1 gap-3 overflow-hidden">
             <section class="story-text flex min-h-0 min-w-0 flex-col overflow-hidden rounded-lg border border-edge bg-surface p-3 sm:p-5">
-              <!-- A story's controls: Show picks the language of the text, and Play
-                   plays either recording whatever the text shows. -->
-              <div v-if="isStory" class="mb-3 flex shrink-0 flex-col gap-2 border-b border-edge pb-3">
+              <!-- A story's controls share one row: Show picks the language of the
+                   text, the page pill steps through the pages (like the dictionary's
+                   « » pill), and Play sits at the right edge with one shared Stop. -->
+              <div v-if="isStory" class="mb-3 flex shrink-0 flex-wrap items-center gap-x-4 gap-y-2 border-b border-edge pb-3">
                 <div v-if="hasTranslation" class="flex flex-wrap items-center gap-2">
                   <span class="text-xs font-semibold uppercase tracking-wide text-faint">
                     {{ copy('stories.show', 'Show') }}
@@ -609,7 +618,37 @@ useSeoMeta({
                     </button>
                   </div>
                 </div>
-                <div class="flex flex-wrap items-center gap-2">
+                <nav
+                  v-if="storyPageCount > 1"
+                  class="ml-auto flex items-center gap-2"
+                  :aria-label="copy('stories.page_navigation', 'Story pages')"
+                >
+                  <button
+                    type="button"
+                    class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge text-base text-content transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
+                    :disabled="storyPage === 0"
+                    :title="copy('stories.previous_page', 'Previous')"
+                    @click="moveStoryPage(-1)"
+                  >
+                    «
+                  </button>
+                  <span
+                    class="inline-flex h-8 min-w-[5.5rem] shrink-0 items-center justify-center rounded-full border border-edge bg-surface px-2 text-xs tabular-nums text-muted"
+                    aria-live="polite"
+                  >
+                    {{ copy('stories.page', 'Page') }} {{ storyPage + 1 }}/{{ storyPageCount }}
+                  </span>
+                  <button
+                    type="button"
+                    class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge text-base text-content transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
+                    :disabled="storyPage >= storyPageCount - 1"
+                    :title="copy('stories.next_page', 'Next')"
+                    @click="moveStoryPage(1)"
+                  >
+                    »
+                  </button>
+                </nav>
+                <div class="ml-auto flex flex-wrap items-center justify-end gap-2">
                   <span class="text-xs font-semibold uppercase tracking-wide text-faint">
                     {{ copy('ui.play', 'Play') }}
                   </span>
@@ -621,6 +660,7 @@ useSeoMeta({
                     :start-at="targetStartAt"
                     :end-at="targetEndAt"
                     :has-next="storyPage < storyPageCount - 1"
+                    :show-stop="false"
                     @started="nativePlayer?.stop()"
                     @page-ended="moveStoryPage(1)"
                   />
@@ -633,9 +673,20 @@ useSeoMeta({
                     :start-at="nativeStartAt"
                     :end-at="nativeEndAt"
                     :has-next="storyPage < storyPageCount - 1"
+                    :show-stop="false"
                     @started="targetPlayer?.stop()"
                     @page-ended="moveStoryPage(1)"
                   />
+                  <button
+                    type="button"
+                    class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge bg-surface text-muted transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
+                    :disabled="!storyPlaying"
+                    :aria-label="copy('ui.stop', 'Stop')"
+                    :title="copy('ui.stop', 'Stop')"
+                    @click="stopStory"
+                  >
+                    <StopIcon class="h-3.5 w-3.5" aria-hidden="true" />
+                  </button>
                 </div>
               </div>
               <div v-else class="mb-3 flex shrink-0 items-center justify-between gap-2 border-b border-edge pb-2">
@@ -688,33 +739,6 @@ useSeoMeta({
               />
             </figure>
           </div>
-          <nav
-            v-if="storyPageCount > 1"
-            class="flex shrink-0 items-center justify-center gap-2 sm:gap-4"
-            :aria-label="copy('stories.page_navigation', 'Story pages')"
-          >
-            <button
-              type="button"
-              class="inline-flex h-9 items-center gap-2 rounded-full border border-edge bg-surface px-3 text-sm text-content transition hover:border-accent disabled:cursor-not-allowed disabled:opacity-40 sm:px-4"
-              :disabled="storyPage === 0"
-              @click="moveStoryPage(-1)"
-            >
-              <ArrowLeftIcon class="h-4 w-4" aria-hidden="true" />
-              {{ copy('stories.previous_page', 'Previous') }}
-            </button>
-            <span class="whitespace-nowrap font-code text-xs text-muted" aria-live="polite">
-              {{ storyPage + 1 }} / {{ storyPageCount }}
-            </span>
-            <button
-              type="button"
-              class="inline-flex h-9 items-center gap-2 rounded-full border border-edge bg-surface px-3 text-sm text-content transition hover:border-accent disabled:cursor-not-allowed disabled:opacity-40 sm:px-4"
-              :disabled="storyPage >= storyPageCount - 1"
-              @click="moveStoryPage(1)"
-            >
-              {{ copy('stories.next_page', 'Next') }}
-              <ArrowRightIcon class="h-4 w-4" aria-hidden="true" />
-            </button>
-          </nav>
         </section>
         <!-- Practise: the records the prose points at -->
         <section v-if="record?.related?.length" class="shrink-0 space-y-2">

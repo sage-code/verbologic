@@ -4,15 +4,15 @@ topic: ST01T02
 article: S003
 entity_id: 'ST01T02:S003'
 locale: fr
-title: Le vilain petit canard
-summary: Un jeune oiseau solitaire devient un cygne et trouve sa place.
+title: "Le vilain petit canard"
+summary: "Un caneton solitaire grandit, devient un cygne et trouve sa place."
 status: draft
 order: 3
 minutes: 2
+paragraphsPerPage: 1
 ---
+C'était un petit caneton gris qui semblait différent des autres oiseaux de la ferme. Certains canards se moquaient de lui, alors le caneton est parti et a trouvé un endroit calme près d'un lac. Là-bas, une vieille tortue a partagé avec lui le coin le plus chaud au soleil.
 
-Un petit canard gris était différent des autres oiseaux de la ferme. Certains animaux se moquaient de lui. Il partit donc et trouva un endroit calme au bord d’un lac. Là, une vieille tortue partagea avec lui le coin de soleil le plus chaud.
+L'hiver est passé. Quand le printemps est revenu, le caneton a étiré ses ailes et a vu de beaux cygnes blancs sur l'eau. Il s'est approché et a regardé son reflet. Il n'était plus un petit caneton : il était devenu un cygne.
 
-L’hiver passa. Au retour du printemps, le caneton étendit ses ailes et aperçut de beaux oiseaux blancs sur l’eau. Il s’approcha et regarda son reflet. Il n’était plus un petit canard : il avait grandi et était devenu un cygne.
-
-Les cygnes l’accueillirent, et les enfants sur la rive sourirent en voyant ses plumes éclatantes. Enfin, le jeune oiseau se sentit chez lui. Il se souvint de ses jours de solitude et décida d’être gentil avec ceux qui semblaient différents. Il lui avait fallu du temps pour grandir, et chacun mérite la chance de devenir soi-même.
+Les cygnes l'ont accueilli chaleureusement, et deux enfants, un garçon et une fille sur la rive, ont souri en voyant ses plumes brillantes. Le jeune oiseau s'est enfin senti chez lui. Il s'est souvenu des jours de solitude et a décidé d'être gentil avec tous ceux qui semblent différents. Il avait eu besoin de temps pour grandir, et tout le monde mérite la chance de devenir soi-même.

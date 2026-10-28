@@ -14,7 +14,7 @@ context:
   "Toby": "a hedgehog carrying soft leaves on his back"
   "Nina": "a little cold mouse"
 ---
-Toby the hedgehog walks in the forest. The cold wind blows. Toby finds many soft leaves.
+Toby the hedgehog walks in the forest. The cold wind blows. He finds many soft leaves.
 
 Toby meets a little mouse. Her name is Nina. Nina is cold and sad.
 

@@ -11,10 +11,10 @@ order: 20
 minutes: 1
 paragraphsPerPage: 1
 ---
-Rafi egy nagyon magas zsiráf. Egy zöld fa mellett áll. Barátja, Mia a fűben ül.
+Rafi egy nagyon magas zsiráf. Egy zöld fa mellett áll. A barátja, Mia, egy kis majom. Ő a fűben ül.
 
-Mia egy kis majom. Ma éhes. Az édes gyümölcs magasan van a fán.
+Mia ma éhes. Az édes gyümölcs magasan van a fán.
 
-Mia nem éri el az édes gyümölcsöt. Rafi leengedi a fejét a fűhöz. Mia ráül Rafi fejére.
+Mia nem éri el az édes gyümölcsöt. Rafi leengedi a fejét a fűhöz. Mia Rafi fejére ül.
 
-Rafi felemeli a hosszú nyakát. Mia leszed két sárga gyümölcsöt. Rafi és Mia együtt esznek és mosolyognak.
+Rafi felemeli a hosszú nyakát. Mia leszakít két sárga gyümölcsöt. Rafi és Mia együtt esznek és mosolyognak.

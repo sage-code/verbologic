@@ -14,9 +14,9 @@ context:
   "Rafi": "a very tall giraffe with a long neck"
   "Mia": "a hungry little monkey"
 ---
-Rafi is a very tall giraffe. He stands near a green tree. His friend Mia sits on the grass.
+Rafi is a very tall giraffe. He stands near a green tree. His friend Mia is a little monkey. She sits on the grass.
 
-Mia is a little monkey. She is hungry today. The sweet fruit is high in the tree.
+Mia is hungry today. The sweet fruit is high in the tree.
 
 Mia cannot reach the sweet fruit. Rafi puts his head near the grass. Mia sits on Rafi's head.
 

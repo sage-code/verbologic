@@ -13,8 +13,8 @@ paragraphsPerPage: 1
 ---
 Pip, la piccola formica, cammina nel giardino. Trova una dolce bacca rossa.
 
-Pip vuole portarla a casa. Spinge la pesante bacca. La bacca non si muove.
+Pip vuole portarla a casa. Spinge la bacca pesante. La bacca non si muove.
 
-Arriva Toby, il grande scarabeo. Toby è gentile e forte. Toby spinge la bacca con Pip.
+Arriva Toby, il grande scarabeo. È gentile e forte. Toby spinge la bacca con Pip.
 
-La bacca rotola fino alla loro casa. Pip e Toby mangiano il cibo dolce. I buoni amici rendono facile il lavoro duro.
+La bacca rotola fino a casa loro. Pip e Toby mangiano il cibo dolce. I buoni amici rendono facile il lavoro duro.

@@ -4,18 +4,15 @@ topic: ST01T02
 article: S001
 entity_id: 'ST01T02:S001'
 locale: pt
-title: Capuchinho Vermelho
-summary: >-
-  Uma menina cuidadosa visita a avó e aprende por que é melhor seguir o caminho
-  seguro.
+title: "Capuchinho Vermelho"
+summary: "Uma menina cuidadosa visita a sua avó e aprende por que é bom seguir o caminho seguro."
 status: draft
 order: 1
 minutes: 2
+paragraphsPerPage: 1
 ---
+Chapeuzinho Vermelho, uma menina jovem, separou pão e maçãs para a sua avó. A mãe lembrou-a de seguir o caminho da floresta e de não parar para conversar com estranhos. A menina prometeu e partiu.
 
-O Capuchinho Vermelho preparou pão e maçãs para a avó. A mãe lembrou-lhe que devia seguir o caminho da floresta e não parar para falar com desconhecidos. A menina prometeu e partiu.
+Na floresta, um lobo perguntou para onde ela ia. Chapeuzinho lembrou-se das palavras da mãe e não lhe disse nada. Ela correu para a casa da avó. A avó ouviu o lobo à porta, fechou-a e chamou um guarda florestal que estava perto, um homem.
 
-Na floresta, um lobo perguntou-lhe para onde ia. O Capuchinho lembrou-se das palavras da mãe e não lhe contou. Apressou-se até à casa da avó. A avó ouviu o lobo à porta, trancou-a e chamou um guarda-florestal que vivia perto.
-
-Quando o Capuchinho chegou, o guarda-florestal já estava lá. O lobo teve de ir embora, e a menina e a avó partilharam o lanche em segurança. O Capuchinho aprendeu que um caminho conhecido e um adulto de confiança podem ajudar-nos a ficar em segurança.
-
+Quando Chapeuzinho chegou, o guarda também estava lá. O lobo teve de ir embora, e a menina e a avó comeram o lanche em segurança. Chapeuzinho aprendeu que um caminho conhecido e um adulto de confiança ajudam a nos manter seguros.

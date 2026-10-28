@@ -32,7 +32,11 @@
     "resume": "Continuă",
     "stop": "Oprește",
     "sound_on": "Pornește sunetul",
-    "sound_off": "Oprește sunetul"
+    "sound_off": "Oprește sunetul",
+    "pronunciation": "Pronunțare",
+    "user_label": "Utilizator",
+    "anonymous": "Anonim",
+    "cancel": "Anulează"
   },
   "languages": {
     "en": "Engleză",
@@ -172,7 +176,8 @@
     "recovery_intro": "Alege o parolă nouă pentru {email}.",
     "recovery_done": "Parola a fost schimbată — ești conectat.",
     "recovery_invalid": "Acest link de recuperare este invalid, a expirat sau a fost deschis în alt browser — cere unul nou.",
-    "logged_out": "Te-ai deconectat."
+    "logged_out": "Te-ai deconectat.",
+    "your_language": "Limba ta:"
   },
   "home": {
     "eyebrow": "Învățare asistată de AI",
@@ -237,7 +242,18 @@
     "settings_minus": "Mută în disponibil",
     "settings_plus": "Mută în alocare",
     "settings_apply": "Aplică",
-    "settings_cancel": "Anulează"
+    "settings_cancel": "Anulează",
+    "abandon_title": "Elimină limba",
+    "abandon_hint": "Progresul tău este păstrat. Poți adăuga din nou această limbă mai târziu și să continui de unde ai rămas.",
+    "abandon_kept": "Păstrat pentru",
+    "abandon_credits": "Credite alocate acestei limbi",
+    "abandon_recuperate": "Recuperează creditele",
+    "abandon_recuperate_hint": "Revin la creditele disponibile și pot fi folosite pentru o altă limbă.",
+    "abandon_forfeit": "Renunță la credite",
+    "abandon_forfeit_hint": "Creditele se pierd. Progresul tău este totuși păstrat.",
+    "abandon_confirm": "Elimină limba",
+    "cap_reached": "Poți învăța trei limbi simultan. Elimină mai întâi una din bibliotecă — progresul ei este păstrat.",
+    "abandon_hint_short": "Elimină din bibliotecă — progresul este păstrat"
   },
   "track": {
     "dictionary_title": "Dicționar",
@@ -297,7 +313,16 @@
     "no_words": "Încă niciun cuvânt în această temă — conținutul e în pregătire.",
     "select_topic": "Alege o temă",
     "back_to_topics": "Toate temele",
-    "curriculum": "Curriculum"
+    "open_chapter": "Deschide capitolul",
+    "curriculum": "Curriculum",
+    "no_topics": "Nu există subiecte pe această pagină",
+    "close_topics": "Închide subiectele",
+    "open_topics": "Deschide subiectele",
+    "double_click_open": "Dă dublu clic pentru a deschide",
+    "resize_curriculum": "Redimensionează programa",
+    "resize_hint": "Trage pentru a redimensiona · dublu clic pentru resetare",
+    "all_chapters": "Toate capitolele",
+    "search_label": "Caută"
   },
   "dictionary": {
     "letter_filter": "Scrie primele litere…",
@@ -324,7 +349,8 @@
     "close_chapter": "Închide capitolul",
     "open_chapter": "Deschide capitolul",
     "next_topic": "Tema următoare",
-    "prev_topic": "Tema anterioară"
+    "prev_topic": "Tema anterioară",
+    "col_done": "Gata"
   },
   "contrastive": {
     "letter_a": "Like the a in father ; open and clear, not clipped.",
@@ -388,12 +414,15 @@
     "not_translated": "Netradus încă — se afișează în engleză",
     "translation_stale": "Traducere învechită",
     "with_video": "Video",
-    "practice": "Exersează aceste sunete"
+    "practice": "Exersează aceste sunete",
+    "explanation": "Explicație"
   },
   "article": {
     "label": "Articol",
     "read_article": "Citește acest articol",
-    "coming_soon": "Niciun articol în acest subiect încă — conținutul este în pregătire."
+    "coming_soon": "Niciun articol în acest subiect încă — conținutul este în pregătire.",
+    "read": "Citește",
+    "coming_soon_row": "Niciun articol încă"
   },
   "legend": {
     "title": "Legendă",
@@ -407,12 +436,24 @@
   },
   "stories": {
     "show": "Arată",
+    "page": "Pag",
     "page_navigation": "Pagini",
     "previous_page": "Înapoi",
-    "next_page": "Înainte"
+    "next_page": "Înainte",
+    "zoom_in": "Mărește imaginea",
+    "zoom_out": "Micșorează imaginea"
   },
   "gallery": {
     "label": "Galerie",
     "coming_soon": "Nicio imagine în acest subiect încă — conținutul este în pregătire."
+  },
+  "status": {
+    "db_offline": "Baza de date este offline pentru întreținere",
+    "db_offline_detail": "Dicționarul afișează conținutul englez încorporat. Biblioteca și Profilul nu sunt disponibile; Exersarea funcționează în continuare.",
+    "page_unavailable": "{page} nu este disponibilă",
+    "page_unavailable_detail": "Această pagină necesită baza de date și este suspendată până la restabilirea conexiunii. Progresul tău este în siguranță.",
+    "checking": "Se verifică…",
+    "retry": "Reîncearcă",
+    "go_practice": "Exersarea funcționează în continuare"
   }
 }

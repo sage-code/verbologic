@@ -14,7 +14,7 @@ context:
   "Otto": "an owl with big, bright yellow eyes"
   "Mia": "a small mouse"
 ---
-Otto the owl sits in a tree. The night is dark and quiet. Otto has big, bright yellow eyes.
+Otto the owl sits in a tree. The night is dark and quiet. He has big, bright yellow eyes.
 
 A small mouse stands under the tree. Her name is Mia. Mia is lost in the dark grass.
 

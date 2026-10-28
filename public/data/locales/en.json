@@ -32,7 +32,11 @@
     "resume": "Resume",
     "stop": "Stop",
     "sound_on": "Turn sound on",
-    "sound_off": "Turn sound off"
+    "sound_off": "Turn sound off",
+    "pronunciation": "Pronunciation",
+    "user_label": "User",
+    "anonymous": "Anonymous",
+    "cancel": "Cancel"
   },
   "languages": {
     "en": "English",
@@ -172,7 +176,8 @@
     "recovery_intro": "Choose a new password for {email}.",
     "recovery_done": "Password changed — you are signed in.",
     "recovery_invalid": "This recovery link is invalid, expired, or was opened in a different browser — request a new one.",
-    "logged_out": "You are signed out."
+    "logged_out": "You are signed out.",
+    "your_language": "Your Language:"
   },
   "home": {
     "eyebrow": "AI-powered language learning",
@@ -237,7 +242,18 @@
     "settings_minus": "Move to available",
     "settings_plus": "Move to allocation",
     "settings_apply": "Apply",
-    "settings_cancel": "Cancel"
+    "settings_cancel": "Cancel",
+    "abandon_title": "Remove language",
+    "abandon_hint": "Your progress is kept. You can add this language back later and continue where you left off.",
+    "abandon_kept": "Kept for",
+    "abandon_credits": "Credits allocated to this language",
+    "abandon_recuperate": "Recuperate the credits",
+    "abandon_recuperate_hint": "They return to your available credits and can be used for another language.",
+    "abandon_forfeit": "Give up the credits",
+    "abandon_forfeit_hint": "The credits are lost. Your progress is still kept.",
+    "abandon_confirm": "Remove language",
+    "cap_reached": "You can learn three languages at a time. Remove one from your library first — its progress is kept.",
+    "abandon_hint_short": "Remove from your library — progress is kept"
   },
   "track": {
     "dictionary_title": "Dictionary",
@@ -297,7 +313,16 @@
     "no_words": "No words in this topic yet — content is being prepared.",
     "select_topic": "Select a topic",
     "back_to_topics": "All topics",
-    "curriculum": "Curriculum"
+    "open_chapter": "Open chapter",
+    "curriculum": "Curriculum",
+    "no_topics": "No topics on this page",
+    "close_topics": "Close topics",
+    "open_topics": "Open topics",
+    "double_click_open": "Double-click to open",
+    "resize_curriculum": "Resize the curriculum",
+    "resize_hint": "Drag to resize · double-click to reset",
+    "all_chapters": "All chapters",
+    "search_label": "Search"
   },
   "dictionary": {
     "letter_filter": "Type the first letters…",
@@ -324,7 +349,8 @@
     "close_chapter": "Close chapter",
     "open_chapter": "Open chapter",
     "next_topic": "Next topic",
-    "prev_topic": "Previous topic"
+    "prev_topic": "Previous topic",
+    "col_done": "Done"
   },
   "lecture": {
     "label": "Lecture",
@@ -333,12 +359,15 @@
     "not_translated": "Not translated yet — showing English",
     "translation_stale": "Translation out of date",
     "with_video": "Video",
-    "practice": "Practise these"
+    "practice": "Practise these",
+    "explanation": "Explanation"
   },
   "article": {
     "label": "Article",
     "read_article": "Read this article",
-    "coming_soon": "No articles in this topic yet — content is being prepared."
+    "coming_soon": "No articles in this topic yet — content is being prepared.",
+    "read": "Read",
+    "coming_soon_row": "No article yet"
   },
   "legend": {
     "title": "Legend",
@@ -352,12 +381,24 @@
   },
   "stories": {
     "show": "Show",
+    "page": "Page",
     "page_navigation": "Story pages",
     "previous_page": "Previous",
-    "next_page": "Next"
+    "next_page": "Next",
+    "zoom_in": "Zoom in on the picture",
+    "zoom_out": "Zoom back out"
   },
   "gallery": {
     "label": "Gallery",
     "coming_soon": "No images in this topic yet — content is being prepared."
+  },
+  "status": {
+    "db_offline": "Database offline for maintenance",
+    "db_offline_detail": "The dictionary is showing the built-in English content. Library and Profile are unavailable; Practice still works.",
+    "page_unavailable": "{page} is unavailable",
+    "page_unavailable_detail": "This page needs the database, so it is paused until the connection returns. Your progress is safe.",
+    "checking": "Checking…",
+    "retry": "Retry",
+    "go_practice": "Practice still works"
   }
 }

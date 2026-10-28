@@ -21,6 +21,8 @@
 <script setup lang="ts">
 import type { PhoneticEntry, PhoneticSection } from '~/types/phonetic'
 
+const { t } = useLocale()
+
 const props = defineProps<{
   /** The page to render (one section of the article). */
   section: PhoneticSection
@@ -98,7 +100,7 @@ const variations = computed(() => props.entry?.variations ?? [])
 
     <!-- Pronunciation variants: each with its own IPA and examples -->
     <div v-if="lead && variations.length" class="space-y-2">
-      <h3 class="text-xs font-semibold uppercase tracking-wide text-faint">Pronunciation</h3>
+      <h3 class="text-xs font-semibold uppercase tracking-wide text-faint">{{ t('ui.pronunciation') ?? 'Pronunciation' }}</h3>
       <ul class="space-y-2">
         <li
           v-for="(variant, index) in variations"

@@ -5,13 +5,13 @@ article: S022
 entity_id: 'ST01T01:S022'
 locale: fr
 title: "Toby et les feuilles chaudes"
-summary: "Le hérisson Toby trouve des feuilles douces et aide une petite souris frileuse à faire un lit chaud."
+summary: "Toby le hérisson trouve des feuilles douces et aide une petite souris qui a froid à faire un lit chaud."
 status: draft
 order: 22
 minutes: 1
 paragraphsPerPage: 1
 ---
-Le hérisson Toby marche dans la forêt. Le vent froid souffle. Toby trouve beaucoup de feuilles douces.
+Toby le hérisson marche dans la forêt. Le vent froid souffle. Il trouve beaucoup de feuilles douces.
 
 Toby rencontre une petite souris. Elle s'appelle Nina. Nina a froid et elle est triste.
 

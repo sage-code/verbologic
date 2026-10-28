@@ -11,10 +11,10 @@ order: 16
 minutes: 1
 paragraphsPerPage: 1
 ---
-Bufnița Otto stă într-un copac. Noaptea este întunecată și liniștită. Otto are ochi mari și galbeni strălucitori.
+Bufnița Otto stă într-un copac. Noaptea este întunecată și liniștită. El are ochi mari și galbeni.
 
 O șoricică mică stă sub copac. Numele ei este Mia. Mia este pierdută în iarba întunecată.
 
-Otto zboară pe pământul moale. Merge lângă noua lui prietenă. Ochii lui mari văd cărarea mică.
+Otto zboară pe pământul moale. El merge lângă noua lui prietenă. Ochii lui mari văd cărarea mică.
 
-Mia își găsește căsuța caldă. Zâmbește și îi mulțumește bufniței bune. Otto este fericit să ajute o prietenă.
+Mia își găsește casa caldă. Ea zâmbește și îi mulțumește bufniței bune. Otto este fericit să ajute o prietenă.

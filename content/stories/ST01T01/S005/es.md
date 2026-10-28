@@ -15,6 +15,6 @@ Pip, la pequeña hormiga, camina por el jardín. Encuentra una baya roja y dulce
 
 Pip quiere llevarla a casa. Empuja la baya pesada. La baya no se mueve.
 
-Llega Toby, el gran escarabajo. Toby es amable y fuerte. Toby empuja la baya con Pip.
+Llega Toby, el gran escarabajo. Es amable y fuerte. Toby empuja la baya con Pip.
 
 La baya rueda hasta su casa. Pip y Toby comen la comida dulce. Los buenos amigos hacen fácil el trabajo duro.

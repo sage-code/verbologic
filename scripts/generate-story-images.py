@@ -209,13 +209,19 @@ def story_context(topic: str, code: str) -> dict[str, str]:
 def write_story_context(path: Path, context: dict[str, str]) -> None:
     """Insert a `context:` map into the English document's front matter, before its closing `---`."""
     text = path.read_text(encoding="utf-8")
-    match = FRONTMATTER_RE.match(text)
+    # Anchor on the closing `---` line itself: a blank line after it must not
+    # hide it, or the map would silently not be written.
+    match = re.match(r"^---\n(.*?\n)---\n", text, re.DOTALL)
     if not match:
         raise ValueError(f"{path}: no front matter")
-    block = match.group(0)
-    lines = ["context:"] + [f"  {json.dumps(name, ensure_ascii=False)}: {json.dumps(what, ensure_ascii=False)}" for name, what in context.items()]
-    new_block = block[: -len("---\n")] + "\n".join(lines) + "\n---\n" if block.endswith("---\n") else block
-    path.write_text(new_block + text[len(block):], encoding="utf-8", newline="\n")
+    if re.search(r"^context:", match.group(1), re.MULTILINE):
+        raise ValueError(f"{path}: already has a context")
+    lines = ["context:"] + [
+        f"  {json.dumps(name, ensure_ascii=False)}: {json.dumps(what, ensure_ascii=False)}"
+        for name, what in context.items()
+    ]
+    updated = "---\n" + match.group(1) + "\n".join(lines) + "\n---\n" + text[match.end():]
+    path.write_text(updated, encoding="utf-8", newline="\n")
 
 
 #: Composition for the reader's panel. The reader shows the WHOLE picture (it is

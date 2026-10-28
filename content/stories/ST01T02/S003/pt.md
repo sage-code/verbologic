@@ -4,15 +4,15 @@ topic: ST01T02
 article: S003
 entity_id: 'ST01T02:S003'
 locale: pt
-title: O patinho feio
-summary: 'Uma ave jovem e solitária cresce, torna-se um cisne e encontra seu lugar.'
+title: "O patinho feio"
+summary: "Um patinho solitário cresce, vira um cisne e encontra o seu lugar."
 status: draft
 order: 3
 minutes: 2
+paragraphsPerPage: 1
 ---
+Ele era um patinho pequeno e cinzento que parecia diferente das outras aves da quinta. Alguns patos riram-se dele, por isso o patinho afastou-se e encontrou um lugar calmo junto a um lago. Ali, uma tartaruga velha partilhou com ele o lugar mais quentinho ao sol.
 
-Um patinho cinzento era diferente das outras aves do quintal. Alguns animais riam dele, então ele foi embora e encontrou um lugar tranquilo perto de um lago. Lá, uma tartaruga velha dividiu com ele o cantinho mais quente ao sol.
+O inverno passou. Quando a primavera voltou, o patinho esticou as asas e viu belos cisnes brancos na água. Ele aproximou-se e olhou para o seu reflexo. Já não era um pequeno patinho: tinha crescido e tornado-se num cisne.
 
-O inverno passou. Quando a primavera voltou, o patinho esticou as asas e viu aves brancas e elegantes na água. Aproximou-se e olhou para o próprio reflexo. Já não era um patinho: tinha crescido e se tornado um cisne.
-
-Os cisnes o receberam, e as crianças na margem sorriram ao ver suas penas brilhantes. Finalmente, a ave se sentiu em casa. Lembrou-se dos dias solitários e decidiu ser gentil com quem parecesse diferente. Precisou de tempo para crescer, e todos merecem a oportunidade de se tornar quem são.
+Os cisnes deram-lhe as boas-vindas, e duas crianças, um menino e uma menina na margem, sorriram para as suas penas brilhantes. A jovem ave sentiu-se finalmente em casa. Lembrou-se dos dias solitários e decidiu ser bondoso com qualquer um que parecesse diferente. Ele precisou de tempo para crescer, e todos merecem a oportunidade de se tornarem eles mesmos.

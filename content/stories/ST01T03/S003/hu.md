@@ -5,7 +5,7 @@ article: S003
 entity_id: 'ST01T03:S003'
 locale: hu
 title: "Rusty újra énekel"
-summary: "Rusty, a kakas elveszíti a hangját, de egy kedves barát segít neki újra énekelni."
+summary: "Rusty, a kakas elveszíti a hangját, de Daisy, a tehén segít neki újra énekelni."
 status: draft
 order: 3
 minutes: 1
@@ -15,6 +15,6 @@ Rusty egy élénkvörös kakas. Egy fakerítésen áll. A meleg nap süt a farmr
 
 Rusty kinyitja sárga csőrét. A reggeli hangja nagyon halk. Rusty szomorú.
 
-Daisy, a tehén a kerítéshez sétál. Egy tál hűs vizet hoz. Rusty megissza a vizet.
+Daisy, a tehén a kerítéshez sétál. Egy tál hideg vizet hoz. Rusty megissza a vizet.
 
-Rusty most boldog és erős. Egy hangos reggeli dalt énekel. A farm állatai rámosolyognak a barátjukra.
+Rusty most boldognak és erősnek érzi magát. Egy hangos reggeli dalt énekel. A farm állatai mosolyognak a barátjukra.

@@ -5,16 +5,16 @@ article: S007
 entity_id: 'ST01T02:S007'
 locale: pt
 title: "A Fada do Jardim"
-summary: "Anna ajuda uma pequena fada em um jardim mágico e faz uma nova amiga maravilhosa."
+summary: "Anna, uma menina, ajuda uma pequena fada num jardim mágico e faz uma nova e maravilhosa amiga."
 status: draft
 order: 7
 minutes: 1
 paragraphsPerPage: 1
 ---
-Anna caminha pelo jardim verde. Ela vê uma pequena fada. A fada está sentada em uma flor vermelha.
+Anna, uma menina, caminha pelo jardim verde. Ela vê uma pequena fada. A fada está sentada numa flor vermelha.
 
-A fada está triste. A sua varinha minúscula está debaixo de uma pedra grande. A fada não consegue mexer a pedra.
+A fada está triste. A sua pequena varinha está debaixo de uma pedra grande. A fada não consegue mover a pedra.
 
-Anna ajuda a sua pequena amiga. Ela levanta a pedra pesada com as mãos. A fada pega a varinha.
+Anna ajuda a sua pequena amiga. Ela levanta a pedra pesada com as mãos. A fada pega na varinha.
 
-Agora a fada está muito feliz. Ela cria luzes brilhantes sobre o jardim. Os bons amigos sempre se ajudam.
+Agora a fada está muito feliz. Ela faz luzes brilhantes sobre o jardim. Os bons amigos ajudam-se sempre.
