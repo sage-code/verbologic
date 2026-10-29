@@ -230,21 +230,19 @@ export function useContentDb() {
   async function fetchCounts(track: string, locale: string): Promise<Record<string, number> | null> {
     if (!supabase || !import.meta.client) return null
     try {
-      const { data, error } = await supabase
-        .from('units')
-        .select('topic')
+      // `unit_counts` is a view that groups `units` in the database: reading the unit
+      // rows themselves stops at the API's 1000-row cap and left the last topics empty.
+      const { data, error } = await (supabase as any)
+        .from('unit_counts')
+        .select('topic, n')
         .eq('track', track)
         .eq('locale', locale)
-        .limit(10_000)
       if (error) {
         markOffline()
         return null
       }
       const counts: Record<string, number> = {}
-      for (const row of data ?? []) {
-        const topic = (row as { topic: string }).topic
-        counts[topic] = (counts[topic] ?? 0) + 1
-      }
+      for (const row of (data ?? []) as { topic: string; n: number }[]) counts[row.topic] = row.n
       return counts
     } catch {
       markOffline()
