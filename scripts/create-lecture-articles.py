@@ -264,13 +264,14 @@ def sections_of(body: str) -> list[dict[str, Any]]:
     return sections
 
 
-def document(topic: str, item: dict[str, Any], order: int, result: dict[str, Any]) -> dict[str, Any]:
+def document(topic: str, item: dict[str, Any], order: int, result: dict[str, Any], target: str) -> dict[str, Any]:
     """The article file content: keeps every language already in the file, replaces `en`."""
     terms = {code: str(result["terms"][code]).strip() for code in LOCALES}
     path = articles.article_path(CONTENT.parent, "lectures", topic, item["id"])
     article = articles.read_article(path) if path.exists() else {"entity_id": f"{topic}:{item['id']}", "locales": {}}
     article["order"] = order
     article["terms"] = terms
+    article["targets"] = [target]  # the language this lesson teaches; the reader of any other never sees it
     article["locales"]["en"] = {
         "title": str(result["title"]).strip(),
         "summary": str(result["summary"]).strip(),
@@ -439,7 +440,7 @@ def run(args: argparse.Namespace) -> int:
                 failed = True
                 continue
             terms = {code: str(result["terms"][code]).strip() for code in LOCALES}
-            articles.write_article(out, document(topic, item, order, result))
+            articles.write_article(out, document(topic, item, order, result, args.target))
             write_manifest(topic, item, level, args.target, terms)
             print(f"  wrote {item['id']} ({item['title']})", flush=True)
 

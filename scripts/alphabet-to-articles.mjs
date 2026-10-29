@@ -172,6 +172,7 @@ function main() {
       const names = manifestNames(code)
       const article = existing ?? { entity_id: `${topic.code}:${code}`, locales: {} }
       article.order = index
+      article.targets = [target]
       article.terms = Object.fromEntries(LOCALES.map((l) => [l, names?.[l] ?? glyph]))
 
       for (const locale of DOC_LOCALES) {

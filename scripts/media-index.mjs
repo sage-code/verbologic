@@ -314,6 +314,34 @@ for (const entries of manifestsByTopicId.values()) {
   }
 }
 
+/**
+ * `targets` of every article that declares them: `topic\nid` -> languages the
+ * article applies to as a LEARNED language (omitted = all). Read from
+ * content/<track>/<TOPIC>/<ID>.json; planning/content-in-database.md section 7.
+ */
+function loadArticleTargets() {
+  const targets = new Map()
+  const root = join(ROOT, 'content')
+  if (!existsSync(root)) return targets
+  for (const track of readdirSync(root)) {
+    const trackDir = join(root, track)
+    if (!statSync(trackDir).isDirectory()) continue
+    for (const topic of readdirSync(trackDir)) {
+      const topicDir = join(trackDir, topic)
+      if (!statSync(topicDir).isDirectory()) continue
+      for (const name of readdirSync(topicDir)) {
+        if (!name.endsWith('.json')) continue
+        const article = JSON.parse(readFileSync(join(topicDir, name), 'utf8'))
+        if (Array.isArray(article.targets) && article.targets.length) {
+          targets.set(`${topic}\n${name.slice(0, -'.json'.length)}`, article.targets)
+        }
+      }
+    }
+  }
+  return targets
+}
+const articleTargets = loadArticleTargets()
+
 for (const sidebar of sidebars) {
   const sectionPath = config.sections[sidebar.id]
   if (!sectionPath) {
@@ -344,8 +372,14 @@ for (const sidebar of sidebars) {
           manifestsByLegacyId.get(`${topic.code}\n${id}`)
         if (manifests?.length) {
           for (const { manifest } of manifests) {
-            const only = topicScope ?? (topic.mode === 'directional' ? manifest.target : null)
-            if (only && manifest.lang !== only) continue
+            // Languages this item exists for: the topic's own `targets`, the
+            // article's `targets`, the topic-level `target`, or (directional
+            // topics) the manifest's `target`. None of them = every language.
+            const only =
+              topic.targets ??
+              articleTargets.get(`${topic.code}\n${id}`) ??
+              (topicScope ? [topicScope] : topic.mode === 'directional' && manifest.target ? [manifest.target] : null)
+            if (only && !only.includes(manifest.lang)) continue
             records.push(manifestRecord({ ...manifest, topic: topic.code }, sidebar.id))
           }
           continue

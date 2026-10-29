@@ -352,6 +352,7 @@ try {
   // Manifest ids (media/**.json) — content media (the video) must resolve here.
   const mediaManifestIds = new Set()
   const mediaTermsByTopicId = new Map()
+  const mediaTargetByTopicId = new Map() // topic + newline + code -> the language a directional item teaches
   const walkManifestFiles = (dir) =>
     existsSync(dir)
       ? readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
@@ -365,6 +366,7 @@ try {
       if (!isTitle) {
         const key = `${manifest.topic}\n${manifest.code}`
         mediaManifestIds.add(key)
+        if (manifest.target) mediaTargetByTopicId.set(key, manifest.target)
         const names = {}
         for (const [locale, row] of Object.entries(manifest.locales ?? {})) {
           if (row?.name) names[locale] = row.name
@@ -436,7 +438,7 @@ try {
             ERRORS.push(`content ${relPath}: targets must be a non-empty list of site languages (omit it for all)`)
           }
         }
-        const group = { track, trackLang: null, topic, terms: article.terms ?? null, docs: new Map() }
+        const group = { track, trackLang: null, topic, terms: article.terms ?? null, targets: article.targets ?? null, docs: new Map() }
         for (const [locale, doc] of Object.entries(article.locales ?? {})) {
           if (!LOCALES.includes(locale)) ERRORS.push(`content ${relPath}: bad doc locale '${locale}'`)
           if (!doc.title) ERRORS.push(`content ${relPath} (${locale}): missing title`)
@@ -460,6 +462,13 @@ try {
         : CANONICAL_BY_TRACK[group.track] ?? group.trackLang
     if (!group.docs.has(canonicalLocale)) {
       ERRORS.push(`content '${groupKey.replaceAll('\n', '/')}' no canonical '${canonicalLocale}' document`)
+    }
+    if (group.targets) {
+      const itemId = groupKey.split('\n').at(-1)
+      const manifestTarget = mediaTargetByTopicId.get(`${group.topic}\n${itemId}`)
+      if (manifestTarget && !(group.targets.length === 1 && group.targets[0] === manifestTarget)) {
+        ERRORS.push(`content '${group.topic}/${itemId}' targets ${JSON.stringify(group.targets)} disagree with its manifest target '${manifestTarget}'`)
+      }
     }
     if (group.track === 'dictionary' || group.track === 'lectures') {
       const manifestTerms = mediaTermsByTopicId.get(`${group.topic}\n${groupKey.split('\n').at(-1)}`) ?? {}
@@ -501,6 +510,9 @@ try {
         if (!TOPIC_LAYOUTS.includes(layout)) {
           ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: bad/missing layout '${layout}' (expected one of ${TOPIC_LAYOUTS.join(', ')})`)
           continue
+        }
+        if (topic.targets !== undefined && (!Array.isArray(topic.targets) || !topic.targets.length || topic.targets.some((l) => !LOCALES.includes(l)))) {
+          ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: targets must be a non-empty list of site languages (omit it for all)`)
         }
         layoutCount++
         layoutTotals[layout] = (layoutTotals[layout] ?? 0) + 1
