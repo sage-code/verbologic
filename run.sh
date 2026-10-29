@@ -34,6 +34,8 @@ Verbologic maintenance runner
   ./run.sh media prune [--apply]        R2 objects no manifest references (default reports, --apply deletes)
   ./run.sh scaffold <lang> <TOPIC> <seed.json>  Seed a blank dictionary topic with pending manifests
   ./run.sh lecture <new|status|translate|review>  Lecture content tooling (content/lectures)
+  ./run.sh articles check                Article JSON files are canonical (Node and Python writers agree)
+  ./run.sh articles from-md [--dry-run|--check]  One-shot: content/**/<locale>.md -> content/**/<ID>.json (planning/content-in-database.md)
   ./run.sh create story <topic-code> [n]  Write n (default 1) illustrated stories for a topic at its CEFR level (Gemini text + pictures + audio)
   ./run.sh create lecture <topic-code> [--target xx] [--overwrite] [--preview]  Simple-English lecture articles for a chapter-1 topic
   ./run.sh create read <chapter|topic|item_id> [--dry-run] [--overwrite-audio] [--lang xx]  Read-aloud audio of article docs (generate-audio --read)
@@ -205,6 +207,12 @@ case "${1:-help}" in
     fi ;;
   scaffold)  shift; node scripts/media-scaffold-topic.mjs "$@" ;;
   lecture)   shift; node scripts/lecture.mjs "$@" ;;
+  articles)
+    case "${2:-}" in
+      check)    node scripts/check-articles.mjs ;;
+      from-md)  shift 2; node scripts/content-md-to-json.mjs "$@" ;;
+      *) fail "usage: ./run.sh articles <check | from-md [--dry-run|--check]>" ;;
+    esac ;;
   create)
     case "${2:-}" in
       story)

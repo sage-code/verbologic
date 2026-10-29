@@ -2,3 +2,6 @@
 
 # Shell scripts must keep LF endings or bash fails on the shebang and `set -o pipefail`.
 *.sh text eol=lf
+
+# Article files are canonical JSON (scripts/lib/articles.*): LF on every platform.
+content/**/*.json text eol=lf
