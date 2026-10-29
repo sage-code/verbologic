@@ -361,8 +361,8 @@ for (const sidebar of sidebars) {
 /* ── content overlay (dictionary / lectures / stories) ──────────────────
  *
  * Dictionary, lecture, and story prose is shared by every target language:
- * content/<track>/<TOPIC>/<ID>/<locale>.md. Legacy story docs may still be
- * language-specific. Front matter joins per-locale review state onto records;
+ * content/<track>/<TOPIC>/<ID>.json — one file per article, every language inside
+ * (scripts/lib/articles.mjs). Per-language review state joins onto the records;
  * prose renders on prerendered Nuxt Content routes. */
 
 /** Legacy groups without an explicit canonical locale use these defaults. */

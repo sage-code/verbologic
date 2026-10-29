@@ -2,9 +2,9 @@
 /**
  * Shared lecture content workflow.
  *
- *   content/lectures/<TOPIC>/<ID>/en.md
- *   content/lectures/<TOPIC>/<ID>/<locale>.md
+ *   content/lectures/<TOPIC>/<ID>.json     one file per article, every language inside
  *
+ * See scripts/lib/articles.mjs and planning/content-in-database.md section 5.
  * Audio manifests live separately at media/audio/<locale>/<TOPIC>/<file>.json.
  * All language variants share the same topic-scoped id and names map; only the
  * physical audio file path and target-language term/IPA differ.
@@ -15,65 +15,54 @@
  *   node scripts/lecture.mjs review <TOPIC> <ID> --lang ro
  */
 import { createHash } from 'node:crypto'
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import grayMatter from 'gray-matter'
+import { articlePath, readArticle, writeArticle } from './lib/articles.mjs'
 import { LOCALES } from './lib/locales.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
-const CONTENT = join(ROOT, 'content', 'lectures')
+const CONTENT = join(ROOT, 'content')
+const LECTURES = join(CONTENT, 'lectures')
 const AUDIO = join(ROOT, 'media', 'audio')
 const SIDEBAR_FILE = join(ROOT, 'src', 'data', 'sidebars', 'library', 'lectures', 'sidebar.json')
 const CANONICAL = 'en'
 
-const sha1 = (file) => createHash('sha1').update(readFileSync(file)).digest('hex')
+/** Hash of one language's page: what a translation's `sourceSha` is compared with. */
+const pageSha = (doc) =>
+  createHash('sha1')
+    .update(JSON.stringify({ title: doc.title, summary: doc.summary, sections: doc.sections, paragraphs: doc.paragraphs }))
+    .digest('hex')
 const fail = (message) => {
   console.error(`ERROR: ${message}`)
   process.exit(1)
-}
-const write = (file, data) => {
-  mkdirSync(join(file, '..'), { recursive: true })
-  writeFileSync(file, data)
 }
 const arg = (name) => {
   const at = process.argv.indexOf(name)
   return at > -1 ? process.argv[at + 1] : undefined
 }
 const flag = (name) => process.argv.includes(name)
-const articleKey = (topic, id) => `${topic}\n${id}`
 
-function loadGroups() {
-  const groups = new Map()
-  if (!existsSync(CONTENT)) return groups
-  const walk = (dir, parts = []) => {
-    for (const entry of readdirSync(dir, { withFileTypes: true })) {
-      const next = [...parts, entry.name]
-      if (entry.isDirectory()) walk(join(dir, entry.name), next)
-      else if (entry.name.endsWith('.md')) {
-        if (next.length !== 3) fail(`'${next.join('/')}' must live at <TOPIC>/<ID>/<locale>.md`)
-        const [topic, id, filename] = next
-        const locale = filename.replace(/\.md$/, '')
-        const file = join(CONTENT, ...next)
-        const { data, content } = grayMatter(readFileSync(file, 'utf8'))
-        if (data.track !== 'lectures' || data.topic !== topic || data.article !== id || data.locale !== locale) {
-          fail(`'${next.join('/')}' front matter does not match its path`)
-        }
-        if (data.trackLang !== undefined) fail(`'${next.join('/')}' must not include trackLang`)
-        const key = articleKey(topic, id)
-        const group = groups.get(key) ?? {
-          topic,
-          id,
-          dir: join(CONTENT, topic, id),
-          docs: new Map()
-        }
-        group.docs.set(locale, { data, content, file, sha: sha1(file) })
-        groups.set(key, group)
-      }
+/** Every lecture article: topic, id, file and the parsed article. */
+function loadArticles() {
+  const out = []
+  if (!existsSync(LECTURES)) return out
+  for (const topic of readdirSync(LECTURES)) {
+    for (const name of readdirSync(join(LECTURES, topic))) {
+      if (!name.endsWith('.json')) continue
+      const id = name.slice(0, -'.json'.length)
+      const file = join(LECTURES, topic, name)
+      const article = readArticle(file)
+      if (article.entity_id !== `${topic}:${id}`) fail(`'${topic}/${name}' entity_id does not match its path`)
+      out.push({ topic, id, file, article })
     }
   }
-  walk(CONTENT)
-  return groups
+  return out
+}
+
+function findArticle(topic, id) {
+  const file = articlePath(CONTENT, 'lectures', topic, id)
+  return existsSync(file) ? { topic, id, file, article: readArticle(file) } : null
 }
 
 function findTopic(sidebar, topicCode) {
@@ -117,7 +106,7 @@ function cmdNew() {
   const [topic, id] = process.argv.slice(3).filter((value) => !value.startsWith('--'))
   if (!topic || !id) fail('usage: lecture.mjs new <TOPIC> <ID> [--title "Using {{term}}"]')
   if (!/^[A-Z]\d{3}$/.test(id)) fail(`'${id}' must be a coded content ID such as A023`)
-  const docFile = join(CONTENT, topic, id, `${CANONICAL}.md`)
+  const docFile = articlePath(CONTENT, 'lectures', topic, id)
   if (existsSync(docFile)) fail(`'${docFile}' already exists`)
 
   const terms = loadTerms(topic, id)
@@ -126,59 +115,54 @@ function cmdNew() {
   if (!topicEntry) fail(`unknown topic '${topic}' in ${SIDEBAR_FILE}`)
   if (!topicEntry.items.includes(id)) {
     topicEntry.items.push(id)
-    write(SIDEBAR_FILE, `${JSON.stringify(sidebar, null, 2)}\n`)
+    writeFileSync(SIDEBAR_FILE, `${JSON.stringify(sidebar, null, 2)}\n`)
   }
 
   const title = arg('--title') ?? 'Using {{term}}'
   const minutes = Number(arg('--minutes') ?? 2)
   if (!Number.isFinite(minutes) || minutes <= 0) fail('--minutes must be a positive number')
 
-  write(
-    docFile,
-    `---
-track: lectures
-topic: ${topic}
-article: ${id}
-entity_id: '${topic}:${id}'
-locale: en
-title: '${title.replaceAll("'", "''")}'
-summary: ''
-terms:
-${Object.entries(terms).map(([locale, term]) => `  ${locale}: ${JSON.stringify(term)}`).join('\n')}
-status: draft
-order: 1
-minutes: ${minutes}
-related: []
----
-
-Write the shared explanation here. Use \`:target-term\` wherever the selected
-dictionary language's example term should appear.
-`
-  )
+  writeArticle(docFile, {
+    entity_id: `${topic}:${id}`,
+    order: 1,
+    minutes,
+    terms,
+    related: [],
+    locales: {
+      [CANONICAL]: {
+        title,
+        summary: '',
+        status: 'draft',
+        paragraphs: [
+          'Write the shared explanation here. Use `:target-term` wherever the selected dictionary language\'s example term should appear.'
+        ]
+      }
+    }
+  })
   console.log(`lecture: scaffolded shared article ${topic}/${id}`)
-  console.log(`  doc: content/lectures/${topic}/${id}/en.md`)
+  console.log(`  doc: content/lectures/${topic}/${id}.json`)
   console.log('  next: run media-expand-shared-variants.mjs --apply, then translate the explanation')
 }
 
 function cmdStatus() {
-  const groups = loadGroups()
+  const all = loadArticles()
   let staleCount = 0
   let draftCount = 0
-  for (const group of groups.values()) {
-    const canonical = group.docs.get(CANONICAL)
+  for (const { topic, id, article } of all) {
+    const canonical = article.locales[CANONICAL]
     if (!canonical) {
-      console.log(`  BROKEN  ${group.topic}/${group.id}: no canonical '${CANONICAL}' document`)
+      console.log(`  BROKEN  ${topic}/${id}: no canonical '${CANONICAL}' page`)
       continue
     }
-    console.log(`  ${group.topic}/${group.id}`)
-    for (const [locale, doc] of group.docs) {
-      const stale = locale !== CANONICAL && doc.data.sourceSha !== canonical.sha
+    console.log(`  ${topic}/${id}`)
+    for (const [locale, doc] of Object.entries(article.locales)) {
+      const stale = locale !== CANONICAL && doc.sourceSha !== pageSha(canonical)
       if (stale) staleCount++
-      if ((doc.data.status ?? 'draft') === 'draft') draftCount++
-      console.log(`    ${locale.padEnd(3)} ${doc.data.status ?? 'draft'}${stale ? '  STALE (canonical changed)' : ''}`)
+      if ((doc.status ?? 'draft') === 'draft') draftCount++
+      console.log(`    ${locale.padEnd(3)} ${doc.status ?? 'draft'}${stale ? '  STALE (canonical changed)' : ''}`)
     }
   }
-  console.log(`\nlecture status: ${groups.size} article(s) · ${draftCount} draft doc(s) · ${staleCount} stale translation(s)`)
+  console.log(`\nlecture status: ${all.length} article(s) · ${draftCount} draft page(s) · ${staleCount} stale translation(s)`)
   if (staleCount) process.exitCode = 1
 }
 
@@ -187,44 +171,42 @@ function cmdTranslate() {
   const locale = arg('--lang')
   if (!topic || !id || !locale) fail('usage: lecture.mjs translate <TOPIC> <ID> --lang <locale>')
   if (!LOCALES.includes(locale)) fail(`unknown locale '${locale}'`)
-  const group = loadGroups().get(articleKey(topic, id))
-  if (!group) fail(`no content docs for '${topic}/${id}'`)
-  const canonical = group.docs.get(CANONICAL)
-  if (!canonical) fail(`'${topic}/${id}' has no canonical English document`)
-  const target = join(group.dir, `${locale}.md`)
-  if (existsSync(target) && !flag('--force')) fail(`'${target}' exists — use --force to refresh front matter only`)
+  const found = findArticle(topic, id)
+  if (!found) fail(`no article for '${topic}/${id}'`)
+  const canonical = found.article.locales[CANONICAL]
+  if (!canonical) fail(`'${topic}/${id}' has no canonical English page`)
+  const existing = found.article.locales[locale]
+  if (existing && !flag('--force')) fail(`'${topic}/${id}' already has a '${locale}' page — use --force to refresh its status only`)
 
-  if (existsSync(target)) {
-    const existing = grayMatter(readFileSync(target, 'utf8'))
-    const front = { ...existing.data, status: 'draft', sourceSha: canonical.sha }
-    delete front.reviewedAt
-    write(target, grayMatter.stringify(existing.content, front))
-  } else {
-    const front = { ...canonical.data, locale, status: 'draft', sourceSha: canonical.sha }
-    delete front.reviewedAt
-    write(target, grayMatter.stringify(canonical.content, front))
-  }
-  console.log(`translate: ${topic}/${id}/${locale} is in sync with the English source; translate the body, then review`)
+  // A new page starts as a copy of the English one, marked draft and tied to the
+  // exact English text it was made from (`sourceSha`); the translation then replaces the text.
+  const page = existing ? { ...existing } : structuredClone(canonical)
+  page.status = 'draft'
+  page.sourceSha = pageSha(canonical)
+  delete page.reviewedAt
+  found.article.locales[locale] = page
+  writeArticle(found.file, found.article)
+  console.log(`translate: ${topic}/${id}/${locale} is in sync with the English source; translate the text, then review`)
 }
 
 function cmdReview() {
   const [topic, id] = process.argv.slice(3).filter((value) => !value.startsWith('--'))
   const locale = arg('--lang')
   if (!topic || !id || !locale) fail('usage: lecture.mjs review <TOPIC> <ID> --lang <locale>')
-  const group = loadGroups().get(articleKey(topic, id))
-  if (!group) fail(`no content docs for '${topic}/${id}'`)
-  const doc = group.docs.get(locale)
-  const canonical = group.docs.get(CANONICAL)
-  if (!doc) fail(`'${topic}/${id}' has no '${locale}' document`)
-  if (!canonical) fail(`'${topic}/${id}' has no canonical English document`)
-  if (locale !== CANONICAL && doc.data.sourceSha !== canonical.sha && !flag('--force')) {
+  const found = findArticle(topic, id)
+  if (!found) fail(`no article for '${topic}/${id}'`)
+  const doc = found.article.locales[locale]
+  const canonical = found.article.locales[CANONICAL]
+  if (!doc) fail(`'${topic}/${id}' has no '${locale}' page`)
+  if (!canonical) fail(`'${topic}/${id}' has no canonical English page`)
+  if (locale !== CANONICAL && doc.sourceSha !== pageSha(canonical) && !flag('--force')) {
     fail(`'${topic}/${id}/${locale}' is stale — re-translate or review with --force`)
   }
-  const front = { ...doc.data, status: flag('--unreview') ? 'draft' : 'reviewed' }
-  if (flag('--unreview')) delete front.reviewedAt
-  else front.reviewedAt = new Date().toISOString()
-  write(doc.file, grayMatter.stringify(doc.content, front))
-  console.log(`review: ${topic}/${id}/${locale} → ${front.status}`)
+  doc.status = flag('--unreview') ? 'draft' : 'reviewed'
+  if (flag('--unreview')) delete doc.reviewedAt
+  else doc.reviewedAt = new Date().toISOString()
+  writeArticle(found.file, found.article)
+  console.log(`review: ${topic}/${id}/${locale} → ${doc.status}`)
 }
 
 const command = process.argv[2]

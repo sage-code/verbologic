@@ -526,7 +526,8 @@ try {
   }
   console.log(`layouts: ${layoutCount} topics — ${Object.entries(layoutTotals).map(([k, v]) => `${k} ${v}`).join(' · ')}`)
 
-  console.log(`content: ${contentFiles.length} doc(s) in ${docsByLecture.size} lecture(s)`)
+  const docCount = [...docsByLecture.values()].reduce((n, g) => n + g.docs.size, 0)
+  console.log(`content: ${docCount} language doc(s) in ${docsByLecture.size} article(s)`)
 } catch (e) {
   ERRORS.push(`content model missing or unparseable: ${e.message}`)
 }

@@ -247,7 +247,7 @@ case "${1:-help}" in
             ow=(); [[ " $* " == *" --overwrite "* ]] && ow=(--overwrite)
             tgt=(--all); [[ " $* " == *" --target "* ]] && tgt=(--lang "$(sed -E 's/.*--target ([a-z]{2}).*/\1/' <<<"$*")")
             .venv/Scripts/python.exe scripts/generate-alphabet-content.py "${tgt[@]}" --locales en "${ow[@]}" --apply
-            node scripts/alphabet-to-markdown.mjs "${ow[@]}" ;;
+            node scripts/alphabet-to-articles.mjs "${ow[@]}" ;;
           LT01T03|LT01T04|LT01T05|LT01T06)
             # Rows come from scripts/seeds/lectures-LT01-<lang>.json (hand-written example + IPA); add rows there first.
             mode=(--apply); [[ " $* " == *" --preview "* ]] && mode=()

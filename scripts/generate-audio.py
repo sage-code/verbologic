@@ -9,7 +9,7 @@ Two recordings exist per item and language:
 
   sound/<locale>.mp3   the short title/term recording (item["audio"])
   read/<locale>.mp3    the full article read (item["read"]), synthesized from
-                       content/<track>/<TOPIC>/<ID>/<locale>.md
+                       content/<track>/<TOPIC>/<ID>.json (the `locales.<locale>` page)
 
 Examples:
   .venv/Scripts/python.exe scripts/generate-audio.py --all
@@ -708,6 +708,24 @@ def transliterate_batch(texts: list[str], locale: str) -> list[str]:
         return texts
 
 
+def article_body(track: str, topic: str, code: str, locale: str) -> str | None:
+    """The Markdown body of one language of an article, from content/<track>/<TOPIC>/<ID>.json.
+
+    Headed articles (lectures) become `## title` + paragraphs, so the cleaning below
+    cuts them exactly as the reading view does; story paragraphs stay a plain run.
+    """
+    path = CONTENT_DIR / track / topic / f"{code}.json"
+    if not path.is_file():
+        return None
+    doc = json.loads(path.read_text(encoding="utf-8")).get("locales", {}).get(locale)
+    if not doc:
+        return None
+    blank = chr(10) * 2
+    if doc.get("sections"):
+        return blank.join(blank.join([f"## {s['title']}", *s["paragraphs"]]) for s in doc["sections"])
+    return blank.join(doc.get("paragraphs", [])) or None
+
+
 def article_sections(track: str, topic: str, code: str, locale: str) -> list[str] | None:
     """The article body split into reading pages, matching the reading view.
 
@@ -722,10 +740,9 @@ def article_sections(track: str, topic: str, code: str, locale: str) -> list[str
     page starts at its first section's offset and ends at the next page's first
     section. Offsets are per section, so the packing never changes the audio.
     """
-    path = CONTENT_DIR / track / topic / code / f"{locale}.md"
-    if not path.is_file():
+    raw = article_body(track, topic, code, locale)
+    if raw is None:
         return None
-    raw = FRONTMATTER_RE.sub("", path.read_text(encoding="utf-8"))
     raw = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", raw)  # images
     raw = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", raw)  # links → their text
 
@@ -751,10 +768,9 @@ def article_sections(track: str, topic: str, code: str, locale: str) -> list[str
 
 def article_text(track: str, topic: str, code: str, locale: str) -> str | None:
     """The article body for one locale, reduced to prose the TTS engine reads."""
-    path = CONTENT_DIR / track / topic / code / f"{locale}.md"
-    if not path.is_file():
+    text = article_body(track, topic, code, locale)
+    if text is None:
         return None
-    text = FRONTMATTER_RE.sub("", path.read_text(encoding="utf-8"))
     text = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", text)  # images
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)  # links → their text
     text = re.sub(r"^\s{0,3}#{1,6}\s*", "", text, flags=re.MULTILINE)  # headings

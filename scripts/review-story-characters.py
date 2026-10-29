@@ -41,8 +41,8 @@ CONTENT = ROOT / "content"
 MEDIA = ROOT / "media"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.locales import DEFAULT_LOCALE, LOCALES  # noqa: E402  (single locale registry)
+from lib import articles  # noqa: E402  (scripts/lib/articles.py: the shared article-file reader/writer)
 
-FRONTMATTER_RE = re.compile(r"^---\s*\n.*?\n---\s*\n", re.DOTALL)
 #: Words per minute of reading, the same figure create-stories uses for `minutes`.
 WORDS_PER_MINUTE = 90
 
@@ -125,50 +125,18 @@ def check_review(result: dict[str, Any], count: int, clean_strings) -> list[str]
     return problems
 
 
-def read_story(folder: Path) -> dict[str, Any]:
-    """The English document's front matter fields we keep, plus its paragraphs."""
-    text = (folder / f"{DEFAULT_LOCALE}.md").read_text(encoding="utf-8")
-    match = FRONTMATTER_RE.match(text)
-    front = match.group(0) if match else ""
-
-    def field(name: str) -> str:
-        found = re.search(rf"^{name}:[ \t]*(.*)$", front, re.MULTILINE)
-        if not found:
-            return ""
-        value = found.group(1).strip()
-        if value[:1] in (">", "|"):
-            # A YAML block scalar: the indented lines below the key are the value.
-            lines = front[found.end():].splitlines()[1:]
-            block = []
-            for line in lines:
-                if line and not line[0].isspace():
-                    break
-                block.append(line.strip())
-            joiner = " " if value[0] == ">" else "\n"
-            return joiner.join(part for part in block if part).strip()
-        return json.loads(value) if value.startswith('"') else value.strip("'")
-
-    context: dict[str, str] = {}
-    inside = False
-    for line in front.splitlines()[1:-1]:
-        if line.startswith("context:"):
-            inside = True
-            continue
-        if inside and line.startswith((" ", "\t")):
-            key, _, value = line.strip().partition(":")
-            context[json.loads(key) if key.startswith('"') else key.strip()] = json.loads(value.strip())
-        else:
-            inside = False
-    body = text[len(front):]
-    paragraphs = [re.sub(r"\s+", " ", p).strip() for p in re.split(r"\n\s*\n", body)]
+def read_story(path: Path) -> dict[str, Any]:
+    """The English page of a story's article file: the fields we keep, plus its paragraphs."""
+    article = articles.read_article(path)
+    en = article["locales"][DEFAULT_LOCALE]
     return {
-        "title": field("title"),
-        "summary": field("summary"),
-        "paragraphs": [p for p in paragraphs if p],
-        "context": context,
-        "per_page": int(field("paragraphsPerPage") or 1),
-        "order": field("order"),
-        "status": field("status") or "draft",
+        "title": en.get("title", ""),
+        "summary": en.get("summary", ""),
+        "paragraphs": [re.sub(r"\s+", " ", p).strip() for p in en.get("paragraphs", []) if p.strip()],
+        "context": dict(article.get("context") or {}),
+        "per_page": int(article.get("paragraphsPerPage") or 1),
+        "order": article.get("order", ""),
+        "status": en.get("status") or "draft",
     }
 
 
@@ -190,17 +158,13 @@ def write_documents(
     writer, topic: str, code: str, story: dict[str, Any], texts: dict[str, dict[str, Any]],
     per_page: int,
 ) -> None:
-    """Every language's document, through create-stories' own front matter layout."""
+    """The story's article file, every language, through create-stories' own layout."""
     words = sum(len(p.split()) for p in story["paragraphs"])
     minutes = max(1, math.ceil(words / WORDS_PER_MINUTE))
-    folder = CONTENT / "stories" / topic / code
-    for loc in LOCALES:
-        text = texts[loc]
-        document = writer.article_document(
-            topic, code, loc, text["title"], text["summary"], text["paragraphs"], minutes, per_page,
-            context=story["context"] if loc == DEFAULT_LOCALE else None,
-        )
-        (folder / f"{loc}.md").write_text(document, encoding="utf-8", newline="\n")
+    articles.write_article(
+        articles.article_path(CONTENT, "stories", topic, code),
+        writer.story_article(topic, code, texts, minutes, per_page, context=story["context"]),
+    )
 
 
 def update_manifest(path: Path, item: dict[str, Any], texts: dict[str, dict[str, Any]]) -> None:
@@ -213,11 +177,11 @@ def update_manifest(path: Path, item: dict[str, Any], texts: dict[str, dict[str,
     path.write_text(json.dumps(item, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
 
 
-def review_story(writer, folder: Path, level: str, model: str, dry_run: bool) -> dict[str, Any] | None:
-    story = read_story(folder)
+def review_story(writer, path: Path, level: str, model: str, dry_run: bool) -> dict[str, Any] | None:
+    story = read_story(path)
     count = len(story["paragraphs"])
     review = writer.with_retries(
-        f"{folder.name} review",
+        f"{path.stem} review",
         lambda: writer.gemini_json(review_prompt(level, story["summary"], story["paragraphs"], story["context"]), 0.3, model),
         lambda result: check_review(result, count, writer.clean_strings),
     )
@@ -264,11 +228,11 @@ def main() -> int:
         item = entry["item"]
         topic, code = str(item["topic"]), str(item["code"])
         level = str(item.get("cefr", "A1"))
-        folder = CONTENT / "stories" / topic / code
-        if not (folder / f"{DEFAULT_LOCALE}.md").is_file():
+        path = articles.article_path(CONTENT, "stories", topic, code)
+        if not path.is_file():
             continue
         try:
-            found = review_story(writer, folder, level, model, args.dry_run)
+            found = review_story(writer, path, level, model, args.dry_run)
         except Exception as error:  # noqa: BLE001 - report and keep going
             print(f"{code}: review FAILED {error}", file=sys.stderr)
             failed += 1
@@ -299,7 +263,7 @@ def main() -> int:
                 continue
             # The title stays: the name audio is recorded from it.
             texts[loc] = {
-                "title": story_title_of(folder, loc),
+                "title": story_title_of(path, loc),
                 "summary": translated[loc]["summary"],
                 "paragraphs": translated[loc]["paragraphs"],
             }
@@ -313,13 +277,9 @@ def main() -> int:
     return 1 if failed else 0
 
 
-def story_title_of(folder: Path, loc: str) -> str:
-    """A language's current title, read from its own document."""
-    text = (folder / f"{loc}.md").read_text(encoding="utf-8")
-    match = re.search(r"^title:\s*(.+)$", text, re.MULTILINE)
-    return json.loads(match.group(1).strip()) if match and match.group(1).strip().startswith('"') else (
-        match.group(1).strip().strip("'") if match else ""
-    )
+def story_title_of(path: Path, loc: str) -> str:
+    """A language's current title, read from the article file."""
+    return articles.read_article(path)["locales"][loc]["title"]
 
 
 if __name__ == "__main__":

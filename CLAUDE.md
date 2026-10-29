@@ -13,7 +13,7 @@ Primary interface is the project runner — `./run.sh help` lists everything (bu
 - `./run.sh media index|stage|manifest|verify|upload|prune` — media pipeline (see `scripts/media-*.mjs`, `manual/MAINTENANCE.md`)
 - `./run.sh missing` / `./run.sh scaffold <lang> <TOPIC> <seed.json>` — missing-content inventory and topic seeding
 - `./run.sh lecture <new|status|translate|review>` — lecture content tooling (`content/lectures/`)
-- `./run.sh create lecture <LT01T0n> [--target xx] [--overwrite] [--preview]` — simple-English lecture articles for a chapter-1 topic. T01/T02 come from `src/data/alphabets/<lang>.json` (`generate-alphabet-content.py` + `alphabet-to-markdown.mjs`); T03–T06 from the hand-written rows in `scripts/seeds/lectures-LT01-<lang>.json` (`create-lecture-articles.py`). The prompt carries the chapter/topic context and a closed word list: an article may quote only the seed's `example` (and optional `extra: [{word, ipa, gloss}]`) as `(word) /ipa/`, so Gemini cannot invent IPA. New lessons = new seed rows first
+- `./run.sh create lecture <LT01T0n> [--target xx] [--overwrite] [--preview]` — simple-English lecture articles for a chapter-1 topic. T01/T02 come from `src/data/alphabets/<lang>.json` (`generate-alphabet-content.py` + `alphabet-to-articles.mjs`); T03–T06 from the hand-written rows in `scripts/seeds/lectures-LT01-<lang>.json` (`create-lecture-articles.py`). The prompt carries the chapter/topic context and a closed word list: an article may quote only the seed's `example` (and optional `extra: [{word, ipa, gloss}]`) as `(word) /ipa/`, so Gemini cannot invent IPA. New lessons = new seed rows first
 - `./run.sh create read <chapter|topic|item_id> [--dry-run] [--overwrite-audio]` — read-aloud MP3s of article docs (`generate-audio.py --read`); run after changing article text
 - `./run.sh create story <topic-code> [n]` — write `n` (default 1) illustrated stories for a stories topic at the topic's CEFR level (`scripts/create-stories.py`: Gemini text and translations, one picture per reading page, title/read audio; nothing uploaded)
 - `./run.sh deploy` / `./run.sh deploy-dry` — Wrangler deploy / dry-run validation
@@ -38,6 +38,8 @@ New dictionary vocabulary: `./run.sh scaffold <lang> <TOPIC> <seed.json>` → `g
 - Prefer `@file` for patch or replacement content instead of long inline arguments or shell heredocs. Preserve existing line endings and final newlines.
 
 ## Conventions
+
+- **Articles are JSON, one file per story or lecture item, every language inside:** `content/<track>/<TOPIC>/<ID>.json`, written only through `scripts/lib/articles.mjs` / `articles.py` (2-space indent, LF, fixed key order). `./run.sh articles check` verifies them. The `content/**/<ID>/<locale>.md` folders are a derived copy Nuxt Content still builds from (`./run.sh articles sync-md`, run by `./run.sh build`): never edit them. Plan and phases: `planning/content-in-database.md`.
 
 - Keep architecture $O(N)$: static JSON indices in `public/data/`, no server-side rendering of content.
 - Interactive features = Vue islands (`src/components/`); state in Pinia stores (`src/stores/`).

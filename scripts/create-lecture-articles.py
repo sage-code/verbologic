@@ -19,7 +19,8 @@ Convention for the audio script: a target-language word goes in ( ) and is NOT
 read; the IPA in / / right after it is read (transliterated by
 scripts/lib/ipa-translit.mjs), then the meaning.
 
-Each article is written to content/lectures/<TOPIC>/<ID>/en.md as a draft, plus
+Each article is written to content/lectures/<TOPIC>/<ID>.json (the `en` page; any other
+language already in the file is kept) as a draft, plus
 a small manifest (media/lectures/<chapter>/<TOPIC>/<ID>/item.json) with
 `target` set. With --apply the new item ids are appended to the topic's items in
 the lectures sidebar. Existing article files are never overwritten unless
@@ -38,6 +39,8 @@ from pathlib import Path
 from typing import Any
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
+import articles  # noqa: E402  (scripts/lib/articles.py: the shared article-file writer)
 
 ROOT = Path(__file__).resolve().parents[1]
 SEEDS = ROOT / "scripts" / "seeds"
@@ -105,14 +108,12 @@ def topic_context(topic: str, target: str, item: dict[str, Any]) -> str:
         before = names[codes[at - 1]] if at > 0 else "none"
         after = names[codes[at + 1]] if at + 1 < len(codes) else "none"
         done = []
-        for other in sorted((CONTENT / topic).glob("*/en.md")):
-            text = other.read_text(encoding="utf-8")
-            if re.search(rf"^article: {other.parent.name}$", text, flags=re.M) and f"entity_id: \"{topic}:" in text:
-                match = re.search(r'^title: "(.*)"$', text, flags=re.M)
-                manifest = MEDIA / "lectures" / topic[:4] / topic / other.parent.name / "item.json"
-                same = manifest.exists() and json.loads(manifest.read_text(encoding="utf-8")).get("target") == target
-                if match and same and other.parent.name != item["id"]:
-                    done.append(match.group(1))
+        for other in sorted((CONTENT / topic).glob("*.json")):
+            en = articles.read_article(other).get("locales", {}).get("en")
+            manifest = MEDIA / "lectures" / topic[:4] / topic / other.stem / "item.json"
+            same = manifest.exists() and json.loads(manifest.read_text(encoding="utf-8")).get("target") == target
+            if en and same and other.stem != item["id"]:
+                done.append(en["title"])
         return (
             f'Chapter: "{section["names"]["en"]}". Topic: "{names[topic]}" (comes after "{before}" '
             f'and before "{after}"). Lessons already written for {LOCALE_NAMES[target]} in this topic: '
@@ -235,22 +236,48 @@ def load_article(item: dict[str, Any], topic: str, level: str, target: str, mode
     raise RuntimeError(f"{item['id']}: no valid article after {MAX_ATTEMPTS} attempts ({last})")
 
 
-def document(topic: str, item: dict[str, Any], order: int, result: dict[str, Any]) -> str:
+def sections_of(body: str) -> list[dict[str, Any]]:
+    """The generated body (`## heading` + paragraphs) as article sections.
+
+    A paragraph is a run of non-blank lines; a heading may sit directly above its text.
+    """
+    sections: list[dict[str, Any]] = []
+    buffer: list[str] = []
+
+    def flush() -> None:
+        if not buffer:
+            return
+        if not sections:
+            raise ValueError("text before the first heading")
+        sections[-1]["paragraphs"].append("\n".join(buffer))
+        buffer.clear()
+
+    for line in str(body).strip().splitlines():
+        if line.startswith("## "):
+            flush()
+            sections.append({"title": line[3:].strip(), "paragraphs": []})
+        elif line.strip():
+            buffer.append(line.strip())
+        else:
+            flush()
+    flush()
+    return sections
+
+
+def document(topic: str, item: dict[str, Any], order: int, result: dict[str, Any]) -> dict[str, Any]:
+    """The article file content: keeps every language already in the file, replaces `en`."""
     terms = {code: str(result["terms"][code]).strip() for code in LOCALES}
-    front = [
-        "track: lectures",
-        f"topic: {topic}",
-        f"article: {item['id']}",
-        "locale: en",
-        f"title: {json.dumps(str(result['title']).strip(), ensure_ascii=False)}",
-        f"summary: {json.dumps(str(result['summary']).strip(), ensure_ascii=False)}",
-        "status: draft",
-        f"entity_id: {json.dumps(topic + ':' + item['id'])}",
-        f"order: {order}",
-        "terms:",
-        *[f"  {locale}: {json.dumps(terms[locale], ensure_ascii=False)}" for locale in LOCALES],
-    ]
-    return "---\n" + "\n".join(front) + "\n---\n\n" + str(result["body"]).strip() + "\n"
+    path = articles.article_path(CONTENT.parent, "lectures", topic, item["id"])
+    article = articles.read_article(path) if path.exists() else {"entity_id": f"{topic}:{item['id']}", "locales": {}}
+    article["order"] = order
+    article["terms"] = terms
+    article["locales"]["en"] = {
+        "title": str(result["title"]).strip(),
+        "summary": str(result["summary"]).strip(),
+        "status": "draft",
+        "sections": sections_of(result["body"]),
+    }
+    return article
 
 
 def write_manifest(topic: str, item: dict[str, Any], level: str, target: str, terms: dict[str, str]) -> None:
@@ -401,9 +428,9 @@ def run(args: argparse.Namespace) -> int:
                     continue
                 print(f"\n--- {item['id']} ---\n{result['title']}\n{result['body']}")
                 continue
-            out = CONTENT / topic / item["id"] / "en.md"
-            if out.exists() and not args.overwrite:
-                print(f"  skipped {item['id']} (en.md exists)", flush=True)
+            out = articles.article_path(CONTENT.parent, "lectures", topic, item["id"])
+            if out.exists() and "en" in articles.read_article(out).get("locales", {}) and not args.overwrite:
+                print(f"  skipped {item['id']} (English page exists)", flush=True)
                 continue
             try:
                 result = load_article(item, topic, level, args.target, model)
@@ -412,8 +439,7 @@ def run(args: argparse.Namespace) -> int:
                 failed = True
                 continue
             terms = {code: str(result["terms"][code]).strip() for code in LOCALES}
-            out.parent.mkdir(parents=True, exist_ok=True)
-            out.write_text(document(topic, item, order, result), encoding="utf-8")
+            articles.write_article(out, document(topic, item, order, result))
             write_manifest(topic, item, level, args.target, terms)
             print(f"  wrote {item['id']} ({item['title']})", flush=True)
 

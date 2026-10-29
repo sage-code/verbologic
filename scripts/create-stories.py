@@ -11,7 +11,7 @@ For each of the n stories this:
    English is. Below B1 the English is simplified.
 3. Asks Gemini for the same story in the other eight site languages, with the
    same number of paragraphs in each, so every reading page lines up everywhere.
-4. Writes content/stories/<TOPIC>/<CODE>/<locale>.md for all nine locales, the
+4. Writes content/stories/<TOPIC>/<CODE>.json (all nine locales in one file), the
    media manifest media/stories/<CHAPTER>/<TOPIC>/<CODE>/item.json, and appends
    the code to the topic's items in the stories sidebar.
 5. Paints one picture per reading page (scripts/generate-story-images.py).
@@ -58,6 +58,7 @@ MEDIA = ROOT / "media" / "stories"
 SIDEBAR = ROOT / "src" / "data" / "sidebars" / "library" / "stories" / "sidebar.json"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.locales import DEFAULT_LOCALE, LOCALES  # noqa: E402  (single locale registry)
+from lib import articles  # noqa: E402  (scripts/lib/articles.py: the shared article-file writer)
 
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta"
 DEFAULT_GEMINI_MODEL = "models/gemini-3.5-flash-lite"
@@ -329,10 +330,10 @@ def stories_in_topic(topic: str) -> tuple[dict[str, Any], dict[str, Any]] | None
 
 def existing_titles(topic: str) -> list[str]:
     titles = []
-    for path in sorted((CONTENT / topic).glob("*/en.md")):
-        match = re.search(r"^title:\s*(.+)$", path.read_text(encoding="utf-8")[:600], re.MULTILINE)
-        if match:
-            titles.append(match.group(1).strip().strip("'\""))
+    for path in sorted((CONTENT / topic).glob("*.json")):
+        en = articles.read_article(path).get("locales", {}).get("en")
+        if en and en.get("title"):
+            titles.append(en["title"])
     return titles
 
 
@@ -342,62 +343,51 @@ def next_code(topic: str, chapter: str) -> str:
     found = stories_in_topic(topic)
     if found:
         used.update(found[1].get("items", []))
-    for folder in (CONTENT / topic, MEDIA / chapter / topic):
-        if folder.is_dir():
-            used.update(p.name for p in folder.iterdir() if p.is_dir())
+    used.update(p.stem for p in (CONTENT / topic).glob("*.json"))
+    media = MEDIA / chapter / topic
+    if media.is_dir():
+        used.update(p.name for p in media.iterdir() if p.is_dir())
     numbers = [int(code[1:]) for code in used if re.fullmatch(r"S\d{3}", code)]
     return f"S{(max(numbers) if numbers else 0) + 1:03d}"
 
 
-def article_document(
-    topic: str, code: str, locale: str, title: str, summary: str,
-    paragraphs: list[str], minutes: int, per_page: int,
+def story_article(
+    topic: str, code: str, texts: dict[str, dict[str, Any]], minutes: int, per_page: int,
     context: dict[str, str] | None = None,
-) -> str:
-    """One locale's article: front matter as the content schema expects, then the paragraphs."""
-    front = [
-        "---",
-        "track: stories",
-        f"topic: {topic}",
-        f"article: {code}",
-        f"entity_id: '{topic}:{code}'",
-        f"locale: {locale}",
-        f"title: {json.dumps(title, ensure_ascii=False)}",
-        f"summary: {json.dumps(summary, ensure_ascii=False)}",
-        "status: draft",
-        f"order: {int(code[1:])}",
-        f"minutes: {minutes}",
-        f"paragraphsPerPage: {per_page}",
-        *(
-            ["context:"] + [f"  {json.dumps(name, ensure_ascii=False)}: {json.dumps(what, ensure_ascii=False)}" for name, what in context.items()]
-            if context else []
-        ),
-        "---",
-        "",
-    ]
-    return "\n".join(front) + "\n\n".join(paragraphs) + "\n"
+) -> dict[str, Any]:
+    """The article file content: every language in one object (scripts/lib/articles.py)."""
+    article: dict[str, Any] = {
+        "entity_id": f"{topic}:{code}",
+        "order": int(code[1:]),
+        "minutes": minutes,
+        "paragraphsPerPage": per_page,
+        "locales": {
+            loc: {
+                "title": text["title"],
+                "summary": text["summary"],
+                "status": "draft",
+                "paragraphs": list(text["paragraphs"]),
+            }
+            for loc, text in texts.items()
+        },
+    }
+    if context:
+        article["context"] = context
+    return article
 
 
 def write_story(topic: str, chapter: str, code: str, level: str, story: dict[str, Any], translated: dict[str, Any]) -> None:
-    """Write the nine article documents and the media manifest for one story."""
+    """Write the article file (all nine languages) and the media manifest for one story."""
     per_page = LEVELS[level]["per_page"]
     words = sum(len(p.split()) for p in story["paragraphs"])
     minutes = max(1, math.ceil(words / 90))
     texts = {DEFAULT_LOCALE: {"title": story["title"], "summary": story["summary"], "paragraphs": story["paragraphs"]}}
     texts.update({loc: translated["locales"][loc] for loc in LOCALES if loc != DEFAULT_LOCALE})
 
-    folder = CONTENT / topic / code
-    folder.mkdir(parents=True, exist_ok=True)
-    for loc in LOCALES:
-        text = texts[loc]
-        (folder / f"{loc}.md").write_text(
-            article_document(
-                topic, code, loc, text["title"], text["summary"], text["paragraphs"], minutes, per_page,
-                context=story.get("context") if loc == DEFAULT_LOCALE else None,
-            ),
-            encoding="utf-8",
-            newline="\n",
-        )
+    articles.write_article(
+        articles.article_path(CONTENT.parent, "stories", topic, code),
+        story_article(topic, code, texts, minutes, per_page, context=story.get("context")),
+    )
 
     item = {
         "code": code,

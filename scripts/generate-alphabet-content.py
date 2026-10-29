@@ -27,7 +27,7 @@ letter and never explained here.
 Pipeline after authoring (the pages are read aloud page by page, so the audio
 must be rebuilt whenever the prose changes):
 
-  node scripts/alphabet-to-markdown.mjs
+  node scripts/alphabet-to-articles.mjs
   node scripts/sync-alphabet-manifests.mjs
   .venv/Scripts/python.exe scripts/generate-audio.py --read --apply --overwrite-audio
 

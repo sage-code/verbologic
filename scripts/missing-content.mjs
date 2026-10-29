@@ -74,25 +74,24 @@ for (const sectionPath of new Set(Object.values(config.sections ?? {}))) {
 /** Content docs grouped by article id; dictionary prose is shared across target languages. */
 const docsByLecture = new Map() // source key → { id, track, section, trackLang, topic, locales }
 const docsById = new Set()
-for (const file of walk(CONTENT, '.md')) {
+// content/<track>/<TOPIC>/<ID>.json — one file per article, every language inside.
+for (const file of walk(CONTENT, '.json')) {
   const parts = file.slice(CONTENT.length + 1).split(/[\\/]/)
-  const isDictionary = parts[0] === 'dictionary' && parts.length === 4
-  if (!isDictionary && parts.length !== 5) continue
-  const [track, trackLang, topic, id, docName] = isDictionary
-    ? [parts[0], null, parts[1], parts[2], parts[3]]
-    : parts
-  const groupKey = `${track}\n${trackLang ?? ''}\n${topic}\n${id}`
-  const group = docsByLecture.get(groupKey) ?? {
+  if (parts.length !== 3) continue
+  const [track, topic, name] = parts
+  const id = name.slice(0, -'.json'.length)
+  const article = readJson(file)
+  const groupKey = [track, '', topic, id].join('\n')
+  docsByLecture.set(groupKey, {
     id,
     track,
     section: `library/${track}`,
-    trackLang,
+    trackLang: null,
     topic,
-    locales: new Set()
-  }
-  group.locales.add(docName.replace(/\.md$/, ''))
-  docsByLecture.set(groupKey, group)
-  docsById.add(`${topic}\n${id}`)
+    locales: new Set(Object.keys(article.locales ?? {}))
+  })
+  docsById.add(`${topic}
+${id}`)
 }
 
 /** The dictionary's planned-topic registry (archive source per blank topic). */

@@ -59,6 +59,7 @@ MEDIA = ROOT / "media"
 CONTENT = ROOT / "content"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.locales import LOCALES  # noqa: E402  (single locale registry)
+from lib import articles  # noqa: E402  (scripts/lib/articles.py: the shared article-file reader/writer)
 
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta"
 #: The image model. Flash is fast and cheap enough for a whole library; the
@@ -108,18 +109,24 @@ def load_env() -> None:
         os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
 
 
-def paragraphs_per_page(topic: str, code: str) -> int:
-    """How many paragraphs one reading page holds, from the English document.
+def article_file(topic: str, code: str) -> Path:
+    """The story's article file: every language of one story in content/stories/<TOPIC>/<CODE>.json."""
+    return articles.article_path(CONTENT, "stories", topic, code)
 
-    The article schema reads the same `paragraphsPerPage` field (1 to 3), so the
-    reader and this generator cut the story identically.
+
+def load_article(topic: str, code: str) -> dict[str, Any] | None:
+    path = article_file(topic, code)
+    return articles.read_article(path) if path.is_file() else None
+
+
+def paragraphs_per_page(topic: str, code: str) -> int:
+    """How many paragraphs one reading page holds, from the article's `paragraphsPerPage`.
+
+    The article schema reads the same field (1 to 3), so the reader and this
+    generator cut the story identically.
     """
-    path = CONTENT / "stories" / topic / code / f"{CANONICAL}.md"
-    if not path.is_file():
-        return DEFAULT_PARAGRAPHS_PER_PAGE
-    head = path.read_text(encoding="utf-8")[:800]
-    match = re.search(r"^paragraphsPerPage:\s*(\d+)\s*$", head, re.MULTILINE)
-    return int(match.group(1)) if match else DEFAULT_PARAGRAPHS_PER_PAGE
+    article = load_article(topic, code)
+    return int(article.get("paragraphsPerPage", DEFAULT_PARAGRAPHS_PER_PAGE)) if article else DEFAULT_PARAGRAPHS_PER_PAGE
 
 
 def fit_picture(raw: bytes) -> bytes:
@@ -152,13 +159,11 @@ def story_paragraphs(track: str, topic: str, code: str, locale: str) -> list[str
     The same rule the reading view paginates by for a document with no
     headings, so picture N can be anchored to the page it first appears on.
     """
-    path = CONTENT / track / topic / code / f"{locale}.md"
-    if not path.is_file():
+    article = load_article(topic, code) if track == "stories" else None
+    doc = (article or {}).get("locales", {}).get(locale)
+    if not doc:
         return []
-    body = FRONTMATTER_RE.sub("", path.read_text(encoding="utf-8"))
-    body = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", body)
-    body = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", body)
-    paragraphs = [re.sub(r"\s+", " ", p).strip() for p in re.split(r"\n\s*\n", body)]
+    paragraphs = [re.sub(r"\s+", " ", p).strip() for p in doc.get("paragraphs", [])]
     return [p for p in paragraphs if p]
 
 
@@ -174,54 +179,22 @@ def story_pages(paragraphs: list[str], per_page: int) -> list[list[str]]:
 
 
 def story_context(topic: str, code: str) -> dict[str, str]:
-    """The story's characters and what each one is, from the `context:` front matter map.
+    """The story's characters and what each one is, from the article's `context` map.
 
-    The map is written on the English document, one `Name: what it is` line per
-    character. A story without one returns an empty map, and its pictures then
-    rely on the text alone.
+    One `Name: what it is` entry per character. A story without one returns an
+    empty map, and its pictures then rely on the text alone.
     """
-    path = CONTENT / "stories" / topic / code / f"{CANONICAL}.md"
-    if not path.is_file():
-        return {}
-    match = FRONTMATTER_RE.match(path.read_text(encoding="utf-8"))
-    if not match:
-        return {}
-    context: dict[str, str] = {}
-    inside = False
-    for line in match.group(0).splitlines()[1:-1]:
-        if line.startswith("context:"):
-            inside = True
-            continue
-        if not inside:
-            continue
-        if not line.startswith((" ", "\t")):
-            break
-        key, separator, value = line.strip().partition(":")
-        if not separator:
-            continue
-        value = value.strip()
-        context[json.loads(key) if key.startswith('"') else key.strip()] = (
-            json.loads(value) if value.startswith('"') else value.strip("'")
-        )
-    return context
+    article = load_article(topic, code)
+    return dict((article or {}).get("context") or {})
 
 
 def write_story_context(path: Path, context: dict[str, str]) -> None:
-    """Insert a `context:` map into the English document's front matter, before its closing `---`."""
-    text = path.read_text(encoding="utf-8")
-    # Anchor on the closing `---` line itself: a blank line after it must not
-    # hide it, or the map would silently not be written.
-    match = re.match(r"^---\n(.*?\n)---\n", text, re.DOTALL)
-    if not match:
-        raise ValueError(f"{path}: no front matter")
-    if re.search(r"^context:", match.group(1), re.MULTILINE):
+    """Add a `context` map to the story's article file (refuses to replace an existing one)."""
+    article = articles.read_article(path)
+    if article.get("context"):
         raise ValueError(f"{path}: already has a context")
-    lines = ["context:"] + [
-        f"  {json.dumps(name, ensure_ascii=False)}: {json.dumps(what, ensure_ascii=False)}"
-        for name, what in context.items()
-    ]
-    updated = "---\n" + match.group(1) + "\n".join(lines) + "\n---\n" + text[match.end():]
-    path.write_text(updated, encoding="utf-8", newline="\n")
+    article["context"] = context
+    articles.write_article(path, article)
 
 
 #: Composition for the reader's panel. The reader shows the WHOLE picture (it is
@@ -330,13 +303,10 @@ def call_gemini_image(prompt: str, model: str, reference: bytes | None = None) -
 
 
 def story_title(topic: str, code: str, locale: str) -> str:
-    """The story's title in its own language, from the markdown frontmatter."""
-    path = CONTENT / "stories" / topic / code / f"{locale}.md"
-    if not path.is_file():
-        return code
-    head = path.read_text(encoding="utf-8")[:600]
-    match = re.search(r"^title:\s*(.+)$", head, re.MULTILINE)
-    return match.group(1).strip().strip("'\"") if match else code
+    """The story's title in its own language, from the article file."""
+    article = load_article(topic, code)
+    doc = (article or {}).get("locales", {}).get(locale)
+    return doc["title"] if doc and doc.get("title") else code
 
 
 def story_items(topic: str | None, code: str | None) -> list[tuple[Path, dict[str, Any]]]:
@@ -390,7 +360,7 @@ def backfill_context(items: list[tuple[Path, dict[str, Any]]], dry_run: bool) ->
     for _, item in items:
         topic = str(item["topic"])
         code = str(item["code"])
-        path = CONTENT / "stories" / topic / code / f"{CANONICAL}.md"
+        path = article_file(topic, code)
         if not path.is_file():
             skipped += 1
             continue
@@ -466,7 +436,7 @@ def main() -> int:
         code = str(item["code"])
         # The story's own language is the one its prose was written in; the
         # pictures are shared, so one language is enough to describe them.
-        source = next((loc for loc in LOCALES if (CONTENT / "stories" / topic / code / f"{loc}.md").is_file()), None)
+        source = next((loc for loc in LOCALES if story_paragraphs("stories", topic, code, loc)), None)
         if not source:
             print(f"  {code}: no story text, skipped", file=sys.stderr)
             skipped += 1
@@ -491,7 +461,7 @@ def main() -> int:
 
         print(f"{code} [{item.get('cefr')}] {title!r}: {count} page(s), {per_page} paragraph(s) per page, one picture each")
         if not characters:
-            print(f"  {code}: no `context:` in {CANONICAL}.md, pictures rely on the text alone (run --backfill-context)")
+            print(f"  {code}: no `context` in the article file, pictures rely on the text alone (run --backfill-context)")
         for index, page in enumerate(pages):
             target = images_dir / f"{index}.jpg"
             if target.is_file() and not args.overwrite:
