@@ -161,7 +161,7 @@ Phases 0-4 migrate what exists. Phases 5-6 are the new work (glossary, prompts, 
 
 | # | Work | Gate |
 |---|---|---|
-| 0 | Commit the English-only cut and the regenerated chapter-1 articles; `seed export` then `seed import` (needs `SUPABASE_SECRET_KEY`, not in `.env`) | DB row counts equal file counts; `seed export --check` clean |
+| 0 | **Done 2026-10-29.** Committed the English-only cut and the regenerated chapter-1 articles; `seed export` then `seed import` (the key is `SUPABASE_SECRET_KEY` in `.env`): 436 articles updated, 535 unchanged | DB has 971 articles, 13,487 units, 221 topics, matching the files |
 | 1 | Migration for the new `articles` shape (section 5); one-shot codemod `content/**/*.md` to `content/**/<ID>.json` (stories merge nine files into one, Markdown becomes `paragraphs`/`sections`); the shared writer and canonical-form check; generators, `media-index`, `validate-data`, `missing-content`, `generate-audio.py --read`, `generate-story-images.py` read JSON; `seed-import` reads `content/` | Round trip `md -> json -> jsonb` returns the original text for all 971 docs; every file passes the canonical-form check; file count 4,492 -> about 500 |
 | 2 | `targets` field and topic visibility (section 7); `status`/`sourceSha` per locale | A Hungarian-only item is hidden for a French learner; counts correct |
 | 3 | The single `/learn/read` page (section 8) reads the DB (dev falls back to JSON); renderer and pagination; internal links updated; doc routes no longer prerendered | A story and a lecture open from the DB at `/learn/read?...`; build file count measured against 15,600 |
