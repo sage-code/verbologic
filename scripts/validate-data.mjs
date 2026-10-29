@@ -406,9 +406,6 @@ try {
       }
       for (const name of readdirSync(topicDir)) {
         const relPath = `content/${track}/${topic}/${name}`
-        // <ID>/<locale>.md folders are the derived copy Nuxt Content still builds
-        // pages from (scripts/content-md-sync.mjs); they go in phase 4 of the plan.
-        if (statSync(join(topicDir, name)).isDirectory()) continue
         if (!name.endsWith('.json')) {
           ERRORS.push(`content ${relPath}: only <ID>.json article files belong here`)
           continue

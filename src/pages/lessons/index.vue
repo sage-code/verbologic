@@ -1,4 +1,4 @@
-// Lessons — placeholder hub; structured lessons land in Phase 3 (@nuxt/content).
+// Lessons — placeholder hub; structured lessons land in Phase 3.
 <script setup lang="ts">
 const copy = useCopy()
 const { lang, setLocale, ensureLocale } = useLocale()

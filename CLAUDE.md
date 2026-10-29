@@ -39,7 +39,7 @@ New dictionary vocabulary: `./run.sh scaffold <lang> <TOPIC> <seed.json>` → `g
 
 ## Conventions
 
-- **Articles are JSON, one file per story or lecture item, every language inside:** `content/<track>/<TOPIC>/<ID>.json`, written only through `scripts/lib/articles.mjs` / `articles.py` (2-space indent, LF, fixed key order). `./run.sh articles check` verifies them. The `content/**/<ID>/<locale>.md` folders are a derived copy Nuxt Content still builds from (`./run.sh articles sync-md`, run by `./run.sh build`): never edit them. Plan and phases: `planning/content-in-database.md`.
+- **Articles are JSON, one file per story or lecture item, every language inside:** `content/<track>/<TOPIC>/<ID>.json`, written only through `scripts/lib/articles.mjs` / `articles.py` (2-space indent, LF, fixed key order). `./run.sh articles check` verifies them; `./run.sh seed import` publishes them to the Supabase `article_docs` table, which the one static page `/learn/read?id=<TOPIC>:<ID>&lang=..&doc=..` reads in the browser. There is no Markdown layer and no `@nuxt/content`. Plan and phases: `planning/content-in-database.md`.
 
 - Keep architecture $O(N)$: static JSON indices in `public/data/`, no server-side rendering of content.
 - Interactive features = Vue islands (`src/components/`); state in Pinia stores (`src/stores/`).

@@ -330,14 +330,16 @@ row with a `name`. Fill a missing one with
 `files` and renders as "audio coming soon". The article remains shared and
 does not need to be copied per target language.
 
-### 3.4 Lectures & stories (Nuxt Content — live)
+### 3.4 Lectures & stories (article JSON in Supabase — live)
 
-The authoring layer is **Nuxt Content v3** (`@nuxt/content`, collection schemas in
-`content.config.ts`). One Markdown document per *explanation locale*:
+Articles are JSON, one file per item with every language inside
+(`content/<track>/<TOPIC>/<ID>.json`, written only through `scripts/lib/articles.mjs`
+/ `articles.py`). `./run.sh seed import` copies them to the `article_docs` table
+and the site reads them in the browser on `/learn/read` (see
+`planning/content-in-database.md`). There is no Markdown layer.
 
 ```
-content/lectures/<TOPIC>/<ID>/en.md       ← shared canonical explanation
-content/lectures/<TOPIC>/<ID>/<locale>.md ← translated explanation
+content/lectures/<TOPIC>/<ID>.json   <- locales.en canonical, locales.<xx> translations
 ```
 
 - **One concept, one identity**: `<TOPIC>:<ID>` is the same in every target
@@ -1150,7 +1152,7 @@ filtered" queue), `article` (content doc cards → prerendered pages) or
 | Types + loaders | `src/types/media.ts` (runtime records) · `src/types/sidebars.ts` · `src/composables/useMedia.ts` · sequential player `src/composables/useAudioQueue.ts` |
 | Topic attribution | `scripts/archive-topics.mjs` + `topic-map.json` — parses the archive pages (page#section → topic) and attributes all entities to Dictionary topics (report + topic map only; it never writes sidebars — the Lectures sidebar is hand-curated, see `manual/curriculum.md`); `scripts/media-manifests.mjs` re-folders media + writes the manifests; `scripts/media-scaffold-topic.mjs` (`run scaffold`) seeds the blank topics; `scripts/seed-titles.mjs` seeds one chapter's title-audio manifests; `scripts/generate-audio.py` synthesizes pending manifests' mp3s (Edge TTS); `scripts/lecture.mjs` (`run lecture`) scaffolds/reviews shared article content |
 | Components | `roadmap/RoadmapSidebar.vue` · `RoadmapTopicSearch.vue` · `RoadmapTopicList.vue` · `roadmap/ChaptersTable.vue` · `roadmap/layouts/DictionaryToolbar.vue` |
-| Article pages | `src/pages/learn/[locale]/[track]/[topic]/[id]/[doc].vue` — track-agnostic, prerendered per explanation-locale doc; dictionary, lecture, and story prose are shared at `content/<track>/TOPIC/ID/locale.md`, English-canonical; legacy stories may remain under `content/stories/<trackLang>/TOPIC/ID/locale.md` |
+| Article pages | `src/pages/learn/read.vue` — one static page for every article (`/learn/read?id=TOPIC:ID&lang=..&doc=..`); text is read from the `article_docs` table in the browser; source files are `content/<track>/TOPIC/ID.json` |
 | Dictionary playback state | `roadmapStore` `dictionaryQuery` (committed on Enter / the toolbar's filter button — never while typing) / `page` / `pageSize` + `dictionaryRows` (diacritic-folded prefix/substring matching across all localized names; dictionary-wide via lazy `ensureSearchIndex` over `<section>/search.json`, one fetch) / `searchActive` / `pageCount` / `pagedRows` + `setDictionaryQuery` / `setSearchMode` / `setPageSize` / `setPage` (page resets on topic open/close and filter changes; the mode persists like Repeat); pure match helpers in `src/lib/dictionarySearch.ts` (`fold` / `glossName` / `matchesDictionaryQuery`); `useAudioQueue` gained `loop` / `mode` (`'idle' \| 'single' \| 'page'`) / `playOne()` / `setLoop()` / `onCycle` — single runs skip the memorization gap; loop laps fire `onCycle` (the layout jumps the list back to the top) |
 
 ### Add a language to the roadmap

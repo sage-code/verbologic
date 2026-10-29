@@ -124,23 +124,7 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ['@nuxt/content', '@pinia/nuxt', '@nuxtjs/tailwindcss'],
-
-  // Nuxt Content — the lecture/story authoring layer (content/**/*.md).
-  // Build-time SQLite comes from Node's native node:sqlite (Node ≥ 22.5) —
-  // no better-sqlite3 native build needed on Windows or CI. Every lecture
-  // page is prerendered (routes enumerated below from the content tree), so
-  // queries run at build time and the WASM client database is never needed.
-  content: {
-    experimental: {
-      sqliteConnector: 'native'
-    },
-    build: {
-      markdown: {
-        toc: { depth: 3 }
-      }
-    }
-  },
+  modules: ['@pinia/nuxt', '@nuxtjs/tailwindcss'],
 
   // Tailwind entrypoint — utility-first styling for all components.
   css: [

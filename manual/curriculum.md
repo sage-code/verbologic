@@ -128,7 +128,7 @@ Article topics are already listed with planned ids (e.g. `L2T01` → `lecture_se
 
 1. Make sure the topic exists in the sidebar with `"layout": "article"` and a `level`.
 2. `run lecture new ro <TOPIC> <lecture_id> --title "…" --minutes N`. This creates `content/lectures/ro/<TOPIC>/<id>/en.md`, a pending video manifest, and the sidebar item.
-3. Write the English document (canonical). The front matter schema is in `content.config.ts`. List the rows the learner should practise in `related:`.
+3. Write the English document (canonical). The file format is described in `content/README.md` (`content/<track>/<TOPIC>/<ID>.json`). List the rows the learner should practise in `related:`.
 4. Body: plain Markdown.
    - Tables: GFM pipe tables (`| a | b |` + `| --- | --- |`).
    - Dialogs: fenced ```` ```text ```` blocks.
