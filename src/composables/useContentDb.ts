@@ -112,15 +112,13 @@ export function useContentDb() {
     if (!supabase || !topics.length) return byEntity
     try {
       const filter = topics.map((topic) => `entity_id.like.${topic}:%`).join(',')
-      const { data, error } = await supabase
-        .from('articles')
-        .select('entity_id, locale')
+      const { data, error } = await (supabase as any)
+        .from('article_docs')
+        .select('entity_id, languages')
         .or(filter)
       if (error) return byEntity
-      for (const row of data ?? []) {
-        const list = byEntity.get(row.entity_id) ?? []
-        list.push(row.locale)
-        byEntity.set(row.entity_id, list)
+      for (const row of (data ?? []) as { entity_id: string; languages: string[] }[]) {
+        byEntity.set(row.entity_id, row.languages)
       }
     } catch {
       // A missing article list only costs the row its Read button; the table

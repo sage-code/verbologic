@@ -7,7 +7,7 @@
  *   node scripts/seed-import.mjs --no-prune  upsert only, keep stale rows
  *
  * Reads the seed files produced by scripts/seed-export.mjs and upserts them
- * into public.topics / public.units / public.articles
+ * into public.topics / public.units / public.article_docs
  * (planning/performance-and-content-refactor.md §14, phase 5).
  *
  * Credentials: SUPABASE_SECRET_KEY (the sb_secret_… key) or
