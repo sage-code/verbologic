@@ -30,10 +30,9 @@
  * planning/performance-and-content-refactor.md §3 phase 1.
  */
 import { createHash } from 'node:crypto'
-import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs'
 import { dirname, join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import grayMatter from 'gray-matter'
 import { LOCALES } from './lib/locales.mjs'
 import { descriptor, filePath, localeRow, localesOf, nameOf } from './lib/manifest.mjs'
 
@@ -482,87 +481,63 @@ function loadContentGroups() {
   const groups = new Map()
   if (!existsSync(CONTENT_DIR)) return groups
 
-  const files = []
-  const walk = (dir, parts) => {
-    for (const entry of readdirSync(dir, { withFileTypes: true })) {
-      const next = [...parts, entry.name]
-      if (entry.isDirectory()) walk(join(dir, entry.name), next)
-      // Root-level documentation explains the authoring conventions; it is
-      // not an article and must not be sent through the content schema.
-      else if (parts.length === 0 && entry.name.toLowerCase() === 'readme.md') continue
-      else if (entry.name.endsWith('.md')) files.push(next)
+  // content/<track>/<TOPIC>/<ID>.json — one file per article, every language
+  // inside (scripts/lib/articles.mjs, planning/content-in-database.md §5).
+  for (const sectionLeaf of ['dictionary', 'lectures', 'stories']) {
+    const trackDir = join(CONTENT_DIR, sectionLeaf)
+    if (!existsSync(trackDir)) continue
+    for (const topic of readdirSync(trackDir)) {
+      const topicDir = join(trackDir, topic)
+      if (!statSync(topicDir).isDirectory()) continue
+      for (const name of readdirSync(topicDir)) {
+        if (!name.endsWith('.json')) continue
+        const articleId = name.slice(0, -'.json'.length)
+        const where = `${sectionLeaf}/${topic}/${name}`
+        const section = `library/${sectionLeaf}`
+        if (!config.sections[section]) {
+          errors.push(`content: '${where}' unknown track '${sectionLeaf}' (expected one of ${Object.keys(config.sections).join(', ')})`)
+        }
+        let article
+        try {
+          article = JSON.parse(readFileSync(join(topicDir, name), 'utf8'))
+        } catch (error) {
+          errors.push(`content: '${where}' is not valid JSON (${error.message})`)
+          continue
+        }
+        if (article.entity_id !== `${topic}:${articleId}`) {
+          errors.push(`content: '${where}' entity_id '${article.entity_id}' does not match its path`)
+        }
+        const group = {
+          articleId,
+          section,
+          trackLang: null,
+          topic,
+          entityId: article.entity_id ?? null,
+          canonical: 'en',
+          shared: ['dictionary', 'lectures'].includes(sectionLeaf),
+          broadcast: sectionLeaf === 'stories',
+          useTitlesAsNames: sectionLeaf === 'stories',
+          docs: new Map()
+        }
+        for (const [locale, doc] of Object.entries(article.locales ?? {})) {
+          if (!LOCALES_ALL.includes(locale)) errors.push(`content: '${where}' bad doc locale '${locale}'`)
+          if (!doc.title) errors.push(`content: '${where}' (${locale}) is missing a title`)
+          group.docs.set(locale, {
+            title: doc.title ?? null,
+            summary: doc.summary ?? null,
+            terms: article.terms ?? null,
+            status: doc.status ?? 'draft',
+            sourceSha: doc.sourceSha ?? null,
+            reviewedAt: doc.reviewedAt ?? null,
+            related: Array.isArray(article.related) ? article.related : [],
+            order: article.order ?? 0,
+            minutes: article.minutes ?? null,
+            sha: createHash('sha1').update(JSON.stringify(doc)).digest('hex')
+          })
+        }
+        groups.set(`${section}\n\n${topic}\n${articleId}`, group)
+      }
     }
-  }
-  walk(CONTENT_DIR, [])
-  // Shared docs: [<track>, <TOPIC>, <ID>, <locale>.md]. Legacy story docs
-  // remain [stories, <trackLang>, <TOPIC>, <ID>, <locale>.md].
-  for (const parts of files) {
-    const isShared =
-      (['dictionary', 'lectures'].includes(parts[0]) || parts[0] === 'stories') && parts.length === 4
-    if (!isShared && parts.length !== 5) {
-      errors.push(`content: '${parts.join('/')}' has an invalid article path`)
-      continue
-    }
-    const [sectionLeaf, trackLang, topic, articleId, docName] = isShared
-      ? [parts[0], null, parts[1], parts[2], parts[3]]
-      : parts
-    const locale = docName.replace(/\.md$/, '')
-    const section = `library/${sectionLeaf}`
-    if (!config.sections[section]) {
-      errors.push(`content: '${parts.join('/')}' unknown track '${sectionLeaf}' (expected one of ${Object.keys(config.sections).join(', ')})`)
-    }
-    const file = join(CONTENT_DIR, ...parts)
-    const { data } = grayMatter(readFileSync(file, 'utf8'))
-    if (!data.title) errors.push(`content: '${parts.join('/')}' is missing a title`)
-    for (const [field, expected] of [
-      ['track', sectionLeaf],
-      ['topic', topic],
-      ['article', articleId],
-      ['locale', locale]
-    ]) {
-      if (data[field] !== expected) errors.push(`content: '${parts.join('/')}' front-matter ${field} '${data[field]}' does not match its path`)
-    }
-    if (isShared ? data.trackLang !== undefined : data.trackLang !== trackLang) {
-      errors.push(`content: '${parts.join('/')}' has trackLang inconsistent with its path`)
-    }
-    if (!LOCALES_ALL.includes(locale)) errors.push(`content: '${parts.join('/')}' bad doc locale '${locale}'`)
-
-    const groupKey = `${section}\n${trackLang ?? ''}\n${topic}\n${articleId}`
-    const group = groups.get(groupKey) ?? {
-      articleId,
-      section,
-      trackLang,
-      topic,
-      entityId: data.entity_id ?? null,
-      canonical: isShared ? 'en' : undefined,
-      shared: isShared && ['dictionary', 'lectures'].includes(sectionLeaf),
-      broadcast: isShared && sectionLeaf === 'stories',
-      useTitlesAsNames: !isShared || sectionLeaf === 'stories',
-      docs: new Map()
-    }
-    if (
-      group.topic !== topic ||
-      group.trackLang !== trackLang ||
-      group.section !== section ||
-      (group.entityId && data.entity_id && group.entityId !== data.entity_id)
-    ) {
-      errors.push(`content: '${parts.join('/')}' conflicts with another doc of '${articleId}'`)
-      continue
-    }
-    group.entityId ??= data.entity_id ?? null
-    group.docs.set(locale, {
-      title: data.title ?? null,
-      summary: data.summary ?? null,
-      terms: data.terms ?? null,
-      status: data.status ?? 'draft',
-      sourceSha: data.sourceSha ?? null,
-      reviewedAt: data.reviewedAt ?? null,
-      related: Array.isArray(data.related) ? data.related : [],
-      order: data.order ?? 0,
-      minutes: data.minutes ?? null,
-      sha: createHash('sha1').update(readFileSync(file)).digest('hex')
-    })
-    groups.set(groupKey, group)
   }
   return groups
 }

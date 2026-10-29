@@ -35,6 +35,7 @@ Verbologic maintenance runner
   ./run.sh scaffold <lang> <TOPIC> <seed.json>  Seed a blank dictionary topic with pending manifests
   ./run.sh lecture <new|status|translate|review>  Lecture content tooling (content/lectures)
   ./run.sh articles check                Article JSON files are canonical (Node and Python writers agree)
+  ./run.sh articles sync-md [--check]    Derive the Markdown Nuxt Content still builds from (content/**/<ID>.json is the source)
   ./run.sh articles from-md [--dry-run|--check]  One-shot: content/**/<locale>.md -> content/**/<ID>.json (planning/content-in-database.md)
   ./run.sh create story <topic-code> [n]  Write n (default 1) illustrated stories for a topic at its CEFR level (Gemini text + pictures + audio)
   ./run.sh create lecture <topic-code> [--target xx] [--overwrite] [--preview]  Simple-English lecture articles for a chapter-1 topic
@@ -100,6 +101,8 @@ differential_build() {
   # media/ content change is reflected before the fingerprint check —
   # public/data/media/** is part of the fingerprint inputs.
   node scripts/media-index.mjs || warn "media index failed/skipped"
+  # Nuxt Content still builds the article pages from Markdown: derive it from the article JSON.
+  node scripts/content-md-sync.mjs || fail "article Markdown sync failed"
   if node scripts/fingerprint.mjs --check; then
     say "No source/content changes — reusing existing static build (.output/public)."
     say "Use './run.sh build --force' to regenerate anyway."
@@ -210,8 +213,9 @@ case "${1:-help}" in
   articles)
     case "${2:-}" in
       check)    node scripts/check-articles.mjs ;;
+      sync-md)  shift 2; node scripts/content-md-sync.mjs "$@" ;;
       from-md)  shift 2; node scripts/content-md-to-json.mjs "$@" ;;
-      *) fail "usage: ./run.sh articles <check | from-md [--dry-run|--check]>" ;;
+      *) fail "usage: ./run.sh articles <check | sync-md [--check] | from-md [--dry-run|--check]>" ;;
     esac ;;
   create)
     case "${2:-}" in

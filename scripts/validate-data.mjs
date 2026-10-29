@@ -14,7 +14,7 @@
  *
  * Exits non-zero on any failure (used by `run release` / `run validate`).
  */
-import { existsSync, readdirSync, readFileSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -345,19 +345,9 @@ try {
 
 /* ── content: shared dictionary + lecture/story front matter ───────────── */
 try {
-  const { default: grayMatter } = await import('gray-matter')
   const { LOCALES } = await import('./lib/locales.mjs')
   const CANONICAL_BY_TRACK = { dictionary: 'en', lectures: 'en', stories: 'en' }
   const contentDir = join(ROOT, 'content')
-
-  const walkContent = (dir, parts) =>
-    existsSync(dir)
-      ? readdirSync(dir, { withFileTypes: true }).flatMap((e) => {
-          const next = [...parts, e.name]
-          if (parts.length === 0 && e.isFile() && e.name.toLowerCase() === 'readme.md') return []
-          return e.isDirectory() ? walkContent(join(dir, e.name), next) : e.name.endsWith('.md') ? [next] : []
-        })
-      : []
 
   // Manifest ids (media/**.json) — content media (the video) must resolve here.
   const mediaManifestIds = new Set()
@@ -399,60 +389,68 @@ try {
     sidebarBySection[doc.id] = doc
   }
 
-  const docsByLecture = new Map() // topic/id → { track, trackLang?, topic, docs: Map<locale, data> }
-  const contentFiles = walkContent(contentDir, [])
-  for (const parts of contentFiles) {
-    const relPath = `content/${parts.join('/')}`
-    // Shared: <track>/<TOPIC>/<id>/<locale>.md. Legacy stories may still
-    // use <track>/<trackLang>/<TOPIC>/<id>/<locale>.md.
-    const isShared =
-      (['dictionary', 'lectures'].includes(parts[0]) || parts[0] === 'stories') && parts.length === 4
-    if (!isShared && parts.length !== 5) {
-      ERRORS.push(`content ${relPath}: invalid article path`)
-      continue
-    }
-    const [track, trackLang, topic, id, docName] = isShared
-      ? [parts[0], null, parts[1], parts[2], parts[3]]
-      : parts
-    const locale = docName.replace(/\.md$/, '')
-    const { data } = grayMatter(readFileSync(join(contentDir, ...parts), 'utf8'))
-    if (!LOCALES.includes(locale)) ERRORS.push(`content ${relPath}: bad doc locale '${locale}'`)
-    if (!data.title) ERRORS.push(`content ${relPath}: missing title`)
-    for (const [field, expected] of [
-      ['track', track],
-      ['topic', topic],
-      ['article', id],
-      ['locale', locale]
-    ]) {
-      if (data[field] !== expected) ERRORS.push(`content ${relPath}: front-matter ${field} '${data[field]}' != path '${expected}'`)
-    }
-    if (data.entity_id && data.entity_id !== `${topic}:${id}`) {
-      ERRORS.push(`content ${relPath}: entity_id '${data.entity_id}' must match '${topic}:${id}'`)
-    }
-    if (isShared && ['dictionary', 'lectures'].includes(track)) {
-      if (data.trackLang !== undefined) ERRORS.push(`content ${relPath}: shared ${track} articles must not declare trackLang`)
-      if (!data.terms || LOCALES.some((language) => typeof data.terms[language] !== 'string' || !data.terms[language])) {
-        ERRORS.push(`content ${relPath}: shared articles need a non-empty terms entry for every locale`)
+  // content/<track>/<TOPIC>/<ID>.json — one file per article, every language
+  // inside (scripts/lib/articles.mjs, planning/content-in-database.md §5).
+  const { isCanonical } = await import('./lib/articles.mjs')
+  const docsByLecture = new Map() // track\n\ntopic\nid → { track, trackLang, topic, terms, docs: Map<locale, doc> }
+  for (const track of ['dictionary', 'lectures', 'stories']) {
+    const trackDir = join(contentDir, track)
+    if (!existsSync(trackDir)) continue
+    for (const topic of readdirSync(trackDir)) {
+      const topicDir = join(trackDir, topic)
+      if (!statSync(topicDir).isDirectory()) {
+        ERRORS.push(`content/${track}/${topic}: expected a topic folder`)
+        continue
       }
-    } else if (isShared) {
-      if (data.trackLang !== undefined) ERRORS.push(`content ${relPath}: shared stories must not declare trackLang`)
-    } else if (data.trackLang !== trackLang) {
-      ERRORS.push(`content ${relPath}: front-matter trackLang '${data.trackLang}' != path '${trackLang}'`)
-    }
-    if (data.status && !['draft', 'reviewed'].includes(data.status)) {
-      ERRORS.push(`content ${relPath}: bad status '${data.status}'`)
-    }
-    const groupKey = `${track}\n${trackLang ?? ''}\n${topic}\n${id}`
-    const group = docsByLecture.get(groupKey) ?? { track, trackLang, topic, terms: null, docs: new Map() }
-    if (isShared && ['dictionary', 'lectures'].includes(track)) {
-      const terms = data.terms ?? {}
-      if (group.terms && LOCALES.some((language) => group.terms[language] !== terms[language])) {
-        ERRORS.push(`content ${relPath}: terms map differs from another locale document for '${topic}/${id}'`)
+      for (const name of readdirSync(topicDir)) {
+        const relPath = `content/${track}/${topic}/${name}`
+        // <ID>/<locale>.md folders are the derived copy Nuxt Content still builds
+        // pages from (scripts/content-md-sync.mjs); they go in phase 4 of the plan.
+        if (statSync(join(topicDir, name)).isDirectory()) continue
+        if (!name.endsWith('.json')) {
+          ERRORS.push(`content ${relPath}: only <ID>.json article files belong here`)
+          continue
+        }
+        const id = name.slice(0, -'.json'.length)
+        const file = join(topicDir, name)
+        let article
+        try {
+          article = JSON.parse(readFileSync(file, 'utf8'))
+        } catch (error) {
+          ERRORS.push(`content ${relPath}: invalid JSON (${error.message})`)
+          continue
+        }
+        if (!isCanonical(file)) {
+          ERRORS.push(`content ${relPath}: not in canonical form (write articles through scripts/lib/articles.*)`)
+        }
+        if (article.entity_id !== `${topic}:${id}`) {
+          ERRORS.push(`content ${relPath}: entity_id '${article.entity_id}' must match '${topic}:${id}'`)
+        }
+        if (['dictionary', 'lectures'].includes(track)) {
+          if (!article.terms || LOCALES.some((language) => typeof article.terms[language] !== 'string' || !article.terms[language])) {
+            ERRORS.push(`content ${relPath}: shared articles need a non-empty terms entry for every locale`)
+          }
+        }
+        if (article.targets !== undefined) {
+          if (!Array.isArray(article.targets) || !article.targets.length || article.targets.some((l) => !LOCALES.includes(l))) {
+            ERRORS.push(`content ${relPath}: targets must be a non-empty list of site languages (omit it for all)`)
+          }
+        }
+        const group = { track, trackLang: null, topic, terms: article.terms ?? null, docs: new Map() }
+        for (const [locale, doc] of Object.entries(article.locales ?? {})) {
+          if (!LOCALES.includes(locale)) ERRORS.push(`content ${relPath}: bad doc locale '${locale}'`)
+          if (!doc.title) ERRORS.push(`content ${relPath} (${locale}): missing title`)
+          if (doc.status && !['draft', 'reviewed'].includes(doc.status)) {
+            ERRORS.push(`content ${relPath} (${locale}): bad status '${doc.status}'`)
+          }
+          if (Array.isArray(doc.sections) === Array.isArray(doc.paragraphs)) {
+            ERRORS.push(`content ${relPath} (${locale}): needs exactly one of 'sections' or 'paragraphs'`)
+          }
+          group.docs.set(locale, doc)
+        }
+        docsByLecture.set(`${track}\n\n${topic}\n${id}`, group)
       }
-      group.terms ??= terms
     }
-    group.docs.set(locale, data)
-    docsByLecture.set(groupKey, group)
   }
 
   for (const [groupKey, group] of docsByLecture) {
