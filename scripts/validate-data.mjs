@@ -541,6 +541,28 @@ try {
   ERRORS.push(`content model missing or unparseable: ${e.message}`)
 }
 
+/* ── IPA glossary (src/data/ipa-glossary.json) ───────────────────────── */
+try {
+  const glossary = JSON.parse(readFileSync(join(ROOT, 'src', 'data', 'ipa-glossary.json'), 'utf8'))
+  const others = ['es', 'it', 'fr', 'de', 'ru', 'hu', 'pt', 'ro']
+  const ids = new Set()
+  let drafts = 0
+  for (const term of glossary.terms ?? []) {
+    if (!term.id || !term.en || !term.define) ERRORS.push(`glossary: term ${term.id ?? '?'} needs id, en and define`)
+    if (ids.has(term.id)) ERRORS.push(`glossary: duplicate term ${term.id}`)
+    ids.add(term.id)
+    for (const locale of others) {
+      const entry = term.locales?.[locale]
+      if (!entry?.text) ERRORS.push(`glossary: ${term.id} has no ${locale} form`)
+      else if (entry.status === 'draft') drafts++
+      else if (entry.status !== 'checked') ERRORS.push(`glossary: ${term.id}.${locale} status must be draft or checked`)
+    }
+  }
+  console.log(`glossary: ${ids.size} terms · ${drafts} draft form(s) still to review`)
+} catch (e) {
+  ERRORS.push(`glossary missing or unparseable: ${e.message}`)
+}
+
 /* ── report ───────────────────────────────────────────────────────────── */
 console.log(`languages: ${langCount} · menu items: ${menuIds.length}`)
 if (plannedIds.length) {

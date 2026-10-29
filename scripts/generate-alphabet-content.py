@@ -66,6 +66,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ALPHABETS = ROOT / "src" / "data" / "alphabets"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.locales import LOCALES  # noqa: E402  (single locale registry)
+from lib import glossary  # noqa: E402  (the fixed IPA terms)
 
 LANGUAGE_NAMES = {
     "en": "English",
@@ -293,11 +294,11 @@ SPOKEN_FORM_RULES = (
     "R18. ONLY for English pages: write SIMPLE ENGLISH. Sentences have at most "
     "15 words, use common everyday words, the active voice and the present "
     "tense, and speak to the learner as \"you\". Say \"mouth\", \"tongue\", "
-    "\"lips\" and \"air\" rather than technical terms. Never use phonetic "
-    "jargon (fricative, plosive, glottal, palate, alveolar, velar, diphthong, "
-    "schwa, rounded, unrounded): say what the mouth does, for example \"round "
-    "your lips\", \"spread your lips\", \"touch your upper teeth with your "
-    "tongue tip\". English pages are read by learners from every country, so "
+    "\"lips\" and \"air\" for the parts of the mouth. For a phonetic idea use "
+    "ONLY a term of the PHONETIC TERMS glossary at the end of these rules, and "
+    "explain it in one plain sentence the first time it appears; for anything "
+    "else say what the mouth does, for example \"round your lips\", \"spread "
+    "your lips\", \"touch your upper teeth with your tongue tip\". English pages are read by learners from every country, so "
     "never write \"English speakers\" or name any nationality; write \"you\" "
     "and warn about the mistake itself, comparing with a very common English "
     "word (\"do not say it like the vowel in cat\"). Add the \"that is\" "
@@ -315,8 +316,7 @@ SPOKEN_FORM_RULES = (
 #: Words a page of this locale must never contain (rules R18 and R19).
 BANNED_TERMS = {
     "en": re.compile(
-        r"English speakers?|\b(?:un)?rounded\b|fricative|plosive|glottal|palat\w*|alveolar|velar|uvular|"
-        r"labial|bilabial|sibilant|approximant|affricate|diphthong|schwa|nationalit\w*",
+        r"English speakers?|\b(?:un)?rounded\b|palate|sibilant|\blabial|nationalit\w*",
         re.I,
     ),
     "ro": re.compile(r"nerotunjit\w*|rotunjit\w*|labializat\w*", re.I),
@@ -480,7 +480,7 @@ def prompt_sections(
         "pitfall, say so in one sentence.\n"
         "Use the room each page allows, but only for true, useful facts: never "
         "pad, never repeat, never add encouragement.\n\n"
-        f"{SPOKEN_FORM_RULES}{collision_note}\n"
+        f"{SPOKEN_FORM_RULES}{glossary.writing_block()}\n{collision_note}\n"
         "Return ONLY JSON of the shape "
         '{"items":[{"code":"L001","sections":{"<locale>":{"sound":{"title":"...",'
         '"text":"..."},"howToSay":{...},"spelling":{...},"compare":{...}}}}]}, '

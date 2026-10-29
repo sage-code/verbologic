@@ -41,6 +41,7 @@ from typing import Any
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, str(Path(__file__).resolve().parent / "lib"))
 import articles  # noqa: E402  (scripts/lib/articles.py: the shared article-file writer)
+import glossary  # noqa: E402  (scripts/lib/glossary.py: the fixed IPA terms)
 
 ROOT = Path(__file__).resolve().parents[1]
 SEEDS = ROOT / "scripts" / "seeds"
@@ -79,7 +80,7 @@ def seed_path(target: str) -> Path:
 SIMPLE_ENGLISH = """SIMPLE ENGLISH (strict):
 - Every sentence has at most 15 words and one idea. Use the present tense, the active voice and "you".
 - Use only common everyday words (the first 2000 words of English). Say "mouth", "tongue", "lips", "air", "voice".
-- Do not use grammar jargon. If a term is unavoidable (vowel, consonant, syllable, stress), use it plainly and say what it is once.
+- Use phonetic terms only from the PHONETIC TERMS glossary below, and say what each one means the first time you use it.
 - No idioms, no phrasal verbs, no long noun chains, no passive sentences, no semicolons, dashes or colons.
 - Do not use markdown: no bold, no italics, no backticks, no lists."""
 
@@ -133,6 +134,8 @@ The reader is {LEVEL_NOTE.get(level, LEVEL_NOTE['A1'])}.
 CONTEXT. {topic_context(topic, target, item)}
 
 {SIMPLE_ENGLISH}
+
+{glossary.writing_block()}
 
 It will be read aloud next to the {language} audio, so say what the mouth, the stress and the
 tone DO. Do not write for speakers of one native language: never say "English speakers",
@@ -209,6 +212,7 @@ def check_article(result: dict[str, Any], item: dict[str, Any]) -> list[str]:
             problems.append(f"({word}) has IPA {ipa}, must be {allowed[word]}")
     if re.search(r"[`*]|^\s*[-*] ", body, flags=re.M):
         problems.append("markdown in body (bold, backticks or list)")
+    problems.extend(glossary.check_writing(body))
     if body.count("(") != body.count(")"):
         problems.append("unbalanced round brackets")
     spoken = re.sub(r"\([^)]*\)|/[^/\s]+/", "", body)

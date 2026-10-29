@@ -1,0 +1,2479 @@
+{
+  "version": 1,
+  "terms": [
+    {
+      "id": "vowel",
+      "en": "vowel",
+      "define": "A sound made with open air and no touch in the mouth, such as a, e or o.",
+      "locales": {
+        "es": {
+          "text": "vocal",
+          "status": "checked"
+        },
+        "it": {
+          "text": "vocale",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "voyelle",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Vokal",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "гласный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "magánhangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "vogal",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "vocală",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "consonant",
+      "en": "consonant",
+      "define": "A sound made when the mouth blocks or narrows the air, such as p, s or m.",
+      "locales": {
+        "es": {
+          "text": "consonante",
+          "status": "checked"
+        },
+        "it": {
+          "text": "consonante",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "consonne",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Konsonant",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "согласный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "mássalhangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "consoante",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "consoană",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "plosive",
+      "en": "plosive",
+      "define": "A consonant where the air stops for a moment and then bursts out, such as p, t or k.",
+      "locales": {
+        "es": {
+          "text": "oclusivo",
+          "status": "checked"
+        },
+        "it": {
+          "text": "occlusivo",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "occlusive",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Plosiv",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "взрывной",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "zárhang",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "oclusivo",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "oclusiv",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "nasal",
+      "en": "nasal",
+      "define": "A sound where the air goes out through the nose, such as m or n.",
+      "locales": {
+        "es": {
+          "text": "nasal",
+          "status": "checked"
+        },
+        "it": {
+          "text": "nasale",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "nasale",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Nasal",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "носовой",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "orrhang",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "nasal",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "nazal",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "trill",
+      "en": "trill",
+      "define": "A consonant where the tongue taps many times very fast, like a rolled r.",
+      "locales": {
+        "es": {
+          "text": "vibrante múltiple",
+          "status": "checked"
+        },
+        "it": {
+          "text": "vibrante",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "roulée",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Vibrant",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "дрожащий",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "pergőhang",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "vibrante múltipla",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "vibrant",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "tap",
+      "en": "tap",
+      "define": "A consonant where the tongue touches one time, very fast, like a light r.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "vibrante simple",
+          "status": "checked"
+        },
+        "it": {
+          "text": "monovibrante",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "battue",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Tap",
+          "status": "draft"
+        },
+        "ru": {
+          "text": "одноударный",
+          "status": "draft"
+        },
+        "hu": {
+          "text": "legyintőhang",
+          "status": "draft"
+        },
+        "pt": {
+          "text": "vibrante simples",
+          "status": "draft"
+        },
+        "ro": {
+          "text": "vibrant simplu",
+          "status": "draft"
+        }
+      }
+    },
+    {
+      "id": "fricative",
+      "en": "fricative",
+      "define": "A consonant where the air is pushed through a narrow gap and makes a hiss, such as f or s.",
+      "locales": {
+        "es": {
+          "text": "fricativo",
+          "status": "checked"
+        },
+        "it": {
+          "text": "fricativo",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "fricative",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Frikativ",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "щелевой",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "réshang",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "fricativo",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "fricativ",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "affricate",
+      "en": "affricate",
+      "define": "A consonant that starts as a plosive and ends as a fricative, like ch in chair.",
+      "locales": {
+        "es": {
+          "text": "africado",
+          "status": "checked"
+        },
+        "it": {
+          "text": "affricato",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "affriquée",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Affrikate",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "аффриката",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "zár-réshang",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "africado",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "africat",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "approximant",
+      "en": "approximant",
+      "define": "A consonant where the mouth gets close but the air still flows smoothly, such as y or w.",
+      "locales": {
+        "es": {
+          "text": "aproximante",
+          "status": "checked"
+        },
+        "it": {
+          "text": "approssimante",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "approximante",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Approximant",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "аппроксимант",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "közelítőhang",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "aproximante",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "aproximant",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "lateral",
+      "en": "lateral",
+      "define": "A consonant where the air flows along the sides of the tongue, such as l.",
+      "locales": {
+        "es": {
+          "text": "lateral",
+          "status": "checked"
+        },
+        "it": {
+          "text": "laterale",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "latérale",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Lateral",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "боковой",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "laterális",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "lateral",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "lateral",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "semivowel",
+      "en": "semivowel",
+      "define": "A short sound that works like a vowel but acts like a consonant, such as y or w.",
+      "locales": {
+        "es": {
+          "text": "semivocal",
+          "status": "checked"
+        },
+        "it": {
+          "text": "semivocale",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "semi-voyelle",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Halbvokal",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "полугласный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "félhangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "semivogal",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "semivocală",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "bilabial",
+      "en": "bilabial",
+      "define": "A sound made with both lips, such as p, b or m.",
+      "locales": {
+        "es": {
+          "text": "bilabial",
+          "status": "checked"
+        },
+        "it": {
+          "text": "bilabiale",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "bilabial",
+          "status": "checked"
+        },
+        "de": {
+          "text": "bilabial",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "губно-губной",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "bilabiális",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "bilabial",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "bilabial",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "labiodental",
+      "en": "labiodental",
+      "define": "A sound made with the lower lip and the upper teeth, such as f or v.",
+      "locales": {
+        "es": {
+          "text": "labiodental",
+          "status": "checked"
+        },
+        "it": {
+          "text": "labiodentale",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "labiodental",
+          "status": "checked"
+        },
+        "de": {
+          "text": "labiodental",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "губно-зубной",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "labiodentális",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "labiodental",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "labiodental",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "dental",
+      "en": "dental",
+      "define": "A sound made with the tongue on the teeth.",
+      "locales": {
+        "es": {
+          "text": "dental",
+          "status": "checked"
+        },
+        "it": {
+          "text": "dentale",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "dental",
+          "status": "checked"
+        },
+        "de": {
+          "text": "dental",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "зубной",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "dentális",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "dental",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "dental",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "alveolar",
+      "en": "alveolar",
+      "define": "A sound made with the tongue on the ridge behind the upper teeth, such as t, d or n.",
+      "locales": {
+        "es": {
+          "text": "alveolar",
+          "status": "checked"
+        },
+        "it": {
+          "text": "alveolare",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "alvéolaire",
+          "status": "checked"
+        },
+        "de": {
+          "text": "alveolar",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "альвеолярный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "alveoláris",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "alveolar",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "alveolar",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "postalveolar",
+      "en": "postalveolar",
+      "define": "A sound made with the tongue just behind that ridge, such as sh.",
+      "locales": {
+        "es": {
+          "text": "postalveolar",
+          "status": "checked"
+        },
+        "it": {
+          "text": "postalveolare",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "postalvéolaire",
+          "status": "checked"
+        },
+        "de": {
+          "text": "postalveolar",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "постальвеолярный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "posztalveoláris",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "pós-alveolar",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "postalveolar",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "palatal",
+      "en": "palatal",
+      "define": "A sound made with the middle of the tongue on the hard roof of the mouth.",
+      "locales": {
+        "es": {
+          "text": "palatal",
+          "status": "checked"
+        },
+        "it": {
+          "text": "palatale",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "palatal",
+          "status": "checked"
+        },
+        "de": {
+          "text": "palatal",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "палатальный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "palatális",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "palatal",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "palatal",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "velar",
+      "en": "velar",
+      "define": "A sound made with the back of the tongue on the soft part of the roof of the mouth, such as k or g.",
+      "locales": {
+        "es": {
+          "text": "velar",
+          "status": "checked"
+        },
+        "it": {
+          "text": "velare",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "vélaire",
+          "status": "checked"
+        },
+        "de": {
+          "text": "velar",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "велярный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "veláris",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "velar",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "velar",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "uvular",
+      "en": "uvular",
+      "define": "A sound made with the back of the tongue near the small hanging part at the back of the mouth.",
+      "locales": {
+        "es": {
+          "text": "uvular",
+          "status": "checked"
+        },
+        "it": {
+          "text": "uvulare",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "uvulaire",
+          "status": "checked"
+        },
+        "de": {
+          "text": "uvular",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "увулярный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "uvuláris",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "uvular",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "uvular",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "glottal",
+      "en": "glottal",
+      "define": "A sound made deep in the throat, such as h.",
+      "locales": {
+        "es": {
+          "text": "glotal",
+          "status": "checked"
+        },
+        "it": {
+          "text": "glottidale",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "glottal",
+          "status": "checked"
+        },
+        "de": {
+          "text": "glottal",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "глоттальный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "glottális",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "glotal",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "glotal",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "voiced",
+      "en": "voiced",
+      "define": "A sound where the voice is on. Touch your throat and you feel it shake, as in z.",
+      "locales": {
+        "es": {
+          "text": "sonoro",
+          "status": "checked"
+        },
+        "it": {
+          "text": "sonoro",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "voisé",
+          "status": "checked"
+        },
+        "de": {
+          "text": "stimmhaft",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "звонкий",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "zöngés",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "sonoro",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "sonor",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "voiceless",
+      "en": "voiceless",
+      "define": "A sound where the voice is off. Your throat does not shake, as in s.",
+      "locales": {
+        "es": {
+          "text": "sordo",
+          "status": "checked"
+        },
+        "it": {
+          "text": "sordo",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "sourd",
+          "status": "checked"
+        },
+        "de": {
+          "text": "stimmlos",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "глухой",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "zöngétlen",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "surdo",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "surd",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "aspirated",
+      "en": "aspirated",
+      "define": "A sound followed by a small puff of air, like p in pin.",
+      "locales": {
+        "es": {
+          "text": "aspirado",
+          "status": "checked"
+        },
+        "it": {
+          "text": "aspirato",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "aspiré",
+          "status": "checked"
+        },
+        "de": {
+          "text": "aspiriert",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "придыхательный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "hehezetes",
+          "status": "draft"
+        },
+        "pt": {
+          "text": "aspirado",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "aspirat",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "close_vowel",
+      "en": "close",
+      "define": "A vowel where the tongue is high and the mouth is nearly closed, such as i or u.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "cerrado",
+          "status": "checked"
+        },
+        "it": {
+          "text": "chiuso",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "fermé",
+          "status": "checked"
+        },
+        "de": {
+          "text": "geschlossen",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "гласный верхнего подъёма",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "zárt magánhangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "fechado",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "închis",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "open_vowel",
+      "en": "open",
+      "define": "A vowel where the tongue is low and the mouth is wide, such as a.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "abierto",
+          "status": "checked"
+        },
+        "it": {
+          "text": "aperto",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "ouvert",
+          "status": "checked"
+        },
+        "de": {
+          "text": "offen",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "гласный нижнего подъёма",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "nyílt magánhangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "aberto",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "deschis",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "mid_vowel",
+      "en": "mid",
+      "define": "A vowel between close and open, such as e or o.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "medio",
+          "status": "checked"
+        },
+        "it": {
+          "text": "medio",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "moyen",
+          "status": "checked"
+        },
+        "de": {
+          "text": "mittel",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "гласный среднего подъёма",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "középső nyelvállású magánhangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "médio",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "vocală mijlocie",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "front_vowel",
+      "en": "front",
+      "define": "A vowel where the tongue is pushed forward, such as i or e.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "anterior",
+          "status": "checked"
+        },
+        "it": {
+          "text": "anteriore",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "antérieur",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Vorderzungenvokal",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "гласный переднего ряда",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "elülső magánhangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "anterior",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "vocală anterioară",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "central_vowel",
+      "en": "central",
+      "define": "A vowel where the tongue is in the middle of the mouth.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "central",
+          "status": "checked"
+        },
+        "it": {
+          "text": "centrale",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "central",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Zentralvokal",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "гласный среднего ряда",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "középen képzett magánhangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "central",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "vocală centrală",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "back_vowel",
+      "en": "back",
+      "define": "A vowel where the tongue is pulled back, such as u or o.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "posterior",
+          "status": "checked"
+        },
+        "it": {
+          "text": "posteriore",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "postérieur",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Hinterzungenvokal",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "гласный заднего ряда",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "hátulsó magánhangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "posterior",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "vocală posterioară",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "diphthong",
+      "en": "diphthong",
+      "define": "Two vowel sounds in one syllable, where the sound glides from the first to the second.",
+      "locales": {
+        "es": {
+          "text": "diptongo",
+          "status": "checked"
+        },
+        "it": {
+          "text": "dittongo",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "diphtongue",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Diphthong",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "дифтонг",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "kettőshangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "ditongo",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "diftong",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "triphthong",
+      "en": "triphthong",
+      "define": "Three vowel sounds in one syllable.",
+      "locales": {
+        "es": {
+          "text": "triptongo",
+          "status": "checked"
+        },
+        "it": {
+          "text": "trittongo",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "triphtongue",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Triphthong",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "трифтонг",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "hármashangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "tritongo",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "triftong",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "schwa",
+      "en": "schwa",
+      "define": "A short, weak vowel in the middle of the mouth, like the a in about.",
+      "locales": {
+        "es": {
+          "text": "schwa",
+          "status": "checked"
+        },
+        "it": {
+          "text": "schwa",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "schwa",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Schwa",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "шва",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "svá",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "schwa",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "schwa",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "nasal_vowel",
+      "en": "nasal vowel",
+      "define": "A vowel where air goes out through the nose and the mouth at the same time.",
+      "locales": {
+        "es": {
+          "text": "vocal nasal",
+          "status": "checked"
+        },
+        "it": {
+          "text": "vocale nasale",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "voyelle nasale",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Nasalvokal",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "носовой гласный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "nazális magánhangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "vogal nasal",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "vocală nazală",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "long_vowel",
+      "en": "long",
+      "define": "A sound that you hold for more time.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "largo",
+          "status": "checked"
+        },
+        "it": {
+          "text": "lungo",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "long",
+          "status": "checked"
+        },
+        "de": {
+          "text": "lang",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "долгий гласный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "hosszú magánhangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "longo",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "vocală lungă",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "short_vowel",
+      "en": "short",
+      "define": "A sound that you say very quickly.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "breve",
+          "status": "checked"
+        },
+        "it": {
+          "text": "breve",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "bref",
+          "status": "checked"
+        },
+        "de": {
+          "text": "kurz",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "краткий гласный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "rövid magánhangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "breve",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "vocală scurtă",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "hiatus",
+      "en": "hiatus",
+      "define": "Two vowels side by side that belong to two different syllables.",
+      "locales": {
+        "es": {
+          "text": "hiato",
+          "status": "checked"
+        },
+        "it": {
+          "text": "iato",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "hiatus",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Hiat",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "зияние",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "hiátus",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "hiato",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "hiat",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "syllable",
+      "en": "syllable",
+      "define": "One beat of a word. Each syllable has one vowel sound at its centre.",
+      "locales": {
+        "es": {
+          "text": "sílaba",
+          "status": "checked"
+        },
+        "it": {
+          "text": "sillaba",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "syllabe",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Silbe",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "слог",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "szótag",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "sílaba",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "silabă",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "stress",
+      "en": "stress",
+      "define": "The strength you give to one syllable so that it sounds louder, longer or higher.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "acento prosódico",
+          "status": "checked"
+        },
+        "it": {
+          "text": "accento",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "accent tonique",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Betonung",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "ударение",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "hangsúly",
+          "status": "draft"
+        },
+        "pt": {
+          "text": "acento",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "accent",
+          "status": "draft"
+        }
+      }
+    },
+    {
+      "id": "stressed",
+      "en": "stressed",
+      "define": "A syllable that you say with more strength.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "tónico",
+          "status": "checked"
+        },
+        "it": {
+          "text": "tonico",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "accentué",
+          "status": "checked"
+        },
+        "de": {
+          "text": "betont",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "ударный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "hangsúlyos",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "tônico",
+          "status": "draft"
+        },
+        "ro": {
+          "text": "accentuat",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "unstressed",
+      "en": "unstressed",
+      "define": "A syllable that you say with less strength.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "átono",
+          "status": "checked"
+        },
+        "it": {
+          "text": "atono",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "atone",
+          "status": "checked"
+        },
+        "de": {
+          "text": "unbetont",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "безударный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "hangsúlytalan",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "átono",
+          "status": "draft"
+        },
+        "ro": {
+          "text": "neaccentuat",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "intonation",
+      "en": "intonation",
+      "define": "The way your voice goes up and down over a whole sentence.",
+      "locales": {
+        "es": {
+          "text": "entonación",
+          "status": "checked"
+        },
+        "it": {
+          "text": "intonazione",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "intonation",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Intonation",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "интонация",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "hanglejtés",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "entonação",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "intonație",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "pitch",
+      "en": "pitch",
+      "define": "How high or low your voice sounds.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "altura tonal",
+          "status": "checked"
+        },
+        "it": {
+          "text": "altezza",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "hauteur",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Tonhöhe",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "высота тона",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "hangmagasság",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "altura",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "înălțime",
+          "status": "draft"
+        }
+      }
+    },
+    {
+      "id": "tone",
+      "en": "tone",
+      "define": "A pitch pattern on a syllable that can change the meaning of a word.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "tono",
+          "status": "checked"
+        },
+        "it": {
+          "text": "tono",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "ton",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Ton",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "тон",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "tónus",
+          "status": "draft"
+        },
+        "pt": {
+          "text": "tom",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "ton",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "rhythm",
+      "en": "rhythm",
+      "define": "The pattern of strong and weak beats in speech.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "ritmo",
+          "status": "checked"
+        },
+        "it": {
+          "text": "ritmo",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "rythme",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Rhythmus",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "ритм",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "ritmus",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "ritmo",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "ritm",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "phoneme",
+      "en": "phoneme",
+      "define": "The smallest sound that can change the meaning of a word.",
+      "locales": {
+        "es": {
+          "text": "fonema",
+          "status": "checked"
+        },
+        "it": {
+          "text": "fonema",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "phonème",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Phonem",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "фонема",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "fonéma",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "fonema",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "fonem",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "letter",
+      "en": "letter",
+      "define": "A written sign of the alphabet.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "letra",
+          "status": "checked"
+        },
+        "it": {
+          "text": "lettera",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "lettre",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Buchstabe",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "буква",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "betű",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "letra",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "literă",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "digraph",
+      "en": "digraph",
+      "define": "Two letters that together write one sound, such as sh.",
+      "locales": {
+        "es": {
+          "text": "dígrafo",
+          "status": "checked"
+        },
+        "it": {
+          "text": "digramma",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "digramme",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Digraph",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "диграф",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "kettős betű",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "dígrafo",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "digraf",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "diacritic",
+      "en": "diacritic",
+      "define": "A small mark on a letter, such as an accent.",
+      "locales": {
+        "es": {
+          "text": "diacrítico",
+          "status": "checked"
+        },
+        "it": {
+          "text": "diacritico",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "diacritique",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Diakritikum",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "диакритический знак",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "diakritikus jel",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "diacrítico",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "semn diacritic",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "accent_mark",
+      "en": "accent mark",
+      "define": "A diacritic written above a letter, such as in cafe with an accent on the e.",
+      "locales": {
+        "es": {
+          "text": "tilde",
+          "status": "checked"
+        },
+        "it": {
+          "text": "accento grafico",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "accent",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Akzentzeichen",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "знак ударения",
+          "status": "draft"
+        },
+        "hu": {
+          "text": "ékezet",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "acento gráfico",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "accent grafic",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "silent_letter",
+      "en": "silent letter",
+      "define": "A letter that you write but do not say.",
+      "locales": {
+        "es": {
+          "text": "letra muda",
+          "status": "checked"
+        },
+        "it": {
+          "text": "lettera muta",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "lettre muette",
+          "status": "checked"
+        },
+        "de": {
+          "text": "stummer Buchstabe",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "немая буква",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "néma betű",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "letra muda",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "literă mută",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "transcription",
+      "en": "transcription",
+      "define": "A way to write how a word sounds, using special signs.",
+      "locales": {
+        "es": {
+          "text": "transcripción",
+          "status": "checked"
+        },
+        "it": {
+          "text": "trascrizione",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "transcription",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Transkription",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "транскрипция",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "fonetikus átírás",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "transcrição",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "transcriere",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "ipa",
+      "en": "IPA",
+      "define": "The International Phonetic Alphabet. It gives one sign to each sound, for every language.",
+      "locales": {
+        "es": {
+          "text": "alfabeto fonético internacional",
+          "status": "checked"
+        },
+        "it": {
+          "text": "alfabeto fonetico internazionale",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "alphabet phonétique international",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Internationales Phonetisches Alphabet",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "международный фонетический алфавит",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "nemzetközi fonetikai ábécé",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "alfabeto fonético internacional",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "alfabetul fonetic internațional",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "minimal_pair",
+      "en": "minimal pair",
+      "define": "Two words that differ by only one sound, such as bat and pat.",
+      "locales": {
+        "es": {
+          "text": "par mínimo",
+          "status": "checked"
+        },
+        "it": {
+          "text": "coppia minima",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "paire minimale",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Minimalpaar",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "минимальная пара",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "minimális pár",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "par mínimo",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "pereche minimală",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "consonant_cluster",
+      "en": "consonant cluster",
+      "define": "Two or more consonants side by side with no vowel between them.",
+      "locales": {
+        "es": {
+          "text": "grupo consonántico",
+          "status": "checked"
+        },
+        "it": {
+          "text": "nesso consonantico",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "groupe consonantique",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Konsonantengruppe",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "стечение согласных",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "mássalhangzó-torlódás",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "encontro consonantal",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "grup consonantic",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "double_consonant",
+      "en": "double consonant",
+      "define": "A consonant that you hold longer, or say twice.",
+      "plain": true,
+      "locales": {
+        "es": {
+          "text": "consonante doble",
+          "status": "checked"
+        },
+        "it": {
+          "text": "consonante doppia",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "consonne double",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Geminate",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "удвоенный согласный",
+          "status": "draft"
+        },
+        "hu": {
+          "text": "hosszú mássalhangzó",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "consoante dupla",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "consoană geminată",
+          "status": "draft"
+        }
+      }
+    },
+    {
+      "id": "palatalized",
+      "en": "palatalized",
+      "define": "A consonant said with the middle of the tongue raised toward the roof of the mouth.",
+      "locales": {
+        "es": {
+          "text": "palatalizado",
+          "status": "checked"
+        },
+        "it": {
+          "text": "palatalizzato",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "palatalisé",
+          "status": "checked"
+        },
+        "de": {
+          "text": "palatalisiert",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "палатализованный",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "palatalizált",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "palatalizado",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "palatalizat",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "assimilation",
+      "en": "assimilation",
+      "define": "A change where one sound becomes more like the sound next to it.",
+      "locales": {
+        "es": {
+          "text": "asimilación",
+          "status": "checked"
+        },
+        "it": {
+          "text": "assimilazione",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "assimilation",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Assimilation",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "ассимиляция",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "hasonulás",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "assimilação",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "asimilare",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "elision",
+      "en": "elision",
+      "define": "A sound that you leave out in fast speech.",
+      "locales": {
+        "es": {
+          "text": "elisión",
+          "status": "checked"
+        },
+        "it": {
+          "text": "elisione",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "élision",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Elision",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "элизия",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "hangkiesés",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "elisão",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "eliziune",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "vowel_harmony",
+      "en": "vowel harmony",
+      "define": "A rule where the vowels in a word must belong to the same group.",
+      "locales": {
+        "es": {
+          "text": "armonía vocálica",
+          "status": "checked"
+        },
+        "it": {
+          "text": "armonia vocalica",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "harmonie vocalique",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Vokalharmonie",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "гармония гласных",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "magánhangzó-harmónia",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "harmonia vocálica",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "armonie vocalică",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "sound_change",
+      "en": "sound change",
+      "define": "A change from one sound to another inside a word.",
+      "locales": {
+        "es": {
+          "text": "cambio fonético",
+          "status": "checked"
+        },
+        "it": {
+          "text": "mutamento fonetico",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "changement phonétique",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Lautwandel",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "звуковое изменение",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "hangváltozás",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "mudança fonética",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "schimbare fonetică",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "liaison",
+      "en": "liaison",
+      "define": "A final consonant that you say only when the next word starts with a vowel.",
+      "locales": {
+        "es": {
+          "text": "enlace",
+          "status": "checked"
+        },
+        "it": {
+          "text": "liaison",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "liaison",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Liaison",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "льезон",
+          "status": "draft"
+        },
+        "hu": {
+          "text": "hangkötés",
+          "status": "draft"
+        },
+        "pt": {
+          "text": "ligação",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "liaison",
+          "status": "draft"
+        }
+      }
+    },
+    {
+      "id": "word_stress",
+      "en": "word stress",
+      "define": "The syllable in a word that you say with most strength.",
+      "locales": {
+        "es": {
+          "text": "acento léxico",
+          "status": "checked"
+        },
+        "it": {
+          "text": "accento lessicale",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "accent de mot",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Wortakzent",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "словесное ударение",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "szóhangsúly",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "acento lexical",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "accent de cuvânt",
+          "status": "checked"
+        }
+      }
+    },
+    {
+      "id": "sentence_stress",
+      "en": "sentence stress",
+      "define": "The words in a sentence that you say with most strength.",
+      "locales": {
+        "es": {
+          "text": "acento oracional",
+          "status": "checked"
+        },
+        "it": {
+          "text": "accento di frase",
+          "status": "checked"
+        },
+        "fr": {
+          "text": "accent de phrase",
+          "status": "checked"
+        },
+        "de": {
+          "text": "Satzakzent",
+          "status": "checked"
+        },
+        "ru": {
+          "text": "фразовое ударение",
+          "status": "checked"
+        },
+        "hu": {
+          "text": "mondathangsúly",
+          "status": "checked"
+        },
+        "pt": {
+          "text": "acento frasal",
+          "status": "checked"
+        },
+        "ro": {
+          "text": "accent de frază",
+          "status": "checked"
+        }
+      }
+    }
+  ]
+}
