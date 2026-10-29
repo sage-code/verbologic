@@ -54,17 +54,25 @@ export function unitRow({ entityId, term, ipa, audio, read, order }) {
 }
 
 /**
- * An article row — one per (entity_id, locale). `body` is the Markdown body
- * with the front matter stripped; `source_sha` lets the importer skip unchanged
- * rows on a re-import.
+ * An `article_docs` row — one per article, every language inside
+ * (planning/content-in-database.md section 5). `article` is the parsed
+ * content/<track>/<TOPIC>/<ID>.json; `sourceSha` (sha1 of the file) lets the
+ * importer skip unchanged rows on a re-import.
  */
-export function articleRow({ entityId, locale, title, summary, body, status, order, related, sourceSha }) {
-  const row = { entity_id: entityId, locale, title, body, status }
-  if (summary) row.summary = summary
-  if (order !== undefined && order !== null) row.order = order
-  if (related && related.length) row.related = related
-  if (sourceSha) row.source_sha = sourceSha
-  return row
+export function articleDocRow({ article, track, topic, sourceSha }) {
+  const { entity_id, targets, order, related, locales, ...meta } = article
+  return {
+    entity_id,
+    track,
+    topic,
+    targets: targets ?? null,
+    ord: order ?? 0,
+    related: related ?? [],
+    meta,
+    languages: Object.keys(locales),
+    locales,
+    source_sha: sourceSha
+  }
 }
 
 /** A topic row — the structure layer the sidebar queries instead of bundling. */

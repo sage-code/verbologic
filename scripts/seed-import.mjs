@@ -20,13 +20,40 @@
  * re-import after a small edit only touches the rows that actually changed.
  * Rows the seed no longer contains are deleted (see `prune`).
  */
-import { existsSync, readFileSync } from 'node:fs'
+import { createHash } from 'node:crypto'
+import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { SEED_DIR, SEED_LOCALES, SEED_SCHEMA, unitsFile } from './lib/seed.mjs'
+import { SEED_DIR, SEED_LOCALES, SEED_SCHEMA, articleDocRow, unitsFile } from './lib/seed.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const SEED = join(ROOT, SEED_DIR)
+const CONTENT = join(ROOT, 'content')
+
+/** Every content/<track>/<TOPIC>/<ID>.json as an `article_docs` row (planning/content-in-database.md §5). */
+function articleDocRows() {
+  const rows = []
+  for (const track of ['lectures', 'stories']) {
+    const trackDir = join(CONTENT, track)
+    if (!existsSync(trackDir)) continue
+    for (const topic of readdirSync(trackDir)) {
+      const topicDir = join(trackDir, topic)
+      for (const file of readdirSync(topicDir)) {
+        if (!file.endsWith('.json')) continue
+        const raw = readFileSync(join(topicDir, file), 'utf8')
+        rows.push(
+          articleDocRow({
+            article: JSON.parse(raw),
+            track,
+            topic,
+            sourceSha: createHash('sha1').update(raw).digest('hex')
+          })
+        )
+      }
+    }
+  }
+  return rows.sort((a, b) => a.entity_id.localeCompare(b.entity_id))
+}
 
 if (existsSync(join(ROOT, '.env'))) process.loadEnvFile(join(ROOT, '.env'))
 
@@ -134,7 +161,7 @@ async function prune(table, keep, keyColumns, { batch = 200 } = {}) {
   const page = 1000
   for (;;) {
     const response = await fetch(
-      `${url}/rest/v1/articles?select=entity_id,locale,source_sha&limit=${page}&offset=${offset}`,
+      `${url}/rest/v1/article_docs?select=entity_id,source_sha&limit=${page}&offset=${offset}`,
       { headers: { apikey: key, Authorization: `Bearer ${key}` } }
     )
     if (!response.ok) {
@@ -142,7 +169,7 @@ async function prune(table, keep, keyColumns, { batch = 200 } = {}) {
       throw new Error(`articles read failed (${response.status}): ${body.slice(0, 300)}`)
     }
     const rows = await response.json()
-    for (const row of rows) hashes.set(`${row.entity_id}\u0000${row.locale}`, row.source_sha)
+    for (const row of rows) hashes.set(row.entity_id, row.source_sha)
     if (rows.length < page) break
     offset += page
   }
@@ -158,7 +185,6 @@ async function main() {
   }
   const names = namesDoc.names ?? {}
   const topicsDoc = readJson('topics.json')
-  const articlesDoc = readJson('articles.json')
 
   /** topic code -> { track, chapter, level } for denormalizing onto units. */
   const topicMeta = new Map()
@@ -203,17 +229,7 @@ async function main() {
   }
 
   // ── articles ────────────────────────────────────────────────────────────
-  const articleRows = (articlesDoc.articles ?? []).map((a) => ({
-    entity_id: a.entity_id,
-    locale: a.locale,
-    title: a.title ?? '',
-    summary: a.summary ?? null,
-    body: a.body ?? '',
-    status: a.status ?? 'draft',
-    order: a.order ?? null,
-    related: a.related ?? null,
-    source_sha: a.source_sha ?? null
-  }))
+  const articleRows = articleDocRows()
 
   console.log(`seed-import: ${topicRows.length} topics · ${unitRows.length} units · ${articleRows.length} articles`)
 
@@ -232,10 +248,8 @@ async function main() {
   // Skip articles whose body hash is unchanged — a re-import after a one-file
   // edit should not rewrite 99 rows.
   const existing = await existingArticleHashes()
-  const changed = articleRows.filter(
-    (a) => existing.get(`${a.entity_id}\u0000${a.locale}`) !== a.source_sha
-  )
-  const articlesWritten = await upsert('articles', changed, 'entity_id,locale')
+  const changed = articleRows.filter((a) => existing.get(a.entity_id) !== a.source_sha)
+  const articlesWritten = await upsert('article_docs', changed, 'entity_id')
   console.log(
     `seed-import: articles ${articlesWritten} upserted (${articleRows.length - changed.length} unchanged, skipped)`
   )
@@ -252,8 +266,8 @@ async function main() {
     const topicsPruned = await prune('topics', topicKeys, ['track', 'topic'])
     console.log(`seed-import: topics   ${topicsPruned} stale row(s) deleted`)
 
-    const articleKeys = new Set(articleRows.map((a) => `${a.entity_id}\u0000${a.locale}`))
-    const articlesPruned = await prune('articles', articleKeys, ['entity_id', 'locale'])
+    const articleKeys = new Set(articleRows.map((a) => a.entity_id))
+    const articlesPruned = await prune('article_docs', articleKeys, ['entity_id'])
     console.log(`seed-import: articles ${articlesPruned} stale row(s) deleted`)
   }
 
