@@ -20,18 +20,18 @@ terms:
   ro: "S"
 ---
 
-## Letter sound
+## The letter sound
 
-The name of this letter is pronounced /s/. It represents the sound /s/, heard in the word (soare) /ˈso̯a.re/, which means sun. This letter has only one sound in Romanian.
+The letter name is the sound /s/. It makes the sound /s/ in the word (soare) /ˈso̯a.re/, which means sun. This letter has only one sound in Romanian.
 
-## Mouth shape
+## How to say it
 
-Bring the tip of your tongue close to the ridge behind your upper teeth. Leave a narrow groove down the centre. Blow air gently over the tongue. Keep your vocal cords completely still. Touch your throat to feel that there is no vibration.
+Put the tip of your tongue near the ridge behind your upper teeth. Leave a narrow space for the air to hiss through. Keep your lips slightly open. Blow air out steadily without using your voice. Touch your neck to check that your vocal cords do not vibrate.
 
-## Reading rules
+## Spelling rules
 
-In all regular positions, this letter keeps its single sound /s/. You hear it clearly between vowels in the word (masă) /ˈma.sə/.
+This letter always makes the sound /s/ everywhere it appears. You hear it at the beginning of words and between vowels, as in the word (masă) /ˈma.sə/.
 
-## English comparison
+## Common mistakes
 
-English speakers often turn this letter into a voiced buzz between vowels, as in the word rise. In Romanian, always keep it completely voiceless, exactly like the hissing sound in rice.
+In English, this letter often turns into a buzzing sound between vowels, like in the word rose. In Romanian, never buzz it. Always keep it sharp and quiet, like the first sound in the English word sun.

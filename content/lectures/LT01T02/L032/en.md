@@ -20,18 +20,18 @@ terms:
   ro: "oa"
 ---
 
-## The diphthong sound
+## The group oa
 
-The letter group oa is pronounced /o̯a/. Its main sound is the diphthong /o̯a/, heard in the Romanian word (oameni) /ˈno̯ap.te/, which means night. This letter combination always represents just one single diphthong sound in standard Romanian speech.
+The letters oa make the sound /o̯a/. Hear this sound in the word (oameni) /ˈno̯ap.te/, which means night. This letter combination makes one single gliding sound in Romanian.
 
-## Mouth position
+## Pronouncing oa
 
-Start with your lips rounded and your tongue pulled slightly back. Glide smoothly and immediately into a wide, open mouth position. Your tongue drops down while your jaw opens fully. Keep your vocal cords vibrating continuously throughout the entire movement. Feel the continuous glide without any break in your airflow.
+Round your lips slightly for a brief start. Then open your mouth wide and relax your lips completely. Let your voice flow continuously from the back to the front. You can feel your jaw drop as the sound finishes.
 
-## Reading the spelling
+## Spelling rules
 
-The group oa is written to show a falling diphthong in stressed syllables. Whenever you see these two letters together in such syllables, pronounce the sound /o̯a/, as in the word (soare) /ˈso̯a.re/.
+The letters oa make the sound /o̯a/ in stressed syllables, as in (noapte) /ˈno̯ap.te/. They also make the sound /o̯a/ in the word (soare) /ˈso̯a.re/.
 
-## Avoiding English pitfalls
+## Common mistakes
 
-English speakers often separate the two vowels into two syllables, as in the word oasis. Do not pronounce two distinct beats. Blend both elements into one single continuous glide, similar to the quick transition in the word wash. Make sure your lips round quickly before opening wide.
+Do not pronounce each letter as two separate vowels like in boa. Do not say the vowel in boat. Glide smoothly from a quick round vowel into a clear open sound.

@@ -4,12 +4,13 @@
   "chapter": "LT01",
   "topic": "LT01T03",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T03:L638",
   "cefr": "A1",
   "tags": [],
   "locales": {
     "en": {
-      "name": "noun root stress"
+      "name": "fixed root stress"
     },
     "es": {
       "name": "acento en la raíz"
@@ -18,22 +19,22 @@
       "name": "accento sulla radice"
     },
     "fr": {
-      "name": "accent sur la racine"
+      "name": "accent sur le radical"
     },
     "de": {
-      "name": "Stammbetonung bei Nomen"
+      "name": "feste Stammbetonung"
     },
     "ru": {
       "name": "ударение на корне"
     },
     "hu": {
-      "name": "tőhangsúly főneveknél"
+      "name": "tőhangsúly"
     },
     "pt": {
-      "name": "acento na raiz"
+      "name": "acento no radical"
     },
     "ro": {
-      "name": "accentul pe rădăcină"
+      "name": "accent pe rădăcină"
     }
   },
   "files": {
@@ -41,93 +42,23 @@
       "bytes": 656928,
       "sha1": "d8586ad096de7617a76b905885acb51d8f48c7b2"
     },
-    "read/de.mp3": {
-      "bytes": 741312,
-      "sha1": "0d3347b5684d6229daf8ebc68e60d8a58715df44"
-    },
-    "read/it.mp3": {
-      "bytes": 674496,
-      "sha1": "08bc62b87f5ef21425d06ac0e9f6f13d95b55aad"
-    },
-    "read/es.mp3": {
-      "bytes": 700128,
-      "sha1": "88f4a2dcaf08cce73ef4a32e8f38e81453e9c9ad"
-    },
-    "read/fr.mp3": {
-      "bytes": 608976,
-      "sha1": "41b3578c07b6d54c286723a5b470286e8546d9c3"
-    },
     "read/ro.mp3": {
       "bytes": 731376,
       "sha1": "60461d94a05f95f54dd64d194439f20b900fad28"
-    },
-    "read/hu.mp3": {
-      "bytes": 750096,
-      "sha1": "a3b39764b90736f968175fb1e640ebc4c52d6181"
-    },
-    "read/ru.mp3": {
-      "bytes": 752256,
-      "sha1": "2aa5062e50f69542fe6a132eb048270bb98ae49a"
-    },
-    "read/pt.mp3": {
-      "bytes": 726192,
-      "sha1": "3e828bd18d86d6cfc9bdcf93b21ae91fbcfaa006"
     }
   },
   "readSections": {
     "en": [
-      0.0,
+      0,
       26.663,
       54.312,
       82.125
     ],
-    "de": [
-      0.0,
-      31.8,
-      62.062,
-      92.35
-    ],
-    "it": [
-      0.0,
-      29.625,
-      56.688,
-      84.8
-    ],
-    "es": [
-      0.0,
-      29.85,
-      58.513,
-      88.113
-    ],
-    "fr": [
-      0.0,
-      25.825,
-      51.513,
-      79.638
-    ],
     "ro": [
-      0.0,
+      0,
       31.075,
       61.775,
       94.188
-    ],
-    "hu": [
-      0.0,
-      31.812,
-      63.775,
-      95.388
-    ],
-    "ru": [
-      0.0,
-      35.7,
-      67.062,
-      96.287
-    ],
-    "pt": [
-      0.0,
-      28.2,
-      58.4,
-      91.512
     ]
   }
 }

@@ -20,18 +20,18 @@ terms:
   ro: "ai"
 ---
 
-## The diphthong ai
+## The letter group ai
 
-The group ai is pronounced as the sound /aj/. You can hear this sound in the Romanian word (mai) /maj/, which means more, or the month of May. This letter group represents two distinct sound patterns in Romanian speech.
+The letters ai are spoken as the sound /aj/. They make the main sound in the word (mai) /maj/, which means more or May. This letter group has two spoken forms in Romanian.
 
-## Mouth movements
+## How to say it
 
-Start with your mouth open wide and your tongue resting flat and low. Glide your tongue smoothly upward and forward toward the roof of your mouth, while your lips stay completely relaxed. When pronounced as two separate vowels, produce the open vowel first, then briefly separate it before raising your tongue high for the second vowel.
+For the first sound, open your mouth wide. Glide your tongue up towards the roof of your mouth. Your lips stay relaxed. For the other sound, open your mouth wide first. Then lift your tongue high and smile to make a separate second vowel. Touch your throat to feel your voice buzz throughout.
 
-## Spelling rules
+## When to use each
 
-The letters usually blend into a single syllable as a falling diphthong, as heard in the word (haină) /ˈhaj.nə/. In other words, the two letters sit across a syllable boundary and sound as two distinct vowels, as shown in the word (aurit) /a.uˈrit/.
+The letters ai usually blend into one syllable as the sound /aj/, like in (haină) /ˈhaj.nə/. When separated across two syllables, they sound as two distinct vowels with the sound /a.i/, as heard in (aurit) /a.uˈrit/.
 
-## Common pitfalls
+## Common mistakes
 
-English speakers often stretch this combination into the drawn-out vowel heard in words like my or tie. Keep the glide quick and crisp, without adding an extra vowel sound at the end.
+Do not make this sound like the vowel in the English word rain. The Romanian sound is much more open, exactly like the vowel sound in the English word my. Move smoothly from an open vowel to a quick glide without adding extra puff of air.

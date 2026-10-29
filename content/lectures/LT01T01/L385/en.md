@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L385
+locale: en
+title: "М"
+summary: ""
+status: draft
+entity_id: "LT01T01:L385"
+order: 148
+terms:
+  en: "М"
+  es: "М"
+  it: "М"
+  fr: "М"
+  de: "М"
+  ru: "М"
+  hu: "М"
+  pt: "М"
+  ro: "М"
+---
+
+## The letter эм
+
+The letter (эм) /ɛm/ makes the sound /m/, that is hard m, in (мама) /ˈma.mə/, which means mom. This letter has two sounds in Russian.
+
+## How to say эм
+
+Close both lips firmly and let your voice hum through your nose. Keep your tongue flat for the hard sound. To make the soft sound, arch the middle of your tongue toward the roof of your mouth. Place a finger on your throat to feel the buzzing voice.
+
+## Reading the letter эм
+
+You make the sound /m/, that is hard m, before hard vowels, consonants, or at the end of a word. A clear example is (дом) /dom/. You make the sound /mʲ/, that is soft m, before soft vowels or the soft sign. An example is (мир) /mʲir/, and another is (семь) /sʲemʲ/.
+
+## Mistakes to avoid
+
+Do not forget to soften the sound before soft vowels. English has the hard sound in mom, but lacks the soft sound. Prepare to smile and raise your tongue before your lips part.

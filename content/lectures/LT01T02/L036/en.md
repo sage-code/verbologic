@@ -22,16 +22,16 @@ terms:
 
 ## The sound of iu
 
-The group iu is named by its sound /ju/. It mostly sounds like the sound /ju/ in (iubit) /juˈbit/, which means beloved. Across Romanian words, this letter group can make two different sounds.
+The letters iu are called the sound /ju/. They make the sound /ju/ in (iubit) /juˈbit/, which means beloved. These two letters can make two different sound patterns.
 
-## Pronouncing iu
+## How to say iu
 
-For the first sound, glide quickly from a tight tongue near the roof to rounded lips. For the second sound, make two separate vocal beats. First keep the tongue high and unrounded, then push the lips firmly forward for the next beat. Touch your throat to feel continuous vibration across both beats.
+For the first sound, lift your tongue high and forward, then round your lips tightly. Your voice flows smoothly from a quick glide into the vowel. For the second sound, make two separate beats. Hold your tongue high and flat for the first beat. Then push your lips forward into a circle for the second beat. Place a hand on your throat to feel continuous vibration.
 
-## Spelling patterns of iu
+## Spelling rules for iu
 
-Within a single syllable, the group acts as a glide and makes the sound /ju/, as heard in (iute) /ˈju.te/. When separated across two syllable beats, it sounds as two distinct vowels /i.u/, as in (știu) /ʃti.u/ and (triumf) /triˈumf/.
+When the two letters sit in one single syllable, they make the sound /ju/, as in (iute) /ˈju.te/. When each letter sits in its own syllable, you hear two clear vowels as the sound /i.u/, as in (știu) /ʃti.u/. This split also happens across syllables in (triumf) /triˈumf/.
 
-## Avoiding English pitfalls
+## Common mistakes with iu
 
-English speakers often merge this group into a single vowel like the word you. Do not blend the letters when they sit in separate beats. Keep each vowel clear and distinct, without adding an English w sound at the end.
+Do not swallow the first vowel when the pair splits into two beats. In words with two syllables, do not rush through the letters like the quick glide in you. Say each vowel fully, giving each its own clear pulse of voice.

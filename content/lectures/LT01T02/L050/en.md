@@ -20,18 +20,18 @@ terms:
   ro: "Ce / Ci"
 ---
 
-## The letter combinations Ce and Ci
+## Sounds of Ce and Ci
 
-This letter group is called /tʃe/ or /tʃi/. Its main sound is heard in (ceai) /tʃe/, which means request, petition. It produces two distinct sounds in Romanian depending on its position.
+This letter pair is called /tʃe/, /tʃi/. It makes the main sound /tʃ/, as in (ceai) /tʃe/, which means request, petition. This spelling has two sounds in spoken Romanian.
 
-## How to say Ce and Ci
+## How to say it
 
-For the first sound, press the tip of your tongue against the tooth ridge behind your upper teeth. Release the breath sharply through a small gap while rounding your lips slightly. The vocal cords do not vibrate. For the second sound, make this same release while flattening the middle of your tongue toward the roof of your mouth.
+For the main sound, press the tip of your tongue behind your top front teeth. Release the air with a soft hiss. Your vocal cords do not vibrate. For the second sound, make this same release while raising the middle of your tongue toward the roof of your mouth. Hold your hand against your throat to feel that your voice stays silent.
 
-## Spelling rules for Ce and Ci
+## Reading rules
 
-The letters produce the sound /tʃ/ when they stand before an ordinary vowel, as in (cine) /ˈtʃi.ne/. They produce the palatalized sound /tʃj/ at the very end of a word before a brief non-syllabic vowel, as in (saci) /satʃʲ/.
+Before the letters e or i, read the sound /tʃ/, as in (cine) /ˈtʃi.ne/. At the end of a word before a faint i, read the soft sound /tʃj/, as in (saci) /satʃʲ/.
 
-## Avoiding common mistakes
+## Useful contrasts
 
-English speakers often pronounce these letters like the soft sound in the English word cereal. Instead, always produce the crisp consonant heard in the English word cheese. When ending a word, avoid adding a full extra beat like the ending of the English word catchy. Keep the final release sharp and short.
+Do not pronounce this group like the hard k sound in cat. You must always say it like the soft sound in church. Keep the sound sharp and quick without adding a full vowel after it at the end of a word.

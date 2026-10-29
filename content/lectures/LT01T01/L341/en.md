@@ -20,18 +20,18 @@ terms:
   ro: "Q"
 ---
 
-## Letter sound
+## The letter name
 
-The name of this letter is /k/. It mainly represents the sound /k/, heard in (quasar) /kwi.k‿step/, which means quickstep. This letter has only one sound in Romanian.
+The name of this letter is /k/. Its main sound is the sound /kwi.k‿step/, as in (quasar) /kwi.k‿step/, which means quickstep. The letter has only one sound in Romanian.
 
-## Pronouncing the sound
+## Mouth movements
 
-Press the back of your tongue firmly against the soft roof of your mouth. Stop the airflow completely for a moment, then release it sharply without adding extra breath. Your vocal cords stay still. Hold a flat palm close to your lips to check that you feel only a faint burst of air.
+Raise the back of your tongue to touch the back of the roof of your mouth. Block the air completely. Release the air suddenly without any voice. Put your hand on your throat to feel that your vocal cords do not vibrate.
 
-## Spelling rules
+## Reading rules
 
-This letter appears in foreign loanwords and names, where it always represents the sound /k/. You can hear this sound in the country name (Qatar) /kaˈtar/.
+This letter appears only in foreign loanwords and names. It always makes the sound /k/, as in (Qatar) /kaˈtar/.
 
 ## Common mistakes
 
-English speakers often release this sound with a strong puff of breath. In Romanian, the sound is crisp and clean, like the sound in the English word skate rather than cat. Keep your airflow tightly checked so you never whisper an extra breath after the release.
+English words often puff air out after this sound. In Romanian, release the sound cleanly with no extra puff of air. Keep the sound crisp, just like the sound in the English word skin.

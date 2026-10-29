@@ -20,18 +20,18 @@ terms:
   ro: "U"
 ---
 
-## The letter U
+## The letter name and sound
 
-The name of this letter is pronounced /u/. It represents the sound /u/, as in (urs) /ˈu.nuls/, which means one. This letter has two different sounds in Romanian speech.
+The name of this letter sounds like /u/. Its main sound is heard in the word (urs) /ˈu.nuls/, which means one. This letter makes two sounds.
 
-## Pronouncing the sounds
+## Mouth shape and air
 
-To make the first sound, pull the back of your tongue upward toward the soft palate. Round your lips tightly into a small circle and let your vocal cords vibrate. For the gliding sound, keep the same mouth position, but make the movement much shorter and slide instantly into the neighbouring vowel. Place a hand on your throat to feel continuous vibration.
+Pull your tongue back and raise it high. Round your lips into a tight circle and vibrate your vocal cords. For the gliding sound, keep the same shape and glide quickly into another vowel. Touch your throat to feel the steady vibration.
 
 ## Reading the variants
 
-This letter usually acts as a standard full vowel, sounding like the sound /u/, as in (unu) /ˈu.nu/. It becomes a quick glide, pronounced as the semivowel sound /w/, when it forms a diphthong next to another vowel. You hear this gliding quality in (nou) /now/.
+As a normal vowel, this letter makes the sound /u/, as in (unu) /ˈu.nu/. When this letter stands next to another vowel, it makes the gliding sound /w/, as in (nou) /now/.
 
-## Pitfalls for English speakers
+## Common mistakes
 
-English speakers often glide this vowel into an unstable sound or add a preceding consonant, like the sound in cute. Keep your lips firmly rounded and hold the vowel steady, as in boot. English speakers also weaken unstressed vowels into an obscure sound. Give every Romanian instance of this vowel its full, pure tone.
+Do not make this sound long like the vowel in moon. Keep the sound short and firm. Do not add an extra sound like in the English word you.

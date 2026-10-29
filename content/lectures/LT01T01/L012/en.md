@@ -22,16 +22,16 @@ terms:
 
 ## The letter î
 
-This letter is called /ɨ/. Its sound is heard in the word (înger) /ɨn.t͡seˈleɡ/, which means to understand. It has only one sound in Romanian.
+The letter name is spoken as the sound /ɨ/. It makes this sound in the word (înger) /ɨn.t͡seˈleɡ/, which means to understand. This letter has only one sound in Romanian.
 
-## How to say it
+## Pronouncing the sound
 
-Pull your tongue back into the middle of your mouth and raise it high. Keep your lips unrounded and relaxed, spread slightly as if smiling. Vibrate your vocal cords. Place your hand on your throat to confirm the steady vibration.
+Pull your tongue straight back into the middle of your mouth. Keep your lips relaxed and spread flat. Let your voice hum steadily from your throat. Touch your neck with two fingers to feel the strong vibration.
 
-## Reading the letter
+## Reading this letter
 
-This letter always represents the sound /ɨ/. It appears mainly at the beginning or the end of words, as shown in (înțeleg) /ɨn.t͡seˈleɡ/ and (hotărî) /ho.təˈrɨ/.
+This letter always keeps the same value. It makes the sound /ɨ/ in every position, as shown in the word (hotărî) /ho.təˈrɨ/.
 
-## Sounds in English
+## Common mistakes
 
-English speakers often substitute the sound in roses or the weak vowel in cousin. Pull your tongue further back and tense it higher to produce the true Romanian vowel.
+Do not replace this vowel with the vowel in the English word sit. Do not make the sound in boot with circle lips either. Pull your tongue back, keep your lips flat, and make the sound deep inside your mouth.

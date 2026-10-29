@@ -4,30 +4,30 @@ topic: LT01T03
 article: L627
 locale: en
 title: "What a Syllable Is"
-summary: "Every syllable in Romanian has exactly one vowel sound right at its heart."
+summary: "Every syllable in Romanian builds around exactly one clear vowel sound."
 status: draft
 entity_id: "LT01T03:L627"
 order: 0
 terms:
-  en: "Syllable vowel core"
-  es: "Núcleo de la sílaba"
-  it: "Nucleo della sillaba"
-  fr: "Noyau de syllabe"
+  en: "syllable nucleus"
+  es: "núcleo silábico"
+  it: "nucleo sillabico"
+  fr: "noyau syllabique"
   de: "Silbenkern"
-  ru: "Вершина слога"
-  hu: "Szótagmag"
-  pt: "Núcleo silábico"
-  ro: "Nucleul silabei"
+  ru: "ядро слога"
+  hu: "szótagmag"
+  pt: "núcleo silábico"
+  ro: "nucleu silabic"
 ---
 
-## Every Syllable Has a Vowel
-Think of a syllable like a single beat in music. In Romanian, every syllable must have exactly one vowel sound at its center. Vowels are open sounds like A, E, I, O, and U. You make them by opening your mouth and letting your voice flow freely. Without a vowel sound, you cannot have a syllable. Consonants can stand before or after, but the vowel is always the true boss.
+## The sound
+In Romanian, every beat of a word is a syllable. Each syllable has one vowel sound at its center. This vowel gives the syllable its loud voice. Listen to (mama) /ˈma.ma/, which means mother. You hear two beats. Each beat holds one vowel.
 
-## What Your Mouth and Voice Do
-When you say a vowel, your mouth opens up wide and your vocal cords buzz gently. Your jaw drops a little, and your tongue stays relaxed. Consonants briefly close or squeeze your mouth, but the vowel opens it right back up. When a syllable is stressed, your voice pushes slightly harder, sounding louder and a little higher. On unstressed syllables, your voice stays soft and relaxed.
+## How to say it
+Open your mouth for each vowel. Do not rush through the vowel sound. In (mama) /ˈma.ma/, your voice stresses the first beat. Your pitch rises a little on that first beat. Then, your mouth makes the second beat softly. Keep both vowel sounds clear and steady.
 
-## Listening to the Word Mama
-Look at this easy Romanian word: **mama** /ˈma.ma/, which means mother. Clap your hands as you say it out loud. You will clap two times because there are two syllables: *ma* and *ma*. Each beat has one vowel sound: the open sound /a/. The first beat is stressed, so your voice goes up a tiny bit: *MA-ma*. Your lips touch for M, then open wide for A.
+## Reading rules
+Count the vowel letters to find the syllables. One vowel sound makes one syllable. Look at (apă) /ˈa.pə/, which means water. It has two vowel sounds and two syllables. Consonants attach to the vowel. The vowel is always the main heart of each syllable.
 
-## A Helpful Tip for English Speakers
-In English, people often turn unstressed vowels into a lazy, quiet "uh" sound. In Romanian, you must never swallow your vowels! Keep every vowel crisp and clear, even when it is not the stressed one. In **mama** /ˈma.ma/, both syllables have a clear, bright /a/ sound. Open your mouth nicely for each beat, and let both vowels ring out.
+## Common mistakes
+Do not drop the vowel sound at the end of a word. Every syllable needs its vowel. Do not swallow vowels or blur them together. In (casă) /ˈka.sə/, which means house, say both beats fully. Give each syllable its own distinct, open sound.

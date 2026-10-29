@@ -20,18 +20,18 @@ terms:
   ro: "Ghe / Ghi"
 ---
 
-## The spelling Ghe and Ghi
+## The sound
 
-The letter groups ghe and ghi are pronounced /ge/ and /gi/. Their basic sound is the sound /ɡʲ/, heard in the word (gheață) /ˈɡe̯at͡sə/, which means ice. This spelling pattern represents one single spoken sound across Romanian vocabulary.
+These letters are called /ge/, /gi/. They make the sound /ɡʲ/, as in the word (gheață) /ˈɡe̯at͡sə/, which means ice. This group makes only one sound in Romanian.
 
-## Mouth movements
+## How to say it
 
-Press the back of your tongue against the soft palate while raising the middle of your tongue toward the roof of your mouth. Vibrate your vocal cords and release the air suddenly. Place your fingers against your throat to feel the strong buzzing vibration as the breath breaks through.
+Press the back of your tongue against the roof of your mouth. Keep the middle of your tongue high and close to the roof. Release the air suddenly with your voice. Touch your throat to feel your vocal cords buzz.
 
-## Where it appears
+## Spelling rules
 
-This spelling occurs before the letters e or i to keep a hard sound. It yields the sound /ɡʲ/, as in the noun (ghid) /ɡid/. The letter h stays completely silent and only serves as an orthographic marker.
+The letters ghe or ghi always make the sound /ɡʲ/. You hear this sound before e or i, as in the word (ghid) /ɡid/.
 
-## Common learner mistakes
+## Common mistakes
 
-English speakers often try to pronounce an audible aspiration or an h sound. Do not breathe out an extra puff of air. This consonant is identical to the first sound in the English word geese.
+Do not say the sound like the soft sound in the English word gem. It is a hard sound, like the g in geese. Always keep the sound fully voiced and sharp.

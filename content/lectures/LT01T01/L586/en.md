@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L586
+locale: en
+title: "G"
+summary: "Letter name: G. Example: go."
+status: draft
+entity_id: "LT01T01:L586"
+order: 64
+terms:
+  en: "G"
+  es: "G"
+  it: "G"
+  fr: "G"
+  de: "G"
+  ru: "G"
+  hu: "G"
+  pt: "G"
+  ro: "G"
+---
+
+## Sound of G
+
+The letter (G) /g/ makes the sound /ɡ/ in the word (gas) /ɡæs/, which means gas. This letter has four different sounds in English.
+
+## How to say G
+
+Lift the back of your tongue to touch the roof of your mouth. Release the air suddenly with voice. For the next sound, touch the roof of your mouth with your tongue tip. Push air through and vibrate your vocal cords. For the third sound, push air smoothly between your tongue and the roof. For the last variant, keep quiet. Place your hand on your neck to feel the voice.
+
+## Spelling of G
+
+Before the letters a, o, u or consonants, this letter makes the sound /ɡ/, like in (gold) /ɡoʊld/. Often before e, i, or y, it makes the sound /dʒ/, as heard in (gem) /dʒɛm/. In French loanwords before e or i, it has the sound /ʒ/, such as in (genre) /ʒɑn.rə/. Before the letter n at the beginning or end of a root word, it is silent, as in (gnat) /næt/.
+
+## Comparing G
+
+Do not drop your voice on the hard sound. If you say it like the sound /k/, your throat will not vibrate. Put a hand on your throat to feel the buzz. Do not confuse the soft sound with the sound /tʃ/. Keep your voice on when you speak.

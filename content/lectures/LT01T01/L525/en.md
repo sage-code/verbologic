@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L525
+locale: en
+title: "Y"
+summary: ""
+status: draft
+entity_id: "LT01T01:L525"
+order: 288
+terms:
+  en: "Y"
+  es: "Y"
+  it: "Y"
+  fr: "Y"
+  de: "Y"
+  ru: "Y"
+  hu: "Y"
+  pt: "Y"
+  ro: "Y"
+---
+
+## The letter ipszilon
+
+The letter (ipszilon) /ipsilon/ sounds like the sound /j/. You hear it in the word (yacht) /ˈjɒht/, which means yacht. This letter has two different sounds.
+
+## How to say it
+
+To make the first sound, lift the middle of your tongue high. Keep the tip down behind your bottom front teeth. Let air flow smoothly while your vocal cords vibrate. For the second sound, spread your lips wide and keep your tongue high near the roof of your mouth. Place a hand on your throat to feel the vibration.
+
+## Where each sound occurs
+
+In foreign loanwords, this letter represents the sound /j/ as in (yoga) /ˈjoːɡɒ/. In historical family names with traditional spelling, it represents the sound /i/ as in (Báthory) /ˈbaːtori/.
+
+## Mistakes to avoid
+
+Do not turn the vowel sound into the glide heard in boy. Keep it steady, pure and short, like the vowel in city. When it acts as a consonant, do not add an extra vowel before it. Start directly with the tongue high, like in yes.

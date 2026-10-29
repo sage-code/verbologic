@@ -4,36 +4,37 @@
   "chapter": "LT01",
   "topic": "LT01T05",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T05:L676",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "spoken reduction"
+      "name": "reduction of mulțumesc"
     },
     "es": {
-      "name": "reducción en el habla"
+      "name": "reducción de mulțumesc"
     },
     "it": {
-      "name": "riduzione nel parlato"
+      "name": "riduzione di mulțumesc"
     },
     "fr": {
-      "name": "réduction à l'oral"
+      "name": "réduction de mulțumesc"
     },
     "de": {
-      "name": "gesprochene Reduktion"
+      "name": "Reduktion von mulțumesc"
     },
     "ru": {
-      "name": "редукция в речи"
+      "name": "сокращение mulțumesc"
     },
     "hu": {
-      "name": "beszédbeli rövidülés"
+      "name": "a mulțumesc rövidülése"
     },
     "pt": {
-      "name": "redução na fala"
+      "name": "redução de mulțumesc"
     },
     "ro": {
-      "name": "reducere în vorbire"
+      "name": "reducerea lui mulțumesc"
     }
   },
   "files": {
@@ -41,37 +42,9 @@
       "bytes": 659088,
       "sha1": "032795e2471b0483d1464ca9efddd1cd21f19269"
     },
-    "read/de.mp3": {
-      "bytes": 725328,
-      "sha1": "a805c0efb833f79ac2262502932ac4e83d8c6843"
-    },
-    "read/es.mp3": {
-      "bytes": 690912,
-      "sha1": "52dac8224db5fde755323431db4dc07f0ce314ec"
-    },
-    "read/it.mp3": {
-      "bytes": 647136,
-      "sha1": "fbac635c9c6a7d67ec08a39cdde0de05153dfd84"
-    },
-    "read/fr.mp3": {
-      "bytes": 647280,
-      "sha1": "cb44e2619247af912496b84480ec0d78e02efef5"
-    },
     "read/ro.mp3": {
       "bytes": 725472,
       "sha1": "dcec07334a83478bab77c90cb550d2ad66a3c5b7"
-    },
-    "read/hu.mp3": {
-      "bytes": 735264,
-      "sha1": "9a322bc0ac7b5840db6ec096aa2e1f394cb27418"
-    },
-    "read/ru.mp3": {
-      "bytes": 708912,
-      "sha1": "77b9b7a57eb0c5ea88c767fca813288ea5ff4490"
-    },
-    "read/pt.mp3": {
-      "bytes": 731664,
-      "sha1": "4789cd360aca9f821a132eba2504f4ab1f6351e6"
     }
   },
   "readSections": {
@@ -81,53 +54,11 @@
       56.65,
       82.675
     ],
-    "de": [
-      0,
-      32.388,
-      60.213,
-      91.1
-    ],
-    "es": [
-      0,
-      33.712,
-      60.438,
-      88.862
-    ],
-    "it": [
-      0,
-      28.712,
-      54.162,
-      80.787
-    ],
-    "fr": [
-      0,
-      31.15,
-      56.875,
-      83.475
-    ],
     "ro": [
       0,
       33.888,
       61.938,
       92.45
-    ],
-    "hu": [
-      0,
-      31.8,
-      60.487,
-      93.25
-    ],
-    "ru": [
-      0,
-      33.038,
-      60.812,
-      90.275
-    ],
-    "pt": [
-      0,
-      34.312,
-      63.288,
-      93.075
     ]
   }
 }

@@ -20,18 +20,18 @@ terms:
   ro: "X"
 ---
 
-## Sound of X
+## The letter X
 
-This letter is called /ks/ or /gz/. Its primary sound appears in (xilofon) /ekˈzamen/, which means exam. The letter makes two sounds in Romanian.
+You call this letter by the sound /ks/ or /gz/. Its main sound is heard in (xilofon) /ekˈzamen/, which means exam. This letter makes two distinct sounds in Romanian.
 
-## Pronouncing X
+## Pronouncing the letter
 
-For the voiceless sound, raise the back of your tongue against your soft palate. Release the air sharply into an s sound without voice. For the voiced sound, hum through your throat as the air escapes. Place a hand on your throat to feel the strong vibration during the voiced sound.
+For the first sound, block air with the back of your tongue. Release it sharply, then hiss through your closed teeth without voice. For the second sound, make that same block and hiss, but turn your voice on. Touch your neck to feel strong vibration.
 
-## Spelling of X
+## Reading rules
 
-Before voiceless consonants or at the end of a word, it sounds as /ks/, as in (text) /tekst/. Between vowels, especially in borrowed vocabulary, it is pronounced as /gz/, as in (examen) /ekˈzamen/.
+Before quiet consonants or at the end of a word, say the sound /ks/. You hear this in (text) /tekst/. Between two vowels, say the sound /gz/. You hear this in (exemplu) /ekˈzemplu/.
 
-## English Pitfalls
+## Avoiding mistakes
 
-English speakers often turn word initial occurrences into a simple z sound, as in xylophone. In Romanian, always sound the full consonant combination clearly. Never drop the opening stop sound. Follow the spelling steadily, matching the sound in the English word box or exit.
+Do not soften this letter into the sound in English shoe or jazz. Keep the crisp stop sound first, exactly like the middle of English taxi or exact.

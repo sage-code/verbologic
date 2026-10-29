@@ -3,31 +3,48 @@ track: lectures
 topic: LT01T05
 article: L671
 locale: en
-title: "Pronouncing the Clitic i-a"
-summary: "The hyphen in i-a glues a small pronoun to an auxiliary verb, creating one smooth syllable."
+title: "Pronouncing the Romanian Clitic i-a"
+summary: "Learn how to pronounce the linked Romanian words i-a smoothly as one syllable without pausing at the hyphen."
 status: draft
 entity_id: "LT01T05:L671"
 order: 6
 terms:
-  en: "clitic i-a"
-  es: "clítico i-a"
-  it: "clitico i-a"
-  fr: "clitique i-a"
+  en: "Clitic i-a"
+  es: "Clítico i-a"
+  it: "Clitico i-a"
+  fr: "Clitique i-a"
   de: "Klitikon i-a"
-  ru: "клитика i-a"
-  hu: "i-a klitikum"
-  pt: "clítico i-a"
-  ro: "cliticul i-a"
+  ru: "Клитика i-a"
+  hu: "I-a klitikum"
+  pt: "Clítico i-a"
+  ro: "Cliticul i-a"
 ---
 
-## The clitic pattern
-In Romanian, a hyphen often links two short words into one beat. Here, the pronoun **i** meets the auxiliary verb **a**. Written together, they appear as **i-a**. Even though you see two words, you pronounce them as a single syllable. The vowel sounds glide together quickly without a break. For example, **i-a spus** /ja spus/ means "he told her" or "she told him".
+## The sound
+The letters (i-a) /ja/ sound like one quick syllable.
+You hear a glide like the 'y' sound in 'yes'.
+Then you hear an open 'ah' sound immediately.
+In (i-a spus) /ja spus/, these two words link smoothly together.
+The voice flows across them without any break.
 
-## Mouth and stress
-To pronounce this combination, start with your tongue high and near the roof of your mouth. Quickly glide down into an open "ah" sound. Your lips spread slightly for the first sound and then open wide for the second. This creates the glide /ja/. There is no pause or stop between the letters. The stress lands firmly on the /a/ sound, making it loud and clear while the /j/ sound acts like a quick ramp.
+## How to say it
+Start with your tongue high and near the front.
+Move smoothly down and open your mouth wide.
+Do not stop the air between the sounds.
+Keep the stress on the next word in (i-a spus) /ja spus/.
+Say (i-a) /ja/ quickly, quietly, and with very light breath.
 
-## Practice in a sentence
-Let us practice saying the combination inside a full phrase. Listen to **i-a spus** /ja spus/. Notice that **i-a** behaves like the first syllable of the whole phrase. Your pitch should stay steady across the glide. Then let your pitch rise slightly on the main verb **spus**. Do not separate the words with a breath. Say them in one smooth stream of air.
+## Reading rules
+You see a hyphen between the letters.
+The hyphen shows that two small words become one sound unit.
+The first letter is a helper word.
+The second letter is also a helper word.
+Together, read (i-a) /ja/ as one syllable.
+Always link them into the main action word that follows.
 
-## Common mistakes to avoid
-English speakers often pause at hyphens. A hyphen in Romanian is not a punctuation pause. Do not say "ee" and then wait before saying "ah". If you say two separate syllables, the rhythm sounds unnatural. Treat the hyphen as invisible glue. Another mistake is adding a hard glottal stop before the "a". Keep the sound completely smooth, just like the "ya" sound in the English word "yard".
+## Common mistakes
+Do not say two separate vowel sounds.
+Do not pause at the hyphen.
+Never stress (i-a) /ja/.
+The louder beat belongs to the main word, as in (i-a spus) /ja spus/.
+Keep your voice flowing forward smoothly into the full phrase.

@@ -20,18 +20,18 @@ terms:
   ro: "Ț"
 ---
 
-## The sound ț
+## Sound of the letter
 
-This letter is named /ts/. It represents the sound /ts/, heard in the word (țară) /ˈtsa.rə/, which means country, land. This letter has only one standard sound across the Romanian language.
+The name of this letter is pronounced /ts/. Its main sound is the sound /ts/, heard in the word (țară) /ˈtsa.rə/, which means country, land. This letter makes only one sound in standard Romanian.
 
-## How to say ț
+## How to say it
 
-Press the tip of your tongue against the back of your upper front teeth. Build up slight air pressure behind it. Release the tongue just enough to let a sharp hiss escape. Keep your vocal cords completely still. Place a finger in front of your lips to feel the quick, sudden burst of air.
+Touch the roof of your mouth just behind your upper teeth with your tongue tip. Block the air completely for a moment. Then release the air sharply through a narrow gap while blowing. Your vocal cords do not vibrate. Place your hand on your neck to check that there is no buzzing vibration.
 
-## Reading the letter ț
+## Reading and spelling
 
-This letter has a small comma underneath. It represents the sound /ts/ in every position, as heard in (băiat) /bəˈjat/.
+This letter always produces the same sound in every standard position. You pronounce it as the sound /ts/ whenever you see it written, like in the word (băiat) /bəˈjat/. It does not change before any vowel or consonant.
 
-## Avoiding mistakes with ț
+## Common mistakes
 
-English speakers often separate the two elements into a loose sequence. Match the sound precisely to the letters ts in cats or tsunami. Never let your vocal cords vibrate, and avoid turning it into the ch of chair.
+Do not soften this consonant into the English sound in ship or chin. It is exactly like the sound in the middle of cats or pizza. Keep the initial stop crisp and release it straight into the hissing air. Never add a trailing breath or vowel at the end.

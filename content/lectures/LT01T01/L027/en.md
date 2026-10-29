@@ -20,18 +20,18 @@ terms:
   ro: "W"
 ---
 
-## Sound of the letter
+## Sound of letter W
 
-The letter is called /w/. Its primary sound is heard in (weekend) /ˈvi.kend/, which means Saturday and Sunday. The letter produces two different sounds in Romanian borrowings.
+The name of this letter sounds like the sound /w/. Its primary sound is heard in (weekend) /ˈvi.kend/, meaning the days of rest. This letter has two sounds.
 
-## Pronunciation
+## Mouth movements
 
-To make the sound /v/, rest your upper teeth against your lower lip. Blow voiced air through the gap. Place fingers on your throat to feel continuous vibration. For the sound /w/, round your lips tightly. Pull your tongue back, then release the shape smoothly.
+For the first sound, place your top teeth gently on your bottom lip. Push air through the small opening and vibrate your vocal cords. Touch your neck to feel that steady vibration. For the second sound, pull your tongue back into your mouth. Make a small tight circle with your lips. Push air smoothly while your voice hums.
 
-## Spelling rules
+## Reading rules
 
-In assimilated loanwords from German or older foreign terms, the letter represents the sound /v/, as in (watt) /vat/. In modern English loanwords preserving original foreign sounds, it represents the sound /w/, as shown in (web) /web/.
+In borrowed words from German and older borrowings, this letter gives the sound /v/, as in (watt) /vat/. In newer words from modern English, it keeps the sound /w/, as in (web) /web/.
 
-## Comparison with English
+## Common pitfalls
 
-English speakers easily recognize both sounds. The main difficulty is remembering when to switch to the sound /v/. In English, this letter rarely makes that sound. Look up unfamiliar loanwords to verify which pronunciation applies.
+Do not replace the sound /v/ with the sound in water. When a borrowed word demands the sound /v/, press your top teeth on your bottom lip firmly. Do not replace the sound /w/ with the sound in very. Keep your teeth completely away from your lips.

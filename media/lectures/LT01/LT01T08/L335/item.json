@@ -2,9 +2,10 @@
   "code": "L335",
   "track": "lectures",
   "chapter": "LT01",
-  "topic": "LT01T08",
+  "topic": "LT01T02",
   "kind": "letter",
-  "entity_id": "LT01T08:L335",
+  "target": "en",
+  "entity_id": "LT01T02:L335",
   "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
@@ -66,94 +67,15 @@
     "read/en.mp3": {
       "bytes": 530208,
       "sha1": "a4f0e35a5e640248d6424aa0dcf9e58b3aed3d0d"
-    },
-    "read/de.mp3": {
-      "bytes": 496224,
-      "sha1": "d5f5ece766057775856b3ddfe177113288aa7167"
-    },
-    "read/it.mp3": {
-      "bytes": 477216,
-      "sha1": "c4762a518eab4fbd4dbf7545dc4349783aec1522"
-    },
-    "read/fr.mp3": {
-      "bytes": 420912,
-      "sha1": "2b0a75019a992772952fdd5ca11114ea6f3a7586"
-    },
-    "read/es.mp3": {
-      "bytes": 490320,
-      "sha1": "3a773902ef7246d77339a974d20714af4cfb6315"
-    },
-    "read/ro.mp3": {
-      "bytes": 205920,
-      "sha1": "2cf9d8597fb9a0d75116849e5b956b4d827060e6"
-    },
-    "read/pt.mp3": {
-      "bytes": 419904,
-      "sha1": "33c6fc0f4b7bb4333ef306321ae88898b115284b"
-    },
-    "read/hu.mp3": {
-      "bytes": 498240,
-      "sha1": "3ea0474ed19d09a58d9cdd94341b0069e578c527"
-    },
-    "read/ru.mp3": {
-      "bytes": 485568,
-      "sha1": "733a83a9205dc7a554baa2768fad3bf837cd4aaa"
     }
   },
   "readSections": {
-    "it": [
-      0,
-      17.725,
-      39.888,
-      57.875
-    ],
-    "ro": [
-      0,
-      7.05,
-      19.425,
-      25.562
-    ],
-    "de": [
-      0,
-      19.087,
-      39.95,
-      60.225
-    ],
-    "fr": [
-      0,
-      20.688,
-      35.675,
-      53.425
-    ],
-    "es": [
-      0,
-      18.012,
-      40.312,
-      62.425
-    ],
-    "pt": [
-      0,
-      20.05,
-      35.788,
-      53.862
-    ],
-    "hu": [
-      0,
-      24.675,
-      43.7,
-      63.7
-    ],
     "en": [
       0,
       22.137,
       43.925,
       67.188
-    ],
-    "ru": [
-      0,
-      19.587,
-      41.112,
-      61.662
     ]
-  }
+  },
+  "legacy_entity_id": "LT01T08:L335"
 }

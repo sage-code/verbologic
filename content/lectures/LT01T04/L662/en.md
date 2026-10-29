@@ -3,31 +3,55 @@ track: lectures
 topic: LT01T04
 article: L662
 locale: en
-title: "Turning Off Vocal Cords at Ends"
-summary: "Voiced consonants at the end of a Romanian word lose their vocal cord buzz and become voiceless."
+title: "Voiceless Consonants at Word Ends"
+summary: "A voiced consonant at the end of a word turns into a voiceless consonant in Romanian pronunciation."
 status: draft
 entity_id: "LT01T04:L662"
 order: 15
 terms:
-  en: "Final devoicing"
-  es: "Ensordecimiento final"
-  it: "Desonorizzazione finale"
-  fr: "Dévoisement final"
+  en: "final devoicing"
+  es: "ensordecimiento final"
+  it: "desonorizzazione finale"
+  fr: "dévoisement final"
   de: "Auslautverhärtung"
-  ru: "Оглушение на конце слова"
-  hu: "Szóvégi zöngétlenedés"
-  pt: "Ensurdecimento final"
-  ro: "Asurzire finală"
+  ru: "оглушение на конце слова"
+  hu: "szóvégi zöngétlenedés"
+  pt: "desvozeamento final"
+  ro: "asurzire finală"
 ---
 
-## The Sound Change Rule
-In Romanian, voiced consonants often lose their voice at the end of a word. A voiced sound makes your vocal cords buzz. A voiceless sound uses only moving air. When a word ends with a voiced consonant like d, b, or g, you switch off the voice. The letter stays the same in writing, but your ears hear the voiceless pair instead.
+## The sound
+Some consonants make your throat vibrate.
+Other consonants are quiet and airy.
+At the end of a word, buzzing consonants lose their buzz.
+They become quiet sounds.
+Listen to (pod) /pot/, which means bridge.
+The word ends with a letter for 'd'.
+Yet you hear a clear 't' sound at the end.
 
-## Mouth and Throat Action
-Place two fingers gently on the front of your throat. Say the sound /d/ and feel the vibration in your neck. Now whisper a clean /t/ sound. Notice that the throat stops buzzing completely. The tongue stays pressed against the upper teeth ridge for both sounds. To say **pod** /pot/, drop the voice right at the end. Release a crisp, dry puff of air without any humming sound.
+## How to say it
+Put your fingers gently on your throat.
+Say a long 'z' sound.
+You feel a vibration.
+Now whisper an 's' sound.
+The vibration stops completely.
+When you say (brad) /brat/, meaning fir tree, stop the vibration at the end.
+Press your tongue behind your teeth.
+Release a quick puff of air with no voice.
 
-## The Bridge Example
-Look closely at the Romanian word for bridge, which is **pod** /pot/. You write the word with a letter d at the end. When you speak, you finish the word with a clear /t/ sound. Keep the stress directly on the main vowel o. The pitch falls slightly as you reach the final consonant. Do not add an extra vowel sound after the ending.
+## Reading rules
+Look at the last letter of a word.
+A written 'd' sounds like 't'.
+A written 'b' sounds like 'p'.
+A written 'g' sounds like 'k'.
+For example, read (bob) /bop/, which means grain.
+You see a final 'b'.
+However, your lips pop with a dry 'p' sound.
 
-## Common Mistakes to Avoid
-English speakers often keep their vocal cords vibrating at the end of words. In English, a word like "bed" keeps a soft buzzing sound until the finish. If you do that in Romanian, the word can sound unnatural. Always remember to turn off your throat voice before the final consonant releases. Keep the final consonant short, dry, and voiceless.
+## Common mistakes
+Do not keep your vocal cords buzzing until the silence.
+Many learners push voice into the final sound.
+This can make words sound heavy and unnatural.
+Keep the ending light and short.
+Do not add an extra vowel sound after the last consonant.
+Just cut off the voice and let air finish the word.

@@ -2,9 +2,10 @@
   "code": "L612",
   "track": "lectures",
   "chapter": "LT01",
-  "topic": "LT01T07",
+  "topic": "LT01T01",
   "kind": "letter",
-  "entity_id": "LT01T07:L612",
+  "target": "en",
+  "entity_id": "LT01T01:L612",
   "legacy_entity_id": "letter_debt",
   "cefr": "A1",
   "tags": [
@@ -67,38 +68,6 @@
     "read/en.mp3": {
       "bytes": 492912,
       "sha1": "c86e9c39f71eff75731b61319590c8a47efaa247"
-    },
-    "read/de.mp3": {
-      "bytes": 560160,
-      "sha1": "eaa4eca81c1c8cfd2a35fe961008fd1fdcdb9693"
-    },
-    "read/es.mp3": {
-      "bytes": 528768,
-      "sha1": "1d68feebe8896324957a1cc08f3d2628e3064c36"
-    },
-    "read/fr.mp3": {
-      "bytes": 428976,
-      "sha1": "636e605484e5acb14a2bb6be4d43d2ec9327b4b2"
-    },
-    "read/it.mp3": {
-      "bytes": 546048,
-      "sha1": "c33f10ae6ddf68b5365e238cb81af4d4844ea25f"
-    },
-    "read/ru.mp3": {
-      "bytes": 514656,
-      "sha1": "725be8c609a82d0d82ab3329da9c908b96134d1a"
-    },
-    "read/ro.mp3": {
-      "bytes": 201312,
-      "sha1": "7637eff2741e06f7910f80bfad1f51fe3e4bd3c5"
-    },
-    "read/pt.mp3": {
-      "bytes": 451728,
-      "sha1": "39a05e2c74876442ac6006855f6802cf62d2f91a"
-    },
-    "read/hu.mp3": {
-      "bytes": 502272,
-      "sha1": "ae87078c07c03517c3683015ea265b0fe7a2608e"
     }
   },
   "readSections": {
@@ -107,54 +76,6 @@
       18.762,
       37.812,
       61.188
-    ],
-    "de": [
-      0,
-      23.25,
-      45.862,
-      69.137
-    ],
-    "ro": [
-      0,
-      6.85,
-      16.975,
-      23.125
-    ],
-    "es": [
-      0,
-      24.225,
-      43.338,
-      66.363
-    ],
-    "fr": [
-      0,
-      17.25,
-      33.15,
-      53.55
-    ],
-    "it": [
-      0,
-      26.55,
-      44.638,
-      68.213
-    ],
-    "hu": [
-      0,
-      17.438,
-      37.862,
-      62.45
-    ],
-    "ru": [
-      0,
-      23.962,
-      42.112,
-      64.637
-    ],
-    "pt": [
-      0,
-      19.113,
-      36.1,
-      58.663
     ]
   }
 }

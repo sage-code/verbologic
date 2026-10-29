@@ -4,6 +4,7 @@
   "chapter": "LT01",
   "topic": "LT01T03",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T03:L646",
   "cefr": "A1",
   "tags": [],
@@ -12,22 +13,22 @@
       "name": "stress in pairs"
     },
     "es": {
-      "name": "acento en parejas"
+      "name": "acento en pares"
     },
     "it": {
       "name": "accento nelle coppie"
     },
     "fr": {
-      "name": "accent par paires"
+      "name": "accent dans les paires"
     },
     "de": {
-      "name": "Betonung bei Paaren"
+      "name": "Betonung in Paaren"
     },
     "ru": {
       "name": "ударение в парах"
     },
     "hu": {
-      "name": "hangsúly a szópárokban"
+      "name": "hangsúly szópárokban"
     },
     "pt": {
       "name": "acento em pares"
@@ -37,97 +38,27 @@
     }
   },
   "files": {
-    "read/de.mp3": {
-      "bytes": 641952,
-      "sha1": "74777ffcda78c1556fd4236d9e8ed5c4428e3d19"
-    },
     "read/en.mp3": {
       "bytes": 560016,
       "sha1": "da12dcffbdd609ada8a5fdf2e838f0077f7b82d3"
     },
-    "read/it.mp3": {
-      "bytes": 570672,
-      "sha1": "a841570aba0b5493e0868eafa0443f699c98f41d"
-    },
     "read/ro.mp3": {
       "bytes": 622368,
       "sha1": "ba3dc339e06e8c7535c26c71597227413cd8297f"
-    },
-    "read/es.mp3": {
-      "bytes": 591120,
-      "sha1": "ae935f5a6de62ed375ea7821eaddadd708e1a5a4"
-    },
-    "read/fr.mp3": {
-      "bytes": 553968,
-      "sha1": "0a6ab7716b1d4f90bfdfca0f1e36b7484bc33932"
-    },
-    "read/ru.mp3": {
-      "bytes": 633888,
-      "sha1": "80f242792c29c7fb10458df05ddca70513fd78a4"
-    },
-    "read/hu.mp3": {
-      "bytes": 666720,
-      "sha1": "1b2fdf16ad27e1a206664aae0ff380947d628260"
-    },
-    "read/pt.mp3": {
-      "bytes": 613584,
-      "sha1": "6f4f020ec9bf7b8e7da7b40a31f785f66a7b13fe"
     }
   },
   "readSections": {
-    "de": [
-      0.0,
-      28.538,
-      53.675,
-      79.312
-    ],
     "en": [
-      0.0,
+      0,
       23.887,
       46.875,
       68.662
     ],
-    "it": [
-      0.0,
-      25.212,
-      47.562,
-      71.275
-    ],
     "ro": [
-      0.0,
+      0,
       25.812,
       50.975,
       76.987
-    ],
-    "es": [
-      0.0,
-      28.038,
-      50.925,
-      74.425
-    ],
-    "fr": [
-      0.0,
-      24.575,
-      45.775,
-      70.062
-    ],
-    "ru": [
-      0.0,
-      28.988,
-      53.413,
-      79.662
-    ],
-    "hu": [
-      0.0,
-      30.812,
-      57.513,
-      84.113
-    ],
-    "pt": [
-      0.0,
-      28.012,
-      52.35,
-      77.45
     ]
   }
 }

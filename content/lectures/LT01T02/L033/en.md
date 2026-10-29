@@ -22,16 +22,16 @@ terms:
 
 ## The group ia
 
-The letter combination ia is called /ja/. Its main sound is the gliding diphthong /ja/, heard in the word (iarnă) /ˈjar.nə/, which means winter. Across Romanian words, this pairing can make two different sounds depending on syllable boundaries.
+The letters ia sound like the name /ja/. Their main sound appears in (iarnă) /ˈjar.nə/, which means winter. This letter group makes two different sounds.
 
-## Pronouncing ia
+## Pronouncing the group
 
-For the diphthong, start with your tongue high and near the roof of your mouth. Glide swiftly into an open mouth while dropping your jaw for the vowel. For the separated sound, speak a clear vowel with lips spread, then drop your jaw for a second vowel. Keep your hand on your throat to feel continuous vibration from your vocal cords.
+For the first sound, push your tongue high and forward. Then drop your jaw quickly to an open vowel. Your voice vibrates throughout the whole motion. For the second sound, make a full clear ee vowel first. Then open your mouth completely for a separate ah sound. Feel your throat buzz constantly with your fingers.
 
-## Spelling patterns
+## Reading the spelling
 
-When both letters sit in the same syllable, they form the diphthong sound /ja/, as in the word (băiat) /bəˈjat/. When the vowels split across two syllables in hiatus, they are spoken separately as the sound /i.a/, as heard in the word (pian) /piˈan/.
+When the two letters sit in the same syllable, they make the quick gliding sound /ja/, as in (băiat) /bəˈjat/. When the vowels split across two syllables, pronounce two distinct beats with the sound /i.a/, as in (pian) /piˈan/.
 
-## English comparisons
+## Avoiding mistakes
 
-English speakers often make the gliding diphthong too long. It is identical to the start of the English word yard, rather than two separate vowels. Glide quickly into the open vowel without inserting an extra pause.
+Do not turn the gliding pair into two slow vowels. In words with one syllable, say it quickly like the sound in yard. Also, avoid changing the open vowel to the sound in cat. Keep the second vowel wide and open like the sound in father.

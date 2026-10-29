@@ -34,7 +34,10 @@ Verbologic maintenance runner
   ./run.sh media prune [--apply]        R2 objects no manifest references (default reports, --apply deletes)
   ./run.sh scaffold <lang> <TOPIC> <seed.json>  Seed a blank dictionary topic with pending manifests
   ./run.sh lecture <new|status|translate|review>  Lecture content tooling (content/lectures)
-  ./run.sh create story <topic-code> <n>  Write n illustrated stories for a topic at its CEFR level (Gemini text + pictures + audio)
+  ./run.sh create story <topic-code> [n]  Write n (default 1) illustrated stories for a topic at its CEFR level (Gemini text + pictures + audio)
+  ./run.sh create lecture <topic-code> [--target xx] [--overwrite] [--preview]  Simple-English lecture articles for a chapter-1 topic
+  ./run.sh create read <chapter|topic|item_id> [--dry-run] [--overwrite-audio] [--lang xx]  Read-aloud audio of article docs (generate-audio --read)
+  ./run.sh create sound <chapter|topic|item_id> [--dry-run] [--lang xx]  Re-make the per-language item audio (always overwrites)
   ./run.sh clean                         Remove build junk (keeps .nuxt cache)
   ./run.sh clean-deep                    Remove build junk AND the .nuxt cache
   ./run.sh tsc                           Type-check (vue-tsc)
@@ -203,9 +206,44 @@ case "${1:-help}" in
   scaffold)  shift; node scripts/media-scaffold-topic.mjs "$@" ;;
   lecture)   shift; node scripts/lecture.mjs "$@" ;;
   create)
-    [[ "${2:-}" == story ]] || fail "usage: ./run.sh create story <topic-code> <n>"
-    shift 2
-    .venv/Scripts/python.exe scripts/create-stories.py "$@" ;;
+    case "${2:-}" in
+      story)
+        shift 2
+        .venv/Scripts/python.exe scripts/create-stories.py "$@" ;;
+      read|sound)
+        # `sound` = the per-language audio of the items (always re-made); `read` = the read-aloud of article docs.
+        # The scope is told apart by shape: LT01 = chapter, LT01T03 = topic, anything else (L342) = item id.
+        scope="${3:-}"
+        [[ -n "$scope" && "$scope" != --* ]] || fail "usage: ./run.sh create $2 <chapter|topic|item_id> [--dry-run] [--lang xx]"
+        kind="$2"; shift 3
+        if   [[ "$scope" =~ ^[A-Z]{2}[0-9]+$ ]];       then flag=(--chapter "$scope")
+        elif [[ "$scope" =~ ^[A-Z]{2}[0-9]+T[0-9]+$ ]]; then flag=(--topic "$scope")
+        else                                              flag=(--id "$scope"); fi
+        apply=(--apply)
+        rest=()
+        for a in "$@"; do [[ "$a" == --dry-run ]] && apply=() || rest+=("$a"); done
+        if [[ "$kind" == sound ]]; then mode=(--audio --overwrite-audio); else mode=(--read); fi
+        .venv/Scripts/python.exe scripts/generate-audio.py "${mode[@]}" "${flag[@]}" "${apply[@]}" "${rest[@]}" ;;
+      lecture)
+        # Lecture articles (simple English, English only) for one chapter-1 topic, every language that has material.
+        topic="${3:-}"
+        [[ "$topic" =~ ^[A-Z]{2}[0-9]+T[0-9]+$ ]] || fail "usage: ./run.sh create lecture <topic-code> [--target xx] [--overwrite] [--preview]"
+        shift 3
+        case "$topic" in
+          LT01T01|LT01T02)
+            # Letters and letter groups come from src/data/alphabets/<lang>.json; this covers both topics.
+            ow=(); [[ " $* " == *" --overwrite "* ]] && ow=(--overwrite)
+            tgt=(--all); [[ " $* " == *" --target "* ]] && tgt=(--lang "$(sed -E 's/.*--target ([a-z]{2}).*/\1/' <<<"$*")")
+            .venv/Scripts/python.exe scripts/generate-alphabet-content.py "${tgt[@]}" --locales en "${ow[@]}" --apply
+            node scripts/alphabet-to-markdown.mjs "${ow[@]}" ;;
+          LT01T03|LT01T04|LT01T05|LT01T06)
+            # Rows come from scripts/seeds/lectures-LT01-<lang>.json (hand-written example + IPA); add rows there first.
+            mode=(--apply); [[ " $* " == *" --preview "* ]] && mode=()
+            .venv/Scripts/python.exe scripts/create-lecture-articles.py --topic "$topic" "${mode[@]}" "$@" ;;
+          *) fail "no lecture generator for $topic yet (chapter-1 topics LT01T01-LT01T06 only)" ;;
+        esac ;;
+      *) fail "usage: ./run.sh create <story <topic-code> [n] | lecture <topic-code> | read|sound <chapter|topic|item_id>>" ;;
+    esac ;;
   clean)
     warn "Removing temp/ (keeping build.fingerprint, last_push, missing-content.md), node_modules/.cache, .output/"
     find temp -mindepth 1 \

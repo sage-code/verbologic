@@ -4,43 +4,40 @@
   "chapter": "LT01",
   "topic": "LT01T03",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T03:L641",
   "cefr": "A1",
   "tags": [],
   "locales": {
     "en": {
-      "name": "-a and -ă endings"
+      "name": "The endings -a and -ă"
     },
     "es": {
-      "name": "Terminaciones -a y -ă"
+      "name": "Las terminaciones -a y -ă"
     },
     "it": {
-      "name": "Desinenze -a e -ă"
+      "name": "Le terminazioni -a e -ă"
     },
     "fr": {
-      "name": "Terminaisons -a et -ă"
+      "name": "Les terminaisons -a et -ă"
     },
     "de": {
-      "name": "Endungen -a und -ă"
+      "name": "Die Endungen -a und -ă"
     },
     "ru": {
       "name": "Окончания -a и -ă"
     },
     "hu": {
-      "name": "-a és -ă végződések"
+      "name": "Az -a és -ă végződések"
     },
     "pt": {
-      "name": "Terminações -a e -ă"
+      "name": "As terminações -a e -ă"
     },
     "ro": {
       "name": "Terminațiile -a și -ă"
     }
   },
   "files": {
-    "read/de.mp3": {
-      "bytes": 488880,
-      "sha1": "3725ee72a90190e1bd850f3b071f913e8f804d45"
-    },
     "read/en.mp3": {
       "bytes": 449280,
       "sha1": "ab1d7d7169a0559713089a8479dfc95a097c63c0"
@@ -48,85 +45,20 @@
     "read/ro.mp3": {
       "bytes": 494496,
       "sha1": "2c9818ce80abe773e6e4918cd7f3e37d3776d960"
-    },
-    "read/es.mp3": {
-      "bytes": 494640,
-      "sha1": "ddde9bb07904f4cccfc722108705a82859ed4902"
-    },
-    "read/it.mp3": {
-      "bytes": 441792,
-      "sha1": "8f2f2969359b349f2ce088ccd285f6a151319483"
-    },
-    "read/fr.mp3": {
-      "bytes": 448848,
-      "sha1": "74fe4dd5597cae31b99df068444d2d3bb78ee45f"
-    },
-    "read/hu.mp3": {
-      "bytes": 545472,
-      "sha1": "ffb3424de3d992c5c5602b33edc55f026836c8db"
-    },
-    "read/ru.mp3": {
-      "bytes": 548928,
-      "sha1": "0129ff49248c178f8ab79dd0e48fef231bb1e758"
-    },
-    "read/pt.mp3": {
-      "bytes": 490176,
-      "sha1": "441270deed01f23905f8e3da9348a1e860979936"
     }
   },
   "readSections": {
-    "de": [
-      0.0,
-      22.238,
-      42.413
-    ],
     "en": [
-      0.0,
+      0,
       20.113,
       42.25,
       58.212
     ],
     "ro": [
-      0.0,
+      0,
       24.875,
       45.362,
       66.012
-    ],
-    "es": [
-      0.0,
-      22.625,
-      44.688,
-      63.812
-    ],
-    "it": [
-      0.0,
-      21.325,
-      41.912,
-      58.225
-    ],
-    "fr": [
-      0.0,
-      20.887,
-      40.725,
-      60.012
-    ],
-    "hu": [
-      0.0,
-      25.125,
-      49.263,
-      70.625
-    ],
-    "ru": [
-      0.0,
-      24.887,
-      48.3,
-      71.45
-    ],
-    "pt": [
-      0.0,
-      23.038,
-      43.8,
-      64.575
     ]
   }
 }

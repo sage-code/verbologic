@@ -2,9 +2,10 @@
   "code": "L339",
   "track": "lectures",
   "chapter": "LT01",
-  "topic": "LT01T08",
+  "topic": "LT01T02",
   "kind": "letter",
-  "entity_id": "LT01T08:L339",
+  "target": "en",
+  "entity_id": "LT01T02:L339",
   "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
@@ -66,94 +67,15 @@
     "read/en.mp3": {
       "bytes": 483264,
       "sha1": "50ebbacec6a59f9a28215c8d3aecdd7123f0d69a"
-    },
-    "read/de.mp3": {
-      "bytes": 489744,
-      "sha1": "97bc0267d4983fe6c088bfd9c20d5a35cb4f55d3"
-    },
-    "read/fr.mp3": {
-      "bytes": 399600,
-      "sha1": "693daf0d8ea5184ed9be15a31c705c183462aeca"
-    },
-    "read/it.mp3": {
-      "bytes": 497376,
-      "sha1": "97c1a456bd8ab2dd9670c8727a7e945591e1a459"
-    },
-    "read/pt.mp3": {
-      "bytes": 402336,
-      "sha1": "0c2ae55489b8f231359b8abf447bf9bd5cc58705"
-    },
-    "read/hu.mp3": {
-      "bytes": 447552,
-      "sha1": "9e4bf8d8a53575653cd66250f447cf11020fb105"
-    },
-    "read/es.mp3": {
-      "bytes": 474624,
-      "sha1": "c1a7cb2e51b9be45ba0a53af7181aba1ce9e6355"
-    },
-    "read/ro.mp3": {
-      "bytes": 178992,
-      "sha1": "fc111a4aa0580d3319c99067c589845425484c2f"
-    },
-    "read/ru.mp3": {
-      "bytes": 456192,
-      "sha1": "9d40dbf78c2c409a7e8f269e088b49bb5761786d"
     }
   },
   "readSections": {
-    "it": [
-      0,
-      21.775,
-      42.188,
-      63.05
-    ],
-    "ro": [
-      0,
-      4.575,
-      13.488,
-      20.038
-    ],
-    "fr": [
-      0,
-      16.038,
-      32.45,
-      48.688
-    ],
-    "es": [
-      0,
-      21.288,
-      41.788,
-      60.075
-    ],
-    "pt": [
-      0,
-      17.125,
-      32.987,
-      48.862
-    ],
-    "hu": [
-      0,
-      17.688,
-      36.65,
-      55.175
-    ],
-    "de": [
-      0,
-      20.113,
-      42.812,
-      60.737
-    ],
     "en": [
       0,
       21.575,
       41.513,
       58.913
-    ],
-    "ru": [
-      0,
-      18.575,
-      38.925,
-      57.462
     ]
-  }
+  },
+  "legacy_entity_id": "LT01T08:L339"
 }

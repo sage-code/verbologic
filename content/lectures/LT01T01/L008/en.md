@@ -20,18 +20,18 @@ terms:
   ro: "F"
 ---
 
-## Sound of the letter
+## The letter sound
 
-The letter is called /f/. It regularly makes the sound /f/, heard in the word (floare) /flo̯a.re/, which means flower. Across the language, this character represents only one sound.
+This letter is called /f/. Its main sound is the sound /f/, heard in (floare) /flo̯a.re/, which means flower. The letter makes only one sound in Romanian.
 
-## Pronunciation guide
+## Pronouncing the letter
 
-Press your upper teeth lightly against your lower lip. Blow air continuously through the narrow gap without engaging your vocal cords. Hold a palm in front of your mouth to feel the steady stream of cool air.
+Touch your lower lip gently against your upper teeth. Blow air smoothly through the narrow gap without using your voice. Place a hand on your throat to check that your vocal cords do not buzz.
 
-## Reading rules
+## Reading the letter
 
-This letter consistently stands for the sound /f/ in all regular spelling positions. You hear it at the start of (foc) /fok/.
+This letter always makes the sound /f/ in all regular positions. You can hear it at the start of (foc) /fok/.
 
-## English comparison
+## Tips for learners
 
-English speakers make this sound effortlessly, as it is identical to the consonant in fox. There are no special traps or differences to correct.
+This sound is identical to the first sound in the English word fish. There is no real pitfall for this letter.

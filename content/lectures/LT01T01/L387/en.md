@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L387
+locale: en
+title: "О"
+summary: ""
+status: draft
+entity_id: "LT01T01:L387"
+order: 150
+terms:
+  en: "О"
+  es: "О"
+  it: "О"
+  fr: "О"
+  de: "О"
+  ru: "О"
+  hu: "О"
+  pt: "О"
+  ro: "О"
+---
+
+## Sound of letter o
+
+The name of this letter is (о) /o/. Its main sound appears in (окно) /ɐkˈno/, which means window. The letter makes three distinct sounds in Russian.
+
+## How to say it
+
+For the first sound, pull your tongue back and round your lips into an open circle. For the second sound, relax your lips and open your mouth slightly wider. For the third sound, keep your mouth almost closed and leave your tongue relaxed in the middle. Place a hand on your throat to feel your voice buzz continuously.
+
+## Spelling rules
+
+When the accent falls on this letter, pronounce the sound /o/, as in (дом) /dom/. In the syllable right before the accent, it becomes the sound /ɐ/, that is a clearer short ah, heard in (вода) /vɐˈda/. In other unaccented positions, it weakens to the sound /ə/, that is a muffled neutral sound, heard in (молоко) /məlɐˈko/.
+
+## Mistakes to avoid
+
+Do not turn the accented vowel into a double vowel like the one in boat. Keep your lips firmly in one place until the vowel ends. Also, do not pronounce every unaccented position as a clear vowel from law. Let your mouth relax completely when the accent falls elsewhere.

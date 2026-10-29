@@ -4,30 +4,49 @@ topic: LT01T06
 article: L696
 locale: en
 title: "Emphasis by Word Order"
-summary: "In Romanian, put the most important word first and give it the strongest stress and pitch."
+summary: "Learn how putting the most important Romanian word first gives it the strongest stress and tone."
 status: draft
 entity_id: "LT01T06:L696"
 order: 13
 terms:
-  en: "word order emphasis"
-  es: "énfasis por orden"
-  it: "enfasi dall'ordine"
-  fr: "emphase par l'ordre"
+  en: "emphasis by word order"
+  es: "énfasis por orden sintáctico"
+  it: "ordine enfatico delle parole"
+  fr: "ordre des mots emphatique"
   de: "Betonung durch Wortstellung"
   ru: "эмфатический порядок слов"
-  hu: "hangsúly a szórenddel"
-  pt: "ênfase pela ordem"
-  ro: "emfază prin topică"
+  hu: "hangsúlyos szórend"
+  pt: "ordem enfática das palavras"
+  ro: "accentuare prin topică"
 ---
 
-## Word order and focus
-In Romanian, word order changes which idea feels most important. When you want to highlight a specific person, you place that word right at the beginning of the sentence. Romanian often drops pronouns like "I" or "you" completely. If you decide to say the pronoun first, you make it special. It tells the listener that this person is the true focus.
+## The sound
+You can change word order to show what is important.
+The most important word moves to the front.
+This first word sounds louder and clearer than the rest.
+Your pitch rises slightly on this first word.
+Then, your voice drops and stays lower for the words that follow.
 
-## Voice, stress, and pitch
-To emphasise the first word, push more air from your lungs. Raise the musical pitch of your voice on that first word. Make its vowels slightly longer and clearly louder than the rest. Right after that word, let your pitch drop down immediately. The rest of the sentence should sound softer, lower, and relaxed.
+## How to say it
+Push more air from your lungs on the first word.
+Speak this word with a stronger voice.
+Listen to (Eu sunt) /ˈe.u sunt/, which means it is me.
+Your tone rises on the first vowel sound.
+Then, your voice falls on the second word.
+Drop your lower jaw gently and finish softly.
 
-## Practice the example
-Look at the example **Eu sunt.** /ˈe.u sunt/. In English, this means "It is me" or "I am". Start strong on **Eu** with your mouth open and a high, punchy voice. Then say **sunt** with less breath and a lower tone. The contrast between high and low makes the meaning clear to any Romanian listener.
+## Reading rules
+Look at the start of the Romanian sentence.
+The most important information usually comes first.
+When you read, place the main stress right at the beginning.
+In (Eu sunt) /ˈe.u sunt/, stress the first word heavily.
+The second word stays quiet.
+Word order shows the listener where your focus is.
 
-## Mistakes to avoid
-English speakers often keep every word at the exact same pitch. Do not speak like a flat robot here. Another mistake is stressing the last word instead of the first word. If you stress the verb at the end, the emphasis disappears. Always hit the first word hardest, then glide softly downward.
+## Common mistakes
+Do not stress every word with equal force.
+If you stress both words, you lose the clear emphasis.
+Do not raise your pitch at the end like a question.
+Keep the second word soft and low.
+Also, do not rush the opening word.
+Give that first word enough breath and time.

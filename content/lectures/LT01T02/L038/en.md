@@ -20,18 +20,18 @@ terms:
   ro: "ue"
 ---
 
-## Sound of ue
+## The letters ue
 
-The letter group ue is called /we/. Its main sound is heard in the word (înșeuează) /ɨn.ʃe.we̯aˈza/, which means saddles a horse. This spelling represents one gliding combination in Romanian speech.
+The letters ue sound like /we/. Their main sound is heard in (înșeuează) /ɨn.ʃe.we̯aˈza/, which means saddles a horse. This combination makes one sound.
 
-## How to say ue
+## How to say it
 
-Round your lips tightly and pull your tongue back, then immediately spread your lips slightly and raise the middle of your tongue. Let your vocal cords vibrate smoothly through the whole movement. Touch your throat to feel the steady vibration as the air flows out without stopping.
+Make a small tight circle with your lips. Glide smoothly into an open smile. Vibrate your vocal cords with your voice throughout the glide. You can feel your throat buzz with your fingers.
 
-## Spelling of ue
+## Spelling rules
 
-This letter sequence appears as an ascending diphthong within a single syllable, where it makes the sound /we̯/. You can hear this combination in the word (leului) /ˈlew.luj/.
+These two letters sound like the sound /we̯/ within a single syllable, as in (leului) /ˈlew.luj/.
 
-## Pitfalls with ue
+## Common mistakes
 
-English speakers often separate these two letters into two separate vowel beats, as in the words blue echo. Do not break the flow or pause between them. Glide immediately from the first rounded position into the next vowel in one quick breath, exactly like the start of the English word wet.
+Do not turn this glide into two slow vowels. Move quickly like the start of wet. Keep your lips tight at first.

@@ -4,36 +4,37 @@
   "chapter": "LT01",
   "topic": "LT01T03",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T03:L643",
   "cefr": "A1",
   "tags": [],
   "locales": {
     "en": {
-      "name": "Stress in suffixes"
+      "name": "suffix stress pattern"
     },
     "es": {
-      "name": "Acento en sufijos"
+      "name": "acentuación de sufijos"
     },
     "it": {
-      "name": "Accento nei suffissi"
+      "name": "accento dei suffissi"
     },
     "fr": {
-      "name": "Accent des suffixes"
+      "name": "accent des suffixes"
     },
     "de": {
       "name": "Betonung bei Suffixen"
     },
     "ru": {
-      "name": "Ударение в суффиксах"
+      "name": "ударение в суффиксах"
     },
     "hu": {
-      "name": "Hangsúly a képzőkön"
+      "name": "képzők hangsúlyozása"
     },
     "pt": {
-      "name": "Acento nos sufixos"
+      "name": "acentuação de sufixos"
     },
     "ro": {
-      "name": "Accentul pe sufixe"
+      "name": "accentul sufixelor"
     }
   },
   "files": {
@@ -41,93 +42,23 @@
       "bytes": 610272,
       "sha1": "8e633dd1ec190d2f176f135bbe75b521f1d86250"
     },
-    "read/de.mp3": {
-      "bytes": 652176,
-      "sha1": "2cf2f69722d593ea9de9f7087079bda7be2ea149"
-    },
-    "read/it.mp3": {
-      "bytes": 609840,
-      "sha1": "3673efd3f0149fbe7c1a4c65c5b1a4c9024fbd64"
-    },
-    "read/es.mp3": {
-      "bytes": 610848,
-      "sha1": "b442d6487631e2fede7244cbe422e3413305ddfa"
-    },
-    "read/fr.mp3": {
-      "bytes": 602496,
-      "sha1": "5beb89ba8f55068dafa604c647dadde50a3f3284"
-    },
     "read/ro.mp3": {
       "bytes": 602496,
       "sha1": "f07e42ee354f4b9d0d2a8e3697c0205984b4f99a"
-    },
-    "read/ru.mp3": {
-      "bytes": 653040,
-      "sha1": "010396016bcc2a90ab42bdb0f493785c1ee25827"
-    },
-    "read/hu.mp3": {
-      "bytes": 691920,
-      "sha1": "269d58ce90073f166b76c33e2b9f34954595109c"
-    },
-    "read/pt.mp3": {
-      "bytes": 663984,
-      "sha1": "4698d03c047b8ed28c78bf701a68ec83adae823c"
     }
   },
   "readSections": {
     "en": [
-      0.0,
+      0,
       24.275,
       50.888,
       74.6
     ],
-    "de": [
-      0.0,
-      26.637,
-      53.212,
-      81.4
-    ],
-    "it": [
-      0.0,
-      25.637,
-      50.912,
-      76.812
-    ],
-    "es": [
-      0.0,
-      27.35,
-      51.487,
-      76.463
-    ],
-    "fr": [
-      0.0,
-      24.887,
-      49.95,
-      75.938
-    ],
     "ro": [
-      0.0,
+      0,
       25.538,
       51.075,
       77.575
-    ],
-    "ru": [
-      0.0,
-      26.75,
-      52.25,
-      80.875
-    ],
-    "hu": [
-      0.0,
-      28.45,
-      56.3,
-      87.512
-    ],
-    "pt": [
-      0.0,
-      27.9,
-      53.912,
-      83.087
     ]
   }
 }

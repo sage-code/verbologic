@@ -4,27 +4,30 @@ topic: LT01T04
 article: L658
 locale: en
 title: "The Letters Î and Â"
-summary: "The letters î and â produce the exact same vowel sound, which is written as ɨ."
+summary: "Learn how to pronounce the Romanian letters î and â with correct mouth shape and simple spelling rules."
 status: draft
 entity_id: "LT01T04:L658"
 order: 11
 terms:
-  en: "the sound ɨ"
-  es: "el sonido ɨ"
-  it: "il suono ɨ"
-  fr: "le son ɨ"
-  de: "der Laut ɨ"
-  ru: "звук ɨ"
-  hu: "az ɨ hang"
-  pt: "o som ɨ"
-  ro: "sunetul ɨ"
+  en: "letters î and â"
+  es: "letras î y â"
+  it: "lettere î e â"
+  fr: "lettres î et â"
+  de: "Buchstaben î und â"
+  ru: "буквы î и â"
+  hu: "î és â betűk"
+  pt: "letras î e â"
+  ro: "literele î și â"
 ---
 
-## Two letters for one sound
-Romanian uses two different letters for the exact same vowel sound. These letters are **î** and **â**. In the international phonetic alphabet, this sound is written as /ɨ/. The letter **â** usually appears in the middle of words. The letter **î** is written at the start or the end of words. However, **î** also stays inside words when prefixes are added. Both letters sound completely identical to the ear.
+## The sound
+Two letters in Romanian make the very same vowel sound. These letters are î and â. You hear this sound in the word (români) /roˈmɨnʲ/, which means Romanians. It is a deep, central sound. Your voice stays steady and clear when you speak it.
 
-## How to shape your mouth
-To make the sound /ɨ/, start by saying a normal "ee" sound. Now, pull your tongue backward into the center of your mouth. Keep your tongue high, near the roof of your mouth. Do not round your lips at all. Keep your mouth relaxed and slightly spread, as if you are smiling. Your vocal cords vibrate with a steady tone. The sound should feel deep inside the mouth rather than at the front.
+## How to say it
+Start to make the sound in the word 'see'. Now, pull your tongue back into the middle of your mouth. Keep your lips flat and relaxed. Do not round your lips. Push air through your throat with a steady voice. The sound comes from deep inside.
 
-## The example and common mistakes
-A great example is the word **români** /roˈmɨnʲ/, which means "Romanians". The stress lands directly on the second syllable with the letter **â**. English speakers often replace this sound with a weak "uh" or an "ah". That changes the word completely. Another mistake is rounding the lips into an "oo" sound. Keep your lips flat, pull the tongue back, and deliver the stressed syllable with confidence.
+## Reading rules
+Both letters make the exact same sound. You usually write â inside words, as in (români) /roˈmɨnʲ/. You write î at the start of words, as in (în) /ɨn/. You also see î inside words when a root word starts with it. The pronunciation never changes.
+
+## Common mistakes
+Do not round your lips when you say this sound. Rounded lips make a different vowel entirely. Also, do not pronounce the two letters differently. They sound identical. Practice with the word (români) /roˈmɨnʲ/ until your tongue feels natural. Keep your jaw relaxed every time.

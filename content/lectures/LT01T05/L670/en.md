@@ -3,31 +3,47 @@ track: lectures
 topic: LT01T05
 article: L670
 locale: en
-title: "Pronouncing the Clitic ți-e"
-summary: "The written hyphen joins the pronoun ți and the verb e into a single quick syllable."
+title: "Pronouncing the Combined Word ți-e"
+summary: "Learn how to pronounce the combined form ți-e smoothly as a single quick syllable in Romanian."
 status: draft
 entity_id: "LT01T05:L670"
 order: 5
 terms:
-  en: "clitic contraction"
-  es: "contracción clítica"
-  it: "contrazione clitica"
-  fr: "contraction clitique"
-  de: "klitische Kontraktion"
-  ru: "клитическая стяжка"
-  hu: "klitikus összevonás"
-  pt: "contração clítica"
-  ro: "contragere clitică"
+  en: "Clitic ți-e"
+  es: "Clítico ți-e"
+  it: "Clitico ți-e"
+  fr: "Clitique ți-e"
+  de: "Klitikon ți-e"
+  ru: "Клитика ți-e"
+  hu: "A ți-e klitikum"
+  pt: "Clítico ți-e"
+  ro: "Cliticul ți-e"
 ---
 
-## Two words in one sound
-The little word **ți** means "to you". The word **e** means "is". When they meet, Romanian connects them with a hyphen as **ți-e**. Even though you see two words, your voice treats them as one unit. The hyphen tells you not to pause between them. Together, they form a single fast syllable.
+## The sound
+The mark between the letters joins two parts into one sound.
+You say them together in one breath.
+Listen to (ți-e foame) /tsje ˈfo.ame/, which means you are hungry.
+The first sound starts sharp and flows directly into the vowel.
+Your voice does not pause between them.
 
-## How your mouth makes the sound
-Put the tip of your tongue behind your upper front teeth to make the **ț** sound, like the end of "cats". Immediately let the air burst through while your tongue glides through a short "y" sound into the vowel "e". Do not stop your breath in the middle. The whole combination sounds like [tsje]. The pitch stays smooth and moves forward quickly.
+## How to say it
+Put the tip of your tongue behind your top front teeth.
+Release air quickly with a sharp sound, like 'ts' in 'cats'.
+Glide right into a quick 'y' sound and finish on 'e'.
+Keep your jaw relaxed and your lips slightly open.
+Say the whole cluster smoothly without any break.
 
-## In everyday sentences
-You will hear this pattern often when talking about feelings or needs. A very common phrase is **ți-e foame** /tsje ˈfo.ame/, which means "you are hungry". In this phrase, **ți-e** is spoken quickly, while the main stress lands firmly on the first syllable of **foame**.
+## Reading rules
+The hyphen shows that two words merge into one syllable.
+Here, the pronoun (ți) /tsi/ connects directly to the verb (e) /e/.
+The vowel in the first part weakens to a quick glide.
+The stress moves forward to the next main word.
+Read the written hyphen as a bridge, not a stop.
 
-## Common mistakes to avoid
-English speakers often try to pronounce two separate words with a pause. Do not say "tsee... eh". That sounds robotic and breaks the natural rhythm of Romanian. Another mistake is dropping the little "y" glide completely. Make sure your tongue slides smoothly from the **ț** straight through to the **e** in one single breath.
+## Common mistakes
+Do not say the two parts as two separate words.
+Never stop your breath at the hyphen.
+Also, do not drop the sharp start of the sound.
+Keep the tongue close to the teeth.
+Blend the sounds quickly, so the rhythm stays smooth and natural.

@@ -3,31 +3,31 @@ track: lectures
 topic: LT01T05
 article: L669
 locale: en
-title: "Pronouncing the Unit mi-e"
-summary: "The written phrase mi-e combines a pronoun and a verb into one smooth, single-syllable sound."
+title: "Pronouncing the Clitic Mi-e"
+summary: "Learn how two words join into one quick sound when you pronounce mi-e in Romanian."
 status: draft
 entity_id: "LT01T05:L669"
 order: 4
 terms:
-  en: "clitic contraction"
-  es: "contracción clítica"
-  it: "contrazione clitica"
-  fr: "contraction clitique"
-  de: "klitische Kontraktion"
-  ru: "энклитическое слияние"
-  hu: "hangtani összevonás"
-  pt: "contração clítica"
-  ro: "contragere clitică"
+  en: "Clitic mi-e"
+  es: "Clítico mi-e"
+  it: "Clitico mi-e"
+  fr: "Clitique mi-e"
+  de: "Klitikon mi-e"
+  ru: "Клитика mi-e"
+  hu: "A mi-e klitikum"
+  pt: "Clítico mi-e"
+  ro: "Cliticul mi-e"
 ---
 
-## The Connected Pattern
-In Romanian, a pronoun and a short verb often blend together. The written form **mi-e** shows this link with a hyphen. You do not say two separate words here. Instead, the pronoun and the verb merge into one single syllable. This creates a very fast, compact unit in natural speech. Our main example is **mi-e frig** /mje frig/, which means I am cold. In this phrase, the hyphen tells your voice to keep flowing smoothly without pausing.
+## The sound
+In Romanian, two short words often melt together. The unit (mi-e) /mje/ sounds like one fast beat. You hear an m sound, then a quick glide, and an open vowel. Listen to (mi-e frig) /mje frig/, which means I am cold.
 
-## Mouth, Stress, and Tone
-To say **mi-e**, start with your lips closed to make the sound of the letter m. Next, quickly widen your lips slightly into a glide sound. Your tongue glides instantly toward the front of your mouth to release a clear short vowel sound. The stress lands firmly on the vowel at the end of this blended word. Keep your tone level and confident before moving to the next word. Do not let your voice drop or stop between the letters.
+## How to say it
+Start with your lips closed for the first sound. Open your mouth quickly into the glide. Do not pause between the letters. Push your voice out in one single breath. Your tone stays smooth and fast. Say the whole unit quickly before you add (frig) /frig/.
 
-## How It Sounds Together
-Think of the written pair as a single quick beat. In the full sentence **mi-e frig** /mje frig/, you hear only two main rhythmic beats. The first beat is the blended pair, and the second beat is the noun. The second word receives the strongest accent in the short phrase. Your breath should move across both parts without any interruption. This smooth flow makes your spoken Romanian sound natural and lively to native listeners.
+## Reading rules
+The hyphen shows that two words join together. You see two words, but you read one syllable. The first vowel becomes a quick glide like the 'y' in 'yes'. The second vowel takes the main energy. Whenever you read (mi-e) /mje/, never separate the parts.
 
-## Mistakes to Avoid
-English speakers often want to read each letter as its own sound. They might say two distinct words with a small pause between them. That sounds stiff and unnatural to native speakers. Another common error is adding an extra breathing gap right at the hyphen. Remember that the hyphen is just a spelling mark for your eyes. Never pause at the hyphen, but slide your tongue smoothly straight through the vowel.
+## Common mistakes
+Do not make two separate beats. Never say two slow vowels with a pause. A small break between the letters sounds unnatural. Another mistake is dropping the first vowel completely. Keep both sounds alive in your mouth. Squeeze them together into one quick burst of air.

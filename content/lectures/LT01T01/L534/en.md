@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L534
+locale: en
+title: "H"
+summary: ""
+status: draft
+entity_id: "LT01T01:L534"
+order: 297
+terms:
+  en: "H"
+  es: "H"
+  it: "H"
+  fr: "H"
+  de: "H"
+  ru: "H"
+  hu: "H"
+  pt: "H"
+  ro: "H"
+---
+
+## Letter agá
+
+The letter (agá) /aˈɡa/ has no sound of its own in European Portuguese. It is completely silent in the word (hotel) /ɔˈtɛl/, which means hotel. This letter never makes a sound when it stands alone. You always hear only the neighbouring vowel.
+
+## How to say it
+
+You make no sound at all. Keep your throat quiet and do not breathe out extra air. Put your hand on your throat. You feel no sound before the next vowel starts.
+
+## Spelling rules
+
+This letter is always silent when it stands alone. It never makes a sound at the start of a word, as in (hora) /ˈɔ.ɾɐ/. It also stays completely silent in words like (hoje) /ˈo.ʒɨ/.
+
+## Common mistakes
+
+Do not breathe out a puff of air as in house or hotel. You must never make that English sound in European Portuguese. Treat the word as if it begins straight with the first vowel, like honest or hour.

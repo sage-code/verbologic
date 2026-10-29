@@ -290,7 +290,37 @@ SPOKEN_FORM_RULES = (
     "another WITHOUT the subheadings. So a page must make sense when heard "
     "straight after another: never lean on the subheading to say what the page "
     "is about, and never repeat the subheading as the first words of the text.\n"
+    "R18. ONLY for English pages: write SIMPLE ENGLISH. Sentences have at most "
+    "15 words, use common everyday words, the active voice and the present "
+    "tense, and speak to the learner as \"you\". Say \"mouth\", \"tongue\", "
+    "\"lips\" and \"air\" rather than technical terms. Never use phonetic "
+    "jargon (fricative, plosive, glottal, palate, alveolar, velar, diphthong, "
+    "schwa, rounded, unrounded): say what the mouth does, for example \"round "
+    "your lips\", \"spread your lips\", \"touch your upper teeth with your "
+    "tongue tip\". English pages are read by learners from every country, so "
+    "never write \"English speakers\" or name any nationality; write \"you\" "
+    "and warn about the mistake itself, comparing with a very common English "
+    "word (\"do not say it like the vowel in cat\"). Add the \"that is\" "
+    "qualifier of rule R11 ONLY when two sounds would be heard the same, never "
+    "after every symbol. A letter-group page speaks of \"the letters ea\" and "
+    "what they sound like; never write \"this letter pair is called a "
+    "sound\".\n"
+    "R19. ONLY for Romanian pages: never use the words rotunjit, rotunjită, "
+    "rotunjite, nerotunjit or nerotunjită, nor labializat: they are read wrongly "
+    "and are not the terms learners need. Describe the lips by what they do: "
+    "\"buzele formează un cerc mic\" for a rounded sound, \"buzele rămân "
+    "relaxate și întinse\" for the other.\n"
 )
+
+#: Words a page of this locale must never contain (rules R18 and R19).
+BANNED_TERMS = {
+    "en": re.compile(
+        r"English speakers?|\b(?:un)?rounded\b|fricative|plosive|glottal|palat\w*|alveolar|velar|uvular|"
+        r"labial|bilabial|sibilant|approximant|affricate|diphthong|schwa|nationalit\w*",
+        re.I,
+    ),
+    "ro": re.compile(r"nerotunjit\w*|rotunjit\w*|labializat\w*", re.I),
+}
 
 #: Words per page. The four pages of an article are shown together, so
 #: together they should fill the reading area: about 280 words, which the
@@ -628,6 +658,10 @@ def spoken_form_problems(tag: str, text: str, outside_ipa: str) -> list[str]:
     its own symbols and is respelled before it reaches the voice.
     """
     problems: list[str] = []
+    banned = BANNED_TERMS.get(tag.strip("[]").split(".")[0])
+    found = banned.search(text) if banned else None
+    if found:
+        problems.append(f"{tag} uses '{found.group(0)}', a word this page may not use (rules R18 and R19)")
     if re.search(r"\d", outside_ipa):
         problems.append(f"{tag} contains a digit; write every number as a word (rule R13)")
     # Bracketed target words are skipped by the voice, so only the prose is checked.

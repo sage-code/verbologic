@@ -115,8 +115,8 @@ const mediaError = ref<string | null>(null)
  * The doc each panel renders.
  *
  * A lecture is directional: the article explains one target-language item, so
- * there is ONE panel and it is written in the reader's own language — the
- * route's `:doc` segment, falling back to the UI language and then English.
+ * there is ONE panel and it is always the English original, whatever the
+ * reader's UI language.
  *
  * A story is reversible: the same story exists in many languages, so the left
  * panel is the learning language and the right is the reader's translation.
@@ -133,7 +133,10 @@ const articleDocs = computed(() => articleData.value?.docs ?? [])
  * The segment is only a hint for a visitor who has not chosen a language.
  */
 const readerLocale = computed(() => {
-  const wanted = [uiLang.value, docLocale.value, 'en']
+  // Lectures are authored once, in English, about the TARGET language — the
+  // reader's UI language never selects a doc, so a stray native-language file
+  // can never shadow the English original.
+  const wanted = track.value === 'lectures' ? ['en'] : [uiLang.value, docLocale.value, 'en']
   for (const locale of wanted) {
     const doc = articleDocs.value.find((d) => d.locale === locale)
     if (doc) return doc
@@ -431,7 +434,7 @@ const cursivePair = computed(() => {
 })
 const articleStatus = computed(() => markdownDoc.value?.status ?? 'draft')
 const articleMinutes = computed(() => markdownDoc.value?.minutes ?? null)
-const isFallback = computed(() => articleData.value?.fallback ?? false)
+const isFallback = computed(() => track.value !== 'lectures' && (articleData.value?.fallback ?? false))
 watch(
   () => [articleId.value, storyPageCount.value],
   () => {

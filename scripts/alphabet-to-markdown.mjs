@@ -31,6 +31,7 @@ const CONTENT = join(ROOT, 'content', 'lectures')
 
 const dryRun = process.argv.includes('--dry-run')
 const checkOnly = process.argv.includes('--check')
+const overwrite = process.argv.includes('--overwrite')
 
 const readJson = (p) => JSON.parse(readFileSync(p, 'utf-8'))
 
@@ -41,6 +42,14 @@ const SECTION_ORDER = ['sound', 'howToSay', 'spelling', 'compare']
 const LOCALES = ['en', 'es', 'it', 'fr', 'de', 'ru', 'hu', 'pt', 'ro']
 
 /**
+ * Locales an article is WRITTEN in. Lectures are English-only (the reader falls
+ * back to English whatever the UI language), so the other locales' prose in the
+ * alphabet JSON is deliberately not turned into docs. `LOCALES` above still
+ * names every site language, because `terms` must cover all of them.
+ */
+const DOC_LOCALES = ['en']
+
+/**
  * The per-locale names of one item, read from its media manifest.
  *
  * A letter's name is the glyph in every language, but a GROUP's is not — the
@@ -49,9 +58,8 @@ const LOCALES = ['en', 'es', 'it', 'fr', 'de', 'ru', 'hu', 'pt', 'ro']
  * `terms` to match it exactly.
  */
 function manifestNames(track, topic, code) {
-  const file = join(ROOT, 'media', track, topic.slice(0, 4), topic, code, 'item.json')
-  if (!existsSync(file)) return null
-  const manifest = readJson(file)
+  const manifest = manifestFor(code)
+  if (!manifest) return null
   const names = {}
   for (const [locale, value] of Object.entries(manifest.locales ?? {})) {
     if (typeof value?.name === 'string' && value.name) names[locale] = value.name
@@ -120,17 +128,52 @@ function body(entry, locale) {
   return parts.join('\n').trimEnd()
 }
 
-/** Every phonetic topic, with the language whose sounds it teaches. */
+/** item code -> its media manifest, wherever the folder sits (an item keeps its
+ *  folder when the sidebar moves it between topics, so the path says nothing). */
+const manifestIndex = new Map()
+function indexManifests(dir) {
+  if (!existsSync(dir)) return
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const full = join(dir, entry.name)
+    if (entry.isDirectory()) indexManifests(full)
+    else if (entry.name === 'item.json') {
+      const manifest = readJson(full)
+      if (manifest.code && (manifest.kind === 'letter' || manifest.kind === 'article')) {
+        manifestIndex.set(manifest.code, manifest)
+      }
+    }
+  }
+}
+indexManifests(join(ROOT, 'media', 'lectures'))
+const manifestFor = (code) => manifestIndex.get(code) ?? null
+
+/** Every phonetic topic; each item teaches the language its manifest names
+ *  (`target`), unless the topic itself is pinned to one. */
 function phoneticTopics() {
   const sidebar = readJson(SIDEBARS)
   const topics = []
   for (const section of sidebar.sections ?? []) {
     for (const topic of section.topics ?? []) {
-      if (topic.phonetic !== true || topic.mode !== 'directional' || !topic.target) continue
-      topics.push({ code: topic.code, target: topic.target, items: topic.items ?? [] })
+      if (topic.phonetic !== true || topic.mode !== 'directional') continue
+      topics.push({ code: topic.code, target: topic.target ?? null, items: topic.items ?? [] })
     }
   }
   return topics
+}
+
+/** One language's alphabet entries, by item code (cached). */
+const alphabetCache = new Map()
+function alphabetEntries(target) {
+  if (alphabetCache.has(target)) return alphabetCache.get(target)
+  const file = join(ALPHABETS, `${target}.json`)
+  let byCode = null
+  if (existsSync(file)) {
+    const data = readJson(file)
+    byCode = new Map()
+    for (const entry of [...(data.letters ?? []), ...(data.groups ?? [])]) byCode.set(entry.code, entry)
+  }
+  alphabetCache.set(target, byCode)
+  return byCode
 }
 
 function main() {
@@ -140,13 +183,10 @@ function main() {
   let skipped = 0
 
   for (const topic of topics) {
-    const file = join(ALPHABETS, `${topic.target}.json`)
-    if (!existsSync(file)) continue
-    const data = readJson(file)
-    const byCode = new Map()
-    for (const entry of [...(data.letters ?? []), ...(data.groups ?? [])]) byCode.set(entry.code, entry)
-
     topic.items.forEach((code, index) => {
+      const target = topic.target ?? manifestFor(code)?.target
+      const byCode = target ? alphabetEntries(target) : null
+      if (!byCode) return
       const entry = byCode.get(code)
       if (!entry) {
         skipped += 1
@@ -154,7 +194,7 @@ function main() {
       }
       entries += 1
       const glyph = entry.glyph ?? entry.code
-      for (const locale of LOCALES) {
+      for (const locale of DOC_LOCALES) {
         const sections = entry.sections?.[locale]
         // A locale with no prose would produce an empty article — skip it so
         // the route list stays honest about what actually exists.
@@ -191,6 +231,10 @@ function main() {
   for (const [path, text] of files) {
     const existing = existsSync(path) ? readFileSync(path, 'utf-8') : null
     if (existing === text) continue
+    // The Markdown is the authoring surface now (articles are written by hand
+    // in simple English): an existing doc is never regenerated from the legacy
+    // JSON prose unless --overwrite says so. Only MISSING docs are "stale".
+    if (existing !== null && !overwrite) continue
     stale += 1
     if (dryRun || checkOnly) continue
     mkdirSync(join(path, '..'), { recursive: true })

@@ -53,11 +53,14 @@ const walk = (dir, ext, acc = []) => {
  *  Shared manifests (media/<track>/<chapter>/<topic>/<code>/item.json) carry
  *  `code` + `topic`; only the retired per-language manifests carry `id`. */
 const manifestIds = new Set()
+/** `topic\ncode` → the language a directional item teaches (manifest `target`). */
+const manifestTarget = new Map()
 for (const sectionPath of new Set(Object.values(config.sections ?? {}))) {
   for (const file of walk(join(MEDIA, sectionPath), '.json')) {
     const m = readJson(file)
     if (m.code && m.topic) {
       manifestIds.add(`${m.topic}\n${m.code}`)
+      if (m.target) manifestTarget.set(`${m.topic}\n${m.code}`, m.target)
       // Sidebars still reference the pre-migration id for content converted
       // from the retired entities bridge.
       if (m.legacy_entity_id) manifestIds.add(`${m.topic}\n${m.legacy_entity_id}`)
@@ -138,6 +141,38 @@ for (const sidebar of sidebars) {
   push('| chapter | topic | layout | resolved | planned | note |')
   push('| --- | --- | --- | --- | --- | --- |')
   for (const r of rows) push(r)
+  push('')
+}
+
+/* ── language coverage ───────────────────────────────────────────────────── *
+ * A chapter is the same for every language; only the content differs. Reversible
+ * topics (word/expression tables) hold the same rows for all languages, but a
+ * `directional` topic (letters, articles) holds each language's OWN items — so
+ * this is where "which language is still missing which topic" is visible.
+ * A dash means the language has no item in the topic yet. */
+const COVERAGE_LANGS = ['ro', 'en', 'de', 'ru', 'it', 'es', 'fr', 'hu', 'pt']
+const coverageRows = []
+for (const sidebar of sidebars) {
+  for (const chapter of sidebar.sections ?? []) {
+    for (const topic of chapter.topics ?? []) {
+      if (topic.mode !== 'directional') continue
+      const counts = Object.fromEntries(COVERAGE_LANGS.map((l) => [l, 0]))
+      for (const id of topic.items ?? []) {
+        const lang = topic.target ?? manifestTarget.get(`${topic.code}\n${id}`)
+        if (lang in counts) counts[lang]++
+      }
+      coverageRows.push(
+        `| ${chapter.code} | ${topic.code} ${topicName(topic)} | ${COVERAGE_LANGS.map((l) => counts[l] || '—').join(' | ')} |`
+      )
+    }
+  }
+}
+push('## Language coverage (directional topics: items per language)', '')
+if (coverageRows.length === 0) push('_No directional topics._', '')
+else {
+  push(`| chapter | topic | ${COVERAGE_LANGS.join(' | ')} |`)
+  push(`| --- | --- | ${COVERAGE_LANGS.map(() => '---').join(' | ')} |`)
+  for (const r of coverageRows) push(r)
   push('')
 }
 

@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L396
+locale: en
+title: "Ч"
+summary: ""
+status: draft
+entity_id: "LT01T01:L396"
+order: 159
+terms:
+  en: "Ч"
+  es: "Ч"
+  it: "Ч"
+  fr: "Ч"
+  de: "Ч"
+  ru: "Ч"
+  hu: "Ч"
+  pt: "Ч"
+  ro: "Ч"
+---
+
+## The letter che
+
+The letter (че) /tɕe/ makes the main sound /tɕ/. You hear it in the word (час) /tɕas/, which means hour. This letter has two different sounds.
+
+## How to say it
+
+To make the first sound, press your tongue flat against the roof of your mouth. Push air through as you release it softly. Your vocal cords do not vibrate. To make the second sound, keep the air hissing smoothly without the stop. Touch your throat to feel that your voice stays quiet.
+
+## Reading this letter
+
+This letter usually makes the soft sound /tɕ/, as in (чай) /tɕaj/. In a few frequent words before the letter en, it sounds like /ɕː/ instead. You hear this long soft hissing sound in the word (скучно) /ˈskuɕːnə/, and also in (конечно) /kɐˈnʲeɕːnə/.
+
+## Common mistakes
+
+Do not pronounce this like the hard sound in the English word chair. Keep the tongue much flatter and softer against the roof of your mouth. Also, avoid using a hard hissing sound in the special words with en. Soften your mouth completely.

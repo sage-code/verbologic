@@ -20,18 +20,18 @@ terms:
   ro: "Â"
 ---
 
-## Letter sound
+## The letter name and sound
 
-The name of this letter is pronounced as the sound /ɨ/. It makes this exact sound in the word (român) /kɨnt/, which means river. This letter represents only one vowel sound in the language.
+The name of this letter is the sound /ɨ/. It makes the vowel sound /ɨ/, as in the word (român) /roˈmɨn/, which means Romanian. This letter has only one sound in all words.
 
-## Pronunciation
+## Pronouncing this sound
 
-Keep your lips completely flat and unrounded, as if smiling slightly. Pull the body of your tongue back into the middle of the mouth, keeping it high towards the palate. Let the vocal cords vibrate steadily. Place your fingers on your throat to feel the strong vibration while keeping your lips relaxed.
+Keep your lips relaxed and flat. Pull the middle of your tongue up toward the roof of your mouth. Do not push your tongue forward or pull it too far back. Let your vocal cords vibrate. Place two fingers on your throat to feel the steady vibration as you make this sound.
 
-## Spelling rules
+## Reading this letter
 
-This letter always stands in the middle of words and never at the very beginning or end. It always represents the closed central vowel sound /ɨ/, as shown in the word (cânt) /kɨnt/.
+You see this letter only inside words, never at the beginning or at the very end. It always represents the single sound /ɨ/, as in the word (cânt) /kɨnt/.
 
-## Common mistakes
+## Avoiding common mistakes
 
-English speakers often replace this vowel with the relaxed sound in the word roses or the sound in bird. Do not round your lips as you would for the vowel in boot. Pull your tongue back and keep it tense, avoiding the weak English schwa heard in sofa.
+Do not replace this vowel with the short vowel in the English word sit. Do not round your lips as you would for the vowel in soon. Keep your lips flat, pull your tongue slightly back, and make the sound deep inside your mouth.

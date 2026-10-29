@@ -4,63 +4,40 @@
   "chapter": "LT01",
   "topic": "LT01T06",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T06:L688",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "list intonation"
+      "name": "List intonation"
     },
     "es": {
-      "name": "entonación de listas"
+      "name": "Entonación de enumeración"
     },
     "it": {
-      "name": "intonazione dell'elenco"
+      "name": "Intonazione dell'elenco"
     },
     "fr": {
-      "name": "intonation d'énumération"
+      "name": "Intonation d'énumération"
     },
     "de": {
       "name": "Aufzählungsintonation"
     },
     "ru": {
-      "name": "интонация перечисления"
+      "name": "Интонация перечисления"
     },
     "hu": {
-      "name": "felsorolási intonáció"
+      "name": "Felsoroló hanglejtés"
     },
     "pt": {
-      "name": "entonação de lista"
+      "name": "Entonação de enumeração"
     },
     "ro": {
-      "name": "intonația enumerării"
+      "name": "Intonația enumerației"
     }
   },
   "files": {
-    "read/de.mp3": {
-      "bytes": 593712,
-      "sha1": "1a671c6fe32324dff8a54aa9d6179f374a83290b"
-    },
-    "read/it.mp3": {
-      "bytes": 625680,
-      "sha1": "7fdb17f83f84132849d779cf1870521bbe7bd593"
-    },
-    "read/hu.mp3": {
-      "bytes": 560160,
-      "sha1": "5c733170689f94701ed61ffa5bef9d7ce3ef1c8b"
-    },
-    "read/fr.mp3": {
-      "bytes": 519696,
-      "sha1": "77e6ced697a9323e4733513f6302023cf3710515"
-    },
-    "read/es.mp3": {
-      "bytes": 578304,
-      "sha1": "199fe2b38edb3642e5e4f06dca9ac77986e05033"
-    },
-    "read/pt.mp3": {
-      "bytes": 504144,
-      "sha1": "aa88e31298388e495c51f4b4ecebb0d8d9d0a26a"
-    },
     "read/ro.mp3": {
       "bytes": 610272,
       "sha1": "aafbc0a444de9641054272c2f14b9b5d994e918e"
@@ -68,66 +45,20 @@
     "read/en.mp3": {
       "bytes": 513216,
       "sha1": "c27e77cd08b7395760c9ed726cf6b28816698598"
-    },
-    "read/ru.mp3": {
-      "bytes": 627696,
-      "sha1": "8cb50798bce5807c0140f1e896245fdcb90d2c05"
     }
   },
   "readSections": {
-    "de": [
-      0.0,
-      26.6,
-      51.075,
-      76.7
-    ],
-    "it": [
-      0.0,
-      26.712,
-      53.475,
-      81.062
-    ],
-    "hu": [
-      0.0,
-      24.562,
-      48.138,
-      71.65
-    ],
-    "fr": [
-      0.0,
-      23.038,
-      45.038,
-      67.55
-    ],
-    "es": [
-      0.0,
-      24.538,
-      50.513,
-      75.162
-    ],
-    "pt": [
-      0.0,
-      21.012,
-      42.787,
-      65.375
-    ],
     "ro": [
-      0.0,
+      0,
       26.387,
       51.938,
       78.9
     ],
     "en": [
-      0.0,
+      0,
       21.587,
       44.65,
-      67.0
-    ],
-    "ru": [
-      0.0,
-      28.875,
-      55.425,
-      81.3
+      67
     ]
   }
 }

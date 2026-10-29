@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T02
+article: L324
+locale: en
+title: "ie"
+summary: "This is the letter L324 from the vowel-consonant groups."
+status: draft
+entity_id: "LT01T02:L324"
+order: 30
+terms:
+  en: "ie"
+  es: "ie in pie (pastel), field (campo)"
+  it: "ie in pie (torta), field (campo)"
+  fr: "ie in pie (tarte), field (champ)"
+  de: "ie in pie (Pastete), field (Feld)"
+  ru: "ie in pie (пирог), field (поле)"
+  hu: "ie in pie (pite), field (mező)"
+  pt: "ie in pie (torta), field (campo)"
+  ro: "ie in pie (plăcintă), field (câmp)"
+---
+
+## Sounds of ie
+
+The letters ie are spoken as the sound /aɪ/ or the sound /iː/. Their main sound is the sound /aɪ/, heard in the word (pie) /paɪ/, meaning pie. These letters produce three different sounds in English words.
+
+## How to say ie
+
+For the first sound, open your mouth wide and glide your tongue upward. For the second sound, smile slightly, stretch your lips, and raise your tongue high. For the third sound, keep your mouth slightly open and relax your tongue. Put your hand on your throat to feel your voice buzz continuously for each vowel sound.
+
+## Spelling of ie
+
+At the end of short words, these letters make the sound /aɪ/, as in (tie) /taɪ/. Inside words, they usually make the long sound /iː/, as in (brief) /briːf/ or (chief) /tʃiːf/. In some words, they make the short relaxed sound /ɪ/, as in (sieve) /sɪv/.
+
+## Comparing ie sounds
+
+Learners often confuse the long vowel with the short vowel. Do not make the long sound /iː/ too short. Do not make the relaxed sound /ɪ/ too tense like the sound in see. Keep your tongue relaxed and lower for the short sound.

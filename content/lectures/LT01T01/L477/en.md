@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L477
+locale: en
+title: "T"
+summary: ""
+status: draft
+entity_id: "LT01T01:L477"
+order: 240
+terms:
+  en: "T"
+  es: "T"
+  it: "T"
+  fr: "T"
+  de: "T"
+  ru: "T"
+  hu: "T"
+  pt: "T"
+  ro: "T"
+---
+
+## Letter sound té
+
+The letter (té) /te/ makes the sound /t/. You hear it in the word (table) /tabl/, which means table. This letter has three possible pronunciations.
+
+## Mouth shape
+
+For the first sound, press the tip of your tongue against your upper front teeth. Release the air suddenly without breathing out a puff of air. For the second sound, place your tongue tip near your lower front teeth and blow air through. Hold your fingers against your neck to feel that your voice stays completely silent.
+
+## Reading rules
+
+In most positions, before vowels and consonants, you pronounce the sound /t/, as in (tapis) /ta.pi/ or (porte) /pɔʁt/. Before the letter i followed by another vowel, you say the sound /s/, as in (patient) /pa.sjɑ̃/ or (démocratie) /de.mɔ.kʁa.si/. At the end of many common words, this letter is silent, as in (salut) /sa.ly/ or (petit) /pə.ti/.
+
+## Common mistakes
+
+In English words like top, you puff air out after the consonant. Keep your tongue directly against your teeth and stop any puff of air. Also, do not pronounce the silent letter at the end of a word like you would in English net.

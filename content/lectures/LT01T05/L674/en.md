@@ -3,31 +3,50 @@ track: lectures
 topic: LT01T05
 article: L674
 locale: en
-title: "Pronouncing Dintr-o in Romanian"
-summary: "Learn how the vowel sound connects smoothly without an extra break in the Romanian word dintr-o."
+title: "Pronouncing Dintr-o"
+summary: "Learn how to connect the consonant and vowel smoothly in dintr-o without pausing at the hyphen."
 status: draft
 entity_id: "LT01T05:L674"
 order: 9
 terms:
-  en: "Vowel drop in dintr-o"
-  es: "Elisión vocálica en dintr-o"
-  it: "Elisione vocalica in dintr-o"
-  fr: "Élision vocalique dans dintr-o"
-  de: "Vokalausfall bei dintr-o"
-  ru: "Выпадение гласного в dintr-o"
-  hu: "Magánhangzó-kiesés a dintr-o-ban"
-  pt: "Queda vocálica em dintr-o"
+  en: "Elision in dintr-o"
+  es: "Elisión en dintr-o"
+  it: "Elisione in dintr-o"
+  fr: "Élision dans dintr-o"
+  de: "Elision bei dintr-o"
+  ru: "Элизия в dintr-o"
+  hu: "Elízió a dintr-o szóban"
+  pt: "Elisão em dintr-o"
   ro: "Eliziunea în dintr-o"
 ---
 
-## The pattern in dintr-o
-Romanian uses a hyphen to attach short helper words together. In the phrase **dintr-o**, two smaller words merge into one speech unit. The original ending vowel drops away completely so the next sound can step in. The letter **o** attaches immediately after the consonant sound **r**. You do not say two separate words with a stop between them. Instead, your voice treats the whole written unit as a single two-syllable word. This makes everyday spoken Romanian sound brisk, smooth, and natural to the listener.
+## The sound
+Look at the hyphen in (dintr-o) /ˈdin.tro/.
+The two parts fuse into one smooth unit.
+You hear the consonant and the vowel flow together.
+Listen to (dintr-o dată) /ˈdin.tro ˈda.tə/, which means suddenly.
+The ending sound links without any gap.
 
-## How your mouth says it
-Start by placing the tip of your tongue behind your top front teeth for the consonant **d**. Move quickly through the vowel into a short rolled or tapped **r**. The vowel **o** drops in immediately after this consonant tap without any silent pause. Round your lips into a small circle to make the vowel sound. The main voice stress hits the first syllable firmly on **din**. Your pitch stays higher on that first beat and falls naturally as you finish on **tro**. Keep your airflow steady the entire time.
+## How to say it
+Start by making the clean sound (dintr-o) /ˈdin.tro/.
+Touch your tongue behind your upper teeth for the front sound.
+Tap your tongue quickly for the rolling sound.
+Round your lips right away for the final round vowel.
+Keep the voice steady.
+Do not add a pause between the letters.
 
-## Example in speech
-You will hear this pattern often in the phrase **dintr-o dată** /ˈdin.tro ˈda.tə/. The phrase means suddenly in English. Say the first part as two joined beats: **din-tro**. Notice how the sound flows right into the word **dată** without hesitating at the hyphen. The stress falls on **din** and then again on the first syllable of **da-tă**. Your voice stays relaxed and drops in pitch toward the end of the sentence. Practice linking both words into one clean rhythm.
+## Reading rules
+The hyphen shows a link between two words.
+It drops the old vowel and pulls the next sound in.
+Say the group as two clean beats.
+Stress the first beat firmly.
+Then, slide smoothly into (dată) /ˈda.tə/.
+Read the whole phrase (dintr-o dată) /ˈdin.tro ˈda.tə/ with a single breath.
 
-## Common mistakes to avoid
-Many English speakers see the hyphen and pause like it is a comma. Never leave an empty space or a glottal stop between **dintr** and **o**. Another frequent slip is adding an extra vowel sound between the consonant **r** and the **o**. Do not say *dintre-o* with three syllables. Keep the connection tight and direct. Finally, avoid putting heavy stress on the final **o**. The energy belongs on the first syllable, while the vowel at the end stays short and light.
+## Common mistakes
+Do not stop at the hyphen.
+Never insert a tiny pause between the consonant and the vowel.
+Do not say two separate words.
+Also, keep the stress on the first syllable of (dintr-o) /ˈdin.tro/.
+Do not push the stress onto the last vowel.
+Keep your rhythm quick, natural, and connected.

@@ -2,9 +2,10 @@
   "code": "L410",
   "track": "lectures",
   "chapter": "LT01",
-  "topic": "LT01T11",
+  "topic": "LT01T01",
   "kind": "letter",
-  "entity_id": "LT01T11:L410",
+  "target": "it",
+  "entity_id": "LT01T01:L410",
   "cefr": "A1",
   "tags": [
     "alphabet#letters"
@@ -71,34 +72,6 @@
     "read/en.mp3": {
       "bytes": 476928,
       "sha1": "8765e35aadb1fd9bc62eb1d836157a5f117b9c34"
-    },
-    "read/de.mp3": {
-      "bytes": 501840,
-      "sha1": "0b1fcc1209f56af3055db08d3766d50168b3a0e9"
-    },
-    "read/ro.mp3": {
-      "bytes": 457344,
-      "sha1": "5598c8a1a43d600b148f140eb316b182eaefd3b6"
-    },
-    "read/es.mp3": {
-      "bytes": 386928,
-      "sha1": "17be1b138963e64f7c22177d62685a6e36c1f534"
-    },
-    "read/fr.mp3": {
-      "bytes": 398160,
-      "sha1": "53f139a855fb9c4e63f01f42843fdcdc62688d7c"
-    },
-    "read/hu.mp3": {
-      "bytes": 470160,
-      "sha1": "d4ea599ac0b80577bcb2bc6b7329193f25b0c09b"
-    },
-    "read/ru.mp3": {
-      "bytes": 429552,
-      "sha1": "8797819287a798b6dc9f77a1de107e3e4f2e2cae"
-    },
-    "read/pt.mp3": {
-      "bytes": 468432,
-      "sha1": "6cb62e87e592f4c263456772131ae7b717f536b8"
     }
   },
   "readSections": {
@@ -108,53 +81,12 @@
       36.213,
       58.388
     ],
-    "de": [
-      0,
-      20.812,
-      40.65,
-      61.575
-    ],
     "it": [
       0,
       14.588,
       28.788,
       46.625
-    ],
-    "ru": [
-      0,
-      14.625,
-      28.175,
-      49.9
-    ],
-    "es": [
-      0,
-      15.363,
-      30.863,
-      44.638
-    ],
-    "fr": [
-      0,
-      16.238,
-      33.338,
-      48.525
-    ],
-    "ro": [
-      0,
-      17.562,
-      36.487,
-      56.462
-    ],
-    "hu": [
-      0,
-      20.688,
-      39.013,
-      56.225
-    ],
-    "pt": [
-      0,
-      19.525,
-      37.263,
-      54.25
     ]
-  }
+  },
+  "legacy_entity_id": "LT01T11:L410"
 }

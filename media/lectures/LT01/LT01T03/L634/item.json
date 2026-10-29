@@ -4,6 +4,7 @@
   "chapter": "LT01",
   "topic": "LT01T03",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T03:L634",
   "cefr": "A1",
   "tags": [],
@@ -18,22 +19,22 @@
       "name": "accento non scritto"
     },
     "fr": {
-      "name": "accent tonique non écrit"
+      "name": "accent non écrit"
     },
     "de": {
-      "name": "unbezeichneter Akzent"
+      "name": "unbezeichnete Betonung"
     },
     "ru": {
       "name": "необозначенное ударение"
     },
     "hu": {
-      "name": "jelöletlen hangsúly"
+      "name": "nem jelölt hangsúly"
     },
     "pt": {
       "name": "acento não marcado"
     },
     "ro": {
-      "name": "accentul nescris"
+      "name": "accent nescris"
     }
   },
   "files": {
@@ -41,84 +42,21 @@
       "bytes": 495216,
       "sha1": "c1fddacd27e71a1892895308233222820feefdd6"
     },
-    "read/de.mp3": {
-      "bytes": 614880,
-      "sha1": "81f9b4f5215ee6bd0b3c995e76694652dcd11412"
-    },
-    "read/es.mp3": {
-      "bytes": 560448,
-      "sha1": "77ff42c628c4426f9ea0445eb82552d23e8aae25"
-    },
-    "read/fr.mp3": {
-      "bytes": 526032,
-      "sha1": "5fa3209f01363e8a2934a917dcb2df9440fadd8f"
-    },
     "read/ro.mp3": {
       "bytes": 576000,
       "sha1": "9bdf93ecb4cb1bb090f3c325974d35b0997a215d"
-    },
-    "read/it.mp3": {
-      "bytes": 546624,
-      "sha1": "710597828d552fad1d1ba4def5728b40b45257ec"
-    },
-    "read/hu.mp3": {
-      "bytes": 601200,
-      "sha1": "2fef2c52f76274a1ade0c8d35462660f445c6901"
-    },
-    "read/ru.mp3": {
-      "bytes": 582768,
-      "sha1": "387ac327ef466e8485bacf48d329c90003990e32"
-    },
-    "read/pt.mp3": {
-      "bytes": 574272,
-      "sha1": "50a5395949e30cf00c52c917fd71b5efc7406a73"
     }
   },
   "readSections": {
     "en": [
-      0.0,
+      0,
       26.7,
       54.312
     ],
-    "de": [
-      0.0,
-      33.638,
-      65.125
-    ],
-    "es": [
-      0.0,
-      32.025,
-      62.462
-    ],
-    "fr": [
-      0.0,
-      29.225,
-      56.388
-    ],
     "ro": [
-      0.0,
+      0,
       31.613,
       63.55
-    ],
-    "it": [
-      0.0,
-      31.25,
-      61.312
-    ],
-    "hu": [
-      0.0,
-      33.438,
-      65.412
-    ],
-    "ru": [
-      0.0,
-      31.375,
-      62.138
-    ],
-    "pt": [
-      0.0,
-      31.7,
-      63.175
     ]
   }
 }

@@ -7,8 +7,7 @@
   "entity_id": "LT04T02",
   "locales": {
     "en": {
-      "name": "Having & needing: a avea and a trebui",
-      "ipa": "/ˈhævɪŋ ænd ˈnidɪŋ eɪ ɑˈve̯a ænd eɪ treˈbwi/",
+      "name": "Having & needing",
       "description": "This is the second topic of Chapter 4."
     },
     "ro": {
@@ -17,38 +16,31 @@
       "description": "Aceasta este a doua temă din capitolul 4."
     },
     "de": {
-      "name": "Haben & brauchen: a avea und a trebui",
-      "ipa": "/ˈhaːbn̩ ʊnt ˈbʁaʊ̯xn̩ a aˈve̯a ʊnt a treˈbwi/",
+      "name": "Haben & brauchen",
       "description": "Dies ist das zweite Thema von Kapitel 4."
     },
     "ru": {
-      "name": "Иметь и нуждаться: a avea и a trebui",
-      "ipa": "/ɪˈmʲetʲ i nʊʐˈdat͡sːə a aˈve̯a i a treˈbuj/",
+      "name": "Иметь и нуждаться",
       "description": "Это вторая тема главы 4."
     },
     "it": {
-      "name": "Avere e dovere: a avea e a trebui",
-      "ipa": "/aˈveːre e doˈveːre a aˈve̯a e a treˈbwi/",
+      "name": "Avere e aver bisogno",
       "description": "Questo è il secondo tema del capitolo 4."
     },
     "es": {
-      "name": "Tener y necesitar: a avea y a trebui",
-      "ipa": "/teˈneɾ i neseˈsiˈtaɾ a aˈve̯a i a treˈbwi/",
+      "name": "Tener y necesitar",
       "description": "Este es el segundo tema del capítulo 4."
     },
     "fr": {
-      "name": "Avoir et avoir besoin : a avea et a trebui",
-      "ipa": "/aˈvwaʁ e aˈvwaʁ bəˈzwɛ̃ a aˈve̯a e a treˈbwi/",
+      "name": "Avoir et avoir besoin",
       "description": "Il s'agit du deuxième thème du chapitre 4."
     },
     "hu": {
-      "name": "Birtoklás és szükséglet: a avea és a trebui",
-      "ipa": "/ˈbiɾtoklaːʃ eːʃ ˈsykt͡ʃeːɡlɛt ɒ ɒˈve̯ɒ eːʃ ɒ tɾɛˈbuj/",
+      "name": "Birtoklás és szükség",
       "description": "Ez a 4. fejezet második témája."
     },
     "pt": {
-      "name": "Ter e precisar: a avea e a trebui",
-      "ipa": "/ˈtɛɾ i pɾəsiˈzaɾ a aˈve̯a i a tɾeˈbwi/",
+      "name": "Ter e precisar",
       "description": "Este é o segundo tema do capítulo 4."
     }
   },
@@ -56,17 +48,21 @@
     "title#topic"
   ],
   "files": {
-    "sound/de.mp3": {
-      "bytes": 22320,
-      "sha1": "5adc3aed64b5f53a4de2eff0e25db0148bdeb7c1"
-    },
     "sound/ro.mp3": {
       "bytes": 12816,
       "sha1": "e27852a5c610072b8ec34562cf1e9e155c241de1"
     },
-    "sound/fr.mp3": {
-      "bytes": 20592,
-      "sha1": "fca65a68f897632355ea4a089785386b93bc28af"
+    "sound/de.mp3": {
+      "bytes": 22320,
+      "sha1": "5adc3aed64b5f53a4de2eff0e25db0148bdeb7c1"
+    },
+    "sound/en.mp3": {
+      "bytes": 19008,
+      "sha1": "d12fbb88f6ae38e2e0f610d34bf6d2b1e6ac1031"
+    },
+    "sound/ru.mp3": {
+      "bytes": 24768,
+      "sha1": "6eba4995d1382df6e824648b404fa0ab987997a4"
     },
     "sound/it.mp3": {
       "bytes": 20304,
@@ -84,13 +80,9 @@
       "bytes": 18576,
       "sha1": "bccb3c4742702eb57d796938bb1fef1d9b5ea6f3"
     },
-    "sound/ru.mp3": {
-      "bytes": 24768,
-      "sha1": "6eba4995d1382df6e824648b404fa0ab987997a4"
-    },
-    "sound/en.mp3": {
-      "bytes": 19008,
-      "sha1": "d12fbb88f6ae38e2e0f610d34bf6d2b1e6ac1031"
+    "sound/fr.mp3": {
+      "bytes": 20592,
+      "sha1": "fca65a68f897632355ea4a089785386b93bc28af"
     }
   }
 }

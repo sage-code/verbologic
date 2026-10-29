@@ -4,30 +4,30 @@ topic: LT01T06
 article: L694
 locale: en
 title: "Rhythm of Stressed Syllables"
-summary: "Stressed syllables give Romanian its musical beat, while unstressed syllables pass by quickly."
+summary: "Learn how stressed syllables create Romanian rhythm while unstressed syllables stay quick and light."
 status: draft
 entity_id: "LT01T06:L694"
 order: 11
 terms:
-  en: "Stress rhythm"
-  es: "Ritmo acentual"
-  it: "Ritmo accentuativo"
-  fr: "Rythme accentuel"
+  en: "stress rhythm"
+  es: "ritmo acentual"
+  it: "ritmo accentuativo"
+  fr: "rythme accentuel"
   de: "Betonungsrhythmus"
-  ru: "Ритм ударения"
-  hu: "Hangsúlyritmus"
-  pt: "Ritmo acentual"
-  ro: "Ritmul accentual"
+  ru: "акцентный ритм"
+  hu: "hangsúlyritmus"
+  pt: "ritmo acentual"
+  ro: "ritm accentual"
 ---
 
-## The rhythm pattern
-Romanian words have a clear beat. Stressed syllables act like heavy drumbeats in music. They sound louder and last longer. Unstressed syllables are like light, quick taps in between. They do not take much time. When you listen to Romanian, your ear follows these strong beats. The rhythm moves forward from one stressed sound to the next.
+## The sound
+Romanian rhythm relies on strong beats. Stressed syllables sound clear and loud. Unstressed syllables pass by quickly. Listen to (mulțumesc) /mul.t͡suˈmesk/ (mult) /mult/, which means thank you very much. The beat falls firmly on the loud parts. The weak parts move fast and light.
 
-## How to use your voice
-Open your mouth slightly wider when you hit a stressed syllable. Give that syllable extra breath from your chest. Your pitch rises just a little bit on the strong vowel. On the unstressed syllables, keep your lips and tongue relaxed. Move through them quickly without stopping. Do not swallow the vowels, but do not linger on them either.
+## How to say it
+Push more air from your lungs on stressed beats. Open your mouth wider on those parts. Say the unstressed parts with less breath. Do not stop between beats. Let your voice bounce smoothly from beat to beat. Keep your pitch natural and lively.
 
-## Practice with an example
-Listen carefully to the phrase **Mulțumesc mult.** /mult͡suˈmesk mult/. The word *mulțumesc* has three syllables. The first two syllables are light and quick steps. The third syllable, *mesc*, gets the strong punch of your voice. Then the word *mult* takes another strong beat. It sounds like *da-da-DUM DUM*.
+## Reading rules
+Every word has one main beat. Find the stressed vowel first. Give that vowel extra time and strength. Read the word (bine) /ˈbi.ne/, which means well. The first part is long and strong. The second part is short and quiet. Move through the quiet vowels quickly.
 
-## Common mistakes to avoid
-English speakers often turn unstressed vowels into a weak "uh" sound. In Romanian, unstressed vowels are quick, but their true sound stays clear. Do not blur the letters into an English schwa. Another mistake is making every syllable the exact same length. Remember to let the stressed beats stand out proudly.
+## Common mistakes
+Do not give every part equal weight. Speech is not flat like a ticking clock. If you make every vowel loud, you sound stiff. Do not drop unstressed vowels completely either. Keep them short, but do not swallow them. Balance strong beats with light, quick sounds.

@@ -20,18 +20,18 @@ terms:
   ro: "Ă"
 ---
 
-## The sound of ă
+## The letter sound
 
-This letter is called /ə/. Its sound is heard in (ăsta) /ˈmə.r/, which means apple. This letter has only one sound in Romanian. It is an essential vowel of the language. Listen closely to how clean and distinct it sounds.
+This letter is called /ə/. Its main sound is the sound /ə/, heard in the word (ăsta) /ˈmə.r/, which means apple. This letter makes only one sound in Romanian.
 
-## Pronouncing the letter
+## How to say it
 
-Keep your mouth slightly open in a neutral position. Let your tongue rest flat in the middle of your mouth without touching the teeth. Do not round your lips. Vibrate your vocal cords with a relaxed, steady puff of breath. Place your hand on your throat to feel the gentle buzz of your voice.
+Relax your tongue in the middle of your mouth. Keep your lips neutral and slightly open. Let the air flow freely without tension. Your voice vibrates. Touch your throat to feel the steady vibration.
 
-## Spelling rules
+## Reading this letter
 
-This letter consistently represents the sound /ə/ across the language. It keeps the exact same quality whether it carries the stress or not. You will hear it in stressed position in (măr) /mər/. You will also hear it in unstressed position in (apă) /ˈa.pə/.
+This letter always makes the sound /ə/ in every word position. You hear it stressed in the word (măr) /mər/. You also hear it unstressed at the end of the word (apă) /ˈa.pə/.
 
-## Common pitfalls
+## Common mistakes
 
-English speakers often drop this sound or turn it into an open vowel like the sound in cat. It is very close to the weak vowel at the end of comma or sofa. In Romanian, pronounce it firmly even when it is stressed, rather than rushing past it.
+Do not replace this sound with the open vowel in the English word cat. Do not round your lips as you do in the English word fur. Keep your lips relaxed and completely still.

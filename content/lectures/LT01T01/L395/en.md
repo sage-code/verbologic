@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L395
+locale: en
+title: "Ц"
+summary: ""
+status: draft
+entity_id: "LT01T01:L395"
+order: 158
+terms:
+  en: "Ц"
+  es: "Ц"
+  it: "Ц"
+  fr: "Ц"
+  de: "Ц"
+  ru: "Ц"
+  hu: "Ц"
+  pt: "Ц"
+  ro: "Ц"
+---
+
+## Sound of tse
+
+The letter (цэ) /tsɛ/ makes the sound /ts/. You hear this main sound in (цвет) /tsvʲet/, which means colour. This letter can make two sounds.
+
+## How to say tse
+
+Press the tip of your tongue against your upper gum. Release the air through a tiny gap while hissing. Keep your vocal cords completely still. For the voiced sound, keep the same mouth shape, but vibrate your vocal cords. Touch your throat to feel that vibration.
+
+## Reading tse
+
+This letter usually makes the sound /ts/, as in (центр) /tsɛntr/ or (конец) /kɐˈnʲets/. It sounds like /dz/ when it stands directly before a voiced consonant. You hear this voiced sound in the word (плацдарм) /plɐdzˈdarm/.
+
+## Common mistakes
+
+Do not split this into two separate sounds. Say it together as one blend, like the end of the word cats. Keep the sound crisp and hard. Do not soften it by lifting your tongue middle to the roof of your mouth.

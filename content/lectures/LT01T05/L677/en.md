@@ -4,27 +4,51 @@ topic: LT01T05
 article: L677
 locale: en
 title: "Saying Bună Dimineața Smoothly"
-summary: "Say the Romanian morning greeting as one smooth unit, placing the strongest emphasis on the very last syllable."
+summary: "Learn how to pronounce the morning greeting as one continuous phrase with stress at the end."
 status: draft
 entity_id: "LT01T05:L677"
 order: 12
 terms:
-  en: "Phrase stress in greetings"
-  es: "Acentuación de frases"
-  it: "Accento di frase"
-  fr: "Accent de phrase"
-  de: "Phrasenakzent"
-  ru: "Фразовое ударение"
-  hu: "Mondathangsúly"
-  pt: "Acento frásico"
-  ro: "Accentul frazei"
+  en: "Greeting phrase stress"
+  es: "Acento en el saludo"
+  it: "Accento del saluto"
+  fr: "Accent de salutation"
+  de: "Betonung der Begrüßung"
+  ru: "Ударение в приветствии"
+  hu: "Köszönés hangsúlyozása"
+  pt: "Acento da saudação"
+  ro: "Accentul în salut"
 ---
 
-## One continuous greeting
-When you say **bună dimineața** /ˈbu.nə di.mi.ˈɲa.tsa/, you do not stop between the two words. Treat the entire expression as one long, musical phrase. Your voice connects every vowel together without any sudden pauses. In Romanian, natural greetings flow like a single melody. You glide through the first sounds lightly and smoothly. This continuous rhythm helps native speakers understand you right away.
+## The sound
+You say this greeting as one smooth phrase.
+Listen to (bună dimineața) /ˈbu.nə di.mi.ˈɲa.tsa/, which means good morning.
+Do not pause between the words.
+Your voice flows from start to end without a break.
+The strongest push of air lands on the final part of the phrase.
 
-## Mouth and stress pattern
-Keep your lips relaxed for the first word and shape your mouth cleanly for each vowel sound. Do not put heavy pressure on the early syllables. Instead, carry your breath forward until you reach the very end of the expression. The strongest stress falls right onto the final syllable of the phrase. Open your jaw comfortably and let your pitch lift slightly on that closing sound. Your voice should feel bouncy, ending with clear energy.
+## How to say it
+Start with relaxed lips and tongue.
+Say (bună) /ˈbu.nə/ quickly and keep moving forward.
+Do not stop your breath between the parts.
+Slide your voice directly into the next word.
+Push your breath harder on the very end.
+Let your tone stay bright and welcoming.
+Keep the whole phrase connected as one piece.
 
-## Common mistakes to avoid
-Many English speakers pause awkwardly right after saying **bună**. If you break the greeting into two separate pieces, it sounds robotic. Another common error is stressing the middle syllables too heavily while dropping your voice at the end. Make sure you do not swallow the final syllable. Keep your airflow moving steadily so the last beat shines clearly. Practice joining the words together in one single breath.
+## Reading rules
+Two written words often join into one spoken rhythm.
+You see two words in print.
+However, you say them like a single long unit.
+The main stress always moves to the end of the greeting.
+Give less weight to the first word.
+Say the ending with more energy and clear voice.
+
+## Common mistakes
+Do not make a pause in the middle.
+People often stop between the two words.
+This break makes your speech sound robotic.
+Do not stress the first word too much.
+Keep the air moving until the last syllable.
+Finish the greeting with a gentle, rising tone.
+Practice saying the whole phrase in one breath.

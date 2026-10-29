@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L407
+locale: en
+title: "C"
+summary: ""
+status: draft
+entity_id: "LT01T01:L407"
+order: 170
+terms:
+  en: "C"
+  es: "C"
+  it: "C"
+  fr: "C"
+  de: "C"
+  ru: "C"
+  hu: "C"
+  pt: "C"
+  ro: "C"
+---
+
+## Sound of ci
+
+The letter (ci) /tʃi/ usually makes the sound /k/. You hear this in the word (casa) /ˈka.za/, which means house. This letter has two different sounds in Italian.
+
+## How to say ci
+
+For the first sound, lift the back of your tongue to touch the roof. Block the air, then release it sharply without voice. For the second sound, touch the ridge behind your front teeth with your tongue tip. Release the air through the small gap with a soft rush. Put your hand on your throat to feel that your vocal cords do not vibrate.
+
+## Reading ci
+
+This letter makes the sound /k/ before the vowels a, o, u, or before consonants. You hear this sound in the word (corpo) /ˈkɔr.po/. The letter makes the sound /tʃ/ when it comes before e or i. You hear this softer sound in the word (cena) /ˈtʃe.na/.
+
+## Mistakes to avoid
+
+Do not puff out a burst of breath when you make the sound /k/. English words like cat have a strong puff of air. Hold your hand before your mouth and keep the release clean. For the other sound, do not say the sound /s/ as in center. Keep the crisp start like the beginning of cheese.

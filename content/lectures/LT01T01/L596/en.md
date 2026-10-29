@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L596
+locale: en
+title: "-t- (silent)"
+summary: "Letter name: -t- (silent). Example: listen."
+status: draft
+entity_id: "LT01T01:L596"
+order: 74
+terms:
+  en: "-t- (silent)"
+  es: "-t- (silent)"
+  it: "-t- (silent)"
+  fr: "-t- (silent)"
+  de: "-t- (silent)"
+  ru: "-t- (silent)"
+  hu: "-t- (silent)"
+  pt: "-t- (silent)"
+  ro: "-t- (silent)"
+---
+
+## The silent letter
+
+The letter inside words is sometimes silent and has no sound at all. In the word (listen) /lɪs.ən/, which means to pay attention with your ears, you hear no consonant there. This spelling pattern creates only this one silent variation in these words.
+
+## Mouth and air
+
+Your mouth makes no extra sound here. You move your tongue directly from the first sound to the next sound without stopping. Keep your breath flowing smoothly. Your throat stays relaxed during this transition.
+
+## When it is silent
+
+The letter stays quiet in the middle of words between other consonants. It often disappears before another consonant sound, as in the word (castle) /kɑːs.əl/. You simply drop the sound completely whenever you see this pattern.
+
+## Common mistakes
+
+Learners often try to pronounce every written consonant clearly. You must never tap your tongue against your teeth here. Simply move straight from the preceding sound to the following sound without adding any consonant touch.

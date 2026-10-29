@@ -4,6 +4,7 @@
   "chapter": "LT01",
   "topic": "LT01T06",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T06:L687",
   "cefr": "A2",
   "tags": [],
@@ -12,16 +13,16 @@
       "name": "command intonation"
     },
     "es": {
-      "name": "entonación de órdenes"
+      "name": "entonación imperativa"
     },
     "it": {
-      "name": "intonazione dell'imperativo"
+      "name": "intonazione imperativa"
     },
     "fr": {
-      "name": "intonation de l'impératif"
+      "name": "intonation impérative"
     },
     "de": {
-      "name": "Befehlsmelodie"
+      "name": "Befehlsintonation"
     },
     "ru": {
       "name": "повелительная интонация"
@@ -30,104 +31,34 @@
       "name": "felszólító hanglejtés"
     },
     "pt": {
-      "name": "entonação de ordens"
+      "name": "entonação imperativa"
     },
     "ro": {
-      "name": "intonația ordinelor"
+      "name": "intonația imperativă"
     }
   },
   "files": {
-    "read/it.mp3": {
-      "bytes": 713520,
-      "sha1": "1253ff8699db469665009d09f5413305d8ee8254"
-    },
-    "read/de.mp3": {
-      "bytes": 655344,
-      "sha1": "609aa210d73f590a81423264c45beac723b8f8d5"
-    },
-    "read/es.mp3": {
-      "bytes": 647568,
-      "sha1": "4d466c7f2a9b7a62bd5e444ab845dfcb7d5a789c"
-    },
     "read/ro.mp3": {
       "bytes": 696384,
       "sha1": "8dfb88d271f96e42013619ddac460f266146555d"
     },
-    "read/fr.mp3": {
-      "bytes": 587088,
-      "sha1": "492c74d3b36927a0689c379ce0011c2b883e1704"
-    },
-    "read/pt.mp3": {
-      "bytes": 562896,
-      "sha1": "663b81a90d887b619d4a8c3f5f43a4b756f479e1"
-    },
-    "read/hu.mp3": {
-      "bytes": 644976,
-      "sha1": "459fc2ecf057df326e1fde53985d87664261e9d5"
-    },
     "read/en.mp3": {
       "bytes": 604800,
       "sha1": "70e4eac6ec70decf6d154663311e759111df7e26"
-    },
-    "read/ru.mp3": {
-      "bytes": 710784,
-      "sha1": "09bd691f7936cf7183fc95e8e65b912e916be77d"
     }
   },
   "readSections": {
-    "it": [
-      0.0,
-      31.913,
-      61.825,
-      92.375
-    ],
-    "de": [
-      0.0,
-      29.05,
-      57.525,
-      84.338
-    ],
-    "es": [
-      0.0,
-      27.525,
-      55.425,
-      82.387
-    ],
     "ro": [
-      0.0,
+      0,
       30.275,
       59.987,
       89.2
     ],
-    "fr": [
-      0.0,
-      25.85,
-      49.35,
-      76.25
-    ],
-    "pt": [
-      0.0,
-      24.038,
-      47.5,
-      72.375
-    ],
-    "hu": [
-      0.0,
-      30.15,
-      56.8,
-      82.737
-    ],
     "en": [
-      0.0,
+      0,
       26.238,
       52.025,
       77.9
-    ],
-    "ru": [
-      0.0,
-      33.812,
-      63.3,
-      90.387
     ]
   }
 }

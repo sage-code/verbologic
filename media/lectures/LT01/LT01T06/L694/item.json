@@ -4,130 +4,61 @@
   "chapter": "LT01",
   "topic": "LT01T06",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T06:L694",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "Stress rhythm"
+      "name": "stress rhythm"
     },
     "es": {
-      "name": "Ritmo acentual"
+      "name": "ritmo acentual"
     },
     "it": {
-      "name": "Ritmo accentuativo"
+      "name": "ritmo accentuativo"
     },
     "fr": {
-      "name": "Rythme accentuel"
+      "name": "rythme accentuel"
     },
     "de": {
       "name": "Betonungsrhythmus"
     },
     "ru": {
-      "name": "Ритм ударения"
+      "name": "акцентный ритм"
     },
     "hu": {
-      "name": "Hangsúlyritmus"
+      "name": "hangsúlyritmus"
     },
     "pt": {
-      "name": "Ritmo acentual"
+      "name": "ritmo acentual"
     },
     "ro": {
-      "name": "Ritmul accentual"
+      "name": "ritm accentual"
     }
   },
   "files": {
-    "read/it.mp3": {
-      "bytes": 631296,
-      "sha1": "181f75933a54adbb5c470cd6bd89e5ea24b54053"
-    },
-    "read/de.mp3": {
-      "bytes": 592848,
-      "sha1": "0ac59f27c3ae6105373670a749bf9a2f9fd79475"
-    },
-    "read/fr.mp3": {
-      "bytes": 510336,
-      "sha1": "7eb71da5d4ef64cf1f2922b4ffcb4a287b71102b"
-    },
-    "read/hu.mp3": {
-      "bytes": 562176,
-      "sha1": "2f8705e5e647c427f7862d5ff42910cd5d840fa3"
-    },
     "read/ro.mp3": {
       "bytes": 594720,
       "sha1": "258c9477a5051a2db070bbeb60028e1b560b8fee"
     },
-    "read/es.mp3": {
-      "bytes": 567072,
-      "sha1": "d9c5fccdb13074dab561a1a3ec6a0eaf59895c8e"
-    },
-    "read/pt.mp3": {
-      "bytes": 513072,
-      "sha1": "9d257f8be3238640797f27f2daa22763349d3c90"
-    },
     "read/en.mp3": {
       "bytes": 478512,
       "sha1": "2200df81dce82a4c177854c62185da254af4ace4"
-    },
-    "read/ru.mp3": {
-      "bytes": 578160,
-      "sha1": "654609216bc6d3e87c52800282cb2c07c919c911"
     }
   },
   "readSections": {
-    "it": [
-      0.0,
-      25.2,
-      51.55,
-      79.825
-    ],
-    "de": [
-      0.0,
-      26.35,
-      50.1,
-      74.412
-    ],
-    "fr": [
-      0.0,
-      20.938,
-      42.425,
-      65.675
-    ],
-    "hu": [
-      0.0,
-      24.938,
-      47.675,
-      71.775
-    ],
     "ro": [
-      0.0,
+      0,
       24.887,
       49.138,
       76.7
     ],
-    "es": [
-      0.0,
-      24.05,
-      47.713,
-      72.325
-    ],
-    "pt": [
-      0.0,
-      21.325,
-      42.013,
-      65.15
-    ],
     "en": [
-      0.0,
+      0,
       21.262,
       40.688,
       59.562
-    ],
-    "ru": [
-      0.0,
-      25.488,
-      48.788,
-      72.8
     ]
   }
 }

@@ -3,8 +3,8 @@ track: lectures
 topic: LT01T06
 article: L699
 locale: en
-title: "Calling Attention with Hei and Ei"
-summary: "Romanian words like hei and ei are quick calls with an energetic tone to grab attention."
+title: "Short Romanian Calls and Tone"
+summary: "Learn how to pronounce short Romanian calls like hei with the right tone and pitch."
 status: draft
 entity_id: "LT01T06:L699"
 order: 16
@@ -15,19 +15,19 @@ terms:
   fr: "Interjections"
   de: "Interjektionen"
   ru: "Междометия"
-  hu: "Indulatszavak"
+  hu: "Indulatszók"
   pt: "Interjeições"
   ro: "Interjecții"
 ---
 
-## The sound of Romanian calls
-In Romanian, people use short words like **Hei!** /hej/ to call someone or react. These words are called interjections. They are not ordinary nouns or verbs. Instead, they act like quick vocal signals. You use them to get someone's attention instantly across a room or a street. They are pronounced with great energy. Even though they are very short, they carry strong emotion and clear intent in daily speech.
+## The sound
+You use short calls to get attention or show surprise. Listen to (hei) /hej/, which means hey. Listen to (ei) /ej/, which means well. These words are quick. They have a lively musical rise or fall. Your voice carries emotion in these little sounds.
 
-## How to shape mouth and tone
-Open your mouth slightly for the vowel sound. Keep your lips relaxed and unrounded. For **Hei!**, push a gentle puff of air through your throat to make the /h/. Quickly glide your tongue upward toward the roof of your mouth for the /j/ ending. The pitch of your voice should start high and punchy. Make the tone jump up to catch the listener's ear. Do not make the syllable long and lazy. Keep it crisp, sharp, and focused.
+## How to say it
+Open your mouth for the first vowel sound. Move your tongue quickly up for the glide. For (hei) /hej/, push air out gently for the first sound. Keep the vowel clean. Raise your pitch at the end to call a friend. Drop your pitch to show doubt.
 
-## Examples in speech
-The most common calling word is **Hei!** /hej/, which means "Hey!". Another very common call is **Ei!** /ej/. Romanian speakers use **Ei!** to say "Well!" or to react with surprise. Notice that **Ei!** drops the breathy /h/ sound at the start. Both words carry their own strong musical tone. Your pitch tells the listener whether you are warning them, greeting a friend, or wondering about an unexpected event.
+## Reading rules
+The letter h sounds like the start of 'hat'. The letters e and i join together in one quick pulse. You see this in (hei) /hej/ and (ei) /ej/. Do not split the letters into two beats. The tone changes with the punctuation mark after them.
 
-## Mistakes to avoid
-English speakers often drag out words like "hey" into a slow drawl. In Romanian, you must keep this sound short and snappy. Do not let your voice trail off quietly at the end. Another common mistake is using a flat, bored pitch. If your pitch is flat, you will not sound like a native speaker. Finally, do not make the /h/ in **Hei!** too scratchy or harsh; keep the airflow smooth and light.
+## Common mistakes
+Do not say two separate syllables. Do not stretch the vowel too long. Speak with energy, not a flat voice. In (hei) /hej/, remember to make the breathy first sound. If you drop the pitch too soon, you sound bored instead of welcoming.

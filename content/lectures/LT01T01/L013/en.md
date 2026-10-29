@@ -20,18 +20,18 @@ terms:
   ro: "J"
 ---
 
-## The sound
+## Sound of the letter
 
-The name of this letter is the sound /ʒ/. It produces one single sound in Romanian, which is heard in the word (joc) /ʒos/, meaning down or below.
+The name of this letter is /ʒ/. It makes the sound /ʒ/, heard in (joc) /ʒos/, which means down or below. This letter has only one sound in Romanian.
 
-## Pronunciation
+## How to say it
 
-Raise the front of your tongue toward the roof of your mouth, just behind your upper teeth. Round your lips gently and push air continuously through the narrow gap. Keep your vocal cords vibrating throughout. You can place your fingers on your throat to feel the steady vibration as the sound pours out.
+Round your lips slightly and push them forward. Raise the front of your tongue toward the roof of your mouth. Blow air smoothly through the narrow gap. Vibrate your vocal cords at the same time. Place your fingers on your throat to feel the steady buzz.
 
-## Spelling rules
+## Reading rules
 
-This letter always represents the sound /ʒ/ in all native positions, whether at the beginning, middle, or end of a word. A clear example in the middle of a word is (plajă) /ˈpla.ʒə/.
+This letter always keeps its single sound. You pronounce it as the sound /ʒ/ in all native positions, like in the word (plajă) /ˈpla.ʒə/.
 
-## Common pitfalls
+## Common mistakes
 
-English speakers often replace this sound with the initial sound in jump or jar. Do not stop the air or add an initial burst. Make it a smooth, continuous stream instead, exactly like the middle consonant in the English word vision or measure.
+English speakers often replace this sound with the sound at the start of jam. Do not stop the air or add a hard front sound. Keep the air flowing smoothly without any sudden block, just like the middle consonant in the English word measure.

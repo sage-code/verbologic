@@ -7,48 +7,39 @@
   "entity_id": "LT10T04",
   "locales": {
     "en": {
-      "name": "Cause, purpose & result (pentru că, ca să, încât)",
-      "ipa": "/kɔz ˈpɜrpəs ænd rɪˈzʌlt ˈpɛntru kə ka sə ɨŋˈkɨt/",
+      "name": "Cause, purpose & result: because, in order to, so that",
       "description": "This topic covers the learning material for Topic 4 of Chapter 10."
     },
     "ro": {
-      "name": "Cauza, scopul și consecința",
-      "ipa": "/ˈkawt͡sa ˈskopul ʃi konseˈt͡ʃint͡sa/",
+      "name": "Cauză, scop și consecință: pentru că, ca să, astfel încât",
       "description": "Această temă acoperă materialul de învățare pentru Tema 4 din Capitolul 10."
     },
     "de": {
-      "name": "Grund, Zweck & Ergebnis (pentru că, ca să, încât)",
-      "ipa": "/ɡʁʊnt t͡svɛk ʊnt ɛɐ̯ˈɡeːpnɪs ˈpɛntru kə ka sə ɨŋˈkɨt/",
+      "name": "Grund, Zweck & Folge: weil, um zu, sodass",
       "description": "Dieses Thema behandelt das Lernmaterial für Thema 4 von Kapitel 10."
     },
     "ru": {
-      "name": "Причина, цель и результат (pentru că, ca să, încât)",
-      "ipa": "/prʲɪˈt͡ɕinə t͡sɛlʲ i rʲɪzʊlʲˈtat ˈpɛntru kə ka sə ɨŋˈkɨt/",
+      "name": "Причина, цель и следствие: потому что, чтобы, так что",
       "description": "В этой теме рассматриваются учебные материалы для Темы 4 Главы 10."
     },
     "it": {
-      "name": "Causa, scopo e risultato (pentru că, ca să, încât)",
-      "ipa": "/ˈkawza ˈskɔpo e rizulˈtato ˈpɛntru kə ka sə ɨŋˈkɨt/",
+      "name": "Causa, scopo e risultato: perché, per, così che",
       "description": "Questo argomento copre il materiale di studio per il Tema 4 del Capitolo 10."
     },
     "es": {
-      "name": "Causa, propósito y resultado (pentru că, ca să, încât)",
-      "ipa": "/ˈkawsa pɾoˈposito i resulˈtado ˈpɛntru kə ka sə ɨŋˈkɨt/",
+      "name": "Causa, propósito y resultado: porque, para, de modo que",
       "description": "Este tema cubre el material de aprendizaje para el Tema 4 del Capítulo 10."
     },
     "fr": {
-      "name": "Cause, but et résultat (pentru că, ca să, încât)",
-      "ipa": "/koz by e ʁezylˈta ˈpɛntru kə ka sə ɨŋˈkɨt/",
+      "name": "Cause, but et conséquence : parce que, pour, de sorte que",
       "description": "Ce thème couvre le matériel d'apprentissage pour le Thème 4 du Chapitre 10."
     },
     "hu": {
-      "name": "Ok, cél és eredmény (pentru că, ca să, încât)",
-      "ipa": "/ok t͡seːl eːʃ ˈɛrɛdmeːɲ ˈpɛntru kə ka sə ɨŋˈkɨt/",
+      "name": "Ok, cél és eredmény: mert, hogy, úgyhogy",
       "description": "Ez a téma a 10. fejezet 4. témájának tananyagát tartalmazza."
     },
     "pt": {
-      "name": "Causa, propósito e resultado (pentru că, ca să, încât)",
-      "ipa": "/ˈkawzɐ pɾuˈpɔzitu i ʁɨzulˈtadu ˈpɛntru kə ka sə ɨŋˈkɨt/",
+      "name": "Causa, finalidade e resultado: porque, para, de modo que",
       "description": "Este tópico aborda o material de estudo para o Tópico 4 do Capítulo 10."
     }
   },
@@ -56,6 +47,10 @@
     "title#topic"
   ],
   "files": {
+    "sound/en.mp3": {
+      "bytes": 31104,
+      "sha1": "ea25ac9424a360eeda744b31fdece644490cd6d6"
+    },
     "sound/ro.mp3": {
       "bytes": 19728,
       "sha1": "a86f2315daacc0a09ad74a6e37d56cec690cf0e1"
@@ -64,33 +59,29 @@
       "bytes": 29520,
       "sha1": "a2e057cddd626ada6d93d6198427f69401449c69"
     },
-    "sound/fr.mp3": {
-      "bytes": 27792,
-      "sha1": "0bc84306d7958333100bc6ccef94035e399b6087"
+    "sound/ru.mp3": {
+      "bytes": 30096,
+      "sha1": "17d7142603f6cd98cbc43e005e91f3cfdddcb188"
     },
     "sound/it.mp3": {
       "bytes": 36720,
       "sha1": "89158a56ca15960969faab9fd89720ec803aa322"
     },
-    "sound/hu.mp3": {
-      "bytes": 28368,
-      "sha1": "2ccac8092870bbb433864d3051d7f36228b05208"
-    },
     "sound/es.mp3": {
       "bytes": 33552,
       "sha1": "c4e72c5b7ce26cfc05a7a946a3b314a6655bf2db"
     },
-    "sound/ru.mp3": {
-      "bytes": 30096,
-      "sha1": "17d7142603f6cd98cbc43e005e91f3cfdddcb188"
+    "sound/fr.mp3": {
+      "bytes": 27792,
+      "sha1": "0bc84306d7958333100bc6ccef94035e399b6087"
+    },
+    "sound/hu.mp3": {
+      "bytes": 28368,
+      "sha1": "2ccac8092870bbb433864d3051d7f36228b05208"
     },
     "sound/pt.mp3": {
       "bytes": 29520,
       "sha1": "9913fcef9c28892dd268d56310573d9cbcfe7240"
-    },
-    "sound/en.mp3": {
-      "bytes": 31104,
-      "sha1": "ea25ac9424a360eeda744b31fdece644490cd6d6"
     }
   }
 }

@@ -20,18 +20,18 @@ terms:
   ro: "io"
 ---
 
-## The io group
+## The sound io
 
-The letter group io is called /jo/. It most often sounds like the combination /jo/, heard in the word (iod) /jod/, which means iodine. This group produces two distinct pronunciations in Romanian words depending on the syllables.
+The letters io sound like the sequence /jo/. Their main sound is heard in the word (iod) /jod/, which means iodine. These letters have two different pronunciations in Romanian speech.
 
-## Mouth movements
+## Mouth shape
 
-For the gliding diphthong, start with your tongue high and forward, then glide smoothly into an open, rounded back position. For the hiatus, pronounce a distinct high vowel with unrounded lips, pause slightly, then round your lips for the second vowel. Place a hand on your neck to feel your vocal cords vibrate through both sounds.
+First glide quickly from a tight tongue position to a circle. Raise your tongue high near the roof of your mouth, then move into an o shape while making sound. For the other variant, make two separate sounds. Say a clear ee, then shape your lips into a small circle for o. Touch your throat to feel your voice buzz throughout both sounds.
 
-## Spelling patterns
+## Spelling rules
 
-When pronounced as an ascending diphthong within one syllable, it sounds as /jo/, like in (ghiozdan) /ɡjozˈdan/. When the two letters sit in hiatus across separate syllables, they are pronounced as /i.o/, like in (avion) /a.viˈon/.
+The letters io usually merge into the quick sound /jo/, as in (ghiozdan) /ɡjozˈdan/. In foreign loans and words with prefixes, the two vowels split across two syllables, making the sound /i.o/. You hear this separate rhythm in (biologie) /bi.o.loˈd͡ʒi.e/ and (avion) /a.viˈon/.
 
-## English comparisons
+## Common mistakes
 
-Do not turn the diphthong into the English vowel in words like boat or toe. Avoid adding an English w-glide between the two vowels in hiatus. Keep both vowels pure without English diphthong qualities.
+Do not replace the first sound with a long vowel from words like see. Keep the glide fast and smooth, like the y in yoke. Do not blend the letters when they belong to separate beats. Say both parts distinctly.

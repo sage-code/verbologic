@@ -7,48 +7,39 @@
   "entity_id": "LT08T04",
   "locales": {
     "en": {
-      "name": "Future forms: literary, spoken (o să) & probable",
-      "ipa": "/ˈfjuːtʃɚ ˈfɔːɹmz ˈlɪtəˌɹɛɹi ˈspoʊkən oʊ sə ənd ˈpɹɑːbəbəl/",
+      "name": "Future forms: formal, spoken & probable",
       "description": "This topic covers topic LT08T04 in chapter LT08."
     },
     "ro": {
-      "name": "Formele de viitor: literar și colocvial",
-      "ipa": "/forˈmele de vi.iˈtor liteˈrar ʃi koloˈkvjal/",
+      "name": "Formele de viitor: literar, colocvial și probabil",
       "description": "Acest subiect acoperă tema LT08T04 din capitolul LT08."
     },
     "de": {
-      "name": "Zukunftsformen: literarisch, gesprochen (o să) & wahrscheinlich",
-      "ipa": "/ˈt͡suːkʊnftsˌfɔʁmən liteˈʁaːʁɪʃ ɡəˈʃpʁɔxn̩ oː sə ʊnt vaːɐ̯ˈʃaɪ̯nlɪç/",
+      "name": "Zukunftsformen: formell, gesprochen & vermutend",
       "description": "Dieses Thema behandelt das Thema LT08T04 in Kapitel LT08."
     },
     "ru": {
-      "name": "Формы будущего времени: литературная, разговорная (o să) и вероятная",
-      "ipa": "/ˈformɨ ˈbuduɕːəvə ˈvrʲemʲɪnʲɪ lʲɪtʲɪrɐˈturnəjə rəzɡɐˈvornəjə o sə i vʲɪrɐˈjatnəjə/",
+      "name": "Формы будущего: книжные, разговорные и предположительные",
       "description": "Эта тема охватывает тему LT08T04 в главе LT08."
     },
     "it": {
-      "name": "Forme del futuro: letterario, parlato (o să) e probabile",
-      "ipa": "/ˈforme del fuˈturo letteˈrarjo parˈlato o sə e proˈbabile/",
+      "name": "Forme del futuro: formali, parlate e probabili",
       "description": "Questo argomento tratta il tema LT08T04 del capitolo LT08."
     },
     "es": {
-      "name": "Formas de futuro: literario, hablado (o să) y probable",
-      "ipa": "/ˈfoɾmas de fuˈtuɾo liteˈɾaɾjo aˈβlaðo o sə i pɾoˈβaβle/",
+      "name": "Formas de futuro: formales, habladas y de probabilidad",
       "description": "Este tema cubre el tema LT08T04 del capítulo LT08."
     },
     "fr": {
-      "name": "Formes du futur : littéraire, parlé (o să) et probable",
-      "ipa": "/fɔʁm dy fytyʁ liteˈʁɛːʁ paʁle o sə e pʁɔbabl/",
+      "name": "Formes du futur : formel, oral et probable",
       "description": "Ce sujet couvre le thème LT08T04 du chapitre LT08."
     },
     "hu": {
-      "name": "Jövő idejű alakok: irodalmi, beszélt (o să) és valószínűségi",
-      "ipa": "/ˈjøvøː ˈidɛjʉː ˈɒlɒkok ˈirodɒlmi ˈbɛseːlt o sə eːʃ ˈvɒloːsiːnyːʃeːɡi/",
+      "name": "Jövő idejű formák: formális, beszélt és valószínűségi",
       "description": "Ez a témakör a(z) LT08 fejezet LT08T04 témáját tárgyalja."
     },
     "pt": {
-      "name": "Formas de futuro: literário, falado (o să) e provável",
-      "ipa": "/ˈfɔɾmɐʒ dɨ fuˈtuɾu litɨˈɾaɾju fɐˈlaðu o sə i pɾuˈvavɛl/",
+      "name": "Formas do futuro: formais, faladas e de probabilidade",
       "description": "Este tópico aborda o tópico LT08T04 do capítulo LT08."
     }
   },
@@ -60,21 +51,29 @@
       "bytes": 22752,
       "sha1": "0bbe195f5db9d23de5eb9225609483243c46259c"
     },
-    "sound/it.mp3": {
-      "bytes": 38304,
-      "sha1": "22781a4ae6f4db5f8eee6686c68519bfc3e08ffa"
-    },
     "sound/de.mp3": {
       "bytes": 32256,
       "sha1": "a7d737045297f8a02c683746a67634bda093b2f8"
     },
-    "sound/fr.mp3": {
-      "bytes": 27504,
-      "sha1": "736a8c592c9a13dc2023b57f4ff75f6acc046e0c"
+    "sound/ru.mp3": {
+      "bytes": 38304,
+      "sha1": "3418f655787a075876a6758f336bd4e10ad37084"
+    },
+    "sound/it.mp3": {
+      "bytes": 38304,
+      "sha1": "22781a4ae6f4db5f8eee6686c68519bfc3e08ffa"
+    },
+    "sound/en.mp3": {
+      "bytes": 30096,
+      "sha1": "0287bb949f7b522220b24ab5e4c2730982953984"
     },
     "sound/es.mp3": {
       "bytes": 31536,
       "sha1": "0cb2b5d93d804a1e27caa55caebf8abec9f2920a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 27504,
+      "sha1": "736a8c592c9a13dc2023b57f4ff75f6acc046e0c"
     },
     "sound/hu.mp3": {
       "bytes": 32112,
@@ -83,14 +82,6 @@
     "sound/pt.mp3": {
       "bytes": 29088,
       "sha1": "3162d7cda4e449019f3aef8d8929003016c20d00"
-    },
-    "sound/ru.mp3": {
-      "bytes": 38304,
-      "sha1": "3418f655787a075876a6758f336bd4e10ad37084"
-    },
-    "sound/en.mp3": {
-      "bytes": 30096,
-      "sha1": "0287bb949f7b522220b24ab5e4c2730982953984"
     }
   }
 }

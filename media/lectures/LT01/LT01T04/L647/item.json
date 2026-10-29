@@ -4,12 +4,13 @@
   "chapter": "LT01",
   "topic": "LT01T04",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T04:L647",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "soft C"
+      "name": "Soft C"
     },
     "es": {
       "name": "C suave"
@@ -24,10 +25,10 @@
       "name": "Weiches C"
     },
     "ru": {
-      "name": "мягкая C"
+      "name": "Мягкое C"
     },
     "hu": {
-      "name": "lágy C"
+      "name": "Lágy C"
     },
     "pt": {
       "name": "C suave"
@@ -37,37 +38,9 @@
     }
   },
   "files": {
-    "read/it.mp3": {
-      "bytes": 630000,
-      "sha1": "b709239881c269756c18bde33153815d9e3ec775"
-    },
-    "read/fr.mp3": {
-      "bytes": 521856,
-      "sha1": "0e6746bf5d2670d512cf704806d9d693d7a8adc6"
-    },
-    "read/de.mp3": {
-      "bytes": 601920,
-      "sha1": "7cce7a3b12d61e894dfc6aa253a3c145587a5c5d"
-    },
-    "read/es.mp3": {
-      "bytes": 597888,
-      "sha1": "a670250c498ffcada67dec9115deb7c20096f22f"
-    },
     "read/ro.mp3": {
       "bytes": 570960,
       "sha1": "46d4863fa0804e171ccf3f7ee844f62b64727145"
-    },
-    "read/pt.mp3": {
-      "bytes": 503712,
-      "sha1": "c02b8eaadee11707d82681730c29fa73598fdcf7"
-    },
-    "read/hu.mp3": {
-      "bytes": 552960,
-      "sha1": "6dd3ec07c3e190f44434268b684520d5f447917c"
-    },
-    "read/ru.mp3": {
-      "bytes": 635040,
-      "sha1": "2e57a1f66bedeccb36347a8800f1795af6898474"
     },
     "read/en.mp3": {
       "bytes": 575712,
@@ -75,56 +48,14 @@
     }
   },
   "readSections": {
-    "it": [
-      0.0,
-      27.825,
-      55.388,
-      79.338
-    ],
-    "fr": [
-      0.0,
-      23.012,
-      47.263,
-      67.0
-    ],
-    "de": [
-      0.0,
-      25.8,
-      52.413,
-      76.225
-    ],
-    "es": [
-      0.0,
-      25.212,
-      51.425,
-      76.088
-    ],
     "ro": [
-      0.0,
+      0,
       25.988,
       52.375,
       74.112
     ],
-    "pt": [
-      0.0,
-      21.913,
-      45.812,
-      65.013
-    ],
-    "hu": [
-      0.0,
-      23.788,
-      49.75,
-      71.213
-    ],
-    "ru": [
-      0.0,
-      26.712,
-      55.237,
-      82.275
-    ],
     "en": [
-      0.0,
+      0,
       25.475,
       50.088,
       72.963

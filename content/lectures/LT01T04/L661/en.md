@@ -4,30 +4,51 @@ topic: LT01T04
 article: L661
 locale: en
 title: "Letter S Before E and I"
-summary: "In Romanian, the letter s always keeps its clean s sound before the vowels e and i."
+summary: "In Romanian, the letter s always keeps its plain hissing sound before the vowels e and i."
 status: draft
 entity_id: "LT01T04:L661"
 order: 14
 terms:
-  en: "Letter S sound"
-  es: "Sonido de la S"
-  it: "Suono della S"
-  fr: "Le son du S"
-  de: "Laut des S"
-  ru: "Звук буквы S"
-  hu: "Az S betű kiejtése"
-  pt: "Som da letra S"
-  ro: "Sunetul literei S"
+  en: "Pronunciation of S"
+  es: "Pronunciación de la S"
+  it: "Pronuncia della S"
+  fr: "Prononciation du S"
+  de: "Aussprache von S"
+  ru: "Произношение буквы S"
+  hu: "Az S kiejtése"
+  pt: "Pronúncia do S"
+  ro: "Pronunția literei S"
 ---
 
-## The Sound of S
-In Romanian, the letter **s** always makes a sharp, hissing sound. In some languages, **s** changes its sound when it appears before **e** or **i**. In English, letters sometimes soften or turn into a buzz. In Romanian, this never happens to **s**. It stays crisp and voiceless just like the hiss in the English word "sun". It never sounds like "sh" or "z".
+## The sound
+The letter s makes a clear hissing sound.
+It sounds like the first sound in 'sun'.
+It never changes when other letters follow it.
+Listen to (seară) /ˈse̯a.rə/, which means evening.
+Hear the clear s sound at the start.
+Now listen to (sete) /ˈse.te/, which means thirst.
 
-## How to Say It
-Place the tip of your tongue near the gum ridge behind your upper teeth. Keep your teeth close together and pull your lips slightly back into a gentle smile. Blow air steadily over the tongue to make a clear hiss. Do not let your vocal cords vibrate. For **seară** /ˈse̯a.rə/, keep the stress strong on the first syllable. Keep your pitch clear and steady.
+## How to say it
+Bring your teeth close together.
+Keep your tongue behind your front teeth.
+Do not let your tongue touch your teeth.
+Blow air smoothly through the narrow gap.
+Do not vibrate your vocal cords.
+The sound is crisp, dry, and sharp.
+Practice with the word (sigur) /ˈsi.ɡur/, which means sure.
 
-## Example in Action
-A great word to practice is **seară** /ˈse̯a.rə/, which means evening. Notice that the letter **s** directly touches the vowel **e**. Keep the **s** sharp before gliding quickly into the vowel sound. Another common word is **sigur**, meaning sure. In both words, the **s** remains crisp, dry, and clean throughout the whole sound.
+## Reading rules
+In some languages, s changes before certain vowels.
+In Romanian, the letter s never changes its sound.
+Before e, it stays a plain s.
+Before i, it also stays a plain s.
+You always read (seară) /ˈse̯a.rə/ with a crisp s sound.
+Keep the sound the same everywhere.
 
-## Common Mistakes to Avoid
-English speakers often change sounds without realizing it. Some learners might accidentally turn **s** before **i** into a soft "sh" sound. Others might let their voice buzz like a "z" between vowels. Remember to keep your vocal cords quiet. Practice hissing like a snake before you say the rest of the word.
+## Common mistakes
+Many learners change s into an sh sound before e or i.
+Others turn it into a buzzing z sound.
+Do not buzz your voice.
+Do not round your lips.
+Keep your lips relaxed and flat.
+Always make a pure hissing sound, as in (sete) /ˈse.te/.

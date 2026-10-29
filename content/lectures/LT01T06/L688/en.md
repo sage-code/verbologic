@@ -4,30 +4,30 @@ topic: LT01T06
 article: L688
 locale: en
 title: "Lists and Commas"
-summary: "In Romanian lists, raise your pitch slightly on each item and drop it on the final word."
+summary: "Your voice rises slightly on each listed item and drops on the final item."
 status: draft
 entity_id: "LT01T06:L688"
 order: 5
 terms:
-  en: "list intonation"
-  es: "entonación de listas"
-  it: "intonazione dell'elenco"
-  fr: "intonation d'énumération"
+  en: "List intonation"
+  es: "Entonación de enumeración"
+  it: "Intonazione dell'elenco"
+  fr: "Intonation d'énumération"
   de: "Aufzählungsintonation"
-  ru: "интонация перечисления"
-  hu: "felsorolási intonáció"
-  pt: "entonação de lista"
-  ro: "intonația enumerării"
+  ru: "Интонация перечисления"
+  hu: "Felsoroló hanglejtés"
+  pt: "Entonação de enumeração"
+  ro: "Intonația enumerației"
 ---
 
-## The list pattern
-When you list items in Romanian, your voice follows a clear musical pattern. Every item before a comma gets a slight rise in pitch. This small rise signals that you are not done speaking yet. The listener expects another word to follow. Only the final item in the list receives a falling pitch. A falling pitch tells the listener that the sentence is complete.
+## The sound
+When you list items, your pitch changes. Each item before the end has a short rising tone. This rise shows that more items are coming. The very last item has a falling tone. This fall tells your listener that the list is finished.
 
-## Pitch and tone
-Keep your vocal cords relaxed as you move through the list. On each non-final word, let your voice glide upward near the end of the word. Do not shout or push extra air from your lungs. Simply lift the musical note of your voice. When you reach the word after *și*, prepare to finish. Let your pitch drop smoothly on the final stressed syllable down to a resting note.
+## How to say it
+Start with an even rhythm. Raise your pitch slightly on each item before a pause. This small rise links the words together. On the final item, drop your voice down. Listen to (Am pâine, lapte și ouă) /am ˈpɨ.i.ne ˈlap.te ʃi ˈo.u̯ə/. Your voice rises twice and drops once.
 
-## Step-by-step example
-Listen to how this works in a real grocery list. Speak the sentence: **Am pâine, lapte și ouă.** /am ˈpɨ.i.ne ˈlap.te ʃi ˈo.u̯ə/. Notice that your pitch rises at the end of *pâine*. Your voice rises again on *lapte*. Then, after the connector *și*, your pitch falls naturally on the final syllable of *ouă*. This drop marks the end of the thought.
+## Reading rules
+Commas in a list tell you where to pause briefly. When you see a comma, make your voice go up slightly. The linking word introduces the last item. Do not raise your pitch on that final word. Instead, let your voice fall with the period.
 
 ## Common mistakes
-Many English speakers drop their pitch too early. If you drop your pitch on the first or second item, you sound finished before you are. Another error is making the rise too dramatic or questioning. The rise should be a gentle step upward, not a full question tone. Keep each pause short and natural.
+Do not make your tone flat across the whole list. A flat tone sounds unnatural and boring. Also, avoid rising on the final item. A rising end turns your statement into a question. Drop your voice firmly at the end.

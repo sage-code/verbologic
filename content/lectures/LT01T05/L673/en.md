@@ -3,8 +3,8 @@ track: lectures
 topic: LT01T05
 article: L673
 locale: en
-title: "Saying Nu-l Instead of Nu Îl"
-summary: "Romanian speakers combine the words nu and îl into one smooth syllable written as nu-l."
+title: "Pronouncing Nu-l in Romanian"
+summary: "Learn how to pronounce nu-l smoothly as one connected sound in everyday Romanian speech."
 status: draft
 entity_id: "LT01T05:L673"
 order: 8
@@ -13,21 +13,21 @@ terms:
   es: "Contracción nu-l"
   it: "Contrazione nu-l"
   fr: "Contraction nu-l"
-  de: "Verschmelzung nu-l"
-  ru: "Слияние nu-l"
+  de: "Kontraktion nu-l"
+  ru: "Стяжение nu-l"
   hu: "A nu-l összevonás"
   pt: "Contração nu-l"
-  ro: "Eliziunea în nu-l"
+  ro: "Contragerea nu-l"
 ---
 
-## Two words become one
-In Romanian, speakers rarely say *nu îl* as two separated words. Instead, they drop the vowel *î* completely. The negative word *nu* joins directly with the consonant *l*. In writing, a hyphen connects them as **nu-l**. This short contraction helps the language sound fast and natural. For example, people say **nu-l văd** /nul văd/ to mean "I do not see him." It is one of the most common everyday combinations in Romanian.
+## The sound
+Two words join together into one quick beat. Listen to the phrase (nu-l văd) /nul vəd/. It means I do not see him. The middle vowel drops away completely. You say one smooth part instead of two. The voice glides through without any pause.
 
-## Mouth and tongue movement
-To say this contraction correctly, begin with rounded lips for the vowel *u*. Make a pure, short sound without adding extra glide. Immediately slide the tip of your tongue up to touch the ridge behind your upper front teeth. This forms the crisp *l* sound. Air flows freely around the sides of your tongue. You must not pause or reset your mouth between *u* and *l*. The two sounds blend in one smooth, quick gesture.
+## How to say it
+Start with rounded lips for (nu) /nu/. Then, quickly tap your tongue behind your front teeth. Do not make a new vowel sound. Keep your voice going strong. Say it in one quick breath. It rhymes closely with 'pool'.
 
-## Stress and tone in a sentence
-The contraction **nu-l** is spoken as a single syllable. In full phrases, it carries very little stress. In the example **nu-l văd** /nul văd/, the main vocal punch lands on the verb *văd*. Keep your pitch steady and relaxed on **nu-l**. Then raise your energy slightly on the verb. Do not slow down before the verb. Everything flows together in one steady breath.
+## Reading rules
+You see a hyphen between the two written parts. The full form begins with (îl) /ɨl/. The hyphen shows that the vowel drops. You read the two parts as one unit. Put your stress on the next main word.
 
-## Common mistakes to avoid
-English speakers often pause when they see the hyphen on paper. The hyphen is only a spelling mark, so do not stop your voice. Avoid making a catch or glottal stop in your throat between *nu* and *l*. Another frequent mistake is trying to whisper the lost *î* sound. You must drop that sound entirely. Think of the word as sounding just like "nool" with a short vowel.
+## Common mistakes
+Do not say two separate words here. People often stop their voice at the hyphen. Never take a breath between the letters. Also, do not add an extra vowel between them. Keep the sound short, tight, and connected. Move smoothly into the next word.

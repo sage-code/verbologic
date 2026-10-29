@@ -20,18 +20,18 @@ terms:
   ro: "ie"
 ---
 
-## Sound of ie
+## The sound
 
-The letter group ie is called /je/. It represents the sound /je/, heard in the word (ieri) /jerʲ/, which means yesterday. This letter combination produces one single diphthong sound in Romanian words.
+The letter group ie sounds like /je/. You hear this sound in (ieri) /jerʲ/, which means yesterday. This letter pair makes one sound.
 
-## How to say ie
+## How to say it
 
-Raise the middle of your tongue high toward the roof of your mouth to start gliding quickly. Glide immediately into a mid front vowel while keeping your mouth slightly open. Your lips stay unrounded and relaxed. Your vocal cords vibrate throughout the entire glide. Place two fingers on your throat to feel continuous vibration from start to finish.
+Raise the middle of your tongue high toward the roof of your mouth. Keep your lips wide and spread. Glide swiftly into an open mouth while lowering your tongue. Your vocal cords vibrate all the time. Place a hand on your throat to feel the steady vibration.
 
-## Reading the group ie
+## Spelling rules
 
-In most positions, this combination functions as an ascending diphthong. It is pronounced as the sound /je/ in words such as (fier) /fjer/. The glide and vowel remain smoothly connected within the same syllable.
+The group ie makes the sound /je/ in most positions. You hear it in words like (fier) /fjer/.
 
-## Mistakes to avoid
+## Common mistakes
 
-English speakers often separate the letters into two distinct syllables like in the English word alien. Instead, keep them in one rapid syllable like the beginning of the English word yes. Avoid making the glide too heavy or turning it into a tense long sound.
+Do not turn this letter pair into two separate vowels. English words like alien or spaniel have a quick gliding sound. Keep both parts in one single breath. Never pause between the two letters.

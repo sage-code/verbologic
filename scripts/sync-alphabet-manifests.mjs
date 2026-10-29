@@ -42,35 +42,53 @@ const readJson = (path) => JSON.parse(readFileSync(path, 'utf-8'))
 const writeJson = (path, data) =>
   writeFileSync(path, `${JSON.stringify(data, null, 2)}\n`, 'utf-8')
 
-/** topic code -> { target, entries: Map<code, entry> } */
-const topics = new Map()
+/** language -> Map<code, entry>, from src/data/alphabets/<lang>.json */
+const alphabets = new Map()
+function entriesOf(target) {
+  if (alphabets.has(target)) return alphabets.get(target)
+  const file = join(ALPHABETS, `${target}.json`)
+  let entries = null
+  if (existsSync(file)) {
+    const data = readJson(file)
+    entries = new Map()
+    for (const entry of [...(data.letters ?? []), ...(data.groups ?? [])]) entries.set(entry.code, entry)
+  }
+  alphabets.set(target, entries)
+  return entries
+}
+
+/** Every item of a phonetic topic, wherever its folder sits (an item keeps its
+ *  folder when the sidebar moves it); its language is the manifest's `target`. */
 const sidebar = readJson(SIDEBAR)
+const phoneticItems = new Set()
 for (const section of sidebar.sections ?? []) {
   for (const topic of section.topics ?? []) {
-    if (topic.phonetic !== true || topic.mode !== 'directional' || !topic.target) continue
-    const file = join(ALPHABETS, `${topic.target}.json`)
-    if (!existsSync(file)) continue
-    const data = readJson(file)
-    const entries = new Map()
-    for (const entry of [...(data.letters ?? []), ...(data.groups ?? [])]) {
-      entries.set(entry.code, entry)
-    }
-    topics.set(topic.code, { target: topic.target, entries })
+    if (topic.phonetic !== true || topic.mode !== 'directional') continue
+    for (const id of topic.items ?? []) phoneticItems.add(id)
   }
 }
+const itemFiles = []
+const walk = (dir) => {
+  for (const e of readdirSync(dir, { withFileTypes: true })) {
+    const full = join(dir, e.name)
+    if (e.isDirectory()) walk(full)
+    else if (e.name === 'item.json') itemFiles.push(full)
+  }
+}
+walk(join(MEDIA, 'LT01'))
 
 let updated = 0
 let audioDropped = 0
 let missing = 0
 
-for (const [topicCode, { target, entries }] of topics) {
-  const topicDir = join(MEDIA, 'LT01', topicCode)
-  if (!existsSync(topicDir)) continue
-  for (const name of readdirSync(topicDir, { withFileTypes: true })) {
-    if (!name.isDirectory()) continue
-    const itemPath = join(topicDir, name.name, 'item.json')
-    if (!existsSync(itemPath)) continue
-    const manifest = readJson(itemPath)
+for (const itemPath of itemFiles) {
+  const manifest = readJson(itemPath)
+  if (!phoneticItems.has(manifest.code) || !manifest.target) continue
+  const target = manifest.target
+  const entries = entriesOf(target)
+  if (!entries) continue
+  const itemDir = join(itemPath, '..')
+  {
     const entry = entries.get(manifest.code)
     if (!entry) {
       missing += 1
@@ -95,7 +113,7 @@ for (const [topicCode, { target, entries }] of topics) {
 
     if (dropAudio) {
       // The spoken text changed, so the existing clip says the wrong thing.
-      const sound = join(topicDir, name.name, 'sound', `${target}.mp3`)
+      const sound = join(itemDir, 'sound', `${target}.mp3`)
       if (existsSync(sound)) {
         if (apply) rmSync(sound)
         audioDropped += 1

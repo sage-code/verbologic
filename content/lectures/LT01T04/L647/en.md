@@ -3,31 +3,48 @@ track: lectures
 topic: LT01T04
 article: L647
 locale: en
-title: "Soft C before E and I"
-summary: "In Romanian, the letter C before E and I is pronounced like the English sound ch in church."
+title: "Soft C Before E and I"
+summary: "Learn how to pronounce the soft Romanian letter C before E and I like the sound in 'church'."
 status: draft
 entity_id: "LT01T04:L647"
 order: 0
 terms:
-  en: "soft C"
+  en: "Soft C"
   es: "C suave"
   it: "C dolce"
   fr: "C doux"
   de: "Weiches C"
-  ru: "мягкая C"
-  hu: "lágy C"
+  ru: "Мягкое C"
+  hu: "Lágy C"
   pt: "C suave"
   ro: "C moale"
 ---
 
-## The soft C rule
-In Romanian, the letter C changes its sound depending on the vowel that follows it. When the letter C stands directly before the vowels E or I, it becomes soft. It sounds exactly like the ch sound in the English word "church". In phonetic writing, this sound is written as /tʃ/. It never makes a hard K sound in this position. Learning this simple rule will allow you to read many everyday Romanian words correctly.
+## The sound
+The letter c makes a soft sound here.
+It sounds like the first sound in 'church'.
+Listen to the word (cer) /ˈtʃer/, which means sky.
+You also hear it in (cine) /ˈtʃi.ne/, which means who.
+The sound is crisp and clear.
 
-## How to make the sound
-To produce this sound, lift the tip and blade of your tongue to touch the roof of your mouth. Press firmly right behind your top front teeth. Then, gently release the tongue to let a short puff of air hiss through. Your vocal cords do not vibrate for this consonant. Keep your lips pushed slightly forward and relaxed. Direct the breath smoothly into the vowel that follows, keeping your voice steady and natural.
+## How to say it
+Touch the roof of your mouth with your tongue tip.
+Put it just behind your top front teeth.
+Push air out and release your tongue quickly.
+Do not use your vocal cords.
+The air bursts through with a soft hiss.
+Keep your lips slightly rounded as you speak.
 
-## Romanian examples
-A great word to practice is **cer** /tʃer/, which means "sky". Notice how the word begins with the exact same sound as "cherry". Another common word with this pattern is **cine** /tʃine/, which means "who". In both words, the letter C is followed immediately by E or I. Keep your pitch clear and even as you speak. Say the word **cer** /tʃer/ out loud several times until it feels effortless.
+## Reading rules
+Look at the letter right after c.
+Pronounce this soft sound whenever c comes before e or i.
+Hear it at the start of (ce) /tʃe/, which means what.
+This rule always works when you see ce or ci together.
+Other letters after c make a hard sound instead.
 
-## Common mistakes to avoid
-English speakers often see a soft C and want to pronounce it like an S. In English words like "center" or "city", the letter C makes an S sound. In Romanian, C never makes an S sound on its own. Pronouncing **cer** /tʃer/ with an S creates a completely different word. Always remember to use the ch sound whenever you see C followed by E or I in Romanian.
+## Common mistakes
+Do not make a hard k sound before these vowels.
+Do not say an s sound like in 'city'.
+Start firmly with your tongue touching the roof of your mouth.
+Keep the burst quick and neat.
+Release the sound cleanly before you say the vowel.

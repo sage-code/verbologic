@@ -3,31 +3,31 @@ track: lectures
 topic: LT01T03
 article: L640
 locale: en
-title: "Masculine and Feminine Adjectives"
-summary: "Making an adjective feminine adds a new syllable at the end and moves the strong stress forward."
+title: "Feminine Adjectives and Stress Shift"
+summary: "Learn how Romanian feminine adjectives add a syllable and move the stress to a new sound."
 status: draft
 entity_id: "LT01T03:L640"
 order: 13
 terms:
-  en: "Feminine adjective stress"
-  es: "Acento en adjetivos femeninos"
-  it: "Accento negli aggettivi femminili"
-  fr: "Accent des adjectifs féminins"
-  de: "Betonung weiblicher Adjektive"
-  ru: "Ударение в женском роде"
-  hu: "Hangsúly nőnemű melléknevekben"
-  pt: "Acento nos adjetivos femininos"
-  ro: "Accentul la adjective feminine"
+  en: "Feminine adjective stress shift"
+  es: "Desplazamiento acentual femenino"
+  it: "Spostamento d'accento femminile"
+  fr: "Déplacement d'accent au féminin"
+  de: "Betonungswechsel bei Adjektiven"
+  ru: "Перемещение ударения в женском роде"
+  hu: "Nőnemű hangsúlyeltolódás"
+  pt: "Deslocamento de acento feminino"
+  ro: "Deplasarea accentului la feminin"
 ---
 
-## The rhythm pattern
-When you turn a Romanian adjective into its girl form, the rhythm changes completely. The whole word grows longer. You attach an extra ending to the word, which adds a brand new syllable. At the same time, the main musical beat jumps to a different spot. It does not stay where it was before. The sound steps forward with plenty of energy.
+## The sound
+Look at the masculine word (frumos) /fruˈmos/. It has two beats. The stress is at the end. Now listen to the feminine word (frumoasă) /fru.moˈa.sə/. The word grows longer. It gains an extra beat. The main stress shifts forward onto the new sound.
 
-## How your mouth makes the sound
-Start by rounding your lips into a small circle for the "o" sound. Next, quickly open your jaw wide for a bright "a". Push more air from your belly right here. This makes the vowel louder, longer, and higher in pitch. Finally, relax your lips and mouth completely for the ending "ă". Let your tongue rest flat and quiet in the center.
+## How to say it
+Start with the male form (frumos) /fruˈmos/. Your voice punches the last part: -mos. To say (frumoasă) /fru.moˈa.sə/, open your mouth wider in the middle. Slide from 'o' to 'a'. Put your loudest voice right on that vowel pair. End softly on the final sound.
 
-## Compare the two words
-First, listen to the boy word: **frumos**. It has two beats, and the strong push comes at the end. Now listen to the girl word: **frumoasă** /fru.moˈa.sə/. It gains an extra syllable! The strong stress shifts right onto that wide, open "a" sound. Say them back to back. Notice how your voice climbs high in the middle and drops softly at the end.
+## Reading rules
+The letters o-a often make a sliding vowel sound. When you see the feminine ending, the beat changes. The letter ă sits at the end. It sounds like the first vowel in 'about'. Keep that last sound short and weak. Push the loudness onto the sliding vowels before it.
 
-## Common mistakes to avoid
-English speakers often leave the stress on the old syllable. Do not say the word with a flat rhythm. The middle vowel must carry the big musical beat. Another mistake is turning the final soft "ă" into a sharp "ah". Keep that last sound very short, quiet, and lazy. Let the strong middle vowel do all the heavy work.
+## Common mistakes
+Do not keep the stress on the old masculine beat. If you say (frumoasă) /fru.moˈa.sə/ with old stress, people might not understand. Do not drop the final weak vowel. Give each beat its own time. Move your voice to the middle vowels and finish gently.

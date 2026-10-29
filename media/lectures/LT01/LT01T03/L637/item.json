@@ -4,36 +4,37 @@
   "chapter": "LT01",
   "topic": "LT01T03",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T03:L637",
   "cefr": "A1",
   "tags": [],
   "locales": {
     "en": {
-      "name": "Final -ă vowel"
+      "name": "Pronunciation of final ă"
     },
     "es": {
-      "name": "Vocal final -ă"
+      "name": "Pronunciación de ă final"
     },
     "it": {
-      "name": "Vocale finale -ă"
+      "name": "Pronuncia della ă finale"
     },
     "fr": {
-      "name": "Voyelle finale -ă"
+      "name": "Prononciation du ă final"
     },
     "de": {
-      "name": "Endungsvokal -ă"
+      "name": "Aussprache von Auslaut-ă"
     },
     "ru": {
-      "name": "Конечная гласная -ă"
+      "name": "Произношение конечной ă"
     },
     "hu": {
-      "name": "Szóvégi -ă magánhangzó"
+      "name": "Szóvégi ă kiejtése"
     },
     "pt": {
-      "name": "Vogal final -ă"
+      "name": "Pronúncia do ă final"
     },
     "ro": {
-      "name": "Vocala finală -ă"
+      "name": "Pronunțarea lui ă final"
     }
   },
   "files": {
@@ -41,93 +42,23 @@
       "bytes": 576864,
       "sha1": "0506f7af53c8d676bd4b9527a0ddb374e1804a2c"
     },
-    "read/de.mp3": {
-      "bytes": 644256,
-      "sha1": "3a986faf60fd6b8af8532c85272da94257117c7d"
-    },
-    "read/es.mp3": {
-      "bytes": 574560,
-      "sha1": "5165f86692bce4b84abf27649781df5ca5201982"
-    },
-    "read/fr.mp3": {
-      "bytes": 584784,
-      "sha1": "24bdb6dd70b0a30e89c5a29cbf466991a73fe992"
-    },
-    "read/it.mp3": {
-      "bytes": 573408,
-      "sha1": "d0f1c3ad39e1ef136ebc28d70111b696ba8de64e"
-    },
     "read/ro.mp3": {
       "bytes": 652032,
       "sha1": "ad813c5ff740276f662c769d86cbcdd351b93d6c"
-    },
-    "read/hu.mp3": {
-      "bytes": 661392,
-      "sha1": "0d553c67ee34fe510f30c47e9058e84d574fa5af"
-    },
-    "read/ru.mp3": {
-      "bytes": 651600,
-      "sha1": "169bfe70ba1951954d1a5ae47945e2abe8a658d0"
-    },
-    "read/pt.mp3": {
-      "bytes": 643680,
-      "sha1": "0ba74a32c62b6793ea1434fa907e9210da06b078"
     }
   },
   "readSections": {
     "en": [
-      0.0,
+      0,
       24.875,
       49.85,
       71.487
     ],
-    "de": [
-      0.0,
-      27.35,
-      53.1,
-      79.438
-    ],
-    "es": [
-      0.0,
-      25.887,
-      48.737,
-      72.35
-    ],
-    "fr": [
-      0.0,
-      24.5,
-      49.925,
-      74.95
-    ],
-    "it": [
-      0.0,
-      24.837,
-      49.025,
-      71.5
-    ],
     "ro": [
-      0.0,
+      0,
       27.125,
       54.562,
       82.838
-    ],
-    "hu": [
-      0.0,
-      26.413,
-      55.487,
-      84.562
-    ],
-    "ru": [
-      0.0,
-      28.45,
-      54.925,
-      83.425
-    ],
-    "pt": [
-      0.0,
-      27.9,
-      54.7,
-      82.15
     ]
   }
 }

@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L402
+locale: en
+title: "Э"
+summary: ""
+status: draft
+entity_id: "LT01T01:L402"
+order: 165
+terms:
+  en: "Э"
+  es: "Э"
+  it: "Э"
+  fr: "Э"
+  de: "Э"
+  ru: "Э"
+  hu: "Э"
+  pt: "Э"
+  ro: "Э"
+---
+
+## Sound of the letter e
+
+The letter (э) /ɛ/ is named (э) /ɛ/. Its main sound is the vowel sound /ɛ/, heard in the word (это) /ˈɛtə/, which means this, that. This letter produces two different sounds in speech.
+
+## How to say it
+
+For the first sound, open your mouth slightly and keep your lips relaxed. Rest the tip of your tongue behind your lower front teeth and raise the middle part of your tongue. Your vocal cords vibrate. For the second sound, lift your tongue higher toward the roof of your mouth. Touch your throat to feel the strong vibration of your vocal cords.
+
+## When to use each sound
+
+This letter makes the sound /ɛ/ when it carries the word stress, as in (поэт) /pɐˈɛt/. In syllables without stress, it makes the sound /ɪ/, as in the word (этаж) /ɪˈtaʂ/.
+
+## Common mistakes to avoid
+
+Do not start this letter with a y sound. It never sounds like the first sound in yes. Keep your tongue steady from the start, like the vowel in the English word bet.

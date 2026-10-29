@@ -4,34 +4,50 @@ topic: LT01T04
 article: L650
 locale: en
 title: "Hard G Before A, O, U"
-summary: "In Romanian, the letter g sounds like a hard g when it appears before the vowels a, o, and u."
+summary: "Learn how to pronounce the hard Romanian g sound before the vowels a, o, and u."
 status: draft
 entity_id: "LT01T04:L650"
 order: 3
 terms:
   en: "hard g"
-  es: "g dura"
+  es: "g fuerte"
   it: "g dura"
   fr: "g dur"
-  de: "hartes g"
-  ru: "твёрдый звук g"
+  de: "hartes G"
+  ru: "твёрдый звук г"
   hu: "kemény g hang"
   pt: "g oclusivo"
   ro: "sunetul g dur"
 ---
 
-## The Rule for Letter G
+## The sound
+This sound is a hard consonant.
+It sounds like the first sound in the word 'go'.
+Your voice box vibrates when you make this sound.
+Listen to the word (gară) /ˈɡa.rə/, which means station.
+You also hear it in (gol) /ɡol/, which means empty.
+The sound stays clean and steady.
 
-In Romanian, spelling is very regular and predictable. The letter **g** changes its sound based on the letter that follows it. When **g** stands right before the vowels **a**, **o**, or **u**, it always makes a hard sound. You hear this same basic consonant sound in English words like *game*, *gold*, or *guitar*. It never turns into a soft sound before these three vowels.
+## How to say it
+Open your mouth slightly.
+Lift the back of your tongue toward the roof of your mouth.
+Stop the air at the back for a moment.
+Then release the air quickly with your voice.
+Do not add a puff of extra breath.
+Listen to (gură) /ˈɡu.rə/, which means mouth.
+Start the first syllable with firm energy.
 
-## How to Make the Sound
+## Reading rules
+The letter g makes this hard sound before three vowels.
+Look for the letters a, o, or u after g.
+Whenever you see ga, go, or gu, pronounce a plain hard sound.
+You read (gară) /ˈɡa.rə/ with this rule.
+You also read (gol) /ɡol/ and (gură) /ˈɡu.rə/ with this same hard sound.
 
-To make this sound, place the back of your tongue against your soft palate. The soft palate is the squishy roof at the very back of your mouth. Block the airflow for a tiny moment. Then drop your tongue quickly to let the air burst out. Turn your voice box on because this sound needs vibrating vocal cords. Keep your lips relaxed and ready for the next vowel.
-
-## Example and Word Stress
-
-A great example of this rule is the Romanian word **gară** /ˈɡa.rə/, which means station. The word starts with a clear, firm hard **g** sound right before the vowel **a**. The word has two syllables: **ga** and **ră**. You put stronger stress on the first syllable **ga**. Your voice stays steady, with a natural pitch drop on the final unstressed syllable **ră**.
-
-## Mistakes to Avoid
-
-English speakers sometimes try to soften this sound or add extra breath. Do not pronounce this letter like the soft **g** in *gem* or *giant*. Never blow extra air like an **h** sound when you release the tongue. Simply make a clean, crisp, voiced pop from the back of your throat. Keep the sound short and firm before you sing out the following vowel.
+## Common mistakes
+Do not make a soft sound like 'j'.
+Never slide your tongue forward into a hiss.
+Keep the back of your tongue pressed firmly before the release.
+Also, do not blow out too much air.
+Release the sound smoothly into the next vowel, like in (gară) /ˈɡa.rə/.
+Keep your vocal cords vibrating from the start.

@@ -3,35 +3,31 @@ track: lectures
 topic: LT01T06
 article: L691
 locale: en
-title: "Using Oare in Questions"
-summary: "The word oare shows wondering or doubt and keeps your pitch rising until the very end of the sentence."
+title: "Oare in Questions"
+summary: "Learn how to pronounce the word oare in Romanian questions of doubt using a rising tone."
 status: draft
 entity_id: "LT01T06:L691"
 order: 8
 terms:
-  en: "doubt particle"
-  es: "partícula de duda"
-  it: "particella di dubbio"
-  fr: "particule de doute"
-  de: "Zweifelspartikel"
-  ru: "частица сомнения"
-  hu: "kérdőszócska"
-  pt: "partícula de dúvida"
-  ro: "particulă interogativă"
+  en: "Questions with \"oare\""
+  es: "Preguntas con \"oare\""
+  it: "Domande con \"oare\""
+  fr: "Questions avec \"oare\""
+  de: "Zweifelsfragen mit \"oare\""
+  ru: "Вопросы сомнения с \"oare\""
+  hu: "Kétkedő kérdések az \"oare\"-val"
+  pt: "Perguntas com \"oare\""
+  ro: "Întrebări cu \"oare\""
 ---
 
-## The wondering question
+## The sound
+You use (oare) /ˈo.a.re/ when you wonder about something. It turns a statement into a question of doubt. Listen to (Oare vine?) /ˈo.a.re ˈvi.ne/, which means "I wonder if he is coming?". Your pitch goes up at the start. It stays high until the end.
 
-In Romanian, you use the special word **oare** when you wonder about something. It works like asking yourself a question in your head. It shows gentle doubt, curiosity, or uncertainty. You place it right at the beginning of your sentence. Unlike regular question words that ask for simple facts, this word invites thought. When people hear it, they know immediately that you are pondering an idea rather than demanding a quick answer.
+## How to say it
+Round your lips for the first sound in (oare) /ˈo.a.re/. Open your mouth wide for the next sound. Put the stress on the first syllable. Your voice rises on (oare) /ˈo.a.re/. Keep your tone rising gently to the end of the sentence. Do not let your pitch drop.
 
-## Mouth and voice tone
+## Reading rules
+Look for (oare) /ˈo.a.re/ at the beginning of a question. The letters "o" and "a" make two distinct vowel sounds. Say them smoothly together without a break. When you see this word, prepare for a rising question tune. It shows that the speaker is not sure.
 
-Saying **oare** starts with your lips rounded for the first vowel. Then your jaw drops open quickly for the second vowel. Your tongue rests low and flat. The stress hits the first part of the word clearly. After you say this opening word, your voice must not drop. Instead, your musical pitch stays buoyant. As you reach the final syllable of the whole question, let your pitch glide distinctly upward into the air.
-
-## Example in action
-
-Listen closely to this short question: **Oare vine?** /ˈo.a.re ˈvi.ne/. In this sentence, the speaker wonders whether someone is arriving. Notice how your voice starts at a medium level on the opening word. Then your voice climbs higher on the last word. The final vowel sounds higher and brighter than the start. That sustained rise lets your listener feel the open doubt hanging in the room.
-
-## Common mistakes to avoid
-
-English speakers often drop their pitch at the end of questions that start with question words. If you drop your voice at the end here, you will sound like you are giving a flat command. Keep your vocal cords light and flexible. Do not let your intonation fall downward on the last word. Another error is blending the vowels into a single sound. Keep both vowel parts clear and lively.
+## Common mistakes
+Do not drop your pitch at the end of the question. A falling tone makes the sentence sound like a flat statement. Keep the melody rising to show true doubt. Also, do not blend the vowels into one flat sound. Pronounce both vowels clearly in (oare) /ˈo.a.re/.

@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L362
+locale: en
+title: "U"
+summary: ""
+status: draft
+entity_id: "LT01T01:L362"
+order: 125
+terms:
+  en: "U"
+  es: "U"
+  it: "U"
+  fr: "U"
+  de: "U"
+  ru: "U"
+  hu: "U"
+  pt: "U"
+  ro: "U"
+---
+
+## Sound of the letter U
+
+The letter (U) /uː/ is called /uː/. Its main sound is heard in the word (Uhr) /uːɐ̯/, which means clock or watch. This letter makes two different sounds in German. Both sounds are simple vowels.
+
+## How to say the letter U
+
+For the long sound, pull your tongue back. Push your lips forward into a small, tight circle. Let your voice hum steadily. For the short sound, open your mouth a little wider. Relax your lips slightly. Keep your tongue pulled back. Put a finger before your lips to feel them push forward.
+
+## Spelling rules for the letter U
+
+Before a single consonant, you make a long sound. You can hear this in (gut) /ɡuːt/. Before two consonants, you make a short sound. You can hear this in (und) /ʊnt/.
+
+## Mistakes to avoid with U
+
+Do not let your lips glide into a w sound at the end. In the English word boot, your lips often move. Keep your lips completely still until the sound finishes. Also, do not start with a y sound like in the English word music.

@@ -4,7 +4,7 @@ topic: LT01T03
 article: L630
 locale: en
 title: "Stress Is Free"
-summary: "In Romanian, stress can land on any syllable, so you must learn it for each new word."
+summary: "Romanian stress can land on any syllable, so you must learn the stress with every new word."
 status: draft
 entity_id: "LT01T03:L630"
 order: 3
@@ -12,26 +12,40 @@ terms:
   en: "free stress"
   es: "acento libre"
   it: "accento libero"
-  fr: "accent tonique libre"
-  de: "freier Wortakzent"
-  ru: "разноместное ударение"
-  hu: "szabad hangsúly"
+  fr: "accent libre"
+  de: "freier Akzent"
+  ru: "свободное ударение"
+  hu: "kötetlen hangsúly"
   pt: "acento livre"
   ro: "accent liber"
 ---
 
-## The moving stress
+## The sound
+Stress gives extra power to one syllable.
+That stressed beat sounds louder and longer.
+In Romanian, stress can fall anywhere in a word.
+Listen to (apă) /ˈa.pə/, which means water.
+The stress is on the first part.
+Now listen to (băiat) /bəˈjat/, meaning boy.
+The stress moves to the end.
 
-In Romanian, stress is free. This means the loudest beat does not stay in one fixed spot. It can land on the first syllable, the middle syllable, or the very end of a word. Because there is no single rule for every word, you need to listen carefully to each new word. Treat the stress like a part of the word's spelling!
+## How to say it
+Push more air from your lungs on the strong syllable.
+Open your mouth slightly wider on its vowel.
+Make that vowel clearer and hold it a tiny bit longer.
+Keep the unstressed syllables relaxed and softer.
+Do not rush, and let the strong beat stand out naturally.
 
-## How to make the stress
+## Reading rules
+Romanian writing usually does not show stress marks.
+There is no fixed rule for which syllable gets the beat.
+Because of this, stress can change the whole word.
+Therefore, you must learn the stress for each new word you meet.
+Always listen carefully to the speaker or dictionary audio.
 
-When you say a stressed syllable, give your voice extra energy. Push a little more air from your lungs. Open your mouth a bit wider and make the vowel slightly longer. Your pitch will also jump up a little, like singing a higher musical note. The unstressed syllables should be quieter, shorter, and softer.
-
-## Listen to the word băiat
-
-Look at the word for boy: **băiat** /bəˈjat/. This word has two syllables: bă-iat. The stress lands right on the second syllable. When you say **băiat**, keep the first part quick and soft. Then, open your mouth wide on "iat" with more volume and a higher tone: bă-IAT!
-
-## Common mistakes to avoid
-
-English speakers often push stress to the beginning of short words. If you say "BĂ-iat", it sounds strange to Romanian ears. Do not guess where the stress goes based on English habits. Always listen to the audio track and repeat the loud beat on the exact same syllable.
+## Common mistakes
+Do not place stress on the same syllable in every word.
+For example, do not always hit the first or last syllable.
+Saying (băiat) /bəˈjat/ with stress at the beginning sounds wrong.
+Check the stress when you learn a word.
+Treat the stress as part of the spelling.

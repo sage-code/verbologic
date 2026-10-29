@@ -732,7 +732,11 @@ def article_sections(track: str, topic: str, code: str, locale: str) -> list[str
     def clean(chunk: str) -> str:
         chunk = re.sub(r"^\s{0,3}#{1,6}\s*", "", chunk, flags=re.MULTILINE)
         chunk = re.sub(r"[*_`>]+", "", chunk)
-        chunk = IPA_SPAN.sub("", chunk)  # transcriptions are shown, never spoken
+        # Lecture articles are spoken: a ( ) word is dropped and the IPA after it
+        # is respelled by transliterate_many (scripts/lib/ipa-translit.mjs), so the
+        # IPA must reach it. Elsewhere transcriptions are shown, never spoken.
+        if track != "lectures":
+            chunk = IPA_SPAN.sub("", chunk)
         return re.sub(r"\n{3,}", "\n\n", chunk).strip()
 
     if not re.search(r"^\s{0,3}#{2,3}\s+", raw, flags=re.MULTILINE):
@@ -755,7 +759,8 @@ def article_text(track: str, topic: str, code: str, locale: str) -> str | None:
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)  # links → their text
     text = re.sub(r"^\s{0,3}#{1,6}\s*", "", text, flags=re.MULTILINE)  # headings
     text = re.sub(r"[*_`>]+", "", text)  # emphasis / quotes / code marks
-    text = IPA_SPAN.sub("", text)  # transcriptions are shown, never spoken
+    if track != "lectures":  # lectures keep IPA for transliteration (see article_sections)
+        text = IPA_SPAN.sub("", text)  # transcriptions are shown, never spoken
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip() or None
 
@@ -997,8 +1002,9 @@ async def main() -> None:
     parser.add_argument("--lang", choices=LOCALES, help="only this audio locale")
     parser.add_argument("--chapter", help="only this chapter code and its nested items (e.g. C1)")
     parser.add_argument("--topic", help="only this topic code")
-    parser.add_argument("--id", help="only this item code (combined with --topic to disambiguate)")
+    parser.add_argument("--id", help="only this item code, or several comma-separated (combined with --topic to disambiguate)")
     parser.add_argument("--kind", help="only items of this content kind")
+    parser.add_argument("--target", choices=LOCALES, help="only items that teach this language (manifest `target`; a directional topic holds every language's items)")
     parser.add_argument("--apply", action="store_true", help="write translations and/or audio; otherwise report only")
     parser.add_argument("--overwrite-audio", action="store_true", help="regenerate audio even when its file exists")
     args = parser.parse_args()
@@ -1012,9 +1018,12 @@ async def main() -> None:
     if args.topic:
         items = [(path, item) for path, item in items if item.get("topic") == args.topic]
     if args.id:
-        items = [(path, item) for path, item in items if item.get("code") == args.id]
+        wanted = set(args.id.split(","))
+        items = [(path, item) for path, item in items if item.get("code") in wanted]
     if args.kind:
         items = [(path, item) for path, item in items if item.get("kind") == args.kind]
+    if args.target:
+        items = [(path, item) for path, item in items if item.get("target") == args.target]
 
     translate = args.all or args.translate
     generate_audio = args.all or args.audio
@@ -1065,9 +1074,12 @@ async def main() -> None:
             if args.topic:
                 items = [(path, item) for path, item in items if item.get("topic") == args.topic]
             if args.id:
-                items = [(path, item) for path, item in items if item.get("code") == args.id]
+                wanted = set(args.id.split(","))
+                items = [(path, item) for path, item in items if item.get("code") in wanted]
             if args.kind:
                 items = [(path, item) for path, item in items if item.get("kind") == args.kind]
+            if args.target:
+                items = [(path, item) for path, item in items if item.get("target") == args.target]
         audio_count, skipped_audio, failed_audio = await apply_audio(
             items,
             args.lang,

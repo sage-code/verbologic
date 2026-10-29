@@ -3,31 +3,50 @@ track: lectures
 topic: LT01T05
 article: L675
 locale: en
-title: "Pronouncing Într-o Zi Smoothly"
-summary: "The word într-o has a weak ending sound that flows directly into the next word without any pause."
+title: "Saying într-o in Romanian"
+summary: "Learn how to say într-o smoothly by weakening the final vowel and connecting it to the next word."
 status: draft
 entity_id: "LT01T05:L675"
 order: 10
 terms:
-  en: "weak joining"
-  es: "enlace débil"
-  it: "legamento debole"
-  fr: "liaison faible"
-  de: "schwache Verbindung"
-  ru: "слабое слияние"
-  hu: "gyenge összekapcsolás"
-  pt: "ligação fraca"
-  ro: "rostire legată slabă"
+  en: "pronunciation of într-o"
+  es: "pronunciación de într-o"
+  it: "pronuncia di într-o"
+  fr: "prononciation de într-o"
+  de: "Aussprache von într-o"
+  ru: "произношение într-o"
+  hu: "az într-o kiejtése"
+  pt: "pronúncia de într-o"
+  ro: "pronunțarea lui într-o"
 ---
 
-## The sound pattern
-In Romanian, the little word **într-o** connects closely to what comes after it. The hyphen shows that the words belong together in speech. Even though you see the letter **o**, speakers do not pronounce it as a loud, clear vowel. Instead, the final sound becomes light, short, and very close to a soft /u/. It acts like a tiny bridge between words.
+## The sound
+Look at the phrase (într-o zi) /ɨn.tru ˈzi/, which means one day.
+The word (într-o) /ɨn.tro/ has a small hyphen.
+In fast speech, the last letter sounds very weak and light.
+It shifts toward a quick sound like 'to'.
+Both words flow together as one unit.
 
-## Mouth and stress
-Start by making the deep /ɨ/ sound with your tongue pulled slightly back. Next, close your lips slightly into a loose circle for the final sound. Do not push your lips forward strongly. Keep your voice quiet and low on this syllable. The main beat of your voice must wait for the next word. The pitch should rise gently only when you reach the following noun.
+## How to say it
+Start with your tongue in the center of your mouth.
+Make the first sound firmly.
+Then, relax your lips quickly for the ending sound.
+Do not pause before the next word.
+Put the main stress on the following word, like (zi) /zi/.
+Your voice rises and hits the target word with energy.
 
-## Practice the phrase
-Listen to the common phrase **într-o zi** /ɨn.tru ˈzi/. It means "one day" in English. Say the two written words as if they were one single word. The syllable **zi** receives the real energy and higher tone. Your voice slides smoothly from the soft end of **într-o** straight into the buzzing /z/ sound. There is no break in your breath.
+## Reading rules
+The hyphen shows two words written together.
+It tells you not to stop your breath.
+You see the letter 'o', but you speak it softly.
+It connects smoothly to whatever word comes next.
+You read the phrase as a single wave of sound.
+The beat falls only on the second word.
 
-## Mistakes to avoid
-English speakers often stop at the hyphen. Do not pause between **într-** and **o**, and do not pause before the next word. Another frequent mistake is saying a loud "oh" sound like in the English word "go". Keep the vowel short, weak, and relaxed. Let the next word carry all the loudness and musical weight of the phrase.
+## Common mistakes
+Do not say two separate words with a stop.
+Do not stress the letter 'o'.
+If you say a loud 'o', it sounds heavy and robotic.
+Keep the vowel brief and light.
+Slide directly into the next sound without breaking the air.
+Let your voice push forward to the end.

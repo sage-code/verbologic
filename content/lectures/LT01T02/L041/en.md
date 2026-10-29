@@ -20,18 +20,18 @@ terms:
   ro: "oi"
 ---
 
-## The diphthong oi
+## The sound of oi
 
-The letter group oi sounds like the diphthong /oj/. It appears in the word (doi) /doj/, which means two. This spelling represents one single diphthong in Romanian.
+The letters oi sound like the sound /oj/. You hear them in the word (doi) /doj/, which means two. This pair makes only one sound in Romanian.
 
-## Pronouncing the sounds
+## How to say oi
 
-Start by rounding your lips for an open vowel, then quickly glide your tongue up and forward toward the roof of your mouth. Your vocal cords vibrate throughout the entire glide. Keep your fingers on your throat to feel the continuous vibration as the two parts merge into one smooth syllable.
+Round your lips tightly and pull your tongue back. Start making a clear vowel sound. Then quickly glide your tongue up and forward toward your upper teeth. Spread your lips slightly at the end. Your voice box vibrates all the time. Place a hand on your throat to feel the steady vibration throughout the sound.
 
-## Reading the letters
+## Spelling rules for oi
 
-In all positions, this combination represents the falling diphthong /oj/. You can hear it clearly in the word (foi) /foj/.
+The letters oi make the sound /oj/ in all positions. You hear it at the end of the word (foi) /foj/. It also appears with the exact same sound in the middle of words.
 
-## Avoiding common errors
+## Mistakes with oi
 
-English speakers often prolong the second part or add a separate syllable. The sequence matches the vowel sound in the English word boy. Keep the glide fast and smooth, without splitting the diphthong into two distinct beats.
+You may stretch this pair into two separate vowels. Do not say two syllables as in the English word fluid. The letters oi glide together quickly in one single push of air. They sound very close to the end of the English word boy.

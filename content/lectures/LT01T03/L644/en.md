@@ -3,31 +3,31 @@ track: lectures
 topic: LT01T03
 article: L644
 locale: en
-title: "Count the Syllables"
-summary: "Clap for every beat in a word, then give the strongest syllable a louder, longer tap."
+title: "Count Syllables and Mark Stress"
+summary: "Learn to clap each Romanian syllable and emphasize the stressed beat for natural rhythm and clear pronunciation."
 status: draft
 entity_id: "LT01T03:L644"
 order: 17
 terms:
-  en: "Syllables and stress"
-  es: "Sílabas y acento"
-  it: "Sillabe e accento"
-  fr: "Syllabes et accent"
-  de: "Silben und Betonung"
-  ru: "Слоги и ударение"
-  hu: "Szótagok és hangsúly"
-  pt: "Sílabas e tonicidade"
-  ro: "Silabă și accent"
+  en: "Syllable stress"
+  es: "Acento silábico"
+  it: "Accento sillabico"
+  fr: "Accent syllabique"
+  de: "Silbenbetonung"
+  ru: "Слоговое ударение"
+  hu: "Szótaghangsúly"
+  pt: "Acento silábico"
+  ro: "Accent silabic"
 ---
 
-## Clap each beat
-Every word is built from small sound beats called syllables. Each time your mouth opens for a vowel, you hear one beat. To find how many beats a word has, speak slowly and clap your hands once for every beat. Keep your lips relaxed and feel your chin drop down with each vowel sound.
+## The sound
+Words have rhythm. Each syllable is a beat. Listen to (dimineață) /di.mi.ˈɲa.tsə/, which means morning. It has four beats. One beat is louder and stronger than the others. We call this strong beat the stress.
 
-## Find the strong beat
-In Romanian words, one beat is always special. We call this the stressed syllable. Your voice goes slightly higher, stays longer, and sounds louder on this beat. When you clap, make regular soft claps for normal beats. Then, clap extra firmly or stamp your foot when you hit the strong, stressed beat.
+## How to say it
+Clap your hands for every beat in a word. Say (dimineață) /di.mi.ˈɲa.tsə/ slowly. Clap four times. Make the third beat louder and longer. Open your mouth wider on that beat. Let your voice jump higher there. The other beats stay soft and short.
 
-## Practice with dimineață
-Let us practice with the Romanian word for morning: **dimineață** /di.mi.ˈɲa.tsə/. Say it slowly while clapping: di - mi - nea - ță. That makes four beats! The third beat, *nea*, is the loudest one. Open your mouth a bit wider and make *nea* ring out: di - mi - **NEA** - ță. The last sound stays quiet.
+## Reading rules
+Look at (copil) /ko.ˈpil/, which means child. It has two beats. The stress lands on the second beat. Now look at (apă) /ˈa.pə/, which means water. The stress lands on the first beat. Romanian does not write stress marks on words. You must learn the rhythm of each word.
 
-## Mistakes to avoid
-English speakers often swallow unstressed vowels, turning them into a fast murmur. In Romanian, keep every beat clear and crisp. Do not rush over the first two beats *di* and *mi*. Give each syllable its own distinct clap, and make sure your loudest clap lands right on *nea*.
+## Common mistakes
+Do not make every beat equal. A flat rhythm sounds strange and robotic. Do not swallow the weak syllables. Say every beat clearly, even the soft ones. Always hit the stressed beat firmly. If you stress the wrong syllable, people might not understand you.

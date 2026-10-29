@@ -20,18 +20,18 @@ terms:
   ro: "I"
 ---
 
-## The letter i
+## The letter name
 
-The name of this letter is pronounced /i/ or /j/. Its primary sound is heard in (inimă) /iˈnel/, which means ring. Overall, this letter produces three distinct sounds across different positions in words.
+The letter name is the sound /i/ or /j/. Its main sound is the vowel sound /i/, as in the word (inimă) /iˈnel/, which means ring. This letter has three different sounds in total.
 
-## Making the sounds
+## How to say it
 
-For the full vowel, raise your tongue high and forward while spreading your lips wide. To form the gliding sound, push your tongue even higher toward the roof of your mouth and release quickly. For the final faint sound, lift your tongue toward your palate as you pronounce the preceding consonant. Feel your vocal cords vibrate continuously throughout the vowels.
+Spread your lips wide and raise the front of your tongue close to your roof. Let your vocal cords vibrate, and feel the buzz by touching your neck. For the second sound, glide your tongue quickly toward the roof while moving into another vowel. For the third sound, raise your tongue slightly without making a full vowel, releasing a brief breath.
 
-## Spelling rules
+## Where each sound occurs
 
-This letter represents the full vowel sound /i/ in most positions, as in (inel) /iˈnel/. It serves as a gliding semivowel /j/ next to other vowels, as seen in (iarbă) /ˈjar.bə/. At the end of words following a consonant, it becomes a brief palatal breath sound /ʲ/, as heard in (lupi) /lupʲ/.
+As a standard full vowel, this letter sounds like the sound /i/, as in (inel) /iˈnel/. It sounds like the glide sound /j/ next to another vowel, as in (iarbă) /ˈjar.bə/. At the end of a word after consonants, it marks a short whisper sound /ʲ/, heard in (lupi) /lupʲ/.
 
-## Avoiding pitfalls
+## Mistakes to avoid
 
-English speakers often pronounce a final consonant marker as a full vowel, turning the end of words into the vowel of see. Instead, keep the final letter silent and merely soften the preceding consonant. Also avoid substituting the short relaxed vowel of the English word sit for the clear Romanian sound.
+Do not replace the vowel with the short vowel in English bit. Keep your tongue high and tense, like the vowel in see. At the end of words, do not add an extra syllable. Never turn the final light mark into a full vowel sound.

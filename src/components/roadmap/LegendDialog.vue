@@ -3,7 +3,7 @@
 // Built on AppDialog so Escape, backdrop click and the focus trap come free.
 <script setup lang="ts">
 import { CheckIcon, PlayIcon } from '@heroicons/vue/20/solid'
-import { EyeIcon, SpeakerWaveIcon } from '@heroicons/vue/24/outline'
+import { EyeIcon, FolderIcon, SpeakerWaveIcon } from '@heroicons/vue/24/outline'
 import AppDialog from '~/components/AppDialog.vue'
 
 const props = defineProps<{
@@ -16,6 +16,11 @@ const copy = useCopy()
 
 /** One legend row: the glyph rendered in the table header, and its meaning. */
 const entries = computed(() => [
+  {
+    key: 'folder',
+    label: copy('legend.folder', 'Folder — expand the content of this chapter or topic'),
+    icon: 'folder'
+  },
   {
     key: 'article',
     label: copy('legend.article', 'Article — open the two-panel reading view'),
@@ -51,7 +56,8 @@ const entries = computed(() => [
         <span
           class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge text-accent"
         >
-          <EyeIcon v-if="entry.icon === 'eye'" class="h-4 w-4" aria-hidden="true" />
+          <FolderIcon v-if="entry.icon === 'folder'" class="h-4 w-4" aria-hidden="true" />
+          <EyeIcon v-else-if="entry.icon === 'eye'" class="h-4 w-4" aria-hidden="true" />
           <span v-else-if="entry.icon === 'scroll'" class="text-base leading-none" aria-hidden="true">📃</span>
           <SpeakerWaveIcon v-else-if="entry.icon === 'speaker'" class="h-4 w-4" aria-hidden="true" />
           <PlayIcon v-else-if="entry.icon === 'play'" class="h-4 w-4" aria-hidden="true" />

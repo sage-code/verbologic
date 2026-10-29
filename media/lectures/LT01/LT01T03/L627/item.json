@@ -4,130 +4,61 @@
   "chapter": "LT01",
   "topic": "LT01T03",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T03:L627",
   "cefr": "A1",
   "tags": [],
   "locales": {
     "en": {
-      "name": "Syllable vowel core"
+      "name": "syllable nucleus"
     },
     "es": {
-      "name": "Núcleo de la sílaba"
+      "name": "núcleo silábico"
     },
     "it": {
-      "name": "Nucleo della sillaba"
+      "name": "nucleo sillabico"
     },
     "fr": {
-      "name": "Noyau de syllabe"
+      "name": "noyau syllabique"
     },
     "de": {
       "name": "Silbenkern"
     },
     "ru": {
-      "name": "Вершина слога"
+      "name": "ядро слога"
     },
     "hu": {
-      "name": "Szótagmag"
+      "name": "szótagmag"
     },
     "pt": {
-      "name": "Núcleo silábico"
+      "name": "núcleo silábico"
     },
     "ro": {
-      "name": "Nucleul silabei"
+      "name": "nucleu silabic"
     }
   },
   "files": {
-    "read/es.mp3": {
-      "bytes": 540864,
-      "sha1": "f19b03f2eded7f0edc5469731f28ff6b5e927030"
-    },
-    "read/it.mp3": {
-      "bytes": 519264,
-      "sha1": "65dd7328608153711c105df3f1c7284b67b5312f"
-    },
-    "read/de.mp3": {
-      "bytes": 584208,
-      "sha1": "1d2f35fef80375bd5af1c9103454a4ab6bdcb3c1"
-    },
-    "read/fr.mp3": {
-      "bytes": 501552,
-      "sha1": "4494a9c97b8cb7ff512ba8c6b6867ed2f81c302a"
-    },
     "read/en.mp3": {
       "bytes": 557856,
       "sha1": "8b2404332ca3510b195678ba1230fc9d885606c8"
     },
-    "read/hu.mp3": {
-      "bytes": 619344,
-      "sha1": "6eff1a40a2588aad974542e4e829812d893405cf"
-    },
     "read/ro.mp3": {
       "bytes": 561888,
       "sha1": "7f0e839e33ac8c5faf449cb078d9ed8a0c82515e"
-    },
-    "read/pt.mp3": {
-      "bytes": 560880,
-      "sha1": "9fd584be044d07a19d01bef950570e8ddc8592d8"
-    },
-    "read/ru.mp3": {
-      "bytes": 582336,
-      "sha1": "c1546f4bef4bf7de4b0f7b046cf5fc01fb63e464"
     }
   },
   "readSections": {
-    "es": [
-      0.0,
-      25.312,
-      49.125,
-      70.0
-    ],
-    "it": [
-      0.0,
-      24.0,
-      46.487,
-      66.35
-    ],
-    "de": [
-      0.0,
-      27.163,
-      53.663,
-      74.55
-    ],
-    "fr": [
-      0.0,
-      23.475,
-      45.225,
-      63.388
-    ],
     "en": [
-      0.0,
+      0,
       24.113,
       48.888,
       70.85
     ],
-    "hu": [
-      0.0,
-      29.587,
-      57.112,
-      81.137
-    ],
     "ro": [
-      0.0,
+      0,
       25.988,
       51.825,
       74.138
-    ],
-    "pt": [
-      0.0,
-      26.688,
-      50.95,
-      73.075
-    ],
-    "ru": [
-      0.0,
-      27.512,
-      52.562,
-      74.963
     ]
   }
 }

@@ -20,18 +20,18 @@ terms:
   ro: "E"
 ---
 
-## The letter E
+## The letter name
 
-The letter is named /e/. Its main pronunciation is the full vowel sound /e/, as in the word (elev) /ˈe.le.fant/, which means elephant. Overall, this letter can produce three different sounds in Romanian words.
+The letter name is spoken as the sound /e/, that is a full vowel e. Its main sound is heard in (elefant) /ˈe.le.fant/, which means elephant. This letter makes three different sounds in Romanian words.
 
-## Making the sound
+## How to say it
 
-For the full vowel, raise your tongue to the middle front of your mouth and unround your lips. For the gliding sound, start from that position and quickly glide into the following vowel. For the combination sound, begin with your tongue high for a quick consonant glide before opening into the vowel. Touch your throat to feel continuous vibration.
+For the first sound, open your mouth halfway and spread your lips wide. Keep your tongue high and forward. For the second sound, begin with a quick glide before the main vowel. For the third sound, glide smoothly from this vowel toward the next vowel without stopping. Touch your throat to feel your voice buzz steadily.
 
 ## Spelling rules
 
-In most positions, you pronounce this letter as the standard vowel sound /e/, that is, a full vowel, seen in (perete) /peˈre.te/. At the start of personal pronouns and forms of the verb to be, it sounds like /je/, as in (el) /jel/ or (este) /ˈjes.te/. Inside diphthongs, it becomes the brief gliding semivowel sound /e̯/, that is, a short gliding sound, heard in (seară) /ˈse̯a.rə/ and (deal) /de̯al/.
+In most words, this letter makes the sound /e/, that is a full vowel e, as in (elev) /eˈlev/. At the start of personal pronouns and forms of the verb to be, it makes the sound /je/, as in (el) /jel/. When it glides into another vowel, it makes the sound /e̯/, that is a gliding vowel e, as in (seară) /ˈse̯a.rə/.
 
-## Comparing with English
+## Common mistakes
 
-English speakers often glide the vowel at the end of syllables, turning bed into bay. Keep your tongue steady and avoid adding an extra off-glide. English speakers also tend to weaken unstressed vowels to an obscure sound. Keep the Romanian vowel clear and distinct, exactly like the vowel in the English word bet.
+Do not turn the simple vowel into a glide like the vowel sound in day. Keep your tongue steady and pure from start to finish. In basic pronouns, do not drop the initial glide like the start of elbow. Make sure you add the quick glide heard at the beginning of yes.

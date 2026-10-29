@@ -4,34 +4,30 @@ topic: LT01T03
 article: L645
 locale: en
 title: "Stress and Vowel Contrast"
-summary: "Stressed vowels sound clear and strong, while unstressed vowels sound softer and shorter in Romanian word endings."
+summary: "Learn how word stress changes vowel strength and quality at the ends of Romanian words."
 status: draft
 entity_id: "LT01T03:L645"
 order: 18
 terms:
-  en: "vowel contrast"
-  es: "contraste vocálico"
-  it: "contrasto vocalico"
-  fr: "contraste vocalique"
-  de: "Vokalkontrast"
-  ru: "гласный контраст"
-  hu: "magánhangzó-kontraszt"
-  pt: "contraste vocálico"
-  ro: "contrast vocalic"
+  en: "vowel contrast in endings"
+  es: "contraste vocálico por acento"
+  it: "contrasto vocalico per accento"
+  fr: "contraste vocalique sous accent"
+  de: "Vokalkontrast durch Betonung"
+  ru: "гласный контраст под ударением"
+  hu: "hangsúlyos magánhangzó-kontraszt"
+  pt: "contraste vocálico pelo acento"
+  ro: "contrast vocalic prin accent"
 ---
 
-## Strong and soft vowels
+## The sound
+Listen to the word endings carefully. A stressed ending sounds strong, clear, and long. An unstressed ending sounds light, quick, and soft. Listen to (vorbesc) /vorˈbesk/, which means I speak. The stress is on the last part. The vowel sounds clear. In (vorbește) /vorˈbeʃ.te/, meaning he speaks, the last vowel is soft and quick.
 
-In Romanian, vowels change their power depending on stress. When a vowel carries the stress, it sounds bright, loud, and very clear. When a vowel has no stress, your voice relaxes. The vowel becomes shorter and quieter. Word endings change a lot because of this rule. An ending with stress keeps its pure, open sound. An unstressed ending sounds much lighter. Listening for this difference helps you understand who is speaking and what they are doing.
+## How to say it
+Open your mouth wider for a stressed ending. Push more air from your lungs. Make your voice higher and hold the vowel longer. For an unstressed ending, drop your jaw less. Use less air and keep your voice relaxed. Say (vorbesc) /vorˈbesk/. Hit the ending like the word 'desk'. Keep the sound punchy and bright.
 
-## Shape your mouth and voice
+## Reading rules
+Romanian does not use written accent marks to show stress. You must learn which part gets the push. Verbs often put strong stress right on the final ending. Look at (vorbesc) /vorˈbesk/. The final letter e receives full power. Never hide or swallow a stressed ending vowel. Read it out loud with full energy.
 
-Watch what your body does when you speak. For a stressed vowel, drop your jaw slightly more and push extra air from your belly. Your pitch goes up a little bit, like singing a higher musical note. For an unstressed vowel, keep your jaw closer together and your lips relaxed. Do not push extra air. Your voice stays flat and quiet. Move smoothly between the relaxed parts and the strong, energetic beat of the word.
-
-## Practice with vorbesc
-
-Listen closely to the word **vorbesc** /vorˈbesk/, which means "I speak". This word has two syllables: "vor" and "besc". The stress hits the ending on "besc". Start with a quiet, relaxed "vor". Then open your mouth wider and push more air on "besc". The vowel /e/ in **vorbesc** /vorˈbesk/ sounds bright and sharp. Notice how your tongue lifts toward the middle of your mouth. The strong ending makes the whole word bounce forward with energy.
-
-## Mistakes to avoid
-
-English speakers often turn unstressed vowels into an "uh" sound, like the word "about". Be careful not to swallow the first part of Romanian words. Even when a vowel is unstressed, you must still shape it properly with your lips. Another common mistake is stressing the beginning instead of the ending. If you say "VOR-besc", the vowel /e/ becomes weak and fuzzy. Always keep your stress on the ending so the vowel stays bright and clear.
+## Common mistakes
+Do not make every vowel equal in strength. Some learners say words flatly. In (vorbesc) /vorˈbesk/, do not stress the first part. Push only on the ending. Also, do not change stressed vowels into weak murmurs. Give the stressed vowel its pure sound. Keep unstressed endings softer, but keep stressed endings strong and crisp.

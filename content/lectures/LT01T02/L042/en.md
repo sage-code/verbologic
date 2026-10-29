@@ -20,18 +20,18 @@ terms:
   ro: "ui"
 ---
 
-## The group ui
+## The sound ui
 
-The letter group ui is named /uj/. Its main sound is the diphthong /uj/, heard in (pui) /puj/, which means chicken or youth. This written pair represents two distinct sounds in Romanian speech. It never stays silent.
+The letters ui sound as /uj/. Their main sound appears in (pui) /puj/, which means chicken or youth. This letter pair has two sounds in Romanian.
 
-## Pronouncing ui
+## Mouth movements
 
-Round your lips tightly and pull your tongue back for the first vowel. Then glide your tongue forward toward the roof of your mouth while unrounding your lips. Keep your vocal cords vibrating continuously throughout the glide. For the two separate vowels, pause slightly between the rounded back sound and the spread front vowel. Feel continuous vibrations by placing your hand on your throat.
+For the first sound, round your lips tightly. Glide quickly to a sharp sound while spreading your lips wide. For the second sound, make two distinct beats. First push your lips forward into a small circle. Then shift your tongue high and forward for a clear separate sound. Touch your throat to feel steady voicing throughout.
 
-## Spelling of ui
+## Spelling rules
 
-This combination usually forms a single closing diphthong within one syllable. In that case, it is pronounced as the sound /uj/, as found in (puiul) /ˈpu.jul/. In other words, the vowels split across two separate syllables in hiatus. When separated into hiatus, they produce the two vowels /u.i/, as in (ruină) /ruˈi.nə/.
+The letters ui make the single gliding sound /uj/ within one syllable, as in (puiul) /ˈpu.jul/. They split into two separate vowel beats /u.i/ across syllables, as heard in (ruină) /ruˈi.nə/ and (construit) /kon.struˈit/.
 
-## English comparisons
+## Common mistakes
 
-English speakers often merge this group into a single long vowel like the sound in suit. Avoid turning it into one flat vowel. Glide distinctly from the rounded back vowel to the high front glide, just like in gooey. If the letters stand in hiatus, say two clear vowels without adding an intrusive w sound between them.
+Do not turn this pair into the single vowel of English fruit or juice. You must pronounce both elements clearly. In a single syllable, slide smoothly from the first sound to the second without stopping. Across two syllables, keep each vowel fully independent and never drop either sound.

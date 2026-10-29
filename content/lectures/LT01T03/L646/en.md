@@ -3,35 +3,31 @@ track: lectures
 topic: LT01T03
 article: L646
 locale: en
-title: "Practice: Stress in Word Pairs"
-summary: "Say the word pairs out loud and move your voice's stress when the word ending changes."
+title: "Practice: Stress in Pairs"
+summary: "Practice moving the strong stress to the new ending when saying Romanian word pairs aloud."
 status: draft
 entity_id: "LT01T03:L646"
 order: 19
 terms:
   en: "stress in pairs"
-  es: "acento en parejas"
+  es: "acento en pares"
   it: "accento nelle coppie"
-  fr: "accent par paires"
-  de: "Betonung bei Paaren"
+  fr: "accent dans les paires"
+  de: "Betonung in Paaren"
   ru: "ударение в парах"
-  hu: "hangsúly a szópárokban"
+  hu: "hangsúly szópárokban"
   pt: "acento em pares"
   ro: "accentul în perechi"
 ---
 
-## Moving Stress in Pairs
+## The sound
+Every word has one strong beat. Your voice sounds louder and higher on this beat. Listen to (frumos) /fruˈmos/, which means beautiful. The beat lands on the end. When endings change, the strong beat often moves. You feel the rhythm jump to another part.
 
-In Romanian, words often come in matching pairs. A word can change from a boy word to a girl word, or from one thing to many things. When the ending of the word changes, the strong beat can move too! Stress is the loudest, strongest beat in a word. When you read pairs, you must train your ear to follow the beat. Watching how the accent shifts helps you sound like a native speaker.
+## How to say it
+Open your mouth and push more air on the stressed part. Hold that vowel a little longer. Say word pairs together. Start with (cântă) /ˈkɨn.tə/. Hit the first part with extra force. Now say (cântăm) /kɨnˈtəm/. Push your voice forward and hit the new ending. Feel the beat jump.
 
-## How to Use Your Voice
+## Reading rules
+Written Romanian does not use stress marks. You cannot see the beat on paper. When a word adds an ending, the beat often moves. Read word pairs side by side. Train your ears to notice where the loud beat lands each time.
 
-Say each pair aloud with plenty of air. For the stressed syllable, open your mouth wider and push your voice higher. The stressed vowel sounds longer and clearer. When you reach an unstressed ending, make your voice softer and drop your pitch slightly. Relax your jaw and lips on the quiet parts. Pretend your voice is bouncing like a rubber ball right onto the loudest beat.
-
-## Listen to the Words
-
-Look at the adjective **frumos** /fruˈmos/. The strong beat is right at the end on the syllable "mos". Your voice climbs up and punches that vowel. Now listen to its pair, the feminine form **frumoasă** /fruˈmo̯a.sə/. The ending changed, and the stress moved slightly to the middle syllable! Tap your desk with your finger on each strong beat to feel the voice jump between the two words.
-
-## Common Mistakes to Avoid
-
-English speakers often keep the stress on the very first syllable of every word. In Romanian, that sounds strange because stress loves to travel toward the end. Another common slip is making all syllables the same volume. Romanian words need a clear rhythm with high peaks and low valleys. Do not rush through the pairs. Speak slowly and let the strong syllable ring out loud and bright.
+## Common mistakes
+Do not keep the beat in the same spot. Some learners freeze the stress on the first syllable. This makes words sound flat or wrong. Do not make every syllable equally loud. Relax your mouth on the weak parts. Move the loud beat when the ending changes.

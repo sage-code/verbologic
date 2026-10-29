@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L489
+locale: en
+title: "D"
+summary: ""
+status: draft
+entity_id: "LT01T01:L489"
+order: 252
+terms:
+  en: "D"
+  es: "D"
+  it: "D"
+  fr: "D"
+  de: "D"
+  ru: "D"
+  hu: "D"
+  pt: "D"
+  ro: "D"
+---
+
+## Letter sound
+
+The letter (dé) /deː/ makes the sound /d/. You hear it in the word (dob) /ˈdob/, which means drum. This letter has three different sounds.
+
+## How to say it
+
+Press the tip of your tongue against your upper gum line. Release the air with your voice on. Next, make the same movement without your voice. For the last sound, press the flat body of your tongue against the roof of your mouth. Hold the closure longer, and let your voice hum. Put your hand on your throat to feel the voice buzz.
+
+## Reading rules
+
+Before vowels and at the start of words, it sounds as /d/, like in (madár) /ˈmɒdaːr/. When it sits before voiceless consonants, it sounds as the unvoiced sound /t/, as in (adta) /ˈɒttɒ/ and (hadtest) /ˈhɒttɛʃt/. Before the letter j, it joins with it to make the long sound /ɟː/, as in (adja) /ˈɒɟːɒ/.
+
+## Common mistakes
+
+Do not place your tongue tip too far back like in the English word door. Keep the tongue tip forward against your upper teeth ridge. Also, do not puff out a breath of air at the end. Make the sound sharp and clean.

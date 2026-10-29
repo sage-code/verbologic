@@ -2,9 +2,10 @@
   "code": "L603",
   "track": "lectures",
   "chapter": "LT01",
-  "topic": "LT01T07",
+  "topic": "LT01T01",
   "kind": "letter",
-  "entity_id": "LT01T07:L603",
+  "target": "en",
+  "entity_id": "LT01T01:L603",
   "legacy_entity_id": "letter_knife",
   "cefr": "A1",
   "tags": [
@@ -67,38 +68,6 @@
     "read/en.mp3": {
       "bytes": 444384,
       "sha1": "91e012de9ef64dfcc1bf6d09a9d118e2d5f4db0b"
-    },
-    "read/de.mp3": {
-      "bytes": 466560,
-      "sha1": "f6dc02df36409cb09868f2de5b903317052c6f60"
-    },
-    "read/ro.mp3": {
-      "bytes": 231408,
-      "sha1": "81468a2bf5cc384aeefe1205425805f1ba5abcf8"
-    },
-    "read/es.mp3": {
-      "bytes": 471744,
-      "sha1": "9990ba1aab3e0bad8e7ecfbb4cc754342c2aeada"
-    },
-    "read/fr.mp3": {
-      "bytes": 337536,
-      "sha1": "dc7f204dcbac4a440f1ec149ce44e8a886948a21"
-    },
-    "read/it.mp3": {
-      "bytes": 471024,
-      "sha1": "218392fc07453d10fb7838f4bad9e7c4190bb224"
-    },
-    "read/ru.mp3": {
-      "bytes": 470016,
-      "sha1": "4b07e69254e29c1f76bf623df589e884ac2cc098"
-    },
-    "read/hu.mp3": {
-      "bytes": 374976,
-      "sha1": "c2e717adc7f70afc177908058a3e00195f2f8dd0"
-    },
-    "read/pt.mp3": {
-      "bytes": 324864,
-      "sha1": "4b509734f0886ddbd332b890ba3fc112808c7b1c"
     }
   },
   "readSections": {
@@ -107,54 +76,6 @@
       16.163,
       34.487,
       53.537
-    ],
-    "de": [
-      0,
-      16.637,
-      36.5,
-      57.025
-    ],
-    "ro": [
-      0,
-      7.8,
-      20.75,
-      28.312
-    ],
-    "it": [
-      0,
-      20.012,
-      38.35,
-      57.3
-    ],
-    "fr": [
-      0,
-      12.713,
-      25.913,
-      41.138
-    ],
-    "es": [
-      0,
-      22.262,
-      40.263,
-      58.738
-    ],
-    "hu": [
-      0,
-      14.762,
-      29.3,
-      45.637
-    ],
-    "ru": [
-      0,
-      20.725,
-      37.5,
-      57.013
-    ],
-    "pt": [
-      0,
-      11.7,
-      23.212,
-      38.212
     ]
   }
 }

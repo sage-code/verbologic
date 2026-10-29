@@ -7,8 +7,7 @@
   "entity_id": "LT05T03",
   "locales": {
     "en": {
-      "name": "Indefinite & definite articles (enclitic articles)",
-      "ipa": "/ɪnˈdɛfɪnɪt ænd ˈdɛfɪnɪt ˈɑɹtɪkəlz (ɛnˈklɪtɪk ˈɑɹtɪkəlz)/",
+      "name": "Indefinite & definite articles",
       "description": "This topic covers the learning material for topic LT05T03."
     },
     "ro": {
@@ -17,38 +16,31 @@
       "description": "Acest subiect acoperă materialul de învățare pentru tema LT05T03."
     },
     "de": {
-      "name": "Unbestimmte & bestimmte Artikel (enklitische Artikel)",
-      "ipa": "/ˈʊnbəˌʃtɪmtə ʊnt bəˈʃtɪmtə aʁˈtiːkəl (ɛŋˈkliːtɪʃə aʁˈtiːkəl)/",
+      "name": "Unbestimmter & bestimmter Artikel",
       "description": "Dieses Thema behandelt den Lernstoff für das Thema LT05T03."
     },
     "ru": {
-      "name": "Неопределенные и определенные артикли (энклитические артикли)",
-      "ipa": "/nʲɪɐprʲɪdʲɪˈlʲɵnːɨjə i ɐprʲɪdʲɪˈlʲɵnːɨjə ɐrˈtʲiklʲi (ɛnklʲɪˈtʲitɕɪskʲɪjə ɐrˈtʲiklʲi)/",
+      "name": "Неопределённый и определённый артикли",
       "description": "Эта тема охватывает учебный материал для темы LT05T03."
     },
     "it": {
-      "name": "Articoli indeterminativi e determinativi (articoli enclitici)",
-      "ipa": "/arˈtikoli indeterminaˈtiːvi e determinaˈtiːvi (arˈtikoli eŋˈkliːtitʃi)/",
+      "name": "Articoli indeterminativi e determinativi",
       "description": "Questo argomento tratta il materiale didattico per l'argomento LT05T03."
     },
     "es": {
-      "name": "Artículos indefinidos y definidos (artículos enclíticos)",
-      "ipa": "/aɾˈtikulos indefiˈniðos i defiˈniðos (aɾˈtikulos eŋˈklitikos)/",
+      "name": "Artículos indefinidos y definidos",
       "description": "Este tema cubre el material de aprendizaje para el tema LT05T03."
     },
     "fr": {
-      "name": "Articles indéfinis et définis (articles enclitiques)",
-      "ipa": "/aʁtikl ɛ̃defini e defini (aʁtikl ɑ̃klitik)/",
+      "name": "Articles indéfinis et définis",
       "description": "Ce sujet couvre le matériel d'apprentissage pour le thème LT05T03."
     },
     "hu": {
-      "name": "Határozatlan és határozott névelők (enklitikus névelők)",
-      "ipa": "/ˈhɒtaːrozɒtlɒn eːʃ ˈhɒtaːrozott ˈneːvɛløːk (ˈɛŋklitikuʃ ˈneːvɛløːk)/",
+      "name": "Határozatlan és határozott névelő",
       "description": "Ez a témakör a(z) LT05T03 témakör tananyagát fedi le."
     },
     "pt": {
-      "name": "Artigos indefinidos e definidos (artigos enclíticos)",
-      "ipa": "/ɐɾˈtiɣuʒ ĩdɨfiˈniðuʒ i dɨfiˈniðuʒ (ɐɾˈtiɣuʒ ẽˈklitikuʃ)/",
+      "name": "Artigos indefinidos e definidos",
       "description": "Este tópico cobre o material de aprendizagem para o tópico LT05T03."
     }
   },
@@ -56,37 +48,37 @@
     "title#topic"
   ],
   "files": {
-    "sound/en.mp3": {
-      "bytes": 23616,
-      "sha1": "35d943251a4203b5d1131a48c08765941c408f45"
+    "sound/ro.mp3": {
+      "bytes": 20880,
+      "sha1": "eabeded2a38870970e83b5d23d6e6da977fc3f71"
     },
     "sound/de.mp3": {
       "bytes": 28512,
       "sha1": "03aede995de63d2f9760cc4334e5c218caae1a59"
     },
-    "sound/fr.mp3": {
-      "bytes": 24624,
-      "sha1": "cf54785ecc97d4d99eec8d5072e45649c6b3dc43"
-    },
-    "sound/es.mp3": {
-      "bytes": 26784,
-      "sha1": "d269b5762f16852cf1c1b90ea3736551deed02f9"
+    "sound/en.mp3": {
+      "bytes": 23616,
+      "sha1": "35d943251a4203b5d1131a48c08765941c408f45"
     },
     "sound/it.mp3": {
       "bytes": 30816,
       "sha1": "2297d6cea173eccbefe877cae7964173ce1f7f94"
     },
-    "sound/ro.mp3": {
-      "bytes": 20880,
-      "sha1": "eabeded2a38870970e83b5d23d6e6da977fc3f71"
-    },
     "sound/ru.mp3": {
       "bytes": 31824,
       "sha1": "51eaf0386341e60ae6a4e963b0028822fb2386ff"
     },
+    "sound/es.mp3": {
+      "bytes": 26784,
+      "sha1": "d269b5762f16852cf1c1b90ea3736551deed02f9"
+    },
     "sound/hu.mp3": {
       "bytes": 30816,
       "sha1": "2cd9d7abaac97b4964ce49c699c7c0512d04ab28"
+    },
+    "sound/fr.mp3": {
+      "bytes": 24624,
+      "sha1": "cf54785ecc97d4d99eec8d5072e45649c6b3dc43"
     },
     "sound/pt.mp3": {
       "bytes": 28512,

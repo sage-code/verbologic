@@ -47,14 +47,18 @@ export interface SidebarTopic {
    *   directional — the content exists *about* one language; it cannot be
    *               flipped. The alphabet of German is about German.
    *
-   * A `directional` topic must declare `target`. It is shown only when the
-   * active language matches, so a language's alphabet appears once, under a
-   * generic title, and audio is synthesised in that language only.
+   * A `directional` topic is one topic list for EVERY language — the same
+   * chapter, the same topics, different content. Each item names the language
+   * it teaches in its manifest's `target`, and a language only sees (and
+   * counts) its own items. Audio is synthesised in that language only.
+   * Reversible content (word/expression tables) is shared by all languages;
+   * article and letter content is directional.
    */
   mode?: TopicMode
   /**
-   * The language a `directional` topic is about. Required when
-   * `mode: 'directional'`; ignored (and rejected by the validator) otherwise.
+   * Optional: pins a whole `directional` topic to one language (it is then
+   * hidden from every other). Leave it out for the normal case, where items
+   * carry their own `target`. Rejected by the validator on a reversible topic.
    */
   target?: string
   /**

@@ -41,7 +41,7 @@ function phoneticContentMeta(topic: string): ContentMeta | null {
     for (const section of sidebar.sections) {
       for (const entry of section.topics) {
         if (entry.code !== topic) continue
-        if (entry.phonetic !== true || entry.mode !== 'directional' || !entry.target) return null
+        if (entry.phonetic !== true || entry.mode !== 'directional') return null
         return { canonical: 'en', locales: [...LOCALES], order: 0 }
       }
     }

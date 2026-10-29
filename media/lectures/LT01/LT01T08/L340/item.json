@@ -2,9 +2,10 @@
   "code": "L340",
   "track": "lectures",
   "chapter": "LT01",
-  "topic": "LT01T08",
+  "topic": "LT01T02",
   "kind": "letter",
-  "entity_id": "LT01T08:L340",
+  "target": "en",
+  "entity_id": "LT01T02:L340",
   "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
@@ -66,94 +67,15 @@
     "read/en.mp3": {
       "bytes": 517680,
       "sha1": "625162127e775c06385a3b6471f383cf8b67c197"
-    },
-    "read/fr.mp3": {
-      "bytes": 434016,
-      "sha1": "49f6a23fc6acb9546a31ae1fbcc7c71b4e0f0d4d"
-    },
-    "read/it.mp3": {
-      "bytes": 547488,
-      "sha1": "2123c462a6b2cb7e417a3be7c109b1ffb930d1e0"
-    },
-    "read/de.mp3": {
-      "bytes": 479232,
-      "sha1": "0dc19920932d623c87f3f2c9493661d5a8219969"
-    },
-    "read/pt.mp3": {
-      "bytes": 444096,
-      "sha1": "628dfa2caa4852a13f5726b9dfd3927d4fa05fce"
-    },
-    "read/ro.mp3": {
-      "bytes": 256176,
-      "sha1": "6fbee75cc71f8c222676129a4c329353ab53e950"
-    },
-    "read/es.mp3": {
-      "bytes": 511056,
-      "sha1": "331167edda58cd82efe279fbd3f12b79c4b70263"
-    },
-    "read/hu.mp3": {
-      "bytes": 498960,
-      "sha1": "2aebeb65896ccb2a7a945056a4052de4b0328432"
-    },
-    "read/ru.mp3": {
-      "bytes": 548064,
-      "sha1": "fc47e18a079d4783584584a76a0ff8a1204c6a07"
     }
   },
   "readSections": {
-    "de": [
-      0,
-      20.587,
-      39.962,
-      57.888
-    ],
-    "it": [
-      0,
-      20.8,
-      43.588,
-      68.788
-    ],
-    "fr": [
-      0,
-      20.3,
-      36.463,
-      55.725
-    ],
-    "ro": [
-      0,
-      7.562,
-      18.137,
-      30.95
-    ],
-    "es": [
-      0,
-      19.113,
-      26.663,
-      49.9
-    ],
-    "hu": [
-      0,
-      22.275,
-      41.425,
-      62.188
-    ],
-    "pt": [
-      0,
-      20.512,
-      37.7,
-      56.838
-    ],
     "en": [
       0,
       23.913,
       43.612,
       63.65
-    ],
-    "ru": [
-      0,
-      22.925,
-      45.163,
-      67.787
     ]
-  }
+  },
+  "legacy_entity_id": "LT01T08:L340"
 }

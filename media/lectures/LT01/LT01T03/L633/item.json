@@ -4,121 +4,59 @@
   "chapter": "LT01",
   "topic": "LT01T03",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T03:L633",
   "cefr": "A1",
   "tags": [],
   "locales": {
     "en": {
-      "name": "antepenultimate stress"
+      "name": "Antepenultimate stress"
     },
     "es": {
-      "name": "acento antepenúltimo"
+      "name": "Acento antepenúltimo"
     },
     "it": {
-      "name": "accento terzultimo"
+      "name": "Accento sulla terzultima sillaba"
     },
     "fr": {
-      "name": "accent antépénultième"
+      "name": "Accent antépénultième"
     },
     "de": {
-      "name": "Drittletzte Silbenbetonung"
+      "name": "Betonung der drittletzten Silbe"
     },
     "ru": {
-      "name": "антепенультимативное ударение"
+      "name": "Ударение на третий слог"
     },
     "hu": {
-      "name": "hátulról harmadik szótag hangsúlya"
+      "name": "Antepenultimális hangsúly"
     },
     "pt": {
-      "name": "acento na antepenúltima sílaba"
+      "name": "Acento na antepenúltima sílaba"
     },
     "ro": {
-      "name": "accent pe antepenultima silabă"
+      "name": "Accent pe antepenultima silabă"
     }
   },
   "files": {
-    "read/de.mp3": {
-      "bytes": 436032,
-      "sha1": "81f2eebf1ad01d25c7b5c8dae132156f4f2d154b"
-    },
     "read/en.mp3": {
       "bytes": 406512,
       "sha1": "c13eb75e6e502e187dd154eb4cb3263918318ef7"
     },
-    "read/es.mp3": {
-      "bytes": 404640,
-      "sha1": "4e8aef16faa9b227dbff1b54005c131991216f53"
-    },
-    "read/fr.mp3": {
-      "bytes": 389376,
-      "sha1": "535054b49fe97538cfb5dbdf0fe696686a355f24"
-    },
     "read/ro.mp3": {
       "bytes": 425376,
       "sha1": "d300be547262109130096e033cdd92a102989012"
-    },
-    "read/it.mp3": {
-      "bytes": 405216,
-      "sha1": "2617a872516c359ef868e397aefdb153f6e91310"
-    },
-    "read/ru.mp3": {
-      "bytes": 446544,
-      "sha1": "7009f78f54347b3585ef550c6b581be35f4a5a84"
-    },
-    "read/hu.mp3": {
-      "bytes": 459648,
-      "sha1": "e5c620fcdc6a46432cd1e1b58ed9965ef8e5772c"
-    },
-    "read/pt.mp3": {
-      "bytes": 423936,
-      "sha1": "924605df3e3f64283a7d5d910de573e6c51a9232"
     }
   },
   "readSections": {
-    "de": [
-      0.0,
-      24.25,
-      46.8
-    ],
     "en": [
-      0.0,
+      0,
       22.038,
       42.838
     ],
-    "es": [
-      0.0,
-      23.0,
-      45.237
-    ],
-    "fr": [
-      0.0,
-      22.25,
-      44.788
-    ],
     "ro": [
-      0.0,
+      0,
       23.363,
       47.975
-    ],
-    "it": [
-      0.0,
-      22.913,
-      45.425
-    ],
-    "ru": [
-      0.0,
-      24.45,
-      49.9
-    ],
-    "hu": [
-      0.0,
-      26.325,
-      50.812
-    ],
-    "pt": [
-      0.0,
-      24.125,
-      47.1
     ]
   }
 }

@@ -3,35 +3,31 @@ track: lectures
 topic: LT01T06
 article: L700
 locale: en
-title: "Practice: Read in Chunks"
-summary: "Pause at every comma and control your pitch so your Romanian sentences sound natural and easy to follow."
+title: "Practice: Read Sentences in Chunks"
+summary: "Learn how to pause at commas and adjust your voice tone when reading Romanian sentences in chunks."
 status: draft
 entity_id: "LT01T06:L700"
 order: 17
 terms:
-  en: "reading in chunks"
-  es: "lectura por partes"
-  it: "lettura a blocchi"
-  fr: "lecture par groupes"
-  de: "Sprechpausen bei Kommas"
-  ru: "чтение по группам"
-  hu: "szakaszos olvasás"
-  pt: "leitura em partes"
-  ro: "citire pe grupuri"
+  en: "Chunking and intonation"
+  es: "Fraseo y entonación"
+  it: "Fraseggio e intonazione"
+  fr: "Phrasé et intonation"
+  de: "Phrasierung und Intonation"
+  ru: "Фразировка и интонация"
+  hu: "Tagolás és intonáció"
+  pt: "Fraseamento e entonação"
+  ro: "Frasare și intonație"
 ---
 
-## The pattern of chunks
+## The sound
+You group your words into chunks when you speak Romanian. A comma marks a pause between chunks. Your tone rises slightly at the comma. It shows that your thought is not finished yet. At the period, your pitch falls. This falling tone shows the end of the sentence.
 
-Long sentences are easier to understand when you split them into smaller pieces. In Romanian, a comma shows where one thought pauses before the next thought begins. When you see a comma, do not rush through it. Take a brief breath or hold a small pause. This split helps your listener process each part of the message.
+## How to say it
+Listen to (Mâine, merg la școală) /ˈmɨ.i.ne merɡ la ʃkoˈa.lə/. It means tomorrow I go to school. Raise your voice pitch slightly before the comma. Pause briefly at that mark. Then, say the second chunk and lower your tone.
 
-## Tone and breath at commas
+## Reading rules
+Every comma in a Romanian sentence creates a small border. You break long thoughts into easy parts at these marks. Never rush past a comma. Keep your voice tone high or level before the break. When you see a period, lower your tone firmly. The punctuation guides the music of your speech.
 
-Keep your throat relaxed as you speak. When you reach a comma, let your voice rise slightly in pitch. This rising tone tells the listener that your sentence is still going. At the end of the final chunk, let your pitch drop clearly. Your tone falls to signal that the thought is complete.
-
-## How to practice the example
-
-Look at the sentence: **Mâine, merg la școală.** /ˈmɨ.i.ne merɡ la ʃkoˈa.lə/. Say the first word with a slight upward tilt in pitch. Then make a short pause. Next, speak the second chunk smoothly without stopping between words. Drop your voice on the final syllable of the last word.
-
-## Mistakes English speakers make
-
-English speakers often read the whole line in one single breath without stopping. If you skip the comma, words blend together awkwardly. Another mistake is dropping your voice too early before the comma. Keep the pitch gently lifted at the pause so the sentence flows naturally.
+## Common mistakes
+Many learners read a whole sentence in one flat breath. This makes speech sound mechanical and hard to follow. Do not drop your tone before the comma. A low tone signals that you want to stop talking. Also, do not pause between words that belong together. Only pause where you see punctuation.

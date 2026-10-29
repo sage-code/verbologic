@@ -7,8 +7,7 @@
   "entity_id": "LT08T01",
   "locales": {
     "en": {
-      "name": "Compound past (perfectul compus)",
-      "ipa": "/ˈkɑmpaʊnd ˈpæst (perˈfektul komˈpus)/",
+      "name": "Compound past: completed actions",
       "description": "This topic covers topic LT08T01 in chapter LT08."
     },
     "ro": {
@@ -17,38 +16,31 @@
       "description": "Acest subiect acoperă tema LT08T01 din capitolul LT08."
     },
     "de": {
-      "name": "Perfekt (perfectul compus)",
-      "ipa": "/pɛʁˈfɛkt (pɛʁˈfɛktʊl kɔmˈpuːs)/",
+      "name": "Zusammengesetzte Vergangenheit: abgeschlossene Handlungen",
       "description": "Dieses Thema behandelt das Thema LT08T01 in Kapitel LT08."
     },
     "ru": {
-      "name": "Совершенное прошедшее время (perfectul compus)",
-      "ipa": "/səvʲɪrˈʂɛnːəjə prɐˈʂɛtʂəjə ˈvrʲemʲə (perˈfɛktul komˈpus)/",
+      "name": "Сложное прошедшее: завершённые действия",
       "description": "Эта тема охватывает тему LT08T01 в главе LT08."
     },
     "it": {
-      "name": "Passato prossimo (perfectul compus)",
-      "ipa": "/pasˈsato ˈprɔssimo (perˈfɛktul komˈpus)/",
+      "name": "Passato composto: azioni concluse",
       "description": "Questo argomento tratta il tema LT08T01 del capitolo LT08."
     },
     "es": {
-      "name": "Pretérito perfecto compuesto (perfectul compus)",
-      "ipa": "/pɾeˈteɾito peɾˈfekto komˈpwesto (peɾˈfektul komˈpus)/",
+      "name": "Pretérito compuesto: acciones terminadas",
       "description": "Este tema cubre el tema LT08T01 del capítulo LT08."
     },
     "fr": {
-      "name": "Passé composé (perfectul compus)",
-      "ipa": "/pɑˈse kɔ̃poˈze (pɛʁfɛkˈtyl kɔ̃ˈpys)/",
+      "name": "Passé composé : actions terminées",
       "description": "Ce sujet couvre le thème LT08T01 du chapitre LT08."
     },
     "hu": {
-      "name": "Befejezett múlt (perfectul compus)",
-      "ipa": "/ˈbɛfɛjɛzɛtː ˈmuːlt (pɛrˈfɛktul komˈpuʃ)/",
+      "name": "Összetett múlt: befejezett cselekvések",
       "description": "Ez a témakör a(z) LT08 fejezet LT08T01 témáját tárgyalja."
     },
     "pt": {
-      "name": "Pretérito perfeito composto (perfectul compus)",
-      "ipa": "/pɾɛˈtɛɾitu pɨɾˈfɐjtu kõˈpoʃtu (pɛɾˈfɛktul kõˈpuʃ)/",
+      "name": "Pretérito composto: ações concluídas",
       "description": "Este tópico aborda o tópico LT08T01 do capítulo LT08."
     }
   },
@@ -56,10 +48,6 @@
     "title#topic"
   ],
   "files": {
-    "sound/en.mp3": {
-      "bytes": 17712,
-      "sha1": "aea5010c45b50a2689730d29a545ab72f2ffdf54"
-    },
     "sound/ro.mp3": {
       "bytes": 21024,
       "sha1": "96f9cc3b0087c5380c9be5f9e4ebd9343b38b469"
@@ -68,13 +56,9 @@
       "bytes": 18864,
       "sha1": "edbff2bd4e62617c9997a0697d7268bbc68f9fe1"
     },
-    "sound/es.mp3": {
-      "bytes": 22032,
-      "sha1": "049e2f64e0ff2480e83c73689946bd5950d15f71"
-    },
-    "sound/fr.mp3": {
-      "bytes": 19584,
-      "sha1": "043192331b668e5175babeb147ea9b52c42b367e"
+    "sound/en.mp3": {
+      "bytes": 17712,
+      "sha1": "aea5010c45b50a2689730d29a545ab72f2ffdf54"
     },
     "sound/ru.mp3": {
       "bytes": 26208,
@@ -84,9 +68,17 @@
       "bytes": 17424,
       "sha1": "f563f9334a2cbbe93cfce4fbb22da275c6360318"
     },
+    "sound/es.mp3": {
+      "bytes": 22032,
+      "sha1": "049e2f64e0ff2480e83c73689946bd5950d15f71"
+    },
     "sound/hu.mp3": {
       "bytes": 22896,
       "sha1": "deb0ab8d8bb849009bab93ecfdb1d2f9faac3879"
+    },
+    "sound/fr.mp3": {
+      "bytes": 19584,
+      "sha1": "043192331b668e5175babeb147ea9b52c42b367e"
     },
     "sound/pt.mp3": {
       "bytes": 24768,

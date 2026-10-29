@@ -4,70 +4,43 @@
   "chapter": "LT01",
   "topic": "LT01T04",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T04:L660",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "The letter X"
+      "name": "Pronouncing X between vowels"
     },
     "es": {
-      "name": "La letra X"
+      "name": "Pronunciación de X intervocálica"
     },
     "it": {
-      "name": "La lettera X"
+      "name": "Pronuncia di X intervocalica"
     },
     "fr": {
-      "name": "La lettre X"
+      "name": "Prononciation du X intervocalique"
     },
     "de": {
-      "name": "Der Buchstabe X"
+      "name": "Aussprache von intervokalischem X"
     },
     "ru": {
-      "name": "Буква X"
+      "name": "Произношение X между гласными"
     },
     "hu": {
-      "name": "Az X betű"
+      "name": "Az X kiejtése magánhangzók között"
     },
     "pt": {
-      "name": "A letra X"
+      "name": "Pronúncia do X intervocálico"
     },
     "ro": {
-      "name": "Litera X"
+      "name": "Pronunția literei X între vocale"
     }
   },
   "files": {
-    "read/de.mp3": {
-      "bytes": 507744,
-      "sha1": "8847d2144eef48f73f62488d6aa9d62d17b122ef"
-    },
     "read/ro.mp3": {
       "bytes": 510768,
       "sha1": "ed134357048d68089b197a032baf48d4ddea741c"
-    },
-    "read/it.mp3": {
-      "bytes": 563472,
-      "sha1": "4e45223e6136cf57032f4500164264a70fd31d05"
-    },
-    "read/es.mp3": {
-      "bytes": 499392,
-      "sha1": "209e8b12d2993d1bc8c49285e06e846c7c3b0260"
-    },
-    "read/fr.mp3": {
-      "bytes": 476640,
-      "sha1": "5e62a9b7eb265dfda8f410110ba8868410298744"
-    },
-    "read/hu.mp3": {
-      "bytes": 501264,
-      "sha1": "9d0305c02772f0db3feb7c0f3ed2cdd1dc25333e"
-    },
-    "read/pt.mp3": {
-      "bytes": 437040,
-      "sha1": "52635c2a06299b55c2827bfd1b39bfcf6f12aff4"
-    },
-    "read/ru.mp3": {
-      "bytes": 547632,
-      "sha1": "38506c66852fee88740c5cbd0b5623a61d97ef32"
     },
     "read/en.mp3": {
       "bytes": 408384,
@@ -75,48 +48,13 @@
     }
   },
   "readSections": {
-    "de": [
-      0.0,
-      28.725,
-      57.312
-    ],
     "ro": [
-      0.0,
+      0,
       31.288,
       58.775
     ],
-    "it": [
-      0.0,
-      30.325,
-      63.362
-    ],
-    "es": [
-      0.0,
-      27.887,
-      56.662
-    ],
-    "fr": [
-      0.0,
-      26.988,
-      53.463
-    ],
-    "hu": [
-      0.0,
-      27.525,
-      55.312
-    ],
-    "pt": [
-      0.0,
-      25.725,
-      49.45
-    ],
-    "ru": [
-      0.0,
-      30.938,
-      61.112
-    ],
     "en": [
-      0.0,
+      0,
       20.762,
       45.35
     ]

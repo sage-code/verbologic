@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L461
+locale: en
+title: "D"
+summary: ""
+status: draft
+entity_id: "LT01T01:L461"
+order: 224
+terms:
+  en: "D"
+  es: "D"
+  it: "D"
+  fr: "D"
+  de: "D"
+  ru: "D"
+  hu: "D"
+  pt: "D"
+  ro: "D"
+---
+
+## Sound of the letter dé
+
+The letter (dé) /de/ is called (dé) /de/. Its main sound is the sound /d/, heard in the word (date) /dat/, which means date. This letter has one spoken sound, and can also be silent.
+
+## How to say it
+
+Touch the back of your upper front teeth with your tongue tip. Build up air behind the tip, then release it sharply. Vibrate your vocal cords at the exact same moment. Put a hand on your throat to feel the strong vibration.
+
+## Reading and spelling
+
+In most positions, this letter gives the sound /d/, like in the word (mode) /mɔd/. At the end of many words, this letter is not pronounced at all. You can hear this silence in the word (nord) /nɔʁ/.
+
+## Mistakes to avoid
+
+Do not place your tongue on the gum ridge behind your teeth, as in door. Touch the back of your upper teeth instead. Keep the burst crisp without puffing out extra breath. When this letter stands at the end of a word, do not pronounce it.

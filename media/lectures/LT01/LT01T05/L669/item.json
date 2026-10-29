@@ -4,36 +4,37 @@
   "chapter": "LT01",
   "topic": "LT01T05",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T05:L669",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "clitic contraction"
+      "name": "Clitic mi-e"
     },
     "es": {
-      "name": "contracción clítica"
+      "name": "Clítico mi-e"
     },
     "it": {
-      "name": "contrazione clitica"
+      "name": "Clitico mi-e"
     },
     "fr": {
-      "name": "contraction clitique"
+      "name": "Clitique mi-e"
     },
     "de": {
-      "name": "klitische Kontraktion"
+      "name": "Klitikon mi-e"
     },
     "ru": {
-      "name": "энклитическое слияние"
+      "name": "Клитика mi-e"
     },
     "hu": {
-      "name": "hangtani összevonás"
+      "name": "A mi-e klitikum"
     },
     "pt": {
-      "name": "contração clítica"
+      "name": "Clítico mi-e"
     },
     "ro": {
-      "name": "contragere clitică"
+      "name": "Cliticul mi-e"
     }
   },
   "files": {
@@ -41,37 +42,9 @@
       "bytes": 622512,
       "sha1": "5672e08f49d889b24862fe68edf4405b82279c3e"
     },
-    "read/de.mp3": {
-      "bytes": 775440,
-      "sha1": "abdfb898bfbe258744720fd4f89cf0b5caedba80"
-    },
-    "read/es.mp3": {
-      "bytes": 677232,
-      "sha1": "465101267899385809ca9304dca5ffd69f2ae92f"
-    },
-    "read/it.mp3": {
-      "bytes": 664992,
-      "sha1": "8ad4d737188ecd2776d27a9bb1c3dabf834c252a"
-    },
-    "read/fr.mp3": {
-      "bytes": 655632,
-      "sha1": "601f3a495475fd2a527afd798bbc83eaa638cacc"
-    },
     "read/ro.mp3": {
       "bytes": 740592,
       "sha1": "f6b848d841bef08257fbe06535af12a813b4aa13"
-    },
-    "read/ru.mp3": {
-      "bytes": 760752,
-      "sha1": "45a5406557217dd79dfb1b8c602a928861a5cb3d"
-    },
-    "read/hu.mp3": {
-      "bytes": 767952,
-      "sha1": "9bfc1c6a8a9aef957d0f0a1a99d6d0682c7745b1"
-    },
-    "read/pt.mp3": {
-      "bytes": 602352,
-      "sha1": "6b400b91b3bcaef5e0688bb04e40221552cfcf71"
     }
   },
   "readSections": {
@@ -81,53 +54,11 @@
       54.037,
       80.162
     ],
-    "de": [
-      0,
-      38.225,
-      67.4,
-      98.125
-    ],
-    "es": [
-      0,
-      29.425,
-      56.5,
-      84.95
-    ],
-    "it": [
-      0,
-      29.312,
-      56.55,
-      85.525
-    ],
-    "fr": [
-      0,
-      29.738,
-      55.35,
-      83.2
-    ],
     "ro": [
       0,
       32.438,
       61.062,
       91.725
-    ],
-    "ru": [
-      0,
-      34.938,
-      64.612,
-      94.925
-    ],
-    "hu": [
-      0,
-      34.112,
-      65.387,
-      97.112
-    ],
-    "pt": [
-      0,
-      33.888,
-      63.188,
-      93.938
     ]
   }
 }

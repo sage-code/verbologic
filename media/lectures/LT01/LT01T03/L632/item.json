@@ -4,36 +4,37 @@
   "chapter": "LT01",
   "topic": "LT01T03",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T03:L632",
   "cefr": "A1",
   "tags": [],
   "locales": {
     "en": {
-      "name": "Penultimate stress"
+      "name": "penultimate stress"
     },
     "es": {
-      "name": "Acento penúltima sílaba"
+      "name": "acento llano"
     },
     "it": {
-      "name": "Accento sulla penultima sillaba"
+      "name": "accento piano"
     },
     "fr": {
-      "name": "Accent sur l'avant-dernière"
+      "name": "accent sur la pénultième"
     },
     "de": {
       "name": "Betonung der vorletzten Silbe"
     },
     "ru": {
-      "name": "Ударение на предпоследний слог"
+      "name": "ударение на предпоследний слог"
     },
     "hu": {
-      "name": "Utolsó előtti szótag hangsúlya"
+      "name": "utolsó előtti szótag hangsúly"
     },
     "pt": {
-      "name": "Acento na penúltima sílaba"
+      "name": "acento paroxítono"
     },
     "ro": {
-      "name": "Accent pe penultima silabă"
+      "name": "accent pe penultima silabă"
     }
   },
   "files": {
@@ -41,84 +42,21 @@
       "bytes": 431568,
       "sha1": "96656c0b22c9d6634c42f4499cc27bf56c307e48"
     },
-    "read/de.mp3": {
-      "bytes": 483552,
-      "sha1": "fea6955c257770168a8b96dcfe1a3d1a6fda6300"
-    },
-    "read/es.mp3": {
-      "bytes": 454896,
-      "sha1": "2c03329d84b2c0854954cf447cb7bac2018ff7bb"
-    },
-    "read/fr.mp3": {
-      "bytes": 421920,
-      "sha1": "8cb73eb3a21b7a052554f7d9cfad1a1aaaa1c3b6"
-    },
     "read/ro.mp3": {
       "bytes": 480528,
       "sha1": "342433356e728a90311e6ecc875a08d01e9417e9"
-    },
-    "read/it.mp3": {
-      "bytes": 454032,
-      "sha1": "8098b40ae6b262795d7aee015722489afcb85816"
-    },
-    "read/ru.mp3": {
-      "bytes": 488160,
-      "sha1": "8b24d7d6f8582fe537f516bf97562650ec5a1414"
-    },
-    "read/hu.mp3": {
-      "bytes": 512208,
-      "sha1": "73d90e7f862413af2a4ae36b12f5fa7b1596edfb"
-    },
-    "read/pt.mp3": {
-      "bytes": 478944,
-      "sha1": "d41e6a1c963fdf08b7f81949f6b0a9f818defa6c"
     }
   },
   "readSections": {
     "en": [
-      0.0,
+      0,
       22.988,
       47.413
     ],
-    "de": [
-      0.0,
-      26.9,
-      54.275
-    ],
-    "es": [
-      0.0,
-      26.4,
-      50.287
-    ],
-    "fr": [
-      0.0,
-      24.012,
-      46.85
-    ],
     "ro": [
-      0.0,
+      0,
       26.887,
       52.925
-    ],
-    "it": [
-      0.0,
-      26.337,
-      50.013
-    ],
-    "ru": [
-      0.0,
-      26.85,
-      53.487
-    ],
-    "hu": [
-      0.0,
-      28.025,
-      55.062
-    ],
-    "pt": [
-      0.0,
-      27.512,
-      53.075
     ]
   }
 }

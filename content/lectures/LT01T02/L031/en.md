@@ -20,18 +20,18 @@ terms:
   ro: "ea"
 ---
 
-## The diphthong sound
+## The sound ea
 
-The letter combination ea has no separate letter name and is pronounced as the sound /e̯a/. It makes the diphthong sound /e̯a/ heard in (seară) /ˈse̯a.rə/, meaning evening. This combination makes one single sound in Romanian.
+The letters ea sound like /e̯a/. Their main sound appears in (seară) /ˈse̯a.rə/, which means evening. These letters make only one sound in Romanian. You say them smoothly together in one single push of air.
 
-## Pronouncing the sound
+## How to say ea
 
-Start with your tongue mid-high and forward, with your lips unrounded. Quickly glide your tongue low and central while opening your mouth wide. Voice sounds continuously through your vocal cords throughout the glide. You can feel your jaw drop swiftly from the glide to the main open vowel.
+Start with your lips spread slightly as if smiling. Place your tongue high and forward in your mouth. Quickly drop your jaw and open your mouth wide. Let your tongue fall low and flat. Touch your throat with your hand to feel the steady vibration of your voice.
 
-## Reading the combination
+## Spelling of ea
 
-The group ea functions as a standard falling diphthong in stressed syllables, producing the sound /e̯a/ in (cafea) /kaˈfe̯a/.
+The letters ea make the sound /e̯a/ in stressed parts of a word. You can hear this glide in (cafea) /kaˈfe̯a/. The two letters always stay in the exact same beat.
 
-## Common English mistakes
+## Mistakes to avoid
 
-English speakers often separate the two letters into two distinct syllables or use the vowel in bed followed by the vowel in cat. Keep both elements tightly inside one syllable, starting with a brief glide and ending loudly on the open vowel sound.
+Do not turn these letters into two separate beats like the vowels in react. Do not pronounce them as the long vowel in tea. Glide smoothly from the first sound to the second without stopping.

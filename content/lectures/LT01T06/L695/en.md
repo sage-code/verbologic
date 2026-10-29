@@ -3,8 +3,8 @@ track: lectures
 topic: LT01T06
 article: L695
 locale: en
-title: "Intonation in Conditional Sentences"
-summary: "The first clause ends with a short rising pitch, and the second clause finishes with a falling tone."
+title: "Conditional Sentences with a Pause"
+summary: "Raise your pitch before the pause in a conditional sentence, then let it fall steadily to the end."
 status: draft
 entity_id: "LT01T06:L695"
 order: 12
@@ -13,25 +13,42 @@ terms:
   es: "entonación condicional"
   it: "intonazione condizionale"
   fr: "intonation conditionnelle"
-  de: "Konditionalsatz-Intonation"
-  ru: "интонация условия"
+  de: "konditionale Intonation"
+  ru: "условная интонация"
   hu: "feltételes hanglejtés"
-  pt: "entoação condicional"
+  pt: "entonação condicional"
   ro: "intonația frazei condiționale"
 ---
 
-## The sentence pattern
+## The sound
 
-Conditional sentences in Romanian are split into two parts. The first part sets the condition, usually starting with "dacă". The second part gives the result or action. When you speak, a small pause separates these two parts. Your voice uses melody to show they are connected. The melody tells the listener that more information is coming before the final thought arrives.
+This melody connects two parts of a conditional sentence.
+Your voice changes direction at the pause.
+In the first part, your tone climbs slightly at the end.
+In the second part, your tone drops to finish the thought.
+Listen to (dacă) /ˈda.kə/ (vrei) /vrej/, (vino) /ˈvi.no/.
 
-## How your pitch moves
+## How to say it
 
-Start speaking the first clause with an even, relaxed pitch. On the very last word of this condition, lift your musical tone slightly higher. Do not drop your voice yet. Keep your mouth slightly open during the tiny pause. Next, start the second clause at a normal pitch level. As you speak the final words of the second clause, drop your pitch clearly downward to show you have finished.
+Start with relaxed lips and tongue.
+Say the first clause and lift your pitch near the comma.
+Hold the last syllable a bit longer before you pause.
+Do not close your throat during the tiny rest.
+Then, speak the second clause.
+Let your pitch fall steadily until your voice rests quietly at the end.
 
-## Practice with an example
+## Reading rules
 
-Look at the sentence: **Dacă vrei, vino.** /ˈda.kə vrej ˈvi.no/. The first clause is "Dacă vrei". Raise your pitch smoothly on the word "vrei". Make a quick, silent pause right after it. Then say the command "vino". Let your voice fall on the final vowel of "vino". This drop signals that the thought is complete.
+A comma in writing usually marks this change in pitch.
+Sentences that begin with condition words like (dacă) /ˈda.kə/ use this pattern.
+The comma tells you to pause and raise your musical pitch slightly.
+After the comma, read the conclusion with falling pitch.
+A period at the end marks your lowest pitch.
 
 ## Common mistakes
 
-English speakers often drop their pitch at every comma. If you drop your pitch after the first clause, the sentence sounds chopped into two disconnected pieces. Another mistake is ending the entire sentence on a high rise like an English question. Keep the middle rise gentle and make sure the very end falls down completely.
+Do not drop your voice before the comma.
+A falling pitch makes the sentence sound finished too early.
+Do not raise your voice at the final period either.
+A rising end sounds like a question.
+Keep the rise small in the first part and fall clearly at the very end.

@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L416
+locale: en
+title: "N"
+summary: ""
+status: draft
+entity_id: "LT01T01:L416"
+order: 179
+terms:
+  en: "N"
+  es: "N"
+  it: "N"
+  fr: "N"
+  de: "N"
+  ru: "N"
+  hu: "N"
+  pt: "N"
+  ro: "N"
+---
+
+## The letter enne
+
+The letter (enne) /ˈɛnne/ has three sounds. Its main sound is heard in (notte) /ˈnɔt.te/, which means night.
+
+## How to say enne
+
+Press the tip of your tongue against your upper teeth. Let the air flow through your nose and vibrate your vocal cords. For the second sound, press the back of your tongue against the soft roof of your mouth. For the third sound, touch your upper front teeth with your lower lip while humming. Feel the vibration in your nose with your finger.
+
+## Reading the letter enne
+
+Before vowels, most consonants, or at the end of a word, it makes the sound /n/ as in (ponte) /ˈpon.te/. When it comes before the letters c or g, it makes the sound /ŋ/ as in (banca) /ˈbaŋ.ka/ and (fango) /ˈfaŋ.ɡo/. When it comes before the letters f or v, it makes the sound /ɱ/ as in (anfibio) /amˈfi.bjo/ and (invito) /imˈvi.to/.
+
+## Mistakes to avoid
+
+Do not press your tongue behind your top teeth like in the English word net. Keep your tongue directly against your upper teeth. Do not drop the nasal sound before other consonants.

@@ -20,18 +20,18 @@ terms:
   ro: "Ge / Gi"
 ---
 
-## The Sound of Ge / Gi
+## The sound
 
-In Romanian, the letter **G** before the front vowels **E** and **I** automatically softens to produce the voiced postalveolar affricate `[dʒ]`. This is identical to the soft sound of 'j' in English words like **jam** or 'g' in **gem**. When not followed by an 'h', this combination never produces the hard `[ɡ]` heard in **get**.
+You call this group /dʒe/ or /dʒi/. Its primary pronunciation is the sound /d͡ʒ/, that is a voiced jam sound, heard in (gem) /ˈd͡ʒem/, meaning frost, severe cold. It produces two distinct sounds.
 
-## How to Pronounce Ge and Gi
+## How to say it
 
-Place the tip and blade of your tongue against the back of your alveolar ridge, right where the roof of your mouth begins to curve upward. Build up gentle air pressure behind the tongue and release it smoothly while vibrating your vocal cords. Keep your lips slightly rounded and relaxed as you glide naturally into the following vowel.
+Touch the roof of your mouth with your tongue tip. Push air through firmly while your vocal cords vibrate, and release. For the second sound, make this same release while flattening your tongue against the roof. Feel your neck buzz with your fingers.
 
-## Spelling and Letter Combinations
+## Reading the letters
 
-The spellings **ge** and **gi** represent both the affricate sound plus the vowel, as in **ger** (`/dʒer/`), and purely the consonant before other vowels, as in **geam** (`/dʒam/`). In loanwords or native roots, the letters **e** and **i** can act merely as orthographic markers indicating the soft `[dʒ]` rather than distinct full vowels. To keep the hard sound `[ɡ]` before **e** or **i**, Romanian inserts an **h**, yielding **ghe** and **ghi**.
+Before the vowels e or i, read the sound /d͡ʒ/, that is a full voiced jam sound. You hear this sound in (ger) /d͡ʒer/. At the end of a word after this group, make the sound /d͡ʒʲ/, that is a softened voiced sound. This occurs in (dragi) /drad͡ʒʲ/.
 
-## Contrasts and Common Pitfalls
+## Common mistakes
 
-English speakers often mistakenly harden **ge** and **gi** to `[ɡ]` due to irregular English spellings like **get** or **gift**. Always distinguish soft **ge/gi** (`/dʒ/`) from hard **ghe/ghi** (`/ɡ/`), comparing **ger** (`/dʒer/`, frost) with **ghem** (`/ɡem/`, ball of yarn). Furthermore, do not confuse this affricate with the simple Romanian **j**, which is a fricative `[ʒ]` identical to the 's' in **measure**.
+Do not turn this letter group into the hard sound in get. Speak it gently as in judge. At the end of a word, do not add a full vowel like English energy. Cut the airflow instantly.

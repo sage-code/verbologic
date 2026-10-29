@@ -20,18 +20,18 @@ terms:
   ro: "Y"
 ---
 
-## Letter sound
+## The letter Y
 
-This letter is called /j/ or /i/. Its main sound is the glide /j/, heard in the borrowed word (yoga) /ˈjo.ɡo/, which means yoga. The letter makes two distinct sounds in borrowed vocabulary.
+The name of this letter is /j/ or /i/. Its main sound is heard in (yoga) /ˈjo.ɡo/, which means yoga. Romanian borrowed this letter for foreign words. It makes two sounds in total.
 
-## Mouth movements
+## Pronouncing the sounds
 
-For the glide, lift the middle of your tongue high against the roof of the mouth and glide quickly into the next vowel. For the full vowel, raise the tongue close to the palate while spreading your lips wide. Keep your vocal cords vibrating continuously. You can feel this steady buzzing vibration by placing your fingers on your throat.
+For the first sound, lift the middle of your tongue high toward the roof of your mouth. Keep your lips relaxed and let your vocal cords vibrate. For the second sound, spread your lips wide into a smile. Raise your tongue high and forward. Put a hand on your throat to feel the steady vibration.
 
-## Reading rules
+## Reading the letter
 
-Before another vowel in loanwords, the letter produces the glide sound /j/. You hear this pattern in (yankeu) /janˈkew/. When functioning as a pure vowel or a syllable nucleus in borrowings, it sounds like the vowel /i/. This second pattern appears in the word (hobby) /ˈxo.bi/.
+This letter appears only in borrowed words. Before another vowel, it sounds like the sound /j/, as in (yankeu) /janˈkew/. When it acts as a vowel, it sounds like the sound /i/, as in (hobby) /ˈxo.bi/.
 
-## Common mistakes
+## Common pitfalls
 
-English speakers often replace the crisp Romanian vowel with a weak diphthong. Do not pronounce this letter like the vowel glide heard in English words like boy or key. Keep the sound pure and tense, without gliding toward an open vowel.
+This letter matches English habits very closely. Do not turn the vowel sound into the sound in happy. Keep the sound clear and steady, like the vowel in see.

@@ -4,36 +4,37 @@
   "chapter": "LT01",
   "topic": "LT01T03",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T03:L628",
   "cefr": "A1",
   "tags": [],
   "locales": {
     "en": {
-      "name": "Open syllables"
+      "name": "open syllable"
     },
     "es": {
-      "name": "Sílabas abiertas"
+      "name": "sílaba abierta"
     },
     "it": {
-      "name": "Sillabe aperte"
+      "name": "sillaba aperta"
     },
     "fr": {
-      "name": "Syllabes ouvertes"
+      "name": "syllabe ouverte"
     },
     "de": {
-      "name": "Offene Silben"
+      "name": "offene Silbe"
     },
     "ru": {
-      "name": "Открытые слоги"
+      "name": "открытый слог"
     },
     "hu": {
-      "name": "Nyílt szótagok"
+      "name": "nyílt szótag"
     },
     "pt": {
-      "name": "Sílabas abertas"
+      "name": "sílaba aberta"
     },
     "ro": {
-      "name": "Silabe deschise"
+      "name": "silabă deschisă"
     }
   },
   "files": {
@@ -41,93 +42,23 @@
       "bytes": 529488,
       "sha1": "60cf5c069fbf490733d408c9a75c6ded5ede3052"
     },
-    "read/de.mp3": {
-      "bytes": 592272,
-      "sha1": "dc1873d5360fccee232a598e4786116b342fcb16"
-    },
-    "read/es.mp3": {
-      "bytes": 530496,
-      "sha1": "58dfb87dfc46ed4f4ae66054e4766e5e941faa64"
-    },
-    "read/it.mp3": {
-      "bytes": 512928,
-      "sha1": "a63667c8ad89c5480b5cad35b795928bd3066622"
-    },
-    "read/fr.mp3": {
-      "bytes": 499680,
-      "sha1": "ba2f5ca9d28d86e18baef1db58186b0d938eb134"
-    },
     "read/ro.mp3": {
       "bytes": 577584,
       "sha1": "876676c92bef3a7e3171dca00ce26c22848ff8a8"
-    },
-    "read/hu.mp3": {
-      "bytes": 612000,
-      "sha1": "64851732ec0653709291897aabf706c47a68522f"
-    },
-    "read/ru.mp3": {
-      "bytes": 579600,
-      "sha1": "904e045593696681c553707aeffd24971eaddf51"
-    },
-    "read/pt.mp3": {
-      "bytes": 567648,
-      "sha1": "2efe267e7e4f265e2a1b1882b1cc393a53edfffe"
     }
   },
   "readSections": {
     "en": [
-      0.0,
+      0,
       21.887,
       45.037,
       67.4
     ],
-    "de": [
-      0.0,
-      26.863,
-      52.237,
-      75.375
-    ],
-    "es": [
-      0.0,
-      23.15,
-      45.4,
-      67.562
-    ],
-    "it": [
-      0.0,
-      22.288,
-      44.112,
-      65.975
-    ],
-    "fr": [
-      0.0,
-      21.95,
-      43.337,
-      63.787
-    ],
     "ro": [
-      0.0,
+      0,
       25.3,
       50.188,
       74.075
-    ],
-    "hu": [
-      0.0,
-      29.225,
-      54.325,
-      80.562
-    ],
-    "ru": [
-      0.0,
-      25.675,
-      51.737,
-      75.938
-    ],
-    "pt": [
-      0.0,
-      23.85,
-      47.338,
-      71.163
     ]
   }
 }

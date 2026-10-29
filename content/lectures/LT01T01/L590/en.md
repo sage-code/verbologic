@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L590
+locale: en
+title: "S"
+summary: "Letter name: S. Example: rose."
+status: draft
+entity_id: "LT01T01:L590"
+order: 68
+terms:
+  en: "S"
+  es: "S"
+  it: "S"
+  fr: "S"
+  de: "S"
+  ru: "S"
+  hu: "S"
+  pt: "S"
+  ro: "S"
+---
+
+## Letter sound
+
+The letter (S) /z/ sounds like the hiss in (sun) /sʌn/, which means the bright star in the sky. It has four sounds.
+
+## How to say it
+
+Put your tongue tip near the roof of your mouth. Blow air gently over your tongue without using your voice. Then make the same shape, but turn your voice on. Next, round your lips slightly, pull your tongue back, and blow quiet air. Finally, make no sound at all. Touch your throat to feel when your voice turns on.
+
+## Spelling rules
+
+At the start of a word, it makes the sound /s/ as in (cats) /kæts/. Between vowels, it makes the sound /z/ as in (busy) /bɪ.zi/. Before unstressed vowel letters, it makes the sound /ʃ/ as in (sugar) /ʃʊɡ.ə/. In some borrowed words, you do not pronounce it, as in (island) /aɪ.lənd/.
+
+## Common mistakes
+
+Do not confuse the unvoiced hiss with the buzzing sound. When a word ends with this letter after a voiced sound, remember to turn your voice on. Do not add an extra vowel sound before the word starts.

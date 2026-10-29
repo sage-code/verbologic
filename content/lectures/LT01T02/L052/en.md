@@ -20,18 +20,18 @@ terms:
   ro: "Che / Chi"
 ---
 
-## The digraph sounds
+## Sounds of Che and Chi
 
-The names of these groups are spoken as /ke/ and /ki/. They represent a single sound, heard in the word (chelner) /kʲe̯e/, meaning key. This spelling stands for only one distinct Romanian sound.
+The letter group is called /ke/, /ki/. Its main sound is heard in (chelner) /kʲe̯e/, which means key. This spelling represents two sound variants in Romanian.
 
-## Mouth movements
+## How to Say It
 
-Press the middle of your tongue firmly against your hard palate, further forward than an ordinary k sound. Stop the airflow completely without using your voice. Release the air sharply into a soft puff. You can check the lack of voicing by placing a hand on your throat.
+For the first sound, press the middle of your tongue against the hard roof of your mouth. Release the air suddenly without any voice. For the second variant, make the same crisp stop at the end of a word, but add a soft breath. Hold your palm near your lips to feel that tiny puff of air.
 
-## Reading the combinations
+## Spelling Rules
 
-Before the letters e or i, this combination makes the sound /kʲ/, that is a softened k sound. You hear it in the word (cheie) /ˈkʲe.je/. At the very end of a word, it produces the same sound /kʲ/, that is a softened k sound. An example is the word (vechi) /vekʲ/.
+Before e or i, the letters make the sound /kʲ/, that is a soft k before a vowel. You hear this in (cheie) /ˈkʲe.je/. At the very end of a word, the group makes the sound /kʲ/, that is a soft k whisper. You can hear it in (vechi) /vekʲ/.
 
-## Common mistakes
+## Common Mistakes
 
-English speakers often say the hard sound from the word cat instead. Make sure to raise the middle of your tongue toward the roof of your mouth. Do not add a full consonant y sound like in the word cue.
+Do not pronounce this group like the ch in cheese. It is always a hard, soft k sound, like the k in kitchen. Keep your tongue high against the roof of your mouth. Do not add an English w sound after it.

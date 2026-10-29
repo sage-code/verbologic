@@ -3,31 +3,31 @@ track: lectures
 topic: LT01T04
 article: L663
 locale: en
-title: "Pronouncing Ce in Questions"
-summary: "In Romanian questions, the word 'ce' sounds like 'che' and keeps its vowel quick and short."
+title: "Pronouncing Ce in Romanian Questions"
+summary: "Learn how to pronounce the short Romanian question word ce clearly and naturally when you ask questions."
 status: draft
 entity_id: "LT01T04:L663"
 order: 16
 terms:
-  en: "The question word 'ce'"
-  es: "La palabra interrogativa 'ce'"
-  it: "La parola interrogativa 'ce'"
-  fr: "Le mot interrogatif 'ce'"
-  de: "Das Fragewort 'ce'"
-  ru: "Вопросительное слово 'ce'"
-  hu: "A 'ce' kérdőszó"
-  pt: "A palavra interrogativa 'ce'"
-  ro: "Cuvântul interogativ 'ce'"
+  en: "Question word ce"
+  es: "Palabra interrogativa ce"
+  it: "Parola interrogativa ce"
+  fr: "Mot interrogatif ce"
+  de: "Fragewort ce"
+  ru: "Вопросительное слово ce"
+  hu: "A ce kérdőszó"
+  pt: "Palavra interrogativa ce"
+  ro: "Cuvântul de întrebare ce"
 ---
 
-## The sound of ce
-The letters c and e together make the sound /tʃe/. This starts like the "ch" in the English word "chair". Right after that consonant, you say a clear "eh" vowel. In Romanian questions, this little word stays crisp. You never stretch the vowel out into a long sound.
+## The sound
+The question word (ce) /tʃe/ means what. It starts with a sound like 'ch' in 'check'. The vowel is like the 'e' in 'bed'. Together, you say /tʃe/. Listen to the phrase (ce faci) /tʃe ˈfatʃʲ/, which means what are you doing. The sound is crisp and quick.
 
-## Mouth and stress
-Put the tip of your tongue behind your top front teeth. Release a small burst of air to make the "ch" sound. Then open your lips slightly into a soft smile for the vowel /e/. Keep your jaw relaxed and light. In question phrases, the main stress falls on the following verb rather than on **ce**.
+## How to say it
+Touch your tongue behind your top front teeth. Release the air quickly to make the first sound. Then, open your mouth a little for the vowel. Keep your lips relaxed and flat. Do not push your lips forward. Keep the vowel very short. Let your voice rise slightly to show a question.
 
-## Hearing it in a phrase
-Listen carefully to the common question **ce faci** /tʃe ˈfatʃʲ/. This phrase means "what are you doing". Notice how your voice glides smoothly through the first syllable. The word **ce** is light and quick, while **faci** gets the stronger beat. Your tone naturally steps up on the main verb.
+## Reading rules
+The letters c and e always make this sound together. When you see them at the start of a sentence, say /tʃe/. In questions, this word never takes heavy stress. Instead, the stress jumps forward to the next word. Look at (ce faci) /tʃe ˈfatʃʲ/. Here, your voice stresses (faci) /ˈfatʃʲ/.
 
 ## Common mistakes
-English speakers often try to pronounce the letter c like an "s" or a hard "k". Do not say "se" or "ke". Another common mistake is dragging out the vowel sound like "chay". Make sure you cut the sound off cleanly without adding an extra glide at the end.
+Do not say a hard sound like 'k'. Do not pronounce it like 's' either. Another mistake is making the vowel too long. Some people say 'chay', like in 'say'. Never add that gliding sound at the end. Keep it short, flat, and light. Move your voice quickly to the next word.

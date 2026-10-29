@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L438
+locale: en
+title: "H"
+summary: ""
+status: draft
+entity_id: "LT01T01:L438"
+order: 201
+terms:
+  en: "H"
+  es: "H"
+  it: "H"
+  fr: "H"
+  de: "H"
+  ru: "H"
+  hu: "H"
+  pt: "H"
+  ro: "H"
+---
+
+## Sound of hache
+
+The letter (hache) /ˈatʃe/ is completely silent in standard Spanish. You hear this clearly in the greeting (hola) /ˈo.la/, which means hello. This letter has two different sounds across words. Most of the time it makes no sound at all. In a few borrowed words, it makes a rough breath sound instead.
+
+## How to say hache
+
+For the main sound, you make no sound and keep your vocal cords quiet. For the second sound, pull the back of your tongue close to the soft roof of your mouth. Push air through the narrow gap to make a raspy, dry hiss. Place a hand on your throat to feel that your vocal cords do not buzz.
+
+## Spelling rules for hache
+
+In native and regular Spanish words, you do not pronounce this letter at all. You can hear this in the word (hijo) /ˈi.xo/. In recent foreign loanwords, the letter makes the rough sound /x/. You hear that rasping sound in the word (hámster) /ˈxams.teɾ/.
+
+## Mistakes to avoid
+
+Do not pronounce this letter like the soft English sound in house. Making a breathy English sound when greeting someone is a very common mistake. Simply skip the letter entirely and start with the next vowel. If the word is a foreign loanword, make the sound rougher than in the English word hot.

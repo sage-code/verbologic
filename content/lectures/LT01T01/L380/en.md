@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L380
+locale: en
+title: "З"
+summary: ""
+status: draft
+entity_id: "LT01T01:L380"
+order: 143
+terms:
+  en: "З"
+  es: "З"
+  it: "З"
+  fr: "З"
+  de: "З"
+  ru: "З"
+  hu: "З"
+  pt: "З"
+  ro: "З"
+---
+
+## Sound of letter ze
+
+The name of this letter is (зэ) /zɛ/. Its main sound appears in the word (зима) /zʲɪˈma/, which means winter. This letter can make four different sounds in Russian speech.
+
+## How to say ze
+
+For the first sound, place your tongue tip near your upper teeth and hum. For the soft partner, raise the middle of your tongue while you hum. For the third sound, whisper that same air without humming. For the soft whisper, raise your tongue middle without your voice. Put your hand on your throat to feel the humming stop.
+
+## Spelling rules for ze
+
+Before hard vowels and voiced consonants, it makes the sound /z/, that is a hard z, as in (зуб) /zup/. Before soft vowels and the soft sign, you hear the sound /zʲ/, that is a soft z, as in (зелень) /ˈzʲe.lʲɪnʲ/. At the end of a word, it becomes the sound /s/, that is a hard s, as in (глаз) /ɡlas/. When softened at the end of a word, it makes the sound /sʲ/, that is a soft s, as in (мазь) /masʲ/.
+
+## Common mistakes with ze
+
+Do not voice the final sound like the buzzing in buzz. Russian changes the end sound into a crisp hiss, like the finish of bus. Do not forget to raise your tongue for the soft sounds. Keep the middle of your tongue high to avoid sounding too plain.

@@ -20,18 +20,18 @@ terms:
   ro: "C"
 ---
 
-## Sound of the letter
+## The letter name
 
-The letter is called the sound /k/ or the sound /tʃ/. Its main sound is heard in (casă) /ˈka.sə/, which means house. This letter produces two distinct sounds in Romanian.
+The letter name sounds like /k/ or /tʃ/. Its main sound appears in (casă) /kasp/, which means house. This letter makes two sounds.
 
-## Mouth movements
+## Mouth and voice
 
-For the first sound, press the back of your tongue against your soft palate, build air pressure, and release it cleanly. For the second sound, press the tip of your tongue behind your top front teeth and release it into a gentle hiss. Hold your hand against your throat to feel that your vocal cords stay still for both.
+Raise the back of your tongue against the soft roof of your mouth. Block the air, then release it quickly without your voice. For the other sound, press your tongue behind your top front teeth. Push the air through as your tongue drops. Hold your hand on your neck to feel no vibration.
 
-## Spelling rules
+## Reading this letter
 
-The letter yields the sound /k/ before the vowels a, ă, â, o, u, or before consonants, as in (cald) /kald/. It makes the sound /tʃ/ before the vowels e and i, as in (ceai) /tʃaj/ and (cinci) /tʃintʃ/.
+You pronounce the sound /k/ before consonants and before most vowels, as in (cald) /kald/. You pronounce the sound /tʃ/ when the letter stands before e or i, as in (ceai) /tʃaj/ and (cinci) /tʃintʃ/.
 
 ## Common mistakes
 
-English speakers often release a puff of breath after the sound of the letter in cat. Keep the sound sharp and hold the breath back. Avoid softening the sound before other vowels into an s sound like in city.
+Do not add a strong puff of air. Keep the sound crisp, unlike the sound in kite. Never soften the letter into an s sound before front vowels.

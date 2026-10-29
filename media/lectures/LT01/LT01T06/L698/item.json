@@ -4,130 +4,61 @@
   "chapter": "LT01",
   "topic": "LT01T06",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T06:L698",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "tag question with nu"
+      "name": "tag questions"
     },
     "es": {
-      "name": "pregunta de confirmación"
+      "name": "coletillas interrogativas"
     },
     "it": {
-      "name": "domanda di conferma"
+      "name": "domande di conferma"
     },
     "fr": {
-      "name": "question de confirmation"
+      "name": "questions de confirmation"
     },
     "de": {
-      "name": "Bestätigungsfrage mit nu"
+      "name": "Bestätigungsfragen"
     },
     "ru": {
-      "name": "разделительный вопрос"
+      "name": "разделительные вопросы"
     },
     "hu": {
-      "name": "megerősítő kérdés"
+      "name": "visszakérdezés"
     },
     "pt": {
-      "name": "pergunta de confirmação"
+      "name": "perguntas de confirmação"
     },
     "ro": {
-      "name": "întrebare de confirmare"
+      "name": "întrebări de confirmare"
     }
   },
   "files": {
-    "read/de.mp3": {
-      "bytes": 570384,
-      "sha1": "2f7eb11a114bf532cc17427d5a9d4bd3b7a849d6"
-    },
-    "read/it.mp3": {
-      "bytes": 624240,
-      "sha1": "a85fb27b4fd69039c48216e0bdaf36aa5c9db5e4"
-    },
-    "read/fr.mp3": {
-      "bytes": 517968,
-      "sha1": "8699c3aef86fae788a168a157dbdae353370c3b0"
-    },
     "read/ro.mp3": {
       "bytes": 597600,
       "sha1": "f018fd5b723e2830f0624d7778bf3c02ddb39b09"
     },
-    "read/es.mp3": {
-      "bytes": 563328,
-      "sha1": "24bef9fc1943af57ef75e7e344e1b9c95238d428"
-    },
-    "read/hu.mp3": {
-      "bytes": 589824,
-      "sha1": "ddbf326731e60ba09864298323f5b28061a82136"
-    },
-    "read/pt.mp3": {
-      "bytes": 511920,
-      "sha1": "b86ccbf8e619910c7b63a684fe3fd433c8847ae0"
-    },
     "read/en.mp3": {
       "bytes": 493344,
       "sha1": "16b6b1f485b1003e5db551a416932ce170b112f0"
-    },
-    "read/ru.mp3": {
-      "bytes": 608976,
-      "sha1": "4df206dea77d4cdece28eafd37021470d5d43c6f"
     }
   },
   "readSections": {
-    "de": [
-      0.0,
-      24.05,
-      46.838,
-      71.7
-    ],
-    "it": [
-      0.0,
-      25.4,
-      50.425,
-      78.062
-    ],
-    "fr": [
-      0.0,
-      20.863,
-      42.088,
-      64.738
-    ],
     "ro": [
-      0.0,
+      0,
       24.762,
       48.312,
       74.175
     ],
-    "es": [
-      0.0,
-      23.587,
-      46.712,
-      70.912
-    ],
-    "hu": [
-      0.0,
-      25.488,
-      49.6,
-      75.213
-    ],
-    "pt": [
-      0.0,
-      21.825,
-      41.575,
-      64.225
-    ],
     "en": [
-      0.0,
+      0,
       20.725,
       41.45,
       61.263
-    ],
-    "ru": [
-      0.0,
-      25.8,
-      49.938,
-      75.213
     ]
   }
 }

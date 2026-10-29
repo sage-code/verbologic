@@ -20,18 +20,18 @@ terms:
   ro: "L"
 ---
 
-## Sound of the letter
+## The sound of el
 
-The name of this letter is pronounced /l/. It makes the sound /l/, heard in the word (luna) /lup/, which means wolf. This letter always represents one single sound across Romanian words.
+The letter name is the sound /l/. It makes the sound /l/, like in the word (luna) /lup/, which means wolf. This letter has only one sound in Romanian.
 
-## Making the sound
+## How to say it
 
-Place the tip of your tongue against the tooth ridge right behind your upper front teeth. Let the sides of your tongue drop so air flows freely around them. Vibrate your vocal cords as the breath passes. You can place your fingers on your throat to feel a continuous vibration.
+Touch the ridge behind your upper teeth with the tip of your tongue. Let the air flow smoothly around the sides of your tongue. Vibrate your vocal cords with your voice. You can feel your throat buzz when you touch it.
 
-## Reading the letter
+## Where it appears
 
-This letter always keeps the same clear value in all standard positions. You hear the sound /l/ at the beginning of words like (lup) /lup/. It also sounds identical inside words and before other consonants, as in (cald) /kald/.
+This letter always makes the sound /l/ in all standard positions. You can hear it at the start of a word in (lup) /lup/. You also hear it before another consonant in the word (cald) /kald/.
 
-## Avoiding English habits
+## Common mistakes
 
-English speakers often pull the back of the tongue up at the end of words like ball or before consonants like milk. Romanian never uses this dark variant. Keep the back of your tongue flat and low in all positions. Your tongue tip must touch the gum ridge firmly, producing a clear and light sound.
+Do not make a dark sound at the end of syllables like in the English word ball. Keep the back of your tongue down. Make a clear, light sound like in the English word leap every time.

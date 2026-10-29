@@ -4,36 +4,37 @@
   "chapter": "LT01",
   "topic": "LT01T03",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T03:L645",
   "cefr": "A1",
   "tags": [],
   "locales": {
     "en": {
-      "name": "vowel contrast"
+      "name": "vowel contrast in endings"
     },
     "es": {
-      "name": "contraste vocálico"
+      "name": "contraste vocálico por acento"
     },
     "it": {
-      "name": "contrasto vocalico"
+      "name": "contrasto vocalico per accento"
     },
     "fr": {
-      "name": "contraste vocalique"
+      "name": "contraste vocalique sous accent"
     },
     "de": {
-      "name": "Vokalkontrast"
+      "name": "Vokalkontrast durch Betonung"
     },
     "ru": {
-      "name": "гласный контраст"
+      "name": "гласный контраст под ударением"
     },
     "hu": {
-      "name": "magánhangzó-kontraszt"
+      "name": "hangsúlyos magánhangzó-kontraszt"
     },
     "pt": {
-      "name": "contraste vocálico"
+      "name": "contraste vocálico pelo acento"
     },
     "ro": {
-      "name": "contrast vocalic"
+      "name": "contrast vocalic prin accent"
     }
   },
   "files": {
@@ -41,93 +42,23 @@
       "bytes": 653760,
       "sha1": "99dbdeca4643a70661cbd9d6a4cb71571dab2e38"
     },
-    "read/de.mp3": {
-      "bytes": 741024,
-      "sha1": "72a44d3f6f11d1f246fee58338d0442000cc3426"
-    },
-    "read/es.mp3": {
-      "bytes": 659376,
-      "sha1": "25e4b1f1726cb67775652f549c3bfd8e285605e7"
-    },
-    "read/fr.mp3": {
-      "bytes": 646848,
-      "sha1": "e6ba98f79177627674f47cf683a90d99c5d79f0d"
-    },
-    "read/it.mp3": {
-      "bytes": 623520,
-      "sha1": "010ffd500506f225c782780835f969bcd1479355"
-    },
     "read/ro.mp3": {
       "bytes": 715536,
       "sha1": "d4ceaf0173b149fcb405b3c2fa185a22f3825231"
-    },
-    "read/hu.mp3": {
-      "bytes": 726768,
-      "sha1": "516528d44da415d3bc6a12f865fa220acbec8c66"
-    },
-    "read/ru.mp3": {
-      "bytes": 733392,
-      "sha1": "36252f890c6372bc0a1138cd984de5f6cbc66e64"
-    },
-    "read/pt.mp3": {
-      "bytes": 723456,
-      "sha1": "3e92dd0ff8009124d9f369b52e3f3f5c9808b70a"
     }
   },
   "readSections": {
     "en": [
-      0.0,
+      0,
       29.9,
-      56.0,
+      56,
       81.8
     ],
-    "de": [
-      0.0,
-      36.388,
-      66.062,
-      95.088
-    ],
-    "es": [
-      0.0,
-      31.512,
-      57.175,
-      82.575
-    ],
-    "fr": [
-      0.0,
-      30.988,
-      56.625,
-      83.638
-    ],
-    "it": [
-      0.0,
-      28.8,
-      53.725,
-      77.763
-    ],
     "ro": [
-      0.0,
+      0,
       34.638,
       62.125,
       91.912
-    ],
-    "hu": [
-      0.0,
-      33.825,
-      62.65,
-      93.513
-    ],
-    "ru": [
-      0.0,
-      34.987,
-      63.55,
-      94.338
-    ],
-    "pt": [
-      0.0,
-      34.263,
-      61.5,
-      91.713
     ]
   }
 }

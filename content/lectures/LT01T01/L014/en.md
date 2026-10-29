@@ -20,18 +20,18 @@ terms:
   ro: "K"
 ---
 
-## The letter name
+## Sound of letter K
 
-The letter name is spoken as /k/, that is a plain k. It stands for the sound /k/, that is a plain k, heard in (kilogram) /ˈki.lo/, meaning kilo. This letter produces two different sounds in Romanian.
+The name of this letter is /k/. Its main sound is heard in (kilogram) /ˈki.lo/, which means kilo. This letter makes two sounds.
 
 ## How to say it
 
-Press the back of your tongue against your soft palate. Release the air suddenly without any voice. For the soft version, lift the middle of your tongue toward the hard palate simultaneously. Keep your hand on your throat to feel that your vocal cords do not vibrate.
+For the first sound, press the back of your tongue against the roof of your mouth. Release the air suddenly without using your vocal cords. For the second sound, make that same tap while raising the middle of your tongue toward the roof of your mouth. Hold a hand to your throat to feel that your voice stays quiet.
 
-## When each sound occurs
+## Reading and spelling
 
-This letter is pronounced as the sound /k/, that is a plain k, before consonants or back vowels. You can hear this in (karate) /kaˈra.te/. Before front vowels, it becomes the sound /kʲ/, that is a softened k. This soft sound appears in (kaki) /ˈka.ki/.
+Before back vowels like a, o, u or consonants, this letter makes the sound /k/, that is a plain k sound, as in (karate) /kaˈra.te/. Before front vowels like e or i, it makes the sound /kʲ/, that is a softened k sound, as in (kilo) /ˈki.lo/.
 
 ## Common mistakes
 
-English speakers often release this consonant with a strong puff of breath, as in kite. Keep the release crisp and dry, without that puff of air. Hold your hand before your mouth to ensure you feel almost no breath.
+Do not release a puff of air after this letter. You might say it like the strong start of king. Keep the sound dry, just like the k in skin.

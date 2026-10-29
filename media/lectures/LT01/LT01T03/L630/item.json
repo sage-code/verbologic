@@ -4,6 +4,7 @@
   "chapter": "LT01",
   "topic": "LT01T03",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T03:L630",
   "cefr": "A1",
   "tags": [],
@@ -18,16 +19,16 @@
       "name": "accento libero"
     },
     "fr": {
-      "name": "accent tonique libre"
+      "name": "accent libre"
     },
     "de": {
-      "name": "freier Wortakzent"
+      "name": "freier Akzent"
     },
     "ru": {
-      "name": "разноместное ударение"
+      "name": "свободное ударение"
     },
     "hu": {
-      "name": "szabad hangsúly"
+      "name": "kötetlen hangsúly"
     },
     "pt": {
       "name": "acento livre"
@@ -41,93 +42,23 @@
       "bytes": 445680,
       "sha1": "b4bf93153c5e1bb3c444b56999377e65a2c9de25"
     },
-    "read/de.mp3": {
-      "bytes": 497952,
-      "sha1": "9956d1a27b2540613e658b1530876cd618918e3d"
-    },
-    "read/fr.mp3": {
-      "bytes": 417888,
-      "sha1": "a8fe9f13b7dc2dd50f34f0f95f618e068a85b546"
-    },
-    "read/es.mp3": {
-      "bytes": 453600,
-      "sha1": "dd652b3b163af6463c47c64fd08e05636db9a3cf"
-    },
     "read/ro.mp3": {
       "bytes": 494928,
       "sha1": "24388b1b8141012dd8827ae5ac3296a03c8af307"
-    },
-    "read/it.mp3": {
-      "bytes": 449136,
-      "sha1": "d315872ae9fd05683bbf44c4cac804db2cc50c37"
-    },
-    "read/hu.mp3": {
-      "bytes": 519264,
-      "sha1": "74b110a01c19ad5c431582bad445410eb5029624"
-    },
-    "read/ru.mp3": {
-      "bytes": 502992,
-      "sha1": "d90c11aa581ed6b0c0b62bf6b1b69b71e1af4e56"
-    },
-    "read/pt.mp3": {
-      "bytes": 482112,
-      "sha1": "b0f1ab8cdea99b371d92483e55a790ce22efbe92"
     }
   },
   "readSections": {
     "en": [
-      0.0,
+      0,
       19.688,
       38.737,
       57.175
     ],
-    "de": [
-      0.0,
-      20.55,
-      41.237,
-      62.45
-    ],
-    "fr": [
-      0.0,
-      16.538,
-      34.1,
-      53.45
-    ],
-    "es": [
-      0.0,
-      18.637,
-      36.912,
-      55.675
-    ],
     "ro": [
-      0.0,
+      0,
       20.387,
       40.388,
       62.363
-    ],
-    "it": [
-      0.0,
-      19.425,
-      37.913,
-      56.263
-    ],
-    "hu": [
-      0.0,
-      20.538,
-      42.25,
-      63.987
-    ],
-    "ru": [
-      0.0,
-      20.075,
-      40.312,
-      61.825
-    ],
-    "pt": [
-      0.0,
-      19.075,
-      39.013,
-      60.463
     ]
   }
 }

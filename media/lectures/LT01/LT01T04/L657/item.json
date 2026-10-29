@@ -4,70 +4,43 @@
   "chapter": "LT01",
   "topic": "LT01T04",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T04:L657",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "Vowel alternation o to oa"
+      "name": "o to oa alternation"
     },
     "es": {
-      "name": "Alternancia vocálica o a oa"
+      "name": "alternancia vocálica o oa"
     },
     "it": {
-      "name": "Alternanza vocalica o in oa"
+      "name": "alternanza vocalica o oa"
     },
     "fr": {
-      "name": "Alternance vocalique o en oa"
+      "name": "alternance vocalique o oa"
     },
     "de": {
       "name": "Vokalwechsel o zu oa"
     },
     "ru": {
-      "name": "Чередование гласных o и oa"
+      "name": "чередование o oa"
     },
     "hu": {
-      "name": "o - oa magánhangzó-váltakozás"
+      "name": "o oa hangváltakozás"
     },
     "pt": {
-      "name": "Alternância vocálica o para oa"
+      "name": "alternância vocálica o oa"
     },
     "ro": {
-      "name": "Alternanța vocalică o - oa"
+      "name": "alternanța o oa"
     }
   },
   "files": {
-    "read/de.mp3": {
-      "bytes": 414432,
-      "sha1": "03227a5bd11861dd33ff14fb0db8318abae042b8"
-    },
-    "read/it.mp3": {
-      "bytes": 437040,
-      "sha1": "a8f92ddd1a363f90e4f813c9d35dccdde118d09d"
-    },
     "read/ro.mp3": {
       "bytes": 461664,
       "sha1": "039b5e2dfd2a0a5a9e384238a61d6e13ee1a605b"
-    },
-    "read/ru.mp3": {
-      "bytes": 483984,
-      "sha1": "21337df324e04f0f3c52903e3f1f465e53bdea2c"
-    },
-    "read/fr.mp3": {
-      "bytes": 364752,
-      "sha1": "e693641f013459fcf7031a4c3e5bbc998a57ea92"
-    },
-    "read/pt.mp3": {
-      "bytes": 383184,
-      "sha1": "2e5fa488cff3fcb11171260ff6ee576d809913ac"
-    },
-    "read/hu.mp3": {
-      "bytes": 428400,
-      "sha1": "279e6f909e8fe8ee99426547c45da01b883d6d15"
-    },
-    "read/es.mp3": {
-      "bytes": 421632,
-      "sha1": "4cb58ad113c164723a5de3200f4b7b158b2e8139"
     },
     "read/en.mp3": {
       "bytes": 390960,
@@ -75,48 +48,13 @@
     }
   },
   "readSections": {
-    "de": [
-      0.0,
-      23.812,
-      44.95
-    ],
-    "it": [
-      0.0,
-      25.938,
-      50.125
-    ],
     "ro": [
-      0.0,
+      0,
       26.475,
       52.025
     ],
-    "ru": [
-      0.0,
-      29.025,
-      55.062
-    ],
-    "fr": [
-      0.0,
-      22.587,
-      43.225
-    ],
-    "pt": [
-      0.0,
-      21.875,
-      42.737
-    ],
-    "hu": [
-      0.0,
-      24.675,
-      47.775
-    ],
-    "es": [
-      0.0,
-      24.525,
-      48.175
-    ],
     "en": [
-      0.0,
+      0,
       23.075,
       44.2
     ]

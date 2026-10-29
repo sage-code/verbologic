@@ -20,18 +20,18 @@ terms:
   ro: "N"
 ---
 
-## Sound of the letter
+## Sound of letter N
 
-The letter is called /n/. Its main value is the sound /n/, heard in (nor) /now/, which means night. This letter produces two sounds in Romanian.
+The name of this letter is /n/. Its main sound is the sound /n/ as in the word (nor) /now/, which means night. This letter has two sounds.
 
 ## How to say it
 
-For the first sound, press the tip of your tongue against your upper gum ridge. Let air pass freely through your nose while your vocal cords vibrate. For the second sound, raise the back of your tongue against your soft palate. Touch your throat to feel continuous vibration for both sounds.
+For the first sound, place the tip of your tongue against your upper gum. Let the air pass through your nose while your vocal cords vibrate. For the second sound, press the back of your tongue against the soft roof of your mouth. Keep the air flowing through your nose. Put a finger beside your nose to feel it vibrate.
 
-## Spelling rules
+## Reading rules
 
-In most positions, the letter represents the sound /n/, as shown in (nou) /now/. Before velar sounds, it automatically shifts to the sound /ŋ/, as heard in (bancă) /ˈbaŋ.kə/.
+In most places, this letter makes the sound /n/ as in (nou) /now/. Before the letters c or g, it makes the sound /ŋ/ as in (bancă) /ˈbaŋ.kə/.
 
-## Comparing with English
+## Common mistakes
 
-English speakers make these exact two sounds in words like net and bank. Avoid dropping the consonant at the end of words or nasalizing the preceding vowel instead of articulating the tongue contact clearly.
+You may drop the nose airflow too early at the end of a word. Keep your tongue pressed firmly in place and let the sound ring clearly through your nose, just like in the English word sun.

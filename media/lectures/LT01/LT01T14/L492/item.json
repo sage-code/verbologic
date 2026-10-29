@@ -2,9 +2,10 @@
   "code": "L492",
   "track": "lectures",
   "chapter": "LT01",
-  "topic": "LT01T14",
+  "topic": "LT01T01",
   "kind": "letter",
-  "entity_id": "LT01T14:L492",
+  "target": "hu",
+  "entity_id": "LT01T01:L492",
   "cefr": "A1",
   "tags": [
     "alphabet#letters"
@@ -68,93 +69,24 @@
       "bytes": 434160,
       "sha1": "804bc7534bb03748d0b63cd3b5029882e4babcca"
     },
-    "read/it.mp3": {
-      "bytes": 518832,
-      "sha1": "b102990d5e7cb5f765314ff7bcb368343f077fe0"
-    },
-    "read/fr.mp3": {
-      "bytes": 369504,
-      "sha1": "a3b01562e8e09a28d028e553002fc71ab5943b52"
-    },
-    "read/de.mp3": {
-      "bytes": 542880,
-      "sha1": "204fa83422fa61b85139d372187fec1d46165d2e"
-    },
-    "read/es.mp3": {
-      "bytes": 490896,
-      "sha1": "a38ac3f1ed9076904a416b5f61ef224a8946f7f8"
-    },
-    "read/pt.mp3": {
-      "bytes": 361008,
-      "sha1": "77f1a82170fb5071b23f6acee06d0a10cec93fb3"
-    },
-    "read/ro.mp3": {
-      "bytes": 511632,
-      "sha1": "eb1031aab75cdd4bfc90a59d973298005d691e0b"
-    },
     "read/en.mp3": {
       "bytes": 531216,
       "sha1": "b84ac54a254c8b2c2a52798ff210a3226c2124b5"
-    },
-    "read/ru.mp3": {
-      "bytes": 482976,
-      "sha1": "42df6862ac59fb017a921263ba1e7ee612476af0"
     }
   },
   "readSections": {
-    "it": [
-      0,
-      20.438,
-      40.263,
-      62.65
-    ],
-    "de": [
-      0,
-      19.113,
-      38.888,
-      64.4
-    ],
-    "ro": [
-      0,
-      18.95,
-      38.112,
-      62.925
-    ],
-    "fr": [
-      0,
-      14.1,
-      28.425,
-      44.812
-    ],
-    "es": [
-      0,
-      19.712,
-      36.763,
-      59.513
-    ],
     "hu": [
       0,
       17.6,
       35.438,
       53.575
     ],
-    "pt": [
-      0,
-      13.762,
-      28.262,
-      43.825
-    ],
     "en": [
       0,
       20.688,
       39.025,
       62.85
-    ],
-    "ru": [
-      0,
-      20.538,
-      37.938,
-      57.475
     ]
-  }
+  },
+  "legacy_entity_id": "LT01T14:L492"
 }

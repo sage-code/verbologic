@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L570
+locale: en
+title: "R"
+summary: "Letter name: R. Example: around."
+status: draft
+entity_id: "LT01T01:L570"
+order: 48
+terms:
+  en: "R"
+  es: "R"
+  it: "R"
+  fr: "R"
+  de: "R"
+  ru: "R"
+  hu: "R"
+  pt: "R"
+  ro: "R"
+---
+
+## Letter sound
+
+The letter (R) /ɑːr/ makes the sound /r/ in the word (red) /rɛd/, which means red. This letter has one spoken consonant sound and one silent pattern.
+
+## Pronouncing the letter
+
+Curl the tip of your tongue slightly up and back. Do not touch the roof of your mouth. Keep the sides of your tongue against your upper back teeth. Turn on your voice and let the smooth air flow. Put your fingers on your throat to feel the strong buzz.
+
+## Reading the letter
+
+Before a vowel sound, read this letter as the sound /r/ in the word (run) /rʌn/. At the end of a word, or before another consonant, many speakers do not pronounce the letter at all. In that position, the letter is completely silent, as in the word (car) /kɑː/ or the word (hard) /hɑːd/.
+
+## Avoiding mistakes
+
+Do not roll or tap your tongue against your teeth. Keep your tongue back inside your mouth. Do not let your tongue touch anywhere near the front. If you make a tapping sound, pull your tongue tip down and back.

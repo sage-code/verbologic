@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L607
+locale: en
+title: "-mb"
+summary: "Letter name: -mb. Example: lamb."
+status: draft
+entity_id: "LT01T01:L607"
+order: 85
+terms:
+  en: "-mb"
+  es: "-mb"
+  it: "-mb"
+  fr: "-mb"
+  de: "-mb"
+  ru: "-mb"
+  hu: "-mb"
+  pt: "-mb"
+  ro: "-mb"
+---
+
+## Sound of -mb
+
+The letters -mb sound like /m/. You hear this in (lamb) /læm/, which means lamb. The letters make only one sound.
+
+## How to say it
+
+Close both lips together gently. Let air flow out through your nose. Turn on your voice box. Place a hand on your throat to feel it buzz.
+
+## Spelling rules
+
+The letters -mb appear at the end of a word or root. The second letter stays completely silent. The ending sounds as the sound /m/ in (comb) /koʊm/.
+
+## Common mistakes
+
+Do not pronounce the final consonant as a separate sound. Keep your lips closed quietly at the end. Do not pop your lips open as you finish the word.

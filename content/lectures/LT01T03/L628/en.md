@@ -4,30 +4,30 @@ topic: LT01T03
 article: L628
 locale: en
 title: "Open Syllables in Romanian"
-summary: "When a syllable ends in a vowel, it is open, and you speak the vowel clearly."
+summary: "Learn how to hold vowels clearly and cleanly at the end of open syllables in Romanian."
 status: draft
 entity_id: "LT01T03:L628"
 order: 1
 terms:
-  en: "Open syllables"
-  es: "Sílabas abiertas"
-  it: "Sillabe aperte"
-  fr: "Syllabes ouvertes"
-  de: "Offene Silben"
-  ru: "Открытые слоги"
-  hu: "Nyílt szótagok"
-  pt: "Sílabas abertas"
-  ro: "Silabe deschise"
+  en: "open syllable"
+  es: "sílaba abierta"
+  it: "sillaba aperta"
+  fr: "syllabe ouverte"
+  de: "offene Silbe"
+  ru: "открытый слог"
+  hu: "nyílt szótag"
+  pt: "sílaba aberta"
+  ro: "silabă deschisă"
 ---
 
-## What is an open syllable?
-A syllable is a small beat of a word. When a syllable ends with a vowel sound, we call it an open syllable. In Romanian, open syllables are very common. There is no consonant at the end to close the sound or cut it off. Because the end is free, your voice can flow smoothly into the air. This gives Romanian its singing and clear rhythm.
+## The sound
+Look at the word (casă) /ˈka.sə/, which means house. Both parts end in a vowel. We call this an open syllable. The vowel sound does not stop quickly. You hold the sound pure and clear until the end. Listen to (apă) /ˈa.pə/, which means water. Each vowel rings out with full tone.
 
-## How to say the sound
-Open your mouth neatly when you reach the vowel. Keep your tongue relaxed and steady without moving it halfway through. Do not rush or clip the sound away. The vowel should ring out with a bright, steady tone. If the syllable has the main stress, push your voice a bit stronger and higher. If it has no stress, still make the vowel clean. Never swallow the sound at the end.
+## How to say it
+Open your mouth and let the sound flow freely. Do not block your breath with your tongue or lips. Keep your jaw relaxed and steady. Make the vowel firm and steady from start to finish. In (casă) /ˈka.sə/, stress the first part strongly. Keep your pitch steady while the final vowel fades softly.
 
-## Listening to the example
-Let us listen to the word **casă** /ˈka.sə/, which means house. This word has two beats: **ca** and **să**. Both beats end with a vowel sound! The first beat ends in **a**, and the second ends in **ă**. Your mouth opens wide for the first beat with a strong breath. Then it relaxes slightly for the second beat, keeping both vowels distinct and clearly audible.
+## Reading rules
+Divide a word between a vowel and the next consonant. When a single consonant sits between vowels, it starts the next part. Notice (masă) /ˈma.sə/, which means table. The first syllable ends with the vowel a. The second syllable ends with the vowel ă. Every open syllable ends directly on its vowel letter.
 
-## Mistakes to avoid
-English speakers often mumble vowels that do not have stress. In English, you might turn weak vowels into a tiny blur. In Romanian, you must keep every open vowel honest and clear. Do not slide between sounds or add a quiet consonant sound at the end. Keep your lips and tongue still until the vowel finishes ringing out into the room.
+## Common mistakes
+Do not cut the vowel short. Do not add an extra tiny sound at the end. A vowel in an open syllable must stay clean. Do not let your tongue glide like in the word 'go'. In (casă) /ˈka.sə/, keep each vowel pure. Give the final vowel its full time without dropping it.

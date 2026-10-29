@@ -20,18 +20,18 @@ terms:
   ro: "H"
 ---
 
-## Letter sound
+## The letter haș
 
-The letter name is pronounced /h/, that is an aspirated breath. Its main sound is heard in (haină) /harˈtə/, which means map. This letter has three distinct sounds in total.
+The letter name is spoken as the sound /h/, that is a standard h sound. Its main sound appears in the word (hartă) /harˈtə/, which means map. This letter produces three sounds in Romanian speech.
 
-## Mouth movements
+## How to say it
 
-For the first sound, keep your mouth open and breathe out gently from the throat. For the second sound, raise the middle of your tongue close to the hard roof of your mouth. For the third sound, raise the back of your tongue toward the soft palate. Hold a hand before your lips to feel a steady stream of warm air.
+For the first sound, breathe out gently through an open mouth. Keep your tongue relaxed and let air whisper past your throat. For the next sound, push the middle of your tongue close to the hard roof. Force the air through that narrow gap. For the last sound, raise the back of your tongue toward the soft palate. Breathe out with light friction. Place a hand on your throat to feel that your vocal cords stay completely still.
 
-## Reading rules
+## Spelling rules
 
-Before back vowels and at the start of most words, pronounce the sound /h/, that is an aspirated breath, as in (horă) /ˈho.rə/. Before front vowels, use the sound /ç/, that is a soft hiss, as in (harnic) /ˈhar.nik/. At the end of a word or before consonants, pronounce the sound /x/ as in (valah) /vaˈlah/.
+Before back vowels and at the start of most native words, say the sound /h/, that is a standard h sound, as in (horă) /ˈho.rə/. Before front vowels, pronounce the sound /ç/, that is a soft h sound, heard in (harnic) /ˈhar.nik/ and (hienă) /ˈhje.nə/. At the end of a word or before consonants, speak the sound /x/, like in (valah) /vaˈlah/ or (duh) /duh/.
 
-## Common mistakes
+## Comparing with English
 
-English speakers often drop this letter entirely at the end of words. Do not make the final sound silent like in the English word cheetah. Keep the friction clearly audible right up to the end.
+English speakers often drop this letter because of words like hour or honest. In Romanian, you must always pronounce it clearly. The sound at the end of words is stronger than the sound in house. Do not make it silent like the h in vehicle. Move your tongue further back and push steady air through your mouth.

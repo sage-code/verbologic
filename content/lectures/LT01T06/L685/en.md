@@ -4,30 +4,51 @@ topic: LT01T06
 article: L685
 locale: en
 title: "Falling Tone in Wh-Questions"
-summary: "In Romanian, questions that start with a question word drop in pitch at the end."
+summary: "Your voice drops at the end of a Romanian question that begins with a question word."
 status: draft
 entity_id: "LT01T06:L685"
 order: 2
 terms:
-  en: "falling intonation"
-  es: "entonación descendente"
-  it: "intonazione discendente"
-  fr: "intonation descendante"
-  de: "fallende Intonation"
-  ru: "нисходящая интонация"
-  hu: "ereszkedő intonáció"
-  pt: "entonação descendente"
-  ro: "intonație descendentă"
+  en: "Falling tone in wh-questions"
+  es: "Entonación descendente en preguntas"
+  it: "Intonazione discendente nelle domande"
+  fr: "Intonation descendante des questions"
+  de: "Fallende Intonation bei W-Fragen"
+  ru: "Нисходящая интонация в вопросах"
+  hu: "Kérdőszós kérdések ereszkedő hanglejtése"
+  pt: "Entonação descendente em perguntas"
+  ro: "Intonație descendentă în întrebări"
 ---
 
-## The falling pattern
-In Romanian, special question words ask for specific information. These words include who, what, where, and when. In Romanian, we call them wh-questions or information questions. When you ask this kind of question, your voice does not climb up at the finish. Instead, the musical pitch of your voice drops at the end of the sentence. This falling melody tells the listener that you are asking for facts, not just asking for a yes or no answer.
+## The sound
+In Romanian, some questions start with a question word.
+Listen to (unde) /ˈun.de/, which means where.
+Your pitch starts high on the question word.
+Then, your voice slides down until the sentence ends.
+The pitch falls, just like in a simple statement.
+It does not rise at the finish.
 
-## How your voice moves
-You start the sentence with normal or slightly raised pitch on the question word. Your vocal cords tighten a bit to highlight that important first word. Then, as you say the rest of the sentence, your pitch gently glides downward. On the very last stressed syllable, the tone stays low or steps down even further. Your mouth relaxes as you finish speaking. You let your breath flow out softly without pushing extra air at the end.
+## How to say it
+Start with extra energy on the first word.
+Say the question word clearly.
+Keep your lips relaxed as you speak.
+Now practice the sentence (Unde locuiești?) /ˈun.de lo.kuˈi.eʃtʲ/, which means where do you live.
+Stress the first word strongly.
+Let your pitch drop gently on the last syllables.
+Finish on a low, quiet note.
 
-## Example in Romanian
-Listen closely to this common question: **Unde locuiești?** /ˈun.de lo.kuˈi.eʃtʲ/. The word *unde* means where. Your voice hits a clear, bright note on the first syllable of *unde*. After that, the pitch drops steadily across the word *locuiești*. The final sound /eʃtʲ/ ends on a low, calm note. You do not raise your pitch at the end. It sounds almost like finishing a standard statement.
+## Reading rules
+Look at the start of the sentence.
+Notice words like (ce) /tʃe/, which means what.
+When a question begins with such a word, prepare to fall.
+You see a question mark at the end.
+Even with that mark, do not raise your tone.
+Always let your voice step down at the end.
 
-## Common mistakes to avoid
-Many English speakers want to make every question sound surprised by raising their pitch at the end. If you raise your tone on **Unde locuiești?**, it sounds like you are checking a yes-no question or repeating in disbelief. In Romanian, that rising tone confuses the listener. Always remember to push your pitch downward at the very end. Let your pitch drop just as you would when telling a simple fact.
+## Common mistakes
+Many learners raise their voice at the end of every question.
+Do not do that here.
+A rising tone sounds like you expect a yes or no answer.
+It makes your speech sound unsure or unfinished.
+Keep the end low.
+Drop your voice firmly when you reach the final syllable.

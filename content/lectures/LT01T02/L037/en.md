@@ -20,18 +20,18 @@ terms:
   ro: "ua"
 ---
 
-## The letter group ua
+## The group ua
 
-The letter group ua sounds like /wa/. Its main sound is heard in (ziua) /ˈzi.wa/, which means the day. This group produces only one sound in standard speech.
+The letters ua make the sound /wa/. You hear this in the word (ziua) /ˈzi.wa/, which means the day. This letter pair has one sound.
 
-## How to say ua
+## Making the sound
 
-Round your lips tightly and pull your tongue back, then glide immediately into an open mouth. Lower your jaw fully as you transition. Your vocal cords vibrate all the way through. Place a hand on your throat to feel the constant vibration as you glide.
+First round your lips into a tight circle, like making a quick English sound w. Then open your lips wide and drop your jaw to make the sound a. Your vocal cords vibrate during the whole movement. Put your hand on your throat to feel the buzzing.
 
-## When to use each sound
+## Spelling rules
 
-The group ua is read as the sound /wa/ when it acts as an ascending diphthong within a syllable, like in (roua) /ˈro.wa/.
+The letters ua always make the sound /wa/ when they appear together in the same syllable. You can hear this in (roua) /ˈro.wa/.
 
-## Mistakes to avoid
+## Common mistakes
 
-English speakers often separate the letters into two distinct syllables like oo ah. Keep it as one quick glide, just like the sound of wa in water.
+Do not separate the two letters into two full, slow vowels like oo followed by ah. Glide quickly from the lip circle to the open vowel, exactly as in the English word water.

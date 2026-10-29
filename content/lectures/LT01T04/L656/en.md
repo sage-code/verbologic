@@ -4,34 +4,49 @@ topic: LT01T04
 article: L656
 locale: en
 title: "Plural C Becomes CI"
-summary: "In many Romanian plurals, the hard c sound turns into a soft ch sound when plural i is added."
+summary: "When many Romanian words become plural, the final k sound turns into a soft ch sound."
 status: draft
 entity_id: "LT01T04:L656"
 order: 9
 terms:
-  en: "Consonant change c to ci"
-  es: "Cambio de c a ci"
-  it: "Mutamento da c a ci"
-  fr: "Changement de c en ci"
-  de: "Lautwechsel von c zu ci"
-  ru: "Чередование c и ci"
-  hu: "C-ből ci hangváltozás"
-  pt: "Mudança de c para ci"
-  ro: "Alternanța c în ci"
+  en: "Plural c palatalization"
+  es: "Palatalización de c plural"
+  it: "Palatalizzazione di c plurale"
+  fr: "Palatalisation du c pluriel"
+  de: "Palatalisierung von pluralem c"
+  ru: "Палатализация c во множественном"
+  hu: "Többes számú c palatalizációja"
+  pt: "Palatalização do c plural"
+  ro: "Palatalizarea lui c"
 ---
 
-## The sound change
-
-In Romanian, singular words often end with a hard *c* sound like in *cat*. When these masculine or neuter nouns form a plural, they add an *i* at the end. That added letter changes the sound completely. The hard *c* becomes a soft *ch* sound, just like the start of the word *chair*. This is an important rule for plural forms.
+## The sound
+In one tree, (copac) /koˈpak/, the word ends with a 'k' sound.
+In many trees, (copaci) /ko.paˈt͡ʃʲ/, the sound changes.
+The letter 'c' now sounds like 'ch' in 'chin'.
+The ending is very short and soft.
+You release a tiny puff of air.
 
 ## How to say it
+Put your tongue tip behind your upper teeth.
+Press your tongue against the roof of your mouth.
+Stop the air for a brief moment.
+Then push the air out gently.
+Keep your voice box quiet.
+Do not add a full vowel at the end.
 
-Touch the tip of your tongue right behind your upper front teeth. Push air out gently to make a quick *ch* sound. At the very end, raise the middle of your tongue toward the roof of your mouth. Do not add a full vowel *ee* sound at the end. The final *i* is whispered and very short, like a soft puff of breath.
+## Reading rules
+Look at the word (copac) /koˈpak/.
+It ends with the letter 'c'.
+To make it plural, you add an 'i'.
+The letters 'ci' make the 'ch' sound.
+Do not make a long vowel sound here.
+The stress stays on the syllable /pa/.
 
-## Word stress and example
-
-Stress stays on the syllable before the ending in many of these words. Look at the word for trees: **copaci** /ko.paˈt͡ʃʲ/. The singular is *copac*, with the voice landing on *pac*. In the plural **copaci**, the stress remains strongly on *pa*. Your voice rises slightly on that stressed middle syllable, then drops quickly on the final soft consonant.
-
-## Common mistakes to avoid
-
-Many English speakers try to pronounce a full *ee* sound at the end. They say *co-pa-chee*, which sounds unnatural in Romanian. The final *i* is only a tiny hint of sound that softens the consonant. Another mistake is keeping the hard *k* sound from the singular. Always switch your tongue forward to produce the soft *ch* sound.
+## Common mistakes
+Many learners keep the hard 'k' sound.
+Do not say 'k' when you see 'ci'.
+Another mistake is adding a loud vowel sound.
+The final sound is not 'chee'.
+It is just a short, whispered 'ch' sound.
+Drop your voice smoothly at the end.

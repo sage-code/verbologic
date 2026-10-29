@@ -20,18 +20,18 @@ terms:
   ro: "B"
 ---
 
-## Letter sound
+## Sound of letter B
 
-This letter is named /b/. Its sound is heard in the word (băiat) /bun/, which means good. The letter always represents one single sound in standard Romanian speech.
+The name of this letter is /b/. It always makes the sound /b/, as in the word (băiat) /bun/, which means good. This letter has only one sound in Romanian. It never changes its value across different words or positions.
 
-## How to pronounce it
+## How to say it
 
-Bring your upper and lower lips firmly together to close the airflow completely. Build up air pressure gently behind the lips while vibrating your vocal cords. Then release the lips quickly to let the air burst out. Place your fingers on your throat to feel a strong vibration.
+Close both lips firmly to stop the flow of air. Let your vocal cords vibrate to produce voice. Then open your lips quickly so the trapped air bursts out. Put your hand on your throat. You can feel a steady vibration as the sound breaks out.
 
-## Reading rules
+## Reading and spelling
 
-The letter always represents the sound /b/ in all standard positions. It occurs at the start, in the middle, and at the end of words. You can hear this clearly in the word (alb) /alb/.
+This letter always keeps the sound /b/ in all standard positions. You hear it at the start of a word, as in (bun) /bun/. You also hear it clearly at the end of a word, as in (alb) /alb/.
 
-## Comparing with English
+## Mistakes to avoid
 
-English speakers produce this consonant very easily because it matches their own sound. Do not whisper it at the end of a word or turn it into an unvoiced sound. Keep your vocal cords vibrating until the sound is complete, exactly as you do in the English word cab.
+There is no real pitfall with this letter. It sounds just like the letter b in the ordinary English word book. Always remember to use your voice fully, even when the letter comes at the end of a word.

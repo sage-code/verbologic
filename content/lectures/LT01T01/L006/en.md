@@ -20,18 +20,18 @@ terms:
   ro: "D"
 ---
 
-## The sound
+## Letter sound
 
-This letter is called /d/. It makes the sound /d/, heard in the word (dorință) /dor/, which means longing or yearning. This letter has only one regular sound in Romanian.
+This letter is called /d/. It makes the sound /d/, like in the word (dorință) /dor/, which means longing. The letter always makes one single sound.
 
-## How to say it
+## Mouth movements
 
-Touch the tip of your tongue against the back of your upper front teeth. Block the breath for an instant, then release it while vibrating your vocal cords. Place your hand on your throat to feel the steady vibration.
+Place the tip of your tongue against the back of your top front teeth. Block the air completely. Then release your tongue as you vibrate your vocal cords. Touch your throat to feel that buzzing vibration.
 
-## Reading and spelling
+## Reading rules
 
-In all standard positions, this letter keeps the single sound /d/. You hear it clearly at the end of words like (cald) /kald/.
+In all standard positions, this letter makes the sound /d/. You hear it clearly in the word (cald) /kald/.
 
-## Common pitfalls
+## Common mistakes
 
-English speakers often touch the bumpy ridge behind the teeth. For Romanian, press your tongue directly against the upper front teeth instead, as in the Spanish sound in words like dos.
+Do not place your tongue behind the teeth on the upper gum like in English door. Keep the tip firmly against the back of your top front teeth instead.

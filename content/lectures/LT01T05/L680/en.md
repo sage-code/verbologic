@@ -3,31 +3,31 @@ track: lectures
 topic: LT01T05
 article: L680
 locale: en
-title: "Pronouncing Mă Duc Correctly"
-summary: "In Romanian, say the little word mă quickly and softly, then put all your energy on duc."
+title: "Stress in Mă Duc"
+summary: "Learn how to connect the weak word mă and the strong word duc smoothly as one spoken unit."
 status: draft
 entity_id: "LT01T05:L680"
 order: 15
 terms:
   en: "Weak pronoun stress"
-  es: "Acentuación del pronombre átono"
-  it: "Accento dei pronomi atoni"
+  es: "Acento del pronombre átono"
+  it: "Accento del pronome atono"
   fr: "Accent du pronom atone"
-  de: "Betonung unbetonter Pronomen"
-  ru: "Ударение в безударных местоимениях"
-  hu: "Hangsúlytalan névmások hangsúlya"
-  pt: "Acentuação do pronome átono"
-  ro: "Accentuarea pronumelui neaccentuat"
+  de: "Unbetonte Pronomen"
+  ru: "Безударные местоимения"
+  hu: "Hangsúlytalan névmás"
+  pt: "Acento do pronome átono"
+  ro: "Pronume neaccentuat"
 ---
 
-## The rhythm pattern
-In Romanian, short words like **mă** lean onto the next word. We call these helper words weak clitics. The phrase **mă duc** /mə duk/ means "I am going". These two words join together like one single unit when you speak naturally. You should never pause between them. The real energy belongs only to the second word. Treat the first word as a quick little step before the main beat.
+## The sound
+Listen to the phrase (mă duc) /mə duk/, which means I am going. You say two little words together. The first word is weak and quick. The second word is strong and clear. Together, they sound like one single word. Your voice pushes on the second part.
 
-## How your mouth and voice work
-Start by making your voice quiet and low for **mă**. Your mouth stays relaxed, and your tongue rests in the middle for the vowel sound /ə/. Do not push extra air out of your lungs yet. Next, glide immediately into **duc**. Close your tongue for the /d/, then push your voice louder and slightly higher on the vowel /u/. Your lips round tightly for /u/. Finish with a crisp /k/ sound.
+## How to say it
+Start with the small word (mă) /mə/. Relax your mouth and keep your voice light. Make the sound very short. Now move quickly to the word (duc) /duk/. Round your lips for this part. Put all your energy here. Raise your pitch slightly on this final beat.
 
-## Hearing the difference
-Listen carefully to how native speakers pronounce **mă duc** /mə duk/. The syllable **mă** is very short and weak. The syllable **duc** is longer, louder, and clear. Think of musical beats where the first beat is an upbeat and the second is the strong downbeat. If you say both words with the same power, the sentence sounds robotic. Keep your flow smooth and connected from start to finish.
+## Reading rules
+When you see (mă duc) /mə duk/, do not stop between words. Read them as one smooth rhythm unit. The letter ă is a soft, resting sound. It never takes the stress in this phrase. The main beat always lands on the letter u.
 
-## Common mistakes to avoid
-English speakers often try to stress every single word equally. If you say **mă** too loudly, it sounds strange to Romanian ears. Another mistake is changing the /ə/ sound into a hard "ah" or "ay". Keep your jaw relaxed so the vowel stays neutral and small. Finally, never separate the two words with a silent pause. Glue them together so they sound like one word with the stress at the very end.
+## Common mistakes
+Do not stress both words equally. If you emphasize the first word, you break the flow. Do not pause between the two parts. Do not make the first sound too loud or long. Keep the first beat weak and jump straight to the strong finish.

@@ -3,35 +3,31 @@ track: lectures
 topic: LT01T03
 article: L643
 locale: en
-title: "Stress in Long Romanian Words"
-summary: "Long Romanian words with suffixes like -itate always keep their stress on the syllable right before the end."
+title: "Stress in Long Words"
+summary: "Learn how to place the stress correctly on long Romanian words ending in -itate."
 status: draft
 entity_id: "LT01T03:L643"
 order: 16
 terms:
-  en: "Stress in suffixes"
-  es: "Acento en sufijos"
-  it: "Accento nei suffissi"
-  fr: "Accent des suffixes"
+  en: "suffix stress pattern"
+  es: "acentuación de sufijos"
+  it: "accento dei suffissi"
+  fr: "accent des suffixes"
   de: "Betonung bei Suffixen"
-  ru: "Ударение в суффиксах"
-  hu: "Hangsúly a képzőkön"
-  pt: "Acento nos sufixos"
-  ro: "Accentul pe sufixe"
+  ru: "ударение в суффиксах"
+  hu: "képzők hangsúlyozása"
+  pt: "acentuação de sufixos"
+  ro: "accentul sufixelor"
 ---
 
-## The pattern of -itate
+## The sound
+Long words can look scary. Many long words end with the ending -itate. Listen to (universitate) /u.ni.ver.siˈta.te/. Notice the loudest beat. The voice hits the syllable 'ta'. You hear this same beat in (calitate) /ka.liˈta.te/. The ending keeps the beat in the same spot.
 
-Long words can look scary, but Romanian has friendly patterns to help you. When a long word ends with the suffix **-itate**, the stress always stays in the same place. It does not matter how many syllables come before it. The voice always jumps onto the syllable **ta**. Think of this suffix like a musical tune that never changes. When you see **-itate**, you already know where your voice needs to land.
+## How to say it
+Say the first parts of the word smoothly. Do not stop. Keep your voice steady. Then, make the syllable 'ta' stronger and higher. Drop your tone softly on the final syllable 'te'. Try it now with (activitate) /ak.ti.viˈta.te/. Your mouth stays relaxed until the strong syllable.
 
-## How your voice and mouth work
+## Reading rules
+When you read a word ending in -itate, look at the end. The strong beat always falls on the letter 'a' in that ending. It does not matter how long the word is. You always stress the syllable right before the last one.
 
-Say the early syllables evenly and smoothly. Do not rush them, and do not make them loud. When you reach the **ta** in **-itate**, open your mouth wide. Push more air from your belly so this beat is louder and slightly higher in pitch. Then, let your voice drop down softly for the final **te**. Your lips stay relaxed for the final sound. Remember: quiet build-up, loud jump on **ta**, and a gentle finish.
-
-## Listen and say: universitate
-
-Let us practice with a great example: **universitate** /u.ni.ver.siˈta.te/. This word means "university". Tap your hand on your desk for each beat: u - ni - ver - si - **TA** - te. Hear how the voice climbs gently up to **ta**? Other words work the exact same way, like **capacitate** or **activitate**. Once you master **universitate** /u.ni.ver.siˈta.te/, you can pronounce dozens of long Romanian words perfectly.
-
-## Common mistakes for English speakers
-
-In English, we say "uni-VER-sity". We like to put the stress near the middle of the word. Because of this, English speakers often try to say "uni-VER-sitate" in Romanian. That sounds strange to Romanian ears! Another mistake is swallowing the vowels before the stress. In Romanian, every single vowel must stay clear and crisp. Do not blur the early sounds, and always put your energy right on **ta**.
+## Common mistakes
+Many people stress the start of a long word. Do not do that. Other people push the stress all the way to the very last letter. Remember (universitate) /u.ni.ver.siˈta.te/. The last sound is quiet. Always keep the strong beat on the syllable 'ta'.

@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L466
+locale: en
+title: "I"
+summary: ""
+status: draft
+entity_id: "LT01T01:L466"
+order: 229
+terms:
+  en: "I"
+  es: "I"
+  it: "I"
+  fr: "I"
+  de: "I"
+  ru: "I"
+  hu: "I"
+  pt: "I"
+  ro: "I"
+---
+
+## The letter i
+
+The letter (i) /i/ is called /i/. Its main sound is the sound /i/, heard in the word (ici) /i.si/, which means here. In French, this letter has two distinct sounds across various words.
+
+## How to say it
+
+For the vowel sound, spread your lips wide into a smile. Push your tongue high and forward against your lower teeth. For the glide sound, quickly narrow your tongue toward the roof of your mouth. Glide swiftly into the next vowel without stopping the airflow. Touch your throat to feel continuous voice vibration.
+
+## Spelling rules
+
+This letter usually makes the sound /i/ on its own or with diacritics, like in (île) /il/. It makes the gliding sound /j/ when it stands directly before another vowel. You hear this glide in the word (ciel) /sjɛl/. The sound flows quickly into the following vowel.
+
+## Common mistakes
+
+Do not pronounce this letter like the relaxed vowel in the English word sit. Keep your tongue high and your lips tense. Do not lengthen the vowel into a glide like the sound in see. Keep the sound pure, short, and steady.

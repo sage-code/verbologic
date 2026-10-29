@@ -3,31 +3,54 @@ track: lectures
 topic: LT01T03
 article: L635
 locale: en
-title: "Diphthongs in One Syllable"
-summary: "When two vowels glide smoothly together, they share one breath and stay inside a single syllable."
+title: "Two Vowels in One Syllable"
+summary: "Learn how two vowels glide together into one smooth syllable in Romanian words like ploaie."
 status: draft
 entity_id: "LT01T03:L635"
 order: 8
 terms:
-  en: "diphthong"
-  es: "diptongo"
-  it: "dittongo"
-  fr: "diphtongue"
-  de: "Diphthong"
-  ru: "дифтонг"
-  hu: "kettőshangzó"
-  pt: "ditongo"
-  ro: "diftong"
+  en: "Diphthongs"
+  es: "Diptongos"
+  it: "Dittonghi"
+  fr: "Diphtongues"
+  de: "Diphthonge"
+  ru: "Дифтонги"
+  hu: "Kettőshangzók"
+  pt: "Ditongos"
+  ro: "Diftongi"
 ---
 
-## Two Vowels, One Beat
-Sometimes two vowels meet and decide to travel together. Instead of making two separate sounds, they slide smoothly into one quick flow. In Romanian, we call this special vowel team a diphthong. You do not stop the breath between them. They belong to the very same syllable. Think of them as musical notes that slide together without any pause. They create one single beat for your ear.
+## The sound
+Sometimes, two vowels meet in one beat.
+They glide together smoothly.
+You hear one quick sound instead of two separate beats.
+Listen to the word (soare) /ˈso̯a.re/, which means sun.
+The vowels blend into one voice push.
+They stay close inside the same syllable.
 
-## How Your Mouth Moves
-Your mouth needs to glide without stopping. For the sound pair *oa*, start with rounded lips like a small circle for *o*. Immediately open your mouth wider for *a*. The louder stress lands on *a*. Keep your voice steady and warm. Do not close your throat between the sounds. One vowel is soft and fast, while the partner vowel is strong and clear. Your mouth never pauses between them.
+## How to say it
+Start with your lips rounded or tongue high.
+Then, glide smoothly into the next open vowel.
+Do not stop the air between them.
+Keep the voice flowing in one breath.
+Listen to (ploaie) /ˈplo̯a.je/, which means rain.
+One vowel is strong and clear.
+The other vowel is very quick and light.
 
-## Hearing the Word
-Listen to the word for rain: **ploaie** /ˈplo̯a.je/. Clap your hands as you say it. You will clap only two times: *ploa-ie*. The first beat is **ploa**. The letters *o* and *a* glide together into one syllable. Then the voice finishes on *ie*. If you listen closely, the word sounds flowing and soft, like drops falling from the sky. The vowels stay joined like best friends.
+## Reading rules
+When you see two vowels together, look closely.
+Often, they share one single syllable.
+One vowel takes the main beat.
+The other vowel acts like a fast slide.
+In (iarnă) /ˈjar.nə/, the first sound glides into the next.
+Read them as one smooth unit.
+Never split them apart.
 
-## Common English Mistakes
-English speakers often try to split the vowels into two separate beats. They might say *plo-a-ye* with three distinct syllables. That breaks the melody of the word. Do not put a tiny pause or a glottal stop between the *o* and the *a*. Keep the air moving continuously from your chest. Let the lips glide from round to open in one single motion.
+## Common mistakes
+Do not separate the two vowels.
+If you break them, you create an extra syllable.
+That breaks the rhythm of the word.
+Do not pause your voice in the middle.
+Glide quickly from the first vowel to the second.
+Keep your mouth moving in one continuous motion.
+Let the sounds melt together easily.

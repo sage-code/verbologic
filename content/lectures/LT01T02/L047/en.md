@@ -22,16 +22,16 @@ terms:
 
 ## The group eau
 
-The letter group eau is spoken as the sound /e̯aw/. It makes one single triphthong sound in Romanian. You hear this sound in the word (beau) /be̯aw/, which means I drink. The group has only one spoken form.
+The group eau is spoken as the sound /e̯aw/. You can hear it in the word (beau) /be̯aw/, which means I drink. This letter combination makes only one sound in Romanian. It glides through three vowel parts in a single breath.
 
-## Mouth movements
+## How to say eau
 
-Start with your lips unrounded and your tongue high and forward. Glide smoothly through a clear, central vowel sound. Finish by rounding your lips into a tight circle while voicing continuously. Place a hand on your neck to feel your vocal cords buzz without stopping.
+Start with your lips spread slightly. Drop your jaw quickly to open the mouth. Then round your lips into a small circle at the very end. Keep your voice turned on without stopping the airflow. Put a hand on your throat to feel continuous vibration throughout the glide.
 
-## Reading the group
+## Spelling of eau
 
-The letters eau always stay together in a single syllable. They yield the triphthong sound /e̯aw/, as in the word (vedeau) /veˈde̯aw/.
+The letters eau appear together in a single syllable as the sound /e̯aw/. You see this group often at the end of past tense verbs. For example, it appears in the verb (vedeau) /veˈde̯aw/.
 
-## English comparisons
+## Mistakes to avoid
 
-English speakers often break this combination into two separate syllables. Do not pause between the parts or turn it into separate words like eh and ow. Blend the glide, vowel and round ending into one single flow of air.
+Do not read this group as three separate vowels. Do not say it like the French word beau or the English sound in boat. Glide smoothly from an e sound through an open vowel to a quick w sound.

@@ -84,13 +84,33 @@ All topics use the `article` layout.
 
 ## The lesson pattern
 
-Most topics in **Lectures** use the `table` layout and hold **18–70 progressive items/examples**. Pronunciation topics written as articles (`"layout": "article"`) hold the same number of items, each an article document. Learners play the topic in a loop to absorb pronunciation and structure intuitively, and click any item's Read button to open its detailed explanation (`content/lectures/<lang>/<TOPIC>/<id>/en.md`). Table items have no secondary sound strip or video: their audio belongs to the item and topic table loop. An **article** topic (`"layout": "article"`) has no table loop. Its article items carry a read-aloud MP3 of their document (`read/<locale>.mp3`, made by `generate-audio.py --read`) and may carry a video.
+Most topics in **Lectures** use the `table` layout and hold **18–70 progressive items/examples**. Pronunciation topics written as articles (`"layout": "article"`) hold the same number of items, each an article document. Learners play the topic in a loop to absorb pronunciation and structure intuitively, and click any item's Read button to open its detailed explanation (`content/lectures/<TOPIC>/<id>/en.md`). Table items have no secondary sound strip or video: their audio belongs to the item and topic table loop. An **article** topic (`"layout": "article"`) has no table loop. Its article items carry a read-aloud MP3 of their document (`read/<locale>.mp3`, made by `generate-audio.py --read`) and may carry a video.
 
 Topic codes are `<track letter><chapter>T<nn>`, numbered in teaching order: `C` for Dictionary, `L` for Lectures and `S` for Stories. `scripts/lib/media-ids.mjs` routes a code to its sidebar by that letter. To insert a topic, renumber the topics after it: codes are display labels, not storage keys. Audio URLs come from each manifest's own `key`, and progress stores only the entity id. When a code changes:
 
 - move `lastIndex` with the topic;
-- rename the folder `content/lectures/<lang>/<TOPIC>/`;
+- rename the folder `content/lectures/<TOPIC>/`;
 - update each moved doc's `topic:` front matter.
+
+## One curriculum, every language
+
+A chapter is the same for every language: same topics, same order, same generic English name. Only the content differs. A topic name describes a concept ("Having & needing"), never one language's words ("a avea", "-esc & -ăsc"). `./run.sh validate` rejects a `names.en` with non-English characters or quoted Romanian words.
+
+Content is one of two kinds, and the kind decides how a topic is built:
+
+| Kind | Examples | Mode | Language |
+| --- | --- | --- | --- |
+| Reversible | words, expressions, stories | default (omit `mode`) | the same rows exist in every language; any language can be learned or be the gloss |
+| Directional | letters, sounds, grammar articles | `"mode": "directional"` | each ITEM teaches one language |
+
+- A `directional` topic is ONE topic for all languages. Each item's manifest (`media/lectures/.../item.json`) sets `"target": "<lang>"`; a language sees and counts only its own items. Do not give a topic its own `target` and do not make one topic per language: validate rejects both for lectures.
+- A lecture topic with `"layout": "article"` must be `directional`.
+- Item codes are unique per track (`L553`), so a new language adds items to the existing topic; it does not need new topics.
+- `./run.sh missing` ends with a **Language coverage** table: items per language for every directional topic. A dash is the next piece of work.
+
+**Lecture articles are English only.** Each is written once, in simple English (short sentences, common words), about its `target` language. Every locale reads the English original; there are no `de.md`/`ro.md` files. A target-language word goes in `( )` and is not read aloud; the IPA in `/ /` right after it is read (transliterated by `scripts/lib/ipa-translit.mjs`), so every bracketed word needs IPA after it.
+
+Adding a language to a chapter-1 topic: `create-lecture-articles.py --target <lang> --scaffold`, fill `scripts/seeds/lectures-LT01-<lang>.json` with hand-transcribed IPA, `--preview`, then `--apply`.
 
 ## Row order inside a table
 

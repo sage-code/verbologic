@@ -3,31 +3,49 @@ track: lectures
 topic: LT01T06
 article: L693
 locale: en
-title: "Parentheses and Dashes"
-summary: "Speak a clause between dashes with a tiny pause before and after, dropping your pitch slightly."
+title: "Pausing for Dashes and Parentheses"
+summary: "Pause briefly before and after dashes, and drop your voice pitch slightly for the words inside."
 status: draft
 entity_id: "LT01T06:L693"
 order: 10
 terms:
-  en: "Clause in dashes"
-  es: "Inciso entre rayas"
-  it: "Inciso tra trattini"
-  fr: "Proposition entre tirets"
-  de: "Einschub mit Gedankenstrichen"
-  ru: "Вводное предложение с тире"
-  hu: "Gondolatjeles betoldás"
-  pt: "Oração entre travessões"
-  ro: "Propoziție între linii"
+  en: "parenthetical clause pause"
+  es: "pausa en incisos"
+  it: "pausa negli incisi"
+  fr: "pause des incises"
+  de: "Pause bei Einschüben"
+  ru: "пауза при вводных словах"
+  hu: "közbevetés szünete"
+  pt: "pausa em incisos"
+  ro: "pauza la propoziții incidente"
 ---
 
-## The rhythm of dashes
-In Romanian, dashes separate extra information from the main sentence. An inserted clause often explains who is speaking or adds a quick thought. Your listener needs to hear where the main sentence stops and restarts. To show this clearly, you must make a tiny pause at each dash. These quick pauses frame the extra thought like acoustic brackets.
+## The sound
+Dashes show an extra thought inside a sentence.
+Your voice changes around them.
+You make a very short pause before the dashes.
+You make another short pause after them.
+Inside the dashes, your voice pitch drops a little bit.
+It sounds like a quiet side note.
 
-## How your voice changes
-Before the first dash, stop your voice for a brief heartbeat. Drop your vocal pitch a little lower than the main sentence. Keep your tongue and mouth relaxed while speaking the inserted words. Speak them slightly softer and a bit faster. Then, make another short pause at the second dash. After that pause, lift your pitch back up to your normal voice and finish the sentence.
+## How to say it
+Start the first part of your sentence normally.
+Stop your breath for a quick split second.
+Lower your pitch slightly for the words between the dashes.
+Speak those words a little bit faster.
+Pause again for a brief moment.
+Then, raise your pitch back to normal and finish.
 
-## Listen to the example
-Look at the sample sentence: **Vine — spune el — mâine.** /ˈvi.ne spuˈne el ˈmɨ.i.ne/ (He is coming, he says, tomorrow). Say the word "Vine" clearly with normal pitch. Take a tiny break without taking a huge breath. Speak "spune el" on a lower note and softer volume. Pause briefly once more. Finally, say "mâine" with your standard pitch and clear stress.
+## Reading rules
+Look for long dashes or brackets in text.
+They set words apart from the main sentence.
+Say (Vine — spune el — mâine) /ˈvi.ne spuˈne el ˈmɨ.i.ne/, which means he is coming tomorrow.
+You pause briefly before and after the middle part.
+Never link those words directly to the rest.
 
-## Common mistakes to avoid
-English speakers often run all the words together without any pause. When you omit the pauses, the listener thinks "spune el" belongs directly to the main clause. Another mistake is raising your pitch inside the dashes like asking a question. Instead, keep the inserted clause flat, low, and quiet. Remember to pause on both sides, not just at the beginning.
+## Common mistakes
+Do not rush through the dashes without stopping.
+If you skip the pauses, the sentence sounds confusing.
+Also, do not raise your pitch inside the dashes.
+A higher pitch makes the phrase sound like a question.
+Keep your pauses short and your voice tone low.

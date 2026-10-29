@@ -172,7 +172,27 @@ def gemini_json(prompt: str, temperature: float, model: str) -> dict[str, Any]:
     return result
 
 
-def story_prompt(topic_name: str, level: str, existing_titles: list[str], subject: str | None = None) -> str:
+#: Appended to the prompt below B2. The level text says WHAT kind of English; these say how to keep it simple.
+SIMPLE_RULES = (
+    "Keep it simple: one idea per sentence, common everyday words (the first 2000 words of English), "
+    "the active voice, no idioms, no phrasal verbs, no long noun chains, no semicolons or dashes. "
+    "If a harder word helps the story, make its meaning clear from the sentence around it.\n"
+)
+
+
+def topic_context(chapter_name: str, topic_name: str, neighbours: tuple[str, str]) -> str:
+    """Tell Gemini where the collection sits in the curriculum, so the story fits the theme."""
+    before, after = neighbours
+    return (
+        f'Chapter: "{chapter_name}". The collection comes after "{before}" and before "{after}" '
+        f'in the same chapter. Choose characters, places and events that belong to the theme '
+        f'"{topic_name}" and to the chapter, not to its neighbours.'
+    )
+
+
+def story_prompt(
+    topic_name: str, level: str, existing_titles: list[str], subject: str | None = None, context: str = ""
+) -> str:
     spec = LEVELS[level]
     low, high = spec["paragraphs"]
     per_page = spec["per_page"]
@@ -183,8 +203,10 @@ def story_prompt(topic_name: str, level: str, existing_titles: list[str], subjec
         "stories are read by people learning English, and every page of a story "
         "gets a picture.\n\n"
         f'Collection: "{topic_name}". Every story in this collection is a CEFR {level} '
-        f"story, so write it at that level.\n\n"
-        f"Language: {spec['english']}.\n\n"
+        f"story, so write it at that level.\n"
+        f"{context}\n\n"
+        f"Language: {spec['english']}.\n"
+        f"{SIMPLE_RULES if level in ('A1', 'A2', 'B1') else ''}\n"
         "Structure:\n"
         f"- Write between {low} and {high} paragraphs. Each paragraph is one to three "
         "sentences and shows one clear moment: who is there, where they are, and what "
@@ -421,7 +443,7 @@ def main() -> int:
         description="Create n illustrated stories for a stories topic, at the topic's CEFR level."
     )
     parser.add_argument("topic", help="stories topic code, e.g. ST01T02")
-    parser.add_argument("count", type=int, help="how many stories to create")
+    parser.add_argument("count", type=int, nargs="?", default=1, help="how many stories to create (default 1)")
     parser.add_argument("--model", help="Gemini text model (default: GEMINI_MODEL from .env)")
     parser.add_argument("--skip-audio", action="store_true", help="do not synthesize title and read audio")
     parser.add_argument("--subject", help="main character of every story, e.g. 'a hedgehog'")
@@ -434,7 +456,14 @@ def main() -> int:
     found = stories_in_topic(topic)
     if found is None:
         parser.error(f"{topic} is not a topic in src/data/sidebars/library/stories/sidebar.json")
-    _, entry = found
+    section, entry = found
+    siblings = [t.get("names", {}).get("en", t["code"]) for t in section.get("topics", [])]
+    position = [t["code"] for t in section.get("topics", [])].index(topic)
+    context = topic_context(
+        section.get("names", {}).get("en", section.get("code", "")),
+        entry.get("names", {}).get("en", topic),
+        (siblings[position - 1] if position > 0 else "none", siblings[position + 1] if position + 1 < len(siblings) else "none"),
+    )
     level = entry.get("level")
     if level not in LEVELS:
         parser.error(f"{topic} has level {level!r}; the story rules cover {', '.join(LEVELS)}")
@@ -453,7 +482,7 @@ def main() -> int:
             titles = existing_titles(topic)
             story = with_retries(
                 f"{code} story",
-                lambda: gemini_json(story_prompt(topic_name, level, titles, args.subject), 0.9, model),
+                lambda: gemini_json(story_prompt(topic_name, level, titles, args.subject, context), 0.9, model),
                 lambda result: check_story(result, level),
             )
             translated = with_retries(

@@ -20,18 +20,18 @@ terms:
   ro: "iai"
 ---
 
-## The group iai
+## Sound of iai
 
-The letter group iai is spoken as /jaj/. Its main sound is the triphthong /jaj/, heard in the word (tăiai) /təˈjaj/, meaning you were cutting. This letter combination represents one single triphthong sound in Romanian.
+The letters iai are spoken as the sound /jaj/. You hear this group in (tăiai) /təˈjaj/, which means you were cutting. This letter group makes only one combined sound in Romanian words. Listen to how smoothly the three letters blend together into one flowing unit.
 
-## Mouth movements
+## How to say iai
 
-Start with your tongue high and forward, near the roof of your mouth. Open your mouth wide while dropping your tongue low and central for the core vowel. Then slide your tongue quickly back up toward the front. Keep your vocal cords vibrating continuously throughout the entire glide. You can feel a steady buzzing at your throat.
+Lift your tongue high and forward near the roof of your mouth. Glide quickly down into a wide open mouth. Then glide your tongue high and forward again. Keep your vocal cords vibrating all the time. Feel the steady vibration by placing a hand on your throat.
 
-## Spelling rules
+## Spelling of iai
 
-The spelling group iai always appears in a single syllable with a central vowel glide nucleus. In this position, it is pronounced as the triphthong /jaj/. You hear this pattern in the verb form (apropiai) /a.pro.piˈjaj/.
+The letters iai make the sound /jaj/ in a single syllable. You hear this sound at the end of (apropiai) /a.pro.piˈjaj/. The group stays together as one flowing syllable in verb forms.
 
-## Pitfalls to avoid
+## Comparing iai
 
-English speakers often break this triphthong across separate beats. The sequence resembles the sound of the word eye preceded by a consonant sound like yes. Blend the glide smoothly in one continuous breath. Do not pause between the parts.
+You might separate these letters into two distinct syllables. Do not pause between the letters. The whole sequence sounds like the word yay in English. Say it as one single continuous movement without any break.

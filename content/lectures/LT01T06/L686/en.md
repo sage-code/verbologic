@@ -3,8 +3,8 @@ track: lectures
 topic: LT01T06
 article: L686
 locale: en
-title: "Intonation in Romanian Exclamations"
-summary: "In Romanian exclamations, your voice rises high on the key word and then falls rapidly."
+title: "Exclamation Intonation"
+summary: "Learn how to use rising and falling pitch to express strong feelings in Romanian exclamations."
 status: draft
 entity_id: "LT01T06:L686"
 order: 3
@@ -15,23 +15,19 @@ terms:
   fr: "intonation exclamative"
   de: "Ausrufintonation"
   ru: "восклицательная интонация"
-  hu: "felkiáltó intonáció"
+  hu: "felkiáltó hanglejtés"
   pt: "entonação exclamativa"
   ro: "intonație exclamativă"
 ---
 
-## The Exclamation Pattern
+## The sound
+An exclamation shows strong feeling. Your voice does not stay flat. Instead, your pitch jumps high on the most important word. Then, your voice falls quickly at the end. Listen to (Ce frumos!) /tʃe fruˈmos/, which means how beautiful. The music of the sentence feels lively and bright.
 
-When you express strong feelings in Romanian, your pitch changes. You might feel surprised, delighted, or amazed. In an exclamation, your pitch does not stay flat. It also does not rise at the end like a question. Instead, your musical tone jumps up on the most important word. Right after this peak, the tone drops down sharply.
+## How to say it
+Start at a normal speaking pitch. When you reach the main word, push your voice upward. Make that stressed vowel higher and louder. Right after this peak, drop your pitch down fast. Try it with (Bravo!) /ˈbra.vo/, which means well done. Release plenty of breath on the peak.
 
-## How to Use Your Voice
+## Reading rules
+Look for an exclamation mark at the end of the sentence. Find the word that carries the biggest emotion. Raise your voice on the stressed syllable of that word. In (Ajutor!) /a.ʒuˈtor/, the voice climbs high on the last part. Then, let your voice drop immediately before you stop.
 
-To make this melody, first find the key word in the sentence. Send extra air from your lungs onto the stressed syllable. Your vocal cords stretch tighter, which raises the musical note of your voice. Open your mouth wide on this vowel so it sounds bright and clear. Immediately after this syllable, let your vocal cords relax. Your pitch falls down quickly to finish the sentence.
-
-## Practice with Examples
-
-Listen closely to the audio to copy the melody. A classic phrase is **Ce frumos!** /tʃe fruˈmos/, which means "How beautiful!". Here, the word *frumos* is the key word. The first syllable *fru-* stays at a normal pitch. Your voice leaps high on *-mos* and then falls before you stop. You can also hear this on *Ce bine!*, where the high pitch sits on *bine*.
-
-## Common Mistakes to Avoid
-
-English speakers often use a different melody when they show excitement. They might keep their pitch rising all the way to the end. In Romanian, a rising tone at the end sounds like an unfinished question. Another common error is sounding completely flat. Do not be shy with your pitch. Give the main word a sharp climb, and let the voice fall cleanly.
+## Common mistakes
+Do not keep your voice flat. A flat tone sounds bored or robotic. Do not rise at the very end like a question. The rise happens in the middle on the key word. After the rise, always let the tone fall down. Keep the drop clear and smooth.

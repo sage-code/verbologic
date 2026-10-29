@@ -7,8 +7,7 @@
   "entity_id": "LT04T01",
   "locales": {
     "en": {
-      "name": "Subject pronouns & a fi (to be)",
-      "ipa": "/ˈsʌbdʒɪkt ˈpɹoʊnaʊnz ænd ɑː fiː tu biː/",
+      "name": "Subject pronouns & the verb 'to be'",
       "description": "This is the first topic of Chapter 4."
     },
     "ro": {
@@ -17,38 +16,31 @@
       "description": "Aceasta este prima temă din capitolul 4."
     },
     "de": {
-      "name": "Subjektpronomen & a fi (sein)",
-      "ipa": "/zʊpˈjɛktpʁoˌnoːmən ʊnt ʔaː fiː zaɪ̯n/",
+      "name": "Personalpronomen & das Verb „sein“",
       "description": "Dies ist das erste Thema von Kapitel 4."
     },
     "ru": {
-      "name": "Личные местоимения и a fi (быть)",
-      "ipa": "/ˈlʲitɕnɨje mʲɪstəɪˈmʲenʲɪjə ɪ a fi bɨtʲ/",
+      "name": "Личные местоимения и глагол «быть»",
       "description": "Это первая тема главы 4."
     },
     "it": {
-      "name": "Pronomi soggetto e a fi (essere)",
-      "ipa": "/proˈnoːmi sodˈdʒɛtto e a fi ˈɛssere/",
+      "name": "Pronomi soggetto e il verbo «essere»",
       "description": "Questo è il primo tema del capitolo 4."
     },
     "es": {
-      "name": "Pronombres sujetos y a fi (ser)",
-      "ipa": "/pɾoˈnombɾes suˈxetos i a fi seɾ/",
+      "name": "Pronombres personales y el verbo «ser»",
       "description": "Este es el primer tema del capítulo 4."
     },
     "fr": {
-      "name": "Pronoms sujets et a fi (être)",
-      "ipa": "/pʁɔnɔ̃ syʒɛ e a fi ɛtʁ/",
+      "name": "Pronoms sujets et le verbe « être »",
       "description": "Il s'agit du premier thème du chapitre 4."
     },
     "hu": {
-      "name": "Alanyesetű névmások és a fi (lenni)",
-      "ipa": "/ˈɒlɒɲɛʃɛtyː ˈneːvmaːʃok eːʃ ɒ fi ˈlɛnːi/",
+      "name": "Alanyi névmások és a „lenni” ige",
       "description": "Ez a 4. fejezet első témája."
     },
     "pt": {
-      "name": "Pronomes sujeitos e a fi (ser)",
-      "ipa": "/pɾuˈnomɨʃ suˈʒɐjtuz i a fi seɾ/",
+      "name": "Pronomes pessoais e o verbo «ser»",
       "description": "Este é o primeiro tema do capítulo 4."
     }
   },
@@ -56,6 +48,10 @@
     "title#topic"
   ],
   "files": {
+    "sound/ro.mp3": {
+      "bytes": 18864,
+      "sha1": "f96f377c1d74fd7b938fecb1887828a5037b2eb2"
+    },
     "sound/en.mp3": {
       "bytes": 17136,
       "sha1": "0f2ae14519d5edeeaf4ce4545202ae13208446e6"
@@ -64,13 +60,9 @@
       "bytes": 20736,
       "sha1": "f3693dfcea327a4d46870532dcc0c282b3d21a1b"
     },
-    "sound/es.mp3": {
-      "bytes": 17136,
-      "sha1": "220b4ef0c69cc0001fe66e86b59af219305cb7d2"
-    },
-    "sound/ro.mp3": {
-      "bytes": 18864,
-      "sha1": "f96f377c1d74fd7b938fecb1887828a5037b2eb2"
+    "sound/ru.mp3": {
+      "bytes": 23184,
+      "sha1": "a3d777872226fb32735d734eed04f04dc359d0db"
     },
     "sound/it.mp3": {
       "bytes": 15120,
@@ -80,6 +72,10 @@
       "bytes": 17712,
       "sha1": "7d79e64f1120a902c967e1b4f68ad19adf119f50"
     },
+    "sound/es.mp3": {
+      "bytes": 17136,
+      "sha1": "220b4ef0c69cc0001fe66e86b59af219305cb7d2"
+    },
     "sound/hu.mp3": {
       "bytes": 23328,
       "sha1": "6c638e2c8343b776c2844ceb6bf2047b5462df9b"
@@ -87,10 +83,6 @@
     "sound/pt.mp3": {
       "bytes": 21312,
       "sha1": "d71940eaf68d0c16dd3a6412c69f857a93e79134"
-    },
-    "sound/ru.mp3": {
-      "bytes": 23184,
-      "sha1": "a3d777872226fb32735d734eed04f04dc359d0db"
     }
   }
 }

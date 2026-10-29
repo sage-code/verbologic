@@ -4,36 +4,37 @@
   "chapter": "LT01",
   "topic": "LT01T05",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T05:L677",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "Phrase stress in greetings"
+      "name": "Greeting phrase stress"
     },
     "es": {
-      "name": "Acentuación de frases"
+      "name": "Acento en el saludo"
     },
     "it": {
-      "name": "Accento di frase"
+      "name": "Accento del saluto"
     },
     "fr": {
-      "name": "Accent de phrase"
+      "name": "Accent de salutation"
     },
     "de": {
-      "name": "Phrasenakzent"
+      "name": "Betonung der Begrüßung"
     },
     "ru": {
-      "name": "Фразовое ударение"
+      "name": "Ударение в приветствии"
     },
     "hu": {
-      "name": "Mondathangsúly"
+      "name": "Köszönés hangsúlyozása"
     },
     "pt": {
-      "name": "Acento frásico"
+      "name": "Acento da saudação"
     },
     "ro": {
-      "name": "Accentul frazei"
+      "name": "Accentul în salut"
     }
   },
   "files": {
@@ -41,37 +42,9 @@
       "bytes": 456048,
       "sha1": "e8b0624c9a024f356c869242c8c1f0710de8be3f"
     },
-    "read/de.mp3": {
-      "bytes": 516096,
-      "sha1": "33463079760949ce598a0d721009206e6fe6e81f"
-    },
     "read/ro.mp3": {
       "bytes": 493344,
       "sha1": "e652a75441fe5f330e55a7cb7a8a46f71f6ce955"
-    },
-    "read/it.mp3": {
-      "bytes": 453888,
-      "sha1": "e244bb444531db906b98dc6926ff0a15c2444abd"
-    },
-    "read/fr.mp3": {
-      "bytes": 468000,
-      "sha1": "404e409a3c0fe5bd5925761039091fbc1e2967d6"
-    },
-    "read/es.mp3": {
-      "bytes": 492336,
-      "sha1": "ebdee22514905ce3c83516adfd0bf9bea4b1c57d"
-    },
-    "read/ru.mp3": {
-      "bytes": 507168,
-      "sha1": "5f028701c5239701e78cf218731c6d0158e30488"
-    },
-    "read/hu.mp3": {
-      "bytes": 544464,
-      "sha1": "909bf7e3d2dd1b5959300e13847256c883e509a6"
-    },
-    "read/pt.mp3": {
-      "bytes": 508176,
-      "sha1": "ed942d02b8f16dfaf757b41d52a6cfcc3b61bbb7"
     }
   },
   "readSections": {
@@ -80,45 +53,10 @@
       25.562,
       52.5
     ],
-    "de": [
-      0,
-      30.262,
-      58.438
-    ],
     "ro": [
       0,
       28,
       55.225
-    ],
-    "it": [
-      0,
-      26.462,
-      51.537
-    ],
-    "fr": [
-      0,
-      27.137,
-      52.638
-    ],
-    "es": [
-      0,
-      27.875,
-      55.237
-    ],
-    "ru": [
-      0,
-      29.962,
-      58.775
-    ],
-    "hu": [
-      0,
-      32.112,
-      62.912
-    ],
-    "pt": [
-      0,
-      29.438,
-      57.55
     ]
   }
 }

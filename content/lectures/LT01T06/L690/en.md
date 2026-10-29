@@ -4,7 +4,7 @@ topic: LT01T06
 article: L690
 locale: en
 title: "Romanian Quotation Marks"
-summary: "Romanian quotation marks open low on the line and close high at the top."
+summary: "Learn how Romanian quotation marks sit on the line and how to change your voice when reading them."
 status: draft
 entity_id: "LT01T06:L690"
 order: 7
@@ -17,21 +17,17 @@ terms:
   ru: "румынские кавычки"
   hu: "román idézőjelek"
   pt: "aspas romenas"
-  ro: "ghilimelele românești"
+  ro: "ghilimele românești"
 ---
 
-## The quote pattern
+## The sound
+Quotation marks show someone is speaking. They do not make a sound by themselves. Instead, they guide your tone. Your voice pauses slightly before quoted speech. Then your pitch changes to show spoken words. Listen to the greeting „(bună) /bu.ˈnə/!”. Your voice sounds bright and friendly here.
 
-In Romanian text, direct speech begins with low marks and ends with high marks. The opening mark sits at the bottom of the line like two small commas. The closing mark sits high above the letters. When you see these signs, you know someone is talking. They show dialogue in stories, articles, and school books. Understanding this visual pattern helps you read Romanian texts smoothly.
+## How to say it
+Pause briefly when you see the opening quote. Drop your voice slightly before the quote starts. Raise your pitch inside the quote to sound lively. For „(da) /da/”, push clear air through your open mouth. Stress the quoted word clearly. Lower your pitch again after the closing quote.
 
-## Voice, mouth, and stress
+## Reading rules
+Look closely at the marks on the page. The opening quote sits low on the baseline. It looks like two tiny commas. The closing quote sits high at the top. It looks like two raised apostrophes. Read „(pa) /pa/” with quotes around it to show a clear goodbye.
 
-When you read aloud, quotation marks change your voice. You should pause briefly before the opening quote starts. Your tone often rises slightly to show a new person is speaking. Inside the quote, keep your vowels clean and clear. Round your lips firmly for rounded sounds. Relax your jaw for neutral central vowels. Let your stress fall clearly on the correct syllable of each word.
-
-## Reading the example aloud
-
-Look at this friendly Romanian greeting: **„Bună!”** /bu.ˈnə/. Notice how the first quote sits low and the second sits high. For the first syllable, push your lips forward into a round circle to make /u/. Put strong stress on this first part of the word. Then, relax your mouth and keep your tongue neutral in the center for /ə/. Your pitch stays warm and lively until the end.
-
-## Common mistakes to avoid
-
-Many English speakers expect quotation marks to sit high at both ends. Do not write a high mark at the start of a Romanian quote. When reading aloud, do not skip the tiny pause before direct speech begins. Avoid reading quoted words in a flat, monotone voice. Use a brighter pitch so your listener understands that someone is speaking directly.
+## Common mistakes
+Do not place the opening quote up high. It always sits down at the bottom line. Do not read quoted words in a flat voice. A flat tone sounds like a robotic list. Give the quoted word real life with your pitch. Pause at the marks to let the listener breathe.

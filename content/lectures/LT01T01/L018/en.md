@@ -20,18 +20,18 @@ terms:
   ro: "O"
 ---
 
-## Sound of the letter
+## Letter sound
 
-The letter is called /o/, that is the full vowel. It represents the sound /o/, that is the full vowel, heard in the word (om) /om/, which means man, human. This letter has two sounds in Romanian.
+The letter name is the sound /o/, that is a pure full vowel. Its main sound is heard in the word (om) /om/, which means man or human. This Romanian letter has two sounds altogether.
 
-## How to say it
+## Pronunciation guide
 
-For the full vowel, pull your tongue slightly back and round your lips into an open circle. Vibrate your vocal cords with steady air. For the gliding sound, round your lips more tightly and glide instantly into the following vowel without pausing. Place a hand on your throat to feel the voice buzz steadily throughout.
+For the full vowel, pull your tongue back and round your lips into an open circle. Let your vocal cords vibrate steadily. For the gliding sound, round your lips tightly and slide quickly into the next vowel. Place your hand on your throat to feel the strong vibration.
 
-## Reading and writing
+## Spelling rules
 
-This letter usually represents the sound /o/, that is the full vowel. You can hear it in (copil) /koˈpil/. Before another vowel, it becomes the gliding sound /o̯/, that is a short glide. You can hear this glide in (soare) /ˈso̯a.re/ and in (noapte) /ˈno̯ap.te/.
+In most positions, the letter makes the sound /o/, that is a pure full vowel. You can hear this sound in (copil) /koˈpil/. Before another vowel, it turns into a quick gliding sound /o̯/, that is a short semivowel. You can hear this glide in (soare) /ˈso̯a.re/.
 
 ## Common mistakes
 
-English speakers often turn this vowel into a double sound like in boat. Keep your jaw still and do not slide toward an oo sound. For the glide, do not make a heavy English w sound like in water. Keep the movement light, short and closely tied to the next vowel.
+English speakers often turn this vowel into a diphthong, like the sound in boat or go. Keep your lips and jaw completely still until the sound finishes. Do not add a glide at the end.

@@ -4,30 +4,30 @@ topic: LT01T06
 article: L683
 locale: en
 title: "Falling Tone in Statements"
-summary: "When you speak a normal statement in Romanian, your voice pitch drops downward on the final syllables."
+summary: "Your voice drops at the end of a regular Romanian statement to show you finished speaking."
 status: draft
 entity_id: "LT01T06:L683"
 order: 0
 terms:
-  en: "falling intonation"
-  es: "entonación descendente"
-  it: "intonazione discendente"
-  fr: "intonation descendante"
-  de: "fallende Intonation"
-  ru: "нисходящая интонация"
-  hu: "ereszkedő hanglejtés"
-  pt: "entonação descendente"
-  ro: "intonație descendentă"
+  en: "falling intonation in statements"
+  es: "entonación descendente enunciativa"
+  it: "intonazione discendente dichiarativa"
+  fr: "intonation descendante déclarative"
+  de: "fallende Intonation bei Aussagen"
+  ru: "нисходящая интонация в утверждениях"
+  hu: "kijelentő ereszkedő hanglejtés"
+  pt: "entonação descendente declarativa"
+  ro: "intonație descendentă enunțiativă"
 ---
 
-## The falling pattern
-In Romanian, everyday statements share a regular melody. A statement gives information rather than asking a question. When you finish an idea, your voice does not stay high. Instead, the musical pitch slides downward toward the floor. This dropping tone tells the listener that your sentence is complete. If you keep your voice level, the sentence feels unfinished. Dropping the pitch at the very end makes your speech sound natural, confident, and polite.
+## The sound
+In Romanian, a statement finishes on a low musical note. Your voice stays level during the sentence. Then, your voice slides down on the last word. Listen to (sunt) /ˈsunt/ (român) /roˈmɨn/, which means I am Romanian. The pitch drops clearly on the last beat.
 
-## How your pitch moves
-You do not need to whisper or drop your volume to finish a sentence. Keep your breath steady from your chest until the end. As you say the stressed syllable near the end, your voice reaches a clear peak. Right after that peak, relax your vocal cords slightly to drop the pitch. The very last syllable should have the lowest pitch in the whole sentence. Your jaw and lips simply stay relaxed as the sound fades cleanly.
+## How to say it
+Start speaking at a relaxed, medium pitch. Keep your tone steady on the first words. Find the last stressed syllable in the sentence. Let your voice fall gently to a low pitch. Relax your throat and chest as you finish. Say (român) /roˈmɨn/ with a falling slide.
 
-## Listening to the example
-Listen carefully to the model sentence: **Sunt român.** /ˈsunt roˈmɨn/. The first word begins at a comfortable, neutral pitch. On the second word, the strongest stress lands on the final vowel. You push slightly more air for this stressed vowel, then immediately let your pitch drop low. You do not slide the pitch upward like a question. The tone hits the bottom cleanly, showing that the thought is finished.
+## Reading rules
+Look at the punctuation mark at the end. A period shows a complete idea and a falling tone. You drop your voice on statements. You also drop your voice when answering with (da) /ˈda/, which means yes. Only rise if you see a question mark. Otherwise, always glide down at the end.
 
-## Common mistakes to avoid
-English speakers often raise their pitch at the end of sentences when they feel unsure. This habit is called uptalk. If you raise your tone at the end of a Romanian statement, people will think you are asking a question. Another mistake is dropping your volume so low that the final word disappears. Keep your vocal energy steady while only dropping the pitch. Practice gliding your voice down like an elevator arriving at the ground floor.
+## Common mistakes
+Do not raise your voice at the end. A rising pitch makes a statement sound like a question. Do not drop your pitch too early either. Keep the pitch flat until the final stressed part. Finish firmly so the listener knows you are done.

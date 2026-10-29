@@ -52,14 +52,16 @@ export function phoneticEntry(lang: string, code: string): PhoneticEntry | null 
  * `phonetic: true` on a `directional` topic — `target` is the one language
  * whose sounds they teach.
  */
-export function phoneticTopic(topicCode: string): { code: string; target: string } | null {
+export function phoneticTopic(topicCode: string): { code: string; target: string | null } | null {
   const { all } = useSidebars()
   for (const sidebar of all()) {
     for (const section of sidebar.sections) {
       for (const topic of section.topics) {
         if (topic.code !== topicCode) continue
-        if (topic.phonetic !== true || topic.mode !== 'directional' || !topic.target) return null
-        return { code: topic.code, target: topic.target }
+        if (topic.phonetic !== true || topic.mode !== 'directional') return null
+        // `target` is null when the topic serves every language (each item
+        // names its own language in its manifest).
+        return { code: topic.code, target: topic.target ?? null }
       }
     }
   }

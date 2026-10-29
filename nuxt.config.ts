@@ -83,6 +83,13 @@ export default defineNuxtConfig({
   compatibilityDate: '2026-09-09',
   devtools: { enabled: true },
 
+  // No separate _payload.json per prerendered route: each page inlines its own
+  // payload. Halves the static asset count, which must stay under the Workers
+  // Free limit of 20,000 files per version (planning/content-in-database.md).
+  experimental: {
+    payloadExtraction: false
+  },
+
   // Full static-site generation: `nuxt generate` pre-renders every route.
   ssr: true,
   nitro: {

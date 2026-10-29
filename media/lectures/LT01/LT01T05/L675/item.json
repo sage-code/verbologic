@@ -4,36 +4,37 @@
   "chapter": "LT01",
   "topic": "LT01T05",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T05:L675",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "weak joining"
+      "name": "pronunciation of într-o"
     },
     "es": {
-      "name": "enlace débil"
+      "name": "pronunciación de într-o"
     },
     "it": {
-      "name": "legamento debole"
+      "name": "pronuncia di într-o"
     },
     "fr": {
-      "name": "liaison faible"
+      "name": "prononciation de într-o"
     },
     "de": {
-      "name": "schwache Verbindung"
+      "name": "Aussprache von într-o"
     },
     "ru": {
-      "name": "слабое слияние"
+      "name": "произношение într-o"
     },
     "hu": {
-      "name": "gyenge összekapcsolás"
+      "name": "az într-o kiejtése"
     },
     "pt": {
-      "name": "ligação fraca"
+      "name": "pronúncia de într-o"
     },
     "ro": {
-      "name": "rostire legată slabă"
+      "name": "pronunțarea lui într-o"
     }
   },
   "files": {
@@ -44,34 +45,6 @@
     "read/ro.mp3": {
       "bytes": 567504,
       "sha1": "a2912e36a20d26cdc8af1a85adf204e67a19d8f7"
-    },
-    "read/de.mp3": {
-      "bytes": 585936,
-      "sha1": "0897dcbdb8875592e7cf94dd345732cecf650a40"
-    },
-    "read/fr.mp3": {
-      "bytes": 494352,
-      "sha1": "d8b346954f78ba2d8718f3c811325b1384ef8a4c"
-    },
-    "read/it.mp3": {
-      "bytes": 526464,
-      "sha1": "643060eb13da63c8ed9bb668ccd91da1a9d25810"
-    },
-    "read/es.mp3": {
-      "bytes": 540288,
-      "sha1": "783d16d9598c80e30cd625b312931cb15dc073ac"
-    },
-    "read/hu.mp3": {
-      "bytes": 612000,
-      "sha1": "284474772caee38595d4dd456391c3f558ec87d5"
-    },
-    "read/ru.mp3": {
-      "bytes": 591264,
-      "sha1": "d82673f86eb90fd9e33f2de426de30075cb74677"
-    },
-    "read/pt.mp3": {
-      "bytes": 455184,
-      "sha1": "f564277353622eab894b7a1c431941108e942736"
     }
   },
   "readSections": {
@@ -86,48 +59,6 @@
       24.438,
       49.175,
       71.875
-    ],
-    "de": [
-      0,
-      24.988,
-      49.75,
-      73.862
-    ],
-    "fr": [
-      0,
-      21.9,
-      42.775,
-      63.712
-    ],
-    "it": [
-      0,
-      22.262,
-      44.525,
-      66.062
-    ],
-    "es": [
-      0,
-      23.075,
-      47.337,
-      68.513
-    ],
-    "hu": [
-      0,
-      27.238,
-      54.55,
-      78.475
-    ],
-    "ru": [
-      0,
-      25.688,
-      50.987,
-      74.713
-    ],
-    "pt": [
-      0,
-      24.125,
-      48.2,
-      70.388
     ]
   }
 }

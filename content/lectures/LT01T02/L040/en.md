@@ -20,18 +20,18 @@ terms:
   ro: "ei"
 ---
 
-## The group ei
+## The sound ei
 
-This letter pair is called /ej/. Its main sound is the diphthong /ej/, heard in the word (trei) /trej/, which means three. In Romanian, this spelling represents two different pronunciations depending on the syllable structure.
+The letters ei sound like the sound /ej/. You hear this in the word (trei) /trej/, which means three. This letter combination makes two different sounds in Romanian words.
 
-## How to say it
+## Mouth movements
 
-For the diphthong, start with the mid front vowel and glide swiftly upward toward a tense front sound. The lips stay relaxed and unrounded throughout. For the sequence in hiatus, pronounce two clearly separate vowel beats. Put your hand on your neck to feel the continuous vocal cord vibration across both sounds.
+For the first sound, start with your mouth half open and your tongue forward. Glide quickly into a short, high tongue position. For the second sound, make the first vowel clearly, and then make a full second vowel. You can feel your voice box vibrate continuously throughout both sounds.
 
-## Spelling rules
+## Reading the letters
 
-Within a single syllable, this combination forms a falling diphthong pronounced as the sound /ej/, as in (lei) /lej/. When split across two separate syllables in hiatus, both vowels are pronounced distinctly as the sound /e.i/, as shown in the plural word (atei) /aˈte.i/.
+In one syllable, the letters make the sound /ej/, as in (lei) /lej/. Across two syllables, each letter has its own beat, making the sound /e.i/. You hear this split sound in the word (atei) /aˈte.i/.
 
 ## Common mistakes
 
-English speakers often draw out the diphthong into the long sound of words like day or say. Keep the first vowel crisp and short before the glide. In hiatus, do not merge the two vowels into a single sound. Keep both beats separate without inserting a heavy consonant between them.
+Do not make the long English sound heard in the word say. Keep the first part crisp, and glide rapidly. When the vowels sit in separate syllables, do not blend them together into one syllable.

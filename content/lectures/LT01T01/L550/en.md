@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L550
+locale: en
+title: "X"
+summary: ""
+status: draft
+entity_id: "LT01T01:L550"
+order: 313
+terms:
+  en: "X"
+  es: "X"
+  it: "X"
+  fr: "X"
+  de: "X"
+  ru: "X"
+  hu: "X"
+  pt: "X"
+  ro: "X"
+---
+
+## Letter sound
+
+The letter (xis) /ʃis/ is called (xis) /ʃis/. Its main sound is the sound /ʃ/, as in the word (xadrez) /ʃɐˈdɾeʃ/, which means chess. This letter can make four different sounds.
+
+## How to say it
+
+For the first sound, push your lips forward and blow gently without voice. For the second sound, rest your tongue tip behind your upper teeth and hum. For the third sound, blow air through your closed front teeth without your voice. For the fourth sound, stop the airflow briefly and release it into a hiss. Feel your vocal cords buzz only on the second sound.
+
+## Reading rules
+
+At the start of a word or after two vowels together, say the sound /ʃ/, as in (caixa) /ˈkaj.ʃɐ/. When the prefix ex comes before a vowel, make the sound /z/, as in (exame) /iˈzɐ.mɨ/. In words like (próximo) /ˈpɾɔ.si.mu/, pronounce the sound /s/. In learned words between vowels, say the sound /ks/, as in (táxi) /ˈta.ksi/.
+
+## Common mistakes
+
+Do not always pronounce this letter as the sound in box. At the start of words, use the soft hush of shoe instead. In common prefix words, avoid the sharp hiss of snake and use the buzzing hum of zero. Keep your tongue relaxed so you do not add extra vowel sounds.

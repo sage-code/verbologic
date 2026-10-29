@@ -3,31 +3,54 @@ track: lectures
 topic: LT01T05
 article: L668
 locale: en
-title: "Short Forms: n-am"
-summary: "In natural Romanian speech, the words nu and am merge into the single syllable n-am."
+title: "Short Forms: Saying n-am"
+summary: "Learn how Romanian shortens nu am to n-am in fast speech and how to pronounce it smoothly."
 status: draft
 entity_id: "LT01T05:L668"
 order: 3
 terms:
-  en: "short forms"
-  es: "formas cortas"
-  it: "forme contratte"
-  fr: "formes courtes"
-  de: "Kurzformen"
-  ru: "краткие формы"
-  hu: "rövid alakok"
-  pt: "formas curtas"
-  ro: "forme scurte"
+  en: "contraction"
+  es: "contracción"
+  it: "elisione"
+  fr: "élision"
+  de: "Elision"
+  ru: "стяжение"
+  hu: "összevonás"
+  pt: "elisão"
+  ro: "eliziune"
 ---
 
-## The Short Form Pattern
-In Romanian, small words often join together during everyday speech. The negative word **nu** means not. The verb **am** means I have. When people speak quickly, these two words connect. The vowel **u** disappears completely. A hyphen replaces the missing letter in writing. Instead of two separate beats, you hear one quick syllable. This contraction is very common in daily conversations. It makes sentences flow smoothly without stopping between tiny words.
+## The sound
+People often speak fast.
+Two words join together into one quick beat.
+You take (nu) /nu/, which means not.
+You add (am) /am/, which means I have.
+They join together into (n-am timp) /nam tʲimp/.
+This phrase means I do not have time.
+The vowel sound drops completely.
 
-## How to Say n-am
-Start by placing the tip of your tongue behind your upper teeth for the sound /n/. Open your mouth wide right away for the vowel /a/. Do not pause at the hyphen. The hyphen is only a written sign. Slide directly from /n/ into the vowel. Finish by closing both lips gently for /m/. The main stress lands squarely on /a/. Say the whole piece as a single musical beat with an even tone.
+## How to say it
+Start with your lips open.
+Press the tip of your tongue behind your top front teeth.
+Make a humming sound through your nose.
+Drop your tongue at once and open your mouth wide.
+Finish with closed lips.
+Say (n-am timp) /nam tʲimp/ without any break.
+Keep the flow smooth.
 
-## Practicing the Example
-Listen closely to the audio example **n-am timp** /nam tʲimp/. This short sentence means I do not have time. The word **timp** means time. Notice how the voice moves steadily forward. You should hear only two main beats in the entire phrase. The first beat is **n-am**, and the second beat is **timp**. The voice stays relaxed and drops slightly at the end of the sentence.
+## Reading rules
+Look at the spelling.
+A hyphen joins the first letter to the next word.
+The hyphen shows that a vowel is gone.
+Do not pause at the hyphen.
+Read the parts together.
+Say (n-am timp) /nam tʲimp/ with steady speed.
+Your voice stays smooth and moves forward quickly.
 
-## Common Mistakes to Avoid
-English speakers often pause when they see a hyphen in print. Never stop your voice between the letter n and the vowel. Another common mistake is trying to whisper the missing letter u. That vowel is completely gone, so do not say *nu-am*. Treat the written contraction as if it were spelled like a normal single word. Keep your tongue relaxed and let the sound flow forward without any hesitation.
+## Common mistakes
+Do not stop in the middle.
+Some learners pause where they see the hyphen.
+Do not make two separate beats.
+Never insert a tiny break between the sounds.
+Keep your voice rolling across the words.
+Treat the first part like the English word 'numb', but open your mouth wider.

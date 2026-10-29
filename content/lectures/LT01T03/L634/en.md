@@ -4,7 +4,7 @@ topic: LT01T03
 article: L634
 locale: en
 title: "Stress Is Not Written"
-summary: "Romanian letters do not show stress, so you must listen carefully and check dictionaries to learn it."
+summary: "Romanian letters do not mark stress, so you must use audio and dictionaries to find the strong syllable."
 status: draft
 entity_id: "LT01T03:L634"
 order: 7
@@ -12,19 +12,22 @@ terms:
   en: "unmarked stress"
   es: "acento no escrito"
   it: "accento non scritto"
-  fr: "accent tonique non écrit"
-  de: "unbezeichneter Akzent"
+  fr: "accent non écrit"
+  de: "unbezeichnete Betonung"
   ru: "необозначенное ударение"
-  hu: "jelöletlen hangsúly"
+  hu: "nem jelölt hangsúly"
   pt: "acento não marcado"
-  ro: "accentul nescris"
+  ro: "accent nescris"
 ---
 
-## Stress is hidden in spelling
-In Romanian, letters never wear little accent marks to show where the voice should be loud. When you read a word, the strong beat is a secret hidden inside the spelling. Because there are no visual clues on the page, you cannot simply guess which syllable to hit. To find the secret loud beat, you must listen to audio recordings or look up the word in a learner's dictionary. The dictionary uses a tiny mark before the strong sound to guide your voice.
+## The sound
+In every word, one syllable is stronger. You give it more power. You say it slightly louder and longer. Listen to (limbă) /ˈlim.bə/, which means language. The first part is strong. The voice falls on the second part. Stress gives the word its natural rhythm.
 
-## How to make the stressed beat
-When your voice hits the strong syllable, push more air out from your belly and lungs. Open your mouth a little wider and let your jaw drop comfortably. Your vocal cords tighten just enough to raise the musical pitch of your voice, making it sound slightly higher. Make this sound longer and clearer than the sounds around it. The weak syllables do not need much work; keep your mouth relaxed, make the sound short, and let your voice drop softly to a lower, quieter tone.
+## How to say it
+Open your mouth a little wider on the stressed syllable. Push more air from your lungs. Do not change the vowel sound. Keep every vowel clean and clear. For (copil) /koˈpil/, which means child, push air on the second syllable. Your tone rises slightly on the strong part, then drops softly.
 
-## Saying the example limbă
-Look at the word **limbă** /ˈlim.bə/, which means language. The dictionary places the stress mark right before the first part. Say "lim" with a strong push of breath, higher pitch, and a clear mouth shape. Then quickly finish with "bă", keeping your mouth soft and relaxed. English speakers often want to guess stress patterns or change vowels too much. In Romanian, always listen first so you do not stress the wrong beat, and keep each vowel shape clear even when soft.
+## Reading rules
+Standard letters never show where the stress goes. You cannot see a stress mark in normal texts. Because of this, you must listen carefully. You can also check a good dictionary. Dictionaries mark the strong vowel for you. Always learn a new word together with its sound.
+
+## Common mistakes
+Do not guess the stress pattern. Many learners stress the wrong syllable. If you say (limbă) /ˈlim.bə/ with stress at the end, it sounds wrong. Do not look for written accent marks on the page. Instead, rely on audio recordings. Train your ears to catch the beat every time.

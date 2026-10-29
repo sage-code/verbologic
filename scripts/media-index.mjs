@@ -163,6 +163,9 @@ function localizeItem(item, path, locale) {
     images: images.length ? images : null,
     tags: item.tags ?? [],
     topic: item.topic,
+    // The ONE language a directional item teaches (letters, article lessons):
+    // its manifest names every locale, but only `target` gets a record.
+    target: item.target ?? null,
     entity_id: `${item.topic}:${item.code}`,
     description: row.description ?? null,
     context: row.context ?? null,
@@ -329,15 +332,21 @@ for (const sidebar of sidebars) {
       //
       // This replaces the old `sourceLang` / `langs` pair: both meant "about one
       // language", which is exactly what `mode: 'directional'` + `target` says.
-      const scope =
-        topic.mode === 'directional' && topic.target ? new Set([topic.target]) : null
+      //
+      // A directional topic normally has NO `target` of its own: one topic list
+      // serves every language (the same chapter, the same topics) and each item
+      // names the language it teaches in its manifest's `target`. A topic-level
+      // `target` still wins when present.
+      const topicScope =
+        topic.mode === 'directional' && topic.target ? topic.target : null
       for (const id of topic.items) {
         const manifests =
           manifestsByTopicId.get(`${topic.code}\n${id}`) ??
           manifestsByLegacyId.get(`${topic.code}\n${id}`)
         if (manifests?.length) {
           for (const { manifest } of manifests) {
-            if (scope && !scope.has(manifest.lang)) continue
+            const only = topicScope ?? (topic.mode === 'directional' ? manifest.target : null)
+            if (only && manifest.lang !== only) continue
             records.push(manifestRecord({ ...manifest, topic: topic.code }, sidebar.id))
           }
           continue

@@ -7,48 +7,39 @@
   "entity_id": "LT06T02",
   "locales": {
     "en": {
-      "name": "Second & third conjugation verbs (-ea & -e)",
-      "ipa": "/ˈsɛkənd ænd θɜːrd ˌkɑːndʒəˈɡeɪʃən vɜːrbz iː eɪ ænd iː/",
+      "name": "Regular verbs: second & third groups",
       "description": "This topic covers the learning material for topic LT06T02."
     },
     "ro": {
-      "name": "Verbe de conjugarea a II-a și a III-a",
-      "ipa": "/ˈverbe de konʒuˈɡare̯a a ˈdow̯a ʃi a ˈtreja/",
+      "name": "Verbe regulate: al doilea și al treilea grup",
       "description": "Acest subiect acoperă materialul de învățare pentru tema LT06T02."
     },
     "de": {
-      "name": "Verben der zweiten & dritten Konjugation (-ea & -e)",
-      "ipa": "/ˈvɛʁbn̩ deːɐ̯ ˈtsvaɪ̯tn̩ ʊnt ˈdʁɪtn̩ kɔnjuɡaˈtsi̯oːn eːˈaː ʊnt eː/",
+      "name": "Regelmäßige Verben: zweite & dritte Gruppe",
       "description": "Dieses Thema behandelt den Lernstoff für das Thema LT06T02."
     },
     "ru": {
-      "name": "Глаголы второго и третьего спряжения (-ea и -e)",
-      "ipa": "/ɡɫɐˈɡoɫɨ ftɐˈrovə i ˈtrʲetʲjəvə sprʲɪˈʐɛnʲɪjə ea i e/",
+      "name": "Правильные глаголы: вторая и третья группы",
       "description": "Эта тема охватывает учебный материал для темы LT06T02."
     },
     "it": {
-      "name": "Verbi della seconda e terza coniugazione (-ea e -e)",
-      "ipa": "/ˈvɛrbi ˈdella seˈkonda e ˈtɛrtsa konjuɡatˈtsjoːne ea e e/",
+      "name": "Verbi regolari: secondo e terzo gruppo",
       "description": "Questo argomento tratta il materiale didattico per l'argomento LT06T02."
     },
     "es": {
-      "name": "Verbos de la segunda y tercera conjugación (-ea y -e)",
-      "ipa": "/ˈbeɾβos de la seˈɣunda i teɾˈθeɾa konxuɣaˈθjon ea i e/",
+      "name": "Verbos regulares: segundo y tercer grupo",
       "description": "Este tema cubre el material de aprendizaje para el tema LT06T02."
     },
     "fr": {
-      "name": "Verbes du deuxième et troisième groupe (-ea et -e)",
-      "ipa": "/vɛʁb dy døˈzjɛm e tʁwaˈzjɛm ɡʁup ea e e/",
+      "name": "Verbes réguliers : deuxième et troisième groupes",
       "description": "Ce sujet couvre le matériel d'apprentissage pour le thème LT06T02."
     },
     "hu": {
-      "name": "Második és harmadik ragozási osztályú igék (-ea és -e)",
-      "ipa": "/ˈmaːʃodik eːʃ ˈhɒrmɒdik ˈrɒɡozaːʃi ˈostaːjuː ˈiɡeːk ea eːʃ eː/",
+      "name": "Szabályos igék: második és harmadik csoport",
       "description": "Ez a témakör a(z) LT06T02 témakör tananyagát fedi le."
     },
     "pt": {
-      "name": "Verbos da segunda e terceira conjugação (-ea e -e)",
-      "ipa": "/ˈvɛɾbuʒ dɐ sɨˈɡũdɐ i tɨɾˈsɐjɾɐ kõʒuɡɐˈsɐ̃w̃ ea i e/",
+      "name": "Verbos regulares: segundo e terceiro grupos",
       "description": "Este tópico cobre o material de aprendizagem para o tópico LT06T02."
     }
   },
@@ -56,41 +47,41 @@
     "title#topic"
   ],
   "files": {
-    "sound/it.mp3": {
-      "bytes": 27648,
-      "sha1": "95964e4befd33e69d5f42ff8bb2b2c90d501fc5d"
-    },
-    "sound/de.mp3": {
-      "bytes": 26928,
-      "sha1": "179d9f6958237fb849a873c6f9e94c3a626e3ab0"
+    "sound/en.mp3": {
+      "bytes": 22464,
+      "sha1": "6a2f44394e1d75a32b0836826eb252b3323a3c55"
     },
     "sound/ro.mp3": {
       "bytes": 19728,
       "sha1": "657022be60ccabc06b5940aa43247e1c8fa89efc"
     },
+    "sound/de.mp3": {
+      "bytes": 26928,
+      "sha1": "179d9f6958237fb849a873c6f9e94c3a626e3ab0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 26640,
+      "sha1": "2082409b8720e5de774f4f99ce06d6b4879d4a41"
+    },
+    "sound/it.mp3": {
+      "bytes": 27648,
+      "sha1": "95964e4befd33e69d5f42ff8bb2b2c90d501fc5d"
+    },
     "sound/es.mp3": {
       "bytes": 25488,
       "sha1": "f9fffefff6daa58f7b56c2ccd348e76c49f972f6"
-    },
-    "sound/fr.mp3": {
-      "bytes": 20016,
-      "sha1": "4f16ddeb17420fbd225d3a48f80d924bd1dd73bf"
-    },
-    "sound/pt.mp3": {
-      "bytes": 23328,
-      "sha1": "9e9c0311f810e43292b738b078008cedda3ce87f"
     },
     "sound/hu.mp3": {
       "bytes": 26784,
       "sha1": "8211eb9afc1a6da0fd392666bb26e4bcfd6501f0"
     },
-    "sound/en.mp3": {
-      "bytes": 22464,
-      "sha1": "6a2f44394e1d75a32b0836826eb252b3323a3c55"
+    "sound/pt.mp3": {
+      "bytes": 23328,
+      "sha1": "9e9c0311f810e43292b738b078008cedda3ce87f"
     },
-    "sound/ru.mp3": {
-      "bytes": 26640,
-      "sha1": "2082409b8720e5de774f4f99ce06d6b4879d4a41"
+    "sound/fr.mp3": {
+      "bytes": 20016,
+      "sha1": "4f16ddeb17420fbd225d3a48f80d924bd1dd73bf"
     }
   }
 }

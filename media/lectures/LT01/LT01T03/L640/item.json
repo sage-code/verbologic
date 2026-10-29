@@ -4,36 +4,37 @@
   "chapter": "LT01",
   "topic": "LT01T03",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T03:L640",
   "cefr": "A1",
   "tags": [],
   "locales": {
     "en": {
-      "name": "Feminine adjective stress"
+      "name": "Feminine adjective stress shift"
     },
     "es": {
-      "name": "Acento en adjetivos femeninos"
+      "name": "Desplazamiento acentual femenino"
     },
     "it": {
-      "name": "Accento negli aggettivi femminili"
+      "name": "Spostamento d'accento femminile"
     },
     "fr": {
-      "name": "Accent des adjectifs féminins"
+      "name": "Déplacement d'accent au féminin"
     },
     "de": {
-      "name": "Betonung weiblicher Adjektive"
+      "name": "Betonungswechsel bei Adjektiven"
     },
     "ru": {
-      "name": "Ударение в женском роде"
+      "name": "Перемещение ударения в женском роде"
     },
     "hu": {
-      "name": "Hangsúly nőnemű melléknevekben"
+      "name": "Nőnemű hangsúlyeltolódás"
     },
     "pt": {
-      "name": "Acento nos adjetivos femininos"
+      "name": "Deslocamento de acento feminino"
     },
     "ro": {
-      "name": "Accentul la adjective feminine"
+      "name": "Deplasarea accentului la feminin"
     }
   },
   "files": {
@@ -41,93 +42,23 @@
       "bytes": 507168,
       "sha1": "254117eab742bca436d1804593d9896d334ca9f4"
     },
-    "read/de.mp3": {
-      "bytes": 608688,
-      "sha1": "a48194e3e1ad134f3da741de869c39c16a5fab1d"
-    },
     "read/ro.mp3": {
       "bytes": 612432,
       "sha1": "8ed34dc8992c55c231fa227fefefa1f2a8ff4f1a"
-    },
-    "read/es.mp3": {
-      "bytes": 545328,
-      "sha1": "e72a3238f60eefe58a97f4568f0d95d056024252"
-    },
-    "read/fr.mp3": {
-      "bytes": 521568,
-      "sha1": "a9e3e2cf3800b88b63fde239eb5eadf18089db50"
-    },
-    "read/it.mp3": {
-      "bytes": 506880,
-      "sha1": "5af2d20874d6591743810a3e70cd9cc9bd6bbe2a"
-    },
-    "read/hu.mp3": {
-      "bytes": 634464,
-      "sha1": "e48b8db52c371d19acdb2af2a3f65aa9cba71c99"
-    },
-    "read/pt.mp3": {
-      "bytes": 587952,
-      "sha1": "3f4311829464f264e96ab3e7c1bed69214e24c9b"
-    },
-    "read/ru.mp3": {
-      "bytes": 645984,
-      "sha1": "a3d4745c142bac5dcb20b9838c7e00843b2a6025"
     }
   },
   "readSections": {
     "en": [
-      0.0,
+      0,
       21.038,
       42.362,
       64.387
     ],
-    "de": [
-      0.0,
-      26.337,
-      48.938,
-      75.838
-    ],
     "ro": [
-      0.0,
+      0,
       23.738,
       50.525,
       76.9
-    ],
-    "es": [
-      0.0,
-      23.887,
-      45.287,
-      69.825
-    ],
-    "fr": [
-      0.0,
-      21.462,
-      43.188,
-      66.438
-    ],
-    "it": [
-      0.0,
-      22.438,
-      42.737,
-      64.225
-    ],
-    "hu": [
-      0.0,
-      28.225,
-      52.95,
-      81.537
-    ],
-    "pt": [
-      0.0,
-      25.45,
-      47.425,
-      74.562
-    ],
-    "ru": [
-      0.0,
-      28.762,
-      53.675,
-      81.575
     ]
   }
 }

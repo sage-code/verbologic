@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L605
+locale: en
+title: "wr-"
+summary: "Letter name: wr-. Example: write."
+status: draft
+entity_id: "LT01T01:L605"
+order: 83
+terms:
+  en: "wr-"
+  es: "wr-"
+  it: "wr-"
+  fr: "wr-"
+  de: "wr-"
+  ru: "wr-"
+  hu: "wr-"
+  pt: "wr-"
+  ro: "wr-"
+---
+
+## The spelling wr
+
+The letters wr sound like /r/. Together they make the sound in the word (wrist) /rɪst/, meaning wrist. This letter group makes only one sound.
+
+## How to say wr
+
+Curl the tip of your tongue backward near the roof of your mouth. Do not let your tongue touch the roof. Round your lips a little bit. Push air out gently while your vocal cords vibrate. Put a hand on your throat to feel the strong vibration.
+
+## When wr sounds like r
+
+The letters wr appear at the beginning of words before a vowel. They always make the single sound /r/, as in the word (write) /raɪt/. Another example is the word (wrong) /rɒŋ/. The first letter is silent.
+
+## Common mistakes with wr
+
+Learners often try to pronounce the first letter before the second letter. Do not close your lips tightly or push out a puff of air. Only make one smooth sound with your tongue curled back, just like in red.

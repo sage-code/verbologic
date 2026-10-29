@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L526
+locale: en
+title: "Z"
+summary: ""
+status: draft
+entity_id: "LT01T01:L526"
+order: 289
+terms:
+  en: "Z"
+  es: "Z"
+  it: "Z"
+  fr: "Z"
+  de: "Z"
+  ru: "Z"
+  hu: "Z"
+  pt: "Z"
+  ro: "Z"
+---
+
+## Sound of letter zé
+
+The letter (zé) /zsɛ/ makes the main sound /z/. You hear it in the word (zöld) /ˈzøld/, which means green. This letter has two sounds in total.
+
+## How to say it
+
+For the first sound, place your tongue tip near the bump behind your top teeth. Push air through the narrow gap. Keep your vocal cords buzzing. Put a hand on your throat to feel the strong vibration. For the second sound, make the exact same mouth shape. Turn off your voice entirely. Your throat stops buzzing.
+
+## Spelling rules
+
+In most positions, the letter makes its voiced sound /z/. You hear this in (zene) /ˈzɛnɛ/. The letter becomes voiceless as the sound /s/ before a silent consonant. It also sounds like /s/ at the end of a word. You can hear this sound in the word (kéz) /ˈkeːz/.
+
+## Common mistakes
+
+Do not turn the voiced sound into an unvoiced hiss between vowels. In English, this letter can sound like the soft sound in measure. Hungarian never makes that sound here. Always keep it sharp like the buzzing sound in zebra.

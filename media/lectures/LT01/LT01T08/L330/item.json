@@ -2,9 +2,10 @@
   "code": "L330",
   "track": "lectures",
   "chapter": "LT01",
-  "topic": "LT01T08",
+  "topic": "LT01T02",
   "kind": "letter",
-  "entity_id": "LT01T08:L330",
+  "target": "en",
+  "entity_id": "LT01T02:L330",
   "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
@@ -66,94 +67,15 @@
     "read/en.mp3": {
       "bytes": 544176,
       "sha1": "aebe044d990f51d285b3d2fd13fab3d117595e13"
-    },
-    "read/fr.mp3": {
-      "bytes": 457920,
-      "sha1": "a1661f5eeb6ccb30b5b76b7909b0981fdbebab3d"
-    },
-    "read/it.mp3": {
-      "bytes": 461376,
-      "sha1": "a43ac78817b996f4fbdeb1a0775544dfe7347848"
-    },
-    "read/es.mp3": {
-      "bytes": 425808,
-      "sha1": "be0cda0e82154a92fb21e29d06e0c1e40af2b38a"
-    },
-    "read/pt.mp3": {
-      "bytes": 425664,
-      "sha1": "8f2d168d020a7452bb4259f46efa59d0b4eaf500"
-    },
-    "read/de.mp3": {
-      "bytes": 496512,
-      "sha1": "95eb88096e63426066954c137f57b4de442cbbbc"
-    },
-    "read/hu.mp3": {
-      "bytes": 478368,
-      "sha1": "932c18bae3c3377fbbaa585b29638ee5115e2f96"
-    },
-    "read/ro.mp3": {
-      "bytes": 277488,
-      "sha1": "c587a36b7cc149b6c233196c725ff8943071cfa5"
-    },
-    "read/ru.mp3": {
-      "bytes": 481392,
-      "sha1": "fb2cac76c023f99df9687fa566b48cd35a80a527"
     }
   },
   "readSections": {
-    "de": [
-      0,
-      23.262,
-      42.025,
-      63.188
-    ],
-    "it": [
-      0,
-      15.912,
-      36.038,
-      56
-    ],
-    "fr": [
-      0,
-      20.775,
-      39.825,
-      57.225
-    ],
-    "es": [
-      0,
-      15.1,
-      33.6,
-      51.675
-    ],
-    "pt": [
-      0,
-      17.938,
-      35.15,
-      51.537
-    ],
-    "ro": [
-      0,
-      5.85,
-      18.45,
-      37.537
-    ],
-    "hu": [
-      0,
-      20.375,
-      40.175,
-      59.2
-    ],
     "en": [
       0,
       24.913,
       44.65,
       69.35
-    ],
-    "ru": [
-      0,
-      16.975,
-      37.7,
-      56.388
     ]
-  }
+  },
+  "legacy_entity_id": "LT01T08:L330"
 }

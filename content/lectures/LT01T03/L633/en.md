@@ -4,30 +4,30 @@ topic: LT01T03
 article: L633
 locale: en
 title: "Stress on the Third-Last Syllable"
-summary: "Learn how long Romanian words use third-last syllable stress to create a clear and bouncing rhythm."
+summary: "Learn how to find and pronounce stress on the third-last syllable in Romanian words."
 status: draft
 entity_id: "LT01T03:L633"
 order: 6
 terms:
-  en: "antepenultimate stress"
-  es: "acento antepenúltimo"
-  it: "accento terzultimo"
-  fr: "accent antépénultième"
-  de: "Drittletzte Silbenbetonung"
-  ru: "антепенультимативное ударение"
-  hu: "hátulról harmadik szótag hangsúlya"
-  pt: "acento na antepenúltima sílaba"
-  ro: "accent pe antepenultima silabă"
+  en: "Antepenultimate stress"
+  es: "Acento antepenúltimo"
+  it: "Accento sulla terzultima sillaba"
+  fr: "Accent antépénultième"
+  de: "Betonung der drittletzten Silbe"
+  ru: "Ударение на третий слог"
+  hu: "Antepenultimális hangsúly"
+  pt: "Acento na antepenúltima sílaba"
+  ro: "Accent pe antepenultima silabă"
 ---
 
-## The third-last syllable beat
+## The sound
+You count syllables from the end of a word. In some words, you stress the third-last syllable. Listen to (muzică) /ˈmu.zi.kə/, which means music. Your voice climbs and sounds stronger on that part. The remaining syllables drop in power. This pattern gives long words a lively rhythm.
 
-In Romanian, words can have many parts called syllables. When a word grows long, the main vocal push often lands on the third-last syllable. This special spot is called the antepenultimate syllable. Placing the beat here gives Romanian speech its lively and bouncing melody. It keeps you from rushing through long words or dropping sounds at the finish line.
+## How to say it
+Open your mouth clearly on the stressed vowel. Push more air from your lungs. Make that syllable louder and slightly longer. Let your pitch rise a little bit. Then, relax your mouth for the final syllables. Do not stop the air between the parts. Keep the sound flowing smoothly to the very end.
 
-## How your mouth makes the sound
+## Reading rules
+Look at long words with care. Many words place the stress near the end. Notice the word (fotografie) /fo.to.ɡraˈfi.e/, which means photograph. Here, the strong beat lands near the end. However, other words pull the beat back to the third-last syllable. Listen closely to each word to learn its beat.
 
-To pronounce a long Romanian word, keep your jaw loose and your mouth relaxed. Let your vocal cords push a little more air on the stressed part so the pitch rises gently. Listen closely to the long word **fotografie** /fo.to.ɡraˈfi.e/, meaning photograph. Round your lips neatly for the vowels, tap your tongue, and let the voice float smoothly to the final sound.
-
-## Mistakes English speakers make
-
-English speakers often want to squeeze unstressed vowels into tiny, unclear mumbles. In Romanian, every single vowel must stay bright and distinct. Do not swallow the ending of **fotografie** /fo.to.ɡraˈfi.e/. Give each vowel its own clean shape. Also, avoid hitting the stressed syllable too hard like an English thud. Instead, keep your tone musical, light, and floating like a bright bell.
+## Common mistakes
+Do not stress every syllable with equal force. Give only one syllable the main beat. Do not push the stress too far forward. In (fotografie) /fo.to.ɡraˈfi.e/, keep the force on the correct part. Do not drop the final vowels completely. Keep your tongue relaxed and speak without rushing.

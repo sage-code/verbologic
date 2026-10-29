@@ -7,8 +7,10 @@
 // topic layout.
 <script setup lang="ts">
 import { ArrowPathIcon, CheckIcon } from '@heroicons/vue/20/solid'
-import { FolderIcon } from '@heroicons/vue/24/outline'
+import { EyeIcon, FolderIcon } from '@heroicons/vue/24/outline'
+import LegendDialog from '~/components/roadmap/LegendDialog.vue'
 import { useRoadmapStore, PROGRESS_KEY, type TopicRow } from '~/stores/roadmapStore'
+import { useLibraryStore } from '~/stores/libraryStore'
 import { mediaName } from '~/composables/useMedia'
 import { useTitles } from '~/composables/useTitles'
 import { useAudioQueue } from '~/composables/useAudioQueue'
@@ -23,6 +25,12 @@ const { languageName } = useNavigation()
 const copy = useCopy()
 const titles = useTitles()
 const titleQueue = useAudioQueue()
+const library = useLibraryStore()
+
+/** The legend modal (the open column's eye button). */
+const legendOpen = ref(false)
+/** Total credit for the active language — the legend's one figure. */
+const creditTotal = computed(() => library.activeFor(store.lang)?.creditsAllocated ?? 0)
 
 /** Title audio URL for one chapter, in the learning language (null = none yet). */
 const titleUrl = (code: string) => titles.media(code, store.lang)?.url ?? null
@@ -154,7 +162,18 @@ async function toggleScopeLearned() {
             <th class="hidden px-3 py-2 font-medium sm:table-cell">{{ copy('dictionary.col_id', 'File ID') }}</th>
             <th class="px-3 py-2 font-medium">{{ targetHeader }}</th>
             <th class="px-3 py-2 font-medium">{{ nativeHeader }}</th>
-            <th class="w-14 px-1 py-2 text-center font-medium"></th>
+            <th class="w-14 px-1 py-2 text-center font-medium">
+              <!-- Open column: the eye opens the legend (same glyph as the word table's) -->
+              <button
+                type="button"
+                class="btn-pastel inline-flex h-8 w-8 items-center justify-center rounded-full text-faint transition hover:text-accent"
+                :aria-label="copy('legend.open', 'Show legend')"
+                :title="copy('legend.open', 'Show legend')"
+                @click.stop="legendOpen = true"
+              >
+                <EyeIcon class="h-4 w-4" aria-hidden="true" />
+              </button>
+            </th>
             <th class="px-3 py-2 text-center font-medium">{{ copy('dictionary.col_audio', 'Audio') }}</th>
             <th class="px-3 py-2 text-center font-medium">
               <!-- Check-all / reset for the whole track scope -->
@@ -263,5 +282,7 @@ async function toggleScopeLearned() {
         </tbody>
       </table>
     </div>
+
+    <LegendDialog v-if="legendOpen" :credit-total="creditTotal" @close="legendOpen = false" />
   </div>
 </template>

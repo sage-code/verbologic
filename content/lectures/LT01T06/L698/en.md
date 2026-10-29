@@ -3,31 +3,47 @@ track: lectures
 topic: LT01T06
 article: L698
 locale: en
-title: "Tag Questions with Nu"
-summary: "Adding nu with a rising tone at the end turns a statement into a question asking for agreement."
+title: "Asking for Agreement with Nu"
+summary: "Learn how to ask for agreement by adding the rising word nu at the end of a sentence."
 status: draft
 entity_id: "LT01T06:L698"
 order: 15
 terms:
-  en: "tag question with nu"
-  es: "pregunta de confirmación"
-  it: "domanda di conferma"
-  fr: "question de confirmation"
-  de: "Bestätigungsfrage mit nu"
-  ru: "разделительный вопрос"
-  hu: "megerősítő kérdés"
-  pt: "pergunta de confirmação"
-  ro: "întrebare de confirmare"
+  en: "tag questions"
+  es: "coletillas interrogativas"
+  it: "domande di conferma"
+  fr: "questions de confirmation"
+  de: "Bestätigungsfragen"
+  ru: "разделительные вопросы"
+  hu: "visszakérdezés"
+  pt: "perguntas de confirmação"
+  ro: "întrebări de confirmare"
 ---
 
-## The question tag
-In Romanian, you often make a statement and ask if the listener agrees. You do this by placing the small word **nu** at the very end of the sentence. It works just like saying "right?" or "aren't you?" in English. This tiny word invites your friend to answer quickly with a yes or no. It turns any ordinary sentence into a friendly check for agreement.
+## The sound
+You use (nu) /nu/ at the end of a phrase to ask for agreement.
+Your voice rises quickly at the very end.
+Listen to the phrase (Vii, nu?) /ˈvi.i nu/, which means you are coming.
+The musical pitch jumps up high on this last word.
+It asks the listener to agree with you.
 
-## Mouth and tone
-Before you say the word, pause your voice for a tiny split second. Next, shape your lips into a small, tight circle to make the vowel sound. Then, slide the pitch of your voice upward smoothly. The tone starts at a normal speaking level and rises clearly until the sound stops. Your voice acts like a gentle musical staircase going up.
+## How to say it
+First, say your statement with a level or falling pitch.
+Pause for a tiny moment before the end.
+Touch your tongue behind your top teeth for the first sound.
+Then round your lips tightly for the vowel.
+Push your pitch upward like a step on stairs.
 
-## Saying the example
-Let us practice with a very common daily sentence. Look at the phrase **Vii, nu?** /ˈvi.i nu/. The first word states that you are coming. Then, your voice leaps upward on the final syllable to ask for confirmation. It translates to "You are coming, aren't you?". Keep the rhythm bouncy and natural as you speak the two parts together.
+## Reading rules
+You always see a comma before the word (nu) /nu/.
+A question mark stands right after it.
+The comma tells you to pause briefly.
+The question mark signals your voice to rise.
+Whenever you spot this ending, lift your tone high.
 
 ## Common mistakes
-English speakers often let their voice drop at the end of tags. If your pitch drops, the listener might think you are simply saying "no". Another mistake is forgetting the tiny pause right before the final word. Without that brief break, the words blur together into one confusing sentence. Always keep the pitch rising high and leave a small breath before it.
+Do not let your pitch fall at the end.
+A falling pitch makes it sound like a negative statement.
+Do not rush through without a tiny pause.
+Make sure your lips stay rounded for the vowel.
+Keep the vowel clear as your voice climbs upward.

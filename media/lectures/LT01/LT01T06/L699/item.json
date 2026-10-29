@@ -4,6 +4,7 @@
   "chapter": "LT01",
   "topic": "LT01T06",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T06:L699",
   "cefr": "A2",
   "tags": [],
@@ -27,7 +28,7 @@
       "name": "Междометия"
     },
     "hu": {
-      "name": "Indulatszavak"
+      "name": "Indulatszók"
     },
     "pt": {
       "name": "Interjeições"
@@ -37,97 +38,27 @@
     }
   },
   "files": {
-    "read/it.mp3": {
-      "bytes": 762912,
-      "sha1": "7f33f1f2b45554a2c3a2b6b2b3364c0bfd236059"
-    },
-    "read/de.mp3": {
-      "bytes": 753840,
-      "sha1": "baf3e164e298d49d6035461fbf7a76d8430ec85e"
-    },
-    "read/fr.mp3": {
-      "bytes": 641952,
-      "sha1": "84b1f32566d0cf9899004b1184de67ccdb241c1e"
-    },
     "read/ro.mp3": {
       "bytes": 779328,
       "sha1": "3bed3d42e613ae9dff9e501b3f757ff73008a830"
     },
-    "read/hu.mp3": {
-      "bytes": 733824,
-      "sha1": "272dc75735b48f840fc6cee75107c0cbcffebe35"
-    },
-    "read/es.mp3": {
-      "bytes": 693648,
-      "sha1": "84e59083ba974c1bd8c35be157713a99742c94f6"
-    },
-    "read/pt.mp3": {
-      "bytes": 645264,
-      "sha1": "40ee9fb5e800b8885a3adde3ea06cfe47e6ea345"
-    },
     "read/en.mp3": {
       "bytes": 620928,
       "sha1": "669e4d55bfd33446873713fcc92cbc4eaae28ba6"
-    },
-    "read/ru.mp3": {
-      "bytes": 804096,
-      "sha1": "b70348b81b639b581ada4eeca5b1e4109c3980b4"
     }
   },
   "readSections": {
-    "it": [
-      0.0,
-      33.763,
-      64.888,
-      97.062
-    ],
-    "de": [
-      0.0,
-      33.562,
-      62.7,
-      95.325
-    ],
-    "fr": [
-      0.0,
-      28.462,
-      52.6,
-      82.162
-    ],
     "ro": [
-      0.0,
+      0,
       33.538,
       65.475,
       100.45
     ],
-    "hu": [
-      0.0,
-      32.062,
-      62.913,
-      94.625
-    ],
-    "es": [
-      0.0,
-      30.7,
-      60.912,
-      88.837
-    ],
-    "pt": [
-      0.0,
-      29.325,
-      54.612,
-      82.875
-    ],
     "en": [
-      0.0,
+      0,
       26.163,
       50.838,
       78.312
-    ],
-    "ru": [
-      0.0,
-      34.688,
-      68.662,
-      103.075
     ]
   }
 }

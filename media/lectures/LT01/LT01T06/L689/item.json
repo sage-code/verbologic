@@ -4,63 +4,40 @@
   "chapter": "LT01",
   "topic": "LT01T06",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T06:L689",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "Dialogue dash"
+      "name": "dialogue dash"
     },
     "es": {
-      "name": "Raya de diálogo"
+      "name": "raya de diálogo"
     },
     "it": {
-      "name": "Trattino di dialogo"
+      "name": "lineetta di dialogo"
     },
     "fr": {
-      "name": "Tiret de dialogue"
+      "name": "tiret de dialogue"
     },
     "de": {
       "name": "Redestrich"
     },
     "ru": {
-      "name": "Тире в диалоге"
+      "name": "тире в диалоге"
     },
     "hu": {
-      "name": "Párbeszédgondolatjel"
+      "name": "párbeszédgondolatjel"
     },
     "pt": {
-      "name": "Travessão de diálogo"
+      "name": "travessão de diálogo"
     },
     "ro": {
-      "name": "Linia de dialog"
+      "name": "linia de dialog"
     }
   },
   "files": {
-    "read/de.mp3": {
-      "bytes": 566496,
-      "sha1": "21ca1f8118e2d04617e1f6b87c456e4ea3279648"
-    },
-    "read/it.mp3": {
-      "bytes": 605520,
-      "sha1": "dd9d054d180aa324aece43112585a7bb29c29f32"
-    },
-    "read/fr.mp3": {
-      "bytes": 511776,
-      "sha1": "470111ae2a11ce66ab1626b155a366658ecc8528"
-    },
-    "read/es.mp3": {
-      "bytes": 555264,
-      "sha1": "95ca9064872bd71db2e5bf8160010d4aedaad30c"
-    },
-    "read/pt.mp3": {
-      "bytes": 496800,
-      "sha1": "585911d6626d257e0dff915acd057e70182c6f71"
-    },
-    "read/hu.mp3": {
-      "bytes": 561456,
-      "sha1": "2704058abd258771f8b73eb312e21aaa68813c83"
-    },
     "read/ro.mp3": {
       "bytes": 593136,
       "sha1": "08c6f63a139169a62dc84aa42710ba56c5ea772d"
@@ -68,66 +45,20 @@
     "read/en.mp3": {
       "bytes": 525600,
       "sha1": "214e797b313f7dad34544abe6b8345c24b89aa02"
-    },
-    "read/ru.mp3": {
-      "bytes": 590112,
-      "sha1": "5f8364449c0148dc6e4bf0d7f871e5afd501ef77"
     }
   },
   "readSections": {
-    "de": [
-      0.0,
-      23.1,
-      46.588,
-      70.6
-    ],
-    "it": [
-      0.0,
-      23.387,
-      48.775,
-      75.8
-    ],
-    "fr": [
-      0.0,
-      18.863,
-      41.725,
-      65.15
-    ],
-    "es": [
-      0.0,
-      22.35,
-      46.763,
-      71.0
-    ],
-    "pt": [
-      0.0,
-      20.488,
-      42.15,
-      63.475
-    ],
-    "hu": [
-      0.0,
-      22.125,
-      46.55,
-      71.05
-    ],
     "ro": [
-      0.0,
+      0,
       23.938,
       49.475,
       75.25
     ],
     "en": [
-      0.0,
+      0,
       25.05,
       48.025,
       69.2
-    ],
-    "ru": [
-      0.0,
-      22.337,
-      47.062,
-      73.725
     ]
   }
 }

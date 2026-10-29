@@ -20,18 +20,18 @@ terms:
   ro: "ioa"
 ---
 
-## Sound of ioa
+## The group ioa
 
-The letter group ioa is spoken as the sound /jo̯a/. It represents a single combined sequence with one standard sound. You hear it clearly in the word (creioane) /kreˈjo̯a.ne/, which means pencils.
+The group ioa makes the complex sound /jo̯a/. You hear it in the word (creioane) /kreˈjo̯a.ne/, which means pencils. This group makes only one sound in Romanian. It glides through three vowels in one breath.
 
-## How to say it
+## How to say ioa
 
-Start with your tongue high and forward as your vocal cords vibrate. Quickly round your lips slightly while opening your mouth wider into an open vowel. Your voice runs smoothly through this single flow of breath without any pause. Touch your fingers to your throat to feel the steady vibration throughout the whole movement.
+Start with your tongue high and front, as in yes. Pull your lips into an open ring for an o vowel. Open your mouth wide right away to finish on a clear a. Your voice runs smoothly through all three positions without stopping. Place your hand on your throat to feel continuous vibration.
 
-## Spelling rules
+## Spelling rules for ioa
 
-This spelling pattern appears in stressed syllables where the three letters form a unified triphthong. In this position, the group always produces the gliding sequence /jo̯a/. You can observe this regular pattern in the noun (aripioară) /a.riˈpjo̯a.rə/.
+The letters ioa appear inside stressed syllables. They sound like /jo̯a/ in the word (aripioară) /a.riˈpjo̯a.rə/. The three letters always stay together in the same beat.
 
-## Common mistakes
+## Common mistakes with ioa
 
-English speakers often break this sequence into separate syllables. Do not pronounce it like the separate parts in the English word trio. Instead, glide continuously without inserting any extra pauses, similar to saying the end of the English name kayak followed immediately by an ah vowel.
+Do not split this group into separate syllables. English words rarely combine these three sounds in one push. Connect the glide directly into the vowel as in the start of yard, but pass quickly through an o. Keep your tongue active and avoid pausing between the vowels.

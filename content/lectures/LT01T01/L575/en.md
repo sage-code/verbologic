@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L575
+locale: en
+title: "W"
+summary: "Letter name: W. Example: window."
+status: draft
+entity_id: "LT01T01:L575"
+order: 53
+terms:
+  en: "W"
+  es: "W"
+  it: "W"
+  fr: "W"
+  de: "W"
+  ru: "W"
+  hu: "W"
+  pt: "W"
+  ro: "W"
+---
+
+## Letter sound double u
+
+You call this letter (W) /dʌbəl.juː/. Its main sound is the sound /w/, like in the word (wet) /wɛt/. That word means wet. This letter has one sound, or it stays silent.
+
+## Pronouncing double u
+
+To make the sound /w/, round your lips tightly into a small circle. Pull the back of your tongue up toward the roof of your mouth. Let your vocal cords vibrate as air flows out. Place your hand on your throat to feel the strong vibration. Do not touch your teeth with your lips.
+
+## Reading double u
+
+You pronounce this letter as the sound /w/ before a vowel, like in (win) /wɪn/. This letter stays completely silent before the letter r, like in (write) /raɪt/. It also stays silent in some special words, like in (two) /tuː/.
+
+## Avoiding common mistakes
+
+Do not confuse the sound /w/ with the sound /v/. Never touch your lower lip to your upper teeth. Keep your lips apart and push them forward into a circle. If your teeth touch your lip, you make the wrong sound.

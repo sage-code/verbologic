@@ -20,18 +20,18 @@ terms:
   ro: "P"
 ---
 
-## Sound of letter P
+## The letter name
 
-The name of this letter is pronounced as the sound /p/, that is a plain voiceless p sound. Its main sound is heard in (pâine) /pəˈmɨnt/, which means bread. Across different positions, this letter represents two distinct sounds in spoken Romanian.
+The letter name is the sound /p/, that is a plain p. Its main sound appears in the word (pâine) /pəˈmɨnt/, which means bread. This letter makes two distinct sounds in Romanian.
 
-## How to say it
+## Pronouncing each sound
 
-For the first sound, press both lips firmly together. Build up air behind them, then open the lips cleanly with no voice. For the second sound, make that same lip release while arching your tongue toward your hard palate. Hold your fingers before your lips to feel a sharp, tiny burst of air.
+Press your lips tightly together and stop the air. Release the air cleanly without using your voice. For the soft variant, press your lips together while raising your tongue toward the roof. Release the lips with a faint y sound. Hold your hand before your mouth to feel a short puff of air.
 
-## Reading letter P
+## When to use each
 
-In most positions before vowels or consonants, this letter makes the sound /p/, that is a plain p. You hear this regular variant in (cap) /kap/. At the end of a word before short final i, it softens to the sound /pʲ/, that is a palatalised p. An example of this softer variant is (lupi) /lupʲ/.
+This letter usually makes the sound /p/, that is a plain p. You hear it before most vowels and consonants, as in (cap) /kap/. At the end of a word before a brief i, it becomes the sound /pʲ/, that is a soft p. You hear this soft form in (lupi) /lupʲ/.
 
-## Comparing with English
+## Avoiding common mistakes
 
-English speakers often release a puff of breath when saying words like pet. In Romanian, keep your lips completely unpuffed, exactly like the consonant in the English word spin. Never produce an audible breath of air when speaking.
+Do not release a heavy puff of air when you start a word. In English words like pin, you blow out extra air. Keep the lips tight and make a crisp stop, like the sound in spin. For the soft ending, do not add a full extra vowel. Keep the closing sound short and quiet.

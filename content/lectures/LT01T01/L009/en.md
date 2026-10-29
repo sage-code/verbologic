@@ -20,18 +20,18 @@ terms:
   ro: "G"
 ---
 
-## The Letter G
+## The letter G
 
-The letter name is spoken as the sound /g/ or the sound /dʒ/. Its primary value is heard in (gară) /ɡar/, meaning train station. This Romanian letter has two distinct sounds across various words.
+This letter is called /g/ or /dʒ/. Its main sound is heard in (gară) /ɡar/, which means train station. The letter makes two sounds in total.
 
-## Pronouncing the Sounds
+## Pronouncing the sounds
 
-For the first sound, press the back of your tongue against the soft palate. Release the air suddenly with vocal cord vibration. For the second sound, touch the tip of your tongue behind your top front teeth. Release into a voiced rush of air. Place a hand on your throat to feel continuous vibration for both.
+For the first sound, lift the back of your tongue to touch the roof of your mouth. Release the air with your voice on. For the second sound, press the tip of your tongue against the ridge behind your upper teeth. Push air through while your vocal cords vibrate. Put your hand on your throat to feel the vibration.
 
-## Reading Rules
+## Reading the variants
 
-This letter makes the sound /ɡ/ before consonants, at word endings, or before vowels a, ă, â, o, or u. An example is (gard) /ɡard/. It makes the sound /dʒ/ directly before vowels e or i. An example is (ger) /dʒer/.
+You make the sound /ɡ/ before the letters a, ă, â, o, u, before consonants, or at the end of a word. You hear it in (gard) /ɡard/. You make the sound /dʒ/ before the letters e or i. You hear this sound in (ger) /dʒer/.
 
-## English Pitfalls
+## Avoiding mistakes
 
-English speakers often soften the sound /ɡ/ into an affricate before front vowels in native words. Do not let this letter become soft before vowels like a or o. Both sounds match regular English consonants in garden and jam.
+Do not soften the hard sound before back vowels. Make sure you use your voice clearly, unlike the quiet sound in cat. Also, do not pronounce the soft sound like the sound in pleasure. Make a clean stop first, just like the sound in gem.

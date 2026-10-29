@@ -4,27 +4,30 @@ topic: LT01T04
 article: L660
 locale: en
 title: "Pronouncing X Between Vowels"
-summary: "In Romanian, the letter x sounds like gz when it sits between two vowel sounds."
+summary: "Learn how to pronounce the Romanian letter x as a voiced gz sound between two vowels."
 status: draft
 entity_id: "LT01T04:L660"
 order: 13
 terms:
-  en: "The letter X"
-  es: "La letra X"
-  it: "La lettera X"
-  fr: "La lettre X"
-  de: "Der Buchstabe X"
-  ru: "Буква X"
-  hu: "Az X betű"
-  pt: "A letra X"
-  ro: "Litera X"
+  en: "Pronouncing X between vowels"
+  es: "Pronunciación de X intervocálica"
+  it: "Pronuncia di X intervocalica"
+  fr: "Prononciation du X intervocalique"
+  de: "Aussprache von intervokalischem X"
+  ru: "Произношение X между гласными"
+  hu: "Az X kiejtése magánhangzók között"
+  pt: "Pronúncia do X intervocálico"
+  ro: "Pronunția literei X între vocale"
 ---
 
-## The letter X between vowels
-In Romanian, the letter **x** can make two different sounds. When **x** sits between two vowels, it often sounds like the voiced pair /ɡz/. You hear this in many common international words. A great example is the word **examen** /e.ˈɡza.men/, which means exam. The vowels hug the letter on both sides. Because of this position, your voice stays active across the whole cluster.
+## The sound
+The Romanian letter x often sounds like two blended consonants. Between two vowels, it makes a buzzing sound. It sounds like the letters 'g' and 'z' joined together. Listen to the word (examen) /e.ˈɡza.men/, which means exam. You hear this soft, vibrating sound right in the middle.
 
-## Mouth, throat, and stress
-To make the /ɡz/ sound, start with the back of your tongue. Press it against the soft roof of your mouth for /ɡ/. Keep your vocal cords vibrating so your throat buzzes. Next, slide immediately into the /z/ sound by bringing your tongue tip near your front teeth. Keep the throat buzzing the entire time. In the word **examen** /e.ˈɡza.men/, the stress falls on the second syllable. Your voice rises on that middle syllable and gently drops on the last one.
+## How to say it
+Start with the back of your tongue touching your soft palate. Release a quick 'g' sound with your vocal cords buzzing. Then, move the tip of your tongue near your front teeth. Push air out smoothly to make a 'z' sound. Keep your voice box vibrating for the whole sound.
 
-## Practice and common mistakes
-Many English speakers want to pronounce every **x** as a sharp /ks/. For instance, in English words like "exit", people often say /ks/. In Romanian words like **examen** /e.ˈɡza.men/, you must use the vibrating /ɡz/ sound instead. Do not pause between the two consonant sounds. Blend the /ɡ/ directly into the /z/ while your throat buzzes. Listen to the audio and match the smooth vibration between the vowels.
+## Reading rules
+Look at the letters around the letter x. When x sits between two vowels, say it as a buzzing sound. Listen to (exact) /eɡˈzakt/, which means exact. Also, listen to (exemplu) /eɡˈzem.plu/, which means example. In both words, vowels surround the letter x. Your voice stays on through both letters.
+
+## Common mistakes
+Do not whisper the sound like 'k' and 's'. Many learners turn off their voice too early. If you make a hiss, your voice box stops. Touch your throat while you speak. You should feel a strong vibration when you say (examen) /e.ˈɡza.men/.

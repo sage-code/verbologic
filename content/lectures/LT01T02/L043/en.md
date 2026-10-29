@@ -20,18 +20,18 @@ terms:
   ro: "au"
 ---
 
-## The sound au
+## Sound of au
 
-The group au is called the diphthong /aw/. It sounds like the vowel glide in (sau) /saw/, which means or. This combination produces one falling diphthong in Romanian.
+The letters au make the sound /aw/. You hear this sound in (sau) /saw/, which means or. This letter group makes only one sound.
 
 ## How to say it
 
-Open your mouth wide with your tongue low to start the first part. Glide smoothly into rounded lips as your jaw closes slightly. Your vocal cords vibrate all the way through. Feel your lips push forward into a small circle at the very end.
+Open your mouth wide and keep your tongue low and flat. Then glide smoothly toward a tight circle with your lips. Your tongue pulls back slightly. Your vocal cords vibrate throughout the glide. Touch your throat to feel continuous vibration from start to finish.
 
 ## Spelling rules
 
-The letters au represent one falling diphthong in a single syllable. In that position, say the sound /aw/, as in (daur) /dawr/.
+The letters au make the sound /aw/ when spoken together in one syllable. You can hear this sound in (daur) /dawr/.
 
-## English comparison
+## Common mistakes
 
-English speakers often pronounce this pair like the vowel in caught or author. Do not use that flat vowel. Instead, blend the sounds like the glide in the English word now.
+You might pronounce this sound like the vowel sound in the English word now. In Romanian, keep the first part bright and open before you glide. Do not start with a flat tongue resting in the middle of your mouth.

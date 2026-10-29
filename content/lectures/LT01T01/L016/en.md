@@ -20,18 +20,18 @@ terms:
   ro: "M"
 ---
 
-## Letter sound
+## The letter em
 
-This letter is called /m/, that is a plain m. Its primary sound is heard in (mare) /ˈma.mə/, which means mother. The letter has two distinct sounds in Romanian.
+The letter name is (mare) /ˈma.mə/, which means mother. Its main sound is heard in that same word. This letter makes two distinct sounds in Romanian speech.
 
 ## Mouth movements
 
-For the regular sound, close your lips together gently. Let air pass out through the nose while your vocal cords vibrate. For the second sound, make that same closure while arching your tongue toward the hard palate. Touch your throat to feel continuous vibration for both sounds.
+Close both lips together. Send air out through your nose while your voice hums. For the softened sound, press the middle of your tongue upward at the same time. You can feel your throat buzz with your fingers.
 
-## Reading rules
+## Spelling rules
 
-In almost all positions, you pronounce the sound /m/, that is a plain m. An example is (om) /om/. At the end of a word before a final short i, pronounce the sound /mʲ/, that is a softened m. You can hear this variant in (dormi) /dormʲ/.
+In most places, you pronounce the sound /m/, that is standard m. An example is (om) /om/. At the end of a word before short i, you say the sound /mʲ/, that is softened m. You hear this in the word (dormi) /dormʲ/.
 
-## Common pitfalls
+## Common mistakes
 
-English speakers usually pronounce this consonant without difficulty. Its main sound matches the first sound in mother. Do not turn the softened ending variant into a full extra syllable. Keep your lips closed and add a quick y-tint without adding an extra vowel.
+This sound matches the English sound in moon. The softened sound is like the start of mute, but without a full vowel. Keep the lips fully shut until the sound ends.

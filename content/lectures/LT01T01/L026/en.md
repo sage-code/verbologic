@@ -20,18 +20,18 @@ terms:
   ro: "V"
 ---
 
-## The letter ve
+## Letter sound
 
-The name of this letter is /v/. Its main sound is the voiced sound /v/, as heard in (verde) /ˈvi.no/, which means come. This Romanian letter produces only one sound in standard speech.
+The letter name is spoken as the sound /v/. It makes the sound /v/ as in the word (vino) /ˈvi.no/, which means come. This letter makes only one sound in standard words.
 
-## Making the sound
+## How to say it
 
-Rest your upper teeth lightly against the inside of your lower lip. Push air out steadily between the teeth and lip while vibrating your vocal cords. Place your hand on your throat to confirm that you feel a continuous vibration.
+Touch your upper teeth gently to your lower lip. Push air out steadily while your vocal cords vibrate. Feel your throat buzz with your fingers.
 
-## Reading the letter
+## Reading this letter
 
-This letter always produces the voiced sound /v/ across all positions in words. You read it as the sound /v/ in the word (val) /val/.
+This letter always makes the sound /v/ in all standard positions. Hear it clearly in the word (val) /val/.
 
-## Comparing with English
+## Common mistakes
 
-English speakers produce this sound easily because it matches the ordinary consonant in vine. Take care not to devoice it into the sound /f/ at the very end of words. Keep your vocal cords actively buzzing right up to the end.
+Do not swap this sound with the sound /w/ in water. Keep your top teeth firmly on your bottom lip. There is no other pitfall.

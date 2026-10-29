@@ -4,27 +4,30 @@ topic: LT01T05
 article: L681
 locale: en
 title: "Pronouncing Nu Mai Quickly"
-summary: "In Romanian, the word mai becomes weak and fast right after nu."
+summary: "Learn how to say (nu mai) /nu maj/ smoothly with weak stress on the second word."
 status: draft
 entity_id: "LT01T05:L681"
 order: 16
 terms:
-  en: "weak mai"
-  es: "debilitamiento de mai"
-  it: "indebolimento di mai"
-  fr: "affaiblissement de mai"
-  de: "Abschwächung von mai"
-  ru: "ослабление mai"
-  hu: "a mai gyengülése"
-  pt: "enfraquecimento de mai"
-  ro: "slăbirea lui mai"
+  en: "Weak mai after nu"
+  es: "mai átono tras nu"
+  it: "mai debole dopo nu"
+  fr: "mai faible après nu"
+  de: "Schwaches mai nach nu"
+  ru: "Безударное mai после nu"
+  hu: "Hangsúlytalan mai a nu után"
+  pt: "mai fraco após nu"
+  ro: "mai neaccentuat după nu"
 ---
 
-## The rhythm pattern
-In Romanian, small words often link together in speech. The phrase **nu mai** /nu maj/ means "no more" or "not anymore". When you say these two words together, they do not have equal power. The first word is stronger than the second word. The word **mai** loses its normal heavy stress. It attaches closely to the word **nu**.
+## The sound
+Listen to the phrase (nu mai) /nu maj/, which means no more. The word (nu) /nu/ means not. The word (mai) /maj/ means more. Together, they sound like one unit. You hear strong stress on (nu) /nu/. The following sound is weak and fast.
 
-## How your mouth and voice work
-Start by rounding your lips tightly for the vowel in **nu**. Give this first syllable a clear and steady beat. Immediately open your mouth slightly into **mai** without taking a breath. Keep your voice light and quick on **mai**. Do not push extra air or raise your pitch at the end. The two words should sound like one connected phrase.
+## How to say it
+Start with your lips rounded for (nu) /nu/. Say it with a clear, steady voice. Next, move quickly to (mai) /maj/. Open your mouth for 'ah' and glide to 'ee'. Do not push extra air out. Keep the pitch high on (nu) /nu/ and drop it fast on (mai) /maj/.
 
-## Mistakes to avoid
-Many English speakers pause between the two words. When you pause, the phrase sounds unnatural and choppy. Another common mistake is stressing **mai** too heavily. Remember that **mai** is not the star of this phrase. Keep your jaw relaxed and let **mai** slip by very quickly. Treat both words as one smooth step.
+## Reading rules
+You see two words in writing: (nu mai) /nu maj/. In speech, you connect them without a pause. Treat them like one word with two parts. Put your main focus on (nu) /nu/. Glide through (mai) /maj/ very quickly. The two words always flow together like a single breath.
+
+## Common mistakes
+Do not pause between the two words. Some people give equal force to each part. That makes speech sound stiff and unnatural. Do not stress (mai) /maj/. If you make it strong, it sounds heavy. Say (nu) /nu/ clearly and let (mai) /maj/ follow weakly. Keep the pace brisk and natural.

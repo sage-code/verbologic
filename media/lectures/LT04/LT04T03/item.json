@@ -7,8 +7,7 @@
   "entity_id": "LT04T03",
   "locales": {
     "en": {
-      "name": "Existence & possession (este, sunt, al meu)",
-      "ipa": "/ɪɡˈzɪstəns ənd pəˈzɛʃən ˈɛsteɪ sʊnt ɑːl meɪ.uː/",
+      "name": "Existence & possession",
       "description": "This is the third topic of Chapter 4."
     },
     "ro": {
@@ -17,38 +16,31 @@
       "description": "Aceasta este a treia temă din capitolul 4."
     },
     "de": {
-      "name": "Existenz & Besitz (este, sunt, al meu)",
-      "ipa": "/ɛksɪsˈtɛnt͡s ʊnt bəˈzɪt͡s ˈɛste zʊnt al mɛʊ/",
+      "name": "Existenz & Besitz",
       "description": "Dies ist das dritte Thema von Kapitel 4."
     },
     "ru": {
-      "name": "Существование и владение (este, sunt, al meu)",
-      "ipa": "/sʊɕːɪstvɐˈvanʲɪje ɪ vlɐˈdʲenʲɪje ˈɛste ˈsunt ˈal ˈmeu/",
+      "name": "Существование и принадлежность",
       "description": "Это третья тема главы 4."
     },
     "it": {
-      "name": "Esistenza e possesso (este, sunt, al meu)",
-      "ipa": "/ezisˈtɛntsa e posˈsɛsso ˈeste ˈsunt al ˈmɛu/",
+      "name": "Esistenza e possesso",
       "description": "Questo è il terzo tema del capitolo 4."
     },
     "es": {
-      "name": "Existencia y posesión (este, sunt, al meu)",
-      "ipa": "/eɡsisˈtenθja i poseˈsjon ˈeste ˈsunt al ˈmeu/",
+      "name": "Existencia y posesión",
       "description": "Este es el tercer tema del capítulo 4."
     },
     "fr": {
-      "name": "Existence et possession (este, sunt, al meu)",
-      "ipa": "/ɛɡzistɑ̃s e pɔsɛsjɔ̃ ɛst sœnt al mø/",
+      "name": "Existence et possession",
       "description": "Il s'agit du troisième thème du chapitre 4."
     },
     "hu": {
-      "name": "Létezés és birtoklás (este, sunt, al meu)",
-      "ipa": "/ˈleːtɛzeːʃ eːʃ ˈbirtoːklaːʃ ˈɛʃtɛ ˈʃunt ɒl ˈmɛu/",
+      "name": "Létezés és birtoklás",
       "description": "Ez a 4. fejezet harmadik témája."
     },
     "pt": {
-      "name": "Existência e posse (este, sunt, al meu)",
-      "ipa": "/ɐjziʃˈtẽsi.ɐ i ˈpɔsɨ ˈɛʃtɨ ˈsunt aɫ ˈmew/",
+      "name": "Existência e posse",
       "description": "Este é o terceiro tema do capítulo 4."
     }
   },
@@ -56,6 +48,10 @@
     "title#topic"
   ],
   "files": {
+    "sound/ro.mp3": {
+      "bytes": 15408,
+      "sha1": "dd9ed147506d0d16af33b23334fcf3271991a17d"
+    },
     "sound/en.mp3": {
       "bytes": 24624,
       "sha1": "e91600444062daee763c67606665a4326ed6202b"
@@ -64,9 +60,9 @@
       "bytes": 26784,
       "sha1": "fa718c093532b88a0c67e9a01c939466c7842769"
     },
-    "sound/ro.mp3": {
-      "bytes": 15408,
-      "sha1": "dd9ed147506d0d16af33b23334fcf3271991a17d"
+    "sound/ru.mp3": {
+      "bytes": 28944,
+      "sha1": "b8a5bb2b6ca390256341c1fdac203a5059f6d69f"
     },
     "sound/it.mp3": {
       "bytes": 24480,
@@ -83,10 +79,6 @@
     "sound/pt.mp3": {
       "bytes": 25776,
       "sha1": "b8dab6473d10fd041ee54e7092fd1c1ebe869129"
-    },
-    "sound/ru.mp3": {
-      "bytes": 28944,
-      "sha1": "b8a5bb2b6ca390256341c1fdac203a5059f6d69f"
     },
     "sound/hu.mp3": {
       "bytes": 31392,

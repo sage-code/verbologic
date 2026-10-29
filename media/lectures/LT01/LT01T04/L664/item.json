@@ -4,70 +4,43 @@
   "chapter": "LT01",
   "topic": "LT01T04",
   "kind": "article",
+  "target": "ro",
   "entity_id": "LT01T04:L664",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "Hard and soft sounds"
+      "name": "soft and hard sounds"
     },
     "es": {
-      "name": "Sonidos duros y suaves"
+      "name": "sonidos suaves y fuertes"
     },
     "it": {
-      "name": "Suoni duri e dolci"
+      "name": "suoni dolci e duri"
     },
     "fr": {
-      "name": "Sons durs et doux"
+      "name": "sons doux et durs"
     },
     "de": {
-      "name": "Harte und weiche Laute"
+      "name": "weiche und harte Laute"
     },
     "ru": {
-      "name": "Твёрдые и мягкие звуки"
+      "name": "мягкие и твёрдые звуки"
     },
     "hu": {
-      "name": "Kemény és lágy hangok"
+      "name": "lágy és kemény hangok"
     },
     "pt": {
-      "name": "Sons duros e suaves"
+      "name": "sons suaves e duros"
     },
     "ro": {
-      "name": "Sunete dure și moi"
+      "name": "sunete moi și dure"
     }
   },
   "files": {
-    "read/de.mp3": {
-      "bytes": 634608,
-      "sha1": "8e1664180ca288e5a409176bc9ffe52e4d2a342f"
-    },
-    "read/it.mp3": {
-      "bytes": 675792,
-      "sha1": "daf74855d860ffdc71cad2755f97f26991006b9d"
-    },
     "read/ro.mp3": {
       "bytes": 645984,
       "sha1": "35d047e95f6b7b805dc99b5a2dcc997e0b2f51ad"
-    },
-    "read/es.mp3": {
-      "bytes": 645696,
-      "sha1": "cb2e998334c4330df1a17b60bc8f09b0f92a6664"
-    },
-    "read/fr.mp3": {
-      "bytes": 548352,
-      "sha1": "de2e1fca456b361f3e9edc42149a30463e34b2b5"
-    },
-    "read/hu.mp3": {
-      "bytes": 625824,
-      "sha1": "3d043e634da6b5d998336d8a4c0ba29f10287af3"
-    },
-    "read/pt.mp3": {
-      "bytes": 561168,
-      "sha1": "5e5d292d4b2ca3d45aa8a9a13ccb60a8c13c30df"
-    },
-    "read/ru.mp3": {
-      "bytes": 673632,
-      "sha1": "a155464ced12764137c95c55e22bb520ebfad2bc"
     },
     "read/en.mp3": {
       "bytes": 527760,
@@ -75,56 +48,14 @@
     }
   },
   "readSections": {
-    "de": [
-      0.0,
-      28.65,
-      54.412,
-      80.175
-    ],
-    "it": [
-      0.0,
-      31.438,
-      58.388,
-      85.787
-    ],
     "ro": [
-      0.0,
+      0,
       30.65,
       57.85,
       82.762
     ],
-    "es": [
-      0.0,
-      29.7,
-      56.675,
-      82.125
-    ],
-    "fr": [
-      0.0,
-      25.375,
-      47.625,
-      69.5
-    ],
-    "hu": [
-      0.0,
-      30.125,
-      56.888,
-      82.338
-    ],
-    "pt": [
-      0.0,
-      26.45,
-      50.388,
-      72.525
-    ],
-    "ru": [
-      0.0,
-      31.038,
-      59.15,
-      86.775
-    ],
     "en": [
-      0.0,
+      0,
       25.175,
       47.8,
       69.225

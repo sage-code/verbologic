@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T02
+article: L321
+locale: en
+title: "oo"
+summary: "This is the letter L321 from the vowel-consonant groups."
+status: draft
+entity_id: "LT01T02:L321"
+order: 27
+terms:
+  en: "oo"
+  es: "oo in book (libro), moon (luna)"
+  it: "oo in book (libro), moon (luna)"
+  fr: "oo in book (livre), moon (lune)"
+  de: "oo in book (Buch), moon (Mond)"
+  ru: "oo in book (книга), moon (луна)"
+  hu: "oo in book (könyv), moon (hold)"
+  pt: "oo in book (livro), moon (lua)"
+  ro: "oo in book (carte), moon (lună)"
+---
+
+## Sounds of double o
+
+The letters oo are called the sound /ʊ/ or /uː/. Their main sound is the sound /uː/, heard in (moon) /muːn/, which means the bright round object in the night sky. These letters have four sounds in total.
+
+## How to say double o
+
+To make the first sound, push your lips tight into a small circle. Pull your tongue back and high. For the second sound, loosen your lips slightly. Keep your tongue high but relaxed. For the third sound, open your mouth halfway and relax your tongue. For the fourth sound, drop your jaw lower and round your lips. Feel your vocal cords buzz on your throat for all four sounds.
+
+## Spelling of double o
+
+The letters oo usually make the sound /uː/ before l, m or n, as in (cool) /kuːl/. They make the sound /ʊ/ mostly before k or d, as in (book) /bʊk/. In very few special words, they sound like /ʌ/, as in (blood) /blʌd/. Before r, they sound like /ɔː/, as in (door) /dɔː/.
+
+## Common mistakes with double o
+
+Do not make every word sound long. A short vowel needs loose lips and a relaxed tongue. Do not swap the vowel of foot with the long vowel of boot. Keep your lips soft and open your jaw a little wider.

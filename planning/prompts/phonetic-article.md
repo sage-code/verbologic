@@ -1,6 +1,6 @@
 # Phonetic article prompt — v0.1 (draft, not executed)
 
-Status: **plan only — nothing here has been run.** For use by Phase 3 (phonetic articles as data) and the slice validation in `planning/performance-and-content-refactor.md` §12. Model: `gemini-3.8-flash` for writing, translating and checking.
+Status: **draft, not executed.** Input for phase 5 of `planning/content-in-database.md` (IPA glossary and the writing and translation prompts). The glossary replaces its model-chosen terminology; keep its fact-driven approach.
 
 Goal: a short article per sound (letter, digraph, cluster) that explains the pronunciation **with IPA terms and anchor words**, in the pattern you asked for:
 

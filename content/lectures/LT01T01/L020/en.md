@@ -20,18 +20,18 @@ terms:
   ro: "R"
 ---
 
-## Letter sound
+## The letter name
 
-This letter is called /r/, that is a rolled r. Its main sound is heard in (rac) /rak/, which means crayfish. The letter makes two sounds in total.
+The letter name is the sound /r/, that is a rolled r. Its main sound is the sound /r/, that is a rolled r, as in (rac) /rak/, which means crayfish. This letter has two sounds.
 
-## Mouth movements
+## How to say it
 
-For the regular sound, place the tip of your tongue loosely against the ridge behind your upper front teeth. Tap it rapidly with outgoing air while vibrating your vocal cords. For the soft sound, make that same tap while arching the middle of your tongue toward the roof of your mouth. Place a finger on your throat to feel the strong vibration.
+To make the first sound, place your tongue tip against the tooth ridge behind your top teeth. Push air out so the tongue tip taps quickly against the ridge. To make the second sound, tap your tongue tip while raising the middle of your tongue toward the roof of your mouth. Hold your hand against your throat to feel your voice buzz.
 
-## Spelling rules
+## Reading this letter
 
-In all standard positions, it represents the sound /r/, that is a regular rolled r, as in (soare) /ˈso̯a.re/. At the end of a word after a consonant, it represents the sound /rʲ/, that is a softened r. You hear this palatal variant in (membri) /ˈmem.brʲ/.
+In all standard positions, this letter makes the sound /r/, that is a rolled r, as in (soare) /ˈso̯a.re/. At the end of a word after a consonant, it makes the sound /rʲ/, that is a softened rolled r, as in (membri) /ˈmem.brʲ/.
 
-## Sound comparison
+## Common mistakes
 
-English speakers usually curl the tongue back without touching the roof of the mouth, as in red. Do not make this smooth English sound. Instead, tap the tip of your tongue against your upper gum ridge, like the quick flap in the American pronunciation of water.
+Do not use the English smooth sound heard in red. Tap the tip of your tongue against the ridge behind your upper front teeth. Do not curl your tongue backward into your mouth.

@@ -193,6 +193,27 @@ try {
   }
 
   // Sidebars: structure + item resolution (manifest or content doc).
+  // A chapter or topic is the SAME for every language — only its content
+  // differs — so its English name must describe the concept in plain English.
+  // A name that quotes one language ("a fi", "(este, sunt)", "-esc & -ăsc")
+  // would show up in every other language's curriculum.
+  const NON_ENGLISH_WORDS = new Set([
+    'avea', 'trebui', 'este', 'sunt', 'dumneavoastra', 'insa', 'deci', 'pentru',
+    'daca', 'cand', 'incat', 'perfectul', 'conjunctivul', 'supin', 'dar', 'si'
+  ])
+  const checkGenericName = (where, name) => {
+    const foreign = name.match(/[^\x20-\x7Eé–—’]/g)
+    if (foreign) {
+      ERRORS.push(`${where}: names.en '${name}' has non-English characters (${[...new Set(foreign)].join(' ')}) — name the concept, not one language's words`)
+      return
+    }
+    const words = name.toLowerCase().match(/[a-z]+/g) ?? []
+    const hit = words.filter((w) => NON_ENGLISH_WORDS.has(w))
+    if (hit.length) {
+      ERRORS.push(`${where}: names.en '${name}' quotes another language (${[...new Set(hit)].join(', ')}) — topics are shared by every language, so name the concept`)
+    }
+  }
+
   const sidebarFiles = walkFiles('src/data/sidebars', '.json').filter((f) => f.endsWith('sidebar.json'))
   const seenSections = new Set()
   let itemCount = 0
@@ -204,8 +225,10 @@ try {
     if (!sidebar.names?.en?.trim()) ERRORS.push(`sidebar ${sidebar.id}: missing names.en`)
     for (const section of sidebar.sections ?? []) {
       if (!section.names?.en?.trim()) ERRORS.push(`sidebar ${sidebar.id} · ${section.code}: missing names.en`)
+      else checkGenericName(`sidebar ${sidebar.id} · ${section.code}`, section.names.en)
       for (const topic of section.topics ?? []) {
         if (!topic.names?.en?.trim()) ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: missing names.en`)
+        else checkGenericName(`sidebar ${sidebar.id} · ${topic.code}`, topic.names.en)
         // Study level (mirrors CEFR_LEVELS in src/types/sidebars.ts).
         if (topic.level !== undefined && !CEFR_LEVELS.includes(topic.level)) {
           ERRORS.push(`sidebar ${sidebar.id} · ${topic.code}: bad level '${topic.level}' (expected one of ${CEFR_LEVELS.join(', ')})`)
@@ -240,10 +263,24 @@ try {
           )
         }
         if (topic.mode === 'directional') {
-          if (typeof topic.target !== 'string' || !localeCodesAll.includes(topic.target)) {
-            ERRORS.push(
-              `sidebar ${sidebar.id} · ${topic.code}: a directional topic needs 'target' set to a registered locale`
-            )
+          if (topic.target !== undefined) {
+            if (typeof topic.target !== 'string' || !localeCodesAll.includes(topic.target)) {
+              ERRORS.push(
+                `sidebar ${sidebar.id} · ${topic.code}: 'target' must be a registered locale`
+              )
+            }
+          } else {
+            // One topic list serves every language: each item must say which
+            // language it teaches, or it would be offered to all nine.
+            for (const id of topic.items ?? []) {
+              const manifest = manifestById.get(`${topic.code}\n${id}`)
+              if (!manifest) continue // planned item — nothing to check yet
+              if (typeof manifest.target !== 'string' || !localeCodesAll.includes(manifest.target)) {
+                ERRORS.push(
+                  `sidebar ${sidebar.id} · ${topic.code}: directional item '${id}' has no manifest 'target' (the language it teaches)`
+                )
+              }
+            }
           }
         } else if (topic.target !== undefined) {
           ERRORS.push(
@@ -268,12 +305,31 @@ try {
             `sidebar ${sidebar.id} · ${topic.code}: 'phonetic' on a reversible topic — the IPA column replaces the gloss, which only makes sense for directional content`
           )
         }
+        // Lectures: expression/word tables are reversible (any language can be
+        // learned), but an ARTICLE teaches one language — it must be directional.
+        if (sidebar.id === 'library/lectures' && topic.layout === 'article' && topic.mode !== 'directional') {
+          ERRORS.push(
+            `sidebar ${sidebar.id} · ${topic.code}: an article topic explains one language — it needs mode: 'directional' + target`
+          )
+        }
         for (const id of topic.items ?? []) {
           itemCount++
           // Structure-first: an id resolving to nothing yet is a PLANNED item
           // (reported below, never fatal — see the header policy note).
           if (!manifestIds.has(`${topic.code}\n${id}`)) {
             plannedIds.push(`${sidebar.id} · ${topic.code}: ${id}`)
+          }
+        }
+      }
+      // Same chapter, same topics, for every language: a topic pinned to ONE
+      // language (a topic-level `target`) would show in that language's list
+      // only, so the languages' chapters would differ. Items carry the language.
+      if (sidebar.id === 'library/lectures') {
+        for (const topic of section.topics ?? []) {
+          if (topic.target !== undefined) {
+            ERRORS.push(
+              `sidebar ${sidebar.id} · ${topic.code}: lectures share one topic list across languages — drop the topic-level 'target' and set 'target' on each item's manifest instead`
+            )
           }
         }
       }

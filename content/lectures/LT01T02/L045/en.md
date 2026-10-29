@@ -22,16 +22,16 @@ terms:
 
 ## The sound of eai
 
-The letter group eai is called /e̯aj/. It makes the triphthong sound /e̯aj/, as heard in (vedeai) /veˈde̯aj/, which means you were seeing. This three-letter sequence has just one single pronunciation in Romanian.
+The letters eai sound like /e̯aj/. You hear this group in the word (vedeai) /veˈde̯aj/, which means you were seeing. These letters make only one combined sound in Romanian. You say all three vowels together in one single breath.
 
-## How to say eai
+## Mouth movements
 
-Start with your lips relaxed and tongue mid-high, gliding swiftly from a weak vowel into an open mouth. Drop your jaw fully for the central vowel, then glide up as your tongue arches high toward the roof of your mouth. Your vocal cords vibrate steadily throughout the glide. Place your hand on your throat to feel continuous vibration.
+Start with your tongue mid high and glide quickly. Open your mouth wide for the main vowel sound. Then raise your tongue toward the roof of your mouth. Your lips stay spread throughout the glide. Your voice vibrates across the whole flow. Put your fingers on your throat to feel the steady vibration.
 
-## Spelling rules for eai
+## When it appears
 
-This spelling occurs in a stressed syllable as a triphthong. It always yields the sound /e̯aj/, seen for example in the verb form (spuneai) /spuˈne̯aj/.
+The letters eai appear in stressed syllables. They always make the sound /e̯aj/. You find them at the end of past tense verbs, like in (spuneai) /spuˈne̯aj/.
 
-## Mistakes to avoid
+## Common mistakes
 
-English speakers often break these three letters into two distinct syllables, like the vowel in bed followed by the word eye. Avoid inserting a pause or separate vowel beats. Instead, blend all three elements into one continuous syllable, keeping the central vowel strongest.
+Do not split these letters into three separate syllables. English words like eye or aye start directly on an open vowel. Glide smoothly from a brief front vowel instead. Keep the entire sequence within one syllable.

@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L426
+locale: en
+title: "J"
+summary: ""
+status: draft
+entity_id: "LT01T01:L426"
+order: 189
+terms:
+  en: "J"
+  es: "J"
+  it: "J"
+  fr: "J"
+  de: "J"
+  ru: "J"
+  hu: "J"
+  pt: "J"
+  ro: "J"
+---
+
+## The letter i lunga
+
+The letter (i lunga) /i ˈluŋɡo/ mainly makes the sound /dʒ/, heard in (jeans) /dʒins/, which means jeans. This letter has two different sounds in Italian.
+
+## Making the sounds
+
+For the first sound, press the tip of your tongue behind your top front teeth. Release the air with friction while your voice box vibrates. For the other sound, raise the middle of your tongue close to the roof of your mouth. Let your voice hum smoothly as the air flows out without friction. Feel your throat vibrate for both sounds.
+
+## Reading the letter
+
+In words borrowed from English, this letter makes the sound /dʒ/, as in (jazz) /dʒɛz/. In old Italian spellings, proper names, and words taken from Latin or German, it makes the sound /j/, as in (juventino) /juvenˈtino/ and (junior) /ˈjunjor/.
+
+## Avoiding mistakes
+
+Do not confuse the two sounds of this letter. Say the first sound like the starting consonant in jam. Say the other sound like the starting consonant in yes. Never drop the sound or turn it into an open vowel.

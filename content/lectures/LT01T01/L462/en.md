@@ -1,0 +1,37 @@
+---
+track: lectures
+topic: LT01T01
+article: L462
+locale: en
+title: "E"
+summary: ""
+status: draft
+entity_id: "LT01T01:L462"
+order: 225
+terms:
+  en: "E"
+  es: "E"
+  it: "E"
+  fr: "E"
+  de: "E"
+  ru: "E"
+  hu: "E"
+  pt: "E"
+  ro: "E"
+---
+
+## The letter e
+
+The letter name is (e) /ə/. Its main sound is heard in (menu) /mə.ny/, which means menu. This letter makes three spoken sounds, and it can also stay completely silent.
+
+## Pronouncing the sounds
+
+For the first sound, relax your tongue in the middle of your mouth. Round your lips gently and push them forward a little. For the second sound, spread your lips wide and keep your tongue high. For the third sound, drop your jaw slightly lower and keep your lips relaxed. Check that your vocal cords vibrate for all three vowels.
+
+## Reading the spellings
+
+In short one-syllable words like (le) /lə/, this letter makes the sound /ə/. When written with an acute accent, as in (été) /e.te/, it makes the sound /e/. With a grave accent, as in (père) /pɛʁ/, it makes the sound /ɛ/, that is an open e sound. Finally, this letter is completely silent at the end of many words, such as (table) /tabl/.
+
+## Mistakes to avoid
+
+Do not let your lips glide or change shape while speaking. In English words like day, the vowel glides into another sound. Keep your jaw completely still until the sound finishes. Do not pronounce the silent ending as an extra syllable, unlike the end of the English word menu.

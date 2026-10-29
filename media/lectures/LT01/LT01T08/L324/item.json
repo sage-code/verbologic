@@ -2,9 +2,10 @@
   "code": "L324",
   "track": "lectures",
   "chapter": "LT01",
-  "topic": "LT01T08",
+  "topic": "LT01T02",
   "kind": "letter",
-  "entity_id": "LT01T08:L324",
+  "target": "en",
+  "entity_id": "LT01T02:L324",
   "cefr": "A1",
   "tags": [
     "alphabet#vowel-consonant-groups"
@@ -66,94 +67,15 @@
     "read/en.mp3": {
       "bytes": 517392,
       "sha1": "a2769a29e120948cea591129d55eb5c0c4c83933"
-    },
-    "read/it.mp3": {
-      "bytes": 361152,
-      "sha1": "18e7b48d3e5cebfcc3ca932236215040f430fb90"
-    },
-    "read/fr.mp3": {
-      "bytes": 410400,
-      "sha1": "3db6a097e20307e969fd0f4ea3ace7e5e5590094"
-    },
-    "read/pt.mp3": {
-      "bytes": 406368,
-      "sha1": "2569e52f8749c530811d5223f91085a810d2b90e"
-    },
-    "read/es.mp3": {
-      "bytes": 366624,
-      "sha1": "875a10a8ca3dc37cdbc92033a326067388c09c82"
-    },
-    "read/de.mp3": {
-      "bytes": 500976,
-      "sha1": "2b9364cb3e0e8cb11e647fa0b91c392f166000a9"
-    },
-    "read/hu.mp3": {
-      "bytes": 460080,
-      "sha1": "64de7facb02ba39b50de653fc042b38bc3846f67"
-    },
-    "read/ro.mp3": {
-      "bytes": 322560,
-      "sha1": "50555553086e7f7afba08feb389666accdb08933"
-    },
-    "read/ru.mp3": {
-      "bytes": 372960,
-      "sha1": "3114b2ab650181fda55545dce17a0d9048224d86"
     }
   },
   "readSections": {
-    "it": [
-      0,
-      15.637,
-      31.7,
-      46.4
-    ],
-    "de": [
-      0,
-      20.65,
-      40.775,
-      61.438
-    ],
-    "ro": [
-      0,
-      7.175,
-      21.887,
-      40.987
-    ],
-    "es": [
-      0,
-      16.225,
-      23.738,
-      39.013
-    ],
-    "fr": [
-      0,
-      15.588,
-      34.825,
-      52.175
-    ],
-    "hu": [
-      0,
-      16.675,
-      37.725,
-      56.7
-    ],
-    "pt": [
-      0,
-      15.275,
-      34.175,
-      50.9
-    ],
     "en": [
       0,
       21.087,
       42.35,
       64.962
-    ],
-    "ru": [
-      0,
-      15.65,
-      30.15,
-      46.362
     ]
-  }
+  },
+  "legacy_entity_id": "LT01T08:L324"
 }

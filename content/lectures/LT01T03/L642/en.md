@@ -4,30 +4,53 @@ topic: LT01T03
 article: L642
 locale: en
 title: "Unstressed Short Words"
-summary: "Little words like mă have no stress and quickly join the very next word."
+summary: "Short little words lose their stress and flow right into the next word."
 status: draft
 entity_id: "LT01T03:L642"
 order: 15
 terms:
-  en: "unstressed short words"
-  es: "palabras cortas átonas"
-  it: "parole brevi atone"
-  fr: "mots courts atones"
-  de: "unbetonte kurze Wörter"
-  ru: "безударные короткие слова"
-  hu: "hangsúlytalan rövid szavak"
-  pt: "palavras curtas átonas"
-  ro: "cuvinte scurte neaccentuate"
+  en: "Unstressed short words"
+  es: "Palabras átonas"
+  it: "Parole atone"
+  fr: "Mots atones"
+  de: "Unbetonte Kurzwörter"
+  ru: "Безударные слова"
+  hu: "Hangsúlytalan szavak"
+  pt: "Palavras átonas"
+  ro: "Cuvinte atone"
 ---
 
-## Weak little words
-Some Romanian words are very short and light. The reflexive word **mă** is a good example. When we talk, these tiny words do not take a strong beat. They do not like to stand alone. Instead, they act like a little helper that leans directly onto the next word. You say both words together as if they were one single word.
+## The sound
+Some short words do not have their own beat.
+They sound light and weak.
+Listen to (mă uit) /mə ˈu̯it/, which means I look.
+The first tiny word has no loud beat.
+It leans on the second word.
+Together, they sound like one single word.
+Your voice stays smooth without any stop between them.
 
-## Mouth and voice
-Keep your mouth soft and relaxed when you start. The vowel in **mă** is quiet and short. Your voice stays low and gentle. Do not push extra air out of your lungs yet. Keep the breath flowing smoothly without stopping. Then, let your voice jump with more energy right onto the next word. That second word gets the big, strong beat.
+## How to say it
+Relax your mouth for the first word.
+Keep your voice low and quiet.
+Do not push air hard on it.
+Then, glide quickly into the next word.
+Make that second word louder and clearer.
+In (mă uit) /mə ˈu̯it/, drop stress on the start.
+Push energy only on the second part.
+Your breath flows continuously across both words.
 
-## The example sound
-Listen to the phrase **mă uit** /mə ˈu̯it/, which means "I look". Notice how your lips stay relaxed on the first part and then quickly round for the next sound. You do not hear two separate beats. It sounds like "mă-uit" spoken in one smooth breath. The voice rises and feels stronger on the main word.
+## Reading rules
+You see two words in writing, but you read one sound unit.
+Small helper words do not take the main stress.
+They always bond with the action word that follows.
+Another example is (te văd) /te ˈvəd/, which means I see you.
+Read them together in one smooth breath.
+Never pause between the two written words.
 
-## Mistakes to avoid
-English speakers often pause between words or make every word equally loud. Do not stop your voice after **mă**. If you say "mă... uit" with a break, it sounds unnatural. Also, do not hit **mă** with a heavy accent. Treat it like a tiny, quiet step that leads straight into the main action.
+## Common mistakes
+Do not stress the first word.
+Do not say it with heavy force.
+Never take a breath or stop between the words.
+A break makes your speech sound stiff and choppy.
+Do not pronounce the small word like an isolated unit.
+Keep your mouth loose, and slide right into the next sound.

@@ -20,18 +20,18 @@ terms:
   ro: "A"
 ---
 
-## Letter sound
+## The letter sound
 
-This letter is called /a/. Its main sound is the vowel sound /a/, heard in (apă) /ˈa.pə/, which means water. This letter makes only one sound in Romanian.
+The letter name is spoken as the sound /a/. Its main sound is heard in the word (apă) /ˈa.pə/, which means water. This letter makes only one sound in Romanian.
 
-## Mouth shape
+## Mouth movements
 
-Drop your jaw low and leave your lips relaxed and wide. Keep your tongue low and flat on the floor of your mouth, without pulling it back. Vibrate your vocal cords as the air leaves freely. Place your hand on your throat to feel the steady vibration.
+Open your mouth wide and relax your lips. Keep your tongue low and flat on the floor of your mouth. Let your vocal cords vibrate freely as air flows out. Place a hand on your throat to feel the steady vibration.
 
-## Reading rules
+## Reading the letter
 
-This letter always keeps the sound /a/ in all positions. It sounds the same whether it carries stress or remains unstressed, as shown in (casă) /ˈka.sə/.
+This letter always represents the sound /a/ in all positions. It keeps this sound whether stressed or unstressed, as in the word (casă) /ˈka.sə/.
 
 ## Common mistakes
 
-English speakers often weaken unstressed vowels into an obscure sound like the ending of sofa. Keep the vowel clear and open everywhere. Do not slide into the back vowel heard in father, but keep your tongue flat.
+Do not narrow your mouth into the vowel of the English word cat. Keep your mouth opened wide, like the vowel sound in father.

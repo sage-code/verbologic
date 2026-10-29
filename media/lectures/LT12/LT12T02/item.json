@@ -7,48 +7,39 @@
   "entity_id": "LT12T02",
   "locales": {
     "en": {
-      "name": "Presumptive mood, advanced tenses & subtle aspect",
-      "ipa": "/prɪˈzʌmptɪv ˈmuːd, ədˈvænst ˈtɛnsɪz ænd ˈsʌtəl ˈæspɛkt/",
+      "name": "Speculation, advanced tenses & subtle aspect",
       "description": "This is topic LT12T02 of chapter LT12."
     },
     "ro": {
-      "name": "Modul prezumtiv și nuanțe temporale avansate",
-      "ipa": "/ˈmodul prezumˈtiv ʃi nuˈantse tempoˈrale avanˈsate/",
+      "name": "Presupunerea, timpuri avansate și nuanțe de aspect",
       "description": "Acesta este subiectul LT12T02 din capitolul LT12."
     },
     "de": {
-      "name": "Vermutungsmodus, fortgeschrittene Zeitformen & subtile Aspekte",
-      "ipa": "/fɛɐ̯ˈmuːtʊŋsˌmoːdʊs, fɔʁtɡəˈʃʁɪtənə ˈtsaɪtfɔʁmən ʊnt zʊpˈtiːlə asˈpɛktə/",
+      "name": "Vermutung, fortgeschrittene Zeiten & feine Aspekte",
       "description": "Dies ist das Thema LT12T02 aus Kapitel LT12."
     },
     "ru": {
-      "name": "Предположительное наклонение, сложные времена и тонкие аспекты",
-      "ipa": "/prʲɪdpəlɐˈʐɨtʲɪlʲnəjə nəklɐˈnʲenʲɪjə, ˈsloʐnɨjə vrʲɪmʲɪˈna i ˈtonkʲɪjə ɐˈspʲɛktɨ/",
+      "name": "Предположение, сложные времена и тонкости вида",
       "description": "Это тема LT12T02 из главы LT12."
     },
     "it": {
-      "name": "Modo presuntivo, tempi avanzati e aspetti sottili",
-      "ipa": "/ˈmɔːdo prezunˈtiːvo, ˈtɛmpi avanˈtsaːti e asˈpɛtti sotˈtiːli/",
+      "name": "Ipotesi, tempi avanzati e sfumature dell'aspetto",
       "description": "Questo è l'argomento LT12T02 del capitolo LT12."
     },
     "es": {
-      "name": "Modo presuntivo, tiempos avanzados y aspectos sutiles",
-      "ipa": "/ˈmodo presunˈtiβo, ˈtjempoz aβanˈsaðos i asˈpektos suˈtiles/",
+      "name": "Suposición, tiempos avanzados y matices de aspecto",
       "description": "Este es el tema LT12T02 del capítulo LT12."
     },
     "fr": {
-      "name": "Mode présomptif, temps avancés et aspects subtils",
-      "ipa": "/mɔd pʁezɔ̃pˈtif, tɑ̃.z‿avɑ̃ˈse e asˈpɛ sypˈtil/",
+      "name": "Hypothèse, temps avancés et nuances d'aspect",
       "description": "Il s'agit du thème LT12T02 du chapitre LT12."
     },
     "hu": {
-      "name": "Feltételező mód, haladó igeidők és árnyalt aspektusok",
-      "ipa": "/ˈfɛlteːtɛlɛzøː ˈmoːd, ˈhɒlaːdoː ˈiɡɛidøːk eːʃ ˈaːrɲɒlt ɒʃˈpɛktuʃok/",
+      "name": "Feltevés, haladó igeidők és az aspektus árnyalatai",
       "description": "Ez az LT12T02 téma az LT12 fejezetből."
     },
     "pt": {
-      "name": "Modo presuntivo, tempos avançados e aspectos sutis",
-      "ipa": "/ˈmoðu pɾɨzũˈtivu, ˈtẽpuʒ ɐvɐ̃ˈsaðuʒ i ɐʃˈpɛktuʃ suˈtiʃ/",
+      "name": "Suposição, tempos avançados e nuances de aspeto",
       "description": "Este é o tópico LT12T02 do capítulo LT12."
     }
   },
@@ -56,10 +47,6 @@
     "title#topic"
   ],
   "files": {
-    "sound/ro.mp3": {
-      "bytes": 22176,
-      "sha1": "473bc2267e281d683b197868e58207c206126eef"
-    },
     "sound/en.mp3": {
       "bytes": 23616,
       "sha1": "b0835f725d6b41188d6b13943914460b7359c3f8"
@@ -68,13 +55,21 @@
       "bytes": 30528,
       "sha1": "06fcf659eb8aaaea622d358010874202cb3115cd"
     },
-    "sound/it.mp3": {
-      "bytes": 26784,
-      "sha1": "83fb89fe0aa2f05119248dbcc89a4a73b20b32b3"
+    "sound/ru.mp3": {
+      "bytes": 29376,
+      "sha1": "9ebe9b7c723b6813c4e8e3023b8ada14b423328b"
+    },
+    "sound/ro.mp3": {
+      "bytes": 22176,
+      "sha1": "473bc2267e281d683b197868e58207c206126eef"
     },
     "sound/es.mp3": {
       "bytes": 26064,
       "sha1": "42ffc1a901f8f204a489201d04636e9225b5667c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 27360,
+      "sha1": "535bf6133fba5643c8fcc8c8cc60e95eab8f3888"
     },
     "sound/pt.mp3": {
       "bytes": 23472,
@@ -84,13 +79,9 @@
       "bytes": 23472,
       "sha1": "bfe54f8e37f823b9c2645db36afe2a7f435a461c"
     },
-    "sound/hu.mp3": {
-      "bytes": 27360,
-      "sha1": "535bf6133fba5643c8fcc8c8cc60e95eab8f3888"
-    },
-    "sound/ru.mp3": {
-      "bytes": 29376,
-      "sha1": "9ebe9b7c723b6813c4e8e3023b8ada14b423328b"
+    "sound/it.mp3": {
+      "bytes": 26784,
+      "sha1": "83fb89fe0aa2f05119248dbcc89a4a73b20b32b3"
     }
   }
 }
