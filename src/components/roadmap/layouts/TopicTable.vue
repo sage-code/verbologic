@@ -58,8 +58,9 @@ function docLocale(r: MediaRow): string {
   return locales.includes(uiLang.value) ? uiLang.value : r.content?.canonical ?? 'en'
 }
 
-/** Prerendered article route of a row that carries an article (any track). */
-const articleHref = (r: MediaRow) => `/learn/${store.lang}/${store.track}/${r.topic}/${r.id}/${docLocale(r)}`
+/** The reading page of a row that carries an article (any track). */
+const articleHref = (r: MediaRow) =>
+  `/learn/read?id=${encodeURIComponent(`${r.topic}:${r.id}`)}&lang=${store.lang}&doc=${docLocale(r)}`
 
 /** Double-click on a row that has an article opens it, like its book button.
  *  A double-click on a control inside the row (play, learned...) does not. */

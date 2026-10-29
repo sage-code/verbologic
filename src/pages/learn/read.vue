@@ -1,5 +1,7 @@
-// Article page — /learn/:locale/:track/:topic/:id/:doc. Article prose is
-// queried at build time; media records load client-side.
+// Reading page — /learn/read?id=TOPIC:ID&lang=LEARNED&doc=READER.
+// ONE static page shows every article: the text comes from the `article_docs`
+// table (all languages of an article in one row), media records load client-side.
+// planning/content-in-database.md section 8.
 //
 // Panels differ by track, because the tracks differ in kind:
 // - lectures are DIRECTIONAL: the article explains one target-language item,
@@ -11,7 +13,9 @@
 import { computed, onMounted, ref, watch } from 'vue'
 import { ClockIcon, FilmIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 import { StopIcon } from '@heroicons/vue/24/solid'
-import { TRACK_IDS, type TrackId } from '~/data/tracks'
+import { type TrackId } from '~/data/tracks'
+import ArticleText from '~/components/ArticleText.vue'
+import { docsOf, trackOfTopic, type ArticleDoc, type ArticleNode, type ArticleRow } from '~/lib/article'
 import ArticleRail from '~/components/roadmap/ArticleRail.vue'
 import RailSplitter from '~/components/roadmap/RailSplitter.vue'
 import { LECTURE_ROWS_KEY } from '~/lib/lectureRows'
@@ -23,7 +27,7 @@ import { useRoadmapStore } from '~/stores/roadmapStore'
 import type { MediaRecord, MediaRow, StoryImage } from '~/types/media'
 import StoryPicture from '~/components/StoryPicture.vue'
 
-definePageMeta({ key: (pageRoute) => pageRoute.path })
+definePageMeta({ key: (pageRoute) => pageRoute.fullPath })
 
 const route = useRoute()
 const { lang: uiLang, ensureLocale } = useLocale()
@@ -32,13 +36,16 @@ const copy = useCopy()
 const media = useMedia()
 const { width: railWidth } = useRailWidth()
 
-const segment = (value: unknown): string => (Array.isArray(value) ? value[0] : (value as string) ?? '') ?? ''
+const param = (value: unknown): string => (Array.isArray(value) ? value[0] : (value as string) ?? '') ?? ''
 
-const trackLang = computed(() => segment(route.params.locale))
-const track = computed(() => segment(route.params.track))
-const topicCode = computed(() => segment(route.params.topic))
-const articleId = computed(() => segment(route.params.id))
-const docLocale = computed(() => segment(route.params.doc))
+/** `id` is the article's entity id, TOPIC:ID. */
+const entityId = computed(() => param(route.query.id))
+const topicCode = computed(() => entityId.value.split(':')[0] ?? '')
+const articleId = computed(() => entityId.value.split(':')[1] ?? '')
+/** The language being learned. */
+const trackLang = computed(() => param(route.query.lang) || 'ro')
+/** The reader's own language. */
+const docLocale = computed(() => param(route.query.doc) || uiLang.value)
 
 /** ISO country flag for a locale, falling back to the locale code itself. */
 const flagFor = (loc: string): string => languages.find((l) => l.locale === loc)?.flag ?? loc
@@ -68,42 +75,44 @@ const topicName = computed(() => {
   return mediaName(topic.names, uiLang.value, topicCode.value)
 })
 
-// Unknown track id → hard 404 (keeps crawlers and deep links honest).
-if (!(TRACK_IDS as readonly string[]).includes(track.value)) {
-  throw createError({ statusCode: 404, statusMessage: 'Track not found', fatal: true })
-}
+/** The article row: null while loading, `false` when the id has no row. */
+const articleRow = ref<ArticleRow | null | false>(null)
+const track = computed(() => articleRow.value ? articleRow.value.track : trackOfTopic(topicCode.value))
 
 /** Stories are reversible (two panels); every other track is directional. */
 const isStory = computed(() => track.value === 'stories')
 
-/**
- * Every doc of this article in ONE query: the route's explanation locale, its
- * canonical fallback, and the per-locale docs the reading panels need.
- * (The page used to run the same collection scan twice.)
- */
-const { data: articleData, error: markdownError } = await useAsyncData(
-  `article-${track.value}-${trackLang.value}-${topicCode.value}-${articleId.value}-${docLocale.value}`,
-  async () => {
-    const docs = await queryCollection('articles')
-      .where('article', '=', articleId.value)
-      .where('topic', '=', topicCode.value)
-      .where('track', '=', track.value)
-      .all()
-    const scoped = docs.filter((doc) => !doc.trackLang || doc.trackLang === trackLang.value)
-    const findDoc = (locale: string) => scoped.find((doc) => doc.locale === locale)
-    const mine = findDoc(docLocale.value)
-    // Shared articles use English as the canonical original. Legacy stories
-    // remain canonical in their learning language.
-    const sharedStory = track.value === 'stories' && docs.some((doc) => !doc.trackLang)
-    const canonicalLocale =
-      track.value === 'lectures' || track.value === 'dictionary' || sharedStory ? 'en' : trackLang.value
-    const doc = mine ?? findDoc(canonicalLocale)
-    return doc ? { docs: scoped, doc, fallback: !mine } : null
-  }
-)
+/** Every language of the article, plus the one the page shows by default. */
+const docs = computed<ArticleDoc[]>(() => (articleRow.value ? docsOf(articleRow.value) : []))
+const fallbackDoc = computed(() => docs.value.find((doc) => doc.locale === 'en') ?? docs.value[0] ?? null)
+const loading = computed(() => articleRow.value === null)
 
-if (markdownError.value || !articleData.value) {
-  throw createError({ statusCode: 404, statusMessage: 'Article not found', fatal: true })
+/** Fetch the article row. Rows are cached for the session: a page turn costs nothing. */
+const rowCache = new Map<string, ArticleRow | false>()
+async function loadArticle() {
+  const id = entityId.value
+  if (!id) {
+    articleRow.value = false
+    return
+  }
+  const cached = rowCache.get(id)
+  if (cached !== undefined) {
+    articleRow.value = cached
+    return
+  }
+  const client = useSupabase()
+  if (!client) {
+    articleRow.value = false
+    return
+  }
+  const { data, error } = await (client as any)
+    .from('article_docs')
+    .select('entity_id,track,topic,targets,related,meta,locales')
+    .eq('entity_id', id)
+    .maybeSingle()
+  const row = error || !data ? false : ({ ...data, languages: Object.keys(data.locales) } as ArticleRow)
+  rowCache.set(id, row)
+  articleRow.value = row
 }
 
 const record = ref<MediaRecord | null>(null)
@@ -121,8 +130,8 @@ const mediaError = ref<string | null>(null)
  * A story is reversible: the same story exists in many languages, so the left
  * panel is the learning language and the right is the reader's translation.
  */
-const markdownDoc = computed(() => articleData.value?.doc ?? null)
-const articleDocs = computed(() => articleData.value?.docs ?? [])
+const markdownDoc = computed(() => fallbackDoc.value)
+const articleDocs = docs
 
 /**
  * The reader's own language — the panel language for a directional article.
@@ -133,11 +142,7 @@ const articleDocs = computed(() => articleData.value?.docs ?? [])
  * The segment is only a hint for a visitor who has not chosen a language.
  */
 const readerLocale = computed(() => {
-  // Lectures are authored once, in English, about the TARGET language — the
-  // reader's UI language never selects a doc, so a stray native-language file
-  // can never shadow the English original.
-  const wanted = track.value === 'lectures' ? ['en'] : [uiLang.value, docLocale.value, 'en']
-  for (const locale of wanted) {
+  for (const locale of [uiLang.value, docLocale.value, 'en']) {
     const doc = articleDocs.value.find((d) => d.locale === locale)
     if (doc) return doc
   }
@@ -163,10 +168,6 @@ const hasTranslation = computed(
   () => isStory.value && storyNativeDoc.value !== storyTargetDoc.value
 )
 
-/** Top-level body nodes of a doc (Nuxt Content minimark tuples). */
-const bodyNodes = (doc: unknown): unknown[] =>
-  (doc as { body?: { value?: unknown[] } } | null)?.body?.value ?? []
-
 /**
  * A reading page: the blocks to show, and the index of its FIRST section.
  *
@@ -176,7 +177,7 @@ const bodyNodes = (doc: unknown): unknown[] =>
  * audio starts, and the next page's first section is where it ends.
  */
 interface ReadingPage {
-  nodes: unknown[]
+  nodes: ArticleNode[]
   section: number
 }
 
@@ -188,12 +189,8 @@ interface ReadingPage {
  */
 const PAGE_TEXT_BUDGET = 2200
 
-/** Characters of text under a minimark node — what a section costs on a page. */
-function textLength(node: unknown): number {
-  if (typeof node === 'string') return node.length
-  if (!Array.isArray(node)) return 0
-  return node.slice(2).reduce((sum: number, child) => sum + textLength(child), 0)
-}
+/** Characters of text in a block — what a section costs on a page. */
+const textLength = (node: ArticleNode): number => node.text.length
 
 /**
  * Split a document into pages — ONE rule for every track, so stories, lectures
@@ -207,24 +204,19 @@ function textLength(node: unknown): number {
  * Page boundaries only ever fall between sections, so audio offsets (one per
  * section) stay valid however the sections are packed.
  */
-function paginate(nodes: unknown[], perPage: number): ReadingPage[] {
-  const isHeading = (n: unknown) =>
-    Array.isArray(n) && (n[0] === 'h2' || n[0] === 'h3')
-  const isParagraph = (n: unknown) => Array.isArray(n) && n[0] === 'p'
-
-  if (!nodes.some(isHeading)) {
-    const paragraphs = nodes.filter(isParagraph)
+function paginate(nodes: ArticleNode[], perPage: number): ReadingPage[] {
+  if (!nodes.some((n) => n.t === 'h')) {
+    const paragraphs = nodes.filter((n) => n.t === 'p')
     const pages: ReadingPage[] = []
     for (let start = 0; start < paragraphs.length; start += perPage) {
       pages.push({ nodes: paragraphs.slice(start, start + perPage), section: start })
     }
     return pages
   }
-  const sections: unknown[][] = []
-  let current: unknown[] | null = null
+  const sections: ArticleNode[][] = []
+  let current: ArticleNode[] | null = null
   for (const node of nodes) {
-    if (!Array.isArray(node)) continue
-    if (isHeading(node)) {
+    if (node.t === 'h') {
       if (current) sections.push(current)
       current = [node]
     } else if (current) {
@@ -238,7 +230,7 @@ function paginate(nodes: unknown[], perPage: number): ReadingPage[] {
   const pages: ReadingPage[] = []
   let used = 0
   sections.forEach((section, index) => {
-    const cost = section.reduce((sum: number, node) => sum + textLength(node), 0)
+    const cost = section.reduce((sum, node) => sum + textLength(node), 0)
     const page = pages[pages.length - 1]
     if (page && used + cost <= PAGE_TEXT_BUDGET) {
       page.nodes.push(...section)
@@ -255,14 +247,14 @@ function paginate(nodes: unknown[], perPage: number): ReadingPage[] {
  * Paragraphs per reading page of a story, from its front matter. The schema
  * allows 1 to 3; a document that does not say is one paragraph per page.
  */
-const paragraphsPerPage = (doc: unknown): number =>
-  Math.min(3, Math.max(1, Math.floor((doc as { paragraphsPerPage?: number } | null)?.paragraphsPerPage ?? 1)))
+const paragraphsPerPage = (doc: ArticleDoc | null): number =>
+  Math.min(3, Math.max(1, Math.floor(doc?.paragraphsPerPage ?? 1)))
 
 const targetPages = computed(() =>
-  paginate(bodyNodes(storyTargetDoc.value), paragraphsPerPage(storyTargetDoc.value))
+  paginate(storyTargetDoc.value?.nodes ?? [], paragraphsPerPage(storyTargetDoc.value))
 )
 const nativePages = computed(() =>
-  paginate(bodyNodes(storyNativeDoc.value), paragraphsPerPage(storyNativeDoc.value))
+  paginate(storyNativeDoc.value?.nodes ?? [], paragraphsPerPage(storyNativeDoc.value))
 )
 
 /** Pages to page through — the longer of the two panels, never zero. */
@@ -287,10 +279,7 @@ function stopStory() {
 }
 
 const storyTargetPage = computed(() => {
-  const doc = storyTargetDoc.value
-  if (!doc) return null
-  const page = targetPages.value[storyPage.value]
-  return page ? { ...doc, body: { ...doc.body, value: page.nodes } } : null
+  return targetPages.value[storyPage.value]?.nodes ?? null
 })
 
 /**
@@ -321,12 +310,12 @@ const storyImage = computed<StoryImage | null>(() => {
  * paragraphs of the panel's own language, so the two panels stay aligned even
  * when a translation splits a paragraph differently.
  */
-function numberedParagraphs(doc: typeof storyTargetDoc.value, pages: ReadingPage[], page: number) {
+function numberedParagraphs(doc: ArticleDoc | null, pages: ReadingPage[], page: number) {
   const current = pages[page]
   if (!doc || !current) return []
   return current.nodes.map((node, index) => ({
     number: current.section + index + 1,
-    doc: { ...doc, body: { ...doc.body, value: [node] } }
+    nodes: [node]
   }))
 }
 const storyTargetParagraphs = computed(() =>
@@ -434,7 +423,7 @@ const cursivePair = computed(() => {
 })
 const articleStatus = computed(() => markdownDoc.value?.status ?? 'draft')
 const articleMinutes = computed(() => markdownDoc.value?.minutes ?? null)
-const isFallback = computed(() => track.value !== 'lectures' && (articleData.value?.fallback ?? false))
+const isFallback = computed(() => Boolean(readerLocale.value) && !articleDocs.value.some((d) => d.locale === uiLang.value) && uiLang.value !== 'en')
 watch(
   () => [articleId.value, storyPageCount.value],
   () => {
@@ -454,6 +443,13 @@ onMounted(async () => {
   // The reader's language drives the panel and its audio, so it must be loaded
   // before the record is resolved — otherwise `uiLang` is still the default.
   await ensureLocale()
+  try {
+    await loadArticle()
+  } catch (cause) {
+    articleRow.value = false
+    mediaError.value = cause instanceof Error ? cause.message : String(cause)
+  }
+  if (!articleRow.value) return
   try {
     const list = await media.fetchTopic(`library/${track.value}`, topicCode.value)
     const targetRows = list.filter((r: MediaRecord) => r.lang === trackLang.value)
@@ -476,8 +472,9 @@ provide(DICTIONARY_TERM_KEY, targetTerm)
 
 /** Localized titles per doc — deep links stay stable across translations. */
 useSeoMeta({
-  title: () => articleTitle.value,
-  description: () => articleSummary.value
+  title: () => (articleRow.value ? articleTitle.value : 'Article'),
+  description: () => articleSummary.value,
+  robots: () => (articleRow.value === false ? 'noindex' : undefined)
 })
 </script>
 
@@ -504,7 +501,11 @@ useSeoMeta({
     <RailSplitter v-if="!isStory" inset="var(--gutter-x)" />
 
     <div class="flex min-w-0 min-h-0 flex-col">
-      <article class="flex min-h-0 flex-1 flex-col gap-3">
+      <p v-if="loading" class="text-sm text-muted" role="status">{{ copy('ui.loading', 'Loading…') }}</p>
+      <p v-else-if="articleRow === false" class="text-sm text-muted" role="alert">
+        {{ copy('lecture.not_found', 'This article was not found.') }}
+      </p>
+      <article v-else class="flex min-h-0 flex-1 flex-col gap-3">
         <header class="shrink-0 space-y-2">
           <!-- ONE title row: the flag, the track, the topic and the article
                title all sit on the same line, so the header costs a single row
@@ -712,15 +713,15 @@ useSeoMeta({
                 <template v-if="isStory">
                   <div v-for="paragraph in storyShownParagraphs" :key="paragraph.number" class="story-paragraph">
                     <p class="story-paragraph-number" aria-hidden="true">{{ paragraph.number }}.</p>
-                    <ContentRenderer
-                      :value="paragraph.doc"
+                    <ArticleText
+                      :nodes="paragraph.nodes"
                       class="lecture-prose story-page-content text-sm leading-relaxed text-content sm:text-base"
                     />
                   </div>
                 </template>
-                <ContentRenderer
+                <ArticleText
                   v-else-if="storyTargetPage"
-                  :value="storyTargetPage"
+                  :nodes="storyTargetPage"
                   class="lecture-prose story-page-content text-sm leading-relaxed text-content sm:text-base"
                 />
               </div>

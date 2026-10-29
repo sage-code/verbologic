@@ -1,82 +1,5 @@
 import { fileURLToPath } from 'node:url'
 import navigation from './src/data/navigation.json'
-import { readdirSync, existsSync, readFileSync } from 'node:fs'
-import { join } from 'node:path'
-
-/**
- * Topic → the target languages it exists for, read from the lecture sidebar.
- * A directional topic (`mode: 'directional'`, e.g. the German alphabet) exists
- * for exactly one language — its `target`; absent that it exists for every
- * language. Prerendering a language-owned topic for all nine languages would
- * emit eight pages that can never be reached — the runtime drops the topic for
- * every language it does not belong to.
- */
-function lectureTopicScopes(): Map<string, string[]> {
-  const file = fileURLToPath(
-    new URL('./src/data/sidebars/library/lectures/sidebar.json', import.meta.url)
-  )
-  const scopes = new Map<string, string[]>()
-  if (!existsSync(file)) return scopes
-  const sidebar = JSON.parse(readFileSync(file, 'utf8'))
-  const all = navigation.languages.map((l) => l.locale)
-  for (const section of sidebar.sections ?? []) {
-    for (const topic of section.topics ?? []) {
-      const langs =
-        topic.mode === 'directional' && topic.target ? [topic.target] : all
-      scopes.set(topic.code, langs)
-    }
-  }
-  return scopes
-}
-
-/**
- * Enumerate prerendered article routes from the content tree. Every article —
- * dictionary, lecture, story, and the alphabet letters — is Markdown under
- * content/, so this is the single source of truth for article routes.
- *
- * A directional lecture topic (the German alphabet) exists for one target
- * language only; a shared one exists for every language. Markdown is stored
- * once per explanation locale, so each doc fans out across the target
- * languages that can reach it.
- */
-function contentDocRoutes(): string[] {
-  const root = fileURLToPath(new URL('./content', import.meta.url))
-  const routes: string[] = []
-  const allLangs = navigation.languages.map((l) => l.locale)
-  const lectureScopes = lectureTopicScopes()
-  const walk = (dir: string, parts: string[] = []) => {
-    if (!existsSync(dir)) return
-    for (const entry of readdirSync(dir, { withFileTypes: true })) {
-      const next = [...parts, entry.name]
-      if (entry.isDirectory()) {
-        walk(join(dir, entry.name), next)
-      } else if (entry.isFile() && entry.name.endsWith('.md')) {
-        const locale = entry.name.replace(/\.md$/, '')
-        if (parts[0] === 'dictionary' && parts.length === 3) {
-          const [, topic, article] = parts
-          for (const language of allLangs) {
-            routes.push(`/learn/${language}/dictionary/${topic}/${article}/${locale}`)
-          }
-        } else if (parts[0] === 'lectures' && parts.length === 3) {
-          const [, topic, article] = parts
-          for (const language of lectureScopes.get(topic) ?? allLangs) {
-            routes.push(`/learn/${language}/lectures/${topic}/${article}/${locale}`)
-          }
-        } else if (parts[0] === 'stories' && parts.length === 3) {
-          const [, topic, article] = parts
-          for (const language of allLangs) {
-            routes.push(`/learn/${language}/stories/${topic}/${article}/${locale}`)
-          }
-        } else if (parts.length === 4) {
-          const [track, trackLang, topic, article] = parts
-          routes.push(`/learn/${trackLang}/${track}/${topic}/${article}/${locale}`)
-        }
-      }
-    }
-  }
-  walk(root)
-  return routes
-}
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -121,10 +44,9 @@ export default defineNuxtConfig({
         ...navigation.languages.flatMap((l) =>
           ['dictionary', 'lectures', 'stories'].map((t) => `/learn/${l.locale}/${t}`)
         ),
-        // Article prose is prerendered per explanation-locale doc. Shared
-        // dictionary, lecture, and shared story docs produce routes for every
-        // registered target language; legacy stories retain their own tree.
-        ...contentDocRoutes()
+        // Every article (lecture, story) opens on this one page; its text is read
+        // from the `article_docs` table in the browser (planning/content-in-database.md section 8).
+        '/learn/read'
       ]
     }
   },
