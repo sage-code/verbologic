@@ -24,7 +24,7 @@ Verbologic maintenance runner
   ./run.sh validate                      Entity/nav/locale integrity checks
   ./run.sh seed export [--check]         Export content to seed/*.json (the DB import source)
   ./run.sh seed import [--dry-run]       Load seed/*.json into the Supabase content tables
-  ./run.sh export [--dry-run]            Synchronize the database (payloads → seed/*.json → Supabase)
+  ./run.sh sync [--dry-run]              Synchronize the database (payloads → seed/*.json → Supabase; prunes rows the seed no longer has)
   ./run.sh heartbeat                     Ping Supabase (keeps the Free-tier project from pausing)
   ./run.sh missing                       Missing-content inventory (planned items → temp/missing-content.md)
   ./run.sh media index [--pretty]        Build public/data/media payloads (sidebars + manifests + config)
@@ -49,7 +49,7 @@ Verbologic maintenance runner
   ./run.sh commit "<message>"            Stage + commit all changes
   ./run.sh push [--force]                Push current branch (throttled: max 1 push / 2h; --force bypasses)
   ./run.sh release "<message>"           build → validate → media manifest → commit → push (throttled)
-  ./run.sh publish ["<message>"]         Full publish: export → build → validate → media → release → deploy (throttled)
+  ./run.sh publish ["<message>"]         Full publish: sync → build → validate → media → release → deploy (throttled)
   ./run.sh deploy                        Wrangler deploy (Workers Static Assets, differential)
   ./run.sh deploy-dry                    Validate wrangler.toml without uploading
 EOF
@@ -114,24 +114,24 @@ differential_build() {
   say "Build finished → .output/public"
 }
 
-# do_export [--dry-run] — synchronize the database with media/.
+# do_sync [--dry-run] — synchronize the database with media/.
 # The roadmap counts come from Supabase, so a word that exists only on disk
 # renders its chapter as "coming soon" — this is the step that makes new
 # content visible.
 #   1. media-index  rebuilds public/data/media/** from media/ + sidebars
 #   2. seed-export  regenerates seed/*.json from those payloads
 #   3. seed-import  upserts seed/*.json into Supabase (and prunes stale rows)
-do_export() {
+do_sync() {
   local dry="${1:-}"
   say "Synchronizing the database (payloads → seed → Supabase)…"
   node scripts/media-index.mjs || fail "media index failed"
   node scripts/seed-export.mjs || fail "seed export failed"
   if [[ "$dry" == "--dry-run" ]]; then
     node scripts/seed-import.mjs --dry-run || fail "seed import dry-run failed"
-    say "Export dry run ✓ — seed/*.json regenerated, database untouched."
+    say "Sync dry run ✓ — seed/*.json regenerated, database untouched."
   else
     node scripts/seed-import.mjs || fail "seed import failed"
-    say "Export ✓ — database synchronized with media/."
+    say "Sync ✓ — database synchronized with media/."
   fi
 }
 
@@ -190,8 +190,9 @@ case "${1:-help}" in
       *) fail "usage: ./run.sh seed <export|import> [--check|--dry-run]" ;;
     esac ;;
   heartbeat) node scripts/db-heartbeat.mjs ;;
-  export)
-    do_export "${2:-}"
+  sync|export)
+    [[ "${1:-}" == export ]] && warn "'run.sh export' is now 'run.sh sync' (it also imports into Supabase)"
+    do_sync "${2:-}"
     ;;
   missing)   node scripts/missing-content.mjs ;;
   media)
@@ -307,9 +308,9 @@ case "${1:-help}" in
     # The push throttle is honored — a throttled push still deploys, because the
     # deploy uploads .output/public directly and does not depend on the push.
     msg="${2:-publish $(date +%Y-%m-%d %H:%M)}"
-    say "Publishing: export → build → validate → release → deploy"
-    say "── 1/5 database export ──"
-    do_export
+    say "Publishing: sync → build → validate → release → deploy"
+    say "── 1/5 database sync ──"
+    do_sync
     say "── 2/5 build ──"
     differential_build
     say "── 3/5 validate ──"

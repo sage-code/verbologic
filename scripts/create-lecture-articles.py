@@ -15,9 +15,9 @@ shared topic list; fill in the examples and IPA (no G2P — see CLAUDE.md).
 
 Every article is written ONCE, in simple English, about the target language
 (there are no per-locale translations: the reader falls back to English).
-Convention for the audio script: a target-language word goes in ( ) and is NOT
-read; the IPA in / / right after it is read (transliterated by
-scripts/lib/ipa-translit.mjs), then the meaning.
+Convention for the audio script: a target-language word goes in ( ) and is read by the
+native voice of the target language; the IPA in / / right after it is shown to the reader
+and is NEVER read (scripts/generate-audio.py, synthesize_sections_mixed), then the meaning.
 
 Each article is written to content/lectures/<TOPIC>/<ID>.json (the `en` page; any other
 language already in the file is kept) as a draft, plus
@@ -150,14 +150,18 @@ CLOSED WORD LIST. These are the ONLY {language} words you may write, each with i
 {word_list}
 Do not write any other {language} word, not even a common one, not even in a comparison. If you
 need another example, say "another word" or use an English word in single quotes. You do not know
-the right IPA of any other word, and a wrong one is read aloud to learners.
+the right IPA of any other word, and a wrong word is read aloud and a wrong IPA is shown to learners.
 
 AUDIO CONVENTION (strict). Every listed {language} word goes in round brackets and is followed AT
 ONCE by its IPA between slashes, copied exactly from the list. Then give the meaning if it helps.
   Right: Listen to ({item['example']}) {item['ipa']}, which means {item['gloss']}.
   Wrong: Listen to {item['example']}.  /  ({item['example']}) with no IPA after it.  /  IPA changed.
-The audio reads the IPA, not the word in brackets, so a bracketed word with no IPA leaves a hole in
-the sentence. Use round brackets for nothing else.
+The audio reads the word in brackets in a native voice of {language} and never reads the IPA. The IPA
+is there so the reader can see the pronunciation, so every bracketed word needs it right after it.
+Pronunciation is taught through these words: say "you hear it in ({item['example']}) {item['ipa']}",
+never "the sound /x/" with a bare IPA, because a bare IPA is silent in the recording and leaves a hole.
+Every sentence must still be complete and correct when all IPA is deleted from it. Use round brackets
+for nothing else.
 
 Write exactly four sections, with these exact headings, in this order:
 ## {SECTION_TITLES[0]}
@@ -198,11 +202,15 @@ def check_article(result: dict[str, Any], item: dict[str, Any]) -> list[str]:
 
     if not set(words_only(item["example"]).split()) <= set(words_only(body).split()):
         problems.append(f"example '{item['example']}' not in body")
-    # The audio script reads the IPA, not the bracketed word: a bracketed word
-    # with no IPA right after it leaves a hole in the spoken sentence.
+    # The audio reads the bracketed word in a native voice and never the IPA: the
+    # reader still needs the IPA after every word, and an IPA with no word before it
+    # is silent, so the sentence around it would have a hole.
     bare = re.findall(r"\([^)]*\)(?! /)", body)
     if bare:
         problems.append(f"bracketed word without IPA after it: {bare[:3]}")
+    orphan = re.findall(r"(?<!\) )/[^/\s]+/", body)
+    if orphan:
+        problems.append(f"IPA without its (word) before it: {orphan[:3]}; name the sound with an example word")
     # Closed list: only the seed's words, with the seed's IPA. Anything else is invented.
     allowed = allowed_words(item)
     for word, ipa in re.findall(r"\(([^)]*)\) (/[^/]+/)", body):

@@ -835,11 +835,11 @@ Markdown and manifests.
 ./run.sh seed import --dry-run
 ```
 
-`./run.sh export` chains the three steps that must always run together —
+`./run.sh sync` chains the three steps that must always run together —
 `media-index` → `seed export` → `seed import` — so the database cannot drift
 from `media/`. This matters because the roadmap counts come from Supabase: a
 word that exists only on disk renders its chapter as "coming soon". Use
-`./run.sh export --dry-run` to regenerate `seed/` and report what the import
+`./run.sh sync --dry-run` to regenerate `seed/` and report what the import
 would write without touching the database.
 
 `./run.sh publish` is the one-command ship: `export` → `build` → `validate` →

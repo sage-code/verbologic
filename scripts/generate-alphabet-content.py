@@ -16,8 +16,9 @@ Two stages, so every locale is written from the same words: stage 1 fixes the
 facts (example, translations, variations); stage 2 writes the pages per locale
 from those facts only. A page is also read aloud, so stage 2 output is checked
 against the spoken-form rules (SPOKEN_FORM_RULES) and rejected if it breaks
-them. Foreign words are written `(word) /ipa/`: shown, but skipped by the voice,
-which speaks only the respelled IPA (scripts/lib/ipa-translit.mjs).
+them. Target-language words are written `(word) /ipa/`: the word is read aloud by
+the native voice of the target language, and the IPA is shown for the reader but
+never read (scripts/generate-audio.py, synthesize_sections_mixed).
 
 The article is a reference card, not an essay. Each page has ONE job and the
 letter's own sounds only: a letter group (ch, qu, ou, ai, gn, ill, -tion) is a
@@ -200,8 +201,9 @@ def build_request(entry: dict[str, Any], with_facts: bool = False) -> dict[str, 
     return request
 
 
-#: IPA as the site writes it. Slashes are what the TTS pre-processor recognises
-#: (scripts/lib/ipa-translit.mjs), so this is a contract, not a style choice.
+#: IPA as the site writes it. Slashes are what the read-aloud splitter recognises
+#: (split_target_words in scripts/generate-audio.py), so this is a contract, not
+#: a style choice.
 IPA_FORMAT = (
     "broad phonemic IPA between slashes, real IPA characters, syllables "
     "separated by a dot, no stress marks, no square brackets (e.g. /ka.fe/); "
@@ -210,18 +212,22 @@ IPA_FORMAT = (
 
 #: Pages are also read aloud. A voice of the reader's language cannot say a
 #: foreign word, so the pairing `(word) /ipa/` is the whole trick: the word in
-#: round brackets is shown but SKIPPED by the voice, and the IPA after it is
-#: respelled in the voice's own alphabet and spoken. These rules make the same
-#: text correct for the eye and for the ear.
+#: round brackets is read by a NATIVE voice of the target language, and the IPA
+#: after it is shown on screen for the reader but never read. These rules make
+#: the same text correct for the eye and for the ear.
 SPOKEN_FORM_RULES = (
-    "WRITING RULES. Every page is shown on screen AND read aloud by a "
-    "text-to-speech voice of the page's language, which cannot pronounce "
-    "words of the target language. Follow all of them exactly:\n"
+    "WRITING RULES. Every page is shown on screen AND read aloud. The page's "
+    "own language is read by a text-to-speech voice of that language; every "
+    "target-language word in round brackets is read by a native voice of the "
+    "target language; IPA is shown but NEVER read aloud. Follow all of them "
+    "exactly:\n"
     "R1. Every target-language word is written as `(word) /ipa/`: the word in "
     "round brackets exactly as spelled, one space, then its IPA between "
-    "slashes. The voice skips the bracketed word and speaks only the IPA. "
-    "Never put the IPA inside the brackets, never put anything but the word "
-    "inside them, and never wrap the pair in bold, italics, quotes or backticks.\n"
+    "slashes. The native voice says the bracketed word; the IPA is only for "
+    "the reader's eye, so it must always be present after the word and is "
+    "never spoken. Never put the IPA inside the brackets, never put anything "
+    "but the word inside them, and never wrap the pair in bold, italics, "
+    "quotes or backticks.\n"
     "R2. Round brackets are used ONLY for rule R1. No asides, no abbreviations "
     "or explanations in brackets.\n"
     "R3. A slash is used ONLY around IPA. Write lists in words (\"a, o or u\", "
@@ -236,8 +242,13 @@ SPOKEN_FORM_RULES = (
     "square brackets or line breaks. One paragraph per page.\n"
     "R6. Sentences are short (20 words at most) and make sense when only "
     "heard. Do not use symbols such as -> = + & ~ or abbreviations "
-    "(e.g., etc., cf.). Never leave an IPA symbol standing alone: say what it "
-    "is (\"sunetul /k/\", \"the sound /k/\").\n"
+    "(e.g., etc., cf.). Pronunciation is taught through WORDS: say a sound by "
+    "pointing to a word that has it (\"you hear it in (casă) /ka.sə/\"), "
+    "because a voice cannot read a sound written only in IPA. IPA that stands "
+    "alone (\"the sound /k/\") is silent in the recording, so it may appear "
+    "only in a sentence that also holds a `(word) /ipa/` pair, and every "
+    "sentence must still be complete and correct when all IPA is deleted from "
+    "it.\n"
     "R7. Write in the page's language with its full correct orthography and "
     "diacritics (Romanian: comma-below ș and ț, never cedilla). Address the "
     "learner directly.\n"
@@ -245,20 +256,15 @@ SPOKEN_FORM_RULES = (
     "others: never open with a reference to another page (\"as we saw\", "
     "\"the second sound\"). Naming the letter by its name is allowed on every "
     "page; no other fact is repeated.\n"
-    "R9. Never put a `(word) /ipa/` pair next to a word of the page's language "
-    "that sounds like the respelled IPA: the voice would say it twice "
-    "(Romanian \"litera (cé) /se/ se pronunță\" is heard as \"se se\"). "
-    "Rephrase the sentence instead.\n"
-    "R10. Never write /∅/ in the prose: the voice reads it as a word "
-    "(\"nimic\", \"nothing\"). Say in words that the letter is not pronounced, "
-    "then give the example.\n"
-    "R11. The voice reads IPA through a respelling in the page's language, so "
-    "two different symbols can come out identical (Romanian reads both /o/ and "
-    "/ɔ/ as \"o\", and both /æ/ and /ɑː/ as \"a\"). When two variants of this "
-    "letter would be heard the same, add a short qualifier in the page's "
-    "language right after the symbol (\"sunetul /ɔ/, adică un o deschis\"; "
-    "\"sunetul /æ/, adică un a deschis, între a și e\"). Never leave the "
-    "learner unable to tell the variants apart by ear.\n"
+    "R9. The native voice says each bracketed word once. Do not repeat the "
+    "word in the page's own language right before it, and put the meaning "
+    "after the pair (\"(apă) /a.pə/, which means water\"), never inside the "
+    "brackets.\n"
+    "R10. Never write /∅/ in the prose: it is silent in the recording. Say in "
+    "words that the letter is not pronounced, then give the example word.\n"
+    "R11. Two sounds of one letter must each have their own example word, "
+    "because the learner hears the difference only through the words the native "
+    "voice reads. Never describe a contrast with IPA symbols alone.\n"
     "R12. A GROUP article (\"-tion\", \"kn-\", \"-gh(t)\", \"th\") is about a "
     "SPELLING, not a letter and not a word. Write the group's own spelling "
     "bare, with no brackets and no IPA — it is the subject of the page. So "
@@ -301,9 +307,8 @@ SPOKEN_FORM_RULES = (
     "your lips\", \"touch your upper teeth with your tongue tip\". English pages are read by learners from every country, so "
     "never write \"English speakers\" or name any nationality; write \"you\" "
     "and warn about the mistake itself, comparing with a very common English "
-    "word (\"do not say it like the vowel in cat\"). Add the \"that is\" "
-    "qualifier of rule R11 ONLY when two sounds would be heard the same, never "
-    "after every symbol. A letter-group page speaks of \"the letters ea\" and "
+    "word (\"do not say it like the vowel in cat\"). "
+    "A letter-group page speaks of \"the letters ea\" and "
     "what they sound like; never write \"this letter pair is called a "
     "sound\".\n"
     "R19. ONLY for Romanian pages: never use the words rotunjit, rotunjită, "
@@ -326,21 +331,6 @@ BANNED_TERMS = {
 #: together they should fill the reading area: about 280 words, which the
 #: reading view packs onto one page.
 PAGE_LIMITS = {"sound": 55, "howToSay": 70, "spelling": 85, "compare": 70}
-
-
-#: "that is", per page language: what rule R11's qualifier opens with. The
-#: validator (validate_sections) accepts exactly these words after a symbol.
-QUALIFIER_CONNECTIVES = {
-    "en": "that is",
-    "ro": "adică",
-    "es": "es decir",
-    "fr": "c'est-à-dire",
-    "de": "das heißt",
-    "ru": "то есть",
-    "hu": "azaz",
-    "pt": "ou seja",
-    "it": "cioè",
-}
 
 
 def prompt_meta(batch: list[dict[str, Any]], lang: str) -> str:
@@ -408,32 +398,6 @@ def prompt_sections(
         if feedback
         else ""
     )
-    # Tell the model which variant pairs its reader's voice cannot distinguish,
-    # so it qualifies them in words instead of leaving two identical sounds.
-    collisions: list[str] = []
-    for entry in batch:
-        for locale in locales:
-            for ipa_a, ipa_b, spoken in colliding_variants(entry, locale):
-                collisions.append(
-                    f"  {entry.get('code')} [{locale}]: {ipa_a} and {ipa_b} both "
-                    f"sound like \"{spoken}\" — qualify each in words"
-                )
-    # The validator looks for the connective right after the symbol, so the
-    # model is shown the exact form, in each page language, not just the rule.
-    qualifier_forms = "; ".join(
-        f"{locale}: \"/symbol/, {QUALIFIER_CONNECTIVES[locale]} a short description\""
-        for locale in locales
-    )
-    collision_note = (
-        "\n\nSOUND COLLISIONS. In these languages the voice pronounces the two "
-        "symbols identically, so the page MUST add a short qualifier in words "
-        "after each symbol (rule R11), written exactly as the symbol, a comma, "
-        f"the connective and a plain description ({qualifier_forms}). Every "
-        "symbol listed below gets its own qualifier, even when the two sound "
-        "alike to the learner:\n" + "\n".join(collisions) + "\n"
-        if collisions
-        else ""
-    )
     return (
         f"You are an expert {language} phonetician and teacher writing the "
         f"alphabet reference articles of a language-learning site. The target "
@@ -480,7 +444,7 @@ def prompt_sections(
         "pitfall, say so in one sentence.\n"
         "Use the room each page allows, but only for true, useful facts: never "
         "pad, never repeat, never add encouragement.\n\n"
-        f"{SPOKEN_FORM_RULES}{glossary.writing_block()}\n{collision_note}\n"
+        f"{SPOKEN_FORM_RULES}{glossary.writing_block()}\n"
         "Return ONLY JSON of the shape "
         '{"items":[{"code":"L001","sections":{"<locale>":{"sound":{"title":"...",'
         '"text":"..."},"howToSay":{...},"spelling":{...},"compare":{...}}}}]}, '
@@ -515,59 +479,6 @@ def entry_words(entry: dict[str, Any]) -> dict[str, set[str]]:
         for example in variant.get("examples") or []:
             add(example.get("word"), example.get("ipa"))
     return words
-
-
-def respell(ipas: list[str], locale: str) -> list[str]:
-    """What each IPA span will SOUND like in `locale`, via the real transliterator.
-
-    The validator has to judge the recording, not the page: two different
-    symbols can respell to the same string in the reader's language (Romanian
-    reads both /æ/ and /ɑː/ as "a"), and a page that lists them without a
-    qualifier leaves the learner unable to tell the variants apart by ear.
-    Delegating to scripts/lib/ipa-translit.mjs keeps this check honest — a
-    Python copy of the map would drift from the one the audio is built with.
-    """
-    if not ipas:
-        return []
-    payload = json.dumps([{"ipa": ipa, "lang": locale} for ipa in ipas]).encode("utf-8")
-    try:
-        done = subprocess.run(
-            ["node", str(ROOT / "scripts" / "lib" / "respell-cli.mjs")],
-            input=payload,
-            capture_output=True,
-            timeout=60,
-        )
-    except (OSError, subprocess.SubprocessError):
-        return []
-    if done.returncode != 0:
-        return []
-    try:
-        return [str(x) for x in json.loads(done.stdout.decode("utf-8"))]
-    except (ValueError, TypeError):
-        return []
-
-
-def colliding_variants(entry: dict[str, Any], locale: str) -> list[tuple[str, str, str]]:
-    """Variant pairs that the voice would pronounce identically.
-
-    Returns `(ipa_a, ipa_b, respelling)` for each pair of the letter's own
-    variants whose respelling in `locale` is the same. The page must then
-    qualify them in words ("un a deschis", "un a lung"), because the symbols
-    alone are indistinguishable once spoken.
-    """
-    ipas = [str(v.get("ipa") or "").strip() for v in entry.get("variations") or []]
-    ipas = [ipa for ipa in ipas if ipa and ipa != "/∅/"]
-    if len(ipas) < 2:
-        return []
-    spoken = respell(ipas, locale)
-    if len(spoken) != len(ipas):
-        return []
-    out: list[tuple[str, str, str]] = []
-    for i in range(len(ipas)):
-        for j in range(i + 1, len(ipas)):
-            if spoken[i] and spoken[i] == spoken[j]:
-                out.append((ipas[i], ipas[j], spoken[i]))
-    return out
 
 
 def bare_foreign_words(text: str, facts: dict[str, set[str]]) -> list[str]:
@@ -792,54 +703,49 @@ def validate_sections(
                     "the page's language — name the letter in the (word) /ipa/ form instead"
                 )
             problems.extend(spoken_form_problems(tag, text, outside_ipa))
+            problems.extend(bare_ipa_problems(tag, text))
             words = len(outside_ipa.split())
             if words > round(PAGE_LIMITS[key] * 1.15):
                 problems.append(f"{tag} has {words} words, the limit is {PAGE_LIMITS[key]}")
-        # Two variants the voice pronounces identically must be told apart in
-        # words, or the learner hears the same sound twice with no way to know
-        # which is which. Checked once per locale, on the page that lists them.
-        for ipa_a, ipa_b, spoken in colliding_variants(entry, locale):
-            if not any(
-                ipa_a in str((page_set.get(key) or {}).get("text") or "")
-                and ipa_b in str((page_set.get(key) or {}).get("text") or "")
-                for key in SECTION_KEYS
-            ):
-                continue
-            qualified = any(
-                re.search(rf"{re.escape(ipa_a)}[^./]{{0,40}}(adică|that is|es decir|c'est-à-dire|das heißt|то есть|azaz|ou seja|cioè)", str((page_set.get(key) or {}).get("text") or ""), re.IGNORECASE)
-                or re.search(rf"{re.escape(ipa_b)}[^./]{{0,40}}(adică|that is|es decir|c'est-à-dire|das heißt|то есть|azaz|ou seja|cioè)", str((page_set.get(key) or {}).get("text") or ""), re.IGNORECASE)
-                for key in SECTION_KEYS
+    return problems
+
+
+PAIR = re.compile(r"\(([^()/\n]{1,60})\)\s*(/[^/\n]+/)")
+
+
+def bare_ipa_problems(tag: str, text: str) -> list[str]:
+    """Sentences that lean on IPA the recording does not read (rule R6).
+
+    The voice reads `(word)` and skips every /ipa/, and the recording leaves out
+    a sentence that holds IPA but no `(word) /ipa/` pair, so such a sentence is
+    shown on screen and missing from the audio.
+    """
+    problems: list[str] = []
+    for sentence in re.split(r"(?<=[.!?])\s+", text):
+        if IPA_SPAN.search(sentence) and not PAIR.search(sentence):
+            problems.append(
+                f"{tag} has a sentence with IPA but no (word) /ipa/ pair: '{sentence.strip()[:60]}'; "
+                "IPA is not read aloud, so name the sound with an example word (rule R6)"
             )
-            if not qualified:
-                problems.append(
-                    f"[{locale}] variants {ipa_a} and {ipa_b} both sound like '{spoken}' in this "
-                    "language; qualify them in words so the learner can tell them apart by ear"
-                )
     return problems
 
 
 def spoken_preview(texts: list[str], locale: str) -> list[str]:
-    """What the TTS stage will actually say — the same node transliterator."""
-    script = (
-        "import {transliterate} from './scripts/lib/ipa-translit.mjs';"
-        "let s='';process.stdin.on('data',d=>s+=d);"
-        "process.stdin.on('end',()=>{const p=JSON.parse(s);"
-        "process.stdout.write(JSON.stringify(p.map(t=>transliterate(t,process.argv[1]))));});"
-    )
-    # Same Markdown stripping the read pass applies before transliterating.
-    cleaned = [re.sub(r"[*_`>]+", "", text) for text in texts]
-    result = subprocess.run(
-        ["node", "--input-type=module", "-e", script, locale],
-        input=json.dumps(cleaned),
-        capture_output=True,
-        text=True,
-        encoding="utf-8",
-        cwd=ROOT,
-        timeout=60,
-    )
-    if result.returncode != 0:
-        raise RuntimeError(result.stderr.strip()[:200] or "node exited non-zero")
-    return json.loads(result.stdout)
+    """What the recording will say: the prose, and each (word) in the target voice.
+
+    Mirrors split_target_words in scripts/generate-audio.py: IPA is dropped, and
+    a sentence that holds IPA but no `(word) /ipa/` pair is left out.
+    """
+    out: list[str] = []
+    for text in texts:
+        text = re.sub(r"[*_`>]+", "", text)
+        kept = [
+            sentence for sentence in re.split(r"(?<=[.!?])\s+", text)
+            if not (IPA_SPAN.search(sentence) and not PAIR.search(sentence))
+        ]
+        said = IPA_SPAN.sub("", " ".join(kept))
+        out.append(re.sub(r"\s+", " ", re.sub(r"\(([^()]*)\)", r"[\1]", said)).strip())
+    return out
 
 
 def parse_model_json(text: str) -> Any:

@@ -411,6 +411,91 @@ async def synthesize_sections(
             temporary.unlink(missing_ok=True)
 
 
+#: `(word) /ipa/`: the word is spoken, the IPA after it is not. A bare `/ipa/` is dropped too.
+#: Slashes around Cyrillic are "and/or", not IPA.
+_IPA = r"/(?![^/\n]*[А-Яа-яЁё])[^/\n]{1,60}/"
+TARGET_WORD = re.compile(rf"\(([^)\n]{{1,60}})\)\s*{_IPA}|{_IPA}")
+
+
+def split_target_words(text: str) -> list[tuple[str, str]]:
+    """Cut a lecture page into ("say", prose) and ("word", target-language word) pieces."""
+    # A sentence that only makes sense with its IPA ("spoken as the sound /ɨ/.")
+    # would read as a fragment, so it is left out of the recording; the page still shows it.
+    sentences = re.split(r"(?<=[.!?])\s+", text)
+    text = " ".join(
+        sentence for sentence in sentences
+        if not (re.search(_IPA, sentence) and not re.search(rf"\([^)\n]{{1,60}}\)\s*{_IPA}", sentence))
+    )
+    pieces: list[tuple[str, str]] = []
+    cursor = 0
+    for match in TARGET_WORD.finditer(text):
+        before = text[cursor : match.start()]
+        if re.search(r"\w", before):
+            pieces.append(("say", before))
+        if match.group(1):
+            pieces.append(("word", match.group(1).strip()))
+        cursor = match.end()
+    tail = text[cursor:]
+    if re.search(r"\w", tail):
+        pieces.append(("say", tail))
+    return pieces
+
+
+async def synthesize_sections_mixed(
+    sections: list[str], voice: str, output: Path, target_voice: str
+) -> list[float]:
+    """`synthesize_sections` for lecture articles that quote words of the language taught.
+
+    Edge TTS cannot read IPA and rejects <phoneme>, and a respelling mispronounces
+    the word, so the prose is read in the reader's voice and each `(word)` in the
+    native voice of the language being taught (`target_voice`). IPA is never spoken.
+    The pieces are joined as raw MP3 segments; page offsets are the summed lengths.
+    """
+    output.parent.mkdir(parents=True, exist_ok=True)
+    temporary = output.with_name(f".{output.stem}.tmp{output.suffix}")
+    offsets: list[float] = []
+    elapsed = 0.0
+
+    async def speak(piece: str, chosen: str) -> tuple[bytes, float]:
+        audio = bytearray()
+        piece_end = 0.0
+        async for chunk in edge_tts.Communicate(piece, chosen).stream():
+            if chunk["type"] == "audio":
+                audio.extend(chunk["data"])
+            elif chunk["type"] in ("SentenceBoundary", "WordBoundary"):
+                end = (chunk.get("offset", 0) + chunk.get("duration", 0)) / 10_000_000
+                piece_end = max(piece_end, end)
+        if not audio:
+            raise IOError(f"Edge TTS produced no audio for {piece!r}")
+        return bytes(audio), piece_end
+
+    async with tts_slots():
+        try:
+            with temporary.open("wb") as handle:
+                for section in sections:
+                    offsets.append(round(elapsed, 3))
+                    for kind, piece in split_target_words(section):
+                        if kind == "say":
+                            data, seconds = await speak(piece, voice)
+                        else:
+                            try:
+                                data, seconds = await speak(piece, target_voice)
+                            except edge_tts.exceptions.NoAudioReceived:
+                                # the sibling voice of the same language, as for whole pages
+                                sibling = sibling_voice(target_voice)
+                                if not sibling:
+                                    raise
+                                data, seconds = await speak(piece, sibling)
+                        handle.write(data)
+                        elapsed += seconds
+            if not temporary.is_file() or temporary.stat().st_size == 0:
+                raise IOError(f"no audio produced for {output}")
+            temporary.replace(output)
+            return offsets
+        finally:
+            temporary.unlink(missing_ok=True)
+
+
 # Edge TTS drops the websocket under load and reports NoAudioReceived for text it
 # would happily synthesize a moment later, so every clip gets a few attempts.
 TTS_ATTEMPTS = 4
@@ -472,20 +557,27 @@ def sibling_voice(voice: str) -> str | None:
 
 
 async def synthesize_sections_with_fallback(
-    sections: list[str], voice: str, output: Path
+    sections: list[str], voice: str, output: Path, target_voice: str | None = None
 ) -> tuple[str, list[float]]:
     """`synthesize_sections`, falling back to the sibling voice on refusal.
 
-    Returns the voice that produced the file and the per-page offsets.
+    With a `target_voice` the `(word)` quotes are read in that voice and IPA is
+    not read (see `synthesize_sections_mixed`). Returns the voice that produced the file and
+    the per-page offsets.
     """
+    def run(chosen: str):
+        if target_voice:
+            return synthesize_sections_mixed(sections, chosen, output, target_voice)
+        return synthesize_sections(sections, chosen, output)
+
     try:
-        offsets = await with_retries(lambda: synthesize_sections(sections, voice, output))
+        offsets = await with_retries(lambda: run(voice))
         return voice, offsets
     except (edge_tts.exceptions.NoAudioReceived, ConnectionError, asyncio.TimeoutError):
         sibling = sibling_voice(voice)
         if not sibling:
             raise
-        offsets = await with_retries(lambda: synthesize_sections(sections, sibling, output))
+        offsets = await with_retries(lambda: run(sibling))
         return sibling, offsets
 
 
@@ -838,12 +930,24 @@ async def apply_read(
     # loop, so doing it inside `run()` serialized the whole batch. One node call
     # for the whole run, not one per article — 3,267 spawns is minutes of
     # process startup before a single byte of audio is requested.
+    # A lecture article that teaches one language quotes its words as `(word) /ipa/`:
+    # the word is read in that language's native voice and the IPA is not read, so
+    # those pages are not respelled.
+    def mixed_target(item: dict[str, Any]) -> str | None:
+        target = item.get("target")
+        if item.get("track") == "lectures" and target in LOCALES:
+            return voice_for(str(target), item)
+        return None
+
     if pending:
-        flat = [section for job in pending for section in job[3]]
-        locales = [job[2] for job in pending for _ in job[3]]
-        spoken_all = transliterate_many(flat, locales)
+        respell = [job for job in pending if not mixed_target(job[1])]
+        flat = [section for job in respell for section in job[3]]
+        locales = [job[2] for job in respell for _ in job[3]]
+        spoken_all = transliterate_many(flat, locales) if flat else []
         cursor = 0
         for index, (path, item, locale, sections, voice, output) in enumerate(pending):
+            if mixed_target(item):
+                continue
             count = len(sections)
             pending[index] = (path, item, locale, spoken_all[cursor : cursor + count], voice, output)
             cursor += count
@@ -851,7 +955,7 @@ async def apply_read(
     async def run(job) -> bool:
         path, item, locale, spoken, voice, output = job
         try:
-            used, offsets = await synthesize_sections_with_fallback(spoken, voice, output)
+            used, offsets = await synthesize_sections_with_fallback(spoken, voice, output, mixed_target(item))
         except Exception as error:  # noqa: BLE001 - report and keep going
             print(
                 f"read generation failed: {display_media_path(output)} "
