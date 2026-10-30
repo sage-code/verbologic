@@ -29,7 +29,8 @@
     "ru": {
       "name": "Í",
       "description": "Название буквы: í. Пример: íz.",
-      "ipa": "/i/"
+      "ipa": "/i/",
+      "ttsText": "И с акутом"
     },
     "it": {
       "name": "Í",
@@ -62,16 +63,48 @@
   },
   "files": {
     "sound/hu.mp3": {
-      "bytes": 7344,
-      "sha1": "2640eb8171e4f6d3962e7c9b0c647954fea065a2"
+      "bytes": 11232,
+      "sha1": "f3c980eee9901c747cdc65616225dc6f8398be53"
     },
     "read/hu.mp3": {
       "bytes": 500256,
       "sha1": "cf51adb17e0b62db6058f2e1eeda0de12e441cdc"
     },
     "read/en.mp3": {
-      "bytes": 535248,
-      "sha1": "7303947791b6dab1baf5b02dd5cc33f825eb8d41"
+      "bytes": 345456,
+      "sha1": "aef1ae6b4a33801de3bf22bf833996751c2364c7"
+    },
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "50594d71842ef9586f38a10f321f31809b161bd1"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "27ed06f0c3f14875e067c6d019932eff4d5c3a37"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "573f146166b8eab5af6ba3dc1828ccbebdb0aaa8"
+    },
+    "sound/es.mp3": {
+      "bytes": 8064,
+      "sha1": "dd1ba93a203a09f5f4eb3ceebe0f9dd3f181f85b"
+    },
+    "sound/it.mp3": {
+      "bytes": 4752,
+      "sha1": "45d1b114844380c4f39f5a0f12f0503765d63362"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "3a649a1455e381f445689058705924dbdb28bc7f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "c9c12be3116eb2bdd67b75cb4004a5d911ae96c7"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11664,
+      "sha1": "39de08adc0d3e0049ede6fe23220f4e029de5810"
     }
   },
   "readSections": {
@@ -83,9 +116,9 @@
     ],
     "en": [
       0,
-      22.637,
-      41.95,
-      63.925
+      13.262,
+      31,
+      40.2
     ]
   },
   "legacy_entity_id": "LT01T14:L499"

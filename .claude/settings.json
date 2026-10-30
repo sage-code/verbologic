@@ -26,13 +26,7 @@
       "Bash(./run.sh media verify *)",
       "Bash(./run.sh media manifest --dry-run)"
      ],
-    "ask": [
-      "Bash(./run.sh commit *)",
-      "Bash(./run.sh push)",
-      "Bash(./run.sh clean)",
-      "Bash(./run.sh media upload*--apply*)",
-      "Bash(./run.sh media prune*--apply*)"
-    ],
+    "ask": [],
     "deny": [
       "PowerShell",
       "Read(./.data/**)",

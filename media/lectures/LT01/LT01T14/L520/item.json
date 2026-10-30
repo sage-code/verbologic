@@ -29,7 +29,8 @@
     "ru": {
       "name": "Ü",
       "description": "Название буквы: ü. Пример: üveg.",
-      "ipa": "/u ˈʊmlaʊt/"
+      "ipa": "/u ˈʊmlaʊt/",
+      "ttsText": "У с умлаутом"
     },
     "it": {
       "name": "Ü",
@@ -63,15 +64,47 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "7b11d1a1c96a17e530ce4b5863160243588c4003"
+      "sha1": "df1d36d0bc483b6d578eb819ad61244f7da7fae6"
     },
     "read/hu.mp3": {
       "bytes": 462528,
       "sha1": "4b3eb6d293f15f918f49f2c912e26ff509a528d9"
     },
     "read/en.mp3": {
-      "bytes": 452592,
-      "sha1": "71d5921846d1d10f5e234699a7ec23802b35f598"
+      "bytes": 275040,
+      "sha1": "3d8540907e26fe0ee43187b5d33abc04b6de4f88"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "104f2a2ab8fb6339b2bec8873167b409e4b9de40"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "a84a90a3ab9a075c4143af2a094ee4e4daee111d"
+    },
+    "sound/it.mp3": {
+      "bytes": 4320,
+      "sha1": "a57ae7b327c105c01a1e5f2511fb877699e83f6e"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "b4b7858aee0608a792cafb2905a73c3c3608a8dd"
+    },
+    "sound/fr.mp3": {
+      "bytes": 7200,
+      "sha1": "7e1875f483a57fb9b08cb5ff22f904b5f407a437"
+    },
+    "sound/es.mp3": {
+      "bytes": 12384,
+      "sha1": "3b03d562365cd2cb1dbd0352894788780726f31b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "fc7f4ed6f8ed477db0ef0bb76af6b22f352e380e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12528,
+      "sha1": "ca6ea4f1e475e97dca9da46d5d00ff929ac33e52"
     }
   },
   "readSections": {
@@ -83,9 +116,9 @@
     ],
     "en": [
       0,
-      17.5,
-      34.712,
-      53.062
+      9.863,
+      26.425,
+      32.2
     ]
   },
   "legacy_entity_id": "LT01T14:L520"

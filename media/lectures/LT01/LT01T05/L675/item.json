@@ -10,55 +10,161 @@
   "tags": [],
   "locales": {
     "en": {
-      "name": "pronunciation of într-o"
+      "name": "weak joining"
     },
     "es": {
-      "name": "pronunciación de într-o"
+      "name": "enlace débil"
     },
     "it": {
-      "name": "pronuncia di într-o"
+      "name": "legamento debole"
     },
     "fr": {
-      "name": "prononciation de într-o"
+      "name": "liaison faible"
     },
     "de": {
-      "name": "Aussprache von într-o"
+      "name": "schwache Verbindung"
     },
     "ru": {
-      "name": "произношение într-o"
+      "name": "слабое слияние"
     },
     "hu": {
-      "name": "az într-o kiejtése"
+      "name": "gyenge összekapcsolás"
     },
     "pt": {
-      "name": "pronúncia de într-o"
+      "name": "ligação fraca"
     },
     "ro": {
-      "name": "pronunțarea lui într-o"
+      "name": "rostire legată slabă"
     }
   },
   "files": {
     "read/en.mp3": {
-      "bytes": 503856,
-      "sha1": "cab01fb11a7676a4f1cd59da61f1ad14895cb4fa"
+      "bytes": 392688,
+      "sha1": "8e26f185493156899116a63f6dd135035592ddbb"
     },
     "read/ro.mp3": {
       "bytes": 567504,
       "sha1": "a2912e36a20d26cdc8af1a85adf204e67a19d8f7"
+    },
+    "read/de.mp3": {
+      "bytes": 585936,
+      "sha1": "0897dcbdb8875592e7cf94dd345732cecf650a40"
+    },
+    "read/fr.mp3": {
+      "bytes": 494352,
+      "sha1": "d8b346954f78ba2d8718f3c811325b1384ef8a4c"
+    },
+    "read/it.mp3": {
+      "bytes": 526464,
+      "sha1": "643060eb13da63c8ed9bb668ccd91da1a9d25810"
+    },
+    "read/es.mp3": {
+      "bytes": 540288,
+      "sha1": "783d16d9598c80e30cd625b312931cb15dc073ac"
+    },
+    "read/hu.mp3": {
+      "bytes": 612000,
+      "sha1": "284474772caee38595d4dd456391c3f558ec87d5"
+    },
+    "read/ru.mp3": {
+      "bytes": 591264,
+      "sha1": "d82673f86eb90fd9e33f2de426de30075cb74677"
+    },
+    "read/pt.mp3": {
+      "bytes": 455184,
+      "sha1": "f564277353622eab894b7a1c431941108e942736"
+    },
+    "sound/en.mp3": {
+      "bytes": 15264,
+      "sha1": "b952c5fd39dd39726596fb093defcdf41a1ff4b4"
+    },
+    "sound/ro.mp3": {
+      "bytes": 13680,
+      "sha1": "e41a3058daa7121f667216ccbc7db72fc6680541"
+    },
+    "sound/de.mp3": {
+      "bytes": 14544,
+      "sha1": "85ca637931cb6bfdd2354c3b308a44ee257f53a3"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15552,
+      "sha1": "93bc6cbaa379a1ce89fbaca858c8786331b9ada4"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "962f1e1b3d31b4a802995cdfe34f50c35169f4fa"
+    },
+    "sound/es.mp3": {
+      "bytes": 14256,
+      "sha1": "bc3bf778ee83fab63e4fd2d0493aa035caa9dc8e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13968,
+      "sha1": "1917a5ac8b0797f129dd5ecfb204205ffa74e7d6"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15264,
+      "sha1": "f5cd8c3d6ff8778a9478e1d77df2f7c93cdb9d81"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16272,
+      "sha1": "36c5c7947034c1fe3b5e0d4e540598fadef74c62"
     }
   },
   "readSections": {
     "en": [
       0,
-      22.3,
-      43.3,
-      64.062
+      22.25,
+      42.925,
+      63.037
     ],
     "ro": [
       0,
-      24.438,
-      49.175,
-      71.875
+      25.6,
+      50.125,
+      72.213
+    ],
+    "de": [
+      0,
+      25.887,
+      50.5,
+      73.625
+    ],
+    "fr": [
+      0,
+      21.75,
+      42.513,
+      62.738
+    ],
+    "it": [
+      0,
+      22.137,
+      44.375,
+      64.85
+    ],
+    "es": [
+      0,
+      22.975,
+      47.138,
+      67.488
+    ],
+    "hu": [
+      0,
+      27.125,
+      54.312,
+      77.375
+    ],
+    "ru": [
+      0,
+      25.688,
+      50.987,
+      74.713
+    ],
+    "pt": [
+      0,
+      20.212,
+      39.925,
+      57.75
     ]
   }
 }

@@ -10,55 +10,161 @@
   "tags": [],
   "locales": {
     "en": {
-      "name": "Clitic mi-e"
+      "name": "clitic contraction"
     },
     "es": {
-      "name": "Clítico mi-e"
+      "name": "contracción clítica"
     },
     "it": {
-      "name": "Clitico mi-e"
+      "name": "contrazione clitica"
     },
     "fr": {
-      "name": "Clitique mi-e"
+      "name": "contraction clitique"
     },
     "de": {
-      "name": "Klitikon mi-e"
+      "name": "klitische Kontraktion"
     },
     "ru": {
-      "name": "Клитика mi-e"
+      "name": "энклитическое слияние"
     },
     "hu": {
-      "name": "A mi-e klitikum"
+      "name": "hangtani összevonás"
     },
     "pt": {
-      "name": "Clítico mi-e"
+      "name": "contração clítica"
     },
     "ro": {
-      "name": "Cliticul mi-e"
+      "name": "contragere clitică"
     }
   },
   "files": {
     "read/en.mp3": {
-      "bytes": 622512,
-      "sha1": "5672e08f49d889b24862fe68edf4405b82279c3e"
+      "bytes": 371376,
+      "sha1": "6c65e29bdb682d94c49a18ce8f54d546807f6ed2"
+    },
+    "read/de.mp3": {
+      "bytes": 775440,
+      "sha1": "abdfb898bfbe258744720fd4f89cf0b5caedba80"
+    },
+    "read/es.mp3": {
+      "bytes": 677232,
+      "sha1": "465101267899385809ca9304dca5ffd69f2ae92f"
+    },
+    "read/it.mp3": {
+      "bytes": 664992,
+      "sha1": "8ad4d737188ecd2776d27a9bb1c3dabf834c252a"
+    },
+    "read/fr.mp3": {
+      "bytes": 655632,
+      "sha1": "601f3a495475fd2a527afd798bbc83eaa638cacc"
     },
     "read/ro.mp3": {
       "bytes": 740592,
       "sha1": "f6b848d841bef08257fbe06535af12a813b4aa13"
+    },
+    "read/ru.mp3": {
+      "bytes": 760752,
+      "sha1": "45a5406557217dd79dfb1b8c602a928861a5cb3d"
+    },
+    "read/hu.mp3": {
+      "bytes": 767952,
+      "sha1": "9bfc1c6a8a9aef957d0f0a1a99d6d0682c7745b1"
+    },
+    "read/pt.mp3": {
+      "bytes": 602352,
+      "sha1": "6b400b91b3bcaef5e0688bb04e40221552cfcf71"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "652b7b94aea32ac300e9d1a5fd11239b563f0409"
+    },
+    "sound/ro.mp3": {
+      "bytes": 10944,
+      "sha1": "eabe4aacfad9f0a0642a7db5bce493bfde435ac9"
+    },
+    "sound/de.mp3": {
+      "bytes": 13536,
+      "sha1": "09d9d984ad6f3becdb6306401052d5ae94fc6ea6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12096,
+      "sha1": "9daf5b9ebdb724b2b8c8a5bad766212825e0a543"
+    },
+    "sound/it.mp3": {
+      "bytes": 7344,
+      "sha1": "77dc74eadf47989074b70b4e4d6e8c75e39fcb8d"
+    },
+    "sound/es.mp3": {
+      "bytes": 11520,
+      "sha1": "47319c8c0f2ba16802c9fa52a6e905666a96c6df"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "04a82b7cac8e1453c983476fb8af478129b5f43f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14112,
+      "sha1": "c7d66d71c9d5ffe8152624b7b52583fa66463d59"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12096,
+      "sha1": "5a71ec78f75480e29b676ccc8ad60f9d3b50d8f2"
     }
   },
   "readSections": {
     "en": [
       0,
-      29.137,
-      54.037,
-      80.162
+      28.4,
+      53.3,
+      78.775
+    ],
+    "de": [
+      0,
+      37.675,
+      66.85,
+      97.05
+    ],
+    "es": [
+      0,
+      28.988,
+      56.062,
+      84.088
+    ],
+    "it": [
+      0,
+      28.275,
+      55.513,
+      83.588
+    ],
+    "fr": [
+      0,
+      29.113,
+      54.725,
+      81.963
     ],
     "ro": [
       0,
-      32.438,
-      61.062,
-      91.725
+      32.013,
+      60.638,
+      90.825
+    ],
+    "ru": [
+      0,
+      34.938,
+      64.612,
+      94.925
+    ],
+    "hu": [
+      0,
+      33.725,
+      65,
+      96.525
+    ],
+    "pt": [
+      0,
+      27.125,
+      51.1,
+      75.612
     ]
   }
 }

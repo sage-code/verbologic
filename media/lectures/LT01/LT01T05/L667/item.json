@@ -10,55 +10,161 @@
   "tags": [],
   "locales": {
     "en": {
-      "name": "Contraction n-a"
+      "name": "short form n-a"
     },
     "es": {
-      "name": "Contracción n-a"
+      "name": "contracción n-a"
     },
     "it": {
-      "name": "Contrazione n-a"
+      "name": "contrazione n-a"
     },
     "fr": {
-      "name": "Contraction n-a"
+      "name": "contraction n-a"
     },
     "de": {
-      "name": "Kontraktion n-a"
+      "name": "Kurzform n-a"
     },
     "ru": {
-      "name": "Стяжение n-a"
+      "name": "краткая форма n-a"
     },
     "hu": {
-      "name": "Az n-a összevonás"
+      "name": "n-a összevonás"
     },
     "pt": {
-      "name": "Contração n-a"
+      "name": "contração n-a"
     },
     "ro": {
-      "name": "Contragerea n-a"
+      "name": "forma scurtă n-a"
     }
   },
   "files": {
     "read/en.mp3": {
-      "bytes": 625536,
-      "sha1": "6d58ffba51a24a97150f5624d89c420b28212e25"
+      "bytes": 359280,
+      "sha1": "283a728877aeb3e0fb3e3e06822bd428ebfbe965"
+    },
+    "read/de.mp3": {
+      "bytes": 727920,
+      "sha1": "4e47f0e3c1c3c2783c806c0ecb838b9de8225e0c"
+    },
+    "read/es.mp3": {
+      "bytes": 704736,
+      "sha1": "e20e4f201be28fd5475e932b7d6756027e6120c9"
+    },
+    "read/fr.mp3": {
+      "bytes": 672768,
+      "sha1": "6217ab8fc11f4ade3afc694e43780e584291ccbf"
+    },
+    "read/it.mp3": {
+      "bytes": 634608,
+      "sha1": "8b1814b3d3619b6aae7b518e805297d5de47399c"
     },
     "read/ro.mp3": {
       "bytes": 729648,
       "sha1": "189b9e307aa02fd9c9f19c2aca51e07abceb799a"
+    },
+    "read/hu.mp3": {
+      "bytes": 726768,
+      "sha1": "19bfb858d37f447a1093d280ce8cd5ed4b5c306c"
+    },
+    "read/pt.mp3": {
+      "bytes": 601344,
+      "sha1": "d66d46746c82b90ecc807881cde7ae01f0d7e282"
+    },
+    "read/ru.mp3": {
+      "bytes": 764640,
+      "sha1": "c2dfb95cac34efb5f0c57bf2e5185d9ec7d0a9f9"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "67373f248584201d6b6fe7ffffeaddd25af0da70"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11664,
+      "sha1": "a054beab95c7eab07b63b6c2a4b8ec941d24ab9e"
+    },
+    "sound/de.mp3": {
+      "bytes": 13104,
+      "sha1": "fcdcbbe7f1f1f21267fe09033fe726fd5ca46f33"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12816,
+      "sha1": "8312bf7a82c1cf23082fd1ce071dae6c6230f757"
+    },
+    "sound/it.mp3": {
+      "bytes": 9792,
+      "sha1": "a8f403b67313a096b299201c50a3cfeae83ac75d"
+    },
+    "sound/es.mp3": {
+      "bytes": 12816,
+      "sha1": "19e70de7f36e50afeb48755d103a1e50e49048cc"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12672,
+      "sha1": "93316ce150ec418f64aa15b067014ca5fa69f157"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15120,
+      "sha1": "bbd11f5734857638274f025a5c2de6fcab116afe"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14112,
+      "sha1": "9de9a6047867b5d6ff3a18440954232aeac49613"
     }
   },
   "readSections": {
     "en": [
       0,
       27.238,
-      52.1,
-      79.725
+      51.425,
+      78.112
+    ],
+    "de": [
+      0,
+      31.575,
+      62.487,
+      90.825
+    ],
+    "es": [
+      0,
+      30.175,
+      58.237,
+      87.188
+    ],
+    "fr": [
+      0,
+      31.038,
+      57.975,
+      84.662
+    ],
+    "it": [
+      0,
+      26.562,
+      52.062,
+      79.763
     ],
     "ro": [
       0,
       31.712,
-      63.287,
-      93.662
+      62.837,
+      92.537
+    ],
+    "hu": [
+      0,
+      33.788,
+      64.013,
+      92.975
+    ],
+    "pt": [
+      0,
+      27.637,
+      52.225,
+      75.45
+    ],
+    "ru": [
+      0,
+      35.688,
+      66.287,
+      96.2
     ]
   }
 }

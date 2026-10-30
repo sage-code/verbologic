@@ -31,7 +31,8 @@
     "ru": {
       "name": "Â",
       "description": "Буква Â — это символ румынского алфавита.",
-      "ipa": "/a s t͡sɨrkʊmˈflʲɛksəm/"
+      "ipa": "/a s t͡sɨrkʊmˈflʲɛksəm/",
+      "ttsText": "А с циркумфлексом"
     },
     "it": {
       "name": "Â",
@@ -62,23 +63,55 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "629664a831abdeeec044320dd6b75ce372ca31b2"
+      "sha1": "125908fa3da96e7353807350064b348b88dde48f"
     },
     "read/ro.mp3": {
       "bytes": 498096,
       "sha1": "799eeec8d5f0881c9191448f6bc3f385c2ad3a51"
     },
     "read/en.mp3": {
-      "bytes": 593280,
-      "sha1": "bfb707fcda53864408fcc4fe545a7067f80adb23"
+      "bytes": 292752,
+      "sha1": "52c9b1b9719e7f761457031d4e95d3477f021ed3"
+    },
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "38c81d1b3b92b8d48fe65d43cf48ac41d7a3e633"
+    },
+    "sound/it.mp3": {
+      "bytes": 4464,
+      "sha1": "575ad44f18175630c63df3e98d3fd7d88741086f"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "0e976687131bd0cbc53cdb00f0fd354c33f5c47c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 7488,
+      "sha1": "09b8bdb7ab6f28d871cb984a8c8a3b742e780208"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "0a10ff0be771bcbf06c5d6d494640e05bcf254d2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "fe64bce726162533ac9abf3eac570a8971f9a04b"
+    },
+    "sound/de.mp3": {
+      "bytes": 7344,
+      "sha1": "e882a83d1b79a5188f3d7849cdafe610a90a6c37"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14544,
+      "sha1": "2d8fa2abd8615e6f4752e3e61e3ed43be8b960cd"
     }
   },
   "readSections": {
     "en": [
       0,
-      27.363,
-      49.213,
-      75.775
+      10.9,
+      26.288,
+      36.2
     ],
     "ro": [
       0,

@@ -31,7 +31,8 @@
     "ru": {
       "name": "Ț",
       "description": "Буква Ț — двадцать первая буква румынского алфавита.",
-      "ipa": "/t͡sɛ/"
+      "ipa": "/t͡sɛ/",
+      "ttsText": "Тэ с запятой"
     },
     "it": {
       "name": "Ț",
@@ -69,16 +70,24 @@
       "sha1": "0f7dbfeec73d72102296c931c6d460e4c10cfefb"
     },
     "read/en.mp3": {
-      "bytes": 498960,
-      "sha1": "5ce9fed4b87a50300ec34b76d80d217789be73b0"
+      "bytes": 346176,
+      "sha1": "c3e282fdfdcc88c3097b6ae013f96afff6cadf2e"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d08095a2fec551c88aa0cac6e77a26194484227b"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12528,
+      "sha1": "887c5491c1ea532efc10f2d4b3a88c2a485b0765"
     }
   },
   "readSections": {
     "en": [
       0,
-      20.7,
-      37.925,
-      60.65
+      12.375,
+      28.938,
+      42.263
     ],
     "ro": [
       0,

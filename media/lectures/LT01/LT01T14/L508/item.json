@@ -29,7 +29,8 @@
     "ru": {
       "name": "Ó",
       "description": "Название буквы: ó. Пример: óra.",
-      "ipa": "/o/"
+      "ipa": "/o/",
+      "ttsText": "О с акутом"
     },
     "it": {
       "name": "Ó",
@@ -63,15 +64,47 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "c027666175f972fcce942f3357f029fddf4af3dd"
+      "sha1": "f9aeab2ee1f7b518193e52a37999ac8ab3602dbc"
     },
     "read/hu.mp3": {
       "bytes": 490464,
       "sha1": "e76be1f18ebc035dad15a8cc62e2ac36b2ee7804"
     },
     "read/en.mp3": {
-      "bytes": 461664,
-      "sha1": "97abf2a1b622d5b3cd2a9a9c723994302edabf7f"
+      "bytes": 254880,
+      "sha1": "b83c5680e1ace9d1bce03f2b7cf855df059c98d4"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "504bd693b4fcab84129b88884a685db202871506"
+    },
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "025bfc548fa5be931fc440cd7fc85c2dfc39a6e0"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "de20ce9988a5ee3a02243213ee1130bc56e8d717"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "9b3817cf2a07a4e57b06ba67f223c27775e27c24"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "6f4e58271739c5654a1ef8d4f325d0fe29d54a87"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "f45489785368b8d575da16d0b409990a24af882e"
+    },
+    "sound/it.mp3": {
+      "bytes": 4320,
+      "sha1": "cbdf8752dac071349274f36ea4fd4f220b5a1dd9"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11664,
+      "sha1": "e8cdcf1210aef35c5412e733fe2dfd77b3326c1a"
     }
   },
   "readSections": {
@@ -83,9 +116,9 @@
     ],
     "en": [
       0,
-      20.562,
-      38.45,
-      56.263
+      10.812,
+      25.475,
+      31.225
     ]
   },
   "legacy_entity_id": "LT01T14:L508"

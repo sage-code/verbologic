@@ -4,59 +4,157 @@
   "chapter": "LT01",
   "topic": "LT01T05",
   "kind": "article",
-  "target": "ro",
   "entity_id": "LT01T05:L681",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "Weak mai after nu"
+      "name": "weak mai"
     },
     "es": {
-      "name": "mai débil tras nu"
+      "name": "debilitamiento de mai"
     },
     "it": {
-      "name": "mai debole dopo nu"
+      "name": "indebolimento di mai"
     },
     "fr": {
-      "name": "mai faible après nu"
+      "name": "affaiblissement de mai"
     },
     "de": {
-      "name": "Schwaches mai nach nu"
+      "name": "Abschwächung von mai"
     },
     "ru": {
-      "name": "Слабое mai после nu"
+      "name": "ослабление mai"
     },
     "hu": {
-      "name": "Gyenge mai nu után"
+      "name": "a mai gyengülése"
     },
     "pt": {
-      "name": "mai fraco após nu"
+      "name": "enfraquecimento de mai"
     },
     "ro": {
-      "name": "mai slab după nu"
+      "name": "slăbirea lui mai"
     }
   },
   "files": {
     "read/en.mp3": {
-      "bytes": 360576,
-      "sha1": "8587c97ee36bad341aee0212a145eb1de77c1d83"
+      "bytes": 388656,
+      "sha1": "353448adb32fac05003da2fc12eab5c5a78df48d"
+    },
+    "read/de.mp3": {
+      "bytes": 410976,
+      "sha1": "98446e69060d531a8f9a8b64b8c1aec9b3b6d935"
     },
     "read/ro.mp3": {
       "bytes": 416448,
       "sha1": "6d428cbc3d6a5df77d116e15132be3738ecee494"
+    },
+    "read/it.mp3": {
+      "bytes": 369072,
+      "sha1": "d782bc966da33ae388af7faf62e1c10f33a554ab"
+    },
+    "read/fr.mp3": {
+      "bytes": 366768,
+      "sha1": "d84c57a7fd07f210d7f4b7a2c46b856bb63eb045"
+    },
+    "read/es.mp3": {
+      "bytes": 398880,
+      "sha1": "5853c3523167e7f2d4292a408f06b908474895a9"
+    },
+    "read/hu.mp3": {
+      "bytes": 470592,
+      "sha1": "3c1d6e56292e59510b8ba383c7a0434852f0937e"
+    },
+    "read/ru.mp3": {
+      "bytes": 431712,
+      "sha1": "83bfb7f64ba0dce385338b3b66edbc34c2084777"
+    },
+    "read/pt.mp3": {
+      "bytes": 429264,
+      "sha1": "6ecc54446d0c9b7dcbf7732221e7a10a3de5920b"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8c7dbb604bf964e3162d093a23f6e0ff36d4e4ae"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11952,
+      "sha1": "c0bac1abb925a77a122d38624b26ed27a0622217"
+    },
+    "sound/de.mp3": {
+      "bytes": 13104,
+      "sha1": "89492e4d75fbf34f7e93f7f0a4619c8361aaf17a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15264,
+      "sha1": "b542387f740e077a2a1bb2acf75bb35943de88da"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "91b75c3a321c31ae5166084d95f78ff34aea98a5"
+    },
+    "sound/es.mp3": {
+      "bytes": 13680,
+      "sha1": "b765aba5c1c709dbe82aab1369869bd91259ba0b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12096,
+      "sha1": "eb43c32250a2fbb230cb99b65e6c555cb3dd180f"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15840,
+      "sha1": "5e8fed643369e55e8730d83ba532f3427ec699df"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15264,
+      "sha1": "a4e43fd08b3cc9a5263afe608d54b2ba1144a66d"
     }
   },
   "readSections": {
     "en": [
       0,
-      20.9,
-      40.675
+      20.3,
+      40.075
+    ],
+    "de": [
+      0,
+      22.25,
+      46.038
     ],
     "ro": [
       0,
-      24.462,
-      47.037
+      24.163,
+      46.737
+    ],
+    "it": [
+      0,
+      21.363,
+      41.763
+    ],
+    "fr": [
+      0,
+      20.363,
+      41.55
+    ],
+    "es": [
+      0,
+      22.562,
+      45.275
+    ],
+    "hu": [
+      0,
+      27.55,
+      53.275
+    ],
+    "ru": [
+      0,
+      24.2,
+      48
+    ],
+    "pt": [
+      0,
+      25.125,
+      48.25
     ]
   }
 }

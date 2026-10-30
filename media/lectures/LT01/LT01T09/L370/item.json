@@ -31,7 +31,8 @@
     "ru": {
       "name": "Ü",
       "description": "Название буквы: Ü. Пример: Übung.",
-      "ipa": "/yː/"
+      "ipa": "/yː/",
+      "ttsText": "У с умлаутом"
     },
     "it": {
       "name": "Ü",
@@ -62,23 +63,55 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "269fbb4d8d03520466b484b96aa429aeb9d58c72"
+      "sha1": "a8f18ccda8114fda7e71a896455600578cea7f70"
     },
     "read/de.mp3": {
       "bytes": 537552,
       "sha1": "bfb3b46d7a9e33519b009cca341ae8a81d375548"
     },
     "read/en.mp3": {
-      "bytes": 481248,
-      "sha1": "8bb60e5c044e3e08623b4712726b6f4c7a379c12"
+      "bytes": 397584,
+      "sha1": "e0e3dac0c995f783189d9fb7fc2a8268078e0f3f"
+    },
+    "sound/it.mp3": {
+      "bytes": 4320,
+      "sha1": "a57ae7b327c105c01a1e5f2511fb877699e83f6e"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "e47648056103ea43f43cc2eeb9e87b772cd955f9"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "76ea7b09cf9fd250617ff832c440f453cf7aae57"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "ad917f6627285cc449cef7bcc814e6e62936f732"
+    },
+    "sound/es.mp3": {
+      "bytes": 12384,
+      "sha1": "d40824d4ab349b9016f0a9c90e63715d1344647f"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "9c1abdcb0f8a69f349db881df6772f9e45da0e01"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "f14fcf7c1b00ee74814e6decb9076183494a8fdd"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12528,
+      "sha1": "c61b1f73d4b6eb739ce2a5c51f363b22d92f9484"
     }
   },
   "readSections": {
     "en": [
       0,
-      21.2,
-      36.7,
-      60.062
+      13.338,
+      32.938,
+      51.788
     ],
     "de": [
       0,

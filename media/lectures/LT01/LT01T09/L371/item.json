@@ -32,7 +32,8 @@
     "ru": {
       "name": "ß",
       "description": "Название буквы: Eszett. Пример: Straße.",
-      "ipa": "/ɛsˈt͡sɛt/"
+      "ipa": "/ɛsˈt͡sɛt/",
+      "ttsText": "эсцет"
     },
     "it": {
       "name": "ß",
@@ -63,23 +64,55 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "020bb7a790520370959cf8ff084bb862e0c28109"
+      "sha1": "7a5d0e9bf7268504583a4cdd0a426e554de5fe56"
     },
     "read/de.mp3": {
       "bytes": 551376,
       "sha1": "05d77b14ef17173df676be0c1e5194e10d984359"
     },
     "read/en.mp3": {
-      "bytes": 516816,
-      "sha1": "f9e74a41d5fe2b1464cfb2112572619ca4a8f423"
+      "bytes": 294768,
+      "sha1": "855add6454f8c0b78269841fb65d647c2b5070a0"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "422ac940160ed502dfad1327570a66ee6c4385a3"
+    },
+    "sound/en.mp3": {
+      "bytes": 6480,
+      "sha1": "6ef7bdea990308fac82ce355398a47fd5464fd0f"
+    },
+    "sound/it.mp3": {
+      "bytes": 6912,
+      "sha1": "dd92e761fa929906a0448ac1d2a63894c9966273"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "c348c9a8a976b1ccf316f7cc66aca530cbb08c75"
+    },
+    "sound/fr.mp3": {
+      "bytes": 9216,
+      "sha1": "41449e897fd42529fcdfb0405d35161e7bf61de4"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "50dbcd514056f3df13c79b12d726948b5655663b"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11520,
+      "sha1": "1b8841d7d030ec4f5795da96b97a9a113982b3fe"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11232,
+      "sha1": "86236d30dfec91b8b237730c2354f3a5e64b243b"
     }
   },
   "readSections": {
     "en": [
       0,
-      22.225,
-      40.538,
-      63.088
+      11.1,
+      24.5,
+      37.075
     ],
     "de": [
       0,

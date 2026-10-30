@@ -22,10 +22,10 @@
       "name": "Contraction nu-l"
     },
     "de": {
-      "name": "Kontraktion nu-l"
+      "name": "Verschmelzung nu-l"
     },
     "ru": {
-      "name": "Стяжение nu-l"
+      "name": "Слияние nu-l"
     },
     "hu": {
       "name": "A nu-l összevonás"
@@ -34,31 +34,137 @@
       "name": "Contração nu-l"
     },
     "ro": {
-      "name": "Contragerea nu-l"
+      "name": "Eliziunea în nu-l"
     }
   },
   "files": {
     "read/en.mp3": {
-      "bytes": 598464,
-      "sha1": "52302c066877fe63f64e98075eb44080ddc50f41"
+      "bytes": 336528,
+      "sha1": "30c0f5bc60a7798e770eb0e1ead123d686c7ea43"
+    },
+    "read/de.mp3": {
+      "bytes": 639360,
+      "sha1": "ecf45991714d30352c41cd7160be3aa181f1e48a"
     },
     "read/ro.mp3": {
       "bytes": 594432,
       "sha1": "dfa4ae8de3915360e9162f3b0941fb979a93f22f"
+    },
+    "read/es.mp3": {
+      "bytes": 612144,
+      "sha1": "332d44f8988e00736fda295e226935dd951b3488"
+    },
+    "read/fr.mp3": {
+      "bytes": 578736,
+      "sha1": "c7ad5314610b8eb6c447e02d9b5740a449833a5c"
+    },
+    "read/it.mp3": {
+      "bytes": 564624,
+      "sha1": "bb2a39f0ca5827501a26ad76c2cbceb6eb81682a"
+    },
+    "read/hu.mp3": {
+      "bytes": 661536,
+      "sha1": "f4c35f92d3772a5cacc6870a7d2eecc5102dd6e4"
+    },
+    "read/ru.mp3": {
+      "bytes": 635616,
+      "sha1": "b79a1b4fcc9f0fde024308b35f66888a39d707a9"
+    },
+    "read/pt.mp3": {
+      "bytes": 635616,
+      "sha1": "5f89d9cf643733407b332c8596b33a5a5cbf1b6d"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "119752fd51758def63d90be96024254da04023c7"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12240,
+      "sha1": "d152594678918cc677094eadd7e16338f2556819"
+    },
+    "sound/de.mp3": {
+      "bytes": 12672,
+      "sha1": "62dc7cf310b5ac3dbe83e5c4f7154733c83bb246"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13104,
+      "sha1": "2e7884308df2c8cec4cba1ca4eb156d81a123234"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "f50113db40ad048d42e9a1788869fe3c99b3a7fc"
+    },
+    "sound/es.mp3": {
+      "bytes": 13104,
+      "sha1": "1d5ebd5062be0d44418ca8b3302a8c87cc5d2e8e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12816,
+      "sha1": "c98128b321c105ff7d6de0f998c19786503afbd0"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15264,
+      "sha1": "a782da67a4f2435b30de113f60a2d4b8b17ec741"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13968,
+      "sha1": "2b284e2fc7edef79b9d323d4a9b6bf94145b0ed1"
     }
   },
   "readSections": {
     "en": [
       0,
-      29,
-      54.875,
-      78.2
+      28.462,
+      54.337,
+      77
+    ],
+    "de": [
+      0,
+      27.712,
+      54.513,
+      81.088
     ],
     "ro": [
       0,
-      25.438,
-      52.475,
-      77.162
+      24.975,
+      52.013,
+      76.287
+    ],
+    "es": [
+      0,
+      25.85,
+      51.925,
+      77.225
+    ],
+    "fr": [
+      0,
+      25,
+      50.538,
+      74.037
+    ],
+    "it": [
+      0,
+      24.062,
+      48.825,
+      72.113
+    ],
+    "hu": [
+      0,
+      29.675,
+      58.362,
+      85.225
+    ],
+    "ru": [
+      0,
+      27.438,
+      54.2,
+      79.575
+    ],
+    "pt": [
+      0,
+      28.087,
+      55.175,
+      80.862
     ]
   }
 }

@@ -29,7 +29,8 @@
     "ru": {
       "name": "Ö",
       "description": "Название буквы: ö. Пример: öt.",
-      "ipa": "/o/"
+      "ipa": "/o/",
+      "ttsText": "О с умлаутом"
     },
     "it": {
       "name": "Ö",
@@ -62,16 +63,48 @@
   },
   "files": {
     "sound/hu.mp3": {
-      "bytes": 7344,
-      "sha1": "6338de20cc0ec04ad98014f2f6d3c66f5ea5362d"
+      "bytes": 11232,
+      "sha1": "7172264e0f39002add3add26a2e43ba5937924bf"
     },
     "read/hu.mp3": {
       "bytes": 434448,
       "sha1": "e3f91d1d58f890f17e4e7d4850bcc96205912a34"
     },
     "read/en.mp3": {
-      "bytes": 510048,
-      "sha1": "da7ca99dc0e8aa426862602a58fbd0f6ad09bfab"
+      "bytes": 189504,
+      "sha1": "669f0a6ec349b7499a0ca3ad68ca2d3fc6bfae1b"
+    },
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "025bfc548fa5be931fc440cd7fc85c2dfc39a6e0"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "b68ccdd7b04e3073ba41e9ec66416c399b951cb5"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "fa34f9af5ab8d996cc8e06801263e2f0dcf64540"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "f175e25b26bd314ae253a201a19ad1db32e2b1fb"
+    },
+    "sound/it.mp3": {
+      "bytes": 4320,
+      "sha1": "cbdf8752dac071349274f36ea4fd4f220b5a1dd9"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "8d5bfc3af123164c4d26ca4b79c9a096abb165be"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "83f519a66276b0de8812c92ceff82b9565d54f5a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12672,
+      "sha1": "a5787a9429f4714c22c6a54b100b49d1cfc1a9e3"
     }
   },
   "readSections": {
@@ -83,9 +116,9 @@
     ],
     "en": [
       0,
-      20.275,
-      38.6,
-      62.212
+      9.125,
+      19.062,
+      25.562
     ]
   },
   "legacy_entity_id": "LT01T14:L509"

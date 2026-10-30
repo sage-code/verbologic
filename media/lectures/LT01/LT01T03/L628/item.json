@@ -39,26 +39,62 @@
   },
   "files": {
     "read/en.mp3": {
-      "bytes": 529488,
-      "sha1": "60cf5c069fbf490733d408c9a75c6ded5ede3052"
+      "bytes": 430128,
+      "sha1": "3af8d191d0a78b77af30780d8edcea9f87a6b663"
     },
     "read/ro.mp3": {
-      "bytes": 577584,
-      "sha1": "876676c92bef3a7e3171dca00ce26c22848ff8a8"
+      "bytes": 553824,
+      "sha1": "a305254fe968daaa75147f75f0e679abf989cb40"
+    },
+    "sound/en.mp3": {
+      "bytes": 8784,
+      "sha1": "4ca0d7ead901da2d33e3b612b243c99d3b8eb482"
+    },
+    "sound/de.mp3": {
+      "bytes": 11376,
+      "sha1": "f9e7e045d37dc834d4a5b53145f050db7b4c6ee8"
+    },
+    "sound/ro.mp3": {
+      "bytes": 13392,
+      "sha1": "92743620e3da1cbdc2046956c7cd4ee89cf8c60d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12960,
+      "sha1": "bbe310dde70f97d4bd21f8b1616e19b5789fdeb6"
+    },
+    "sound/es.mp3": {
+      "bytes": 12672,
+      "sha1": "adb5504bf3347228320d58a77b7459fa26954d1c"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "e30e138e9877e1b93e6368579f9f0f7bd2559b91"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12240,
+      "sha1": "10b7f1cad3a97515e66b647f9d1d7c2326b849e7"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11952,
+      "sha1": "622232852bdd58b9de1b2847d8997203e15946d0"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13536,
+      "sha1": "2c635e2cdf2d5dc9ecdd2d950013e193ed32a73b"
     }
   },
   "readSections": {
     "en": [
       0,
-      21.887,
-      45.037,
-      67.4
+      17.875,
+      36.013,
+      54.975
     ],
     "ro": [
       0,
-      25.3,
-      50.188,
-      74.075
+      23.637,
+      47.888,
+      69.713
     ]
   }
 }

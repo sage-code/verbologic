@@ -29,7 +29,8 @@
     "ru": {
       "name": "Á",
       "description": "Название буквы: á. Пример: ár.",
-      "ipa": "/a s uˈdarʲɪnʲɪjəm/"
+      "ipa": "/a s uˈdarʲɪnʲɪjəm/",
+      "ttsText": "А с акутом"
     },
     "it": {
       "name": "Á",
@@ -62,16 +63,48 @@
   },
   "files": {
     "sound/hu.mp3": {
-      "bytes": 7776,
-      "sha1": "75980e59808c06b9792b34247d930ab1fd2c6386"
+      "bytes": 11232,
+      "sha1": "d0f46e37ee84648c16a0f3aa827e68acb2d17b09"
     },
     "read/hu.mp3": {
       "bytes": 416016,
       "sha1": "af1d6fb111296ef11a5d05cc85c6e67aca773b03"
     },
     "read/en.mp3": {
-      "bytes": 532080,
-      "sha1": "fb66b6fe72f69edd9e82e633a4357c001064fa8f"
+      "bytes": 235440,
+      "sha1": "a41c6eabd629a99ca5f763277d92296594a5eae3"
+    },
+    "sound/ro.mp3": {
+      "bytes": 7200,
+      "sha1": "9864cbad533bb4535e00c6d1abb57ef37dbafe5a"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "f297eabce0637968453884a1ad1cf3ee613ab074"
+    },
+    "sound/es.mp3": {
+      "bytes": 11520,
+      "sha1": "664a1ed42792ae697bc4abc80734e84233e6200b"
+    },
+    "sound/en.mp3": {
+      "bytes": 4464,
+      "sha1": "6b39be8af73047d2747a511582c1e36bf00f0dc6"
+    },
+    "sound/it.mp3": {
+      "bytes": 4464,
+      "sha1": "575ad44f18175630c63df3e98d3fd7d88741086f"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "89ffced3a7d4e0e6d1b379878fcfbcf8c78e1493"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "7fd6760cb10e886689c3ba966b03532540aeb5a5"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11664,
+      "sha1": "e613a6aeb8cad8f0b303010789dfba81a2509a22"
     }
   },
   "readSections": {
@@ -83,9 +116,9 @@
     ],
     "en": [
       0,
-      20.625,
-      40.15,
-      65.713
+      10.35,
+      22.837,
+      28.712
     ]
   },
   "legacy_entity_id": "LT01T14:L485"

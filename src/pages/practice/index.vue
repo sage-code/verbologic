@@ -5,7 +5,7 @@
 // 'ai_mentor' spend, quiz_results / QuizEngine).
 <script setup lang="ts">
 import type { Component } from 'vue'
-import { ChatBubbleLeftRightIcon, PencilSquareIcon, PuzzlePieceIcon } from '@heroicons/vue/24/outline'
+import { ChatBubbleLeftRightIcon, HeartIcon, PencilSquareIcon, PuzzlePieceIcon } from '@heroicons/vue/24/outline'
 import { mediaName } from '~/composables/useMedia'
 import type { Sidebar } from '~/types/sidebars'
 
@@ -64,5 +64,17 @@ const descriptionOf = (sidebar: Sidebar) =>
         </span>
       </li>
     </ul>
+
+    <div class="mt-8 flex justify-center">
+      <a
+        href="https://github.com/sponsors/elucian"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 font-semibold text-on-accent transition hover:bg-accent-strong"
+      >
+        <HeartIcon class="h-5 w-5" aria-hidden="true" />
+        {{ copy('practice.sponsor', 'Sponsor This Section') }}
+      </a>
+    </div>
   </main>
 </template>

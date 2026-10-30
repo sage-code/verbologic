@@ -29,7 +29,8 @@
     "ru": {
       "name": "Ő",
       "description": "Название буквы: ő. Пример: ősz.",
-      "ipa": "/o/"
+      "ipa": "/o/",
+      "ttsText": "О с двойным акутом"
     },
     "it": {
       "name": "Ő",
@@ -63,15 +64,23 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "cdf115e93afd9e5e8ee27dcfce6702b2463a561e"
+      "sha1": "7c62cd6f12c2e6652b8aa43d845f5e1d669f7bac"
     },
     "read/hu.mp3": {
       "bytes": 468432,
       "sha1": "c395367dc2f0fc1c53ddbee99077cfe74a31bcea"
     },
     "read/en.mp3": {
-      "bytes": 543456,
-      "sha1": "81d5cc64c28549a29b1b02ea4e1f5dece8757c8b"
+      "bytes": 291456,
+      "sha1": "8eb36d731ed63ca3ab335f079c3255bdf7c2f15d"
+    },
+    "sound/en.mp3": {
+      "bytes": 5040,
+      "sha1": "025bfc548fa5be931fc440cd7fc85c2dfc39a6e0"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14688,
+      "sha1": "1b3d57b2e0323cc85a3a6a3992de4965187c94f5"
     }
   },
   "readSections": {
@@ -83,9 +92,9 @@
     ],
     "en": [
       0,
-      24.262,
-      43.325,
-      65.113
+      9.713,
+      26.212,
+      38.362
     ]
   },
   "legacy_entity_id": "LT01T14:L510"

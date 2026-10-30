@@ -10,55 +10,161 @@
   "tags": [],
   "locales": {
     "en": {
-      "name": "Clitic i-a"
+      "name": "clitic i-a"
     },
     "es": {
-      "name": "Clítico i-a"
+      "name": "clítico i-a"
     },
     "it": {
-      "name": "Clitico i-a"
+      "name": "clitico i-a"
     },
     "fr": {
-      "name": "Clitique i-a"
+      "name": "clitique i-a"
     },
     "de": {
       "name": "Klitikon i-a"
     },
     "ru": {
-      "name": "Клитика i-a"
+      "name": "клитика i-a"
     },
     "hu": {
-      "name": "I-a klitikum"
+      "name": "i-a klitikum"
     },
     "pt": {
-      "name": "Clítico i-a"
+      "name": "clítico i-a"
     },
     "ro": {
-      "name": "Cliticul i-a"
+      "name": "cliticul i-a"
     }
   },
   "files": {
     "read/en.mp3": {
-      "bytes": 556272,
-      "sha1": "00ef23cdd3f5b904b90eacf9724772db1672f475"
+      "bytes": 362592,
+      "sha1": "8cc7a3ede57a5cf10d5869032eee74d6951f4b59"
+    },
+    "read/de.mp3": {
+      "bytes": 586368,
+      "sha1": "b0042902216f28293bcd902ec69ca751e7baf845"
     },
     "read/ro.mp3": {
       "bytes": 576144,
       "sha1": "9753a49a75b0270bea1701338614978a1276975a"
+    },
+    "read/es.mp3": {
+      "bytes": 572544,
+      "sha1": "64dea6f8ae9ba5e2644e2f99c1f15661f6ac43aa"
+    },
+    "read/fr.mp3": {
+      "bytes": 541872,
+      "sha1": "3e03c47a2e2b7f225d1c501ed90888ab8e3bf25d"
+    },
+    "read/it.mp3": {
+      "bytes": 527760,
+      "sha1": "1af9771690d2860f49a865a0062a2eb9ba347a16"
+    },
+    "read/hu.mp3": {
+      "bytes": 635328,
+      "sha1": "8fb11b29dc33bfc9204c4a2c1b3055782a335acd"
+    },
+    "read/ru.mp3": {
+      "bytes": 641664,
+      "sha1": "ba1c86a096d538ca3e2d1511c60c0f4091b02b48"
+    },
+    "read/pt.mp3": {
+      "bytes": 504000,
+      "sha1": "076e402bb481f0f4cedebf70e92f9f16a5aad452"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "25da4d5cfb64f36aabe0577340f0907e7b2166e6"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "d0ff51725eed19ffb6e7959cf9e0f0d1fbd150ee"
+    },
+    "sound/de.mp3": {
+      "bytes": 13104,
+      "sha1": "6ba2cda4fdd0c877bc85c4a8b1a6cdbd5706a91c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14688,
+      "sha1": "73e2e180ec686d3e6aa8a731c253a0deda85d4b1"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "799cb0632f4948ea39a796b740fd7045cbef96ed"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "62f111925c3d447c0fb28557d7605cfee3e01ae3"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "56a2a3e8758eb4222ccfde9f4d0cd92b2034eed5"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12240,
+      "sha1": "60628a0d6535d7eade72a6892d52b6195eb60e63"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12096,
+      "sha1": "0d61d33c82c82f8509d4bfcb4aa90e600ee4bb90"
     }
   },
   "readSections": {
     "en": [
       0,
-      23.55,
-      47.862,
-      69.625
+      22.962,
+      46.65,
+      67.575
+    ],
+    "de": [
+      0,
+      26.65,
+      51.737,
+      74.662
     ],
     "ro": [
       0,
-      23.113,
-      47.987,
-      72.213
+      22.688,
+      48.562,
+      72.3
+    ],
+    "es": [
+      0,
+      23.625,
+      50,
+      73.162
+    ],
+    "fr": [
+      0,
+      23.438,
+      47.4,
+      69.95
+    ],
+    "it": [
+      0,
+      22.25,
+      44.688,
+      66.188
+    ],
+    "hu": [
+      0,
+      26.8,
+      53.538,
+      79.675
+    ],
+    "ru": [
+      0,
+      28.812,
+      56.312,
+      82.225
+    ],
+    "pt": [
+      0,
+      21.575,
+      43.287,
+      63.437
     ]
   }
 }

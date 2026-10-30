@@ -4,61 +4,166 @@
   "chapter": "LT01",
   "topic": "LT01T05",
   "kind": "article",
-  "target": "ro",
   "entity_id": "LT01T05:L668",
   "cefr": "A2",
   "tags": [],
   "locales": {
     "en": {
-      "name": "contraction"
+      "name": "short forms"
     },
     "es": {
-      "name": "contracción"
+      "name": "formas cortas"
     },
     "it": {
-      "name": "elisione"
+      "name": "forme contratte"
     },
     "fr": {
-      "name": "élision"
+      "name": "formes courtes"
     },
     "de": {
-      "name": "Elision"
+      "name": "Kurzformen"
     },
     "ru": {
-      "name": "стяжение"
+      "name": "краткие формы"
     },
     "hu": {
-      "name": "összevonás"
+      "name": "rövid alakok"
     },
     "pt": {
-      "name": "elisão"
+      "name": "formas curtas"
     },
     "ro": {
-      "name": "eliziune"
+      "name": "forme scurte"
     }
   },
   "files": {
+    "read/de.mp3": {
+      "bytes": 685296,
+      "sha1": "09feba4cffbaa8265bdb4dc9e103c40adde51835"
+    },
     "read/en.mp3": {
-      "bytes": 587520,
-      "sha1": "21926f12da2aa8cfa5f2ad8f4442d3977de2b14a"
+      "bytes": 388368,
+      "sha1": "2c2cc77a03c8edd87e353a3abfde9c1eaef03751"
     },
     "read/ro.mp3": {
       "bytes": 707184,
       "sha1": "8eb0c035b206f2fea0a9c2d9004705986b610cfa"
+    },
+    "read/it.mp3": {
+      "bytes": 625680,
+      "sha1": "3a73cca8db119ff175b2d93a5c0d12d707904907"
+    },
+    "read/es.mp3": {
+      "bytes": 658800,
+      "sha1": "2b71bd2717790a01f3ee9cbf0ce7ada36e1c6ecd"
+    },
+    "read/fr.mp3": {
+      "bytes": 628416,
+      "sha1": "7b38a559a23e61802d53bbf0bd79f61f2870be29"
+    },
+    "read/ru.mp3": {
+      "bytes": 696240,
+      "sha1": "8e015c6f8f83520b2fbbc60d7e616c4348298480"
+    },
+    "read/hu.mp3": {
+      "bytes": 727920,
+      "sha1": "c71ba2a893553dc9c0282360755bc6f08b9cbf14"
+    },
+    "read/pt.mp3": {
+      "bytes": 731952,
+      "sha1": "b96d7b8f30cd020ded5bb6d0fe1c0c4b84a1acc0"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "13fbb5290cc12e7c6b167b793edc5e9b9d05aeae"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "a54a598b4c31b82c4a6a88e3905471c2b4ef433f"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "d01fcdae59361bf6fcb8d388c1b7481b142d4490"
+    },
+    "sound/ru.mp3": {
+      "bytes": 11664,
+      "sha1": "2682f48c05da0c998744adabd00b6f2a59503ff8"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "7e57a9c2281f42a211817fa7e1d4ed95d8d2b8e7"
+    },
+    "sound/es.mp3": {
+      "bytes": 11232,
+      "sha1": "8c808a7b05ca04100d4796efed7764325af7f816"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "beb2daafe9ae17085f1f774b06a1d7303e2f404a"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12096,
+      "sha1": "414cc49775dce0c44e16fb9ae4de0361ffe04251"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "a2eba17a7a7811f447ff615ee1816a5becf83d3e"
     }
   },
   "readSections": {
+    "de": [
+      0,
+      32.825,
+      59.938,
+      86.85
+    ],
     "en": [
       0,
       29.337,
-      53.125,
-      75.475
+      52.125,
+      73.838
     ],
     "ro": [
       0,
       34.263,
-      58.475,
-      87.112
+      62.338,
+      90.463
+    ],
+    "it": [
+      0,
+      29.85,
+      54.975,
+      80.15
+    ],
+    "es": [
+      0,
+      30.438,
+      57.288,
+      83.537
+    ],
+    "fr": [
+      0,
+      29.562,
+      54.938,
+      79.275
+    ],
+    "ru": [
+      0,
+      33.138,
+      60.113,
+      88.562
+    ],
+    "hu": [
+      0,
+      34.612,
+      63.475,
+      93.037
+    ],
+    "pt": [
+      0,
+      34.638,
+      63.65,
+      93.425
     ]
   }
 }

@@ -328,6 +328,19 @@ def stories_in_topic(topic: str) -> tuple[dict[str, Any], dict[str, Any]] | None
     return None
 
 
+def next_empty_topic(scope: str | None) -> str | None:
+    """First topic, in sidebar order, with no stories; `scope` is a chapter code like ST02."""
+    sidebar = json.loads(SIDEBAR.read_text(encoding="utf-8"))
+    for section in sidebar.get("sections", []):
+        for entry in section.get("topics", []):
+            code = entry["code"]
+            if scope and not code.startswith(scope):
+                continue
+            if not entry.get("items") and not any((CONTENT / code).glob("*.json")):
+                return code
+    return None
+
+
 def existing_titles(topic: str) -> list[str]:
     titles = []
     for path in sorted((CONTENT / topic).glob("*.json")):
@@ -432,17 +445,32 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description="Create n illustrated stories for a stories topic, at the topic's CEFR level."
     )
-    parser.add_argument("topic", help="stories topic code, e.g. ST01T02")
+    parser.add_argument("topic", nargs="?", help="stories topic code, e.g. ST01T02 (with --next: an optional chapter, e.g. ST02)")
     parser.add_argument("count", type=int, nargs="?", default=1, help="how many stories to create (default 1)")
+    parser.add_argument(
+        "--next", action="store_true",
+        help="use the first topic that has no stories yet (within the chapter given, or the whole sidebar)",
+    )
     parser.add_argument("--model", help="Gemini text model (default: GEMINI_MODEL from .env)")
     parser.add_argument("--skip-audio", action="store_true", help="do not synthesize title and read audio")
     parser.add_argument("--subject", help="main character of every story, e.g. 'a hedgehog'")
     args = parser.parse_args()
 
     load_env()
+    if args.next and args.topic and args.topic.isdigit():
+        # `--next 2` means two stories in the next empty topic, not a topic called "2".
+        args.topic, args.count = None, int(args.topic)
     if args.count < 1:
         parser.error("count must be at least 1")
-    topic = args.topic.upper()
+    if args.next:
+        topic = next_empty_topic(args.topic.upper() if args.topic else None)
+        if topic is None:
+            parser.error(f"no topic without stories{' in ' + args.topic.upper() if args.topic else ''}")
+        print(f"--next: {topic} is the first topic without stories.")
+    elif args.topic:
+        topic = args.topic.upper()
+    else:
+        parser.error("give a topic code, or use --next")
     found = stories_in_topic(topic)
     if found is None:
         parser.error(f"{topic} is not a topic in src/data/sidebars/library/stories/sidebar.json")

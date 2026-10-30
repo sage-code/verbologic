@@ -29,7 +29,8 @@
     "ru": {
       "name": "Ñ",
       "description": "Название буквы: eñe. Пример: niño.",
-      "ipa": "/ˈɛ.nʲe/"
+      "ipa": "/ˈɛ.nʲe/",
+      "ttsText": "Эн с тильдой"
     },
     "it": {
       "name": "Ñ",
@@ -63,15 +64,47 @@
   "files": {
     "sound/es.mp3": {
       "bytes": 11232,
-      "sha1": "7898e53ab81fcaacc644c9c0c336c433d174a637"
+      "sha1": "ad24c8075a2924df346b1e7cf7fda5c7fcb301b2"
     },
     "read/es.mp3": {
       "bytes": 464688,
       "sha1": "91d9c1c27a6058975285317edee6c76b344bcacc"
     },
     "read/en.mp3": {
-      "bytes": 442656,
-      "sha1": "36c62035b59c8bdf87db39eb8dcc9482dd6054e0"
+      "bytes": 265392,
+      "sha1": "333baafa62d78aa1d0121426ef6a4bc04917a1f1"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "35e0619dabe5f82aa63e6523422a7c6f4f00ac3c"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "e3a335eb48383b764ee9e46960d70edab9eed4bb"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "228c2019d9ad52f78274dea3c8a5dd68fb1660ad"
+    },
+    "sound/it.mp3": {
+      "bytes": 5328,
+      "sha1": "94b6cf034658cca1c37e810a0b557da897e0859e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "340b76854ec5d107f2450f66a741c71c529f3a4c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "23fd95262ed8264d38590376807046d9f885b52d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 7920,
+      "sha1": "dd81601cac319f4cfe2c1fb6f0f9697cd210739d"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12528,
+      "sha1": "4c44658670e3ae8a75d5f209e0e5a007d8a20136"
     }
   },
   "readSections": {
@@ -83,9 +116,9 @@
     ],
     "en": [
       0,
-      17.6,
-      34.325,
-      53.663
+      9.037,
+      23.212,
+      32.675
     ]
   },
   "legacy_entity_id": "LT01T12:L445"

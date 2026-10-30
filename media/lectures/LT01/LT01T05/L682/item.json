@@ -10,41 +10,105 @@
   "tags": [],
   "locales": {
     "en": {
-      "name": "weak forms"
+      "name": "weak forms in phrases"
     },
     "es": {
-      "name": "formas débiles"
+      "name": "formas débiles en frases"
     },
     "it": {
-      "name": "forme deboli"
+      "name": "forme deboli nelle frasi"
     },
     "fr": {
-      "name": "formes faibles"
+      "name": "formes faibles en phrases"
     },
     "de": {
-      "name": "Schwachtonformen"
+      "name": "Schwache Formen in Phrasen"
     },
     "ru": {
-      "name": "редуцированные формы"
+      "name": "слабые формы в фразах"
     },
     "hu": {
-      "name": "gyenge alakok"
+      "name": "gyenge alakok a kifejezésekben"
     },
     "pt": {
-      "name": "formas fracas"
+      "name": "formas fracas em frases"
     },
     "ro": {
-      "name": "forme slabe"
+      "name": "forme slabe în propoziții"
     }
   },
   "files": {
     "read/en.mp3": {
-      "bytes": 563472,
-      "sha1": "2d06320f61893ee9fd3cb1aeb8142c5e34f098ae"
+      "bytes": 382752,
+      "sha1": "a8911d7028bb118bfa81f2eadf5a78d59fb736ba"
+    },
+    "read/de.mp3": {
+      "bytes": 686736,
+      "sha1": "9a50f4ace241266f494b31f2b3d63bb5ebda62f5"
     },
     "read/ro.mp3": {
       "bytes": 687312,
       "sha1": "c2f03f306a143ad316ef1e07db77d03d3233af41"
+    },
+    "read/es.mp3": {
+      "bytes": 648432,
+      "sha1": "df0ad8710c6baa574d0d061f91e2fc4731c1637a"
+    },
+    "read/fr.mp3": {
+      "bytes": 607392,
+      "sha1": "4a3239b6db8baad06586c266ac330b039c3b971f"
+    },
+    "read/it.mp3": {
+      "bytes": 593136,
+      "sha1": "11e2ae572f8e970ecd066fc7271df9f4ea90a382"
+    },
+    "read/hu.mp3": {
+      "bytes": 724032,
+      "sha1": "ca347b1b9f3ad3a550cb84570dd6abba4a6e5e9d"
+    },
+    "read/pt.mp3": {
+      "bytes": 700848,
+      "sha1": "318eb1451560331c12d77ca002f56c9b8116bc81"
+    },
+    "read/ru.mp3": {
+      "bytes": 680256,
+      "sha1": "3db9bdd181a316213f3352e6132d01a6cf7916ae"
+    },
+    "sound/en.mp3": {
+      "bytes": 8640,
+      "sha1": "f309bbd48a006e709fc18404803e6148944526d3"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11664,
+      "sha1": "24377beeb6f1df1d3e756df5f2269da8a4dc2337"
+    },
+    "sound/de.mp3": {
+      "bytes": 12528,
+      "sha1": "1036ca4ce5f7bd9fe01948b0259ea641ce0c3b64"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15264,
+      "sha1": "148675878cce48698a809a0fb4efa638fd5b5e02"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "59bd8c67eb72e5f5bf4fa95845e7e92b4065fb9e"
+    },
+    "sound/es.mp3": {
+      "bytes": 12528,
+      "sha1": "d4f5a8ee541d308fef7d46ef5f7ae705ea854809"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11376,
+      "sha1": "f9a1c185ff75de40e3cdcdae9c75e04db8e3060c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13104,
+      "sha1": "beef86870e768c02aaef053ca314cb7ea3271947"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14256,
+      "sha1": "f27b28721f715f8439dd026dd2cf09305d48c5e2"
     }
   },
   "readSections": {
@@ -52,13 +116,55 @@
       0,
       25.887,
       48.462,
-      70.037
+      68.5
+    ],
+    "de": [
+      0,
+      32.875,
+      61.75,
+      86.062
     ],
     "ro": [
       0,
       32.2,
       62.213,
-      88.288
+      87.113
+    ],
+    "es": [
+      0,
+      29.837,
+      57.25,
+      82.325
+    ],
+    "fr": [
+      0,
+      27.8,
+      54.175,
+      76.688
+    ],
+    "it": [
+      0,
+      27.55,
+      53,
+      74.75
+    ],
+    "hu": [
+      0,
+      34.038,
+      64.838,
+      92.562
+    ],
+    "pt": [
+      0,
+      33.475,
+      62.75,
+      88.85
+    ],
+    "ru": [
+      0,
+      31.663,
+      60.588,
+      87.3
     ]
   }
 }

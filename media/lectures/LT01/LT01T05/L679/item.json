@@ -39,26 +39,132 @@
   },
   "files": {
     "read/en.mp3": {
-      "bytes": 681264,
-      "sha1": "91d02e574c3d42dc04a04b1048c94ae5c1de8b61"
+      "bytes": 385776,
+      "sha1": "22059741c0582a3e55af297bbeeca7fbe5c3cacf"
+    },
+    "read/de.mp3": {
+      "bytes": 760896,
+      "sha1": "49790b3782f0271f3f757caea2246de466d04c78"
+    },
+    "read/es.mp3": {
+      "bytes": 690624,
+      "sha1": "2346bc17294c65d9450401bfa66bcc69d0d6e47a"
     },
     "read/ro.mp3": {
       "bytes": 736416,
       "sha1": "c934503b33487ffad66c3d700ab5968ffd33be27"
+    },
+    "read/it.mp3": {
+      "bytes": 688320,
+      "sha1": "d5825cf8d274346d9a6ea0bc6c7f87f0333417a4"
+    },
+    "read/fr.mp3": {
+      "bytes": 646992,
+      "sha1": "38adc120da9bef0a4e1ddc891b094c7bdf417cd4"
+    },
+    "read/hu.mp3": {
+      "bytes": 778464,
+      "sha1": "49541a77ea3f2352cbe10303f7545b7a58a8d72f"
+    },
+    "read/ru.mp3": {
+      "bytes": 758880,
+      "sha1": "5a02ce2b5591caceca92b05fec1a2c8dcc0cb6b2"
+    },
+    "read/pt.mp3": {
+      "bytes": 742464,
+      "sha1": "717b08d20ae22fab2eb077de2fedcb66776bcba8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "17e4e0c57402ece250ce9c622eab34176fef0e58"
+    },
+    "sound/ro.mp3": {
+      "bytes": 13824,
+      "sha1": "1d19b8202a6795097a86e38165e5357000dfd39c"
+    },
+    "sound/de.mp3": {
+      "bytes": 13248,
+      "sha1": "841127fd36ca4f6c4c3019fdff6e6ce75dfcc584"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14400,
+      "sha1": "300580be88256396aa9fffbccb6f170d2f210b04"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "98b3a01c22f39c124e3e889e40b45ead9a9f3555"
+    },
+    "sound/es.mp3": {
+      "bytes": 12672,
+      "sha1": "0ae8004b7c2964f85558d67c011448146ded81c1"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "1dfc68d1d742925f4dbc18ffc828941f18799aba"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14400,
+      "sha1": "8f73f3ce728f99b56c57462877eb7d6046c140c6"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14688,
+      "sha1": "e1f48ae26048b8c13eb6ec426729e0a1f5ecbd1a"
     }
   },
   "readSections": {
     "en": [
       0,
       29.788,
-      55.138,
-      86.15
+      54.237,
+      83.987
+    ],
+    "de": [
+      0,
+      33.212,
+      62.9,
+      93.8
+    ],
+    "es": [
+      0,
+      30.738,
+      58.35,
+      84.525
     ],
     "ro": [
       0,
       32.888,
-      62.775,
-      92.312
+      62.075,
+      90.8
+    ],
+    "it": [
+      0,
+      30.762,
+      59.263,
+      86.238
+    ],
+    "fr": [
+      0,
+      27.938,
+      54.15,
+      79.35
+    ],
+    "hu": [
+      0,
+      33.888,
+      65.513,
+      97.075
+    ],
+    "ru": [
+      0,
+      32.5,
+      62.825,
+      95.425
+    ],
+    "pt": [
+      0,
+      31.988,
+      61.25,
+      91.487
     ]
   }
 }

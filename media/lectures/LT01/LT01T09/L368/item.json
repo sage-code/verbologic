@@ -31,7 +31,8 @@
     "ru": {
       "name": "Ä",
       "description": "Название буквы: Ä. Пример: Äpfel.",
-      "ipa": "/ɛː/"
+      "ipa": "/ɛː/",
+      "ttsText": "А с умлаутом"
     },
     "it": {
       "name": "Ä",
@@ -62,23 +63,55 @@
   "files": {
     "sound/de.mp3": {
       "bytes": 11232,
-      "sha1": "cefecb9f78f9aebb4acb6dc3b5e011a39d0cfb82"
+      "sha1": "c46e1e3d797afdb9f56e72369b7939b78eeeb932"
     },
     "read/de.mp3": {
       "bytes": 579456,
       "sha1": "0576e073ce523d1579db538cfbfd922a5fc41e9b"
     },
     "read/en.mp3": {
-      "bytes": 546480,
-      "sha1": "131a42a3d15bfd5bf356ec9ddec9e5e5f6a0e91c"
+      "bytes": 287568,
+      "sha1": "a3628eea457945fee65eb12a484f84b8c4fc2eca"
+    },
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "38c81d1b3b92b8d48fe65d43cf48ac41d7a3e633"
+    },
+    "sound/it.mp3": {
+      "bytes": 4464,
+      "sha1": "575ad44f18175630c63df3e98d3fd7d88741086f"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "d36550a8499343f4bfea3236b89b564da7854754"
+    },
+    "sound/es.mp3": {
+      "bytes": 8064,
+      "sha1": "27e13d05ab548e4d5130e4f6be39eccbfcec3583"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "7400d96df9b85111b009a12921144bf9a7492648"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "641e7c5c430646558c7881f4243ac5844a5b8054"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "103752c3c6adf03d022c67ca487a9f1f753fc363"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12672,
+      "sha1": "a723f9ac3187d1ab552f6cf9c09c831f0de275bd"
     }
   },
   "readSections": {
     "en": [
       0,
-      25.087,
-      44.95,
-      70.25
+      7.912,
+      23.538,
+      37.862
     ],
     "de": [
       0,

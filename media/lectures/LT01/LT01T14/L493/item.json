@@ -29,7 +29,8 @@
     "ru": {
       "name": "É",
       "description": "Название буквы: é. Пример: ég.",
-      "ipa": "/e s‿akˈtsɛntəm/"
+      "ipa": "/e s‿akˈtsɛntəm/",
+      "ttsText": "Е с акутом"
     },
     "it": {
       "name": "É",
@@ -63,15 +64,47 @@
   "files": {
     "sound/hu.mp3": {
       "bytes": 11232,
-      "sha1": "e98198af545e8337c200efb3e170f7f27a35e294"
+      "sha1": "42cc9b0e49dc858137dd8d39e82fad96dcd7ee06"
     },
     "read/hu.mp3": {
       "bytes": 471600,
       "sha1": "6068972c52b5932c7cc701ae00d7cdad97dffb5d"
     },
     "read/en.mp3": {
-      "bytes": 484704,
-      "sha1": "9049870d1b4ce4c42470e66cdc0c02154084cb2c"
+      "bytes": 258336,
+      "sha1": "4acae1285130dcd20787145f48550cfb405ab8dc"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "542e93ad5e0605d2fa8117406f14d692b8586c8b"
+    },
+    "sound/it.mp3": {
+      "bytes": 4464,
+      "sha1": "c9d4378aed0933be81c78bdad1c417e6108dc577"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11232,
+      "sha1": "1c4de377203cc89c546c0d1cb0474462bac832d8"
+    },
+    "sound/en.mp3": {
+      "bytes": 4896,
+      "sha1": "38c81d1b3b92b8d48fe65d43cf48ac41d7a3e633"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11232,
+      "sha1": "9b817d17c07925ccfca3d01fd7a9a2c22f27a25a"
+    },
+    "sound/es.mp3": {
+      "bytes": 7920,
+      "sha1": "edb39dd4800caa05aa1ec1f5853bed0227718fe2"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11232,
+      "sha1": "c2c1cbbc7b60f2ae161633c4b4dd060ce6f15f87"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12528,
+      "sha1": "c6f75cf054a2b0ee332a6d0da94f9463dc47e3dd"
     }
   },
   "readSections": {
@@ -83,9 +116,9 @@
     ],
     "en": [
       0,
-      18.65,
-      35.962,
-      57.513
+      9.887,
+      25.525,
+      32.275
     ]
   },
   "legacy_entity_id": "LT01T14:L493"

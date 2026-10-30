@@ -31,7 +31,8 @@
     "ru": {
       "name": "Ș",
       "description": "Буква Ș — девятнадцатая буква румынского алфавита.",
-      "ipa": "/ˈʂɛ/"
+      "ipa": "/ˈʂɛ/",
+      "ttsText": "Эс с запятой"
     },
     "it": {
       "name": "Ș",
@@ -62,23 +63,31 @@
   "files": {
     "sound/ro.mp3": {
       "bytes": 11232,
-      "sha1": "697b9586d8e03b8ca48b53031f0f86679eee0586"
+      "sha1": "50be5fe7df63e15c1626e135ce3a8f23602c0dcf"
     },
     "read/ro.mp3": {
       "bytes": 483264,
       "sha1": "77ac1f065df5c998c7bfab45e8c53b3e55eb1d29"
     },
     "read/en.mp3": {
-      "bytes": 493344,
-      "sha1": "9326d1f26e0d251d554a80ada17a524d66c14fb6"
+      "bytes": 262080,
+      "sha1": "44463c7be90b1e0b7d07f028b21be67d7bdf5d99"
+    },
+    "sound/en.mp3": {
+      "bytes": 6336,
+      "sha1": "b3851b0938f217f7be1d4c0937538c5dad57413f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14112,
+      "sha1": "294b3ea32d79b301ac333d04964d4bbf432e45b1"
     }
   },
   "readSections": {
     "en": [
       0,
-      21.637,
-      42.438,
-      61.913
+      9.938,
+      22.488,
+      32.375
     ],
     "ro": [
       0,

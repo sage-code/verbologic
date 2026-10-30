@@ -10,55 +10,161 @@
   "tags": [],
   "locales": {
     "en": {
-      "name": "contraction with hyphen"
+      "name": "Word contraction"
     },
     "es": {
-      "name": "contracción con guion"
+      "name": "Contracción con guion"
     },
     "it": {
-      "name": "contrazione con trattino"
+      "name": "Contrazione con trattino"
     },
     "fr": {
-      "name": "élision avec trait d'union"
+      "name": "Contraction avec trait d'union"
     },
     "de": {
-      "name": "Verschmelzung mit Bindestrich"
+      "name": "Wortverschmelzung mit Bindestrich"
     },
     "ru": {
-      "name": "стяжение через дефис"
+      "name": "Слияние через дефис"
     },
     "hu": {
-      "name": "kötőjeles összevonás"
+      "name": "Összevonás kötőjellel"
     },
     "pt": {
-      "name": "contração com hífen"
+      "name": "Contração com hífen"
     },
     "ro": {
-      "name": "eliziune cu cratimă"
+      "name": "Rostire legată cu cratimă"
     }
   },
   "files": {
     "read/en.mp3": {
-      "bytes": 569088,
-      "sha1": "b5baed2eea638889d8489821e14547359c141bdd"
+      "bytes": 388656,
+      "sha1": "2eb3a7d0c8b57ba1c07aaf5e78704bcfd74b1c8d"
+    },
+    "read/de.mp3": {
+      "bytes": 673488,
+      "sha1": "04bb9f6a56b59220173a0fff976adc8428b80319"
+    },
+    "read/it.mp3": {
+      "bytes": 568224,
+      "sha1": "05267441417050d87487450678ff0fb4cbe5bd0f"
+    },
+    "read/es.mp3": {
+      "bytes": 595440,
+      "sha1": "b9f8bb8171d9c8759c5d8f9e3e9ea89d6f8f0397"
+    },
+    "read/fr.mp3": {
+      "bytes": 588384,
+      "sha1": "2865779f997283025a0823c48a1ee9f40718322e"
     },
     "read/ro.mp3": {
       "bytes": 674784,
       "sha1": "7ee2e9e840d9f172f28a95a127c5e7713ca06f1f"
+    },
+    "read/ru.mp3": {
+      "bytes": 683568,
+      "sha1": "cd7a103ba2532a161ddf93e49adc0e15240b119e"
+    },
+    "read/hu.mp3": {
+      "bytes": 703728,
+      "sha1": "74c2eb15925c4a06dcf653410e11c88698299bd0"
+    },
+    "read/pt.mp3": {
+      "bytes": 546336,
+      "sha1": "aa262eb2a3981d3d6202e814927e7c2f624e5f6c"
+    },
+    "sound/en.mp3": {
+      "bytes": 11664,
+      "sha1": "a6964b367b0e0ef65a71c77f36be25092e0ee4f3"
+    },
+    "sound/ro.mp3": {
+      "bytes": 13824,
+      "sha1": "3e6d1c25c07d63e3fc4c441752b2042f7cfbdaf5"
+    },
+    "sound/de.mp3": {
+      "bytes": 16704,
+      "sha1": "23649810d4113cfba71ebe5f4b1e8ae50ac9a2e7"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16416,
+      "sha1": "74e13798fd5c306afd52daa5ee7b5f3de4aab505"
+    },
+    "sound/it.mp3": {
+      "bytes": 11808,
+      "sha1": "994c351a425852807334847fa925f0a056f90c6f"
+    },
+    "sound/es.mp3": {
+      "bytes": 13824,
+      "sha1": "e9f4b456284bf3f434c8e340195230121ca50b96"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13968,
+      "sha1": "c8ce612a9fb620e304e164888b15c71e989d886e"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15984,
+      "sha1": "ed73430952f12f19817657d25084415a04364e18"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15120,
+      "sha1": "384be20589303033ee6be450dfcb4bf7e439b0bb"
     }
   },
   "readSections": {
     "en": [
       0,
-      25.688,
-      49.163,
-      72.775
+      25.3,
+      48.4,
+      71.812
+    ],
+    "de": [
+      0,
+      30.8,
+      58.513,
+      83.938
+    ],
+    "it": [
+      0,
+      25.5,
+      50.913,
+      72.963
+    ],
+    "es": [
+      0,
+      25.75,
+      51.337,
+      74.5
+    ],
+    "fr": [
+      0,
+      26.212,
+      53.3,
+      75.35
     ],
     "ro": [
       0,
-      29.863,
-      61.1,
-      86.95
+      29.4,
+      60.3,
+      85.875
+    ],
+    "ru": [
+      0,
+      29.712,
+      59.162,
+      87.012
+    ],
+    "hu": [
+      0,
+      30.663,
+      61.663,
+      89.925
+    ],
+    "pt": [
+      0,
+      24.962,
+      48.7,
+      68.787
     ]
   }
 }

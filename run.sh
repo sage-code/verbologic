@@ -37,9 +37,11 @@ Verbologic maintenance runner
   ./run.sh translate plan|run|status|schedule  Translate English articles into the other 8 languages (job table content/jobs/translations.json)
   ./run.sh articles check               Article JSON files are canonical (Node and Python writers agree)
   ./run.sh create story <topic-code> [n]  Write n (default 1) illustrated stories for a topic at its CEFR level (Gemini text + pictures + audio)
+  ./run.sh create story --next [ST02] [n]  Same, in the first topic with no stories yet (optionally within one chapter)
   ./run.sh create lecture <topic-code> [--target xx] [--overwrite] [--preview]  Simple-English lecture articles for a chapter-1 topic
   ./run.sh create read <chapter|topic|item_id> [--dry-run] [--overwrite-audio] [--lang xx]  Read-aloud audio of article docs (generate-audio --read)
   ./run.sh create sound <chapter|topic|item_id> [--dry-run] [--lang xx]  Re-make the per-language item audio (always overwrites)
+  ./run.sh create sound --missing [--target xx] [--dry-run] [--lang xx]  Only the item audio not made yet (every item, or one target language)
   ./run.sh clean                         Remove build junk (keeps .nuxt cache)
   ./run.sh clean-deep                    Remove build junk AND the .nuxt cache
   ./run.sh tsc                           Type-check (vue-tsc)
@@ -219,18 +221,30 @@ case "${1:-help}" in
         shift 2
         .venv/Scripts/python.exe scripts/create-stories.py "$@" ;;
       read|sound)
-        # `sound` = the per-language audio of the items (always re-made); `read` = the read-aloud of article docs.
+        # `sound` = the per-language audio of the items (re-made, or only the missing files with --missing);
+        # `read` = the read-aloud of article docs.
         # The scope is told apart by shape: LT01 = chapter, LT01T03 = topic, anything else (L342) = item id.
-        scope="${3:-}"
-        [[ -n "$scope" && "$scope" != --* ]] || fail "usage: ./run.sh create $2 <chapter|topic|item_id> [--dry-run] [--lang xx]"
-        kind="$2"; shift 3
-        if   [[ "$scope" =~ ^[A-Z]{2}[0-9]+$ ]];       then flag=(--chapter "$scope")
-        elif [[ "$scope" =~ ^[A-Z]{2}[0-9]+T[0-9]+$ ]]; then flag=(--topic "$scope")
-        else                                              flag=(--id "$scope"); fi
-        apply=(--apply)
+        # `sound --missing` with no scope = every dictionary item (narrow it with --target xx).
+        kind="$2"; scope="${3:-}"
+        if [[ -z "$scope" || "$scope" == --* ]]; then
+          [[ "$kind" == sound && " $* " == *" --missing "* ]] || fail "usage: ./run.sh create $kind <chapter|topic|item_id> [--dry-run] [--lang xx]$([[ $kind == sound ]] && echo '  (or: ./run.sh create sound --missing [--target xx] [--dry-run])')"
+          flag=(); shift 2
+        else
+          if   [[ "$scope" =~ ^[A-Z]{2}[0-9]+$ ]];       then flag=(--chapter "$scope")
+          elif [[ "$scope" =~ ^[A-Z]{2}[0-9]+T[0-9]+$ ]]; then flag=(--topic "$scope")
+          else                                              flag=(--id "$scope"); fi
+          shift 3
+        fi
+        apply=(--apply); overwrite=(--overwrite-audio)
         rest=()
-        for a in "$@"; do [[ "$a" == --dry-run ]] && apply=() || rest+=("$a"); done
-        if [[ "$kind" == sound ]]; then mode=(--audio --overwrite-audio); else mode=(--read); fi
+        for a in "$@"; do
+          case "$a" in
+            --dry-run) apply=() ;;
+            --missing) overwrite=() ;;
+            *) rest+=("$a") ;;
+          esac
+        done
+        if [[ "$kind" == sound ]]; then mode=(--audio "${overwrite[@]}"); else mode=(--read); fi
         .venv/Scripts/python.exe scripts/generate-audio.py "${mode[@]}" "${flag[@]}" "${apply[@]}" "${rest[@]}" ;;
       lecture)
         # Lecture articles (simple English, English only) for one chapter-1 topic, every language that has material.

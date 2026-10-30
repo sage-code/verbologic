@@ -10,28 +10,28 @@
   "tags": [],
   "locales": {
     "en": {
-      "name": "Elision in dintr-o"
+      "name": "Vowel drop in dintr-o"
     },
     "es": {
-      "name": "Elisión en dintr-o"
+      "name": "Elisión vocálica en dintr-o"
     },
     "it": {
-      "name": "Elisione in dintr-o"
+      "name": "Elisione vocalica in dintr-o"
     },
     "fr": {
-      "name": "Élision dans dintr-o"
+      "name": "Élision vocalique dans dintr-o"
     },
     "de": {
-      "name": "Elision bei dintr-o"
+      "name": "Vokalausfall bei dintr-o"
     },
     "ru": {
-      "name": "Элизия в dintr-o"
+      "name": "Выпадение гласного в dintr-o"
     },
     "hu": {
-      "name": "Elízió a dintr-o szóban"
+      "name": "Magánhangzó-kiesés a dintr-o-ban"
     },
     "pt": {
-      "name": "Elisão em dintr-o"
+      "name": "Queda vocálica em dintr-o"
     },
     "ro": {
       "name": "Eliziunea în dintr-o"
@@ -39,12 +39,76 @@
   },
   "files": {
     "read/en.mp3": {
-      "bytes": 696384,
-      "sha1": "242b0e0f3560436fbeeb87c87f9f0b89520b684a"
+      "bytes": 379152,
+      "sha1": "66b31bda1c2768d6e61fa43b6783e603a29e10f8"
+    },
+    "read/de.mp3": {
+      "bytes": 805392,
+      "sha1": "15ed1b989a417bab7d851cf1ae824ecc44669264"
+    },
+    "read/es.mp3": {
+      "bytes": 727776,
+      "sha1": "9d1b33f5f95499fd1221cbae387efc06cf77312e"
+    },
+    "read/fr.mp3": {
+      "bytes": 703728,
+      "sha1": "c7c8bf8b99fac2f287c591f5b150e5cd75e60cf7"
+    },
+    "read/it.mp3": {
+      "bytes": 730512,
+      "sha1": "a64b62e72e07440a91ed6031c69f34240dcb3cb2"
     },
     "read/ro.mp3": {
       "bytes": 759456,
       "sha1": "d5864e792cc0c767fc66d63f305c6b50967a4a8c"
+    },
+    "read/hu.mp3": {
+      "bytes": 851040,
+      "sha1": "2f4b69c0c481fbaa19c8a3352443dd8f65d7f5ae"
+    },
+    "read/pt.mp3": {
+      "bytes": 790848,
+      "sha1": "36b05efc97cb9b9beafe652daa40ee303a06b4db"
+    },
+    "read/ru.mp3": {
+      "bytes": 752976,
+      "sha1": "b7f943ad5de81fa32873542689a03d1984d28c03"
+    },
+    "sound/en.mp3": {
+      "bytes": 11088,
+      "sha1": "98f45459e19cac967de548abb652342506dca987"
+    },
+    "sound/ro.mp3": {
+      "bytes": 13104,
+      "sha1": "24eb756fa04db59eb5ac1bdd768f996e0472195f"
+    },
+    "sound/de.mp3": {
+      "bytes": 13968,
+      "sha1": "69e6682ba0738cdecf3a7cb44e0eae328f6f63e8"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13536,
+      "sha1": "946d6e323697ced06398abb4016a1f477a4b6f27"
+    },
+    "sound/it.mp3": {
+      "bytes": 9792,
+      "sha1": "bac2648bd43dc2aa76d60728ed3a9a50c7d928dc"
+    },
+    "sound/es.mp3": {
+      "bytes": 13536,
+      "sha1": "c17bb2ffb2cb283261a6d26ae352547fb3a8925c"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12528,
+      "sha1": "074a52c1b4c0b99828582db4979934da170ec616"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17712,
+      "sha1": "fdbb5246e5ef2d00d1fb9d8b164d9e73e2f47d22"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14112,
+      "sha1": "64cfec3e322ad54ccf8d74e0bc6827d0b4e763d5"
     }
   },
   "readSections": {
@@ -52,13 +116,55 @@
       0,
       32.337,
       61.325,
-      88.463
+      87.675
+    ],
+    "de": [
+      0,
+      38.45,
+      71.188,
+      102.625
+    ],
+    "es": [
+      0,
+      33.075,
+      63.025,
+      92.4
+    ],
+    "fr": [
+      0,
+      30.387,
+      59.425,
+      88.2
+    ],
+    "it": [
+      0,
+      32.288,
+      62.275,
+      92.588
     ],
     "ro": [
       0,
       35.125,
       66.025,
-      98.062
+      97.463
+    ],
+    "hu": [
+      0,
+      37.513,
+      75.2,
+      109.1
+    ],
+    "pt": [
+      0,
+      36.837,
+      69.05,
+      100.65
+    ],
+    "ru": [
+      0,
+      35.413,
+      65.938,
+      96.562
     ]
   }
 }

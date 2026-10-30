@@ -4,7 +4,6 @@
   "chapter": "LT01",
   "topic": "LT01T05",
   "kind": "article",
-  "target": "ro",
   "entity_id": "LT01T05:L680",
   "cefr": "A2",
   "tags": [],
@@ -13,52 +12,158 @@
       "name": "Weak pronoun stress"
     },
     "es": {
-      "name": "Acento del pronombre átono"
+      "name": "Acentuación del pronombre átono"
     },
     "it": {
-      "name": "Accento del pronome atono"
+      "name": "Accento dei pronomi atoni"
     },
     "fr": {
       "name": "Accent du pronom atone"
     },
     "de": {
-      "name": "Unbetonte Pronomen"
+      "name": "Betonung unbetonter Pronomen"
     },
     "ru": {
-      "name": "Безударные местоимения"
+      "name": "Ударение в безударных местоимениях"
     },
     "hu": {
-      "name": "Hangsúlytalan névmás"
+      "name": "Hangsúlytalan névmások hangsúlya"
     },
     "pt": {
-      "name": "Acento do pronome átono"
+      "name": "Acentuação do pronome átono"
     },
     "ro": {
-      "name": "Pronume neaccentuat"
+      "name": "Accentuarea pronumelui neaccentuat"
     }
   },
   "files": {
     "read/en.mp3": {
-      "bytes": 561024,
-      "sha1": "ee86515e0721e37f46e08988f109ed6011ec3a6a"
+      "bytes": 352080,
+      "sha1": "c10296555970ce565da0ab493c2bba48ef8e9163"
+    },
+    "read/de.mp3": {
+      "bytes": 648288,
+      "sha1": "7621777d3d3c7946e205c700932a44df60c1c241"
+    },
+    "read/es.mp3": {
+      "bytes": 616896,
+      "sha1": "1379f73e19820a7068e29dd0b972825700a418d2"
+    },
+    "read/fr.mp3": {
+      "bytes": 574992,
+      "sha1": "79c7507fff806c4e06adf1c7e756926f1cf53dd2"
     },
     "read/ro.mp3": {
       "bytes": 643392,
       "sha1": "48bf958fb0bd48a0fe3d2fa9882542d5e38ca577"
+    },
+    "read/it.mp3": {
+      "bytes": 579024,
+      "sha1": "3762fab5bc4a685025036066db66266fea486e58"
+    },
+    "read/hu.mp3": {
+      "bytes": 669456,
+      "sha1": "2251089d60e27157cea3ade726b6a11fc08df8c2"
+    },
+    "read/ru.mp3": {
+      "bytes": 671904,
+      "sha1": "17c1f92173405176939514c137d114dbfd1bbe88"
+    },
+    "read/pt.mp3": {
+      "bytes": 651312,
+      "sha1": "01bcc29693623895919d65e7a2da24f5d6e4d5c6"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "a7be94e8ffc876bd6aa9c99b8ef1171211bd2131"
+    },
+    "sound/ro.mp3": {
+      "bytes": 13824,
+      "sha1": "10a993e89915dff3c0a58a55d007f52e116805ad"
+    },
+    "sound/de.mp3": {
+      "bytes": 14688,
+      "sha1": "f95f78b0300a4e735ad7f661be6d47ebcf1014ff"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17856,
+      "sha1": "49f23cb51a7e5668913c03697f0a7af118378113"
+    },
+    "sound/it.mp3": {
+      "bytes": 11664,
+      "sha1": "6d858085da853320bf82cc013c08ae3497f8b5a5"
+    },
+    "sound/es.mp3": {
+      "bytes": 15408,
+      "sha1": "6f710e232cc5927bb005496566b8d0a9e4106e3b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14256,
+      "sha1": "62a56a52af611fcb52cc3920786c1ea8e7bd8d82"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15984,
+      "sha1": "b089dde556f56c13836051b4c64f7c75b1456c72"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16992,
+      "sha1": "81a1fee555d9ba730e68c8733cf55643abf567d7"
     }
   },
   "readSections": {
     "en": [
       0,
-      23.387,
-      46.275,
-      70.312
+      23.025,
+      45.337,
+      69.05
+    ],
+    "de": [
+      0,
+      27.762,
+      53.938,
+      81.537
+    ],
+    "es": [
+      0,
+      25.4,
+      51.388,
+      77.3
+    ],
+    "fr": [
+      0,
+      22.712,
+      47.35,
+      72.225
     ],
     "ro": [
       0,
-      26.163,
-      52.05,
-      79.9
+      25.812,
+      53.862,
+      81.45
+    ],
+    "it": [
+      0,
+      23.65,
+      46.35,
+      72.487
+    ],
+    "hu": [
+      0,
+      28.962,
+      57.188,
+      85.7
+    ],
+    "ru": [
+      0,
+      27.525,
+      54.875,
+      84.037
+    ],
+    "pt": [
+      0,
+      28.575,
+      54.375,
+      82.975
     ]
   }
 }

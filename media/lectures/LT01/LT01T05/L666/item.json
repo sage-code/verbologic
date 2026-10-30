@@ -10,41 +10,105 @@
   "tags": [],
   "locales": {
     "en": {
-      "name": "Single consonant division"
+      "name": "Single Consonant Between Vowels"
     },
     "es": {
-      "name": "Consonante intervocalica"
+      "name": "Consonante entre vocales"
     },
     "it": {
-      "name": "Consonante intervocalica"
+      "name": "Consonante tra vocali"
     },
     "fr": {
-      "name": "Consonne intervocalique"
+      "name": "Consonne entre deux voyelles"
     },
     "de": {
-      "name": "Einzelner Konsonant"
+      "name": "Einzelner Konsonant zwischen Vokalen"
     },
     "ru": {
-      "name": "Одиночный согласный"
+      "name": "Одиночный согласный между гласными"
     },
     "hu": {
-      "name": "Egyedülálló mássalhangzó"
+      "name": "Magánhangzók közötti mássalhangzó"
     },
     "pt": {
-      "name": "Consoante intervocalica"
+      "name": "Consoante entre vogais"
     },
     "ro": {
-      "name": "Consoană intervocalică"
+      "name": "Consoană între vocale"
     }
   },
   "files": {
     "read/en.mp3": {
-      "bytes": 584352,
-      "sha1": "b303d35e98c04dd9d18199f4494db4d928940794"
+      "bytes": 393408,
+      "sha1": "504f001005dacdc5e5675eea00dd8a46de10d975"
+    },
+    "read/de.mp3": {
+      "bytes": 661536,
+      "sha1": "03b194102f9aa5ee76b5363ac91c561457a08c71"
     },
     "read/ro.mp3": {
       "bytes": 619488,
       "sha1": "322379cc013a0d239f070e48c97897445f4be88f"
+    },
+    "read/es.mp3": {
+      "bytes": 629424,
+      "sha1": "02dc9d81f7f8ff912284d249e3359a21ac8eaa56"
+    },
+    "read/fr.mp3": {
+      "bytes": 603216,
+      "sha1": "1fb2141c2fd9f9bcabb1efbd90bf0d762e6f2d4b"
+    },
+    "read/it.mp3": {
+      "bytes": 590832,
+      "sha1": "a4d9e38d56d29f97acc9e090991adaab032ce5e9"
+    },
+    "read/hu.mp3": {
+      "bytes": 683280,
+      "sha1": "3142a584374e12effcc1669cfdca55d3fbe74d5f"
+    },
+    "read/ru.mp3": {
+      "bytes": 628704,
+      "sha1": "01a8132324d2aee4e080e3f3bb96115ecc66d413"
+    },
+    "read/pt.mp3": {
+      "bytes": 645840,
+      "sha1": "ac8eda5e5fa692e57e9b4be317c1200b1da1b481"
+    },
+    "sound/en.mp3": {
+      "bytes": 12096,
+      "sha1": "eb805860f965b9b58a390a82bc3edb31ce6fa9fa"
+    },
+    "sound/ro.mp3": {
+      "bytes": 14976,
+      "sha1": "07bc8d2eb910b5ac5c49b83d88412848c25e9f86"
+    },
+    "sound/de.mp3": {
+      "bytes": 14400,
+      "sha1": "7dda3c3054aae0f72beb8708d887f4541289f170"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15696,
+      "sha1": "7dda36c98385485fced9e151b1c503739df032a1"
+    },
+    "sound/it.mp3": {
+      "bytes": 12384,
+      "sha1": "dd9a1f31bace564fca08fb1349d663708d287bb0"
+    },
+    "sound/es.mp3": {
+      "bytes": 15120,
+      "sha1": "c946ffa067dcb1aa6c43377d872ccafef9858c3a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14256,
+      "sha1": "691313308e5f6caeeb796e4297fdf0aba1a003e7"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17568,
+      "sha1": "1785c7300602f35fa5eb71d80fd12fa8fe94dfe4"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17568,
+      "sha1": "cc66f544f509c368db1420e92690f895e72016d2"
     }
   },
   "readSections": {
@@ -52,13 +116,55 @@
       0,
       25.887,
       51.15,
-      75.25
+      75
+    ],
+    "de": [
+      0,
+      30.175,
+      58.862,
+      83.537
     ],
     "ro": [
       0,
       29.45,
       56.05,
-      79.975
+      79.825
+    ],
+    "es": [
+      0,
+      27.962,
+      54.675,
+      79.6
+    ],
+    "fr": [
+      0,
+      26.562,
+      52.1,
+      75.4
+    ],
+    "it": [
+      0,
+      26.375,
+      51.562,
+      74.35
+    ],
+    "hu": [
+      0,
+      31.075,
+      61.763,
+      86.05
+    ],
+    "ru": [
+      0,
+      28.275,
+      56.037,
+      80.525
+    ],
+    "pt": [
+      0,
+      30.837,
+      59.487,
+      82.675
     ]
   }
 }
