@@ -1407,15 +1407,15 @@
         {
           "code": "LT06T01",
           "names": {
-            "en": "Regular verbs: first group",
-            "ro": "Verbe regulate: primul grup",
-            "de": "Regelmäßige Verben: erste Gruppe",
-            "ru": "Правильные глаголы: первая группа",
-            "it": "Verbi regolari: primo gruppo",
-            "es": "Verbos regulares: primer grupo",
-            "fr": "Verbes réguliers : premier groupe",
-            "hu": "Szabályos igék: első csoport",
-            "pt": "Verbos regulares: primeiro grupo"
+            "en": "Present tense: stems & endings",
+            "ro": "Prezentul: teme și terminații",
+            "de": "Präsens: Stamm und Endungen",
+            "ru": "Настоящее время: основа и окончания",
+            "it": "Presente: radice e desinenze",
+            "es": "Presente: raíz y terminaciones",
+            "fr": "Présent : radical et terminaisons",
+            "hu": "Jelen idő: tő és ragok",
+            "pt": "Presente: radical e terminações"
           },
           "layout": "table",
           "level": "A1",
@@ -1424,15 +1424,15 @@
         {
           "code": "LT06T02",
           "names": {
-            "en": "Regular verbs: second & third groups",
-            "ro": "Verbe regulate: al doilea și al treilea grup",
-            "de": "Regelmäßige Verben: zweite & dritte Gruppe",
-            "ru": "Правильные глаголы: вторая и третья группы",
-            "it": "Verbi regolari: secondo e terzo gruppo",
-            "es": "Verbos regulares: segundo y tercer grupo",
-            "fr": "Verbes réguliers : deuxième et troisième groupes",
-            "hu": "Szabályos igék: második és harmadik csoport",
-            "pt": "Verbos regulares: segundo e terceiro grupos"
+            "en": "Conjugation classes",
+            "ro": "Clase de conjugare",
+            "de": "Konjugationsklassen",
+            "ru": "Типы спряжения",
+            "it": "Classi di coniugazione",
+            "es": "Clases de conjugación",
+            "fr": "Groupes de conjugaison",
+            "hu": "Igeragozási típusok",
+            "pt": "Classes de conjugação"
           },
           "layout": "table",
           "level": "A2",
@@ -1441,15 +1441,15 @@
         {
           "code": "LT06T03",
           "names": {
-            "en": "Regular verbs: fourth group",
-            "ro": "Verbe regulate: al patrulea grup",
-            "de": "Regelmäßige Verben: vierte Gruppe",
-            "ru": "Правильные глаголы: четвёртая группа",
-            "it": "Verbi regolari: quarto gruppo",
-            "es": "Verbos regulares: cuarto grupo",
-            "fr": "Verbes réguliers : quatrième groupe",
-            "hu": "Szabályos igék: negyedik csoport",
-            "pt": "Verbos regulares: quarto grupo"
+            "en": "Stem changes & irregular stems",
+            "ro": "Alternanțe în rădăcină și teme neregulate",
+            "de": "Stammwechsel und unregelmäßige Stämme",
+            "ru": "Чередование в основе и неправильные основы",
+            "it": "Cambi di radice e radici irregolari",
+            "es": "Cambios de raíz y raíces irregulares",
+            "fr": "Changements de radical et radicaux irréguliers",
+            "hu": "Tőváltozás és rendhagyó tövek",
+            "pt": "Mudanças de radical e radicais irregulares"
           },
           "layout": "table",
           "level": "A2",
@@ -1458,15 +1458,15 @@
         {
           "code": "LT06T04",
           "names": {
-            "en": "Irregular & high-frequency motion verbs",
-            "ro": "Verbe neregulate și verbe de mișcare",
-            "de": "Unregelmäßige und hochfrequente Bewegungsverben",
-            "ru": "Неправильные и частотные глаголы движения",
-            "it": "Verbi di movimento irregolari e ad alta frequenza",
-            "es": "Verbos de movimiento irregulares y de alta frecuencia",
-            "fr": "Verbes de mouvement irréguliers et à haute fréquence",
-            "hu": "Rendhagyó és gyakori mozgásigék",
-            "pt": "Verbos de movimento irregulares e de alta frequência"
+            "en": "Irregular & high-frequency verbs",
+            "ro": "Verbe neregulate și foarte frecvente",
+            "de": "Unregelmäßige und häufige Verben",
+            "ru": "Неправильные и частотные глаголы",
+            "it": "Verbi irregolari e molto frequenti",
+            "es": "Verbos irregulares y muy frecuentes",
+            "fr": "Verbes irréguliers et très fréquents",
+            "hu": "Rendhagyó és gyakori igék",
+            "pt": "Verbos irregulares e muito frequentes"
           },
           "layout": "table",
           "level": "A2",
@@ -1474,6 +1474,23 @@
         },
         {
           "code": "LT06T05",
+          "names": {
+            "en": "Modal verbs & auxiliaries",
+            "ro": "Verbe modale și auxiliare",
+            "de": "Modalverben und Hilfsverben",
+            "ru": "Модальные и вспомогательные глаголы",
+            "it": "Verbi modali e ausiliari",
+            "es": "Verbos modales y auxiliares",
+            "fr": "Verbes modaux et auxiliaires",
+            "hu": "Módbeli és segédigék",
+            "pt": "Verbos modais e auxiliares"
+          },
+          "layout": "table",
+          "level": "A2",
+          "items": []
+        },
+        {
+          "code": "LT06T06",
           "names": {
             "en": "Adverbs of frequency, time & manner",
             "ro": "Adverbe de frecvență, timp și mod",
@@ -1490,7 +1507,7 @@
           "items": []
         },
         {
-          "code": "LT06T06",
+          "code": "LT06T07",
           "names": {
             "en": "Negation, intensifiers & word order",
             "ro": "Negația, semiadverbele și topica",
@@ -1593,15 +1610,15 @@
         {
           "code": "LT07T05",
           "names": {
-            "en": "Numbers, quantities, dates & telling time",
-            "ro": "Numerale, cantități, date și exprimarea orei",
-            "de": "Zahlen, Mengen, Daten & Uhrzeiten",
-            "ru": "Числа, количества, даты и время",
-            "it": "Numeri, quantità, date e orari",
-            "es": "Números, cantidades, fechas y decir la hora",
-            "fr": "Nombres, quantités, dates et dire l'heure",
-            "hu": "Számok, mennyiségek, dátumok és az idő kifejezése",
-            "pt": "Números, quantidades, datas e horas"
+            "en": "Numbers & counting",
+            "ro": "Numere și numărat",
+            "de": "Zahlen und Zählen",
+            "ru": "Числа и счёт",
+            "it": "Numeri e conteggio",
+            "es": "Números y contar",
+            "fr": "Nombres et comptage",
+            "hu": "Számok és számolás",
+            "pt": "Números e contagem"
           },
           "layout": "table",
           "level": "A2",
@@ -1609,6 +1626,23 @@
         },
         {
           "code": "LT07T06",
+          "names": {
+            "en": "Time, dates & telling time",
+            "ro": "Timpul, datele și ora",
+            "de": "Zeit, Datum und Uhrzeit",
+            "ru": "Время, даты и часы",
+            "it": "Tempo, date e ora",
+            "es": "Tiempo, fechas y hora",
+            "fr": "Temps, dates et heure",
+            "hu": "Idő, dátumok és óra",
+            "pt": "Tempo, datas e horas"
+          },
+          "layout": "table",
+          "level": "A2",
+          "items": []
+        },
+        {
+          "code": "LT07T07",
           "names": {
             "en": "Vocative forms & direct address",
             "ro": "Cazul vocativ și adresarea directă",
@@ -2212,6 +2246,23 @@
           },
           "layout": "table",
           "level": "C2",
+          "items": []
+        },
+        {
+          "code": "LT12T07",
+          "names": {
+            "en": "Word formation: prefixes, suffixes & compounds",
+            "ro": "Formarea cuvintelor: prefixe, sufixe și compuse",
+            "de": "Wortbildung: Präfixe, Suffixe und Komposita",
+            "ru": "Словообразование: приставки, суффиксы и сложные слова",
+            "it": "Formazione delle parole: prefissi, suffissi e composti",
+            "es": "Formación de palabras: prefijos, sufijos y compuestos",
+            "fr": "Formation des mots : préfixes, suffixes et composés",
+            "hu": "Szóképzés: előtagok, utótagok és összetételek",
+            "pt": "Formação de palavras: prefixos, sufixos e compostos"
+          },
+          "layout": "table",
+          "level": "B2",
           "items": []
         }
       ]

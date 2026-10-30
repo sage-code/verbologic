@@ -66,9 +66,9 @@ Not done on purpose: nothing under `media/` was touched (it has uncommitted work
 4. **LT01T06 L697** (*vă rog*) is a courtesy expression, not intonation. Move to LT03T03.
 5. `./run.sh validate` already failed with 155 errors before this change (LT01T05 manifests without `target`, manifest names differing from content `terms`); it now reports 97, none new. These come from the uncommitted manifest work.
 
-## 3. Structure changes proposed (not applied)
+## 3. Structure changes (LT06, LT07, LT12 applied 2026-10-30)
 
-The topics below need a renumber plus nine-language names, manifests and title audio, so they wait for a decision.
+Applied: LT06 now has 7 topics (new T05 Modal verbs & auxiliaries; Adverbs and Negation are T06 and T07), LT07 has 7 (new T06 Time, dates & telling time; Vocative is T07), LT12 has a new T07 Word formation. Renamed and new topics have new titles, IPA and title audio. The layout/mode row is still open.
 
 | Change | Why |
 | --- | --- |
