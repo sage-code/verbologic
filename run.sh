@@ -48,8 +48,8 @@ Verbologic maintenance runner
   ./run.sh commit "<message>"            Stage + commit all changes
   ./run.sh push [--force]                Push current branch (throttled: max 1 push / 2h; --force bypasses)
   ./run.sh release "<message>"           build → validate → media manifest → commit → push (throttled)
-  ./run.sh publish ["<message>"]         Full publish: sync → build → validate → media → release → deploy (throttled)
-  ./run.sh deploy                        Wrangler deploy (Workers Static Assets, differential)
+  ./run.sh publish ["<message>"]         Full publish: build → validate → release (commit, push) → deploy (media, sync, wrangler)
+  ./run.sh deploy                        Full publish: media → R2, database sync, build, Wrangler deploy
   ./run.sh deploy-dry                    Validate wrangler.toml without uploading
 EOF
 }
@@ -147,7 +147,8 @@ do_release() {
   return $?
 }
 
-# do_deploy — wrangler deploy of the current .output/public.
+# do_deploy — publish everything: media to R2, database sync, build, wrangler deploy.
+# (R2 prune is not part of it: run './run.sh media prune' by hand, it deletes objects.)
 do_deploy() {
   # CLOUDFLARE_API_TOKEN lives in .env (gitignored) alongside the R2 S3 keys —
   # load it so this guard (and wrangler itself) can see it without requiring
@@ -155,7 +156,16 @@ do_deploy() {
   [[ -f .env ]] && set -a && source .env && set +a
   [[ -n "${CLOUDFLARE_API_TOKEN:-}" ]] || \
     fail "CLOUDFLARE_API_TOKEN is not set in .env — create a Workers-scoped token at https://dash.cloudflare.com/profile/api-tokens (different from the R2 bucket token used by './run.sh media')"
+  say "── 1/4 media: manifest, validate, upload to R2 ──"
+  node scripts/media-sync.mjs manifest || fail "media manifest failed"
+  node scripts/media-index.mjs || fail "media index failed"
+  node scripts/validate-data.mjs || fail "validation failed — nothing was uploaded or deployed"
+  node scripts/media-sync.mjs upload --apply || fail "R2 upload failed"
+  say "── 2/4 database sync ──"
+  do_sync
+  say "── 3/4 build ──"
   differential_build
+  say "── 4/4 wrangler deploy ──"
   npx wrangler deploy || fail "wrangler deploy failed — see output above."
   say "Deployed ✓ — verbologic.com + www.verbologic.com (Workers Static Assets)."
 }
@@ -308,8 +318,7 @@ case "${1:-help}" in
     # deploy uploads .output/public directly and does not depend on the push.
     msg="${2:-publish $(date +%Y-%m-%d %H:%M)}"
     say "Publishing: sync → build → validate → release → deploy"
-    say "── 1/5 database sync ──"
-    do_sync
+    say "── 1/5 (database sync runs inside deploy) ──"
     say "── 2/5 build ──"
     differential_build
     say "── 3/5 validate ──"
