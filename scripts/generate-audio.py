@@ -354,31 +354,56 @@ def display_media_path(path: Path) -> str:
 
 
 #: Words a voice mispronounces, respelled for the voice only (the displayed text keeps
-#: the real spelling). Keyed by the voice's language prefix. Edge TTS accepts no
-#: phoneme tags, so a respelling is the only lever (see CLAUDE.md).
-VOICE_RESPELL = {
-    # ro-RO voices drop the "-eioa-" triphthong ("creioane" is read as "a")
-    "ro-RO": {
+#: the real spelling). Edge TTS accepts no phoneme tags, so a respelling is the only
+#: lever (see CLAUDE.md). Built from two sources, keyed by language code:
+#:   - every dictionary item's `ttsText` (media/dictionary/**/item.json): fix a word once
+#:     there and every story, lecture and title that uses it gets the fix;
+#:   - the inflected forms below that no dictionary entry spells out.
+EXTRA_RESPELL = {
+    # ro voices drop the "-eioa-" triphthong ("creioane" is read as "a")
+    "ro": {
         "creioane": "creyoane", "creioanele": "creyoanele", "creioanelor": "creyoanelor",
-        "creion": "creyon", "creionul": "creyonul", "creionului": "creyonului",
+        "creionul": "creyonul", "creionului": "creyonului",
     },
 }
+_RESPELL: dict[str, re.Pattern | None] = {}
+_RESPELL_WORDS: dict[str, dict[str, str]] = {}
+
+
+def respell_table(locale: str) -> dict[str, str]:
+    """lowercase word -> respelling for one language."""
+    if locale not in _RESPELL_WORDS:
+        table: dict[str, str] = {}
+        for path in (MEDIA_DIR / "dictionary").rglob("item.json"):
+            try:
+                row = (json.loads(path.read_text(encoding="utf-8")).get("locales") or {}).get(locale) or {}
+            except (OSError, ValueError):
+                continue
+            name, fixed = str(row.get("name") or ""), str(row.get("ttsText") or "")
+            # one- or two-word names only: "Numere 0-100" style ttsText is a spoken label, not a respelling
+            if name and fixed and name.lower() != fixed.lower() and len(name.split()) <= 2:
+                table.setdefault(name.lower(), fixed)
+        table.update(EXTRA_RESPELL.get(locale, {}))
+        _RESPELL_WORDS[locale] = table
+    return _RESPELL_WORDS[locale]
 
 
 def respell_for_voice(text: str, voice: str) -> str:
     """The text as the voice should be given it: known-bad words respelled."""
-    table = VOICE_RESPELL.get(voice[:5])
+    locale = voice[:2]
+    table = respell_table(locale)
     if not table:
         return text
-    words = "|".join(sorted(map(re.escape, table), key=len, reverse=True))
-    pattern = re.compile(r"(?<!\w)(" + words + r")(?!\w)", re.IGNORECASE)
+    if locale not in _RESPELL:
+        words = "|".join(sorted(map(re.escape, table), key=len, reverse=True))
+        _RESPELL[locale] = re.compile(r"(?<!\w)(" + words + r")(?!\w)", re.IGNORECASE)
 
     def swap(match: re.Match) -> str:
         word = match.group(1)
         fixed = table[word.lower()]
         return fixed[:1].upper() + fixed[1:] if word[:1].isupper() else fixed
 
-    return pattern.sub(swap, text)
+    return _RESPELL[locale].sub(swap, text)
 
 
 async def synthesize(text: str, voice: str, output: Path) -> None:
