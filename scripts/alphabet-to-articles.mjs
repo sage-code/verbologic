@@ -61,6 +61,9 @@ const DOC_LOCALES = !requested ? ['en'] : requested === 'all' ? LOCALES : reques
 /** Only the items that teach this language: `--target ro`. */
 const TARGET_ONLY = flagValue('--target')
 
+/** Only these item codes: `--code L022,L030` (so `--overwrite` leaves hand-edited pages alone). */
+const CODE_ONLY = flagValue('--code')?.split(',') ?? null
+
 /**
  * The per-locale names of one item, read from its media manifest.
  *
@@ -169,6 +172,7 @@ function main() {
     topic.items.forEach((code, index) => {
       const target = topic.target ?? manifestFor(code)?.target
       if (TARGET_ONLY && target !== TARGET_ONLY) return
+      if (CODE_ONLY && !CODE_ONLY.includes(code)) return
       const byCode = target ? alphabetEntries(target) : null
       if (!byCode) return
       const entry = byCode.get(code)
