@@ -186,3 +186,5 @@ Left to confirm:
 **answer** the most cost effective solution. Is solution 1 probably.
 - **Glossary risk accepted.** Claude cannot confirm native-speaker usage for every term; the `draft`/`checked` flags keep the doubtful ones visible. 
 **answer** we accept the risk
+
+> **Retired 2026-10-30.** Section 6 (`./run.sh translate`, the job table `content/jobs/translations.json`) is no longer used: each language's article is written natively with the same rules and checked, not translated from the English. The script and job table were removed.

@@ -34,7 +34,6 @@ Verbologic maintenance runner
   ./run.sh media prune [--apply]        R2 objects no manifest references (default reports, --apply deletes)
   ./run.sh scaffold <lang> <TOPIC> <seed.json>  Seed a blank dictionary topic with pending manifests
   ./run.sh lecture <new|status|translate|review>  Lecture content tooling (content/lectures)
-  ./run.sh translate plan|run|status|schedule  Translate English articles into the other 8 languages (job table content/jobs/translations.json)
   ./run.sh articles check               Article JSON files are canonical (Node and Python writers agree)
   ./run.sh create story <topic-code> [n]  Write n (default 1) illustrated stories for a topic at its CEFR level (Gemini text + pictures + audio)
   ./run.sh create story --next [ST02] [n]  Same, in the first topic with no stories yet (optionally within one chapter)
@@ -210,7 +209,7 @@ case "${1:-help}" in
     fi ;;
   scaffold)  shift; node scripts/media-scaffold-topic.mjs "$@" ;;
   lecture)   shift; node scripts/lecture.mjs "$@" ;;
-  translate) shift; .venv/Scripts/python.exe scripts/translate.py "${@:-status}" ;;
+  translate) fail "retired: articles are written natively in each language, not translated (./run.sh create lecture <topic>, ./run.sh create story)" ;;
   articles)
     case "${2:-}" in
       check)    node scripts/check-articles.mjs ;;

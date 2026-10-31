@@ -42,13 +42,24 @@ const SECTION_ORDER = ['sound', 'howToSay', 'spelling', 'compare']
 /** Every registered explanation locale, in the canonical order. */
 const LOCALES = ['en', 'es', 'it', 'fr', 'de', 'ru', 'hu', 'pt', 'ro']
 
+/** The value after a flag, or null: `--locales de,es` -> 'de,es'. */
+const flagValue = (name) => {
+  const at = process.argv.indexOf(name)
+  return at === -1 ? null : (process.argv[at + 1] ?? null)
+}
+
 /**
- * Locales a page is GENERATED in. Other languages arrive as translations
- * (planning/content-in-database.md section 6); the alphabet JSON's own prose
- * for them is deliberately not turned into pages. `LOCALES` above still names
- * every site language, because `terms` must cover all of them.
+ * Locales a page is exported in. English by default: the other languages' prose
+ * in the alphabet JSON is only exported for the alphabets whose pages were
+ * authored natively with the current writing rules (`--locales all` or a list,
+ * with `--target xx`). `LOCALES` above still names every site language, because
+ * `terms` must cover all of them.
  */
-const DOC_LOCALES = ['en']
+const requested = flagValue('--locales')
+const DOC_LOCALES = !requested ? ['en'] : requested === 'all' ? LOCALES : requested.split(',').filter((l) => LOCALES.includes(l))
+
+/** Only the items that teach this language: `--target ro`. */
+const TARGET_ONLY = flagValue('--target')
 
 /**
  * The per-locale names of one item, read from its media manifest.
@@ -83,7 +94,9 @@ function summaryOf(entry, locale) {
 
 /** The pages of one locale as article sections: one section per authored page. */
 function sectionsOf(entry, locale) {
-  const sections = entry.sections?.[locale] ?? entry.sections?.en ?? {}
+  // A locale without its own pages gets none: falling back to English would
+  // publish English prose as if it were that language.
+  const sections = entry.sections?.[locale] ?? {}
   const out = []
   for (const key of SECTION_ORDER) {
     const section = sections[key]
@@ -155,6 +168,7 @@ function main() {
   for (const topic of topics) {
     topic.items.forEach((code, index) => {
       const target = topic.target ?? manifestFor(code)?.target
+      if (TARGET_ONLY && target !== TARGET_ONLY) return
       const byCode = target ? alphabetEntries(target) : null
       if (!byCode) return
       const entry = byCode.get(code)

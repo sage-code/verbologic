@@ -65,12 +65,12 @@
       "sha1": "baae304d45294bbb48aa37e89c6e91019623f1d2"
     },
     "read/ro.mp3": {
-      "bytes": 473904,
-      "sha1": "55cea6d6ce35a7c9739e1526c65fc074acf45d48"
+      "bytes": 393696,
+      "sha1": "efa65e5d8c5aeb51ca0a21acc2bf3919e93ab60a"
     },
     "read/en.mp3": {
-      "bytes": 349776,
-      "sha1": "53eb63ceaa3d14f1a17f0a8007f3f0fc7dcf7725"
+      "bytes": 314064,
+      "sha1": "dd4be9ecd50afc1274b373bd8db0b1df4d9f00fe"
     },
     "sound/en.mp3": {
       "bytes": 11088,
@@ -103,20 +103,90 @@
     "sound/hu.mp3": {
       "bytes": 18720,
       "sha1": "9d76cf03e571ec4f184960de98be5247d329dcbb"
+    },
+    "read/de.mp3": {
+      "bytes": 357408,
+      "sha1": "8e62a4b2085393635473889a44449ee46dff013e"
+    },
+    "read/es.mp3": {
+      "bytes": 366480,
+      "sha1": "b2d7c48db28c1551310b51f2e6145748cfa3c41d"
+    },
+    "read/it.mp3": {
+      "bytes": 386208,
+      "sha1": "8ccd34bb227dd9cd9cf141aee4c3dbeda8e6f33c"
+    },
+    "read/fr.mp3": {
+      "bytes": 332064,
+      "sha1": "9c5946586681f37d6bbcb360d7530be6ca918be2"
+    },
+    "read/ru.mp3": {
+      "bytes": 413424,
+      "sha1": "7fc3b968e39a1acb0c9934992448cbe2d2ab546c"
+    },
+    "read/hu.mp3": {
+      "bytes": 426816,
+      "sha1": "46150eae32710fddff4acc3c94ba2ae9a82bddf4"
+    },
+    "read/pt.mp3": {
+      "bytes": 339552,
+      "sha1": "44d2f0aca21dae343fcf8f4b1073a90390e6825e"
     }
   },
   "readSections": {
     "ro": [
-      0,
-      18.788,
-      36.538,
-      57.4
+      0.0,
+      10.1,
+      30.7,
+      49.988
     ],
     "en": [
-      0,
-      8.475,
-      29.725,
-      44.663
+      0.0,
+      14.938,
+      27.55,
+      40.738
+    ],
+    "de": [
+      0.0,
+      10.65,
+      27.413,
+      45.813
+    ],
+    "es": [
+      0.0,
+      11.488,
+      29.9,
+      46.875
+    ],
+    "it": [
+      0.0,
+      11.975,
+      31.337,
+      49.213
+    ],
+    "fr": [
+      0.0,
+      9.863,
+      26.075,
+      41.825
+    ],
+    "ru": [
+      0.0,
+      11.887,
+      32.388,
+      51.925
+    ],
+    "hu": [
+      0.0,
+      19.0,
+      36.55,
+      56.65
+    ],
+    "pt": [
+      0.0,
+      11.85,
+      26.15,
+      42.6
     ]
   }
 }

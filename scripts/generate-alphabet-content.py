@@ -260,6 +260,13 @@ SPOKEN_FORM_RULES = (
     "word in the page's own language right before it, and put the meaning "
     "after the pair (\"(apă) /a.pə/, which means water\"), never inside the "
     "brackets.\n"
+    "R9b. Never explain a word with itself. When the page's language spells the "
+    "word the same way (watt, yoga, web), do not write \"(watt) /vat/, which "
+    "means watt\"; say what the thing is instead (\"a unit of power\") or give "
+    "no meaning at all.\n"
+    "R9c. Write every word with its full diacritics and apostrophes (French "
+    "l'air, s'articule, lèvre; Spanish español, posición). Never write plain "
+    "ASCII for a language that has accents.\n"
     "R10. Never write /∅/ in the prose: it is silent in the recording. Say in "
     "words that the letter is not pronounced, then give the example word.\n"
     "R11. Two sounds of one letter must each have their own example word, "
@@ -414,8 +421,10 @@ def prompt_sections(
         "qu, ou, ai, gn, ill, -tion, ...) have their own articles: do not "
         "mention them, do not explain their sounds, do not use their words. "
         "Say each fact once: every page has a different job, nothing is "
-        "repeated on another page, and no example word appears on more than "
-        "one page. This is a reference card, not an essay: no encouragement, "
+        "repeated on another page. Prefer a different example word on each "
+        "page, but a word may come back on a second page when the letter has "
+        "few example words and the repeat teaches something. This is a "
+        "reference card, not an essay: no encouragement, "
         "no generalities, no history, no dialect survey.\n\n"
         "PAGES, each an object {title, text}. The title is 2-4 words in the "
         "page's language, shown as a small subheading above the text, and is "
@@ -499,7 +508,7 @@ def bare_foreign_words(text: str, facts: dict[str, set[str]]) -> list[str]:
     ]
 
 
-def bare_group_glyph(text: str, glyph: str | None) -> str | None:
+def bare_group_glyph(text: str, glyph: str | None, words: set[str] | None = None) -> str | None:
     """A group's own spelling written bare in the prose — or None.
 
     A group article ("-gh(t)", "kn-", "-tion") is ABOUT that spelling, so the
@@ -512,6 +521,10 @@ def bare_group_glyph(text: str, glyph: str | None) -> str | None:
         return None
     for word, _ipa in BRACKETED_WITH_IPA.findall(text):
         if word.strip().lower() == glyph.strip().lower():
+            # A real word spelled like the group (the pronoun "eu" for the group
+            # "eu") is allowed in brackets: it is a word of the FACTS.
+            if words and word.strip().lower() in words:
+                continue
             return word
     return None
 
@@ -610,7 +623,6 @@ def validate_sections(
         if not isinstance(page_set, dict):
             problems.append(f"[{locale}] missing")
             continue
-        seen: dict[str, str] = {}
         for key in SECTION_KEYS:
             page = page_set.get(key)
             tag = f"[{locale}.{key}]"
@@ -636,8 +648,10 @@ def validate_sections(
             checked = text
             glyph_text = str(entry.get("glyph") or "")
             if is_group(entry) and glyph_text:
+                # Not inside brackets: "(eu) /jew/" is a real word that happens to
+                # be spelled like the group "eu", and must stay a word.
                 checked = re.sub(
-                    rf"(?<![\w]){re.escape(glyph_text)}(?![\w])", " ", checked
+                    rf"(?<![\w(]){re.escape(glyph_text)}(?![\w)])", " ", checked
                 )
             if re.search(r"[`\[\]|#<>\n]", checked):
                 problems.append(f"{tag} uses forbidden markup (backtick, [ ], |, #, < >, line break)")
@@ -673,19 +687,12 @@ def validate_sections(
                         f"{tag} ({word}) must be followed by exactly "
                         f"{' or '.join(sorted(known))}, not {ipa}"
                     )
-                # R8 lets every page name the letter, so the name is exempt
-                # from the one-page-per-word rule.
-                if key_word != str(entry.get("letterName") or "").strip().lower():
-                    previous = seen.get(key_word)
-                    if previous and previous != key:
-                        problems.append(f"{tag} ({word}) is already used on page {previous}")
-                    seen.setdefault(key_word, key)
             for word in bare_foreign_words(checked, facts):
                 problems.append(
                     f"{tag} writes the target-language word '{word}' outside the (word) /ipa/ pair; "
                     "the voice would read it with the wrong rules"
                 )
-            group = bare_group_glyph(checked, entry.get("glyph"))
+            group = bare_group_glyph(checked, entry.get("glyph"), set(facts))
             if group:
                 problems.append(
                     f"{tag} puts the group's own spelling '{group}' inside the (word) /ipa/ brackets; "
@@ -703,7 +710,8 @@ def validate_sections(
                     "the page's language — name the letter in the (word) /ipa/ form instead"
                 )
             problems.extend(spoken_form_problems(tag, text, outside_ipa))
-            problems.extend(bare_ipa_problems(tag, text))
+            problems.extend(diacritic_problems(tag, locale, text))
+            problems.extend(circular_gloss_problems(tag, text))
             words = len(outside_ipa.split())
             if words > round(PAGE_LIMITS[key] * 1.15):
                 problems.append(f"{tag} has {words} words, the limit is {PAGE_LIMITS[key]}")
@@ -712,13 +720,44 @@ def validate_sections(
 
 PAIR = re.compile(r"\(([^()/\n]{1,60})\)\s*(/[^/\n]+/)")
 
+#: Letters that only the language's own spelling uses. A page of some length with
+#: none of them has lost its accents (Gemini sometimes answers in plain ASCII).
+ACCENTED = {
+    "fr": "éèêëàâùûçôîï", "es": "áéíóúñü", "pt": "áàâãçéêíóôõú", "de": "äöüß",
+    "ro": "ăâîșț", "hu": "áéíóöőúüű", "it": "àèéìòù",
+}
+
+
+def diacritic_problems(tag: str, locale: str, text: str) -> list[str]:
+    """A page that lost its accents or apostrophes ("s articule", "levre")."""
+    problems: list[str] = []
+    letters = ACCENTED.get(locale)
+    if letters and len(text) > 250 and locale != "it" and not any(c in text for c in letters):
+        problems.append(f"{tag} has no accented letters at all; write the full diacritics of the language (rule R9c)")
+    if locale == "fr" and re.search(r"\b[ldjnsmtc] [aeiouyhéèê]", text):
+        problems.append(f"{tag} writes French without apostrophes (\"s articule\"); write l'air, s'articule (rule R9c)")
+    return problems
+
+
+def circular_gloss_problems(tag: str, text: str) -> list[str]:
+    """A word explained by itself: "(watt) /vat/, qui signifie watt" (rule R9b)."""
+    problems: list[str] = []
+    for sentence in re.split(r"(?<=[.!?])\s+", text):
+        for match in PAIR.finditer(sentence):
+            word = match.group(1).strip()
+            after = sentence[match.end():]
+            if len(word) >= 3 and re.search(rf"(?<![\w-]){re.escape(word)}(?![\w-])", after, re.IGNORECASE):
+                problems.append(f"{tag} explains ({word}) with the same word; say what it is instead (rule R9b)")
+    return problems
+
 
 def bare_ipa_problems(tag: str, text: str) -> list[str]:
     """Sentences that lean on IPA the recording does not read (rule R6).
 
     The voice reads `(word)` and skips every /ipa/, and the recording leaves out
     a sentence that holds IPA but no `(word) /ipa/` pair, so such a sentence is
-    shown on screen and missing from the audio.
+    shown on screen and missing from the audio. Not a rejection reason (many
+    letters have no stored letter-name word to bracket); `--preview` lists them.
     """
     problems: list[str] = []
     for sentence in re.split(r"(?<=[.!?])\s+", text):
@@ -983,6 +1022,8 @@ def preview(
                     print(f"\n--- [{locale}] {key}: {page.get('title')}  ({count}/{PAGE_LIMITS[key]} words)")
                     print(page.get("text", ""))
                     print(f"  SPOKEN: {said}")
+                    for note in bare_ipa_problems(f"[{locale}] {key}", page.get("text", "")):
+                        print(f"  note: {note}")
             print("\nPROBLEMS:" if problems else "\nrules: all pass")
             for problem in problems:
                 print(f"  - {problem}")

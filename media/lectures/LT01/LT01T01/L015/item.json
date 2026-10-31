@@ -65,16 +65,16 @@
       "sha1": "a3e81a8d1d6ac5211cfd10c3eb09719e71467acf"
     },
     "read/ro.mp3": {
-      "bytes": 434160,
-      "sha1": "8a7daaf531f46ea081f86079f604a5009c0cea1f"
+      "bytes": 360432,
+      "sha1": "e2b47096cde2ce573e2204b1afb6208ee24d29ae"
     },
     "read/en.mp3": {
-      "bytes": 254160,
-      "sha1": "ec88cae97602e013ef964c14f0b8b8bc11a6d037"
+      "bytes": 321120,
+      "sha1": "1b20886b00bda6aafcfc7638704d5036a23e3b7a"
     },
     "sound/en.mp3": {
-      "bytes": 5328,
-      "sha1": "5d946c730514d13eddea3b326fac2be3cd5ba57d"
+      "bytes": 11232,
+      "sha1": "2410ac24adb9b7fc730b62a2356e2dba88e8fa57"
     },
     "sound/de.mp3": {
       "bytes": 7488,
@@ -103,20 +103,90 @@
     "sound/fr.mp3": {
       "bytes": 8208,
       "sha1": "e05f6cc1b1406de8fda1f6a407a88dfac3a1401f"
+    },
+    "read/de.mp3": {
+      "bytes": 362304,
+      "sha1": "622f8150c58c07222ae34e6a39736dc0f2d9330e"
+    },
+    "read/es.mp3": {
+      "bytes": 348480,
+      "sha1": "c3e0b68fd9a7f6a1d12e2f5ac94194cfe8431ab3"
+    },
+    "read/it.mp3": {
+      "bytes": 304992,
+      "sha1": "e6ffd360684e741d6849d4b05e21de09506337f6"
+    },
+    "read/fr.mp3": {
+      "bytes": 403920,
+      "sha1": "d10cb63e5d04f15e29703d83937f2a93e0f87b7d"
+    },
+    "read/ru.mp3": {
+      "bytes": 368208,
+      "sha1": "dc886f54a3dba9053eba5cf2e94e79a24b6c0f12"
+    },
+    "read/hu.mp3": {
+      "bytes": 465120,
+      "sha1": "a14f99d64e8d742d447ad9b0a5c35a2406c27d0e"
+    },
+    "read/pt.mp3": {
+      "bytes": 433296,
+      "sha1": "d5c8d02b7ca0ec526dbe05bb4d14d8ec63024f36"
     }
   },
   "readSections": {
     "en": [
-      0,
-      9.938,
-      21.913,
-      31.825
+      0.0,
+      13.913,
+      29.088,
+      40.988
     ],
     "ro": [
-      0,
-      18.575,
-      35.188,
-      54.125
+      0.0,
+      11.863,
+      30.713,
+      46.338
+    ],
+    "de": [
+      0.0,
+      11.387,
+      31.65,
+      47.375
+    ],
+    "es": [
+      0.0,
+      12.35,
+      27.55,
+      41.75
+    ],
+    "it": [
+      0.0,
+      9.625,
+      25.2,
+      37.462
+    ],
+    "fr": [
+      0.0,
+      16.875,
+      34.888,
+      51.9
+    ],
+    "ru": [
+      0.0,
+      13.7,
+      29.612,
+      43.425
+    ],
+    "hu": [
+      0.0,
+      17.163,
+      38.875,
+      59.725
+    ],
+    "pt": [
+      0.0,
+      15.887,
+      35.912,
+      55.05
     ]
   }
 }
