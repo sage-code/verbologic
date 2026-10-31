@@ -353,11 +353,39 @@ def display_media_path(path: Path) -> str:
     return f"media/{path.relative_to(MEDIA_DIR).as_posix()}"
 
 
+#: Words a voice mispronounces, respelled for the voice only (the displayed text keeps
+#: the real spelling). Keyed by the voice's language prefix. Edge TTS accepts no
+#: phoneme tags, so a respelling is the only lever (see CLAUDE.md).
+VOICE_RESPELL = {
+    # ro-RO voices drop the "-eioa-" triphthong ("creioane" is read as "a")
+    "ro-RO": {
+        "creioane": "creyoane", "creioanele": "creyoanele", "creioanelor": "creyoanelor",
+        "creion": "creyon", "creionul": "creyonul", "creionului": "creyonului",
+    },
+}
+
+
+def respell_for_voice(text: str, voice: str) -> str:
+    """The text as the voice should be given it: known-bad words respelled."""
+    table = VOICE_RESPELL.get(voice[:5])
+    if not table:
+        return text
+    words = "|".join(sorted(map(re.escape, table), key=len, reverse=True))
+    pattern = re.compile(r"(?<!\w)(" + words + r")(?!\w)", re.IGNORECASE)
+
+    def swap(match: re.Match) -> str:
+        word = match.group(1)
+        fixed = table[word.lower()]
+        return fixed[:1].upper() + fixed[1:] if word[:1].isupper() else fixed
+
+    return pattern.sub(swap, text)
+
+
 async def synthesize(text: str, voice: str, output: Path) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
     temporary = output.with_name(f".{output.stem}.tmp{output.suffix}")
     try:
-        await edge_tts.Communicate(text, voice).save(str(temporary))
+        await edge_tts.Communicate(respell_for_voice(text, voice), voice).save(str(temporary))
         if not temporary.is_file() or temporary.stat().st_size == 0:
             raise IOError(f"Edge TTS produced no audio for {output}")
         temporary.replace(output)
@@ -393,7 +421,7 @@ async def synthesize_sections(
                     offsets.append(round(elapsed, 3))
                     audio = bytearray()
                     section_end = 0.0
-                    async for chunk in edge_tts.Communicate(section, voice).stream():
+                    async for chunk in edge_tts.Communicate(respell_for_voice(section, voice), voice).stream():
                         if chunk["type"] == "audio":
                             audio.extend(chunk["data"])
                         elif chunk["type"] in ("SentenceBoundary", "WordBoundary"):
@@ -459,7 +487,7 @@ async def synthesize_sections_mixed(
     async def speak(piece: str, chosen: str) -> tuple[bytes, float]:
         audio = bytearray()
         piece_end = 0.0
-        async for chunk in edge_tts.Communicate(piece, chosen).stream():
+        async for chunk in edge_tts.Communicate(respell_for_voice(piece, chosen), chosen).stream():
             if chunk["type"] == "audio":
                 audio.extend(chunk["data"])
             elif chunk["type"] in ("SentenceBoundary", "WordBoundary"):

@@ -268,6 +268,9 @@ function xmlTag(block, tag) {
 }
 
 /** All bucket objects (key → size) — paginated ListObjectsV2. */
+/** key -> MD5 ETag of the last r2List (a single PUT's ETag is the body's MD5). */
+const r2Etags = new Map()
+
 async function r2List(env) {
   const keys = new Map()
   let continuationToken = null
@@ -282,7 +285,10 @@ async function r2List(env) {
     if (!res.ok) throw new Error(xmlTag(text, 'Message') || `HTTP ${res.status}`)
     for (const block of text.match(/<Contents>[\s\S]*?<\/Contents>/g) ?? []) {
       const key = xmlTag(block, 'Key')
-      if (key) keys.set(key, Number(xmlTag(block, 'Size') ?? 0))
+      if (key) {
+        keys.set(key, Number(xmlTag(block, 'Size') ?? 0))
+        r2Etags.set(key, (xmlTag(block, 'ETag') ?? '').replace(/&quot;|"/g, '').toLowerCase())
+      }
     }
     continuationToken = xmlTag(text, 'IsTruncated') === 'true' ? xmlTag(text, 'NextContinuationToken') : null
     if (!continuationToken) break
@@ -452,6 +458,8 @@ async function cmdVerify() {
  */
 async function cmdUpload() {
   const apply = process.argv.includes('--apply')
+  const prefixAt = process.argv.indexOf('--prefix')
+  const prefix = prefixAt === -1 ? '' : (process.argv[prefixAt + 1] ?? '')
   const env = r2Env(apply)
   const remote = env ? await r2List(env) : null
   if (!env) {
@@ -476,13 +484,18 @@ async function cmdUpload() {
       continue
     }
     const key = toKey(disk)
+    if (prefix && !key.startsWith(prefix)) continue
     const bytes = statSync(disk).size
     const hash = sha1(disk)
     // `remote` maps key -> size. Checking only that the key EXISTS is not
     // enough: a regenerated file keeps its key, so the manifest matches disk
     // while the bucket still holds the old bytes. Compare the size too.
     const remoteSize = remote ? remote.get(key) : undefined
-    const onR2 = remote ? remoteSize !== undefined && remoteSize === bytes : true
+    // Same size is still not the same file: a re-recorded mp3 often has the same byte count,
+    // so the bucket's MD5 ETag must match the file's MD5 too (multipart ETags contain '-': skip).
+    const etag = r2Etags.get(key) ?? ''
+    const sameBytes = !etag || etag.includes('-') || etag === createHash('md5').update(readFileSync(disk)).digest('hex')
+    const onR2 = remote ? remoteSize !== undefined && remoteSize === bytes && sameBytes : true
     if (descriptor.status === 'published' && descriptor.sha1 === hash && descriptor.bytes === bytes && onR2) continue
     if (!delta.has(key)) {
       delta.set(key, {
