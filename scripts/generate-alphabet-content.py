@@ -229,6 +229,7 @@ SPOKEN_FORM_RULES = (
     "but the word inside them, and never wrap the pair in bold, italics, "
     "quotes or backticks.\n"
     "R1b. NEVER mention the name of the letter or group (no \"the letter is called\", \"its name is\", \"is named\", \"is pronounced /x/\" about the name): learners are taught the SOUND only. The opening paragraph says what sound the letter makes and where it is heard (\"You hear it at the start of (word) /ipa/\"). Never say a letter is spoken as, the same as or sounds like a whole word; a word is only an EXAMPLE of the sound. Do not claim a letter has more or fewer sounds than the facts list. Write the page entirely in the page language: no words of another language outside the (word) pairs.\n"
+    "R1c. A consonant cluster (bl, br, cl, cr, dr, fl, gr, st) is TWO sounds said together, never \"one sound\" or \"a single sound\". Say it is two consonant sounds blended, and say exactly where the example word has it (start, middle or end). Never place a sound at the start or end of a word where the example does not have it.\n"
     "R2. Round brackets are used ONLY for rule R1. No asides, no abbreviations "
     "or explanations in brackets.\n"
     "R3. A slash is used ONLY around IPA. Write lists in words (\"a, o or u\", "
