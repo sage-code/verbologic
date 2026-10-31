@@ -1,4 +1,4 @@
-"""Create new illustrated stories for a topic: Gemini writes, translates and illustrates them.
+"""Create new illustrated stories for a topic: Gemini writes (natively in every language) and illustrates them.
 
   ./run.sh create story <TOPIC> <n>
 
@@ -9,8 +9,10 @@ For each of the n stories this:
 2. Asks Gemini for an English story that follows the level's reading rules:
    how many paragraphs, how many paragraphs per reading page, and how simple the
    English is. Below B1 the English is simplified.
-3. Asks Gemini for the same story in the other eight site languages, with the
-   same number of paragraphs in each, so every reading page lines up everywhere.
+3. Asks Gemini to WRITE the same story in each of the other eight site languages,
+   natively, from the English story used as an outline (what happens in each
+   paragraph), never as a text to translate. Each language has the same number of
+   paragraphs, so every reading page and picture lines up everywhere.
 4. Writes content/stories/<TOPIC>/<CODE>.json (all nine locales in one file), the
    media manifest media/stories/<CHAPTER>/<TOPIC>/<CODE>/item.json, and appends
    the code to the topic's items in the stories sidebar.
@@ -231,22 +233,34 @@ def story_prompt(
     )
 
 
-def translation_prompt(story: dict[str, Any], level: str, locales: list[str]) -> str:
+def native_prompt(story: dict[str, Any], level: str, locales: list[str]) -> str:
+    """Write the story afresh in each language from the English one used as an OUTLINE.
+
+    Nothing is translated: a translation carries English phrasing, idioms and
+    sentence rhythm into the other language. The English story only fixes what
+    happens in each paragraph, so the pictures and the two-language reading view
+    (learning language beside the reader's own) still line up paragraph by paragraph.
+    """
     count = len(story["paragraphs"])
     names = ", ".join(f"{LANGUAGE_NAMES[loc]} ({loc})" for loc in locales)
     shape = '{"locales": {"de": {"title": "...", "summary": "...", "paragraphs": ["..."]}}}'
     return (
-        f"Translate this English learning story into {names}. The story is for learners "
-        f"at CEFR {level}, so keep each translation simple and natural in its own language.\n\n"
+        f"You are a native storyteller in each of these languages: {names}. Below is the OUTLINE "
+        "of an illustrated story, given as English paragraphs. Write the story again, from "
+        "scratch, in each language, for learners at "
+        f"CEFR {level}. Do NOT translate the English sentence by sentence.\n\n"
         "Rules:\n"
-        f"- Return exactly {count} paragraphs in every language, in the same order, one per "
-        "English paragraph. Never merge, split or drop a paragraph: the pictures and the "
-        "reading pages line up with them.\n"
-        "- Translate the title and the summary too. Keep the names of people and places "
-        "consistent with the English.\n"
-        "- Plain text only, no markdown.\n\n"
+        "- Write as a native speaker would tell this story to a child or a learner: natural word "
+        "order, natural everyday phrasing and idioms of that language, simple vocabulary and short "
+        f"sentences suited to CEFR {level}. Do not copy English sentence structures or expressions.\n"
+        f"- Return exactly {count} paragraphs in every language, in the same order. Paragraph N "
+        "must show the same moment as outline paragraph N: the same characters, place and event. "
+        "The pictures and the reading pages line up with them, so never merge, split, add or drop a paragraph.\n"
+        "- Keep the characters and their names, and the plot, exactly as in the outline. Give the title and the "
+        "summary a fresh, natural wording too.\n"
+        "- Plain text only, no markdown, no numbering.\n\n"
         f"Return only a JSON object of this shape, with every language code as a key: {shape}\n\n"
-        f"ENGLISH:\n{json.dumps(story, ensure_ascii=False)}"
+        f"OUTLINE (English):\n{json.dumps(story, ensure_ascii=False)}"
     )
 
 
@@ -279,15 +293,15 @@ def check_story(story: dict[str, Any], level: str) -> list[str]:
     return problems
 
 
-def check_translations(result: dict[str, Any], story: dict[str, Any], locales: list[str]) -> list[str]:
-    """Problems with the translations, or [] when every language is complete and aligned."""
+def check_native(result: dict[str, Any], story: dict[str, Any], locales: list[str]) -> list[str]:
+    """Problems with the per-language stories, or [] when every language is complete and aligned."""
     problems = []
-    translated = result.get("locales")
-    if not isinstance(translated, dict):
-        return ['translations must be under "locales"']
+    native = result.get("locales")
+    if not isinstance(native, dict):
+        return ['the languages must be under "locales"']
     count = len(story["paragraphs"])
     for loc in locales:
-        entry = translated.get(loc)
+        entry = native.get(loc)
         if not isinstance(entry, dict):
             problems.append(f"missing {loc}")
             continue
@@ -389,13 +403,13 @@ def story_article(
     return article
 
 
-def write_story(topic: str, chapter: str, code: str, level: str, story: dict[str, Any], translated: dict[str, Any]) -> None:
+def write_story(topic: str, chapter: str, code: str, level: str, story: dict[str, Any], native: dict[str, Any]) -> None:
     """Write the article file (all nine languages) and the media manifest for one story."""
     per_page = LEVELS[level]["per_page"]
     words = sum(len(p.split()) for p in story["paragraphs"])
     minutes = max(1, math.ceil(words / 90))
     texts = {DEFAULT_LOCALE: {"title": story["title"], "summary": story["summary"], "paragraphs": story["paragraphs"]}}
-    texts.update({loc: translated["locales"][loc] for loc in LOCALES if loc != DEFAULT_LOCALE})
+    texts.update({loc: native["locales"][loc] for loc in LOCALES if loc != DEFAULT_LOCALE})
 
     articles.write_article(
         articles.article_path(CONTENT.parent, "stories", topic, code),
@@ -503,17 +517,17 @@ def main() -> int:
                 lambda: gemini_json(story_prompt(topic_name, level, titles, args.subject, context), 0.9, model),
                 lambda result: check_story(result, level),
             )
-            translated = with_retries(
-                f"{code} translation",
-                lambda: gemini_json(translation_prompt(story, level, other_locales), 0.3, model),
-                lambda result: check_translations(result, story, other_locales),
+            native = with_retries(
+                f"{code} native versions",
+                lambda: gemini_json(native_prompt(story, level, other_locales), 0.3, model),
+                lambda result: check_native(result, story, other_locales),
             )
         except RuntimeError as error:
             print(f"!! {error}", file=sys.stderr)
             failed.append(f"{code}: text ({error})")
             break
 
-        write_story(topic, chapter, code, level, story, translated)
+        write_story(topic, chapter, code, level, story, native)
         add_to_sidebar(topic, code)
         created.append(code)
         print(f"  wrote {len(story['paragraphs'])} paragraph(s) in {len(LOCALES)} languages: '{story['title']}'")
