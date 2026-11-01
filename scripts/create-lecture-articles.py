@@ -356,11 +356,17 @@ WRITING RULES. The page is shown on screen AND read aloud by a {reader} text-to-
 {language} word in round brackets is read by a native {language} voice. IPA is shown but never read.
 1. A {language} word is always written (word) /ipa/ : the word in round brackets, one space, then its IPA.
    Round brackets and slashes are used for nothing else. Put the meaning after the pair, never inside it.
+   The meanings in the list are dictionary forms: fit each one into your sentence grammatically (infinitive,
+   case, article) so that the sentence reads like natural {reader}, as a native teacher would say it.
 2. Pronunciation is taught through those words: "you hear it in (word) /ipa/". Never write a bare IPA sound.
    Every sentence must stay correct when all IPA is deleted from it.
 3. Write the whole page in {reader} with its full correct accents, capital letters at the start of every sentence
    and of the title, and normal sentence case in headings. No word of a third language.{' Use American spelling.' if locale == 'en' else ''}
-4. Every sentence has at most {MAX_NATIVE_SENTENCE_WORDS} words, one idea, the present tense, and speaks to the learner directly.
+4. State only what the teaching point and the closed word list say. Add no other phonetic claim: no place of
+   articulation, no technical term, nothing about the tongue unless the teaching point says it. For how to say it,
+   give simple actions the learner can do: feel the jaw, put a hand under the chin, clap, say it slowly.
+   Teach tendencies as tendencies: say usually, often, most or many, never always or never, unless the teaching
+   point itself says always. Every sentence has at most {MAX_NATIVE_SENTENCE_WORDS} words, one idea, the present tense, and speaks to the learner directly.
    Use plain everyday words. Say what the mouth, the stress and the voice DO.
 5. No digits (write numbers as words), no capital-letter words, no markdown, lists, colons, semicolons, dashes,
    quotation marks or ellipses. Use only full stops, commas, question marks and exclamation marks.
@@ -484,6 +490,23 @@ def proofread(result: dict[str, Any], item: dict[str, Any], locale: str, model: 
         print(f"  {item['id']} [{locale}] proofread dropped: {problems[0][:120]}", file=sys.stderr)
         return result
     return fixed
+
+
+def load_terms(item: dict[str, Any], topic: str, target: str, model: str) -> dict[str, str]:
+    """The name of this teaching point in every site language (the item's `terms`)."""
+    names = ", ".join(f"{LOCALE_NAMES[code]} ({code})" for code in LOCALES)
+    prompt = f"""Name this pronunciation lesson about {LOCALE_NAMES[target]} in each of these languages: {names}.
+Each name is 1 to 4 plain words in that language, with its full accents and a capital first letter.
+Lesson title (English): {item['title']}. Teaching point: {item['focus']}.
+Return one JSON object: {{"terms": {{"en": "...", "es": "...", "it": "...", "fr": "...", "de": "...", "ru": "...", "hu": "...", "pt": "...", "ro": "..."}}}}"""
+    for _ in range(MAX_ATTEMPTS):
+        try:
+            terms = gemini_json(prompt, 0.2, model).get("terms", {})
+        except (RuntimeError, ValueError, KeyError):
+            continue
+        if isinstance(terms, dict) and all(str(terms.get(c, "")).strip() and not re.search(r"[\d()/]", str(terms[c])) for c in LOCALES):
+            return {c: str(terms[c]).strip() for c in LOCALES}
+    raise RuntimeError(f"{item['id']}: no valid names")
 
 
 def load_native(item: dict[str, Any], topic: str, level: str, target: str, locale: str, model: str) -> dict[str, Any]:
@@ -762,25 +785,23 @@ def run(args: argparse.Namespace) -> int:
                 continue
 
             results: dict[str, dict[str, Any]] = {}
+            terms_now: dict[str, str] | None = None
             try:
-                if "en" in wanted:
-                    results["en"] = load_article(item, topic, level, args.target, model)
-                natives = [c for c in wanted if c != "en"]
-                if natives:
-                    seed_dirty |= ensure_glosses(item, args.target, model)
+                seed_dirty |= ensure_glosses(item, args.target, model)
+                if not (existing and existing.get("terms")):
+                    terms_now = load_terms(item, topic, args.target, model)
             except RuntimeError as error:
                 print(f"  FAILED {error}", flush=True)
                 failed = True
                 continue
-            if natives:
-                with concurrent.futures.ThreadPoolExecutor(max_workers=CONCURRENCY) as pool:
-                    jobs = {c: pool.submit(load_native, item, topic, level, args.target, c, model) for c in natives}
-                for code, job in jobs.items():
-                    try:
-                        results[code] = job.result()
-                    except RuntimeError as error:
-                        print(f"  FAILED {error}", flush=True)
-                        failed = True
+            with concurrent.futures.ThreadPoolExecutor(max_workers=CONCURRENCY) as pool:
+                jobs = {c: pool.submit(load_native, item, topic, level, args.target, c, model) for c in wanted}
+            for code, job in jobs.items():
+                try:
+                    results[code] = job.result()
+                except RuntimeError as error:
+                    print(f"  FAILED {error}", flush=True)
+                    failed = True
 
             if args.preview:
                 for code in wanted:
@@ -788,24 +809,19 @@ def run(args: argparse.Namespace) -> int:
                         continue
                     page = results[code]
                     print(f"\n--- {item['id']} [{code}] ---\n{page['title']}")
-                    if code == "en" and "body" in page:
-                        print(page["body"])
-                    else:
-                        for section in page["sections"]:
-                            print(f"## {section['title']}\n{section['text']}")
+                    for section in page["sections"]:
+                        print(f"## {section['title']}\n{section['text']}")
                 continue
 
             if not results:
                 continue
-            if "en" in results:
-                article = document(topic, item, order, results["en"], args.target)
-                if existing:  # keep the other locales already written
-                    article["locales"] = {**have, "en": article["locales"]["en"]}
-            else:
-                article = existing
+            article = existing or {"entity_id": f"{topic}:{item['id']}", "locales": {}}
+            article["order"] = order
+            article["targets"] = [args.target]  # the language this lesson teaches; readers of any other never see it
+            if terms_now:
+                article["terms"] = terms_now
             for code, page in results.items():
-                if code != "en":
-                    add_native(article, code, page)
+                add_native(article, code, page)
             terms = {code: str(article["terms"][code]).strip() for code in LOCALES}
             articles.write_article(out, article)
             write_manifest(topic, item, level, args.target, terms)

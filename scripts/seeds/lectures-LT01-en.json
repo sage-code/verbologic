@@ -1,7 +1,668 @@
 {
   "_note": "Seed rows for the English items of LT01 topics LT01T03, LT01T04, LT01T05, LT01T06. Row: {title, focus, example, ipa, gloss}. `id` is optional: a row without one gets the next free L-code. Teaching points differ per language (French has no free stress, Hungarian has vowel harmony): write the list this language needs, not a copy of another's. IPA is hand-transcribed; have a native speaker review it before publishing.",
   "topics": {
-    "LT01T03": [],
+    "LT01T03": [
+      {
+        "id": "L723",
+        "title": "What a syllable is",
+        "focus": "a syllable is one beat of a word, built around one vowel sound; you can feel the jaw open for each beat",
+        "example": "banana",
+        "ipa": "/bəˈnæ.nə/",
+        "gloss": "a long curved yellow fruit",
+        "extra": [
+          {
+            "word": "cat",
+            "ipa": "/kæt/",
+            "gloss": "a small furry pet"
+          },
+          {
+            "word": "water",
+            "ipa": "/ˈwɑ.tɚ/",
+            "gloss": "the clear liquid you drink"
+          }
+        ],
+        "glosses": {
+          "banana": {
+            "en": "long curved yellow fruit",
+            "es": "fruta amarilla alargada",
+            "it": "frutto giallo allungato",
+            "fr": "fruit jaune allongé",
+            "de": "lange gelbe Frucht",
+            "ru": "длинный желтый плод",
+            "hu": "hosszú sárga gyümölcs",
+            "pt": "fruta amarela alongada",
+            "ro": "fruct galben alungit"
+          },
+          "cat": {
+            "en": "small furry pet",
+            "es": "pequeña mascota peluda",
+            "it": "piccolo animale domestico peloso",
+            "fr": "petit animal domestique poilu",
+            "de": "kleines pelziges Haustier",
+            "ru": "маленький пушистый питомец",
+            "hu": "kicsi szőrös háziállat",
+            "pt": "pequeno animal de estimação peludo",
+            "ro": "mic animal de companie blănos"
+          },
+          "water": {
+            "en": "clear drinkable liquid",
+            "es": "líquido transparente potable",
+            "it": "liquido trasparente potabile",
+            "fr": "liquide transparent potable",
+            "de": "klare trinkbare Flüssigkeit",
+            "ru": "прозрачная питьевая жидкость",
+            "hu": "tiszta iható folyadék",
+            "pt": "líquido transparente potável",
+            "ro": "lichid transparent potabil"
+          }
+        }
+      },
+      {
+        "id": "L724",
+        "title": "Counting syllables",
+        "focus": "count the vowel sounds you hear, not the letters you see: one, two or three beats",
+        "example": "elephant",
+        "ipa": "/ˈɛ.lə.fənt/",
+        "gloss": "a very large animal with a trunk",
+        "extra": [
+          {
+            "word": "dog",
+            "ipa": "/dɔɡ/",
+            "gloss": "a pet that barks"
+          },
+          {
+            "word": "table",
+            "ipa": "/ˈteɪ.bəl/",
+            "gloss": "furniture with a flat top"
+          }
+        ],
+        "glosses": {
+          "elephant": {
+            "en": "large mammal with trunk",
+            "es": "gran mamífero con trompa",
+            "it": "grande mammifero con proboscide",
+            "fr": "grand mammifère à trompe",
+            "de": "großes Säugetier mit Rüssel",
+            "ru": "крупное животное с хоботом",
+            "hu": "nagy ormányos emlős",
+            "pt": "grande mamífero com tromba",
+            "ro": "mamifer mare cu trompă"
+          },
+          "dog": {
+            "en": "loyal barking pet",
+            "es": "mascota que ladra",
+            "it": "animale domestico che abbaia",
+            "fr": "animal de compagnie aboyant",
+            "de": "bellendes Haustier",
+            "ru": "лающая домашняя собака",
+            "hu": "ugató házi kedvenc",
+            "pt": "animal de estimação que late",
+            "ro": "animal de companie care latră"
+          },
+          "table": {
+            "en": "flat topped furniture",
+            "es": "mueble con superficie plana",
+            "it": "mobile con piano orizzontale",
+            "fr": "meuble à plateau plat",
+            "de": "Möbelstück mit flacher Platte",
+            "ru": "мебель с плоской поверхностью",
+            "hu": "lapos tetejű bútor",
+            "pt": "móvel com superfície plana",
+            "ro": "piesă de mobilier cu blat"
+          }
+        }
+      },
+      {
+        "id": "L725",
+        "title": "Open and closed syllables",
+        "focus": "a syllable that ends in a vowel is open and its vowel is long; one that ends in a consonant is closed and its vowel is short",
+        "example": "robot",
+        "ipa": "/ˈroʊ.bɑt/",
+        "gloss": "a machine that can move and work",
+        "extra": [
+          {
+            "word": "go",
+            "ipa": "/ɡoʊ/",
+            "gloss": "to move from one place to another"
+          },
+          {
+            "word": "hot",
+            "ipa": "/hɑt/",
+            "gloss": "very warm"
+          }
+        ],
+        "glosses": {
+          "robot": {
+            "en": "automated mechanical device",
+            "es": "máquina automática programable",
+            "it": "macchina automatica programmabile",
+            "fr": "machine automatique programmable",
+            "de": "automatische programmierbare maschine",
+            "ru": "автоматическое программное устройство",
+            "hu": "automatikus programozható gép",
+            "pt": "máquina automática programável",
+            "ro": "mașină automată programabilă"
+          },
+          "go": {
+            "en": "move between locations",
+            "es": "moverse entre lugares",
+            "it": "spostarsi tra luoghi",
+            "fr": "se déplacer entre lieux",
+            "de": "sich zwischen orten bewegen",
+            "ru": "перемещаться между местами",
+            "hu": "helyek között mozogni",
+            "pt": "mover-se entre locais",
+            "ro": "a se deplasa între locuri"
+          },
+          "hot": {
+            "en": "having high temperature",
+            "es": "que tiene alta temperatura",
+            "it": "che ha alta temperatura",
+            "fr": "ayant une haute température",
+            "de": "mit hoher temperatur",
+            "ru": "имеющий высокую температуру",
+            "hu": "magas hőmérsékletű",
+            "pt": "que tem alta temperatura",
+            "ro": "care are temperatură ridicată"
+          }
+        }
+      },
+      {
+        "id": "L726",
+        "title": "The strong beat of a word",
+        "focus": "in a word of two or more syllables one syllable is stronger: louder, longer and higher in pitch",
+        "example": "today",
+        "ipa": "/təˈdeɪ/",
+        "gloss": "this day",
+        "extra": [
+          {
+            "word": "table",
+            "ipa": "/ˈteɪ.bəl/",
+            "gloss": "furniture with a flat top"
+          },
+          {
+            "word": "begin",
+            "ipa": "/bɪˈɡɪn/",
+            "gloss": "to start"
+          }
+        ],
+        "glosses": {
+          "today": {
+            "en": "this current day",
+            "es": "este día actual",
+            "it": "questo giorno corrente",
+            "fr": "ce jour actuel",
+            "de": "dieser aktuelle Tag",
+            "ru": "этот текущий день",
+            "hu": "ez a mai nap",
+            "pt": "este dia atual",
+            "ro": "această zi curentă"
+          },
+          "table": {
+            "en": "flat topped furniture",
+            "es": "mueble con superficie plana",
+            "it": "mobile con piano piatto",
+            "fr": "meuble à plateau plat",
+            "de": "Möbel mit flacher Platte",
+            "ru": "мебель с плоской поверхностью",
+            "hu": "lapos tetejű bútor",
+            "pt": "móvel com superfície plana",
+            "ro": "mobilă cu suprafață plană"
+          },
+          "begin": {
+            "en": "to initiate action",
+            "es": "iniciar una acción",
+            "it": "iniziare un azione",
+            "fr": "commencer une action",
+            "de": "eine Handlung beginnen",
+            "ru": "начать действие",
+            "hu": "elkezdeni egy tevékenységet",
+            "pt": "iniciar uma ação",
+            "ro": "a începe o acțiune"
+          }
+        }
+      },
+      {
+        "id": "L727",
+        "title": "Stress on the first syllable",
+        "focus": "most two-syllable nouns and adjectives are stressed on the first syllable",
+        "example": "doctor",
+        "ipa": "/ˈdɑk.tɚ/",
+        "gloss": "a person who treats sick people",
+        "extra": [
+          {
+            "word": "apple",
+            "ipa": "/ˈæ.pəl/",
+            "gloss": "a round fruit"
+          },
+          {
+            "word": "window",
+            "ipa": "/ˈwɪn.doʊ/",
+            "gloss": "glass in a wall"
+          }
+        ],
+        "glosses": {
+          "doctor": {
+            "en": "medical professional",
+            "es": "profesional de la medicina",
+            "it": "professionista della medicina",
+            "fr": "professionnel de la médecine",
+            "de": "medizinischer Fachmann",
+            "ru": "медицинский специалист",
+            "hu": "orvosi szakember",
+            "pt": "profissional da medicina",
+            "ro": "profesionist în medicină"
+          },
+          "apple": {
+            "en": "round edible fruit",
+            "es": "fruta redonda comestible",
+            "it": "frutto rotondo commestibile",
+            "fr": "fruit rond comestible",
+            "de": "runde essbare Frucht",
+            "ru": "круглый съедобный плод",
+            "hu": "kerek ehető gyümölcs",
+            "pt": "fruta redonda comestível",
+            "ro": "fruct rotund comestibil"
+          },
+          "window": {
+            "en": "opening in a wall",
+            "es": "abertura en una pared",
+            "it": "apertura in una parete",
+            "fr": "ouverture dans un mur",
+            "de": "Öffnung in einer Wand",
+            "ru": "отверстие в стене",
+            "hu": "nyílás a falon",
+            "pt": "abertura em uma parede",
+            "ro": "deschidere într un perete"
+          }
+        }
+      },
+      {
+        "id": "L728",
+        "title": "Stress on the second syllable",
+        "focus": "many two-syllable words are stressed on the second syllable, and the first syllable becomes weak",
+        "example": "hotel",
+        "ipa": "/hoʊˈtɛl/",
+        "gloss": "a place to stay on a trip",
+        "extra": [
+          {
+            "word": "guitar",
+            "ipa": "/ɡɪˈtɑr/",
+            "gloss": "a musical instrument with strings"
+          },
+          {
+            "word": "police",
+            "ipa": "/pəˈlis/",
+            "gloss": "the officers who keep order"
+          }
+        ],
+        "glosses": {
+          "hotel": {
+            "en": "establishment for travelers",
+            "es": "establecimiento para viajeros",
+            "it": "struttura per viaggiatori",
+            "fr": "établissement pour voyageurs",
+            "de": "unterkunft für reisende",
+            "ru": "место для проживания путешественников",
+            "hu": "szálláshely utazók számára",
+            "pt": "estabelecimento para viajantes",
+            "ro": "unitate de cazare pentru călători"
+          },
+          "guitar": {
+            "en": "stringed musical instrument",
+            "es": "instrumento musical de cuerda",
+            "it": "strumento musicale a corde",
+            "fr": "instrument de musique à cordes",
+            "de": "saiteninstrument",
+            "ru": "струнный музыкальный инструмент",
+            "hu": "húros hangszer",
+            "pt": "instrumento musical de cordas",
+            "ro": "instrument muzical cu coarde"
+          },
+          "police": {
+            "en": "law enforcement officers",
+            "es": "agentes del orden público",
+            "it": "agenti di pubblica sicurezza",
+            "fr": "agents des forces de l'ordre",
+            "de": "beamte der ordnungshüter",
+            "ru": "сотрудники правоохранительных органов",
+            "hu": "rendfenntartó hatóság",
+            "pt": "agentes da lei",
+            "ro": "agenți de ordine publică"
+          }
+        }
+      },
+      {
+        "id": "L729",
+        "title": "Stress in long words",
+        "focus": "in words of three or more syllables there is one strong beat and often a lighter second beat; the other syllables are weak",
+        "example": "volunteer",
+        "ipa": "/ˌvɑ.lənˈtɪr/",
+        "gloss": "a person who helps for free",
+        "extra": [
+          {
+            "word": "understand",
+            "ipa": "/ˌʌn.dɚˈstænd/",
+            "gloss": "to know the meaning"
+          },
+          {
+            "word": "afternoon",
+            "ipa": "/ˌæf.tɚˈnun/",
+            "gloss": "the part of the day after noon"
+          }
+        ],
+        "glosses": {
+          "volunteer": {
+            "en": "person working without pay",
+            "es": "persona que ayuda gratis",
+            "it": "persona che aiuta gratuitamente",
+            "fr": "personne aidant gratuitement",
+            "de": "person die unentgeltlich hilft",
+            "ru": "человек работающий бесплатно",
+            "hu": "önkéntes segítő személy",
+            "pt": "pessoa que ajuda de graça",
+            "ro": "persoană care ajută gratuit"
+          },
+          "understand": {
+            "en": "grasp the meaning",
+            "es": "comprender el significado",
+            "it": "capire il significato",
+            "fr": "comprendre le sens",
+            "de": "die bedeutung erfassen",
+            "ru": "понимать смысл",
+            "hu": "megérteni az értelmét",
+            "pt": "compreender o significado",
+            "ro": "a înțelege sensul"
+          },
+          "afternoon": {
+            "en": "time after midday",
+            "es": "tiempo después del mediodía",
+            "it": "tempo dopo mezzogiorno",
+            "fr": "temps après midi",
+            "de": "zeit nach dem mittag",
+            "ru": "время после полудня",
+            "hu": "dél utáni időszak",
+            "pt": "tempo após o meio dia",
+            "ro": "timpul după amiază"
+          }
+        }
+      },
+      {
+        "id": "L730",
+        "title": "Stress that moves with the ending",
+        "focus": "when a word gets a longer ending, the strong beat can move to another syllable",
+        "example": "photograph",
+        "ipa": "/ˈfoʊ.tə.ɡræf/",
+        "gloss": "a picture made with a camera",
+        "extra": [
+          {
+            "word": "photography",
+            "ipa": "/fəˈtɑ.ɡrə.fi/",
+            "gloss": "the art of taking pictures"
+          },
+          {
+            "word": "photographer",
+            "ipa": "/fəˈtɑ.ɡrə.fɚ/",
+            "gloss": "a person who takes pictures"
+          }
+        ],
+        "glosses": {
+          "photograph": {
+            "en": "image captured by camera",
+            "es": "imagen capturada por cámara",
+            "it": "immagine catturata da fotocamera",
+            "fr": "image capturée par appareil",
+            "de": "mit kamera aufgenommenes bild",
+            "ru": "изображение полученное камерой",
+            "hu": "fényképezőgéppel készült kép",
+            "pt": "imagem capturada por câmera",
+            "ro": "imagine capturată cu aparatul"
+          },
+          "photography": {
+            "en": "art of taking pictures",
+            "es": "arte de tomar fotos",
+            "it": "arte di scattare foto",
+            "fr": "art de prendre photos",
+            "de": "kunst des fotografierens",
+            "ru": "искусство создания снимков",
+            "hu": "fényképezés művészete",
+            "pt": "arte de tirar fotos",
+            "ro": "arta de a face poze"
+          },
+          "photographer": {
+            "en": "person who takes pictures",
+            "es": "persona que toma fotos",
+            "it": "persona che scatta foto",
+            "fr": "personne qui prend photos",
+            "de": "person die fotos macht",
+            "ru": "человек делающий снимки",
+            "hu": "személy aki fényképez",
+            "pt": "pessoa que tira fotos",
+            "ro": "persoană care face poze"
+          }
+        }
+      },
+      {
+        "id": "L731",
+        "title": "Weak syllables and the schwa",
+        "focus": "a weak syllable has a short, relaxed vowel called the schwa, the most common vowel sound in English",
+        "example": "about",
+        "ipa": "/əˈbaʊt/",
+        "gloss": "on the subject of",
+        "extra": [
+          {
+            "word": "sofa",
+            "ipa": "/ˈsoʊ.fə/",
+            "gloss": "a soft seat for two or more people"
+          },
+          {
+            "word": "teacher",
+            "ipa": "/ˈti.tʃɚ/",
+            "gloss": "a person who helps you learn"
+          }
+        ],
+        "glosses": {
+          "about": {
+            "en": "on the subject of",
+            "es": "sobre el tema de",
+            "it": "riguardo al tema",
+            "fr": "au sujet de",
+            "de": "bezüglich eines themas",
+            "ru": "на тему чего либо",
+            "hu": "valamivel kapcsolatban",
+            "pt": "sobre o assunto",
+            "ro": "despre subiectul acesta"
+          },
+          "sofa": {
+            "en": "long upholstered seat",
+            "es": "asiento largo acolchado",
+            "it": "seduta imbottita lunga",
+            "fr": "siège rembourré long",
+            "de": "lange gepolsterte sitzgelegenheit",
+            "ru": "длинное мягкое сиденье",
+            "hu": "hosszú párnázott ülőalkalmatosság",
+            "pt": "assento estofado longo",
+            "ro": "scaun lung tapițat"
+          },
+          "teacher": {
+            "en": "person who instructs others",
+            "es": "persona que enseña",
+            "it": "persona che istruisce",
+            "fr": "personne qui enseigne",
+            "de": "person die unterrichtet",
+            "ru": "человек который обучает",
+            "hu": "személy aki tanít",
+            "pt": "pessoa que ensina",
+            "ro": "persoană care predă"
+          }
+        }
+      },
+      {
+        "id": "L732",
+        "title": "Stress in compound words",
+        "focus": "in a compound word made of two nouns the strong beat falls on the first part",
+        "example": "toothbrush",
+        "ipa": "/ˈtuθ.brʌʃ/",
+        "gloss": "a small brush for cleaning teeth",
+        "extra": [
+          {
+            "word": "airport",
+            "ipa": "/ˈɛr.pɔrt/",
+            "gloss": "a place where planes land and take off"
+          },
+          {
+            "word": "sunflower",
+            "ipa": "/ˈsʌn.flaʊ.ɚ/",
+            "gloss": "a tall yellow flower"
+          }
+        ],
+        "glosses": {
+          "toothbrush": {
+            "en": "brush for cleaning teeth",
+            "es": "cepillo para los dientes",
+            "it": "spazzolino da denti",
+            "fr": "brosse à dents",
+            "de": "bürste zum zähneputzen",
+            "ru": "щетка для чистки зубов",
+            "hu": "fogkefe",
+            "pt": "escova de dentes",
+            "ro": "periuță de dinți"
+          },
+          "airport": {
+            "en": "place for aircraft takeoff",
+            "es": "lugar de despegue aéreo",
+            "it": "luogo di decollo aereo",
+            "fr": "lieu de décollage aérien",
+            "de": "ort für flugzeugstarts",
+            "ru": "место взлета самолетов",
+            "hu": "repülőtér",
+            "pt": "local de decolagem aérea",
+            "ro": "loc pentru decolarea avioanelor"
+          },
+          "sunflower": {
+            "en": "tall yellow flower",
+            "es": "flor amarilla alta",
+            "it": "fiore giallo alto",
+            "fr": "grande fleur jaune",
+            "de": "hohe gelbe blume",
+            "ru": "высокий желтый цветок",
+            "hu": "magas sárga virág",
+            "pt": "flor amarela alta",
+            "ro": "floare galbenă înaltă"
+          }
+        }
+      },
+      {
+        "id": "L733",
+        "title": "Small unstressed words",
+        "focus": "small grammar words such as and, of and to are usually weak: short, quiet and with a schwa",
+        "example": "and",
+        "ipa": "/ənd/",
+        "gloss": "the word that joins two things",
+        "extra": [
+          {
+            "word": "of",
+            "ipa": "/əv/",
+            "gloss": "the word that shows what something belongs to"
+          },
+          {
+            "word": "to",
+            "ipa": "/tə/",
+            "gloss": "the word that shows a direction"
+          }
+        ],
+        "glosses": {
+          "and": {
+            "en": "conjunction joining two items",
+            "es": "conjunción que une elementos",
+            "it": "congiunzione che unisce elementi",
+            "fr": "conjonction reliant deux éléments",
+            "de": "konjunktion zur verbindung",
+            "ru": "союз для соединения слов",
+            "hu": "kötőszó két dolog összekapcsolására",
+            "pt": "conjunção que une elementos",
+            "ro": "conjuncție care leagă elemente"
+          },
+          "of": {
+            "en": "preposition indicating belonging",
+            "es": "preposición que indica pertenencia",
+            "it": "preposizione che indica appartenenza",
+            "fr": "préposition marquant la possession",
+            "de": "präposition für zugehörigkeit",
+            "ru": "предлог для обозначения принадлежности",
+            "hu": "birtoklást kifejező elöljárószó",
+            "pt": "preposição que indica pertença",
+            "ro": "prepoziție care indică apartenența"
+          },
+          "to": {
+            "en": "preposition indicating direction",
+            "es": "preposición que indica dirección",
+            "it": "preposizione che indica direzione",
+            "fr": "préposition marquant la direction",
+            "de": "präposition für eine richtung",
+            "ru": "предлог для обозначения направления",
+            "hu": "irányt kifejező elöljárószó",
+            "pt": "preposição que indica direção",
+            "ro": "prepoziție care indică direcția"
+          }
+        }
+      },
+      {
+        "id": "L734",
+        "title": "Syllables without a vowel",
+        "focus": "in some words a final l or n makes its own syllable; the tongue stays in place and no vowel is said",
+        "example": "bottle",
+        "ipa": "/ˈbɑ.tl̩/",
+        "gloss": "a container for drinks",
+        "extra": [
+          {
+            "word": "button",
+            "ipa": "/ˈbʌ.tn̩/",
+            "gloss": "a small round fastener on clothes"
+          },
+          {
+            "word": "little",
+            "ipa": "/ˈlɪ.tl̩/",
+            "gloss": "small"
+          }
+        ],
+        "glosses": {
+          "bottle": {
+            "en": "container for liquids",
+            "es": "recipiente para bebidas",
+            "it": "recipiente per liquidi",
+            "fr": "récipient pour boissons",
+            "de": "gefäß für getränke",
+            "ru": "сосуд для напитков",
+            "hu": "italtároló edény",
+            "pt": "recipiente para bebidas",
+            "ro": "recipient pentru băuturi"
+          },
+          "button": {
+            "en": "small clothing fastener",
+            "es": "pequeño broche de ropa",
+            "it": "piccolo fermaglio per vestiti",
+            "fr": "petit fermoir de vêtement",
+            "de": "kleiner verschluss für kleidung",
+            "ru": "маленькая застежка для одежды",
+            "hu": "kicsi ruharögzítő",
+            "pt": "pequeno fecho de roupa",
+            "ro": "mică închizătoare pentru haine"
+          },
+          "little": {
+            "en": "not big in size",
+            "es": "de tamaño reducido",
+            "it": "di dimensioni ridotte",
+            "fr": "de petite taille",
+            "de": "von geringer größe",
+            "ru": "небольшого размера",
+            "hu": "kis méretű",
+            "pt": "de tamanho reduzido",
+            "ro": "de dimensiuni mici"
+          }
+        }
+      }
+    ],
     "LT01T04": [],
     "LT01T05": [],
     "LT01T06": []

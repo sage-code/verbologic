@@ -7,6 +7,7 @@ Date: 2026-11-01 (revised after review). Goal: every LT01 topic complete for Eng
 - Task 0 done. Task 1 done (T01 = the 26 letters). Task 3 done (26 letters x 8 helper languages, audio rebuilt).
 - Task 2 done: English T02 has 53 entries in teaching order (`scripts/add-lt01-english-groups.mjs`): 5 duplicates merged, 21 groups added (`wh qu ck tch dge ew ay igh ci -ture pl pr tr fr gl sl sp sn sm sw str`), all in 9 languages. `ti` was dropped (every example is a cognate in most helper languages).
 - Lessons: the generator's `exampleTranslation` for hand-seeded groups was wrong for 15 of 22 (it translated other words), so seed `exampleTranslation` by hand and always run `verify-alphabet-glosses.py`. Cognate examples (nature, train, social) make the "bare foreign word" check reject pages: pick non-cognates. `scripts/converge-alphabet-pages.py` retries only failing (language, entry) pairs, one language per call. Never trim `check-alphabet-pages.py` output with sed.
+- Task 4 done (2026-11-01): LT01T03 has 12 English lessons (L723 to L734) in 9 languages with read audio. English now uses the native path too (`load_native`), the prompt forbids facts beyond the teaching point and "always/never" claims, and `--check` is clean.
 - Open: T04 silent-letter pages (L596, L603 to L613) still fail the rules (Task 5). Nothing is uploaded or synced.
 
 ## Principle: one concept, one topic, one page
