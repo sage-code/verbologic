@@ -27,6 +27,7 @@ Verbologic maintenance runner
   ./run.sh sync [--dry-run]              Synchronize the database (payloads → seed/*.json → Supabase; prunes rows the seed no longer has)
   ./run.sh heartbeat                     Ping Supabase (keeps the Free-tier project from pausing)
   ./run.sh missing                       Missing-content inventory (planned items → temp/missing-content.md)
+  ./run.sh create media <chapter|topic|item_id> --target xx --missing [--dry-run]  Make only the sound files the manifests list but the disk lacks, in language xx
   ./run.sh media index [--pretty]        Build public/data/media payloads (sidebars + manifests + config)
   ./run.sh media manifest [--dry-run]   Reconcile item manifests with files on disk (the baseline)
   ./run.sh media verify [--remote]      Missing / orphan / dirty / pending report (+ R2 diff)
@@ -230,6 +231,19 @@ case "${1:-help}" in
       story)
         shift 2
         .venv/Scripts/python.exe scripts/create-stories.py "$@" ;;
+      media)
+        # Gap filler after an article is created: sound only, only files absent from disk, in one language.
+        [[ -n "${3:-}" && "$3" != --* && " $* " == *" --missing "* && " $* " == *" --target "* ]] || fail "usage: ./run.sh create media <chapter|topic|item_id> --target xx --missing [--dry-run]"
+        scope="$3"; shift 3
+        args=(); lang=""
+        while [[ $# -gt 0 ]]; do
+          case "$1" in
+            --target) lang="$2"; shift 2 ;;
+            *) args+=("$1"); shift ;;
+          esac
+        done
+        "$0" create sound "$scope" --lang "$lang" "${args[@]}" || exit $?
+        [[ " ${args[*]} " == *" --dry-run "* ]] || node scripts/media-sync.mjs manifest ;;
       read|sound)
         # `sound` = the per-language audio of the items (re-made, or only the missing files with --missing);
         # `read` = the read-aloud of article docs.
