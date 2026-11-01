@@ -204,3 +204,7 @@ T01 "Passive voice"; "Impersonal constructions" (*se spune, on, man, es gibt*). 
 4. `./run.sh seed import` publishes the removals (it prunes `article_docs` rows no longer in the seed).
 5. Decide on the section 3 renumbering, then add topics and write articles by `./run.sh create lecture <topic>` with a seed per language.
 6. Add a language-fit check to `validate-data.mjs`: an article's quoted word, IPA and gloss must come from one seed row (this would have caught defect 1).
+
+## 6. Update 2026-11-01
+
+Section 5 items 1 and 2 are done for English (T01 holds the 26 letters; variants and digraphs were merged or moved, silent letters rewritten in T04). English LT01 is complete in 9 languages: see `planning/status-2026-11-01.md`.

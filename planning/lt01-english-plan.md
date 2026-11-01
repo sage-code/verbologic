@@ -11,7 +11,7 @@ Date: 2026-11-01 (revised after review). Goal: every LT01 topic complete for Eng
 - Task 5 done (2026-11-01): LT01T04 has 14 English lessons (L735 to L748) in 9 languages with read audio. The 12 old silent-letter pages were replaced by 6 merged lessons; the old `alphabets/en.json` entries were removed. English pages were read and 3 factual errors fixed (double consonants are not held longer; gh and daughter; -s depends on the last sound).
 - Task 6 done (2026-11-01): LT01T05 has 12 English lessons (L749 to L760) in 9 languages with read audio. English glosses now come straight from the seed (a model paraphrase turned "I have" into "I possess"); the gloss step translates contractions literally.
 - Task 7 done (2026-11-01): LT01T06 has 12 English lessons (L761 to L772) in 9 languages with read audio; examples are whole phrases so the native voice shows the intonation. 84 stale read descriptors of the Romanian T05 lessons were dropped (their translated pages were retired).
-- Open: Task 8 (final pass). Nothing is uploaded or synced.
+- Task 8 done (2026-11-01): final checks clean, handoff in `planning/status-2026-11-01.md`. Nothing is uploaded or synced.
 
 ## Principle: one concept, one topic, one page
 
