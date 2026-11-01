@@ -91,6 +91,8 @@ function manifestNames(code) {
  * empty summary is honest — the article itself is the summary.
  */
 function summaryOf(entry, locale) {
+  // The seeded notes ("Letter name: A. Example: apple.") only repeat the title and the example.
+  if (/^(Letter name:|This is the letter)/.test(entry.note?.en ?? '')) return ''
   const note = entry.note?.[locale] ?? entry.note?.en ?? ''
   return note.split('\n')[0].slice(0, 200)
 }
