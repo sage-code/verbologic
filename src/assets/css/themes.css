@@ -45,6 +45,12 @@
   --color-on-accent: #0b1120;
 }
 
+/* Header mark: black on the light theme, white on the dark one. Both <img> are in the markup and
+ * html[data-theme] picks one, so the right mark shows even before the app hydrates. */
+.app-logo-dark { display: none; }
+[data-theme='dark'] .app-logo-light { display: none; }
+[data-theme='dark'] .app-logo-dark { display: block; }
+
 /* Unselected buttons/links (the "border-edge + bg-surface/bg-body" pattern
  * used for secondary controls sitewide) get a pastel sky-blue background and a
  * soft shadow on the light theme only, so they read as clickable instead of

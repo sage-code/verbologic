@@ -8,11 +8,9 @@ import earthLogoBlack from '~/assets/img/earth-logo-black.png'
 
 const { t } = useLocale()
 
-// Same useState key as the account-dialog theme preference, so the mark
-// swaps with the theme:
-// white on the dark header surface, black on the light one.
-const theme = useState<'light' | 'dark'>('app-theme', () => 'light')
-const logoSrc = computed(() => (theme.value === 'dark' ? earthLogoWhite : earthLogoBlack))
+// The mark follows the theme through CSS (html[data-theme], see themes.css), not through
+// state: the static page is built in the light theme and the saved theme is only
+// applied on the client, so state-driven src left the black mark on a dark page.
 
 // Topic sidebar drawer toggle — a fixture of the header on mobile whenever
 // the current page has a roadmap sidebar (RoadmapShell sets `available`).
@@ -50,13 +48,21 @@ onBeforeUnmount(() => headerObserver?.disconnect())
       <NuxtLink to="/" class="flex shrink-0 items-center gap-2" :aria-label="`Verbologic — ${t('ui.home') ?? 'Home'}`">
         <!-- Monochrome transparent mark — white on dark theme, black on light. -->
         <img
-          :src="logoSrc"
+          :src="earthLogoBlack"
           alt=""
           width="64"
           height="64"
-          class="h-8 w-8 shrink-0"
+          class="app-logo-light h-8 w-8 shrink-0"
           decoding="async"
           fetchpriority="high"
+        >
+        <img
+          :src="earthLogoWhite"
+          alt=""
+          width="64"
+          height="64"
+          class="app-logo-dark h-8 w-8 shrink-0"
+          decoding="async"
         >
         <span class="text-accent app-header-wordmark">
           <span>Verbo</span><span class="app-header-wordmark-sep" aria-hidden="true">-</span><span>Logic</span>
