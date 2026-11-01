@@ -14,6 +14,7 @@
  *
  * Exits non-zero on any failure (used by `run release` / `run validate`).
  */
+import { execFileSync } from 'node:child_process'
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -133,6 +134,19 @@ try {
         })
       : []
 
+  // Chapters whose sound is complete. In these, a clip must exist for every shown name and the title
+  // manifests must carry the sidebar's names (scripts/sync-title-names.mjs), so a rename that leaves the
+  // old clip speaking the old name is an error. Add a chapter here when its sound coverage reaches 100%.
+  const SOUND_GUARDED = new Set(['LT01'])
+  for (const chapterCode of SOUND_GUARDED) {
+    try {
+      execFileSync(process.execPath, [join(ROOT, 'scripts/sync-title-names.mjs'), '--chapter', chapterCode, '--check'], { encoding: 'utf8' })
+    } catch (e) {
+      const lines = String(e.stdout ?? '').split('\n').filter((l) => l.trim() && !/difference\(s\)$/.test(l))
+      ERRORS.push(`title sound ${chapterCode}: ${lines.length} title name(s) differ from the sidebar, so the clip speaks another name (node scripts/sync-title-names.mjs --chapter ${chapterCode} --apply): ${lines.slice(0, 3).join(' | ')}`)
+    }
+  }
+
   // Learning manifests are keyed by topic-scoped content id.
   const manifestIds = new Set()
   /** `topic\ncode` → manifest, for the per-topic content checks (phonetic IPA). */
@@ -160,6 +174,14 @@ try {
       }
       if (!manifest.locales || !Object.values(manifest.locales).some((row) => typeof row?.name === 'string' && row.name.trim())) {
         ERRORS.push(`media manifest ${relPath}: missing localized names`)
+      }
+      // Sound guard: in a finished chapter every name the site shows has a title clip.
+      if (SOUND_GUARDED.has(String(manifest.chapter ?? manifest.code ?? '').slice(0, 4))) {
+        for (const [locale, row] of Object.entries(manifest.locales ?? {})) {
+          if (row?.name && !manifest.files?.[`sound/${locale}.mp3`]) {
+            ERRORS.push(`media manifest ${relPath}: ${locale} name "${row.name}" has no sound clip (sound/${locale}.mp3)`)
+          }
+        }
       }
       continue
     }

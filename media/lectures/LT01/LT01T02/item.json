@@ -10,87 +10,79 @@
   ],
   "locales": {
     "en": {
-      "name": "Vowel & consonant groups",
-      "description": "This topic covers the diphthongs used in the Romanian language.",
-      "ipa": "/ˈvaʊ.əl ænd ˈkɑːn.sə.nənt ɡruːps/"
+      "name": "Letter groups & sounds",
+      "description": "Sounds made by two or more letters together: vowel pairs, consonant digraphs and blends.",
+      "ipa": "/ˈlɛ.tɚ ɡrups ænd saʊndz/"
     },
     "ro": {
-      "name": "Grupuri de vocale și consoane",
-      "description": "Acest subiect acoperă diftongii utilizați în limba română.",
-      "ipa": "/ˈɡru.puri de voˈka.le ʃi konˈso̯a.ne/"
+      "name": "Grupuri de litere și sunete",
+      "description": "Sunete formate de două sau mai multe litere împreună: perechi de vocale, digrafe consonantice și grupuri de consoane."
     },
     "de": {
-      "name": "Vokal- & Konsonantengruppen",
-      "description": "Dieses Thema behandelt die im Rumänischen verwendeten Diphthonge.",
-      "ipa": "/voˈkaːl ʊnt kɔnzonaŋtn̩ˈɡʁʊpn̩/"
+      "name": "Buchstabengruppen & Laute",
+      "description": "Laute, die zwei oder mehr Buchstaben zusammen bilden: Vokalpaare, Konsonanten-Digraphen und Konsonantengruppen."
     },
     "ru": {
-      "name": "Группы гласных и согласных",
-      "description": "Эта тема охватывает дифтонги, используемые в румынском языке.",
-      "ipa": "/ˈɡrupːɨ ˈɡlasnɨx ɪ sɐˈɡlasnɨx/"
+      "name": "Группы букв и звуки",
+      "description": "Звуки, которые образуют две или больше букв вместе: пары гласных, сочетания согласных и стечения согласных."
     },
     "it": {
-      "name": "Gruppi di vocali e consonanti",
-      "description": "Questo argomento copre i dittonghi utilizzati nella lingua rumena.",
-      "ipa": "/ˈɡruppi di voˈkaːli e kkonsoˈnanti/"
+      "name": "Gruppi di lettere e suoni",
+      "description": "Suoni formati da due o più lettere insieme: coppie di vocali, digrammi consonantici e gruppi di consonanti."
     },
     "es": {
-      "name": "Grupos de vocales y consonantes",
-      "description": "Este tema cubre los diptongos utilizados en el idioma rumano.",
-      "ipa": "/ˈɡɾupos de boˈkales i konsoˈnantes/"
+      "name": "Grupos de letras y sonidos",
+      "description": "Sonidos que forman dos o más letras juntas: pares de vocales, dígrafos consonánticos y grupos de consonantes."
     },
     "fr": {
-      "name": "Groupes de voyelles et consonnes",
-      "description": "Ce sujet couvre les diphtongues utilisés dans la langue roumaine.",
-      "ipa": "/ɡʁup də vwajɛl e kɔ̃sɔn/"
+      "name": "Groupes de lettres et sons",
+      "description": "Sons formés par deux lettres ou plus ensemble : paires de voyelles, digrammes consonantiques et groupes de consonnes."
     },
     "hu": {
-      "name": "Magánhangzó- és mássalhangzó-csoportok",
-      "description": "Ez a téma a román nyelvben használt diftongusokat ismerteti.",
-      "ipa": "/ˈmɒɡaːnhɒŋzoː eːʃ ˈmaːʃːɒlhɒŋzoːˌt͡ʃoportok/"
+      "name": "Betűcsoportok és hangok",
+      "description": "Két vagy több betű együtt alkotta hangok: magánhangzópárok, mássalhangzó-kapcsolatok és mássalhangzó-csoportok."
     },
     "pt": {
-      "name": "Grupos de vogais e consoantes",
-      "description": "Este tópico aborda os ditongos usados na língua romena.",
-      "ipa": "/ˈɡɾupuʒ dɨ vuˈɡajz i kõsuˈɐ̃tɨʃ/"
+      "name": "Grupos de letras e sons",
+      "description": "Sons formados por duas ou mais letras juntas: pares de vogais, dígrafos consonantais e grupos de consoantes."
     }
   },
   "files": {
-    "sound/en.mp3": {
-      "bytes": 12096,
-      "sha1": "672894195ede859246ca4462de49893d1160d006"
-    },
-    "sound/ro.mp3": {
-      "bytes": 16704,
-      "sha1": "7acfa624aea0f2dd08f68df580e3e43056991e7f"
-    },
     "sound/de.mp3": {
-      "bytes": 17568,
-      "sha1": "9178a6bb44aabe15caa97d7797b33fcb92f93529"
+      "bytes": 15552,
+      "sha1": "49032415a0087d0c2d23fab77510a3d9dbc3d077"
     },
     "sound/it.mp3": {
-      "bytes": 18144,
-      "sha1": "3bc9fc187a11c43ee519a34225eb13830f8a94bd"
+      "bytes": 15408,
+      "sha1": "0e9bd728364f3cd3f907b8f8f1f1e25a0f02c446"
     },
-    "sound/es.mp3": {
-      "bytes": 17856,
-      "sha1": "d48a01d7334e22a412d574541dc5c99607accfad"
+    "sound/ro.mp3": {
+      "bytes": 15840,
+      "sha1": "d0c6feba3879a887b98dbccbbb87f91ceec70096"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8b87b990e4d5e1719e12bd1399167cb0994802a0"
     },
     "sound/fr.mp3": {
-      "bytes": 14400,
-      "sha1": "e0a03f9e218c4f189fc21c94c7951763fa77354d"
-    },
-    "sound/hu.mp3": {
-      "bytes": 19872,
-      "sha1": "d1a2f2d59e688dc9e0775b81fbfecd6a06521229"
+      "bytes": 12240,
+      "sha1": "66b59f762e9b50e030afcec068075136a1bca57e"
     },
     "sound/pt.mp3": {
-      "bytes": 16416,
-      "sha1": "2d6ef28d1a506811aeaca37d31ccf739d7ac3299"
+      "bytes": 14256,
+      "sha1": "3c94440bc669a565235066c8f80d7b432cc8d4ea"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14400,
+      "sha1": "e86b17bdf895d131ce33d7d5bcf42a3d578009ce"
+    },
+    "sound/es.mp3": {
+      "bytes": 15840,
+      "sha1": "b536968b99baf50d8ed0ed506b4f765bb4eabf44"
     },
     "sound/ru.mp3": {
-      "bytes": 18288,
-      "sha1": "efc19d361dff8509a0a13ef9cba1269434b7fcab"
+      "bytes": 16272,
+      "sha1": "eeb2da306fac53e3f6532e39734ba75d59fac49f"
     }
   }
 }
