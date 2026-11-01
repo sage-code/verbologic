@@ -18,9 +18,11 @@
  * Read-only; ALWAYS exits 0 — a missing-content finding is information, not a
  * failure. See manual/architecture.md ("Structure-First Design").
  */
+import { execFileSync } from 'node:child_process'
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { SOUND_GUARDED } from './lib/sound-chapters.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const MEDIA = join(ROOT, 'media')
@@ -172,6 +174,23 @@ else {
   push(`| chapter | topic | ${COVERAGE_LANGS.join(' | ')} |`)
   push(`| --- | --- | ${COVERAGE_LANGS.map(() => '---').join(' | ')} |`)
   for (const r of coverageRows) push(r)
+  push('')
+}
+
+/* ── sound coverage of the guarded chapters (scripts/audit-sound.mjs) ───────────────────── */
+
+push('## Sound coverage (does each clip say what the site shows? `node scripts/audit-sound.mjs --chapter <code> --list`)')
+push('')
+for (const code of SOUND_GUARDED) {
+  let out
+  try {
+    out = execFileSync(process.execPath, [join(ROOT, 'scripts/audit-sound.mjs'), '--chapter', code], { encoding: 'utf8' })
+  } catch (e) {
+    out = String(e.stdout ?? e.message)
+  }
+  push('```')
+  push(out.trim())
+  push('```')
   push('')
 }
 

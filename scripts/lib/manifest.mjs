@@ -66,10 +66,20 @@ export function descriptor(item, field, locale) {
   }
 }
 
-/** Record a published file. `facts` needs `bytes` and `sha1`. */
+/**
+ * Record a published file. `facts` needs `bytes` and `sha1`; `text` is the SHA-1 of what the clip says
+ * (see set_file_facts in manifest.py). Without `text`, the recorded hash and `copyOf` survive when the
+ * file is the same one.
+ */
 export function setFileFacts(item, field, locale, facts) {
   item.files ??= {}
-  item.files[filePath(field, locale)] = { bytes: facts.bytes, sha1: facts.sha1 }
+  const key = filePath(field, locale)
+  const old = item.files[key] ?? {}
+  const next = { bytes: facts.bytes, sha1: facts.sha1 }
+  const text = facts.text ?? (old.sha1 === facts.sha1 ? old.text : undefined)
+  if (text) next.text = text
+  if (old.copyOf && old.sha1 === facts.sha1) next.copyOf = old.copyOf
+  item.files[key] = next
 }
 
 /** Drop a file (back to pending). */

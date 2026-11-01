@@ -289,6 +289,16 @@ For an audio variant of an existing concept, include its assigned code as
 `"id": "A023"` in the seed row; this reuses the shared content ID and progress
 key while creating a separate language-specific audio manifest.
 
+### Sound must match the name (guarded chapters)
+
+A title or item clip (`sound/<language>.mp3`) must say exactly what the site shows in that language, and a read clip (`read/<language>.mp3`) must read the current article page. Chapters that reach full coverage are listed in `scripts/lib/sound-chapters.mjs` (today `LT01`); for those, `./run.sh validate` fails on a shown name without a clip or on a title manifest whose name differs from the sidebar.
+
+- **What the clip says** is recorded: `generate-audio.py` stores the SHA-1 of the spoken text (`ttsText`, else `name`) or of the article page in the clip's file facts (`files["sound/xx.mp3"].text`). `node scripts/audit-sound.mjs --chapter LT01 [--list]` compares it with the text the site shows now: `ok`, `copy`, `stale`, `unverified` (no record, made before the record existed) or `missing`; `./run.sh missing` prints the same table. After a rename or an edit the clip is `stale`: delete it (or pass `--overwrite-audio`) and run `generate-audio.py --audio|--read --apply`.
+- **Renaming a topic or chapter:** edit the sidebar, then `node scripts/sync-title-names.mjs --chapter LT01 --apply` (copies the names into the title manifests and removes the stale `ttsText`, `ipa` and clip), then `generate-audio.py --audio --track lectures --kind topic-title --apply`.
+- **Unverified clips:** `scripts/verify-clip-text.py` samples clips, lets Gemini listen to them and judges whether each says what it should; if the mismatch rate is small, `audit-sound.mjs --baseline` stamps the unverified clips as trusted. It also found that clips made before a rename kept the old name, so clips of renamed items must be regenerated, not stamped.
+- **A voice that cannot read the glyph** (Ț, Ű, Я read by the Portuguese or Italian voice) returns `NoAudioReceived`. The clip of the letter's own language is reused for those readers: `node scripts/fill-letter-clips.mjs --apply` (marked `copyOf`, which the audit accepts). Other refusals get a `ttsText` respelling, as above for the dictionary.
+- **Russian and Hungarian runs stall sometimes:** run generation per language with a `timeout`, then run it again; clips that exist are skipped at no cost.
+
 ### Dictionary articles (shared across target languages)
 
 Dictionary article prose is authored in **`content/dictionary/`**, independently

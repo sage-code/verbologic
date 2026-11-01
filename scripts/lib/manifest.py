@@ -50,13 +50,25 @@ def is_published(item: dict[str, Any], field: str, locale: str) -> bool:
 
 
 def set_file_facts(
-    item: dict[str, Any], field: str, locale: str, *, bytes_: int, sha1: str
+    item: dict[str, Any], field: str, locale: str, *, bytes_: int, sha1: str, text: str | None = None
 ) -> None:
-    """Record a published file."""
-    item.setdefault("files", {})[file_path(field, locale)] = {
-        "bytes": bytes_,
-        "sha1": sha1,
-    }
+    """Record a published file.
+
+    `text` is the SHA-1 of what the clip says (the spoken text of a title or item clip, the article
+    sections of a read clip), so a later rename or edit makes the clip detectably stale. A call without
+    `text` keeps the recorded hash and `copyOf` when the file is the same one (same sha1).
+    """
+    files = item.setdefault("files", {})
+    key = file_path(field, locale)
+    old = files.get(key) or {}
+    facts: dict[str, Any] = {"bytes": bytes_, "sha1": sha1}
+    if text is not None:
+        facts["text"] = text
+    elif old.get("text") and old.get("sha1") == sha1:
+        facts["text"] = old["text"]
+    if old.get("copyOf") and old.get("sha1") == sha1:
+        facts["copyOf"] = old["copyOf"]
+    files[key] = facts
 
 
 def clear_file_facts(item: dict[str, Any], field: str, locale: str) -> None:

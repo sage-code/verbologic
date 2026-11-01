@@ -18,6 +18,7 @@ import { execFileSync } from 'node:child_process'
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { SOUND_GUARDED as GUARDED_CHAPTERS } from './lib/sound-chapters.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const ERRORS = []
@@ -134,16 +135,27 @@ try {
         })
       : []
 
-  // Chapters whose sound is complete. In these, a clip must exist for every shown name and the title
-  // manifests must carry the sidebar's names (scripts/sync-title-names.mjs), so a rename that leaves the
-  // old clip speaking the old name is an error. Add a chapter here when its sound coverage reaches 100%.
-  const SOUND_GUARDED = new Set(['LT01'])
+  // Chapters whose sound is complete (scripts/lib/sound-chapters.mjs): a clip must exist for every shown name and
+  // the title manifests must carry the sidebar's names (scripts/sync-title-names.mjs), so a rename that leaves
+  // the old clip speaking the old name is an error.
+  const SOUND_GUARDED = new Set(GUARDED_CHAPTERS)
   for (const chapterCode of SOUND_GUARDED) {
     try {
       execFileSync(process.execPath, [join(ROOT, 'scripts/sync-title-names.mjs'), '--chapter', chapterCode, '--check'], { encoding: 'utf8' })
     } catch (e) {
       const lines = String(e.stdout ?? '').split('\n').filter((l) => l.trim() && !/difference\(s\)$/.test(l))
       ERRORS.push(`title sound ${chapterCode}: ${lines.length} title name(s) differ from the sidebar, so the clip speaks another name (node scripts/sync-title-names.mjs --chapter ${chapterCode} --apply): ${lines.slice(0, 3).join(' | ')}`)
+    }
+  }
+
+  // The recorded text of every clip must equal what the site shows now (scripts/audit-sound.mjs): a rename or
+  // a page edit that leaves the old clip behind is stale, a clip made without the record is unverified.
+  for (const chapterCode of SOUND_GUARDED) {
+    try {
+      execFileSync(process.execPath, [join(ROOT, 'scripts/audit-sound.mjs'), '--chapter', chapterCode, '--list'], { encoding: 'utf8' })
+    } catch (e) {
+      const lines = String(e.stdout ?? '').split('\n').filter((l) => /^\s+(stale|unverified|missing)/.test(l)).map((l) => l.trim())
+      ERRORS.push(`sound ${chapterCode}: ${lines.length} clip(s) do not say what the site shows (node scripts/audit-sound.mjs --chapter ${chapterCode} --list): ${lines.slice(0, 3).join(' | ')}`)
     }
   }
 

@@ -727,7 +727,7 @@ async def apply_audio(
             return False
         set_file_facts(
             item, "audio", locale,
-            bytes_=output.stat().st_size, sha1=file_sha1(output),
+            bytes_=output.stat().st_size, sha1=file_sha1(output), text=text_hash(text),
         )
         note = "" if used == voice else f" [fallback from {voice}]"
         print(f"generated: {display_media_path(output)} ({used}){note}")
@@ -858,6 +858,23 @@ def transliterate_batch(texts: list[str], locale: str) -> list[str]:
     except Exception as error:  # noqa: BLE001 - degrade, never abort the run
         print(f"transliteration failed for {locale}: {error}", file=sys.stderr)
         return texts
+
+
+def text_hash(text: str) -> str:
+    """SHA-1 of a clip's spoken text; stored beside the file facts so a rename shows up as a stale clip."""
+    return hashlib.sha1(text.strip().encode("utf-8")).hexdigest()
+
+
+def page_hash(item: dict[str, Any], locale: str) -> str | None:
+    """SHA-1 of one language page of an article (its sections, or its paragraphs): what a read clip says."""
+    path = CONTENT_DIR / str(item.get("track", "")) / str(item.get("topic", "")) / f"{item.get('code', '')}.json"
+    if not path.is_file():
+        return None
+    doc = json.loads(path.read_text(encoding="utf-8")).get("locales", {}).get(locale)
+    if not doc:
+        return None
+    body = doc.get("sections") or doc.get("paragraphs") or []
+    return hashlib.sha1(json.dumps(body, ensure_ascii=False, separators=(",", ":")).encode("utf-8")).hexdigest()
 
 
 def article_body(track: str, topic: str, code: str, locale: str) -> str | None:
@@ -1025,7 +1042,7 @@ async def apply_read(
             return False
         set_file_facts(
             item, "read", locale,
-            bytes_=output.stat().st_size, sha1=file_sha1(output),
+            bytes_=output.stat().st_size, sha1=file_sha1(output), text=page_hash(item, locale),
         )
         # Where each reading page starts in the joined recording — the player
         # seeks here so Play on page 3 starts at page 3.

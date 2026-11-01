@@ -25,6 +25,7 @@ const topicAt = process.argv.indexOf('--topic')
 const TOPIC = topicAt === -1 ? 'LT01T01' : process.argv[topicAt + 1]
 
 let filled = 0
+let marked = 0
 const noSource = []
 const byTarget = {}
 const dirs = (path) => readdirSync(path, { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => e.name)
@@ -50,13 +51,26 @@ for (const chapter of dirs(MEDIA)) {
         item.files ??= {}
         item.files[`sound/${locale}.mp3`] = {
           bytes: statSync(clip).size,
-          sha1: createHash('sha1').update(readFileSync(clip)).digest('hex')
+          sha1: createHash('sha1').update(readFileSync(clip)).digest('hex'),
+          copyOf: `sound/${item.target}.mp3`
         }
         changed = true
+      }
+      // Clips copied earlier carry no marker: a clip identical to the target's own clip is a copy.
+      const own = item.files?.[`sound/${item.target}.mp3`]
+      for (const locale of LOCALES) {
+        const facts = item.files?.[`sound/${locale}.mp3`]
+        if (locale !== item.target && facts && own && facts.sha1 === own.sha1 && !facts.copyOf) {
+          marked += 1
+          if (!apply) continue
+          facts.copyOf = `sound/${item.target}.mp3`
+          delete facts.text
+          changed = true
+        }
       }
       if (changed) writeFileSync(file, `${JSON.stringify(item, null, 2)}\n`, 'utf8')
     }
   }
 }
-console.log(`${apply ? 'filled' : 'would fill'} ${filled} clip(s) in ${TOPIC}`, byTarget)
+console.log(`${apply ? 'filled' : 'would fill'} ${filled} clip(s) in ${TOPIC}`, byTarget, `· ${apply ? 'marked' : 'would mark'} ${marked} copy clip(s) with copyOf`)
 if (noSource.length) console.log(`no clip in the letter's own language for ${noSource.length}: ${noSource.slice(0, 8).join(' ')}`)
