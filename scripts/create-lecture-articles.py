@@ -291,7 +291,9 @@ def gloss_prompt(item: dict[str, Any], target: str) -> str:
     return f"""For each {language} word below, give its meaning in each of these languages: {names}.
 Each meaning is a plain everyday noun phrase or a short definition of 1 to 5 words, written in that
 language with its full accents. Never repeat the {language} word itself. Use no digits and no brackets.
-The English hint is authoritative for the sense.
+The English hint is authoritative for the sense and must be translated literally: for a contraction or a short
+form (I've, gonna, don't) give the same words expanded (I have, going to, do not) as that language says them,
+never a different idea (I have is not I possess).
 
 WORDS (English hint):
 {json.dumps(hints, ensure_ascii=False, indent=2)}
@@ -329,7 +331,9 @@ def native_prompt(item: dict[str, Any], topic: str, level: str, target: str, loc
     glosses = item.get("glosses") or {}
     lines = []
     for word, ipa in allowed_words(item).items():
-        meaning = glosses.get(word, {}).get(locale) or (item["gloss"] if word == item["example"] else "")
+        seed_gloss = item["gloss"] if word == item["example"] else next((e.get("gloss", "") for e in item.get("extra") or [] if e["word"] == word), "")
+        # English reads the seed's own wording (a model paraphrase once turned "I have" into "I possess").
+        meaning = seed_gloss if locale == "en" else (glosses.get(word, {}).get(locale) or seed_gloss)
         lines.append(f"  ({word}) {ipa} = {meaning}")
     word_list = "\n".join(lines)
     fix = f"\nYOUR PREVIOUS ANSWER BROKE THESE RULES. Fix every one and change nothing else:\n{feedback}\n" if feedback else ""

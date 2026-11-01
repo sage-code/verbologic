@@ -1467,7 +1467,668 @@
         }
       }
     ],
-    "LT01T05": [],
+    "LT01T05": [
+      {
+        "id": "L749",
+        "title": "Contractions with be",
+        "focus": "in speech, pronouns and the verb be join into one short word: I am becomes I'm, you are becomes you're, we are becomes we're",
+        "example": "I'm",
+        "ipa": "/aɪm/",
+        "gloss": "I am",
+        "extra": [
+          {
+            "word": "you're",
+            "ipa": "/jʊr/",
+            "gloss": "you are"
+          },
+          {
+            "word": "we're",
+            "ipa": "/wɪr/",
+            "gloss": "we are"
+          }
+        ],
+        "glosses": {
+          "I'm": {
+            "en": "I am",
+            "es": "yo soy",
+            "it": "io sono",
+            "fr": "je suis",
+            "de": "ich bin",
+            "ru": "я есть",
+            "hu": "én vagyok",
+            "pt": "eu sou",
+            "ro": "eu sunt"
+          },
+          "you're": {
+            "en": "you are",
+            "es": "tú eres",
+            "it": "tu sei",
+            "fr": "tu es",
+            "de": "du bist",
+            "ru": "ты есть",
+            "hu": "te vagy",
+            "pt": "tu és",
+            "ro": "tu ești"
+          },
+          "we're": {
+            "en": "we are",
+            "es": "nosotros somos",
+            "it": "noi siamo",
+            "fr": "nous sommes",
+            "de": "wir sind",
+            "ru": "мы есть",
+            "hu": "mi vagyunk",
+            "pt": "nós somos",
+            "ro": "noi suntem"
+          }
+        }
+      },
+      {
+        "id": "L750",
+        "title": "Negative contractions",
+        "focus": "not joins the verb before it and becomes n't: do not becomes don't, is not becomes isn't",
+        "example": "don't",
+        "ipa": "/doʊnt/",
+        "gloss": "do not",
+        "extra": [
+          {
+            "word": "can't",
+            "ipa": "/kænt/",
+            "gloss": "cannot"
+          },
+          {
+            "word": "isn't",
+            "ipa": "/ˈɪ.zənt/",
+            "gloss": "is not"
+          }
+        ],
+        "glosses": {
+          "don't": {
+            "en": "do not",
+            "es": "no hacer",
+            "it": "non fare",
+            "fr": "ne pas faire",
+            "de": "nicht tun",
+            "ru": "не делать",
+            "hu": "nem csinál",
+            "pt": "não fazer",
+            "ro": "a nu face"
+          },
+          "can't": {
+            "en": "cannot",
+            "es": "no poder",
+            "it": "non potere",
+            "fr": "ne pas pouvoir",
+            "de": "nicht können",
+            "ru": "не мочь",
+            "hu": "nem tud",
+            "pt": "não poder",
+            "ro": "a nu putea"
+          },
+          "isn't": {
+            "en": "is not",
+            "es": "no ser",
+            "it": "non essere",
+            "fr": "ne pas être",
+            "de": "nicht sein",
+            "ru": "не быть",
+            "hu": "nem lenni",
+            "pt": "não ser",
+            "ro": "a nu fi"
+          }
+        }
+      },
+      {
+        "id": "L751",
+        "title": "Can and can't",
+        "focus": "can is usually weak and short with a schwa, while can't is strong with a clear vowel, so the vowel is what tells them apart; won't is an irregular short form of will not",
+        "example": "won't",
+        "ipa": "/woʊnt/",
+        "gloss": "will not",
+        "extra": [
+          {
+            "word": "can",
+            "ipa": "/kən/",
+            "gloss": "to be able to"
+          },
+          {
+            "word": "can't",
+            "ipa": "/kænt/",
+            "gloss": "cannot"
+          }
+        ],
+        "glosses": {
+          "won't": {
+            "en": "will not",
+            "es": "no querrá",
+            "it": "non vorrà",
+            "fr": "ne voudra pas",
+            "de": "wird nicht",
+            "ru": "не захочет",
+            "hu": "nem fog",
+            "pt": "não vai querer",
+            "ro": "nu va vrea"
+          },
+          "can": {
+            "en": "to be able to",
+            "es": "ser capaz de",
+            "it": "essere in grado di",
+            "fr": "être capable de",
+            "de": "imstande sein",
+            "ru": "быть в состоянии",
+            "hu": "képes lenni",
+            "pt": "ser capaz de",
+            "ro": "a fi capabil"
+          },
+          "can't": {
+            "en": "cannot",
+            "es": "no poder",
+            "it": "non potere",
+            "fr": "ne pas pouvoir",
+            "de": "nicht können",
+            "ru": "не мочь",
+            "hu": "nem tud",
+            "pt": "não poder",
+            "ro": "a nu putea"
+          }
+        }
+      },
+      {
+        "id": "L752",
+        "title": "The contraction 's",
+        "focus": "the ending 's has three jobs: it can be is (he's), has (he's gone), or it shows who owns something (Sam's); it is said s or z, or with an extra syllable after s, z, sh or ch sounds",
+        "example": "he's",
+        "ipa": "/hiz/",
+        "gloss": "he is or he has",
+        "extra": [
+          {
+            "word": "Sam's",
+            "ipa": "/sæmz/",
+            "gloss": "belonging to Sam"
+          },
+          {
+            "word": "let's",
+            "ipa": "/lɛts/",
+            "gloss": "let us"
+          }
+        ],
+        "glosses": {
+          "he's": {
+            "en": "he is or he has",
+            "es": "él es o él ha",
+            "it": "lui è o lui ha",
+            "fr": "il est ou il a",
+            "de": "er ist oder er hat",
+            "ru": "он есть или он имеет",
+            "hu": "ő van vagy neki van",
+            "pt": "ele é ou ele tem",
+            "ro": "el este sau el are"
+          },
+          "Sam's": {
+            "en": "belonging to Sam",
+            "es": "perteneciente a Sam",
+            "it": "appartenente a Sam",
+            "fr": "appartenant à Sam",
+            "de": "gehört zu Sam",
+            "ru": "принадлежащий Сэму",
+            "hu": "Samé",
+            "pt": "pertencente a Sam",
+            "ro": "aparținând lui Sam"
+          },
+          "let's": {
+            "en": "let us",
+            "es": "permitidnos",
+            "it": "lasciateci",
+            "fr": "laissez nous",
+            "de": "lasst uns",
+            "ru": "позвольте нам",
+            "hu": "hagyjatok minket",
+            "pt": "deixem nos",
+            "ro": "lăsați ne"
+          }
+        }
+      },
+      {
+        "id": "L753",
+        "title": "The contraction 'd",
+        "focus": "the ending 'd can mean would or had, and the rest of the sentence shows which",
+        "example": "I'd",
+        "ipa": "/aɪd/",
+        "gloss": "I would or I had",
+        "extra": [
+          {
+            "word": "she'd",
+            "ipa": "/ʃid/",
+            "gloss": "she would or she had"
+          },
+          {
+            "word": "they'd",
+            "ipa": "/ðeɪd/",
+            "gloss": "they would or they had"
+          }
+        ],
+        "glosses": {
+          "I'd": {
+            "en": "I would or I had",
+            "es": "yo habría o yo había",
+            "it": "io avrei o io avevo",
+            "fr": "je voudrais ou j'avais",
+            "de": "ich würde oder ich hatte",
+            "ru": "я бы или у меня было",
+            "hu": "én tennék vagy nekem volt",
+            "pt": "eu teria ou eu tinha",
+            "ro": "eu aș sau eu aveam"
+          },
+          "she'd": {
+            "en": "she would or she had",
+            "es": "ella habría o ella había",
+            "it": "lei avrebbe o lei aveva",
+            "fr": "elle voudrait ou elle avait",
+            "de": "sie würde oder sie hatte",
+            "ru": "она бы или у неё было",
+            "hu": "ő tenne vagy neki volt",
+            "pt": "ela teria ou ela tinha",
+            "ro": "ea ar sau ea avea"
+          },
+          "they'd": {
+            "en": "they would or they had",
+            "es": "ellos habrían o ellos habían",
+            "it": "loro avrebbero o loro avevano",
+            "fr": "ils voudraient ou ils avaient",
+            "de": "sie würden oder sie hatten",
+            "ru": "они бы или у них было",
+            "hu": "ők tennének vagy nekik volt",
+            "pt": "eles teriam ou eles tinham",
+            "ro": "ei ar sau ei aveau"
+          }
+        }
+      },
+      {
+        "id": "L754",
+        "title": "The contraction 'll",
+        "focus": "the ending 'll is a short form of will and is said as a quick l after the pronoun",
+        "example": "I'll",
+        "ipa": "/aɪl/",
+        "gloss": "I will",
+        "extra": [
+          {
+            "word": "we'll",
+            "ipa": "/wil/",
+            "gloss": "we will"
+          },
+          {
+            "word": "they'll",
+            "ipa": "/ðeɪl/",
+            "gloss": "they will"
+          }
+        ],
+        "glosses": {
+          "I'll": {
+            "en": "I will",
+            "es": "yo voy a",
+            "it": "io avrò",
+            "fr": "je vais",
+            "de": "ich werde",
+            "ru": "я буду",
+            "hu": "én fogok",
+            "pt": "eu vou",
+            "ro": "eu voi"
+          },
+          "we'll": {
+            "en": "we will",
+            "es": "nosotros vamos a",
+            "it": "noi avremo",
+            "fr": "nous allons",
+            "de": "wir werden",
+            "ru": "мы будем",
+            "hu": "mi fogunk",
+            "pt": "nós vamos",
+            "ro": "noi vom"
+          },
+          "they'll": {
+            "en": "they will",
+            "es": "ellos van a",
+            "it": "essi avranno",
+            "fr": "ils vont",
+            "de": "sie werden",
+            "ru": "они будут",
+            "hu": "ők fognak",
+            "pt": "eles vão",
+            "ro": "ei vor"
+          }
+        }
+      },
+      {
+        "id": "L755",
+        "title": "The contraction 've",
+        "focus": "the ending 've is a short form of have and is said as a quick v; after could, would and should it is said as a weak extra syllable",
+        "example": "I've",
+        "ipa": "/aɪv/",
+        "gloss": "I have",
+        "extra": [
+          {
+            "word": "they've",
+            "ipa": "/ðeɪv/",
+            "gloss": "they have"
+          },
+          {
+            "word": "could've",
+            "ipa": "/ˈkʊ.dəv/",
+            "gloss": "could have"
+          }
+        ],
+        "glosses": {
+          "I've": {
+            "en": "I have",
+            "es": "yo he",
+            "it": "io ho",
+            "fr": "j'ai",
+            "de": "ich habe",
+            "ru": "я имею",
+            "hu": "nekem van",
+            "pt": "eu tenho",
+            "ro": "eu am"
+          },
+          "they've": {
+            "en": "they have",
+            "es": "ellos han",
+            "it": "loro hanno",
+            "fr": "ils ont",
+            "de": "sie haben",
+            "ru": "они имеют",
+            "hu": "nekik van",
+            "pt": "eles têm",
+            "ro": "ei au"
+          },
+          "could've": {
+            "en": "could have",
+            "es": "podría haber",
+            "it": "potrebbe avere",
+            "fr": "pourrait avoir",
+            "de": "könnte haben",
+            "ru": "мог бы иметь",
+            "hu": "lehetett volna",
+            "pt": "poderia ter",
+            "ro": "ar fi putut avea"
+          }
+        }
+      },
+      {
+        "id": "L756",
+        "title": "Gonna, wanna and gotta",
+        "focus": "in fast informal speech going to, want to and got to are said as gonna, wanna and gotta; they are spoken forms, not for formal writing",
+        "example": "gonna",
+        "ipa": "/ˈɡʌ.nə/",
+        "gloss": "going to",
+        "extra": [
+          {
+            "word": "wanna",
+            "ipa": "/ˈwɑ.nə/",
+            "gloss": "want to"
+          },
+          {
+            "word": "gotta",
+            "ipa": "/ˈɡɑ.ɾə/",
+            "gloss": "have got to"
+          }
+        ],
+        "glosses": {
+          "gonna": {
+            "en": "going to",
+            "es": "ir a",
+            "it": "andare a",
+            "fr": "aller à",
+            "de": "gehen zu",
+            "ru": "собираться сделать",
+            "hu": "fogni valamit",
+            "pt": "ir para",
+            "ro": "a merge la"
+          },
+          "wanna": {
+            "en": "want to",
+            "es": "querer hacer",
+            "it": "volere fare",
+            "fr": "vouloir faire",
+            "de": "wollen tun",
+            "ru": "хотеть сделать",
+            "hu": "akarni valamit",
+            "pt": "querer fazer",
+            "ro": "a vrea să"
+          },
+          "gotta": {
+            "en": "have got to",
+            "es": "tener que",
+            "it": "dovere fare",
+            "fr": "devoir faire",
+            "de": "müssen tun",
+            "ru": "должен сделать",
+            "hu": "kell tenni",
+            "pt": "ter que",
+            "ro": "a trebui să"
+          }
+        }
+      },
+      {
+        "id": "L757",
+        "title": "Weak forms of small words",
+        "focus": "words such as for, was and have are usually said in a short weak form with a schwa, and only in a strong form when they are stressed or at the end of a sentence",
+        "example": "for",
+        "ipa": "/fɚ/",
+        "gloss": "the word that shows a purpose",
+        "extra": [
+          {
+            "word": "was",
+            "ipa": "/wəz/",
+            "gloss": "the past of is"
+          },
+          {
+            "word": "have",
+            "ipa": "/həv/",
+            "gloss": "to own or to hold"
+          }
+        ],
+        "glosses": {
+          "for": {
+            "en": "with the purpose of",
+            "es": "con el propósito de",
+            "it": "con lo scopo di",
+            "fr": "dans le but de",
+            "de": "mit dem Zweck zu",
+            "ru": "с целью для",
+            "hu": "valamilyen célból",
+            "pt": "com o propósito de",
+            "ro": "cu scopul de a"
+          },
+          "was": {
+            "en": "past tense of be",
+            "es": "pasado del verbo ser",
+            "it": "passato del verbo essere",
+            "fr": "passé du verbe être",
+            "de": "vergangenheit von sein",
+            "ru": "прошедшее время быть",
+            "hu": "a létige múlt ideje",
+            "pt": "passado do verbo ser",
+            "ro": "trecutul verbului a fi"
+          },
+          "have": {
+            "en": "to possess or hold",
+            "es": "poseer o tener",
+            "it": "possedere o tenere",
+            "fr": "posséder ou tenir",
+            "de": "besitzen oder halten",
+            "ru": "владеть или держать",
+            "hu": "birtokolni vagy tartani",
+            "pt": "possuir ou ter",
+            "ro": "a poseda sau a ține"
+          }
+        }
+      },
+      {
+        "id": "L758",
+        "title": "Linking words together",
+        "focus": "when a word ends in a consonant and the next word starts with a vowel, the two are joined and said as one smooth flow",
+        "example": "pick it up",
+        "ipa": "/ˈpɪ.kɪ.ɾʌp/",
+        "gloss": "to lift something",
+        "extra": [
+          {
+            "word": "turn it off",
+            "ipa": "/ˈtɝ.nɪ.ɾɔf/",
+            "gloss": "to stop a machine"
+          },
+          {
+            "word": "an apple",
+            "ipa": "/ə.ˈnæ.pəl/",
+            "gloss": "one round fruit"
+          }
+        ],
+        "glosses": {
+          "pick it up": {
+            "en": "to lift something",
+            "es": "levantar algo",
+            "it": "sollevare qualcosa",
+            "fr": "soulever quelque chose",
+            "de": "etwas hochheben",
+            "ru": "поднять что-то",
+            "hu": "felemelni valamit",
+            "pt": "levantar algo",
+            "ro": "a ridica ceva"
+          },
+          "turn it off": {
+            "en": "to stop a machine",
+            "es": "apagar una máquina",
+            "it": "spegnere una macchina",
+            "fr": "arrêter une machine",
+            "de": "eine Maschine ausschalten",
+            "ru": "выключить машину",
+            "hu": "leállítani egy gépet",
+            "pt": "desligar uma máquina",
+            "ro": "a opri o mașină"
+          },
+          "an apple": {
+            "en": "one round fruit",
+            "es": "una fruta redonda",
+            "it": "un frutto rotondo",
+            "fr": "un fruit rond",
+            "de": "eine runde Frucht",
+            "ru": "один круглый фрукт",
+            "hu": "egy kerek gyümölcs",
+            "pt": "uma fruta redonda",
+            "ro": "un fruct rotund"
+          }
+        }
+      },
+      {
+        "id": "L759",
+        "title": "Dropping the h in him and her",
+        "focus": "in a sentence the h of him, her, his and have is often not said when the word is not stressed, so the word joins the one before it",
+        "example": "tell him",
+        "ipa": "/ˈtɛ.lɪm/",
+        "gloss": "to say something to a man",
+        "extra": [
+          {
+            "word": "ask her",
+            "ipa": "/ˈæ.skɚ/",
+            "gloss": "to put a question to a woman"
+          },
+          {
+            "word": "give him",
+            "ipa": "/ˈɡɪ.vɪm/",
+            "gloss": "to hand something to a man"
+          }
+        ],
+        "glosses": {
+          "tell him": {
+            "en": "say something to a man",
+            "es": "decir algo a un hombre",
+            "it": "dire qualcosa a un uomo",
+            "fr": "dire quelque chose à un homme",
+            "de": "einem Mann etwas sagen",
+            "ru": "сказать что-то мужчине",
+            "hu": "mondani valamit egy férfinak",
+            "pt": "dizer algo a um homem",
+            "ro": "a spune ceva unui bărbat"
+          },
+          "ask her": {
+            "en": "put a question to a woman",
+            "es": "hacer una pregunta a una mujer",
+            "it": "fare una domanda a una donna",
+            "fr": "poser une question à une femme",
+            "de": "einer Frau eine Frage stellen",
+            "ru": "задать вопрос женщине",
+            "hu": "kérdést feltenni egy nőnek",
+            "pt": "fazer uma pergunta a uma mulher",
+            "ro": "a pune o întrebare unei femei"
+          },
+          "give him": {
+            "en": "hand something to a man",
+            "es": "entregar algo a un hombre",
+            "it": "porgere qualcosa a un uomo",
+            "fr": "donner quelque chose à un homme",
+            "de": "einem Mann etwas reichen",
+            "ru": "передать что-то мужчине",
+            "hu": "átadni valamit egy férfinak",
+            "pt": "entregar algo a um homem",
+            "ro": "a înmâna ceva unui bărbat"
+          }
+        }
+      },
+      {
+        "id": "L760",
+        "title": "Would you and did you",
+        "focus": "when a word ending in d or t meets you, the two sounds often join into a new one: would you sounds like wouldja, did you like didja",
+        "example": "would you",
+        "ipa": "/ˈwʊ.dʒə/",
+        "gloss": "a polite way to ask",
+        "extra": [
+          {
+            "word": "did you",
+            "ipa": "/ˈdɪ.dʒə/",
+            "gloss": "the start of a question about the past"
+          },
+          {
+            "word": "don't you",
+            "ipa": "/ˈdoʊn.tʃə/",
+            "gloss": "the start of a negative question"
+          }
+        ],
+        "glosses": {
+          "would you": {
+            "en": "a polite request",
+            "es": "una petición cortés",
+            "it": "una richiesta gentile",
+            "fr": "une demande polie",
+            "de": "eine höfliche Bitte",
+            "ru": "вежливая просьба",
+            "hu": "udvarias kérés",
+            "pt": "um pedido educado",
+            "ro": "o cerere politicoasă"
+          },
+          "did you": {
+            "en": "past tense question start",
+            "es": "inicio de pregunta pasada",
+            "it": "inizio di domanda passata",
+            "fr": "début de question passée",
+            "de": "anfang einer vergangenheitsfrage",
+            "ru": "начало вопроса о прошлом",
+            "hu": "múlt idejű kérdés kezdete",
+            "pt": "início de pergunta passada",
+            "ro": "începutul unei întrebări trecute"
+          },
+          "don't you": {
+            "en": "negative question start",
+            "es": "inicio de pregunta negativa",
+            "it": "inizio di domanda negativa",
+            "fr": "début de question négative",
+            "de": "anfang einer negativen frage",
+            "ru": "начало отрицательного вопроса",
+            "hu": "negatív kérdés kezdete",
+            "pt": "início de pergunta negativa",
+            "ro": "începutul unei întrebări negative"
+          }
+        }
+      }
+    ],
     "LT01T06": []
   }
 }
