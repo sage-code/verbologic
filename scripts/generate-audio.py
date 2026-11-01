@@ -529,7 +529,12 @@ async def synthesize_sections_mixed(
             with temporary.open("wb") as handle:
                 for section in sections:
                     offsets.append(round(elapsed, 3))
-                    for kind, piece in split_target_words(section):
+                    pieces = split_target_words(section)
+                    if voice == target_voice:
+                        # Reader and taught language are the same: no voice change for the
+                        # examples. The page is one utterance with the brackets and IPA removed.
+                        pieces = [("say", re.sub(r"\s+", " ", "".join(piece for _, piece in pieces)).strip())]
+                    for kind, piece in pieces:
                         if kind == "say":
                             data, seconds = await speak(piece, voice)
                         else:

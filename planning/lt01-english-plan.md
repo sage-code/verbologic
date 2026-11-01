@@ -32,7 +32,10 @@ Net for English: T01 74 → 26; T02 24 → about 24 + 8 moved + about 8 new; T04
 
 ## Tasks (one per trigger)
 
-**Task 0. Generator for T03 to T06 in 9 locales.** Add `--locales a,b|all`, strict `(word) /ipa/` closed list, rejection loop, check script. Preview three locales only. *Review: preview.*
+**Task 0. Generator and audio for T03 to T06 in 9 locales. DONE 2026-11-01 (code only, no content written).**
+- Generator: `--locales a,b|all`, glosses per locale (stage 1), native page per locale (stage 2), strict `(word) /ipa/` closed list, rejection loop, `--check`. Preview three locales only.
+- **Audio rule, same language = one voice.** When the reader's locale equals the item's `target` (en reader of an English item, ro reader of a Romanian item), the page is read start to finish in that one voice: no switch to a "native" voice for the `(word)` examples. The brackets and the IPA are dropped from the spoken text (IPA is still shown on screen and never read) and the page goes through the plain single-voice path of `generate-audio.py` (`mixed_target` returns None when `locale == target`). Voice switching stays only for a reader of another language. Applies to the English-target pages in `en` and, retroactively, to the ro pages in `ro` and the alphabet pages (re-read audio of those items is rebuilt once).
+- *Review: preview text in three locales, and one same-language MP3 against one cross-language MP3.*
 
 **Task 1. T01 cleanup.** Delete L579 to L595, L597 to L602 (articles, `media/lectures` manifests, sidebar items); add the missing example words to the letter pages if the sound is not covered; replace the 26 letter summaries with real ones. Move the T02/T04 candidates untouched into a staging list (`planning/`), nothing deleted that is still needed. `media index`, `validate`, `articles check`, build. *Review: T01 shows exactly 26 English letters.*
 
@@ -56,6 +59,7 @@ Preview sample → `--apply` → checks → audio for changed items only → `me
 
 ## Notes
 
+- Audio: same-language pages are read in one voice (Task 0); only a reader of another language hears the voice switch for the examples.
 - Accent: General American (as T02). Hungarian/Russian audio may need `ttsText` retries. The generator rejects about 20% of first drafts.
 - Dev server on :3123 locks `content/`: ask before I restart anything. Your uncommitted `generate-audio.py`, L012 and W1096 edits are left alone.
 - Order: Task 1 and 2 first because later topics reference the final T02 groups; 3 is the big batch and can run in parallel with writing seeds for 4 to 7.
