@@ -57,10 +57,10 @@ export function useLocale() {
     }
     let locale: LocaleDict
     try {
-      locale = await $fetch<LocaleDict>(`/data/locales/${code}.json`)
+      locale = await $fetch<LocaleDict>(`/data/locales/${code}.json`, { cache: 'no-cache' })
     } catch {
       // Unlisted generic chrome (e.g. missing file) falls back to English.
-      locale = cache.get('en') ?? (await $fetch<LocaleDict>('/data/locales/en.json'))
+      locale = cache.get('en') ?? (await $fetch<LocaleDict>('/data/locales/en.json', { cache: 'no-cache' }))
     }
     cache.set(code, locale)
     dict.value = locale

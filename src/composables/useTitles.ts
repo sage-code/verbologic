@@ -22,7 +22,7 @@ const requested = new Set<string>()
 function request(section: string) {
   if (requested.has(section)) return
   requested.add(section)
-  $fetch<MediaTitles>(`/data/media/${section}/titles.json`)
+  $fetch<MediaTitles>(`/data/media/${section}/titles.json`, { cache: 'no-cache' })
     .then((data) => {
       bySection.value = { ...bySection.value, [section]: localizeMediaTitles(data) }
     })

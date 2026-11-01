@@ -47,7 +47,7 @@ export function useMedia() {
 
   /** One-fetch runtime index: counts[section][topic][lang] + progress {entity_id: topic}. */
   const fetchIndex = () =>
-    cached(indexCache, 'index', () => $fetch<MediaIndex>('/data/media/index.json'))
+    cached(indexCache, 'index', () => $fetch<MediaIndex>('/data/media/index.json', { cache: 'no-cache' }))
 
   /**
    * Records for one sidebar section + topic, in one language.
@@ -62,7 +62,7 @@ export function useMedia() {
       // (`reads`, `readSections`). Load it once per topic so DB-built rows can
       // borrow them — the article page needs them to pick the panel's
       // recording and to seek to the current page.
-      const bundled = await $fetch<MediaRecords>(`/data/media/${section}/${topic}.json`)
+      const bundled = await $fetch<MediaRecords>(`/data/media/${section}/${topic}.json`, { cache: 'no-cache' })
         .then(localizeMediaRecords)
         .catch(() => [] as MediaRecords)
       rememberReadFacts(bundled)
@@ -90,7 +90,7 @@ export function useMedia() {
       if (rows) return rows
     }
     const bundled = await cached(searchCache, section, () =>
-      $fetch<MediaSearchIndex>(`/data/media/${section}/search.json`).then(localizeMediaSearch)
+      $fetch<MediaSearchIndex>(`/data/media/${section}/search.json`, { cache: 'no-cache' }).then(localizeMediaSearch)
     )
     return locale ? bundled.records.filter((r) => r.lang === locale) : bundled.records
   }
