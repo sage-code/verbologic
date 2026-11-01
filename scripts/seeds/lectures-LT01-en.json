@@ -663,7 +663,810 @@
         }
       }
     ],
-    "LT01T04": [],
+    "LT01T04": [
+      {
+        "id": "L735",
+        "title": "Silent letters at the start",
+        "focus": "at the start of some words the first letter is silent: k before n, w before r, g before n",
+        "example": "knife",
+        "ipa": "/naɪf/",
+        "gloss": "a tool for cutting",
+        "extra": [
+          {
+            "word": "write",
+            "ipa": "/raɪt/",
+            "gloss": "to put words on paper"
+          },
+          {
+            "word": "gnome",
+            "ipa": "/noʊm/",
+            "gloss": "a small garden figure with a pointed hat"
+          }
+        ],
+        "glosses": {
+          "knife": {
+            "en": "tool for cutting",
+            "es": "utensilio para cortar",
+            "it": "utensile per tagliare",
+            "fr": "outil pour couper",
+            "de": "werkzeug zum schneiden",
+            "ru": "инструмент для резки",
+            "hu": "vágóeszköz",
+            "pt": "utensílio para cortar",
+            "ro": "unealtă pentru tăiat"
+          },
+          "write": {
+            "en": "put words on paper",
+            "es": "escribir palabras en papel",
+            "it": "scrivere parole su carta",
+            "fr": "écrire des mots sur papier",
+            "de": "wörter auf papier bringen",
+            "ru": "писать слова на бумаге",
+            "hu": "szavakat papírra vetni",
+            "pt": "escrever palavras no papel",
+            "ro": "a scrie cuvinte pe hârtie"
+          },
+          "gnome": {
+            "en": "small garden figure",
+            "es": "pequeña figura de jardín",
+            "it": "piccola statuetta da giardino",
+            "fr": "petite figurine de jardin",
+            "de": "kleine gartenfigur",
+            "ru": "маленькая садовая фигурка",
+            "hu": "kicsi kerti figura",
+            "pt": "pequena figura de jardim",
+            "ro": "mică figurină de grădină"
+          }
+        }
+      },
+      {
+        "id": "L736",
+        "title": "Silent b",
+        "focus": "the letter b is silent after m at the end of a word and before t in a few words",
+        "example": "lamb",
+        "ipa": "/læm/",
+        "gloss": "a young sheep",
+        "extra": [
+          {
+            "word": "climb",
+            "ipa": "/klaɪm/",
+            "gloss": "to go up"
+          },
+          {
+            "word": "debt",
+            "ipa": "/dɛt/",
+            "gloss": "money that you owe"
+          }
+        ],
+        "glosses": {
+          "lamb": {
+            "en": "young sheep",
+            "es": "oveja joven",
+            "it": "pecora giovane",
+            "fr": "jeune mouton",
+            "de": "junges Schaf",
+            "ru": "молодой ягненок",
+            "hu": "fiatal bárány",
+            "pt": "ovelha jovem",
+            "ro": "miel tânăr"
+          },
+          "climb": {
+            "en": "to go up",
+            "es": "subir hacia arriba",
+            "it": "andare verso l'alto",
+            "fr": "monter vers le haut",
+            "de": "nach oben gehen",
+            "ru": "подниматься вверх",
+            "hu": "felfelé menni",
+            "pt": "subir para cima",
+            "ro": "a urca în sus"
+          },
+          "debt": {
+            "en": "money that you owe",
+            "es": "dinero que se debe",
+            "it": "denaro dovuto",
+            "fr": "argent que l'on doit",
+            "de": "geschuldetes Geld",
+            "ru": "деньги которые должен",
+            "hu": "tartozás összege",
+            "pt": "dinheiro que se deve",
+            "ro": "bani datorați"
+          }
+        }
+      },
+      {
+        "id": "L737",
+        "title": "Silent l",
+        "focus": "the letter l is often silent between a vowel and k, f or m, as in walk, half and calm",
+        "example": "walk",
+        "ipa": "/wɔk/",
+        "gloss": "to move on foot",
+        "extra": [
+          {
+            "word": "half",
+            "ipa": "/hæf/",
+            "gloss": "one of two equal parts"
+          },
+          {
+            "word": "talk",
+            "ipa": "/tɔk/",
+            "gloss": "to speak"
+          }
+        ],
+        "glosses": {
+          "walk": {
+            "en": "move on foot",
+            "es": "desplazarse a pie",
+            "it": "muoversi a piedi",
+            "fr": "se déplacer à pied",
+            "de": "zu Fuß gehen",
+            "ru": "передвигаться пешком",
+            "hu": "gyalog közlekedik",
+            "pt": "deslocar-se a pé",
+            "ro": "a merge pe jos"
+          },
+          "half": {
+            "en": "one of two equal parts",
+            "es": "una de dos partes iguales",
+            "it": "una di due parti uguali",
+            "fr": "une des deux parties égales",
+            "de": "eine von zwei gleichen Teilen",
+            "ru": "одна из двух равных частей",
+            "hu": "két egyenlő rész egyike",
+            "pt": "uma de duas partes iguais",
+            "ro": "una din două părți egale"
+          },
+          "talk": {
+            "en": "to speak",
+            "es": "decir palabras",
+            "it": "dire parole",
+            "fr": "prononcer des paroles",
+            "de": "Worte aussprechen",
+            "ru": "произносить слова",
+            "hu": "szavakat mond",
+            "pt": "dizer palavras",
+            "ro": "a rosti cuvinte"
+          }
+        }
+      },
+      {
+        "id": "L738",
+        "title": "Silent t",
+        "focus": "the letter t is silent in some words, especially between s and l or n, and in often",
+        "example": "listen",
+        "ipa": "/ˈlɪ.sən/",
+        "gloss": "to pay attention to a sound",
+        "extra": [
+          {
+            "word": "castle",
+            "ipa": "/ˈkæ.səl/",
+            "gloss": "a large old stone building"
+          },
+          {
+            "word": "often",
+            "ipa": "/ˈɔ.fən/",
+            "gloss": "many times"
+          }
+        ],
+        "glosses": {
+          "listen": {
+            "en": "pay attention to sound",
+            "es": "prestar atención al sonido",
+            "it": "prestare attenzione al suono",
+            "fr": "prêter attention au son",
+            "de": "auf einen Klang achten",
+            "ru": "внимательно слушать звук",
+            "hu": "figyelni egy hangra",
+            "pt": "prestar atenção ao som",
+            "ro": "a fi atent la sunet"
+          },
+          "castle": {
+            "en": "large old stone building",
+            "es": "gran edificio de piedra",
+            "it": "grande edificio in pietra",
+            "fr": "grand bâtiment en pierre",
+            "de": "großes altes Steingebäude",
+            "ru": "большое старинное каменное здание",
+            "hu": "nagy régi kőépület",
+            "pt": "grande edifício de pedra",
+            "ro": "clădire veche din piatră"
+          },
+          "often": {
+            "en": "many times",
+            "es": "muchas veces",
+            "it": "molte volte",
+            "fr": "plusieurs fois",
+            "de": "viele Male",
+            "ru": "много раз",
+            "hu": "sokszor",
+            "pt": "muitas vezes",
+            "ro": "de multe ori"
+          }
+        }
+      },
+      {
+        "id": "L739",
+        "title": "Silent gh",
+        "focus": "the letters gh are silent in many words, such as night, light and daughter",
+        "example": "daughter",
+        "ipa": "/ˈdɔ.tɚ/",
+        "gloss": "your girl child",
+        "extra": [
+          {
+            "word": "night",
+            "ipa": "/naɪt/",
+            "gloss": "the dark part of the day"
+          },
+          {
+            "word": "light",
+            "ipa": "/laɪt/",
+            "gloss": "what lets you see"
+          }
+        ],
+        "glosses": {
+          "daughter": {
+            "en": "female offspring",
+            "es": "hija mujer",
+            "it": "figlia femmina",
+            "fr": "enfant de sexe féminin",
+            "de": "weibliches kind",
+            "ru": "женский ребенок",
+            "hu": "nőnemű gyermek",
+            "pt": "filha mulher",
+            "ro": "copil de sex feminin"
+          },
+          "night": {
+            "en": "time of darkness",
+            "es": "parte oscura del día",
+            "it": "parte buia del giorno",
+            "fr": "partie sombre du jour",
+            "de": "dunkler teil des tages",
+            "ru": "темная часть суток",
+            "hu": "a nap sötét része",
+            "pt": "parte escura do dia",
+            "ro": "partea întunecată a zilei"
+          },
+          "light": {
+            "en": "illumination for vision",
+            "es": "lo que permite ver",
+            "it": "ciò che permette vedere",
+            "fr": "ce qui permet de voir",
+            "de": "was das sehen ermöglicht",
+            "ru": "то что позволяет видеть",
+            "hu": "ami lehetővé teszi a látást",
+            "pt": "o que permite ver",
+            "ro": "ceea ce permite vederea"
+          }
+        }
+      },
+      {
+        "id": "L740",
+        "title": "Silent s",
+        "focus": "the letter s is silent in a few words, such as island and aisle",
+        "example": "island",
+        "ipa": "/ˈaɪ.lənd/",
+        "gloss": "land with water all around it",
+        "extra": [
+          {
+            "word": "aisle",
+            "ipa": "/aɪl/",
+            "gloss": "a path between rows of seats"
+          }
+        ],
+        "glosses": {
+          "island": {
+            "en": "land surrounded by water",
+            "es": "tierra rodeada de agua",
+            "it": "terra circondata dall'acqua",
+            "fr": "terre entourée d'eau",
+            "de": "von wasser umgebenes land",
+            "ru": "суша окруженная водой",
+            "hu": "vízzel körülvett szárazföld",
+            "pt": "terra cercada por água",
+            "ro": "pământ înconjurat de apă"
+          },
+          "aisle": {
+            "en": "passage between seating rows",
+            "es": "pasillo entre los asientos",
+            "it": "passaggio tra le file",
+            "fr": "passage entre les rangées",
+            "de": "gang zwischen den sitzreihen",
+            "ru": "проход между рядами кресел",
+            "hu": "üléssorok közötti folyosó",
+            "pt": "corredor entre as fileiras",
+            "ro": "culoar între rândurile de scaune"
+          }
+        }
+      },
+      {
+        "id": "L741",
+        "title": "The silent e that makes a vowel long",
+        "focus": "a silent e at the end of a word usually makes the vowel before it long: kit becomes kite",
+        "example": "kite",
+        "ipa": "/kaɪt/",
+        "gloss": "a toy that flies in the wind",
+        "extra": [
+          {
+            "word": "kit",
+            "ipa": "/kɪt/",
+            "gloss": "a set of tools or things"
+          },
+          {
+            "word": "hope",
+            "ipa": "/hoʊp/",
+            "gloss": "to wish for something"
+          },
+          {
+            "word": "hop",
+            "ipa": "/hɑp/",
+            "gloss": "to jump on one foot"
+          }
+        ],
+        "glosses": {
+          "kite": {
+            "en": "toy flown in wind",
+            "es": "juguete que vuela",
+            "it": "aquilone che vola",
+            "fr": "jouet volant au vent",
+            "de": "spielzeug im wind",
+            "ru": "летающая игрушка",
+            "hu": "szélben repülő játék",
+            "pt": "brinquedo que voa",
+            "ro": "jucărie ce zboară"
+          },
+          "kit": {
+            "en": "set of equipment",
+            "es": "conjunto de herramientas",
+            "it": "insieme di attrezzi",
+            "fr": "ensemble d outils",
+            "de": "satz von werkzeugen",
+            "ru": "набор инструментов",
+            "hu": "felszerelés készlet",
+            "pt": "conjunto de ferramentas",
+            "ro": "set de unelte"
+          },
+          "hope": {
+            "en": "desire for outcome",
+            "es": "deseo de algo",
+            "it": "desiderio di qualcosa",
+            "fr": "désir d un résultat",
+            "de": "wunsch nach etwas",
+            "ru": "желание чего либо",
+            "hu": "valami iránti vágy",
+            "pt": "desejo de algo",
+            "ro": "dorința pentru ceva"
+          },
+          "hop": {
+            "en": "jump on one foot",
+            "es": "saltar en un pie",
+            "it": "saltare su un piede",
+            "fr": "sauter sur un pied",
+            "de": "auf einem bein springen",
+            "ru": "прыжок на одной ноге",
+            "hu": "ugrás egy lábon",
+            "pt": "pular em um pé",
+            "ro": "a sări într un picior"
+          }
+        }
+      },
+      {
+        "id": "L742",
+        "title": "Double consonants keep the vowel short",
+        "focus": "when a word gets an ending that starts with a vowel, a doubled consonant shows that the vowel before it is short: hopping, but hoping; the doubled consonant is said once, not twice, and it is not held longer",
+        "example": "hopping",
+        "ipa": "/ˈhɑ.pɪŋ/",
+        "gloss": "jumping on one foot",
+        "extra": [
+          {
+            "word": "hoping",
+            "ipa": "/ˈhoʊ.pɪŋ/",
+            "gloss": "wishing for something"
+          },
+          {
+            "word": "bigger",
+            "ipa": "/ˈbɪ.ɡɚ/",
+            "gloss": "larger"
+          }
+        ],
+        "glosses": {
+          "hopping": {
+            "en": "jumping on one foot",
+            "es": "saltar a la pata coja",
+            "it": "saltellare su un piede",
+            "fr": "sautiller sur un pied",
+            "de": "auf einem Bein hüpfen",
+            "ru": "прыжки на одной ноге",
+            "hu": "egy lábon ugrálás",
+            "pt": "saltar num pé só",
+            "ro": "sărituri într-un picior"
+          },
+          "hoping": {
+            "en": "wishing for something",
+            "es": "desear algo",
+            "it": "sperare in qualcosa",
+            "fr": "espérer quelque chose",
+            "de": "auf etwas hoffen",
+            "ru": "надеяться на что-то",
+            "hu": "reménykedni valamiben",
+            "pt": "esperar por algo",
+            "ro": "a spera la ceva"
+          },
+          "bigger": {
+            "en": "larger",
+            "es": "más grande",
+            "it": "più grande",
+            "fr": "plus grand",
+            "de": "größer",
+            "ru": "больший по размеру",
+            "hu": "nagyobb",
+            "pt": "maior",
+            "ro": "mai mare"
+          }
+        }
+      },
+      {
+        "id": "L743",
+        "title": "The ending -ed has three sounds",
+        "focus": "the past ending -ed is said t after a voiceless sound, d after a voiced sound, and as a short extra syllable after t or d",
+        "example": "walked",
+        "ipa": "/wɔkt/",
+        "gloss": "went on foot",
+        "extra": [
+          {
+            "word": "played",
+            "ipa": "/pleɪd/",
+            "gloss": "had fun with a game"
+          },
+          {
+            "word": "wanted",
+            "ipa": "/ˈwɑn.tɪd/",
+            "gloss": "felt that you would like something"
+          }
+        ],
+        "glosses": {
+          "walked": {
+            "en": "moved on foot",
+            "es": "caminó a pie",
+            "it": "camminò a piedi",
+            "fr": "marcha à pied",
+            "de": "ging zu Fuß",
+            "ru": "шел пешком",
+            "hu": "gyalog ment",
+            "pt": "andou a pé",
+            "ro": "a mers pe jos"
+          },
+          "played": {
+            "en": "engaged in a game",
+            "es": "jugó un juego",
+            "it": "giocò a un gioco",
+            "fr": "joua à un jeu",
+            "de": "spielte ein Spiel",
+            "ru": "играл в игру",
+            "hu": "játszott egy játékot",
+            "pt": "brincou ou jogou",
+            "ro": "s-a jucat"
+          },
+          "wanted": {
+            "en": "desired something",
+            "es": "deseó algo",
+            "it": "desiderò qualcosa",
+            "fr": "voulut quelque chose",
+            "de": "wollte etwas haben",
+            "ru": "хотел чего-то",
+            "hu": "akart valamit",
+            "pt": "quis algo",
+            "ro": "a dorit ceva"
+          }
+        }
+      },
+      {
+        "id": "L744",
+        "title": "The ending -s has three sounds",
+        "focus": "the ending -s depends on the last SOUND of the word, not the last letter: it is said s after a voiceless sound, z after a voiced sound, and as a short extra syllable after s, z, sh or ch sounds",
+        "example": "cats",
+        "ipa": "/kæts/",
+        "gloss": "small furry pets",
+        "extra": [
+          {
+            "word": "dogs",
+            "ipa": "/dɔɡz/",
+            "gloss": "pets that bark"
+          },
+          {
+            "word": "buses",
+            "ipa": "/ˈbʌ.sɪz/",
+            "gloss": "big vehicles for many people"
+          }
+        ],
+        "glosses": {
+          "cats": {
+            "en": "small furry pets",
+            "es": "pequeños felinos domésticos",
+            "it": "piccoli felini domestici",
+            "fr": "petits félins domestiques",
+            "de": "kleine pelzige Haustiere",
+            "ru": "маленькие пушистые питомцы",
+            "hu": "kicsi szőrös háziállatok",
+            "pt": "pequenos felinos domésticos",
+            "ro": "animale mici și blănoase"
+          },
+          "dogs": {
+            "en": "pets that bark",
+            "es": "mascotas que ladran",
+            "it": "animali domestici che abbaiano",
+            "fr": "animaux qui aboient",
+            "de": "bellende Haustiere",
+            "ru": "лающие домашние животные",
+            "hu": "ugató háziállatok",
+            "pt": "animais de estimação que ladram",
+            "ro": "animale care latră"
+          },
+          "buses": {
+            "en": "big vehicles for many people",
+            "es": "vehículos grandes para pasajeros",
+            "it": "grandi veicoli per passeggeri",
+            "fr": "grands véhicules pour passagers",
+            "de": "große Fahrzeuge für Fahrgäste",
+            "ru": "большой транспорт для пассажиров",
+            "hu": "nagy járművek sok utasnak",
+            "pt": "veículos grandes para passageiros",
+            "ro": "vehicule mari pentru pasageri"
+          }
+        }
+      },
+      {
+        "id": "L745",
+        "title": "Soft and hard c",
+        "focus": "the letter c is usually said s before e, i or y and k before other letters",
+        "example": "city",
+        "ipa": "/ˈsɪ.ti/",
+        "gloss": "a large town",
+        "extra": [
+          {
+            "word": "cent",
+            "ipa": "/sɛnt/",
+            "gloss": "a very small coin"
+          },
+          {
+            "word": "cat",
+            "ipa": "/kæt/",
+            "gloss": "a small furry pet"
+          },
+          {
+            "word": "cup",
+            "ipa": "/kʌp/",
+            "gloss": "a small container for a drink"
+          }
+        ],
+        "glosses": {
+          "city": {
+            "en": "a large town",
+            "es": "una gran población",
+            "it": "un grande centro abitato",
+            "fr": "une grande agglomération",
+            "de": "eine große stadt",
+            "ru": "крупный населенный пункт",
+            "hu": "egy nagy település",
+            "pt": "uma grande povoação",
+            "ro": "un oraș mare"
+          },
+          "cent": {
+            "en": "a very small coin",
+            "es": "una moneda muy pequeña",
+            "it": "una moneta molto piccola",
+            "fr": "une toute petite pièce",
+            "de": "eine sehr kleine münze",
+            "ru": "очень мелкая монета",
+            "hu": "egy nagyon kicsi érme",
+            "pt": "uma moeda muito pequena",
+            "ro": "o monedă foarte mică"
+          },
+          "cat": {
+            "en": "a small furry pet",
+            "es": "una mascota peluda pequeña",
+            "it": "un piccolo animale domestico peloso",
+            "fr": "un petit animal domestique poilu",
+            "de": "ein kleines felliges haustier",
+            "ru": "маленький пушистый питомец",
+            "hu": "egy kicsi szőrös háziállat",
+            "pt": "um pequeno animal de estimação peludo",
+            "ro": "un mic animal de companie blănos"
+          },
+          "cup": {
+            "en": "a small container for a drink",
+            "es": "un recipiente para beber",
+            "it": "un piccolo contenitore per bevande",
+            "fr": "un petit récipient pour boire",
+            "de": "ein kleines gefäß für getränke",
+            "ru": "небольшая емкость для питья",
+            "hu": "egy kis edény italhoz",
+            "pt": "um pequeno recipiente para beber",
+            "ro": "un mic recipient pentru băut"
+          }
+        }
+      },
+      {
+        "id": "L746",
+        "title": "Soft and hard g",
+        "focus": "the letter g is often said like j before e, i or y and hard before other letters, but there are many exceptions",
+        "example": "gym",
+        "ipa": "/dʒɪm/",
+        "gloss": "a place to exercise",
+        "extra": [
+          {
+            "word": "gift",
+            "ipa": "/ɡɪft/",
+            "gloss": "a present"
+          },
+          {
+            "word": "giraffe",
+            "ipa": "/dʒəˈræf/",
+            "gloss": "a tall animal with a long neck"
+          },
+          {
+            "word": "game",
+            "ipa": "/ɡeɪm/",
+            "gloss": "something you play"
+          }
+        ],
+        "glosses": {
+          "gym": {
+            "en": "place for physical exercise",
+            "es": "lugar para hacer ejercicio",
+            "it": "luogo per fare ginnastica",
+            "fr": "lieu pour faire du sport",
+            "de": "ort für körperliche übungen",
+            "ru": "место для занятий спортом",
+            "hu": "hely a testmozgáshoz",
+            "pt": "local para fazer exercícios",
+            "ro": "loc pentru exerciții fizice"
+          },
+          "gift": {
+            "en": "something given voluntarily",
+            "es": "un presente",
+            "it": "un dono",
+            "fr": "un cadeau",
+            "de": "ein geschenk",
+            "ru": "подарок",
+            "hu": "ajándék",
+            "pt": "um presente",
+            "ro": "un cadou"
+          },
+          "giraffe": {
+            "en": "tall long necked animal",
+            "es": "animal alto de cuello largo",
+            "it": "animale alto dal collo lungo",
+            "fr": "animal haut au long cou",
+            "de": "hohes tier mit langem hals",
+            "ru": "высокое животное с длинной шеей",
+            "hu": "magas hosszú nyakú állat",
+            "pt": "animal alto de pescoço comprido",
+            "ro": "animal înalt cu gât lung"
+          },
+          "game": {
+            "en": "activity for amusement",
+            "es": "actividad de entretenimiento",
+            "it": "attività di intrattenimento",
+            "fr": "activité pour se divertir",
+            "de": "beschäftigung zur unterhaltung",
+            "ru": "занятие для развлечения",
+            "hu": "szórakoztató tevékenység",
+            "pt": "atividade de entretenimento",
+            "ro": "activitate de divertisment"
+          }
+        }
+      },
+      {
+        "id": "L747",
+        "title": "The t between vowels",
+        "focus": "in American English a t between two vowel sounds is said as a quick tap of the tongue, like a soft d",
+        "example": "butter",
+        "ipa": "/ˈbʌ.ɾɚ/",
+        "gloss": "a soft yellow food made from milk",
+        "extra": [
+          {
+            "word": "water",
+            "ipa": "/ˈwɑ.ɾɚ/",
+            "gloss": "the clear liquid you drink"
+          },
+          {
+            "word": "better",
+            "ipa": "/ˈbɛ.ɾɚ/",
+            "gloss": "of higher quality"
+          }
+        ],
+        "glosses": {
+          "butter": {
+            "en": "dairy product for spreading",
+            "es": "producto lácteo para untar",
+            "it": "prodotto lattiero da spalmare",
+            "fr": "produit laitier à tartiner",
+            "de": "streichfähiges Milchprodukt",
+            "ru": "молочный продукт для намазывания",
+            "hu": "kenhető tejtermék",
+            "pt": "produto lácteo para passar",
+            "ro": "produs lactat pentru întins"
+          },
+          "water": {
+            "en": "clear drinkable liquid",
+            "es": "líquido transparente potable",
+            "it": "liquido trasparente potabile",
+            "fr": "liquide transparent potable",
+            "de": "klare trinkbare Flüssigkeit",
+            "ru": "прозрачная питьевая жидкость",
+            "hu": "tiszta iható folyadék",
+            "pt": "líquido transparente potável",
+            "ro": "lichid transparent potabil"
+          },
+          "better": {
+            "en": "of superior quality",
+            "es": "de calidad superior",
+            "it": "di qualità superiore",
+            "fr": "de qualité supérieure",
+            "de": "von besserer Qualität",
+            "ru": "более высокого качества",
+            "hu": "jobb minőségű",
+            "pt": "de qualidade superior",
+            "ro": "de calitate superioară"
+          }
+        }
+      },
+      {
+        "id": "L748",
+        "title": "Same sound, different spelling",
+        "focus": "some words are said the same but spelled differently, so the spelling is what tells them apart",
+        "example": "two",
+        "ipa": "/tu/",
+        "gloss": "the number after one",
+        "extra": [
+          {
+            "word": "to",
+            "ipa": "/tu/",
+            "gloss": "the word that shows a direction"
+          },
+          {
+            "word": "too",
+            "ipa": "/tu/",
+            "gloss": "also"
+          }
+        ],
+        "glosses": {
+          "two": {
+            "en": "the number after one",
+            "es": "el número después del uno",
+            "it": "il numero dopo uno",
+            "fr": "le nombre après un",
+            "de": "die zahl nach eins",
+            "ru": "число после единицы",
+            "hu": "az egyes utáni szám",
+            "pt": "o número depois de um",
+            "ro": "numărul de după unu"
+          },
+          "to": {
+            "en": "indicating a direction",
+            "es": "indicando una dirección",
+            "it": "indicante una direzione",
+            "fr": "indiquant une direction",
+            "de": "eine richtung angebend",
+            "ru": "указывающий направление",
+            "hu": "irányt jelölő szó",
+            "pt": "indicando uma direção",
+            "ro": "indicând o direcție"
+          },
+          "too": {
+            "en": "in addition",
+            "es": "además",
+            "it": "inoltre",
+            "fr": "en outre",
+            "de": "außerdem",
+            "ru": "также",
+            "hu": "szintén",
+            "pt": "também",
+            "ro": "de asemenea"
+          }
+        }
+      }
+    ],
     "LT01T05": [],
     "LT01T06": []
   }
