@@ -736,7 +736,8 @@ def diacritic_problems(tag: str, locale: str, text: str) -> list[str]:
     letters = ACCENTED.get(locale)
     if letters and len(text) > 250 and locale != "it" and not any(c in text for c in letters):
         problems.append(f"{tag} has no accented letters at all; write the full diacritics of the language (rule R9c)")
-    if locale == "fr" and re.search(r"\b[ldjnsmtc] [aeiouyhéèê]", text):
+    # Lost apostrophes drop ALL of them; a letter named in the prose ("devant n ou m") is not a contraction.
+    if locale == "fr" and "'" not in text and "’" not in text and re.search(r"\b[ldjnsmtc] [aeiouyhéèê]", text):
         problems.append(f"{tag} writes French without apostrophes (\"s articule\"); write l'air, s'articule (rule R9c)")
     return problems
 
