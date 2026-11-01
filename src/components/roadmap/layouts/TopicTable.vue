@@ -451,8 +451,9 @@ onBeforeUnmount(() => {
                 @click.stop
               >
                 <span class="text-base leading-none" aria-hidden="true">📃</span>
-                <!-- Diagonal strike: "no article" reads at a glance in both themes -->
-                <span class="absolute h-0.5 w-6 rotate-45 rounded-full bg-muted" aria-hidden="true" />
+                <!-- Red X (two crossing lines): "no article" reads at a glance in both themes -->
+                <span class="absolute h-0.5 w-6 rotate-45 rounded-full bg-red-600" aria-hidden="true" />
+                <span class="absolute h-0.5 w-6 -rotate-45 rounded-full bg-red-600" aria-hidden="true" />
               </button>
             </td>
             <td class="w-14 px-1 py-2 text-center">
