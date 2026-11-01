@@ -5,6 +5,7 @@
  *   node scripts/audit-sound.mjs --chapter LT01            # table + problems, exit 1 on a problem
  *   node scripts/audit-sound.mjs --chapter LT01 --list     # also list every problem
  *   node scripts/audit-sound.mjs --chapter LT01 --baseline # stamp the text hash on UNVERIFIED clips
+ *   node scripts/audit-sound.mjs --chapter LT01 --upgrade-read # re-stamp read clips recorded under the current scheme
  *
  * A title or item clip says `ttsText` when the manifest has one, else `name` (same rule as
  * generate-audio.py). A read clip says the article page of its language. generate-audio.py records
@@ -20,8 +21,8 @@
  * (scripts/verify-clip-text.py) showed the unverified clips say what their names say.
  */
 import { createHash } from 'node:crypto'
-import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
-import { join } from 'node:path'
+import { existsSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs'
+import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { LOCALES } from './lib/locales.mjs'
 
@@ -40,6 +41,9 @@ if (!chapter) {
 }
 
 const sha1 = (text) => createHash('sha1').update(text).digest('hex')
+const scheme = JSON.parse(readFileSync(join(ROOT, 'scripts/lib/sound-scheme.json'), 'utf8'))
+const readSince = new Date(scheme.readSince).getTime()
+const upgradeRead = process.argv.includes('--upgrade-read')
 const base = join(ROOT, 'media', track, chapter.slice(0, 4))
 const dirs = (path) => readdirSync(path, { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => e.name)
 
@@ -111,11 +115,17 @@ for (const entry of manifests) {
       for (const [locale, page] of Object.entries(pages)) {
         const body = page.sections?.length ? page.sections : page.paragraphs
         if (!body) continue
-        judge(entry, 'read', locale, sha1(JSON.stringify(body)), manifest)
+        const legacy = sha1(JSON.stringify(body))
+        const facts = manifest.files?.[`read/${locale}.mp3`]
+        const clip = join(dirname(entry.file), 'read', `${locale}.mp3`)
+        // --upgrade-read: a clip recorded after the current scheme began, whose text is the pre-scheme hash of this
+        // page, is the same recording under the new hash.
+        if (upgradeRead && facts?.text === legacy && existsSync(clip) && statSync(clip).mtimeMs >= readSince) facts.text = sha1(`${JSON.stringify(body)}#read-v${scheme.read}`)
+        judge(entry, 'read', locale, sha1(`${JSON.stringify(body)}#read-v${scheme.read}`), manifest)
       }
     }
   }
-  if (baseline && JSON.stringify(manifest) !== before) writeFileSync(entry.file, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8')
+  if ((baseline || upgradeRead) && JSON.stringify(manifest) !== before) writeFileSync(entry.file, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8')
 }
 
 console.log(`Sound audit ${chapter} (${track}): topic | clips | ok | copy | stale | unverified | missing`)

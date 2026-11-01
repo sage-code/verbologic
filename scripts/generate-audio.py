@@ -874,7 +874,10 @@ def page_hash(item: dict[str, Any], locale: str) -> str | None:
     if not doc:
         return None
     body = doc.get("sections") or doc.get("paragraphs") or []
-    return hashlib.sha1(json.dumps(body, ensure_ascii=False, separators=(",", ":")).encode("utf-8")).hexdigest()
+    scheme = json.loads((ROOT / "scripts" / "lib" / "sound-scheme.json").read_text(encoding="utf-8"))["read"]
+    # The reading scheme is part of the hash: changing the reading rules makes every read clip stale.
+    text = json.dumps(body, ensure_ascii=False, separators=(",", ":")) + f"#read-v{scheme}"
+    return hashlib.sha1(text.encode("utf-8")).hexdigest()
 
 
 def article_body(track: str, topic: str, code: str, locale: str) -> str | None:

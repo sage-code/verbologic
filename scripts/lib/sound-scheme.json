@@ -1,0 +1,5 @@
+{
+  "read": 2,
+  "readSince": "2026-10-30T18:08:34-04:00",
+  "note": "Version of the rules a read clip is recorded with (voice switch for (word), IPA never read, one voice when reader and taught language match). It is part of each read clip's recorded text hash: bump it when those rules change and every read clip is stale until re-recorded. readSince is when the current scheme began (git 441b52a8); clips older than that are old-scheme."
+}
