@@ -11,7 +11,7 @@
 //   translation, picked with Show) and the picture, which is always square.
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue'
-import { ClockIcon, FilmIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+import { ChevronLeftIcon, ChevronRightIcon, ClockIcon, FilmIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 import { StopIcon } from '@heroicons/vue/24/solid'
 import { type TrackId } from '~/data/tracks'
 import ArticleText from '~/components/ArticleText.vue'
@@ -113,6 +113,19 @@ async function loadArticle() {
   const row = error || !data ? false : ({ ...data, languages: Object.keys(data.locales) } as ArticleRow)
   rowCache.set(id, row)
   articleRow.value = row
+}
+
+/** The topic's items for the language being learned, in sidebar order: Previous and Next walk this list. */
+const siblingIds = ref<string[]>([])
+const siblingAt = computed(() => siblingIds.value.indexOf(articleId.value))
+const previousId = computed(() => (siblingAt.value > 0 ? siblingIds.value[siblingAt.value - 1] : null))
+const nextId = computed(() =>
+  siblingAt.value >= 0 && siblingAt.value < siblingIds.value.length - 1 ? siblingIds.value[siblingAt.value + 1] : null
+)
+/** Same page, same reader and learned language, another item of the topic. */
+function goToItem(id: string | null) {
+  if (!id) return
+  void navigateTo({ path: route.path, query: { ...route.query, id: `${topicCode.value}:${id}` } })
 }
 
 const record = ref<MediaRecord | null>(null)
@@ -453,6 +466,7 @@ onMounted(async () => {
   try {
     const list = await media.fetchTopic(`library/${track.value}`, topicCode.value)
     const targetRows = list.filter((r: MediaRecord) => r.lang === trackLang.value)
+    siblingIds.value = [...new Set(targetRows.map((r: MediaRecord) => r.id))]
     const article = targetRows.find((r: MediaRecord) => r.id === articleId.value) ?? null
     record.value = article
     // The translation panel reads its own language's recording.
@@ -695,17 +709,42 @@ useSeoMeta({
               </div>
               <div v-else class="mb-3 flex shrink-0 items-center justify-between gap-2 border-b border-edge pb-2">
                 <h2 class="text-xs font-semibold uppercase tracking-wide text-accent">
-                  {{ storyTargetName }} · {{ copy('lecture.explanation', 'Explanation') }}
+                  {{ articleId }} - {{ storyTargetName }} {{ copy('lecture.explanation', 'Explanation') }}
                 </h2>
-                <ArticleReadPlayer
-                  ref="targetPlayer"
-                  :src="storyTargetRead"
-                  :label="storyTargetName"
-                  :start-at="targetStartAt"
-                  :end-at="targetEndAt"
-                  :has-next="storyPage < storyPageCount - 1"
-                  @page-ended="moveStoryPage(1)"
-                />
+                <div class="flex shrink-0 items-center gap-2">
+                  <!-- Previous / next item of the topic, before the Read button -->
+                  <button
+                    type="button"
+                    class="inline-flex h-8 items-center gap-1 rounded-full border border-edge bg-surface px-2 text-xs text-muted transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
+                    :disabled="!previousId"
+                    :aria-label="copy('lecture.previous', 'Previous')"
+                    :title="copy('lecture.previous', 'Previous')"
+                    @click="goToItem(previousId)"
+                  >
+                    <ChevronLeftIcon class="h-4 w-4" aria-hidden="true" />
+                    <span class="hidden sm:inline">{{ copy('lecture.previous', 'Previous') }}</span>
+                  </button>
+                  <button
+                    type="button"
+                    class="inline-flex h-8 items-center gap-1 rounded-full border border-edge bg-surface px-2 text-xs text-muted transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
+                    :disabled="!nextId"
+                    :aria-label="copy('lecture.next', 'Next')"
+                    :title="copy('lecture.next', 'Next')"
+                    @click="goToItem(nextId)"
+                  >
+                    <span class="hidden sm:inline">{{ copy('lecture.next', 'Next') }}</span>
+                    <ChevronRightIcon class="h-4 w-4" aria-hidden="true" />
+                  </button>
+                  <ArticleReadPlayer
+                    ref="targetPlayer"
+                    :src="storyTargetRead"
+                    :label="storyTargetName"
+                    :start-at="targetStartAt"
+                    :end-at="targetEndAt"
+                    :has-next="storyPage < storyPageCount - 1"
+                    @page-ended="moveStoryPage(1)"
+                  />
+                </div>
               </div>
               <!-- The text scrolls inside its own panel, so a long paragraph never
                    pushes the page or the picture off the screen. -->
