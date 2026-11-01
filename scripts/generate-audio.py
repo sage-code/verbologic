@@ -364,6 +364,8 @@ EXTRA_RESPELL = {
     "ro": {
         "creioane": "creyoane", "creioanele": "creyoanele", "creioanelor": "creyoanelor",
         "creionul": "creyonul", "creionului": "creyonului",
+        # Alina shortens the "jj" of "rotunji"; doubling the letter makes her say it whole
+        "rotunji": "rotunjji", "rotunjiți": "rotunjjiți",
     },
 }
 _RESPELL: dict[str, re.Pattern | None] = {}
