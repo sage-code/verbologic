@@ -1,6 +1,6 @@
 # Library curriculum
 
-The three library tracks (Dictionary, Lectures and Stories) each have 12 chapters of 4–8 topics (Lectures: 14 chapters, LT01 to LT14, see below), graded from the first school year to university. The sidebars are the curriculum:
+The three library tracks (Dictionary, Lectures and Stories) each have 12 chapters of 4–8 topics (Lectures: 10 chapters, LT01 to LT10, see below), graded from the first school year to university. The sidebars are the curriculum:
 
 - `src/data/sidebars/library/dictionary/sidebar.json`
 - `src/data/sidebars/library/lectures/sidebar.json`
@@ -25,28 +25,38 @@ Dictionary and Stories are graded **by chapter**: two chapters per level, so a l
 
 ## Lectures
 
-**Rebuilt 2026-11-02.** LT01 (sounds and pronunciation) is unchanged. The old LT02 to LT12 (phrase and word lists) were purged; the chapters below replace them and start empty. Full plan, pipeline and open work: `planning/lectures-grammar-culture-plan.md`.
+**Rebuilt 2026-11-02 (second version).** LT01 (sounds and pronunciation) is unchanged. The old LT02 to LT12 (phrase and word lists) were purged. Full plan, article template and open work: `planning/lectures-grammar-culture-plan.md`.
 
-Rules for every lecture topic: `layout: article`, `mode: directional`, a `level`; **every item is an article** (headers, bullet lists and tables; examples live inside the article, never as a bare list of words or phrases). A chapter is the same for every language; a language without a feature (for example noun gender in English) explains how it does that job instead. Culture chapters cover the home country and the other countries where the language is spoken, including how it spread (empire and colonies).
+**Principle: grammar is described once, as topics of one chapter (LT02), and learned by reading.** LT03 to LT10 are articles about people, home, town, work, culture, places, history and science. Each article explains the grammar of the sentences it shows in short numbered **grammar notes**, with a link to the LT02 topic. No topic is a list of words or phrases.
+
+Rules for every lecture topic: `layout: article`, `mode: directional`, a `level`; **every item is an article** (headers, bullet lists and tables). A chapter is the same for every language; a language without a feature (for example noun gender in English) explains how it does that job instead. Chapters LT07 to LT10 cover the home country and the other countries where the language is spoken, including how it spread (empire, colonies, migration); subjects only one country has are extra articles inside the generic topic.
 
 | Chapter | Topics (in order) |
 | --- | --- |
 | **LT01 Sounds & Pronunciation** | Alphabet & letters → letter groups & sounds → syllables & word stress → sound changes & spelling patterns → elision, hyphenation & fast speech → intonation, rhythm & punctuation |
-| **LT02 Introduction to Grammar** | Propositions & phrases → categories of words → nouns (substantives) → pronouns → adjectives & articles → numerals → verbs → adverbs → prepositions & conjunctions → cases & other categories → word order & agreement |
-| **LT03 Nouns & Noun Phrases** | Kinds of nouns → gender → plural formation → articles & determiners → adjectives: agreement & position → demonstratives, possessives & quantifiers → comparison → building a noun phrase |
-| **LT04 Pronouns** | Personal → object → reflexive & reciprocal → possessive & demonstrative → relative & interrogative → indefinite & negative → address & politeness |
-| **LT05 Cases & Prepositions** | What cases do → subject & object marking → possession & recipients → prepositions of place & direction → of time & relations → government |
-| **LT06 Verbs: Present & Questions** | Verb anatomy → being & having → the present tense → irregular & stem-changing verbs → modal & auxiliary → reflexive & impersonal → negation → forming questions → commands & requests |
-| **LT07 Past, Future & Aspect** | Completed past → habits & ongoing past → perfect tenses & telling a story → future → aspect & time expressions → infinitive, participle & gerund |
-| **LT08 Moods & Voice** | Subjunctive → conditional → passive voice → impersonal constructions → evidential & presumptive forms → obligation, possibility & permission |
-| **LT09 Building Sentences** | Word order & emphasis → adverbials → numbers, dates & time → coordination → subordination → conditional sentences & concession → reported speech → linking a text |
-| **LT10 Words, Register & Style** | Word formation → diminutives & augmentatives → register & formality → idioms & collocations → written style |
-| **LT11 Culture & Tradition** | Family & daily customs → holidays & festivals → food & drink → music, dance & folk art → beliefs, religion & folklore → etiquette & manners |
-| **LT12 Places & Landscape** | Where the language is spoken → the home country at a glance → regions → capital cities → cities & towns → villages & rural life → mountains, rivers & coasts → landmarks & heritage sites |
-| **LT13 History & People** | Origins & early history → Middle Ages to modern times → empire, colonies & the language abroad → the modern state → rulers & leaders → writers, thinkers & artists → migration & communities abroad |
-| **LT14 Science & Discoveries** | Scientists & inventors → discoveries & firsts → technology & industry → medicine & health → universities, research & space |
+| **LT02 Introduction to Grammar** (reference, 21 topics) | Propositions & phrases → categories of words → nouns: kinds, gender & number → articles & determiners → adjectives & comparison → personal pronouns & address → other pronouns → numerals, dates & time → verbs: forms & classes → present tense, being & having → past tenses & aspect → future → moods: command, subjunctive & conditional → voice, reflexive & impersonal verbs → modal verbs & non-finite forms → adverbs → prepositions & cases → negation & questions → conjunctions & linking clauses → word order & agreement → word formation & register |
+| **LT03 People & Family** (A1-A2) | Greeting & introducing yourself → family & relationships → describing people → friends, visits & invitations → names, titles & politeness |
+| **LT04 Home & Daily Life** (A1-A2) | The house & its rooms → a day from morning to night → meals & mealtimes → weather, seasons & the calendar → chores, hobbies & free time |
+| **LT05 Town & Travel** (A2-B1) | Streets & directions → shops, markets & prices → cafés & restaurants → transport & journeys → hotels, banks & services |
+| **LT06 Work, School & Health** (A2-B1) | Jobs & workplaces → school & studies → body, health & the doctor → phones, internet & media → money, rights & the law |
+| **LT07 Culture & Tradition** (A2-B1) | Family & daily customs → holidays & festivals → food & drink → music, dance & folk art → beliefs, religion & folklore → etiquette & manners |
+| **LT08 Places & Landscape** (A2-B1) | Where the language is spoken → the home country at a glance → regions → capital cities → cities & towns → villages & rural life → mountains, rivers & coasts → landmarks & heritage sites |
+| **LT09 History & People** (B1-C1) | Origins & early history → Middle Ages to modern times → empire, colonies & the language abroad → the modern state → rulers & leaders → writers, thinkers & artists → migration & communities abroad |
+| **LT10 Science & Discoveries** (B1-C1) | Scientists & inventors → discoveries & firsts → technology & industry → medicine & health → universities, research & space |
 
-Chapters LT02 to LT14 hold no articles yet; their topics stay disabled in the navigation until an article exists.
+### An article in LT03 to LT10
+
+In this order, in the explanation language, quoting the target language only from its seed list (sentence, IPA, gloss):
+
+1. **Opening** (2 to 4 sentences): what this is about and why it matters. No grammar yet.
+2. **In context** (150 to 350 words): a short text or dialogue that shows the topic.
+3. **Grammar notes** (2 to 4 numbered notes; A1 at most 2, A2 up to 3, B1 and above up to 4). Each note: a one-line rule, the sentence from the text it explains, a small table of forms when the language has them (generated from the seed), and a link "See Introduction to Grammar: <topic>".
+4. **Notice** (optional): what differs from English or the learner's language; a common mistake.
+5. **Culture note** (optional, 2 to 3 sentences).
+
+A note explains a sentence of this article, never pastes a rule from LT02, and a table is never the whole article. Total length 450 to 900 words; paragraphs short and about the same length. Written natively per explanation language from one English outline, never translated. The planned `grammar:` field on each article lists the LT02 topics it draws on; `./run.sh missing` will report how many articles use each LT02 topic.
+
+Chapters LT02 to LT10 hold no articles yet; their topics stay disabled in the navigation until an article exists.
 
 ## Dictionary
 

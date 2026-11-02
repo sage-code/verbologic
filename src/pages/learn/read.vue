@@ -219,7 +219,7 @@ const textLength = (node: ArticleNode): number => node.text.length
  */
 function paginate(nodes: ArticleNode[], perPage: number): ReadingPage[] {
   if (!nodes.some((n) => n.t === 'h')) {
-    const paragraphs = nodes.filter((n) => n.t === 'p')
+    const paragraphs = nodes.filter((n) => n.t !== 'h')
     const pages: ReadingPage[] = []
     for (let start = 0; start < paragraphs.length; start += perPage) {
       pages.push({ nodes: paragraphs.slice(start, start + perPage), section: start })

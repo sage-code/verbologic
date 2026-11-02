@@ -5,9 +5,10 @@
 // selection. One table, three data sources: the open topic's rows, or the
 // dictionary-wide search results (the toolbar's filter mode), which take
 // precedence regardless of the topic underneath.
-// Columns: name in the learning language (the target term) · native gloss (the
-// user's language — English canonical when the UI language is the target
-// language) (the File ID stays in the DOM as a hidden sr-only field) · IPA (Dictionary
+// Columns: File ID (the topic-scoped code, e.g. A023 or L773, shared across
+// languages) · name in the learning language (the target term) · native gloss
+// (the user's language — English canonical when the UI language is the target
+// language) · IPA (Dictionary
 // only — hidden on small screens; the Lectures' expressions never show IPA) ·
 // read (a book button when the row carries an article — words, expressions
 // and stories alike; blank otherwise) · per-row play button (pause
@@ -302,6 +303,7 @@ onBeforeUnmount(() => {
     <div v-else class="overflow-clip rounded-lg border border-edge bg-surface shadow-sm">
       <table class="w-full table-fixed border-collapse text-sm">
         <colgroup>
+          <col class="w-16 sm:w-20" />
           <col />
           <col />
           <col v-if="isDictionary && !isPhonetic" class="hidden sm:table-column" />
@@ -311,6 +313,7 @@ onBeforeUnmount(() => {
         </colgroup>
         <thead class="sticky z-10 bg-soft text-left text-xs uppercase tracking-wide text-faint" :class="THEAD_STICKY_TOP">
           <tr>
+            <th class="px-3 py-2 font-medium [overflow-wrap:anywhere]">{{ copy('dictionary.col_id', 'File ID') }}</th>
             <th class="px-3 py-2 font-medium [overflow-wrap:anywhere]">{{ targetHeader }}</th>
             <th class="px-3 py-2 font-medium [overflow-wrap:anywhere]">{{ secondHeader }}</th>
             <th v-if="isDictionary && !isPhonetic" class="hidden px-3 py-2 font-medium sm:table-cell [overflow-wrap:anywhere]">
@@ -388,10 +391,9 @@ onBeforeUnmount(() => {
             @click="stopAutoplay"
             @dblclick="openArticle(r, $event)"
           >
+            <!-- File ID: the row's topic-scoped code, shown in every track -->
+            <td class="px-3 py-2 font-code text-xs text-faint [overflow-wrap:anywhere]">{{ r.id }}</td>
             <td class="px-3 py-2">
-              <!-- File ID: kept in the DOM as a hidden (screen-reader-only)
-                   field — no visible column anymore -->
-              <span class="sr-only">{{ r.id }}</span>
               <span class="font-medium text-content">{{ r.term }}</span>
               <!-- Context line: the example word on a phonetic row ("Apfel"
                    for the letter A), the usage note elsewhere. Never repeat

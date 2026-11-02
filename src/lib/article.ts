@@ -7,9 +7,15 @@
  * pagination and rendering have a single shape to deal with.
  */
 export interface ArticleNode {
-  /** `h` heading, `p` paragraph */
-  t: 'h' | 'p'
+  /** `h` heading, `p` paragraph, `ul` / `ol` list, `table` table */
+  t: 'h' | 'p' | 'ul' | 'ol' | 'table'
+  /** The text of the block; for a list or table, all its text joined (length, search). */
   text: string
+  /** `ul` / `ol`: one string per item */
+  items?: string[]
+  /** `table`: the header cells, then the body rows */
+  headers?: string[]
+  rows?: string[][]
 }
 
 export interface ArticleLocale {
@@ -43,15 +49,42 @@ export interface ArticleDoc {
   nodes: ArticleNode[]
 }
 
+const tableCells = (line: string): string[] =>
+  line.replace(/^\s*\|/, '').replace(/\|\s*$/, '').split('|').map((cell) => cell.trim())
+
+/**
+ * One paragraph string as a block. Block markup stays inside the string, so the
+ * stored format is unchanged: a paragraph whose lines all start with `|` is a
+ * table (header row, `| --- |` rule, body rows), all start with `- ` a bullet
+ * list, all start with `1. ` a numbered list. Anything else is a paragraph.
+ */
+export function blockOf(text: string): ArticleNode {
+  const lines = text.split(/\r?\n/).map((line) => line.trim()).filter(Boolean)
+  if (lines.length >= 2 && lines.every((line) => line.startsWith('|'))) {
+    const body = lines.map(tableCells).filter((cells) => !cells.every((cell) => /^:?-{3,}:?$/.test(cell)))
+    const [headers = [], ...rows] = body
+    return { t: 'table', text: body.flat().join(' '), headers, rows }
+  }
+  if (lines.length >= 1 && lines.every((line) => /^[-*]\s+/.test(line))) {
+    const items = lines.map((line) => line.replace(/^[-*]\s+/, ''))
+    return { t: 'ul', text: items.join(' '), items }
+  }
+  if (lines.length >= 1 && lines.every((line) => /^\d+\.\s+/.test(line))) {
+    const items = lines.map((line) => line.replace(/^\d+\.\s+/, ''))
+    return { t: 'ol', text: items.join(' '), items }
+  }
+  return { t: 'p', text }
+}
+
 /** A locale's body as a flat list of blocks. */
 export function nodesOf(body: ArticleLocale): ArticleNode[] {
   if (body.sections?.length) {
     return body.sections.flatMap((section) => [
       { t: 'h' as const, text: section.title },
-      ...section.paragraphs.map((text) => ({ t: 'p' as const, text }))
+      ...section.paragraphs.map(blockOf)
     ])
   }
-  return (body.paragraphs ?? []).map((text) => ({ t: 'p' as const, text }))
+  return (body.paragraphs ?? []).map(blockOf)
 }
 
 /** Every language of a row as docs. */

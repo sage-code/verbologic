@@ -898,6 +898,20 @@ def article_body(track: str, topic: str, code: str, locale: str) -> str | None:
     return blank.join(doc.get("paragraphs", [])) or None
 
 
+def speak_blocks(text: str) -> str:
+    """Block markup for the voice: a table (lines starting with `|`) is shown, never read; a list marker is
+    dropped and the item ends like a sentence. Text with neither is returned unchanged."""
+    lines = []
+    for line in text.split("\n"):
+        if re.match(r"^\s*\|", line):
+            continue
+        item = re.match(r"^\s*(?:[-*]|\d+\.)\s+(.*\S)\s*$", line)
+        if item:
+            line = item.group(1) if re.search(r"[.!?:;]$", item.group(1)) else item.group(1) + "."
+        lines.append(line)
+    return "\n".join(lines)
+
+
 def article_sections(track: str, topic: str, code: str, locale: str) -> list[str] | None:
     """The article body split into reading pages, matching the reading view.
 
@@ -919,6 +933,7 @@ def article_sections(track: str, topic: str, code: str, locale: str) -> list[str
     raw = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", raw)  # links → their text
 
     def clean(chunk: str) -> str:
+        chunk = speak_blocks(chunk)
         chunk = re.sub(r"^\s{0,3}#{1,6}\s*", "", chunk, flags=re.MULTILINE)
         chunk = re.sub(r"[*_`>]+", "", chunk)
         # Lecture articles are spoken: a ( ) word is dropped and the IPA after it
@@ -945,6 +960,7 @@ def article_text(track: str, topic: str, code: str, locale: str) -> str | None:
         return None
     text = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", text)  # images
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)  # links → their text
+    text = speak_blocks(text)
     text = re.sub(r"^\s{0,3}#{1,6}\s*", "", text, flags=re.MULTILINE)  # headings
     text = re.sub(r"[*_`>]+", "", text)  # emphasis / quotes / code marks
     if track != "lectures":  # lectures keep IPA for transliteration (see article_sections)

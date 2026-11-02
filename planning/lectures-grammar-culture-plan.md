@@ -1,169 +1,157 @@
-# Lectures after LT01: grammar first, then the country
+# Lectures after LT01: one grammar chapter, then grammar in context
 
-Date: 2026-11-02. Replaces the LT02 to LT12 outline in `manual/curriculum.md` (Lectures section).
-**Status 2026-11-02:** your answers are applied and Phase 0 step 0.1 is done (see "Phase 0 result" at the end). LT01 stays as it is; the rest of this plan is to be completed and finalised later.
+Date: 2026-11-02 (second version; the first had nine grammar chapters, which was too many). Authoritative curriculum table: `manual/curriculum.md`, Lectures section.
 
-Decisions taken: (1) LT02 is a brief introduction to grammar with one topic per category of word; (2) "the country" means the home country **and** the other countries that speak the language, including its colonial spread; (3) learner progress for purged items is deleted; (4) chapters LT15 to LT17 are dropped, so the curriculum ends at LT14. Where the text below still mentions LT15 to LT17, the older LT02 outline, or the open questions, the "Phase 0 result" section and `manual/curriculum.md` are authoritative.
+## The idea
 
-## Why the old LT02 to LT12 goes
+1. **Grammar is described once, in LT02, as topics, not chapters.** LT02 "Introduction to Grammar" is the reference: 21 short, precise topics (propositions, categories of words, nouns, articles, adjectives, pronouns, numerals, verbs, tenses, moods, voice, adverbs, prepositions and cases, negation and questions, conjunctions, word order, word formation).
+2. **Everything else is learned by reading.** Chapters LT03 to LT10 are articles about people, home, town, work, culture, places, history and science, graded A1 to C1. Every article carries short **grammar notes**: the rule that explains a sentence the learner has just read, with a link to the LT02 topic. Grammar is met when it is needed, in a text that means something.
+3. **No lists.** No topic is a list of words or phrases. Examples are always inside an article, next to the explanation of why they look the way they do.
 
-Measured today:
+## Where the old plan went wrong
 
-| Chapter | Items | What they are | Verdict |
+LT03 to LT10 of the first version (Nouns, Pronouns, Cases, Verbs, Past/Future, Moods, Building Sentences, Style) split grammar into eight more chapters, which turns the course into a textbook of rules read before the learner has anything to read. They are folded into the 21 LT02 topics. What remains after LT02 is content with meaning.
+
+## Curriculum
+
+Level is CEFR, set per topic. Names are generic English concepts; each language fills them with its own articles (several articles per topic per language are fine).
+
+### LT02 Introduction to Grammar (21 topics, a reference chapter)
+
+| # | Topic | Level | Covers |
 | --- | --- | --- | --- |
-| LT01 | 466 | Letters, groups, syllables, stress, sound changes, elision, intonation (articles + audio) | **Keep** |
-| LT02 | 412 | Sentence, question and command lists (`sentence_*`, `question_*`) | Purge |
-| LT03 to LT12 | 7 to 27 each | Phrase lists and a few `ro`-only rows; most topics hold 1 to 3 items | Purge |
+| T01 | Propositions & phrases | A1 | Sentence, clause, phrase; statement, question, command, exclamation; subject and predicate |
+| T02 | Categories of words | A1 | The ten word classes and the grammar concepts (gender, number, case, person, tense, mood, voice, aspect, agreement) in one overview |
+| T03 | Nouns: kinds, gender & number | A1 | Common/proper, countable/abstract; gender; plural formation |
+| T04 | Articles & determiners | A1 | Definite, indefinite, none; demonstratives, possessives, quantifiers |
+| T05 | Adjectives & comparison | A1 | Agreement, position; comparative, superlative |
+| T06 | Personal pronouns & address | A1 | Subject pronouns, dropped subjects, familiar and formal "you" |
+| T07 | Other pronouns | A2 | Object, reflexive, possessive, relative, interrogative, indefinite |
+| T08 | Numerals, dates & time | A1 | Cardinals, ordinals, dates, clock time |
+| T09 | Verbs: forms & classes | A1 | Infinitive, stem and ending, conjugation classes, regular and irregular |
+| T10 | Present tense, being & having | A1 | The present; existence and possession |
+| T11 | Past tenses & aspect | A2 | Completed and ongoing past; perfect; aspect where it exists |
+| T12 | Future | A2 | Future forms |
+| T13 | Moods: command, subjunctive & conditional | A2 | Imperative, polite requests, subjunctive, conditional |
+| T14 | Voice, reflexive & impersonal verbs | B1 | Passive, reflexive, impersonal and evidential forms |
+| T15 | Modal verbs & non-finite forms | B1 | Can/must/may; infinitive, participle, gerund |
+| T16 | Adverbs | A1 | Time, place, manner, frequency, degree |
+| T17 | Prepositions & cases | A2 | Place, time and relations; case endings or their replacements |
+| T18 | Negation & questions | A1 | Forming negatives and questions; question words |
+| T19 | Conjunctions & linking clauses | B1 | Coordination, relative, time, cause, purpose, condition, reported speech |
+| T20 | Word order & agreement | A2 | Basic order, emphasis, what agrees with what |
+| T21 | Word formation & register | B2 | Prefixes, suffixes, compounds; diminutives; formal and informal |
 
-The old order mixes a phrasebook (greetings, shopping, health) with grammar (pronouns, cases, tenses), repeats ideas (questions in LT02, conditionals in LT08 and LT10), and teaches a topic by listing expressions. A learner never gets the *rules*. The new order explains the rules after the sounds, and ends with the country.
+Each topic is a brief article (400 to 900 words, one table of forms where the language has them) and ends with "Where you will see this": the articles of LT03 to LT10 that use the point.
 
-## Principles
+### LT03 to LT10: articles in context
 
-1. **Every lecture item is an article.** No row exists without an article behind it. No list of words or phrases is a lesson. Examples appear *inside* an article, as a short table or bullet list, always with a reason ("these three verbs end in -ez because...").
-2. **A chapter is a concept, the same for every language.** Topic names are generic English concepts (`Gender`, `Cases`, `Subjunctive`). If a language lacks the feature, its article says so and teaches how that language does the same job (English has no noun gender, so the article shows what `he/she/it` and `-ess` do instead). A topic is never empty for a language; it is never skipped.
-3. **Directional topics, many items per language.** Each article targets one language (`"target": "ro"`). A topic may hold several articles per language; the culture chapters use this (one article per city, per festival). Topics stay generic; the items carry the country.
-4. **Rules come from data, prose comes from the model.** Paradigm tables (conjugations, declensions, plurals) are rendered from a hand-checked seed file, as for the LT01 closed word list. The model writes the explanation around them and may quote only seed examples. This keeps wrong forms and invented IPA out.
-5. **Written natively per language, never translated.** One English outline per article (headings, seed examples, one idea per section), then the article is written for each explanation language from that outline. Missing languages fall back to English, as today.
-6. **Format.** Headers (`##` starts a reading page), bullet lists and tables. The reader (`src/lib/article.ts` into `ArticleText`) renders parsed headings, lists and tables, not raw HTML, so write them as article blocks. To verify in Phase 1.
-7. **Length.** A concept article is 600 to 1,200 words, 3 to 6 `##` sections, at least one table. The two overview articles in LT02 may be longer.
-
-## The new curriculum (17 chapters, 108 topics)
-
-Level is CEFR (`A1`..`C2`), set per topic as today.
-
-### Part A. Grammar (LT02 to LT10)
-
-**LT02 Sentences & Word Classes** (A1) - the map of grammar
-
-| Topic | Article |
-| --- | --- |
-| T01 Sentences & phrases | **Overview article.** What a sentence, clause and phrase are. Kinds of sentence (statement, question, command, exclamation). Subject and predicate. The ten word classes: noun, pronoun, article, adjective, verb, adverb, preposition, conjunction, numeral, interjection. The grammar concepts used everywhere after this: gender, number, case, person, tense, mood, voice, aspect, agreement, word order. A table per group, one line each, with one example. |
-| T02 Nouns, pronouns & articles | Elaborates the "naming" word classes: what each is, subtypes, how it changes, with examples. |
-| T03 Adjectives, numerals & adverbs | Elaborates the "describing" word classes. |
-| T04 Verbs | What a verb carries (person, number, tense, mood, voice, aspect), infinitive, stem and ending, auxiliary and main verbs, regular and irregular. |
-| T05 Prepositions, conjunctions & interjections | Elaborates the "linking" classes. |
-| T06 Gender, number, case & person | The four categories of nouns, pronouns and verbs; which of them this language has. |
-| T07 Tense, mood, voice & aspect | The four categories of the verb; which of them this language has. |
-| T08 Word order & agreement | Basic order (SVO or other), what moves for emphasis, what must agree with what. Ends with a one-page "grammar sheet" of the language. |
-
-**LT03 Nouns & Noun Phrases** (A1 to A2): T01 Kinds of noun (common, proper, countable, abstract, collective) / T02 Gender / T03 Plural formation / T04 Articles & determiners / T05 Adjectives: agreement and position / T06 Demonstratives, possessives & quantifiers / T07 Comparison: comparative and superlative / T08 Building a noun phrase.
-
-**LT04 Pronouns** (A1 to A2): T01 Personal pronouns & dropped subjects / T02 Object pronouns: direct, indirect, stressed forms / T03 Reflexive & reciprocal / T04 Possessive & demonstrative pronouns / T05 Relative & interrogative pronouns / T06 Indefinite & negative pronouns / T07 Address & politeness (you: familiar vs formal).
-
-**LT05 Cases & Prepositions** (A2 to B1): T01 What cases do / T02 Subject and object marking / T03 Possession & recipients / T04 Prepositions of place & direction / T05 Prepositions of time & other relations / T06 Government: which case follows which word (or suffixes and postpositions, where that is how the language works).
-
-**LT06 Verbs: Present & Questions** (A1 to A2): T01 Verb anatomy: stem, ending, classes / T02 Being, having & existence / T03 The present tense: regular verbs / T04 Irregular & stem-changing verbs / T05 Modal & auxiliary verbs / T06 Reflexive & impersonal verbs / T07 Negation / T08 Forming questions / T09 Commands & requests.
-
-**LT07 Past, Future & Aspect** (A2 to B1): T01 Past: completed actions / T02 Past: habits & ongoing / T03 Perfect, pluperfect & telling a story / T04 Future / T05 Aspect (perfective and imperfective) & time expressions / T06 Infinitive, participle & gerund.
-
-**LT08 Moods & Voice** (B1 to B2): T01 Subjunctive / T02 Conditional / T03 Passive voice / T04 Impersonal constructions / T05 Evidential & presumptive forms (where the language has them) / T06 Expressing obligation, possibility & permission.
-
-**LT09 Building Sentences** (B1 to B2): T01 Word order & emphasis / T02 Adverbs & adverbials: time, place, manner, frequency / T03 Numbers, dates & time in grammar / T04 Coordination / T05 Subordination: relative, time, cause, purpose, result / T06 Conditional sentences & concession / T07 Reported speech / T08 Linking a text: discourse markers.
-
-**LT10 Words, Register & Style** (B2 to C1): T01 Word formation: prefixes, suffixes, compounds / T02 Diminutives, augmentatives & feeling / T03 Register & formality / T04 How idioms and collocations work (the patterns, not lists of them) / T05 Written style: formal, academic, literary.
-
-### Part B. The country (LT11 to LT17)
-
-Each topic is generic; each language fills it with articles about its own country (primary country first; see the open decisions). The four chapters you named come first, then three I propose.
-
-**LT11 Culture & Tradition** (A2 to B2): T01 Family & daily customs / T02 Holidays & festivals / T03 Food & drink / T04 Music, dance & folk art / T05 Beliefs, religion & folklore / T06 Etiquette & manners.
-
-**LT12 Places & Landscape** (A2 to B2): T01 The country at a glance / T02 Regions / T03 The capital / T04 Cities & towns / T05 Villages & rural life / T06 Mountains, rivers & coasts / T07 Landmarks & heritage sites.
-
-**LT13 History & People** (B1 to C1): T01 Origins & early history / T02 From the Middle Ages to modern times / T03 The modern state / T04 Rulers & leaders / T05 Writers, thinkers & artists / T06 Migration, minorities & the country abroad.
-
-**LT14 Science & Discoveries** (B1 to C1): T01 Scientists & inventors / T02 Discoveries & firsts / T03 Technology & industry / T04 Medicine & health / T05 Universities, research & space.
-
-**LT15 Arts & Letters** (proposed, B2 to C1): T01 Literature / T02 Painting & sculpture / T03 Architecture / T04 Theatre & cinema / T05 Design & craft.
-
-**LT16 The Language Itself** (proposed, B2 to C2): T01 Origins & language family / T02 Dialects & regions / T03 Loanwords & borrowing / T04 The writing system & its reforms / T05 The language in the world today.
-
-**LT17 Modern Society** (proposed, B2 to C1): T01 Government & institutions / T02 Education / T03 Economy & work / T04 Media & communication / T05 Sport & leisure.
-
-### How the same topic differs by language
-
-| Feature | ro | en | de | ru | it | es | fr | pt | hu |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Noun gender | 3 | only pronouns | 3 | 3 | 2 | 2 | 2 | 2 | none |
-| Cases on nouns | 5 | none | 4 | 6 | none | none | none | none | about 18 |
-| Articles | suffix | yes | yes | none | yes | yes | yes | yes | yes |
-| Aspect | no | partly | no | **yes** | no | no | no | no | no |
-| Subject often dropped | yes | no | no | no | yes | yes | no | yes | yes |
-
-Topics such as `Cases` or `Aspect` stay in the curriculum for every language. For `it`, `es`, `fr`, `pt` the `Cases` article is short and explains pronoun forms and prepositions. This table goes into the Phase 1 authoring brief so each article states what its language does.
-
-## Phase 0. Purge (first, in two steps)
-
-**Scope** (everything except LT01): sidebar chapters LT02 to LT12; 412 + 100 items in `media/lectures/LT02..LT12` (about 85 MB, 5,700 files, in R2 too); the matching `units` rows and any `article_docs` rows for LT02+; seed files; planned-source tables in `scripts/archive-topics.mjs`; roadmap references; docs. Dictionary and Stories are not touched.
-
-**Step 0.1 Soft purge (reversible, git only).**
-1. `git tag pre-lecture-purge` and save the list of R2 keys of the purged manifests (`planning/baseline/purged-lecture-keys.txt`) before deleting.
-2. Delete `media/lectures/LT02` to `LT12`, and the empty `content/lectures/LT03T01`.
-3. Replace sidebar chapters LT02 to LT12 with the new skeleton (all 17 chapters and 108 topics, `names` in 9 languages, `layout: article`, `mode: directional`, `level`, no items). Empty topics stay disabled in the nav, so the site shows no empty lessons. Keep LT01 untouched.
-4. `./run.sh media index`, `./run.sh validate`, `./run.sh build`, then check that `/library/lectures` renders and LT01 still plays.
-5. Delete progress for removed items so nobody has orphans: `learned_items` and `listen_counts` rows whose `entity_id` is a purged lecture id (a migration with a `where entity_id in (...)` list generated from the purged manifests). This loses those learners' ticks; you said content loss is acceptable. Please confirm this one.
-6. Clean mentions: `manual/curriculum.md` (Lectures section, "Planned lessons", the 2026-09-26 re-home record for L2-L12), `CLAUDE.md` lecture lines, `scripts/archive-topics.mjs` `PLANNED_SOURCES`, `scripts/entities-to-manifests.mjs`, `RoadmapShell.vue`, `planning/lecture-articles-review.md`.
-
-**Step 0.2 Hard purge (irreversible, later).** `./run.sh sync` prunes the Supabase rows; `./run.sh media prune` (report first) then `--apply` removes the R2 objects. Do this only after Phase 2 has shipped, so the old audio is a fallback until the new curriculum is live. The old phrase audio is not reused (the new articles use their own examples and read-aloud clips).
-
-*Done when:* build and `validate` pass, the lectures sidebar shows 17 chapters with only LT01 enabled, nothing outside LT01 references a purged id.
-
-## Phase 1. Foundations (before any article)
-
-1. **Curriculum doc.** Rewrite the Lectures section of `manual/curriculum.md` from this plan. It also changes the current rules there: chapters are not capped at 12, lecture topics are always `article` and `directional`, and no table-layout lectures.
-2. **Validator.** `validate-data.mjs`: for `library/lectures`, reject any topic that is not `article` + `directional`, and any item without an article doc; require a `level` on each topic. Check that no chapter-count limit exists in `validate-data`, the nav or the roadmap (nothing found in a first search, but to be confirmed by running it).
-3. **Reader check.** Publish one test article with `##` sections, bullets and a table; open `/learn/read?id=<topic>:<id>` and check the table, the two-panel layout and the read-aloud (what is spoken, what is skipped: a table is not read, bracketed target words with IPA are).
-4. **Seed format.** `scripts/seeds/grammar-<lang>.json`: per topic the facts the article may use (paradigm tables, examples with IPA and glosses in the 9 languages, the language's answer to "does it have this feature"). One generator renders the paradigm tables from it. Extend `create-lecture-articles.py` (today T03 to T06 of LT01 only) to read these seeds; `--check` rejects words outside the seed.
-5. **Outline, then native per language.** `./run.sh create lecture <topic> --target xx` writes the English outline from the seed, then each explanation language natively from that outline (same pattern as `create-stories.py`).
-6. **Topic titles and sound.** Each new topic needs title clips in 9 languages. Add `LT02`.. to `SOUND_GUARDED` in `scripts/lib/sound-chapters.mjs` chapter by chapter, once `./run.sh missing` shows no missing or stale clip.
-7. **Item numbering.** Continue the `L<n>` article ids after the current maximum used by LT01.
-
-## Phase 2. Pilot: LT02 for Romanian and English
-
-LT02 is eight articles per language, the smallest complete chapter, and it exercises every part of the pipeline. Write T01 and T02 first (they set the template: the overview and the elaboration), review them with you, then T03 to T08. Build, check the rendered pages, read-aloud and title clips, then deploy. This is also the point to confirm length and tone.
-
-## Phase 3. The other languages for LT02, then LT03 to LT10
-
-Language order follows the LT01 plan (cheapest first): ro, en, es, it, fr, de, pt, ru, hu. Per language the same loop as LT01: seed, outline, native article, `--check`, read-aloud, build, review. After each chapter run the build and look at the pages. Ru and hu take longer (cases, aspect, 43 letters, voice quirks).
-
-## Phase 4. Country chapters (LT11 to LT17)
-
-Written after LT02 to LT10 are done for a language, because culture articles are also simple-English reading practice at the right level. Each language picks the topics it can fill well first; a topic with no article stays disabled for that language. Facts (dates, places, names) come from a seed list per language that you approve before writing, so the model never invents history.
-
-## Sizing
-
-| | Per language | All 9 languages |
+| Chapter | Topics | Level |
 | --- | --- | --- |
-| Grammar articles (LT02 to LT10) | about 63 | about 570 |
-| Country articles (LT11 to LT17), about 2.5 per topic | about 100 | about 900 |
-| Total | about 165 | about 1,470 |
+| **LT03 People & Family** | Greeting & introducing yourself · Family & relationships · Describing people · Friends, visits & invitations · Names, titles & politeness | A1 to A2 |
+| **LT04 Home & Daily Life** | The house & its rooms · A day from morning to night · Meals & mealtimes · Weather, seasons & the calendar · Chores, hobbies & free time | A1 to A2 |
+| **LT05 Town & Travel** | Streets & directions · Shops, markets & prices · Cafés & restaurants · Transport & journeys · Hotels, banks & services | A2 to B1 |
+| **LT06 Work, School & Health** | Jobs & workplaces · School & studies · Body, health & the doctor · Phones, internet & media · Money, rights & the law | A2 to B1 |
+| **LT07 Culture & Tradition** | Family & daily customs · Holidays & festivals · Food & drink · Music, dance & folk art · Beliefs, religion & folklore · Etiquette & manners | A2 to B1 |
+| **LT08 Places & Landscape** | Where the language is spoken · The home country at a glance · Regions · Capital cities · Cities & towns · Villages & rural life · Mountains, rivers & coasts · Landmarks & heritage sites | A2 to B1 |
+| **LT09 History & People** | Origins & early history · Middle Ages to modern times · Empire, colonies & the language abroad · The modern state · Rulers & leaders · Writers, thinkers & artists · Migration & communities abroad | B1 to C1 |
+| **LT10 Science & Discoveries** | Scientists & inventors · Discoveries & firsts · Technology & industry · Medicine & health · Universities, research & space | B1 to C1 |
 
-Each article is also written in up to 9 explanation languages (about 13,000 texts at full coverage), and each gets read-aloud clips. So full coverage is a long programme; the plan ships in slices: a chapter is live for a language as soon as its English page exists, and other explanation languages fill in later (English fallback already works).
+LT07 to LT10 cover the home country **and** the other countries that speak the language, including how it spread (empire, colonies, migration). Language-specific subjects (a festival, a city, a scientist that only that country has) are extra **articles** inside the generic topic, so the topic list stays the same for every language.
 
-## Decisions I need from you
+### Which grammar each topic teaches (the in-context map)
 
-1. **Grammar spread over LT02 to LT10 (9 chapters)** instead of all in LT02. You asked for LT02 to hold the overview and the elaboration articles; I kept it as the map of grammar, with the deep dives in the chapters after it. If you want fewer chapters, LT05 and LT08 can be merged into LT04 and LT07.
-2. **Which country for each language:** ro = Romania (and Moldova), en = United Kingdom (and USA), de = Germany (and Austria, Switzerland), ru = Russia, it = Italy, es = Spain (and Latin America), fr = France (and Francophonie), pt = Portugal (and Brazil), hu = Hungary. OK, or should the country-specific language (for example Brazil for pt) lead?
-3. **Progress rows** for purged items are deleted (Step 0.1, point 5). OK?
-4. **Proposed extra chapters** LT15 (Arts & Letters), LT16 (The Language Itself), LT17 (Modern Society): keep, drop or rename?
-5. **Go-ahead for Step 0.1.** I will tag first, so the purge is one `git revert` away until the R2 prune.
+The first column is the article topic; the second lists the LT02 topics its grammar notes draw on. One article carries 2 to 4 notes (A1: at most 2, only A1 points; A2: up to 3; B1 and above: up to 4); points repeat across articles so the learner meets them again, in a new setting.
 
-## Phase 0 result (2026-11-02)
+| Article topic | Grammar notes draw on (LT02) |
+| --- | --- |
+| Greeting & introducing yourself | T06 familiar and formal "you", T10 being, T18 simple questions |
+| Family & relationships | T03 gender and number, T04 possessives, T10 having |
+| Describing people | T05 adjective agreement, T16 degree adverbs |
+| Friends, visits & invitations | T13 polite requests and commands, T12 future |
+| Names, titles & politeness | T06 address, T13 conditional politeness, T21 register |
+| The house & its rooms | T04 articles, T17 prepositions of place, T10 existence |
+| A day from morning to night | T09 verb forms, T10 present, T14 reflexive verbs, T08 clock time |
+| Meals & mealtimes | T03 countable and uncountable, T07 indefinite pronouns, T04 quantifiers |
+| Weather, seasons & the calendar | T14 impersonal verbs, T08 dates, T16 adverbs of time |
+| Chores, hobbies & free time | T16 frequency adverbs, T15 modal verbs |
+| Streets & directions | T13 imperative, T17 prepositions and cases |
+| Shops, markets & prices | T08 numerals, T05 comparison |
+| Cafés & restaurants | T13 polite requests, T18 negation and questions |
+| Transport & journeys | T12 future, T08 time, T17 prepositions of time |
+| Hotels, banks & services | T07 pronouns, T19 conjunctions |
+| Jobs & workplaces | T11 past, T14 passive |
+| School & studies | T11 past and aspect, T15 infinitive |
+| Body, health & the doctor | T14 reflexive and impersonal, T15 modals |
+| Phones, internet & media | T14 passive, T19 reported speech |
+| Money, rights & the law | T13 conditional and subjunctive, T19 conditional sentences |
+| LT07 Culture & Tradition | T11 telling a story in the past, T19 relative clauses, T14 impersonal "people say" |
+| LT08 Places & Landscape | T05 comparison and superlative, T17 prepositions of place, T19 relative clauses |
+| LT09 History & People | T11 narrative tenses, T14 passive, T19 time and cause clauses |
+| LT10 Science & Discoveries | T14 passive, T19 purpose and result, T21 word formation and register |
 
-Step 0.1 is done:
-- `git tag pre-lecture-purge` marks the state before the purge.
-- `media/lectures/LT02` to `LT12` (manifests and audio, 93 MB) were moved out of the repo to `C:/Users/eluci/sage-code/purged-lectures-2026-11-02/`. The binaries are gitignored, so git alone could not restore them; that folder can.
-- R2 keys of the purged files: `planning/baseline/purged-lecture-keys.txt` (4,695). Legacy ids: `purged-lecture-legacy-ids.txt` (253). The R2 objects are still in the bucket.
-- The lectures sidebar has LT01 (unchanged) plus the empty skeleton LT02 to LT14: 13 chapters, 92 topics, names in all 9 languages, all `article` + `directional`.
-- `./run.sh validate` passes; `./run.sh sync --dry-run` regenerated `seed/*.json` (database untouched).
-- `manual/curriculum.md` (Lectures section) is rewritten to the new chapter list.
+## The article template (explicative notes)
 
-Not done yet (step 0.2, irreversible; do it after the first new chapter is live): `./run.sh sync` (prunes the old unit rows), the progress migration `supabase/migrations/20261102010000_purge_old_lecture_progress.sql` (written, not applied), and `./run.sh media prune` (report first, then `--apply`).
+Every article in LT03 to LT10, in this order, written in the explanation language and quoting the target language only from its seed list:
 
-### Revised LT02 (replaces the LT02 table above)
+1. **Opening (2 to 4 sentences).** What this is about and why a learner of this language cares. No grammar yet.
+2. **In context** (one `##` section, 150 to 350 words). A short text, or a short dialogue, that shows the topic at work. Target-language sentences appear as quoted examples with IPA and a gloss (a closed list from the seed, as in LT01; no invented forms or IPA).
+3. **Grammar notes** (a `##` section, 2 to 4 numbered notes). Each note has:
+   - a one-line rule in plain words;
+   - the sentence from the text it explains (copied from step 2);
+   - when the language has forms: a small table (a paradigm generated from the seed, not written by the model);
+   - a link "See Introduction to Grammar: <topic>".
+4. **Notice** (optional, a few bullet points). Things that differ from English or from the learner's language, or a common mistake.
+5. **Culture note** (optional, 2 to 3 sentences). A fact about the country or countries.
 
-Propositions & phrases, categories of words, nouns (substantives), pronouns, adjectives & articles, numerals, verbs, adverbs, prepositions & conjunctions, cases & other categories, word order & agreement: 11 topics, each a brief article with a table. The deep dives are LT03 to LT10. LT12 now opens with "Where the language is spoken" and LT13 has "Empire, colonies & the language abroad".
+Rules:
+- A note explains a sentence from this article. If there is no sentence, there is no note.
+- Notes never paste a rule from LT02 again: they apply it ("here the verb ends in -m because the subject is I") and link to it.
+- Tables show forms only inside a note; a table is never the whole article.
+- Length: 450 to 900 words in total. Paragraphs are short and about the same length.
+- At A1 write for the learner, not for a linguist: avoid terms that LT02 has not introduced yet, or define them in the note.
+- Written natively in each explanation language from one English outline (headings, seed examples, notes), never translated.
 
-### Left to finalise later
+## What this needs in the system (Phase 1)
 
-Phase 1 onwards (validator rule "every lecture item has an article", reader test with a table article, grammar seed format, authoring command, title clips and sound guard for the new chapters), the per-language country scope, and the pilot (LT02 for Romanian and English).
+1. **Grammar links on articles.** A new field on each article doc, `grammar: ["LT02T10", ...]`, written through `scripts/lib/articles.mjs` / `articles.py` (fixed key order). The renderer shows each as a "See: <topic>" link; LT02 topic pages list the articles that point at them ("Where you will see this").
+2. **Coverage report.** `./run.sh missing` prints, per language, how many articles point to each LT02 topic. The target is at least 3 in-context articles per LT02 topic (T21 may have 2), so no grammar point is explained without being seen in use, and no LT02 topic is left unused.
+3. **Validator.** For `library/lectures`: every topic is `article` + `directional` + has a `level`; every item has an article; `grammar:` values must be LT02 topic codes; notes budget per level (warning, not error).
+4. **Reader check.** Publish one test article with `##` sections, numbered notes, a table and a link; open `/learn/read?id=<topic>:<id>`; check the table, the two-panel layout, the link, and the read-aloud (what is spoken, what is skipped).
+5. **Seed format.** `scripts/seeds/lectures-<lang>.json`: per article the closed list of examples (sentence, IPA, glosses) and the grammar facts (paradigm tables, which feature the language has). `create-lecture-articles.py --check` rejects any quoted word that is not in the seed. Extend it from LT01 T03 to T06 to the new chapters.
+6. **Title clips and sound guard** for the new chapters; add `LT02`.. to `SOUND_GUARDED` once `./run.sh missing` shows no missing or stale clip.
+7. **Item ids.** Continue the `L<n>` article ids after the highest one used.
+
+How the same topic differs by language (written into every language's LT02 articles so the notes stay honest): gender (hu none; en only pronouns), cases (ro 5, de 4, ru 6, hu about 18, en/it/es/fr/pt none, only pronouns), articles (ru none; ro suffix), aspect (ru yes), dropped subjects (ro, it, es, pt, hu yes). A topic is never empty for a language: if a language lacks the feature, the article explains how the language does the same job.
+
+## Order of work
+
+1. **Phase 1** above (system changes, no articles).
+2. **Pilot: Romanian and English.** LT02 T01 and T02 first (they set the tone), then T03 to T21; then LT03 T01 as the first in-context article, to test the template and the links. Review, build, check pages and read-aloud, deploy.
+3. **Other languages**, in the LT01 order: es, it, fr, de, pt, ru, hu. LT02 first, then LT03 and LT04 (A1), and so on up the levels.
+4. **LT07 to LT10** per language after its LT03 to LT06, with a seed of facts (dates, places, names) approved before writing, so nothing is invented.
+
+Size: about 21 + 30 + 29 = 80 articles in LT02 to LT10 per language as a minimum (LT07 to LT10 take several articles per topic), so roughly 150 per language in total, 1,350 for nine languages, each written in up to nine explanation languages. It ships in slices: a topic is live for a language as soon as its English page exists; other explanation languages fill in later (English fallback already works).
+
+## Phase 0 result (done 2026-11-02)
+
+- `git tag pre-lecture-purge`; old `media/lectures/LT02` to `LT12` moved to `C:/Users/eluci/sage-code/purged-lectures-2026-11-02/`; R2 keys listed in `planning/baseline/purged-lecture-keys.txt` and legacy ids in `purged-lecture-legacy-ids.txt`.
+- Database synced (2,340 old units and 2 old topics removed), 1 learned row and 334 listen counts deleted, 4,695 R2 objects deleted (0 failed).
+- The sidebar skeleton was rebuilt a second time for this version: LT01 unchanged, then LT02 to LT10 empty (9 chapters, 67 topics, names in 9 languages). `./run.sh validate` passes.
+- Not yet done: `./run.sh deploy` (publishes the skeleton and runs the database sync, which will also update the topic rows to this version).
+
+## Open points
+
+1. Is 21 topics right for LT02, or should T14/T15 be merged to bring it near 18?
+2. Language-specific extra articles live inside the generic topics. Do you want a dedicated chapter instead for a country with a lot of its own material?
+3. The notes budget per level (A1 two, A2 three, B1+ four) is a starting point; adjust after the pilot.
+
+## First articles (done 2026-11-02)
+
+One English article (target `en`, written in English) for the first topic of each chapter LT02 to LT10: L773 `LT02T01` Propositions and phrases, L774 `LT03T01` Greeting and introducing yourself, L775 `LT04T01` The house and its rooms, L776 `LT05T01` Streets and directions, L777 `LT06T01` Jobs and workplaces, L778 `LT07T01` Family and daily customs, L779 `LT08T01` Where English is spoken, L780 `LT09T01` Origins and early history of English, L781 `LT10T01` Scientists and inventors. Each has its read-aloud (`read/en.mp3`, voice en-US-AvaNeural). The item titles exist in all nine languages (the validator requires it); the article body is English only, other languages fall back to it.
+
+Format work this needed (reader and voice):
+- **Lists and tables inside the existing storage.** A paragraph string that is a table (every line starts with `|`), a bullet list (`- `) or a numbered list (`1. `) is rendered as one. Nothing changed in the stored JSON, in `articles.mjs/py` or in the database. Code: `blockOf` in `src/lib/article.ts`, `ArticleText.vue`, one line in `read.vue` (a headless document keeps its non-heading blocks).
+- **Read-aloud.** `speak_blocks` in `scripts/generate-audio.py`: table lines are not read, list markers are dropped and each item ends like a sentence. The reading scheme version is unchanged, so no LT01 clip became stale.
+
+Still to do for these nine: publish (`./run.sh sync`, `./run.sh media upload`, deploy) and look at each page in the browser; the "See Introduction to Grammar: <topic>" lines are plain text until the `grammar:` link field exists.
