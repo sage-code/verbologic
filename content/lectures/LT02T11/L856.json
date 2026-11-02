@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T11:L856",
   "order": 5,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Completed and ongoing action: aspect",
     "es": "Acción terminada y en curso: el aspecto",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Aspect shows how an action is seen: as a whole, as in progress or as completed. English shows it with the continuous and perfect forms."
+                "Tense places an action in time (past, present or future). Aspect shows how the speaker sees the action: as a simple fact, as something in progress, or as something completed with a result. English has three aspects: simple, continuous and perfect."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I **wrote** a letter. (the whole action)",
-                "I **was writing** a letter. (in progress)",
-                "I **have written** a letter. (result)"
+                "She **works** here. (simple: a fact)",
+                "She **is working** now. (continuous: in progress)",
+                "She **has worked** here for years. (perfect: a result up to now)"
               ]
             }
           ]
@@ -42,14 +42,47 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Aspect</th><th>Form</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>simple</strong></td><td>base form or past</td><td>a fact, a habit or a complete event</td><td><strong>I wrote a letter.</strong></td></tr><tr><td><strong>continuous</strong></td><td>be + -ing</td><td>in progress, temporary</td><td><strong>I was writing a letter.</strong></td></tr><tr><td><strong>perfect</strong></td><td>have + participle</td><td>completed, with a link to a later time</td><td><strong>I had written a letter.</strong></td></tr><tr><td><strong>perfect continuous</strong></td><td>have been + -ing</td><td>in progress up to a time</td><td><strong>I have been writing all day.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Same tense, different aspect",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "English combines tense and aspect. The simple form presents a whole action, the continuous looks inside it, and the perfect looks back at it from a later point."
+                "Compare these two past sentences. The first presents the action as a complete event; the second presents it as an activity in progress, which may not have finished."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Aspect</th><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>simple</td><td>write</td><td><strong>She wrote.</strong></td></tr><tr><td>continuous</td><td>be + -ing</td><td><strong>She was writing.</strong></td></tr><tr><td>perfect</td><td>have + participle</td><td><strong>She had written.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Simple past</th><th>Past continuous</th></tr></thead><tbody><tr><td><strong>I read the book.</strong> (all of it)</td><td><strong>I was reading the book.</strong> (I may not have finished)</td></tr><tr><td><strong>She painted the room.</strong> (the room is painted)</td><td><strong>She was painting the room.</strong> (the work was going on)</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "State verbs",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Verbs of state, such as know, believe, like and belong, normally take the simple aspect, because they do not describe a process. Compare I know him with I am knowing him (not possible). Some verbs change meaning: I think he is right (opinion); I am thinking about it (process)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I am knowing the answer.** Right: **I know the answer.**",
+                "Wrong: **I live here since 2020.** Right: **I have lived here since 2020.**",
+                "Wrong: **She is having a car.** Right: **She has a car.** (have as possession is a state)"
+              ]
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T11:L854",
   "order": 3,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "The past perfect",
     "es": "El pretérito pluscuamperfecto",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The past perfect describes an action that was completed before another action or time in the past."
+                "The past perfect describes an action that was already finished before another moment or action in the past. It is formed with had and the past participle, and it is the same for every person."
               ]
             },
             {
               "type": "bullets",
               "items": [
                 "When I arrived, the film **had started**.",
-                "She **had left** before noon.",
-                "He said he **had finished**."
+                "She **had already left** by the time he called.",
+                "I **had never seen** snow before that winter."
               ]
             }
           ]
@@ -42,14 +42,50 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>statement</td><td><strong>I had finished. She had finished.</strong></td></tr><tr><td>question</td><td><strong>Had you finished?</strong></td></tr><tr><td>negative</td><td><strong>He had not (hadn't) finished.</strong></td></tr><tr><td>short form</td><td><strong>I'd, you'd, she'd</strong> (also for would)</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "The earlier of two past events",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "Form it with had and the past participle. It is used together with the simple past, and the past perfect shows the earlier event."
+                "Use the past perfect for the earlier event and the simple past for the later one. This makes the order of events clear, even when the sentence does not follow the order they happened in."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>affirmative</td><td><strong>She had gone.</strong></td></tr><tr><td>negative</td><td><strong>She hadn't gone.</strong></td></tr><tr><td>two events</td><td><strong>I had eaten before they came.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Order of events</th><th>Sentence</th></tr></thead><tbody><tr><td>first: the film started; then: I arrived</td><td><strong>When I arrived, the film had started.</strong></td></tr><tr><td>first: she left; then: he called</td><td><strong>She had left when he called.</strong></td></tr><tr><td>first: we ate; then: they came</td><td><strong>We had eaten before they came.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common time words",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**already**, **just**, **never**, **ever**: She had already gone.",
+                "**by the time**: By the time we arrived, they had gone.",
+                "**after**, **before**: After he had eaten, he left.",
+                "**because**, **as**: She was tired because she had worked all night."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **After I have eaten, I left.** Right: **After I had eaten, I left.**",
+                "Wrong: **She had went.** Right: **She had gone.**",
+                "Wrong: **I had seen him yesterday.** Right: **I saw him yesterday.** (use the past perfect only when it is the earlier of two past events)"
+              ]
             }
           ]
         }

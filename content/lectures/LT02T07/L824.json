@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T07:L824",
   "order": 1,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Reflexive pronouns",
     "es": "Los pronombres reflexivos",
@@ -25,14 +25,14 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A reflexive pronoun shows that the subject and the object are the same person or thing. It ends in -self or -selves."
+                "A reflexive pronoun ends in -self (singular) or -selves (plural). It refers back to the subject of the sentence. English has myself, yourself, himself, herself, itself, ourselves, yourselves and themselves."
               ]
             },
             {
               "type": "bullets",
               "items": [
                 "I cut **myself**.",
-                "She taught **herself** to swim.",
+                "She looked at **herself** in the mirror.",
                 "They enjoyed **themselves**."
               ]
             }
@@ -44,12 +44,51 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Reflexives are used after verbs and prepositions, and also for emphasis. Many verbs that are reflexive in other languages are not reflexive in English: I wash and I dress."
+                "The pronoun must agree with the subject in person and number. Singular you has yourself, but plural you has yourselves. Use the reflexive when subject and object are the same person; use an ordinary object pronoun when they are different."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Subject</th><th>Reflexive</th></tr></thead><tbody><tr><td><strong>I, you</strong></td><td><strong>myself, yourself</strong></td></tr><tr><td><strong>he, she, it</strong></td><td><strong>himself, herself, itself</strong></td></tr><tr><td><strong>we, you, they</strong></td><td><strong>ourselves, yourselves, themselves</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Subject</th><th>Reflexive</th><th>Example</th></tr></thead><tbody><tr><td>I</td><td>myself</td><td><strong>I taught myself.</strong></td></tr><tr><td>you (singular)</td><td>yourself</td><td><strong>Help yourself.</strong></td></tr><tr><td>he / she / it</td><td>himself / herself / itself</td><td><strong>He hurt himself.</strong></td></tr><tr><td>we</td><td>ourselves</td><td><strong>We blamed ourselves.</strong></td></tr><tr><td>you (plural)</td><td>yourselves</td><td><strong>Enjoy yourselves.</strong></td></tr><tr><td>they</td><td>themselves</td><td><strong>They defended themselves.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "When English does not use a reflexive",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Many English verbs that describe washing, dressing or feeling do not take a reflexive pronoun, unlike the same verbs in many other languages. We say wash, dress and shave when the meaning is clear. Use the reflexive for emphasis or contrast."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Without reflexive</th><th>With reflexive</th></tr></thead><tbody><tr><td><strong>He washed and dressed.</strong></td><td><strong>He dressed himself</strong> (without help).</td></tr><tr><td><strong>I feel tired.</strong></td><td><strong>I told myself it was fine.</strong></td></tr><tr><td><strong>We met at six.</strong></td><td><strong>We introduced ourselves.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Emphasis",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A reflexive pronoun can also emphasise the subject: I did it myself means nobody helped me. By + reflexive means alone: She lives by herself."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Unnatural: **He shaved himself every morning.** Natural: **He shaved every morning.**",
+                "Wrong: **Myself and John went.** Right: **John and I went.**",
+                "Wrong: **They hurt theirselves.** Right: **themselves.**"
+              ]
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T21:L921",
   "order": 2,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Compound words",
     "es": "Las palabras compuestas",
@@ -25,31 +25,65 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A compound word is made of two or more words that together have a new meaning."
+                "A compound word is made of two or more words that together have a single meaning, which is often not the sum of the parts. English forms compounds very freely. They may be written as one word, as two words or with a hyphen, and the spelling has to be learned."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**sun** + **flower** = sunflower",
-                "**post** + **box** = postbox",
-                "**mother-in-law**"
+                "**toothbrush** (one word)",
+                "**post office** (two words)",
+                "**mother-in-law** (hyphens)"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Kinds of compound",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Type</th><th>Examples</th><th>Stress</th></tr></thead><tbody><tr><td>noun + noun</td><td><strong>bedroom, football, traffic light, bus stop</strong></td><td>first part: <strong>BEDroom</strong></td></tr><tr><td>adjective + noun</td><td><strong>blackboard, greenhouse, highway</strong></td><td>first part: <strong>BLACKboard</strong></td></tr><tr><td>verb + noun</td><td><strong>washing machine, swimming pool</strong></td><td>first part</td></tr><tr><td>noun + verb-er</td><td><strong>bus driver, shopkeeper</strong></td><td>first part</td></tr><tr><td>verb + preposition</td><td><strong>takeaway, breakdown, check-in</strong></td><td>first part</td></tr><tr><td>adjective + noun (not a compound)</td><td><strong>a black BOARD</strong> (any board that is black)</td><td>second part</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Plurals and adjectives",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A compound may be written as one word, as two words or with a hyphen. There is no fixed rule, so check a dictionary. The last word usually gives the main meaning and takes the plural: toothbrushes."
+                "The plural ending goes on the last word of most compounds: toothbrushes, bus stops. In compounds with a noun first and a preposition, the first noun takes the plural: mothers-in-law, passers-by. A compound adjective with a number is singular: a ten-minute walk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Meaning",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The first word describes the second: a bus stop is a stop for buses; a stop bus would be a different thing. In English, noun + noun compounds are very common, and the order matters: a house boat and a boat house are not the same."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>one word</td><td><strong>notebook</strong></td></tr><tr><td>two words</td><td><strong>ice cream</strong></td></tr><tr><td>hyphenated</td><td><strong>well-known</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Compound</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>a flower shop</strong></td><td>a shop that sells flowers</td></tr><tr><td><strong>a shop flower</strong></td><td>a flower from a shop</td></tr><tr><td><strong>a boat house</strong></td><td>a house for boats</td></tr><tr><td><strong>a house boat</strong></td><td>a boat to live in</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **a ten-minutes walk** Right: **a ten-minute walk**",
+                "Wrong: **the shop of shoes** Right: **the shoe shop**",
+                "Wrong: **a bus's stop** Right: **a bus stop**",
+                "Wrong: **a girl friend** (for some uses) Right: **girlfriend**; check a dictionary for each compound."
+              ]
             }
           ]
         }

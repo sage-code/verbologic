@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T15:L883",
   "order": 7,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Verbs followed by infinitive or gerund",
     "es": "Verbos seguidos de infinitivo o gerundio",
@@ -25,31 +25,62 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Some verbs are followed by the infinitive, some by the gerund, and some by either."
+                "After a verb, English uses either the to-infinitive or the -ing form, and the choice depends on the first verb. You have to learn which verbs take which form. A few verbs can take either, with the same or a different meaning."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I **enjoy** reading. (gerund)",
-                "I **want** to read. (infinitive)",
-                "I **like** reading and I **like** to read. (both)"
+                "I want **to go**. (infinitive only)",
+                "I enjoy **swimming**. (gerund only)",
+                "I like **to swim / swimming**. (both)"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Infinitive only, or gerund only",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Infinitive</th><th>Gerund</th></tr></thead><tbody><tr><td><strong>want, hope, plan, decide, promise, refuse, manage, afford</strong></td><td><strong>enjoy, finish, avoid, consider, suggest, mind, keep, practise</strong></td></tr><tr><td><strong>I decided to leave.</strong></td><td><strong>I finished working.</strong></td></tr><tr><td><strong>She refused to go.</strong></td><td><strong>He suggested going.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Either form with the same meaning",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A few verbs change meaning with the form. Stop doing means to end an action, and stop to do means to pause in order to do something. Remember and forget work in a similar way."
+                "Like, love, hate, prefer, begin, start and continue can take either form with little difference in meaning. The infinitive is slightly more usual for a particular occasion, and the gerund for a general activity."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Verb</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>stop + gerund</strong></td><td>end the action</td><td><strong>He stopped smoking.</strong></td></tr><tr><td><strong>stop + infinitive</strong></td><td>pause to do something</td><td><strong>He stopped to smoke.</strong></td></tr><tr><td><strong>remember + gerund</strong></td><td>recall the past</td><td><strong>I remember meeting her.</strong></td></tr><tr><td><strong>remember + infinitive</strong></td><td>not forget to</td><td><strong>Remember to lock the door.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>General (gerund)</th><th>Particular (infinitive)</th></tr></thead><tbody><tr><td><strong>I like swimming.</strong></td><td><strong>I'd like to swim today.</strong></td></tr><tr><td><strong>She loves dancing.</strong></td><td><strong>She'd love to dance.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Verbs that change meaning",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Verb</th><th>+ infinitive</th><th>+ gerund</th></tr></thead><tbody><tr><td><strong>remember</strong></td><td><strong>Remember to lock the door.</strong> (do it)</td><td><strong>I remember locking it.</strong> (I did it)</td></tr><tr><td><strong>forget</strong></td><td><strong>Don't forget to call.</strong></td><td><strong>I'll never forget meeting her.</strong></td></tr><tr><td><strong>stop</strong></td><td><strong>He stopped to rest.</strong> (in order to)</td><td><strong>He stopped working.</strong> (ended it)</td></tr><tr><td><strong>try</strong></td><td><strong>Try to be quiet.</strong> (make an effort)</td><td><strong>Try adding salt.</strong> (experiment)</td></tr><tr><td><strong>regret</strong></td><td><strong>I regret to say...</strong> (sad news)</td><td><strong>I regret saying that.</strong> (past action)</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I enjoy to swim.** Right: **I enjoy swimming.**",
+                "Wrong: **I want swimming.** Right: **I want to swim.**",
+                "Wrong: **She stopped to smoke.** (if you mean she quit) Right: **stopped smoking**"
+              ]
             }
           ]
         }

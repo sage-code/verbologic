@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T21:L925",
   "order": 6,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Idioms and fixed expressions",
     "es": "Modismos y expresiones fijas",
@@ -25,31 +25,61 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An idiom is a fixed group of words whose meaning is not the sum of its parts."
+                "An idiom is an expression whose meaning cannot be understood from the words alone, and that cannot usually be changed. A fixed expression is a set phrase, such as by the way or as a matter of fact. English has thousands, and native speakers use them all the time."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**break the ice**",
-                "**it's raining cats and dogs**",
-                "**a piece of cake**"
+                "It's raining **cats and dogs**. (very heavily)",
+                "He **kicked the bucket**. (died)",
+                "Let's **call it a day**. (stop working)"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Common idioms",
           "blocks": [
             {
-              "type": "paragraphs",
-              "paragraphs": [
-                "Idioms usually cannot be changed word by word. Learn them as units, with the verb that goes with them. Fixed expressions also include collocations such as make a decision and do the dishes."
-              ]
-            },
+              "type": "table",
+              "html": "<table><thead><tr><th>Idiom</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>a piece of cake</strong></td><td>very easy</td><td><strong>The exam was a piece of cake.</strong></td></tr><tr><td><strong>break the ice</strong></td><td>start a conversation</td><td><strong>He told a joke to break the ice.</strong></td></tr><tr><td><strong>once in a blue moon</strong></td><td>very rarely</td><td><strong>We meet once in a blue moon.</strong></td></tr><tr><td><strong>under the weather</strong></td><td>slightly ill</td><td><strong>I'm feeling under the weather.</strong></td></tr><tr><td><strong>hit the nail on the head</strong></td><td>say exactly the right thing</td><td><strong>You hit the nail on the head.</strong></td></tr><tr><td><strong>spill the beans</strong></td><td>reveal a secret</td><td><strong>Don't spill the beans.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Fixed phrases",
+          "blocks": [
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Idiom</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>break the ice</strong></td><td>start a conversation</td></tr><tr><td><strong>a piece of cake</strong></td><td>very easy</td></tr><tr><td><strong>under the weather</strong></td><td>slightly ill</td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Type</th><th>Examples</th></tr></thead><tbody><tr><td>discourse markers</td><td><strong>by the way, on the other hand, in fact, as a matter of fact</strong></td></tr><tr><td>greetings and wishes</td><td><strong>how do you do, good luck, best wishes</strong></td></tr><tr><td>binomials (fixed pairs)</td><td><strong>black and white, salt and pepper, now and then</strong></td></tr><tr><td>collocations</td><td><strong>make a decision, do the shopping, heavy rain</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "How to learn idioms",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Learn the whole phrase, not the single words.",
+                "Notice them in context when you read or listen.",
+                "Do not change the words or the word order: **a piece of cake**, not a slice of cake.",
+                "Use them with care: idioms are often informal and may not suit a formal text."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **It rains cats and dogs of water.** Right: **It's raining cats and dogs.**",
+                "Wrong: **a slice of cake** (for easy) Right: **a piece of cake**",
+                "Wrong: **Break the ice** (literally) when you mean a real ice. Context tells which meaning is intended."
+              ]
             }
           ]
         }

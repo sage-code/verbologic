@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T19:L912",
   "order": 7,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Reported speech",
     "es": "El estilo indirecto",
@@ -25,31 +25,69 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Reported speech tells what someone said without using their exact words."
+                "Direct speech gives the exact words of a speaker, in quotation marks. Reported (or indirect) speech tells what was said in the reporter's own words, and it changes the tenses, pronouns and time expressions to fit the new point of view."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "She said that she **was tired**.",
-                "He asked if I **liked** tea.",
-                "They told us to **wait**."
+                "\"I am tired,\" she said. (direct)",
+                "She said that she **was** tired. (reported)",
+                "He asked me **where I lived**. (reported question)"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "How tenses change",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "After a past reporting verb, the tense usually moves one step back, and pronouns and time words change: today becomes that day and here becomes there. Questions are reported with if or a question word and statement order."
+                "When the reporting verb is in the past, the verb in the reported clause usually moves one step back in time."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Direct</th><th>Reported</th></tr></thead><tbody><tr><td><strong>\"I am tired.\"</strong></td><td><strong>She said she was tired.</strong></td></tr><tr><td><strong>\"Do you like tea?\"</strong></td><td><strong>He asked if I liked tea.</strong></td></tr><tr><td><strong>\"Wait here.\"</strong></td><td><strong>He told us to wait there.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Direct speech</th><th>Reported speech</th></tr></thead><tbody><tr><td><strong>present simple: \"I work.\"</strong></td><td><strong>past simple: She said she worked.</strong></td></tr><tr><td><strong>present continuous: \"I am working.\"</strong></td><td><strong>past continuous: She said she was working.</strong></td></tr><tr><td><strong>present perfect: \"I have worked.\"</strong></td><td><strong>past perfect: She said she had worked.</strong></td></tr><tr><td><strong>simple past: \"I worked.\"</strong></td><td><strong>past perfect: She said she had worked.</strong></td></tr><tr><td><strong>will: \"I will work.\"</strong></td><td><strong>would: She said she would work.</strong></td></tr><tr><td><strong>can: \"I can work.\"</strong></td><td><strong>could: She said she could work.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Pronouns and time words",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Direct</th><th>Reported</th></tr></thead><tbody><tr><td><strong>I / my</strong></td><td><strong>he or she / his or her</strong></td></tr><tr><td><strong>here</strong></td><td><strong>there</strong></td></tr><tr><td><strong>now</strong></td><td><strong>then</strong></td></tr><tr><td><strong>today / tomorrow / yesterday</strong></td><td><strong>that day / the next day / the day before</strong></td></tr><tr><td><strong>this / these</strong></td><td><strong>that / those</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Questions and commands",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Type</th><th>Direct</th><th>Reported</th></tr></thead><tbody><tr><td>yes / no question</td><td><strong>\"Are you ready?\"</strong></td><td><strong>He asked if / whether I was ready.</strong></td></tr><tr><td>wh- question</td><td><strong>\"Where do you live?\"</strong></td><td><strong>He asked where I lived.</strong></td></tr><tr><td>command</td><td><strong>\"Sit down.\"</strong></td><td><strong>He told me to sit down.</strong></td></tr><tr><td>negative command</td><td><strong>\"Don't go.\"</strong></td><td><strong>He told me not to go.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Reported questions use statement word order, with no do and no question mark: She asked where he lived (not: where did he live)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **He said me that he was ill.** Right: **He told me that he was ill.**",
+                "Wrong: **She asked where did I live.** Right: **where I lived**",
+                "Wrong: **He told that he was ill.** Right: **He said that he was ill.**",
+                "If the statement is still true, the tense may stay: She said that the Earth goes round the Sun."
+              ]
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T07:L823",
   "order": 0,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Object pronouns",
     "es": "Los pronombres de complemento",
@@ -25,15 +25,16 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Object pronouns stand for the person or thing that receives the action. English has me, you, him, her, it, us and them."
+                "An object pronoun replaces a noun that is the object of a verb or of a preposition. English has seven: me, you, him, her, it, us and them. Compare the subject pronouns, which come before the verb: I, you, he, she, it, we and they."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "She called **me**.",
-                "I saw **them**.",
-                "Give **him** the book."
+                "She called **me** yesterday.",
+                "I gave **them** the tickets.",
+                "Come with **us**.",
+                "Look at **it**."
               ]
             }
           ]
@@ -44,12 +45,53 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Use an object pronoun after a verb or a preposition. You and it have the same form as the subject."
+                "An object pronoun follows the verb or the preposition. Only the forms of the personal pronouns change between subject and object; nouns do not. After the verb, you can use it for a thing, but for a person you must choose him, her or them."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Subject</th><th>Object</th></tr></thead><tbody><tr><td><strong>I</strong></td><td><strong>me</strong></td></tr><tr><td><strong>he, she</strong></td><td><strong>him, her</strong></td></tr><tr><td><strong>we, they</strong></td><td><strong>us, them</strong></td></tr><tr><td><strong>who</strong></td><td><strong>whom</strong> (formal)</td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Subject</th><th>Object</th><th>Example</th></tr></thead><tbody><tr><td>I</td><td>me</td><td><strong>He helped me.</strong></td></tr><tr><td>you</td><td>you</td><td><strong>I saw you.</strong></td></tr><tr><td>he</td><td>him</td><td><strong>We know him.</strong></td></tr><tr><td>she</td><td>her</td><td><strong>They asked her.</strong></td></tr><tr><td>it</td><td>it</td><td><strong>She bought it.</strong></td></tr><tr><td>we</td><td>us</td><td><strong>He told us.</strong></td></tr><tr><td>they</td><td>them</td><td><strong>I like them.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Direct and indirect objects",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some verbs take two objects: the person who receives and the thing that is given. With a pronoun for the person, the order is verb + person + thing, or verb + thing + to + person."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>verb + person + thing</strong></td><td><strong>She gave him the book.</strong></td></tr><tr><td><strong>verb + thing + to + person</strong></td><td><strong>She gave the book to him.</strong></td></tr><tr><td><strong>both pronouns</strong></td><td><strong>She gave it to him.</strong> (not: She gave him it, in most dialects)</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Me and him went home.** Right: **He and I went home.** (subject forms are used for the subject)",
+                "Wrong: **This is between you and I.** Right: **This is between you and me.** (after a preposition use the object form)",
+                "Wrong: **Give to me it.** Right: **Give it to me.**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Remember",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Use object forms after verbs and prepositions.",
+                "Keep I for the subject; use me after a preposition: with me, for me.",
+                "After than and as, careful speech uses the subject form with an understood verb: She is taller than I (am). In informal speech, than me is common."
+              ]
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T19:L908",
   "order": 3,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Clauses of time",
     "es": "Oraciones temporales",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Clauses of time say when something happens. They begin with when, while, after, before, until, since or as soon as."
+                "A time clause is a dependent clause that tells when the action of the main clause happens. It begins with a conjunction such as when, while, before, after, until, since, as soon as or once."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "Call me **when you arrive**.",
-                "She read **while he cooked**.",
-                "We waited **until it stopped**."
+                "**When I got home**, I made dinner.",
+                "She called **while I was cooking**.",
+                "Wait **until I come back**."
               ]
             }
           ]
@@ -42,14 +42,47 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Conjunction</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>when</strong></td><td>at the time that</td><td><strong>When it rains, I stay in.</strong></td></tr><tr><td><strong>while / as</strong></td><td>during the time that</td><td><strong>While I was reading, he slept.</strong></td></tr><tr><td><strong>before</strong></td><td>earlier than</td><td><strong>Call me before you leave.</strong></td></tr><tr><td><strong>after</strong></td><td>later than</td><td><strong>After we ate, we went out.</strong></td></tr><tr><td><strong>until / till</strong></td><td>up to the time that</td><td><strong>Wait until she comes.</strong></td></tr><tr><td><strong>since</strong></td><td>from the time that</td><td><strong>I've known him since we were at school.</strong></td></tr><tr><td><strong>as soon as / once</strong></td><td>immediately after</td><td><strong>Call me as soon as you arrive.</strong></td></tr><tr><td><strong>by the time</strong></td><td>not later than</td><td><strong>By the time we arrived, it was over.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Tenses in time clauses",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "Use the simple present after these words when you mean the future, and the past perfect to show an earlier event. While joins actions that go on at the same time."
+                "For the future, use a present form in the time clause: I'll call you when I arrive (not: when I will arrive). For a time before another action, the past perfect often appears: When I had finished, I left."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Conjunction</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>when</strong></td><td>at the time</td><td><strong>When she came, we left.</strong></td></tr><tr><td><strong>while</strong></td><td>at the same time</td><td><strong>While I read, he slept.</strong></td></tr><tr><td><strong>until</strong></td><td>up to that time</td><td><strong>Wait until I call.</strong></td></tr><tr><td><strong>since</strong></td><td>from then to now</td><td><strong>I've lived here since May.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Meaning</th><th>Main clause</th><th>Time clause</th></tr></thead><tbody><tr><td>future</td><td>will + verb</td><td>present simple: <strong>I'll call when I arrive.</strong></td></tr><tr><td>past (later action)</td><td>simple past</td><td>past perfect: <strong>I left after I had eaten.</strong></td></tr><tr><td>habit</td><td>present simple</td><td>present simple: <strong>When it rains, I stay in.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Reduction",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "When both clauses have the same subject, the time clause can be shortened with an -ing form: While waiting, I read a book. After leaving school, he became a nurse."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **When I will see him, I'll tell him.** Right: **When I see him, I'll tell him.**",
+                "Wrong: **I have known her since three years.** Right: **for three years**",
+                "Wrong: **I waited until she came back and then I'm going.** Keep tenses consistent."
+              ]
             }
           ]
         }

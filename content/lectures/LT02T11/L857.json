@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T11:L857",
   "order": 6,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Time expressions for the past",
     "es": "Expresiones de tiempo para el pasado",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Time expressions place an action in the past: yesterday, last week, ago and in 2010."
+                "A time expression tells when an action happened or how long it lasted. In the past, certain expressions go with the simple past, others with the present perfect, so a good choice of expression helps you choose the tense."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**yesterday**, **last night**",
-                "**three days ago**",
-                "**in 2010**, **on Monday**"
+                "I met her **yesterday**.",
+                "We have known each other **for years**.",
+                "He left **two hours ago**."
               ]
             }
           ]
@@ -42,14 +42,47 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Expression</th><th>Used with</th><th>Example</th></tr></thead><tbody><tr><td><strong>yesterday, last week, in 2010</strong></td><td>simple past</td><td><strong>We moved last year.</strong></td></tr><tr><td><strong>ago</strong></td><td>simple past</td><td><strong>She left an hour ago.</strong></td></tr><tr><td><strong>for, since</strong></td><td>present perfect</td><td><strong>I have lived here for five years.</strong></td></tr><tr><td><strong>just, already, yet</strong></td><td>present perfect</td><td><strong>Has he arrived yet?</strong></td></tr><tr><td><strong>ever, never</strong></td><td>present perfect</td><td><strong>I've never seen it.</strong></td></tr><tr><td><strong>when, while, as</strong></td><td>past tenses</td><td><strong>While I was out, it rained.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "For, since and ago",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "Use the simple past with finished times. Use ago after a length of time. Use for and since with the present perfect, and just, already and yet with it too."
+                "For gives a length of time. Since gives the starting point. Ago counts back from now. They have different tenses and meanings."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Word</th><th>Tense</th><th>Example</th></tr></thead><tbody><tr><td><strong>ago</strong></td><td>simple past</td><td><strong>She left an hour ago.</strong></td></tr><tr><td><strong>for</strong></td><td>present perfect</td><td><strong>I have lived here for years.</strong></td></tr><tr><td><strong>since</strong></td><td>present perfect</td><td><strong>He has worked here since May.</strong></td></tr><tr><td><strong>just, already, yet</strong></td><td>present perfect</td><td><strong>We have just arrived.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Word</th><th>Example</th></tr></thead><tbody><tr><td><strong>for</strong></td><td><strong>I lived there for three years.</strong> (finished) / <strong>I have lived here for three years.</strong> (still)</td></tr><tr><td><strong>since</strong></td><td><strong>I have lived here since 2020.</strong></td></tr><tr><td><strong>ago</strong></td><td><strong>I moved here three years ago.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Position",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Time expressions usually come at the end of the sentence or at the beginning. Adverbs such as already, just and never go before the main verb. With a beginning expression, a comma often follows: Last year, we moved."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I have seen him last week.** Right: **I saw him last week.**",
+                "Wrong: **She lives here since 2018.** Right: **She has lived here since 2018.**",
+                "Wrong: **I met him since three years.** Right: **I met him three years ago.**"
+              ]
             }
           ]
         }

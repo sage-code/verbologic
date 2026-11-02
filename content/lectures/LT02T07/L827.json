@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T07:L827",
   "order": 4,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Demonstrative pronouns",
     "es": "Los pronombres demostrativos",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A demonstrative pronoun points to something without naming it. English has this, that, these and those."
+                "A demonstrative pronoun points to a person or thing and replaces the noun. English has four forms: this and these for things that are near, and that and those for things that are far."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**This** is delicious.",
-                "**That** looks heavy.",
-                "**Those** are mine."
+                "**This** is my sister.",
+                "**Those** are expensive.",
+                "I prefer **that**."
               ]
             }
           ]
@@ -44,12 +44,54 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A demonstrative pronoun stands alone, while a demonstrative before a noun is a determiner. Use this and these for near things, and that and those for far things."
+                "Demonstratives show distance in space or time and have singular and plural forms. The same words are used as determiners before a noun: this book, those people. As pronouns, they stand alone."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Near</th><th>Far</th></tr></thead><tbody><tr><td><strong>This is my phone.</strong></td><td><strong>That is your phone.</strong></td></tr><tr><td><strong>These are my keys.</strong></td><td><strong>Those are your keys.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Distance</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td>near</td><td><strong>this</strong></td><td><strong>these</strong></td></tr><tr><td>far</td><td><strong>that</strong></td><td><strong>those</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "This and these can also refer to the present moment or to what you are about to say: Listen to this. That and those refer to what has already been said or is over: That was a good idea."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pronoun or determiner?",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pronoun (alone)</th><th>Determiner (before a noun)</th></tr></thead><tbody><tr><td><strong>This is easy.</strong></td><td><strong>This exercise is easy.</strong></td></tr><tr><td><strong>Those are mine.</strong></td><td><strong>Those shoes are mine.</strong></td></tr><tr><td><strong>I like that.</strong></td><td><strong>I like that song.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Other uses",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "On the telephone: **Hello, this is Anna.** (not: I am Anna)",
+                "To introduce a person: **This is my friend Tom.**",
+                "To avoid repeating a noun: **The weather in Spain is warmer than that in England.**",
+                "In comparisons: **Prices here are higher than those in the north.**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **These is my book.** Right: **This is my book.**",
+                "Wrong: **I like this ones.** Right: **I like these ones.** (or: these)",
+                "Wrong: **What is this? Those are mine.** Make the number agree: **These are mine.**"
+              ]
             }
           ]
         }

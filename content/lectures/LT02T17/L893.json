@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T17:L893",
   "order": 3,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Prepositions of time",
     "es": "Preposiciones de tiempo",
@@ -25,31 +25,59 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Prepositions of time tell when something happens."
+                "Prepositions of time say when something happens, how long it lasts or how long ago it began. The main ones are at, on and in, and they are used with different kinds of time words."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "at **nine o'clock**",
-                "on **Sunday**",
-                "in **July**"
+                "The meeting is **at** nine.",
+                "We met **on** Monday.",
+                "She was born **in** May."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "At, on and in",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Used with</th><th>Example</th></tr></thead><tbody><tr><td><strong>at</strong></td><td>clock times, night, festivals</td><td><strong>at six, at night, at Christmas, at the weekend (BrE)</strong></td></tr><tr><td><strong>on</strong></td><td>days and dates</td><td><strong>on Friday, on 5 May, on my birthday</strong></td></tr><tr><td><strong>in</strong></td><td>months, seasons, years, centuries, parts of the day</td><td><strong>in July, in winter, in 2020, in the morning</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Other prepositions of time",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>for</strong></td><td>length of time</td><td><strong>for three hours</strong></td></tr><tr><td><strong>since</strong></td><td>from a starting point until now</td><td><strong>since 2015</strong></td></tr><tr><td><strong>during</strong></td><td>within a period</td><td><strong>during the summer</strong></td></tr><tr><td><strong>until / till</strong></td><td>up to a time</td><td><strong>until six</strong></td></tr><tr><td><strong>by</strong></td><td>not later than</td><td><strong>by Friday</strong></td></tr><tr><td><strong>before / after</strong></td><td>earlier / later</td><td><strong>before lunch, after school</strong></td></tr><tr><td><strong>from... to</strong></td><td>start and end</td><td><strong>from nine to five</strong></td></tr><tr><td><strong>within</strong></td><td>inside a period</td><td><strong>within a week</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "No preposition",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Use at for clock times, on for days and dates, and in for months, seasons, years and parts of the day. Use for with a length of time and since with a starting point."
+                "English uses no preposition before this, that, next, last, every, each, some and all in time expressions: next week, last year, every day, this morning, all night."
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
             {
-              "type": "table",
-              "html": "<table><thead><tr><th>Preposition</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td><strong>at</strong></td><td>clock time</td><td><strong>at noon</strong></td></tr><tr><td><strong>on</strong></td><td>day, date</td><td><strong>on Friday</strong></td></tr><tr><td><strong>in</strong></td><td>month, year</td><td><strong>in 2020</strong></td></tr><tr><td><strong>for, since</strong></td><td>duration</td><td><strong>for a week, since May</strong></td></tr></tbody></table>"
+              "type": "bullets",
+              "items": [
+                "Wrong: **I will see you in Monday.** Right: **on Monday**",
+                "Wrong: **at the morning** Right: **in the morning**",
+                "Wrong: **I have lived here from 2018.** Right: **since 2018**",
+                "Wrong: **I will see you on next week.** Right: **next week**"
+              ]
             }
           ]
         }

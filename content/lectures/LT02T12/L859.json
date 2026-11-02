@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T12:L859",
   "order": 0,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "The simple future",
     "es": "El futuro simple",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "English has no future ending on the verb. It forms the future with will and the base form."
+                "English has no future ending on the verb. Instead, the future is formed with the modal verb will and the base form of the main verb. Will is used for predictions, spontaneous decisions, promises and offers."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "It **will** rain tomorrow.",
-                "I **will** call you.",
-                "They **will** be here at six."
+                "It **will rain** tomorrow.",
+                "I **will help** you.",
+                "They **will arrive** at six."
               ]
             }
           ]
@@ -42,14 +42,49 @@
           "title": "How it works in English",
           "blocks": [
             {
-              "type": "paragraphs",
-              "paragraphs": [
-                "Will is used for predictions, spontaneous decisions and promises. The short form is 'll and the negative is won't."
-              ]
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>statement</td><td><strong>I will go. She will go.</strong></td></tr><tr><td>question</td><td><strong>Will you go?</strong></td></tr><tr><td>negative</td><td><strong>I will not (won't) go.</strong></td></tr><tr><td>short form</td><td><strong>I'll, you'll, she'll, we'll, they'll</strong></td></tr></tbody></table>"
             },
             {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Will is the same for every person. The main verb always stays in the base form: She will go, not She will goes. In formal British English shall is sometimes used with I and we, especially in questions: Shall I open the window?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "When to use it",
+          "blocks": [
+            {
               "type": "table",
-              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>prediction</td><td><strong>It will be cold.</strong></td></tr><tr><td>decision</td><td><strong>I'll open the window.</strong></td></tr><tr><td>promise</td><td><strong>I won't forget.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>prediction</td><td><strong>It will be sunny tomorrow.</strong></td></tr><tr><td>spontaneous decision</td><td><strong>The phone is ringing. I'll answer it.</strong></td></tr><tr><td>promise</td><td><strong>I will call you tonight.</strong></td></tr><tr><td>offer</td><td><strong>I'll carry your bag.</strong></td></tr><tr><td>refusal (won't)</td><td><strong>The car won't start.</strong></td></tr><tr><td>fact about the future</td><td><strong>The meeting will start at nine.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Words that go with will",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**probably**: She will probably come. (the adverb goes after will)",
+                "**I think**, **I expect**, **I hope**: I think it will rain.",
+                "**tomorrow, next week, soon, in two days**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I will to go.** Right: **I will go.**",
+                "Wrong: **She will goes.** Right: **She will go.**",
+                "Wrong: **If it will rain, we'll stay.** Right: **If it rains, we'll stay.** (no will in the if-clause)"
+              ]
             }
           ]
         }

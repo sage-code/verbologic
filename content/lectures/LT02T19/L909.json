@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T19:L909",
   "order": 4,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Clauses of cause and purpose",
     "es": "Oraciones causales y finales",
@@ -25,31 +25,58 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A clause of cause says why something happened. A clause of purpose says why someone does something."
+                "A clause of cause answers the question Why did it happen? and a clause of purpose answers For what aim? Each begins with its own conjunctions, and the choice depends on whether the reason is a fact (cause) or a goal (purpose)."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "He stayed home **because he was ill**.",
-                "I called **so that** you would know.",
-                "She saved money **to buy** a car."
+                "We stayed in **because it was raining**. (cause)",
+                "I'm learning English **so that I can travel**. (purpose)",
+                "She went to the bank **to get some money**. (purpose)"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Clauses of cause",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Conjunction</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td><strong>because</strong></td><td>the usual reason</td><td><strong>I stayed because I was tired.</strong></td></tr><tr><td><strong>since / as</strong></td><td>a reason already known</td><td><strong>Since you're here, you can help.</strong></td></tr><tr><td><strong>because of + noun</strong></td><td>a reason as a phrase</td><td><strong>because of the rain</strong></td></tr><tr><td><strong>for</strong></td><td>formal, written reason</td><td><strong>He wept, for he was alone.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Clauses of purpose",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>to + base verb</strong></td><td><strong>I called to ask about the job.</strong></td></tr><tr><td><strong>in order to / so as to</strong></td><td><strong>She left early in order to avoid the traffic.</strong></td></tr><tr><td><strong>so that + can / will</strong></td><td><strong>I'm saving money so that I can travel.</strong></td></tr><tr><td><strong>so that + could / would</strong> (past)</td><td><strong>He left early so that he wouldn't be late.</strong></td></tr><tr><td><strong>for + -ing</strong> (use of a thing)</td><td><strong>A knife is for cutting.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Negative purpose and result",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Use because, since and as for reasons. Use to, in order to and so that for purposes. So that is followed by a clause, and to by a base verb."
+                "For negative purpose use in order not to, so as not to or so that... not: She spoke quietly in order not to wake the baby. Result is different from purpose: so + adjective + that shows a result (It was so cold that we stayed in)."
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
             {
-              "type": "table",
-              "html": "<table><thead><tr><th>Meaning</th><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>cause</td><td><strong>because, since, as</strong></td><td><strong>She left because it was late.</strong></td></tr><tr><td>purpose</td><td><strong>to, in order to</strong></td><td><strong>I came to help.</strong></td></tr><tr><td>purpose clause</td><td><strong>so that</strong></td><td><strong>Speak slowly so that we understand.</strong></td></tr></tbody></table>"
+              "type": "bullets",
+              "items": [
+                "Wrong: **I went to the shop for buy bread.** Right: **to buy bread**",
+                "Wrong: **Because it was raining, so we stayed.** Right: **Because it was raining, we stayed.**",
+                "Wrong: **I study hard so that I will pass.** (in the past) Right: **so that I would pass**"
+              ]
             }
           ]
         }

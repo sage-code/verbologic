@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T19:L905",
   "order": 0,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Coordinating conjunctions",
     "es": "Conjunciones coordinantes",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Coordinating conjunctions join words, phrases or clauses of equal rank. The main ones are and, but, or, so, for, nor and yet."
+                "A coordinating conjunction joins words, phrases or clauses of equal importance. English has seven, easily remembered as FANBOYS: for, and, nor, but, or, yet and so."
               ]
             },
             {
               "type": "bullets",
               "items": [
                 "tea **and** coffee",
-                "I tried, **but** I failed.",
-                "Stay **or** go."
+                "You can stay **or** you can leave.",
+                "He was tired, **but** he kept working."
               ]
             }
           ]
@@ -42,14 +42,41 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Conjunction</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>for</strong></td><td>reason (formal)</td><td><strong>He stayed, for he was tired.</strong></td></tr><tr><td><strong>and</strong></td><td>addition</td><td><strong>She sings and he plays.</strong></td></tr><tr><td><strong>nor</strong></td><td>negative addition</td><td><strong>He neither writes nor calls.</strong></td></tr><tr><td><strong>but</strong></td><td>contrast</td><td><strong>It is cheap but good.</strong></td></tr><tr><td><strong>or</strong></td><td>choice</td><td><strong>Tea or coffee?</strong></td></tr><tr><td><strong>yet</strong></td><td>surprising contrast</td><td><strong>It is old, yet it works.</strong></td></tr><tr><td><strong>so</strong></td><td>result</td><td><strong>It rained, so we stayed in.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Punctuation",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "A comma usually comes before the conjunction when it joins two full clauses: It was late, so we left. Do not use a comma when the subject is shared: She sang and danced."
+                "When a conjunction joins two complete clauses, a comma usually comes before it: It was late, so we went home. When it joins only two words or phrases, no comma is needed: tea and coffee. In a list of three or more items, commas separate them: red, white and blue (the comma before and is optional)."
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "Correlative pairs",
+          "blocks": [
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Conjunction</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>and</strong></td><td>addition</td><td><strong>We ate and talked.</strong></td></tr><tr><td><strong>but, yet</strong></td><td>contrast</td><td><strong>It was small, but comfortable.</strong></td></tr><tr><td><strong>or</strong></td><td>choice</td><td><strong>Tea or coffee?</strong></td></tr><tr><td><strong>so</strong></td><td>result</td><td><strong>It rained, so we stayed.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Pair</th><th>Example</th></tr></thead><tbody><tr><td><strong>both... and</strong></td><td><strong>Both Tom and Ann came.</strong></td></tr><tr><td><strong>either... or</strong></td><td><strong>You can have either tea or coffee.</strong></td></tr><tr><td><strong>neither... nor</strong></td><td><strong>Neither he nor she knew.</strong></td></tr><tr><td><strong>not only... but also</strong></td><td><strong>He is not only kind but also clever.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I like tea, and I like coffee, and I like milk, and...** (too many ands) Join with commas and a single and.",
+                "Wrong: **He didn't call nor write.** Right: **He didn't call or write.** or **He neither called nor wrote.**",
+                "Wrong: **Although it was late, but we went.** Right: **Although it was late, we went.** (do not use two connectors)"
+              ]
             }
           ]
         }

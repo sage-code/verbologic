@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T21:L919",
   "order": 0,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Prefixes",
     "es": "Los prefijos",
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A prefix is a group of letters added to the beginning of a word to change its meaning."
+                "A prefix is a group of letters placed at the beginning of a word. It changes the meaning, and sometimes the word class, of the original word. English has many prefixes, taken from English, Latin and Greek. Learning the common ones helps you understand many new words."
               ]
             },
             {
@@ -33,23 +33,63 @@
               "items": [
                 "**un**happy",
                 "**re**write",
+                "**dis**agree",
                 "**pre**historic"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Prefixes of negation and opposite",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Prefix</th><th>Meaning</th><th>Examples</th></tr></thead><tbody><tr><td><strong>un-</strong></td><td>not, opposite</td><td><strong>unhappy, unlock, unfair</strong></td></tr><tr><td><strong>in- / im- / il- / ir-</strong></td><td>not</td><td><strong>incorrect, impossible, illegal, irregular</strong></td></tr><tr><td><strong>dis-</strong></td><td>not, opposite</td><td><strong>dislike, disagree, disappear</strong></td></tr><tr><td><strong>non-</strong></td><td>not</td><td><strong>nonsense, non-stop</strong></td></tr><tr><td><strong>mis-</strong></td><td>wrongly</td><td><strong>misunderstand, mislead</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Other common prefixes",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Prefix</th><th>Meaning</th><th>Examples</th></tr></thead><tbody><tr><td><strong>re-</strong></td><td>again</td><td><strong>rewrite, rebuild, return</strong></td></tr><tr><td><strong>pre-</strong></td><td>before</td><td><strong>preview, prepare, prehistoric</strong></td></tr><tr><td><strong>post-</strong></td><td>after</td><td><strong>postpone, postwar</strong></td></tr><tr><td><strong>over- / under-</strong></td><td>too much / too little</td><td><strong>overwork, underpaid</strong></td></tr><tr><td><strong>sub- / super-</strong></td><td>under / above</td><td><strong>subway, supermarket</strong></td></tr><tr><td><strong>inter-</strong></td><td>between</td><td><strong>international, interview</strong></td></tr><tr><td><strong>co-</strong></td><td>together</td><td><strong>cooperate, co-worker</strong></td></tr><tr><td><strong>anti-</strong></td><td>against</td><td><strong>antisocial, anti-war</strong></td></tr><tr><td><strong>semi- / mini-</strong></td><td>half / small</td><td><strong>semicircle, minibus</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Spelling",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Common prefixes include un-, re-, dis-, mis-, pre- and over-. A prefix usually changes the meaning but not the word class. Un-, in-, dis- and non- make a negative."
+                "A prefix does not change the spelling of the base word: un + necessary = unnecessary; dis + appear = disappear. A hyphen is used before a capital letter (anti-American), with some prefixes (ex-wife, self-service) and to avoid confusing combinations (re-cover and recover)."
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "Choosing the right negative prefix",
+          "blocks": [
             {
-              "type": "table",
-              "html": "<table><thead><tr><th>Prefix</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>un-</strong></td><td>not</td><td><strong>unhappy</strong></td></tr><tr><td><strong>re-</strong></td><td>again</td><td><strong>rewrite</strong></td></tr><tr><td><strong>dis-</strong></td><td>opposite</td><td><strong>disagree</strong></td></tr><tr><td><strong>mis-</strong></td><td>wrongly</td><td><strong>misunderstand</strong></td></tr></tbody></table>"
+              "type": "paragraphs",
+              "paragraphs": [
+                "There is no rule that tells which negative prefix goes with which word, so you have to learn them with the word: unable but impossible, dishonest but incorrect. Before p or b, in- becomes im-; before l it becomes il-; before r it becomes ir-."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **unpossible** Right: **impossible**",
+                "Wrong: **disinteresting** Right: **uninteresting**",
+                "Wrong: **inregular** Right: **irregular**",
+                "Wrong: **a pre-war's house** Right: **a pre-war house**"
+              ]
             }
           ]
         }

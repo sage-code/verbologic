@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T13:L866",
   "order": 2,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "The subjunctive",
     "es": "El subjuntivo",
@@ -25,31 +25,72 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The subjunctive expresses a wish, a demand or an unreal situation. In English it is rare and mostly formal."
+                "The subjunctive is a verb form used for things that are not facts: wishes, demands, suggestions and unreal conditions. English has lost most of its subjunctive forms, so it is rare and often formal, but it survives in a few patterns."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I suggest that he **be** present.",
-                "It is important that she **arrive** on time.",
-                "If I **were** you, I would go."
+                "I suggest that he **be** careful.",
+                "It is essential that she **arrive** on time.",
+                "If I **were** you, I would wait."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "The present subjunctive",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The present subjunctive uses the base form of the verb, even for he, she and it. The past subjunctive of be is were for every person. In everyday speech people often use should or the ordinary form instead."
+                "After verbs and adjectives of demand, suggestion and importance, the present subjunctive is the base form of the verb, for every person, with no -s and no will. It is more common in American English; British English often uses should or an ordinary verb."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>demand</td><td><strong>They insist that he leave.</strong></td></tr><tr><td>suggestion</td><td><strong>I suggest that she see a doctor.</strong></td></tr><tr><td>unreal condition</td><td><strong>If I were rich, I would travel.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Trigger</th><th>Subjunctive</th><th>Alternative</th></tr></thead><tbody><tr><td><strong>suggest that</strong></td><td><strong>I suggest that he go.</strong></td><td><strong>that he should go / that he goes</strong></td></tr><tr><td><strong>insist that</strong></td><td><strong>She insisted that he apologise.</strong></td><td><strong>that he should apologise</strong></td></tr><tr><td><strong>essential that</strong></td><td><strong>It is essential that she be present.</strong></td><td><strong>that she should be present</strong></td></tr><tr><td><strong>demand, recommend, propose</strong></td><td><strong>They demanded that he resign.</strong></td><td><strong>that he should resign</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "The past subjunctive: were",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In unreal conditions and wishes, were can replace was for all persons: If I were rich; I wish he were here. In everyday speech, was is also common for I, he, she and it, but were is preferred in careful writing and in the phrase If I were you."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Unreal condition</th><th>Wish</th></tr></thead><tbody><tr><td><strong>If I were you, I'd go.</strong></td><td><strong>I wish it were summer.</strong></td></tr><tr><td><strong>If she were here, she'd help.</strong></td><td><strong>I wish he were taller.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Fixed expressions",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**God save the Queen. Long live the King.** (wishes)",
+                "**Be that as it may; come what may; so be it; far be it from me**",
+                "**Heaven forbid; Suffice it to say**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I suggest that he goes.** (acceptable in British English, but formal writing prefers go or should go)",
+                "Wrong: **I wish I was rich.** (informal; formal writing prefers were)",
+                "Do not add will: **If I were you** (not: If I would be you)."
+              ]
             }
           ]
         }

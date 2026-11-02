@@ -25,31 +25,59 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Advice and suggestions are expressed with should, ought to, had better and why don't you."
+                "English has several ways of giving advice and making suggestions. They differ in strength: some simply recommend, some warn, and some invite the other person to join in."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "You **should** rest.",
+                "You **should** see a doctor.",
                 "You **had better** hurry.",
-                "**Why don't** we go out?"
+                "**Let's** have lunch."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Advice",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Strength</th><th>Example</th></tr></thead><tbody><tr><td><strong>should / ought to</strong></td><td>normal advice</td><td><strong>You should rest.</strong></td></tr><tr><td><strong>shouldn't / ought not to</strong></td><td>advice against</td><td><strong>You shouldn't worry.</strong></td></tr><tr><td><strong>had better</strong></td><td>strong, with a warning</td><td><strong>You'd better leave now.</strong></td></tr><tr><td><strong>If I were you, I'd...</strong></td><td>friendly advice</td><td><strong>If I were you, I'd wait.</strong></td></tr><tr><td><strong>Why don't you...?</strong></td><td>gentle suggestion</td><td><strong>Why don't you ask him?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Suggestions",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>Let's + base form</strong></td><td><strong>Let's go to the cinema.</strong></td></tr><tr><td><strong>Shall we + base form?</strong></td><td><strong>Shall we eat out tonight?</strong></td></tr><tr><td><strong>How about + -ing?</strong></td><td><strong>How about going for a walk?</strong></td></tr><tr><td><strong>What about + noun / -ing?</strong></td><td><strong>What about Friday?</strong></td></tr><tr><td><strong>We could + base form</strong></td><td><strong>We could take the train.</strong></td></tr><tr><td><strong>I suggest + -ing / that</strong></td><td><strong>I suggest taking a taxi.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Replies",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Should and ought to give general advice. Had better gives strong advice with a warning. Let's and shall we make a suggestion to a group."
+                "To accept: Good idea; Yes, let's. To refuse politely: I'd rather not; I'm afraid I can't. Should and ought to are close in meaning, but ought to is a little more formal."
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
             {
-              "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Strength</th><th>Example</th></tr></thead><tbody><tr><td><strong>should</strong></td><td>normal</td><td><strong>You should see a doctor.</strong></td></tr><tr><td><strong>had better</strong></td><td>strong</td><td><strong>You had better leave now.</strong></td></tr><tr><td><strong>Let's, Shall we</strong></td><td>suggestion</td><td><strong>Shall we go?</strong></td></tr></tbody></table>"
+              "type": "bullets",
+              "items": [
+                "Wrong: **You should to go.** Right: **You should go.**",
+                "Wrong: **You had better to go.** Right: **You had better go.**",
+                "Wrong: **Let's to go.** Right: **Let's go.**",
+                "Wrong: **How about to go?** Right: **How about going?**"
+              ]
             }
           ]
         }

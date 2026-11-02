@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T14:L872",
   "order": 2,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "When to use the passive",
     "es": "Cuándo usar la pasiva",
@@ -25,31 +25,64 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Use the passive when the doer is unknown, unimportant or obvious, or when you want to put the receiver first."
+                "The passive is not just another way of saying the same thing. A speaker chooses it because of what the sentence is about. Choosing the right voice makes a text clearer and more natural."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "My bike **was stolen**. (doer unknown)",
-                "English **is spoken** here. (doer obvious)",
-                "The window **was broken**. (doer unimportant)"
+                "Doer unknown: **My wallet was stolen.**",
+                "Doer unimportant: **The bridge was built in 1890.**",
+                "Doer obvious: **The thief was arrested.** (by the police)"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Reasons for using the passive",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Reason</th><th>Example</th></tr></thead><tbody><tr><td>the doer is unknown</td><td><strong>The window was broken during the night.</strong></td></tr><tr><td>the doer is not important</td><td><strong>English is spoken in many countries.</strong></td></tr><tr><td>the doer is obvious</td><td><strong>The prisoners were released.</strong></td></tr><tr><td>we want the focus on the result</td><td><strong>The museum was opened by the Queen.</strong></td></tr><tr><td>formal or scientific style</td><td><strong>The samples were heated to 100 degrees.</strong></td></tr><tr><td>to avoid blaming</td><td><strong>Mistakes were made.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Information flow",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The passive is common in news, science and formal writing. In ordinary speech the active is usually clearer, so choose the active unless you have a reason."
+                "English likes to begin a sentence with known information and end it with new information. If the object is what you have been talking about, the passive lets you start with it: We visited the cathedral. It was built in the twelfth century by monks."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "When to prefer the active",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use the active when the doer is important and the sentence is direct and personal. Too many passives make writing heavy and impersonal."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Reason</th><th>Example</th></tr></thead><tbody><tr><td>doer unknown</td><td><strong>The shop was robbed.</strong></td></tr><tr><td>doer obvious</td><td><strong>He was arrested.</strong></td></tr><tr><td>focus on the receiver</td><td><strong>The prize was won by a student.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Heavy</th><th>Clearer</th></tr></thead><tbody><tr><td><strong>The decision was made by the committee that the fees should be raised.</strong></td><td><strong>The committee decided to raise the fees.</strong></td></tr><tr><td><strong>It is believed by many people that...</strong></td><td><strong>Many people believe that...</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Do not use the passive with intransitive verbs: **The meeting was taken place** is wrong. Say **took place**.",
+                "Avoid long chains of passives. One passive per sentence is usually enough.",
+                "Do not drop the agent when it is the key information: **Hamlet was written by Shakespeare**, not just Hamlet was written."
+              ]
             }
           ]
         }

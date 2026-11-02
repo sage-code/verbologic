@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T14:L870",
   "order": 0,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Active and passive voice",
     "es": "Voz activa y pasiva",
@@ -25,31 +25,70 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "In an active sentence the subject does the action. In a passive sentence the subject receives it."
+                "Voice shows the relation between the verb and its subject. In an active sentence, the subject does the action. In a passive sentence, the subject is the person or thing the action happens to, and the doer is either left out or introduced with by."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "The cook **made** the soup. (active)",
-                "The soup **was made** by the cook. (passive)",
-                "Someone **stole** my bike. My bike **was stolen**."
+                "The chef **cooked** the meal. (active)",
+                "The meal **was cooked** by the chef. (passive)",
+                "The meal **was cooked**. (the doer is not mentioned)"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "How the two voices relate",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "In the passive, the object of the active sentence becomes the subject. The doer, if it is named, follows the word by."
+                "The object of the active sentence becomes the subject of the passive sentence. The verb takes a passive form, and the old subject, if kept, appears after by."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Active</th><th>Passive</th></tr></thead><tbody><tr><td><strong>They built the bridge.</strong></td><td><strong>The bridge was built.</strong></td></tr><tr><td><strong>A dog bit him.</strong></td><td><strong>He was bitten by a dog.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Active</th><th>Passive</th></tr></thead><tbody><tr><td><strong>Shakespeare wrote the play.</strong></td><td><strong>The play was written by Shakespeare.</strong></td></tr><tr><td><strong>People speak English here.</strong></td><td><strong>English is spoken here.</strong></td></tr><tr><td><strong>Someone has stolen my bike.</strong></td><td><strong>My bike has been stolen.</strong></td></tr><tr><td><strong>They will announce the result.</strong></td><td><strong>The result will be announced.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Why have two voices",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The passive lets the speaker put the focus on the object or the result, and it is the natural choice when the doer is unknown, unimportant or too obvious to mention. It is very common in news, science and formal writing."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Purpose</th><th>Example</th></tr></thead><tbody><tr><td>doer unknown</td><td><strong>My car was stolen.</strong></td></tr><tr><td>doer unimportant</td><td><strong>The road is being repaired.</strong></td></tr><tr><td>focus on the result</td><td><strong>The window was broken by a ball.</strong></td></tr><tr><td>formal tone</td><td><strong>You are requested to wait.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Only some verbs have a passive",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Only transitive verbs, which take an object, can be passive. Intransitive verbs such as arrive, sleep and happen have no passive: Something happened (not: It was happened)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **The accident was happened yesterday.** Right: **The accident happened yesterday.**",
+                "Wrong: **English speaks here.** Right: **English is spoken here.**",
+                "Wrong: **The book was written from Orwell.** Right: **by Orwell**"
+              ]
             }
           ]
         }

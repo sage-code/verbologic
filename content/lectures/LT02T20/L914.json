@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T20:L914",
   "order": 1,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Order of objects and adverbs",
     "es": "Orden de complementos y adverbios",
@@ -25,31 +25,70 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "When a sentence has more than one object or adverb, English has a usual order for them."
+                "When a sentence has more than one object or adverbial, English tends to follow an order that is usual, and breaking it sounds strange. The direct object stays close to the verb, and adverbials of manner, place and time follow."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "She gave **him a book**.",
-                "She gave **a book to him**.",
-                "He ran **quickly to the door**."
+                "She speaks **English fluently**. (object before adverb)",
+                "He went **to the shop by bus yesterday**. (place, manner, time)",
+                "I gave **him a book**. / I gave **a book to him**."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Two objects",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>verb + indirect object + direct object</strong></td><td><strong>She sent me a letter.</strong></td></tr><tr><td><strong>verb + direct object + to / for + person</strong></td><td><strong>She sent a letter to me.</strong></td></tr><tr><td><strong>both pronouns</strong></td><td><strong>She sent it to me.</strong> (not: She sent me it, in standard usage)</td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "With give, send, show, tell and buy, the person usually comes first without a preposition. If the direct object is a pronoun, the preposition pattern is preferred."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Order of adverbials",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An indirect object comes before the direct object, or after it with to or for. The usual order of adverbials is manner, then place, then time."
+                "The usual order at the end of a clause is manner, then place, then time (MPT): He worked hard in the garden all day. Adverbs of frequency stand in the middle: before the main verb, after be and after the first auxiliary."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>indirect before direct</td><td><strong>I sent her a letter.</strong></td></tr><tr><td>with to</td><td><strong>I sent a letter to her.</strong></td></tr><tr><td>manner, place, time</td><td><strong>He worked hard at home yesterday.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Position</th><th>Example</th></tr></thead><tbody><tr><td>beginning</td><td><strong>Yesterday, I called him.</strong></td></tr><tr><td>middle (frequency)</td><td><strong>I always get up early. She is often late.</strong></td></tr><tr><td>end: manner, place, time</td><td><strong>She sang beautifully at the party last night.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Object and adverb",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Do not put an adverb between the verb and its object: I like music very much (not: I like very much music). This is one of the most frequent errors for learners."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I eat usually breakfast at eight.** Right: **I usually eat breakfast at eight.**",
+                "Wrong: **She plays very well the piano.** Right: **She plays the piano very well.**",
+                "Wrong: **He gave to me a book.** Right: **He gave me a book.**"
+              ]
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T07:L828",
   "order": 5,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Interrogative pronouns",
     "es": "Los pronombres interrogativos",
@@ -25,15 +25,16 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Interrogative pronouns ask about a person or a thing. They are who, whom, whose, what and which."
+                "An interrogative pronoun begins a question and replaces the information that is asked for. The main ones are who, whom, whose, what and which."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**Who** is calling?",
+                "**Who** called you?",
                 "**What** do you want?",
-                "**Which** is yours?"
+                "**Which** is yours?",
+                "**Whose** is this coat?"
               ]
             }
           ]
@@ -42,14 +43,53 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pronoun</th><th>Asks about</th><th>Example</th></tr></thead><tbody><tr><td><strong>who</strong></td><td>a person (subject or object)</td><td><strong>Who lives here?</strong></td></tr><tr><td><strong>whom</strong></td><td>a person (object, formal)</td><td><strong>Whom did you meet?</strong></td></tr><tr><td><strong>whose</strong></td><td>an owner</td><td><strong>Whose is this?</strong></td></tr><tr><td><strong>what</strong></td><td>a thing or an idea</td><td><strong>What happened?</strong></td></tr><tr><td><strong>which</strong></td><td>a choice from a known group</td><td><strong>Which do you prefer?</strong></td></tr></tbody></table>"
+            },
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "Who asks about people and what asks about things. Which asks about a choice from a known group. Whom is the formal object form and is mostly written; in speech people say who."
+                "Who is the subject or the object of a question. Whom is the formal object form, used mainly in writing and after prepositions: To whom did you speak? In everyday speech, people say Who did you speak to?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Word order",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "When the pronoun is the subject, the verb follows directly, with no do or does: Who called? When it is the object, the auxiliary comes before the subject: Who did you call?"
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Pronoun</th><th>Asks about</th><th>Example</th></tr></thead><tbody><tr><td><strong>who</strong></td><td>people</td><td><strong>Who knows?</strong></td></tr><tr><td><strong>what</strong></td><td>things</td><td><strong>What happened?</strong></td></tr><tr><td><strong>which</strong></td><td>a choice</td><td><strong>Which do you prefer?</strong></td></tr><tr><td><strong>whose</strong></td><td>the owner</td><td><strong>Whose is this?</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Pronoun is...</th><th>Order</th><th>Example</th></tr></thead><tbody><tr><td>subject</td><td>pronoun + verb</td><td><strong>Who knows the answer?</strong></td></tr><tr><td>object</td><td>pronoun + auxiliary + subject + verb</td><td><strong>What did he say?</strong></td></tr><tr><td>with a preposition</td><td>pronoun + auxiliary + subject + verb + preposition</td><td><strong>Who are you talking to?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Compound forms",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adding -ever makes the question stronger and more emotional: Whatever happened? Whoever did this? They also work as relative pronouns: Take whichever you like."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Who did call you?** Right: **Who called you?**",
+                "Wrong: **What you want?** Right: **What do you want?**",
+                "Wrong: **Which is your name?** Right: **What is your name?** (there is no limited choice)"
+              ]
             }
           ]
         }

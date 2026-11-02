@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T12:L863",
   "order": 4,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Time clauses and the future",
     "es": "Oraciones temporales y el futuro",
@@ -25,14 +25,14 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "After words such as when, after, before, as soon as and until, English uses a present tense even when it means the future."
+                "A time clause begins with a conjunction such as when, after, before, as soon as, until or while. If the main clause refers to the future, the time clause uses a present form, not will."
               ]
             },
             {
               "type": "bullets",
               "items": [
                 "I will call you **when I arrive**.",
-                "**After she leaves**, we will eat.",
+                "**After she finishes**, she will go home.",
                 "Wait **until he comes**."
               ]
             }
@@ -42,14 +42,47 @@
           "title": "How it works in English",
           "blocks": [
             {
-              "type": "paragraphs",
-              "paragraphs": [
-                "Do not use will in the time clause: we do not say when I will arrive. The main clause can use will, and the time clause uses the simple present."
-              ]
+              "type": "table",
+              "html": "<table><thead><tr><th>Conjunction</th><th>Example</th></tr></thead><tbody><tr><td><strong>when</strong></td><td><strong>When I get there, I'll phone you.</strong></td></tr><tr><td><strong>after</strong></td><td><strong>After we eat, we'll go out.</strong></td></tr><tr><td><strong>before</strong></td><td><strong>Before you leave, lock the door.</strong></td></tr><tr><td><strong>as soon as</strong></td><td><strong>I'll tell you as soon as I know.</strong></td></tr><tr><td><strong>until</strong></td><td><strong>Don't go until I call.</strong></td></tr><tr><td><strong>while</strong></td><td><strong>While you're away, I'll water the plants.</strong></td></tr></tbody></table>"
             },
             {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use the present simple for a single future action and the present perfect when the first action must be finished before the second one starts: When I have finished, I'll call you."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Compare",
+          "blocks": [
+            {
               "type": "table",
-              "html": "<table><thead><tr><th>Time clause</th><th>Main clause</th></tr></thead><tbody><tr><td><strong>When I arrive,</strong></td><td><strong>I will call you.</strong></td></tr><tr><td><strong>As soon as it stops,</strong></td><td><strong>we will go out.</strong></td></tr><tr><td><strong>Before you leave,</strong></td><td><strong>you will need a ticket.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Correct</th><th>Incorrect</th></tr></thead><tbody><tr><td><strong>When I arrive, I'll call.</strong></td><td>When I will arrive, I'll call.</td></tr><tr><td><strong>She'll leave after he comes.</strong></td><td>She'll leave after he will come.</td></tr><tr><td><strong>I'll stay until it stops.</strong></td><td>I'll stay until it will stop.</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Conditional clauses",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The same rule applies to conditional clauses with if and unless: If it rains tomorrow, we'll stay home. (not: If it will rain)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I'll call you when I will arrive.** Right: **when I arrive**",
+                "Wrong: **As soon as he will come, we'll start.** Right: **As soon as he comes**",
+                "Note: after ask, wonder and know, will can appear in a noun clause: I wonder when he will arrive. (This is not a time clause.)"
+              ]
             }
           ]
         }

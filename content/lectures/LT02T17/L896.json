@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T17:L896",
   "order": 6,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Subject, object and possession",
     "es": "Sujeto, objeto y posesión",
@@ -25,31 +25,71 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "In English the order of the words shows who does what, and the possessive shows who owns something."
+                "In English, the position of a word in the sentence tells you whether it is the subject (the doer) or the object (the receiver). The pronouns also change form, and the apostrophe shows possession in nouns."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**The dog** chased **the cat**.",
-                "**The cat** chased **the dog**.",
-                "the **dog's** bone"
+                "**The dog** bit **the postman**.",
+                "**The postman** bit **the dog**. (a different meaning)",
+                "**The dog's** owner called."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Subject and object",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The subject comes before the verb and the object after it. Possession is shown with 's for people and animals, and with of for things: the leg of the table."
+                "The subject comes before the verb and the object after it. If you change the order, you change the meaning."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>subject, verb, object</td><td><strong>Anna loves Tom.</strong></td></tr><tr><td>'s possessive</td><td><strong>Anna's book</strong></td></tr><tr><td>of possessive</td><td><strong>the end of the day</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Sentence</th><th>Subject</th><th>Object</th></tr></thead><tbody><tr><td><strong>Anna called Ben.</strong></td><td>Anna</td><td>Ben</td></tr><tr><td><strong>Ben called Anna.</strong></td><td>Ben</td><td>Anna</td></tr><tr><td><strong>She called him.</strong></td><td>she</td><td>him</td></tr><tr><td><strong>He called her.</strong></td><td>he</td><td>her</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Possession",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "For people and animals, add 's to a singular noun, and an apostrophe alone to a plural noun ending in -s. For things, English usually uses of or a noun-noun combination."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Noun</th><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>singular</td><td>'s</td><td><strong>the girl's bag, James's car</strong></td></tr><tr><td>plural in -s</td><td>s'</td><td><strong>the girls' bags, the students' rooms</strong></td></tr><tr><td>irregular plural</td><td>'s</td><td><strong>the children's toys, men's shoes</strong></td></tr><tr><td>thing</td><td>of / noun + noun</td><td><strong>the end of the road, the door handle</strong></td></tr><tr><td>possessive pronoun</td><td>no apostrophe</td><td><strong>It is hers. The dog wagged its tail.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Its and it's",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Its (no apostrophe) is a possessive: The dog wagged its tail. It's (with apostrophe) is the short form of it is or it has: It's raining. This is one of the most common mistakes in written English."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **The book of Tom** (unnatural) Right: **Tom's book**",
+                "Wrong: **the childrens' toys** Right: **the children's toys**",
+                "Wrong: **The dog hurt it's paw.** Right: **its paw**",
+                "Wrong: **Mary and John's houses** (if they have separate houses) Right: **Mary's and John's houses**"
+              ]
             }
           ]
         }

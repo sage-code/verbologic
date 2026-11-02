@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T17:L894",
   "order": 4,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Cause, means and purpose",
     "es": "Causa, medio y finalidad",
@@ -25,31 +25,63 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Some prepositions tell why something happens, how it is done or what it is for."
+                "Besides place and time, prepositions can tell why something happens (cause), how it is done (means) and what it is for (purpose). Many of these phrases are fixed and have to be learned as units."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "He stayed home **because of** the rain.",
-                "She cut it **with** a knife.",
-                "This is a gift **for** you."
+                "The flight was cancelled **because of** the fog.",
+                "She went to work **by** bus.",
+                "This tool is **for** cutting wood."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Cause and reason",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Example</th></tr></thead><tbody><tr><td><strong>because of</strong></td><td><strong>We stayed in because of the rain.</strong></td></tr><tr><td><strong>due to / owing to</strong></td><td><strong>The delay was due to a strike.</strong></td></tr><tr><td><strong>thanks to</strong></td><td><strong>Thanks to you, we won.</strong></td></tr><tr><td><strong>from, out of</strong></td><td><strong>She died from cancer. He did it out of kindness.</strong></td></tr><tr><td><strong>for</strong></td><td><strong>He was punished for lying.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Means and instruments",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Example</th></tr></thead><tbody><tr><td><strong>by + transport</strong></td><td><strong>by car, by train, by plane</strong></td></tr><tr><td><strong>by + method</strong></td><td><strong>by e-mail, by hand, by mistake</strong></td></tr><tr><td><strong>by + -ing</strong></td><td><strong>He learned by listening.</strong></td></tr><tr><td><strong>with + tool</strong></td><td><strong>She cut it with a knife.</strong></td></tr><tr><td><strong>without</strong></td><td><strong>He left without a coat.</strong></td></tr><tr><td><strong>on foot, on the phone</strong></td><td><strong>I came on foot.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Purpose",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Because of and due to give a cause. With and by give a means. For gives a purpose. Because of takes a noun phrase, while because takes a clause."
+                "For + noun or -ing gives the purpose of a thing: This room is for meetings; a knife is for cutting. To + base verb gives the purpose of an action: I went to the shop to buy bread."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Meaning</th><th>Preposition</th><th>Example</th></tr></thead><tbody><tr><td>cause</td><td><strong>because of</strong></td><td><strong>because of the rain</strong></td></tr><tr><td>means</td><td><strong>with, by</strong></td><td><strong>by email, with a pen</strong></td></tr><tr><td>purpose</td><td><strong>for</strong></td><td><strong>a room for guests</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>For</th><th>To</th></tr></thead><tbody><tr><td><strong>a tool for cutting</strong></td><td><strong>I use a tool to cut.</strong></td></tr><tr><td><strong>a pill for headaches</strong></td><td><strong>I took a pill to stop the pain.</strong></td></tr><tr><td><strong>What is it for?</strong></td><td><strong>Why did you come? To see you.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I went there for to see you.** Right: **to see you**",
+                "Wrong: **He came with the bus.** Right: **by bus**",
+                "Wrong: **Because the rain, we stayed.** Right: **Because of the rain**",
+                "Wrong: **I opened it by a key.** Right: **with a key**"
+              ]
             }
           ]
         }

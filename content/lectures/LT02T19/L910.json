@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T19:L910",
   "order": 5,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Clauses of condition",
     "es": "Oraciones condicionales",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A clause of condition says when something will happen or would happen. It begins with if or unless."
+                "A clause of condition says under what circumstances the main clause is true. It begins with if or with a word of similar meaning, and the verb forms follow clear patterns that show how real or unreal the condition is."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**If it rains**, we will stay.",
-                "**Unless you hurry**, you will be late.",
-                "**If I were you**, I would go."
+                "**If it rains**, we'll stay home.",
+                "**Unless you hurry**, you'll be late.",
+                "**Provided that you pay**, you may enter."
               ]
             }
           ]
@@ -42,14 +42,41 @@
           "title": "How it works in English",
           "blocks": [
             {
-              "type": "paragraphs",
-              "paragraphs": [
-                "Real conditions use the present in the if clause and will in the result. Unreal present conditions use the past in the if clause and would in the result. Unless means if not."
-              ]
-            },
+              "type": "table",
+              "html": "<table><thead><tr><th>Type</th><th>If-clause</th><th>Main clause</th><th>Example</th></tr></thead><tbody><tr><td>general truth</td><td>present simple</td><td>present simple</td><td><strong>If you heat ice, it melts.</strong></td></tr><tr><td>real future</td><td>present simple</td><td>will + base</td><td><strong>If it rains, I'll stay.</strong></td></tr><tr><td>unreal present</td><td>past simple</td><td>would + base</td><td><strong>If I were rich, I'd travel.</strong></td></tr><tr><td>unreal past</td><td>past perfect</td><td>would have + participle</td><td><strong>If I had known, I'd have helped.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Words that replace if",
+          "blocks": [
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Type</th><th>If clause</th><th>Result</th></tr></thead><tbody><tr><td>real</td><td><strong>If you study,</strong></td><td><strong>you will pass.</strong></td></tr><tr><td>unreal</td><td><strong>If I won,</strong></td><td><strong>I would travel.</strong></td></tr><tr><td>with unless</td><td><strong>Unless you hurry,</strong></td><td><strong>you will miss it.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Word</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>unless</strong></td><td>if... not</td><td><strong>Unless it stops, we'll stay.</strong></td></tr><tr><td><strong>provided / providing (that)</strong></td><td>only if</td><td><strong>Provided that you pay, you may go.</strong></td></tr><tr><td><strong>as long as</strong></td><td>only if</td><td><strong>You can borrow it as long as you return it.</strong></td></tr><tr><td><strong>in case</strong></td><td>to be ready if</td><td><strong>Take a coat in case it rains.</strong></td></tr><tr><td><strong>even if</strong></td><td>whether or not</td><td><strong>I'll go even if it rains.</strong></td></tr><tr><td><strong>otherwise</strong></td><td>if not (between sentences)</td><td><strong>Hurry; otherwise, we'll be late.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Inverted conditionals",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In formal English, if can be left out by inverting the subject and the auxiliary: Had I known, I would have called (= If I had known). Should you need help, call me (= If you should need). Were he here, he would help (= If he were here)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **If it will rain, we'll stay.** Right: **If it rains**",
+                "Wrong: **If I would have money, I'd buy it.** Right: **If I had money**",
+                "Wrong: **Unless you don't hurry, you'll be late.** Right: **Unless you hurry** (unless already means if... not)"
+              ]
             }
           ]
         }

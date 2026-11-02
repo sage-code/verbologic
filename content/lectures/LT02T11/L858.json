@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T11:L858",
   "order": 7,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Telling a story in the past",
     "es": "Contar una historia en pasado",
@@ -25,31 +25,64 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A story in the past uses the simple past for the main events, the past continuous for the background and the past perfect for what happened earlier."
+                "A story in the past uses three tenses together. The simple past moves the story forward, the past continuous sets the scene, and the past perfect gives events that happened earlier."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "She **opened** the door.",
-                "The rain **was falling**.",
-                "Someone **had left** a note."
+                "The sun **was shining** and birds **were singing**. (scene)",
+                "I **opened** the door and **walked** in. (main events)",
+                "Somebody **had left** a note on the table. (earlier)"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "The three tenses at work",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tense</th><th>Role in the story</th><th>Example</th></tr></thead><tbody><tr><td><strong>simple past</strong></td><td>main events, in order</td><td><strong>She picked up the phone and called.</strong></td></tr><tr><td><strong>past continuous</strong></td><td>background, scene, interrupted action</td><td><strong>It was raining when she left.</strong></td></tr><tr><td><strong>past perfect</strong></td><td>events before the story begins</td><td><strong>She had forgotten her umbrella.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "A short model",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Sequence words such as first, then, after that and finally help the reader to follow the events."
+                "It was a dark night, and the wind was blowing hard. Maria walked slowly along the empty street. She had missed the last bus, and she was thinking about her warm bed. Suddenly she heard a noise behind her. She stopped and turned round.",
+                "Notice how the sentences about what happened (walked, heard, stopped, turned) move the story on, while the others (was blowing, was thinking) describe the scene, and had missed explains how she came to be there."
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "Linking words",
+          "blocks": [
             {
-              "type": "table",
-              "html": "<table><thead><tr><th>Tense</th><th>Job</th><th>Example</th></tr></thead><tbody><tr><td>simple past</td><td>main events</td><td><strong>She opened the letter.</strong></td></tr><tr><td>past continuous</td><td>background</td><td><strong>The wind was blowing.</strong></td></tr><tr><td>past perfect</td><td>earlier events</td><td><strong>He had written it a week before.</strong></td></tr></tbody></table>"
+              "type": "bullets",
+              "items": [
+                "**First, then, after that, finally**: sequence",
+                "**while, as, when**: events at the same time",
+                "**suddenly, at that moment**: a surprising event",
+                "**by then, by that time**: the past perfect"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Do not change tense without a reason: **She walked in and sees him** → **She walked in and saw him.**",
+                "Use the past perfect only for the earlier events; the main story stays in the simple past.",
+                "Wrong: **When he came, I was cooking and then I saw him.** Right: **When he came, I was cooking. I saw him and stopped.**"
+              ]
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T13:L864",
   "order": 0,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "The imperative",
     "es": "El imperativo",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The imperative gives an order, an instruction or an invitation."
+                "The imperative is the form of the verb used to tell someone to do something. It can be an order, an instruction, a piece of advice, a warning or an invitation. The tone depends on the situation and on words such as please."
               ]
             },
             {
               "type": "bullets",
               "items": [
                 "**Sit** down.",
-                "**Don't** touch it.",
-                "**Let's** begin."
+                "**Turn** left at the corner.",
+                "**Come** in and **make** yourself at home."
               ]
             }
           ]
@@ -44,12 +44,40 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The imperative uses the base form and no subject. For a negative, put don't before the verb. Let's invites a group, and please makes an order polite."
+                "The affirmative imperative is the base form of the verb, with no subject: Open the door. Its subject is understood to be you. For the negative, put do not (don't) before the base form. To include the speaker, use let's."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>affirmative</td><td><strong>Open the door.</strong></td></tr><tr><td>negative</td><td><strong>Don't open the door.</strong></td></tr><tr><td>invitation</td><td><strong>Let's open the door.</strong></td></tr><tr><td>polite</td><td><strong>Please open the door.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Type</th><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>affirmative</td><td>base form</td><td><strong>Wait here.</strong></td></tr><tr><td>negative</td><td>don't + base form</td><td><strong>Don't touch that.</strong></td></tr><tr><td>polite</td><td>please + imperative</td><td><strong>Please sit down.</strong></td></tr><tr><td>emphatic</td><td>do + base form</td><td><strong>Do be careful!</strong></td></tr><tr><td>including yourself</td><td>let's + base form</td><td><strong>Let's go.</strong></td></tr><tr><td>third person</td><td>let him / her / them</td><td><strong>Let them decide.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Tone",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The bare imperative can sound rude when it is a request. Use it for instructions, recipes, signs and between friends, and use a modal for polite requests: Could you open the window, please? Adding a name softens an order: Tom, come here."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Situation</th><th>Example</th></tr></thead><tbody><tr><td>recipe</td><td><strong>Mix the flour and the eggs.</strong></td></tr><tr><td>sign</td><td><strong>Keep off the grass.</strong></td></tr><tr><td>warning</td><td><strong>Look out!</strong></td></tr><tr><td>invitation</td><td><strong>Have some more cake.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **You open the door.** (not an imperative) Right: **Open the door.**",
+                "Wrong: **Not go there.** Right: **Don't go there.**",
+                "Wrong: **Please to sit down.** Right: **Please sit down.**"
+              ]
             }
           ]
         }

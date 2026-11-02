@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T17:L891",
   "order": 1,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Prepositions of place",
     "es": "Preposiciones de lugar",
@@ -25,31 +25,63 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Prepositions of place tell where something is."
+                "Prepositions of place tell where a person or thing is. The most common are in, on and at, and each has a typical use: in for enclosed spaces, on for surfaces, at for points."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "The cat is **under** the chair.",
-                "The shop is **next to** the bank.",
-                "She lives **in** London."
+                "The keys are **in** the drawer.",
+                "The picture is **on** the wall.",
+                "I'll meet you **at** the station."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "In, on and at",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Idea</th><th>Example</th></tr></thead><tbody><tr><td><strong>in</strong></td><td>inside a space, area or container</td><td><strong>in the room, in London, in a box</strong></td></tr><tr><td><strong>on</strong></td><td>touching a surface, a line or a floor</td><td><strong>on the table, on the wall, on the second floor</strong></td></tr><tr><td><strong>at</strong></td><td>a point or a place of activity</td><td><strong>at the door, at school, at the bus stop</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Other prepositions of place",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Example</th></tr></thead><tbody><tr><td><strong>above / below</strong></td><td><strong>The lamp is above the table.</strong></td></tr><tr><td><strong>over / under</strong></td><td><strong>The bridge is over the river.</strong></td></tr><tr><td><strong>in front of / behind</strong></td><td><strong>The car is behind the house.</strong></td></tr><tr><td><strong>next to / beside / by</strong></td><td><strong>He sits next to me.</strong></td></tr><tr><td><strong>between / among</strong></td><td><strong>between two chairs; among the trees</strong></td></tr><tr><td><strong>opposite</strong></td><td><strong>The bank is opposite the school.</strong></td></tr><tr><td><strong>near / close to</strong></td><td><strong>near the station</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Fixed expressions",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "In is for inside a space, on is for a surface, and at is for a point. Use in with cities and countries, and at with an address or a place of activity."
+                "Some places take a fixed preposition without an obvious reason: in bed, in hospital, at home, at work, on the bus, on the phone, in a car, on a plane. Learn them as units."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Preposition</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td><strong>in</strong></td><td>inside</td><td><strong>in the room</strong></td></tr><tr><td><strong>on</strong></td><td>on a surface</td><td><strong>on the wall</strong></td></tr><tr><td><strong>at</strong></td><td>a point</td><td><strong>at the station</strong></td></tr><tr><td><strong>between, behind</strong></td><td>relation</td><td><strong>between the shops</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>With in</th><th>With on</th><th>With at</th></tr></thead><tbody><tr><td><strong>in bed, in a car</strong></td><td><strong>on the bus, on a plane</strong></td><td><strong>at home, at work</strong></td></tr><tr><td><strong>in the sky</strong></td><td><strong>on the left, on the right</strong></td><td><strong>at the top, at the bottom</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I live at London.** Right: **in London**",
+                "Wrong: **He is in the bus.** Right: **on the bus**",
+                "Wrong: **She is in home.** Right: **at home**",
+                "Wrong: **The book is in the table.** Right: **on the table**"
+              ]
             }
           ]
         }

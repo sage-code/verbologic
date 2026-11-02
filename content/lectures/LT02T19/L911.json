@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T19:L911",
   "order": 6,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Contrast and concession",
     "es": "Contraste y concesión",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Contrast shows that two things differ. Concession admits one thing and then says another."
+                "Contrast shows how two things differ. Concession admits that one fact is true, but says that the main fact is true in spite of it. English has many linking words for both, and they differ in grammar and formality."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I like tea, **but** she likes coffee.",
-                "**Although** it was cold, we swam.",
-                "He is rich, **yet** unhappy."
+                "**Although** it was cold, we went out.",
+                "She is rich; **however**, she is not happy.",
+                "Tom likes tea, **whereas** Ann prefers coffee."
               ]
             }
           ]
@@ -42,14 +42,37 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Word</th><th>Followed by</th><th>Example</th></tr></thead><tbody><tr><td><strong>although / though / even though</strong></td><td>a clause</td><td><strong>Although it rained, we went.</strong></td></tr><tr><td><strong>despite / in spite of</strong></td><td>a noun or -ing</td><td><strong>Despite the rain, we went.</strong></td></tr><tr><td><strong>whereas / while</strong></td><td>a clause (contrast)</td><td><strong>Tom is tall, whereas Ann is short.</strong></td></tr><tr><td><strong>but</strong></td><td>a clause (between clauses)</td><td><strong>It is cheap, but it is good.</strong></td></tr><tr><td><strong>however</strong></td><td>a new sentence, with a comma</td><td><strong>It was cheap. However, it was bad.</strong></td></tr><tr><td><strong>nevertheless</strong></td><td>formal, between sentences</td><td><strong>It rained; nevertheless, we went.</strong></td></tr><tr><td><strong>yet</strong></td><td>a clause, after a comma</td><td><strong>It is old, yet it works.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Although, despite and but",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "Although, though and even though are followed by a clause. Despite and in spite of are followed by a noun or an -ing form. While and whereas show a contrast between two facts."
+                "Although and despite introduce a dependent concession; they cannot be used together with but in the same sentence. Despite and in spite of take a noun or -ing form, not a clause. With a clause, add the fact that: despite the fact that."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>although + clause</strong></td><td><strong>Although it rained, we went.</strong></td></tr><tr><td><strong>despite + noun</strong></td><td><strong>Despite the rain, we went.</strong></td></tr><tr><td><strong>whereas</strong></td><td><strong>He is tall, whereas she is short.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>With a clause</th><th>With a noun or -ing</th></tr></thead><tbody><tr><td><strong>Although he was ill, he worked.</strong></td><td><strong>Despite his illness, he worked.</strong></td></tr><tr><td><strong>Although it rained, we went.</strong></td><td><strong>In spite of the rain, we went.</strong></td></tr><tr><td><strong>He worked, but he was ill.</strong></td><td><strong>Despite being ill, he worked.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Although it was cold, but we went.** Right: **Although it was cold, we went.**",
+                "Wrong: **Despite it was cold,...** Right: **Despite the cold,...** or **Although it was cold,...**",
+                "Wrong: **In spite of he was ill,...** Right: **In spite of being ill,...**",
+                "Wrong: **However, it is cheap, but good.** Use one connector only."
+              ]
             }
           ]
         }

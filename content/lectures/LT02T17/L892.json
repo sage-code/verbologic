@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T17:L892",
   "order": 2,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Prepositions of direction and movement",
     "es": "Preposiciones de dirección y movimiento",
@@ -25,14 +25,14 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Prepositions of direction tell where something moves."
+                "Prepositions of direction show the path or goal of a movement. They answer the question Where to? or Which way?. Many of them also work as prepositions of place, with a different meaning."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "He walked **to** the door.",
-                "She jumped **into** the lake.",
+                "She walked **to** the station.",
+                "He jumped **into** the water.",
                 "The train goes **through** a tunnel."
               ]
             }
@@ -42,14 +42,50 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Movement</th><th>Example</th></tr></thead><tbody><tr><td><strong>to</strong></td><td>towards a goal</td><td><strong>We went to Paris.</strong></td></tr><tr><td><strong>into</strong></td><td>from outside to inside</td><td><strong>She came into the room.</strong></td></tr><tr><td><strong>out of</strong></td><td>from inside to outside</td><td><strong>He got out of the car.</strong></td></tr><tr><td><strong>onto</strong></td><td>to a surface</td><td><strong>The cat jumped onto the table.</strong></td></tr><tr><td><strong>from</strong></td><td>the starting point</td><td><strong>a train from London</strong></td></tr><tr><td><strong>across</strong></td><td>from one side to the other</td><td><strong>across the road</strong></td></tr><tr><td><strong>through</strong></td><td>inside, from one end to the other</td><td><strong>through the park</strong></td></tr><tr><td><strong>along</strong></td><td>following a line</td><td><strong>along the river</strong></td></tr><tr><td><strong>up / down</strong></td><td>higher or lower</td><td><strong>up the stairs, down the hill</strong></td></tr><tr><td><strong>past</strong></td><td>beyond, without stopping</td><td><strong>past the church</strong></td></tr><tr><td><strong>towards</strong></td><td>in the direction of</td><td><strong>towards the sea</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "To or at?",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "To shows the destination and from shows the starting point. Into and out of show entering and leaving. Across goes from one side to the other, and along follows a line."
+                "Use to with verbs of movement: go to school; and at with the place where you are: be at school. Home needs no preposition after go, come, arrive and get: go home, get home. Arrive at a small place or building, arrive in a city or country."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Preposition</th><th>Example</th></tr></thead><tbody><tr><td><strong>to, from</strong></td><td><strong>from Paris to Rome</strong></td></tr><tr><td><strong>into, out of</strong></td><td><strong>into the car</strong></td></tr><tr><td><strong>across, along</strong></td><td><strong>across the bridge</strong></td></tr><tr><td><strong>up, down</strong></td><td><strong>up the stairs</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Movement (to)</th><th>Position (at / in)</th></tr></thead><tbody><tr><td><strong>go to the cinema</strong></td><td><strong>be at the cinema</strong></td></tr><tr><td><strong>go home</strong></td><td><strong>be at home</strong></td></tr><tr><td><strong>arrive in London</strong></td><td><strong>arrive at the airport</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Giving directions",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**Go straight on** until the traffic lights.",
+                "**Turn left / right** at the corner.",
+                "**Go past** the church and **take the second street** on the left.",
+                "**Cross** the bridge and **walk along** the river."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I go in the school.** Right: **I go to school.**",
+                "Wrong: **He arrived to London.** Right: **in London**",
+                "Wrong: **She went to home.** Right: **She went home.**"
+              ]
             }
           ]
         }

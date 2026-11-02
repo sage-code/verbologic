@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T14:L871",
   "order": 1,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Forming the passive",
     "es": "Formar la pasiva",
@@ -25,31 +25,75 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The English passive is formed with the verb be and the past participle."
+                "The passive is formed with the verb be in the tense you need, followed by the past participle of the main verb. The tense is shown by be, never by the participle."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "The letter **is written**.",
-                "The door **was opened**.",
-                "The work **has been done**."
+                "The letter **is written** every day. (present)",
+                "The letter **was written** yesterday. (past)",
+                "The letter **will be written** tomorrow. (future)"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "The passive in each tense",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tense</th><th>Passive form</th><th>Example</th></tr></thead><tbody><tr><td>present simple</td><td>am / is / are + participle</td><td><strong>The room is cleaned daily.</strong></td></tr><tr><td>present continuous</td><td>am / is / are being + participle</td><td><strong>The room is being cleaned.</strong></td></tr><tr><td>simple past</td><td>was / were + participle</td><td><strong>The room was cleaned.</strong></td></tr><tr><td>past continuous</td><td>was / were being + participle</td><td><strong>It was being cleaned.</strong></td></tr><tr><td>present perfect</td><td>has / have been + participle</td><td><strong>It has been cleaned.</strong></td></tr><tr><td>past perfect</td><td>had been + participle</td><td><strong>It had been cleaned.</strong></td></tr><tr><td>future</td><td>will be + participle</td><td><strong>It will be cleaned.</strong></td></tr><tr><td>modal</td><td>modal + be + participle</td><td><strong>It must be cleaned.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Questions and negatives",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Be takes the tense of the active verb: is written, was written, will be written, has been written. The past participle never changes."
+                "The first auxiliary comes before the subject in questions, and not follows it in negatives: Was the room cleaned? The room was not cleaned. Is it being repaired? It has not been repaired."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Agent and by",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use by + agent only when it is new or important information: The play was written by Shakespeare. Use with or by for an instrument or means: It was cut with a knife; It was sent by post."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Verbs with two objects",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Verbs such as give, send, show and tell have two objects and therefore two possible passives. The person is usually made the subject."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Tense</th><th>Passive</th></tr></thead><tbody><tr><td>present</td><td><strong>is made</strong></td></tr><tr><td>past</td><td><strong>was made</strong></td></tr><tr><td>perfect</td><td><strong>has been made</strong></td></tr><tr><td>future</td><td><strong>will be made</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Active</th><th>Passive</th></tr></thead><tbody><tr><td><strong>They gave her a prize.</strong></td><td><strong>She was given a prize.</strong> / <strong>A prize was given to her.</strong></td></tr><tr><td><strong>They told us the news.</strong></td><td><strong>We were told the news.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **The window is break.** Right: **is broken**",
+                "Wrong: **It was build in 1900.** Right: **was built**",
+                "Wrong: **It has been being repaired.** Avoid a long chain: **It is being repaired.**"
+              ]
             }
           ]
         }

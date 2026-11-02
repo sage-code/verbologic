@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T21:L923",
   "order": 4,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "One word, two classes",
     "es": "Una palabra, dos categorías",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "In English the same word can belong to two or more word classes. This is called conversion."
+                "Many English words can be used as more than one part of speech without any change in form. This is called conversion. Context tells you whether a word is a noun, a verb or an adjective."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "a **walk** and to **walk**",
-                "a **cook** and to **cook**",
-                "a **light** bag and the **light**"
+                "I need a **drink**. (noun) / I **drink** tea. (verb)",
+                "It is a **light** room. (adjective) / Turn on the **light**. (noun)",
+                "She is **home**. (adverb) / My **home** is here. (noun)"
               ]
             }
           ]
@@ -42,14 +42,55 @@
           "title": "How it works in English",
           "blocks": [
             {
-              "type": "paragraphs",
-              "paragraphs": [
-                "Conversion needs no ending. The class is shown by the position of the word and by the words around it. In some pairs the stress changes: an IMport, to imPORT."
-              ]
-            },
+              "type": "table",
+              "html": "<table><thead><tr><th>Word</th><th>As a noun</th><th>As a verb</th></tr></thead><tbody><tr><td><strong>water</strong></td><td><strong>a glass of water</strong></td><td><strong>to water the plants</strong></td></tr><tr><td><strong>email</strong></td><td><strong>an email</strong></td><td><strong>to email someone</strong></td></tr><tr><td><strong>walk</strong></td><td><strong>a walk in the park</strong></td><td><strong>to walk home</strong></td></tr><tr><td><strong>help</strong></td><td><strong>I need help.</strong></td><td><strong>Please help me.</strong></td></tr><tr><td><strong>answer</strong></td><td><strong>the answer</strong></td><td><strong>to answer the phone</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Other conversions",
+          "blocks": [
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Noun</th><th>Verb</th></tr></thead><tbody><tr><td><strong>a drink</strong></td><td><strong>to drink</strong></td></tr><tr><td><strong>a visit</strong></td><td><strong>to visit</strong></td></tr><tr><td><strong>a record</strong></td><td><strong>to record</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Word</th><th>Class 1</th><th>Class 2</th></tr></thead><tbody><tr><td><strong>round</strong></td><td>adjective: a round table</td><td>preposition: round the corner</td></tr><tr><td><strong>fast</strong></td><td>adjective: a fast car</td><td>adverb: He drives fast.</td></tr><tr><td><strong>hard</strong></td><td>adjective: a hard test</td><td>adverb: She works hard.</td></tr><tr><td><strong>back</strong></td><td>noun: my back</td><td>adverb: Come back.</td></tr><tr><td><strong>down</strong></td><td>adverb: Sit down.</td><td>preposition: down the road</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Stress and pronunciation",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some noun-verb pairs differ in stress: a PRESent / to preSENT, an Object / to obJECT, an INcrease / to inCREASE. The noun is stressed on the first syllable and the verb on the second. Spelling stays the same."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How to tell",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "A noun follows a, the, my or another determiner: **a walk**.",
+                "A verb follows a subject or to: **we walk**, **to walk**.",
+                "An adjective comes before a noun or after be: **a fast car**, **It is fast.**",
+                "An adverb modifies a verb: **drives fast**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **She works hardly.** Right: **She works hard.** (hardly means almost not)",
+                "Wrong: **He drove fastly.** Right: **He drove fast.**",
+                "Wrong: **I will answer you the phone.** Right: **I'll answer the phone.**"
+              ]
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T07:L829",
   "order": 6,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Relative pronouns",
     "es": "Los pronombres relativos",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A relative pronoun introduces a clause that gives more information about a noun. English has who, whom, whose, which and that."
+                "A relative pronoun joins a clause to a noun and refers back to it. The main ones are who, whom, whose, which and that. The noun it refers to is called the antecedent."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "The man **who** called is my uncle.",
-                "The book **that** I read was long.",
-                "A friend **whose** car broke down came."
+                "The woman **who** lives next door is a doctor.",
+                "The book **that** I bought was expensive.",
+                "The man **whose** car was stolen called the police."
               ]
             }
           ]
@@ -42,14 +42,53 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pronoun</th><th>Refers to</th><th>Example</th></tr></thead><tbody><tr><td><strong>who</strong></td><td>people</td><td><strong>The girl who won is my cousin.</strong></td></tr><tr><td><strong>whom</strong></td><td>people (object, formal)</td><td><strong>The man whom I met was kind.</strong></td></tr><tr><td><strong>which</strong></td><td>things and animals</td><td><strong>The car which broke down is old.</strong></td></tr><tr><td><strong>that</strong></td><td>people or things (defining)</td><td><strong>The film that we saw was long.</strong></td></tr><tr><td><strong>whose</strong></td><td>possession</td><td><strong>The woman whose bag was lost</strong></td></tr></tbody></table>"
+            },
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "Use who for people, which for things, and that for either. Whose shows possession. In everyday speech the pronoun can be left out when it is the object: The book I read was long."
+                "You can leave out who, which or that when it is the object of the clause: The book I bought was expensive. You cannot leave it out when it is the subject: The man who called is here."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Defining and non-defining clauses",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A defining clause identifies which person or thing you mean, and has no commas. A non-defining clause adds extra information, is separated by commas, and cannot use that."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Pronoun</th><th>Refers to</th><th>Example</th></tr></thead><tbody><tr><td><strong>who</strong></td><td>people</td><td><strong>the girl who sings</strong></td></tr><tr><td><strong>which</strong></td><td>things</td><td><strong>the song which she sang</strong></td></tr><tr><td><strong>that</strong></td><td>people or things</td><td><strong>the song that she sang</strong></td></tr><tr><td><strong>whose</strong></td><td>the owner</td><td><strong>the girl whose song won</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Defining</th><th>Non-defining</th></tr></thead><tbody><tr><td><strong>The student who works hard succeeds.</strong></td><td><strong>My brother, who lives in Leeds, works hard.</strong></td></tr><tr><td><strong>The house that I like is old.</strong></td><td><strong>This house, which is old, is for sale.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Prepositions in relative clauses",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A preposition can stay at the end (informal) or move before the pronoun (formal): The man I spoke to; the man to whom I spoke."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **The man which called is here.** Right: **who called**",
+                "Wrong: **My sister, that lives in Rome, is a nurse.** Right: **My sister, who lives in Rome**",
+                "Wrong: **The book that I read it was good.** Right: **The book that I read was good.** (do not repeat the object)"
+              ]
             }
           ]
         }

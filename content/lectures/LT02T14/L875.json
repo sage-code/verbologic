@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T14:L875",
   "order": 5,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Reported and evidential forms",
     "es": "Formas referidas y evidenciales",
@@ -25,31 +25,68 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Reported forms tell what someone said, or what is believed, without saying who said it."
+                "Reporting forms tell what someone said, thinks or believes. Evidential forms show how the speaker knows something: by seeing, by hearing, or by report. English uses reporting verbs, passive constructions and verbs such as seem and appear."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**It is said** that she is a doctor.",
-                "He **is believed** to be rich.",
-                "They **say** it will rain."
+                "He **said** that he was tired.",
+                "It **is said** that the house is haunted.",
+                "She **seems** to be happy."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Reporting verbs",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Verb</th><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>say</strong></td><td>say that + clause</td><td><strong>She said that she was ill.</strong></td></tr><tr><td><strong>tell</strong></td><td>tell + person + that</td><td><strong>She told me that she was ill.</strong></td></tr><tr><td><strong>ask</strong></td><td>ask + whether / if</td><td><strong>He asked if I was ready.</strong></td></tr><tr><td><strong>suggest, advise</strong></td><td>+ -ing / that</td><td><strong>She suggested going home.</strong></td></tr><tr><td><strong>promise, refuse</strong></td><td>+ to-infinitive</td><td><strong>He promised to call.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Impersonal passive reports",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "English uses a passive with say, believe, think and report: He is said to be happy. Words such as apparently and reportedly show that the speaker is not sure."
+                "To report general belief without naming who believes it, English uses a passive with a reporting verb: It is said that..., It is believed that..., He is said to be... The to-infinitive form is common in news reports."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>it + passive</td><td><strong>It is reported that prices will rise.</strong></td></tr><tr><td>subject + passive + to</td><td><strong>He is said to be ill.</strong></td></tr><tr><td>adverb</td><td><strong>Apparently, the road is closed.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>It is said / believed / reported that + clause</strong></td><td><strong>It is reported that three people were hurt.</strong></td></tr><tr><td><strong>subject + is said to + infinitive</strong></td><td><strong>The house is said to be haunted.</strong></td></tr><tr><td><strong>subject + is thought to have + participle</strong></td><td><strong>He is thought to have left.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Seem and appear",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Seem and appear show a judgement based on evidence. They are followed by an adjective, to + infinitive, or that + clause: She seems tired; He seems to know; It seems that nobody came."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>seems / appears + adjective</strong></td><td><strong>He seems upset.</strong></td></tr><tr><td><strong>seems to + verb</strong></td><td><strong>She seems to like it.</strong></td></tr><tr><td><strong>It seems that + clause</strong></td><td><strong>It seems that nobody knew.</strong></td></tr><tr><td><strong>apparently, reportedly</strong></td><td><strong>Apparently, the train is late.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **He said me that he was ill.** Right: **He told me** / **He said that**",
+                "Wrong: **She asked if was I ready.** Right: **She asked if I was ready.** (statement word order)",
+                "Wrong: **It is said to be raining.** Right: **It is said that it is raining.**"
+              ]
             }
           ]
         }

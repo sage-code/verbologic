@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T15:L877",
   "order": 1,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Permission and possibility",
     "es": "Permiso y posibilidad",
@@ -25,31 +25,70 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "May, can and could ask for or give permission, and may, might and could express possibility."
+                "Modal verbs express two related ideas: permission (is it allowed?) and possibility (is it possible?). The same verbs are used for both, and the context shows which is meant."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**May** I come in?",
-                "You **can** park here.",
-                "It **might** rain."
+                "**May** I come in? (permission)",
+                "You **can** park here. (permission)",
+                "It **might** rain tomorrow. (possibility)"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Permission",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>Can I...?</strong></td><td><strong>Can I use your phone?</strong></td></tr><tr><td><strong>Could I...?</strong></td><td><strong>Could I borrow your pen?</strong></td></tr><tr><td><strong>May I...?</strong></td><td><strong>May I leave early?</strong></td></tr><tr><td>giving permission</td><td><strong>Yes, you can. / You may.</strong></td></tr><tr><td>refusing</td><td><strong>No, you can't. / You may not.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "May is formal; can is informal and most common. Could in a request is polite and does not refer to the past."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Possibility",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "May is formal for permission, and can is the common word. Might is less certain than may. Could expresses possibility and is also used in polite requests."
+                "Use may, might and could for something that is possible but not certain. Might is a little weaker than may. Can't means that something is impossible; must means that you are nearly sure."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>permission</td><td><strong>May I sit here?</strong></td></tr><tr><td>possibility</td><td><strong>It may be true.</strong></td></tr><tr><td>weak possibility</td><td><strong>She might know.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Certainty</th><th>Modal</th><th>Example</th></tr></thead><tbody><tr><td>nearly certain</td><td>must</td><td><strong>He must be at home.</strong></td></tr><tr><td>possible</td><td>may / might / could</td><td><strong>He may be at home.</strong></td></tr><tr><td>possible, less likely</td><td>might</td><td><strong>He might be asleep.</strong></td></tr><tr><td>impossible</td><td>can't</td><td><strong>He can't be at home. I saw him.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Possibility in the past",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "To speak about a possibility in the past, use the modal + have + past participle: He may have left; She might have forgotten; It can't have been him."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Maybe he may come.** Right: **He may come.** or **Maybe he will come.**",
+                "Wrong: **I may to go.** Right: **I may go.**",
+                "Wrong: **He might to be late.** Right: **He might be late.**"
+              ]
             }
           ]
         }

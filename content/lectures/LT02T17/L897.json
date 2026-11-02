@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T17:L897",
   "order": 7,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Fixed prepositions with verbs and adjectives",
     "es": "Preposiciones fijas con verbos y adjetivos",
@@ -25,31 +25,59 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Some verbs and adjectives are always followed by a particular preposition."
+                "Many English verbs and adjectives are followed by a particular preposition, and the choice is not logical: you listen to music, you depend on someone, and you are afraid of dogs. The combinations must be learned together with the word."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "depend **on**",
-                "good **at**",
-                "interested **in**"
+                "She is **good at** maths.",
+                "We **depend on** your help.",
+                "I'm **interested in** history."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Adjective + preposition",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Adjectives</th><th>Example</th></tr></thead><tbody><tr><td><strong>at</strong></td><td>good, bad, brilliant, surprised</td><td><strong>He is good at football.</strong></td></tr><tr><td><strong>of</strong></td><td>afraid, proud, tired, full, fond</td><td><strong>She is afraid of spiders.</strong></td></tr><tr><td><strong>in</strong></td><td>interested, involved</td><td><strong>I'm interested in art.</strong></td></tr><tr><td><strong>about</strong></td><td>worried, excited, angry</td><td><strong>They are worried about money.</strong></td></tr><tr><td><strong>with</strong></td><td>pleased, bored, angry, satisfied</td><td><strong>I'm bored with this.</strong></td></tr><tr><td><strong>to</strong></td><td>married, similar, kind</td><td><strong>She is married to a doctor.</strong></td></tr><tr><td><strong>for</strong></td><td>famous, ready, responsible</td><td><strong>Paris is famous for its food.</strong></td></tr><tr><td><strong>from</strong></td><td>different, absent</td><td><strong>This is different from that.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Verb + preposition",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Verbs</th><th>Example</th></tr></thead><tbody><tr><td><strong>on</strong></td><td>depend, rely, insist, concentrate</td><td><strong>It depends on the weather.</strong></td></tr><tr><td><strong>to</strong></td><td>listen, belong, talk, apologise</td><td><strong>Listen to me.</strong></td></tr><tr><td><strong>for</strong></td><td>wait, look, ask, pay, search</td><td><strong>I'm waiting for you.</strong></td></tr><tr><td><strong>at</strong></td><td>look, laugh, smile, shout</td><td><strong>Look at this.</strong></td></tr><tr><td><strong>of</strong></td><td>think, dream, consist, remind</td><td><strong>I'm thinking of you.</strong></td></tr><tr><td><strong>about</strong></td><td>talk, think, worry, care</td><td><strong>Tell me about it.</strong></td></tr><tr><td><strong>in</strong></td><td>believe, succeed, specialise</td><td><strong>I believe in luck.</strong></td></tr><tr><td><strong>with</strong></td><td>agree, deal, cope</td><td><strong>I agree with you.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Verbs with no preposition in English",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "These pairs must be learned together, because the same meaning may need a different preposition in another language. After a preposition, a verb takes the -ing form."
+                "Some verbs that take a preposition in other languages take a direct object in English: discuss, enter, marry, answer, approach, resemble. We discussed the plan, not discussed about the plan."
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
             {
-              "type": "table",
-              "html": "<table><thead><tr><th>Verb or adjective</th><th>Preposition</th><th>Example</th></tr></thead><tbody><tr><td><strong>listen</strong></td><td><strong>to</strong></td><td><strong>Listen to me.</strong></td></tr><tr><td><strong>afraid</strong></td><td><strong>of</strong></td><td><strong>afraid of dogs</strong></td></tr><tr><td><strong>good</strong></td><td><strong>at</strong></td><td><strong>good at maths</strong></td></tr><tr><td><strong>depend</strong></td><td><strong>on</strong></td><td><strong>It depends on you.</strong></td></tr></tbody></table>"
+              "type": "bullets",
+              "items": [
+                "Wrong: **I'm agree with you.** Right: **I agree with you.**",
+                "Wrong: **We discussed about the problem.** Right: **We discussed the problem.**",
+                "Wrong: **She is afraid from dogs.** Right: **of dogs**",
+                "Wrong: **He is different than me.** (informal US) Careful style: **different from me**"
+              ]
             }
           ]
         }

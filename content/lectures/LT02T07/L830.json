@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T07:L830",
   "order": 7,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Indefinite and negative pronouns",
     "es": "Pronombres indefinidos y negativos",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An indefinite pronoun refers to a person or thing without saying which one. A negative pronoun says that there is none."
+                "An indefinite pronoun refers to a person or thing in a general way. Some, any, every and no combine with -one, -body, -thing and -where to form a family of compound pronouns. Negative pronouns, such as nobody and nothing, say that there is none."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**Someone** called.",
-                "**Everything** is ready.",
-                "**Nobody** came."
+                "**Somebody** is waiting for you.",
+                "Do you need **anything**?",
+                "**Nothing** happened."
               ]
             }
           ]
@@ -42,14 +42,54 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Series</th><th>People</th><th>Things</th><th>Places</th></tr></thead><tbody><tr><td><strong>some-</strong></td><td>someone, somebody</td><td>something</td><td>somewhere</td></tr><tr><td><strong>any-</strong></td><td>anyone, anybody</td><td>anything</td><td>anywhere</td></tr><tr><td><strong>every-</strong></td><td>everyone, everybody</td><td>everything</td><td>everywhere</td></tr><tr><td><strong>no-</strong></td><td>no one, nobody</td><td>nothing</td><td>nowhere</td></tr></tbody></table>"
+            },
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "These pronouns combine some, any, every and no with one, body, thing and where. Use some in positive sentences and any in negatives and questions. Standard English does not allow a double negative."
+                "Some- words are used in positive sentences and offers: Would you like something to eat? Any- words are used in questions, negatives and with if: I don't know anyone here. No- words already contain the negative, so the verb must be positive."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Agreement",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Compound pronouns take a singular verb, even when they mean many people: Everyone is here. In informal English, the plural they, them and their refers back to them: Everyone brought their own lunch."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Double negatives",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Standard English does not allow two negatives in one clause. Use either not... anything or nothing, not both."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>some-</th><th>any-</th><th>no-</th></tr></thead><tbody><tr><td><strong>someone</strong></td><td><strong>anyone</strong></td><td><strong>no one</strong></td></tr><tr><td><strong>something</strong></td><td><strong>anything</strong></td><td><strong>nothing</strong></td></tr><tr><td><strong>somewhere</strong></td><td><strong>anywhere</strong></td><td><strong>nowhere</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Standard</th><th>Not standard</th></tr></thead><tbody><tr><td><strong>I didn't see anything.</strong></td><td>I didn't see nothing.</td></tr><tr><td><strong>I saw nothing.</strong></td><td>I didn't see nothing.</td></tr><tr><td><strong>There isn't anybody here.</strong></td><td>There isn't nobody here.</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Other indefinite pronouns",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**one**: One should be honest. (formal and general)",
+                "**each**, **either**, **neither**: Each of the boys has a bike.",
+                "**both**, **many**, **several**, **few**: Several are missing.",
+                "**other**, **another**, **others**: I like the other."
+              ]
             }
           ]
         }

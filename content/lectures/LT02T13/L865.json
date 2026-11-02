@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T13:L865",
   "order": 1,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Polite requests and offers",
     "es": "Peticiones y ofrecimientos corteses",
@@ -25,31 +25,68 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Polite requests and offers use modal verbs such as could, would and can, not the bare imperative."
+                "English speakers ask for things and offer help with modal verbs, which sound softer than the imperative. The choice of form shows how formal, how polite or how well you know the other person."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**Could you** help me?",
-                "**Would you like** some tea?",
-                "**Shall I** open the window?"
+                "**Could you** help me, please?",
+                "**Would you mind** closing the window?",
+                "**Shall I** carry that for you?"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Requests",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Formality</th><th>Example</th></tr></thead><tbody><tr><td><strong>Can you...?</strong></td><td>informal</td><td><strong>Can you pass the salt?</strong></td></tr><tr><td><strong>Could you...?</strong></td><td>polite</td><td><strong>Could you tell me the time?</strong></td></tr><tr><td><strong>Would you...?</strong></td><td>polite</td><td><strong>Would you help me, please?</strong></td></tr><tr><td><strong>Would you mind + -ing?</strong></td><td>very polite</td><td><strong>Would you mind waiting?</strong></td></tr><tr><td><strong>I wonder if you could...</strong></td><td>very polite, indirect</td><td><strong>I wonder if you could help me.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Replies: Of course; Certainly; Sure. To refuse politely, give a reason: I'm sorry, I can't, I'm busy."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Offers",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>Can I...?</strong></td><td><strong>Can I help you?</strong></td></tr><tr><td><strong>Shall I...?</strong></td><td><strong>Shall I open the window?</strong></td></tr><tr><td><strong>Would you like...?</strong></td><td><strong>Would you like some tea?</strong></td></tr><tr><td><strong>I'll...</strong></td><td><strong>I'll carry your bag.</strong></td></tr><tr><td><strong>Let me...</strong></td><td><strong>Let me do it.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Asking permission",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Could is more polite than can. Would you mind is followed by the -ing form. Please makes a request softer, and thank you answers an offer."
+                "Use can, could or may. May is the most formal; could is more polite than can."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Request</th><th>Offer</th></tr></thead><tbody><tr><td><strong>Could you pass the salt?</strong></td><td><strong>Would you like a coffee?</strong></td></tr><tr><td><strong>Would you mind waiting?</strong></td><td><strong>Shall I help you?</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>Can I...?</strong></td><td><strong>Can I borrow your pen?</strong></td></tr><tr><td><strong>Could I...?</strong></td><td><strong>Could I use your phone?</strong></td></tr><tr><td><strong>May I...?</strong></td><td><strong>May I come in?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Would you to help me?** Right: **Would you help me?**",
+                "Wrong: **Would you mind to close it?** Right: **Would you mind closing it?**",
+                "Wrong: **Shall you help me?** Right: **Shall I help you?** (shall is used with I and we)"
+              ]
             }
           ]
         }

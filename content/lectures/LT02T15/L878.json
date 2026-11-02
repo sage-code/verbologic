@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T15:L878",
   "order": 2,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Obligation and necessity",
     "es": "Obligación y necesidad",
@@ -25,31 +25,75 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Must, have to and need to express obligation and necessity."
+                "English expresses obligation with the modal verb must and the phrases have to, have got to and need to. They differ in who feels the obligation and how strong it is."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "You **must** wear a seat belt.",
-                "I **have to** leave now.",
-                "We **need to** talk."
+                "I **must** call my mother.",
+                "You **have to** show your passport.",
+                "We **need to** leave soon."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Must and have to",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Must is strong and personal. Have to usually shows an outside rule. Must has no past form, so use had to. Don't have to means that something is not necessary."
+                "Must usually shows the speaker's own feeling or a strong rule: I must stop smoking. Have to shows an outside rule or a necessity: I have to wear a uniform at work. In everyday speech, have to is more usual, and it works in all tenses."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>must</td><td><strong>I must call him.</strong></td></tr><tr><td>have to</td><td><strong>Students have to wear a uniform.</strong></td></tr><tr><td>past</td><td><strong>We had to wait.</strong></td></tr><tr><td>not necessary</td><td><strong>You don't have to come.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Tense</th><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>present</td><td>must / have to</td><td><strong>You must / have to be quiet.</strong></td></tr><tr><td>past</td><td>had to</td><td><strong>I had to wait.</strong></td></tr><tr><td>future</td><td>will have to</td><td><strong>We will have to hurry.</strong></td></tr><tr><td>question</td><td>do / does / did + have to</td><td><strong>Do you have to go?</strong></td></tr><tr><td>negative (not necessary)</td><td>don't have to</td><td><strong>You don't have to come.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Need to and needn't",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Need to is similar to have to and is used for necessity in all tenses. Needn't (need not) means that it is not necessary. Compare don't have to, which is more common in everyday speech."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>need to + verb</strong></td><td><strong>I need to buy a ticket.</strong></td></tr><tr><td><strong>don't need to</strong></td><td><strong>You don't need to hurry.</strong></td></tr><tr><td><strong>needn't + verb</strong></td><td><strong>You needn't come.</strong></td></tr><tr><td><strong>needn't have + participle</strong></td><td><strong>You needn't have waited.</strong> (you waited, but it was not necessary)</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Important contrast",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Must not (mustn't) and don't have to are completely different: mustn't means that something is forbidden, while don't have to means that something is not necessary."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>You mustn't park here.</strong></td><td>forbidden</td></tr><tr><td><strong>You don't have to park here.</strong></td><td>not necessary; you may if you like</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I must to go.** Right: **I must go.**",
+                "Wrong: **She musts work.** Right: **She must work.**",
+                "Wrong: **I musted go.** Right: **I had to go.**",
+                "Wrong: **You don't must smoke.** Right: **You mustn't smoke.**"
+              ]
             }
           ]
         }

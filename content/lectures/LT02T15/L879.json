@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Mustn't forbids something. Shouldn't advises against it."
+                "Modal verbs can say that something is forbidden or that it is a bad idea. The strength changes with the verb: some forms forbid, others only advise."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "You **mustn't** smoke here.",
-                "You **shouldn't** eat so fast.",
-                "You **can't** park here."
+                "You **mustn't** smoke here. (forbidden)",
+                "You **can't** park there. (not allowed)",
+                "You **shouldn't** eat so much sugar. (a bad idea)"
               ]
             }
           ]
@@ -42,14 +42,42 @@
           "title": "How it works in English",
           "blocks": [
             {
-              "type": "paragraphs",
-              "paragraphs": [
-                "Mustn't and can't forbid. Don't have to is different: it means there is no need. Should and ought to give advice."
-              ]
-            },
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Strength</th><th>Example</th></tr></thead><tbody><tr><td><strong>must not (mustn't)</strong></td><td>a strong prohibition</td><td><strong>You mustn't touch it.</strong></td></tr><tr><td><strong>can't / may not</strong></td><td>a rule or law</td><td><strong>You can't smoke inside.</strong></td></tr><tr><td><strong>not allowed to</strong></td><td>a rule</td><td><strong>Visitors aren't allowed to enter.</strong></td></tr><tr><td><strong>shouldn't / ought not to</strong></td><td>advice against</td><td><strong>You shouldn't stay up late.</strong></td></tr><tr><td><strong>had better not</strong></td><td>strong warning</td><td><strong>You'd better not be late.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Advice for and against",
+          "blocks": [
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td>forbidden</td><td><strong>You mustn't enter.</strong></td></tr><tr><td>not allowed</td><td><strong>You can't park here.</strong></td></tr><tr><td>advice</td><td><strong>You should rest.</strong></td></tr><tr><td>not necessary</td><td><strong>You don't have to pay.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>For</th><th>Against</th></tr></thead><tbody><tr><td><strong>You should see a doctor.</strong></td><td><strong>You shouldn't ignore it.</strong></td></tr><tr><td><strong>You ought to apologise.</strong></td><td><strong>You ought not to shout.</strong></td></tr><tr><td><strong>You'd better take an umbrella.</strong></td><td><strong>You'd better not go out.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Giving a reason",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prohibitions often come with a reason beginning with because or otherwise: You mustn't park here, because it is a bus stop. Take your umbrella, otherwise you'll get wet."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **You mustn't to go.** Right: **You mustn't go.**",
+                "Wrong: **You don't must smoke.** Right: **You mustn't smoke.**",
+                "Wrong: **He shouldn't to speak.** Right: **He shouldn't speak.**",
+                "Do not confuse **mustn't** (forbidden) with **needn't** (not necessary)."
+              ]
             }
           ]
         }

@@ -25,31 +25,65 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Inside a noun phrase, some words must agree in number with the noun."
+                "In a noun phrase, the words around the noun may have to agree with it. English has very little of this agreement: adjectives never change, and only a few determiners (this, that, a, one, many, much) show number."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**this** book, **these** books",
-                "**one** child, **two** children",
-                "**a** dog, **some** dogs"
+                "**this** book / **these** books",
+                "**a** chair / **two** chairs",
+                "**a tall** man / **tall** men (the adjective does not change)"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "What agrees and what does not",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Word</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>this / these</strong></td><td>this book</td><td>these books</td></tr><tr><td><strong>that / those</strong></td><td>that car</td><td>those cars</td></tr><tr><td><strong>a, an / (no article)</strong></td><td>a student</td><td>students</td></tr><tr><td><strong>one / two</strong></td><td>one apple</td><td>two apples</td></tr><tr><td><strong>adjectives</strong></td><td>a red hat</td><td>red hats (no change)</td></tr><tr><td><strong>possessives</strong></td><td>my book</td><td>my books (no change)</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Countable and uncountable nouns",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "In English only this, that, a, an and the numbers agree with the noun; adjectives do not change. Use a or an with a singular countable noun, and some or nothing with a plural."
+                "Choose quantity words according to the noun type. With countable nouns, use many, few, a few and fewer. With uncountable nouns, use much, little, a little and less. Both take a lot of, some and any."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>this old house</strong></td><td><strong>these old houses</strong></td></tr><tr><td><strong>a red car</strong></td><td><strong>two red cars</strong></td></tr><tr><td><strong>that big dog</strong></td><td><strong>those big dogs</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Countable</th><th>Uncountable</th></tr></thead><tbody><tr><td><strong>many books</strong></td><td><strong>much money</strong></td></tr><tr><td><strong>a few friends</strong></td><td><strong>a little time</strong></td></tr><tr><td><strong>fewer people</strong></td><td><strong>less noise</strong></td></tr><tr><td><strong>How many?</strong></td><td><strong>How much?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Numbers and measurement",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A number in a compound adjective is singular: a five-year-old child, a ten-minute walk. When it stands alone, the noun is plural: five years, ten minutes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **these book** Right: **these books** / **this book**",
+                "Wrong: **two informations** Right: **two pieces of information**",
+                "Wrong: **a five-years-old girl** Right: **a five-year-old girl**",
+                "Wrong: **many money** Right: **much money**"
+              ]
             }
           ]
         }

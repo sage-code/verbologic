@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T13:L868",
   "order": 4,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Wishes and hypotheses",
     "es": "Deseos e hipótesis",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "We express a wish with wish or if only, and a hypothesis with suppose or what if."
+                "We use wish and if only to express regret about a situation that is not as we would like, and suppose or imagine to ask about hypothetical situations. In each case the verb moves one step back in time: the past form refers to the present, and the past perfect to the past."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I **wish** I had more time.",
-                "**If only** it were summer!",
-                "**Suppose** you won the lottery."
+                "I **wish** I **had** more time. (I don't)",
+                "**If only** I **had listened**! (I didn't)",
+                "**Suppose** you **won** the lottery?"
               ]
             }
           ]
@@ -42,14 +42,47 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Meaning</th><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>regret about now</td><td>wish + past simple</td><td><strong>I wish I lived by the sea.</strong></td></tr><tr><td>regret about the past</td><td>wish + past perfect</td><td><strong>I wish I had studied more.</strong></td></tr><tr><td>annoyance or wish for change</td><td>wish + would</td><td><strong>I wish he would stop talking.</strong></td></tr><tr><td>stronger feeling</td><td>if only + same forms</td><td><strong>If only I knew the answer!</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Wish with would and could",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "After wish, use the simple past for a wish about the present, and the past perfect for a wish about the past. Use would for something that annoys you."
+                "Use wish + would for something that annoys you and that someone else could change. Do not use it with I or we for yourself. For ability, use wish + could: I wish I could swim."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>About</th><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>present</td><td>wish + past</td><td><strong>I wish I knew.</strong></td></tr><tr><td>past</td><td>wish + past perfect</td><td><strong>I wish I had called.</strong></td></tr><tr><td>future</td><td>wish + would</td><td><strong>I wish it would stop.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Correct</th><th>Incorrect</th></tr></thead><tbody><tr><td><strong>I wish it would stop raining.</strong></td><td>I wish I would win.</td></tr><tr><td><strong>I wish I could help.</strong></td><td>I wish I can help.</td></tr><tr><td><strong>I wish she were here.</strong></td><td>I wish she is here.</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Suppose, imagine and what if",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Suppose, supposing, imagine and what if introduce an imagined situation. The verb forms follow the pattern of the second and third conditional: Suppose you lost your job? What if we had missed the train?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I wish I have more money.** Right: **I wish I had more money.**",
+                "Wrong: **I wish I would be taller.** Right: **I wish I were taller.**",
+                "Wrong: **If only I would know!** Right: **If only I knew!**"
+              ]
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T21:L920",
   "order": 1,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Suffixes",
     "es": "Los sufijos",
@@ -25,31 +25,74 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A suffix is added to the end of a word. It often changes the word class."
+                "A suffix is a group of letters added to the end of a word. A suffix often changes the word class: a verb becomes a noun (teach → teacher), a noun becomes an adjective (hope → hopeful), an adjective becomes an adverb (quick → quickly)."
               ]
             },
             {
               "type": "bullets",
               "items": [
                 "teach → teach**er**",
-                "care → care**ful**",
-                "happy → happi**ness**"
+                "hope → hope**ful**",
+                "happy → happi**ness**",
+                "quick → quick**ly**"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Noun suffixes",
           "blocks": [
             {
-              "type": "paragraphs",
-              "paragraphs": [
-                "Suffixes make nouns (-er, -ness, -tion), adjectives (-ful, -less, -able) and adverbs (-ly). The spelling may change: y becomes i before a suffix."
-              ]
-            },
+              "type": "table",
+              "html": "<table><thead><tr><th>Suffix</th><th>Meaning</th><th>Examples</th></tr></thead><tbody><tr><td><strong>-er / -or</strong></td><td>a person who does</td><td><strong>teacher, actor, driver</strong></td></tr><tr><td><strong>-ist</strong></td><td>a person with a skill or belief</td><td><strong>artist, scientist</strong></td></tr><tr><td><strong>-ness</strong></td><td>a state or quality</td><td><strong>happiness, kindness</strong></td></tr><tr><td><strong>-ion / -tion</strong></td><td>an action or result</td><td><strong>decision, education</strong></td></tr><tr><td><strong>-ment</strong></td><td>an action or result</td><td><strong>movement, agreement</strong></td></tr><tr><td><strong>-ity</strong></td><td>a quality</td><td><strong>ability, equality</strong></td></tr><tr><td><strong>-ship</strong></td><td>a condition or skill</td><td><strong>friendship, leadership</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Adjective and adverb suffixes",
+          "blocks": [
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Suffix</th><th>Makes</th><th>Example</th></tr></thead><tbody><tr><td><strong>-er, -or</strong></td><td>a person</td><td><strong>teacher, actor</strong></td></tr><tr><td><strong>-ness, -tion</strong></td><td>a noun</td><td><strong>kindness, action</strong></td></tr><tr><td><strong>-ful, -less</strong></td><td>an adjective</td><td><strong>useful, useless</strong></td></tr><tr><td><strong>-ly</strong></td><td>an adverb</td><td><strong>slowly</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Suffix</th><th>Class</th><th>Examples</th></tr></thead><tbody><tr><td><strong>-ful</strong></td><td>adjective (full of)</td><td><strong>helpful, careful</strong></td></tr><tr><td><strong>-less</strong></td><td>adjective (without)</td><td><strong>hopeless, careless</strong></td></tr><tr><td><strong>-able / -ible</strong></td><td>adjective (can be)</td><td><strong>readable, possible</strong></td></tr><tr><td><strong>-ous</strong></td><td>adjective</td><td><strong>dangerous, famous</strong></td></tr><tr><td><strong>-al</strong></td><td>adjective</td><td><strong>national, musical</strong></td></tr><tr><td><strong>-ive</strong></td><td>adjective</td><td><strong>active, creative</strong></td></tr><tr><td><strong>-ly</strong></td><td>adverb</td><td><strong>quickly, carefully</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Verb suffixes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**-ise / -ize**: modernise, organise, realise",
+                "**-ify**: simplify, clarify",
+                "**-en**: widen, shorten, strengthen"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Spelling changes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Drop final -e before a suffix that begins with a vowel: **hope → hoping**, but keep it before a consonant: **hope → hopeful**.",
+                "Change -y to -i- before a suffix: **happy → happiness, easy → easily**.",
+                "Double the final consonant after a short stressed vowel: **run → runner, big → bigger**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **a hopefull person** Right: **hopeful**",
+                "Wrong: **happyness** Right: **happiness**",
+                "Wrong: **He drived carefuly.** Right: **carefully**"
+              ]
             }
           ]
         }

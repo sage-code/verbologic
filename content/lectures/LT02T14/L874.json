@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T14:L874",
   "order": 4,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Impersonal constructions",
     "es": "Construcciones impersonales",
@@ -25,31 +25,65 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An impersonal construction has no real subject. English uses it, there or you."
+                "English sentences need a subject. When there is no real subject, English uses a dummy subject: it for weather, time, distance and opinions, and there for existence. These words carry no meaning of their own."
               ]
             },
             {
               "type": "bullets",
               "items": [
                 "**It** is raining.",
-                "**It** is said that he is rich.",
-                "**There** is no time."
+                "**It** is half past six.",
+                "**There** is a problem."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Impersonal it",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>weather</td><td><strong>It is cold. It snows in winter.</strong></td></tr><tr><td>time and date</td><td><strong>It is nine o'clock. It is Monday.</strong></td></tr><tr><td>distance</td><td><strong>It is ten miles to town.</strong></td></tr><tr><td>judgements</td><td><strong>It is important to rest.</strong></td></tr><tr><td>opinions and facts</td><td><strong>It seems that he is late.</strong></td></tr><tr><td>with a clause</td><td><strong>It is a pity that you cannot come.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "There is and there are",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "It is used for weather, time and judgements, and there for existence. A common pattern is it, be, an adjective and to: It is important to rest."
+                "Use there + be to say that something exists or is present. The verb agrees with the noun that follows: There is a book; There are two books. The same structure works in all tenses: There was; There will be; There has been."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>weather</td><td><strong>It is snowing.</strong></td></tr><tr><td>time</td><td><strong>It is late.</strong></td></tr><tr><td>judgement</td><td><strong>It is easy to forget.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>statement</td><td><strong>There is a bank near here.</strong></td></tr><tr><td>question</td><td><strong>Is there a bank near here?</strong></td></tr><tr><td>negative</td><td><strong>There isn't a bank.</strong> / <strong>There is no bank.</strong></td></tr><tr><td>plural</td><td><strong>There are three students.</strong></td></tr><tr><td>past</td><td><strong>There was a storm.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Impersonal passive and one",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Impersonal passive structures such as It is said that... and It is believed that... avoid naming who says or thinks. In formal writing one can mean any person: One should always be polite. The pronoun you is more usual in everyday speech."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Is raining.** Right: **It is raining.**",
+                "Wrong: **Has a problem.** Right: **There is a problem.**",
+                "Wrong: **There are a book.** Right: **There is a book.**",
+                "Wrong: **It has a lot of people here.** Right: **There are a lot of people here.**"
+              ]
             }
           ]
         }

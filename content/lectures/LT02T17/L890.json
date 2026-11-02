@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T17:L890",
   "order": 0,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "What prepositions do",
     "es": "Para qué sirven las preposiciones",
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A preposition links a noun or pronoun to another word in the sentence. It shows place, time, direction, cause or means."
+                "A preposition is a short word placed before a noun, a pronoun or an -ing form. It shows a relation of place, time, direction, cause or means between that word and the rest of the sentence. English has about a hundred prepositions, but a few common ones do most of the work."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "The book is **on** the table.",
                 "We met **at** noon.",
-                "She came **by** bus."
+                "She came **with** her sister.",
+                "He left **without** saying goodbye."
               ]
             }
           ]
@@ -44,12 +45,52 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A preposition is followed by a noun, a pronoun or an -ing form. English has no case endings, so prepositions do much of the work that endings do in other languages."
+                "The preposition and the noun form a prepositional phrase, which usually works as an adverbial or as a modifier of a noun. After a preposition, use the object form of a pronoun (with me, for them) or the -ing form of a verb (without asking)."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Preposition</th><th>Shows</th><th>Example</th></tr></thead><tbody><tr><td><strong>in, on, at</strong></td><td>place or time</td><td><strong>in the box, at six</strong></td></tr><tr><td><strong>to, from</strong></td><td>direction</td><td><strong>to school</strong></td></tr><tr><td><strong>with, by</strong></td><td>means</td><td><strong>with a pen, by train</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Function</th><th>Example</th></tr></thead><tbody><tr><td>place</td><td><strong>in the kitchen</strong></td></tr><tr><td>time</td><td><strong>at six o'clock, on Monday, in May</strong></td></tr><tr><td>direction</td><td><strong>to the station, into the room</strong></td></tr><tr><td>means</td><td><strong>by train, with a pen</strong></td></tr><tr><td>reason</td><td><strong>because of the rain, thanks to you</strong></td></tr><tr><td>modifies a noun</td><td><strong>the key to the door</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Position of the preposition",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In questions and relative clauses, English speakers often leave the preposition at the end of the sentence. In formal writing, the preposition may come first with whom or which."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Informal</th><th>Formal</th></tr></thead><tbody><tr><td><strong>Who did you talk to?</strong></td><td><strong>To whom did you talk?</strong></td></tr><tr><td><strong>The house I live in</strong></td><td><strong>The house in which I live</strong></td></tr><tr><td><strong>What is it for?</strong></td><td><strong>For what purpose is it?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Prepositions, adverbs and particles",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Many words can be prepositions or adverbs. If a noun follows, the word is a preposition; if not, it is an adverb: She walked down the street (preposition); She sat down (adverb). Combined with a verb, such a word forms a phrasal verb: look up, turn off."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I'm interested on music.** Right: **in music**",
+                "Wrong: **He is good in English.** Right: **at English**",
+                "Wrong: **She is married with a doctor.** Right: **to a doctor**",
+                "Wrong: **After to eat, we left.** Right: **After eating**"
+              ]
             }
           ]
         }

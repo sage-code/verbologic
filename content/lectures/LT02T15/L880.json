@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T15:L880",
   "order": 4,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "The infinitive after verbs",
     "es": "El infinitivo después de los verbos",
@@ -25,31 +25,76 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Many English verbs are followed by the infinitive with to."
+                "The infinitive is the base form of the verb, usually used with to: to go, to speak, to be. After many verbs, English uses the to-infinitive to show a wish, a plan, a decision or an attempt."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I **want to** go.",
-                "She **decided to** stay.",
-                "They **hope to** win."
+                "I want **to learn** English.",
+                "She decided **to leave**.",
+                "They asked me **to help**."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Verb + to-infinitive",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Group</th><th>Verbs</th><th>Example</th></tr></thead><tbody><tr><td>wishes and plans</td><td>want, hope, plan, intend, expect</td><td><strong>I hope to travel.</strong></td></tr><tr><td>decisions</td><td>decide, choose, agree, refuse</td><td><strong>He refused to pay.</strong></td></tr><tr><td>attempts</td><td>try, manage, fail, learn</td><td><strong>She managed to win.</strong></td></tr><tr><td>promises</td><td>promise, offer, threaten</td><td><strong>He promised to call.</strong></td></tr><tr><td>seem and appear</td><td>seem, appear, happen</td><td><strong>It seems to work.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Verb + object + to-infinitive",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Common verbs with the to-infinitive include want, hope, decide, plan, promise and learn. After a modal verb the infinitive has no to. Some verbs take an object before to: I asked him to wait."
+                "Some verbs take an object before the infinitive: someone is told, wanted or allowed to do something."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>verb + to</td><td><strong>We agreed to meet.</strong></td></tr><tr><td>verb + object + to</td><td><strong>She told me to wait.</strong></td></tr><tr><td>modal + base form</td><td><strong>He can swim.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Verb</th><th>Example</th></tr></thead><tbody><tr><td><strong>ask, tell, order</strong></td><td><strong>She told him to wait.</strong></td></tr><tr><td><strong>want, would like, expect</strong></td><td><strong>I want you to come.</strong></td></tr><tr><td><strong>allow, let, permit</strong></td><td><strong>They allowed us to leave.</strong></td></tr><tr><td><strong>advise, remind, warn</strong></td><td><strong>He advised me to rest.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Infinitive without to",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "After modal verbs, and after make and let with an object, the base form is used without to: I can swim; She made him wait; Let me go."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Infinitive of purpose",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The to-infinitive can answer the question Why?: I went to the shop to buy bread. For a negative purpose, use in order not to: He spoke quietly in order not to wake the baby."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I want that you come.** Right: **I want you to come.**",
+                "Wrong: **She made me to wait.** Right: **She made me wait.**",
+                "Wrong: **I can to swim.** Right: **I can swim.**",
+                "Wrong: **I went to shop for to buy bread.** Right: **to buy bread**"
+              ]
             }
           ]
         }

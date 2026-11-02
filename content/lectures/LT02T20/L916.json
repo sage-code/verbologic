@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T20:L916",
   "order": 3,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Subject and verb agreement",
     "es": "La concordancia entre sujeto y verbo",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The verb agrees with its subject in number. A singular subject takes a singular verb."
+                "A verb must agree with its subject in number and person. In English this agreement is visible only in the present tense (the -s of the third person singular) and in the verb be (am, is, are, was, were) and have (has)."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "The **dog barks**.",
-                "The **dogs bark**.",
-                "**Everyone is** here."
+                "The boy **runs**. / The boys **run**.",
+                "She **is** here. / They **are** here.",
+                "He **has** a car. / We **have** a car."
               ]
             }
           ]
@@ -42,14 +42,42 @@
           "title": "How it works in English",
           "blocks": [
             {
-              "type": "paragraphs",
-              "paragraphs": [
-                "In the simple present only the third person singular has an ending: she works. Be has the most forms. The verb agrees with the real subject, not the nearest noun: The box of apples is heavy."
-              ]
-            },
+              "type": "table",
+              "html": "<table><thead><tr><th>Subject</th><th>Present simple</th><th>be</th><th>have</th></tr></thead><tbody><tr><td>I</td><td><strong>work</strong></td><td><strong>am</strong></td><td><strong>have</strong></td></tr><tr><td>you</td><td><strong>work</strong></td><td><strong>are</strong></td><td><strong>have</strong></td></tr><tr><td>he / she / it</td><td><strong>works</strong></td><td><strong>is</strong></td><td><strong>has</strong></td></tr><tr><td>we</td><td><strong>work</strong></td><td><strong>are</strong></td><td><strong>have</strong></td></tr><tr><td>they</td><td><strong>work</strong></td><td><strong>are</strong></td><td><strong>have</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Difficult cases",
+          "blocks": [
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Subject</th><th>Verb</th><th>Example</th></tr></thead><tbody><tr><td>singular</td><td><strong>works, is</strong></td><td><strong>The boy works.</strong></td></tr><tr><td>plural</td><td><strong>work, are</strong></td><td><strong>The boys work.</strong></td></tr><tr><td>everyone, nobody</td><td><strong>is</strong></td><td><strong>Nobody is here.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Subject</th><th>Rule</th><th>Example</th></tr></thead><tbody><tr><td><strong>two subjects with and</strong></td><td>plural</td><td><strong>Tom and Ann are here.</strong></td></tr><tr><td><strong>two subjects with or / nor</strong></td><td>agrees with the nearer</td><td><strong>Neither he nor I am ready.</strong></td></tr><tr><td><strong>everyone, someone, nobody</strong></td><td>singular</td><td><strong>Everyone is here.</strong></td></tr><tr><td><strong>a group noun</strong> (team, family)</td><td>singular (US); singular or plural (UK)</td><td><strong>The team is / are winning.</strong></td></tr><tr><td><strong>news, mathematics</strong></td><td>singular though they end in -s</td><td><strong>The news is good.</strong></td></tr><tr><td><strong>scissors, trousers, glasses</strong></td><td>plural</td><td><strong>My trousers are new.</strong></td></tr><tr><td><strong>a number of / the number of</strong></td><td>plural / singular</td><td><strong>A number of people are here. The number is small.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Distance from the subject",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The verb agrees with the subject, not with the noun nearest to it: The box of chocolates is on the table (not are). The key to all the doors was lost."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **She work every day.** Right: **She works every day.**",
+                "Wrong: **The news are bad.** Right: **The news is bad.**",
+                "Wrong: **There is two problems.** Right: **There are two problems.**",
+                "Wrong: **Everybody are here.** Right: **Everybody is here.**"
+              ]
             }
           ]
         }

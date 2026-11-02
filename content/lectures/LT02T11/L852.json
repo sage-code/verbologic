@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T11:L852",
   "order": 1,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "The past in progress",
     "es": "El pasado en curso",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The past continuous describes an action that was in progress at a moment in the past."
+                "The past continuous (or past progressive) shows an action that was in progress at a particular time in the past. It describes the background or the scene, and often the situation that another event interrupted."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I **was reading** at eight.",
-                "They **were playing** outside.",
-                "It **was raining** all day."
+                "At eight o'clock I **was having** breakfast.",
+                "It **was raining** when we left.",
+                "They **were talking** while she **was cooking**."
               ]
             }
           ]
@@ -44,12 +44,51 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Form it with was or were and the -ing form. It often sets the scene, while the simple past gives the event that interrupted it: I was walking when it began to rain."
+                "Form it with was or were and the -ing form of the main verb. Be is the auxiliary, so it makes the question and the negative."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>affirmative</td><td><strong>He was sleeping.</strong></td></tr><tr><td>negative</td><td><strong>He wasn't sleeping.</strong></td></tr><tr><td>with the simple past</td><td><strong>I was cooking when she called.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>statement</td><td><strong>I was working.</strong> / <strong>They were working.</strong></td></tr><tr><td>question</td><td><strong>Was she working? Were they working?</strong></td></tr><tr><td>negative</td><td><strong>He was not (wasn't) working.</strong></td></tr><tr><td>wh- question</td><td><strong>What were you doing?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Past continuous and simple past",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use the past continuous for the longer action in progress, and the simple past for the shorter action that interrupted it or happened in the middle of it. When and while link the two."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>continuous + when + simple</strong></td><td><strong>I was walking home when it started to rain.</strong></td></tr><tr><td><strong>while + continuous, simple</strong></td><td><strong>While she was cooking, the phone rang.</strong></td></tr><tr><td>two parallel actions</td><td><strong>He was reading while she was writing.</strong></td></tr><tr><td>one after another</td><td><strong>He came in and sat down.</strong> (both simple)</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Verbs not normally used in the continuous",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Verbs of state, such as know, like, believe, want and belong, are not normally used in a continuous tense: I knew the answer, not I was knowing it."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I was knowing him.** Right: **I knew him.**",
+                "Wrong: **When I was arriving, he left.** Right: **When I arrived, he left.** (a short, complete action)",
+                "Wrong: **They was playing.** Right: **They were playing.**"
+              ]
             }
           ]
         }

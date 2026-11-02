@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T20:L915",
   "order": 2,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Emphasis and inversion",
     "es": "Énfasis e inversión",
@@ -25,31 +25,64 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "English can change the usual order to give emphasis. Inversion puts the verb or auxiliary before the subject."
+                "English usually keeps subject – verb order, but it can change it to give emphasis. In inversion, an auxiliary or a main verb comes before the subject, which is a form of emphasis found in formal writing, speeches and literature."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**Never have I seen** such a view.",
-                "**Rarely does she** complain.",
-                "**Here comes** the bus."
+                "**Never have I seen** such a thing.",
+                "**Here comes** the bus.",
+                "**Not only did he lie**, but he also cheated."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Inversion after negative adverbs",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Inversion happens after negative adverbs at the start of a sentence, such as never, rarely and hardly, and after here and there. It is common in writing. A cleft sentence with it is also used: It was Anna who called."
+                "After adverbs with a negative or restrictive meaning at the beginning of a clause, the auxiliary comes before the subject. If there is no auxiliary, add do, does or did."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>negative adverb, then inversion</td><td><strong>Never have I been so happy.</strong></td></tr><tr><td>here or there, then the verb</td><td><strong>There goes the train.</strong></td></tr><tr><td>cleft with it</td><td><strong>It was Tom who called.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Normal order</th><th>Inverted order</th></tr></thead><tbody><tr><td><strong>I have never seen such a thing.</strong></td><td><strong>Never have I seen such a thing.</strong></td></tr><tr><td><strong>He not only lied but also cheated.</strong></td><td><strong>Not only did he lie, but he also cheated.</strong></td></tr><tr><td><strong>I rarely go out.</strong></td><td><strong>Rarely do I go out.</strong></td></tr><tr><td><strong>She had hardly arrived when it began.</strong></td><td><strong>Hardly had she arrived when it began.</strong></td></tr><tr><td><strong>I only realised later.</strong></td><td><strong>Only later did I realise.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Other emphasis",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Device</th><th>Example</th></tr></thead><tbody><tr><td><strong>inversion after so / such</strong></td><td><strong>So loud was the noise that I woke.</strong></td></tr><tr><td><strong>place word first</strong></td><td><strong>Here comes the bus. Down fell the rain.</strong></td></tr><tr><td><strong>cleft sentence (It is... that)</strong></td><td><strong>It was Tom who broke it.</strong></td></tr><tr><td><strong>What... is</strong></td><td><strong>What I need is a rest.</strong></td></tr><tr><td><strong>do for emphasis</strong></td><td><strong>I do like it!</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Conditional inversion",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Conditionals can be inverted instead of using if: Had I known, I would have called (= If I had known). Should you need help, ask (= If you should need help). Were I rich, I would travel (= If I were rich)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Never I have seen this.** Right: **Never have I seen this.**",
+                "Wrong: **Rarely she goes out.** Right: **Rarely does she go out.**",
+                "Wrong: **Hardly I arrived when...** Right: **Hardly had I arrived when...**"
+              ]
             }
           ]
         }

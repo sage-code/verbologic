@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T15:L881",
   "order": 5,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "The participle",
     "es": "El participio",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A participle is a verb form that works as part of a verb or as an adjective. English has a present participle (-ing) and a past participle (-ed, or irregular)."
+                "A participle is a verb form that works as part of a verb phrase or as an adjective. English has a present participle ending in -ing and a past participle, which ends in -ed for regular verbs and is irregular for many common ones."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "a **running** dog",
-                "a **broken** window",
-                "She has **finished**."
+                "a **running** tap (present participle)",
+                "a **broken** window (past participle)",
+                "She is **reading**. It was **written** by hand."
               ]
             }
           ]
@@ -42,14 +42,46 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Verb</th><th>Present participle</th><th>Past participle</th></tr></thead><tbody><tr><td><strong>walk</strong></td><td>walking</td><td>walked</td></tr><tr><td><strong>write</strong></td><td>writing</td><td>written</td></tr><tr><td><strong>go</strong></td><td>going</td><td>gone</td></tr><tr><td><strong>cut</strong></td><td>cutting</td><td>cut</td></tr><tr><td><strong>be</strong></td><td>being</td><td>been</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Uses of the participles",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>continuous tenses</td><td><strong>She is reading. They were playing.</strong></td></tr><tr><td>perfect tenses</td><td><strong>I have finished. He had gone.</strong></td></tr><tr><td>passive</td><td><strong>The door was closed.</strong></td></tr><tr><td>adjective before a noun</td><td><strong>an interesting book, a closed door</strong></td></tr><tr><td>reduced clause</td><td><strong>The man standing there is my uncle.</strong></td></tr><tr><td>reason or time</td><td><strong>Feeling tired, he went to bed.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "-ing or -ed adjectives",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "The present participle forms the continuous tenses. The past participle forms the perfect tenses and the passive. Both can describe a noun."
+                "Some adjectives have both forms with different meanings. The -ing form describes the thing or person that causes the feeling; the -ed form describes the person who has the feeling."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Participle</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>present (-ing)</td><td>continuous, adjective</td><td><strong>He is running. a running tap</strong></td></tr><tr><td>past</td><td>perfect, passive, adjective</td><td><strong>She has gone. a closed door</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>-ing (causing)</th><th>-ed (feeling)</th></tr></thead><tbody><tr><td><strong>The film was boring.</strong></td><td><strong>I was bored.</strong></td></tr><tr><td><strong>It is an exciting game.</strong></td><td><strong>We are excited.</strong></td></tr><tr><td><strong>a surprising result</strong></td><td><strong>surprised people</strong></td></tr><tr><td><strong>tiring work</strong></td><td><strong>tired workers</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I am boring.** (if you mean you feel bored) Right: **I am bored.**",
+                "Wrong: **a break window** Right: **a broken window**",
+                "Wrong: **He has wrote.** Right: **He has written.**",
+                "Wrong: **Walking along the street, the rain began.** Right: **Walking along the street, I felt the rain.** (the participle must refer to the same subject)"
+              ]
             }
           ]
         }

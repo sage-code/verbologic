@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T14:L873",
   "order": 3,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Reflexive verbs",
     "es": "Verbos reflexivos",
@@ -25,31 +25,67 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A reflexive verb has an object that is the same as the subject. In English this uses a -self pronoun."
+                "A reflexive verb has an object pronoun that refers back to the subject: I hurt myself. In many languages such verbs are very common, but English uses the reflexive pronoun much less."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "He **hurt himself**.",
-                "I **taught myself** Spanish.",
-                "Look after **yourself**."
+                "She **taught herself** to play the guitar.",
+                "The children **enjoyed themselves**.",
+                "Be careful, you will **hurt yourself**."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Verbs that need a reflexive pronoun",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Verb</th><th>Example</th></tr></thead><tbody><tr><td><strong>enjoy oneself</strong></td><td><strong>We enjoyed ourselves.</strong></td></tr><tr><td><strong>behave yourself</strong></td><td><strong>Behave yourself!</strong></td></tr><tr><td><strong>help yourself</strong></td><td><strong>Help yourself to the cake.</strong></td></tr><tr><td><strong>hurt / cut / burn oneself</strong></td><td><strong>He cut himself shaving.</strong></td></tr><tr><td><strong>introduce oneself</strong></td><td><strong>She introduced herself.</strong></td></tr><tr><td><strong>teach oneself</strong></td><td><strong>I taught myself Spanish.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Verbs that do not take a reflexive in English",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "English uses fewer reflexive verbs than many languages. Many actions we do to ourselves have no pronoun: I wash, I shave, I get dressed."
+                "Verbs of grooming, such as wash, dress, shave and get up, do not normally take a reflexive pronoun when the meaning is obvious. Use the reflexive for emphasis, or when a person is not able to do it: He dressed himself (even though he is only three)."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>With a pronoun</th><th>Without a pronoun</th></tr></thead><tbody><tr><td><strong>She enjoyed herself.</strong></td><td><strong>She washed.</strong></td></tr><tr><td><strong>He cut himself.</strong></td><td><strong>He shaved.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>English</th><th>Not</th></tr></thead><tbody><tr><td><strong>She washed and dressed.</strong></td><td>She washed herself and dressed herself.</td></tr><tr><td><strong>I shave every day.</strong></td><td>I shave myself every day.</td></tr><tr><td><strong>We relaxed.</strong></td><td>We relaxed ourselves.</td></tr><tr><td><strong>He hurried.</strong></td><td>He hurried himself.</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Reflexive and other uses of -self",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Emphasis: **I did it myself.** (nobody helped)",
+                "Alone: **She lives by herself.**",
+                "After a preposition when it refers to the subject: **He talked to himself.**",
+                "Do not use for different people: **They saw them** (different people) vs **They saw themselves.**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I feel myself tired.** Right: **I feel tired.**",
+                "Wrong: **He sat himself down.** Right: **He sat down.**",
+                "Wrong: **They hurt theirselves.** Right: **themselves**"
+              ]
             }
           ]
         }

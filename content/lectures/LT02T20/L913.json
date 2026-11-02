@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T20:L913",
   "order": 0,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Basic word order",
     "es": "El orden básico de las palabras",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "English has a fixed basic word order: subject, verb, object."
+                "In English, word order is fixed and carries meaning, because nouns have no case endings. The basic order of a statement is subject – verb – object (SVO). Changing the order usually changes the meaning or makes the sentence incorrect."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**The cat** chased **the mouse**.",
-                "**She** reads **books**.",
-                "**We** saw **a film**."
+                "**The dog** (S) **chased** (V) **the cat** (O).",
+                "**The cat** (S) **chased** (V) **the dog** (O). (a different meaning)",
+                "**She** (S) **lives** (V) **in Rome** (adverbial)."
               ]
             }
           ]
@@ -42,14 +42,48 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>S + V</strong></td><td><strong>Birds sing.</strong></td></tr><tr><td><strong>S + V + O</strong></td><td><strong>Birds eat seeds.</strong></td></tr><tr><td><strong>S + V + complement</strong></td><td><strong>She is a doctor. It looks nice.</strong></td></tr><tr><td><strong>S + V + O + adverbial</strong></td><td><strong>He reads the paper every morning.</strong></td></tr><tr><td><strong>S + V + indirect O + direct O</strong></td><td><strong>She gave him a present.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "The subject must be present",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "Because English has almost no case endings, word order tells you who does what. Changing the order changes the meaning."
+                "Unlike in some languages, an English statement needs an explicit subject. Where there is no real subject, English uses a dummy subject: it for weather and time, and there for existence."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Order</th><th>Example</th></tr></thead><tbody><tr><td>subject, verb, object</td><td><strong>Tom loves Anna.</strong></td></tr><tr><td>swapped</td><td><strong>Anna loves Tom.</strong></td></tr><tr><td>with an adverbial</td><td><strong>Tom loves Anna very much.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Correct</th><th>Incorrect</th></tr></thead><tbody><tr><td><strong>It is raining.</strong></td><td>Is raining.</td></tr><tr><td><strong>There is a problem.</strong></td><td>Is a problem.</td></tr><tr><td><strong>She speaks English.</strong></td><td>Speaks English.</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Adjectives and adverbs",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adjectives usually come before the noun (a red car), but after be and linking verbs (the car is red). Adverbs of frequency come before the main verb (she often works) and after be (she is often late). Time expressions usually come at the end or at the beginning."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Likes she coffee?** Right: **Does she like coffee?**",
+                "Wrong: **I speak very well English.** Right: **I speak English very well.**",
+                "Wrong: **A car red** Right: **a red car**",
+                "Wrong: **Always I get up early.** Right: **I always get up early.**"
+              ]
             }
           ]
         }

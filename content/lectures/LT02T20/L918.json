@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T20:L918",
   "order": 5,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Word order in questions and negatives",
     "es": "Orden de palabras en preguntas y negaciones",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Questions and negatives change the usual word order by using an auxiliary verb."
+                "English questions and negatives need an auxiliary verb. When the verb phrase has no auxiliary, English adds do, does or did. In a question, the auxiliary comes before the subject. In a negative, not follows the auxiliary."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**Do you** like tea?",
+                "**Does she** like coffee?",
                 "She **does not** like coffee.",
-                "**Where did** he go?"
+                "**Where did he** go?"
               ]
             }
           ]
@@ -42,14 +42,61 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Type</th><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>statement</td><td>S + V</td><td><strong>She works here.</strong></td></tr><tr><td>yes / no question</td><td>Aux + S + V</td><td><strong>Does she work here?</strong></td></tr><tr><td>wh- question</td><td>Wh- + Aux + S + V</td><td><strong>Where does she work?</strong></td></tr><tr><td>negative</td><td>S + Aux + not + V</td><td><strong>She does not (doesn't) work here.</strong></td></tr><tr><td>negative question</td><td>Aux + n't + S + V</td><td><strong>Doesn't she work here?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "With be and modal verbs",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "In a question the auxiliary comes before the subject, and the main verb stays in the base form. In a negative, not follows the auxiliary. A question word comes first."
+                "Be and modal verbs are their own auxiliaries, so they do not need do: Is she here? Can you swim? She isn't here. I can't swim."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Questions about the subject",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "When the question word is the subject, the word order is the same as in a statement, and do is not used: Who called? (not: Who did call?) What happened?"
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Type</th><th>Order</th><th>Example</th></tr></thead><tbody><tr><td>question</td><td>auxiliary, subject, verb</td><td><strong>Do you know him?</strong></td></tr><tr><td>negative</td><td>subject, auxiliary, not, verb</td><td><strong>I do not know him.</strong></td></tr><tr><td>question with a question word</td><td>question word, auxiliary, subject</td><td><strong>Where do you live?</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Subject question</th><th>Object question</th></tr></thead><tbody><tr><td><strong>Who called you?</strong></td><td><strong>Who did you call?</strong></td></tr><tr><td><strong>What happened?</strong></td><td><strong>What did he do?</strong></td></tr><tr><td><strong>Which bus goes there?</strong></td><td><strong>Which bus did you take?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Other negatives",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "No: **She has no money.** (= doesn't have any)",
+                "Never, nobody, nothing, nowhere: **I never go there.**",
+                "Not in an infinitive: **I decided not to go.**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Where she works?** Right: **Where does she work?**",
+                "Wrong: **She doesn't works.** Right: **She doesn't work.**",
+                "Wrong: **I no like it.** Right: **I don't like it.**",
+                "Wrong: **Who did call?** Right: **Who called?**"
+              ]
             }
           ]
         }

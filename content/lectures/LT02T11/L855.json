@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T11:L855",
   "order": 4,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Habits in the past",
     "es": "Hábitos en el pasado",
@@ -25,31 +25,68 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "To talk about repeated actions in the past, English uses used to, would, or the simple past with an adverb."
+                "English has two ways of saying that something happened regularly in the past but no longer happens: used to and would. Used to describes habits and states. Would describes only repeated actions."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I **used to** live in Leeds.",
-                "We **would** play cards every night.",
-                "He **always walked** to school."
+                "We **used to live** in London.",
+                "Every summer we **would visit** my grandparents.",
+                "She **used to be** shy."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Used to",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Used to describes habits and states that are no longer true. Would describes habits only, not states. Questions and negatives use did and use to."
+                "Used to is followed by the base form. It has no present form; for the present, use the present simple with an adverb such as usually. In questions and negatives, the auxiliary did carries the tense, and the spelling becomes use to."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>used to</td><td><strong>She used to smoke.</strong></td></tr><tr><td>would</td><td><strong>He would visit us on Sundays.</strong></td></tr><tr><td>negative</td><td><strong>I didn't use to like fish.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>statement</td><td><strong>He used to smoke.</strong></td></tr><tr><td>question</td><td><strong>Did he use to smoke?</strong></td></tr><tr><td>negative</td><td><strong>He did not (didn't) use to smoke.</strong></td></tr><tr><td>state</td><td><strong>There used to be a cinema here.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Would",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Would describes a repeated action in the past, but not a state. It needs a context that already shows the time is past, such as when I was a child. You cannot say I would be shy. Say I used to be shy."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Meaning</th><th>used to</th><th>would</th></tr></thead><tbody><tr><td>repeated action</td><td><strong>We used to play outside.</strong></td><td><strong>We would play outside.</strong></td></tr><tr><td>state</td><td><strong>She used to be shy.</strong></td><td>not possible</td></tr><tr><td>single event</td><td>not possible</td><td>not possible</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Compare with the present",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Past (finished)</th><th>Present</th></tr></thead><tbody><tr><td><strong>I used to run every day.</strong></td><td><strong>I run every day.</strong></td></tr><tr><td><strong>She didn't use to like coffee.</strong></td><td><strong>She doesn't like coffee.</strong></td></tr><tr><td><strong>Did you use to live here?</strong></td><td><strong>Do you live here?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I used to going.** Right: **I used to go.** (but: I am used to going means something different)",
+                "Wrong: **Did you used to go?** Right: **Did you use to go?**",
+                "Wrong: **I would live in Rome.** Right: **I used to live in Rome.**"
+              ]
             }
           ]
         }

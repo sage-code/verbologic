@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T12:L862",
   "order": 3,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Future continuous and future perfect",
     "es": "Futuro continuo y futuro perfecto",
@@ -25,31 +25,68 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The future continuous describes an action in progress at a future time. The future perfect describes an action that will be finished by a future time."
+                "These two tenses look forward to a moment in the future and say what will be happening then (future continuous) or what will already have finished (future perfect)."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "This time tomorrow I **will be flying**.",
-                "By June she **will have finished**.",
-                "I **will have left** by then."
+                "This time tomorrow I **will be flying** to Madrid.",
+                "By Friday I **will have finished** the report.",
+                "In ten years she **will have been** a doctor for a long time."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "The future continuous",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Form the future continuous with will be and the -ing form. Form the future perfect with will have and the past participle. By marks the time limit."
+                "Form it with will be + the -ing form. It describes an action in progress at a future time, or an event that is already planned and will happen in the normal course of events."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>future continuous</td><td><strong>He will be working at five.</strong></td></tr><tr><td>future perfect</td><td><strong>He will have finished by five.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>statement</td><td><strong>I will be working at nine.</strong></td></tr><tr><td>question</td><td><strong>Will you be using the car tonight?</strong></td></tr><tr><td>negative</td><td><strong>She will not be coming.</strong></td></tr><tr><td>polite question</td><td><strong>Will you be staying long?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "The future perfect",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Form it with will have + the past participle. It looks back from a future time at an action that will already be finished by then. By and by the time are the usual time words."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>statement</td><td><strong>I will have finished by six.</strong></td></tr><tr><td>question</td><td><strong>Will you have finished by then?</strong></td></tr><tr><td>negative</td><td><strong>They will not (won't) have arrived.</strong></td></tr><tr><td>with by</td><td><strong>By next year, she will have graduated.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Comparing them",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Future simple</th><th>Future continuous</th><th>Future perfect</th></tr></thead><tbody><tr><td><strong>I'll work at nine.</strong> (a decision)</td><td><strong>I'll be working at nine.</strong> (in progress then)</td><td><strong>I'll have worked by nine.</strong> (done before nine)</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I will have finish.** Right: **I will have finished.**",
+                "Wrong: **I will be work.** Right: **I will be working.**",
+                "Wrong: **By tomorrow, I will be finishing.** Right: **I will have finished.** (a completed action)"
+              ]
             }
           ]
         }

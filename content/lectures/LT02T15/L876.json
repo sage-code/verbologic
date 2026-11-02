@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T15:L876",
   "order": 0,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Ability and skill",
     "es": "Capacidad y habilidad",
@@ -25,31 +25,65 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Can and could express ability. Be able to is used where can has no form."
+                "English expresses ability with the modal verb can (present), could (past or conditional) and the phrase be able to. Modal verbs are followed by the base form of the verb and have no -s in the third person."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I **can** swim.",
-                "She **could** read at four.",
-                "We **will be able to** come."
+                "She **can** swim.",
+                "When I was five, I **could** read.",
+                "He **will be able to** drive next year."
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "Can and could",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>positive</td><td><strong>I can speak French.</strong></td></tr><tr><td>negative</td><td><strong>I cannot (can't) speak German.</strong></td></tr><tr><td>question</td><td><strong>Can you cook?</strong></td></tr><tr><td>past ability</td><td><strong>She could run fast as a child.</strong></td></tr><tr><td>past negative</td><td><strong>He couldn't open the door.</strong></td></tr><tr><td>polite request</td><td><strong>Could you help me?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Be able to",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Can has only two forms, can and could. For the future or the perfect, use be able to. Cannot is written as one word, and the short form is can't."
+                "Can and could have no infinitive, no future and no perfect forms. Use be able to for these. In the past, could describes general ability, while was able to describes a particular success: I was able to finish the exam yesterday (not: I could finish)."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Tense</th><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>present</td><td><strong>can</strong></td><td><strong>I can drive.</strong></td></tr><tr><td>past</td><td><strong>could</strong></td><td><strong>He could ski.</strong></td></tr><tr><td>future</td><td><strong>will be able to</strong></td><td><strong>They will be able to help.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>future</td><td><strong>You will be able to swim soon.</strong></td></tr><tr><td>present perfect</td><td><strong>I have been able to relax.</strong></td></tr><tr><td>after another verb</td><td><strong>I'd like to be able to dance.</strong></td></tr><tr><td>one past success</td><td><strong>I was able to find a taxi.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Skill and knowledge",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "To talk about a learned skill, use can or know how to: I can play the piano; She knows how to cook. With the senses and mental verbs, use can: I can hear it; I can see you; I can't remember."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **She cans swim.** Right: **She can swim.**",
+                "Wrong: **I can to speak.** Right: **I can speak.**",
+                "Wrong: **I will can help.** Right: **I will be able to help.**",
+                "Wrong: **I could pass the exam yesterday.** (one event) Right: **I was able to pass.**"
+              ]
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T19:L906",
   "order": 1,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Subordinating conjunctions",
     "es": "Conjunciones subordinantes",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A subordinating conjunction introduces a clause that depends on the main clause: because, although, if, when, that."
+                "A subordinating conjunction introduces a clause that depends on the main clause and cannot stand alone. The dependent clause gives time, cause, condition, contrast, purpose or result."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I left **because** it was late.",
-                "**Although** he was tired, he worked.",
-                "She says **that** it is true."
+                "I stayed home **because** it was raining.",
+                "**When** she arrived, we ate.",
+                "He works hard **so that** he can succeed."
               ]
             }
           ]
@@ -42,14 +42,47 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Meaning</th><th>Conjunctions</th><th>Example</th></tr></thead><tbody><tr><td>time</td><td>when, while, before, after, until, as soon as</td><td><strong>I'll call when I arrive.</strong></td></tr><tr><td>cause</td><td>because, since, as</td><td><strong>I stayed because I was ill.</strong></td></tr><tr><td>condition</td><td>if, unless, provided that</td><td><strong>Unless you hurry, you'll be late.</strong></td></tr><tr><td>contrast</td><td>although, though, even though, whereas</td><td><strong>Although it rained, we went out.</strong></td></tr><tr><td>purpose</td><td>so that, in order that</td><td><strong>I left early so that I wouldn't be late.</strong></td></tr><tr><td>result</td><td>so... that, such... that</td><td><strong>It was so cold that we stayed in.</strong></td></tr><tr><td>place</td><td>where, wherever</td><td><strong>Stay where you are.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Order of the clauses",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "The dependent clause can come before or after the main clause. When it comes first, a comma separates the two. A dependent clause cannot stand alone."
+                "The dependent clause can come first or second. If it comes first, put a comma after it; if it comes second, usually no comma: Because it was late, we left. We left because it was late."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Meaning</th><th>Conjunction</th><th>Example</th></tr></thead><tbody><tr><td>time</td><td><strong>when, after, before</strong></td><td><strong>Call me when you arrive.</strong></td></tr><tr><td>reason</td><td><strong>because, since</strong></td><td><strong>He left because he was ill.</strong></td></tr><tr><td>condition</td><td><strong>if, unless</strong></td><td><strong>If it rains, we stay.</strong></td></tr><tr><td>contrast</td><td><strong>although, while</strong></td><td><strong>Although it was late, we stayed.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Dependent clause first</th><th>Main clause first</th></tr></thead><tbody><tr><td><strong>When she called, I was out.</strong></td><td><strong>I was out when she called.</strong></td></tr><tr><td><strong>If you want, I'll help.</strong></td><td><strong>I'll help if you want.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "A dependent clause alone is not a sentence",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A dependent clause must be attached to a main clause. Because it was raining is not a sentence by itself; it needs a main clause: We stayed home because it was raining."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Because it rained.** (as a sentence) Right: **We stayed home because it rained.**",
+                "Wrong: **Although it was cold, but we went out.** Right: **Although it was cold, we went out.**",
+                "Wrong: **When I will arrive, I'll call.** Right: **When I arrive, I'll call.**"
+              ]
             }
           ]
         }

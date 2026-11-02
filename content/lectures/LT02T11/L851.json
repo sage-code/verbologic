@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T11:L851",
   "order": 0,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "The simple past",
     "es": "El pasado simple",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The simple past tells about a finished action at a definite time in the past."
+                "The simple past (also called the past simple) describes an action or state that began and ended in the past, usually at a time that is stated or understood. It is the basic tense for telling what happened."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I **called** her yesterday.",
-                "They **arrived** at six.",
-                "We **went** to Paris in 2019."
+                "I **visited** Rome last year.",
+                "She **lived** there for ten years.",
+                "We **saw** a film yesterday."
               ]
             }
           ]
@@ -44,12 +44,53 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Regular verbs add -ed, and irregular verbs have their own past form. Questions and negatives use did with the base form."
+                "Regular verbs add -ed to the base form. Irregular verbs have their own past forms, which must be learned. The past form is the same for every person, with the one exception of was and were."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>affirmative</td><td><strong>She worked.</strong></td></tr><tr><td>negative</td><td><strong>She didn't work.</strong></td></tr><tr><td>question</td><td><strong>Did she work?</strong></td></tr><tr><td>irregular</td><td><strong>go, went; see, saw</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Type</th><th>Base</th><th>Past</th><th>Example</th></tr></thead><tbody><tr><td>regular</td><td>walk</td><td>walked</td><td><strong>She walked home.</strong></td></tr><tr><td>regular (ends in -e)</td><td>live</td><td>lived</td><td><strong>We lived in Leeds.</strong></td></tr><tr><td>regular (consonant + y)</td><td>study</td><td>studied</td><td><strong>I studied French.</strong></td></tr><tr><td>irregular</td><td>go</td><td>went</td><td><strong>They went to Spain.</strong></td></tr><tr><td>irregular</td><td>buy</td><td>bought</td><td><strong>He bought a car.</strong></td></tr><tr><td>be</td><td>be</td><td>was / were</td><td><strong>I was ill. They were late.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Questions and negatives",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The auxiliary did forms questions and negatives for all verbs except be. The main verb goes back to the base form because did already shows the past."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>statement</td><td><strong>She saw the film.</strong></td></tr><tr><td>question</td><td><strong>Did she see the film?</strong></td></tr><tr><td>negative</td><td><strong>She did not (didn't) see the film.</strong></td></tr><tr><td>with be</td><td><strong>Was he ill? He wasn't ill.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Spelling of the -ed ending",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Add -d to verbs that end in -e: **live → lived**.",
+                "Change y to i after a consonant: **try → tried**, but **play → played**.",
+                "Double the final consonant after a short stressed vowel: **stop → stopped**, **plan → planned**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Did she saw it?** Right: **Did she see it?**",
+                "Wrong: **I didn't went.** Right: **I didn't go.**",
+                "Wrong: **I have seen him yesterday.** Right: **I saw him yesterday.** (a finished time needs the simple past)"
+              ]
             }
           ]
         }

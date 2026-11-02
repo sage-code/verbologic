@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T17:L895",
   "order": 5,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "What cases do",
     "es": "Para qué sirven los casos",
@@ -25,31 +25,54 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A case shows the job that a noun or pronoun does in a sentence: subject, object or owner. English has almost lost its case endings."
+                "In many languages, the endings of nouns, pronouns and adjectives change to show the job they do in the sentence: subject, object, owner and so on. These changing forms are called cases. English lost almost all of them, and it now relies on word order and prepositions."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**I** see him. (subject)",
-                "He sees **me**. (object)",
-                "This is **my** book. (owner)"
+                "**She** saw **him**. (subject case, object case)",
+                "**The teacher's** book (possessive)",
+                "**Who** called? / **Whom** did you see?"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "What English has kept",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Only pronouns keep three cases: subject, object and possessive. Nouns have just one change, the possessive 's. For nouns, word order tells you the subject and the object."
+                "English keeps three cases only in the personal pronouns, and one in nouns. The subjective case is used for the subject, the objective for the object, and the possessive for the owner."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Case</th><th>Pronoun</th><th>Noun</th></tr></thead><tbody><tr><td>subject</td><td><strong>I, he, they</strong></td><td><strong>the dog</strong></td></tr><tr><td>object</td><td><strong>me, him, them</strong></td><td><strong>the dog</strong></td></tr><tr><td>possessive</td><td><strong>my, his, their</strong></td><td><strong>the dog's</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Case</th><th>Job</th><th>Pronouns</th><th>Nouns</th></tr></thead><tbody><tr><td><strong>subjective (nominative)</strong></td><td>subject</td><td>I, you, he, she, it, we, they, who</td><td>no change</td></tr><tr><td><strong>objective (accusative / dative)</strong></td><td>object</td><td>me, you, him, her, it, us, them, whom</td><td>no change</td></tr><tr><td><strong>possessive (genitive)</strong></td><td>owner</td><td>my, your, his, her, its, our, their, whose</td><td>-'s, -s'</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Where English uses cases and where it does not",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Language with cases</th><th>English</th></tr></thead><tbody><tr><td>Different endings show the job: the noun changes.</td><td><strong>Word order</strong> shows the job: the dog bites the man ≠ the man bites the dog.</td></tr><tr><td>Prepositions require a particular case.</td><td>Prepositions take the objective pronoun: <strong>with me, for him</strong>.</td></tr><tr><td>Possession by an ending.</td><td><strong>The girl's book</strong> (ending 's) or <strong>the book of the girl</strong>.</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Him and me went.** Right: **He and I went.**",
+                "Wrong: **Between you and I** Right: **between you and me**",
+                "Wrong: **The dog bit he.** Right: **bit him**",
+                "Wrong: **The books of Mary** (unnatural) Right: **Mary's books**"
+              ]
             }
           ]
         }

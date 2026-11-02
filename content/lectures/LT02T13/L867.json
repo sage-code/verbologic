@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T13:L867",
   "order": 3,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "The conditional",
     "es": "El condicional",
@@ -25,15 +25,16 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The conditional says what would happen under a certain condition."
+                "A conditional sentence has an if-clause (the condition) and a main clause (the result). English has four common types, depending on whether the condition is a general fact, a real possibility, an unreal present or an unreal past."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I **would** help if I could.",
-                "She **would** come if you asked.",
-                "We **would have** won if we had tried."
+                "If you heat ice, it **melts**.",
+                "If it rains, we **will stay** home.",
+                "If I had time, I **would help**.",
+                "If I had known, I **would have come**."
               ]
             }
           ]
@@ -42,14 +43,41 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Type</th><th>If-clause</th><th>Main clause</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>zero</strong></td><td>present simple</td><td>present simple</td><td>general truth: <strong>If you heat ice, it melts.</strong></td></tr><tr><td><strong>first</strong></td><td>present simple</td><td>will + base</td><td>real possibility: <strong>If it rains, we'll stay.</strong></td></tr><tr><td><strong>second</strong></td><td>past simple</td><td>would + base</td><td>unreal or unlikely now: <strong>If I won, I'd travel.</strong></td></tr><tr><td><strong>third</strong></td><td>past perfect</td><td>would have + participle</td><td>unreal past: <strong>If I'd known, I'd have called.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Order and punctuation",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "Form it with would and the base form. The if clause uses the simple past for an unreal present and the past perfect for an unreal past. Would does not go in the if clause."
+                "The if-clause can come first or second. When it comes first, a comma follows it: If it rains, we'll stay. When it comes second, there is no comma: We'll stay if it rains."
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "Unless and other words",
+          "blocks": [
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Type</th><th>If clause</th><th>Result</th></tr></thead><tbody><tr><td>real</td><td><strong>If it rains,</strong></td><td><strong>we will stay.</strong></td></tr><tr><td>unreal present</td><td><strong>If I had time,</strong></td><td><strong>I would help.</strong></td></tr><tr><td>unreal past</td><td><strong>If I had known,</strong></td><td><strong>I would have come.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Word</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>unless</strong></td><td>if... not</td><td><strong>Unless you hurry, you'll miss it.</strong></td></tr><tr><td><strong>provided that, as long as</strong></td><td>only if</td><td><strong>You may go provided that you return.</strong></td></tr><tr><td><strong>in case</strong></td><td>to be ready for</td><td><strong>Take an umbrella in case it rains.</strong></td></tr><tr><td><strong>if only, suppose</strong></td><td>imagining</td><td><strong>Suppose he refused?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **If it will rain, we'll stay.** Right: **If it rains**",
+                "Wrong: **If I would have time, I'd help.** Right: **If I had time, I'd help.**",
+                "Wrong: **If I had known, I would know.** Right: **I would have known.**"
+              ]
             }
           ]
         }

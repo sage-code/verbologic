@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T12:L860",
   "order": 1,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Plans and intentions",
     "es": "Planes e intenciones",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Be going to expresses a plan or an intention made before the moment of speaking."
+                "Be going to + base form expresses a plan or an intention decided before the moment of speaking. It is also used for predictions based on what you can see or know now."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I **am going to** study law.",
-                "We **are going to** move.",
-                "It **is going to** rain."
+                "I **am going to study** medicine.",
+                "We **are going to move** next month.",
+                "Look at those clouds! It **is going to rain**."
               ]
             }
           ]
@@ -42,14 +42,47 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>statement</td><td><strong>I am going to leave.</strong> / <strong>She is going to leave.</strong></td></tr><tr><td>question</td><td><strong>Are you going to leave?</strong></td></tr><tr><td>negative</td><td><strong>They are not (aren't) going to leave.</strong></td></tr><tr><td>short form</td><td><strong>I'm, you're, she's going to</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Going to and will",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "Use be going to when you have already decided, or when there is evidence now, such as a grey sky. Use will for a decision made at the moment of speaking."
+                "Use going to for plans made before you speak, and for predictions with evidence. Use will for decisions made at the moment of speaking, and for general predictions."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>plan</td><td><strong>She is going to learn French.</strong></td></tr><tr><td>evidence now</td><td><strong>Look at the clouds. It is going to rain.</strong></td></tr><tr><td>negative</td><td><strong>We aren't going to stay.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Going to</th><th>Will</th></tr></thead><tbody><tr><td><strong>I'm going to buy a car.</strong> (I have decided)</td><td><strong>I'll buy this one.</strong> (deciding now)</td></tr><tr><td><strong>It's going to rain.</strong> (I see clouds)</td><td><strong>It will probably rain.</strong> (my opinion)</td></tr><tr><td><strong>We're going to have a party.</strong> (a plan)</td><td><strong>Shall we have a party? I'll cook.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Intentions and plans",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "You can also use the present continuous for fixed arrangements (I am meeting her at six) and the verbs plan, intend and hope for intentions: I plan to travel in the summer."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I'm going to to the shop.** Right: **I'm going to the shop.** (movement) or **I'm going to buy bread.** (plan)",
+                "Wrong: **She going to leave.** Right: **She is going to leave.**",
+                "Wrong: **It will rain, look at the clouds.** Better: **It's going to rain, look at the clouds.**"
+              ]
             }
           ]
         }

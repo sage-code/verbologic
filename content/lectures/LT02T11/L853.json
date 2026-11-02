@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T11:L853",
   "order": 2,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "The present perfect",
     "es": "El pretérito perfecto",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The present perfect links the past with the present. It tells about experience, change or a result that matters now."
+                "The present perfect describes a past action or state that is connected to the present: its result is visible now, it continues up to now, or it happened at an unstated time. It is formed with have or has and the past participle."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "I **have lost** my keys.",
-                "She **has visited** Rome twice.",
-                "We **have lived** here for ten years."
+                "I **have lost** my keys. (I still cannot find them.)",
+                "She **has lived** here for ten years. (She still lives here.)",
+                "Have you **ever been** to Japan? (at any time in your life)"
               ]
             }
           ]
@@ -42,14 +42,51 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>statement</td><td><strong>I have finished. She has finished.</strong></td></tr><tr><td>question</td><td><strong>Have you finished? Has she finished?</strong></td></tr><tr><td>negative</td><td><strong>I have not (haven't) finished. She hasn't finished.</strong></td></tr><tr><td>short form</td><td><strong>I've, you've, she's, they've</strong></td></tr></tbody></table>"
+            },
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "Form it with have or has and the past participle. Do not use it with a finished time such as yesterday; use the simple past. Use for and since to give the duration."
+                "The past participle of regular verbs ends in -ed, like the simple past. Irregular verbs have special participles: go → gone, see → seen, write → written, be → been."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "When to use it",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Meaning</th><th>Time words</th><th>Example</th></tr></thead><tbody><tr><td>result now</td><td>just, already, yet</td><td><strong>I have just seen him.</strong></td></tr><tr><td>experience</td><td>ever, never, before</td><td><strong>I have never been to Rome.</strong></td></tr><tr><td>duration up to now</td><td>for, since</td><td><strong>We have lived here since 2018.</strong></td></tr><tr><td>unfinished period</td><td>today, this week, this year</td><td><strong>I have seen three films this week.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Present perfect and simple past",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use the simple past when the time is finished and stated (yesterday, in 2010, last week). Use the present perfect when the time is not stated or the period is not finished."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>experience</td><td><strong>Have you ever been to Spain?</strong></td></tr><tr><td>result now</td><td><strong>He has broken his arm.</strong></td></tr><tr><td>duration</td><td><strong>I have known her since 2015.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Simple past</th><th>Present perfect</th></tr></thead><tbody><tr><td><strong>I saw him yesterday.</strong></td><td><strong>I have seen him today.</strong></td></tr><tr><td><strong>She lived in Paris in 2010.</strong></td><td><strong>She has lived in Paris for ten years.</strong></td></tr><tr><td><strong>Did you ever go to Spain?</strong> (a specific time)</td><td><strong>Have you ever been to Spain?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I have seen him yesterday.** Right: **I saw him yesterday.**",
+                "Wrong: **I am living here since 2018.** Right: **I have lived here since 2018.**",
+                "Wrong: **She has went home.** Right: **She has gone home.**"
+              ]
             }
           ]
         }

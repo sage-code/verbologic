@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T21:L924",
   "order": 5,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Formal and informal register",
     "es": "Registro formal e informal",
@@ -25,31 +25,64 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Register is the level of formality of language. A formal register is used in writing and official situations, and an informal register with friends."
+                "Register is the level of formality that a speaker or writer chooses for a situation. English has a range from very formal (legal documents, official letters) through neutral to informal (conversation with friends) and slang. Using the wrong register can sound rude, cold or childish."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "**Could you help me?** (formal)",
-                "**Can you give me a hand?** (informal)",
-                "**Dear Sir** and **Hi Tom**"
+                "**I would be grateful if you could...** (formal)",
+                "**Could you...?** (neutral)",
+                "**Can you...?** / **Gimme a hand!** (informal)"
               ]
             }
           ]
         },
         {
-          "title": "How it works in English",
+          "title": "How register differs",
+          "blocks": [
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Feature</th><th>Formal</th><th>Informal</th></tr></thead><tbody><tr><td>vocabulary</td><td><strong>purchase, commence, assist</strong></td><td><strong>buy, start, help</strong></td></tr><tr><td>verbs</td><td><strong>require, enquire</strong></td><td><strong>need, ask</strong></td></tr><tr><td>contractions</td><td><strong>do not, cannot</strong></td><td><strong>don't, can't</strong></td></tr><tr><td>phrasal verbs</td><td><strong>postpone, tolerate</strong></td><td><strong>put off, put up with</strong></td></tr><tr><td>sentence length</td><td>longer, complex</td><td>shorter, simple</td></tr><tr><td>opening and closing</td><td><strong>Dear Sir, Yours faithfully</strong></td><td><strong>Hi, Cheers</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Choosing the register",
           "blocks": [
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Formal English prefers full forms, longer words and the passive. Informal English uses contractions, short words and phrasal verbs."
+                "Consider who you are speaking to, what the situation is and what the medium is. A letter of application, a report and a speech are formal; a text message to a friend is informal; an e-mail to a colleague is neutral."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Formal</th><th>Informal</th></tr></thead><tbody><tr><td><strong>purchase</strong></td><td><strong>buy</strong></td></tr><tr><td><strong>I would like to enquire</strong></td><td><strong>I wanted to ask</strong></td></tr><tr><td><strong>Regards</strong></td><td><strong>Cheers</strong></td></tr><tr><td><strong>do not</strong></td><td><strong>don't</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Situation</th><th>Register</th><th>Example</th></tr></thead><tbody><tr><td>job application</td><td>formal</td><td><strong>I am writing to apply for the position of...</strong></td></tr><tr><td>message to a friend</td><td>informal</td><td><strong>Fancy a coffee?</strong></td></tr><tr><td>talking to a customer</td><td>neutral, polite</td><td><strong>How can I help you?</strong></td></tr><tr><td>legal document</td><td>very formal</td><td><strong>The tenant shall pay...</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Slang and colloquial language",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Slang and colloquial words (mate, cool, kid, quid) are very informal and belong to particular groups or regions. They change quickly. Avoid them in writing or in formal situations unless you know the context well."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Dear Mr Smith, Hi! Wanna meet?** Mixed registers.",
+                "Wrong: **Yours faithfully, Mr Smith** (when you know the name) Right: **Yours sincerely**",
+                "Wrong: **I request you to give me information at your earliest convenience hereby.** (too heavy) Right: **Could you send me the information, please?**"
+              ]
             }
           ]
         }

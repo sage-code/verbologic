@@ -1,7 +1,7 @@
 {
   "entity_id": "LT02T19:L907",
   "order": 2,
-  "minutes": 1,
+  "minutes": 2,
   "terms": {
     "en": "Relative clauses",
     "es": "Oraciones de relativo",
@@ -25,15 +25,15 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A relative clause adds information about a noun. It begins with who, which, that, whose, where or when."
+                "A relative clause follows a noun and gives more information about it. It begins with a relative pronoun (who, whom, which, that, whose) or with where, when or why."
               ]
             },
             {
               "type": "bullets",
               "items": [
-                "The man **who lives next door** is a doctor.",
-                "The book **that I read** was long.",
-                "This is the town **where I was born**."
+                "The woman **who lives next door** is a doctor.",
+                "This is the book **that I bought**.",
+                "That is the town **where I was born**."
               ]
             }
           ]
@@ -42,14 +42,51 @@
           "title": "How it works in English",
           "blocks": [
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Word</th><th>Used for</th><th>Example</th></tr></thead><tbody><tr><td><strong>who</strong></td><td>people</td><td><strong>The man who called is here.</strong></td></tr><tr><td><strong>which</strong></td><td>things</td><td><strong>The car which broke down is old.</strong></td></tr><tr><td><strong>that</strong></td><td>people or things</td><td><strong>The film that we saw was long.</strong></td></tr><tr><td><strong>whose</strong></td><td>possession</td><td><strong>The girl whose bag was lost cried.</strong></td></tr><tr><td><strong>where</strong></td><td>places</td><td><strong>the café where we met</strong></td></tr><tr><td><strong>when</strong></td><td>times</td><td><strong>the day when I arrived</strong></td></tr><tr><td><strong>why</strong></td><td>reasons</td><td><strong>the reason why he left</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Defining and non-defining",
+          "blocks": [
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "A defining clause says which one and has no commas. A non-defining clause adds extra information and is set off by commas: My brother, who lives in Leeds, is a nurse."
+                "A defining clause is necessary to identify the noun, and it is not separated by commas. A non-defining clause adds extra information, is separated by commas, and cannot use that."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Type</th><th>Example</th></tr></thead><tbody><tr><td>defining</td><td><strong>The girl who sings is my sister.</strong></td></tr><tr><td>non-defining</td><td><strong>My sister, who sings, is here.</strong></td></tr><tr><td>place</td><td><strong>the house where we live</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Defining</th><th>Non-defining</th></tr></thead><tbody><tr><td><strong>The man who called is my uncle.</strong></td><td><strong>My uncle, who lives in Leeds, called.</strong></td></tr><tr><td><strong>The house that I like is old.</strong></td><td><strong>The house, which is old, is for sale.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Leaving out the pronoun",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In a defining clause, you can leave out who, which or that when it is the object of the clause: The book I bought was good. You cannot leave it out when it is the subject."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Object (can be left out)</th><th>Subject (cannot be left out)</th></tr></thead><tbody><tr><td><strong>The film (that) we saw was long.</strong></td><td><strong>The film that won the prize was long.</strong></td></tr><tr><td><strong>The man (whom) I met was kind.</strong></td><td><strong>The man who met me was kind.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **The man which called is here.** Right: **who called**",
+                "Wrong: **The book that I bought it is good.** Right: **The book that I bought is good.**",
+                "Wrong: **My sister, that lives in Rome,...** Right: **My sister, who lives in Rome,...**"
+              ]
             }
           ]
         }
