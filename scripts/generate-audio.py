@@ -880,6 +880,27 @@ def page_hash(item: dict[str, Any], locale: str) -> str | None:
     return hashlib.sha1(text.encode("utf-8")).hexdigest()
 
 
+def block_text(block: dict[str, Any]) -> str | None:
+    """One typed block of a section as the text the voice reads. A table is shown, never read; every
+    bullet and every dialog line is read as its own sentence."""
+    kind = block.get("type")
+    if kind == "paragraphs":
+        return (chr(10) * 2).join(p for p in block.get("paragraphs", []) if p)
+    if kind == "bullets":
+        items = [str(i).strip() for i in block.get("items", [])]
+        return chr(10).join(i if re.search(r"[.!?:;]$", i) else i + "." for i in items if i)
+    if kind == "dialog":
+        return chr(10).join(f"{line['speaker']}: {line['text']}" for line in block.get("lines", []))
+    return None
+
+
+def section_parts(section: dict[str, Any]) -> list[str]:
+    """The paragraphs of a section (older articles) followed by its typed blocks, as text."""
+    parts = list(section.get("paragraphs", []))
+    parts += [t for t in (block_text(b) for b in section.get("blocks", [])) if t]
+    return parts
+
+
 def article_body(track: str, topic: str, code: str, locale: str) -> str | None:
     """The Markdown body of one language of an article, from content/<track>/<TOPIC>/<ID>.json.
 
@@ -894,22 +915,8 @@ def article_body(track: str, topic: str, code: str, locale: str) -> str | None:
         return None
     blank = chr(10) * 2
     if doc.get("sections"):
-        return blank.join(blank.join([f"## {s['title']}", *s["paragraphs"]]) for s in doc["sections"])
+        return blank.join(blank.join([f"## {s['title']}", *section_parts(s)]) for s in doc["sections"])
     return blank.join(doc.get("paragraphs", [])) or None
-
-
-def speak_blocks(text: str) -> str:
-    """Block markup for the voice: a table (lines starting with `|`) is shown, never read; a list marker is
-    dropped and the item ends like a sentence. Text with neither is returned unchanged."""
-    lines = []
-    for line in text.split("\n"):
-        if re.match(r"^\s*\|", line):
-            continue
-        item = re.match(r"^\s*(?:[-*]|\d+\.)\s+(.*\S)\s*$", line)
-        if item:
-            line = item.group(1) if re.search(r"[.!?:;]$", item.group(1)) else item.group(1) + "."
-        lines.append(line)
-    return "\n".join(lines)
 
 
 def article_sections(track: str, topic: str, code: str, locale: str) -> list[str] | None:
@@ -933,7 +940,6 @@ def article_sections(track: str, topic: str, code: str, locale: str) -> list[str
     raw = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", raw)  # links → their text
 
     def clean(chunk: str) -> str:
-        chunk = speak_blocks(chunk)
         chunk = re.sub(r"^\s{0,3}#{1,6}\s*", "", chunk, flags=re.MULTILINE)
         chunk = re.sub(r"[*_`>]+", "", chunk)
         # Lecture articles are spoken: a ( ) word is dropped and the IPA after it
@@ -960,7 +966,6 @@ def article_text(track: str, topic: str, code: str, locale: str) -> str | None:
         return None
     text = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", text)  # images
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", text)  # links → their text
-    text = speak_blocks(text)
     text = re.sub(r"^\s{0,3}#{1,6}\s*", "", text, flags=re.MULTILINE)  # headings
     text = re.sub(r"[*_`>]+", "", text)  # emphasis / quotes / code marks
     if track != "lectures":  # lectures keep IPA for transliteration (see article_sections)

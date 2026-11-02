@@ -24,52 +24,121 @@
       "sections": [
         {
           "title": "What this lesson covers",
-          "paragraphs": [
-            "Grammar is the set of rules that tells you how words fit together. This lesson gives you a map. First you will see what a sentence is, and what grammar books call a proposition. Then you will meet the ten classes of words and the ideas, such as number and tense, that come back again and again. The next lessons in this chapter look at each class in detail."
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Grammar is the set of rules that tells you how words fit together. This lesson gives you a map. First you will see what a sentence is, and what grammar books call a proposition. Then you will meet the ten classes of words and the ideas, such as number and tense, that come back again and again. The next lessons in this chapter look at each class in detail."
+              ]
+            }
           ]
         },
         {
           "title": "Sentences, clauses and phrases",
-          "paragraphs": [
-            "A **sentence** is a group of words that gives a complete message. It starts with a capital letter and ends with a full stop, a question mark or an exclamation mark. Every sentence has a **subject**, which is who or what the sentence is about, and a **predicate**, which is what we say about the subject.",
-            "| Part | What it is | Example |\n| --- | --- | --- |\n| Subject | who or what the sentence is about | **My sister** works in a bank. |\n| Predicate | what we say about the subject | My sister **works in a bank**. |\n| Clause | a group of words with its own subject and verb | **She works** because **she likes numbers**. |\n| Phrase | a group of words without its own subject and verb | **in a bank**, **my younger sister** |",
-            "In Romanian, French and Italian the usual word for a clause looks like proposition. In English we usually say clause. The word proposition stays in English for a statement that can be true or false, such as in logic."
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A **sentence** is a group of words that gives a complete message. It starts with a capital letter and ends with a full stop, a question mark or an exclamation mark. Every sentence has a **subject**, which is who or what the sentence is about, and a **predicate**, which is what we say about the subject."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Part</th><th>What it is</th><th>Example</th></tr></thead><tbody><tr><td>Subject</td><td>who or what the sentence is about</td><td><strong>My sister</strong> works in a bank.</td></tr><tr><td>Predicate</td><td>what we say about the subject</td><td>My sister <strong>works in a bank</strong>.</td></tr><tr><td>Clause</td><td>a group of words with its own subject and verb</td><td><strong>She works</strong> because <strong>she likes numbers</strong>.</td></tr><tr><td>Phrase</td><td>a group of words without its own subject and verb</td><td><strong>in a bank</strong>, <strong>my younger sister</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In Romanian, French and Italian the usual word for a clause looks like proposition. In English we usually say clause. The word proposition stays in English for a statement that can be true or false, such as in logic."
+              ]
+            }
           ]
         },
         {
           "title": "Four kinds of sentence",
-          "paragraphs": [
-            "A sentence can do four jobs. It can give information, ask for it, give an order or show a strong feeling.",
-            "| Kind | Its job | Example |\n| --- | --- | --- |\n| Statement | gives information | **The train leaves at nine.** |\n| Question | asks for information | **Does the train leave at nine?** |\n| Command | tells someone to do something | **Wait here, please.** |\n| Exclamation | shows a strong feeling | **What a beautiful day!** |",
-            "Sentences also differ in how many clauses they have. A simple sentence has one clause. A compound sentence joins two clauses of equal weight. A complex sentence has a main clause and a clause that depends on it.",
-            "- **Simple sentence, one clause:** The bus is late.\n- **Compound sentence, two equal clauses:** The bus is late, but I can wait.\n- **Complex sentence, a main clause and a dependent clause:** I can wait because the bus is always late."
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A sentence can do four jobs. It can give information, ask for it, give an order or show a strong feeling."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Kind</th><th>Its job</th><th>Example</th></tr></thead><tbody><tr><td>Statement</td><td>gives information</td><td><strong>The train leaves at nine.</strong></td></tr><tr><td>Question</td><td>asks for information</td><td><strong>Does the train leave at nine?</strong></td></tr><tr><td>Command</td><td>tells someone to do something</td><td><strong>Wait here, please.</strong></td></tr><tr><td>Exclamation</td><td>shows a strong feeling</td><td><strong>What a beautiful day!</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Sentences also differ in how many clauses they have. A simple sentence has one clause. A compound sentence joins two clauses of equal weight. A complex sentence has a main clause and a clause that depends on it."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Simple sentence, one clause:** The bus is late.",
+                "**Compound sentence, two equal clauses:** The bus is late, but I can wait.",
+                "**Complex sentence, a main clause and a dependent clause:** I can wait because the bus is always late."
+              ]
+            }
           ]
         },
         {
           "title": "The ten classes of words",
-          "paragraphs": [
-            "Every English word belongs to a class, and the class tells you what the word can do in a sentence. Some grammar books put articles and numerals under one name, determiners. The list of ten is the traditional one and it works well for learners.",
-            "| Class | What it does | Examples |\n| --- | --- | --- |\n| Noun | names a person, place, thing or idea | **teacher**, **London**, **happiness** |\n| Pronoun | stands in place of a noun | **she**, **them**, **this** |\n| Article | shows whether a noun is known or new | **the**, **a**, **an** |\n| Adjective | describes a noun | **small**, **red**, **interesting** |\n| Verb | shows an action, a state or an event | **run**, **be**, **seem** |\n| Adverb | tells how, when, where or how much | **quickly**, **now**, **very** |\n| Preposition | links a noun to the rest of the sentence | **in**, **on**, **with** |\n| Conjunction | joins words, phrases and clauses | **and**, **but**, **because** |\n| Numeral | tells a number or an order | **three**, **second** |\n| Interjection | shows a sudden feeling | **oh**, **wow**, **ouch** |",
-            "One word can belong to two classes. In **a light bag** the word light is an adjective, and in **turn on the light** it is a noun. Always ask what the word does in this sentence."
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Every English word belongs to a class, and the class tells you what the word can do in a sentence. Some grammar books put articles and numerals under one name, determiners. The list of ten is the traditional one and it works well for learners."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Class</th><th>What it does</th><th>Examples</th></tr></thead><tbody><tr><td>Noun</td><td>names a person, place, thing or idea</td><td><strong>teacher</strong>, <strong>London</strong>, <strong>happiness</strong></td></tr><tr><td>Pronoun</td><td>stands in place of a noun</td><td><strong>she</strong>, <strong>them</strong>, <strong>this</strong></td></tr><tr><td>Article</td><td>shows whether a noun is known or new</td><td><strong>the</strong>, <strong>a</strong>, <strong>an</strong></td></tr><tr><td>Adjective</td><td>describes a noun</td><td><strong>small</strong>, <strong>red</strong>, <strong>interesting</strong></td></tr><tr><td>Verb</td><td>shows an action, a state or an event</td><td><strong>run</strong>, <strong>be</strong>, <strong>seem</strong></td></tr><tr><td>Adverb</td><td>tells how, when, where or how much</td><td><strong>quickly</strong>, <strong>now</strong>, <strong>very</strong></td></tr><tr><td>Preposition</td><td>links a noun to the rest of the sentence</td><td><strong>in</strong>, <strong>on</strong>, <strong>with</strong></td></tr><tr><td>Conjunction</td><td>joins words, phrases and clauses</td><td><strong>and</strong>, <strong>but</strong>, <strong>because</strong></td></tr><tr><td>Numeral</td><td>tells a number or an order</td><td><strong>three</strong>, <strong>second</strong></td></tr><tr><td>Interjection</td><td>shows a sudden feeling</td><td><strong>oh</strong>, <strong>wow</strong>, <strong>ouch</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "One word can belong to two classes. In **a light bag** the word light is an adjective, and in **turn on the light** it is a noun. Always ask what the word does in this sentence."
+              ]
+            }
           ]
         },
         {
           "title": "Ideas you will meet again",
-          "paragraphs": [
-            "These ideas appear in almost every grammar lesson. English uses some of them a lot and others hardly at all, which is useful to know if your own language is very different.",
-            "| Idea | The question it answers | In English |\n| --- | --- | --- |\n| Number | one, or more than one? | **book, books** |\n| Gender | masculine, feminine or neuter? | only in pronouns: **he, she, it** |\n| Case | what job does the word do? | only in pronouns and the **'s** ending: **I, me, my** |\n| Person | who speaks, who is spoken to, who is spoken about? | **I, you, he** |\n| Tense | when does it happen? | **walk, walked, will walk** |\n| Mood | is it a fact, a wish or an order? | **She is here. Be quiet!** |\n| Voice | does the subject act or receive the action? | **The cook made the soup. The soup was made by the cook.** |\n| Aspect | is the action finished or in progress? | **I wrote. I was writing.** |\n| Agreement | which words must match? | **This book is new. These books are new.** |"
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "These ideas appear in almost every grammar lesson. English uses some of them a lot and others hardly at all, which is useful to know if your own language is very different."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Idea</th><th>The question it answers</th><th>In English</th></tr></thead><tbody><tr><td>Number</td><td>one, or more than one?</td><td><strong>book, books</strong></td></tr><tr><td>Gender</td><td>masculine, feminine or neuter?</td><td>only in pronouns: <strong>he, she, it</strong></td></tr><tr><td>Case</td><td>what job does the word do?</td><td>only in pronouns and the <strong>'s</strong> ending: <strong>I, me, my</strong></td></tr><tr><td>Person</td><td>who speaks, who is spoken to, who is spoken about?</td><td><strong>I, you, he</strong></td></tr><tr><td>Tense</td><td>when does it happen?</td><td><strong>walk, walked, will walk</strong></td></tr><tr><td>Mood</td><td>is it a fact, a wish or an order?</td><td><strong>She is here. Be quiet!</strong></td></tr><tr><td>Voice</td><td>does the subject act or receive the action?</td><td><strong>The cook made the soup. The soup was made by the cook.</strong></td></tr><tr><td>Aspect</td><td>is the action finished or in progress?</td><td><strong>I wrote. I was writing.</strong></td></tr><tr><td>Agreement</td><td>which words must match?</td><td><strong>This book is new. These books are new.</strong></td></tr></tbody></table>"
+            }
           ]
         },
         {
           "title": "Word order matters",
-          "paragraphs": [
-            "English sentences usually follow the order subject, verb, object. In **The cat chased the mouse** the cat is the subject, chased is the verb and the mouse is the object. English has almost no case endings, so the order of the words tells you who did what. **The mouse chased the cat** has the same words but a different meaning."
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English sentences usually follow the order subject, verb, object. In **The cat chased the mouse** the cat is the subject, chased is the verb and the mouse is the object. English has almost no case endings, so the order of the words tells you who did what. **The mouse chased the cat** has the same words but a different meaning."
+              ]
+            }
           ]
         },
         {
           "title": "Where to go next",
-          "paragraphs": [
-            "The next lessons take the word classes one by one: nouns, articles, adjectives, pronouns, numerals, verbs, adverbs, prepositions and conjunctions. After that you will meet the same ideas inside real texts, in the chapters about people, home, town and work. Each of those texts carries short grammar notes that point back to the lesson on the topic."
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The next lessons take the word classes one by one: nouns, articles, adjectives, pronouns, numerals, verbs, adverbs, prepositions and conjunctions. After that you will meet the same ideas inside real texts, in the chapters about people, home, town and work. Each of those texts carries short grammar notes that point back to the lesson on the topic."
+              ]
+            }
           ]
         }
       ]

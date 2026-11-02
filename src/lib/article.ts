@@ -7,22 +7,40 @@
  * pagination and rendering have a single shape to deal with.
  */
 export interface ArticleNode {
-  /** `h` heading, `p` paragraph, `ul` / `ol` list, `table` table */
-  t: 'h' | 'p' | 'ul' | 'ol' | 'table'
-  /** The text of the block; for a list or table, all its text joined (length, search). */
+  /** `h` heading · `p` paragraph · `ul` / `ol` list · `dialog` · `table` */
+  t: 'h' | 'p' | 'ul' | 'ol' | 'dialog' | 'table'
+  /** The text of the block (a list, dialog or table: all its text joined), for length and search. */
   text: string
   /** `ul` / `ol`: one string per item */
   items?: string[]
-  /** `table`: the header cells, then the body rows */
-  headers?: string[]
-  rows?: string[][]
+  /** `dialog`: one entry per spoken line */
+  lines?: { speaker: string; text: string }[]
+  /** `table`: the table as sanitised HTML (see `safeHtml`) */
+  html?: string
+}
+
+/**
+ * The typed content of a section. Text is plain with two inline marks, **bold**
+ * and `code`; only a table is HTML, because a table cannot be written as text.
+ */
+export type ArticleBlock =
+  | { type: 'paragraphs'; paragraphs: string[] }
+  | { type: 'bullets'; items: string[]; ordered?: boolean }
+  | { type: 'dialog'; lines: { speaker: string; text: string }[] }
+  | { type: 'table'; html: string }
+
+/** A section: a title (one reading page) and its content, as `blocks` or, in older articles, plain `paragraphs`. */
+export interface ArticleSection {
+  title: string
+  paragraphs?: string[]
+  blocks?: ArticleBlock[]
 }
 
 export interface ArticleLocale {
   title: string
   summary?: string
   status?: string
-  sections?: { title: string; paragraphs: string[] }[]
+  sections?: ArticleSection[]
   paragraphs?: string[]
 }
 
@@ -49,31 +67,47 @@ export interface ArticleDoc {
   nodes: ArticleNode[]
 }
 
-const tableCells = (line: string): string[] =>
-  line.replace(/^\s*\|/, '').replace(/\|\s*$/, '').split('|').map((cell) => cell.trim())
+/** Tags a table may use. Attributes are never allowed, so a link, image or handler cannot get in. */
+const HTML_TAGS = new Set(['table', 'thead', 'tbody', 'tr', 'th', 'td', 'strong', 'em', 'code', 'br'])
+
+const escapeText = (text: string): string =>
+  text.replace(/&(?!(?:amp|lt|gt|quot|#39|nbsp);)/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 
 /**
- * One paragraph string as a block. Block markup stays inside the string, so the
- * stored format is unchanged: a paragraph whose lines all start with `|` is a
- * table (header row, `| --- |` rule, body rows), all start with `- ` a bullet
- * list, all start with `1. ` a numbered list. Anything else is a paragraph.
+ * Table HTML made safe to render with v-html: only the bare tags in HTML_TAGS
+ * survive; any other `<` (a tag with attributes, a script, a comment) is shown as text.
  */
-export function blockOf(text: string): ArticleNode {
-  const lines = text.split(/\r?\n/).map((line) => line.trim()).filter(Boolean)
-  if (lines.length >= 2 && lines.every((line) => line.startsWith('|'))) {
-    const body = lines.map(tableCells).filter((cells) => !cells.every((cell) => /^:?-{3,}:?$/.test(cell)))
-    const [headers = [], ...rows] = body
-    return { t: 'table', text: body.flat().join(' '), headers, rows }
+export function safeHtml(input: string): string {
+  let out = ''
+  let last = 0
+  for (const match of input.matchAll(/<(\/?)([a-z][a-z0-9]*)\s*(\/?)>/gi)) {
+    const name = match[2].toLowerCase()
+    out += escapeText(input.slice(last, match.index))
+    out += HTML_TAGS.has(name) ? `<${match[1]}${name}${name === 'br' ? ' /' : ''}>` : escapeText(match[0])
+    last = (match.index ?? 0) + match[0].length
   }
-  if (lines.length >= 1 && lines.every((line) => /^[-*]\s+/.test(line))) {
-    const items = lines.map((line) => line.replace(/^[-*]\s+/, ''))
-    return { t: 'ul', text: items.join(' '), items }
+  return out + escapeText(input.slice(last))
+}
+
+/** The text of an HTML block, without tags. */
+const plainText = (html: string): string => html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()
+
+const paragraphNode = (text: string): ArticleNode => ({ t: 'p', text })
+
+/** One typed block as reading blocks (a paragraphs block is one block per paragraph). */
+function blockNodes(block: ArticleBlock): ArticleNode[] {
+  switch (block.type) {
+    case 'paragraphs':
+      return block.paragraphs.map(paragraphNode)
+    case 'bullets':
+      return [{ t: block.ordered ? 'ol' : 'ul', text: block.items.join(' '), items: block.items }]
+    case 'dialog':
+      return [{ t: 'dialog', text: block.lines.map((line) => `${line.speaker}: ${line.text}`).join(' '), lines: block.lines }]
+    case 'table':
+      return [{ t: 'table', text: plainText(block.html), html: safeHtml(block.html) }]
+    default:
+      return []
   }
-  if (lines.length >= 1 && lines.every((line) => /^\d+\.\s+/.test(line))) {
-    const items = lines.map((line) => line.replace(/^\d+\.\s+/, ''))
-    return { t: 'ol', text: items.join(' '), items }
-  }
-  return { t: 'p', text }
 }
 
 /** A locale's body as a flat list of blocks. */
@@ -81,10 +115,11 @@ export function nodesOf(body: ArticleLocale): ArticleNode[] {
   if (body.sections?.length) {
     return body.sections.flatMap((section) => [
       { t: 'h' as const, text: section.title },
-      ...section.paragraphs.map(blockOf)
+      ...(section.paragraphs ?? []).map(paragraphNode),
+      ...(section.blocks ?? []).flatMap(blockNodes)
     ])
   }
-  return (body.paragraphs ?? []).map(blockOf)
+  return (body.paragraphs ?? []).map(paragraphNode)
 }
 
 /** Every language of a row as docs. */

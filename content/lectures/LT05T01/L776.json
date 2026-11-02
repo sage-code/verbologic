@@ -24,37 +24,108 @@
       "sections": [
         {
           "title": "About this lesson",
-          "paragraphs": [
-            "Almost every visitor to a town has to ask the way. A good answer is made of short commands and small words that describe a route. In this lesson you will read one such conversation and look at three points of grammar: commands, prepositions and a polite way to ask."
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Almost every visitor to a town has to ask the way. A good answer is made of short commands and small words that describe a route. In this lesson you will read one such conversation and look at three points of grammar: commands, prepositions and a polite way to ask."
+              ]
+            }
           ]
         },
         {
           "title": "In context",
-          "paragraphs": [
-            "A tourist stops a woman in the street in Edinburgh.",
-            "- **Tourist:** Excuse me, could you tell me where the station is?\n- **Woman:** Of course. Go straight on along this road. Take the second turning on the left, and walk past the bank.\n- **Tourist:** Is it far?\n- **Woman:** No, it's about ten minutes on foot. Don't cross the bridge. At the traffic lights, turn right. The station is on your left, opposite the park.\n- **Tourist:** Thank you very much.\n- **Woman:** You're welcome."
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A tourist stops a woman in the street in Edinburgh."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Tourist",
+                  "text": "Excuse me, could you tell me where the station is?"
+                },
+                {
+                  "speaker": "Woman",
+                  "text": "Of course. Go straight on along this road. Take the second turning on the left, and walk past the bank."
+                },
+                {
+                  "speaker": "Tourist",
+                  "text": "Is it far?"
+                },
+                {
+                  "speaker": "Woman",
+                  "text": "No, it's about ten minutes on foot. Don't cross the bridge. At the traffic lights, turn right. The station is on your left, opposite the park."
+                },
+                {
+                  "speaker": "Tourist",
+                  "text": "Thank you very much."
+                },
+                {
+                  "speaker": "Woman",
+                  "text": "You're welcome."
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Grammar notes",
-          "paragraphs": [
-            "**1. Commands use the base form of the verb.** There is no subject: **Go**, **Take**, **Turn**. For a negative command put Don't before the verb. Add please, or begin with Could you, to sound polite. See Introduction to Grammar: Moods.",
-            "| Kind | Example |\n| --- | --- |\n| positive command | **Go straight on.** |\n| negative command | **Don't cross the bridge.** |\n| polite request | **Could you tell me the way, please?** |",
-            "**2. Prepositions describe the route.** Each one shows a relation between the walker and a place. See Introduction to Grammar: Prepositions and cases.",
-            "| Preposition | Meaning | Example |\n| --- | --- | --- |\n| along | following the line of | **along this road** |\n| past | going by, without stopping | **past the bank** |\n| across | from one side to the other | **across the street** |\n| opposite | facing | **opposite the park** |\n| on the left, on the right | the side of you | **on your left** |",
-            "**3. A polite question keeps statement order.** After Could you tell me, the question word is followed by the subject and then the verb, as in a statement. We say **Could you tell me where the station is?** and not Could you tell me where is the station? See Introduction to Grammar: Conjunctions and linking clauses."
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Commands use the base form of the verb.** There is no subject: **Go**, **Take**, **Turn**. For a negative command put Don't before the verb. Add please, or begin with Could you, to sound polite. See Introduction to Grammar: Moods."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Kind</th><th>Example</th></tr></thead><tbody><tr><td>positive command</td><td><strong>Go straight on.</strong></td></tr><tr><td>negative command</td><td><strong>Don't cross the bridge.</strong></td></tr><tr><td>polite request</td><td><strong>Could you tell me the way, please?</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Prepositions describe the route.** Each one shows a relation between the walker and a place. See Introduction to Grammar: Prepositions and cases."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td>along</td><td>following the line of</td><td><strong>along this road</strong></td></tr><tr><td>past</td><td>going by, without stopping</td><td><strong>past the bank</strong></td></tr><tr><td>across</td><td>from one side to the other</td><td><strong>across the street</strong></td></tr><tr><td>opposite</td><td>facing</td><td><strong>opposite the park</strong></td></tr><tr><td>on the left, on the right</td><td>the side of you</td><td><strong>on your left</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**3. A polite question keeps statement order.** After Could you tell me, the question word is followed by the subject and then the verb, as in a statement. We say **Could you tell me where the station is?** and not Could you tell me where is the station? See Introduction to Grammar: Conjunctions and linking clauses."
+              ]
+            }
           ]
         },
         {
           "title": "Notice",
-          "paragraphs": [
-            "- Say **Excuse me** to get a stranger's attention, and **Sorry** if you bump into someone.\n- A turning is a road that leaves the one you are on. British speakers say the second turning on the left, and Americans often say the second street on the left.\n- The pavement is the path beside a road in British English. Americans call it the sidewalk."
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Say **Excuse me** to get a stranger's attention, and **Sorry** if you bump into someone.",
+                "A turning is a road that leaves the one you are on. British speakers say the second turning on the left, and Americans often say the second street on the left.",
+                "The pavement is the path beside a road in British English. Americans call it the sidewalk."
+              ]
+            }
           ]
         },
         {
           "title": "Culture note",
-          "paragraphs": [
-            "In the United Kingdom people drive on the left, so when you cross a road you must look right first. In the United States people drive on the right."
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In the United Kingdom people drive on the left, so when you cross a road you must look right first. In the United States people drive on the right."
+              ]
+            }
           ]
         }
       ]

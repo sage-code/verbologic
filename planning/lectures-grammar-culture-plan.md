@@ -151,7 +151,12 @@ Size: about 21 + 30 + 29 = 80 articles in LT02 to LT10 per language as a minimum
 One English article (target `en`, written in English) for the first topic of each chapter LT02 to LT10: L773 `LT02T01` Propositions and phrases, L774 `LT03T01` Greeting and introducing yourself, L775 `LT04T01` The house and its rooms, L776 `LT05T01` Streets and directions, L777 `LT06T01` Jobs and workplaces, L778 `LT07T01` Family and daily customs, L779 `LT08T01` Where English is spoken, L780 `LT09T01` Origins and early history of English, L781 `LT10T01` Scientists and inventors. Each has its read-aloud (`read/en.mp3`, voice en-US-AvaNeural). The item titles exist in all nine languages (the validator requires it); the article body is English only, other languages fall back to it.
 
 Format work this needed (reader and voice):
-- **Lists and tables inside the existing storage.** A paragraph string that is a table (every line starts with `|`), a bullet list (`- `) or a numbered list (`1. `) is rendered as one. Nothing changed in the stored JSON, in `articles.mjs/py` or in the database. Code: `blockOf` in `src/lib/article.ts`, `ArticleText.vue`, one line in `read.vue` (a headless document keeps its non-heading blocks).
-- **Read-aloud.** `speak_blocks` in `scripts/generate-audio.py`: table lines are not read, list markers are dropped and each item ends like a sentence. The reading scheme version is unchanged, so no LT01 clip became stale.
+- **Typed blocks in each section.** A section is `{title, blocks}` (older articles keep `{title, paragraphs}`), and every block has a `type`:
+  - `paragraphs`: `{type, paragraphs: [text, ...]}`, plain text with `**bold**` and `code` marks;
+  - `bullets`: `{type, items: [text, ...], ordered?}`;
+  - `dialog`: `{type, lines: [{speaker, text}, ...]}`;
+  - `table`: `{type, html}`, the only HTML, because a table cannot be written as text. Allowed tags: table, thead, tbody, tr, th, td, strong, em, code, br, no attributes; anything else is shown as text (`safeHtml` in `src/lib/article.ts`).
+  The reader (`nodesOf` in `src/lib/article.ts`, `ArticleText.vue`) turns each block into the right element; the voice (`block_text` in `scripts/generate-audio.py`) reads paragraphs, each bullet as a sentence and each dialog line as "Speaker: text", and skips tables. The stored JSON stays canonical (`articles.mjs/py` pass sections through) and the database is unchanged. Older articles (LT01, stories) are unchanged.
+- Re-record a changed article with `./run.sh create read <id> --lang en --overwrite-audio` (without the flag an existing clip is skipped). The reading scheme version is unchanged, so no LT01 clip became stale.
 
 Still to do for these nine: publish (`./run.sh sync`, `./run.sh media upload`, deploy) and look at each page in the browser; the "See Introduction to Grammar: <topic>" lines are plain text until the `grammar:` link field exists.
