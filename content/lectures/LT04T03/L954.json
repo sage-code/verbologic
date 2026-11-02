@@ -1,0 +1,113 @@
+{
+  "entity_id": "LT04T03:L954",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Cooking at home",
+    "es": "Cocinar en casa",
+    "it": "Cucinare a casa",
+    "fr": "Cuisiner à la maison",
+    "de": "Zu Hause kochen",
+    "ru": "Готовка дома",
+    "hu": "Főzés otthon",
+    "pt": "Cozinhar em casa",
+    "ro": "Gătitul acasă"
+  },
+  "locales": {
+    "en": {
+      "title": "Cooking at home",
+      "summary": "Basic kitchen verbs and how to give or follow a simple recipe.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Oliver is teaching his daughter to make scrambled eggs."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Oliver",
+                  "text": "First, break three eggs into a bowl."
+                },
+                {
+                  "speaker": "Daughter",
+                  "text": "Like this?"
+                },
+                {
+                  "speaker": "Oliver",
+                  "text": "Yes. Now add a little milk and mix well."
+                },
+                {
+                  "speaker": "Daughter",
+                  "text": "And then?"
+                },
+                {
+                  "speaker": "Oliver",
+                  "text": "Melt some butter in a pan. Pour in the eggs and stir slowly."
+                },
+                {
+                  "speaker": "Daughter",
+                  "text": "It smells wonderful!"
+                },
+                {
+                  "speaker": "Oliver",
+                  "text": "Be careful. The pan is hot."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. The imperative gives instructions.** It uses the base form of the verb with no subject. Add please, or don't, to change the tone. See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>positive</td><td><strong>Break the eggs.</strong></td></tr><tr><td>negative</td><td><strong>Don't burn the butter.</strong></td></tr><tr><td>polite</td><td><strong>Please pass the salt.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Quantity words for food.** Use a little with uncountable nouns and a few with countable ones. A lot of works with both. See Introduction to Grammar: Articles and determiners."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Word</th><th>Used with</th><th>Example</th></tr></thead><tbody><tr><td><strong>a little</strong></td><td>milk, butter</td><td><strong>a little milk</strong></td></tr><tr><td><strong>a few</strong></td><td>eggs, tomatoes</td><td><strong>a few eggs</strong></td></tr><tr><td><strong>a lot of</strong></td><td>both</td><td><strong>a lot of sugar</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Common kitchen verbs: **boil**, **fry**, **bake**, **chop**, **stir**, **mix**.",
+                "The **oven** bakes; the **hob** heats pans. Americans say **stove**.",
+                "Temperatures in recipes are in Celsius in the UK and in Fahrenheit in the United States."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Many British recipes use grams and millilitres, while American recipes use cups and tablespoons. A good cook checks the units before starting."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

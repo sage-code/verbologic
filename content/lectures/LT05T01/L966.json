@@ -1,0 +1,138 @@
+{
+  "entity_id": "LT05T01:L966",
+  "order": 3,
+  "minutes": 2,
+  "terms": {
+    "en": "Getting lost and getting help",
+    "es": "Perderse y pedir ayuda",
+    "it": "Perdersi e chiedere aiuto",
+    "fr": "Se perdre et demander de l'aide",
+    "de": "Sich verlaufen und Hilfe holen",
+    "ru": "Заблудиться и попросить помощи",
+    "hu": "Eltévedés és segítségkérés",
+    "pt": "Se perder e pedir ajuda",
+    "ro": "Când ne rătăcim și cerem ajutor"
+  },
+  "locales": {
+    "en": {
+      "title": "Getting lost and getting help",
+      "summary": "What to say when you do not know where you are, and how to follow a sequence of directions.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "About this lesson",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Getting lost is part of travelling. In this lesson you will learn to explain your problem, to ask for help and to follow directions step by step."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Grace cannot find her hotel and calls her friend Ben, who is waiting there."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Grace",
+                  "text": "Hello, Ben. I am lost. I cannot find the hotel."
+                },
+                {
+                  "speaker": "Ben",
+                  "text": "Where are you now?"
+                },
+                {
+                  "speaker": "Grace",
+                  "text": "I am on a street called Mill Road, but I do not know which way to go."
+                },
+                {
+                  "speaker": "Ben",
+                  "text": "Is there a shop or a sign nearby?"
+                },
+                {
+                  "speaker": "Grace",
+                  "text": "There is a chemist on the corner and a bus stop opposite."
+                },
+                {
+                  "speaker": "Ben",
+                  "text": "Good. Walk back to the main road, then turn left. Go past the church and take the second street on the right."
+                },
+                {
+                  "speaker": "Grace",
+                  "text": "Could you repeat that, please? You were going too fast."
+                },
+                {
+                  "speaker": "Ben",
+                  "text": "Of course. Main road, turn left, past the church, second right. The hotel is on your left."
+                },
+                {
+                  "speaker": "Grace",
+                  "text": "Got it. I will be there in ten minutes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Can and cannot show what you are able to do.** Use cannot (can't) with the base verb to name a problem, and could to ask for help politely. See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Function</th><th>Example</th></tr></thead><tbody><tr><td>problem</td><td><strong>I can't find the hotel.</strong></td></tr><tr><td>polite request</td><td><strong>Could you repeat that, please?</strong></td></tr><tr><td>offer</td><td><strong>Can I help you?</strong></td></tr><tr><td>request for speed</td><td><strong>Could you speak more slowly?</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Sequence words order the directions.** First, then, after that and finally tell the listener which step comes next, and the imperative gives each step. See Introduction to Grammar: Adverbs."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Word</th><th>Example</th></tr></thead><tbody><tr><td><strong>first</strong></td><td><strong>First, walk back to the main road.</strong></td></tr><tr><td><strong>then</strong></td><td><strong>Then turn left.</strong></td></tr><tr><td><strong>after that</strong></td><td><strong>After that, go past the church.</strong></td></tr><tr><td><strong>finally</strong></td><td><strong>Finally, take the second street.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "I am lost means you do not know where you are.",
+                "A person is lost, but an object is missing.",
+                "Take the second street means count the streets and turn at the second.",
+                "In an emergency, call 999 in Britain or 911 in the United States."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Culture note",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A phone map is useful, but English speakers are not shy about being asked for directions. A polite opening such as Excuse me, I am a little lost, can you help? usually brings a friendly answer."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

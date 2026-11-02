@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T14:L875",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Reported and evidential forms",
+    "es": "Formas referidas y evidenciales",
+    "it": "Forme riportate ed evidenziali",
+    "fr": "Formes rapportées et évidentielles",
+    "de": "Berichtete und evidentielle Formen",
+    "ru": "Передача чужих слов и эвиденциальные формы",
+    "hu": "Közvetett és evidenciális alakok",
+    "pt": "Formas relatadas e evidenciais",
+    "ro": "Forme relatate și evidențiale"
+  },
+  "locales": {
+    "en": {
+      "title": "Reported and evidential forms",
+      "summary": "Reported forms tell what is said or believed without naming the speaker.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Reported forms tell what someone said, or what is believed, without saying who said it."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**It is said** that she is a doctor.",
+                "He **is believed** to be rich.",
+                "They **say** it will rain."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English uses a passive with say, believe, think and report: He is said to be happy. Words such as apparently and reportedly show that the speaker is not sure."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>it + passive</td><td><strong>It is reported that prices will rise.</strong></td></tr><tr><td>subject + passive + to</td><td><strong>He is said to be ill.</strong></td></tr><tr><td>adverb</td><td><strong>Apparently, the road is closed.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

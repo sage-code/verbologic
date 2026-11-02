@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T14:L870",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "Active and passive voice",
+    "es": "Voz activa y pasiva",
+    "it": "Forma attiva e passiva",
+    "fr": "Voix active et passive",
+    "de": "Aktiv und Passiv",
+    "ru": "Действительный и страдательный залог",
+    "hu": "Cselekvő és szenvedő szerkezet",
+    "pt": "Voz ativa e passiva",
+    "ro": "Diateza activă și pasivă"
+  },
+  "locales": {
+    "en": {
+      "title": "Active and passive voice",
+      "summary": "In the active the subject acts; in the passive the subject receives the action.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In an active sentence the subject does the action. In a passive sentence the subject receives it."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "The cook **made** the soup. (active)",
+                "The soup **was made** by the cook. (passive)",
+                "Someone **stole** my bike. My bike **was stolen**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In the passive, the object of the active sentence becomes the subject. The doer, if it is named, follows the word by."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Active</th><th>Passive</th></tr></thead><tbody><tr><td><strong>They built the bridge.</strong></td><td><strong>The bridge was built.</strong></td></tr><tr><td><strong>A dog bit him.</strong></td><td><strong>He was bitten by a dog.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

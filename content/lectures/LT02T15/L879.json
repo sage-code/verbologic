@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T15:L879",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Prohibition and advice",
+    "es": "Prohibición y consejo",
+    "it": "Divieto e consiglio",
+    "fr": "Interdiction et conseil",
+    "de": "Verbot und Rat",
+    "ru": "Запрет и совет",
+    "hu": "Tilalom és tanács",
+    "pt": "Proibição e conselho",
+    "ro": "Interdicție și sfat"
+  },
+  "locales": {
+    "en": {
+      "title": "Prohibition and advice",
+      "summary": "Mustn't forbids; shouldn't advises against.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Mustn't forbids something. Shouldn't advises against it."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "You **mustn't** smoke here.",
+                "You **shouldn't** eat so fast.",
+                "You **can't** park here."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Mustn't and can't forbid. Don't have to is different: it means there is no need. Should and ought to give advice."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td>forbidden</td><td><strong>You mustn't enter.</strong></td></tr><tr><td>not allowed</td><td><strong>You can't park here.</strong></td></tr><tr><td>advice</td><td><strong>You should rest.</strong></td></tr><tr><td>not necessary</td><td><strong>You don't have to pay.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

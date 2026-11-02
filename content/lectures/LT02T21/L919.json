@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T21:L919",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "Prefixes",
+    "es": "Los prefijos",
+    "it": "I prefissi",
+    "fr": "Les préfixes",
+    "de": "Präfixe",
+    "ru": "Приставки",
+    "hu": "Az előtagok",
+    "pt": "Os prefixos",
+    "ro": "Prefixele"
+  },
+  "locales": {
+    "en": {
+      "title": "Prefixes",
+      "summary": "A prefix is added to the beginning of a word to change its meaning.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A prefix is a group of letters added to the beginning of a word to change its meaning."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**un**happy",
+                "**re**write",
+                "**pre**historic"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Common prefixes include un-, re-, dis-, mis-, pre- and over-. A prefix usually changes the meaning but not the word class. Un-, in-, dis- and non- make a negative."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Prefix</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>un-</strong></td><td>not</td><td><strong>unhappy</strong></td></tr><tr><td><strong>re-</strong></td><td>again</td><td><strong>rewrite</strong></td></tr><tr><td><strong>dis-</strong></td><td>opposite</td><td><strong>disagree</strong></td></tr><tr><td><strong>mis-</strong></td><td>wrongly</td><td><strong>misunderstand</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

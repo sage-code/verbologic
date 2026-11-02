@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T02:L791",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Words that describe",
+    "es": "Palabras que describen",
+    "it": "Parole che descrivono",
+    "fr": "Mots qui décrivent",
+    "de": "Wörter, die beschreiben",
+    "ru": "Слова, которые описывают",
+    "hu": "Leíró szavak",
+    "pt": "Palavras que descrevem",
+    "ro": "Cuvinte care descriu"
+  },
+  "locales": {
+    "en": {
+      "title": "Words that describe",
+      "summary": "Adjectives, articles and numerals add detail to a noun.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adjectives describe nouns. Articles show whether a noun is known or new. Numerals tell how many, or in which order."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "a **small red** car",
+                "**the** car, **a** car",
+                "**three** cars, the **second** car"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In English the adjective, the article and the numeral all come before the noun. The adjective does not change for number or gender."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Class</th><th>Example</th><th>Place</th></tr></thead><tbody><tr><td>adjective</td><td><strong>a tall man</strong></td><td>before the noun</td></tr><tr><td>article</td><td><strong>the man</strong></td><td>before the noun</td></tr><tr><td>numeral</td><td><strong>two men</strong></td><td>before the noun</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

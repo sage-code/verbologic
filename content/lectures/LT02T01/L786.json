@@ -1,0 +1,386 @@
+{
+  "entity_id": "LT02T01:L786",
+  "order": 5,
+  "terms": {
+    "en": "Subject and predicate",
+    "es": "Sujeto y predicado",
+    "it": "Soggetto e predicato",
+    "fr": "Sujet et prédicat",
+    "de": "Subjekt und Prädikat",
+    "ru": "Подлежащее и сказуемое",
+    "hu": "Alany és állítmány",
+    "pt": "Sujeito e predicado",
+    "ro": "Subiectul și predicatul"
+  },
+  "locales": {
+    "en": {
+      "title": "Subject and predicate",
+      "summary": "The subject says who or what a proposition is about, and the predicate says what is said about it.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The subject tells us who or what the proposition is about. The predicate tells us what is said about the subject, and it always contains the verb."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "My sister / works in a bank.",
+                "The old bridge / is closed.",
+                "Birds / fly."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "To find the subject, ask who or what does the action: Who works in a bank? My sister. In English the subject normally comes before the verb and agrees with it: **she works**, **they work**."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Subject</th><th>Predicate</th></tr></thead><tbody><tr><td><strong>The students</strong></td><td><strong>are reading.</strong></td></tr><tr><td><strong>Our neighbour</strong></td><td><strong>has a dog.</strong></td></tr><tr><td><strong>It</strong></td><td><strong>is raining.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Subiectul și predicatul",
+      "summary": "Subiectul arată despre cine se vorbește, iar predicatul arată ce se spune despre el.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Subiectul arată despre cine sau despre ce se vorbește. Predicatul arată ce se afirmă despre subiect și conține întotdeauna verbul."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Sora mea / lucrează la o bancă.",
+                "Podul vechi / este închis.",
+                "Păsările / zboară."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Subiectul se găsește cu întrebarea cine sau ce: Cine lucrează la o bancă? Sora mea. Predicatul se acordă cu subiectul în persoană și număr. În română subiectul poate fi subînțeles: **Lucrez la o bancă.**"
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Subiect</th><th>Predicat</th></tr></thead><tbody><tr><td><strong>Studenții</strong></td><td><strong>citesc acum.</strong></td></tr><tr><td><strong>Vecinul nostru</strong></td><td><strong>are un câine.</strong></td></tr><tr><td>(subînțeles)</td><td><strong>Plouă.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "de": {
+      "title": "Subjekt und Prädikat",
+      "summary": "Das Subjekt sagt, worüber gesprochen wird, und das Prädikat sagt, was darüber ausgesagt wird.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Was es ist",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Das Subjekt sagt, über wen oder was man spricht. Das Prädikat sagt, was über das Subjekt ausgesagt wird, und enthält immer das Verb."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Meine Schwester / arbeitet bei einer Bank.",
+                "Die alte Brücke / ist gesperrt.",
+                "Vögel / fliegen."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wie es im Deutschen funktioniert",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Das Subjekt findet man mit der Frage wer oder was: Wer arbeitet bei einer Bank? Meine Schwester. Das Subjekt steht im Nominativ, und das Verb richtet sich nach ihm in Person und Zahl. Im Deutschen muss das Subjekt fast immer genannt werden: **Es regnet.**"
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Subjekt</th><th>Prädikat</th></tr></thead><tbody><tr><td><strong>Die Studenten</strong></td><td><strong>lesen gerade.</strong></td></tr><tr><td><strong>Unser Nachbar</strong></td><td><strong>hat einen Hund.</strong></td></tr><tr><td><strong>Es</strong></td><td><strong>regnet.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "ru": {
+      "title": "Подлежащее и сказуемое",
+      "summary": "Подлежащее называет предмет речи, а сказуемое сообщает о нём.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Что это",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Подлежащее называет того, о ком или о чём говорится. Сказуемое сообщает, что утверждается о подлежащем, и содержит глагол."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Моя сестра / работает в банке.",
+                "Старый мост / закрыт.",
+                "Птицы / летают."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Как это работает в русском языке",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Подлежащее отвечает на вопрос «кто?» или «что?» и стоит в именительном падеже: Кто работает в банке? Моя сестра. Сказуемое согласуется с подлежащим в лице и числе, в прошедшем времени — в роде. В безличных предложениях подлежащего нет: **Светает.**"
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Подлежащее</th><th>Сказуемое</th></tr></thead><tbody><tr><td><strong>Студенты</strong></td><td><strong>читают.</strong></td></tr><tr><td><strong>У нашего соседа</strong></td><td><strong>есть собака.</strong></td></tr><tr><td>(нет подлежащего)</td><td><strong>Идёт дождь.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "it": {
+      "title": "Soggetto e predicato",
+      "summary": "Il soggetto dice di chi si parla e il predicato dice ciò che se ne afferma.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Che cos'è",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Il soggetto dice di chi o di che cosa si parla. Il predicato dice ciò che si afferma del soggetto e contiene sempre il verbo."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Mia sorella / lavora in banca.",
+                "Il vecchio ponte / è chiuso.",
+                "Gli uccelli / volano."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Come funziona in italiano",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Per trovare il soggetto, chiediti chi fa l'azione: Chi lavora in banca? Mia sorella. Il verbo concorda con il soggetto in persona e numero, e il soggetto può essere sottinteso: **Lavoro in banca.**"
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Soggetto</th><th>Predicato</th></tr></thead><tbody><tr><td><strong>Gli studenti</strong></td><td><strong>stanno leggendo.</strong></td></tr><tr><td><strong>Il nostro vicino</strong></td><td><strong>ha un cane.</strong></td></tr><tr><td>(sottinteso)</td><td><strong>Piove.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Sujeto y predicado",
+      "summary": "El sujeto dice de quién se habla y el predicado dice lo que se afirma de él.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Qué es",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "El sujeto dice de quién o de qué se habla. El predicado dice lo que se afirma del sujeto y siempre contiene el verbo."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Mi hermana / trabaja en un banco.",
+                "El puente viejo / está cerrado.",
+                "Los pájaros / vuelan."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cómo funciona en español",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Para hallar el sujeto, pregunta quién hace la acción: ¿Quién trabaja en un banco? Mi hermana. El verbo concuerda con el sujeto en persona y número, y el sujeto puede quedar omitido: **Trabajo en un banco.**"
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Sujeto</th><th>Predicado</th></tr></thead><tbody><tr><td><strong>Los estudiantes</strong></td><td><strong>están leyendo.</strong></td></tr><tr><td><strong>Nuestro vecino</strong></td><td><strong>tiene un perro.</strong></td></tr><tr><td>(omitido)</td><td><strong>Llueve.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "title": "Sujet et prédicat",
+      "summary": "Le sujet dit de qui on parle et le prédicat dit ce qu'on en affirme.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce que c'est",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Le sujet dit de qui ou de quoi on parle. Le prédicat dit ce qu'on affirme du sujet et contient toujours le verbe."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Ma sœur / travaille dans une banque.",
+                "Le vieux pont / est fermé.",
+                "Les oiseaux / volent."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Comment ça marche en français",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pour trouver le sujet, pose la question qui est-ce qui ou qu'est-ce qui : Qui travaille dans une banque ? Ma sœur. Le verbe s'accorde avec le sujet en personne et en nombre. Le sujet est presque toujours exprimé, même **il** dans **Il pleut**."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Sujet</th><th>Prédicat</th></tr></thead><tbody><tr><td><strong>Les étudiants</strong></td><td><strong>sont en train de lire.</strong></td></tr><tr><td><strong>Notre voisin</strong></td><td><strong>a un chien.</strong></td></tr><tr><td><strong>Il</strong></td><td><strong>pleut.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "hu": {
+      "title": "Alany és állítmány",
+      "summary": "Az alany megnevezi, kiről van szó, az állítmány pedig azt mondja meg, mit állítunk róla.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Mi ez",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Az alany megnevezi, kiről vagy miről van szó. Az állítmány azt mondja meg, mit állítunk az alanyról, és mindig tartalmazza az igét."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "A nővérem / bankban dolgozik.",
+                "A régi híd / le van zárva.",
+                "A madarak / repülnek."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hogyan működik magyarul",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Az alanyt a ki? vagy mi? kérdéssel találjuk meg: Ki dolgozik bankban? A nővérem. Az alany alanyesetben áll, és az ige személyben és számban egyezik vele. Az alany gyakran kimarad: **Bankban dolgozom.**"
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Alany</th><th>Állítmány</th></tr></thead><tbody><tr><td><strong>A diákok</strong></td><td><strong>olvasnak.</strong></td></tr><tr><td><strong>A szomszédunknak</strong></td><td><strong>van egy kutyája.</strong></td></tr><tr><td>(elmaradt)</td><td><strong>Esik.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "pt": {
+      "title": "Sujeito e predicado",
+      "summary": "O sujeito diz de quem se fala e o predicado diz o que se afirma dele.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "O que é",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "O sujeito diz de quem ou de que se fala. O predicado diz o que se afirma do sujeito e contém sempre o verbo."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Minha irmã / trabalha em um banco.",
+                "A ponte velha / está fechada.",
+                "Os pássaros / voam."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Como funciona em português",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Para achar o sujeito, pergunte quem faz a ação: Quem trabalha em um banco? Minha irmã. O verbo concorda com o sujeito em pessoa e número, e o sujeito pode ficar oculto: **Trabalho em um banco.**"
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Sujeito</th><th>Predicado</th></tr></thead><tbody><tr><td><strong>Os estudantes</strong></td><td><strong>estão lendo.</strong></td></tr><tr><td><strong>Nosso vizinho</strong></td><td><strong>tem um cachorro.</strong></td></tr><tr><td>(oculto)</td><td><strong>Chove.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

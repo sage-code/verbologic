@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T15:L878",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Obligation and necessity",
+    "es": "Obligación y necesidad",
+    "it": "Obbligo e necessità",
+    "fr": "Obligation et nécessité",
+    "de": "Pflicht und Notwendigkeit",
+    "ru": "Долженствование и необходимость",
+    "hu": "Kötelezettség és szükségszerűség",
+    "pt": "Obrigação e necessidade",
+    "ro": "Obligație și necesitate"
+  },
+  "locales": {
+    "en": {
+      "title": "Obligation and necessity",
+      "summary": "Must, have to and need to express obligation.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Must, have to and need to express obligation and necessity."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "You **must** wear a seat belt.",
+                "I **have to** leave now.",
+                "We **need to** talk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Must is strong and personal. Have to usually shows an outside rule. Must has no past form, so use had to. Don't have to means that something is not necessary."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>must</td><td><strong>I must call him.</strong></td></tr><tr><td>have to</td><td><strong>Students have to wear a uniform.</strong></td></tr><tr><td>past</td><td><strong>We had to wait.</strong></td></tr><tr><td>not necessary</td><td><strong>You don't have to come.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

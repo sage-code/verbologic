@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T03:L802",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Singular and plural",
+    "es": "Singular y plural",
+    "it": "Singolare e plurale",
+    "fr": "Singulier et pluriel",
+    "de": "Singular und Plural",
+    "ru": "Единственное и множественное число",
+    "hu": "Egyes és többes szám",
+    "pt": "Singular e plural",
+    "ro": "Singularul și pluralul"
+  },
+  "locales": {
+    "en": {
+      "title": "Singular and plural",
+      "summary": "English nouns have two numbers, singular and plural, and most add -s.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Number tells us whether a noun means one thing or more than one. English has two numbers: singular and plural."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "one **book**, two **books**",
+                "one **box**, two **boxes**",
+                "one **baby**, two **babies**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Most nouns add -s. Nouns ending in s, x, z, ch or sh add -es. Nouns ending in a consonant and y change y to ies."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Rule</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td>add -s</td><td><strong>cat</strong></td><td><strong>cats</strong></td></tr><tr><td>add -es</td><td><strong>bus</strong></td><td><strong>buses</strong></td></tr><tr><td>y becomes ies</td><td><strong>city</strong></td><td><strong>cities</strong></td></tr><tr><td>vowel and y: add -s</td><td><strong>day</strong></td><td><strong>days</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

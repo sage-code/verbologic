@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T06:L817",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "Subject pronouns",
+    "es": "Los pronombres de sujeto",
+    "it": "I pronomi soggetto",
+    "fr": "Les pronoms sujets",
+    "de": "Subjektpronomen",
+    "ru": "Местоимения в роли подлежащего",
+    "hu": "Alanyi névmások",
+    "pt": "Os pronomes de sujeito",
+    "ro": "Pronumele subiect"
+  },
+  "locales": {
+    "en": {
+      "title": "Subject pronouns",
+      "summary": "Subject pronouns stand for the person or thing that does the action.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Subject pronouns stand for the person or thing that does the action. English has I, you, he, she, it, we and they."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**I** work here.",
+                "**She** reads a lot.",
+                "**They** are late."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A subject pronoun is almost always required in English. The word you is the same for one person and for many."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Person</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td>first</td><td><strong>I</strong></td><td><strong>we</strong></td></tr><tr><td>second</td><td><strong>you</strong></td><td><strong>you</strong></td></tr><tr><td>third</td><td><strong>he, she, it</strong></td><td><strong>they</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

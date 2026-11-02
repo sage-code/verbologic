@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T04:L806",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Nouns without an article",
+    "es": "Sustantivos sin artículo",
+    "it": "Nomi senza articolo",
+    "fr": "Noms sans article",
+    "de": "Substantive ohne Artikel",
+    "ru": "Существительные без артикля",
+    "hu": "Névelő nélküli főnevek",
+    "pt": "Substantivos sem artigo",
+    "ro": "Substantivele fără articol"
+  },
+  "locales": {
+    "en": {
+      "title": "Nouns without an article",
+      "summary": "Many nouns are used with no article at all.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Sometimes a noun has no article. This is called the zero article."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Water** is life.",
+                "I like **music**.",
+                "**Children** need sleep."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use no article with plural and uncountable nouns that speak in general, with most names of people and places, and with meals, languages and many fixed phrases."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Case</th><th>Example</th></tr></thead><tbody><tr><td>general plural</td><td><strong>Dogs bark.</strong></td></tr><tr><td>language</td><td><strong>She speaks Italian.</strong></td></tr><tr><td>meal</td><td><strong>We have lunch at one.</strong></td></tr><tr><td>fixed phrase</td><td><strong>at school, by car</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

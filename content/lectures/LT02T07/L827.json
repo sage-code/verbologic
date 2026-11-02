@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T07:L827",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Demonstrative pronouns",
+    "es": "Los pronombres demostrativos",
+    "it": "I pronomi dimostrativi",
+    "fr": "Les pronoms démonstratifs",
+    "de": "Demonstrativpronomen",
+    "ru": "Указательные местоимения",
+    "hu": "Mutató névmások",
+    "pt": "Os pronomes demonstrativos",
+    "ro": "Pronumele demonstrative"
+  },
+  "locales": {
+    "en": {
+      "title": "Demonstrative pronouns",
+      "summary": "A demonstrative pronoun points without naming.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A demonstrative pronoun points to something without naming it. English has this, that, these and those."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**This** is delicious.",
+                "**That** looks heavy.",
+                "**Those** are mine."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A demonstrative pronoun stands alone, while a demonstrative before a noun is a determiner. Use this and these for near things, and that and those for far things."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Near</th><th>Far</th></tr></thead><tbody><tr><td><strong>This is my phone.</strong></td><td><strong>That is your phone.</strong></td></tr><tr><td><strong>These are my keys.</strong></td><td><strong>Those are your keys.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

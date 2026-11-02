@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T16:L888",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Adverbs of degree",
+    "es": "Adverbios de grado",
+    "it": "Avverbi di grado",
+    "fr": "Adverbes de degré",
+    "de": "Gradadverbien",
+    "ru": "Наречия меры и степени",
+    "hu": "Fokhatározók",
+    "pt": "Advérbios de grau",
+    "ro": "Adverbe de grad"
+  },
+  "locales": {
+    "en": {
+      "title": "Adverbs of degree",
+      "summary": "Adverbs of degree tell how much or how strongly.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adverbs of degree tell how much or how strongly: very, quite, too, enough, almost."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "It is **very** cold.",
+                "She is **quite** tall.",
+                "He is **too** tired."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Put an adverb of degree before the adjective or adverb it modifies, except enough, which follows it. Too means more than is good, while very is only strong."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Adverb</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>very</strong></td><td>strong</td><td><strong>very easy</strong></td></tr><tr><td><strong>too</strong></td><td>more than needed</td><td><strong>too heavy</strong></td></tr><tr><td><strong>enough</strong></td><td>sufficient</td><td><strong>old enough</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

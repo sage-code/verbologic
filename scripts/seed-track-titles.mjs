@@ -44,7 +44,7 @@ const args = process.argv.slice(2)
 const apply = args.includes('--apply')
 const chapterAt = args.indexOf('--chapter')
 const onlyChapter = chapterAt === -1 ? null : (args[chapterAt + 1] ?? null)
-const track = args.find((arg, at) => !arg.startsWith('--') && at !== chapterAt + 1)
+const track = args.find((arg, at) => !arg.startsWith('--') && (chapterAt === -1 || at !== chapterAt + 1))
 if (!track || !KINDS[track]) fail(`usage: seed-track-titles.mjs <${Object.keys(KINDS).join('|')}> [--chapter <code>] [--apply]`)
 
 const kinds = KINDS[track]

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T18:L903",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Short answers and question tags",
+    "es": "Respuestas cortas y coletillas interrogativas",
+    "it": "Risposte brevi e domande di conferma",
+    "fr": "Réponses courtes et questions de confirmation",
+    "de": "Kurzantworten und Frageanhängsel",
+    "ru": "Краткие ответы и разделительные вопросы",
+    "hu": "Rövid válaszok és megerősítő kérdések",
+    "pt": "Respostas curtas e perguntas de confirmação",
+    "ro": "Răspunsuri scurte și întrebări de confirmare"
+  },
+  "locales": {
+    "en": {
+      "title": "Short answers and question tags",
+      "summary": "A short answer repeats the auxiliary; a question tag asks for agreement.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A short answer repeats the auxiliary. A question tag is a short question added to a statement to ask for agreement."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Are you ready? **Yes, I am.**",
+                "You live here, **don't you?**",
+                "She isn't coming, **is she?**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A tag has the same auxiliary as the statement but the opposite meaning: a positive statement has a negative tag, and a negative statement has a positive tag."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Statement</th><th>Tag</th></tr></thead><tbody><tr><td><strong>It is cold,</strong></td><td><strong>isn't it?</strong></td></tr><tr><td><strong>You can swim,</strong></td><td><strong>can't you?</strong></td></tr><tr><td><strong>They didn't come,</strong></td><td><strong>did they?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

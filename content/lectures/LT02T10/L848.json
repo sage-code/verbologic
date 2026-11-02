@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T10:L848",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Actions in progress",
+    "es": "Acciones en curso",
+    "it": "Azioni in corso",
+    "fr": "Actions en cours",
+    "de": "Handlungen im Verlauf",
+    "ru": "Действия в процессе",
+    "hu": "Folyamatban lévő cselekvések",
+    "pt": "Ações em andamento",
+    "ro": "Acțiuni în desfășurare"
+  },
+  "locales": {
+    "en": {
+      "title": "Actions in progress",
+      "summary": "The present continuous describes what is happening now.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The present continuous describes an action that is happening now, or around now."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **am reading** now.",
+                "They **are playing** outside.",
+                "It **is raining**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Form it with be and the -ing form of the verb. Verbs of state, such as know, like and want, are not normally used in the continuous."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>affirmative</td><td><strong>She is working.</strong></td></tr><tr><td>negative</td><td><strong>She isn't working.</strong></td></tr><tr><td>question</td><td><strong>Is she working?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

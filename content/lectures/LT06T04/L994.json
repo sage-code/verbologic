@@ -1,0 +1,134 @@
+{
+  "entity_id": "LT06T04:L994",
+  "order": 0,
+  "minutes": 2,
+  "terms": {
+    "en": "Phone calls",
+    "es": "Llamadas telefónicas",
+    "it": "Telefonate",
+    "fr": "Appels téléphoniques",
+    "de": "Telefongespräche",
+    "ru": "Телефонные разговоры",
+    "hu": "Telefonbeszélgetések",
+    "pt": "Chamadas telefônicas",
+    "ro": "Convorbiri telefonice"
+  },
+  "locales": {
+    "en": {
+      "title": "Phone calls",
+      "summary": "Starting, taking and ending a call politely, with messages and spelling.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "About this lesson",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Phone calls are harder than face-to-face conversations because you cannot see the other person. This lesson gives you fixed phrases for the beginning, the middle and the end of a call and teaches you to report what someone said."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Mr Smith telephones a company in Birmingham and speaks to the receptionist."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Receptionist",
+                  "text": "Good morning, Davies and Sons. How can I help you?"
+                },
+                {
+                  "speaker": "Caller",
+                  "text": "Hello, may I speak to Mr Davies, please?"
+                },
+                {
+                  "speaker": "Receptionist",
+                  "text": "I'm afraid he's in a meeting at the moment. Can I take a message?"
+                },
+                {
+                  "speaker": "Caller",
+                  "text": "Yes, please ask him to call me back. My number is 0207 555 0123."
+                },
+                {
+                  "speaker": "Receptionist",
+                  "text": "Could you spell your name for me?"
+                },
+                {
+                  "speaker": "Caller",
+                  "text": "Of course. It's S-M-I-T-H."
+                },
+                {
+                  "speaker": "Receptionist",
+                  "text": "Thank you, Mr Smith. I'll tell him you called, and I'm sure he will ring you this afternoon."
+                },
+                {
+                  "speaker": "Caller",
+                  "text": "Thank you. Goodbye."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Phone phrases are fixed.** Learn them as units. On the phone, people say This is... not I am..., and they ask Who's calling? rather than Who are you? See Introduction to Grammar: Sentence structure."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Function</th><th>Phrase</th></tr></thead><tbody><tr><td>answering</td><td><strong>Good morning, Davies and Sons.</strong></td></tr><tr><td>asking for someone</td><td><strong>May I speak to Mr Davies?</strong></td></tr><tr><td>refusing politely</td><td><strong>I'm afraid he's not here.</strong></td></tr><tr><td>offering</td><td><strong>Can I take a message?</strong></td></tr><tr><td>identifying</td><td><strong>This is John Smith.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Reported speech passes on a message.** When you repeat what someone said, the verb moves back in time: I'll ring becomes he said he would ring. See Introduction to Grammar: Reported speech."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Direct</th><th>Reported</th></tr></thead><tbody><tr><td><strong>\"I'm in a meeting.\"</strong></td><td><strong>He said he was in a meeting.</strong></td></tr><tr><td><strong>\"I'll call you back.\"</strong></td><td><strong>He said he would call you back.</strong></td></tr><tr><td><strong>\"Can you spell your name?\"</strong></td><td><strong>She asked me to spell my name.</strong></td></tr><tr><td><strong>\"Call me.\"</strong></td><td><strong>She asked him to call her.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Hold on means wait a moment; hang up means end the call.",
+                "Speaking is a possible answer to Is that Mr Davies?",
+                "Numbers are read one digit at a time, and 0 is often said oh.",
+                "A voicemail is a recorded message left when the person does not answer."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Culture note",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A business call in Britain opens with the company name and your own name. Calling someone you do not know with a request is not rude, but a clear, short introduction helps."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

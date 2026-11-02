@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T03:L803",
+  "order": 6,
+  "minutes": 1,
+  "terms": {
+    "en": "Irregular and unusual plurals",
+    "es": "Plurales irregulares e inusuales",
+    "it": "Plurali irregolari e insoliti",
+    "fr": "Pluriels irréguliers et inhabituels",
+    "de": "Unregelmäßige und ungewöhnliche Plurale",
+    "ru": "Неправильные и необычные формы множественного числа",
+    "hu": "Rendhagyó és szokatlan többes számok",
+    "pt": "Plurais irregulares e incomuns",
+    "ro": "Pluraluri neregulate și neobișnuite"
+  },
+  "locales": {
+    "en": {
+      "title": "Irregular and unusual plurals",
+      "summary": "A few common nouns form their plural in an old or unusual way.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A few common English nouns have plurals that do not follow the -s rule. They come from older forms of the language."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "one **man**, two **men**",
+                "one **child**, two **children**",
+                "one **foot**, two **feet**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some nouns do not change at all, such as sheep and fish. Some words from Latin or Greek keep their original plural. Some nouns are always plural, such as scissors and trousers."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Type</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td>vowel change</td><td><strong>mouse</strong></td><td><strong>mice</strong></td></tr><tr><td>same form</td><td><strong>sheep</strong></td><td><strong>sheep</strong></td></tr><tr><td>Latin or Greek</td><td><strong>analysis</strong></td><td><strong>analyses</strong></td></tr><tr><td>always plural</td><td>—</td><td><strong>scissors</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

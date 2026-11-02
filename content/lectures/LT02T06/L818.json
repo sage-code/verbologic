@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T06:L818",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Dropped subjects",
+    "es": "El sujeto omitido",
+    "it": "Il soggetto sottinteso",
+    "fr": "Le sujet sous-entendu",
+    "de": "Ausgelassene Subjekte",
+    "ru": "Опускаемое подлежащее",
+    "hu": "A kihagyott alany",
+    "pt": "O sujeito omitido",
+    "ro": "Subiectul subînțeles"
+  },
+  "locales": {
+    "en": {
+      "title": "Dropped subjects",
+      "summary": "English needs a subject in nearly every sentence.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some languages leave out the subject pronoun, because the verb ending already shows the person. English does not allow this in normal sentences."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**It** is raining.",
+                "**There** is a problem.",
+                "**I** don't know."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English uses the dummy subjects it and there when nothing else can be the subject. The subject can be left out only in commands and in very informal speech."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Case</th><th>Example</th></tr></thead><tbody><tr><td>weather</td><td><strong>It is cold.</strong></td></tr><tr><td>existence</td><td><strong>There are two cats.</strong></td></tr><tr><td>command</td><td><strong>Come in.</strong></td></tr><tr><td>informal speech</td><td><strong>Hope you are well.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

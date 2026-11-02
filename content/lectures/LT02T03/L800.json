@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T03:L800",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Collective nouns",
+    "es": "Sustantivos colectivos",
+    "it": "Nomi collettivi",
+    "fr": "Noms collectifs",
+    "de": "Sammelnamen",
+    "ru": "Собирательные существительные",
+    "hu": "Gyűjtőnevek",
+    "pt": "Substantivos coletivos",
+    "ro": "Substantive colective"
+  },
+  "locales": {
+    "en": {
+      "title": "Collective nouns",
+      "summary": "A collective noun names a group as one unit.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A collective noun names a group of people or things as one unit: team, family, class, government."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "The **team** is ready.",
+                "My **family** lives in Leeds.",
+                "The **government** has decided."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In British English a collective noun can take a singular or a plural verb. The singular stresses the group and the plural stresses its members. American English prefers the singular."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Singular verb</th><th>Plural verb</th></tr></thead><tbody><tr><td><strong>The team is winning.</strong></td><td><strong>The team are arguing.</strong></td></tr><tr><td><strong>The class is large.</strong></td><td><strong>The class are taking notes.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

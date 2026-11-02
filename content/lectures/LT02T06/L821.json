@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T06:L821",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Impersonal pronouns",
+    "es": "Pronombres impersonales",
+    "it": "Pronomi impersonali",
+    "fr": "Pronoms impersonnels",
+    "de": "Unpersönliche Pronomen",
+    "ru": "Безличные местоимения",
+    "hu": "Személytelen névmások",
+    "pt": "Pronomes impessoais",
+    "ro": "Pronume impersonale"
+  },
+  "locales": {
+    "en": {
+      "title": "Impersonal pronouns",
+      "summary": "Some pronouns do not refer to a particular person or thing.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "An impersonal pronoun does not refer to a particular person or thing. In English they are it, there, you and one."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**It** is late.",
+                "**There** is a bus at nine.",
+                "**You** never know."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "It is used for weather, time and distance. There introduces what exists. You and they are often used for people in general, and one is a formal way to say the same."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pronoun</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td><strong>it</strong></td><td>weather, time</td><td><strong>It is nine o'clock.</strong></td></tr><tr><td><strong>there</strong></td><td>existence</td><td><strong>There is a café here.</strong></td></tr><tr><td><strong>you, one</strong></td><td>people in general</td><td><strong>You can't park here.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

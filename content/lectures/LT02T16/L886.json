@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T16:L886",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Adverbs of place",
+    "es": "Adverbios de lugar",
+    "it": "Avverbi di luogo",
+    "fr": "Adverbes de lieu",
+    "de": "Ortsadverbien",
+    "ru": "Наречия места",
+    "hu": "Helyhatározók",
+    "pt": "Advérbios de lugar",
+    "ro": "Adverbe de loc"
+  },
+  "locales": {
+    "en": {
+      "title": "Adverbs of place",
+      "summary": "Adverbs of place tell where something happens.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adverbs of place tell where something happens: here, there, upstairs, nearby."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Come **here**.",
+                "The children are **upstairs**.",
+                "I looked **everywhere**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adverbs of place usually follow the verb or its object. Here and there often begin a sentence for emphasis: Here comes the bus."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Adverb</th><th>Example</th></tr></thead><tbody><tr><td><strong>here, there</strong></td><td><strong>Put it here.</strong></td></tr><tr><td><strong>inside, outside</strong></td><td><strong>Wait outside.</strong></td></tr><tr><td><strong>somewhere, nowhere</strong></td><td><strong>It must be somewhere.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

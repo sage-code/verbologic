@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T02:L790",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Words that name",
+    "es": "Palabras que nombran",
+    "it": "Parole che nominano",
+    "fr": "Mots qui nomment",
+    "de": "Wörter, die benennen",
+    "ru": "Слова, которые называют",
+    "hu": "Megnevező szavak",
+    "pt": "Palavras que nomeiam",
+    "ro": "Cuvinte care denumesc"
+  },
+  "locales": {
+    "en": {
+      "title": "Words that name",
+      "summary": "Nouns name things and pronouns stand in for them.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Nouns and pronouns name. A noun names a person, place, thing or idea. A pronoun stands in place of a noun, so that we do not repeat it."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Maria** lives in **Leeds**.",
+                "**She** lives there.",
+                "**Honesty** matters."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English nouns change for number and for the possessive ('s). Pronouns change more: I, me, my, mine."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Noun</th><th>Pronoun that replaces it</th></tr></thead><tbody><tr><td><strong>the teacher</strong></td><td><strong>she</strong> or <strong>he</strong></td></tr><tr><td><strong>the books</strong></td><td><strong>they</strong></td></tr><tr><td><strong>Tom and I</strong></td><td><strong>we</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "entity_id": "LT03T02:L930",
+  "order": 1,
+  "minutes": 2,
+  "terms": {
+    "en": "Brothers, sisters and cousins",
+    "es": "Hermanos, hermanas y primos",
+    "it": "Fratelli, sorelle e cugini",
+    "fr": "Frères, sœurs et cousins",
+    "de": "Geschwister und Cousins",
+    "ru": "Братья, сёстры и двоюродные родственники",
+    "hu": "Testvérek és unokatestvérek",
+    "pt": "Irmãos, irmãs e primos",
+    "ro": "Frați, surori și veri"
+  },
+  "locales": {
+    "en": {
+      "title": "Brothers, sisters and cousins",
+      "summary": "How to talk about your brothers, sisters and cousins.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Brothers, sisters and cousins are part of most family conversations. Here is a short description.",
+                "I have one brother and two sisters. My brother Jack is older than me, and my sisters are younger. Jack's wife is called Helen. My cousin Emma is my aunt's daughter. She lives in Scotland, and I visit her every summer."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. 's shows who a person belongs to.** Add 's to the owner's name: Jack's wife, my aunt's daughter. For the plural ending in s, add only the apostrophe: my sisters' rooms. See Introduction to Grammar: Nouns, kinds, gender and number."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>singular owner</td><td><strong>Jack's wife</strong></td></tr><tr><td>plural owner</td><td><strong>my sisters' rooms</strong></td></tr><tr><td>two owners</td><td><strong>Jack and Helen's house</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Older and younger compare people.** Use than to name the second person: Jack is older than me. After than in everyday speech, we say me, not I. See Introduction to Grammar: Adjectives and comparison."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Adjective</th><th>Comparative</th><th>Example</th></tr></thead><tbody><tr><td><strong>old</strong></td><td><strong>older</strong></td><td><strong>Jack is older than me.</strong></td></tr><tr><td><strong>young</strong></td><td><strong>younger</strong></td><td><strong>My sisters are younger.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**Siblings** means brothers and sisters together. **Cousin** is used for both a boy and a girl.",
+                "**Elder** is a formal word for older and is used mostly before a noun: **my elder brother**.",
+                "We say **one brother and two sisters**, not one brother and two sister."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English has no special words for a mother's side or a father's side. Aunt, uncle and cousin are used on both sides of the family."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T02:L796",
+  "order": 7,
+  "minutes": 1,
+  "terms": {
+    "en": "The grammar categories at a glance",
+    "es": "Las categorías gramaticales de un vistazo",
+    "it": "Le categorie grammaticali in sintesi",
+    "fr": "Les catégories grammaticales en bref",
+    "de": "Die grammatischen Kategorien im Überblick",
+    "ru": "Грамматические категории вкратце",
+    "hu": "A nyelvtani kategóriák dióhéjban",
+    "pt": "As categorias gramaticais em resumo",
+    "ro": "Categoriile gramaticale pe scurt"
+  },
+  "locales": {
+    "en": {
+      "title": "The grammar categories at a glance",
+      "summary": "Number, gender, case, person, tense, mood, voice and aspect, and where English shows them.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Grammar categories describe the changes a word can have: number, gender, case, person, tense, mood, voice and aspect."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**book / books** (number)",
+                "**he / she / it** (gender)",
+                "**walk / walked** (tense)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English marks few of these on nouns. Nouns change for number and the possessive. Pronouns change for case and gender. Verbs change for tense, person, mood, voice and aspect."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Category</th><th>Where English shows it</th></tr></thead><tbody><tr><td>number</td><td><strong>dog, dogs</strong></td></tr><tr><td>case</td><td><strong>I, me, my</strong></td></tr><tr><td>gender</td><td><strong>he, she, it</strong></td></tr><tr><td>person</td><td><strong>I walk, she walks</strong></td></tr><tr><td>tense</td><td><strong>walk, walked</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

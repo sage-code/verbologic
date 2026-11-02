@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T09:L843",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Transitive and intransitive verbs",
+    "es": "Verbos transitivos e intransitivos",
+    "it": "Verbi transitivi e intransitivi",
+    "fr": "Verbes transitifs et intransitifs",
+    "de": "Transitive und intransitive Verben",
+    "ru": "Переходные и непереходные глаголы",
+    "hu": "Tárgyas és tárgyatlan igék",
+    "pt": "Verbos transitivos e intransitivos",
+    "ro": "Verbe tranzitive și intranzitive"
+  },
+  "locales": {
+    "en": {
+      "title": "Transitive and intransitive verbs",
+      "summary": "A transitive verb takes an object; an intransitive verb does not.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A transitive verb takes an object. An intransitive verb does not."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "She **reads** a book. (transitive)",
+                "He **sleeps**. (intransitive)",
+                "I **stopped** the car. The car **stopped**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Many English verbs can be both. A dictionary marks them as vt or vi. Some verbs take two objects: She gave him a gift."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Type</th><th>Example</th></tr></thead><tbody><tr><td>transitive</td><td><strong>He opened the door.</strong></td></tr><tr><td>intransitive</td><td><strong>The door opened.</strong></td></tr><tr><td>two objects</td><td><strong>I gave her a book.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

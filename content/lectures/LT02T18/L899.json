@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T18:L899",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Negative words and double negation",
+    "es": "Palabras negativas y doble negación",
+    "it": "Parole negative e doppia negazione",
+    "fr": "Mots négatifs et double négation",
+    "de": "Negationswörter und doppelte Verneinung",
+    "ru": "Отрицательные слова и двойное отрицание",
+    "hu": "Tagadó szavak és kettős tagadás",
+    "pt": "Palavras negativas e dupla negação",
+    "ro": "Cuvinte negative și dubla negație"
+  },
+  "locales": {
+    "en": {
+      "title": "Negative words and double negation",
+      "summary": "Standard English uses one negative word per clause.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Negative words such as no, nobody, nothing and never say that something does not exist or does not happen."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Nobody** came.",
+                "I saw **nothing**.",
+                "She has **never** been there."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Standard English uses one negative word per clause. Say I saw nothing or I didn't see anything, but not I didn't see nothing. A double negative is used in some dialects, but it is not standard."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Standard</th><th>Not standard</th></tr></thead><tbody><tr><td><strong>I saw nothing.</strong></td><td>I didn't see nothing.</td></tr><tr><td><strong>I didn't see anything.</strong></td><td>He never said nothing.</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T16:L889",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Position of adverbs",
+    "es": "La posición de los adverbios",
+    "it": "La posizione degli avverbi",
+    "fr": "La place des adverbes",
+    "de": "Stellung der Adverbien",
+    "ru": "Место наречий в предложении",
+    "hu": "A határozószók helye",
+    "pt": "A posição dos advérbios",
+    "ro": "Poziția adverbelor"
+  },
+  "locales": {
+    "en": {
+      "title": "Position of adverbs",
+      "summary": "The place of an adverb in a sentence depends on its kind.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "An adverb can stand in different places in a sentence, depending on its kind."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "She **quickly** left. She left **quickly**.",
+                "I **often** read.",
+                "**Yesterday** we met."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adverbs of manner usually follow the verb or the object. Adverbs of frequency stand before the main verb. Adverbs of time stand at the end or at the start. Do not put an adverb between a verb and its object."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Kind</th><th>Usual place</th><th>Example</th></tr></thead><tbody><tr><td>manner</td><td>after the verb or object</td><td><strong>He speaks slowly.</strong></td></tr><tr><td>frequency</td><td>before the main verb</td><td><strong>He often speaks.</strong></td></tr><tr><td>time</td><td>end or start</td><td><strong>He spoke yesterday.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

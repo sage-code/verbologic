@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T16:L887",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Adverbs of frequency",
+    "es": "Adverbios de frecuencia",
+    "it": "Avverbi di frequenza",
+    "fr": "Adverbes de fréquence",
+    "de": "Häufigkeitsadverbien",
+    "ru": "Наречия частоты",
+    "hu": "Gyakoriságot kifejező határozók",
+    "pt": "Advérbios de frequência",
+    "ro": "Adverbe de frecvență"
+  },
+  "locales": {
+    "en": {
+      "title": "Adverbs of frequency",
+      "summary": "Adverbs of frequency tell how often something happens.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adverbs of frequency tell how often something happens: always, usually, often, sometimes, rarely, never."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **always** drink tea.",
+                "He **never** eats meat.",
+                "We **sometimes** go out."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "They go before the main verb but after be. Sometimes, usually and often can also begin a sentence. Never already means not ever, so do not add not."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Position</th><th>Example</th></tr></thead><tbody><tr><td>before the main verb</td><td><strong>She often walks.</strong></td></tr><tr><td>after be</td><td><strong>He is always late.</strong></td></tr><tr><td>with an auxiliary</td><td><strong>I have never been there.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

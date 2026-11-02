@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T06:L820",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Titles and forms of address",
+    "es": "Títulos y formas de tratamiento",
+    "it": "Titoli e forme di cortesia",
+    "fr": "Titres et formules d'adresse",
+    "de": "Titel und Anredeformen",
+    "ru": "Титулы и формы обращения",
+    "hu": "Címek és megszólítási formák",
+    "pt": "Títulos e formas de tratamento",
+    "ro": "Titluri și forme de adresare"
+  },
+  "locales": {
+    "en": {
+      "title": "Titles and forms of address",
+      "summary": "Titles and names are the main way to address someone politely.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Forms of address are the words we use to speak to a person: names, titles and family words."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Mr Brown**, **Ms Clark**",
+                "**Dr Smith**",
+                "**Mum**, **Grandpa**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use Mr, Ms, Mrs, Miss or Dr with a surname. Among friends, and in most workplaces, people use first names. Sir and madam are used in service situations. Ms does not show whether a woman is married."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Use</th></tr></thead><tbody><tr><td><strong>Mr, Ms + surname</strong></td><td>polite, at a first meeting</td></tr><tr><td><strong>first name</strong></td><td>friends, many workplaces</td></tr><tr><td><strong>sir, madam</strong></td><td>shops, hotels, service</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

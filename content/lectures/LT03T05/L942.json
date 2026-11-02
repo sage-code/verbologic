@@ -1,0 +1,81 @@
+{
+  "entity_id": "LT03T05:L942",
+  "order": 1,
+  "minutes": 2,
+  "terms": {
+    "en": "Titles and forms of address",
+    "es": "Títulos y formas de tratamiento",
+    "it": "Titoli e forme di cortesia",
+    "fr": "Titres et formules d'adresse",
+    "de": "Titel und Anredeformen",
+    "ru": "Титулы и формы обращения",
+    "hu": "Címek és megszólítási formák",
+    "pt": "Títulos e formas de tratamento",
+    "ro": "Titluri și forme de adresare"
+  },
+  "locales": {
+    "en": {
+      "title": "Titles and forms of address",
+      "summary": "How to address people in speech and in writing.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The right form of address shows respect. Here is a short guide, in a note from a school secretary.",
+                "Dear parents, please address the teachers as Mr Green, Ms Hall or Dr Patel. Do not use the first name unless the teacher asks you to. In an e-mail, begin with Dear Mr Green and end with Yours sincerely. Thank you."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. A title goes with a surname.** Say Mr Green or Dr Patel, never Mr John. In British writing the full stop is usually left out: Mr, Mrs, Dr. In American writing it is kept: Mr., Mrs., Dr. See Introduction to Grammar: Personal pronouns and address."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Title</th><th>Use</th></tr></thead><tbody><tr><td><strong>Mr</strong></td><td>a man</td></tr><tr><td><strong>Ms</strong></td><td>a woman, married or not</td></tr><tr><td><strong>Dr</strong></td><td>a doctor or a PhD</td></tr><tr><td><strong>Professor</strong></td><td>a university professor</td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Formal letters have a fixed pattern.** Begin with Dear and a title with the surname. End with Yours sincerely when you know the name, and Yours faithfully when you do not. See Introduction to Grammar: Word formation and register."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Beginning</th><th>Ending</th></tr></thead><tbody><tr><td><strong>Dear Mr Green,</strong></td><td><strong>Yours sincerely,</strong></td></tr><tr><td><strong>Dear Sir or Madam,</strong></td><td><strong>Yours faithfully,</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**Ms** is a safe choice: it does not show whether a woman is married. **Mrs** is for married women and **Miss** for unmarried women.",
+                "**Sir** and **madam** are used in shops, hotels and restaurants.",
+                "In American e-mail, **Hi Mr Green** is not usual; use **Dear Mr Green** in formal messages."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Many workplaces use first names quickly, even with managers. If you are not sure, begin with the title and wait to be invited to use the first name."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

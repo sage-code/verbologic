@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T18:L902",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Questions about the subject",
+    "es": "Preguntas sobre el sujeto",
+    "it": "Domande sul soggetto",
+    "fr": "Questions sur le sujet",
+    "de": "Fragen nach dem Subjekt",
+    "ru": "Вопросы к подлежащему",
+    "hu": "Kérdések az alanyra",
+    "pt": "Perguntas sobre o sujeito",
+    "ro": "Întrebări despre subiect"
+  },
+  "locales": {
+    "en": {
+      "title": "Questions about the subject",
+      "summary": "When the question word is the subject, the word order does not change.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "When the question word is the subject of the sentence, there is no auxiliary and the word order does not change."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Who** called?",
+                "**What** happened?",
+                "**Which** train leaves first?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Compare Who called you? (who is the subject) with Who did you call? (who is the object). Only the object question needs do."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Subject question</th><th>Object question</th></tr></thead><tbody><tr><td><strong>Who called you?</strong></td><td><strong>Who did you call?</strong></td></tr><tr><td><strong>What fell?</strong></td><td><strong>What did you drop?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

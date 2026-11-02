@@ -1,0 +1,134 @@
+{
+  "entity_id": "LT05T04:L975",
+  "order": 0,
+  "minutes": 2,
+  "terms": {
+    "en": "Buses and trains",
+    "es": "Autobuses y trenes",
+    "it": "Autobus e treni",
+    "fr": "Bus et trains",
+    "de": "Busse und Züge",
+    "ru": "Автобусы и поезда",
+    "hu": "Buszok és vonatok",
+    "pt": "Ônibus e trens",
+    "ro": "Autobuze și trenuri"
+  },
+  "locales": {
+    "en": {
+      "title": "Buses and trains",
+      "summary": "Public transport: asking about services, platforms and changes, and understanding announcements.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "About this lesson",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Buses and trains are the main way of travelling in many English-speaking cities. In this lesson you will ask about times and platforms, understand announcements and talk about delays."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A traveller is at Birmingham New Street station, planning a journey to Leeds."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Traveller",
+                  "text": "Excuse me, which platform does the train to Leeds leave from?"
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "Platform four. It leaves at ten past nine."
+                },
+                {
+                  "speaker": "Traveller",
+                  "text": "Do I need to change anywhere?"
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "No, it is a direct train. It arrives in Leeds at ten forty."
+                },
+                {
+                  "speaker": "Traveller",
+                  "text": "Is it on time?"
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "At the moment, yes, but I would listen for announcements. There are sometimes delays on this line."
+                },
+                {
+                  "speaker": "Announcement",
+                  "text": "The nine-ten service to Leeds is delayed by about fifteen minutes. We apologise for the inconvenience."
+                },
+                {
+                  "speaker": "Traveller",
+                  "text": "Thank you. I will wait on the platform."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. The present simple gives timetables.** Even for future events, a scheduled departure or arrival uses the present simple. See Introduction to Grammar: Future and other tenses."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Event</th><th>Example</th></tr></thead><tbody><tr><td>departure</td><td><strong>The train leaves at 9:10.</strong></td></tr><tr><td>arrival</td><td><strong>It arrives in Leeds at 10:40.</strong></td></tr><tr><td>question</td><td><strong>What time does the bus leave?</strong></td></tr><tr><td>negative</td><td><strong>The bus doesn't stop here.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Need to, have to and must express obligation.** Need to and have to describe what the situation requires; must is stronger and more personal. See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Phrase</th><th>Example</th></tr></thead><tbody><tr><td><strong>need to</strong></td><td><strong>Do I need to change?</strong></td></tr><tr><td><strong>have to</strong></td><td><strong>You have to validate your ticket.</strong></td></tr><tr><td><strong>must</strong></td><td><strong>You must not smoke on the platform.</strong></td></tr><tr><td><strong>don't have to</strong></td><td><strong>You don't have to book a seat.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "A platform is where you wait for and board a train.",
+                "Single or one-way means a journey in one direction; return or round trip means there and back.",
+                "Delayed means later than planned; cancelled means it will not run.",
+                "On time, late and early are the common words for punctuality."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Culture note",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "On many British trains you must keep your ticket until you leave the station, because inspectors may check it. Announcements are made in a formal, polite style, often beginning with the words Ladies and gentlemen or We apologise for."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

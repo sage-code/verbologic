@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T19:L910",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Clauses of condition",
+    "es": "Oraciones condicionales",
+    "it": "Proposizioni condizionali",
+    "fr": "Propositions conditionnelles",
+    "de": "Konditionalsätze",
+    "ru": "Условные придаточные",
+    "hu": "Feltételes mellékmondatok",
+    "pt": "Orações condicionais",
+    "ro": "Propoziții condiționale"
+  },
+  "locales": {
+    "en": {
+      "title": "Clauses of condition",
+      "summary": "A clause of condition begins with if or unless.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A clause of condition says when something will happen or would happen. It begins with if or unless."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**If it rains**, we will stay.",
+                "**Unless you hurry**, you will be late.",
+                "**If I were you**, I would go."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Real conditions use the present in the if clause and will in the result. Unreal present conditions use the past in the if clause and would in the result. Unless means if not."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Type</th><th>If clause</th><th>Result</th></tr></thead><tbody><tr><td>real</td><td><strong>If you study,</strong></td><td><strong>you will pass.</strong></td></tr><tr><td>unreal</td><td><strong>If I won,</strong></td><td><strong>I would travel.</strong></td></tr><tr><td>with unless</td><td><strong>Unless you hurry,</strong></td><td><strong>you will miss it.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

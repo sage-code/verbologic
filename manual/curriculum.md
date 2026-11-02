@@ -31,6 +31,8 @@ Dictionary and Stories are graded **by chapter**: two chapters per level, so a l
 
 **Principle: grammar is described once, as topics of one chapter (LT02), and learned by reading.** LT03 to LT10 are articles about people, home, town, work, culture, places, history and science. Each article explains the grammar of the sentences it shows in short numbered **grammar notes**, with a link to the LT02 topic. No topic is a list of words or phrases.
 
+**Chapter, topic, item.** A topic holds 4 to 10 items; an item is a small lesson on one idea, 1 to 3 reading pages, with a few very short examples. Items are generic: the same list and names for every language (a shared item has no `target` in its manifest), and each language writes its own article text for the item, natively and specific to that language. Item names exist in 9 languages with a title clip each. LT02 has 145 items, LT03 to LT10 have 4 to 5 items per topic.
+
 Rules for every lecture topic: `layout: article`, `mode: directional`, a `level`; **every item is an article** (headers, bullet lists and tables). A chapter is the same for every language; a language without a feature (for example noun gender in English) explains how it does that job instead. Chapters LT07 to LT10 cover the home country and the other countries where the language is spoken, including how it spread (empire, colonies, migration); subjects only one country has are extra articles inside the generic topic.
 
 | Chapter | Topics (in order) |

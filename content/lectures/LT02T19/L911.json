@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T19:L911",
+  "order": 6,
+  "minutes": 1,
+  "terms": {
+    "en": "Contrast and concession",
+    "es": "Contraste y concesión",
+    "it": "Contrasto e concessione",
+    "fr": "Opposition et concession",
+    "de": "Gegensatz und Einräumung",
+    "ru": "Противопоставление и уступка",
+    "hu": "Ellentét és engedmény",
+    "pt": "Contraste e concessão",
+    "ro": "Contrast și concesie"
+  },
+  "locales": {
+    "en": {
+      "title": "Contrast and concession",
+      "summary": "Contrast shows a difference; concession admits one thing and states another.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Contrast shows that two things differ. Concession admits one thing and then says another."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I like tea, **but** she likes coffee.",
+                "**Although** it was cold, we swam.",
+                "He is rich, **yet** unhappy."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Although, though and even though are followed by a clause. Despite and in spite of are followed by a noun or an -ing form. While and whereas show a contrast between two facts."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>although + clause</strong></td><td><strong>Although it rained, we went.</strong></td></tr><tr><td><strong>despite + noun</strong></td><td><strong>Despite the rain, we went.</strong></td></tr><tr><td><strong>whereas</strong></td><td><strong>He is tall, whereas she is short.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

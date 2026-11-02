@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T17:L891",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Prepositions of place",
+    "es": "Preposiciones de lugar",
+    "it": "Preposizioni di luogo",
+    "fr": "Prépositions de lieu",
+    "de": "Präpositionen des Ortes",
+    "ru": "Предлоги места",
+    "hu": "Helyhatározói viszonyszók",
+    "pt": "Preposições de lugar",
+    "ro": "Prepoziții de loc"
+  },
+  "locales": {
+    "en": {
+      "title": "Prepositions of place",
+      "summary": "Prepositions of place tell where something is.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prepositions of place tell where something is."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "The cat is **under** the chair.",
+                "The shop is **next to** the bank.",
+                "She lives **in** London."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In is for inside a space, on is for a surface, and at is for a point. Use in with cities and countries, and at with an address or a place of activity."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td><strong>in</strong></td><td>inside</td><td><strong>in the room</strong></td></tr><tr><td><strong>on</strong></td><td>on a surface</td><td><strong>on the wall</strong></td></tr><tr><td><strong>at</strong></td><td>a point</td><td><strong>at the station</strong></td></tr><tr><td><strong>between, behind</strong></td><td>relation</td><td><strong>between the shops</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

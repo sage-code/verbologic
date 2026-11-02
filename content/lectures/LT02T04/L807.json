@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T04:L807",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Demonstratives: this and that",
+    "es": "Los demostrativos: este y aquel",
+    "it": "I dimostrativi: questo e quello",
+    "fr": "Les démonstratifs : celui-ci et celui-là",
+    "de": "Demonstrativa: dieser und jener",
+    "ru": "Указательные слова: этот и тот",
+    "hu": "A mutató szavak: ez és az",
+    "pt": "Os demonstrativos: este e aquele",
+    "ro": "Demonstrativele: acesta și acela"
+  },
+  "locales": {
+    "en": {
+      "title": "Demonstratives: this and that",
+      "summary": "This and these point to what is near, that and those to what is far.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Demonstratives point to things. **This** and **these** point to what is near, and **that** and **those** point to what is far."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**This** is my seat.",
+                "**That** house is old.",
+                "**Those** apples look good."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English demonstratives change for number only: this and these, that and those. They can stand before a noun or on their own."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th></th><th>Near</th><th>Far</th></tr></thead><tbody><tr><td>singular</td><td><strong>this</strong></td><td><strong>that</strong></td></tr><tr><td>plural</td><td><strong>these</strong></td><td><strong>those</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

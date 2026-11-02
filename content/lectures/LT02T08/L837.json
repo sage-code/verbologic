@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T08:L837",
+  "order": 6,
+  "minutes": 1,
+  "terms": {
+    "en": "Prices and measures",
+    "es": "Precios y medidas",
+    "it": "Prezzi e misure",
+    "fr": "Prix et mesures",
+    "de": "Preise und Maße",
+    "ru": "Цены и меры",
+    "hu": "Árak és mértékegységek",
+    "pt": "Preços e medidas",
+    "ro": "Prețuri și măsuri"
+  },
+  "locales": {
+    "en": {
+      "title": "Prices and measures",
+      "summary": "We say a price with its currency and a measure with its unit.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We say prices with the number and the name of the currency, and measures with the number and the unit."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "It costs **five pounds**.",
+                "He is **one metre eighty** tall.",
+                "The bag weighs **two kilos**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Say a price as pounds and pence, or dollars and cents, and in everyday speech leave out the unit word: three fifty. Units take -s in the plural, but a measurement used as an adjective does not: a ten-minute walk."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Written</th><th>Say</th></tr></thead><tbody><tr><td><strong>£5.50</strong></td><td>five pounds fifty</td></tr><tr><td><strong>$3.99</strong></td><td>three ninety-nine</td></tr><tr><td><strong>1.80 m</strong></td><td>one metre eighty</td></tr><tr><td><strong>2 kg</strong></td><td>two kilos</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

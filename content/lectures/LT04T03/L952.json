@@ -1,0 +1,109 @@
+{
+  "entity_id": "LT04T03:L952",
+  "order": 0,
+  "minutes": 2,
+  "terms": {
+    "en": "Breakfast",
+    "es": "El desayuno",
+    "it": "La colazione",
+    "fr": "Le petit-déjeuner",
+    "de": "Das Frühstück",
+    "ru": "Завтрак",
+    "hu": "A reggeli",
+    "pt": "O café da manhã",
+    "ro": "Micul dejun"
+  },
+  "locales": {
+    "en": {
+      "title": "Breakfast",
+      "summary": "What people eat and drink in the morning, and how to order or offer a meal.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Sophie and her husband are having breakfast on a Saturday."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Sophie",
+                  "text": "What would you like for breakfast?"
+                },
+                {
+                  "speaker": "Mark",
+                  "text": "Two eggs and some toast, please. Is there any marmalade?"
+                },
+                {
+                  "speaker": "Sophie",
+                  "text": "Yes, it is in the cupboard. Would you like tea or coffee?"
+                },
+                {
+                  "speaker": "Mark",
+                  "text": "Tea, please, with a little milk."
+                },
+                {
+                  "speaker": "Sophie",
+                  "text": "I will make a pot. Do you want some orange juice too?"
+                },
+                {
+                  "speaker": "Mark",
+                  "text": "No, thanks. I have enough."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Some and any with food.** Use some in positive sentences and offers, and any in questions and negatives. Food words like milk and toast are uncountable. See Introduction to Grammar: Articles and determiners."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Type</th><th>Example</th></tr></thead><tbody><tr><td>positive</td><td><strong>There is some toast.</strong></td></tr><tr><td>question</td><td><strong>Is there any marmalade?</strong></td></tr><tr><td>negative</td><td><strong>There isn't any milk.</strong></td></tr><tr><td>offer</td><td><strong>Would you like some tea?</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Would like is polite.** It states a wish without sounding rude. Use I would like... to order and Would you like...? to offer. See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Function</th><th>Example</th></tr></thead><tbody><tr><td>order</td><td><strong>I would like two eggs, please.</strong></td></tr><tr><td>offer</td><td><strong>Would you like some coffee?</strong></td></tr><tr><td>accept</td><td><strong>Yes, please.</strong></td></tr><tr><td>refuse</td><td><strong>No, thank you.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "A **full English breakfast** has eggs, bacon, sausages, beans, tomatoes and toast.",
+                "**Cereal**, **porridge** and **toast** are lighter choices.",
+                "**Marmalade** is made from oranges; **jam** is made from other fruit."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In the United States a typical breakfast includes pancakes, eggs or cereal with coffee. Many working people have just a coffee and something quick."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

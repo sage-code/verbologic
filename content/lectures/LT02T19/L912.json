@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T19:L912",
+  "order": 7,
+  "minutes": 1,
+  "terms": {
+    "en": "Reported speech",
+    "es": "El estilo indirecto",
+    "it": "Il discorso indiretto",
+    "fr": "Le discours rapporté",
+    "de": "Indirekte Rede",
+    "ru": "Косвенная речь",
+    "hu": "A függő beszéd",
+    "pt": "O discurso indireto",
+    "ro": "Vorbirea indirectă"
+  },
+  "locales": {
+    "en": {
+      "title": "Reported speech",
+      "summary": "Reported speech tells what someone said without the exact words.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Reported speech tells what someone said without using their exact words."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "She said that she **was tired**.",
+                "He asked if I **liked** tea.",
+                "They told us to **wait**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "After a past reporting verb, the tense usually moves one step back, and pronouns and time words change: today becomes that day and here becomes there. Questions are reported with if or a question word and statement order."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Direct</th><th>Reported</th></tr></thead><tbody><tr><td><strong>\"I am tired.\"</strong></td><td><strong>She said she was tired.</strong></td></tr><tr><td><strong>\"Do you like tea?\"</strong></td><td><strong>He asked if I liked tea.</strong></td></tr><tr><td><strong>\"Wait here.\"</strong></td><td><strong>He told us to wait there.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

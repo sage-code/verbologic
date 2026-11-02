@@ -1,0 +1,109 @@
+{
+  "entity_id": "LT03T04:L937",
+  "order": 0,
+  "minutes": 2,
+  "terms": {
+    "en": "Making friends",
+    "es": "Hacer amigos",
+    "it": "Fare amicizia",
+    "fr": "Se faire des amis",
+    "de": "Freunde finden",
+    "ru": "Как заводить друзей",
+    "hu": "Barátkozás",
+    "pt": "Fazer amigos",
+    "ro": "Să ne facem prieteni"
+  },
+  "locales": {
+    "en": {
+      "title": "Making friends",
+      "summary": "How to start a conversation and get to know a new person.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Making friends begins with small talk: simple questions about where a person lives, works and studies. Two neighbours, Dan and Priya, meet on the stairs."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Dan",
+                  "text": "Hi, I'm Dan. I live in the flat next to yours."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "Hello, Dan. I'm Priya. I moved in last week."
+                },
+                {
+                  "speaker": "Dan",
+                  "text": "Welcome! Where do you work?"
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "I work at a bank in the city centre. And you?"
+                },
+                {
+                  "speaker": "Dan",
+                  "text": "I'm a teacher. Do you like running? A few of us run in the park on Saturdays."
+                },
+                {
+                  "speaker": "Priya",
+                  "text": "I love running. I would like to join you."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. The simple present gives facts about your life.** Use it for where you live, work and study: I live here, she works at a bank. For he, she and it, add -s. Questions use do or does. See Introduction to Grammar: Present tense, being and having."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>statement</td><td><strong>I live in London.</strong></td></tr><tr><td>third person</td><td><strong>She works at a bank.</strong></td></tr><tr><td>question</td><td><strong>Where do you work?</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Like and love take a noun or the -ing form.** Say I like music or I like running. After would like, use to and the base form: I would like to join you. See Introduction to Grammar: Modal verbs and non-finite forms."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>like + noun</td><td><strong>I like tea.</strong></td></tr><tr><td>like + -ing</td><td><strong>I like running.</strong></td></tr><tr><td>would like + to</td><td><strong>I would like to join you.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**Moved in** means started to live in a new home. **Moved out** means left it.",
+                "A good second question is **And you?** or **What about you?**",
+                "People often ask about **hobbies**, **work** or **the weekend** when they meet."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In the United Kingdom, people often begin a conversation with the weather. It is a neutral and friendly topic that does not need a personal answer."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

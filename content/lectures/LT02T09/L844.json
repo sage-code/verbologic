@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T09:L844",
+  "order": 6,
+  "minutes": 1,
+  "terms": {
+    "en": "Auxiliary and main verbs",
+    "es": "Verbos auxiliares y principales",
+    "it": "Verbi ausiliari e verbi principali",
+    "fr": "Verbes auxiliaires et verbes principaux",
+    "de": "Hilfsverben und Vollverben",
+    "ru": "Вспомогательные и основные глаголы",
+    "hu": "Segédigék és főigék",
+    "pt": "Verbos auxiliares e principais",
+    "ro": "Verbe auxiliare și principale"
+  },
+  "locales": {
+    "en": {
+      "title": "Auxiliary and main verbs",
+      "summary": "An auxiliary verb helps the main verb to form tenses, questions and negatives.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A main verb carries the meaning. An auxiliary verb helps the main verb to form a tense, a question or a negative."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "She **is** reading.",
+                "We **have** finished.",
+                "**Do** you know?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The auxiliary verbs are be, have and do. The modal verbs, such as can, must and will, are auxiliaries too. The auxiliary comes first and the main verb follows."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Auxiliary</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td><strong>be</strong></td><td>continuous, passive</td><td><strong>He is working.</strong></td></tr><tr><td><strong>have</strong></td><td>perfect</td><td><strong>She has left.</strong></td></tr><tr><td><strong>do</strong></td><td>questions, negatives</td><td><strong>Do you know? I don't know.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

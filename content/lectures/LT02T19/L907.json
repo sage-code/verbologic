@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T19:L907",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Relative clauses",
+    "es": "Oraciones de relativo",
+    "it": "Proposizioni relative",
+    "fr": "Propositions relatives",
+    "de": "Relativsätze",
+    "ru": "Относительные придаточные",
+    "hu": "Vonatkozó mellékmondatok",
+    "pt": "Orações relativas",
+    "ro": "Propoziții relative"
+  },
+  "locales": {
+    "en": {
+      "title": "Relative clauses",
+      "summary": "A relative clause adds information about a noun.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A relative clause adds information about a noun. It begins with who, which, that, whose, where or when."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "The man **who lives next door** is a doctor.",
+                "The book **that I read** was long.",
+                "This is the town **where I was born**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A defining clause says which one and has no commas. A non-defining clause adds extra information and is set off by commas: My brother, who lives in Leeds, is a nurse."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Type</th><th>Example</th></tr></thead><tbody><tr><td>defining</td><td><strong>The girl who sings is my sister.</strong></td></tr><tr><td>non-defining</td><td><strong>My sister, who sings, is here.</strong></td></tr><tr><td>place</td><td><strong>the house where we live</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T11:L857",
+  "order": 6,
+  "minutes": 1,
+  "terms": {
+    "en": "Time expressions for the past",
+    "es": "Expresiones de tiempo para el pasado",
+    "it": "Espressioni di tempo per il passato",
+    "fr": "Expressions de temps pour le passé",
+    "de": "Zeitangaben für die Vergangenheit",
+    "ru": "Выражения времени для прошедшего",
+    "hu": "Időhatározók a múlthoz",
+    "pt": "Expressões de tempo para o passado",
+    "ro": "Expresii de timp pentru trecut"
+  },
+  "locales": {
+    "en": {
+      "title": "Time expressions for the past",
+      "summary": "Time expressions place an action in the past.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Time expressions place an action in the past: yesterday, last week, ago and in 2010."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**yesterday**, **last night**",
+                "**three days ago**",
+                "**in 2010**, **on Monday**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use the simple past with finished times. Use ago after a length of time. Use for and since with the present perfect, and just, already and yet with it too."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Word</th><th>Tense</th><th>Example</th></tr></thead><tbody><tr><td><strong>ago</strong></td><td>simple past</td><td><strong>She left an hour ago.</strong></td></tr><tr><td><strong>for</strong></td><td>present perfect</td><td><strong>I have lived here for years.</strong></td></tr><tr><td><strong>since</strong></td><td>present perfect</td><td><strong>He has worked here since May.</strong></td></tr><tr><td><strong>just, already, yet</strong></td><td>present perfect</td><td><strong>We have just arrived.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

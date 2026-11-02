@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T14:L874",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Impersonal constructions",
+    "es": "Construcciones impersonales",
+    "it": "Costruzioni impersonali",
+    "fr": "Constructions impersonnelles",
+    "de": "Unpersönliche Konstruktionen",
+    "ru": "Безличные конструкции",
+    "hu": "Személytelen szerkezetek",
+    "pt": "Construções impessoais",
+    "ro": "Construcții impersonale"
+  },
+  "locales": {
+    "en": {
+      "title": "Impersonal constructions",
+      "summary": "An impersonal construction has a dummy subject such as it or there.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "An impersonal construction has no real subject. English uses it, there or you."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**It** is raining.",
+                "**It** is said that he is rich.",
+                "**There** is no time."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "It is used for weather, time and judgements, and there for existence. A common pattern is it, be, an adjective and to: It is important to rest."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>weather</td><td><strong>It is snowing.</strong></td></tr><tr><td>time</td><td><strong>It is late.</strong></td></tr><tr><td>judgement</td><td><strong>It is easy to forget.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

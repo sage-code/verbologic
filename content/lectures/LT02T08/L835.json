@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T08:L835",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Days, months and dates",
+    "es": "Días, meses y fechas",
+    "it": "Giorni, mesi e date",
+    "fr": "Jours, mois et dates",
+    "de": "Tage, Monate und Daten",
+    "ru": "Дни, месяцы и даты",
+    "hu": "Napok, hónapok és dátumok",
+    "pt": "Dias, meses e datas",
+    "ro": "Zilele, lunile și datele"
+  },
+  "locales": {
+    "en": {
+      "title": "Days, months and dates",
+      "summary": "Days and months begin with a capital letter and use on and in.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The days of the week and the months of the year are proper nouns, and they begin with a capital letter."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "on **Monday**",
+                "in **April**",
+                "on **the fifth of May**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use on with days and dates, in with months and years, and at with clock times. British English writes the day before the month, and American English writes the month first."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td><strong>on</strong></td><td>days and dates</td><td><strong>on Friday, on 5 May</strong></td></tr><tr><td><strong>in</strong></td><td>months and years</td><td><strong>in June, in 2024</strong></td></tr><tr><td><strong>at</strong></td><td>clock times</td><td><strong>at nine</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

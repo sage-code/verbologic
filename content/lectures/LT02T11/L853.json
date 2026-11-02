@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T11:L853",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "The present perfect",
+    "es": "El pretérito perfecto",
+    "it": "Il passato prossimo",
+    "fr": "Le passé composé",
+    "de": "Das Perfekt",
+    "ru": "Настоящее совершённое время",
+    "hu": "A befejezett jelen",
+    "pt": "O pretérito perfeito composto",
+    "ro": "Perfectul prezent"
+  },
+  "locales": {
+    "en": {
+      "title": "The present perfect",
+      "summary": "The present perfect links the past with the present.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The present perfect links the past with the present. It tells about experience, change or a result that matters now."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **have lost** my keys.",
+                "She **has visited** Rome twice.",
+                "We **have lived** here for ten years."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Form it with have or has and the past participle. Do not use it with a finished time such as yesterday; use the simple past. Use for and since to give the duration."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>experience</td><td><strong>Have you ever been to Spain?</strong></td></tr><tr><td>result now</td><td><strong>He has broken his arm.</strong></td></tr><tr><td>duration</td><td><strong>I have known her since 2015.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T11:L858",
+  "order": 7,
+  "minutes": 1,
+  "terms": {
+    "en": "Telling a story in the past",
+    "es": "Contar una historia en pasado",
+    "it": "Raccontare una storia al passato",
+    "fr": "Raconter une histoire au passé",
+    "de": "Eine Geschichte in der Vergangenheit erzählen",
+    "ru": "Рассказ о событиях в прошлом",
+    "hu": "Történet elmesélése múlt időben",
+    "pt": "Contar uma história no passado",
+    "ro": "A povesti la trecut"
+  },
+  "locales": {
+    "en": {
+      "title": "Telling a story in the past",
+      "summary": "A past story combines the simple past, the past continuous and the past perfect.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A story in the past uses the simple past for the main events, the past continuous for the background and the past perfect for what happened earlier."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "She **opened** the door.",
+                "The rain **was falling**.",
+                "Someone **had left** a note."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Sequence words such as first, then, after that and finally help the reader to follow the events."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tense</th><th>Job</th><th>Example</th></tr></thead><tbody><tr><td>simple past</td><td>main events</td><td><strong>She opened the letter.</strong></td></tr><tr><td>past continuous</td><td>background</td><td><strong>The wind was blowing.</strong></td></tr><tr><td>past perfect</td><td>earlier events</td><td><strong>He had written it a week before.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

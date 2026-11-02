@@ -1,0 +1,109 @@
+{
+  "entity_id": "LT03T02:L932",
+  "order": 3,
+  "minutes": 2,
+  "terms": {
+    "en": "Talking about your family",
+    "es": "Hablar de la familia",
+    "it": "Parlare della propria famiglia",
+    "fr": "Parler de sa famille",
+    "de": "Über die Familie sprechen",
+    "ru": "Рассказ о своей семье",
+    "hu": "Beszélgetés a családról",
+    "pt": "Falar sobre a família",
+    "ro": "Să vorbim despre familie"
+  },
+  "locales": {
+    "en": {
+      "title": "Talking about your family",
+      "summary": "How to ask and answer questions about a family.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Two new colleagues, Laura and Ben, talk about their families during a break."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Laura",
+                  "text": "Do you have any brothers or sisters, Ben?"
+                },
+                {
+                  "speaker": "Ben",
+                  "text": "Yes, I have one sister. She lives in Canada."
+                },
+                {
+                  "speaker": "Laura",
+                  "text": "Is she older or younger than you?"
+                },
+                {
+                  "speaker": "Ben",
+                  "text": "She is two years older. And you?"
+                },
+                {
+                  "speaker": "Laura",
+                  "text": "I am an only child. But I have a lot of cousins."
+                },
+                {
+                  "speaker": "Ben",
+                  "text": "That sounds nice."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Questions with have use do.** To ask about family, use do or does and the base form have: Do you have any brothers? Does she have children? In British English, have got is also common: Have you got any brothers? See Introduction to Grammar: Negation and questions."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody><tr><td><strong>Do you have any children?</strong></td><td><strong>Yes, I have two.</strong></td></tr><tr><td><strong>Does he have a sister?</strong></td><td><strong>No, he doesn't.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Any is for questions and negatives.** Use any in questions and negatives with plural or uncountable nouns, and some in positive sentences. After a number, the noun is plural: one sister, two sisters. See Introduction to Grammar: Nouns, kinds, gender and number."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Kind</th><th>Example</th></tr></thead><tbody><tr><td>question</td><td><strong>Do you have any brothers?</strong></td></tr><tr><td>negative</td><td><strong>I don't have any brothers.</strong></td></tr><tr><td>positive</td><td><strong>I have some cousins.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**An only child** is a child with no brothers or sisters.",
+                "**Siblings** is the neutral word for brothers and sisters together.",
+                "To keep a conversation going, ask a question back: **And you?**"
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In English-speaking countries it is normal to ask about someone's family when you get to know them, but people usually avoid asking about money or age too early."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

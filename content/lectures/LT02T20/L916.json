@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T20:L916",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Subject and verb agreement",
+    "es": "La concordancia entre sujeto y verbo",
+    "it": "L'accordo tra soggetto e verbo",
+    "fr": "L'accord entre sujet et verbe",
+    "de": "Übereinstimmung von Subjekt und Verb",
+    "ru": "Согласование подлежащего и сказуемого",
+    "hu": "Az alany és az állítmány egyeztetése",
+    "pt": "A concordância entre sujeito e verbo",
+    "ro": "Acordul dintre subiect și predicat"
+  },
+  "locales": {
+    "en": {
+      "title": "Subject and verb agreement",
+      "summary": "The verb agrees with its subject in number.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The verb agrees with its subject in number. A singular subject takes a singular verb."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "The **dog barks**.",
+                "The **dogs bark**.",
+                "**Everyone is** here."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In the simple present only the third person singular has an ending: she works. Be has the most forms. The verb agrees with the real subject, not the nearest noun: The box of apples is heavy."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Subject</th><th>Verb</th><th>Example</th></tr></thead><tbody><tr><td>singular</td><td><strong>works, is</strong></td><td><strong>The boy works.</strong></td></tr><tr><td>plural</td><td><strong>work, are</strong></td><td><strong>The boys work.</strong></td></tr><tr><td>everyone, nobody</td><td><strong>is</strong></td><td><strong>Nobody is here.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

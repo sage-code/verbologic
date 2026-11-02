@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T04:L805",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "The indefinite article",
+    "es": "El artículo indefinido",
+    "it": "L'articolo indeterminativo",
+    "fr": "L'article indéfini",
+    "de": "Der unbestimmte Artikel",
+    "ru": "Неопределённый артикль",
+    "hu": "A határozatlan névelő",
+    "pt": "O artigo indefinido",
+    "ro": "Articolul nehotărât"
+  },
+  "locales": {
+    "en": {
+      "title": "The indefinite article",
+      "summary": "A and an introduce one new or unspecific thing.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The indefinite article is **a** or **an**. We use it for one thing that is new or not specific."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I have **a** dog.",
+                "She ate **an** apple.",
+                "He is **an** engineer."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use **a** before a consonant sound and **an** before a vowel sound. The sound matters, not the spelling. There is no plural indefinite article, so use some, or nothing."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Sound</th><th>Article</th><th>Example</th></tr></thead><tbody><tr><td>consonant</td><td><strong>a</strong></td><td><strong>a car, a university</strong></td></tr><tr><td>vowel</td><td><strong>an</strong></td><td><strong>an egg, an hour</strong></td></tr><tr><td>plural</td><td>some or nothing</td><td><strong>some eggs, eggs</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

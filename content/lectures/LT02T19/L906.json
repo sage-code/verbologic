@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T19:L906",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Subordinating conjunctions",
+    "es": "Conjunciones subordinantes",
+    "it": "Congiunzioni subordinanti",
+    "fr": "Conjonctions de subordination",
+    "de": "Unterordnende Konjunktionen",
+    "ru": "Подчинительные союзы",
+    "hu": "Alárendelő kötőszók",
+    "pt": "Conjunções subordinativas",
+    "ro": "Conjuncții subordonatoare"
+  },
+  "locales": {
+    "en": {
+      "title": "Subordinating conjunctions",
+      "summary": "A subordinating conjunction introduces a dependent clause.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A subordinating conjunction introduces a clause that depends on the main clause: because, although, if, when, that."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I left **because** it was late.",
+                "**Although** he was tired, he worked.",
+                "She says **that** it is true."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The dependent clause can come before or after the main clause. When it comes first, a comma separates the two. A dependent clause cannot stand alone."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Meaning</th><th>Conjunction</th><th>Example</th></tr></thead><tbody><tr><td>time</td><td><strong>when, after, before</strong></td><td><strong>Call me when you arrive.</strong></td></tr><tr><td>reason</td><td><strong>because, since</strong></td><td><strong>He left because he was ill.</strong></td></tr><tr><td>condition</td><td><strong>if, unless</strong></td><td><strong>If it rains, we stay.</strong></td></tr><tr><td>contrast</td><td><strong>although, while</strong></td><td><strong>Although it was late, we stayed.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T07:L823",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "Object pronouns",
+    "es": "Los pronombres de complemento",
+    "it": "I pronomi complemento",
+    "fr": "Les pronoms compléments",
+    "de": "Objektpronomen",
+    "ru": "Местоимения в роли дополнения",
+    "hu": "Tárgyi névmások",
+    "pt": "Os pronomes oblíquos",
+    "ro": "Pronumele în complement"
+  },
+  "locales": {
+    "en": {
+      "title": "Object pronouns",
+      "summary": "Object pronouns stand for the person or thing that receives the action.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Object pronouns stand for the person or thing that receives the action. English has me, you, him, her, it, us and them."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "She called **me**.",
+                "I saw **them**.",
+                "Give **him** the book."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use an object pronoun after a verb or a preposition. You and it have the same form as the subject."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Subject</th><th>Object</th></tr></thead><tbody><tr><td><strong>I</strong></td><td><strong>me</strong></td></tr><tr><td><strong>he, she</strong></td><td><strong>him, her</strong></td></tr><tr><td><strong>we, they</strong></td><td><strong>us, them</strong></td></tr><tr><td><strong>who</strong></td><td><strong>whom</strong> (formal)</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

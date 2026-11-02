@@ -1,0 +1,109 @@
+{
+  "entity_id": "LT03T01:L926",
+  "order": 1,
+  "minutes": 2,
+  "terms": {
+    "en": "Formal greetings and farewells",
+    "es": "Saludos y despedidas formales",
+    "it": "Saluti e congedi formali",
+    "fr": "Salutations et adieux formels",
+    "de": "Förmliche Begrüßungen und Verabschiedungen",
+    "ru": "Официальные приветствия и прощания",
+    "hu": "Hivatalos köszönések és búcsúzások",
+    "pt": "Cumprimentos e despedidas formais",
+    "ro": "Saluturi și despărțiri formale"
+  },
+  "locales": {
+    "en": {
+      "title": "Formal greetings and farewells",
+      "summary": "How to greet and say goodbye politely at work or with someone you do not know well.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Formal greetings are used at work, in shops and when you meet someone older or more senior. Mr Brown meets Ms Clark for the first time at a business meeting."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Ms Clark",
+                  "text": "Good morning, Mr Brown. How do you do?"
+                },
+                {
+                  "speaker": "Mr Brown",
+                  "text": "How do you do? It is a pleasure to meet you."
+                },
+                {
+                  "speaker": "Ms Clark",
+                  "text": "Please take a seat. Would you like some coffee?"
+                },
+                {
+                  "speaker": "Mr Brown",
+                  "text": "Yes, please. Thank you."
+                },
+                {
+                  "speaker": "Ms Clark",
+                  "text": "It was a pleasure meeting you. Have a safe journey home."
+                },
+                {
+                  "speaker": "Mr Brown",
+                  "text": "Thank you. Goodbye."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Greetings change with the time of day.** Use good morning until about noon, good afternoon until about six, and good evening after that. Good night is only a farewell, said when someone goes to bed. See Introduction to Grammar: Adverbs."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Time</th><th>Greeting</th><th>Farewell</th></tr></thead><tbody><tr><td>morning</td><td><strong>Good morning.</strong></td><td><strong>Goodbye.</strong></td></tr><tr><td>afternoon</td><td><strong>Good afternoon.</strong></td><td><strong>Have a nice afternoon.</strong></td></tr><tr><td>evening</td><td><strong>Good evening.</strong></td><td><strong>Good night.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Would you like...? is a polite offer.** It uses would, a modal verb, and the base form of like. A polite answer is Yes, please or No, thank you. See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Offer</th><th>Answer</th></tr></thead><tbody><tr><td><strong>Would you like some coffee?</strong></td><td><strong>Yes, please.</strong></td></tr><tr><td><strong>Would you like to sit down?</strong></td><td><strong>No, thank you. I am fine.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**How do you do?** is a greeting, not a real question. The answer repeats the same words.",
+                "Use **Mr**, **Ms** or **Dr** with a surname: **Mr Brown**, not Mr John.",
+                "A formal farewell often wishes the person something: **Have a safe journey.**"
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In the United Kingdom and the United States, people often shake hands when they meet formally for the first time. Many workplaces move to first names after a short time."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T08:L831",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "Cardinal numbers",
+    "es": "Los números cardinales",
+    "it": "I numeri cardinali",
+    "fr": "Les nombres cardinaux",
+    "de": "Grundzahlen",
+    "ru": "Количественные числительные",
+    "hu": "Tőszámnevek",
+    "pt": "Os números cardinais",
+    "ro": "Numerale cardinale"
+  },
+  "locales": {
+    "en": {
+      "title": "Cardinal numbers",
+      "summary": "Cardinal numbers tell how many.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Cardinal numbers tell how many: one, two, three."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**one** cat",
+                "**twelve** students",
+                "**one hundred** pages"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The numbers from 13 to 19 end in -teen, and the tens end in -ty. Compound numbers from 21 to 99 take a hyphen. Hundred, thousand and million do not take -s after a number."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Number</th><th>Written</th></tr></thead><tbody><tr><td><strong>13</strong></td><td>thirteen</td></tr><tr><td><strong>40</strong></td><td>forty</td></tr><tr><td><strong>21</strong></td><td>twenty-one</td></tr><tr><td><strong>2,500</strong></td><td>two thousand five hundred</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

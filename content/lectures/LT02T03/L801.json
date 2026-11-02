@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T03:L801",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Gender of nouns",
+    "es": "El género de los sustantivos",
+    "it": "Il genere dei nomi",
+    "fr": "Le genre des noms",
+    "de": "Das Genus der Substantive",
+    "ru": "Род существительных",
+    "hu": "A főnevek neme",
+    "pt": "O gênero dos substantivos",
+    "ro": "Genul substantivelor"
+  },
+  "locales": {
+    "en": {
+      "title": "Gender of nouns",
+      "summary": "English nouns have no grammatical gender; only the pronouns show natural gender.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Many languages give every noun a grammatical gender. English does not. Its nouns have no gender, and the pronouns he, she and it show natural gender."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "a **boy** — **he**",
+                "a **girl** — **she**",
+                "a **table** — **it**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A few nouns for people have separate male and female forms, such as actor and actress. Today many speakers prefer a single neutral word."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Male</th><th>Female</th><th>Neutral</th></tr></thead><tbody><tr><td><strong>waiter</strong></td><td><strong>waitress</strong></td><td><strong>server</strong></td></tr><tr><td><strong>actor</strong></td><td><strong>actress</strong></td><td><strong>actor</strong></td></tr><tr><td><strong>host</strong></td><td><strong>hostess</strong></td><td><strong>host</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

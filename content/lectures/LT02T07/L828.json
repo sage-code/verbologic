@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T07:L828",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Interrogative pronouns",
+    "es": "Los pronombres interrogativos",
+    "it": "I pronomi interrogativi",
+    "fr": "Les pronoms interrogatifs",
+    "de": "Interrogativpronomen",
+    "ru": "Вопросительные местоимения",
+    "hu": "Kérdő névmások",
+    "pt": "Os pronomes interrogativos",
+    "ro": "Pronumele interogative"
+  },
+  "locales": {
+    "en": {
+      "title": "Interrogative pronouns",
+      "summary": "Interrogative pronouns ask about people, things, choices and owners.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Interrogative pronouns ask about a person or a thing. They are who, whom, whose, what and which."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Who** is calling?",
+                "**What** do you want?",
+                "**Which** is yours?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Who asks about people and what asks about things. Which asks about a choice from a known group. Whom is the formal object form and is mostly written; in speech people say who."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pronoun</th><th>Asks about</th><th>Example</th></tr></thead><tbody><tr><td><strong>who</strong></td><td>people</td><td><strong>Who knows?</strong></td></tr><tr><td><strong>what</strong></td><td>things</td><td><strong>What happened?</strong></td></tr><tr><td><strong>which</strong></td><td>a choice</td><td><strong>Which do you prefer?</strong></td></tr><tr><td><strong>whose</strong></td><td>the owner</td><td><strong>Whose is this?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "entity_id": "LT02T01:L788",
+  "order": 7,
+  "terms": {
+    "en": "Phrases: noun, verb and prepositional",
+    "es": "Sintagmas: nominales, verbales y preposicionales",
+    "it": "Sintagmi: nominali, verbali e preposizionali",
+    "fr": "Syntagmes : nominaux, verbaux et prépositionnels",
+    "de": "Wortgruppen: Nominal-, Verbal- und Präpositionalgruppen",
+    "ru": "Словосочетания: именные, глагольные и предложные",
+    "hu": "Szószerkezetek: névszói, igei és elöljárós",
+    "pt": "Sintagmas: nominais, verbais e preposicionais",
+    "ro": "Grupuri: nominale, verbale și prepoziționale"
+  },
+  "locales": {
+    "en": {
+      "title": "Phrases: noun, verb and prepositional",
+      "summary": "A phrase is a group of words that works as one unit, without a subject and verb of its own.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A phrase is a group of words that works as one unit but has no subject and verb of its own. The main kinds are the noun phrase, the verb phrase and the prepositional phrase."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "the old house (noun phrase)",
+                "has been waiting (verb phrase)",
+                "in the garden (prepositional phrase)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A noun phrase has a noun as its head. A verb phrase has a main verb and its auxiliaries. A prepositional phrase begins with a preposition and ends with a noun phrase. English puts the preposition before the noun."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Phrase</th><th>Head</th><th>In a proposition</th></tr></thead><tbody><tr><td>noun phrase</td><td>noun</td><td><strong>The old house</strong> is empty.</td></tr><tr><td>verb phrase</td><td>verb</td><td>She <strong>has been waiting</strong>.</td></tr><tr><td>prepositional phrase</td><td>preposition</td><td>They sat <strong>in the garden</strong>.</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Grupuri: nominale, verbale și prepoziționale",
+      "summary": "Grupul sintactic este un ansamblu de cuvinte care funcționează ca o unitate, fără verb propriu.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Grupul sintactic este un ansamblu de cuvinte care funcționează ca o unitate, dar nu are verb propriu. Felurile principale sunt grupul nominal, grupul verbal și grupul prepozițional."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "casa veche (grup nominal)",
+                "a așteptat mult (grup verbal)",
+                "în grădină (grup prepozițional)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Grupul nominal are un substantiv ca nucleu, iar adjectivul stă de obicei după el. Grupul verbal are un verb principal și auxiliarele lui. Grupul prepozițional începe cu o prepoziție."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Grup</th><th>Nucleu</th><th>Într-o propoziție</th></tr></thead><tbody><tr><td>nominal</td><td>substantiv</td><td><strong>Casa veche</strong> este goală.</td></tr><tr><td>verbal</td><td>verb</td><td>Ea <strong>a așteptat mult</strong>.</td></tr><tr><td>prepozițional</td><td>prepoziție</td><td>Au stat <strong>în grădină</strong>.</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "de": {
+      "title": "Wortgruppen: Nominal-, Verbal- und Präpositionalgruppen",
+      "summary": "Eine Wortgruppe wirkt wie eine Einheit, hat aber kein eigenes Verb.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Was es ist",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Eine Wortgruppe wirkt wie eine Einheit, hat aber kein eigenes Verb. Die wichtigsten Arten sind die Nominalgruppe, die Verbalgruppe und die Präpositionalgruppe."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "das alte Haus (Nominalgruppe)",
+                "hat lange gewartet (Verbalgruppe)",
+                "im Garten (Präpositionalgruppe)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wie es im Deutschen funktioniert",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Die Nominalgruppe hat ein Nomen als Kern, und das Adjektiv steht davor und wird dekliniert. Die Verbalgruppe hat ein Vollverb und seine Hilfsverben. Die Präpositionalgruppe beginnt mit einer Präposition, die einen bestimmten Kasus verlangt."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Gruppe</th><th>Kern</th><th>Im Satz</th></tr></thead><tbody><tr><td>Nominalgruppe</td><td>Nomen</td><td><strong>Das alte Haus</strong> ist leer.</td></tr><tr><td>Verbalgruppe</td><td>Verb</td><td>Sie <strong>hat lange gewartet</strong>.</td></tr><tr><td>Präpositionalgruppe</td><td>Präposition</td><td>Sie saßen <strong>im Garten</strong>.</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "ru": {
+      "title": "Словосочетания: именные, глагольные и предложные",
+      "summary": "Словосочетание — это сочетание слов, которое не имеет собственной грамматической основы.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Что это",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Словосочетание — это сочетание двух или более слов, связанных по смыслу и грамматически. В нём нет собственной грамматической основы. Основные виды: именное, глагольное и словосочетание с предлогом."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "старый дом (именное)",
+                "долго ждал (глагольное)",
+                "в саду (с предлогом)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Как это работает в русском языке",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "В словосочетании есть главное слово и зависимое. Зависимое слово согласуется с главным или управляется им, то есть принимает нужный падеж: **старый дом**, **ждать друга**, **в саду**. Предлог требует определённого падежа."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Вид</th><th>Главное слово</th><th>В предложении</th></tr></thead><tbody><tr><td>именное</td><td>существительное</td><td><strong>Старый дом</strong> пуст.</td></tr><tr><td>глагольное</td><td>глагол</td><td>Она <strong>долго ждала</strong>.</td></tr><tr><td>с предлогом</td><td>предлог и существительное</td><td>Они сидели <strong>в саду</strong>.</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "it": {
+      "title": "Sintagmi: nominali, verbali e preposizionali",
+      "summary": "Il sintagma è un gruppo di parole che funziona come unità, senza verbo proprio.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Che cos'è",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Un sintagma è un gruppo di parole che funziona come un'unità, ma non ha un verbo proprio. I tipi principali sono il sintagma nominale, il sintagma verbale e il sintagma preposizionale."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "la vecchia casa (sintagma nominale)",
+                "ha aspettato a lungo (sintagma verbale)",
+                "in giardino (sintagma preposizionale)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Come funziona in italiano",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Il sintagma nominale ha un nome come testa, e l'aggettivo può stare prima o dopo. Il sintagma verbale ha un verbo principale e i suoi ausiliari. Il sintagma preposizionale comincia con una preposizione."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Sintagma</th><th>Testa</th><th>In una frase</th></tr></thead><tbody><tr><td>nominale</td><td>nome</td><td><strong>La vecchia casa</strong> è vuota.</td></tr><tr><td>verbale</td><td>verbo</td><td>Lei <strong>ha aspettato a lungo</strong>.</td></tr><tr><td>preposizionale</td><td>preposizione</td><td>Si sono seduti <strong>in giardino</strong>.</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "title": "Sintagmas: nominales, verbales y preposicionales",
+      "summary": "La frase es un grupo de palabras que funciona como unidad, sin verbo propio.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Qué es",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Una frase es un grupo de palabras que funciona como una unidad, pero no tiene verbo propio. Las clases principales son la frase nominal, la frase verbal y la frase preposicional."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "la casa vieja (frase nominal)",
+                "ha esperado mucho (frase verbal)",
+                "en el jardín (frase preposicional)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cómo funciona en español",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "La frase nominal tiene un sustantivo como núcleo, y el adjetivo suele ir después. La frase verbal tiene un verbo principal y sus auxiliares. La frase preposicional empieza con una preposición."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Frase</th><th>Núcleo</th><th>En una oración</th></tr></thead><tbody><tr><td>nominal</td><td>sustantivo</td><td><strong>La casa vieja</strong> está vacía.</td></tr><tr><td>verbal</td><td>verbo</td><td>Ella <strong>ha esperado mucho</strong>.</td></tr><tr><td>preposicional</td><td>preposición</td><td>Se sentaron <strong>en el jardín</strong>.</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "title": "Syntagmes : nominaux, verbaux et prépositionnels",
+      "summary": "Un groupe de mots fonctionne comme une unité, sans verbe propre.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce que c'est",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Un groupe de mots fonctionne comme une unité, mais n'a pas de verbe propre. Les principaux types sont le groupe nominal, le groupe verbal et le groupe prépositionnel."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "la vieille maison (groupe nominal)",
+                "a longtemps attendu (groupe verbal)",
+                "dans le jardin (groupe prépositionnel)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Comment ça marche en français",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Le groupe nominal a un nom comme noyau, et l'adjectif peut se placer avant ou après. Le groupe verbal a un verbe principal et ses auxiliaires. Le groupe prépositionnel commence par une préposition."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Groupe</th><th>Noyau</th><th>Dans une phrase</th></tr></thead><tbody><tr><td>nominal</td><td>nom</td><td><strong>La vieille maison</strong> est vide.</td></tr><tr><td>verbal</td><td>verbe</td><td>Elle <strong>a longtemps attendu</strong>.</td></tr><tr><td>prépositionnel</td><td>préposition</td><td>Ils se sont assis <strong>dans le jardin</strong>.</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "hu": {
+      "title": "Szószerkezetek: névszói, igei és elöljárós",
+      "summary": "A szószerkezet olyan szavak csoportja, amely egységként működik, de nincs saját igéje.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Mi ez",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A szószerkezet olyan szavak csoportja, amely egységként működik, de nincs saját alanya és igéje. A fő fajták a névszói, az igei és az esetragos szerkezet."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "a régi ház (névszói)",
+                "sokáig várt (igei)",
+                "a kertben (esetragos)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hogyan működik magyarul",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A névszói szerkezetben a jelző a főnév előtt áll: **a régi ház**. A magyarban nincsenek elöljárószók, helyettük utószavak és esetragok vannak: **a kertben**, **a kert mellett**. Az igei szerkezetben az ige a bővítményével áll együtt."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Szerkezet</th><th>Fő elem</th><th>Mondatban</th></tr></thead><tbody><tr><td>névszói</td><td>főnév</td><td><strong>A régi ház</strong> üres.</td></tr><tr><td>igei</td><td>ige</td><td><strong>Sokáig várt.</strong></td></tr><tr><td>esetragos</td><td>főnév és rag</td><td>Leültek <strong>a kertben</strong>.</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    },
+    "pt": {
+      "title": "Sintagmas: nominais, verbais e preposicionais",
+      "summary": "O sintagma é um grupo de palavras que funciona como unidade, sem verbo próprio.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "O que é",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Um sintagma é um grupo de palavras que funciona como uma unidade, mas não tem verbo próprio. Os tipos principais são o sintagma nominal, o sintagma verbal e o sintagma preposicional."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "a casa velha (sintagma nominal)",
+                "tem esperado muito (sintagma verbal)",
+                "no jardim (sintagma preposicional)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Como funciona em português",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "O sintagma nominal tem um substantivo como núcleo, e o adjetivo costuma vir depois. O sintagma verbal tem um verbo principal e seus auxiliares. O sintagma preposicional começa com uma preposição."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Sintagma</th><th>Núcleo</th><th>Em uma oração</th></tr></thead><tbody><tr><td>nominal</td><td>substantivo</td><td><strong>A casa velha</strong> está vazia.</td></tr><tr><td>verbal</td><td>verbo</td><td>Ela <strong>tem esperado muito</strong>.</td></tr><tr><td>preposicional</td><td>preposição</td><td>Eles se sentaram <strong>no jardim</strong>.</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

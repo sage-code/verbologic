@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T09:L842",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Verb classes and conjugations",
+    "es": "Clases verbales y conjugaciones",
+    "it": "Classi verbali e coniugazioni",
+    "fr": "Classes verbales et conjugaisons",
+    "de": "Verbklassen und Konjugationen",
+    "ru": "Классы глаголов и спряжения",
+    "hu": "Igeosztályok és ragozás",
+    "pt": "Classes verbais e conjugações",
+    "ro": "Clase și conjugări verbale"
+  },
+  "locales": {
+    "en": {
+      "title": "Verb classes and conjugations",
+      "summary": "English verbs are not sorted into conjugations; they differ in how they form the past.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In some languages verbs fall into groups called conjugations, each with its own endings. English has no conjugations in this sense."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**love, loves, loved**",
+                "**walk, walks, walked**",
+                "**study, studies, studied**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English verbs can be grouped by how they form the past: regular verbs with -ed, and irregular verbs that change a vowel or stay the same. Spelling rules add small changes, such as y becoming ie before -s."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Group</th><th>Example</th></tr></thead><tbody><tr><td>regular -ed</td><td><strong>play, played</strong></td></tr><tr><td>vowel change</td><td><strong>sing, sang, sung</strong></td></tr><tr><td>no change</td><td><strong>put, put, put</strong></td></tr><tr><td>spelling change</td><td><strong>carry, carried</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

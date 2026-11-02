@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T05:L816",
+  "order": 6,
+  "minutes": 1,
+  "terms": {
+    "en": "Adjectives made from other words",
+    "es": "Adjetivos formados a partir de otras palabras",
+    "it": "Aggettivi formati da altre parole",
+    "fr": "Adjectifs formés à partir d'autres mots",
+    "de": "Aus anderen Wörtern gebildete Adjektive",
+    "ru": "Прилагательные, образованные от других слов",
+    "hu": "Más szavakból képzett melléknevek",
+    "pt": "Adjetivos formados a partir de outras palavras",
+    "ro": "Adjective formate din alte cuvinte"
+  },
+  "locales": {
+    "en": {
+      "title": "Adjectives made from other words",
+      "summary": "Many adjectives are built from nouns and verbs with an ending.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Many adjectives are made from nouns or verbs by adding an ending."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**rain** → **rainy**",
+                "**care** → **careful**",
+                "**read** → **readable**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Common endings are -y, -ful, -less, -able, -ous and -ish. The -ing and -ed forms of verbs also work as adjectives, as in a boring film and a broken window."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Ending</th><th>Example</th></tr></thead><tbody><tr><td>-y</td><td><strong>sunny</strong></td></tr><tr><td>-ful, -less</td><td><strong>helpful, helpless</strong></td></tr><tr><td>-able</td><td><strong>comfortable</strong></td></tr><tr><td>-ing, -ed</td><td><strong>boring, bored</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

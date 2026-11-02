@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T11:L855",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Habits in the past",
+    "es": "Hábitos en el pasado",
+    "it": "Abitudini nel passato",
+    "fr": "Habitudes dans le passé",
+    "de": "Gewohnheiten in der Vergangenheit",
+    "ru": "Привычки в прошлом",
+    "hu": "Szokások a múltban",
+    "pt": "Hábitos no passado",
+    "ro": "Obiceiuri în trecut"
+  },
+  "locales": {
+    "en": {
+      "title": "Habits in the past",
+      "summary": "Used to and would describe repeated actions in the past.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "To talk about repeated actions in the past, English uses used to, would, or the simple past with an adverb."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **used to** live in Leeds.",
+                "We **would** play cards every night.",
+                "He **always walked** to school."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Used to describes habits and states that are no longer true. Would describes habits only, not states. Questions and negatives use did and use to."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>used to</td><td><strong>She used to smoke.</strong></td></tr><tr><td>would</td><td><strong>He would visit us on Sundays.</strong></td></tr><tr><td>negative</td><td><strong>I didn't use to like fish.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

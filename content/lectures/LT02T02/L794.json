@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T02:L794",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Words that link",
+    "es": "Palabras que enlazan",
+    "it": "Parole che collegano",
+    "fr": "Mots qui relient",
+    "de": "Wörter, die verbinden",
+    "ru": "Слова, которые связывают",
+    "hu": "Összekötő szavak",
+    "pt": "Palavras que ligam",
+    "ro": "Cuvinte care leagă"
+  },
+  "locales": {
+    "en": {
+      "title": "Words that link",
+      "summary": "Prepositions and conjunctions connect words and parts of a sentence.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prepositions link a noun to the rest of the sentence. Conjunctions join words, phrases or clauses."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "The cat is **on** the table.",
+                "tea **and** coffee",
+                "I stayed **because** it rained."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A preposition comes before its noun. A conjunction either joins equal parts (and, but, or) or adds a dependent part (because, when, if)."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Class</th><th>Examples</th></tr></thead><tbody><tr><td>preposition</td><td><strong>in, on, at, with, for</strong></td></tr><tr><td>coordinating conjunction</td><td><strong>and, but, or, so</strong></td></tr><tr><td>subordinating conjunction</td><td><strong>because, when, if, that</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

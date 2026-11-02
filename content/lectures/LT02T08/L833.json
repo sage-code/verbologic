@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T08:L833",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Fractions and percentages",
+    "es": "Fracciones y porcentajes",
+    "it": "Frazioni e percentuali",
+    "fr": "Fractions et pourcentages",
+    "de": "Brüche und Prozente",
+    "ru": "Дроби и проценты",
+    "hu": "Törtek és százalékok",
+    "pt": "Frações e porcentagens",
+    "ro": "Fracții și procente"
+  },
+  "locales": {
+    "en": {
+      "title": "Fractions and percentages",
+      "summary": "Fractions and percentages show a part of a whole.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Fractions and percentages show a part of a whole."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**a half**, **a quarter**",
+                "**three quarters**",
+                "**fifty percent**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Say a fraction with a cardinal number for the top and an ordinal for the bottom: two thirds. The ordinal takes -s when the top is more than one. A percentage is a number plus the word percent."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Number</th><th>Say</th></tr></thead><tbody><tr><td><strong>1/2</strong></td><td>a half</td></tr><tr><td><strong>3/4</strong></td><td>three quarters</td></tr><tr><td><strong>2/3</strong></td><td>two thirds</td></tr><tr><td><strong>25%</strong></td><td>twenty-five percent</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

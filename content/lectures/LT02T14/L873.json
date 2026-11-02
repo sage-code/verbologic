@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T14:L873",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Reflexive verbs",
+    "es": "Verbos reflexivos",
+    "it": "Verbi riflessivi",
+    "fr": "Verbes pronominaux",
+    "de": "Reflexive Verben",
+    "ru": "Возвратные глаголы",
+    "hu": "Visszaható igék",
+    "pt": "Verbos reflexivos",
+    "ro": "Verbe reflexive"
+  },
+  "locales": {
+    "en": {
+      "title": "Reflexive verbs",
+      "summary": "English uses -self pronouns for reflexive actions, but less often than other languages.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A reflexive verb has an object that is the same as the subject. In English this uses a -self pronoun."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "He **hurt himself**.",
+                "I **taught myself** Spanish.",
+                "Look after **yourself**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English uses fewer reflexive verbs than many languages. Many actions we do to ourselves have no pronoun: I wash, I shave, I get dressed."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>With a pronoun</th><th>Without a pronoun</th></tr></thead><tbody><tr><td><strong>She enjoyed herself.</strong></td><td><strong>She washed.</strong></td></tr><tr><td><strong>He cut himself.</strong></td><td><strong>He shaved.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

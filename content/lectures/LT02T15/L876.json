@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T15:L876",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "Ability and skill",
+    "es": "Capacidad y habilidad",
+    "it": "Capacità e abilità",
+    "fr": "Capacité et aptitude",
+    "de": "Fähigkeit und Können",
+    "ru": "Способность и умение",
+    "hu": "Képesség és tudás",
+    "pt": "Capacidade e habilidade",
+    "ro": "Capacitate și abilitate"
+  },
+  "locales": {
+    "en": {
+      "title": "Ability and skill",
+      "summary": "Can and could express ability; be able to fills the missing forms.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Can and could express ability. Be able to is used where can has no form."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **can** swim.",
+                "She **could** read at four.",
+                "We **will be able to** come."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Can has only two forms, can and could. For the future or the perfect, use be able to. Cannot is written as one word, and the short form is can't."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tense</th><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>present</td><td><strong>can</strong></td><td><strong>I can drive.</strong></td></tr><tr><td>past</td><td><strong>could</strong></td><td><strong>He could ski.</strong></td></tr><tr><td>future</td><td><strong>will be able to</strong></td><td><strong>They will be able to help.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

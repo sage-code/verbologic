@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T02:L792",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Words that act",
+    "es": "Palabras que expresan acción",
+    "it": "Parole che indicano l'azione",
+    "fr": "Mots qui expriment l'action",
+    "de": "Wörter, die handeln",
+    "ru": "Слова, которые обозначают действие",
+    "hu": "Cselekvést kifejező szavak",
+    "pt": "Palavras que expressam ação",
+    "ro": "Cuvinte care exprimă acțiunea"
+  },
+  "locales": {
+    "en": {
+      "title": "Words that act",
+      "summary": "Verbs name actions, states and events, and every sentence needs one.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Verbs name actions, states and events. Every sentence needs a verb."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Birds **fly**.",
+                "The soup **smells** good.",
+                "The rain **stopped**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English verbs change for tense and for the third person singular. Auxiliary verbs such as be, have and do help to form tenses, questions and negatives."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Verb form</th><th>Example</th></tr></thead><tbody><tr><td>base form</td><td><strong>I work.</strong></td></tr><tr><td>third person -s</td><td><strong>She works.</strong></td></tr><tr><td>with an auxiliary</td><td><strong>She is working. Does she work?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

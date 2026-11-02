@@ -1,0 +1,134 @@
+{
+  "entity_id": "LT05T04:L978",
+  "order": 3,
+  "minutes": 2,
+  "terms": {
+    "en": "Tickets and timetables",
+    "es": "Billetes y horarios",
+    "it": "Biglietti e orari",
+    "fr": "Billets et horaires",
+    "de": "Fahrkarten und Fahrpläne",
+    "ru": "Билеты и расписания",
+    "hu": "Jegyek és menetrendek",
+    "pt": "Bilhetes e horários",
+    "ro": "Bilete și orare"
+  },
+  "locales": {
+    "en": {
+      "title": "Tickets and timetables",
+      "summary": "Buying tickets, reading a timetable and choosing the best journey.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "About this lesson",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A timetable gives you times in a compact format, and a ticket office asks you for dates and a choice of fares. In this lesson you will read and ask about both."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A customer is buying a train ticket at Reading station."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Customer",
+                  "text": "Two returns to Oxford, please."
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "For today?"
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "Yes. What time is the next train?"
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "At 14:30, from platform six. There are also trains at 15:00 and 15:30."
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "And when is the last one back?"
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "The last one leaves Oxford at 23:00."
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "Is there a cheaper ticket for travelling after ten?"
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "Yes, an off-peak return is cheaper. It is valid after nine thirty."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. The 24-hour clock appears on timetables.** Say thirteen hundred or one o'clock; in speech people usually use the 12-hour clock with half past, quarter to and so on. See Introduction to Grammar: Numerals."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Timetable</th><th>Spoken</th></tr></thead><tbody><tr><td>14:30</td><td><strong>half past two</strong></td></tr><tr><td>15:45</td><td><strong>quarter to four</strong></td></tr><tr><td>23:00</td><td><strong>eleven o'clock at night</strong></td></tr><tr><td>09:10</td><td><strong>ten past nine</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Next, last and first are ordinal adjectives.** They go before the noun and tell the position in a series. See Introduction to Grammar: Adjectives."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Word</th><th>Example</th></tr></thead><tbody><tr><td><strong>next</strong></td><td><strong>the next train</strong></td></tr><tr><td><strong>last</strong></td><td><strong>the last bus</strong></td></tr><tr><td><strong>first</strong></td><td><strong>the first flight in the morning</strong></td></tr><tr><td><strong>second</strong></td><td><strong>the second platform on the left</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Off-peak tickets are cheaper because they avoid the busy times.",
+                "Valid means that a ticket can be used; expired means it can no longer be used.",
+                "A season ticket allows unlimited travel for a week, a month or a year.",
+                "Check the departure board for platform changes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Culture note",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In Britain buying a ticket online in advance can be much cheaper than buying one on the day. Many people use a railcard, which gives about a third off most fares."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

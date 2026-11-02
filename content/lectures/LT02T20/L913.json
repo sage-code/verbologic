@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T20:L913",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "Basic word order",
+    "es": "El orden básico de las palabras",
+    "it": "L'ordine di base delle parole",
+    "fr": "L'ordre de base des mots",
+    "de": "Die Grundwortstellung",
+    "ru": "Основной порядок слов",
+    "hu": "Az alapvető szórend",
+    "pt": "A ordem básica das palavras",
+    "ro": "Ordinea de bază a cuvintelor"
+  },
+  "locales": {
+    "en": {
+      "title": "Basic word order",
+      "summary": "English has a fixed basic order: subject, verb, object.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English has a fixed basic word order: subject, verb, object."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**The cat** chased **the mouse**.",
+                "**She** reads **books**.",
+                "**We** saw **a film**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Because English has almost no case endings, word order tells you who does what. Changing the order changes the meaning."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Order</th><th>Example</th></tr></thead><tbody><tr><td>subject, verb, object</td><td><strong>Tom loves Anna.</strong></td></tr><tr><td>swapped</td><td><strong>Anna loves Tom.</strong></td></tr><tr><td>with an adverbial</td><td><strong>Tom loves Anna very much.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "entity_id": "LT05T05:L979",
+  "order": 0,
+  "minutes": 2,
+  "terms": {
+    "en": "Booking a room",
+    "es": "Reservar una habitación",
+    "it": "Prenotare una camera",
+    "fr": "Réserver une chambre",
+    "de": "Ein Zimmer buchen",
+    "ru": "Бронирование номера",
+    "hu": "Szobafoglalás",
+    "pt": "Reservar um quarto",
+    "ro": "Rezervarea unei camere"
+  },
+  "locales": {
+    "en": {
+      "title": "Booking a room",
+      "summary": "Reserving a hotel room by phone or online and checking the details and conditions.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "About this lesson",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A hotel booking involves dates, room type, price and conditions. In this lesson you will practise a booking call and learn how to ask about extras."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A guest is calling a hotel in Edinburgh to book a room for a weekend in May."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Guest",
+                  "text": "Hello, I would like to book a double room for three nights, please."
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "Certainly. For which dates?"
+                },
+                {
+                  "speaker": "Guest",
+                  "text": "From the tenth of May to the thirteenth. Do you have anything available?"
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "Yes, we have a room with a view of the castle. It is ninety pounds a night, with breakfast included."
+                },
+                {
+                  "speaker": "Guest",
+                  "text": "Is it possible to cancel if our plans change?"
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "You can cancel free of charge up to forty-eight hours before arrival."
+                },
+                {
+                  "speaker": "Guest",
+                  "text": "That sounds fine. I have been told that parking is difficult. Is there a car park?"
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "We have a small car park, but it costs ten pounds a day."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. For, from, to and until express time.** For gives a length of time, from... to gives start and end, and until gives the end point. See Introduction to Grammar: Prepositions and conjunctions."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Word</th><th>Example</th></tr></thead><tbody><tr><td><strong>for</strong></td><td><strong>for three nights</strong></td></tr><tr><td><strong>from... to</strong></td><td><strong>from the tenth to the thirteenth</strong></td></tr><tr><td><strong>until</strong></td><td><strong>until Monday morning</strong></td></tr><tr><td><strong>up to</strong></td><td><strong>up to forty-eight hours before</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. The present perfect passive gives information.** I have been told means that someone told me, and the person who told me is not important. See Introduction to Grammar: Voice."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>have been told</strong></td><td><strong>I have been told that parking is difficult.</strong></td></tr><tr><td><strong>has been booked</strong></td><td><strong>The room has been booked.</strong></td></tr><tr><td><strong>is included</strong></td><td><strong>Breakfast is included.</strong></td></tr><tr><td><strong>is required</strong></td><td><strong>A deposit is required.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "A single room is for one person; a double room is for two; a twin room has two beds.",
+                "Full board includes all meals; half board includes breakfast and dinner.",
+                "A deposit is money paid in advance, and a cancellation policy states the rules for cancelling.",
+                "Per night and per person are common ways to state a price."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Culture note",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Comparison websites can be cheaper than booking directly, but a direct booking sometimes gives you better conditions. Always check the cancellation rules, because some of the cheapest rooms cannot be refunded."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

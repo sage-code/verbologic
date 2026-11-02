@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T21:L921",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Compound words",
+    "es": "Las palabras compuestas",
+    "it": "Le parole composte",
+    "fr": "Les mots composés",
+    "de": "Zusammengesetzte Wörter",
+    "ru": "Сложные слова",
+    "hu": "Az összetett szavak",
+    "pt": "As palavras compostas",
+    "ro": "Cuvintele compuse"
+  },
+  "locales": {
+    "en": {
+      "title": "Compound words",
+      "summary": "A compound word joins two or more words into a new meaning.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A compound word is made of two or more words that together have a new meaning."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**sun** + **flower** = sunflower",
+                "**post** + **box** = postbox",
+                "**mother-in-law**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A compound may be written as one word, as two words or with a hyphen. There is no fixed rule, so check a dictionary. The last word usually gives the main meaning and takes the plural: toothbrushes."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>one word</td><td><strong>notebook</strong></td></tr><tr><td>two words</td><td><strong>ice cream</strong></td></tr><tr><td>hyphenated</td><td><strong>well-known</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

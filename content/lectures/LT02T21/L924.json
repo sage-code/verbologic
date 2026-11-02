@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T21:L924",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Formal and informal register",
+    "es": "Registro formal e informal",
+    "it": "Registro formale e informale",
+    "fr": "Registre formel et informel",
+    "de": "Formelles und informelles Register",
+    "ru": "Формальный и неформальный регистр",
+    "hu": "Formális és informális stílusréteg",
+    "pt": "Registro formal e informal",
+    "ro": "Registrul formal și informal"
+  },
+  "locales": {
+    "en": {
+      "title": "Formal and informal register",
+      "summary": "Register is the level of formality of language.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Register is the level of formality of language. A formal register is used in writing and official situations, and an informal register with friends."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Could you help me?** (formal)",
+                "**Can you give me a hand?** (informal)",
+                "**Dear Sir** and **Hi Tom**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Formal English prefers full forms, longer words and the passive. Informal English uses contractions, short words and phrasal verbs."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Formal</th><th>Informal</th></tr></thead><tbody><tr><td><strong>purchase</strong></td><td><strong>buy</strong></td></tr><tr><td><strong>I would like to enquire</strong></td><td><strong>I wanted to ask</strong></td></tr><tr><td><strong>Regards</strong></td><td><strong>Cheers</strong></td></tr><tr><td><strong>do not</strong></td><td><strong>don't</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

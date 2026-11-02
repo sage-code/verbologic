@@ -1,0 +1,134 @@
+{
+  "entity_id": "LT05T01:L965",
+  "order": 2,
+  "minutes": 2,
+  "terms": {
+    "en": "Maps and signs",
+    "es": "Mapas y señales",
+    "it": "Mappe e indicazioni",
+    "fr": "Cartes et panneaux",
+    "de": "Karten und Schilder",
+    "ru": "Карты и указатели",
+    "hu": "Térképek és táblák",
+    "pt": "Mapas e placas",
+    "ro": "Hărți și indicatoare"
+  },
+  "locales": {
+    "en": {
+      "title": "Maps and signs",
+      "summary": "How to read street maps, compass directions and the signs you see in a town.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "About this lesson",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Maps and signs use short, fixed language. In this lesson you will learn the compass points, the common words on public signs, and how to compare distances."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Two friends are standing in front of a map of York city centre."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Ella",
+                  "text": "Where are we on the map?"
+                },
+                {
+                  "speaker": "Finn",
+                  "text": "We are here, next to the river. The cathedral is to the north."
+                },
+                {
+                  "speaker": "Ella",
+                  "text": "And the railway station?"
+                },
+                {
+                  "speaker": "Finn",
+                  "text": "It is in the south-west, about a kilometre away. Look, there is a sign: Station, 800 metres."
+                },
+                {
+                  "speaker": "Ella",
+                  "text": "Is that sign right? It looks closer on the map."
+                },
+                {
+                  "speaker": "Finn",
+                  "text": "The map is not drawn to scale, so you cannot trust the distances."
+                },
+                {
+                  "speaker": "Ella",
+                  "text": "Then let us follow the signs. They are easier to read than the map."
+                },
+                {
+                  "speaker": "Finn",
+                  "text": "Good idea. We can walk along the river and then cross the bridge."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. The compass points give direction and combine.** Use in the north, to the north of, or an adjective such as northern. A combination such as south-west is written with a hyphen. See Introduction to Grammar: Adjectives."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>in the north / south</strong></td><td><strong>The cathedral is in the north of the city.</strong></td></tr><tr><td><strong>to the east of</strong></td><td><strong>The park is to the east of the station.</strong></td></tr><tr><td><strong>north-west</strong></td><td><strong>The castle is in the north-west.</strong></td></tr><tr><td><strong>northern, southern</strong></td><td><strong>the northern bridge</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Signs are short.** They drop articles and verbs, and they use fixed words. Understanding the shortened pattern helps you read quickly. See Introduction to Grammar: Sentence structure."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Sign</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>Exit</strong></td><td>the way out</td></tr><tr><td><strong>No entry</strong></td><td>you may not go in</td></tr><tr><td><strong>Give way</strong></td><td>let other traffic pass first</td></tr><tr><td><strong>Keep left</strong></td><td>stay on the left side</td></tr><tr><td><strong>Road closed</strong></td><td>you cannot drive here</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "A scale such as 1:25,000 means one unit on the map equals 25,000 on the ground.",
+                "A one-way street allows traffic in only one direction.",
+                "Pedestrian means a person on foot, and a pedestrian crossing is a place to cross the road.",
+                "A map key or legend explains the symbols."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Culture note",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In Britain and the United States distances on road signs are in miles, although many local signs for walkers also give kilometres or metres. Bus stops in British towns often show a small map with the words You are here."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

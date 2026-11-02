@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T19:L909",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Clauses of cause and purpose",
+    "es": "Oraciones causales y finales",
+    "it": "Proposizioni causali e finali",
+    "fr": "Propositions de cause et de but",
+    "de": "Kausal- und Finalsätze",
+    "ru": "Придаточные причины и цели",
+    "hu": "Ok- és célhatározói mellékmondatok",
+    "pt": "Orações causais e finais",
+    "ro": "Propoziții de cauză și scop"
+  },
+  "locales": {
+    "en": {
+      "title": "Clauses of cause and purpose",
+      "summary": "A clause of cause says why something happened; a clause of purpose says why someone acts.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A clause of cause says why something happened. A clause of purpose says why someone does something."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "He stayed home **because he was ill**.",
+                "I called **so that** you would know.",
+                "She saved money **to buy** a car."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use because, since and as for reasons. Use to, in order to and so that for purposes. So that is followed by a clause, and to by a base verb."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Meaning</th><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>cause</td><td><strong>because, since, as</strong></td><td><strong>She left because it was late.</strong></td></tr><tr><td>purpose</td><td><strong>to, in order to</strong></td><td><strong>I came to help.</strong></td></tr><tr><td>purpose clause</td><td><strong>so that</strong></td><td><strong>Speak slowly so that we understand.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

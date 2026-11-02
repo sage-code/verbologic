@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T02:L789",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "What a word class is",
+    "es": "Qué es una categoría de palabras",
+    "it": "Cos'è una categoria di parole",
+    "fr": "Ce qu'est une catégorie de mots",
+    "de": "Was eine Wortart ist",
+    "ru": "Что такое часть речи",
+    "hu": "Mi a szófaj",
+    "pt": "O que é uma categoria de palavras",
+    "ro": "Ce este o categorie de cuvinte"
+  },
+  "locales": {
+    "en": {
+      "title": "What a word class is",
+      "summary": "A word class groups words that do the same job in a sentence.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A word class groups words that do the same job in a sentence. English has ten traditional classes: noun, pronoun, article, adjective, verb, adverb, preposition, conjunction, numeral and interjection."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**table** is a noun.",
+                "**quickly** is an adverb.",
+                "**and** is a conjunction."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A word belongs to a class because of what it does in the sentence, not because of how it looks. Many English words belong to more than one class."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Word</th><th>One class</th><th>Another class</th></tr></thead><tbody><tr><td><strong>light</strong></td><td>a <strong>light</strong> bag (adjective)</td><td>turn on the <strong>light</strong> (noun)</td></tr><tr><td><strong>walk</strong></td><td>to <strong>walk</strong> (verb)</td><td>a <strong>walk</strong> (noun)</td></tr><tr><td><strong>fast</strong></td><td>a <strong>fast</strong> car (adjective)</td><td>drive <strong>fast</strong> (adverb)</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

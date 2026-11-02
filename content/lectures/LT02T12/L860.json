@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T12:L860",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Plans and intentions",
+    "es": "Planes e intenciones",
+    "it": "Piani e intenzioni",
+    "fr": "Projets et intentions",
+    "de": "Pläne und Absichten",
+    "ru": "Планы и намерения",
+    "hu": "Tervek és szándékok",
+    "pt": "Planos e intenções",
+    "ro": "Planuri și intenții"
+  },
+  "locales": {
+    "en": {
+      "title": "Plans and intentions",
+      "summary": "Be going to expresses a plan or an intention.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Be going to expresses a plan or an intention made before the moment of speaking."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **am going to** study law.",
+                "We **are going to** move.",
+                "It **is going to** rain."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use be going to when you have already decided, or when there is evidence now, such as a grey sky. Use will for a decision made at the moment of speaking."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>plan</td><td><strong>She is going to learn French.</strong></td></tr><tr><td>evidence now</td><td><strong>Look at the clouds. It is going to rain.</strong></td></tr><tr><td>negative</td><td><strong>We aren't going to stay.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

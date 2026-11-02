@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T13:L869",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Advice and suggestions",
+    "es": "Consejos y sugerencias",
+    "it": "Consigli e suggerimenti",
+    "fr": "Conseils et suggestions",
+    "de": "Ratschläge und Vorschläge",
+    "ru": "Советы и предложения",
+    "hu": "Tanácsok és javaslatok",
+    "pt": "Conselhos e sugestões",
+    "ro": "Sfaturi și sugestii"
+  },
+  "locales": {
+    "en": {
+      "title": "Advice and suggestions",
+      "summary": "Should, ought to and had better give advice; let's and shall we make suggestions.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Advice and suggestions are expressed with should, ought to, had better and why don't you."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "You **should** rest.",
+                "You **had better** hurry.",
+                "**Why don't** we go out?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Should and ought to give general advice. Had better gives strong advice with a warning. Let's and shall we make a suggestion to a group."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Strength</th><th>Example</th></tr></thead><tbody><tr><td><strong>should</strong></td><td>normal</td><td><strong>You should see a doctor.</strong></td></tr><tr><td><strong>had better</strong></td><td>strong</td><td><strong>You had better leave now.</strong></td></tr><tr><td><strong>Let's, Shall we</strong></td><td>suggestion</td><td><strong>Shall we go?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

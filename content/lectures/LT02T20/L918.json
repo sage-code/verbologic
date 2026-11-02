@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T20:L918",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Word order in questions and negatives",
+    "es": "Orden de palabras en preguntas y negaciones",
+    "it": "Ordine delle parole in domande e negazioni",
+    "fr": "Ordre des mots dans les questions et les négations",
+    "de": "Wortstellung in Fragen und Verneinungen",
+    "ru": "Порядок слов в вопросах и отрицаниях",
+    "hu": "Szórend kérdésekben és tagadásban",
+    "pt": "Ordem das palavras em perguntas e negações",
+    "ro": "Ordinea cuvintelor în întrebări și negații"
+  },
+  "locales": {
+    "en": {
+      "title": "Word order in questions and negatives",
+      "summary": "Questions and negatives use an auxiliary and change the usual order.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Questions and negatives change the usual word order by using an auxiliary verb."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Do you** like tea?",
+                "She **does not** like coffee.",
+                "**Where did** he go?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In a question the auxiliary comes before the subject, and the main verb stays in the base form. In a negative, not follows the auxiliary. A question word comes first."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Type</th><th>Order</th><th>Example</th></tr></thead><tbody><tr><td>question</td><td>auxiliary, subject, verb</td><td><strong>Do you know him?</strong></td></tr><tr><td>negative</td><td>subject, auxiliary, not, verb</td><td><strong>I do not know him.</strong></td></tr><tr><td>question with a question word</td><td>question word, auxiliary, subject</td><td><strong>Where do you live?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

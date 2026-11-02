@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T12:L861",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Present forms for the future",
+    "es": "Formas del presente para el futuro",
+    "it": "Forme del presente per il futuro",
+    "fr": "Formes du présent pour le futur",
+    "de": "Präsensformen für die Zukunft",
+    "ru": "Формы настоящего времени для будущего",
+    "hu": "Jelen idejű alakok a jövőre",
+    "pt": "Formas do presente para o futuro",
+    "ro": "Forme de prezent pentru viitor"
+  },
+  "locales": {
+    "en": {
+      "title": "Present forms for the future",
+      "summary": "English often uses present forms to talk about the future.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English often uses present forms to talk about the future: the present continuous for arrangements and the simple present for timetables."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **am meeting** Anna tonight.",
+                "The train **leaves** at nine.",
+                "We **are flying** on Friday."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The present continuous is used for fixed personal arrangements. The simple present is used for official timetables and schedules."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>present continuous</td><td>arrangement</td><td><strong>I am seeing the doctor at ten.</strong></td></tr><tr><td>simple present</td><td>timetable</td><td><strong>The shop opens at nine.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

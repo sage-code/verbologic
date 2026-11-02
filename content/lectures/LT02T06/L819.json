@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T06:L819",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Familiar and formal you",
+    "es": "Tú y usted",
+    "it": "Tu e Lei",
+    "fr": "Tu et vous",
+    "de": "Du und Sie",
+    "ru": "Ты и вы",
+    "hu": "Te és ön",
+    "pt": "Tu e você",
+    "ro": "Tu și dumneavoastră"
+  },
+  "locales": {
+    "en": {
+      "title": "Familiar and formal you",
+      "summary": "English has only one word for you.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Many languages have one word for you to a friend and another for you to a stranger. English has only one: you."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**You** are right.",
+                "Can **you** help me?",
+                "Are **you** coming?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English once had thou for the familiar singular, but it left everyday speech long ago. Politeness is shown in other ways: titles, modal verbs and phrases such as would you mind."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Situation</th><th>Polite choice</th></tr></thead><tbody><tr><td>asking</td><td><strong>Could you help me, please?</strong></td></tr><tr><td>offering</td><td><strong>Would you like some tea?</strong></td></tr><tr><td>addressing</td><td><strong>Mr Brown, Ms Clark</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

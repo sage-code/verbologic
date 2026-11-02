@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T05:L812",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Position before or after the noun",
+    "es": "Posición antes o después del sustantivo",
+    "it": "Posizione prima o dopo il nome",
+    "fr": "Place avant ou après le nom",
+    "de": "Stellung vor oder nach dem Substantiv",
+    "ru": "Место перед существительным или после него",
+    "hu": "A főnév előtti vagy utáni helyzet",
+    "pt": "Posição antes ou depois do substantivo",
+    "ro": "Poziția înaintea sau după substantiv"
+  },
+  "locales": {
+    "en": {
+      "title": "Position before or after the noun",
+      "summary": "Most English adjectives come before the noun.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Most English adjectives come before the noun. A few come after it, and some are used only after a verb."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "a **big** house",
+                "something **interesting**",
+                "The child is **asleep**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "An adjective follows words such as something and anyone. Adjectives like asleep and afraid are used only after a verb. When there are several adjectives, the usual order is opinion, size, age, colour, origin and material."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Order</th><th>Example</th></tr></thead><tbody><tr><td>opinion, size, colour</td><td><strong>a lovely small blue vase</strong></td></tr><tr><td>after something</td><td><strong>something new</strong></td></tr><tr><td>only after a verb</td><td><strong>She is afraid.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "entity_id": "LT03T01:L928",
+  "order": 3,
+  "minutes": 2,
+  "terms": {
+    "en": "Introducing another person",
+    "es": "Presentar a otra persona",
+    "it": "Presentare un'altra persona",
+    "fr": "Présenter une autre personne",
+    "de": "Eine andere Person vorstellen",
+    "ru": "Знакомство с другим человеком",
+    "hu": "Valaki más bemutatása",
+    "pt": "Apresentar outra pessoa",
+    "ro": "Prezentarea altei persoane"
+  },
+  "locales": {
+    "en": {
+      "title": "Introducing another person",
+      "summary": "How to introduce one person to another.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "When two people you know have not met, you introduce them to each other. Anna introduces her colleague Tom to her friend Maria."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Anna",
+                  "text": "Maria, this is Tom. He works with me at the library."
+                },
+                {
+                  "speaker": "Maria",
+                  "text": "Hello, Tom. Nice to meet you."
+                },
+                {
+                  "speaker": "Tom",
+                  "text": "Nice to meet you, too. Anna often talks about you."
+                },
+                {
+                  "speaker": "Anna",
+                  "text": "Tom, this is my friend Maria. She is a doctor."
+                },
+                {
+                  "speaker": "Tom",
+                  "text": "Oh, really? Where do you work, Maria?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. This is... introduces a person.** Use this is for one person and these are for more than one. The word this points to the person who is near. See Introduction to Grammar: Articles and determiners."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Number</th><th>Example</th></tr></thead><tbody><tr><td>one person</td><td><strong>This is my friend Maria.</strong></td></tr><tr><td>more people</td><td><strong>These are my parents.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Possessives show the relationship.** My, your, his, her and our go before the noun: my friend, her brother, our teacher. They agree with the owner, not with the person introduced. See Introduction to Grammar: Articles and determiners."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Owner</th><th>Example</th></tr></thead><tbody><tr><td><strong>I</strong></td><td><strong>my friend</strong></td></tr><tr><td><strong>he</strong></td><td><strong>his sister</strong></td></tr><tr><td><strong>she</strong></td><td><strong>her colleague</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Use **this is** when you introduce someone face to face. On the phone, say **This is Anna speaking.**",
+                "Add a short fact to help the two people start a conversation: **He works with me at the library.**",
+                "**Nice to meet you** and **Pleased to meet you** are the usual replies."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In a formal introduction, the name of the older or more senior person is often said first: Mrs Clark, may I introduce Tom?"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

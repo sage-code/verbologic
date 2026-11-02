@@ -1,0 +1,109 @@
+{
+  "entity_id": "LT03T05:L943",
+  "order": 2,
+  "minutes": 2,
+  "terms": {
+    "en": "Polite expressions",
+    "es": "Expresiones de cortesía",
+    "it": "Espressioni di cortesia",
+    "fr": "Expressions de politesse",
+    "de": "Höfliche Wendungen",
+    "ru": "Вежливые выражения",
+    "hu": "Udvariassági kifejezések",
+    "pt": "Expressões de cortesia",
+    "ro": "Expresii de politețe"
+  },
+  "locales": {
+    "en": {
+      "title": "Polite expressions",
+      "summary": "The small words that make English polite.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Politeness in English comes from small words and from the form of a request. A customer talks to a shop assistant."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Customer",
+                  "text": "Excuse me. Could I have a bottle of water, please?"
+                },
+                {
+                  "speaker": "Assistant",
+                  "text": "Of course. Here you are."
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "Thank you. How much is it?"
+                },
+                {
+                  "speaker": "Assistant",
+                  "text": "It's one pound fifty."
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "Sorry, could you repeat that, please?"
+                },
+                {
+                  "speaker": "Assistant",
+                  "text": "Certainly. One pound fifty."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Could and would make a request polite.** Could I have...? and Could you...? are more polite than I want... or Give me... Add please at the beginning or the end. See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Less polite</th><th>Polite</th></tr></thead><tbody><tr><td><strong>Give me water.</strong></td><td><strong>Could I have some water, please?</strong></td></tr><tr><td><strong>Tell me the time.</strong></td><td><strong>Could you tell me the time, please?</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Short words open and close a request.** Excuse me gets attention, please asks, thank you answers and sorry apologises. Add certainly or of course to agree. See Introduction to Grammar: Categories of words."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Word</th><th>Use</th></tr></thead><tbody><tr><td><strong>Excuse me.</strong></td><td>to get attention</td></tr><tr><td><strong>Please.</strong></td><td>to ask</td></tr><tr><td><strong>Thank you.</strong></td><td>to thank</td></tr><tr><td><strong>Pardon?</strong></td><td>to ask for repetition</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**Sorry?** and **Pardon?** both ask a person to repeat. **What?** is rude.",
+                "**Cheers** is an informal British word for thank you.",
+                "A request without please can sound abrupt, even with a friend."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English speakers use please and thank you much more than speakers of many other languages. Leaving them out can seem cold."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

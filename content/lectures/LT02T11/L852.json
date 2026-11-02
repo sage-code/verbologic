@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T11:L852",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "The past in progress",
+    "es": "El pasado en curso",
+    "it": "Il passato in corso",
+    "fr": "Le passé en cours",
+    "de": "Die Vergangenheit im Verlauf",
+    "ru": "Прошедшее длительное время",
+    "hu": "A folyamatos múlt",
+    "pt": "O passado em andamento",
+    "ro": "Trecutul în desfășurare"
+  },
+  "locales": {
+    "en": {
+      "title": "The past in progress",
+      "summary": "The past continuous describes an action that was going on at a moment in the past.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The past continuous describes an action that was in progress at a moment in the past."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **was reading** at eight.",
+                "They **were playing** outside.",
+                "It **was raining** all day."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Form it with was or were and the -ing form. It often sets the scene, while the simple past gives the event that interrupted it: I was walking when it began to rain."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>affirmative</td><td><strong>He was sleeping.</strong></td></tr><tr><td>negative</td><td><strong>He wasn't sleeping.</strong></td></tr><tr><td>with the simple past</td><td><strong>I was cooking when she called.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

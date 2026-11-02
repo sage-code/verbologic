@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T09:L838",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "The infinitive",
+    "es": "El infinitivo",
+    "it": "L'infinito",
+    "fr": "L'infinitif",
+    "de": "Der Infinitiv",
+    "ru": "Инфинитив",
+    "hu": "A főnévi igenév",
+    "pt": "O infinitivo",
+    "ro": "Infinitivul"
+  },
+  "locales": {
+    "en": {
+      "title": "The infinitive",
+      "summary": "The infinitive is the base form of the verb.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The infinitive is the base form of the verb. In English it is usually preceded by to."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I want **to go**.",
+                "She can **swim**.",
+                "It is easy **to learn**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The infinitive with to follows many verbs and adjectives. After modal verbs, and after let, make and help, it appears without to. In a dictionary the infinitive is the headword."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>with to</td><td><strong>I hope to see you.</strong></td></tr><tr><td>without to</td><td><strong>She can sing.</strong></td></tr><tr><td>negative</td><td><strong>Try not to be late.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

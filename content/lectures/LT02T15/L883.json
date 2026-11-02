@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T15:L883",
+  "order": 7,
+  "minutes": 1,
+  "terms": {
+    "en": "Verbs followed by infinitive or gerund",
+    "es": "Verbos seguidos de infinitivo o gerundio",
+    "it": "Verbi seguiti da infinito o gerundio",
+    "fr": "Verbes suivis de l'infinitif ou du gérondif",
+    "de": "Verben mit Infinitiv oder Gerundium",
+    "ru": "Глаголы с инфинитивом или герундием",
+    "hu": "Főnévi igenévvel vagy határozói igenévvel álló igék",
+    "pt": "Verbos seguidos de infinitivo ou gerúndio",
+    "ro": "Verbe urmate de infinitiv sau gerunziu"
+  },
+  "locales": {
+    "en": {
+      "title": "Verbs followed by infinitive or gerund",
+      "summary": "Some verbs take the infinitive, some the gerund, and a few change meaning.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some verbs are followed by the infinitive, some by the gerund, and some by either."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **enjoy** reading. (gerund)",
+                "I **want** to read. (infinitive)",
+                "I **like** reading and I **like** to read. (both)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A few verbs change meaning with the form. Stop doing means to end an action, and stop to do means to pause in order to do something. Remember and forget work in a similar way."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Verb</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>stop + gerund</strong></td><td>end the action</td><td><strong>He stopped smoking.</strong></td></tr><tr><td><strong>stop + infinitive</strong></td><td>pause to do something</td><td><strong>He stopped to smoke.</strong></td></tr><tr><td><strong>remember + gerund</strong></td><td>recall the past</td><td><strong>I remember meeting her.</strong></td></tr><tr><td><strong>remember + infinitive</strong></td><td>not forget to</td><td><strong>Remember to lock the door.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

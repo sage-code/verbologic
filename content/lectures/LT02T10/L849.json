@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T10:L849",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Existence: there is and there are",
+    "es": "La existencia: hay",
+    "it": "L'esistenza: c'è e ci sono",
+    "fr": "L'existence : il y a",
+    "de": "Existenz: es gibt",
+    "ru": "Существование: «есть» и «имеется»",
+    "hu": "A létezés: van és vannak",
+    "pt": "A existência: há e existem",
+    "ro": "Existența: „este” și „sunt”"
+  },
+  "locales": {
+    "en": {
+      "title": "Existence: there is and there are",
+      "summary": "There is and there are say that something exists.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "To say that something exists, English uses there is for one thing and there are for more than one."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**There is** a bank near here.",
+                "**There are** two chairs.",
+                "**Is there** a café?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "There is a dummy subject, and the real subject comes after the verb. The verb agrees with the real subject. In speech people often say there's for both singular and plural."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>singular</td><td><strong>There is a bus at nine.</strong></td></tr><tr><td>plural</td><td><strong>There are three buses.</strong></td></tr><tr><td>negative</td><td><strong>There isn't a bank here.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

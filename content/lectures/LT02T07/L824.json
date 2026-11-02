@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T07:L824",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Reflexive pronouns",
+    "es": "Los pronombres reflexivos",
+    "it": "I pronomi riflessivi",
+    "fr": "Les pronoms réfléchis",
+    "de": "Reflexivpronomen",
+    "ru": "Возвратные местоимения",
+    "hu": "Visszaható névmások",
+    "pt": "Os pronomes reflexivos",
+    "ro": "Pronumele reflexive"
+  },
+  "locales": {
+    "en": {
+      "title": "Reflexive pronouns",
+      "summary": "A reflexive pronoun shows that the subject and the object are the same.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A reflexive pronoun shows that the subject and the object are the same person or thing. It ends in -self or -selves."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I cut **myself**.",
+                "She taught **herself** to swim.",
+                "They enjoyed **themselves**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Reflexives are used after verbs and prepositions, and also for emphasis. Many verbs that are reflexive in other languages are not reflexive in English: I wash and I dress."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Subject</th><th>Reflexive</th></tr></thead><tbody><tr><td><strong>I, you</strong></td><td><strong>myself, yourself</strong></td></tr><tr><td><strong>he, she, it</strong></td><td><strong>himself, herself, itself</strong></td></tr><tr><td><strong>we, you, they</strong></td><td><strong>ourselves, yourselves, themselves</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "entity_id": "LT04T02:L950",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "The afternoon and evening",
+    "es": "La tarde y la noche",
+    "it": "Il pomeriggio e la sera",
+    "fr": "L'après-midi et la soirée",
+    "de": "Nachmittag und Abend",
+    "ru": "День и вечер",
+    "hu": "A délután és az este",
+    "pt": "A tarde e a noite",
+    "ro": "După-amiaza și seara"
+  },
+  "locales": {
+    "en": {
+      "title": "The afternoon and evening",
+      "summary": "What people do after work or school, and how to sequence a day with time words.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Ravi tells a friend about his afternoons."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Friend",
+                  "text": "What do you do after work?"
+                },
+                {
+                  "speaker": "Ravi",
+                  "text": "First I go to the gym. Then I go home and cook dinner."
+                },
+                {
+                  "speaker": "Friend",
+                  "text": "And after dinner?"
+                },
+                {
+                  "speaker": "Ravi",
+                  "text": "Afterwards I watch television or read a book. I go to bed at eleven."
+                },
+                {
+                  "speaker": "Friend",
+                  "text": "That is early!"
+                },
+                {
+                  "speaker": "Ravi",
+                  "text": "Yes, I need a lot of sleep."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Sequence words order events.** First, then, after that, afterwards and finally tell the listener what happens next. See Introduction to Grammar: Adverbs."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Word</th><th>Use</th></tr></thead><tbody><tr><td><strong>first</strong></td><td>the beginning</td></tr><tr><td><strong>then</strong></td><td>the next step</td></tr><tr><td><strong>after that</strong></td><td>the following step</td></tr><tr><td><strong>finally</strong></td><td>the last step</td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Time expressions with prepositions.** Use at for clock times, in for parts of the day and on for days. See Introduction to Grammar: Prepositions and conjunctions."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Example</th></tr></thead><tbody><tr><td><strong>at</strong></td><td><strong>at six o'clock, at night</strong></td></tr><tr><td><strong>in</strong></td><td><strong>in the evening, in July</strong></td></tr><tr><td><strong>on</strong></td><td><strong>on Monday, on Friday evening</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**Evening** begins around six o'clock; **night** begins when it is dark.",
+                "**Tea** can mean a drink, a light afternoon meal, or in some regions the evening meal.",
+                "**Supper** is a light meal late in the evening; **dinner** is the main evening meal."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Many people in Britain and America watch television in the evening. Pubs and cafes are also popular places to meet friends after work."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

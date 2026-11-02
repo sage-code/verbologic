@@ -1,0 +1,134 @@
+{
+  "entity_id": "LT05T05:L981",
+  "order": 2,
+  "minutes": 2,
+  "terms": {
+    "en": "The bank and changing money",
+    "es": "El banco y el cambio de moneda",
+    "it": "La banca e il cambio valuta",
+    "fr": "La banque et le change",
+    "de": "Die Bank und Geldwechsel",
+    "ru": "Банк и обмен валюты",
+    "hu": "A bank és a pénzváltás",
+    "pt": "O banco e o câmbio",
+    "ro": "Banca și schimbul valutar"
+  },
+  "locales": {
+    "en": {
+      "title": "The bank and changing money",
+      "summary": "Opening an account, withdrawing cash and exchanging currency, with the language of fees and rates.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "About this lesson",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A bank has its own vocabulary, but most visitors need only a few phrases. In this lesson you will exchange money, ask about fees and discuss opening an account."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A visitor from Spain goes to a bank in London."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Visitor",
+                  "text": "Good morning. I would like to change some euros into pounds."
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "Certainly. How much would you like to change?"
+                },
+                {
+                  "speaker": "Visitor",
+                  "text": "Two hundred euros. What is the exchange rate today?"
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "It is eighty-five pence to the euro, so you would receive one hundred and seventy pounds."
+                },
+                {
+                  "speaker": "Visitor",
+                  "text": "Is there a fee?"
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "There is a commission of three pounds. Could I see your passport?"
+                },
+                {
+                  "speaker": "Visitor",
+                  "text": "Yes, of course. Also, I am staying for six months. Can I open an account?"
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "You would need proof of address, but I can give you the information."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Change into and withdraw from.** These verbs take fixed prepositions. See Introduction to Grammar: Verbs and verb phrases."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Phrase</th><th>Example</th></tr></thead><tbody><tr><td><strong>change... into</strong></td><td><strong>change euros into pounds</strong></td></tr><tr><td><strong>withdraw... from</strong></td><td><strong>withdraw cash from my account</strong></td></tr><tr><td><strong>pay... into</strong></td><td><strong>pay money into an account</strong></td></tr><tr><td><strong>transfer... to</strong></td><td><strong>transfer money to a friend</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Would and if show a possible result.** The second conditional with would suggests an unreal or unlikely situation, which is common in polite business talk. See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Condition</th><th>Result</th></tr></thead><tbody><tr><td><strong>If you changed two hundred euros,</strong></td><td><strong>you would receive 170 pounds.</strong></td></tr><tr><td><strong>If you opened an account,</strong></td><td><strong>you would need proof of address.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "The exchange rate is the price of one currency in another.",
+                "A fee or commission is a charge for a service.",
+                "A current account is for daily payments; a savings account earns interest.",
+                "Proof of address can be a utility bill or a letter from your landlord."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Culture note",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Many British banks have closed local branches, so most people now use a phone app. Banks usually ask for identity and proof of address when you open an account."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

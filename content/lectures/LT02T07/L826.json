@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T07:L826",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Possessive pronouns",
+    "es": "Los pronombres posesivos",
+    "it": "I pronomi possessivi",
+    "fr": "Les pronoms possessifs",
+    "de": "Possessivpronomen",
+    "ru": "Притяжательные местоимения",
+    "hu": "Birtokos névmások",
+    "pt": "Os pronomes possessivos",
+    "ro": "Pronumele posesive"
+  },
+  "locales": {
+    "en": {
+      "title": "Possessive pronouns",
+      "summary": "A possessive pronoun stands alone in place of a noun and its owner.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A possessive pronoun replaces a noun phrase that shows ownership. English has mine, yours, his, hers, ours and theirs."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "This pen is **mine**.",
+                "Is that coat **yours**?",
+                "The red car is **theirs**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The possessive pronoun stands alone, while the possessive word stands before a noun: my book, but the book is mine. A possessive pronoun never has an apostrophe."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Before a noun</th><th>Alone</th></tr></thead><tbody><tr><td><strong>my</strong></td><td><strong>mine</strong></td></tr><tr><td><strong>your</strong></td><td><strong>yours</strong></td></tr><tr><td><strong>her, his</strong></td><td><strong>hers, his</strong></td></tr><tr><td><strong>our, their</strong></td><td><strong>ours, theirs</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

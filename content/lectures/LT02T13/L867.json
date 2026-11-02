@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T13:L867",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "The conditional",
+    "es": "El condicional",
+    "it": "Il condizionale",
+    "fr": "Le conditionnel",
+    "de": "Der Konditional",
+    "ru": "Условное наклонение",
+    "hu": "A feltételes mód",
+    "pt": "O condicional",
+    "ro": "Condiționalul"
+  },
+  "locales": {
+    "en": {
+      "title": "The conditional",
+      "summary": "The conditional says what would happen under a certain condition.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The conditional says what would happen under a certain condition."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **would** help if I could.",
+                "She **would** come if you asked.",
+                "We **would have** won if we had tried."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Form it with would and the base form. The if clause uses the simple past for an unreal present and the past perfect for an unreal past. Would does not go in the if clause."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Type</th><th>If clause</th><th>Result</th></tr></thead><tbody><tr><td>real</td><td><strong>If it rains,</strong></td><td><strong>we will stay.</strong></td></tr><tr><td>unreal present</td><td><strong>If I had time,</strong></td><td><strong>I would help.</strong></td></tr><tr><td>unreal past</td><td><strong>If I had known,</strong></td><td><strong>I would have come.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "entity_id": "LT06T03:L992",
+  "order": 2,
+  "minutes": 2,
+  "terms": {
+    "en": "At the doctor's",
+    "es": "En el médico",
+    "it": "Dal medico",
+    "fr": "Chez le médecin",
+    "de": "Beim Arzt",
+    "ru": "У врача",
+    "hu": "Az orvosnál",
+    "pt": "No médico",
+    "ro": "La medic"
+  },
+  "locales": {
+    "en": {
+      "title": "At the doctor's",
+      "summary": "A medical appointment: describing the problem, answering questions and understanding advice.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "About this lesson",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A consultation follows a clear pattern: the doctor asks what is wrong, asks questions, examines you and gives advice. This lesson prepares you for each step."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A patient is seeing a doctor in a health centre in Leeds."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Doctor",
+                  "text": "Come in and sit down. What seems to be the problem?"
+                },
+                {
+                  "speaker": "Patient",
+                  "text": "I've had a cough for a week, and I feel tired all the time."
+                },
+                {
+                  "speaker": "Doctor",
+                  "text": "Let me listen to your chest. Breathe in deeply, please. Any fever?"
+                },
+                {
+                  "speaker": "Patient",
+                  "text": "A little, mostly at night."
+                },
+                {
+                  "speaker": "Doctor",
+                  "text": "Do you smoke?"
+                },
+                {
+                  "speaker": "Patient",
+                  "text": "No, I gave up two years ago."
+                },
+                {
+                  "speaker": "Doctor",
+                  "text": "Good. It sounds like a chest infection. You should rest and drink plenty of water, and I'll give you a prescription for some antibiotics."
+                },
+                {
+                  "speaker": "Patient",
+                  "text": "How often should I take them?"
+                },
+                {
+                  "speaker": "Doctor",
+                  "text": "Three times a day, with food. Come back if you are not better in a week."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Doctors' questions use do and have.** The doctor asks Do you...? Have you...? Does it hurt...? and you answer with a short answer. See Introduction to Grammar: Questions and negation."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Question</th><th>Short answer</th></tr></thead><tbody><tr><td><strong>Do you have a fever?</strong></td><td><strong>Yes, I do. / No, I don't.</strong></td></tr><tr><td><strong>Does it hurt here?</strong></td><td><strong>Yes, it does.</strong></td></tr><tr><td><strong>Have you taken anything?</strong></td><td><strong>Yes, I have.</strong></td></tr><tr><td><strong>Are you allergic to anything?</strong></td><td><strong>No, I'm not.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Should and must give advice and instructions.** Should is advice; must is a strong order; needn't means it is not necessary. See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Verb</th><th>Example</th></tr></thead><tbody><tr><td><strong>should</strong></td><td><strong>You should rest.</strong></td></tr><tr><td><strong>must</strong></td><td><strong>You must finish the course of tablets.</strong></td></tr><tr><td><strong>mustn't</strong></td><td><strong>You mustn't drive.</strong></td></tr><tr><td><strong>needn't</strong></td><td><strong>You needn't come back if you feel better.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "A GP is a general practitioner; a specialist is a doctor for one area.",
+                "A prescription is an order for medicine, and a course is a fixed number of doses.",
+                "An appointment is booked in advance; a walk-in centre does not need one.",
+                "Allergic to means that a substance makes you ill."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Culture note",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In the United Kingdom the National Health Service gives most care free at the point of use. In the United States care is usually paid for by insurance, so patients are often asked about their insurance first."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

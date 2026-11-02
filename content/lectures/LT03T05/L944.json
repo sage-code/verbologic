@@ -1,0 +1,109 @@
+{
+  "entity_id": "LT03T05:L944",
+  "order": 3,
+  "minutes": 2,
+  "terms": {
+    "en": "Apologising and thanking",
+    "es": "Disculparse y dar las gracias",
+    "it": "Scusarsi e ringraziare",
+    "fr": "S'excuser et remercier",
+    "de": "Sich entschuldigen und danken",
+    "ru": "Извиняться и благодарить",
+    "hu": "Bocsánatkérés és köszönetnyilvánítás",
+    "pt": "Pedir desculpas e agradecer",
+    "ro": "Scuze și mulțumiri"
+  },
+  "locales": {
+    "en": {
+      "title": "Apologising and thanking",
+      "summary": "How to say sorry and thank you well.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Apologies and thanks are said many times a day in English. Nina arrives late to a meeting with Paul."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Nina",
+                  "text": "I'm so sorry I'm late. The train was delayed."
+                },
+                {
+                  "speaker": "Paul",
+                  "text": "That's all right. We have only just started."
+                },
+                {
+                  "speaker": "Nina",
+                  "text": "Thank you for waiting for me."
+                },
+                {
+                  "speaker": "Paul",
+                  "text": "Not at all. Here is the report."
+                },
+                {
+                  "speaker": "Nina",
+                  "text": "Thank you so much for your help with it."
+                },
+                {
+                  "speaker": "Paul",
+                  "text": "You're welcome."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Sorry can be followed by for or a clause.** Say I'm sorry for being late or I'm sorry that I'm late. For a formal apology, use I apologise for the delay. Add so or very to make it stronger. See Introduction to Grammar: Modal verbs and non-finite forms."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>sorry + for + -ing</td><td><strong>I'm sorry for being late.</strong></td></tr><tr><td>sorry + that</td><td><strong>I'm sorry that I'm late.</strong></td></tr><tr><td>formal</td><td><strong>I apologise for the delay.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Thanks has its own answers.** After thank you, say you're welcome, not at all or no problem. Add for and a noun or an -ing form to say why: thank you for your help, thanks for waiting. See Introduction to Grammar: Prepositions and cases."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Thanks</th><th>Answer</th></tr></thead><tbody><tr><td><strong>Thank you very much.</strong></td><td><strong>You're welcome.</strong></td></tr><tr><td><strong>Thanks for waiting.</strong></td><td><strong>No problem.</strong></td></tr><tr><td><strong>Thank you so much.</strong></td><td><strong>Not at all.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**That's all right** and **Don't worry** accept an apology.",
+                "**Sorry** is also used to get past someone: **Sorry, can I get through?**",
+                "**Cheers** and **Thanks a lot** are informal thanks."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "British speakers say sorry very often, even when they are not at fault, as a way of being polite."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

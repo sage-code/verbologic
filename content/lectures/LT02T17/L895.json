@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T17:L895",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "What cases do",
+    "es": "Para qué sirven los casos",
+    "it": "A cosa servono i casi",
+    "fr": "À quoi servent les cas",
+    "de": "Wozu Fälle dienen",
+    "ru": "Для чего нужны падежи",
+    "hu": "Mire jók az esetek",
+    "pt": "Para que servem os casos",
+    "ro": "Rolul cazurilor"
+  },
+  "locales": {
+    "en": {
+      "title": "What cases do",
+      "summary": "A case shows the job a word does; English keeps cases only in pronouns.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A case shows the job that a noun or pronoun does in a sentence: subject, object or owner. English has almost lost its case endings."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**I** see him. (subject)",
+                "He sees **me**. (object)",
+                "This is **my** book. (owner)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Only pronouns keep three cases: subject, object and possessive. Nouns have just one change, the possessive 's. For nouns, word order tells you the subject and the object."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Case</th><th>Pronoun</th><th>Noun</th></tr></thead><tbody><tr><td>subject</td><td><strong>I, he, they</strong></td><td><strong>the dog</strong></td></tr><tr><td>object</td><td><strong>me, him, them</strong></td><td><strong>the dog</strong></td></tr><tr><td>possessive</td><td><strong>my, his, their</strong></td><td><strong>the dog's</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

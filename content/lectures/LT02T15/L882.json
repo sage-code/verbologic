@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T15:L882",
+  "order": 6,
+  "minutes": 1,
+  "terms": {
+    "en": "The gerund",
+    "es": "El gerundio",
+    "it": "Il gerundio",
+    "fr": "Le gérondif",
+    "de": "Das Gerundium",
+    "ru": "Деепричастие и герундий",
+    "hu": "A határozói igenév",
+    "pt": "O gerúndio",
+    "ro": "Gerunziul"
+  },
+  "locales": {
+    "en": {
+      "title": "The gerund",
+      "summary": "The gerund is the -ing form used as a noun.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The gerund is the -ing form of a verb used as a noun."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Swimming** is fun.",
+                "I enjoy **reading**.",
+                "She is good at **cooking**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A gerund can be a subject, an object or the object of a preposition. It is the form used after prepositions: after leaving, before eating, instead of waiting."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Role</th><th>Example</th></tr></thead><tbody><tr><td>subject</td><td><strong>Walking is healthy.</strong></td></tr><tr><td>object</td><td><strong>I like dancing.</strong></td></tr><tr><td>after a preposition</td><td><strong>He left without saying goodbye.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

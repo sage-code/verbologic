@@ -1,0 +1,109 @@
+{
+  "entity_id": "LT03T04:L940",
+  "order": 3,
+  "minutes": 2,
+  "terms": {
+    "en": "Visiting a home",
+    "es": "Visitar una casa",
+    "it": "Fare visita a casa di qualcuno",
+    "fr": "Rendre visite chez quelqu'un",
+    "de": "Zu Besuch bei jemandem",
+    "ru": "Визит в чужой дом",
+    "hu": "Látogatás otthonokban",
+    "pt": "Visitar uma casa",
+    "ro": "Vizita la cineva acasă"
+  },
+  "locales": {
+    "en": {
+      "title": "Visiting a home",
+      "summary": "What to say and do when you visit someone's home.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A visit to someone's home has its own small rules. Lena arrives at Tom's flat for dinner."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Tom",
+                  "text": "Hello, Lena! Come in. Let me take your coat."
+                },
+                {
+                  "speaker": "Lena",
+                  "text": "Thank you. These flowers are for you."
+                },
+                {
+                  "speaker": "Tom",
+                  "text": "How lovely! Please make yourself at home. Would you like a drink?"
+                },
+                {
+                  "speaker": "Lena",
+                  "text": "Just water, please."
+                },
+                {
+                  "speaker": "Tom",
+                  "text": "Here you are. Help yourself to some snacks."
+                },
+                {
+                  "speaker": "Lena",
+                  "text": "Thanks. Your flat is lovely."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. The imperative is friendly in a home.** Come in, sit down and help yourself are invitations, not orders. Add please to be polite. See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Expression</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>Come in.</strong></td><td>Enter.</td></tr><tr><td><strong>Make yourself at home.</strong></td><td>Relax and feel comfortable.</td></tr><tr><td><strong>Help yourself.</strong></td><td>Take what you like.</td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Would you like...? makes an offer.** Offer a drink or a seat with would you like. The guest answers with please or no, thank you. See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Offer</th><th>Answer</th></tr></thead><tbody><tr><td><strong>Would you like a drink?</strong></td><td><strong>Just water, please.</strong></td></tr><tr><td><strong>Would you like to sit down?</strong></td><td><strong>No, thank you. I'm fine.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**Let me take your coat** is a polite offer to help.",
+                "**Here you are** is said when you give something to a person.",
+                "At the end of the visit, thank the host: **Thank you for a lovely evening.**"
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Guests often bring a small gift, such as flowers, chocolates or a bottle of wine. In some homes people take off their shoes, so look at what the host does."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

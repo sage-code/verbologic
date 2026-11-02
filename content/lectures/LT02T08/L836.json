@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T08:L836",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Years and centuries",
+    "es": "Años y siglos",
+    "it": "Anni e secoli",
+    "fr": "Années et siècles",
+    "de": "Jahre und Jahrhunderte",
+    "ru": "Годы и века",
+    "hu": "Évek és századok",
+    "pt": "Anos e séculos",
+    "ro": "Anii și secolele"
+  },
+  "locales": {
+    "en": {
+      "title": "Years and centuries",
+      "summary": "We say years in pairs of digits and name centuries with an ordinal.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We say years in pairs of digits, and we name centuries with an ordinal number."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**nineteen eighty-four** (1984)",
+                "**two thousand and five** (2005)",
+                "the **twenty-first** century"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "For years before 2000, say two pairs: nineteen ninety. After 2000, say two thousand, or twenty twenty-four in recent years. A century is named by the ordinal of its hundreds: the eighteenth century is the 1700s."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Year</th><th>Say</th></tr></thead><tbody><tr><td><strong>1990</strong></td><td>nineteen ninety</td></tr><tr><td><strong>2005</strong></td><td>two thousand and five</td></tr><tr><td><strong>2024</strong></td><td>twenty twenty-four</td></tr><tr><td><strong>1700s</strong></td><td>the eighteenth century</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

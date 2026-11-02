@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T05:L810",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "What adjectives do",
+    "es": "Para qué sirven los adjetivos",
+    "it": "A cosa servono gli aggettivi",
+    "fr": "À quoi servent les adjectifs",
+    "de": "Wozu Adjektive dienen",
+    "ru": "Для чего нужны прилагательные",
+    "hu": "Mire valók a melléknevek",
+    "pt": "Para que servem os adjetivos",
+    "ro": "Rolul adjectivelor"
+  },
+  "locales": {
+    "en": {
+      "title": "What adjectives do",
+      "summary": "An adjective describes a noun.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "An adjective describes a noun. It tells us what kind, what size, what colour or how many."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "a **tall** tree",
+                "a **cold** drink",
+                "an **interesting** book"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "An English adjective can come before a noun, or after a linking verb such as be or seem. It has only one form."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Position</th><th>Example</th></tr></thead><tbody><tr><td>before the noun</td><td><strong>a tall tree</strong></td></tr><tr><td>after be</td><td><strong>The tree is tall.</strong></td></tr><tr><td>after seem</td><td><strong>It seems easy.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

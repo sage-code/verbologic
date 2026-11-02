@@ -1,0 +1,134 @@
+{
+  "entity_id": "LT06T05:L999",
+  "order": 1,
+  "minutes": 2,
+  "terms": {
+    "en": "Banks and cards",
+    "es": "Bancos y tarjetas",
+    "it": "Banche e carte",
+    "fr": "Banques et cartes",
+    "de": "Banken und Karten",
+    "ru": "Банки и карты",
+    "hu": "Bankok és kártyák",
+    "pt": "Bancos e cartões",
+    "ro": "Bănci și carduri"
+  },
+  "locales": {
+    "en": {
+      "title": "Banks and cards",
+      "summary": "Accounts, debit and credit cards, and what to do if one is lost.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "About this lesson",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Banking is full of fixed phrases. This lesson describes the types of account and card and teaches you what to say when something goes wrong."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A customer is calling her bank in London because she cannot find her card."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Customer",
+                  "text": "Hello, I've lost my debit card."
+                },
+                {
+                  "speaker": "Agent",
+                  "text": "I'm sorry to hear that. I'll block it now. Have you checked your account for strange payments?"
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "Yes, there are none, but I used the card this morning."
+                },
+                {
+                  "speaker": "Agent",
+                  "text": "Thank you. I'll also order a new card, which will arrive within five working days."
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "Can I use my phone to pay in the meantime?"
+                },
+                {
+                  "speaker": "Agent",
+                  "text": "Yes, if you have added your card to your mobile wallet."
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "I have. Do I need to change my PIN?"
+                },
+                {
+                  "speaker": "Agent",
+                  "text": "You'll choose a new one when the card arrives."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. The present perfect reports a recent event with a present result.** I've lost my card explains why I cannot pay now. See Introduction to Grammar: Past tenses."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>have lost</strong></td><td><strong>I have lost my card.</strong></td></tr><tr><td><strong>has been blocked</strong></td><td><strong>The card has been blocked.</strong></td></tr><tr><td><strong>have you checked...?</strong></td><td><strong>Have you checked your account?</strong></td></tr><tr><td><strong>has arrived</strong></td><td><strong>The new card has arrived.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Will for decisions and arrangements.** The agent uses will for what she is going to do and for what happens next. See Introduction to Grammar: Future and other tenses."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>I'll + verb</strong></td><td><strong>I'll block it now.</strong></td></tr><tr><td><strong>will arrive</strong></td><td><strong>It will arrive within five days.</strong></td></tr><tr><td><strong>you'll + verb</strong></td><td><strong>You'll choose a new PIN.</strong></td></tr><tr><td><strong>won't</strong></td><td><strong>It won't take long.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "A debit card takes money straight from your account; a credit card lets you borrow.",
+                "Never share your PIN or your password.",
+                "Contactless means you tap the card instead of entering a PIN.",
+                "A mobile wallet stores your card details on a phone."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Culture note",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Most banks now have phone apps in which you can block a lost card immediately. Banks will never ask for your full PIN by phone or e-mail, so report such messages as fraud."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

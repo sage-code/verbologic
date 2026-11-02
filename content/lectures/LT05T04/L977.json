@@ -1,0 +1,134 @@
+{
+  "entity_id": "LT05T04:L977",
+  "order": 2,
+  "minutes": 2,
+  "terms": {
+    "en": "Airports and flights",
+    "es": "Aeropuertos y vuelos",
+    "it": "Aeroporti e voli",
+    "fr": "Aéroports et vols",
+    "de": "Flughäfen und Flüge",
+    "ru": "Аэропорты и рейсы",
+    "hu": "Repülőterek és járatok",
+    "pt": "Aeroportos e voos",
+    "ro": "Aeroporturi și zboruri"
+  },
+  "locales": {
+    "en": {
+      "title": "Airports and flights",
+      "summary": "Checking in, going through security and boarding, and understanding airport announcements.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "About this lesson",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "An airport has a fixed sequence: check-in, security, passport control, the gate and boarding. This lesson teaches the language for each step."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A passenger is checking in for a flight from Manchester to Dublin."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Agent",
+                  "text": "Good morning. May I see your passport?"
+                },
+                {
+                  "speaker": "Passenger",
+                  "text": "Here you are."
+                },
+                {
+                  "speaker": "Agent",
+                  "text": "Do you have any luggage to check in?"
+                },
+                {
+                  "speaker": "Passenger",
+                  "text": "One suitcase, and this small bag as hand luggage."
+                },
+                {
+                  "speaker": "Agent",
+                  "text": "Please put the suitcase on the scale. It is twenty-two kilos, which is fine."
+                },
+                {
+                  "speaker": "Agent",
+                  "text": "Your gate is twelve. Boarding starts at ten thirty, and you must be at the gate by ten fifty."
+                },
+                {
+                  "speaker": "Passenger",
+                  "text": "Is the flight on time?"
+                },
+                {
+                  "speaker": "Agent",
+                  "text": "Yes, at the moment. Have a good flight."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. May I and could you are formal requests.** Staff use them with passengers, and passengers use could I or can I. See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Phrase</th><th>Example</th></tr></thead><tbody><tr><td><strong>May I see...?</strong></td><td><strong>May I see your passport?</strong></td></tr><tr><td><strong>Could you open...?</strong></td><td><strong>Could you open your bag, please?</strong></td></tr><tr><td><strong>Do you have...?</strong></td><td><strong>Do you have any luggage to check in?</strong></td></tr><tr><td><strong>Please put...</strong></td><td><strong>Please put it on the scale.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Luggage is uncountable.** Use a piece of, a suitcase or some, but not a luggage. See Introduction to Grammar: Articles and determiners."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Correct</th><th>Incorrect</th></tr></thead><tbody><tr><td><strong>some luggage</strong></td><td>a luggage</td></tr><tr><td><strong>two suitcases</strong></td><td>two luggages</td></tr><tr><td><strong>a piece of luggage</strong></td><td>a luggage</td></tr><tr><td><strong>a lot of baggage</strong></td><td>many baggages</td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "A gate is where you board; a terminal is the airport building.",
+                "Hand luggage or carry-on is the bag you take on to the plane.",
+                "Check in means to give your suitcase and receive a boarding pass.",
+                "Arrive at least two hours before an international flight."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Culture note",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Liquids in hand luggage are limited at security, and you must usually take your laptop and coat out for scanning. Check the airline's rules on weight, because heavy suitcases often cost extra."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

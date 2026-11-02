@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T17:L890",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "What prepositions do",
+    "es": "Para qué sirven las preposiciones",
+    "it": "A cosa servono le preposizioni",
+    "fr": "À quoi servent les prépositions",
+    "de": "Wozu Präpositionen dienen",
+    "ru": "Для чего нужны предлоги",
+    "hu": "Mire valók az elöljárószók",
+    "pt": "Para que servem as preposições",
+    "ro": "Rolul prepozițiilor"
+  },
+  "locales": {
+    "en": {
+      "title": "What prepositions do",
+      "summary": "A preposition links a noun or pronoun to the rest of the sentence.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A preposition links a noun or pronoun to another word in the sentence. It shows place, time, direction, cause or means."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "The book is **on** the table.",
+                "We met **at** noon.",
+                "She came **by** bus."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A preposition is followed by a noun, a pronoun or an -ing form. English has no case endings, so prepositions do much of the work that endings do in other languages."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Shows</th><th>Example</th></tr></thead><tbody><tr><td><strong>in, on, at</strong></td><td>place or time</td><td><strong>in the box, at six</strong></td></tr><tr><td><strong>to, from</strong></td><td>direction</td><td><strong>to school</strong></td></tr><tr><td><strong>with, by</strong></td><td>means</td><td><strong>with a pen, by train</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

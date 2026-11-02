@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T10:L845",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "The verb to be",
+    "es": "El verbo ser",
+    "it": "Il verbo essere",
+    "fr": "Le verbe être",
+    "de": "Das Verb sein",
+    "ru": "Глагол «быть»",
+    "hu": "A „lenni” ige",
+    "pt": "O verbo ser",
+    "ro": "Verbul „a fi”"
+  },
+  "locales": {
+    "en": {
+      "title": "The verb to be",
+      "summary": "Be links a subject to a description, a place or an identity.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Be is the most important verb in English. It links a subject to a description, a place, an identity or a state."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **am** a student.",
+                "She **is** tired.",
+                "They **are** at home."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Be is irregular: am, is and are in the present; was and were in the past. The short forms are I'm, you're, he's, we're and they're. The negative adds not: isn't, aren't."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Subject</th><th>Present</th><th>Past</th></tr></thead><tbody><tr><td><strong>I</strong></td><td><strong>am</strong></td><td><strong>was</strong></td></tr><tr><td><strong>he, she, it</strong></td><td><strong>is</strong></td><td><strong>was</strong></td></tr><tr><td><strong>you, we, they</strong></td><td><strong>are</strong></td><td><strong>were</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

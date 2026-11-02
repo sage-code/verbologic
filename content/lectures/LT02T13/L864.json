@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T13:L864",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "The imperative",
+    "es": "El imperativo",
+    "it": "L'imperativo",
+    "fr": "L'impératif",
+    "de": "Der Imperativ",
+    "ru": "Повелительное наклонение",
+    "hu": "A felszólító mód",
+    "pt": "O imperativo",
+    "ro": "Imperativul"
+  },
+  "locales": {
+    "en": {
+      "title": "The imperative",
+      "summary": "The imperative gives an order, an instruction or an invitation.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The imperative gives an order, an instruction or an invitation."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Sit** down.",
+                "**Don't** touch it.",
+                "**Let's** begin."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The imperative uses the base form and no subject. For a negative, put don't before the verb. Let's invites a group, and please makes an order polite."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>affirmative</td><td><strong>Open the door.</strong></td></tr><tr><td>negative</td><td><strong>Don't open the door.</strong></td></tr><tr><td>invitation</td><td><strong>Let's open the door.</strong></td></tr><tr><td>polite</td><td><strong>Please open the door.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

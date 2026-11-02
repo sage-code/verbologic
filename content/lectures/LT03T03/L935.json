@@ -1,0 +1,81 @@
+{
+  "entity_id": "LT03T03:L935",
+  "order": 2,
+  "minutes": 2,
+  "terms": {
+    "en": "Age, height and build",
+    "es": "Edad, estatura y complexión",
+    "it": "Età, altezza e corporatura",
+    "fr": "Âge, taille et corpulence",
+    "de": "Alter, Größe und Statur",
+    "ru": "Возраст, рост и телосложение",
+    "hu": "Életkor, magasság és testalkat",
+    "pt": "Idade, altura e porte",
+    "ro": "Vârstă, înălțime și constituție"
+  },
+  "locales": {
+    "en": {
+      "title": "Age, height and build",
+      "summary": "How to say how old someone is and how tall and strong they are.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Age, height and build are basic facts about a person. Here is a short description.",
+                "Tom is thirty years old. He is one metre eighty tall, and he is slim and strong. His daughter is five. She is small for her age, but she is very lively. Tom's father is over sixty and is quite short."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Age uses be, not have.** We say he is thirty, not he has thirty years. We can add years old: he is thirty years old. See Introduction to Grammar: Present tense, being and having."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Say</th><th>Do not say</th></tr></thead><tbody><tr><td><strong>He is thirty.</strong></td><td>He has thirty years.</td></tr><tr><td><strong>She is five years old.</strong></td><td>She has five years.</td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. How asks about age and height.** Use how old for age and how tall for height. The adjective follows how, and the verb be comes next: How old is he? How tall are you? See Introduction to Grammar: Negation and questions."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody><tr><td><strong>How old is she?</strong></td><td><strong>She is five.</strong></td></tr><tr><td><strong>How tall is he?</strong></td><td><strong>He is one metre eighty.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Before a noun, the age is singular with hyphens: **a five-year-old girl**.",
+                "**Slim** is positive; **thin** is neutral; **skinny** can be negative.",
+                "**Over sixty** and **in his sixties** both mean between sixty and seventy."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In the United Kingdom and the United States, many people give their height in feet and inches, for example five foot ten, and their weight in stone or pounds."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

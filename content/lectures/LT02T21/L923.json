@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T21:L923",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "One word, two classes",
+    "es": "Una palabra, dos categorías",
+    "it": "Una parola, due categorie",
+    "fr": "Un mot, deux catégories",
+    "de": "Ein Wort, zwei Wortarten",
+    "ru": "Одно слово, две части речи",
+    "hu": "Egy szó, két szófaj",
+    "pt": "Uma palavra, duas classes",
+    "ro": "Un cuvânt, două categorii"
+  },
+  "locales": {
+    "en": {
+      "title": "One word, two classes",
+      "summary": "In English the same word can belong to two classes without any change.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In English the same word can belong to two or more word classes. This is called conversion."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "a **walk** and to **walk**",
+                "a **cook** and to **cook**",
+                "a **light** bag and the **light**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Conversion needs no ending. The class is shown by the position of the word and by the words around it. In some pairs the stress changes: an IMport, to imPORT."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Noun</th><th>Verb</th></tr></thead><tbody><tr><td><strong>a drink</strong></td><td><strong>to drink</strong></td></tr><tr><td><strong>a visit</strong></td><td><strong>to visit</strong></td></tr><tr><td><strong>a record</strong></td><td><strong>to record</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

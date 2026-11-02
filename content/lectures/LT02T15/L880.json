@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T15:L880",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "The infinitive after verbs",
+    "es": "El infinitivo después de los verbos",
+    "it": "L'infinito dopo i verbi",
+    "fr": "L'infinitif après les verbes",
+    "de": "Der Infinitiv nach Verben",
+    "ru": "Инфинитив после глаголов",
+    "hu": "A főnévi igenév igék után",
+    "pt": "O infinitivo depois dos verbos",
+    "ro": "Infinitivul după verbe"
+  },
+  "locales": {
+    "en": {
+      "title": "The infinitive after verbs",
+      "summary": "Many English verbs are followed by the to-infinitive.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Many English verbs are followed by the infinitive with to."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **want to** go.",
+                "She **decided to** stay.",
+                "They **hope to** win."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Common verbs with the to-infinitive include want, hope, decide, plan, promise and learn. After a modal verb the infinitive has no to. Some verbs take an object before to: I asked him to wait."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>verb + to</td><td><strong>We agreed to meet.</strong></td></tr><tr><td>verb + object + to</td><td><strong>She told me to wait.</strong></td></tr><tr><td>modal + base form</td><td><strong>He can swim.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T11:L856",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Completed and ongoing action: aspect",
+    "es": "Acción terminada y en curso: el aspecto",
+    "it": "Azione conclusa e azione in corso: l'aspetto",
+    "fr": "Action terminée et action en cours : l'aspect",
+    "de": "Abgeschlossene und andauernde Handlung: der Aspekt",
+    "ru": "Завершённое и длящееся действие: вид",
+    "hu": "Befejezett és folyamatos cselekvés: az igeaspektus",
+    "pt": "Ação concluída e em curso: o aspecto",
+    "ro": "Acțiune încheiată și acțiune în desfășurare: aspectul"
+  },
+  "locales": {
+    "en": {
+      "title": "Completed and ongoing action: aspect",
+      "summary": "Aspect shows whether an action is seen as finished, in progress or as a result.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Aspect shows how an action is seen: as a whole, as in progress or as completed. English shows it with the continuous and perfect forms."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **wrote** a letter. (the whole action)",
+                "I **was writing** a letter. (in progress)",
+                "I **have written** a letter. (result)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English combines tense and aspect. The simple form presents a whole action, the continuous looks inside it, and the perfect looks back at it from a later point."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Aspect</th><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>simple</td><td>write</td><td><strong>She wrote.</strong></td></tr><tr><td>continuous</td><td>be + -ing</td><td><strong>She was writing.</strong></td></tr><tr><td>perfect</td><td>have + participle</td><td><strong>She had written.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

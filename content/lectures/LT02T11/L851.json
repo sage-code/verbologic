@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T11:L851",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "The simple past",
+    "es": "El pasado simple",
+    "it": "Il passato semplice",
+    "fr": "Le passé simple",
+    "de": "Das einfache Präteritum",
+    "ru": "Простое прошедшее время",
+    "hu": "Az egyszerű múlt idő",
+    "pt": "O passado simples",
+    "ro": "Trecutul simplu"
+  },
+  "locales": {
+    "en": {
+      "title": "The simple past",
+      "summary": "The simple past tells about a finished action at a definite time.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The simple past tells about a finished action at a definite time in the past."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **called** her yesterday.",
+                "They **arrived** at six.",
+                "We **went** to Paris in 2019."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Regular verbs add -ed, and irregular verbs have their own past form. Questions and negatives use did with the base form."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>affirmative</td><td><strong>She worked.</strong></td></tr><tr><td>negative</td><td><strong>She didn't work.</strong></td></tr><tr><td>question</td><td><strong>Did she work?</strong></td></tr><tr><td>irregular</td><td><strong>go, went; see, saw</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

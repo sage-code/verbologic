@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T14:L872",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "When to use the passive",
+    "es": "Cuándo usar la pasiva",
+    "it": "Quando usare il passivo",
+    "fr": "Quand employer le passif",
+    "de": "Wann man das Passiv verwendet",
+    "ru": "Когда употребляется страдательный залог",
+    "hu": "Mikor használjuk a szenvedő szerkezetet",
+    "pt": "Quando usar a voz passiva",
+    "ro": "Când folosim pasivul"
+  },
+  "locales": {
+    "en": {
+      "title": "When to use the passive",
+      "summary": "Use the passive when the doer is unknown, unimportant or obvious.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use the passive when the doer is unknown, unimportant or obvious, or when you want to put the receiver first."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "My bike **was stolen**. (doer unknown)",
+                "English **is spoken** here. (doer obvious)",
+                "The window **was broken**. (doer unimportant)"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The passive is common in news, science and formal writing. In ordinary speech the active is usually clearer, so choose the active unless you have a reason."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Reason</th><th>Example</th></tr></thead><tbody><tr><td>doer unknown</td><td><strong>The shop was robbed.</strong></td></tr><tr><td>doer obvious</td><td><strong>He was arrested.</strong></td></tr><tr><td>focus on the receiver</td><td><strong>The prize was won by a student.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

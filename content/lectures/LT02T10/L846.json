@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T10:L846",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "The verb to have",
+    "es": "El verbo tener",
+    "it": "Il verbo avere",
+    "fr": "Le verbe avoir",
+    "de": "Das Verb haben",
+    "ru": "Глагол «иметь»",
+    "hu": "A „birtokolni” ige",
+    "pt": "O verbo ter",
+    "ro": "Verbul „a avea”"
+  },
+  "locales": {
+    "en": {
+      "title": "The verb to have",
+      "summary": "Have shows possession and relationship, and it is also an auxiliary.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Have shows possession, relationship and experience. It is also an auxiliary verb."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **have** a sister.",
+                "She **has** blue eyes.",
+                "We **have** a meeting."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The present is have, but has for he, she and it. In British English have got is also common: I've got a car. For questions and negatives with the main verb, use do: Do you have time?"
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Subject</th><th>Present</th><th>Negative</th></tr></thead><tbody><tr><td><strong>I, you, we, they</strong></td><td><strong>have</strong></td><td><strong>don't have</strong></td></tr><tr><td><strong>he, she, it</strong></td><td><strong>has</strong></td><td><strong>doesn't have</strong></td></tr><tr><td><strong>have got</strong></td><td><strong>I've got</strong></td><td><strong>I haven't got</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

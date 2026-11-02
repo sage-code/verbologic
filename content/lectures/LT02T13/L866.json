@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T13:L866",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "The subjunctive",
+    "es": "El subjuntivo",
+    "it": "Il congiuntivo",
+    "fr": "Le subjonctif",
+    "de": "Der Konjunktiv",
+    "ru": "Сослагательное наклонение",
+    "hu": "A kötőmód",
+    "pt": "O subjuntivo",
+    "ro": "Conjunctivul"
+  },
+  "locales": {
+    "en": {
+      "title": "The subjunctive",
+      "summary": "The subjunctive expresses a wish, a demand or an unreal situation; in English it is rare and formal.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The subjunctive expresses a wish, a demand or an unreal situation. In English it is rare and mostly formal."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I suggest that he **be** present.",
+                "It is important that she **arrive** on time.",
+                "If I **were** you, I would go."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The present subjunctive uses the base form of the verb, even for he, she and it. The past subjunctive of be is were for every person. In everyday speech people often use should or the ordinary form instead."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>demand</td><td><strong>They insist that he leave.</strong></td></tr><tr><td>suggestion</td><td><strong>I suggest that she see a doctor.</strong></td></tr><tr><td>unreal condition</td><td><strong>If I were rich, I would travel.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

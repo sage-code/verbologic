@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T06:L822",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Plural and inclusive pronouns",
+    "es": "Pronombres plurales e inclusivos",
+    "it": "Pronomi plurali e inclusivi",
+    "fr": "Pronoms pluriels et inclusifs",
+    "de": "Plural- und inklusive Pronomen",
+    "ru": "Местоимения множественного числа и включающее «мы»",
+    "hu": "Többes számú és befogadó névmások",
+    "pt": "Pronomes plurais e inclusivos",
+    "ro": "Pronume la plural și incluzive"
+  },
+  "locales": {
+    "en": {
+      "title": "Plural and inclusive pronouns",
+      "summary": "English has one we, which may or may not include the listener.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We, you and they are the plural pronouns. Some languages have two words for we: one that includes the listener and one that does not. English has only one."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**We** are friends.",
+                "Do **you** all agree?",
+                "**They** live next door."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The English we can include or exclude the listener, and the context decides. To be clear, add a phrase such as all of us, both of us or you and I."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td>listener included</td><td><strong>We should all go.</strong></td></tr><tr><td>listener excluded</td><td><strong>We are leaving; you stay.</strong></td></tr><tr><td>made clear</td><td><strong>all of us, both of us</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

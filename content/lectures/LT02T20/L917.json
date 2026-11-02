@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T20:L917",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Agreement inside the noun phrase",
+    "es": "La concordancia en el grupo nominal",
+    "it": "L'accordo nel gruppo nominale",
+    "fr": "L'accord dans le groupe nominal",
+    "de": "Übereinstimmung in der Nominalgruppe",
+    "ru": "Согласование внутри именной группы",
+    "hu": "Egyeztetés a névszói csoporton belül",
+    "pt": "A concordância no grupo nominal",
+    "ro": "Acordul în grupul nominal"
+  },
+  "locales": {
+    "en": {
+      "title": "Agreement inside the noun phrase",
+      "summary": "Inside a noun phrase, only a few English words agree in number with the noun.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Inside a noun phrase, some words must agree in number with the noun."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**this** book, **these** books",
+                "**one** child, **two** children",
+                "**a** dog, **some** dogs"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In English only this, that, a, an and the numbers agree with the noun; adjectives do not change. Use a or an with a singular countable noun, and some or nothing with a plural."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>this old house</strong></td><td><strong>these old houses</strong></td></tr><tr><td><strong>a red car</strong></td><td><strong>two red cars</strong></td></tr><tr><td><strong>that big dog</strong></td><td><strong>those big dogs</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

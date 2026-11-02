@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T13:L868",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Wishes and hypotheses",
+    "es": "Deseos e hipótesis",
+    "it": "Desideri e ipotesi",
+    "fr": "Souhaits et hypothèses",
+    "de": "Wünsche und Hypothesen",
+    "ru": "Желания и предположения",
+    "hu": "Kívánságok és feltevések",
+    "pt": "Desejos e hipóteses",
+    "ro": "Dorințe și ipoteze"
+  },
+  "locales": {
+    "en": {
+      "title": "Wishes and hypotheses",
+      "summary": "Wish, if only and suppose express wishes and imagined situations.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We express a wish with wish or if only, and a hypothesis with suppose or what if."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **wish** I had more time.",
+                "**If only** it were summer!",
+                "**Suppose** you won the lottery."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "After wish, use the simple past for a wish about the present, and the past perfect for a wish about the past. Use would for something that annoys you."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>About</th><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>present</td><td>wish + past</td><td><strong>I wish I knew.</strong></td></tr><tr><td>past</td><td>wish + past perfect</td><td><strong>I wish I had called.</strong></td></tr><tr><td>future</td><td>wish + would</td><td><strong>I wish it would stop.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T08:L834",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Telling the time",
+    "es": "Decir la hora",
+    "it": "Dire l'ora",
+    "fr": "Dire l'heure",
+    "de": "Die Uhrzeit angeben",
+    "ru": "Как назвать время",
+    "hu": "Az idő megadása",
+    "pt": "Dizer as horas",
+    "ro": "Cum spunem ora"
+  },
+  "locales": {
+    "en": {
+      "title": "Telling the time",
+      "summary": "We tell the time with the numbers of the clock and a few small words.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We tell the time with the numbers on the clock and a few small words: past, to, half, quarter and o'clock."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "It is **seven o'clock**.",
+                "It is **half past eight**.",
+                "It is **a quarter to ten**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "For the minutes up to thirty use past, and after thirty use to. Americans often say after instead of past. In writing, a.m. and p.m. are used instead of the 24-hour clock."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Time</th><th>Say</th></tr></thead><tbody><tr><td><strong>7:00</strong></td><td>seven o'clock</td></tr><tr><td><strong>7:15</strong></td><td>a quarter past seven</td></tr><tr><td><strong>7:30</strong></td><td>half past seven</td></tr><tr><td><strong>7:45</strong></td><td>a quarter to eight</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

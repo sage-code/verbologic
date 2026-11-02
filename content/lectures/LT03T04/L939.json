@@ -1,0 +1,109 @@
+{
+  "entity_id": "LT03T04:L939",
+  "order": 2,
+  "minutes": 2,
+  "terms": {
+    "en": "Accepting and refusing an invitation",
+    "es": "Aceptar y rechazar una invitación",
+    "it": "Accettare e rifiutare un invito",
+    "fr": "Accepter et refuser une invitation",
+    "de": "Eine Einladung annehmen und ablehnen",
+    "ru": "Принять приглашение и отказаться",
+    "hu": "Meghívás elfogadása és elutasítása",
+    "pt": "Aceitar e recusar um convite",
+    "ro": "Acceptarea și refuzul unei invitații"
+  },
+  "locales": {
+    "en": {
+      "title": "Accepting and refusing an invitation",
+      "summary": "How to say yes or no politely.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A good reply to an invitation is clear and kind. Emma invites Jon to a party and Jon cannot come."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Emma",
+                  "text": "I'm having a party on Friday. Can you come?"
+                },
+                {
+                  "speaker": "Jon",
+                  "text": "Thank you for asking. I'd love to, but I'm afraid I can't."
+                },
+                {
+                  "speaker": "Emma",
+                  "text": "Oh, what a pity. Are you busy?"
+                },
+                {
+                  "speaker": "Jon",
+                  "text": "Yes, I have to work late. Maybe next time?"
+                },
+                {
+                  "speaker": "Emma",
+                  "text": "Of course. I'll let you know about the next one."
+                },
+                {
+                  "speaker": "Jon",
+                  "text": "Thanks. Have a great party!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. A polite refusal has three parts.** Thank the person, say you are sorry, and give a short reason. Use I'm afraid I can't or I'm sorry, I can't. See Introduction to Grammar: Modal verbs and non-finite forms."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Part</th><th>Example</th></tr></thead><tbody><tr><td>thanks</td><td><strong>Thank you for asking.</strong></td></tr><tr><td>sorry</td><td><strong>I'm afraid I can't.</strong></td></tr><tr><td>reason</td><td><strong>I have to work late.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Have to gives a reason and can shows ability.** Have to means a duty or an outside rule: I have to work. Can means you are able or free: I can come. The negative is can't. See Introduction to Grammar: Modal verbs and non-finite forms."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Verb</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>can</strong></td><td>able or free</td><td><strong>I can come.</strong></td></tr><tr><td><strong>can't</strong></td><td>not able</td><td><strong>I can't come.</strong></td></tr><tr><td><strong>have to</strong></td><td>duty</td><td><strong>I have to work.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**I'd love to** accepts warmly. **That sounds great** is also friendly.",
+                "A short **no** can sound rude. Add a reason, or say **Maybe next time.**",
+                "To accept, you can say **Yes, I'd love to** or **Yes, please.**"
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English speakers often avoid a direct no. Phrases such as I'm afraid or Maybe next time make a refusal gentler."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

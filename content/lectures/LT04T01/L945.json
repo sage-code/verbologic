@@ -1,0 +1,113 @@
+{
+  "entity_id": "LT04T01:L945",
+  "order": 1,
+  "minutes": 2,
+  "terms": {
+    "en": "The kitchen and the dining room",
+    "es": "La cocina y el comedor",
+    "it": "La cucina e la sala da pranzo",
+    "fr": "La cuisine et la salle à manger",
+    "de": "Küche und Esszimmer",
+    "ru": "Кухня и столовая",
+    "hu": "A konyha és az étkező",
+    "pt": "A cozinha e a sala de jantar",
+    "ro": "Bucătăria și sufrageria"
+  },
+  "locales": {
+    "en": {
+      "title": "The kitchen and the dining room",
+      "summary": "The things in the kitchen and at the table, and how to ask for them politely.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Dinner is almost ready. Anna asks her brother Ben to help her lay the table."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Anna",
+                  "text": "Ben, can you set the table, please?"
+                },
+                {
+                  "speaker": "Ben",
+                  "text": "Of course. Where are the plates?"
+                },
+                {
+                  "speaker": "Anna",
+                  "text": "They are in the cupboard next to the fridge."
+                },
+                {
+                  "speaker": "Ben",
+                  "text": "And the knives and forks?"
+                },
+                {
+                  "speaker": "Anna",
+                  "text": "They are in the drawer under the sink."
+                },
+                {
+                  "speaker": "Ben",
+                  "text": "Got them. Do we need glasses too?"
+                },
+                {
+                  "speaker": "Anna",
+                  "text": "Yes, four glasses, please."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Can you...? asks for help politely.** Can is a modal verb, so the main verb stays in its base form. Add please to be polite. See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Request</th><th>Reply</th></tr></thead><tbody><tr><td><strong>Can you set the table, please?</strong></td><td><strong>Of course.</strong></td></tr><tr><td><strong>Can you pass the salt?</strong></td><td><strong>Sure, here you are.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Countable nouns have a plural.** Most plurals add -s: plate, plates; fork, forks. Some change: knife becomes knives. Use a number or some before them. See Introduction to Grammar: Substantives (nouns)."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>plate</strong></td><td><strong>plates</strong></td></tr><tr><td><strong>glass</strong></td><td><strong>glasses</strong></td></tr><tr><td><strong>knife</strong></td><td><strong>knives</strong></td></tr><tr><td><strong>cup</strong></td><td><strong>cups</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**Lay the table** and **set the table** mean the same thing.",
+                "The fridge is short for refrigerator. The word cooker means the stove in British English.",
+                "Cutlery means knives, forks and spoons together. It has no plural form."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In many British families the evening meal is eaten at a table, but it is also common to eat in front of the television. Sunday lunch is usually the biggest meal of the week."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T05:L813",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "The comparative",
+    "es": "El comparativo",
+    "it": "Il comparativo",
+    "fr": "Le comparatif",
+    "de": "Der Komparativ",
+    "ru": "Сравнительная степень",
+    "hu": "A középfok",
+    "pt": "O comparativo",
+    "ro": "Comparativul"
+  },
+  "locales": {
+    "en": {
+      "title": "The comparative",
+      "summary": "The comparative compares two things.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The comparative compares two things or two people."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Anna is **taller than** Tom.",
+                "This book is **more interesting** than that one.",
+                "It is **hotter** today."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Short adjectives add -er and long adjectives use more. Use than to name the second thing. A final e adds only r, and a single consonant after a short vowel is doubled."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Rule</th><th>Adjective</th><th>Comparative</th></tr></thead><tbody><tr><td>add -er</td><td><strong>tall</strong></td><td><strong>taller</strong></td></tr><tr><td>double the consonant</td><td><strong>big</strong></td><td><strong>bigger</strong></td></tr><tr><td>y becomes ier</td><td><strong>easy</strong></td><td><strong>easier</strong></td></tr><tr><td>use more</td><td><strong>beautiful</strong></td><td><strong>more beautiful</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

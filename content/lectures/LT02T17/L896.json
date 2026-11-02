@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T17:L896",
+  "order": 6,
+  "minutes": 1,
+  "terms": {
+    "en": "Subject, object and possession",
+    "es": "Sujeto, objeto y posesión",
+    "it": "Soggetto, oggetto e possesso",
+    "fr": "Sujet, objet et possession",
+    "de": "Subjekt, Objekt und Besitz",
+    "ru": "Подлежащее, дополнение и принадлежность",
+    "hu": "Alany, tárgy és birtoklás",
+    "pt": "Sujeito, objeto e posse",
+    "ro": "Subiect, complement și posesie"
+  },
+  "locales": {
+    "en": {
+      "title": "Subject, object and possession",
+      "summary": "Word order shows who does what, and the possessive shows who owns.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In English the order of the words shows who does what, and the possessive shows who owns something."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**The dog** chased **the cat**.",
+                "**The cat** chased **the dog**.",
+                "the **dog's** bone"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The subject comes before the verb and the object after it. Possession is shown with 's for people and animals, and with of for things: the leg of the table."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>subject, verb, object</td><td><strong>Anna loves Tom.</strong></td></tr><tr><td>'s possessive</td><td><strong>Anna's book</strong></td></tr><tr><td>of possessive</td><td><strong>the end of the day</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

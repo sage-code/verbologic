@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T18:L900",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Yes-or-no questions",
+    "es": "Preguntas de sí o no",
+    "it": "Domande con risposta sì o no",
+    "fr": "Questions fermées",
+    "de": "Ja-nein-Fragen",
+    "ru": "Общие вопросы",
+    "hu": "Eldöntendő kérdések",
+    "pt": "Perguntas de sim ou não",
+    "ro": "Întrebări cu răspuns da sau nu"
+  },
+  "locales": {
+    "en": {
+      "title": "Yes-or-no questions",
+      "summary": "A yes-or-no question puts the auxiliary before the subject.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A yes-or-no question expects the answer yes or no."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Are** you tired?",
+                "**Do** they live here?",
+                "**Can** she swim?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Put the auxiliary before the subject. With a simple present or simple past verb, add do, does or did. The main verb stays in the base form."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Statement</th><th>Question</th></tr></thead><tbody><tr><td><strong>You are tired.</strong></td><td><strong>Are you tired?</strong></td></tr><tr><td><strong>They live here.</strong></td><td><strong>Do they live here?</strong></td></tr><tr><td><strong>She swam.</strong></td><td><strong>Did she swim?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T09:L839",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Stem and endings",
+    "es": "Raíz y terminaciones",
+    "it": "Radice e desinenze",
+    "fr": "Radical et terminaisons",
+    "de": "Stamm und Endungen",
+    "ru": "Основа и окончания",
+    "hu": "Tő és ragok",
+    "pt": "Radical e terminações",
+    "ro": "Tema și terminațiile"
+  },
+  "locales": {
+    "en": {
+      "title": "Stem and endings",
+      "summary": "A verb has a stem that carries the meaning and endings that carry grammar.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A verb has a stem, which carries the meaning, and it can take endings that carry grammar."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "walk + **s** = walks",
+                "walk + **ed** = walked",
+                "walk + **ing** = walking"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English verbs have few endings: -s for the third person singular, -ed for the past and -ing for continuous forms. The base form is the same as the stem."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Ending</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>-s</strong></td><td>he, she, it, present</td><td><strong>walks</strong></td></tr><tr><td><strong>-ed</strong></td><td>past</td><td><strong>walked</strong></td></tr><tr><td><strong>-ing</strong></td><td>continuous</td><td><strong>walking</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

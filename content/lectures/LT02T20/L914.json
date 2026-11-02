@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T20:L914",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Order of objects and adverbs",
+    "es": "Orden de complementos y adverbios",
+    "it": "Ordine di complementi e avverbi",
+    "fr": "Ordre des compléments et des adverbes",
+    "de": "Stellung von Objekten und Adverbien",
+    "ru": "Порядок дополнений и наречий",
+    "hu": "A tárgyak és határozók sorrendje",
+    "pt": "Ordem dos complementos e dos advérbios",
+    "ro": "Ordinea complementelor și a adverbelor"
+  },
+  "locales": {
+    "en": {
+      "title": "Order of objects and adverbs",
+      "summary": "With several objects or adverbs, English follows a usual order.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "When a sentence has more than one object or adverb, English has a usual order for them."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "She gave **him a book**.",
+                "She gave **a book to him**.",
+                "He ran **quickly to the door**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "An indirect object comes before the direct object, or after it with to or for. The usual order of adverbials is manner, then place, then time."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>indirect before direct</td><td><strong>I sent her a letter.</strong></td></tr><tr><td>with to</td><td><strong>I sent a letter to her.</strong></td></tr><tr><td>manner, place, time</td><td><strong>He worked hard at home yesterday.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

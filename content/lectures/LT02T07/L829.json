@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T07:L829",
+  "order": 6,
+  "minutes": 1,
+  "terms": {
+    "en": "Relative pronouns",
+    "es": "Los pronombres relativos",
+    "it": "I pronomi relativi",
+    "fr": "Les pronoms relatifs",
+    "de": "Relativpronomen",
+    "ru": "Относительные местоимения",
+    "hu": "Vonatkozó névmások",
+    "pt": "Os pronomes relativos",
+    "ro": "Pronumele relative"
+  },
+  "locales": {
+    "en": {
+      "title": "Relative pronouns",
+      "summary": "A relative pronoun begins a clause that adds information about a noun.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A relative pronoun introduces a clause that gives more information about a noun. English has who, whom, whose, which and that."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "The man **who** called is my uncle.",
+                "The book **that** I read was long.",
+                "A friend **whose** car broke down came."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use who for people, which for things, and that for either. Whose shows possession. In everyday speech the pronoun can be left out when it is the object: The book I read was long."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pronoun</th><th>Refers to</th><th>Example</th></tr></thead><tbody><tr><td><strong>who</strong></td><td>people</td><td><strong>the girl who sings</strong></td></tr><tr><td><strong>which</strong></td><td>things</td><td><strong>the song which she sang</strong></td></tr><tr><td><strong>that</strong></td><td>people or things</td><td><strong>the song that she sang</strong></td></tr><tr><td><strong>whose</strong></td><td>the owner</td><td><strong>the girl whose song won</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

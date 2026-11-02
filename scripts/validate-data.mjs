@@ -305,10 +305,15 @@ try {
             }
           } else {
             // One topic list serves every language: each item must say which
-            // language it teaches, or it would be offered to all nine.
+            // language it teaches, or it would be offered to all nine. Exception:
+            // a lecture article item may be SHARED (no `target`): the same item for
+            // every language, each language writing its own article text in its own
+            // `locales` entry. A `target`, when present, must still be a locale.
+            const sharedArticles = sidebar.id === 'library/lectures' && topic.layout === 'article'
             for (const id of topic.items ?? []) {
               const manifest = manifestById.get(`${topic.code}\n${id}`)
               if (!manifest) continue // planned item — nothing to check yet
+              if (sharedArticles && manifest.target === undefined) continue
               if (typeof manifest.target !== 'string' || !localeCodesAll.includes(manifest.target)) {
                 ERRORS.push(
                   `sidebar ${sidebar.id} · ${topic.code}: directional item '${id}' has no manifest 'target' (the language it teaches)`

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T20:L915",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Emphasis and inversion",
+    "es": "Énfasis e inversión",
+    "it": "Enfasi e inversione",
+    "fr": "Mise en relief et inversion",
+    "de": "Betonung und Inversion",
+    "ru": "Выделение и инверсия",
+    "hu": "Hangsúly és inverzió",
+    "pt": "Ênfase e inversão",
+    "ro": "Accentul și inversiunea"
+  },
+  "locales": {
+    "en": {
+      "title": "Emphasis and inversion",
+      "summary": "English can change the usual order for emphasis; inversion puts the verb before the subject.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English can change the usual order to give emphasis. Inversion puts the verb or auxiliary before the subject."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Never have I seen** such a view.",
+                "**Rarely does she** complain.",
+                "**Here comes** the bus."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Inversion happens after negative adverbs at the start of a sentence, such as never, rarely and hardly, and after here and there. It is common in writing. A cleft sentence with it is also used: It was Anna who called."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>negative adverb, then inversion</td><td><strong>Never have I been so happy.</strong></td></tr><tr><td>here or there, then the verb</td><td><strong>There goes the train.</strong></td></tr><tr><td>cleft with it</td><td><strong>It was Tom who called.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

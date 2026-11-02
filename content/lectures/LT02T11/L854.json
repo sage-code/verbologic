@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T11:L854",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "The past perfect",
+    "es": "El pretérito pluscuamperfecto",
+    "it": "Il trapassato",
+    "fr": "Le plus-que-parfait",
+    "de": "Das Plusquamperfekt",
+    "ru": "Предпрошедшее время",
+    "hu": "A régmúlt",
+    "pt": "O mais-que-perfeito",
+    "ro": "Mai-mult-ca-perfectul"
+  },
+  "locales": {
+    "en": {
+      "title": "The past perfect",
+      "summary": "The past perfect shows that one past action came before another.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The past perfect describes an action that was completed before another action or time in the past."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "When I arrived, the film **had started**.",
+                "She **had left** before noon.",
+                "He said he **had finished**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Form it with had and the past participle. It is used together with the simple past, and the past perfect shows the earlier event."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>affirmative</td><td><strong>She had gone.</strong></td></tr><tr><td>negative</td><td><strong>She hadn't gone.</strong></td></tr><tr><td>two events</td><td><strong>I had eaten before they came.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

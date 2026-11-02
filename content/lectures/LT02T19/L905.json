@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T19:L905",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "Coordinating conjunctions",
+    "es": "Conjunciones coordinantes",
+    "it": "Congiunzioni coordinanti",
+    "fr": "Conjonctions de coordination",
+    "de": "Beiordnende Konjunktionen",
+    "ru": "Сочинительные союзы",
+    "hu": "Mellérendelő kötőszók",
+    "pt": "Conjunções coordenativas",
+    "ro": "Conjuncții coordonatoare"
+  },
+  "locales": {
+    "en": {
+      "title": "Coordinating conjunctions",
+      "summary": "Coordinating conjunctions join parts of equal rank.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Coordinating conjunctions join words, phrases or clauses of equal rank. The main ones are and, but, or, so, for, nor and yet."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "tea **and** coffee",
+                "I tried, **but** I failed.",
+                "Stay **or** go."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A comma usually comes before the conjunction when it joins two full clauses: It was late, so we left. Do not use a comma when the subject is shared: She sang and danced."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Conjunction</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>and</strong></td><td>addition</td><td><strong>We ate and talked.</strong></td></tr><tr><td><strong>but, yet</strong></td><td>contrast</td><td><strong>It was small, but comfortable.</strong></td></tr><tr><td><strong>or</strong></td><td>choice</td><td><strong>Tea or coffee?</strong></td></tr><tr><td><strong>so</strong></td><td>result</td><td><strong>It rained, so we stayed.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

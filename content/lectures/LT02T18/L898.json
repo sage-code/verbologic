@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T18:L898",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "Negating a verb",
+    "es": "Negar un verbo",
+    "it": "Negare un verbo",
+    "fr": "Nier un verbe",
+    "de": "Ein Verb verneinen",
+    "ru": "Отрицание глагола",
+    "hu": "Az ige tagadása",
+    "pt": "Negar um verbo",
+    "ro": "Negarea verbului"
+  },
+  "locales": {
+    "en": {
+      "title": "Negating a verb",
+      "summary": "English makes a verb negative with not after the auxiliary.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "To make a verb negative, English puts not after the first auxiliary verb."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "She **is not** here.",
+                "I **do not** know.",
+                "They **have not** arrived."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "If there is no auxiliary, add do, does or did. The usual short forms are isn't, don't, doesn't and didn't. Not follows a modal verb, and cannot is written as one word."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Statement</th><th>Negative</th></tr></thead><tbody><tr><td><strong>She is here.</strong></td><td><strong>She isn't here.</strong></td></tr><tr><td><strong>I know.</strong></td><td><strong>I don't know.</strong></td></tr><tr><td><strong>He left.</strong></td><td><strong>He didn't leave.</strong></td></tr><tr><td><strong>We can go.</strong></td><td><strong>We can't go.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

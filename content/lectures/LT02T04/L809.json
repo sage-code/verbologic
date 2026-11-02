@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T04:L809",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "Quantifiers: some, many, few",
+    "es": "Los cuantificadores: algunos, muchos, pocos",
+    "it": "I quantificatori: alcuni, molti, pochi",
+    "fr": "Les quantificateurs : quelques, beaucoup, peu",
+    "de": "Mengenwörter: einige, viele, wenige",
+    "ru": "Количественные слова: некоторые, много, мало",
+    "hu": "A mennyiséget jelölő szavak: néhány, sok, kevés",
+    "pt": "Os quantificadores: alguns, muitos, poucos",
+    "ro": "Cuantificatorii: unii, mulți, puțini"
+  },
+  "locales": {
+    "en": {
+      "title": "Quantifiers: some, many, few",
+      "summary": "Quantifiers say how much or how many.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Quantifiers tell us how much or how many. Some go with countable nouns, some with uncountable nouns, and some with both."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**many** books",
+                "**much** time",
+                "**some** water, **some** books"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use many, few and a few with countable nouns, and much, little and a little with uncountable ones. Some, any, a lot of and no go with both. Few and little mean almost none, while a few and a little mean some."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Countable</th><th>Uncountable</th></tr></thead><tbody><tr><td><strong>many, few, a few</strong></td><td><strong>much, little, a little</strong></td></tr><tr><td><strong>a lot of</strong></td><td><strong>a lot of</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

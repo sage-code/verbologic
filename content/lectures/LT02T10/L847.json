@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T10:L847",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "The simple present",
+    "es": "El presente simple",
+    "it": "Il presente semplice",
+    "fr": "Le présent simple",
+    "de": "Das einfache Präsens",
+    "ru": "Простое настоящее время",
+    "hu": "Az egyszerű jelen idő",
+    "pt": "O presente simples",
+    "ro": "Prezentul simplu"
+  },
+  "locales": {
+    "en": {
+      "title": "The simple present",
+      "summary": "The simple present describes habits, facts and things that are always true.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The simple present describes habits, facts and things that are always true."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I **work** here.",
+                "The sun **rises** in the east.",
+                "She **speaks** three languages."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use the base form, and add -s for he, she and it. Questions and negatives use do and does with the base form."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>affirmative</td><td><strong>He works.</strong></td></tr><tr><td>negative</td><td><strong>He doesn't work.</strong></td></tr><tr><td>question</td><td><strong>Does he work?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

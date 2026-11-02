@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T04:L808",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Possessives: my, your, his",
+    "es": "Los posesivos: mi, tu, su",
+    "it": "I possessivi: mio, tuo, suo",
+    "fr": "Les possessifs : mon, ton, son",
+    "de": "Possessiva: mein, dein, sein",
+    "ru": "Притяжательные слова: мой, твой, его",
+    "hu": "A birtokos szavak: az én, a te, az ő",
+    "pt": "Os possessivos: meu, teu, seu",
+    "ro": "Posesivele: meu, tău, său"
+  },
+  "locales": {
+    "en": {
+      "title": "Possessives: my, your, his",
+      "summary": "Possessives show who owns something and stand before the noun.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Possessives show who owns something. The English possessive words that stand before a noun are my, your, his, her, its, our and their."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**My** bag is red.",
+                "**Her** brother lives here.",
+                "**Their** house is big."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A possessive agrees with the owner, not with the thing owned: his for a man, her for a woman. Do not use an article with it."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Owner</th><th>Possessive</th></tr></thead><tbody><tr><td>I</td><td><strong>my</strong></td></tr><tr><td>he, she, it</td><td><strong>his, her, its</strong></td></tr><tr><td>we, they</td><td><strong>our, their</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

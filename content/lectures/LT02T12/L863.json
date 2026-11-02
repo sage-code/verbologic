@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T12:L863",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Time clauses and the future",
+    "es": "Oraciones temporales y el futuro",
+    "it": "Subordinate temporali e il futuro",
+    "fr": "Propositions de temps et futur",
+    "de": "Zeitsätze und die Zukunft",
+    "ru": "Придаточные времени и будущее",
+    "hu": "Időhatározói mellékmondatok és a jövő",
+    "pt": "Orações temporais e o futuro",
+    "ro": "Propoziții de timp și viitorul"
+  },
+  "locales": {
+    "en": {
+      "title": "Time clauses and the future",
+      "summary": "After when, after, before and until, English uses the present for the future.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "After words such as when, after, before, as soon as and until, English uses a present tense even when it means the future."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "I will call you **when I arrive**.",
+                "**After she leaves**, we will eat.",
+                "Wait **until he comes**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Do not use will in the time clause: we do not say when I will arrive. The main clause can use will, and the time clause uses the simple present."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Time clause</th><th>Main clause</th></tr></thead><tbody><tr><td><strong>When I arrive,</strong></td><td><strong>I will call you.</strong></td></tr><tr><td><strong>As soon as it stops,</strong></td><td><strong>we will go out.</strong></td></tr><tr><td><strong>Before you leave,</strong></td><td><strong>you will need a ticket.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

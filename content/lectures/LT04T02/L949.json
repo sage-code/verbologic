@@ -1,0 +1,109 @@
+{
+  "entity_id": "LT04T02:L949",
+  "order": 1,
+  "minutes": 2,
+  "terms": {
+    "en": "Going to work or school",
+    "es": "Ir al trabajo o a la escuela",
+    "it": "Andare al lavoro o a scuola",
+    "fr": "Aller au travail ou à l'école",
+    "de": "Der Weg zur Arbeit oder zur Schule",
+    "ru": "Дорога на работу или в школу",
+    "hu": "Úton a munkába vagy az iskolába",
+    "pt": "Ir para o trabalho ou a escola",
+    "ro": "Drumul spre serviciu sau școală"
+  },
+  "locales": {
+    "en": {
+      "title": "Going to work or school",
+      "summary": "How people travel to work or school, and how to talk about time and distance.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Two neighbours meet at the bus stop on Monday morning."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Jack",
+                  "text": "Good morning, Helen. Are you going to work?"
+                },
+                {
+                  "speaker": "Helen",
+                  "text": "Yes. I take the bus, and then I walk for ten minutes."
+                },
+                {
+                  "speaker": "Jack",
+                  "text": "How long does the journey take?"
+                },
+                {
+                  "speaker": "Helen",
+                  "text": "About forty minutes. What about you?"
+                },
+                {
+                  "speaker": "Jack",
+                  "text": "I cycle to school. I teach there. It only takes fifteen minutes."
+                },
+                {
+                  "speaker": "Helen",
+                  "text": "That sounds nice. Oh, here comes my bus!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Questions with do and does.** In the present simple, questions use do or does before the subject, and the main verb stays in its base form. See Introduction to Grammar: Questions and negation."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Subject</th><th>Question</th></tr></thead><tbody><tr><td>I / you / we / they</td><td><strong>Do you take the bus?</strong></td></tr><tr><td>he / she / it</td><td><strong>Does she cycle to work?</strong></td></tr><tr><td>question word</td><td><strong>How long does it take?</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Prepositions of transport.** Use by for the kind of transport, and on foot for walking. With a bus or train you can also say take the bus. See Introduction to Grammar: Prepositions and conjunctions."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Way</th><th>Example</th></tr></thead><tbody><tr><td><strong>by bus</strong></td><td><strong>I go to work by bus.</strong></td></tr><tr><td><strong>by car</strong></td><td><strong>He goes to school by car.</strong></td></tr><tr><td><strong>on foot</strong></td><td><strong>We go on foot.</strong></td></tr><tr><td><strong>cycle</strong></td><td><strong>She cycles to work.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**Go to work** and **go to school** have no article. Say the school only for a particular building.",
+                "**It takes** + time is the usual way to give the length of a journey: **It takes forty minutes.**",
+                "The word **commute** means the daily journey to work."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In big cities such as London, most people use trains, buses or the Underground. In smaller towns and in the United States many people drive."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

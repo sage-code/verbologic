@@ -1,0 +1,109 @@
+{
+  "entity_id": "LT03T04:L938",
+  "order": 1,
+  "minutes": 2,
+  "terms": {
+    "en": "Inviting someone",
+    "es": "Invitar a alguien",
+    "it": "Invitare qualcuno",
+    "fr": "Inviter quelqu'un",
+    "de": "Jemanden einladen",
+    "ru": "Как пригласить кого-то",
+    "hu": "Meghívás",
+    "pt": "Convidar alguém",
+    "ro": "Să invităm pe cineva"
+  },
+  "locales": {
+    "en": {
+      "title": "Inviting someone",
+      "summary": "How to ask someone to join you.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We invite people to dinner, to a party or to go out. Sara invites her colleague Mark."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Sara",
+                  "text": "Mark, are you free on Saturday?"
+                },
+                {
+                  "speaker": "Mark",
+                  "text": "I think so. Why?"
+                },
+                {
+                  "speaker": "Sara",
+                  "text": "Would you like to come to dinner at my place? I'm cooking at seven."
+                },
+                {
+                  "speaker": "Mark",
+                  "text": "That sounds great. Can I bring something?"
+                },
+                {
+                  "speaker": "Sara",
+                  "text": "Just yourself. Or a dessert, if you like."
+                },
+                {
+                  "speaker": "Mark",
+                  "text": "I'll bring a dessert. Thank you for inviting me."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Would you like to... invites politely.** Use would you like to and the base form: Would you like to come? A friend can also say Do you want to come? or Why don't you come? See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Style</th><th>Invitation</th></tr></thead><tbody><tr><td>polite</td><td><strong>Would you like to come to dinner?</strong></td></tr><tr><td>friendly</td><td><strong>Do you want to come?</strong></td></tr><tr><td>suggestion</td><td><strong>Why don't we meet on Saturday?</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. The future gives the time of the plan.** For a fixed plan use the present continuous: I'm cooking at seven. For a promise or an offer, use will: I'll bring a dessert. See Introduction to Grammar: Future."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>arrangement</td><td><strong>I'm cooking at seven.</strong></td></tr><tr><td>offer</td><td><strong>I'll bring a dessert.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Say **at my place** or **at my house** for an invitation to your home.",
+                "**Are you free on Saturday?** checks that a person has no other plans.",
+                "**Can I bring something?** is a polite way to offer to help."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In many English-speaking countries it is common to invite guests a few days before. A guest who says \"Just come\" may expect you to bring a small gift."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

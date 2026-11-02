@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T12:L862",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Future continuous and future perfect",
+    "es": "Futuro continuo y futuro perfecto",
+    "it": "Futuro progressivo e futuro anteriore",
+    "fr": "Futur progressif et futur antérieur",
+    "de": "Futur I im Verlauf und Futur II",
+    "ru": "Будущее длительное и будущее совершённое",
+    "hu": "Folyamatos és befejezett jövő",
+    "pt": "Futuro contínuo e futuro anterior",
+    "ro": "Viitorul în desfășurare și viitorul anterior"
+  },
+  "locales": {
+    "en": {
+      "title": "Future continuous and future perfect",
+      "summary": "The future continuous shows an action in progress; the future perfect shows one that will be finished.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The future continuous describes an action in progress at a future time. The future perfect describes an action that will be finished by a future time."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "This time tomorrow I **will be flying**.",
+                "By June she **will have finished**.",
+                "I **will have left** by then."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Form the future continuous with will be and the -ing form. Form the future perfect with will have and the past participle. By marks the time limit."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>future continuous</td><td><strong>He will be working at five.</strong></td></tr><tr><td>future perfect</td><td><strong>He will have finished by five.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

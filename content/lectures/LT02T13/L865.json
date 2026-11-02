@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T13:L865",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Polite requests and offers",
+    "es": "Peticiones y ofrecimientos corteses",
+    "it": "Richieste e offerte cortesi",
+    "fr": "Demandes et offres polies",
+    "de": "Höfliche Bitten und Angebote",
+    "ru": "Вежливые просьбы и предложения",
+    "hu": "Udvarias kérések és ajánlatok",
+    "pt": "Pedidos e ofertas educados",
+    "ro": "Cereri și oferte politicoase"
+  },
+  "locales": {
+    "en": {
+      "title": "Polite requests and offers",
+      "summary": "Polite requests and offers use modal verbs, not the bare imperative.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Polite requests and offers use modal verbs such as could, would and can, not the bare imperative."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Could you** help me?",
+                "**Would you like** some tea?",
+                "**Shall I** open the window?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Could is more polite than can. Would you mind is followed by the -ing form. Please makes a request softer, and thank you answers an offer."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Request</th><th>Offer</th></tr></thead><tbody><tr><td><strong>Could you pass the salt?</strong></td><td><strong>Would you like a coffee?</strong></td></tr><tr><td><strong>Would you mind waiting?</strong></td><td><strong>Shall I help you?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

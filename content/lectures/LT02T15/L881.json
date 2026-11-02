@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T15:L881",
+  "order": 5,
+  "minutes": 1,
+  "terms": {
+    "en": "The participle",
+    "es": "El participio",
+    "it": "Il participio",
+    "fr": "Le participe",
+    "de": "Das Partizip",
+    "ru": "Причастие",
+    "hu": "A melléknévi igenév",
+    "pt": "O particípio",
+    "ro": "Participiul"
+  },
+  "locales": {
+    "en": {
+      "title": "The participle",
+      "summary": "English has a present participle in -ing and a past participle.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A participle is a verb form that works as part of a verb or as an adjective. English has a present participle (-ing) and a past participle (-ed, or irregular)."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "a **running** dog",
+                "a **broken** window",
+                "She has **finished**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The present participle forms the continuous tenses. The past participle forms the perfect tenses and the passive. Both can describe a noun."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Participle</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>present (-ing)</td><td>continuous, adjective</td><td><strong>He is running. a running tap</strong></td></tr><tr><td>past</td><td>perfect, passive, adjective</td><td><strong>She has gone. a closed door</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

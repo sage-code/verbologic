@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T14:L871",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Forming the passive",
+    "es": "Formar la pasiva",
+    "it": "Formare il passivo",
+    "fr": "Former le passif",
+    "de": "Das Passiv bilden",
+    "ru": "Образование страдательного залога",
+    "hu": "A szenvedő szerkezet képzése",
+    "pt": "Formar a voz passiva",
+    "ro": "Formarea pasivului"
+  },
+  "locales": {
+    "en": {
+      "title": "Forming the passive",
+      "summary": "The English passive uses be and the past participle.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The English passive is formed with the verb be and the past participle."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "The letter **is written**.",
+                "The door **was opened**.",
+                "The work **has been done**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Be takes the tense of the active verb: is written, was written, will be written, has been written. The past participle never changes."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tense</th><th>Passive</th></tr></thead><tbody><tr><td>present</td><td><strong>is made</strong></td></tr><tr><td>past</td><td><strong>was made</strong></td></tr><tr><td>perfect</td><td><strong>has been made</strong></td></tr><tr><td>future</td><td><strong>will be made</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

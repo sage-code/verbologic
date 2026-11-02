@@ -1,0 +1,134 @@
+{
+  "entity_id": "LT06T03:L993",
+  "order": 3,
+  "minutes": 2,
+  "terms": {
+    "en": "At the pharmacy",
+    "es": "En la farmacia",
+    "it": "In farmacia",
+    "fr": "À la pharmacie",
+    "de": "In der Apotheke",
+    "ru": "В аптеке",
+    "hu": "A gyógyszertárban",
+    "pt": "Na farmácia",
+    "ro": "La farmacie"
+  },
+  "locales": {
+    "en": {
+      "title": "At the pharmacy",
+      "summary": "Buying medicine, understanding labels and asking a pharmacist for advice.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "About this lesson",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A pharmacist can advise on minor illnesses without an appointment. This lesson shows you how to describe your problem and understand the instructions on a medicine."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A customer visits a pharmacy in Cardiff with a cold."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Customer",
+                  "text": "Excuse me, do you have anything for a cold?"
+                },
+                {
+                  "speaker": "Pharmacist",
+                  "text": "Yes. Do you have a cough or a blocked nose?"
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "Both, and a slight headache."
+                },
+                {
+                  "speaker": "Pharmacist",
+                  "text": "These tablets help with all three. Take one every six hours, with water."
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "Can I take them with food?"
+                },
+                {
+                  "speaker": "Pharmacist",
+                  "text": "Yes, but not with alcohol. And please don't take more than four tablets a day."
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "Are there any side effects?"
+                },
+                {
+                  "speaker": "Pharmacist",
+                  "text": "They may make you feel sleepy, so don't drive after taking them."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Instructions on medicine use the imperative.** Labels use the base verb and often a negative, with a quantity and a frequency. See Introduction to Grammar: Moods, command, subjunctive and conditional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Instruction</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>Take one tablet.</strong></td><td>dose</td></tr><tr><td><strong>Swallow whole with water.</strong></td><td>how to take it</td></tr><tr><td><strong>Do not exceed the stated dose.</strong></td><td>warning</td></tr><tr><td><strong>Keep out of reach of children.</strong></td><td>safety</td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Every, twice a day and once a week describe frequency.** They usually go at the end of the sentence. See Introduction to Grammar: Adverbs."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Phrase</th><th>Example</th></tr></thead><tbody><tr><td><strong>every six hours</strong></td><td><strong>Take one every six hours.</strong></td></tr><tr><td><strong>twice a day</strong></td><td><strong>Take it twice a day.</strong></td></tr><tr><td><strong>once a week</strong></td><td><strong>Apply the cream once a week.</strong></td></tr><tr><td><strong>before / after meals</strong></td><td><strong>Take it after meals.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "A chemist is the British word for a pharmacy; drugstore is American.",
+                "Tablets, capsules, cream and syrup are common forms of medicine.",
+                "A side effect is an unwanted result of a drug.",
+                "Over the counter means you can buy it without a prescription."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Culture note",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pharmacists in Britain can give advice on minor illnesses without an appointment and sell many common medicines. Stronger medicines need a prescription from a doctor."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

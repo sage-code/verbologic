@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T17:L894",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Cause, means and purpose",
+    "es": "Causa, medio y finalidad",
+    "it": "Causa, mezzo e scopo",
+    "fr": "Cause, moyen et but",
+    "de": "Grund, Mittel und Zweck",
+    "ru": "Причина, средство и цель",
+    "hu": "Ok, eszköz és cél",
+    "pt": "Causa, meio e finalidade",
+    "ro": "Cauză, mijloc și scop"
+  },
+  "locales": {
+    "en": {
+      "title": "Cause, means and purpose",
+      "summary": "Some prepositions tell why, how or for what purpose.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some prepositions tell why something happens, how it is done or what it is for."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "He stayed home **because of** the rain.",
+                "She cut it **with** a knife.",
+                "This is a gift **for** you."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Because of and due to give a cause. With and by give a means. For gives a purpose. Because of takes a noun phrase, while because takes a clause."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Meaning</th><th>Preposition</th><th>Example</th></tr></thead><tbody><tr><td>cause</td><td><strong>because of</strong></td><td><strong>because of the rain</strong></td></tr><tr><td>means</td><td><strong>with, by</strong></td><td><strong>by email, with a pen</strong></td></tr><tr><td>purpose</td><td><strong>for</strong></td><td><strong>a room for guests</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T03:L799",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Countable and uncountable nouns",
+    "es": "Sustantivos contables e incontables",
+    "it": "Nomi numerabili e non numerabili",
+    "fr": "Noms dénombrables et indénombrables",
+    "de": "Zählbare und nicht zählbare Substantive",
+    "ru": "Исчисляемые и неисчисляемые существительные",
+    "hu": "Megszámlálható és megszámlálhatatlan főnevek",
+    "pt": "Substantivos contáveis e incontáveis",
+    "ro": "Substantive numărabile și nenumărabile"
+  },
+  "locales": {
+    "en": {
+      "title": "Countable and uncountable nouns",
+      "summary": "Countable nouns can be counted one by one; uncountable nouns cannot.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Countable nouns can be counted: one book, two books. Uncountable nouns name things we do not count one by one, such as water or advice."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**three apples** (countable)",
+                "**some water** (uncountable)",
+                "**a piece of advice**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "An uncountable noun has no plural and takes a singular verb. Use **much** and **a little** with uncountable nouns, and **many** and **a few** with countable ones."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Countable</th><th>Uncountable</th></tr></thead><tbody><tr><td><strong>many chairs</strong></td><td><strong>much furniture</strong></td></tr><tr><td><strong>a few books</strong></td><td><strong>a little money</strong></td></tr><tr><td><strong>an idea</strong></td><td><strong>some information</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

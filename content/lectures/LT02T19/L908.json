@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T19:L908",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Clauses of time",
+    "es": "Oraciones temporales",
+    "it": "Proposizioni temporali",
+    "fr": "Propositions de temps",
+    "de": "Temporalsätze",
+    "ru": "Придаточные времени",
+    "hu": "Időhatározói mellékmondatok",
+    "pt": "Orações temporais",
+    "ro": "Propoziții de timp"
+  },
+  "locales": {
+    "en": {
+      "title": "Clauses of time",
+      "summary": "Clauses of time say when something happens.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Clauses of time say when something happens. They begin with when, while, after, before, until, since or as soon as."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Call me **when you arrive**.",
+                "She read **while he cooked**.",
+                "We waited **until it stopped**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use the simple present after these words when you mean the future, and the past perfect to show an earlier event. While joins actions that go on at the same time."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Conjunction</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>when</strong></td><td>at the time</td><td><strong>When she came, we left.</strong></td></tr><tr><td><strong>while</strong></td><td>at the same time</td><td><strong>While I read, he slept.</strong></td></tr><tr><td><strong>until</strong></td><td>up to that time</td><td><strong>Wait until I call.</strong></td></tr><tr><td><strong>since</strong></td><td>from then to now</td><td><strong>I've lived here since May.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T05:L811",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Agreement with the noun",
+    "es": "La concordancia con el sustantivo",
+    "it": "L'accordo con il nome",
+    "fr": "L'accord avec le nom",
+    "de": "Übereinstimmung mit dem Substantiv",
+    "ru": "Согласование с существительным",
+    "hu": "Egyeztetés a főnévvel",
+    "pt": "A concordância com o substantivo",
+    "ro": "Acordul cu substantivul"
+  },
+  "locales": {
+    "en": {
+      "title": "Agreement with the noun",
+      "summary": "English adjectives do not change to agree with their noun.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In many languages an adjective changes to agree with its noun. In English it never does."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "a **small** boy",
+                "a **small** girl",
+                "two **small** children"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "An English adjective has the same form for singular and plural and for male and female. Only the demonstratives this and that change for number."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>a new car</strong></td><td><strong>new cars</strong></td></tr><tr><td><strong>this red apple</strong></td><td><strong>these red apples</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T15:L877",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Permission and possibility",
+    "es": "Permiso y posibilidad",
+    "it": "Permesso e possibilità",
+    "fr": "Permission et possibilité",
+    "de": "Erlaubnis und Möglichkeit",
+    "ru": "Разрешение и возможность",
+    "hu": "Engedély és lehetőség",
+    "pt": "Permissão e possibilidade",
+    "ro": "Permisiune și posibilitate"
+  },
+  "locales": {
+    "en": {
+      "title": "Permission and possibility",
+      "summary": "May, can and could ask for permission; may, might and could show possibility.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "May, can and could ask for or give permission, and may, might and could express possibility."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**May** I come in?",
+                "You **can** park here.",
+                "It **might** rain."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "May is formal for permission, and can is the common word. Might is less certain than may. Could expresses possibility and is also used in polite requests."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>permission</td><td><strong>May I sit here?</strong></td></tr><tr><td>possibility</td><td><strong>It may be true.</strong></td></tr><tr><td>weak possibility</td><td><strong>She might know.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

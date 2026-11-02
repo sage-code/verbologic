@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T18:L904",
+  "order": 6,
+  "minutes": 1,
+  "terms": {
+    "en": "Indirect questions",
+    "es": "Preguntas indirectas",
+    "it": "Domande indirette",
+    "fr": "Questions indirectes",
+    "de": "Indirekte Fragen",
+    "ru": "Косвенные вопросы",
+    "hu": "Függő kérdések",
+    "pt": "Perguntas indiretas",
+    "ro": "Întrebări indirecte"
+  },
+  "locales": {
+    "en": {
+      "title": "Indirect questions",
+      "summary": "An indirect question keeps statement word order.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "An indirect question is a question inside another sentence. It sounds more polite."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Do you know **where he lives**?",
+                "I wonder **what time it is**.",
+                "Can you tell me **how much it costs**?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In an indirect question the word order is the same as in a statement: no inversion and no do. If there is no question word, use if or whether."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Direct</th><th>Indirect</th></tr></thead><tbody><tr><td><strong>Where is the bank?</strong></td><td><strong>Do you know where the bank is?</strong></td></tr><tr><td><strong>Does he know?</strong></td><td><strong>I wonder if he knows.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

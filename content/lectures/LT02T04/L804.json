@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T04:L804",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "The definite article",
+    "es": "El artículo definido",
+    "it": "L'articolo determinativo",
+    "fr": "L'article défini",
+    "de": "Der bestimmte Artikel",
+    "ru": "Определённый артикль",
+    "hu": "A határozott névelő",
+    "pt": "O artigo definido",
+    "ro": "Articolul hotărât"
+  },
+  "locales": {
+    "en": {
+      "title": "The definite article",
+      "summary": "The is the English definite article, used when the listener knows which thing is meant.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The definite article is **the**. We use it when the listener knows which thing we mean."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**The** sun is hot.",
+                "Close **the** door, please.",
+                "I like **the** red one."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English has one definite article for every noun, singular or plural. It is also used with unique things, with superlatives and with some names."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>known thing</td><td><strong>Pass me the salt.</strong></td></tr><tr><td>unique thing</td><td><strong>the moon</strong></td></tr><tr><td>superlative</td><td><strong>the fastest car</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "entity_id": "LT03T05:L941",
+  "order": 0,
+  "minutes": 2,
+  "terms": {
+    "en": "First names and surnames",
+    "es": "Nombres y apellidos",
+    "it": "Nomi e cognomi",
+    "fr": "Prénoms et noms de famille",
+    "de": "Vornamen und Nachnamen",
+    "ru": "Имена и фамилии",
+    "hu": "Utónevek és vezetéknevek",
+    "pt": "Nomes e sobrenomes",
+    "ro": "Prenume și nume de familie"
+  },
+  "locales": {
+    "en": {
+      "title": "First names and surnames",
+      "summary": "How names are given, written and asked for.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Filling in a form or meeting a new person, you often need to give your name. Receptionist Ann asks a visitor to register."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Ann",
+                  "text": "Good morning. What's your full name, please?"
+                },
+                {
+                  "speaker": "Visitor",
+                  "text": "My first name is Maria, and my surname is Lopez."
+                },
+                {
+                  "speaker": "Ann",
+                  "text": "How do you spell your surname?"
+                },
+                {
+                  "speaker": "Visitor",
+                  "text": "L, O, P, E, Z."
+                },
+                {
+                  "speaker": "Ann",
+                  "text": "Thank you, Ms Lopez. And your middle name?"
+                },
+                {
+                  "speaker": "Visitor",
+                  "text": "I don't have one."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. English names go in the order first name, then surname.** A person has a first name (given name), sometimes a middle name, and a surname (family name). Use my name is or I'm to give it. See Introduction to Grammar: Nouns, kinds, gender and number."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Part</th><th>Example</th></tr></thead><tbody><tr><td>first name</td><td><strong>Maria</strong></td></tr><tr><td>middle name</td><td><strong>Anne</strong></td></tr><tr><td>surname</td><td><strong>Lopez</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. How do you spell...? asks for letters.** Say the letters one by one. In English, a few letters sound alike, so people often add a word, such as M for Mike. See Introduction to Grammar: Negation and questions."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody><tr><td><strong>How do you spell it?</strong></td><td><strong>L, O, P, E, Z.</strong></td></tr><tr><td><strong>What's your surname?</strong></td><td><strong>Lopez.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "**Given name** and **Christian name** are older words for first name. **Family name** is another word for surname.",
+                "A **maiden name** is a woman's family name before marriage.",
+                "A **nickname** is an informal name, such as **Bill** for William."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Names in forms are often written with capital letters, and some forms ask for the surname first. Read the form carefully."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

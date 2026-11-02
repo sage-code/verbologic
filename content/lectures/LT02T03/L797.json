@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T03:L797",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "Common and proper nouns",
+    "es": "Sustantivos comunes y propios",
+    "it": "Nomi comuni e propri",
+    "fr": "Noms communs et noms propres",
+    "de": "Gattungsnamen und Eigennamen",
+    "ru": "Нарицательные и собственные существительные",
+    "hu": "Köznevek és tulajdonnevek",
+    "pt": "Substantivos comuns e próprios",
+    "ro": "Substantive comune și proprii"
+  },
+  "locales": {
+    "en": {
+      "title": "Common and proper nouns",
+      "summary": "A common noun names a class of things; a proper noun names one particular thing.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A common noun names a whole class of things, such as city, river or teacher. A proper noun names one particular person, place or thing, and it begins with a capital letter."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "a **city**, **Edinburgh**",
+                "a **river**, the **Thames**",
+                "a **teacher**, **Ms Clark**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English capitalises proper nouns, including the days, the months, languages and nationalities. Most proper nouns have no article, but some take the."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Kind</th><th>Example</th></tr></thead><tbody><tr><td>capitalised</td><td><strong>Monday, April, English</strong></td></tr><tr><td>no article</td><td><strong>London, Mary</strong></td></tr><tr><td>with the</td><td><strong>the Thames, the Alps</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

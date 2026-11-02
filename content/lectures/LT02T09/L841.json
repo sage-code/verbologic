@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T09:L841",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Regular and irregular verbs",
+    "es": "Verbos regulares e irregulares",
+    "it": "Verbi regolari e irregolari",
+    "fr": "Verbes réguliers et irréguliers",
+    "de": "Regelmäßige und unregelmäßige Verben",
+    "ru": "Правильные и неправильные глаголы",
+    "hu": "Szabályos és rendhagyó igék",
+    "pt": "Verbos regulares e irregulares",
+    "ro": "Verbe regulate și neregulate"
+  },
+  "locales": {
+    "en": {
+      "title": "Regular and irregular verbs",
+      "summary": "Regular verbs add -ed; irregular verbs must be learned.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A regular verb forms its past and past participle with -ed. An irregular verb has other forms that you must learn."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "walk, **walked**, **walked**",
+                "go, **went**, **gone**",
+                "see, **saw**, **seen**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Most English verbs are regular, but many of the most common ones are irregular. Irregular verbs are usually learned as three forms: base, past and past participle."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Base</th><th>Past</th><th>Past participle</th></tr></thead><tbody><tr><td><strong>work</strong></td><td><strong>worked</strong></td><td><strong>worked</strong></td></tr><tr><td><strong>buy</strong></td><td><strong>bought</strong></td><td><strong>bought</strong></td></tr><tr><td><strong>write</strong></td><td><strong>wrote</strong></td><td><strong>written</strong></td></tr><tr><td><strong>cut</strong></td><td><strong>cut</strong></td><td><strong>cut</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

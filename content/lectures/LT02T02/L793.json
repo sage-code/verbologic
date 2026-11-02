@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T02:L793",
+  "order": 4,
+  "minutes": 1,
+  "terms": {
+    "en": "Words that modify and point",
+    "es": "Palabras que precisan y señalan",
+    "it": "Parole che precisano e indicano",
+    "fr": "Mots qui précisent et désignent",
+    "de": "Wörter, die näher bestimmen und zeigen",
+    "ru": "Слова, которые уточняют и указывают",
+    "hu": "Pontosító és mutató szavak",
+    "pt": "Palavras que precisam e indicam",
+    "ro": "Cuvinte care precizează și arată"
+  },
+  "locales": {
+    "en": {
+      "title": "Words that modify and point",
+      "summary": "Adverbs say how, when or where, and demonstratives point.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adverbs tell how, when, where or how much. Demonstratives such as this and that point to something."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "She sings **beautifully**.",
+                "We meet **tomorrow**.",
+                "**This** book is mine."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Many English adverbs end in -ly, but not all of them do: fast, well, soon. Demonstratives change for number: this and these, that and those."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>this</strong> book</td><td><strong>these</strong> books</td></tr><tr><td><strong>that</strong> car</td><td><strong>those</strong> cars</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

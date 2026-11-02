@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T09:L840",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Person and number",
+    "es": "Persona y número",
+    "it": "Persona e numero",
+    "fr": "Personne et nombre",
+    "de": "Person und Numerus",
+    "ru": "Лицо и число",
+    "hu": "Személy és szám",
+    "pt": "Pessoa e número",
+    "ro": "Persoana și numărul"
+  },
+  "locales": {
+    "en": {
+      "title": "Person and number",
+      "summary": "Person and number show who does the action and how many.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Person tells who is speaking, who is spoken to and who is spoken about. Number tells whether it is one or more than one."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**I** walk.",
+                "**He** walks.",
+                "**They** walk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English verbs change only in the third person singular of the present: I walk, but she walks. The verb be has more forms: am, is, are, was and were."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Person</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td>first</td><td><strong>I walk</strong></td><td><strong>we walk</strong></td></tr><tr><td>second</td><td><strong>you walk</strong></td><td><strong>you walk</strong></td></tr><tr><td>third</td><td><strong>she walks</strong></td><td><strong>they walk</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

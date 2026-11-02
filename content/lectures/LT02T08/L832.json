@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T08:L832",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Ordinal numbers",
+    "es": "Los números ordinales",
+    "it": "I numeri ordinali",
+    "fr": "Les nombres ordinaux",
+    "de": "Ordnungszahlen",
+    "ru": "Порядковые числительные",
+    "hu": "Sorszámnevek",
+    "pt": "Os números ordinais",
+    "ro": "Numerale ordinale"
+  },
+  "locales": {
+    "en": {
+      "title": "Ordinal numbers",
+      "summary": "Ordinal numbers tell the order or position.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Ordinal numbers tell the order or position: first, second, third."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "the **first** day",
+                "her **second** book",
+                "the **twentieth** century"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Most ordinals add -th to the cardinal number. Learn the first three: first, second and third. Five becomes fifth, eight becomes eighth, nine becomes ninth and twelve becomes twelfth."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Cardinal</th><th>Ordinal</th><th>Short</th></tr></thead><tbody><tr><td><strong>one</strong></td><td><strong>first</strong></td><td>1st</td></tr><tr><td><strong>two</strong></td><td><strong>second</strong></td><td>2nd</td></tr><tr><td><strong>three</strong></td><td><strong>third</strong></td><td>3rd</td></tr><tr><td><strong>four</strong></td><td><strong>fourth</strong></td><td>4th</td></tr><tr><td><strong>twenty</strong></td><td><strong>twentieth</strong></td><td>20th</td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

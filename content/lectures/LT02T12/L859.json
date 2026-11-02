@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T12:L859",
+  "order": 0,
+  "minutes": 1,
+  "terms": {
+    "en": "The simple future",
+    "es": "El futuro simple",
+    "it": "Il futuro semplice",
+    "fr": "Le futur simple",
+    "de": "Das einfache Futur",
+    "ru": "Простое будущее время",
+    "hu": "Az egyszerű jövő idő",
+    "pt": "O futuro simples",
+    "ro": "Viitorul simplu"
+  },
+  "locales": {
+    "en": {
+      "title": "The simple future",
+      "summary": "English forms the future with will and the base form.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English has no future ending on the verb. It forms the future with will and the base form."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "It **will** rain tomorrow.",
+                "I **will** call you.",
+                "They **will** be here at six."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Will is used for predictions, spontaneous decisions and promises. The short form is 'll and the negative is won't."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>prediction</td><td><strong>It will be cold.</strong></td></tr><tr><td>decision</td><td><strong>I'll open the window.</strong></td></tr><tr><td>promise</td><td><strong>I won't forget.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

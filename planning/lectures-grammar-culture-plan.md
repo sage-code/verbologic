@@ -6,6 +6,16 @@ Date: 2026-11-02 (second version; the first had nine grammar chapters, which was
 
 Language rule for articles: chapter LT01 has its articles in all 9 languages. Every later chapter's article is written only in its `target` language (the grammar of Romanian is described in Romanian, that of English in English), natively and never translated, with no versions in other languages. The rule covers the article body only: chapter, topic and item names keep all 9 languages, and their title audio (chapter, topic, item) is recorded in all 9. Consequences: no explanation-language versions to write, review or record (the nine English pages already follow this: target English, written in English); the reader shows the target-language article whatever the interface language; the per-language item titles and the title clips stay as they are.
 
+## Three levels: chapter, topic, item (decided 2026-11-02)
+
+A chapter holds topics and a topic holds **4 to 10 items**; each item is a small lesson on one idea, of 1 to 3 reading pages, with a few very short, meaningful examples. The first version had one article per topic, which was too coarse.
+
+- **Items are generic.** The same item list, with the same names, exists for every language. An item has no `target`: it is a shared item, and each language writes its own article text for it, in its own language and specific to it (for English the interrogative propositions differ from Romanian or Hungarian ones). Texts are generated per language, never translated. The article file keeps one `locales` entry per language that has a text; a language without a text yet shows the item with its Read button off.
+- **Counts.** LT02 has 145 items (4 to 8 per topic, e.g. LT02T01: overview, declarative, interrogative, imperative and exclamatory propositions, subject and predicate, simple/compound/complex, phrases). LT03 to LT10 have 4 to 5 items per topic (184 items). Total 329. The ids run to L1101.
+- **Names and sound.** Every item name exists in 9 languages (manifest `locales`) and has a title clip per language. The LT02 clips are recorded; the clips for LT03 to LT10 items are not yet.
+- **The first English articles.** The nine articles L773 to L781 are now the first item of their topic (shared items with an English text so far); the other languages get their texts later.
+- **Validator.** `scripts/validate-data.mjs` accepts a lecture article item without `target` (a shared item); a `target`, when present, must still be a locale.
+
 ## The idea
 
 1. **Grammar is described once, in LT02, as topics, not chapters.** LT02 "Introduction to Grammar" is the reference: 21 short, precise topics (propositions, categories of words, nouns, articles, adjectives, pronouns, numerals, verbs, tenses, moods, voice, adverbs, prepositions and cases, negation and questions, conjunctions, word order, word formation).
@@ -164,3 +174,15 @@ Format work this needed (reader and voice):
 - Re-record a changed article with `./run.sh create read <id> --lang en --overwrite-audio` (without the flag an existing clip is skipped). The reading scheme version is unchanged, so no LT01 clip became stale.
 
 Still to do for these nine: publish (`./run.sh sync`, `./run.sh media upload`, deploy) and look at each page in the browser; the "See Introduction to Grammar: <topic>" lines are plain text until the `grammar:` link field exists.
+
+## First topic written in every language (2026-11-02): LT02T01 Propositions & phrases
+
+All 8 items of LT02T01 now have an article in each of the 9 languages, 71 new texts (the English L773 overview was already there): L773 overview, L782 declarative, L783 interrogative, L784 imperative, L785 exclamatory, L786 subject and predicate, L787 simple/compound/complex, L788 phrases. Each language wrote its own text, specific to its grammar (for example Romanian "propoziție" versus "frază", Hungarian postpositions and the question word order, German verb-second, Spanish ¿?, Russian "ли", French est-ce que and inversion), not a translation. Each item is 2 to 3 reading pages (an explanation with three very short examples, then "how it works in <language>" with a small table), in typed blocks. Each text has a read-aloud in the language's own voice; the item title clips already existed. Title clips for all LT03 to LT10 chapters and topics were recorded too (486).
+
+Pattern for the next topics: one data file per language (`[summary, sections]`, each section `[heading, paragraph, bullets, table]`), a writer that merges it into the article file and fills the 9-language `terms`, then `./run.sh create read <topic> --lang <xx>`.
+
+## LT02 in English (2026-11-02)
+
+All 145 items of LT02 now have an English article (target English, written in English): the 8 items of LT02T01 were already done in all 9 languages, and the other 137 items of T02 to T21 were added. Each is two reading pages: "What it is" (an explanation and three very short examples) and "How it works in English" (a short paragraph and a small table or list). Each has its read-aloud. Other languages are not written yet for T02 to T21.
+
+Pattern used: data files in the scratchpad (`[summary, sections]` keyed by the item's English name), a writer that matches by name and fills the nine-language `terms`, then `./run.sh create read LT02 --lang en`. To do the same for another language, write the same items in that language (not translated) and run the writer with that language.

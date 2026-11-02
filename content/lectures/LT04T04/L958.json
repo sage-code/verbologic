@@ -1,0 +1,105 @@
+{
+  "entity_id": "LT04T04:L958",
+  "order": 2,
+  "minutes": 1,
+  "terms": {
+    "en": "Months and dates",
+    "es": "Meses y fechas",
+    "it": "Mesi e date",
+    "fr": "Mois et dates",
+    "de": "Monate und Daten",
+    "ru": "Месяцы и даты",
+    "hu": "Hónapok és dátumok",
+    "pt": "Meses e datas",
+    "ro": "Lunile și datele"
+  },
+  "locales": {
+    "en": {
+      "title": "Months and dates",
+      "summary": "The twelve months, ordinal numbers and how to say and write a date.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "At a reception desk, a guest books a room."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Guest",
+                  "text": "I would like a room from the fifth of March to the ninth."
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "Certainly. What is your date of birth, please?"
+                },
+                {
+                  "speaker": "Guest",
+                  "text": "It is the twenty-first of June, nineteen ninety."
+                },
+                {
+                  "speaker": "Clerk",
+                  "text": "Thank you. Your room is ready from two o'clock."
+                },
+                {
+                  "speaker": "Guest",
+                  "text": "Great, thank you."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Ordinal numbers show order.** Most add -th: fourth, fifth, sixth. The first three are irregular: first, second, third. See Introduction to Grammar: Numerals."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Number</th><th>Ordinal</th></tr></thead><tbody><tr><td>1</td><td><strong>first</strong></td></tr><tr><td>2</td><td><strong>second</strong></td></tr><tr><td>3</td><td><strong>third</strong></td></tr><tr><td>5</td><td><strong>fifth</strong></td></tr><tr><td>21</td><td><strong>twenty-first</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Dates use on and in.** Use on with a full date and in with a month or year. See Introduction to Grammar: Prepositions and conjunctions."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Preposition</th><th>Example</th></tr></thead><tbody><tr><td><strong>on</strong></td><td><strong>on the fifth of March</strong></td></tr><tr><td><strong>in</strong></td><td><strong>in March</strong></td></tr><tr><td><strong>in</strong></td><td><strong>in 1990</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice and culture note",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Months are capitalised: **January**, **February**, **March**.",
+                "British dates are written day, month, year: 5/3/2025 means 5 March.",
+                "American dates are written month, day, year: 3/5/2025 means 5 March in Britain but 3 May in the United States, so check carefully."
+              ]
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Always write the month in words in official forms to avoid confusion between the two styles."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

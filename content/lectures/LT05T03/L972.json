@@ -1,0 +1,134 @@
+{
+  "entity_id": "LT05T03:L972",
+  "order": 1,
+  "minutes": 2,
+  "terms": {
+    "en": "Ordering a meal",
+    "es": "Pedir una comida",
+    "it": "Ordinare un pasto",
+    "fr": "Commander un repas",
+    "de": "Ein Essen bestellen",
+    "ru": "Заказ блюда",
+    "hu": "Étel rendelése",
+    "pt": "Pedir uma refeição",
+    "ro": "Comandarea unei mese"
+  },
+  "locales": {
+    "en": {
+      "title": "Ordering a meal",
+      "summary": "How to choose from a menu, ask questions about ingredients and order several courses.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "About this lesson",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A restaurant meal has several steps: you choose, you order, you ask questions and you pay. This lesson practises the central steps with the language of ingredients and allergies."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A couple orders dinner in a restaurant in Bristol."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Waiter",
+                  "text": "Good evening. Are you ready to order?"
+                },
+                {
+                  "speaker": "Guest",
+                  "text": "Yes. I will start with the soup, and then the grilled salmon."
+                },
+                {
+                  "speaker": "Waiter",
+                  "text": "And how would you like your vegetables, boiled or roasted?"
+                },
+                {
+                  "speaker": "Guest",
+                  "text": "Roasted, please."
+                },
+                {
+                  "speaker": "Waiter",
+                  "text": "And for you, madam?"
+                },
+                {
+                  "speaker": "Guest 2",
+                  "text": "The chicken salad, please. Does it have nuts?"
+                },
+                {
+                  "speaker": "Waiter",
+                  "text": "No, there are no nuts in it. But the dressing has a little mustard."
+                },
+                {
+                  "speaker": "Guest 2",
+                  "text": "That's fine. And could I have a glass of water?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Grammar notes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Courses are ordered with start with, then and to finish.** These phrases keep the order clear. See Introduction to Grammar: Prepositions and conjunctions."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Phrase</th><th>Course</th></tr></thead><tbody><tr><td><strong>I will start with...</strong></td><td>starter</td></tr><tr><td><strong>and then...</strong></td><td>main course</td></tr><tr><td><strong>to finish...</strong></td><td>dessert</td></tr><tr><td><strong>to drink...</strong></td><td>drink</td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. There is and there are with any and some.** Ask about ingredients with Is there... or Are there... in questions, and use any in questions and negatives. See Introduction to Grammar: Present tense, being and having."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Question</th><th>Answer</th></tr></thead><tbody><tr><td><strong>Is there any garlic in it?</strong></td><td><strong>Yes, there is a little.</strong></td></tr><tr><td><strong>Are there any nuts in the dish?</strong></td><td><strong>No, there aren't any.</strong></td></tr><tr><td><strong>Does it have meat?</strong></td><td><strong>No, it is vegetarian.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Notice",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Starter, main course and dessert are the usual courses.",
+                "Rare, medium and well done describe how a steak is cooked.",
+                "Vegetarian means no meat; vegan means no animal products at all.",
+                "Tell the waiter about any allergy before you order."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Culture note",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A British waiter often asks halfway through the meal whether everything is all right. A short, polite answer such as Yes, lovely, thank you is expected, and you should say so at once if there is a problem."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

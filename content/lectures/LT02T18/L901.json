@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T18:L901",
+  "order": 3,
+  "minutes": 1,
+  "terms": {
+    "en": "Question words",
+    "es": "Palabras interrogativas",
+    "it": "Parole interrogative",
+    "fr": "Mots interrogatifs",
+    "de": "Fragewörter",
+    "ru": "Вопросительные слова",
+    "hu": "Kérdőszavak",
+    "pt": "Palavras interrogativas",
+    "ro": "Cuvinte interogative"
+  },
+  "locales": {
+    "en": {
+      "title": "Question words",
+      "summary": "Question words ask for information and come first.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Question words ask for information: who, what, where, when, why, how, which and whose."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Where** do you live?",
+                "**Why** is she late?",
+                "**How** much is it?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The question word comes first, then the auxiliary and the subject. How can be joined with much, many, long and old."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Word</th><th>Asks about</th><th>Example</th></tr></thead><tbody><tr><td><strong>who</strong></td><td>a person</td><td><strong>Who is that?</strong></td></tr><tr><td><strong>where</strong></td><td>a place</td><td><strong>Where is the bank?</strong></td></tr><tr><td><strong>when</strong></td><td>a time</td><td><strong>When does it start?</strong></td></tr><tr><td><strong>how many</strong></td><td>a number</td><td><strong>How many are there?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

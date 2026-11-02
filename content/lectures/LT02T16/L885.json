@@ -1,0 +1,59 @@
+{
+  "entity_id": "LT02T16:L885",
+  "order": 1,
+  "minutes": 1,
+  "terms": {
+    "en": "Adverbs of time",
+    "es": "Adverbios de tiempo",
+    "it": "Avverbi di tempo",
+    "fr": "Adverbes de temps",
+    "de": "Zeitadverbien",
+    "ru": "Наречия времени",
+    "hu": "Időhatározók",
+    "pt": "Advérbios de tempo",
+    "ro": "Adverbe de timp"
+  },
+  "locales": {
+    "en": {
+      "title": "Adverbs of time",
+      "summary": "Adverbs of time tell when something happens.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "What it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adverbs of time tell when something happens: now, today, soon, already, yet."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "We leave **tomorrow**.",
+                "I have **already** eaten.",
+                "She hasn't called **yet**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How it works in English",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adverbs of time usually go at the end or at the beginning of the sentence. Already goes before the main verb or at the end, and yet goes at the end of questions and negatives."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Adverb</th><th>Place</th><th>Example</th></tr></thead><tbody><tr><td><strong>tomorrow, today</strong></td><td>end</td><td><strong>I'll go tomorrow.</strong></td></tr><tr><td><strong>already</strong></td><td>before the main verb</td><td><strong>She has already left.</strong></td></tr><tr><td><strong>yet</strong></td><td>end</td><td><strong>Has he come yet?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
