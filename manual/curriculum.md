@@ -1,6 +1,6 @@
 # Library curriculum
 
-The three library tracks (Dictionary, Lectures and Stories) each have **12 chapters of 4–8 topics**, graded from the first school year to university. The sidebars are the curriculum:
+The three library tracks (Dictionary, Lectures and Stories) each have 12 chapters of 4–8 topics (Lectures: 14 chapters, LT01 to LT14, see below), graded from the first school year to university. The sidebars are the curriculum:
 
 - `src/data/sidebars/library/dictionary/sidebar.json`
 - `src/data/sidebars/library/lectures/sidebar.json`
@@ -25,22 +25,28 @@ Dictionary and Stories are graded **by chapter**: two chapters per level, so a l
 
 ## Lectures
 
-Most topics use the `table` layout; pronunciation topics may use the `article` layout (see the lesson pattern below). Each of the **12 lectures (`L1`–`L12`)** contains **5–12 topics**, and each topic contains **18–70 progressive items/examples**. Learners repeat items in an audio loop to build intuition; clicking any item's book icon opens its detailed grammar, expression, and cultural explanation (without standalone prose-only topics, videos, or secondary audio strips).
+**Rebuilt 2026-11-02.** LT01 (sounds and pronunciation) is unchanged. The old LT02 to LT12 (phrase and word lists) were purged; the chapters below replace them and start empty. Full plan, pipeline and open work: `planning/lectures-grammar-culture-plan.md`.
 
-| Lecture | Topics (in order) |
+Rules for every lecture topic: `layout: article`, `mode: directional`, a `level`; **every item is an article** (headers, bullet lists and tables; examples live inside the article, never as a bare list of words or phrases). A chapter is the same for every language; a language without a feature (for example noun gender in English) explains how it does that job instead. Culture chapters cover the home country and the other countries where the language is spoken, including how it spread (empire and colonies).
+
+| Chapter | Topics (in order) |
 | --- | --- |
-| **L1 Sounds & Pronunciation** | Alphabet & letters (30) → vowel & consonant groups (23) → syllables & word stress → sound alternations & phonetic shifts → elision, hyphenation & fast speech → intonation, rhythm & punctuation |
-| **L2 First Sentences & Questions** | Everyday statements (30) → questions & answers: people, home & daily life (63) → questions & answers: work, technology & directions (36) → questions & answers: transport, shopping, health & nature (36) → everyday commands: people, home, routine & study (35) → everyday commands: work, town, travel & emergencies (40) |
-| **L3 Greetings, Courtesy & Social Expressions** | Greetings, farewells & polite formulas (20) → introductions, origin & personal identity → polite requests, thanks & apologies → family, friends & social visits → wishes, congratulations & holiday customs → small talk, invitations & cultural etiquette |
-| **L4 Pronouns & Core Verbs** | Subject pronouns & *to be* (*a fi*) → having & needing (*a avea* and *a trebui*) → existence & possession (*este, sunt, al meu*) → reflexive pronouns & daily routine verbs → direct & indirect object pronouns (clitics) → polite pronouns (*dumneavoastră*) & register |
-| **L5 Nouns, Articles & Modifiers** | Noun gender: masculine, feminine & neuter → singular & plural patterns → indefinite & definite articles (enclitic articles) → descriptive adjectives & agreement → demonstratives, possessives & quantifiers → comparison of adjectives & adverbs |
-| **L6 Present Tense & Everyday Actions** | First conjugation verbs (*-a* & *-ez* patterns) → second & third conjugation verbs (*-ea* & *-e*) → fourth conjugation verbs (*-i, -î, -esc, -ăsc*) → irregular & high-frequency motion verbs → adverbs of frequency, time & manner → negation, *mai, și, tot* & word order |
-| **L7 Cases, Prepositions & Numbers in Context** | Prepositions of place, movement & direction → prepositions of time, cause & instrument → direct object marker *pe* & accusative constructions → genitive & dative forms (possession & recipients) → numbers, quantities, dates & telling time → vocative forms & direct address |
-| **L8 Past, Future & Moods** | Compound past (*perfectul compus*) → imperfect tense: habits, descriptions & ongoing past → the subjunctive (*conjunctivul* with *să*) → future forms: literary, spoken (*o să*) & probable → conditional mood (*aș, ai, ar…*) & polite desires → infinitive, gerund, participle & *supin* |
-| **L9 Everyday Life & Practical Conversations** | At home, household & neighborhood → shopping, markets, prices & services → ordering food, cafés & Romanian cuisine → directions, public transport & travel → health, pharmacy, doctor & emergencies → work, study, scheduling & digital communication |
-| **L10 Complex Sentences & Connectors** | Coordinating clauses (*și, dar, însă, sau, deci*) → relative clauses (*care, pe care, căruia, unde*) → time & sequence clauses (*când, în timp ce, după ce*) → cause, purpose & result (*pentru că, ca să, încât*) → conditional sentences: real & hypothetical (*dacă*) → concession, contrast & indirect speech |
-| **L11 Idioms, Nuance & Romanian Culture** | Everyday idioms with *a face, a da, a lua, a sta, a pune* → conversational fillers, discourse markers & natural flow → expressing feelings, opinions, certainty & doubt → proverbs, sayings & folk wisdom → diminutives, augmentatives & emotional register → traditions, regions & cultural landmarks |
-| **L12 Advanced Expression, Style & Mastery** | Passive voice & impersonal reflexive (*se spune, se poate*) → presumptive mood, advanced tenses & subtle aspect → argumentation, debate & persuasive structures → formal, professional & academic register → collocations, false friends & lexical precision → literary style, figurative language & rhetoric |
+| **LT01 Sounds & Pronunciation** | Alphabet & letters → letter groups & sounds → syllables & word stress → sound changes & spelling patterns → elision, hyphenation & fast speech → intonation, rhythm & punctuation |
+| **LT02 Introduction to Grammar** | Propositions & phrases → categories of words → nouns (substantives) → pronouns → adjectives & articles → numerals → verbs → adverbs → prepositions & conjunctions → cases & other categories → word order & agreement |
+| **LT03 Nouns & Noun Phrases** | Kinds of nouns → gender → plural formation → articles & determiners → adjectives: agreement & position → demonstratives, possessives & quantifiers → comparison → building a noun phrase |
+| **LT04 Pronouns** | Personal → object → reflexive & reciprocal → possessive & demonstrative → relative & interrogative → indefinite & negative → address & politeness |
+| **LT05 Cases & Prepositions** | What cases do → subject & object marking → possession & recipients → prepositions of place & direction → of time & relations → government |
+| **LT06 Verbs: Present & Questions** | Verb anatomy → being & having → the present tense → irregular & stem-changing verbs → modal & auxiliary → reflexive & impersonal → negation → forming questions → commands & requests |
+| **LT07 Past, Future & Aspect** | Completed past → habits & ongoing past → perfect tenses & telling a story → future → aspect & time expressions → infinitive, participle & gerund |
+| **LT08 Moods & Voice** | Subjunctive → conditional → passive voice → impersonal constructions → evidential & presumptive forms → obligation, possibility & permission |
+| **LT09 Building Sentences** | Word order & emphasis → adverbials → numbers, dates & time → coordination → subordination → conditional sentences & concession → reported speech → linking a text |
+| **LT10 Words, Register & Style** | Word formation → diminutives & augmentatives → register & formality → idioms & collocations → written style |
+| **LT11 Culture & Tradition** | Family & daily customs → holidays & festivals → food & drink → music, dance & folk art → beliefs, religion & folklore → etiquette & manners |
+| **LT12 Places & Landscape** | Where the language is spoken → the home country at a glance → regions → capital cities → cities & towns → villages & rural life → mountains, rivers & coasts → landmarks & heritage sites |
+| **LT13 History & People** | Origins & early history → Middle Ages to modern times → empire, colonies & the language abroad → the modern state → rulers & leaders → writers, thinkers & artists → migration & communities abroad |
+| **LT14 Science & Discoveries** | Scientists & inventors → discoveries & firsts → technology & industry → medicine & health → universities, research & space |
+
+Chapters LT02 to LT14 hold no articles yet; their topics stay disabled in the navigation until an article exists.
 
 ## Dictionary
 

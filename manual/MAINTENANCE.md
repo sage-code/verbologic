@@ -892,9 +892,9 @@ environment or `.env`. It is required — the content tables grant `SELECT` to
 View **`enrollments_overview`** aggregates `words_learned` / `credits_consumed` /
 `credits_left` — the one query the Library reads.
 
-**Languages and credits.** A user holds **at most three active languages** at a
+**Languages and credits.** A user holds **at most two active languages** at a
 time (`enforce_active_language_cap` trigger; the cap is one constant in that
-function, mirrored by `ACTIVE_LANGUAGE_CAP` in `libraryStore`). To add a fourth
+function, mirrored by `ACTIVE_LANGUAGE_CAP` in `libraryStore`). To add a third
 they must abandon one. Abandoning never loses progress: the enrollment flips to
 `status = 'abandoned'` and every `learned_items` / `listen_counts` row stays
 attached, so restoring is a status flip back. On abandon the user is asked

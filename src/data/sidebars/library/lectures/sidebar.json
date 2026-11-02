@@ -636,879 +636,735 @@
     {
       "code": "LT02",
       "names": {
-        "en": "First Sentences & Questions",
-        "ro": "Primele propoziții și întrebări",
-        "de": "Erste Sätze & Fragen",
-        "ru": "Первые предложения и вопросы",
-        "it": "Prime frasi e domande",
-        "es": "Primeras frases y preguntas",
-        "fr": "Premières phrases et questions",
-        "hu": "Első mondatok és kérdések",
-        "pt": "Primeiras frases e perguntas"
+        "en": "Introduction to Grammar",
+        "ro": "Introducere în gramatică",
+        "de": "Einführung in die Grammatik",
+        "ru": "Введение в грамматику",
+        "it": "Introduzione alla grammatica",
+        "es": "Introducción a la gramática",
+        "fr": "Introduction à la grammaire",
+        "hu": "Bevezetés a nyelvtanba",
+        "pt": "Introdução à gramática"
       },
       "topics": [
         {
           "code": "LT02T01",
           "names": {
-            "en": "Everyday statements",
-            "ro": "Enunțuri uzuale",
-            "de": "Alltagsaussagen",
-            "ru": "Повседневные утверждения",
-            "it": "Affermazioni quotidiane",
-            "es": "Declaraciones cotidianas",
-            "fr": "Déclarations quotidiennes",
-            "hu": "Mindennapi kijelentések",
-            "pt": "Declarações cotidianas"
+            "en": "Propositions & phrases",
+            "ro": "Propoziții și fraze",
+            "de": "Sätze & Wortgruppen",
+            "ru": "Предложения и словосочетания",
+            "it": "Proposizioni e frasi",
+            "es": "Oraciones y frases",
+            "fr": "Propositions et phrases",
+            "hu": "Mondatok és szószerkezetek",
+            "pt": "Orações e frases"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A1",
-          "items": [
-            "sentence_eu-sunt-student",
-            "sentence_el-este-profesor",
-            "sentence_ea-este-femeie",
-            "sentence_el-este-prietenul-meu",
-            "sentence_familia-mea-are-un-copil",
-            "sentence_eu-spun-salut",
-            "sentence_eu-spun-multumesc",
-            "sentence_eu-sunt-fericit-azi",
-            "sentence_el-este-trist-azi",
-            "sentence_ea-este-linistita-acum",
-            "sentence_casa-are-o-usa",
-            "sentence_apartamentul-are-o-fereastra",
-            "sentence_cheia-este-pe-masa",
-            "sentence_scaunul-este-langa-masa",
-            "sentence_patul-este-in-camera",
-            "sentence_eu-ma-trezesc-dimineata",
-            "sentence_eu-beau-apa",
-            "sentence_eu-mananc-paine",
-            "sentence_eu-citesc-seara",
-            "sentence_eu-dorm-noaptea",
-            "sentence_autobuzul-vine-la-statie",
-            "sentence_trenul-vine-acum",
-            "sentence_eu-merg-la-magazin",
-            "sentence_eu-am-bani-si-card",
-            "sentence_bonul-este-pe-masa",
-            "sentence_studentul-citeste-lectia",
-            "sentence_profesorul-scrie-un-raport",
-            "sentence_colegul-are-un-proiect",
-            "sentence_clientul-are-un-contract",
-            "sentence_sedinta-este-azi"
-          ],
-          "lastIndex": {
-            "ro": {
-              "audio": 30
-            }
-          }
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT02T02",
           "names": {
-            "en": "Questions & answers: people, home & daily life",
-            "ro": "Întrebări și răspunsuri: oameni, casă și rutină",
-            "de": "Fragen & Antworten: Menschen, Zuhause & Alltag",
-            "ru": "Вопросы и ответы: люди, дом и повседневная жизнь",
-            "it": "Domande e risposte: persone, casa e vita quotidiana",
-            "es": "Preguntas y respuestas: personas, hogar y vida cotidiana",
-            "fr": "Questions et réponses : personnes, maison et vie quotidienne",
-            "hu": "Kérdések és válaszok: emberek, otthon és mindennapi élet",
-            "pt": "Perguntas e respostas: pessoas, casa e vida cotidiana"
+            "en": "Categories of words",
+            "ro": "Categoriile de cuvinte",
+            "de": "Wortarten",
+            "ru": "Части речи",
+            "it": "Categorie di parole",
+            "es": "Categorías de palabras",
+            "fr": "Catégories de mots",
+            "hu": "Szófajok",
+            "pt": "Categorias de palavras"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A1",
-          "items": [
-            "question_care-este-numele-tau",
-            "question_numele-meu-este-andrei",
-            "question_eu-sunt-maria",
-            "question_esti-student",
-            "question_da-sunt-student",
-            "question_nu-sunt-profesor",
-            "question_el-este-prietenul-tau",
-            "question_da-el-este-prietenul-meu",
-            "question_nu-el-este-colegul-meu",
-            "question_ai-familie-mare",
-            "question_da-am-familie-mare",
-            "question_nu-am-familie-mica",
-            "question_copilul-este-acasa",
-            "question_da-copilul-este-acasa",
-            "question_nu-copilul-este-la-scoala",
-            "question_vecinul-este-acolo",
-            "question_da-vecinul-este-acolo",
-            "question_nu-vecinul-este-la-birou",
-            "question_esti-fericit-azi",
-            "question_da-sunt-fericit-azi",
-            "question_nu-sunt-obosit-azi",
-            "question_spui-multumesc",
-            "question_da-spun-multumesc",
-            "question_nu-spun-scuze",
-            "question_ea-este-linistita-acum",
-            "question_da-ea-este-linistita-acum",
-            "question_nu-ea-este-suparata-acum",
-            "question_cheia-este-pe-masa",
-            "question_da-cheia-este-pe-masa",
-            "question_nu-cheia-este-in-baie",
-            "question_patul-este-in-camera",
-            "question_da-patul-este-in-camera",
-            "question_nu-patul-este-langa-usa",
-            "question_ai-apartament",
-            "question_da-am-apartament",
-            "question_nu-am-casa",
-            "question_bei-apa-acum",
-            "question_da-beau-apa-acum",
-            "question_nu-beau-lapte-acum",
-            "question_mananci-paine-dimineata",
-            "question_da-mananc-paine-dimineata",
-            "question_nu-mananc-oua-dimineata",
-            "question_cumperi-peste-azi",
-            "question_da-cumpar-peste-azi",
-            "question_nu-cumpar-fructe-azi",
-            "question_te-trezesti-dimineata-devreme",
-            "question_da-ma-trezesc-dimineata-devreme",
-            "question_nu-ma-trezesc-tarziu",
-            "question_citesti-seara",
-            "question_da-citesc-seara",
-            "question_nu-scriu-seara",
-            "question_dormi-noaptea-bine",
-            "question_da-dorm-noaptea-bine",
-            "question_nu-dorm-putin-noaptea",
-            "question_studentul-citeste-lectia",
-            "question_da-studentul-citeste-lectia",
-            "question_nu-studentul-scrie-lectia",
-            "question_ai-examen-azi",
-            "question_da-am-examen-azi",
-            "question_nu-am-tema-azi",
-            "question_profesorul-este-la-universitate",
-            "question_da-profesorul-este-la-universitate",
-            "question_nu-profesorul-este-la-scoala"
-          ],
-          "lastIndex": {
-            "ro": {
-              "audio": 63
-            }
-          }
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT02T03",
           "names": {
-            "en": "Questions & answers: work, technology & directions",
-            "ro": "Întrebări și răspunsuri: muncă, tehnologie și orientare",
-            "de": "Fragen & Antworten: Arbeit, Technik & Wegbeschreibungen",
-            "ru": "Вопросы и ответы: работа, технологии и направления",
-            "it": "Domande e risposte: lavoro, tecnologia e indicazioni",
-            "es": "Preguntas y respuestas: trabajo, tecnología y direcciones",
-            "fr": "Questions et réponses : travail, technologie et directions",
-            "hu": "Kérdések és válaszok: munka, technológia és útbaigazítás",
-            "pt": "Perguntas e respostas: trabalho, tecnologia e direções"
+            "en": "Nouns (substantives)",
+            "ro": "Substantivul",
+            "de": "Substantive",
+            "ru": "Существительное",
+            "it": "Il sostantivo",
+            "es": "El sustantivo",
+            "fr": "Le nom",
+            "hu": "A főnév",
+            "pt": "O substantivo"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A1",
-          "items": [
-            "question_ai-proiect-nou",
-            "question_da-am-proiect-nou",
-            "question_nu-am-raport-nou",
-            "question_clientul-are-contract",
-            "question_da-clientul-are-contract",
-            "question_nu-clientul-are-intrebare",
-            "question_sedinta-este-azi",
-            "question_da-sedinta-este-azi",
-            "question_nu-sedinta-este-maine",
-            "question_ai-telefon",
-            "question_da-am-telefon",
-            "question_nu-am-calculator",
-            "question_trimiti-mesaj-acum",
-            "question_da-trimit-mesaj-acum",
-            "question_nu-trimit-email-acum",
-            "question_parola-este-aici",
-            "question_da-parola-este-aici",
-            "question_nu-parola-este-in-fisier",
-            "question_magazinul-este-la-dreapta",
-            "question_da-magazinul-este-la-dreapta",
-            "question_nu-magazinul-este-la-stanga",
-            "question_statia-este-pe-aceasta-strada",
-            "question_da-statia-este-pe-aceasta-strada",
-            "question_nu-statia-este-pe-alt-drum",
-            "question_ai-harta",
-            "question_da-am-harta",
-            "question_nu-am-telefon",
-            "question_vine-autobuzul-acum",
-            "question_da-autobuzul-vine-acum",
-            "question_nu-trenul-vine-acum",
-            "question_ai-bilet",
-            "question_da-am-bilet",
-            "question_nu-cumpar-bilet-acum",
-            "question_trenul-merge-la-oras",
-            "question_da-trenul-merge-la-oras",
-            "question_nu-trenul-merge-la-aeroport"
-          ],
-          "lastIndex": {
-            "ro": {
-              "audio": 72
-            }
-          }
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT02T04",
           "names": {
-            "en": "Questions & answers: transport, shopping, health & nature",
-            "ro": "Întrebări și răspunsuri: transport, cumpărături, sănătate și natură",
-            "de": "Fragen & Antworten: Transport, Einkaufen, Gesundheit & Natur",
-            "ru": "Вопросы и ответы: транспорт, покупки, здоровье и природа",
-            "it": "Domande e risposte: trasporti, shopping, salute e natura",
-            "es": "Preguntas y respuestas: transporte, compras, salud y naturaleza",
-            "fr": "Questions et réponses : transport, shopping, santé et nature",
-            "hu": "Kérdések és válaszok: közlekedés, vásárlás, egészség és természet",
-            "pt": "Perguntas e respostas: transporte, compras, saúde e natureza"
+            "en": "Pronouns",
+            "ro": "Pronumele",
+            "de": "Pronomen",
+            "ru": "Местоимение",
+            "it": "Il pronome",
+            "es": "El pronombre",
+            "fr": "Le pronom",
+            "hu": "A névmás",
+            "pt": "O pronome"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A1",
-          "items": [
-            "question_ai-bani",
-            "question_da-am-bani",
-            "question_nu-am-card",
-            "question_pretul-este-mare",
-            "question_da-pretul-este-mare",
-            "question_nu-pretul-este-mic",
-            "question_primesti-bon",
-            "question_da-primesc-bon",
-            "question_nu-primesc-mesaj",
-            "question_ai-durere",
-            "question_da-am-durere",
-            "question_nu-am-febra",
-            "question_doctorul-este-aici",
-            "question_da-doctorul-este-aici",
-            "question_nu-doctorul-este-la-spital",
-            "question_ai-nevoie-de-ajutor",
-            "question_da-am-nevoie-de-ajutor",
-            "question_nu-am-nevoie-de-apa",
-            "question_este-urgenta",
-            "question_da-este-urgenta",
-            "question_nu-este-alarma-falsa",
-            "question_vine-ambulanta",
-            "question_da-ambulanta-vine",
-            "question_nu-politia-vine",
-            "question_politia-este-aproape",
-            "question_da-politia-este-aproape",
-            "question_nu-politia-este-departe",
-            "question_vezi-soarele",
-            "question_da-vad-soarele",
-            "question_nu-vad-norii",
-            "question_este-ploaie-azi",
-            "question_da-este-ploaie-azi",
-            "question_nu-este-vant-azi",
-            "question_mergi-la-mare",
-            "question_da-merg-la-mare",
-            "question_nu-merg-la-munte"
-          ]
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT02T05",
           "names": {
-            "en": "Everyday commands: people, home, routine & study",
-            "ro": "Comenzi uzuale: oameni, casă, rutină și studiu",
-            "de": "Alltagsbefehle: Menschen, Zuhause, Routine & Lernen",
-            "ru": "Повседневные команды: люди, дом, рутина и учеба",
-            "it": "Comandi quotidiani: persone, casa, routine e studio",
-            "es": "Comandos cotidianos: personas, hogar, rutina y estudio",
-            "fr": "Commandes quotidiennes : personnes, maison, routine et étude",
-            "hu": "Mindennapi utasítások: emberek, otthon, rutin és tanulás",
-            "pt": "Comandos cotidianos: pessoas, casa, rotina e estudo"
+            "en": "Adjectives & articles",
+            "ro": "Adjectivul și articolul",
+            "de": "Adjektive & Artikel",
+            "ru": "Прилагательное и артикль",
+            "it": "Aggettivo e articolo",
+            "es": "Adjetivo y artículo",
+            "fr": "Adjectif et article",
+            "hu": "Melléknév és névelő",
+            "pt": "Adjetivo e artigo"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": [
-            "imperative_spune-salut",
-            "imperative_spune-buna-ziua",
-            "imperative_spune-te-rog",
-            "imperative_spune-multumesc",
-            "imperative_spune-la-revedere",
-            "imperative_spune-numele",
-            "imperative_scrie-prenumele",
-            "imperative_suna-prietenul",
-            "imperative_ajuta-copilul",
-            "imperative_saluta-vecinul",
-            "imperative_deschide-telefonul",
-            "imperative_citeste-mesajul",
-            "imperative_scrie-emailul",
-            "imperative_trimite-apelul-video",
-            "imperative_salveaza-fisierul",
-            "imperative_deschide-usa",
-            "imperative_inchide-fereastra",
-            "imperative_pune-cheia-pe-masa",
-            "imperative_adu-scaunul",
-            "imperative_aranjeaza-patul",
-            "imperative_bea-apa",
-            "imperative_mananca-paine",
-            "imperative_bea-lapte",
-            "imperative_mananca-oul",
-            "imperative_cumpara-peste",
-            "imperative_trezeste-te-dimineata",
-            "imperative_lucreaza-azi",
-            "imperative_invata-acum",
-            "imperative_citeste-seara",
-            "imperative_dormi-noaptea",
-            "imperative_citeste-lectia",
-            "imperative_scrie-tema",
-            "imperative_deschide-caietul",
-            "imperative_asculta-profesorul",
-            "imperative_pregateste-examenul"
-          ],
-          "lastIndex": {
-            "ro": {
-              "audio": 75
-            }
-          }
+          "layout": "article",
+          "level": "A1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT02T06",
           "names": {
-            "en": "Everyday commands: work, town, travel & emergencies",
-            "ro": "Comenzi uzuale: muncă, oraș, călătorii și urgențe",
-            "de": "Alltagsbefehle: Arbeit, Stadt, Reisen & Notfälle",
-            "ru": "Повседневные команды: работа, город, путешествия и чрезвычайные ситуации",
-            "it": "Comandi quotidiani: lavoro, città, viaggi ed emergenze",
-            "es": "Comandos cotidianos: trabajo, ciudad, viajes y emergencias",
-            "fr": "Commandes quotidiennes : travail, ville, voyages et urgences",
-            "hu": "Mindennapi utasítások: munka, város, utazás és vészhelyzetek",
-            "pt": "Comandos cotidianos: trabalho, cidade, viagens e emergências"
+            "en": "Numerals",
+            "ro": "Numeralul",
+            "de": "Zahlwörter",
+            "ru": "Числительное",
+            "it": "Il numerale",
+            "es": "El numeral",
+            "fr": "Le numéral",
+            "hu": "A számnév",
+            "pt": "O numeral"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": [
-            "imperative_deschide-proiectul",
-            "imperative_citeste-raportul",
-            "imperative_suna-clientul",
-            "imperative_pregateste-contractul",
-            "imperative_respecta-programul",
-            "imperative_porneste-calculatorul",
-            "imperative_deschide-aplicatia",
-            "imperative_verifica-emailul",
-            "imperative_trimite-mesajul",
-            "imperative_inchide-fisierul",
-            "imperative_mergi-la-dreapta",
-            "imperative_mergi-la-stanga",
-            "imperative_urmeaza-strada",
-            "imperative_cauta-coltul",
-            "imperative_verifica-harta",
-            "imperative_ia-autobuzul",
-            "imperative_asteapta-trenul",
-            "imperative_cumpara-biletul",
-            "imperative_mergi-la-statie",
-            "imperative_mergi-la-aeroport",
-            "imperative_intra-in-magazin",
-            "imperative_cauta-piata",
-            "imperative_verifica-pretul",
-            "imperative_plateste-cu-cardul",
-            "imperative_pastreaza-bonul",
-            "imperative_suna-doctorul",
-            "imperative_mergi-la-spital",
-            "imperative_cauta-farmacia",
-            "imperative_ia-medicamentul",
-            "imperative_bea-apa-acum",
-            "imperative_cere-ajutor",
-            "imperative_suna-la-politie",
-            "imperative_cheama-ambulanta",
-            "imperative_ramai-calm",
-            "imperative_mergi-la-spital-acum",
-            "imperative_priveste-soarele",
-            "imperative_asculta-vantul",
-            "imperative_priveste-norul",
-            "imperative_urmeaza-raul",
-            "imperative_cauta-padurea"
-          ]
+          "layout": "article",
+          "level": "A1",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT02T07",
+          "names": {
+            "en": "Verbs",
+            "ro": "Verbul",
+            "de": "Verben",
+            "ru": "Глагол",
+            "it": "Il verbo",
+            "es": "El verbo",
+            "fr": "Le verbe",
+            "hu": "Az ige",
+            "pt": "O verbo"
+          },
+          "layout": "article",
+          "level": "A1",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT02T08",
+          "names": {
+            "en": "Adverbs",
+            "ro": "Adverbul",
+            "de": "Adverbien",
+            "ru": "Наречие",
+            "it": "L'avverbio",
+            "es": "El adverbio",
+            "fr": "L'adverbe",
+            "hu": "A határozószó",
+            "pt": "O advérbio"
+          },
+          "layout": "article",
+          "level": "A1",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT02T09",
+          "names": {
+            "en": "Prepositions & conjunctions",
+            "ro": "Prepoziția și conjuncția",
+            "de": "Präpositionen & Konjunktionen",
+            "ru": "Предлог и союз",
+            "it": "Preposizione e congiunzione",
+            "es": "Preposición y conjunción",
+            "fr": "Préposition et conjonction",
+            "hu": "Elöljárószó és kötőszó",
+            "pt": "Preposição e conjunção"
+          },
+          "layout": "article",
+          "level": "A1",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT02T10",
+          "names": {
+            "en": "Cases & other categories",
+            "ro": "Cazurile și alte categorii",
+            "de": "Fälle & weitere Kategorien",
+            "ru": "Падежи и другие категории",
+            "it": "Casi e altre categorie",
+            "es": "Casos y otras categorías",
+            "fr": "Cas et autres catégories",
+            "hu": "Esetek és más kategóriák",
+            "pt": "Casos e outras categorias"
+          },
+          "layout": "article",
+          "level": "A1",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT02T11",
+          "names": {
+            "en": "Word order & agreement",
+            "ro": "Ordinea cuvintelor și acordul",
+            "de": "Wortstellung & Kongruenz",
+            "ru": "Порядок слов и согласование",
+            "it": "Ordine delle parole e accordo",
+            "es": "Orden de palabras y concordancia",
+            "fr": "Ordre des mots et accord",
+            "hu": "Szórend és egyeztetés",
+            "pt": "Ordem das palavras e concordância"
+          },
+          "layout": "article",
+          "level": "A1",
+          "items": [],
+          "mode": "directional"
         }
       ]
     },
     {
       "code": "LT03",
       "names": {
-        "en": "Greetings, Courtesy & Social Expressions",
-        "ro": "Saluturi, politețe și expresii sociale",
-        "de": "Begrüßungen, Höflichkeit & soziale Ausdrücke",
-        "ru": "Приветствия, вежливость и социальные выражения",
-        "it": "Saluti, cortesia ed espressioni sociali",
-        "es": "Saludos, cortesía y expresiones sociales",
-        "fr": "Salutations, courtoisie et expressions sociales",
-        "hu": "Üdvözlések, udvariasság és társadalmi kifejezések",
-        "pt": "Saudações, cortesia e expressões sociais"
+        "en": "Nouns & Noun Phrases",
+        "ro": "Substantive și grupul nominal",
+        "de": "Nomen & Nominalgruppe",
+        "ru": "Существительное и именная группа",
+        "it": "Nomi e gruppo nominale",
+        "es": "Sustantivos y grupo nominal",
+        "fr": "Noms et groupe nominal",
+        "hu": "Főnevek és névszói csoport",
+        "pt": "Substantivos e grupo nominal"
       },
       "topics": [
         {
           "code": "LT03T01",
           "names": {
-            "en": "Greetings, farewells & polite formulas",
-            "ro": "Saluturi, rămas-bun și formule de politețe",
-            "de": "Begrüßungen, Abschiede & Höflichkeitsformeln",
-            "ru": "Приветствия, прощания и вежливые формулы",
-            "it": "Saluti, commiati e formule di cortesia",
-            "es": "Saludos, despedidas y fórmulas de cortesía",
-            "fr": "Salutations, adieux et formules de politesse",
-            "hu": "Köszöntések, elköszönések és udvariassági formulák",
-            "pt": "Saudações, despedidas e fórmulas de cortesia"
+            "en": "Kinds of nouns",
+            "ro": "Tipuri de substantive",
+            "de": "Arten von Substantiven",
+            "ru": "Виды существительных",
+            "it": "Tipi di nomi",
+            "es": "Clases de sustantivos",
+            "fr": "Types de noms",
+            "hu": "A főnevek fajtái",
+            "pt": "Tipos de substantivos"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A1",
-          "items": [
-            "L294",
-            "greeting_buna",
-            "greeting_ceao",
-            "greeting_buna-dimineata",
-            "greeting_buna-ziua",
-            "L295",
-            "greeting_noapte-buna",
-            "greeting_pe-curand",
-            "L296",
-            "greeting_sa-fii-sanatos",
-            "greeting_noroc-bun",
-            "greeting_sa-auzim-de-bine",
-            "greeting_sa-ne-vedem-sanatosi",
-            "greeting_noapte-buna-2",
-            "greeting_adio-si-noroc",
-            "word_imi-pare-bine",
-            "L297",
-            "L298",
-            "L299",
-            "L300"
-          ],
-          "lastIndex": {
-            "ro": {
-              "audio": 23
-            },
-            "en": {
-              "audio": 3
-            },
-            "es": {
-              "audio": 3
-            },
-            "it": {
-              "audio": 3
-            },
-            "fr": {
-              "audio": 3
-            },
-            "de": {
-              "audio": 3
-            },
-            "ru": {
-              "audio": 3
-            },
-            "hu": {
-              "audio": 3
-            },
-            "pt": {
-              "audio": 3
-            }
-          }
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT03T02",
           "names": {
-            "en": "Introductions, origin & personal identity",
-            "ro": "Prezentări, origine și identitate",
-            "de": "Vorstellungen, Herkunft & persönliche Identität",
-            "ru": "Знакомство, происхождение и личная идентификация",
-            "it": "Presentazioni, origine e identità personale",
-            "es": "Presentaciones, origen e identidad personal",
-            "fr": "Présentations, origine et identité personnelle",
-            "hu": "Bemutatkozás, származás és személyazonosság",
-            "pt": "Apresentações, origem e identidade pessoal"
+            "en": "Gender",
+            "ro": "Genul",
+            "de": "Genus",
+            "ru": "Род",
+            "it": "Il genere",
+            "es": "El género",
+            "fr": "Le genre",
+            "hu": "A nem",
+            "pt": "O gênero"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A1",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT03T03",
           "names": {
-            "en": "Polite requests, thanks & apologies",
-            "ro": "Cereri politicos formulate, mulțumiri și scuze",
-            "de": "Höfliche Bitten, Dank & Entschuldigungen",
-            "ru": "Вежливые просьбы, благодарности и извинения",
-            "it": "Richieste gentili, ringraziamenti e scuse",
-            "es": "Peticiones amables, agradecimientos y disculpas",
-            "fr": "Demandes polies, remerciements et excuses",
-            "hu": "Udvarias kérések, köszönetnyilvánítás és bocsánatkérések",
-            "pt": "Pedidos educados, agradecimentos e desculpas"
+            "en": "Plural formation",
+            "ro": "Formarea pluralului",
+            "de": "Pluralbildung",
+            "ru": "Образование множественного числа",
+            "it": "Formazione del plurale",
+            "es": "Formación del plural",
+            "fr": "Formation du pluriel",
+            "hu": "A többes szám képzése",
+            "pt": "Formação do plural"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A1",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT03T04",
           "names": {
-            "en": "Family, friends & social visits",
-            "ro": "Familie, prieteni și vizite",
-            "de": "Familie, Freunde & soziale Besuche",
-            "ru": "Семья, друзья и социальные визиты",
-            "it": "Famiglia, amici e visite sociali",
-            "es": "Familia, amigos y visitas sociales",
-            "fr": "Famille, amis et visites sociales",
-            "hu": "Család, barátok és társasági látogatások",
-            "pt": "Família, amigos e visitas sociais"
+            "en": "Articles & determiners",
+            "ro": "Articole și determinanți",
+            "de": "Artikel & Begleiter",
+            "ru": "Артикли и определители",
+            "it": "Articoli e determinanti",
+            "es": "Artículos y determinantes",
+            "fr": "Articles et déterminants",
+            "hu": "Névelők és határozók",
+            "pt": "Artigos e determinantes"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
+          "layout": "article",
+          "level": "A1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT03T05",
           "names": {
-            "en": "Wishes, congratulations & holiday customs",
-            "ro": "Urări, felicitări și tradiții",
-            "de": "Wünsche, Glückwünsche & Feiertagsbräuche",
-            "ru": "Пожелания, поздравления и праздничные обычаи",
-            "it": "Auguri, congratulazioni e usanze festive",
-            "es": "Deseos, felicitaciones y costumbres festivas",
-            "fr": "Vœux, félicitations et coutumes de fête",
-            "hu": "Kívánságok, gratulációk és ünnepi szokások",
-            "pt": "Desejos, felicitações e costumes festivos"
+            "en": "Adjectives: agreement & position",
+            "ro": "Adjectivul: acord și poziție",
+            "de": "Adjektive: Kongruenz & Stellung",
+            "ru": "Прилагательное: согласование и место",
+            "it": "Aggettivo: accordo e posizione",
+            "es": "Adjetivo: concordancia y posición",
+            "fr": "Adjectif : accord et place",
+            "hu": "Melléknév: egyeztetés és helye",
+            "pt": "Adjetivo: concordância e posição"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A2",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT03T06",
           "names": {
-            "en": "Small talk, invitations & cultural etiquette",
-            "ro": "Conversații uzuale, invitații și etichetă",
-            "de": "Smalltalk, Einladungen & kulturelle Etikette",
-            "ru": "Светская беседа, приглашения и культурный этикет",
-            "it": "Conversazione, inviti ed etichetta culturale",
-            "es": "Charla informal, invitaciones y etiqueta cultural",
-            "fr": "Conversation, invitations et étiquette culturelle",
-            "hu": "Csevegés, meghívások és kulturális etikett",
-            "pt": "Conversa fiada, convites e etiqueta cultural"
+            "en": "Demonstratives, possessives & quantifiers",
+            "ro": "Demonstrative, posesive și cantitate",
+            "de": "Demonstrativa, Possessiva & Mengenwörter",
+            "ru": "Указательные, притяжательные и количественные слова",
+            "it": "Dimostrativi, possessivi e quantificatori",
+            "es": "Demostrativos, posesivos y cuantificadores",
+            "fr": "Démonstratifs, possessifs et quantificateurs",
+            "hu": "Mutató, birtokos és mennyiségi szavak",
+            "pt": "Demonstrativos, possessivos e quantificadores"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A2",
-          "items": []
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT03T07",
+          "names": {
+            "en": "Comparison",
+            "ro": "Gradele de comparație",
+            "de": "Steigerung",
+            "ru": "Степени сравнения",
+            "it": "Comparativo e superlativo",
+            "es": "Comparativo y superlativo",
+            "fr": "Comparatif et superlatif",
+            "hu": "Fokozás",
+            "pt": "Comparativo e superlativo"
+          },
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT03T08",
+          "names": {
+            "en": "Building a noun phrase",
+            "ro": "Construirea grupului nominal",
+            "de": "Die Nominalgruppe aufbauen",
+            "ru": "Построение именной группы",
+            "it": "Costruire il gruppo nominale",
+            "es": "Construir el grupo nominal",
+            "fr": "Construire le groupe nominal",
+            "hu": "A névszói csoport felépítése",
+            "pt": "Construir o grupo nominal"
+          },
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         }
       ]
     },
     {
       "code": "LT04",
       "names": {
-        "en": "Pronouns & Core Verbs",
-        "ro": "Pronume și verbe fundamentale",
-        "de": "Pronomen & Kernverben",
-        "ru": "Местоимения и основные глаголы",
-        "it": "Pronomi e verbi principali",
-        "es": "Pronombres y verbos principales",
-        "fr": "Pronoms et verbes principaux",
-        "hu": "Névmások és alapvető igék",
-        "pt": "Pronomes e verbos principais"
+        "en": "Pronouns",
+        "ro": "Pronumele",
+        "de": "Pronomen",
+        "ru": "Местоимения",
+        "it": "I pronomi",
+        "es": "Los pronombres",
+        "fr": "Les pronoms",
+        "hu": "Névmások",
+        "pt": "Os pronomes"
       },
       "topics": [
         {
           "code": "LT04T01",
           "names": {
-            "en": "Subject pronouns & the verb 'to be'",
-            "ro": "Pronumele personale și verbul a fi",
-            "de": "Personalpronomen & das Verb „sein“",
-            "ru": "Личные местоимения и глагол «быть»",
-            "it": "Pronomi soggetto e il verbo «essere»",
-            "es": "Pronombres personales y el verbo «ser»",
-            "fr": "Pronoms sujets et le verbe « être »",
-            "hu": "Alanyi névmások és a „lenni” ige",
-            "pt": "Pronomes pessoais e o verbo «ser»"
+            "en": "Personal pronouns",
+            "ro": "Pronumele personale",
+            "de": "Personalpronomen",
+            "ru": "Личные местоимения",
+            "it": "Pronomi personali",
+            "es": "Pronombres personales",
+            "fr": "Pronoms personnels",
+            "hu": "Személyes névmások",
+            "pt": "Pronomes pessoais"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A1",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT04T02",
           "names": {
-            "en": "Having & needing",
-            "ro": "A avea și a trebui",
-            "de": "Haben & brauchen",
-            "ru": "Иметь и нуждаться",
-            "it": "Avere e aver bisogno",
-            "es": "Tener y necesitar",
-            "fr": "Avoir et avoir besoin",
-            "hu": "Birtoklás és szükség",
-            "pt": "Ter e precisar"
+            "en": "Object pronouns",
+            "ro": "Pronumele în complement",
+            "de": "Objektpronomen",
+            "ru": "Местоимения в роли дополнения",
+            "it": "Pronomi complemento",
+            "es": "Pronombres de complemento",
+            "fr": "Pronoms compléments",
+            "hu": "Tárgyi névmások",
+            "pt": "Pronomes oblíquos"
           },
-          "layout": "table",
-          "level": "A1",
-          "items": []
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT04T03",
           "names": {
-            "en": "Existence & possession",
-            "ro": "Existență și posesie",
-            "de": "Existenz & Besitz",
-            "ru": "Существование и принадлежность",
-            "it": "Esistenza e possesso",
-            "es": "Existencia y posesión",
-            "fr": "Existence et possession",
-            "hu": "Létezés és birtoklás",
-            "pt": "Existência e posse"
+            "en": "Reflexive & reciprocal",
+            "ro": "Reflexiv și reciproc",
+            "de": "Reflexiv & reziprok",
+            "ru": "Возвратные и взаимные",
+            "it": "Riflessivi e reciproci",
+            "es": "Reflexivos y recíprocos",
+            "fr": "Réfléchis et réciproques",
+            "hu": "Visszaható és kölcsönös",
+            "pt": "Reflexivos e recíprocos"
           },
-          "layout": "table",
-          "level": "A1",
-          "items": []
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT04T04",
           "names": {
-            "en": "Reflexive pronouns & daily routine verbs",
-            "ro": "Pronumele reflexive și verbele de rutină",
-            "de": "Reflexivpronomen & Verben für den Tagesablauf",
-            "ru": "Возвратные местоимения и глаголы повседневной деятельности",
-            "it": "Pronomi riflessivi e verbi della routine quotidiana",
-            "es": "Pronombres reflexivos y verbos de la rutina diaria",
-            "fr": "Pronoms réfléchis et verbes de la routine quotidienne",
-            "hu": "Visszaható névmások és a napi rutin igéi",
-            "pt": "Pronomes reflexivos e verbos da rotina diária"
+            "en": "Possessive & demonstrative pronouns",
+            "ro": "Pronume posesive și demonstrative",
+            "de": "Possessiv- & Demonstrativpronomen",
+            "ru": "Притяжательные и указательные местоимения",
+            "it": "Pronomi possessivi e dimostrativi",
+            "es": "Pronombres posesivos y demostrativos",
+            "fr": "Pronoms possessifs et démonstratifs",
+            "hu": "Birtokos és mutató névmások",
+            "pt": "Pronomes possessivos e demonstrativos"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A2",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT04T05",
           "names": {
-            "en": "Object pronouns",
-            "ro": "Pronumele în acuzativ și dativ",
-            "de": "Objektpronomen",
-            "ru": "Объектные местоимения",
-            "it": "Pronomi complemento",
-            "es": "Pronombres de objeto",
-            "fr": "Pronoms compléments",
-            "hu": "Tárgyi és részeshatározói névmások",
-            "pt": "Pronomes de complemento"
+            "en": "Relative & interrogative pronouns",
+            "ro": "Pronume relative și interogative",
+            "de": "Relativ- & Interrogativpronomen",
+            "ru": "Относительные и вопросительные местоимения",
+            "it": "Pronomi relativi e interrogativi",
+            "es": "Pronombres relativos e interrogativos",
+            "fr": "Pronoms relatifs et interrogatifs",
+            "hu": "Vonatkozó és kérdő névmások",
+            "pt": "Pronomes relativos e interrogativos"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT04T06",
           "names": {
-            "en": "Polite pronouns & register",
-            "ro": "Pronumele de politețe și registrul vorbirii",
-            "de": "Höflichkeitsformen & Sprachebene",
-            "ru": "Вежливые местоимения и стиль речи",
-            "it": "Pronomi di cortesia e registro",
-            "es": "Pronombres de cortesía y registro",
-            "fr": "Pronoms de politesse et registre",
-            "hu": "Udvariassági névmások és nyelvi stílus",
-            "pt": "Pronomes de cortesia e registo"
+            "en": "Indefinite & negative pronouns",
+            "ro": "Pronume nehotărâte și negative",
+            "de": "Indefinit- & Negationspronomen",
+            "ru": "Неопределённые и отрицательные местоимения",
+            "it": "Pronomi indefiniti e negativi",
+            "es": "Pronombres indefinidos y negativos",
+            "fr": "Pronoms indéfinis et négatifs",
+            "hu": "Határozatlan és tagadó névmások",
+            "pt": "Pronomes indefinidos e negativos"
           },
-          "layout": "table",
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT04T07",
+          "names": {
+            "en": "Address & politeness",
+            "ro": "Adresare și politețe",
+            "de": "Anrede & Höflichkeit",
+            "ru": "Обращение и вежливость",
+            "it": "Forme di cortesia",
+            "es": "Tratamiento y cortesía",
+            "fr": "Tutoiement et vouvoiement",
+            "hu": "Megszólítás és udvariasság",
+            "pt": "Tratamento e cortesia"
+          },
+          "layout": "article",
           "level": "A2",
-          "items": []
+          "items": [],
+          "mode": "directional"
         }
       ]
     },
     {
       "code": "LT05",
       "names": {
-        "en": "Nouns, Articles & Modifiers",
-        "ro": "Substantive, articole și determinanți",
-        "de": "Substantive, Artikel & Modifikatoren",
-        "ru": "Существительные, артикли и определители",
-        "it": "Sostantivi, articoli e modificatori",
-        "es": "Sustantivos, artículos y modificadores",
-        "fr": "Noms, articles et modificateurs",
-        "hu": "Főnevek, névelők és módosítók",
-        "pt": "Substantivos, artigos e modificadores"
+        "en": "Cases & Prepositions",
+        "ro": "Cazuri și prepoziții",
+        "de": "Fälle & Präpositionen",
+        "ru": "Падежи и предлоги",
+        "it": "Casi e preposizioni",
+        "es": "Casos y preposiciones",
+        "fr": "Cas et prépositions",
+        "hu": "Esetek és elöljárók",
+        "pt": "Casos e preposições"
       },
       "topics": [
         {
           "code": "LT05T01",
           "names": {
-            "en": "Noun gender: masculine, feminine & neuter",
-            "ro": "Genul substantivelor: masculin, feminin și neutru",
-            "de": "Genus der Substantive: maskulin, feminin & neutral",
-            "ru": "Род существительных: мужской, женский и средний",
-            "it": "Genere dei sostantivi: maschile, femminile e neutro",
-            "es": "Género de los sustantivos: masculino, femenino y neutro",
-            "fr": "Genre des noms : masculin, féminin et neutre",
-            "hu": "Főnevek neme: hímnem, nőnem és semlegesnem",
-            "pt": "Gênero dos substantivos: masculino, feminino e neutro"
+            "en": "What cases do",
+            "ro": "Rolul cazurilor",
+            "de": "Wozu Fälle dienen",
+            "ru": "Для чего нужны падежи",
+            "it": "A cosa servono i casi",
+            "es": "Para qué sirven los casos",
+            "fr": "À quoi servent les cas",
+            "hu": "Mire jók az esetek",
+            "pt": "Para que servem os casos"
           },
-          "layout": "table",
-          "level": "A1",
-          "items": []
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT05T02",
           "names": {
-            "en": "Singular & plural patterns",
-            "ro": "Singularul și pluralul substantivelor",
-            "de": "Singular- & Pluralmuster",
-            "ru": "Модели единственного и множественного числа",
-            "it": "Modelli di singolare e plurale",
-            "es": "Patrones de singular y plural",
-            "fr": "Modèles de singulier et pluriel",
-            "hu": "Egyes és többes számú minták",
-            "pt": "Padrões de singular e plural"
+            "en": "Subject & object marking",
+            "ro": "Subiectul și complementul",
+            "de": "Subjekt & Objekt markieren",
+            "ru": "Подлежащее и дополнение",
+            "it": "Soggetto e oggetto",
+            "es": "Sujeto y objeto",
+            "fr": "Sujet et objet",
+            "hu": "Alany és tárgy jelölése",
+            "pt": "Sujeito e objeto"
           },
-          "layout": "table",
-          "level": "A1",
-          "items": []
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT05T03",
           "names": {
-            "en": "Indefinite & definite articles",
-            "ro": "Articolul nehotărât și articolul hotărât",
-            "de": "Unbestimmter & bestimmter Artikel",
-            "ru": "Неопределённый и определённый артикли",
-            "it": "Articoli indeterminativi e determinativi",
-            "es": "Artículos indefinidos y definidos",
-            "fr": "Articles indéfinis et définis",
-            "hu": "Határozatlan és határozott névelő",
-            "pt": "Artigos indefinidos e definidos"
+            "en": "Possession & recipients",
+            "ro": "Posesia și destinatarul",
+            "de": "Besitz & Empfänger",
+            "ru": "Принадлежность и адресат",
+            "it": "Possesso e destinatario",
+            "es": "Posesión y destinatario",
+            "fr": "Possession et destinataire",
+            "hu": "Birtoklás és címzett",
+            "pt": "Posse e destinatário"
           },
-          "layout": "table",
-          "level": "A1",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT05T04",
           "names": {
-            "en": "Descriptive adjectives & agreement",
-            "ro": "Adjectivele și acordul în gen și număr",
-            "de": "Beschreibende Adjektive & Kongruenz",
-            "ru": "Описательные прилагательные и согласование",
-            "it": "Aggettivi descrittivi e accordo",
-            "es": "Adjetivos descriptivos y concordancia",
-            "fr": "Adjectifs descriptifs et accord",
-            "hu": "Leíró melléknevek és egyeztetés",
-            "pt": "Adjetivos descritivos e concordância"
+            "en": "Prepositions of place & direction",
+            "ro": "Prepoziții de loc și direcție",
+            "de": "Präpositionen des Ortes & der Richtung",
+            "ru": "Предлоги места и направления",
+            "it": "Preposizioni di luogo e direzione",
+            "es": "Preposiciones de lugar y dirección",
+            "fr": "Prépositions de lieu et de direction",
+            "hu": "Hely- és irányhatározó viszonyszók",
+            "pt": "Preposições de lugar e direção"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A2",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT05T05",
           "names": {
-            "en": "Demonstratives, possessives & quantifiers",
-            "ro": "Pronume și adjective demonstrative, posesive și nehotărâte",
-            "de": "Demonstrativpronomen, Possessivpronomen & Quantoren",
-            "ru": "Демонстративы, притяжательные местоимения и кванторы",
-            "it": "Dimostrativi, possessivi e quantificatori",
-            "es": "Demostrativos, posesivos y cuantificadores",
-            "fr": "Démonstratifs, possessifs et quantifieurs",
-            "hu": "Mutató névmások, birtokos névmások és mennyiségjelzők",
-            "pt": "Demonstrativos, possessivos e quantificadores"
+            "en": "Prepositions of time & relations",
+            "ro": "Prepoziții de timp și relații",
+            "de": "Präpositionen der Zeit & Beziehung",
+            "ru": "Предлоги времени и отношений",
+            "it": "Preposizioni di tempo e relazione",
+            "es": "Preposiciones de tiempo y relación",
+            "fr": "Prépositions de temps et de relation",
+            "hu": "Idő- és viszonyszók",
+            "pt": "Preposições de tempo e relação"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT05T06",
           "names": {
-            "en": "Comparison of adjectives & adverbs",
-            "ro": "Gradele de comparație",
-            "de": "Steigerung von Adjektiven & Adverbien",
-            "ru": "Сравнение прилагательных и наречий",
-            "it": "Comparazione di aggettivi e avverbi",
-            "es": "Comparación de adjetivos y adverbios",
-            "fr": "Comparaison des adjectifs et des adverbes",
-            "hu": "Melléknevek és határozószók fokozása",
-            "pt": "Comparação de adjetivos e advérbios"
+            "en": "Government: what follows what",
+            "ro": "Regimul: ce urmează după ce",
+            "de": "Rektion: was worauf folgt",
+            "ru": "Управление: что за чем следует",
+            "it": "Reggenza: cosa regge cosa",
+            "es": "Régimen: qué rige qué",
+            "fr": "Régime : ce qui suit quoi",
+            "hu": "Vonzatok: mi mit követ",
+            "pt": "Regência: o que rege o quê"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         }
       ]
     },
     {
       "code": "LT06",
       "names": {
-        "en": "Present Tense & Everyday Actions",
-        "ro": "Timpul prezent și acțiuni cotidiene",
-        "de": "Präsens & alltägliche Handlungen",
-        "ru": "Настоящее время и повседневные действия",
-        "it": "Tempo presente e azioni quotidiane",
-        "es": "Tiempo presente y acciones cotidianas",
-        "fr": "Temps présent et actions quotidiennes",
-        "hu": "Jelen idő és mindennapi cselekvések",
-        "pt": "Tempo presente e ações cotidianas"
+        "en": "Verbs: Present & Questions",
+        "ro": "Verbul: prezent și întrebări",
+        "de": "Verben: Präsens & Fragen",
+        "ru": "Глагол: настоящее время и вопросы",
+        "it": "Verbi: presente e domande",
+        "es": "Verbos: presente y preguntas",
+        "fr": "Verbes : présent et questions",
+        "hu": "Igék: jelen idő és kérdések",
+        "pt": "Verbos: presente e perguntas"
       },
       "topics": [
         {
           "code": "LT06T01",
           "names": {
-            "en": "Present tense: stems & endings",
-            "ro": "Prezentul: teme și terminații",
-            "de": "Präsens: Stamm und Endungen",
-            "ru": "Настоящее время: основа и окончания",
-            "it": "Presente: radice e desinenze",
-            "es": "Presente: raíz y terminaciones",
-            "fr": "Présent : radical et terminaisons",
-            "hu": "Jelen idő: tő és ragok",
-            "pt": "Presente: radical e terminações"
+            "en": "Verb anatomy: stem, ending, classes",
+            "ro": "Anatomia verbului: temă, terminație, clase",
+            "de": "Verbbau: Stamm, Endung, Klassen",
+            "ru": "Строение глагола: основа, окончание, спряжения",
+            "it": "Struttura del verbo: radice, desinenza, coniugazioni",
+            "es": "Anatomía del verbo: raíz, terminación, conjugaciones",
+            "fr": "Anatomie du verbe : radical, terminaison, groupes",
+            "hu": "Az ige felépítése: tő, rag, ragozási osztályok",
+            "pt": "Anatomia do verbo: radical, terminação, conjugações"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A1",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT06T02",
           "names": {
-            "en": "Conjugation classes",
-            "ro": "Clase de conjugare",
-            "de": "Konjugationsklassen",
-            "ru": "Типы спряжения",
-            "it": "Classi di coniugazione",
-            "es": "Clases de conjugación",
-            "fr": "Groupes de conjugaison",
-            "hu": "Igeragozási típusok",
-            "pt": "Classes de conjugação"
+            "en": "Being & having",
+            "ro": "Ființare și posesie",
+            "de": "Sein & Haben",
+            "ru": "Бытие и обладание",
+            "it": "Essere e avere",
+            "es": "Ser y tener",
+            "fr": "Être et avoir",
+            "hu": "Lét és birtoklás",
+            "pt": "Ser e ter"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
+          "layout": "article",
+          "level": "A1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT06T03",
           "names": {
-            "en": "Stem changes & irregular stems",
-            "ro": "Alternanțe în rădăcină și teme neregulate",
-            "de": "Stammwechsel und unregelmäßige Stämme",
-            "ru": "Чередование в основе и неправильные основы",
-            "it": "Cambi di radice e radici irregolari",
-            "es": "Cambios de raíz y raíces irregulares",
-            "fr": "Changements de radical et radicaux irréguliers",
-            "hu": "Tőváltozás és rendhagyó tövek",
-            "pt": "Mudanças de radical e radicais irregulares"
+            "en": "The present tense",
+            "ro": "Timpul prezent",
+            "de": "Das Präsens",
+            "ru": "Настоящее время",
+            "it": "Il presente",
+            "es": "El presente",
+            "fr": "Le présent",
+            "hu": "A jelen idő",
+            "pt": "O presente"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
+          "layout": "article",
+          "level": "A1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT06T04",
           "names": {
-            "en": "Irregular & high-frequency verbs",
-            "ro": "Verbe neregulate și foarte frecvente",
-            "de": "Unregelmäßige und häufige Verben",
-            "ru": "Неправильные и частотные глаголы",
-            "it": "Verbi irregolari e molto frequenti",
-            "es": "Verbos irregulares y muy frecuentes",
-            "fr": "Verbes irréguliers et très fréquents",
-            "hu": "Rendhagyó és gyakori igék",
-            "pt": "Verbos irregulares e muito frequentes"
+            "en": "Irregular & stem-changing verbs",
+            "ro": "Verbe neregulate și cu alternanțe",
+            "de": "Unregelmäßige Verben & Stammwechsel",
+            "ru": "Неправильные глаголы и чередования",
+            "it": "Verbi irregolari e cambi di radice",
+            "es": "Verbos irregulares y cambios de raíz",
+            "fr": "Verbes irréguliers et changements de radical",
+            "hu": "Rendhagyó és tőváltozó igék",
+            "pt": "Verbos irregulares e mudanças de radical"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A2",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT06T05",
           "names": {
-            "en": "Modal verbs & auxiliaries",
+            "en": "Modal & auxiliary verbs",
             "ro": "Verbe modale și auxiliare",
-            "de": "Modalverben und Hilfsverben",
+            "de": "Modal- & Hilfsverben",
             "ru": "Модальные и вспомогательные глаголы",
             "it": "Verbi modali e ausiliari",
             "es": "Verbos modales y auxiliares",
@@ -1516,785 +1372,1128 @@
             "hu": "Módbeli és segédigék",
             "pt": "Verbos modais e auxiliares"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A2",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT06T06",
           "names": {
-            "en": "Adverbs of frequency, time & manner",
-            "ro": "Adverbe de frecvență, timp și mod",
-            "de": "Adverbien der Häufigkeit, Zeit und Art und Weise",
-            "ru": "Наречия частоты, времени и образа действия",
-            "it": "Avverbi di frequenza, tempo e modo",
-            "es": "Adverbios de frecuencia, tiempo y modo",
-            "fr": "Adverbes de fréquence, de temps et de manière",
-            "hu": "Gyakoriságot, időt és módot kifejező határozószók",
-            "pt": "Advérbios de frequência, tempo e modo"
+            "en": "Reflexive & impersonal verbs",
+            "ro": "Verbe reflexive și impersonale",
+            "de": "Reflexive & unpersönliche Verben",
+            "ru": "Возвратные и безличные глаголы",
+            "it": "Verbi riflessivi e impersonali",
+            "es": "Verbos reflexivos e impersonales",
+            "fr": "Verbes pronominaux et impersonnels",
+            "hu": "Visszaható és személytelen igék",
+            "pt": "Verbos reflexivos e impessoais"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A2",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT06T07",
           "names": {
-            "en": "Negation, intensifiers & word order",
-            "ro": "Negația, semiadverbele și topica",
-            "de": "Verneinung, Verstärker & Wortstellung",
-            "ru": "Отрицание, усилители и порядок слов",
-            "it": "Negazione, intensificatori e ordine delle parole",
-            "es": "Negación, intensificadores y orden de palabras",
-            "fr": "Négation, intensifs et ordre des mots",
-            "hu": "Tagadás, hangsúlyozó szavak és szórend",
-            "pt": "Negação, intensificadores e ordem das palavras"
+            "en": "Negation",
+            "ro": "Negația",
+            "de": "Verneinung",
+            "ru": "Отрицание",
+            "it": "La negazione",
+            "es": "La negación",
+            "fr": "La négation",
+            "hu": "A tagadás",
+            "pt": "A negação"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
+          "layout": "article",
+          "level": "A1",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT06T08",
+          "names": {
+            "en": "Forming questions",
+            "ro": "Formarea întrebărilor",
+            "de": "Fragen bilden",
+            "ru": "Построение вопросов",
+            "it": "Formare le domande",
+            "es": "Formar preguntas",
+            "fr": "Poser des questions",
+            "hu": "Kérdések képzése",
+            "pt": "Formar perguntas"
+          },
+          "layout": "article",
+          "level": "A1",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT06T09",
+          "names": {
+            "en": "Commands & requests",
+            "ro": "Porunci și cereri",
+            "de": "Befehle & Bitten",
+            "ru": "Приказы и просьбы",
+            "it": "Comandi e richieste",
+            "es": "Órdenes y peticiones",
+            "fr": "Ordres et demandes",
+            "hu": "Felszólítás és kérés",
+            "pt": "Ordens e pedidos"
+          },
+          "layout": "article",
+          "level": "A1",
+          "items": [],
+          "mode": "directional"
         }
       ]
     },
     {
       "code": "LT07",
       "names": {
-        "en": "Cases, Prepositions & Numbers in Context",
-        "ro": "Cazuri, prepoziții și numerale în context",
-        "de": "Fälle, Präpositionen und Zahlen im Kontext",
-        "ru": "Падежи, предлоги и числа в контексте",
-        "it": "Casi, preposizioni e numeri nel contesto",
-        "es": "Casos, preposiciones y números en contexto",
-        "fr": "Cas, prépositions et nombres en contexte",
-        "hu": "Esetek, elöljárószók és számok szövegkörnyezetben",
-        "pt": "Casos, preposições e números em contexto"
+        "en": "Past, Future & Aspect",
+        "ro": "Trecut, viitor și aspect",
+        "de": "Vergangenheit, Zukunft & Aspekt",
+        "ru": "Прошедшее, будущее и вид",
+        "it": "Passato, futuro e aspetto",
+        "es": "Pasado, futuro y aspecto",
+        "fr": "Passé, futur et aspect",
+        "hu": "Múlt, jövő és igeaspektus",
+        "pt": "Passado, futuro e aspecto"
       },
       "topics": [
         {
           "code": "LT07T01",
           "names": {
-            "en": "Prepositions of place, movement & direction",
-            "ro": "Prepoziții de loc, mișcare și direcție",
-            "de": "Präpositionen für Ort, Bewegung und Richtung",
-            "ru": "Предлоги места, движения и направления",
-            "it": "Preposizioni di luogo, movimento e direzione",
-            "es": "Preposiciones de lugar, movimiento y dirección",
-            "fr": "Prépositions de lieu, de mouvement et de direction",
-            "hu": "Helyet, mozgást és irányt kifejező elöljárószók",
-            "pt": "Preposições de lugar, movimento e direção"
+            "en": "Past: completed actions",
+            "ro": "Trecutul: acțiuni încheiate",
+            "de": "Vergangenheit: abgeschlossene Handlungen",
+            "ru": "Прошедшее: завершённые действия",
+            "it": "Passato: azioni concluse",
+            "es": "Pasado: acciones terminadas",
+            "fr": "Passé : actions terminées",
+            "hu": "Múlt: befejezett cselekvések",
+            "pt": "Passado: ações concluídas"
           },
-          "layout": "table",
-          "level": "A1",
-          "items": []
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT07T02",
           "names": {
-            "en": "Prepositions of time, cause & instrument",
-            "ro": "Prepoziții de timp, cauză și instrument",
-            "de": "Präpositionen für Zeit, Ursache und Instrument",
-            "ru": "Предлоги времени, причины и инструмента",
-            "it": "Preposizioni di tempo, causa e strumento",
-            "es": "Preposiciones de tiempo, causa e instrumento",
-            "fr": "Prépositions de temps, de cause et d'instrument",
-            "hu": "Időt, okot és eszközt kifejező elöljárószók",
-            "pt": "Preposições de tempo, causa e instrumento"
+            "en": "Past: habits & ongoing actions",
+            "ro": "Trecutul: obiceiuri și acțiuni în desfășurare",
+            "de": "Vergangenheit: Gewohnheiten & Verlauf",
+            "ru": "Прошедшее: привычки и длительные действия",
+            "it": "Passato: abitudini e azioni in corso",
+            "es": "Pasado: hábitos y acciones en curso",
+            "fr": "Passé : habitudes et actions en cours",
+            "hu": "Múlt: szokások és folyamatos cselekvések",
+            "pt": "Passado: hábitos e ações em curso"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT07T03",
           "names": {
-            "en": "Direct objects & the accusative",
-            "ro": "Complementul direct și acuzativul",
-            "de": "Direktes Objekt & Akkusativ",
-            "ru": "Прямое дополнение и винительный падеж",
-            "it": "Complemento oggetto e accusativo",
-            "es": "Objeto directo y acusativo",
-            "fr": "Complément d'objet direct et accusatif",
-            "hu": "Tárgy és tárgyeset",
-            "pt": "Objeto direto e acusativo"
+            "en": "Perfect tenses & telling a story",
+            "ro": "Timpuri perfecte și povestirea",
+            "de": "Perfekt-Zeiten & Erzählen",
+            "ru": "Перфектные времена и рассказ",
+            "it": "Tempi perfetti e narrazione",
+            "es": "Tiempos perfectos y narración",
+            "fr": "Temps composés et récit",
+            "hu": "Befejezett idők és elbeszélés",
+            "pt": "Tempos perfeitos e narração"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT07T04",
           "names": {
-            "en": "Genitive & dative forms (possession & recipients)",
-            "ro": "Cazul genitiv și cazul dativ",
-            "de": "Genitiv- und Dativformen (Besitz und Empfänger)",
-            "ru": "Формы родительного и дательного падежей (принадлежность и получатели)",
-            "it": "Forme del genitivo e dativo (possesso e destinatari)",
-            "es": "Formas de genitivo y dativo (posesión y destinatarios)",
-            "fr": "Formes du génitif et du datif (possession et destinataires)",
-            "hu": "Genitivus és dativus alakok (birtoklás és részeshatározó)",
-            "pt": "Formas de genitivo e dativo (posse e destinatários)"
+            "en": "Future",
+            "ro": "Viitorul",
+            "de": "Das Futur",
+            "ru": "Будущее время",
+            "it": "Il futuro",
+            "es": "El futuro",
+            "fr": "Le futur",
+            "hu": "A jövő idő",
+            "pt": "O futuro"
           },
-          "layout": "table",
-          "level": "B1",
-          "items": []
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT07T05",
           "names": {
-            "en": "Numbers & counting",
-            "ro": "Numere și numărat",
-            "de": "Zahlen und Zählen",
-            "ru": "Числа и счёт",
-            "it": "Numeri e conteggio",
-            "es": "Números y contar",
-            "fr": "Nombres et comptage",
-            "hu": "Számok és számolás",
-            "pt": "Números e contagem"
+            "en": "Aspect & time expressions",
+            "ro": "Aspectul și expresii de timp",
+            "de": "Aspekt & Zeitausdrücke",
+            "ru": "Вид и выражения времени",
+            "it": "Aspetto ed espressioni di tempo",
+            "es": "Aspecto y expresiones de tiempo",
+            "fr": "Aspect et expressions de temps",
+            "hu": "Igeaspektus és időhatározók",
+            "pt": "Aspecto e expressões de tempo"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT07T06",
           "names": {
-            "en": "Time, dates & telling time",
-            "ro": "Timpul, datele și ora",
-            "de": "Zeit, Datum und Uhrzeit",
-            "ru": "Время, даты и часы",
-            "it": "Tempo, date e ora",
-            "es": "Tiempo, fechas y hora",
-            "fr": "Temps, dates et heure",
-            "hu": "Idő, dátumok és óra",
-            "pt": "Tempo, datas e horas"
+            "en": "Infinitive, participle & gerund",
+            "ro": "Infinitiv, participiu și gerunziu",
+            "de": "Infinitiv, Partizip & Gerundium",
+            "ru": "Инфинитив, причастие и деепричастие",
+            "it": "Infinito, participio e gerundio",
+            "es": "Infinitivo, participio y gerundio",
+            "fr": "Infinitif, participe et gérondif",
+            "hu": "Főnévi, melléknévi és határozói igenév",
+            "pt": "Infinitivo, particípio e gerúndio"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
-        },
-        {
-          "code": "LT07T07",
-          "names": {
-            "en": "Vocative forms & direct address",
-            "ro": "Cazul vocativ și adresarea directă",
-            "de": "Vokativ & direkte Anrede",
-            "ru": "Звательный падеж и прямое обращение",
-            "it": "Forme vocative e indirizzo diretto",
-            "es": "Formas vocativas y trato directo",
-            "fr": "Formes vocatives et adresse directe",
-            "hu": "Megszólító esetek és közvetlen megszólítás",
-            "pt": "Formas vocativas e tratamento direto"
-          },
-          "layout": "table",
+          "layout": "article",
           "level": "B1",
-          "items": []
+          "items": [],
+          "mode": "directional"
         }
       ]
     },
     {
       "code": "LT08",
       "names": {
-        "en": "Past, Future & Moods",
-        "ro": "Trecutul, viitorul și modurile verbale",
-        "de": "Vergangenheit, Zukunft & Modi",
-        "ru": "Прошедшее, будущее время и наклонения",
-        "it": "Passato, futuro e modi",
-        "es": "Pasado, futuro y modos",
-        "fr": "Passé, futur et modes",
-        "hu": "Múlt, jövő és módok",
-        "pt": "Passado, futuro e modos"
+        "en": "Moods & Voice",
+        "ro": "Moduri și diateze",
+        "de": "Modi & Genus Verbi",
+        "ru": "Наклонения и залог",
+        "it": "Modi e diatesi",
+        "es": "Modos y voz",
+        "fr": "Modes et voix",
+        "hu": "Igemódok és igenemek",
+        "pt": "Modos e voz"
       },
       "topics": [
         {
           "code": "LT08T01",
           "names": {
-            "en": "Compound past: completed actions",
-            "ro": "Perfectul compus — acțiuni încheiate",
-            "de": "Zusammengesetzte Vergangenheit: abgeschlossene Handlungen",
-            "ru": "Сложное прошедшее: завершённые действия",
-            "it": "Passato composto: azioni concluse",
-            "es": "Pretérito compuesto: acciones terminadas",
-            "fr": "Passé composé : actions terminées",
-            "hu": "Összetett múlt: befejezett cselekvések",
-            "pt": "Pretérito composto: ações concluídas"
+            "en": "Subjunctive",
+            "ro": "Conjunctivul",
+            "de": "Konjunktiv",
+            "ru": "Сослагательное наклонение",
+            "it": "Il congiuntivo",
+            "es": "El subjuntivo",
+            "fr": "Le subjonctif",
+            "hu": "Kötőmód",
+            "pt": "O subjuntivo"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT08T02",
           "names": {
-            "en": "Imperfect tense: habits & ongoing past",
-            "ro": "Imperfectul — obiceiuri și descrieri în trecut",
-            "de": "Imperfekt: Gewohnheiten & andauernde Vergangenheit",
-            "ru": "Имперфект: привычки и длительное прошедшее время",
-            "it": "Imperfetto: abitudini e passato continuato",
-            "es": "Pretérito imperfecto: hábitos y pasado continuo",
-            "fr": "Imparfait : habitudes et passé continu",
-            "hu": "Imperfektum: szokások és folyamatos múlt",
-            "pt": "Pretérito imperfeito: hábitos e passado contínuo"
+            "en": "Conditional",
+            "ro": "Condiționalul",
+            "de": "Konditional",
+            "ru": "Условное наклонение",
+            "it": "Il condizionale",
+            "es": "El condicional",
+            "fr": "Le conditionnel",
+            "hu": "Feltételes mód",
+            "pt": "O condicional"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "B1",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT08T03",
           "names": {
-            "en": "The subjunctive",
-            "ro": "Conjunctivul",
-            "de": "Der Konjunktiv",
-            "ru": "Конъюнктив",
-            "it": "Il congiuntivo",
-            "es": "El subjuntivo",
-            "fr": "Le subjonctif",
-            "hu": "A kötőmód",
-            "pt": "O conjuntivo"
+            "en": "Passive voice",
+            "ro": "Diateza pasivă",
+            "de": "Das Passiv",
+            "ru": "Страдательный залог",
+            "it": "La forma passiva",
+            "es": "La voz pasiva",
+            "fr": "La voix passive",
+            "hu": "A szenvedő szerkezet",
+            "pt": "A voz passiva"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT08T04",
           "names": {
-            "en": "Future forms: formal, spoken & probable",
-            "ro": "Formele de viitor: literar, colocvial și probabil",
-            "de": "Zukunftsformen: formell, gesprochen & vermutend",
-            "ru": "Формы будущего: книжные, разговорные и предположительные",
-            "it": "Forme del futuro: formali, parlate e probabili",
-            "es": "Formas de futuro: formales, habladas y de probabilidad",
-            "fr": "Formes du futur : formel, oral et probable",
-            "hu": "Jövő idejű formák: formális, beszélt és valószínűségi",
-            "pt": "Formas do futuro: formais, faladas e de probabilidade"
+            "en": "Impersonal constructions",
+            "ro": "Construcții impersonale",
+            "de": "Unpersönliche Konstruktionen",
+            "ru": "Безличные конструкции",
+            "it": "Costruzioni impersonali",
+            "es": "Construcciones impersonales",
+            "fr": "Constructions impersonnelles",
+            "hu": "Személytelen szerkezetek",
+            "pt": "Construções impessoais"
           },
-          "layout": "table",
-          "level": "B1",
-          "items": []
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT08T05",
           "names": {
-            "en": "Conditional mood & polite desires",
-            "ro": "Condiționalul și dorințele politicoase",
-            "de": "Konditional & höfliche Wünsche",
-            "ru": "Условное наклонение и вежливые пожелания",
-            "it": "Condizionale e desideri educati",
-            "es": "Condicional y deseos corteses",
-            "fr": "Conditionnel et souhaits polis",
-            "hu": "Feltételes mód és udvarias kívánságok",
-            "pt": "Condicional e desejos corteses"
+            "en": "Evidential & presumptive forms",
+            "ro": "Forme evidențiale și prezumtive",
+            "de": "Evidentielle & vermutende Formen",
+            "ru": "Эвиденциальные формы и предположение",
+            "it": "Forme evidenziali e presuntive",
+            "es": "Formas evidenciales y de conjetura",
+            "fr": "Formes évidentielles et de conjecture",
+            "hu": "Evidenciális és feltevő formák",
+            "pt": "Formas evidenciais e de conjetura"
           },
-          "layout": "table",
-          "level": "B1",
-          "items": []
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT08T06",
           "names": {
-            "en": "Non-finite verb forms: infinitives, gerunds & participles",
-            "ro": "Formele verbale nepersonale: infinitiv, gerunziu și participiu",
-            "de": "Infinite Verbformen: Infinitiv, Gerundium & Partizipien",
-            "ru": "Неличные формы глагола: инфинитив, герундий и причастия",
-            "it": "Forme verbali non finite: infinito, gerundio e participi",
-            "es": "Formas verbales no personales: infinitivo, gerundio y participios",
-            "fr": "Formes verbales impersonnelles : infinitif, gérondif et participes",
-            "hu": "Nem személyragos igealakok: főnévi igenév, határozói és melléknévi igenevek",
-            "pt": "Formas verbais nominais: infinitivo, gerúndio e particípios"
+            "en": "Obligation, possibility & permission",
+            "ro": "Obligație, posibilitate și permisiune",
+            "de": "Pflicht, Möglichkeit & Erlaubnis",
+            "ru": "Долженствование, возможность и разрешение",
+            "it": "Obbligo, possibilità e permesso",
+            "es": "Obligación, posibilidad y permiso",
+            "fr": "Obligation, possibilité et permission",
+            "hu": "Kötelezettség, lehetőség és engedély",
+            "pt": "Obrigação, possibilidade e permissão"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "B1",
-          "items": []
+          "items": [],
+          "mode": "directional"
         }
       ]
     },
     {
       "code": "LT09",
       "names": {
-        "en": "Everyday Life & Practical Conversations",
-        "ro": "Viața de zi cu zi și conversații practice",
-        "de": "Alltag & praktische Konversationen",
-        "ru": "Повседневная жизнь и практические разговоры",
-        "it": "Vita quotidiana e conversazioni pratiche",
-        "es": "Vida cotidiana y conversaciones prácticas",
-        "fr": "Vie quotidienne et conversations pratiques",
-        "hu": "Mindennapi élet és gyakorlati beszélgetések",
-        "pt": "Vida cotidiana e conversas práticas"
+        "en": "Building Sentences",
+        "ro": "Construirea frazelor",
+        "de": "Sätze bauen",
+        "ru": "Построение предложений",
+        "it": "Costruire le frasi",
+        "es": "Construir oraciones",
+        "fr": "Construire des phrases",
+        "hu": "Mondatszerkesztés",
+        "pt": "Construir frases"
       },
       "topics": [
         {
           "code": "LT09T01",
           "names": {
-            "en": "At home, household & neighborhood",
-            "ro": "Acasă, în gospodărie și în cartier",
-            "de": "Zuhause, Haushalt & Nachbarschaft",
-            "ru": "Дом, быт и соседи",
-            "it": "A casa, faccende domestiche e vicinato",
-            "es": "En casa, hogar y vecindario",
-            "fr": "À la maison, ménage et voisinage",
-            "hu": "Otthon, háztartás és szomszédság",
-            "pt": "Em casa, tarefas domésticas e vizinhança"
+            "en": "Word order & emphasis",
+            "ro": "Ordinea cuvintelor și accentul",
+            "de": "Wortstellung & Betonung",
+            "ru": "Порядок слов и акцент",
+            "it": "Ordine delle parole ed enfasi",
+            "es": "Orden de palabras y énfasis",
+            "fr": "Ordre des mots et emphase",
+            "hu": "Szórend és hangsúly",
+            "pt": "Ordem das palavras e ênfase"
           },
-          "layout": "table",
-          "level": "A2",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT09T02",
           "names": {
-            "en": "Shopping, markets, prices & services",
-            "ro": "La cumpărături, în piață și la servicii",
-            "de": "Einkaufen, Märkte, Preise & Dienstleistungen",
-            "ru": "Покупки, рынки, цены и услуги",
-            "it": "Fare la spesa, mercati, prezzi e servizi",
-            "es": "Compras, mercados, precios y servicios",
-            "fr": "Faire les courses, marchés, prix et services",
-            "hu": "Vásárlás, piacok, árak és szolgáltatások",
-            "pt": "Compras, mercados, preços e serviços"
+            "en": "Adverbials: time, place, manner",
+            "ro": "Circumstanțiale: timp, loc, mod",
+            "de": "Adverbiale: Zeit, Ort, Art",
+            "ru": "Обстоятельства: время, место, образ действия",
+            "it": "Complementi: tempo, luogo, modo",
+            "es": "Complementos: tiempo, lugar, modo",
+            "fr": "Compléments : temps, lieu, manière",
+            "hu": "Határozók: idő, hely, mód",
+            "pt": "Adjuntos: tempo, lugar, modo"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A2",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT09T03",
           "names": {
-            "en": "Ordering food & cafés",
-            "ro": "La restaurant și la cafenea",
-            "de": "Essen bestellen & Cafés",
-            "ru": "Заказ еды и кафе",
-            "it": "Ordinare cibo e caffè",
-            "es": "Pedir comida y cafeterías",
-            "fr": "Commander à manger et cafés",
-            "hu": "Ételrendelés és kávézók",
-            "pt": "Pedir comida e cafés"
+            "en": "Numbers, dates & time",
+            "ro": "Numere, date și ora",
+            "de": "Zahlen, Daten & Uhrzeit",
+            "ru": "Числа, даты и время",
+            "it": "Numeri, date e ora",
+            "es": "Números, fechas y hora",
+            "fr": "Nombres, dates et heure",
+            "hu": "Számok, dátumok és idő",
+            "pt": "Números, datas e horas"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "A2",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT09T04",
           "names": {
-            "en": "Directions, public transport & travel",
-            "ro": "Orientare, transport public și călătorii",
-            "de": "Wegbeschreibungen, öffentliche Verkehrsmittel & Reisen",
-            "ru": "Маршруты, общественный транспорт и путешествия",
-            "it": "Indicazioni stradali, trasporti pubblici e viaggi",
-            "es": "Direcciones, transporte público y viajes",
-            "fr": "Itinéraires, transports publics et voyages",
-            "hu": "Útbaigazítás, tömegközlekedés és utazás",
-            "pt": "Direções, transporte público e viagens"
+            "en": "Coordination",
+            "ro": "Coordonarea",
+            "de": "Beiordnung",
+            "ru": "Сочинение",
+            "it": "La coordinazione",
+            "es": "La coordinación",
+            "fr": "La coordination",
+            "hu": "Mellérendelés",
+            "pt": "A coordenação"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "B1",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT09T05",
           "names": {
-            "en": "Health, pharmacy, doctor & emergencies",
-            "ro": "Sănătate, farmacie, medic și urgențe",
-            "de": "Gesundheit, Apotheke, Arzt & Notfälle",
-            "ru": "Здоровье, аптека, врач и экстренные ситуации",
-            "it": "Salute, farmacia, medico ed emergenze",
-            "es": "Salud, farmacia, médico y emergencias",
-            "fr": "Santé, pharmacie, médecin et urgences",
-            "hu": "Egészség, gyógyszertár, orvos és vészhelyzetek",
-            "pt": "Saúde, farmácia, médico e emergências"
+            "en": "Subordination",
+            "ro": "Subordonarea",
+            "de": "Unterordnung",
+            "ru": "Подчинение",
+            "it": "La subordinazione",
+            "es": "La subordinación",
+            "fr": "La subordination",
+            "hu": "Alárendelés",
+            "pt": "A subordinação"
           },
-          "layout": "table",
+          "layout": "article",
           "level": "B1",
-          "items": []
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT09T06",
           "names": {
-            "en": "Work, study, scheduling & digital communication",
-            "ro": "Muncă, studiu, programări și comunicare digitală",
-            "de": "Arbeit, Studium, Zeitplanung & digitale Kommunikation",
-            "ru": "Работа, учеба, планирование и цифровая коммуникация",
-            "it": "Lavoro, studio, pianificazione e comunicazione digitale",
-            "es": "Trabajo, estudio, planificación y comunicación digital",
-            "fr": "Travail, études, planification et communication numérique",
-            "hu": "Munka, tanulás, időbeosztás és digitális kommunikáció",
-            "pt": "Trabalho, estudo, planejamento e comunicação digital"
+            "en": "Conditional sentences & concession",
+            "ro": "Propoziții condiționale și concesive",
+            "de": "Konditional- & Konzessivsätze",
+            "ru": "Условные и уступительные предложения",
+            "it": "Periodo ipotetico e concessive",
+            "es": "Oraciones condicionales y concesivas",
+            "fr": "Phrases conditionnelles et concessives",
+            "hu": "Feltételes és engedményes mondatok",
+            "pt": "Orações condicionais e concessivas"
           },
-          "layout": "table",
-          "level": "B1",
-          "items": []
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT09T07",
+          "names": {
+            "en": "Reported speech",
+            "ro": "Vorbirea indirectă",
+            "de": "Indirekte Rede",
+            "ru": "Косвенная речь",
+            "it": "Il discorso indiretto",
+            "es": "El estilo indirecto",
+            "fr": "Le discours rapporté",
+            "hu": "Függő beszéd",
+            "pt": "O discurso indireto"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT09T08",
+          "names": {
+            "en": "Linking a text",
+            "ro": "Legarea textului",
+            "de": "Texte verbinden",
+            "ru": "Связность текста",
+            "it": "Collegare un testo",
+            "es": "Cohesión del texto",
+            "fr": "Lier un texte",
+            "hu": "A szöveg összekapcsolása",
+            "pt": "Coesão do texto"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
         }
       ]
     },
     {
       "code": "LT10",
       "names": {
-        "en": "Complex Sentences & Connectors",
-        "ro": "Fraza și conectorii logici",
-        "de": "Komplexe Sätze & Konnektoren",
-        "ru": "Сложные предложения и союзы",
-        "it": "Frasi complesse e connettori",
-        "es": "Oraciones complejas y conectores",
-        "fr": "Phrases complexes et connecteurs",
-        "hu": "Összetett mondatok és kötőszók",
-        "pt": "Orações complexas e conectores"
+        "en": "Words, Register & Style",
+        "ro": "Cuvinte, registru și stil",
+        "de": "Wörter, Register & Stil",
+        "ru": "Слова, регистр и стиль",
+        "it": "Parole, registro e stile",
+        "es": "Palabras, registro y estilo",
+        "fr": "Mots, registre et style",
+        "hu": "Szavak, stílusréteg és stílus",
+        "pt": "Palavras, registro e estilo"
       },
       "topics": [
         {
           "code": "LT10T01",
           "names": {
-            "en": "Coordinating clauses: and, but, or, so",
-            "ro": "Coordonarea în frază: și, dar, sau, deci",
-            "de": "Beiordnung: und, aber, oder, also",
-            "ru": "Сочинение: и, но, или, поэтому",
-            "it": "Coordinazione: e, ma, o, quindi",
-            "es": "Coordinación: y, pero, o, así que",
-            "fr": "Coordination : et, mais, ou, donc",
-            "hu": "Mellérendelés: és, de, vagy, tehát",
-            "pt": "Coordenação: e, mas, ou, portanto"
+            "en": "Word formation",
+            "ro": "Formarea cuvintelor",
+            "de": "Wortbildung",
+            "ru": "Словообразование",
+            "it": "Formazione delle parole",
+            "es": "Formación de palabras",
+            "fr": "Formation des mots",
+            "hu": "Szóalkotás",
+            "pt": "Formação de palavras"
           },
-          "layout": "table",
-          "level": "B1",
-          "items": []
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT10T02",
           "names": {
-            "en": "Relative clauses",
-            "ro": "Propozițiile relative",
-            "de": "Relativsätze",
-            "ru": "Относительные придаточные",
-            "it": "Proposizioni relative",
-            "es": "Oraciones de relativo",
-            "fr": "Propositions relatives",
-            "hu": "Vonatkozói mellékmondatok",
-            "pt": "Orações relativas"
+            "en": "Diminutives & augmentatives",
+            "ro": "Diminutive și augmentative",
+            "de": "Verkleinerung & Vergrößerung",
+            "ru": "Уменьшительные и увеличительные формы",
+            "it": "Diminutivi e accrescitivi",
+            "es": "Diminutivos y aumentativos",
+            "fr": "Diminutifs et augmentatifs",
+            "hu": "Kicsinyítő és nagyító képzők",
+            "pt": "Diminutivos e aumentativos"
           },
-          "layout": "table",
-          "level": "B1",
-          "items": []
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT10T03",
           "names": {
-            "en": "Time & sequence clauses: when, while, after",
-            "ro": "Propoziții de timp și succesiune: când, în timp ce, după ce",
-            "de": "Zeit & Reihenfolge: wenn, während, nachdem",
-            "ru": "Время и последовательность: когда, пока, после того как",
-            "it": "Tempo e sequenza: quando, mentre, dopo che",
-            "es": "Tiempo y secuencia: cuando, mientras, después de que",
-            "fr": "Temps et succession : quand, pendant que, après que",
-            "hu": "Idő és sorrend: amikor, miközben, miután",
-            "pt": "Tempo e sequência: quando, enquanto, depois de"
+            "en": "Register & formality",
+            "ro": "Registru și formalitate",
+            "de": "Register & Förmlichkeit",
+            "ru": "Регистр и формальность",
+            "it": "Registro e formalità",
+            "es": "Registro y formalidad",
+            "fr": "Registre et formalité",
+            "hu": "Stílusréteg és formalitás",
+            "pt": "Registro e formalidade"
           },
-          "layout": "table",
-          "level": "B1",
-          "items": []
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT10T04",
           "names": {
-            "en": "Cause, purpose & result: because, in order to, so that",
-            "ro": "Cauză, scop și consecință: pentru că, ca să, astfel încât",
-            "de": "Grund, Zweck & Folge: weil, um zu, sodass",
-            "ru": "Причина, цель и следствие: потому что, чтобы, так что",
-            "it": "Causa, scopo e risultato: perché, per, così che",
-            "es": "Causa, propósito y resultado: porque, para, de modo que",
-            "fr": "Cause, but et conséquence : parce que, pour, de sorte que",
-            "hu": "Ok, cél és eredmény: mert, hogy, úgyhogy",
-            "pt": "Causa, finalidade e resultado: porque, para, de modo que"
+            "en": "Idioms & collocations",
+            "ro": "Expresii și colocații",
+            "de": "Redewendungen & Kollokationen",
+            "ru": "Идиомы и коллокации",
+            "it": "Modi di dire e collocazioni",
+            "es": "Modismos y colocaciones",
+            "fr": "Expressions idiomatiques et collocations",
+            "hu": "Szólások és szókapcsolatok",
+            "pt": "Expressões idiomáticas e colocações"
           },
-          "layout": "table",
-          "level": "B1",
-          "items": []
+          "layout": "article",
+          "level": "C1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT10T05",
           "names": {
-            "en": "Conditional sentences: real & hypothetical",
-            "ro": "Fraza condițională: reală și ipotetică",
-            "de": "Konditionalsätze: real & hypothetisch",
-            "ru": "Условные предложения: реальные и гипотетические",
-            "it": "Periodo ipotetico: reale e ipotetico",
-            "es": "Oraciones condicionales: reales e hipotéticas",
-            "fr": "Phrases conditionnelles : réelles et hypothétiques",
-            "hu": "Feltételes mondatok: valós és feltételezett",
-            "pt": "Frases condicionais: reais e hipotéticas"
+            "en": "Written style",
+            "ro": "Stilul scris",
+            "de": "Schriftlicher Stil",
+            "ru": "Письменный стиль",
+            "it": "Stile scritto",
+            "es": "Estilo escrito",
+            "fr": "Style écrit",
+            "hu": "Írott stílus",
+            "pt": "Estilo escrito"
           },
-          "layout": "table",
-          "level": "B2",
-          "items": []
-        },
-        {
-          "code": "LT10T06",
-          "names": {
-            "en": "Concession, contrast & indirect speech",
-            "ro": "Concesia, opoziția și vorbirea indirectă",
-            "de": "Konzession, Kontrast & indirekte Rede",
-            "ru": "Уступка, противопоставление и косвенная речь",
-            "it": "Concessione, contrasto e discorso indiretto",
-            "es": "Concesión, contraste y estilo indirecto",
-            "fr": "Concession, contraste et discours indirect",
-            "hu": "Megengedés, ellentét és függő beszéd",
-            "pt": "Concessão, contraste e discurso indireto"
-          },
-          "layout": "table",
-          "level": "B2",
-          "items": []
+          "layout": "article",
+          "level": "C1",
+          "items": [],
+          "mode": "directional"
         }
       ]
     },
     {
       "code": "LT11",
       "names": {
-        "en": "Idioms, Nuance & Culture",
-        "ro": "Expresii idiomatice, nuanțe și cultură",
-        "de": "Redewendungen, Nuancen & Kultur",
-        "ru": "Идиомы, нюансы и культура",
-        "it": "Modi di dire, sfumature e cultura",
-        "es": "Modismos, matices y cultura",
-        "fr": "Expressions idiomatiques, nuances et culture",
-        "hu": "Szólások, árnyalatok és kultúra",
-        "pt": "Expressões idiomáticas, nuances e cultura"
+        "en": "Culture & Tradition",
+        "ro": "Cultură și tradiții",
+        "de": "Kultur & Tradition",
+        "ru": "Культура и традиции",
+        "it": "Cultura e tradizioni",
+        "es": "Cultura y tradiciones",
+        "fr": "Culture et traditions",
+        "hu": "Kultúra és hagyományok",
+        "pt": "Cultura e tradições"
       },
       "topics": [
         {
           "code": "LT11T01",
           "names": {
-            "en": "Everyday idioms with basic verbs",
-            "ro": "Expresii uzuale cu verbe fundamentale",
-            "de": "Alltägliche Redewendungen mit Grundverben",
-            "ru": "Повседневные идиомы с основными глаголами",
-            "it": "Modi di dire quotidiani con verbi di base",
-            "es": "Modismos cotidianos con verbos básicos",
-            "fr": "Expressions courantes avec des verbes de base",
-            "hu": "Mindennapi szólások alapigékkel",
-            "pt": "Expressões do dia a dia com verbos básicos"
+            "en": "Family & daily customs",
+            "ro": "Familia și obiceiurile zilnice",
+            "de": "Familie & Alltagsbräuche",
+            "ru": "Семья и повседневные обычаи",
+            "it": "Famiglia e usanze quotidiane",
+            "es": "Familia y costumbres diarias",
+            "fr": "Famille et coutumes quotidiennes",
+            "hu": "Család és mindennapi szokások",
+            "pt": "Família e costumes diários"
           },
-          "layout": "table",
-          "level": "B1",
-          "items": []
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT11T02",
           "names": {
-            "en": "Conversational fillers & natural flow",
-            "ro": "Conectori conversaționali și naturalețea vorbirii",
-            "de": "Füllwörter und natürlicher Redefluss",
-            "ru": "Разговорные слова-паразиты и естественная речь",
-            "it": "Riempitivi conversazionali e fluidità naturale",
-            "es": "Muletillas conversacionales y fluidez natural",
-            "fr": "Mots de remplissage et fluidité naturelle",
-            "hu": "Töltelékszavak és természetes beszédmód",
-            "pt": "Enchimentos conversacionais e fluidez natural"
+            "en": "Holidays & festivals",
+            "ro": "Sărbători și festivaluri",
+            "de": "Feiertage & Feste",
+            "ru": "Праздники и фестивали",
+            "it": "Feste e festival",
+            "es": "Fiestas y festivales",
+            "fr": "Fêtes et festivals",
+            "hu": "Ünnepek és fesztiválok",
+            "pt": "Feriados e festivais"
           },
-          "layout": "table",
-          "level": "B2",
-          "items": []
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT11T03",
           "names": {
-            "en": "Expressing feelings, opinions, certainty & doubt",
-            "ro": "Exprimarea emoțiilor, opiniilor și îndoielii",
-            "de": "Gefühle, Meinungen, Gewissheit und Zweifel ausdrücken",
-            "ru": "Выражение чувств, мнений, уверенности и сомнений",
-            "it": "Esprimere sentimenti, opinioni, certezza e dubbio",
-            "es": "Expresar sentimientos, opiniones, certeza y duda",
-            "fr": "Exprimer des sentiments, des opinions, des certitudes et des doutes",
-            "hu": "Érzések, vélemények, bizonyosság és kétely kifejezése",
-            "pt": "Expressar sentimentos, opiniões, certeza e dúvida"
+            "en": "Food & drink",
+            "ro": "Mâncare și băutură",
+            "de": "Essen & Trinken",
+            "ru": "Еда и напитки",
+            "it": "Cibo e bevande",
+            "es": "Comida y bebida",
+            "fr": "Cuisine et boissons",
+            "hu": "Ételek és italok",
+            "pt": "Comida e bebida"
           },
-          "layout": "table",
-          "level": "B2",
-          "items": []
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT11T04",
           "names": {
-            "en": "Proverbs, sayings & folk wisdom",
-            "ro": "Proverbe, zicători și înțelepciune populară",
-            "de": "Sprichwörter, Redensarten und Volksweisheiten",
-            "ru": "Пословицы, поговорки и народная мудрость",
-            "it": "Proverbi, modi di dire e saggezza popolare",
-            "es": "Proverbios, dichos y sabiduría popular",
-            "fr": "Proverbes, dictons et sagesse populaire",
-            "hu": "Közmondások, szólások és népi bölcsességek",
-            "pt": "Provérbios, ditados e sabedoria popular"
+            "en": "Music, dance & folk art",
+            "ro": "Muzică, dans și artă populară",
+            "de": "Musik, Tanz & Volkskunst",
+            "ru": "Музыка, танец и народное искусство",
+            "it": "Musica, danza e arte popolare",
+            "es": "Música, danza y arte popular",
+            "fr": "Musique, danse et art populaire",
+            "hu": "Zene, tánc és népművészet",
+            "pt": "Música, dança e arte popular"
           },
-          "layout": "table",
-          "level": "B2",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT11T05",
           "names": {
-            "en": "Diminutives, augmentatives & emotional register",
-            "ro": "Diminutive, augmentative și nuanțe afective",
-            "de": "Diminutive, Augmentative und emotionaler Ausdruck",
-            "ru": "Уменьшительные, увеличительные формы и эмоциональный регистр",
-            "it": "Diminutivi, accrescitivi e registro emotivo",
-            "es": "Diminutivos, aumentativos y registro emocional",
-            "fr": "Diminutifs, augmentatifs et registre émotionnel",
-            "hu": "Kicsinyítő képzők, nagyító képzők és érzelmi regiszter",
-            "pt": "Diminutivos, aumentativos e registro emocional"
+            "en": "Beliefs, religion & folklore",
+            "ro": "Credințe, religie și folclor",
+            "de": "Glaube, Religion & Folklore",
+            "ru": "Верования, религия и фольклор",
+            "it": "Credenze, religione e folclore",
+            "es": "Creencias, religión y folclore",
+            "fr": "Croyances, religion et folklore",
+            "hu": "Hiedelmek, vallás és folklór",
+            "pt": "Crenças, religião e folclore"
           },
-          "layout": "table",
-          "level": "B2",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT11T06",
           "names": {
-            "en": "Traditions, regions & cultural landmarks",
-            "ro": "Tradiții, regiuni istorice și repere culturale",
-            "de": "Traditionen, Regionen und kulturelle Wahrzeichen",
-            "ru": "Традиции, регионы и культурные достопримечательности",
-            "it": "Tradizioni, regioni e punti di riferimento culturali",
-            "es": "Tradiciones, regiones y puntos de referencia culturales",
-            "fr": "Traditions, régions et monuments culturels",
-            "hu": "Hagyományok, régiók és kulturális nevezetességek",
-            "pt": "Tradições, regiões e marcos culturais"
+            "en": "Etiquette & manners",
+            "ro": "Eticheta și bunele maniere",
+            "de": "Etikette & Umgangsformen",
+            "ru": "Этикет и манеры",
+            "it": "Galateo e buone maniere",
+            "es": "Etiqueta y modales",
+            "fr": "Étiquette et savoir-vivre",
+            "hu": "Etikett és illem",
+            "pt": "Etiqueta e boas maneiras"
           },
-          "layout": "table",
-          "level": "B2",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         }
       ]
     },
     {
       "code": "LT12",
       "names": {
-        "en": "Advanced Expression, Style & Mastery",
-        "ro": "Exprimare avansată, stil și măiestrie",
-        "de": "Fortgeschrittener Ausdruck, Stil und Meisterschaft",
-        "ru": "Продвинутое выражение, стиль и мастерство",
-        "it": "Espressione avanzata, stile e padronanza",
-        "es": "Expresión avanzada, estilo y maestría",
-        "fr": "Expression avancée, style et maîtrise",
-        "hu": "Haladó kifejezésmód, stílus és mesteri szint",
-        "pt": "Expressão avançada, estilo e domínio"
+        "en": "Places & Landscape",
+        "ro": "Locuri și peisaje",
+        "de": "Orte & Landschaften",
+        "ru": "Места и ландшафты",
+        "it": "Luoghi e paesaggi",
+        "es": "Lugares y paisajes",
+        "fr": "Lieux et paysages",
+        "hu": "Helyek és tájak",
+        "pt": "Lugares e paisagens"
       },
       "topics": [
         {
           "code": "LT12T01",
           "names": {
-            "en": "Passive voice & impersonal constructions",
-            "ro": "Diateza pasivă și construcțiile impersonale",
-            "de": "Passiv & unpersönliche Konstruktionen",
-            "ru": "Страдательный залог и безличные конструкции",
-            "it": "Forma passiva e costruzioni impersonali",
-            "es": "Voz pasiva y construcciones impersonales",
-            "fr": "Voix passive et constructions impersonnelles",
-            "hu": "Szenvedő szerkezet és személytelen szerkezetek",
-            "pt": "Voz passiva e construções impessoais"
+            "en": "Where the language is spoken",
+            "ro": "Unde se vorbește limba",
+            "de": "Wo die Sprache gesprochen wird",
+            "ru": "Где говорят на этом языке",
+            "it": "Dove si parla la lingua",
+            "es": "Dónde se habla la lengua",
+            "fr": "Où la langue est parlée",
+            "hu": "Hol beszélik a nyelvet",
+            "pt": "Onde a língua é falada"
           },
-          "layout": "table",
-          "level": "B2",
-          "items": []
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT12T02",
           "names": {
-            "en": "Speculation, advanced tenses & subtle aspect",
-            "ro": "Presupunerea, timpuri avansate și nuanțe de aspect",
-            "de": "Vermutung, fortgeschrittene Zeiten & feine Aspekte",
-            "ru": "Предположение, сложные времена и тонкости вида",
-            "it": "Ipotesi, tempi avanzati e sfumature dell'aspetto",
-            "es": "Suposición, tiempos avanzados y matices de aspecto",
-            "fr": "Hypothèse, temps avancés et nuances d'aspect",
-            "hu": "Feltevés, haladó igeidők és az aspektus árnyalatai",
-            "pt": "Suposição, tempos avançados e nuances de aspeto"
+            "en": "The home country at a glance",
+            "ro": "Țara de origine pe scurt",
+            "de": "Das Ursprungsland im Überblick",
+            "ru": "Страна происхождения: обзор",
+            "it": "Il paese d'origine in sintesi",
+            "es": "El país de origen de un vistazo",
+            "fr": "Le pays d'origine en bref",
+            "hu": "A szülőföld dióhéjban",
+            "pt": "O país de origem em resumo"
           },
-          "layout": "table",
-          "level": "C1",
-          "items": []
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT12T03",
           "names": {
-            "en": "Argumentation, debate & persuasive structures",
-            "ro": "Argumentare, dezbatere și structuri persuasive",
-            "de": "Argumentation, Debatte & überzeugende Strukturen",
-            "ru": "Аргументация, дебаты и убеждающие структуры",
-            "it": "Argomentazione, dibattito e strutture persuasive",
-            "es": "Argumentación, debate y estructuras persuasivas",
-            "fr": "Argumentation, débat et structures persuasives",
-            "hu": "Érvelés, vita és meggyőző struktúrák",
-            "pt": "Argumentação, debate e estruturas persuasivas"
+            "en": "Regions",
+            "ro": "Regiunile",
+            "de": "Regionen",
+            "ru": "Регионы",
+            "it": "Le regioni",
+            "es": "Las regiones",
+            "fr": "Les régions",
+            "hu": "A régiók",
+            "pt": "As regiões"
           },
-          "layout": "table",
-          "level": "C1",
-          "items": []
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT12T04",
           "names": {
-            "en": "Formal, professional & academic register",
-            "ro": "Registrul formal, profesional și academic",
-            "de": "Formelles, professionelles & akademisches Register",
-            "ru": "Формальный, профессиональный и академический стиль",
-            "it": "Registro formale, professionale e accademico",
-            "es": "Registro formal, profesional y académico",
-            "fr": "Registre formel, professionnel et académique",
-            "hu": "Formális, szakmai és akadémiai stílus",
-            "pt": "Registro formal, profissional e acadêmico"
+            "en": "Capital cities",
+            "ro": "Capitalele",
+            "de": "Hauptstädte",
+            "ru": "Столицы",
+            "it": "Le capitali",
+            "es": "Las capitales",
+            "fr": "Les capitales",
+            "hu": "A fővárosok",
+            "pt": "As capitais"
           },
-          "layout": "table",
-          "level": "C1",
-          "items": []
+          "layout": "article",
+          "level": "A2",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT12T05",
           "names": {
-            "en": "Collocations, false friends & lexical precision",
-            "ro": "Colocații, capcane lexicale și precizia exprimării",
-            "de": "Kollokationen, falsche Freunde & lexikalische Präzision",
-            "ru": "Коллокации, ложные друзья переводчика и лексическая точность",
-            "it": "Collocazioni, falsi amici e precisione lessicale",
-            "es": "Colocaciones, falsos amigos y precisión léxica",
-            "fr": "Collocations, faux amis et précision lexicale",
-            "hu": "Kollokációk, hamis barátok és lexikai pontosság",
-            "pt": "Colocações, falsos cognatos e precisão lexical"
+            "en": "Cities & towns",
+            "ro": "Orașe și târguri",
+            "de": "Städte & Gemeinden",
+            "ru": "Города и городки",
+            "it": "Città e cittadine",
+            "es": "Ciudades y pueblos",
+            "fr": "Villes et bourgs",
+            "hu": "Városok és kisvárosok",
+            "pt": "Cidades e vilas"
           },
-          "layout": "table",
-          "level": "C1",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT12T06",
           "names": {
-            "en": "Literary style, figurative language & rhetoric",
-            "ro": "Stil literar, limbaj figurat și retorică",
-            "de": "Literarischer Stil, bildhafte Sprache & Rhetorik",
-            "ru": "Литературный стиль, образный язык и риторика",
-            "it": "Stile letterario, linguaggio figurato e retorica",
-            "es": "Estilo literario, lenguaje figurado y retórica",
-            "fr": "Style littéraire, langage figuré et rhétorique",
-            "hu": "Irodalmi stílus, képletes nyelv és retorika",
-            "pt": "Estilo literário, linguagem figurada e retórica"
+            "en": "Villages & rural life",
+            "ro": "Satul și viața rurală",
+            "de": "Dörfer & Landleben",
+            "ru": "Деревни и сельская жизнь",
+            "it": "Villaggi e vita rurale",
+            "es": "Pueblos y vida rural",
+            "fr": "Villages et vie rurale",
+            "hu": "Falvak és vidéki élet",
+            "pt": "Aldeias e vida rural"
           },
-          "layout": "table",
-          "level": "C2",
-          "items": []
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
         },
         {
           "code": "LT12T07",
           "names": {
-            "en": "Word formation: prefixes, suffixes & compounds",
-            "ro": "Formarea cuvintelor: prefixe, sufixe și compuse",
-            "de": "Wortbildung: Präfixe, Suffixe und Komposita",
-            "ru": "Словообразование: приставки, суффиксы и сложные слова",
-            "it": "Formazione delle parole: prefissi, suffissi e composti",
-            "es": "Formación de palabras: prefijos, sufijos y compuestos",
-            "fr": "Formation des mots : préfixes, suffixes et composés",
-            "hu": "Szóképzés: előtagok, utótagok és összetételek",
-            "pt": "Formação de palavras: prefixos, sufixos e compostos"
+            "en": "Mountains, rivers & coasts",
+            "ro": "Munți, râuri și coaste",
+            "de": "Berge, Flüsse & Küsten",
+            "ru": "Горы, реки и побережья",
+            "it": "Montagne, fiumi e coste",
+            "es": "Montañas, ríos y costas",
+            "fr": "Montagnes, fleuves et côtes",
+            "hu": "Hegyek, folyók és partok",
+            "pt": "Montanhas, rios e costas"
           },
-          "layout": "table",
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT12T08",
+          "names": {
+            "en": "Landmarks & heritage sites",
+            "ro": "Monumente și situri de patrimoniu",
+            "de": "Wahrzeichen & Kulturerbe",
+            "ru": "Достопримечательности и объекты наследия",
+            "it": "Monumenti e siti del patrimonio",
+            "es": "Monumentos y sitios patrimoniales",
+            "fr": "Monuments et sites du patrimoine",
+            "hu": "Nevezetességek és örökségi helyszínek",
+            "pt": "Monumentos e sítios patrimoniais"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
+        }
+      ]
+    },
+    {
+      "code": "LT13",
+      "names": {
+        "en": "History & People",
+        "ro": "Istorie și oameni",
+        "de": "Geschichte & Menschen",
+        "ru": "История и люди",
+        "it": "Storia e persone",
+        "es": "Historia y personajes",
+        "fr": "Histoire et personnages",
+        "hu": "Történelem és emberek",
+        "pt": "História e pessoas"
+      },
+      "topics": [
+        {
+          "code": "LT13T01",
+          "names": {
+            "en": "Origins & early history",
+            "ro": "Origini și istoria timpurie",
+            "de": "Ursprünge & Frühgeschichte",
+            "ru": "Истоки и ранняя история",
+            "it": "Origini e storia antica",
+            "es": "Orígenes e historia temprana",
+            "fr": "Origines et histoire ancienne",
+            "hu": "Eredet és korai történelem",
+            "pt": "Origens e história antiga"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT13T02",
+          "names": {
+            "en": "From the Middle Ages to modern times",
+            "ro": "Din Evul Mediu până în epoca modernă",
+            "de": "Vom Mittelalter zur Neuzeit",
+            "ru": "От Средневековья к Новому времени",
+            "it": "Dal Medioevo all'età moderna",
+            "es": "De la Edad Media a la época moderna",
+            "fr": "Du Moyen Âge aux temps modernes",
+            "hu": "A középkortól az újkorig",
+            "pt": "Da Idade Média à época moderna"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT13T03",
+          "names": {
+            "en": "Empire, colonies & the language abroad",
+            "ro": "Imperiu, colonii și limba în lume",
+            "de": "Reich, Kolonien & Sprache in der Welt",
+            "ru": "Империя, колонии и язык за рубежом",
+            "it": "Impero, colonie e lingua nel mondo",
+            "es": "Imperio, colonias y lengua en el mundo",
+            "fr": "Empire, colonies et langue dans le monde",
+            "hu": "Birodalom, gyarmatok és a nyelv a nagyvilágban",
+            "pt": "Império, colônias e língua no mundo"
+          },
+          "layout": "article",
           "level": "B2",
-          "items": []
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT13T04",
+          "names": {
+            "en": "The modern state",
+            "ro": "Statul modern",
+            "de": "Der moderne Staat",
+            "ru": "Современное государство",
+            "it": "Lo stato moderno",
+            "es": "El estado moderno",
+            "fr": "L'État moderne",
+            "hu": "A modern állam",
+            "pt": "O estado moderno"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT13T05",
+          "names": {
+            "en": "Rulers & leaders",
+            "ro": "Conducători și lideri",
+            "de": "Herrscher & Staatsmänner",
+            "ru": "Правители и лидеры",
+            "it": "Sovrani e leader",
+            "es": "Gobernantes y líderes",
+            "fr": "Souverains et dirigeants",
+            "hu": "Uralkodók és vezetők",
+            "pt": "Governantes e líderes"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT13T06",
+          "names": {
+            "en": "Writers, thinkers & artists",
+            "ro": "Scriitori, gânditori și artiști",
+            "de": "Schriftsteller, Denker & Künstler",
+            "ru": "Писатели, мыслители и художники",
+            "it": "Scrittori, pensatori e artisti",
+            "es": "Escritores, pensadores y artistas",
+            "fr": "Écrivains, penseurs et artistes",
+            "hu": "Írók, gondolkodók és művészek",
+            "pt": "Escritores, pensadores e artistas"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT13T07",
+          "names": {
+            "en": "Migration & communities abroad",
+            "ro": "Migrație și comunități din străinătate",
+            "de": "Migration & Gemeinschaften im Ausland",
+            "ru": "Миграция и диаспоры",
+            "it": "Migrazione e comunità all'estero",
+            "es": "Migración y comunidades en el exterior",
+            "fr": "Migration et communautés à l'étranger",
+            "hu": "Kivándorlás és külföldi közösségek",
+            "pt": "Migração e comunidades no exterior"
+          },
+          "layout": "article",
+          "level": "C1",
+          "items": [],
+          "mode": "directional"
+        }
+      ]
+    },
+    {
+      "code": "LT14",
+      "names": {
+        "en": "Science & Discoveries",
+        "ro": "Știință și descoperiri",
+        "de": "Wissenschaft & Entdeckungen",
+        "ru": "Наука и открытия",
+        "it": "Scienza e scoperte",
+        "es": "Ciencia y descubrimientos",
+        "fr": "Science et découvertes",
+        "hu": "Tudomány és felfedezések",
+        "pt": "Ciência e descobertas"
+      },
+      "topics": [
+        {
+          "code": "LT14T01",
+          "names": {
+            "en": "Scientists & inventors",
+            "ro": "Oameni de știință și inventatori",
+            "de": "Wissenschaftler & Erfinder",
+            "ru": "Учёные и изобретатели",
+            "it": "Scienziati e inventori",
+            "es": "Científicos e inventores",
+            "fr": "Scientifiques et inventeurs",
+            "hu": "Tudósok és feltalálók",
+            "pt": "Cientistas e inventores"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT14T02",
+          "names": {
+            "en": "Discoveries & firsts",
+            "ro": "Descoperiri și premiere",
+            "de": "Entdeckungen & Premieren",
+            "ru": "Открытия и первенства",
+            "it": "Scoperte e primati",
+            "es": "Descubrimientos y primicias",
+            "fr": "Découvertes et premières",
+            "hu": "Felfedezések és úttörő eredmények",
+            "pt": "Descobertas e pioneirismos"
+          },
+          "layout": "article",
+          "level": "B1",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT14T03",
+          "names": {
+            "en": "Technology & industry",
+            "ro": "Tehnologie și industrie",
+            "de": "Technik & Industrie",
+            "ru": "Технологии и промышленность",
+            "it": "Tecnologia e industria",
+            "es": "Tecnología e industria",
+            "fr": "Technologie et industrie",
+            "hu": "Technológia és ipar",
+            "pt": "Tecnologia e indústria"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT14T04",
+          "names": {
+            "en": "Medicine & health",
+            "ro": "Medicină și sănătate",
+            "de": "Medizin & Gesundheit",
+            "ru": "Медицина и здоровье",
+            "it": "Medicina e salute",
+            "es": "Medicina y salud",
+            "fr": "Médecine et santé",
+            "hu": "Orvostudomány és egészség",
+            "pt": "Medicina e saúde"
+          },
+          "layout": "article",
+          "level": "B2",
+          "items": [],
+          "mode": "directional"
+        },
+        {
+          "code": "LT14T05",
+          "names": {
+            "en": "Universities, research & space",
+            "ro": "Universități, cercetare și spațiu",
+            "de": "Universitäten, Forschung & Weltraum",
+            "ru": "Университеты, исследования и космос",
+            "it": "Università, ricerca e spazio",
+            "es": "Universidades, investigación y espacio",
+            "fr": "Universités, recherche et espace",
+            "hu": "Egyetemek, kutatás és űrkutatás",
+            "pt": "Universidades, pesquisa e espaço"
+          },
+          "layout": "article",
+          "level": "C1",
+          "items": [],
+          "mode": "directional"
         }
       ]
     }

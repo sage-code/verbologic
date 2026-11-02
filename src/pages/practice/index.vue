@@ -46,7 +46,7 @@ const descriptionOf = (sidebar: Sidebar) =>
   <main class="mx-auto max-w-4xl">
     <h1 class="text-center text-3xl font-bold text-content">{{ copy('practice.title', 'Practice') }}</h1>
     <p class="mt-2 text-center text-muted">
-      {{ copy('practice.intro', 'Speak with an AI mentor, do exercises, play games.') }}
+      {{ copy('practice.intro', 'Speak with a mentor, test yourself with quizzes and play simple 2D learning games.') }}
     </p>
 
     <!-- Planned modes — preview cards driven by the practice sidebars -->

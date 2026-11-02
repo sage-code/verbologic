@@ -76,7 +76,7 @@ const ALLOCATIONS_KEY = 'verbologic-library-allocations'
  */
 const POOL_KEY = 'verbologic-credit-pool'
 /** How many languages may be active at once (mirrors the DB trigger's cap). */
-export const ACTIVE_LANGUAGE_CAP = 3
+export const ACTIVE_LANGUAGE_CAP = 2
 
 export const useLibraryStore = defineStore('library', () => {
   // Supabase client (null without credentials) — enrollments persist to the

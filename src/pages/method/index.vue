@@ -1,5 +1,5 @@
 // Method — the Verbologic learning approach. Three panels, each the entry
-// point to the part of the product that delivers it: Practice (AI context
+// point to the part of the product that delivers it: Practice (context
 // learning), Library (the native-audio dictionary) and Profile (progress
 // tracking, which requires an account).
 <script setup lang="ts">
@@ -26,22 +26,22 @@ const PANELS: {
     key: 'practice',
     icon: SparklesIcon,
     to: '/practice',
-    title: 'AI Context Learning',
-    desc: 'Every expression is learned in context, never in isolation. The practice modes are in preparation.'
+    title: 'Context Learning',
+    desc: 'Words stick when they live inside a sentence and a situation. Every expression is taught in context, so you can remember it and use it.'
   },
   {
     key: 'library',
     icon: BuildingLibraryIcon,
     to: '/library',
-    title: 'Native Audio Dictionary',
-    desc: 'Dictionary, lectures and stories in nine languages — one shared text, audio in each language.'
+    title: 'Audio Dictionary',
+    desc: 'Hear a word before you read it. Every term has a native voice, so the ear learns the sound first and the eyes learn the spelling second.'
   },
   {
     key: 'profile',
     icon: UserCircleIcon,
     to: '/profile',
     title: 'Progress Tracking',
-    desc: 'Mark words learned, listen to a term five times to auto-complete it, and follow chapter progress. Requires a registered account.'
+    desc: 'Memory grows through repetition. Listen to a term five times to mark it learned and follow your chapter progress.'
   }
 ]
 
