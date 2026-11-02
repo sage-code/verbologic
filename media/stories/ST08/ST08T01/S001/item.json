@@ -1,0 +1,344 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST08",
+  "topic": "ST08T01",
+  "kind": "story",
+  "entity_id": "ST08T01:S001",
+  "cefr": "B2",
+  "tags": [
+    "level#B2"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Long Road Home",
+      "description": "Odysseus travels across the treacherous seas to return to his faithful wife Penelope after the long Trojan War."
+    },
+    "ro": {
+      "name": "Drumul lung spre casă",
+      "description": "Odiseu traversează mări periculoase pentru a se întoarce la soția sa credincioasă, Penelopa, după lungul război troian."
+    },
+    "de": {
+      "name": "Der lange Weg nach Hause",
+      "description": "Odysseus reist über tückische Meere, um nach dem langen Trojanischen Krieg zu seiner treuen Frau Penelope zurückzukehren."
+    },
+    "ru": {
+      "name": "Долгий путь домой",
+      "description": "Одиссей путешествует по опасным морям, чтобы вернуться к своей верной жене Пенелопе после долгой Троянской войны."
+    },
+    "it": {
+      "name": "Il lungo viaggio verso casa",
+      "description": "Odisseo attraversa mari insidiosi per tornare dalla sua fedele moglie Penelope dopo la lunga guerra di Troia."
+    },
+    "es": {
+      "name": "El largo camino a casa",
+      "description": "Odiseo viaja a través de mares traicioneros para regresar con su fiel esposa Penélope tras la larga guerra de Troya."
+    },
+    "fr": {
+      "name": "Le long chemin du retour",
+      "description": "Ulysse traverse des mers périlleuses pour retrouver sa fidèle épouse Pénélope après la longue guerre de Troie."
+    },
+    "hu": {
+      "name": "A hosszú út hazafelé",
+      "description": "Odüsszeusz veszélyes tengereken át utazik, hogy a hosszú trójai háború után visszatérjen hűséges feleségéhez, Pénelopéhoz."
+    },
+    "pt": {
+      "name": "O longo caminho para casa",
+      "description": "Odisseu viaja através de mares traiçoeiros para regressar à sua fiel esposa Penélope após a longa guerra de Troia."
+    }
+  },
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 14688,
+      "sha1": "9cb0ae93f091b60272ce18b4e893eb41a5dfeede",
+      "text": "ca9cb04445f5f1d419353aa6c72932f3a44d2ef5"
+    },
+    "sound/de.mp3": {
+      "bytes": 14544,
+      "sha1": "0452ce2759c393c6a0a1197922e4573031f16df0",
+      "text": "8556bf063c9d4cd68af2a91459b5b92ab9cbe74d"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "0ce3e5ca37b59c64dc60ecd69f5baedbe682a87b",
+      "text": "4498ee48fde85b8737aba4f909afb0e78c112b5e"
+    },
+    "sound/it.mp3": {
+      "bytes": 12096,
+      "sha1": "5210e15b734248255961ecf7cb3c7e7b2f22e4fd",
+      "text": "fb1ac0d677591eb0b350f5d61e88f6a8a93f68a8"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14256,
+      "sha1": "07d003f6c6e9f050941f4fae6a96853468ca334b",
+      "text": "89e384b294a6f3579572b2b463ace17957b22f89"
+    },
+    "sound/ro.mp3": {
+      "bytes": 14112,
+      "sha1": "b2d2a0bdcd25e5ee792c4f7d3bdc601e90f69002",
+      "text": "3333622226676e2a71fb4f8ad7f1e4324e4c6ded"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14112,
+      "sha1": "325379adc6d9d7428aa9b55879f7996f94c7afbc",
+      "text": "0216c2129971ba462a0bc4e03bda5ae001fbfcb8"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15552,
+      "sha1": "1ad4f27da2501eaa26baf22f72a80c1ab392c5b9",
+      "text": "cc1f05a60db77ff732abdfb471b571eedd75badf"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16128,
+      "sha1": "49a387b74a6ed749b057d6bfbafa3499db072600",
+      "text": "71bfac97b44bd572b543177ec1257b71d5e00860"
+    },
+    "read/es.mp3": {
+      "bytes": 973440,
+      "sha1": "a7b5dc1b8bc390acad858a2bf300247b5337ce21",
+      "text": "3441a27f1e81371967a99d9709f4a18fcfd235f8"
+    },
+    "read/de.mp3": {
+      "bytes": 1082880,
+      "sha1": "531386c4be31cbb7ac36bca671a4b1b7fca4fa06",
+      "text": "0ac1f30fcdc451fa4e3dd219d4b437b0ebc9cfb1"
+    },
+    "read/it.mp3": {
+      "bytes": 941616,
+      "sha1": "b89e975c383d2ac4b216f270a387a7f2ca1b2da7",
+      "text": "4bd8499d8af72d62200cb619226c5823e8314ba5"
+    },
+    "read/en.mp3": {
+      "bytes": 879264,
+      "sha1": "ec2a144fb88b4d17b0ff620c1cd8cad76731d2c1",
+      "text": "1f3cbcc017b120581b52fa2431cbdf1fd4d5bce0"
+    },
+    "read/fr.mp3": {
+      "bytes": 915984,
+      "sha1": "875c34db3deb161945a71ed59a7548b97e413679",
+      "text": "3e92d2186cc599e3d2e2d82b96a96eead6cb1502"
+    },
+    "read/ro.mp3": {
+      "bytes": 1004688,
+      "sha1": "e5ff8eb4c8cb6e29d08bf3983cc75c2540b76933",
+      "text": "bdef27bed3c36491055acc668b921f8691f867ed"
+    },
+    "read/ru.mp3": {
+      "bytes": 1011456,
+      "sha1": "268e119c98036571d4d9a0eaf2ead5f25c4ff9db",
+      "text": "5c6b15cfb747cd149972b977f12a62cd11a4e828"
+    },
+    "read/pt.mp3": {
+      "bytes": 1029456,
+      "sha1": "8c63e7d78f74a4c0ee14f26d0973dd923fb8bef8",
+      "text": "4874d80826aaf3fce6336c6d39f89214d84ec4e3"
+    },
+    "read/hu.mp3": {
+      "bytes": 1083600,
+      "sha1": "41ce9afb2e6844de4229bed4f0a6d3b5fba6b7ad",
+      "text": "ce81e502cae59e7738922d0d20ef4fdad4193a2c"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 216581,
+      "sha1": "6d0e5931d59176e5fc30389b01e00ceabc30f150",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 226906,
+      "sha1": "023da124d221c8f9461f842803661ae3b4ed81da",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 249764,
+      "sha1": "d2798dea0adf1a0679b02d87b6f6d88410d927c3",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 233726,
+      "sha1": "85fc7dc02dd262d3ab3b1bd0d1b45a0a791f29fc",
+      "page": 3
+    },
+    {
+      "file": "images/4.jpg",
+      "bytes": 187467,
+      "sha1": "ce0a3c0990777ee2f32be87f7b835c80d3f0e889",
+      "page": 4
+    },
+    {
+      "file": "images/5.jpg",
+      "bytes": 183389,
+      "sha1": "834843b84cf475ade9cba376bfd105a81afe45ca",
+      "page": 5
+    }
+  ],
+  "readSections": {
+    "es": [
+      0.0,
+      10.075,
+      22.3,
+      32.562,
+      41.55,
+      51.225,
+      61.562,
+      71.375,
+      82.312,
+      92.4,
+      102.7,
+      112.438,
+      123.125,
+      133.025,
+      141.662,
+      151.362
+    ],
+    "de": [
+      0.0,
+      10.838,
+      22.812,
+      34.9,
+      45.825,
+      56.475,
+      67.125,
+      79.338,
+      90.113,
+      102.013,
+      112.025,
+      123.3,
+      135.475,
+      146.688,
+      157.35,
+      168.75
+    ],
+    "it": [
+      0.0,
+      8.662,
+      19.688,
+      29.312,
+      38.938,
+      47.55,
+      57.438,
+      67.763,
+      78.638,
+      88.55,
+      98.688,
+      108.225,
+      118.762,
+      127.712,
+      136.175,
+      146.375
+    ],
+    "en": [
+      0.0,
+      9.463,
+      18.638,
+      28.363,
+      37.55,
+      46.025,
+      55.338,
+      64.325,
+      73.188,
+      83.013,
+      92.75,
+      101.425,
+      111.388,
+      118.913,
+      127.925,
+      136.775
+    ],
+    "fr": [
+      0.0,
+      9.15,
+      19.938,
+      29.875,
+      39.138,
+      48.312,
+      57.587,
+      66.763,
+      76.6,
+      86.375,
+      96.388,
+      106.163,
+      116.075,
+      125.425,
+      133.675,
+      142.888
+    ],
+    "ro": [
+      0.0,
+      9.613,
+      20.525,
+      31.837,
+      41.725,
+      51.812,
+      62.537,
+      73.562,
+      84.888,
+      95.4,
+      105.45,
+      115.688,
+      126.938,
+      136.175,
+      146.125,
+      156.988
+    ],
+    "ru": [
+      0.0,
+      9.863,
+      20.425,
+      31.888,
+      42.713,
+      53.25,
+      63.425,
+      74.263,
+      85.488,
+      96.7,
+      107.013,
+      117.263,
+      127.825,
+      138.575,
+      148.275,
+      157.812
+    ],
+    "pt": [
+      0.0,
+      10.375,
+      22.962,
+      33.675,
+      43.5,
+      54.188,
+      65.05,
+      75.375,
+      87.0,
+      97.725,
+      108.287,
+      118.862,
+      129.938,
+      140.175,
+      149.925,
+      160.663
+    ],
+    "hu": [
+      0.0,
+      10.037,
+      22.262,
+      35.013,
+      45.988,
+      54.588,
+      67.425,
+      79.738,
+      91.288,
+      103.063,
+      113.075,
+      125.613,
+      137.888,
+      148.088,
+      158.25,
+      169.825
+    ]
+  }
+}
