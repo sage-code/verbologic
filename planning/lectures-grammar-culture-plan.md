@@ -2,6 +2,10 @@
 
 Date: 2026-11-02 (second version; the first had nine grammar chapters, which was too many). Authoritative curriculum table: `manual/curriculum.md`, Lectures section.
 
+## Language rule (decided 2026-11-02)
+
+Language rule for articles: chapter LT01 has its articles in all 9 languages. Every later chapter's article is written only in its `target` language (the grammar of Romanian is described in Romanian, that of English in English), natively and never translated, with no versions in other languages. The rule covers the article body only: chapter, topic and item names keep all 9 languages, and their title audio (chapter, topic, item) is recorded in all 9. Consequences: no explanation-language versions to write, review or record (the nine English pages already follow this: target English, written in English); the reader shows the target-language article whatever the interface language; the per-language item titles and the title clips stay as they are.
+
 ## The idea
 
 1. **Grammar is described once, in LT02, as topics, not chapters.** LT02 "Introduction to Grammar" is the reference: 21 short, precise topics (propositions, categories of words, nouns, articles, adjectives, pronouns, numerals, verbs, tenses, moods, voice, adverbs, prepositions and cases, negation and questions, conjunctions, word order, word formation).
@@ -92,7 +96,7 @@ The first column is the article topic; the second lists the LT02 topics its gram
 
 ## The article template (explicative notes)
 
-Every article in LT03 to LT10, in this order, written in the explanation language and quoting the target language only from its seed list:
+Every article in LT03 to LT10, in this order, written in the target language itself (see "Language rule") and quoting only words from its seed list:
 
 1. **Opening (2 to 4 sentences).** What this is about and why a learner of this language cares. No grammar yet.
 2. **In context** (one `##` section, 150 to 350 words). A short text, or a short dialogue, that shows the topic at work. Target-language sentences appear as quoted examples with IPA and a gloss (a closed list from the seed, as in LT01; no invented forms or IPA).
@@ -110,7 +114,7 @@ Rules:
 - Tables show forms only inside a note; a table is never the whole article.
 - Length: 450 to 900 words in total. Paragraphs are short and about the same length.
 - At A1 write for the learner, not for a linguist: avoid terms that LT02 has not introduced yet, or define them in the note.
-- Written natively in each explanation language from one English outline (headings, seed examples, notes), never translated.
+- One text per article, written natively in the target language (from one outline of headings, seed examples and notes); no other-language versions and nothing translated.
 
 ## What this needs in the system (Phase 1)
 
@@ -131,7 +135,7 @@ How the same topic differs by language (written into every language's LT02 artic
 3. **Other languages**, in the LT01 order: es, it, fr, de, pt, ru, hu. LT02 first, then LT03 and LT04 (A1), and so on up the levels.
 4. **LT07 to LT10** per language after its LT03 to LT06, with a seed of facts (dates, places, names) approved before writing, so nothing is invented.
 
-Size: about 21 + 30 + 29 = 80 articles in LT02 to LT10 per language as a minimum (LT07 to LT10 take several articles per topic), so roughly 150 per language in total, 1,350 for nine languages, each written in up to nine explanation languages. It ships in slices: a topic is live for a language as soon as its English page exists; other explanation languages fill in later (English fallback already works).
+Size: about 21 + 30 + 29 = 80 articles in LT02 to LT10 per language as a minimum (LT07 to LT10 take several articles per topic), so roughly 150 per language in total, 1,350 for nine languages. Each article is one text in its own language, so there is no multiplier for explanation languages. It ships in slices: a topic is live for a language as soon as its article exists.
 
 ## Phase 0 result (done 2026-11-02)
 

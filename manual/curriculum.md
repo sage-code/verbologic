@@ -27,6 +27,8 @@ Dictionary and Stories are graded **by chapter**: two chapters per level, so a l
 
 **Rebuilt 2026-11-02 (second version).** LT01 (sounds and pronunciation) is unchanged. The old LT02 to LT12 (phrase and word lists) were purged. Full plan, article template and open work: `planning/lectures-grammar-culture-plan.md`.
 
+**Language rule (2026-11-02).** Chapter LT01 has its articles in all 9 languages. Every later chapter's article is written only in its `target` language: the grammar of Romanian is described in Romanian, that of English in English, natively and never translated, with no versions in other languages. The rule covers the article body only. Chapter, topic and item names keep all 9 languages, and the sound (title audio of chapters, topics and items) is recorded in all 9. The reader of another interface language sees the same target-language article.
+
 **Principle: grammar is described once, as topics of one chapter (LT02), and learned by reading.** LT03 to LT10 are articles about people, home, town, work, culture, places, history and science. Each article explains the grammar of the sentences it shows in short numbered **grammar notes**, with a link to the LT02 topic. No topic is a list of words or phrases.
 
 Rules for every lecture topic: `layout: article`, `mode: directional`, a `level`; **every item is an article** (headers, bullet lists and tables). A chapter is the same for every language; a language without a feature (for example noun gender in English) explains how it does that job instead. Chapters LT07 to LT10 cover the home country and the other countries where the language is spoken, including how it spread (empire, colonies, migration); subjects only one country has are extra articles inside the generic topic.
@@ -46,7 +48,7 @@ Rules for every lecture topic: `layout: article`, `mode: directional`, a `level`
 
 ### An article in LT03 to LT10
 
-In this order, in the explanation language, quoting the target language only from its seed list (sentence, IPA, gloss):
+In this order, written in the target language itself (see "Language rule" above), quoting only words from its seed list (sentence, IPA, gloss):
 
 1. **Opening** (2 to 4 sentences): what this is about and why it matters. No grammar yet.
 2. **In context** (150 to 350 words): a short text or dialogue that shows the topic.
@@ -54,7 +56,7 @@ In this order, in the explanation language, quoting the target language only fro
 4. **Notice** (optional): what differs from English or the learner's language; a common mistake.
 5. **Culture note** (optional, 2 to 3 sentences).
 
-A note explains a sentence of this article, never pastes a rule from LT02, and a table is never the whole article. Total length 450 to 900 words; paragraphs short and about the same length. Written natively per explanation language from one English outline, never translated. The planned `grammar:` field on each article lists the LT02 topics it draws on; `./run.sh missing` will report how many articles use each LT02 topic.
+A note explains a sentence of this article, never pastes a rule from LT02, and a table is never the whole article. Total length 450 to 900 words; paragraphs short and about the same length. One text per article, written natively in the target language; there are no versions in other languages and nothing is translated. The planned `grammar:` field on each article lists the LT02 topics it draws on; `./run.sh missing` will report how many articles use each LT02 topic.
 
 Chapters LT02 to LT10 hold no articles yet; their topics stay disabled in the navigation until an article exists.
 
@@ -124,7 +126,7 @@ Content is one of two kinds, and the kind decides how a topic is built:
 - Item codes are unique per track (`L553`), so a new language adds items to the existing topic; it does not need new topics.
 - `./run.sh missing` ends with a **Language coverage** table: items per language for every directional topic. A dash is the next piece of work.
 
-**Lecture articles are English only.** Each is written once, in simple English (short sentences, common words), about its `target` language. Every locale reads the English original; there are no `de.md`/`ro.md` files. A target-language word goes in `( )` and is not read aloud; the IPA in `/ /` right after it is read (transliterated by `scripts/lib/ipa-translit.mjs`), so every bracketed word needs IPA after it.
+**Quoting target-language words (LT01 pages).** A target-language word goes in `( )` and is not read aloud; the IPA in `/ /` right after it is read (transliterated by `scripts/lib/ipa-translit.mjs`), so every bracketed word needs IPA after it.
 
 Adding a language to a chapter-1 topic: `create-lecture-articles.py --target <lang> --scaffold`, fill `scripts/seeds/lectures-LT01-<lang>.json` with hand-transcribed IPA, `--preview`, then `--apply`.
 

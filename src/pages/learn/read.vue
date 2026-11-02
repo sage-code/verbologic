@@ -712,6 +712,39 @@ useSeoMeta({
                   {{ articleId }} - {{ storyTargetName }} {{ copy('lecture.explanation', 'Explanation') }}
                 </h2>
                 <div class="flex shrink-0 items-center gap-2">
+                  <!-- The pages of this article (shown only when it has more than one). The
+                       « » pill steps through the pages; Previous / Next below leave the
+                       article for the topic's previous / next item. -->
+                  <nav
+                    v-if="storyPageCount > 1"
+                    class="flex items-center gap-1"
+                    :aria-label="copy('lecture.page_navigation', 'Article pages')"
+                  >
+                    <button
+                      type="button"
+                      class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge text-base text-content transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
+                      :disabled="storyPage === 0"
+                      :title="copy('stories.previous_page', 'Previous')"
+                      @click="moveStoryPage(-1)"
+                    >
+                      «
+                    </button>
+                    <span
+                      class="inline-flex h-8 min-w-[4.5rem] shrink-0 items-center justify-center rounded-full border border-edge bg-surface px-2 text-xs tabular-nums text-muted"
+                      aria-live="polite"
+                    >
+                      {{ copy('stories.page', 'Page') }} {{ storyPage + 1 }}/{{ storyPageCount }}
+                    </span>
+                    <button
+                      type="button"
+                      class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge text-base text-content transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
+                      :disabled="storyPage >= storyPageCount - 1"
+                      :title="copy('stories.next_page', 'Next')"
+                      @click="moveStoryPage(1)"
+                    >
+                      »
+                    </button>
+                  </nav>
                   <!-- Previous / next item of the topic, before the Read button -->
                   <button
                     type="button"

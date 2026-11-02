@@ -9,7 +9,7 @@
  * This script creates the missing manifests from the sidebar — the structure
  * the UI renders — so `generate-audio.py --audio` has something to record.
  *
- *   node scripts/seed-track-titles.mjs <track> [--apply]
+ *   node scripts/seed-track-titles.mjs <track> [--chapter <code>] [--apply]
  *
  * Layout (same convention as the dictionary):
  *   media/<track>/<chapterCode>/item.json          chapter title
@@ -42,8 +42,10 @@ function fail(message) {
 
 const args = process.argv.slice(2)
 const apply = args.includes('--apply')
-const track = args.find((arg) => !arg.startsWith('--'))
-if (!track || !KINDS[track]) fail(`usage: seed-track-titles.mjs <${Object.keys(KINDS).join('|')}> [--apply]`)
+const chapterAt = args.indexOf('--chapter')
+const onlyChapter = chapterAt === -1 ? null : (args[chapterAt + 1] ?? null)
+const track = args.find((arg, at) => !arg.startsWith('--') && at !== chapterAt + 1)
+if (!track || !KINDS[track]) fail(`usage: seed-track-titles.mjs <${Object.keys(KINDS).join('|')}> [--chapter <code>] [--apply]`)
 
 const kinds = KINDS[track]
 const sidebarPath = join(SIDEBARS, track, 'sidebar.json')
@@ -73,6 +75,7 @@ function manifestFor(code, chapterCode, names, kind) {
 const planned = []
 for (const section of sidebar.sections ?? []) {
   const chapterCode = section.code
+  if (onlyChapter && chapterCode !== onlyChapter) continue
   planned.push({
     code: chapterCode,
     kind: kinds.chapter,
