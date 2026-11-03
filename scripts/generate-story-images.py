@@ -60,6 +60,7 @@ CONTENT = ROOT / "content"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.locales import LOCALES  # noqa: E402  (single locale registry)
 from lib import articles  # noqa: E402  (scripts/lib/articles.py: the shared article-file reader/writer)
+from lib import story_characters as cast  # noqa: E402  (reference pictures of returning characters)
 
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta"
 #: The image model. Flash is fast and cheap enough for a whole library; the
@@ -201,13 +202,32 @@ def write_story_context(path: Path, context: dict[str, str]) -> None:
 #: never cropped to fit), so nothing the story needs may sit at the very edge:
 #: the subjects stay well inside the frame and the edges carry only background.
 COMPOSITION = (
-    "Frame: a perfect square 1:1 picture, filled edge to edge with painting — no "
-    "border, no white margin, no vignette, no frame. Place the main characters "
-    "large and well inside the frame, with their faces in the upper-middle of the "
-    "picture and the key action inside the central three-fifths of the width. "
-    "Keep a margin of background (sky, foliage, ground) around the characters, "
-    "so no character, hand, or detail the story needs touches an edge."
+    "Frame: a perfect square 1:1 picture, painted edge to edge — no outer border, no white margin, no "
+    "vignette. Place the main characters large and well inside the frame, with their faces in the "
+    "upper-middle of the picture and the key action inside the central three-fifths of the width. "
+    "Keep a margin of background (sky, foliage, ground) around the characters, so no character, hand, "
+    "or detail the story needs touches an edge."
 )
+
+#: Everybody is drawn to a believable scale, so a hero never towers over the people around it.
+SCALE = (
+    "Scale: draw every character at a believable size relative to the others in the same scene. A child "
+    "is smaller than an adult, an elder is about an adult's height, an animal has its real size next to "
+    "people, and the hero is NEVER drawn bigger than the other people. Only a character the text calls "
+    "huge or a giant is drawn much larger. Normal human proportions: no oversized heads, hands or bodies."
+)
+
+#: One picture, several ideas: split the square into comic panels.
+PANELS = (
+    "Layout: this page has {count} paragraphs. If they show different moments or places, draw ONE comic-book "
+    "page in the square with {count} panels, one panel for each paragraph in reading order (two panels: "
+    "side by side or one above the other; three panels: one wide panel above two, or three tall panels). "
+    "Separate the panels with clean, straight comic-style dividers: even off-white gutters about 2% of the "
+    "width with a thin dark ink line on each side. Every panel is a complete scene with its own background, "
+    "and the characters keep the same look in all panels. If the paragraphs are the same moment, draw one "
+    "single scene with no dividers."
+)
+SINGLE = "Layout: one single scene filling the square, with no panels and no dividers."
 
 
 def build_prompt(
@@ -217,6 +237,7 @@ def build_prompt(
     page: list[str],
     index: int,
     total: int,
+    references: list[str] | None = None,
 ) -> str:
     """One picture's prompt: the style, the characters, the story so far, and the page.
 
@@ -231,7 +252,14 @@ def build_prompt(
         if index == 0
         else f"This is picture {index + 1} of {total}, later in the same story."
     )
-    parts = [STYLE, COMPOSITION, f"Story: \"{title}\". {position}"]
+    layout = PANELS.format(count=len(page)) if len(page) > 1 else SINGLE
+    parts = [STYLE, COMPOSITION, SCALE, layout, f"Story: \"{title}\". {position}"]
+    if references:
+        parts.append(
+            "Reference pictures of returning characters are attached first: "
+            + "; ".join(f"picture {i + 1} shows {name}" for i, name in enumerate(references))
+            + ". Draw each of them exactly as in its reference picture: same species or person, face, colours and clothes."
+        )
     if characters:
         cast = "\n".join(f"- {name}: {what}" for name, what in characters.items())
         parts.append(
@@ -246,9 +274,9 @@ def build_prompt(
         )
     if index > 0:
         parts.append(
-            "The previous picture of this story is attached. Keep its characters, "
+            "The previous picture of this story is attached last. Keep its characters, "
             "their appearance and the setting, and change only what this page's "
-            "moment requires."
+            "moment requires; its layout and number of panels do not carry over."
         )
     moment = "\n\n".join(page)
     parts.append(
@@ -260,7 +288,7 @@ def build_prompt(
     return "\n\n".join(parts)
 
 
-def call_gemini_image(prompt: str, model: str, reference: bytes | None = None) -> bytes:
+def call_gemini_image(prompt: str, model: str, reference: bytes | None = None, extra: list[bytes] | None = None) -> bytes:
     """Ask Gemini for one picture; returns the raw image bytes.
 
     `reference` is the picture drawn just before this one. Sending it as an input
@@ -271,6 +299,8 @@ def call_gemini_image(prompt: str, model: str, reference: bytes | None = None) -
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is required (set it in .env).")
     parts: list[dict[str, Any]] = []
+    for picture in extra or []:
+        parts.append({"inlineData": {"mimeType": "image/jpeg", "data": base64.b64encode(picture).decode("ascii")}})
     if reference:
         parts.append({"inlineData": {"mimeType": "image/jpeg", "data": base64.b64encode(reference).decode("ascii")}})
     parts.append({"text": prompt})
@@ -458,6 +488,7 @@ def main() -> int:
         item_dir = manifest_path.parent
         images_dir = item_dir / "images"
         characters = story_context(topic, code)
+        returning = cast.references(list(characters), f"{topic}:{code}")
 
         print(f"{code} [{item.get('cefr')}] {title!r}: {count} page(s), {per_page} paragraph(s) per page, one picture each")
         if not characters:
@@ -469,7 +500,7 @@ def main() -> int:
                 skipped += 1
                 continue
             earlier = [paragraph for previous in pages[:index] for paragraph in previous]
-            prompt = build_prompt(title, characters, earlier, page, index, count)
+            prompt = build_prompt(title, characters, earlier, page, index, count, [name for name, _ in returning])
             if args.dry_run:
                 print(f"  [{index}] page {index + 1}: would generate")
                 written += 1
@@ -478,7 +509,7 @@ def main() -> int:
             previous_picture = images_dir / f"{index - 1}.jpg"
             reference = previous_picture.read_bytes() if index > 0 and previous_picture.is_file() else None
             try:
-                raw = call_gemini_image(prompt, args.model, reference)
+                raw = call_gemini_image(prompt, args.model, reference, [picture for _, picture in returning])
             except RuntimeError as error:
                 print(f"  [{index}] page {index + 1}: FAILED {error}", file=sys.stderr)
                 failed += 1

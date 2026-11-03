@@ -1,0 +1,236 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST03",
+  "topic": "ST03T04",
+  "kind": "story",
+  "entity_id": "ST03T04:S001",
+  "cefr": "A2",
+  "tags": [
+    "level#A2"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Train Trip",
+      "description": "Cleo travels to the city by train and learns that asking for help makes a long journey much easier."
+    },
+    "ro": {
+      "name": "Călătoria cu trenul",
+      "description": "Cleo merge în oraș cu trenul și învață că este mai ușor să ceri ajutor atunci când călătorești."
+    },
+    "de": {
+      "name": "Die Zugreise",
+      "description": "Cleo fährt mit dem Zug in die Stadt und lernt, dass man nach dem Weg fragen kann, wenn man Hilfe braucht."
+    },
+    "ru": {
+      "name": "Поездка на поезде",
+      "description": "Клео едет в город на поезде и понимает, что просить о помощи — это хороший способ сделать путешествие проще."
+    },
+    "it": {
+      "name": "Il viaggio in treno",
+      "description": "Cleo va in città in treno e scopre che chiedere aiuto rende il viaggio molto più semplice."
+    },
+    "es": {
+      "name": "El viaje en tren",
+      "description": "Cleo viaja a la ciudad en tren y aprende que pedir ayuda hace que el camino sea más fácil."
+    },
+    "fr": {
+      "name": "Le voyage en train",
+      "description": "Cleo voyage en ville en train et apprend que demander de l'aide rend le voyage beaucoup plus facile."
+    },
+    "hu": {
+      "name": "A vonatút",
+      "description": "Cleo vonattal utazik a városba, és megtanulja, hogy segítséget kérni könnyebbé teszi az utazást."
+    },
+    "pt": {
+      "name": "A viagem de comboio",
+      "description": "A Cleo viaja para a cidade de comboio e aprende que pedir ajuda torna a viagem muito mais fácil."
+    }
+  },
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 12240,
+      "sha1": "9f7a642aff1363f6dcc4638535fce5b900c2b876",
+      "text": "753a09e82f9111b5e51369d1a319b14e7fa665d1"
+    },
+    "sound/it.mp3": {
+      "bytes": 13392,
+      "sha1": "041e0915779591122a101b698e37608bf67d5cce",
+      "text": "12940c2f1ad0cc55abd5a53ab9070e4124ed5bb7"
+    },
+    "sound/de.mp3": {
+      "bytes": 11232,
+      "sha1": "802471a37f41063e352d58412d8deea057cd1255",
+      "text": "cea0d700fbbc79972d0956598d779163736e0cd6"
+    },
+    "sound/ro.mp3": {
+      "bytes": 13680,
+      "sha1": "38b3afcfbf2c5f1ce32049f8540bd12e6c385755",
+      "text": "5b4ad81c88c5cfb4bd32047f3044f3610bf6b2ec"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12240,
+      "sha1": "bc6d13dd5d215e69c7e43d2c8083ad09abeb01cc",
+      "text": "d570653382c3179057dfefba3326f2db32e521ac"
+    },
+    "sound/fr.mp3": {
+      "bytes": 11808,
+      "sha1": "80ebc1f676d7b4180ae43e1581483b53c7ceacfe",
+      "text": "e33e9d2e992acb463e443c60eeecc03981eeddf1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "837379eb040e83ffc13f674f2c22cb971b9f6112",
+      "text": "ddeae8277de2d05bdad5b855991b0359b771f3d8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "c3d67cb2d61b191a5ca710238cd4e3e13ac0526a",
+      "text": "434c243cb146d5e73c5046bbeb1ecb61c7aa9f51"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13680,
+      "sha1": "8852169d4c59686c80d2428246734ee79bed62e5",
+      "text": "580924e35cc8d367db5f768e10acae2f82c9b790"
+    },
+    "read/it.mp3": {
+      "bytes": 270288,
+      "sha1": "7330833e6e7826f8778b6ee165db6aeababa108e",
+      "text": "d21b5887e3d9334a44d1e62cc5c3524f5024f1ca"
+    },
+    "read/de.mp3": {
+      "bytes": 280224,
+      "sha1": "02931e0442fda8749b7976ea66c3b2ed2ff4e9a8",
+      "text": "a099e1b38de694d3fd164ea08529139b860e6f4b"
+    },
+    "read/es.mp3": {
+      "bytes": 261792,
+      "sha1": "ffcfb9f45e52e1e64e989a2a94a809ac044c93f7",
+      "text": "11ad1788adab0dc1322961a7f13456d95831a05f"
+    },
+    "read/fr.mp3": {
+      "bytes": 231552,
+      "sha1": "c863a3a8e9e6b55455957f04af24871cae230ca8",
+      "text": "943ec076a46a91fbff748d362eab33e28383e49d"
+    },
+    "read/ro.mp3": {
+      "bytes": 266976,
+      "sha1": "c0f07c34565ff0d31ed4213a10947b7d1b27df0e",
+      "text": "6c981ea6c406b223414d7855498326c2f8b4d4c4"
+    },
+    "read/pt.mp3": {
+      "bytes": 248112,
+      "sha1": "4430093d43f1b4be948408f2cee99b6e01e1fa08",
+      "text": "bac8a02aef6535a2be4e416ff2c33e9f392678ac"
+    },
+    "read/hu.mp3": {
+      "bytes": 266112,
+      "sha1": "832c5d8a6edab9e2255a773e4538dae239a80d65",
+      "text": "1b3208068139eede35c6a95b958d6439dd61b56c"
+    },
+    "read/en.mp3": {
+      "bytes": 218880,
+      "sha1": "801b2b5c76523be1c58fffa7e3bce3a5a480a880",
+      "text": "ce354c92c0c8bd78d6de0db4e48c44107719fd08"
+    },
+    "read/ru.mp3": {
+      "bytes": 290160,
+      "sha1": "c860e66eacd04baa7fd4a11ad73e579c68608ca2",
+      "text": "a250df7417ccbb42b478ea5fce18bd1b2fefd1cd"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 200130,
+      "sha1": "ed2272c2f2a5dddfd39fc61ddbaaa63f97c8c129",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 180467,
+      "sha1": "135ab0e7e2c870f9e0a9aecd6727fa697f98d7a3",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 168882,
+      "sha1": "b0b97608d4174fee187f5e6dfea6f26534364a96",
+      "page": 2
+    }
+  ],
+  "readSections": {
+    "it": [
+      0.0,
+      8.387,
+      14.987,
+      22.4,
+      28.575,
+      36.35
+    ],
+    "de": [
+      0.0,
+      8.45,
+      16.825,
+      23.962,
+      30.612,
+      38.4
+    ],
+    "es": [
+      0.0,
+      7.95,
+      14.188,
+      21.438,
+      28.0,
+      35.163
+    ],
+    "fr": [
+      0.0,
+      6.45,
+      12.713,
+      18.925,
+      24.562,
+      30.863
+    ],
+    "ro": [
+      0.0,
+      7.625,
+      14.925,
+      22.812,
+      29.337,
+      36.762
+    ],
+    "pt": [
+      0.0,
+      7.35,
+      14.062,
+      20.675,
+      27.038,
+      33.688
+    ],
+    "hu": [
+      0.0,
+      7.138,
+      13.963,
+      20.9,
+      27.812,
+      35.025
+    ],
+    "en": [
+      0.0,
+      6.513,
+      12.113,
+      17.3,
+      23.238,
+      29.125
+    ],
+    "ru": [
+      0.0,
+      8.475,
+      16.512,
+      24.087,
+      31.637,
+      38.938
+    ]
+  }
+}

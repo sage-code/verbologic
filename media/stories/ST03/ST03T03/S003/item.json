@@ -1,0 +1,236 @@
+{
+  "code": "S003",
+  "track": "stories",
+  "chapter": "ST03",
+  "topic": "ST03T03",
+  "kind": "story",
+  "entity_id": "ST03T03:S003",
+  "cefr": "A2",
+  "tags": [
+    "level#A2"
+  ],
+  "locales": {
+    "en": {
+      "name": "Enzo and the Lost Song",
+      "description": "Enzo the boy helps a lost bird find its way home with the help of his animal friends."
+    },
+    "ro": {
+      "name": "Enzo și cântecul pierdut",
+      "description": "Enzo ajută o pasăre rătăcită să ajungă acasă cu ajutorul prietenilor săi."
+    },
+    "de": {
+      "name": "Enzo und das verlorene Lied",
+      "description": "Der Junge Enzo hilft einem kleinen Vogel, sein Zuhause zu finden."
+    },
+    "ru": {
+      "name": "Энцо и потерянная песня",
+      "description": "Мальчик Энцо помогает маленькой птичке найти дорогу домой с помощью друзей."
+    },
+    "it": {
+      "name": "Enzo e la canzone perduta",
+      "description": "Il ragazzo Enzo aiuta un uccellino smarrito a tornare a casa con l'aiuto dei suoi amici."
+    },
+    "es": {
+      "name": "Enzo y la canción perdida",
+      "description": "El niño Enzo ayuda a un pájaro perdido a encontrar su hogar con la ayuda de sus amigos."
+    },
+    "fr": {
+      "name": "Enzo et la chanson perdue",
+      "description": "Le garçon Enzo aide un petit oiseau perdu à retrouver sa maison avec l'aide de ses amis."
+    },
+    "hu": {
+      "name": "Enzo és az elveszett dal",
+      "description": "Enzo, a kisfiú, segít egy eltévedt madárnak hazatalálni az állatbarátai segítségével."
+    },
+    "pt": {
+      "name": "Enzo e a canção perdida",
+      "description": "O menino Enzo ajuda um pássaro perdido a encontrar o caminho de casa com a ajuda dos seus amigos."
+    }
+  },
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 16848,
+      "sha1": "5bdb06bae793203f773593730525a85fcf29c152",
+      "text": "758a6cdd3962469ce9053301848179392654cf1b"
+    },
+    "sound/es.mp3": {
+      "bytes": 15264,
+      "sha1": "817412767518ce805ec09a7c924ec91000c19a57",
+      "text": "593565051ab36b27bd9c0b9a13438db3d28b0375"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18144,
+      "sha1": "c340620b42331f032a48cf314bfc319bfb84955b",
+      "text": "5ce230534d95ac7e0b7bfa1ca6b2d4fde8804ffb"
+    },
+    "sound/en.mp3": {
+      "bytes": 12096,
+      "sha1": "a7546b5df940d387be593859094657f5fb228474",
+      "text": "d4310b20271e1024f1748ca82b5ffb9c7f5fd730"
+    },
+    "sound/ro.mp3": {
+      "bytes": 16272,
+      "sha1": "3216fd15a968de1713f5b905e344858c5e91b9f0",
+      "text": "d3e35404626a035722b8aa79a9882a2e66122412"
+    },
+    "sound/it.mp3": {
+      "bytes": 12096,
+      "sha1": "2be8d7adbfb81b5db527c1e145d3d3edb979efee",
+      "text": "c39d70b2a12b27ec5db8122217c1fab90fc8c4ec"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15264,
+      "sha1": "d3deea24bb79f703e8f870413d12972ca4746854",
+      "text": "9bb6f7d6720c55e4d73daf627588d37f6718a8e5"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16416,
+      "sha1": "16d0da67e2de19c0bd7b960ab0933dac57af0209",
+      "text": "14aecb44528005322de0a8bbf30e35b9ffcf7604"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16416,
+      "sha1": "3a0b269a5054759b71132a5390266ba9a1946e3e",
+      "text": "8239d0d132b0f82638e909f63fc8839b6bfcf156"
+    },
+    "read/es.mp3": {
+      "bytes": 289584,
+      "sha1": "fd4c766606a9362e7734e99e73de71cc53cbfeb8",
+      "text": "f6fbb3adaa946d1c2c1d5073018be5a3f85a1ac9"
+    },
+    "read/en.mp3": {
+      "bytes": 253728,
+      "sha1": "25ca9c7b8716a35d603354da0e8293d2c7d4c1d4",
+      "text": "e7174630ef401c312cae022fb46d04a2cc9f7c5f"
+    },
+    "read/de.mp3": {
+      "bytes": 334656,
+      "sha1": "0539434d3e4facba204ae1b395a905b99fb1e47d",
+      "text": "71d51b5e3fb503287b6695ab75002acb5a3b3a7c"
+    },
+    "read/it.mp3": {
+      "bytes": 271152,
+      "sha1": "9848fdec86119175046b77d20abbaa080fbe7c3f",
+      "text": "7449f8e11492c0d26d8e9fd45e0a4fe970346f45"
+    },
+    "read/fr.mp3": {
+      "bytes": 280512,
+      "sha1": "857d2ee4fe0bdf7c31ea14f633068533e0f861bd",
+      "text": "5f5afe89447b5ff183edd65b972bbc072d76dac7"
+    },
+    "read/ru.mp3": {
+      "bytes": 319392,
+      "sha1": "654dfd8e23e0f978d95c335ef11b137b32886f67",
+      "text": "34b53e99c1187749ebdc3fb7387324a96c081c1a"
+    },
+    "read/hu.mp3": {
+      "bytes": 340128,
+      "sha1": "e200f8769ffff338224a6debbbe65f61480fbaa3",
+      "text": "00ce0ac7f6fa7e01d357666195874f7109563d11"
+    },
+    "read/pt.mp3": {
+      "bytes": 309456,
+      "sha1": "996910e418cceae2c8dda237140c0903c9a880ae",
+      "text": "9326aa510db8c5662b92a79ba7f45347c6cf9815"
+    },
+    "read/ro.mp3": {
+      "bytes": 307872,
+      "sha1": "44b88eb400f50c66a6397261e05d913e76ee89b2",
+      "text": "e12666e1ddb9ca264446f90658d51bd4a4234450"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 188505,
+      "sha1": "2d1fd3373285b92f8d75be17f9c29ba162ad788f",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 197268,
+      "sha1": "d84bb754dec870f2ee76d48139411a9dcba27cab",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 205804,
+      "sha1": "d1b04e8be530e792f87c9ef285eee9f815721950",
+      "page": 2
+    }
+  ],
+  "readSections": {
+    "es": [
+      0.0,
+      8.0,
+      15.762,
+      25.262,
+      32.425,
+      39.862
+    ],
+    "en": [
+      0.0,
+      7.037,
+      13.613,
+      21.75,
+      28.525,
+      35.337
+    ],
+    "de": [
+      0.0,
+      9.6,
+      18.425,
+      29.512,
+      38.087,
+      46.787
+    ],
+    "it": [
+      0.0,
+      7.6,
+      14.062,
+      23.125,
+      29.863,
+      37.05
+    ],
+    "fr": [
+      0.0,
+      8.588,
+      16.0,
+      24.55,
+      31.15,
+      38.413
+    ],
+    "ru": [
+      0.0,
+      9.162,
+      16.825,
+      27.1,
+      35.388,
+      44.213
+    ],
+    "hu": [
+      0.0,
+      9.625,
+      18.55,
+      30.125,
+      38.05,
+      47.262
+    ],
+    "pt": [
+      0.0,
+      8.975,
+      17.4,
+      26.825,
+      34.675,
+      42.7
+    ],
+    "ro": [
+      0.0,
+      8.725,
+      17.175,
+      27.062,
+      34.812,
+      42.712
+    ]
+  }
+}

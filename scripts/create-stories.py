@@ -61,6 +61,7 @@ SIDEBAR = ROOT / "src" / "data" / "sidebars" / "library" / "stories" / "sidebar.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.locales import DEFAULT_LOCALE, LOCALES  # noqa: E402  (single locale registry)
 from lib import articles  # noqa: E402  (scripts/lib/articles.py: the shared article-file writer)
+from lib import story_characters as chars  # noqa: E402  (the cast: manual/story-characters.md)
 
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta"
 DEFAULT_GEMINI_MODEL = "models/gemini-3.5-flash-lite"
@@ -194,7 +195,8 @@ def topic_context(chapter_name: str, topic_name: str, neighbours: tuple[str, str
 
 
 def story_prompt(
-    topic_name: str, level: str, existing_titles: list[str], subject: str | None = None, context: str = ""
+    topic_name: str, level: str, existing_titles: list[str], subject: str | None = None, context: str = "",
+    species: str | None = None,
 ) -> str:
     spec = LEVELS[level]
     low, high = spec["paragraphs"]
@@ -224,8 +226,11 @@ def story_prompt(
         "words, that suits the collection.\n"
         f"{focus}"
         f"- Do not reuse these titles: {taken}.\n\n"
+        f"{chars.rules(level, species)}\n\n"
         'Return only a JSON object with the keys "title" (a short title), "summary" '
-        '(one sentence of at most 25 words), "paragraphs" (a list of strings) and '
+        '(one sentence of at most 25 words), "paragraphs" (a list of strings), '
+        '"main" (the name of the main character), "new_characters" (an object that maps the name of each NEW '
+        'character to {"kind": ..., "species": ...}, as the character rules say) and '
         '"context" (an object that maps the name of each character, or its role if it has '
         'no name, to a short phrase saying what it IS and its main look, for example '
         '"Pip": "a small white goose with an orange beak"). '
@@ -271,7 +276,7 @@ def clean_strings(values: Any) -> list[str] | None:
     return cleaned if len(cleaned) == len(values) and all(cleaned) else None
 
 
-def check_story(story: dict[str, Any], level: str) -> list[str]:
+def check_story(story: dict[str, Any], level: str, species: str | None = None) -> list[str]:
     """Problems with the English story, or [] when it follows the level's rules."""
     problems = []
     title, summary = story.get("title"), story.get("summary")
@@ -290,7 +295,7 @@ def check_story(story: dict[str, Any], level: str) -> list[str]:
     pages = math.ceil(len(paragraphs) / LEVELS[level]["per_page"])
     if pages < MIN_PAGES:
         problems.append(f"{pages} page(s), a story needs at least {MIN_PAGES}")
-    return problems
+    return problems + chars.check(story, level, species)
 
 
 def check_native(result: dict[str, Any], story: dict[str, Any], locales: list[str]) -> list[str]:
@@ -529,6 +534,8 @@ def main() -> int:
 
         write_story(topic, chapter, code, level, story, native)
         add_to_sidebar(topic, code)
+        added = chars.register(story["new_characters"], story["context"], f"{topic}:{code}")
+        print("  new characters (this story is their reference): " + ", ".join(added))
         created.append(code)
         print(f"  wrote {len(story['paragraphs'])} paragraph(s) in {len(LOCALES)} languages: '{story['title']}'")
 
