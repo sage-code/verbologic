@@ -8,8 +8,12 @@
  * - dragging pans, and the picture never pulls away from the frame edges;
  * - the mouse wheel zooms in and out around the pointer;
  * - Enter or Space toggles the zoom at the centre, for keyboard readers.
+ * - a quick horizontal drag while not zoomed is a swipe: it emits `swipe` with
+ *   +1 (dragged left: the next story) or -1 (dragged right: the previous one).
  */
 import { ref } from 'vue'
+
+const emit = defineEmits<{ swipe: [direction: -1 | 1] }>()
 
 defineProps<{
   src: string
@@ -22,6 +26,8 @@ const MAX_SCALE = 4
 const ZOOM_SCALE = 2.5
 /** Pointer travel, in px, past which a press counts as a drag rather than a tap. */
 const DRAG_SLOP = 6
+/** Horizontal travel, in px, that makes an unzoomed drag a swipe. */
+const SWIPE_DISTANCE = 50
 /** One wheel notch's zoom factor. */
 const WHEEL_STEP = 1.15
 
@@ -93,7 +99,13 @@ function onMove(event: PointerEvent) {
 function onUp(event: PointerEvent) {
   if (!press || press.id !== event.pointerId) return
   const tap = !press.moved
+  const dx = event.clientX - press.x
+  const dy = event.clientY - press.y
   press = null
+  if (!tap && scale.value === 1 && Math.abs(dx) >= SWIPE_DISTANCE && Math.abs(dx) > Math.abs(dy) * 1.5) {
+    emit('swipe', dx < 0 ? 1 : -1)
+    return
+  }
   if (tap) {
     const point = insideFrame(event.clientX, event.clientY)
     toggleAt(point.x, point.y)

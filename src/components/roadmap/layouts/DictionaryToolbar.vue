@@ -14,9 +14,12 @@
 import { useRoadmapStore } from '~/stores/roadmapStore'
 import { useAudioQueue, type QueueItem } from '~/composables/useAudioQueue'
 import WordSearchBar from '../WordSearchBar.vue'
+import { mediaName } from '~/composables/useMedia'
+import type { SidebarSection } from '~/types/sidebars'
 
 const store = useRoadmapStore()
 const copy = useCopy()
+const { lang: uiLang } = useLocale()
 
 const props = defineProps<{
   queue: ReturnType<typeof useAudioQueue>
@@ -113,6 +116,37 @@ function toggleLoop() {
   })
 }
 
+/** The chapter name in the small "new chapter" dialog; null while it is closed. */
+const chapterAnnouncement = ref<string | null>(null)
+/** How long the dialog stays up before the other chapter's topic opens, in ms. */
+const CHAPTER_DIALOG_MS = 3000
+let chapterTimer: ReturnType<typeof setTimeout> | undefined
+onBeforeUnmount(() => clearTimeout(chapterTimer))
+
+/**
+ * Step into the neighbouring topic (1 next, -1 previous). When that topic
+ * belongs to another chapter, a small dialog names the chapter for three
+ * seconds before it opens; within a chapter the topic opens at once.
+ */
+async function walkTopic(direction: -1 | 1, open: () => Promise<boolean>) {
+  if (chapterAnnouncement.value) return
+  const topics = store.populatedTopics
+  const at = topics.findIndex((topic) => topic.code === store.topicCode)
+  const target = topics[at + direction]
+  if (!target) return
+  if (at < 0 || target.chapterCode === topics[at].chapterCode) {
+    await open()
+    return
+  }
+  const chapter = store.chapters.find((c: SidebarSection) => c.code === target.chapterCode)
+  props.queue.stop()
+  chapterAnnouncement.value = chapter ? mediaName(chapter.names, uiLang.value, chapter.code) : target.chapterCode
+  chapterTimer = setTimeout(async () => {
+    chapterAnnouncement.value = null
+    await open()
+  }, CHAPTER_DIALOG_MS)
+}
+
 /** Next page — or the next topic once the last page is exhausted. Always
  *  enters the word table first: closes the chapter TOC and expands the
  *  chapter in the sidebar, so navigation never depends on the sidebar. */
@@ -123,7 +157,7 @@ async function goNext() {
   }
   if (!(await store.ensureWords())) return
   if (store.page < store.pageCount) store.setPage(store.page + 1)
-  else await store.nextTopic()
+  else await walkTopic(1, store.nextTopic)
 }
 
 /** Previous page — or the previous topic's last page when on page 1. Always
@@ -135,7 +169,7 @@ async function goPrev() {
   }
   if (!(await store.ensureWords())) return
   if (store.page > 1) store.setPage(store.page - 1)
-  else await store.prevTopicLastPage()
+  else await walkTopic(-1, store.prevTopicLastPage)
 }
 </script>
 
@@ -246,5 +280,21 @@ async function goPrev() {
         </button>
       </div>
     </div>
+    <!-- Crossing into another chapter: named for three seconds, then its topic opens. -->
+    <Teleport to="body">
+      <div
+        v-if="chapterAnnouncement"
+        class="fixed inset-0 z-50 flex items-center justify-center bg-black/30 px-6"
+        role="status"
+        aria-live="assertive"
+      >
+        <div class="max-w-sm rounded-xl border border-edge bg-surface px-6 py-5 text-center shadow-lg">
+          <p class="text-xs font-semibold uppercase tracking-wide text-accent">
+            {{ copy('ui.new_chapter', 'New chapter') }}
+          </p>
+          <p class="mt-1 text-lg font-bold text-content">{{ chapterAnnouncement }}</p>
+        </div>
+      </div>
+    </Teleport>
   </div>
 </template>

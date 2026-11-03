@@ -366,6 +366,8 @@ EXTRA_RESPELL = {
         "creionul": "creyonul", "creionului": "creyonului",
         # Alina shortens the "jj" of "rotunji"; doubling the letter makes her say it whole
         "rotunji": "rotunjji", "rotunjiți": "rotunjjiți",
+        # the English name Jace (/dʒeɪs/) is read "ges"; "Geis" makes her say it whole
+        "jace": "Geis",
     },
 }
 _RESPELL: dict[str, re.Pattern | None] = {}

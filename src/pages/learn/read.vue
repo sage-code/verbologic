@@ -10,7 +10,7 @@
 //   has TWO panels — the story text (the learning language, or the reader's
 //   translation, picked with Show) and the picture, which is always square.
 <script setup lang="ts">
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { ChevronLeftIcon, ChevronRightIcon, ClockIcon, FilmIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 import { StopIcon } from '@heroicons/vue/24/solid'
 import { type TrackId } from '~/data/tracks'
@@ -25,6 +25,7 @@ import { useMedia } from '~/composables/useMedia'
 import { mediaName } from '~/composables/useMedia'
 import { useRoadmapStore } from '~/stores/roadmapStore'
 import type { MediaRecord, MediaRow, StoryImage } from '~/types/media'
+import type { SidebarSection } from '~/types/sidebars'
 import StoryPicture from '~/components/StoryPicture.vue'
 
 definePageMeta({ key: (pageRoute) => pageRoute.fullPath })
@@ -117,11 +118,87 @@ async function loadArticle() {
 
 /** The topic's items for the language being learned, in sidebar order: Previous and Next walk this list. */
 const siblingIds = ref<string[]>([])
-const siblingAt = computed(() => siblingIds.value.indexOf(articleId.value))
-const previousId = computed(() => (siblingAt.value > 0 ? siblingIds.value[siblingAt.value - 1] : null))
-const nextId = computed(() =>
-  siblingAt.value >= 0 && siblingAt.value < siblingIds.value.length - 1 ? siblingIds.value[siblingAt.value + 1] : null
+
+/**
+ * Every topic of the track that has items, in sidebar order, with the chapter it
+ * belongs to. Stepping past the first or last item of a topic walks this list,
+ * so the reader flows on into the next topic and, past the last topic of a
+ * chapter, into the next chapter.
+ */
+interface TopicStop {
+  chapter: string
+  chapterNames: SidebarSection['names']
+  topic: string
+  items: string[]
+}
+const topicStops = computed<TopicStop[]>(() => {
+  let sections: SidebarSection[] = []
+  try {
+    sections = useSidebars().get(`library/${track.value}`).sections
+  } catch {
+    return []
+  }
+  return sections.flatMap((section) =>
+    section.topics
+      .filter((topic) => topic.items?.length)
+      .map((topic) => ({
+        chapter: section.code,
+        chapterNames: section.names,
+        topic: topic.code,
+        items: topic.items as string[]
+      }))
+  )
+})
+const stopAt = computed(() => topicStops.value.findIndex((stop) => stop.topic === topicCode.value))
+/** The open topic's items: the loaded media when known, the sidebar's list until then. */
+const itemOrder = computed(() =>
+  siblingIds.value.length ? siblingIds.value : (topicStops.value[stopAt.value]?.items ?? [])
 )
+const siblingAt = computed(() => itemOrder.value.indexOf(articleId.value))
+const previousId = computed(() => (siblingAt.value > 0 ? itemOrder.value[siblingAt.value - 1] : null))
+const nextId = computed(() =>
+  siblingAt.value >= 0 && siblingAt.value < itemOrder.value.length - 1 ? itemOrder.value[siblingAt.value + 1] : null
+)
+/** Whether a step forward / back exists at all: in this topic, or in a neighbouring one. */
+const canStepForward = computed(() => Boolean(nextId.value) || (stopAt.value >= 0 && stopAt.value < topicStops.value.length - 1))
+const canStepBack = computed(() => Boolean(previousId.value) || stopAt.value > 0)
+
+/** The chapter name shown in the small "new chapter" dialog; null when it is closed. */
+const chapterAnnouncement = ref<string | null>(null)
+/** How long the new-chapter dialog stays up before the next chapter opens, in ms. */
+const CHAPTER_DIALOG_MS = 3000
+let chapterTimer: ReturnType<typeof setTimeout> | undefined
+onBeforeUnmount(() => clearTimeout(chapterTimer))
+
+/**
+ * Step to the next (1) or previous (-1) item: inside the topic first, then
+ * into the neighbouring topic. When that crosses into another chapter, a small
+ * dialog announces the chapter for three seconds before its first (or, going
+ * back, last) item opens.
+ */
+function stepItem(direction: -1 | 1) {
+  if (chapterAnnouncement.value) return
+  const inTopic = direction > 0 ? nextId.value : previousId.value
+  if (inTopic) {
+    goToItem(inTopic)
+    return
+  }
+  const here = topicStops.value[stopAt.value]
+  const stop = topicStops.value[stopAt.value + direction]
+  if (!here || !stop) return
+  const id = direction > 0 ? stop.items[0] : stop.items[stop.items.length - 1]
+  const open = () => {
+    chapterAnnouncement.value = null
+    void navigateTo({ path: route.path, query: { ...route.query, id: `${stop.topic}:${id}` } })
+  }
+  if (here.chapter === stop.chapter) {
+    open()
+    return
+  }
+  stopStory()
+  chapterAnnouncement.value = mediaName(stop.chapterNames, uiLang.value, stop.chapter)
+  chapterTimer = setTimeout(open, CHAPTER_DIALOG_MS)
+}
 /** Same page, same reader and learned language, another item of the topic. */
 function goToItem(id: string | null) {
   if (!id) return
@@ -452,6 +529,17 @@ function moveStoryPage(direction: -1 | 1) {
   storyPage.value = Math.min(Math.max(0, storyPage.value + direction), storyPageCount.value - 1)
 }
 
+/** The » button: the next page, or past the last page the next item (and chapter). */
+function nextPage() {
+  if (storyPage.value < storyPageCount.value - 1) moveStoryPage(1)
+  else stepItem(1)
+}
+/** The « button: the previous page, or before the first page the previous item. */
+function previousPage() {
+  if (storyPage.value > 0) moveStoryPage(-1)
+  else stepItem(-1)
+}
+
 onMounted(async () => {
   // The reader's language drives the panel and its audio, so it must be loaded
   // before the record is resolved — otherwise `uiLang` is still the default.
@@ -636,17 +724,25 @@ useSeoMeta({
                     </button>
                   </div>
                 </div>
+                <!-- The story's code (S016…): shown even when the reader's language is
+                     the story's, so there is no Show toggle to sit beside. -->
+                <span
+                  class="inline-flex h-7 items-center rounded-full border border-edge bg-surface px-2.5 font-mono text-xs tabular-nums text-muted"
+                  :title="copy('stories.code', 'Story code')"
+                >
+                  {{ articleId }}
+                </span>
                 <nav
-                  v-if="storyPageCount > 1"
+                  v-if="storyPageCount > 1 || canStepForward || canStepBack"
                   class="ml-auto flex items-center gap-2"
                   :aria-label="copy('stories.page_navigation', 'Story pages')"
                 >
                   <button
                     type="button"
                     class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge text-base text-content transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
-                    :disabled="storyPage === 0"
+                    :disabled="storyPage === 0 && !canStepBack"
                     :title="copy('stories.previous_page', 'Previous')"
-                    @click="moveStoryPage(-1)"
+                    @click="previousPage"
                   >
                     «
                   </button>
@@ -659,9 +755,9 @@ useSeoMeta({
                   <button
                     type="button"
                     class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge text-base text-content transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
-                    :disabled="storyPage >= storyPageCount - 1"
+                    :disabled="storyPage >= storyPageCount - 1 && !canStepForward"
                     :title="copy('stories.next_page', 'Next')"
-                    @click="moveStoryPage(1)"
+                    @click="nextPage"
                   >
                     »
                   </button>
@@ -716,16 +812,16 @@ useSeoMeta({
                        « » pill steps through the pages; Previous / Next below leave the
                        article for the topic's previous / next item. -->
                   <nav
-                    v-if="storyPageCount > 1"
+                    v-if="storyPageCount > 1 || canStepForward || canStepBack"
                     class="flex items-center gap-1"
                     :aria-label="copy('lecture.page_navigation', 'Article pages')"
                   >
                     <button
                       type="button"
                       class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge text-base text-content transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
-                      :disabled="storyPage === 0"
+                      :disabled="storyPage === 0 && !canStepBack"
                       :title="copy('stories.previous_page', 'Previous')"
-                      @click="moveStoryPage(-1)"
+                      @click="previousPage"
                     >
                       «
                     </button>
@@ -738,9 +834,9 @@ useSeoMeta({
                     <button
                       type="button"
                       class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge text-base text-content transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
-                      :disabled="storyPage >= storyPageCount - 1"
+                      :disabled="storyPage >= storyPageCount - 1 && !canStepForward"
                       :title="copy('stories.next_page', 'Next')"
-                      @click="moveStoryPage(1)"
+                      @click="nextPage"
                     >
                       »
                     </button>
@@ -812,6 +908,7 @@ useSeoMeta({
                 :alt="articleTitle"
                 :zoom-in-label="copy('stories.zoom_in', 'Zoom in on the picture')"
                 :zoom-out-label="copy('stories.zoom_out', 'Zoom back out')"
+                @swipe="stepItem"
               />
             </figure>
           </div>
@@ -837,6 +934,22 @@ useSeoMeta({
           </ul>
         </section>
       </article>
+    </div>
+
+    <!-- Crossing into another chapter: a small dialog names it for three
+         seconds, then the chapter's first (or last) item opens. -->
+    <div
+      v-if="chapterAnnouncement"
+      class="fixed inset-0 z-50 flex items-center justify-center bg-black/30 px-6"
+      role="status"
+      aria-live="assertive"
+    >
+      <div class="max-w-sm rounded-xl border border-edge bg-surface px-6 py-5 text-center shadow-lg">
+        <p class="text-xs font-semibold uppercase tracking-wide text-accent">
+          {{ copy('ui.new_chapter', 'New chapter') }}
+        </p>
+        <p class="mt-1 text-lg font-bold text-content">{{ chapterAnnouncement }}</p>
+      </div>
     </div>
   </main>
 </template>

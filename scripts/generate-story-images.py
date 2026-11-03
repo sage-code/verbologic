@@ -241,6 +241,8 @@ def build_prompt(
     total: int,
     references: list[str] | None = None,
     note: str | None = None,
+    scene: str | None = None,
+    panels: int | None = None,
 ) -> str:
     """One picture's prompt: the style, the characters, the story so far, and the page.
 
@@ -255,7 +257,8 @@ def build_prompt(
         if index == 0
         else f"This is picture {index + 1} of {total}, later in the same story."
     )
-    layout = PANELS.format(count=len(page)) if len(page) > 1 else SINGLE
+    count = panels or len(page)
+    layout = PANELS.format(count=count) if count > 1 else SINGLE
     parts = [STYLE, COMPOSITION, SCALE, layout, f"Story: \"{title}\". {position}"]
     if references:
         parts.append(
@@ -281,12 +284,12 @@ def build_prompt(
             "their appearance and the setting, and change only what this page's "
             "moment requires; its layout and number of panels do not carry over."
         )
-    moment = "\n\n".join(page)
+    moment = scene or "\n\n".join(page)
     parts.append(
         "Illustrate the main moment that this page describes, showing the characters "
         "and setting in it. Keep the characters visually consistent with a single "
         "storybook: same kind, same clothing, same age, same colours.\n\n"
-        f"Text of this page to illustrate:\n{moment}"
+        f"{'Scene to illustrate, which replaces the page text' if scene else 'Text of this page to illustrate'}:\n{moment}"
     )
     return "\n\n".join(parts)
 
@@ -493,6 +496,8 @@ def main() -> int:
     parser.add_argument("--page", type=int, action="append", help="only this picture index (0-based, repeatable); with --overwrite redraws just it")
     parser.add_argument("--note", help="a correction added to the prompt of the redrawn picture(s)")
     parser.add_argument("--character", action="append", help="NAME=description for this run only, replacing the story's own description of NAME (repeatable)")
+    parser.add_argument("--scene", help="describe what the picture shows, replacing the page text (with --page)")
+    parser.add_argument("--panels", type=int, help="draw the picture as this many comic panels (with --page)")
     parser.add_argument("--fresh", action="store_true", help="draw without the previous picture and character references (for a correction the references would undo)")
     parser.add_argument("--model", default=DEFAULT_IMAGE_MODEL, help="Gemini image model")
     parser.add_argument(
@@ -565,7 +570,7 @@ def main() -> int:
                 skipped += 1
                 continue
             earlier = [paragraph for previous in pages[:index] for paragraph in previous]
-            prompt = build_prompt(title, characters, earlier, page, index, count, [name for name, _ in returning], args.note)
+            prompt = build_prompt(title, characters, earlier, page, index, count, [name for name, _ in returning], args.note, args.scene, args.panels)
             if args.dry_run:
                 print(f"  [{index}] page {index + 1}: would generate")
                 written += 1
