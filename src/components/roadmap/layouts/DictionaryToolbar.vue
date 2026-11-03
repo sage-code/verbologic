@@ -116,17 +116,18 @@ function toggleLoop() {
   })
 }
 
-/** The chapter name in the small "new chapter" dialog; null while it is closed. */
-const chapterAnnouncement = ref<string | null>(null)
-/** How long the dialog stays up before the other chapter's topic opens, in ms. */
-const CHAPTER_DIALOG_MS = 3000
-let chapterTimer: ReturnType<typeof setTimeout> | undefined
-onBeforeUnmount(() => clearTimeout(chapterTimer))
+/** The chapter dialog: the chapter ahead, its direction, and what Accept does; null while closed. */
+const chapterAnnouncement = ref<{ name: string; direction: -1 | 1; confirm: () => void } | null>(null)
+function acceptChapter() {
+  const dialog = chapterAnnouncement.value
+  chapterAnnouncement.value = null
+  dialog?.confirm()
+}
 
 /**
  * Step into the neighbouring topic (1 next, -1 previous). When that topic
- * belongs to another chapter, a small dialog names the chapter for three
- * seconds before it opens; within a chapter the topic opens at once.
+ * belongs to another chapter, a small dialog names the chapter and asks to
+ * Accept or Cancel; within a chapter the topic opens at once.
  */
 async function walkTopic(direction: -1 | 1, open: () => Promise<boolean>) {
   if (chapterAnnouncement.value) return
@@ -140,11 +141,11 @@ async function walkTopic(direction: -1 | 1, open: () => Promise<boolean>) {
   }
   const chapter = store.chapters.find((c: SidebarSection) => c.code === target.chapterCode)
   props.queue.stop()
-  chapterAnnouncement.value = chapter ? mediaName(chapter.names, uiLang.value, chapter.code) : target.chapterCode
-  chapterTimer = setTimeout(async () => {
-    chapterAnnouncement.value = null
-    await open()
-  }, CHAPTER_DIALOG_MS)
+  chapterAnnouncement.value = {
+    name: chapter ? mediaName(chapter.names, uiLang.value, chapter.code) : target.chapterCode,
+    direction,
+    confirm: () => void open()
+  }
 }
 
 /** Next page — or the next topic once the last page is exhausted. Always
@@ -280,19 +281,35 @@ async function goPrev() {
         </button>
       </div>
     </div>
-    <!-- Crossing into another chapter: named for three seconds, then its topic opens. -->
+    <!-- Crossing into another chapter: named, then Accept or Cancel. -->
     <Teleport to="body">
       <div
         v-if="chapterAnnouncement"
         class="fixed inset-0 z-50 flex items-center justify-center bg-black/30 px-6"
-        role="status"
-        aria-live="assertive"
+        role="alertdialog"
+        aria-modal="true"
       >
         <div class="max-w-sm rounded-xl border border-edge bg-surface px-6 py-5 text-center shadow-lg">
-          <p class="text-xs font-semibold uppercase tracking-wide text-accent">
-            {{ copy('ui.new_chapter', 'New chapter') }}
+<p class="text-xs font-semibold uppercase tracking-wide text-accent">
+            {{ chapterAnnouncement.direction > 0 ? copy('ui.next_chapter', 'Next chapter') : copy('ui.previous_chapter', 'Previous chapter') }}
           </p>
-          <p class="mt-1 text-lg font-bold text-content">{{ chapterAnnouncement }}</p>
+          <p class="mt-1 text-lg font-bold text-content">{{ chapterAnnouncement.name }}</p>
+          <div class="mt-4 flex justify-center gap-3">
+            <button
+              type="button"
+              class="h-9 rounded-full border border-edge bg-surface px-4 text-sm text-muted transition hover:border-accent hover:text-accent"
+              @click="chapterAnnouncement = null"
+            >
+              {{ copy('ui.cancel', 'Cancel') }}
+            </button>
+            <button
+              type="button"
+              class="h-9 rounded-full bg-accent px-4 text-sm font-semibold text-white transition hover:opacity-90"
+              @click="acceptChapter"
+            >
+              {{ copy('ui.accept', 'Accept') }}
+            </button>
+          </div>
         </div>
       </div>
     </Teleport>

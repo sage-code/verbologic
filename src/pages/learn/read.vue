@@ -10,7 +10,7 @@
 //   has TWO panels — the story text (the learning language, or the reader's
 //   translation, picked with Show) and the picture, which is always square.
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import { ChevronLeftIcon, ChevronRightIcon, ClockIcon, FilmIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 import { StopIcon } from '@heroicons/vue/24/solid'
 import { type TrackId } from '~/data/tracks'
@@ -163,18 +163,23 @@ const nextId = computed(() =>
 const canStepForward = computed(() => Boolean(nextId.value) || (stopAt.value >= 0 && stopAt.value < topicStops.value.length - 1))
 const canStepBack = computed(() => Boolean(previousId.value) || stopAt.value > 0)
 
-/** The chapter name shown in the small "new chapter" dialog; null when it is closed. */
-const chapterAnnouncement = ref<string | null>(null)
-/** How long the new-chapter dialog stays up before the next chapter opens, in ms. */
-const CHAPTER_DIALOG_MS = 3000
-let chapterTimer: ReturnType<typeof setTimeout> | undefined
-onBeforeUnmount(() => clearTimeout(chapterTimer))
+/**
+ * The chapter dialog: which chapter lies ahead (direction 1 next, -1 previous),
+ * and what Accept does. null while it is closed; Cancel just closes it and the
+ * reader stays on the story.
+ */
+const chapterAnnouncement = ref<{ name: string; direction: -1 | 1; confirm: () => void } | null>(null)
+function acceptChapter() {
+  const dialog = chapterAnnouncement.value
+  chapterAnnouncement.value = null
+  dialog?.confirm()
+}
 
 /**
  * Step to the next (1) or previous (-1) item: inside the topic first, then
  * into the neighbouring topic. When that crosses into another chapter, a small
- * dialog announces the chapter for three seconds before its first (or, going
- * back, last) item opens.
+ * dialog asks first (Accept / Cancel): Accept opens the chapter's first (or,
+ * going back, last) item, Cancel leaves the reader where it is.
  */
 function stepItem(direction: -1 | 1) {
   if (chapterAnnouncement.value) return
@@ -188,7 +193,6 @@ function stepItem(direction: -1 | 1) {
   if (!here || !stop) return
   const id = direction > 0 ? stop.items[0] : stop.items[stop.items.length - 1]
   const open = () => {
-    chapterAnnouncement.value = null
     void navigateTo({ path: route.path, query: { ...route.query, id: `${stop.topic}:${id}` } })
   }
   if (here.chapter === stop.chapter) {
@@ -196,8 +200,11 @@ function stepItem(direction: -1 | 1) {
     return
   }
   stopStory()
-  chapterAnnouncement.value = mediaName(stop.chapterNames, uiLang.value, stop.chapter)
-  chapterTimer = setTimeout(open, CHAPTER_DIALOG_MS)
+  chapterAnnouncement.value = {
+    name: mediaName(stop.chapterNames, uiLang.value, stop.chapter),
+    direction,
+    confirm: open
+  }
 }
 /** Same page, same reader and learned language, another item of the topic. */
 function goToItem(id: string | null) {
@@ -936,19 +943,35 @@ useSeoMeta({
       </article>
     </div>
 
-    <!-- Crossing into another chapter: a small dialog names it for three
-         seconds, then the chapter's first (or last) item opens. -->
+    <!-- Crossing into another chapter: a small dialog names it and asks to
+         Accept or Cancel; nothing moves until the reader accepts. -->
     <div
       v-if="chapterAnnouncement"
       class="fixed inset-0 z-50 flex items-center justify-center bg-black/30 px-6"
-      role="status"
-      aria-live="assertive"
+      role="alertdialog"
+      aria-modal="true"
     >
       <div class="max-w-sm rounded-xl border border-edge bg-surface px-6 py-5 text-center shadow-lg">
         <p class="text-xs font-semibold uppercase tracking-wide text-accent">
-          {{ copy('ui.new_chapter', 'New chapter') }}
+          {{ chapterAnnouncement.direction > 0 ? copy('ui.next_chapter', 'Next chapter') : copy('ui.previous_chapter', 'Previous chapter') }}
         </p>
-        <p class="mt-1 text-lg font-bold text-content">{{ chapterAnnouncement }}</p>
+        <p class="mt-1 text-lg font-bold text-content">{{ chapterAnnouncement.name }}</p>
+        <div class="mt-4 flex justify-center gap-3">
+          <button
+            type="button"
+            class="h-9 rounded-full border border-edge bg-surface px-4 text-sm text-muted transition hover:border-accent hover:text-accent"
+            @click="chapterAnnouncement = null"
+          >
+            {{ copy('ui.cancel', 'Cancel') }}
+          </button>
+          <button
+            type="button"
+            class="h-9 rounded-full bg-accent px-4 text-sm font-semibold text-white transition hover:opacity-90"
+            @click="acceptChapter"
+          >
+            {{ copy('ui.accept', 'Accept') }}
+          </button>
+        </div>
       </div>
     </div>
   </main>
