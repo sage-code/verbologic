@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Obiceiuri, fapte și programe",
+      "summary": "În limba română, folosim timpul prezent pentru obiceiuri zilnice, adevăruri generale și programe fixe.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Timpul prezent arată acțiuni care se întâmplă acum. Folosim prezentul și pentru lucruri pe care le facem des. De asemenea, el exprimă fapte sigure sau evenimente dintr-un program fix."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Eu mă **trezesc** la ora șapte în fiecare zi.",
+                "Apa **fierbe** la o sută de grade.",
+                "Trenul **pleacă** la ora nouă."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru obiceiuri, folosim cuvinte precum mereu, des, uneori sau niciodată. Forma verbului rămâne la prezent. Pentru evenimente dintr-un program fix, folosim verbul la prezent și menționăm ora."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Utilizare</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Obicei</strong></td><td><strong>Ea **bea** cafea în fiecare dimineață.</strong></td></tr><tr><td><strong>Fapt general</strong></td><td><strong>Pământul **se rotește** în jurul Soarelui.</strong></td></tr><tr><td><strong>Program fix</strong></td><td><strong>Autobuzul **sosește** la ora trei.</strong></td></tr><tr><td><strong>Frecvență</strong></td><td><strong>Noi **mergem** des la teatru.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

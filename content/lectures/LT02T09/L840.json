@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Persoana și numărul",
+      "summary": "Persoana și numărul arată cine face acțiunea și dacă aceasta este realizată de o persoană sau de mai multe.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Persoana arată cine face acțiunea verbului. Numărul arată dacă acțiunea este făcută de o singură persoană sau de mai multe. Avem persoana întâi, a doua și a treia, la singular și la plural."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Eu **merg** la școală pe jos.",
+                "Tu **mergi** foarte repede astăzi.",
+                "Noi **mergem** împreună la magazin."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română, verbul își schimbă forma în funcție de persoană și număr. Terminația arată cine face acțiunea. Din acest motiv, pronumele personal este de obicei omis."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Persoana</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>Persoana I (eu / noi)</strong></td><td><strong>cânt</strong></td><td><strong>cântăm</strong></td></tr><tr><td><strong>Persoana a II-a (tu / voi)</strong></td><td><strong>cânți</strong></td><td><strong>cântați</strong></td></tr><tr><td><strong>Persoana a III-a (el, ea / ei, ele)</strong></td><td><strong>cântă</strong></td><td><strong>cântă</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

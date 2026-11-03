@@ -87,6 +87,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Propoziții de timp și viitorul",
+      "summary": "În limba română, după cuvinte de timp care se referă la viitor, folosim de obicei verbul la prezent.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "O propoziție de timp arată momentul unei acțiuni. Ea începe cu cuvinte de legătură precum „când” sau „după ce”. Când vorbim despre viitor, verbul din această propoziție este adesea la prezent."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Te sun **când ajung** acasă.",
+                "**După ce mănâncă**, el va pleca.",
+                "Aștept aici **până vine** Maria."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "După „când”, „după ce” și „până când”, punem verbul la timpul prezent. Folosim prezentul chiar dacă acțiunea are loc în viitor. După expresia „înainte să”, folosim verbul la modul conjunctiv. Propoziția de timp poate sta înainte sau după propoziția principală."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Cuvânt de legătură</th><th>Forma verbului</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>când</strong></td><td><strong>prezent</strong></td><td><strong>Vorbim **când ai** timp liber.</strong></td></tr><tr><td><strong>după ce</strong></td><td><strong>prezent</strong></td><td><strong>Plecăm **după ce termini** munca.</strong></td></tr><tr><td><strong>până când</strong></td><td><strong>prezent</strong></td><td><strong>Aștept **până când vine** autobuzul.</strong></td></tr><tr><td><strong>înainte să</strong></td><td><strong>conjunctiv</strong></td><td><strong>Te sun **înainte să plec**.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

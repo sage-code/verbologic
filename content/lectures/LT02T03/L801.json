@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Genul substantivelor",
+      "summary": "În limba română, fiecare substantiv are un gen: masculin, feminin sau neutru.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Substantivul este cuvântul care denumește o ființă sau un lucru. În limba română, toate substantivele au un gen gramatical. Genurile sunt masculin, feminin și neutru."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Aici este un **băiat** înalt.",
+                "Acolo este o **fată** veselă.",
+                "Pe masă este un **măr** roșu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Aflăm genul când numărăm substantivul la singular și la plural. La masculin numărăm cu: un, doi. La feminin numărăm cu: o, două. La neutru numărăm cu: un, două."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Gen</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>Masculin</strong></td><td><strong>un băiat</strong></td><td><strong>doi băieți</strong></td></tr><tr><td><strong>Masculin</strong></td><td><strong>un frate</strong></td><td><strong>doi frați</strong></td></tr><tr><td><strong>Feminin</strong></td><td><strong>o fată</strong></td><td><strong>două fete</strong></td></tr><tr><td><strong>Feminin</strong></td><td><strong>o carte</strong></td><td><strong>două cărți</strong></td></tr><tr><td><strong>Neutru</strong></td><td><strong>un scaun</strong></td><td><strong>două scaune</strong></td></tr><tr><td><strong>Neutru</strong></td><td><strong>un măr</strong></td><td><strong>două mere</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Substantivele fără articol",
+      "summary": "În limba română, multe substantive se folosesc fără niciun articol în situații uzuale.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Uneori, un substantiv nu are niciun fel de articol. Această formă se numește substantiv nearticulat. O folosim adesea când vorbim despre lucruri în general."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Eu beau **apă** rece.",
+                "Mihai este **profesor**.",
+                "Pisica doarme pe **scaun**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Substantivul rămâne în forma sa simplă, ca în dicționar. Nu adăugăm terminații la sfârșitul cuvântului și nu punem niciun cuvânt ajutător în fața lui. Folosim des această formă după prepoziții simple precum „în” sau „pe”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Situație</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>După prepoziții simple</strong></td><td><strong>Mergem la **munte**.</strong></td></tr><tr><td><strong>Cantități sau lucruri în general</strong></td><td><strong>Avem nevoie de **pâine**.</strong></td></tr><tr><td><strong>Profesii după verbul „a fi”</strong></td><td><strong>Elena este **medic**.</strong></td></tr><tr><td><strong>Nume de orașe</strong></td><td><strong>Trenul ajunge în **București**.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

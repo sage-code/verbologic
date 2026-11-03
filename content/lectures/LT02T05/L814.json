@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Superlativul",
+      "summary": "Superlativul arată că o ființă sau un lucru are o însușire la cel mai înalt grad.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Superlativul arată că un element se află pe primul loc într-un grup. El exprimă gradul maxim al unei calități atunci când comparăm un element cu toate celelalte."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Everestul este **cel mai înalt** munte.",
+                "Ana este **cea mai deșteaptă** elevă.",
+                "Acesta este **cel mai util** obiect."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română folosim formele „cel mai”, „cea mai”, „cei mai” sau „cele mai”. Alegem forma potrivită în funcție de genul și numărul substantivului, urmată de adjectiv."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Gen și număr</th><th>Adjectiv</th><th>Superlativ</th></tr></thead><tbody><tr><td><strong>Masculin singular</strong></td><td><strong>bun</strong></td><td><strong>cel mai bun</strong></td></tr><tr><td><strong>Feminin singular</strong></td><td><strong>bună</strong></td><td><strong>cea mai bună</strong></td></tr><tr><td><strong>Masculin plural</strong></td><td><strong>buni</strong></td><td><strong>cei mai buni</strong></td></tr><tr><td><strong>Feminin plural</strong></td><td><strong>bune</strong></td><td><strong>cele mai bune</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

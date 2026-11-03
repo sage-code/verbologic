@@ -87,6 +87,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Când folosim pasivul",
+      "summary": "Folosim diateza pasivă când acțiunea este importantă, iar autorul acțiunii este necunoscut, evident sau neimportant.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Diateza pasivă arată că subiectul suferă acțiunea. O folosim când nu știm cine face acțiunea. De asemenea, o folosim când autorul acțiunii este evident sau neimportant. În vorbirea de zi cu zi, preferăm adesea diateza activă."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Portofelul meu **a fost furat** ieri.",
+                "Hoțul **a fost arestat** azi-dimineață.",
+                "Podul **a fost construit** în anul 1900."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Formăm pasivul cu verbul „a fi” și participiul verbului de bază. Participiul se acordă în gen și număr cu subiectul. Putem adăuga autorul acțiunii cu prepoziția „de” sau „de către”. Dacă autorul este cel mai important, alegem diateza activă."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Situație</th><th>Exemplu</th><th>Explicație</th></tr></thead><tbody><tr><td><strong>Autor necunoscut</strong></td><td><strong>Bicicleta a fost furată.</strong></td><td><strong>Nu știm cine a luat bicicleta.</strong></td></tr><tr><td><strong>Autor evident</strong></td><td><strong>Pacientul a fost operat.</strong></td><td><strong>Medicul a făcut operația, este de la sine înțeles.</strong></td></tr><tr><td><strong>Autor neimportant</strong></td><td><strong>Muzeul a fost deschis recent.</strong></td><td><strong>Evenimentul contează, nu persoana care l-a deschis.</strong></td></tr><tr><td><strong>Accent pe rezultat</strong></td><td><strong>Tema a fost terminată.</strong></td><td><strong>Rezultatul final este mai important decât persoana care a lucrat.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

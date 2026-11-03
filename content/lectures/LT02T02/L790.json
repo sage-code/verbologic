@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Cuvinte care denumesc",
+      "summary": "Substantivele denumesc ființe, lucruri sau locuri, iar pronumele țin locul unui substantiv.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Substantivul denumește o persoană, un loc sau un obiect. Pronumele ține locul unui substantiv deja menționat. Folosim pronumele pentru a nu repeta cuvintele."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Maria** locuiește în **București**.",
+                "**Ea** citește o carte.",
+                "**Prietenia** este foarte importantă."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română, substantivele au trei genuri: masculin, feminin și neutru. Substantivele își schimbă forma la singular și la plural. Pronumele se acordă în gen și număr cu substantivul înlocuit. Adesea, pronumele subiect nu este obligatoriu în propoziție."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Substantiv</th><th>Gen și număr</th><th>Pronume</th></tr></thead><tbody><tr><td><strong>băiatul</strong></td><td><strong>masculin singular</strong></td><td><strong>el</strong></td></tr><tr><td><strong>fata</strong></td><td><strong>feminin singular</strong></td><td><strong>ea</strong></td></tr><tr><td><strong>băieții</strong></td><td><strong>masculin plural</strong></td><td><strong>ei</strong></td></tr><tr><td><strong>fetele</strong></td><td><strong>feminin plural</strong></td><td><strong>ele</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

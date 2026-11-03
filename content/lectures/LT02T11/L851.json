@@ -95,6 +95,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Trecutul simplu",
+      "summary": "În limba română, exprimăm o acțiune terminată în trecut cel mai des prin timpul perfect compus.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Timpul trecut arată o acțiune care a început și s-a terminat deja. În vorbirea curentă, limba română folosește perfectul compus pentru trecut. Folosim acest timp pentru fapte petrecute la un moment precis."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Anul trecut **am vizitat** Roma.",
+                "Noi **am văzut** un film ieri.",
+                "Ea **a locuit** acolo zece ani."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Formăm perfectul compus cu verbul auxiliar „a avea” și participiul verbului de bază. Auxiliarul își schimbă forma pentru fiecare persoană. Participiul rămâne la fel pentru toate persoanele. Pentru negație, punem cuvântul „nu” în fața verbului auxiliar."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Persoană</th><th>Auxiliar</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Eu</strong></td><td><strong>am</strong></td><td><strong>Eu **am citit** o carte.</strong></td></tr><tr><td><strong>Tu</strong></td><td><strong>ai</strong></td><td><strong>Tu **ai vorbit** mult.</strong></td></tr><tr><td><strong>El / Ea</strong></td><td><strong>a</strong></td><td><strong>Ea **a sosit** ieri.</strong></td></tr><tr><td><strong>Noi</strong></td><td><strong>am</strong></td><td><strong>Noi **am plecat** devreme.</strong></td></tr><tr><td><strong>Voi</strong></td><td><strong>ați</strong></td><td><strong>Voi **ați mâncat** tot.</strong></td></tr><tr><td><strong>Ei / Ele</strong></td><td><strong>au</strong></td><td><strong>Ei **au terminat** tema.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

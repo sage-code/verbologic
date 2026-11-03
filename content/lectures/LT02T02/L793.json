@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Cuvinte care precizează și arată",
+      "summary": "Adverbele arată cum, când sau unde are loc o acțiune, iar demonstrativele indică obiecte sau persoane.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Unele cuvinte dau detalii despre o acțiune. Ele se numesc adverbe și arată timpul, locul sau modul. Alte cuvinte arată direct spre un lucru sau o persoană. Acestea se numesc cuvinte demonstrative."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Ea cântă **frumos**.",
+                "Ne întâlnim **mâine**.",
+                "**Această** carte este a mea."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adverbele nu își schimbă forma niciodată. Multe adverbe au aceeași formă ca adjectivele la masculin singular. În schimb, demonstrativele își schimbă forma după gen și număr. Ele arată dacă un obiect este aproape sau departe."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Gen și număr</th><th>Aproape</th><th>Departe</th></tr></thead><tbody><tr><td><strong>Masculin singular</strong></td><td><strong>acest băiat</strong></td><td><strong>acel băiat</strong></td></tr><tr><td><strong>Feminin singular</strong></td><td><strong>această fată</strong></td><td><strong>acea fată</strong></td></tr><tr><td><strong>Masculin plural</strong></td><td><strong>acești băieți</strong></td><td><strong>acei băieți</strong></td></tr><tr><td><strong>Feminin plural</strong></td><td><strong>aceste fete</strong></td><td><strong>acele fete</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

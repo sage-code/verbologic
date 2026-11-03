@@ -93,6 +93,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Pronumele relative",
+      "summary": "Pronumele relative leagă două propoziții și oferă informații noi despre un substantiv menționat anterior.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pronumele relativ leagă o propoziție nouă de un substantiv. El oferă detalii importante despre o persoană sau un lucru. În limba română, cel mai folosit pronume relativ este „care”."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Femeia **care** locuiește aici este medic.",
+                "Cartea **pe care** am cumpărat-o a fost scumpă.",
+                "Omul **despre care** vorbim este prietenul meu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Forma pronumelui depinde de rolul lui în propoziție. Dacă pronumele este subiect, folosim forma simplă „care”. Dacă pronumele este complement direct, adăugăm prepoziția „pe”: „pe care”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pronume</th><th>Rol în propoziție</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>care</strong></td><td><strong>Subiect (cine face acțiunea)</strong></td><td><strong>Băiatul **care** aleargă este Andrei.</strong></td></tr><tr><td><strong>pe care</strong></td><td><strong>Complement direct (pe cine sau ce)</strong></td><td><strong>Filmul **pe care** îl urmăresc este bun.</strong></td></tr><tr><td><strong>cu care</strong></td><td><strong>Complement prepozițional (cu cine)</strong></td><td><strong>Colegul **cu care** vorbesc este vesel.</strong></td></tr><tr><td><strong>al cărui / a cărei</strong></td><td><strong>Atribut (exprimă posesia: al cui)</strong></td><td><strong>Fata **a cărei** carte o citesc este aici.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

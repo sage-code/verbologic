@@ -82,6 +82,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Pronumele reciproce",
+      "summary": "Pronumele reciproce arată o acțiune reciprocă între două sau mai multe persoane.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "O acțiune reciprocă arată că două sau mai multe persoane fac același lucru reciproc. Limba română nu are pronume reciproce separate. Folosim pronumele reflexive la plural împreună cu expresii precum „unul pe altul”."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Ei **se ajută unul pe altul**.",
+                "Noi **ne scriem unul altuia** mesaje.",
+                "Fetele **își vorbesc una alteia**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Așezăm pronumele reflexiv (ne, vă, se, își) înaintea verbului. Adăugăm expresia „unul pe altul” după verb pentru claritate. Această expresie își schimbă forma după gen și după caz."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Caz și gen</th><th>Verb cu pronume reflexiv</th><th>Expresie adăugată</th></tr></thead><tbody><tr><td><strong>Acuzativ masculin</strong></td><td><strong>se ajută</strong></td><td><strong>unul pe altul</strong></td></tr><tr><td><strong>Acuzativ feminin</strong></td><td><strong>se ajută</strong></td><td><strong>una pe alta</strong></td></tr><tr><td><strong>Acuzativ plural</strong></td><td><strong>se ajută</strong></td><td><strong>unii pe alții</strong></td></tr><tr><td><strong>Dativ masculin</strong></td><td><strong>își vorbesc</strong></td><td><strong>unul altuia</strong></td></tr><tr><td><strong>Dativ feminin</strong></td><td><strong>își vorbesc</strong></td><td><strong>una alteia</strong></td></tr><tr><td><strong>Dativ plural</strong></td><td><strong>își vorbesc</strong></td><td><strong>unii altora</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

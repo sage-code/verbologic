@@ -82,6 +82,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Imperativul",
+      "summary": "Imperativul este modul verbal prin care transmitem un ordin, un sfat, o instrucțiune sau o rugăminte.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Folosim imperativul când cerem cuiva să facă ceva. El exprimă o comandă, o instrucțiune sau o invitație politicoasă. În limba română, imperativul are forme directe doar pentru „tu” și „voi”."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Deschide** ușa, te rog!",
+                "**Veniți** mai aproape!",
+                "**Nu alerga** pe scări!"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "La afirmativ, forma pentru „voi” este identică cu cea de prezent. La negativ, la singular folosim cuvântul „nu” urmat de infinitiv. La plural, punem „nu” în fața formei afirmative."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Persoană</th><th>Afirmativ</th><th>Negativ</th></tr></thead><tbody><tr><td><strong>tu (singular)</strong></td><td><strong>Citește!</strong></td><td><strong>Nu citi!</strong></td></tr><tr><td><strong>voi (plural)</strong></td><td><strong>Citiți!</strong></td><td><strong>Nu citiți!</strong></td></tr><tr><td><strong>tu (singular)</strong></td><td><strong>Ascultă!</strong></td><td><strong>Nu asculta!</strong></td></tr><tr><td><strong>voi (plural)</strong></td><td><strong>Ascultați!</strong></td><td><strong>Nu ascultați!</strong></td></tr><tr><td><strong>tu (singular)</strong></td><td><strong>Fă!</strong></td><td><strong>Nu face!</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

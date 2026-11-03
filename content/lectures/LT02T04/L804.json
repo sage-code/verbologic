@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Articolul hotărât",
+      "summary": "În limba română, articolul hotărât se adaugă direct la sfârșitul cuvântului pentru a arăta un lucru cunoscut.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Articolul hotărât arată o persoană sau un lucru bine cunoscut. În limba română, el se adaugă la sfârșitul cuvântului. Folosim acest articol când vorbim despre ceva precis."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Băiatul** merge la școală.",
+                "Închide **ușa**, te rog!",
+                "**Soarele** strălucește puternic astăzi."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Forma articolului depinde de genul și numărul cuvântului. La masculin singular adăugăm de obicei „-ul” sau „-l”. La feminin singular punem terminația „-a”. La plural adăugăm de regulă „-i” sau „-le”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Gen și număr</th><th>Fără articol</th><th>Cu articol hotărât</th></tr></thead><tbody><tr><td><strong>Masculin singular</strong></td><td><strong>băiat</strong></td><td><strong>băiatul</strong></td></tr><tr><td><strong>Feminin singular</strong></td><td><strong>casă</strong></td><td><strong>casa</strong></td></tr><tr><td><strong>Neutru singular</strong></td><td><strong>scaun</strong></td><td><strong>scaunul</strong></td></tr><tr><td><strong>Masculin plural</strong></td><td><strong>băieți</strong></td><td><strong>băieții</strong></td></tr><tr><td><strong>Feminin plural</strong></td><td><strong>case</strong></td><td><strong>casele</strong></td></tr><tr><td><strong>Neutru plural</strong></td><td><strong>scaune</strong></td><td><strong>scaunele</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Verbe auxiliare și principale",
+      "summary": "Verbul principal exprimă acțiunea de bază, iar verbul auxiliar ajută la formarea timpurilor compuse în limba română.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Verbul principal poartă sensul cel mai important din propoziție. Verbul auxiliar este un simplu ajutor gramatical. El ajută verbul principal să formeze timpuri compuse, precum trecutul sau viitorul."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Noi **am citit** o carte interesantă.",
+                "Maria **va merge** la magazin mâine.",
+                "Voi **ați terminat** tema rapid."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În română, verbele auxiliare principale sunt „a avea”, „a vrea” și „a fi”. De obicei, verbul auxiliar stă în fața verbului principal. Româna nu folosește auxiliare pentru negație sau pentru a pune întrebări."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Auxiliar</th><th>Rol gramatical</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>a avea</strong></td><td><strong>formează trecutul (perfectul compus)</strong></td><td><strong>Eu am mâncat un măr.</strong></td></tr><tr><td><strong>a vrea</strong></td><td><strong>formează timpul viitor</strong></td><td><strong>Voi veți scrie o scrisoare.</strong></td></tr><tr><td><strong>a fi</strong></td><td><strong>formează diateza pasivă și timpuri compuse</strong></td><td><strong>Scrisoarea a fost trimisă.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

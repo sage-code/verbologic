@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Pronumele subiect",
+      "summary": "Pronumele subiect arată cine face acțiunea, dar în limba română îl folosim rar.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pronumele subiect arată cine face acțiunea verbului. Aceste cuvinte înlocuiesc numele unei persoane sau al unui lucru. În limba română, forma verbului arată deja cine face acțiunea. De aceea, folosim pronumele subiect mai ales pentru a sublinia persoana."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Eu** lucrez aici în fiecare zi.",
+                "**Ea** citește o carte nouă.",
+                "**Ei** sosesc acum la gară."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pronumele își schimbă forma după persoană și număr. La persoana a treia, avem forme pentru masculin și feminin. În vorbire, omitem des pronumele și folosim doar verbul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Persoană</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>Persoana I</strong></td><td><strong>eu</strong></td><td><strong>noi</strong></td></tr><tr><td><strong>Persoana a II-a</strong></td><td><strong>tu</strong></td><td><strong>voi</strong></td></tr><tr><td><strong>Persoana a III-a</strong></td><td><strong>el, ea</strong></td><td><strong>ei, ele</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

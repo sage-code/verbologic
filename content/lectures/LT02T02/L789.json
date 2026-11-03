@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Ce este o categorie de cuvinte",
+      "summary": "O categorie de cuvinte grupează cuvintele care au același rol într-o propoziție.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Cuvintele dintr-o limbă sunt împărțite în mai multe categorii. Fiecare categorie are un rol specific în propoziție. Substantivul denumește ființe și lucruri, iar verbul exprimă o acțiune. În limba română există zece categorii de cuvinte."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Masa** este un substantiv.",
+                "**Cântă** este un verb.",
+                "**Repede** este un adverb."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Un cuvânt aparține unei categorii după rolul său în propoziție. În limba română, unele cuvinte pot avea categorii diferite în contexte diferite. Întrebarea la care răspunde cuvântul te ajută adesea să recunoști categoria corectă."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Cuvânt</th><th>Prima categorie</th><th>A doua categorie</th></tr></thead><tbody><tr><td><strong>frumos</strong></td><td><strong>Adjectiv: Un băiat frumos</strong></td><td><strong>Adverb: El cântă frumos</strong></td></tr><tr><td><strong>dimineața</strong></td><td><strong>Substantiv: Dimineața este rece</strong></td><td><strong>Adverb: Plec dimineața</strong></td></tr><tr><td><strong>un</strong></td><td><strong>Articol: Văd un câine</strong></td><td><strong>Numeral: Am doar un măr</strong></td></tr><tr><td><strong>bine</strong></td><td><strong>Adverb: Vorbești bine</strong></td><td><strong>Substantiv: Faci un bine</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

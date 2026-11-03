@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Numerale cardinale",
+      "summary": "Numeralele cardinale arată numărul exact de persoane, animale sau obiecte pe care le numărăm.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Numeralele cardinale exprimă o cantitate exactă. Ele răspund la întrebarea „câți?” sau „câte?”. Folosim aceste cuvinte în fiecare zi pentru a număra."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Am **o** pisică mică.",
+                "În clasă sunt **doisprezece** elevi.",
+                "Cartea are **o sută** de pagini."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Numeralele unu, doi și formele compuse cu acestea (cum este doisprezece) își schimbă forma după genul substantivului: „un băiat”, „o fată”, „doi băieți”, „două fete”, respectiv „doisprezece băieți” și „douăsprezece fete”. Începând cu numărul 20, adăugăm prepoziția „de” între numeral și substantiv (de exemplu: „douăzeci de cărți”)."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Număr</th><th>Formă scrisă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>1</strong></td><td><strong>un / o</strong></td><td><strong>un frate / o soră</strong></td></tr><tr><td><strong>2</strong></td><td><strong>doi / două</strong></td><td><strong>doi frați / două surori</strong></td></tr><tr><td><strong>10</strong></td><td><strong>zece</strong></td><td><strong>zece oameni</strong></td></tr><tr><td><strong>12</strong></td><td><strong>doisprezece / douăsprezece</strong></td><td><strong>doisprezece băieți / douăsprezece fete</strong></td></tr><tr><td><strong>20</strong></td><td><strong>douăzeci</strong></td><td><strong>douăzeci de cărți</strong></td></tr><tr><td><strong>100</strong></td><td><strong>o sută</strong></td><td><strong>o sută de pagini</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

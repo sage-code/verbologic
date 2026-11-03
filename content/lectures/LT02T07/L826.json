@@ -83,6 +83,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Pronumele posesive",
+      "summary": "Pronumele posesiv înlocuiește un substantiv și arată cui îi aparține acel lucru.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pronumele posesiv înlocuiește numele obiectului posedat și arată posesorul. El nu însoțește un substantiv, ci stă singur în propoziție. Îl folosim ca să nu repetăm același cuvânt de mai multe ori."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Cartea aceasta este **a mea**.",
+                "Pixul de pe masă este **al tău**?",
+                "Câinele din curte este **al nostru**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pronumele posesiv este format din două cuvinte. Primul cuvânt este articolul posesiv: al, a, ai sau ale. Al doilea cuvânt arată posesorul: meu, tău, său, nostru, vostru. Forma se schimbă după genul și numărul obiectului posedat, dar și după persoana posesorului."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Cu substantiv (adjectiv)</th><th>Fără substantiv (pronume)</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>câinele meu</strong></td><td><strong>al meu</strong></td><td><strong>Câinele alb este al meu.</strong></td></tr><tr><td><strong>cartea ta</strong></td><td><strong>a ta</strong></td><td><strong>Cartea nouă este a ta.</strong></td></tr><tr><td><strong>prietenii noștri</strong></td><td><strong>ai noștri</strong></td><td><strong>Prietenii aceia sunt ai noștri.</strong></td></tr><tr><td><strong>florile tale</strong></td><td><strong>ale tale</strong></td><td><strong>Florile roșii sunt ale tale.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

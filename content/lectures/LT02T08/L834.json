@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Cum spunem ora",
+      "summary": "Spunem ora în limba română cu verbul „a fi”, numere și câteva cuvinte scurte.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În română, întrebăm simplu: „Cât e ceasul?” sau „Cât este ceasul?”. Răspundem de obicei cu verbul „este” sau cu forma scurtă „e”. Folosim numerele și cuvinte precum „și”, „fără”, „sfert” sau „jumătate”."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Este **ora șapte**.",
+                "Este **opt și jumătate**.",
+                "Este **zece fără un sfert**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Până la minutul treizeci, adăugăm minutele cu ajutorul cuvântului „și”. După minutul treizeci, scădem minutele din ora următoare cu „fără”. Pentru ora două folosim forma de feminin („ora două”), iar pentru numărul unu spunem „ora unu”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Ora</th><th>Cum spunem</th></tr></thead><tbody><tr><td><strong>07:00</strong></td><td><strong>Este ora șapte.</strong></td></tr><tr><td><strong>07:15</strong></td><td><strong>Este șapte și un sfert.</strong></td></tr><tr><td><strong>07:30</strong></td><td><strong>Este șapte și jumătate.</strong></td></tr><tr><td><strong>07:45</strong></td><td><strong>Este opt fără un sfert.</strong></td></tr><tr><td><strong>02:00</strong></td><td><strong>Este ora două.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

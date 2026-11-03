@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Zilele, lunile și datele",
+      "summary": "În limba română, zilele și lunile se scriu cu literă mică, iar pentru a exprima data se folosește prepoziția „pe”.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Zilele săptămânii și lunile anului se scriu cu literă mică, deoarece nu sunt considerate substantive proprii în limba română. Pentru a exprima o dată din calendar, spunem mai întâi numărul zilei și apoi luna."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Noi avem cursuri **luni**.",
+                "Vacanța începe **în iulie**.",
+                "El vine acasă **pe 5 mai**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru o zi a săptămânii nu folosim nicio prepoziție. Pentru o lună sau un an folosim prepoziția „în”. Pentru o dată exactă din calendar folosim prepoziția „pe”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Timp</th><th>Regulă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Zi a săptămânii</strong></td><td><strong>fără prepoziție</strong></td><td><strong>Ne vedem **vineri**.</strong></td></tr><tr><td><strong>Lună</strong></td><td><strong>în + lună</strong></td><td><strong>Mergem la mare **în iulie**.</strong></td></tr><tr><td><strong>An</strong></td><td><strong>în + an</strong></td><td><strong>Am călătorit mult **în 2023**.</strong></td></tr><tr><td><strong>Dată</strong></td><td><strong>pe + dată</strong></td><td><strong>Școala începe **pe 15 septembrie**.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

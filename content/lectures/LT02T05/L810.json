@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Rolul adjectivelor",
+      "summary": "Adjectivul descrie un substantiv și arată cum este un lucru, o ființă sau un loc.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adjectivul este un cuvânt care descrie un substantiv. El arată o însușire, o mărime, o culoare sau o stare. Acest cuvânt ne spune cum este un obiect sau o persoană."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Văd un copac **înalt**.",
+                "Beau un ceai **cald**.",
+                "Citesc o carte **interesantă**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română, adjectivul stă de obicei după substantiv. El își schimbă forma în funcție de substantivul pe care îl însoțește. De asemenea, adjectivul poate sta după verbul „a fi”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Poziție</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>După substantiv</strong></td><td><strong>Avem o grădină **frumoasă**.</strong></td></tr><tr><td><strong>După verbul „a fi”</strong></td><td><strong>Grădina este **frumoasă**.</strong></td></tr><tr><td><strong>Înaintea substantivului</strong></td><td><strong>Este o **mare** bucurie.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Adverbe de frecvență",
+      "summary": "Adverbele de frecvență arată cât de des facem o acțiune în viața de zi cu zi.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adverbele de frecvență arată cât de des facem o acțiune. Ele determină un verb. Exemple comune sunt: mereu, de obicei, uneori, rar și niciodată."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Eu beau **mereu** ceai dimineața.",
+                "El nu mănâncă **niciodată** carne.",
+                "Noi ieșim **uneori** în parc."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română, aceste adverbe stau de obicei după verb. Ele pot sta și la începutul propoziției. Cuvântul „niciodată” cere mereu negația „nu” înainte de verb."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Adverb</th><th>Frecvență</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>mereu</strong></td><td><strong>100%</strong></td><td><strong>Citesc **mereu** seara.</strong></td></tr><tr><td><strong>de obicei</strong></td><td><strong>80%</strong></td><td><strong>**De obicei** mă trezesc devreme.</strong></td></tr><tr><td><strong>des</strong></td><td><strong>70%</strong></td><td><strong>Mergem **des** la teatru.</strong></td></tr><tr><td><strong>uneori</strong></td><td><strong>50%</strong></td><td><strong>**Uneori** gătesc paste.</strong></td></tr><tr><td><strong>rar</strong></td><td><strong>20%</strong></td><td><strong>El călătorește **rar** singur.</strong></td></tr><tr><td><strong>niciodată</strong></td><td><strong>0%</strong></td><td><strong>Nu întârzii **niciodată** la serviciu.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

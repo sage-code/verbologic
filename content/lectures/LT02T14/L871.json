@@ -98,6 +98,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Formarea pasivului",
+      "summary": "Pasivul se formează cu verbul „a fi” și participiul verbului de bază, acordat în gen și număr cu subiectul.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Folosim diateza pasivă când acțiunea este mai importantă decât persoana care o face. În limba română, pasivul arată ce se întâmplă cu subiectul propoziției. Verbul „a fi” își schimbă timpul, iar participiul arată acțiunea."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Scrisoarea **este scrisă** astăzi.",
+                "Scrisoarea **a fost scrisă** ieri.",
+                "Scrisoarea **va fi scrisă** mâine."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Formăm pasivul cu verbul „a fi” la timpul dorit, urmat de participiul verbului principal. Participiul se acordă mereu în gen și număr cu subiectul, la fel ca un adjectiv. Cel care face acțiunea este introdus prin „de” sau „de către”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Timp</th><th>Formă pasivă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Prezent</strong></td><td><strong>este + participiu</strong></td><td><strong>Cartea este citită de elev.</strong></td></tr><tr><td><strong>Perfect compus</strong></td><td><strong>a fost + participiu</strong></td><td><strong>Cartea a fost citită ieri.</strong></td></tr><tr><td><strong>Viitor</strong></td><td><strong>va fi + participiu</strong></td><td><strong>Cartea va fi citită mâine.</strong></td></tr><tr><td><strong>Prezent (plural)</strong></td><td><strong>sunt + participiu</strong></td><td><strong>Cărțile sunt citite cu atenție.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

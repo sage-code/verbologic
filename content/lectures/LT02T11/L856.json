@@ -87,6 +87,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Acțiune încheiată și acțiune în desfășurare: aspectul",
+      "summary": "Aspectul arată dacă o acțiune este încheiată sau în desfășurare.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Timpul arată când se petrece o acțiune. Aspectul arată dacă acțiunea este încheiată sau în desfășurare. Limba română nu are forme continue separate cu verbul „a fi”. Folosim timpuri verbale diferite pentru aceste sensuri."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Ieri **am băut** o cafea bună.",
+                "Azi-dimineață **beam** cafeaua când ai sosit.",
+                "Acum **beau** o cafea caldă."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru trecut, folosim perfectul compus pentru acțiuni încheiate și imperfectul pentru acțiuni în desfășurare. La prezent, aceeași formă verbală exprimă atât acțiunea în desfășurare, cât și acțiunea repetată."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Timp verbal</th><th>Rol în comunicare</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Perfect compus</strong></td><td><strong>Acțiune încheiată în trecut</strong></td><td><strong>Ieri **am gătit** o supă.</strong></td></tr><tr><td><strong>Imperfect</strong></td><td><strong>Acțiune în desfășurare în trecut</strong></td><td><strong>Ieri **găteam** când ai sosit.</strong></td></tr><tr><td><strong>Imperfect</strong></td><td><strong>Acțiune repetată în trecut</strong></td><td><strong>În copilărie **găteam** des cu bunica.</strong></td></tr><tr><td><strong>Prezent</strong></td><td><strong>Acțiune în desfășurare acum</strong></td><td><strong>Acum **gătesc** cina.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

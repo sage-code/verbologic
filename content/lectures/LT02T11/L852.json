@@ -93,6 +93,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Trecutul în desfășurare",
+      "summary": "Imperfectul arată o acțiune continuă din trecut sau o descriere din trecut.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română folosim timpul imperfect pentru o acțiune în desfășurare în trecut. Acest timp descrie cadrul unei povești sau un obicei vechi. El arată ce se întâmpla când a apărut o altă acțiune."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "La ora opt eu **mâncam** micul dejun.",
+                "Afară **ploua** când am plecat de acasă.",
+                "Copiii **se jucau** în timp ce mama gătea."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Imperfectul se formează de la rădăcina verbului, cu terminații specifice. Nu folosim verbe ajutătoare pentru acest timp. Pronumele personal este de obicei lăsat deoparte."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Persoană</th><th>A cânta (I)</th><th>A citi (IV)</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>cântam</strong></td><td><strong>citeam</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>cântai</strong></td><td><strong>citeai</strong></td></tr><tr><td><strong>el / ea</strong></td><td><strong>cânta</strong></td><td><strong>citea</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>cântam</strong></td><td><strong>citeam</strong></td></tr><tr><td><strong>voi</strong></td><td><strong>cântați</strong></td><td><strong>citeați</strong></td></tr><tr><td><strong>ei / ele</strong></td><td><strong>cântau</strong></td><td><strong>citeau</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

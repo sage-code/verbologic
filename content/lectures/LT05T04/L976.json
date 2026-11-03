@@ -129,6 +129,117 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Taxiuri și mașini",
+      "summary": "În această lecție înveți să iei un taxi și să vorbești despre drum în limba română.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Această lecție vă ajută să comandați un taxi în România. Învățați să cereți o cursă până la destinație și să întrebați despre preț. Astfel călătoriți ușor și fără stres prin oraș."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Radu este la un hotel din centrul Bucureștiului. El vrea să meargă la aeroportul Otopeni. Radu urcă într-un taxi galben și vorbește cu șoferul."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Radu",
+                  "text": "Bună ziua, mergeți **la aeroport**, vă rog?"
+                },
+                {
+                  "speaker": "Șoferul",
+                  "text": "Bună ziua! Da, desigur, urcați."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Cât **va dura** drumul până acolo?"
+                },
+                {
+                  "speaker": "Șoferul",
+                  "text": "Drumul **va dura** aproximativ treizeci de minute."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Perfect, pot să plătesc cu cardul?"
+                },
+                {
+                  "speaker": "Șoferul",
+                  "text": "Da, aparatul funcționează fără probleme."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Viitorul pentru estimări** Pentru a exprima o estimare sau o acțiune viitoare, folosim formele verbului la timpul viitor.",
+                "Drumul **va dura** aproximativ treizeci de minute.",
+                "Vezi Introducere în gramatică: Viitorul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Persoană</th><th>Formă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>voi merge</strong></td><td><strong>Eu voi merge cu taxiul.</strong></td></tr><tr><td><strong>el / ea</strong></td><td><strong>va dura / va merge</strong></td><td><strong>Drumul va dura treizeci de minute.</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>vom merge</strong></td><td><strong>Noi vom merge la hotel.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Prepoziția pentru destinație** Prepoziția **la** indică direcția sau destinația unei călătorii.",
+                "Bună ziua, mergeți **la aeroport**, vă rog?",
+                "Vezi Introducere în gramatică: Prepoziții și cazuri."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Prepoziție</th><th>Sens</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>la</strong></td><td><strong>destinație</strong></td><td><strong>Merg la aeroport.</strong></td></tr><tr><td><strong>până la</strong></td><td><strong>limita deplasării</strong></td><td><strong>Merg până la hotel.</strong></td></tr><tr><td><strong>cu</strong></td><td><strong>mijloc de transport</strong></td><td><strong>Merg cu mașina.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În română spunem „merg cu taxiul”, folosind mereu prepoziția „cu”.",
+                "Aparatul de taxat din mașină afișează prețul exact al călătoriei.",
+                "Centura de siguranță este obligatorie pentru toți pasagerii din mașină."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În România, taxiurile autorizate sunt galbene și au tariful pe portieră. În marile orașe, mulți pasageri comandă mașini prin aplicații mobile pe telefon. Circulația mașinilor se desfășoară pe partea dreaptă a drumului."
+              ]
+            }
+          ]
+        }
+      ]
     }
   }
 }

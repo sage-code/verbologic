@@ -93,6 +93,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Diateza activă și pasivă",
+      "summary": "La diateza activă, subiectul face acțiunea, iar la diateza pasivă, subiectul suportă acțiunea făcută de altcineva.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Diateza arată relația dintre subiect și acțiunea verbului. La diateza activă, subiectul face acțiunea. La diateza pasivă, subiectul suportă acțiunea."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Bucătarul **a pregătit** cina.",
+                "Cina **a fost pregătită** de bucătar.",
+                "Cina **a fost pregătită** la timp."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Formăm diateza pasivă cu verbul „a fi” și participiul verbului principal. Participiul își schimbă forma după genul și numărul subiectului. Autorul acțiunii este introdus prin prepoziția „de” sau „de către”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Diateza activă</th><th>Diateza pasivă</th></tr></thead><tbody><tr><td><strong>Andrei citește cartea.</strong></td><td><strong>Cartea este citită de Andrei.</strong></td></tr><tr><td><strong>Elevii au scris tema.</strong></td><td><strong>Tema a fost scrisă de elevi.</strong></td></tr><tr><td><strong>Muncitorii construiesc casa.</strong></td><td><strong>Casa este construită de muncitori.</strong></td></tr><tr><td><strong>Prietenii vor trimite scrisoarea.</strong></td><td><strong>Scrisoarea va fi trimisă de prieteni.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

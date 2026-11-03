@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Cuvinte care leagă",
+      "summary": "Prepozițiile și conjuncțiile sunt cuvinte scurte care leagă cuvinte sau propoziții între ele.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prepozițiile și conjuncțiile sunt cuvinte de legătură. Prepoziția leagă un substantiv sau un pronume de restul propoziției. Conjuncția unește două cuvinte de același fel sau două propoziții. Aceste cuvinte mici arată relația dintre idei."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Pisica doarme **pe** scaun.",
+                "Vreau ceai **și** cafea.",
+                "Stau în casă **pentru că** plouă."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prepoziția stă în fața cuvântului pe care îl leagă. Cele mai multe prepoziții cer cazul acuzativ. Conjuncția stă între părțile pe care le leagă. Aceste cuvinte nu își schimbă niciodată forma."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tip de cuvânt</th><th>Ce leagă</th><th>Exemple</th></tr></thead><tbody><tr><td><strong>Prepoziție</strong></td><td><strong>Un substantiv sau pronume de alt cuvânt</strong></td><td><strong>pe, la, în, cu, sub</strong></td></tr><tr><td><strong>Conjuncție simplă</strong></td><td><strong>Două cuvinte sau propoziții de același fel</strong></td><td><strong>și, dar, sau, însă</strong></td></tr><tr><td><strong>Conjuncție compusă</strong></td><td><strong>O propoziție dependentă de o altă propoziție</strong></td><td><strong>pentru că, ca să, până când</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

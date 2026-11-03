@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Acțiuni în desfășurare",
+      "summary": "Limba română nu are un timp continuu separat, ci folosește timpul prezent pentru acțiuni în desfășurare.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Unele acțiuni se întâmplă chiar acum, în acest moment. Limba română nu are o formă continuă specială pentru ele. Folosim timpul prezent pentru a exprima aceste acțiuni. Adesea adăugăm cuvântul „acum” pentru a clarifica momentul."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Eu **citesc** o carte acum.",
+                "Copiii **se joacă** afară.",
+                "Afară **plouă** în acest moment."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Folosești forma obișnuită a verbului la timpul prezent. Pronumele personal nu este obligatoriu în propoziție. Terminația verbului arată cine face acțiunea. Poți adăuga cuvântul „acum” pentru a sublinia momentul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Persoană</th><th>Verb la prezent</th><th>Acțiune în desfășurare</th></tr></thead><tbody><tr><td><strong>Eu</strong></td><td><strong>citesc</strong></td><td><strong>Eu citesc acum.</strong></td></tr><tr><td><strong>Tu</strong></td><td><strong>lucrezi</strong></td><td><strong>Tu lucrezi acum.</strong></td></tr><tr><td><strong>El / Ea</strong></td><td><strong>scrie</strong></td><td><strong>Ea scrie un mesaj.</strong></td></tr><tr><td><strong>Noi</strong></td><td><strong>mâncăm</strong></td><td><strong>Noi mâncăm prânzul.</strong></td></tr><tr><td><strong>Voi</strong></td><td><strong>ascultați</strong></td><td><strong>Voi ascultați muzică.</strong></td></tr><tr><td><strong>Ei / Ele</strong></td><td><strong>aleargă</strong></td><td><strong>Ei aleargă în parc.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Comparația neregulată",
+      "summary": "Limba română nu are forme neregulate de comparație pentru adjective, ci folosește mereu cuvintele „mai” și „cel mai”.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română nu există adjective cu forme neregulate de comparație. Toate adjectivele formează gradele de comparație în mod regulat. Adăugați doar cuvântul „mai” în fața adjectivului."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Acest ceai este **mai bun** decât cafeaua.",
+                "Rezultatul de azi este **mai rău** decât cel de ieri.",
+                "Băiatul acesta este **mai mic** decât fratele lui."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Comparația se formează ușor, cu ajutorul unor cuvinte scurte. Pentru comparativ, puneți cuvântul „mai” în fața adjectivului. Pentru superlativ, adăugați „cel mai” sau „cea mai” în față. Cuvântul de bază nu își schimbă rădăcina."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Adjectiv</th><th>Comparativ</th><th>Superlativ</th></tr></thead><tbody><tr><td><strong>bun</strong></td><td><strong>mai bun</strong></td><td><strong>cel mai bun</strong></td></tr><tr><td><strong>rău</strong></td><td><strong>mai rău</strong></td><td><strong>cel mai rău</strong></td></tr><tr><td><strong>mare</strong></td><td><strong>mai mare</strong></td><td><strong>cel mai mare</strong></td></tr><tr><td><strong>mic</strong></td><td><strong>mai mic</strong></td><td><strong>cel mai mic</strong></td></tr><tr><td><strong>mult</strong></td><td><strong>mai mult</strong></td><td><strong>cel mai mult</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

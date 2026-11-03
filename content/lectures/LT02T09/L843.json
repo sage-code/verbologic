@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Verbe tranzitive și intranzitive",
+      "summary": "Un verb tranzitiv poate avea un complement direct, iar un verb intranzitiv funcționează fără un complement direct.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Un verb tranzitiv poate avea un complement direct. Complementul direct răspunde la întrebarea „ce?” sau „pe cine?”. Un verb intranzitiv funcționează singur, fără un complement direct."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Ana **citește** o carte interesantă.",
+                "Bebelușul **doarme** în pătuț.",
+                "Șoferul **a oprit** mașina."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Verbele tranzitive cer un complement direct (substantiv sau pronume în cazul acuzativ). Verbele intranzitive exprimă de obicei o stare sau o mișcare. Unele verbe românești pot fi tranzitive sau intranzitive, în funcție de context."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tip de verb</th><th>Caracteristică</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Tranzitiv</strong></td><td><strong>Complement direct: „ce?”</strong></td><td><strong>Noi **mâncăm** pâine proaspătă.</strong></td></tr><tr><td><strong>Tranzitiv</strong></td><td><strong>Complement direct: „pe cine?”</strong></td><td><strong>O **chem** pe Maria la masă.</strong></td></tr><tr><td><strong>Intranzitiv</strong></td><td><strong>Exprimă o stare</strong></td><td><strong>Bunicul **doarme** acum în cameră.</strong></td></tr><tr><td><strong>Intranzitiv</strong></td><td><strong>Exprimă o mișcare</strong></td><td><strong>Trenul **pleacă** la ora două.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

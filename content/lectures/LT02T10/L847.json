@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Prezentul simplu",
+      "summary": "Timpul prezent arată acțiuni obișnuite, fapte generale sau adevăruri din viața de zi cu zi.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Timpul prezent arată o acțiune obișnuită sau un adevăr general. Folosim prezentul și pentru lucruri care se întâmplă chiar acum. În limba română, nu avem o formă separată pentru prezentul continuu."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Eu **lucrez** la birou în fiecare zi.",
+                "Soarele **răsare** la est.",
+                "Ea **vorbește** trei limbi străine."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Verbele își schimbă terminația după persoană. De obicei, nu folosim pronume precum „eu” sau „tu”, deoarece forma verbului arată deja cine face acțiunea. Pentru negație, punem cuvântul „nu” înaintea verbului."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Persoană</th><th>Afirmativ</th><th>Negativ</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>lucrez</strong></td><td><strong>nu lucrez</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>lucrezi</strong></td><td><strong>nu lucrezi</strong></td></tr><tr><td><strong>el / ea</strong></td><td><strong>lucrează</strong></td><td><strong>nu lucrează</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>lucrăm</strong></td><td><strong>nu lucrăm</strong></td></tr><tr><td><strong>voi</strong></td><td><strong>lucrați</strong></td><td><strong>nu lucrați</strong></td></tr><tr><td><strong>ei / ele</strong></td><td><strong>lucrează</strong></td><td><strong>nu lucrează</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

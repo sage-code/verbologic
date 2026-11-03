@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Numerale ordinale",
+      "summary": "Numeralele ordinale arată ordinea sau locul într-un șir, cum ar fi primul sau al doilea.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Numeralele ordinale arată ordinea sau poziția unor lucruri sau persoane. Ele răspund la întrebarea „al câtelea?” sau „a câta?”. Forma lor se schimbă după genul substantivului."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Acesta este **primul** meu curs de română.",
+                "Ea locuiește la **al doilea** etaj.",
+                "Citesc **a treia** carte din serie."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru numărul unu, folosim formele speciale „primul” la masculin și „prima” la feminin. Pentru celelalte numere, la masculin punem cuvântul „al” înainte și terminația „-lea” la sfârșit, iar la feminin punem cuvântul „a” înainte și terminația „-a”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Cifră</th><th>Masculin / Neutru</th><th>Feminin</th></tr></thead><tbody><tr><td><strong>1</strong></td><td><strong>primul</strong></td><td><strong>prima</strong></td></tr><tr><td><strong>2</strong></td><td><strong>al doilea</strong></td><td><strong>a doua</strong></td></tr><tr><td><strong>3</strong></td><td><strong>al treilea</strong></td><td><strong>a treia</strong></td></tr><tr><td><strong>4</strong></td><td><strong>al patrulea</strong></td><td><strong>a patra</strong></td></tr><tr><td><strong>10</strong></td><td><strong>al zecelea</strong></td><td><strong>a zecea</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Categoriile gramaticale pe scurt",
+      "summary": "Categoriile gramaticale sunt trăsături precum genul, numărul, cazul, persoana sau timpul, după care cuvintele își schimbă forma.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română, cuvintele își schimbă des forma. Categoriile gramaticale sunt trăsăturile exprimate prin aceste forme, precum genul, numărul sau timpul acțiunii."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Eu citesc **o carte**, dar tu citești **două cărți**.",
+                "El este **prietenul meu**, iar ea este **prietena mea**.",
+                "Acum **cânt**, dar ieri **am cântat**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Substantivele au trei genuri și își schimbă terminația pentru număr și caz. Articolul hotărât se leagă direct la sfârșitul substantivului. Verbele își schimbă forma după persoană, timp și mod."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Categorie</th><th>Ce exprimă</th><th>Exemplu în română</th></tr></thead><tbody><tr><td><strong>Gen</strong></td><td><strong>masculin, feminin, neutru</strong></td><td><strong>băiat, fată, tren</strong></td></tr><tr><td><strong>Număr</strong></td><td><strong>singular sau plural</strong></td><td><strong>casă, case</strong></td></tr><tr><td><strong>Caz</strong></td><td><strong>rolul cuvântului în propoziție</strong></td><td><strong>omul, omului</strong></td></tr><tr><td><strong>Persoană</strong></td><td><strong>cine face acțiunea</strong></td><td><strong>eu merg, tu mergi</strong></td></tr><tr><td><strong>Timp</strong></td><td><strong>când se petrece acțiunea</strong></td><td><strong>cânt, am cântat, voi cânta</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

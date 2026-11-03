@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Pluraluri neregulate și neobișnuite",
+      "summary": "Unele substantive românești au forme neobișnuite la plural sau își păstrează aceeași formă.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română, cele mai multe substantive au terminații regulate la plural. Totuși, câteva cuvinte foarte folosite au forme neașteptate. Aceste forme speciale provin din istoria limbii."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Văd un **om** pe stradă și mulți **oameni** în parc.",
+                "Ea are o **soră**, iar el are două **surori**.",
+                "Avem un singur **nume**, dar ei au două **nume**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Unele cuvinte își schimbă mult literele din interior sau primesc terminații neobișnuite. Alte substantive au exact aceeași formă la singular și plural. Câteva substantive se folosesc exclusiv la plural."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tip de plural</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>Schimbare neregulată</strong></td><td><strong>un om</strong></td><td><strong>doi oameni</strong></td></tr><tr><td><strong>Schimbare în rădăcină</strong></td><td><strong>o soră</strong></td><td><strong>două surori</strong></td></tr><tr><td><strong>Formă identică</strong></td><td><strong>un ochi</strong></td><td><strong>doi ochi</strong></td></tr><tr><td><strong>Formă identică</strong></td><td><strong>un nume</strong></td><td><strong>două nume</strong></td></tr><tr><td><strong>Doar la plural</strong></td><td><strong>—</strong></td><td><strong>niște ochelari</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -268,10 +268,16 @@ const readerLocale = computed(() => {
   return markdownDoc.value
 })
 
-/** Left panel: the learning language for a story, the reader's for a lecture. */
+/**
+ * Left panel: the learning language for a story; for a lecture of LT02 or later
+ * also the learning language (the grammar of Romanian is explained in Romanian,
+ * in simple words), falling back to the reader's language until that text exists.
+ * Only LT01 (sounds) is explained in the reader's own language.
+ */
+const explainedInTarget = computed(() => isStory.value || (track.value === 'lectures' && !topicCode.value.startsWith('LT01')))
 const storyTargetDoc = computed(() =>
-  isStory.value
-    ? (articleDocs.value.find((doc) => doc.locale === trackLang.value) ?? markdownDoc.value)
+  explainedInTarget.value
+    ? (articleDocs.value.find((doc) => doc.locale === trackLang.value) ?? (isStory.value ? markdownDoc.value : readerLocale.value))
     : readerLocale.value
 )
 

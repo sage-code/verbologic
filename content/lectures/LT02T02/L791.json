@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Cuvinte care descriu",
+      "summary": "În limba română, adjectivele, articolele și numeralele dau detalii importante despre substantive.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adjectivele descriu însușiri ale lucrurilor sau ale persoanelor. Articolele arată dacă un substantiv este cunoscut sau nou. Numeralele indică numărul exact sau ordinea."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Am cumpărat o mașină **roșie**.",
+                "**Un** băiat citește **cartea**.",
+                "În curte sunt **trei** pisici."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română, adjectivul stă de obicei după substantiv. Adjectivul își schimbă forma după gen și număr. Articolul hotărât se adaugă direct la sfârșitul cuvântului. Numeralul stă de obicei în fața substantivului."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Categorie</th><th>Exemplu</th><th>Poziție obișnuită</th></tr></thead><tbody><tr><td><strong>Adjectiv</strong></td><td><strong>o mașină roșie</strong></td><td><strong>după substantiv</strong></td></tr><tr><td><strong>Articol nehotărât</strong></td><td><strong>o mașină</strong></td><td><strong>înaintea substantivului</strong></td></tr><tr><td><strong>Articol hotărât</strong></td><td><strong>mașina</strong></td><td><strong>la sfârșitul substantivului</strong></td></tr><tr><td><strong>Numeral</strong></td><td><strong>două mașini</strong></td><td><strong>înaintea substantivului</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

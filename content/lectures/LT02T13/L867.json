@@ -82,6 +82,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Condiționalul",
+      "summary": "Modul condițional exprimă o dorință sau o acțiune care depinde de o condiție.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Modul condițional arată o acțiune dorită. El exprimă și o acțiune dependentă de o condiție. Folosim adesea acest mod pentru o cerere politicoasă."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Eu **aș bea** o cafea acum.",
+                "Dacă ar ploua, noi **am sta** acasă.",
+                "Tu **ai vrea** o prăjitură?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Condiționalul prezent se formează foarte ușor. Avem un verb auxiliar special și verbul de bază. Verbul auxiliar își schimbă forma după persoană. Verbul de bază rămâne la infinitiv fără particula „a”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Persoană</th><th>Auxiliar</th><th>Exemplu (a vorbi)</th></tr></thead><tbody><tr><td><strong>Eu</strong></td><td><strong>aș</strong></td><td><strong>aș vorbi</strong></td></tr><tr><td><strong>Tu</strong></td><td><strong>ai</strong></td><td><strong>ai vorbi</strong></td></tr><tr><td><strong>El / Ea</strong></td><td><strong>ar</strong></td><td><strong>ar vorbi</strong></td></tr><tr><td><strong>Noi</strong></td><td><strong>am</strong></td><td><strong>am vorbi</strong></td></tr><tr><td><strong>Voi</strong></td><td><strong>ați</strong></td><td><strong>ați vorbi</strong></td></tr><tr><td><strong>Ei / Ele</strong></td><td><strong>ar</strong></td><td><strong>ar vorbi</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

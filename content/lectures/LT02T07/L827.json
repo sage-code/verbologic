@@ -96,6 +96,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Pronumele demonstrative",
+      "summary": "Pronumele demonstrativ înlocuiește un substantiv și arată apropierea sau depărtarea în spațiu și timp.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pronumele demonstrativ arată un obiect sau o persoană fără să îi spună numele. El înlocuiește un substantiv deja menționat. Forma cuvântului arată dacă obiectul este aproape sau departe."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Acesta** este fratele meu.",
+                "Îmi place mai mult **aceea**.",
+                "**Aceștia** sunt prietenii mei."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pronumele își schimbă forma după gen și număr. La genul neutru, el are formă de masculin la singular și de feminin la plural. Pronumele stă singur și nu este urmat direct de un substantiv."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Distanță și gen</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>Aproape (masculin)</strong></td><td><strong>acesta</strong></td><td><strong>aceștia</strong></td></tr><tr><td><strong>Aproape (feminin)</strong></td><td><strong>aceasta</strong></td><td><strong>acestea</strong></td></tr><tr><td><strong>Departe (masculin)</strong></td><td><strong>acela</strong></td><td><strong>aceia</strong></td></tr><tr><td><strong>Departe (feminin)</strong></td><td><strong>aceea</strong></td><td><strong>acelea</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

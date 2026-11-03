@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Existența: „este” și „sunt”",
+      "summary": "În limba română, folosim formele verbului „a fi”, „este” și „sunt”, pentru a arăta existența unui lucru.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru a spune că un lucru există, folosim verbul „a fi”. Pentru un singur obiect, folosim „este” sau forma scurtă „e”. Pentru mai multe obiecte, folosim forma „sunt”."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Este** o bancă aproape de aici.",
+                "Aici **sunt** două scaune libere.",
+                "**Este** o cafenea pe această stradă?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Verbul se schimbă după numărul lucrurilor care există. La singular folosim „este” sau forma scurtă „e”. La plural folosim forma „sunt”. În vorbirea curentă, forma „e” este foarte des folosită."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Număr</th><th>Formă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Singular</strong></td><td><strong>este / e</strong></td><td><strong>Aici este un magazin mic.</strong></td></tr><tr><td><strong>Singular (vorbire curentă)</strong></td><td><strong>e</strong></td><td><strong>E o problemă mare aici.</strong></td></tr><tr><td><strong>Plural</strong></td><td><strong>sunt</strong></td><td><strong>Acolo sunt trei mașini noi.</strong></td></tr><tr><td><strong>Întrebare (singular)</strong></td><td><strong>este / e</strong></td><td><strong>Este un spital în oraș?</strong></td></tr><tr><td><strong>Întrebare (plural)</strong></td><td><strong>sunt</strong></td><td><strong>Sunt camere libere la hotel?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

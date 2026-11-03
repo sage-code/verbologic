@@ -88,6 +88,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Construcții impersonale",
+      "summary": "Construcțiile impersonale exprimă o acțiune fără un subiect precis și folosesc persoana a treia.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Unele propoziții nu au un subiect clar. Româna nu folosește pronume speciale pentru acest rol. Verbul primește de obicei forma de persoana a treia singular."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Afară **plouă** liniștit.",
+                "**Este** ora două.",
+                "Aici **se vorbește** românește."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru fenomene ale naturii folosim verbul la persoana a treia. Pentru timp sau stări folosim verbul „a fi” fără subiect. Construcțiile cu pronumele reflexiv „se” arată o acțiune făcută de oameni în general."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tip de construcție</th><th>Structură</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Vreme</strong></td><td><strong>verb la persoana a III-a</strong></td><td><strong>**Ninge** de ieri.</strong></td></tr><tr><td><strong>Timp și stare</strong></td><td><strong>verbul a fi</strong></td><td><strong>**Este** ora două.</strong></td></tr><tr><td><strong>Acțiune generală</strong></td><td><strong>se + verb</strong></td><td><strong>Acolo **se vorbește** românește.</strong></td></tr><tr><td><strong>Necesitate</strong></td><td><strong>trebuie + să + verb</strong></td><td><strong>**Trebuie să învăț** mult.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

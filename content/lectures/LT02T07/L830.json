@@ -94,6 +94,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Pronume nehotărâte și negative",
+      "summary": "Pronumele nehotărâte și negative înlocuiesc persoane sau lucruri fără să spună exact despre cine sau ce este vorba.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pronumele nehotărât indică o persoană sau un lucru necunoscut. Pronumele negativ arată lipsa totală a unei persoane sau a unui lucru. Folosim aceste cuvinte foarte des în conversațiile zilnice."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Cineva** te așteaptă afară.",
+                "Ai nevoie de **ceva**?",
+                "**Nimeni** nu a răspuns la telefon."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pronumele negative cer mereu cuvântul „nu” înaintea verbului. Această dublă negație este normală și corectă în limba română. Multe pronume nehotărâte au o formă fixă pentru persoane sau lucruri."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Sens</th><th>Pentru persoane</th><th>Pentru lucruri</th></tr></thead><tbody><tr><td><strong>Nedefinit</strong></td><td><strong>cineva</strong></td><td><strong>ceva</strong></td></tr><tr><td><strong>Negativ (cu „nu”)</strong></td><td><strong>nimeni</strong></td><td><strong>nimic</strong></td></tr><tr><td><strong>Oricare</strong></td><td><strong>oricine</strong></td><td><strong>orice</strong></td></tr><tr><td><strong>Totalitate</strong></td><td><strong>toți</strong></td><td><strong>tot</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Comparativul",
+      "summary": "Comparativul arată diferențele sau asemănările dintre două ființe sau lucruri cu ajutorul unor cuvinte ajutătoare simple.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Comparativul se folosește pentru a compara două persoane, două obiecte sau două situații. El arată dacă o însușire este mai mare, egală sau mai mică. Folosim comparativul foarte des în conversațiile de zi cu zi."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Ana este **mai înaltă** decât Radu.",
+                "Cartea aceasta este **mai interesantă** decât aceea.",
+                "Astăzi este **mai cald** afară."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română punem cuvântul „mai” în fața adjectivului pentru superioritate. Pentru egalitate folosim „la fel de” în fața adjectivului. Pentru inferioritate folosim „mai puțin” în fața adjectivului. Al doilea termen al comparației se introduce prin „decât” sau „ca”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tip de comparativ</th><th>Structură</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Superioritate</strong></td><td><strong>mai + adjectiv</strong></td><td><strong>mai bun</strong></td></tr><tr><td><strong>Egalitate</strong></td><td><strong>la fel de + adjectiv</strong></td><td><strong>la fel de bun</strong></td></tr><tr><td><strong>Inferioritate</strong></td><td><strong>mai puțin + adjectiv</strong></td><td><strong>mai puțin bun</strong></td></tr><tr><td><strong>Comparație cu al doilea termen</strong></td><td><strong>mai + adjectiv + decât</strong></td><td><strong>mai bun decât</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

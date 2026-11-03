@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Subiectul subînțeles",
+      "summary": "În limba română nu folosim mereu pronumele subiect, deoarece terminația verbului arată persoana.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română, subiectul este adesea subînțeles. Terminația verbului arată deja cine face acțiunea. De aceea, pronumele precum „eu” sau „tu” nu sunt obligatorii. Le folosim doar când vrem să scoatem în evidență persoana."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Citesc** o carte interesantă.",
+                "Unde **mergi** în vacanță?",
+                "**Plouă** de două ore."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Fiecare formă a verbului are o terminație specifică pentru fiecare persoană. În limba română nu există pronume impersonale. Când vorbim despre vreme sau existență, folosim verbul direct, fără subiect."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Formă verbală</th><th>Subiect subînțeles</th><th>Exemplu în propoziție</th></tr></thead><tbody><tr><td><strong>Învăț</strong></td><td><strong>eu</strong></td><td><strong>**Învăț** limba română.</strong></td></tr><tr><td><strong>Lucrezi</strong></td><td><strong>tu</strong></td><td><strong>**Lucrezi** astăzi la birou?</strong></td></tr><tr><td><strong>Avem</strong></td><td><strong>noi</strong></td><td><strong>**Avem** mult timp liber.</strong></td></tr><tr><td><strong>Plouă</strong></td><td><strong>fără subiect</strong></td><td><strong>Acum **plouă** liniștit.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Pronume impersonale",
+      "summary": "În limba română nu există pronume impersonale, iar verbele impersonale stau singure, fără subiect.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Uneori vorbim despre acțiuni fără o persoană anume. Limba română nu are pronume impersonale precum englezescul „it”. Folosim doar verbul la persoana a treia. Putem folosi și pronume nehotărâte pentru idei generale."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Este** foarte cald astăzi.",
+                "Afară **plouă** de două ore.",
+                "Aici **se vorbește** doar românește."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru vreme și timp, folosim verbul singur, la persoana a treia. Pentru oameni în general, folosim pronumele reflexiv „se”. Putem folosi și persoana a doua pentru un sens general. Cuvântul „oricine” înlocuiește o persoană neprecizată."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Construcție</th><th>Utilizare</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Verb fără subiect</strong></td><td><strong>Vreme și natură</strong></td><td><strong>Afară **plouă**.</strong></td></tr><tr><td><strong>Verb fără subiect</strong></td><td><strong>Ora și timpul</strong></td><td><strong>Acum **este** târziu.</strong></td></tr><tr><td><strong>Pronumele „se”</strong></td><td><strong>Oameni în general</strong></td><td><strong>Aici **se doarme** bine.</strong></td></tr><tr><td><strong>Persoana a doua</strong></td><td><strong>Sens general</strong></td><td><strong>Nu **știi** niciodată totul.</strong></td></tr><tr><td><strong>Pronumele „oricine”</strong></td><td><strong>Persoană oarecare</strong></td><td><strong>**Oricine** poate să vină.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

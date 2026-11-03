@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Pronume la plural și incluzive",
+      "summary": "Pronumele la plural sunt noi, voi, ei și ele, iar „noi” poate include sau exclude ascultătorul.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pronumele la plural țin locul mai multor persoane: noi, voi, ei și ele. Limba română are o singură formă pentru „noi”. Acest pronume poate include sau exclude persoana care ascultă."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Noi** suntem prieteni vechi.",
+                "**Voi** mergeți la teatru?",
+                "**Ei** locuiesc în acest bloc."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Limba română nu are pronume separate pentru grupuri incluzive sau exclusive. Pentru claritate, folosim cuvinte precum „toți”, „amândoi” sau „împreună”. La persoana a treia, folosim „ei” pentru masculin sau grup mixt și „ele” pentru feminin."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Formă</th><th>Sens</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>noi</strong></td><td><strong>eu și alții (cu sau fără tine)</strong></td><td><strong>**Noi** plecăm acum.</strong></td></tr><tr><td><strong>noi toți</strong></td><td><strong>grupul întreg, inclusiv tu</strong></td><td><strong>**Noi toți** suntem aici.</strong></td></tr><tr><td><strong>voi</strong></td><td><strong>tu și alții (fără mine)</strong></td><td><strong>**Voi** vorbiți românește.</strong></td></tr><tr><td><strong>ei</strong></td><td><strong>bărbați sau un grup mixt</strong></td><td><strong>**Ei** cumpără pâine.</strong></td></tr><tr><td><strong>ele</strong></td><td><strong>doar femei</strong></td><td><strong>**Ele** dansează frumos.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

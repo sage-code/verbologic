@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Titluri și forme de adresare",
+      "summary": "În limba română folosim titluri de politețe și nume pentru a vorbi respectuos cu alte persoane.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Când vorbim cu o persoană, folosim cuvinte speciale numite formule de adresare. Acestea pot fi nume, titluri de politețe sau termeni de rudenie. Formulele de adresare arată respectul nostru față de cealaltă persoană."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Bună ziua, **domnule Popescu**!",
+                "La revedere, **doamnă Ionescu**!",
+                "Unde mergem, **bunicule**?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Folosim titlurile „domnul” și „doamna” împreună cu numele de familie. Când vorbim direct cu un bărbat, spunem „domnule”, iar când vorbim cu o femeie, spunem „doamnă”. Cu prietenii și în familie folosim de obicei prenumele."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Titlu</th><th>Adresare directă</th><th>Situație</th></tr></thead><tbody><tr><td><strong>domnul</strong></td><td><strong>domnule</strong></td><td><strong>adresare politicoasă către un bărbat</strong></td></tr><tr><td><strong>doamna</strong></td><td><strong>doamnă</strong></td><td><strong>adresare politicoasă către o femeie</strong></td></tr><tr><td><strong>domnișoara</strong></td><td><strong>domnișoară</strong></td><td><strong>adresare politicoasă către o tânără</strong></td></tr><tr><td><strong>doctorul</strong></td><td><strong>domnule doctor</strong></td><td><strong>adresare politicoasă către un medic</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

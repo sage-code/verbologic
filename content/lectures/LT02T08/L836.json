@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Anii și secolele",
+      "summary": "În limba română citim anii ca numere întregi, iar pentru secole folosim numerale ordinale.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română nu împărțim anii în două părți. Citim mereu anul ca pe un număr întreg obișnuit. Pentru secole folosim cuvântul „secolul” urmat de un numeral ordinal."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "M-am născut în anul **o mie nouă sute nouăzeci**.",
+                "Suntem în anul **două mii douăzeci și patru**.",
+                "Trăim în **secolul al douăzeci și unulea**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru a spune anul, rostim tot numărul cardinal. Folosim de obicei prepoziția „în” înaintea anului. Secolele se scriu foarte des cu cifre romane."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>An sau secol</th><th>Cum citim</th></tr></thead><tbody><tr><td><strong>1984</strong></td><td><strong>o mie nouă sute optzeci și patru</strong></td></tr><tr><td><strong>2000</strong></td><td><strong>două mii</strong></td></tr><tr><td><strong>2024</strong></td><td><strong>două mii douăzeci și patru</strong></td></tr><tr><td><strong>Secolul al XIX-lea</strong></td><td><strong>secolul al nouăsprezecelea</strong></td></tr><tr><td><strong>Secolul al XXI-lea</strong></td><td><strong>secolul al douăzeci și unulea</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

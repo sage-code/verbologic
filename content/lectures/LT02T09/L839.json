@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Tema și terminațiile",
+      "summary": "Verbul are o rădăcină fixă și terminații care se schimbă pentru fiecare persoană.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Un verb este format din două părți principale. Rădăcina sau tema conține înțelesul de bază al cuvântului. Terminația adăugată la sfârșit arată persoana și timpul acțiunii."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Noi **lucrăm** la birou.",
+                "Voi **lucrați** în grădină.",
+                "Ei **lucrează** împreună."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Păstrăm tema verbului și adăugăm terminații diferite. Fiecare persoană are propria terminație în limba română. Astfel, terminația ne arată clar cine face acțiunea."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Rădăcină</th><th>Terminație</th><th>Formă completă</th></tr></thead><tbody><tr><td><strong>lucr-</strong></td><td><strong>-ez</strong></td><td><strong>eu lucrez</strong></td></tr><tr><td><strong>lucr-</strong></td><td><strong>-ează</strong></td><td><strong>el lucrează</strong></td></tr><tr><td><strong>lucr-</strong></td><td><strong>-ăm</strong></td><td><strong>noi lucrăm</strong></td></tr><tr><td><strong>lucr-</strong></td><td><strong>-ați</strong></td><td><strong>voi lucrați</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

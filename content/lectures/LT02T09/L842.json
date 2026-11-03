@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Clase și conjugări verbale",
+      "summary": "În limba română, verbele sunt împărțite în patru conjugări principale, după terminația formei de infinitiv.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Verbele sunt cuvinte care arată o acțiune sau o stare. În limba română, grupăm verbele în patru clase mari, numite conjugări. Conjugarea arată ce terminații primește verbul când îl folosim."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Copiii **cântă** un cântec vesel în clasă.",
+                "Noi **mergem** la teatru în această seară.",
+                "Voi **citiți** o carte foarte interesantă acum."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Aflăm conjugarea unui verb din forma lui de dicționar, numită infinitiv. Această formă este însoțită de particula „a”. Privim ultima literă sau ultimele două litere ale verbului. În funcție de această terminație, verbul aparține unei conjugări specifice."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Conjugare</th><th>Terminație la infinitiv</th><th>Exemple</th></tr></thead><tbody><tr><td><strong>Conjugarea I</strong></td><td><strong>-a</strong></td><td><strong>a cânta, a lucra</strong></td></tr><tr><td><strong>Conjugarea a II-a</strong></td><td><strong>-ea</strong></td><td><strong>a vedea, a plăcea</strong></td></tr><tr><td><strong>Conjugarea a III-a</strong></td><td><strong>-e</strong></td><td><strong>a merge, a face</strong></td></tr><tr><td><strong>Conjugarea a IV-a</strong></td><td><strong>-i, -î</strong></td><td><strong>a citi, a coborî</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

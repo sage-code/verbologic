@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Singularul și pluralul",
+      "summary": "Substantivele din limba română au două numere: singular pentru un lucru și plural pentru mai multe lucruri.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Numărul substantivului arată cantitatea. Singularul reprezintă un singur lucru sau o singură ființă. Pluralul reprezintă două sau mai multe lucruri sau ființe."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Aici este un **băiat**, iar acolo sunt doi **băieți**.",
+                "Am o **carte** nouă și două **cărți** vechi.",
+                "Cumpăr un **scaun** mare și trei **scaune** mici."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Forma de plural depinde de genul substantivului. Substantivele masculine primesc de obicei terminația -i. Substantivele feminine primesc cel mai des terminațiile -e sau -i. Substantivele neutre primesc des terminațiile -uri sau -e."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Gen și terminație</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>Masculin (-i)</strong></td><td><strong>băiat</strong></td><td><strong>băieți</strong></td></tr><tr><td><strong>Feminin (-e)</strong></td><td><strong>casă</strong></td><td><strong>case</strong></td></tr><tr><td><strong>Feminin (-i)</strong></td><td><strong>carte</strong></td><td><strong>cărți</strong></td></tr><tr><td><strong>Neutru (-uri)</strong></td><td><strong>tren</strong></td><td><strong>trenuri</strong></td></tr><tr><td><strong>Neutru (-e)</strong></td><td><strong>scaun</strong></td><td><strong>scaune</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

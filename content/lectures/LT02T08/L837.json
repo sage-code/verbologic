@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Prețuri și măsuri",
+      "summary": "Pentru a exprima prețuri și măsuri, folosim un număr urmat de moneda sau unitatea de măsură potrivită.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Spunem prețul unui lucru folosind numărul și moneda. Pentru măsuri, folosim numărul și unitatea de măsură. De exemplu, exprimăm greutatea în kilograme și lungimea în metri."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Pâinea costă **cinci lei**.",
+                "Am cumpărat **două kilograme** de cartofi.",
+                "Băiatul are **un metru și optzeci**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Unitatea de măsură stă mereu după număr. La plural, substantivele primesc terminația specifică de gen. La prețuri, spunem mai întâi leii și apoi banii. De la numărul douăzeci, adăugăm prepoziția „de” înaintea unității."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Scris</th><th>Cum spunem</th></tr></thead><tbody><tr><td><strong>5 lei</strong></td><td><strong>cinci lei</strong></td></tr><tr><td><strong>20 lei</strong></td><td><strong>douăzeci de lei</strong></td></tr><tr><td><strong>1,50 lei</strong></td><td><strong>un leu și cincizeci de bani</strong></td></tr><tr><td><strong>1 kg</strong></td><td><strong>un kilogram</strong></td></tr><tr><td><strong>3 kg</strong></td><td><strong>trei kilograme</strong></td></tr><tr><td><strong>1,80 m</strong></td><td><strong>un metru și optzeci</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

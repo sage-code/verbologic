@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Cuvinte care exprimă acțiunea",
+      "summary": "Verbul este cuvântul care exprimă o acțiune sau o stare și este nucleul fiecărei propoziții.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Cuvintele care exprimă acțiuni sau stări se numesc verbe. Ele arată ce face sau ce simte cineva. Orice propoziție completă are nevoie de un verb."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Păsările **zboară** pe cer.",
+                "Supa **miroase** foarte bine.",
+                "Ploaia **s-a oprit** acum."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română, verbul își schimbă forma după persoană și după timp. Deseori nu folosim pronumele, deoarece terminația verbului indică persoana. Pentru negație, punem cuvântul „nu” direct în fața verbului."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Formă verbală</th><th>Exemplu</th><th>Rol</th></tr></thead><tbody><tr><td><strong>Prezent</strong></td><td><strong>Noi **învățăm** românește.</strong></td><td><strong>Exprimă o acțiune din prezent.</strong></td></tr><tr><td><strong>Trecut</strong></td><td><strong>Voi **ați învățat** ieri.</strong></td><td><strong>Exprimă o acțiune finalizată.</strong></td></tr><tr><td><strong>Viitor</strong></td><td><strong>Ei **vor învăța** mâine.</strong></td><td><strong>Exprimă o acțiune viitoare.</strong></td></tr><tr><td><strong>Formă negativă</strong></td><td><strong>Eu **nu învăț** noaptea.</strong></td><td><strong>Neagă realizarea acțiunii.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

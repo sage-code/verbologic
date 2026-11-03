@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Acordul cu substantivul",
+      "summary": "În limba română, adjectivul își schimbă forma după genul și numărul substantivului pe care îl descrie.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adjectivul este un cuvânt care descrie un substantiv. În limba română, adjectivul se acordă mereu cu substantivul. El își schimbă terminația după gen și număr."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Un băiat **frumos** se plimbă.",
+                "O fată **frumoasă** se plimbă.",
+                "Doi băieți **frumoși** se plimbă."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adjectivul se așază de obicei după substantiv. Forma lui se schimbă la masculin, feminin și neutru. La plural, terminația adjectivului se schimbă din nou."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Gen</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>Masculin</strong></td><td><strong>băiat bun</strong></td><td><strong>băieți buni</strong></td></tr><tr><td><strong>Feminin</strong></td><td><strong>fată bună</strong></td><td><strong>fete bune</strong></td></tr><tr><td><strong>Neutru</strong></td><td><strong>scaun bun</strong></td><td><strong>scaune bune</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -91,6 +91,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Perfectul prezent",
+      "summary": "Limba română nu are timpul „perfect prezent”, ci folosește perfectul compus sau prezentul.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Limba română nu are un timp separat numit „perfect prezent”. Pentru acțiuni din trecut cu efect în prezent, folosim perfectul compus. Pentru o acțiune care a început în trecut și continuă în prezent, folosim timpul prezent."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Eu **am pierdut** cheile și nu pot intra.",
+                "Noi **locuim** în acest oraș de zece ani.",
+                "**Ai fost** vreodată la munte iarna?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Formăm perfectul compus cu auxiliarul verbului „a avea” și participiul. Participiul se termină de obicei în „-at”, „-it” sau „-ut”. Când acțiunea continuă și acum, folosim timpul prezent, adesea împreună cu prepoziția „de”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Situație</th><th>Timp verbal</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Rezultat în prezent</strong></td><td><strong>Perfect compus</strong></td><td><strong>Am cumpărat o pâine caldă.</strong></td></tr><tr><td><strong>Experiență trăită</strong></td><td><strong>Perfect compus</strong></td><td><strong>Ai văzut acest film românesc?</strong></td></tr><tr><td><strong>Fapt recent</strong></td><td><strong>Perfect compus</strong></td><td><strong>Trenul a plecat din gară.</strong></td></tr><tr><td><strong>Acțiune continuă</strong></td><td><strong>Prezent</strong></td><td><strong>Locuiesc aici de doi ani.</strong></td></tr><tr><td><strong>Stare începută în trecut</strong></td><td><strong>Prezent</strong></td><td><strong>Te aștept de o oră.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

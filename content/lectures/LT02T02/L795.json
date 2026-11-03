@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Interjecțiile și particulele",
+      "summary": "Interjecțiile exprimă emoții și sunete, iar particulele sunt cuvinte scurte cu rol gramatical.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Interjecția este un cuvânt scurt care exprimă o stare, o reacție sau un sunet. Ea nu se schimbă și nu depinde de alte cuvinte din propoziție. Particula este un cuvânt mic cu rol gramatical precis."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Uau**, ce frumos este aici!",
+                "**Au**, mă doare mâna!",
+                "**Ei**, acum înțeleg situația."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Interjecțiile sunt urmate adesea de semnul exclamării sau de virgulă. Particulele stau de obicei lângă verbe și nu își schimbă forma. De exemplu, particula „să” ajută la formarea modului conjunctiv."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Cuvânt</th><th>Tip</th><th>Rol</th></tr></thead><tbody><tr><td><strong>Bravo!</strong></td><td><strong>Interjecție</strong></td><td><strong>Exprimă lauda sau admirația</strong></td></tr><tr><td><strong>Of!</strong></td><td><strong>Interjecție</strong></td><td><strong>Exprimă tristețea sau regretul</strong></td></tr><tr><td><strong>să</strong></td><td><strong>Particulă</strong></td><td><strong>Formează conjunctivul (să merg)</strong></td></tr><tr><td><strong>o</strong></td><td><strong>Particulă</strong></td><td><strong>Formează viitorul colocvial (o să merg)</strong></td></tr><tr><td><strong>a</strong></td><td><strong>Particulă</strong></td><td><strong>Formează infinitivul (a merge)</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

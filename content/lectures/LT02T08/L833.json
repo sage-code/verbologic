@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Fracții și procente",
+      "summary": "Fracțiile și procentele arată o parte dintr-un întreg în limba română.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Fracțiile și procentele exprimă părți dintr-un întreg. Folosim fracțiile când împărțim ceva în bucăți egale. Folosim procentele când raportăm o cantitate la o sută."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Am mâncat **o jumătate** de măr.",
+                "Trenul pleacă într-**un sfert** de oră.",
+                "Magazinul oferă o reducere de **cincizeci la sută**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru 1/2 spunem „o jumătate”, iar pentru 1/4 spunem „un sfert”. Pentru alte fracții adăugăm sufixul „-ime”, ca în „treime”. La plural spunem „două treimi”. Pentru procente folosim un număr urmat de „la sută”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Scriere</th><th>Cum spunem</th></tr></thead><tbody><tr><td><strong>1/2</strong></td><td><strong>o jumătate</strong></td></tr><tr><td><strong>1/4</strong></td><td><strong>un sfert</strong></td></tr><tr><td><strong>3/4</strong></td><td><strong>trei sferturi</strong></td></tr><tr><td><strong>1/3</strong></td><td><strong>o treime</strong></td></tr><tr><td><strong>2/3</strong></td><td><strong>două treimi</strong></td></tr><tr><td><strong>50%</strong></td><td><strong>cincizeci la sută</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }
