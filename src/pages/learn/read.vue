@@ -176,12 +176,28 @@ function acceptChapter() {
 }
 
 /**
- * Step to the next (1) or previous (-1) item: inside the topic first, then
- * into the neighbouring topic. When that crosses into another chapter, a small
- * dialog asks first (Accept / Cancel): Accept opens the chapter's first (or,
- * going back, last) item, Cancel leaves the reader where it is.
+ * The ids of a topic that really have a story for the language being learned,
+ * in sidebar order. The sidebar also lists planned items that have no content
+ * yet, so opening its first or last id would land on a missing article.
  */
-function stepItem(direction: -1 | 1) {
+async function existingItems(stop: TopicStop): Promise<string[]> {
+  try {
+    const list = await media.fetchTopic(`library/${track.value}`, stop.topic)
+    const present = new Set(list.filter((r: MediaRecord) => r.lang === trackLang.value).map((r: MediaRecord) => r.id))
+    return stop.items.filter((id) => present.has(id))
+  } catch {
+    return []
+  }
+}
+
+/**
+ * Step to the next (1) or previous (-1) item: inside the topic first, then
+ * into the nearest neighbouring topic that has a story. When that crosses into
+ * another chapter, a small dialog asks first (Accept / Cancel): Accept opens
+ * the chapter's first (or, going back, last) story, Cancel leaves the reader
+ * where it is.
+ */
+async function stepItem(direction: -1 | 1) {
   if (chapterAnnouncement.value) return
   const inTopic = direction > 0 ? nextId.value : previousId.value
   if (inTopic) {
@@ -189,21 +205,27 @@ function stepItem(direction: -1 | 1) {
     return
   }
   const here = topicStops.value[stopAt.value]
-  const stop = topicStops.value[stopAt.value + direction]
-  if (!here || !stop) return
-  const id = direction > 0 ? stop.items[0] : stop.items[stop.items.length - 1]
-  const open = () => {
-    void navigateTo({ path: route.path, query: { ...route.query, id: `${stop.topic}:${id}` } })
-  }
-  if (here.chapter === stop.chapter) {
-    open()
+  if (!here) return
+  // The nearest topic in that direction that has a story to open.
+  for (let at = stopAt.value + direction; at >= 0 && at < topicStops.value.length; at += direction) {
+    const stop = topicStops.value[at]
+    const ids = await existingItems(stop)
+    if (!ids.length) continue
+    const id = direction > 0 ? ids[0] : ids[ids.length - 1]
+    const open = () => {
+      void navigateTo({ path: route.path, query: { ...route.query, id: `${stop.topic}:${id}` } })
+    }
+    if (here.chapter === stop.chapter) {
+      open()
+      return
+    }
+    stopStory()
+    chapterAnnouncement.value = {
+      name: mediaName(stop.chapterNames, uiLang.value, stop.chapter),
+      direction,
+      confirm: open
+    }
     return
-  }
-  stopStory()
-  chapterAnnouncement.value = {
-    name: mediaName(stop.chapterNames, uiLang.value, stop.chapter),
-    direction,
-    confirm: open
   }
 }
 /** Same page, same reader and learned language, another item of the topic. */
