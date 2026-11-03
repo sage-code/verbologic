@@ -129,6 +129,109 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Bănci și carduri",
+      "summary": "În această lecție înveți despre conturi bancare, carduri și cum să rezolvi probleme la bancă.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Lecția prezintă termeni bancari de bază, precum cardul de debit și contul curent. Vei învăța ce să spui dacă pierzi un card în România. Aceste expresii te ajută să comunici ușor cu un funcționar bancar."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Elena este la o sucursală bancară din Cluj-Napoca. Ea nu își găsește cardul de debit. Vorbește acum cu Radu, funcționarul de la ghișeu."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Elena",
+                  "text": "Bună ziua, cred că **am pierdut** cardul bancar."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Bună ziua! **Voi bloca** imediat cardul pentru siguranță."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Mulțumesc, aș vrea să solicit un card nou."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Desigur, banca noastră trimite noul card în câteva zile."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Perfectul compus pentru acțiuni recente** Folosim **perfectul compus** pentru a exprima o acțiune terminată în trecut.",
+                "Bună ziua, cred că **am pierdut** cardul bancar.",
+                "Vezi Introducere în gramatică: Timpurile trecute și aspectul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Persoană</th><th>Auxiliar</th><th>Participiu</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>am</strong></td><td><strong>pierdut</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>ai</strong></td><td><strong>pierdut</strong></td></tr><tr><td><strong>el / ea</strong></td><td><strong>a</strong></td><td><strong>pierdut</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>am</strong></td><td><strong>pierdut</strong></td></tr><tr><td><strong>voi</strong></td><td><strong>ați</strong></td><td><strong>pierdut</strong></td></tr><tr><td><strong>ei / ele</strong></td><td><strong>au</strong></td><td><strong>pierdut</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Viitorul pentru decizii și acțiuni oficiale** Folosim **viitorul standard** pentru a exprima o decizie fermă sau o acțiune într-un context formal.",
+                "Bună ziua! **Voi bloca** imediat cardul pentru siguranță.",
+                "Vezi Introducere în gramatică: Viitorul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tip de viitor</th><th>Exemplu</th><th>Utilizare</th></tr></thead><tbody><tr><td><strong>Viitor standard</strong></td><td><strong>voi bloca</strong></td><td><strong>registru formal sau scris</strong></td></tr><tr><td><strong>Viitor vorbit</strong></td><td><strong>o să blochez</strong></td><td><strong>conversații zilnice</strong></td></tr><tr><td><strong>Viitor colocvial</strong></td><td><strong>am să blochez</strong></td><td><strong>vorbire familiară</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Cardul de debit folosește banii din contul propriu, iar cardul de credit reprezintă un împrumut.",
+                "Nu spuneți niciodată nimănui codul PIN sau parolele contului bancar.",
+                "Plățile rapide fără introducerea cardului în terminal se numesc plăți contactless."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Aplicațiile bancare mobile sunt foarte populare și sigure în România. Puteți bloca un card pierdut direct din aplicație, fără să mergeți la bancă. Băncile din România nu cer niciodată codul PIN prin telefon sau prin mesaje."
+              ]
+            }
+          ]
+        }
+      ]
     }
   }
 }

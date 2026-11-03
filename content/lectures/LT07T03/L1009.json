@@ -129,6 +129,117 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Mâncăruri tradiționale",
+      "summary": "Lecția prezintă mâncăruri tradiționale românești, folosirea reflexivului pasiv și a pronumelui relativ „care” pentru descrierea preparatelor culinare.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În această lecție învățați despre mâncărurile tradiționale românești și ingredientele lor. Veți exersa cum să descrieți un fel de mâncare la restaurant. Aceste explicații vă ajută să comandați mâncare tradițională cu ușurință."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Mihai și Elena sunt la un restaurant tradițional din Brașov. Ei vor să comande mâncare tradițională românească. Chelnerul le recomandă preparatele casei."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Elena",
+                  "text": "Ce mâncare tradițională ne recomandați astăzi?"
+                },
+                {
+                  "speaker": "Chelnerul",
+                  "text": "Vă recomand sarmalele care sunt pregătite cu carne și orez."
+                },
+                {
+                  "speaker": "Mihai",
+                  "text": "Sarmalele se servesc cu mămăligă caldă?"
+                },
+                {
+                  "speaker": "Chelnerul",
+                  "text": "Da, sarmalele se servesc cu mămăligă și smântână proaspătă."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Eu vreau și o ciorbă care este foarte gustoasă."
+                },
+                {
+                  "speaker": "Chelnerul",
+                  "text": "Avem ciorbă de burtă și ciorbă rădăuțeană."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Reflexivul cu sens pasiv** În limba română, folosim des particula **se** pentru a arăta cum este pregătit un preparat.",
+                "Sarmalele **se servesc** cu mămăligă caldă?",
+                "Vezi Introducere în gramatică: Diateza, verbe reflexive și impersonale."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Diateza activă</th><th>Diateza reflexiv-pasivă</th></tr></thead><tbody><tr><td><strong>Bucătarul servește sarmale.</strong></td><td><strong>Sarmalele **se servesc**.</strong></td></tr><tr><td><strong>Bucătarul pregătește ciorba.</strong></td><td><strong>Ciorba **se pregătește**.</strong></td></tr><tr><td><strong>Oamenii mănâncă mămăliga caldă.</strong></td><td><strong>Mămăliga **se mănâncă** caldă.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Pronumele relativ „care”** Pronumele **care** leagă două propoziții și adaugă o descriere pentru un substantiv.",
+                "Vă recomand sarmalele **care** sunt pregătite cu carne și orez.",
+                "Vezi Introducere în gramatică: Alte pronume."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Substantiv</th><th>Exemplu cu „care”</th></tr></thead><tbody><tr><td><strong>sarmalele</strong></td><td><strong>sarmalele **care** sunt calde</strong></td></tr><tr><td><strong>ciorba</strong></td><td><strong>ciorba **care** este gustoasă</strong></td></tr><tr><td><strong>restaurantul</strong></td><td><strong>restaurantul **care** oferă mâncare bună</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În limba română spunem frecvent **se servește** în loc de „este servit”.",
+                "Pronumele relativ **care** are aceeași formă pentru masculin și feminin când este subiect.",
+                "Substantivul „mămăligă” este feminin și primește articolul hotărât enclitic: „mămăliga”."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Sarmalele în foi de varză sunt cel mai cunoscut preparat tradițional din România. Ele nu lipsesc de pe masa de Crăciun sau de Paște. Românii le consumă de obicei alături de mămăligă, smântână și ardei iute."
+              ]
+            }
+          ]
+        }
+      ]
     }
   }
 }
