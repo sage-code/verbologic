@@ -178,6 +178,13 @@ async function goPrev() {
         >
           «
         </button>
+        <!-- Page pill between « and »: current page / page count -->
+        <span
+          class="inline-flex h-8 min-w-[3.5rem] shrink-0 items-center justify-center rounded-full border border-edge bg-surface px-2 text-xs tabular-nums text-muted"
+        >
+          {{ store.page }}/{{ store.pageCount }}
+        </span>
+
         <button
           type="button"
           class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-edge text-base text-content transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
@@ -187,13 +194,6 @@ async function goPrev() {
         >
           »
         </button>
-
-        <!-- Page pill (moved from the old banner): current page / page count -->
-        <span
-          class="inline-flex h-8 min-w-[5.5rem] shrink-0 items-center justify-center rounded-full border border-edge bg-surface px-2 text-xs tabular-nums text-muted"
-        >
-          {{ copy('dictionary.page', 'Page') }}: {{ store.page }}/{{ store.pageCount }}
-        </span>
 
         <!-- Play / Stop: accent icon when it can play, dark red while a plain
              (non-looped) run is going, faint when there is nothing to play.

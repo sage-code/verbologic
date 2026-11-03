@@ -1,0 +1,362 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST12",
+  "topic": "ST12T04",
+  "kind": "story",
+  "entity_id": "ST12T04:S001",
+  "cefr": "C2",
+  "tags": [
+    "level#C2"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Aviator of Tyre",
+      "description": "Tanit navigates a fierce storm to deliver sacred temple offerings, discovering that faith is a steady hand amidst the winds of chaos."
+    },
+    "ro": {
+      "name": "Aviatoarea din Tir",
+      "description": "Tanit înfruntă o furtună năprasnică pentru a livra ofrande sacre, descoperind că credința este ancora care ne ține drepți în mijlocul haosului."
+    },
+    "de": {
+      "name": "Die Fliegerin von Tyros",
+      "description": "Tanit navigiert durch einen heftigen Sturm, um heilige Opfergaben zu überbringen, und erkennt, dass der Glaube eine ruhige Hand inmitten des Chaos ist."
+    },
+    "ru": {
+      "name": "Авиатор из Тира",
+      "description": "Танит преодолевает свирепый шторм, чтобы доставить священные дары, открывая, что вера — это твердая рука посреди ветров хаоса."
+    },
+    "it": {
+      "name": "L'aviatrice di Tiro",
+      "description": "Tanit naviga attraverso una tempesta feroce per consegnare offerte sacre, scoprendo che la fede è una mano ferma tra i venti del caos."
+    },
+    "es": {
+      "name": "La aviadora de Tiro",
+      "description": "Tanit navega a través de una feroz tormenta para entregar ofrendas sagradas, descubriendo que la fe es una mano firme en medio de los vientos del caos."
+    },
+    "fr": {
+      "name": "L'aviatrice de Tyr",
+      "description": "Tanit navigue à travers une tempête féroce pour livrer des offrandes sacrées, découvrant que la foi est une main ferme au milieu des vents du chaos."
+    },
+    "hu": {
+      "name": "Türosz pilótája",
+      "description": "Tanit egy heves viharon navigál keresztül, hogy eljuttassa a szent áldozati ajándékokat, felfedezve, hogy a hit egy biztos kéz a káosz szelei közepette."
+    },
+    "pt": {
+      "name": "A Aviadora de Tiro",
+      "description": "Tanit navega através de uma tempestade feroz para entregar oferendas sagradas, descobrindo que a fé é uma mão firme em meio aos ventos do caos."
+    }
+  },
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 14256,
+      "sha1": "7d331e173b486c1e7dbd0ae77cae84c3ee4ed616",
+      "text": "caf15b52132f20dc0ad51350c1fdbdf61cf4282a"
+    },
+    "sound/it.mp3": {
+      "bytes": 14256,
+      "sha1": "c86756a25e3d4cf62e76af8b35fac9c55c74135b",
+      "text": "989f6397a8dd8ffbe3049f0c3ebb49efb5cecbf9"
+    },
+    "sound/es.mp3": {
+      "bytes": 13104,
+      "sha1": "afdcc6d2c88de8e9d614d72443c617d2dec2e815",
+      "text": "a7e8dabbdda735b99fb1107236dd828c5b3e83a1"
+    },
+    "sound/ro.mp3": {
+      "bytes": 13248,
+      "sha1": "d5d5cb65b0b316b6433348db8cdaaac5a9c3d375",
+      "text": "ed05e7f79c839bfbe7c9ef59d775178b47661e1a"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13104,
+      "sha1": "1f2ba700663f5a648f8fb52467b13034fe4190a4",
+      "text": "af968ebf7ea65492bba0e2429366ec57e74a0b87"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11808,
+      "sha1": "b4c71c0145986aa4ee0358e8bbd160189d72fc47",
+      "text": "19fc338431e8fe940d20bf9f52025f61f41ff14c"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14544,
+      "sha1": "a2964392e0c0c92ec97152ce75976316a5e22c7c",
+      "text": "1d77beb68f564ee051526a11969ff6066b9ba413"
+    },
+    "sound/pt.mp3": {
+      "bytes": 11808,
+      "sha1": "9386bab3eb8c27f524fbbf57f13562aeab93856f",
+      "text": "635a58f306ba906346ecdd6eb4bfefe4bcd155e1"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "8b7219476c8a24d2370d80c780217cc0b3ae0298",
+      "text": "bc10b415ea3409499d56a42da52bd9aa8e86c339"
+    },
+    "read/it.mp3": {
+      "bytes": 1608912,
+      "sha1": "c31266209ba7775790e7dc10b34db335238b62cc",
+      "text": "0e500d90d313f46701315bdf33aa3a41df7862d3"
+    },
+    "read/fr.mp3": {
+      "bytes": 1353024,
+      "sha1": "700b1aa33e10f4852e7f135a775fbbef94ed78ec",
+      "text": "da082598472ab387ef47842f576ebc24580e8558"
+    },
+    "read/de.mp3": {
+      "bytes": 1524528,
+      "sha1": "bd29ebbcbcc37cba68b46628ba3a344055ac5adf",
+      "text": "50c709ec184e0e2263099975047b6b26910a5d81"
+    },
+    "read/es.mp3": {
+      "bytes": 1518624,
+      "sha1": "a33db1f79c269d97c5d903a3811fa28e0fff1c04",
+      "text": "11c6875e1ae957043da67ca6865efaa7cd1ebbe4"
+    },
+    "read/hu.mp3": {
+      "bytes": 1454400,
+      "sha1": "a9a327cf925bf701d7e32069a923e301a35ddbee",
+      "text": "cb8183f65a4336e21fa0dad297ab59dc7c48fbd4"
+    },
+    "read/pt.mp3": {
+      "bytes": 1271088,
+      "sha1": "64fc2df2aec527927b49d473f047f4c8bcd4e675",
+      "text": "ae188c2f6beb26dc1cb8df803d50b8b0ed69fdcf"
+    },
+    "read/ro.mp3": {
+      "bytes": 1384416,
+      "sha1": "f62b2aa1e153c923ee7759919abf757263feb835",
+      "text": "b46df0f490b6f4051fd719429607001c3aadc156"
+    },
+    "read/en.mp3": {
+      "bytes": 1491984,
+      "sha1": "c1564f2a125d04308b1496285d7a8ae3d94f1ca3",
+      "text": "f1ab237a4b84571f83970356f152eff45bfe1c94"
+    },
+    "read/ru.mp3": {
+      "bytes": 1504368,
+      "sha1": "9047f4a1967e3d064076b1059964cdda4b863d61",
+      "text": "1f8ec0cc3dfbbbb41bf30ec8f1fdd389360cd244"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 199278,
+      "sha1": "9d6923802547729b1b1f0e9bec8850c2772e6e5b",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 204661,
+      "sha1": "35b4a4f352c465f60eac30c1afa0fc442007557e",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 180795,
+      "sha1": "74d882f86d5eee1b3acd6f44ae5a7c2fda7550c3",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 183194,
+      "sha1": "7e890be39649fef74cf1625ca822c7bfde513d6a",
+      "page": 3
+    },
+    {
+      "file": "images/4.jpg",
+      "bytes": 176304,
+      "sha1": "4153dfa012ad0dab2cbdd2635a14d70e3bcaef5a",
+      "page": 4
+    },
+    {
+      "file": "images/5.jpg",
+      "bytes": 165411,
+      "sha1": "9620e6c28b63ba18fe02fb4ef8ce9ca7d2381d93",
+      "page": 5
+    }
+  ],
+  "readSections": {
+    "it": [
+      0.0,
+      15.6,
+      29.825,
+      44.875,
+      61.763,
+      77.425,
+      92.825,
+      109.025,
+      123.713,
+      139.312,
+      152.825,
+      168.162,
+      182.838,
+      196.113,
+      211.913,
+      226.425,
+      239.088,
+      252.6
+    ],
+    "fr": [
+      0.0,
+      13.525,
+      25.087,
+      37.625,
+      51.825,
+      64.175,
+      76.812,
+      90.725,
+      103.137,
+      115.825,
+      127.725,
+      140.6,
+      152.362,
+      164.012,
+      176.812,
+      188.825,
+      199.962,
+      211.45
+    ],
+    "de": [
+      0.0,
+      14.787,
+      29.237,
+      43.462,
+      59.462,
+      73.513,
+      87.663,
+      102.988,
+      115.5,
+      129.788,
+      144.25,
+      157.063,
+      170.9,
+      183.863,
+      199.113,
+      211.85,
+      225.075,
+      238.65
+    ],
+    "es": [
+      0.0,
+      14.738,
+      21.575,
+      36.213,
+      51.288,
+      66.338,
+      81.3,
+      96.3,
+      109.875,
+      124.6,
+      137.775,
+      151.4,
+      165.625,
+      179.125,
+      194.15,
+      207.8,
+      219.725,
+      232.838
+    ],
+    "hu": [
+      0.0,
+      15.075,
+      29.212,
+      42.412,
+      57.625,
+      72.225,
+      86.5,
+      101.188,
+      113.875,
+      126.838,
+      140.037,
+      151.9,
+      165.287,
+      177.25,
+      191.863,
+      203.088,
+      215.675,
+      228.175
+    ],
+    "pt": [
+      0.0,
+      12.463,
+      24.263,
+      36.475,
+      49.663,
+      61.388,
+      74.438,
+      87.525,
+      98.688,
+      110.25,
+      121.075,
+      132.812,
+      144.225,
+      155.45,
+      167.412,
+      178.812,
+      188.825,
+      199.575
+    ],
+    "ro": [
+      0.0,
+      14.812,
+      28.05,
+      41.725,
+      55.425,
+      68.825,
+      81.987,
+      95.05,
+      106.837,
+      119.05,
+      131.9,
+      143.338,
+      155.275,
+      166.738,
+      180.388,
+      192.838,
+      204.45,
+      217.175
+    ],
+    "en": [
+      0.0,
+      14.875,
+      28.05,
+      41.675,
+      56.825,
+      70.862,
+      85.212,
+      100.912,
+      113.938,
+      128.05,
+      142.388,
+      156.063,
+      168.675,
+      181.663,
+      195.725,
+      209.375,
+      222.225,
+      235.188
+    ],
+    "ru": [
+      0.0,
+      15.912,
+      29.512,
+      44.525,
+      60.062,
+      74.487,
+      88.737,
+      104.638,
+      118.463,
+      132.263,
+      144.288,
+      157.313,
+      171.425,
+      183.738,
+      198.65,
+      211.575,
+      224.25,
+      237.1
+    ]
+  }
+}

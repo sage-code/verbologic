@@ -1,0 +1,362 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST12",
+  "topic": "ST12T03",
+  "kind": "story",
+  "entity_id": "ST12T03:S001",
+  "cefr": "C2",
+  "tags": [
+    "level#C2"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Measured Sanctity of Theron",
+      "description": "A surveyor in ancient Greece confronts the tension between precise land measurement and the sacred silence of an unmapped mountain shrine."
+    },
+    "ro": {
+      "name": "Sfințenia măsurată a lui Theron",
+      "description": "Un agrimensor din Grecia antică se confruntă cu tensiunea dintre măsurătoarea precisă a pământului și tăcerea sacră a unui sanctuar montan nemarcat."
+    },
+    "de": {
+      "name": "Therons vermessene Heiligkeit",
+      "description": "Ein Landvermesser im antiken Griechenland ringt mit dem Spannungsfeld zwischen präziser Vermessung und der heiligen Stille eines unkartierten Bergheiligtums."
+    },
+    "ru": {
+      "name": "Измеренная святость Терона",
+      "description": "Землемер в Древней Греции сталкивается с противоречием между точным измерением земли и священной тишиной некартографированного горного святилища."
+    },
+    "it": {
+      "name": "La santità misurata di Theron",
+      "description": "Un agrimensore nell'antica Grecia affronta la tensione tra la misurazione precisa del terreno e il silenzio sacro di un santuario montano non mappato."
+    },
+    "es": {
+      "name": "La santidad medida de Theron",
+      "description": "Un agrimensor en la antigua Grecia se enfrenta a la tensión entre la medición precisa de la tierra y el silencio sagrado de un santuario montañoso sin cartografiar."
+    },
+    "fr": {
+      "name": "La sainteté mesurée de Theron",
+      "description": "Un arpenteur dans la Grèce antique affronte la tension entre la mesure précise des terres et le silence sacré d'un sanctuaire montagnard non cartographié."
+    },
+    "hu": {
+      "name": "Theron mért szentsége",
+      "description": "Egy földmérő az ókori Görögországban szembesül a föld pontos kimérése és egy feltérképezetlen hegyi szentély szent csendje közötti feszültséggel."
+    },
+    "pt": {
+      "name": "A santidade medida de Theron",
+      "description": "Um agrimensor na Grécia antiga enfrenta a tensão entre a medição precisa da terra e o silêncio sagrado de um santuário montanhoso não mapeado."
+    }
+  },
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 15984,
+      "sha1": "ae8cbae99e71b968e2bab282a9e7192a1650d51c",
+      "text": "1b68ee6d899fd44fe536d3133249cd935396d541"
+    },
+    "sound/de.mp3": {
+      "bytes": 17712,
+      "sha1": "4d923150eb42cc32857d7744c785d4b7654f65dc",
+      "text": "f2383b1a2a07de9d791f5454b5325554420d8a19"
+    },
+    "sound/en.mp3": {
+      "bytes": 13680,
+      "sha1": "0a4f33b752a84565388400fca90c4d4082cbd6d5",
+      "text": "fb911f54442354b88190f615de81c4c849676546"
+    },
+    "sound/ru.mp3": {
+      "bytes": 17568,
+      "sha1": "49840e96f357a1389008d7a3cefa62f5c78c38b1",
+      "text": "8072c1029b46a4927b4c548641e5e8302ac5c5cf"
+    },
+    "sound/it.mp3": {
+      "bytes": 13104,
+      "sha1": "df7dbca46e607c7a09c64d0dbb6095db0c7037e5",
+      "text": "4adde04ee572f33746a4522e31258c62512bc805"
+    },
+    "sound/ro.mp3": {
+      "bytes": 17712,
+      "sha1": "2a44b6be30380ee8212723a6046f3c5e6f1f7933",
+      "text": "c6040c681af8aa864ea8340f564130cce65f2472"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16128,
+      "sha1": "5e62867c8a498bdf605b97a6d0dcf5e55fbe9717",
+      "text": "8bef610a4384dde872f0db9ea7258316e41fba4a"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17712,
+      "sha1": "5fd8a569d5a6a907f027c8b876ae89e06ae74fa0",
+      "text": "1cb6406979eb4dba97a3628183b230bc0bd1f733"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14256,
+      "sha1": "0c2fdd70c6dceda74f091d8dab84033bb2d10080",
+      "text": "a1bd4f434afc18118991adbc37443e4bdc7ee352"
+    },
+    "read/es.mp3": {
+      "bytes": 1348704,
+      "sha1": "eb4fdfe1daacdc67c17421ea62699eb7b71234ec",
+      "text": "7bc9b7f82e5a6229880014e3741b2aea7bd8f200"
+    },
+    "read/it.mp3": {
+      "bytes": 1358784,
+      "sha1": "625f8b4ed1d6204b23073806fb14605d03e2922f",
+      "text": "7205814b76d0f9418c8c4d0cfe1c6df2bcc0c933"
+    },
+    "read/de.mp3": {
+      "bytes": 1560240,
+      "sha1": "298e39ba99100d6343dc38333c812d643acb8098",
+      "text": "65d1c615822738a40df7d4d64df17a7e53c8d9f8"
+    },
+    "read/en.mp3": {
+      "bytes": 1368288,
+      "sha1": "ef6a67e67692b14394b7cca14a0278cb11eaa07b",
+      "text": "625fd628e5ee4d0090ae4da5097f8a08d0bb9cfc"
+    },
+    "read/fr.mp3": {
+      "bytes": 1321920,
+      "sha1": "aa27eb4c3697dc5f46834c6ef3b83f0f63957d2f",
+      "text": "cc8cef93d17632225159ee36f1bcfbe6fb5050fe"
+    },
+    "read/ru.mp3": {
+      "bytes": 1375632,
+      "sha1": "a9d1005f54b10ead5c30b2c32dc85ea9bfdfbf11",
+      "text": "b26c589518bf3a3dc5910872ac38f8d405e16be9"
+    },
+    "read/ro.mp3": {
+      "bytes": 1283760,
+      "sha1": "7bc2fa8a5e074d63ff19413406f5c7bb8f32535f",
+      "text": "48cfb86289d9f73f8144e10c707838a3e858357a"
+    },
+    "read/hu.mp3": {
+      "bytes": 1499472,
+      "sha1": "5cb64095cd1e40b117f9ecb98c5879b704554af3",
+      "text": "adbf97f7752de31728f348e2316e266a59e7a3c7"
+    },
+    "read/pt.mp3": {
+      "bytes": 1387440,
+      "sha1": "575186414f8c76c8aa01a3b1b8fbfa065cadc9b9",
+      "text": "3965b16e85e2bf0e9780e115fbe20f2bc7d1418d"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 227436,
+      "sha1": "4f2e0418669c06baad3d4584f5b92b53ae2df2c4",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 230819,
+      "sha1": "a332c3f19c6c58a5e047cc1957897a4c8cbc68a8",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 226176,
+      "sha1": "d3dc8b8d444dea0539f979ca0ddd45175d3436ee",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 193780,
+      "sha1": "03428009882acdb71c0d2b2f618a34f62d271763",
+      "page": 3
+    },
+    {
+      "file": "images/4.jpg",
+      "bytes": 221776,
+      "sha1": "30c3bbd344afa9c7853f4566b40a5a8f178c581a",
+      "page": 4
+    },
+    {
+      "file": "images/5.jpg",
+      "bytes": 197381,
+      "sha1": "5a8a9cc2f645d26d3c3f9514623dc1a76dddc617",
+      "page": 5
+    }
+  ],
+  "readSections": {
+    "es": [
+      0.0,
+      13.188,
+      27.212,
+      38.787,
+      50.775,
+      63.275,
+      74.9,
+      86.337,
+      99.212,
+      111.275,
+      123.537,
+      135.7,
+      148.438,
+      161.85,
+      174.612,
+      186.875,
+      199.987,
+      213.462
+    ],
+    "it": [
+      0.0,
+      13.363,
+      27.062,
+      38.5,
+      50.6,
+      63.013,
+      74.825,
+      86.925,
+      99.237,
+      111.412,
+      123.85,
+      136.162,
+      149.675,
+      163.587,
+      176.45,
+      189.375,
+      202.387,
+      215.137
+    ],
+    "de": [
+      0.0,
+      15.575,
+      31.9,
+      44.7,
+      57.875,
+      74.125,
+      86.675,
+      101.888,
+      116.5,
+      130.012,
+      144.15,
+      158.05,
+      174.225,
+      189.475,
+      204.15,
+      217.838,
+      232.2,
+      247.188
+    ],
+    "en": [
+      0.0,
+      13.762,
+      27.887,
+      38.35,
+      51.763,
+      64.875,
+      77.325,
+      90.112,
+      103.112,
+      115.525,
+      128.012,
+      140.475,
+      153.725,
+      166.237,
+      179.075,
+      191.438,
+      204.6,
+      217.1
+    ],
+    "fr": [
+      0.0,
+      12.275,
+      25.337,
+      36.9,
+      48.862,
+      61.675,
+      74.388,
+      85.638,
+      97.062,
+      108.825,
+      121.15,
+      133.113,
+      145.738,
+      158.65,
+      171.05,
+      182.788,
+      195.125,
+      208.313
+    ],
+    "ru": [
+      0.0,
+      13.8,
+      27.763,
+      39.925,
+      52.075,
+      65.375,
+      76.725,
+      89.362,
+      102.95,
+      114.263,
+      127.788,
+      139.5,
+      152.287,
+      167.125,
+      179.912,
+      191.925,
+      204.837,
+      218.35
+    ],
+    "ro": [
+      0.0,
+      13.213,
+      25.562,
+      36.55,
+      47.987,
+      60.162,
+      71.2,
+      82.625,
+      94.837,
+      106.912,
+      119.337,
+      131.25,
+      143.275,
+      155.775,
+      168.225,
+      179.887,
+      191.162,
+      203.625
+    ],
+    "hu": [
+      0.0,
+      15.863,
+      31.363,
+      43.513,
+      57.863,
+      72.588,
+      85.55,
+      100.3,
+      114.075,
+      128.363,
+      141.825,
+      154.588,
+      168.425,
+      183.55,
+      197.388,
+      210.888,
+      224.275,
+      237.763
+    ],
+    "pt": [
+      0.0,
+      13.825,
+      28.137,
+      40.25,
+      52.888,
+      65.025,
+      76.763,
+      89.312,
+      102.737,
+      115.825,
+      128.463,
+      141.863,
+      154.838,
+      168.525,
+      181.35,
+      194.037,
+      207.387,
+      220.688
+    ]
+  }
+}
