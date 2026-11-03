@@ -1,0 +1,362 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST12",
+  "topic": "ST12T01",
+  "kind": "story",
+  "entity_id": "ST12T01:S001",
+  "cefr": "C2",
+  "tags": [
+    "level#C2"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Lieutenant and the Sky Spirits",
+      "description": "Major Batbayar must restore a sacred cairn during a blizzard to protect his camp from the wrath of the wind spirits."
+    },
+    "ro": {
+      "name": "Maiorul și spiritele cerului",
+      "description": "Maiorul Batbayar trebuie să restaureze un altar sacru în timpul unei viscole pentru a-și proteja tabăra de furia spiritelor vântului."
+    },
+    "de": {
+      "name": "Der Major und die Geister des Himmels",
+      "description": "Major Batbayar muss während eines Schneesturms einen heiligen Steinhaufen restaurieren, um sein Lager vor dem Zorn der Windgeister zu schützen."
+    },
+    "ru": {
+      "name": "Майор и духи неба",
+      "description": "Майор Батбаяр должен восстановить священную пирамиду из камней во время метели, чтобы защитить свой лагерь от гнева духов ветра."
+    },
+    "it": {
+      "name": "Il tenente e gli spiriti del cielo",
+      "description": "Il maggiore Batbayar deve restaurare un tumulo sacro durante una bufera per proteggere il suo accampamento dall'ira degli spiriti del vento."
+    },
+    "es": {
+      "name": "El teniente y los espíritus del cielo",
+      "description": "El mayor Batbayar debe restaurar un túmulo sagrado durante una ventisca para proteger su campamento de la ira de los espíritus del viento."
+    },
+    "fr": {
+      "name": "Le lieutenant et les esprits du ciel",
+      "description": "Le major Batbayar doit restaurer un cairn sacré pendant un blizzard pour protéger son camp de la colère des esprits du vent."
+    },
+    "hu": {
+      "name": "A hadnagy és az ég szellemei",
+      "description": "Batbayar őrnagynak egy hóvihar alatt kell helyreállítania egy szent kőhalmot, hogy megvédje táborát a szél szellemeinek haragjától."
+    },
+    "pt": {
+      "name": "O tenente e os espíritos do céu",
+      "description": "O major Batbayar deve restaurar um marco sagrado durante uma nevasca para proteger seu acampamento da ira dos espíritos do vento."
+    }
+  },
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 18432,
+      "sha1": "c5de2703dca36bf77652f774e260c85bbe643daa",
+      "text": "eacaa5bb453983476b8dccbea0132714c925250b"
+    },
+    "sound/de.mp3": {
+      "bytes": 18288,
+      "sha1": "5a1f4595bead056738aac5cde865116e365ab5cb",
+      "text": "de8b74cb7750c991b366566850fcdda4712c3284"
+    },
+    "sound/it.mp3": {
+      "bytes": 14400,
+      "sha1": "22cb7a0881426adf11857f19db57499558c6580f",
+      "text": "f73b6463381917677990ede17704ee052b8744c2"
+    },
+    "sound/en.mp3": {
+      "bytes": 15840,
+      "sha1": "2337ac09b5b97c6ffa3445c3af872710baf8f899",
+      "text": "bdc5f827ada2d3f08987c1536001d080712b82f8"
+    },
+    "sound/ro.mp3": {
+      "bytes": 17424,
+      "sha1": "c3c506e92a2de66a5a6c76bb76d506b29c40966a",
+      "text": "0fc175a42218065da43819d470badd621c289bbf"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15984,
+      "sha1": "52046215728bbba894ef9e3f56af4ee3ac8ecca0",
+      "text": "885295b2e67ea08e7b0fd964eb4b3dc50d71fec3"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17424,
+      "sha1": "c9dd6e1f5e74117ad0a320729663b37daa121cb9",
+      "text": "397992ad42493eb655c002e635475af41e553b2e"
+    },
+    "sound/pt.mp3": {
+      "bytes": 18720,
+      "sha1": "8b9be03d55230c8bfdba18599dc05cb8b603431f",
+      "text": "9e3b3384ac3e957beac074df61973ecea4096aee"
+    },
+    "sound/hu.mp3": {
+      "bytes": 17712,
+      "sha1": "81fc76551221c5321f856182bd6df076b65f9aff",
+      "text": "e42bd8b86042f2f66c4d6e63a7769378a10eeb1d"
+    },
+    "read/es.mp3": {
+      "bytes": 1573488,
+      "sha1": "1bd674648cae7b54a82414c9fac331fe12254868",
+      "text": "1feefd045813478224deaf3a7b747aed073ca41a"
+    },
+    "read/de.mp3": {
+      "bytes": 1825488,
+      "sha1": "c5401bcf300efeaa6e7b91409539d545cbfa7d77",
+      "text": "9256ca419835c056d14ec448658d73da30810152"
+    },
+    "read/it.mp3": {
+      "bytes": 1621872,
+      "sha1": "1c4b0658600a5ecd526f1e7b3717ff7dd592698c",
+      "text": "cd8b45c75ed5032ac89e7d399a1b0e45710d49a7"
+    },
+    "read/en.mp3": {
+      "bytes": 1565856,
+      "sha1": "1f1536b5a573f0f975609a2f67e4cd636e4bfb55",
+      "text": "151630ada77ca032e5755f92e567b235512351d7"
+    },
+    "read/fr.mp3": {
+      "bytes": 1549584,
+      "sha1": "9f2b2cbe867fa93ecbcebb692a99df601aa1eb37",
+      "text": "e6778259b7439038dca1935f4d033308838c05a7"
+    },
+    "read/ro.mp3": {
+      "bytes": 1603152,
+      "sha1": "cebe3d75d222b015e2a8d5c39031f3689dc002c1",
+      "text": "df8a5097b6df5c6f0f4d907cb361159fafa8f60c"
+    },
+    "read/ru.mp3": {
+      "bytes": 1616544,
+      "sha1": "88e01889fe53e07ee5529e2f4d73dd5cd3fbb16d",
+      "text": "d4b98f1c75b671b4392868bdcc419a7ab491f5d0"
+    },
+    "read/hu.mp3": {
+      "bytes": 1684512,
+      "sha1": "8d9e3fb939e3b8faaaf9490b57908917d427db15",
+      "text": "01abd46236149d90242e37e125a7b384ddd27792"
+    },
+    "read/pt.mp3": {
+      "bytes": 1634832,
+      "sha1": "e54a016065ac79fdf4069209a7ab619adab14a6a",
+      "text": "f84e4b3de0fdb1de026a6022de9bff064e3c44e6"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 181374,
+      "sha1": "5603ac924a68453591ec24d26f1210b40c7e3167",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 173005,
+      "sha1": "50451967ce31e1c102f85821379704ec7615167d",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 159265,
+      "sha1": "44b322543a339c8becd37d6acd02346a19a411d8",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 164760,
+      "sha1": "ff0db8406468f4d8eea30130de81a188c85c0917",
+      "page": 3
+    },
+    {
+      "file": "images/4.jpg",
+      "bytes": 174575,
+      "sha1": "bc7d472ab2617cfd63b3fe245dc18e9a0381380e",
+      "page": 4
+    },
+    {
+      "file": "images/5.jpg",
+      "bytes": 173092,
+      "sha1": "cac363a844d74d86b3c318763dd8bfc2885b4903",
+      "page": 5
+    }
+  ],
+  "readSections": {
+    "es": [
+      0,
+      16.175,
+      32.025,
+      48.712,
+      63.062,
+      77.325,
+      91.175,
+      104.45,
+      117,
+      133.738,
+      148.913,
+      165.813,
+      178.763,
+      192.188,
+      205.55,
+      220.15,
+      234.813,
+      248.45
+    ],
+    "de": [
+      0,
+      18.45,
+      36.337,
+      54.125,
+      70.838,
+      87.175,
+      102.925,
+      118.75,
+      134.738,
+      153.338,
+      170.613,
+      188.075,
+      204.3,
+      218.688,
+      235.113,
+      253.175,
+      271.55,
+      287.088
+    ],
+    "it": [
+      0,
+      17,
+      34.663,
+      51.875,
+      66.425,
+      80.4,
+      94.337,
+      108.837,
+      121.525,
+      139.325,
+      154.912,
+      171.1,
+      185.262,
+      199.287,
+      212.438,
+      227.562,
+      242.375,
+      256.262
+    ],
+    "en": [
+      0,
+      16.363,
+      32.825,
+      48.663,
+      63.513,
+      76.288,
+      90.5,
+      103.663,
+      116.875,
+      132.625,
+      147.637,
+      163.375,
+      177.5,
+      190.588,
+      204.575,
+      219.588,
+      234.488,
+      246.688
+    ],
+    "fr": [
+      0,
+      15.662,
+      32.462,
+      47.375,
+      61.712,
+      75.125,
+      89.1,
+      101.7,
+      114,
+      131.537,
+      147.35,
+      163.025,
+      175.688,
+      189.25,
+      202.662,
+      217.812,
+      231.812,
+      244.325
+    ],
+    "ro": [
+      0,
+      16.062,
+      32.712,
+      48.8,
+      62.438,
+      77,
+      91.55,
+      104.837,
+      118.187,
+      135.525,
+      149.612,
+      166.075,
+      180.012,
+      193.962,
+      207.562,
+      222.912,
+      237.525,
+      251.862
+    ],
+    "ru": [
+      0,
+      17.613,
+      34.438,
+      50.4,
+      65.25,
+      80.4,
+      93.825,
+      108.1,
+      123.675,
+      138.675,
+      154.188,
+      168.95,
+      183.412,
+      197.35,
+      211.4,
+      227.125,
+      241.05,
+      255.113
+    ],
+    "hu": [
+      0,
+      14.387,
+      30.9,
+      46.4,
+      62.225,
+      78.212,
+      93.175,
+      107.737,
+      122.662,
+      141.512,
+      157.312,
+      175.1,
+      190.137,
+      204.712,
+      218.962,
+      235.8,
+      252.062,
+      266.438
+    ],
+    "pt": [
+      0,
+      17.488,
+      35.075,
+      51.863,
+      66.675,
+      81.413,
+      95.625,
+      109.063,
+      122.763,
+      139.588,
+      154.662,
+      171.25,
+      184.988,
+      198.938,
+      213.613,
+      228.088,
+      243.25,
+      258.025
+    ]
+  }
+}
