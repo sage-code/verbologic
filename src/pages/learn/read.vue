@@ -116,6 +116,35 @@ async function loadArticle() {
   articleRow.value = row
 }
 
+/**
+ * The LT02 grammar topics this article draws on (`grammar` in the article file),
+ * each with the first item of the topic to open.
+ */
+const grammarLinks = computed(() => {
+  const codes = articleRow.value ? (articleRow.value.meta.grammar ?? []) : []
+  if (!codes.length) return []
+  let sections: SidebarSection[] = []
+  try {
+    sections = useSidebars().get('library/lectures').sections
+  } catch {
+    return []
+  }
+  const topics = sections.flatMap((section) => section.topics)
+  const lang = param(route.query.lang)
+  return codes.flatMap((code) => {
+    const topic = topics.find((t) => t.code === code)
+    const first = topic?.items?.[0]
+    if (!topic || !first) return []
+    return [
+      {
+        code,
+        name: mediaName(topic.names, uiLang.value, code),
+        to: `/learn/read?id=${encodeURIComponent(`${code}:${first}`)}&lang=${lang}&doc=${docLocale.value}`
+      }
+    ]
+  })
+})
+
 /** The topic's items for the language being learned, in sidebar order: Previous and Next walk this list. */
 const siblingIds = ref<string[]>([])
 
@@ -965,6 +994,19 @@ useSeoMeta({
                 <span v-if="glossName(row.names, row.lang, uiLang)" class="block text-sm text-muted">{{ row.term }}</span>
                 <span v-if="row.ipa" class="block ipa text-xs text-muted">{{ row.ipa }}</span>
               </span>
+            </li>
+          </ul>
+        </section>
+        <!-- Grammar: the LT02 topics this article's notes draw on -->
+        <section v-if="grammarLinks.length" class="shrink-0 space-y-2">
+          <h2 class="text-sm font-semibold uppercase tracking-wide text-faint">
+            {{ copy('lecture.see_grammar', 'See Introduction to Grammar') }}
+          </h2>
+          <ul class="flex flex-wrap gap-2">
+            <li v-for="link in grammarLinks" :key="link.code">
+              <NuxtLink :to="link.to" class="inline-block rounded-lg border border-edge bg-surface px-3 py-1.5 text-sm text-accent hover:underline">
+                {{ link.name }}
+              </NuxtLink>
             </li>
           </ul>
         </section>

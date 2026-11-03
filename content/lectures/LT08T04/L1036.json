@@ -13,6 +13,11 @@
     "pt": "A história da capital",
     "ro": "Istoria capitalei"
   },
+  "grammar": [
+    "LT02T05",
+    "LT02T17",
+    "LT02T19"
+  ],
   "locales": {
     "en": {
       "title": "History of the capital",
@@ -120,6 +125,113 @@
               "type": "paragraphs",
               "paragraphs": [
                 "London has been the capital of England for nearly a thousand years, and today it is among the largest financial centres in the world. The Monument, a tall column near London Bridge, marks the place where the Great Fire began."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Istoria capitalei",
+      "summary": "În această lecție învățăm despre istoria orașului București și folosim timpul trecut pentru a povesti evenimente istorice.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Această lecție prezintă pe scurt istoria capitalei României. Veți învăța să povestiți evenimente din trecut folosind cuvinte simple. Acest lucru vă ajută să vizitați muzee și monumente istorice."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Bucureștiul este capitala României de peste o sută cincizeci de ani. Orașul a apărut pentru prima dată într-un document vechi. Astăzi, ghidul Andrei vorbește cu turiștii în Centrul Vechi."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Andrei",
+                  "text": "Bucureștiul a fost menționat pentru prima dată în anul 1459."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Cine a condus țara în acea perioadă?"
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Domnitorul Vlad Țepeș a semnat acel document important."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Când a devenit Bucureștiul capitala țării?"
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Orașul a devenit capitală în secolul al nouăsprezecelea."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Perfectul compus pentru evenimente istorice** Pentru a povesti fapte din istorie folosim **perfectul compus**, format din verbul auxiliar **a avea** și participiu.",
+                "Domnitorul Vlad Țepeș a semnat acel document important.",
+                "Vezi Introducere în gramatică: Timpurile trecute și aspectul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Infinitiv</th><th>Persoana a III-a singular</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>a semna</strong></td><td><strong>el/ea a semnat</strong></td><td><strong>Vlad Țepeș a semnat.</strong></td></tr><tr><td><strong>a deveni</strong></td><td><strong>el/ea a devenit</strong></td><td><strong>Orașul a devenit capitală.</strong></td></tr><tr><td><strong>a fi</strong></td><td><strong>el/ea a fost</strong></td><td><strong>El a fost domnitor.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Diateza pasivă în trecut** Construcția pasivă la trecut se formează cu verbul **a fi** la perfect compus și participiul acordat în gen și număr.",
+                "Bucureștiul a fost menționat pentru prima dată în anul 1459.",
+                "Vezi Introducere în gramatică: Diateza, verbe reflexive și impersonale."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Subiect</th><th>Forma pasivă</th><th>Gen și număr</th></tr></thead><tbody><tr><td><strong>Orașul</strong></td><td><strong>a fost menționat</strong></td><td><strong>neutru singular</strong></td></tr><tr><td><strong>Cetatea</strong></td><td><strong>a fost menționată</strong></td><td><strong>feminin singular</strong></td></tr><tr><td><strong>Documentele</strong></td><td><strong>au fost menționate</strong></td><td><strong>neutru plural</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În limba română, participiul din forma pasivă se acordă în gen și număr cu subiectul.",
+                "Nu confundați verbul auxiliar «a fi» din pasiv cu verbul «a avea» din perfectul compus activ.",
+                "În povestirea istorică românească se folosește adesea perfectul compus, nu doar perfectul simplu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Bucureștiul a fost atestat documentar pentru prima dată în anul 1459, într-un act emis de domnitorul Vlad Țepeș. Orașul a devenit capitala Principatelor Unite în anul 1862. Datorită arhitecturii sale elegante, orașul a fost supranumit «Micul Paris»."
               ]
             }
           ]

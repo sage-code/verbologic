@@ -26,7 +26,7 @@ import { LOCALES } from './locales.mjs'
 
 /** Article-level keys, in file order. */
 export const ARTICLE_KEYS = [
-  'entity_id', 'targets', 'order', 'minutes', 'paragraphsPerPage', 'terms', 'related', 'video', 'image', 'context', 'locales'
+  'entity_id', 'targets', 'order', 'minutes', 'paragraphsPerPage', 'terms', 'related', 'grammar', 'video', 'image', 'context', 'locales'
 ]
 /** Per-language keys, in file order. */
 export const LOCALE_KEYS = [
@@ -34,7 +34,7 @@ export const LOCALE_KEYS = [
 ]
 /** Front-matter keys that follow from the path, so the file does not store them. */
 export const DERIVED_KEYS = ['track', 'topic', 'article', 'locale']
-const ARTICLE_META = ['order', 'minutes', 'paragraphsPerPage', 'terms', 'related', 'video', 'image', 'context']
+const ARTICLE_META = ['order', 'minutes', 'paragraphsPerPage', 'terms', 'related', 'grammar', 'video', 'image', 'context']
 const LOCALE_META = ['title', 'summary', 'status', 'sourceSha', 'reviewedAt']
 
 const rank = (keys) => (a, b) => {

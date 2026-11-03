@@ -13,6 +13,11 @@
     "pt": "As estações no campo",
     "ro": "Anotimpurile la țară"
   },
+  "grammar": [
+    "LT02T05",
+    "LT02T17",
+    "LT02T19"
+  ],
   "locales": {
     "en": {
       "title": "Seasons in the countryside",
@@ -120,6 +125,125 @@
               "type": "paragraphs",
               "paragraphs": [
                 "The seasonal cycle shapes the weekly routine of every farm. Many people in the countryside still follow old sayings about the weather, such as Red sky at night, shepherd's delight."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Anotimpurile la țară",
+      "summary": "În această lecție învățăm despre anotimpurile la sat și cuvintele care arată timpul și succesiunea.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Lecția prezintă activitățile țăranilor în fiecare anotimp al anului. Veți învăța cuvinte pentru timp și pentru ordinea acțiunilor. Aceste noțiuni vă ajută să descrieți viața de zi cu zi la țară."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "La sat, viața oamenilor depinde de fiecare anotimp. Primăvara, țăranii seamănă porumbul și curăță grădinile. Vara, ei cosesc iarba pentru fân. Toamna culeg viile, iar iarna îngrijesc animalele în grajd."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Radu",
+                  "text": "Nea Vasile, ce munci faceți **primăvara** în gospodărie?"
+                },
+                {
+                  "speaker": "Vasile",
+                  "text": "**Mai întâi** curățăm livada, iar **apoi** arăm pământul."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Și ce faceți **în timpul verii**?"
+                },
+                {
+                  "speaker": "Vasile",
+                  "text": "**Vara** strângem fânul uscat pentru vite."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Iarna este mai liniștită la țară?"
+                },
+                {
+                  "speaker": "Vasile",
+                  "text": "**Iarna** stăm mai mult lângă sobă și reparăm uneltele."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Anotimpurile folosite ca adverbe de timp** Numele anotimpurilor fără prepoziție pot funcționa direct ca adverbe de **timp**.",
+                "**Vara** strângem fânul uscat pentru vite.",
+                "Vezi Introducere în gramatică: Adverbul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Anotimp</th><th>Formă adverbială</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>primăvară</strong></td><td><strong>primăvara</strong></td><td><strong>Primăvara semănăm.</strong></td></tr><tr><td><strong>vară</strong></td><td><strong>vara</strong></td><td><strong>Vara cosim iarba.</strong></td></tr><tr><td><strong>toamnă</strong></td><td><strong>toamna</strong></td><td><strong>Toamna culegem strugurii.</strong></td></tr><tr><td><strong>iarnă</strong></td><td><strong>iarna</strong></td><td><strong>Iarna îngrijim animalele.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Conectori pentru ordinea acțiunilor** Adverbele precum **mai întâi** și **apoi** arată ordinea firească a întâmplărilor.",
+                "**Mai întâi** curățăm livada, iar **apoi** arăm pământul.",
+                "Vezi Introducere în gramatică: Conjuncțiile și legarea propozițiilor."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Conector</th><th>Sens</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>mai întâi</strong></td><td><strong>la început</strong></td><td><strong>Mai întâi semănăm.</strong></td></tr><tr><td><strong>apoi</strong></td><td><strong>după aceea</strong></td><td><strong>Apoi udăm plantele.</strong></td></tr><tr><td><strong>în timp ce</strong></td><td><strong>simultan</strong></td><td><strong>Cântăm în timp ce muncim.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**3. Exprimarea perioadei cu prepoziții** Folosim structura **în timpul** urmată de genitiv pentru a arăta o perioadă.",
+                "Și ce faceți **în timpul verii**?",
+                "Vezi Introducere în gramatică: Prepoziții și cazuri."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În limba română spunem adesea simplu 'vara' sau 'iarna', fără prepoziția 'în'.",
+                "Nu confundați substantivul 'o vară' cu adverbul de timp 'vara'.",
+                "După locuțiunea 'în timpul' folosim mereu cazul genitiv: 'în timpul verii'."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În satele românești, strânsul fânului este o muncă importantă de vară. Oamenii usucă iarba la soare și clădesc căpițe mari pe dealuri. Iarna, fânul adunat hrănește oile și vacile din gospodărie."
               ]
             }
           ]

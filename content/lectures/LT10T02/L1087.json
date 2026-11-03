@@ -13,6 +13,11 @@
     "pt": "Descobertas em biologia e medicina",
     "ro": "Descoperiri în biologie și medicină"
   },
+  "grammar": [
+    "LT02T14",
+    "LT02T19",
+    "LT02T21"
+  ],
   "locales": {
     "en": {
       "title": "Discoveries in biology and medicine",
@@ -90,6 +95,109 @@
               "type": "paragraphs",
               "paragraphs": [
                 "The word vaccine comes from Latin vacca, a cow, a reminder of Jenner's experiment with cowpox."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Descoperiri în biologie și medicină",
+      "summary": "Lecția prezintă descoperiri românești din medicină și explică folosirea timpurilor trecute pentru acțiuni anterioare.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În această lecție vei citi despre mari savanți români din biologie și medicină. Vei învăța cum să povestești evenimente istorice folosind mai-mult-ca-perfectul și diateza pasivă. Aceste structuri te ajută să scrii texte clare și precise."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "România are o istorie bogată în domeniul cercetării medicale. La București și la Cluj funcționează universități de medicină foarte apreciate. Tinerii cercetători continuă munca marilor savanți din trecut."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Elena",
+                  "text": "Știai că Nicolae Paulescu **descoperise** pancreina înaintea altor cercetători?"
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Da, iar George Emil Palade a primit Premiul Nobel pentru medicină."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "El **studiase** la București înainte de plecarea în Statele Unite."
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Multe boli periculoase **au fost eliminate** prin vaccinuri românești."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Mai-mult-ca-perfectul** Mai-mult-ca-perfectul este un timp trecut care arată o acțiune încheiată înaintea altei acțiuni trecute.",
+                "Știai că Nicolae Paulescu **descoperise** pancreina înaintea altor cercetători?",
+                "Vezi Introducere în gramatică: Timpurile trecute și aspectul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Persoană</th><th>A descoperi</th><th>A studia</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>descoperisem</strong></td><td><strong>studiasem</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>descoperiseși</strong></td><td><strong>studiaseși</strong></td></tr><tr><td><strong>el / ea</strong></td><td><strong>descoperise</strong></td><td><strong>studiase</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>descoperiserăm</strong></td><td><strong>studiaserăm</strong></td></tr><tr><td><strong>voi</strong></td><td><strong>descoperiserăți</strong></td><td><strong>studiaserăți</strong></td></tr><tr><td><strong>ei / ele</strong></td><td><strong>descoperiseră</strong></td><td><strong>studiaseră</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Diateza pasivă** Diateza pasivă arată că subiectul primește acțiunea și se formează cu verbul **a fi** și participiul.",
+                "Multe boli periculoase **au fost eliminate** prin vaccinuri românești.",
+                "Vezi Introducere în gramatică: Diateza, verbe reflexive și impersonale."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Timp</th><th>Diateza activă</th><th>Diateza pasivă</th></tr></thead><tbody><tr><td><strong>Prezent</strong></td><td><strong>medicii elimină boala</strong></td><td><strong>boala este eliminată</strong></td></tr><tr><td><strong>Perfect compus</strong></td><td><strong>medicii au eliminat boala</strong></td><td><strong>boala a fost eliminată</strong></td></tr><tr><td><strong>Viitor</strong></td><td><strong>medicii vor elimina boala</strong></td><td><strong>boala va fi eliminată</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Cuvântul **vaccin** este de genul neutru și are pluralul **vaccinuri**.",
+                "În limba română, mai-mult-ca-perfectul este un timp simplu, format dintr-un singur cuvânt.",
+                "Participiul din diateza pasivă se acordă mereu în gen și număr cu subiectul."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Savantul român George Emil Palade a primit Premiul Nobel în 1974 pentru descoperiri fundamentale în biologia celulară. De asemenea, Institutul Cantacuzino din București a produs decenii la rând vaccinuri esențiale pentru sănătatea publică."
               ]
             }
           ]

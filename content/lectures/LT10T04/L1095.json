@@ -13,6 +13,11 @@
     "pt": "Médicos famosos",
     "ro": "Medici celebri"
   },
+  "grammar": [
+    "LT02T14",
+    "LT02T19",
+    "LT02T21"
+  ],
   "locales": {
     "en": {
       "title": "Famous doctors",
@@ -90,6 +95,109 @@
               "type": "paragraphs",
               "paragraphs": [
                 "Mary Seacole's statue stands outside St Thomas' Hospital in London, near the Nightingale Museum."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Medici celebri",
+      "summary": "Această lecție prezintă medici români celebri și modul în care evidențiem o persoană importantă într-o propoziție.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În această lecție vei citi despre câțiva pionieri ai medicinei românești. Vei învăța cum să vorbești despre realizări și evenimente istorice. De asemenea, vei exersa structurile folosite pentru a evidenția o persoană."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "România a avut mulți medici celebri cu descoperiri remarcabile în știință. Ana Aslan a creat produse faimoase împotriva îmbătrânirii. Carol Davila a fondat învățământul medical românesc în secolul al nouăsprezecelea."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Matei",
+                  "text": "Știai că Ana Aslan a fost **cea care** a fondat primul institut de geriatrie?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Da, ea a tratat pacienți din toată lumea **din** 1952 **până în** 1988."
+                },
+                {
+                  "speaker": "Matei",
+                  "text": "Carol Davila a fost **cel care** a organizat serviciul medical militar."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Victor Babeș a scris primul tratat de bacteriologie **în** anul 1885."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Exprimarea timpului cu prepoziții** Folosim prepozițiile **din**, **până în** și **în** pentru a fixa evenimentele pe axa timpului.",
+                "Da, ea a tratat pacienți din toată lumea **din** 1952 **până în** 1988.",
+                "Vezi Introducere în gramatică: Prepoziții și cazuri."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Prepoziție</th><th>Rol</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>în</strong></td><td><strong>arată momentul exact</strong></td><td><strong>în anul 1885</strong></td></tr><tr><td><strong>din</strong></td><td><strong>arată punctul de plecare</strong></td><td><strong>din anul 1952</strong></td></tr><tr><td><strong>până în</strong></td><td><strong>arată limita de final</strong></td><td><strong>până în anul 1988</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Evidențierea unei persoane cu pronume demonstrativ** Folosim formele **cel care** sau **cea care** după verbul a fi pentru a sublinia autorul unei acțiuni.",
+                "Carol Davila a fost **cel care** a organizat serviciul medical militar.",
+                "Vezi Introducere în gramatică: Alte pronume."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Gen și număr</th><th>Formă de accentuare</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Masculin singular</strong></td><td><strong>cel care</strong></td><td><strong>El a fost cel care a ajutat.</strong></td></tr><tr><td><strong>Feminin singular</strong></td><td><strong>cea care</strong></td><td><strong>Ea a fost cea care a fondat.</strong></td></tr><tr><td><strong>Plural</strong></td><td><strong>cei care / cele care</strong></td><td><strong>Ei au fost cei care au sosit.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Pentru a indica o perioadă sau un interval de timp, folosim corelația „din... până în...” urmată de ani.",
+                "Structura de evidențiere folosește „cel care” sau „cea care”, acordate în gen și număr cu persoana menționată.",
+                "Prepoziția compusă „până în” se folosește înaintea anilor exprimați prin cifre."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Universitatea de Medicină și Farmacie din București poartă numele medicului Carol Davila. De asemenea, Institutul Național de Geriatrie și Gerontologie poartă numele Anei Aslan."
               ]
             }
           ]

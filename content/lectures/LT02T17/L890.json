@@ -95,6 +95,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Rolul prepozițiilor",
+      "summary": "Prepoziția leagă cuvintele din propoziție și arată relații de loc, timp, direcție sau mod.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prepoziția este un cuvânt de legătură. Ea leagă un substantiv sau un pronume de alte cuvinte din propoziție. Prepoziția arată locul, timpul, direcția sau modul unei acțiuni. În limba română, cele mai multe prepoziții cer cazul acuzativ."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Cartea este **pe** masă.",
+                "Plecăm **la** munte mâine.",
+                "Vorbim **cu** Andrei."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prepoziția stă mereu în fața cuvântului pe care îl leagă. Ea nu își schimbă niciodată forma. După prepoziție, substantivul primește adesea o formă specifică de caz. Cele mai comune prepoziții simple sunt: în, la, pe, cu și pentru."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Prepoziție</th><th>Rol</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>în</strong></td><td><strong>Loc (interior)</strong></td><td><strong>Cheia este **în** geantă.</strong></td></tr><tr><td><strong>pe</strong></td><td><strong>Loc (suprafață)</strong></td><td><strong>Pisica stă **pe** scaun.</strong></td></tr><tr><td><strong>la</strong></td><td><strong>Direcție sau destinație</strong></td><td><strong>Mergem **la** teatru.</strong></td></tr><tr><td><strong>cu</strong></td><td><strong>Însoțire sau instrument</strong></td><td><strong>Călătoresc **cu** trenul.</strong></td></tr><tr><td><strong>pentru</strong></td><td><strong>Scop sau beneficiar</strong></td><td><strong>Cadoul este **pentru** tine.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

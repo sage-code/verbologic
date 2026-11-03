@@ -34,7 +34,7 @@ Verbologic maintenance runner
   ./run.sh media upload [--apply]       Differential R2 sync (Cloudflare API; default reports, --apply transfers)
   ./run.sh media prune [--apply]        R2 objects no manifest references (default reports, --apply deletes)
   ./run.sh scaffold <lang> <TOPIC> <seed.json>  Seed a blank dictionary topic with pending manifests
-  ./run.sh lecture <new|status|translate|review>  Lecture content tooling (content/lectures)
+  ./run.sh lecture <new|status|grammar|translate|review>  Lecture content tooling (content/lectures)
   ./run.sh articles check               Article JSON files are canonical (Node and Python writers agree)
   ./run.sh create story <topic-code> [n]  Write n (default 1) illustrated stories for a topic at its CEFR level (Gemini text + pictures + audio)
   ./run.sh create story --next [ST02] [n]  Same, in the first topic with no stories yet (optionally within one chapter)

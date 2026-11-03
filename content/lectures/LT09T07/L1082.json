@@ -95,6 +95,113 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Limba diasporei",
+      "summary": "Lecția analizează modul în care limba română se schimbă în comunitățile din străinătate.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Românii din diaspora folosesc adesea cuvinte noi din limbile locale. Această lecție prezintă adaptarea limbii și folosirea structurilor impersonale formale. Veți învăța să discutați despre variația lingvistică într-un stil academic."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Milioane de români trăiesc astăzi în afara granițelor țării. În comunitățile din Italia sau Spania apar împrumuturi lingvistice noi. Lingviștii studiază aceste schimbări din limba vorbită cu mult interes."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Andrei",
+                  "text": "Mulți români din diaspora amestecă adesea cuvintele românești cu cele străine."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Da, se consideră că acest fenomen este natural în comunitățile bilingve."
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Dacă s-ar acorda mai multă atenție educației, tinerii ar păstra vocabularul standard."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Se observă totuși o dorință mare de a păstra limba maternă."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Structuri impersonale în registrul academic** Verbele reflexive cu pronumele **se** exprimă opinii într-un mod neutru și formal.",
+                "Da, **se consideră** că acest fenomen este natural în comunitățile bilingve.",
+                "Vezi Introducere în gramatică: Diateza, verbe reflexive și impersonale."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Registru informal</th><th>Registru academic</th></tr></thead><tbody><tr><td><strong>Credem că...</strong></td><td><strong>**Se consideră** că...</strong></td></tr><tr><td><strong>Vedem că...</strong></td><td><strong>**Se observă** că...</strong></td></tr><tr><td><strong>Știm că...</strong></td><td><strong>**Se știe** că...</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Condiționalul-optativ pentru ipoteze** Folosim modul condițional-optativ la forma impersonală cu particula **s-ar** pentru a exprima o ipoteză generală.",
+                "Dacă **s-ar acorda** mai multă atenție educației, tinerii ar păstra vocabularul standard.",
+                "Vezi Introducere în gramatică: Modurile: imperativ, conjunctiv și condițional."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Condiție ipotetică</th><th>Rezultat</th></tr></thead><tbody><tr><td><strong>Dacă **s-ar vorbi** românește...</strong></td><td><strong>...limba s-ar păstra.</strong></td></tr><tr><td><strong>Dacă **s-ar citi** cărți...</strong></td><td><strong>...vocabularul s-ar îmbogăți.</strong></td></tr><tr><td><strong>Dacă **s-ar studia** gramatica...</strong></td><td><strong>...greșelile s-ar reduce.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Termenul „romgleză” descrie colocvial amestecul dintre limba română și limba engleză.",
+                "În stilul academic românesc se preferă verbele impersonale în locul pronumelui „eu”."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Unele dintre cele mai mari comunități recente de români din Europa se află în Italia și Spania. Mulți autori din diaspora publică reviste și cărți pentru păstrarea limbii române."
+              ]
+            }
+          ]
+        }
+      ]
     }
-  }
+  },
+  "grammar": [
+    "LT02T11",
+    "LT02T14",
+    "LT02T19"
+  ]
 }

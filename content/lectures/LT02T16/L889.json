@@ -90,6 +90,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Poziția adverbelor",
+      "summary": "În limba română, adverbul stă de obicei după verb, dar poate sta și la începutul propoziției.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adverbul determină un verb, un adjectiv sau un alt adverb. În propoziție, locul adverbului depinde de tipul lui. Cele mai multe adverbe stau după verb, însă unele pot sta și la începutul propoziției."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Ea vorbește **repede**.",
+                "**Mâine** mergem la teatru.",
+                "Voi locuiți **aici**?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adverbele de mod stau cel mai des după verb. Adverbele de grad stau înaintea cuvântului pe care îl determină. Adverbele „doar” și „numai” stau chiar în fața cuvântului accentuat. Schimbarea locului poate modifica sensul propoziției."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tip de adverb</th><th>Poziție obișnuită</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Mod (cum?)</strong></td><td><strong>După verb</strong></td><td><strong>El citește **atent**.</strong></td></tr><tr><td><strong>Timp (când?)</strong></td><td><strong>La început sau după verb</strong></td><td><strong>**Azi** învățăm românește.</strong></td></tr><tr><td><strong>Loc (unde?)</strong></td><td><strong>După verb</strong></td><td><strong>Noi stăm **acolo**.</strong></td></tr><tr><td><strong>Grad (cât?)</strong></td><td><strong>Înaintea unui adjectiv sau adverb</strong></td><td><strong>Ea este **foarte** calmă.</strong></td></tr><tr><td><strong>Limitare (doar)</strong></td><td><strong>Înaintea cuvântului accentuat</strong></td><td><strong>Vreau **doar** o cafea.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

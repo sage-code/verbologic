@@ -22,7 +22,7 @@ from locales import LOCALES  # noqa: E402
 
 ARTICLE_KEYS = [
     "entity_id", "targets", "order", "minutes", "paragraphsPerPage",
-    "terms", "related", "video", "image", "context", "locales",
+    "terms", "related", "grammar", "video", "image", "context", "locales",
 ]
 LOCALE_KEYS = ["title", "summary", "status", "sourceSha", "reviewedAt", "sections", "paragraphs"]
 

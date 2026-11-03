@@ -13,6 +13,11 @@
     "pt": "A história da medicina",
     "ro": "Istoria medicinei"
   },
+  "grammar": [
+    "LT02T14",
+    "LT02T19",
+    "LT02T21"
+  ],
   "locales": {
     "en": {
       "title": "The history of medicine",
@@ -90,6 +95,109 @@
               "type": "paragraphs",
               "paragraphs": [
                 "John Snow's map of cholera cases is often called the beginning of modern epidemiology, the study of how diseases spread."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Istoria medicinei",
+      "summary": "Această lecție prezintă momente importante din medicina românească și arată exprimarea timpului întârziat cu adverbul abia.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Lecția prezintă pașii importanți din istoria medicinei în România. Veți afla cum au apărut spitalele și regulile de igienă. Acest text vă ajută să descrieți evenimente din trecut."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Carol Davila a înființat prima școală de medicină din București. Doctorii au învățat repede regulile moderne de igienă și prevenție. Abia în secolul al nouăsprezecelea s-au dezvoltat spitalele moderne."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Elena",
+                  "text": "Ai citit despre cercetările făcute de Victor Babeș?"
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Da, el a studiat bacteriile și a salvat mii de vieți."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Abia după multe eforturi oamenii au înțeles importanța igienei."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Astăzi, medicii folosesc tehnologii moderne pentru tratamente sigure."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Adverbul de timp «abia»** Pentru a arăta că o acțiune s-a întâmplat târziu, folosim adverbul **abia**.",
+                "**Abia** după multe eforturi oamenii au înțeles importanța igienei.",
+                "Vezi Introducere în gramatică: Adverbul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Timp neutru</th><th>Timp întârziat cu «abia»</th></tr></thead><tbody><tr><td><strong>În 1860 a apărut spitalul.</strong></td><td><strong>**Abia** în 1860 a apărut spitalul.</strong></td></tr><tr><td><strong>Ieri am primit răspunsul.</strong></td><td><strong>**Abia** ieri am primit răspunsul.</strong></td></tr><tr><td><strong>După un an a sosit ajutorul.</strong></td><td><strong>**Abia** după un an a sosit ajutorul.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Participiul cu rol de adjectiv** Un participiu precum **făcute** se acordă în gen și număr cu substantivul determinat.",
+                "Ai citit despre cercetările **făcute** de Victor Babeș?",
+                "Vezi Introducere în gramatică: Verbul: forme și clase."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Formă lungă cu pronume relativ</th><th>Formă scurtă cu participiu</th></tr></thead><tbody><tr><td><strong>cercetările care au fost făcute</strong></td><td><strong>cercetările **făcute**</strong></td></tr><tr><td><strong>regulile care au fost scrise</strong></td><td><strong>regulile **scrise**</strong></td></tr><tr><td><strong>spitalul care a fost construit</strong></td><td><strong>spitalul **construit**</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Româna nu folosește o structură lungă precum englezescul «it was not until», ci adverbul «abia».",
+                "Substantivul anestezie este de gen feminin și se scrie cu litera z, nu cu s.",
+                "După verbul a trebui folosim de regulă modul conjunctiv cu particula să («trebuie să învățăm»)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Medicul Carol Davila a organizat învățământul medical și serviciul militar de ambulanțe în România. Savantul Victor Babeș a publicat la Paris primul tratat complet de bacteriologie din lume. Numele lor sunt purtate astăzi de marile universități de medicină din țară."
               ]
             }
           ]

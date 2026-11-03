@@ -13,6 +13,11 @@
     "pt": "Descobertas sobre a Terra e o espaço",
     "ro": "Descoperiri despre Pământ și spațiu"
   },
+  "grammar": [
+    "LT02T14",
+    "LT02T19",
+    "LT02T21"
+  ],
   "locales": {
     "en": {
       "title": "Discoveries about the Earth and space",
@@ -90,6 +95,108 @@
               "type": "paragraphs",
               "paragraphs": [
                 "Halley's Comet returns about every 76 years. It was last seen in 1986, and it is expected again in 2061."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Descoperiri despre Pământ și spațiu",
+      "summary": "În această lecție învățăm despre Pământ, spațiu, numere mari și comparații utile în limba română.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Oamenii de știință au descoperit multe secrete despre Pământ și univers. Această lecție prezintă descoperiri majore despre vârsta și mărimea cosmosului. Vei învăța cum să exprimi numere foarte mari și cum să faci comparații."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Radu și Elena vizitează Observatorul Astronomic din București. Ei privesc cerul prin telescop și citesc despre planete. Ghidul le explică faptul că universul este într-o continuă expansiune. Pământul are o vârstă de peste patru miliarde de ani."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Elena",
+                  "text": "Știai că Pământul este mai vechi decât credeau oamenii din trecut?"
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Da, am citit că are peste patru miliarde de ani."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Iar universul este mult mai mare decât galaxia noastră!"
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Cercetătorii spun că universul se va extinde în continuare."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Numere mari: milioane și miliarde** Cuvântul **miliard** este un substantiv neutru și cere prepoziția **de** înaintea substantivului numărat.",
+                "Da, am citit că are peste patru **miliarde** de ani.",
+                "Vezi Introducere în gramatică: Numeralul, data și ora."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Singular</th><th>Plural</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>un milion</strong></td><td><strong>două milioane</strong></td><td><strong>un milion de stele</strong></td></tr><tr><td><strong>un miliard</strong></td><td><strong>două miliarde</strong></td><td><strong>patru miliarde de ani</strong></td></tr><tr><td><strong>un trilion</strong></td><td><strong>două trilioane</strong></td><td><strong>două trilioane de galaxii</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Comparația de superioritate** Pentru a compara două lucruri folosim adverbul **mai** înaintea adjectivului urmat de conjuncția **decât**.",
+                "Iar universul este mult **mai mare decât** galaxia noastră!",
+                "Vezi Introducere în gramatică: Adjectivul și comparația."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tip de comparație</th><th>Structură</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Superioritate</strong></td><td><strong>mai + adjectiv + decât</strong></td><td><strong>mai mare decât Pământul</strong></td></tr><tr><td><strong>Egalitate</strong></td><td><strong>la fel de + adjectiv + ca</strong></td><td><strong>la fel de vechi ca Soarele</strong></td></tr><tr><td><strong>Inferioritate</strong></td><td><strong>mai puțin + adjectiv + decât</strong></td><td><strong>mai puțin luminos decât Luna</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În limba română folosim cuvântul **miliard** pentru numărul cu nouă zerouri.",
+                "Nu uitați prepoziția **de** după numeralele mari: spunem mereu *milioane de ani*, nu *milioane ani*."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Dumitru Prunariu este singurul român care a zburat vreodată în spațiul cosmic. În anul 1981, el a petrecut aproape opt zile la bordul stației spațiale Saliut 6. Observatorul Astronomic din București poartă numele amiralului Vasile Urseanu."
               ]
             }
           ]

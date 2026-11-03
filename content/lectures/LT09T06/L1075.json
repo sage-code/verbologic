@@ -13,6 +13,11 @@
     "pt": "Poetas",
     "ro": "Poeți"
   },
+  "grammar": [
+    "LT02T11",
+    "LT02T14",
+    "LT02T19"
+  ],
   "locales": {
     "en": {
       "title": "Poets",
@@ -90,6 +95,117 @@
               "type": "paragraphs",
               "paragraphs": [
                 "Poets Laureate in Britain and the United States are officially named to write verse for national occasions."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Poeți",
+      "summary": "Lecția prezintă mari poeți români și explică ordinea cuvintelor și comparațiile folosite în limbajul poetic.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Această lecție vorbește despre poeții importanți din literatura română. Vei învăța cum se exprimă imaginile artistice în limba română. Astfel vei putea discuta despre poezii și cărți la nivelul B2."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Românii iubesc poezia și respectă memoria marilor scriitori. Mihai Eminescu este considerat poetul național al României. Alți poeți cunoscuți sunt George Bacovia și Lucian Blaga. Poeții folosesc des cuvinte așezate într-o ordine specială."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Elena",
+                  "text": "Ai citit vreo poezie scrisă de Mihai Eminescu?"
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Da, am citit aseară o poezie melancolică."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Îmi place cum sună dulcea lui vorbă."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Autorul pune adesea adjectivul înaintea substantivului."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Versurile lui sunt ca o poveste veche."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Poezia românească are multă muzicalitate."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Adjectivul antepus în stilul poetic** În poezie, **adjectivul** stă adesea înaintea substantivului pentru a sublinia o calitate deosebită.",
+                "Îmi place cum sună **dulcea lui vorbă**.",
+                "Vezi Introducere în gramatică: Ordinea cuvintelor și acordul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Ordinea obișnuită</th><th>Ordinea poetică</th><th>Sens artistic</th></tr></thead><tbody><tr><td><strong>vorba dulce</strong></td><td><strong>dulcea vorbă</strong></td><td><strong>vorbire melodioasă</strong></td></tr><tr><td><strong>luna mândră</strong></td><td><strong>mândra lună</strong></td><td><strong>strălucire nocturnă</strong></td></tr><tr><td><strong>noaptea neagră</strong></td><td><strong>neagra noapte</strong></td><td><strong>întuneric intens</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Comparația poetică** Cuvântul **ca** introduce o comparație directă între două elemente diferite.",
+                "Versurile lui sunt **ca o poveste** veche.",
+                "Vezi Introducere în gramatică: Adjectivul și comparația."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Element descris</th><th>Comparație</th><th>Sens</th></tr></thead><tbody><tr><td><strong>versurile</strong></td><td><strong>ca o poveste</strong></td><td><strong>pline de farmec</strong></td></tr><tr><td><strong>fața</strong></td><td><strong>ca zăpada</strong></td><td><strong>foarte albă și curată</strong></td></tr><tr><td><strong>ochii</strong></td><td><strong>ca marea</strong></td><td><strong>adânci și albaștri</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În română, cuvântul „vers” înseamnă un singur rând dintr-o poezie.",
+                "O strofă reprezintă un grup de versuri, nu o singură linie.",
+                "Nu confunda substantivul „rimă” cu noțiunea muzicală de „ritm”."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Mihai Eminescu este sărbătorit în fiecare an pe cincisprezece ianuarie. Această dată reprezintă Ziua Culturii Naționale în România. În școli și teatre au loc recitaluri de poezie."
               ]
             }
           ]

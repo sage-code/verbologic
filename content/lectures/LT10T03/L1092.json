@@ -13,6 +13,11 @@
     "pt": "Computadores e internet",
     "ro": "Calculatoare și internet"
   },
+  "grammar": [
+    "LT02T14",
+    "LT02T19",
+    "LT02T21"
+  ],
   "locales": {
     "en": {
       "title": "Computers and the internet",
@@ -90,6 +95,109 @@
               "type": "paragraphs",
               "paragraphs": [
                 "The Bletchley Park codebreakers worked in secret, and their achievement was not widely known until the 1970s. The site is now a museum."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Calculatoare și internet",
+      "summary": "O lecție despre calculatoare, internet și vocabularul tehnic esențial în limba română.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Această lecție prezintă termeni importanți despre tehnologie și calculatoare. Vei învăța cum să descrii dispozitive și acțiuni legate de internet. De asemenea, vei exersa folosirea corectă a conjunctivului."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Astăzi, calculatoarele și internetul fac parte din viața de zi cu zi. În România, industria tehnologiei s-a dezvoltat foarte rapid. Mulți tineri lucrează ca programatori în companii mari sau locale."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Andrei",
+                  "text": "Ce aplicație nouă ai instalat pe calculator?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Am descărcat un program care poate să verifice securitatea rețelei."
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Internetul din biroul nostru funcționează foarte rapid astăzi."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Vreau să învăț mai mult despre algoritmi și baze de date."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Pronumele relativ „care”** Pronumele relativ **care** leagă o propoziție atributivă de substantivul pe care îl determină.",
+                "Am descărcat un program **care** poate să verifice securitatea rețelei.",
+                "Vezi Introducere în gramatică: Alte pronume."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Caz</th><th>Formă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Nominativ / Acuzativ</strong></td><td><strong>care</strong></td><td><strong>programul care funcționează</strong></td></tr><tr><td><strong>Genitiv (masculin / neutru)</strong></td><td><strong>al cărui</strong></td><td><strong>calculatorul al cărui ecran este nou</strong></td></tr><tr><td><strong>Genitiv (feminin)</strong></td><td><strong>a cărei</strong></td><td><strong>rețeaua a cărei viteză este mare</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Conjunctivul după verbe de voință și modale** După verbe precum **a vrea**, **a putea** sau **a trebui**, în limba română se folosește foarte frecvent modul conjunctiv cu particula **să**.",
+                "Vreau **să învăț** mai mult despre algoritmi și baze de date.",
+                "Vezi Introducere în gramatică: Verbe modale și moduri nepersonale."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Verb regent</th><th>Formă cu să</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>a vrea</strong></td><td><strong>să învăț</strong></td><td><strong>Vreau să învăț programare.</strong></td></tr><tr><td><strong>a putea</strong></td><td><strong>să verifice</strong></td><td><strong>Aplicația poate să verifice fișiere.</strong></td></tr><tr><td><strong>a trebui</strong></td><td><strong>să salvezi</strong></td><td><strong>Trebuie să salvezi documentul.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În limba română, după verbe ca a vrea se folosește modul conjunctiv cu particula să, nu infinitivul (de exemplu: „vreau să învăț”, nu „vreau a învăța”).",
+                "Substantivele împrumutate precum software sau hardware sunt de genul neutru și nu își schimbă forma.",
+                "Cuvântul internet se folosește cel mai des cu articolul hotărât enclitic: internetul."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "România este recunoscută la nivel european pentru viteza mare a conexiunilor la internet prin fibră optică. Orașul Cluj-Napoca a devenit un centru important pentru industria tehnologiei informației."
               ]
             }
           ]

@@ -13,6 +13,11 @@
     "pt": "Costumes de cumprimento",
     "ro": "Obiceiuri de salut"
   },
+  "grammar": [
+    "LT02T11",
+    "LT02T19",
+    "LT02T14"
+  ],
   "locales": {
     "en": {
       "title": "Greeting customs",
@@ -124,6 +129,113 @@
               "type": "paragraphs",
               "paragraphs": [
                 "English speakers often begin a conversation with a comment on the weather, not because they are interested in it, but because it is a safe topic. A friendly answer keeps the conversation going."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Obiceiuri de salut",
+      "summary": "Lecția prezintă formulele de salut și regulile de politețe la prima întâlnire în România.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Această lecție explică regulile de bază pentru salut și primele conversații. Veți învăța cum să faceți cunoștință într-un mod politicos și natural. Aceste obiceiuri vă ajută să creați o impresie excelentă în România."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Doi parteneri de afaceri se întâlnesc la o conferință în București. Ei își strâng mâna cu fermitate și se privesc în ochi. Salutul respectă regulile de politețe și deschide o conversație plăcută."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Andrei",
+                  "text": "Bună ziua, eu sunt Andrei Popescu."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Îmi pare bine de cunoștință, domnule Popescu!"
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Mă bucur mult să vă cunosc."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Dumneavoastră ați călătorit cu trenul, nu-i așa?"
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Da, drumul a fost foarte liniștit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Formule de prezentare** La prima întâlnire, verbul **a fi** exprimă identitatea direct și simplu.",
+                "Bună ziua, eu **sunt** Andrei Popescu.",
+                "Vezi Introducere în gramatică: Prezentul, ființare și posesie."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Funcție</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Prezentare directă</strong></td><td><strong>Eu sunt Andrei.</strong></td></tr><tr><td><strong>Prezentarea altei persoane</strong></td><td><strong>Acesta este domnul Popa.</strong></td></tr><tr><td><strong>Răspuns politicos</strong></td><td><strong>Îmi pare bine de cunoștință!</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Întrebări de confirmare** Expresia **nu-i așa** cere acordul interlocutorului la sfârșitul unei afirmații.",
+                "Dumneavoastră ați călătorit cu trenul, **nu-i așa**?",
+                "Vezi Introducere în gramatică: Negația și întrebările."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Afirmație</th><th>Întrebare de confirmare</th></tr></thead><tbody><tr><td><strong>Ați călătorit cu trenul</strong></td><td><strong>nu-i așa?</strong></td></tr><tr><td><strong>Vremea este frumoasă</strong></td><td><strong>nu-i așa?</strong></td></tr><tr><td><strong>Avem timp liber</strong></td><td><strong>nu-i așa?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În mediul profesional se folosește mereu pronumele de politețe „dumneavoastră”.",
+                "Bărbații își strâng mâna scurt și ferm la sosire și la plecare.",
+                "Prietenii apropiați și rudele se sărută adesea pe ambii obraji."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În România, o strângere fermă de mână arată respect la prima întâlnire. Discuțiile introductive încep adesea cu întrebări despre drum sau vreme. Oamenii apreciază întotdeauna politețea și un zâmbet cald."
               ]
             }
           ]

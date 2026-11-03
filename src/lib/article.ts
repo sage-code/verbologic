@@ -50,7 +50,7 @@ export interface ArticleRow {
   topic: string
   targets: string[] | null
   related: unknown[]
-  meta: { minutes?: number; paragraphsPerPage?: number; terms?: Record<string, string>; context?: Record<string, string> }
+  meta: { grammar?: string[]; minutes?: number; paragraphsPerPage?: number; terms?: Record<string, string>; context?: Record<string, string> }
   languages: string[]
   locales: Record<string, ArticleLocale>
 }

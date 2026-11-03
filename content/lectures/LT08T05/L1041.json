@@ -13,6 +13,11 @@
     "pt": "As cidades pequenas",
     "ro": "Orășele mici"
   },
+  "grammar": [
+    "LT02T05",
+    "LT02T17",
+    "LT02T19"
+  ],
   "locales": {
     "en": {
       "title": "Small towns",
@@ -120,6 +125,113 @@
               "type": "paragraphs",
               "paragraphs": [
                 "Many small towns have lost shops, but farmers' markets are growing again. Since more people can work from home, some small towns are attracting younger families who want a quieter life."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Orășele mici",
+      "summary": "Lecția prezintă viața într-un orășel din România, cu avantajele și dezavantajele specifice comunităților mici.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Mulți oameni preferă să locuiască într-un orășel liniștit. Această lecție prezintă avantajele și dezavantajele vieții din afara marilor orașe. Veți învăța cum să descrieți o comunitate mică."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Multe orășele din România au un centru istoric frumos și o piață săptămânală. Acolo viața este mai liniștită decât în marile metropole. Toată lumea se cunoaște și oamenii sunt prietenoși. Totuși, există mai puține locuri de muncă."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Radu",
+                  "text": "Vreau să ne mutăm într-un orășel precum Sighișoara."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Acolo este mai puțin zgomot, dar avem mai puține magazine."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Toată lumea vorbește frumos și aerul este curat."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Nimeni nu se grăbește dimineața la serviciu."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Putem lucra de acasă și putem trăi mai bine."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Acordul cu „toată lumea” și „nimeni”** Expresiile și pronumele precum **toată lumea** sau **nimeni** cer întotdeauna un verb la singular.",
+                "**Toată lumea** vorbește frumos și aerul este curat.",
+                "Vezi Introducere în gramatică: Alte pronume."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pronume sau expresie</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>toată lumea</strong></td><td><strong>Toată lumea **știe** vestea.</strong></td></tr><tr><td><strong>nimeni</strong></td><td><strong>Nimeni nu **pleacă** acum.</strong></td></tr><tr><td><strong>oricine</strong></td><td><strong>Oricine **poate** să vină.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Comparația: mai puțin și mai puține** Folosim **mai puțin** pentru substantive nenumărabile (la singular) și **mai puțini** sau **mai puține** pentru substantive numărabile la plural.",
+                "Acolo este **mai puțin** zgomot, dar avem **mai puține** magazine.",
+                "Vezi Introducere în gramatică: Adjectivul și comparația."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Formă</th><th>Substantiv</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>mai puțin</strong></td><td><strong>singular (nenumărabil)</strong></td><td><strong>Avem **mai puțin** zgomot.</strong></td></tr><tr><td><strong>mai puțini</strong></td><td><strong>plural masculin</strong></td><td><strong>Sunt **mai puțini** oameni.</strong></td></tr><tr><td><strong>mai puține</strong></td><td><strong>plural feminin sau neutru</strong></td><td><strong>Avem **mai puține** magazine.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Substantivul „lumea” este la singular în română, de aceea folosim verbul la persoana a treia singular.",
+                "Forma „mai puțini” sau „mai puține” se acordă în gen și număr cu substantivul numărabil.",
+                "Cuvântul „târg” poate însemna o piață săptămânală sau un oraș mic de provincie."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Multe orășele din Transilvania, cum ar fi Mediaș sau Râșnov, păstrează cetăți medievale vechi. În aceste localități, piața centrală este locul principal de întâlnire pentru locuitori. În fiecare săptămână, producătorii locali vând fructe, legume și brânzeturi tradiționale în târguri."
               ]
             }
           ]

@@ -13,6 +13,11 @@
     "pt": "A vida na aldeia",
     "ro": "Viața la sat"
   },
+  "grammar": [
+    "LT02T05",
+    "LT02T17",
+    "LT02T19"
+  ],
   "locales": {
     "en": {
       "title": "Village life",
@@ -124,6 +129,109 @@
               "type": "paragraphs",
               "paragraphs": [
                 "Many villages have lost shops and buses, but community groups often run them with the help of volunteers. A few villages have bought their own pub, so that it is not turned into a house."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Viața la sat",
+      "summary": "Această lecție prezintă viața de zi cu zi într-un sat românesc și descrierea locurilor rurale.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Lecția descrie viața liniștită de la sat și schimbările din comunitățile rurale. Înveți cum să descrii locurile importante dintr-un sat românesc. Acest text te ajută să vorbești despre tradiții și activități zilnice."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În satul bunicilor mei, viața este liniștită. În centru există o biserică veche și un magazin mic. Mulți oameni lucrează în grădină sau fac naveta la oraș. Un vecin nou discută pe uliță cu domnul Ion."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Mihai",
+                  "text": "Bună ziua! Există o farmacie aici, în sat?"
+                },
+                {
+                  "speaker": "Ion",
+                  "text": "Nu, în sat **este doar un magazin** mixt și un dispensar mic."
+                },
+                {
+                  "speaker": "Mihai",
+                  "text": "Autobuzul spre oraș vine des în timpul săptămânii?"
+                },
+                {
+                  "speaker": "Ion",
+                  "text": "Avem autobuz **atâta timp cât** școala este deschisă."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Exprimarea existenței cu verbul a fi** Pentru a arăta prezența unor lucruri, româna folosește verbul **a fi** sau verbul **a exista**.",
+                "Nu, în sat **este doar un magazin** mixt și un dispensar mic.",
+                "Vezi Introducere în gramatică: Prezentul, ființare și posesie."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Structură</th><th>Număr</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>este / e</strong></td><td><strong>singular</strong></td><td><strong>În centru este o școală.</strong></td></tr><tr><td><strong>sunt</strong></td><td><strong>plural</strong></td><td><strong>Pe uliță sunt mulți pomi.</strong></td></tr><tr><td><strong>există</strong></td><td><strong>singular și plural</strong></td><td><strong>Aici există tradiții vechi.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Restricția cu doar și condiția** Adverbul **doar** limitează o cantitate, iar expresia **atâta timp cât** introduce o condiție clară.",
+                "Avem autobuz **atâta timp cât** școala este deschisă.",
+                "Vezi Introducere în gramatică: Adverbul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Cuvânt</th><th>Rol</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>doar / numai</strong></td><td><strong>arată o limită</strong></td><td><strong>Avem doar un magazin.</strong></td></tr><tr><td><strong>atâta timp cât</strong></td><td><strong>exprimă o condiție</strong></td><td><strong>Stau aici atâta timp cât pot.</strong></td></tr><tr><td><strong>des</strong></td><td><strong>arată frecvența</strong></td><td><strong>Merg des la oraș.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În limba română nu există o structură fixă precum „there is”; folosim simplu verbul „este” sau „există”.",
+                "Cuvântul „uliță” denumește o stradă specifică satului tradițional, adesea nepavată.",
+                "Adverbele „doar” și „numai” au același sens și se așază de obicei înaintea termenului limitat."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În multe sate din România, biserica și școala sunt punctele centrale ale vieții comunității. Oamenii se adună duminica în fața porții pentru a discuta noutățile din sat. Meșteșugurile tradiționale și grădinăritul rămân activități importante pentru familiile de la țară."
               ]
             }
           ]

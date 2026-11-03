@@ -13,6 +13,11 @@
     "pt": "Máquinas e motores",
     "ro": "Mașini și motoare"
   },
+  "grammar": [
+    "LT02T14",
+    "LT02T19",
+    "LT02T21"
+  ],
   "locales": {
     "en": {
       "title": "Machines and engines",
@@ -90,6 +95,113 @@
               "type": "paragraphs",
               "paragraphs": [
                 "Brunel's SS Great Britain now lies in the dock in Bristol where it was built, and it is open to visitors as a museum."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Mașini și motoare",
+      "summary": "Această lecție prezintă industria auto și explică folosirea substantivelor provenite din verbe și a diatezei pasive.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În această lecție veți citi despre mașini, motoare și industria auto. Veți învăța cum descriem procese industriale în limba română. De asemenea, veți exersa folosirea verbelor la diateza pasivă."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "România are o tradiție lungă în construirea de mașini și avioane. Multe piese auto sunt fabricate la Craiova și Mioveni. Inginerii testează noi motoare electrice în fiecare an. **Dezvoltarea** industriei ajută economia națională."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Radu",
+                  "text": "Unde **a fost asamblată** această mașină modernă?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Vehiculul a fost produs la uzina din Mioveni."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "**Proiectarea** noului motor a durat trei ani."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Acum, multe mașini **sunt exportate** în toată Europa."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Îmi place să vizitez fabricile mari de automobile."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Substantivul provenit din verb ca subiect** În limba română, acțiunea poate fi exprimată ca subiect prin substantive derivate cu sufixul **-re** (provenite din infinitivul lung).",
+                "**Proiectarea** noului motor a durat trei ani.",
+                "Vezi Introducere în gramatică: Substantivul: tipuri, gen și număr."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Verb la infinitiv</th><th>Substantiv derivat</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>a proiecta</strong></td><td><strong>proiectare</strong></td><td><strong>Proiectarea ajută.</strong></td></tr><tr><td><strong>a dezvolta</strong></td><td><strong>dezvoltare</strong></td><td><strong>Dezvoltarea continuă.</strong></td></tr><tr><td><strong>a construi</strong></td><td><strong>construire</strong></td><td><strong>Construirea este rapidă.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Diateza pasivă pentru procese industriale** Diateza pasivă se formează cu verbul auxiliar **a fi** și participiul verbului de bază, acordat în gen și număr cu subiectul.",
+                "Acum, multe mașini **sunt exportate** în toată Europa.",
+                "Vezi Introducere în gramatică: Diateza, verbe reflexive și impersonale."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Timp verbal</th><th>Formă pasivă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Prezent</strong></td><td><strong>este fabricat / sunt fabricate</strong></td><td><strong>Piesele sunt fabricate.</strong></td></tr><tr><td><strong>Perfect compus</strong></td><td><strong>a fost asamblat / a fost asamblată</strong></td><td><strong>Mașina a fost asamblată.</strong></td></tr><tr><td><strong>Viitor</strong></td><td><strong>va fi testat / vor fi testate</strong></td><td><strong>Motorul va fi testat.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Limba engleză folosește adesea forma în -ing ca subiect, dar româna preferă un substantiv derivat în -re.",
+                "La diateza pasivă, participiul se acordă mereu în gen și număr cu subiectul.",
+                "După verbe ca «îmi place» sau «vreau» folosim conjunctivul cu «să», nu infinitivul."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Uzina Dacia de la Mioveni a început producția de autoturisme în anul 1968. De asemenea, inventatorul român Henri Coandă a contribuit la pionieratul aviației cu reacție. Astăzi, industria auto reprezintă o parte importantă din exporturile României."
               ]
             }
           ]

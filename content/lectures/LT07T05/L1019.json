@@ -13,6 +13,11 @@
     "pt": "Superstições e ditados",
     "ro": "Superstiții și zicale"
   },
+  "grammar": [
+    "LT02T11",
+    "LT02T19",
+    "LT02T14"
+  ],
   "locales": {
     "en": {
       "title": "Superstitions and sayings",
@@ -124,6 +129,113 @@
               "type": "paragraphs",
               "paragraphs": [
                 "Some buildings have no thirteenth floor, and some aeroplanes have no row thirteen. Proverbs are used in conversation to make a point briefly, often with a smile."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Superstiții și zicale",
+      "summary": "În această lecție învățăm despre superstiții populare românești, zicale vechi și propoziții condiționale simple.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Vei descoperi ce cred românii despre noroc și ghinion. Vei învăța zicale cunoscute și cum formulezi adevăruri generale. Aceste expresii te ajută să înțelegi mai bine conversațiile zilnice."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Românii au multe credințe vechi despre viața de zi cu zi. Oamenii vorbesc des despre semne bune sau rele. Două prietene se plimbă pe o stradă din Cluj."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Elena",
+                  "text": "Nu trece pe sub acea scară, aduce ghinion!"
+                },
+                {
+                  "speaker": "Ioana",
+                  "text": "Eu nu sunt deloc o persoană superstițioasă."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Dacă verși sare pe masă, **iese** ceartă în casă."
+                },
+                {
+                  "speaker": "Ioana",
+                  "text": "Eu nu cred în superstiții. Cine se scoală de dimineață departe ajunge."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Așa este, bunica mea spunea mereu această zicală."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Condiția reală cu prezentul** Pentru a exprima un adevăr general, folosim conjuncția **dacă** urmată de două verbe la prezent.",
+                "Dacă verși sare pe masă, **iese** ceartă în casă.",
+                "Vezi Introducere în gramatică: Conjuncțiile și legarea propozițiilor."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Condiție (dacă + prezent)</th><th>Rezultat (prezent)</th></tr></thead><tbody><tr><td><strong>Dacă găsești un trifoi cu patru foi,</strong></td><td><strong>ai mare noroc.</strong></td></tr><tr><td><strong>Dacă spargi o oglindă,</strong></td><td><strong>ai șapte ani de ghinion.</strong></td></tr><tr><td><strong>Dacă te mănâncă palma stângă,</strong></td><td><strong>primești bani.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Zicalele populare** Zicalele au o formă fixă și scurtă, transmisă neschimbată de-a lungul generațiilor.",
+                "Cine se scoală de dimineață departe ajunge.",
+                "Vezi Introducere în gramatică: Propoziții și fraze."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Zicală</th><th>Înțeles</th></tr></thead><tbody><tr><td><strong>Cine se scoală de dimineață departe ajunge.</strong></td><td><strong>Omul harnic are succes.</strong></td></tr><tr><td><strong>Paza bună trece primejdia rea.</strong></td><td><strong>Este bine să fii precaut.</strong></td></tr><tr><td><strong>Nu lăsa pe mâine ce poți face azi.</strong></td><td><strong>Fii harnic și punctual.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În limba română, marți 13 este ziua cu ghinion, nu vineri 13.",
+                "Când românii vor să alunge ghinionul, spun adesea „să batem în lemn”.",
+                "Pentru a arăta o regulă generală, folosim timpul prezent în ambele părți ale frazei."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În tradiția românească, marțea este considerată o zi cu trei ceasuri rele. Mulți oameni evită să înceapă proiecte mari într-o zi de marți. În schimb, trifoiul cu patru foi este considerat un simbol sigur de mare noroc."
               ]
             }
           ]

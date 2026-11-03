@@ -13,6 +13,11 @@
     "pt": "A agricultura",
     "ro": "Agricultura"
   },
+  "grammar": [
+    "LT02T05",
+    "LT02T17",
+    "LT02T19"
+  ],
   "locales": {
     "en": {
       "title": "Farming",
@@ -124,6 +129,116 @@
               "type": "paragraphs",
               "paragraphs": [
                 "Farming in Britain is now partly supported by government payments, which also reward farmers for protecting wildlife. Farm shops and farmers' markets let visitors buy directly from the producer."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Agricultura",
+      "summary": "Învățăm despre agricultura din România, culturile de câmp, creșterea animalelor și exprimarea condițiilor reale.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Această lecție prezintă munca pământului și creșterea animalelor în satele românești. Veți învăța cuvinte utile despre cereale, ferme și recolte. De asemenea, veți exersa verbe specifice și fraze condiționale simple."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Agricultura este o ocupație tradițională foarte importantă în România. Oamenii cultivă grâu și porumb pe câmpii întinse. La deal și la munte, sătenii cresc oi și vaci."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Dan",
+                  "text": "Ce cultivați pe aceste terenuri fertile?"
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Aici **cultivăm** porumb, floarea-soarelui și grâu."
+                },
+                {
+                  "speaker": "Dan",
+                  "text": "Creșteți și animale la această fermă?"
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Da, **creștem** vaci pentru lapte și oi."
+                },
+                {
+                  "speaker": "Dan",
+                  "text": "Cum va fi recolta din acest an?"
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Dacă **plouă** la timp, **vom avea** o recoltă foarte bogată."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Verbele a cultiva și a crește** Folosim verbul **a cultiva** pentru plante și verbul **a crește** pentru animale.",
+                "Aici **cultivăm** porumb, floarea-soarelui și grâu.",
+                "Vezi Introducere în gramatică: Verbul: forme și clase."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Verb</th><th>Sens</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>a cultiva</strong></td><td><strong>pentru plante și cereale</strong></td><td><strong>Fermierul cultivă grâu.</strong></td></tr><tr><td><strong>a crește</strong></td><td><strong>pentru animale domestice</strong></td><td><strong>Bunicii cresc oi la sat.</strong></td></tr><tr><td><strong>a culege</strong></td><td><strong>pentru strângerea roadelor</strong></td><td><strong>Toamna culegem mere și struguri.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Condiția reală cu dacă** Pentru o posibilitate reală, folosim conjuncția **dacă** cu prezentul și un verb la viitor.",
+                "Dacă **plouă** la timp, **vom avea** o recoltă foarte bogată.",
+                "Vezi Introducere în gramatică: Conjuncțiile și legarea propozițiilor."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Condiție (dacă + prezent)</th><th>Rezultat (viitor)</th></tr></thead><tbody><tr><td><strong>Dacă plouă,</strong></td><td><strong>pământul va fi roditor.</strong></td></tr><tr><td><strong>Dacă muncești mult,</strong></td><td><strong>vei avea o recoltă bună.</strong></td></tr><tr><td><strong>Dacă vizitezi satul,</strong></td><td><strong>vei gusta produse proaspete.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Nu folosiți verbul „a crește” pentru plante agricole; pentru cereale spunem „a cultiva”.",
+                "În limba română, după conjuncția „dacă” punem de obicei timpul prezent, nu viitorul."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Câmpia Română este una dintre cele mai fertile zone agricole din estul Europei. România este printre cei mai mari producători de semințe de floarea-soarelui din Uniunea Europeană. Toamna, piețele și târgurile din sate sunt pline de legume și fructe proaspete."
               ]
             }
           ]

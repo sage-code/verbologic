@@ -13,6 +13,11 @@
     "pt": "Outras capitais",
     "ro": "Alte capitale"
   },
+  "grammar": [
+    "LT02T05",
+    "LT02T17",
+    "LT02T19"
+  ],
   "locales": {
     "en": {
       "title": "Other capitals",
@@ -124,6 +129,113 @@
               "type": "paragraphs",
               "paragraphs": [
                 "Capital cities are often not the largest cities, which is why quiz questions about them are popular. The capital is where the government sits and where national institutions are based."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Alte capitale",
+      "summary": "În această lecție învățăm denumirile unor capitale importante din lume și prepozițiile sau formele potrivite.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Lecția prezintă câteva capitale din lume și țările lor. Înveți cum să întrebi și cum să răspunzi într-un joc simplu de geografie. Aceste cuvinte te ajută în conversații despre călătorii."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Radu și Elena participă la un concurs de geografie la școală. Ei răspund la întrebări despre diverse țări și capitalele lor."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Elena",
+                  "text": "Care este capitala Canadei?"
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Capitala Canadei este Ottawa, nu Toronto."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Corect! Dar știi care este capitala Australiei?"
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Canberra este capitala Australiei, deși Sydney este un oraș mai mare."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Foarte bine, ai răspuns corect la ambele întrebări!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Exprimarea apartenenței cu genitivul** Legătura dintre cuvântul capitală și numele țării se face prin cazul **genitiv**.",
+                "Capitala **Canadei** este Ottawa, nu Toronto.",
+                "Vezi Introducere în gramatică: Prepoziții și cazuri."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Țară</th><th>Formă de genitiv</th><th>Capitală</th></tr></thead><tbody><tr><td><strong>Canada</strong></td><td><strong>Canadei</strong></td><td><strong>Ottawa</strong></td></tr><tr><td><strong>Australia</strong></td><td><strong>Australiei</strong></td><td><strong>Canberra</strong></td></tr><tr><td><strong>Irlanda</strong></td><td><strong>Irlandei</strong></td><td><strong>Dublin</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Numele de orașe fără articol** Numele de orașe se folosesc de obicei **fără articol**.",
+                "**Canberra** este capitala Australiei, deși Sydney este un oraș mai mare.",
+                "Vezi Introducere în gramatică: Articole și determinanți."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Corect</th><th>Incorect</th><th>Explicație</th></tr></thead><tbody><tr><td><strong>Ottawa</strong></td><td><strong>Ottawaua</strong></td><td><strong>oraș fără articol</strong></td></tr><tr><td><strong>Canberra</strong></td><td><strong>Canberraua</strong></td><td><strong>oraș fără articol</strong></td></tr><tr><td><strong>Sydney</strong></td><td><strong>Sydneyul</strong></td><td><strong>oraș fără articol</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Capitala Statelor Unite este Washington, nu orașul New York.",
+                "Capitala Australiei este Canberra, deși Sydney este un oraș mult mai cunoscut.",
+                "Numele de orașe nu primesc de regulă articol hotărât la sfârșit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Bucureștiul este capitala României și cel mai mare oraș al țării. În trecut, orașe precum Iași sau Târgoviște au fost și ele capitale. Astăzi, în București se află Guvernul și Parlamentul României."
               ]
             }
           ]

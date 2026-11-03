@@ -33,6 +33,14 @@ for (const file of files) {
   else if (raw !== serialize(JSON.parse(raw))) bad.push(`${file}: not in canonical form (Node)`)
 }
 
+// `grammar` links an article to the LT02 topics it draws on.
+const lt02 = new Set(readdirSync(join(CONTENT, 'lectures')).filter((name) => /^LT02T\d\d$/.test(name)))
+for (const file of files) {
+  const grammar = JSON.parse(readFileSync(file, 'utf8')).grammar
+  if (grammar === undefined) continue
+  if (!Array.isArray(grammar) || grammar.some((code) => !lt02.has(code))) bad.push(`${file}: grammar must list LT02 topic codes`)
+}
+
 // The Python writer must agree byte for byte.
 const py = spawnSync(
   process.platform === 'win32' ? join(ROOT, '.venv', 'Scripts', 'python.exe') : 'python3',

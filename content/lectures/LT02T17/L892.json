@@ -90,6 +90,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Prepoziții de direcție și mișcare",
+      "summary": "Prepozițiile de mișcare arată direcția unei deplasări și cer aproape întotdeauna cazul acuzativ.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prepozițiile de direcție arată ținta sau drumul unei mișcări. Ele răspund la întrebarea „încotro?”. Cele mai multe prepoziții de mișcare cer cazul acuzativ."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Ea merge **la** gară.",
+                "Băiatul a sărit **în** apă.",
+                "Trenul trece **prin** tunel."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pui prepoziția direct înaintea substantivului. Substantivul stă în acuzativ, de obicei fără articol după prepoziții simple. Pentru locuința proprie, folosești cuvântul „acasă” fără prepoziție."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Prepoziție</th><th>Sens de mișcare</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>la</strong></td><td><strong>spre o destinație</strong></td><td><strong>Merg **la** școală.</strong></td></tr><tr><td><strong>în</strong></td><td><strong>intrare într-un spațiu</strong></td><td><strong>Intrăm **în** casă.</strong></td></tr><tr><td><strong>spre</strong></td><td><strong>orientare generală</strong></td><td><strong>Plecăm **spre** parc.</strong></td></tr><tr><td><strong>prin</strong></td><td><strong>traversarea unui loc</strong></td><td><strong>Mergem **prin** pădure.</strong></td></tr><tr><td><strong>până la</strong></td><td><strong>limita deplasării</strong></td><td><strong>Alerg **până la** magazin.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

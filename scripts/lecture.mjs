@@ -11,6 +11,7 @@
  *
  *   node scripts/lecture.mjs new <TOPIC> <ID> [--title "Using {{term}}"]
  *   node scripts/lecture.mjs status
+ *   node scripts/lecture.mjs grammar
  *   node scripts/lecture.mjs translate <TOPIC> <ID> --lang ro
  *   node scripts/lecture.mjs review <TOPIC> <ID> --lang ro
  */
@@ -166,6 +167,26 @@ function cmdStatus() {
   if (staleCount) process.exitCode = 1
 }
 
+function cmdGrammar() {
+  const topics = JSON.parse(readFileSync(SIDEBAR_FILE, 'utf8'))
+    .sections.find((section) => section.code === 'LT02').topics
+  const names = new Map(topics.map((topic) => [topic.code, topic.names?.en ?? topic.code]))
+  const users = new Map(topics.map((topic) => [topic.code, []]))
+  let problems = 0
+  for (const { topic, id, article } of loadArticles()) {
+    for (const code of article.grammar ?? []) {
+      if (!users.has(code)) {
+        console.error(`  BAD  ${topic}/${id}: grammar '${code}' is not an LT02 topic`)
+        problems++
+      } else users.get(code).push(`${topic}/${id}`)
+    }
+  }
+  for (const [code, list] of users) {
+    console.log(`  ${code} ${String(list.length).padStart(2)}  ${names.get(code)}${list.length < 3 ? '   (needs 3)' : ''}`)
+  }
+  if (problems) process.exitCode = 1
+}
+
 function cmdTranslate() {
   const [topic, id] = process.argv.slice(3).filter((value) => !value.startsWith('--'))
   const locale = arg('--lang')
@@ -212,6 +233,7 @@ function cmdReview() {
 const command = process.argv[2]
 if (command === 'new') cmdNew()
 else if (command === 'status') cmdStatus()
+else if (command === 'grammar') cmdGrammar()
 else if (command === 'translate') cmdTranslate()
 else if (command === 'review') cmdReview()
-else fail('usage: lecture.mjs <new|status|translate|review> …')
+else fail('usage: lecture.mjs <new|status|grammar|translate|review> …')

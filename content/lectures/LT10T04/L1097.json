@@ -13,6 +13,11 @@
     "pt": "A saúde pública",
     "ro": "Sănătatea publică"
   },
+  "grammar": [
+    "LT02T14",
+    "LT02T19",
+    "LT02T21"
+  ],
   "locales": {
     "en": {
       "title": "Public health",
@@ -90,6 +95,109 @@
               "type": "paragraphs",
               "paragraphs": [
                 "The London sewer network built by Bazalgette is still in use today, more than 150 years later."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Sănătatea publică",
+      "summary": "Această lecție prezintă sănătatea publică, prevenția epidemiilor și acordul gramatical cu substantivele colective în limba română.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Lecția prezintă măsurile sanitare care protejează întreaga comunitate. Vei învăța vocabular legat de igienă, vaccinare și rețele de apă. De asemenea, vei exprima condiții folosind conectori specifici."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Sănătatea publică protejează întreaga comunitate de boli infecțioase. Autoritățile din România organizează campanii de vaccinare și verifică rețelele de apă. Fără aceste măsuri moderne, epidemiile vechi pot reveni oricând."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Mihai",
+                  "text": "Populația primește sfaturi utile de la medicii de familie."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Medicii spun că prevenția este mereu mai ieftină decât tratamentul."
+                },
+                {
+                  "speaker": "Mihai",
+                  "text": "Vom evita bolile dacă nu neglijăm igiena de bază."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Putem opri virusurile cu condiția să respectăm regulile sanitare."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Exprimarea condiției cu modul conjunctiv** Locuțiunea conjuncțională **cu condiția să** introduce o condiție și cere întotdeauna modul conjunctiv.",
+                "Putem opri virusurile **cu condiția să** respectăm regulile sanitare.",
+                "Vezi Introducere în gramatică: Conjuncțiile și legarea propozițiilor."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Conector</th><th>Mod verbal</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>dacă nu</strong></td><td><strong>indicativ</strong></td><td><strong>dacă nu neglijăm</strong></td></tr><tr><td><strong>cu condiția să</strong></td><td><strong>conjunctiv</strong></td><td><strong>cu condiția să respectăm</strong></td></tr><tr><td><strong>numai dacă</strong></td><td><strong>indicativ</strong></td><td><strong>numai dacă ne spălăm</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Acordul cu substantive colective** Substantivele colective la singular se acordă strict cu un verb la numărul singular.",
+                "**Populația primește** sfaturi utile de la medicii de familie.",
+                "Vezi Introducere în gramatică: Ordinea cuvintelor și acordul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Substantiv colectiv</th><th>Formă corectă</th><th>Formă greșită</th></tr></thead><tbody><tr><td><strong>populația</strong></td><td><strong>populația primește</strong></td><td><strong>populația primesc</strong></td></tr><tr><td><strong>echipa</strong></td><td><strong>echipa decide</strong></td><td><strong>echipa decid</strong></td></tr><tr><td><strong>lumea</strong></td><td><strong>lumea știe</strong></td><td><strong>lumea știu</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În limba română, substantivele colective la singular cer întotdeauna verbul la singular.",
+                "Conectorul englezesc «unless» se traduce în mod natural prin «dacă nu».",
+                "Cuvântul «epidemie» arată o răspândire regională, iar «pandemie» arată o răspândire mondială."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Medicul român Ion Cantacuzino a fondat școala națională de microbiologie. Institutul Cantacuzino din București a produs timp de multe decenii vaccinuri importante. România a aplicat devreme vaccinarea modernă împotriva holerei în armată."
               ]
             }
           ]

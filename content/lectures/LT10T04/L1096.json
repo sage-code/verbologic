@@ -13,6 +13,11 @@
     "pt": "Vacinas e medicamentos",
     "ro": "Vaccinuri și medicamente"
   },
+  "grammar": [
+    "LT02T14",
+    "LT02T19",
+    "LT02T21"
+  ],
   "locales": {
     "en": {
       "title": "Vaccines and medicines",
@@ -90,6 +95,112 @@
               "type": "paragraphs",
               "paragraphs": [
                 "Medicines in Britain are regulated by the MHRA and in the United States by the FDA, which must approve a drug before it can be sold."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Vaccinuri și medicamente",
+      "summary": "Această lecție prezintă vocabularul despre vaccinuri și modul în care exprimăm probabilitatea și riscul în limba română.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Lecția prezintă vocabularul medical legat de vaccinuri și medicamente. Vei învăța cum să discuți despre riscuri și probabilități. Acest lucru te ajută în discuțiile la medic sau la farmacie."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Vaccinurile și medicamentele moderne salvează milioane de vieți în fiecare an. Medicii analizează mereu beneficiile și riscurile fiecărui tratament nou. Orice tratament eficient poate produce uneori reacții adverse ușoare."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Andrei",
+                  "text": "Vreau să știu dacă acest vaccin este sigur pentru mine."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Riscul unei reacții grave este foarte mic."
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Medicul de familie, al cărui sfat îl respect, mi-a recomandat tratamentul."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Este probabil să ai doar o mică durere de braț mâine."
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Beneficiile sunt mult mai mari decât riscurile posibile."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Exprimarea probabilității** Folosim adjectivul sau adverbul **probabil** într-o expresie impersonală urmată de conjunctiv pentru a exprima probabilitatea.",
+                "Este **probabil** să ai doar o mică durere de braț mâine.",
+                "Vezi Introducere în gramatică: Adverbul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Construcție</th><th>Nivel de siguranță</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>este sigur că</strong></td><td><strong>certitudine</strong></td><td><strong>Este sigur că vine.</strong></td></tr><tr><td><strong>este probabil să</strong></td><td><strong>probabilitate mare</strong></td><td><strong>Este probabil să plouă.</strong></td></tr><tr><td><strong>este posibil să</strong></td><td><strong>posibilitate medie</strong></td><td><strong>Este posibil să întârziem.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Pronumele relativ posesiv** Articolul posesiv din fața formei **al cărui** se acordă în gen și număr cu obiectul posedat, iar forma pronumelui se acordă cu posesorul.",
+                "Medicul de familie, **al cărui** sfat îl respect, mi-a recomandat tratamentul.",
+                "Vezi Introducere în gramatică: Alte pronume."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Posesor</th><th>Obiect posedat</th><th>Formă relativă</th></tr></thead><tbody><tr><td><strong>masculin singular</strong></td><td><strong>masculin singular</strong></td><td><strong>al cărui sfat</strong></td></tr><tr><td><strong>masculin singular</strong></td><td><strong>feminin singular</strong></td><td><strong>a cărui rețetă</strong></td></tr><tr><td><strong>feminin singular</strong></td><td><strong>masculin singular</strong></td><td><strong>al cărei medic</strong></td></tr><tr><td><strong>masculin singular</strong></td><td><strong>neutru plural</strong></td><td><strong>ale cărui rezultate</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În limba română folosim termenul **reacție adversă** pentru efectele secundare nedorite ale unui medicament.",
+                "Forma posesivă **al cărui** își schimbă articolul inițial după genul și numărul substantivului determinat."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Institutul Cantacuzino din București a fost fondat de profesorul Ioan Cantacuzino în anul 1921. Această instituție a produs vaccinuri importante pentru sănătatea publică din România. Astăzi, institutul continuă activitatea de cercetare în microbiologie și imunologie."
               ]
             }
           ]

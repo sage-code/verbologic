@@ -86,6 +86,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Prepoziții de loc",
+      "summary": "Prepozițiile de loc arată unde se află un lucru sau o persoană și cer de obicei cazul acuzativ.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prepozițiile de loc arată poziția unui obiect sau a unei persoane. Ele răspund la întrebarea „unde?”. Cele mai frecvente prepoziții de loc sunt „în”, „pe” și „la”."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Cheile sunt **în** sertar.",
+                "Tabloul este **pe** perete.",
+                "Noi ne vedem **la** gară."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prepozițiile simple de loc se folosesc cu cazul acuzativ. Prepoziția stă întotdeauna înaintea substantivului. După aceste prepoziții simple, substantivul nu primește de obicei articol hotărât."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Prepoziție</th><th>Sens</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>în</strong></td><td><strong>în interior</strong></td><td><strong>Copiii sunt în cameră.</strong></td></tr><tr><td><strong>pe</strong></td><td><strong>pe o suprafață</strong></td><td><strong>Telefonul este pe masă.</strong></td></tr><tr><td><strong>la</strong></td><td><strong>un punct sau o adresă</strong></td><td><strong>Ana este la școală.</strong></td></tr><tr><td><strong>sub</strong></td><td><strong>într-un loc mai jos</strong></td><td><strong>Câinele stă sub pat.</strong></td></tr><tr><td><strong>lângă</strong></td><td><strong>în apropiere</strong></td><td><strong>Magazinul este lângă bloc.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

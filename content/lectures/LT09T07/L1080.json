@@ -95,6 +95,114 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Povești ale emigranților",
+      "summary": "Lecția prezintă experiențele românilor stabiliți în străinătate și modul în care folosim timpurile trecute în povestire.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Această lecție explorează poveștile personale ale emigranților români din diaspora. Veți învăța cum să îmbinați timpurile trecute într-o narațiune cursivă. De asemenea, veți exersa inversiunea subiectului după complemente de loc."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În Italia au sosit mulți români după anul două mii. Ei căutau un trai mai bun pentru copiii lor. Mulți lucraseră din greu în țară înainte de plecare."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Elena",
+                  "text": "La Roma au sosit primii mei verișori acum douăzeci de ani."
+                },
+                {
+                  "speaker": "Mihai",
+                  "text": "Își găsiseră deja de lucru înainte să ajungă acolo?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Nu, dar munceau mult în fiecare zi și învățau limba repede."
+                },
+                {
+                  "speaker": "Mihai",
+                  "text": "Pe atunci viața lor era plină de sacrificii, dar au reușit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Inversarea subiectului cu verbul** Când propoziția începe cu un complement de loc, verbul stă adesea **înaintea** subiectului pentru accentuare.",
+                "La Roma **au sosit** primii mei verișori acum douăzeci de ani.",
+                "Vezi Introducere în gramatică: Ordinea cuvintelor și acordul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Topică neutră</th><th>Topică inversată</th></tr></thead><tbody><tr><td><strong>Primii mei verișori au sosit la Roma.</strong></td><td><strong>La Roma au sosit primii mei verișori.</strong></td></tr><tr><td><strong>Mulți muncitori trăiesc în Spania.</strong></td><td><strong>În Spania trăiesc mulți muncitori.</strong></td></tr><tr><td><strong>O nouă viață a început acolo.</strong></td><td><strong>Acolo a început o nouă viață.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Îmbinarea timpurilor trecute** În narațiune, folosim **mai-mult-ca-perfectul** pentru o acțiune terminată înaintea altei acțiuni din trecut.",
+                "Își **găsiseră** deja de lucru înainte să ajungă acolo?",
+                "Vezi Introducere în gramatică: Timpurile trecute și aspectul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Timp verbal</th><th>Rol în povestire</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Mai-mult-ca-perfect</strong></td><td><strong>Acțiune anterioară</strong></td><td><strong>Își găsiseră de lucru.</strong></td></tr><tr><td><strong>Imperfect</strong></td><td><strong>Descrierea fundalului</strong></td><td><strong>Munceau mult în fiecare zi.</strong></td></tr><tr><td><strong>Perfect compus</strong></td><td><strong>Eveniment principal</strong></td><td><strong>Au sosit acum douăzeci de ani.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În limba română, inversiunea verbului cu subiectul este foarte naturală în relatări narative.",
+                "Nu confundați mai-mult-ca-perfectul cu perfectul compus, deoarece el exprimă o acțiune anterioară alteia.",
+                "Pronumele subiect este aproape mereu omis, fiind indicat de terminația verbului."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "După aderarea României la Uniunea Europeană în anul 2007, comunitățile românești din Italia și Spania au crescut semnificativ. Mulți români din diaspora păstrează legături strânse cu țara de origine și revin acasă în vacanțe."
+              ]
+            }
+          ]
+        }
+      ]
     }
-  }
+  },
+  "grammar": [
+    "LT02T11",
+    "LT02T14",
+    "LT02T19"
+  ]
 }

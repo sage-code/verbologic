@@ -13,6 +13,11 @@
     "pt": "Regiões históricas",
     "ro": "Regiuni istorice"
   },
+  "grammar": [
+    "LT02T05",
+    "LT02T17",
+    "LT02T19"
+  ],
   "locales": {
     "en": {
       "title": "Historic regions",
@@ -120,6 +125,112 @@
               "type": "paragraphs",
               "paragraphs": [
                 "Wales and Scotland also have their own languages, Welsh and Scottish Gaelic, which are taught in schools and used on road signs. Regional loyalty is strong, and people often introduce themselves by saying which region they come from."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Regiuni istorice",
+      "summary": "În această lecție înveți numele marilor regiuni istorice românești și cum să vorbești despre originea ta.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Această lecție prezintă principalele regiuni istorice ale României. Înveți să spui de unde provii și unde te-ai născut. Aceste expresii sunt foarte utile în conversațiile zilnice."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "România are trei mari regiuni istorice: Transilvania, Moldova și Țara Românească. Fiecare regiune are tradiții vechi și obiceiuri frumoase. Oamenii sunt mândri de originile lor."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Radu",
+                  "text": "Tu de unde vii, Elena?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Eu m-am născut în Moldova, la Iași."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Bunicii mei provin din Transilvania."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Transilvania este o regiune foarte frumoasă și verde."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Da, îmi place mult să călătoresc acolo."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Verbul reflexiv „a se naște”** În limba română, verbul **a se naște** este reflexiv și se conjugă cu pronumele reflexiv corespunzător fiecărei persoane (la perfect compus: *m-am născut*, *te-ai născut* etc.).",
+                "Eu **m-am născut** în Moldova, la Iași.",
+                "Vezi Introducere în gramatică: Diateza, verbe reflexive și impersonale."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pronume</th><th>Formă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>m-am născut</strong></td><td><strong>Eu m-am născut în Moldova.</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>te-ai născut</strong></td><td><strong>Tu te-ai născut la Iași.</strong></td></tr><tr><td><strong>el / ea</strong></td><td><strong>s-a născut</strong></td><td><strong>Ea s-a născut la Cluj.</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>ne-am născut</strong></td><td><strong>Noi ne-am născut în România.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Prepoziția „din” pentru origine** Folosim prepoziția **din** pentru a arăta originea sau proveniența geografică.",
+                "Bunicii mei provin **din** Transilvania.",
+                "Vezi Introducere în gramatică: Prepoziții și cazuri."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Întrebare</th><th>Prepoziție</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>De unde ești?</strong></td><td><strong>din</strong></td><td><strong>Sunt din Moldova.</strong></td></tr><tr><td><strong>De unde vii?</strong></td><td><strong>din</strong></td><td><strong>Vin din Transilvania.</strong></td></tr><tr><td><strong>De unde provii?</strong></td><td><strong>din</strong></td><td><strong>Provin din Muntenia.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În engleză se folosește diateza pasivă („was born”), dar în limba română se folosește verbul reflexiv („m-am născut”).",
+                "Pentru a exprima originea dintr-un loc, spunem întotdeauna „vin din”, niciodată „vin de”."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "România s-a format prin unirea marilor regiuni istorice: Țara Românească, Moldova și Transilvania. Fiecare zonă are costume populare specifice, cântece tradiționale și mâncăruri delicioase. Românii își iubesc regiunea natală și își păstrează graiul local."
               ]
             }
           ]

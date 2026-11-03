@@ -13,6 +13,11 @@
     "pt": "Dialetos e variedades regionais",
     "ro": "Dialecte și varietăți regionale"
   },
+  "grammar": [
+    "LT02T05",
+    "LT02T17",
+    "LT02T19"
+  ],
   "locales": {
     "en": {
       "title": "Dialects and regional varieties",
@@ -124,6 +129,109 @@
               "type": "paragraphs",
               "paragraphs": [
                 "Every variety of English is a legitimate form of the language, and speakers often switch between accents. When listening to a new accent, ask the speaker to repeat or slow down: they will not mind."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Dialecte și varietăți regionale",
+      "summary": "În această lecție învățăm despre graiurile limbii române și despre câteva cuvinte regionale populare.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Această lecție prezintă diferențele de vorbire din regiunile României. Veți învăța cuvinte regionale folosite în Ardeal sau Moldova. Aceste noțiuni vă ajută să înțelegeți mai bine vorbitorii nativi."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Elena și Radu călătoresc prin România. Ei observă că oamenii folosesc cuvinte diferite pentru aceleași lucruri."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Elena",
+                  "text": "În Moldova, bunica mea numește pepenele **harbuz**."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "În Oltenia, bunicii mei spun **lubeniță** la acest fruct dulce."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Este fascinant cum se schimbă cuvintele de la o regiune la alta."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Toți vorbim aceeași limbă, dar avem **graiuri** diferite."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Cuvinte regionale pentru același obiect** În diferite regiuni, oamenii folosesc uneori substantive diferite pentru același lucru.",
+                "În Moldova, bunica mea numește pepenele **harbuz**.",
+                "Vezi Introducere în gramatică: Formarea cuvintelor și registrul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Româna standard</th><th>Regionalism</th><th>Regiune</th></tr></thead><tbody><tr><td><strong>varză</strong></td><td><strong>curechi</strong></td><td><strong>Moldova și Ardeal</strong></td></tr><tr><td><strong>pepene verde</strong></td><td><strong>harbuz</strong></td><td><strong>Moldova</strong></td></tr><tr><td><strong>pepene verde</strong></td><td><strong>lubeniță</strong></td><td><strong>Oltenia și Banat</strong></td></tr><tr><td><strong>cartof</strong></td><td><strong>barabulă</strong></td><td><strong>Moldova</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Substantive la plural în vorbirea curentă** Substantivele neutre primesc des terminația **-uri** la numărul plural.",
+                "Toți vorbim aceeași limbă, dar avem **graiuri** diferite.",
+                "Vezi Introducere în gramatică: Substantivul: tipuri, gen și număr."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Singular</th><th>Plural</th><th>Sens</th></tr></thead><tbody><tr><td><strong>un grai</strong></td><td><strong>două graiuri</strong></td><td><strong>varietate regională</strong></td></tr><tr><td><strong>un cuvânt</strong></td><td><strong>două cuvinte</strong></td><td><strong>unitate de vorbire</strong></td></tr><tr><td><strong>un lucru</strong></td><td><strong>două lucruri</strong></td><td><strong>obiect sau idee</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În limba română, graiurile regionale sunt ușor de înțeles de către toți vorbitorii.",
+                "Limba literară standard este folosită la școală, la știri și în cărți.",
+                "Nu confundați cuvântul regional cu o greșeală gramaticală."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "România are mai multe zone istorice mari, cum ar fi Muntenia, Moldova și Transilvania. Fiecare zonă are un accent specific și tradiții locale minunate. În ciuda diferențelor regionale, toți românii se înțeleg foarte bine între ei."
               ]
             }
           ]
