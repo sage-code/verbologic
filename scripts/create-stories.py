@@ -196,7 +196,7 @@ def topic_context(chapter_name: str, topic_name: str, neighbours: tuple[str, str
 
 def story_prompt(
     topic_name: str, level: str, existing_titles: list[str], subject: str | None = None, context: str = "",
-    species: str | None = None,
+    species: str | None = None, premise: str | None = None, cast: dict[str, str] | None = None,
 ) -> str:
     spec = LEVELS[level]
     low, high = spec["paragraphs"]
@@ -226,7 +226,7 @@ def story_prompt(
         "words, that suits the collection.\n"
         f"{focus}"
         f"- Do not reuse these titles: {taken}.\n\n"
-        f"{chars.rules(level, species)}\n\n"
+        f"{chars.rules(level, species, premise, cast)}\n\n"
         'Return only a JSON object with the keys "title" (a short title), "summary" '
         '(one sentence of at most 25 words), "paragraphs" (a list of strings), '
         '"main" (the name of the main character), "new_characters" (an object that maps the name of each NEW '
@@ -276,7 +276,10 @@ def clean_strings(values: Any) -> list[str] | None:
     return cleaned if len(cleaned) == len(values) and all(cleaned) else None
 
 
-def check_story(story: dict[str, Any], level: str, species: str | None = None) -> list[str]:
+def check_story(
+    story: dict[str, Any], level: str, species: str | None = None, premise: str | None = None,
+    cast: dict[str, str] | None = None,
+) -> list[str]:
     """Problems with the English story, or [] when it follows the level's rules."""
     problems = []
     title, summary = story.get("title"), story.get("summary")
@@ -295,7 +298,7 @@ def check_story(story: dict[str, Any], level: str, species: str | None = None) -
     pages = math.ceil(len(paragraphs) / LEVELS[level]["per_page"])
     if pages < MIN_PAGES:
         problems.append(f"{pages} page(s), a story needs at least {MIN_PAGES}")
-    return problems + chars.check(story, level, species)
+    return problems + chars.check(story, level, species, premise, cast)
 
 
 def check_native(result: dict[str, Any], story: dict[str, Any], locales: list[str]) -> list[str]:
@@ -472,6 +475,7 @@ def main() -> int:
     )
     parser.add_argument("--model", help="Gemini text model (default: GEMINI_MODEL from .env)")
     parser.add_argument("--skip-audio", action="store_true", help="do not synthesize title and read audio")
+    parser.add_argument("--premise", help="what the story is about: hero, place, time and plot (fixes the casting)")
     parser.add_argument("--subject", help="main character of every story, e.g. 'a hedgehog'")
     args = parser.parse_args()
 
@@ -515,13 +519,23 @@ def main() -> int:
     for _ in range(args.count):
         code = next_code(topic, chapter)
         print(f"\n### {code}")
+        # A1 heroes are animals: pick a species no earlier hero has, mixing domestic and wild ones.
+        species = chars.pick_species() if level == "A1" and not args.subject else None
+        cast = chars.casting(level) if level != "A1" and not args.premise and not args.subject else None
+        if species:
+            print(f"  main character: a new {species}")
+        if cast:
+            print(f"  main character: a new {cast['kind']} from {cast['culture']}")
         try:
             titles = existing_titles(topic)
             story = with_retries(
                 f"{code} story",
-                lambda: gemini_json(story_prompt(topic_name, level, titles, args.subject, context), 0.9, model),
-                lambda result: check_story(result, level),
+                lambda: gemini_json(
+                    story_prompt(topic_name, level, titles, args.subject, context, species, args.premise, cast), 0.9, model
+                ),
+                lambda result: check_story(result, level, species, args.premise, cast),
             )
+            chars.apply_registry_looks(story)
             native = with_retries(
                 f"{code} native versions",
                 lambda: gemini_json(native_prompt(story, level, other_locales), 0.3, model),
@@ -534,7 +548,10 @@ def main() -> int:
 
         write_story(topic, chapter, code, level, story, native)
         add_to_sidebar(topic, code)
-        added = chars.register(story["new_characters"], story["context"], f"{topic}:{code}")
+        added = chars.register(
+            story["new_characters"], story["context"], f"{topic}:{code}", story.get("main"),
+            cast["culture"] if cast else None,
+        )
         print("  new characters (this story is their reference): " + ", ".join(added))
         created.append(code)
         print(f"  wrote {len(story['paragraphs'])} paragraph(s) in {len(LOCALES)} languages: '{story['title']}'")

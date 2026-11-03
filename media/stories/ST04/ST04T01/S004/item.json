@@ -1,0 +1,260 @@
+{
+  "code": "S004",
+  "track": "stories",
+  "chapter": "ST04",
+  "topic": "ST04T01",
+  "kind": "story",
+  "entity_id": "ST04T01:S004",
+  "cefr": "A2",
+  "tags": [
+    "level#A2"
+  ],
+  "locales": {
+    "en": {
+      "name": "The First Salmon",
+      "description": "A girl named Ida helps a hungry raven find food in the Pacific Northwest and receives a gift of salmon."
+    },
+    "ro": {
+      "name": "Primul somon",
+      "description": "O fată pe nume Ida ajută un corb flămând să găsească hrană și primește în dar un somon."
+    },
+    "de": {
+      "name": "Der erste Lachs",
+      "description": "Ein Mädchen namens Ida hilft einem hungrigen Raben bei der Nahrungssuche und bekommt einen Lachs geschenkt."
+    },
+    "ru": {
+      "name": "Первый лосось",
+      "description": "Девочка по имени Ида помогает голодному ворону найти еду и получает в подарок лосося."
+    },
+    "it": {
+      "name": "Il primo salmone",
+      "description": "Una ragazza di nome Ida aiuta un corvo affamato a trovare cibo e riceve in dono un salmone."
+    },
+    "es": {
+      "name": "El primer salmón",
+      "description": "Una niña llamada Ida ayuda a un cuervo hambriento a encontrar comida y recibe un salmón de regalo."
+    },
+    "fr": {
+      "name": "Le premier saumon",
+      "description": "Une fille nommée Ida aide un corbeau affamé à trouver à manger et reçoit un saumon en cadeau."
+    },
+    "hu": {
+      "name": "Az első lazac",
+      "description": "Egy Ida nevű lány segít egy éhes hollónak ételt találni, és ajándékba kap egy lazacot."
+    },
+    "pt": {
+      "name": "O primeiro salmão",
+      "description": "Uma menina chamada Ida ajuda um corvo faminto a encontrar comida e recebe um salmão de presente."
+    }
+  },
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 12384,
+      "sha1": "ba50c3038c3610b26da858409f7cd16002e2b6d9",
+      "text": "23fc280f9433a53bbcde9a7ca8860e6f8a18b729"
+    },
+    "sound/es.mp3": {
+      "bytes": 12240,
+      "sha1": "660f8b4d6afaa595f7c33cd34e683ee482dc9a7c",
+      "text": "e2a9f49007458b22928b83995fc22414cbdf95f5"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "c0b56b86b88935a7afd32ff9bbd896fea262b2b0",
+      "text": "f25c10ba0d90ce2052d358a83abbca2ef35ac9eb"
+    },
+    "sound/ro.mp3": {
+      "bytes": 11664,
+      "sha1": "a4ec98ecca9bb9be2bc231e1d48b8bf4e7ee1207",
+      "text": "63a14e9c46267c2faddd828f31d93ffbf1d7b916"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "7e8eee524d5dbf2852c0324571c59050c5080642",
+      "text": "ebf438bffb961d4abbf449a9d31b41029962174a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12528,
+      "sha1": "3035a420353752ed334a86e773c85412d5097bcc",
+      "text": "962e2a1c64405cd13baa79327a376a5359af53ea"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12240,
+      "sha1": "0c8266d16ba3d49fdfa6021a7967a97f4cd50b93",
+      "text": "d3124e855b6292e5331b813f2c9610b0c88d0a05"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14112,
+      "sha1": "32cfe23c7019f4f8abde6443e8ef9a6a7b6b4dbf",
+      "text": "7e11a67e1b009835132181057c2118192653a1ac"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14256,
+      "sha1": "4bc2c15017556480576ed67ace3815c15dfcfe2d",
+      "text": "b9324cfa84fcc4d10bdeae48503a30d3f1904b3a"
+    },
+    "read/es.mp3": {
+      "bytes": 340560,
+      "sha1": "8e7044b5f4ef4dc4def3c400f7331e677a5e282b",
+      "text": "596564a847623dbe272ff554d48e55680bc64e3e"
+    },
+    "read/en.mp3": {
+      "bytes": 318960,
+      "sha1": "3c4edd3a1d0a16357c3b9a5797326bff4f533f7a",
+      "text": "b6c30c8a4fc08b9f8e1f5bd3e56022608ef575fe"
+    },
+    "read/de.mp3": {
+      "bytes": 388368,
+      "sha1": "15b8edaeb6a0d476f100838a376116867b4d333b",
+      "text": "e446f182cb16ff3e84c5507aacd6a5f1f5bf1b90"
+    },
+    "read/it.mp3": {
+      "bytes": 300384,
+      "sha1": "8e78b53e7deb27ba080de2a7b7c870dfca428750",
+      "text": "f5853ce1a2a17413fc42f9d1a5064482dfc73412"
+    },
+    "read/fr.mp3": {
+      "bytes": 339120,
+      "sha1": "0bbd0426b81dde74dc2652c16640603785501340",
+      "text": "5fd43ccd02e4741de4de473d5acd0849e791729f"
+    },
+    "read/ro.mp3": {
+      "bytes": 361296,
+      "sha1": "2665aa65522910efe51d44feb1a69aa3fd219f3d",
+      "text": "7526745189addbd60c3aa637e7528d32f16e3b4b"
+    },
+    "read/ru.mp3": {
+      "bytes": 375552,
+      "sha1": "c17d7dd27d9e880a941f2c3920f42b7f5fb9ff06",
+      "text": "b028a2b197450fa3d6c0cbf52ef30805f6a4d164"
+    },
+    "read/pt.mp3": {
+      "bytes": 376848,
+      "sha1": "535de0bdf2972e3c9ddfcd1290cda5dbe2b28125",
+      "text": "c6909b09cb9f5ffc237a86e2fc4ba05be51c071c"
+    },
+    "read/hu.mp3": {
+      "bytes": 377856,
+      "sha1": "08d1523e32166b7a5881fd25c54b0eab730abd53",
+      "text": "2f6037bad3dedc16c8e744318667d258e3a0c112"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 163554,
+      "sha1": "a0e429ec17d12f47697723acc3387bd693bcdb9c",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 151999,
+      "sha1": "dc18a73950f617120d61b359661b3a756557a9e5",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 165997,
+      "sha1": "c11e6e7e962536d7cf1a4ca2dc598aebef0be0d7",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 175387,
+      "sha1": "90a43e3088dfb50644f3e7455a71695555f96b49",
+      "page": 3
+    }
+  ],
+  "readSections": {
+    "es": [
+      0.0,
+      8.35,
+      14.3,
+      21.763,
+      28.463,
+      35.013,
+      41.95,
+      49.125
+    ],
+    "en": [
+      0.0,
+      7.05,
+      13.262,
+      19.987,
+      26.437,
+      33.075,
+      39.775,
+      46.575
+    ],
+    "de": [
+      0.0,
+      9.8,
+      16.837,
+      25.188,
+      33.05,
+      40.737,
+      48.775,
+      56.35
+    ],
+    "it": [
+      0.0,
+      7.188,
+      12.5,
+      19.075,
+      24.387,
+      30.462,
+      36.362,
+      42.9
+    ],
+    "fr": [
+      0.0,
+      7.513,
+      13.363,
+      20.925,
+      27.55,
+      34.538,
+      40.788,
+      48.0
+    ],
+    "ro": [
+      0.0,
+      7.825,
+      14.275,
+      22.562,
+      30.55,
+      37.675,
+      44.938,
+      52.562
+    ],
+    "ru": [
+      0.0,
+      9.562,
+      16.55,
+      24.025,
+      32.175,
+      39.887,
+      47.65,
+      55.487
+    ],
+    "pt": [
+      0.0,
+      9.125,
+      15.488,
+      22.962,
+      30.85,
+      38.6,
+      46.487,
+      54.837
+    ],
+    "hu": [
+      0.0,
+      9.488,
+      15.6,
+      23.663,
+      30.525,
+      38.7,
+      46.725,
+      54.375
+    ]
+  }
+}

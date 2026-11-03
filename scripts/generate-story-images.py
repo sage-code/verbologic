@@ -79,7 +79,9 @@ STYLE = (
     "Nicolae Grigorescu: visible loose brush strokes, warm earthy palette of "
     "ochre, olive green and soft blue, dappled sunlight, gentle and friendly "
     "mood, painterly and deliberately NOT photorealistic. "
-    "No text, no lettering, no captions, no watermark, no signature."
+    "ABSOLUTELY NO TEXT anywhere in the picture: no letters, no words, no numbers, no writing, no captions, no "
+    "watermark, no signature. Signs, posters, timetables, labels, books, screens, banners and shop fronts are shown "
+    "BLANK or as plain shapes and pictures, never with writing. The picture must work for readers of every language."
 )
 
 #: The fewest reading pages a story may have, and so the fewest pictures.
@@ -332,6 +334,50 @@ def call_gemini_image(prompt: str, model: str, reference: bytes | None = None, e
     raise RuntimeError("Gemini returned no image data")
 
 
+def has_text(picture: bytes) -> bool:
+    """True when a vision model sees any readable letters, words or numbers in the picture."""
+    api_key = os.environ.get("GEMINI_API_KEY")
+    model = os.environ.get("GEMINI_MODEL") or "models/gemini-3.5-flash-lite"
+    model = model if model.startswith("models/") else f"models/{model}"
+    payload = {
+        "contents": [{"parts": [
+            {"inlineData": {"mimeType": "image/jpeg", "data": base64.b64encode(picture).decode("ascii")}},
+            {"text": (
+                "Does this picture contain ANY readable text: letters, words, numbers, signs with writing, a title, "
+                'a caption, a signature or a watermark? Answer with JSON only: {"has_text": true|false}.'
+            )},
+        ]}],
+        "generationConfig": {"temperature": 0, "responseMimeType": "application/json"},
+    }
+    request = urllib.request.Request(
+        f"{GEMINI_API_URL}/{model}:generateContent?key={api_key}",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=120) as response:
+            data = json.loads(response.read().decode("utf-8"))
+        answer = json.loads(data["candidates"][0]["content"]["parts"][0]["text"])
+        return bool(answer.get("has_text")) if isinstance(answer, dict) else False
+    except (urllib.error.URLError, KeyError, IndexError, ValueError):
+        return False  # an unreadable verdict must not block drawing
+
+
+def draw(prompt: str, model: str, reference: bytes | None, extra: list[bytes]) -> bytes:
+    """One picture with no text in it: redraw up to twice when the vision check sees writing."""
+    raw = call_gemini_image(prompt, model, reference, extra)
+    for _ in range(2):
+        if not has_text(fit_picture(raw)):
+            return raw
+        print("    the picture has text in it; drawing again")
+        raw = call_gemini_image(
+            prompt + "\n\nYour last picture contained writing. Draw it again with NO letters, numbers or words "
+            "anywhere: leave every sign, poster, timetable and label blank.",
+            model, reference, extra,
+        )
+    return raw
+
+
 def story_title(topic: str, code: str, locale: str) -> str:
     """The story's title in its own language, from the article file."""
     article = load_article(topic, code)
@@ -439,6 +485,10 @@ def main() -> int:
     parser.add_argument("--all", action="store_true", help="every story")
     parser.add_argument("--overwrite", action="store_true", help="regenerate existing pictures")
     parser.add_argument("--dry-run", action="store_true", help="report the plan, write nothing")
+    parser.add_argument(
+        "--audit-text", action="store_true",
+        help="check existing pictures for text and redraw only the ones that have some (with --dry-run: just list them)",
+    )
     parser.add_argument("--model", default=DEFAULT_IMAGE_MODEL, help="Gemini image model")
     parser.add_argument(
         "--backfill-context",
@@ -495,7 +545,12 @@ def main() -> int:
             print(f"  {code}: no `context` in the article file, pictures rely on the text alone (run --backfill-context)")
         for index, page in enumerate(pages):
             target = images_dir / f"{index}.jpg"
-            if target.is_file() and not args.overwrite:
+            if args.audit_text and target.is_file():
+                if not has_text(target.read_bytes()):
+                    skipped += 1
+                    continue
+                print(f"  [{index}] page {index + 1}: has text")
+            elif target.is_file() and not args.overwrite:
                 print(f"  [{index}] page {index + 1}: exists, skipped")
                 skipped += 1
                 continue
@@ -509,7 +564,7 @@ def main() -> int:
             previous_picture = images_dir / f"{index - 1}.jpg"
             reference = previous_picture.read_bytes() if index > 0 and previous_picture.is_file() else None
             try:
-                raw = call_gemini_image(prompt, args.model, reference, [picture for _, picture in returning])
+                raw = draw(prompt, args.model, reference, [picture for _, picture in returning])
             except RuntimeError as error:
                 print(f"  [{index}] page {index + 1}: FAILED {error}", file=sys.stderr)
                 failed += 1
