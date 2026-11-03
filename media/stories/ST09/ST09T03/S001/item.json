@@ -1,0 +1,353 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST09",
+  "topic": "ST09T03",
+  "kind": "story",
+  "entity_id": "ST09T03:S001",
+  "cefr": "C1",
+  "tags": [
+    "level#C1"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Fighting Girlfriend",
+      "description": "Mariya Oktyabrskaya honors her fallen husband by becoming a skilled Soviet tank driver during the Second World War."
+    },
+    "ro": {
+      "name": "Prietena de luptă",
+      "description": "Mariya Oktyabrskaya își onorează soțul căzut la datorie devenind un tanchist sovietic iscusit în timpul celui de-al Doilea Război Mondial."
+    },
+    "de": {
+      "name": "Die kämpfende Freundin",
+      "description": "Mariya Oktyabrskaya ehrt ihren gefallenen Ehemann, indem sie im Zweiten Weltkrieg eine geschickte sowjetische Panzerfahrerin wird."
+    },
+    "ru": {
+      "name": "Боевая подруга",
+      "description": "Мария Октябрьская чтит память погибшего мужа, став искусным советским танкистом во время Второй мировой войны."
+    },
+    "it": {
+      "name": "L'amica combattente",
+      "description": "Mariya Oktyabrskaya onora il marito caduto diventando un'abile carrista sovietica durante la Seconda Guerra Mondiale."
+    },
+    "es": {
+      "name": "La amiga combatiente",
+      "description": "Mariya Oktyabrskaya honra a su marido caído convirtiéndose en una hábil conductora de tanques soviética durante la Segunda Guerra Mundial."
+    },
+    "fr": {
+      "name": "L'amie combattante",
+      "description": "Mariya Oktyabrskaya honore son mari tombé au combat en devenant une habile conductrice de char soviétique durant la Seconde Guerre mondiale."
+    },
+    "hu": {
+      "name": "A harcoló barátnő",
+      "description": "Mariya Oktyabrskaya elesett férje emlékét tiszteli azzal, hogy a második világháború alatt képzett szovjet harckocsizóvá válik."
+    },
+    "pt": {
+      "name": "A amiga combatente",
+      "description": "Mariya Oktyabrskaya honra o seu marido caído tornando-se uma habilidosa condutora de tanques soviética durante a Segunda Guerra Mundial."
+    }
+  },
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 14400,
+      "sha1": "98b6a3240e0dd529a4242ccae9c0edb54fce1190",
+      "text": "4143dc0a7b36d25d0332d290b283d9f1fce9962b"
+    },
+    "sound/es.mp3": {
+      "bytes": 13968,
+      "sha1": "3fd5181876591b49e9f1f087279e1090a198eda3",
+      "text": "0dbc7797ef3437335377a1b094cbb27862f88653"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "08714eda6f4249817deb03d03cfca832c3c005bd",
+      "text": "007bf2f18cf68557f0a28af9bfbb3138074e5a46"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "8e7d393152b00eab080276d13dd49ff5450dd80c",
+      "text": "20d9a83d7358f6691a77c5712c9ed38157c71baa"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14112,
+      "sha1": "2c7ef4ff546b724478e7b89be9609f7e715ae6cc",
+      "text": "333ad4c6eb1dedcc9b97b8c262451fe2c25e143e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12960,
+      "sha1": "150de9041ac794e2198881dfbd6d1732b6fbc06c",
+      "text": "12c6af2c97502c1468511e19d321d1d7b3e41b6c"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15408,
+      "sha1": "ec252491bed3ea18e97e52221b9693c6bc862aa1",
+      "text": "2765d5e263e0aad7dbed94d4bda9ccbeaef3e396"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14976,
+      "sha1": "f4a4559f62cb145963347fe119ebb2b2d7247e0b",
+      "text": "2e381dd73bfb519c023bbc153522086c3ff0347d"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "4977aa02abae55c1232501ba7db6edb56e187b6c",
+      "text": "21956dd3299c967aceecfff89865c5e7afa2ae21"
+    },
+    "read/es.mp3": {
+      "bytes": 868896,
+      "sha1": "8edc2d7e6092f88f5cb73084e7cc3cce95d961d7",
+      "text": "587378952d6ed2874dc7ee7f8af17b4bc3c822be"
+    },
+    "read/en.mp3": {
+      "bytes": 862560,
+      "sha1": "7f6c65b53ece0de1094119c49abd41468f314ca9",
+      "text": "1256cb7708f2c5bb78fb0bbb0ac9b62df136f33c"
+    },
+    "read/it.mp3": {
+      "bytes": 882288,
+      "sha1": "b4d28b802cfbca8fe2ab927b11906ad3350fde2d",
+      "text": "8e0a685c271c9969a4832cdece943a54539a29ef"
+    },
+    "read/de.mp3": {
+      "bytes": 990000,
+      "sha1": "83c849409cbaac27dbacd940290f0300edfe0dff",
+      "text": "be075ed011e2ba2949931f4f6f77e97e80919faa"
+    },
+    "read/fr.mp3": {
+      "bytes": 830880,
+      "sha1": "8c91cc15b6364f8efcaa8f8184525eda328f4350",
+      "text": "768b64371c6124271b69ac3fa4475053d8ac6314"
+    },
+    "read/ru.mp3": {
+      "bytes": 839664,
+      "sha1": "e36da7dde75f6cb8164445151f45f2dd32ae2af0",
+      "text": "c4c640e184febd0baad48d668a0fb07a2555287e"
+    },
+    "read/ro.mp3": {
+      "bytes": 824400,
+      "sha1": "30486460d08d71a26b926aa9bd5d5d9257467be4",
+      "text": "6311f490cca6e792d720735bb456ed5e6b755225"
+    },
+    "read/hu.mp3": {
+      "bytes": 954288,
+      "sha1": "ca5a6e080c580643902c46621b83b1f9106dcd38",
+      "text": "b505973aa69e6cbeb3bf96537ff366a2bac7e9eb"
+    },
+    "read/pt.mp3": {
+      "bytes": 870912,
+      "sha1": "52fb73c5e4b5bf7c47035718bc0376c4add02a3a",
+      "text": "3f9dad73df78cc9a3bf67d077588b47c5e4a69e7"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 157929,
+      "sha1": "0ab4be1bed59220cbf59d9b23121f95ab3b5b1d4",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 185648,
+      "sha1": "468060e2299232d4d47b8e640d8217ecf4914387",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 190589,
+      "sha1": "c9b6a1ac1f05426adbe5503e1cec9c1b58c34f34",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 219848,
+      "sha1": "fe8052a6b71f2dfae733226a9b5d2ca99fa478be",
+      "page": 3
+    },
+    {
+      "file": "images/4.jpg",
+      "bytes": 198656,
+      "sha1": "345da9de56d6832a8f83877d09c900f04fa41ac4",
+      "page": 4
+    },
+    {
+      "file": "images/5.jpg",
+      "bytes": 223719,
+      "sha1": "bcbfe4230317dc7820022a9918542e62c858e7f3",
+      "page": 5
+    }
+  ],
+  "readSections": {
+    "es": [
+      0,
+      11.088,
+      20.175,
+      28.587,
+      37.287,
+      46.25,
+      54,
+      62.6,
+      70.875,
+      80.612,
+      88.212,
+      96.862,
+      104.45,
+      111.888,
+      120.138,
+      127.55,
+      136.463
+    ],
+    "en": [
+      0,
+      11.3,
+      20.863,
+      29,
+      36.837,
+      45.837,
+      54.475,
+      62.487,
+      70.312,
+      78.763,
+      87.7,
+      96.588,
+      104.363,
+      111.65,
+      119.575,
+      127.175,
+      136.613
+    ],
+    "it": [
+      0,
+      11.375,
+      21.25,
+      29.163,
+      38.275,
+      47.863,
+      56.263,
+      64.737,
+      72.075,
+      82.775,
+      91.7,
+      100.05,
+      107.8,
+      115.587,
+      122.837,
+      129.5,
+      138.325
+    ],
+    "de": [
+      0,
+      12.062,
+      24.725,
+      35.312,
+      44.438,
+      55.212,
+      64.575,
+      73.737,
+      82,
+      92.713,
+      103.738,
+      113.538,
+      122.1,
+      130.475,
+      137.738,
+      145.6,
+      155.838
+    ],
+    "fr": [
+      0,
+      10.488,
+      19.225,
+      27.588,
+      36,
+      45.763,
+      53.475,
+      61.413,
+      68.425,
+      77.25,
+      85.45,
+      93.7,
+      101.413,
+      107.863,
+      114.838,
+      122.3,
+      130.7
+    ],
+    "ru": [
+      0,
+      10.912,
+      21.025,
+      29.762,
+      38.75,
+      47.675,
+      55.637,
+      64.125,
+      71.15,
+      79.588,
+      88.188,
+      96.975,
+      104.387,
+      111.025,
+      117.325,
+      123.837,
+      134.15
+    ],
+    "ro": [
+      0,
+      10.5,
+      19.475,
+      27.1,
+      35.775,
+      44.888,
+      52.713,
+      60.375,
+      67.312,
+      76.575,
+      84.862,
+      92.45,
+      99.75,
+      106.75,
+      114,
+      120.912,
+      130.15
+    ],
+    "hu": [
+      0,
+      11.3,
+      20.675,
+      29.875,
+      40.225,
+      50.562,
+      59.6,
+      68.95,
+      76.5,
+      87.225,
+      97.275,
+      105.8,
+      114.575,
+      123.513,
+      131.713,
+      139.175,
+      150.138
+    ],
+    "pt": [
+      0,
+      10.588,
+      20,
+      28.15,
+      37.325,
+      45.913,
+      54.525,
+      62.725,
+      70.213,
+      80.375,
+      89.013,
+      98.112,
+      106.212,
+      113.712,
+      121.7,
+      129.062,
+      137.762
+    ]
+  }
+}

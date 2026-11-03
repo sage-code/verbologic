@@ -1,0 +1,296 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST05",
+  "topic": "ST05T02",
+  "kind": "story",
+  "entity_id": "ST05T02:S001",
+  "cefr": "B1",
+  "tags": [
+    "level#B1"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Blacksmith of the Red Rocks",
+      "description": "Talisa must solve a riddle about metal and heat to repair the village water gate before the desert sun becomes too hot."
+    },
+    "ro": {
+      "name": "Fierarul de la Stâncile Roșii",
+      "description": "Talisa trebuie să rezolve o ghicitoare despre metal și căldură pentru a repara poarta de apă a satului înainte ca soarele deșertului să devină prea fierbinte."
+    },
+    "de": {
+      "name": "Die Schmiedin von den Roten Felsen",
+      "description": "Talisa muss ein Rätsel über Metall und Hitze lösen, um das Wassertor des Dorfes zu reparieren, bevor die Wüstensonne zu heiß wird."
+    },
+    "ru": {
+      "name": "Кузнец Красных Скал",
+      "description": "Талиса должна решить загадку о металле и жаре, чтобы починить водяные ворота деревни, пока солнце пустыни не стало слишком жарким."
+    },
+    "it": {
+      "name": "Il fabbro delle Rocce Rosse",
+      "description": "Talisa deve risolvere un indovinello sul metallo e sul calore per riparare la porta dell'acqua del villaggio prima che il sole del deserto diventi troppo caldo."
+    },
+    "es": {
+      "name": "El herrero de las Rocas Rojas",
+      "description": "Talisa debe resolver un acertijo sobre metal y calor para reparar la puerta de agua del pueblo antes de que el sol del desierto sea demasiado fuerte."
+    },
+    "fr": {
+      "name": "Le forgeron des Roches Rouges",
+      "description": "Talisa doit résoudre une énigme sur le métal et la chaleur pour réparer la porte d'eau du village avant que le soleil du désert ne devienne trop brûlant."
+    },
+    "hu": {
+      "name": "A Vörös Sziklák Kovácsa",
+      "description": "Talisának meg kell oldania egy rejtvényt a fémről és a hőről, hogy megjavítsa a falu vízszabályozó kapuját, mielőtt a sivatagi nap túl forróvá válna."
+    },
+    "pt": {
+      "name": "O Ferreiro das Rochas Vermelhas",
+      "description": "Talisa deve resolver um enigma sobre metal e calor para reparar o portão de água da aldeia antes que o sol do deserto fique muito quente."
+    }
+  },
+  "files": {
+    "sound/it.mp3": {
+      "bytes": 16272,
+      "sha1": "da2f22d8ca104591d0dc60a83c2543b4a15a06fb",
+      "text": "6fa759d548fb97fb7707d7405e25a577425deb73"
+    },
+    "sound/ro.mp3": {
+      "bytes": 16416,
+      "sha1": "7a80e5e760f6b22375f35ae54822dc4f3db5bb49",
+      "text": "9101265d1672c683b728045f2f29a5b9ca88304f"
+    },
+    "sound/de.mp3": {
+      "bytes": 16704,
+      "sha1": "af310e0968b09c4be968af8b9de5aa9230d9747b",
+      "text": "1df1475177f88e371d0df29770d82266b246b936"
+    },
+    "sound/es.mp3": {
+      "bytes": 16416,
+      "sha1": "70f888943e87361b3e606a69fbcf751972ce74de",
+      "text": "582bfb60b002f32657980cc8c7cc3f8ea1739764"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14400,
+      "sha1": "34ad3fac9a0a5b21978612e6f9abaa62a1298bf7",
+      "text": "c6f61fe2df6185bf5f7e35cd9ed9974eed169a59"
+    },
+    "sound/pt.mp3": {
+      "bytes": 15552,
+      "sha1": "4280f128a7a1d4d87b37932af7d2d26f370a6124",
+      "text": "5dac1757b9be29419f3aa39e2075b2a39c28fdb3"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13968,
+      "sha1": "55e620b20d704b710852c7b3b025570f52193a5d",
+      "text": "1851c454d60140668f8ec222bd3da32a6451f190"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14976,
+      "sha1": "2b6032d1e6608116629d220a6ecc4c941eb94c2d",
+      "text": "dac8bdd1adda9bb3504ec94f53e8f164bd8a00b4"
+    },
+    "sound/en.mp3": {
+      "bytes": 12240,
+      "sha1": "0632a8d954f13cf1f681e2d150f3b6ada5651441",
+      "text": "f172e0e47d309614b5782b73cb86effae2767951"
+    },
+    "read/fr.mp3": {
+      "bytes": 645120,
+      "sha1": "eb3eaaf05a4fd0880cbc822ddf3606a58b4a3621",
+      "text": "5dd0d5e81faa8903da9eefc9ac64755a20d6a7c3"
+    },
+    "read/it.mp3": {
+      "bytes": 778176,
+      "sha1": "03626f6f90c420a4944583ebfbe5c2e6d6fd7bcc",
+      "text": "225edfa28c2caf9e5b0e2435c810fc76ca1bbd35"
+    },
+    "read/de.mp3": {
+      "bytes": 746064,
+      "sha1": "7e9048225a3c9bed72e0b41790242b3e17be8c54",
+      "text": "b56de8df7307c1a03dd397521eb1b77d900a525b"
+    },
+    "read/es.mp3": {
+      "bytes": 724896,
+      "sha1": "de4cfd1ba1dddf2e6a54518dc62ccddcaf78b4c8",
+      "text": "da63b6d59c0a600f04e3a326abf29b0424123bb1"
+    },
+    "read/pt.mp3": {
+      "bytes": 635616,
+      "sha1": "eb4c6c85c5ae2e7200af74d83e9d0ed34c7f8e2d",
+      "text": "6d179793aa4422870eee1c5f6d99597019568994"
+    },
+    "read/hu.mp3": {
+      "bytes": 679104,
+      "sha1": "6fd5fadcc68d30eae0e391ae7dc7240e98c36a1f",
+      "text": "809d396cbfcc7b2f737b85f27b6462d4e3dbbfd5"
+    },
+    "read/ro.mp3": {
+      "bytes": 728784,
+      "sha1": "8d550dcb32895d54fe8b9acaa6d224245a547f87",
+      "text": "63109ef466612b9a7c78b69c043944ec94d53300"
+    },
+    "read/ru.mp3": {
+      "bytes": 798048,
+      "sha1": "c985b3abb232a827680c7c9e20831f83c36daf25",
+      "text": "ef9e521616346e7bf8104ba1cced73fcc1dee04a"
+    },
+    "read/en.mp3": {
+      "bytes": 659088,
+      "sha1": "e981a8797f785123fe717e06102edcc7dc78660b",
+      "text": "2cdd919394aa2c47e82e448b2ed677cb2031b807"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 173721,
+      "sha1": "dc78ee81e87ae8fef37c4bbe1ce75e0c9988b7b1",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 172211,
+      "sha1": "3c55da01d185968f607fe7bfc4845b27aa3a3495",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 175686,
+      "sha1": "602b52f64cc89d7d5751c7ed4e5f5990ae18fab3",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 162773,
+      "sha1": "3acf3ea1bf7890524ac4d23bf0119a34f242325c",
+      "page": 3
+    }
+  ],
+  "readSections": {
+    "fr": [
+      0.0,
+      10.45,
+      19.262,
+      29.538,
+      38.163,
+      45.738,
+      54.4,
+      63.263,
+      73.0,
+      81.662,
+      90.062,
+      98.537
+    ],
+    "it": [
+      0.0,
+      12.4,
+      23.0,
+      28.413,
+      39.737,
+      49.287,
+      59.875,
+      70.3,
+      81.888,
+      92.963,
+      102.713,
+      112.913
+    ],
+    "de": [
+      0.0,
+      11.625,
+      21.075,
+      33.013,
+      43.8,
+      54.013,
+      63.9,
+      73.738,
+      84.288,
+      94.6,
+      103.663,
+      113.375
+    ],
+    "es": [
+      0.0,
+      10.95,
+      20.337,
+      32.5,
+      41.975,
+      51.375,
+      61.1,
+      71.05,
+      82.0,
+      92.225,
+      100.987,
+      111.938
+    ],
+    "pt": [
+      0.0,
+      9.963,
+      18.125,
+      28.188,
+      37.425,
+      45.212,
+      53.375,
+      62.5,
+      71.338,
+      79.85,
+      87.638,
+      96.688
+    ],
+    "hu": [
+      0.0,
+      9.713,
+      17.875,
+      28.762,
+      38.888,
+      47.538,
+      56.35,
+      65.287,
+      75.725,
+      84.712,
+      93.275,
+      102.487
+    ],
+    "ro": [
+      0.0,
+      13.225,
+      23.75,
+      34.388,
+      44.388,
+      54.5,
+      64.3,
+      73.537,
+      83.162,
+      92.5,
+      101.375,
+      111.338
+    ],
+    "ru": [
+      0.0,
+      12.975,
+      23.325,
+      36.05,
+      47.612,
+      59.025,
+      69.638,
+      80.8,
+      91.875,
+      102.65,
+      112.55,
+      122.4
+    ],
+    "en": [
+      0.0,
+      11.088,
+      19.488,
+      30.337,
+      39.412,
+      47.725,
+      57.2,
+      65.862,
+      75.112,
+      84.287,
+      92.362,
+      101.175
+    ]
+  }
+}

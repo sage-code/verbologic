@@ -227,6 +227,8 @@ def story_prompt(
         f"{focus}"
         f"- Do not reuse these titles: {taken}.\n\n"
         f"{chars.rules(level, species, premise, cast)}\n\n"
+        + (f"YOUR LAST ATTEMPT WAS REJECTED. Fix this: {'; '.join(RETRY_NOTES)}\n\n" if RETRY_NOTES else "")
+        +
         'Return only a JSON object with the keys "title" (a short title), "summary" '
         '(one sentence of at most 25 words), "paragraphs" (a list of strings), '
         '"main" (the name of the main character), "new_characters" (an object that maps the name of each NEW '
@@ -325,9 +327,14 @@ def check_native(result: dict[str, Any], story: dict[str, Any], locales: list[st
     return problems
 
 
+#: What the last rejected attempt got wrong; story_prompt tells the writer so the retry can fix it.
+RETRY_NOTES: list[str] = []
+
+
 def with_retries(label: str, attempt, validate) -> Any:
     """Run `attempt` until its result passes `validate`, up to three times."""
     problems: list[str] = []
+    RETRY_NOTES.clear()
     for number in range(1, 4):
         try:
             result = attempt()
@@ -337,6 +344,7 @@ def with_retries(label: str, attempt, validate) -> Any:
         except (RuntimeError, ValueError, KeyError, IndexError, TypeError) as error:
             problems = [str(error)]
         print(f"  {label}: attempt {number} rejected: {'; '.join(problems)}", file=sys.stderr)
+        RETRY_NOTES[:] = problems
     raise RuntimeError(f"{label} failed after three attempts: {'; '.join(problems)}")
 
 
@@ -520,7 +528,7 @@ def main() -> int:
         code = next_code(topic, chapter)
         print(f"\n### {code}")
         # A1 heroes are animals: pick a species no earlier hero has, mixing domestic and wild ones.
-        species = chars.pick_species() if level == "A1" and not args.subject else None
+        species = chars.pick_species() if level == "A1" and not args.subject and not args.premise else None
         cast = chars.casting(level) if level != "A1" and not args.premise and not args.subject else None
         if species:
             print(f"  main character: a new {species}")

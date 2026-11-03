@@ -1,0 +1,329 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST10",
+  "topic": "ST10T01",
+  "kind": "story",
+  "entity_id": "ST10T01:S001",
+  "cefr": "C1",
+  "tags": [
+    "level#C1"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Captain's Ledger",
+      "description": "Major Milena negotiates a complex military supply contract to ensure her village’s economic security during a harsh winter."
+    },
+    "ro": {
+      "name": "Registrul Căpitanului",
+      "description": "Maiorul Milena negociază un contract complex de aprovizionare militară pentru a asigura securitatea economică a satului ei în timpul unei ierni aspre."
+    },
+    "de": {
+      "name": "Das Hauptbuch des Kapitäns",
+      "description": "Major Milena verhandelt einen komplexen militärischen Liefervertrag, um die wirtschaftliche Sicherheit ihres Dorfes während eines harten Winters zu gewährleisten."
+    },
+    "ru": {
+      "name": "Гроссбух капитана",
+      "description": "Майор Милена ведет переговоры о сложном контракте на военные поставки, чтобы обеспечить экономическую безопасность своей деревни в суровую зиму."
+    },
+    "it": {
+      "name": "Il Registro del Capitano",
+      "description": "Il Maggiore Milena negozia un complesso contratto di forniture militari per garantire la sicurezza economica del suo villaggio durante un inverno rigido."
+    },
+    "es": {
+      "name": "El libro de cuentas del capitán",
+      "description": "La mayor Milena negocia un complejo contrato de suministros militares para garantizar la seguridad económica de su aldea durante un invierno riguroso."
+    },
+    "fr": {
+      "name": "Le registre du capitaine",
+      "description": "Le commandant Milena négocie un contrat complexe de fournitures militaires pour assurer la sécurité économique de son village pendant un hiver rigoureux."
+    },
+    "hu": {
+      "name": "A kapitány főkönyve",
+      "description": "Milena őrnagy egy bonyolult katonai ellátási szerződést tárgyal meg, hogy biztosítsa faluja gazdasági biztonságát a zord tél idején."
+    },
+    "pt": {
+      "name": "O Livro de Contas do Capitão",
+      "description": "A Major Milena negocia um contrato complexo de suprimentos militares para garantir a segurança econômica da sua aldeia durante um inverno rigoroso."
+    }
+  },
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 15984,
+      "sha1": "8cef448a97fa1981b79614a1d1a6ec9ef1876a61",
+      "text": "af1c5bc3234a2872dd06b76c1addbc271c2110b9"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "4c0cf3b0ad365280733b9cdd7259e33bd619edb1",
+      "text": "c8ec5eae263d8ca5ecfb2c3b36e150ad098b7298"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "64a33c8a2426e7b03bab4a7abc5b49e4ed7d08ad",
+      "text": "1702f312f9f71b647e7527a21e100444e995b199"
+    },
+    "sound/ro.mp3": {
+      "bytes": 14832,
+      "sha1": "88df2e61809c5ebb3500b00e6062b41308b587c4",
+      "text": "5a2d0a3e6a069fdd2da37ff243f2be7c56f5d13d"
+    },
+    "sound/de.mp3": {
+      "bytes": 17280,
+      "sha1": "921a35a8fb602abc14e50ad073d227cb455df136",
+      "text": "580997e55f7ea58dd0ba1c7280c1ac72005b45a2"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14544,
+      "sha1": "f74200389c719c2eb61861d4c353c6a4eeb3dc40",
+      "text": "3e3f5e1cec57308a6f6abdad4bc0da32e43fe536"
+    },
+    "sound/fr.mp3": {
+      "bytes": 15120,
+      "sha1": "764a193cd363ee50a3c16d9d96bf0cfdd0bbd7d5",
+      "text": "78d55a1582dd1d297595c30168ed81569fbb7773"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14832,
+      "sha1": "8a578e0466f5519746eb00fc2b4d2a20bbd06173",
+      "text": "28ff591961c4b87f98c29025dfeb69a15fc9283d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17856,
+      "sha1": "18691bb74b6d3a52490ce8c9f4343a9cd0739dc2",
+      "text": "f13dcb6c088b2b137642737b431fdae891177ca5"
+    },
+    "read/es.mp3": {
+      "bytes": 1403424,
+      "sha1": "5f48762b82ec25bc67b0dd4fc9377626c8af72c4",
+      "text": "880b7cda79ee38cfdb66218c6682e0faf22daad8"
+    },
+    "read/it.mp3": {
+      "bytes": 1456272,
+      "sha1": "47ef2dfa7c035e4bfc60179764271029aedec0bb",
+      "text": "c33d751a9ef47a782180fc639f03dbf837ae1003"
+    },
+    "read/en.mp3": {
+      "bytes": 1377648,
+      "sha1": "ddff9950a25c99c51769d69f1553932c494903ce",
+      "text": "70d7d6b7cfc0f8e3f1390155f686e756c8a70aac"
+    },
+    "read/de.mp3": {
+      "bytes": 1594224,
+      "sha1": "4c6ed3482469361f573b8504d5e7f4892a9178e0",
+      "text": "79f5e84b7fa22f8041ad9c854fffe80236775ea2"
+    },
+    "read/fr.mp3": {
+      "bytes": 1397232,
+      "sha1": "f342ec8431db29a2dbd35ec3b8b1404a7669c35f",
+      "text": "e0cb771b9b9b910275d1ed217263e21d7b2f87db"
+    },
+    "read/ro.mp3": {
+      "bytes": 1381392,
+      "sha1": "9ac7ffe9f546b31c72564472de2bed71c73bfafc",
+      "text": "6458ac913251ba16dd289e2c81b83f501100388b"
+    },
+    "read/ru.mp3": {
+      "bytes": 1412064,
+      "sha1": "bdda62b04d544c97f0bcebb449ca63c664077ae3",
+      "text": "7cb841487219b8687acc2f4ee8cf47c2ad9e4e42"
+    },
+    "read/hu.mp3": {
+      "bytes": 1561104,
+      "sha1": "2e3e0a29d23c4f8e7bc8bd4e5c870a226963fbb5",
+      "text": "efb70b056d71397de9d2c2cd6056338c54a67432"
+    },
+    "read/pt.mp3": {
+      "bytes": 1429632,
+      "sha1": "ccd94d37bdd4c670b11e2dfd3b005b108b08be2b",
+      "text": "03cea6773a49d031375109c0504de672166b323a"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 216778,
+      "sha1": "5d33cecf15f6c14b5350baf360aaf02f3150f9df",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 211415,
+      "sha1": "550e190a6aa0e1fc939fe192155de1a560914ec2",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 204986,
+      "sha1": "002d33c3cf876f3fd88efa1bf94b06f5a03e2c8d",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 211265,
+      "sha1": "2d392fa4c1c9b0651df520f4f0f75c3225968210",
+      "page": 3
+    },
+    {
+      "file": "images/4.jpg",
+      "bytes": 199842,
+      "sha1": "e26e3dd34bd34e7a35e36dc9901b7132c9391fa8",
+      "page": 4
+    }
+  ],
+  "readSections": {
+    "es": [
+      0.0,
+      16.6,
+      31.888,
+      49.513,
+      67.312,
+      85.0,
+      100.725,
+      116.637,
+      134.162,
+      149.5,
+      163.738,
+      178.075,
+      194.95,
+      208.363,
+      222.65
+    ],
+    "it": [
+      0.0,
+      18.163,
+      35.812,
+      53.913,
+      72.237,
+      90.062,
+      106.375,
+      122.562,
+      141.312,
+      157.088,
+      171.763,
+      186.45,
+      202.825,
+      217.338,
+      231.888
+    ],
+    "en": [
+      0.0,
+      16.163,
+      31.55,
+      49.425,
+      65.287,
+      83.812,
+      98.8,
+      113.7,
+      130.45,
+      146.05,
+      160.05,
+      174.05,
+      190.262,
+      204.462,
+      218.887
+    ],
+    "de": [
+      0.0,
+      18.075,
+      34.525,
+      55.112,
+      74.487,
+      94.35,
+      113.425,
+      133.025,
+      151.438,
+      170.088,
+      186.412,
+      203.0,
+      220.875,
+      237.162,
+      252.938
+    ],
+    "fr": [
+      0.0,
+      16.663,
+      32.55,
+      49.475,
+      66.688,
+      82.812,
+      97.8,
+      113.987,
+      130.863,
+      145.812,
+      160.525,
+      174.775,
+      191.6,
+      206.725,
+      221.325
+    ],
+    "ro": [
+      0.0,
+      15.338,
+      31.1,
+      48.1,
+      64.875,
+      81.612,
+      96.35,
+      113.175,
+      130.537,
+      146.15,
+      160.912,
+      175.338,
+      191.125,
+      205.287,
+      219.275
+    ],
+    "ru": [
+      0.0,
+      15.838,
+      30.212,
+      48.212,
+      66.237,
+      85.463,
+      100.562,
+      117.338,
+      133.775,
+      149.963,
+      163.725,
+      178.487,
+      195.762,
+      210.487,
+      225.25
+    ],
+    "hu": [
+      0.0,
+      18.038,
+      34.862,
+      52.688,
+      71.162,
+      91.975,
+      107.962,
+      126.512,
+      146.812,
+      165.75,
+      182.375,
+      198.95,
+      216.662,
+      233.475,
+      248.875
+    ],
+    "pt": [
+      0.0,
+      16.637,
+      32.462,
+      51.05,
+      69.487,
+      87.862,
+      103.312,
+      118.487,
+      135.95,
+      151.85,
+      165.588,
+      181.062,
+      197.6,
+      211.975,
+      226.438
+    ]
+  }
+}

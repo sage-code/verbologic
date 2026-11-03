@@ -1,0 +1,362 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST11",
+  "topic": "ST11T02",
+  "kind": "story",
+  "entity_id": "ST11T02:S001",
+  "cefr": "C2",
+  "tags": [
+    "level#C2"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Symmetry of Basalt",
+      "description": "Leilani, a skilled Hawaiian stonemason, debates an visiting architect on the merits of structural chaos versus rigid geometric perfection in sacred cliffside masonry."
+    },
+    "ro": {
+      "name": "Simetria bazaltului",
+      "description": "Leilani, o pietrară iscusită din Hawaii, dezbate cu un arhitect vizitator despre meritele haosului structural versus perfecțiunea geometrică rigidă în zidăria sacră de pe stânci."
+    },
+    "de": {
+      "name": "Die Symmetrie des Basalts",
+      "description": "Leilani, eine erfahrene hawaiianische Steinmetzin, debattiert mit einem Gastarchitekten über die Vorzüge strukturellen Chaos gegenüber starrer geometrischer Perfektion bei heiligem Klippenmauerwerk."
+    },
+    "ru": {
+      "name": "Симметрия базальта",
+      "description": "Лейлани, искусная гавайская каменщица, спорит с приезжим архитектором о преимуществах структурного хаоса перед жесткой геометрической правильностью в священной кладке на утесе."
+    },
+    "it": {
+      "name": "La simmetria del basalto",
+      "description": "Leilani, un'abile scalpellina hawaiana, discute con un architetto in visita sui meriti del caos strutturale rispetto alla rigida perfezione geometrica nella muratura sacra sulla scogliera."
+    },
+    "es": {
+      "name": "La simetría del basalto",
+      "description": "Leilani, una hábil cantera hawaiana, debate con un arquitecto visitante sobre los méritos del caos estructural frente a la rígida perfección geométrica en la mampostería sagrada del acantilado."
+    },
+    "fr": {
+      "name": "La symétrie du basalte",
+      "description": "Leilani, une habile tailleuse de pierre hawaïenne, débat avec un architecte en visite sur les mérites du chaos structurel face à la perfection géométrique rigide dans la maçonnerie sacrée de la falaise."
+    },
+    "hu": {
+      "name": "A bazalt szimmetriája",
+      "description": "Leilani, egy képzett hawaii kőműves, vitatkozik egy látogató építésszel a strukturális káosz és a merev geometriai tökéletesség érdemeiről a szent sziklafalak kőművesmunkájában."
+    },
+    "pt": {
+      "name": "A simetria do basalto",
+      "description": "Leilani, uma habilidosa pedreira havaiana, debate com um arquiteto visitante sobre os méritos do caos estrutural versus a rígida perfeição geométrica na alvenaria sagrada do penhasco."
+    }
+  },
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 14400,
+      "sha1": "0017262030a5c2b67b380adbf4a6a2d06dffc057",
+      "text": "e5dd4d75676258a99614dd35b4a86796edfdc6ad"
+    },
+    "sound/it.mp3": {
+      "bytes": 15696,
+      "sha1": "f9d265624221d97b0afa52c8aa82c025c224b04f",
+      "text": "e4ba8a1856bf691935dfe002ac197cf73048c832"
+    },
+    "sound/es.mp3": {
+      "bytes": 15264,
+      "sha1": "07836760ba106778e054433fc63de3bc73de3ef9",
+      "text": "8646c16ea12bd2705866df64197decb8033e7b46"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13824,
+      "sha1": "7d98763ac00eceeb3012b811dceb4360c7d5e194",
+      "text": "ca318527211440585818bd404419323fc02c8686"
+    },
+    "sound/en.mp3": {
+      "bytes": 10224,
+      "sha1": "f67216733a6c4374847b8553666a9e68670f18e8",
+      "text": "6482f7ad7c9b8ae2119543da4abbdceb2106e3a3"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14544,
+      "sha1": "c9b8c7562a377a24fee1774c86f61bb7a735c645",
+      "text": "47b00f0dbe31a8705fb46e86a76c4f0240b873df"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14112,
+      "sha1": "f82136b1901336f8769c4bf6b3d6aadec225086a",
+      "text": "508985159c6196309261510c26ba49724c288dc8"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12528,
+      "sha1": "82b81e5819de18c41fe4a3bf954d36261248ef77",
+      "text": "c31d560f0547ee4ed506484d6974c5ba9aa85d7b"
+    },
+    "sound/ro.mp3": {
+      "bytes": 14544,
+      "sha1": "3bf1427bd95cde06e3d01960825abd6a5601a832",
+      "text": "33ac0a30c546e7e5591063a0ca186c6ef1f120dc"
+    },
+    "read/it.mp3": {
+      "bytes": 1654560,
+      "sha1": "160d472deb98cb9c7616cd566a3ad9679a0592ff",
+      "text": "10b787217d202778e0c114165587d304cacda7ef"
+    },
+    "read/de.mp3": {
+      "bytes": 1622880,
+      "sha1": "2162a13e351af9fb1ad3f946a84c7ed86bfe33f3",
+      "text": "08832ea4da37218056b2fc430aa7d3b730bd2aa5"
+    },
+    "read/fr.mp3": {
+      "bytes": 1331712,
+      "sha1": "0a7c16d1a01ff118eeb763718381f4f1995c2b73",
+      "text": "c6c70d899b3afc751d4a36590bdb246ba19c02a3"
+    },
+    "read/es.mp3": {
+      "bytes": 1531728,
+      "sha1": "202e3d7d1590f2e7a64e8db7409282879fa5a31b",
+      "text": "47288a4e43af97ead90f1ec4a1db1f4e82302199"
+    },
+    "read/pt.mp3": {
+      "bytes": 1305216,
+      "sha1": "edb30aa385480e49e25239691a1b0842fab700ce",
+      "text": "4120506c7032128b98b7191f95ad511b422f6433"
+    },
+    "read/hu.mp3": {
+      "bytes": 1498608,
+      "sha1": "297d73a599804189e123ac00625215a610f42592",
+      "text": "8923817f2a948fe058409b16660cf3d8a7d45fc6"
+    },
+    "read/ro.mp3": {
+      "bytes": 1463760,
+      "sha1": "8945678071ed80b0a0cf2d322b8af6dabcb18930",
+      "text": "b69667752f07965dc61c664448e0a6a5bcafea3c"
+    },
+    "read/ru.mp3": {
+      "bytes": 1578096,
+      "sha1": "a27179537ead37c3de64b67e1cf8af24cd13281a",
+      "text": "7eb78abc99f0ef53860b7c833e2ed0e8dd2e06d1"
+    },
+    "read/en.mp3": {
+      "bytes": 1497312,
+      "sha1": "b9a40e584136d5fd580b8ff1d79a7dfe0bf97620",
+      "text": "9dbddf12ea2d676480d79f2668b4c416514f9a54"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 181138,
+      "sha1": "ed6fbd39774c23221133c1a6819de3bddf29acaf",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 197831,
+      "sha1": "3a4f2d3627f6b02feff315d32a8100b1709114ff",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 188161,
+      "sha1": "6d7335261c7923e2de4ce4f7ccd0e0849b9be436",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 183701,
+      "sha1": "f5056f4e75540ca76f2d78a7661d82aff0ccbb31",
+      "page": 3
+    },
+    {
+      "file": "images/4.jpg",
+      "bytes": 197314,
+      "sha1": "23b3c0529c25ec781bfa8851d32909ba3115a65b",
+      "page": 4
+    },
+    {
+      "file": "images/5.jpg",
+      "bytes": 172311,
+      "sha1": "4161751430dcd852aba4b36e4efc2faebf4a3df8",
+      "page": 5
+    }
+  ],
+  "readSections": {
+    "it": [
+      0.0,
+      17.05,
+      32.525,
+      48.388,
+      64.112,
+      81.125,
+      96.162,
+      111.412,
+      127.688,
+      145.312,
+      157.238,
+      172.2,
+      188.563,
+      204.7,
+      219.975,
+      235.4,
+      249.388,
+      266.063
+    ],
+    "de": [
+      0.0,
+      16.425,
+      30.25,
+      45.025,
+      61.375,
+      80.1,
+      94.225,
+      111.075,
+      127.55,
+      145.162,
+      157.762,
+      171.025,
+      186.625,
+      201.187,
+      215.45,
+      230.837,
+      245.837,
+      260.762
+    ],
+    "fr": [
+      0.0,
+      12.338,
+      24.863,
+      36.95,
+      49.825,
+      63.413,
+      75.412,
+      87.862,
+      101.925,
+      116.275,
+      126.4,
+      138.362,
+      150.662,
+      164.175,
+      176.775,
+      189.125,
+      201.85,
+      214.237
+    ],
+    "es": [
+      0.0,
+      16.375,
+      31.387,
+      45.575,
+      60.213,
+      76.25,
+      90.013,
+      104.0,
+      120.2,
+      129.137,
+      139.912,
+      153.287,
+      167.762,
+      182.362,
+      197.512,
+      211.325,
+      225.05,
+      240.462
+    ],
+    "pt": [
+      0.0,
+      13.588,
+      25.95,
+      38.088,
+      50.625,
+      64.375,
+      76.25,
+      88.675,
+      102.525,
+      116.037,
+      125.575,
+      136.787,
+      148.562,
+      160.725,
+      173.2,
+      185.487,
+      197.3,
+      209.787
+    ],
+    "hu": [
+      0.0,
+      14.4,
+      27.613,
+      40.775,
+      56.525,
+      72.412,
+      87.587,
+      101.375,
+      116.612,
+      132.7,
+      144.987,
+      158.475,
+      171.838,
+      185.45,
+      199.2,
+      212.888,
+      226.925,
+      241.3
+    ],
+    "ro": [
+      0.0,
+      14.162,
+      28.212,
+      41.337,
+      55.175,
+      70.787,
+      85.225,
+      98.987,
+      114.612,
+      130.025,
+      140.963,
+      154.013,
+      168.063,
+      182.025,
+      195.163,
+      208.613,
+      222.538,
+      235.775
+    ],
+    "ru": [
+      0.0,
+      16.462,
+      31.15,
+      45.65,
+      61.888,
+      78.688,
+      93.013,
+      107.513,
+      122.638,
+      139.262,
+      150.925,
+      164.6,
+      178.925,
+      194.325,
+      208.762,
+      224.925,
+      240.762,
+      255.4
+    ],
+    "en": [
+      0.0,
+      14.775,
+      28.9,
+      42.05,
+      57.512,
+      72.1,
+      85.287,
+      99.325,
+      115.112,
+      131.062,
+      142.375,
+      156.487,
+      171.837,
+      185.35,
+      200.1,
+      213.35,
+      226.9,
+      241.037
+    ]
+  }
+}

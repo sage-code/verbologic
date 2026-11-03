@@ -1,0 +1,386 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST10",
+  "topic": "ST10T03",
+  "kind": "story",
+  "entity_id": "ST10T03:S001",
+  "cefr": "C1",
+  "tags": [
+    "level#C1"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Captain of the Zambezi",
+      "description": "Tebogo, a boat captain, reconciles his duty to transport goods with the dwindling resources of his river community during a severe economic drought."
+    },
+    "ro": {
+      "name": "Căpitanul de pe Zambezi",
+      "description": "Tebogo, un căpitan de barcă, încearcă să echilibreze datoria față de comunitatea sa cu resursele tot mai puține în timpul unei crize economice."
+    },
+    "de": {
+      "name": "Der Kapitän des Sambesi",
+      "description": "Tebogo, ein Bootskapitän, versucht während einer Wirtschaftskrise seine Pflicht zur Warenbeförderung mit der Not seiner Gemeinschaft in Einklang zu bringen."
+    },
+    "ru": {
+      "name": "Капитан Замбези",
+      "description": "Тебого, капитан лодки, пытается примирить свой долг по перевозке товаров с нехваткой ресурсов в своей общине во время экономического кризиса."
+    },
+    "it": {
+      "name": "Il Capitano dello Zambesi",
+      "description": "Tebogo, un capitano di barca, cerca di conciliare il suo dovere di trasportare merci con le scarse risorse della sua comunità durante una crisi economica."
+    },
+    "es": {
+      "name": "El Capitán del Zambeze",
+      "description": "Tebogo, un capitán de barco, intenta equilibrar su deber de transportar mercancías con la escasez de recursos de su comunidad durante una crisis económica."
+    },
+    "fr": {
+      "name": "Le Capitaine du Zambèze",
+      "description": "Tebogo, un capitaine de bateau, tente de concilier son devoir de transporteur avec la pauvreté de sa communauté durant une crise économique."
+    },
+    "hu": {
+      "name": "A Zambézi kapitánya",
+      "description": "Tebogo, a hajóskapitány, megpróbálja összeegyeztetni a szállítási kötelességét a közössége szűkös erőforrásaival egy gazdasági válság idején."
+    },
+    "pt": {
+      "name": "O Capitão do Zambeze",
+      "description": "Tebogo, um capitão de barco, tenta conciliar o seu dever de transportar mercadorias com a escassez de recursos da sua comunidade durante uma crise económica."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 12096,
+      "sha1": "9167384d804e32652339b771df9f6f20a492314f",
+      "text": "bf40e003cc34ff18ea33a9cbb1cd4963cafa65ee"
+    },
+    "sound/de.mp3": {
+      "bytes": 16560,
+      "sha1": "0f29b3848dba1910a784e45f9d5f3f66b7e278f4",
+      "text": "a0b59fc585ce1efbf69a8c56586176337ef56ad2"
+    },
+    "sound/ro.mp3": {
+      "bytes": 14688,
+      "sha1": "7496b0a23b99c5ed9b7ef8cef2094e32bfeb604e",
+      "text": "60596abb7e831d9577b51c01ca205559adc59971"
+    },
+    "sound/es.mp3": {
+      "bytes": 14256,
+      "sha1": "57d21b07dea04bab62606643a8fdd91ce9a9a9a0",
+      "text": "a8b89bc068361b6d07d4d35d0660e6422da9d017"
+    },
+    "sound/it.mp3": {
+      "bytes": 12240,
+      "sha1": "fb585a8f3f44a5984fd5800544892035d060c4bb",
+      "text": "03f47daec411406144da2a28cc0aee74379cfc53"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14688,
+      "sha1": "4a98dcdf1fe7ed57e55f6ce69ed2b130785cf175",
+      "text": "99b99b9371ade5d38aa2c3efe09f8684e7338750"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13824,
+      "sha1": "91ad7fa3a75d0e4a7c1559db92867d48af174ca0",
+      "text": "fc5e621ae488423f0277c5ab6d0bb616250578d1"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16560,
+      "sha1": "45466ef3902b25dd08d9a61b7334ef2102af7146",
+      "text": "aabc43306f4143fb620b71c37b57211378548b20"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15264,
+      "sha1": "d409e3ed50de6a2cbf17afd173aec06c198c7821",
+      "text": "8faa939b1e033167a54d5ec5471ab47db659d8a4"
+    },
+    "read/es.mp3": {
+      "bytes": 865296,
+      "sha1": "eb61e68fe33bd6246b6f0d145c68aac7eaa066de",
+      "text": "3b23b4ec044562555c886109e64920b01e74aaa1"
+    },
+    "read/it.mp3": {
+      "bytes": 913392,
+      "sha1": "ae4e1f0da72e39045e1fd2cad1a839b24b95c875",
+      "text": "4f7e466e898b22036292aef9095f1c451adb6774"
+    },
+    "read/de.mp3": {
+      "bytes": 1038960,
+      "sha1": "d802e155a6de7ecbde77e2f34b7ae3d52f34afea",
+      "text": "a2093356ada285b477c4afa7d1ad2c9c7f0f31bd"
+    },
+    "read/en.mp3": {
+      "bytes": 994032,
+      "sha1": "8cb8b316651339eb27fbe536cf67f20beba22126",
+      "text": "7be1ea90b1eb834d904cbb7c39517c9d6a44d44d"
+    },
+    "read/fr.mp3": {
+      "bytes": 872784,
+      "sha1": "263ee919c988644317b0daf19cf7ebddf15af911",
+      "text": "40533aedf905b0114b95f67367d0e11de8f2eacd"
+    },
+    "read/ro.mp3": {
+      "bytes": 918576,
+      "sha1": "6b70453d3c9b4b4ebf01680495057bdf00bc3364",
+      "text": "e5fe96931366817767c9fc765d411b36c722757d"
+    },
+    "read/hu.mp3": {
+      "bytes": 999792,
+      "sha1": "943e36171f90eee84360b7d9f740d074353b2982",
+      "text": "3373f86f8bb9b047c4a79c7166be2c6ef381c18d"
+    },
+    "read/ru.mp3": {
+      "bytes": 892368,
+      "sha1": "fcc64fbca829d85814a7291c77588f9f623d2cc3",
+      "text": "3910e5d6bb055b97a5ff71c424c6c1d9fc3318ee"
+    },
+    "read/pt.mp3": {
+      "bytes": 915552,
+      "sha1": "75dd43e91ce981522655c59cd872d32136dfd653",
+      "text": "8d18bbceef68212862d21e50e0000c6c652d241e"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 196269,
+      "sha1": "3bdad6e3f1b4a3790a82b3f44d45d95ff2712062",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 215174,
+      "sha1": "ca33bb1193c3f2053d56b7388851cd4fc63684fd",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 205786,
+      "sha1": "1c9425c2f4e78dbc7e1675760a875044fede9752",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 208379,
+      "sha1": "c8a9ae9e73afe02a76e3a9e4b2f33bbb281a022c",
+      "page": 3
+    },
+    {
+      "file": "images/4.jpg",
+      "bytes": 199617,
+      "sha1": "75fb89722dcbde822165386208fe2a40806186fe",
+      "page": 4
+    },
+    {
+      "file": "images/5.jpg",
+      "bytes": 184601,
+      "sha1": "62c4cb56cecb4aa7424da9f08d7a1943cd6aaf59",
+      "page": 5
+    },
+    {
+      "file": "images/6.jpg",
+      "bytes": 146370,
+      "sha1": "f257de36500e0e39baa2ac8d00e1ff6b7185059b",
+      "page": 6
+    }
+  ],
+  "readSections": {
+    "es": [
+      0.0,
+      7.3,
+      14.162,
+      21.375,
+      29.363,
+      36.837,
+      43.312,
+      51.237,
+      58.025,
+      65.425,
+      72.487,
+      79.138,
+      86.588,
+      93.525,
+      100.625,
+      107.862,
+      114.138,
+      120.562,
+      128.863,
+      136.35
+    ],
+    "it": [
+      0.0,
+      8.1,
+      14.675,
+      21.587,
+      29.762,
+      37.812,
+      44.875,
+      52.663,
+      61.062,
+      68.875,
+      76.275,
+      83.15,
+      90.638,
+      97.975,
+      106.138,
+      113.862,
+      120.587,
+      128.125,
+      136.875,
+      143.975
+    ],
+    "de": [
+      0.0,
+      8.6,
+      16.488,
+      23.638,
+      33.963,
+      42.913,
+      51.863,
+      60.963,
+      70.313,
+      78.488,
+      86.925,
+      95.425,
+      104.163,
+      112.575,
+      120.838,
+      129.412,
+      137.412,
+      145.862,
+      156.225,
+      163.95
+    ],
+    "en": [
+      0.0,
+      8.3,
+      17.7,
+      24.65,
+      34.15,
+      42.7,
+      50.638,
+      58.7,
+      68.013,
+      76.375,
+      84.838,
+      93.088,
+      101.825,
+      109.525,
+      118.25,
+      127.0,
+      133.65,
+      142.5,
+      151.213,
+      158.275
+    ],
+    "fr": [
+      0.0,
+      7.325,
+      13.725,
+      20.812,
+      28.688,
+      35.7,
+      42.45,
+      49.675,
+      57.313,
+      64.213,
+      70.725,
+      77.4,
+      84.825,
+      91.95,
+      98.725,
+      106.563,
+      113.238,
+      120.963,
+      130.113,
+      137.425
+    ],
+    "ro": [
+      0.0,
+      7.388,
+      14.95,
+      22.112,
+      30.375,
+      38.075,
+      46.262,
+      53.975,
+      62.087,
+      69.575,
+      76.9,
+      83.762,
+      91.6,
+      99.662,
+      106.962,
+      114.95,
+      121.975,
+      130.175,
+      138.837,
+      145.825
+    ],
+    "hu": [
+      0.0,
+      8.088,
+      15.438,
+      23.1,
+      31.763,
+      39.025,
+      47.838,
+      57.038,
+      66.213,
+      75.225,
+      83.05,
+      91.575,
+      100.3,
+      108.938,
+      116.4,
+      125.288,
+      133.2,
+      141.45,
+      150.675,
+      158.363
+    ],
+    "ru": [
+      0.0,
+      7.55,
+      15.05,
+      22.45,
+      30.95,
+      38.263,
+      45.788,
+      53.0,
+      61.175,
+      68.65,
+      75.437,
+      82.925,
+      90.562,
+      97.75,
+      105.312,
+      112.875,
+      119.575,
+      126.7,
+      135.15,
+      142.437
+    ],
+    "pt": [
+      0.0,
+      7.737,
+      15.4,
+      22.275,
+      31.062,
+      38.25,
+      45.388,
+      54.062,
+      61.5,
+      69.7,
+      77.538,
+      84.625,
+      91.988,
+      99.425,
+      106.6,
+      114.4,
+      120.938,
+      128.037,
+      136.887,
+      144.375
+    ]
+  }
+}

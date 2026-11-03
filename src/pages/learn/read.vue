@@ -651,10 +651,10 @@ useSeoMeta({
                     «
                   </button>
                   <span
-                    class="inline-flex h-8 min-w-[5.5rem] shrink-0 items-center justify-center rounded-full border border-edge bg-surface px-2 text-xs tabular-nums text-muted"
+                    class="inline-flex h-8 min-w-[3.5rem] shrink-0 items-center justify-center rounded-full border border-edge bg-surface px-2 text-xs tabular-nums text-muted"
                     aria-live="polite"
                   >
-                    {{ copy('stories.page', 'Page') }} {{ storyPage + 1 }}/{{ storyPageCount }}
+                    {{ storyPage + 1 }}/{{ storyPageCount }}
                   </span>
                   <button
                     type="button"
@@ -730,10 +730,10 @@ useSeoMeta({
                       «
                     </button>
                     <span
-                      class="inline-flex h-8 min-w-[4.5rem] shrink-0 items-center justify-center rounded-full border border-edge bg-surface px-2 text-xs tabular-nums text-muted"
+                      class="inline-flex h-8 min-w-[3.5rem] shrink-0 items-center justify-center rounded-full border border-edge bg-surface px-2 text-xs tabular-nums text-muted"
                       aria-live="polite"
                     >
-                      {{ copy('stories.page', 'Page') }} {{ storyPage + 1 }}/{{ storyPageCount }}
+                      {{ storyPage + 1 }}/{{ storyPageCount }}
                     </span>
                     <button
                       type="button"

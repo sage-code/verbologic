@@ -1,0 +1,320 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST08",
+  "topic": "ST08T04",
+  "kind": "story",
+  "entity_id": "ST08T04:S001",
+  "cefr": "B2",
+  "tags": [
+    "level#B2"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Iron Shield of Amara",
+      "description": "Amara, a skilled tank driver, must protect her village's harvest from a sudden wildfire using her vehicle's capabilities."
+    },
+    "ro": {
+      "name": "Scutul de fier al Amarei",
+      "description": "Amara, o pricepută conducătoare de tanc, trebuie să salveze recolta satului ei de un incendiu devastator folosind vehiculul său."
+    },
+    "de": {
+      "name": "Amaras eiserner Schild",
+      "description": "Amara, eine geschickte Panzerfahrerin, muss die Ernte ihres Dorfes mit ihrem Fahrzeug vor einem plötzlichen Waldbrand schützen."
+    },
+    "ru": {
+      "name": "Железный щит Амары",
+      "description": "Амара, опытный водитель танка, должна защитить урожай своей деревни от внезапного лесного пожара, используя возможности своей машины."
+    },
+    "it": {
+      "name": "Lo scudo di ferro di Amara",
+      "description": "Amara, un'esperta pilota di carri armati, deve proteggere il raccolto del suo villaggio da un improvviso incendio boschivo usando il suo veicolo."
+    },
+    "es": {
+      "name": "El escudo de hierro de Amara",
+      "description": "Amara, una experta conductora de tanques, debe proteger la cosecha de su pueblo de un incendio forestal repentino usando las capacidades de su vehículo."
+    },
+    "fr": {
+      "name": "Le bouclier de fer d'Amara",
+      "description": "Amara, une conductrice de char expérimentée, doit protéger la récolte de son village d'un incendie soudain en utilisant les capacités de son véhicule."
+    },
+    "hu": {
+      "name": "Amara vaspajzsa",
+      "description": "Amara, egy ügyes harckocsivezető, a járműve képességeit felhasználva védi meg faluja termését egy hirtelen jött bozóttűztől."
+    },
+    "pt": {
+      "name": "O escudo de ferro de Amara",
+      "description": "Amara, uma experiente condutora de tanques, deve proteger a colheita da sua aldeia de um incêndio repentino usando as capacidades do seu veículo."
+    }
+  },
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 15408,
+      "sha1": "d94827368bbd7a941ea195ab526959ec62675f4f",
+      "text": "067bb4650c1db07e86311b01a9ab5e81e2a26f28"
+    },
+    "sound/it.mp3": {
+      "bytes": 15984,
+      "sha1": "b0f961dda287c7087bd55a4af2800abe1f7faca5",
+      "text": "7c3642371758b3e34b7f389509162964c77d4daf"
+    },
+    "sound/de.mp3": {
+      "bytes": 14256,
+      "sha1": "3accf0fc2b6fe0a6ca09cb7752cb8adb58dd22c2",
+      "text": "768074c0d4564a6e2766d7e5bfb96d1c1972e388"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15552,
+      "sha1": "0a9c2440dce95cb51fa106371f674bfea8fbcaa5",
+      "text": "225f8de33f405770e9c9f9504b3a7b99683c8125"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "03eef23e719149c2d409a4d063f90ebdd95df021",
+      "text": "f80e5055fe5d01c5c47d7a9f364bb5ed603bc67c"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11808,
+      "sha1": "1b6f4b342f298b60742be2829872d99f3f2dfd79",
+      "text": "658b7ea4f160a8402258f083bc13786e404c1819"
+    },
+    "sound/ro.mp3": {
+      "bytes": 15264,
+      "sha1": "09b2d832f12b43a872f01d230e5c1c6288870987",
+      "text": "2772c6779bffe9eb076696aae1559a2802341bec"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14256,
+      "sha1": "ed0ea09f69ae9d95c5af02b219128c7b0abd56fe",
+      "text": "0aa062864b4365b2bdbb9587e1824b75cbea31b4"
+    },
+    "sound/pt.mp3": {
+      "bytes": 13680,
+      "sha1": "56bc7a45deea627d8b5fe90a63b5d57a5ac639ca",
+      "text": "1145af697a3c5bd1df3446a37b06b81c54f54688"
+    },
+    "read/it.mp3": {
+      "bytes": 1269792,
+      "sha1": "7a2c8abf907a7a2d36d3ac28b38ac8937151121f",
+      "text": "9fe9e2c3f19fee2260d456d74c5f80fb2c1c081c"
+    },
+    "read/de.mp3": {
+      "bytes": 1168272,
+      "sha1": "27a3d612d461afbc831101f6d795fc6e4b06c96e",
+      "text": "996617201209cd47af237ea65532ae0ab0b694dc"
+    },
+    "read/es.mp3": {
+      "bytes": 1171440,
+      "sha1": "a5c0248273b1373633f35daaa685824f1556a8b3",
+      "text": "d8c8be58f4a01be74d1d8c3d96d765a90d1fd6e4"
+    },
+    "read/fr.mp3": {
+      "bytes": 1048464,
+      "sha1": "b6fb0e4e9d2d0263ca7fb8ad4199ca65c62f3bcd",
+      "text": "c87045e4b0e5c78f3584abb01a034944015111e4"
+    },
+    "read/hu.mp3": {
+      "bytes": 1129248,
+      "sha1": "f3129fe3d7252d0f88ac71b27177fd933b3c00a3",
+      "text": "dd4424a5a5f8216f768d3171fb7f21c54a1c91d6"
+    },
+    "read/pt.mp3": {
+      "bytes": 997488,
+      "sha1": "27c02c6474539a42edc79fc47b654fdbb96e6ff5",
+      "text": "03bb2d9ae850f3ef5f4f47871acbc5039d55ae36"
+    },
+    "read/ro.mp3": {
+      "bytes": 1092096,
+      "sha1": "9de1c2f1e2a66902921183c912c62fc3f78c5083",
+      "text": "021ac0ea3a36fccb7b808abaf2e6af52f0a4843b"
+    },
+    "read/ru.mp3": {
+      "bytes": 1171296,
+      "sha1": "8664954a0a0c113e16e1a7da7ac3895752d42d46",
+      "text": "67af41ef766055bd628d5111d9baff4fd504388c"
+    },
+    "read/en.mp3": {
+      "bytes": 1107072,
+      "sha1": "6312bc9db60f7a7bce0428cf43b0c0089cf5951b",
+      "text": "0b1abed9a6ed107ea60a44a75ffcdc17f13f329f"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 203975,
+      "sha1": "13688a693cf2c24c9d6f96202686c79c557c1fde",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 183395,
+      "sha1": "305a22360cf14e1ff71e1b6f0d4f530eb6783ece",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 181461,
+      "sha1": "dea277fc63925b082fb45c2fe14eca8f6e72298a",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 175925,
+      "sha1": "05f4c1a200c4edf318710e386363a0f610304b17",
+      "page": 3
+    },
+    {
+      "file": "images/4.jpg",
+      "bytes": 209017,
+      "sha1": "1fbe2a90be9e31b0e28ecd90d8abf70e991d9356",
+      "page": 4
+    }
+  ],
+  "readSections": {
+    "it": [
+      0.0,
+      17.363,
+      34.713,
+      49.513,
+      62.75,
+      76.562,
+      90.537,
+      106.537,
+      122.887,
+      139.037,
+      152.463,
+      167.85,
+      182.612,
+      197.112
+    ],
+    "de": [
+      0.0,
+      14.738,
+      30.163,
+      44.588,
+      56.725,
+      69.038,
+      83.225,
+      97.763,
+      112.913,
+      126.85,
+      139.6,
+      153.5,
+      166.338,
+      179.8
+    ],
+    "es": [
+      0.0,
+      15.463,
+      31.263,
+      38.763,
+      51.062,
+      63.375,
+      69.938,
+      85.438,
+      100.725,
+      107.188,
+      113.737,
+      128.375,
+      143.213,
+      156.7
+    ],
+    "fr": [
+      0.0,
+      13.912,
+      27.225,
+      39.237,
+      50.725,
+      62.537,
+      73.862,
+      87.35,
+      100.912,
+      114.65,
+      125.025,
+      137.2,
+      149.625,
+      162.325
+    ],
+    "hu": [
+      0.0,
+      13.875,
+      29.788,
+      42.275,
+      55.125,
+      67.163,
+      79.625,
+      93.975,
+      109.113,
+      124.1,
+      136.513,
+      149.888,
+      161.763,
+      175.75
+    ],
+    "pt": [
+      0.0,
+      12.7,
+      26.05,
+      37.3,
+      48.2,
+      59.35,
+      70.85,
+      83.525,
+      95.787,
+      108.025,
+      118.887,
+      130.662,
+      142.512,
+      154.188
+    ],
+    "ro": [
+      0.0,
+      13.512,
+      28.087,
+      40.837,
+      52.388,
+      65.237,
+      76.638,
+      90.85,
+      104.888,
+      117.95,
+      129.412,
+      142.8,
+      155.5,
+      168.587
+    ],
+    "ru": [
+      0.0,
+      15.562,
+      31.825,
+      45.612,
+      58.412,
+      71.05,
+      84.312,
+      99.2,
+      114.425,
+      128.688,
+      141.35,
+      154.825,
+      167.962,
+      181.637
+    ],
+    "en": [
+      0.0,
+      14.35,
+      28.85,
+      42.913,
+      56.263,
+      68.812,
+      81.225,
+      94.562,
+      108.325,
+      122.062,
+      133.925,
+      146.738,
+      159.888,
+      172.813
+    ]
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST11",
+  "topic": "ST11T01",
+  "kind": "story",
+  "entity_id": "ST11T01:S001",
+  "cefr": "C2",
+  "tags": [
+    "level#C2"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Ember of Reason",
+      "description": "Yara, a Taino firefighter, contemplates the nature of existence while battling a brush fire in the dry coastal hills of her island home."
+    },
+    "ro": {
+      "name": "Jarul Rațiunii",
+      "description": "Yara, o pompieră Taino, reflectează asupra naturii existenței în timp ce luptă cu un incendiu de vegetație pe dealurile aride ale insulei sale."
+    },
+    "de": {
+      "name": "Die Glut der Vernunft",
+      "description": "Yara, eine Taino-Feuerwehrfrau, sinniert über das Wesen der Existenz, während sie einen Flächenbrand in den trockenen Küstenhügeln ihrer Heimatinsel bekämpft."
+    },
+    "ru": {
+      "name": "Уголек разума",
+      "description": "Яра, пожарная из племени Таино, размышляет о природе бытия, борясь с лесным пожаром на сухих прибрежных холмах своего островного дома."
+    },
+    "it": {
+      "name": "La brace della ragione",
+      "description": "Yara, una vigile del fuoco Taino, riflette sulla natura dell'esistenza mentre combatte un incendio boschivo sulle aride colline costiere della sua isola."
+    },
+    "es": {
+      "name": "La brasa de la razón",
+      "description": "Yara, una bombera taína, contempla la naturaleza de la existencia mientras lucha contra un incendio forestal en las áridas colinas costeras de su isla natal."
+    },
+    "fr": {
+      "name": "La braise de la raison",
+      "description": "Yara, une pompière taïno, contemple la nature de l'existence tout en luttant contre un feu de broussailles sur les collines côtières arides de son île."
+    },
+    "hu": {
+      "name": "Az értelem parazsa",
+      "description": "Yara, egy tainó tűzoltó, a létezés természetén töpreng, miközben bozóttűzzel küzd szigeti otthona száraz, partmenti dombjain."
+    },
+    "pt": {
+      "name": "A Brasa da Razão",
+      "description": "Yara, uma bombeira taína, contempla a natureza da existência enquanto combate um incêndio florestal nas áridas colinas costeiras da sua ilha natal."
+    }
+  },
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 13536,
+      "sha1": "a778844161c16b9ca7f79610723a217cb247e863",
+      "text": "9e346a4536a18ecc1c700a70a96b08aa5a5bfe82"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "10844df59a68d22e16b6feb26ac5c8b0b351aa46",
+      "text": "ed4b92df05b2a49626f6791d04179330d69ef26a"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "2dbbd25c2e791dd88b34363bced3c29d99ab98ae",
+      "text": "2b5f57e4eff18843278c7f6a8f315f245d788901"
+    },
+    "sound/de.mp3": {
+      "bytes": 14112,
+      "sha1": "e75d4173b9b6c6a91e70508a5dbc1e613376db16",
+      "text": "8dc3d5210391fb58fce32023ca5eadb850d245e6"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12528,
+      "sha1": "7d96ce5f626a2e358a7ad1e5671d38de2903df7b",
+      "text": "a70cdb1df6dd8f7ef165db0ee4bb2de4b68770a6"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13680,
+      "sha1": "bd983d78f4b1513cd59dfc3bdcb1acd8575c9f42",
+      "text": "f73bfac549d3f3fc035d2c0f4c7cb0150889e77e"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13104,
+      "sha1": "d1c217af7262d6e8bf9092a2ab02c856d8f50756",
+      "text": "ef7f829d2fdcd4cd213ef18d1189293704f831e1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 14112,
+      "sha1": "8e2f7c0626b2ee082a0774d4a2291a86053b76c3",
+      "text": "fc3d9947c756ec9063c506c15477e07a07ed0fd9"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14256,
+      "sha1": "da0f9167a2af9fee140f83a8f8939e8fc4da0a8d",
+      "text": "b305e4bc6e6b16190459b1acdc7fb362697851dc"
+    },
+    "read/es.mp3": {
+      "bytes": 977184,
+      "sha1": "84812429cdd23c1d96ac485b213a6b0b1474ce53",
+      "text": "990a9666dc9ceb2115af0bdd599e8e89901c9800"
+    },
+    "read/de.mp3": {
+      "bytes": 1171872,
+      "sha1": "c9be41fe97b13d38dd09759d428cc337d9f8ceab",
+      "text": "9d807d7b8e6f45df0265d61230d453f9ceb0844a"
+    },
+    "read/it.mp3": {
+      "bytes": 1017792,
+      "sha1": "4d6ac34af77babd259a6a80b6a34d50e2935dadb",
+      "text": "f975fd159886c771c3720c0663a1e5da6f1712d6"
+    },
+    "read/en.mp3": {
+      "bytes": 1008576,
+      "sha1": "876cd75a765539b7d51692f8ef1a8979a5eb9980",
+      "text": "1f79538d098c90e9e26867ce90fe50fb992af443"
+    },
+    "read/fr.mp3": {
+      "bytes": 961344,
+      "sha1": "70821f51ddefc6da3f70e50dab106f506aa0cd99",
+      "text": "739b20951ca54d1f10af06a7f1684157bce680a5"
+    },
+    "read/ro.mp3": {
+      "bytes": 946800,
+      "sha1": "43b49495e3804b19bbf3901fd3d8a49a627fba28",
+      "text": "b723a3d1326acfed02c2dd05333a8b11235f0e3d"
+    },
+    "read/hu.mp3": {
+      "bytes": 1111968,
+      "sha1": "f6027ab903d1714100d534310258d8d637479e75",
+      "text": "c7a7d5a21ac0e3c06c520eb1dc796e34353cfe18"
+    },
+    "read/ru.mp3": {
+      "bytes": 1024704,
+      "sha1": "061db3d563cefc5660424ad7314f3e470e313d25",
+      "text": "a84c94b49335b713ecaecee3cbcd7a7f6feebaa5"
+    },
+    "read/pt.mp3": {
+      "bytes": 982224,
+      "sha1": "75f5dd0cac73b6bebe69aa9bf5b022d61ab7b0f3",
+      "text": "5fcf6dd471fec80635c424c16c61b25ce6797b4e"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 197857,
+      "sha1": "78dc0fbf16f2f05e662ed6c62c2afc93b261fca2",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 185060,
+      "sha1": "8e8c611671e9a882744a62469bb11d63a05c4f20",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 200135,
+      "sha1": "c3807613c10f097a3c90d7ba241622eaefd04db4",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 201015,
+      "sha1": "13a2a61ec66504f2fea5fc2ff52f8e7ea6753cf5",
+      "page": 3
+    },
+    {
+      "file": "images/4.jpg",
+      "bytes": 188110,
+      "sha1": "6adc5f443f662008ebabe24c00feaa323d9b3fe3",
+      "page": 4
+    },
+    {
+      "file": "images/5.jpg",
+      "bytes": 175265,
+      "sha1": "e91bb806b0f7abdae0740492c62e911bea179e3d",
+      "page": 5
+    }
+  ],
+  "readSections": {
+    "es": [
+      0.0,
+      8.688,
+      18.2,
+      25.962,
+      34.438,
+      44.15,
+      54.125,
+      62.7,
+      71.3,
+      80.625,
+      89.862,
+      98.837,
+      108.025,
+      116.887,
+      127.012,
+      136.425,
+      144.875,
+      153.7
+    ],
+    "de": [
+      0.0,
+      10.938,
+      21.575,
+      30.15,
+      39.825,
+      50.638,
+      62.375,
+      74.4,
+      85.338,
+      95.613,
+      106.788,
+      118.263,
+      129.6,
+      141.412,
+      152.912,
+      163.963,
+      174.625,
+      185.012
+    ],
+    "it": [
+      0.0,
+      10.2,
+      19.663,
+      27.288,
+      36.475,
+      46.225,
+      56.362,
+      65.212,
+      74.65,
+      84.125,
+      93.137,
+      102.837,
+      113.3,
+      122.062,
+      132.525,
+      142.75,
+      151.387,
+      160.162
+    ],
+    "en": [
+      0.0,
+      9.7,
+      19.487,
+      28.3,
+      36.938,
+      46.525,
+      57.1,
+      66.912,
+      76.025,
+      84.75,
+      93.737,
+      103.312,
+      113.287,
+      123.462,
+      132.837,
+      142.637,
+      150.987,
+      159.812
+    ],
+    "fr": [
+      0.0,
+      9.262,
+      18.837,
+      26.6,
+      34.85,
+      44.025,
+      53.525,
+      62.9,
+      71.662,
+      80.212,
+      89.075,
+      97.9,
+      107.137,
+      116.362,
+      125.862,
+      135.025,
+      142.762,
+      151.925
+    ],
+    "ro": [
+      0.0,
+      10.625,
+      19.962,
+      29.25,
+      37.675,
+      47.175,
+      56.962,
+      66.287,
+      75.087,
+      83.987,
+      92.787,
+      102.537,
+      112.65,
+      121.537,
+      131.338,
+      140.675,
+      149.263,
+      158.013
+    ],
+    "hu": [
+      0.0,
+      10.075,
+      19.562,
+      28.738,
+      37.237,
+      48.375,
+      60.087,
+      71.55,
+      81.638,
+      92.062,
+      101.55,
+      112.787,
+      123.65,
+      133.762,
+      144.812,
+      155.7,
+      164.825,
+      176.175
+    ],
+    "ru": [
+      0.0,
+      9.912,
+      19.512,
+      28.3,
+      37.3,
+      48.287,
+      58.7,
+      68.6,
+      77.312,
+      86.588,
+      96.125,
+      105.725,
+      116.475,
+      125.775,
+      136.188,
+      145.375,
+      154.238,
+      163.025
+    ],
+    "pt": [
+      0.0,
+      9.625,
+      19.45,
+      27.625,
+      36.263,
+      46.238,
+      56.0,
+      64.45,
+      73.85,
+      82.913,
+      91.75,
+      100.8,
+      110.413,
+      119.225,
+      128.9,
+      139.275,
+      147.287,
+      155.537
+    ]
+  }
+}

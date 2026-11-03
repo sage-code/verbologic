@@ -240,6 +240,7 @@ def build_prompt(
     index: int,
     total: int,
     references: list[str] | None = None,
+    note: str | None = None,
 ) -> str:
     """One picture's prompt: the style, the characters, the story so far, and the page.
 
@@ -489,6 +490,10 @@ def main() -> int:
         "--audit-text", action="store_true",
         help="check existing pictures for text and redraw only the ones that have some (with --dry-run: just list them)",
     )
+    parser.add_argument("--page", type=int, action="append", help="only this picture index (0-based, repeatable); with --overwrite redraws just it")
+    parser.add_argument("--note", help="a correction added to the prompt of the redrawn picture(s)")
+    parser.add_argument("--character", action="append", help="NAME=description for this run only, replacing the story's own description of NAME (repeatable)")
+    parser.add_argument("--fresh", action="store_true", help="draw without the previous picture and character references (for a correction the references would undo)")
     parser.add_argument("--model", default=DEFAULT_IMAGE_MODEL, help="Gemini image model")
     parser.add_argument(
         "--backfill-context",
@@ -538,6 +543,9 @@ def main() -> int:
         item_dir = manifest_path.parent
         images_dir = item_dir / "images"
         characters = story_context(topic, code)
+        for override in args.character or []:
+            name, _, what = override.partition("=")
+            characters[name.strip()] = what.strip()
         returning = cast.references(list(characters), f"{topic}:{code}")
 
         print(f"{code} [{item.get('cefr')}] {title!r}: {count} page(s), {per_page} paragraph(s) per page, one picture each")
@@ -545,6 +553,8 @@ def main() -> int:
             print(f"  {code}: no `context` in the article file, pictures rely on the text alone (run --backfill-context)")
         for index, page in enumerate(pages):
             target = images_dir / f"{index}.jpg"
+            if args.page is not None and index not in args.page:
+                continue
             if args.audit_text and target.is_file():
                 if not has_text(target.read_bytes()):
                     skipped += 1
@@ -555,7 +565,7 @@ def main() -> int:
                 skipped += 1
                 continue
             earlier = [paragraph for previous in pages[:index] for paragraph in previous]
-            prompt = build_prompt(title, characters, earlier, page, index, count, [name for name, _ in returning])
+            prompt = build_prompt(title, characters, earlier, page, index, count, [name for name, _ in returning], args.note)
             if args.dry_run:
                 print(f"  [{index}] page {index + 1}: would generate")
                 written += 1
@@ -564,7 +574,8 @@ def main() -> int:
             previous_picture = images_dir / f"{index - 1}.jpg"
             reference = previous_picture.read_bytes() if index > 0 and previous_picture.is_file() else None
             try:
-                raw = draw(prompt, args.model, reference, [picture for _, picture in returning])
+                raw = draw(prompt, args.model, None if args.fresh else reference,
+                           [] if args.fresh else [picture for _, picture in returning])
             except RuntimeError as error:
                 print(f"  [{index}] page {index + 1}: FAILED {error}", file=sys.stderr)
                 failed += 1

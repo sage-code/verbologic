@@ -1,0 +1,362 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST10",
+  "topic": "ST10T04",
+  "kind": "story",
+  "entity_id": "ST10T04:S001",
+  "cefr": "C1",
+  "tags": [
+    "level#C1"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Silent Ledger of Carthage",
+      "description": "A sharp-witted detective navigates the crowded harbour of Carthage to uncover the truth behind a missing shipment of precious Tyrian purple dye."
+    },
+    "ro": {
+      "name": "Registrul tăcut din Cartagina",
+      "description": "O detectivă ageră investighează portul aglomerat al Cartaginei pentru a descoperi adevărul din spatele dispariției unui transport prețios de purpură tiriană."
+    },
+    "de": {
+      "name": "Das stumme Register von Karthago",
+      "description": "Eine scharfsinnige Detektivin navigiert durch den geschäftigen Hafen von Karthago, um die Wahrheit über eine verschwundene Ladung kostbaren Purpurs aufzudecken."
+    },
+    "ru": {
+      "name": "Безмолвный реестр Карфагена",
+      "description": "Проницательная сыщица исследует оживленный порт Карфагена, чтобы раскрыть правду об исчезновении ценного груза тирского пурпура."
+    },
+    "it": {
+      "name": "Il registro silenzioso di Cartagine",
+      "description": "Un'arguta detective esplora il porto affollato di Cartagine per scoprire la verità dietro la scomparsa di un prezioso carico di porpora di Tiro."
+    },
+    "es": {
+      "name": "El registro silencioso de Cartago",
+      "description": "Una astuta detective navega por el bullicioso puerto de Cartago para descubrir la verdad tras la desaparición de un valioso cargamento de púrpura de Tiro."
+    },
+    "fr": {
+      "name": "Le registre silencieux de Carthage",
+      "description": "Une détective perspicace explore le port animé de Carthage pour découvrir la vérité sur la disparition d'une précieuse cargaison de pourpre de Tyr."
+    },
+    "hu": {
+      "name": "Karthágó néma nyilvántartása",
+      "description": "Egy éles eszű nyomozónő Karthágó nyüzsgő kikötőjében keresi az igazságot egy eltűnt, értékes türoszi bíbor szállítmány ügyében."
+    },
+    "pt": {
+      "name": "O Registro Silencioso de Cartago",
+      "description": "Uma detetive perspicaz navega pelo movimentado porto de Cartago para descobrir a verdade por trás do desaparecimento de uma preciosa carga de púrpura de Tiro."
+    }
+  },
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 17280,
+      "sha1": "7749346ca1ec6ee83e6f08ef348e172bc8ec04aa",
+      "text": "76cba958f22e82d2ba07648fca076a77dacbaa4e"
+    },
+    "sound/it.mp3": {
+      "bytes": 20016,
+      "sha1": "407cd893caed49ffd0e9ff91c784e80ae86a1d8e",
+      "text": "116a815de4d3957f82e5ac5a61e87201593e24f8"
+    },
+    "sound/es.mp3": {
+      "bytes": 18288,
+      "sha1": "f436c733d3ff5a355f826d3787b6aa8f95b9861a",
+      "text": "9e874ee40768ee2c34da07420d868348f1b729fb"
+    },
+    "sound/ru.mp3": {
+      "bytes": 18000,
+      "sha1": "34c28dec00e6ffc473ad6ad9957727bbd969d62a",
+      "text": "815202059c93b71484aac091a145f39eea8e5df8"
+    },
+    "sound/ro.mp3": {
+      "bytes": 16992,
+      "sha1": "88c9496cf726a4797e069239812091305a9a61c1",
+      "text": "30dc3d742554df382d3383a89f26c79e26c71e3b"
+    },
+    "sound/fr.mp3": {
+      "bytes": 17280,
+      "sha1": "3e31f575452eb3ba4d8bb2d4f823785f83e4b396",
+      "text": "cee5039cb3f1e19ff18fa764a051648adf094edf"
+    },
+    "sound/hu.mp3": {
+      "bytes": 16848,
+      "sha1": "633c187ed6c8d916e70af68b4b78d80fb70c7d7e",
+      "text": "d96888d8c5cff96e60296bb93f6dfc5b4ceb4764"
+    },
+    "sound/pt.mp3": {
+      "bytes": 16416,
+      "sha1": "48550fe3b11e9a4706b5a91b904d4c63b7d6332f",
+      "text": "98198642fb8eb47f17bbe06c19fdb8d595cff65b"
+    },
+    "sound/en.mp3": {
+      "bytes": 11952,
+      "sha1": "4534df827a967e7572bd11ca5345f76da77e5166",
+      "text": "d43a4dc52996278d8936e7e68eb10578ecaceee0"
+    },
+    "read/it.mp3": {
+      "bytes": 1337760,
+      "sha1": "550be4b3553902b6291feec0e41f1dfe5b23ab8b",
+      "text": "e42964c6b3ed656660f17c68da80f23a51a2214a"
+    },
+    "read/es.mp3": {
+      "bytes": 1250496,
+      "sha1": "ed0ee8e47dd8b6c314d38cb2926b25ff7860cbdb",
+      "text": "e7224f3d87db79da5f061fb74df52d61768003db"
+    },
+    "read/de.mp3": {
+      "bytes": 1332288,
+      "sha1": "dde5a7937e7f777a66a4078af6d520198cd49ad6",
+      "text": "20deb5677981bed6375ea8c3409f652483bfb3e4"
+    },
+    "read/fr.mp3": {
+      "bytes": 1126368,
+      "sha1": "a5aa3ffa06908d72b3bcc07a59936f0aeaf69e86",
+      "text": "e577b20c3fce4635eb0b218c7a23eb7b09c9ff44"
+    },
+    "read/ro.mp3": {
+      "bytes": 1241712,
+      "sha1": "ae83317b9721d9807e84622fbd6539b48f1f287b",
+      "text": "47dbcef6564238c65caea20ef1144ccb25e6cad8"
+    },
+    "read/hu.mp3": {
+      "bytes": 1226736,
+      "sha1": "bf12f306224410eb1cbb558db970b617f4fd37c4",
+      "text": "bc649c1cdab9dd503bf3566f2c896ce713da8737"
+    },
+    "read/pt.mp3": {
+      "bytes": 1087632,
+      "sha1": "a4e915e292ac5b9edae869bc0df4d6f9e527ab0d",
+      "text": "1a0822b4b3992d32d0d0b11760e79761c3f54852"
+    },
+    "read/ru.mp3": {
+      "bytes": 1327680,
+      "sha1": "7d0721ec989114abf7885f5cf391c3dfc833b3f3",
+      "text": "c81121ea6f0b30d1f64ece96d405c1d85dd64bb8"
+    },
+    "read/en.mp3": {
+      "bytes": 1233072,
+      "sha1": "7d8eeab287b0b80ee020c62b65c8436a30dce05b",
+      "text": "8fa17f5e151c724b152cc153df42f8d4aa2b4cfd"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 191595,
+      "sha1": "f5381a9230fccc3034c861fe189872829c96ccf5",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 170172,
+      "sha1": "21dc64984e2e72191222ee9d4d12541f25e25808",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 181446,
+      "sha1": "d755c72d7e937be7c133acca05dd732b894018b8",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 177741,
+      "sha1": "ccc073794822b8de5ddd92f2fd48a870a3723437",
+      "page": 3
+    },
+    {
+      "file": "images/4.jpg",
+      "bytes": 194059,
+      "sha1": "cd3198eae229216c23f77128c883402d3b6bfcbe",
+      "page": 4
+    },
+    {
+      "file": "images/5.jpg",
+      "bytes": 154037,
+      "sha1": "13a4ceb1a09aa6294b97a4a252e4e8ff28a55137",
+      "page": 5
+    }
+  ],
+  "readSections": {
+    "it": [
+      0.0,
+      15.137,
+      20.65,
+      34.037,
+      45.275,
+      56.625,
+      67.175,
+      81.662,
+      94.5,
+      106.463,
+      118.312,
+      130.662,
+      142.262,
+      154.962,
+      166.3,
+      178.825,
+      190.675,
+      203.362
+    ],
+    "es": [
+      0.0,
+      14.225,
+      19.525,
+      31.587,
+      42.087,
+      52.763,
+      62.5,
+      76.537,
+      88.8,
+      99.875,
+      111.013,
+      121.5,
+      132.537,
+      143.838,
+      154.688,
+      166.55,
+      178.5,
+      190.65
+    ],
+    "de": [
+      0.0,
+      15.713,
+      27.337,
+      41.862,
+      53.688,
+      64.35,
+      76.212,
+      89.125,
+      100.462,
+      112.987,
+      125.763,
+      136.625,
+      147.637,
+      160.125,
+      172.062,
+      185.262,
+      197.875,
+      209.738
+    ],
+    "fr": [
+      0.0,
+      12.088,
+      22.337,
+      33.6,
+      42.937,
+      52.575,
+      60.987,
+      72.875,
+      83.65,
+      93.762,
+      104.212,
+      114.262,
+      124.337,
+      134.562,
+      143.55,
+      154.775,
+      165.463,
+      176.15
+    ],
+    "ro": [
+      0.0,
+      12.875,
+      25.1,
+      37.4,
+      48.075,
+      58.663,
+      68.912,
+      81.625,
+      93.2,
+      103.737,
+      115.412,
+      125.275,
+      136.5,
+      148.35,
+      157.862,
+      169.55,
+      181.262,
+      194.45
+    ],
+    "hu": [
+      0.0,
+      12.375,
+      23.675,
+      37.0,
+      46.625,
+      57.737,
+      67.337,
+      81.175,
+      91.462,
+      102.5,
+      113.525,
+      123.175,
+      135.312,
+      147.6,
+      157.75,
+      169.975,
+      180.175,
+      193.337
+    ],
+    "pt": [
+      0.0,
+      11.887,
+      22.212,
+      33.15,
+      42.35,
+      51.587,
+      60.237,
+      71.4,
+      81.6,
+      90.938,
+      100.037,
+      109.675,
+      119.312,
+      129.338,
+      138.65,
+      148.875,
+      159.35,
+      169.6
+    ],
+    "ru": [
+      0.0,
+      14.838,
+      27.163,
+      41.975,
+      54.263,
+      65.487,
+      77.462,
+      91.612,
+      103.95,
+      115.3,
+      126.537,
+      138.012,
+      149.4,
+      161.537,
+      172.275,
+      185.775,
+      198.187,
+      209.875
+    ],
+    "en": [
+      0.0,
+      13.812,
+      25.475,
+      38.3,
+      48.137,
+      58.137,
+      67.787,
+      80.112,
+      93.3,
+      104.725,
+      115.812,
+      126.537,
+      137.463,
+      148.975,
+      158.213,
+      169.95,
+      181.288,
+      193.863
+    ]
+  }
+}

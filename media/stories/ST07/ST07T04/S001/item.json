@@ -1,0 +1,296 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST07",
+  "topic": "ST07T04",
+  "kind": "story",
+  "entity_id": "ST07T04:S001",
+  "cefr": "B2",
+  "tags": [
+    "level#B2"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Bronze Sentinel",
+      "description": "Cassia, a Roman investigator, uses her forensic skills to fix a malfunctioning automaton protecting a high-security archive."
+    },
+    "ro": {
+      "name": "Santinela de bronz",
+      "description": "Cassia, o detectivă romană, își folosește cunoștințele tehnice pentru a repara un automat care păzește o arhivă importantă."
+    },
+    "de": {
+      "name": "Die bronzene Wache",
+      "description": "Cassia, eine römische Ermittlerin, nutzt ihr technisches Geschick, um einen defekten Automaten zu reparieren, der ein wichtiges Archiv bewacht."
+    },
+    "ru": {
+      "name": "Бронзовый страж",
+      "description": "Кассия, римский следователь, использует свои технические навыки, чтобы починить неисправный автомат, охраняющий важный архив."
+    },
+    "it": {
+      "name": "Il guardiano di bronzo",
+      "description": "Cassia, un'investigatrice romana, usa le sue abilità tecniche per riparare un automa difettoso che protegge un archivio importante."
+    },
+    "es": {
+      "name": "El centinela de bronce",
+      "description": "Cassia, una investigadora romana, usa sus habilidades técnicas para reparar un autómata que protege un archivo de alta seguridad."
+    },
+    "fr": {
+      "name": "La sentinelle de bronze",
+      "description": "Cassia, une enquêtrice romaine, utilise ses compétences techniques pour réparer un automate défectueux qui protège des archives importantes."
+    },
+    "hu": {
+      "name": "A bronz őrszem",
+      "description": "Cassia, egy római nyomozó, technikai tudását használja fel, hogy megjavítson egy meghibásodott automatát, amely egy fontos archívumot véd."
+    },
+    "pt": {
+      "name": "O sentinela de bronze",
+      "description": "Cassia, uma investigadora romana, usa as suas habilidades técnicas para reparar um autómato que protege um arquivo de alta segurança."
+    }
+  },
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 12096,
+      "sha1": "3b8b7ff265934b482d91f8cc606cc1699e8dc7ef",
+      "text": "a07c9b08f32bd65c1d000d1f4f1da550a7bc0b45"
+    },
+    "sound/ro.mp3": {
+      "bytes": 14400,
+      "sha1": "f870fbbe09cfa6c3732a4042d2ff9c18cc3f9fba",
+      "text": "80cf8c0f3d33e18d1207b14ed40788b32d6d5cab"
+    },
+    "sound/it.mp3": {
+      "bytes": 14832,
+      "sha1": "6781bdbb231e134ceaf71296c0d993aa139b49cc",
+      "text": "46b411f231a1d4094341c021653d81599cc97869"
+    },
+    "sound/es.mp3": {
+      "bytes": 14400,
+      "sha1": "f15b72974c4be15fe88a70000e53b25d552a0193",
+      "text": "4d9d140c864ed6d3db64f66ff8c7685f21a03c65"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12816,
+      "sha1": "eb82e767721bb595e6a182ee9e3b76dbbe99a3c9",
+      "text": "aca3eedb43be09a4a6666d17a3db2752cd9f1c28"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13968,
+      "sha1": "1c761e384554fd2790cd40d62f8e4930267c1808",
+      "text": "0272daf2dfb5e25d288ee78c68c71ce8aace5e7d"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11520,
+      "sha1": "421ae0f7f8de24858cc59d817303d60b86ff7e55",
+      "text": "2f6230540b483f6137c6db268d53895b3f0490ba"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12672,
+      "sha1": "e61541cc7a7a5870d9c3c6b6d9b7b6b1d74239b8",
+      "text": "00c092290bebc03d0ce6ebb6175a10a38ccf0e75"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d73980f9033b6295859e77655ed50e97e6fb76a7",
+      "text": "1acb1742191bd01da3ba4c2e84556575ee7fce9f"
+    },
+    "read/it.mp3": {
+      "bytes": 885024,
+      "sha1": "94cfd7026815f9db75aac3c85ee8f3c895ade0c3",
+      "text": "9b6f6899f71fd5790c6f33a6727e3ac9f74e0f3b"
+    },
+    "read/es.mp3": {
+      "bytes": 841968,
+      "sha1": "a372be9e9db4f7abb45e6c56cc1d0d2a3296f12f",
+      "text": "20e01a6c1796bb1ede1b1d9621bb8fe4605b0979"
+    },
+    "read/de.mp3": {
+      "bytes": 842688,
+      "sha1": "087e35691885f122a0ec15864a7f7013841b1cb5",
+      "text": "93e556b16d6332506d34008013a7c0748bdfae58"
+    },
+    "read/fr.mp3": {
+      "bytes": 756720,
+      "sha1": "f3528d8a4d6eb0b4693ed55293a2f04357f02c5b",
+      "text": "34007f0e8b92570cd73912b57e2e6ecb272072d8"
+    },
+    "read/hu.mp3": {
+      "bytes": 807552,
+      "sha1": "d5a4e431d088e1348cee17391e6cea4366060519",
+      "text": "1a9a0d4bfe0f6badad4cd1262d4bd2049a18ea02"
+    },
+    "read/pt.mp3": {
+      "bytes": 721728,
+      "sha1": "7350016a460adda3deb398741256e205fb406528",
+      "text": "066ab53fea63511b793c4c644225fb70c30f312f"
+    },
+    "read/ro.mp3": {
+      "bytes": 816048,
+      "sha1": "78cee377957da3aea6d6d12f80ccb00b913b10a1",
+      "text": "22510bbbed189097e8b5cbeb4603d881ef8ba915"
+    },
+    "read/ru.mp3": {
+      "bytes": 851904,
+      "sha1": "96838b0658e984fb05d756fb6915094323455960",
+      "text": "6703f3636bb5420c89ce81c00663fa1470345a5f"
+    },
+    "read/en.mp3": {
+      "bytes": 801792,
+      "sha1": "9bced96ebeab0725b7ecbb01bfe744d49cbe159e",
+      "text": "72c0066c05b7028a9bd3197ffb8cb67af3d9001d"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 171717,
+      "sha1": "5da3d1d771699a6d749ef262019464bdbdf1cef1",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 164322,
+      "sha1": "5ecbb96da3b7614873b1c899c776d693526ecf25",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 155902,
+      "sha1": "d263519974bef76c787c729df0090c96aef005bf",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 172573,
+      "sha1": "78e8a53c1fc166edc5452e988dad4a7ac6363b1d",
+      "page": 3
+    }
+  ],
+  "readSections": {
+    "it": [
+      0.0,
+      11.05,
+      23.413,
+      35.2,
+      47.5,
+      59.775,
+      70.987,
+      84.912,
+      98.362,
+      109.263,
+      120.888,
+      132.963
+    ],
+    "es": [
+      0.0,
+      11.287,
+      23.112,
+      34.875,
+      46.712,
+      58.237,
+      69.675,
+      82.425,
+      94.75,
+      104.95,
+      116.325,
+      127.562
+    ],
+    "de": [
+      0.0,
+      12.0,
+      22.887,
+      35.625,
+      47.538,
+      60.463,
+      71.963,
+      83.025,
+      94.663,
+      104.8,
+      115.088,
+      126.988
+    ],
+    "fr": [
+      0.0,
+      10.0,
+      20.1,
+      30.713,
+      41.625,
+      51.487,
+      61.287,
+      72.35,
+      83.787,
+      93.0,
+      103.9,
+      114.25
+    ],
+    "hu": [
+      0.0,
+      11.137,
+      21.2,
+      33.625,
+      44.875,
+      57.188,
+      67.95,
+      79.125,
+      90.312,
+      99.5,
+      111.438,
+      123.2
+    ],
+    "pt": [
+      0.0,
+      9.713,
+      19.825,
+      29.713,
+      39.763,
+      49.3,
+      59.213,
+      70.088,
+      80.963,
+      89.288,
+      98.563,
+      108.125
+    ],
+    "ro": [
+      0.0,
+      12.725,
+      24.225,
+      35.413,
+      46.963,
+      58.575,
+      68.112,
+      79.688,
+      91.55,
+      101.275,
+      111.887,
+      122.8
+    ],
+    "ru": [
+      0.0,
+      12.162,
+      23.237,
+      34.762,
+      46.825,
+      58.837,
+      69.825,
+      82.15,
+      95.025,
+      105.737,
+      117.513,
+      129.488
+    ],
+    "en": [
+      0.0,
+      11.7,
+      22.587,
+      33.487,
+      44.337,
+      55.175,
+      66.212,
+      79.05,
+      90.087,
+      99.312,
+      110.037,
+      120.812
+    ]
+  }
+}

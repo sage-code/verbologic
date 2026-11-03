@@ -1,0 +1,296 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST05",
+  "topic": "ST05T04",
+  "kind": "story",
+  "entity_id": "ST05T04:S001",
+  "cefr": "B1",
+  "tags": [
+    "level#B1"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Silent Letter",
+      "description": "A mountain mail carrier discovers a secret connection between an isolated village woman and her distant son."
+    },
+    "ro": {
+      "name": "Scrisoarea tăcută",
+      "description": "Un poștaș de munte descoperă legătura secretă dintre o femeie dintr-un sat izolat și fiul ei aflat departe."
+    },
+    "de": {
+      "name": "Der stille Brief",
+      "description": "Ein Bergpostbote entdeckt eine geheime Verbindung zwischen einer Frau in einem abgelegenen Dorf und ihrem fernen Sohn."
+    },
+    "ru": {
+      "name": "Тихое письмо",
+      "description": "Горный почтальон открывает тайную связь между женщиной из отдаленной деревни и ее далеким сыном."
+    },
+    "it": {
+      "name": "La lettera silenziosa",
+      "description": "Un postino di montagna scopre un legame segreto tra una donna di un villaggio isolato e il suo lontano figlio."
+    },
+    "es": {
+      "name": "La carta silenciosa",
+      "description": "Un cartero de montaña descubre una conexión secreta entre una mujer de un pueblo aislado y su hijo lejano."
+    },
+    "fr": {
+      "name": "La lettre silencieuse",
+      "description": "Un facteur de montagne découvre un lien secret entre une femme d'un village isolé et son fils lointain."
+    },
+    "hu": {
+      "name": "A néma levél",
+      "description": "Egy hegyi postás felfedezi a titkos kapcsolatot egy elszigetelt falusi asszony és a távol élő fia között."
+    },
+    "pt": {
+      "name": "A carta silenciosa",
+      "description": "Um carteiro da montanha descobre uma ligação secreta entre uma mulher de uma aldeia isolada e o seu filho distante."
+    }
+  },
+  "files": {
+    "sound/it.mp3": {
+      "bytes": 15120,
+      "sha1": "a408e461ad639fa9e3f4574d84fb7ca0b40deae2",
+      "text": "2401891e0b77365487adb65119aa1b00ae5c7c66"
+    },
+    "sound/es.mp3": {
+      "bytes": 13824,
+      "sha1": "01bf52a950f1fd6e23d382deea7c76acc40031bd",
+      "text": "1684141739dc34c36ffb3fbe22a604083a6c9daa"
+    },
+    "sound/de.mp3": {
+      "bytes": 11520,
+      "sha1": "5744e79315e1b67e46309ddace8e129aeae53a1e",
+      "text": "a4e00ffa70cb7fb1bdc6e17f5afa9ad5e1dc473d"
+    },
+    "sound/ro.mp3": {
+      "bytes": 13536,
+      "sha1": "f13ac4946678b0e4afa1f85512b0ea1973fe710f",
+      "text": "77d67f6440f3e8eaeed3121843503e9c50574e9e"
+    },
+    "sound/ru.mp3": {
+      "bytes": 12240,
+      "sha1": "009c4a572749cbdeac965c5970c5ce04805fe273",
+      "text": "1dcdaec5fd4ae974a2abe7614716bf4941754c34"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11232,
+      "sha1": "dc2303ad35db5798dcc1d630b8acce558cd7f89a",
+      "text": "2f94f53e2a93187904d53acfcdda5bbe03172ff8"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13392,
+      "sha1": "8f4fa262bcee5520ae62192b269f33e28b038234",
+      "text": "b90a90a97d43d533c6f495f3904b5f1f05ae568d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12816,
+      "sha1": "ddf0b6a684e2380afc23a38badf99ebe42b76771",
+      "text": "f9b7d2ca6273ec05881ae1aba7bc91df2679aba8"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "4b9ac31e1ebae4e799c6e1e25d266a0cf1faa1ef",
+      "text": "df634f38bcf07ae68012fb71a528ed8989dc50cc"
+    },
+    "read/it.mp3": {
+      "bytes": 891360,
+      "sha1": "80af7001bbdfe394b0cfa5966d3e6e50dbf017f9",
+      "text": "ec35572064fcf7916b326183e7a5af76f9764690"
+    },
+    "read/de.mp3": {
+      "bytes": 894960,
+      "sha1": "1e83ca3c1d345aab233f632ab53b023971ffbe43",
+      "text": "e67eb3a6c5cc194bcac9919a5d011af68050ee20"
+    },
+    "read/es.mp3": {
+      "bytes": 809280,
+      "sha1": "d9e814dca9dee33aa21c66e25f61080f95b62fe6",
+      "text": "5f7ec0ce7805d6336d48fdafa0eea7e055c64fd0"
+    },
+    "read/fr.mp3": {
+      "bytes": 748224,
+      "sha1": "33dea97ed2cee8f5d29b3eb8aa7e93c746996a86",
+      "text": "c01d8bcfc9d575847d72cb9b25ee67c89b16312d"
+    },
+    "read/ro.mp3": {
+      "bytes": 827712,
+      "sha1": "e6c8fe95d53b4101d3df53e6a60a004a9a710b36",
+      "text": "8bb78202782b6d4f36d6a80cef96ad22e89183c6"
+    },
+    "read/hu.mp3": {
+      "bytes": 830736,
+      "sha1": "bac40d8235df00f3de2e10834d7476314b56c7c6",
+      "text": "2dda5f0d453e247885f1bef61d52343fd13ff6f2"
+    },
+    "read/pt.mp3": {
+      "bytes": 720432,
+      "sha1": "31268f420101514396919fe0ae175fa563427a9a",
+      "text": "8dc1373b7c673b371fdf5a83692d78b39743fcdf"
+    },
+    "read/ru.mp3": {
+      "bytes": 889776,
+      "sha1": "bc4de036897435132f586a9cf4a623a6572df912",
+      "text": "fd86572e7020f83b7b74a8933745dede80a6c752"
+    },
+    "read/en.mp3": {
+      "bytes": 750240,
+      "sha1": "742169caafc8e2da43355c2280e5cec4a1d346b7",
+      "text": "53aa19739837a9e142ebd592071c10346700a762"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 211560,
+      "sha1": "9142268c7a9c3bc49222ad0093d020044b2e02cf",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 205127,
+      "sha1": "2eea7f3f85450baede0044d9d82a6577f67c744a",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 190782,
+      "sha1": "69c9ab5164756668a47c3c00c3199c47bb4706c7",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 211842,
+      "sha1": "2e264ef9b2db18652cd934f23a4b524d722a2fcf",
+      "page": 3
+    }
+  ],
+  "readSections": {
+    "it": [
+      0,
+      13.8,
+      28.288,
+      39.713,
+      51.263,
+      68.025,
+      80.788,
+      93.413,
+      105.588,
+      116.3,
+      125.913,
+      138.3
+    ],
+    "de": [
+      0,
+      12.887,
+      26.85,
+      38.663,
+      50.362,
+      67.45,
+      79.225,
+      93.125,
+      105.162,
+      116.925,
+      127.575,
+      139.7
+    ],
+    "es": [
+      0,
+      12.912,
+      26.612,
+      37.225,
+      47.412,
+      47.412,
+      57.65,
+      69.5,
+      80.575,
+      90.35,
+      99.137,
+      110.637
+    ],
+    "fr": [
+      0,
+      10.65,
+      22.95,
+      32.7,
+      42.6,
+      57.3,
+      67.95,
+      78.575,
+      88.975,
+      98.188,
+      106.275,
+      116.325
+    ],
+    "ro": [
+      0,
+      11.95,
+      25.75,
+      36.513,
+      47,
+      62.25,
+      74.062,
+      85.487,
+      97.225,
+      107.825,
+      116.8,
+      128.062
+    ],
+    "hu": [
+      0,
+      11.475,
+      24.05,
+      35.3,
+      46.962,
+      62.9,
+      74.412,
+      86.125,
+      97.862,
+      109.587,
+      118.137,
+      129.087
+    ],
+    "pt": [
+      0,
+      11.012,
+      23.525,
+      33,
+      41.612,
+      54.175,
+      64.05,
+      74.325,
+      83.788,
+      92.75,
+      100.65,
+      110.963
+    ],
+    "ru": [
+      0,
+      13.775,
+      28.062,
+      39.788,
+      50.7,
+      66.325,
+      79.638,
+      92.987,
+      105.062,
+      117.588,
+      127.438,
+      139.512
+    ],
+    "en": [
+      0,
+      11.113,
+      24.225,
+      34.05,
+      43.225,
+      57.775,
+      68.025,
+      79.1,
+      90.037,
+      99.737,
+      107.037,
+      117.362
+    ]
+  }
+}

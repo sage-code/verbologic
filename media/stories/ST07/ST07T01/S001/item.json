@@ -1,0 +1,296 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST07",
+  "topic": "ST07T01",
+  "kind": "story",
+  "entity_id": "ST07T01:S001",
+  "cefr": "B2",
+  "tags": [
+    "level#B2"
+  ],
+  "locales": {
+    "en": {
+      "name": "Red Dust Rescue",
+      "description": "A brave pilot battles a fierce Martian dust storm to deliver vital medicine to a remote mining community."
+    },
+    "ro": {
+      "name": "Salvarea în praful roșu",
+      "description": "O pilotă curajoasă înfruntă o furtună marțiană violentă pentru a livra medicamente vitale unei comunități miniere izolate."
+    },
+    "de": {
+      "name": "Rettung im roten Staub",
+      "description": "Eine mutige Pilotin kämpft gegen einen heftigen Mars-Sturm, um lebenswichtige Medikamente zu einer abgelegenen Bergbausiedlung zu bringen."
+    },
+    "ru": {
+      "name": "Спасение в красной пыли",
+      "description": "Отважная пилотесса пробивается сквозь свирепую марсианскую пылевую бурю, чтобы доставить жизненно важные лекарства в отдаленное шахтерское поселение."
+    },
+    "it": {
+      "name": "Salvataggio nella polvere rossa",
+      "description": "Un'audace pilota affronta una feroce tempesta di polvere marziana per consegnare medicinali vitali a una remota comunità mineraria."
+    },
+    "es": {
+      "name": "Rescate en el polvo rojo",
+      "description": "Una valiente piloto lucha contra una feroz tormenta de polvo marciana para entregar medicamentos vitales a una remota comunidad minera."
+    },
+    "fr": {
+      "name": "Sauvetage dans la poussière rouge",
+      "description": "Une pilote courageuse affronte une violente tempête de poussière martienne pour livrer des médicaments vitaux à une communauté minière isolée."
+    },
+    "hu": {
+      "name": "Mentés a vörös porban",
+      "description": "Egy bátor pilótanő dacol a heves marsi porviharral, hogy létfontosságú gyógyszereket juttasson el egy távoli bányásztelepülésre."
+    },
+    "pt": {
+      "name": "Resgate na poeira vermelha",
+      "description": "Uma piloto corajosa enfrenta uma feroz tempestade de poeira marciana para entregar medicamentos vitais a uma remota comunidade mineira."
+    }
+  },
+  "files": {
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "171e80c8986c2a17324b2bcf7b3e9ec19d3ba84f",
+      "text": "fb73fe2da142aeb336a618f21c842b03ae22e541"
+    },
+    "sound/de.mp3": {
+      "bytes": 14544,
+      "sha1": "d654094287ec265aae059a16cbf68c9a51f6791a",
+      "text": "dfe95302a290d3a3dfa40df564ca9ac2454179e1"
+    },
+    "sound/it.mp3": {
+      "bytes": 13248,
+      "sha1": "4d5e2ab1a55cd40f0516a2814ce9cc06284f0fcb",
+      "text": "2f2a5e9259aeb17ba7e92890d6ed018dd86a8a7f"
+    },
+    "sound/ru.mp3": {
+      "bytes": 16848,
+      "sha1": "60498003baa7c298556a56f9b563b70469977bcd",
+      "text": "77427d00e273336eb68d3060186f095d56cc06b8"
+    },
+    "sound/es.mp3": {
+      "bytes": 15696,
+      "sha1": "0fd1ec5a0c788aed12d406971d4843862c517d40",
+      "text": "6bacea3e02f5b6bc510d43a19a67cbc697e2fa6d"
+    },
+    "sound/ro.mp3": {
+      "bytes": 14976,
+      "sha1": "3392dce478d4efd7396fec494eaf9199b1f7a65b",
+      "text": "d1301898b063878438424480952fbd6d110e0735"
+    },
+    "sound/fr.mp3": {
+      "bytes": 16272,
+      "sha1": "e2ec75aa73d3b895c9966f35a467d25f0a7effe9",
+      "text": "56e8dbb11cbf8610af88396a50556547ed967ce0"
+    },
+    "sound/pt.mp3": {
+      "bytes": 17568,
+      "sha1": "c2f021a774c06109213cb478f6ae14829b11a3a2",
+      "text": "96262e8ad4fcf84b7c44d6db5bc9e2c2d9dd16a2"
+    },
+    "sound/hu.mp3": {
+      "bytes": 15552,
+      "sha1": "0462637b6a8bf0b7e434f715a408fb426a69417c",
+      "text": "687092576a1bbad871b051a6ce5546ee69752ce4"
+    },
+    "read/es.mp3": {
+      "bytes": 899856,
+      "sha1": "ba805bf4f5f4ef3f9fc7aa116b971e83e78e74eb",
+      "text": "c4b187d3a1372110a986f9ce110194729b41469b"
+    },
+    "read/en.mp3": {
+      "bytes": 824688,
+      "sha1": "13c4622a3b40bcc173b42d4f5e99d374e3c7a663",
+      "text": "acfc3003e06d8f71dd0a3d4cd6ec8506eff93544"
+    },
+    "read/de.mp3": {
+      "bytes": 995760,
+      "sha1": "e5a034f5f547c4691a25159c0841ee3de6cb863c",
+      "text": "5128c531a2c1195e4b07bca427cbb15072e4b734"
+    },
+    "read/it.mp3": {
+      "bytes": 906048,
+      "sha1": "7110591f1cb694e227b521d84e228a5c3ee75c94",
+      "text": "c1393c89619bbae1fdce44a278d06b633b6901f4"
+    },
+    "read/fr.mp3": {
+      "bytes": 874080,
+      "sha1": "65f41a695c6e774ac9950966ee64a3bb79f243bb",
+      "text": "d6a36d32b38f02a33263ae3503ea6c2edfad62d5"
+    },
+    "read/ru.mp3": {
+      "bytes": 883584,
+      "sha1": "05ca48d3fbf2f82e13b5734895dae5166372e937",
+      "text": "8ca05bf9112baa27db6c8cddc03ad748cf122a97"
+    },
+    "read/hu.mp3": {
+      "bytes": 983376,
+      "sha1": "f0e748d460197e4b1fd9091b659945b2216514ca",
+      "text": "f6a64d69dbd804bfd471ce076e9e2973f83ce68a"
+    },
+    "read/pt.mp3": {
+      "bytes": 924192,
+      "sha1": "3632d596d3fb562776efbc94d411fe620e0890a9",
+      "text": "e28fe98a0d585db8e6a865a631e565c78d2922b9"
+    },
+    "read/ro.mp3": {
+      "bytes": 873648,
+      "sha1": "5ecd53cb944f4784dabcefe8f6d1ef3fe8660297",
+      "text": "73ff8f7f8d6c63d5833729cf12b5ccb9efdd06a4"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 196080,
+      "sha1": "3dcfaa73e826ba4d478836c883477c4a8907a519",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 194447,
+      "sha1": "a10f90ba980db6e757efec62ae14849d7a00d637",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 190081,
+      "sha1": "c7430e9e8ba6de05106cda04ecd6387e34198aca",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 170565,
+      "sha1": "63c7a4df6a98a1c3cb332e6f9a083cd14e527fb0",
+      "page": 3
+    }
+  ],
+  "readSections": {
+    "es": [
+      0,
+      13.912,
+      27.475,
+      39.438,
+      51.225,
+      64.263,
+      77.463,
+      89.688,
+      101.65,
+      113.875,
+      124.525,
+      137.113
+    ],
+    "en": [
+      0,
+      14.55,
+      27.513,
+      38.312,
+      50.325,
+      61.263,
+      73.713,
+      84.45,
+      94.938,
+      105.4,
+      115.05,
+      126.475
+    ],
+    "de": [
+      0,
+      16.725,
+      32.987,
+      46.375,
+      60.5,
+      73.4,
+      86.4,
+      101.788,
+      113.513,
+      128.062,
+      140.15,
+      153.513
+    ],
+    "it": [
+      0,
+      14.725,
+      29.025,
+      40.55,
+      52.487,
+      64.45,
+      78.263,
+      90.438,
+      103.05,
+      114.962,
+      125.687,
+      137.962
+    ],
+    "fr": [
+      0,
+      14.088,
+      28.2,
+      40.025,
+      51.638,
+      63.113,
+      75.288,
+      87.25,
+      98.763,
+      110.225,
+      121.7,
+      133.338
+    ],
+    "ru": [
+      0,
+      14.1,
+      28.15,
+      39.987,
+      52.137,
+      64.737,
+      77.337,
+      90.212,
+      101.687,
+      113.912,
+      123.887,
+      135.812
+    ],
+    "hu": [
+      0,
+      13.65,
+      29.125,
+      43.837,
+      59.438,
+      72.55,
+      86.775,
+      100.812,
+      113.062,
+      126.375,
+      137.9,
+      150.787
+    ],
+    "pt": [
+      0,
+      15.525,
+      29.475,
+      41,
+      53.913,
+      67.013,
+      80.038,
+      93.313,
+      105.175,
+      117.613,
+      128.738,
+      142.113
+    ],
+    "ro": [
+      0,
+      13.8,
+      27.7,
+      39.7,
+      52.5,
+      63.112,
+      75.688,
+      86.987,
+      98,
+      109.963,
+      120.675,
+      132.825
+    ]
+  }
+}

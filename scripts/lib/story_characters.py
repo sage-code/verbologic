@@ -75,10 +75,14 @@ def story_contexts() -> list[tuple[str, dict[str, str]]]:
     return out
 
 
+#: Family and school roles are not names: any story may have a grandfather or a teacher.
+ROLE_WORDS = {"grandmother", "grandfather", "grandma", "grandpa", "mum", "dad", "mother", "father", "uncle", "aunt", "teacher"}
+
+
 def clean_name(raw: str) -> str | None:
     """A proper name from a context key ("Toby the tiger" -> "Toby"), or None for a role like "the wolf"."""
     raw = raw.strip()
-    if not raw or not raw[0].isupper():
+    if not raw or not raw[0].isupper() or raw.lower() in ROLE_WORDS:
         return None
     first = raw.split(" the ")[0].strip()
     if first.split()[0] in {"The", "Mother", "Father", "Her", "His", "My", "Little"} or len(first.split()) > 2:
@@ -88,7 +92,7 @@ def clean_name(raw: str) -> str | None:
 
 def taken_names() -> set[str]:
     """Every name any story or the registry already uses: no new character may take one."""
-    names = {key(c["name"]) for c in load()}
+    names = {key(c["name"]) for c in load() if key(c["name"]) not in ROLE_WORDS}
     for _, context in story_contexts():
         for raw in context:
             name = clean_name(raw)
@@ -227,14 +231,27 @@ HAIR = [
 ]
 
 
+#: Jobs for adult heroes from B1 up. A woman or a man can hold any of them; the writer adapts the trade to the
+#: place and time (a woman aviator in 1930, a woman blacksmith in a medieval village, a woman general officer today).
+JOBS = [
+    "blacksmith", "carpenter", "bricklayer", "mail carrier", "aviator", "tank driver", "boat captain", "taxi driver",
+    "detective", "army officer (lieutenant, captain, major or colonel)", "navy officer", "train driver", "firefighter",
+    "nurse or doctor", "baker", "fisher", "miner", "farmer", "architect", "ship's engineer", "mechanic", "judge",
+    "lighthouse keeper", "teacher", "journalist", "surveyor", "stonemason", "potter", "weaver", "shipbuilder",
+]
+
+
 def casting(level: str, rng: random.Random | None = None) -> dict[str, str]:
     """A hero profile for a story with no premise: who (kind), where from, and the hair."""
     rng = rng or random.Random()
-    kinds = ["boy", "girl", "girl", "boy", "man", "woman"] if level == "A2" else ["boy", "girl", "man", "woman", "elder"]
+    kinds = ["boy", "girl", "girl", "boy", "man", "woman"] if level == "A2" else ["woman", "man", "woman", "man"]
     # Prefer a culture no earlier hero came from; the registry remembers each hero's `origin`.
     seen = {c.get("origin") for c in load() if c.get("origin")}
     fresh = [c for c in CULTURES if c not in seen] or CULTURES
-    return {"kind": rng.choice(kinds), "culture": rng.choice(fresh), "hair": rng.choice(HAIR)}
+    hero = {"kind": rng.choice(kinds), "culture": rng.choice(fresh), "hair": rng.choice(HAIR)}
+    if level != "A2":
+        hero["job"] = rng.choice(JOBS)
+    return hero
 
 
 def rules(level: str, species: str | None, premise: str | None = None, cast: dict[str, str] | None = None) -> str:
@@ -246,7 +263,12 @@ def rules(level: str, species: str | None, premise: str | None = None, cast: dic
         "- A name belongs to ONE character in the whole library. Never give a new character a name from the list "
         "of taken names below, and never use the same name for two characters in one story.",
     ]
-    if level == "A1":
+    if level == "A1" and premise:
+        lines.append(
+            "- The MAIN character is the hero the PREMISE names (a person or an animal), a NEW character with an "
+            "original name (or the name the tradition gives, such as Santa) and a clear look. Keep to at most four characters."
+        )
+    elif level == "A1":
         lines.append(
             f"- The MAIN character is a NEW animal: {'a ' + species if species else 'a species no earlier hero has'}. "
             "It is the hero of the story, with an original name and a short description of its look "
@@ -263,6 +285,12 @@ def rules(level: str, species: str | None, premise: str | None = None, cast: dic
             f"- The MAIN character is a NEW {cast['kind']} from {cast['culture']}, with {cast['hair']} (or the hair "
             "that fits the place and time), and a name that belongs to that culture."
         )
+    elif level not in ("A1", "A2") and cast:
+        lines.append(
+            f"- The MAIN character is a NEW {cast['kind']} from {cast['culture']} who works as a {cast.get('job')}, with "
+            f"{cast['hair']} (or the hair that fits the place and time) and a name that belongs to that culture. Women "
+            "hold the same jobs as men; adapt the trade to the place and the time."
+        )
     elif level == "A2":
         lines.append(
             "- The MAIN character is a NEW boy, girl, man or woman, with an original name and a description of the look. "
@@ -277,6 +305,13 @@ def rules(level: str, species: str | None, premise: str | None = None, cast: dic
         "- Describe every character's look with the skin tone, hair, clothes and tools that fit the place and the time of "
         "the story. Do not draw every hero alike: vary age, sex, skin and hair."
     )
+    if level not in ("A1", "A2"):
+        lines.append(
+            "- LEARNING: these stories teach English. Keep the story short but rich: include 8 to 12 words and phrases "
+            "that belong to the hero's job, trade or world (tools, materials, actions, ranks, places), each used so the "
+            "sentence makes its meaning clear, and vary the sentence structures (relative clauses, time clauses, "
+            "conditionals, reported speech). Heroes with a job do that job properly, in its real vocabulary."
+        )
     if level != "A1":
         lines.append(
             "- ANIMALS ARE ANIMALS in this story. They behave as real animals do: they do not speak, do not think in "
@@ -335,6 +370,8 @@ def check(
     for name, info in new.items():
         if not isinstance(info, dict) or info.get("kind") not in KINDS:
             problems.append(f"{name}: kind must be one of {', '.join(KINDS)}")
+        if name[:1].islower() or key(name) in ROLE_WORDS:
+            continue  # an unnamed character ("the dog") or a family role needs no unique name
         if key(name) in taken:
             problems.append(f"{name} is already a character's name; choose another")
         if clean_name(name) != name:
@@ -361,8 +398,10 @@ def check(
         problems.append("the main character must be new")
     else:
         kind = new[main].get("kind") if isinstance(new[main], dict) else None
-        if level == "A1" and (kind != "animal" or (species and new[main].get("species") != species)):
+        if level == "A1" and not premise and (kind != "animal" or (species and new[main].get("species") != species)):
             problems.append(f"the main character must be a {species}")
+        if level not in ("A1", "A2") and cast and not premise and kind != cast["kind"]:
+            problems.append(f"the main character must be a {cast['kind']}")
         if level == "A2" and cast and not premise:
             if kind != cast["kind"]:
                 problems.append(f"the main character must be a {cast['kind']}")

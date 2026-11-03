@@ -1,0 +1,362 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST11",
+  "topic": "ST11T04",
+  "kind": "story",
+  "entity_id": "ST11T04:S001",
+  "cefr": "C2",
+  "tags": [
+    "level#C2"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Celestial Transit",
+      "description": "Major Pema, a Tibetan officer, observes a rare planetary alignment and must determine the geopolitical implications for her high-altitude mountain outpost."
+    },
+    "ro": {
+      "name": "Tranzitul Celest",
+      "description": "Maiorul Pema, un ofițer tibetan, observă o aliniere planetară rară și trebuie să determine implicațiile geopolitice pentru avanpostul său montan de mare altitudine."
+    },
+    "de": {
+      "name": "Der himmlische Transit",
+      "description": "Major Pema, eine tibetische Offizierin, beobachtet eine seltene Planetenkonstellation und muss die geopolitischen Auswirkungen für ihren hochgelegenen Außenposten bewerten."
+    },
+    "ru": {
+      "name": "Небесный транзит",
+      "description": "Майор Пема, тибетский офицер, наблюдает редкое планетарное выравнивание и должна определить геополитические последствия для своего высокогорного аванпоста."
+    },
+    "it": {
+      "name": "Il Transito Celeste",
+      "description": "Il Maggiore Pema, un ufficiale tibetano, osserva un raro allineamento planetario e deve determinare le implicazioni geopolitiche per il suo avamposto di alta montagna."
+    },
+    "es": {
+      "name": "El Tránsito Celestial",
+      "description": "La Mayor Pema, una oficial tibetana, observa una rara alineación planetaria y debe determinar las implicaciones geopolíticas para su puesto de avanzada en alta montaña."
+    },
+    "fr": {
+      "name": "Le Transit Céleste",
+      "description": "Le Major Pema, une officière tibétaine, observe un rare alignement planétaire et doit déterminer les implications géopolitiques pour son avant-poste de haute montagne."
+    },
+    "hu": {
+      "name": "Az Égi Tranzit",
+      "description": "Pema őrnagy, egy tibeti tiszt, ritka bolygóegyüttállást figyel meg, és el kell döntenie, milyen geopolitikai következményei lesznek ennek a magashegyi előőrsére nézve."
+    },
+    "pt": {
+      "name": "O Trânsito Celestial",
+      "description": "A Major Pema, uma oficial tibetana, observa um raro alinhamento planetário e deve determinar as implicações geopolíticas para o seu posto avançado de alta montanha."
+    }
+  },
+  "files": {
+    "sound/it.mp3": {
+      "bytes": 14256,
+      "sha1": "6b459ea49120837958d4943b4c1ba1c19bdcee93",
+      "text": "2e9995cb79e529b9caa938ca4511addb885cd734"
+    },
+    "sound/de.mp3": {
+      "bytes": 13248,
+      "sha1": "c29064950c8d97e2f9523bcfb8107c2cee096e62",
+      "text": "45c4144f6cfc14284ee122f81808d4531de7af6f"
+    },
+    "sound/es.mp3": {
+      "bytes": 14256,
+      "sha1": "da7f36598b18f26a5b0bd66a683fcf08d5b683a7",
+      "text": "452c2281848a9576fe662d8c3e09c3fd6cd17862"
+    },
+    "sound/ro.mp3": {
+      "bytes": 12672,
+      "sha1": "4ed111078e90812b70c20c97260804baebf8fe29",
+      "text": "f713aaa9dcecbf2ce674d4784f63216b969a27ef"
+    },
+    "sound/ru.mp3": {
+      "bytes": 14256,
+      "sha1": "85c376ac24a3afa497154a8c2a16ebe669535592",
+      "text": "663aaff316ce90c9b6af17f04fb99af31271abe3"
+    },
+    "sound/fr.mp3": {
+      "bytes": 13248,
+      "sha1": "418db5a3ea332fbc311b664a37157bbba0df745d",
+      "text": "001c9283dc179ec42d91fe922504c1168b3777cf"
+    },
+    "sound/hu.mp3": {
+      "bytes": 12240,
+      "sha1": "dfe44703b4fdf6efcb6adddceda4f67b7900cf2d",
+      "text": "11de54fab4729f1ec3ce3f3b19cd1bbe64b09bf5"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12672,
+      "sha1": "d2770b38dfb6fb8db390989e6b85dd6e66f8e1b1",
+      "text": "e942be6f1e8135482b5b64e2216f7389f4c00869"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "d125667a66a1e687b799e5f2b36a5d6de2628956",
+      "text": "7ed20701a374fc3835b1f27b01a5d7b0ab4eaf09"
+    },
+    "read/it.mp3": {
+      "bytes": 1745424,
+      "sha1": "3080981f1ec4b593208e3bb1a3ce74cd4397f2a5",
+      "text": "65f6f2d6b3582bce98409f70f17997057174f6f7"
+    },
+    "read/de.mp3": {
+      "bytes": 1745136,
+      "sha1": "cc264cc2b439b7004b5ca5389d87d4cebc4e6995",
+      "text": "a92c2f8a7ede070ca8be490687bbf25aa47ece58"
+    },
+    "read/es.mp3": {
+      "bytes": 1641312,
+      "sha1": "5e2e818442f9fa9223fa2dd6ad38cc684adedd72",
+      "text": "4556de41bca52a5535a95bb9f42a067b488c5bb4"
+    },
+    "read/fr.mp3": {
+      "bytes": 1466064,
+      "sha1": "458f027ddf220a6c299f5d66e338083a6505f47f",
+      "text": "19f6551e8d6186bcf8d1e593c553254a8f38aae1"
+    },
+    "read/pt.mp3": {
+      "bytes": 1413936,
+      "sha1": "ab0e114ee8c3ce1e97342a2a4a0b917540a0fc1e",
+      "text": "fe862ab8c7f0a52cf25950bc4c32be0a9dfcfd2f"
+    },
+    "read/hu.mp3": {
+      "bytes": 1593216,
+      "sha1": "048f8f14e09eb63f97d24885bdc69dfc874b25e3",
+      "text": "f21851b8deb57111526488828a9e6a9ca77416bd"
+    },
+    "read/ro.mp3": {
+      "bytes": 1645632,
+      "sha1": "b347c880587265ae5dada9fce6176a96c8d707c0",
+      "text": "c4d15895966ee38ba515b95b8729f966d0a6c465"
+    },
+    "read/ru.mp3": {
+      "bytes": 1668384,
+      "sha1": "88f30b61a65a2344643d72e3b3d9e7524147e207",
+      "text": "9ce7f4f057b545e991166247c6e68660476ec011"
+    },
+    "read/en.mp3": {
+      "bytes": 1643328,
+      "sha1": "ebf4cd86f911efb19778791b4e02d4fcecfbc741",
+      "text": "d0544f6fe9e6e8436efc29079b5a57c2156a41d2"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 181312,
+      "sha1": "46fc4ac041787a54bbdfd8f03d2b4524e2417122",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 187923,
+      "sha1": "b5d350ab3aeee8b92b6d3e79c1c6ecea0d411e07",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 185823,
+      "sha1": "d595522932ab002030882600d8a50407748367f4",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 185261,
+      "sha1": "3944c26ba42a97f32ee044bc96f0d960dee329c9",
+      "page": 3
+    },
+    {
+      "file": "images/4.jpg",
+      "bytes": 167097,
+      "sha1": "18c696ab82e76c66f1c1e2ea049ab454d96851df",
+      "page": 4
+    },
+    {
+      "file": "images/5.jpg",
+      "bytes": 200811,
+      "sha1": "aac8400245905034c9e71f8a40c4506343f5acf9",
+      "page": 5
+    }
+  ],
+  "readSections": {
+    "it": [
+      0.0,
+      17.425,
+      34.15,
+      43.925,
+      61.3,
+      79.425,
+      96.363,
+      112.05,
+      128.475,
+      144.15,
+      152.95,
+      171.163,
+      185.088,
+      200.138,
+      213.988,
+      230.388,
+      244.663,
+      259.85
+    ],
+    "de": [
+      0.0,
+      16.2,
+      32.95,
+      49.288,
+      66.787,
+      84.1,
+      101.062,
+      117.062,
+      134.387,
+      151.05,
+      167.912,
+      185.725,
+      200.5,
+      215.588,
+      230.975,
+      246.375,
+      259.55,
+      273.7
+    ],
+    "es": [
+      0.0,
+      8.762,
+      15.025,
+      31.362,
+      47.287,
+      63.962,
+      80.275,
+      94.662,
+      110.188,
+      124.725,
+      139.5,
+      155.662,
+      168.938,
+      183.625,
+      197.312,
+      212.3,
+      226.312,
+      240.562
+    ],
+    "fr": [
+      0.0,
+      14.575,
+      28.775,
+      42.625,
+      56.188,
+      71.7,
+      85.862,
+      98.8,
+      112.175,
+      125.325,
+      138.95,
+      153.425,
+      165.0,
+      178.787,
+      190.825,
+      203.887,
+      215.037,
+      228.3
+    ],
+    "pt": [
+      0.0,
+      13.7,
+      26.875,
+      41.138,
+      54.438,
+      69.075,
+      82.825,
+      95.225,
+      108.538,
+      120.8,
+      133.963,
+      147.838,
+      159.287,
+      171.55,
+      183.075,
+      195.975,
+      207.637,
+      220.487
+    ],
+    "hu": [
+      0.0,
+      15.5,
+      31.637,
+      45.975,
+      60.4,
+      76.45,
+      91.388,
+      105.388,
+      120.913,
+      135.838,
+      151.613,
+      169.05,
+      182.85,
+      196.05,
+      209.963,
+      223.85,
+      236.5,
+      249.45
+    ],
+    "ro": [
+      0.0,
+      15.938,
+      31.625,
+      47.587,
+      64.263,
+      81.1,
+      97.05,
+      112.75,
+      127.912,
+      143.9,
+      159.013,
+      174.725,
+      188.538,
+      203.175,
+      216.0,
+      231.262,
+      243.662,
+      258.75
+    ],
+    "ru": [
+      0.0,
+      16.725,
+      32.612,
+      47.925,
+      64.387,
+      81.375,
+      94.875,
+      109.275,
+      126.2,
+      142.125,
+      159.012,
+      174.975,
+      189.525,
+      205.125,
+      218.925,
+      233.188,
+      247.213,
+      262.175
+    ],
+    "en": [
+      0.0,
+      15.925,
+      32.05,
+      46.137,
+      62.675,
+      79.4,
+      94.338,
+      108.85,
+      124.175,
+      140.2,
+      155.413,
+      171.288,
+      186.363,
+      201.475,
+      214.875,
+      229.413,
+      243.413,
+      258.038
+    ]
+  }
+}

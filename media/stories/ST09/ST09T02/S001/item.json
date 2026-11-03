@@ -1,0 +1,329 @@
+{
+  "code": "S001",
+  "track": "stories",
+  "chapter": "ST09",
+  "topic": "ST09T02",
+  "kind": "story",
+  "entity_id": "ST09T02:S001",
+  "cefr": "C1",
+  "tags": [
+    "level#C1"
+  ],
+  "locales": {
+    "en": {
+      "name": "The Carpenter of the Siege",
+      "description": "A master carpenter balances his duty to the army with his conscience while constructing siege engines for a medieval castle assault."
+    },
+    "ro": {
+      "name": "Dulgherul Asediului",
+      "description": "Un maestru dulgher își echilibrează datoria față de armată cu propria conștiință în timp ce construiește mașinării de asediu pentru cucerirea unui castel medieval."
+    },
+    "de": {
+      "name": "Der Zimmermann der Belagerung",
+      "description": "Ein Meisterzimmermann ringt mit seinem Gewissen, während er Belagerungsmaschinen für den Angriff auf eine mittelalterliche Burg baut."
+    },
+    "ru": {
+      "name": "Плотник осады",
+      "description": "Мастер-плотник пытается найти баланс между долгом перед армией и своей совестью, создавая осадные машины для штурма средневекового замка."
+    },
+    "it": {
+      "name": "Il carpentiere dell'assedio",
+      "description": "Un mastro carpentiere bilancia il suo dovere verso l'esercito con la propria coscienza mentre costruisce macchine d'assedio per l'assalto a un castello medievale."
+    },
+    "es": {
+      "name": "El carpintero del asedio",
+      "description": "Un maestro carpintero equilibra su deber hacia el ejército con su conciencia mientras construye máquinas de asedio para el asalto a un castillo medieval."
+    },
+    "fr": {
+      "name": "Le charpentier du siège",
+      "description": "Un maître charpentier concilie son devoir envers l'armée et sa conscience tout en construisant des engins de siège pour l'assaut d'un château médiéval."
+    },
+    "hu": {
+      "name": "Az ostrom ácsa",
+      "description": "Egy mesterács egyensúlyoz a hadsereg iránti kötelessége és a lelkiismerete között, miközben ostromgépeket épít egy középkori vár bevételéhez."
+    },
+    "pt": {
+      "name": "O carpinteiro do cerco",
+      "description": "Um mestre carpinteiro equilibra o seu dever para com o exército com a sua consciência enquanto constrói máquinas de cerco para o assalto a um castelo medieval."
+    }
+  },
+  "files": {
+    "sound/de.mp3": {
+      "bytes": 15408,
+      "sha1": "2ccf25924464b07e2ada3fb5a69adcfc999be8e3",
+      "text": "2342681d20c357378176dc04c7bcf7d3a0d40c21"
+    },
+    "sound/it.mp3": {
+      "bytes": 16704,
+      "sha1": "1293e7ac15532bca77102fe92d5c979dc402b0e8",
+      "text": "552b4aa1b08d8a9a326d1c8f0630e352d37d9ac3"
+    },
+    "sound/es.mp3": {
+      "bytes": 15264,
+      "sha1": "0f04ed8da488e560ff9161d6731c2b02d06caacd",
+      "text": "e21388e9f688d543756c56fd7a696fc87f65ee7a"
+    },
+    "sound/ro.mp3": {
+      "bytes": 13968,
+      "sha1": "ec57f585b876792cb3e684fa97d87bf7f239e0d1",
+      "text": "d312cd3e81490ed7270fcfdea7891185f8780dff"
+    },
+    "sound/fr.mp3": {
+      "bytes": 14112,
+      "sha1": "d2208fea8dbb4ccc5400aa16f76e3bcb2289feb9",
+      "text": "8cb1cc562b9ea23feed4c37e8102ab2380692d5d"
+    },
+    "sound/pt.mp3": {
+      "bytes": 12816,
+      "sha1": "d35c343dcf953727d4cd2dceafef19dd301c7a10",
+      "text": "7fe730338e460706dc691007bc49e6b487578152"
+    },
+    "sound/hu.mp3": {
+      "bytes": 11520,
+      "sha1": "476df54683445ef96c6c4e9d9c843ae0ec065556",
+      "text": "13431f7cc84376ca78e3269eccf07cc24e65af4f"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "676837bf868c33281072428675a244596572ee0a",
+      "text": "f5269da9545bab45b679f2c60c7c85c5e09cb433"
+    },
+    "sound/ru.mp3": {
+      "bytes": 13392,
+      "sha1": "5441896f0182f51da8d99888da2a4dd3229bc311",
+      "text": "eee84786d964bf301d01599e945fa0db76ba6888"
+    },
+    "read/it.mp3": {
+      "bytes": 1569456,
+      "sha1": "6e7670020a30bc22453d16d2a0a7dadf604ccf21",
+      "text": "e47343d77b930c010fda55123e81149d8ddcb9a3"
+    },
+    "read/de.mp3": {
+      "bytes": 1430496,
+      "sha1": "6a465527c2dfda9356e30369d1fd6559eab3d1f3",
+      "text": "2bfb5602bfa8d2f2267548a5a28de08de92959d4"
+    },
+    "read/es.mp3": {
+      "bytes": 1387008,
+      "sha1": "0f55be4532b1b33a0762319c7af46491079fde52",
+      "text": "b6ad6f1c445edc4a326f75e6a1cd8309cbc50bdc"
+    },
+    "read/fr.mp3": {
+      "bytes": 1251792,
+      "sha1": "3c95bb42a28e9e7c5b73beec1a58e097f5cdcc59",
+      "text": "bf08b949fc4edb116475503b13126bd697b950a3"
+    },
+    "read/hu.mp3": {
+      "bytes": 1327824,
+      "sha1": "f0edf3c2534ffed01b3c5d9259cab7e56c04f408",
+      "text": "5e8e0ba8de6ff3bfbcd71f5d3e0f276c003d5d1b"
+    },
+    "read/ro.mp3": {
+      "bytes": 1347696,
+      "sha1": "283f40bc8a361ed37dbd76bff88a7530fe3f38e4",
+      "text": "6a9f6fdfa900c2ccb6351432f74ea302dad35cd9"
+    },
+    "read/pt.mp3": {
+      "bytes": 1199664,
+      "sha1": "0e40f420b7fb38545c11d6c4561d63098f26e897",
+      "text": "480f28bb78bc87310a7bd25344740bc738af5cc3"
+    },
+    "read/ru.mp3": {
+      "bytes": 1384416,
+      "sha1": "cb3e6a50a77ae03ea23ed7513901b4f1d373405e",
+      "text": "580b057aae416587009bbf91c8498a82785479ec"
+    },
+    "read/en.mp3": {
+      "bytes": 1286640,
+      "sha1": "938baf1b549ef7ceb79c8996596e82227bd20de9",
+      "text": "2aef95144f82085eccabd35d7b16a3af8c85ed0d"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 223500,
+      "sha1": "8230fce06af54c4700b266fd2cb8ff23198c133a",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 216671,
+      "sha1": "d8928db177be91fb8c469332eb9ee40cb02a525d",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 215429,
+      "sha1": "83d2f293742e9090702723bdcf21c9e43b377842",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 211132,
+      "sha1": "83ae66420870d0c9f394ee7d60ddaf0ebd2eb3ad",
+      "page": 3
+    },
+    {
+      "file": "images/4.jpg",
+      "bytes": 206515,
+      "sha1": "7b82c0db94b90732956239e3d8826ed868c49b8a",
+      "page": 4
+    }
+  ],
+  "readSections": {
+    "it": [
+      0,
+      18.25,
+      37.5,
+      52.825,
+      69.4,
+      87.763,
+      102.463,
+      120.588,
+      142.7,
+      161.5,
+      177.388,
+      191.188,
+      214.4,
+      230.275,
+      245.15
+    ],
+    "de": [
+      0,
+      15.725,
+      34.237,
+      48.712,
+      64.312,
+      80.688,
+      94.763,
+      108.388,
+      128.85,
+      145.2,
+      159.887,
+      173.275,
+      193.375,
+      208.5,
+      221.975
+    ],
+    "es": [
+      0,
+      16.7,
+      33.7,
+      47.863,
+      62.125,
+      78,
+      92.25,
+      108.4,
+      126.938,
+      143.062,
+      158.9,
+      171.338,
+      190.188,
+      204.4,
+      217.625
+    ],
+    "fr": [
+      0,
+      14.863,
+      30.25,
+      43.112,
+      57.175,
+      71.875,
+      83.8,
+      98.237,
+      115.062,
+      129.2,
+      142.387,
+      153.987,
+      171.337,
+      183.475,
+      195.587
+    ],
+    "hu": [
+      0,
+      14.45,
+      31.925,
+      45.337,
+      58.212,
+      74.725,
+      88.925,
+      104.162,
+      122.188,
+      136.575,
+      149.975,
+      162.55,
+      180.775,
+      193.55,
+      206.525
+    ],
+    "ro": [
+      0,
+      17.4,
+      34.85,
+      49.337,
+      63.675,
+      79.8,
+      94.187,
+      109.012,
+      126.6,
+      141.45,
+      154.938,
+      166.7,
+      184.1,
+      198.125,
+      210.562
+    ],
+    "pt": [
+      0,
+      14.613,
+      29.825,
+      41.812,
+      54.125,
+      67.95,
+      79.725,
+      93,
+      109.138,
+      123.3,
+      136.725,
+      146.975,
+      163.188,
+      175.85,
+      187.375
+    ],
+    "ru": [
+      0,
+      16.613,
+      34.513,
+      48.663,
+      62.5,
+      79.938,
+      94.213,
+      110.625,
+      129.662,
+      145.112,
+      158.9,
+      173.012,
+      191.225,
+      204.6,
+      217.463
+    ],
+    "en": [
+      0,
+      15.55,
+      32.237,
+      45.237,
+      59.825,
+      74.2,
+      88.162,
+      101.75,
+      116.987,
+      132.387,
+      146.062,
+      158.2,
+      176.162,
+      189.562,
+      202.1
+    ]
+  }
+}

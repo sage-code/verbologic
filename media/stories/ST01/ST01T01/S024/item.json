@@ -1,0 +1,224 @@
+{
+  "code": "S024",
+  "track": "stories",
+  "chapter": "ST01",
+  "topic": "ST01T01",
+  "kind": "story",
+  "entity_id": "ST01T01:S024",
+  "cefr": "A1",
+  "tags": [
+    "level#A1"
+  ],
+  "locales": {
+    "en": {
+      "name": "Jago and the Thorn",
+      "description": "Jago the tiger has a thorn in his paw and learns to accept help from a small bird."
+    },
+    "ro": {
+      "name": "Jago și ghimpele",
+      "description": "Jago, un tigru mare, are un ghimpe în lăbuță și învață să accepte ajutorul unei păsărele."
+    },
+    "de": {
+      "name": "Jago und der Dorn",
+      "description": "Der Tiger Jago hat einen Dorn in der Pfote und lernt, Hilfe von einem kleinen Vogel anzunehmen."
+    },
+    "ru": {
+      "name": "Яго и колючка",
+      "description": "Тигр Яго поранил лапу колючкой и учится принимать помощь от маленькой птички."
+    },
+    "it": {
+      "name": "Jago e la spina",
+      "description": "Jago la tigre ha una spina nella zampa e impara ad accettare l'aiuto di un piccolo uccellino."
+    },
+    "es": {
+      "name": "Jago y la espina",
+      "description": "Jago el tigre tiene una espina en la pata y aprende a aceptar la ayuda de un pajarito."
+    },
+    "fr": {
+      "name": "Jago et l'épine",
+      "description": "Jago le tigre a une épine dans la patte et apprend à accepter l'aide d'un petit oiseau."
+    },
+    "hu": {
+      "name": "Jago és a tüske",
+      "description": "Jago, a tigris, tüskét kapott a mancsába, és megtanulja elfogadni egy kis madár segítségét."
+    },
+    "pt": {
+      "name": "Jago e o espinho",
+      "description": "Jago o tigre tem um espinho na pata e aprende a aceitar a ajuda de um pequeno pássaro."
+    }
+  },
+  "files": {
+    "sound/es.mp3": {
+      "bytes": 12384,
+      "sha1": "7bd227823b05ae128603fc318e9cdf33eb82c61a",
+      "text": "f00909faedead193d41e42eabf6e535b97deba03"
+    },
+    "sound/de.mp3": {
+      "bytes": 13824,
+      "sha1": "c04958c32a43496b005e3956033ec5a642af5dd9",
+      "text": "f5f8dd92e24715c1517a2342303ea6df9081c015"
+    },
+    "sound/it.mp3": {
+      "bytes": 11232,
+      "sha1": "e77b3f9b88e9b6fbf26a8b6540b1e00bd9916a16",
+      "text": "d1957aa6426d0fca9d4417051f444c39ef860349"
+    },
+    "sound/en.mp3": {
+      "bytes": 11232,
+      "sha1": "f553ad6713701c01b78ff5c73aa60444a2ba8b5c",
+      "text": "d4420a7be5e83fe4d6335c7a28b04072884b646a"
+    },
+    "sound/ru.mp3": {
+      "bytes": 15120,
+      "sha1": "2e6fb437b7d83e74348047c3b54492dfd54ab244",
+      "text": "648dd29411d83a04b0bd156d44f5b7c658a2de26"
+    },
+    "sound/ro.mp3": {
+      "bytes": 13104,
+      "sha1": "c5fccaa0f35b9befcc429db90c13ac88ad724f67",
+      "text": "ff035d6e9e08a85f7964c650251167231c00c4eb"
+    },
+    "sound/fr.mp3": {
+      "bytes": 12672,
+      "sha1": "689b93a9b28748eb7198e125849e23bd1ac59a63",
+      "text": "312c8acd12f7222ed5595faed07cba7ca88a9141"
+    },
+    "sound/pt.mp3": {
+      "bytes": 14976,
+      "sha1": "55d4bdc773630825b032b1a40995c629e7fcd0d7",
+      "text": "2eb6d5003b7b1966189f4c1fccfa01a83f5389d1"
+    },
+    "sound/hu.mp3": {
+      "bytes": 13536,
+      "sha1": "d4b35e662b42afc01974c11f667530c8519941bf",
+      "text": "ecb420ff3d3666fba6ec5f05f0d70a194381af82"
+    },
+    "read/en.mp3": {
+      "bytes": 171360,
+      "sha1": "55cf877efba01e2ed5ad5cab40e404eb130c7f8a",
+      "text": "94481719ef7d78213584185bc53e078eca2a1dd3"
+    },
+    "read/es.mp3": {
+      "bytes": 203040,
+      "sha1": "47296542ecd19e2109e7500010759e7254389863",
+      "text": "8ef0c31635ce8ad1d9d58c6d77f037c76ba68f14"
+    },
+    "read/de.mp3": {
+      "bytes": 225072,
+      "sha1": "aac1144fbbe83beead1a72ee8f2e7cb16c274a87",
+      "text": "c639cc300999d8109980c88e5615b65c96f8f540"
+    },
+    "read/fr.mp3": {
+      "bytes": 191232,
+      "sha1": "0af773cd3d055e6f74ffdf059cb884d6a53c7c83",
+      "text": "63f3323afe1025e789b777a04051e4cf8f147489"
+    },
+    "read/it.mp3": {
+      "bytes": 167904,
+      "sha1": "c21cd1b619bb08550405c191df7ae3fc1d4b1880",
+      "text": "edf54ec04e87255fa1ae498a6f7308c144e61d9f"
+    },
+    "read/ro.mp3": {
+      "bytes": 224352,
+      "sha1": "d1ea54cbe5ae5eac2767b7de36493ee1074b2f8b",
+      "text": "3b8b313e7922575611b37fca83fa4c36807e2b5c"
+    },
+    "read/ru.mp3": {
+      "bytes": 227376,
+      "sha1": "cb733c09d4d4f1a0b32e52463cb646b2a328936b",
+      "text": "c813c008d8b153e9a838a6cbac4b93c6f9210b45"
+    },
+    "read/pt.mp3": {
+      "bytes": 218736,
+      "sha1": "e4264e99d7385e09b09864e63ea8e9562c89e7cd",
+      "text": "0c53571822ee9d768389918d1b6965ed3fe2d159"
+    },
+    "read/hu.mp3": {
+      "bytes": 225216,
+      "sha1": "3f4cc99005985020aa38c1a3ee14fe5d6c512f64",
+      "text": "cf38d89c1b5de5a48155e3f9a29a07643350347d"
+    }
+  },
+  "images": [
+    {
+      "file": "images/0.jpg",
+      "bytes": 186494,
+      "sha1": "84c37545d4832bd533a92fb5b7f92c9089b4be3b",
+      "page": 0
+    },
+    {
+      "file": "images/1.jpg",
+      "bytes": 175712,
+      "sha1": "c4fa38e00ec7c11361eaacce04cd6ae740692a2d",
+      "page": 1
+    },
+    {
+      "file": "images/2.jpg",
+      "bytes": 168437,
+      "sha1": "d3557e65617acbd99d05264cbad249ba229908ab",
+      "page": 2
+    },
+    {
+      "file": "images/3.jpg",
+      "bytes": 161422,
+      "sha1": "14e9bc65a3a5ff995a6d90bc6c94cce082d443c8",
+      "page": 3
+    }
+  ],
+  "readSections": {
+    "en": [
+      0,
+      7.987,
+      14.688,
+      21.212
+    ],
+    "es": [
+      0,
+      8.65,
+      16.812,
+      24.512
+    ],
+    "de": [
+      0,
+      10.425,
+      20.113,
+      28.425
+    ],
+    "fr": [
+      0,
+      8.225,
+      16.462,
+      23.662
+    ],
+    "it": [
+      0,
+      7.325,
+      14.637,
+      20.675
+    ],
+    "ro": [
+      0,
+      10.475,
+      19.462,
+      28.137
+    ],
+    "ru": [
+      0,
+      9.9,
+      18.95,
+      28.113
+    ],
+    "pt": [
+      0,
+      10.175,
+      18.613,
+      27.013
+    ],
+    "hu": [
+      0,
+      9.738,
+      19.138,
+      27.088
+    ]
+  }
+}

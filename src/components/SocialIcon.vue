@@ -1,12 +1,13 @@
 // SocialIcon — real brand logos (simple-icons) rendered as inline SVG paths.
 <script setup lang="ts">
-import { siBluesky, siDiscord, siYoutube, siReddit } from 'simple-icons'
+import { siBluesky, siDiscord, siYoutube, siReddit, siKofi } from 'simple-icons'
 
 const BRANDS = {
   bluesky: siBluesky,
   discord: siDiscord,
   youtube: siYoutube,
-  reddit: siReddit
+  reddit: siReddit,
+  kofi: siKofi
 } as const
 
 const props = defineProps<{ icon: string; sizeClass?: string }>()
