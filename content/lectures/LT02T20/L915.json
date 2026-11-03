@@ -87,6 +87,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Accentul și inversiunea",
+      "summary": "În limba română, schimbăm ordinea cuvintelor pentru a scoate în evidență o idee importantă.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română, ordinea cuvintelor este foarte flexibilă. Adesea punem verbul înaintea subiectului pentru a atrage atenția. Această schimbare simplă a ordinii cuvintelor se numește inversiune."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Acum **vine** autobuzul.",
+                "Niciodată **nu a auzit** Maria o astfel de poveste.",
+                "Aici **lucrează** fratele meu."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Limba română nu folosește cuvinte speciale pentru a schimba ordinea. Mutăm doar verbul sau cuvântul important la începutul propoziției. Subiectul poate trece fără probleme după verb. Intonația vocii ajută și ea la sublinierea ideii."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Ordine normală</th><th>Cu inversiune</th><th>Accentul</th></tr></thead><tbody><tr><td><strong>Autobuzul vine.</strong></td><td><strong>**Vine** autobuzul.</strong></td><td><strong>Pe acțiune</strong></td></tr><tr><td><strong>Tata a sunat.</strong></td><td><strong>A sunat **tata**.</strong></td><td><strong>Pe persoană</strong></td></tr><tr><td><strong>Nu am văzut asta niciodată.</strong></td><td><strong>**Niciodată** nu am văzut asta.</strong></td><td><strong>Pe negație</strong></td></tr><tr><td><strong>Mihai este aici.</strong></td><td><strong>**Aici** este Mihai.</strong></td><td><strong>Pe loc</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

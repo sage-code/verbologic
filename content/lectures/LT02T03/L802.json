@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Singular and plural",
-      "summary": "English nouns have two numbers, singular and plural, and most add -s.",
+      "summary": "English nouns are singular or plural, and the plural is usually made with -s or -es.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Number tells us whether a noun means one thing or more than one. English has two numbers: singular and plural."
+                "Number tells us whether a noun means one thing or more than one. English has two numbers: singular and plural. The plural is shown by the ending of the noun, and also by the verb that follows. Adjectives and articles do not change."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "one **book**, two **books**",
                 "one **box**, two **boxes**",
-                "one **baby**, two **babies**"
+                "one **baby**, two **babies**",
+                "one **day**, two **days**"
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Most nouns add -s. Nouns ending in s, x, z, ch or sh add -es. Nouns ending in a consonant and y change y to ies."
+                "Most nouns add -s. Nouns ending in s, x, z, ch or sh add -es. Nouns ending in a consonant and y change y to ies. If a vowel comes before the y, just add -s. Some nouns ending in f or fe change to ves: leaf, leaves."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Rule</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td>add -s</td><td><strong>cat</strong></td><td><strong>cats</strong></td></tr><tr><td>add -es</td><td><strong>bus</strong></td><td><strong>buses</strong></td></tr><tr><td>y becomes ies</td><td><strong>city</strong></td><td><strong>cities</strong></td></tr><tr><td>vowel and y: add -s</td><td><strong>day</strong></td><td><strong>days</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Rule</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>add -s</strong></td><td><strong>cat</strong></td><td><strong>cats</strong></td></tr><tr><td><strong>add -es</strong></td><td><strong>bus</strong></td><td><strong>buses</strong></td></tr><tr><td><strong>consonant + y → ies</strong></td><td><strong>city</strong></td><td><strong>cities</strong></td></tr><tr><td><strong>vowel + y → add -s</strong></td><td><strong>day</strong></td><td><strong>days</strong></td></tr><tr><td><strong>f → ves</strong></td><td><strong>knife</strong></td><td><strong>knives</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Words ending in -o",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some nouns ending in -o take -es: potato, potatoes; tomato, tomatoes. Others take -s: photo, photos; piano, pianos. These must be learned, but a dictionary gives the plural when it is not regular."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pronouncing the ending",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The ending -s is said /s/ after voiceless sounds (cats), /z/ after voiced sounds (dogs) and /ɪz/ after hissing sounds (buses). Spelling does not show the difference."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **two boxs** Right: **two boxes**",
+                "Wrong: **two citys** Right: **two cities**",
+                "Wrong: **three dayes** Right: **three days**"
+              ]
             }
           ]
         }

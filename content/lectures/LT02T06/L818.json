@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Dropped subjects",
-      "summary": "English needs a subject in nearly every sentence.",
+      "summary": "English needs a subject in nearly every sentence; it and there fill the place when there is no real subject.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Some languages leave out the subject pronoun, because the verb ending already shows the person. English does not allow this in normal sentences."
+                "Some languages leave out the subject pronoun, because the verb ending already shows the person. English does not allow this in normal sentences. Every statement and question needs a subject, even when it has no real meaning. This is one of the most common differences for learners."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**It** is raining.",
                 "**There** is a problem.",
-                "**I** don't know."
+                "**I** don't know.",
+                "**It** is important to rest."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "English uses the dummy subjects it and there when nothing else can be the subject. The subject can be left out only in commands and in very informal speech."
+                "English uses the dummy subjects it and there when nothing else can be the subject. It is used for weather, time, distance and general judgements. There is used to say that something exists. The subject can be left out only in commands and in very informal speech."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Case</th><th>Example</th></tr></thead><tbody><tr><td>weather</td><td><strong>It is cold.</strong></td></tr><tr><td>existence</td><td><strong>There are two cats.</strong></td></tr><tr><td>command</td><td><strong>Come in.</strong></td></tr><tr><td>informal speech</td><td><strong>Hope you are well.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Case</th><th>Example</th></tr></thead><tbody><tr><td><strong>weather</strong></td><td><strong>It is cold.</strong></td></tr><tr><td><strong>time</strong></td><td><strong>It is six o&#x27;clock.</strong></td></tr><tr><td><strong>existence</strong></td><td><strong>There are two cats.</strong></td></tr><tr><td><strong>command</strong></td><td><strong>Come in.</strong></td></tr><tr><td><strong>informal speech</strong></td><td><strong>Hope you are well.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Informal omission",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In notes, messages and fast speech we may drop I or it at the start: Can't come today, Sounds good. This is acceptable among friends, but not in formal writing or in a careful answer."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Reading dummy subjects",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In It is clear that he is right, the word it only holds the place. The real subject is that he is right. Seeing this helps with long sentences, because it can often be replaced by the real subject."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Is raining.** Right: **It is raining.**",
+                "Wrong: **Is a problem.** Right: **There is a problem.**",
+                "Wrong: **Have two cats in the garden.** Right: **There are two cats in the garden.**"
+              ]
             }
           ]
         }

@@ -92,6 +92,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Vorbirea indirectă",
+      "summary": "Vorbirea indirectă transmite cuvintele unei persoane prin propoziții legate cu „că”, „dacă” sau „să”.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Vorbirea indirectă redă mesajul altei persoane fără ghilimele. Nu repetăm cuvintele exact așa cum au fost spuse. Folosim cuvinte de legătură pentru a uni propozițiile. Persoana verbului se schimbă după sens."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Radu a spus **că vine** mâine.",
+                "Ana mă întreabă **dacă am** timp.",
+                "Tata mi-a cerut **să citesc** o carte."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru o afirmație adăugăm conjuncția „că”. Pentru o întrebare simplă folosim conjuncția „dacă”. Pentru un ordin sau un îndemn folosim conjuncția „să”. Pronumele și forma verbului se schimbă firesc."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Vorbire directă</th><th>Cuvânt de legătură</th><th>Vorbire indirectă</th></tr></thead><tbody><tr><td><strong>„Sunt obosit.”</strong></td><td><strong>că</strong></td><td><strong>Spune că este obosit.</strong></td></tr><tr><td><strong>„Vii cu noi?”</strong></td><td><strong>dacă</strong></td><td><strong>Întreabă dacă vin cu ei.</strong></td></tr><tr><td><strong>„Unde locuiești?”</strong></td><td><strong>unde</strong></td><td><strong>Mă întreabă unde locuiesc.</strong></td></tr><tr><td><strong>„Învață lecția!”</strong></td><td><strong>să</strong></td><td><strong>Îmi cere să învăț lecția.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -87,6 +87,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Conjuncții subordonatoare",
+      "summary": "Conjuncțiile subordonatoare leagă o propoziție dependentă de o propoziție principală și arată cauza, timpul sau condiția.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "O conjuncție subordonatoare leagă două propoziții diferite. Propoziția introdusă de ea depinde de propoziția principală. Această parte secundară nu poate sta singură. Ea exprimă timpul, motivul, o condiție sau un scop."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Am rămas acasă **pentru că** plouă afară.",
+                "**Când** ajunge trenul, plecăm împreună.",
+                "Învăț mult **ca să** iau o notă mare."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Propoziția secundară poate sta înainte de propoziția principală sau după ea. Dacă este pe primul loc, punem virgulă după ea. Dacă propoziția secundară stă la sfârșit, adesea nu punem virgulă. Înțelesul rămâne neschimbat în ambele cazuri."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Sens</th><th>Conjuncție</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Cauză</strong></td><td><strong>pentru că / fiindcă</strong></td><td><strong>Nu vin **pentru că** lucrez.</strong></td></tr><tr><td><strong>Timp</strong></td><td><strong>când</strong></td><td><strong>**Când** termini, mă suni.</strong></td></tr><tr><td><strong>Condiție</strong></td><td><strong>dacă</strong></td><td><strong>**Dacă** plouă, stăm acasă.</strong></td></tr><tr><td><strong>Scop</strong></td><td><strong>ca să</strong></td><td><strong>Alerg **ca să** prind autobuzul.</strong></td></tr><tr><td><strong>Contrast</strong></td><td><strong>deși</strong></td><td><strong>Mergem pe jos, **deși** este frig.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

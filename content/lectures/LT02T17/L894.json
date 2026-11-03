@@ -86,6 +86,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Cauză, mijloc și scop",
+      "summary": "Prepozițiile arată motivul unei acțiuni, mijlocul folosit pentru realizarea ei sau scopul urmărit.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prepozițiile leagă cuvintele între ele în propoziție. Ele explică de ce se întâmplă o acțiune. De asemenea, arată mijlocul folosit sau scopul dorit."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Trenul a întârziat **din cauza** ceții.",
+                "Ea merge la serviciu **cu** autobuzul.",
+                "Folosesc acest cuțit **pentru** pâine."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru cauză folosim des grupul «din cauza» cu forma de genitiv. Pentru mijloc sau instrument folosim prepoziția «cu» urmată de acuzativ. Pentru a exprima scopul folosim prepoziția «pentru»."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Înțeles</th><th>Prepoziție</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Cauză</strong></td><td><strong>din cauza (+ genitiv)</strong></td><td><strong>Nu am ieșit **din cauza** ploii.</strong></td></tr><tr><td><strong>Cauză</strong></td><td><strong>de (+ acuzativ)</strong></td><td><strong>Copilul plânge **de** foame.</strong></td></tr><tr><td><strong>Mijloc</strong></td><td><strong>cu (+ acuzativ)</strong></td><td><strong>El scrie tema **cu** un creion.</strong></td></tr><tr><td><strong>Transport</strong></td><td><strong>cu (+ acuzativ)</strong></td><td><strong>Noi călătorim **cu** trenul.</strong></td></tr><tr><td><strong>Scop</strong></td><td><strong>pentru (+ acuzativ)</strong></td><td><strong>Facem pregătiri **pentru** petrecere.</strong></td></tr><tr><td><strong>Scop</strong></td><td><strong>pentru a (+ infinitiv)</strong></td><td><strong>Am venit **pentru a discuta**.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

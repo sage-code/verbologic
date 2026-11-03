@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Agreement with the noun",
-      "summary": "English adjectives do not change to agree with their noun.",
+      "summary": "English adjectives never change to agree with the noun they describe.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "In many languages an adjective changes to agree with its noun. In English it never does."
+                "In many languages an adjective changes its ending to match the noun in gender and number. English does not do this. The same adjective is used with a singular noun, a plural noun, a male person and a female person."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "a **small** boy",
                 "a **small** girl",
-                "two **small** children"
+                "two **small** children",
+                "The **small** houses are old."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An English adjective has the same form for singular and plural and for male and female. Only the demonstratives this and that change for number."
+                "English adjectives are invariable: the form never changes. Only the noun changes, and only for number. The demonstratives this and that are the exception, because they take the plural forms these and those."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>a new car</strong></td><td><strong>new cars</strong></td></tr><tr><td><strong>this red apple</strong></td><td><strong>these red apples</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>a new car</strong></td><td><strong>new cars</strong></td></tr><tr><td><strong>a tall woman</strong></td><td><strong>tall women</strong></td></tr><tr><td><strong>this red apple</strong></td><td><strong>these red apples</strong></td></tr><tr><td><strong>that old house</strong></td><td><strong>those old houses</strong></td></tr><tr><td><strong>a happy child</strong></td><td><strong>happy children</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "What does change",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some words that come before the noun do agree in number. We say one book but many books, and this book but these books. The adjective itself, such as new, stays the same."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Learners from other languages",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "If your own language has gender and plural endings on adjectives, English is easier here. There is nothing to add. The difficulty is only to remember not to add anything."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **two bigs dogs** Right: **two big dogs**",
+                "Wrong: **a beautifuls girl** Right: **a beautiful girl**",
+                "Wrong: **these book** Right: **this book** or **these books**"
+              ]
             }
           ]
         }

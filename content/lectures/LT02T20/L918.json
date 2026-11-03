@@ -101,6 +101,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Ordinea cuvintelor în întrebări și negații",
+      "summary": "În limba română, întrebările simple păstrează ordinea cuvintelor și se diferențiază prin intonație, iar negația se formează cu „nu” înaintea verbului.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Limba română nu folosește verbe auxiliare pentru a forma întrebări. Pentru o întrebare simplă, ordinea cuvintelor nu se schimbă: este suficient să ridicăm tonul vocii la sfârșitul propoziției. Pentru o negație, punem cuvântul „nu” înaintea verbului."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Voi **mergeți** la școală?",
+                "Noi **nu mergem** la școală.",
+                "**Unde mergeți** astăzi?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Cuvintele interogative stau de obicei la începutul propoziției, urmate imediat de verb. Pentru negațiile complexe, folosim cuvântul „nu” împreună cu un alt cuvânt negativ (de exemplu „nimic”, „nimeni”). În limba română, dubla negație este obligatorie."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tip de propoziție</th><th>Regulă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Întrebare simplă</strong></td><td><strong>Aceeași ordine a cuvintelor + intonație</strong></td><td><strong>Ai un pix?</strong></td></tr><tr><td><strong>Întrebare cu cuvânt interogativ</strong></td><td><strong>Cuvânt interogativ + verb</strong></td><td><strong>Unde locuiești?</strong></td></tr><tr><td><strong>Negație simplă</strong></td><td><strong>nu + verb</strong></td><td><strong>Nu știu răspunsul.</strong></td></tr><tr><td><strong>Negație dublă</strong></td><td><strong>nu + verb + cuvânt negativ</strong></td><td><strong>Nu văd nimic.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

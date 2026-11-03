@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Question words",
-      "summary": "Question words ask for information and come first.",
+      "summary": "Question words ask for information: who, what, where, when, why, how, which and whose.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Question words ask for information: who, what, where, when, why, how, which and whose."
+                "Question words ask for information. The main ones are who, what, where, when, why, how, which and whose. They begin the question and show what kind of information is wanted: a person, a thing, a place, a time, a reason or a manner."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**Where** do you live?",
                 "**Why** is she late?",
-                "**How** much is it?"
+                "**How** much is it?",
+                "**Which** bus goes there?"
               ]
             }
           ]
@@ -44,12 +45,88 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The question word comes first, then the auxiliary and the subject. How can be joined with much, many, long and old."
+                "The question word comes first, then the auxiliary and the subject. How can be joined with much, many, long, old and often to ask about amount, length and age. Which asks about a choice from a known group, and what asks without a group."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Word</th><th>Asks about</th><th>Example</th></tr></thead><tbody><tr><td><strong>who</strong></td><td>a person</td><td><strong>Who is that?</strong></td></tr><tr><td><strong>where</strong></td><td>a place</td><td><strong>Where is the bank?</strong></td></tr><tr><td><strong>when</strong></td><td>a time</td><td><strong>When does it start?</strong></td></tr><tr><td><strong>how many</strong></td><td>a number</td><td><strong>How many are there?</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Word</th><th>Asks about</th><th>Example</th></tr></thead><tbody><tr><td><strong>who</strong></td><td><strong>a person</strong></td><td><strong>Who is that?</strong></td></tr><tr><td><strong>where</strong></td><td><strong>a place</strong></td><td><strong>Where is the bank?</strong></td></tr><tr><td><strong>when</strong></td><td><strong>a time</strong></td><td><strong>When does it start?</strong></td></tr><tr><td><strong>why</strong></td><td><strong>a reason</strong></td><td><strong>Why are you late?</strong></td></tr><tr><td><strong>how many</strong></td><td><strong>a number</strong></td><td><strong>How many are there?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Which or what?",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use which when the choices are known or few: Which colour do you like, red or blue? Use what when the choices are open: What colour is your car? In practice the difference is small."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Prepositions in questions",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The preposition often goes to the end: Who are you talking to? What is it for? In formal English it can stay with the question word: To whom are you speaking? Both are correct."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Where you live?** Right: **Where do you live?**",
+                "Wrong: **What time starts the film?** Right: **What time does the film start?**",
+                "Wrong: **How many money?** Right: **How much money?**"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Cuvinte interogative",
+      "summary": "Cuvintele interogative cer informații noi și stau de obicei la începutul propoziției.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Cuvintele interogative ne ajută să cerem informații precise. Ele se folosesc pentru a întreba despre persoane, lucruri, locuri, timp sau motive. Cele mai comune sunt: cine, ce, unde, când, cum și de ce."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Unde** locuiești?",
+                "**De ce** întârzii?",
+                "**Când** ajungi?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Cuvântul interogativ stă de obicei la începutul întrebării. După acest cuvânt punem de regulă verbul. Subiectul stă după verb sau lipsește complet."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Cuvânt</th><th>Semnificație</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Cine</strong></td><td><strong>Persoană</strong></td><td><strong>**Cine** vine la masă?</strong></td></tr><tr><td><strong>Ce</strong></td><td><strong>Lucru sau acțiune</strong></td><td><strong>**Ce** faci acum?</strong></td></tr><tr><td><strong>Unde</strong></td><td><strong>Loc</strong></td><td><strong>**Unde** este gara?</strong></td></tr><tr><td><strong>Când</strong></td><td><strong>Timp</strong></td><td><strong>**Când** pleacă trenul?</strong></td></tr><tr><td><strong>Cum</strong></td><td><strong>Mod</strong></td><td><strong>**Cum** ești astăzi?</strong></td></tr><tr><td><strong>De ce</strong></td><td><strong>Motiv</strong></td><td><strong>**De ce** râzi?</strong></td></tr></tbody></table>"
             }
           ]
         }

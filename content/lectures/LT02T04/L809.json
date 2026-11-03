@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Quantifiers: some, many, few",
-      "summary": "Quantifiers say how much or how many.",
+      "summary": "Quantifiers such as some, many and few tell us how much or how many.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Quantifiers tell us how much or how many. Some go with countable nouns, some with uncountable nouns, and some with both."
+                "Quantifiers tell us how much or how many there is of something. They stand before a noun. Some go with countable nouns, some with uncountable nouns, and some with both. They are one of the groups of determiners."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**many** books",
                 "**much** time",
-                "**some** water, **some** books"
+                "**some** water, **some** books",
+                "**a few** friends"
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Use many, few and a few with countable nouns, and much, little and a little with uncountable ones. Some, any, a lot of and no go with both. Few and little mean almost none, while a few and a little mean some."
+                "Use many, few and a few with countable nouns, and much, little and a little with uncountable ones. Some, any, a lot of and no go with both. Few and little mean almost none and are negative. A few and a little mean some and are positive."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Countable</th><th>Uncountable</th></tr></thead><tbody><tr><td><strong>many, few, a few</strong></td><td><strong>much, little, a little</strong></td></tr><tr><td><strong>a lot of</strong></td><td><strong>a lot of</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Countable</th><th>Uncountable</th></tr></thead><tbody><tr><td><strong>many books</strong></td><td><strong>much time</strong></td></tr><tr><td><strong>few books (almost none)</strong></td><td><strong>little time (almost none)</strong></td></tr><tr><td><strong>a few books (some)</strong></td><td><strong>a little time (some)</strong></td></tr><tr><td><strong>a lot of books</strong></td><td><strong>a lot of time</strong></td></tr><tr><td><strong>some books</strong></td><td><strong>some time</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Some and any",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some is normal in positive sentences, and any in negatives and questions: I have some money, I don't have any money, Do you have any money? We use some in offers and requests: Would you like some tea?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Much and many in speech",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In positive statements, much and many sound formal. People say a lot of: We have a lot of time. Much and many are common in negatives and questions: How much does it cost?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I have few time.** Right: **I have little time.**",
+                "Wrong: **many water** Right: **a lot of water** or **much water**",
+                "Wrong: **I don't have some money.** Right: **I don't have any money.**"
+              ]
             }
           ]
         }

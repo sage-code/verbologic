@@ -94,6 +94,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Subiect, complement și posesie",
+      "summary": "Subiectul face acțiunea, complementul o primește, iar posesia arată al cui este un lucru.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În propoziție, fiecare cuvânt are un rol clar. Subiectul este cel care face acțiunea. Complementul este cel care primește acțiunea. Posesia arată cui îi aparține un obiect."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Băiatul** citește o carte.",
+                "Băiatul citește **o carte**.",
+                "Aceasta este cartea **băiatului**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru subiect și complement folosim cazurile nominativ și acuzativ. Pentru persoane, la complement adăugăm prepoziția „pe”. Posesia se exprimă prin genitiv, schimbând terminația cuvântului."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Rol în propoziție</th><th>Exemplu</th><th>Explicație</th></tr></thead><tbody><tr><td><strong>Subiect</strong></td><td><strong>Pisica mănâncă.</strong></td><td><strong>Pisica face acțiunea.</strong></td></tr><tr><td><strong>Complement (lucru)</strong></td><td><strong>Văd cartea.</strong></td><td><strong>Cartea primește acțiunea.</strong></td></tr><tr><td><strong>Complement (persoană)</strong></td><td><strong>Îl chem pe Andrei.</strong></td><td><strong>Folosim prepoziția „pe”.</strong></td></tr><tr><td><strong>Posesie</strong></td><td><strong>Mâncarea pisicii este bună.</strong></td><td><strong>Mâncarea aparține pisicii.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

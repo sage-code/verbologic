@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Words that name",
-      "summary": "Nouns name things and pronouns stand in for them.",
+      "summary": "Nouns and pronouns name people, places, things and ideas, or stand in for them.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Nouns and pronouns name. A noun names a person, place, thing or idea. A pronoun stands in place of a noun, so that we do not repeat it."
+                "A noun names a person, a place, a thing or an idea. A pronoun stands in place of a noun, so that we do not repeat it. Together they fill the subject and object places in a sentence."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**Maria** lives in **Leeds**.",
                 "**She** lives there.",
-                "**Honesty** matters."
+                "**Honesty** matters.",
+                "The **books** are on **it**."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "English nouns change for number and for the possessive ('s). Pronouns change more: I, me, my, mine."
+                "English nouns change for number (book, books) and for the possessive (Maria's book). Pronouns change much more. They show person, number, gender and case: I, me, my, mine. A pronoun must match the noun it replaces."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Noun</th><th>Pronoun that replaces it</th></tr></thead><tbody><tr><td><strong>the teacher</strong></td><td><strong>she</strong> or <strong>he</strong></td></tr><tr><td><strong>the books</strong></td><td><strong>they</strong></td></tr><tr><td><strong>Tom and I</strong></td><td><strong>we</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Noun</th><th>Pronoun that replaces it</th></tr></thead><tbody><tr><td><strong>the teacher</strong></td><td><strong>she or he</strong></td></tr><tr><td><strong>the book</strong></td><td><strong>it</strong></td></tr><tr><td><strong>the books</strong></td><td><strong>they</strong></td></tr><tr><td><strong>Tom and I</strong></td><td><strong>we</strong></td></tr><tr><td><strong>Maria&#x27;s car</strong></td><td><strong>hers</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Proper and common nouns",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Names of particular people and places, such as Leeds and Maria, are proper nouns and begin with a capital letter. Words such as city and girl are common nouns and use a capital only at the start of a sentence."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Which pronoun?",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Use he and she for people, and it for things and animals. Use they for a plural, and also for one person whose sex is not known or not stated."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **The books is on the table.** Right: **The books are on the table.**",
+                "Wrong: **Maria she lives here.** Right: **Maria lives here.**",
+                "Wrong: **I saw he.** Right: **I saw him.**"
+              ]
             }
           ]
         }

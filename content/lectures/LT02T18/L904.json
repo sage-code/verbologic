@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Indirect questions",
-      "summary": "An indirect question keeps statement word order.",
+      "summary": "An indirect question is a question inside another sentence, with statement word order.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An indirect question is a question inside another sentence. It sounds more polite."
+                "An indirect question is a question inside another sentence. It sounds more polite than a direct question, and it is used after expressions such as Do you know, Can you tell me and I wonder. It is very useful for asking strangers for information."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "Do you know **where he lives**?",
                 "I wonder **what time it is**.",
-                "Can you tell me **how much it costs**?"
+                "Can you tell me **how much it costs**?",
+                "She asked **if I was ready**."
               ]
             }
           ]
@@ -44,12 +45,88 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "In an indirect question the word order is the same as in a statement: no inversion and no do. If there is no question word, use if or whether."
+                "In an indirect question the word order is the same as in a statement: no inversion and no do. If there is no question word, use if or whether. The verb is in the same tense as in a statement. The question mark goes only after a direct opening, such as Do you know."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Direct</th><th>Indirect</th></tr></thead><tbody><tr><td><strong>Where is the bank?</strong></td><td><strong>Do you know where the bank is?</strong></td></tr><tr><td><strong>Does he know?</strong></td><td><strong>I wonder if he knows.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Direct</th><th>Indirect</th></tr></thead><tbody><tr><td><strong>Where is the bank?</strong></td><td><strong>Do you know where the bank is?</strong></td></tr><tr><td><strong>Does he know?</strong></td><td><strong>I wonder if he knows.</strong></td></tr><tr><td><strong>What time is it?</strong></td><td><strong>Can you tell me what time it is?</strong></td></tr><tr><td><strong>Why did she leave?</strong></td><td><strong>I don&#x27;t know why she left.</strong></td></tr><tr><td><strong>Is he at home?</strong></td><td><strong>I asked whether he was at home.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Reported questions",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The same pattern is used in reported speech. The direct question Where do you live? becomes She asked where I lived. The tense moves back one step and the word order is that of a statement."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Polite requests",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Indirect questions soften a request. Compare Where is the station? with Could you tell me where the station is? The second is more polite, especially to a stranger."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Do you know where is the bank?** Right: **Do you know where the bank is?**",
+                "Wrong: **I wonder what does he want.** Right: **I wonder what he wants.**",
+                "Wrong: **She asked did I know.** Right: **She asked if I knew.**"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Întrebări indirecte",
+      "summary": "O întrebare indirectă este o întrebare inclusă într-o altă propoziție, adesea pentru a fi mai politicoasă.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "O întrebare indirectă se află în interiorul altei propoziții. Ea este o formă mai politicoasă de a cere informații. O folosim des când vorbim cu persoane necunoscute."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Știi **unde este gara**?",
+                "Nu știu **cât costă biletul**.",
+                "Poți să-mi spui **dacă vine trenul**?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română, ordinea cuvintelor nu se schimbă într-o întrebare indirectă. Dacă întrebarea directă nu are un cuvânt interogativ, adăugăm cuvântul „dacă”. La final punem punct sau semnul întrebării, după caz."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Întrebare directă</th><th>Întrebare indirectă</th></tr></thead><tbody><tr><td><strong>Unde este gara?</strong></td><td><strong>Știi unde este gara?</strong></td></tr><tr><td><strong>Cât costă pâinea?</strong></td><td><strong>Vreau să știu cât costă pâinea.</strong></td></tr><tr><td><strong>Vine Maria azi?</strong></td><td><strong>Nu știu dacă vine Maria azi.</strong></td></tr><tr><td><strong>Ce oră este?</strong></td><td><strong>Poți să-mi spui ce oră este?</strong></td></tr></tbody></table>"
             }
           ]
         }

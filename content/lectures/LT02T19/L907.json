@@ -91,6 +91,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Propoziții relative",
+      "summary": "Propoziția relativă oferă informații despre un substantiv și începe cu un cuvânt precum „care” sau „unde”.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Propoziția relativă descrie un substantiv. Ea stă după cuvântul pe care îl explică. De obicei, ea începe cu pronumele „care”. În română, nu putem omite niciodată acest pronume."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Băiatul **care vorbește** este prietenul meu.",
+                "Aceasta este cartea **pe care o citesc**.",
+                "Iată parcul **unde ne plimbăm**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Cuvântul „care” este forma de bază pentru subiect. Folosim „pe care” pentru complementul direct. Pentru a indica un loc, folosim adesea „unde”."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Cuvânt relativ</th><th>Utilizare</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>care</strong></td><td><strong>subiect</strong></td><td><strong>Omul **care** cântă este vecinul meu.</strong></td></tr><tr><td><strong>pe care</strong></td><td><strong>complement direct</strong></td><td><strong>Filmul **pe care** îl vedem este interesant.</strong></td></tr><tr><td><strong>unde</strong></td><td><strong>loc</strong></td><td><strong>Orașul **unde** locuiesc este foarte mare.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

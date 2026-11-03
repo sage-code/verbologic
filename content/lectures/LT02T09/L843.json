@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A transitive verb takes an object. An intransitive verb does not."
+                "A transitive verb needs an object to complete its meaning. An intransitive verb does not take an object. To tell which one it is, ask what or whom after the verb. If there is an answer, the verb is transitive. Many English verbs can be both."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "She **reads** a book. (transitive)",
                 "He **sleeps**. (intransitive)",
-                "I **stopped** the car. The car **stopped**."
+                "I **stopped** the car.",
+                "The car **stopped**."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Many English verbs can be both. A dictionary marks them as vt or vi. Some verbs take two objects: She gave him a gift."
+                "A dictionary marks the uses as vt or vi, or as T and I. Some verbs take two objects, an indirect object (a person) and a direct object (a thing): She gave him a gift. Intransitive verbs such as arrive, go and die cannot be made passive, because they have no object to move."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Type</th><th>Example</th></tr></thead><tbody><tr><td>transitive</td><td><strong>He opened the door.</strong></td></tr><tr><td>intransitive</td><td><strong>The door opened.</strong></td></tr><tr><td>two objects</td><td><strong>I gave her a book.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Type</th><th>Example</th></tr></thead><tbody><tr><td><strong>transitive</strong></td><td><strong>He opened the door.</strong></td></tr><tr><td><strong>intransitive</strong></td><td><strong>The door opened.</strong></td></tr><tr><td><strong>two objects</strong></td><td><strong>I gave her a book.</strong></td></tr><tr><td><strong>transitive only</strong></td><td><strong>She likes tea.</strong></td></tr><tr><td><strong>intransitive only</strong></td><td><strong>They arrived.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Same verb, different pattern",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Many verbs, such as open, break, burn, boil and change, can be transitive or intransitive with the same form. In the intransitive use the object of one sentence becomes the subject of the other: He broke the glass. The glass broke."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Verbs often confused",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some pairs differ in this way: rise (intransitive) and raise (transitive), lie (intransitive) and lay (transitive). We say The sun rises and She raises her hand."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **He arrived the station.** Right: **He arrived at the station.**",
+                "Wrong: **The sun raises in the east.** Right: **The sun rises in the east.**",
+                "Wrong: **She likes.** Right: **She likes tea.**"
+              ]
             }
           ]
         }

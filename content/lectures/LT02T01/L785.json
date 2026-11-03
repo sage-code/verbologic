@@ -15,7 +15,7 @@
   "locales": {
     "en": {
       "title": "Exclamatory propositions",
-      "summary": "An exclamatory proposition shows a strong feeling, with what or how.",
+      "summary": "An exclamatory proposition shows a strong feeling, such as surprise, joy or anger.",
       "status": "draft",
       "sections": [
         {
@@ -24,7 +24,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An exclamatory proposition shows a strong feeling such as surprise, joy or anger. In writing it ends with an exclamation mark."
+                "An exclamatory proposition shows a strong feeling. The feeling can be surprise, joy, admiration or anger. In writing it ends with an exclamation mark. In speech the voice is louder and higher than usual."
               ]
             },
             {
@@ -32,7 +32,8 @@
               "items": [
                 "What a beautiful day!",
                 "How fast she runs!",
-                "It's amazing!"
+                "It's amazing!",
+                "Oh, **no**!"
               ]
             }
           ]
@@ -43,12 +44,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Two patterns are common. **What** is followed by a noun phrase, and **how** is followed by an adjective or an adverb. In speech the subject and the verb can be left out."
+                "Two patterns are common. What is followed by a noun phrase, and how is followed by an adjective or an adverb. After these words the subject and verb often come in the normal order, and they can be left out. A short exclamation may be a single word."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td>What a + adjective + noun</td><td><strong>What a nice surprise!</strong></td></tr><tr><td>How + adjective</td><td><strong>How kind you are!</strong></td></tr><tr><td>Short exclamation</td><td><strong>Wonderful!</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Pattern</th><th>Example</th></tr></thead><tbody><tr><td><strong>What a + adjective + noun</strong></td><td><strong>What a nice surprise!</strong></td></tr><tr><td><strong>What + plural noun</strong></td><td><strong>What lovely flowers!</strong></td></tr><tr><td><strong>How + adjective</strong></td><td><strong>How kind you are!</strong></td></tr><tr><td><strong>How + adverb</strong></td><td><strong>How quickly he left!</strong></td></tr><tr><td><strong>single word</strong></td><td><strong>Wonderful!</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Interjections",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Short words such as oh, wow, ouch and hey show feeling on their own. They are written with an exclamation mark or a comma. They are not part of the grammar of the rest of the sentence."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Do not overuse it",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In careful writing one exclamation mark is enough, and many writers avoid it in formal texts. Several marks in a row, as in Great!!!, are only for informal messages."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **What beautiful day!** Right: **What a beautiful day!**",
+                "Wrong: **How a kind man!** Right: **What a kind man!**",
+                "Wrong: **What fast she runs!** Right: **How fast she runs!**"
+              ]
             }
           ]
         }

@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Words that link",
-      "summary": "Prepositions and conjunctions connect words and parts of a sentence.",
+      "summary": "Prepositions link a noun to the rest of the sentence, and conjunctions join words and clauses.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Prepositions link a noun to the rest of the sentence. Conjunctions join words, phrases or clauses."
+                "Prepositions and conjunctions are the linking words of English. A preposition connects a noun or pronoun to another word and often shows place, time or direction. A conjunction joins words, phrases or whole clauses. Neither class changes its form."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "The cat is **on** the table.",
                 "tea **and** coffee",
-                "I stayed **because** it rained."
+                "I stayed **because** it rained.",
+                "He left **after** dinner."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A preposition comes before its noun. A conjunction either joins equal parts (and, but, or) or adds a dependent part (because, when, if)."
+                "A preposition comes before its noun phrase: on the table, with her. A conjunction either joins equal parts, such as and, but and or, or adds a dependent part, such as because, when and if. A word like after can be a preposition (after dinner) or a conjunction (after we ate)."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Class</th><th>Examples</th></tr></thead><tbody><tr><td>preposition</td><td><strong>in, on, at, with, for</strong></td></tr><tr><td>coordinating conjunction</td><td><strong>and, but, or, so</strong></td></tr><tr><td>subordinating conjunction</td><td><strong>because, when, if, that</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Class</th><th>Examples</th></tr></thead><tbody><tr><td><strong>preposition of place</strong></td><td><strong>in, on, at, under</strong></td></tr><tr><td><strong>preposition of time</strong></td><td><strong>at, on, in, during</strong></td></tr><tr><td><strong>coordinating conjunction</strong></td><td><strong>and, but, or, so</strong></td></tr><tr><td><strong>subordinating conjunction</strong></td><td><strong>because, when, if, that</strong></td></tr><tr><td><strong>both classes</strong></td><td><strong>after, before, since</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Preposition or conjunction?",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "If the word is followed by a noun phrase, it is a preposition: before the meeting. If it is followed by a clause with its own verb, it is a conjunction: before the meeting started. Words such as before, after and since work in both ways."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Prepositions at the end",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In questions and in some relative clauses, English often leaves the preposition at the end: Who did you speak to? This is normal in speech. In very formal writing, to whom did you speak? is also correct."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I am agree with you.** Right: **I agree with you.**",
+                "Wrong: **Because it rained.** (alone) Right: **I stayed because it rained.**",
+                "Wrong: **in Monday** Right: **on Monday**"
+              ]
             }
           ]
         }

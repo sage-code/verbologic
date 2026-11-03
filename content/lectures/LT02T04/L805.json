@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "The indefinite article",
-      "summary": "A and an introduce one new or unspecific thing.",
+      "summary": "The indefinite article a or an introduces one thing that is new or not specific.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The indefinite article is **a** or **an**. We use it for one thing that is new or not specific."
+                "The indefinite article is a or an. We use it with a singular countable noun when the thing is new to the listener, or when any one will do. It also says what someone is or does, such as a job. It means one, but it is less strong than the word one."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "I have **a** dog.",
                 "She ate **an** apple.",
-                "He is **an** engineer."
+                "He is **an** engineer.",
+                "I need **a** pen."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Use **a** before a consonant sound and **an** before a vowel sound. The sound matters, not the spelling. There is no plural indefinite article, so use some, or nothing."
+                "Use a before a consonant sound and an before a vowel sound. The sound matters, not the spelling. We say a university, because it begins with /j/, and an hour, because the h is silent. There is no plural indefinite article, so use some, or use nothing at all."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Sound</th><th>Article</th><th>Example</th></tr></thead><tbody><tr><td>consonant</td><td><strong>a</strong></td><td><strong>a car, a university</strong></td></tr><tr><td>vowel</td><td><strong>an</strong></td><td><strong>an egg, an hour</strong></td></tr><tr><td>plural</td><td>some or nothing</td><td><strong>some eggs, eggs</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Sound</th><th>Article</th><th>Example</th></tr></thead><tbody><tr><td><strong>consonant</strong></td><td><strong>a</strong></td><td><strong>a car, a university</strong></td></tr><tr><td><strong>vowel</strong></td><td><strong>an</strong></td><td><strong>an egg, an hour</strong></td></tr><tr><td><strong>initials</strong></td><td><strong>a or an</strong></td><td><strong>an MP, a UFO</strong></td></tr><tr><td><strong>plural</strong></td><td><strong>some or nothing</strong></td><td><strong>some eggs, eggs</strong></td></tr><tr><td><strong>uncountable</strong></td><td><strong>some or nothing</strong></td><td><strong>some water, water</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Naming a job or a type",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We use a or an to say what someone is: She is a doctor, He is an artist. We also use it to describe a person with an adjective: He is a kind man. We do not leave it out, as many languages do."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Meaning every",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A can mean every in a general statement: A dog is a loyal animal. It also means per in expressions of rate: twice a day, fifty miles an hour, two pounds a kilo."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **She is doctor.** Right: **She is a doctor.**",
+                "Wrong: **an university** Right: **a university**",
+                "Wrong: **a hour** Right: **an hour**"
+              ]
             }
           ]
         }

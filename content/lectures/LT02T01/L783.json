@@ -15,7 +15,7 @@
   "locales": {
     "en": {
       "title": "Interrogative propositions",
-      "summary": "An interrogative proposition asks for information, and English forms it with an auxiliary verb.",
+      "summary": "An interrogative proposition asks a question, with or without a question word.",
       "status": "draft",
       "sections": [
         {
@@ -24,7 +24,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An interrogative proposition asks for information. A yes-or-no question expects the answer yes or no. A question with a question word (who, what, where, when, why, how) asks for details. In writing it ends with a question mark."
+                "An interrogative proposition asks for information. A yes-or-no question expects the answer yes or no. A question with a question word asks for details. The question words are who, what, where, when, why, which and how. In writing the sentence ends with a question mark."
               ]
             },
             {
@@ -32,7 +32,8 @@
               "items": [
                 "Do you speak French?",
                 "Where do they live?",
-                "Why is the shop closed?"
+                "Why is the shop closed?",
+                "Who **called** you?"
               ]
             }
           ]
@@ -43,12 +44,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An English question usually puts an auxiliary verb before the subject. If the statement has no auxiliary, use **do**, **does** or **did**. A question word comes first."
+                "An English question usually puts an auxiliary verb before the subject. If the statement has no auxiliary, we add do, does or did. A question word comes first in the sentence. The verb be and the modal verbs move before the subject without do."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Statement</th><th>Question</th></tr></thead><tbody><tr><td><strong>You live here.</strong></td><td><strong>Do you live here?</strong></td></tr><tr><td><strong>She is a nurse.</strong></td><td><strong>Is she a nurse?</strong></td></tr><tr><td><strong>They live in Rome.</strong></td><td><strong>Where do they live?</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Statement</th><th>Question</th></tr></thead><tbody><tr><td><strong>You live here.</strong></td><td><strong>Do you live here?</strong></td></tr><tr><td><strong>She is a nurse.</strong></td><td><strong>Is she a nurse?</strong></td></tr><tr><td><strong>He can drive.</strong></td><td><strong>Can he drive?</strong></td></tr><tr><td><strong>They live in Rome.</strong></td><td><strong>Where do they live?</strong></td></tr><tr><td><strong>She left at six.</strong></td><td><strong>When did she leave?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Intonation",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In a yes-or-no question the voice usually rises at the end. In a question with a question word the voice usually falls. Informal speech can ask a question with a statement and a rising voice: You are leaving?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Question tags",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A short question can follow a statement to ask for agreement: It is cold, isn't it? A positive statement takes a negative tag, and a negative statement takes a positive tag."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **You live where?** Right: **Where do you live?**",
+                "Wrong: **Do she like tea?** Right: **Does she like tea?**",
+                "Wrong: **Where she lives?** Right: **Where does she live?**"
+              ]
             }
           ]
         }

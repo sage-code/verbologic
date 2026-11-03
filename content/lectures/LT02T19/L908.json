@@ -87,6 +87,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Propoziții de timp",
+      "summary": "Propozițiile de timp arată momentul în care se petrece o acțiune și încep cu diverse conjuncții.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "O propoziție de timp arată când se întâmplă o acțiune. Ea depinde de o altă propoziție din frază. Pentru a le lega, folosim cuvinte speciale numite conjuncții de timp."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Când am ajuns acasă**, am pregătit cina.",
+                "Ea m-a sunat **în timp ce găteam**.",
+                "Așteaptă aici **până mă întorc**!"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Conjuncția de timp stă de obicei la începutul propoziției de timp. Pentru viitor, în propoziția de timp folosim adesea timpul prezent. Propoziția de timp poate sta înainte sau după propoziția principală."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Conjuncție</th><th>Sens</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>când</strong></td><td><strong>arată momentul acțiunii</strong></td><td><strong>Te sun **când** ajung.</strong></td></tr><tr><td><strong>în timp ce</strong></td><td><strong>arată acțiuni simultane</strong></td><td><strong>Citesc **în timp ce** mănânc.</strong></td></tr><tr><td><strong>înainte să</strong></td><td><strong>arată o acțiune ulterioară</strong></td><td><strong>Spală-te pe mâini **înainte să** mănânci.</strong></td></tr><tr><td><strong>după ce</strong></td><td><strong>arată o acțiune anterioară</strong></td><td><strong>Plecăm **după ce** terminăm munca.</strong></td></tr><tr><td><strong>până când</strong></td><td><strong>arată o limită de timp</strong></td><td><strong>Rămâi aici **până când** vine el.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

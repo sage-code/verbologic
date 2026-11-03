@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Adjectives made from other words",
-      "summary": "Many adjectives are built from nouns and verbs with an ending.",
+      "summary": "Many adjectives are built from nouns and verbs by adding an ending.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Many adjectives are made from nouns or verbs by adding an ending."
+                "English makes many adjectives from other words by adding a suffix. The suffix often shows the meaning. For example -less means without, and -ful means full of. Knowing the endings helps you guess the meaning of new words."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**rain** → **rainy**",
                 "**care** → **careful**",
-                "**read** → **readable**"
+                "**read** → **readable**",
+                "**child** → **childish**"
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Common endings are -y, -ful, -less, -able, -ous and -ish. The -ing and -ed forms of verbs also work as adjectives, as in a boring film and a broken window."
+                "The common endings are -y, -ful, -less, -able, -ous, -al, -ish and -ic. The -ing and -ed forms of verbs also work as adjectives. The -ing form describes the thing that causes a feeling. The -ed form describes the person who has the feeling."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Ending</th><th>Example</th></tr></thead><tbody><tr><td>-y</td><td><strong>sunny</strong></td></tr><tr><td>-ful, -less</td><td><strong>helpful, helpless</strong></td></tr><tr><td>-able</td><td><strong>comfortable</strong></td></tr><tr><td>-ing, -ed</td><td><strong>boring, bored</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Ending</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>-y</strong></td><td><strong>having</strong></td><td><strong>sunny, rainy</strong></td></tr><tr><td><strong>-ful</strong></td><td><strong>full of</strong></td><td><strong>helpful, careful</strong></td></tr><tr><td><strong>-less</strong></td><td><strong>without</strong></td><td><strong>helpless, careless</strong></td></tr><tr><td><strong>-able</strong></td><td><strong>can be done</strong></td><td><strong>readable, comfortable</strong></td></tr><tr><td><strong>-ing / -ed</strong></td><td><strong>causes / feels</strong></td><td><strong>boring / bored</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Spelling changes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A final e is dropped before -able and -ous: love becomes lovable, fame becomes famous. A final y changes to i before -ful: beauty becomes beautiful. A single consonant is doubled in fun, funny and sun, sunny."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "-ing or -ed?",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A film is boring, but the people watching it are bored. A job is tiring, but you are tired. Choose -ing for the cause and -ed for the person who feels it."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I am very boring today.** Right: **I am very bored today.**",
+                "Wrong: **a carefull driver** Right: **a careful driver**",
+                "Wrong: **a helpfull friend** Right: **a helpful friend**"
+              ]
             }
           ]
         }

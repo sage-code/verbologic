@@ -77,6 +77,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Rolul cazurilor",
+      "summary": "Cazurile arată rolul unui cuvânt în propoziție prin schimbarea formei sau a articolului său.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Cazul arată ce rol are un cuvânt în propoziție. Un substantiv poate fi subiectul acțiunii, un obiect sau un posesor. În limba română există cinci cazuri diferite. Forma cuvântului se schimbă după rolul pe care îl are."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Băiatul** merge la școală.",
+                "Aceasta este mingea **băiatului**.",
+                "Îi dau un măr **băiatului**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Limba română exprimă cazul prin terminații și prin articole. Articolul hotărât se adaugă direct la sfârșitul cuvântului. Articolul nehotărât stă separat, în fața substantivului. Nominativul și acuzativul au adesea aceeași formă, la fel și genitivul și dativul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Caz</th><th>Rol principal</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Nominativ</strong></td><td><strong>Cine face acțiunea</strong></td><td><strong>studentul învață</strong></td></tr><tr><td><strong>Acuzativ</strong></td><td><strong>Pe cine sau ce vedem</strong></td><td><strong>îl văd pe student</strong></td></tr><tr><td><strong>Genitiv</strong></td><td><strong>Al cui este un obiect</strong></td><td><strong>cartea studentului</strong></td></tr><tr><td><strong>Dativ</strong></td><td><strong>Cui dăm ceva</strong></td><td><strong>îi scriu studentului</strong></td></tr><tr><td><strong>Vocativ</strong></td><td><strong>O strigare directă</strong></td><td><strong>studente!</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

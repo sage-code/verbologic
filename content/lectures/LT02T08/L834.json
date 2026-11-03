@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Telling the time",
-      "summary": "We tell the time with the numbers of the clock and a few small words.",
+      "summary": "We tell the time with numbers and the small words past, to, half, quarter and o'clock.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "We tell the time with the numbers on the clock and a few small words: past, to, half, quarter and o'clock."
+                "We tell the time with the numbers on the clock and a few small words: past, to, half, quarter and o'clock. The question is What time is it? or What's the time? We answer with It is, followed by the time. In everyday speech we often round to the nearest five minutes."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "It is **seven o'clock**.",
                 "It is **half past eight**.",
-                "It is **a quarter to ten**."
+                "It is **a quarter to ten**.",
+                "It is **ten past two**."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "For the minutes up to thirty use past, and after thirty use to. Americans often say after instead of past. In writing, a.m. and p.m. are used instead of the 24-hour clock."
+                "For the minutes up to thirty use past, and after thirty use to. The hour comes last: ten past two, twenty to five. At fifteen minutes we say a quarter, and at thirty we say half past. Americans often say after instead of past. In timetables and in writing, a.m. and p.m. or the 24-hour clock may be used."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Time</th><th>Say</th></tr></thead><tbody><tr><td><strong>7:00</strong></td><td>seven o'clock</td></tr><tr><td><strong>7:15</strong></td><td>a quarter past seven</td></tr><tr><td><strong>7:30</strong></td><td>half past seven</td></tr><tr><td><strong>7:45</strong></td><td>a quarter to eight</td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Time</th><th>Say</th></tr></thead><tbody><tr><td><strong>7:00</strong></td><td><strong>seven o&#x27;clock</strong></td></tr><tr><td><strong>7:15</strong></td><td><strong>a quarter past seven</strong></td></tr><tr><td><strong>7:30</strong></td><td><strong>half past seven</strong></td></tr><tr><td><strong>7:45</strong></td><td><strong>a quarter to eight</strong></td></tr><tr><td><strong>7:55</strong></td><td><strong>five to eight</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Digital style",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We can also say the numbers directly: seven fifteen, seven forty-five. This is common for digital clocks, timetables and announcements. For minutes below ten we say oh: seven oh five."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "At what time?",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "To give the time of an event, use at: The film starts at nine. To say about, use around: around noon. Noon means twelve o'clock in the day and midnight means twelve at night."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **It is half to eight.** Right: **It is half past seven.**",
+                "Wrong: **It is seven hours.** Right: **It is seven o'clock.**",
+                "Wrong: **in nine o'clock** Right: **at nine o'clock**"
+              ]
             }
           ]
         }

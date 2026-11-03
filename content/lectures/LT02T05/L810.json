@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "What adjectives do",
-      "summary": "An adjective describes a noun.",
+      "summary": "An adjective describes a noun: its kind, size, colour, age or number.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An adjective describes a noun. It tells us what kind, what size, what colour or how many."
+                "An adjective gives more information about a noun. It tells us what kind, what size, what colour, how old or how many. Adjectives make a sentence more exact. Compare 'a tree' with 'a tall old tree'."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "a **tall** tree",
                 "a **cold** drink",
-                "an **interesting** book"
+                "an **interesting** book",
+                "The soup is **hot**."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An English adjective can come before a noun, or after a linking verb such as be or seem. It has only one form."
+                "An English adjective has one form only. It does not change for singular or plural, or for male and female. It can stand before a noun, or after a linking verb such as be, seem, look, feel and become."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Position</th><th>Example</th></tr></thead><tbody><tr><td>before the noun</td><td><strong>a tall tree</strong></td></tr><tr><td>after be</td><td><strong>The tree is tall.</strong></td></tr><tr><td>after seem</td><td><strong>It seems easy.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Position</th><th>Example</th></tr></thead><tbody><tr><td><strong>before the noun</strong></td><td><strong>a tall tree</strong></td></tr><tr><td><strong>after be</strong></td><td><strong>The tree is tall.</strong></td></tr><tr><td><strong>after seem</strong></td><td><strong>It seems easy.</strong></td></tr><tr><td><strong>after look</strong></td><td><strong>She looks tired.</strong></td></tr><tr><td><strong>after feel</strong></td><td><strong>I feel happy.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Adjectives are not nouns",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "An adjective cannot take a plural -s. We say two red cars, not two reds cars. A noun used as a modifier also stays singular: a ten-minute walk, not a ten-minutes walk."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "More than one adjective",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We can use two or three adjectives before a noun. Then there is a usual order: opinion, size, age, colour, origin, material. We say a lovely old wooden table."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **two reds cars** Right: **two red cars**",
+                "Wrong: **a ten-minutes walk** Right: **a ten-minute walk**",
+                "Wrong: **I am boring.** (when you mean you feel bored) Right: **I am bored.**"
+              ]
             }
           ]
         }

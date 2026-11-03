@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "The infinitive",
-      "summary": "The infinitive is the base form of the verb.",
+      "summary": "The infinitive is the base form of the verb, usually preceded by to.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The infinitive is the base form of the verb. In English it is usually preceded by to."
+                "The infinitive is the base form of the verb, the form that a dictionary gives. It names the action without showing person, number or tense. In English it is usually preceded by to, but after some verbs it appears without to. The infinitive is used after many verbs and adjectives, and to show purpose."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "I want **to go**.",
                 "She can **swim**.",
-                "It is easy **to learn**."
+                "It is easy **to learn**.",
+                "I came **to help**."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The infinitive with to follows many verbs and adjectives. After modal verbs, and after let, make and help, it appears without to. In a dictionary the infinitive is the headword."
+                "The infinitive with to follows many verbs and adjectives, such as want, hope, decide, easy and ready. After modal verbs, and after let, make and help, it appears without to. To make it negative, put not before to. Never put a word between to and the verb in careful writing, though speakers sometimes do."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>with to</td><td><strong>I hope to see you.</strong></td></tr><tr><td>without to</td><td><strong>She can sing.</strong></td></tr><tr><td>negative</td><td><strong>Try not to be late.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>with to</strong></td><td><strong>I hope to see you.</strong></td></tr><tr><td><strong>without to (modal)</strong></td><td><strong>She can sing.</strong></td></tr><tr><td><strong>without to (let, make)</strong></td><td><strong>He made me laugh.</strong></td></tr><tr><td><strong>negative</strong></td><td><strong>Try not to be late.</strong></td></tr><tr><td><strong>purpose</strong></td><td><strong>I went out to buy bread.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Infinitive of purpose",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "To explain why we do something, we use to plus the base form: She studies to become a doctor. For emphasis we can say in order to: He left early in order to catch the train. We do not use for with a verb in this meaning."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The bare infinitive",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The infinitive without to is called the bare infinitive. It follows can, could, may, might, must, shall, should, will and would. It also follows the verbs of perception see and hear in some patterns: I saw him leave."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **She can to swim.** Right: **She can swim.**",
+                "Wrong: **I went there for buy bread.** Right: **I went there to buy bread.**",
+                "Wrong: **He made me to laugh.** Right: **He made me laugh.**"
+              ]
             }
           ]
         }

@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Titles and forms of address",
-      "summary": "Titles and names are the main way to address someone politely.",
+      "summary": "Titles and names are the main forms of address in English.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Forms of address are the words we use to speak to a person: names, titles and family words."
+                "Forms of address are the words we use to speak to a person: names, titles and family words. The choice shows how well we know the person, how old they are and how formal the situation is. English is generally less formal than many other languages."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**Mr Brown**, **Ms Clark**",
                 "**Dr Smith**",
-                "**Mum**, **Grandpa**"
+                "**Mum**, **Grandpa**",
+                "**Excuse me, sir.**"
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Use Mr, Ms, Mrs, Miss or Dr with a surname. Among friends, and in most workplaces, people use first names. Sir and madam are used in service situations. Ms does not show whether a woman is married."
+                "Use Mr, Ms, Mrs, Miss or Dr with a surname. Among friends, and in most workplaces, people use first names. Sir and madam are used in service situations. Ms does not show whether a woman is married, so it is the safest choice. A title is never used alone with a first name, so we do not say Mr John."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Use</th></tr></thead><tbody><tr><td><strong>Mr, Ms + surname</strong></td><td>polite, at a first meeting</td></tr><tr><td><strong>first name</strong></td><td>friends, many workplaces</td></tr><tr><td><strong>sir, madam</strong></td><td>shops, hotels, service</td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Form</th><th>Use</th></tr></thead><tbody><tr><td><strong>Mr, Ms + surname</strong></td><td><strong>polite, at a first meeting</strong></td></tr><tr><td><strong>Dr, Professor + surname</strong></td><td><strong>doctors, teachers</strong></td></tr><tr><td><strong>first name</strong></td><td><strong>friends, many workplaces</strong></td></tr><tr><td><strong>sir, madam</strong></td><td><strong>shops, hotels, service</strong></td></tr><tr><td><strong>Mum, Dad, Grandpa</strong></td><td><strong>family members</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Moving to first names",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The older or higher-ranking person often invites the change: Please call me Anna. Do not change to first names before this unless the other person does. In many offices it happens at the first meeting."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Letters and emails",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A formal letter begins Dear Mr Brown or Dear Sir or Madam. A friendly email can begin Hi Anna. We end formally with Yours sincerely or Yours faithfully, and informally with Best wishes or Cheers."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Mr John, please come in.** Right: **Mr Brown, please come in.**",
+                "Wrong: **Hey, you!** (to a customer) Right: **Excuse me, sir.**",
+                "Wrong: **Mrs Clark** (to an unknown woman) Right: **Ms Clark**"
+              ]
             }
           ]
         }

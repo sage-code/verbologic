@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Cardinal numbers",
-      "summary": "Cardinal numbers tell how many.",
+      "summary": "Cardinal numbers tell how many: one, two, three.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Cardinal numbers tell how many: one, two, three."
+                "Cardinal numbers are the numbers we use to count and to say how many. They come before the noun, and after them a countable noun is plural, except after one. They are also used for telephone numbers, ages and prices."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**one** cat",
                 "**twelve** students",
-                "**one hundred** pages"
+                "**one hundred** pages",
+                "She is **thirty** years old."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The numbers from 13 to 19 end in -teen, and the tens end in -ty. Compound numbers from 21 to 99 take a hyphen. Hundred, thousand and million do not take -s after a number."
+                "The numbers from 13 to 19 end in -teen, and the tens end in -ty. Compound numbers from 21 to 99 take a hyphen: twenty-one. Hundred, thousand and million do not take -s after a number. We say two hundred, not two hundreds. In British English and is used after hundred: two hundred and five."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Number</th><th>Written</th></tr></thead><tbody><tr><td><strong>13</strong></td><td>thirteen</td></tr><tr><td><strong>40</strong></td><td>forty</td></tr><tr><td><strong>21</strong></td><td>twenty-one</td></tr><tr><td><strong>2,500</strong></td><td>two thousand five hundred</td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Number</th><th>Written</th></tr></thead><tbody><tr><td><strong>13</strong></td><td><strong>thirteen</strong></td></tr><tr><td><strong>40</strong></td><td><strong>forty</strong></td></tr><tr><td><strong>21</strong></td><td><strong>twenty-one</strong></td></tr><tr><td><strong>105</strong></td><td><strong>one hundred and five</strong></td></tr><tr><td><strong>2,500</strong></td><td><strong>two thousand five hundred</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Teen or ty?",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Thirteen and thirty sound alike to learners. In -teen the stress falls on the end: thir-TEEN. In -ty the stress falls on the start: THIR-ty. Spell carefully, because fifteen and fifty, fourteen and forty are different."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Large numbers",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Large numbers are written with a comma every three digits: 1,000,000. We say one million. Dozens, hundreds and thousands can be plural when they are used as nouns: hundreds of people, thousands of stars."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **two hundreds people** Right: **two hundred people**",
+                "Wrong: **fourty** Right: **forty**",
+                "Wrong: **twenty one** (in writing) Right: **twenty-one**"
+              ]
             }
           ]
         }

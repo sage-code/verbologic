@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Demonstratives: this and that",
-      "summary": "This and these point to what is near, that and those to what is far.",
+      "summary": "This and these point to what is near; that and those point to what is far.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Demonstratives point to things. **This** and **these** point to what is near, and **that** and **those** point to what is far."
+                "Demonstratives point to things. This and these point to what is near the speaker, and that and those point to what is far. Near and far can mean place, but they can also mean time or feeling. This morning means today, but that morning means a day in the past."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**This** is my seat.",
                 "**That** house is old.",
-                "**Those** apples look good."
+                "**Those** apples look good.",
+                "I like **these** shoes."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "English demonstratives change for number only: this and these, that and those. They can stand before a noun or on their own."
+                "English demonstratives change for number only: this and these, that and those. They have no gender and no case. They can stand before a noun or on their own as pronouns. When they stand before a noun, we use no other determiner: this book, not the this book."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th></th><th>Near</th><th>Far</th></tr></thead><tbody><tr><td>singular</td><td><strong>this</strong></td><td><strong>that</strong></td></tr><tr><td>plural</td><td><strong>these</strong></td><td><strong>those</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Form</th><th>Near</th><th>Far</th></tr></thead><tbody><tr><td><strong>singular</strong></td><td><strong>this</strong></td><td><strong>that</strong></td></tr><tr><td><strong>plural</strong></td><td><strong>these</strong></td><td><strong>those</strong></td></tr><tr><td><strong>place (adverb)</strong></td><td><strong>here</strong></td><td><strong>there</strong></td></tr><tr><td><strong>before a noun</strong></td><td><strong>this house</strong></td><td><strong>that house</strong></td></tr><tr><td><strong>alone</strong></td><td><strong>I like this.</strong></td><td><strong>I like that.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "On the telephone and in introductions",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We use this to introduce people and to say who is calling: This is my friend Ana. Hello, this is Tom. We use that to ask who is calling: Who is that?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Showing feeling",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "That can show distance in feeling as well as place: I don't like that man. This can add interest in a story: So this man comes in and sits down."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **this books** Right: **these books**",
+                "Wrong: **those house** Right: **that house**",
+                "Wrong: **the this book** Right: **this book**"
+              ]
             }
           ]
         }

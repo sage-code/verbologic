@@ -97,6 +97,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Sufixele",
+      "summary": "Sufixul este un grup de litere adăugat la sfârșitul unui cuvânt pentru a forma cuvinte noi.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Un sufix este un grup de litere adăugat la sfârșitul unui cuvânt. El creează un cuvânt nou, cu un sens diferit. De multe ori, sufixul schimbă și partea de vorbire. Astfel, dintr-un substantiv putem obține un adjectiv sau un verb."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "El este un **grădinar** priceput.",
+                "Câinele vecinului este foarte **prietenos**.",
+                "Toți oamenii admiră această **bunătate**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adăugăm sufixul după rădăcina cuvântului de bază. Uneori, sunetul final se modifică puțin pentru o pronunțare mai ușoară. Folosim sufixe specifice pentru a forma diminutive, nume de meserii, calități sau verbe. Sufixul oferă mereu o nuanță nouă sensului inițial."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Sufix</th><th>Cuvânt de bază</th><th>Cuvânt nou</th></tr></thead><tbody><tr><td><strong>-ar</strong></td><td><strong>cizmă</strong></td><td><strong>cizmar</strong></td></tr><tr><td><strong>-os</strong></td><td><strong>curaj</strong></td><td><strong>curajos</strong></td></tr><tr><td><strong>-iță</strong></td><td><strong>fată</strong></td><td><strong>fetiță</strong></td></tr><tr><td><strong>-ime</strong></td><td><strong>tânăr</strong></td><td><strong>tinerime</strong></td></tr><tr><td><strong>-iza</strong></td><td><strong>modern</strong></td><td><strong>a moderniza</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

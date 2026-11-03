@@ -81,6 +81,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Propoziții de cauză și scop",
+      "summary": "Propoziția de cauză arată motivul unei acțiuni, iar propoziția de scop arată ținta sau obiectivul dorit.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Propoziția de cauză răspunde la întrebarea „de ce?”. Ea explică motivul unei acțiuni. Propoziția de scop răspunde la întrebarea „cu ce scop?”. Ea arată obiectivul urmărit."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Stau acasă **pentru că plouă**.",
+                "Învăț mult **ca să iau examenul**.",
+                "Merg la piață **pentru a cumpăra fructe**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru cauză folosim conjuncții precum „pentru că” sau „fiindcă” cu modul indicativ. Pentru scop folosim cel mai des conjuncția „ca să” urmată de conjunctiv. Putem folosi, de asemenea, structura „pentru a” urmată de infinitiv. Nu folosim niciodată prepoziția „pentru” direct cu un verb la indicativ."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tip de propoziție</th><th>Cuvinte de legătură</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Cauză (obișnuit)</strong></td><td><strong>pentru că, fiindcă</strong></td><td><strong>Nu vin **pentru că sunt obosit**.</strong></td></tr><tr><td><strong>Cauză (formal)</strong></td><td><strong>deoarece</strong></td><td><strong>A întârziat **deoarece a fost aglomerație**.</strong></td></tr><tr><td><strong>Scop (frecvent)</strong></td><td><strong>ca să (+ conjunctiv)</strong></td><td><strong>Alerg **ca să prind autobuzul**.</strong></td></tr><tr><td><strong>Scop negativ</strong></td><td><strong>ca să nu (+ conjunctiv)</strong></td><td><strong>Vorbește încet **ca să nu trezească bebelușul**.</strong></td></tr><tr><td><strong>Scop (cu infinitiv)</strong></td><td><strong>pentru a (+ infinitiv)</strong></td><td><strong>Citește zilnic **pentru a învăța repede**.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

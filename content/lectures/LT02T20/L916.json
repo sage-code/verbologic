@@ -82,6 +82,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Acordul dintre subiect și predicat",
+      "summary": "În limba română, predicatul se acordă în număr și persoană cu subiectul.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Subiectul este persoana sau lucrul care face acțiunea. Predicatul este acțiunea exprimată printr-un verb. Verbul își schimbă forma după subiect. Dacă subiectul este la plural, verbul stă tot la plural."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Băiatul **citește** o carte.",
+                "Băieții **citesc** o carte.",
+                "Noi **suntem** aici."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Fiecare persoană are propria terminație la verb. Verbul se acordă cu subiectul, nu cu alte cuvinte apropiate. Pronumele personal lipsește adesea, pentru că forma verbului arată persoana."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Subiect</th><th>Număr</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Profesorul (el)</strong></td><td><strong>Singular</strong></td><td><strong>Profesorul **vorbește** rar.</strong></td></tr><tr><td><strong>Profesorii (ei)</strong></td><td><strong>Plural</strong></td><td><strong>Profesorii **vorbesc** rar.</strong></td></tr><tr><td><strong>Cutia cu flori (ea)</strong></td><td><strong>Singular</strong></td><td><strong>Cutia cu flori **este** pe masă.</strong></td></tr><tr><td><strong>Cutiile cu flori (ele)</strong></td><td><strong>Plural</strong></td><td><strong>Cutiile cu flori **sunt** pe masă.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

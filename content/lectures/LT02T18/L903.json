@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Short answers and question tags",
-      "summary": "A short answer repeats the auxiliary; a question tag asks for agreement.",
+      "summary": "A short answer repeats the auxiliary, and a question tag asks for agreement.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A short answer repeats the auxiliary. A question tag is a short question added to a statement to ask for agreement."
+                "A short answer repeats the auxiliary. A question tag is a short question added to a statement to ask for agreement or to check a fact. Both are very common in speech, and both depend on the auxiliary of the first sentence."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "Are you ready? **Yes, I am.**",
                 "You live here, **don't you?**",
-                "She isn't coming, **is she?**"
+                "She isn't coming, **is she?**",
+                "It is cold, **isn't it?**"
               ]
             }
           ]
@@ -44,12 +45,88 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A tag has the same auxiliary as the statement but the opposite meaning: a positive statement has a negative tag, and a negative statement has a positive tag."
+                "A tag has the same auxiliary as the statement but the opposite meaning: a positive statement has a negative tag, and a negative statement has a positive tag. If the statement has no auxiliary, the tag uses do, does or did. The tag has the subject as a pronoun."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Statement</th><th>Tag</th></tr></thead><tbody><tr><td><strong>It is cold,</strong></td><td><strong>isn't it?</strong></td></tr><tr><td><strong>You can swim,</strong></td><td><strong>can't you?</strong></td></tr><tr><td><strong>They didn't come,</strong></td><td><strong>did they?</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Statement</th><th>Tag</th></tr></thead><tbody><tr><td><strong>It is cold,</strong></td><td><strong>isn&#x27;t it?</strong></td></tr><tr><td><strong>You can swim,</strong></td><td><strong>can&#x27;t you?</strong></td></tr><tr><td><strong>They didn&#x27;t come,</strong></td><td><strong>did they?</strong></td></tr><tr><td><strong>She likes tea,</strong></td><td><strong>doesn&#x27;t she?</strong></td></tr><tr><td><strong>I am late,</strong></td><td><strong>aren&#x27;t I?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Intonation of tags",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "If the voice rises on the tag, the speaker really asks. If the voice falls, the speaker expects agreement and only checks. It's a nice day, isn't it? with a falling voice is a polite remark."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Special cases",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "After I am the tag is aren't I? After an imperative the tag is will you? or won't you?: Open the door, will you? After let's the tag is shall we?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **You like tea, don't it?** Right: **You like tea, don't you?**",
+                "Wrong: **She is here, is she?** (when you expect it) Right: **She is here, isn't she?**",
+                "Wrong: **Are you ready? Yes, I ready.** Right: **Yes, I am.**"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Răspunsuri scurte și întrebări de confirmare",
+      "summary": "În limba română folosim expresii scurte precum „nu-i așa?” și repetăm verbul pentru a confirma o afirmație.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Limba română nu are întrebări de confirmare formate cu verbe auxiliare. Folosim la final expresii simple precum „nu-i așa?” sau „nu?”. Pentru un răspuns scurt, spunem „da”, „nu” ori repetăm verbul."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Tu vii mâine la curs, **nu-i așa?**",
+                "Maria este acasă, **nu?**",
+                "Vrei un ceai? **Da, vreau.**"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Adăugați formula de confirmare la final, după o virgulă. Aceste expresii scurte au aceeași formă pentru orice persoană. Pentru răspunsul scurt, puteți repeta simplu verbul din întrebare."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Afirmație</th><th>Întrebare de confirmare</th><th>Răspuns scurt</th></tr></thead><tbody><tr><td><strong>Ești gata,</strong></td><td><strong>nu-i așa?</strong></td><td><strong>Da, sunt gata.</strong></td></tr><tr><td><strong>Vii cu noi,</strong></td><td><strong>nu?</strong></td><td><strong>Da, vin.</strong></td></tr><tr><td><strong>Ai mâncat,</strong></td><td><strong>așa-i?</strong></td><td><strong>Da, am mâncat.</strong></td></tr><tr><td><strong>Nu pleci încă,</strong></td><td><strong>nu-i așa?</strong></td><td><strong>Nu, nu plec.</strong></td></tr></tbody></table>"
             }
           ]
         }

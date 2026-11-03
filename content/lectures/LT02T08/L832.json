@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Ordinal numbers",
-      "summary": "Ordinal numbers tell the order or position.",
+      "summary": "Ordinal numbers tell the order or position: first, second, third.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Ordinal numbers tell the order or position: first, second, third."
+                "Ordinal numbers show the order or position of something in a series. They answer the question which one? We use them for floors, dates, competitions, and centuries. An ordinal almost always follows the or a possessive such as her."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "the **first** day",
                 "her **second** book",
-                "the **twentieth** century"
+                "the **twentieth** century",
+                "He finished **third**."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Most ordinals add -th to the cardinal number. Learn the first three: first, second and third. Five becomes fifth, eight becomes eighth, nine becomes ninth and twelve becomes twelfth."
+                "Most ordinals add -th to the cardinal number: four, fourth; six, sixth. Learn the first three: first, second and third. Five becomes fifth, eight becomes eighth, nine becomes ninth and twelve becomes twelfth. Numbers ending in y change to ie: twenty, twentieth. In compound numbers only the last word changes."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Cardinal</th><th>Ordinal</th><th>Short</th></tr></thead><tbody><tr><td><strong>one</strong></td><td><strong>first</strong></td><td>1st</td></tr><tr><td><strong>two</strong></td><td><strong>second</strong></td><td>2nd</td></tr><tr><td><strong>three</strong></td><td><strong>third</strong></td><td>3rd</td></tr><tr><td><strong>four</strong></td><td><strong>fourth</strong></td><td>4th</td></tr><tr><td><strong>twenty</strong></td><td><strong>twentieth</strong></td><td>20th</td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Cardinal</th><th>Ordinal</th><th>Short</th></tr></thead><tbody><tr><td><strong>one</strong></td><td><strong>first</strong></td><td><strong>1st</strong></td></tr><tr><td><strong>two</strong></td><td><strong>second</strong></td><td><strong>2nd</strong></td></tr><tr><td><strong>three</strong></td><td><strong>third</strong></td><td><strong>3rd</strong></td></tr><tr><td><strong>five</strong></td><td><strong>fifth</strong></td><td><strong>5th</strong></td></tr><tr><td><strong>twenty-one</strong></td><td><strong>twenty-first</strong></td><td><strong>21st</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Ordinal in a sentence",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Ordinals work like adjectives: the third floor. They can also be adverbs: She came second. Use the with an ordinal in a noun phrase, but not after the verb: She came second, not She came the second."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Short forms",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The written short forms keep the last two letters of the word: 1st, 2nd, 3rd, 4th, 11th, 12th, 13th, 21st. Note that 11th, 12th and 13th end in -th, not in -st, -nd or -rd."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **the fiveth day** Right: **the fifth day**",
+                "Wrong: **the twentyth century** Right: **the twentieth century**",
+                "Wrong: **the 11st floor** Right: **the 11th floor**"
+              ]
             }
           ]
         }

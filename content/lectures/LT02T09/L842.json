@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Verb classes and conjugations",
-      "summary": "English verbs are not sorted into conjugations; they differ in how they form the past.",
+      "summary": "English verbs have no conjugation classes, but they can be grouped by how they form the past.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "In some languages verbs fall into groups called conjugations, each with its own endings. English has no conjugations in this sense."
+                "In some languages verbs fall into groups called conjugations, each with its own endings. Spanish, French and Romanian all have such classes. English has no conjugations in this sense, because almost all verbs use the same endings. The only real division is between regular and irregular verbs."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**love, loves, loved**",
                 "**walk, walks, walked**",
-                "**study, studies, studied**"
+                "**study, studies, studied**",
+                "**sing, sang, sung**"
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "English verbs can be grouped by how they form the past: regular verbs with -ed, and irregular verbs that change a vowel or stay the same. Spelling rules add small changes, such as y becoming ie before -s."
+                "English verbs can be grouped by how they form the past: regular verbs with -ed, and irregular verbs that change a vowel or stay the same. Spelling rules add small changes, such as y becoming ie before -s. The endings themselves never depend on the verb."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Group</th><th>Example</th></tr></thead><tbody><tr><td>regular -ed</td><td><strong>play, played</strong></td></tr><tr><td>vowel change</td><td><strong>sing, sang, sung</strong></td></tr><tr><td>no change</td><td><strong>put, put, put</strong></td></tr><tr><td>spelling change</td><td><strong>carry, carried</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Group</th><th>Example</th></tr></thead><tbody><tr><td><strong>regular -ed</strong></td><td><strong>play, played</strong></td></tr><tr><td><strong>vowel change</strong></td><td><strong>sing, sang, sung</strong></td></tr><tr><td><strong>no change</strong></td><td><strong>put, put, put</strong></td></tr><tr><td><strong>different word</strong></td><td><strong>go, went, gone</strong></td></tr><tr><td><strong>spelling change</strong></td><td><strong>carry, carried</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "For learners with conjugations",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "If your language has verb classes, English will feel simple. There are only four forms of most verbs: walk, walks, walked, walking. The difficulty is not the endings but the helping verbs and the tenses that need them."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Phrasal verbs",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "English also builds meaning by adding a small word to a verb: look up, give in, turn off. These phrasal verbs act as one unit and have to be learned together with their meaning."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **studys** Right: **studies**",
+                "Wrong: **I playd tennis.** Right: **I played tennis.**",
+                "Wrong: **She carryed it.** Right: **She carried it.**"
+              ]
             }
           ]
         }

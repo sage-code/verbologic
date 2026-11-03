@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Person and number",
-      "summary": "Person and number show who does the action and how many.",
+      "summary": "Person says who is speaking, spoken to or spoken about; number says one or more than one.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Person tells who is speaking, who is spoken to and who is spoken about. Number tells whether it is one or more than one."
+                "Person tells us who is speaking (first person), who is spoken to (second person) and who or what is spoken about (third person). Number tells us whether it is one (singular) or more than one (plural). A verb must agree with its subject in person and number."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**I** walk.",
                 "**He** walks.",
-                "**They** walk."
+                "**They** walk.",
+                "**We** are happy."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "English verbs change only in the third person singular of the present: I walk, but she walks. The verb be has more forms: am, is, are, was and were."
+                "English verbs change only in the third person singular of the present: I walk, but she walks. All other persons use the base form. The verb be has more forms: am, is, are in the present, and was and were in the past. Modal verbs never change."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Person</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td>first</td><td><strong>I walk</strong></td><td><strong>we walk</strong></td></tr><tr><td>second</td><td><strong>you walk</strong></td><td><strong>you walk</strong></td></tr><tr><td>third</td><td><strong>she walks</strong></td><td><strong>they walk</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Person</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>first</strong></td><td><strong>I walk</strong></td><td><strong>we walk</strong></td></tr><tr><td><strong>second</strong></td><td><strong>you walk</strong></td><td><strong>you walk</strong></td></tr><tr><td><strong>third</strong></td><td><strong>she walks</strong></td><td><strong>they walk</strong></td></tr><tr><td><strong>be, first</strong></td><td><strong>I am</strong></td><td><strong>we are</strong></td></tr><tr><td><strong>be, third</strong></td><td><strong>it is</strong></td><td><strong>they are</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Agreement with nouns",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A noun subject is third person. The verb takes -s when the noun is singular: The dog barks. It does not when the noun is plural: The dogs bark. A subject with and is plural: Tom and Anna work here."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tricky cases",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Everyone, someone, nobody and each take a singular verb: Everyone is here. News and physics are singular too. The pronoun I takes am with be, and was, not were, in the past."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **He walk.** Right: **He walks.**",
+                "Wrong: **Everyone are here.** Right: **Everyone is here.**",
+                "Wrong: **I is a student.** Right: **I am a student.**"
+              ]
             }
           ]
         }

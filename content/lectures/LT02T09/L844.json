@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Auxiliary and main verbs",
-      "summary": "An auxiliary verb helps the main verb to form tenses, questions and negatives.",
+      "summary": "A main verb carries the meaning; an auxiliary verb helps it to form a tense, a question or a negative.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A main verb carries the meaning. An auxiliary verb helps the main verb to form a tense, a question or a negative."
+                "A main verb carries the meaning of the clause. An auxiliary verb helps the main verb to form a tense, a question or a negative. A verb phrase can have one main verb and one or more auxiliaries. The auxiliary comes first and the main verb follows."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "She **is** reading.",
                 "We **have** finished.",
-                "**Do** you know?"
+                "**Do** you know?",
+                "He **will** not come."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The auxiliary verbs are be, have and do. The modal verbs, such as can, must and will, are auxiliaries too. The auxiliary comes first and the main verb follows."
+                "The auxiliary verbs are be, have and do. The modal verbs, such as can, must and will, are auxiliaries too, but they add meaning of their own. Be, have and do can also be main verbs: She has a car. The auxiliary also carries the negative: not goes after it."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Auxiliary</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td><strong>be</strong></td><td>continuous, passive</td><td><strong>He is working.</strong></td></tr><tr><td><strong>have</strong></td><td>perfect</td><td><strong>She has left.</strong></td></tr><tr><td><strong>do</strong></td><td>questions, negatives</td><td><strong>Do you know? I don't know.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Auxiliary</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td><strong>be</strong></td><td><strong>continuous, passive</strong></td><td><strong>He is working.</strong></td></tr><tr><td><strong>have</strong></td><td><strong>perfect</strong></td><td><strong>She has left.</strong></td></tr><tr><td><strong>do</strong></td><td><strong>questions, negatives</strong></td><td><strong>Do you know? I don&#x27;t know.</strong></td></tr><tr><td><strong>will, would</strong></td><td><strong>future, conditional</strong></td><td><strong>They will come.</strong></td></tr><tr><td><strong>can, must, may</strong></td><td><strong>modality</strong></td><td><strong>You must stop.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Be, have and do as main verbs",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "When be is the only verb, it does not need do for questions: Is she here? When have means own, British speakers often do the same: Have you a pen? Most speakers now use do: Do you have a pen?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Short answers",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We answer a yes-no question by repeating the auxiliary: Are you ready? Yes, I am. Have you eaten? No, I haven't. Do you smoke? No, I don't. The main verb is not repeated."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Do you can swim?** Right: **Can you swim?**",
+                "Wrong: **She is work.** Right: **She is working.**",
+                "Wrong: **I no know.** Right: **I don't know.**"
+              ]
             }
           ]
         }

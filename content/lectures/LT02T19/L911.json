@@ -77,6 +77,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Contrast și concesie",
+      "summary": "Folosim conectori de contrast și concesie pentru a arăta diferențe sau situații neașteptate între două idei.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Contrastul arată o diferență între două lucruri. Concesia arată o acțiune neașteptată sau o opoziție. Pentru a lega aceste idei, folosim cuvinte de legătură specifice."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Eu beau ceai, **dar** el preferă cafeaua.",
+                "**Deși** plouă afară, noi mergem la plimbare.",
+                "Este frig, **totuși** Maria nu are geacă."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Cuvintele „dar” și „însă” exprimă un contrast direct. După conjuncția „deși” folosim verbul la modul indicativ. Nu folosim niciodată „deși” și „dar” în aceeași frază. De obicei, punem virgulă înaintea acestor conectori."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Conector</th><th>Sens</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>dar / însă</strong></td><td><strong>contrast direct</strong></td><td><strong>Vreau să vin, **dar** nu am timp.</strong></td></tr><tr><td><strong>deși / cu toate că</strong></td><td><strong>concesie cu o propoziție</strong></td><td><strong>**Deși** este obosit, el lucrează.</strong></td></tr><tr><td><strong>totuși</strong></td><td><strong>rezultat opus</strong></td><td><strong>A învățat mult, **totuși** are emoții.</strong></td></tr><tr><td><strong>în ciuda (+ genitiv)</strong></td><td><strong>concesie cu un substantiv</strong></td><td><strong>Am plecat **în ciuda** vremii rele.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -81,6 +81,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Conjuncții coordonatoare",
+      "summary": "Conjuncțiile coordonatoare leagă două cuvinte sau propoziții de același fel, fără ca una să depindă de cealaltă.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Conjuncția coordonatoare leagă două cuvinte sau două propoziții de același fel. Ea poate exprima adăugarea, alegerea, opoziția sau o concluzie. Elementele legate au aceeași importanță."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Beau ceai **și** cafea.",
+                "Vii cu noi **sau** rămâi acasă?",
+                "Sunt obosit, **dar** citesc o carte."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Cele mai folosite conjuncții sunt „și”, „dar”, „iar”, „sau” și „deci”. Punem întotdeauna virgulă înaintea conjuncțiilor de opoziție precum „dar”, „însă” sau „ci”. Nu punem virgulă înainte de „și” când leagă doar două elemente de același fel."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Conjuncție</th><th>Rol</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>și</strong></td><td><strong>adaugă o informație</strong></td><td><strong>Mănânc pâine **și** brânză.</strong></td></tr><tr><td><strong>sau / ori</strong></td><td><strong>arată o alegere</strong></td><td><strong>Vrei apă **sau** ceai?</strong></td></tr><tr><td><strong>dar / însă</strong></td><td><strong>arată o opoziție</strong></td><td><strong>E frig, **dar** ies la plimbare.</strong></td></tr><tr><td><strong>ci</strong></td><td><strong>arată o opoziție după o negație</strong></td><td><strong>Nu beau cafea, **ci** ceai.</strong></td></tr><tr><td><strong>deci</strong></td><td><strong>arată o concluzie</strong></td><td><strong>Ai învățat, **deci** iei o notă bună.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

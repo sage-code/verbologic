@@ -93,6 +93,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Ordinea complementelor și a adverbelor",
+      "summary": "În limba română, complementele și adverbele au o ordine obișnuită: mod, loc și apoi timp.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "O propoziție poate avea mai multe părți secundare. Aceste părți arată obiectul, modul, locul sau timpul acțiunii. Ordinea lor obișnuită ajută la o comunicare clară și firească."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Maria citește **o carte cu atenție**.",
+                "Andrei merge **pe jos la școală**.",
+                "Noi plecăm **la munte mâine**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Obiectul direct sau indirect stă de obicei aproape de verb. Adverbele urmează adesea ordinea firească: mod, apoi loc, apoi timp. Adverbul de timp poate sta și la începutul propoziției."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tip de informație</th><th>Întrebare</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Obiect direct</strong></td><td><strong>Pe cine? / Ce?</strong></td><td><strong>Văd **un film**.</strong></td></tr><tr><td><strong>Mod</strong></td><td><strong>Cum?</strong></td><td><strong>Ea cântă **frumos**.</strong></td></tr><tr><td><strong>Loc</strong></td><td><strong>Unde?</strong></td><td><strong>Locuim **în oraș**.</strong></td></tr><tr><td><strong>Timp</strong></td><td><strong>Când?</strong></td><td><strong>Venim **diseară**.</strong></td></tr><tr><td><strong>Mod + Loc + Timp</strong></td><td><strong>Cum? + Unde? + Când?</strong></td><td><strong>Merg **repede la magazin acum**.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

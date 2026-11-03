@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A word class groups words that do the same job in a sentence. English has ten traditional classes: noun, pronoun, article, adjective, verb, adverb, preposition, conjunction, numeral and interjection."
+                "A word class groups words that do the same job in a sentence. Traditional grammar names ten classes for English: noun, pronoun, article, adjective, verb, adverb, preposition, conjunction, numeral and interjection. Knowing the class of a word tells you where it can stand and how it can change."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**table** is a noun.",
                 "**quickly** is an adverb.",
-                "**and** is a conjunction."
+                "**and** is a conjunction.",
+                "**under** is a preposition."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A word belongs to a class because of what it does in the sentence, not because of how it looks. Many English words belong to more than one class."
+                "A word belongs to a class because of what it does in the sentence, not because of how it looks. Many English words belong to more than one class and change class without changing form. To find the class, look at the job the word does and at the words around it."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Word</th><th>One class</th><th>Another class</th></tr></thead><tbody><tr><td><strong>light</strong></td><td>a <strong>light</strong> bag (adjective)</td><td>turn on the <strong>light</strong> (noun)</td></tr><tr><td><strong>walk</strong></td><td>to <strong>walk</strong> (verb)</td><td>a <strong>walk</strong> (noun)</td></tr><tr><td><strong>fast</strong></td><td>a <strong>fast</strong> car (adjective)</td><td>drive <strong>fast</strong> (adverb)</td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Word</th><th>One class</th><th>Another class</th></tr></thead><tbody><tr><td><strong>light</strong></td><td><strong>a light bag (adjective)</strong></td><td><strong>turn on the light (noun)</strong></td></tr><tr><td><strong>walk</strong></td><td><strong>to walk (verb)</strong></td><td><strong>a walk (noun)</strong></td></tr><tr><td><strong>fast</strong></td><td><strong>a fast car (adjective)</strong></td><td><strong>drive fast (adverb)</strong></td></tr><tr><td><strong>round</strong></td><td><strong>a round table (adjective)</strong></td><td><strong>a round of tea (noun)</strong></td></tr><tr><td><strong>hurry</strong></td><td><strong>to hurry (verb)</strong></td><td><strong>in a hurry (noun)</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Open and closed classes",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Nouns, verbs, adjectives and adverbs are open classes: new words are added all the time, such as selfie or to google. Pronouns, articles, prepositions and conjunctions are closed classes. They are few, very frequent, and almost never change."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Content and function words",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Content words carry the meaning: nouns, main verbs, adjectives and adverbs. Function words build the grammar: the, of, and, is. In speech we stress content words and say function words quickly and quietly."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I am in a hurry to walk fastly.** Right: **I am in a hurry to walk fast.**",
+                "Wrong: **She is a good singer, she sings goodly.** Right: **She sings well.**",
+                "Wrong: **a quickly walk** Right: **a quick walk**"
+              ]
             }
           ]
         }

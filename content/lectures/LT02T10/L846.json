@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "The verb to have",
-      "summary": "Have shows possession and relationship, and it is also an auxiliary.",
+      "summary": "Have shows possession, relationship and experience, and is also an auxiliary verb.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Have shows possession, relationship and experience. It is also an auxiliary verb."
+                "Have shows possession, relationships, illness and many everyday events. It is also an auxiliary verb, used to form the perfect tenses. As a main verb it has several meanings, and some of them do not mean own: have breakfast, have a shower, have a good time."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "I **have** a sister.",
                 "She **has** blue eyes.",
-                "We **have** a meeting."
+                "We **have** a meeting.",
+                "They **have** lunch at one."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The present is have, but has for he, she and it. In British English have got is also common: I've got a car. For questions and negatives with the main verb, use do: Do you have time?"
+                "The present is have, but has for he, she and it. In British English have got is also common for possession: I've got a car. For questions and negatives with the main verb, use do: Do you have time? I don't have time. Have got makes its own questions: Have you got time?"
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Subject</th><th>Present</th><th>Negative</th></tr></thead><tbody><tr><td><strong>I, you, we, they</strong></td><td><strong>have</strong></td><td><strong>don't have</strong></td></tr><tr><td><strong>he, she, it</strong></td><td><strong>has</strong></td><td><strong>doesn't have</strong></td></tr><tr><td><strong>have got</strong></td><td><strong>I've got</strong></td><td><strong>I haven't got</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Subject</th><th>Present</th><th>Negative</th></tr></thead><tbody><tr><td><strong>I, you, we, they</strong></td><td><strong>have</strong></td><td><strong>don&#x27;t have</strong></td></tr><tr><td><strong>he, she, it</strong></td><td><strong>has</strong></td><td><strong>doesn&#x27;t have</strong></td></tr><tr><td><strong>have got</strong></td><td><strong>I&#x27;ve got</strong></td><td><strong>I haven&#x27;t got</strong></td></tr><tr><td><strong>past</strong></td><td><strong>had</strong></td><td><strong>didn&#x27;t have</strong></td></tr><tr><td><strong>question</strong></td><td><strong>Do you have...?</strong></td><td><strong>Have you got...?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Have as an activity",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "When have means eat, drink, take or experience, it needs do in questions and negatives and can be in the continuous: She is having lunch. When it means own, it is not used in the continuous."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Have to",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Have to means must. It is a modal expression: I have to go. The negative don't have to means it is not necessary. This is different from must not, which means it is forbidden."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **She have a dog.** Right: **She has a dog.**",
+                "Wrong: **I am having a car.** Right: **I have a car.**",
+                "Wrong: **Have you time?** (rare in speech) Right: **Do you have time?**"
+              ]
             }
           ]
         }

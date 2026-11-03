@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Yes-or-no questions",
-      "summary": "A yes-or-no question puts the auxiliary before the subject.",
+      "summary": "A yes-or-no question expects the answer yes or no.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A yes-or-no question expects the answer yes or no."
+                "A yes-or-no question expects the answer yes or no. It starts with an auxiliary or a modal verb, not with a question word. The voice usually rises at the end. It is the simplest kind of question, and it is used for checking facts, offering and requesting."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**Are** you tired?",
                 "**Do** they live here?",
-                "**Can** she swim?"
+                "**Can** she swim?",
+                "**Have** you eaten?"
               ]
             }
           ]
@@ -44,12 +45,88 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Put the auxiliary before the subject. With a simple present or simple past verb, add do, does or did. The main verb stays in the base form."
+                "Put the auxiliary before the subject. With a simple present or simple past verb, add do, does or did. The main verb stays in the base form. The verb be and the modal verbs move without do. The negative question uses n't: Don't you like it?"
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Statement</th><th>Question</th></tr></thead><tbody><tr><td><strong>You are tired.</strong></td><td><strong>Are you tired?</strong></td></tr><tr><td><strong>They live here.</strong></td><td><strong>Do they live here?</strong></td></tr><tr><td><strong>She swam.</strong></td><td><strong>Did she swim?</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Statement</th><th>Question</th></tr></thead><tbody><tr><td><strong>You are tired.</strong></td><td><strong>Are you tired?</strong></td></tr><tr><td><strong>They live here.</strong></td><td><strong>Do they live here?</strong></td></tr><tr><td><strong>She swam.</strong></td><td><strong>Did she swim?</strong></td></tr><tr><td><strong>He can drive.</strong></td><td><strong>Can he drive?</strong></td></tr><tr><td><strong>They have left.</strong></td><td><strong>Have they left?</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Answering",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A short answer is yes or no with the auxiliary: Yes, I am; No, she doesn't. Yes alone can be short, but short answers with the auxiliary are more polite and complete."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Negative questions",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A question with n't often shows surprise or a wish for agreement: Aren't you coming? The answer is yes if you are coming and no if you are not, so it is the same as the answer to a positive question."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **You are tired?** (in writing) Right: **Are you tired?**",
+                "Wrong: **Do she swim?** Right: **Does she swim?**",
+                "Wrong: **Did she swam?** Right: **Did she swim?**"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Întrebări cu răspuns da sau nu",
+      "summary": "În limba română, întrebările cu răspuns „da” sau „nu” păstrează ordinea cuvintelor și folosesc intonația.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "O întrebare închisă cere un răspuns cu „da” sau „nu”. Folosești această întrebare pentru a verifica o informație simplă. Răspunsul confirmă sau neagă direct acțiunea exprimată."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Ești** obosit?",
+                "Ei **locuiesc** aici?",
+                "Ea **poate să înoate**?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Nu trebuie să schimbi ordinea cuvintelor în propoziție și nu adaugi verbe auxiliare. În vorbire, ridici tonul vocii spre finalul întrebării. În scris, pui pur și simplu semnul întrebării."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Afirmație</th><th>Întrebare</th><th>Răspuns posibil</th></tr></thead><tbody><tr><td><strong>Ești obosit.</strong></td><td><strong>Ești obosit?</strong></td><td><strong>Da, sunt obosit.</strong></td></tr><tr><td><strong>Ei locuiesc aici.</strong></td><td><strong>Ei locuiesc aici?</strong></td><td><strong>Nu, nu locuiesc aici.</strong></td></tr><tr><td><strong>Ea poate să înoate.</strong></td><td><strong>Ea poate să înoate?</strong></td><td><strong>Da, poate să înoate.</strong></td></tr><tr><td><strong>Vreți o cafea.</strong></td><td><strong>Vreți o cafea?</strong></td><td><strong>Nu, mulțumesc.</strong></td></tr></tbody></table>"
             }
           ]
         }

@@ -88,6 +88,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Cuvintele compuse",
+      "summary": "Cuvintele compuse unesc două sau mai multe cuvinte pentru a exprima un sens nou.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Un cuvânt compus se formează din două sau mai multe cuvinte existente. Împreună, aceste cuvinte creează o noțiune nouă și un sens unitar. Ele se pot scrie într-un singur cuvânt, cu cratimă sau separat."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Fermierul cultivă **floarea-soarelui**.",
+                "Trenul circulă pe **calea ferată**.",
+                "Astăzi m-am întâlnit cu noul **prim-ministru**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română, cuvintele compuse se scriu legat, cu cratimă sau separat. Forma de plural depinde de părțile de vorbire care formează termenul. La unele cuvinte compuse se schimbă un singur termen, iar la altele se schimbă ambii termeni."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Cuvânt compus</th><th>Structură</th><th>Plural</th></tr></thead><tbody><tr><td><strong>floarea-soarelui</strong></td><td><strong>substantiv + substantiv</strong></td><td><strong>florile-soarelui</strong></td></tr><tr><td><strong>prim-ministru</strong></td><td><strong>adjectiv + substantiv</strong></td><td><strong>primi-miniștri</strong></td></tr><tr><td><strong>câine-lup</strong></td><td><strong>substantiv + substantiv</strong></td><td><strong>câini-lupi</strong></td></tr><tr><td><strong>cale ferată</strong></td><td><strong>substantiv + adjectiv</strong></td><td><strong>căi ferate</strong></td></tr><tr><td><strong>bunăvoință</strong></td><td><strong>adjectiv + substantiv</strong></td><td><strong>bunăvoințe</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

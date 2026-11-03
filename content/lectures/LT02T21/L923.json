@@ -95,6 +95,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Un cuvânt, două categorii",
+      "summary": "În limba română, unele cuvinte pot funcționa ca adjectiv sau ca adverb fără schimbări de formă.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Unele cuvinte din limba română au mai multe roluri gramaticale. Ele nu își schimbă deloc forma sau terminația. Sensul și rolul lor depind de contextul din propoziție."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Am văzut un film **frumos** la cinema.",
+                "Ea cântă foarte **frumos** la pian.",
+                "Bunica vrea să facă un **bine** tuturor."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Forma de masculin singular a adjectivului este adesea identică cu forma adverbului. Dacă însoțește un substantiv, cuvântul este adjectiv. Dacă determină un verb, cuvântul devine adverb. Adăugarea unui articol poate transforma cuvântul într-un substantiv."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Cuvânt</th><th>Ca adjectiv</th><th>Ca adverb</th></tr></thead><tbody><tr><td><strong>frumos</strong></td><td><strong>un tablou **frumos**</strong></td><td><strong>el scrie **frumos**</strong></td></tr><tr><td><strong>clar</strong></td><td><strong>un răspuns **clar**</strong></td><td><strong>ea explică **clar**</strong></td></tr><tr><td><strong>tare</strong></td><td><strong>un ceai **tare**</strong></td><td><strong>el vorbește **tare**</strong></td></tr><tr><td><strong>ușor</strong></td><td><strong>un test **ușor**</strong></td><td><strong>trenul merge **ușor**</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

@@ -82,6 +82,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Prepoziții de timp",
+      "summary": "Prepozițiile de timp arată când are loc o acțiune și cer de obicei cazul acuzativ.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prepozițiile de timp arată momentul unei acțiuni. Ele răspund la întrebarea „când?”. În limba română, cele mai folosite sunt „la”, „în” și „după”."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Ne vedem **la** ora nouă.",
+                "Trenul sosește **în** zece minute.",
+                "Mergem la plimbare **după** prânz."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Majoritatea prepozițiilor de timp cer cazul acuzativ. Prepoziția stă mereu în fața substantivului. Pentru zilele săptămânii, de obicei nu folosim nicio prepoziție."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Prepoziție</th><th>Utilizare</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>la</strong></td><td><strong>pentru ore exacte</strong></td><td><strong>Plecăm la ora opt.</strong></td></tr><tr><td><strong>în</strong></td><td><strong>pentru luni sau ani</strong></td><td><strong>M-am născut în mai.</strong></td></tr><tr><td><strong>după</strong></td><td><strong>pentru un moment ulterior</strong></td><td><strong>Vorbim după masă.</strong></td></tr><tr><td><strong>înainte de</strong></td><td><strong>pentru un moment anterior</strong></td><td><strong>Citesc înainte de culcare.</strong></td></tr><tr><td><strong>până la</strong></td><td><strong>pentru o limită de timp</strong></td><td><strong>Lucrez până la prânz.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

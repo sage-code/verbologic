@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Position before or after the noun",
-      "summary": "Most English adjectives come before the noun.",
+      "summary": "Most English adjectives come before the noun, but a few follow it or stand alone after a verb.",
       "status": "draft",
       "sections": [
         {
@@ -25,13 +25,14 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Most English adjectives come before the noun. A few come after it, and some are used only after a verb."
+                "In English the adjective usually stands directly before the noun. This is called attributive use. An adjective can also stand after a verb such as be. This is called predicative use. A few adjectives follow the noun or have only one position."
               ]
             },
             {
               "type": "bullets",
               "items": [
                 "a **big** house",
+                "The house is **big**.",
                 "something **interesting**",
                 "The child is **asleep**."
               ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An adjective follows words such as something and anyone. Adjectives like asleep and afraid are used only after a verb. When there are several adjectives, the usual order is opinion, size, age, colour, origin and material."
+                "The normal place is before the noun: a red car, not a car red. After the words something, anything, nothing, someone and anyone the adjective comes after. Some adjectives, such as asleep, afraid, alone, alive and ill, are used only after a verb."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Order</th><th>Example</th></tr></thead><tbody><tr><td>opinion, size, colour</td><td><strong>a lovely small blue vase</strong></td></tr><tr><td>after something</td><td><strong>something new</strong></td></tr><tr><td>only after a verb</td><td><strong>She is afraid.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Position</th><th>Example</th></tr></thead><tbody><tr><td><strong>before the noun</strong></td><td><strong>a lovely garden</strong></td></tr><tr><td><strong>after be</strong></td><td><strong>The garden is lovely.</strong></td></tr><tr><td><strong>after something</strong></td><td><strong>something new</strong></td></tr><tr><td><strong>only after a verb</strong></td><td><strong>She is afraid.</strong></td></tr><tr><td><strong>only before a noun</strong></td><td><strong>the main road</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Order of several adjectives",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "With more than one adjective, the usual order is opinion, size, age, shape, colour, origin, material. So we say a nice big old round brown French wooden table. In real speech we rarely use more than three."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fixed expressions",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some phrases keep the adjective after the noun. Examples are the president elect, court martial and attorney general. They are old borrowings and you can learn them as whole phrases."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **a car red** Right: **a red car**",
+                "Wrong: **an asleep child** Right: **a sleeping child** or **The child is asleep.**",
+                "Wrong: **a wooden big table** Right: **a big wooden table**"
+              ]
             }
           ]
         }

@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Days, months and dates",
-      "summary": "Days and months begin with a capital letter and use on and in.",
+      "summary": "Days, months and dates begin with capital letters and take on, in or at.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The days of the week and the months of the year are proper nouns, and they begin with a capital letter."
+                "The days of the week and the months of the year are proper nouns, and they begin with a capital letter. We use them to say when something happens. A date combines a day, a month and a year. English has several ways to write and say dates."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "on **Monday**",
                 "in **April**",
-                "on **the fifth of May**"
+                "on **the fifth of May**",
+                "in **2024**"
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Use on with days and dates, in with months and years, and at with clock times. British English writes the day before the month, and American English writes the month first."
+                "Use on with days and dates, in with months and years, and at with clock times. British English writes the day before the month: 5 May 2024. American English writes the month first: May 5, 2024. In numbers, 3/4 means 3 April in Britain and March 4 in the United States. We say dates with an ordinal number."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Preposition</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td><strong>on</strong></td><td>days and dates</td><td><strong>on Friday, on 5 May</strong></td></tr><tr><td><strong>in</strong></td><td>months and years</td><td><strong>in June, in 2024</strong></td></tr><tr><td><strong>at</strong></td><td>clock times</td><td><strong>at nine</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Preposition</th><th>Use</th><th>Example</th></tr></thead><tbody><tr><td><strong>on</strong></td><td><strong>days and dates</strong></td><td><strong>on Friday, on 5 May</strong></td></tr><tr><td><strong>in</strong></td><td><strong>months and years</strong></td><td><strong>in June, in 2024</strong></td></tr><tr><td><strong>at</strong></td><td><strong>clock times</strong></td><td><strong>at nine</strong></td></tr><tr><td><strong>at</strong></td><td><strong>weekend, night</strong></td><td><strong>at the weekend, at night</strong></td></tr><tr><td><strong>no preposition</strong></td><td><strong>this, last, next</strong></td><td><strong>next Monday</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Saying a date",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "In British English we say the fifth of May or May the fifth. In American English we usually say May fifth. In writing the ordinal ending is optional: 5 May or 5th May."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "This, last and next",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "With this, last, next and every we do not use a preposition: next Monday, last June, every year. We say on Monday, but I will see you next Monday."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **in Monday** Right: **on Monday**",
+                "Wrong: **on April** Right: **in April**",
+                "Wrong: **on next Monday** Right: **next Monday**"
+              ]
             }
           ]
         }

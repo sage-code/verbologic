@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Position of adverbs",
-      "summary": "The place of an adverb in a sentence depends on its kind.",
+      "summary": "An adverb can stand in different places, depending on its kind.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An adverb can stand in different places in a sentence, depending on its kind."
+                "An adverb can stand in different places in a sentence, depending on its kind. Manner, place, frequency, time and degree each have a usual position. The right place makes the sentence clear and natural. The wrong place can change the meaning."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "She **quickly** left. She left **quickly**.",
                 "I **often** read.",
-                "**Yesterday** we met."
+                "**Yesterday** we met.",
+                "They live **here**."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Adverbs of manner usually follow the verb or the object. Adverbs of frequency stand before the main verb. Adverbs of time stand at the end or at the start. Do not put an adverb between a verb and its object."
+                "Adverbs of manner usually follow the verb or the object. Adverbs of frequency stand before the main verb. Adverbs of time stand at the end or at the start. Do not put an adverb between a verb and its object. When there are several, the order is manner, place, time."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Kind</th><th>Usual place</th><th>Example</th></tr></thead><tbody><tr><td>manner</td><td>after the verb or object</td><td><strong>He speaks slowly.</strong></td></tr><tr><td>frequency</td><td>before the main verb</td><td><strong>He often speaks.</strong></td></tr><tr><td>time</td><td>end or start</td><td><strong>He spoke yesterday.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Kind</th><th>Usual place</th><th>Example</th></tr></thead><tbody><tr><td><strong>manner</strong></td><td><strong>after the verb or object</strong></td><td><strong>He speaks slowly.</strong></td></tr><tr><td><strong>frequency</strong></td><td><strong>before the main verb</strong></td><td><strong>He often speaks.</strong></td></tr><tr><td><strong>time</strong></td><td><strong>end or start</strong></td><td><strong>He spoke yesterday.</strong></td></tr><tr><td><strong>place</strong></td><td><strong>after the verb</strong></td><td><strong>He sat there.</strong></td></tr><tr><td><strong>degree</strong></td><td><strong>before the word</strong></td><td><strong>very quick</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Only and also",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Focus adverbs such as only, also and even stand next to the word they focus on. Compare Only Anna won the prize and Anna won only the prize. The meaning changes with the position."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sentence adverbs",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some adverbs comment on the whole sentence: Fortunately, nobody was hurt. Perhaps she is right. They stand at the start, set off by a comma, or before the verb."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **She speaks very well English.** Right: **She speaks English very well.**",
+                "Wrong: **I read often books.** Right: **I often read books.**",
+                "Wrong: **He opened quickly the door.** Right: **He opened the door quickly.**"
+              ]
             }
           ]
         }

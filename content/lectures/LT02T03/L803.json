@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Irregular and unusual plurals",
-      "summary": "A few common nouns form their plural in an old or unusual way.",
+      "summary": "A few common English nouns have plurals that do not follow the -s rule.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A few common English nouns have plurals that do not follow the -s rule. They come from older forms of the language."
+                "A few very common English nouns have plurals that do not follow the -s rule. Most come from older forms of the language. Because these nouns are frequent, you will use them every day, so learn them as pairs."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "one **man**, two **men**",
                 "one **child**, two **children**",
-                "one **foot**, two **feet**"
+                "one **foot**, two **feet**",
+                "one **sheep**, two **sheep**"
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Some nouns do not change at all, such as sheep and fish. Some words from Latin or Greek keep their original plural. Some nouns are always plural, such as scissors and trousers."
+                "Some nouns change the vowel, such as man and men. Some nouns do not change at all, such as sheep, fish and deer. Some words from Latin or Greek keep their original plural, such as analysis and analyses. Some nouns are always plural, such as scissors and trousers."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Type</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td>vowel change</td><td><strong>mouse</strong></td><td><strong>mice</strong></td></tr><tr><td>same form</td><td><strong>sheep</strong></td><td><strong>sheep</strong></td></tr><tr><td>Latin or Greek</td><td><strong>analysis</strong></td><td><strong>analyses</strong></td></tr><tr><td>always plural</td><td>—</td><td><strong>scissors</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Type</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>vowel change</strong></td><td><strong>mouse</strong></td><td><strong>mice</strong></td></tr><tr><td><strong>-en ending</strong></td><td><strong>child</strong></td><td><strong>children</strong></td></tr><tr><td><strong>same form</strong></td><td><strong>sheep</strong></td><td><strong>sheep</strong></td></tr><tr><td><strong>Latin or Greek</strong></td><td><strong>analysis</strong></td><td><strong>analyses</strong></td></tr><tr><td><strong>always plural</strong></td><td><strong>—</strong></td><td><strong>scissors, trousers</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Plural-only nouns",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Things with two parts are plural: scissors, trousers, glasses, jeans. To count them we use a pair of: a pair of scissors. Words such as news and mathematics end in -s but are singular."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Foreign plurals",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some words keep a foreign plural in careful writing: criteria, bacteria, phenomena, cacti. Others have a regular plural in everyday use. We say formulas or formulae, and both are correct."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **two childs** Right: **two children**",
+                "Wrong: **many mans** Right: **many men**",
+                "Wrong: **a scissors** Right: **a pair of scissors**"
+              ]
             }
           ]
         }

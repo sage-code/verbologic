@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Existence: there is and there are",
-      "summary": "There is and there are say that something exists.",
+      "summary": "To say that something exists, English uses there is for one thing and there are for more than one.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "To say that something exists, English uses there is for one thing and there are for more than one."
+                "To say that something exists or is present, English uses there is for one thing and there are for more than one. This is the way to introduce new things in a place, such as a room, a town or a story. In many languages one verb such as have or be does this job."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**There is** a bank near here.",
                 "**There are** two chairs.",
-                "**Is there** a café?"
+                "**Is there** a café?",
+                "**There was** a storm last night."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "There is a dummy subject, and the real subject comes after the verb. The verb agrees with the real subject. In speech people often say there's for both singular and plural."
+                "There is a dummy subject, and the real subject comes after the verb. The verb agrees with the real subject, so we say there is a book, but there are books. In speech people often say there's for both singular and plural. For questions put is or are before there. For negatives add not or no."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td>singular</td><td><strong>There is a bus at nine.</strong></td></tr><tr><td>plural</td><td><strong>There are three buses.</strong></td></tr><tr><td>negative</td><td><strong>There isn't a bank here.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Form</th><th>Example</th></tr></thead><tbody><tr><td><strong>singular</strong></td><td><strong>There is a bus at nine.</strong></td></tr><tr><td><strong>plural</strong></td><td><strong>There are three buses.</strong></td></tr><tr><td><strong>negative</strong></td><td><strong>There isn&#x27;t a bank here.</strong></td></tr><tr><td><strong>question</strong></td><td><strong>Is there a bank here?</strong></td></tr><tr><td><strong>past</strong></td><td><strong>There was a problem.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "There is, it is",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "There is a book on the table introduces a new thing. It is on the table says where a known thing is. We say There is a cat in the garden, and then The cat is black. The article changes from a to the."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Many, any and no",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We often use there with quantifiers: There are many people, There isn't any milk, There is no time. In the negative, any and no both work, but any follows not and no stands alone."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Have a bank near here.** Right: **There is a bank near here.**",
+                "Wrong: **There is two chairs.** Right: **There are two chairs.**",
+                "Wrong: **It has a café in the street.** Right: **There is a café in the street.**"
+              ]
             }
           ]
         }

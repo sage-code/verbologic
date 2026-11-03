@@ -130,6 +130,101 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Salutul și prezentarea",
+      "summary": "Înveți să saluți, să spui numele tău și să folosești verbul a fi.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Despre această lecție",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În această lecție înveți să saluți în limba română. Spui numele tău și de unde ești. Aceste fraze simple te ajută la prima întâlnire cu oameni noi."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "În context",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Andrei și Elena sunt la un curs în București. Ei fac cunoștință înainte de începerea orei."
+              ]
+            },
+            {
+              "type": "dialog",
+              "lines": [
+                {
+                  "speaker": "Andrei",
+                  "text": "Bună! Numele meu este Andrei."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Bună! Eu sunt Elena. Îmi pare bine!"
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Îmi pare bine! Ești din București?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Nu, sunt din Brașov. Tu de unde ești?"
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Eu sunt din Cluj."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Note de gramatică",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**1. Verbul a fi la prezent** Verbul **a fi** își schimbă forma în funcție de persoană.",
+                "Nu, **sunt** din Brașov.",
+                "Vezi Introducere în gramatică: Prezentul, ființare și posesie."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Persoană</th><th>Formă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>sunt</strong></td><td><strong>Sunt Andrei.</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>ești</strong></td><td><strong>Ești din Brașov.</strong></td></tr><tr><td><strong>el, ea</strong></td><td><strong>este (e)</strong></td><td><strong>Este student.</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>suntem</strong></td><td><strong>Suntem din Cluj.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Observație",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "În limba română nu repetăm mereu pronumele subiect.",
+                "După prepoziția **din** adăugăm direct numele orașului sau al țării.",
+                "Întrebările păstrează ordinea cuvintelor, dar tonul vocii urcă la sfârșit."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notă culturală",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În România, oamenii dau mâna când fac cunoștință pentru prima dată. La prima întâlnire, românii spun cel mai des **Îmi pare bine**. Tinerii folosesc salutul informal **Bună** în fiecare zi."
+              ]
+            }
+          ]
+        }
+      ]
     }
   }
 }

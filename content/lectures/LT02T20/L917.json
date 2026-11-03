@@ -88,6 +88,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Acordul în grupul nominal",
+      "summary": "În limba română, adjectivul și articolul își schimbă forma după genul și numărul substantivului.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Grupul nominal este format dintr-un substantiv și cuvintele care îl însoțesc. În limba română, adjectivul se acordă mereu cu substantivul. Aceasta înseamnă că adjectivul are același gen și același număr ca substantivul. Dacă substantivul este la feminin plural, adjectivul este tot la feminin plural."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Am cumpărat un tricou **alb**.",
+                "Ea poartă o fustă **albă**.",
+                "Ei au cumpărat două mașini **albe**."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În mod obișnuit, adjectivul se așază după substantiv. Terminația adjectivului se schimbă în funcție de gen și număr. La singular, substantivele neutre se comportă ca cele masculine, iar la plural, ca cele feminine."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Gen</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>Masculin</strong></td><td><strong>un băiat înalt</strong></td><td><strong>niște băieți înalți</strong></td></tr><tr><td><strong>Feminin</strong></td><td><strong>o fată înaltă</strong></td><td><strong>niște fete înalte</strong></td></tr><tr><td><strong>Neutru</strong></td><td><strong>un bloc înalt</strong></td><td><strong>niște blocuri înalte</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

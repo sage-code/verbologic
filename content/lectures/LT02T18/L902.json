@@ -54,6 +54,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Întrebări despre subiect",
+      "summary": "Când întrebăm despre subiect, folosim „cine”, „ce” sau „care”, fără nicio prepoziție.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Subiectul este persoana sau lucrul care face acțiunea. Când punem o întrebare despre subiect, folosim cuvintele „cine”, „ce” sau „care”. Ordinea cuvintelor este firească: cuvântul de întrebare stă înaintea verbului."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Cine** a sunat la ușă?",
+                "**Ce** s-a întâmplat aici?",
+                "**Care** tren pleacă primul?"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Pentru persoane folosim „cine”, iar pentru lucruri folosim „ce”. Când alegem dintre mai multe elemente, folosim „care”. Subiectul nu are niciodată prepoziția „pe”. Când întrebăm despre obiect, adăugăm „pe” pentru persoane."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Întrebare despre subiect</th><th>Întrebare despre obiect</th></tr></thead><tbody><tr><td><strong>Cine te sună?</strong></td><td><strong>Pe cine suni?</strong></td></tr><tr><td><strong>Cine a venit?</strong></td><td><strong>Pe cine ai văzut?</strong></td></tr><tr><td><strong>Ce a căzut pe jos?</strong></td><td><strong>Ce ai cumpărat azi?</strong></td></tr><tr><td><strong>Care elev lipsește?</strong></td><td><strong>Pe care elev îl cauți?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

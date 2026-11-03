@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "The definite article",
-      "summary": "The is the English definite article, used when the listener knows which thing is meant.",
+      "summary": "The definite article the is used when the listener knows which thing we mean.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The definite article is **the**. We use it when the listener knows which thing we mean."
+                "The definite article is the. We use it when the listener knows which thing or person we mean. This can be because it was mentioned before, because it is clear from the situation, or because there is only one. English has one definite article for every noun, singular or plural."
               ]
             },
             {
@@ -33,6 +33,7 @@
               "items": [
                 "**The** sun is hot.",
                 "Close **the** door, please.",
+                "I have a cat. **The** cat is black.",
                 "I like **the** red one."
               ]
             }
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "English has one definite article for every noun, singular or plural. It is also used with unique things, with superlatives and with some names."
+                "The has one spelling, but two pronunciations. Before a consonant sound it is /ðə/, and before a vowel sound it is /ðiː/. We also use the with unique things, with superlatives, with ordinal numbers and with some names, such as rivers and groups of islands."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td>known thing</td><td><strong>Pass me the salt.</strong></td></tr><tr><td>unique thing</td><td><strong>the moon</strong></td></tr><tr><td>superlative</td><td><strong>the fastest car</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody><tr><td><strong>known thing</strong></td><td><strong>Pass me the salt.</strong></td></tr><tr><td><strong>second mention</strong></td><td><strong>I saw a man. The man was tall.</strong></td></tr><tr><td><strong>unique thing</strong></td><td><strong>the moon, the sky</strong></td></tr><tr><td><strong>superlative</strong></td><td><strong>the fastest car</strong></td></tr><tr><td><strong>ordinal</strong></td><td><strong>the first day</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "General or particular?",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Compare Dogs are loyal and The dogs next door are loud. The first sentence speaks about all dogs, so there is no article. The second names particular dogs that both speakers can identify, so we need the."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fixed expressions",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Some phrases need the: in the morning, on the left, the same, the radio, play the piano. Others do not: at home, in bed, go to work. These phrases are best learned whole."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **Sun is hot.** Right: **The sun is hot.**",
+                "Wrong: **I like the music.** (in general) Right: **I like music.**",
+                "Wrong: **She plays piano.** Right: **She plays the piano.**"
+              ]
             }
           ]
         }

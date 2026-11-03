@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "The comparative",
-      "summary": "The comparative compares two things.",
+      "summary": "The comparative compares two things or two people, or one thing at two times.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The comparative compares two things or two people."
+                "We use the comparative to say that one thing has more of a quality than another. We name the second thing with than. We also use it to compare one thing at two times, as in 'It is hotter today'."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "Anna is **taller than** Tom.",
                 "This book is **more interesting** than that one.",
-                "It is **hotter** today."
+                "It is **hotter** today than yesterday.",
+                "My bag is **not as heavy as** yours."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Short adjectives add -er and long adjectives use more. Use than to name the second thing. A final e adds only r, and a single consonant after a short vowel is doubled."
+                "Short adjectives of one syllable add -er. Adjectives of two or more syllables usually take more before them. A final e adds only r. A single consonant after a short vowel is doubled. A final y changes to ier."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Rule</th><th>Adjective</th><th>Comparative</th></tr></thead><tbody><tr><td>add -er</td><td><strong>tall</strong></td><td><strong>taller</strong></td></tr><tr><td>double the consonant</td><td><strong>big</strong></td><td><strong>bigger</strong></td></tr><tr><td>y becomes ier</td><td><strong>easy</strong></td><td><strong>easier</strong></td></tr><tr><td>use more</td><td><strong>beautiful</strong></td><td><strong>more beautiful</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Rule</th><th>Adjective</th><th>Comparative</th></tr></thead><tbody><tr><td><strong>add -er</strong></td><td><strong>tall</strong></td><td><strong>taller</strong></td></tr><tr><td><strong>add -r after e</strong></td><td><strong>large</strong></td><td><strong>larger</strong></td></tr><tr><td><strong>double the consonant</strong></td><td><strong>big</strong></td><td><strong>bigger</strong></td></tr><tr><td><strong>y becomes ier</strong></td><td><strong>easy</strong></td><td><strong>easier</strong></td></tr><tr><td><strong>use more</strong></td><td><strong>beautiful</strong></td><td><strong>more beautiful</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Two-syllable adjectives",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Two-syllable adjectives that end in -y take -ier: happier, funnier. Others such as clever, narrow and quiet can use either form: cleverer or more clever. If you are not sure, more is always safe."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Equal comparison",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "To say two things are equal, use as ... as. To say one has less, use not as ... as or less ... than. We say Tom is as tall as Anna, and Tom is less tall than Anna."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **more taller** Right: **taller**",
+                "Wrong: **Anna is taller that Tom.** Right: **Anna is taller than Tom.**",
+                "Wrong: **more easy** Right: **easier**"
+              ]
             }
           ]
         }

@@ -15,7 +15,7 @@
   "locales": {
     "en": {
       "title": "Simple, compound and complex propositions",
-      "summary": "A proposition can be simple, compound or complex, depending on how many clauses it has and how they are joined.",
+      "summary": "A proposition can be simple, compound or complex, depending on how many verbs and clauses it has.",
       "status": "draft",
       "sections": [
         {
@@ -24,7 +24,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A simple proposition has one verb and one idea. A compound proposition joins two equal propositions with a word such as and, but or or. A complex proposition has a main proposition and a dependent one."
+                "A simple proposition has one verb and one idea. A compound proposition joins two equal propositions with a word such as and, but or or. A complex proposition has a main proposition and a dependent one. Writers use all three to make a text flow."
               ]
             },
             {
@@ -32,7 +32,8 @@
               "items": [
                 "I stayed.",
                 "I stayed, but she left.",
-                "I stayed because it rained."
+                "I stayed because it rained.",
+                "We waited, **and** then we left."
               ]
             }
           ]
@@ -43,12 +44,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "In a compound proposition both parts could stand alone. In a complex proposition the dependent part cannot: **because it rained** is not a sentence by itself. It begins with a subordinating word such as because, when, if or that."
+                "In a compound proposition both parts could stand alone. In a complex proposition the dependent part cannot: because it rained is not a sentence by itself. It begins with a subordinating word such as because, when, if or that. The dependent part can come first or last."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Type</th><th>Linking words</th><th>Example</th></tr></thead><tbody><tr><td>compound</td><td>and, but, or, so</td><td><strong>We waited, and then we left.</strong></td></tr><tr><td>complex</td><td>because, when, if, that</td><td><strong>We left when it stopped.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Type</th><th>Linking words</th><th>Example</th></tr></thead><tbody><tr><td><strong>simple</strong></td><td><strong>none</strong></td><td><strong>She sings.</strong></td></tr><tr><td><strong>compound</strong></td><td><strong>and, but, or, so</strong></td><td><strong>We waited, and then we left.</strong></td></tr><tr><td><strong>complex</strong></td><td><strong>because, when, if, that</strong></td><td><strong>We left when it stopped.</strong></td></tr><tr><td><strong>complex, dependent first</strong></td><td><strong>although, if</strong></td><td><strong>If it rains, we stay.</strong></td></tr><tr><td><strong>compound-complex</strong></td><td><strong>both</strong></td><td><strong>I stayed, but she left because it rained.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Commas",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We put a comma before and, but, or and so when they join two full propositions. We also put a comma after a dependent part that comes first, as in If it rains, we stay. We do not usually need it when the dependent part comes last."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Fragments",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A dependent part alone is a fragment, not a full sentence. Because it rained. is a fragment. It answers a question in speech, but in careful writing it must be joined to a main proposition."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I stayed. Because it rained.** Right: **I stayed because it rained.**",
+                "Wrong: **I was tired, I went to bed.** Right: **I was tired, so I went to bed.**",
+                "Wrong: **If it will rain, we stay.** Right: **If it rains, we stay.**"
+              ]
             }
           ]
         }

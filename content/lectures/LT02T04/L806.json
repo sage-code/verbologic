@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Nouns without an article",
-      "summary": "Many nouns are used with no article at all.",
+      "summary": "Many nouns are used without any article; this is called the zero article.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Sometimes a noun has no article. This is called the zero article."
+                "Sometimes a noun has no article. This is called the zero article. It is not a mistake: it is a regular part of the grammar. We use it mainly when we speak about things in general, and with certain names and fixed expressions."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**Water** is life.",
                 "I like **music**.",
-                "**Children** need sleep."
+                "**Children** need sleep.",
+                "We have lunch at one."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Use no article with plural and uncountable nouns that speak in general, with most names of people and places, and with meals, languages and many fixed phrases."
+                "Use no article with plural and uncountable nouns that speak in general, with most names of people and places, and with meals, languages, sports and academic subjects. Many fixed phrases also have no article, particularly after prepositions of place and means of transport."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Case</th><th>Example</th></tr></thead><tbody><tr><td>general plural</td><td><strong>Dogs bark.</strong></td></tr><tr><td>language</td><td><strong>She speaks Italian.</strong></td></tr><tr><td>meal</td><td><strong>We have lunch at one.</strong></td></tr><tr><td>fixed phrase</td><td><strong>at school, by car</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Case</th><th>Example</th></tr></thead><tbody><tr><td><strong>general plural</strong></td><td><strong>Dogs bark.</strong></td></tr><tr><td><strong>uncountable, general</strong></td><td><strong>Rice is cheap.</strong></td></tr><tr><td><strong>language</strong></td><td><strong>She speaks Italian.</strong></td></tr><tr><td><strong>meal</strong></td><td><strong>We have lunch at one.</strong></td></tr><tr><td><strong>fixed phrase</strong></td><td><strong>at school, by car, in bed</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Institutions",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We say go to school, in hospital and at church when we mean the main purpose of the place. We add the article when we mean the building or something else: I went to the school to meet the teacher."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Means of travel",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "After by, we use no article: by bus, by train, by air. But with in or on the article returns: in the car, on the bus. This is a common difficulty for learners."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **The life is beautiful.** (in general) Right: **Life is beautiful.**",
+                "Wrong: **I go to the school every day.** (as a student) Right: **I go to school every day.**",
+                "Wrong: **We travelled by the train.** Right: **We travelled by train.**"
+              ]
             }
           ]
         }

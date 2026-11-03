@@ -81,6 +81,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Propoziții condiționale",
+      "summary": "Propoziția condițională arată o condiție și începe de obicei cu cuvântul „dacă”.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Propoziția condițională exprimă o condiție pentru o altă acțiune. Ea începe cel mai des cu „dacă”. Fără această condiție, cealaltă acțiune nu se întâmplă."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Dacă plouă**, stăm acasă.",
+                "Mergem la munte **dacă ai timp**.",
+                "**Dacă vrei**, putem să citim acum."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Folosim cuvântul „dacă” la începutul condiției. Pentru acțiuni reale, punem verbul la prezent sau la viitor. Pentru dorințe sau situații imaginare, folosim modul condițional-optativ."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tip de condiție</th><th>Formă cu „dacă”</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Reală în prezent</strong></td><td><strong>dacă + prezent</strong></td><td><strong>Dacă **ai** bani, cumperi pâine.</strong></td></tr><tr><td><strong>Reală în viitor</strong></td><td><strong>dacă + prezent</strong></td><td><strong>Dacă **plouă** mâine, o să stau acasă.</strong></td></tr><tr><td><strong>Posibilă / Imaginară</strong></td><td><strong>dacă + condițional prezent</strong></td><td><strong>Dacă **aș avea** timp, aș călători mult.</strong></td></tr><tr><td><strong>Nerealizată în trecut</strong></td><td><strong>dacă + condițional trecut</strong></td><td><strong>Dacă **ai fi venit**, ai fi văzut filmul.</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

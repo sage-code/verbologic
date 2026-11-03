@@ -15,7 +15,7 @@
   "locales": {
     "en": {
       "title": "Phrases: noun, verb and prepositional",
-      "summary": "A phrase is a group of words that works as one unit, without a subject and verb of its own.",
+      "summary": "A phrase is a group of words that works as one unit without its own subject and verb.",
       "status": "draft",
       "sections": [
         {
@@ -24,7 +24,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A phrase is a group of words that works as one unit but has no subject and verb of its own. The main kinds are the noun phrase, the verb phrase and the prepositional phrase."
+                "A phrase is a group of words that works as one unit but has no subject and verb of its own. The main kinds are the noun phrase, the verb phrase and the prepositional phrase. A proposition is built out of phrases, as a wall is built out of bricks."
               ]
             },
             {
@@ -32,7 +32,8 @@
               "items": [
                 "the old house (noun phrase)",
                 "has been waiting (verb phrase)",
-                "in the garden (prepositional phrase)"
+                "in the garden (prepositional phrase)",
+                "very quickly (adverb phrase)"
               ]
             }
           ]
@@ -43,12 +44,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A noun phrase has a noun as its head. A verb phrase has a main verb and its auxiliaries. A prepositional phrase begins with a preposition and ends with a noun phrase. English puts the preposition before the noun."
+                "A noun phrase has a noun as its head. Words such as the, old and my come before the head. A verb phrase has a main verb and its auxiliaries. A prepositional phrase begins with a preposition and ends with a noun phrase. English always puts the preposition before the noun."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Phrase</th><th>Head</th><th>In a proposition</th></tr></thead><tbody><tr><td>noun phrase</td><td>noun</td><td><strong>The old house</strong> is empty.</td></tr><tr><td>verb phrase</td><td>verb</td><td>She <strong>has been waiting</strong>.</td></tr><tr><td>prepositional phrase</td><td>preposition</td><td>They sat <strong>in the garden</strong>.</td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Phrase</th><th>Head</th><th>In a proposition</th></tr></thead><tbody><tr><td><strong>noun phrase</strong></td><td><strong>noun</strong></td><td><strong>The old house is empty.</strong></td></tr><tr><td><strong>verb phrase</strong></td><td><strong>verb</strong></td><td><strong>She has been waiting.</strong></td></tr><tr><td><strong>prepositional phrase</strong></td><td><strong>preposition</strong></td><td><strong>They sat in the garden.</strong></td></tr><tr><td><strong>adjective phrase</strong></td><td><strong>adjective</strong></td><td><strong>She is very tall.</strong></td></tr><tr><td><strong>adverb phrase</strong></td><td><strong>adverb</strong></td><td><strong>He drove quite slowly.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Phrases inside phrases",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A phrase can contain another phrase. In the man in the garden, the prepositional phrase in the garden is part of the noun phrase. Seeing the head of each phrase helps you read long sentences."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Phrase or clause?",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A clause has its own subject and verb, and a phrase does not. After the rain is a phrase. After it rained is a clause. Both can answer the question when."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **in garden** Right: **in the garden**",
+                "Wrong: **has waiting** Right: **has been waiting**",
+                "Wrong: **the house old** Right: **the old house**"
+              ]
             }
           ]
         }

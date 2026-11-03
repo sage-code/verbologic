@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Negating a verb",
-      "summary": "English makes a verb negative with not after the auxiliary.",
+      "summary": "To make a verb negative, English puts not after the first auxiliary verb.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "To make a verb negative, English puts not after the first auxiliary verb."
+                "To make a verb negative, English puts not after the first auxiliary verb. When the statement has no auxiliary, we add do, does or did. This is the usual way to say that something is not true, does not happen or did not happen."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "She **is not** here.",
                 "I **do not** know.",
-                "They **have not** arrived."
+                "They **have not** arrived.",
+                "We **did not** see him."
               ]
             }
           ]
@@ -44,12 +45,88 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "If there is no auxiliary, add do, does or did. The usual short forms are isn't, don't, doesn't and didn't. Not follows a modal verb, and cannot is written as one word."
+                "The usual short forms are isn't, don't, doesn't and didn't. Not follows a modal verb, and cannot is written as one word. The auxiliary carries the tense, so the main verb stays in the base form: He didn't leave, not He didn't left. In speech the short forms are normal."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Statement</th><th>Negative</th></tr></thead><tbody><tr><td><strong>She is here.</strong></td><td><strong>She isn't here.</strong></td></tr><tr><td><strong>I know.</strong></td><td><strong>I don't know.</strong></td></tr><tr><td><strong>He left.</strong></td><td><strong>He didn't leave.</strong></td></tr><tr><td><strong>We can go.</strong></td><td><strong>We can't go.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Statement</th><th>Negative</th></tr></thead><tbody><tr><td><strong>She is here.</strong></td><td><strong>She isn&#x27;t here.</strong></td></tr><tr><td><strong>I know.</strong></td><td><strong>I don&#x27;t know.</strong></td></tr><tr><td><strong>He left.</strong></td><td><strong>He didn&#x27;t leave.</strong></td></tr><tr><td><strong>We can go.</strong></td><td><strong>We can&#x27;t go.</strong></td></tr><tr><td><strong>They have eaten.</strong></td><td><strong>They haven&#x27;t eaten.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Negative imperatives",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A command is made negative with do not or don't before the verb: Don't open the window. Be follows the same rule: Don't be late. The word never is also possible: Never touch that."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Negating other words",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We can negate a word or a phrase with not: not today, not very good. Un-, in- and non- also give a negative meaning to words: unhappy, impossible, non-stop."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I no know.** Right: **I don't know.**",
+                "Wrong: **He didn't left.** Right: **He didn't leave.**",
+                "Wrong: **She not is here.** Right: **She is not here.**"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Negarea verbului",
+      "summary": "În limba română, negăm un verb punând cuvântul „nu” în fața lui.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Negația arată că o acțiune nu are loc. În limba română, negarea unui verb este foarte simplă. Punem doar cuvântul „nu” înaintea verbului. Nu folosim verbe auxiliare speciale pentru negație."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Eu **nu știu** răspunsul.",
+                "Maria **nu vine** astăzi.",
+                "Noi **nu am mâncat** încă."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Cuvântul „nu” stă în fața verbului. Ordinea celorlalte cuvinte din propoziție nu se schimbă. La timpurile compuse, „nu” stă înaintea verbului auxiliar."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Afirmativ</th><th>Negativ</th></tr></thead><tbody><tr><td><strong>Vorbesc românește.</strong></td><td><strong>Nu vorbesc românește.</strong></td></tr><tr><td><strong>Vreau o cafea.</strong></td><td><strong>Nu vreau o cafea.</strong></td></tr><tr><td><strong>Am înțeles lecția.</strong></td><td><strong>Nu am înțeles lecția.</strong></td></tr><tr><td><strong>O să plec mâine.</strong></td><td><strong>Nu o să plec mâine.</strong></td></tr></tbody></table>"
             }
           ]
         }

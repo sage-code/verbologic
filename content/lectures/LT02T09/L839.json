@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A verb has a stem, which carries the meaning, and it can take endings that carry grammar."
+                "A verb has a stem, which carries the meaning, and it can take endings that carry grammar. The stem of walks, walked and walking is walk. In English the stem is the same as the base form, so it is easy to find. Knowing the stem helps you see how a verb changes."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "walk + **s** = walks",
                 "walk + **ed** = walked",
-                "walk + **ing** = walking"
+                "walk + **ing** = walking",
+                "walk + **er** = walker"
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "English verbs have few endings: -s for the third person singular, -ed for the past and -ing for continuous forms. The base form is the same as the stem."
+                "English verbs have few endings: -s for the third person singular of the present, -ed for the past and the past participle of regular verbs, and -ing for the participle and the continuous forms. All other grammar is carried by helping verbs. Irregular verbs change the stem itself instead of adding -ed."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Ending</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>-s</strong></td><td>he, she, it, present</td><td><strong>walks</strong></td></tr><tr><td><strong>-ed</strong></td><td>past</td><td><strong>walked</strong></td></tr><tr><td><strong>-ing</strong></td><td>continuous</td><td><strong>walking</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Ending</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><strong>-s</strong></td><td><strong>he, she, it, present</strong></td><td><strong>walks</strong></td></tr><tr><td><strong>-ed</strong></td><td><strong>past</strong></td><td><strong>walked</strong></td></tr><tr><td><strong>-ing</strong></td><td><strong>continuous, participle</strong></td><td><strong>walking</strong></td></tr><tr><td><strong>none</strong></td><td><strong>base form, other persons</strong></td><td><strong>walk</strong></td></tr><tr><td><strong>vowel change</strong></td><td><strong>irregular past</strong></td><td><strong>sing, sang</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Spelling the endings",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A final e is dropped before -ing: make, making. A single consonant after a short stressed vowel is doubled: stop, stopping, stopped. A final y after a consonant becomes ie before -s and i before -ed: study, studies, studied."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pronouncing -ed",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The ending -ed is said three ways. It is /t/ after voiceless sounds (walked), /d/ after voiced sounds (played) and /ɪd/ after t or d (wanted). The spelling is the same in all three."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **She walk to work.** Right: **She walks to work.**",
+                "Wrong: **stoped** Right: **stopped**",
+                "Wrong: **studyed** Right: **studied**"
+              ]
             }
           ]
         }

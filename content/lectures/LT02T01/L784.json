@@ -15,7 +15,7 @@
   "locales": {
     "en": {
       "title": "Imperative propositions",
-      "summary": "An imperative proposition gives an order, an instruction or a request.",
+      "summary": "An imperative proposition gives an order, an instruction, a request or advice.",
       "status": "draft",
       "sections": [
         {
@@ -24,7 +24,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "An imperative proposition gives an order, an instruction, a request or advice. The subject (you) is usually not said. A strong order may end with an exclamation mark."
+                "An imperative proposition tells someone to do something. It can be an order, an instruction, a request, an invitation or a piece of advice. The subject you is not said. A strong order may end with an exclamation mark."
               ]
             },
             {
@@ -32,7 +32,8 @@
               "items": [
                 "Close the door.",
                 "Please sit down.",
-                "Don't touch that!"
+                "Don't touch that!",
+                "**Turn** left at the corner."
               ]
             }
           ]
@@ -43,15 +44,46 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "The imperative uses the base form of the verb. For a negative order put **do not** or **don't** before the verb. **Let's** invites a group to do something together."
+                "The imperative uses the base form of the verb, with no ending and no subject. For a negative order, put do not or don't before the verb. The word please makes an order polite. Let's invites a group, including the speaker, to do something together."
               ]
             },
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Kind</th><th>Example</th></tr></thead><tbody><tr><td><strong>affirmative</strong></td><td><strong>Open the window.</strong></td></tr><tr><td><strong>negative</strong></td><td><strong>Don&#x27;t open the window.</strong></td></tr><tr><td><strong>polite</strong></td><td><strong>Please open the window.</strong></td></tr><tr><td><strong>with let&#x27;s</strong></td><td><strong>Let&#x27;s go home.</strong></td></tr><tr><td><strong>negative let&#x27;s</strong></td><td><strong>Let&#x27;s not wait.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Softer ways to ask",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A bare imperative can sound rude when we ask for a favour. In English we often use a question instead: Could you open the window? The imperative is best for instructions, signs and recipes."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Naming the person",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We can add a name or a word like everybody to say who must act. We say John, come here! and Everybody, listen! The name is separated from the order by a comma."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
               "type": "bullets",
               "items": [
-                "**Open the window.**",
-                "**Don't open the window.**",
-                "**Let's go home.**"
+                "Wrong: **You are opening the door.** (as an order) Right: **Open the door.**",
+                "Wrong: **Not touch it.** Right: **Don't touch it.**",
+                "Wrong: **Let's to go.** Right: **Let's go.**"
               ]
             }
           ]

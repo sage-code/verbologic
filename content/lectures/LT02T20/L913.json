@@ -88,6 +88,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Ordinea de bază a cuvintelor",
+      "summary": "Ordinea obișnuită a cuvintelor în limba română este subiect, verb și obiect, însă subiectul este adesea omis.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "În limba română, ordinea normală este subiect, verb și obiect. Subiectul face acțiunea, iar verbul arată ce se întâmplă. De multe ori, românii nu folosesc pronumele subiect, fiindcă forma verbului arată persoana."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Copilul **mănâncă** un măr.",
+                "**Vorbesc** românește în fiecare zi.",
+                "Andrei **citește** o carte nouă."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Așezăm de obicei subiectul în fața verbului, iar obiectul după verb. Pentru o negație, punem cuvântul „nu” chiar înaintea verbului. Pentru întrebări, păstrăm ordinea cuvintelor și ridicăm tonul vocii la sfârșit."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Tip de propoziție</th><th>Ordinea cuvintelor</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Afirmativă completă</strong></td><td><strong>Subiect + Verb + Obiect</strong></td><td><strong>Radu cumpără pâine.</strong></td></tr><tr><td><strong>Fără subiect exprimat</strong></td><td><strong>Verb + Obiect</strong></td><td><strong>Cumpără pâine.</strong></td></tr><tr><td><strong>Propoziție negativă</strong></td><td><strong>Subiect + Nu + Verb + Obiect</strong></td><td><strong>Radu nu cumpără pâine.</strong></td></tr><tr><td><strong>Întrebare simplă</strong></td><td><strong>Subiect + Verb + Obiect?</strong></td><td><strong>Radu cumpără pâine?</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

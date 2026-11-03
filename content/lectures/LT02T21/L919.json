@@ -94,6 +94,47 @@
           ]
         }
       ]
+    },
+    "ro": {
+      "title": "Prefixele",
+      "summary": "Un prefix este un grup de litere adăugat la începutul unui cuvânt pentru a forma un cuvânt nou.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prefixul se pune la începutul unui cuvânt de bază. El modifică sensul cuvântului de bază. Cu ajutorul prefixelor putem forma ușor cuvinte noi."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "Acest răspuns este **incorect**.",
+                "Trebuie să **rescriu** acest text lung.",
+                "Mihai este foarte **neliniștit** astăzi."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Prefixul se lipește direct de cuvânt, fără spațiu. Prefixul «ne-» arată o lipsă sau o negație. Prefixul «re-» arată repetarea unei acțiuni. Prefixul «des-» devine «dez-» înaintea unei vocale sau a unei consoane sonore."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Prefix</th><th>Sens</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>ne-</strong></td><td><strong>negație sau opus</strong></td><td><strong>sigur → nesigur</strong></td></tr><tr><td><strong>re-</strong></td><td><strong>repetarea acțiunii</strong></td><td><strong>a face → a reface</strong></td></tr><tr><td><strong>des- / dez-</strong></td><td><strong>acțiune inversă</strong></td><td><strong>a lega → a dezlega</strong></td></tr><tr><td><strong>stră-</strong></td><td><strong>vechi sau îndepărtat</strong></td><td><strong>bunic → străbunic</strong></td></tr></tbody></table>"
+            }
+          ]
+        }
+      ]
     }
   }
 }

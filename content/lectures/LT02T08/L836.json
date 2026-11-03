@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Years and centuries",
-      "summary": "We say years in pairs of digits and name centuries with an ordinal.",
+      "summary": "We say years in pairs of digits and name centuries with an ordinal number.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "We say years in pairs of digits, and we name centuries with an ordinal number."
+                "We say years in pairs of digits, and we name centuries with an ordinal number. A year is never said as one long number. A century is a hundred years, and the count starts at one, so the twentieth century is the 1900s. This causes a common confusion."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**nineteen eighty-four** (1984)",
                 "**two thousand and five** (2005)",
-                "the **twenty-first** century"
+                "the **twenty-first** century",
+                "in **the 1990s**"
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "For years before 2000, say two pairs: nineteen ninety. After 2000, say two thousand, or twenty twenty-four in recent years. A century is named by the ordinal of its hundreds: the eighteenth century is the 1700s."
+                "For years before 2000, say two pairs: nineteen ninety. After 2000, say two thousand, or twenty twenty-four in recent years. A century is named by the ordinal of its hundreds: the eighteenth century is the 1700s. Years with a zero in the middle are said in other ways: 1905 is nineteen oh five."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Year</th><th>Say</th></tr></thead><tbody><tr><td><strong>1990</strong></td><td>nineteen ninety</td></tr><tr><td><strong>2005</strong></td><td>two thousand and five</td></tr><tr><td><strong>2024</strong></td><td>twenty twenty-four</td></tr><tr><td><strong>1700s</strong></td><td>the eighteenth century</td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Year</th><th>Say</th></tr></thead><tbody><tr><td><strong>1990</strong></td><td><strong>nineteen ninety</strong></td></tr><tr><td><strong>1905</strong></td><td><strong>nineteen oh five</strong></td></tr><tr><td><strong>2005</strong></td><td><strong>two thousand and five</strong></td></tr><tr><td><strong>2024</strong></td><td><strong>twenty twenty-four</strong></td></tr><tr><td><strong>1700s</strong></td><td><strong>the eighteenth century</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "BC and AD",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Dates before the year 1 are marked BC, as in 44 BC. Dates after it can be marked AD, as in AD 476. Many writers now use BCE and CE instead. The abbreviation goes after the year in BC and before it in AD."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Decades",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A decade is ten years, and we say the eighties or the 1980s for 1980 to 1989. We write the 's without an apostrophe in years: the 1990s. A short form such as the '90s is informal."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **in the nineteenth century 1990s** Right: **in the twentieth century**",
+                "Wrong: **one thousand nine hundred ninety** Right: **nineteen ninety**",
+                "Wrong: **the 1990's** Right: **the 1990s**"
+              ]
             }
           ]
         }

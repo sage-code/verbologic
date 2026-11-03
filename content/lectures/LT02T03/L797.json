@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Common and proper nouns",
-      "summary": "A common noun names a class of things; a proper noun names one particular thing.",
+      "summary": "A common noun names a class of things; a proper noun names one particular person, place or thing.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "A common noun names a whole class of things, such as city, river or teacher. A proper noun names one particular person, place or thing, and it begins with a capital letter."
+                "A common noun names a whole class of things, such as city, river or teacher. A proper noun names one particular person, place or thing, such as Edinburgh, the Thames or Ms Clark. In English a proper noun always begins with a capital letter."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "a **city**, **Edinburgh**",
                 "a **river**, the **Thames**",
-                "a **teacher**, **Ms Clark**"
+                "a **teacher**, **Ms Clark**",
+                "a **month**, **April**"
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "English capitalises proper nouns, including the days, the months, languages and nationalities. Most proper nouns have no article, but some take the."
+                "English capitalises proper nouns, including the days, the months, languages, nationalities and holidays. Most proper nouns take no article, but some take the. These include rivers, seas, mountain ranges, groups of islands and countries with a plural or a common-noun name."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Kind</th><th>Example</th></tr></thead><tbody><tr><td>capitalised</td><td><strong>Monday, April, English</strong></td></tr><tr><td>no article</td><td><strong>London, Mary</strong></td></tr><tr><td>with the</td><td><strong>the Thames, the Alps</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Kind</th><th>Example</th></tr></thead><tbody><tr><td><strong>always capitalised</strong></td><td><strong>Monday, April, English, Spanish</strong></td></tr><tr><td><strong>no article</strong></td><td><strong>London, Mary, Italy</strong></td></tr><tr><td><strong>with the (rivers, seas)</strong></td><td><strong>the Thames, the Atlantic</strong></td></tr><tr><td><strong>with the (ranges, islands)</strong></td><td><strong>the Alps, the Canary Islands</strong></td></tr><tr><td><strong>with the (country names)</strong></td><td><strong>the United States, the Netherlands</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Common nouns as proper nouns",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A common noun can become part of a name and then takes a capital letter: the River Thames, Lake Victoria, Queen Elizabeth. When the same word is used in general, it stays lowercase: a queen, a lake."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Seasons and subjects",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "The seasons and school subjects are common nouns in English and use lowercase: summer, history, mathematics. Languages are different: English, French and Latin always take a capital letter."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I speak english.** Right: **I speak English.**",
+                "Wrong: **We met on monday in april.** Right: **We met on Monday in April.**",
+                "Wrong: **We sailed on Thames.** Right: **We sailed on the Thames.**"
+              ]
             }
           ]
         }

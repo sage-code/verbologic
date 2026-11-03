@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Prices and measures",
-      "summary": "We say a price with its currency and a measure with its unit.",
+      "summary": "We say prices with the number and the currency, and measures with the number and the unit.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "We say prices with the number and the name of the currency, and measures with the number and the unit."
+                "We say prices with the number and the name of the currency, and measures with the number and the unit. This is needed in shops, markets, recipes and journeys. The questions are How much is it? for a price and How long, how heavy or how tall is it? for a measure."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "It costs **five pounds**.",
                 "He is **one metre eighty** tall.",
-                "The bag weighs **two kilos**."
+                "The bag weighs **two kilos**.",
+                "It is **ten kilometres** away."
               ]
             }
           ]
@@ -44,12 +45,47 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Say a price as pounds and pence, or dollars and cents, and in everyday speech leave out the unit word: three fifty. Units take -s in the plural, but a measurement used as an adjective does not: a ten-minute walk."
+                "Say a price as pounds and pence, or dollars and cents, and in everyday speech leave out the unit word: three fifty. Units take -s in the plural, but a measurement used as an adjective does not: a ten-minute walk. For one, use the singular unit: one pound."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Written</th><th>Say</th></tr></thead><tbody><tr><td><strong>£5.50</strong></td><td>five pounds fifty</td></tr><tr><td><strong>$3.99</strong></td><td>three ninety-nine</td></tr><tr><td><strong>1.80 m</strong></td><td>one metre eighty</td></tr><tr><td><strong>2 kg</strong></td><td>two kilos</td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Written</th><th>Say</th></tr></thead><tbody><tr><td><strong>£5.50</strong></td><td><strong>five pounds fifty</strong></td></tr><tr><td><strong>$3.99</strong></td><td><strong>three ninety-nine</strong></td></tr><tr><td><strong>1.80 m</strong></td><td><strong>one metre eighty</strong></td></tr><tr><td><strong>2 kg</strong></td><td><strong>two kilos</strong></td></tr><tr><td><strong>50 cm</strong></td><td><strong>fifty centimetres</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "Spelling differences",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "British English writes metre, centimetre and kilometre. American English writes meter, centimeter and kilometer. Everyday British speech still uses miles, pints, stones and feet and inches, while the United States uses them officially."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Asking about price",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "We ask How much is this? or How much does it cost? The answer is It is or It costs. For total prices, shops use That's or That comes to: That comes to twelve pounds."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **It costs five pound.** Right: **It costs five pounds.**",
+                "Wrong: **a ten-minutes walk** Right: **a ten-minute walk**",
+                "Wrong: **How many is it?** Right: **How much is it?**"
+              ]
             }
           ]
         }

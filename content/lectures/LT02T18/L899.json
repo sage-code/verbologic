@@ -16,7 +16,7 @@
   "locales": {
     "en": {
       "title": "Negative words and double negation",
-      "summary": "Standard English uses one negative word per clause.",
+      "summary": "Standard English uses one negative word per clause; double negation is non-standard.",
       "status": "draft",
       "sections": [
         {
@@ -25,7 +25,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Negative words such as no, nobody, nothing and never say that something does not exist or does not happen."
+                "Negative words such as no, nobody, nothing, nowhere and never say that something does not exist or does not happen. They can be used with a positive verb, or they can be replaced by a not-form with any. In some languages a second negative word is required. English does not allow this in the standard."
               ]
             },
             {
@@ -33,7 +33,8 @@
               "items": [
                 "**Nobody** came.",
                 "I saw **nothing**.",
-                "She has **never** been there."
+                "She has **never** been there.",
+                "There is **no** milk."
               ]
             }
           ]
@@ -44,12 +45,88 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Standard English uses one negative word per clause. Say I saw nothing or I didn't see anything, but not I didn't see nothing. A double negative is used in some dialects, but it is not standard."
+                "Standard English uses one negative word per clause. Say I saw nothing or I didn't see anything, but not I didn't see nothing. A double negative is used in some dialects, but it is not standard and can be understood as a positive. Each negative word has a not-any form."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Standard</th><th>Not standard</th></tr></thead><tbody><tr><td><strong>I saw nothing.</strong></td><td>I didn't see nothing.</td></tr><tr><td><strong>I didn't see anything.</strong></td><td>He never said nothing.</td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Standard</th><th>Not standard</th></tr></thead><tbody><tr><td><strong>I saw nothing.</strong></td><td><strong>I didn&#x27;t see nothing.</strong></td></tr><tr><td><strong>I didn&#x27;t see anything.</strong></td><td><strong>He never said nothing.</strong></td></tr><tr><td><strong>Nobody came.</strong></td><td><strong>Nobody didn&#x27;t come.</strong></td></tr><tr><td><strong>I don&#x27;t have any.</strong></td><td><strong>I don&#x27;t have none.</strong></td></tr><tr><td><strong>I have never been there.</strong></td><td><strong>I haven&#x27;t never been there.</strong></td></tr></tbody></table>"
+            }
+          ]
+        },
+        {
+          "title": "No, none and any",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "No goes before a noun: no money. None stands alone: I have none. In a not-sentence we use any: I don't have any money. We never say I don't have no money in standard English."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Positive meaning",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "A true double negative gives a positive meaning: He is not unkind means he is somewhat kind. Writers use this to soften a statement, but it can be confusing."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common mistakes",
+          "blocks": [
+            {
+              "type": "bullets",
+              "items": [
+                "Wrong: **I don't know nothing.** Right: **I don't know anything.** or **I know nothing.**",
+                "Wrong: **Nobody didn't come.** Right: **Nobody came.**",
+                "Wrong: **I don't have none.** Right: **I don't have any.**"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ro": {
+      "title": "Cuvinte negative și dubla negație",
+      "summary": "În limba română, cuvintele negative cer obligatoriu cuvântul „nu” în fața verbului.",
+      "status": "draft",
+      "sections": [
+        {
+          "title": "Ce este",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Cuvintele negative arată că ceva nu există sau nu se întâmplă. Câteva exemple des întâlnite sunt „nimeni”, „nimic” și „niciodată”. În română, aceste cuvinte cer întotdeauna și negația „nu”. Această construcție se numește dublă negație."
+              ]
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "**Nimeni nu** a venit.",
+                "**Nu** am văzut **nimic**.",
+                "Ea **nu** a fost **niciodată** acolo."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cum funcționează în română",
+          "blocks": [
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "Cuvântul „nu” stă întotdeauna înaintea verbului. Celălalt cuvânt negativ poate să stea înainte sau după verb. Fără „nu”, o propoziție negativă este greșită."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Cuvânt negativ</th><th>Corect</th><th>Greșit</th></tr></thead><tbody><tr><td><strong>nimeni</strong></td><td><strong>Nimeni nu știe.</strong></td><td><strong>Nimeni știe.</strong></td></tr><tr><td><strong>nimic</strong></td><td><strong>Nu am cumpărat nimic.</strong></td><td><strong>Am cumpărat nimic.</strong></td></tr><tr><td><strong>niciodată</strong></td><td><strong>Nu întârzii niciodată.</strong></td><td><strong>Întârzii niciodată.</strong></td></tr><tr><td><strong>nicăieri</strong></td><td><strong>Nu mergem nicăieri.</strong></td><td><strong>Mergem nicăieri.</strong></td></tr></tbody></table>"
             }
           ]
         }
