@@ -92,7 +92,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Indirect questions are more polite.** After Could you tell me or Do you know, the word order is that of a statement, with no do or does. Compare Where is the post office? with Could you tell me where the post office is? See Introduction to Grammar: Questions and negation."
+                "**1. Indirect questions are more polite.** After Could you tell me or Do you know, the word order is that of a statement, with no do or does. Compare Where is the post office? with Could you tell me where the post office is?"
               ]
             },
             {
@@ -102,7 +102,7 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**2. Question words ask for different information.** Choose the word that matches what you need to know. See Introduction to Grammar: Questions and negation."
+                "**2. Question words ask for different information.** Choose the word that matches what you need to know."
               ]
             },
             {
@@ -140,7 +140,7 @@
     },
     "ro": {
       "title": "Să întrebăm unde se află ceva",
-      "summary": "În această lecție învățăm cum să întrebăm politicos unde se află un loc și cum să înțelegem răspunsul primit.",
+      "summary": "Înveți să întrebi unde se află un loc și să înțelegi răspunsul, cu întrebările „unde”, „cum ajung” și cu prepoziții.",
       "status": "draft",
       "sections": [
         {
@@ -149,7 +149,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Când vizitezi un oraș nou, trebuie adesea să ceri indicații pe stradă. Vei învăța întrebări politicoase pentru a găsi clădiri importante și magazine. Aceste expresii simple te ajută să comunici ușor cu localnicii din România."
+                "Un turist pune des întrebarea „Unde este...?”. România are multe orașe, iar adresa exactă poate fi greu de găsit fără ajutor. Câteva fraze bine alese te scot din încurcătură.",
+                "În lecția aceasta înveți să întrebi politicos unde se află un loc și să folosești corect imperativul și prepozițiile."
               ]
             }
           ]
@@ -160,35 +161,45 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Un turist ajunge în centrul vechi din Brașov. El caută farmacia cea mai apropiată. Turistul oprește o doamnă pe stradă pentru a cere ajutor."
+                "Elena a ajuns la Cluj-Napoca pentru o conferință. Hotelul ei este în apropiere de Piața Unirii, dar nu mai găsește străzile. Întreabă un tânăr, apoi un taximetrist și, în cele din urmă, ajunge la hotel.",
+                "Ea învață că în România adresele cuprind strada, numărul, blocul, scara și apartamentul: de exemplu „strada Memorandumului numărul 10”. Pe străzi, numerele pare sunt de o parte, cele impare de cealaltă.",
+                "Observă cum își formulează întrebarea: „Scuzați-mă, știți unde se află...?”, „Cum pot ajunge la...?”."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
-                  "speaker": "Dan",
-                  "text": "Scuzați-mă, **unde se află** cea mai apropiată farmacie?"
+                  "speaker": "Elena",
+                  "text": "Scuzați-mă, știți unde se află Hotelul Central?"
+                },
+                {
+                  "speaker": "Tânărul",
+                  "text": "Da, este lângă Piața Unirii. Mergeți pe strada aceasta până la capăt."
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Farmacia este chiar după colț, lângă muzeu."
+                  "text": "Până la capăt? Și apoi?"
                 },
                 {
-                  "speaker": "Dan",
-                  "text": "Vă rog, îmi puteți spune dacă este deschisă acum?"
-                },
-                {
-                  "speaker": "Elena",
-                  "text": "Da, este deschisă până la ora opt seara."
-                },
-                {
-                  "speaker": "Dan",
-                  "text": "Vă mulțumesc foarte mult pentru ajutor!"
+                  "speaker": "Tânărul",
+                  "text": "Faceți dreapta și treceți pe lângă biserică. Hotelul este în stânga."
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Cu multă plăcere, o zi frumoasă!"
+                  "text": "Este departe?"
+                },
+                {
+                  "speaker": "Tânărul",
+                  "text": "Nu, doar cinci minute pe jos."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Vă mulțumesc foarte mult!"
+                },
+                {
+                  "speaker": "Tânărul",
+                  "text": "Cu plăcere. Succes!"
                 }
               ]
             }
@@ -200,34 +211,35 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Întrebări directe cu „unde”** Folosim cuvântul de întrebare **unde** împreună cu verbele **a fi** sau **a se afla** pentru a afla poziția unui loc sau a unui obiect.",
-                "Scuzați-mă, **unde se află** cea mai apropiată farmacie?",
-                "Vezi Introducere în gramatică: Negația și întrebările."
+                "**1. Întrebările „unde”, „cum ajung”, „cât de departe”** Pentru a afla locul, folosim **Unde este...?** sau **Unde se află...?**. Pentru drum, folosim **Cum ajung la...?** sau **Cum pot ajunge la...?**. Pentru distanță, **Cât de departe este...?**",
+                "**Unde este** farmacia? **Cum ajung** la gară? **Cât de departe** este de aici?"
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Întrebare directă</th><th>Sens în română</th></tr></thead><tbody><tr><td><strong>**Unde este** gara?</strong></td><td><strong>Căutăm clădirea gării</strong></td></tr><tr><td><strong>**Unde se află** muzeul?</strong></td><td><strong>Întrebăm poziția exactă a muzeului</strong></td></tr><tr><td><strong>**Unde găsesc** o bancă?</strong></td><td><strong>Căutăm un serviciu în zonă</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Întrebare</th><th>Răspuns posibil</th></tr></thead><tbody><tr><td><strong>Unde este banca?</strong></td><td><strong>Este lângă piață.</strong></td></tr><tr><td><strong>Cum ajung la gară?</strong></td><td><strong>Mergeți drept și faceți dreapta.</strong></td></tr><tr><td><strong>Cât de departe este?</strong></td><td><strong>La zece minute pe jos.</strong></td></tr><tr><td><strong>Unde se află hotelul?</strong></td><td><strong>Este în spatele bisericii.</strong></td></tr></tbody></table>"
             },
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**2. Întrebări politicoase indirecte** Pentru o adresare politicoasă, putem începe întrebarea cu formula **îmi puteți spune**.",
-                "Vă rog, îmi puteți spune dacă este deschisă acum?",
-                "Vezi Introducere în gramatică: Negația și întrebările."
+                "**2. Imperativul și cuvintele de loc** Răspunsul la o întrebare de direcție conține adesea un imperativ și un cuvânt de loc. Imperativul la plural este **mergeți, treceți, faceți**, iar la „tu” este **mergi, treci, fă**.",
+                "**Mergeți** drept. **Treci** pe lângă farmacie."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Formă directă</th><th>Formă politicoasă</th></tr></thead><tbody><tr><td><strong>Unde este farmacia?</strong></td><td><strong>**Știți cumva unde este** farmacia?</strong></td></tr><tr><td><strong>Este deschis magazinul?</strong></td><td><strong>**Îmi puteți spune dacă** este deschis magazinul?</strong></td></tr><tr><td><strong>Cum ajung la teatru?</strong></td><td><strong>**Puteți să-mi spuneți cum ajung** la teatru?</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Cu dumneavoastră</th><th>Cu tine</th></tr></thead><tbody><tr><td><strong>Mergeți drept.</strong></td><td><strong>Mergi drept.</strong></td></tr><tr><td><strong>Faceți stânga.</strong></td><td><strong>Fă stânga.</strong></td></tr><tr><td><strong>Treceți strada.</strong></td><td><strong>Treci strada.</strong></td></tr><tr><td><strong>Întrebați acolo.</strong></td><td><strong>Întreabă acolo.</strong></td></tr></tbody></table>"
             },
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**3. Verbul reflexiv „a se afla”** Verbul reflexiv **a se afla** folosește pronumele reflexiv **se** la persoana a III-a pentru a indica poziția sau localizarea.",
-                "Scuzați-mă, **unde se află** cea mai apropiată farmacie?",
-                "Vezi Introducere în gramatică: Diateza, verbe reflexive și impersonale."
+                "**3. Prepoziții de loc** Prepozițiile **în, la, pe, lângă, după, între** arată unde se află un loc. Cu **între** folosim două elemente: „între farmacie și bancă”.",
+                "Farmacia este **între** bancă **și** librărie."
               ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Prepoziție</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>în</strong></td><td><strong>în centru</strong></td></tr><tr><td><strong>la</strong></td><td><strong>la capătul străzii</strong></td></tr><tr><td><strong>pe</strong></td><td><strong>pe strada principală</strong></td></tr><tr><td><strong>lângă</strong></td><td><strong>lângă primărie</strong></td></tr><tr><td><strong>între</strong></td><td><strong>între bancă și parc</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -237,9 +249,9 @@
             {
               "type": "bullets",
               "items": [
-                "În limba română folosim formule de politețe precum **scuzați-mă** sau **vă rog** atunci când cerem informații unei persoane necunoscute.",
-                "Verbul **a se afla** este adesea mai formal și mai precis decât verbul comun **a fi**.",
-                "Pentru a indica poziția, folosim prepoziții și locuțiuni de loc precum **lângă**, **după** sau **în fața**."
+                "Adresa românească se scrie: stradă, număr, bloc, scară, etaj, apartament. De exemplu: „Str. Memorandumului nr. 10, bl. A3, sc. B, et. 2, ap. 8”.",
+                "„Primărie” este clădirea administrației orașului; „Prefectură” este instituția statului din județ.",
+                "În gară, „peron” este platforma pe care așteaptă trenurile."
               ]
             }
           ]
@@ -250,7 +262,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Românii sunt de obicei deschiși și bucuroși să ajute persoanele care cer indicații pe stradă. Dacă întrebi cu politețe, mulți localnici îți vor explica drumul în detaliu sau chiar te vor însoți câțiva pași."
+                "În București, orice conducere în centru trece pe lângă Calea Victoriei sau Bulevardul Magheru. În Cluj-Napoca, Piața Unirii și statuia lui Matei Corvin sunt repere cunoscute.",
+                "Românii folosesc și aplicații de hărți, dar tot întreabă adesea trecători. Răspunsul poate suna: „Mergeți așa, drept, și o să vedeți”."
               ]
             }
           ]
