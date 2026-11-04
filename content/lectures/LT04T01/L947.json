@@ -112,7 +112,7 @@
     },
     "ro": {
       "title": "Mobilă și obiecte",
-      "summary": "În această lecție învățăm numele pieselor de mobilă și cum să facem propuneri simple în limba română.",
+      "summary": "Înveți numele mobilei și ale obiectelor din casă și folosești articolul nehotărât și prepozițiile de loc.",
       "status": "draft",
       "sections": [
         {
@@ -121,7 +121,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Lecția prezintă denumirile pentru mobila din casă și obiectele utile. Înveți cum să propui așezarea lucrurilor într-o cameră nouă. Aceste cuvinte te ajută când descrii propria ta locuință."
+                "Fiecare casă are mobila ei, iar fiecare obiect are numele lui. Când te muți, când cumperi sau când descrii o cameră, aceste cuvinte sunt foarte utile.",
+                "În lecția aceasta înveți mobila și obiectele cele mai frecvente și cum spui unde sunt."
               ]
             }
           ]
@@ -132,35 +133,45 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Radu și Elena se mută într-un apartament nou din Brașov. Ei aranjează mobila în camere. Fiecare obiect primește un loc potrivit."
+                "Elena și Andrei merg la un magazin de mobilă din Cluj-Napoca. Elena vrea să-și cumpere o canapea, o masă și un dulap pentru camera ei nouă. Vânzătorul îi arată câteva modele din lemn și din metal.",
+                "Elena alege o canapea gri, o masă rotundă și patru scaune. Vânzătorul spune că livrarea se face în două zile.",
+                "Citește cum se numesc obiectele și observă articolul „un / o” pentru obiecte noi."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
-                  "speaker": "Radu",
-                  "text": "Unde punem această canapea modernă?"
+                  "speaker": "Vânzătorul",
+                  "text": "Bună ziua! Cu ce vă pot ajuta?"
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Hai să punem canapeaua lângă fereastră!"
+                  "text": "Caut o canapea, o masă și patru scaune."
                 },
                 {
-                  "speaker": "Radu",
-                  "text": "Unde așezăm acest dulap mare?"
-                },
-                {
-                  "speaker": "Elena",
-                  "text": "Dulapul merge foarte bine în dormitor."
-                },
-                {
-                  "speaker": "Radu",
-                  "text": "Să punem și două scaune lângă masă?"
+                  "speaker": "Vânzătorul",
+                  "text": "Avem o canapea gri foarte frumoasă, cu o masă rotundă din lemn."
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Da, punem masa și scaunele în bucătărie."
+                  "text": "Cât costă masa cu scaunele?"
+                },
+                {
+                  "speaker": "Vânzătorul",
+                  "text": "O masă cu patru scaune costă o mie două sute de lei."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Bine. Unde pun canapeaua în cameră?"
+                },
+                {
+                  "speaker": "Vânzătorul",
+                  "text": "Lângă fereastră, cu o lampă alături."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Frumoasă idee. Le iau pe toate."
                 }
               ]
             }
@@ -172,26 +183,26 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Propuneri cu verbul la conjunctiv** Folosim îndemnul **hai să** urmat de un verb la conjunctiv pentru a face o propunere.",
-                "**Hai să** punem canapeaua lângă fereastră!",
-                "Vezi Introducere în gramatică: Modurile: imperativ, conjunctiv și condițional."
-              ]
-            },
-            {
-              "type": "table",
-              "html": "<table><thead><tr><th>Structură</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Hai să + verb</strong></td><td><strong>Hai să punem dulapul aici!</strong></td></tr><tr><td><strong>Să + verb în întrebare</strong></td><td><strong>Să cumpărăm o masă nouă?</strong></td></tr><tr><td><strong>Hai să + persoana întâi plural</strong></td><td><strong>Hai să aranjăm sufrageria!</strong></td></tr></tbody></table>"
-            },
-            {
-              "type": "paragraphs",
-              "paragraphs": [
-                "**2. Adjectivul demonstrativ de apropiere** Cuvântul **acest** își schimbă forma după genul și numărul substantivului însoțit.",
-                "Unde așezăm **acest** dulap mare?",
+                "**1. Articolul nehotărât: un, o, niște** Pentru un lucru nou sau oarecare, folosim **un** (masculin și neutru), **o** (feminin) și **niște** (plural). Articolul stă înaintea cuvântului.",
+                "**o** canapea, **un** scaun, **niște** perne",
                 "Vezi Introducere în gramatică: Articole și determinanți."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Gen</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>Masculin</strong></td><td><strong>acest perete</strong></td><td><strong>acești pereți</strong></td></tr><tr><td><strong>Feminin</strong></td><td><strong>această masă</strong></td><td><strong>aceste mese</strong></td></tr><tr><td><strong>Neutru</strong></td><td><strong>acest dulap</strong></td><td><strong>aceste dulapuri</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Masculin / neutru</th><th>Feminin</th><th>Plural</th></tr></thead><tbody><tr><td><strong>un scaun</strong></td><td><strong>o masă</strong></td><td><strong>niște scaune</strong></td></tr><tr><td><strong>un dulap</strong></td><td><strong>o canapea</strong></td><td><strong>niște dulapuri</strong></td></tr><tr><td><strong>un pat</strong></td><td><strong>o oglindă</strong></td><td><strong>niște oglinzi</strong></td></tr><tr><td><strong>un raft</strong></td><td><strong>o lampă</strong></td><td><strong>niște lămpi</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Unde punem lucrurile** Cu prepoziții de loc spunem unde așezăm mobila. Folosim și verbele **a pune**, **a sta**, **a fi**.",
+                "Pun canapeaua **lângă** fereastră. Lampa stă **pe** masă.",
+                "Vezi Introducere în gramatică: Prepoziții și cazuri."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Verb</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>a pune</strong></td><td><strong>Pun masa în mijloc.</strong></td></tr><tr><td><strong>a sta</strong></td><td><strong>Cartea stă pe raft.</strong></td></tr><tr><td><strong>a fi</strong></td><td><strong>Lampa este lângă canapea.</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -201,9 +212,9 @@
             {
               "type": "bullets",
               "items": [
-                "În limba română, multe obiecte de mobilier au genul neutru, precum dulapul, patul sau scaunul.",
-                "Substantivul „mobilă” are forma de plural „mobile”, dar pentru un singur obiect folosim de obicei expresia „piesă de mobilier”.",
-                "Nu confunda un fotoliu cu o canapea: fotoliul este destinat unei singure persoane."
+                "Cuvântul „dulap” înseamnă mobilă cu uși; „comodă” are sertare; „bibliotecă” are rafturi deschise pentru cărți.",
+                "„Scaun” este pentru o persoană; „bancă” și „canapea” sunt pentru mai multe.",
+                "Pentru o piesă de mobilier spunem „o piesă de mobilă”; pentru toate la un loc, „mobila”."
               ]
             }
           ]
@@ -214,7 +225,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În apartamentele din România, canapeaua din sufragerie este foarte des extensibilă. Aceasta se transformă rapid în pat pentru rude sau prieteni în vizită. Oaspeții primesc mereu un loc confortabil de dormit."
+                "Multe familii românești păstrează mobilă veche, moștenită de la părinți sau bunici, în special dulapuri de lemn masiv și covoare. Unii tineri o repară și o redecorează, pentru că le place stilul „vintage”.",
+                "Covoarele țesute, ștergarele cusute și lăzile de zestre fac parte din decorul tradițional al casei românești. Ele erau pregătite de fete pentru căsătorie."
               ]
             }
           ]

@@ -116,7 +116,7 @@
     },
     "ro": {
       "title": "Gătitul acasă",
-      "summary": "În această lecție învățăm despre gătitul acasă și cum dăm instrucțiuni simple în bucătărie.",
+      "summary": "Înveți să spui ce gătești, ce ingrediente folosești și în ce cantitate, cu măsuri și cu cuvinte pentru cantitate.",
       "status": "draft",
       "sections": [
         {
@@ -125,7 +125,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Această lecție prezintă verbe simple folosite în bucătărie. Vei învăța cum să prepari o mâncare rapidă. Aceste cuvinte te ajută să înțelegi o rețetă românească."
+                "Multe familii românești gătesc acasă, nu doar în zile de sărbătoare. Rețetele se transmit de la mamă la fiică, iar gustul e important.",
+                "În lecția aceasta înveți cuvintele pentru ingrediente și măsuri și spui cum se prepară un fel de mâncare simplu."
               ]
             }
           ]
@@ -136,35 +137,45 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Radu gătește o omletă gustoasă în bucătărie. Fiica lui, Ana, vrea să învețe rețeta. Ei pregătesc ouă, brânză și puțin mărar proaspăt."
+                "Elena îl învață pe Andrei să facă o omletă cu cașcaval, o rețetă simplă. Ei au nevoie de câteva ouă, puțin lapte, sare și cașcaval ras. Elena sparge trei ouă într-un bol, adaugă o lingură de lapte și un praf de sare și le amestecă bine.",
+                "Apoi încălzește o tigaie cu puțin ulei și toarnă amestecul. După câteva minute, presară cașcaval deasupra și îndoaie omleta. Totul durează mai puțin de zece minute.",
+                "Observă cantitățile: „trei ouă”, „o lingură de lapte”, „un praf de sare”, „puțin ulei”."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
-                  "speaker": "Ana",
-                  "text": "Tată, ce facem mai întâi?"
+                  "speaker": "Andrei",
+                  "text": "Elena, de ce ingrediente avem nevoie pentru omletă?"
                 },
                 {
-                  "speaker": "Radu",
-                  "text": "Sparge trei ouă într-un bol!"
+                  "speaker": "Elena",
+                  "text": "Trei ouă, puțin lapte, sare și cașcaval."
                 },
                 {
-                  "speaker": "Ana",
-                  "text": "Adăugăm și brânză acum?"
+                  "speaker": "Andrei",
+                  "text": "Cât lapte punem?"
                 },
                 {
-                  "speaker": "Radu",
-                  "text": "Da, pune puțină brânză telemea și amestecă bine!"
+                  "speaker": "Elena",
+                  "text": "O lingură, nu mai mult. Și un praf de sare."
                 },
                 {
-                  "speaker": "Ana",
-                  "text": "Punem omleta în tigaie?"
+                  "speaker": "Andrei",
+                  "text": "Și uleiul?"
                 },
                 {
-                  "speaker": "Radu",
-                  "text": "Da, toarnă compoziția și prăjește la foc mic!"
+                  "speaker": "Elena",
+                  "text": "Puțin ulei în tigaie. Gata în zece minute."
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Miroase deja bine!"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Mai ia și niște pâine. O mâncăm împreună."
                 }
               ]
             }
@@ -176,26 +187,38 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Imperativul pentru instrucțiuni** Folosim modul **imperativ** când dăm ordine sau instrucțiuni într-o rețetă.",
-                "Sparge trei ouă într-un bol!",
-                "Vezi Introducere în gramatică: Modurile: imperativ, conjunctiv și condițional."
-              ]
-            },
-            {
-              "type": "table",
-              "html": "<table><thead><tr><th>Persoană</th><th>Formă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>tu</strong></td><td><strong>amestecă!</strong></td><td><strong>amestecă bine!</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>pune!</strong></td><td><strong>pune sare!</strong></td></tr><tr><td><strong>voi</strong></td><td><strong>amestecați!</strong></td><td><strong>amestecați bine!</strong></td></tr><tr><td><strong>voi</strong></td><td><strong>puneți!</strong></td><td><strong>puneți în tigaie!</strong></td></tr></tbody></table>"
-            },
-            {
-              "type": "paragraphs",
-              "paragraphs": [
-                "**2. Exprimarea cantității** Cuvintele **puțin** și **mult** își schimbă forma după genul substantivului.",
-                "Da, pune puțină brânză telemea și amestecă bine!",
+                "**1. Cantități și măsuri** Pentru ingrediente nenumărabile folosim o măsură: **o lingură, o linguriță, un pahar, o ceașcă, un praf, un vârf de cuțit**. Măsura este urmată de **de** + ingredient.",
+                "O **lingură de** ulei, un **pahar de** lapte, un **praf de** sare.",
                 "Vezi Introducere în gramatică: Articole și determinanți."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Gen</th><th>Forma „puțin”</th><th>Forma „mult”</th></tr></thead><tbody><tr><td><strong>Masculin</strong></td><td><strong>puțin mărar</strong></td><td><strong>mult mărar</strong></td></tr><tr><td><strong>Feminin</strong></td><td><strong>puțină brânză</strong></td><td><strong>multă brânză</strong></td></tr><tr><td><strong>Neutru</strong></td><td><strong>puțin ulei</strong></td><td><strong>mult ulei</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Măsură</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>o lingură</strong></td><td><strong>o lingură de ulei</strong></td></tr><tr><td><strong>o linguriță</strong></td><td><strong>o linguriță de zahăr</strong></td></tr><tr><td><strong>un pahar</strong></td><td><strong>un pahar de lapte</strong></td></tr><tr><td><strong>un praf</strong></td><td><strong>un praf de sare</strong></td></tr><tr><td><strong>o ceașcă</strong></td><td><strong>o ceașcă de făină</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Numărabil sau nenumărabil** Ouăle, cartofii și merele se numără. Făina, uleiul și laptele nu se numără, deci folosim **puțin, mult** sau măsuri.",
+                "**Trei** ouă, **puțină** făină.",
+                "Vezi Introducere în gramatică: Substantivul: tipuri, gen și număr."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Numărabil</th><th>Nenumărabil</th></tr></thead><tbody><tr><td><strong>trei ouă</strong></td><td><strong>puțin lapte</strong></td></tr><tr><td><strong>doi cartofi</strong></td><td><strong>puțin ulei</strong></td></tr><tr><td><strong>patru mere</strong></td><td><strong>puțină făină</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**3. Pronumele „tot”, „nimic”, „ceva”** Când spunem că folosim totul, spunem **tot**. Pentru nimic, folosim **nimic**. Dacă ne mai trebuie ceva, spunem **ceva** sau **altceva**.",
+                "Folosim **tot** ce avem. Nu pun **nimic** în plus.",
+                "Vezi Introducere în gramatică: Alte pronume."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Pronume</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>tot</strong></td><td><strong>Mănânc tot.</strong></td></tr><tr><td><strong>nimic</strong></td><td><strong>Nu pun nimic în plus.</strong></td></tr><tr><td><strong>ceva</strong></td><td><strong>Mai vreau ceva?</strong></td></tr><tr><td><strong>altceva</strong></td><td><strong>Gătesc altceva.</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -205,8 +228,9 @@
             {
               "type": "bullets",
               "items": [
-                "În limba română, forma imperativului la persoana a doua singular seamănă des cu prezentul.",
-                "La imperativ negativ la persoana a doua singular, folosim cuvântul **nu** urmat de forma scurtă de infinitiv: **nu pune!**."
+                "„Linguriță” este lingura mică de ceai; „lingură” este lingura de supă.",
+                "„Praf” aici înseamnă o cantitate foarte mică, nu praful din casă.",
+                "Rețetele românești folosesc des cuvântul „după gust”, ceea ce înseamnă „cât crezi tu că e bine”."
               ]
             }
           ]
@@ -217,7 +241,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În România, mulți oameni preferă să gătească acasă mâncare proaspătă. Brânza telemea și ouăle de țară sunt ingrediente foarte apreciate pentru micul dejun."
+                "Multe gospodine românce nu măsoară ingredientele cu cântarul, ci „din ochi”, adică după experiență. De aceea o rețetă de familie poate suna: „O lingură de untură, făină cât primește”.",
+                "Mămăliga, preparată din mălai fiert în apă sărată, este mâncarea de bază în multe zone. Se mănâncă cu brânză, cu smântână sau cu sarmale."
               ]
             }
           ]

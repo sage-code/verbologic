@@ -108,7 +108,7 @@
     },
     "ro": {
       "title": "Să vorbim despre vreme",
-      "summary": "În această lecție învățăm să vorbim despre vreme în limba română folosind expresii simple și utile.",
+      "summary": "Înveți să vorbești despre vreme cu verbe impersonale („plouă”, „ninge”), cu temperaturile și cu adverbe.",
       "status": "draft",
       "sections": [
         {
@@ -117,7 +117,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Lecția prezintă cuvinte uzuale despre starea vremii. Veți învăța cum să începeți o conversație simplă cu un vecin. Aceste expresii sunt folosite foarte des în viața de zi cu zi."
+                "Vremea este un subiect de conversație universal, iar în România ea se schimbă mult de la un anotimp la altul. Vara poate fi foarte cald, iar iarna ger și zăpadă.",
+                "În lecția aceasta înveți verbele și expresiile pentru vreme și spui câte grade sunt afară."
               ]
             }
           ]
@@ -128,27 +129,45 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Doi vecini se întâlnesc dimineața în fața unui bloc din Brașov. Cerul este plin de nori cenușii. Oamenii vorbesc despre vreme înainte de plecare."
+                "Andrei și Elena se întâlnesc la ieșirea din metrou, într-o dimineață de noiembrie. Plouă mărunt și bate vântul. Elena a uitat umbrela acasă, așa că Andrei îi oferă a lui. În drum spre birou, ei vorbesc despre vreme și despre previziuni.",
+                "Elena a văzut la televizor că mâine se face mai frig, iar în weekend o să ningă la munte. Andrei spune că ar vrea să meargă la Sinaia, dacă va fi senin.",
+                "Observă că verbele pentru fenomenele naturii nu au subiect: „plouă”, „ninge”, „tună”. Ele sunt verbe impersonale."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
-                  "speaker": "Mihai",
-                  "text": "Bună dimineața, Andrei! Este cam frig afară astăzi."
+                  "speaker": "Andrei",
+                  "text": "Ce vreme urâtă! Plouă de dimineață."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Da, și bate vântul. Câte grade sunt afară?"
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "Bună dimineața! Da, este înnorat și bate vântul."
+                  "text": "Opt grade. Mâine se face și mai frig."
                 },
                 {
-                  "speaker": "Mihai",
-                  "text": "Cred că o să plouă în curând."
+                  "speaker": "Elena",
+                  "text": "Am auzit că în weekend ninge la munte."
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "Așa este, iau umbrela cu mine."
+                  "text": "Perfect! Mergem la Sinaia, dacă este senin."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Sper să nu fie ceață. Mă tem de drumurile alunecoase."
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Nu-ți face griji. Verificăm prognoza vineri."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Bine. Ia-ți și umbrela, că plouă în continuare."
                 }
               ]
             }
@@ -160,26 +179,38 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Expresii impersonale pentru vreme** În limba română descriem vremea fără un pronume subiect, folosind direct verbul **a fi** sau verbe specifice.",
-                "**Este** cam frig afară astăzi.",
-                "Vezi Introducere în gramatică: Prezentul, ființare și posesie."
+                "**1. Verbe impersonale pentru vreme** Verbele care descriu vremea se folosesc la persoana a treia singular, fără subiect. Ele nu se schimbă după persoană: nu spunem „eu plouă”.",
+                "**Plouă.** **Ninge.** **Tună.** **Fulgeră.** **Se întunecă.**",
+                "Vezi Introducere în gramatică: Diateza, verbe reflexive și impersonale."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Expresie</th><th>Explicație</th></tr></thead><tbody><tr><td><strong>este frig</strong></td><td><strong>temperatura este scăzută</strong></td></tr><tr><td><strong>este cald</strong></td><td><strong>temperatura este ridicată</strong></td></tr><tr><td><strong>este înnorat</strong></td><td><strong>pe cer sunt mulți nori</strong></td></tr><tr><td><strong>bate vântul</strong></td><td><strong>aerul este în mișcare</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Verb</th><th>Sens</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>a ploua</strong></td><td><strong>apa cade din nori</strong></td><td><strong>Plouă de dimineață.</strong></td></tr><tr><td><strong>a ninge</strong></td><td><strong>cade zăpadă</strong></td><td><strong>Ninge la munte.</strong></td></tr><tr><td><strong>a tuna</strong></td><td><strong>se aude tunetul</strong></td><td><strong>Tună puternic.</strong></td></tr><tr><td><strong>a se însenina</strong></td><td><strong>cerul devine senin</strong></td><td><strong>Se înseninează după-amiază.</strong></td></tr></tbody></table>"
             },
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**2. Viitorul apropiat cu o să** Construcția formată din **o să** și un verb la conjunctiv exprimă o acțiune viitoare în vorbirea curentă.",
-                "Cred că **o să plouă** în curând.",
-                "Vezi Introducere în gramatică: Viitorul."
+                "**2. Temperaturi și numere** Temperatura se spune cu **sunt** + numărul + **grade**. Pentru frig și căldură folosim **este frig, este cald, este fierbinte**. Cu numerele de la 20 în sus folosim **de grade**.",
+                "**Sunt** opt **grade**. **Sunt** douăzeci **de grade**. Este **cald**.",
+                "Vezi Introducere în gramatică: Numeralul, data și ora."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Pronume</th><th>Formă de viitor</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>o să plec</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>o să iei</strong></td></tr><tr><td><strong>(fără pronume)</strong></td><td><strong>o să plouă</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>o să vedem</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Temperatura</th><th>Cum spunem</th></tr></thead><tbody><tr><td><strong>8°</strong></td><td><strong>opt grade</strong></td></tr><tr><td><strong>15°</strong></td><td><strong>cincisprezece grade</strong></td></tr><tr><td><strong>25°</strong></td><td><strong>douăzeci și cinci de grade</strong></td></tr><tr><td><strong>-5°</strong></td><td><strong>minus cinci grade</strong></td></tr><tr><td><strong>0°</strong></td><td><strong>zero grade</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**3. Adverbe pentru vreme** Adverbele de timp și de grad ne ajută să descriem vremea mai exact: **azi, mâine, ieri, mereu, uneori, foarte, puțin, mult**.",
+                "Plouă **mult**. **Mâine** va fi **mai** frig. Ninge **puțin**.",
+                "Vezi Introducere în gramatică: Adverbul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Adverb</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>azi / astăzi</strong></td><td><strong>Azi plouă.</strong></td></tr><tr><td><strong>mâine</strong></td><td><strong>Mâine se face frig.</strong></td></tr><tr><td><strong>mult</strong></td><td><strong>Plouă mult.</strong></td></tr><tr><td><strong>puțin</strong></td><td><strong>Ninge puțin.</strong></td></tr><tr><td><strong>des</strong></td><td><strong>Plouă des toamna.</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -189,9 +220,9 @@
             {
               "type": "bullets",
               "items": [
-                "Limba română nu folosește un pronume neutru precum it din limba engleză.",
-                "Verbele meteorologice precum plouă sau ninge sunt impersonale și stau singure în propoziție.",
-                "Cuvântul vreme înseamnă weather, dar în expresii precum de multă vreme înseamnă și time."
+                "„Cer senin” înseamnă fără nori; „cer înnorat” înseamnă cu nori; „ceață” este aer cu picături fine, care reduc vizibilitatea.",
+                "Românii spun „Ce vreme frumoasă!” când e soare, și „Ce vreme urâtă!” când plouă.",
+                "Temperaturile se exprimă în grade Celsius, nu Fahrenheit."
               ]
             }
           ]
@@ -202,7 +233,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "România are o climă temperat-continentală cu patru anotimpuri clare. Iernile pot aduce multă zăpadă, în special în regiunile montane din Carpați. Oamenii deschid foarte des o discuție politicoasă vorbind despre vreme."
+                "În România, vremea are patru anotimpuri bine marcate. Verile sunt calde, iar iernile sunt reci, cu zăpadă mai ales la munte. Vântul care bate iarna în estul țării se numește Crivăț.",
+                "Unele ziare și site-uri dau în fiecare zi harta culorilor de avertizare meteo: galben, portocaliu și roșu, în funcție de pericolul unei furtuni sau al unui ger puternic."
               ]
             }
           ]

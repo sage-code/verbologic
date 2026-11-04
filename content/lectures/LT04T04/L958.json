@@ -108,7 +108,7 @@
     },
     "ro": {
       "title": "Lunile și datele",
-      "summary": "În această lecție învățăm lunile anului și cum exprimăm data în limba română.",
+      "summary": "Înveți numele lunilor și cum se spun datele în română, cu numerele ordinale și cardinale.",
       "status": "draft",
       "sections": [
         {
@@ -117,7 +117,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Învățăm numele lunilor și modul de a exprima o dată completă. Aceste cuvinte sunt foarte utile când facem o rezervare sau stabilim o întâlnire. Vei putea spune ușor când este ziua ta de naștere."
+                "Calendarul este folosit în fiecare zi: pentru programări, pentru aniversări, pentru sărbători. Românii își spun datele într-un anumit fel.",
+                "În lecția aceasta înveți lunile anului și cum spui ce zi este azi și când se întâmplă ceva."
               ]
             }
           ]
@@ -128,27 +129,45 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Andrei este la recepția unui hotel din Brașov. El dorește o cameră pentru vacanța de iarnă. Recepționera verifică datele libere în calendar."
+                "Elena sună la o clinică din Timișoara pentru a face o programare la dentist. Asistenta o întreabă ce zi i se potrivește, iar Elena spune că poate în prima săptămână din mai. Asistenta propune data de 5 mai, ora zece.",
+                "Elena notează data în agendă și își dă seama că ziua aceea este chiar a doua zi după ziua de naștere a surorii ei. Îi spune asistentei și râd amândouă.",
+                "Observă cum se spun datele: „cinci mai”, „pe cinci mai”, „la unu mai”."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
-                  "speaker": "Andrei",
-                  "text": "Bună ziua! Vreau să rezerv o cameră pentru **15 ianuarie**."
+                  "speaker": "Asistenta",
+                  "text": "Clinica Dental, bună ziua! Cu ce vă pot ajuta?"
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Bună ziua! În **ianuarie** avem camere libere."
+                  "text": "Bună ziua! Aș vrea o programare la dentist."
                 },
                 {
-                  "speaker": "Andrei",
-                  "text": "Excelent, stau până pe **20 ianuarie**."
+                  "speaker": "Asistenta",
+                  "text": "Bineînțeles. Ce zi vă convine?"
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Perfect, am notat perioada pentru dumneavoastră."
+                  "text": "Poate în prima săptămână din mai."
+                },
+                {
+                  "speaker": "Asistenta",
+                  "text": "Putem pe cinci mai, la ora zece."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Perfect. Cinci mai, ora zece. Mulțumesc!"
+                },
+                {
+                  "speaker": "Asistenta",
+                  "text": "Cu plăcere. Vă așteptăm."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "La revedere!"
                 }
               ]
             }
@@ -160,26 +179,38 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Exprimarea datei cu numerale cardinale** Pentru a spune data, folosim numeralul cardinal simplu, cu excepția primei zile: **întâi**.",
-                "Vreau să rezerv o cameră pentru **15 ianuarie**.",
+                "**1. Cum spunem data** În română spunem ziua cu număr cardinal, apoi luna. Pentru prima zi a lunii folosim **întâi** sau **unu**. Dacă răspundem la „Ce dată este azi?”, spunem **Astăzi este** + data. Pentru o dată în viitor, folosim **pe** sau **la**.",
+                "**Astăzi este 5 mai.** Ne vedem **pe 5 mai**. **La 1 mai** e liber.",
                 "Vezi Introducere în gramatică: Numeralul, data și ora."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Dată</th><th>Cum spunem</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>1 mai</strong></td><td><strong>întâi mai</strong></td><td><strong>Azi este întâi mai.</strong></td></tr><tr><td><strong>15 ianuarie</strong></td><td><strong>cincisprezece ianuarie</strong></td><td><strong>Plec pe 15 ianuarie.</strong></td></tr><tr><td><strong>20 ianuarie</strong></td><td><strong>douăzeci ianuarie</strong></td><td><strong>Stau până pe 20 ianuarie.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Dată</th><th>Cum spunem</th></tr></thead><tbody><tr><td><strong>1 mai</strong></td><td><strong>întâi mai / unu mai</strong></td></tr><tr><td><strong>5 mai</strong></td><td><strong>cinci mai</strong></td></tr><tr><td><strong>15 august</strong></td><td><strong>cincisprezece august</strong></td></tr><tr><td><strong>31 decembrie</strong></td><td><strong>treizeci și unu decembrie</strong></td></tr><tr><td><strong>24 ianuarie</strong></td><td><strong>douăzeci și patru ianuarie</strong></td></tr></tbody></table>"
             },
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**2. Prepoziția „în” cu lunile anului** Folosim prepoziția **în** înaintea numelui unei luni fără o zi anume.",
-                "În **ianuarie** avem camere libere.",
-                "Vezi Introducere în gramatică: Prepoziții și cazuri."
+                "**2. Impersonalul: „Se face ...”, „Este ...”** Pentru zile și date folosim verbul **a fi** la persoana a treia, fără subiect precizat: **Este** luni. **Este** 5 mai. Pentru evenimente folosim **se** + verbul: **se sărbătorește, se deschide**.",
+                "**Este** marți. **Se deschide** la ora nouă.",
+                "Vezi Introducere în gramatică: Diateza, verbe reflexive și impersonale."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Prepoziție</th><th>Lună</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>în</strong></td><td><strong>ianuarie</strong></td><td><strong>Merg la munte în ianuarie.</strong></td></tr><tr><td><strong>în</strong></td><td><strong>august</strong></td><td><strong>Avem concediu în august.</strong></td></tr><tr><td><strong>în</strong></td><td><strong>decembrie</strong></td><td><strong>Vine iarna în decembrie.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Fraza</th><th>Sens</th></tr></thead><tbody><tr><td><strong>Este luni.</strong></td><td><strong>ziua săptămânii</strong></td></tr><tr><td><strong>Este 5 mai.</strong></td><td><strong>data</strong></td></tr><tr><td><strong>Se închide la șase.</strong></td><td><strong>programul</strong></td></tr><tr><td><strong>Se sărbătorește la 1 decembrie.</strong></td><td><strong>un eveniment</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**3. Adverbe de timp** Pentru a spune când se petrece ceva folosim adverbe: **azi, mâine, poimâine, ieri, alaltăieri, în curând, mai târziu**.",
+                "**Azi** este luni. **Mâine** am programare. **Poimâine** plec.",
+                "Vezi Introducere în gramatică: Adverbul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Adverb</th><th>Sens</th></tr></thead><tbody><tr><td><strong>azi</strong></td><td><strong>ziua de azi</strong></td></tr><tr><td><strong>mâine</strong></td><td><strong>ziua următoare</strong></td></tr><tr><td><strong>poimâine</strong></td><td><strong>peste două zile</strong></td></tr><tr><td><strong>ieri</strong></td><td><strong>ziua trecută</strong></td></tr><tr><td><strong>alaltăieri</strong></td><td><strong>acum două zile</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -189,9 +220,9 @@
             {
               "type": "bullets",
               "items": [
-                "În limba română, numele lunilor se scriu cu literă mică.",
-                "Formatul obișnuit pentru dată este zi, lună, an.",
-                "Numai pentru prima zi a lunii spunem de obicei **întâi**, nu unu."
+                "Lunile românești sunt: ianuarie, februarie, martie, aprilie, mai, iunie, iulie, august, septembrie, octombrie, noiembrie, decembrie. Se scriu cu literă mică.",
+                "Data se scrie în ordinea zi–lună–an: 5.05.2025. În scrisul oficial se poate pune și ziua săptămânii.",
+                "Pentru ani spunem „în 2025” (două mii douăzeci și cinci)."
               ]
             }
           ]
@@ -202,7 +233,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În România, prima zi de primăvară se sărbătorește pe 1 martie. Oamenii oferă un mărțișor, simbol tradițional al primăverii și norocului. Ziua Națională a României este pe 1 decembrie."
+                "Calendarul bisericesc ortodox influențează viața multor români. Zilele de Paște, de Crăciun și de Sfânta Maria sunt zile libere, iar în satele mai tradiționale oamenii urmează și calendarul sărbătorilor sfinților.",
+                "Ziua de naștere se sărbătorește în familie sau cu prietenii, cu tort și cu urarea „La mulți ani!”. Onomastica, ziua sfântului al cărui nume îl porți, este uneori sărbătorită la fel de mult."
               ]
             }
           ]

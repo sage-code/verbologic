@@ -108,7 +108,7 @@
     },
     "ro": {
       "title": "Prânzul și cina",
-      "summary": "Această lecție prezintă denumirile meselor principale și exprimarea dorințelor culinare în limba română.",
+      "summary": "Înveți cum arată o masă obișnuită la prânz și la cină în România și cum comanzi felurile de mâncare.",
       "status": "draft",
       "sections": [
         {
@@ -117,7 +117,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Lecția prezintă vocabularul de bază pentru masa de prânz și pentru cină. Înveți să spui că îți este foame și să comanzi mâncare. Aceste expresii sunt utile zilnic la restaurant sau acasă."
+                "Prânzul este masa principală a zilei în multe familii, iar cina este mai ușoară. La prânz se mănâncă adesea o supă sau o ciorbă, apoi un fel principal.",
+                "În lecția aceasta înveți felurile unei mese românești și cum vorbești despre ele."
               ]
             }
           ]
@@ -128,27 +129,45 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Andrei și Ioana lucrează în aceeași clădire din Cluj-Napoca. Este ora unu și este timpul pentru masa de prânz. Cei doi colegi merg împreună la un restaurant apropiat."
+                "Elena merge cu prietenul ei Andrei la un restaurant din Sibiu. Meniul are ciorbe, supe, sarmale, mămăligă, friptură și salate. Elena alege o ciorbă de perișoare și apoi sarmale cu mămăligă. Andrei alege o supă de pui și o friptură de porc cu cartofi.",
+                "Pentru desert, ei împart un papanaș cu smântână și dulceață. Chelnerul îi întreabă dacă doresc cafea, iar ei spun că ceva dulce este de ajuns.",
+                "Observă ordinea: întâi felul întâi (supa sau ciorba), apoi felul doi, apoi desertul."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
+                  "speaker": "Chelnerul",
+                  "text": "Bună ziua! Ce doriți ca fel întâi?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Eu aș vrea o ciorbă de perișoare."
+                },
+                {
                   "speaker": "Andrei",
-                  "text": "**Mi-e foame** și vreau o masă caldă."
+                  "text": "Pentru mine, o supă de pui."
                 },
                 {
-                  "speaker": "Ioana",
-                  "text": "**Vreau să mănânc** o ciorbă de pui la prânz."
+                  "speaker": "Chelnerul",
+                  "text": "Și ca fel doi?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Sarmale cu mămăligă, vă rog."
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "Eu comand friptură cu salată și apă minerală."
+                  "text": "Eu doresc friptură de porc cu cartofi."
                 },
                 {
-                  "speaker": "Ioana",
-                  "text": "Mâncarea este delicioasă, iar la cină mâncăm acasă."
+                  "speaker": "Chelnerul",
+                  "text": "Doriți și ceva de băut?"
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Două pahare cu apă minerală, vă rog. Și un papanaș pentru desert, la jumătate."
                 }
               ]
             }
@@ -160,22 +179,38 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Exprimarea senzațiilor cu verbul a fi** Pentru senzații fizice folosim pronumele în dativ și verbul **a fi**.",
-                "**Mi-e foame** și vreau o masă caldă.",
-                "Vezi Introducere în gramatică: Prezentul, ființare și posesie."
+                "**1. Plural la substantive** Numele mâncărurilor se schimbă la plural cu sfârșitul **-e, -i** sau **-uri**. Nu există o regulă simplă, deci învățăm pluralul odată cu cuvântul.",
+                "o **ciorbă**, două **ciorbe**; o **supă**, două **supe**; o **friptură**, două **fripturi**.",
+                "Vezi Introducere în gramatică: Substantivul: tipuri, gen și număr."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Senzație</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>foame</strong></td><td><strong>**Mi-e foame**.</strong></td></tr><tr><td><strong>sete</strong></td><td><strong>**Mi-e sete**.</strong></td></tr><tr><td><strong>cald</strong></td><td><strong>**Mi-e cald**.</strong></td></tr><tr><td><strong>frig</strong></td><td><strong>**Mi-e frig**.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>ciorbă</strong></td><td><strong>ciorbe</strong></td></tr><tr><td><strong>supă</strong></td><td><strong>supe</strong></td></tr><tr><td><strong>friptură</strong></td><td><strong>fripturi</strong></td></tr><tr><td><strong>sarma</strong></td><td><strong>sarmale</strong></td></tr><tr><td><strong>cartof</strong></td><td><strong>cartofi</strong></td></tr><tr><td><strong>desert</strong></td><td><strong>deserturi</strong></td></tr></tbody></table>"
             },
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**2. Verbul a vrea și conjunctivul** Când verbul **a vrea** este urmat de un alt verb, folosim conjunctivul cu particula **să**.",
-                "**Vreau să mănânc** o ciorbă de pui la prânz.",
-                "Vezi Introducere în gramatică: Modurile: imperativ, conjunctiv și condițional."
+                "**2. „Ceva”, „nimic”, „cineva”, „nimeni”** Pronumele nehotărâte arată un lucru sau o persoană neprecizată: **ceva, cineva, tot, toți, fiecare**. Când negăm, folosim **nimic** sau **nimeni** cu verbul la negativ.",
+                "Doriți **ceva** de băut? **Fiecare** primește o porție. **Nu** vrea **nimeni** desert.",
+                "Vezi Introducere în gramatică: Alte pronume."
               ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Afirmativ</th><th>Negativ</th></tr></thead><tbody><tr><td><strong>ceva</strong></td><td><strong>nimic</strong></td></tr><tr><td><strong>cineva</strong></td><td><strong>nimeni</strong></td></tr><tr><td><strong>toți</strong></td><td><strong>nimeni</strong></td></tr><tr><td><strong>undeva</strong></td><td><strong>nicăieri</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**3. Articole și cantități** Pentru o comandă folosim articolul nehotărât **un / o / niște**. Pentru o parte dintr-un fel spunem **o porție, o bucată, o felie**.",
+                "**O** porție de sarmale, **o** bucată de friptură, **niște** cartofi.",
+                "Vezi Introducere în gramatică: Articole și determinanți."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Fraza</th><th>Sens</th></tr></thead><tbody><tr><td><strong>o porție de sarmale</strong></td><td><strong>cantitate servită</strong></td></tr><tr><td><strong>o bucată de pâine</strong></td><td><strong>parte</strong></td></tr><tr><td><strong>niște cartofi</strong></td><td><strong>cantitate nedefinită</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -185,9 +220,9 @@
             {
               "type": "bullets",
               "items": [
-                "În română spunem **mi-e foame**, nu folosim verbul a avea.",
-                "Mesele folosesc prepoziția „la”: spunem **la prânz** și **la cină**.",
-                "După verbul a vrea nu folosim niciodată infinitivul cu „a”."
+                "„Felul întâi” este supa sau ciorba, „felul doi” este mâncarea principală, iar „desertul” vine la sfârșit.",
+                "La o masă românească, pâinea se servește mereu pe lângă ciorbă.",
+                "Cuvântul „sarma” este singularul; mâncarea se numește cel mai des „sarmale”, la plural."
               ]
             }
           ]
@@ -198,7 +233,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În România, prânzul este de obicei cea mai consistentă masă a zilei. Masa de prânz începe foarte des cu o ciorbă caldă. La restaurant, bacșișul obișnuit este de aproximativ zece la sută."
+                "Sarmalele, adică foi de varză sau de viță umplute cu carne și orez, sunt preparatul românesc tradițional de sărbători. Se servesc cu mămăligă și smântână.",
+                "Ciorba este o supă acrită cu bors, cu lămâie sau cu oțet, iar ciorba de burtă și ciorba de perișoare sunt printre cele mai cunoscute. Cina, în schimb, este de obicei o masă mai ușoară: salată, brânză, cartofi sau omletă."
               ]
             }
           ]

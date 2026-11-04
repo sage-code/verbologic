@@ -3,15 +3,15 @@
   "order": 0,
   "minutes": 5,
   "terms": {
-    "en": "Origins and early history of English",
-    "es": "Orígenes e historia temprana del inglés",
-    "it": "Origini e storia antica dell’inglese",
-    "fr": "Origines et histoire ancienne de l’anglais",
-    "de": "Ursprünge und Frühgeschichte des Englischen",
-    "ru": "Истоки и ранняя история английского языка",
-    "hu": "Az angol nyelv eredete és korai története",
-    "pt": "Origens e história antiga do inglês",
-    "ro": "Originile și istoria timpurie a limbii engleze"
+    "en": "Origins and early history of the language",
+    "es": "Orígenes e historia temprana de la lengua",
+    "it": "Origini e prima storia della lingua",
+    "fr": "Origines et premiers temps de la langue",
+    "de": "Ursprünge und Frühgeschichte der Sprache",
+    "ru": "Происхождение и ранняя история языка",
+    "hu": "A nyelv eredete és korai története",
+    "pt": "Origens e história inicial da língua",
+    "ro": "Originile și istoria timpurie a limbii"
   },
   "grammar": [
     "LT02T11",
@@ -106,8 +106,8 @@
       ]
     },
     "ro": {
-      "title": "Originile și istoria timpurie a limbii engleze",
-      "summary": "Această lecție prezintă originile limbii române și folosirea timpurilor trecute în povestirea istorică.",
+      "title": "Originile și istoria timpurie a limbii",
+      "summary": "Înveți cum s-a format limba română din latina populară, ce influențe a primit și cum a devenit limbă scrisă, folosind trecutul, pasivul și propozițiile temporale și cauzale.",
       "status": "draft",
       "sections": [
         {
@@ -116,7 +116,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În această lecție descoperiți cum s-a format limba română din limba latină. Învățați despre influențele istorice vechi din spațiul românesc. Aceste cunoștințe vă ajută să povestiți fapte din trecut."
+                "Româna este o limbă romanică, adică o limbă născută din latina vorbită. Ea este cea mai răsăriteană dintre limbile romanice și a păstrat multe trăsături vechi, dar a primit și influențe slave, grecești, turcești și, mai târziu, franceze.",
+                "În lecția aceasta citești povestea limbii și înveți să povestești fapte din trecut, să spui ce s-a întâmplat înainte și după, și să explici de ce."
               ]
             }
           ]
@@ -127,7 +128,9 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Limba română este o limbă romanică din estul Europei. Romanii au sosit în Dacia și au adus limba latină populară. În timp ce oamenii vorbeau latina, au păstrat și câteva cuvinte dacice. Mai târziu, comunitățile slave au influențat vocabularul acestei limbi."
+                "Povestea începe în secolul al II-lea. Pe teritoriul de azi al României trăiau dacii, un popor care vorbea o limbă indo-europeană. Împăratul Traian a cucerit regiunea în două războaie, între anii 101 și 106, iar Dacia a devenit provincie romană. După ce romanii au adus soldați, funcționari și coloniști, latina populară s-a răspândit rapid.",
+                "În anul 271 sau 275, armata și administrația romană s-au retras la sud de Dunăre, dar populația romanizată a rămas. Ea a continuat să vorbească latina populară, care s-a schimbat încet, sub influența vecinilor. Din secolul al VI-lea, mai multe triburi slave s-au stabilit în regiune, iar limba lor a lăsat urme adânci în vocabular, de pildă în cuvintele „iubi”, „slab”, „glas” și „vremea”.",
+                "Cel mai vechi text păstrat în limba română este o scrisoare scrisă de boierul Neacșu din Câmpulung, pe la 1521, către judele Brașovului. Scrisoarea a fost redactată cu litere chirilice, pentru că limba bisericii și a cancelariei era atunci slavona. Tot în Brașov, în secolul al XVI-lea, diaconul Coresi a tipărit cărți religioase în limba română. Alfabetul latin a fost adoptat pe deplin în a doua jumătate a secolului al XIX-lea."
               ]
             },
             {
@@ -135,19 +138,35 @@
               "lines": [
                 {
                   "speaker": "Radu",
-                  "text": "Unde a fost scris primul text în limba română?"
+                  "text": "Elena, când a început limba română?"
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Scrisoarea lui Neacșu a fost trimisă din orașul Câmpulung în secolul al șaisprezecelea."
+                  "text": "Nu există o dată exactă. Ea s-a format încet, după ce romanii au cucerit Dacia."
                 },
                 {
                   "speaker": "Radu",
-                  "text": "După ce am citit textul, am recunoscut multe cuvinte latine."
+                  "text": "Atunci vorbim latina populară?"
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Românii foloseau deja o limbă apropiată de cea de astăzi."
+                  "text": "Da, dar nu limba scrisă a lui Cicero, ci latina vorbită de soldați și de coloniști."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Și când a apărut prima scrisoare în română?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Prin 1521. A fost scrisă de boierul Neacșu din Câmpulung."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Și s-a scris cu alfabetul latin?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Nu, cu litere chirilice. Alfabetul latin s-a impus mult mai târziu."
                 }
               ]
             }
@@ -159,30 +178,38 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Trecutul pentru descrieri: imperfectul** Folosim timpul **imperfect** pentru acțiuni continue sau pentru descrierea contextului în trecut.",
-                "În timp ce oamenii **vorbeau** latina, au păstrat și câteva cuvinte dacice.",
+                "**1. Trecutul în povestire: perfectul compus și imperfectul** Când povestim fapte din trecut, folosim **perfectul compus** pentru acțiuni terminate și **imperfectul** pentru situații care durau sau pentru descrieri. Perfectul compus se formează cu **a avea** la prezent și participiul verbului.",
+                "Împăratul Traian **a cucerit** Dacia. Dacii **vorbeau** o limbă indo-europeană.",
                 "Vezi Introducere în gramatică: Timpurile trecute și aspectul."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Pronume</th><th>A vorbi</th><th>A citi</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>vorbeam</strong></td><td><strong>citeam</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>vorbeai</strong></td><td><strong>citeai</strong></td></tr><tr><td><strong>el / ea</strong></td><td><strong>vorbea</strong></td><td><strong>citea</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>vorbeam</strong></td><td><strong>citeam</strong></td></tr><tr><td><strong>voi</strong></td><td><strong>vorbeați</strong></td><td><strong>citeați</strong></td></tr><tr><td><strong>ei / ele</strong></td><td><strong>vorbeau</strong></td><td><strong>citeau</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Timp</th><th>Formare</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>perfect compus</strong></td><td><strong>am / ai / a / am / ați / au + participiu</strong></td><td><strong>romanii au cucerit</strong></td></tr><tr><td><strong>imperfect</strong></td><td><strong>rădăcina + -a, -ai, -a, -am, -ați, -au</strong></td><td><strong>dacii vorbeau</strong></td></tr><tr><td><strong>perfect compus (alt exemplu)</strong></td><td><strong>a + participiu</strong></td><td><strong>Coresi a tipărit</strong></td></tr></tbody></table>"
             },
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**2. Diateza pasivă în trecut** Formăm diateza pasivă cu verbul auxiliar **a fi** și participiul verbului.",
-                "Scrisoarea lui Neacșu **a fost trimisă** din orașul Câmpulung în secolul al șaisprezecelea.",
+                "**2. Pasivul și impersonalul: „a fost scris”, „se spune”** Pasivul se formează cu **a fi** și participiul, acordat cu subiectul. Când autorul nu contează, folosim și construcția cu **se**.",
+                "Scrisoarea **a fost scrisă** în 1521. **Se spune** că limba română vine din latină.",
                 "Vezi Introducere în gramatică: Diateza, verbe reflexive și impersonale."
               ]
             },
             {
+              "type": "table",
+              "html": "<table><thead><tr><th>Construcție</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>a fi + participiu</strong></td><td><strong>Scrisoarea a fost scrisă cu litere chirilice.</strong></td></tr><tr><td><strong>se + verb</strong></td><td><strong>Se vorbea latina populară.</strong></td></tr><tr><td><strong>participiu acordat</strong></td><td><strong>Cărțile au fost tipărite la Brașov.</strong></td></tr></tbody></table>"
+            },
+            {
               "type": "paragraphs",
               "paragraphs": [
-                "**3. Conjuncții temporale pentru acțiuni legate** Cuvinte precum **după ce** leagă două propoziții și arată ordinea acțiunilor.",
-                "**După ce** am citit textul, am recunoscut multe cuvinte latine.",
+                "**3. Propoziții temporale și cauzale** Pentru ordinea faptelor folosim **după ce**, **înainte să**, **când**, **până când**. Pentru cauză folosim **pentru că**, **deoarece**, **din cauză că**. După „după ce” verbul rămâne la indicativ.",
+                "**După ce** romanii au cucerit Dacia, latina s-a răspândit. Scrisoarea a fost scrisă în chirilică **pentru că** limba cancelariei era slavona.",
                 "Vezi Introducere în gramatică: Conjuncțiile și legarea propozițiilor."
               ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Rol</th><th>Conjuncții</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>timp (înainte)</strong></td><td><strong>înainte să, până să</strong></td><td><strong>Înainte să vină romanii, locuiau dacii.</strong></td></tr><tr><td><strong>timp (după)</strong></td><td><strong>după ce</strong></td><td><strong>După ce au plecat, populația a rămas.</strong></td></tr><tr><td><strong>cauză</strong></td><td><strong>pentru că, deoarece</strong></td><td><strong>S-a schimbat pentru că a primit influențe.</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -192,9 +219,9 @@
             {
               "type": "bullets",
               "items": [
-                "Cuvintele de bază pentru viața de zi cu zi provin din latină, de exemplu **apă** sau **casă**.",
-                "La diateza pasivă, participiul se acordă în gen și număr cu subiectul.",
-                "Spre deosebire de engleză, româna atașează articolul hotărât la sfârșitul substantivului."
+                "Verbele de la perfectul compus nu se schimbă după gen la persoana a treia, dar participiul se acordă într-un pasiv: „scrisoarea a fost scrisă”, „cărțile au fost tipărite”.",
+                "„Chirilic” înseamnă scris cu alfabetul chirilic. Românii au folosit acest alfabet până în secolul al XIX-lea.",
+                "Cuvântul „limbă” înseamnă și organul din gură, dar în acest context înseamnă „idiom”."
               ]
             }
           ]
@@ -205,7 +232,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Scrisoarea lui Neacșu din 1521 este cel mai vechi document păstrat în limba română. Acest document istoric a fost descoperit în arhivele orașului Brașov. Textul a fost scris cu alfabetul chirilic, folosit mult timp în Țările Române."
+                "Mulți gânditori ardeleni din secolul al XVIII-lea, în frunte cu cei ai Școlii Ardelene, au susținut cu argumente istorice și lingvistice originea latină a românilor. Ei au contribuit la introducerea alfabetului latin și la scrierea primelor gramatici.",
+                "Poetul Mihai Eminescu (1850–1889) este considerat de mulți cel mai mare poet al limbii române. Limba lui poetică este încă folosită ca model de limbă literară în școlile românești."
               ]
             }
           ]

@@ -112,7 +112,7 @@
     },
     "ro": {
       "title": "Micul dejun",
-      "summary": "În această lecție înveți cuvinte despre micul dejun și cum ceri politicos mâncare dimineața.",
+      "summary": "Înveți ce mănâncă și ce bea românii la micul dejun, cu cantități și cu cuvintele „niște”, „puțin”, „ceva”.",
       "status": "draft",
       "sections": [
         {
@@ -121,7 +121,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Această lecție prezintă alimentele obișnuite pentru micul dejun în România. Înveți să ceri politicos mâncare și băuturi la masă. Aceste expresii simple te ajută la restaurant sau acasă."
+                "Micul dejun românesc este simplu și rapid. Mulți oameni beau doar o cafea, dar cei care au timp mănâncă pâine cu unt sau cu gem, ouă sau un iaurt.",
+                "În lecția aceasta înveți numele alimentelor de dimineață și spui cât și ce vrei."
               ]
             }
           ]
@@ -132,27 +133,45 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Andrei și Elena iau micul dejun sâmbătă dimineața. Pe masă sunt pâine, brânză, unt și gem. Ei vorbesc despre ce vor să mănânce."
+                "Andrei și Elena se opresc într-o cafenea din Brașov înainte de curs. Se așază la o masă lângă fereastră și se uită pe meniu. Elena alege o omletă cu cașcaval și o ceașcă de ceai cu lămâie. Andrei vrea un covrig cald și un cappuccino.",
+                "Chelnerița le aduce comanda repede. Elena întreabă dacă pot primi și puțină brânză de vaci, iar chelnerița spune că le aduce imediat.",
+                "Observă cuvintele care arată cantitatea: „niște brânză”, „puțin lapte”, „un covrig”, „o felie de pâine”."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
-                  "speaker": "Elena",
-                  "text": "Bună dimineața, Andrei! Vrei **niște** cafea?"
-                },
-                {
-                  "speaker": "Andrei",
-                  "text": "Bună dimineața! Da, te rog, și **aș dori** niște pâine cu unt."
+                  "speaker": "Chelnerița",
+                  "text": "Bună dimineața! Ce doriți să mâncați?"
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Avem și brânză proaspătă sau ouă fierte."
+                  "text": "Aș vrea o omletă cu cașcaval și un ceai cu lămâie."
+                },
+                {
+                  "speaker": "Chelnerița",
+                  "text": "Perfect. Dumneavoastră ce doriți?"
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "Mulțumesc, iau doar puțină brânză și un ceai fierbinte."
+                  "text": "Mie un covrig cald și un cappuccino, vă rog."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Putem primi și niște brânză de vaci?"
+                },
+                {
+                  "speaker": "Chelnerița",
+                  "text": "Sigur, vă aduc imediat. Doriți și puțin miere?"
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Da, mulțumesc. Și puțină apă, dacă se poate."
+                },
+                {
+                  "speaker": "Chelnerița",
+                  "text": "Poftă bună!"
                 }
               ]
             }
@@ -164,26 +183,38 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Articolul partitiv „niște”** Folosim cuvântul **niște** înaintea unui substantiv pentru a exprima o cantitate neprecizată.",
-                "Bună dimineața, Andrei! Vrei **niște** cafea?",
+                "**1. Substantive numărabile și nenumărabile** Unele alimente se pot număra: **un ou, două ouă, un covrig**. Altele nu se pot număra și le măsurăm cu **puțin, mult, o felie, o ceașcă**. Pentru acestea folosim adesea **niște** sau **puțin**.",
+                "**Un** ou, **două** ouă; **puțin** lapte, **o** ceașcă de ceai.",
+                "Vezi Introducere în gramatică: Substantivul: tipuri, gen și număr."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Numărabil</th><th>Nenumărabil</th></tr></thead><tbody><tr><td><strong>un ou, două ouă</strong></td><td><strong>puțin lapte, mult lapte</strong></td></tr><tr><td><strong>un covrig, trei covrigi</strong></td><td><strong>puțină apă, multă apă</strong></td></tr><tr><td><strong>o felie, două felii</strong></td><td><strong>puțină miere</strong></td></tr><tr><td><strong>un măr, patru mere</strong></td><td><strong>puțin unt</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Cantități: niște, puțin, mult, destul** Cuvintele **niște, puțin, mult, destul** stau înaintea substantivului și se acordă în gen cu el. Pentru unul spunem **un, o**; pentru mai multe, **niște**.",
+                "Aș vrea **niște** brânză. Vrei **puțin** lapte? Am **destulă** pâine.",
                 "Vezi Introducere în gramatică: Articole și determinanți."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Formă</th><th>Exemplu</th><th>Semnificație</th></tr></thead><tbody><tr><td><strong>niște + substantiv neutru</strong></td><td><strong>niște ceai</strong></td><td><strong>o cantitate de ceai</strong></td></tr><tr><td><strong>niște + substantiv feminin</strong></td><td><strong>niște pâine</strong></td><td><strong>o parte din pâine</strong></td></tr><tr><td><strong>niște + substantiv plural</strong></td><td><strong>niște ouă</strong></td><td><strong>câteva ouă</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Masculin / neutru</th><th>Feminin</th><th>Plural</th></tr></thead><tbody><tr><td><strong>puțin lapte</strong></td><td><strong>puțină apă</strong></td><td><strong>puține ouă</strong></td></tr><tr><td><strong>mult unt</strong></td><td><strong>multă brânză</strong></td><td><strong>multe ouă</strong></td></tr><tr><td><strong>destul zahăr</strong></td><td><strong>destulă miere</strong></td><td><strong>destule ouă</strong></td></tr></tbody></table>"
             },
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**2. Exprimarea politicoasă a dorinței** Folosim verbul la modul condițional **aș dori** pentru a cere ceva politicos.",
-                "Bună dimineața! Da, te rog, și **aș dori** niște pâine cu unt.",
-                "Vezi Introducere în gramatică: Modurile: imperativ, conjunctiv și condițional."
+                "**3. „Ceva” și „nimic”** Pentru un lucru neprecizat folosim **ceva**. Pentru nimic, folosim **nimic** cu verbul la negativ. În română se folosește dubla negație: **nu** + verb + **nimic**.",
+                "Vrei **ceva** de băut? **Nu** mănânc **nimic** dimineața.",
+                "Vezi Introducere în gramatică: Alte pronume."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Persoană</th><th>Formă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Eu</strong></td><td><strong>aș dori</strong></td><td><strong>Aș dori un ceai.</strong></td></tr><tr><td><strong>Tu</strong></td><td><strong>ai dori</strong></td><td><strong>Ai dori o cafea?</strong></td></tr><tr><td><strong>Noi</strong></td><td><strong>am dori</strong></td><td><strong>Am dori niște pâine.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Afirmativ</th><th>Negativ</th></tr></thead><tbody><tr><td><strong>Mănânc ceva.</strong></td><td><strong>Nu mănânc nimic.</strong></td></tr><tr><td><strong>Ai ceva de băut?</strong></td><td><strong>Nu am nimic de băut.</strong></td></tr><tr><td><strong>Comand ceva dulce.</strong></td><td><strong>Nu comand nimic dulce.</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -193,8 +224,9 @@
             {
               "type": "bullets",
               "items": [
-                "În limba română nu folosim un cuvânt special precum «any» în propoziții negative.",
-                "Forma «aș dori» este mai politicoasă decât «vreau» atunci când comanzi mâncare."
+                "„Cașcaval” este brânză galbenă; „telemea” este brânză sărată albă; „brânză de vaci” este brânză proaspătă.",
+                "Românii spun „Poftă bună!” înainte de masă, iar răspunsul este „Mulțumesc, la fel!”.",
+                "Un „covrig” este o franzelă răsucită, presărată cu susan sau cu sare, vândută pe stradă."
               ]
             }
           ]
@@ -205,7 +237,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În România, micul dejun tradițional include adesea pâine, unt, brânză telemea și roșii. Mulți români preferă să bea dimineața o cafea caldă sau un ceai cu lămâie."
+                "Micul dejun românesc tradițional este adesea o felie de pâine cu unt, brânză, salam sau ouă, cu ceai sau cafea. La țară, laptele proaspăt, mămăliga cu lapte sau cu brânză sunt frecvente.",
+                "Covrigii din Brașov și din alte orașe se vând fierbinți dimineața, în chioșcuri sau în brutării. Mulți oameni merg la serviciu cu un covrig în mână."
               ]
             }
           ]
