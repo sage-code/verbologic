@@ -111,7 +111,7 @@
     },
     "ro": {
       "title": "Vizita la cineva acasă",
-      "summary": "Înveți expresii utile și formule de politețe pentru o vizită acasă la prieteni în România.",
+      "summary": "Înveți ce se spune și ce se face când intri în casa cuiva: formule de primire, imperativul politicos și viitorul.",
       "status": "draft",
       "sections": [
         {
@@ -120,7 +120,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Această lecție prezintă expresiile folosite când mergi în vizită la cineva acasă. Înveți cum să saluți gazda, cum să accepți o cafea și cum să fii politicos. Aceste formule te ajută să te simți confortabil în orice casă românească."
+                "O vizită la cineva acasă în România are propriile reguli nescrise: ce spui la ușă, cum te comporți, ce aduci și când pleci.",
+                "În această lecție înveți formulele gazdei și ale oaspetelui și imperativul de politețe."
               ]
             }
           ]
@@ -131,31 +132,45 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Elena merge în vizită la Andrei, un coleg de facultate din București. Andrei deschide ușa și o poftește în casă cu un zâmbet."
+                "Andrei vine pentru prima dată în apartamentul Elenei, la cină. Sună la ușă și ea îl întâmpină cu zâmbetul pe buze. El îi dă un buchet de flori, iar ea îl invită înăuntru.",
+                "Elena îi arată camerele și îi oferă papuci, pentru că în multe case românești pantofii se lasă la intrare. Apoi îl roagă să ia loc la masă.",
+                "Observă formulele gazdei, precum „Poftim”, „Intră” și „Fii ca acasă”, și răspunsurile oaspetelui."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
+                  "speaker": "Elena",
+                  "text": "Bine ai venit, Andrei! Intră, te rog."
+                },
+                {
                   "speaker": "Andrei",
-                  "text": "Bună, Elena! **Intră**, te rog, și **ia** loc pe canapea!"
+                  "text": "Bună seara, Elena! Poftim, acestea sunt pentru tine."
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Bună, Andrei! Mulțumesc pentru invitație. Am adus niște prăjituri."
+                  "text": "Ce flori frumoase! Mulțumesc mult. Poftim papuci, dacă vrei."
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "**Vrei să bei** o cafea sau un ceai cald?"
+                  "text": "Mulțumesc. Ce casă frumoasă ai!"
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Aș dori o cafea cu lapte, te rog."
+                  "text": "Mulțumesc. Fii ca acasă. Ia loc la masă, te rog."
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "**Servește-te** cu o prăjitură până când pregătesc cafeaua!"
+                  "text": "Miroase minunat. Ce ai gătit?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Sarmale cu mămăligă. Mai ia puțin, nu te sfii!"
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Mulțumesc, sunt delicioase. O să mai iau o porție."
                 }
               ]
             }
@@ -167,26 +182,26 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Imperativul ca invitație politicoasă** Folosim modul **imperativ** pentru a face o invitație prietenoasă, nu doar pentru a da un ordin.",
-                "Bună, Elena! **Intră**, te rog, și **ia** loc pe canapea!",
+                "**1. Imperativul de politețe** Gazda folosește imperativul cu **te rog** (pentru „tu”) sau **vă rog** (pentru „voi” și „dumneavoastră”), ca să sune politicos. Imperativul negativ se formează cu **nu** + infinitivul fără „a” la „tu”, sau **nu** + forma obișnuită la „voi”.",
+                "**Intră**, te rog! **Ia loc**! **Nu te sfii**!",
                 "Vezi Introducere în gramatică: Modurile: imperativ, conjunctiv și condițional."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Imperativ</th><th>Sensul invitației</th><th>Forma de politețe (dumneavoastră)</th></tr></thead><tbody><tr><td><strong>Intră!</strong></td><td><strong>Poftește în casă</strong></td><td><strong>Intrați!</strong></td></tr><tr><td><strong>Ia loc!</strong></td><td><strong>Așază-te confortabil</strong></td><td><strong>Luați loc!</strong></td></tr><tr><td><strong>Servește-te!</strong></td><td><strong>Ia ceva de mâncare</strong></td><td><strong>Serviți-vă!</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>tu</th><th>voi / dumneavoastră</th></tr></thead><tbody><tr><td><strong>Intră, te rog!</strong></td><td><strong>Intrați, vă rog!</strong></td></tr><tr><td><strong>Ia loc!</strong></td><td><strong>Luați loc!</strong></td></tr><tr><td><strong>Servește-te!</strong></td><td><strong>Serviți-vă!</strong></td></tr><tr><td><strong>Nu te sfii!</strong></td><td><strong>Nu vă sfiiți!</strong></td></tr></tbody></table>"
             },
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**2. Întrebări cu verbul a vrea și conjunctivul** Când este urmat de un alt verb, verbul **a vrea** cere conjuncția **să** și modul conjunctiv.",
-                "**Vrei să bei** o cafea sau un ceai cald?",
-                "Vezi Introducere în gramatică: Verbe modale și moduri nepersonale."
+                "**2. Viitorul pentru ce urmează** Gazda spune ce urmează să se întâmple cu **o să**. Oaspetele răspunde tot cu **o să** când promite ceva.",
+                "**O să** vă arăt casa. **O să** mai iau o porție.",
+                "Vezi Introducere în gramatică: Viitorul."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Întrebare de la gazdă</th><th>Răspuns afirmativ</th><th>Răspuns negativ</th></tr></thead><tbody><tr><td><strong>Vrei să bei ceva?</strong></td><td><strong>Da, aș dori o cafea.</strong></td><td><strong>Nu, mulțumesc.</strong></td></tr><tr><td><strong>Vrei să mănânci?</strong></td><td><strong>Da, te rog.</strong></td><td><strong>Nu, am mâncat deja.</strong></td></tr><tr><td><strong>Vreți să intrați?</strong></td><td><strong>Da, mulțumim frumos.</strong></td><td><strong>Nu încă, așteptăm puțin.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Cine vorbește</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>gazda</strong></td><td><strong>O să vă arăt casa.</strong></td></tr><tr><td><strong>gazda</strong></td><td><strong>O să aduc desertul.</strong></td></tr><tr><td><strong>oaspetele</strong></td><td><strong>O să mai iau puțin.</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -196,9 +211,9 @@
             {
               "type": "bullets",
               "items": [
-                "În limba română nu folosim infinitivul după a vrea: spunem 'vrei să bei', niciodată 'vrei a bea'.",
-                "Formula 'te rog' sau 'vă rog' transformă orice imperativ într-o invitație foarte politicoasă.",
-                "Când oferi un cadou, spui simplu 'Poftim!' sau 'Am adus ceva dulce'."
+                "„Poftim” se spune când oferi ceva. „Poftiți” este varianta de politețe pentru mai multe persoane sau pentru „dumneavoastră”.",
+                "„Fii ca acasă” înseamnă „simte-te liber”. Este una dintre cele mai calde urări ale unei gazde.",
+                "Dacă refuzi o porție, gazda va insista; e politicos să accepți măcar puțin."
               ]
             }
           ]
@@ -209,7 +224,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În România, oaspeții aduc de obicei un mic cadou, cum ar fi flori, ciocolată sau o sticlă de vin. De asemenea, florile oferite cadou trebuie să fie mereu în număr impar. În multe case românești, este un obicei comun să te descalți la intrare."
+                "În multe case românești se descalță la intrare, iar gazda oferă papuci. Dacă nu ți se oferă, întreabă politicos: „Mă descalț?”",
+                "Un oaspete aduce de obicei flori pentru gazdă și ceva dulce pentru masă, un tort sau o ciocolată. Într-o familie tradițională, gazda poate oferi dulceață cu un pahar cu apă ca primă primire."
               ]
             }
           ]

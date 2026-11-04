@@ -111,7 +111,7 @@
     },
     "ro": {
       "title": "Să ne facem prieteni",
-      "summary": "În această lecție învățăm cum să începem o conversație simplă și să ne facem prieteni.",
+      "summary": "Înveți cum te împrietenești cu cineva nou: cum spui că vrei să vă vedeți din nou, cu „vrei să” și cu viitorul „o să”.",
       "status": "draft",
       "sections": [
         {
@@ -120,7 +120,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Lecția prezintă câteva formule simple pentru a face cunoștință cu un vecin nou. Veți învăța să spuneți unde locuiți și ce activități vă plac. Aceste expresii vă ajută să începeți conversații prietenoase în limba română."
+                "Să-ți faci prieteni într-o țară nouă înseamnă mai întâi să faci primul pas. În România, oamenii sunt de obicei deschiși și curioși față de străini.",
+                "În această lecție înveți să propui o întâlnire și să spui ce o să faci."
               ]
             }
           ]
@@ -131,35 +132,45 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Dan se întâlnește pe scară cu o vecină nouă. El dorește să facă cunoștință cu ea. Cei doi vecini vorbesc despre bloc și despre ocupațiile lor."
+                "Andrei a început un curs de română în București. După prima oră, el vorbește cu o colegă, Elena, la ieșirea din clasă. Au făcut deja cunoștință, iar acum Andrei vrea să o cunoască mai bine.",
+                "El nu știe mulți oameni în oraș și îi propune Elenei să bea împreună o cafea. Elena acceptă bucuroasă și îi spune că o să-i arate câteva locuri frumoase din oraș.",
+                "Observă cum se formează propunerile și planurile: „Vrei să bei o cafea?” și „O să-ți arăt orașul”."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
-                  "speaker": "Dan",
-                  "text": "Bună ziua! Locuiți aici de curând?"
+                  "speaker": "Andrei",
+                  "text": "Elena, ai timp după curs? Vrei să bem o cafea?"
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Bună ziua! Da, locuiesc la etajul trei de o săptămână."
+                  "text": "Da, cu plăcere! Cunosc o cafenea foarte bună aici aproape."
                 },
                 {
-                  "speaker": "Dan",
-                  "text": "Încântat de cunoștință! Eu sunt Dan și lucrez în IT."
-                },
-                {
-                  "speaker": "Elena",
-                  "text": "Încântată! Eu sunt Elena și sunt profesoară."
-                },
-                {
-                  "speaker": "Dan",
-                  "text": "În timpul liber, îmi place să alerg în parc."
+                  "speaker": "Andrei",
+                  "text": "Perfect. Sunt nou în București și nu cunosc multe locuri."
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Minunat, și mie îmi place să fac sport!"
+                  "text": "Nu-i problemă. O să-ți arăt orașul în weekend."
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Chiar așa? Mulțumesc, e foarte drăguț din partea ta!"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Și eu am fost nouă aici acum doi ani. Știu cum e."
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Atunci ne vedem mâine la curs. Și vrei să-mi dai numărul tău de telefon?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Sigur. Hai să ne vedem și vineri, la cafea."
                 }
               ]
             }
@@ -171,26 +182,26 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Prezentul pentru fapte obișnuite** Folosim timpul **prezent** pentru a spune unde locuim sau unde lucrăm.",
-                "Da, locuiesc la etajul trei de o săptămână.",
-                "Vezi Introducere în gramatică: Prezentul, ființare și posesie."
-              ]
-            },
-            {
-              "type": "table",
-              "html": "<table><thead><tr><th>Persoană</th><th>A locui</th><th>A lucra</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>locuiesc</strong></td><td><strong>lucrez</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>locuiești</strong></td><td><strong>lucrezi</strong></td></tr><tr><td><strong>el / ea</strong></td><td><strong>locuiește</strong></td><td><strong>lucrează</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>locuim</strong></td><td><strong>lucrăm</strong></td></tr></tbody></table>"
-            },
-            {
-              "type": "paragraphs",
-              "paragraphs": [
-                "**2. Preferințe cu să** După verbul **îmi place** folosim conjunctivul cu **să**, nu infinitivul.",
-                "În timpul liber, îmi place să alerg în parc.",
+                "**1. „Vrei să” + verbul** Când propunem ceva sau spunem ce ne dorim, folosim un verb de dorință urmat de **să** și de alt verb la prezent. Verbul după „să” își schimbă forma după persoană.",
+                "**Vrei să** bem o cafea? Eu **vreau să** învăț româna.",
                 "Vezi Introducere în gramatică: Modurile: imperativ, conjunctiv și condițional."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Pronume în dativ</th><th>Formă</th><th>Exemplu cu să</th></tr></thead><tbody><tr><td><strong>mie</strong></td><td><strong>îmi place</strong></td><td><strong>îmi place să alerg</strong></td></tr><tr><td><strong>ție</strong></td><td><strong>îți place</strong></td><td><strong>îți place să citești</strong></td></tr><tr><td><strong>lui / ei</strong></td><td><strong>îi place</strong></td><td><strong>îi place să gătească</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Persoana</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>Vreau să merg.</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>Vrei să vii?</strong></td></tr><tr><td><strong>el / ea</strong></td><td><strong>Vrea să stea acasă.</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>Vrem să ne vedem.</strong></td></tr><tr><td><strong>voi</strong></td><td><strong>Vreți să plecați?</strong></td></tr><tr><td><strong>ei / ele</strong></td><td><strong>Vor să mănânce.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Viitorul cu „o să”** În vorbire, viitorul se formează cel mai des cu **o să** urmat de verbul la prezent. Forma „o să” nu se schimbă după persoană.",
+                "**O să** vin la ora patru. **O să** vă arăt orașul.",
+                "Vezi Introducere în gramatică: Viitorul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Persoana</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>O să vin mâine.</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>O să vii și tu?</strong></td></tr><tr><td><strong>el / ea</strong></td><td><strong>O să sosească la șase.</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>O să ne vedem vineri.</strong></td></tr><tr><td><strong>ei / ele</strong></td><td><strong>O să mănânce acasă.</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -200,9 +211,9 @@
             {
               "type": "bullets",
               "items": [
-                "În limba română omitem adesea pronumele subiect: spunem **locuiesc**, nu **eu locuiesc**.",
-                "După verbele de preferință nu folosim infinitivul: spunem **îmi place să citesc**, nu **îmi place a citi**.",
-                "Formula politicoasă **Și dumneavoastră?** ajută la continuarea firească a discuției."
+                "După „vreau”, „poți”, „trebuie” și altele nu folosim infinitivul: spunem „Vreau să merg”, nu „Vreau a merge”.",
+                "„O să” este forma obișnuită din vorbire. Forma „voi merge” este mai formală.",
+                "Când vrem să fim prietenoși, spunem „Hai să...” („Hai să bem o cafea!”)."
               ]
             }
           ]
@@ -213,7 +224,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În România, mulți oameni din marile orașe locuiesc în blocuri de apartamente. Vecinii se salută respectuos pe scara blocului cu formula **Bună ziua**. O invitație la o cafea reprezintă un pas obișnuit pentru a lega o prietenie."
+                "Românii leagă prietenii des în jurul unei mese sau al unei cafele. O invitație la cafea sau la un pahar de vin nu cere neapărat să cunoști bine persoana.",
+                "Prieteniile din studenție dau adesea legături pe viață. Multe grupuri de prieteni din facultate se văd și după douăzeci de ani, de Crăciun sau de Paști."
               ]
             }
           ]

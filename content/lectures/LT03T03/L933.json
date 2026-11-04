@@ -83,7 +83,7 @@
     },
     "ro": {
       "title": "Aspectul fizic",
-      "summary": "În această lecție învățăm să descriem aspectul fizic al unei persoane în limba română.",
+      "summary": "Înveți să descrii înfățișarea unei persoane: înălțimea, părul, ochii și hainele, cu adjective care se acordă cu substantivul.",
       "status": "draft",
       "sections": [
         {
@@ -92,7 +92,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În această lecție învățăm cuvinte pentru a descrie înfățișarea unei persoane. Vorbim despre înălțime, culoarea părului și a ochilor. Aceste noțiuni te ajută să recunoști și să prezinți oameni noi."
+                "Când așteptăm pe cineva la gară sau la cafenea, ne ajută să-i descriem înfățișarea. Românii spun repede cum arată un om: înalt sau scund, blond sau brunet, cu ochelari sau fără.",
+                "În această lecție înveți cuvintele de bază pentru aspectul fizic și vezi cum se potrivesc adjectivele cu substantivele."
               ]
             }
           ]
@@ -103,35 +104,45 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Andrei o așteaptă pe colega lui la o cafenea din Brașov. O caută cu privirea printre clienți. El vorbește la telefon cu Radu."
+                "Andrei așteaptă o colegă nouă într-o cafenea din Brașov, dar nu a văzut-o niciodată. El îi telefonează prietenului său Radu, care o cunoaște, și îl întreabă cum arată.",
+                "Radu o descrie pe scurt: este înaltă, are părul lung și negru și poartă ochelari. Andrei se uită prin cafenea și o recunoaște după jacheta albastră.",
+                "Citește dialogul și observă cum se schimbă cuvintele după gen: „înalt” și „înaltă”, „frumos” și „frumoasă”."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
-                  "speaker": "Radu",
-                  "text": "Cum arată colega ta nouă?"
-                },
-                {
                   "speaker": "Andrei",
-                  "text": "Elena este înaltă și slabă."
+                  "text": "Radu, nu știu cum arată colega noastră nouă. Cum este Elena?"
                 },
                 {
                   "speaker": "Radu",
-                  "text": "Ce culoare are părul ei?"
+                  "text": "Elena este înaltă și slabă. Are părul lung și negru."
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "Ea are părul lung și negru."
+                  "text": "Are ochii căprui sau verzi?"
                 },
                 {
                   "speaker": "Radu",
-                  "text": "Ea poartă ochelari?"
+                  "text": "Are ochii verzi și poartă ochelari."
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "Da, poartă ochelari și o jachetă albastră."
+                  "text": "Ce haine poartă azi?"
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Cred că poartă o jachetă albastră și blugi."
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Gata, cred că o văd la masa de lângă fereastră."
+                },
+                {
+                  "speaker": "Radu",
+                  "text": "Da, ea este! Îi spui că o salut."
                 }
               ]
             }
@@ -143,26 +154,26 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Verbele a fi și a avea în descrieri** Folosim verbul **a fi** cu un adjectiv și verbul **a avea** cu o trăsătură fizică.",
-                "Elena **este înaltă** și slabă.",
-                "Vezi Introducere în gramatică: Prezentul, ființare și posesie."
-              ]
-            },
-            {
-              "type": "table",
-              "html": "<table><thead><tr><th>Verb</th><th>Tip de cuvânt</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>a fi</strong></td><td><strong>adjectiv</strong></td><td><strong>Ea este înaltă.</strong></td></tr><tr><td><strong>a fi</strong></td><td><strong>adjectiv</strong></td><td><strong>El este scund.</strong></td></tr><tr><td><strong>a avea</strong></td><td><strong>substantiv</strong></td><td><strong>Ea are ochi verzi.</strong></td></tr><tr><td><strong>a avea</strong></td><td><strong>substantiv</strong></td><td><strong>El are părul scurt.</strong></td></tr></tbody></table>"
-            },
-            {
-              "type": "paragraphs",
-              "paragraphs": [
-                "**2. Poziția adjectivelor descriptive** În limba română, adjectivele stau de obicei **după substantiv** și se acordă cu el.",
-                "Ea are **părul lung** și negru.",
+                "**1. „A fi” cu adjectiv, „a avea” cu o parte a corpului** Pentru a spune cum este cineva în ansamblu, folosim **a fi** și un adjectiv. Pentru păr, ochi sau barbă folosim **a avea** și un substantiv.",
+                "Elena **este** înaltă. Ea **are** părul lung și ochii verzi.",
                 "Vezi Introducere în gramatică: Adjectivul și comparația."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Substantiv</th><th>Adjectiv</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>păr (neutru)</strong></td><td><strong>lung</strong></td><td><strong>părul lung</strong></td></tr><tr><td><strong>ochi (masculin plural)</strong></td><td><strong>căprui</strong></td><td><strong>ochi căprui</strong></td></tr><tr><td><strong>jachetă (feminin)</strong></td><td><strong>albastră</strong></td><td><strong>o jachetă albastră</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Ce descriem</th><th>Verb</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>tot omul</strong></td><td><strong>a fi</strong></td><td><strong>El este scund.</strong></td></tr><tr><td><strong>părul</strong></td><td><strong>a avea</strong></td><td><strong>Ea are părul negru.</strong></td></tr><tr><td><strong>ochii</strong></td><td><strong>a avea</strong></td><td><strong>El are ochii albaștri.</strong></td></tr><tr><td><strong>ochelari, barbă</strong></td><td><strong>a purta / a avea</strong></td><td><strong>Ea poartă ochelari.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Adverbe pentru a nuanța descrierea** Putem spune cât de mult este adevărată o trăsătură cu adverbe de grad: **foarte**, **destul de**, **puțin**. Ele stau înaintea adjectivului și nu se schimbă niciodată.",
+                "Radu este **foarte** înalt. Ana este **destul de** slabă.",
+                "Vezi Introducere în gramatică: Adverbul."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Adverb</th><th>Sens</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>foarte</strong></td><td><strong>mult</strong></td><td><strong>foarte înalt</strong></td></tr><tr><td><strong>destul de</strong></td><td><strong>mediu</strong></td><td><strong>destul de scund</strong></td></tr><tr><td><strong>puțin</strong></td><td><strong>puțin</strong></td><td><strong>puțin gras</strong></td></tr><tr><td><strong>prea</strong></td><td><strong>mai mult decât trebuie</strong></td><td><strong>prea slab</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -172,9 +183,9 @@
             {
               "type": "bullets",
               "items": [
-                "În română, spunem adesea „are părul lung”, cu substantivul articulat la final.",
-                "Adjectivul stă de obicei după substantiv, nu în fața lui.",
-                "Pentru ochii de culoare maro, românii folosesc cuvântul „căprui”."
+                "Adjectivul stă de obicei după substantiv: „o fată înaltă”, „părul lung”.",
+                "Adjectivele care se termină în -e, ca „mare” sau „verde”, au aceeași formă la masculin și la feminin singular: „un ochi verde”, „o rochie verde”. La plural: „ochi verzi”, „rochii verzi”.",
+                "Pentru a descrie culorile ochilor, românii spun „căprui” (maro), „verzi”, „albaștri” sau „negri”."
               ]
             }
           ]
@@ -185,7 +196,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În România, oamenii apreciază politețea atunci când descriu pe cineva necunoscut. Comentariile directe despre greutatea sau vârsta unei persoane sunt considerate nepotrivite."
+                "În România, oamenii vorbesc deschis despre înfățișare, dar comentariile directe despre greutate sau vârstă pot fi considerate nepoliticoase, mai ales față de o persoană necunoscută. Complimentele sunt însă apreciate: „Arăți bine!” sau „Îți stă bine!”.",
+                "Pe actele de identitate românești, buletinul menționează înălțimea și culoarea ochilor. Descrierea fizică este deci și o formulă oficială."
               ]
             }
           ]

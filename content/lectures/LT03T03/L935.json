@@ -15,6 +15,7 @@
   },
   "grammar": [
     "LT02T05",
+    "LT02T08",
     "LT02T16"
   ],
   "locales": {
@@ -83,7 +84,7 @@
     },
     "ro": {
       "title": "Vârstă, înălțime și constituție",
-      "summary": "În această lecție învățăm să descriem vârsta, înălțimea și constituția unei persoane în limba română.",
+      "summary": "Înveți să spui câți ani are cineva, cât de înalt este și cum este construit, folosind „a avea” și numerele.",
       "status": "draft",
       "sections": [
         {
@@ -92,7 +93,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Vei învăța să spui câți ani ai și cum arăți. Folosim cuvinte simple pentru înălțime și greutate. Aceste expresii sunt foarte utile în conversațiile zilnice."
+                "Vârsta și înălțimea sunt întrebări obișnuite în formulare, la doctor sau când cumperi haine. În conversație însă, românii nu întreabă ușor vârsta unei persoane adulte.",
+                "În această lecție înveți să spui câți ani ai, cât măsori și cum este o persoană ca structură."
               ]
             }
           ]
@@ -103,35 +105,45 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Mihai vorbește despre familia lui din Brașov. El descrie vârsta și înălțimea rudelor sale. Toți membrii familiei sunt diferiți."
+                "Elena completează un formular la un cabinet medical din Oradea. Asistenta o întreabă vârsta, înălțimea și greutatea. Elena răspunde pe rând, iar asistenta notează totul.",
+                "La final, asistenta vorbește scurt cu ea despre familia ei. Elena spune că tatăl ei este înalt și voinic, iar mama ei este mică și suplă.",
+                "Citește cu atenție cum se spun numerele: „douăzeci și opt de ani”, „un metru și șaizeci și cinci”."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
-                  "speaker": "Ana",
-                  "text": "Câți ani are fratele tău?"
+                  "speaker": "Asistenta",
+                  "text": "Bună ziua! Câți ani aveți?"
                 },
                 {
-                  "speaker": "Mihai",
-                  "text": "Radu are douăzeci și cinci de ani."
+                  "speaker": "Elena",
+                  "text": "Am douăzeci și opt de ani."
                 },
                 {
-                  "speaker": "Ana",
-                  "text": "Este înalt?"
+                  "speaker": "Asistenta",
+                  "text": "Ce înălțime aveți?"
                 },
                 {
-                  "speaker": "Mihai",
-                  "text": "Da, este înalt și destul de slab."
+                  "speaker": "Elena",
+                  "text": "Am un metru și șaizeci și cinci."
                 },
                 {
-                  "speaker": "Ana",
-                  "text": "Și bunicul tău cum este?"
+                  "speaker": "Asistenta",
+                  "text": "Și cât cântăriți, aproximativ?"
                 },
                 {
-                  "speaker": "Mihai",
-                  "text": "Bunicul are șaptezeci de ani și este scund."
+                  "speaker": "Elena",
+                  "text": "Cântăresc cincizeci și opt de kilograme."
+                },
+                {
+                  "speaker": "Asistenta",
+                  "text": "Mulțumesc, este suficient pentru formular."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Cu plăcere. Pot să întreb ceva despre analize?"
                 }
               ]
             }
@@ -143,26 +155,26 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Vârsta cu verbul a avea** Pentru vârstă folosim verbul **a avea**, urmat de număr și cuvintele **ani** sau **de ani**.",
-                "Radu are douăzeci și cinci de ani.",
-                "Vezi Introducere în gramatică: Prezentul, ființare și posesie."
+                "**1. Vârsta se spune cu „a avea”** În română nu spunem „sunt douăzeci de ani”. Spunem **am** douăzeci de ani. Cu numerele de la 20 în sus punem și cuvântul **de** înaintea lui „ani”.",
+                "**Am** douăzeci și opt **de** ani. Fratele meu **are** doisprezece ani.",
+                "Vezi Introducere în gramatică: Numeralul, data și ora."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Persoană</th><th>Formă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>am</strong></td><td><strong>Am douăzeci de ani.</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>ai</strong></td><td><strong>Ai douăzeci de ani.</strong></td></tr><tr><td><strong>el / ea</strong></td><td><strong>are</strong></td><td><strong>Are douăzeci de ani.</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>avem</strong></td><td><strong>Avem douăzeci de ani.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Număr</th><th>Cum spunem</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>2–19</strong></td><td><strong>fără „de”</strong></td><td><strong>Are doisprezece ani.</strong></td></tr><tr><td><strong>20 și mai mult</strong></td><td><strong>cu „de”</strong></td><td><strong>Am treizeci de ani.</strong></td></tr><tr><td><strong>21</strong></td><td><strong>cu „de”</strong></td><td><strong>Are douăzeci și unu de ani.</strong></td></tr><tr><td><strong>100</strong></td><td><strong>cu „de”</strong></td><td><strong>Bunica are o sută de ani.</strong></td></tr></tbody></table>"
             },
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**2. Întrebări despre vârstă și aspect** Întrebăm despre vârstă cu formula **câți ani** și verbul **a avea**.",
-                "Câți ani are fratele tău?",
-                "Vezi Introducere în gramatică: Negația și întrebările."
+                "**2. Adjective pentru înălțime și constituție** Folosim **a fi** cu adjectivul și acordăm adjectivul cu persoana. Pentru măsuri folosim **a avea** sau **a măsura**.",
+                "Tata **este** înalt și voinic. Mama **este** mică și suplă.",
+                "Vezi Introducere în gramatică: Adjectivul și comparația."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Întrebare</th><th>Răspuns</th></tr></thead><tbody><tr><td><strong>Câți ani ai?</strong></td><td><strong>Am treizeci de ani.</strong></td></tr><tr><td><strong>Ești înalt?</strong></td><td><strong>Da, sunt înalt.</strong></td></tr><tr><td><strong>Cum este el?</strong></td><td><strong>El este slab și scund.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Masculin</th><th>Feminin</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>înalt</strong></td><td><strong>înaltă</strong></td><td><strong>Fratele meu este înalt.</strong></td></tr><tr><td><strong>scund</strong></td><td><strong>scundă</strong></td><td><strong>Sora mea este scundă.</strong></td></tr><tr><td><strong>slab</strong></td><td><strong>slabă</strong></td><td><strong>Ea este slabă.</strong></td></tr><tr><td><strong>voinic</strong></td><td><strong>voinică</strong></td><td><strong>El este voinic.</strong></td></tr><tr><td><strong>suplu</strong></td><td><strong>suplă</strong></td><td><strong>Ea este suplă.</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -172,9 +184,9 @@
             {
               "type": "bullets",
               "items": [
-                "În limba română folosim verbul **a avea** pentru a exprima vârsta, nu verbul **a fi**.",
-                "Adjectivele precum **înalt** își schimbă forma după gen: un băiat înalt, o fată înaltă.",
-                "Folosim prepoziția **de** în structura **de ani** de la numărul douăzeci în sus: douăzeci de ani."
+                "Pentru înălțime se spune „măsor un metru și optzeci” sau „am un metru și optzeci”.",
+                "Pentru greutate se spune „cântăresc șaizeci de kilograme” sau, în vorbire, „am șaizeci de kilograme”.",
+                "Vârsta nu se spune cu „a fi”. Greșeală frecventă: „Sunt douăzeci de ani”."
               ]
             }
           ]
@@ -185,7 +197,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În România se folosește exclusiv sistemul metric pentru înălțime și greutate. Înălțimea se exprimă în metri și centimetri (de exemplu, „un metru optzeci”), iar greutatea în kilograme."
+                "În România, nu este politicos să întrebi o femeie câți ani are, mai ales dacă nu o cunoști. Între prieteni, vârsta nu este un secret, dar nu se discută la prima întâlnire.",
+                "Se spune despre un om de peste șaptezeci de ani că este „în vârstă”, nu „bătrân”. Cuvântul „bătrân” poate suna dur."
               ]
             }
           ]

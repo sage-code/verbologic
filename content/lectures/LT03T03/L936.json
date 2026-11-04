@@ -83,7 +83,7 @@
     },
     "ro": {
       "title": "Compararea oamenilor",
-      "summary": "În această lecție învățăm să comparăm două sau mai multe persoane în limba română.",
+      "summary": "Înveți să compari oameni: „mai înalt decât”, „la fel de înalt ca”, „cel mai înalt”.",
       "status": "draft",
       "sections": [
         {
@@ -92,7 +92,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Lecția prezintă structurile simple pentru a compara calitățile oamenilor. Veți învăța să spuneți cine este mai înalt sau cel mai tânăr. Aceste expresii vă ajută în conversațiile zilnice despre prieteni și familie."
+                "Oamenii se compară mereu: cine este mai înalt, mai tânăr, mai harnic. Limba română are modele clare pentru comparație.",
+                "În lecția aceasta înveți trei structuri: „mai ... decât”, „la fel de ... ca” și „cel mai ...”."
               ]
             }
           ]
@@ -103,27 +104,37 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Mihai și Andrei sunt colegi de birou în Brașov. Ei vorbesc despre prietenii lor din facultate."
+                "Familia Popescu are trei copii: Mihai, Ioana și Andrei. Toți trei se aseamănă, dar nu sunt la fel. Mihai este cel mai mare, dar Andrei este cel mai înalt. Ioana este cea mai mică, însă cea mai vorbăreață.",
+                "Într-o seară, la masă, bunica îi privește și îi compară în glumă. Părinții ascultă și zâmbesc.",
+                "Observă cum se schimbă cuvintele după gen: „cel mai înalt” pentru băiat, „cea mai înaltă” pentru fată."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
-                  "speaker": "Mihai",
-                  "text": "Dan este mai înalt decât Radu?"
-                },
-                {
-                  "speaker": "Andrei",
-                  "text": "Da, Dan este mai înalt, dar Radu este mai puternic."
+                  "speaker": "Bunica",
+                  "text": "Mihai este mai mare decât Ioana, dar Andrei este mai înalt decât amândoi."
                 },
                 {
                   "speaker": "Mihai",
-                  "text": "Cine este cel mai tânăr din grup?"
+                  "text": "Da, dar eu sunt la fel de harnic ca el."
+                },
+                {
+                  "speaker": "Ioana",
+                  "text": "Eu sunt cea mai mică, dar și cea mai vorbăreață."
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "Elena este cea mai tânără și este la fel de veselă ca Dan."
+                  "text": "Asta este adevărat! Tu vorbești mai mult decât noi toți."
+                },
+                {
+                  "speaker": "Bunica",
+                  "text": "Haideți, copii, mâncați! Sarmalele se răcesc."
+                },
+                {
+                  "speaker": "Mihai",
+                  "text": "Sunt cele mai bune sarmale din lume, bunico!"
                 }
               ]
             }
@@ -135,26 +146,26 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Comparativul de superioritate** Folosim cuvântul **mai** în fața adjectivului și **decât** pentru a compara două persoane.",
-                "Dan este mai înalt decât Radu?",
+                "**1. Comparativul: „mai ... decât” și „la fel de ... ca”** Pentru a spune că o persoană are mai mult dintr-o calitate, folosim **mai** înaintea adjectivului și **decât** înaintea celui cu care comparăm. Pentru egalitate folosim **la fel de ... ca**.",
+                "Mihai este **mai** mare **decât** Ioana. Eu sunt **la fel de** harnic **ca** el.",
                 "Vezi Introducere în gramatică: Adjectivul și comparația."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Adjectiv</th><th>Comparativ</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>înalt</strong></td><td><strong>mai înalt</strong></td><td><strong>Dan este mai înalt decât Radu.</strong></td></tr><tr><td><strong>tânăr</strong></td><td><strong>mai tânăr</strong></td><td><strong>Mihai este mai tânăr decât Radu.</strong></td></tr><tr><td><strong>veselă</strong></td><td><strong>mai veselă</strong></td><td><strong>Elena este mai veselă decât Dan.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Structură</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>mai + adjectiv + decât</strong></td><td><strong>Andrei este mai înalt decât Mihai.</strong></td></tr><tr><td><strong>la fel de + adjectiv + ca</strong></td><td><strong>Ioana este la fel de harnică ca mama.</strong></td></tr><tr><td><strong>mai puțin + adjectiv + decât</strong></td><td><strong>Radu este mai puțin vorbăreț decât Ioana.</strong></td></tr></tbody></table>"
             },
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**2. Superlativul relativ** Folosim **cel mai** sau **cea mai** în fața adjectivului pentru a exprima gradul cel mai înalt dintr-un grup.",
-                "Cine este cel mai tânăr din grup?",
+                "**2. Superlativul: „cel mai”, „cea mai”** Pentru a spune că cineva este primul dintr-un grup, punem **cel mai** (masculin) sau **cea mai** (feminin) înaintea adjectivului. La plural: **cei mai**, **cele mai**.",
+                "Andrei este **cel mai** înalt. Ioana este **cea mai** vorbăreață.",
                 "Vezi Introducere în gramatică: Adjectivul și comparația."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Gen și număr</th><th>Formă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>Masculin singular</strong></td><td><strong>cel mai tânăr</strong></td><td><strong>Dan este cel mai tânăr coleg.</strong></td></tr><tr><td><strong>Feminin singular</strong></td><td><strong>cea mai tânără</strong></td><td><strong>Elena este cea mai tânără colegă.</strong></td></tr><tr><td><strong>Masculin plural</strong></td><td><strong>cei mai tineri</strong></td><td><strong>Ei sunt cei mai tineri din grup.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Gen</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>masculin</strong></td><td><strong>cel mai înalt</strong></td><td><strong>cei mai înalți</strong></td></tr><tr><td><strong>feminin</strong></td><td><strong>cea mai înaltă</strong></td><td><strong>cele mai înalte</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -164,9 +175,9 @@
             {
               "type": "bullets",
               "items": [
-                "În limba română nu adăugăm sufixe la adjectiv pentru comparație, ci folosim cuvântul **mai**.",
-                "Pentru egalitate, folosim expresia **la fel de** urmată de adjectiv și de cuvântul **ca**.",
-                "Adjectivul își schimbă forma după gen și număr chiar și la comparativ."
+                "Unele adjective au comparativ neregulat: „bun – mai bun”, dar la adverb „bine – mai bine”.",
+                "„Mic” are comparativul „mai mic”, iar „mare” are „mai mare”.",
+                "În comparații cu un verb folosim „ca” sau „decât”: „Aleargă mai repede decât mine”."
               ]
             }
           ]
@@ -177,7 +188,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Românii fac adesea comparații prietenoase când povestesc despre colegi sau rude la o cafea. În conversațiile informale, umorul cald și glumele ușoare între prieteni apropiați sunt foarte apreciate."
+                "Românii compară des lucrurile, în glumă sau în serios, și multe proverbe se bazează pe comparație: „Mai bine mai târziu decât niciodată”.",
+                "La masă, comparațiile despre mâncare sunt un compliment frecvent: „Nicăieri nu se mănâncă mai bine decât la bunica”."
               ]
             }
           ]
