@@ -108,7 +108,7 @@
     },
     "ro": {
       "title": "Prezentarea altei persoane",
-      "summary": "În această lecție înveți cum să prezinți o altă persoană în limba română.",
+      "summary": "Înveți cum prezinți un prieten, un coleg sau un membru al familiei și cum răspunzi când ești prezentat.",
       "status": "draft",
       "sections": [
         {
@@ -117,7 +117,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În această lecție înveți cum să prezinți un prieten sau un coleg. Aceste expresii simple te ajută atunci când faci prezentările. Sunt utile în conversațiile de zi cu zi."
+                "Uneori trebuie să prezentăm o persoană alteia. Românii folosesc formule simple și politicoase pentru asta.",
+                "În această lecție înveți să spui cine este cineva și cum să răspunzi."
               ]
             }
           ]
@@ -128,31 +129,53 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Andrei este la o cafenea din Brașov cu prietena lui, Elena. Colegul lui, Radu, vine la masa lor. Andrei face prezentările."
+                "Elena are un oaspete acasă, la o cină mică. Ea îi prezintă pe Andrei și pe sora ei, Ioana. Mai întâi spune numele, apoi un lucru despre fiecare. Cei doi își strâng mâna.",
+                "Citește dialogul și vezi cum se prezintă oamenii cu „el este” și „ea este”.",
+                "Dacă prezinți doi oameni care nu se cunosc, încearcă să spui un lucru care îi leagă, de exemplu o meserie sau un oraș. Așa conversația pornește mai ușor."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
+                  "speaker": "Elena",
+                  "text": "Andrei, ea este sora mea, Ioana. Ioana, el este Andrei."
+                },
+                {
+                  "speaker": "Ioana",
+                  "text": "Încântată de cunoștință, Andrei!"
+                },
+                {
                   "speaker": "Andrei",
-                  "text": "Elena, acesta este colegul meu, Radu."
+                  "text": "Mie îmi pare bine, Ioana! Elena mi-a vorbit despre tine."
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Bună, Radu! Îmi pare bine de cunoștință."
+                  "text": "Ioana este profesoară de engleză, iar Andrei este inginer."
                 },
                 {
-                  "speaker": "Radu",
-                  "text": "Bună, Elena! Încântat de cunoștință."
+                  "speaker": "Ioana",
+                  "text": "Ce interesant! Unde lucrezi, Andrei?"
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Lucrez la o firmă din București. Sunt aici de doi ani."
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Lucrezi împreună cu Andrei?"
+                  "text": "Și acum, haideți la masă!"
                 },
                 {
-                  "speaker": "Radu",
-                  "text": "Da, lucrăm la aceeași companie."
+                  "speaker": "Ioana",
+                  "text": "Și de unde ești, mai exact?"
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Sunt din Brașov, dar acum locuiesc la București."
+                },
+                {
+                  "speaker": "Ioana",
+                  "text": "Eu sunt din Cluj, ca Elena. Suntem surori de oraș!"
                 }
               ]
             }
@@ -164,26 +187,26 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Prezentarea cu pronume demonstrativ** Folosim **acesta este** pentru masculin și **aceasta este** pentru feminin.",
-                "Elena, **acesta este** colegul meu, Radu.",
-                "Vezi Introducere în gramatică: Alte pronume."
+                "**1. Pronumele „el” și „ea”** Pentru o persoană folosim **el** (bărbat) sau **ea** (femeie). Pentru mai multe persoane folosim **ei** sau **ele**. Verbul „a fi” are aceeași formă la „el” și la „ea”.",
+                "**El** este Andrei. **Ea** este Ioana. **Ei** sunt colegi.",
+                "Vezi Introducere în gramatică: Pronumele personale și adresarea."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Formă</th><th>Gen și număr</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>acesta este</strong></td><td><strong>masculin singular</strong></td><td><strong>Acesta este Radu.</strong></td></tr><tr><td><strong>aceasta este</strong></td><td><strong>feminin singular</strong></td><td><strong>Aceasta este Elena.</strong></td></tr><tr><td><strong>aceștia sunt</strong></td><td><strong>masculin plural</strong></td><td><strong>Aceștia sunt colegii mei.</strong></td></tr><tr><td><strong>acestea sunt</strong></td><td><strong>feminin plural</strong></td><td><strong>Acestea sunt colegele mele.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Pronume</th><th>Verb</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>el</strong></td><td><strong>este</strong></td><td><strong>El este inginer.</strong></td></tr><tr><td><strong>ea</strong></td><td><strong>este</strong></td><td><strong>Ea este profesoară.</strong></td></tr><tr><td><strong>ei</strong></td><td><strong>sunt</strong></td><td><strong>Ei sunt frați.</strong></td></tr><tr><td><strong>ele</strong></td><td><strong>sunt</strong></td><td><strong>Ele sunt surori.</strong></td></tr></tbody></table>"
             },
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**2. Adjectivul posesiv** În limba română, adjectivul posesiv **meu** stă de obicei după substantiv.",
-                "Elena, acesta este colegul **meu**, Radu.",
-                "Vezi Introducere în gramatică: Articole și determinanți."
+                "**2. „Este” și „sunt”** Folosim **este** pentru o singură persoană și **sunt** pentru mai multe. În vorbire spunem des **e** în loc de „este”.",
+                "Ioana **este** profesoară. Ei **sunt** prieteni.",
+                "Vezi Introducere în gramatică: Prezentul, ființare și posesie."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Persoană</th><th>Masculin singular</th><th>Feminin singular</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>prietenul meu</strong></td><td><strong>prietena mea</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>prietenul tău</strong></td><td><strong>prietena ta</strong></td></tr><tr><td><strong>el</strong></td><td><strong>prietenul lui</strong></td><td><strong>prietena lui</strong></td></tr><tr><td><strong>ea</strong></td><td><strong>prietenul ei</strong></td><td><strong>prietena ei</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>Ea este sora mea.</strong></td><td><strong>Ele sunt surorile mele.</strong></td></tr><tr><td><strong>El este colegul meu.</strong></td><td><strong>Ei sunt colegii mei.</strong></td></tr><tr><td><strong>Ea este din Cluj.</strong></td><td><strong>Ele sunt din Cluj.</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -193,9 +216,10 @@
             {
               "type": "bullets",
               "items": [
-                "Spre deosebire de limba engleză, adjectivul posesiv stă de obicei după substantiv: colegul meu.",
-                "Răspunsul obișnuit la o prezentare este expresia „Îmi pare bine”.",
-                "Folosește „aceasta este” pentru o femeie și „acesta este” pentru un bărbat."
+                "Răspundem la o prezentare cu „Încântat” (un bărbat) sau „Încântată” (o femeie).",
+                "Când prezentăm două persoane, spunem mai întâi numele celei mai în vârstă sau mai importante.",
+                "La o ocazie oficială spunem „Vă prezint pe domnul Popescu”.",
+                "Când prezentăm un copil sau un prieten apropiat, spunem pur și simplu: „El este Mihai”."
               ]
             }
           ]
@@ -206,7 +230,9 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În România, oamenii dau adesea mâna când fac cunoștință pentru prima dată. Formula de politețe „Îmi pare bine” este potrivită în orice situație."
+                "În România, când ești prezentat, strângi mâna și spui numele. Într-un grup de prieteni, cei care se cunosc deja pot face o prezentare în glumă, dar scurtă.",
+                "Familia contează foarte mult, așa că oamenii spun adesea cine este cine: „sora mea”, „unchiul meu”, „colegul meu”.",
+                "La mesele din România, gazda prezintă adesea invitații unii altora. Ea poate spune și câteva cuvinte despre fiecare, pentru ca toți să se simtă bine."
               ]
             }
           ]

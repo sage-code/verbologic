@@ -84,7 +84,7 @@
     },
     "ro": {
       "title": "Frați, surori și veri",
-      "summary": "În această lecție înveți să vorbești simplu despre frați, surori și veri în limba română.",
+      "summary": "Înveți să vorbești despre frați, surori și veri și să folosești cuvintele „meu”, „mea”, „mei”, „mele”.",
       "status": "draft",
       "sections": [
         {
@@ -93,7 +93,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Lecția te ajută să prezinți membrii familiei tale. Înveți cuvintele pentru frați, surori și veri. De asemenea, poți spune cine este mai mare sau mai mic."
+                "Românii vorbesc des despre frați și surori, dar și despre veri și verișoare. Verii apropiați sunt ca niște frați.",
+                "În lecția aceasta înveți numele rudelor din generația ta și folosești cuvintele care arată cui aparțin."
               ]
             }
           ]
@@ -104,35 +105,45 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Andrei povestește despre familia lui. El locuiește în Brașov. Andrei vorbește acum cu prietena lui, Elena."
+                "Andrei vorbește la telefon cu Elena despre weekend. Ea îi spune că vine în vizită la ea acasă un văr din Iași, pe nume Radu. Radu are o soră, Ana, care este verișoara Elenei.",
+                "Elena are un frate, Mihai, și o soră, Ioana, iar verii ei locuiesc în alte orașe. Frații și verii se văd de Paști, la bunici, la țară.",
+                "Observă cum spunem „fratele meu”, dar „sora mea”: cuvântul „meu” se potrivește cu persoana despre care vorbim."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
-                  "speaker": "Elena",
-                  "text": "Ai frați sau surori, Andrei?"
-                },
-                {
                   "speaker": "Andrei",
-                  "text": "Da, am un frate și două surori."
+                  "text": "Elena, cu cine vii la petrecere?"
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Fratele tău este mai mare decât tine?"
+                  "text": "Vin cu fratele meu, Mihai, și cu sora mea, Ioana."
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "Da, el este mai mare decât mine, iar surorile sunt mai mici."
+                  "text": "Mai ai și alți frați?"
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Ai și veri în Brașov?"
+                  "text": "Nu, dar am mulți veri. Vărul meu, Radu, vine din Iași."
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "Am un văr și o verișoară în Brașov."
+                  "text": "Și are frați?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Da, are o soră, pe Ana. Verișoara mea este foarte simpatică."
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Mă bucur să îi cunosc pe toți."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Ei sunt prietenii mei preferați. Ne înțelegem foarte bine."
                 }
               ]
             }
@@ -144,26 +155,26 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Comparația cu „mai mare decât”** Pentru a compara două persoane, punem **mai** înaintea adjectivului și **decât** după adjectiv.",
-                "Da, el este **mai mare decât** mine, iar surorile sunt mai mici.",
-                "Vezi Introducere în gramatică: Adjectivul și comparația."
-              ]
-            },
-            {
-              "type": "table",
-              "html": "<table><thead><tr><th>Formă de bază</th><th>Comparație</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>mare</strong></td><td><strong>mai mare decât</strong></td><td><strong>Fratele este mai mare decât mine.</strong></td></tr><tr><td><strong>mic</strong></td><td><strong>mai mic decât</strong></td><td><strong>Sora este mai mică decât mine.</strong></td></tr><tr><td><strong>tânăr</strong></td><td><strong>mai tânăr decât</strong></td><td><strong>Vărul este mai tânăr decât mine.</strong></td></tr></tbody></table>"
-            },
-            {
-              "type": "paragraphs",
-              "paragraphs": [
-                "**2. Genul și numărul pentru rude** Substantivele pentru rude au forme diferite la genul masculin și feminin, singular și plural.",
-                "Da, am un **frate** și două **surori**.",
+                "**1. Genul substantivelor** Substantivele românești au gen: masculin, feminin sau neutru. Genul ne arată ce formă trebuie să aibă cuvintele din jur, de exemplu „meu” sau „mea”.",
+                "**fratele meu**, **sora mea**, **frații mei**, **surorile mele**",
                 "Vezi Introducere în gramatică: Substantivul: tipuri, gen și număr."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Masculin singular</th><th>Feminin singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>un frate</strong></td><td><strong>o soră</strong></td><td><strong>doi frați / două surori</strong></td></tr><tr><td><strong>un văr</strong></td><td><strong>o verișoară</strong></td><td><strong>doi veri / două verișoare</strong></td></tr><tr><td><strong>un fiu</strong></td><td><strong>o fiică</strong></td><td><strong>doi fii / două fiice</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Persoana</th><th>Masculin</th><th>Feminin</th></tr></thead><tbody><tr><td><strong>frate / soră</strong></td><td><strong>fratele meu</strong></td><td><strong>sora mea</strong></td></tr><tr><td><strong>văr / verișoară</strong></td><td><strong>vărul meu</strong></td><td><strong>verișoara mea</strong></td></tr><tr><td><strong>prieten / prietenă</strong></td><td><strong>prietenul meu</strong></td><td><strong>prietena mea</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Cuvintele „meu”, „mea”, „mei”, „mele”** În română, cuvântul care arată posesia vine după substantiv. El se potrivește cu genul și cu numărul substantivului, nu cu cel care vorbește.",
+                "**Fratele meu** are un frate. **Surorile mele** au trei veri.",
+                "Vezi Introducere în gramatică: Articole și determinanți."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Substantiv</th><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>masculin</strong></td><td><strong>fratele meu</strong></td><td><strong>frații mei</strong></td></tr><tr><td><strong>feminin</strong></td><td><strong>sora mea</strong></td><td><strong>surorile mele</strong></td></tr><tr><td><strong>masculin</strong></td><td><strong>vărul meu</strong></td><td><strong>verii mei</strong></td></tr><tr><td><strong>feminin</strong></td><td><strong>verișoara mea</strong></td><td><strong>verișoarele mele</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -173,9 +184,9 @@
             {
               "type": "bullets",
               "items": [
-                "În limba română folosim **văr** pentru băieți și **verișoară** pentru fete.",
-                "Româna nu are un cuvânt unic pentru frați și surori la un loc.",
-                "După cuvântul **decât** folosim forma de pronume **mine**, nu forma *eu*."
+                "„Meu” și „mea” arată posesia. „Eu” este pronumele: „Eu am o soră”.",
+                "La singular spunem „fratele meu”, la plural „frații mei”. Cuvintele se schimbă amândouă.",
+                "Cuvântul „văr” are o formă pentru fete: „verișoară”."
               ]
             }
           ]
@@ -186,7 +197,9 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În România, relațiile din familia extinsă sunt adesea foarte contractate și apropiate. Verii își petrec frecvent vacanțele de vară împreună, la bunici. La sărbători mari, toată familia se adună în jurul mesei."
+                "În România, rudele se văd mult, mai ales de sărbători. Verii mai mici merg adesea împreună în vacanță la bunici, la țară.",
+                "Prietenii foarte apropiați sunt numiți uneori „frate” sau „soră” în vorbirea tinerilor, chiar dacă nu sunt rude.",
+                "Verii de gradul întâi își spun adesea pe nume, fără „unchi” sau „mătușă”. Cei mai mici nu folosesc titluri, dar cei mai tineri le spun „nene” sau „tanti” oamenilor mai în vârstă din familie."
               ]
             }
           ]

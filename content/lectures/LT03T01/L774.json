@@ -138,7 +138,7 @@
     },
     "ro": {
       "title": "Salutul și prezentarea",
-      "summary": "Înveți să saluți, să spui numele tău și să folosești verbul a fi.",
+      "summary": "Înveți să saluți, să-ți spui numele și locul de unde ești, cu verbul „a fi” și cu întrebările de bază.",
       "status": "draft",
       "sections": [
         {
@@ -147,7 +147,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În această lecție înveți să saluți în limba română. Spui numele tău și de unde ești. Aceste fraze simple te ajută la prima întâlnire cu oameni noi."
+                "Când întâlnești un om nou în România, spui mai întâi „Bună ziua!”, apoi îți spui numele. De obicei adaugi și orașul de unde ești.",
+                "În această lecție înveți câteva fraze scurte pe care le folosești în fiecare zi. Ele sunt primul pas într-o conversație."
               ]
             }
           ]
@@ -158,7 +159,9 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Andrei și Elena sunt la un curs în București. Ei fac cunoștință înainte de începerea orei."
+                "Andrei vine la un curs de limba română în București. În sala de curs o întâlnește pe Elena. Ea este din Cluj și lucrează acum în capitală. Cei doi își strâng mâna și fac cunoștință.",
+                "Observă cum vorbesc ei. Folosesc forme scurte și clare, iar întrebările sunt simple.",
+                "Pe parcursul cursului, ei vor mai vorbi des. Pentru prima zi, este suficient să știi cum te prezinți, cum întrebi cum îl cheamă pe celălalt și de unde este."
               ]
             },
             {
@@ -166,7 +169,7 @@
               "lines": [
                 {
                   "speaker": "Andrei",
-                  "text": "Bună! Numele meu este Andrei."
+                  "text": "Bună ziua! Mă numesc Andrei. Tu cum te cheamă?"
                 },
                 {
                   "speaker": "Elena",
@@ -174,15 +177,39 @@
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "Îmi pare bine! Ești din București?"
+                  "text": "Și mie îmi pare bine. De unde ești, Elena?"
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Nu, sunt din Brașov. Tu de unde ești?"
+                  "text": "Sunt din Cluj. Dar tu? De unde ești?"
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "Eu sunt din Cluj."
+                  "text": "Eu sunt din Brașov. Acum locuiesc în București."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Ce frumos! Eu sunt studentă aici."
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Eu sunt inginer. Mă bucur că ne-am cunoscut."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Și eu. Ne vedem la curs!"
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Spune-mi, este prima ta zi la curs?"
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Da, este prima mea zi. Sunt puțin emoționată."
+                },
+                {
+                  "speaker": "Andrei",
+                  "text": "Nu-ți face griji. Profesorul este foarte amabil."
                 }
               ]
             }
@@ -194,14 +221,26 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Verbul a fi la prezent** Verbul **a fi** își schimbă forma în funcție de persoană.",
-                "Nu, **sunt** din Brașov.",
+                "**1. Verbul „a fi” la prezent** Verbul **a fi** își schimbă forma după persoană. În română nu spunem de obicei pronumele, pentru că forma verbului arată cine vorbește.",
+                "**Sunt** din Cluj. **Ești** student? Ea **este** studentă.",
                 "Vezi Introducere în gramatică: Prezentul, ființare și posesie."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Persoană</th><th>Formă</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>sunt</strong></td><td><strong>Sunt Andrei.</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>ești</strong></td><td><strong>Ești din Brașov.</strong></td></tr><tr><td><strong>el, ea</strong></td><td><strong>este (e)</strong></td><td><strong>Este student.</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>suntem</strong></td><td><strong>Suntem din Cluj.</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Persoana</th><th>Forma</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>eu</strong></td><td><strong>sunt</strong></td><td><strong>Eu sunt Andrei.</strong></td></tr><tr><td><strong>tu</strong></td><td><strong>ești</strong></td><td><strong>Tu ești Elena.</strong></td></tr><tr><td><strong>el / ea</strong></td><td><strong>este (sau e)</strong></td><td><strong>Ea este din Cluj.</strong></td></tr><tr><td><strong>noi</strong></td><td><strong>suntem</strong></td><td><strong>Noi suntem colegi.</strong></td></tr><tr><td><strong>voi / dumneavoastră</strong></td><td><strong>sunteți</strong></td><td><strong>Voi sunteți din Iași?</strong></td></tr><tr><td><strong>ei / ele</strong></td><td><strong>sunt</strong></td><td><strong>Ei sunt prieteni.</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Întrebările „Cum?” și „De unde?”** Pentru a afla un nume sau un loc, folosim cuvinte de întrebare la începutul propoziției. Ordinea cuvintelor nu se schimbă mult, iar vocea urcă puțin la sfârșit.",
+                "**De unde ești?** **Cum te cheamă?**",
+                "Vezi Introducere în gramatică: Negația și întrebările."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Întrebare</th><th>Răspuns</th></tr></thead><tbody><tr><td><strong>Cum te cheamă?</strong></td><td><strong>Mă cheamă Andrei.</strong></td></tr><tr><td><strong>De unde ești?</strong></td><td><strong>Sunt din Brașov.</strong></td></tr><tr><td><strong>Ce faci?</strong></td><td><strong>Învăț româna.</strong></td></tr><tr><td><strong>Cine este ea?</strong></td><td><strong>Ea este Elena.</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -211,9 +250,10 @@
             {
               "type": "bullets",
               "items": [
-                "În limba română nu repetăm mereu pronumele subiect.",
-                "După prepoziția **din** adăugăm direct numele orașului sau al țării.",
-                "Întrebările păstrează ordinea cuvintelor, dar tonul vocii urcă la sfârșit."
+                "„Mă numesc Andrei” și „Mă cheamă Andrei” înseamnă același lucru. A doua formă este mai frecventă în vorbire.",
+                "Spunem „Sunt din Cluj”, nu „Sunt de la Cluj”, când vorbim despre orașul de unde venim.",
+                "Un bărbat spune „Sunt student”, iar o femeie spune „Sunt studentă”.",
+                "În română punem punct sau semn de exclamare după salut: „Bună!” sau „Bună ziua!”."
               ]
             }
           ]
@@ -224,7 +264,9 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În România, oamenii dau mâna când fac cunoștință pentru prima dată. La prima întâlnire, românii spun cel mai des **Îmi pare bine**. Tinerii folosesc salutul informal **Bună** în fiecare zi."
+                "În România, oamenii își strâng mâna când se văd prima dată, mai ales în situații oficiale. Femeile și prietenii apropiați se salută adesea cu o sărutare pe fiecare obraz.",
+                "Ardelenii spun uneori „Servus!” în loc de „Salut!”, un cuvânt rămas din vremea Imperiului Austro-Ungar.",
+                "La început, un salut cald și un zâmbet contează mai mult decât o frază perfectă. Românii apreciază când un străin încearcă să vorbească limba lor."
               ]
             }
           ]

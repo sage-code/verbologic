@@ -84,7 +84,7 @@
     },
     "ro": {
       "title": "Bunici și rude",
-      "summary": "În această lecție învățăm cuvinte pentru bunici și rude, precum și adverbe de frecvență.",
+      "summary": "Înveți numele bunicilor și ale rudelor mai îndepărtate și folosești articolul hotărât pus la sfârșitul cuvântului.",
       "status": "draft",
       "sections": [
         {
@@ -93,7 +93,8 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În această lecție vorbim despre membrii familiei extinse. Înveți cum să spui bunic, bunică, mătușă și unchi în limba română. Aceste cuvinte te ajută să-ți descrii familia oricui."
+                "Bunicii au un loc special în familiile românești. Mulți copii își petrec vacanțele la bunici, la sat.",
+                "În lecția aceasta înveți cum se numesc rudele și cum se pune articolul la sfârșitul cuvântului."
               ]
             }
           ]
@@ -104,35 +105,46 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "Bunicii lui Andrei locuiesc la țară, într-un sat liniștit. Ei au o casă veche și o grădină mare cu flori. Duminica, toată familia vine în vizită la ei."
+                "Elena povestește despre vizita la bunici. Bunicul ei se numește Gheorghe și are optzeci de ani. Bunica, Ana, are șaptezeci și opt. Ei locuiesc într-un sat din Maramureș, cu un grajd și o grădină mare.",
+                "Pe lângă bunici, Elena are un unchi și o mătușă la Oradea. Vara, toată familia se strânge în curtea bunicilor.",
+                "Observă: spunem „bunicul” și „bunica”. Articolul se adaugă la sfârșitul cuvântului: bunic + ul, bunică + a.",
+                "Elena își sună bunicii în fiecare sâmbătă seara. Bunica o întreabă mereu dacă a mâncat și dacă îi este bine."
               ]
             },
             {
               "type": "dialog",
               "lines": [
                 {
-                  "speaker": "Elena",
+                  "speaker": "Andrei",
                   "text": "Unde locuiesc bunicii tăi?"
                 },
                 {
+                  "speaker": "Elena",
+                  "text": "Bunicii mei locuiesc la țară, în Maramureș."
+                },
+                {
                   "speaker": "Andrei",
-                  "text": "Bunicii mei locuiesc la țară, aproape de pădure."
+                  "text": "Ce faci vara la ei?"
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Mătușa și unchiul tău vin des în vizită?"
+                  "text": "Ajut bunica în grădină, iar bunicul îmi arată caii."
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "Mătușa și unchiul meu vin mereu duminica."
+                  "text": "Și unchiul tău unde stă?"
                 },
                 {
                   "speaker": "Elena",
-                  "text": "Bunica ta pregătește mâncare bună?"
+                  "text": "Unchiul meu locuiește la Oradea, cu mătușa mea."
                 },
                 {
                   "speaker": "Andrei",
-                  "text": "Bunica gătește mereu prânzul pentru toată familia."
+                  "text": "Familia ta este foarte unită."
+                },
+                {
+                  "speaker": "Elena",
+                  "text": "Da, la sărbători venim toți la bunici."
                 }
               ]
             }
@@ -144,26 +156,26 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "**1. Adverbele de frecvență** Adverbele de frecvență precum **mereu** sau **des** arată frecvența unei acțiuni.",
-                "Mătușa și unchiul meu vin **mereu** duminica.",
-                "Vezi Introducere în gramatică: Adverbul."
-              ]
-            },
-            {
-              "type": "table",
-              "html": "<table><thead><tr><th>Adverb</th><th>Sens</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>mereu</strong></td><td><strong>tot timpul</strong></td><td><strong>Noi venim mereu.</strong></td></tr><tr><td><strong>des</strong></td><td><strong>frecvent</strong></td><td><strong>Voi veniți des.</strong></td></tr><tr><td><strong>uneori</strong></td><td><strong>câteodată</strong></td><td><strong>El vine uneori.</strong></td></tr><tr><td><strong>niciodată</strong></td><td><strong>în niciun moment</strong></td><td><strong>Ei nu vin niciodată.</strong></td></tr></tbody></table>"
-            },
-            {
-              "type": "paragraphs",
-              "paragraphs": [
-                "**2. Adjectivul posesiv** În limba română, posesivul stă de obicei după substantiv, precum în **bunicii tăi**.",
-                "Unde locuiesc bunicii **tăi**?",
+                "**1. Articolul hotărât la sfârșitul cuvântului** În română articolul hotărât nu este un cuvânt separat. El se lipește la sfârșitul substantivului și arată că vorbim despre o persoană cunoscută.",
+                "**bunicul**, **bunica**, **unchiul**, **mătușa**",
                 "Vezi Introducere în gramatică: Articole și determinanți."
               ]
             },
             {
               "type": "table",
-              "html": "<table><thead><tr><th>Substantiv</th><th>Posesiv</th><th>Exemplu</th></tr></thead><tbody><tr><td><strong>bunicul</strong></td><td><strong>meu</strong></td><td><strong>bunicul meu</strong></td></tr><tr><td><strong>bunica</strong></td><td><strong>mea</strong></td><td><strong>bunica mea</strong></td></tr><tr><td><strong>bunicii</strong></td><td><strong>mei</strong></td><td><strong>bunicii mei</strong></td></tr><tr><td><strong>bunicile</strong></td><td><strong>mele</strong></td><td><strong>bunicile mele</strong></td></tr></tbody></table>"
+              "html": "<table><thead><tr><th>Fără articol</th><th>Cu articol hotărât</th></tr></thead><tbody><tr><td><strong>bunic</strong></td><td><strong>bunicul</strong></td></tr><tr><td><strong>bunică</strong></td><td><strong>bunica</strong></td></tr><tr><td><strong>unchi</strong></td><td><strong>unchiul</strong></td></tr><tr><td><strong>mătușă</strong></td><td><strong>mătușa</strong></td></tr><tr><td><strong>copii</strong></td><td><strong>copiii</strong></td></tr></tbody></table>"
+            },
+            {
+              "type": "paragraphs",
+              "paragraphs": [
+                "**2. Plural și gen la rude** Majoritatea cuvintelor pentru rude au o formă masculină și una feminină. Pluralul ne arată dacă sunt mai multe persoane.",
+                "**bunici** (bunicul și bunica împreună), **unchi și mătuși**.",
+                "Vezi Introducere în gramatică: Substantivul: tipuri, gen și număr."
+              ]
+            },
+            {
+              "type": "table",
+              "html": "<table><thead><tr><th>Singular</th><th>Plural</th></tr></thead><tbody><tr><td><strong>bunic / bunică</strong></td><td><strong>bunici / bunice</strong></td></tr><tr><td><strong>unchi</strong></td><td><strong>unchi</strong></td></tr><tr><td><strong>mătușă</strong></td><td><strong>mătuși</strong></td></tr><tr><td><strong>văr</strong></td><td><strong>veri</strong></td></tr></tbody></table>"
             }
           ]
         },
@@ -173,9 +185,9 @@
             {
               "type": "bullets",
               "items": [
-                "Cuvântul românesc „rude” se referă la membrii familiei, nu la comportament.",
-                "Spunem „bunicii mei”, cu posesivul după substantiv, nu înainte.",
-                "Mulți copii din România își numesc bunicii cu dragoste „mamaie” și „tataie”."
+                "„Bunici” poate însemna doar bunicii de parte bărbătească sau ambii bunici.",
+                "Spunem „la bunici” când ne referim la casa bunicilor.",
+                "Pentru rudele părinților avem două cuvinte: „unchi” și „mătușă”. La sate, copiii le spun și „nene” și „tanti”."
               ]
             }
           ]
@@ -186,7 +198,9 @@
             {
               "type": "paragraphs",
               "paragraphs": [
-                "În România, bunicii de la țară găzduiesc adesea nepoții pe durata vacanței de vară. Prânzul de duminică adună toate rudele în jurul mesei pentru mâncăruri tradiționale delicioase. Familia extinsă joacă un rol foarte important în societatea românească."
+                "În sate, bunicii stau adesea în aceeași curte cu o parte din familie. Nepoții îi ajută la grădină și învață de la ei povești, obiceiuri și rețete.",
+                "Mulți bunici românești fac dulceață, murături și pâine de casă. Cei mici le gustă mereu cu bucurie.",
+                "De Paști și de Crăciun, familia se strânge la bunici. Bunica pregătește sarmale, cozonac sau drob, iar bunicul taie lemne sau aduce vin de casă."
               ]
             }
           ]
